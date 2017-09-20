@@ -59,21 +59,21 @@ button{
 
   // Button Sizes
   &.btn-S{
-    letter-spacing: -0.33;
+    letter-spacing: -0.33px;
     font-size: 14px;
     line-height: 20px;
     padding: 8px 20px;
   }
 
   &.btn-M{
-    letter-spacing: -0.33;
+    letter-spacing: -0.33px;
     font-size: 16px;
     line-height: 20px;
     padding: 10px 20px;
   }
 
   &.btn-L{
-    letter-spacing: -0.43;
+    letter-spacing: -0.43px;
     font-size: 18px;
     line-height: 22px;
     padding: 14px 20px;
@@ -89,5 +89,19 @@ button{
     width: 100%;
     padding-right: 0px;
     padding-left: 0px;
+  }
+}
+
+.btn-icon-cart{
+  overflow: hidden;
+  background: url("../images/icon/cart.svg") no-repeat;
+  background-position: top center;
+  -webkit-transition: all 0.3s ease-in-out;
+          transition: all 0.3s ease-in-out;
+
+  &:hover{
+    background-position: center center;
+    -webkit-transition: all 0.3s ease-in-out;
+            transition: all 0.3s ease-in-out;
   }
 }
