@@ -1,0 +1,140 @@
+/***************************************************
+/* Typography
+/* Price, standard type styles
+***************************************************/
+
+.price{
+  font-family: $font-headline;
+  font-weight: $font-weight-bold;
+  color: $color-nightsky;
+
+  &.price-XL{
+    font-size: 40px;
+    line-height: 38px;
+    letter-spacing: -0.75;
+  }
+
+  &.price-L{
+    font-size: 34px;
+    line-height: 24px;
+    letter-spacing: -1.06;
+  }
+
+  &.price-M{
+    font-size: 24px;
+    letter-spacing: -0.75px;
+    line-height: 24px;
+  }
+
+  &.price-S{
+    font-size: 20px;
+    letter-spacing: -0.62px;
+    line-height: 20px;
+  }
+}
+
+
+// Title Text Styles
+.title{
+  font-family: $font-headline;
+  font-weight: $font-weight-regular;
+  color: $color-nightsky;
+}
+
+.title-XL{
+  font-size: 24px;
+  letter-spacing: -0.64px;
+  line-height: 28px;
+}
+
+.title-L{
+  font-size: 20px;
+  letter-spacing: -0.54px;
+  line-height: 24px;
+}
+
+.title-M{
+  font-size: 16px;
+  letter-spacing: -0.43px;
+  line-height: 20px;
+}
+
+.title-S{
+  font-size: 14px;
+  letter-spacing: -0.37px;
+  line-height: 18px;
+}
+
+// Standard Text
+.std-txt{
+  color: $color-slate;
+  font-weight: $font-weight-regular;
+
+  &.std-txt-L{
+    font-size: 18px;
+    letter-spacing: -0.6px;
+    line-height: 22px;
+  }
+
+  &.std-txt-M{
+    font-size: 16px;
+    letter-spacing: -0.54px;
+    line-height: 20px;
+  }
+
+  &.std-txt-S{
+    font-size: 14px;
+    letter-spacing: -0.43px;
+    line-height: 18px;
+  }
+
+  &.std-txt-XS{
+    font-size: 12px;
+    letter-spacing: -0.28px;
+    line-height: 16px;
+  }
+}
+
+// Marketing Labels
+.mrk-lbl{
+  font-family: $font-headline;
+  font-weight: $font-weight-bold;
+  color: $color-nightsky;
+
+  &.mrk-lbl-XL{
+    font-size: 50px;
+    letter-spacing: -0.6px;
+    line-height: 52px;
+  }
+
+  &.mrk-lbl-L{
+    font-size: 44px;
+    letter-spacing: -0.52px;
+    line-height: 46px;
+  }
+
+  &.mrk-lbl-M{
+    font-size: 36px;
+    letter-spacing: -0.43px;
+    line-height: 38px;
+  }
+
+   &.mrk-lbl-S{
+    font-size: 20px;
+    letter-spacing: -0.24px;
+    line-height: 24px;
+  }
+}
+
+// Alignment
+.algn-lft{
+  text-align: left;
+}
+
+.algn-mid{
+  text-align: center;
+}
+
+.algn-rght{
+  text-align: right;
+}

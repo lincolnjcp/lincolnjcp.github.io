@@ -1,0 +1,18 @@
+/*******************************************
+/* Lists
+*******************************************/
+
+.list{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  a{
+    display: block;
+  }
+
+  li{
+    line-height: 40px;
+    border-bottom: 1px solid $color-concrete;
+  }
+}

@@ -1,0 +1,38 @@
+/*********************************************
+/* Notification Messages
+*********************************************/
+
+.msg{
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+  padding: 8px 16px;
+
+  &.msg-neutral{
+    border-color: $color-neutral-border;
+    background-color: $color-neutral-fill;
+    color: $color-neutral-type;
+  }
+
+  &.msg-success{
+    border-color: $color-success-border;
+    background-color: $color-success-fill;
+    color: $color-success-type;
+  }
+
+  &.msg-warning{
+    border-color: $color-warning-border;
+    background-color: $color-warning-fill;
+    color: $color-warning-type;
+  }
+
+  .msg-close{
+    position: absolute;
+    display: block;
+    content: "X";
+    width: 32px;
+    height: 32px;
+    top: 8px;
+    right: 8px;
+  }
+}

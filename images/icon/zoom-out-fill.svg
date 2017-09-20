@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="25px" height="25px" viewBox="0 0 25 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.1 (44463) - http://www.bohemiancoding.com/sketch -->
+    <title>icon/ALL/zoom-out-fill</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M24.5283654,21.7222488 C23.8241587,21.0733254 18.4027644,15.823445 17.1206731,14.5814593 C18.1467548,13.0852871 18.7475962,11.2771531 18.7475962,9.32906699 C18.747476,4.17667464 14.5507212,0 9.37379808,0 C4.19675481,0 0,4.17667464 0,9.32894737 C0,14.4811005 4.19675481,18.6578947 9.37379808,18.6578947 C11.2091346,18.6578947 12.9197115,18.1309809 14.3652644,17.2238038 C15.5311298,18.3746411 21.0021635,23.7717703 21.7481971,24.452512 C22.0866587,24.761244 22.4941106,24.9130383 22.9097356,24.9130383 C23.4263221,24.9129187 23.9552885,24.6785885 24.3795673,24.2203349 C25.1301683,23.4095694 25.1941106,22.3356459 24.5283654,21.7222488 L24.5283654,21.7222488 Z M12.9795673,10.0466507 L5.76802885,10.0466507 C5.36983173,10.0466507 5.046875,9.72523923 5.046875,9.32894737 C5.046875,8.9326555 5.36983173,8.61124402 5.76802885,8.61124402 L12.9795673,8.61124402 C13.3777644,8.61124402 13.7007212,8.9326555 13.7007212,9.32894737 C13.7007212,9.72523923 13.3778846,10.0466507 12.9795673,10.0466507 L12.9795673,10.0466507 Z" id="path-1"></path>
+    </defs>
+    <g id="Design-Foundations" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Design-Foundations---Iconography-Glyph" transform="translate(-402.000000, -1123.000000)">
+            <g id="Action-Icons" transform="translate(87.000000, 790.000000)">
+                <g id="zoom-in-fill" transform="translate(304.000000, 322.000000)">
+                    <g id="icon/ALL/zoom-out-fill">
+                        <g id="Icon" transform="translate(11.000000, 11.000000)">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <use id="Mask" fill="#384048" xlink:href="#path-1"></use>
+                            <g id="Color/Dark-Grey" mask="url(#mask-2)" fill="#384048">
+                                <g transform="translate(-11.000000, -11.000000)" id="Swatch">
+                                    <rect x="0" y="0" width="48" height="48"></rect>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

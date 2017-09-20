@@ -1,0 +1,93 @@
+/*******************************************
+/* Buttons
+/* Primary, secondary, disabled
+*******************************************/
+
+// Base btn styling
+a.btn,
+button{
+  color: $color-white;
+  cursor: pointer;
+  border-radius: 8px;
+  text-decoration: none;
+  font-family: $font-headline;
+  display: inline-block;
+  border: none;
+  padding: 0 8px;
+  text-align: center;
+
+  // Icon in buttons support
+  img{
+    vertical-align: middle;
+    height: 40px;
+    width: 40px;
+  }
+
+  // Primary
+  &.btn-primary{
+    background-color: $color-penneyred;
+    @include elevation;
+    @include btn-transition;
+
+    &:hover{
+      background-color: $color-lipstick;
+      @include btn-radius-hover;
+    }
+  }
+
+  // Secondary
+  &.btn-secondary{
+    background-color: $color-white;
+    color: $color-lipstick;
+    border: 1px solid $color-concrete;
+    @include elevation;
+    @include btn-transition;
+
+    &:hover{
+      background-color: $color-lightgrey;
+      @include btn-radius-hover;
+    }
+  }
+
+  // Disabled
+  &.btn-disabled{
+    background-color: $color-lightgrey;
+    border: 1px solid $color-concrete;
+    color: $color-slate;
+    cursor: not-allowed;
+  }
+
+  // Button Sizes
+  &.btn-S{
+    letter-spacing: -0.33;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 8px 20px;
+  }
+
+  &.btn-M{
+    letter-spacing: -0.33;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 10px 20px;
+  }
+
+  &.btn-L{
+    letter-spacing: -0.43;
+    font-size: 18px;
+    line-height: 22px;
+    padding: 14px 20px;
+  }
+
+
+  &.btn-icon{
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
+  &.btn-full{
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+}
