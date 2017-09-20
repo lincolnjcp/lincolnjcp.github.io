@@ -87,11 +87,13 @@ h1,h2,h3,h4,h5,h6{
 [type="radio"]:not(:checked) + label:after{
   opacity: 0;
   transform: scale(0);
+  transition: all .25s ease;
 }
 
 [type="radio"]:checked + label:after{
   opacity: 1;
   transform: scale(1);
+  transition: all .25s ease;
 }
 
 input[type="radio"]:disabled + label{
@@ -140,6 +142,7 @@ ul{
 select{
   outline: none;
   cursor: pointer;
+  min-width: 160px;
 }
 
 .select select {
@@ -162,7 +165,7 @@ select{
 .select::after { /*  Custom dropdown arrow */
   content: "\25BC";
   height: 1em;
-  font-size: .625em;
+  font-size: 12px;
   line-height: 1;
   right: 1.2em;
   top: 50%;
@@ -174,7 +177,9 @@ select{
   right: 0;
   top: 0;
   bottom: 0;
+  background-color: #fff;
   border-radius: 0 3px 3px 0;
+  box-shadow: -7px 0 20px 3px #fff;
 }
 
 .select{
@@ -187,19 +192,32 @@ select{
   &.select-S{
     font-size: 14px;
     height: 35px;
-    line-height: 35px;
+
+    select{
+      font-size: 12px;
+      line-height: 35px;
+    }
   }
 
   &.select-M{
     font-size: 16px;
     height: 40px;
     line-height: 40px;
+
+    select{
+      font-size: 14px;
+      line-height: 40px;
+    }
   }
 
   &.select-L{
     font-size: 18px;
     height: 50px;
-    line-height: 50px;
+
+    select{
+      font-size: 16px;
+      line-height: 50px;
+    }
   }
 }
 
@@ -355,4 +373,67 @@ fieldset {
 
 .form-full{
   width: 100%;
+}
+
+// Checkboxes
+[type="checkbox"]:checked,
+[type="checkbox"]:not(:checked){
+  position: absolute;
+  visibility: hidden;
+}
+
+[type="checkbox"]:checked + label,
+[type="checkbox"]:not(:checked) + label{
+  position: relative;
+  padding-left: 28px;
+  cursor: pointer;
+  line-height: 24px;
+  display: inline-block;
+}
+
+input[type="checkbox"]:checked + label:before,
+input[type="checkbox"]:not(:checked) + label:before{
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 20px;
+  height: 20px;
+  border: 1px solid $color-nightsky;
+  border-radius: 4px;
+}
+
+input[type="checkbox"]:checked + label:after,
+input[type="checkbox"]:not(:checked) + label:after{
+  content: "";
+  width: 14px;
+  height: 14px;
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  background: $color-lipstick;
+  border-radius:4px;
+}
+
+input[type="checkbox"]:not(:checked) + label:after{
+  opacity: 0;
+  transform: scale(0);
+  transition: all .25s ease;
+}
+
+input[type="checkbox"]:checked + label:after{
+  opacity: 1;
+  transform: scale(1);
+  transition: all .25s ease;
+}
+
+input[type="checkbox"]:disabled + label{
+  color: $color-slate;
+  cursor: not-allowed;
+}
+
+input[type="checkbox"]:disabled + label:before{
+  border-color: $color-slate;
+  border-style: dashed;
+  cursor: not-allowed;
 }
