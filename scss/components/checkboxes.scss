@@ -7,7 +7,7 @@
   vertical-align: middle;
   cursor: pointer;
   user-select:none;
-  line-height: 16px;
+  // line-height: 16px;
 
   input:disabled{
 
@@ -37,6 +37,7 @@
         left: 0px;
         border-radius: 3px;
         margin-right: 5px;
+        margin-top: 3px;
         width: 16px;
         height: 16px;
         border: 1px solid $color-slate;
@@ -51,7 +52,7 @@
         border-bottom: 3px solid $color-nightsky;
         border-right: 3px solid $color-nightsky;
         position: absolute;
-        top: 1px;
+        top: 4px;
         left: 5px;
         opacity: 0;
         pointer-events:none;
