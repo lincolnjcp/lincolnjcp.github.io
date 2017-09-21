@@ -1,6 +1,6 @@
 /*********************************************
 /* The main entry point for atomic stylesheets
-/* Includes styles at a global level
+/* Styles at a global level
 *********************************************/
 
 @import 'components/vars.scss';
@@ -13,6 +13,7 @@
 @import 'components/lists.scss';
 @import 'components/toast.scss';
 @import 'components/elevation.scss';
+@import 'components/checkboxes.scss';
 // @import 'components/foundation-grid.scss';
 
 // Annotation (only used for demo)
