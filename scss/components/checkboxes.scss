@@ -9,8 +9,16 @@
   user-select:none;
   line-height: 16px;
 
-  &:disabled{
-    color: green;
+  input:disabled{
+
+    &+span{
+      cursor: not-allowed !important;
+      color: $color-slate;
+
+      &:before{
+        border-style: dashed;
+      }
+    }
   }
 
   input{
@@ -31,7 +39,7 @@
         margin-right: 5px;
         width: 16px;
         height: 16px;
-        border: 1px solid $color-concrete;
+        border: 1px solid $color-slate;
         background: #fff;
       }
 
@@ -47,7 +55,7 @@
         left: 5px;
         opacity: 0;
         pointer-events:none;
-        transform: scale(10,10) rotate(45deg);
+        transform: scale(-1,-1) rotate(45deg);
         transition: all .2s cubic-bezier(0.64, 0.57, 0.67, 1.53);
       }
     }

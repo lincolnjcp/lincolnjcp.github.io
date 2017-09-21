@@ -7,6 +7,7 @@
   border-width: 1px;
   border-radius: 8px;
   padding: 8px 16px;
+  position: relative;
 
   &.msg-neutral{
     border-color: $color-neutral-border;
@@ -26,13 +27,25 @@
     color: $color-warning-type;
   }
 
+  &.msg-error{
+    border-color: $color-error-border;
+    background-color: $color-error-fill;
+    color: $color-error-type;
+  }
+
   .msg-close{
     position: absolute;
+    line-height: 24px;
     display: block;
-    content: "X";
-    width: 32px;
-    height: 32px;
-    top: 8px;
-    right: 8px;
+    background: none;
+    width: 24px;
+    height: 24px;
+    top: 0px;
+    right: 0px;
+    outline: none;
+
+    img{
+      height: 24px;
+    }
   }
 }
