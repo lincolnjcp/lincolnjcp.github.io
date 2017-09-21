@@ -150,7 +150,7 @@ select{
   padding-left: 12px;
   border: 0;
   margin: 0;
-  border-radius: 4px;
+  border-radius: $border-radius-S;
   text-overflow: '';
   -webkit-appearance: button; /* hide default arrow in chrome OSX */
 }
@@ -270,7 +270,7 @@ textarea{
   outline: none;
   border: 1px solid $color-slate;
   font-size: 16px;
-  border-radius: 8px;
+  border-radius: $border-radius-S;
 }
 
 input[type="text"]{

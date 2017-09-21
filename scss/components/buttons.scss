@@ -8,7 +8,7 @@ a.btn,
 button{
   color: $color-white;
   cursor: pointer;
-  border-radius: 8px;
+  border-radius: $border-radius-M;
   text-decoration: none;
   font-family: $font-headline;
   display: inline-block;
@@ -50,11 +50,18 @@ button{
   }
 
   // Disabled
+  &:disabled,
   &.btn-disabled{
     background-color: $color-lightgrey;
     border: 1px solid $color-concrete;
     color: $color-slate;
     cursor: not-allowed;
+    box-shadow: none;
+
+    &:hover{
+      background-color: $color-lightgrey;
+      border-radius: $border-radius-M;
+    }
   }
 
   // Button Sizes
@@ -78,7 +85,6 @@ button{
     line-height: 22px;
     padding: 14px 20px;
   }
-
 
   &.btn-icon{
     padding-top: 0px;
