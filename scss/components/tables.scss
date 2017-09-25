@@ -1,0 +1,27 @@
+/*******************************************
+/* Tables
+*******************************************/
+
+table{
+  display: table;
+  vertical-align: middle;
+  border-collapse: collapse;
+
+  &.table-full{
+    width: 100%;
+  }
+
+  &.table-striped{
+    tbody{
+      tr:nth-child(odd){
+        background-color: $color-lightgrey;
+      }
+    }
+  }
+
+  td,th{
+    text-align: left;
+    height: 40px;
+    border-bottom: 1px solid $color-concrete;
+  }
+}

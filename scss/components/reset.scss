@@ -41,6 +41,7 @@ h1,h2,h3,h4,h5,h6{
   font-size: 16px;
   line-height: 1;
   color: limegreen;
+  margin-top: 0;
 }
 
 // Radio
@@ -199,6 +200,14 @@ select{
     }
   }
 
+  &.select-full{
+    width: 100%;
+
+    select{
+      width: 100%;
+    }
+  }
+
   &.select-M{
     font-size: 16px;
     height: 40px;
@@ -277,6 +286,11 @@ input[type="text"]{
   height: 40px;
   padding-left: 8px;
   display: inline-block;
+
+  &.input-error{
+    border-color: $color-error-type;
+    border-width: 2px;
+  }
 }
 
 textarea{
@@ -373,6 +387,27 @@ fieldset {
 
 .form-full{
   width: 100%;
+}
+
+// Or
+.or{
+  width: 100%;
+  text-align: center;
+  position: relative;
+  font-size: 14px;
+  height: 32px;
+  border-bottom: 1px solid $color-concrete;
+
+  &:before{
+    position: absolute;
+    display: block;
+    left: 50%;
+    width: 50px;
+    margin-left: -25px;
+    content: "OR";
+    margin-top: 21px;
+    background-color: #fff;
+  }
 }
 
 // Checkboxes

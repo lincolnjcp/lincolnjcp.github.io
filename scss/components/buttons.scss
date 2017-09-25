@@ -4,6 +4,10 @@
 *******************************************/
 
 // Base btn styling
+button{
+  background-color: #fff;
+}
+
 a.btn,
 button{
   color: $color-white;
@@ -26,6 +30,7 @@ button{
   // Primary
   &.btn-primary{
     background-color: $color-penneyred;
+    min-width: 128px;
     @include elevation;
     @include btn-transition;
 
@@ -37,6 +42,7 @@ button{
 
   // Secondary
   &.btn-secondary{
+    min-width: 128px;
     background-color: $color-white;
     color: $color-lipstick;
     border: 1px solid $color-concrete;

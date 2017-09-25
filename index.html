@@ -17,7 +17,7 @@
 
     <!-- price styles -->
     <p class="anno">Price Text Styles</p>
-    <h2 class="price price-XL color-lipstick">$75.00 - <span class="color-slate">XL</span></h2>
+    <h2 class="price price-XL">$75.00 - XL</h2>
     <h2 class="price price-L">$65.00 - L</h2>
     <h2 class="price price-M">$55.00 - M</h2>
     <h2 class="price price-S color-penneyred">$45.00 - S</h2>
@@ -91,6 +91,13 @@
 
     <!-- buttons -->
     <p class="anno">Buttons</p>
+    <div class="">
+      <!-- <a href="#" class="btn btn-primary btn-L mrg-L">HTML</a>
+      <a href="#" class="btn btn-primary btn-L mrg-L">Sale</a>
+      <a href="#" class="btn btn-primary btn-L mrg-L">Buy</a> -->
+      <a href="#" class="btn btn-secondary btn-L mrg-L">Cancel</a>
+      <a href="#" class="btn btn-primary btn-L mrg-L">Save</a>
+    </div>
     <div>
       <a href="#" class="btn btn-primary btn-S mrg-L">Primary Button Small</a>
     </div>
@@ -162,6 +169,17 @@
     <div>
       <span class="select select-S mrg-L">
         <select>
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+        </select>
+      </span>
+    </div>
+
+    <div>
+      <span class="select select-S mrg-L">
+        <select>
           <option>Select Small...</option>
           <option>The Great Gatsby</option>
           <option>V for Vendetta</option>
@@ -195,6 +213,18 @@
       </span>
     </div>
 
+    <div>
+      <span class="select select-L select-full mrg-L">
+        <select>
+          <option>Select Full Width...</option>
+          <option>The Great Gatsby</option>
+          <option>V for Vendetta</option>
+          <option>The Wolf of Wallstreet</option>
+          <option>Quantum of Solace</option>
+        </select>
+      </span>
+    </div>
+
     <!-- forms -->
     <p class="anno">Forms</p>
     <label for="email">Email</label>
@@ -204,8 +234,15 @@
     <input type="text" name="name">
     <a href="#" class="btn btn-primary btn-M elevation-none">Submit</a>
 
+    <label for="name">Phone Number</label>
+    <input type="text" name="name" placeholder="( ___ ) ___-____">
+
+    <label for="name">Phone Number</label>
+    <input type="text" class="input-error" name="name" placeholder="( ___ ) ___-____">
+
     <label for="name">Full Width</label>
     <input type="text" class="form-full" name="name">
+
 
     <label for="textarea">Textarea</label>
     <textarea name="textarea" rows="8" cols="40">Large text area</textarea>
@@ -236,7 +273,7 @@
 
     <!-- lists -->
     <p class="anno">Lists</p>
-    <ul class="list" style="width: 400px;">
+    <ul class="list" style="width: 400px; margin-bottom: 40px;">
       <li>list item 1</li>
       <li><a href="#">Link label</a></li>
       <li>list item 3</li>
@@ -244,12 +281,19 @@
       <li>list item 5</li>
     </ul>
 
-    <ul>
+    <ul class="mrg-XL">
       <li>List Item Normal</li>
       <li>List Item Normal</li>
       <li>List Item Normal</li>
       <li>List Item Normal</li>
       <li>List Item Normal</li>
+    </ul>
+
+    <ul class="list list-icons" style="width: 700px;">
+      <li><img src="images/icon/chat-fill.svg" alt="" /> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
+      <li><img src="images/icon/thumbsup-fill.svg" alt="" /> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
+      <li><img src="images/icon/heart-line.svg" alt="" /> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
+      <li><img src="images/icon/triangle-right.svg" alt="" /> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
     </ul>
 
     <p class="anno">Default Headers</p>
@@ -432,9 +476,27 @@
 
     <br>
 
-    <label class="checkbox mrg-M">
+    <label class="checkbox mrg-XL">
       <input type="checkbox" disabled="true"> <span>Disabled Checkbox</span>
     </label>
+
+    <div style="width: 400px;">
+      <h3 class="title title-L mrg-S">Checkbox List</h3>
+      <ul class="list list-checkboxes">
+        <li><label class="checkbox">
+          <input type="checkbox"> <span>$200 - $300</span>
+        </label> <span class="list-qty">(14)</span></li>
+        <li><label class="checkbox">
+          <input type="checkbox"> <span>$200 - $300</span>
+        </label> <span class="list-qty">(14)</span></li>
+        <li><label class="checkbox">
+          <input type="checkbox"> <span>$200 - $300</span>
+        </label> <span class="list-qty">(14)</span></li>
+        <li><label class="checkbox">
+          <input type="checkbox"> <span>$200 - $300</span>
+        </label> <span class="list-qty">(14)</span></li>
+      </ul>
+    </div>
 
     <!-- Toast Messages -->
     <p class="anno">Messages</p>
@@ -468,6 +530,209 @@
     <div class="msg msg-neutral mrg-M">
       Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
       <button type="button" class="msg-close"><img src="images/icon/close.svg" alt="" /></button>
+    </div>
+
+    <!-- Tables -->
+    <p class="anno">Tables</p>
+    <table border="0" width="100%" class="table-full mrg-XL">
+      <thead>
+        <tr>
+          <th>
+            Table Head
+          </th>
+          <th>
+            Table Head
+          </th>
+          <th>
+            Table Head
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            table row
+          </td>
+          <td>
+            table row
+          </td>
+          <td>
+            table row
+          </td>
+        </tr>
+        <tr>
+          <td>
+            table row
+          </td>
+          <td>
+            table row
+          </td>
+          <td>
+            table row
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <table border="0" width="100%" class="table-striped">
+      <thead>
+        <tr>
+          <th>
+            Table Head
+          </th>
+          <th>
+            Table Head
+          </th>
+          <th>
+            Table Head
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            table row
+          </td>
+          <td>
+            table row
+          </td>
+          <td>
+            table row
+          </td>
+        </tr>
+        <tr>
+          <td>
+            table row
+          </td>
+          <td>
+            table row
+          </td>
+          <td>
+            table row
+          </td>
+        </tr>
+        <tr>
+          <td>
+            table row
+          </td>
+          <td>
+            table row
+          </td>
+          <td>
+            table row
+          </td>
+        </tr>
+        <tr>
+          <td>
+            table row
+          </td>
+          <td>
+            table row
+          </td>
+          <td>
+            table row
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- wells -->
+    <p class="anno">Wells</p>
+    <div class="well mrg-L">
+      <h2 class="title title-L">Title In A Well</h2>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </p>
+    </div>
+    <div class="well">
+      <h2 class="title title-L">List In A Well</h2>
+      <ul>
+        <li>Lorem ipsum dolor sit amet</li>
+        <li>Lorem ipsum dolor sit amet</li>
+        <li>Lorem ipsum dolor sit amet</li>
+        <li>Lorem ipsum dolor sit amet</li>
+      </ul>
+    </div>
+
+    <!-- tabs -->
+    <p class="anno">Tabs</p>
+    <div>
+      <ul class="tabs">
+        <li class="tab-section">
+          tab
+        </li>
+        <li class="tab-section">
+          tab
+        </li>
+      </ul>
+    </div>
+
+    <!-- or -->
+    <p class="anno">Or - horizontal line break</p>
+    <div class="or"></div>
+
+    <!-- breadcrumbs -->
+    <p class="anno">Breadcrumbs</p>
+    <ul class="breadcrumbs">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Clothing</a></li>
+      <li>Dresses</li>
+    </ul>
+
+    <!-- Modals -->
+    <p class="anno">Modals</p>
+    <div class="modal">
+      <button class="modal-close"></button>
+      <h2 class="modal-title">This is a Modal</h2>
+      <p class="modal-body">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+      </p>
+      <button type="button" name="button" class="btn btn-secondary btn-L">Cancel</button>
+      <button type="button" name="button" class="btn btn-primary btn-L">Save</button>
+    </div>
+
+    <br>
+
+    <div class="modal">
+      <button class="modal-close"></button>
+      <h2 class="modal-title">This is a Modal with One CTA</h2>
+      <p class="modal-body">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+      </p>
+      <button type="button" name="button" class="btn btn-primary btn-L">Save</button>
+    </div>
+
+    <!-- Cart Header -->
+    <p class="anno">Cart Header</p>
+    <img src="" alt="" />
+
+    <!-- Flags -->
+    <p class="anno">Flags</p>
+    <div class="flag mrg-L">
+      Normal Flag
+    </div>
+
+    <br>
+
+    <div class="flag flag-urgency mrg-L">
+      Sale Ends in 02 Days
+    </div>
+
+    <!-- Product -->
+    <p class="anno">Product</p>
+    <div class="product" style="width: 216px;">
+      <figure class="product-img">
+        <img src="http://placehold.it/200/200" alt="" />
+      </figure>
+      <div class="product-body">
+        <div class="promo-lbl promo-lbl-S mrg-S">
+          BUY MORE AND SAVE WITH CODE: 48GOSHOP
+        </div>
+        <div class="price price-S mrg-S">$59</div>
+        <div class="std-txt std-txt-XS mrg-S">
+          St. John's Bay® Straight-Leg Jeans-Plus (31"/29" Short)
+        </div>
+      </div>
     </div>
 
   </body>

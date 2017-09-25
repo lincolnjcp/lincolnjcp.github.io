@@ -1,0 +1,22 @@
+/*********************************
+/* Flags
+/* Used for urgency, labeling, etc.
+*********************************/
+
+.flag{
+  height: 24px;
+  line-height: 24px;
+  padding: 0 8px;
+  display: inline-block;
+  background-color: #fff;
+  font-size: 14px;
+  border: 1px solid $color-concrete;
+  border-radius: 0 4px 4px 0;
+  @include elevation;
+
+  &.flag-urgency{
+    background-color: $color-penneyred;
+    color: #fff;
+    border: none;
+  }
+}
