@@ -24,8 +24,9 @@
     right: 8px;
     cursor: pointer;
     background: url('../images/icon/close.svg') no-repeat;
-    width: 24px;
-    height: 24px;
+    width: 16px;
+    height: 16px;
+    background-size: contain;
   }
 
   .modal-title{
