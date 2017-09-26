@@ -38,4 +38,10 @@
       color: $color-slate;
     }
   }
+
+  &.list-links{
+    li{
+      border-bottom: none;
+    }
+  }
 }

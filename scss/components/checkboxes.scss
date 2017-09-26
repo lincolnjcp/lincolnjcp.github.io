@@ -49,8 +49,10 @@
         display: block;
         width: 4px;
         height: 9px;
-        border-bottom: 3px solid $color-nightsky;
-        border-right: 3px solid $color-nightsky;
+        border-bottom: 3px solid #fff;
+        border-right: 3px solid #fff;
+        // border-bottom: 3px solid $color-penneyred;
+        // border-right: 3px solid $color-penneyred;
         position: absolute;
         top: 4px;
         left: 5px;
@@ -64,6 +66,10 @@
     &:checked+span:after{
       opacity: 1;
       transform: scale(1,1) rotate(45deg);
+    }
+
+    &:checked:before{
+      background-color: $color-nightsky;
     }
   }
 }

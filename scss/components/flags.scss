@@ -4,19 +4,32 @@
 *********************************/
 
 .flag{
-  height: 24px;
-  line-height: 24px;
-  padding: 0 8px;
+  // height: 24px;
+  text-align: center;
+  line-height: 14px;
+  padding: 4px 16px;
   display: inline-block;
-  background-color: #fff;
-  font-size: 14px;
-  border: 1px solid $color-concrete;
-  border-radius: 0 4px 4px 0;
-  @include elevation;
+  // background-color: #fff;
+  // font-size: 12px;
+  font-family: $font-headline;
+  // background-color: rgba(0,0,0,0.7);
+  color: #fff;
+  // border: 1px solid $color-concrete;
+  border-radius: 20px;
+  // opacity: rgba(0,0,0,0.7);
+  text-transform: uppercase;
+  line-height: 12px;
+  // @include elevation;
 
   &.flag-urgency{
     background-color: $color-penneyred;
-    color: #fff;
-    border: none;
+  }
+
+  &.flag-new{
+    background-color: $color-slate;
+  }
+
+  &.flag-deal{
+    background-color: $color-success-type;
   }
 }
