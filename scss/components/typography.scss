@@ -95,31 +95,31 @@
   }
 }
 
-// Marketing Labels
-.mrk-lbl{
+// Promo Labels
+.promo-lbl{
   font-family: $font-headline;
   font-weight: $font-weight-bold;
   color: $color-nightsky;
 
-  &.mrk-lbl-XL{
+  &.promo-lbl-XL{
     font-size: 50px;
     letter-spacing: -0.6px;
     line-height: 52px;
   }
 
-  &.mrk-lbl-L{
+  &.promo-lbl-L{
     font-size: 44px;
     letter-spacing: -0.52px;
     line-height: 46px;
   }
 
-  &.mrk-lbl-M{
+  &.promo-lbl-M{
     font-size: 36px;
     letter-spacing: -0.43px;
     line-height: 38px;
   }
 
-   &.mrk-lbl-S{
+   &.promo-lbl-S{
     font-size: 20px;
     letter-spacing: -0.24px;
     line-height: 24px;
@@ -127,7 +127,7 @@
 }
 
 // Promo Label
-.promo-lbl{
+.marketing-lbl{
   text-transform: uppercase;
   color: $color-penneyred;
   font-size: 16px;
@@ -135,7 +135,7 @@
   // font-family: $font-headline;
   font-weight: $font-weight-bold;
 
-  &.promo-lbl-S{
+  &.marketing-lbl-S{
     font-size: 12px;
     line-height: 16px;
   }

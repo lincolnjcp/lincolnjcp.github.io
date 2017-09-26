@@ -7,12 +7,17 @@ table{
   vertical-align: middle;
   border-collapse: collapse;
 
+  th,td{
+    padding-left: 8px;
+  }
+
   &.table-full{
     width: 100%;
   }
 
   &.table-striped{
     tbody{
+      padding: 24px;
       tr:nth-child(odd){
         background-color: $color-lightgrey;
       }
