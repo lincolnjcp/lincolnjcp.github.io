@@ -18,10 +18,18 @@
 }
 
 @mixin elevation-2{
-  @include elevation-func(0, 4px, 16px, 0px, rgba(0,0,0,0.5));
+  @include elevation-func(0, 4px, 12px, 0px, rgba(0,0,0,0.5));
 }
 
 .elevation-none{
   box-shadow: none !important;
   -webkit-shadow: none !important;
+}
+
+.elevation-1{
+  @include elevation-1;
+}
+
+.elevation-2{
+  @include elevation-2;
 }

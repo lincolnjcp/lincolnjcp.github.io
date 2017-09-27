@@ -21,3 +21,22 @@
 @mixin btn-radius-hover {
   border-radius: 40px;
 }
+
+// Frames
+@mixin frame-builder($left, $right, $bot-right, $bot-left){
+  border-radius: $left $right $bot-right $bot-left;
+  background-color: $color-white;
+  border: 1px solid $color-concrete;
+}
+
+@mixin frame-S{
+  @include frame-builder(2px, 2px, 2px, 2px);
+}
+
+@mixin frame-M{
+  @include frame-builder(8px, 8px, 8px, 8px);
+}
+
+@mixin frame-L{
+  @include frame-builder(20px, 20px, 20px, 20px);
+}
