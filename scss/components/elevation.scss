@@ -4,8 +4,21 @@
 /* Ability to remove elevation
 ***************************************************/
 
+
 .elevation{
   @include elevation;
+}
+
+.elevation-neg-1{
+  @include elevation-func(0, 2px, 4px, 0px, rgba(0,0,0,0.25));
+}
+
+@mixin elevation-1{
+  @include elevation-func(0, 3px, 8px, 0px, rgba(0,0,0,0.25));
+}
+
+@mixin elevation-2{
+  @include elevation-func(0, 4px, 16px, 0px, rgba(0,0,0,0.5));
 }
 
 .elevation-none{

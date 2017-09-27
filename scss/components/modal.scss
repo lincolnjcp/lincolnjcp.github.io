@@ -11,7 +11,7 @@
   margin: 0 auto;
   padding: 48px;
   position: relative;
-  @include elevation;
+  @include elevation-2;
 
   .modal-body{
     margin-bottom: 32px;

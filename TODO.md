@@ -11,3 +11,6 @@
 
 - Dropdowns
   - labels should match dropdown size
+  - dropdown with 2px rounded border
+
+- Elevation sizes 1-5

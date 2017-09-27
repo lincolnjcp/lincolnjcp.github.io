@@ -8,6 +8,11 @@
   -webkit-box-shadow: 0 2px 4px 0 rgba(0,0,0,0.25);
 }
 
+@mixin elevation-func($x, $y, $blur, $distance, $color) {
+  box-shadow: $x $y $blur $distance $color;
+    -webkit-box-shadow: $x $y $blur $distance $color;
+}
+
 @mixin btn-transition {
   transition: background-color .25s ease-in-out, border-radius .25s ease-in-out;
   -webkit-transition: background-color .25s ease-in-out, border-radius .25s ease-in-out;
