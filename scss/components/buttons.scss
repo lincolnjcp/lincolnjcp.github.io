@@ -74,33 +74,123 @@ button{
   &.btn-S{
     letter-spacing: -0.33px;
     font-size: 14px;
-    line-height: 20px;
-    padding: 8px 20px;
+    // line-height: 20px;
+    // padding: 8px 20px;
+    // padding: 8px 20px;
+    height: 36px;
+    line-height: 36px;
   }
 
   &.btn-M{
     letter-spacing: -0.33px;
     font-size: 16px;
-    line-height: 20px;
-    padding: 10px 20px;
+    height: 40px;
+    line-height: 40px
+    // line-height: 20px;
+    // padding: 10px 20px;
   }
 
   &.btn-L{
     letter-spacing: -0.43px;
     font-size: 18px;
-    line-height: 22px;
-    padding: 14px 20px;
+    line-height: 50px;
+    height: 50px;
+    // line-height: 22px;
+    // padding: 14px 20px;
   }
 
   &.btn-icon{
-    padding-top: 0px;
-    padding-bottom: 0px;
+    // padding-top: 0px;
+    // padding-bottom: 0px;
+  }
+
+  &.btn-icon-slide{
+    position: relative;
+    overflow: hidden;
+
+    img{
+      position: absolute;
+      display: block;
+      left: 50%;
+      margin-left: -20px;
+      top: -30px;
+      transition: top .25s ease-in-out;
+        -webkit-transition: top .25s ease-in-out;
+    }
+
+    span{
+      width: 100%;
+      height: 100%;
+      display: inline-block;
+      backface-visibility: hidden;
+        -webkit-backface-visibility: hidden;
+        -moz-backface-visibility: hidden;
+      transition: margin .25s ease-in-out, opacity .25s ease-in-out;
+    }
+
+    &:hover{
+      &.btn-L img{
+        top: 5px;
+      }
+
+      &.btn-M img{
+        top: 2px;
+      }
+
+      &.btn-S img{
+        top: 0px;
+      }
+
+      span{
+        opacity: 0;
+        margin-top: 40px;
+      }
+    }
   }
 
   &.btn-full{
     width: 100%;
     padding-right: 0px;
     padding-left: 0px;
+  }
+
+  // Shows cart icon on hover
+  &.btn-add-to-cart-light{
+    position: relative;
+    overflow: hidden;
+    max-height: 48px;
+    // backface-visibility: hidden;
+
+    &:before{
+      background: url('../images/icon/cart-light.svg') no-repeat;
+      content: " ";
+      height: 100%;
+      width: 40px;
+      top: -40px;
+      position: absolute;
+      display: block;
+      left: 50%;
+      margin-left: -20px;
+      transition: all .25s ease-in-out;
+    }
+
+    span{
+      display: inline-block;
+      width: 100%;
+      height: 100%;
+      transition: margin .25s ease-in-out, opacity .25s ease-in-out;
+    }
+
+    &:hover{
+      span{
+        margin-top: 35px;
+        opacity: 0;
+      }
+
+      &:before{
+        top: 5px;
+      }
+    }
   }
 }
 
