@@ -55,6 +55,21 @@ button{
     }
   }
 
+  // Tertiary
+  &.btn-tertiary{
+    min-width: 128px;
+    background-color: $color-passion;
+    color: $color-white;
+    border: 1px solid $color-passion;
+    @include elevation;
+    @include btn-transition;
+
+    &:hover{
+      background-color: $color-passion;
+      @include btn-radius-hover;
+    }
+  }
+
   // Disabled
   &:disabled,
   &.btn-disabled{
