@@ -137,8 +137,27 @@
 
   &.promo-display{
     text-transform: uppercase;
-    text-shadow: .5rem .5rem $color-passion;
     color: $color-white;
+
+    &.promo-lbl-XXL{
+      text-shadow: 6px 6px $color-passion;
+    }
+
+    &.promo-lbl-XL{
+      text-shadow: 5px 5px $color-passion;
+    }
+
+    &.promo-lbl-L{
+      text-shadow: 4px 4px $color-passion;
+    }
+
+    &.promo-lbl-M{
+      text-shadow: 4px 4px $color-passion;
+    }
+
+    &.promo-lbl-S{
+      text-shadow: 3px 3px $color-passion;
+    }
   }
 }
 
