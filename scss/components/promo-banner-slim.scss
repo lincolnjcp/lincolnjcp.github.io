@@ -1,0 +1,286 @@
+$breakpoint-XL: 1392px;
+$breakpoint-L: 1256px;
+$breakpoint-M: 1136px;
+$breakpoint-S: 960px;
+$breakpoint-XS: 608px;
+$breakpoint-XXS: 360px;
+
+// global styles
+.promo-banner{
+  width: 100%;
+  padding: 16px;
+  margin: 0 auto;
+  color: #fff;
+}
+
+.promo-lbl{
+  &.promo-lbl-XXXL{
+    font-size: 110px !important;
+  }
+}
+
+.promo-lbl-percent{
+  img{
+    width: 69px;
+    height: auto;
+    margin-left: -0px;
+    margin-top: -10px;
+    display: none;
+  }
+}
+
+// .promo-lbl-percent{
+//   position: relative;
+//   margin-left: -60px;
+//
+//   &:after{
+//     position: absolute;
+//     top: 0;
+//     right: 110px;
+//     content: " ";
+//     display: block;
+//     width: 96px;
+//     height: 96px;
+//     background: url('../images/percent.svg') no-repeat;
+//   }
+// }
+
+.promo-nav{
+  margin: 0 48px 24px 48px;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+
+  li{
+    margin: 0 8px;
+    text-align: center;
+    display: inline;
+    // flex: 1;
+
+    a.btn{
+      color: $color-marketing-blue-1;
+    }
+  }
+}
+
+.promo-row{
+  content: "";
+  display: block;
+  clear: both;
+
+  &.promo-row-S{
+    padding: 0 4%;
+  }
+}
+
+.promo-block{
+  width: 50%;
+  float: left;
+  text-align: center;
+  padding-top: 24px;
+
+  &.promo-block-or{
+    position: relative;
+  }
+
+  &.promo-block-or:before{
+    position: absolute;
+    content: "OR";
+    border-radius: 100%;
+    line-height: 64px;
+    top: 40%;
+    font-family: $font-headline;
+    color: $color-marketing-blue-1;
+    right: 0;
+    margin-right: -32px;
+    display: block;
+    width: 64px;
+    height: 64px;
+    background-color: #fff;
+  }
+}
+
+// x-Large
+@media(min-width: $breakpoint-XL){
+  .promo-banner{
+    max-width: $breakpoint-XL;
+    min-width: $breakpoint-L;
+  }
+}
+
+// Large
+@media(max-width: $breakpoint-L){
+  .promo-banner{
+    max-width: $breakpoint-L;
+    min-width: $breakpoint-M;
+  }
+
+  .promo-nav{
+    margin: 0 16px 24px 16px;
+  }
+}
+
+// Medium
+@media(max-width: $breakpoint-M){
+  .promo-banner{
+    max-width: $breakpoint-M;
+    min-width: $breakpoint-S;
+  }
+
+  .promo-lbl-percent-txt{
+    display: none;
+  }
+
+  .promo-lbl-percent{
+    img{
+      display: inline-block;
+    }
+  }
+
+  .promo-row{
+    &.promo-row-S{
+      padding: 0;
+    }
+  }
+
+  .promo-nav{
+    padding: 0 20px;
+    margin: 0 0 16px 0;
+
+    li{
+      margin: 0 4px 16px 4px;
+      display: inline-block;
+    }
+  }
+}
+
+
+// Small
+@media(max-width: $breakpoint-S){
+  .promo-banner{
+    max-width: $breakpoint-S;
+    min-width: $breakpoint-XS;
+  }
+
+  .promo-row{
+    &.promo-row-S{
+      padding: 0 10px;
+    }
+  }
+
+  .promo-nav{
+    padding: 0 24px;
+    margin: 0 0 16px 0;
+
+    li{
+      margin: 0 4px 16px 4px;
+      display: inline-block;
+    }
+  }
+}
+
+// X-Small
+@media(max-width: $breakpoint-XS){
+  .promo-banner{
+    max-width: $breakpoint-XS;
+    min-width: $breakpoint-XXS;
+  }
+
+  .promo-lbl{
+    &.promo-lbl-XXXL{
+      font-size: 56px !important;
+      line-height: 64px;
+    }
+  }
+
+  .promo-block{
+    width: 100%;
+    text-align: center;
+    padding-top: 0;
+  }
+
+  .promo-row{
+    &.promo-row-S{
+      padding: 0;
+    }
+  }
+
+  .promo-nav{
+    padding: 0 24px;
+    margin: 0 0 16px 0;
+
+    li{
+      margin: 0 4px 16px 4px;
+      display: inline-block;
+    }
+  }
+
+  .promo-lbl{
+    &.promo-lbl-M{
+      font-size: 24px;
+      line-height: 26px;
+    }
+  }
+}
+
+// X-Small
+@media(max-width: $breakpoint-XS){
+  .promo-nav{
+    display: none;
+  }
+
+  .promo-lbl-percent-txt{
+    display: inline-block;
+  }
+
+  .promo-row{
+
+    &.promo-row-S{
+      padding: 0;
+    }
+  }
+
+  .promo-block{
+    float: none;
+    width: 100%;
+
+    &.promo-block-or:before{
+      display: none;
+    }
+  }
+
+  .promo-lbl-percent{
+    img{
+      display: none;
+    }
+  }
+
+  .promo-block-two{
+    display: none;
+  }
+
+  .promo-lbl{
+    &.promo-lbl-M{
+      font-size: 16px;
+      line-height: 24px;
+    }
+
+    &.promo-lbl-XXL{
+      font-size: 48px;
+      line-height: 24px;
+    }
+  }
+
+  .promo-lbl-percent-txt{
+    display: inline-block !important;
+  }
+
+  // .promo-lbl-percent{
+  //   .promo-lbl-percent-txt{
+  //     display: inline-block;
+  //   }
+  //   img{
+  //     display: none;
+  //   }
+  // }
+}

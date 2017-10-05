@@ -69,6 +69,7 @@
 .std-txt{
   color: $color-slate;
   font-weight: $font-weight-regular;
+  font-family: $font-body;
 
   &.std-txt-L{
     font-size: 18px;
@@ -93,6 +94,11 @@
     letter-spacing: -0.28px;
     line-height: 16px;
   }
+
+  &.std-txt-light,
+  &.std-txt-light a{
+    color: #fff;
+  }
 }
 
 // Promo Labels
@@ -100,6 +106,12 @@
   font-family: $font-headline;
   font-weight: $font-weight-bold;
   color: $color-nightsky;
+
+  &.promo-lbl-XXXL{
+    font-size: 96px;
+    letter-spacing: -0.8px;
+    line-height: 102px;
+  }
 
   &.promo-lbl-XXL{
     font-size: 72px;
@@ -125,14 +137,24 @@
     line-height: 38px;
   }
 
+  &.promo-lbl-MS{
+    font-size: 24px;
+    letter-spacing: -0.43px;
+    line-height: 26px;
+  }
+
    &.promo-lbl-S{
     font-size: 20px;
     letter-spacing: -0.24px;
     line-height: 24px;
 
     &.promo-display{
-      text-shadow: .2rem .2rem $color-passion;
+      text-shadow: .2rem .2rem rgba(0,0,0,0.5);
     }
+  }
+
+  &.promo-lbl-light{
+    color: #fff;
   }
 
   &.promo-display{
@@ -140,23 +162,23 @@
     color: $color-white;
 
     &.promo-lbl-XXL{
-      text-shadow: 6px 6px $color-passion;
+      // text-shadow: 6px 6px rgba(0,0,0,0.5);
     }
 
     &.promo-lbl-XL{
-      text-shadow: 5px 5px $color-passion;
+      // text-shadow: 5px 5px rgba(0,0,0,0.5);
     }
 
     &.promo-lbl-L{
-      text-shadow: 4px 4px $color-passion;
+      // text-shadow: 4px 4px rgba(0,0,0,0.5);
     }
 
     &.promo-lbl-M{
-      text-shadow: 4px 4px $color-passion;
+      // text-shadow: 4px 4px rgba(0,0,0,0.5);
     }
 
     &.promo-lbl-S{
-      text-shadow: 3px 3px $color-passion;
+      // text-shadow: 3px 3px rgba(0,0,0,0.5);
     }
   }
 }
