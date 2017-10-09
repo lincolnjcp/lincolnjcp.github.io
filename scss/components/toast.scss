@@ -11,25 +11,29 @@
 
   &.msg-neutral{
     border-color: $color-neutral-border;
-    background-color: $color-neutral-fill;
     color: $color-neutral-type;
+    padding-left: 40px;
+    background: $color-neutral-fill url('../images/icon/info.svg') 0 0 no-repeat;
   }
 
   &.msg-success{
     border-color: $color-success-border;
-    background-color: $color-success-fill;
+    background: $color-success-fill url('../images/icon/success.svg') 0 0 no-repeat;
+    padding-left: 40px;
     color: $color-success-type;
   }
 
   &.msg-warning{
     border-color: $color-warning-border;
-    background-color: $color-warning-fill;
+    background: $color-warning-fill url('../images/icon/warning.svg') 0 0 no-repeat;
+    padding-left: 40px;
     color: $color-warning-type;
   }
 
   &.msg-error{
     border-color: $color-error-border;
-    background-color: $color-error-fill;
+    background: $color-error-fill url('../images/icon/error.svg') 0 0 no-repeat;
+    padding-left: 40px;
     color: $color-error-type;
   }
 
