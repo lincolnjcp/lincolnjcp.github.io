@@ -1,0 +1,102 @@
+/*------------------------------------*\
+  MIXINS
+\*------------------------------------*/
+
+@mixin placeholder() {
+  &::-webkit-input-placeholder { @content; }
+  &:-moz-placeholder { @content; }
+  &::-moz-placeholder {@content; }
+  &:-ms-input-placeholder {@content; }
+}
+
+@mixin transition($transition) {
+  -webkit-transition: $transition;
+  -moz-transition:    $transition;
+   -ms-transition:    $transition;
+    -o-transition:    $transition;
+       transition:    $transition;
+}
+
+@mixin transform($transform) {
+ -webkit-transform:  $transform;
+    -moz-transform:  $transform;
+     -ms-transform:  $transform;
+      -o-transform:  $transform;
+         transform:  $transform;
+}
+
+/***************************************************
+/* Elevation
+/* Box shadows for buttons, dropdowns, etc
+/* Ability to remove elevation
+***************************************************/
+
+
+
+@mixin elevation {
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.25);
+  -webkit-box-shadow: 0 2px 4px 0 rgba(0,0,0,0.25);
+}
+
+@mixin elevation-func($x, $y, $blur, $distance, $color) {
+  box-shadow: $x $y $blur $distance $color;
+    -webkit-box-shadow: $x $y $blur $distance $color;
+}
+
+@mixin btn-transition {
+  transition: background-color .25s ease-in-out, border-radius .25s ease-in-out;
+  -webkit-transition: background-color .25s ease-in-out, border-radius .25s ease-in-out;
+}
+
+@mixin btn-radius-hover {
+  border-radius: 40px;
+}
+
+// Frames
+@mixin frame-builder($left, $right, $bot-right, $bot-left){
+  border-radius: $left $right $bot-right $bot-left;
+  background-color: $color-white;
+  border: 1px solid $color-concrete;
+}
+
+@mixin frame-S{
+  @include frame-builder(2px, 2px, 2px, 2px);
+}
+
+@mixin frame-M{
+  @include frame-builder(8px, 8px, 8px, 8px);
+}
+
+@mixin frame-L{
+  @include frame-builder(20px, 20px, 20px, 20px);
+}
+
+
+.elevation{
+  @include elevation;
+}
+
+.elevation-neg-1{
+  @include elevation-func(0, 2px, 4px, 0px, rgba(0,0,0,0.25));
+}
+
+@mixin elevation-1{
+  @include elevation-func(0, 3px, 8px, 0px, rgba(0,0,0,0.25));
+}
+
+@mixin elevation-2{
+  @include elevation-func(0, 4px, 12px, 0px, rgba(0,0,0,0.5));
+}
+
+.elevation-none{
+  box-shadow: none !important;
+  -webkit-shadow: none !important;
+}
+
+.elevation-1{
+  @include elevation-1;
+}
+
+.elevation-2{
+  @include elevation-2;
+}

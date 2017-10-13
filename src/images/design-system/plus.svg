@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="14px" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.1 (44463) - http://www.bohemiancoding.com/sketch -->
+    <title>icon/ALL/plus</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M12.75,11.25 L12.75,6 C12.75,5.58578644 12.4142136,5.25 12,5.25 C11.5857864,5.25 11.25,5.58578644 11.25,6 L11.25,11.25 L6,11.25 C5.58578644,11.25 5.25,11.5857864 5.25,12 C5.25,12.4142136 5.58578644,12.75 6,12.75 L11.25,12.75 L11.25,18 C11.25,18.4142136 11.5857864,18.75 12,18.75 C12.4142136,18.75 12.75,18.4142136 12.75,18 L12.75,12.75 L18,12.75 C18.4142136,12.75 18.75,12.4142136 18.75,12 C18.75,11.5857864 18.4142136,11.25 18,11.25 L12.75,11.25 Z" id="path-1"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="LIncoln-Main-Nav-Open---SMALL" transform="translate(-225.000000, -37.000000)">
+            <g id="Visual-Design" transform="translate(15.000000, 32.000000)">
+                <g id="icon/ALL/plus" transform="translate(205.000000, 0.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Mask" fill="#384048" fill-rule="nonzero" xlink:href="#path-1"></use>
+                    <g id="Color/White" mask="url(#mask-2)" fill-rule="evenodd" fill="#FFFFFF">
+                        <rect id="Swatch" x="0" y="0" width="24" height="24"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

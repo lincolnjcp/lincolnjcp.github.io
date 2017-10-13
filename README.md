@@ -1,4 +1,6 @@
 # Lincoln Design System
 
-SASS files found in SCSS folder contain ATOM level components
-Run $sh script.sh to compile sass
+@TODO: Add installation instructions.
+
+Dev watch: npm run dev
+Dev build: npm run build

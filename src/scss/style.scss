@@ -1,0 +1,20 @@
+/*------------------------------------*\
+  Global Styles
+  Target Browsers: IE9+, Chrome, FF, Safari, iOS9+, Android 4.4+
+\*------------------------------------*/
+
+@import 'helpers/_init';
+
+@include foundation-global-styles;
+@include foundation-grid; 
+@include foundation-visibility-classes;
+ 
+
+/* ---
+Base Styles
+--- */ 
+@import "base/_reset";
+@import "base/_colors";
+@import "base/_buttons";
+@import "base/_layout"; 
+@import "base/_type"; 

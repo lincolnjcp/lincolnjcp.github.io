@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>icon/Utility/Media/play</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M15.5552274,10.9955243 L1.55779967,0.1949895 C1.2502057,-0.0424344064 0.854198499,-0.064617078 0.528180939,0.137106592 C0.202063251,0.338830261 -0.00109695485,0.731648404 4.45582898e-06,1.1585493 L0.0513702446,22.8478875 C0.0523715271,23.2747884 0.257434169,23.6663356 0.584453012,23.8659797 C0.731441273,23.9556347 0.892247232,24 1.05255255,24 C1.24910429,24 1.44505526,23.9333365 1.61377135,23.8015113 L15.5598333,12.9125924 C15.8358869,12.6971201 16.0007981,12.3372294 15.9999971,11.9526142 C15.9991961,11.567999 15.8323824,11.2092636 15.5552274,10.9955243" id="path-1"></path>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon/Utility/Media/play">
+            <g id="Icon" transform="translate(16.000000, 12.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#384048" xlink:href="#path-1"></use>
+                <g id="Color/Grayscale/Night-Sky" mask="url(#mask-2)" fill="#111111">
+                    <g transform="translate(-16.000000, -12.000000)" id="Swatch">
+                        <rect x="0" y="0" width="48" height="48"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
