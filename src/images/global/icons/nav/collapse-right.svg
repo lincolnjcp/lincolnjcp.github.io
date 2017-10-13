@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>icon/Nav/collapse-right</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M13.1851096,9 L8.6877929,13.2928932 C8.27867221,13.6834175 8.27867221,14.3165825 8.6877929,14.7071068 C9.09691358,15.0976311 9.76022927,15.0976311 10.16935,14.7071068 L16.4550642,8.70710678 C16.8641849,8.31658249 16.8641849,7.68341751 16.4550642,7.29289322 L10.16935,1.29289322 C9.76022927,0.902368927 9.09691358,0.902368927 8.6877929,1.29289322 C8.27867221,1.68341751 8.27867221,2.31658249 8.6877929,2.70710678 L13.1851096,7 L1.04761905,7 C0.469035024,7 0,7.44771525 0,8 C0,8.55228475 0.469035024,9 1.04761905,9 L13.1851096,9 Z M19.9047619,1 C19.9047619,0.44771525 20.3737969,0 20.952381,0 C21.530965,0 22,0.44771525 22,1 L22,15 C22,15.5522847 21.530965,16 20.952381,16 C20.3737969,16 19.9047619,15.5522847 19.9047619,15 L19.9047619,1 Z" id="path-1"></path>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon/Nav/collapse-right">
+            <g id="Icon" transform="translate(13.000000, 16.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#384048" fill-rule="nonzero" xlink:href="#path-1"></use>
+                <g id="Color/Grayscale/Night-Sky" mask="url(#mask-2)" fill="#111111">
+                    <g transform="translate(-13.000000, -16.000000)" id="Swatch">
+                        <rect x="0" y="0" width="48" height="48"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

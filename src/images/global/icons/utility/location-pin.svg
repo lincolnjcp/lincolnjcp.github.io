@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>icon/Utility/location-pin</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M9,0 C13.9704686,0 18,4.12880655 18,10.109792 C18,16.0907776 9.00020571,26 9.00020571,26 C9.00020571,26 0,16.0997761 0,10.136896 C0,4.17401602 4.02942857,0 9,0 Z M9,14.5127827 C11.7196457,14.5127827 13.9323086,12.1805377 13.9323086,9.31391019 C13.9323086,6.44728272 11.7196457,4.11503772 9,4.11503772 C6.28035429,4.11503772 4.06769143,6.44728272 4.06769143,9.31391019 C4.06769143,12.1805377 6.28035429,14.5127827 9,14.5127827 Z" id="path-1"></path>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon/Utility/location-pin">
+            <g id="Icon" transform="translate(15.000000, 11.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#384048" xlink:href="#path-1"></use>
+                <g id="Color/Grayscale/Night-Sky" mask="url(#mask-2)" fill="#111111">
+                    <g transform="translate(-15.000000, -11.000000)" id="Swatch">
+                        <rect x="0" y="0" width="48" height="48"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

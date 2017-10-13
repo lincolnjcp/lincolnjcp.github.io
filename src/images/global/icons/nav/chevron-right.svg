@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>icon/Nav/chevron-right</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M0.293,0.293 C0.105,0.481 0.007,0.725 0,0.971 L0,1.028 C0.007,1.275 0.105,1.519 0.293,1.707 L11.586,13 L0.293,24.293 C0.105,24.481 0.007,24.725 0,24.972 L0,25.029 C0.007,25.275 0.105,25.519 0.293,25.707 C0.481,25.895 0.725,25.993 0.971,26 L1.028,26 C1.275,25.993 1.519,25.895 1.707,25.707 L13.707,13.707 C13.895,13.519 13.993,13.275 14,13.028 L14,12.972 C13.993,12.725 13.895,12.481 13.707,12.293 L1.707,0.293 C1.512,0.098 1.256,0 0.999,0 C0.744,0 0.488,0.098 0.293,0.293 Z" id="path-1"></path>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon/Nav/chevron-right">
+            <g id="Icon" transform="translate(18.000000, 11.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Clip-2"></g>
+                <g id="Color/Grayscale/Night-Sky" mask="url(#mask-2)" fill="#111111">
+                    <g transform="translate(-18.000000, -11.000000)" id="Swatch">
+                        <rect x="0" y="0" width="48" height="48"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
