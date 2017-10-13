@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="2px" viewBox="0 0 12 2" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.1 (44463) - http://www.bohemiancoding.com/sketch -->
+    <title>icon/ALL/plus</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M7,12.5 L17,12.5 C17.2761424,12.5 17.5,12.1642136 17.5,11.75 C17.5,11.3357864 17.2761424,11 17,11 L7,11 C6.72385763,11 6.5,11.3357864 6.5,11.75 C6.5,12.1642136 6.72385763,12.5 7,12.5 Z" id="path-1"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="LIncoln-Main-Nav-Full-Open---LARGE" transform="translate(-216.000000, -176.000000)">
+            <g id="Visual-Design" transform="translate(24.000000, 165.000000)">
+                <g id="icon/ALL/minus" transform="translate(186.000000, 0.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Mask" fill="#384048" fill-rule="nonzero" xlink:href="#path-1"></use>
+                    <g id="Color/White" mask="url(#mask-2)" fill-rule="evenodd" fill="#FFFFFF">
+                        <rect id="Swatch" x="0" y="0" width="24" height="24"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

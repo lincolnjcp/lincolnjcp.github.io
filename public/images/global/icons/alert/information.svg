@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>icon/Alert/information</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M12,0 C5.37253846,0 0,5.37253846 0,12 C0,18.6274615 5.37253846,24 12,24 C18.6274615,24 24,18.6274615 24,12 C24,5.37253846 18.6274615,0 12,0 L12,0 Z M12.6923077,17.5999615 C12.6923077,17.9822308 12.3822692,18.2922692 12,18.2922692 C11.6177308,18.2922692 11.3076923,17.9822308 11.3076923,17.5999615 L11.3076923,8.20003846 C11.3076923,7.81776923 11.6177308,7.50773077 12,7.50773077 C12.3822692,7.50773077 12.6923077,7.81776923 12.6923077,8.20003846 L12.6923077,17.5999615 L12.6923077,17.5999615 Z M12,6.6 C11.5029231,6.6 11.1,6.19707692 11.1,5.7 C11.1,5.20292308 11.5029231,4.8 12,4.8 C12.4970769,4.8 12.9,5.20292308 12.9,5.7 C12.9,6.19707692 12.4970769,6.6 12,6.6 L12,6.6 Z" id="path-1"></path>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon/Alert/information">
+            <g id="Icon" transform="translate(12.000000, 12.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#384048" xlink:href="#path-1"></use>
+                <g id="Color/Messaging/Neutral" mask="url(#mask-2)" fill="#056B9E">
+                    <g transform="translate(-12.000000, -12.000000)" id="Swatch">
+                        <rect x="0" y="0" width="48" height="48"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
