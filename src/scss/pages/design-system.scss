@@ -247,7 +247,6 @@ Base Styles
 
         .design-system-inner-nav {
             width: 250px;
-            background: $color-design-system-right-nav;
 
             .design-system-inner-nav-fixed {
                 width: 250px;
@@ -458,6 +457,7 @@ strong {
             border-radius: 4px;
             text-decoration: none;
             color: $color-design-system-nav;
+            background-color: $color-white;
 
             &.active {
                 color: $color-white;
@@ -477,6 +477,83 @@ strong {
         }
     }
 }
+
+/* Code Generator */
+.code-generator {
+    border:1px solid $color-concrete;
+    border-radius: 8px;
+    .code-generator-code {
+        background-color: $color-design-system-right-nav;
+    }
+    .code-generator-preview {
+        border-top:1px solid $color-concrete;
+        border-bottom:1px solid $color-concrete;    
+        padding: 15px;
+
+    }
+    .code-generator-code-preview {
+        padding: 15px;
+        background-color: $color-design-system-right-nav;
+    }
+    .design-system-headline-with-toggle {
+        border-bottom:1px solid $color-concrete;
+        height:60px;   
+        .design-system-headline-toggle {
+            top: 15px;
+        }
+        .code-generator-copy a {
+            position: absolute;
+            top:15px;
+            left: 15px;
+            display: inline-block;
+            padding: 5px 15px;
+            border: solid 1px #d8d8d8;
+            border-radius: 4px;
+            text-decoration: none;
+            color: $color-design-system-nav;
+            background-color: $color-white;
+            box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.25);
+        }
+    }
+    .code-generator-controls {
+        padding: 15px;
+    }
+
+}
+@include breakpoint(small) {
+.code-generator-edit.hide {
+    display: none;
+}
+}
+@include breakpoint(medium large xlarge) {
+    .code-generator {
+        display: flex;
+        flex-direction: row-reverse;
+    
+        .code-generator-right {
+            width:30%;
+            flex: 0 0 300px;
+            border-left: solid 1px #d8d8d8;
+        }
+        .code-generator-left {
+            width:70%;
+            background-color: $color-design-system-right-nav;
+            flex: 1;
+        }
+        .code-generator-preview, .code-generator-code-preview {
+            background:none;
+        }
+        .code-generator-preview {
+            border-top: none;
+            background-color: $color-white;
+            border-top-left-radius: 8px;
+        }
+        .code-generator-toggle-editor {
+            display: none;
+        }
+    }
+}
+
 
 .design-system-color-hex {
     display: none;

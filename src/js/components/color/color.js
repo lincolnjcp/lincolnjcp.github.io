@@ -208,7 +208,7 @@ componentDidMount() {
                     {this.colorBar("", "#1D463E", "color-marketing-green-3", "", "")} {this.colorBar("", "#317064", "color-marketing-green-2", "", "")} {this.colorBar("", "#46A491", "color-marketing-green-1", "size-large", "")}
                 </div>
                 <div className="small-12 medium-6 columns">
-                    {this.colorBar("", "#713916", "color-aqua-brown-3", "", "")} {this.colorBar("", "#984f21", "color-aqua-brown-2", "", "")} {this.colorBar("", "#33A0C1", "color-aqua-brown-1", "size-large", "")}
+                    {this.colorBar("", "#713916", "color-marketing-aqua-3", "", "")} {this.colorBar("", "#984f21", "color-marketing-aqua-2", "", "")} {this.colorBar("", "#33A0C1", "color-marketing-aqua-1", "size-large", "")}
                 </div>
             </div>
             <div className="row design-system-content-swatch-row">

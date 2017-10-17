@@ -8,7 +8,6 @@ import Icons from '../components/icons';
 import Typography from '../components/typography';
 import DesignSystemPage from '../containers/DesignSystemPage';
 
-//require('./utils/pages/vendor/jquery.js');
 import $ from 'jquery'
 import 'foundation-sites';
 import 'what-input';
@@ -163,6 +162,13 @@ class App extends React.Component {
             $(".off-canvas a").click(function(event) { 
                 if($(this).attr("href") !== "javascript:void(0)"){
                     $("#offCanvasBtn").trigger("click");
+                     $("html, body").animate({ scrollTop: 0 }, 300);
+
+                }
+            });
+            $(".design-system-nav-desktop .design-system-menu a").click(function(event) { 
+                if($(this).attr("href") !== "javascript:void(0)"){
+                     $("html, body").animate({ scrollTop: 0 }, 300);
                 }
             });
         });
@@ -194,7 +200,7 @@ class App extends React.Component {
     <div className="off-canvas-content" data-off-canvas-content>
         
         <div className="design-system-wrap">
-            <div className="design-system-nav-col">
+            <div className="design-system-nav-col design-system-nav-desktop">
                 <div className="design-system-menu-header algn-mid">
                     <Link to="/"><img src="/images/design-system/penny.svg" width="84" /></Link>
                     <a href="javascript:void(0)" className="js-search-toggle-desktop design-system-search-desktop-btn"><img src="/images/design-system/search.svg" width="34" /></a>

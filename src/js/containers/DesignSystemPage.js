@@ -14,7 +14,7 @@ class DesignSystemPage extends Component {
   const routes = {
    Buttons: {componentElement: Buttons, componentDisplayName: "Buttons", componentSubNav: ['Code Generator', 'When to Use', 'Appearance', 'Responsive Behavior']},
    Color: {componentElement: Color, componentDisplayName: "Color", componentSubNav: ['Core', 'Messaging', 'Rewards', 'Marketing', 'Color Usage', 'Accessibility']},
-   Icons: {componentElement: Icons, componentDisplayName: "Icons", componentSubNav: ['Alert', 'Payment', 'When to Use', 'Action', 'Navigation', 'Utility', 'Social']},
+   Icons: {componentElement: Icons, componentDisplayName: "Icons", componentSubNav: ['When to Use', 'Alert', 'Payment', 'Action', 'Navigation', 'Utility', 'Social']},
    Grid: {componentElement: Grid, componentDisplayName: "Grid", componentSubNav: ['Base Unit', 'Horizontal Grid', 'Vertical Grid', 'Documentation']},
    Typography: {componentElement: Typography, componentDisplayName: "Typography", componentSubNav: ['Code Generator', 'Price', 'Title', 'Standard Text', 'Copy', 'Lists', 'Links', 'Promo Labels']}
   }
