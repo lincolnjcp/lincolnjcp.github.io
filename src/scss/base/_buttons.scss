@@ -12,12 +12,12 @@ a.btn,
 button{
   color: $color-white;
   cursor: pointer;
-  border-radius: $border-radius-M; 
+  border-radius: $border-radius-M;
   text-decoration: none;
   font-family: $font-headline;
   display: inline-block;
   border: none;
-  padding: 0 8px;
+  padding: 0 16px;
   text-align: center;
 
   // Icon in buttons support
