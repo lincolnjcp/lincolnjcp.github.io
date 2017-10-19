@@ -1,3 +1,4 @@
+const HtmlWebpackInlineSVGPlugin = require('html-webpack-inline-svg-plugin');
 var CopyWebpackPlugin = require('copy-webpack-plugin');
 var ExtractTextPlugin = require('extract-text-webpack-plugin');
 
@@ -53,7 +54,8 @@ module.exports = {
     rules: [
       { test: /\.jsx$/, exclude: /node_modules/, loader: 'babel-loader' },
       { test: /\.js$/, exclude: /node_modules/, loader: 'babel-loader' },
-      { test: /\.svg$/, exclude: /node_modules/, loader: 'svg-url-loader' },
+      //{ test: /\.svg$/, exclude: [ /node_modules/ ], loader: 'raw-loader' },
+      { test: /\.svg$/, exclude: [ /node_modules/ , '/src/js/'], loader: 'svg-url-loader' },
       {
             test: /\.scss$/,
             use: [{

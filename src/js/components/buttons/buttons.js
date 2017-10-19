@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import $ from 'jquery'
+import $ from 'jquery';
+import ClipboardButton from 'react-clipboard.js';
 
 class Buttons extends Component {
 
@@ -19,13 +20,14 @@ componentDidMount() {
           .replace('[[code_button_disabled]]', attrDisabled);
 
           var HTMLCodePreview = HTMLCode
-          .replace('<', '&lt;')
-          .replace('>', '&gt;');
+          .replace(/</g, '&lt;')
+          .replace(/>/g, '&gt;')
+          .replace('javascript:void();', '#');
+          ;
 
         $(".code-generator-preview").html(HTMLCode);
-
         $(".code-generator-code-preview").html(HTMLCodePreview);
-         //$(".code-generator-code-preview").html(HTMLCode);
+        $(".code-generator-copy button").attr("data-clipboard-text", HTMLCode)
     }
 
     $('input[name="code_button_text"]').keyup(function(){
@@ -70,10 +72,10 @@ componentDidMount() {
                         <p className="std-txt std-txt-S mrg-L"><a href="javascript:void();">Hide Editor</a></p>
                     </div>
                     <div className="code-generator-edit">
-                        <label for="name" className="std-txt std-txt-S mrg-S">Text Label</label>
+                        <label htmlFor="name" className="std-txt std-txt-S mrg-S">Text Label</label>
                         <input type="text" className="form-full  mrg-M" name="code_button_text" defaultValue="My Button" />
 
-                        <label for="name" className="std-txt std-txt-S mrg-S">Style</label>
+                        <label htmlFor="name" className="std-txt std-txt-S mrg-S">Style</label>
                         <div className="mrg-M">
                           <span className="select select-M">
                             <select name="code_button_style">
@@ -83,7 +85,7 @@ componentDidMount() {
                           </span>
                         </div>
 
-                        <label for="name" className="std-txt std-txt-S mrg-S">Size</label>
+                        <label htmlFor="name" className="std-txt std-txt-S mrg-S">Size</label>
                         <div className="mrg-M">
                           <span className="select select-M">
                             <select name="code_button_size">
@@ -115,7 +117,9 @@ componentDidMount() {
                     </div>
                     <div className="code-generator-code">
                         <div className="design-system-headline-with-toggle">
-                        <div className="code-generator-copy"><a href="javascript:void();">Copy Code</a></div>
+                        <div className="code-generator-copy"><ClipboardButton data-clipboard-text="I'll be copied">
+        Copy Code
+      </ClipboardButton></div>
                         <div className="design-system-headline-toggle">
                             <a href="javascript:void(0)" className="design-system-toggle left">React</a>
                             <a href="javascript:void(0)" className="design-system-toggle right active">HTML</a>
