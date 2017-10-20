@@ -1,24 +1,41 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
-    <title>icon/Utility/Ship/truck</title>
-    <desc>Created with Sketch.</desc>
-    <defs>
-        <path d="M23.5270628,0 L12.0462678,0 C10.8213305,0 9.57322176,1.20527473 9.57322176,2.38824176 L9.57322176,15.8534066 C9.57322176,17.1696703 10.8158912,18.4615385 12.0820586,18.4615385 L17.6096151,18.4615385 C18.1351632,19.380989 19.1165272,20 20.2410544,20 C21.3655816,20 22.3469456,19.380989 22.8724937,18.4615385 L23.635523,18.4615385 C24.7847448,18.4615385 26,17.120989 26,15.8536264 L26,2.4243956 C26,1.20087912 24.7748452,0 23.5270628,0 L23.5270628,0 Z M20.2410544,18.6813187 C19.2851464,18.6813187 18.5073222,17.8925275 18.5073222,16.9230769 C18.5073222,15.9536264 19.2848201,15.1648352 20.2410544,15.1648352 C21.1969623,15.1648352 21.9748954,15.9536264 21.9748954,16.9230769 C21.9748954,17.8925275 21.1972887,18.6813187 20.2410544,18.6813187 Z M8.08643515,5.05494505 C8.44695397,5.05494505 8.73915481,5.35010989 8.7392636,5.71428571 L8.7392636,16.7032967 C8.7392636,17.0672527 8.44695397,17.3626374 8.08654393,17.3626374 L7.46112971,17.3626374 C7.25041004,18.8536264 5.98435146,20 4.45339749,20 C2.92244351,20 1.65638494,18.8536264 1.44566527,17.3626374 L0.652719665,17.3626374 C0.292200837,17.3626374 0,17.0672527 0,16.7032967 L0,11.0989011 C0,10.9912088 0.0145774059,10.0187912 0.521196653,9.12351648 C0.542301255,9.08626374 0.566887029,9.05120879 0.594627615,9.01879121 L3.4230795,5.72208791 C3.47127197,5.66593407 3.52860251,5.61835165 3.59246025,5.58142857 C4.43403347,5.0956044 4.87472803,5.05494505 5.22175732,5.05494505 L8.08643515,5.05494505 Z M4.45339749,18.6813187 C5.40941423,18.6813187 6.18712971,17.8925275 6.18712971,16.9230769 C6.18712971,15.9536264 5.40941423,15.1648352 4.45339749,15.1648352 C3.49738075,15.1648352 2.71966527,15.9536264 2.71966527,16.9230769 C2.71966527,17.8925275 3.49738075,18.6813187 4.45339749,18.6813187 Z" id="path-1"></path>
-    </defs>
-    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="icon/Utility/Ship/truck">
-            <g id="Icon" transform="translate(11.000000, 14.000000)">
-                <mask id="mask-2" fill="white">
-                    <use xlink:href="#path-1"></use>
-                </mask>
-                <use id="Mask" fill="#384048" xlink:href="#path-1"></use>
-                <g id="Color/Grayscale/Night-Sky" mask="url(#mask-2)" fill="#111111">
-                    <g transform="translate(-11.000000, -14.000000)" id="Swatch">
-                        <rect x="0" y="0" width="48" height="48"></rect>
-                    </g>
-                </g>
-            </g>
-        </g>
-    </g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="icon_x2F_Utility_x2F_Ship_x2F_truck-Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 48 48" style="enable-background:new 0 0 48 48;" xml:space="preserve">
+<title>icon/Utility/Ship/truck</title>
+<desc>Created with Sketch.</desc>
+<g id="icon_x2F_Utility_x2F_Ship_x2F_truck-Symbols">
+	<g id="icon_x2F_Utility_x2F_Ship_x2F_truck">
+		<g id="icon_x2F_Utility_x2F_Ship_x2F_truck-Icon" transform="translate(11.000000, 14.000000)">
+			<g id="icon_x2F_Utility_x2F_Ship_x2F_truck-Mask">
+				<path id="icon_x2F_Utility_x2F_Ship_x2F_truck-path-1_1_" style="fill:#384048;" d="M23.5,0H12c-1.2,0-2.5,1.2-2.5,2.4v13.5c0,1.3,1.2,2.6,2.5,2.6h5.5
+					c0.5,0.9,1.5,1.5,2.6,1.5s2.1-0.6,2.6-1.5h0.8c1.1,0,2.4-1.3,2.4-2.6V2.4C26,1.2,24.8,0,23.5,0L23.5,0z M20.2,18.7
+					c-1,0-1.7-0.8-1.7-1.8s0.8-1.8,1.7-1.8c1,0,1.7,0.8,1.7,1.8S21.2,18.7,20.2,18.7z M8.1,5.1c0.4,0,0.7,0.3,0.7,0.7v11
+					c0,0.4-0.3,0.7-0.7,0.7H7.5C7.3,18.9,6,20,4.5,20s-2.8-1.1-3-2.6H0.7c-0.4,0-0.7-0.3-0.7-0.7v-5.6c0-0.1,0-1.1,0.5-2
+					c0,0,0-0.1,0.1-0.1l2.8-3.3c0-0.1,0.1-0.1,0.2-0.1c0.8-0.5,1.3-0.5,1.6-0.5H8.1z M4.5,18.7c1,0,1.7-0.8,1.7-1.8
+					s-0.8-1.8-1.7-1.8S2.7,16,2.7,16.9S3.5,18.7,4.5,18.7z"/>
+			</g>
+			<defs>
+				<filter id="icon_x2F_Utility_x2F_Ship_x2F_truck-Adobe_OpacityMaskFilter" filterUnits="userSpaceOnUse" x="-11" y="-14" width="48" height="48">
+					<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+				</filter>
+			</defs>
+			<mask maskUnits="userSpaceOnUse" x="-11" y="-14" width="48" height="48" id="icon_x2F_Utility_x2F_Ship_x2F_truck-mask-2">
+				<g style="filter:url(#icon_x2F_Utility_x2F_Ship_x2F_truck-Adobe_OpacityMaskFilter);">
+					<path id="icon_x2F_Utility_x2F_Ship_x2F_truck-path-1" style="fill:#FFFFFF;" d="M23.5,0H12c-1.2,0-2.5,1.2-2.5,2.4v13.5c0,1.3,1.2,2.6,2.5,2.6h5.5
+						c0.5,0.9,1.5,1.5,2.6,1.5s2.1-0.6,2.6-1.5h0.8c1.1,0,2.4-1.3,2.4-2.6V2.4C26,1.2,24.8,0,23.5,0L23.5,0z M20.2,18.7
+						c-1,0-1.7-0.8-1.7-1.8s0.8-1.8,1.7-1.8c1,0,1.7,0.8,1.7,1.8S21.2,18.7,20.2,18.7z M8.1,5.1c0.4,0,0.7,0.3,0.7,0.7v11
+						c0,0.4-0.3,0.7-0.7,0.7H7.5C7.3,18.9,6,20,4.5,20s-2.8-1.1-3-2.6H0.7c-0.4,0-0.7-0.3-0.7-0.7v-5.6c0-0.1,0-1.1,0.5-2
+						c0,0,0-0.1,0.1-0.1l2.8-3.3c0-0.1,0.1-0.1,0.2-0.1c0.8-0.5,1.3-0.5,1.6-0.5H8.1z M4.5,18.7c1,0,1.7-0.8,1.7-1.8
+						s-0.8-1.8-1.7-1.8S2.7,16,2.7,16.9S3.5,18.7,4.5,18.7z"/>
+				</g>
+			</mask>
+			<g id="icon_x2F_Utility_x2F_Ship_x2F_truck-Color_x2F_Grayscale_x2F_Night-Sky" style="mask:url(#icon_x2F_Utility_x2F_Ship_x2F_truck-mask-2);">
+				<g id="icon_x2F_Utility_x2F_Ship_x2F_truck-Swatch" transform="translate(-11.000000, -14.000000)">
+					<rect style="fill:#111111;" width="48" height="48"/>
+				</g>
+			</g>
+		</g>
+	</g>
+</g>
 </svg>

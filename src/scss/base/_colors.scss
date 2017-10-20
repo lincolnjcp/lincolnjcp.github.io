@@ -13,7 +13,7 @@
     background-color: $color-penneyred;
   }
 
-  .color-penneyred-svg{
+  .icon.color-penneyred-svg{
     path {
       fill: $color-penneyred !important;
     }
@@ -25,6 +25,12 @@
  
   .color-lipstick-bg{
     background-color: $color-lipstick;
+  }
+
+  .icon.color-lipstick-svg{
+    path {
+      fill: $color-lipstick !important;
+    }
   }
 
 .color-passion{
@@ -51,6 +57,12 @@
 
   .color-nightsky-bg{
     background-color: $color-nightsky;
+  }
+
+  .icon.color-nightsky-svg{
+    path {
+      fill: $color-nightsky !important;
+    }
   }
 
 .color-slate{

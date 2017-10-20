@@ -9,6 +9,8 @@
 
 
 
+
+
 /* ---
 Base Styles
 --- */
@@ -289,6 +291,8 @@ Base Styles
 
 
 
+
+
 /*------------------------------------*\
   CONTENT - COLOR PALETTE
 \*------------------------------------*/
@@ -478,32 +482,34 @@ strong {
     }
 }
 
+
+
 /* Code Generator */
+
 .code-generator {
-    border:1px solid $color-concrete;
+    border: 1px solid $color-concrete;
     border-radius: 8px;
     .code-generator-code {
         background-color: $color-design-system-right-nav;
     }
     .code-generator-preview {
-        border-top:1px solid $color-concrete;
-        border-bottom:1px solid $color-concrete;    
+        border-top: 1px solid $color-concrete;
+        border-bottom: 1px solid $color-concrete;
         padding: 15px;
-
     }
     .code-generator-code-preview {
         padding: 15px;
         background-color: $color-design-system-right-nav;
     }
     .design-system-headline-with-toggle {
-        border-bottom:1px solid $color-concrete;
-        height:60px;   
+        border-bottom: 1px solid $color-concrete;
+        height: 60px;
         .design-system-headline-toggle {
             top: 15px;
         }
         .code-generator-copy button {
             position: absolute;
-            top:15px;
+            top: 15px;
             left: 15px;
             display: inline-block;
             padding: 5px 15px;
@@ -519,30 +525,32 @@ strong {
     .code-generator-controls {
         padding: 15px;
     }
+}
 
-}
 @include breakpoint(small) {
-.code-generator-edit.hide {
-    display: none;
+    .code-generator-edit.hide {
+        display: none;
+    }
 }
-}
+
 @include breakpoint(medium large xlarge) {
     .code-generator {
         display: flex;
         flex-direction: row-reverse;
-    
+
         .code-generator-right {
-            width:30%;
+            width: 30%;
             flex: 0 0 300px;
             border-left: solid 1px #d8d8d8;
         }
         .code-generator-left {
-            width:70%;
+            width: 70%;
             background-color: $color-design-system-right-nav;
             flex: 1;
         }
-        .code-generator-preview, .code-generator-code-preview {
-            background:none;
+        .code-generator-preview,
+        .code-generator-code-preview {
+            background: none;
         }
         .code-generator-preview {
             border-top: none;
@@ -555,6 +563,89 @@ strong {
     }
 }
 
+
+
+/* Color Picker */
+
+.design-system-color-picker {
+    position: absolute;
+    top: -5px;
+    right: 15px;
+    .color-picker-icon {
+        border: 2px solid #FFF;
+        display: inline-block;
+        width: 36px;
+        height: 36px;
+        border-radius: 18px;
+        margin: 4px;
+        span {
+            width: 32px;
+            height: 32px;
+            border-radius: 16px;
+            display: inline-block;
+            border: 2px solid $color-white;
+        }
+        &.selected {
+            border: 2px solid #000;
+        }
+    }
+    .design-system-color-picker-menu {
+        padding: 16px;
+        background-color: #FFF;
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.25);
+        border-radius: 8px;
+        width: 260px;
+        border: solid 1px #d8d8d8;
+        position: absolute;
+        top: 54px;
+        right: 0;
+        display: none;
+        z-index: 1;
+        &.show {
+            display: block;
+        }
+        &:after,
+        &:before {
+            bottom: 100%;
+            left: 80.25%;
+            border: solid transparent;
+            content: " ";
+            height: 0;
+            width: 0;
+            position: absolute;
+            pointer-events: none;
+        }
+
+        &:after {
+            border-color: rgba(255, 255, 255, 0);
+            border-bottom-color: #FFF;
+            border-width: 10px;
+            margin-left: -10px;
+        }
+        &:before {
+            border-color: rgba(216, 216, 216, 0);
+            border-bottom-color: #d8d8d8;
+            border-width: 11px;
+            margin-left: -11px;
+        }
+    }
+    .design-system-color-picker-btn {
+        padding-right: 30px;
+        .icon {
+            background-image: url($path-images-pages + "global/icons/nav/triangle-down.svg");
+            display: block;
+            width: 30px;
+            height: 30px;
+            position: absolute;
+            top: 6px;
+            right: 10px;
+            border: 0;
+            &.open {
+                background-image: url($path-images-pages + "global/icons/nav/triangle-up.svg");
+            }
+        }
+    }
+}
 
 .design-system-color-hex {
     display: none;
@@ -569,6 +660,8 @@ strong {
         display: none;
     }
 }
+
+
 
 
 
@@ -618,6 +711,8 @@ strong {
 
 
 
+
+
 /* BUTTONS */
 
 .design-system {
@@ -645,6 +740,8 @@ strong {
 }
 
 
+
+
 /* TYPE */
 
 .typography-sample {
@@ -655,4 +752,6 @@ strong {
     }
 }
 
-.design-system-preview-image { margin-top: 10px; }
+.design-system-preview-image {
+    margin-top: 10px;
+}

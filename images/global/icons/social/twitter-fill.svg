@@ -1,24 +1,41 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
-    <title>icon/Social/twitter-fill</title>
-    <desc>Created with Sketch.</desc>
-    <defs>
-        <path d="M16,0 C7.16338462,0 0,7.16338462 0,16 C0,24.8366154 7.16338462,32 16,32 C24.8366154,32 32,24.8366154 32,16 C32,7.16338462 24.8366154,0 16,0 L16,0 Z M24.29,12.2926154 C24.2978462,12.4658462 24.3016923,12.64 24.3016923,12.8152308 C24.3016923,18.1527692 20.2389231,24.3076923 12.8093846,24.3076923 C10.5283077,24.3076923 8.40507692,23.6389231 6.61753846,22.4929231 C6.93353846,22.5301538 7.25507692,22.5492308 7.58123077,22.5492308 C9.47369231,22.5492308 11.2152308,21.9036923 12.5976923,20.8203077 C10.8301538,20.7876923 9.33846154,19.6196923 8.82446154,18.0152308 C9.07107692,18.0624615 9.32415385,18.0876923 9.58446154,18.0876923 C9.95276923,18.0876923 10.3096923,18.0383077 10.6486154,17.946 C8.80076923,17.5749231 7.40830769,15.9424615 7.40830769,13.9853846 C7.40830769,13.9684615 7.40830769,13.9515385 7.40861538,13.9346154 C7.95323077,14.2372308 8.576,14.4187692 9.23815385,14.4398462 C8.15430769,13.7155385 7.44123077,12.4792308 7.44123077,11.0778462 C7.44123077,10.3375385 7.64030769,9.64369231 7.98815385,9.04723077 C9.98030769,11.4909231 12.9566154,13.0990769 16.3136923,13.2673846 C16.2447692,12.9718462 16.2090769,12.6636923 16.2090769,12.3469231 C16.2090769,10.1163077 18.0175385,8.30784615 20.2483077,8.30784615 C21.4101538,8.30784615 22.4598462,8.79830769 23.1967692,9.58338462 C24.1166154,9.40215385 24.9812308,9.06615385 25.7615385,8.60323077 C25.4601538,9.54646154 24.8195385,10.338 23.9856923,10.8378462 C24.8026154,10.7403077 25.5812308,10.5232308 26.3055385,10.2018462 C25.764,11.0116923 25.0793846,11.7232308 24.29,12.2926154 L24.29,12.2926154 Z" id="path-1"></path>
-    </defs>
-    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="icon/Social/twitter-fill">
-            <g id="Icon" transform="translate(8.000000, 8.000000)">
-                <mask id="mask-2" fill="white">
-                    <use xlink:href="#path-1"></use>
-                </mask>
-                <use id="Mask" fill="#384048" xlink:href="#path-1"></use>
-                <g id="Color/Grayscale/Night-Sky" mask="url(#mask-2)" fill="#111111">
-                    <g transform="translate(-8.000000, -8.000000)" id="Swatch">
-                        <rect x="0" y="0" width="48" height="48"></rect>
-                    </g>
-                </g>
-            </g>
-        </g>
-    </g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="icon_x2F_Social_x2F_twitter-fill-Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 48 48" style="enable-background:new 0 0 48 48;" xml:space="preserve">
+<title>icon/Social/twitter-fill</title>
+<desc>Created with Sketch.</desc>
+<g id="icon_x2F_Social_x2F_twitter-fill-Symbols">
+	<g id="icon_x2F_Social_x2F_twitter-fill">
+		<g id="icon_x2F_Social_x2F_twitter-fill-Icon" transform="translate(8.000000, 8.000000)">
+			<g id="icon_x2F_Social_x2F_twitter-fill-Mask">
+				<path id="icon_x2F_Social_x2F_twitter-fill-path-1_1_" style="fill:#384048;" d="M16,0C7.2,0,0,7.2,0,16s7.2,16,16,16s16-7.2,16-16S24.8,0,16,0L16,0z M24.3,12.3
+					c0,0.2,0,0.3,0,0.5c0,5.3-4.1,11.5-11.5,11.5c-2.3,0-4.4-0.7-6.2-1.8c0.3,0,0.6,0.1,1,0.1c1.9,0,3.6-0.6,5-1.7
+					c-1.8,0-3.3-1.2-3.8-2.8c0.2,0,0.5,0.1,0.8,0.1c0.4,0,0.7,0,1.1-0.1c-1.8-0.4-3.2-2-3.2-4c0,0,0,0,0-0.1
+					c0.5,0.3,1.2,0.5,1.8,0.5c-1.1-0.7-1.8-2-1.8-3.4c0-0.7,0.2-1.4,0.5-2c2,2.4,5,4.1,8.3,4.2c-0.1-0.3-0.1-0.6-0.1-0.9
+					c0-2.2,1.8-4,4-4c1.2,0,2.2,0.5,2.9,1.3c0.9-0.2,1.8-0.5,2.6-1c-0.3,0.9-0.9,1.7-1.8,2.2c0.8-0.1,1.6-0.3,2.3-0.6
+					C25.8,11,25.1,11.7,24.3,12.3L24.3,12.3z"/>
+			</g>
+			<defs>
+				<filter id="icon_x2F_Social_x2F_twitter-fill-Adobe_OpacityMaskFilter" filterUnits="userSpaceOnUse" x="-8" y="-8" width="48" height="48">
+					<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+				</filter>
+			</defs>
+			<mask maskUnits="userSpaceOnUse" x="-8" y="-8" width="48" height="48" id="icon_x2F_Social_x2F_twitter-fill-mask-2">
+				<g style="filter:url(#icon_x2F_Social_x2F_twitter-fill-Adobe_OpacityMaskFilter);">
+					<path id="icon_x2F_Social_x2F_twitter-fill-path-1" style="fill:#FFFFFF;" d="M16,0C7.2,0,0,7.2,0,16s7.2,16,16,16s16-7.2,16-16S24.8,0,16,0L16,0z M24.3,12.3
+						c0,0.2,0,0.3,0,0.5c0,5.3-4.1,11.5-11.5,11.5c-2.3,0-4.4-0.7-6.2-1.8c0.3,0,0.6,0.1,1,0.1c1.9,0,3.6-0.6,5-1.7
+						c-1.8,0-3.3-1.2-3.8-2.8c0.2,0,0.5,0.1,0.8,0.1c0.4,0,0.7,0,1.1-0.1c-1.8-0.4-3.2-2-3.2-4c0,0,0,0,0-0.1
+						c0.5,0.3,1.2,0.5,1.8,0.5c-1.1-0.7-1.8-2-1.8-3.4c0-0.7,0.2-1.4,0.5-2c2,2.4,5,4.1,8.3,4.2c-0.1-0.3-0.1-0.6-0.1-0.9
+						c0-2.2,1.8-4,4-4c1.2,0,2.2,0.5,2.9,1.3c0.9-0.2,1.8-0.5,2.6-1c-0.3,0.9-0.9,1.7-1.8,2.2c0.8-0.1,1.6-0.3,2.3-0.6
+						C25.8,11,25.1,11.7,24.3,12.3L24.3,12.3z"/>
+				</g>
+			</mask>
+			<g id="icon_x2F_Social_x2F_twitter-fill-Color_x2F_Grayscale_x2F_Night-Sky" style="mask:url(#icon_x2F_Social_x2F_twitter-fill-mask-2);">
+				<g id="icon_x2F_Social_x2F_twitter-fill-Swatch" transform="translate(-8.000000, -8.000000)">
+					<rect style="fill:#111111;" width="48" height="48"/>
+				</g>
+			</g>
+		</g>
+	</g>
+</g>
 </svg>

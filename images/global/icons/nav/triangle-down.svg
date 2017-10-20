@@ -1,24 +1,32 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
-    <title>icon/Nav/triangle-down</title>
-    <desc>Created with Sketch.</desc>
-    <defs>
-        <polygon id="path-1" points="6 0 12 8 0 8"></polygon>
-    </defs>
-    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="icon/Nav/triangle-down">
-            <g id="Icon" transform="translate(24.000000, 24.000000) rotate(180.000000) translate(-24.000000, -24.000000) translate(18.000000, 20.000000)">
-                <mask id="mask-2" fill="white">
-                    <use xlink:href="#path-1"></use>
-                </mask>
-                <use id="Mask" fill="#384048" xlink:href="#path-1"></use>
-                <g id="Color/Grayscale/Night-Sky" mask="url(#mask-2)" fill="#111111">
-                    <g transform="translate(-18.000000, -20.000000)" id="Swatch">
-                        <rect x="0" y="0" width="48" height="48"></rect>
-                    </g>
-                </g>
-            </g>
-        </g>
-    </g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="icon_x2F_Nav_x2F_triangle-down-Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 48 48" style="enable-background:new 0 0 48 48;" xml:space="preserve">
+<title>icon/Nav/triangle-down</title>
+<desc>Created with Sketch.</desc>
+<g id="icon_x2F_Nav_x2F_triangle-down-Symbols">
+	<g id="icon_x2F_Nav_x2F_triangle-down">
+		
+			<g id="icon_x2F_Nav_x2F_triangle-down-Icon" transform="translate(24.000000, 24.000000) rotate(180.000000) translate(-24.000000, -24.000000) translate(18.000000, 20.000000)">
+			<g id="icon_x2F_Nav_x2F_triangle-down-Mask">
+				<polygon id="icon_x2F_Nav_x2F_triangle-down-path-1_1_" style="fill:#384048;" points="6,0 12,8 0,8 				"/>
+			</g>
+			<defs>
+				<filter id="icon_x2F_Nav_x2F_triangle-down-Adobe_OpacityMaskFilter" filterUnits="userSpaceOnUse">
+					<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+				</filter>
+			</defs>
+			<mask maskUnits="userSpaceOnUse" id="icon_x2F_Nav_x2F_triangle-down-mask-2">
+				<g style="filter:url(#icon_x2F_Nav_x2F_triangle-down-Adobe_OpacityMaskFilter);">
+					<polygon id="icon_x2F_Nav_x2F_triangle-down-path-1" style="fill:#FFFFFF;" points="6,0 12,8 0,8 					"/>
+				</g>
+			</mask>
+			<g id="icon_x2F_Nav_x2F_triangle-down-Color_x2F_Grayscale_x2F_Night-Sky" style="mask:url(#icon_x2F_Nav_x2F_triangle-down-mask-2);">
+				<g id="icon_x2F_Nav_x2F_triangle-down-Swatch" transform="translate(-18.000000, -20.000000)">
+					<rect style="fill:#111111;" width="48" height="48"/>
+				</g>
+			</g>
+		</g>
+	</g>
+</g>
 </svg>

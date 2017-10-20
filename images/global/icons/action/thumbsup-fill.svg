@@ -1,41 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 21.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+<svg version="1.1" id="action-thumbsup-fill-Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 48 48" style="enable-background:new 0 0 48 48;" xml:space="preserve">
 <title>icon/Action/thumbsup-fill</title>
-<desc>Created with Sketch.</desc>
-<g id="Symbols">
-	<g id="icon_x2F_Action_x2F_thumbsup-fill">
-		<g id="Icon" transform="translate(12.000000, 12.000000)">
-			<g id="Mask">
-				<path id="path-1_1_" style="fill:#384048;" d="M24,9.6v12.8c0,0.7-0.5,1.2-1.2,1.2h-4.3c-0.7,0-1.2-0.5-1.2-1.2V9.6
-					c0-0.7,0.5-1.2,1.2-1.2h4.3C23.5,8.4,24,8.9,24,9.6z M11.7,2l0,1.3c0,0,0,0,0,0.1c0,0,0,0,0,0c0,0.7,0.1,1.1,0.3,1.5
-					c0,0,0,0,0,0c0,0,0,0,0,0.1l1.4,3.2c0.5,0.7,1.1,1.2,1.9,1.5c0.3,0.1,0.5,0.4,0.5,0.7v11.1c0,0.4-0.3,0.7-0.7,0.7
-					c-0.6,0-0.8,0.1-0.9,0.1l-0.6,0.7c-0.7,0.7-1.6,1.1-2.5,1.1c0,0,0,0,0,0l-6-0.2c-1.5,0-2.9-1-3.3-2.5c0,0,0,0,0,0l-1.8-8.4
-					c-0.5-1.8,0.5-3.6,2.3-4.1c0,0,0,0,0,0l3.7-0.9L5.9,5C5.8,4.7,5.8,4.4,5.8,4V3.4C5.8,1.5,7.3,0,9.2,0h0.5
-					C10.8,0,11.7,0.9,11.7,2z"/>
-			</g>
-			<defs>
-				<filter id="Adobe_OpacityMaskFilter" filterUnits="userSpaceOnUse" x="-12" y="-12" width="48" height="48">
-					<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
-				</filter>
-			</defs>
-			<mask maskUnits="userSpaceOnUse" x="-12" y="-12" width="48" height="48" id="zmask-2">
-				<g style="filter:url(#Adobe_OpacityMaskFilter);">
-					<path id="path-1" style="fill:#FFFFFF;" d="M24,9.6v12.8c0,0.7-0.5,1.2-1.2,1.2h-4.3c-0.7,0-1.2-0.5-1.2-1.2V9.6
-						c0-0.7,0.5-1.2,1.2-1.2h4.3C23.5,8.4,24,8.9,24,9.6z M11.7,2l0,1.3c0,0,0,0,0,0.1c0,0,0,0,0,0c0,0.7,0.1,1.1,0.3,1.5
-						c0,0,0,0,0,0c0,0,0,0,0,0.1l1.4,3.2c0.5,0.7,1.1,1.2,1.9,1.5c0.3,0.1,0.5,0.4,0.5,0.7v11.1c0,0.4-0.3,0.7-0.7,0.7
-						c-0.6,0-0.8,0.1-0.9,0.1l-0.6,0.7c-0.7,0.7-1.6,1.1-2.5,1.1c0,0,0,0,0,0l-6-0.2c-1.5,0-2.9-1-3.3-2.5c0,0,0,0,0,0l-1.8-8.4
-						c-0.5-1.8,0.5-3.6,2.3-4.1c0,0,0,0,0,0l3.7-0.9L5.9,5C5.8,4.7,5.8,4.4,5.8,4V3.4C5.8,1.5,7.3,0,9.2,0h0.5
-						C10.8,0,11.7,0.9,11.7,2z"/>
-				</g>
-			</mask>
-			<g id="Color_x2F_Grayscale_x2F_Night-Sky" style="mask:url(#zmask-2);">
-				<g id="Swatch" transform="translate(-12.000000, -12.000000)">
-					<rect style="fill:#111111;" width="48" height="48"/>
-				</g>
-			</g>
-		</g>
+<g transform="translate(12 12)">
+	<path style="fill:#384048;" d="M24,9.6v12.8c0,0.7-0.5,1.2-1.2,1.2h-4.3c-0.7,0-1.2-0.5-1.2-1.2V9.6c0-0.7,0.5-1.2,1.2-1.2h4.3
+		C23.5,8.4,24,8.9,24,9.6z M11.7,2v1.4c0,0.7,0.1,1.1,0.3,1.5V5l1.4,3.2c0.5,0.7,1.1,1.2,1.9,1.5c0.3,0.1,0.5,0.4,0.5,0.7v11.1
+		c0,0.4-0.3,0.7-0.7,0.7c-0.6,0-0.8,0.1-0.9,0.1L13.6,23c-0.7,0.7-1.6,1.1-2.5,1.1l-6-0.2c-1.5,0-2.9-1-3.3-2.5L0,13
+		c-0.5-1.8,0.5-3.6,2.3-4.1L6,8L5.9,5C5.8,4.7,5.8,4.4,5.8,4V3.4C5.8,1.5,7.3,0,9.2,0h0.5C10.8,0,11.7,0.9,11.7,2z"/>
+	<defs>
+		<filter id="action-thumbsup-fill-Adobe_OpacityMaskFilter" filterUnits="userSpaceOnUse" x="-12" y="-12" width="48" height="48">
+			<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+		</filter>
+	</defs>
+	<mask maskUnits="userSpaceOnUse" x="-12" y="-12" width="48" height="48" id="action-thumbsup-fill-b">
+		<path style="fill:#FFFFFF;filter:url(#action-thumbsup-fill-Adobe_OpacityMaskFilter);" d="M24,9.6v12.8c0,0.7-0.5,1.2-1.2,1.2h-4.3
+			c-0.7,0-1.2-0.5-1.2-1.2V9.6c0-0.7,0.5-1.2,1.2-1.2h4.3C23.5,8.4,24,8.9,24,9.6z M11.7,2v1.4c0,0.7,0.1,1.1,0.3,1.5V5l1.4,3.2
+			c0.5,0.7,1.1,1.2,1.9,1.5c0.3,0.1,0.5,0.4,0.5,0.7v11.1c0,0.4-0.3,0.7-0.7,0.7c-0.6,0-0.8,0.1-0.9,0.1L13.6,23
+			c-0.7,0.7-1.6,1.1-2.5,1.1l-6-0.2c-1.5,0-2.9-1-3.3-2.5L0,13c-0.5-1.8,0.5-3.6,2.3-4.1L6,8L5.9,5C5.8,4.7,5.8,4.4,5.8,4V3.4
+			C5.8,1.5,7.3,0,9.2,0h0.5C10.8,0,11.7,0.9,11.7,2z"/>
+	</mask>
+	<g style="mask:url(#action-thumbsup-fill-b);">
+		<path style="fill:#111111;" d="M-12-12h48v48h-48V-12z"/>
 	</g>
 </g>
 </svg>

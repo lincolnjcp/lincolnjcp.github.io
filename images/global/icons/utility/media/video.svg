@@ -1,24 +1,35 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
-    <title>icon/Utility/Media/video</title>
-    <desc>Created with Sketch.</desc>
-    <defs>
-        <path d="M27.2764333,0.106685358 C26.8363667,-0.0896088885 26.3211667,-0.0107665448 25.9606667,0.308081169 L18.9,6.55471368 L18.9,2.40575129 C18.9,1.63738627 18.27315,1.01441581 17.5,1.01441581 L1.4,1.01441581 C0.62685,1.01441581 0,1.63738627 0,2.40575129 L0,17.5944969 C0,18.3629779 0.62685,18.9858324 1.4,18.9858324 L17.5,18.9858324 C18.27315,18.9858324 18.9,18.3629779 18.9,17.5944969 L18.9,13.4454186 L25.9606667,19.6919351 C26.18945,19.8943744 26.48065,20 26.7752333,20 C26.9448667,20 27.1156667,19.9649847 27.2764333,19.8933309 C27.7165,19.6970367 28,19.2621284 28,18.7825815 L28,1.21743485 C28,0.737887886 27.7165,0.302979605 27.2764333,0.106685358" id="path-1"></path>
-    </defs>
-    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="icon/Utility/Media/video">
-            <g id="Icon" transform="translate(10.000000, 14.000000)">
-                <mask id="mask-2" fill="white">
-                    <use xlink:href="#path-1"></use>
-                </mask>
-                <use id="Mask" fill="#384048" xlink:href="#path-1"></use>
-                <g id="Color/Grayscale/Night-Sky" mask="url(#mask-2)" fill="#111111">
-                    <g transform="translate(-10.000000, -14.000000)" id="Swatch">
-                        <rect x="0" y="0" width="48" height="48"></rect>
-                    </g>
-                </g>
-            </g>
-        </g>
-    </g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="icon_x2F_Utility_x2F_Media_x2F_video-Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 48 48" style="enable-background:new 0 0 48 48;" xml:space="preserve">
+<title>icon/Utility/Media/video</title>
+<desc>Created with Sketch.</desc>
+<g id="icon_x2F_Utility_x2F_Media_x2F_video-Symbols">
+	<g id="icon_x2F_Utility_x2F_Media_x2F_video">
+		<g id="icon_x2F_Utility_x2F_Media_x2F_video-Icon" transform="translate(10.000000, 14.000000)">
+			<g id="icon_x2F_Utility_x2F_Media_x2F_video-Mask">
+				<path id="icon_x2F_Utility_x2F_Media_x2F_video-path-1_1_" style="fill:#384048;" d="M27.3,0.1c-0.4-0.2-1-0.1-1.3,0.2l-7.1,6.2V2.4c0-0.8-0.6-1.4-1.4-1.4H1.4
+					C0.6,1,0,1.6,0,2.4v15.2C0,18.4,0.6,19,1.4,19h16.1c0.8,0,1.4-0.6,1.4-1.4v-4.1l7.1,6.2c0.2,0.2,0.5,0.3,0.8,0.3
+					c0.2,0,0.3,0,0.5-0.1c0.4-0.2,0.7-0.6,0.7-1.1V1.2C28,0.7,27.7,0.3,27.3,0.1"/>
+			</g>
+			<defs>
+				<filter id="icon_x2F_Utility_x2F_Media_x2F_video-Adobe_OpacityMaskFilter" filterUnits="userSpaceOnUse" x="-10" y="-14" width="48" height="48">
+					<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+				</filter>
+			</defs>
+			<mask maskUnits="userSpaceOnUse" x="-10" y="-14" width="48" height="48" id="icon_x2F_Utility_x2F_Media_x2F_video-mask-2">
+				<g style="filter:url(#icon_x2F_Utility_x2F_Media_x2F_video-Adobe_OpacityMaskFilter);">
+					<path id="icon_x2F_Utility_x2F_Media_x2F_video-path-1" style="fill:#FFFFFF;" d="M27.3,0.1c-0.4-0.2-1-0.1-1.3,0.2l-7.1,6.2V2.4c0-0.8-0.6-1.4-1.4-1.4H1.4
+						C0.6,1,0,1.6,0,2.4v15.2C0,18.4,0.6,19,1.4,19h16.1c0.8,0,1.4-0.6,1.4-1.4v-4.1l7.1,6.2c0.2,0.2,0.5,0.3,0.8,0.3
+						c0.2,0,0.3,0,0.5-0.1c0.4-0.2,0.7-0.6,0.7-1.1V1.2C28,0.7,27.7,0.3,27.3,0.1"/>
+				</g>
+			</mask>
+			<g id="icon_x2F_Utility_x2F_Media_x2F_video-Color_x2F_Grayscale_x2F_Night-Sky" style="mask:url(#icon_x2F_Utility_x2F_Media_x2F_video-mask-2);">
+				<g id="icon_x2F_Utility_x2F_Media_x2F_video-Swatch" transform="translate(-10.000000, -14.000000)">
+					<rect style="fill:#111111;" width="48" height="48"/>
+				</g>
+			</g>
+		</g>
+	</g>
+</g>
 </svg>
