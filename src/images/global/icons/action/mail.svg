@@ -1,24 +1,30 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
-    <title>icon/Action/mail</title>
-    <desc>Created with Sketch.</desc>
-    <defs>
-        <path d="M12.2430544,9.31818182 L2.29462652,1.36363636 L0.813392114,0.158863637 C0.979812011,0.0726136366 1.18105141,2.06437847e-10 1.32141075,2.06437847e-10 L24.4623191,2.06437847e-10 C24.5947846,2.06437847e-10 24.8971303,-0.000113636157 25.1624938,0.118977273 L23.5972384,1.36363636 L13.7569456,9.31818182 C13.6231825,9.42204545 13.2347613,9.54545455 13,9.54545455 C12.7653469,9.54545455 12.4201797,9.45102273 12.2430544,9.31818182 Z M25.9633422,1.19227273 C25.9650724,1.20079545 25.9676676,1.20897727 25.9693978,1.2175 C25.9888621,1.25159091 26,1.29102273 26,1.33227273 L26,1.53409091 L25.9762103,17.7272727 C25.9762103,19.0909091 25.1111296,20 23.8135086,20 L2.18649143,20 C0.888870404,20 0.0237897188,19.0909091 0.0237897188,17.7272727 L1.77635684e-15,1.46681818 L1.77635684e-15,1.26511364 C1.77635684e-15,1.25170455 0.00324405257,1.23909091 0.00551488937,1.22625 L1.50026618,2.44215909 L1.50448345,2.44556818 L1.50880885,2.44897727 L11.4572367,10.4035227 L11.4730245,10.4161364 L11.4891366,10.4281818 C11.962552,10.7831818 12.598927,10.9090909 13,10.9090909 C13.4322159,10.9090909 14.1146565,10.7360227 14.5279488,10.4148864 L14.5381135,10.4070455 L14.5480619,10.3990909 L24.3841374,2.44795455 L25.9633422,1.19227273 Z" id="path-1"></path>
-    </defs>
-    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="icon/Action/mail">
-            <g id="Icon" transform="translate(11.000000, 14.000000)">
-                <mask id="mask-2" fill="white">
-                    <use xlink:href="#path-1"></use>
-                </mask>
-                <use id="Mask" fill="#384048" xlink:href="#path-1"></use>
-                <g id="Color/Grayscale/Night-Sky" mask="url(#mask-2)" fill="#111111">
-                    <g transform="translate(-11.000000, -14.000000)" id="Swatch">
-                        <rect x="0" y="0" width="48" height="48"></rect>
-                    </g>
-                </g>
-            </g>
-        </g>
-    </g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="action-mail-Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 48 48" style="enable-background:new 0 0 48 48;" xml:space="preserve">
+<title>icon/Action/mail</title>
+<g transform="translate(11 14)">
+	<g>
+		<path id="action-mail-a_1_" style="fill:#384048;" d="M12.2,9.3l-9.9-8L0.8,0.2C1,0.1,1.2,0,1.3,0h23.1c0.1,0,0.4,0,0.7,0.1l-1.6,1.2l-9.8,8
+			c-0.1,0.1-0.5,0.2-0.8,0.2S12.4,9.5,12.2,9.3z M26,1.2C26,1.2,26,1.2,26,1.2c0,0.1,0,0.1,0,0.1v0.2l0,16.2c0,1.4-0.9,2.3-2.2,2.3
+			H2.2C0.9,20,0,19.1,0,17.7L0,1.5V1.3c0,0,0,0,0,0l1.5,1.2l0,0l0,0l9.9,8l0,0l0,0c0.5,0.4,1.1,0.5,1.5,0.5c0.4,0,1.1-0.2,1.5-0.5
+			l0,0l0,0l9.8-8L26,1.2L26,1.2z"/>
+	</g>
+	<defs>
+		<filter id="action-mail-Adobe_OpacityMaskFilter" filterUnits="userSpaceOnUse" x="-11" y="-14" width="48" height="48">
+			<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+		</filter>
+	</defs>
+	<mask maskUnits="userSpaceOnUse" x="-11" y="-14" width="48" height="48" id="action-mail-b">
+		<g style="filter:url(#action-mail-Adobe_OpacityMaskFilter);">
+			<path id="action-mail-a" style="fill:#FFFFFF;" d="M12.2,9.3l-9.9-8L0.8,0.2C1,0.1,1.2,0,1.3,0h23.1c0.1,0,0.4,0,0.7,0.1l-1.6,1.2l-9.8,8
+				c-0.1,0.1-0.5,0.2-0.8,0.2S12.4,9.5,12.2,9.3z M26,1.2C26,1.2,26,1.2,26,1.2c0,0.1,0,0.1,0,0.1v0.2l0,16.2c0,1.4-0.9,2.3-2.2,2.3
+				H2.2C0.9,20,0,19.1,0,17.7L0,1.5V1.3c0,0,0,0,0,0l1.5,1.2l0,0l0,0l9.9,8l0,0l0,0c0.5,0.4,1.1,0.5,1.5,0.5c0.4,0,1.1-0.2,1.5-0.5
+				l0,0l0,0l9.8-8L26,1.2L26,1.2z"/>
+		</g>
+	</mask>
+	<g style="mask:url(#action-mail-b);">
+		<path style="fill:#111111;" d="M-11-14h48v48h-48V-14z"/>
+	</g>
+</g>
 </svg>

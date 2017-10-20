@@ -1,24 +1,33 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
-    <title>icon/Utility/barcode</title>
-    <desc>Created with Sketch.</desc>
-    <defs>
-        <path d="M0,0 L0.969305331,0 L0.969305331,18 L0,18 L0,0 Z M1.91922456,0 L3.84814216,0 L3.84814216,18 L1.91922456,18 L1.91922456,0 Z M4.79806139,0 L8.64659128,0 L8.64659128,18 L4.79806139,18 L4.79806139,0 Z M10.5557351,0 L12.4846527,0 L12.4846527,18 L10.5557351,18 L10.5557351,0 Z M13.4345719,0 L14.4038772,0 L14.4038772,18 L13.4345719,18 L13.4345719,0 Z M21.1114701,0 L22.0807754,0 L22.0807754,18 L21.1114701,18 L21.1114701,0 Z M23.0306947,0 L24,0 L24,18 L23.0306947,18 L23.0306947,0 Z M16.3134087,0 L19.2019386,0 L19.2019386,18 L16.3134087,18 L16.3134087,0 Z" id="path-1"></path>
-    </defs>
-    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="icon/Utility/barcode">
-            <g id="Icon" transform="translate(12.000000, 15.000000)">
-                <mask id="mask-2" fill="white">
-                    <use xlink:href="#path-1"></use>
-                </mask>
-                <use id="Mask" fill="#384048" xlink:href="#path-1"></use>
-                <g id="Color/Grayscale/Night-Sky" mask="url(#mask-2)" fill="#111111">
-                    <g transform="translate(-12.000000, -15.000000)" id="Swatch">
-                        <rect x="0" y="0" width="48" height="48"></rect>
-                    </g>
-                </g>
-            </g>
-        </g>
-    </g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="icon_x2F_Utility_x2F_barcode-Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 48 48" style="enable-background:new 0 0 48 48;" xml:space="preserve">
+<title>icon/Utility/barcode</title>
+<desc>Created with Sketch.</desc>
+<g id="icon_x2F_Utility_x2F_barcode-Symbols">
+	<g id="icon_x2F_Utility_x2F_barcode">
+		<g id="icon_x2F_Utility_x2F_barcode-Icon" transform="translate(12.000000, 15.000000)">
+			<g id="icon_x2F_Utility_x2F_barcode-Mask">
+				<path id="icon_x2F_Utility_x2F_barcode-path-1_1_" style="fill:#384048;" d="M0,0h1v18H0V0z M1.9,0h1.9v18H1.9V0z M4.8,0h3.8v18H4.8V0z M10.6,0h1.9v18h-1.9V0
+					z M13.4,0h1v18h-1V0z M21.1,0h1v18h-1V0z M23,0h1v18h-1V0z M16.3,0h2.9v18h-2.9V0z"/>
+			</g>
+			<defs>
+				<filter id="icon_x2F_Utility_x2F_barcode-Adobe_OpacityMaskFilter" filterUnits="userSpaceOnUse" x="-12" y="-15" width="48" height="48">
+					<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+				</filter>
+			</defs>
+			<mask maskUnits="userSpaceOnUse" x="-12" y="-15" width="48" height="48" id="icon_x2F_Utility_x2F_barcode-mask-2">
+				<g style="filter:url(#icon_x2F_Utility_x2F_barcode-Adobe_OpacityMaskFilter);">
+					<path id="icon_x2F_Utility_x2F_barcode-path-1" style="fill:#FFFFFF;" d="M0,0h1v18H0V0z M1.9,0h1.9v18H1.9V0z M4.8,0h3.8v18H4.8V0z M10.6,0h1.9v18h-1.9V0z
+						 M13.4,0h1v18h-1V0z M21.1,0h1v18h-1V0z M23,0h1v18h-1V0z M16.3,0h2.9v18h-2.9V0z"/>
+				</g>
+			</mask>
+			<g id="icon_x2F_Utility_x2F_barcode-Color_x2F_Grayscale_x2F_Night-Sky" style="mask:url(#icon_x2F_Utility_x2F_barcode-mask-2);">
+				<g id="icon_x2F_Utility_x2F_barcode-Swatch" transform="translate(-12.000000, -15.000000)">
+					<rect style="fill:#111111;" width="48" height="48"/>
+				</g>
+			</g>
+		</g>
+	</g>
+</g>
 </svg>

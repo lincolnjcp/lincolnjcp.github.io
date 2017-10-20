@@ -1,24 +1,35 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
-    <title>icon/Nav/close</title>
-    <desc>Created with Sketch.</desc>
-    <defs>
-        <path d="M12,10.4572216 L1.86229831,0.319519875 C1.43627181,-0.106506625 0.745546375,-0.106506625 0.319519875,0.319519875 C-0.106506625,0.745546375 -0.106506625,1.43627181 0.319519875,1.86229831 L10.4572216,12 L0.319519875,22.1377017 C-0.106506625,22.5637282 -0.106506625,23.2544536 0.319519875,23.6804801 C0.745546375,24.1065066 1.43627181,24.1065066 1.86229831,23.6804801 L12,13.5427784 L22.1377017,23.6804801 C22.5637282,24.1065066 23.2544536,24.1065066 23.6804801,23.6804801 C24.1065066,23.2544536 24.1065066,22.5637282 23.6804801,22.1377017 L13.5427784,12 L23.6804801,1.86229831 C24.1065066,1.43627181 24.1065066,0.745546375 23.6804801,0.319519875 C23.2544536,-0.106506625 22.5637282,-0.106506625 22.1377017,0.319519875 L12,10.4572216 Z" id="path-1"></path>
-    </defs>
-    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="icon/Nav/close">
-            <g id="Icon" transform="translate(12.000000, 12.000000)">
-                <mask id="mask-2" fill="white">
-                    <use xlink:href="#path-1"></use>
-                </mask>
-                <use id="Mask" fill="#384048" fill-rule="nonzero" xlink:href="#path-1"></use>
-                <g id="Color/Grayscale/Night-Sky" mask="url(#mask-2)" fill="#111111">
-                    <g transform="translate(-12.000000, -12.000000)" id="Swatch">
-                        <rect x="0" y="0" width="48" height="48"></rect>
-                    </g>
-                </g>
-            </g>
-        </g>
-    </g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="icon_x2F_Nav_x2F_close-Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 48 48" style="enable-background:new 0 0 48 48;" xml:space="preserve">
+<title>icon/Nav/close</title>
+<desc>Created with Sketch.</desc>
+<g id="icon_x2F_Nav_x2F_close-Symbols">
+	<g id="icon_x2F_Nav_x2F_close">
+		<g id="icon_x2F_Nav_x2F_close-Icon" transform="translate(12.000000, 12.000000)">
+			<g id="icon_x2F_Nav_x2F_close-Mask">
+				<path id="icon_x2F_Nav_x2F_close-path-1_1_" style="fill:#384048;" d="M12,10.5L1.9,0.3c-0.4-0.4-1.1-0.4-1.5,0s-0.4,1.1,0,1.5L10.5,12L0.3,22.1
+					c-0.4,0.4-0.4,1.1,0,1.5c0.4,0.4,1.1,0.4,1.5,0L12,13.5l10.1,10.1c0.4,0.4,1.1,0.4,1.5,0c0.4-0.4,0.4-1.1,0-1.5L13.5,12
+					L23.7,1.9c0.4-0.4,0.4-1.1,0-1.5c-0.4-0.4-1.1-0.4-1.5,0L12,10.5z"/>
+			</g>
+			<defs>
+				<filter id="icon_x2F_Nav_x2F_close-Adobe_OpacityMaskFilter" filterUnits="userSpaceOnUse" x="-12" y="-12" width="48" height="48">
+					<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+				</filter>
+			</defs>
+			<mask maskUnits="userSpaceOnUse" x="-12" y="-12" width="48" height="48" id="icon_x2F_Nav_x2F_close-mask-2">
+				<g style="filter:url(#icon_x2F_Nav_x2F_close-Adobe_OpacityMaskFilter);">
+					<path id="icon_x2F_Nav_x2F_close-path-1" style="fill:#FFFFFF;" d="M12,10.5L1.9,0.3c-0.4-0.4-1.1-0.4-1.5,0s-0.4,1.1,0,1.5L10.5,12L0.3,22.1
+						c-0.4,0.4-0.4,1.1,0,1.5c0.4,0.4,1.1,0.4,1.5,0L12,13.5l10.1,10.1c0.4,0.4,1.1,0.4,1.5,0c0.4-0.4,0.4-1.1,0-1.5L13.5,12
+						L23.7,1.9c0.4-0.4,0.4-1.1,0-1.5c-0.4-0.4-1.1-0.4-1.5,0L12,10.5z"/>
+				</g>
+			</mask>
+			<g id="icon_x2F_Nav_x2F_close-Color_x2F_Grayscale_x2F_Night-Sky" style="mask:url(#icon_x2F_Nav_x2F_close-mask-2);">
+				<g id="icon_x2F_Nav_x2F_close-Swatch" transform="translate(-12.000000, -12.000000)">
+					<rect style="fill:#111111;" width="48" height="48"/>
+				</g>
+			</g>
+		</g>
+	</g>
+</g>
 </svg>
