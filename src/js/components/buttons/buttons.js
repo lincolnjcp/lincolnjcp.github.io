@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import $ from 'jquery';
 import ClipboardButton from 'react-clipboard.js';
 
+const cartImage = require('!!raw-loader?es5=1!../../../images/global/icons/utility/cart/cart.svg');
+
 class Buttons extends Component {
 
 componentDidMount() {
@@ -199,8 +201,9 @@ componentDidMount() {
             <div className="row button-preview-row">
                 <div className="small-12 medium-4 large-4 columns">
                     <div className="button-preview algn-mid">
-                      <a href="javascript:void();" className="btn btn-primary btn-L mrg-L btn-icon"><img src="/images/global/icons/utility/cart/cart.svg" alt="" /> Checkout</a>
+                      <a href="javascript:void();" className="btn btn-primary btn-L mrg-L btn-icon"><span className="icon color-white-svg" dangerouslySetInnerHTML={{__html: cartImage}} /> Checkout</a>
                     </div>
+
                 </div>
                 <div className="small-12 medium-8 large-8 columns">
                     <h5 className="button-title">Icon and Label</h5>
@@ -210,11 +213,11 @@ componentDidMount() {
             <div className="row button-preview-row">
                 <div className="small-12 medium-4 large-4 columns">
                     <div className="button-preview algn-mid">
-                      <a href="javascript:void();" className="btn btn-primary btn-L mrg-L btn-icon btn-icon-slide"><img src="/images/global/icons/utility/cart/cart.svg" alt="" /> <span>Add to Cart</span></a>
+                      <a href="javascript:void();" className="btn btn-primary btn-L mrg-L btn-icon btn-icon-slide"><span className="icon color-white-svg" dangerouslySetInnerHTML={{__html: cartImage}} /> <span className="btn-label">Add to Cart</span></a>
                     </div>
 
                     <div className="button-preview algn-mid">
-                      <a href="javascript:void();" className="btn btn-secondary btn-L mrg-L btn-icon btn-icon-slide"><img src="/images/global/icons/utility/cart/cart.svg" alt="" /> <span>Add to Cart</span></a>
+                      <a href="javascript:void();" className="btn btn-secondary btn-L mrg-L btn-icon btn-icon-slide"><span className="icon" dangerouslySetInnerHTML={{__html: cartImage}} /> <span className="btn-label">Add to Cart</span></a>
                     </div>
                 </div>
                 <div className="small-12 medium-8 large-8 columns">

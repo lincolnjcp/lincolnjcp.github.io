@@ -21,7 +21,7 @@ button{
   text-align: center;
 
   // Icon in buttons support
-  img{
+  img, .icon{
     vertical-align: middle;
     height: 40px;
     width: 40px;
@@ -123,7 +123,7 @@ button{
     position: relative;
     overflow: hidden;
 
-    img{
+    img, .icon{
       position: absolute;
       display: block;
       left: 50%;
@@ -133,7 +133,7 @@ button{
         -webkit-transition: top .25s ease-in-out;
     }
 
-    span{
+    .btn-label{
       width: 100%;
       height: 100%;
       display: inline-block;
@@ -144,19 +144,19 @@ button{
     }
 
     &:hover{
-      &.btn-L img{
+      &.btn-L img, &.btn-L .icon{
         top: 5px;
       }
 
-      &.btn-M img{
+      &.btn-M img, &.btn-M .icon{
         top: 0px;
       }
 
-      &.btn-S img{
+      &.btn-S img, &.btn-S .icon{
         top: -3px;
       }
 
-      span{
+      span.btn-label{
         opacity: 0;
         margin-top: 40px;
       }

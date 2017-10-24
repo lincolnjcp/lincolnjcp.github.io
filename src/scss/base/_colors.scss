@@ -104,6 +104,12 @@
   .color-white-bg{
     background-color: $color-white;
   }
+
+  .icon.color-white-svg{
+    path {
+      fill: $color-white !important;
+    }
+  }
 // Errors
 .color-error-type{
   color: $color-error-type;

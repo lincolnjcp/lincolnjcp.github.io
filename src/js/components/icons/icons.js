@@ -126,6 +126,7 @@ const ColorPicker = () =>
         <a href="javascript:void();" class="color-picker-icon selected" data-color-class="color-nightsky-svg"><span class="color-nightsky-bg"></span></a>
         <a href="javascript:void();" class="color-picker-icon" data-color-class="color-lipstick-svg"><span class="color-lipstick-bg"></span></a>
         <a href="javascript:void();" class="color-picker-icon" data-color-class="color-penneyred-svg"><span class="color-penneyred-bg"></span></a>
+        <a href="javascript:void();" class="color-picker-icon" data-color-class="color-white-svg"><span class="color-white-bg"></span></a>
       </div>
     </div>;
 
