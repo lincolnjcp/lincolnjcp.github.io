@@ -8,12 +8,26 @@
 @include foundation-off-canvas;
 
 
+// Annotation (only used for demo)
+.anno{
+  font-size: 12px;
+  line-height: 24px;
+  width: 100%;
+  color: $color-slate;
+  letter-spacing: 1px;
+  margin: 56px 0 24px 0;
+  text-transform: uppercase;
+  border-bottom: 1px solid $color-concrete;
+}
 
+// Colors (only used for demo)
+.color{
+  width: 100%;
+  line-height: 56px;
+  text-align: center;
+  color: #fff;
+}
 
-
-/* ---
-Base Styles
---- */
 
 .off-canvas-button {
     display: inline-block;

@@ -3,10 +3,8 @@ import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import { NavLink } from 'react-router-dom';
 
-import Color from '../components/color';
-import Icons from '../components/icons';
-import Typography from '../components/typography';
 import DesignSystemPage from '../containers/DesignSystemPage';
+import WorkInProgress from '../components/work-in-progress';
 
 import $ from 'jquery'
 import 'foundation-sites';
@@ -107,7 +105,7 @@ const Nav = () =>
                             <li><NavLink to="/" activeClassName="active">Development</NavLink></li>
                         </ul>
                     </li>
-                    <li><NavLink to="/" activeClassName="active">Team Members</NavLink></li>
+                    <li><NavLink to="/work-in-progress" activeClassName="active">Work In Progress</NavLink></li>
                     <li><NavLink to="/" activeClassName="active">Questions? <br /> Send us an email</NavLink></li>
                 </ul>;
 
@@ -217,6 +215,7 @@ class App extends React.Component {
             <Route exact path="/visual-design/icons" render={() => <DesignSystemPage componentName="Icons" />} />
             <Route exact path="/visual-design/grid" render={() => <DesignSystemPage componentName="Grid" />} />
             <Route exact path="/visual-design/typography" render={() => <DesignSystemPage componentName="Typography" />} />
+            <Route exact path="/work-in-progress" component={WorkInProgress} />
         </div>
     </div>
     
