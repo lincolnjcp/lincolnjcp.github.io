@@ -9,23 +9,23 @@
 
 
 // Annotation (only used for demo)
-.anno{
-  font-size: 12px;
-  line-height: 24px;
-  width: 100%;
-  color: $color-slate;
-  letter-spacing: 1px;
-  margin: 56px 0 24px 0;
-  text-transform: uppercase;
-  border-bottom: 1px solid $color-concrete;
+.anno {
+    font-size: 12px;
+    line-height: 24px;
+    width: 100%;
+    color: $color-slate;
+    letter-spacing: 1px;
+    margin: 56px 0 24px 0;
+    text-transform: uppercase;
+    border-bottom: 1px solid $color-concrete;
 }
 
 // Colors (only used for demo)
-.color{
-  width: 100%;
-  line-height: 56px;
-  text-align: center;
-  color: #fff;
+.color {
+    width: 100%;
+    line-height: 56px;
+    text-align: center;
+    color: #fff;
 }
 
 
@@ -134,7 +134,7 @@
             width: 100%;
             color: #FFF;
             border: none;
-            padding: 20px 15px;
+            padding: 5px 15px 5px;
 
             @include placeholder {
                 color: $color-white;
@@ -206,6 +206,12 @@
                     content: none;
                 }
             }
+        }
+
+        hr {
+            margin: 10px 20px;
+            border: none;
+            border-top: 1px solid $color-slate;
         }
 
         li.menu-open {
@@ -307,6 +313,7 @@
 
 
 
+
 /*------------------------------------*\
   CONTENT - COLOR PALETTE
 \*------------------------------------*/
@@ -399,9 +406,14 @@ strong {
 }
 
 .design-system-css-class {
-    color: #00848e;
+    color: $color-penneyred;
+    background-color: $color-lightgrey;
     font-size: 14px;
     line-height: 18px;
+    font-family: $font-code;
+    padding: 5px 10px;
+    border-radius: 4px;
+    display: inline-block;
 }
 
 .design-system-css-class-inline {
@@ -498,13 +510,20 @@ strong {
 
 
 
+
 /* Code Generator */
 
 .code-generator {
     border: 1px solid $color-concrete;
     border-radius: 8px;
+    .html-pattern {
+        display: none;
+    }
     .code-generator-code {
         background-color: $color-design-system-right-nav;
+    }
+    .code-generator-edit {
+        margin-top: 25px;
     }
     .code-generator-preview {
         border-top: 1px solid $color-concrete;
@@ -514,6 +533,23 @@ strong {
     .code-generator-code-preview {
         padding: 15px;
         background-color: $color-design-system-right-nav;
+        font-family: $font-code;
+
+        p {
+            color: $color-nightsky;
+            &.code-format-tab {
+                margin: 10px 0 10px 20px;
+            }
+        }
+        .code-format-attribute {
+            color: #008a44;
+        }
+        .code-format-tag {
+            color: $color-penneyred;
+        }
+        .code-format-tag-value {
+            color: #126c9c;
+        }
     }
     .design-system-headline-with-toggle {
         border-bottom: 1px solid $color-concrete;
@@ -541,16 +577,11 @@ strong {
     }
 }
 
-@include breakpoint(small) {
-    .code-generator-edit.hide {
-        display: none;
-    }
-}
-
 @include breakpoint(medium large xlarge) {
     .code-generator {
         display: flex;
         flex-direction: row-reverse;
+
 
         .code-generator-right {
             width: 30%;
@@ -579,12 +610,14 @@ strong {
 
 
 
+
 /* Color Picker */
 
 .design-system-color-picker {
-    position: absolute;
-    top: -5px;
-    right: 15px;
+    position: relative;
+    padding-left: 46px;
+    float: right;
+    width: 100%;
     .color-picker-icon {
         border: 2px solid #FFF;
         display: inline-block;
@@ -592,6 +625,9 @@ strong {
         height: 36px;
         border-radius: 18px;
         margin: 4px;
+        position: absolute;
+        top: 0;
+        left: 0;
         span {
             width: 32px;
             height: 32px;
@@ -603,61 +639,11 @@ strong {
             border: 2px solid #000;
         }
     }
-    .design-system-color-picker-menu {
-        padding: 16px;
-        background-color: #FFF;
-        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.25);
-        border-radius: 8px;
-        width: 260px;
-        border: solid 1px #d8d8d8;
-        position: absolute;
-        top: 54px;
-        right: 0;
-        display: none;
-        z-index: 1;
-        &.show {
-            display: block;
-        }
-        &:after,
-        &:before {
-            bottom: 100%;
-            left: 80.25%;
-            border: solid transparent;
-            content: " ";
-            height: 0;
-            width: 0;
-            position: absolute;
-            pointer-events: none;
-        }
+}
 
-        &:after {
-            border-color: rgba(255, 255, 255, 0);
-            border-bottom-color: #FFF;
-            border-width: 10px;
-            margin-left: -10px;
-        }
-        &:before {
-            border-color: rgba(216, 216, 216, 0);
-            border-bottom-color: #d8d8d8;
-            border-width: 11px;
-            margin-left: -11px;
-        }
-    }
-    .design-system-color-picker-btn {
-        padding-right: 30px;
-        .icon {
-            background-image: url($path-images-pages + "global/icons/nav/triangle-down.svg");
-            display: block;
-            width: 30px;
-            height: 30px;
-            position: absolute;
-            top: 6px;
-            right: 10px;
-            border: 0;
-            &.open {
-                background-image: url($path-images-pages + "global/icons/nav/triangle-up.svg");
-            }
-        }
+@include breakpoint(medium large xlarge) {
+    .design-system-color-picker {
+        max-width: 300px;
     }
 }
 
@@ -676,6 +662,27 @@ strong {
 }
 
 
+/* Container Boxes */
+
+.design-system-container {
+    background: $color-design-system-right-nav;
+    border: solid 1px $color-concrete;
+    padding: 24px;
+
+    &.design-system-container-small {
+        max-width: 375px;
+    }
+    .design-system-container-inner {
+        background-color: $color-white;
+        border: solid 1px $color-concrete;
+        padding:20px;
+    }
+}
+
+.btn-set-desktop-example a {
+    margin-left: 15px;
+    width: 200px;
+}
 
 
 
@@ -727,13 +734,14 @@ strong {
 
 
 
+
 /* BUTTONS */
 
 .design-system {
     .button-preview {
-        margin-top: 20px;
         a {
-            min-width: 200px;
+            width: 200px;
+            max-width: 100%;
         }
     }
     h5.button-title {
@@ -751,7 +759,13 @@ strong {
 
 .button-preview-row {
     margin-bottom: 40px;
+    
 }
+
+.button-preview-set {
+    padding-top: 20px;
+}
+
 
 
 

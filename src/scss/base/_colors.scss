@@ -41,12 +41,24 @@
     background-color: $color-passion;
   }
 
+  .icon.color-passion-svg{
+    path {
+      fill: $color-passion !important;
+    }
+  }
+
 .color-blush{
   color: $color-blush;
 }
 
   .color-blush-bg{
     background-color: $color-blush;
+  }
+
+  .icon.color-blush-svg{
+    path {
+      fill: $color-blush !important;
+    }
   }
 
 // Greys
@@ -73,12 +85,24 @@
     background-color: $color-slate;
   }
 
+  .icon.color-slate-svg{
+    path {
+      fill: $color-slate !important;
+    }
+  }
+
 .color-shadow{
   color: $color-shadow;
 }
 
   .color-shadow-bg{
     background-color: $color-shadow;
+  }
+
+  .icon.color-shadow-svg{
+    path {
+      fill: $color-shadow !important;
+    }
   }
 
 .color-concrete{
@@ -89,12 +113,24 @@
     background-color: $color-concrete;
   }
 
+  .icon.color-concrete-svg{
+    path {
+      fill: $color-concrete !important;
+    }
+  }
+
 .color-lightgrey{
   color: $color-lightgrey;
 }
 
   .color-lightgrey-bg{
     background-color: $color-lightgrey;
+  }
+
+  .icon.color-lightgrey-svg{
+    path {
+      fill: $color-lightgrey !important;
+    }
   }
 
 .color-white{

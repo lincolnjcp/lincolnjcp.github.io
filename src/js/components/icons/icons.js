@@ -102,6 +102,7 @@ const collectionmultiImage = require('!!raw-loader?es5=1!../../../images/global/
 const barcodeImage = require('!!raw-loader?es5=1!../../../images/global/icons/utility/barcode.svg');
 const barcodeqrImage = require('!!raw-loader?es5=1!../../../images/global/icons/utility/barcode-qr.svg');
 const shieldImage = require('!!raw-loader?es5=1!../../../images/global/icons/utility/shield.svg');
+const starImage = require('!!raw-loader?es5=1!../../../images/global/icons/utility/star.svg');
 
 const blogfillImage = require('!!raw-loader?es5=1!../../../images/global/icons/social/blog-fill.svg');
 const bloglineImage = require('!!raw-loader?es5=1!../../../images/global/icons/social/blog-line.svg');
@@ -118,22 +119,29 @@ const twitterlineImage = require('!!raw-loader?es5=1!../../../images/global/icon
 const youtubefillImage = require('!!raw-loader?es5=1!../../../images/global/icons/social/youtube-fill.svg');
 const youtubelineImage = require('!!raw-loader?es5=1!../../../images/global/icons/social/youtube-line.svg');
 
-
 const ColorPicker = () => 
-    <div class="design-system-color-picker">
-      <div class="design-system-color-picker-btn"><a href="javascript:void();" class="color-picker-icon selected color-picker-toggle"><span class="color-nightsky-bg color-picker-swatch"></span><span class="icon"></span></a></div>
-      <div class="design-system-color-picker-menu">
-        <a href="javascript:void();" class="color-picker-icon selected" data-color-class="color-nightsky-svg"><span class="color-nightsky-bg"></span></a>
-        <a href="javascript:void();" class="color-picker-icon" data-color-class="color-lipstick-svg"><span class="color-lipstick-bg"></span></a>
-        <a href="javascript:void();" class="color-picker-icon" data-color-class="color-penneyred-svg"><span class="color-penneyred-bg"></span></a>
-        <a href="javascript:void();" class="color-picker-icon" data-color-class="color-white-svg"><span class="color-white-bg"></span></a>
-      </div>
+    <div class="design-system-color-picker mrg-M">
+      <span class="color-picker-icon selected"><span class="color-nightsky-bg color-picker-swatch"></span></span>
+
+      <span class="select select-M select-full">
+      <select name="color_picker">
+        <option value="color-passion">Passion</option>
+        <option value="color-lipstick">Lipstick</option>
+        <option value="color-penneyred">Penney Red</option>
+        <option value="color-blush">Blush</option>
+        <option value="color-nightsky" selected>Night Sky</option>
+        <option value="color-shadow">Shadow</option>
+        <option value="color-slate">Slate</option>
+        <option value="color-concrete">Concrete</option>
+        <option value="color-lightgrey">Light Gray</option>
+        <option value="color-white">White</option>
+      </select>
+      </span>
     </div>;
 
 
 class Icons extends Component {
 
-//<img src={actionIconsAry+iconName+'.svg'} />
 iconCol(iconName, iconDetails, iconComponent ){
   if(iconName !=="") {
     return(
@@ -150,72 +158,30 @@ iconCol(iconName, iconDetails, iconComponent ){
   }
 }
 
-
-
-
 componentDidMount() {
 
-  $(".design-system-color-picker-btn a").click(function(event){
-    var targetMenu = $(this).closest(".design-system-color-picker").find(".design-system-color-picker-menu");
-    var targetIcon = $(this).closest(".design-system-color-picker").find(".design-system-color-picker-btn .icon");
-    if(targetMenu.hasClass('show')){
-      targetMenu.removeClass('show');
-      targetIcon.removeClass('open');
+  $(".design-system-color-picker select").change(function(event) { 
+    var parent = $(this).closest(".design-system-toggle-section");
+    var children = parent.find(".icon");
+    var attr = parent.attr('data-color-class');
+    var icon = parent.find('.color-picker-swatch');
+    var curColorSVG = $(this).val()+"-svg";
+    var curColorBG = $(this).val()+"-bg";
+    if (typeof attr == typeof undefined) {
+      attr = "color-nightsky-bg";
+    }
+    if (curColorSVG == "color-white-svg") {
+      children.css("background-color", "#000");
     } else {
-      targetMenu.addClass('show');
-      targetIcon.addClass('open');
-      event.stopPropagation();
-      $(document).unbind("click").click(function(event) { 
-          if(!$(event.target).closest('.design-system-color-picker-menu').length) {
-              $('.design-system-color-picker-menu.show').removeClass("show");
-              $('.design-system-color-picker-btn .icon.open').removeClass("open");
-              $(document).unbind("click");
-          }        
-      });
+      children.css("background-color", "");
     }
+    children.removeClass(attr);
+    var attrBg = attr.replace('-svg', '-bg');
+    icon.removeClass(attrBg);
+    parent.attr('data-color-class', curColorSVG);
+    children.addClass(curColorSVG);
+    icon.addClass(curColorBG);
   });
-  $(".color-picker-icon").click(function(){
-    if(!$(this).hasClass("selected")){
-      var parent = $(this).closest(".design-system-toggle-section");
-      var children = parent.find(".icon");
-      var attr = parent.attr('data-color-class');
-      if (typeof attr !== typeof undefined && attr !== false) {
-        children.removeClass(attr);
-      } else {
-        attr = "color-nightsky-bg";
-      }
-      parent.attr('data-color-class', $(this).attr('data-color-class'));    
-      children.addClass($(this).attr('data-color-class'));
-      parent.find(".design-system-color-picker-menu .color-picker-icon.selected").removeClass("selected");
-      parent.find(".design-system-color-picker-btn span.color-picker-swatch").removeClass().addClass($(this).find("span").attr("class")).addClass("color-picker-swatch");
-      
-      var targetMenu = $(this).closest(".design-system-color-picker").find(".design-system-color-picker-menu");
-      var targetIcon = $(this).closest(".design-system-color-picker").find(".design-system-color-picker-btn .icon");
-      if(targetMenu.hasClass('show')){
-        targetMenu.removeClass('show');
-        targetIcon.removeClass('open');
-      }
-
-      $(this).addClass("selected");
-    }
-    //$(".design-system-toggle-section .icon").removeClass("color-penneyred-svg");
-  });
-/*
-  $(".design-system-toggle").click(function(){
-        if(!$(this).hasClass("active")){
-            if($(this).hasClass('right')){
-                $(this).closest(".design-system-toggle-section").addClass("color-penneyred-svg");
-                $(this).addClass("active");
-                $(this).closest(".design-system-headline-toggle").find(".left").removeClass("active");
-            } else {
-                $(this).closest(".design-system-toggle-section").removeClass("color-penneyred-svg");
-                $(this).addClass("active");
-                $(this).closest(".design-system-headline-toggle").find(".right").removeClass("active");
-
-            }
-        }
-    });
-*/
    
 }
 
@@ -267,9 +233,11 @@ componentDidMount() {
         </div>
     </div>
     <div className="design-system-toggle-section">
-        <div className="row design-system-headline-with-toggle" id="action">
-            <div className="small-12 columns">
+        <div className="row" id="action">
+            <div className="small-12 medium-6 large-8 columns">
                 <h3>Action</h3>
+            </div>
+            <div className="small-12 medium-6 large-4 columns">
                 <ColorPicker />
             </div>
         </div>
@@ -284,9 +252,11 @@ componentDidMount() {
         </div>
     </div>
     <div className="design-system-toggle-section">
-        <div className="row design-system-headline-with-toggle" id="navigation">
-            <div className="small-12 columns">
+        <div className="row" id="navigation">
+            <div className="small-12 medium-6 large-8 columns">
                 <h3>Navigation</h3>
+            </div>
+            <div className="small-12 medium-6 large-4 columns">
                 <ColorPicker />
             </div>
         </div>
@@ -301,9 +271,11 @@ componentDidMount() {
         </div>
     </div>
     <div className="design-system-toggle-section">
-        <div className="row design-system-headline-with-toggle" id="utility">
-            <div className="small-12 columns">
+        <div className="row" id="utility">
+            <div className="small-12 medium-6 large-8 columns">
                 <h3>Utility</h3>
+            </div>
+            <div className="small-12 medium-6 large-4 columns">
                 <ColorPicker />
             </div>
         </div>
@@ -311,16 +283,18 @@ componentDidMount() {
             <div className="small-12 columns">
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 <div className="row  small-up-4 medium-up-3 large-up-4 design-system-icon-set">
-                    {this.iconCol("cart", "navigate to shopping cart", cartImage)} {this.iconCol("express-checkout", "express checkout", expresscheckoutImage)} {this.iconCol("haul-away", "haul away appliaces", haulawayImage)} {this.iconCol("track-order", "CAM track orders", trackorderImage)} {this.iconCol("truck", "truck deilvery", truckImage)} {this.iconCol("local-ad", "local store print ads", localadImage)} {this.iconCol("same-day-pickup", "store pick up", samedaypickupImage)} {this.iconCol("store", "store location", storeImage)} {this.iconCol("location-pin", "indicate location/store", locationpinImage)} {this.iconCol("return", "return prodcuts", returnImage)} {this.iconCol("recycle", "recycling", recycleImage)} {this.iconCol("lock", "security in checkout/payment", lockImage)} {this.iconCol("account", "customer account/profile", accountImage)} {this.iconCol("cash", "rewards cash", cashImage)} {this.iconCol("coupon-fill", "coupons", couponfillImage)} {this.iconCol("gift-registry", "gift registry", giftregistryImage)} {this.iconCol("wallet", "payment method", walletImage)} {this.iconCol("piggy-bank", "savings", piggybankImage)} {this.iconCol("ribbon", "???", ribbonImage)} {this.iconCol("clip", "clip coupon", clipImage)} {this.iconCol("camera", "active camera device", cameraImage)} {this.iconCol("play", "play media", playImage)} {this.iconCol("video", "multi-media video", videoImage)} {this.iconCol("ruler", "size guides", rulerImage)} {this.iconCol("appointment", "???", appointmentImage)} {this.iconCol("schedule-appt", "schedule appointment with JCP store services", scheduleapptImage)} {this.iconCol("wedding-date", "???", weddingdateImage)} {this.iconCol("parts-services", "additional appliance services", partsservicesImage)} {this.iconCol("device-mobile", "mobile device", devicemobileImage)} {this.iconCol("device-phone", "contact via phone; phone input", devicephoneImage)} {this.iconCol("collection", "product collection", collectionImage)} {this.iconCol("collection-multi", "multiple product collections", collectionmultiImage)} {this.iconCol("barcode", "scan barcode", barcodeImage)} {this.iconCol("barcode-qr", "???", barcodeqrImage)} {this.iconCol("shield", "protection plans", shieldImage)}
+                    {this.iconCol("cart", "navigate to shopping cart", cartImage)} {this.iconCol("express-checkout", "express checkout", expresscheckoutImage)} {this.iconCol("haul-away", "haul away appliaces", haulawayImage)} {this.iconCol("track-order", "CAM track orders", trackorderImage)} {this.iconCol("truck", "truck deilvery", truckImage)} {this.iconCol("local-ad", "local store print ads", localadImage)} {this.iconCol("same-day-pickup", "store pick up", samedaypickupImage)} {this.iconCol("store", "store location", storeImage)} {this.iconCol("location-pin", "indicate location/store", locationpinImage)} {this.iconCol("return", "return prodcuts", returnImage)} {this.iconCol("recycle", "recycling", recycleImage)} {this.iconCol("lock", "security in checkout/payment", lockImage)} {this.iconCol("account", "customer account/profile", accountImage)} {this.iconCol("cash", "rewards cash", cashImage)} {this.iconCol("coupon-fill", "coupons", couponfillImage)} {this.iconCol("gift-registry", "gift registry", giftregistryImage)} {this.iconCol("wallet", "payment method", walletImage)} {this.iconCol("piggy-bank", "savings", piggybankImage)} {this.iconCol("ribbon", "???", ribbonImage)} {this.iconCol("clip", "clip coupon", clipImage)} {this.iconCol("camera", "active camera device", cameraImage)} {this.iconCol("play", "play media", playImage)} {this.iconCol("video", "multi-media video", videoImage)} {this.iconCol("ruler", "size guides", rulerImage)} {this.iconCol("appointment", "???", appointmentImage)} {this.iconCol("schedule-appt", "schedule appointment with JCP store services", scheduleapptImage)} {this.iconCol("wedding-date", "???", weddingdateImage)} {this.iconCol("parts-services", "additional appliance services", partsservicesImage)} {this.iconCol("device-mobile", "mobile device", devicemobileImage)} {this.iconCol("device-phone", "contact via phone; phone input", devicephoneImage)} {this.iconCol("collection", "product collection", collectionImage)} {this.iconCol("collection-multi", "multiple product collections", collectionmultiImage)} {this.iconCol("barcode", "scan barcode", barcodeImage)} {this.iconCol("barcode-qr", "???", barcodeqrImage)} {this.iconCol("shield", "protection plans", shieldImage)} {this.iconCol("star", "ratings", starImage)}
                 </div>
                 <hr />
             </div>
         </div>
     </div>
     <div className="design-system-toggle-section">
-        <div className="row design-system-headline-with-toggle" id="social">
-            <div className="small-12 columns">
+        <div className="row" id="social">
+            <div className="small-12 medium-6 large-8 columns">
                 <h3>Social</h3>
+            </div>
+            <div className="small-12 medium-6 large-4 columns">
                 <ColorPicker />
             </div>
         </div>

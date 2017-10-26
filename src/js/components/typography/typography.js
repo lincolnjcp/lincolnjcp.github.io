@@ -1,8 +1,65 @@
 import React, { Component } from 'react';
+import $ from 'jquery';
+import ClipboardButton from 'react-clipboard.js';
 
 class Typography extends Component {
 
 componentDidMount() {
+    window.updateCodeGenerator = function(){
+        var attrName = $('input[name="code_type_text"]').val();
+        var attrSize = $('select[name="code_type_size"]').val();
+        var attrAlignment = $('select[name="code_type_alignment"]').val();
+        var attrColor = $('select[name="code_type_color"]').val();
+
+        var HTMLCode = String($(".code-generator").data("html-pattern"))
+          .replace('[[code_type_text]]', attrName)
+          .replace('[[code_type_size]]', attrSize)
+          .replace('[[code_type_alignment]]', attrAlignment)
+          .replace('[[code_type_color]]', attrColor)
+          ;
+
+        var HTMLCodePreview = HTMLCode
+          .replace(/</g, '&lt;')
+          .replace(/>/g, '&gt;')
+          .replace('javascript:void();', '#')
+          .replace(/\[\[format_tab_start\]\]/g, '<p class="code-format-tab">')
+          .replace(/\[\[format_tab_end\]\]/g, '</p>')
+          .replace(/\[\[format_attribute_start\]\]/g, '<span class="code-format-attribute">')
+          .replace(/\[\[format_attribute_end\]\]/g, '</span>')
+          .replace(/\[\[format_tag_start\]\]/g, '<span class="code-format-tag">')
+          .replace(/\[\[format_tag_end\]\]/g, '</span>')
+          .replace(/\[\[format_tag_value_start\]\]/g, '<span class="code-format-tag-value">')
+          .replace(/\[\[format_tag_value_end\]\]/g, '</span>')
+          .replace(/(\s*)\</g, '<')
+          ;
+
+        HTMLCode = HTMLCode.replace(/\[\[(.*?)\]\]/g, "");
+
+        $(".code-generator-preview").html(HTMLCode);
+
+        $(".code-generator-code-preview").html(HTMLCodePreview);
+        $(".code-generator-copy button").attr("data-clipboard-text", HTMLCode)
+    }
+
+    $('input[name="code_type_text"]').keyup(function(){
+        window.updateCodeGenerator();
+    }); 
+
+    $('.code-generator select').change(function(){
+        window.updateCodeGenerator();
+    }); 
+
+    $(".code-generator-toggle-editor a").click(function(){
+        if($(this).html() == "Hide Editor") {
+            $(this).html("Show Editor");
+            $(".code-generator-edit").addClass("hide-for-small-only");
+        } else {
+            $(this).html("Hide Editor");
+            $(".code-generator-edit").removeClass("hide-for-small-only");
+        }
+    });
+
+    window.updateCodeGenerator();
 }
 
   render() {
@@ -20,7 +77,89 @@ By consistently tying typographic styles to appropriate fuctions in the interfac
     
     <div className="row" id="code-generator">
         <div className="small-12 columns">
+            
             <h3>Code Generator</h3>
+            
+            
+            <div className="code-generator" data-html-pattern="
+                            <[[format_tag_start]]p[[format_tag_end]] [[format_attribute_start]]
+                                class=&quot;[[format_attribute_end]][[format_tag_value_start]]std-txt [[code_type_alignment]] [[code_type_size]] [[code_type_color]][[format_tag_value_end]][[format_attribute_start]]&quot;[[format_attribute_end]]>
+                                [[format_tab_start]]
+                                    [[code_type_text]]
+                                [[format_tab_end]]
+                            <[[format_tag_start]]/p[[format_tag_end]]>">
+                <div className="code-generator-right">
+                    <div className="code-generator-controls">
+                        <div className="code-generator-toggle-editor">
+                            <p className="std-txt std-txt-S mrg-zero"><a href="javascript:void();">Show Editor</a></p>
+                        </div>
+                        <div className="code-generator-edit hide-for-small-only">
+                            <div className="">
+                                <label htmlFor="name" className="std-txt std-txt-S mrg-S">Line 1</label>
+                                <input type="text" className="form-full  mrg-M" name="code_type_text" defaultValue="Extra 20% Off" />
+                            </div>
+                            <div className="mrg-M">
+                                <span className="select select-M select-full">
+                                        <select name="code_type_color">
+                                          <option value="color-passion">Passion</option>
+                                          <option value="color-lipstick">Lipstick</option>
+                                          <option value="color-penneyred">Penney Red</option>
+                                          <option value="color-blush">Blush</option>
+                                          <option value="color-nightsky" selected>Night Sky</option>
+                                          <option value="color-shadow">Shadow</option>
+                                          <option value="color-slate">Slate</option>
+                                          <option value="color-concrete">Concrete</option>
+                                          <option value="color-lightgrey">Light Gray</option>
+                                          <option value="color-white">White</option>
+                                        </select>
+                                      </span>
+                            </div>
+                            <label htmlFor="code_type_alignment" className="std-txt std-txt-S mrg-S">Alignment</label>
+                            <div className="mrg-M">
+                                <span className="select select-M select-full">
+                                        <select name="code_type_alignment">
+                                          <option value="algn-lft" selected>Left</option>
+                                          <option value="algn-mid">Center</option>
+                                          <option value="algn-rght">Right</option>
+                                        </select>
+                                      </span>
+                            </div>
+                            <label htmlFor="code_type_size" className="std-txt std-txt-S mrg-S">Size</label>
+                            <div className="mrg-M">
+                                <span className="select select-M select-full">
+                                        <select name="code_type_size">
+                                          <option value="std-txt-L">L</option>
+                                          <option value="std-txt-M" selected>M</option>
+                                          <option value="std-txt-S">S</option>
+                                          <option value="std-txt-XS">XS</option>
+
+                                        </select>
+                                      </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="code-generator-left">
+                    <div className="code-generator-preview">
+                    </div>
+                    <div className="code-generator-code">
+                        <div className="design-system-headline-with-toggle">
+                            <div className="code-generator-copy">
+                                <ClipboardButton data-clipboard-text="I'll be copied">
+                                    Copy Code
+                                </ClipboardButton>
+                            </div>
+                            <div className="design-system-headline-toggle">
+                                <a href="javascript:void(0)" className="design-system-toggle left">React</a>
+                                <a href="javascript:void(0)" className="design-system-toggle right active">HTML</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="code-generator-code-preview">
+                    </div>
+                </div>
+            </div>
+
             <hr />
         </div>
     </div>
