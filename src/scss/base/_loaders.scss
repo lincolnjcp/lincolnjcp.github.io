@@ -39,6 +39,12 @@
 .loader-count-container, .loader-checkmark-container {
   text-align: center;
 }
+.loader-count-container {
+  & span {
+    font-size: 12px;
+    color: #9ba5ae;
+  }
+}
 
 .loader-checkmark {
   display: inline-block;  
