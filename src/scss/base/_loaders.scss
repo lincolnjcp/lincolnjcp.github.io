@@ -1,0 +1,91 @@
+/*******************************************
+/* Content Loaders
+/* Page
+/* Progress
+/* Section
+*******************************************/
+
+.loader-container {
+  width: 100%;
+  height: 49px;
+  text-align: center;
+}
+
+.loader {
+  width: 50px;
+  height: 50px;
+  margin: 24px auto 0;
+  border: 6px solid;
+  border-radius: 50%;
+  border-color: $color-slate rgba(204,204,204, 0.9) rgba(204,204,244, 0.9);
+  animation: loader-spin 700ms infinite linear;
+  -webkit-animation: loader-spin 700ms infinite linear;
+}
+
+@keyframes loader-spin {
+  100% {
+    transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes loader-spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+.loader-count-container, .loader-checkmark-container {
+  text-align: center;
+  min-height: 74px;
+}
+
+.loader-checkmark {
+  display: none;  
+  &.checkmark-icon {
+    margin: 12px;
+    background-color: $color-white;
+    border: 3px solid $color-success-type;
+    position: relative;
+    vertical-align: top;
+    &:after, &:before {
+      background: $color-white;
+      border: 2px solid $color-success-type;
+      content: '';
+      position: absolute;
+    }
+  }
+  &.loader-checkmark {
+    border-radius: 100%;
+    height: 50px;
+    width: 50px;
+    -webkit-animation: fadeinout 5s linear forwards;
+    animation: fadeinout 5s linear forwards;
+    &:after {
+      height: 22px;
+      left: 26px;
+      top: 11px;
+      width: 0;
+      -webkit-transform: rotate(45deg);
+      transform: rotate(45deg);
+    }
+    &:before {
+      height: 0;
+      left: 12px;
+      top: 26px;
+      width: 10px;
+      -webkit-transform: rotate(45deg);
+      transform: rotate(45deg);
+    }
+  }
+  @-webkit-keyframes fadeinout {
+   0%,100% { opacity: 0; }
+   50% { opacity: 1; }
+  }
+
+  @keyframes fadeinout {
+    0%,100% { opacity: 0; }
+    50% { opacity: 1; }
+  }
+}
