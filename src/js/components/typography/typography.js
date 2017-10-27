@@ -10,12 +10,14 @@ componentDidMount() {
         var attrSize = $('select[name="code_type_size"]').val();
         var attrAlignment = $('select[name="code_type_alignment"]').val();
         var attrColor = $('select[name="code_type_color"]').val();
-
+        var attrMargin = $('select[name="code_type_margin"]').val();
         var HTMLCode = String($(".code-generator").data("html-pattern"))
-          .replace('[[code_type_text]]', attrName)
-          .replace('[[code_type_size]]', attrSize)
-          .replace('[[code_type_alignment]]', attrAlignment)
-          .replace('[[code_type_color]]', attrColor)
+          
+          .replace(/\[\[code_type_text\]\]/g, attrName)
+          .replace(/\[\[code_type_size\]\]/g, attrSize)
+          .replace(/\[\[code_type_alignment\]\]/g, attrAlignment)
+          .replace(/\[\[code_type_color\]\]/g, attrColor)
+          .replace(/\[\[code_type_margin\]\]/g, attrMargin)
           ;
 
         var HTMLCodePreview = HTMLCode
@@ -30,6 +32,7 @@ componentDidMount() {
           .replace(/\[\[format_tag_end\]\]/g, '</span>')
           .replace(/\[\[format_tag_value_start\]\]/g, '<span class="code-format-tag-value">')
           .replace(/\[\[format_tag_value_end\]\]/g, '</span>')
+          .replace(/\[\[format_br\]\]/g, '<br /><br />')
           .replace(/(\s*)\</g, '<')
           ;
 
@@ -38,7 +41,35 @@ componentDidMount() {
         $(".code-generator-preview").html(HTMLCode);
 
         $(".code-generator-code-preview").html(HTMLCodePreview);
-        $(".code-generator-copy button").attr("data-clipboard-text", HTMLCode)
+        $(".code-generator-copy button").attr("data-clipboard-text", HTMLCode);
+
+        $(".color-picker-swatch").removeClass().addClass('color-picker-swatch').addClass(attrColor+"-bg");
+
+
+        /*
+
+        var parent = $(this).closest(".design-system-toggle-section");
+    var children = parent.find(".icon");
+    var attr = parent.attr('data-color-class');
+    var icon = parent.find('.color-picker-swatch');
+    var curColorSVG = $(this).val()+"-svg";
+    var curColorBG = $(this).val()+"-bg";
+    if (typeof attr == typeof undefined) {
+      attr = "color-nightsky-bg";
+    }
+    if (curColorSVG == "color-white-svg") {
+      children.css("background-color", "#000");
+    } else {
+      children.css("background-color", "");
+    }
+    children.removeClass(attr);
+    var attrBg = attr.replace('-svg', '-bg');
+    icon.removeClass(attrBg);
+    parent.attr('data-color-class', curColorSVG);
+    children.addClass(curColorSVG);
+    icon.addClass(curColorBG);
+
+    */
     }
 
     $('input[name="code_type_text"]').keyup(function(){
@@ -83,11 +114,26 @@ By consistently tying typographic styles to appropriate fuctions in the interfac
             
             <div className="code-generator" data-html-pattern="
                             <[[format_tag_start]]p[[format_tag_end]] [[format_attribute_start]]
-                                class=&quot;[[format_attribute_end]][[format_tag_value_start]]std-txt [[code_type_alignment]] [[code_type_size]] [[code_type_color]][[format_tag_value_end]][[format_attribute_start]]&quot;[[format_attribute_end]]>
+                                class=&quot;[[format_attribute_end]][[format_tag_value_start]][[code_type_margin]] [[code_type_alignment]] [[code_type_size]] [[code_type_color]][[format_tag_value_end]][[format_attribute_start]]&quot;[[format_attribute_end]]>
                                 [[format_tab_start]]
                                     [[code_type_text]]
                                 [[format_tab_end]]
-                            <[[format_tag_start]]/p[[format_tag_end]]>">
+                            <[[format_tag_start]]/p[[format_tag_end]]>
+                            [[format_br]]
+                            <[[format_tag_start]]p[[format_tag_end]] [[format_attribute_start]]
+                                class=&quot;[[format_attribute_end]][[format_tag_value_start]][[code_type_margin]] [[code_type_alignment]] [[code_type_size]] [[code_type_color]][[format_tag_value_end]][[format_attribute_start]]&quot;[[format_attribute_end]]>
+                                [[format_tab_start]]
+                                    [[code_type_text]]
+                                [[format_tab_end]]
+                            <[[format_tag_start]]/p[[format_tag_end]]>
+                            [[format_br]]
+                            <[[format_tag_start]]p[[format_tag_end]] [[format_attribute_start]]
+                                class=&quot;[[format_attribute_end]][[format_tag_value_start]][[code_type_margin]] [[code_type_alignment]] [[code_type_size]] [[code_type_color]][[format_tag_value_end]][[format_attribute_start]]&quot;[[format_attribute_end]]>
+                                [[format_tab_start]]
+                                    [[code_type_text]]
+                                [[format_tab_end]]
+                            <[[format_tag_start]]/p[[format_tag_end]]>
+                            ">
                 <div className="code-generator-right">
                     <div className="code-generator-controls">
                         <div className="code-generator-toggle-editor">
@@ -98,7 +144,9 @@ By consistently tying typographic styles to appropriate fuctions in the interfac
                                 <label htmlFor="name" className="std-txt std-txt-S mrg-S">Line 1</label>
                                 <input type="text" className="form-full  mrg-M" name="code_type_text" defaultValue="Extra 20% Off" />
                             </div>
-                            <div className="mrg-M">
+                            <label htmlFor="code_type_alignment" className="std-txt std-txt-S mrg-S">Color</label>
+                            <div class="design-system-color-picker mrg-M">
+                                  <span class="color-picker-icon selected"><span class="color-nightsky-bg color-picker-swatch"></span></span>
                                 <span className="select select-M select-full">
                                         <select name="code_type_color">
                                           <option value="color-passion">Passion</option>
@@ -114,6 +162,50 @@ By consistently tying typographic styles to appropriate fuctions in the interfac
                                         </select>
                                       </span>
                             </div>
+                            <label htmlFor="code_type_size" className="std-txt std-txt-S mrg-S">Size</label>
+                            <div className="mrg-M">
+                                <span className="select select-M select-full">
+                                        <select name="code_type_size">
+                                        <optgroup label="Price">
+                                          <option value="price price-L">XL</option>
+                                          <option value="price price-M">L</option>
+                                          <option value="price price-S">M</option>
+                                          <option value="price price-XS">S</option>
+                                        </optgroup>
+                                        <optgroup label="Title">
+                                          <option value="title title-XXL">XXL</option>
+                                          <option value="title title-XL">XL</option>
+                                          <option value="title title-L">L</option>
+                                          <option value="title title-M">M</option>
+                                          <option value="title title-S">S</option>
+                                        </optgroup>
+                                        <optgroup label="Standard Text">
+                                          <option value="std-txt std-txt-L">L</option>
+                                          <option value="std-txt std-txt-M" selected>M</option>
+                                          <option value="std-txt std-txt-S">S</option>
+                                          <option value="std-txt std-txt-XS">XS</option>
+                                        </optgroup>
+                                        <optgroup label="Copy">
+                                          <option value="M">M</option>
+                                          <option value="S">S</option>
+                                        </optgroup>
+                                        </select>
+                                      </span>
+                            </div>
+                            <label htmlFor="code_type_margin" className="std-txt std-txt-S mrg-S">Margin</label>
+                            <div className="mrg-M">
+                                <span className="select select-M select-full">
+                                        <select name="code_type_margin">
+                                        
+                                          <option value="mrg-zero" selected>Zero</option>
+                                          <option value="mrg-S">S</option>
+                                          <option value="mrg-M">M</option>
+                                          <option value="mrg-L">L</option>
+                                          <option value="mrg-XL">XL</option>
+                                        
+                                        </select>
+                                      </span>
+                            </div>
                             <label htmlFor="code_type_alignment" className="std-txt std-txt-S mrg-S">Alignment</label>
                             <div className="mrg-M">
                                 <span className="select select-M select-full">
@@ -124,18 +216,7 @@ By consistently tying typographic styles to appropriate fuctions in the interfac
                                         </select>
                                       </span>
                             </div>
-                            <label htmlFor="code_type_size" className="std-txt std-txt-S mrg-S">Size</label>
-                            <div className="mrg-M">
-                                <span className="select select-M select-full">
-                                        <select name="code_type_size">
-                                          <option value="std-txt-L">L</option>
-                                          <option value="std-txt-M" selected>M</option>
-                                          <option value="std-txt-S">S</option>
-                                          <option value="std-txt-XS">XS</option>
-
-                                        </select>
-                                      </span>
-                            </div>
+                            
                         </div>
                     </div>
                 </div>
@@ -170,26 +251,26 @@ By consistently tying typographic styles to appropriate fuctions in the interfac
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             <div className="typography-sample">
                 <p className="price price-XL">$75.00</p>
-                <p className="design-system-css-class">.std-txt-XL</p>
+                <p className="design-system-css-class">.price-XL</p>
             </div>
             <div className="typography-sample">
                 <p className="price price-L">$75.00</p>
-                <p className="design-system-css-class">.std-txt-L</p>
+                <p className="design-system-css-class">.price-L</p>
             </div>
             <div className="typography-sample">
                 <p className="price price-M">$75.00</p>
-                <p className="design-system-css-class">.std-txt-M</p>
+                <p className="design-system-css-class">.price-M</p>
             </div>
             <div className="typography-sample typography-sample-last">
                 <p className="price price-S">$75.00</p>
-                <p className="design-system-css-class">.std-txt-S</p>
+                <p className="design-system-css-class">.price-S</p>
             </div>
             <hr />
         </div>
     </div>
     <div className="row" id="title">
         <div className="small-12 columns">
-            <h3>Title</h3>
+            <h3>Title <span className="design-system-css-class design-system-css-class-inline">class="title"</span></h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             <div className="typography-sample">
                 <p className="title title-XXL">The quick brown fox jumps over the lazy dog.</p>

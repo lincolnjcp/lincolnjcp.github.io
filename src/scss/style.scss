@@ -14,6 +14,7 @@
 Base Styles
 --- */ 
 @import "base/_reset";
+@import "base/_type"; 
 @import "base/_colors";
 
 
@@ -29,6 +30,5 @@ Base Styles
 @import "base/_product";
 @import "base/_tabs"; 
 @import "base/_tables"; 
-@import "base/_type"; 
 @import "base/_wells"; 
 

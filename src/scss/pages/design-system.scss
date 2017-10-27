@@ -508,8 +508,48 @@ strong {
     }
 }
 
-
-
+/* Grid */
+.design-system-grid-preview {
+    .row {
+        background-color:#aaf2ff;
+        .design-system-preview-inner {
+            background-color:#e180b5;
+            height:130px;
+        }
+        .columns.first {
+            position: relative;
+        }
+        .columns {
+            position: relative;
+            &:before{
+                    content: "";
+                    width:1px;
+                    height:100%;
+                    border-right: 1px solid $color-white;
+                    position: absolute;
+                    top:0;
+                    left: 0;
+                }
+        }
+    }
+}
+.design-system-grid-preview-labels {
+    position: relative;
+    height: 30px;
+    .design-system-grid-preview-label-gutter, .design-system-grid-preview-label-column {
+        position: absolute;
+        top: 10px;
+        left: 4.5%;
+        font-size: 13px;
+    }
+    .design-system-grid-preview-label-gutter {
+        color:#4b8c8e;
+    }
+    .design-system-grid-preview-label-column {
+        color:#da2d7f;
+        left: 60.5%;
+    }
+}
 
 /* Code Generator */
 

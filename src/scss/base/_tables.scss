@@ -20,8 +20,16 @@ table{
     }
   }
 
+  &.table-borders{
+    th, td {
+      border: 1px solid $color-concrete;
+    }
+    th {
+      background-color: $color-lightgrey;
+    }
+  }
+
   td,th{
-    text-align: left;
     vertical-align: middle;
     padding: 12px 8px;
     border-bottom: 1px solid $color-concrete;
