@@ -11,7 +11,6 @@ componentDidMount() {
             duration: 4000,
             step: function (now) {
                 $(this).text(Math.ceil(now));
-                setTimeout(function(){ $('.loader-checkmark').css('display', 'inline-block')},4000);
             }
         });
     });
