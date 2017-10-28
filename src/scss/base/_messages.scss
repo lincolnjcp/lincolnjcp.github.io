@@ -17,43 +17,44 @@
     border-color: $color-neutral-border;
     color: $color-neutral-type;
     padding-left: 40px;
-    background: $color-neutral-fill url('../images/icon/info.svg') 0 0 no-repeat;
+    background: $color-neutral-fill url($path-images + '../images/global/icons/alert/information.svg') 0 0 no-repeat;
+    background-size: 32px auto;
   }
 
   &.msg-success{
     border-color: $color-success-border;
-    background: $color-success-fill url('../images/icon/success.svg') 0 0 no-repeat;
+    background: $color-success-fill url($path-images + '../images/global/icons/alert/success.svg') 0 0 no-repeat;
+    background-size: 32px auto;
     padding-left: 40px;
     color: $color-success-type;
   }
 
   &.msg-warning{
     border-color: $color-warning-border;
-    background: $color-warning-fill url('../images/icon/warning.svg') 0 0 no-repeat;
+    background: $color-warning-fill url($path-images + '../images/global/icons/alert/warning.svg') 0 0 no-repeat;
+    background-size: 32px auto;
     padding-left: 40px;
     color: $color-warning-type;
   }
 
   &.msg-error{
     border-color: $color-error-border;
-    background: $color-error-fill url('../images/icon/error.svg') 0 0 no-repeat;
+    background: $color-error-fill url($path-images + '../images/global/icons/alert/error.svg') 0 0 no-repeat;
+    background-size: 32px auto;
     padding-left: 40px;
     color: $color-error-type;
   }
 
   .msg-close{
     position: absolute;
-    line-height: 24px;
+    top: 4px;
     display: block;
-    background: none;
-    max-width: 24px;
-    height: 24px;
-    top: 0px;
-    right: 0px;
-    outline: none;
-
-    img{
-      height: 24px;
-    }
+    right: 4px;
+    cursor: pointer;
+    background: url($path-images + "global/icons/nav/close.svg") no-repeat;
+    width: 16px;
+    height: 16px;
+    background-size: contain;
+    padding: 0;
   }
 }

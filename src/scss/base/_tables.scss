@@ -7,10 +7,6 @@ table{
   vertical-align: middle;
   border-collapse: collapse;
 
-  th,td{
-    padding-left: 8px;
-  }
-
   &.table-full{
     width: 100%;
   }
@@ -24,9 +20,21 @@ table{
     }
   }
 
+  &.table-borders{
+    th, td {
+      border: 1px solid $color-concrete;
+    }
+    th {
+      background-color: $color-lightgrey;
+    }
+  }
+
   td,th{
-    text-align: left;
-    height: 40px;
+    vertical-align: middle;
+    padding: 12px 8px;
     border-bottom: 1px solid $color-concrete;
+  }
+  th {
+    font-weight: bold;
   }
 }

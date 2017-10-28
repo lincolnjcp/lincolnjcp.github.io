@@ -74,7 +74,7 @@ componentDidMount() {
             </div>
             <div className="row design-system-content-swatch-row">
                 <div className="small-12 medium-6 columns design-system-content-swatch-set">
-                    {this.colorBar("Night Sky", "#111111", "color-nightsky", "size-large", "")} {this.colorBar("Shadow", "#384048", "color-shadow", "", "")} {this.colorBar("Slate", "#6b7883", "color-slate", "", "")} {this.colorBar("Concrete", "#d8d8d8", "color-concrete", "", "#111111")} {this.colorBar("Light Gray", "#f1f1f1", "color-lightgrey", "", "#111111")}
+                    {this.colorBar("Night Sky", "#111111", "color-nightsky", "size-large", "")} {this.colorBar("Shadow", "#384048", "color-shadow", "", "")} {this.colorBar("Slate", "#6b7883", "color-slate", "", "")} {this.colorBar("Concrete", "#d8d8d8", "color-concrete", "", "#111111")} {this.colorBar("Light Gray", "#f1f1f1", "color-lightgrey", "", "#111111")} {this.colorBar("White", "#FFFFFF", "color-white", "", "#111111")}
                 </div>
                 <div className="small-12 medium-6 columns">
                     <h4>Grayscale</h4>

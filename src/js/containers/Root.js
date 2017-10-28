@@ -99,11 +99,31 @@ const Nav = () =>
                             <li><NavLink to="/" activeClassName="active">Sign In</NavLink></li>
                         </ul>
                     </li>
+                    <li>
+                        <hr />
+                    </li>
                     <li><a href="javascript:void(0)" className="icn-expand js-menu-expand">Accessibility</a>
                         <ul>
-                            <li><NavLink to="/" activeClassName="active">Design</NavLink></li>
-                            <li><NavLink to="/" activeClassName="active">Development</NavLink></li>
+                            <li><NavLink to="/" activeClassName="active">TBD</NavLink></li>
                         </ul>
+                    </li>
+                    <li><a href="javascript:void(0)" className="icn-expand js-menu-expand">UX Research</a>
+                        <ul>
+                            <li><NavLink to="/" activeClassName="active">TBD</NavLink></li>
+                        </ul>
+                    </li>
+                    <li><a href="javascript:void(0)" className="icn-expand js-menu-expand">A/B Testing</a>
+                        <ul>
+                            <li><NavLink to="/" activeClassName="active">TBD</NavLink></li>
+                        </ul>
+                    </li>
+                    <li><a href="javascript:void(0)" className="icn-expand js-menu-expand">Foresee</a>
+                        <ul>
+                            <li><NavLink to="/" activeClassName="active">TBD</NavLink></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <hr />
                     </li>
                     <li><NavLink to="/work-in-progress" activeClassName="active">Work In Progress</NavLink></li>
                     <li><NavLink to="/" activeClassName="active">Questions? <br /> Send us an email</NavLink></li>

@@ -581,17 +581,17 @@ componentDidMount() {
 
     <div className="msg msg-neutral mrg-M">
       Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-      <button type="button" className="msg-close"><img src="/images/global/icons/nav/close.svg" alt="" /></button>
+      <button type="button" className="msg-close"></button>
     </div>
 
     <div className="msg msg-error mrg-M">
       Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-      <button type="button" className="msg-close"><img src="/images/global/icons/nav/close.svg" alt="" /></button>
+      <button type="button" className="msg-close"></button>
     </div>
 
     <div className="msg msg-neutral mrg-M">
       Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      <button type="button" className="msg-close"><img src="/images/global/icons/nav/close.svg" alt="" /></button>
+      <button type="button" className="msg-close"></button>
     </div>
 
 

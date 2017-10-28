@@ -14,20 +14,33 @@ componentDidMount() {
         var attrWidth = $('input[name="code_button_width"]:checked').length ? $('input[name="code_button_width"]').val() : '';
         var attrDisabled = $('input[name="code_button_disabled"]:checked').length ? $('input[name="code_button_disabled"]').val() : '';
 
-        var HTMLCode = $(".code-generator").attr("data-html-pattern")
+        var HTMLCode = String($(".code-generator").data("html-pattern"))
           .replace('[[code_button_text]]', attrName)
           .replace('[[code_button_size]]', attrSize)
           .replace('[[code_button_style]]', attrStyle)
           .replace('[[code_button_width]]', attrWidth)
-          .replace('[[code_button_disabled]]', attrDisabled);
-
-          var HTMLCodePreview = HTMLCode
-          .replace(/</g, '&lt;')
-          .replace(/>/g, '&gt;')
-          .replace('javascript:void();', '#');
+          .replace('[[code_button_disabled]]', attrDisabled)
           ;
 
+        var HTMLCodePreview = HTMLCode
+          .replace(/</g, '&lt;')
+          .replace(/>/g, '&gt;')
+          .replace('javascript:void();', '#')
+          .replace(/\[\[format_tab_start\]\]/g, '<p class="code-format-tab">')
+          .replace(/\[\[format_tab_end\]\]/g, '</p>')
+          .replace(/\[\[format_attribute_start\]\]/g, '<span class="code-format-attribute">')
+          .replace(/\[\[format_attribute_end\]\]/g, '</span>')
+          .replace(/\[\[format_tag_start\]\]/g, '<span class="code-format-tag">')
+          .replace(/\[\[format_tag_end\]\]/g, '</span>')
+          .replace(/\[\[format_tag_value_start\]\]/g, '<span class="code-format-tag-value">')
+          .replace(/\[\[format_tag_value_end\]\]/g, '</span>')
+          .replace(/(\s*)\</g, '<')
+          ;
+
+        HTMLCode = HTMLCode.replace(/\[\[(.*?)\]\]/g, "");
+
         $(".code-generator-preview").html(HTMLCode);
+
         $(".code-generator-code-preview").html(HTMLCodePreview);
         $(".code-generator-copy button").attr("data-clipboard-text", HTMLCode)
     }
@@ -36,17 +49,17 @@ componentDidMount() {
         window.updateCodeGenerator();
     }); 
 
-    $('select[name="code_button_size"], select[name="code_button_style"], input[name="code_button_width"], input[name="code_button_disabled"]').change(function(){
+    $('.code-generator select, .code-generator input[type="checkbox"]').change(function(){
         window.updateCodeGenerator();
     }); 
 
     $(".code-generator-toggle-editor a").click(function(){
         if($(this).html() == "Hide Editor") {
             $(this).html("Show Editor");
-            $(".code-generator-edit").addClass("hide");
+            $(".code-generator-edit").addClass("hide-for-small-only");
         } else {
             $(this).html("Hide Editor");
-            $(".code-generator-edit").removeClass("hide");
+            $(".code-generator-edit").removeClass("hide-for-small-only");
         }
     });
 
@@ -67,19 +80,27 @@ componentDidMount() {
             <hr />
             <h3>Code Generator</h3>
 
-            <div className="code-generator" data-html-pattern="&lt;a href=&quot;javascript:void();&quot; class=&quot;btn [[code_button_size]] [[code_button_style]] [[code_button_width]] [[code_button_disabled]]&quot;&gt;[[code_button_text]]&lt;/a&gt;">
+            <div className="code-generator" data-html-pattern="
+                <[[format_tag_start]]a[[format_tag_end]] [[format_attribute_start]]
+                    href=&quot;[[format_attribute_end]][[format_tag_value_start]]javascript:void();[[format_tag_value_end]][[format_attribute_start]]&quot;
+                    class=&quot;[[format_attribute_end]][[format_tag_value_start]]btn [[code_button_size]] [[code_button_style]] [[code_button_width]] [[code_button_disabled]][[format_tag_value_end]][[format_attribute_start]]&quot;[[format_attribute_end]]>
+                    [[format_tab_start]]
+                        [[code_button_text]]
+                    [[format_tab_end]]
+                <[[format_tag_start]]/a[[format_tag_end]]>">
+                
                             <div className="code-generator-right">
             <div className="code-generator-controls">
                     <div className="code-generator-toggle-editor">
-                        <p className="std-txt std-txt-S mrg-L"><a href="javascript:void();">Hide Editor</a></p>
+                        <p className="std-txt std-txt-S mrg-zero"><a href="javascript:void();">Show Editor</a></p>
                     </div>
-                    <div className="code-generator-edit">
+                    <div className="code-generator-edit hide-for-small-only">
                         <label htmlFor="name" className="std-txt std-txt-S mrg-S">Text Label</label>
                         <input type="text" className="form-full  mrg-M" name="code_button_text" defaultValue="My Button" />
 
                         <label htmlFor="name" className="std-txt std-txt-S mrg-S">Style</label>
                         <div className="mrg-M">
-                          <span className="select select-M">
+                          <span className="select select-M select-full">
                             <select name="code_button_style">
                               <option value="btn-primary" selected>Primary</option>
                               <option value="btn-secondary">Secondary</option>
@@ -89,7 +110,7 @@ componentDidMount() {
 
                         <label htmlFor="name" className="std-txt std-txt-S mrg-S">Size</label>
                         <div className="mrg-M">
-                          <span className="select select-M">
+                          <span className="select select-M select-full">
                             <select name="code_button_size">
                               <option value="btn-S">Small</option>
                               <option value="btn-M">Medium</option>
@@ -161,66 +182,66 @@ componentDidMount() {
             <h3>Appearance</h3>
             <p>Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras justo odio, dapibus ac facilisis in, egestas eget quam.</p>
             <div className="row button-preview-row">
-                <div className="small-12 medium-4 large-4 columns">
+                <div className="small-12 medium-5 large-4 columns button-preview-set">
                     <div className="button-preview algn-mid">
-                      <a href="javascript:void();" className="btn btn-primary btn-S mrg-L">Primary Small</a>
+                      <a href="javascript:void();" className="btn btn-primary btn-S mrg-M">Primary Small</a>
                     </div>
 
                     <div className="button-preview algn-mid">
-                      <a href="javascript:void();" className="btn btn-primary btn-M mrg-L">Primary Medium</a>
+                      <a href="javascript:void();" className="btn btn-primary btn-M mrg-M">Primary Medium</a>
                     </div>
 
                     <div className="button-preview algn-mid">
-                      <a href="javascript:void();" className="btn btn-primary btn-L mrg-L">Primary Large</a>
+                      <a href="javascript:void();" className="btn btn-primary btn-L mrg-M">Primary Large</a>
                     </div>
                 </div>
-                <div className="small-12 medium-8 large-8 columns">
+                <div className="small-12 medium-7 large-8 columns">
                     <h5 className="button-title">Primary Action</h5>
                     <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec ullamcorper nulla non metus auctor fringilla. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
                 </div>
             </div>
             <div className="row button-preview-row">
-                <div className="small-12 medium-4 large-4 columns">
+                <div className="small-12 medium-5 large-4 columns button-preview-set">
                     <div className="button-preview algn-mid">
-                      <a href="javascript:void();" className="btn btn-secondary btn-S mrg-L">Secondary Small</a>
+                      <a href="javascript:void();" className="btn btn-secondary btn-S mrg-M">Secondary Small</a>
                     </div>
 
                     <div className="button-preview algn-mid">
-                      <a href="javascript:void();" className="btn btn-secondary btn-M mrg-L">Secondary Medium</a>
+                      <a href="javascript:void();" className="btn btn-secondary btn-M mrg-M">Secondary Medium</a>
                     </div>
 
                     <div className="button-preview algn-mid">
-                      <a href="javascript:void();" className="btn btn-secondary btn-L mrg-L">Secondary Large</a>
+                      <a href="javascript:void();" className="btn btn-secondary btn-L mrg-M">Secondary Large</a>
                     </div>
                 </div>
-                <div className="small-12 medium-8 large-8 columns">
+                <div className="small-12 medium-7 large-8 columns">
                     <h5 className="button-title">Secondary Action</h5>
                     <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec ullamcorper nulla non metus auctor fringilla. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
                 </div>
             </div>
             <div className="row button-preview-row">
-                <div className="small-12 medium-4 large-4 columns">
+                <div className="small-12 medium-5 large-4 columns button-preview-set">
                     <div className="button-preview algn-mid">
-                      <a href="javascript:void();" className="btn btn-primary btn-L mrg-L btn-icon"><span className="icon color-white-svg" dangerouslySetInnerHTML={{__html: cartImage}} /> Checkout</a>
+                      <a href="javascript:void();" className="btn btn-primary btn-L mrg-M btn-icon"><span className="icon color-white-svg" dangerouslySetInnerHTML={{__html: cartImage}} /> Checkout</a>
                     </div>
 
                 </div>
-                <div className="small-12 medium-8 large-8 columns">
+                <div className="small-12 medium-7 large-8 columns">
                     <h5 className="button-title">Icon and Label</h5>
                     <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec ullamcorper nulla non metus auctor fringilla. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
                 </div>
             </div>
             <div className="row button-preview-row">
-                <div className="small-12 medium-4 large-4 columns">
+                <div className="small-12 medium-5 large-4 columns button-preview-set">
                     <div className="button-preview algn-mid">
-                      <a href="javascript:void();" className="btn btn-primary btn-L mrg-L btn-icon btn-icon-slide"><span className="icon color-white-svg" dangerouslySetInnerHTML={{__html: cartImage}} /> <span className="btn-label">Add to Cart</span></a>
+                      <a href="javascript:void();" className="btn btn-primary btn-L mrg-M btn-icon btn-icon-slide"><span className="icon color-white-svg" dangerouslySetInnerHTML={{__html: cartImage}} /> <span className="btn-label">Add to Cart</span></a>
                     </div>
 
                     <div className="button-preview algn-mid">
-                      <a href="javascript:void();" className="btn btn-secondary btn-L mrg-L btn-icon btn-icon-slide"><span className="icon" dangerouslySetInnerHTML={{__html: cartImage}} /> <span className="btn-label">Add to Cart</span></a>
+                      <a href="javascript:void();" className="btn btn-secondary btn-L mrg-M btn-icon btn-icon-slide"><span className="icon" dangerouslySetInnerHTML={{__html: cartImage}} /> <span className="btn-label">Add to Cart</span></a>
                     </div>
                 </div>
-                <div className="small-12 medium-8 large-8 columns">
+                <div className="small-12 medium-7 large-8 columns">
                     <h5 className="button-title">Icon Hover Effect</h5>
                     <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec ullamcorper nulla non metus auctor fringilla. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
                 </div>
@@ -231,8 +252,23 @@ componentDidMount() {
         <div className="small-12 columns">
             <hr />
             <h3>Responsive Behavior</h3>
-            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec ullamcorper nulla non metus auctor fringilla. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. </p>
-            <div className="design-system-placeholder">Placeholder</div>
+            <p className="mrg-L">Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec ullamcorper nulla non metus auctor fringilla. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. </p>
+            <div className="design-system-container hide-for-small-only mrg-L">
+            <p className="std-txt std-txt-S color-slate mrg-M">CONTAINER</p>
+                <div className="design-system-container-inner algn-rght btn-set-desktop-example">
+                    <a href="javascript:void();" className="btn btn-secondary btn-L mrg-zero">Cancel</a>
+                    <a href="javascript:void();" className="btn btn-primary btn-L mrg-zero">Save</a>
+                </div>
+            </div>
+            <p className="mrg-L">Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec ullamcorper nulla non metus auctor fringilla. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. </p>
+
+            <div className="design-system-container design-system-container-small mrg-L">
+            <p className="std-txt std-txt-S color-slate mrg-M">CONTAINER</p>
+                <div className="design-system-container-inner algn-rght">
+                    <a href="javascript:void();" className="btn btn-primary btn-L btn-full mrg-M">Save</a>
+                    <a href="javascript:void();" className="btn btn-secondary btn-L btn-full mrg-M">Cancel</a>
+                </div>
+            </div>
         </div>
     </div>
     <div className="row created-by">

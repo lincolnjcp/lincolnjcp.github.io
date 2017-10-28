@@ -14,19 +14,21 @@
 Base Styles
 --- */ 
 @import "base/_reset";
+@import "base/_type"; 
+@import "base/_colors";
+
+
 @import "base/_breadcrumbs";
 @import "base/_buttons";
-@import "base/_colors";
 @import "base/_flags";
 @import "base/_forms";
 @import "base/_frames";
 @import "base/_icons"; 
 @import "base/_layout"; 
+@import "base/_messages";
 @import "base/_modal";
 @import "base/_product";
 @import "base/_tabs"; 
 @import "base/_tables"; 
-@import "base/_toast";
-@import "base/_type"; 
 @import "base/_wells"; 
-@import "base/_loaders"; 
+
