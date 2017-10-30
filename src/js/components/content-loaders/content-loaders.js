@@ -14,6 +14,7 @@ componentDidMount() {
             }
         });
     });
+    window.setTimeout(function(){$('.checkmark').removeClass('hide');}, 4000);
 }
 
     render() {
@@ -43,9 +44,12 @@ componentDidMount() {
                 </div>
             </div>
             <div className="small-12 medium-12 columns">
-                <div className="small-12 medium-4 columns">
+                <div className="small-12 medium-4 columns position-rel">
                     <div className="loader-checkmark-container">
-                        <span className="loader-checkmark checkmark-icon"></span>
+                        <svg className="checkmark hide" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52">
+                            <circle className="checkmark-circle" cx="26" cy="26" r="25" fill="none"/>
+                            <path className="checkmark-check" fill="none" d="M14.1 27.2l7.1 7.2 16.7-16.8"/>
+                        </svg>
                     </div>
                     <div className="loader-count-container">
                         <span className="loader-count">100</span>
@@ -59,11 +63,13 @@ componentDidMount() {
             </div>
             <div className="small-12 medium-12 columns">
                 <div className="small-12 medium-4 columns">
-
+                    <div className="animated-background progressbar-1"></div>
+                    <div className="animated-background progressbar-2"></div>
+                    <div className="animated-background progressbar-3"></div>
                 </div>
                 <div className="small-12 medium-8 columns">
-                    <h4>System</h4>
-                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec ullamcorper nulla non metus auctor fringilla. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. <br /><br /><br /><br /></p>
+                    <h4>Section</h4>
+                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec ullamcorper nulla non metus auctor fringilla. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. <br /><br /></p>
                 </div>
             </div>
         </div>
@@ -74,13 +80,49 @@ componentDidMount() {
         <div className="small-12 columns">
             <h3>Lazy Load</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <div className="lazy-load-container columns">
+                <div className="lazy-load small-6 medium-4 large-3 xlarge-3 column">
+                    <div className="animated-background lazy-main"></div>
+                    <div className="lazy-sub">
+                        <div className="animated-background progressbar-1"></div>
+                        <div className="animated-background progressbar-2"></div>
+                        <div className="animated-background progressbar-3"></div>
+                    </div>
+                </div>
+                <div className="lazy-load small-6 medium-4 large-3 xlarge-3 column">
+                    <div className="animated-background lazy-main"></div>
+                    <div className="lazy-sub">
+                        <div className="animated-background progressbar-1"></div>
+                        <div className="animated-background progressbar-2"></div>
+                        <div className="animated-background progressbar-3"></div>
+                    </div>
+                </div>
+                <div className="lazy-load small-6 medium-4 large-3 xlarge-3 column hide-for-small-only">
+                    <div className="animated-background lazy-main"></div>
+                    <div className="lazy-sub">
+                        <div className="animated-background progressbar-1"></div>
+                        <div className="animated-background progressbar-2"></div>
+                        <div className="animated-background progressbar-3"></div>
+                    </div>
+                </div>
+                <div className="lazy-load small-6 medium-4 large-3 xlarge-3 column hide-for-small-only hide-for-medium-only">
+                    <div className="animated-background lazy-main"></div>
+                    <div className="lazy-sub">
+                        <div className="animated-background progressbar-1"></div>
+                        <div className="animated-background progressbar-2"></div>
+                        <div className="animated-background progressbar-3"></div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>    
-
+    <br/><br/>
+    <hr />
+    <br/>
     <div className="row created-by">
         <div className="small-12 columns">
             <p>Created by: <strong>Tony Stark</strong> and <strong>Bruce Banner</strong>
-                <br /> Latest update: 04/05/2017</p>
+            <br /> Latest update: 04/05/2017</p>
         </div>
     </div>
 </div>
