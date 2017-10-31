@@ -7,8 +7,9 @@
 [type="radio"]:checked,
 [type="radio"]:not(:checked){
   position: absolute;
-  // left: -9999px;
   visibility: hidden;
+  height: 20px;
+  width: 20px;
 }
 
 [type="radio"]:checked + label,
@@ -16,7 +17,7 @@
   position: relative;
   padding-left: 28px;
   cursor: pointer;
-  line-height: 24px;
+  line-height: 20px;
   display: inline-block;
 }
 
@@ -38,9 +39,9 @@
   width: 10px;
   height: 10px;
   position: absolute;
-  top: 6px;
-  left: 6px;
-  background: $color-lipstick;
+  top: 5px;
+  left: 5px;
+  background: $color-nightsky;
   border-radius: 100%;
 }
 
