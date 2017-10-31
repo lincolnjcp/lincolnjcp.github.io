@@ -40,7 +40,6 @@
 }
 
 .loader-checkmark-container {
-  
   .checkmark {
     margin: 0 auto;
     width: 112px;
@@ -50,7 +49,7 @@
     right: 22px;
   }
   
-  .path {
+  .checkmark-circle {
     stroke-dasharray: 1000;
     stroke-dashoffset: 0;
     animation: dashCircle 2s ease-in-out;
@@ -60,7 +59,7 @@
     stroke-miterlimit: 10;
   }
   
-  .check {
+  .checkmark-icon {
     stroke-dasharray: 1000;
     stroke-dashoffset: 0;
     animation: dash 2s ease-in-out,  visible 0.3s ease-in-out infinite;
