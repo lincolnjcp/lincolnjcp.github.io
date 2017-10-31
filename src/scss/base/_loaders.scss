@@ -63,8 +63,8 @@
   .check {
     stroke-dasharray: 1000;
     stroke-dashoffset: 0;
-    animation: dash 4s ease-in-out,  visible 0.3s ease-in-out infinite;
-    -webkit-animation: dash 4s ease-in-out, visible 0.3s ease-in-out infinite;
+    animation: dash 2s ease-in-out,  visible 0.3s ease-in-out infinite;
+    -webkit-animation: dash 2s ease-in-out, visible 0.3s ease-in-out infinite;
     animation-delay: 1s, 1s;
     -webkit-animation-delay: 1s, 1s;
     visibility: hidden;
@@ -133,7 +133,7 @@
   margin-bottom: 8px;
 }
 .progressbar-2 {
-  width: 30%;
+  width: 32%;
   margin-bottom: 8px;
 }
 
@@ -144,17 +144,29 @@
 
 .lazy-load-container {
   background: #fafafa;
-  padding: 8px 0;
+  padding: 8px;
   .lazy-load {
-    border: 1px solid $color-concrete;
-    background: $color-white;
-    padding: 6px;
-    border-radius: 4px;
-    .lazy-main {
-      height: 170px;
-    }
-    .lazy-sub {
-      margin-top: 8px;
+    padding: 8px;
+    .lazy-border {
+      background: $color-white;
+      border: 1px solid $color-concrete;
+      border-radius: 4px;
+      hr {
+        margin: 8px 0;
+      }
+      .lazy-main {
+        height: 170px;
+        margin: 6px;
+      }
+      .lazy-sub {
+        margin: 6px;
+        .animated-background {
+          height: 18px;
+        }
+        .progressbar-1 {
+          height: 14px;
+        }
+      }
     }
   }
 }

@@ -45,12 +45,6 @@ componentDidMount() {
             </div>
             <div className="small-12 medium-12 columns">
                 <div className="small-12 medium-4 columns position-rel">
-                    {/* <div className="loader-checkmark-container">
-                        <svg className="checkmark hide" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52">
-                            <circle className="checkmark-circle" cx="26" cy="26" r="25" fill="none"/>
-                            <path className="checkmark-check" fill="none" d="M14.1 27.2l7.1 7.2 16.7-16.8"/>
-                        </svg>
-                    </div> */}
                     <div className="loader-checkmark-container">
                         <svg className="checkmark hide" version="1.1" xmlns="http://www.w3.org/2000/svg">
                             <circle className="path" fill="none" cx="85.6" cy="80.6" r="30" transform="rotate(-45, 93, 93)"/>
@@ -88,35 +82,47 @@ componentDidMount() {
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             <div className="lazy-load-container columns">
                 <div className="lazy-load small-6 medium-4 large-3 xlarge-3 column">
-                    <div className="animated-background lazy-main"></div>
-                    <div className="lazy-sub">
-                        <div className="animated-background progressbar-1"></div>
-                        <div className="animated-background progressbar-2"></div>
-                        <div className="animated-background progressbar-3"></div>
+                    <div className="lazy-border">
+                        <div className="animated-background lazy-main"></div>
+                        <hr/>
+                        <div className="lazy-sub">
+                            <div className="animated-background progressbar-1"></div>
+                            <div className="animated-background progressbar-2"></div>
+                            <div className="animated-background progressbar-3"></div>
+                        </div>
                     </div>
                 </div>
                 <div className="lazy-load small-6 medium-4 large-3 xlarge-3 column">
+                <div className="lazy-border">
                     <div className="animated-background lazy-main"></div>
-                    <div className="lazy-sub">
-                        <div className="animated-background progressbar-1"></div>
-                        <div className="animated-background progressbar-2"></div>
-                        <div className="animated-background progressbar-3"></div>
+                        <hr/>
+                        <div className="lazy-sub">
+                            <div className="animated-background progressbar-1"></div>
+                            <div className="animated-background progressbar-2"></div>
+                            <div className="animated-background progressbar-3"></div>
+                        </div>
                     </div>
                 </div>
                 <div className="lazy-load small-6 medium-4 large-3 xlarge-3 column hide-for-small-only">
+                <div className="lazy-border">
                     <div className="animated-background lazy-main"></div>
-                    <div className="lazy-sub">
-                        <div className="animated-background progressbar-1"></div>
-                        <div className="animated-background progressbar-2"></div>
-                        <div className="animated-background progressbar-3"></div>
+                        <hr/>
+                        <div className="lazy-sub">
+                            <div className="animated-background progressbar-1"></div>
+                            <div className="animated-background progressbar-2"></div>
+                            <div className="animated-background progressbar-3"></div>
+                        </div>
                     </div>
                 </div>
                 <div className="lazy-load small-6 medium-4 large-3 xlarge-3 column hide-for-small-only hide-for-medium-only">
-                    <div className="animated-background lazy-main"></div>
-                    <div className="lazy-sub">
-                        <div className="animated-background progressbar-1"></div>
-                        <div className="animated-background progressbar-2"></div>
-                        <div className="animated-background progressbar-3"></div>
+                    <div className="lazy-border">
+                        <div className="animated-background lazy-main"></div>
+                        <hr/>
+                        <div className="lazy-sub">
+                            <div className="animated-background progressbar-1"></div>
+                            <div className="animated-background progressbar-2"></div>
+                            <div className="animated-background progressbar-3"></div>
+                        </div>
                     </div>
                 </div>
             </div>
