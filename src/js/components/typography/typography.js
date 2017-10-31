@@ -1,96 +1,11 @@
 import React, { Component } from 'react';
 import $ from 'jquery';
-import ClipboardButton from 'react-clipboard.js';
+import CodeGenerator from '../../containers/CodeGenerator.js';
 
 class Typography extends Component {
 
 componentDidMount() {
-    window.updateCodeGenerator = function(){
-        var attrName = $('input[name="code_type_text"]').val();
-        var attrSize = $('select[name="code_type_size"]').val();
-        var attrAlignment = $('select[name="code_type_alignment"]').val();
-        var attrColor = $('select[name="code_type_color"]').val();
-        var attrMargin = $('select[name="code_type_margin"]').val();
-        var HTMLCode = String($(".code-generator").data("html-pattern"))
-          
-          .replace(/\[\[code_type_text\]\]/g, attrName)
-          .replace(/\[\[code_type_size\]\]/g, attrSize)
-          .replace(/\[\[code_type_alignment\]\]/g, attrAlignment)
-          .replace(/\[\[code_type_color\]\]/g, attrColor)
-          .replace(/\[\[code_type_margin\]\]/g, attrMargin)
-          ;
 
-        var HTMLCodePreview = HTMLCode
-          .replace(/</g, '&lt;')
-          .replace(/>/g, '&gt;')
-          .replace('javascript:void();', '#')
-          .replace(/\[\[format_tab_start\]\]/g, '<p class="code-format-tab">')
-          .replace(/\[\[format_tab_end\]\]/g, '</p>')
-          .replace(/\[\[format_attribute_start\]\]/g, '<span class="code-format-attribute">')
-          .replace(/\[\[format_attribute_end\]\]/g, '</span>')
-          .replace(/\[\[format_tag_start\]\]/g, '<span class="code-format-tag">')
-          .replace(/\[\[format_tag_end\]\]/g, '</span>')
-          .replace(/\[\[format_tag_value_start\]\]/g, '<span class="code-format-tag-value">')
-          .replace(/\[\[format_tag_value_end\]\]/g, '</span>')
-          .replace(/\[\[format_br\]\]/g, '<br /><br />')
-          .replace(/(\s*)\</g, '<')
-          ;
-
-        HTMLCode = HTMLCode.replace(/\[\[(.*?)\]\]/g, "");
-
-        $(".code-generator-preview").html(HTMLCode);
-
-        $(".code-generator-code-preview").html(HTMLCodePreview);
-        $(".code-generator-copy button").attr("data-clipboard-text", HTMLCode);
-
-        $(".color-picker-swatch").removeClass().addClass('color-picker-swatch').addClass(attrColor+"-bg");
-
-
-        /*
-
-        var parent = $(this).closest(".design-system-toggle-section");
-    var children = parent.find(".icon");
-    var attr = parent.attr('data-color-class');
-    var icon = parent.find('.color-picker-swatch');
-    var curColorSVG = $(this).val()+"-svg";
-    var curColorBG = $(this).val()+"-bg";
-    if (typeof attr == typeof undefined) {
-      attr = "color-nightsky-bg";
-    }
-    if (curColorSVG == "color-white-svg") {
-      children.css("background-color", "#000");
-    } else {
-      children.css("background-color", "");
-    }
-    children.removeClass(attr);
-    var attrBg = attr.replace('-svg', '-bg');
-    icon.removeClass(attrBg);
-    parent.attr('data-color-class', curColorSVG);
-    children.addClass(curColorSVG);
-    icon.addClass(curColorBG);
-
-    */
-    }
-
-    $('input[name="code_type_text"]').keyup(function(){
-        window.updateCodeGenerator();
-    }); 
-
-    $('.code-generator select').change(function(){
-        window.updateCodeGenerator();
-    }); 
-
-    $(".code-generator-toggle-editor a").click(function(){
-        if($(this).html() == "Hide Editor") {
-            $(this).html("Show Editor");
-            $(".code-generator-edit").addClass("hide-for-small-only");
-        } else {
-            $(this).html("Hide Editor");
-            $(".code-generator-edit").removeClass("hide-for-small-only");
-        }
-    });
-
-    window.updateCodeGenerator();
 }
 
   render() {
@@ -111,137 +26,230 @@ By consistently tying typographic styles to appropriate fuctions in the interfac
             
             <h3>Code Generator</h3>
             
-            
-            <div className="code-generator" data-html-pattern="
-                            <[[format_tag_start]]p[[format_tag_end]] [[format_attribute_start]]
-                                class=&quot;[[format_attribute_end]][[format_tag_value_start]][[code_type_margin]] [[code_type_alignment]] [[code_type_size]] [[code_type_color]][[format_tag_value_end]][[format_attribute_start]]&quot;[[format_attribute_end]]>
-                                [[format_tab_start]]
-                                    [[code_type_text]]
-                                [[format_tab_end]]
-                            <[[format_tag_start]]/p[[format_tag_end]]>
-                            [[format_br]]
-                            <[[format_tag_start]]p[[format_tag_end]] [[format_attribute_start]]
-                                class=&quot;[[format_attribute_end]][[format_tag_value_start]][[code_type_margin]] [[code_type_alignment]] [[code_type_size]] [[code_type_color]][[format_tag_value_end]][[format_attribute_start]]&quot;[[format_attribute_end]]>
-                                [[format_tab_start]]
-                                    [[code_type_text]]
-                                [[format_tab_end]]
-                            <[[format_tag_start]]/p[[format_tag_end]]>
-                            [[format_br]]
-                            <[[format_tag_start]]p[[format_tag_end]] [[format_attribute_start]]
-                                class=&quot;[[format_attribute_end]][[format_tag_value_start]][[code_type_margin]] [[code_type_alignment]] [[code_type_size]] [[code_type_color]][[format_tag_value_end]][[format_attribute_start]]&quot;[[format_attribute_end]]>
-                                [[format_tab_start]]
-                                    [[code_type_text]]
-                                [[format_tab_end]]
-                            <[[format_tag_start]]/p[[format_tag_end]]>
-                            ">
-                <div className="code-generator-right">
-                    <div className="code-generator-controls">
-                        <div className="code-generator-toggle-editor">
-                            <p className="std-txt std-txt-S mrg-zero"><a href="javascript:void();">Show Editor</a></p>
-                        </div>
-                        <div className="code-generator-edit hide-for-small-only">
-                            <div className="">
-                                <label htmlFor="name" className="std-txt std-txt-S mrg-S">Line 1</label>
-                                <input type="text" className="form-full  mrg-M" name="code_type_text" defaultValue="Extra 20% Off" />
-                            </div>
-                            <label htmlFor="code_type_alignment" className="std-txt std-txt-S mrg-S">Color</label>
-                            <div class="design-system-color-picker mrg-M">
-                                  <span class="color-picker-icon selected"><span class="color-nightsky-bg color-picker-swatch"></span></span>
-                                <span className="select select-M select-full">
-                                        <select name="code_type_color">
-                                          <option value="color-passion">Passion</option>
-                                          <option value="color-lipstick">Lipstick</option>
-                                          <option value="color-penneyred">Penney Red</option>
-                                          <option value="color-blush">Blush</option>
-                                          <option value="color-nightsky" selected>Night Sky</option>
-                                          <option value="color-shadow">Shadow</option>
-                                          <option value="color-slate">Slate</option>
-                                          <option value="color-concrete">Concrete</option>
-                                          <option value="color-lightgrey">Light Gray</option>
-                                          <option value="color-white">White</option>
-                                        </select>
-                                      </span>
-                            </div>
-                            <label htmlFor="code_type_size" className="std-txt std-txt-S mrg-S">Size</label>
-                            <div className="mrg-M">
-                                <span className="select select-M select-full">
-                                        <select name="code_type_size">
-                                        <optgroup label="Price">
-                                          <option value="price price-L">XL</option>
-                                          <option value="price price-M">L</option>
-                                          <option value="price price-S">M</option>
-                                          <option value="price price-XS">S</option>
-                                        </optgroup>
-                                        <optgroup label="Title">
-                                          <option value="title title-XXL">XXL</option>
-                                          <option value="title title-XL">XL</option>
-                                          <option value="title title-L">L</option>
-                                          <option value="title title-M">M</option>
-                                          <option value="title title-S">S</option>
-                                        </optgroup>
-                                        <optgroup label="Standard Text">
-                                          <option value="std-txt std-txt-L">L</option>
-                                          <option value="std-txt std-txt-M" selected>M</option>
-                                          <option value="std-txt std-txt-S">S</option>
-                                          <option value="std-txt std-txt-XS">XS</option>
-                                        </optgroup>
-                                        <optgroup label="Copy">
-                                          <option value="M">M</option>
-                                          <option value="S">S</option>
-                                        </optgroup>
-                                        </select>
-                                      </span>
-                            </div>
-                            <label htmlFor="code_type_margin" className="std-txt std-txt-S mrg-S">Margin</label>
-                            <div className="mrg-M">
-                                <span className="select select-M select-full">
-                                        <select name="code_type_margin">
-                                        
-                                          <option value="mrg-zero" selected>Zero</option>
-                                          <option value="mrg-S">S</option>
-                                          <option value="mrg-M">M</option>
-                                          <option value="mrg-L">L</option>
-                                          <option value="mrg-XL">XL</option>
-                                        
-                                        </select>
-                                      </span>
-                            </div>
-                            <label htmlFor="code_type_alignment" className="std-txt std-txt-S mrg-S">Alignment</label>
-                            <div className="mrg-M">
-                                <span className="select select-M select-full">
-                                        <select name="code_type_alignment">
-                                          <option value="algn-lft" selected>Left</option>
-                                          <option value="algn-mid">Center</option>
-                                          <option value="algn-rght">Right</option>
-                                        </select>
-                                      </span>
-                            </div>
-                            
-                        </div>
-                    </div>
-                </div>
-                <div className="code-generator-left">
-                    <div className="code-generator-preview">
-                    </div>
-                    <div className="code-generator-code">
-                        <div className="design-system-headline-with-toggle">
-                            <div className="code-generator-copy">
-                                <ClipboardButton data-clipboard-text="I'll be copied">
-                                    Copy Code
-                                </ClipboardButton>
-                            </div>
-                            <div className="design-system-headline-toggle">
-                                <a href="javascript:void(0)" className="design-system-toggle left">React</a>
-                                <a href="javascript:void(0)" className="design-system-toggle right active">HTML</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="code-generator-code-preview">
-                    </div>
-                </div>
-            </div>
+            <CodeGenerator 
+                formFields={
+                    [
+                        { 
+                            fieldType: 'text',
+                            displayLabel: 'Line 1',
+                            name: 'code_type_text',
+                            value: 'Extra 20% Off'
+                        },
+                        { 
+                            fieldType: 'select-color',
+                            displayLabel: 'Color',
+                            name: 'code_type_color',
+                            value: [
+                                {
+                                    text: 'Passion',
+                                    value: 'color-passion'
+                                },
+                                {
+                                    text: 'Lipstick',
+                                    value: 'color-lipstick'
+                                },
+                                {
+                                    text: 'Penney Red',
+                                    value: 'color-penneyred'
+                                },
+                                {
+                                    text: 'Blush',
+                                    value: 'color-blush'
+                                },
+                                {
+                                    text: 'Night Sky',
+                                    value: 'color-nightsky'
+                                },
+                                {
+                                    text: 'Shadow',
+                                    value: 'color-shadow'
+                                },
+                                {
+                                    text: 'Slate',
+                                    value: 'color-slate'
+                                },
+                                {
+                                    text: 'Concrete',
+                                    value: 'color-concrete'
+                                },
+                                {
+                                    text: 'Light Gray',
+                                    value: 'color-lightgrey'
+                                },
+                                {
+                                    text: 'White',
+                                    value: 'color-white'
+                                }
+                            ],
+                            defaultSelect: 'color-nightsky'
+                        }, 
+                        { 
+                            fieldType: 'select-grouped',
+                            displayLabel: 'Size',
+                            name: 'code_type_size',
+                            value: [
+                                {
+                                  displayLabel: "Price",
+                                  value: [
+                                    {
+                                        text: 'XL',
+                                        value: 'price price-XL',
+                                    },
+                                    {
+                                        text: 'L',
+                                        value: 'price price-L'
+                                    },
+                                    {
+                                        text: 'M',
+                                        value: 'price price-M'
+                                    },
+                                    {
+                                        text: 'S',
+                                        value: 'price price-S'
+                                    }
+                                  ]
+                                },
+                                {
+                                  displayLabel: "Title",
+                                  value: [
+                                    {
+                                        text: 'XXL',
+                                        value: 'title title-XXL',
+                                    },
+                                    {
+                                        text: 'XL',
+                                        value: 'title title-XL',
+                                    },
+                                    {
+                                        text: 'L',
+                                        value: 'title title-L'
+                                    },
+                                    {
+                                        text: 'M',
+                                        value: 'title title-M'
+                                    },
+                                    {
+                                        text: 'S',
+                                        value: 'title title-S'
+                                    }
+                                  ]
+                                },
+                                {
+                                  displayLabel: "Standard",
+                                  value: [
+                                    {
+                                        text: 'L',
+                                        value: 'std-txt std-txt-L',
+                                    },
+                                    {
+                                        text: 'M',
+                                        value: 'std-txt std-txt-M'
+                                    },
+                                    {
+                                        text: 'S',
+                                        value: 'std-txt std-txt-S'
+                                    },
+                                    {
+                                        text: 'XS',
+                                        value: 'std-txt std-txt-XS'
+                                    }
+                                  ]
+                                }
+                                ,
+                                {
+                                  displayLabel: "Copy",
+                                  value: [
+                                    {
+                                        text: 'M',
+                                        value: 'M',
+                                    },
+                                    {
+                                        text: 'S',
+                                        value: 'S'
+                                    }
+                                  ]
+                                }
 
-            <hr />
+                                
+                            ],
+                            defaultSelect: 'std-txt std-txt-M'
+
+
+                        }, 
+                        { 
+                            fieldType: 'select',
+                            displayLabel: 'Margin',
+                            name: 'code_type_margin',
+                            value: [
+                                {
+                                    text: 'Zero',
+                                    value: 'mrg-zero'
+                                },
+                                {
+                                    text: 'S',
+                                    value: 'mrg-S'
+                                },
+                                {
+                                    text: 'M',
+                                    value: 'mrg-M'
+                                },
+                                {
+                                    text: 'L',
+                                    value: 'mrg-L'
+                                },
+                                {
+                                    text: 'XL',
+                                    value: 'mrg-XL'
+                                }
+                            ],
+                            defaultSelect: 'mrg-zero'
+                        }, 
+                        { 
+                            fieldType: 'select',
+                            displayLabel: 'Alignment',
+                            name: 'code_type_alignment',
+                            value: [
+                                {
+                                    text: 'Left',
+                                    value: 'algn-lft'
+                                },
+                                {
+                                    text: 'Center',
+                                    value: 'algn-mid'
+                                },
+                                {
+                                    text: 'Right',
+                                    value: 'algn-rght'
+                                }
+                            ],
+                            defaultSelect: 'algn-lft'
+                        }
+                    ]}
+                htmlPattern="<[[format_tag_start]]p[[format_tag_end]] [[format_attribute_start]]
+                                class=&quot;[[format_attribute_end]][[format_tag_value_start]][[code_type_margin]] [[code_type_alignment]] [[code_type_size]] [[code_type_color]][[format_tag_value_end]][[format_attribute_start]]&quot;[[format_attribute_end]]>
+                                [[format_tab_start]]
+                                    [[code_type_text]]
+                                [[format_tab_end]]
+                            <[[format_tag_start]]/p[[format_tag_end]]>
+                            [[format_br]]
+                            <[[format_tag_start]]p[[format_tag_end]] [[format_attribute_start]]
+                                class=&quot;[[format_attribute_end]][[format_tag_value_start]][[code_type_margin]] [[code_type_alignment]] [[code_type_size]] [[code_type_color]][[format_tag_value_end]][[format_attribute_start]]&quot;[[format_attribute_end]]>
+                                [[format_tab_start]]
+                                    [[code_type_text]]
+                                [[format_tab_end]]
+                            <[[format_tag_start]]/p[[format_tag_end]]>
+                            [[format_br]]
+                            <[[format_tag_start]]p[[format_tag_end]] [[format_attribute_start]]
+                                class=&quot;[[format_attribute_end]][[format_tag_value_start]][[code_type_margin]] [[code_type_alignment]] [[code_type_size]] [[code_type_color]][[format_tag_value_end]][[format_attribute_start]]&quot;[[format_attribute_end]]>
+                                [[format_tab_start]]
+                                    [[code_type_text]]
+                                [[format_tab_end]]
+                            <[[format_tag_start]]/p[[format_tag_end]]>"
+
+              />
+
+
+
         </div>
     </div>
     

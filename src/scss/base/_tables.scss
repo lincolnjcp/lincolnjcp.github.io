@@ -2,39 +2,60 @@
 /* Tables
 *******************************************/
 
-table{
-  display: table;
-  vertical-align: middle;
-  border-collapse: collapse;
-
-  &.table-full{
-    width: 100%;
-  }
-
-  &.table-striped{
-    tbody{
-      padding: 24px;
-      tr:nth-child(odd){
-        background-color: $color-lightgrey;
-      }
-    }
-  }
-
-  &.table-borders{
-    th, td {
-      border: 1px solid $color-concrete;
-    }
-    th {
-      background-color: $color-lightgrey;
-    }
-  }
-
-  td,th{
+table {
+    display: table;
     vertical-align: middle;
-    padding: 12px 8px;
-    border-bottom: 1px solid $color-concrete;
-  }
-  th {
-    font-weight: bold;
-  }
+    border-collapse: collapse;
+    td,
+    th {
+        vertical-align: middle;
+        padding: 16px 12px;
+        border-bottom: 1px solid $color-concrete;
+    }
+
+    th {
+        font-weight: bold;
+    }
+
+    &.table-full {
+        width: 100%;
+    }
+
+    &.table-no-bottom-border tr:last-child {
+        td,
+        th {
+            border-bottom: none;
+        }
+    }
+    &.table-striped {
+        tbody {
+            padding: 24px;
+            tr:nth-child(odd) {
+                background-color: $color-lightgrey;
+            }
+        }
+    }
+
+    &.table-striped-columns {
+        tr:nth-child(1) {
+            td,
+            th {
+                border-top: 1px solid $color-concrete;
+            }
+        }
+        th {
+            background-color: $color-lightgrey;
+            color: $color-slate;
+        }
+    }
+
+    &.table-borders {
+        th,
+        td {
+            border: 1px solid $color-concrete;
+        }
+        th {
+            background-color: $color-lightgrey;
+        }
+    }
 }

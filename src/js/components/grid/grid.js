@@ -115,7 +115,7 @@ The screen sizes were determined by a combination of common screen resolutions, 
 
             <h5>How The Grid Layout Works in Sketch</h5>
             <p>For the sake of documentation and design purposes, the horizontal grid layout, as stated by the table above will be how the grid is constructed</p>
-            <div className="design-system-preview-image"><img src="/images/design-system/grid-horizontal-grid-2.jpg" alt="" /></div>
+            <div className="design-system-preview-image"><img src="/images/design-system/grids/grid-horizontal-grid-2.jpg" alt="" /></div>
 
             <h5>****How a Grid works in Code</h5>
             <p>Within frameworks columns typically have gutters on either side of the column. This will not change the way pages are designed just good to understand how Sketch simplifies the grid.</p>
@@ -143,7 +143,7 @@ The screen sizes were determined by a combination of common screen resolutions, 
 
             <h5>Column Composition</h5>
             <p>Columns Flex with the device width, gutters remain fixed unless transitioning between breakpoints, for example from small to medium.</p>
-            <div className="design-system-preview-image"><img src="/images/design-system/grid-horizontal-grid-4.jpg" alt="" /></div>
+            <div className="design-system-preview-image"><img src="/images/design-system/grids/grid-horizontal-grid-4.jpg" alt="" /></div>
             <hr />
         </div>
     </div>
@@ -152,7 +152,7 @@ The screen sizes were determined by a combination of common screen resolutions, 
         <div className="small-12 columns">
             <h3>Vertical Grid</h3>
             <p>Our vertical baseline grid is the key to achieving vertical rhythm. Vertical rhythm is the balanced spacing of elements as the user moves down the page. It is created by three factors: font size, line height and margin or padding. The diagram below shows how vertical spacing in 10-pixel increments helps create hierarchy and harmony between text and containers. The 10px increment was determined by the base unit</p>
-            <div className="design-system-preview-image"><img src="/images/design-system/grid-vertical-grid.jpg" alt="" /></div>
+            <div className="design-system-preview-image"><img src="/images/design-system/grids/grid-vertical-grid.jpg" alt="" /></div>
             <hr />
         </div>
     </div>
@@ -167,7 +167,7 @@ The screen sizes were determined by a combination of common screen resolutions, 
             <a href="https://material.google.com/layout/units-measurements.html#units-measurements-designing-layouts-for-dp" target="_blank">https://material.google.com/layout/units-measurements.html#units-measurements-designing-layouts-for-dp</a><br /><br />
             </p>
             <p>Most Common Device Sizes</p>
-            <div className="design-system-preview-image"><img src="/images/design-system/grid-documentation.jpg" alt="" /></div>
+            <div className="design-system-preview-image"><img src="/images/design-system/grids/grid-documentation.jpg" alt="" /></div>
             <hr />
         </div>
     </div>

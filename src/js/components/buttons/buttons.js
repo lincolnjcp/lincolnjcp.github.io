@@ -1,74 +1,16 @@
 import React, { Component } from 'react';
 import $ from 'jquery';
-import ClipboardButton from 'react-clipboard.js';
+
+import CodeGenerator from '../../containers/CodeGenerator.js';
 
 const cartImage = require('!!raw-loader?es5=1!../../../images/global/icons/utility/cart/cart.svg');
 
 class Buttons extends Component {
 
-componentDidMount() {
-    window.updateCodeGenerator = function(){
-        var attrName = $('input[name="code_button_text"]').val();
-        var attrSize = $('select[name="code_button_size"]').val();
-        var attrStyle = $('select[name="code_button_style"]').val();
-        var attrWidth = $('input[name="code_button_width"]:checked').length ? $('input[name="code_button_width"]').val() : '';
-        var attrDisabled = $('input[name="code_button_disabled"]:checked').length ? $('input[name="code_button_disabled"]').val() : '';
-
-        var HTMLCode = String($(".code-generator").data("html-pattern"))
-          .replace('[[code_button_text]]', attrName)
-          .replace('[[code_button_size]]', attrSize)
-          .replace('[[code_button_style]]', attrStyle)
-          .replace('[[code_button_width]]', attrWidth)
-          .replace('[[code_button_disabled]]', attrDisabled)
-          ;
-
-        var HTMLCodePreview = HTMLCode
-          .replace(/</g, '&lt;')
-          .replace(/>/g, '&gt;')
-          .replace('javascript:void();', '#')
-          .replace(/\[\[format_tab_start\]\]/g, '<p class="code-format-tab">')
-          .replace(/\[\[format_tab_end\]\]/g, '</p>')
-          .replace(/\[\[format_attribute_start\]\]/g, '<span class="code-format-attribute">')
-          .replace(/\[\[format_attribute_end\]\]/g, '</span>')
-          .replace(/\[\[format_tag_start\]\]/g, '<span class="code-format-tag">')
-          .replace(/\[\[format_tag_end\]\]/g, '</span>')
-          .replace(/\[\[format_tag_value_start\]\]/g, '<span class="code-format-tag-value">')
-          .replace(/\[\[format_tag_value_end\]\]/g, '</span>')
-          .replace(/(\s*)\</g, '<')
-          ;
-
-        HTMLCode = HTMLCode.replace(/\[\[(.*?)\]\]/g, "");
-
-        $(".code-generator-preview").html(HTMLCode);
-
-        $(".code-generator-code-preview").html(HTMLCodePreview);
-        $(".code-generator-copy button").attr("data-clipboard-text", HTMLCode)
-    }
-
-    $('input[name="code_button_text"]').keyup(function(){
-        window.updateCodeGenerator();
-    }); 
-
-    $('.code-generator select, .code-generator input[type="checkbox"]').change(function(){
-        window.updateCodeGenerator();
-    }); 
-
-    $(".code-generator-toggle-editor a").click(function(){
-        if($(this).html() == "Hide Editor") {
-            $(this).html("Show Editor");
-            $(".code-generator-edit").addClass("hide-for-small-only");
-        } else {
-            $(this).html("Hide Editor");
-            $(".code-generator-edit").removeClass("hide-for-small-only");
-        }
-    });
-
-    window.updateCodeGenerator();
-}
-
   render() {
     return (
       <div>
+      
     <div className="row">
         <div className="small-12 columns">
             <h1>Buttons</h1>
@@ -80,86 +22,83 @@ componentDidMount() {
             <hr />
             <h3>Code Generator</h3>
 
-            <div className="code-generator" data-html-pattern="
-                <[[format_tag_start]]a[[format_tag_end]] [[format_attribute_start]]
-                    href=&quot;[[format_attribute_end]][[format_tag_value_start]]javascript:void();[[format_tag_value_end]][[format_attribute_start]]&quot;
-                    class=&quot;[[format_attribute_end]][[format_tag_value_start]]btn [[code_button_size]] [[code_button_style]] [[code_button_width]] [[code_button_disabled]][[format_tag_value_end]][[format_attribute_start]]&quot;[[format_attribute_end]]>
-                    [[format_tab_start]]
-                        [[code_button_text]]
-                    [[format_tab_end]]
-                <[[format_tag_start]]/a[[format_tag_end]]>">
-                
-                            <div className="code-generator-right">
-            <div className="code-generator-controls">
-                    <div className="code-generator-toggle-editor">
-                        <p className="std-txt std-txt-S mrg-zero"><a href="javascript:void();">Show Editor</a></p>
-                    </div>
-                    <div className="code-generator-edit hide-for-small-only">
-                        <label htmlFor="name" className="std-txt std-txt-S mrg-S">Text Label</label>
-                        <input type="text" className="form-full  mrg-M" name="code_button_text" defaultValue="My Button" />
 
-                        <label htmlFor="name" className="std-txt std-txt-S mrg-S">Style</label>
-                        <div className="mrg-M">
-                          <span className="select select-M select-full">
-                            <select name="code_button_style">
-                              <option value="btn-primary" selected>Primary</option>
-                              <option value="btn-secondary">Secondary</option>
-                            </select>
-                          </span>
-                        </div>
+            <CodeGenerator 
+                formFields={
+                    [
+                        { 
+                            fieldType: 'text',
+                            displayLabel: 'Text Label',
+                            name: 'code_button_text',
+                            value: 'My Button'
+                        }, 
+                        { 
+                            fieldType: 'select',
+                            displayLabel: 'Style',
+                            name: 'code_button_style',
+                            value: [
+                                {
+                                    text: 'Primary',
+                                    value: 'btn-primary'
+                                },
+                                {
+                                    text: 'Secondary',
+                                    value: 'btn-secondary'
+                                }
+                            ],
+                            defaultSelect: 'btn-primary'
+                        }, 
+                        { 
+                            fieldType: 'select',
+                            displayLabel: 'Size',
+                            name: 'code_button_size',
+                            value: [
+                                {
+                                    text: 'Medium',
+                                    value: 'btn-M'
+                                },
+                                {
+                                    text: 'Large',
+                                    value: 'btn-L'
+                                }
+                            ],
+                            defaultSelect: 'btn-L'
+                        },
+                        { 
+                            fieldType: 'checkbox',
+                            displayLabel: 'Full Width',
+                            name: 'code_button_width',
+                            value: 'btn-full',
+                            defaultSelect: ''
+                        },
+                        { 
+                            fieldType: 'checkbox',
+                            displayLabel: 'Disabled',
+                            name: 'code_button_disabled',
+                            value: 'btn-disabled',
+                            defaultSelect: ''
+                        },
+                        { 
+                            fieldType: 'checkbox',
+                            displayLabel: 'Display Content Loader',
+                            name: 'code_button_loader',
+                            value: 'none',
+                            defaultSelect: 'true'
+                        }
+                    ]}
+                htmlPattern="<[[format_tag_start]]a[[format_tag_end]] [[format_attribute_start]]
+                            href=&quot;[[format_attribute_end]][[format_tag_value_start]]javascript:void();[[format_tag_value_end]][[format_attribute_start]]&quot;
+                            class=&quot;[[format_attribute_end]][[format_tag_value_start]]btn [[code_button_size]] [[code_button_style]] [[code_button_width]] [[code_button_disabled]][[format_tag_value_end]][[format_attribute_start]]&quot;[[format_attribute_end]]>
+                            [[format_tab_start]]
+                                [[code_button_text]]
+                            [[format_tab_end]]
+                        <[[format_tag_start]]/a[[format_tag_end]]>"
 
-                        <label htmlFor="name" className="std-txt std-txt-S mrg-S">Size</label>
-                        <div className="mrg-M">
-                          <span className="select select-M select-full">
-                            <select name="code_button_size">
-                              <option value="btn-S">Small</option>
-                              <option value="btn-M">Medium</option>
-                              <option value="btn-L"  selected>Large</option>
-                            </select>
-                          </span>
-                        </div>
-
-                        <label className="checkbox mrg-S">
-                          <input type="checkbox" name="code_button_width" value="btn-full" /> <span className="std-txt std-txt-S">Full Width</span>
-                        </label>
-
-                        <label className="checkbox mrg-S">
-                          <input type="checkbox" name="code_button_disabled" value="btn-disabled" /> <span className="std-txt std-txt-S">Disabled</span>
-                        </label>
-
-                        <label className="checkbox mrg-S">
-                          <input type="checkbox" checked="true" /> <span className="std-txt std-txt-S">Display Content Loader</span>
-                        </label>
-                    </div>
-
-                    </div>
-                    </div>
-                    <div className="code-generator-left">
-                    <div className="code-generator-preview">
-                        
-                    </div>
-                    <div className="code-generator-code">
-                        <div className="design-system-headline-with-toggle">
-                        <div className="code-generator-copy"><ClipboardButton data-clipboard-text="I'll be copied">
-        Copy Code
-      </ClipboardButton></div>
-                        <div className="design-system-headline-toggle">
-                            <a href="javascript:void(0)" className="design-system-toggle left">React</a>
-                            <a href="javascript:void(0)" className="design-system-toggle right active">HTML</a>
-                        </div>
-                        </div>
-                        </div>
-                        <div className="code-generator-code-preview">
-                            
-                        </div>
-                        </div>
-
-            </div>
+              />
         </div>
     </div>
     <div className="row" id="when-to-use">
         <div className="small-12 columns">
-            <hr />
             <h3>When to Use</h3>
             <p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor don ullamco nulla non metus auctor fringilla. </p>
             <div className="button-overview">

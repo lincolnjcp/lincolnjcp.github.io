@@ -592,7 +592,6 @@ strong {
         }
     }
     .design-system-headline-with-toggle {
-        border-bottom: 1px solid $color-concrete;
         height: 60px;
         .design-system-headline-toggle {
             top: 15px;
@@ -806,7 +805,17 @@ strong {
     padding-top: 20px;
 }
 
+/* Alerts */
 
+.alert-preview-col {
+    padding-top: 20px;
+}
+
+/* Badges */
+
+.badges-preview-col {
+    padding-top: 40px;
+}
 
 
 

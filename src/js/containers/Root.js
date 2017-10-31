@@ -38,14 +38,14 @@ const Nav = () =>
                     </li>
                     <li><a href="javascript:void(0)" className="icn-expand js-menu-expand">Components</a>
                         <ul>
-                            <li><NavLink to="/" activeClassName="active">Alerts</NavLink></li>
+                            <li><NavLink to="/components/alerts" activeClassName="active">Alerts</NavLink></li>
                             <li><NavLink to="/" activeClassName="active">Apply Coupons</NavLink></li>
                             <li><NavLink to="/" activeClassName="active">Back to Top</NavLink></li>
-                            <li><NavLink to="/" activeClassName="active">Badges</NavLink></li>
+                            <li><NavLink to="/components/badges" activeClassName="active">Badges</NavLink></li>
                             <li><NavLink to="/" activeClassName="active">Breadcrumbs</NavLink></li>
                             <li><NavLink to="/" activeClassName="active">Carousels</NavLink></li>
                             <li><NavLink to="/" activeClassName="active">Color &amp; Image Swatches</NavLink></li>
-                            <li><NavLink to="/visual-design/content-loaders" activeClassName="active">Content Loaders</NavLink></li>
+                            <li><NavLink to="/components/content-loaders" activeClassName="active">Content Loaders</NavLink></li>
                             <li><NavLink to="/" activeClassName="active">Countdown Timers</NavLink></li>
                             <li><NavLink to="/" activeClassName="active">Discount &amp; Savings</NavLink></li>
                             <li><NavLink to="/" activeClassName="active">Expand/Collapse</NavLink></li>
@@ -55,7 +55,7 @@ const Nav = () =>
                             <li><NavLink to="/" activeClassName="active">Progress Bar</NavLink></li>
                             <li><NavLink to="/" activeClassName="active">Selectors</NavLink></li>
                             <li><NavLink to="/" activeClassName="active">Star Ratings</NavLink></li>
-                            <li><NavLink to="/" activeClassName="active">Tables</NavLink></li>
+                            <li><NavLink to="/components/tables" activeClassName="active">Tables</NavLink></li>
                             <li><NavLink to="/" activeClassName="active">Tabs</NavLink></li>
                             <li><NavLink to="/" activeClassName="active">Tooltips</NavLink></li>
                             <li><NavLink to="/" activeClassName="active">Video Player</NavLink></li>
@@ -236,7 +236,11 @@ class App extends React.Component {
             <Route exact path="/visual-design/grid" render={() => <DesignSystemPage componentName="Grid" />} />
             <Route exact path="/visual-design/typography" render={() => <DesignSystemPage componentName="Typography" />} />
             <Route exact path="/work-in-progress" component={WorkInProgress} />
-            <Route exact path="/visual-design/content-loaders" render={() => <DesignSystemPage componentName="ContentLoaders" />} />
+            
+            <Route exact path="/components/alerts" render={() => <DesignSystemPage componentName="Alerts" />} />
+            <Route exact path="/components/badges" render={() => <DesignSystemPage componentName="Badges" />} />
+            <Route exact path="/components/content-loaders" render={() => <DesignSystemPage componentName="ContentLoaders" />} />
+            <Route exact path="/components/tables" render={() => <DesignSystemPage componentName="Tables" />} />
         </div>
     </div>
     

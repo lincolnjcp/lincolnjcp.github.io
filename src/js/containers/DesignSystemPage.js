@@ -5,7 +5,12 @@ import Color from '../components/color';
 import Icons from '../components/icons';
 import Grid from '../components/grid';
 import Typography from '../components/typography';
+
+import Alerts from '../components/alerts';
+import Badges from '../components/badges';
 import ContentLoaders from '../components/content-loaders';
+import Tables from '../components/tables';
+
 import SubNav from './SubNav';
 
 class DesignSystemPage extends Component {
@@ -18,7 +23,10 @@ class DesignSystemPage extends Component {
    Icons: {componentElement: Icons, componentDisplayName: "Icons", componentSubNav: ['When to Use', 'Alert', 'Payment', 'Action', 'Navigation', 'Utility', 'Social']},
    Grid: {componentElement: Grid, componentDisplayName: "Grid", componentSubNav: ['Horizontal Grid', 'Vertical Grid', 'Documentation']},
    Typography: {componentElement: Typography, componentDisplayName: "Typography", componentSubNav: ['Code Generator', 'Price', 'Title', 'Standard Text', 'Copy', 'Lists', 'Links', 'Promo Labels']},
-   ContentLoaders: {componentElement: ContentLoaders, componentDisplayName: "ContentLoaders", componentSubNav: ['Types', 'Lazy Load']}
+   Alerts: {componentElement: Alerts, componentDisplayName: "Alerts & Messaging", componentSubNav: ['Code Generator', 'When to Use', 'Appearance', 'Content Guidelines', 'Related Content']},
+   Badges: {componentElement: Badges, componentDisplayName: "Badges", componentSubNav: ['Code Generator', 'When to Use', 'Appearance', 'Examples']},
+   ContentLoaders: {componentElement: ContentLoaders, componentDisplayName: "Content Loaders", componentSubNav: ['Types', 'Lazy Load']},
+   Tables: {componentElement: Tables, componentDisplayName: "Tables", componentSubNav: ['Standard', 'Feature']}
   }
 
   const Scene = routes[this.props.componentName].componentElement;
