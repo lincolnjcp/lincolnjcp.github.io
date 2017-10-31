@@ -73,7 +73,7 @@ button{
   &:disabled,
   &.btn-disabled{
     background-color: $color-lightgrey;
-    border: 1px solid $color-concrete;
+    border: 1px dashed $color-concrete;
     color: $color-slate;
     cursor: not-allowed;
     box-shadow: none;
