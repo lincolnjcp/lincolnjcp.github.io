@@ -15,13 +15,15 @@ a {
 p {
   color: $color-slate;
   font-size: 16px;
-  line-height: 20px;
+  line-height: 26px;
   margin: 0 0 10px;
+
   &.S {
     font-size: 14px;
-  line-height: 18px;
+    line-height: 18px;
   }
 }
+
 .price{
   font-family: $font-headline;
   font-weight: $font-weight-bold;

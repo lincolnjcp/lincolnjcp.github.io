@@ -133,15 +133,15 @@ select{
   bottom: 0;
   background-color: #fff;
   border-radius: 0 3px 3px 0;
-  box-shadow: -7px 0 20px 3px #fff;
+  // box-shadow: -7px 0 20px 3px #fff;
 }
 
 .select{
   border-radius: 40px;
   display: inline-block;
-  border: 1px solid $color-lightgrey;
+  border: 1px solid $color-concrete;
   overflow: hidden;
-  @include elevation;
+  // @include elevation;
 
   &.select-S{
     font-size: 14px;
@@ -255,6 +255,8 @@ fieldset {
 // Animation on <label>
 .form-css-label {
   input {
+    min-width: 200px;
+
     &[data-empty="false"],
     &:valid,
     &:focus {
