@@ -45,10 +45,16 @@ componentDidMount() {
             </div>
             <div className="small-12 medium-12 columns">
                 <div className="small-12 medium-4 columns position-rel">
-                    <div className="loader-checkmark-container">
+                    {/* <div className="loader-checkmark-container">
                         <svg className="checkmark hide" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52">
                             <circle className="checkmark-circle" cx="26" cy="26" r="25" fill="none"/>
                             <path className="checkmark-check" fill="none" d="M14.1 27.2l7.1 7.2 16.7-16.8"/>
+                        </svg>
+                    </div> */}
+                    <div className="loader-checkmark-container">
+                        <svg className="checkmark hide" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                            <circle className="path" fill="none" cx="85.6" cy="80.6" r="30" transform="rotate(-45, 93, 93)"/>
+                            <polyline className="check" fill="none" points="93,79.8 77.1,103.4 68,95.4"/>
                         </svg>
                     </div>
                     <div className="loader-count-container">
