@@ -10,6 +10,7 @@ import Alerts from '../components/alerts';
 import Badges from '../components/badges';
 import ContentLoaders from '../components/content-loaders';
 import Tables from '../components/tables';
+import Forms from '../components/forms';
 
 import SubNav from './SubNav';
 
@@ -26,7 +27,8 @@ class DesignSystemPage extends Component {
    Alerts: {componentElement: Alerts, componentDisplayName: "Alerts & Messaging", componentSubNav: ['Code Generator', 'When to Use', 'Appearance', 'Content Guidelines', 'Related Content']},
    Badges: {componentElement: Badges, componentDisplayName: "Badges", componentSubNav: ['Code Generator', 'When to Use', 'Appearance', 'Examples']},
    ContentLoaders: {componentElement: ContentLoaders, componentDisplayName: "Content Loaders", componentSubNav: ['Types', 'Lazy Load']},
-   Tables: {componentElement: Tables, componentDisplayName: "Tables", componentSubNav: ['Standard', 'Feature']}
+   Tables: {componentElement: Tables, componentDisplayName: "Tables", componentSubNav: ['Standard', 'Feature']},
+   Forms: {componentElement: Forms, componentDisplayName: "Forms", componentSubNav: ['Code Generator', 'When to Use', 'Appearance', 'Form Validation', 'Sample Layout', 'Related Content']}
   }
 
   const Scene = routes[this.props.componentName].componentElement;

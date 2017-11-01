@@ -49,7 +49,7 @@ const Nav = () =>
                             <li><NavLink to="/" activeClassName="active">Countdown Timers</NavLink></li>
                             <li><NavLink to="/" activeClassName="active">Discount &amp; Savings</NavLink></li>
                             <li><NavLink to="/" activeClassName="active">Expand/Collapse</NavLink></li>
-                            <li><NavLink to="/" activeClassName="active">Forms</NavLink></li>
+                            <li><NavLink to="/components/forms" activeClassName="active">Forms</NavLink></li>
                             <li><NavLink to="/" activeClassName="active">Pagination</NavLink></li>
                             <li><NavLink to="/" activeClassName="active">Pricing</NavLink></li>
                             <li><NavLink to="/" activeClassName="active">Progress Bar</NavLink></li>
@@ -241,6 +241,7 @@ class App extends React.Component {
             <Route exact path="/components/badges" render={() => <DesignSystemPage componentName="Badges" />} />
             <Route exact path="/components/content-loaders" render={() => <DesignSystemPage componentName="ContentLoaders" />} />
             <Route exact path="/components/tables" render={() => <DesignSystemPage componentName="Tables" />} />
+            <Route exact path="/components/forms" render={() => <DesignSystemPage componentName="Forms" />} />
         </div>
     </div>
     
