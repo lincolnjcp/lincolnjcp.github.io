@@ -1,0 +1,20 @@
+/***************************************************
+/* Forms
+***************************************************/
+.select {
+  line-height: 40px;
+  overflow: visible;
+}
+.select::before {
+  width: 0;
+}
+.select-label{
+  display: block;
+  background: #fff;
+  position: absolute;
+  top: -7px;
+  padding: 0 6px;
+  font-size: 12px;
+  color: #6b7883;
+  line-height: 12px;
+}
