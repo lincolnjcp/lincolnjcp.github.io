@@ -23996,6 +23996,14 @@ var Forms = function (_Component) {
                 var selectedClass = __WEBPACK_IMPORTED_MODULE_1_jquery___default()(".select select");
                 selectedClass.val() == '' ? __WEBPACK_IMPORTED_MODULE_1_jquery___default()('.select-label').addClass('hide') : __WEBPACK_IMPORTED_MODULE_1_jquery___default()('.select-label').removeClass('hide');
             });
+
+            __WEBPACK_IMPORTED_MODULE_1_jquery___default()('.email-text').on('keyup keydown keypress change paste', function () {
+                if (__WEBPACK_IMPORTED_MODULE_1_jquery___default()(this).val() != '') {
+                    __WEBPACK_IMPORTED_MODULE_1_jquery___default()('.email-label').removeClass('hide');
+                } else {
+                    __WEBPACK_IMPORTED_MODULE_1_jquery___default()('.email-label').addClass('hide');
+                }
+            });
         }
     }, {
         key: 'render',
@@ -24036,110 +24044,142 @@ var Forms = function (_Component) {
                         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                             'p',
                             null,
-                            'Vestibulum id ligula porta felis euismod semper. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. '
+                            'Vestibulum id ligula porta felis euismod semper. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. ',
+                            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('br', null),
+                            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('br', null),
+                            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('br', null),
+                            ' '
                         ),
                         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                             'div',
-                            { className: 'small-12 medium-12 columns' },
+                            { className: 'small-12 medium-12 columns email-form' },
                             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                                'form',
-                                null,
+                                'div',
+                                { className: 'small-12 medium-4 columns' },
                                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                                    'div',
-                                    { className: 'small-12 medium-4 columns select' },
-                                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                                        'span',
-                                        { className: 'select-label hide' },
-                                        'Month'
-                                    ),
-                                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                                        'select',
-                                        { className: '', name: 'select_month' },
-                                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                                            'option',
-                                            { value: '' },
-                                            'Select Month'
-                                        ),
-                                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                                            'option',
-                                            { value: '1' },
-                                            'Janaury'
-                                        ),
-                                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                                            'option',
-                                            { value: '2' },
-                                            'February'
-                                        ),
-                                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                                            'option',
-                                            { value: '3' },
-                                            'March'
-                                        ),
-                                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                                            'option',
-                                            { value: '4' },
-                                            'April'
-                                        ),
-                                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                                            'option',
-                                            { value: '5' },
-                                            'May'
-                                        ),
-                                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                                            'option',
-                                            { value: '6' },
-                                            'June'
-                                        ),
-                                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                                            'option',
-                                            { value: '7' },
-                                            'July'
-                                        ),
-                                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                                            'option',
-                                            { value: '8' },
-                                            'August'
-                                        ),
-                                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                                            'option',
-                                            { value: '9' },
-                                            'September'
-                                        ),
-                                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                                            'option',
-                                            { value: '10' },
-                                            'October'
-                                        ),
-                                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                                            'option',
-                                            { value: '11' },
-                                            'November'
-                                        ),
-                                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                                            'option',
-                                            { value: '12' },
-                                            'December'
-                                        )
-                                    )
+                                    'span',
+                                    { className: 'email-label hide' },
+                                    'Email'
+                                ),
+                                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('input', { className: 'email-text', type: 'text', placeholder: 'Email' })
+                            ),
+                            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                'div',
+                                { className: 'small-12 medium-8 columns' },
+                                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                    'h4',
+                                    { className: 'title title-M mrg-L' },
+                                    'Text Field'
+                                ),
+                                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                    'p',
+                                    null,
+                                    'Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus.',
+                                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('br', null),
+                                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('br', null),
+                                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('br', null),
+                                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('br', null)
                                 )
                             )
                         ),
                         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                             'div',
-                            { className: 'small-12 medium-8 columns' },
+                            { className: 'small-12 medium-12 columns select-form' },
                             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                                'h4',
-                                { className: 'title title-M mrg-L' },
-                                'Text Field'
+                                'div',
+                                { className: 'small-12 medium-4 columns select' },
+                                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                    'span',
+                                    { className: 'select-label hide' },
+                                    'Month'
+                                ),
+                                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                    'select',
+                                    { name: 'select_month' },
+                                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                        'option',
+                                        { value: '' },
+                                        'Select Month'
+                                    ),
+                                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                        'option',
+                                        { value: '1' },
+                                        '01 - Janaury'
+                                    ),
+                                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                        'option',
+                                        { value: '2' },
+                                        '02 - February'
+                                    ),
+                                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                        'option',
+                                        { value: '3' },
+                                        '03 - March'
+                                    ),
+                                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                        'option',
+                                        { value: '4' },
+                                        '04 - April'
+                                    ),
+                                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                        'option',
+                                        { value: '5' },
+                                        '05 - May'
+                                    ),
+                                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                        'option',
+                                        { value: '6' },
+                                        '06 - June'
+                                    ),
+                                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                        'option',
+                                        { value: '7' },
+                                        '07 - July'
+                                    ),
+                                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                        'option',
+                                        { value: '8' },
+                                        '08 - August'
+                                    ),
+                                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                        'option',
+                                        { value: '9' },
+                                        '09 - September'
+                                    ),
+                                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                        'option',
+                                        { value: '10' },
+                                        '10 - October'
+                                    ),
+                                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                        'option',
+                                        { value: '11' },
+                                        '11 - November'
+                                    ),
+                                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                        'option',
+                                        { value: '12' },
+                                        '12 - December'
+                                    )
+                                )
                             ),
                             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                                'p',
-                                null,
-                                'Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus.',
-                                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('br', null),
-                                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('br', null),
-                                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('br', null),
-                                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('br', null)
+                                'div',
+                                { className: 'small-12 medium-8 columns' },
+                                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                    'h4',
+                                    { className: 'title title-M mrg-L' },
+                                    'Select Input'
+                                ),
+                                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                    'p',
+                                    null,
+                                    'Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus.',
+                                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('br', null),
+                                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('br', null),
+                                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('br', null),
+                                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('br', null)
+                                )
                             )
                         )
                     )
