@@ -1,16 +1,31 @@
 /***************************************************
 /* Forms
 ***************************************************/
-.select {
-  line-height: 40px;
-  overflow: visible;
+.email-form {
+  position: relative;
+  input::-webkit-input-placeholder {
+      font-size: 16px;
+      font-style: normal;
+      color: $color-nightsky;
+  }
+  .email-text {
+    border: 1px solid $color-concrete;
+    width: 100%;
+  }
 }
-.select::before {
-  width: 0;
+.select-form {
+  .select {
+    line-height: 40px;
+    overflow: visible;
+    color: $color-nightsky;
+  }
+  .select::before {
+    width: auto;
+  }
 }
-.select-label{
+.select-label, .email-label{
   display: block;
-  background: #fff;
+  background: $color-white;
   position: absolute;
   top: -7px;
   padding: 0 6px;
