@@ -4,11 +4,10 @@
 
 table {
     display: table;
-    vertical-align: middle;
     border-collapse: collapse;
     td,
     th {
-        vertical-align: middle;
+        vertical-align: top;
         padding: 16px 12px;
         border-bottom: 1px solid $color-concrete;
     }

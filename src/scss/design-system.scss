@@ -3,7 +3,7 @@
   Target Browsers: IE9+, Chrome, FF, Safari, iOS9+, Android 4.4+
 \*------------------------------------*/
 
-@import "../helpers/_init";
+@import "helpers/_init";
 
 @include foundation-off-canvas;
 
@@ -180,7 +180,7 @@
                     right: 18px;
                     width: 24px;
                     height: 24px;
-                    background: url($path-images-pages + "design-system/plus.svg") no-repeat right center;
+                    background: url($path-images + "design-system/plus.svg") no-repeat right center;
                 }
             }
         }
@@ -217,9 +217,26 @@
         li.menu-open {
             a {
                 &.icn-expand:before {
-                    background-image: url($path-images-pages + "design-system/minus.svg");
+                    background-image: url($path-images + "design-system/minus.svg");
                 }
             }
+        }
+    }
+    .design-system-content {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    @include breakpoint(medium) {
+        .design-system-content {
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+    }
+
+    @include breakpoint(large xlarge) {
+        .design-system-content {
+            padding-top: 80px;
+            padding-bottom: 80px;
         }
     }
 
@@ -273,7 +290,7 @@
             .design-system-inner-nav-fixed {
                 width: 250px;
                 position: fixed;
-                top: 0px;
+                top: 60px;
                 padding: 20px;
 
                 .design-system-inner-nav-indicator {
@@ -318,52 +335,6 @@
   CONTENT - COLOR PALETTE
 \*------------------------------------*/
 
-h1 {
-    font-size: 24px;
-    line-height: 28px;
-    font-weight: bold;
-    margin: 25px 0 20px;
-    font-family: $font-headline;
-    font-weight: $font-weight-regular;
-}
-
-h2 {
-    font-size: 16px;
-    line-height: 26px;
-    margin: 15px 0 20px;
-    color: #626e78;
-}
-
-h3 {
-    font-size: 20px;
-    line-height: 25px;
-    font-weight: bold;
-    margin: 0 0 20px;
-}
-
-h4 {
-    font-size: 16px;
-    line-height: 20px;
-    font-weight: bold;
-    margin: 0 0 10px;
-}
-
-h5 {
-    font-size: 16px;
-    line-height: 20px;
-    font-weight: bold;
-    margin: 35px 0 20px;
-    font-family: $font-headline;
-}
-
-h6 {
-    font-size: 16px;
-    line-height: 20px;
-    font-weight: 400;
-    margin: 0px 0 30px;
-    color: #626e78;
-}
-
 @include breakpoint(medium large xlarge) {
     .design-system-inner-content {
         padding-left: 50px;
@@ -384,27 +355,6 @@ h6 {
     }
 }
 
-hr {
-    border: none;
-    border-top: 1px solid #d8d8d8;
-    margin: 30px 0;
-}
-
-strong {
-    font-weight: bold;
-}
-
-@include breakpoint(large xlarge) {
-    h1 {
-        margin: 80px 0 15px;
-    }
-
-    h2 {
-        font-size: 20px;
-        line-height: 32px;
-    }
-}
-
 .design-system-css-class {
     color: $color-penneyred;
     background-color: $color-lightgrey;
@@ -420,23 +370,6 @@ strong {
     display: inline-block;
     margin-left: 15px;
     font-weight: 400;
-}
-
-.created-by {
-    p {
-        color: $color-slate;
-        font-size: 12px;
-        line-height: 16px;
-    }
-}
-
-.design-system-content-swatch-row {
-    margin-bottom: 30px;
-
-    p {
-        font-size: 14px;
-        line-height: 22px;
-    }
 }
 
 .design-system-content-swatch-bar {
@@ -457,20 +390,12 @@ strong {
     text-align: center;
 }
 
-@include breakpoint(small medium) {
-    .design-system-content-swatch-set {
-        padding-bottom: 20px;
-    }
-}
-
-
 .design-system-headline-with-toggle {
     position: relative;
 
     h3 {
         padding-right: 160px;
-        min-height: 40px;
-        margin: 0 0 20px;
+        min-height: 24px;
     }
 
     .design-system-headline-toggle {
@@ -783,52 +708,11 @@ strong {
             max-width: 100%;
         }
     }
-    h5.button-title {
-        margin-top: 20px;
-    }
     .button-overview {
-        margin-top: 20px;
         a {
             margin-right: 20px;
             min-width: 200px;
             margin-bottom: 20px;
         }
     }
-}
-
-.button-preview-row {
-    margin-bottom: 40px;
-    
-}
-
-.button-preview-set {
-    padding-top: 20px;
-}
-
-/* Alerts */
-
-.alert-preview-col {
-    padding-top: 20px;
-}
-
-/* Badges */
-
-.badges-preview-col {
-    padding-top: 40px;
-}
-
-
-
-/* TYPE */
-
-.typography-sample {
-    margin-bottom: 30px;
-    margin-top: 30px;
-    &.typography-sample-last {
-        margin-bottom: 0;
-    }
-}
-
-.design-system-preview-image {
-    margin-top: 10px;
 }

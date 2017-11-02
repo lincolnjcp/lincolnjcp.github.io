@@ -13,14 +13,14 @@ class Buttons extends Component {
       
     <div className="row">
         <div className="small-12 columns">
-            <h1>Buttons</h1>
-            <h2>Nulla vitae elit libero, a pharetra augue nullam quis risus eget urna mollis ornare vel eu leo. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+            <h1 className="title title-XL mrg-L">Buttons</h1>
+            <h2 className="std-txt std-txt-XL mrg-L txt-max-width">Nulla vitae elit libero, a pharetra augue nullam quis risus eget urna mollis ornare vel eu leo. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
         </div>
     </div>
     <div className="row" id="code-generator">
         <div className="small-12 columns">
             <hr />
-            <h3>Code Generator</h3>
+            <h3 className="title title-L mrg-L">Code Generator</h3>
 
 
             <CodeGenerator 
@@ -99,15 +99,15 @@ class Buttons extends Component {
     </div>
     <div className="row" id="when-to-use">
         <div className="small-12 columns">
-            <h3>When to Use</h3>
-            <p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor don ullamco nulla non metus auctor fringilla. </p>
-            <div className="button-overview">
+            <h3 className="title title-L mrg-L">When to Use</h3>
+            <p className="txt-max-width mrg-XL">Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor don ullamco nulla non metus auctor fringilla. </p>
+            <div className="button-overview algn-mid-S mrg-XL">
                 <a href="javascript:void();" className="btn btn-primary btn-L mrg-L">Primary Large</a>
                 <a href="javascript:void();" className="btn btn-secondary btn-L mrg-L">Secondary Large</a>
                 <a href="javascript:void();" className="btn btn-L btn-disabled mrg-L">Disabled Large</a>
                 
             </div>
-            <h5>Best Practices</h5>
+            <h5 className="title title-M mrg-M">Best Practices</h5>
             <ul>
                 <li>Aenean lacinia bibendum nulla sed consectetur</li>
                 <li>Integer posuere erat a ante venenatis dapibus posuere velit aliquet</li>
@@ -118,10 +118,10 @@ class Buttons extends Component {
     <div className="row" id="appearance">
         <div className="small-12 columns">
             <hr />
-            <h3>Appearance</h3>
-            <p>Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras justo odio, dapibus ac facilisis in, egestas eget quam.</p>
-            <div className="row button-preview-row">
-                <div className="small-12 medium-5 large-4 columns button-preview-set">
+            <h3 className="title title-L mrg-L">Appearance</h3>
+            <p className="txt-max-width mrg-XXL">Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras justo odio, dapibus ac facilisis in, egestas eget quam.</p>
+            <div className="row">
+                <div className="small-12 medium-5 large-4 columns mrg-XL">
                     <div className="button-preview algn-mid">
                       <a href="javascript:void();" className="btn btn-primary btn-S mrg-M">Primary Small</a>
                     </div>
@@ -135,12 +135,12 @@ class Buttons extends Component {
                     </div>
                 </div>
                 <div className="small-12 medium-7 large-8 columns">
-                    <h5 className="button-title">Primary Action</h5>
-                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec ullamcorper nulla non metus auctor fringilla. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
+                    <h5 className="title title-M mrg-M">Primary Action</h5>
+                    <p className="mrg-XXL">Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec ullamcorper nulla non metus auctor fringilla. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
                 </div>
             </div>
-            <div className="row button-preview-row">
-                <div className="small-12 medium-5 large-4 columns button-preview-set">
+            <div className="row">
+                <div className="small-12 medium-5 large-4 columns mrg-XXL">
                     <div className="button-preview algn-mid">
                       <a href="javascript:void();" className="btn btn-secondary btn-S mrg-M">Secondary Small</a>
                     </div>
@@ -154,24 +154,24 @@ class Buttons extends Component {
                     </div>
                 </div>
                 <div className="small-12 medium-7 large-8 columns">
-                    <h5 className="button-title">Secondary Action</h5>
-                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec ullamcorper nulla non metus auctor fringilla. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
+                    <h5 className="title title-M mrg-M">Secondary Action</h5>
+                    <p className="mrg-XXL">Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec ullamcorper nulla non metus auctor fringilla. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
                 </div>
             </div>
-            <div className="row button-preview-row">
-                <div className="small-12 medium-5 large-4 columns button-preview-set">
-                    <div className="button-preview algn-mid">
+            <div className="row">
+                <div className="small-12 medium-5 large-4 columns">
+                    <div className="button-preview algn-mid mrg-XL">
                       <a href="javascript:void();" className="btn btn-primary btn-L mrg-M btn-icon"><span className="icon color-white-svg" dangerouslySetInnerHTML={{__html: cartImage}} /> Checkout</a>
                     </div>
 
                 </div>
                 <div className="small-12 medium-7 large-8 columns">
-                    <h5 className="button-title">Icon and Label</h5>
-                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec ullamcorper nulla non metus auctor fringilla. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
+                    <h5 className="title title-M mrg-M">Icon and Label</h5>
+                    <p className="mrg-XXL">Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec ullamcorper nulla non metus auctor fringilla. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
                 </div>
             </div>
-            <div className="row button-preview-row">
-                <div className="small-12 medium-5 large-4 columns button-preview-set">
+            <div className="row">
+                <div className="small-12 medium-5 large-4 columns mrg-XXL">
                     <div className="button-preview algn-mid">
                       <a href="javascript:void();" className="btn btn-primary btn-L mrg-M btn-icon btn-icon-slide"><span className="icon color-white-svg" dangerouslySetInnerHTML={{__html: cartImage}} /> <span className="btn-label">Add to Cart</span></a>
                     </div>
@@ -181,7 +181,7 @@ class Buttons extends Component {
                     </div>
                 </div>
                 <div className="small-12 medium-7 large-8 columns">
-                    <h5 className="button-title">Icon Hover Effect</h5>
+                    <h5 className="title title-M mrg-M">Icon Hover Effect</h5>
                     <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec ullamcorper nulla non metus auctor fringilla. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
                 </div>
             </div>
@@ -190,19 +190,19 @@ class Buttons extends Component {
     <div className="row" id="responsive-behavior">
         <div className="small-12 columns">
             <hr />
-            <h3>Responsive Behavior</h3>
-            <p className="mrg-L">Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec ullamcorper nulla non metus auctor fringilla. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. </p>
+            <h3 className="title title-L mrg-L">Responsive Behavior</h3>
+            <p className="mrg-L txt-max-width">Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec ullamcorper nulla non metus auctor fringilla. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. </p>
             <div className="design-system-container hide-for-small-only mrg-L">
-            <p className="std-txt std-txt-S color-slate mrg-M">CONTAINER</p>
+            <p className="std-txt std-txt-S color-slate mrg-L">CONTAINER</p>
                 <div className="design-system-container-inner algn-rght btn-set-desktop-example">
                     <a href="javascript:void();" className="btn btn-secondary btn-L mrg-zero">Cancel</a>
                     <a href="javascript:void();" className="btn btn-primary btn-L mrg-zero">Save</a>
                 </div>
             </div>
-            <p className="mrg-L">Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec ullamcorper nulla non metus auctor fringilla. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. </p>
+            <p className="mrg-L txt-max-width">Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec ullamcorper nulla non metus auctor fringilla. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. </p>
 
             <div className="design-system-container design-system-container-small mrg-L">
-            <p className="std-txt std-txt-S color-slate mrg-M">CONTAINER</p>
+            <p className="std-txt std-txt-S color-slate mrg-L">CONTAINER</p>
                 <div className="design-system-container-inner algn-rght">
                     <a href="javascript:void();" className="btn btn-primary btn-L btn-full mrg-M">Save</a>
                     <a href="javascript:void();" className="btn btn-secondary btn-L btn-full mrg-M">Cancel</a>
@@ -210,10 +210,10 @@ class Buttons extends Component {
             </div>
         </div>
     </div>
-    <div className="row created-by">
+    <div className="row">
         <div className="small-12 columns">
             <hr />
-            <p>Created by: <strong>Tony Stark</strong> and <strong>Bruce Banner</strong>
+            <p className="S">Created by: <strong>Tony Stark</strong> and <strong>Bruce Banner</strong>
                 <br /> Latest update: 04/05/2017</p>
         </div>
     </div>

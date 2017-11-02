@@ -16,33 +16,29 @@
   &.msg-neutral{
     border-color: $color-neutral-border;
     color: $color-neutral-type;
-    padding-left: 40px;
-    background: $color-neutral-fill url($path-images + '../images/global/icons/alert/information.svg') 0 0 no-repeat;
-    background-size: 32px auto;
+    background-color: $color-neutral-fill;
   }
 
   &.msg-success{
     border-color: $color-success-border;
-    background: $color-success-fill url($path-images + '../images/global/icons/alert/success.svg') 0 0 no-repeat;
-    background-size: 32px auto;
-    padding-left: 40px;
+    background-color: $color-success-fill;
     color: $color-success-type;
   }
 
   &.msg-warning{
     border-color: $color-warning-border;
-    background: $color-warning-fill url($path-images + '../images/global/icons/alert/warning.svg') 0 0 no-repeat;
-    background-size: 32px auto;
-    padding-left: 40px;
+    background-color: $color-warning-fill;
     color: $color-warning-type;
   }
 
   &.msg-error{
     border-color: $color-error-border;
-    background: $color-error-fill url($path-images + '../images/global/icons/alert/error.svg') 0 0 no-repeat;
-    background-size: 32px auto;
-    padding-left: 40px;
+    background-color: $color-error-fill;
     color: $color-error-type;
+  }
+
+  &.msg-inline{
+    display:inline-block;
   }
 
   .msg-close{

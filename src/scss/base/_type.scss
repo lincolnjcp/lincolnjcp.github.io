@@ -7,6 +7,16 @@ a {
     text-decoration: underline;
 }
 
+strong {
+    font-weight: $font-weight-bold;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid $color-concrete;
+    margin: 20px 0;
+}
+
 /***************************************************
 /* Typography
 /* Price, standard type styles
@@ -97,6 +107,12 @@ p {
   color: $color-slate;
   font-weight: $font-weight-regular;
   font-family: $font-body;
+
+  &.std-txt-XL{
+    font-size: 20px;
+    letter-spacing: -0.5px;
+    line-height: 30px;
+  }
 
   &.std-txt-L{
     font-size: 18px;
@@ -236,4 +252,31 @@ p {
 
 .algn-rght{
   text-align: right;
+}
+
+@include breakpoint(small only) {
+  .algn-lft-S{
+    text-align: left;
+  }
+  .algn-mid-S{
+    text-align: center;
+  }
+  .algn-rght-S{
+    text-align: right;
+  }
+}
+
+
+// Maximum readable line length
+.txt-max-width {
+  max-width: 600px;
+}
+
+// All Caps
+.txt-caps {
+  text-transform: uppercase;
+}
+
+.txt-bold {
+  font-weight: bold;
 }

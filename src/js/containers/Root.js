@@ -12,13 +12,15 @@ import 'what-input';
 
 const Home = () => (
     <div className="design-system-inner-content">
-    <div className="row">
-        <div className="small-12 columns">
-            <h1>Home</h1>
-            <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eu mattis orci. Nunc et ullamcorper quam, id dignissim lacus. </h2>
+        <div className="design-system-content">
+            <div className="row">
+                <div className="small-12 columns">
+                    <h1 className="title title-XL mrg-L">Home</h1>
+                    <h2 className="std-txt std-txt-XL mrg-L txt-max-width">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eu mattis orci. Nunc et ullamcorper quam, id dignissim lacus. </h2>
+                </div>
+            </div>
         </div>
     </div>
-</div>
 )
 
 const Nav = () =>

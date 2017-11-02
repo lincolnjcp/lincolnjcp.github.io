@@ -187,7 +187,7 @@ componentDidMount() {
 
     return (
         <div>
-            <div className="code-generator mrg-L" data-html-pattern={this.props.htmlPattern}>
+            <div className="code-generator mrg-XL" data-html-pattern={this.props.htmlPattern}>
                 <div className="code-generator-right">
                     <div className="code-generator-controls">
                         <div className="code-generator-toggle-editor">

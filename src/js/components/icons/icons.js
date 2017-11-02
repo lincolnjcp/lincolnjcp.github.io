@@ -192,14 +192,14 @@ componentDidMount() {
       <div>
     <div className="row">
         <div className="small-12 columns">
-            <h1>Icons</h1>
-            <h2>Icons are simple and informative. Each icon builds on the visual language of the design system, and represents the simplest version of the idea.</h2>
+            <h1 className="title title-XL mrg-L">Icons</h1>
+            <h2 className="std-txt std-txt-XL mrg-L txt-max-width">Icons are simple and informative. Each icon builds on the visual language of the design system, and represents the simplest version of the idea.</h2>
             <hr />
         </div>
     </div>
     <div className="row" id="when-to-use">
         <div className="small-12 columns">
-            <h3>When to Use</h3>
+            <h3 className="title title-L mrg-L">When to Use</h3>
             <p>Icons are powerful visual helpers, and should be used with care. Overuse quickly results in UIs that are visually overwhelming or distracting.</p>
             <p>Icons are commonly used:</p>
             <ul>
@@ -214,7 +214,7 @@ componentDidMount() {
     </div>
     <div className="row" id="alert">
         <div className="small-12 columns">
-            <h3>Alert</h3>
+            <h3 className="title title-L mrg-L">Alert</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             <div className="row  small-up-4 medium-up-3 large-up-4 design-system-icon-set">
                 {this.iconCol("error", "error message", errorImage)} {this.iconCol("error-2", "unavailable", error2Image)} {this.iconCol("help", "help/customer service", helpImage)} {this.iconCol("information", "tooltip & notice message", informationImage)} {this.iconCol("success", "success message", successImage)} {this.iconCol("success-check", "success check", successcheckImage)} {this.iconCol("warning", "warning message", warningImage)}
@@ -224,7 +224,7 @@ componentDidMount() {
     </div>
     <div className="row" id="payment">
         <div className="small-12 columns">
-            <h3>Payment</h3>
+            <h3 className="title title-L mrg-L">Payment</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             <div className="row  small-up-4 medium-up-3 large-up-4 design-system-icon-set">
                 {this.iconCol("card-jcp", "JCP credit card accepted", cardjcpImage)} {this.iconCol("card-jcp-gold", "JCP mastercard gold", cardjcpgoldImage)} {this.iconCol("card-jcp-red", "JCP mastercard", cardjcpredImage)} {this.iconCol("card-jcp-platinum", "JCP mastercard platinum", cardjcpplatinumImage)} {this.iconCol("card-mastercard", "Mastercard", cardmastercardImage)} {this.iconCol("card-paypal", "PayPal", cardpaypalImage)} {this.iconCol("card-visa", "Visa", cardvisaImage)} {this.iconCol("card-amex", "American Express", cardamexImage)} {this.iconCol("card-discover", "Discover", carddiscoverImage)} {this.iconCol("card-gift", "Gift Card Payment", cardgiftImage)} {this.iconCol("card-jcvv", "card verification code", cardjcvvImage)}
@@ -235,7 +235,7 @@ componentDidMount() {
     <div className="design-system-toggle-section">
         <div className="row" id="action">
             <div className="small-12 medium-6 large-8 columns">
-                <h3>Action</h3>
+                <h3 className="title title-L mrg-L">Action</h3>
             </div>
             <div className="small-12 medium-6 large-4 columns">
                 <ColorPicker />
@@ -254,7 +254,7 @@ componentDidMount() {
     <div className="design-system-toggle-section">
         <div className="row" id="navigation">
             <div className="small-12 medium-6 large-8 columns">
-                <h3>Navigation</h3>
+                <h3 className="title title-L mrg-L">Navigation</h3>
             </div>
             <div className="small-12 medium-6 large-4 columns">
                 <ColorPicker />
@@ -273,7 +273,7 @@ componentDidMount() {
     <div className="design-system-toggle-section">
         <div className="row" id="utility">
             <div className="small-12 medium-6 large-8 columns">
-                <h3>Utility</h3>
+                <h3 className="title title-L mrg-L">Utility</h3>
             </div>
             <div className="small-12 medium-6 large-4 columns">
                 <ColorPicker />
@@ -292,7 +292,7 @@ componentDidMount() {
     <div className="design-system-toggle-section">
         <div className="row" id="social">
             <div className="small-12 medium-6 large-8 columns">
-                <h3>Social</h3>
+                <h3 className="title title-L mrg-L">Social</h3>
             </div>
             <div className="small-12 medium-6 large-4 columns">
                 <ColorPicker />
@@ -304,13 +304,13 @@ componentDidMount() {
                 <div className="row  small-up-4 medium-up-3 large-up-4 design-system-icon-set">
                     {this.iconCol("blog-fill", "Link to JCP blog", blogfillImage)} {this.iconCol("blog-line", "Link to JCP blog", bloglineImage)} {this.iconCol("facebook-fill", "Share to Facebook", facebookfillImage)} {this.iconCol("facebook-line", "Share to Facebook", facebooklineImage)} {this.iconCol("google-plus-fill", "Share to Google+", googleplusfillImage)} {this.iconCol("google-plus-line", "Share to Google+", googlepluslineImage)} {this.iconCol("instagram-fill", "Share to Instagram", instagramfillImage)} {this.iconCol("instagram-line", "Share to Instagram", instagramlineImage)} {this.iconCol("pinterest-fill", "Pin to Pintrest board", pinterestfillImage)} {this.iconCol("pinterest-line", "Pin to Pintrest board", pinterestlineImage)} {this.iconCol("twitter-fill", "Share to Twitter", twitterfillImage)} {this.iconCol("twitter-line", "Share to Twitter", twitterlineImage)} {this.iconCol("youtube-fill", "Link to JCP YouTube channel", youtubefillImage)} {this.iconCol("youtube-line", "Link to JCP YouTube channel", youtubelineImage)}
                 </div>
-                <hr />
             </div>
         </div>
     </div>
-    <div className="row created-by">
+    <div className="row">
         <div className="small-12 columns">
-            <p>Created by: <strong>Tony Stark</strong> and <strong>Bruce Banner</strong>
+            <hr />
+            <p className="S">Created by: <strong>Tony Stark</strong> and <strong>Bruce Banner</strong>
                 <br /> Latest update: 04/05/2017</p>
         </div>
     </div>

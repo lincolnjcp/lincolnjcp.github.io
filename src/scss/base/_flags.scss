@@ -3,32 +3,33 @@
 /* Used for urgency, labeling, etc.
 *********************************/
 
-.flag{
-  // height: 24px;
-  text-align: center;
-  line-height: 14px;
-  padding: 4px 16px;
-  display: inline-block;
-  // background-color: #fff;
-  // font-size: 12px;
-  font-family: $font-headline;
-  // background-color: rgba(0,0,0,0.7);
-  // border: 1px solid $color-concrete;
-  border-radius: 20px;
-  // opacity: rgba(0,0,0,0.7);
-  text-transform: uppercase;
-  line-height: 12px;
-  // @include elevation;
+.flag {
+    text-align: center;
+    line-height: 14px;
+    padding: 4px 16px;
+    display: inline-block;
+    font-family: $font-headline;
+    border-radius: 20px;
+    text-transform: uppercase;
+    line-height: 12px; // @include elevation;
+    &.flag-urgency {
+        background-color: rgba(204, 0, 0, 0.85);
+        color: $color-white;
+    }
 
-  &.flag-urgency{
-    background-color: $color-penneyred;
-  }
+    &.flag-new {
+        background-color: rgba(17, 17, 17, 0.85);
+        color: $color-white;
+    }
 
-  &.flag-new{
-    background-color: $color-slate;
-  }
-
-  &.flag-deal{
-    background-color: $color-success-type;
-  }
+    &.flag-deal {
+        background-color: rgba(42, 121, 82, 0.85);
+        color: $color-white;
+    }
+    &.flag-info {
+        background-color: rgba(255, 255, 255, 0.85);
+        border: 1px solid $color-concrete;
+        padding: 3px 15px;
+        color: $color-nightsky;
+    }
 }
