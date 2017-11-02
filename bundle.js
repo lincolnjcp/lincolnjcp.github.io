@@ -29055,7 +29055,7 @@ var Nav = function Nav() {
                     null,
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                         __WEBPACK_IMPORTED_MODULE_2_react_router_dom__["a" /* NavLink */],
-                        { to: '/', activeClassName: 'active' },
+                        { to: '/', activeClassName: 'inactive' },
                         'Branding'
                     )
                 ),
@@ -29064,7 +29064,7 @@ var Nav = function Nav() {
                     null,
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                         __WEBPACK_IMPORTED_MODULE_2_react_router_dom__["a" /* NavLink */],
-                        { to: '/', activeClassName: 'active' },
+                        { to: '/', activeClassName: 'inactive' },
                         'Imagery'
                     )
                 ),
@@ -29073,7 +29073,7 @@ var Nav = function Nav() {
                     null,
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                         __WEBPACK_IMPORTED_MODULE_2_react_router_dom__["a" /* NavLink */],
-                        { to: '/', activeClassName: 'active' },
+                        { to: '/', activeClassName: 'inactive' },
                         'Motion'
                     )
                 ),
@@ -29082,7 +29082,7 @@ var Nav = function Nav() {
                     null,
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                         __WEBPACK_IMPORTED_MODULE_2_react_router_dom__["a" /* NavLink */],
-                        { to: '/', activeClassName: 'active' },
+                        { to: '/', activeClassName: 'inactive' },
                         'Patterns'
                     )
                 )
@@ -29113,7 +29113,7 @@ var Nav = function Nav() {
                     null,
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                         __WEBPACK_IMPORTED_MODULE_2_react_router_dom__["a" /* NavLink */],
-                        { to: '/', activeClassName: 'active' },
+                        { to: '/', activeClassName: 'inactive' },
                         'Apply Coupons'
                     )
                 ),
@@ -29122,7 +29122,7 @@ var Nav = function Nav() {
                     null,
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                         __WEBPACK_IMPORTED_MODULE_2_react_router_dom__["a" /* NavLink */],
-                        { to: '/', activeClassName: 'active' },
+                        { to: '/', activeClassName: 'inactive' },
                         'Back to Top'
                     )
                 ),
@@ -29140,7 +29140,7 @@ var Nav = function Nav() {
                     null,
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                         __WEBPACK_IMPORTED_MODULE_2_react_router_dom__["a" /* NavLink */],
-                        { to: '/', activeClassName: 'active' },
+                        { to: '/', activeClassName: 'inactive' },
                         'Breadcrumbs'
                     )
                 ),
@@ -29149,7 +29149,7 @@ var Nav = function Nav() {
                     null,
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                         __WEBPACK_IMPORTED_MODULE_2_react_router_dom__["a" /* NavLink */],
-                        { to: '/', activeClassName: 'active' },
+                        { to: '/', activeClassName: 'inactive' },
                         'Carousels'
                     )
                 ),
@@ -29158,7 +29158,7 @@ var Nav = function Nav() {
                     null,
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                         __WEBPACK_IMPORTED_MODULE_2_react_router_dom__["a" /* NavLink */],
-                        { to: '/', activeClassName: 'active' },
+                        { to: '/', activeClassName: 'inactive' },
                         'Color & Image Swatches'
                     )
                 ),
@@ -29176,7 +29176,7 @@ var Nav = function Nav() {
                     null,
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                         __WEBPACK_IMPORTED_MODULE_2_react_router_dom__["a" /* NavLink */],
-                        { to: '/', activeClassName: 'active' },
+                        { to: '/', activeClassName: 'inactive' },
                         'Countdown Timers'
                     )
                 ),
@@ -29185,7 +29185,7 @@ var Nav = function Nav() {
                     null,
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                         __WEBPACK_IMPORTED_MODULE_2_react_router_dom__["a" /* NavLink */],
-                        { to: '/', activeClassName: 'active' },
+                        { to: '/', activeClassName: 'inactive' },
                         'Discount & Savings'
                     )
                 ),
@@ -29194,7 +29194,7 @@ var Nav = function Nav() {
                     null,
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                         __WEBPACK_IMPORTED_MODULE_2_react_router_dom__["a" /* NavLink */],
-                        { to: '/', activeClassName: 'active' },
+                        { to: '/', activeClassName: 'inactive' },
                         'Expand/Collapse'
                     )
                 ),
@@ -29212,7 +29212,7 @@ var Nav = function Nav() {
                     null,
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                         __WEBPACK_IMPORTED_MODULE_2_react_router_dom__["a" /* NavLink */],
-                        { to: '/', activeClassName: 'active' },
+                        { to: '/', activeClassName: 'inactive' },
                         'Pagination'
                     )
                 ),
@@ -29221,7 +29221,7 @@ var Nav = function Nav() {
                     null,
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                         __WEBPACK_IMPORTED_MODULE_2_react_router_dom__["a" /* NavLink */],
-                        { to: '/', activeClassName: 'active' },
+                        { to: '/', activeClassName: 'inactive' },
                         'Pricing'
                     )
                 ),
@@ -29230,7 +29230,7 @@ var Nav = function Nav() {
                     null,
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                         __WEBPACK_IMPORTED_MODULE_2_react_router_dom__["a" /* NavLink */],
-                        { to: '/', activeClassName: 'active' },
+                        { to: '/', activeClassName: 'inactive' },
                         'Progress Bar'
                     )
                 ),
@@ -29239,7 +29239,7 @@ var Nav = function Nav() {
                     null,
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                         __WEBPACK_IMPORTED_MODULE_2_react_router_dom__["a" /* NavLink */],
-                        { to: '/', activeClassName: 'active' },
+                        { to: '/', activeClassName: 'inactive' },
                         'Selectors'
                     )
                 ),
@@ -29248,7 +29248,7 @@ var Nav = function Nav() {
                     null,
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                         __WEBPACK_IMPORTED_MODULE_2_react_router_dom__["a" /* NavLink */],
-                        { to: '/', activeClassName: 'active' },
+                        { to: '/', activeClassName: 'inactive' },
                         'Star Ratings'
                     )
                 ),
@@ -29266,7 +29266,7 @@ var Nav = function Nav() {
                     null,
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                         __WEBPACK_IMPORTED_MODULE_2_react_router_dom__["a" /* NavLink */],
-                        { to: '/', activeClassName: 'active' },
+                        { to: '/', activeClassName: 'inactive' },
                         'Tabs'
                     )
                 ),
@@ -29275,7 +29275,7 @@ var Nav = function Nav() {
                     null,
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                         __WEBPACK_IMPORTED_MODULE_2_react_router_dom__["a" /* NavLink */],
-                        { to: '/', activeClassName: 'active' },
+                        { to: '/', activeClassName: 'inactive' },
                         'Tooltips'
                     )
                 ),
@@ -29284,7 +29284,7 @@ var Nav = function Nav() {
                     null,
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                         __WEBPACK_IMPORTED_MODULE_2_react_router_dom__["a" /* NavLink */],
-                        { to: '/', activeClassName: 'active' },
+                        { to: '/', activeClassName: 'inactive' },
                         'Video Player'
                     )
                 ),
@@ -29293,7 +29293,7 @@ var Nav = function Nav() {
                     null,
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                         __WEBPACK_IMPORTED_MODULE_2_react_router_dom__["a" /* NavLink */],
-                        { to: '/', activeClassName: 'active' },
+                        { to: '/', activeClassName: 'inactive' },
                         'Visual Navigation'
                     )
                 ),
@@ -29302,7 +29302,7 @@ var Nav = function Nav() {
                     null,
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                         __WEBPACK_IMPORTED_MODULE_2_react_router_dom__["a" /* NavLink */],
-                        { to: '/', activeClassName: 'active' },
+                        { to: '/', activeClassName: 'inactive' },
                         'Heroes'
                     )
                 )
@@ -29324,7 +29324,7 @@ var Nav = function Nav() {
                     null,
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                         __WEBPACK_IMPORTED_MODULE_2_react_router_dom__["a" /* NavLink */],
-                        { to: '/', activeClassName: 'active' },
+                        { to: '/', activeClassName: 'inactive' },
                         'Coupon List'
                     )
                 ),
@@ -29333,7 +29333,7 @@ var Nav = function Nav() {
                     null,
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                         __WEBPACK_IMPORTED_MODULE_2_react_router_dom__["a" /* NavLink */],
-                        { to: '/', activeClassName: 'active' },
+                        { to: '/', activeClassName: 'inactive' },
                         'Coupons'
                     )
                 ),
@@ -29342,7 +29342,7 @@ var Nav = function Nav() {
                     null,
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                         __WEBPACK_IMPORTED_MODULE_2_react_router_dom__["a" /* NavLink */],
-                        { to: '/', activeClassName: 'active' },
+                        { to: '/', activeClassName: 'inactive' },
                         'Find a Store'
                     )
                 ),
@@ -29351,7 +29351,7 @@ var Nav = function Nav() {
                     null,
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                         __WEBPACK_IMPORTED_MODULE_2_react_router_dom__["a" /* NavLink */],
-                        { to: '/', activeClassName: 'active' },
+                        { to: '/', activeClassName: 'inactive' },
                         'Footer'
                     )
                 ),
@@ -29360,7 +29360,7 @@ var Nav = function Nav() {
                     null,
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                         __WEBPACK_IMPORTED_MODULE_2_react_router_dom__["a" /* NavLink */],
-                        { to: '/', activeClassName: 'active' },
+                        { to: '/', activeClassName: 'inactive' },
                         'Header'
                     )
                 ),
@@ -29369,7 +29369,7 @@ var Nav = function Nav() {
                     null,
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                         __WEBPACK_IMPORTED_MODULE_2_react_router_dom__["a" /* NavLink */],
-                        { to: '/', activeClassName: 'active' },
+                        { to: '/', activeClassName: 'inactive' },
                         'Lists'
                     )
                 ),
@@ -29378,7 +29378,7 @@ var Nav = function Nav() {
                     null,
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                         __WEBPACK_IMPORTED_MODULE_2_react_router_dom__["a" /* NavLink */],
-                        { to: '/', activeClassName: 'active' },
+                        { to: '/', activeClassName: 'inactive' },
                         'Mini PDP/Quick Add '
                     )
                 ),
@@ -29387,7 +29387,7 @@ var Nav = function Nav() {
                     null,
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                         __WEBPACK_IMPORTED_MODULE_2_react_router_dom__["a" /* NavLink */],
-                        { to: '/', activeClassName: 'active' },
+                        { to: '/', activeClassName: 'inactive' },
                         'Product Cards (Gallery/Rec Row/Cart)'
                     )
                 ),
@@ -29396,7 +29396,7 @@ var Nav = function Nav() {
                     null,
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                         __WEBPACK_IMPORTED_MODULE_2_react_router_dom__["a" /* NavLink */],
-                        { to: '/', activeClassName: 'active' },
+                        { to: '/', activeClassName: 'inactive' },
                         'Promo/Marketing Cards'
                     )
                 ),
@@ -29405,7 +29405,7 @@ var Nav = function Nav() {
                     null,
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                         __WEBPACK_IMPORTED_MODULE_2_react_router_dom__["a" /* NavLink */],
-                        { to: '/', activeClassName: 'active' },
+                        { to: '/', activeClassName: 'inactive' },
                         'Recommendation Zones'
                     )
                 ),
@@ -29414,7 +29414,7 @@ var Nav = function Nav() {
                     null,
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                         __WEBPACK_IMPORTED_MODULE_2_react_router_dom__["a" /* NavLink */],
-                        { to: '/', activeClassName: 'active' },
+                        { to: '/', activeClassName: 'inactive' },
                         'Filter & Sorting'
                     )
                 ),
@@ -29423,7 +29423,7 @@ var Nav = function Nav() {
                     null,
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                         __WEBPACK_IMPORTED_MODULE_2_react_router_dom__["a" /* NavLink */],
-                        { to: '/', activeClassName: 'active' },
+                        { to: '/', activeClassName: 'inactive' },
                         'Like/Dislike Messages'
                     )
                 ),
@@ -29432,7 +29432,7 @@ var Nav = function Nav() {
                     null,
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                         __WEBPACK_IMPORTED_MODULE_2_react_router_dom__["a" /* NavLink */],
-                        { to: '/', activeClassName: 'active' },
+                        { to: '/', activeClassName: 'inactive' },
                         'Modals'
                     )
                 ),
@@ -29441,7 +29441,7 @@ var Nav = function Nav() {
                     null,
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                         __WEBPACK_IMPORTED_MODULE_2_react_router_dom__["a" /* NavLink */],
-                        { to: '/', activeClassName: 'active' },
+                        { to: '/', activeClassName: 'inactive' },
                         'Slide Out Panels'
                     )
                 ),
@@ -29450,7 +29450,7 @@ var Nav = function Nav() {
                     null,
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                         __WEBPACK_IMPORTED_MODULE_2_react_router_dom__["a" /* NavLink */],
-                        { to: '/', activeClassName: 'active' },
+                        { to: '/', activeClassName: 'inactive' },
                         'Sticky Elements'
                     )
                 )
@@ -29472,7 +29472,7 @@ var Nav = function Nav() {
                     null,
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                         __WEBPACK_IMPORTED_MODULE_2_react_router_dom__["a" /* NavLink */],
-                        { to: '/', activeClassName: 'active' },
+                        { to: '/', activeClassName: 'inactive' },
                         'Cart'
                     )
                 ),
@@ -29481,7 +29481,7 @@ var Nav = function Nav() {
                     null,
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                         __WEBPACK_IMPORTED_MODULE_2_react_router_dom__["a" /* NavLink */],
-                        { to: '/', activeClassName: 'active' },
+                        { to: '/', activeClassName: 'inactive' },
                         'Category Pages'
                     )
                 ),
@@ -29490,7 +29490,7 @@ var Nav = function Nav() {
                     null,
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                         __WEBPACK_IMPORTED_MODULE_2_react_router_dom__["a" /* NavLink */],
-                        { to: '/', activeClassName: 'active' },
+                        { to: '/', activeClassName: 'inactive' },
                         'Checkout'
                     )
                 ),
@@ -29499,7 +29499,7 @@ var Nav = function Nav() {
                     null,
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                         __WEBPACK_IMPORTED_MODULE_2_react_router_dom__["a" /* NavLink */],
-                        { to: '/', activeClassName: 'active' },
+                        { to: '/', activeClassName: 'inactive' },
                         'Coupons'
                     )
                 ),
@@ -29508,7 +29508,7 @@ var Nav = function Nav() {
                     null,
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                         __WEBPACK_IMPORTED_MODULE_2_react_router_dom__["a" /* NavLink */],
-                        { to: '/', activeClassName: 'active' },
+                        { to: '/', activeClassName: 'inactive' },
                         'Gallery Pages'
                     )
                 ),
@@ -29517,7 +29517,7 @@ var Nav = function Nav() {
                     null,
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                         __WEBPACK_IMPORTED_MODULE_2_react_router_dom__["a" /* NavLink */],
-                        { to: '/', activeClassName: 'active' },
+                        { to: '/', activeClassName: 'inactive' },
                         'Homepage'
                     )
                 ),
@@ -29526,7 +29526,7 @@ var Nav = function Nav() {
                     null,
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                         __WEBPACK_IMPORTED_MODULE_2_react_router_dom__["a" /* NavLink */],
-                        { to: '/', activeClassName: 'active' },
+                        { to: '/', activeClassName: 'inactive' },
                         'Lists'
                     )
                 ),
@@ -29535,7 +29535,7 @@ var Nav = function Nav() {
                     null,
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                         __WEBPACK_IMPORTED_MODULE_2_react_router_dom__["a" /* NavLink */],
-                        { to: '/', activeClassName: 'active' },
+                        { to: '/', activeClassName: 'inactive' },
                         'Marketing Pages'
                     )
                 ),
@@ -29544,7 +29544,7 @@ var Nav = function Nav() {
                     null,
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                         __WEBPACK_IMPORTED_MODULE_2_react_router_dom__["a" /* NavLink */],
-                        { to: '/', activeClassName: 'active' },
+                        { to: '/', activeClassName: 'inactive' },
                         'My Account'
                     )
                 ),
@@ -29553,7 +29553,7 @@ var Nav = function Nav() {
                     null,
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                         __WEBPACK_IMPORTED_MODULE_2_react_router_dom__["a" /* NavLink */],
-                        { to: '/', activeClassName: 'active' },
+                        { to: '/', activeClassName: 'inactive' },
                         'PDPs'
                     )
                 ),
@@ -29562,7 +29562,7 @@ var Nav = function Nav() {
                     null,
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                         __WEBPACK_IMPORTED_MODULE_2_react_router_dom__["a" /* NavLink */],
-                        { to: '/', activeClassName: 'active' },
+                        { to: '/', activeClassName: 'inactive' },
                         'Rewards'
                     )
                 ),
@@ -29571,7 +29571,7 @@ var Nav = function Nav() {
                     null,
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                         __WEBPACK_IMPORTED_MODULE_2_react_router_dom__["a" /* NavLink */],
-                        { to: '/', activeClassName: 'active' },
+                        { to: '/', activeClassName: 'inactive' },
                         'Search Pages'
                     )
                 ),
@@ -29580,7 +29580,7 @@ var Nav = function Nav() {
                     null,
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                         __WEBPACK_IMPORTED_MODULE_2_react_router_dom__["a" /* NavLink */],
-                        { to: '/', activeClassName: 'active' },
+                        { to: '/', activeClassName: 'inactive' },
                         'Sign In'
                     )
                 )
@@ -29607,7 +29607,7 @@ var Nav = function Nav() {
                     null,
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                         __WEBPACK_IMPORTED_MODULE_2_react_router_dom__["a" /* NavLink */],
-                        { to: '/', activeClassName: 'active' },
+                        { to: '/', activeClassName: 'inactive' },
                         'TBD'
                     )
                 )
@@ -29629,7 +29629,7 @@ var Nav = function Nav() {
                     null,
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                         __WEBPACK_IMPORTED_MODULE_2_react_router_dom__["a" /* NavLink */],
-                        { to: '/', activeClassName: 'active' },
+                        { to: '/', activeClassName: 'inactive' },
                         'TBD'
                     )
                 )
@@ -29651,7 +29651,7 @@ var Nav = function Nav() {
                     null,
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                         __WEBPACK_IMPORTED_MODULE_2_react_router_dom__["a" /* NavLink */],
-                        { to: '/', activeClassName: 'active' },
+                        { to: '/', activeClassName: 'inactive' },
                         'TBD'
                     )
                 )
@@ -29673,7 +29673,7 @@ var Nav = function Nav() {
                     null,
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                         __WEBPACK_IMPORTED_MODULE_2_react_router_dom__["a" /* NavLink */],
-                        { to: '/', activeClassName: 'active' },
+                        { to: '/', activeClassName: 'inactive' },
                         'TBD'
                     )
                 )
@@ -35832,7 +35832,7 @@ exports = module.exports = __webpack_require__(158)(undefined);
 
 
 // module
-exports.push([module.i, "/*------------------------------------*  Design System\r\n  Target Browsers: IE9+, Chrome, FF, Safari, iOS9+, Android 4.4+\r\n\\*------------------------------------*/\n/**\n * Foundation for Sites by ZURB\n * Version 6.4.4-rc1\n * foundation.zurb.com\n * Licensed under MIT Open Source\n */\n/* ---\r\nHelpers\r\n--- */\n/******************\r\n/* Vars\r\n/* File Paths\r\n******************/\n/******************\r\n/* Vars\r\n/* Colors\r\n******************/\n/******************\r\n/* Vars\r\n/* Colors & fonts\r\n******************/\n/******************\r\n/* Vars\r\n/* Fonts\r\n******************/\n/*------------------------------------*  MIXINS\r\n\\*------------------------------------*/\n/***************************************************\r\n/* Elevation\r\n/* Box shadows for buttons, dropdowns, etc\r\n/* Ability to remove elevation\r\n***************************************************/\n.elevation {\n  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.25);\n  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.25); }\n\n.elevation-neg-1 {\n  box-shadow: 0 2px 4px 0px rgba(0, 0, 0, 0.25);\n  -webkit-box-shadow: 0 2px 4px 0px rgba(0, 0, 0, 0.25); }\n\n.elevation-none {\n  box-shadow: none !important;\n  -webkit-shadow: none !important; }\n\n.elevation-1 {\n  box-shadow: 0 3px 8px 0px rgba(0, 0, 0, 0.25);\n  -webkit-box-shadow: 0 3px 8px 0px rgba(0, 0, 0, 0.25); }\n\n.elevation-2 {\n  box-shadow: 0 4px 12px 0px rgba(0, 0, 0, 0.5);\n  -webkit-box-shadow: 0 4px 12px 0px rgba(0, 0, 0, 0.5); }\n\n.is-off-canvas-open {\n  overflow: hidden; }\n\n.js-off-canvas-overlay {\n  position: absolute;\n  top: 0;\n  left: 0;\n  z-index: 11;\n  width: 100%;\n  height: 100%;\n  transition: opacity 0.5s ease, visibility 0.5s ease;\n  background: rgba(254, 254, 254, 0.25);\n  opacity: 0;\n  visibility: hidden;\n  overflow: hidden; }\n  .js-off-canvas-overlay.is-visible {\n    opacity: 1;\n    visibility: visible; }\n  .js-off-canvas-overlay.is-closable {\n    cursor: pointer; }\n  .js-off-canvas-overlay.is-overlay-absolute {\n    position: absolute; }\n  .js-off-canvas-overlay.is-overlay-fixed {\n    position: fixed; }\n\n.off-canvas-wrapper {\n  position: relative;\n  overflow: hidden; }\n\n.off-canvas {\n  position: fixed;\n  z-index: 12;\n  transition: transform 0.5s ease;\n  backface-visibility: hidden;\n  background: #e6e6e6; }\n  [data-whatinput='mouse'] .off-canvas {\n    outline: 0; }\n  .off-canvas.is-transition-push {\n    z-index: 12; }\n  .off-canvas.is-closed {\n    visibility: hidden; }\n  .off-canvas.is-transition-overlap {\n    z-index: 13; }\n    .off-canvas.is-transition-overlap.is-open {\n      box-shadow: 0 0 10px rgba(10, 10, 10, 0.7); }\n  .off-canvas.is-open {\n    transform: translate(0, 0); }\n\n.off-canvas-absolute {\n  position: absolute;\n  z-index: 12;\n  transition: transform 0.5s ease;\n  backface-visibility: hidden;\n  background: #e6e6e6; }\n  [data-whatinput='mouse'] .off-canvas-absolute {\n    outline: 0; }\n  .off-canvas-absolute.is-transition-push {\n    z-index: 12; }\n  .off-canvas-absolute.is-closed {\n    visibility: hidden; }\n  .off-canvas-absolute.is-transition-overlap {\n    z-index: 13; }\n    .off-canvas-absolute.is-transition-overlap.is-open {\n      box-shadow: 0 0 10px rgba(10, 10, 10, 0.7); }\n  .off-canvas-absolute.is-open {\n    transform: translate(0, 0); }\n\n.position-left {\n  top: 0;\n  left: 0;\n  height: 100%;\n  overflow-y: auto;\n  width: 250px;\n  transform: translateX(-250px); }\n  .off-canvas-content .off-canvas.position-left {\n    transform: translateX(-250px); }\n    .off-canvas-content .off-canvas.position-left.is-transition-overlap.is-open {\n      transform: translate(0, 0); }\n  .off-canvas-content.is-open-left.has-transition-push {\n    transform: translateX(250px); }\n  .position-left.is-transition-push {\n    box-shadow: inset -13px 0 20px -13px rgba(10, 10, 10, 0.25); }\n\n.position-right {\n  top: 0;\n  right: 0;\n  height: 100%;\n  overflow-y: auto;\n  width: 250px;\n  transform: translateX(250px); }\n  .off-canvas-content .off-canvas.position-right {\n    transform: translateX(250px); }\n    .off-canvas-content .off-canvas.position-right.is-transition-overlap.is-open {\n      transform: translate(0, 0); }\n  .off-canvas-content.is-open-right.has-transition-push {\n    transform: translateX(-250px); }\n  .position-right.is-transition-push {\n    box-shadow: inset 13px 0 20px -13px rgba(10, 10, 10, 0.25); }\n\n.position-top {\n  top: 0;\n  left: 0;\n  width: 100%;\n  overflow-x: auto;\n  height: 250px;\n  transform: translateY(-250px); }\n  .off-canvas-content .off-canvas.position-top {\n    transform: translateY(-250px); }\n    .off-canvas-content .off-canvas.position-top.is-transition-overlap.is-open {\n      transform: translate(0, 0); }\n  .off-canvas-content.is-open-top.has-transition-push {\n    transform: translateY(250px); }\n  .position-top.is-transition-push {\n    box-shadow: inset 0 -13px 20px -13px rgba(10, 10, 10, 0.25); }\n\n.position-bottom {\n  bottom: 0;\n  left: 0;\n  width: 100%;\n  overflow-x: auto;\n  height: 250px;\n  transform: translateY(250px); }\n  .off-canvas-content .off-canvas.position-bottom {\n    transform: translateY(250px); }\n    .off-canvas-content .off-canvas.position-bottom.is-transition-overlap.is-open {\n      transform: translate(0, 0); }\n  .off-canvas-content.is-open-bottom.has-transition-push {\n    transform: translateY(-250px); }\n  .position-bottom.is-transition-push {\n    box-shadow: inset 0 13px 20px -13px rgba(10, 10, 10, 0.25); }\n\n.off-canvas-content {\n  transform: none;\n  transition: transform 0.5s ease;\n  backface-visibility: hidden; }\n  .off-canvas-content.has-transition-push {\n    transform: translate(0, 0); }\n  .off-canvas-content .off-canvas.is-open {\n    transform: translate(0, 0); }\n\n@media print, screen and (min-width: 37.5em) {\n  .position-left.reveal-for-medium {\n    transform: none;\n    z-index: 12;\n    transition: none;\n    visibility: visible; }\n    .position-left.reveal-for-medium .close-button {\n      display: none; }\n    .off-canvas-content .position-left.reveal-for-medium {\n      transform: none; }\n    .off-canvas-content.has-reveal-left {\n      margin-left: 250px; }\n    .position-left.reveal-for-medium ~ .off-canvas-content {\n      margin-left: 250px; }\n  .position-right.reveal-for-medium {\n    transform: none;\n    z-index: 12;\n    transition: none;\n    visibility: visible; }\n    .position-right.reveal-for-medium .close-button {\n      display: none; }\n    .off-canvas-content .position-right.reveal-for-medium {\n      transform: none; }\n    .off-canvas-content.has-reveal-right {\n      margin-right: 250px; }\n    .position-right.reveal-for-medium ~ .off-canvas-content {\n      margin-right: 250px; }\n  .position-top.reveal-for-medium {\n    transform: none;\n    z-index: 12;\n    transition: none;\n    visibility: visible; }\n    .position-top.reveal-for-medium .close-button {\n      display: none; }\n    .off-canvas-content .position-top.reveal-for-medium {\n      transform: none; }\n    .off-canvas-content.has-reveal-top {\n      margin-top: 250px; }\n    .position-top.reveal-for-medium ~ .off-canvas-content {\n      margin-top: 250px; }\n  .position-bottom.reveal-for-medium {\n    transform: none;\n    z-index: 12;\n    transition: none;\n    visibility: visible; }\n    .position-bottom.reveal-for-medium .close-button {\n      display: none; }\n    .off-canvas-content .position-bottom.reveal-for-medium {\n      transform: none; }\n    .off-canvas-content.has-reveal-bottom {\n      margin-bottom: 250px; }\n    .position-bottom.reveal-for-medium ~ .off-canvas-content {\n      margin-bottom: 250px; } }\n\n@media print, screen and (min-width: 64em) {\n  .position-left.reveal-for-large {\n    transform: none;\n    z-index: 12;\n    transition: none;\n    visibility: visible; }\n    .position-left.reveal-for-large .close-button {\n      display: none; }\n    .off-canvas-content .position-left.reveal-for-large {\n      transform: none; }\n    .off-canvas-content.has-reveal-left {\n      margin-left: 250px; }\n    .position-left.reveal-for-large ~ .off-canvas-content {\n      margin-left: 250px; }\n  .position-right.reveal-for-large {\n    transform: none;\n    z-index: 12;\n    transition: none;\n    visibility: visible; }\n    .position-right.reveal-for-large .close-button {\n      display: none; }\n    .off-canvas-content .position-right.reveal-for-large {\n      transform: none; }\n    .off-canvas-content.has-reveal-right {\n      margin-right: 250px; }\n    .position-right.reveal-for-large ~ .off-canvas-content {\n      margin-right: 250px; }\n  .position-top.reveal-for-large {\n    transform: none;\n    z-index: 12;\n    transition: none;\n    visibility: visible; }\n    .position-top.reveal-for-large .close-button {\n      display: none; }\n    .off-canvas-content .position-top.reveal-for-large {\n      transform: none; }\n    .off-canvas-content.has-reveal-top {\n      margin-top: 250px; }\n    .position-top.reveal-for-large ~ .off-canvas-content {\n      margin-top: 250px; }\n  .position-bottom.reveal-for-large {\n    transform: none;\n    z-index: 12;\n    transition: none;\n    visibility: visible; }\n    .position-bottom.reveal-for-large .close-button {\n      display: none; }\n    .off-canvas-content .position-bottom.reveal-for-large {\n      transform: none; }\n    .off-canvas-content.has-reveal-bottom {\n      margin-bottom: 250px; }\n    .position-bottom.reveal-for-large ~ .off-canvas-content {\n      margin-bottom: 250px; } }\n\n@media print, screen and (min-width: 37.5em) {\n  .off-canvas.in-canvas-for-medium {\n    visibility: visible;\n    height: auto;\n    position: static;\n    background: inherit;\n    width: inherit;\n    overflow: inherit;\n    transition: inherit; }\n    .off-canvas.in-canvas-for-medium.position-left, .off-canvas.in-canvas-for-medium.position-right, .off-canvas.in-canvas-for-medium.position-top, .off-canvas.in-canvas-for-medium.position-bottom {\n      box-shadow: none;\n      transform: none; }\n    .off-canvas.in-canvas-for-medium .close-button {\n      display: none; } }\n\n@media print, screen and (min-width: 64em) {\n  .off-canvas.in-canvas-for-large {\n    visibility: visible;\n    height: auto;\n    position: static;\n    background: inherit;\n    width: inherit;\n    overflow: inherit;\n    transition: inherit; }\n    .off-canvas.in-canvas-for-large.position-left, .off-canvas.in-canvas-for-large.position-right, .off-canvas.in-canvas-for-large.position-top, .off-canvas.in-canvas-for-large.position-bottom {\n      box-shadow: none;\n      transform: none; }\n    .off-canvas.in-canvas-for-large .close-button {\n      display: none; } }\n\n.anno {\n  font-size: 12px;\n  line-height: 24px;\n  width: 100%;\n  color: #626E78;\n  letter-spacing: 1px;\n  margin: 56px 0 24px 0;\n  text-transform: uppercase;\n  border-bottom: 1px solid #D8D8D8; }\n\n.color {\n  width: 100%;\n  line-height: 56px;\n  text-align: center;\n  color: #fff; }\n\n.off-canvas-button {\n  display: inline-block;\n  padding: 18px; }\n\n.design-system .design-system-wrap {\n  margin-top: 64px; }\n\n.design-system .design-system-inner-nav {\n  display: none; }\n\n.design-system .design-system-page {\n  width: 100%;\n  position: absolute;\n  left: 0px;\n  top: 0px; }\n\n.design-system .off-canvas {\n  background: #1C2024; }\n  .design-system .off-canvas.position-left.is-transition-push {\n    box-shadow: none; }\n  .design-system .off-canvas .design-system-menu {\n    margin-top: 0; }\n\n.design-system .design-system-nav-mobile {\n  background-color: #cc0000;\n  position: fixed;\n  top: 0;\n  left: 0;\n  width: 100%;\n  -webkit-transform: translateX(0);\n  -moz-transform: translateX(0);\n  -ms-transform: translateX(0);\n  -o-transform: translateX(0);\n  transform: translateX(0);\n  -webkit-transition: transform 0.5s ease;\n  -moz-transition: transform 0.5s ease;\n  -ms-transition: transform 0.5s ease;\n  -o-transition: transform 0.5s ease;\n  transition: transform 0.5s ease;\n  z-index: 1000; }\n  .design-system .design-system-nav-mobile.off-canvas-open {\n    -webkit-transform: translateX(250px);\n    -moz-transform: translateX(250px);\n    -ms-transform: translateX(250px);\n    -o-transform: translateX(250px);\n    transform: translateX(250px); }\n  .design-system .design-system-nav-mobile button {\n    cursor: pointer;\n    padding: 18px; }\n  .design-system .design-system-nav-mobile .design-system-logo-mobile {\n    display: inline-block;\n    padding: 4px 0 2px; }\n  .design-system .design-system-nav-mobile .design-system-search-btn {\n    padding: 14px;\n    display: inline-block; }\n    .design-system .design-system-nav-mobile .design-system-search-btn.selected {\n      background-color: #A41600; }\n\n.design-system .design-system-nav-col {\n  display: none; }\n\n.design-system .design-system-search-desktop-btn {\n  background-color: #A41600;\n  position: absolute;\n  bottom: 0;\n  right: 0;\n  padding: 7px; }\n\n.design-system .design-system-menu-header {\n  background-color: #cc0000;\n  padding-top: 20px;\n  padding-bottom: 20px;\n  position: relative; }\n\n.design-system .design-system-search-field {\n  -webkit-transition: height 200ms;\n  -moz-transition: height 200ms;\n  -ms-transition: height 200ms;\n  -o-transition: height 200ms;\n  transition: height 200ms;\n  height: 0;\n  overflow: hidden;\n  background-color: #A41600; }\n  .design-system .design-system-search-field input[type=text] {\n    background-color: #A41600;\n    width: 100%;\n    color: #FFF;\n    border: none;\n    padding: 5px 15px 5px; }\n    .design-system .design-system-search-field input[type=text]::-webkit-input-placeholder {\n      color: #FFFFFF;\n      opacity: 1;\n      font-style: italic; }\n    .design-system .design-system-search-field input[type=text]:-moz-placeholder {\n      color: #FFFFFF;\n      opacity: 1;\n      font-style: italic; }\n    .design-system .design-system-search-field input[type=text]::-moz-placeholder {\n      color: #FFFFFF;\n      opacity: 1;\n      font-style: italic; }\n    .design-system .design-system-search-field input[type=text]:-ms-input-placeholder {\n      color: #FFFFFF;\n      opacity: 1;\n      font-style: italic; }\n    .design-system .design-system-search-field input[type=text]:focus {\n      outline: none;\n      border: none; }\n\n.design-system ul.design-system-menu {\n  margin-top: 20px;\n  margin-bottom: 20px; }\n  .design-system ul.design-system-menu a {\n    color: #FFFFFF;\n    text-transform: uppercase;\n    text-decoration: none;\n    display: block;\n    padding: 20px 20px;\n    position: relative;\n    font-size: 16px;\n    line-height: 20px;\n    font-weight: bold; }\n    .design-system ul.design-system-menu a:hover {\n      background-color: #333333; }\n    .design-system ul.design-system-menu a.icn-expand {\n      font-size: 20px;\n      line-height: 24px; }\n      .design-system ul.design-system-menu a.icn-expand:before {\n        content: \" \";\n        position: absolute;\n        top: 18px;\n        right: 18px;\n        width: 24px;\n        height: 24px;\n        background: url(\"/images/design-system/plus.svg\") no-repeat right center; }\n  .design-system ul.design-system-menu ul {\n    -webkit-transition: height 200ms;\n    -moz-transition: height 200ms;\n    -ms-transition: height 200ms;\n    -o-transition: height 200ms;\n    transition: height 200ms;\n    height: 0;\n    overflow: hidden; }\n    .design-system ul.design-system-menu ul a {\n      text-transform: none;\n      padding: 10px 20px 10px 60px;\n      font-size: 16px;\n      background: none; }\n      .design-system ul.design-system-menu ul a:hover {\n        color: #D8D8D8;\n        background: none; }\n      .design-system ul.design-system-menu ul a:before {\n        content: none; }\n  .design-system ul.design-system-menu hr {\n    margin: 10px 20px;\n    border: none;\n    border-top: 1px solid #626E78; }\n  .design-system ul.design-system-menu li.menu-open a.icn-expand:before {\n    background-image: url(\"/images/design-system/minus.svg\"); }\n\n.design-system .design-system-content {\n  padding-top: 25px;\n  padding-bottom: 25px; }\n\n@media print, screen and (min-width: 37.5em) {\n  .design-system .design-system-content {\n    padding-top: 50px;\n    padding-bottom: 50px; } }\n\n@media screen and (min-width: 64em) {\n  .design-system .design-system-content {\n    padding-top: 80px;\n    padding-bottom: 80px; } }\n\n@media screen and (min-width: 64em) {\n  .design-system {\n    /* Disable Off Canvas Menu for Tablet/Desktop */ }\n    .design-system .design-system-nav-mobile {\n      display: none; }\n    .design-system .design-system-wrap {\n      display: table;\n      width: 100%;\n      height: 100vh;\n      margin-top: 0; }\n    .design-system .design-system-nav-col,\n    .design-system .design-system-content-col {\n      display: table-cell;\n      vertical-align: top; }\n    .design-system .design-system-nav-col {\n      width: 250px;\n      background: #1C2024; }\n    .design-system .off-canvas-content.is-open-left.has-transition-push {\n      transform: translate(0, 0); } }\n\n@media screen and (min-width: 90em) {\n  .design-system .design-system-inner-wrap {\n    display: table;\n    width: 100%;\n    height: 100vh; }\n  .design-system .design-system-inner-nav,\n  .design-system .design-system-inner-content {\n    display: table-cell;\n    vertical-align: top; }\n  .design-system .design-system-inner-nav {\n    width: 250px; }\n    .design-system .design-system-inner-nav .design-system-inner-nav-fixed {\n      width: 250px;\n      position: fixed;\n      top: 60px;\n      padding: 20px; }\n      .design-system .design-system-inner-nav .design-system-inner-nav-fixed .design-system-inner-nav-indicator {\n        position: absolute;\n        top: 0;\n        left: 0;\n        width: 4px;\n        height: 24px;\n        background: #111111;\n        display: none; }\n        .design-system .design-system-inner-nav .design-system-inner-nav-fixed .design-system-inner-nav-indicator.active {\n          display: block;\n          -webkit-transition: top 0.5s ease;\n          -moz-transition: top 0.5s ease;\n          -ms-transition: top 0.5s ease;\n          -o-transition: top 0.5s ease;\n          transition: top 0.5s ease; }\n      .design-system .design-system-inner-nav .design-system-inner-nav-fixed a {\n        font-size: 16px;\n        line-height: 16px;\n        color: #111111;\n        display: inline-block;\n        margin-bottom: 25px;\n        text-decoration: none; }\n      .design-system .design-system-inner-nav .design-system-inner-nav-fixed .active a {\n        font-weight: bold; } }\n\n/*------------------------------------*  CONTENT - COLOR PALETTE\r\n\\*------------------------------------*/\n@media screen and (min-width: 37.5em) {\n  .design-system-inner-content {\n    padding-left: 50px;\n    padding-right: 50px; } }\n\n.design-system-inner-content ul {\n  color: #626e78;\n  margin: 30px 0;\n  max-width: 575px; }\n  .design-system-inner-content ul li {\n    list-style-type: disc;\n    margin: 15px 0 15px 34px;\n    padding-left: 15px;\n    line-height: 20px; }\n\n.design-system-css-class {\n  color: #cc0000;\n  background-color: #F1F1F1;\n  font-size: 14px;\n  line-height: 18px;\n  font-family: Monaco, \"Lucida Console\", monospace;\n  padding: 5px 10px;\n  border-radius: 4px;\n  display: inline-block; }\n\n.design-system-css-class-inline {\n  display: inline-block;\n  margin-left: 15px;\n  font-weight: 400; }\n\n.design-system-content-swatch-bar {\n  padding: 15px 20px;\n  color: #FFFFFF;\n  font-size: 14px;\n  line-height: 16px; }\n\n.design-system-content-swatch-bar.size-large {\n  padding: 30px 20px; }\n\n.design-system-placeholder {\n  background-color: #d8d8d8;\n  padding: 60px 10px;\n  color: #626e78;\n  text-align: center; }\n\n.design-system-headline-with-toggle {\n  position: relative; }\n  .design-system-headline-with-toggle h3 {\n    padding-right: 160px;\n    min-height: 24px; }\n  .design-system-headline-with-toggle .design-system-headline-toggle {\n    position: absolute;\n    top: 0;\n    right: 15px;\n    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.25);\n    border-radius: 4px; }\n    .design-system-headline-with-toggle .design-system-headline-toggle a {\n      display: inline-block;\n      padding: 5px 15px;\n      border: solid 1px #d8d8d8;\n      border-radius: 4px;\n      text-decoration: none;\n      color: #1C2024;\n      background-color: #FFFFFF; }\n      .design-system-headline-with-toggle .design-system-headline-toggle a.active {\n        color: #FFFFFF;\n        background-color: #000;\n        border: 1px solid #000; }\n      .design-system-headline-with-toggle .design-system-headline-toggle a.left {\n        border-top-right-radius: 0;\n        border-bottom-right-radius: 0; }\n      .design-system-headline-with-toggle .design-system-headline-toggle a.right {\n        border-top-left-radius: 0;\n        border-bottom-left-radius: 0; }\n\n/* Grid */\n.design-system-grid-preview .row {\n  background-color: #aaf2ff; }\n  .design-system-grid-preview .row .design-system-preview-inner {\n    background-color: #e180b5;\n    height: 130px; }\n  .design-system-grid-preview .row .columns.first {\n    position: relative; }\n  .design-system-grid-preview .row .columns {\n    position: relative; }\n    .design-system-grid-preview .row .columns:before {\n      content: \"\";\n      width: 1px;\n      height: 100%;\n      border-right: 1px solid #FFFFFF;\n      position: absolute;\n      top: 0;\n      left: 0; }\n\n.design-system-grid-preview-labels {\n  position: relative;\n  height: 30px; }\n  .design-system-grid-preview-labels .design-system-grid-preview-label-gutter, .design-system-grid-preview-labels .design-system-grid-preview-label-column {\n    position: absolute;\n    top: 10px;\n    left: 4.5%;\n    font-size: 13px; }\n  .design-system-grid-preview-labels .design-system-grid-preview-label-gutter {\n    color: #4b8c8e; }\n  .design-system-grid-preview-labels .design-system-grid-preview-label-column {\n    color: #da2d7f;\n    left: 60.5%; }\n\n/* Code Generator */\n.code-generator {\n  border: 1px solid #D8D8D8;\n  border-radius: 8px; }\n  .code-generator .html-pattern {\n    display: none; }\n  .code-generator .code-generator-code {\n    background-color: #f1f3f4; }\n  .code-generator .code-generator-edit {\n    margin-top: 25px; }\n  .code-generator .code-generator-preview {\n    border-top: 1px solid #D8D8D8;\n    border-bottom: 1px solid #D8D8D8;\n    padding: 15px; }\n  .code-generator .code-generator-code-preview {\n    padding: 15px;\n    background-color: #f1f3f4;\n    font-family: Monaco, \"Lucida Console\", monospace; }\n    .code-generator .code-generator-code-preview p {\n      color: #111111; }\n      .code-generator .code-generator-code-preview p.code-format-tab {\n        margin: 10px 0 10px 20px; }\n    .code-generator .code-generator-code-preview .code-format-attribute {\n      color: #008a44; }\n    .code-generator .code-generator-code-preview .code-format-tag {\n      color: #cc0000; }\n    .code-generator .code-generator-code-preview .code-format-tag-value {\n      color: #126c9c; }\n  .code-generator .design-system-headline-with-toggle {\n    height: 60px; }\n    .code-generator .design-system-headline-with-toggle .design-system-headline-toggle {\n      top: 15px; }\n    .code-generator .design-system-headline-with-toggle .code-generator-copy button {\n      position: absolute;\n      top: 15px;\n      left: 15px;\n      display: inline-block;\n      padding: 5px 15px;\n      border: solid 1px #d8d8d8;\n      border-radius: 4px;\n      text-decoration: none;\n      color: #1C2024;\n      background-color: #FFFFFF;\n      font-weight: 300;\n      box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.25); }\n  .code-generator .code-generator-controls {\n    padding: 15px; }\n\n@media screen and (min-width: 37.5em) {\n  .code-generator {\n    display: flex;\n    flex-direction: row-reverse; }\n    .code-generator .code-generator-right {\n      width: 30%;\n      flex: 0 0 300px;\n      border-left: solid 1px #d8d8d8; }\n    .code-generator .code-generator-left {\n      width: 70%;\n      background-color: #f1f3f4;\n      flex: 1; }\n    .code-generator .code-generator-preview,\n    .code-generator .code-generator-code-preview {\n      background: none; }\n    .code-generator .code-generator-preview {\n      border-top: none;\n      background-color: #FFFFFF;\n      border-top-left-radius: 8px; }\n    .code-generator .code-generator-toggle-editor {\n      display: none; } }\n\n/* Color Picker */\n.design-system-color-picker {\n  position: relative;\n  padding-left: 46px;\n  float: right;\n  width: 100%; }\n  .design-system-color-picker .color-picker-icon {\n    border: 2px solid #FFF;\n    display: inline-block;\n    width: 36px;\n    height: 36px;\n    border-radius: 18px;\n    margin: 4px;\n    position: absolute;\n    top: 0;\n    left: 0; }\n    .design-system-color-picker .color-picker-icon span {\n      width: 32px;\n      height: 32px;\n      border-radius: 16px;\n      display: inline-block;\n      border: 2px solid #FFFFFF; }\n    .design-system-color-picker .color-picker-icon.selected {\n      border: 2px solid #000; }\n\n@media screen and (min-width: 37.5em) {\n  .design-system-color-picker {\n    max-width: 300px; } }\n\n.design-system-color-hex {\n  display: none; }\n\n.design-system-toggle-section.show-hex .design-system-color-hex {\n  display: inline; }\n\n.design-system-toggle-section.show-hex .design-system-color-class {\n  display: none; }\n\n/* Container Boxes */\n.design-system-container {\n  background: #f1f3f4;\n  border: solid 1px #D8D8D8;\n  padding: 24px; }\n  .design-system-container.design-system-container-small {\n    max-width: 375px; }\n  .design-system-container .design-system-container-inner {\n    background-color: #FFFFFF;\n    border: solid 1px #D8D8D8;\n    padding: 20px; }\n\n.btn-set-desktop-example a {\n  margin-left: 15px;\n  width: 200px; }\n\n/* ICONS */\n.design-system-icon-set {\n  margin-top: 30px;\n  margin-bottom: 30px; }\n\n.design-system-icon-col {\n  text-align: center; }\n  .design-system-icon-col .design-system-icon-name {\n    font-size: 14px;\n    font-weight: bold;\n    line-height: 16px;\n    color: #1C2024;\n    margin: 6px 0 0; }\n  .design-system-icon-col .design-system-icon-details {\n    font-size: 12px;\n    line-height: 14px;\n    color: #626E78;\n    margin: 0; }\n\n@media screen and (min-width: 37.5em) {\n  .design-system-icon-col {\n    position: relative;\n    text-align: left; }\n    .design-system-icon-col .design-system-icon-label {\n      padding-left: 45px; }\n    .design-system-icon-col .design-system-icon {\n      position: absolute;\n      top: 0;\n      left: 15px;\n      width: 35px; } }\n\n/* BUTTONS */\n.design-system .button-preview a {\n  width: 200px;\n  max-width: 100%; }\n\n.design-system .button-overview a {\n  margin-right: 20px;\n  min-width: 200px;\n  margin-bottom: 20px; }\n", ""]);
+exports.push([module.i, "/*------------------------------------*  Design System\r\n  Target Browsers: IE9+, Chrome, FF, Safari, iOS9+, Android 4.4+\r\n\\*------------------------------------*/\n/**\n * Foundation for Sites by ZURB\n * Version 6.4.4-rc1\n * foundation.zurb.com\n * Licensed under MIT Open Source\n */\n/* ---\r\nHelpers\r\n--- */\n/******************\r\n/* Vars\r\n/* File Paths\r\n******************/\n/******************\r\n/* Vars\r\n/* Colors\r\n******************/\n/******************\r\n/* Vars\r\n/* Colors & fonts\r\n******************/\n/******************\r\n/* Vars\r\n/* Fonts\r\n******************/\n/*------------------------------------*  MIXINS\r\n\\*------------------------------------*/\n/***************************************************\r\n/* Elevation\r\n/* Box shadows for buttons, dropdowns, etc\r\n/* Ability to remove elevation\r\n***************************************************/\n.elevation {\n  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.25);\n  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.25); }\n\n.elevation-neg-1 {\n  box-shadow: 0 2px 4px 0px rgba(0, 0, 0, 0.25);\n  -webkit-box-shadow: 0 2px 4px 0px rgba(0, 0, 0, 0.25); }\n\n.elevation-none {\n  box-shadow: none !important;\n  -webkit-shadow: none !important; }\n\n.elevation-1 {\n  box-shadow: 0 3px 8px 0px rgba(0, 0, 0, 0.25);\n  -webkit-box-shadow: 0 3px 8px 0px rgba(0, 0, 0, 0.25); }\n\n.elevation-2 {\n  box-shadow: 0 4px 12px 0px rgba(0, 0, 0, 0.5);\n  -webkit-box-shadow: 0 4px 12px 0px rgba(0, 0, 0, 0.5); }\n\n.is-off-canvas-open {\n  overflow: hidden; }\n\n.js-off-canvas-overlay {\n  position: absolute;\n  top: 0;\n  left: 0;\n  z-index: 11;\n  width: 100%;\n  height: 100%;\n  transition: opacity 0.5s ease, visibility 0.5s ease;\n  background: rgba(254, 254, 254, 0.25);\n  opacity: 0;\n  visibility: hidden;\n  overflow: hidden; }\n  .js-off-canvas-overlay.is-visible {\n    opacity: 1;\n    visibility: visible; }\n  .js-off-canvas-overlay.is-closable {\n    cursor: pointer; }\n  .js-off-canvas-overlay.is-overlay-absolute {\n    position: absolute; }\n  .js-off-canvas-overlay.is-overlay-fixed {\n    position: fixed; }\n\n.off-canvas-wrapper {\n  position: relative;\n  overflow: hidden; }\n\n.off-canvas {\n  position: fixed;\n  z-index: 12;\n  transition: transform 0.5s ease;\n  backface-visibility: hidden;\n  background: #e6e6e6; }\n  [data-whatinput='mouse'] .off-canvas {\n    outline: 0; }\n  .off-canvas.is-transition-push {\n    z-index: 12; }\n  .off-canvas.is-closed {\n    visibility: hidden; }\n  .off-canvas.is-transition-overlap {\n    z-index: 13; }\n    .off-canvas.is-transition-overlap.is-open {\n      box-shadow: 0 0 10px rgba(10, 10, 10, 0.7); }\n  .off-canvas.is-open {\n    transform: translate(0, 0); }\n\n.off-canvas-absolute {\n  position: absolute;\n  z-index: 12;\n  transition: transform 0.5s ease;\n  backface-visibility: hidden;\n  background: #e6e6e6; }\n  [data-whatinput='mouse'] .off-canvas-absolute {\n    outline: 0; }\n  .off-canvas-absolute.is-transition-push {\n    z-index: 12; }\n  .off-canvas-absolute.is-closed {\n    visibility: hidden; }\n  .off-canvas-absolute.is-transition-overlap {\n    z-index: 13; }\n    .off-canvas-absolute.is-transition-overlap.is-open {\n      box-shadow: 0 0 10px rgba(10, 10, 10, 0.7); }\n  .off-canvas-absolute.is-open {\n    transform: translate(0, 0); }\n\n.position-left {\n  top: 0;\n  left: 0;\n  height: 100%;\n  overflow-y: auto;\n  width: 250px;\n  transform: translateX(-250px); }\n  .off-canvas-content .off-canvas.position-left {\n    transform: translateX(-250px); }\n    .off-canvas-content .off-canvas.position-left.is-transition-overlap.is-open {\n      transform: translate(0, 0); }\n  .off-canvas-content.is-open-left.has-transition-push {\n    transform: translateX(250px); }\n  .position-left.is-transition-push {\n    box-shadow: inset -13px 0 20px -13px rgba(10, 10, 10, 0.25); }\n\n.position-right {\n  top: 0;\n  right: 0;\n  height: 100%;\n  overflow-y: auto;\n  width: 250px;\n  transform: translateX(250px); }\n  .off-canvas-content .off-canvas.position-right {\n    transform: translateX(250px); }\n    .off-canvas-content .off-canvas.position-right.is-transition-overlap.is-open {\n      transform: translate(0, 0); }\n  .off-canvas-content.is-open-right.has-transition-push {\n    transform: translateX(-250px); }\n  .position-right.is-transition-push {\n    box-shadow: inset 13px 0 20px -13px rgba(10, 10, 10, 0.25); }\n\n.position-top {\n  top: 0;\n  left: 0;\n  width: 100%;\n  overflow-x: auto;\n  height: 250px;\n  transform: translateY(-250px); }\n  .off-canvas-content .off-canvas.position-top {\n    transform: translateY(-250px); }\n    .off-canvas-content .off-canvas.position-top.is-transition-overlap.is-open {\n      transform: translate(0, 0); }\n  .off-canvas-content.is-open-top.has-transition-push {\n    transform: translateY(250px); }\n  .position-top.is-transition-push {\n    box-shadow: inset 0 -13px 20px -13px rgba(10, 10, 10, 0.25); }\n\n.position-bottom {\n  bottom: 0;\n  left: 0;\n  width: 100%;\n  overflow-x: auto;\n  height: 250px;\n  transform: translateY(250px); }\n  .off-canvas-content .off-canvas.position-bottom {\n    transform: translateY(250px); }\n    .off-canvas-content .off-canvas.position-bottom.is-transition-overlap.is-open {\n      transform: translate(0, 0); }\n  .off-canvas-content.is-open-bottom.has-transition-push {\n    transform: translateY(-250px); }\n  .position-bottom.is-transition-push {\n    box-shadow: inset 0 13px 20px -13px rgba(10, 10, 10, 0.25); }\n\n.off-canvas-content {\n  transform: none;\n  transition: transform 0.5s ease;\n  backface-visibility: hidden; }\n  .off-canvas-content.has-transition-push {\n    transform: translate(0, 0); }\n  .off-canvas-content .off-canvas.is-open {\n    transform: translate(0, 0); }\n\n@media print, screen and (min-width: 37.5em) {\n  .position-left.reveal-for-medium {\n    transform: none;\n    z-index: 12;\n    transition: none;\n    visibility: visible; }\n    .position-left.reveal-for-medium .close-button {\n      display: none; }\n    .off-canvas-content .position-left.reveal-for-medium {\n      transform: none; }\n    .off-canvas-content.has-reveal-left {\n      margin-left: 250px; }\n    .position-left.reveal-for-medium ~ .off-canvas-content {\n      margin-left: 250px; }\n  .position-right.reveal-for-medium {\n    transform: none;\n    z-index: 12;\n    transition: none;\n    visibility: visible; }\n    .position-right.reveal-for-medium .close-button {\n      display: none; }\n    .off-canvas-content .position-right.reveal-for-medium {\n      transform: none; }\n    .off-canvas-content.has-reveal-right {\n      margin-right: 250px; }\n    .position-right.reveal-for-medium ~ .off-canvas-content {\n      margin-right: 250px; }\n  .position-top.reveal-for-medium {\n    transform: none;\n    z-index: 12;\n    transition: none;\n    visibility: visible; }\n    .position-top.reveal-for-medium .close-button {\n      display: none; }\n    .off-canvas-content .position-top.reveal-for-medium {\n      transform: none; }\n    .off-canvas-content.has-reveal-top {\n      margin-top: 250px; }\n    .position-top.reveal-for-medium ~ .off-canvas-content {\n      margin-top: 250px; }\n  .position-bottom.reveal-for-medium {\n    transform: none;\n    z-index: 12;\n    transition: none;\n    visibility: visible; }\n    .position-bottom.reveal-for-medium .close-button {\n      display: none; }\n    .off-canvas-content .position-bottom.reveal-for-medium {\n      transform: none; }\n    .off-canvas-content.has-reveal-bottom {\n      margin-bottom: 250px; }\n    .position-bottom.reveal-for-medium ~ .off-canvas-content {\n      margin-bottom: 250px; } }\n\n@media print, screen and (min-width: 64em) {\n  .position-left.reveal-for-large {\n    transform: none;\n    z-index: 12;\n    transition: none;\n    visibility: visible; }\n    .position-left.reveal-for-large .close-button {\n      display: none; }\n    .off-canvas-content .position-left.reveal-for-large {\n      transform: none; }\n    .off-canvas-content.has-reveal-left {\n      margin-left: 250px; }\n    .position-left.reveal-for-large ~ .off-canvas-content {\n      margin-left: 250px; }\n  .position-right.reveal-for-large {\n    transform: none;\n    z-index: 12;\n    transition: none;\n    visibility: visible; }\n    .position-right.reveal-for-large .close-button {\n      display: none; }\n    .off-canvas-content .position-right.reveal-for-large {\n      transform: none; }\n    .off-canvas-content.has-reveal-right {\n      margin-right: 250px; }\n    .position-right.reveal-for-large ~ .off-canvas-content {\n      margin-right: 250px; }\n  .position-top.reveal-for-large {\n    transform: none;\n    z-index: 12;\n    transition: none;\n    visibility: visible; }\n    .position-top.reveal-for-large .close-button {\n      display: none; }\n    .off-canvas-content .position-top.reveal-for-large {\n      transform: none; }\n    .off-canvas-content.has-reveal-top {\n      margin-top: 250px; }\n    .position-top.reveal-for-large ~ .off-canvas-content {\n      margin-top: 250px; }\n  .position-bottom.reveal-for-large {\n    transform: none;\n    z-index: 12;\n    transition: none;\n    visibility: visible; }\n    .position-bottom.reveal-for-large .close-button {\n      display: none; }\n    .off-canvas-content .position-bottom.reveal-for-large {\n      transform: none; }\n    .off-canvas-content.has-reveal-bottom {\n      margin-bottom: 250px; }\n    .position-bottom.reveal-for-large ~ .off-canvas-content {\n      margin-bottom: 250px; } }\n\n@media print, screen and (min-width: 37.5em) {\n  .off-canvas.in-canvas-for-medium {\n    visibility: visible;\n    height: auto;\n    position: static;\n    background: inherit;\n    width: inherit;\n    overflow: inherit;\n    transition: inherit; }\n    .off-canvas.in-canvas-for-medium.position-left, .off-canvas.in-canvas-for-medium.position-right, .off-canvas.in-canvas-for-medium.position-top, .off-canvas.in-canvas-for-medium.position-bottom {\n      box-shadow: none;\n      transform: none; }\n    .off-canvas.in-canvas-for-medium .close-button {\n      display: none; } }\n\n@media print, screen and (min-width: 64em) {\n  .off-canvas.in-canvas-for-large {\n    visibility: visible;\n    height: auto;\n    position: static;\n    background: inherit;\n    width: inherit;\n    overflow: inherit;\n    transition: inherit; }\n    .off-canvas.in-canvas-for-large.position-left, .off-canvas.in-canvas-for-large.position-right, .off-canvas.in-canvas-for-large.position-top, .off-canvas.in-canvas-for-large.position-bottom {\n      box-shadow: none;\n      transform: none; }\n    .off-canvas.in-canvas-for-large .close-button {\n      display: none; } }\n\n.anno {\n  font-size: 12px;\n  line-height: 24px;\n  width: 100%;\n  color: #626E78;\n  letter-spacing: 1px;\n  margin: 56px 0 24px 0;\n  text-transform: uppercase;\n  border-bottom: 1px solid #D8D8D8; }\n\n.color {\n  width: 100%;\n  line-height: 56px;\n  text-align: center;\n  color: #fff; }\n\n.off-canvas-button {\n  display: inline-block;\n  padding: 18px; }\n\n.design-system .design-system-wrap {\n  margin-top: 64px; }\n\n.design-system .design-system-inner-nav {\n  display: none; }\n\n.design-system .design-system-page {\n  width: 100%;\n  position: absolute;\n  left: 0px;\n  top: 0px; }\n\n.design-system .off-canvas {\n  background: #1C2024; }\n  .design-system .off-canvas.position-left.is-transition-push {\n    box-shadow: none; }\n  .design-system .off-canvas .design-system-menu {\n    margin-top: 0; }\n\n.design-system .design-system-nav-mobile {\n  background-color: #cc0000;\n  position: fixed;\n  top: 0;\n  left: 0;\n  width: 100%;\n  -webkit-transform: translateX(0);\n  -moz-transform: translateX(0);\n  -ms-transform: translateX(0);\n  -o-transform: translateX(0);\n  transform: translateX(0);\n  -webkit-transition: transform 0.5s ease;\n  -moz-transition: transform 0.5s ease;\n  -ms-transition: transform 0.5s ease;\n  -o-transition: transform 0.5s ease;\n  transition: transform 0.5s ease;\n  z-index: 1000; }\n  .design-system .design-system-nav-mobile.off-canvas-open {\n    -webkit-transform: translateX(250px);\n    -moz-transform: translateX(250px);\n    -ms-transform: translateX(250px);\n    -o-transform: translateX(250px);\n    transform: translateX(250px); }\n  .design-system .design-system-nav-mobile button {\n    cursor: pointer;\n    padding: 18px; }\n  .design-system .design-system-nav-mobile .design-system-logo-mobile {\n    display: inline-block;\n    padding: 4px 0 2px; }\n  .design-system .design-system-nav-mobile .design-system-search-btn {\n    padding: 14px;\n    display: inline-block; }\n    .design-system .design-system-nav-mobile .design-system-search-btn.selected {\n      background-color: #A41600; }\n\n.design-system .design-system-nav-col {\n  display: none; }\n\n.design-system .design-system-search-desktop-btn {\n  background-color: #A41600;\n  position: absolute;\n  bottom: 0;\n  right: 0;\n  padding: 7px; }\n\n.design-system .design-system-menu-header {\n  background-color: #cc0000;\n  padding-top: 20px;\n  padding-bottom: 20px;\n  position: relative; }\n\n.design-system .design-system-search-field {\n  -webkit-transition: height 200ms;\n  -moz-transition: height 200ms;\n  -ms-transition: height 200ms;\n  -o-transition: height 200ms;\n  transition: height 200ms;\n  height: 0;\n  overflow: hidden;\n  background-color: #A41600; }\n  .design-system .design-system-search-field input[type=text] {\n    background-color: #A41600;\n    width: 100%;\n    color: #FFF;\n    border: none;\n    padding: 5px 15px 5px; }\n    .design-system .design-system-search-field input[type=text]::-webkit-input-placeholder {\n      color: #FFFFFF;\n      opacity: 1;\n      font-style: italic; }\n    .design-system .design-system-search-field input[type=text]:-moz-placeholder {\n      color: #FFFFFF;\n      opacity: 1;\n      font-style: italic; }\n    .design-system .design-system-search-field input[type=text]::-moz-placeholder {\n      color: #FFFFFF;\n      opacity: 1;\n      font-style: italic; }\n    .design-system .design-system-search-field input[type=text]:-ms-input-placeholder {\n      color: #FFFFFF;\n      opacity: 1;\n      font-style: italic; }\n    .design-system .design-system-search-field input[type=text]:focus {\n      outline: none;\n      border: none; }\n\n.design-system ul.design-system-menu {\n  margin-top: 20px;\n  margin-bottom: 20px; }\n  .design-system ul.design-system-menu a {\n    color: #FFFFFF;\n    text-transform: uppercase;\n    text-decoration: none;\n    display: block;\n    padding: 20px 20px;\n    position: relative;\n    font-size: 16px;\n    line-height: 20px;\n    font-weight: bold; }\n    .design-system ul.design-system-menu a:hover {\n      background-color: #333333; }\n    .design-system ul.design-system-menu a.icn-expand {\n      font-size: 18px;\n      line-height: 22px; }\n      .design-system ul.design-system-menu a.icn-expand:before {\n        content: \" \";\n        position: absolute;\n        top: 18px;\n        right: 18px;\n        width: 24px;\n        height: 24px;\n        background: url(\"/images/design-system/plus.svg\") no-repeat right center; }\n    .design-system ul.design-system-menu a.inactive {\n      opacity: .3; }\n  .design-system ul.design-system-menu ul {\n    -webkit-transition: height 200ms;\n    -moz-transition: height 200ms;\n    -ms-transition: height 200ms;\n    -o-transition: height 200ms;\n    transition: height 200ms;\n    height: 0;\n    overflow: hidden; }\n    .design-system ul.design-system-menu ul a {\n      text-transform: none;\n      padding: 10px 20px 10px 60px;\n      font-size: 16px;\n      background: none; }\n      .design-system ul.design-system-menu ul a:hover {\n        color: #D8D8D8;\n        background: none; }\n      .design-system ul.design-system-menu ul a:before {\n        content: none; }\n  .design-system ul.design-system-menu hr {\n    margin: 10px 20px;\n    border: none;\n    border-top: 1px solid #626E78; }\n  .design-system ul.design-system-menu li.menu-open a.icn-expand:before {\n    background-image: url(\"/images/design-system/minus.svg\"); }\n\n.design-system .design-system-content {\n  padding-top: 25px;\n  padding-bottom: 25px; }\n\n@media print, screen and (min-width: 37.5em) {\n  .design-system .design-system-content {\n    padding-top: 50px;\n    padding-bottom: 50px; } }\n\n@media screen and (min-width: 64em) {\n  .design-system .design-system-content {\n    padding-top: 80px;\n    padding-bottom: 80px; } }\n\n@media screen and (min-width: 64em) {\n  .design-system {\n    /* Disable Off Canvas Menu for Tablet/Desktop */ }\n    .design-system .design-system-nav-mobile {\n      display: none; }\n    .design-system .design-system-wrap {\n      display: table;\n      width: 100%;\n      height: 100vh;\n      margin-top: 0; }\n    .design-system .design-system-nav-col,\n    .design-system .design-system-content-col {\n      display: table-cell;\n      vertical-align: top; }\n    .design-system .design-system-nav-col {\n      width: 250px;\n      background: #1C2024; }\n    .design-system .off-canvas-content.is-open-left.has-transition-push {\n      transform: translate(0, 0); } }\n\n@media screen and (min-width: 90em) {\n  .design-system .design-system-inner-wrap {\n    display: table;\n    width: 100%;\n    height: 100vh; }\n  .design-system .design-system-inner-nav,\n  .design-system .design-system-inner-content {\n    display: table-cell;\n    vertical-align: top; }\n  .design-system .design-system-inner-nav {\n    width: 250px; }\n    .design-system .design-system-inner-nav .design-system-inner-nav-fixed {\n      width: 250px;\n      position: fixed;\n      top: 60px;\n      padding: 20px; }\n      .design-system .design-system-inner-nav .design-system-inner-nav-fixed .design-system-inner-nav-indicator {\n        position: absolute;\n        top: 0;\n        left: 0;\n        width: 4px;\n        height: 24px;\n        background: #111111;\n        display: none; }\n        .design-system .design-system-inner-nav .design-system-inner-nav-fixed .design-system-inner-nav-indicator.active {\n          display: block;\n          -webkit-transition: top 0.5s ease;\n          -moz-transition: top 0.5s ease;\n          -ms-transition: top 0.5s ease;\n          -o-transition: top 0.5s ease;\n          transition: top 0.5s ease; }\n      .design-system .design-system-inner-nav .design-system-inner-nav-fixed a {\n        font-size: 16px;\n        line-height: 16px;\n        color: #111111;\n        display: inline-block;\n        margin-bottom: 25px;\n        text-decoration: none; }\n      .design-system .design-system-inner-nav .design-system-inner-nav-fixed .active a {\n        font-weight: bold; } }\n\n/*------------------------------------*  CONTENT - COLOR PALETTE\r\n\\*------------------------------------*/\n@media screen and (min-width: 37.5em) {\n  .design-system-inner-content {\n    padding-left: 50px;\n    padding-right: 50px; } }\n\n.design-system-inner-content ul {\n  color: #626e78;\n  margin: 30px 0;\n  max-width: 575px; }\n  .design-system-inner-content ul li {\n    list-style-type: disc;\n    margin: 15px 0 15px 34px;\n    padding-left: 15px;\n    line-height: 20px; }\n\n.design-system-css-class {\n  color: #cc0000;\n  background-color: #F1F1F1;\n  font-size: 14px;\n  line-height: 18px;\n  font-family: Monaco, \"Lucida Console\", monospace;\n  padding: 5px 10px;\n  border-radius: 4px;\n  display: inline-block; }\n\n.design-system-css-class-inline {\n  display: inline-block;\n  margin-left: 15px;\n  font-weight: 400; }\n\n.design-system-content-swatch-bar {\n  padding: 15px 20px;\n  color: #FFFFFF;\n  font-size: 14px;\n  line-height: 16px; }\n\n.design-system-content-swatch-bar.size-large {\n  padding: 30px 20px; }\n\n.design-system-placeholder {\n  background-color: #d8d8d8;\n  padding: 60px 10px;\n  color: #626e78;\n  text-align: center; }\n\n.design-system-headline-with-toggle {\n  position: relative; }\n  .design-system-headline-with-toggle h3 {\n    padding-right: 160px;\n    min-height: 24px; }\n  .design-system-headline-with-toggle .design-system-headline-toggle {\n    position: absolute;\n    top: 0;\n    right: 15px;\n    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.25);\n    border-radius: 4px; }\n    .design-system-headline-with-toggle .design-system-headline-toggle a {\n      display: inline-block;\n      padding: 5px 15px;\n      border: solid 1px #d8d8d8;\n      border-radius: 4px;\n      text-decoration: none;\n      color: #1C2024;\n      background-color: #FFFFFF; }\n      .design-system-headline-with-toggle .design-system-headline-toggle a.active {\n        color: #FFFFFF;\n        background-color: #000;\n        border: 1px solid #000; }\n      .design-system-headline-with-toggle .design-system-headline-toggle a.left {\n        border-top-right-radius: 0;\n        border-bottom-right-radius: 0; }\n      .design-system-headline-with-toggle .design-system-headline-toggle a.right {\n        border-top-left-radius: 0;\n        border-bottom-left-radius: 0; }\n\n/* Grid */\n.design-system-grid-preview .row {\n  background-color: #aaf2ff; }\n  .design-system-grid-preview .row .design-system-preview-inner {\n    background-color: #e180b5;\n    height: 130px; }\n  .design-system-grid-preview .row .columns.first {\n    position: relative; }\n  .design-system-grid-preview .row .columns {\n    position: relative; }\n    .design-system-grid-preview .row .columns:before {\n      content: \"\";\n      width: 1px;\n      height: 100%;\n      border-right: 1px solid #FFFFFF;\n      position: absolute;\n      top: 0;\n      left: 0; }\n\n.design-system-grid-preview-labels {\n  position: relative;\n  height: 30px; }\n  .design-system-grid-preview-labels .design-system-grid-preview-label-gutter, .design-system-grid-preview-labels .design-system-grid-preview-label-column {\n    position: absolute;\n    top: 10px;\n    left: 4.5%;\n    font-size: 13px; }\n  .design-system-grid-preview-labels .design-system-grid-preview-label-gutter {\n    color: #4b8c8e; }\n  .design-system-grid-preview-labels .design-system-grid-preview-label-column {\n    color: #da2d7f;\n    left: 60.5%; }\n\n/* Code Generator */\n.code-generator {\n  border: 1px solid #D8D8D8;\n  border-radius: 8px; }\n  .code-generator .html-pattern {\n    display: none; }\n  .code-generator .code-generator-code {\n    background-color: #f1f3f4; }\n  .code-generator .code-generator-edit {\n    margin-top: 25px; }\n  .code-generator .code-generator-preview {\n    border-top: 1px solid #D8D8D8;\n    border-bottom: 1px solid #D8D8D8;\n    padding: 15px; }\n  .code-generator .code-generator-code-preview {\n    padding: 15px;\n    background-color: #f1f3f4;\n    font-family: Monaco, \"Lucida Console\", monospace; }\n    .code-generator .code-generator-code-preview p {\n      color: #111111; }\n      .code-generator .code-generator-code-preview p.code-format-tab {\n        margin: 10px 0 10px 20px; }\n    .code-generator .code-generator-code-preview .code-format-attribute {\n      color: #008a44; }\n    .code-generator .code-generator-code-preview .code-format-tag {\n      color: #cc0000; }\n    .code-generator .code-generator-code-preview .code-format-tag-value {\n      color: #126c9c; }\n  .code-generator .design-system-headline-with-toggle {\n    height: 60px; }\n    .code-generator .design-system-headline-with-toggle .design-system-headline-toggle {\n      top: 15px; }\n    .code-generator .design-system-headline-with-toggle .code-generator-copy button {\n      position: absolute;\n      top: 15px;\n      left: 15px;\n      display: inline-block;\n      padding: 5px 15px;\n      border: solid 1px #d8d8d8;\n      border-radius: 4px;\n      text-decoration: none;\n      color: #1C2024;\n      background-color: #FFFFFF;\n      font-weight: 300;\n      box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.25); }\n  .code-generator .code-generator-controls {\n    padding: 15px; }\n\n@media screen and (min-width: 37.5em) {\n  .code-generator {\n    display: flex;\n    flex-direction: row-reverse; }\n    .code-generator .code-generator-right {\n      width: 30%;\n      flex: 0 0 300px;\n      border-left: solid 1px #d8d8d8; }\n    .code-generator .code-generator-left {\n      width: 70%;\n      background-color: #f1f3f4;\n      flex: 1; }\n    .code-generator .code-generator-preview,\n    .code-generator .code-generator-code-preview {\n      background: none; }\n    .code-generator .code-generator-preview {\n      border-top: none;\n      background-color: #FFFFFF;\n      border-top-left-radius: 8px; }\n    .code-generator .code-generator-toggle-editor {\n      display: none; } }\n\n/* Color Picker */\n.design-system-color-picker {\n  position: relative;\n  padding-left: 46px;\n  float: right;\n  width: 100%; }\n  .design-system-color-picker .color-picker-icon {\n    border: 2px solid #FFF;\n    display: inline-block;\n    width: 36px;\n    height: 36px;\n    border-radius: 18px;\n    margin: 4px;\n    position: absolute;\n    top: 0;\n    left: 0; }\n    .design-system-color-picker .color-picker-icon span {\n      width: 32px;\n      height: 32px;\n      border-radius: 16px;\n      display: inline-block;\n      border: 2px solid #FFFFFF; }\n    .design-system-color-picker .color-picker-icon.selected {\n      border: 2px solid #000; }\n\n@media screen and (min-width: 37.5em) {\n  .design-system-color-picker {\n    max-width: 300px; } }\n\n.design-system-color-hex {\n  display: none; }\n\n.design-system-toggle-section.show-hex .design-system-color-hex {\n  display: inline; }\n\n.design-system-toggle-section.show-hex .design-system-color-class {\n  display: none; }\n\n/* Container Boxes */\n.design-system-container {\n  background: #f1f3f4;\n  border: solid 1px #D8D8D8;\n  padding: 24px; }\n  .design-system-container.design-system-container-small {\n    max-width: 375px; }\n  .design-system-container .design-system-container-inner {\n    background-color: #FFFFFF;\n    border: solid 1px #D8D8D8;\n    padding: 20px; }\n\n.btn-set-desktop-example a {\n  margin-left: 15px;\n  width: 200px; }\n\n/* ICONS */\n.design-system-icon-set {\n  margin-top: 30px;\n  margin-bottom: 30px; }\n\n.design-system-icon-col {\n  text-align: center; }\n  .design-system-icon-col .design-system-icon-name {\n    font-size: 14px;\n    font-weight: bold;\n    line-height: 16px;\n    color: #1C2024;\n    margin: 6px 0 0; }\n  .design-system-icon-col .design-system-icon-details {\n    font-size: 12px;\n    line-height: 14px;\n    color: #626E78;\n    margin: 0; }\n\n@media screen and (min-width: 37.5em) {\n  .design-system-icon-col {\n    position: relative;\n    text-align: left; }\n    .design-system-icon-col .design-system-icon-label {\n      padding-left: 45px; }\n    .design-system-icon-col .design-system-icon {\n      position: absolute;\n      top: 0;\n      left: 15px;\n      width: 35px; } }\n\n/* BUTTONS */\n.design-system .button-preview a {\n  width: 200px;\n  max-width: 100%; }\n\n.design-system .button-overview a {\n  margin-right: 20px;\n  min-width: 200px;\n  margin-bottom: 20px; }\n", ""]);
 
 // exports
 

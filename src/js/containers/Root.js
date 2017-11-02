@@ -32,73 +32,73 @@ const Nav = () =>
                             <li><NavLink to="/visual-design/icons" activeClassName="active">Icons</NavLink></li>
                             <li><NavLink to="/visual-design/grid" activeClassName="active">Grid</NavLink></li>
                             <li><NavLink to="/visual-design/typography" activeClassName="active">Typography</NavLink></li>
-                            <li><NavLink to="/" activeClassName="active">Branding</NavLink></li>
-                            <li><NavLink to="/" activeClassName="active">Imagery</NavLink></li>
-                            <li><NavLink to="/" activeClassName="active">Motion</NavLink></li>
-                            <li><NavLink to="/" activeClassName="active">Patterns</NavLink></li>
+                            <li><NavLink to="/" activeClassName="inactive">Branding</NavLink></li>
+                            <li><NavLink to="/" activeClassName="inactive">Imagery</NavLink></li>
+                            <li><NavLink to="/" activeClassName="inactive">Motion</NavLink></li>
+                            <li><NavLink to="/" activeClassName="inactive">Patterns</NavLink></li>
                         </ul>
                     </li>
                     <li><a href="javascript:void(0)" className="icn-expand js-menu-expand">Components</a>
                         <ul>
                             <li><NavLink to="/components/alerts" activeClassName="active">Alerts</NavLink></li>
-                            <li><NavLink to="/" activeClassName="active">Apply Coupons</NavLink></li>
-                            <li><NavLink to="/" activeClassName="active">Back to Top</NavLink></li>
+                            <li><NavLink to="/" activeClassName="inactive">Apply Coupons</NavLink></li>
+                            <li><NavLink to="/" activeClassName="inactive">Back to Top</NavLink></li>
                             <li><NavLink to="/components/badges" activeClassName="active">Badges</NavLink></li>
-                            <li><NavLink to="/" activeClassName="active">Breadcrumbs</NavLink></li>
-                            <li><NavLink to="/" activeClassName="active">Carousels</NavLink></li>
-                            <li><NavLink to="/" activeClassName="active">Color &amp; Image Swatches</NavLink></li>
+                            <li><NavLink to="/" activeClassName="inactive">Breadcrumbs</NavLink></li>
+                            <li><NavLink to="/" activeClassName="inactive">Carousels</NavLink></li>
+                            <li><NavLink to="/" activeClassName="inactive">Color &amp; Image Swatches</NavLink></li>
                             <li><NavLink to="/components/content-loaders" activeClassName="active">Content Loaders</NavLink></li>
-                            <li><NavLink to="/" activeClassName="active">Countdown Timers</NavLink></li>
-                            <li><NavLink to="/" activeClassName="active">Discount &amp; Savings</NavLink></li>
-                            <li><NavLink to="/" activeClassName="active">Expand/Collapse</NavLink></li>
+                            <li><NavLink to="/" activeClassName="inactive">Countdown Timers</NavLink></li>
+                            <li><NavLink to="/" activeClassName="inactive">Discount &amp; Savings</NavLink></li>
+                            <li><NavLink to="/" activeClassName="inactive">Expand/Collapse</NavLink></li>
                             <li><NavLink to="/components/forms" activeClassName="active">Forms</NavLink></li>
-                            <li><NavLink to="/" activeClassName="active">Pagination</NavLink></li>
-                            <li><NavLink to="/" activeClassName="active">Pricing</NavLink></li>
-                            <li><NavLink to="/" activeClassName="active">Progress Bar</NavLink></li>
-                            <li><NavLink to="/" activeClassName="active">Selectors</NavLink></li>
-                            <li><NavLink to="/" activeClassName="active">Star Ratings</NavLink></li>
+                            <li><NavLink to="/" activeClassName="inactive">Pagination</NavLink></li>
+                            <li><NavLink to="/" activeClassName="inactive">Pricing</NavLink></li>
+                            <li><NavLink to="/" activeClassName="inactive">Progress Bar</NavLink></li>
+                            <li><NavLink to="/" activeClassName="inactive">Selectors</NavLink></li>
+                            <li><NavLink to="/" activeClassName="inactive">Star Ratings</NavLink></li>
                             <li><NavLink to="/components/tables" activeClassName="active">Tables</NavLink></li>
-                            <li><NavLink to="/" activeClassName="active">Tabs</NavLink></li>
-                            <li><NavLink to="/" activeClassName="active">Tooltips</NavLink></li>
-                            <li><NavLink to="/" activeClassName="active">Video Player</NavLink></li>
-                            <li><NavLink to="/" activeClassName="active">Visual Navigation</NavLink></li>
-                            <li><NavLink to="/" activeClassName="active">Heroes</NavLink></li>
+                            <li><NavLink to="/" activeClassName="inactive">Tabs</NavLink></li>
+                            <li><NavLink to="/" activeClassName="inactive">Tooltips</NavLink></li>
+                            <li><NavLink to="/" activeClassName="inactive">Video Player</NavLink></li>
+                            <li><NavLink to="/" activeClassName="inactive">Visual Navigation</NavLink></li>
+                            <li><NavLink to="/" activeClassName="inactive">Heroes</NavLink></li>
                         </ul>
                     </li>
                     <li><a href="javascript:void(0)" className="icn-expand js-menu-expand">Page Modules</a>
                         <ul>
-                            <li><NavLink to="/" activeClassName="active">Coupon List</NavLink></li>
-                            <li><NavLink to="/" activeClassName="active">Coupons</NavLink></li>
-                            <li><NavLink to="/" activeClassName="active">Find a Store</NavLink></li>
-                            <li><NavLink to="/" activeClassName="active">Footer</NavLink></li>
-                            <li><NavLink to="/" activeClassName="active">Header</NavLink></li>
-                            <li><NavLink to="/" activeClassName="active">Lists</NavLink></li>
-                            <li><NavLink to="/" activeClassName="active">Mini PDP/Quick Add </NavLink></li>
-                            <li><NavLink to="/" activeClassName="active">Product Cards (Gallery/Rec Row/Cart)</NavLink></li>
-                            <li><NavLink to="/" activeClassName="active">Promo/Marketing Cards</NavLink></li>
-                            <li><NavLink to="/" activeClassName="active">Recommendation Zones</NavLink></li>
-                            <li><NavLink to="/" activeClassName="active">Filter &amp; Sorting</NavLink></li>
-                            <li><NavLink to="/" activeClassName="active">Like/Dislike Messages</NavLink></li>
-                            <li><NavLink to="/" activeClassName="active">Modals</NavLink></li>
-                            <li><NavLink to="/" activeClassName="active">Slide Out Panels</NavLink></li>
-                            <li><NavLink to="/" activeClassName="active">Sticky Elements</NavLink></li>
+                            <li><NavLink to="/" activeClassName="inactive">Coupon List</NavLink></li>
+                            <li><NavLink to="/" activeClassName="inactive">Coupons</NavLink></li>
+                            <li><NavLink to="/" activeClassName="inactive">Find a Store</NavLink></li>
+                            <li><NavLink to="/" activeClassName="inactive">Footer</NavLink></li>
+                            <li><NavLink to="/" activeClassName="inactive">Header</NavLink></li>
+                            <li><NavLink to="/" activeClassName="inactive">Lists</NavLink></li>
+                            <li><NavLink to="/" activeClassName="inactive">Mini PDP/Quick Add </NavLink></li>
+                            <li><NavLink to="/" activeClassName="inactive">Product Cards (Gallery/Rec Row/Cart)</NavLink></li>
+                            <li><NavLink to="/" activeClassName="inactive">Promo/Marketing Cards</NavLink></li>
+                            <li><NavLink to="/" activeClassName="inactive">Recommendation Zones</NavLink></li>
+                            <li><NavLink to="/" activeClassName="inactive">Filter &amp; Sorting</NavLink></li>
+                            <li><NavLink to="/" activeClassName="inactive">Like/Dislike Messages</NavLink></li>
+                            <li><NavLink to="/" activeClassName="inactive">Modals</NavLink></li>
+                            <li><NavLink to="/" activeClassName="inactive">Slide Out Panels</NavLink></li>
+                            <li><NavLink to="/" activeClassName="inactive">Sticky Elements</NavLink></li>
                         </ul>
                     </li>
                     <li><a href="javascript:void(0)" className="icn-expand js-menu-expand">Page Layouts</a>
                         <ul>
-                            <li><NavLink to="/" activeClassName="active">Cart</NavLink></li>
-                            <li><NavLink to="/" activeClassName="active">Category Pages</NavLink></li>
-                            <li><NavLink to="/" activeClassName="active">Checkout</NavLink></li>
-                            <li><NavLink to="/" activeClassName="active">Coupons</NavLink></li>
-                            <li><NavLink to="/" activeClassName="active">Gallery Pages</NavLink></li>
-                            <li><NavLink to="/" activeClassName="active">Homepage</NavLink></li>
-                            <li><NavLink to="/" activeClassName="active">Lists</NavLink></li>
-                            <li><NavLink to="/" activeClassName="active">Marketing Pages</NavLink></li>
-                            <li><NavLink to="/" activeClassName="active">My Account</NavLink></li>
-                            <li><NavLink to="/" activeClassName="active">PDPs</NavLink></li>
-                            <li><NavLink to="/" activeClassName="active">Rewards</NavLink></li>
-                            <li><NavLink to="/" activeClassName="active">Search Pages</NavLink></li>
-                            <li><NavLink to="/" activeClassName="active">Sign In</NavLink></li>
+                            <li><NavLink to="/" activeClassName="inactive">Cart</NavLink></li>
+                            <li><NavLink to="/" activeClassName="inactive">Category Pages</NavLink></li>
+                            <li><NavLink to="/" activeClassName="inactive">Checkout</NavLink></li>
+                            <li><NavLink to="/" activeClassName="inactive">Coupons</NavLink></li>
+                            <li><NavLink to="/" activeClassName="inactive">Gallery Pages</NavLink></li>
+                            <li><NavLink to="/" activeClassName="inactive">Homepage</NavLink></li>
+                            <li><NavLink to="/" activeClassName="inactive">Lists</NavLink></li>
+                            <li><NavLink to="/" activeClassName="inactive">Marketing Pages</NavLink></li>
+                            <li><NavLink to="/" activeClassName="inactive">My Account</NavLink></li>
+                            <li><NavLink to="/" activeClassName="inactive">PDPs</NavLink></li>
+                            <li><NavLink to="/" activeClassName="inactive">Rewards</NavLink></li>
+                            <li><NavLink to="/" activeClassName="inactive">Search Pages</NavLink></li>
+                            <li><NavLink to="/" activeClassName="inactive">Sign In</NavLink></li>
                         </ul>
                     </li>
                     <li>
@@ -106,22 +106,22 @@ const Nav = () =>
                     </li>
                     <li><a href="javascript:void(0)" className="icn-expand js-menu-expand">Accessibility</a>
                         <ul>
-                            <li><NavLink to="/" activeClassName="active">TBD</NavLink></li>
+                            <li><NavLink to="/" activeClassName="inactive">TBD</NavLink></li>
                         </ul>
                     </li>
                     <li><a href="javascript:void(0)" className="icn-expand js-menu-expand">UX Research</a>
                         <ul>
-                            <li><NavLink to="/" activeClassName="active">TBD</NavLink></li>
+                            <li><NavLink to="/" activeClassName="inactive">TBD</NavLink></li>
                         </ul>
                     </li>
                     <li><a href="javascript:void(0)" className="icn-expand js-menu-expand">A/B Testing</a>
                         <ul>
-                            <li><NavLink to="/" activeClassName="active">TBD</NavLink></li>
+                            <li><NavLink to="/" activeClassName="inactive">TBD</NavLink></li>
                         </ul>
                     </li>
                     <li><a href="javascript:void(0)" className="icn-expand js-menu-expand">Foresee</a>
                         <ul>
-                            <li><NavLink to="/" activeClassName="active">TBD</NavLink></li>
+                            <li><NavLink to="/" activeClassName="inactive">TBD</NavLink></li>
                         </ul>
                     </li>
                     <li>
