@@ -19,9 +19,9 @@ class Tables extends Component {
         <div className="small-12 columns">
             <hr />
             <h3 className="title title-L mrg-L">Standard</h3>
-            <p className="mrg-L">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <p className="mrg-XL txt-max-width">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 
-            <h4 className="title title-XXL mrg-L">Tab Title</h4>
+            <h4 className="title title-M mrg-L">Tab Title</h4>
             <table className="table-striped-columns width-full std-txt std-txt-S mrg-L algn-lft" width="100%" border="0">
                 <tbody>
                     <tr>
@@ -44,11 +44,11 @@ class Tables extends Component {
         <div className="small-12 columns">
             <hr />
             <h3 className="title title-L mrg-L">Feature</h3>
-            <p className="mrg-L">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <p className="mrg-XL txt-max-width">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 
             <div className="row">
                 <div className="small-12 medium-4 large-2 columns">
-                    <h4 className="title title-M mrg-L">Tab Title</h4>
+                    <h4 className="title title-XXL mrg-L">Tab Title</h4>
                 </div>
                 <div className="small-12 medium-8 large-10 columns">
                     <table className="std-txt std-txt-S width-full table-no-bottom-border mrg-L algn-lft" width="100%" border="0">

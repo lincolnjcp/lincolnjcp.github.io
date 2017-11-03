@@ -108,7 +108,7 @@ class Buttons extends Component {
                 
             </div>
             <h5 className="title title-M mrg-M">Best Practices</h5>
-            <ul>
+            <ul className="list txt-max-width color-slate">
                 <li>Aenean lacinia bibendum nulla sed consectetur</li>
                 <li>Integer posuere erat a ante venenatis dapibus posuere velit aliquet</li>
                 <li>Etiam porta sem malesuada magna mollis euismod. Lorem ipsum dolor sit amet, consec</li>

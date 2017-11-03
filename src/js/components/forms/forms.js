@@ -75,7 +75,7 @@ class Forms extends Component {
                 <div className="row" id="appearance">
                     <div className="small-12 columns">
                         <h3 className="title title-L mrg-L">Appearance</h3>
-                        <p className="txt-max-width">Vestibulum id ligula porta felis euismod semper. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. <br /><br /><br /> </p>
+                        <p className="txt-max-width">Vestibulum id ligula porta felis euismod semper. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. <br/><br/><br/> </p>
                         <div className="small-12 medium-12 columns email-form">
                             <div className="small-12 medium-4 columns">
                                 <div className="form-group input-group">
@@ -87,7 +87,7 @@ class Forms extends Component {
                             </div>
                             <div className="small-12 medium-8 columns">
                                 <h4 className="title title-M mrg-L">Text Field</h4>
-                                <p className="txt-max-width">Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus.<br /><br /><br /></p>
+                                <p className="txt-max-width">Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus.<br /><br /><br /><br /></p>
                             </div>
                         </div>
                         <div className="small-12 medium-12 columns select-form">
@@ -113,80 +113,7 @@ class Forms extends Component {
                             </div>
                             <div className="small-12 medium-8 columns">
                                 <h4 className="title title-M mrg-L">Select Input</h4>
-                                <p className="txt-max-width">Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus.<br /><br /><br /></p>
-                            </div>
-                        </div>
-                        <div className="small-12 medium-12 columns text-area-form">
-                            <div className="small-12 medium-4 columns">
-                                <div className="form-group input-group">
-                                    <span className="has-float-label">
-                                        <textarea className="form-control" name="instructions">Please deliver to side service entrance of apartment building. Enter code 9090 to access garage.</textarea>
-                                        <label htmlFor="instructions">Delivery Instructions</label>
-                                    </span>
-                                </div>
-                            </div>
-                            <div className="small-12 medium-8 columns">
-                                <h4 className="title title-M mrg-L">Textarea</h4>
-                                <p className="txt-max-width">Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus.<br /><br /><br /></p>
-                            </div>
-                        </div>
-                        <div className="small-12 medium-12 columns radio-button-form">
-                            <div className="small-12 medium-4 columns">
-                                <div className="form-group input-group">
-                                    <div className="mrg-XL">
-                                        <input type="radio" id="one" name="name" value="" defaultChecked="true" />
-                                        <label htmlFor="one">Ship to Home<br />
-                                            <span className="std-txt">Arrives May 5th - May 23rd</span></label>
-                                    </div>
-                                    <div className="mrg-XL">
-                                        <input type="radio" id="one" name="name" value="" defaultChecked="true" />
-                                        <label htmlFor="one">
-                                            <p className="std-txt std-txt-M"><span className="color-penneyred">FREE</span> Store Pickup Today at <br /><a href="#">Stonebriar Mall</a></p>
-                                        </label>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="small-12 medium-8 columns">
-                                <h4 className="title title-M mrg-L">Radio Button</h4>
-                                <p className="txt-max-width">Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus.<br /><br /><br /></p>
-                            </div>
-                        </div>
-                        <div className="small-12 medium-12 columns checkbox-form">
-                            <div className="small-12 medium-4 columns">
-                                <div className="form-group input-group">
-                                    <label className="checkbox mrg-M">
-                                        <input type="checkbox" disabled="true" /> <span>Disabled Checkbox</span>
-                                    </label>
-
-                                    <label className="checkbox mrg-M">
-                                        <input type="checkbox" /> <span>Checkbox</span>
-                                    </label>
-
-                                    <label className="checkbox mrg-M">
-                                        <input type="checkbox" defaultChecked="true" /> <span>Checkbox</span>
-                                    </label>
-
-                                    <br />
-
-                                </div>
-                            </div>
-                            <div className="small-12 medium-8 columns">
-                                <h4 className="title title-M mrg-L">Checkbox</h4>
-                                <p className="txt-max-width">Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus.<br /><br /><br /></p>
-                            </div>
-                        </div>
-                        <div className="small-12 medium-12 columns phone-form">
-                            <div className="small-12 medium-4 columns">
-                                <div className="form-group input-group">
-                                    <span className="has-float-label">
-                                        <input type="text" id="phone-number" name="phone" maxLength="14" placeholder="Phone"/>
-                                        <label htmlFor="phone">Phone</label>
-                                    </span>
-                                </div>
-                            </div>
-                            <div className="small-12 medium-8 columns">
-                                <h4 className="title title-M mrg-L">Text Field</h4>
-                                <p className="txt-max-width">Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus.<br /><br /><br /></p>
+                                <p className="txt-max-width">Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus.<br /><br /><br /><br /></p>
                             </div>
                         </div>
                     </div>

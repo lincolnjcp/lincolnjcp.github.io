@@ -55,7 +55,7 @@ class ContentLoaders extends Component {
                 <div className="row" id="types">
                     <div className="small-12 columns">
                         <h3 className="title title-L mrg-M">Types</h3>
-                        <p className="txt-max-width">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <p className="mrg-L txt-max-width">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                         <div className="small-12 medium-12 columns">
                             <div className="small-12 medium-4 columns">
                                 <div className="loader-container">

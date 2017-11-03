@@ -332,7 +332,7 @@ By consistently tying typographic styles to appropriate fuctions in the interfac
             <h3 className="title title-L mrg-L">Copy <span className="design-system-css-class design-system-css-class-inline">&lt;p&gt;</span></h3>
             <p className="mrg-L">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             <div className="mrg-L">
-                <p className="mrg-L">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 <p className="design-system-css-class">.M</p>
             </div>
             <div>
@@ -347,23 +347,23 @@ By consistently tying typographic styles to appropriate fuctions in the interfac
             <h3 className="title title-L mrg-L">Lists <span className="design-system-css-class design-system-css-class-inline">class=“list”</span></h3>
             <h5 className="title title-M mrg-S">Text Lists</h5>
             <p className="mrg-L">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            <ul>
+            <ul className="list txt-max-width color-slate">
                 <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
                 <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
                 <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
             </ul>
-            <p className="design-system-css-class mrg-L">???</p>
+            <p className="design-system-css-class mrg-XL">???</p>
             <h5 className="title title-M mrg-S">Icon Lists</h5>
             <p className="mrg-L">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            <ul className="list-icons">
+            <ul className="list list-icons txt-max-width color-slate">
                 <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
                 <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
                 <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
             </ul>
-            <p className="design-system-css-class mrg-L">.list-icons</p>
+            <p className="design-system-css-class mrg-XL">.list-icons</p>
             <h5 className="title title-M mrg-S">Link Lists</h5>
             <p className="mrg-L">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            <ul className="list-links">
+            <ul className="list list-links txt-max-width color-slate">
                 <li><a href="javascript:void();">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a></li>
                 <li><a href="javascript:void();">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a></li>
                 <li><a href="javascript:void();">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a></li>
@@ -385,13 +385,13 @@ By consistently tying typographic styles to appropriate fuctions in the interfac
             <h3 className="title title-L mrg-L">Promo Labels <span className="design-system-css-class design-system-css-class-inline">class=“promo-lbl”</span></h3>
             <p className="mrg-L">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             <p className="promo-lbl promo-lbl-XL">Extra 20% Off</p>
-            <p className="design-system-css-class mrg-L">.promo-lbl-XL</p>
+            <p className="design-system-css-class mrg-XL">.promo-lbl-XL</p>
             <p className="promo-lbl promo-lbl-L">Extra 20% Off</p>
-            <p className="design-system-css-class mrg-L">.promo-lbl-L</p>
+            <p className="design-system-css-class mrg-XL">.promo-lbl-L</p>
             <p className="promo-lbl promo-lbl-M">Extra 20% Off</p>
-            <p className="design-system-css-class mrg-L">.promo-lbl-M</p>
+            <p className="design-system-css-class mrg-XL">.promo-lbl-M</p>
             <p className="promo-lbl promo-lbl-S">+ get an extra 10% off with your JCPenney Credit Card</p>
-            <p className="design-system-css-class mrg-L">.promo-lbl-S</p>
+            <p className="design-system-css-class mrg-XL">.promo-lbl-S</p>
         </div>
     </div>
     <div className="row">

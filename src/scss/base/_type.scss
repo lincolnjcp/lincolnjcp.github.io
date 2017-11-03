@@ -17,266 +17,275 @@ hr {
     margin: 20px 0;
 }
 
+.list {
+    li {
+        list-style-type: disc;
+        margin: 15px 0 15px 34px;
+        padding-left: 15px;
+        line-height: 20px;
+    }
+}
+
+
 /***************************************************
 /* Typography
 /* Price, standard type styles
 ***************************************************/
 
 p {
-  color: $color-slate;
-  font-size: 16px;
-  line-height: 26px;
-  margin: 0 0 10px;
+    color: $color-slate;
+    font-size: 16px;
+    line-height: 26px;
+    margin: 0 0 10px;
 
-  &.S {
-    font-size: 14px;
-    line-height: 18px;
-  }
+    &.S {
+        font-size: 14px;
+        line-height: 18px;
+    }
 }
 
-.price{
-  font-family: $font-headline;
-  font-weight: $font-weight-bold;
-  color: $color-nightsky;
+.price {
+    font-family: $font-headline;
+    font-weight: $font-weight-bold;
+    color: $color-nightsky;
 
-  &.price-XL{
-    font-size: 40px;
-    line-height: 38px;
-    letter-spacing: -0.75px;
-  }
+    &.price-XL {
+        font-size: 40px;
+        line-height: 38px;
+        letter-spacing: -0.75px;
+    }
 
-  &.price-L{
-    font-size: 34px;
-    line-height: 24px;
-    letter-spacing: -1.06;
-  }
+    &.price-L {
+        font-size: 34px;
+        line-height: 24px;
+        letter-spacing: -1.06;
+    }
 
-  &.price-M{
-    font-size: 24px;
-    letter-spacing: -0.75px;
-    line-height: 24px;
-  }
+    &.price-M {
+        font-size: 24px;
+        letter-spacing: -0.75px;
+        line-height: 24px;
+    }
 
-  &.price-S{
-    font-size: 20px;
-    letter-spacing: -0.62px;
-    line-height: 20px;
-  }
+    &.price-S {
+        font-size: 20px;
+        letter-spacing: -0.62px;
+        line-height: 20px;
+    }
 }
 
 
 // Title Text Styles
-.title{
-  font-family: $font-headline;
-  font-weight: $font-weight-regular;
-  color: $color-nightsky;
+.title {
+    font-family: $font-headline;
+    font-weight: $font-weight-regular;
+    color: $color-nightsky;
 }
 
-.title-XXL{
-  font-size: 28px;
-  letter-spacing: -0.7px;
-  line-height: 32px;
+.title-XXL {
+    font-size: 28px;
+    letter-spacing: -0.7px;
+    line-height: 32px;
 }
 
-.title-XL{
-  font-size: 24px;
-  letter-spacing: -0.64px;
-  line-height: 28px;
+.title-XL {
+    font-size: 24px;
+    letter-spacing: -0.64px;
+    line-height: 28px;
 }
 
-.title-L{
-  font-size: 20px;
-  letter-spacing: -0.54px;
-  line-height: 24px;
+.title-L {
+    font-size: 20px;
+    letter-spacing: -0.54px;
+    line-height: 24px;
 }
 
-.title-M{
-  font-size: 16px;
-  letter-spacing: -0.43px;
-  line-height: 20px;
+.title-M {
+    font-size: 16px;
+    letter-spacing: -0.43px;
+    line-height: 20px;
 }
 
-.title-S{
-  font-size: 14px;
-  letter-spacing: -0.37px;
-  line-height: 18px;
+.title-S {
+    font-size: 14px;
+    letter-spacing: -0.37px;
+    line-height: 18px;
 }
 
 // Standard Text
-.std-txt{
-  color: $color-slate;
-  font-weight: $font-weight-regular;
-  font-family: $font-body;
+.std-txt {
+    color: $color-slate;
+    font-weight: $font-weight-regular;
+    font-family: $font-body;
 
-  &.std-txt-XL{
-    font-size: 20px;
-    letter-spacing: -0.5px;
-    line-height: 30px;
-  }
+    &.std-txt-XL {
+        font-size: 20px;
+        letter-spacing: -0.5px;
+        line-height: 30px;
+    }
 
-  &.std-txt-L{
-    font-size: 18px;
-    letter-spacing: -0.6px;
-    line-height: 22px;
-  }
+    &.std-txt-L {
+        font-size: 18px;
+        letter-spacing: -0.6px;
+        line-height: 22px;
+    }
 
-  &.std-txt-M{
-    font-size: 16px;
-    letter-spacing: -0.54px;
-    line-height: 20px;
-  }
+    &.std-txt-M {
+        font-size: 16px;
+        letter-spacing: -0.54px;
+        line-height: 20px;
+    }
 
-  &.std-txt-S{
-    font-size: 14px;
-    letter-spacing: -0.43px;
-    line-height: 18px;
-  }
+    &.std-txt-S {
+        font-size: 14px;
+        letter-spacing: -0.43px;
+        line-height: 18px;
+    }
 
-  &.std-txt-XS{
-    font-size: 12px;
-    letter-spacing: -0.28px;
-    line-height: 16px;
-  }
+    &.std-txt-XS {
+        font-size: 12px;
+        letter-spacing: -0.28px;
+        line-height: 16px;
+    }
 
-  &.std-txt-light,
-  &.std-txt-light a{
-    color: #fff;
-  }
+    &.std-txt-light,
+    &.std-txt-light a {
+        color: #fff;
+    }
 }
 
 // Promo Labels
-.promo-lbl{
-  font-family: $font-headline;
-  font-weight: $font-weight-bold;
-  color: $color-nightsky;
+.promo-lbl {
+    font-family: $font-headline;
+    font-weight: $font-weight-bold;
+    color: $color-nightsky;
 
-  &.promo-lbl-XXXL{
-    font-size: 96px;
-    letter-spacing: -0.8px;
-    line-height: 102px;
-  }
-
-  &.promo-lbl-XXL{
-    font-size: 72px;
-    letter-spacing: -0.6px;
-    line-height: 74px;
-  }
-
-  &.promo-lbl-XL{
-    font-size: 50px;
-    letter-spacing: -0.6px;
-    line-height: 52px;
-  }
-
-  &.promo-lbl-L{
-    font-size: 44px;
-    letter-spacing: -0.52px;
-    line-height: 46px;
-  }
-
-  &.promo-lbl-M{
-    font-size: 36px;
-    letter-spacing: -0.43px;
-    line-height: 38px;
-  }
-
-  &.promo-lbl-MS{
-    font-size: 24px;
-    letter-spacing: -0.43px;
-    line-height: 26px;
-  }
-
-   &.promo-lbl-S{
-    font-size: 20px;
-    letter-spacing: -0.24px;
-    line-height: 24px;
-
-    &.promo-display{
-      text-shadow: .2rem .2rem rgba(0,0,0,0.5);
-    }
-  }
-
-  &.promo-lbl-light{
-    color: #fff;
-  }
-
-  &.promo-display{
-    text-transform: uppercase;
-    color: $color-white;
-
-    &.promo-lbl-XXL{
-      // text-shadow: 6px 6px rgba(0,0,0,0.5);
+    &.promo-lbl-XXXL {
+        font-size: 96px;
+        letter-spacing: -0.8px;
+        line-height: 102px;
     }
 
-    &.promo-lbl-XL{
-      // text-shadow: 5px 5px rgba(0,0,0,0.5);
+    &.promo-lbl-XXL {
+        font-size: 72px;
+        letter-spacing: -0.6px;
+        line-height: 74px;
     }
 
-    &.promo-lbl-L{
-      // text-shadow: 4px 4px rgba(0,0,0,0.5);
+    &.promo-lbl-XL {
+        font-size: 50px;
+        letter-spacing: -0.6px;
+        line-height: 52px;
     }
 
-    &.promo-lbl-M{
-      // text-shadow: 4px 4px rgba(0,0,0,0.5);
+    &.promo-lbl-L {
+        font-size: 44px;
+        letter-spacing: -0.52px;
+        line-height: 46px;
     }
 
-    &.promo-lbl-S{
-      // text-shadow: 3px 3px rgba(0,0,0,0.5);
+    &.promo-lbl-M {
+        font-size: 36px;
+        letter-spacing: -0.43px;
+        line-height: 38px;
     }
-  }
+
+    &.promo-lbl-MS {
+        font-size: 24px;
+        letter-spacing: -0.43px;
+        line-height: 26px;
+    }
+
+    &.promo-lbl-S {
+        font-size: 20px;
+        letter-spacing: -0.24px;
+        line-height: 24px;
+
+        &.promo-display {
+            text-shadow: .2rem .2rem rgba(0, 0, 0, 0.5);
+        }
+    }
+
+    &.promo-lbl-light {
+        color: #fff;
+    }
+
+    &.promo-display {
+        text-transform: uppercase;
+        color: $color-white;
+
+        &.promo-lbl-XXL {
+            // text-shadow: 6px 6px rgba(0,0,0,0.5);
+        }
+
+        &.promo-lbl-XL {
+            // text-shadow: 5px 5px rgba(0,0,0,0.5);
+        }
+
+        &.promo-lbl-L {
+            // text-shadow: 4px 4px rgba(0,0,0,0.5);
+        }
+
+        &.promo-lbl-M {
+            // text-shadow: 4px 4px rgba(0,0,0,0.5);
+        }
+
+        &.promo-lbl-S {
+            // text-shadow: 3px 3px rgba(0,0,0,0.5);
+        }
+    }
 }
 
 // Promo Label
-.marketing-lbl{
-  text-transform: uppercase;
-  color: $color-penneyred;
-  font-size: 16px;
-  line-height: 24px;
-  // font-family: $font-headline;
-  font-weight: $font-weight-bold;
+.marketing-lbl {
+    text-transform: uppercase;
+    color: $color-penneyred;
+    font-size: 16px;
+    line-height: 24px; // font-family: $font-headline;
+    font-weight: $font-weight-bold;
 
-  &.marketing-lbl-S{
-    font-size: 12px;
-    line-height: 16px;
-  }
+    &.marketing-lbl-S {
+        font-size: 12px;
+        line-height: 16px;
+    }
 }
 
 // Alignment
-.algn-lft{
-  text-align: left;
+.algn-lft {
+    text-align: left;
 }
 
-.algn-mid{
-  text-align: center;
+.algn-mid {
+    text-align: center;
 }
 
-.algn-rght{
-  text-align: right;
+.algn-rght {
+    text-align: right;
 }
 
 @include breakpoint(small only) {
-  .algn-lft-S{
-    text-align: left;
-  }
-  .algn-mid-S{
-    text-align: center;
-  }
-  .algn-rght-S{
-    text-align: right;
-  }
+    .algn-lft-S {
+        text-align: left;
+    }
+    .algn-mid-S {
+        text-align: center;
+    }
+    .algn-rght-S {
+        text-align: right;
+    }
 }
 
 
 // Maximum readable line length
 .txt-max-width {
-  max-width: 600px;
+    max-width: 600px;
 }
 
 // All Caps
 .txt-caps {
-  text-transform: uppercase;
+    text-transform: uppercase;
 }
 
 .txt-bold {
-  font-weight: bold;
+    font-weight: bold;
 }

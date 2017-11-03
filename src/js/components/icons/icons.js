@@ -202,7 +202,7 @@ componentDidMount() {
             <h3 className="title title-L mrg-L">When to Use</h3>
             <p>Icons are powerful visual helpers, and should be used with care. Overuse quickly results in UIs that are visually overwhelming or distracting.</p>
             <p>Icons are commonly used:</p>
-            <ul>
+            <ul className="list txt-max-width color-slate">
                 <li>In primary navigation</li>
                 <li>In page headers and section titles</li>
                 <li>In banners to bring attention to a specific theme (an announcement, an error, etc.)</li>
