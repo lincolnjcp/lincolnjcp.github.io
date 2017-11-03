@@ -19,9 +19,9 @@
     -webkit-transition: ease-out 750ms;
     transition: ease-out 750ms;
   }
-  .loader-spin .loader-logo {
+  .loader-spin .loader-circle {
     position: relative;
-    left: 50%;
+    left: 40%;
     top: 53px;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
