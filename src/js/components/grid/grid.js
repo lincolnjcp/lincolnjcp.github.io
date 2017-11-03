@@ -118,7 +118,7 @@ The screen sizes were determined by a combination of common screen resolutions, 
             <div className="mrg-M"><img src="/images/design-system/grids/grid-horizontal-grid-2.jpg" alt="" /></div>
 
             <h5 className="title title-M mrg-S">****How a Grid works in Code</h5>
-            <p>Within frameworks columns typically have gutters on either side of the column. This will not change the way pages are designed just good to understand how Sketch simplifies the grid.</p>
+            <p className="mrg-M">Within frameworks columns typically have gutters on either side of the column. This will not change the way pages are designed just good to understand how Sketch simplifies the grid.</p>
             
             <div className="design-system-grid-preview">
                 <div className="row">
@@ -136,13 +136,13 @@ The screen sizes were determined by a combination of common screen resolutions, 
                     <div className="small-1 columns last"><div className="design-system-preview-inner"></div></div>
                 </div>
             </div>
-            <div className="design-system-grid-preview-labels">
+            <div className="design-system-grid-preview-labels mrg-L">
                 <div className="design-system-grid-preview-label-gutter">Gutter</div>
                 <div className="design-system-grid-preview-label-column">Column</div>
             </div>
 
             <h5 className="title title-M mrg-S">Column Composition</h5>
-            <p>Columns Flex with the device width, gutters remain fixed unless transitioning between breakpoints, for example from small to medium.</p>
+            <p className="mrg-M">Columns Flex with the device width, gutters remain fixed unless transitioning between breakpoints, for example from small to medium.</p>
             <div className="mrg-M"><img src="/images/design-system/grids/grid-horizontal-grid-4.jpg" alt="" /></div>
             <hr />
         </div>
@@ -151,7 +151,7 @@ The screen sizes were determined by a combination of common screen resolutions, 
     <div className="row" id="vertical-grid">
         <div className="small-12 columns">
             <h3 className="title title-L mrg-L">Vertical Grid</h3>
-            <p>Our vertical baseline grid is the key to achieving vertical rhythm. Vertical rhythm is the balanced spacing of elements as the user moves down the page. It is created by three factors: font size, line height and margin or padding. The diagram below shows how vertical spacing in 10-pixel increments helps create hierarchy and harmony between text and containers. The 10px increment was determined by the base unit</p>
+            <p className="mrg-M">Our vertical baseline grid is the key to achieving vertical rhythm. Vertical rhythm is the balanced spacing of elements as the user moves down the page. It is created by three factors: font size, line height and margin or padding. The diagram below shows how vertical spacing in 10-pixel increments helps create hierarchy and harmony between text and containers. The 10px increment was determined by the base unit</p>
             <div className="mrg-M"><img src="/images/design-system/grids/grid-vertical-grid.jpg" alt="" /></div>
             <hr />
         </div>
@@ -160,13 +160,13 @@ The screen sizes were determined by a combination of common screen resolutions, 
     <div className="row" id="documentation">
         <div className="small-12 columns">
             <h3 className="title title-L mrg-L">Documentation &amp; Articles</h3>
-            <p>General Breakdown of Spacing in Interactive Design<br />
+            <p className="mrg-M">General Breakdown of Spacing in Interactive Design<br />
             <a href="https://medium.com/eightshapes-llc/space-in-design-systems-188bcbae0d62#.u17jakpj2" target="_blank">https://medium.com/eightshapes-llc/space-in-design-systems-188bcbae0d62#.u17jakpj2</a><br /><br />
             </p>
-            <p>Material Designs Approach and Documentation of Units of Measurement<br />
+            <p className="mrg-M">Material Designs Approach and Documentation of Units of Measurement<br />
             <a href="https://material.google.com/layout/units-measurements.html#units-measurements-designing-layouts-for-dp" target="_blank">https://material.google.com/layout/units-measurements.html#units-measurements-designing-layouts-for-dp</a><br /><br />
             </p>
-            <p>Most Common Device Sizes</p>
+            <p className="mrg-M">Most Common Device Sizes</p>
             <div className="mrg-M"><img src="/images/design-system/grids/grid-documentation.jpg" alt="" /></div>
         </div>
     </div>

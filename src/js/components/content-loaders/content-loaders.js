@@ -54,8 +54,8 @@ class ContentLoaders extends Component {
 
                 <div className="row" id="types">
                     <div className="small-12 columns">
-                        <h3 className="title title-L mrg-L">Types</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <h3 className="title title-L mrg-M">Types</h3>
+                        <p className="mrg-L txt-max-width">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                         <div className="small-12 medium-12 columns">
                             <div className="small-12 medium-4 columns">
                                 <div className="loader-container">
@@ -72,7 +72,7 @@ class ContentLoaders extends Component {
                             </div>
                             <div className="small-12 medium-8 columns">
                                 <h4 className="title title-M mrg-L">Page</h4>
-                                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec ullamcorper nulla non metus auctor fringilla. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. <br /><br /><br /><br /></p>
+                                <p className="txt-max-width">Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec ullamcorper nulla non metus auctor fringilla. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. <br /><br /><br /><br /></p>
                             </div>
                         </div>
                         <div className="small-12 medium-12 columns">
@@ -90,7 +90,7 @@ class ContentLoaders extends Component {
                             </div>
                             <div className="small-12 medium-8 columns">
                                 <h4 className="title title-M mrg-L">Progress</h4>
-                                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec ullamcorper nulla non metus auctor fringilla. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. <br /><br /><br /><br /></p>
+                                <p className="txt-max-width">Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec ullamcorper nulla non metus auctor fringilla. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. <br /><br /><br /><br /></p>
                             </div>
                         </div>
                         <div className="small-12 medium-12 columns section-container">
@@ -101,7 +101,7 @@ class ContentLoaders extends Component {
                             </div>
                             <div className="small-12 medium-8 columns">
                                 <h4 className="title title-M mrg-L">Section</h4>
-                                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec ullamcorper nulla non metus auctor fringilla. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. <br /><br /></p>
+                                <p className="txt-max-width">Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec ullamcorper nulla non metus auctor fringilla. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. <br /><br /></p>
                             </div>
                         </div>
                     </div>

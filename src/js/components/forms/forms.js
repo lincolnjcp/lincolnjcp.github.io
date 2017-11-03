@@ -31,7 +31,7 @@ class Forms extends Component {
                 <div className="row" id="appearance">
                     <div className="small-12 columns">
                         <h3 className="title title-L mrg-L">Appearance</h3>
-                        <p>Vestibulum id ligula porta felis euismod semper. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. <br/><br/><br/> </p>
+                        <p className="txt-max-width">Vestibulum id ligula porta felis euismod semper. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. <br/><br/><br/> </p>
                         <div className="small-12 medium-12 columns email-form">
                             <div className="small-12 medium-4 columns">
                                 <span className="email-label hide">Email</span>
@@ -39,7 +39,7 @@ class Forms extends Component {
                             </div>
                             <div className="small-12 medium-8 columns">
                                 <h4 className="title title-M mrg-L">Text Field</h4>
-                                <p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus.<br /><br /><br /><br /></p>
+                                <p className="txt-max-width">Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus.<br /><br /><br /><br /></p>
                             </div>
                         </div>
                         <div className="small-12 medium-12 columns select-form">
@@ -63,7 +63,7 @@ class Forms extends Component {
                             </div>
                             <div className="small-12 medium-8 columns">
                                 <h4 className="title title-M mrg-L">Select Input</h4>
-                                <p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus.<br /><br /><br /><br /></p>
+                                <p className="txt-max-width">Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus.<br /><br /><br /><br /></p>
                             </div>
                         </div>
                     </div>

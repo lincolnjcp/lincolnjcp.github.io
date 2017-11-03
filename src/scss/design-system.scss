@@ -25,7 +25,7 @@
     width: 100%;
     line-height: 56px;
     text-align: center;
-    color: #fff;
+    color: $color-white;
 }
 
 
@@ -132,7 +132,7 @@
         input[type=text] {
             background-color: $color-design-system-search;
             width: 100%;
-            color: #FFF;
+            color: $color-white;
             border: none;
             padding: 5px 15px 5px;
 
@@ -346,19 +346,6 @@
     }
 }
 
-.design-system-inner-content ul {
-    color: #626e78;
-    margin: 30px 0;
-    max-width: 575px;
-
-    li {
-        list-style-type: disc;
-        margin: 15px 0 15px 34px;
-        padding-left: 15px;
-        line-height: 20px;
-    }
-}
-
 .design-system-css-class {
     color: $color-penneyred;
     background-color: $color-lightgrey;
@@ -388,9 +375,9 @@
 }
 
 .design-system-placeholder {
-    background-color: #d8d8d8;
+    background-color: $color-concrete;
     padding: 60px 10px;
-    color: #626e78;
+    color: $color-slate;
     text-align: center;
 }
 
@@ -412,7 +399,7 @@
         a {
             display: inline-block;
             padding: 5px 15px;
-            border: solid 1px #d8d8d8;
+            border: solid 1px $color-concrete;
             border-radius: 4px;
             text-decoration: none;
             color: $color-design-system-nav;
@@ -420,8 +407,8 @@
 
             &.active {
                 color: $color-white;
-                background-color: #000;
-                border: 1px solid #000;
+                background-color: $color-nightsky;
+                border: 1px solid $color-nightsky;
             }
 
             &.left {
@@ -468,7 +455,7 @@
     .design-system-grid-preview-label-gutter, .design-system-grid-preview-label-column {
         position: absolute;
         top: 10px;
-        left: 4.5%;
+        left: 5.5%;
         font-size: 13px;
     }
     .design-system-grid-preview-label-gutter {
@@ -554,7 +541,7 @@
         .code-generator-right {
             width: 30%;
             flex: 0 0 300px;
-            border-left: solid 1px #d8d8d8;
+            border-left: solid 1px $color-concrete;
         }
         .code-generator-left {
             width: 70%;
@@ -587,7 +574,7 @@
     float: right;
     width: 100%;
     .color-picker-icon {
-        border: 2px solid #FFF;
+        border: 2px solid $color-white;
         display: inline-block;
         width: 36px;
         height: 36px;
@@ -604,7 +591,7 @@
             border: 2px solid $color-white;
         }
         &.selected {
-            border: 2px solid #000;
+            border: 2px solid $color-nightsky;
         }
     }
 }
