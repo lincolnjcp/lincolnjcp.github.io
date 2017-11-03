@@ -179,18 +179,17 @@ class Forms extends Component {
                             <div className="small-12 medium-4 columns">
                                 <div className="form-group input-group">
                                     <span className="has-float-label">
-                                        <input type="text" id="phone-number" name="phone" maxLength="14" placeholder="Phone" />
-                                        <label htmlFor="phone">Phone</label>
+                                        <input className="form-control email-text" id="phone-number" maxlength="14" type="text" placeholder="( ___ ) ___-____" />
+                                        <label htmlFor="Phone">Phone Number</label>
                                     </span>
                                 </div>
                             </div>
                             <div className="small-12 medium-8 columns">
-                                <h4 className="title title-M mrg-L">Text Field</h4>
+                                <h4 className="title title-M mrg-L">Phone Number</h4>
                                 <p className="txt-max-width">Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus.<br /><br /><br /></p>
                             </div>
                         </div>
                     </div>
-                    <hr />
                 </div>
             </div>
         );
