@@ -8,7 +8,7 @@
   border-radius: $border-radius-M;
   padding: 8px 22px 8px 16px;
   position: relative;
-  line-height: 1.5;
+  line-height: 24px;
 
   a{
     color: inherit;
@@ -44,13 +44,13 @@
 
   .msg-close{
     position: absolute;
-    top: 4px;
+    top: 8px;
     display: block;
     right: 4px;
     cursor: pointer;
     background: url($path-images + "global/icons/nav/close.svg") no-repeat;
-    width: 16px;
-    height: 16px;
+    width: 24px;
+    height: 24px;
     background-size: contain;
     padding: 0;
   }
