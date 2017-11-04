@@ -44,7 +44,7 @@ componentDidMount() {
     <p className="S">That’s it! You’re done with that ancient comforter on your bed! You want a <a href="#">fresh pop</a> of style, a cool contemporary look, and a surprising splash... <em>now with emphasis!</em></p>
 
 
-    <p className="anno">Marketing Labels</p>
+    <p className="anno">Promo Labels</p>
     <h2 className="promo-lbl promo-lbl-L mrg-S"><span className="color-penneyred">Extra 20% Off</span> <br />
     Women’s Clothing</h2>
     <h3 className="promo-lbl promo-lbl-S mrg-XL">+ get an extra 10% off with your JCPenney Credit Card</h3>
@@ -62,6 +62,11 @@ componentDidMount() {
       <h2 className="promo-lbl promo-display promo-lbl-M">30% off!</h2>
       <h2 className="promo-lbl promo-display promo-lbl-S">30% off!</h2>
     </div>
+
+    <p className="anno">Marketing Labels</p>
+    <h3 className="marketing-lbl">BOGO 50% off</h3>
+    <h3 className="marketing-lbl">Clearance</h3>
+    <h3 className="marketing-lbl">With Code Fundeal</h3>
 
     <p className="anno">Radio Buttons</p>
 
