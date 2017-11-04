@@ -13,7 +13,7 @@ componentDidMount() {
         <div className="small-12 columns">
 <h1 className="promo-lbl promo-lbl-L">Lincoln Design System</h1>
 
-   
+
     <p className="anno">Price Text Styles</p>
     <h2 className="price price-XL">$75.00 - XL</h2>
     <h2 className="price price-L">$65.00 - L</h2>
@@ -855,6 +855,13 @@ componentDidMount() {
         </div>
       </div>
     </div>
+
+    <div className="anno">Text Buttons</div>
+    <button className="txt-btn">Button</button>
+    <a href="#" className="txt-btn">Button</a>
+    <button className="txt-btn" disabled>Disabled</button>
+    <button className="txt-btn txt-btn-S">Small Button</button>
+    <button className="txt-btn txt-btn-S" disabled>Small Button</button>
     </div>
     </div>
 

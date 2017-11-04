@@ -222,3 +222,29 @@ button{
             transition: all 0.3s ease-in-out;
   }
 }
+
+// Text Buttons
+a.txt-btn,
+.txt-btn{
+  line-height: 36px;
+  font-size: 16px;
+	min-width: 91px;
+  padding: 0 8px;
+	font-family: $font-headline;
+	letter-spacing: -0.4px;
+	text-align: center;
+	color: $color-nightsky;
+  text-decoration: none;
+  transition: color .25s ease-in-out;
+    -webkit-transition: color .25s ease-in-out;
+  display: inline-block;
+
+  &:hover{
+    color: $color-slate;
+  }
+
+  &.txt-btn-S{
+    font-size: 14px;
+	  letter-spacing: -0.3px;
+  }
+}
