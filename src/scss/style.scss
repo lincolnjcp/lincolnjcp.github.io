@@ -6,15 +6,15 @@
 @import 'helpers/_init';
 
 @include foundation-global-styles;
-@include foundation-grid; 
+@include foundation-grid;
 @include foundation-visibility-classes;
- 
+
 
 /* ---
 Base Styles
---- */ 
+--- */
 @import "base/_reset";
-@import "base/_type"; 
+@import "base/_type";
 @import "base/_colors";
 
 
@@ -23,15 +23,15 @@ Base Styles
 @import "base/_flags";
 @import "base/_forms";
 @import "base/_frames";
-@import "base/_icons"; 
-@import "base/_layout"; 
+@import "base/_icons";
+@import "base/_layout";
 @import "base/_messages";
 @import "base/_modal";
 @import "base/_product";
-@import "base/_tabs"; 
-@import "base/_tables"; 
-@import "base/_wells"; 
-@import "base/_loaders"; 
-@import "base/_loaders"; 
-@import "base/_content-forms"; 
-
+@import "base/_tabs";
+@import "base/_tables";
+@import "base/_wells";
+@import "base/_loaders";
+@import "base/_loaders";
+@import "base/_content-forms";
+@import "base/_progressbars"; 

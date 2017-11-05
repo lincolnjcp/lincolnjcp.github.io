@@ -867,6 +867,23 @@ componentDidMount() {
     <button className="txt-btn" disabled>Disabled</button>
     <button className="txt-btn txt-btn-S">Small Button</button>
     <button className="txt-btn txt-btn-S" disabled>Small Button</button>
+
+
+    <div className="anno">Progress Bars</div>
+    <p className="std-txt std-txt-M color-nightsky">Spend <strong>$83.00</strong> more to Ship to Home FREE</p>
+    <div className="progress-bar">
+      <div className="progress-bar-percent"></div>
+    </div>
+    <p>(will need inline style built into React component)</p>
+
+    <hr></hr>
+    <p className="std-txt std-txt-M color-nightsky">Points</p>
+    <div className="progress-bar progress-bar-rewards">
+      <span className="progress-bar-max-points">200</span>
+      <div className="progress-bar-percent">165</div>
+    </div>
+    <p className="S">35 points away from your next $10 reward*</p>
+
     </div>
     </div>
 
