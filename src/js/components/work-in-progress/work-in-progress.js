@@ -862,7 +862,7 @@ componentDidMount() {
     </div>
 
     <div className="anno">Icon Buttons</div>
-    
+
 
     <div className="anno">Text Buttons</div>
     <button className="txt-btn">Button</button>
@@ -886,6 +886,28 @@ componentDidMount() {
       <div className="progress-bar-percent">165</div>
     </div>
     <p className="S">35 points away from your next $10 reward*</p>
+
+    <p className="anno">Color Swatches</p>
+    <ul className="color-swatch-container">
+      <li>
+        <div className="color-swatch color-swatch-active"></div>
+      </li>
+      <li>
+        <div className="color-swatch"></div>
+      </li>
+      <li>
+        <div className="color-swatch"></div>
+      </li>
+      <li>
+        <div className="color-swatch"></div>
+      </li>
+      <li>
+        <div className="color-swatch color-swatch-oos"></div>
+      </li>
+      <li>
+        <div className="color-swatch color-swatch-active color-swatch-oos"></div>
+      </li>
+    </ul>
 
     </div>
     </div>

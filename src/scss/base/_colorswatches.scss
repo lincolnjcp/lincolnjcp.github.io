@@ -1,0 +1,67 @@
+/***************************************************
+/* Colors Swatches
+/* Found on PDP
+***************************************************/
+
+.color-swatch-container{
+  li{
+    display: inline-block;
+    margin-right: 8px;
+  }
+
+  li:focus{
+    @include focus;
+  }
+
+  .color-swatch{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    cursor: pointer;
+    overflow: hidden;
+    box-shadow: inset 0px 0px 0px 2px $color-white;
+    border: 1px solid $color-concrete;
+    background-color: $color-lightgrey; //Default background color
+    @include transition(border-color .25s ease-in-out);
+
+
+    &:hover{
+      border-color: $color-slate;
+    }
+
+    &.color-swatch-active{
+      border: 2px solid $color-nightsky;
+
+      &.color-swatch-oos:hover{
+        border-color: $color-nightsky;
+      }
+
+      &.color-swatch-oos:after{
+        border-color: $color-nightsky;
+      }
+    }
+
+    &.color-swatch-oos{
+      cursor: not-allowed;
+
+      &:after{
+        content: " ";
+        top: -6px;
+        left: 50%;
+        position: absolute;
+        display: block;
+        width: 4px;
+        height: 48px;
+        border-right: 1px solid $color-concrete;
+        border-left: 1px solid $color-concrete;
+        background-color: $color-white;
+        @include transform(rotate(45deg));
+      }
+
+      &:hover{
+        border-color: $color-concrete;
+      }
+    }
+  }
+}
