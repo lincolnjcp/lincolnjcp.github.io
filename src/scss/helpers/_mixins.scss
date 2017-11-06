@@ -25,6 +25,16 @@
          transform:  $transform;
 }
 
+@mixin focus(){
+  border: 2px dashed $color-neutral-type;
+  outline: none;
+  padding: 2px;
+  -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+      -o-box-sizing: border-box;
+         box-sizing: border-box;
+}
+
 /***************************************************
 /* Elevation
 /* Box shadows for buttons, dropdowns, etc
