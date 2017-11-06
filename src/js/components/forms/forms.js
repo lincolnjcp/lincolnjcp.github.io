@@ -4,7 +4,8 @@ import CodeGenerator from '../../containers/CodeGenerator.js';
 
 import $ from 'jquery'
 
-const tooltipIcon = require('!!raw-loader?es5=1!../../../images/global/icons/action/tooltip.svg');
+const searchIcon = require('!!raw-loader?es5=1!../../../images/global/icons/action/search.svg');
+// const tooltipIcon = require('!!raw-loader?es5=1!../../../images/global/icons/action/tooltip.svg');
 
 class Forms extends Component {
 
@@ -318,7 +319,7 @@ class Forms extends Component {
                                         <input className="form-control input-text" id="date" maxlength="5" type="text" placeholder="Birthday (Optional)" />
                                         <label htmlFor="date">Birthday (Optional)</label>
                                     </span>
-                                    <span className="icon color-lipstick-svg" dangerouslySetInnerHTML={{ __html: tooltipIcon }} />
+                                    {/* <span className="icon" dangerouslySetInnerHTML={{ __html: tooltipIcon }} /> */}
                                 </div>
                             </div>
                             <div className="small-12 medium-8 columns">
