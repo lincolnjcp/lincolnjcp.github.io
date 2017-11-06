@@ -61,9 +61,9 @@ class ContentLoaders extends Component {
                                 <div className="loader-container">
                                     <div className="loader-spin">
                                         <div className="loader-circle">
-                                                <svg className="loader-circle-spinner" viewBox="0 0 500 500">
-                                                    <circle cx="250" cy="250" r="239"> </circle>
-                                                </svg>
+                                            <svg className="loader-circle-spinner" viewBox="0 0 500 500">
+                                                <circle cx="250" cy="250" r="239"> </circle>
+                                            </svg>
                                         </div>
                                     </div>
                                 </div>

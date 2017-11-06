@@ -1,17 +1,16 @@
 /***************************************************
 /* Forms
 ***************************************************/
-.email-form, .phone-form {
+.input-form {
   position: relative;
   input::-webkit-input-placeholder {
       font-size: 16px;
       font-style: normal;
       color: $color-nightsky;
   }
-  .email-text {
-    border: 1px solid $color-concrete;
-    width: 100%;
-  }
+}
+
+.input-form{
   .input-group {
     .has-float-label {
       display: inline-block;
@@ -22,8 +21,36 @@
         top: 0.8em;
       }
     }
+    .input-text {
+      border: 1px solid $color-concrete;
+      width: 100%;
+    }
+    input[type="password"] {
+      height: 40px;
+      padding-left: 8px;
+      display: inline-block;
+      border-radius: 4px;
+    }
+    .search-icon {
+      position: absolute;
+      right: 0;
+      border-left: 1px solid $color-concrete;
+    }
+    .search-btn {
+      position: absolute;
+      right: -1px;
+      top: 0px;
+      height: 40px;
+      min-width: auto;
+      font-weight: bold;
+      border-radius: 0px 8px 8px 0px;
+      &:hover {
+        border-radius: 0px 8px 8px 0px;
+      }
+    }
   }
 }
+
 .select-form {
   .select {
     overflow: visible;
@@ -31,6 +58,7 @@
     padding: 8px 6px;
     select {
       line-height: 30px;
+      min-width: auto;
     }
     .has-float-label {
       span {
@@ -56,6 +84,14 @@
         width: 100%;
       }
     }
+  }
+}
+
+.password-form {
+  .show-pwd {
+    position: absolute;
+    right: 10px;
+    top: 10px;
   }
 }
 
@@ -103,18 +139,6 @@
   font-size: 150%;
   opacity: .5;
   top: .3em
-}
-.input-group .has-float-label {
-  display: table-cell
-}
-.input-group .has-float-label .form-control {
-  border-radius: .25rem
-}
-.input-group .has-float-label:not(:last-child),
-.input-group .has-float-label:not(:last-child) .form-control {
-  border-bottom-right-radius: 0;
-  border-top-right-radius: 0;
-  border-right: 0
 }
 .input-group .has-float-label:not(:first-child),
 .input-group .has-float-label:not(:first-child) .form-control {
