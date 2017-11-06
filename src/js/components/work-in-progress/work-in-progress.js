@@ -861,6 +861,9 @@ componentDidMount() {
       </div>
     </div>
 
+    <div className="anno">Icon Buttons</div>
+    
+
     <div className="anno">Text Buttons</div>
     <button className="txt-btn">Button</button>
     <a href="#" className="txt-btn">Button</a>
