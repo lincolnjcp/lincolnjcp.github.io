@@ -139,13 +139,25 @@ class Forms extends Component {
                             <div className="small-12 medium-4 columns">
                                 <div className="form-group input-group">
                                     <div className="mrg-XL">
-                                        <input type="radio" id="one" name="name" value="" defaultChecked="true" />
-                                        <label htmlFor="one">Ship to Home<br />
+                                        <input type="radio" id="two" name="name" value="" defaultChecked="true" />
+                                        <label htmlFor="two">
+                                            <p className="std-txt std-txt-M"><span className="color-penneyred">FREE</span> Store Pickup Today at <br /><a href="#">Stonebriar Mall</a></p>
+                                        </label>
+                                    </div>
+                                    <div className="mrg-XL">
+                                        <input type="radio" disabled id="three" name="name" value="" />
+                                        <label htmlFor="three">
                                             <span className="std-txt">Arrives May 5th - May 23rd</span></label>
                                     </div>
                                     <div className="mrg-XL">
-                                        <input type="radio" id="one" name="name" value="" defaultChecked="true" />
-                                        <label htmlFor="one">
+                                        <input type="radio" id="two" name="name" value="" defaultChecked="true" />
+                                        <label htmlFor="two">
+                                            <p className="std-txt std-txt-M"><span className="color-penneyred">FREE</span> Store Pickup Today at <br /><a href="#">Stonebriar Mall</a></p>
+                                        </label>
+                                    </div>
+                                    <div className="mrg-XL">
+                                        <input type="radio" disabled id="three" name="name" value="" />
+                                        <label htmlFor="three">
                                             <p className="std-txt std-txt-M"><span className="color-penneyred">FREE</span> Store Pickup Today at <br /><a href="#">Stonebriar Mall</a></p>
                                         </label>
                                     </div>
@@ -276,7 +288,7 @@ class Forms extends Component {
                                         <input className="form-control input-text" id="search" type="text" placeholder="Search Products" />
                                         <label htmlFor="search">Search Products</label>
                                     </span>
-                                    <span className="icon search-icon color-lipstick-svg" dangerouslySetInnerHTML={{__html: searchIcon}} />
+                                    <span className="icon search-icon color-lipstick-svg" dangerouslySetInnerHTML={{ __html: searchIcon }} />
                                 </div>
                             </div>
                             <div className="small-12 medium-8 columns">
@@ -306,7 +318,7 @@ class Forms extends Component {
                                         <input className="form-control input-text" id="date" maxlength="5" type="text" placeholder="Birthday (Optional)" />
                                         <label htmlFor="date">Birthday (Optional)</label>
                                     </span>
-                                    <span className="icon color-lipstick-svg" dangerouslySetInnerHTML={{__html: tooltipIcon}} />
+                                    <span className="icon color-lipstick-svg" dangerouslySetInnerHTML={{ __html: tooltipIcon }} />
                                 </div>
                             </div>
                             <div className="small-12 medium-8 columns">
