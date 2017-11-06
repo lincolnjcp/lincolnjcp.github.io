@@ -1,5 +1,11 @@
 import React, { Component } from 'react';
+
+import CodeGenerator from '../../containers/CodeGenerator.js';
+
 import $ from 'jquery'
+
+const searchIcon = require('!!raw-loader?es5=1!../../../images/global/icons/action/search.svg');
+// const tooltipIcon = require('!!raw-loader?es5=1!../../../images/global/icons/action/tooltip.svg');
 
 class Forms extends Component {
 
@@ -76,11 +82,11 @@ class Forms extends Component {
                     <div className="small-12 columns">
                         <h3 className="title title-L mrg-L">Appearance</h3>
                         <p className="txt-max-width">Vestibulum id ligula porta felis euismod semper. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. <br /><br /><br /> </p>
-                        <div className="small-12 medium-12 columns email-form">
+                        <div className="small-12 medium-12 columns input-form">
                             <div className="small-12 medium-4 columns">
                                 <div className="form-group input-group">
                                     <span className="has-float-label">
-                                        <input className="form-control email-text" id="email" type="text" placeholder="example@email.com" />
+                                        <input className="form-control email-text input-text" id="email" type="text" placeholder="example@email.com" />
                                         <label htmlFor="email">Email</label>
                                     </span>
                                 </div>
@@ -134,8 +140,14 @@ class Forms extends Component {
                             <div className="small-12 medium-4 columns">
                                 <div className="form-group input-group">
                                     <div className="mrg-XL">
-                                        <input type="radio" id="one" name="name" value="" defaultChecked="true" />
-                                        <label htmlFor="one">Ship to Home<br />
+                                        <input type="radio" id="two" name="name" value="" defaultChecked="true" />
+                                        <label htmlFor="two">
+                                            <p className="std-txt std-txt-M"><span className="color-penneyred">FREE</span> Store Pickup Today at <br /><a href="#">Stonebriar Mall</a></p>
+                                        </label>
+                                    </div>
+                                    <div className="mrg-XL">
+                                        <input type="radio" disabled id="three" name="name" value="" />
+                                        <label htmlFor="three">
                                             <span className="std-txt">Arrives May 5th - May 23rd</span></label>
                                     </div>
                                     <div className="mrg-XL">
@@ -181,17 +193,137 @@ class Forms extends Component {
                                 <p className="txt-max-width">Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus.<br /><br /><br /></p>
                             </div>
                         </div>
-                        <div className="small-12 medium-12 columns phone-form">
+                        <div className="small-12 medium-12 columns input-form">
                             <div className="small-12 medium-4 columns">
                                 <div className="form-group input-group">
                                     <span className="has-float-label">
-                                        <input className="form-control email-text" id="phone-number" maxlength="14" type="text" placeholder="( ___ ) ___-____" />
+                                        <input className="form-control input-text" id="phone-number" maxlength="14" type="text" placeholder="( ___ ) ___-____" />
                                         <label htmlFor="Phone">Phone Number</label>
                                     </span>
                                 </div>
                             </div>
                             <div className="small-12 medium-8 columns">
                                 <h4 className="title title-M mrg-L">Phone Number</h4>
+                                <p className="txt-max-width">Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus.<br /><br /><br /></p>
+                            </div>
+                        </div>
+                        <div className="small-12 medium-12 columns input-form">
+                            <div className="small-12 medium-4 columns">
+                                <div className="form-group input-group">
+                                    <span className="has-float-label">
+                                        <input className="form-control creditcard-text input-text" id="creditcard" maxlength="16" type="text" placeholder="8888 8888 888" />
+                                        <label htmlFor="creditcard">Card Number</label>
+                                    </span>
+                                </div>
+                            </div>
+                            <div className="small-12 medium-8 columns">
+                                <h4 className="title title-M mrg-L">Credit Card</h4>
+                                <p className="txt-max-width">Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus.<br /><br /><br /></p>
+                            </div>
+                        </div>
+                        <div className="small-12 medium-12 columns input-form password-form">
+                            <div className="small-12 medium-4 columns">
+                                <div className="form-group input-group position-rel">
+                                    <span className="has-float-label">
+                                        <input className="form-control input-text" id="password" maxlength="16" type="password" placeholder="••••••••••" />
+                                        <label htmlFor="password">Password</label>
+                                    </span>
+                                    <a href="javascript:void(0);" className="show-pwd">show</a>
+                                </div>
+                            </div>
+                            <div className="small-12 medium-8 columns">
+                                <h4 className="title title-M mrg-L">Password</h4>
+                                <p className="txt-max-width">Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus.<br /><br /><br /></p>
+                            </div>
+                        </div>
+                        <div className="small-12 medium-12 columns select-form">
+                            <div className="small-2 medium-2 large-2 x-large-2 columns select">
+                                <label className="form-group has-float-label">
+                                    <select className="form-control custom-select">
+                                        <option value=''>Month</option>
+                                        <option value='1'>01</option>
+                                        <option value='2'>02</option>
+                                        <option value='3'>03</option>
+                                        <option value='4'>04</option>
+                                        <option value='5'>05</option>
+                                        <option value='6'>06</option>
+                                        <option value='7'>07</option>
+                                        <option value='8'>08</option>
+                                        <option value='9'>09</option>
+                                        <option value='10'>10</option>
+                                        <option value='11'>11</option>
+                                        <option value='12'>12</option>
+                                    </select>
+                                    <span>Month</span>
+                                </label>
+                            </div>
+                            <div className="small-2 medium-2 large-2 x-large-2 columns select">
+                                <label className="form-group has-float-label">
+                                    <select className="form-control custom-select">
+                                        <option value=''>Year</option>
+                                        <option value='1'>2001</option>
+                                        <option value='2'>2002</option>
+                                        <option value='3'>2003</option>
+                                        <option value='4'>2004</option>
+                                        <option value='5'>2005</option>
+                                        <option value='6'>2006</option>
+                                        <option value='7'>2007</option>
+                                        <option value='8'>2008</option>
+                                        <option value='9'>2009</option>
+                                        <option value='10'>2010</option>
+                                        <option value='11'>2011</option>
+                                        <option value='12'>2012</option>
+                                    </select>
+                                    <span>year</span>
+                                </label>
+                            </div>
+                            <div className="small-12 medium-8 columns">
+                                <h4 className="title title-M mrg-L">Condensed Fields</h4>
+                                <p className="txt-max-width">Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus.<br /><br /><br /></p>
+                            </div>
+                        </div>
+                        <div className="small-12 medium-12 columns input-form">
+                            <div className="small-12 medium-4 columns">
+                                <div className="form-group input-group position-rel">
+                                    <span className="has-float-label">
+                                        <input className="form-control input-text" id="search" type="text" placeholder="Search Products" />
+                                        <label htmlFor="search">Search Products</label>
+                                    </span>
+                                    <span className="icon search-icon color-lipstick-svg" dangerouslySetInnerHTML={{ __html: searchIcon }} />
+                                </div>
+                            </div>
+                            <div className="small-12 medium-8 columns">
+                                <h4 className="title title-M mrg-L">Search Box</h4>
+                                <p className="txt-max-width">Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus.<br /><br /><br /></p>
+                            </div>
+                        </div>
+                        <div className="small-12 medium-12 columns input-form">
+                            <div className="small-12 medium-4 columns">
+                                <div className="form-group input-group position-rel">
+                                    <span className="has-float-label">
+                                        <input className="form-control input-text" id="zipcode" maxlength="16" type="text" placeholder="Enter Code" />
+                                        <label htmlFor="zipcode">Enter Code</label>
+                                        <a href="javascript:void();" class="btn btn-S btn-primary search-btn">Apply</a>
+                                    </span>
+                                </div>
+                            </div>
+                            <div className="small-12 medium-8 columns">
+                                <h4 className="title title-M mrg-L">Inline Action</h4>
+                                <p className="txt-max-width">Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus.<br /><br /><br /></p>
+                            </div>
+                        </div>
+                        <div className="small-12 medium-12 columns input-form">
+                            <div className="small-12 medium-4 columns">
+                                <div className="form-group input-group position-rel">
+                                    <span className="has-float-label">
+                                        <input className="form-control input-text" id="date" maxlength="5" type="text" placeholder="Birthday (Optional)" />
+                                        <label htmlFor="date">Birthday (Optional)</label>
+                                    </span>
+                                    {/* <span className="icon" dangerouslySetInnerHTML={{ __html: tooltipIcon }} /> */}
+                                </div>
+                            </div>
+                            <div className="small-12 medium-8 columns">
+                                <h4 className="title title-M mrg-L">Optional Fields with Tooltip</h4>
                                 <p className="txt-max-width">Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus.<br /><br /><br /></p>
                             </div>
                         </div>
