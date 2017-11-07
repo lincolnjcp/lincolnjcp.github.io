@@ -19,18 +19,27 @@
         font-size: 16px;
         opacity: 1;
         top: 0.8em;
+        &.disabled-label {
+          top: -16px;
+          font-size: 12px;
+          background: $color-white;
+          padding: 8px;
+          color: $color-slate;
+        }
       }
     }
     .input-text {
       border: 1px solid $color-concrete;
       width: 100%;
-    }
-    input[type="password"] {
       height: 40px;
       padding-left: 8px;
       display: inline-block;
       border-radius: 4px;
+      &:focus {
+        outline: none;
+      }
     }
+
     .search-icon {
       position: absolute;
       right: 0;
@@ -47,6 +56,11 @@
       &:hover {
         border-radius: 0px 8px 8px 0px;
       }
+    }
+    .disabled {
+      border: 1px dashed $color-concrete;
+      background: $color-lightgrey;
+      color: $color-slate;
     }
   }
 }
@@ -99,49 +113,70 @@
 
 .has-float-label {
   display: block;
-  position: relative
-}
-.has-float-label label,
-.has-float-label>span {
-  position: absolute;
-  cursor: text;
-  font-size: 75%;
-  opacity: 1;
-  -webkit-transition: all .2s;
-  transition: all .2s;
-  top: -.5em;
-  left: .75rem;
-  z-index: 3;
-  line-height: 1;
-  padding: 0 1px
-}
-.has-float-label label::after,
-.has-float-label>span::after {
-  content: " ";
-  display: block;
-  position: absolute;
-  background:$color-white;
-  height: 2px;
-  top: 50%;
-  left: -.2em;
-  right: -.2em;
-  z-index: -1
-}
-.has-float-label .form-control::-webkit-input-placeholder {
-  opacity: 1;
-  -webkit-transition: all .2s;
-  transition: all .2s
-}
-.has-float-label .form-control:placeholder-shown:not(:focus)::-webkit-input-placeholder {
-  opacity: 0
-}
-.has-float-label .form-control:placeholder-shown:not(:focus)+* {
-  font-size: 150%;
-  opacity: .5;
-  top: .3em
-}
-.input-group .has-float-label:not(:first-child),
-.input-group .has-float-label:not(:first-child) .form-control {
-  border-bottom-left-radius: 0;
-  border-top-left-radius: 0
+  position: relative;
+  label {
+    position: absolute;
+    cursor: text;
+    font-size: 75%;
+    opacity: 1;
+    -webkit-transition: all .2s;
+    transition: all .2s;
+    top: -.5em;
+    left: .75rem;
+    z-index: 3;
+    line-height: 1;
+    padding: 0 1px;
+    &::after {
+      content: " ";
+      display: block;
+      position: absolute;
+      background: $color-white;
+      height: 2px;
+      top: 50%;
+      left: -.2em;
+      right: -.2em;
+      z-index: -1;
+    }
+  }
+  > span {
+    position: absolute;
+    cursor: text;
+    font-size: 75%;
+    opacity: 1;
+    -webkit-transition: all .2s;
+    transition: all .2s;
+    top: -.5em;
+    left: .75rem;
+    z-index: 3;
+    line-height: 1;
+    padding: 0 1px;
+  }
+  > span::after {
+    content: " ";
+    display: block;
+    position: absolute;
+    background: $color-white;
+    height: 2px;
+    top: 50%;
+    left: -.2em;
+    right: -.2em;
+    z-index: -1;
+  }
+  .form-control {
+    &::-webkit-input-placeholder {
+      opacity: 1;
+      -webkit-transition: all .2s;
+      transition: all 0.2s;
+    }
+    &:placeholder-shown:not(:focus) {
+      &::-webkit-input-placeholder {
+        opacity: 0;
+      }
+      + * {
+        font-size: 150%;
+        opacity: .5;
+        top: 0.3em;
+      }
+    }
+  }
 }

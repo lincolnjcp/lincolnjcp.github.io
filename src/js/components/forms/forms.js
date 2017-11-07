@@ -5,67 +5,12 @@ import CodeGenerator from '../../containers/CodeGenerator.js';
 import $ from 'jquery'
 
 const searchIcon = require('!!raw-loader?es5=1!../../../images/global/icons/action/search.svg');
-// const tooltipIcon = require('!!raw-loader?es5=1!../../../images/global/icons/action/tooltip.svg');
+//const tooltipIcon = require('!!raw-loader?es5=1!../../../images/global/icons/action/tooltip.svg');
 
 class Forms extends Component {
 
     componentDidMount() {
 
-        $('#phone-number')
-            .keydown(function (e) {
-                var key = e.which || e.charCode || e.keyCode || 0;
-                var $phone = $(this);
-
-                // Don't let them remove the starting '('
-                if ($phone.val().length === 1 && (key === 8 || key === 46)) {
-                    $phone.val('(');
-                    return false;
-                }
-                // Reset if they highlight and type over first char.
-                else if ($phone.val().charAt(0) !== '(') {
-                    $phone.val('(' + String.fromCharCode(e.keyCode) + '');
-                }
-
-                // Auto-format- do not expose the mask as the user begins to type
-                if (key !== 8 && key !== 9) {
-                    if ($phone.val().length === 4) {
-                        $phone.val($phone.val() + ')');
-                    }
-                    if ($phone.val().length === 5) {
-                        $phone.val($phone.val() + ' ');
-                    }
-                    if ($phone.val().length === 9) {
-                        $phone.val($phone.val() + '-');
-                    }
-                }
-
-                // Allow numeric (and tab, backspace, delete) keys only
-                return (key == 8 ||
-                    key == 9 ||
-                    key == 46 ||
-                    (key >= 48 && key <= 57) ||
-                    (key >= 96 && key <= 105));
-            })
-
-            .bind('focus click', function () {
-                var $phone = $(this);
-
-                if ($phone.val().length === 0) {
-                    $phone.val('(');
-                }
-                else {
-                    var val = $phone.val();
-                    $phone.val('').val(val); // Ensure cursor remains at the end
-                }
-            })
-
-            .blur(function () {
-                var $phone = $(this);
-
-                if ($phone.val() === '(') {
-                    $phone.val('');
-                }
-            });
     }
 
     render() {
@@ -76,6 +21,98 @@ class Forms extends Component {
                         <h1 className="title title-XL mrg-L">Forms</h1>
                         <h2 className="std-txt std-txt-XL mrg-L txt-max-width">Vestibulum id ligula porta felis euismod semper. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</h2>
                         <hr />
+                    </div>
+                </div>
+                <div className="row" id="code-generator">
+                    <div className="small-12 columns">
+                        <h3 className="title title-L mrg-L">Code Generator</h3>
+                        <CodeGenerator
+                            formFields={
+                                [
+                                    {
+                                        fieldType: 'text',
+                                        displayLabel: 'Text Label',
+                                        name: 'code_button_text',
+                                        value: 'My Button'
+                                    },
+                                    {
+                                        fieldType: 'select',
+                                        displayLabel: 'Style',
+                                        name: 'code_button_style',
+                                        value: [
+                                            {
+                                                text: 'Primary',
+                                                value: 'btn-primary'
+                                            },
+                                            {
+                                                text: 'Secondary',
+                                                value: 'btn-secondary'
+                                            }
+                                        ],
+                                        defaultSelect: 'btn-primary'
+                                    },
+                                    {
+                                        fieldType: 'select',
+                                        displayLabel: 'Size',
+                                        name: 'code_button_size',
+                                        value: [
+                                            {
+                                                text: 'Medium',
+                                                value: 'btn-M'
+                                            },
+                                            {
+                                                text: 'Large',
+                                                value: 'btn-L'
+                                            }
+                                        ],
+                                        defaultSelect: 'btn-L'
+                                    },
+                                    {
+                                        fieldType: 'checkbox',
+                                        displayLabel: 'Full Width',
+                                        name: 'code_button_width',
+                                        value: 'btn-full',
+                                        defaultSelect: ''
+                                    },
+                                    {
+                                        fieldType: 'checkbox',
+                                        displayLabel: 'Disabled',
+                                        name: 'code_button_disabled',
+                                        value: 'btn-disabled',
+                                        defaultSelect: ''
+                                    },
+                                    {
+                                        fieldType: 'checkbox',
+                                        displayLabel: 'Display Content Loader',
+                                        name: 'code_button_loader',
+                                        value: 'none',
+                                        defaultSelect: 'true'
+                                    }
+                                ]}
+                            htmlPattern="<[[format_tag_start]]a[[format_tag_end]] [[format_attribute_start]]
+                            href=&quot;[[format_attribute_end]][[format_tag_value_start]]javascript:void();[[format_tag_value_end]][[format_attribute_start]]&quot;
+                            class=&quot;[[format_attribute_end]][[format_tag_value_start]]btn [[code_button_size]] [[code_button_style]] [[code_button_width]] [[code_button_disabled]][[format_tag_value_end]][[format_attribute_start]]&quot;[[format_attribute_end]]>
+                            [[format_tab_start]]
+                                [[code_button_text]]
+                            [[format_tab_end]]
+                        <[[format_tag_start]]/a[[format_tag_end]]>"
+
+                        />
+                    </div>
+                </div>
+                <div className="row" id="when-to-use">
+                    <div className="small-12 columns">
+                        <h3 className="title title-L mrg-L">When to Use</h3>
+                        <p className="txt-max-width">Vestibulum id ligula porta felis euismod semper. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. <br /><br /> </p>
+                    </div>
+                    <div className="small-12 columns">
+                        <h5 className="title title-M">Best Practices</h5>
+                        <ul className="list txt-max-width color-slate">
+                            <li>Aenean lacinia bibendum nulla sed consectetur</li>
+                            <li>Integer posuere erat a ante venenatis dapibus posuere velit aliquet</li>
+                            <li>Etiam porta sem malesuada magna mollis euismod. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                        </ul>
+                        <br /><br /><hr/>
                     </div>
                 </div>
                 <div className="row" id="appearance">
@@ -197,7 +234,7 @@ class Forms extends Component {
                             <div className="small-12 medium-4 columns">
                                 <div className="form-group input-group">
                                     <span className="has-float-label">
-                                        <input className="form-control input-text" id="phone-number" maxlength="14" type="text" placeholder="( ___ ) ___-____" />
+                                        <input className="form-control input-text" id="phone-number" maxLength="14" type="text" placeholder="( ___ ) ___-____" />
                                         <label htmlFor="Phone">Phone Number</label>
                                     </span>
                                 </div>
@@ -211,7 +248,7 @@ class Forms extends Component {
                             <div className="small-12 medium-4 columns">
                                 <div className="form-group input-group">
                                     <span className="has-float-label">
-                                        <input className="form-control creditcard-text input-text" id="creditcard" maxlength="16" type="text" placeholder="8888 8888 888" />
+                                        <input id="creditcard" type="tel" name="ccnumber" placeholder="Card Number" pattern="\d{4} \d{4} \d{4} \d{4}" className="form-control creditcard-text input-text masked" />
                                         <label htmlFor="creditcard">Card Number</label>
                                     </span>
                                 </div>
@@ -225,7 +262,7 @@ class Forms extends Component {
                             <div className="small-12 medium-4 columns">
                                 <div className="form-group input-group position-rel">
                                     <span className="has-float-label">
-                                        <input className="form-control input-text" id="password" maxlength="16" type="password" placeholder="••••••••••" />
+                                        <input className="form-control input-text" id="password" maxLength="16" type="password" placeholder="••••••••••" />
                                         <label htmlFor="password">Password</label>
                                     </span>
                                     <a href="javascript:void(0);" className="show-pwd">show</a>
@@ -301,9 +338,9 @@ class Forms extends Component {
                             <div className="small-12 medium-4 columns">
                                 <div className="form-group input-group position-rel">
                                     <span className="has-float-label">
-                                        <input className="form-control input-text" id="zipcode" maxlength="16" type="text" placeholder="Enter Code" />
+                                        <input id="zipcode" type="tel" name="zipcode" placeholder="Enter Code" maxLength="5" className="form-control input-text" />
                                         <label htmlFor="zipcode">Enter Code</label>
-                                        <a href="javascript:void();" class="btn btn-S btn-primary search-btn">Apply</a>
+                                        <a href="javascript:void();" className="btn btn-S btn-primary search-btn">Apply</a>
                                     </span>
                                 </div>
                             </div>
@@ -316,7 +353,7 @@ class Forms extends Component {
                             <div className="small-12 medium-4 columns">
                                 <div className="form-group input-group position-rel">
                                     <span className="has-float-label">
-                                        <input className="form-control input-text" id="date" maxlength="5" type="text" placeholder="Birthday (Optional)" />
+                                        <input className="form-control input-text" id="date" maxLength="5" type="text" placeholder="Birthday (Optional)" />
                                         <label htmlFor="date">Birthday (Optional)</label>
                                     </span>
                                     {/* <span className="icon" dangerouslySetInnerHTML={{ __html: tooltipIcon }} /> */}
@@ -326,6 +363,55 @@ class Forms extends Component {
                                 <h4 className="title title-M mrg-L">Optional Fields with Tooltip</h4>
                                 <p className="txt-max-width">Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus.<br /><br /><br /></p>
                             </div>
+                        </div>
+                        <div className="small-12 medium-12 columns input-form">
+                            <div className="small-12 medium-4 columns">
+                                <div className="form-group input-group">
+                                    <span className="has-float-label">
+                                        <input className="form-control email-text input-text disabled" id="disemail" type="text" value="example@email.com" disabled />
+                                        <label htmlFor="disemail" className="disabled-label">Email</label>
+                                    </span>
+                                </div>
+                            </div>
+                            <div className="small-12 medium-8 columns">
+                                <h4 className="title title-M mrg-L">Disabled</h4>
+                                <p className="txt-max-width">Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus.<br /><br /><br /><br /></p>
+                            </div>
+                        </div>
+                        <div className="small-12 medium-12 columns input-form">
+                            <div className="small-12 medium-4 columns">
+                                <div className="form-group input-group position-rel">
+                                    <span className="has-float-label">
+                                        <input className="form-control input-text" id="date-picker" maxLength="5" type="text" placeholder="11/07/2017" />
+                                        <label htmlFor="date-picker">Delivery Date</label>
+                                    </span>
+                                </div>
+                            </div>
+                            <div className="small-12 medium-8 columns">
+                                <h4 className="title title-M mrg-L">Date Picker</h4>
+                                <p className="txt-max-width">Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus.<br /><br /><br /></p>
+                            </div>
+                        </div>
+                        <br/><br/><hr/>
+                    </div>
+                </div>
+                <div className="row" id="sample-layout">
+                    <div className="small-12 columns">
+                        <h3 className="title title-L mrg-L">Form Validation</h3>
+                        <p className="txt-max-width">Vestibulum id ligula porta felis euismod semper. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.  <br /><br /> </p>
+                    </div>
+                    <div className="small-12 medium-12 columns input-form">
+                        <div className="small-12 medium-4 columns">
+                            <div className="form-group input-group position-rel">
+                                <span className="has-float-label">
+                                    <input className="form-control email-text input-text" id="email" type="text" placeholder="example@email.com" />
+                                    <label htmlFor="email">Email</label>
+                                </span>
+                            </div>
+                        </div>
+                        <div className="small-12 medium-12 columns">
+                            <h4 className="title title-M mrg-L">Date Picker</h4>
+                            <p className="txt-max-width">Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus.<br /><br /><br /></p>
                         </div>
                     </div>
                 </div>
