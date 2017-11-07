@@ -11,20 +11,22 @@ class CodeGenerator extends Component {
     }
 
     updateUIChanges() {
+
         window.updateCodeGenerator = function () {
-            var HTMLCode = String($(".code-generator").data("html-pattern"));
+
+            let HTMLCode = String($(".code-generator").data("html-pattern"));
 
             $(".code-generator input, .code-generator select").each(function () {
                 var value = $(this).val();
                 if ($(this).attr('type') == "checkbox" && !$(this).is(':checked')) {
                     value = '';
-
                 }
                 var replaceTxt = '\\[\\[' + $(this).attr('name') + '\\]\\]';
                 var regex = new RegExp(replaceTxt, 'g');
 
                 HTMLCode = HTMLCode.replace(regex, value);
             });
+
 
             var HTMLCodePreview = Utils.decorateHtmlPreview(HTMLCode);
 
@@ -43,8 +45,8 @@ class CodeGenerator extends Component {
                 }
                 $(this).removeClass().addClass('color-picker-swatch').addClass(attrColor);
             });
-
         }
+
 
         $('.code-generator input[type="text"]').keyup(function () {
             window.updateCodeGenerator();
@@ -77,47 +79,51 @@ class CodeGenerator extends Component {
 
     }
 
+    createInputComponent() {
+        return (<div className="code-generator-controls">
+            <div className="code-generator-toggle-editor">
+                <p className="std-txt std-txt-S mrg-zero"><a href="javascript:void();">Show Editor</a></p>
+            </div>
+            <div className="code-generator-edit hide-for-small-only">
+                {this.props.formFields.map((field, index) => {
+                    return (
+                        <div key={index}>
+                            <CreateInput name={field.name} value={field.value} displayLabel={field.displayLabel} fieldType={field.fieldType} defaultSelect={field.defaultSelect} />
+                        </div>
+                    )
+                })}
+            </div>
+        </div>);
+    }
+
+    codePreviewComponent() {
+        return (<div className="code-generator-left">
+            <div className="code-generator-preview"></div>
+            <div className="code-generator-code">
+                <div className="design-system-headline-with-toggle">
+                    <div className="code-generator-copy">
+                        <ClipboardButton data-clipboard-text="I'll be copied" onSuccess={this.onSuccess}>
+                            Copy Code
+                </ClipboardButton>
+                    </div>
+                    <div className="design-system-headline-toggle">
+                        <a href="javascript:void(0)" className="design-system-toggle left">React</a>
+                        <a href="javascript:void(0)" className="design-system-toggle right active">HTML</a>
+                    </div>
+                </div>
+            </div>
+            <div className="code-generator-code-preview"></div>
+        </div>)
+    }
+
     render() {
         return (
             <div>
-
                 <div className="code-generator mrg-XL" data-html-pattern={this.props.htmlPattern}>
                     <div className="code-generator-right">
-                        <div className="code-generator-controls">
-                            <div className="code-generator-toggle-editor">
-                                <p className="std-txt std-txt-S mrg-zero"><a href="javascript:void();">Show Editor</a></p>
-                            </div>
-                            <div className="code-generator-edit hide-for-small-only">
-                                {this.props.formFields.map((field, index) => {
-                                    return (
-                                        <div key={index}>
-                                            <CreateInput name={field.name} value={field.value} displayLabel={field.displayLabel} fieldType={field.fieldType} defaultSelect={field.defaultSelect} />
-                                        </div>
-                                    )
-                                })}
-                            </div>
-                        </div>
+                        {this.createInputComponent()}
                     </div>
-
-                    <div className="code-generator-left">
-                        <div className="code-generator-preview">
-                        </div>
-                        <div className="code-generator-code">
-                            <div className="design-system-headline-with-toggle">
-                                <div className="code-generator-copy">
-                                    <ClipboardButton data-clipboard-text="I'll be copied" onSuccess={this.onSuccess}>
-                                        Copy Code
-                                </ClipboardButton>
-                                </div>
-                                <div className="design-system-headline-toggle">
-                                    <a href="javascript:void(0)" className="design-system-toggle left">React</a>
-                                    <a href="javascript:void(0)" className="design-system-toggle right active">HTML</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="code-generator-code-preview">
-                        </div>
-                    </div>
+                    {this.codePreviewComponent()}
                 </div>
             </div>
         );
