@@ -365,49 +365,6 @@ const rootNav = [
     {
         parentName: 'drawLine'
     },
-    {
-        parentName: 'Accessibility',
-        childItems: [
-            {
-                to: '/',
-                activeClassName: 'inactive',
-                content: 'TBD',
-            }
-        ]
-    },
-    {
-        parentName: 'UX Research',
-        childItems: [
-            {
-                to: '/',
-                activeClassName: 'inactive',
-                content: 'TBD',
-            }
-        ]
-    },
-    {
-        parentName: 'A/B Testing',
-        childItems: [
-            {
-                to: '/',
-                activeClassName: 'inactive',
-                content: 'TBD',
-            }
-        ]
-    },
-    {
-        parentName: 'Foresee',
-        childItems: [
-            {
-                to: '/',
-                activeClassName: 'inactive',
-                content: 'TBD',
-            }
-        ]
-    },
-    {
-        parentName: 'drawLine'
-    }
 ];
 
 export {
