@@ -14,25 +14,22 @@
 Base Styles
 --- */
 @import "base/_reset";
-@import "base/_type";
-@import "base/_colors";
-
-
+@import "../js/components/typography/_typography";
+@import "../js/components/color/_color";
 @import "base/_breadcrumbs";
-@import "base/_buttons";
-@import "base/_flags";
+@import "../js/components/buttons/_buttons";
+@import "../js/components/badges/_badges";
 @import "base/_forms";
 @import "base/_frames";
-@import "base/_icons";
-@import "base/_layout";
-@import "base/_messages";
+@import "../js/components/icons/_icons";
+@import "../js/components/grid/_grid";
+@import "../js/components/alerts/_alerts";
 @import "base/_modal";
 @import "base/_product";
 @import "base/_tabs";
-@import "base/_tables";
+@import "../js/components/tables/_tables";
 @import "base/_wells";
-@import "base/_loaders";
-@import "base/_loaders";
+@import "../js/components/content-loaders/_content-loaders";
 @import "base/_content-forms";
 @import "base/_progressbars";
-@import "base/_colorswatches"; 
+@import "base/_colorswatches";
