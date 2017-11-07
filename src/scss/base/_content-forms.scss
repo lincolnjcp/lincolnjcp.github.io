@@ -11,57 +11,70 @@
 }
 
 .input-form{
-  .input-group {
-    .has-float-label {
-      display: inline-block;
-      width: 100%;
-      .form-control:placeholder-shown:not(:focus) + * {
-        font-size: 16px;
-        opacity: 1;
-        top: 0.8em;
-        &.disabled-label {
-          top: -16px;
-          font-size: 12px;
-          background: $color-white;
-          padding: 8px;
-          color: $color-slate;
-        }
+  .has-float-label {
+    display: inline-block;
+    width: 100%;
+    .form-control:placeholder-shown:not(:focus) + * {
+      font-size: 16px;
+      opacity: 1;
+      top: 0.8em;
+      &.disabled-label {
+        top: -16px;
+        font-size: 12px;
+        background: $color-white;
+        padding: 8px;
+        color: $color-slate;
       }
     }
-    .input-text {
-      border: 1px solid $color-concrete;
-      width: 100%;
-      height: 40px;
-      padding-left: 8px;
-      display: inline-block;
-      border-radius: 4px;
-      &:focus {
-        outline: none;
-      }
+  }
+  .input-text {
+    border: 1px solid $color-concrete;
+    width: 100%;
+    height: 40px;
+    padding-left: 8px;
+    display: inline-block;
+    border-radius: 4px;
+    &:focus {
+      outline: none;
     }
+  }
 
-    .search-icon {
-      position: absolute;
-      right: 0;
-      border-left: 1px solid $color-concrete;
-    }
-    .search-btn {
-      position: absolute;
-      right: -1px;
-      top: 0px;
-      height: 40px;
-      min-width: auto;
-      font-weight: bold;
+  .search-icon {
+    position: absolute;
+    right: 0;
+    border-left: 1px solid $color-concrete;
+  }
+  a.apply-btn {
+    position: absolute;
+    right: -1px;
+    top: 0px;
+    height: 40px;
+    min-width: auto;
+    font-weight: bold;
+    border-radius: 0px 8px 8px 0px;
+    &:hover {
       border-radius: 0px 8px 8px 0px;
-      &:hover {
-        border-radius: 0px 8px 8px 0px;
-      }
     }
-    .disabled {
-      border: 1px dashed $color-concrete;
-      background: $color-lightgrey;
-      color: $color-slate;
+  }
+  .disabled {
+    border: 1px dashed $color-concrete;
+    background: $color-lightgrey;
+    color: $color-slate;
+    cursor: not-allowed;
+  }
+}
+
+.input-form.error {
+  div.has-float-label {
+    input {
+      border: 2px solid $color-error-type;
     }
+    label {
+      color: $color-error-type;
+    }
+  }
+  .error-message {
+    color: $color-error-type;
   }
 }
 
@@ -89,14 +102,12 @@
 }
 
 .text-area-form {
-  .input-group {
-    .has-float-label {
-      display: inline-block;
+  .has-float-label {
+    display: inline-block;
+    width: 100%;
+    textarea.form-control {
+      min-height: 110px;
       width: 100%;
-      textarea.form-control {
-        min-height: 110px;
-        width: 100%;
-      }
     }
   }
 }
@@ -108,6 +119,7 @@
     top: 10px;
   }
 }
+
 
 //
 
