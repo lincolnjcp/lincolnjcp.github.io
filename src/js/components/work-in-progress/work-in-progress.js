@@ -888,26 +888,33 @@ componentDidMount() {
     <p className="S">35 points away from your next $10 reward*</p>
 
     <p className="anno">Color Swatches</p>
-    <ul className="color-swatch-container">
-      <li>
-        <div className="color-swatch color-swatch-active"></div>
-      </li>
-      <li>
-        <div className="color-swatch"></div>
-      </li>
-      <li>
-        <div className="color-swatch"></div>
-      </li>
-      <li>
-        <div className="color-swatch"></div>
-      </li>
-      <li>
-        <div className="color-swatch color-swatch-oos"></div>
-      </li>
-      <li>
-        <div className="color-swatch color-swatch-active color-swatch-oos"></div>
-      </li>
-    </ul>
+
+    <div className="list-product-colors">
+      <div className="list-product-colors-header">
+        <div className="list-product-colors-lbl">label</div>
+        <button className="list-product-colors-show link">Show</button>
+      </div>
+      <ul className="list-product-colors-container">
+        <li>
+          <button className="list-color-swatch list-color-swatch-active"></button>
+        </li>
+        <li>
+          <div className="list-color-swatch"></div>
+        </li>
+        <li>
+          <div className="list-color-swatch"></div>
+        </li>
+        <li>
+          <div className="list-color-swatch"></div>
+        </li>
+        <li>
+          <div className="list-color-swatch list-color-swatch-oos"></div>
+        </li>
+        <li>
+          <div className="list-color-swatch list-color-swatch-active list-color-swatch-oos"></div>
+        </li>
+      </ul>
+    </div>
 
     </div>
     </div>

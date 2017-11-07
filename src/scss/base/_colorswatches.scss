@@ -3,7 +3,7 @@
 /* Found on PDP
 ***************************************************/
 
-.color-swatch-container{
+.list-product-colors-container{
   li{
     display: inline-block;
     margin-right: 8px;
@@ -13,7 +13,12 @@
     @include focus;
   }
 
-  .color-swatch{
+  .list-product-colors-header{
+    line-height: 24px;
+    font-size: 14px;
+  }
+
+  .list-color-swatch{
     position: relative;
     width: 40px;
     height: 40px;
@@ -30,20 +35,19 @@
       border-color: $color-slate;
     }
 
-    &.color-swatch-active{
+    &.list-color-swatch-active{
       border: 2px solid $color-nightsky;
 
-      &.color-swatch-oos:hover{
+      &.list-color-swatch-oos:hover{
         border-color: $color-nightsky;
       }
 
-      &.color-swatch-oos:after{
+      &.list-color-swatch-oos:after{
         border-color: $color-nightsky;
       }
     }
 
-    &.color-swatch-oos{
-      cursor: not-allowed;
+    &.list-color-swatch-oos{
 
       &:after{
         content: " ";
@@ -57,10 +61,6 @@
         border-left: 1px solid $color-concrete;
         background-color: $color-white;
         @include transform(rotate(45deg));
-      }
-
-      &:hover{
-        border-color: $color-concrete;
       }
     }
   }
