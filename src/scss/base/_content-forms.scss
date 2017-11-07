@@ -11,7 +11,7 @@
 }
 
 .input-form{
-  .has-float-label {
+  .css-float-label {
     display: inline-block;
     width: 100%;
     .form-control:placeholder-shown:not(:focus) + * {
@@ -65,7 +65,7 @@
 }
 
 .input-form.error {
-  div.has-float-label {
+  div.css-float-label {
     input {
       border: 2px solid $color-error-type;
     }
@@ -77,7 +77,9 @@
     color: $color-error-type;
   }
 }
-
+.sample-layout {
+  
+}
 .select-form {
   .select {
     overflow: visible;
@@ -87,7 +89,7 @@
       line-height: 30px;
       min-width: auto;
     }
-    .has-float-label {
+    .css-float-label {
       span {
         background: $color-white;
         display: block;
@@ -102,7 +104,7 @@
 }
 
 .text-area-form {
-  .has-float-label {
+  .css-float-label {
     display: inline-block;
     width: 100%;
     textarea.form-control {
@@ -123,7 +125,7 @@
 
 //
 
-.has-float-label {
+.css-float-label {
   display: block;
   position: relative;
   label {
