@@ -112,7 +112,7 @@ class Forms extends Component {
                             <li>Integer posuere erat a ante venenatis dapibus posuere velit aliquet</li>
                             <li>Etiam porta sem malesuada magna mollis euismod. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
                         </ul>
-                        <br /><br /><hr/>
+                        <br /><br /><hr />
                     </div>
                 </div>
                 <div className="row" id="appearance">
@@ -122,7 +122,7 @@ class Forms extends Component {
                         <div className="small-12 medium-12 columns input-form">
                             <div className="small-12 medium-4 columns">
                                 <div className="input-group">
-                                    <div className="has-float-label">
+                                    <div className="css-float-label">
                                         <input className="form-control email-text input-text" id="email" type="text" placeholder="example@email.com" />
                                         <label htmlFor="email">Email</label>
                                     </div>
@@ -135,7 +135,7 @@ class Forms extends Component {
                         </div>
                         <div className="small-12 medium-12 columns select-form">
                             <div className="small-12 medium-4 columns select">
-                                <div className="has-float-label">
+                                <div className="css-float-label">
                                     <select className="form-control custom-select">
                                         <option value=''>Month</option>
                                         <option value='1'>01 - Janaury</option>
@@ -162,7 +162,7 @@ class Forms extends Component {
                         <div className="small-12 medium-12 columns text-area-form">
                             <div className="small-12 medium-4 columns">
                                 <div className="input-group">
-                                    <div className="has-float-label">
+                                    <div className="css-float-label">
                                         <textarea className="form-control" name="instructions">Please deliver to side service entrance of apartment building. Enter code 9090 to access garage.</textarea>
                                         <label htmlFor="instructions">Delivery Instructions</label>
                                     </div>
@@ -233,7 +233,7 @@ class Forms extends Component {
                         <div className="small-12 medium-12 columns input-form">
                             <div className="small-12 medium-4 columns">
                                 <div className="input-group">
-                                    <div className="has-float-label">
+                                    <div className="css-float-label">
                                         <input className="form-control input-text" id="phone-number" maxLength="14" type="text" placeholder="( ___ ) ___-____" />
                                         <label htmlFor="Phone">Phone Number</label>
                                     </div>
@@ -247,7 +247,7 @@ class Forms extends Component {
                         <div className="small-12 medium-12 columns input-form">
                             <div className="small-12 medium-4 columns">
                                 <div className="input-group">
-                                    <div className="has-float-label">
+                                    <div className="css-float-label">
                                         <input id="creditcard" type="tel" name="ccnumber" placeholder="Card Number" pattern="\d{4} \d{4} \d{4} \d{4}" className="form-control creditcard-text input-text masked" />
                                         <label htmlFor="creditcard">Card Number</label>
                                     </div>
@@ -261,7 +261,7 @@ class Forms extends Component {
                         <div className="small-12 medium-12 columns input-form password-form">
                             <div className="small-12 medium-4 columns">
                                 <div className="position-rel">
-                                    <div className="has-float-label">
+                                    <div className="css-float-label">
                                         <input className="form-control input-text" id="password" maxLength="16" type="password" placeholder="••••••••••" />
                                         <label htmlFor="password">Password</label>
                                     </div>
@@ -275,7 +275,7 @@ class Forms extends Component {
                         </div>
                         <div className="small-12 medium-12 columns select-form">
                             <div className="small-2 medium-2 large-2 x-large-2 columns select">
-                                <div className="has-float-label">
+                                <div className="css-float-label">
                                     <select className="form-control custom-select">
                                         <option value=''>Month</option>
                                         <option value='1'>01</option>
@@ -295,7 +295,7 @@ class Forms extends Component {
                                 </div>
                             </div>
                             <div className="small-2 medium-2 large-2 x-large-2 columns select">
-                                <div className="has-float-label">
+                                <div className="css-float-label">
                                     <select className="form-control custom-select">
                                         <option value=''>Year</option>
                                         <option value='1'>2001</option>
@@ -322,7 +322,7 @@ class Forms extends Component {
                         <div className="small-12 medium-12 columns input-form">
                             <div className="small-12 medium-4 columns">
                                 <div className="position-rel">
-                                    <div className="has-float-label">
+                                    <div className="css-float-label">
                                         <input className="form-control input-text" id="search" type="text" placeholder="Search Products" />
                                         <label htmlFor="search">Search Products</label>
                                     </div>
@@ -337,7 +337,7 @@ class Forms extends Component {
                         <div className="small-12 medium-12 columns input-form">
                             <div className="small-12 medium-4 columns">
                                 <div className="position-rel">
-                                    <div className="has-float-label">
+                                    <div className="css-float-label">
                                         <input id="zipcode" type="tel" name="zipcode" placeholder="Enter Code" maxLength="5" className="form-control input-text" />
                                         <label htmlFor="zipcode">Enter Code</label>
                                         <a href="javascript:void();" className="btn btn-S btn-primary apply-btn">Apply</a>
@@ -352,7 +352,7 @@ class Forms extends Component {
                         <div className="small-12 medium-12 columns input-form">
                             <div className="small-12 medium-4 columns">
                                 <div className="position-rel">
-                                    <div className="has-float-label">
+                                    <div className="css-float-label">
                                         <input className="form-control input-text" id="date" maxLength="5" type="text" placeholder="Birthday (Optional)" />
                                         <label htmlFor="date">Birthday (Optional)</label>
                                     </div>
@@ -366,7 +366,7 @@ class Forms extends Component {
                         <div className="small-12 medium-12 columns input-form">
                             <div className="small-12 medium-4 columns">
                                 <div className="input-group">
-                                    <div className="has-float-label">
+                                    <div className="css-float-label">
                                         <input className="form-control email-text input-text disabled" id="disemail" type="text" value="example@email.com" disabled />
                                         <label htmlFor="disemail" className="disabled-label">Email</label>
                                     </div>
@@ -380,7 +380,7 @@ class Forms extends Component {
                         <div className="small-12 medium-12 columns input-form">
                             <div className="small-12 medium-4 columns">
                                 <div className="position-rel">
-                                    <div className="has-float-label">
+                                    <div className="css-float-label">
                                         <input className="form-control input-text" id="date-picker" maxLength="5" type="text" placeholder="11/07/2017" />
                                         <label htmlFor="date-picker">Delivery Date</label>
                                     </div>
@@ -391,44 +391,82 @@ class Forms extends Component {
                                 <p className="txt-max-width">Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus.<br /><br /><br /></p>
                             </div>
                         </div>
-                        <br/><br/><hr/>
+                        <br /><br />
                     </div>
                 </div>
-                <div className="row" id="sample-layout">
+                <hr />
+                <div className="row" id="form-validation">
                     <div className="small-12 columns">
                         <h3 className="title title-L mrg-L">Form Validation</h3>
                         <p className="txt-max-width">Vestibulum id ligula porta felis euismod semper. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.  <br /><br /> </p>
                     </div>
                     <div className="small-12 medium-12 columns input-form error">
-                        <div className="small-12 medium-4 columns row">
-                            <div className="position-rel">
-                                <div className="has-float-label">
+                        <div className="small-12 medium-12 columns row">
+                            <div className="position-rel small-12 medium-4 columns row">
+                                <div className="css-float-label">
                                     <input className="form-control email-text input-text" id="email" type="text" placeholder="example@email.com" />
                                     <label htmlFor="email">Email</label>
-                                    <br /><br />
+                                    <br />
                                 </div>
                             </div>
                             <div className="small-12 medium-12 columns row">
                                 <span className="error-message">Please enter a valid email address</span>
+                                <br /><br /><br />
                                 <p className="txt-max-width">Vestibulum id ligula porta felis euismod semper. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.  <br /><br /> </p>
-                                <div className="has-float-label">
-                                    <div class="msg msg-error mrg-M">Email or password is incorrect</div>
-                                    <br />
-                                </div>
-                                <div className="has-float-label">
-                                    <input className="form-control email-text input-text" id="email" type="text" placeholder="example@email.com" />
-                                    <label htmlFor="email">Email</label>
-                                    <br />
-                                </div>
-                                <div className="has-float-label">
-                                    <input className="form-control input-text" id="password" maxLength="16" type="password" placeholder="••••••••••" />
-                                    <label htmlFor="password">Password</label>
+                                <div className="small-12 medium-4 columns row">
+                                    <div className="css-float-label">
+                                        <div class="msg msg-error mrg-M">Email or password is incorrect</div>
+                                        <br />
+                                    </div>
+                                    <div className="css-float-label">
+                                        <input className="form-control email-text input-text" id="email" type="text" placeholder="example@email.com" />
+                                        <label htmlFor="email">Email</label>
+                                        <br />
+                                    </div>
+                                    <div className="css-float-label password-form">
+                                        <input className="form-control input-text" id="password" maxLength="16" type="password" placeholder="••••••••••" />
+                                        <label htmlFor="password">Password</label>
+                                        <a href="javascript:void(0);" className="show-pwd">show</a>
+                                    </div>
                                 </div>
                             </div>
+                            <br /><br /><hr /><br />
                         </div>
                     </div>
+                </div>
+                <div className="row" id="sample-layout">
                     <div className="small-12 columns">
+                        <h3 className="title title-L mrg-L">Sample Layout</h3>
                         <p className="txt-max-width">Vestibulum id ligula porta felis euismod semper. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.  <br /><br /> </p>
+                    </div>
+                    <div className="small-12 medium-12 columns form-layout">
+                        <div className="form-group">
+                            <input className="form-control input-text" type="text" placeholder="Name" />
+                        </div>
+                        <div className="form-group">
+                            <input className="form-control input-text" type="text" placeholder="Birthday (Optional)" />
+                        </div>
+                        <div className="form-group">
+                            <input className="form-control input-text" type="text" placeholder="Zip Code" />
+                            <select className="form-control custom-select">
+                                <option value=''>State</option>
+                                <option value='1'>01</option>
+                                <option value='2'>02</option>
+                                <option value='3'>03</option>
+                                <option value='4'>04</option>
+                                <option value='5'>05</option>
+                                <option value='6'>06</option>
+                                <option value='7'>07</option>
+                                <option value='8'>08</option>
+                                <option value='9'>09</option>
+                                <option value='10'>10</option>
+                                <option value='11'>11</option>
+                                <option value='12'>12</option>
+                            </select>
+                        </div>
+                        <div className="form-group">
+                            <input className="form-control input-text" id="name" type="text" placeholder="Phone Number" />
+                        </div>
                     </div>
                 </div>
             </div>
