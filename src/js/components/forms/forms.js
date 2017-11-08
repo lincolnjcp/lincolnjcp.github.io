@@ -5,7 +5,7 @@ import CodeGenerator from '../../containers/CodeGenerator.js';
 import $ from 'jquery'
 
 const searchIcon = require('!!raw-loader?es5=1!../../../images/global/icons/action/search.svg');
-//const tooltipIcon = require('!!raw-loader?es5=1!../../../images/global/icons/action/tooltip.svg');
+const tooltipIcon = require('!!raw-loader?es5=1!../../../images/global/icons/action/tooltip.svg');
 
 class Forms extends Component {
 
@@ -130,7 +130,7 @@ class Forms extends Component {
                             </div>
                             <div className="small-12 medium-8 columns">
                                 <h4 className="title title-M mrg-L">Text Field</h4>
-                                <p className="txt-max-width">Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus.<br /><br /><br /><br /></p>
+                                <p className="txt-max-width">Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus.<br /><br /><br /></p>
                             </div>
                         </div>
                         <div className="small-12 medium-12 columns select-form">
@@ -311,7 +311,7 @@ class Forms extends Component {
                                         <option value='11'>2011</option>
                                         <option value='12'>2012</option>
                                     </select>
-                                    <span>year</span>
+                                    <span>Year</span>
                                 </div>
                             </div>
                             <div className="small-12 medium-8 columns">
@@ -356,6 +356,7 @@ class Forms extends Component {
                                         <input className="form-control input-text" id="date" maxLength="5" type="text" placeholder="Birthday (Optional)" />
                                         <label htmlFor="date">Birthday (Optional)</label>
                                     </div>
+                                    <span className="icon tooltip-icon" dangerouslySetInnerHTML={{ __html: tooltipIcon }} />
                                 </div>
                             </div>
                             <div className="small-12 medium-8 columns">
@@ -415,7 +416,7 @@ class Forms extends Component {
                                 <p className="txt-max-width">Vestibulum id ligula porta felis euismod semper. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.  <br /><br /> </p>
                                 <div className="small-12 medium-4 columns row">
                                     <div className="css-float-label">
-                                        <div class="msg msg-error mrg-M">Email or password is incorrect</div>
+                                        <div className="msg msg-error mrg-M">Email or password is incorrect</div>
                                         <br />
                                     </div>
                                     <div className="css-float-label">
@@ -439,15 +440,17 @@ class Forms extends Component {
                         <h3 className="title title-L mrg-L">Sample Layout</h3>
                         <p className="txt-max-width">Vestibulum id ligula porta felis euismod semper. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.  <br /><br /> </p>
                     </div>
-                    <div className="small-12 medium-12 columns form-layout">
-                        <div className="form-group">
+                    <div className="small-12 medium-4 form-layout">
+                        <div className="form-group column">
                             <input className="form-control input-text" type="text" placeholder="Name" />
                         </div>
-                        <div className="form-group">
+                        <div className="form-group column">
                             <input className="form-control input-text" type="text" placeholder="Birthday (Optional)" />
                         </div>
-                        <div className="form-group">
+                        <div className="form-group medium-5 small-4 column">
                             <input className="form-control input-text" type="text" placeholder="Zip Code" />
+                        </div>
+                        <div className="select medium-7 form-layout column">
                             <select className="form-control custom-select">
                                 <option value=''>State</option>
                                 <option value='1'>01</option>
@@ -464,9 +467,32 @@ class Forms extends Component {
                                 <option value='12'>12</option>
                             </select>
                         </div>
-                        <div className="form-group">
+                        <div className="form-group column">
                             <input className="form-control input-text" id="name" type="text" placeholder="Phone Number" />
                         </div>
+                        <div className="form-group column">
+                            <label className="checkbox mrg-M">
+                                <input type="checkbox" /> <span>Set as default address</span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <hr />
+                <div className="row" id="related-content">
+                    <div className="small-12 columns">
+                        <h3 className="title title-L mrg-L">Related Content</h3>
+                        <ul className="list txt-max-width color-slate">
+                            <li><a href="javascript:void();">Alerts & Messaging</a></li>
+                            <li><a href="javascript:void();">Filter & Sorting</a></li>
+                            <li><a href="javascript:void();">Tooltips </a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div className="row">
+                    <div className="small-12 columns">
+                        <hr />
+                        <p className="S">Created by: <strong>Tony Stark</strong> and <strong>Bruce Banner</strong>
+                            <br /> Latest update: 04/05/2017</p>
                     </div>
                 </div>
             </div>

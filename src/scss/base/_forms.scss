@@ -127,7 +127,7 @@ select{
 }
 
 .select::before { /*  Custom dropdown arrow cover */
-  width: 2em;
+  width: 0;
   right: 0;
   top: 0;
   bottom: 0;
