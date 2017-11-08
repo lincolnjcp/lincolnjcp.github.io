@@ -32,6 +32,7 @@ hr {
 /* Price, standard type styles
 ***************************************************/
 
+// Body copy
 p {
     color: $color-slate;
     font-size: 16px;
@@ -49,6 +50,7 @@ p {
     }
 }
 
+// Price
 .price {
     font-family: $font-headline;
     font-weight: $font-weight-bold;
@@ -80,7 +82,7 @@ p {
 }
 
 
-// Title Text Styles
+// Titles
 .title {
     font-family: $font-headline;
     font-weight: $font-weight-regular;
@@ -241,7 +243,7 @@ p {
     }
 }
 
-// Promo Label
+// Marketing Label
 .marketing-lbl {
     text-transform: uppercase;
     color: $color-penneyred;
