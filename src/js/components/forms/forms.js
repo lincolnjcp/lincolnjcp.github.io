@@ -6,6 +6,7 @@ import $ from 'jquery'
 
 const searchIcon = require('!!raw-loader?es5=1!../../../images/global/icons/action/search.svg');
 const tooltipIcon = require('!!raw-loader?es5=1!../../../images/global/icons/action/tooltip.svg');
+const cardJCPRed = require('!!raw-loader?es5=1!../../../images/global/icons/payment/card-jcp-red.svg');
 
 class Forms extends Component {
 
@@ -248,8 +249,9 @@ class Forms extends Component {
                             <div className="small-12 medium-4 columns">
                                 <div className="input-group">
                                     <div className="css-float-label">
-                                        <input id="creditcard" type="tel" name="ccnumber" placeholder="Card Number" pattern="\d{4} \d{4} \d{4} \d{4}" className="form-control creditcard-text input-text masked" />
-                                        <label htmlFor="creditcard">Card Number</label>
+                                        <span className="icon jcp-icon-red" dangerouslySetInnerHTML={{ __html: cardJCPRed }} />
+                                        <input id="creditcard" type="tel" name="ccnumber" placeholder="8888 8888 888" className="form-control creditcard-text input-text masked" />
+                                        <label className="creditcard" htmlFor="creditcard">Card Number</label>
                                     </div>
                                 </div>
                             </div>
