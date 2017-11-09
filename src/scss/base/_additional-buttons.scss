@@ -1,0 +1,49 @@
+/*********************************
+/* Additional Buttons
+*********************************/
+
+.toggle-list .icon-toggle {
+  .toggle-img {
+    position: relative;
+    width: 220px;
+    margin: 0 auto;
+    .heart-icon {
+      background: $color-white;
+      opacity: 0.85;
+      width: 40px;
+      height: 40px;
+      border-radius: 20px;
+      position: absolute;
+      right: 8px;
+      top: 8px;
+      color: $color-nightsky;
+      .icon {
+        path {
+          fill: $color-nightsky;
+        }
+        &:hover path{
+          fill: $color-penneyred;
+        }
+      }
+      .hover {
+        path {
+          fill: $color-penneyred;
+        }
+      }
+    }
+  }
+  .heart-icon.active span {
+    &.active-toggle {
+      display: block;
+    }
+    &.hide-toggle {
+      display: none;
+    }
+  }
+}
+.std-txt-label {
+  display: block;
+  text-align: center;
+  padding: 20px 0;
+  color: #04aae5;
+}
