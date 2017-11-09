@@ -47,7 +47,7 @@ class ContentLoaders extends Component {
                 <div className="row">
                     <div className="small-12 columns">
                         <h1 className="title title-XL mrg-L">Content Loaders</h1>
-                        <h2 className="std-txt std-txt-XL mrg-L txt-max-width">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h2>
+                        <h2 className="std-txt std-txt-XL mrg-L max-width-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h2>
                         <hr />
                     </div>
                 </div>
@@ -55,7 +55,7 @@ class ContentLoaders extends Component {
                 <div className="row" id="types">
                     <div className="small-12 columns">
                         <h3 className="title title-L mrg-M">Types</h3>
-                        <p className="mrg-L txt-max-width">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <p className="mrg-L max-width-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                         <div className="small-12 medium-12 columns">
                             <div className="small-12 medium-4 columns">
                                 <div className="loader-container">
@@ -70,7 +70,7 @@ class ContentLoaders extends Component {
                             </div>
                             <div className="small-12 medium-8 columns">
                                 <h4 className="title title-M mrg-L">Page</h4>
-                                <p className="txt-max-width">Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec ullamcorper nulla non metus auctor fringilla. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. <br /><br /><br /><br /></p>
+                                <p className="max-width-text">Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec ullamcorper nulla non metus auctor fringilla. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. <br /><br /><br /><br /></p>
                             </div>
                         </div>
                         <div className="small-12 medium-12 columns">
@@ -88,7 +88,7 @@ class ContentLoaders extends Component {
                             </div>
                             <div className="small-12 medium-8 columns">
                                 <h4 className="title title-M mrg-L">Progress</h4>
-                                <p className="txt-max-width">Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec ullamcorper nulla non metus auctor fringilla. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. <br /><br /><br /><br /></p>
+                                <p className="max-width-text">Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec ullamcorper nulla non metus auctor fringilla. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. <br /><br /><br /><br /></p>
                             </div>
                         </div>
                         <div className="small-12 medium-12 columns section-container">
@@ -99,7 +99,7 @@ class ContentLoaders extends Component {
                             </div>
                             <div className="small-12 medium-8 columns">
                                 <h4 className="title title-M mrg-L">Section</h4>
-                                <p className="txt-max-width">Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec ullamcorper nulla non metus auctor fringilla. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. <br /><br /></p>
+                                <p className="max-width-text">Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec ullamcorper nulla non metus auctor fringilla. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. <br /><br /></p>
                             </div>
                         </div>
                     </div>
@@ -108,7 +108,7 @@ class ContentLoaders extends Component {
                 <div className="row" id="lazy-load">
                     <div className="small-12 columns">
                         <h3 className="title title-L mrg-L">Lazy Load</h3>
-                        <p className="txt-max-width">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <p className="max-width-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                         <div className="lazy-load-container columns">
                             <div className="lazy-load small-6 medium-4 large-3 xlarge-3 column lazy-load-1">
                                 <div className="lazy-border">

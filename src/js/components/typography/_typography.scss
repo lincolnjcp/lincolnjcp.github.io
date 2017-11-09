@@ -7,6 +7,13 @@ a {
     text-decoration: underline;
 }
 
+em,
+strong {
+    font-weight: 700;
+    font-style: normal;
+    color: #111;
+}
+
 strong {
     font-weight: $font-weight-bold;
 }
@@ -24,7 +31,55 @@ hr {
         padding-left: 15px;
         line-height: 20px;
     }
+    &.list-checkboxes {
+        li {
+            .checkbox {
+                display: inline-block;
+            }
+
+            .list-qty {
+                float: right;
+                color: $color-slate;
+            }
+        }
+    }
+    &.list-underline {
+        li {
+            list-style-type: none;
+            line-height: 40px;
+            border-bottom: 1px solid $color-concrete;
+            margin: 0;
+            padding: 0;
+        }
+    }
+    &.list-links {
+        li {
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+            line-height: 40px;
+        }
+    }
+    &.list-icons {
+        li {
+            position: relative;
+            border-bottom: none;
+            padding-left: 48px;
+            line-height: 24px;
+            list-style-type: none;
+            margin: 0 0 16px;
+            .icon {
+                position: absolute;
+                top: 0px;
+                left: 0px;
+            }
+        }
+    }
 }
+
+
+
+
 
 
 /***************************************************
@@ -41,7 +96,8 @@ p {
 
     &.S {
         font-size: 14px;
-        line-height: 18px;
+        line-height: 24px;
+        letter-spacing: -0.38px;
     }
 
     &.XS {
@@ -284,10 +340,64 @@ p {
     }
 }
 
+@include breakpoint(medium only) {
+    .algn-lft-M {
+        text-align: left;
+    }
+    .algn-mid-M {
+        text-align: center;
+    }
+    .algn-rght-M {
+        text-align: right;
+    }
+}
 
-// Maximum readable line length
-.txt-max-width {
-    max-width: 600px;
+@include breakpoint(large only) {
+    .algn-lft-L {
+        text-align: left;
+    }
+    .algn-mid-L {
+        text-align: center;
+    }
+    .algn-rght-L {
+        text-align: right;
+    }
+}
+
+@include breakpoint(xlarge only) {
+    .algn-lft-XL {
+        text-align: left;
+    }
+    .algn-mid-XL {
+        text-align: center;
+    }
+    .algn-rght-XL {
+        text-align: right;
+    }
+}
+
+.valgn-top {
+    vertical-align: top;
+    td,
+    th {
+        vertical-align: top;
+    }
+}
+
+.valgn-mid {
+    vertical-align: middle;
+    td,
+    th {
+        vertical-align: middle;
+    }
+}
+
+.valgn-btm {
+    vertical-align: bottom;
+    td,
+    th {
+        vertical-align: bottom;
+    }
 }
 
 // All Caps

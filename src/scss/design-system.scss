@@ -493,9 +493,9 @@
 
         p {
             color: $color-nightsky;
-            &.code-format-tab {
-                margin: 10px 0 10px 20px;
-            }
+        }
+        .code-format-tab {
+            margin: 10px 0 10px 20px;
         }
         .code-format-attribute {
             color: #008a44;
@@ -706,4 +706,14 @@
             margin-bottom: 20px;
         }
     }
+}
+
+/* WORK IN PROGRESS */
+
+.modal-preview {
+    background-color: rgba(0,0,0,0.5);
+}
+
+.width-216 {
+  width: 216px;
 }

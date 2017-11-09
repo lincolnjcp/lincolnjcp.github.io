@@ -5,8 +5,6 @@ const chatfillImage = require('!!raw-loader?es5=1!../../../images/global/icons/a
 const thumbsupfillImage = require('!!raw-loader?es5=1!../../../images/global/icons/action/thumbsup-fill.svg');
 const heartlineImage = require('!!raw-loader?es5=1!../../../images/global/icons/action/heart-line.svg');
 const trianglerightImage = require('!!raw-loader?es5=1!../../../images/global/icons/nav/triangle-right.svg');
-const heartImage = require('!!raw-loader?es5=1!../../../images/global/icons/action/heart-line.svg');
-const heartImageFill = require('!!raw-loader?es5=1!../../../images/global/icons/action/heart-fill.svg');
 
 class WorkInProgress extends Component {
 
@@ -868,38 +866,6 @@ componentDidMount() {
     <button className="txt-btn mrg-rght-S" disabled>Disabled</button>
     <button className="txt-btn txt-btn-S mrg-rght-S">Small Button</button>
     <button className="txt-btn txt-btn-S mrg-rght-S" disabled>Small Button</button>
-
-
-     <div className="anno">Icon Toggle</div>
-     
-     <div className="toggle-list small-12 medium-12 column row">
-        <div className="icon-toggle small-8 medium-4 large-4 column">
-          <figure className="toggle-img">
-            <img src="http://via.placeholder.com/220x220" alt="" />
-            <a href="javascript:void(0);" className="heart-icon">
-              <span className="icon active-toggle" dangerouslySetInnerHTML={{ __html: heartImage }} />
-            </a>
-            <span className="std-txt-label">Default</span>
-          </figure>
-        </div>
-        <div className="icon-toggle small-8 medium-4 large-4 column">
-          <figure className="toggle-img">
-            <img src="http://via.placeholder.com/220x220" alt="" />
-            <a href="javascript:void(0);" className="heart-icon">
-              <span className="icon hover" dangerouslySetInnerHTML={{ __html: heartImage }} />                </a>
-            <span className="std-txt-label">Hover</span>
-          </figure>
-        </div>
-        <div className="icon-toggle small-8 medium-4 large-4 column">
-          <figure className="toggle-img">
-            <img src="http://via.placeholder.com/220x220" alt="" />
-            <a href="javascript:void(0);" className="heart-icon">
-              <span className="icon hover" dangerouslySetInnerHTML={{ __html: heartImageFill }} />
-            </a>
-            <span className="std-txt-label">Active</span>
-          </figure>
-        </div>
-      </div>
 
 
     <div className="anno">Progress Bars</div>

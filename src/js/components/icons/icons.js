@@ -193,7 +193,7 @@ componentDidMount() {
     <div className="row">
         <div className="small-12 columns">
             <h1 className="title title-XL mrg-L">Icons</h1>
-            <h2 className="std-txt std-txt-XL mrg-L txt-max-width">Icons are simple and informative. Each icon builds on the visual language of the design system, and represents the simplest version of the idea.</h2>
+            <h2 className="std-txt std-txt-XL mrg-L max-width-text">Icons are simple and informative. Each icon builds on the visual language of the design system, and represents the simplest version of the idea.</h2>
             <hr />
         </div>
     </div>
@@ -202,7 +202,7 @@ componentDidMount() {
             <h3 className="title title-L mrg-L">When to Use</h3>
             <p>Icons are powerful visual helpers, and should be used with care. Overuse quickly results in UIs that are visually overwhelming or distracting.</p>
             <p>Icons are commonly used:</p>
-            <ul className="list txt-max-width color-slate">
+            <ul className="list max-width-text color-slate">
                 <li>In primary navigation</li>
                 <li>In page headers and section titles</li>
                 <li>In banners to bring attention to a specific theme (an announcement, an error, etc.)</li>

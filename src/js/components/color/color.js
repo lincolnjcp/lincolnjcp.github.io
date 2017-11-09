@@ -51,7 +51,7 @@ componentDidMount() {
 <div className="row">
     <div className="small-12 columns">
         <h1 className="title title-XL mrg-L">Color</h1>
-        <h2 className="std-txt std-txt-XL mrg-L txt-max-width">JCPenney uses colors purposefully to communicate how things function in the interface. This helps us create visual patterns that can make interacting with our product easier and more predictable for customers.</h2>
+        <h2 className="std-txt std-txt-XL mrg-L max-width-text">JCPenney uses colors purposefully to communicate how things function in the interface. This helps us create visual patterns that can make interacting with our product easier and more predictable for customers.</h2>
         <hr />
         <div className="design-system-toggle-section">
             <div className="row design-system-headline-with-toggle" id="core">
@@ -99,7 +99,7 @@ componentDidMount() {
             </div>
             <div className="row">
                 <div className="small-12 columns">
-                    <p className="mrg-L txt-max-width">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <p className="mrg-L max-width-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 </div>
             </div>
             <div className="row">
@@ -159,7 +159,7 @@ componentDidMount() {
             </div>
             <div className="row">
                 <div className="small-12 columns">
-                    <p className="mrg-L txt-max-width">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <p className="mrg-L max-width-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 </div>
             </div>
             <div className="row">
@@ -209,7 +209,7 @@ componentDidMount() {
             </div>
             <div className="row">
                 <div className="small-12 columns">
-                    <p className="mrg-L txt-max-width">The current brand pallete is reserved for brand and marketing assets. These color are not typically used in the UI. When using these color it is required to consult with the appropriate brand and/or marketing teams to ensure proper usage.</p>
+                    <p className="mrg-L max-width-text">The current brand pallete is reserved for brand and marketing assets. These color are not typically used in the UI. When using these color it is required to consult with the appropriate brand and/or marketing teams to ensure proper usage.</p>
                     <h5 className="title title-M mrg-S">Fall</h5>
                 </div>
             </div>
