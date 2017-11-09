@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 
 const cartImage = require('!!raw-loader?es5=1!../../../images/global/icons/utility/cart/cart.svg');
+const heartImage = require('!!raw-loader?es5=1!../../../images/global/icons/action/heart-line.svg');
+const heartImageFill = require('!!raw-loader?es5=1!../../../images/global/icons/action/heart-fill.svg');
 
 class WorkInProgress extends Component {
 
@@ -870,7 +872,37 @@ componentDidMount() {
     <button className="txt-btn" disabled>Disabled</button>
     <button className="txt-btn txt-btn-S">Small Button</button>
     <button className="txt-btn txt-btn-S" disabled>Small Button</button>
-    
+
+
+    <div className="anno">Icon Toggle</div>
+          <div className="toggle-list small-12 medium-12 column row">
+            <div className="icon-toggle small-8 medium-4 large-4 column">
+              <figure className="toggle-img">
+                <img src="http://via.placeholder.com/220x220" alt="" />
+                <a href="javascript:void(0);" className="heart-icon">
+                  <span className="icon active-toggle" dangerouslySetInnerHTML={{ __html: heartImage }} />
+                </a>
+                <span className="std-txt-label">Default</span>
+              </figure>
+            </div>
+            <div className="icon-toggle small-8 medium-4 large-4 column">
+              <figure className="toggle-img">
+                <img src="http://via.placeholder.com/220x220" alt="" />
+                <a href="javascript:void(0);" className="heart-icon">
+                  <span className="icon hover" dangerouslySetInnerHTML={{ __html: heartImage }} />                </a>
+                <span className="std-txt-label">Hover</span>
+              </figure>
+            </div>
+            <div className="icon-toggle small-8 medium-4 large-4 column">
+              <figure className="toggle-img">
+                <img src="http://via.placeholder.com/220x220" alt="" />
+                <a href="javascript:void(0);" className="heart-icon">
+                  <span className="icon hover" dangerouslySetInnerHTML={{ __html: heartImageFill }} />
+                </a>
+                <span className="std-txt-label">Active</span>
+              </figure>
+            </div>
+          </div>
 
 
     <div className="anno">Progress Bars</div>
