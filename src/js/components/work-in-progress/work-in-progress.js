@@ -873,7 +873,7 @@ componentDidMount() {
 
 
     <div className="anno">Progress Bars</div>
-    <p className="std-txt std-txt-M color-nightsky">Spend <strong>$83.00</strong> more to Ship to Home FREE</p>
+    <p className="std-txt std-txt-M color-nightsky">Spend <strong>$83.00</strong> more to earn FREE shipping</p>
     <div className="progress-bar">
       <div className="progress-bar-percent"></div>
     </div>
