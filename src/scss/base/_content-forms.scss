@@ -26,6 +26,12 @@
         color: $color-slate;
       }
     }
+    .creditcard {
+      margin-left: 42px;
+    }
+    .creditcard-text {
+      padding-left: 52px;
+    }
   }
   .input-text {
     border: 1px solid $color-concrete;
@@ -50,7 +56,11 @@
       margin-top: 8px;
     }
   }
-
+.jcp-icon-red {
+  position: absolute;
+  left: 8px;
+  top: 0;
+}
   a.apply-btn {
     position: absolute;
     right: -1px;
