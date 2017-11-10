@@ -12,9 +12,16 @@ class CodeGenerator extends Component {
 
     updateUIChanges() {
 
+
+        $('.code-generator').data('htmlPattern',this.props.htmlPattern[0]);
+        $('.code-generator').data('HTMLPatternName','default');
+
         window.updateCodeGenerator = function () {
 
-            let HTMLCode = String($(".code-generator").data("html-pattern"));
+            let HTMLPatternName = $(".code-generator").data("HTMLPatternName");
+            let HTMLCode = $(".code-generator").data("htmlPattern")[HTMLPatternName][0].html;
+
+
 
             $(".code-generator input, .code-generator select").each(function () {
                 var value = $(this).val();
@@ -37,6 +44,11 @@ class CodeGenerator extends Component {
             $(".code-generator-code-preview").html(HTMLCodePreview);
             $(".code-generator-copy button").attr("data-clipboard-text", HTMLCode);
 
+            
+            if($(".code-generator").data("htmlPattern")[HTMLPatternName][1].javascript) {
+                eval($(".code-generator").data("htmlPattern")[HTMLPatternName][1].javascript);
+            }
+
             $(".color-picker-swatch").each(function () {
                 var attrColor = $(this).closest(".design-system-color-picker").find("select").val();
                 var regex = new RegExp("-bg$");
@@ -53,6 +65,9 @@ class CodeGenerator extends Component {
         });
 
         $('.code-generator select, .code-generator input[type="checkbox"]').change(function () {
+            if($(this).hasClass('select-pattern')) {
+                $('.code-generator').data('HTMLPatternName',$(this).val());
+            }
             window.updateCodeGenerator();
         });
 
@@ -119,7 +134,7 @@ class CodeGenerator extends Component {
     render() {
         return (
             <div>
-                <div className="code-generator mrg-XL" data-html-pattern={this.props.htmlPattern}>
+                <div className="code-generator mrg-XL">
                     <div className="code-generator-right">
                         {this.createInputComponent()}
                     </div>

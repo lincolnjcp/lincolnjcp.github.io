@@ -100,6 +100,28 @@ class CreateInput extends Component {
         );
     }
 
+    renderSelectPatternControl() {
+        return (
+                <div className="row mrg-L">
+                  <div className="small-12 columns select-form">
+                      <div className="small-12 columns select">
+                          <div className="css-float-label">
+                              <select className="form-control custom-select select-pattern" name={this.props.name} defaultValue={this.props.defaultSelect}>
+                                  {this.props.value.map((field, index) => {
+                                return (
+                                    <option key={index} value={field.value}>{field.text}
+                                    </option>
+                                )
+                            })}
+                              </select>
+                              <span>{this.props.displayLabel}</span>
+                          </div>
+                      </div>
+                  </div>                            
+                </div>
+            );
+    }
+
 
     render() {
         if (this.props.fieldType == "text") {
@@ -110,6 +132,8 @@ class CreateInput extends Component {
             return this.renderSelectColorControl();
         } else if (this.props.fieldType == "select-grouped") {
             return this.renderOptionGroupControl();
+        } else if (this.props.fieldType == "select-pattern") {
+            return this.renderSelectPatternControl();
         } else {
             return this.renderCheckboxControl();
         }

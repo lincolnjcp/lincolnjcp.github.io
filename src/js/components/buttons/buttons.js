@@ -86,13 +86,27 @@ class Buttons extends Component {
                             defaultSelect: 'true'
                         }
                     ]}
-                htmlPattern="<[[format_tag_start]]a[[format_tag_end]] [[format_attribute_start]]
-                            href=&quot;[[format_attribute_end]][[format_tag_value_start]]javascript:void();[[format_tag_value_end]][[format_attribute_start]]&quot;
-                            class=&quot;[[format_attribute_end]][[format_tag_value_start]]btn [[code_button_size]] [[code_button_style]] [[code_button_width]] [[code_button_disabled]][[format_tag_value_end]][[format_attribute_start]]&quot;[[format_attribute_end]]>
-                            [[format_tab_start]]
-                                [[code_button_text]]
-                            [[format_tab_end]]
-                        <[[format_tag_start]]/a[[format_tag_end]]>"
+
+                    htmlPattern={ 
+                        [
+                            {
+                                default: [
+                                    {
+                                        html:`<[[format_tag_start]]a[[format_tag_end]] [[format_attribute_start]]
+                                            href="[[format_attribute_end]][[format_tag_value_start]]javascript:void();[[format_tag_value_end]][[format_attribute_start]]"
+                                            class="[[format_attribute_end]][[format_tag_value_start]]btn [[code_button_size]] [[code_button_style]] [[code_button_width]] [[code_button_disabled]][[format_tag_value_end]][[format_attribute_start]]"[[format_attribute_end]]>
+                                            [[format_tab_start]]
+                                                [[code_button_text]]
+                                            [[format_tab_end]]
+                                        <[[format_tag_start]]/a[[format_tag_end]]>`,
+                                    },
+                                    {
+                                        javascript:``,                                        
+                                    }
+
+                                ]
+                            }
+                        ]}    
 
               />
         </div>

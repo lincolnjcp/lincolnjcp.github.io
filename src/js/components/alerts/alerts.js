@@ -64,12 +64,27 @@ class Alerts extends Component {
                             defaultSelect: 'true'
                         }
                     ]}
-                htmlPattern="<[[format_tag_start]]div[[format_tag_end]] [[format_attribute_start]]
-                            class=&quot;[[format_attribute_end]][[format_tag_value_start]]msg mrg-M [[code_alert_status]] [[code_alert_width]] [[format_tag_value_end]][[format_attribute_start]]&quot;[[format_attribute_end]]>
-                            [[format_tab_start]]
-                                This is an alert message.[[code_alert_dismissable]]
-                            [[format_tab_end]]
-                        <[[format_tag_start]]/div[[format_tag_end]]>"
+
+                    htmlPattern={ 
+                        [
+                            {
+                                default: [
+                                    {
+                                        html:`<[[format_tag_start]]div[[format_tag_end]] [[format_attribute_start]]
+                                                    class="[[format_attribute_end]][[format_tag_value_start]]msg mrg-M [[code_alert_status]] [[code_alert_width]] [[format_tag_value_end]][[format_attribute_start]]"[[format_attribute_end]]>
+                                                    [[format_tab_start]]
+                                                        This is an alert message.[[code_alert_dismissable]]
+                                                    [[format_tab_end]]
+                                                <[[format_tag_start]]/div[[format_tag_end]]>`,
+                                    },
+                                    {
+                                        javascript:``,                                        
+                                    }
+
+                                ]
+                            }
+                        ]} 
+                        
 
               />
         </div>

@@ -123,54 +123,69 @@ class Tables extends Component {
                             defaultSelect: 'true'
                         }
                     ]}
-                htmlPattern="<[[format_tag_start]]table[[format_tag_end]] [[format_attribute_start]]class=&quot;[[format_attribute_end]][[format_tag_value_start]][[code_table_style]] [[code_table_all_borders]] [[code_table_width]] [[code_table_color]] [[code_table_vertical_align]] std-txt std-txt-S mrg-L algn-lft[[format_tag_value_end]][[format_attribute_start]]&quot; border=&quot;[[format_attribute_end]][[format_tag_value_start]]0[[format_tag_value_end]][[format_attribute_start]]&quot;[[format_attribute_end]]>
-                                [[format_tab_start]]
-                                    <[[format_tag_start]]tbody[[format_tag_end]]>
-                                        [[format_tab_start]]
-                                        <[[format_tag_start]]tr[[format_tag_end]]>
+
+                htmlPattern={ 
+                    [
+                        {
+                            default: [
+                                {
+                                    html:`<[[format_tag_start]]table[[format_tag_end]] [[format_attribute_start]]class="[[format_attribute_end]][[format_tag_value_start]][[code_table_style]] [[code_table_all_borders]] [[code_table_width]] [[code_table_color]] [[code_table_vertical_align]] std-txt std-txt-S mrg-L algn-lft[[format_tag_value_end]][[format_attribute_start]]" border="[[format_attribute_end]][[format_tag_value_start]]0[[format_tag_value_end]][[format_attribute_start]]"[[format_attribute_end]]>
                                             [[format_tab_start]]
-                                                <[[format_tag_start]]th[[format_tag_end]] [[format_attribute_start]]class=&quot;[[format_attribute_end]][[format_tag_value_start]]title-S [[code_table_cell_width]][[format_tag_value_end]][[format_attribute_start]]&quot;[[format_attribute_end]]>
-                                                    [[format_tab_start]]Feature[[format_tab_end]]
-                                                <[[format_tag_start]]/th[[format_tag_end]]>
+                                                <[[format_tag_start]]tbody[[format_tag_end]]>
+                                                    [[format_tab_start]]
+                                                    <[[format_tag_start]]tr[[format_tag_end]]>
+                                                        [[format_tab_start]]
+                                                            <[[format_tag_start]]th[[format_tag_end]] [[format_attribute_start]]class="[[format_attribute_end]][[format_tag_value_start]]title-S [[code_table_cell_width]][[format_tag_value_end]][[format_attribute_start]]"[[format_attribute_end]]>
+                                                                [[format_tab_start]]Feature[[format_tab_end]]
+                                                            <[[format_tag_start]]/th[[format_tag_end]]>
+                                                        [[format_tab_end]]
+                                                        [[format_tab_start]]
+                                                            <[[format_tag_start]]td[[format_tag_end]]>
+                                                                [[format_tab_start]]Detail[[format_tab_end]]
+                                                            <[[format_tag_start]]/td[[format_tag_end]]>
+                                                        [[format_tab_end]]
+                                                    </[[format_tag_start]]tr[[format_tag_end]]>
+                                                    [[format_tab_end]]
+                                                    [[format_tab_start]]
+                                                    <[[format_tag_start]]tr[[format_tag_end]]>
+                                                        [[format_tab_start]]
+                                                            <[[format_tag_start]]th[[format_tag_end]] [[format_attribute_start]]class="[[format_attribute_end]][[format_tag_value_start]]title-S [[code_table_cell_width]][[format_tag_value_end]][[format_attribute_start]]"[[format_attribute_end]]>
+                                                                [[format_tab_start]]Feature[[format_tab_end]]
+                                                            <[[format_tag_start]]/th[[format_tag_end]]>
+                                                        [[format_tab_end]]
+                                                        [[format_tab_start]]
+                                                            <[[format_tag_start]]td[[format_tag_end]]>
+                                                                [[format_tab_start]]Detail[[format_tab_end]]
+                                                            <[[format_tag_start]]/td[[format_tag_end]]>
+                                                        [[format_tab_end]]
+                                                    <[[format_tag_start]]/tr[[format_tag_end]]>
+                                                    [[format_tab_end]]
+                                                    [[format_tab_start]]
+                                                    <[[format_tag_start]]tr[[format_tag_end]]>
+                                                        [[format_tab_start]]
+                                                            <[[format_tag_start]]th[[format_tag_end]] [[format_attribute_start]]class="[[format_attribute_end]][[format_tag_value_start]]title-S [[code_table_cell_width]][[format_tag_value_end]][[format_attribute_start]]"[[format_attribute_end]]>
+                                                                [[format_tab_start]]Feature[[format_tab_end]]
+                                                            <[[format_tag_start]]/th[[format_tag_end]]>
+                                                        [[format_tab_end]]
+                                                        [[format_tab_start]]
+                                                            <[[format_tag_start]]td[[format_tag_end]]>
+                                                                [[format_tab_start]]Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.[[format_tab_end]]
+                                                            <[[format_tag_start]]/td[[format_tag_end]]>
+                                                        [[format_tab_end]]
+                                                    <[[format_tag_start]]/tr[[format_tag_end]]>
+                                                    [[format_tab_end]]
+                                                <[[format_tag_start]]/tbody[[format_tag_end]]>
                                             [[format_tab_end]]
-                                            [[format_tab_start]]
-                                                <[[format_tag_start]]td[[format_tag_end]]>
-                                                    [[format_tab_start]]Detail[[format_tab_end]]
-                                                <[[format_tag_start]]/td[[format_tag_end]]>
-                                            [[format_tab_end]]
-                                        </[[format_tag_start]]tr[[format_tag_end]]>
-                                        [[format_tab_end]]
-                                        [[format_tab_start]]
-                                        <[[format_tag_start]]tr[[format_tag_end]]>
-                                            [[format_tab_start]]
-                                                <[[format_tag_start]]th[[format_tag_end]] [[format_attribute_start]]class=&quot;[[format_attribute_end]][[format_tag_value_start]]title-S [[code_table_cell_width]][[format_tag_value_end]][[format_attribute_start]]&quot;[[format_attribute_end]]>
-                                                    [[format_tab_start]]Feature[[format_tab_end]]
-                                                <[[format_tag_start]]/th[[format_tag_end]]>
-                                            [[format_tab_end]]
-                                            [[format_tab_start]]
-                                                <[[format_tag_start]]td[[format_tag_end]]>
-                                                    [[format_tab_start]]Detail[[format_tab_end]]
-                                                <[[format_tag_start]]/td[[format_tag_end]]>
-                                            [[format_tab_end]]
-                                        <[[format_tag_start]]/tr[[format_tag_end]]>
-                                        [[format_tab_end]]
-                                        [[format_tab_start]]
-                                        <[[format_tag_start]]tr[[format_tag_end]]>
-                                            [[format_tab_start]]
-                                                <[[format_tag_start]]th[[format_tag_end]] [[format_attribute_start]]class=&quot;[[format_attribute_end]][[format_tag_value_start]]title-S [[code_table_cell_width]][[format_tag_value_end]][[format_attribute_start]]&quot;[[format_attribute_end]]>
-                                                    [[format_tab_start]]Feature[[format_tab_end]]
-                                                <[[format_tag_start]]/th[[format_tag_end]]>
-                                            [[format_tab_end]]
-                                            [[format_tab_start]]
-                                                <[[format_tag_start]]td[[format_tag_end]]>
-                                                    [[format_tab_start]]Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.[[format_tab_end]]
-                                                <[[format_tag_start]]/td[[format_tag_end]]>
-                                            [[format_tab_end]]
-                                        <[[format_tag_start]]/tr[[format_tag_end]]>
-                                        [[format_tab_end]]
-                                    <[[format_tag_start]]/tbody[[format_tag_end]]>
-                                [[format_tab_end]]
-                            <[[format_tag_start]]/table[[format_tag_end]]>"
+                                        <[[format_tag_start]]/table[[format_tag_end]]>`,                                        
+                                },
+                                {
+                                    javascript:``,
+                                }
+
+                            ]
+                             
+                        }
+                    ]}
 
               />
         </div>

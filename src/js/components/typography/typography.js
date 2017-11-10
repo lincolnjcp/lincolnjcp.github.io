@@ -225,26 +225,40 @@ By consistently tying typographic styles to appropriate fuctions in the interfac
                             defaultSelect: 'algn-lft'
                         }
                     ]}
-                htmlPattern="<[[format_tag_start]]p[[format_tag_end]] [[format_attribute_start]]
-                                class=&quot;[[format_attribute_end]][[format_tag_value_start]][[code_type_margin]] [[code_type_alignment]] [[code_type_size]] [[code_type_color]][[format_tag_value_end]][[format_attribute_start]]&quot;[[format_attribute_end]]>
-                                [[format_tab_start]]
-                                    [[code_type_text]]
-                                [[format_tab_end]]
-                            <[[format_tag_start]]/p[[format_tag_end]]>
-                            [[format_br]]
-                            <[[format_tag_start]]p[[format_tag_end]] [[format_attribute_start]]
-                                class=&quot;[[format_attribute_end]][[format_tag_value_start]][[code_type_margin]] [[code_type_alignment]] [[code_type_size]] [[code_type_color]][[format_tag_value_end]][[format_attribute_start]]&quot;[[format_attribute_end]]>
-                                [[format_tab_start]]
-                                    [[code_type_text]]
-                                [[format_tab_end]]
-                            <[[format_tag_start]]/p[[format_tag_end]]>
-                            [[format_br]]
-                            <[[format_tag_start]]p[[format_tag_end]] [[format_attribute_start]]
-                                class=&quot;[[format_attribute_end]][[format_tag_value_start]][[code_type_margin]] [[code_type_alignment]] [[code_type_size]] [[code_type_color]][[format_tag_value_end]][[format_attribute_start]]&quot;[[format_attribute_end]]>
-                                [[format_tab_start]]
-                                    [[code_type_text]]
-                                [[format_tab_end]]
-                            <[[format_tag_start]]/p[[format_tag_end]]>"
+
+                    htmlPattern={ 
+                        [
+                            {
+                                default: [
+                                    {
+                                        html:`<[[format_tag_start]]p[[format_tag_end]] [[format_attribute_start]]
+                                                    class="[[format_attribute_end]][[format_tag_value_start]][[code_type_margin]] [[code_type_alignment]] [[code_type_size]] [[code_type_color]][[format_tag_value_end]][[format_attribute_start]]"[[format_attribute_end]]>
+                                                    [[format_tab_start]]
+                                                        [[code_type_text]]
+                                                    [[format_tab_end]]
+                                                <[[format_tag_start]]/p[[format_tag_end]]>
+                                                [[format_br]]
+                                                <[[format_tag_start]]p[[format_tag_end]] [[format_attribute_start]]
+                                                    class="[[format_attribute_end]][[format_tag_value_start]][[code_type_margin]] [[code_type_alignment]] [[code_type_size]] [[code_type_color]][[format_tag_value_end]][[format_attribute_start]]"[[format_attribute_end]]>
+                                                    [[format_tab_start]]
+                                                        [[code_type_text]]
+                                                    [[format_tab_end]]
+                                                <[[format_tag_start]]/p[[format_tag_end]]>
+                                                [[format_br]]
+                                                <[[format_tag_start]]p[[format_tag_end]] [[format_attribute_start]]
+                                                    class="[[format_attribute_end]][[format_tag_value_start]][[code_type_margin]] [[code_type_alignment]] [[code_type_size]] [[code_type_color]][[format_tag_value_end]][[format_attribute_start]]"[[format_attribute_end]]>
+                                                    [[format_tab_start]]
+                                                        [[code_type_text]]
+                                                    [[format_tab_end]]
+                                                <[[format_tag_start]]/p[[format_tag_end]]>`,
+                                    },
+                                    {
+                                        javascript:``,                                        
+                                    }
+
+                                ]
+                            }
+                        ]}  
 
               />
 

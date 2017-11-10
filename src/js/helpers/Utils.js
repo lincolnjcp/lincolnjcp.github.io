@@ -14,7 +14,9 @@ export default class Utils {
             .replace(/\[\[format_tag_value_start\]\]/g, '<span class="code-format-tag-value">')
             .replace(/\[\[format_tag_value_end\]\]/g, '</span>')
             .replace(/\[\[format_br\]\]/g, '<br />')
-            .replace(/(\s*)\<\/span/g, '</span');
+            .replace(/(\s*)\<\/span/g, '</span')
+            .replace(/code-generator-preview/g, '')
+            ;
         return htmlCode;
     }
 

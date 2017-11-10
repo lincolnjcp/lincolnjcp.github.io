@@ -57,12 +57,26 @@ class Badges extends Component {
                             defaultSelect: 'flag-urgency'
                         }
                     ]}
-                htmlPattern="<[[format_tag_start]]div[[format_tag_end]] [[format_attribute_start]]
-                            class=&quot;[[format_attribute_end]][[format_tag_value_start]]flag [[code_badge_type]] std-txt std-txt-XS [[format_tag_value_end]][[format_attribute_start]]&quot;[[format_attribute_end]]>
-                            [[format_tab_start]]
-                                [[code_badge_text]]
-                            [[format_tab_end]]
-                        <[[format_tag_start]]/div[[format_tag_end]]>"
+
+                htmlPattern={ 
+                    [
+                        {
+                            default: [
+                                {
+                                    html:`<[[format_tag_start]]div[[format_tag_end]] [[format_attribute_start]]
+                                            class="[[format_attribute_end]][[format_tag_value_start]]flag [[code_badge_type]] std-txt std-txt-XS [[format_tag_value_end]][[format_attribute_start]]"[[format_attribute_end]]>
+                                            [[format_tab_start]]
+                                                [[code_badge_text]]
+                                            [[format_tab_end]]
+                                        <[[format_tag_start]]/div[[format_tag_end]]>`,
+                                },
+                                {
+                                    javascript:``,                                        
+                                }
+
+                            ]
+                        }
+                    ]} 
 
               />
 
