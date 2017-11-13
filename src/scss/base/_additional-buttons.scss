@@ -18,9 +18,6 @@
       top: 8px;
       color: $color-nightsky;
       .icon {
-        path {
-          fill: $color-nightsky;
-        }
         &:hover path{
           fill: $color-penneyred;
         }
@@ -30,14 +27,6 @@
           fill: $color-penneyred;
         }
       }
-    }
-  }
-  .heart-icon.active span {
-    &.active-toggle {
-      display: block;
-    }
-    &.hide-toggle {
-      display: none;
     }
   }
 }
