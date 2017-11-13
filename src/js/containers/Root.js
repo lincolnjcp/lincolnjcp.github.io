@@ -17,7 +17,7 @@ const Home = () => (
             <div className="row">
                 <div className="small-12 columns">
                     <h1 className="title title-XL mrg-L">Home</h1>
-                    <h2 className="std-txt std-txt-XL mrg-L txt-max-width">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eu mattis orci. Nunc et ullamcorper quam, id dignissim lacus. </h2>
+                    <h2 className="std-txt std-txt-XL mrg-L max-width-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eu mattis orci. Nunc et ullamcorper quam, id dignissim lacus. </h2>
                 </div>
             </div>
         </div>

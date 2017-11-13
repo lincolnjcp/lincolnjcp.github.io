@@ -87,6 +87,30 @@
 	width: 66.66666667%;
 }
 
+.width-300 {
+  width: 300px;
+}
+
+// Maximum readable line length
+.max-width-text {
+    max-width: 600px;
+}
+
+.max-width-350 {
+  max-width: 350px;
+}
+
+.max-width-400 {
+  max-width: 400px;
+}
+
+.padding-25 {
+  padding: 25px;
+}
+
+.padding-50 {
+  padding: 50px;
+}
 // @media(max-width: $grid-breakpoint-L){
 //   .mrg-zero{
 //     margin: 0px;

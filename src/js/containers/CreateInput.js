@@ -5,9 +5,11 @@ class CreateInput extends Component {
     // Rendering input text controls
     renderInputTextControl() {
         return (
-            <div>
-                <label htmlFor={this.props.name} className="std-txt std-txt-S mrg-S">{this.props.displayLabel}</label>
-                <input type="text" className="form-full mrg-M" name={this.props.name} defaultValue={this.props.value} />
+            <div className="row mrg-M">
+                <div className="small-12 columns">
+                    <label htmlFor={this.props.name} className="std-txt std-txt-S mrg-S">{this.props.displayLabel}</label>
+                    <input type="text" className="form-full" name={this.props.name} defaultValue={this.props.value} />
+                </div>
             </div>
         );
     }
@@ -15,30 +17,32 @@ class CreateInput extends Component {
     //Rendering selection option
     renderSelectControl() {
         return (
-            <div>
-                <label htmlFor={this.props.name} className="std-txt std-txt-S mrg-S">{this.props.displayLabel}</label>
-                <div className="mrg-M">
-                    <span className="select select-M select-full">
-                        <select name={this.props.name} defaultValue={this.props.defaultSelect}>
-                            {this.props.value.map((field, index) => {
+                <div className="row mrg-L">
+                  <div className="small-12 columns select-form">
+                      <div className="small-12 columns select">
+                          <div className="css-float-label">
+                              <select className="form-control custom-select" name={this.props.name} defaultValue={this.props.defaultSelect}>
+                                  {this.props.value.map((field, index) => {
                                 return (
                                     <option key={index} value={field.value}>{field.text}
                                     </option>
                                 )
                             })}
-
-
-                        </select>
-                    </span>
+                              </select>
+                              <span>{this.props.displayLabel}</span>
+                          </div>
+                      </div>
+                  </div>                            
                 </div>
-            </div>);
+            );
     }
 
     //Rendering color selection option
     renderSelectColorControl() {
-        return (<div>
+        return (<div className="row mrg-L">
+                  <div className="small-12 columns">
             <label htmlFor={this.props.name} className="std-txt std-txt-S mrg-S">{this.props.displayLabel}</label>
-            <div class="design-system-color-picker mrg-M">
+            <div class="design-system-color-picker">
                 <span class="color-picker-icon selected"><span class="color-nightsky-bg color-picker-swatch"></span></span>
                 <span className="select select-M select-full">
                     <select name={this.props.name} defaultValue={this.props.defaultSelect}>
@@ -51,27 +55,37 @@ class CreateInput extends Component {
                     </select>
                 </span>
             </div>
+            </div>
         </div>);
     }
 
     //Rendering option group control
     renderOptionGroupControl() {
         return (
-            <div>
-                <label htmlFor={this.props.name} className="std-txt std-txt-S mrg-S">{this.props.displayLabel}</label>
-                <div class="design-system-color-picker mrg-M">
-                    <span class="color-picker-icon selected"><span class="color-nightsky-bg color-picker-swatch"></span></span>
-                    <span className="select select-M select-full">
-                        <select name={this.props.name} defaultValue={this.props.defaultSelect}>
-                            {this.props.value.map((field, index) => {
-                                return (
-                                    <option key={index} value={field.value}>{field.text}
-                                    </option>
+            <div className="row mrg-L">
+              <div className="small-12 columns select-form">
+                  <div className="small-12 columns select">
+                      <div className="css-float-label">
+                          <select className="form-control custom-select" name={this.props.name} defaultValue={this.props.defaultSelect}>
+                               {this.props.value.map((field, index) => {
+                             return (
+                                    <optgroup label={field.displayLabel} >
+
+                                    {field.value.map((field, index) => {
+                                     return (
+                                            <option key={index} value={field.value}>{field.text}
+                                            </option>
+                                        )
+                                    })}
+
+                                    </optgroup>
                                 )
-                            })}
-                        </select>
-                    </span>
-                </div>
+                       })}
+                          </select>
+                          <span>{this.props.displayLabel}</span>
+                      </div>
+                  </div>
+              </div>                            
             </div>);
     }
 
@@ -86,6 +100,28 @@ class CreateInput extends Component {
         );
     }
 
+    renderSelectPatternControl() {
+        return (
+                <div className="row mrg-L">
+                  <div className="small-12 columns select-form">
+                      <div className="small-12 columns select">
+                          <div className="css-float-label">
+                              <select className="form-control custom-select select-pattern" name={this.props.name} defaultValue={this.props.defaultSelect}>
+                                  {this.props.value.map((field, index) => {
+                                return (
+                                    <option key={index} value={field.value}>{field.text}
+                                    </option>
+                                )
+                            })}
+                              </select>
+                              <span>{this.props.displayLabel}</span>
+                          </div>
+                      </div>
+                  </div>                            
+                </div>
+            );
+    }
+
 
     render() {
         if (this.props.fieldType == "text") {
@@ -96,6 +132,8 @@ class CreateInput extends Component {
             return this.renderSelectColorControl();
         } else if (this.props.fieldType == "select-grouped") {
             return this.renderOptionGroupControl();
+        } else if (this.props.fieldType == "select-pattern") {
+            return this.renderSelectPatternControl();
         } else {
             return this.renderCheckboxControl();
         }

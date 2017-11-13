@@ -1,8 +1,10 @@
 import React, { Component } from 'react';
 
 const cartImage = require('!!raw-loader?es5=1!../../../images/global/icons/utility/cart/cart.svg');
-const heartImage = require('!!raw-loader?es5=1!../../../images/global/icons/action/heart-line.svg');
-const heartImageFill = require('!!raw-loader?es5=1!../../../images/global/icons/action/heart-fill.svg');
+const chatfillImage = require('!!raw-loader?es5=1!../../../images/global/icons/action/chat-fill.svg');
+const thumbsupfillImage = require('!!raw-loader?es5=1!../../../images/global/icons/action/thumbsup-fill.svg');
+const heartlineImage = require('!!raw-loader?es5=1!../../../images/global/icons/action/heart-line.svg');
+const trianglerightImage = require('!!raw-loader?es5=1!../../../images/global/icons/nav/triangle-right.svg');
 
 class WorkInProgress extends Component {
 
@@ -17,33 +19,33 @@ componentDidMount() {
 
 
     <p className="anno">Price Text Styles</p>
-    <h2 className="price price-XL">$75.00 - XL</h2>
-    <h2 className="price price-L">$65.00 - L</h2>
-    <h2 className="price price-M">$55.00 - M</h2>
+    <h2 className="price price-XL mrg-L">$75.00 - XL</h2>
+    <h2 className="price price-L mrg-L">$65.00 - L</h2>
+    <h2 className="price price-M mrg-L">$55.00 - M</h2>
     <h2 className="price price-S color-penneyred">$45.00 - S</h2>
 
 
     <p className="anno">Title Text Styles</p>
-    <h2 className="title title-XL">Title XL</h2>
-    <h2 className="title title-L">Title L</h2>
-    <h2 className="title title-M">Title M</h2>
-    <h2 className="title title-S">Title S</h2>
+    <h2 className="title title-XL mrg-L">Title XL</h2>
+    <h2 className="title title-L mrg-L">Title L</h2>
+    <h2 className="title title-M mrg-L">Title M</h2>
+    <h2 className="title title-S mrg-L">Title S</h2>
 
 
     <p className="anno">Standard Text Styles</p>
-    <p className="std-txt std-txt-L"><span className="color-penneyred">FREE</span> Store Pickup Today at <br /><a href="#">Stonebriar Mall</a></p>
+    <p className="std-txt std-txt-L mrg-L"><span className="color-penneyred">FREE</span> Store Pickup Today at <br /><a href="#">Stonebriar Mall</a></p>
 
-    <p className="std-txt std-txt-M"><span className="color-penneyred">FREE</span> Store Pickup Today at <br /><a href="#">Stonebriar Mall</a></p>
+    <p className="std-txt std-txt-M mrg-L"><span className="color-penneyred">FREE</span> Store Pickup Today at <br /><a href="#">Stonebriar Mall</a></p>
 
-    <p className="std-txt std-txt-S"><span className="color-penneyred">FREE</span> Store Pickup Today at
+    <p className="std-txt std-txt-S mrg-L"><span className="color-penneyred">FREE</span> Store Pickup Today at
      <br /><a href="#">Stonebriar Mall</a></p>
 
-    <p className="std-txt std-txt-XS">Select Styles
+    <p className="std-txt std-txt-XS mrg-L">Select Styles
      <br /><a href="#">See details</a></p>
 
-    <p className="M">That’s it! You’re done with that ancient comforter on your bed! You want a <a href="#">fresh pop</a> of style, a cool contemporary look, and a surprising splash...</p>
+    <p className="M max-width-350 mrg-L">That’s it! You’re done with that ancient comforter on your bed! You want a <a href="#">fresh pop</a> of style, a cool contemporary look, and a surprising splash...</p>
 
-    <p className="S">That’s it! You’re done with that ancient comforter on your bed! You want a <a href="#">fresh pop</a> of style, a cool contemporary look, and a surprising splash... <em>now with emphasis!</em></p>
+    <p className="S max-width-350 mrg-L">That’s it! You’re done with that ancient comforter on your bed! You want a <a href="#">fresh pop</a> of style, a cool contemporary look, and a surprising splash... <em>now with emphasis!</em></p>
 
 
     <p className="anno">Promo Labels</p>
@@ -51,24 +53,24 @@ componentDidMount() {
     Women’s Clothing</h2>
     <h3 className="promo-lbl promo-lbl-S mrg-XL">+ get an extra 10% off with your JCPenney Credit Card</h3>
 
-    <h2 className="promo-lbl promo-lbl-XL algn-mid">Extra 20% Off <br />
+    <h2 className="promo-lbl promo-lbl-XL algn-mid mrg-XL">Extra 20% Off <br />
     Women’s Clothing</h2>
 
-    <h2 className="promo-lbl promo-lbl-M algn-rght"><span className="color-penneyred">Extra 20% Off</span> <br />
+    <h2 className="promo-lbl promo-lbl-M algn-rght mrg-XL"><span className="color-penneyred">Extra 20% Off</span> <br />
     Women’s Clothing</h2>
 
-    <div className="color-penneyred-bg">
-      <h2 className="promo-lbl promo-display promo-lbl-XXL">30% off!</h2>
-      <h2 className="promo-lbl promo-display promo-lbl-XL">30% off!</h2>
-      <h2 className="promo-lbl promo-display promo-lbl-L">30% off!</h2>
-      <h2 className="promo-lbl promo-display promo-lbl-M">30% off!</h2>
-      <h2 className="promo-lbl promo-display promo-lbl-S">30% off!</h2>
+    <div className="color-penneyred-bg padding-50">
+      <h2 className="promo-lbl promo-display promo-lbl-XXL mrg-L">30% off!</h2>
+      <h2 className="promo-lbl promo-display promo-lbl-XL mrg-L">30% off!</h2>
+      <h2 className="promo-lbl promo-display promo-lbl-L mrg-L">30% off!</h2>
+      <h2 className="promo-lbl promo-display promo-lbl-M mrg-L">30% off!</h2>
+      <h2 className="promo-lbl promo-display promo-lbl-S mrg-L">30% off!</h2>
     </div>
 
     <p className="anno">Marketing Labels</p>
-    <h3 className="marketing-lbl">BOGO 50% off</h3>
-    <h3 className="marketing-lbl">Clearance</h3>
-    <h3 className="marketing-lbl">With Code Fundeal</h3>
+    <h3 className="marketing-lbl mrg-M">BOGO 50% off</h3>
+    <h3 className="marketing-lbl mrg-M">Clearance</h3>
+    <h3 className="marketing-lbl mrg-M">With Code Fundeal</h3>
 
     <p className="anno">Radio Buttons</p>
 
@@ -103,7 +105,7 @@ componentDidMount() {
 
     <p className="anno">Buttons</p>
     <div className="">
-      <a href="#" className="btn btn-secondary btn-L mrg-L">Cancel</a>
+      <a href="#" className="btn btn-secondary btn-L mrg-L">Cancel</a>&nbsp;
       <a href="#" className="btn btn-primary btn-L mrg-L">Save</a>
     </div>
     <div>
@@ -135,27 +137,27 @@ componentDidMount() {
     </p>
 
     <div>
-      <a href="#" className="btn btn-primary btn-L mrg-L btn-icon btn-icon-slide"><span className="icon color-white-svg" dangerouslySetInnerHTML={{__html: cartImage}} /><span className="btn-label">Add to Cart</span></a>
+      <a href="#" className="btn btn-primary btn-L mrg-L btn-icon btn-icon-slide width-300"><span className="icon color-white-svg" dangerouslySetInnerHTML={{__html: cartImage}} /><span className="btn-label">Add to Cart</span></a>
     </div>
 
     <div>
-      <a href="#" className="btn btn-primary btn-M mrg-L btn-icon btn-icon-slide"><span className="icon color-white-svg" dangerouslySetInnerHTML={{__html: cartImage}} /><span className="btn-label">Add to Cart</span></a>
+      <a href="#" className="btn btn-primary btn-M mrg-L btn-icon btn-icon-slide width-300"><span className="icon color-white-svg" dangerouslySetInnerHTML={{__html: cartImage}} /><span className="btn-label">Add to Cart</span></a>
     </div>
 
     <div>
-      <a href="#" className="btn btn-primary btn-S mrg-L btn-icon btn-icon-slide"><span className="icon color-white-svg" dangerouslySetInnerHTML={{__html: cartImage}} /><span className="btn-label">Add to Cart</span></a>
+      <a href="#" className="btn btn-primary btn-S mrg-L btn-icon btn-icon-slide width-300"><span className="icon color-white-svg" dangerouslySetInnerHTML={{__html: cartImage}} /><span className="btn-label">Add to Cart</span></a>
     </div>
 
     <div>
-      <a href="#" className="btn btn-secondary btn-L mrg-L btn-icon btn-icon-slide"><span className="icon" dangerouslySetInnerHTML={{__html: cartImage}} /><span className="btn-label">Add to Cart</span></a>
+      <a href="#" className="btn btn-secondary btn-L mrg-L btn-icon btn-icon-slide width-300"><span className="icon" dangerouslySetInnerHTML={{__html: cartImage}} /><span className="btn-label">Add to Cart</span></a>
     </div>
 
     <div>
-      <a href="#" className="btn btn-secondary btn-M mrg-L btn-icon btn-icon-slide"><span className="icon" dangerouslySetInnerHTML={{__html: cartImage}} /><span className="btn-label">Add to Cart</span></a>
+      <a href="#" className="btn btn-secondary btn-M mrg-L btn-icon btn-icon-slide width-300"><span className="icon" dangerouslySetInnerHTML={{__html: cartImage}} /><span className="btn-label">Add to Cart</span></a>
     </div>
 
     <div>
-      <a href="#" className="btn btn-secondary btn-S mrg-L btn-icon btn-icon-slide"><span className="icon" dangerouslySetInnerHTML={{__html: cartImage}} /><span className="btn-label">Add to Cart</span></a>
+      <a href="#" className="btn btn-secondary btn-S mrg-L btn-icon btn-icon-slide width-300"><span className="icon" dangerouslySetInnerHTML={{__html: cartImage}} /><span className="btn-label">Add to Cart</span></a>
     </div>
 
 
@@ -203,101 +205,103 @@ componentDidMount() {
 
 
     <p className="anno">Dropdowns</p>
-    <div>
-      <span className="select select-S mrg-L">
-        <select>
-          <option>1</option>
-          <option>2</option>
-          <option>3</option>
-          <option>4</option>
-        </select>
-      </span>
+
+    <div className="row mrg-XL">
+      <div className="small-12 medium-12 columns select-form">
+          <div className="small-12 medium-4 columns select">
+              <div className="css-float-label">
+                  <select className="form-control custom-select">
+                      <option value=''>Month</option>
+                      <option value='1'>01 - Janaury</option>
+                      <option value='2'>02 - February</option>
+                      <option value='3'>03 - March</option>
+                      <option value='4'>04 - April</option>
+                      <option value='5'>05 - May</option>
+                      <option value='6'>06 - June</option>
+                      <option value='7'>07 - July</option>
+                      <option value='8'>08 - August</option>
+                      <option value='9'>09 - September</option>
+                      <option value='10'>10 - October</option>
+                      <option value='11'>11 - November</option>
+                      <option value='12'>12 - December</option>
+                  </select>
+                  <span>Standard</span>
+              </div>
+          </div>
+      </div>                            
     </div>
 
-    <div>
-      <label for="" className="mrg-S">Quantity</label>
-      <span className="select select-S mrg-L">
-        <select>
-          <option>Select Small...</option>
-          <option>The Great Gatsby</option>
-          <option>V for Vendetta</option>
-          <option>The Wolf of Wallstreet</option>
-          <option>Quantum of Solace</option>
-        </select>
-      </span>
+    <div className="row mrg-XL">
+      <div className="small-12 medium-12 columns select-form">
+          <div className="small-12 columns select">
+              <div className="css-float-label">
+                  <select className="form-control custom-select">
+                      <option value=''>Month</option>
+                      <option value='1'>01 - Janaury</option>
+                      <option value='2'>02 - February</option>
+                      <option value='3'>03 - March</option>
+                      <option value='4'>04 - April</option>
+                      <option value='5'>05 - May</option>
+                      <option value='6'>06 - June</option>
+                      <option value='7'>07 - July</option>
+                      <option value='8'>08 - August</option>
+                      <option value='9'>09 - September</option>
+                      <option value='10'>10 - October</option>
+                      <option value='11'>11 - November</option>
+                      <option value='12'>12 - December</option>
+                  </select>
+                  <span>Full Width</span>
+              </div>
+          </div>
+      </div>                            
     </div>
-
-    <div>
-      <span className="select select-M mrg-L">
-        <select>
-          <option>Select Medium...</option>
-          <option>The Great Gatsby</option>
-          <option>V for Vendetta</option>
-          <option>The Wolf of Wallstreet</option>
-          <option>Quantum of Solace</option>
-        </select>
-      </span>
-    </div>
-
-    <div>
-      <span className="select select-L mrg-L">
-        <select>
-          <option>Select Large...</option>
-          <option>The Great Gatsby</option>
-          <option>V for Vendetta</option>
-          <option>The Wolf of Wallstreet</option>
-          <option>Quantum of Solace</option>
-        </select>
-      </span>
-    </div>
-
-    <div>
-      <span className="select select-L select-full mrg-L">
-        <select>
-          <option>Select Full Width...</option>
-          <option>The Great Gatsby</option>
-          <option>V for Vendetta</option>
-          <option>The Wolf of Wallstreet</option>
-          <option>Quantum of Solace</option>
-        </select>
-      </span>
-    </div>
-
+    
 
     <p className="anno">Forms</p>
-    <label for="email">Email</label>
-    <input type="text" name="email" placeholder="Email@email.com" />
+    <div className="mrg-M">
+      <label for="email">Email</label>
+      <input type="text" name="email" placeholder="Email@email.com" />
+    </div>
 
-    <label for="name">Name</label>
-    <input type="text" name="name" />
-    <a href="#" className="btn btn-primary btn-M elevation-none">Submit</a>
+    <div className="mrg-M">
+      <label for="name">Name</label>
+      <input type="text" name="name" className="mrg-rght-S" />
+      <a href="#" className="btn btn-primary btn-M elevation-none">Submit</a>
+    </div>
 
-    <label for="name">Phone Number</label>
-    <input type="text" name="name" placeholder="( ___ ) ___-____" />
+    <div className="mrg-M">
+      <label for="name">Phone Number</label>
+      <input type="text" name="name" placeholder="( ___ ) ___-____" />
+    </div>
 
-    <label for="name">Phone Number</label>
-    <input type="text" className="input-error" name="name" placeholder="( ___ ) ___-____" />
+    <div className="mrg-M">
+      <label for="name">Phone Number</label>
+      <input type="text" className="input-error" name="name" placeholder="( ___ ) ___-____" />
+    </div>
 
-    <label for="name">Full Width</label>
-    <input type="text" className="form-full" name="name" />
+    <div className="mrg-M">
+      <label for="name">Full Width</label>
+      <input type="text" className="form-full" name="name" />
+    </div>
 
-
-    <label for="textarea">Textarea</label>
-    <textarea name="textarea" rows="8" cols="40">Large text area</textarea>
+    <div className="mrg-M">
+      <label for="textarea">Textarea</label>
+      <textarea name="textarea" rows="8" cols="40">Large text area</textarea>
+    </div>
 
     <p className="anno">
       Inline Forms
     </p>
     <form className="form-inline form-css-label">
-      <fieldset>
+      <fieldset className="mrg-L">
         <input id="firstName" name="firstName" type="text" autocomplete="off" required />
         <label for="firstName">First Name</label>
       </fieldset>
-      <fieldset>
+      <fieldset className="mrg-L">
         <input id="lastName" name="lastName" type="text" autocomplete="off" required />
         <label for="lastName">Last Name</label>
       </fieldset>
-      <fieldset>
+      <fieldset className="mrg-L">
         <input id="email" name="email" type="text" autocomplete="off" required />
         <label for="email">Email Address</label>
       </fieldset>
@@ -310,14 +314,14 @@ componentDidMount() {
 
 
     <p className="anno">Lists</p>
-    <ul className="list">
+    <ul className="list list-underline max-width-400 mrg-XL">
       <li>list item 1</li>
       <li>list item 3</li>
       <li>list item 4</li>
       <li>list item 5</li>
     </ul>
 
-    <ul className="mrg-XL">
+    <ul className="list mrg-XL">
       <li>List Item Normal</li>
       <li>List Item Normal</li>
       <li>List Item Normal</li>
@@ -336,14 +340,11 @@ componentDidMount() {
       <li><a href="#">List item with link</a></li>
       <li><a href="#">List item with link</a></li>
     </ul>
-
-    <br />
-
-    <ul className="list list-icons">
-      <li><img src="images/icon/chat-fill.svg" alt="" /> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
-      <li><img src="images/icon/thumbsup-fill.svg" alt="" /> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
-      <li><img src="images/icon/heart-line.svg" alt="" /> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
-      <li><img src="images/icon/triangle-right.svg" alt="" /> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
+    <ul className="list list-icons max-width-text ">
+      <li><span className="icon color-shadow-svg" dangerouslySetInnerHTML={{__html: chatfillImage}} /> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
+      <li><span className="icon color-shadow-svg" dangerouslySetInnerHTML={{__html: thumbsupfillImage}} /> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
+      <li><span className="icon color-shadow-svg" dangerouslySetInnerHTML={{__html: heartlineImage}} /> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
+      <li><span className="icon color-shadow-svg" dangerouslySetInnerHTML={{__html: trianglerightImage}} /> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
     </ul>
 
     <p className="anno">Default Headers</p>
@@ -526,32 +527,25 @@ componentDidMount() {
 
     <p className="anno">Checkboxes</p>
 
-    <label className="checkbox mrg-M">
+    <label className="checkbox mrg-L">
       <input type="checkbox" /> <span>Standard Delivery - <span className="color-penneyred">FREE</span>
       <br /><span className="std-txt">Arrives May 5th - May 23rd</span></span>
     </label>
-
-    <br />
-
-    <label className="checkbox mrg-M">
+    <label className="checkbox mrg-L">
       <input type="checkbox" /> <span>Checkbox</span>
     </label>
 
-    <br />
-
-    <label className="checkbox mrg-M">
+    <label className="checkbox mrg-L">
       <input type="checkbox" checked="true" /> <span>Checkbox</span>
     </label>
-
-    <br />
 
     <label className="checkbox mrg-XL">
       <input type="checkbox" disabled="true" /> <span>Disabled Checkbox</span>
     </label>
 
     <div>
-      <h3 className="title title-L mrg-S">Checkbox List</h3>
-      <ul className="list list-checkboxes">
+      <h3 className="title title-L mrg-M">Checkbox List</h3>
+      <ul className="list list-underline list-checkboxes max-width-400">
         <li><label className="checkbox">
           <input type="checkbox" /> <span>$200 - $300</span>
         </label> <span className="list-qty">(14)</span></li>
@@ -586,12 +580,12 @@ componentDidMount() {
       Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <a href="#">click here</a>
     </div>
 
-    <div className="msg msg-neutral mrg-M">
+    <div className="msg msg-neutral mrg-M max-width-400">
       Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
       <button type="button" className="msg-close"></button>
     </div>
 
-    <div className="msg msg-error mrg-M">
+    <div className="msg msg-error mrg-M max-width-400">
       Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
       <button type="button" className="msg-close"></button>
     </div>
@@ -603,7 +597,7 @@ componentDidMount() {
 
 
     <p className="anno">Tables</p>
-    <table border="0" width="100%" className="table-full mrg-XL">
+    <table border="0" width="100%" className="table-full mrg-XL algn-lft">
       <thead>
         <tr>
           <th>
@@ -643,7 +637,7 @@ componentDidMount() {
       </tbody>
     </table>
 
-    <table border="0" width="100%" className="table-striped">
+    <table border="0" width="100%" className="table-striped-rows algn-lft">
       <thead>
         <tr>
           <th>
@@ -708,14 +702,14 @@ componentDidMount() {
 
     <p className="anno">Wells</p>
     <div className="well mrg-L">
-      <h2 className="title title-L">Title In A Well</h2>
+      <h2 className="title title-L mrg-M">Title In A Well</h2>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
       </p>
     </div>
     <div className="well">
       <h2 className="title title-L">List In A Well</h2>
-      <ul>
+      <ul className="list list-icons max-width-text color-nightsky">
         <li>Lorem ipsum dolor sit amet</li>
         <li>Lorem ipsum dolor sit amet</li>
         <li>Lorem ipsum dolor sit amet</li>
@@ -727,10 +721,10 @@ componentDidMount() {
     <p className="anno">Tabs</p>
     <div>
       <ul className="tabs">
-        <li className="tab-section">
+        <li className="tab-section mrg-rght-S">
           tab
         </li>
-        <li className="tab-section">
+        <li className="tab-section mrg-rght-S">
           tab
         </li>
       </ul>
@@ -750,7 +744,7 @@ componentDidMount() {
 
 
     <p className="anno">Modals</p>
-    <div>
+    <div className="modal-preview padding-25">
       <div className="modal">
         <button className="modal-close"></button>
         <h2 className="modal-title">This is a Modal</h2>
@@ -776,7 +770,7 @@ componentDidMount() {
 
       <div className="modal">
         <button className="modal-close"></button>
-        <div className="msg msg-neutral">
+        <div className="msg msg-neutral mrg-S">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
         </div>
         <h2 className="modal-title">This is a Modal</h2>
@@ -800,22 +794,22 @@ componentDidMount() {
 
     <br />
 
-    <div className="flag std-txt std-txt-XS color-penneyred-bg">
+    <div className="flag flag-urgency std-txt std-txt-XS mrg-rght-S">
       Low<br />Stock
     </div>
 
-    <div className="flag std-txt std-txt-XS color-penneyred-bg">
+    <div className="flag flag-urgency std-txt std-txt-XS mrg-rght-S">
       Low Stock
     </div>
 
     <br />
     <br />
 
-    <div className="flag std-txt std-txt-XS color-penneyred-bg">
+    <div className="flag flag-urgency std-txt std-txt-XS mrg-rght-S">
       Low Stock
     </div>
 
-    <div className="flag std-txt std-txt-XS color-marketing-green-1-bg">
+    <div className="flag flag-deal std-txt std-txt-XS mrg-rght-S">
       Few Left
     </div>
 
@@ -823,32 +817,32 @@ componentDidMount() {
 
 
     <p className="anno">Frames</p>
-    <div className="frame-S mrg-L">
+    <div className="frame-S mrg-L algn-mid padding-25">
       Frame S
     </div>
 
-    <div className="frame-M mrg-L">
+    <div className="frame-M mrg-L algn-mid padding-25">
       Frame M
     </div>
 
-    <div className="frame-L mrg-L">
+    <div className="frame-L mrg-L algn-mid padding-25">
       Frame L
     </div>
 
 
     <p className="anno">Elevation</p>
 
-    <div className="frame-S mrg-L elevation-1">
+    <div className="frame-S mrg-L algn-mid padding-25 elevation-1">
       Frame S Elevation 1
     </div>
 
-    <div className="frame-M mrg-L elevation-2">
+    <div className="frame-M mrg-L algn-mid padding-25 elevation-2">
       Frame M Elevation 2
     </div>
 
 
     <p className="anno">Product</p>
-    <div className="product">
+    <div className="product width-216">
       <figure className="product-img">
         <img src="http://placehold.it/200/200" alt="" />
       </figure>
@@ -867,46 +861,15 @@ componentDidMount() {
 
 
     <div className="anno">Text Buttons</div>
-    <button className="txt-btn">Button</button>
-    <a href="#" className="txt-btn">Button</a>
-    <button className="txt-btn" disabled>Disabled</button>
-    <button className="txt-btn txt-btn-S">Small Button</button>
-    <button className="txt-btn txt-btn-S" disabled>Small Button</button>
-
-
-    <div className="anno">Icon Toggle</div>
-          <div className="toggle-list small-12 medium-12 column row">
-            <div className="icon-toggle small-8 medium-4 large-4 column">
-              <figure className="toggle-img">
-                <img src="http://via.placeholder.com/220x220" alt="" />
-                <a href="javascript:void(0);" className="heart-icon">
-                  <span className="icon active-toggle" dangerouslySetInnerHTML={{ __html: heartImage }} />
-                </a>
-                <span className="std-txt-label">Default</span>
-              </figure>
-            </div>
-            <div className="icon-toggle small-8 medium-4 large-4 column">
-              <figure className="toggle-img">
-                <img src="http://via.placeholder.com/220x220" alt="" />
-                <a href="javascript:void(0);" className="heart-icon">
-                  <span className="icon hover" dangerouslySetInnerHTML={{ __html: heartImage }} />                </a>
-                <span className="std-txt-label">Hover</span>
-              </figure>
-            </div>
-            <div className="icon-toggle small-8 medium-4 large-4 column">
-              <figure className="toggle-img">
-                <img src="http://via.placeholder.com/220x220" alt="" />
-                <a href="javascript:void(0);" className="heart-icon">
-                  <span className="icon hover" dangerouslySetInnerHTML={{ __html: heartImageFill }} />
-                </a>
-                <span className="std-txt-label">Active</span>
-              </figure>
-            </div>
-          </div>
+    <button className="txt-btn mrg-rght-S">Button</button>
+    <a href="#" className="txt-btn mrg-rght-S">Button</a>
+    <button className="txt-btn mrg-rght-S" disabled>Disabled</button>
+    <button className="txt-btn txt-btn-S mrg-rght-S">Small Button</button>
+    <button className="txt-btn txt-btn-S mrg-rght-S" disabled>Small Button</button>
 
 
     <div className="anno">Progress Bars</div>
-    <p className="std-txt std-txt-M color-nightsky">Spend <strong>$83.00</strong> more to earn FREE shipping</p>
+    <p className="std-txt std-txt-M color-nightsky">Spend <strong>$83.00</strong> more to Ship to Home FREE</p>
     <div className="progress-bar">
       <div className="progress-bar-percent"></div>
     </div>
@@ -922,7 +885,7 @@ componentDidMount() {
 
     <p className="anno">Color Swatches</p>
 
-    <div className="list-product-colors">
+    <div className="list-product-colors mrg-L">
       <div className="list-product-colors-header">
         <div className="list-product-colors-lbl">label</div>
         <button className="list-product-colors-show link">Show</button>

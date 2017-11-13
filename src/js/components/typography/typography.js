@@ -14,7 +14,7 @@ componentDidMount() {
     <div className="row">
         <div className="small-12 columns">
             <h1 className="title title-XL mrg-L">Typography</h1>
-            <h2 className="std-txt std-txt-XL mrg-L txt-max-width">Text is the primary way that users digest content and accomplish work, so it’s important to use good typographic principles to establish a clear visual hierarchy and to maximize legibility.<br /><br />
+            <h2 className="std-txt std-txt-XL mrg-L max-width-text">Text is the primary way that users digest content and accomplish work, so it’s important to use good typographic principles to establish a clear visual hierarchy and to maximize legibility.<br /><br />
 
 By consistently tying typographic styles to appropriate fuctions in the interface, we create a clear visual pattern for customers while they’re interacting with our product. </h2>
 <hr />
@@ -225,26 +225,40 @@ By consistently tying typographic styles to appropriate fuctions in the interfac
                             defaultSelect: 'algn-lft'
                         }
                     ]}
-                htmlPattern="<[[format_tag_start]]p[[format_tag_end]] [[format_attribute_start]]
-                                class=&quot;[[format_attribute_end]][[format_tag_value_start]][[code_type_margin]] [[code_type_alignment]] [[code_type_size]] [[code_type_color]][[format_tag_value_end]][[format_attribute_start]]&quot;[[format_attribute_end]]>
-                                [[format_tab_start]]
-                                    [[code_type_text]]
-                                [[format_tab_end]]
-                            <[[format_tag_start]]/p[[format_tag_end]]>
-                            [[format_br]]
-                            <[[format_tag_start]]p[[format_tag_end]] [[format_attribute_start]]
-                                class=&quot;[[format_attribute_end]][[format_tag_value_start]][[code_type_margin]] [[code_type_alignment]] [[code_type_size]] [[code_type_color]][[format_tag_value_end]][[format_attribute_start]]&quot;[[format_attribute_end]]>
-                                [[format_tab_start]]
-                                    [[code_type_text]]
-                                [[format_tab_end]]
-                            <[[format_tag_start]]/p[[format_tag_end]]>
-                            [[format_br]]
-                            <[[format_tag_start]]p[[format_tag_end]] [[format_attribute_start]]
-                                class=&quot;[[format_attribute_end]][[format_tag_value_start]][[code_type_margin]] [[code_type_alignment]] [[code_type_size]] [[code_type_color]][[format_tag_value_end]][[format_attribute_start]]&quot;[[format_attribute_end]]>
-                                [[format_tab_start]]
-                                    [[code_type_text]]
-                                [[format_tab_end]]
-                            <[[format_tag_start]]/p[[format_tag_end]]>"
+
+                    htmlPattern={ 
+                        [
+                            {
+                                default: [
+                                    {
+                                        html:`<[[format_tag_start]]p[[format_tag_end]] [[format_attribute_start]]
+                                                    class="[[format_attribute_end]][[format_tag_value_start]][[code_type_margin]] [[code_type_alignment]] [[code_type_size]] [[code_type_color]][[format_tag_value_end]][[format_attribute_start]]"[[format_attribute_end]]>
+                                                    [[format_tab_start]]
+                                                        [[code_type_text]]
+                                                    [[format_tab_end]]
+                                                <[[format_tag_start]]/p[[format_tag_end]]>
+                                                [[format_br]]
+                                                <[[format_tag_start]]p[[format_tag_end]] [[format_attribute_start]]
+                                                    class="[[format_attribute_end]][[format_tag_value_start]][[code_type_margin]] [[code_type_alignment]] [[code_type_size]] [[code_type_color]][[format_tag_value_end]][[format_attribute_start]]"[[format_attribute_end]]>
+                                                    [[format_tab_start]]
+                                                        [[code_type_text]]
+                                                    [[format_tab_end]]
+                                                <[[format_tag_start]]/p[[format_tag_end]]>
+                                                [[format_br]]
+                                                <[[format_tag_start]]p[[format_tag_end]] [[format_attribute_start]]
+                                                    class="[[format_attribute_end]][[format_tag_value_start]][[code_type_margin]] [[code_type_alignment]] [[code_type_size]] [[code_type_color]][[format_tag_value_end]][[format_attribute_start]]"[[format_attribute_end]]>
+                                                    [[format_tab_start]]
+                                                        [[code_type_text]]
+                                                    [[format_tab_end]]
+                                                <[[format_tag_start]]/p[[format_tag_end]]>`,
+                                    },
+                                    {
+                                        javascript:``,                                        
+                                    }
+
+                                ]
+                            }
+                        ]}  
 
               />
 
@@ -347,7 +361,7 @@ By consistently tying typographic styles to appropriate fuctions in the interfac
             <h3 className="title title-L mrg-L">Lists <span className="design-system-css-class design-system-css-class-inline">class=“list”</span></h3>
             <h5 className="title title-M mrg-S">Text Lists</h5>
             <p className="mrg-L">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            <ul className="list txt-max-width color-slate">
+            <ul className="list max-width-text color-slate">
                 <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
                 <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
                 <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
@@ -355,7 +369,7 @@ By consistently tying typographic styles to appropriate fuctions in the interfac
             <p className="design-system-css-class mrg-XL">???</p>
             <h5 className="title title-M mrg-S">Icon Lists</h5>
             <p className="mrg-L">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            <ul className="list list-icons txt-max-width color-slate">
+            <ul className="list list-icons max-width-text color-slate">
                 <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
                 <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
                 <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
@@ -363,7 +377,7 @@ By consistently tying typographic styles to appropriate fuctions in the interfac
             <p className="design-system-css-class mrg-XL">.list-icons</p>
             <h5 className="title title-M mrg-S">Link Lists</h5>
             <p className="mrg-L">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            <ul className="list list-links txt-max-width color-slate">
+            <ul className="list list-links max-width-text color-slate">
                 <li><a href="javascript:void();">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a></li>
                 <li><a href="javascript:void();">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a></li>
                 <li><a href="javascript:void();">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a></li>

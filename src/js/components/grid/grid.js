@@ -11,7 +11,7 @@ componentDidMount() {
     <div className="row">
         <div className="small-12 columns">
             <h1 className="title title-XL mrg-L">Grid, Spacing &amp; Layout</h1>
-            <h2 className="std-txt std-txt-XL mrg-L txt-max-width">To promote a sense of visual harmony across a wide range of applications, the design system provides the following recommendations on how to combine components into complex patterns and screen layouts.<br /><br />
+            <h2 className="std-txt std-txt-XL mrg-L max-width-text">To promote a sense of visual harmony across a wide range of applications, the design system provides the following recommendations on how to combine components into complex patterns and screen layouts.<br /><br />
 There are two kinds of grids that occur within JCPenney eCommerce Platforms, horizontal and vertical. The following breakpoints have been designed to guide the layout and the scaling of elements across screen resolutions. <br /><br />
 The screen sizes were determined by a combination of common screen resolutions, previous JCP design work, along with input from various Screen Inventory documentation conducted by JCPenney. Dimensions for an X-Large Screen was accounted for; however, small to large will be the teams primary focus.</h2>
 <hr />

@@ -14,7 +14,7 @@ class Badges extends Component {
     <div className="row">
         <div className="small-12 columns">
             <h1 className="title title-XL mrg-L">Badges</h1>
-            <h2 className="std-txt std-txt-XL mrg-L txt-max-width">Nulla vitae elit libero, a pharetra augue nullam quis risus eget urna mollis ornare vel eu leo. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+            <h2 className="std-txt std-txt-XL mrg-L max-width-text">Nulla vitae elit libero, a pharetra augue nullam quis risus eget urna mollis ornare vel eu leo. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
         </div>
     </div>
     <div className="row" id="code-generator">
@@ -57,12 +57,26 @@ class Badges extends Component {
                             defaultSelect: 'flag-urgency'
                         }
                     ]}
-                htmlPattern="<[[format_tag_start]]div[[format_tag_end]] [[format_attribute_start]]
-                            class=&quot;[[format_attribute_end]][[format_tag_value_start]]flag [[code_badge_type]] std-txt std-txt-XS [[format_tag_value_end]][[format_attribute_start]]&quot;[[format_attribute_end]]>
-                            [[format_tab_start]]
-                                [[code_badge_text]]
-                            [[format_tab_end]]
-                        <[[format_tag_start]]/div[[format_tag_end]]>"
+
+                htmlPattern={ 
+                    [
+                        {
+                            default: [
+                                {
+                                    html:`<[[format_tag_start]]div[[format_tag_end]] [[format_attribute_start]]
+                                            class="[[format_attribute_end]][[format_tag_value_start]]flag [[code_badge_type]] std-txt std-txt-XS [[format_tag_value_end]][[format_attribute_start]]"[[format_attribute_end]]>
+                                            [[format_tab_start]]
+                                                [[code_badge_text]]
+                                            [[format_tab_end]]
+                                        <[[format_tag_start]]/div[[format_tag_end]]>`,
+                                },
+                                {
+                                    javascript:``,                                        
+                                }
+
+                            ]
+                        }
+                    ]} 
 
               />
 
@@ -71,17 +85,17 @@ class Badges extends Component {
     <div className="row" id="when-to-use">
         <div className="small-12 columns">
             <h3 className="title title-L mrg-L">When to Use</h3>
-            <p className="mrg-XL txt-max-width">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <p className="mrg-XL max-width-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             <div className="row">
                 <div className="small-12 medium-6 columns">
                     <div className="algn-mid mrg-M"><img src="/images/design-system/badges/product-cards.jpg" alt="" /></div>
                     <h5 className="title title-M mrg-S">Product Cards</h5>
-                    <p className="txt-max-width">Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec ullamcorper nulla non metus auctor fringilla. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. </p>
+                    <p className="max-width-text">Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec ullamcorper nulla non metus auctor fringilla. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. </p>
                 </div>
                 <div className="small-12 medium-6 columns">
                     <div className="algn-mid mrg-M"><img src="/images/design-system/badges/product-page.jpg" alt="" /></div>
                     <h5 className="title title-M mrg-S">Product Page</h5>
-                    <p className="txt-max-width">Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec ullamcorper nulla non metus auctor fringilla. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. </p>
+                    <p className="max-width-text">Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec ullamcorper nulla non metus auctor fringilla. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. </p>
                 </div>
             </div>
         </div>
@@ -90,14 +104,14 @@ class Badges extends Component {
         <div className="small-12 columns">
             <hr />
             <h3 className="title title-L mrg-L">Appearance</h3>
-            <p className="mrg-XL txt-max-width">Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras justo odio, dapibus ac facilisis in, egestas eget quam.</p>
+            <p className="mrg-XL max-width-text">Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras justo odio, dapibus ac facilisis in, egestas eget quam.</p>
             <div className="row">
                 <div className="small-12 medium-5 large-4 columns badges-preview-col algn-mid">
                     <div class="flag std-txt std-txt-XS flag-new">Low Stock</div>
                 </div>
                 <div className="small-12 medium-7 large-8 columns">
                     <h5 className="title title-M mrg-S">Single Line</h5>
-                    <p className="mrg-L txt-max-width">Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec ullamcorper nulla non metus auctor fringilla. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. </p>
+                    <p className="mrg-L max-width-text">Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec ullamcorper nulla non metus auctor fringilla. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. </p>
                 </div>
             </div>
             <div className="row">
@@ -106,7 +120,7 @@ class Badges extends Component {
                 </div>
                 <div className="small-12 medium-7 large-8 columns">
                     <h5 className="title title-M mrg-S">Double Line</h5>
-                    <p className="mrg-L txt-max-width">Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec ullamcorper nulla non metus auctor fringilla. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. </p>
+                    <p className="mrg-L max-width-text">Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec ullamcorper nulla non metus auctor fringilla. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. </p>
                 </div>
             </div>
            

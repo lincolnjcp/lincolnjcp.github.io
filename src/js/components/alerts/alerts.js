@@ -11,7 +11,7 @@ class Alerts extends Component {
     <div className="row">
         <div className="small-12 columns">
             <h1 className="title title-XL mrg-L">Alerts &amp; Messaging</h1>
-            <h2 className="std-txt std-txt-XL mrg-L txt-max-width">Nulla vitae elit libero, a pharetra augue nullam quis risus eget urna mollis ornare vel eu leo. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+            <h2 className="std-txt std-txt-XL mrg-L max-width-text">Nulla vitae elit libero, a pharetra augue nullam quis risus eget urna mollis ornare vel eu leo. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
         </div>
     </div>
     <div className="row" id="code-generator">
@@ -64,12 +64,27 @@ class Alerts extends Component {
                             defaultSelect: 'true'
                         }
                     ]}
-                htmlPattern="<[[format_tag_start]]div[[format_tag_end]] [[format_attribute_start]]
-                            class=&quot;[[format_attribute_end]][[format_tag_value_start]]msg mrg-M [[code_alert_status]] [[code_alert_width]] [[format_tag_value_end]][[format_attribute_start]]&quot;[[format_attribute_end]]>
-                            [[format_tab_start]]
-                                This is an alert message.[[code_alert_dismissable]]
-                            [[format_tab_end]]
-                        <[[format_tag_start]]/div[[format_tag_end]]>"
+
+                    htmlPattern={ 
+                        [
+                            {
+                                default: [
+                                    {
+                                        html:`<[[format_tag_start]]div[[format_tag_end]] [[format_attribute_start]]
+                                                    class="[[format_attribute_end]][[format_tag_value_start]]msg mrg-M [[code_alert_status]] [[code_alert_width]] [[format_tag_value_end]][[format_attribute_start]]"[[format_attribute_end]]>
+                                                    [[format_tab_start]]
+                                                        This is an alert message.[[code_alert_dismissable]]
+                                                    [[format_tab_end]]
+                                                <[[format_tag_start]]/div[[format_tag_end]]>`,
+                                    },
+                                    {
+                                        javascript:``,                                        
+                                    }
+
+                                ]
+                            }
+                        ]} 
+                        
 
               />
         </div>
@@ -79,12 +94,12 @@ class Alerts extends Component {
     <div className="row" id="when-to-use">
         <div className="small-12 columns">
             <h3 className="title title-L mrg-L">When to Use</h3>
-            <p class=" mrg-L txt-max-width">Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor don ullamco nulla non metus auctor fringilla. </p>
+            <p class=" mrg-L max-width-text">Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor don ullamco nulla non metus auctor fringilla. </p>
             <div class="msg msg-success mrg-M">Success! Item added to cart.</div>
             <div class="msg msg-error mrg-XL">Please select a size.</div>
 
             <h4 className="title title-M mrg-L">Best Practices</h4>
-            <ul className="list txt-max-width color-slate">
+            <ul className="list max-width-text color-slate">
                 <li>Aenean lacinia bibendum nulla sed consectetur</li>
                 <li>Integer posuere erat a ante venenatis dapibus posuere velit aliquet</li>
                 <li>Etiam porta sem malesuada magna mollis euismod. Lorem ipsum dolor sit amet, consec</li>
@@ -95,7 +110,7 @@ class Alerts extends Component {
         <div className="small-12 columns">
             <hr />
             <h3 className="title title-L mrg-L">Appearance</h3>
-            <p className="txt-max-width mrg-XL">Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras justo odio, dapibus ac facilisis in, egestas eget quam.</p>
+            <p className="max-width-text mrg-XL">Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras justo odio, dapibus ac facilisis in, egestas eget quam.</p>
             <div className="row">
                 <div className="small-12 medium-5 large-4 columns alert-preview-col">
                     <div class="msg msg-success mrg-M">Success alert. <a href="javascript:void();">Text Link</a></div>
@@ -103,7 +118,7 @@ class Alerts extends Component {
                 </div>
                 <div className="small-12 medium-7 large-8 columns">
                     <h5 className="title title-M mrg-S">Success</h5>
-                    <p className="txt-max-width mrg-M">Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec ullamcorper nulla non metus auctor fringilla. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
+                    <p className="max-width-text mrg-M">Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec ullamcorper nulla non metus auctor fringilla. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
                 </div>
             </div>
             <div className="row">
@@ -113,7 +128,7 @@ class Alerts extends Component {
                 </div>
                 <div className="small-12 medium-7 large-8 columns">
                     <h5 className="title title-M mrg-S">Error</h5>
-                    <p className="txt-max-width mrg-XL">Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec ullamcorper nulla non metus auctor fringilla. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
+                    <p className="max-width-text mrg-XL">Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec ullamcorper nulla non metus auctor fringilla. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
                 </div>
             </div>
           
@@ -126,7 +141,7 @@ class Alerts extends Component {
             <p className="mrg-L">Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras justo odio, dapibus ac facilisis in, egestas eget quam.</p>
 
             <h4 className="title title-M mrg-L">How to write effective alerts:</h4>
-            <ul className="list txt-max-width color-slate">
+            <ul className="list max-width-text color-slate">
                 <li>Aenean lacinia bibendum nulla sed consectetur</li>
                 <li>Integer posuere erat a ante venenatis dapibus posuere velit aliquet</li>
                 <li>Etiam porta sem malesuada magna mollis euismod. Lorem ipsum dolor sit amet, consec</li>
@@ -137,7 +152,7 @@ class Alerts extends Component {
         <div className="small-12 columns">
             <hr />
             <h3 className="title title-L mrg-L">Related Content</h3>
-            <ul className="list txt-max-width color-slate">
+            <ul className="list max-width-text color-slate">
                 <li><a href="javascript:void();">Form Fields</a></li>
             </ul>
         </div>

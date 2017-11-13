@@ -16,22 +16,37 @@ table {
         font-weight: bold;
     }
 
-    &.table-full {
-        width: 100%;
-    }
-
-    &.table-no-bottom-border tr:last-child {
+    tr:last-child {
         td,
         th {
             border-bottom: none;
         }
     }
-    &.table-striped {
+
+    &.table-full {
+        width: 100%;
+    }
+
+    &.table-striped-rows {
         tbody {
             padding: 24px;
             tr:nth-child(odd) {
                 background-color: $color-lightgrey;
             }
+        }
+        td,
+        th {
+            border-top: 1px solid $color-concrete;
+        }
+        tr:last-child {
+            td,
+            th {
+                border-bottom: 1px solid $color-concrete;
+            }
+        }
+        &.table-striped-rewards tr:nth-child(odd) {
+            background-color: $color-rewards-eggplant;
+            color: $color-white;
         }
     }
 
@@ -46,6 +61,16 @@ table {
             background-color: $color-lightgrey;
             color: $color-slate;
         }
+        &.table-striped-rewards th {
+            background-color: $color-rewards-eggplant;
+            color: $color-white;
+        }
+        tr:last-child {
+            td,
+            th {
+                border-bottom: 1px solid $color-concrete;
+            }
+        }
     }
 
     &.table-borders {
@@ -53,8 +78,11 @@ table {
         td {
             border: 1px solid $color-concrete;
         }
-        th {
-            background-color: $color-lightgrey;
+        tr:last-child {
+            td,
+            th {
+                border-bottom: 1px solid $color-concrete;
+            }
         }
     }
 }
