@@ -35,8 +35,10 @@
     .progress-bar-percent{
       height: 20px;
       color: $color-white;
-      line-height: 20px;
+      line-height: 16px;
       font-size: 12px;
+      border: 2px solid $color-concrete;
+      vertical-align: middle;
       font-family: $font-headline;
       text-align: right;
       padding-right: 8px;
