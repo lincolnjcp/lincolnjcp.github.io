@@ -19,6 +19,7 @@ button{
   border: none;
   padding: 0 16px;
   text-align: center;
+  outline: 1px dotted $color-neutral-type;
 
   // Icon in buttons support
   img, .icon{
@@ -77,10 +78,13 @@ button{
     color: $color-slate;
     cursor: not-allowed;
     box-shadow: none;
+    border-radius: 0;
 
     &:hover{
       background-color: $color-lightgrey;
       border-radius: $border-radius-M;
+      border-radius: 0;
+      text-decoration: none;
     }
   }
 
@@ -241,6 +245,7 @@ a.txt-btn,
 
   &:hover{
     color: $color-slate;
+    text-decoration: underline;
   }
 
   &.txt-btn-S{

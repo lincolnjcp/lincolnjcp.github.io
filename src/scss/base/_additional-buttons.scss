@@ -17,22 +17,34 @@
       right: 8px;
       top: 8px;
       color: $color-nightsky;
-      .icon {
-        &:hover path{
-          fill: $color-penneyred;
-        }
-      }
-      .hover {
-        path {
-          fill: $color-penneyred;
-        }
-      }
     }
   }
+}
+.icon.hover {
+  path {
+    fill: $color-penneyred;
+  }
+}
+.toggle-thumbs {
+  text-align: center;
+}
+.toggle-thumbs.column:last-child:not(:first-child) {
+  float: left;
 }
 .std-txt-label {
   display: block;
   text-align: center;
   padding: 20px 0;
   color: #04aae5;
+}
+.text-buttons {
+  a.txt-btn.hover {
+    text-decoration: underline;
+    color: $color-slate;
+  }
+  .focus {
+    border: 2px dotted $color-neutral-type;
+    border-radius: 0;
+    text-decoration: underline;
+  }
 }
