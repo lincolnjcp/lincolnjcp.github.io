@@ -5,6 +5,8 @@ import $ from 'jquery'
 const cartImage = require('!!raw-loader?es5=1!../../../images/global/icons/utility/cart/cart.svg');
 const chatfillImage = require('!!raw-loader?es5=1!../../../images/global/icons/action/chat-fill.svg');
 const trianglerightImage = require('!!raw-loader?es5=1!../../../images/global/icons/nav/triangle-right.svg');
+const thumbsupfillImage = require('!!raw-loader?es5=1!../../../images/global/icons/action/thumbsup-fill.svg');
+const heartlineImage = require('!!raw-loader?es5=1!../../../images/global/icons/action/heart-line.svg');
 
 class WorkInProgress extends Component {
 
