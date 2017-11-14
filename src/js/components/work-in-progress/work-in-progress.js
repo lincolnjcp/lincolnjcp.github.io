@@ -4,23 +4,9 @@ import $ from 'jquery'
 
 const cartImage = require('!!raw-loader?es5=1!../../../images/global/icons/utility/cart/cart.svg');
 const chatfillImage = require('!!raw-loader?es5=1!../../../images/global/icons/action/chat-fill.svg');
-const thumbsupfillImage = require('!!raw-loader?es5=1!../../../images/global/icons/action/thumbsup-fill.svg');
-const thumbsUpImage = require('!!raw-loader?es5=1!../../../images/global/icons/action/thumbsup-line.svg');
-const heartlineImage = require('!!raw-loader?es5=1!../../../images/global/icons/action/heart-line.svg');
-const heartImageFill = require('!!raw-loader?es5=1!../../../images/global/icons/action/heart-fill.svg');
-const settingsImage = require('!!raw-loader?es5=1!../../../images/global/icons/action/settings.svg');
 const trianglerightImage = require('!!raw-loader?es5=1!../../../images/global/icons/nav/triangle-right.svg');
 
 class WorkInProgress extends Component {
-
-componentDidMount() {
-  $(".icon-hover").hover(function() {
-    //alert('hi');
-      $(this).addClass("hover");
-  }, function() {
-      $(this).removeClass("hover");
-  });
-}
 
   render() {
     return (
