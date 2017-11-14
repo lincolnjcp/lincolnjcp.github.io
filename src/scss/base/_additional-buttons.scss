@@ -88,6 +88,11 @@
 .icon-button .focus {
   border: 2px dotted $color-neutral-type;
   border-radius: $border-radius-S;
+  svg {
+    position: relative;
+    top: -2px;
+    right: 1px;
+  }
 }
 .icon-button.disable {
   background: $color-lightgrey;
