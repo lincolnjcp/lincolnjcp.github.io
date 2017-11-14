@@ -70,11 +70,14 @@
     background: $color-nightsky;
     color: $color-white;
     display: block;
-    border-radius: 12px;
-    padding: 3px;
+    height: 24px;
+    width: 24px;
+    line-height: 24px;
+    text-align: center;
+    border-radius: 50%;
     position: absolute;
-    top: 5px;
-    right: 5px;
+    top: 2px;
+    right: 2px;
     font-size: 12px;
   }
   &.focus {
