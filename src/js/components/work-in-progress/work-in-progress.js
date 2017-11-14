@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+import $ from 'jquery'
+
 const cartImage = require('!!raw-loader?es5=1!../../../images/global/icons/utility/cart/cart.svg');
 const chatfillImage = require('!!raw-loader?es5=1!../../../images/global/icons/action/chat-fill.svg');
 const thumbsupfillImage = require('!!raw-loader?es5=1!../../../images/global/icons/action/thumbsup-fill.svg');
@@ -12,6 +14,12 @@ const trianglerightImage = require('!!raw-loader?es5=1!../../../images/global/ic
 class WorkInProgress extends Component {
 
 componentDidMount() {
+  $(".icon-hover").hover(function() {
+    //alert('hi');
+      $(this).addClass("hover");
+  }, function() {
+      $(this).removeClass("hover");
+  });
 }
 
   render() {
@@ -870,7 +878,7 @@ componentDidMount() {
               <figure className="toggle-img">
                 <img src="http://via.placeholder.com/220x220" alt="" />
                 <a href="javascript:void(0);" className="heart-icon">
-                  <span className="icon" dangerouslySetInnerHTML={{ __html: heartlineImage }} />
+                  <span className="icon icon-hover" dangerouslySetInnerHTML={{ __html: heartlineImage }} />
                 </a>
                 <span className="std-txt-label">Default</span>
               </figure>
@@ -897,7 +905,7 @@ componentDidMount() {
           <div className="small-12 medium-12 column row">
           <div className="thumb-icon row mrg-XL">
               <div className="toggle-thumbs mrg-rght-L">
-                <span className="icon" dangerouslySetInnerHTML={{ __html: thumbsUpImage }} /> 
+                <span className="icon icon-hover" dangerouslySetInnerHTML={{ __html: thumbsUpImage }} /> 
                 <span className="std-txt-label">Default</span>
               </div>
               <div className="toggle-thumbs mrg-rght-L">
@@ -976,24 +984,24 @@ componentDidMount() {
             <div className="row column small-12 medium-12 icon-buttons">
               <div className="toggle-settings mrg-rght-XL">
                 <a href="javascript:void(0)" className="icon-button">
-                  <span className="icon" dangerouslySetInnerHTML={{__html: settingsImage}} ></span>
+                  <span className="icon icon-hover" dangerouslySetInnerHTML={{__html: settingsImage}} ></span>
                 </a>
                 <span className="std-txt-label">Default</span>
               </div>
               <div className="toggle-settings mrg-rght-XL">
-                <a href="javascript:void(0)" className="icon-button hover">
-                  <span className="icon" dangerouslySetInnerHTML={{__html: settingsImage}} ></span>
+                <a href="javascript:void(0)" className="icon-button">
+                  <span className="icon color-penneyred hover" dangerouslySetInnerHTML={{__html: settingsImage}} ></span>
                 </a>
                 <span className="std-txt-label">Hover</span>
               </div>
               <div className="toggle-settings mrg-rght-XL">
-                <a href="javascript:void(0)" className="icon-button">
+                <a href="javascript:void(0)" className="icon-button focus">
                   <span className="icon" dangerouslySetInnerHTML={{__html: settingsImage}} ></span>
                 </a>
                 <span className="std-txt-label">ARIA focus</span>
               </div>
               <div className="toggle-settings mrg-rght-XL">
-                <a href="javascript:void(0)" className="icon-button">
+                <a href="javascript:void(0)" className="icon-button disable">
                   <span className="icon" dangerouslySetInnerHTML={{__html: settingsImage}} ></span>
                 </a>
                 <span className="std-txt-label">Disabled</span>
