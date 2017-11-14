@@ -4,23 +4,9 @@ import $ from 'jquery'
 
 const cartImage = require('!!raw-loader?es5=1!../../../images/global/icons/utility/cart/cart.svg');
 const chatfillImage = require('!!raw-loader?es5=1!../../../images/global/icons/action/chat-fill.svg');
-const thumbsupfillImage = require('!!raw-loader?es5=1!../../../images/global/icons/action/thumbsup-fill.svg');
-const thumbsUpImage = require('!!raw-loader?es5=1!../../../images/global/icons/action/thumbsup-line.svg');
-const heartlineImage = require('!!raw-loader?es5=1!../../../images/global/icons/action/heart-line.svg');
-const heartImageFill = require('!!raw-loader?es5=1!../../../images/global/icons/action/heart-fill.svg');
-const settingsImage = require('!!raw-loader?es5=1!../../../images/global/icons/action/settings.svg');
 const trianglerightImage = require('!!raw-loader?es5=1!../../../images/global/icons/nav/triangle-right.svg');
 
 class WorkInProgress extends Component {
-
-componentDidMount() {
-  $(".icon-hover").hover(function() {
-    //alert('hi');
-      $(this).addClass("hover");
-  }, function() {
-      $(this).removeClass("hover");
-  });
-}
 
   render() {
     return (
@@ -871,144 +857,7 @@ componentDidMount() {
     <div className="anno">Icon Buttons</div>
 
 
-          <div className="anno">Icon Toggle</div>
-          <h2 className="title-XL mrg-L">Icon Toggle</h2>
-          <div className="toggle-list small-12 medium-12 column row">
-            <div className="icon-toggle mrg-rght-L mrg-L">
-              <figure className="toggle-img">
-                <img src="http://via.placeholder.com/220x220" alt="" />
-                <a href="javascript:void(0);" className="heart-icon">
-                  <span className="icon icon-hover" dangerouslySetInnerHTML={{ __html: heartlineImage }} />
-                </a>
-                <span className="std-txt-label">Default</span>
-              </figure>
-            </div>
-            <div className="icon-toggle mrg-rght-L mrg-L">
-              <figure className="toggle-img">
-                <img src="http://via.placeholder.com/220x220" alt="" />
-                <a href="javascript:void(0);" className="heart-icon">
-                  <span className="icon hover" dangerouslySetInnerHTML={{ __html: heartlineImage }} /> 
-                </a>
-                <span className="std-txt-label">Hover</span>
-              </figure>
-            </div>
-            <div className="icon-toggle mrg-rght-L mrg-L">
-              <figure className="toggle-img">
-                <img src="http://via.placeholder.com/220x220" alt="" />
-                <a href="javascript:void(0);" className="heart-icon">
-                  <span className="icon hover" dangerouslySetInnerHTML={{ __html: heartImageFill }} />
-                </a>
-                <span className="std-txt-label">Active</span>
-              </figure>
-            </div>
-          </div>
-          <div className="small-12 medium-12 column row">
-          <div className="thumb-icon row mrg-XL">
-              <div className="toggle-thumbs mrg-rght-L">
-                <span className="icon icon-hover" dangerouslySetInnerHTML={{ __html: thumbsUpImage }} /> 
-                <span className="std-txt-label">Default</span>
-              </div>
-              <div className="toggle-thumbs mrg-rght-L">
-                <span className="icon hover" dangerouslySetInnerHTML={{ __html: thumbsUpImage }} />
-                <span className="std-txt-label">Hover</span>
-              </div>
-              <div className="toggle-thumbs mrg-rght-L">
-                <span className="icon hover" dangerouslySetInnerHTML={{ __html: thumbsupfillImage }} /> 
-                <span className="std-txt-label">Active</span>
-              </div>
-            </div>
-            <div className="row column small-12 medium-12 text-buttons">
-              <h2 className="title-XL mrg-L">Text Button</h2>
-              <div className="toggle-thumbs mrg-rght-XL">
-                <button className="txt-btn">Text Button</button>
-                <span className="std-txt-label">Default</span>
-              </div>
-              <div className="toggle-thumbs mrg-rght-XL">
-                <a href="#" className="txt-btn hover">Text Button</a>
-                <span className="std-txt-label">Hover</span>
-              </div>
-              <div className="toggle-thumbs mrg-rght-XL">
-                <button className="txt-btn" disabled>Text Button</button>
-                <span className="std-txt-label">Disabled</span>
-              </div>
-              <div className="toggle-thumbs mrg-rght-XL">
-                <button className="txt-btn txt-btn-S focus">Text Button</button>
-                <span className="std-txt-label">ARIA focus</span>
-              </div>
-            </div>
-            
-            <div className="row column small-12 medium-12 text-buttons">
-              <h2 className="title-XL mrg-L">Text Button</h2>
-              <div className="toggle-thumbs mrg-rght-XL">
-                <button className="txt-btn txt-btn-S">Text Button</button>
-                <span className="std-txt-label">Small Default</span>
-              </div>
-              <div className="toggle-thumbs mrg-rght-XL">
-                <a href="#" className="txt-btn txt-btn-S hover">Text Button</a>
-                <span className="std-txt-label">Small Hover</span>
-              </div>
-              <div className="toggle-thumbs mrg-rght-XL">
-                <button className="txt-btn txt-btn-S" disabled>Text Button</button>
-                <span className="std-txt-label">Small Disabled</span>
-              </div>
-              <div className="toggle-thumbs mrg-rght-XL">
-                <button className="txt-btn txt-btn-S txt-btn-S focus">Text Button</button>
-                <span className="std-txt-label">Small ARIA focus</span>
-              </div>
-            </div>
-
-            <div className="row column small-12 medium-12 icon-buttons">
-              <h2 className="title-XL mrg-L">Icon Button</h2>
-              <div className="toggle-thumbs mrg-rght-XL">
-                <a href="javascript:void(0)" className="cart-button">
-                  <span className="icon color-white-svg" dangerouslySetInnerHTML={{__html: cartImage}} ></span>
-                  <span className="cart-count">12</span>
-                </a>
-                <span className="std-txt-label">Default</span>
-              </div>
-              <div className="toggle-thumbs mrg-rght-XL">
-                <a href="javascript:void(0)" className="cart-button">
-                  <span className="icon color-white-svg" dangerouslySetInnerHTML={{__html: cartImage}} ></span>
-                  <span className="cart-count">12</span>
-                </a>
-                <span className="std-txt-label">Hover</span>
-              </div>
-              <div className="toggle-thumbs mrg-rght-XL">
-                <a href="javascript:void(0)" className="cart-button focus">
-                  <span className="icon color-white-svg" dangerouslySetInnerHTML={{__html: cartImage}} ></span>
-                  <span className="cart-count">12</span>
-                </a>
-                <span className="std-txt-label">ARIA focus</span>
-              </div>
-            </div>
-            <div className="row column small-12 medium-12 icon-buttons">
-              <div className="toggle-settings mrg-rght-XL">
-                <a href="javascript:void(0)" className="icon-button">
-                  <span className="icon icon-hover" dangerouslySetInnerHTML={{__html: settingsImage}} ></span>
-                </a>
-                <span className="std-txt-label">Default</span>
-              </div>
-              <div className="toggle-settings mrg-rght-XL">
-                <a href="javascript:void(0)" className="icon-button">
-                  <span className="icon color-penneyred hover" dangerouslySetInnerHTML={{__html: settingsImage}} ></span>
-                </a>
-                <span className="std-txt-label">Hover</span>
-              </div>
-              <div className="toggle-settings mrg-rght-XL">
-                <a href="javascript:void(0)" className="icon-button">
-                  <span className="icon focus" dangerouslySetInnerHTML={{__html: settingsImage}} ></span>
-                </a>
-                <span className="std-txt-label">ARIA focus</span>
-              </div>
-              <div className="toggle-settings mrg-rght-XL">
-                <a href="javascript:void(0)" className="icon-button disable">
-                  <span className="icon disable" dangerouslySetInnerHTML={{__html: settingsImage}} ></span>
-                </a>
-                <span className="std-txt-label">Disabled</span>
-              </div>
-            </div>
-
-          </div>
+          
 
           
 
