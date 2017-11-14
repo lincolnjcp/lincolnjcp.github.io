@@ -1,3 +1,9 @@
+# CSS cleanup
+- Variables for transition times
+- Use transition mixin to replace all hardcoded transitions
+- color selectors / sku selectors to use common styling?
+- mixin for active and disabled classes?
+
 # Backlog Items to Design
 
 - Tables
@@ -13,5 +19,3 @@
   - labels should match dropdown size
 
 - Elevation sizes 1-5
-
-# Migrate to ReactJS

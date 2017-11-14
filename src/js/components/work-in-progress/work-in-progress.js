@@ -858,7 +858,7 @@ class WorkInProgress extends Component {
 
     <div className="anno">Icon Buttons</div>
 
-
+    {/*
           <div className="anno">Icon Toggle</div>
           <h2 className="title-XL mrg-L">Icon Toggle</h2>
           <div className="toggle-list small-12 medium-12 column row">
@@ -998,6 +998,7 @@ class WorkInProgress extends Component {
 
           </div>
 
+          */}
 
 
     <div className="anno">Text Buttons</div>
@@ -1064,6 +1065,27 @@ class WorkInProgress extends Component {
         </li>
       </ul>
     </div>
+
+    <p className="anno">Selectors</p>
+    <ul>
+      <li className="selector selector-active selector-S">small</li>
+      <li className="selector selector-S">small</li>
+      <li className="selector selector-S">small</li>
+      <li className="selector selector-S selector-disabled">disabled</li>
+    </ul>
+
+    <ul>
+      <li className="selector selector-active selector-M">medium</li>
+      <li className="selector selector-M">medium</li>
+      <li className="selector selector-M">medium</li>
+      <li className="selector selector-M selector-disabled">disabled</li>
+    </ul>
+
+    <ul>
+      <li className="selector selector-active"><img src="http://placehold.it/88x56"></img></li>
+      <li className="selector"><img src="http://placehold.it/88x56"></img></li>
+      <li className="selector"><img src="http://placehold.it/88x56"></img></li>
+    </ul>
 
     </div>
     </div>
