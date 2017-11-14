@@ -3,5 +3,71 @@
 *********************************/
 
 .tooltip{
-  
+  border-radius: $border-radius-S;
+  background-color: $color-shadow;
+  color: $color-white;
+  max-width: 288px;
+  font-weight: $font-weight-bold;
+  font-family: $font-body;
+  font-size: 12px;
+  line-height: 24px;
+  padding: 0 8px;
+  position: relative;
+  display: inline-block;
+  // border: 1px solid red;
+  @include elevation;
+
+  &:after{
+    position: absolute;
+    content: "";
+    width: 16px;
+    height: 16px;
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 8px solid $color-shadow;
+    // @include elevation;
+  }
+
+  // bottom right
+  &.tooltip-bot-right:after{
+    right: 8px;
+    bottom: -8px;
+  }
+
+  // bottom left
+  &.tooltip-bot-left:after{
+    left: 8px;
+    bottom: -8px;
+  }
+
+  // center
+  &.tooltip-center:after{
+    transform: translate(-50%, 0);
+    bottom: -8px;
+    left: 50%;
+  }
+
+  // tooltip light
+  &.tooltip-light{
+    color: $color-slate;
+    font-size: 14px;
+    line-height: 24px;
+    padding: 8px 16px;
+    font-weight: $font-weight-regular;
+    background-color: $color-white;
+    color: $color-nightsky;
+    border: 1px solid $color-concrete;
+
+    &:after{
+      border-top: 8px solid $color-white;
+    }
+
+    &:before{
+      border-left: 10px solid transparent;
+      border-right: 10px solid transparent;
+      border-top: 10px solid $color-slate;
+    }
+  }
 }

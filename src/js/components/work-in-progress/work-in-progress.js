@@ -239,7 +239,7 @@ componentDidMount() {
                   <span>Standard</span>
               </div>
           </div>
-      </div>                            
+      </div>
     </div>
 
     <div className="row mrg-XL">
@@ -264,9 +264,9 @@ componentDidMount() {
                   <span>Full Width</span>
               </div>
           </div>
-      </div>                            
+      </div>
     </div>
-    
+
 
     <p className="anno">Forms</p>
     <div className="mrg-M">
@@ -887,7 +887,7 @@ componentDidMount() {
               <figure className="toggle-img">
                 <img src="http://via.placeholder.com/220x220" alt="" />
                 <a href="javascript:void(0);" className="heart-icon">
-                  <span className="icon hover" dangerouslySetInnerHTML={{ __html: heartlineImage }} /> 
+                  <span className="icon hover" dangerouslySetInnerHTML={{ __html: heartlineImage }} />
                 </a>
                 <span className="std-txt-label">Hover</span>
               </figure>
@@ -905,7 +905,7 @@ componentDidMount() {
           <div className="small-12 medium-12 column row">
           <div className="thumb-icon row mrg-XL">
               <div className="toggle-thumbs mrg-rght-L">
-                <span className="icon icon-hover" dangerouslySetInnerHTML={{ __html: thumbsUpImage }} /> 
+                <span className="icon icon-hover" dangerouslySetInnerHTML={{ __html: thumbsUpImage }} />
                 <span className="std-txt-label">Default</span>
               </div>
               <div className="toggle-thumbs mrg-rght-L">
@@ -913,7 +913,7 @@ componentDidMount() {
                 <span className="std-txt-label">Hover</span>
               </div>
               <div className="toggle-thumbs mrg-rght-L">
-                <span className="icon hover" dangerouslySetInnerHTML={{ __html: thumbsupfillImage }} /> 
+                <span className="icon hover" dangerouslySetInnerHTML={{ __html: thumbsupfillImage }} />
                 <span className="std-txt-label">Active</span>
               </div>
             </div>
@@ -936,7 +936,7 @@ componentDidMount() {
                 <span className="std-txt-label">ARIA focus</span>
               </div>
             </div>
-            
+
             <div className="row column small-12 medium-12 text-buttons">
               <h2 className="title-XL mrg-L">Text Button</h2>
               <div className="toggle-thumbs mrg-rght-XL">
@@ -1010,7 +1010,7 @@ componentDidMount() {
 
           </div>
 
-          
+
 
     <div className="anno">Text Buttons</div>
     <button className="txt-btn mrg-rght-S">Button</button>
@@ -1029,11 +1029,24 @@ componentDidMount() {
 
     <hr></hr>
     <p className="std-txt std-txt-M color-nightsky">Points</p>
+    <div className="tooltip tooltip-bot-right color-rewards-grape-bg">$10 reward</div>
+    <br></br>
+    <br></br>
     <div className="progress-bar progress-bar-rewards">
       <span className="progress-bar-max-points">200</span>
       <div className="progress-bar-percent">165</div>
     </div>
     <p className="S">35 points away from your next $10 reward*</p>
+
+    <p className="anno">Tooltips</p>
+
+    <div className="tooltip tooltip-bot-right">Bottom Right</div>
+    <div className="tooltip tooltip-center">Center</div>
+    <div className="tooltip tooltip-bot-left">Bottom Left</div>
+    <br></br>
+    <br></br>
+    <div className="tooltip tooltip-bot-right tooltip-light">This security code is the last 3 digits on the back of your JCPenney MasterCard, Visa, MasterCard or Discover Card. The security code on American Express cards is the 4 digit number on the front of your card above your account number.</div>
+
 
     <p className="anno">Color Swatches</p>
 

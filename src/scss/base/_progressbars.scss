@@ -1,6 +1,11 @@
+/*********************************
+/* Progress Bars
+*********************************/
+
 .progress-bar{
   height: 4px;
   border-radius: $border-radius-M;
+  font-weight: $font-weight-bold;
   position: relative;
   width: 100%;
   background-color: $color-concrete;
