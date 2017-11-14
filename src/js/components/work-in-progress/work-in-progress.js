@@ -995,14 +995,14 @@ componentDidMount() {
                 <span className="std-txt-label">Hover</span>
               </div>
               <div className="toggle-settings mrg-rght-XL">
-                <a href="javascript:void(0)" className="icon-button focus">
-                  <span className="icon" dangerouslySetInnerHTML={{__html: settingsImage}} ></span>
+                <a href="javascript:void(0)" className="icon-button">
+                  <span className="icon focus" dangerouslySetInnerHTML={{__html: settingsImage}} ></span>
                 </a>
                 <span className="std-txt-label">ARIA focus</span>
               </div>
               <div className="toggle-settings mrg-rght-XL">
                 <a href="javascript:void(0)" className="icon-button disable">
-                  <span className="icon" dangerouslySetInnerHTML={{__html: settingsImage}} ></span>
+                  <span className="icon disable" dangerouslySetInnerHTML={{__html: settingsImage}} ></span>
                 </a>
                 <span className="std-txt-label">Disabled</span>
               </div>
