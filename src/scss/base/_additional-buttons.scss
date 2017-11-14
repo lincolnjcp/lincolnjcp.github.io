@@ -26,7 +26,7 @@
     fill: $color-penneyred;
   }
 }
-.toggle-thumbs {
+.toggle-thumbs, .toggle-settings {
   text-align: center;
   float: left;
 }
@@ -37,7 +37,7 @@
   display: block;
   text-align: center;
   padding: 20px 0;
-  color: #04aae5;
+  color: $color-marketing-aqua-1;
 }
 .text-buttons {
   a.txt-btn.hover {
@@ -49,5 +49,30 @@
     border-radius: 0;
     text-decoration: underline;
     color: $color-slate;
+  }
+}
+.cart-button {
+  background: $color-penneyred;
+  display: inline-block;
+  position: relative;
+  width: 56px;
+  height: 48px;
+  span.icon {
+    display: block;
+    padding: 8px 10px 0 0;
+  }
+  .cart-count {
+    background: $color-nightsky;
+    color: $color-white;
+    display: block;
+    border-radius: 12px;
+    padding: 3px;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 12px;
+  }
+  &.focus {
+    border: 2px dotted $color-white;
   }
 }
