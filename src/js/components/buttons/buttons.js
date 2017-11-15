@@ -300,6 +300,14 @@ class Buttons extends Component {
                             <button className="txt-btn txt-btn-S focus">Text Button</button>
                             <span className="std-txt-label algn-lft">ARIA focus</span>
                         </div>
+                        <div className="toggle-thumbs mrg-rght-XL">
+                            <button className="txt-btn value">Text Button</button>
+                            <span className="std-txt-label algn-lft">Value</span>
+                        </div>
+                        <div className="toggle-thumbs mrg-rght-XL">
+                            <button className="txt-btn txt-btn-em">Text Button</button>
+                            <span className="std-txt-label algn-lft">Emphasis</span>
+                        </div>
                     </div><br/><br/><br/>
 
                     <div className="row column small-12 medium-12 icon-buttons">

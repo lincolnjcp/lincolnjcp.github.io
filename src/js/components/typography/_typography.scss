@@ -316,9 +316,9 @@ p {
 }
 
 // Value
+// Should be assigned to info around sales, value, etc.
 .value{
-  color: $color-penneyred;
-  font-weight: $font-weight-bold;
+  color: $color-penneyred !important;
 }
 
 // Alignment

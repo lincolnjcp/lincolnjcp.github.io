@@ -227,20 +227,20 @@ button{
 }
 
 // Text Buttons
+// Buttons that look like text links
 a.txt-btn,
 .txt-btn{
   line-height: 36px;
   font-size: 16px;
-	min-width: 91px;
+	min-width: 96px;
   padding: 0 8px;
 	font-family: $font-headline;
 	letter-spacing: -0.4px;
 	text-align: center;
 	color: $color-nightsky;
   text-decoration: none;
-  transition: color .25s ease-in-out;
-    -webkit-transition: color .25s ease-in-out;
   display: inline-block;
+  @include transition(color $transition-time-S ease-in-out);
 
   &:hover{
     color: $color-slate;
@@ -250,6 +250,10 @@ a.txt-btn,
   &.txt-btn-S{
     font-size: 14px;
 	  letter-spacing: -0.3px;
+  }
+
+  &.txt-btn-em{
+    font-weight: $font-weight-bold;
   }
 }
 
