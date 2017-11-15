@@ -14,7 +14,7 @@
   text-align: center;
   color: $color-slate;
   cursor: pointer;
-  @include transition(border-color .25s ease-in-out);
+  @include transition(border-color $transition-time-S ease-in-out);
 
   &:last-child{
     margin-right: 0;

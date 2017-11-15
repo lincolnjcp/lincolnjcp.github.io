@@ -7,7 +7,12 @@ $path-images: '/images/';
 $path-images-pages: '../../'+$path-images;
 
 /******************
-/* Vars
+/* Transition times
+******************/
+$transition-time-S: .25s;
+$transition-time-M: .5s;
+
+/******************
 /* Colors & fonts
 ******************/
 

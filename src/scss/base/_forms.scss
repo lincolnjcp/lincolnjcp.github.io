@@ -48,13 +48,13 @@
 [type="radio"]:not(:checked) + label:after{
   opacity: 0;
   transform: scale(0);
-  transition: all .25s ease;
+  @include transition(all $transition-time-S ease-in-out);
 }
 
 [type="radio"]:checked + label:after{
   opacity: 1;
   transform: scale(1);
-  transition: all .25s ease;
+  @include transition(all $transition-time-S ease-in-out);
 }
 
 input[type="radio"]:disabled + label{
