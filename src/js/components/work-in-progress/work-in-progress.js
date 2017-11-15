@@ -855,13 +855,20 @@ class WorkInProgress extends Component {
         </div>
       </div>
     </div>
+    
 
-    <div className="anno">Icon Buttons</div>
-
-
-          
-
-          
+    <div className="selectors"> 
+      <h3 className="title title-L mrg-L">SKU Selectors</h3>
+      <div className="mrg-XL">
+        <span className="sku-block selected mrg-rght-S">XS</span>
+        <span className="sku-block normal mrg-rght-S">M</span>
+        <span className="sku-block error mrg-rght-S">L</span>
+        <span className="sku-block oo-stock mrg-rght-S">XL</span>
+        <a href="javascript:void(0)" className="sku-focus">
+          <span className="sku-block normal mrg-rght-S">1X</span>
+        </a>
+      </div>
+    </div>
 
     <div className="anno">Text Buttons</div>
     <button className="txt-btn mrg-rght-S">Button</button>

@@ -252,3 +252,106 @@ a.txt-btn,
 	  letter-spacing: -0.3px;
   }
 }
+
+
+/*********************************
+/* Additional Buttons
+*********************************/
+
+.toggle-list .icon-toggle {
+  float: left;
+  .toggle-img {
+    position: relative;
+    width: 220px;
+    margin: 0 auto;
+    .heart-icon {
+      background: $color-white;
+      opacity: 0.85;
+      width: 40px;
+      height: 40px;
+      border-radius: 20px;
+      position: absolute;
+      right: 8px;
+      top: 8px;
+      color: $color-nightsky;
+    }
+  }
+}
+.icon.hover {
+  path {
+    fill: $color-penneyred;
+  }
+}
+.icon.disable, .icon.focus  {
+  path {
+    fill: $color-slate;
+  }
+}
+.toggle-thumbs, .toggle-settings {
+  text-align: center;
+  float: left;
+}
+.toggle-thumbs.column:last-child:not(:first-child) {
+  float: left;
+}
+.std-txt-label {
+  display: block;
+  text-align: center;
+  padding: 20px 0;
+  color: $color-marketing-aqua-1;
+}
+.text-buttons {
+  a.txt-btn.hover {
+    text-decoration: underline;
+    color: $color-slate;
+  }
+  .focus {
+    border: 2px dotted $color-neutral-type;
+    border-radius: 0;
+    text-decoration: underline;
+    color: $color-slate;
+  }
+}
+.cart-button {
+  background: $color-penneyred;
+  display: inline-block;
+  position: relative;
+  width: 56px;
+  height: 48px;
+  span.icon {
+    display: block;
+    padding: 8px 10px 0 0;
+  }
+  .cart-count {
+    background: $color-nightsky;
+    color: $color-white;
+    display: block;
+    border-radius: 12px;
+    padding: 3px;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 12px;
+  }
+  &.focus {
+    border: 2px dotted $color-white;
+  }
+}
+.icon-button {
+  display: inline-block;
+  border-radius: $border-radius-S;
+}
+.icon-button .focus {
+  border: 2px dotted $color-neutral-type;
+  border-radius: $border-radius-S;
+  svg {
+    position: relative;
+    top: -2px;
+    right: 1px;
+  }
+}
+.icon-button.disable {
+  background: $color-lightgrey;
+}
+
+/*** Additional Buttons Ends ***/
