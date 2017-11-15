@@ -315,6 +315,12 @@ p {
     }
 }
 
+// Value
+.value{
+  color: $color-penneyred;
+  font-weight: $font-weight-bold;
+}
+
 // Alignment
 .algn-lft {
     text-align: left;

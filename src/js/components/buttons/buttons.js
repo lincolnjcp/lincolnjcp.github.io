@@ -245,7 +245,7 @@ class Buttons extends Component {
                             <a href="javascript:void(0);" className="heart-icon">
                                 <span className="icon icon-hover" dangerouslySetInnerHTML={{ __html: heartlineImage }} />
                             </a>
-                            <span className="std-txt-label">Default</span>
+                            <span className="std-txt-label algn-lft">Default</span>
                         </figure>
                     </div>
                     <div className="icon-toggle mrg-rght-L mrg-L">
@@ -254,7 +254,7 @@ class Buttons extends Component {
                             <a href="javascript:void(0);" className="heart-icon">
                                 <span className="icon hover" dangerouslySetInnerHTML={{ __html: heartlineImage }} />
                             </a>
-                            <span className="std-txt-label">Hover</span>
+                            <span className="std-txt-label algn-lft">Hover</span>
                         </figure>
                     </div>
                     <div className="icon-toggle mrg-rght-L mrg-L">
@@ -263,7 +263,7 @@ class Buttons extends Component {
                             <a href="javascript:void(0);" className="heart-icon">
                                 <span className="icon hover" dangerouslySetInnerHTML={{ __html: heartImageFill }} />
                             </a>
-                            <span className="std-txt-label">Active</span>
+                            <span className="std-txt-label algn-lft">Active</span>
                         </figure>
                     </div>
                 </div>
@@ -271,34 +271,34 @@ class Buttons extends Component {
                     <div className="thumb-icon row mrg-XL">
                         <div className="toggle-thumbs mrg-rght-L">
                             <span className="icon icon-hover" dangerouslySetInnerHTML={{ __html: thumbsUpImage }} />
-                            <span className="std-txt-label">Default</span>
+                            <span className="std-txt-label algn-lft">Default</span>
                         </div>
                         <div className="toggle-thumbs mrg-rght-L">
                             <span className="icon hover" dangerouslySetInnerHTML={{ __html: thumbsUpImage }} />
-                            <span className="std-txt-label">Hover</span>
+                            <span className="std-txt-label algn-lft">Hover</span>
                         </div>
                         <div className="toggle-thumbs mrg-rght-L">
                             <span className="icon hover" dangerouslySetInnerHTML={{ __html: thumbsupfillImage }} />
-                            <span className="std-txt-label">Active</span>
+                            <span className="std-txt-label algn-lft">Active</span>
                         </div>
                     </div><br/><br/>
                     <div className="row column small-12 medium-12 text-buttons">
                         <h2 className="title-XL mrg-L">Text Button</h2>
                         <div className="toggle-thumbs mrg-rght-XL">
                             <button className="txt-btn">Text Button</button>
-                            <span className="std-txt-label">Default</span>
+                            <span className="std-txt-label algn-lft">Default</span>
                         </div>
                         <div className="toggle-thumbs mrg-rght-XL">
                             <a href="#" className="txt-btn hover">Text Button</a>
-                            <span className="std-txt-label">Hover</span>
+                            <span className="std-txt-label algn-lft">Hover</span>
                         </div>
                         <div className="toggle-thumbs mrg-rght-XL">
                             <button className="txt-btn" disabled>Text Button</button>
-                            <span className="std-txt-label">Disabled</span>
+                            <span className="std-txt-label algn-lft">Disabled</span>
                         </div>
                         <div className="toggle-thumbs mrg-rght-XL">
                             <button className="txt-btn txt-btn-S focus">Text Button</button>
-                            <span className="std-txt-label">ARIA focus</span>
+                            <span className="std-txt-label algn-lft">ARIA focus</span>
                         </div>
                     </div><br/><br/><br/>
 
@@ -309,21 +309,21 @@ class Buttons extends Component {
                                 <span className="icon color-white-svg" dangerouslySetInnerHTML={{ __html: cartImage }} ></span>
                                 <span className="cart-count">12</span>
                             </a>
-                            <span className="std-txt-label">Default</span>
+                            <span className="std-txt-label algn-lft">Default</span>
                         </div>
                         <div className="toggle-thumbs mrg-rght-XL">
                             <a href="javascript:void(0)" className="cart-button">
                                 <span className="icon color-white-svg" dangerouslySetInnerHTML={{ __html: cartImage }} ></span>
                                 <span className="cart-count">12</span>
                             </a>
-                            <span className="std-txt-label">Hover</span>
+                            <span className="std-txt-label algn-lft">Hover</span>
                         </div>
                         <div className="toggle-thumbs mrg-rght-XL">
                             <a href="javascript:void(0)" className="cart-button focus">
                                 <span className="icon color-white-svg" dangerouslySetInnerHTML={{ __html: cartImage }} ></span>
                                 <span className="cart-count">12</span>
                             </a>
-                            <span className="std-txt-label">ARIA focus</span>
+                            <span className="std-txt-label algn-lft">ARIA focus</span>
                         </div>
                     </div><br/><br/>
                     <div className="row column small-12 medium-12 icon-buttons">
@@ -331,25 +331,25 @@ class Buttons extends Component {
                             <a href="javascript:void(0)" className="icon-button">
                                 <span className="icon icon-hover" dangerouslySetInnerHTML={{ __html: settingsImage }} ></span>
                             </a>
-                            <span className="std-txt-label">Default</span>
+                            <span className="std-txt-label algn-lft">Default</span>
                         </div>
                         <div className="toggle-settings mrg-rght-XL">
                             <a href="javascript:void(0)" className="icon-button">
                                 <span className="icon color-penneyred hover" dangerouslySetInnerHTML={{ __html: settingsImage }} ></span>
                             </a>
-                            <span className="std-txt-label">Hover</span>
+                            <span className="std-txt-label algn-lft">Hover</span>
                         </div>
                         <div className="toggle-settings mrg-rght-XL">
                             <a href="javascript:void(0)" className="icon-button">
                                 <span className="icon focus" dangerouslySetInnerHTML={{ __html: settingsImage }} ></span>
                             </a>
-                            <span className="std-txt-label">ARIA focus</span>
+                            <span className="std-txt-label algn-lft">ARIA focus</span>
                         </div>
                         <div className="toggle-settings mrg-rght-XL">
                             <a href="javascript:void(0)" className="icon-button disable">
                                 <span className="icon disable" dangerouslySetInnerHTML={{ __html: settingsImage }} ></span>
                             </a>
-                            <span className="std-txt-label">Disabled</span>
+                            <span className="std-txt-label algn-lft">Disabled</span>
                         </div>
                     </div>
 
