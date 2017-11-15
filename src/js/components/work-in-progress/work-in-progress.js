@@ -855,19 +855,59 @@ class WorkInProgress extends Component {
         </div>
       </div>
     </div>
-    
+
 
     <div className="selectors"> 
       <h3 className="title title-L mrg-L">SKU Selectors</h3>
+      <div className="std-txt-label mrg-S">Small</div>
       <div className="mrg-XL">
         <span className="sku-block selected mrg-rght-S">XS</span>
         <span className="sku-block normal mrg-rght-S">M</span>
         <span className="sku-block error mrg-rght-S">L</span>
-        <span className="sku-block oo-stock mrg-rght-S">XL</span>
+        <a href="javascript:void(0)" className="oo-label-block">
+          <span className="sku-block oo-stock mrg-rght-S">XL</span>
+          <span className="oo-stock-label">Out of Stock Online</span>
+        </a>
         <a href="javascript:void(0)" className="sku-focus">
           <span className="sku-block normal mrg-rght-S">1X</span>
         </a>
       </div>
+
+      <div className="std-txt-label mrg-S">Large</div>
+      <div className="mrg-XL">
+        <span className="sku-block sku-block-L selected mrg-rght-S">small</span>
+        <span className="sku-block sku-block-L normal mrg-rght-S">medium</span>
+        <span className="sku-block sku-block-L error mrg-rght-S">large</span>
+        <a href="javascript:void(0)" className="oo-label-block">
+          <span className="sku-block sku-block-L oo-stock mrg-rght-S">xlarge</span>
+          <span className="oo-stock-label">Out of Stock Online</span>
+        </a>
+      </div>
+
+      <div className="std-txt-label mrg-S">Large with Image</div>
+      <div className="mrg-XL">
+        <span className="sku-block sku-block-L selected mrg-rght-S">
+          <img src="http://placehold.it/100/100" alt="" />
+        </span>
+        <span className="sku-block sku-block-L normal mrg-rght-S">
+          <img src="http://placehold.it/100/100" alt="" />
+        </span>
+        <span className="sku-block sku-block-L error mrg-rght-S">
+          <img src="http://placehold.it/100/100" alt="" />
+        </span>
+        <a href="javascript:void(0)" className="oo-label-block">
+          <span className="sku-block sku-block-L oo-stock mrg-rght-S">
+            <img src="http://placehold.it/100/100" alt="" />
+          </span>
+          <span className="oo-stock-label">Out of Stock Online</span>
+        </a>
+        <a href="javascript:void(0)" className="sku-focus oo-label-block">
+          <span className="sku-block sku-block-L error mrg-rght-S">
+          <img src="http://placehold.it/100/100" alt="" />
+          </span>
+        </a>
+      </div>
+
     </div>
 
     <div className="anno">Text Buttons</div>

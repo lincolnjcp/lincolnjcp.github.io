@@ -1,0 +1,57 @@
+/*******************************************
+/* Selectors
+*******************************************/
+
+.selectors {
+  .sku-block {
+    width: 96px;
+    height: 40px;
+    display: inline-block;
+    line-height: 40px;
+    text-align: center;
+    color: $color-slate;
+    border: 1px solid $color-slate;
+    border-radius: $border-radius-M;
+    font-size: 14px;
+    img {
+      width: 44px;
+      height: 60px;
+      padding: 2px 0;
+    }
+  }
+  .selected {
+    border: 2px solid $color-nightsky;
+    color: $color-nightsky;
+    font-weight: bold;
+  }
+  .error {
+    border: 1px solid $color-penneyred;
+  }
+  .oo-stock {
+    border: 1px dotted $color-slate;
+  }
+  .sku-block-L {
+    height: 64px;
+    line-height: 64px;
+  }
+  .sku-focus {
+    border: 2px dotted $color-neutral-type;
+    padding: 2px;
+    display: inline-block;
+    width: 104px;
+    border-radius: $border-radius-M;
+  }
+  .oo-label-block {
+    display: inline-block;
+    width: 104px;
+    position: relative;
+    cursor: default;
+    .oo-stock-label {
+      font-size: 10px;
+      text-decoration: none;
+      position: absolute;
+      bottom: -14px;
+      left: 4px;
+    }
+  }
+}
