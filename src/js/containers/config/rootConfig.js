@@ -133,6 +133,11 @@ const rootNav = [
                 content: 'Selectors',
             },
             {
+                to: '/components/dropdown-button',
+                activeClassName: 'active',
+                content: 'Dropdown Button',
+            },
+            {
                 to: '/',
                 activeClassName: 'inactive',
                 content: 'Star Ratings',

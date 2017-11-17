@@ -9,6 +9,7 @@ import Typography from '../components/typography';
 import Alerts from '../components/alerts';
 import Badges from '../components/badges';
 import ContentLoaders from '../components/content-loaders';
+import DropdownButton from '../components/dropdown-button';
 import Tables from '../components/tables';
 import Forms from '../components/forms';
 
@@ -28,7 +29,8 @@ class DesignSystemPage extends Component {
    Badges: {componentElement: Badges, componentDisplayName: "Badges", componentSubNav: ['Code Generator', 'When to Use', 'Appearance', 'Examples']},
    ContentLoaders: {componentElement: ContentLoaders, componentDisplayName: "Content Loaders", componentSubNav: ['Code Generator', 'Types', 'Lazy Load']},
    Tables: {componentElement: Tables, componentDisplayName: "Tables", componentSubNav: ['Code Generator', 'Standard', 'Feature']},
-   Forms: {componentElement: Forms, componentDisplayName: "Forms", componentSubNav: ['Code Generator', 'When to Use', 'Appearance', 'Form Validation', 'Sample Layout', 'Related Content']}
+   Forms: {componentElement: Forms, componentDisplayName: "Forms", componentSubNav: ['Code Generator', 'When to Use', 'Appearance', 'Form Validation', 'Sample Layout', 'Related Content']},
+   DropdownButton: {componentElement: DropdownButton, componentDisplayName: "Content Loaders", componentSubNav: ['Code Generator', 'Types', 'Lazy Load']}
   }
 
   const Scene = routes[this.props.componentName].componentElement;

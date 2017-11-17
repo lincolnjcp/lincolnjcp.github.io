@@ -42,6 +42,14 @@
     bottom: -8px;
   }
 
+  // top left
+  &.tooltip-top-left:after{
+    left: 8px;
+    top: -8px;
+    transform: rotate(180deg);
+    -webkit-transform:rotate(180deg);
+  }
+
   // center
   &.tooltip-center:after{
     transform: translate(-50%, 0);

@@ -160,6 +160,7 @@ class App extends React.Component {
                             <Route exact path="/components/content-loaders" render={() => <DesignSystemPage componentName="ContentLoaders" />} />
                             <Route exact path="/components/tables" render={() => <DesignSystemPage componentName="Tables" />} />
                             <Route exact path="/components/forms" render={() => <DesignSystemPage componentName="Forms" />} />
+                            <Route exact path="/components/dropdown-button" render={() => <DesignSystemPage componentName="DropdownButton" />} />
                         </div>
                     </div>
 
