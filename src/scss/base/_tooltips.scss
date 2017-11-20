@@ -2,101 +2,243 @@
 /* Tooltips
 *********************************/
 
-.tooltip{
-  border-radius: $border-radius-S;
-  max-width: 288px;
-  font-family: $font-body;
-  font-size: 14px;
-  max-width: 300px;
-  // overflow-y: scroll;
-  line-height: 20px;
-  padding: 12px;
+// Contains the tooltip and sets it to absolute
+.tooltip-container{
+  position: absolute;
+  top: 32px;
+}
+
+// class to be placed around where the tooltip should appear
+// Appears on hover
+.tooltip-anchor{
   position: relative;
-  display: inline-block;
+  cursor: pointer;
+
+  &:hover{
+    .tooltip-new{
+      opacity: 1;
+    }
+  }
+}
+
+.tooltip{
+  // opacity: 0; // Hide tooltip init
+  padding: 16px;
+  @include transition(all .25s ease-in-out);
+  background-color: #fff;
+  max-width: 300px;
+  max-height: 200px;
+  font-size: 14px;  
+  line-height: 20px;
+  position: relative;
+  border-radius: 4px;
   border: 1px solid $color-concrete;
-  @include elevation;
+  box-shadow: 2px 2px 8px 0px rgba(0,0,0,0.3);
 
-  // Set border around arrow
+  span{
+    display: block;
+    max-height: 200px;
+  }
+
+  &.tooltip-list{
+    padding: 16px 0;
+
+    ul{
+      margin: 0px;
+      padding: 0px;
+
+      li{
+        display: block;
+        @include transition(background-color $transition-time-S ease-in-out);
+
+        &:hover{
+          background-color: $color-concrete;
+        }
+
+        a{
+          line-height: 40px;
+          padding: 0 12px;
+          text-decoration: none;
+          display: block;
+        }
+      }
+    }
+  }
+
+  &.tooltip-long{
+    max-height: none;
+  }
+
+  &.tooltip-single{
+    padding: 12px;
+    display: inline-block;
+  }
+
   &:before{
-    position: absolute;
     content: "";
-    width: 0;
-    height: 0;
-    bottom: -10px;
-    right: 7px;
-    border-left: 10px solid transparent;
-    border-right: 10px solid transparent;
-    border-top: 10px solid $color-concrete;
-  }
-
-  // Arrow on tooltip
-  &:after{
     position: absolute;
-    content: "";
-    bottom: -8px;
-    right: 8px;
-    // width: 16px;
-    // height: 16px;
-    // display: block;
-    // background-color: $color-white;
-    // @include elevation;
-    width: 0;
-    height: 0;
-    border-left: 8px solid transparent;
-    border-right: 8px solid transparent;
-    border-top: 8px solid $color-white;
+    display: block;
+    height: 12px;
+    width: 12px;
+    bottom: -5px;
+    background-color: #fff;
+    transform: rotate(45deg);
+    // first dropshow simulates the border on the arrow
+    box-shadow: 1px 1px 0px 0px #eaeaea, 3px 3px 4px 0px rgba(0,0,0,0.3);
   }
 
-  // bottom right
-  &.tooltip-bot-right:after{
-    right: 8px;
-    bottom: -8px;
+  &.tooltip-top-left:before{
+    top: -5px;
+    box-shadow: -1px -1px 0px 0px #eaeaea;
   }
 
-    &.tooltip-bot-right:before{
-      right: 9px;
-      bottom: -9px;
-    }
-
-  // bottom left
-  &.tooltip-bot-left:after{
-    left: 8px;
-    bottom: -8px;
-  }
-
-  // top left
-  &.tooltip-top-left:after{
-    left: 8px;
-    top: -8px;
-    transform: rotate(180deg);
-    -webkit-transform:rotate(180deg);
-  }
-
-  // center
-  &.tooltip-center:after{
-    transform: translate(-50%, 0);
+  &.tooltip-top-center:before{
+    top: -5px;
     left: 50%;
-    bottom: -8px;
+    margin-left: -6px;
+    box-shadow: -1px -1px 0px 0px #eaeaea;
   }
 
-  // Sets tooltip to be dark with light text
-  &.tooltip-dark{
-    background-color: $color-shadow;
-    color: $color-white;
-    border: none;
+  &.tooltip-top-right:before{
+    top: -5px;
+    right: 16px;
+    margin-left: -6px;
+    box-shadow: -1px -1px 0px 0px #eaeaea;
+  }
 
-    &:after{
-      position: absolute;
-      content: "";
-      width: 16px;
-      height: 16px;
-      width: 0;
-      height: 0;
-      border-left: 9px solid transparent;
-      border-right: 9px solid transparent;
-      border-top: 8px solid $color-shadow;
+  &.tooltip-bottom-center:before{
+    left: 50%;
+    margin-left: -6px;
+    box-shadow: 1px 1px 0px 0px #eaeaea, 3px 3px 4px 0px rgba(0,0,0,0.3);
+  }
+
+  &.tooltip-bottom-right:before{
+    right: 16px;
+    box-shadow: 1px 1px 0px 0px #eaeaea, 3px 3px 4px 0px rgba(0,0,0,0.3);
+  }
+
+  &.tooltip-right-side:before{
+    right: -6px;
+    top: 50%;
+    margin-top: -6px;
+    box-shadow: 1px -1px 0px 0px #eaeaea, 3px -3px 4px 0px rgba(0,0,0,0.3);
+  }
+
+  &.tooltip-left-side:before{
+    left: -6px;
+    top: 50%;
+    margin-top: -6px;
+    box-shadow: -1px 1px 0px 0px #eaeaea;
+  }
+
+  &.tooltip-new-dark{
+    background-color: #000;
+    color: #fff;
+    border: none;
+    &:before{
+      background-color: #000;
+      box-shadow: 3px 3px 3px 0px rgba(0,0,0,0.3);
     }
   }
+}
+
+// Backup
+
+// .tooltip{
+//   border-radius: $border-radius-S;
+//   max-width: 288px;
+//   font-family: $font-body;
+//   font-size: 14px;
+//   max-width: 300px;
+//   // overflow-y: scroll;
+//   line-height: 20px;
+//   padding: 12px;
+//   position: relative;
+//   display: inline-block;
+//   border: 1px solid $color-concrete;
+//   @include elevation;
+//
+//   // Set border around arrow
+//   &:before{
+//     position: absolute;
+//     content: "";
+//     width: 0;
+//     height: 0;
+//     bottom: -10px;
+//     right: 7px;
+//     border-left: 10px solid transparent;
+//     border-right: 10px solid transparent;
+//     border-top: 10px solid $color-concrete;
+//   }
+//
+//   // Arrow on tooltip
+//   &:after{
+//     position: absolute;
+//     content: "";
+//     bottom: -8px;
+//     right: 8px;
+//     // width: 16px;
+//     // height: 16px;
+//     // display: block;
+//     // background-color: $color-white;
+//     // @include elevation;
+//     width: 0;
+//     height: 0;
+//     border-left: 8px solid transparent;
+//     border-right: 8px solid transparent;
+//     border-top: 8px solid $color-white;
+//   }
+//
+//   // bottom right
+//   &.tooltip-bot-right:after{
+//     right: 8px;
+//     bottom: -8px;
+//   }
+//
+//     &.tooltip-bot-right:before{
+//       right: 9px;
+//       bottom: -9px;
+//     }
+//
+//   // bottom left
+//   &.tooltip-bot-left:after{
+//     left: 8px;
+//     bottom: -8px;
+//   }
+//
+//   // top left
+//   &.tooltip-top-left:after{
+//     left: 8px;
+//     top: -8px;
+//     transform: rotate(180deg);
+//     -webkit-transform:rotate(180deg);
+//   }
+//
+//   // center
+//   &.tooltip-center:after{
+//     transform: translate(-50%, 0);
+//     left: 50%;
+//     bottom: -8px;
+//   }
+//
+//   // Sets tooltip to be dark with light text
+//   &.tooltip-dark{
+//     background-color: $color-shadow;
+//     color: $color-white;
+//     border: none;
+//
+//     &:after{
+//       position: absolute;
+//       content: "";
+//       width: 16px;
+//       height: 16px;
+//       width: 0;
+//       height: 0;
+//       border-left: 9px solid transparent;
+//       border-right: 9px solid transparent;
+//       border-top: 8px solid $color-shadow;
+//     }
+//   }
 
   // // tooltip light
   // &.tooltip-light{
@@ -119,4 +261,4 @@
   //     border-top: 10px solid $color-slate;
   //   }
   // }
-}
+// }

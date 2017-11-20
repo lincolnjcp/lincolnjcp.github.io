@@ -1080,14 +1080,81 @@ class WorkInProgress extends Component {
 
     <p className="anno">Tooltips</p>
 
-    <div className="tooltip">Default tooltip</div>
-    <div className="tooltip tooltip-bot-right">Bottom Right</div>
-    <div className="tooltip tooltip-center">Center</div>
-    <div className="tooltip tooltip-bot-left">Bottom Left</div>
-    <br></br>
-    <br></br>
-    <div className="tooltip tooltip-bot-right tooltip-light">This security code is the last 3 digits on the back of your JCPenney MasterCard, Visa, MasterCard or Discover Card. The security code on American Express cards is the 4 digit number on the front of your card above your account number.</div>
-    <div className="tooltip tooltip-dark tooltip-bot-left">Bottom Left</div>
+      <div className="tooltip">
+        <span>tooltip new tooltip newtooltip newtooltip newtooltip newtooltip newtooltip newtooltip newtooltip newtooltip newtooltip newtooltip newtooltip new</span>
+      </div>
+
+      <h2>tooltip single</h2>
+
+      <div className="tooltip tooltip-single">
+        <span>tooltip tooltip new</span>
+      </div>
+
+      <h2>tooltip right side</h2>
+
+      <div className="tooltip tooltip-single tooltip-right-side">
+        <span>tooltip right side</span>
+      </div>
+
+      <h2>tooltip left side</h2>
+
+      <div className="tooltip tooltip-single tooltip-left-side">
+        <span>tooltip left side</span>
+      </div>
+
+      <h2>bottom center</h2>
+
+      <div className="tooltip tooltip-bottom-center">
+        <span>tooltip new tooltip newtooltip newtooltip newtooltip newtooltip newtooltip newtooltip newtooltip newtooltip newtooltip newtooltip newtooltip new</span>
+      </div>
+
+      <h2>bottom right</h2>
+
+      <div className="tooltip tooltip-bottom-right">
+        <span>tooltip new tooltip newtooltip newtooltip newtooltip newtooltip newtooltip newtooltip newtooltip newtooltip newtooltip newtooltip newtooltip new</span>
+      </div>
+
+      <h2>top left</h2>
+
+      <div className="tooltip tooltip-top-left">
+        <span>tooltip new tooltip newtooltip newtooltip newtooltip newtooltip newtooltip newtooltip newtooltip newtooltip newtooltip newtooltip newtooltip new</span>
+      </div>
+
+      <h2>dark tooltip</h2>
+
+      <div className="tooltip tooltip-dark">
+        <span>tooltip new tooltip newtooltip newtooltip oltip new tooltip newtooltip newtooltip oltip new tooltip newtooltip newtooltip oltip new tooltip newtooltip newtooltip oltip new tooltip newtooltip newtooltip oltip new tooltip newtooltip newtooltip oltip new tooltip newtooltip newtooltip oltip new tooltip newtooltip newtooltip newtooltip newtooltip newtooltip newtooltip newtooltip newtooltip newtooltip newtooltip newtooltip new</span>
+      </div>
+
+      <h2>top center</h2>
+
+      <div className="tooltip tooltip-top-center">
+        <span>tooltip new tooltip newtooltip newtooltip oltip new tooltip newtooltip newtooltip oltip new tooltip newtooltip newtooltip oltip new tooltip newtooltip newtooltip oltip new tooltip newtooltip newtooltip oltip new tooltip newtooltip newtooltip oltip new tooltip newtooltip newtooltip oltip new tooltip newtooltip newtooltip newtooltip newtooltip newtooltip newtooltip newtooltip newtooltip newtooltip newtooltip newtooltip new</span>
+      </div>
+
+      <h2>tooltip top right</h2>
+
+      <div className="tooltip tooltip-top-right">
+        <span>tooltip new tooltip newtooltip newtooltip oltip new tooltip newtooltip newtooltip oltip new tooltip newtooltip newtooltip oltip new tooltip newtooltip newtooltip oltip new tooltip newtooltip newtooltip oltip new tooltip newtooltip newtooltip oltip new tooltip newtooltip newtooltip oltip new tooltip newtooltip newtooltip newtooltip newtooltip newtooltip newtooltip newtooltip newtooltip newtooltip newtooltip newtooltip new</span>
+      </div>
+
+      <h2>tooltip top right list</h2>
+
+      <div className="tooltip tooltip-top-right tooltip-list">
+        <ul>
+          <li><a href="#">link</a></li>
+          <li><a href="#">link</a></li>
+          <li><a href="#">link</a></li>
+          <li><a href="#">link</a></li>
+          <li><a href="#">link</a></li>
+        </ul>
+      </div>
+
+      <h2>tooltip scroll bar</h2>
+
+      <div className="tooltip tooltip-top-right">
+        <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.trud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+      </div>
 
 
 
