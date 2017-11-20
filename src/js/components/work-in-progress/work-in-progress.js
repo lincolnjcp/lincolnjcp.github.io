@@ -1093,32 +1093,37 @@ class WorkInProgress extends Component {
 
     <p className="anno">Color Swatches</p>
 
-    <div className="list-product-colors mrg-L">
-      <div className="list-product-colors-header">
-        <div className="list-product-colors-lbl">label</div>
-        <button className="list-product-colors-show link">Show</button>
+    <div className="color-swatches-block mrg-L medium-8 large-8">
+        <h2 className="title title-L mrg-M">Product Swatches</h2>
+        <div className="color-swatches-list">
+          <ul className="list-product-colors-container">
+            <li>
+              <a href="javascript:void(0)" className="list-color-swatch list-color-swatch-active"></a>
+              <span className="std-txt-label">Selected</span>
+            </li>
+            <li>
+              <a href="javascript:void(0)" className="list-color-swatch"></a>
+              <span className="std-txt-label">Default</span>
+            </li>
+            <li>
+              <a href="javascript:void(0)" className="list-color-swatch hover"></a>
+              <span className="std-txt-label">Hover</span>
+            </li>
+            <li>
+              <a href="javascript:void(0)" className="list-color-swatch list-color-swatch-oos"></a>
+              <span className="std-txt-label">Out of Stock</span>
+            </li>
+            <li>
+              <a href="javascript:void(0)" className="list-color-swatch list-color-swatch-active list-color-swatch-oos"></a>
+              <span className="std-txt-label">Out of Stock Selected</span>
+            </li>
+            <li className="focus">
+              <a href="javascript:void(0)" className="list-color-swatch hover"></a>
+              <span className="std-txt-label">ARIA focus</span>
+            </li>
+          </ul>
+        </div>
       </div>
-      <ul className="list-product-colors-container">
-        <li>
-          <button className="list-color-swatch list-color-swatch-active"></button>
-        </li>
-        <li>
-          <div className="list-color-swatch"></div>
-        </li>
-        <li>
-          <div className="list-color-swatch"></div>
-        </li>
-        <li>
-          <div className="list-color-swatch"></div>
-        </li>
-        <li>
-          <div className="list-color-swatch list-color-swatch-oos"></div>
-        </li>
-        <li>
-          <div className="list-color-swatch list-color-swatch-active list-color-swatch-oos"></div>
-        </li>
-      </ul>
-    </div>
 
     <p className="anno">Selectors</p>
     <ul>
