@@ -22,6 +22,18 @@ class DropdownButton extends Component {
         return (
             <div id="dropdown-button">
                 <h1 className="title title-XL mrg-L">Dropdown Button</h1>
+                {/* <div className="dropdown-menu-block">
+                    <a className="dropdown-button">Product Type <span className="arrow"></span></a>
+                </div>
+                <div className="dropdown-menu-block">
+                    <a className="dropdown-button">Product Type <span className="arrow"></span></a>
+                </div>
+                <div className="dropdown-menu-block">
+                    <a className="dropdown-button">Product Type <span className="arrow"></span></a>
+                </div>
+                <div className="dropdown-menu-block">
+                    <a className="dropdown-button">Product Type <span className="arrow"></span></a>
+                </div> */}
                 <div className="dropdown-menu-block">
                     <a className="dropdown-button">Product Type <span className="arrow"></span></a>
                     <div className="dropdown-menu">
