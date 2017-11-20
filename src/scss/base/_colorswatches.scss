@@ -79,13 +79,26 @@
         }
       }
       .oos-selected {
-
         &:after {
           border-right: 1px solid $color-concrete;
           border-left: 1px solid $color-concrete;
         }
 
       }
+    }
+  }
+  
+  .color-swatches-medium li {
+    .list-color-swatch, &.swatches-list-icon {
+      width: 24px;
+      height: 24px;
+    }
+  }
+
+  .color-swatches-small li {
+    .list-color-swatch, &.swatches-list-icon {
+      width: 16px;
+      height: 16px;
     }
   }
 
@@ -104,4 +117,7 @@
       text-align: center;
     }
   }
+}
+.fl-left {
+  float: left;
 }
