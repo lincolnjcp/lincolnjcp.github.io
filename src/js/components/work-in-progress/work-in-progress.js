@@ -1080,12 +1080,15 @@ class WorkInProgress extends Component {
 
     <p className="anno">Tooltips</p>
 
+    <div className="tooltip">Default tooltip</div>
     <div className="tooltip tooltip-bot-right">Bottom Right</div>
     <div className="tooltip tooltip-center">Center</div>
     <div className="tooltip tooltip-bot-left">Bottom Left</div>
     <br></br>
     <br></br>
     <div className="tooltip tooltip-bot-right tooltip-light">This security code is the last 3 digits on the back of your JCPenney MasterCard, Visa, MasterCard or Discover Card. The security code on American Express cards is the 4 digit number on the front of your card above your account number.</div>
+    <div className="tooltip tooltip-dark tooltip-bot-left">Bottom Left</div>
+
 
 
     <p className="anno">Color Swatches</p>
