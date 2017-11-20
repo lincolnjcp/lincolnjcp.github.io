@@ -4,17 +4,28 @@
 ***************************************************/
 .color-swatches-block {
   .list-product-colors-container{
-    display: flex;
-    justify-content: space-around;
+
     li{
       display: inline-block;
       vertical-align: top;
-      text-align: center;
-      margin: 0 16px;
+      margin: 8px 4px;
+    }
+
+    li.focus {
+      border: 2px dotted $color-neutral-type;
+      height: 45px;
+      width: 45px;
+      display: inline;
     }
 
     li:focus{
       @include focus;
+    }
+
+    .swatches-list-icon {
+      width: 40px;
+      height: 40px;
+      cursor: pointer;
     }
 
     .list-color-swatch{
@@ -75,6 +86,22 @@
         }
 
       }
+    }
+  }
+
+  .show-all-cta {
+    text-align: right;
+    display: block;
+    padding-right: 40px;
+  }
+
+  .swatches-grid {
+    display: flex;
+    justify-content: space-around;
+
+    li {
+      margin: 0 16px;
+      text-align: center;
     }
   }
 }
