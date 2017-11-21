@@ -7,7 +7,7 @@
   .dropdown-button {
     border: 1px solid $color-concrete;
     border-radius: 24px;
-    padding: 12px 30px 12px 16px;
+    padding: 10px 30px 10px 16px;
     text-decoration: none;
     cursor: pointer;
     font-weight: $font-weight-bold;
@@ -23,7 +23,7 @@
       pointer-events: none;
       display: inline-block;
       right: 14px;
-      top: 12px;
+      top: 10px;
       &::after {
         content: "\25BE";
         height: 1em;
@@ -50,7 +50,7 @@
 
   .arrow-down .arrow {
     transform: rotate(180deg);
-    top: 13px;
+    top: 11px;
   }
   .disabled, .disabled:hover {
     background: $color-lightgrey;
