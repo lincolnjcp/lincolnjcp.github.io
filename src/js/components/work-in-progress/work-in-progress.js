@@ -7,6 +7,7 @@ const chatfillImage = require('!!raw-loader?es5=1!../../../images/global/icons/a
 const trianglerightImage = require('!!raw-loader?es5=1!../../../images/global/icons/nav/triangle-right.svg');
 const thumbsupfillImage = require('!!raw-loader?es5=1!../../../images/global/icons/action/thumbsup-fill.svg');
 const heartlineImage = require('!!raw-loader?es5=1!../../../images/global/icons/action/heart-line.svg');
+const plusImage = require('!!raw-loader?es5=1!../../../images/global/icons/nav/plus.svg');
 
 class WorkInProgress extends Component {
 
@@ -1160,37 +1161,235 @@ class WorkInProgress extends Component {
 
     <p className="anno">Color Swatches</p>
 
-    <div className="color-swatches-block mrg-L medium-8 large-8">
-        <h2 className="title title-L mrg-M">Product Swatches</h2>
-        <div className="color-swatches-list">
-          <ul className="list-product-colors-container">
-            <li>
-              <a href="javascript:void(0)" className="list-color-swatch list-color-swatch-active"></a>
-              <span className="std-txt-label">Selected</span>
-            </li>
-            <li>
-              <a href="javascript:void(0)" className="list-color-swatch"></a>
-              <span className="std-txt-label">Default</span>
-            </li>
-            <li>
-              <a href="javascript:void(0)" className="list-color-swatch hover"></a>
-              <span className="std-txt-label">Hover</span>
-            </li>
-            <li>
-              <a href="javascript:void(0)" className="list-color-swatch list-color-swatch-oos"></a>
-              <span className="std-txt-label">Out of Stock</span>
-            </li>
-            <li>
-              <a href="javascript:void(0)" className="list-color-swatch list-color-swatch-active list-color-swatch-oos"></a>
-              <span className="std-txt-label">Out of Stock Selected</span>
-            </li>
-            <li className="focus">
-              <a href="javascript:void(0)" className="list-color-swatch hover"></a>
-              <span className="std-txt-label">ARIA focus</span>
-            </li>
-          </ul>
+    <div className="color-swatches-block mrg-L fl-left">
+      <h2 className="title title-L mrg-M">Product Swatches</h2>
+      <div className="color-swatches-list medium-8 large-8">
+        <ul className="list-product-colors-container swatches-grid">
+          <li>
+            <a href="javascript:void(0)" className="list-color-swatch list-color-swatch-active"></a>
+            <span className="std-txt-label">Selected</span>
+          </li>
+          <li>
+            <a href="javascript:void(0)" className="list-color-swatch"></a>
+            <span className="std-txt-label">Default</span>
+          </li>
+          <li>
+            <a href="javascript:void(0)" className="list-color-swatch hover"></a>
+            <span className="std-txt-label">Hover</span>
+          </li>
+          <li>
+            <a href="javascript:void(0)" className="list-color-swatch list-color-swatch-oos"></a>
+            <span className="std-txt-label">Out of Stock</span>
+          </li>
+          <li>
+            <a href="javascript:void(0)" className="list-color-swatch list-color-swatch-active list-color-swatch-oos"></a>
+            <span className="std-txt-label">Out of Stock Selected</span>
+          </li>
+          <li className="focus">
+            <a href="javascript:void(0)" className="list-color-swatch hover"></a>
+            <span className="std-txt-label">ARIA focus</span>
+          </li>
+        </ul>
+      </div><br/><br/><br/>
+      <div className="medium-5 large-5 small-12 column">
+        <div className="color-swatches-list medium-12 large-12 small-12">
+          <h2 className="title title-L mrg-M">Expand/Collapse</h2>
+          <span className="std-txt-label">Large/XL Breakpoint</span>
+          <div className="color-swatches-list-label">
+            <p className="medium-6 small-6 large-6 column">
+              <span><strong>Color:</strong> Blue</span>
+            </p>
+            <p className="medium-6 small-6 large-6 column">
+              <a href="javascript:void(0)" className="show-all-cta">show all colors</a>
+            </p>
+          </div>
+          <div className="color-swatches-list">
+              <ul className="list-product-colors-container">
+                <li>
+                  <a href="javascript:void(0)" className="list-color-swatch list-color-swatch-active"></a>
+                </li>
+                <li>
+                  <a href="javascript:void(0)" className="list-color-swatch"></a>
+                </li>
+                <li>
+                  <a href="javascript:void(0)" className="list-color-swatch"></a>
+                </li>
+                <li>
+                  <a href="javascript:void(0)" className="list-color-swatch"></a>
+                </li>
+                <li>
+                  <a href="javascript:void(0)" className="list-color-swatch"></a>
+                </li>
+                <li>
+                  <a href="javascript:void(0)" className="list-color-swatch"></a>
+                </li>
+                <li>
+                  <a href="javascript:void(0)" className="list-color-swatch"></a>
+                </li>
+                <li>
+                  <a href="javascript:void(0)" className="list-color-swatch"></a>
+                </li>
+                <li>
+                  <a href="javascript:void(0)" className="list-color-swatch"></a>
+                </li>
+                <li>
+                  <a href="javascript:void(0)" className="list-color-swatch"></a>
+                </li>
+                <li>
+                  <a href="javascript:void(0)" className="list-color-swatch"></a>
+                </li>
+                <li>
+                  <a href="javascript:void(0)" className="list-color-swatch"></a>
+                </li>
+                <li>
+                  <a href="javascript:void(0)" className="list-color-swatch"></a>
+                </li>
+                <li className="swatches-list-icon" dangerouslySetInnerHTML={{ __html: plusImage }} >
+                  
+                </li>
+              </ul>
+          </div>
+        </div><br/><br/><br/>
+
+        <div className="color-swatches-list medium-12 large-12 small-12">
+          <span className="std-txt-label">Small Breakpoint</span>
+          <div className="color-swatches-list-label">
+            <p className="medium-6 small-6 large-6 column">
+              <span><strong>Color:</strong> Blue</span>
+            </p>
+            <p className="medium-6 small-6 large-6 column">
+              <a href="javascript:void(0)" className="show-all-cta">show all colors</a>
+            </p>
+          </div>
+          <div className="color-swatches-list">
+              <ul className="list-product-colors-container">
+                <li>
+                  <a href="javascript:void(0)" className="list-color-swatch list-color-swatch-active"></a>
+                </li>
+                <li>
+                  <a href="javascript:void(0)" className="list-color-swatch"></a>
+                </li>
+                <li>
+                  <a href="javascript:void(0)" className="list-color-swatch"></a>
+                </li>
+                <li>
+                  <a href="javascript:void(0)" className="list-color-swatch"></a>
+                </li>
+                <li>
+                  <a href="javascript:void(0)" className="list-color-swatch"></a>
+                </li>
+                <li>
+                  <a href="javascript:void(0)" className="list-color-swatch"></a>
+                </li>
+                <li className="swatches-list-icon" dangerouslySetInnerHTML={{ __html: plusImage }} >
+                </li>
+              </ul>
+          </div>
+        </div><br/><br/><br/>
+        
+        <div className="color-swatches-list medium-12 large-12 small-12">
+          <div className="color-swatches-list-label">
+            <p className="medium-6 small-6 large-6 column">
+              <span><strong>Color:</strong> Blue</span>
+            </p>
+            <p className="medium-6 small-6 large-6 column">
+              <a href="javascript:void(0)" className="show-all-cta">fewer colors</a>
+            </p>
+          </div>
+          <div className="color-swatches-list">
+              <ul className="list-product-colors-container">
+                <li>
+                  <a href="javascript:void(0)" className="list-color-swatch"></a>
+                </li>
+                <li>
+                  <a href="javascript:void(0)" className="list-color-swatch"></a>
+                </li>
+                <li>
+                  <a href="javascript:void(0)" className="list-color-swatch"></a>
+                </li>
+                <li>
+                  <a href="javascript:void(0)" className="list-color-swatch"></a>
+                </li>
+                <li>
+                  <a href="javascript:void(0)" className="list-color-swatch"></a>
+                </li>
+                <li>
+                  <a href="javascript:void(0)" className="list-color-swatch"></a>
+                </li>
+                <li>
+                  <a href="javascript:void(0)" className="list-color-swatch"></a>
+                </li>
+                <li>
+                  <a href="javascript:void(0)" className="list-color-swatch"></a>
+                </li>
+                <li>
+                  <a href="javascript:void(0)" className="list-color-swatch"></a>
+                </li>
+                <li>
+                  <a href="javascript:void(0)" className="list-color-swatch"></a>
+                </li>
+                <li>
+                  <a href="javascript:void(0)" className="list-color-swatch"></a>
+                </li>
+                <li>
+                  <a href="javascript:void(0)" className="list-color-swatch"></a>
+                </li>
+                <li>
+                  <a href="javascript:void(0)" className="list-color-swatch"></a>
+                </li>
+                <li>
+                  <a href="javascript:void(0)" className="list-color-swatch"></a>
+                </li>
+              </ul>
+          </div>
         </div>
       </div>
+
+      <div className="medium-5 large-5 small-12 column">
+      <h2 className="title title-L mrg-M">Sizing</h2>
+        <div className="color-swatches-list medium-12 large-12 small-12">
+          <div className="color-swatches-medium mrg-L">
+            <ul className="list-product-colors-container">
+              <li>
+                <a href="javascript:void(0)" className="list-color-swatch"></a>
+              </li>
+              <li>
+                <a href="javascript:void(0)" className="list-color-swatch"></a>
+              </li>
+              <li>
+                <a href="javascript:void(0)" className="list-color-swatch"></a>
+              </li>
+              <li>
+                <a href="javascript:void(0)" className="list-color-swatch"></a>
+              </li>
+              <li className="swatches-list-icon" dangerouslySetInnerHTML={{ __html: plusImage }} >
+                </li>
+            </ul>
+            <span className="std-txt-label">Medium - Gallery (>5)</span>
+          </div>
+          <div className="color-swatches-small">
+            <ul className="list-product-colors-container">
+              <li>
+                <a href="javascript:void(0)" className="list-color-swatch"></a>
+              </li>
+              <li>
+                <a href="javascript:void(0)" className="list-color-swatch"></a>
+              </li>
+              <li>
+                <a href="javascript:void(0)" className="list-color-swatch"></a>
+              </li>
+              <li>
+                <a href="javascript:void(0)" className="list-color-swatch"></a>
+              </li>
+              <li className="swatches-list-icon" dangerouslySetInnerHTML={{ __html: plusImage }} >
+                </li>
+            </ul>
+            <span className="std-txt-label">Small - Gallery (>5)</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
 
     <p className="anno">Selectors</p>
     <ul>

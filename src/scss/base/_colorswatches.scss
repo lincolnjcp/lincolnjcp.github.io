@@ -4,17 +4,28 @@
 ***************************************************/
 .color-swatches-block {
   .list-product-colors-container{
-    display: flex;
-    justify-content: space-around;
+
     li{
       display: inline-block;
       vertical-align: top;
-      text-align: center;
-      margin: 0 16px;
+      margin: 8px 4px;
+    }
+
+    li.focus {
+      border: 2px dotted $color-neutral-type;
+      height: 45px;
+      width: 45px;
+      display: inline;
     }
 
     li:focus{
       @include focus;
+    }
+
+    .swatches-list-icon {
+      width: 40px;
+      height: 40px;
+      cursor: pointer;
     }
 
     .list-color-swatch{
@@ -68,7 +79,6 @@
         }
       }
       .oos-selected {
-
         &:after {
           border-right: 1px solid $color-concrete;
           border-left: 1px solid $color-concrete;
@@ -77,4 +87,37 @@
       }
     }
   }
+  
+  .color-swatches-medium li {
+    .list-color-swatch, &.swatches-list-icon {
+      width: 24px;
+      height: 24px;
+    }
+  }
+
+  .color-swatches-small li {
+    .list-color-swatch, &.swatches-list-icon {
+      width: 16px;
+      height: 16px;
+    }
+  }
+
+  .show-all-cta {
+    text-align: right;
+    display: block;
+    padding-right: 40px;
+  }
+
+  .swatches-grid {
+    display: flex;
+    justify-content: space-around;
+
+    li {
+      margin: 0 16px;
+      text-align: center;
+    }
+  }
+}
+.fl-left {
+  float: left;
 }
