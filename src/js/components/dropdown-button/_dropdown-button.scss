@@ -3,8 +3,6 @@
 *******************************************/
 // dropdown block
 .dropdown-menu-block {
-  width: 33%;
-  float: left;
 
   .dropdown-button {
     border: 1px solid $color-concrete;
@@ -13,34 +11,40 @@
     text-decoration: none;
     cursor: pointer;
     font-weight: $font-weight-bold;
+    display: inline-block;
+    position: relative;
     &:hover, &:active {
       border: 1px solid $color-nightsky;
     }
+    .arrow {
+      content: "";
+      position: absolute;
+      pointer-events: none;
+      display: inline-block;
+      right: 14px;
+      top: 12px;
+      &::after {
+        content: "\25BE";
+        height: 1em;
+        font-size: 16px;
+        line-height: 1;
+        position: relative;
+        right: -8;
+        top: 50%;
+        margin-top: -.5em;
+      }
+    }
   }
-  .dropdown-button .arrow {
-    content: "";
-    position: absolute;
-    pointer-events: none;
-    display: inline-block;
-    margin-left: 8px;
+
+  .arrow-down .arrow {
+    transform: rotate(180deg);
   }
-  
-  .dropdown-button .arrow::after { 
-    content: "\25BE";
-    height: 1em;
-    font-size: 16px;
-    line-height: 1;
-    position: relative;
-    right: 0;
-    top: 50%;
-    margin-top: -.5em;
-  }
+
   .dropdown-menu {
     display: none;
-
     .dropdown-search-type {
       position: relative;
-      top: 28px;
+      top: 6px;
       width: 260px;
       height: 236px;
       max-height: 236px;
@@ -58,7 +62,7 @@
     .dropdown-sort {
       min-width: 192px;
       position: relative;
-      top: 28px;
+      top: 6px;
       border-radius: $border-radius-M;
     }
 
