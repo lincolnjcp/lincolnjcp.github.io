@@ -20,7 +20,7 @@ class DropdownButton extends Component {
         return (
             <div id="dropdown-button">
                 <h1 className="title title-XL mrg-L">Dropdown Button</h1>
-                <div className="row medium-12 small-12 large-12 mrg-XL">
+                <div className="row medium-12 small-12 large-12 mrg-XL prevent-event">
                     <div className="dropdown-menu-block small-12 medium-3 large-3 column">
                         <a className="dropdown-button">Product Type <span className="arrow"></span></a>
                         <span className="std-txt-label">Default</span>
@@ -36,6 +36,24 @@ class DropdownButton extends Component {
                     <div className="dropdown-menu-block small-12 medium-3 large-3 column">
                         <a className="dropdown-button disabled">Product Type <span className="arrow"></span></a>
                         <span className="std-txt-label">Disabled</span>
+                    </div>
+                </div>
+                <div className="row medium-12 small-12 large-12 mrg-XL prevent-event">
+                    <div className="dropdown-menu-block small-12 medium-3 large-3 column">
+                        <a className="dropdown-button">Sort by: <span className="sortby">Featured</span> <span className="arrow"></span></a>
+                        <span className="std-txt-label">Default with selected value</span>
+                    </div>
+                    <div className="dropdown-menu-block small-12 medium-3 large-3 column">
+                        <a className="dropdown-button hover">Sort by: <span className="sortby">Featured</span> <span className="arrow"></span></a>
+                        <span className="std-txt-label">Hover with selected value</span>
+                    </div>
+                    <div className="dropdown-menu-block small-12 medium-3 large-3 column">
+                        <a className="dropdown-button hover arrow-down">Sort by: <span className="sortby">Featured</span> <span className="arrow"></span></a>
+                        <span className="std-txt-label">Active with selected value</span>
+                    </div>
+                    <div className="dropdown-menu-block small-12 medium-3 large-3 column">
+                        <a className="dropdown-button">Sort by: <span className="sortby">Ratings High to Low</span> <span className="arrow"></span></a>
+                        <span className="std-txt-label">display text overflows in area</span>
                     </div>
                 </div>
                 <div className="row medium-12 small-12 large-12">

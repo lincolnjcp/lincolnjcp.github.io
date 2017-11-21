@@ -13,6 +13,8 @@
     font-weight: $font-weight-bold;
     display: inline-block;
     position: relative;
+    font-size: 14px;
+    max-width: 220px;
     &:hover, &:active, &.hover {
       border: 1px solid $color-nightsky;
     }
@@ -34,10 +36,22 @@
         margin-top: -.5em;
       }
     }
+    .sortby {
+      display: inline-block;
+      font-weight: normal;
+      max-width: 102px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      position: relative;
+      top: 3px;
+      line-height: 15px;
+    }
   }
 
   .arrow-down .arrow {
     transform: rotate(180deg);
+    top: 13px;
   }
   .disabled, .disabled:hover {
     background: $color-lightgrey;
@@ -79,4 +93,7 @@
       }
     }
   }
+}
+.prevent-event .dropdown-button{
+  pointer-events: none;
 }
