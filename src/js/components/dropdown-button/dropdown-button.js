@@ -26,15 +26,15 @@ class DropdownButton extends Component {
                         <span className="std-txt-label">Default</span>
                     </div>
                     <div className="dropdown-menu-block small-12 medium-3 large-3 column">
-                        <a className="dropdown-button arrow">Product Type <span className="arrow"></span></a>
+                        <a className="dropdown-button hover">Product Type <span className="arrow"></span></a>
                         <span className="std-txt-label">Hover</span>
                     </div>
                     <div className="dropdown-menu-block small-12 medium-3 large-3 column">
-                        <a className="dropdown-button">Product Type <span className="arrow"></span></a>
+                        <a className="dropdown-button hover arrow-down">Product Type <span className="arrow"></span></a>
                         <span className="std-txt-label">Active</span>
                     </div>
                     <div className="dropdown-menu-block small-12 medium-3 large-3 column">
-                        <a className="dropdown-button">Product Type <span className="arrow"></span></a>
+                        <a className="dropdown-button disabled">Product Type <span className="arrow"></span></a>
                         <span className="std-txt-label">Disabled</span>
                     </div>
                 </div>
