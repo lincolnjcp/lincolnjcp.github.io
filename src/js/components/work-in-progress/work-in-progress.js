@@ -1080,7 +1080,7 @@ class WorkInProgress extends Component {
     <p className="S">35 points away from your next $10 reward*</p>
 
     <p className="anno">Tooltips</p>
-
+    <div className="mrg-L fl-left row">
       <div className="tooltip">
         <span>tooltip new tooltip newtooltip newtooltip newtooltip newtooltip newtooltip newtooltip newtooltip newtooltip newtooltip newtooltip newtooltip new</span>
       </div>
@@ -1156,7 +1156,7 @@ class WorkInProgress extends Component {
       <div className="tooltip tooltip-top-right">
         <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.trud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
       </div>
-
+    </div>    
 
 
     <p className="anno">Color Swatches</p>
@@ -1249,6 +1249,80 @@ class WorkInProgress extends Component {
                 </li>
               </ul>
           </div>
+
+          <div className="color-swatches-list">
+              <ul className="list-product-colors-container">
+                <li>
+                  <a href="javascript:void(0)" className="list-color-swatch list-color-swatch-active">
+                    <img src="https://s7d9.scene7.com/is/image/JCPenney/DP0816201717175526S"/>
+                  </a>
+                </li>
+                <li>
+                  <a href="javascript:void(0)" className="list-color-swatch">
+                    <img src="https://s7d9.scene7.com/is/image/JCPenney/DP0801201717175023S"/>
+                  </a>
+                </li>
+                <li>
+                  <a href="javascript:void(0)" className="list-color-swatch">
+                    <img src="https://s7d9.scene7.com/is/image/JCPenney/DP0801201717175123S"/>
+                  </a>
+                </li>
+                <li>
+                  <a href="javascript:void(0)" className="list-color-swatch">
+                    <img src="https://s7d9.scene7.com/is/image/JCPenney/DP0719201704043269S"/>
+                  </a>
+                </li>
+                <li>
+                  <a href="javascript:void(0)" className="list-color-swatch">
+                    <img src="https://s7d9.scene7.com/is/image/JCPenney/DP0801201717175173S"/>
+                  </a>
+                </li>
+                <li>
+                  <a href="javascript:void(0)" className="list-color-swatch">
+                    <img src="https://s7d9.scene7.com/is/image/JCPenney/DP0807201717111344S"/>
+                  </a>
+                </li>
+                <li>
+                  <a href="javascript:void(0)" className="list-color-swatch">
+                    <img src="https://s7d9.scene7.com/is/image/JCPenney/DP0801201717175223S"/>
+                  </a>
+                </li>
+                <li>
+                  <a href="javascript:void(0)" className="list-color-swatch">
+                    <img src="https://s7d9.scene7.com/is/image/JCPenney/DP0807201717111628S"/>
+                  </a>
+                </li>
+                <li>
+                  <a href="javascript:void(0)" className="list-color-swatch">
+                    <img src="https://s7d9.scene7.com/is/image/JCPenney/DP0719201704043369S"/>
+                  </a>
+                </li>
+                <li>
+                  <a href="javascript:void(0)" className="list-color-swatch">
+                    <img src="https://s7d9.scene7.com/is/image/JCPenney/DP0726201717065030S"/>
+                  </a>
+                </li>
+                <li>
+                  <a href="javascript:void(0)" className="list-color-swatch">
+                    <img src="https://s7d9.scene7.com/is/image/JCPenney/DP0807201717111678S"/>
+                  </a>
+                </li>
+                <li>
+                  <a href="javascript:void(0)" className="list-color-swatch">
+                    <img src="https://s7d9.scene7.com/is/image/JCPenney/DP0807201717111357S"/>
+                  </a>
+                </li>
+                <li>
+                  <a href="javascript:void(0)" className="list-color-swatch">
+                    <img src="https://s7d9.scene7.com/is/image/JCPenney/DP0719201704043169S"/>
+                  </a>
+                </li>
+                <li className="swatches-list-icon" dangerouslySetInnerHTML={{ __html: plusImage }} >
+                  
+                </li>
+              </ul>
+          </div>
+
         </div><br/><br/><br/>
 
         <div className="color-swatches-list medium-12 large-12 small-12">
@@ -1389,6 +1463,16 @@ class WorkInProgress extends Component {
         </div>
       </div>
 
+    </div>
+
+    <div className="medium-5 large-5 small-12 column">
+      <h2 className="title title-L mrg-M">Sizing</h2>
+        <div className="toggles-block medium-12 large-12 small-12">
+        <div className="onoffswitch">
+            <input type="checkbox" name="onoffswitch" className="onoffswitch-checkbox" id="myonoffswitch" checked/>
+            <label className="onoffswitch-label" for="myonoffswitch"></label>
+        </div>
+        </div>
     </div>
 
     <p className="anno">Selectors</p>

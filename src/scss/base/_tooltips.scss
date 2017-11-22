@@ -38,6 +38,7 @@
   span{
     display: block;
     max-height: 200px;
+    overflow: auto;
   }
 
   &.tooltip-list{
