@@ -1198,6 +1198,20 @@ class WorkInProgress extends Component {
 
     </div>
 
+    <p className="anno">Pagination</p>
+    <div>
+      <ul className="pagination">
+        <li class="pagination-prev" aria-label="Prev"></li>
+        <li className="pagination-lbl pagination-active">1</li>
+        <li className="pagination-lbl">2</li>
+        <li className="pagination-lbl">3</li>
+        <li className="pagination-lbl">4</li>
+        <li class="pagination-elipsis">...</li>
+        <li class="pagination-lbl">99</li>
+        <li class="pagination-next" aria-label="Next"></li>
+      </ul>
+    </div>
+
 
     <p className="anno">Color Swatches</p>
 
@@ -1364,6 +1378,8 @@ class WorkInProgress extends Component {
           </div>
 
         </div><br/><br/><br/>
+
+
 
         <div className="color-swatches-list medium-12 large-12 small-12">
           <span className="std-txt-label">Small Breakpoint</span>
@@ -1535,6 +1551,9 @@ class WorkInProgress extends Component {
       <li className="selector"><img src="http://placehold.it/88x56"></img></li>
       <li className="selector"><img src="http://placehold.it/88x56"></img></li>
     </ul>
+
+
+
 
     </div>
     </div>
