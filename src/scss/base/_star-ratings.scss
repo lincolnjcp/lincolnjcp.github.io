@@ -1,0 +1,32 @@
+/*******************************************
+/* Star Ratings
+*******************************************/
+
+.star-ratings{
+  margin: 0;
+  padding: 0;
+  position: relative;
+  display: inline-block;
+
+  .star-ratings-value{
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    width: 85%;
+
+    li{
+      color: $color-penneyred;
+    }
+  }
+
+  li{
+    display: inline-block;
+    color: $color-concrete;
+
+    &.star-ratings-total{
+      font-size: 12px;
+      margin-left: 4px;
+    }
+  }
+}

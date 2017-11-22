@@ -1213,6 +1213,28 @@ class WorkInProgress extends Component {
     </div>
 
 
+    <p className="anno">Star Ratings</p>
+    <div>
+      <ul className="star-ratings">
+        <li className="star-ratings-value">
+          <ul>
+            <li>★</li>
+            <li>★</li>
+            <li>★</li>
+            <li>★</li>
+            <li>★</li>
+          </ul>
+        </li>
+        <li>★</li>
+        <li>★</li>
+        <li>★</li>
+        <li>★</li>
+        <li>★</li>
+        <li className="star-ratings-total"><a href="#">(14)</a></li>
+      </ul>
+    </div>
+
+
     <p className="anno">Color Swatches</p>
 
     <div className="color-swatches-block mrg-L fl-left">
