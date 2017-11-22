@@ -40,6 +40,7 @@
   color: $color-slate;
   cursor: not-allowed;
   box-shadow: none;
+  border-radius: 0;
 
   &:hover{
     background-color: $color-lightgrey;
