@@ -730,6 +730,9 @@ class WorkInProgress extends Component {
         <li className="tab-lbl">
           <span>Tab 3</span>
         </li>
+        <li className="tab-lbl tab-lbl-disabled" disabled="true">
+          <span>Tab Disabled</span>
+        </li>
       </ul>
     </div>
 
@@ -1073,14 +1076,14 @@ class WorkInProgress extends Component {
 
     <hr></hr>
     <p className="std-txt std-txt-M color-nightsky">Points</p>
-    <div className="tooltip tooltip-bot-right color-rewards-grape-bg">$10 reward</div>
+    <div className="tooltip tooltip-bottom-right tooltip-single color-rewards-grape-bg">$10 reward</div>
     <br></br>
     <br></br>
     <div className="progress-bar progress-bar-rewards">
       <span className="progress-bar-max-points">200</span>
       <div className="progress-bar-percent">165</div>
     </div>
-    <p className="S">35 points away from your next $10 reward*</p>
+    <p className="S"><strong>35 points</strong> away from your next <strong>$10 reward*</strong></p>
 
     <p className="anno">Tooltips</p>
     <div className="mrg-L row">

@@ -57,6 +57,7 @@ html {
   -ms-text-size-adjust: 100%;
 }
 
+// Global focus styling
 *:focus{
   outline: 2px dashed $color-neutral-type;
 }

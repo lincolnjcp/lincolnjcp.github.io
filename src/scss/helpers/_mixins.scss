@@ -34,6 +34,19 @@
          box-sizing: border-box;
 }
 
+@mixin disabled{
+  background-color: $color-lightgrey;
+  border: 1px dashed $color-concrete;
+  color: $color-slate;
+  cursor: not-allowed;
+  box-shadow: none;
+
+  &:hover{
+    background-color: $color-lightgrey;
+    border-radius: 0;
+    text-decoration: none;
+  }
+}
 /***************************************************
 /* Elevation
 /* Box shadows for buttons, dropdowns, etc

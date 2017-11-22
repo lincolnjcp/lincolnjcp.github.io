@@ -72,19 +72,7 @@ button{
   // Disabled
   &:disabled,
   &.btn-disabled{
-    background-color: $color-lightgrey;
-    border: 1px dashed $color-concrete;
-    color: $color-slate;
-    cursor: not-allowed;
-    box-shadow: none;
-    border-radius: 0;
-
-    &:hover{
-      background-color: $color-lightgrey;
-      border-radius: $border-radius-M;
-      border-radius: 0;
-      text-decoration: none;
-    }
+    @include disabled;
   }
 
   // Button Sizes
