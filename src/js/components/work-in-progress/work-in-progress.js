@@ -719,13 +719,16 @@ class WorkInProgress extends Component {
 
 
     <p className="anno">Tabs</p>
-    <div>
-      <ul className="tabs">
-        <li className="tab-section mrg-rght-S">
-          tab
+    <div className="tab-container">
+      <ul className="tab-header">
+        <li className="tab-lbl tab-lbl-active">
+          <span>Tab 1</span>
         </li>
-        <li className="tab-section mrg-rght-S">
-          tab
+        <li className="tab-lbl">
+          <span>Tab 2</span>
+        </li>
+        <li className="tab-lbl">
+          <span>Tab 3</span>
         </li>
       </ul>
     </div>
