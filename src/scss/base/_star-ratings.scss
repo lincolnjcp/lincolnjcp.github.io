@@ -7,6 +7,7 @@
   padding: 0;
   position: relative;
   display: inline-block;
+  font-size: 14px;
 
   .star-ratings-value{
     position: absolute;
@@ -25,8 +26,16 @@
     color: $color-concrete;
 
     &.star-ratings-total{
-      font-size: 12px;
+      font-size: 10px;
       margin-left: 4px;
+    }
+  }
+
+  // large version of star ratings
+  &.star-ratings-L{
+    font-size: 16px;
+    .star-ratings-total{
+      font-size: 12px;
     }
   }
 }
