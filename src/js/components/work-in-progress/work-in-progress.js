@@ -1176,6 +1176,19 @@ class WorkInProgress extends Component {
           <span>Multi-line tooltips have 16px of padding. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.Multi-line tooltips have 16px of padding. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.</span>
         </div>
 
+        <br></br>
+        <br></br>
+
+        <div className="tooltip tooltip-right-side">
+          <div className="tooltip-close">
+
+          </div>
+          <span>
+            <h1 className="title title-M mrg-S">This is a Tooltip H1 Title</h1>
+            <input type="radio" id="tooltip-radio" name="tootlip-radio" />
+            <label for="tooltip-radio">Vanilla label</label>
+          </span>
+        </div>
 
     </div>
 
