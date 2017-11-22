@@ -1082,80 +1082,100 @@ class WorkInProgress extends Component {
     <p className="anno">Tooltips</p>
 
       <div className="tooltip">
-        <span>tooltip new tooltip newtooltip newtooltip newtooltip newtooltip newtooltip newtooltip newtooltip newtooltip newtooltip newtooltip newtooltip new</span>
+        <span>Multi-line tooltips have 16px of padding. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.</span>
       </div>
 
-      <h2>tooltip single</h2>
+      <br></br>
 
       <div className="tooltip tooltip-single">
         <span>tooltip tooltip new</span>
       </div>
 
-      <h2>tooltip right side</h2>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
 
       <div className="tooltip tooltip-single tooltip-right-side">
         <span>tooltip right side</span>
       </div>
 
-      <h2>tooltip left side</h2>
+      <br></br>
+      <br></br>
 
       <div className="tooltip tooltip-single tooltip-left-side">
         <span>tooltip left side</span>
       </div>
 
-      <h2>bottom center</h2>
+      <br></br>
 
       <div className="tooltip tooltip-bottom-center">
-        <span>tooltip new tooltip newtooltip newtooltip newtooltip newtooltip newtooltip newtooltip newtooltip newtooltip newtooltip newtooltip newtooltip new</span>
+        <span>Multi-line tooltips have 16px of padding. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.</span>
       </div>
 
-      <h2>bottom right</h2>
+      <br></br>
 
       <div className="tooltip tooltip-bottom-right">
-        <span>tooltip new tooltip newtooltip newtooltip newtooltip newtooltip newtooltip newtooltip newtooltip newtooltip newtooltip newtooltip newtooltip new</span>
+        <span>Multi-line tooltips have 16px of padding. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.</span>
       </div>
 
-      <h2>top left</h2>
+      <br></br>
 
       <div className="tooltip tooltip-top-left">
-        <span>tooltip new tooltip newtooltip newtooltip newtooltip newtooltip newtooltip newtooltip newtooltip newtooltip newtooltip newtooltip newtooltip new</span>
+        <span>Multi-line tooltips have 16px of padding. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.</span>
       </div>
 
-      <h2>dark tooltip</h2>
+      <br></br>
 
       <div className="tooltip tooltip-dark">
-        <span>tooltip new tooltip newtooltip newtooltip oltip new tooltip newtooltip newtooltip oltip new tooltip newtooltip newtooltip oltip new tooltip newtooltip newtooltip oltip new tooltip newtooltip newtooltip oltip new tooltip newtooltip newtooltip oltip new tooltip newtooltip newtooltip oltip new tooltip newtooltip newtooltip newtooltip newtooltip newtooltip newtooltip newtooltip newtooltip newtooltip newtooltip newtooltip new</span>
+        <span>Multi-line tooltips have 16px of padding. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.</span>
       </div>
 
-      <h2>top center</h2>
+      <br></br>
 
       <div className="tooltip tooltip-top-center">
-        <span>tooltip new tooltip newtooltip newtooltip oltip new tooltip newtooltip newtooltip oltip new tooltip newtooltip newtooltip oltip new tooltip newtooltip newtooltip oltip new tooltip newtooltip newtooltip oltip new tooltip newtooltip newtooltip oltip new tooltip newtooltip newtooltip oltip new tooltip newtooltip newtooltip newtooltip newtooltip newtooltip newtooltip newtooltip newtooltip newtooltip newtooltip newtooltip new</span>
+        <span>Multi-line tooltips have 16px of padding. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.</span>
       </div>
 
-      <h2>tooltip top right</h2>
+      <br></br>
 
       <div className="tooltip tooltip-top-right">
-        <span>tooltip new tooltip newtooltip newtooltip oltip new tooltip newtooltip newtooltip oltip new tooltip newtooltip newtooltip oltip new tooltip newtooltip newtooltip oltip new tooltip newtooltip newtooltip oltip new tooltip newtooltip newtooltip oltip new tooltip newtooltip newtooltip oltip new tooltip newtooltip newtooltip newtooltip newtooltip newtooltip newtooltip newtooltip newtooltip newtooltip newtooltip newtooltip new</span>
+        <span>Multi-line tooltips have 16px of padding. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.</span>
       </div>
 
-      <h2>tooltip top right list</h2>
+      <br></br>
 
-      <div className="tooltip tooltip-top-right tooltip-list">
+      <div className="tooltip tooltip-top-right tooltip-long tooltip-list">
         <ul>
-          <li><a href="#">link</a></li>
-          <li><a href="#">link</a></li>
-          <li><a href="#">link</a></li>
-          <li><a href="#">link</a></li>
-          <li><a href="#">link</a></li>
+          <li><a href="#">My Account</a></li>
+          <li><a href="#">My Rewards</a></li>
+          <li><a href="#">My Orders</a></li>
+          <li><a href="#">My Rewards (0)</a></li>
+          <li><a href="#">My List</a></li>
+          <li><a href="#">Profile Settings</a></li>
+          <li><a href="#">Nofications</a></li>
+          <li><a href="#">My JCPenney.com</a></li>
+          <li><a href="#">Gift Registry</a></li>
+          <li><a href="#">JCPenney Credit Card</a></li>
+          <li className="tooltip-divider"><a href="#">Sign Out</a></li>
         </ul>
       </div>
 
-      <h2>tooltip scroll bar</h2>
+      <br></br>
 
       <div className="tooltip tooltip-top-right">
-        <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.trud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+        <span>
+          <h1 className="title title-M mrg-S">This is a Tooltip H1 Title</h1>
+          Multi-line tooltips have 16px of padding. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.Multi-line tooltips have 16px of padding. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.</span>
       </div>
+
+      <br></br>
+      <br></br>
+
+        <div className="tooltip tooltip-dark tooltip-top-right">
+          <span>Multi-line tooltips have 16px of padding. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.Multi-line tooltips have 16px of padding. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.</span>
+        </div>
+
 
 
 
@@ -1245,7 +1265,7 @@ class WorkInProgress extends Component {
                   <a href="javascript:void(0)" className="list-color-swatch"></a>
                 </li>
                 <li className="swatches-list-icon" dangerouslySetInnerHTML={{ __html: plusImage }} >
-                  
+
                 </li>
               </ul>
           </div>
@@ -1286,7 +1306,7 @@ class WorkInProgress extends Component {
               </ul>
           </div>
         </div><br/><br/><br/>
-        
+
         <div className="color-swatches-list medium-12 large-12 small-12">
           <div className="color-swatches-list-label">
             <p className="medium-6 small-6 large-6 column">
