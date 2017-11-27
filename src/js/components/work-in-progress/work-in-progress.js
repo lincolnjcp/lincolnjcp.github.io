@@ -8,6 +8,9 @@ const trianglerightImage = require('!!raw-loader?es5=1!../../../images/global/ic
 const thumbsupfillImage = require('!!raw-loader?es5=1!../../../images/global/icons/action/thumbsup-fill.svg');
 const heartlineImage = require('!!raw-loader?es5=1!../../../images/global/icons/action/heart-line.svg');
 const plusImage = require('!!raw-loader?es5=1!../../../images/global/icons/nav/plus.svg');
+const gridfillImage = require('!!raw-loader?es5=1!../../../images/global/icons/action/grid-fill.svg');
+const listLineImage = require('!!raw-loader?es5=1!../../../images/global/icons/action/list-line.svg');
+const listLineImageFill = require('!!raw-loader?es5=1!../../../images/global/icons/action/list-fill.svg');
 
 class WorkInProgress extends Component {
 
@@ -718,8 +721,8 @@ class WorkInProgress extends Component {
     </div>
 
 
-    <p className="anno">Tabs</p>
-    <div className="tab-container">
+    <h2 className="title title-L mrg-M">Tabs</h2>
+    <div className="tab-container mrg-XL">
       <ul className="tab-header">
         <li className="tab-lbl tab-lbl-active">
           <span>Tab 1</span>
@@ -736,6 +739,97 @@ class WorkInProgress extends Component {
       </ul>
     </div>
 
+    <div className="medium-12 large-12 small-12 column mrg-XL">
+      <h2 className="title title-L mrg-M">Switch</h2>
+        <div className="switch-block medium-12 large-12 small-12">
+          <div className="medium-4 large-4 small-12 fl-left">
+            <div className="onoffswitch mrg-XL fl-left">
+                <input type="checkbox" name="onoffswitch" className="onoffswitch-checkbox" id="onoffswitch-off"/>
+                <label className="onoffswitch-label" htmlFor="onoffswitch-off"></label>
+            </div>
+            <div className="std-txt-label">Off</div>
+            <div className="onoffswitch mrg-XL fl-left">
+                <input type="checkbox" name="onoffswitch" className="onoffswitch-checkbox" id="onoffswitch-offHover"/>
+                <label className="onoffswitch-label hover" htmlFor="onoffswitch-offHover"></label>
+            </div>
+            <div className="std-txt-label">Off Hover</div>
+            <div className="onoffswitch mrg-XL fl-left">
+                <input type="checkbox" name="onoffswitch" className="onoffswitch-checkbox" id="onoffswitch-on" checked="true"/>
+                <label className="onoffswitch-label" htmlFor="onoffswitch-on"></label>
+            </div>
+            <div className="std-txt-label">On</div>
+            <div className="onoffswitch mrg-XL fl-left">
+                <input type="checkbox" name="onoffswitch" className="onoffswitch-checkbox" id="onoffswitch-onHover" checked="true"/>
+                <label className="onoffswitch-label hover" htmlFor="onoffswitch-onHover"></label>
+            </div>
+            <div className="std-txt-label">On Hover</div>
+          </div>
+          <div className="medium-4 large-4 small-12 fl-left">
+            <div className="onoffswitch mrg-XL fl-left">
+                <input type="checkbox" name="onoffswitch" className="onoffswitch-checkbox" id="onoffswitch-disabledOff" disabled="true"/>
+                <label className="onoffswitch-label disabled" htmlFor="onoffswitch-disabledOff"></label>
+            </div>
+            <div className="std-txt-label">Disabled Off</div>
+            <div className="onoffswitch mrg-XL fl-left">
+                <input type="checkbox" name="onoffswitch" className="onoffswitch-checkbox" id="onoffswitch-disabledOn" checked="true"/>
+                <label className="onoffswitch-label disabled" htmlFor="onoffswitch-disabledOn"></label>
+            </div>
+            <div className="std-txt-label">Disabled On</div>
+          </div>
+        </div>
+    </div>
+    
+    <div className="medium-12 large-12 small-12 column mrg-XL">
+      <h2 className="title title-L mrg-M">Button Group</h2>
+      <div className="btn-group-block medium-12 large-12 small-12">
+        <div class="btn-group" role="group">
+          <button type="button" class="btn btn-secondary active">Tab 1</button>
+          <button type="button" class="btn btn-secondary">Tab 2</button>
+          <button type="button" class="btn btn-secondary hover">Tab 3</button>
+          <button type="button" class="btn btn-secondary disabled">Tab 4</button>
+        </div>
+        <ul className="std-txt-label">
+          <li>Active</li>
+          <li>Default</li>
+          <li>Hover</li>
+          <li>Disabled</li>
+        </ul>
+      </div>
+    </div>
+
+    <div className="medium-12 large-12 small-12 column mrg-XL">
+      <h2 className="title title-L mrg-M">Icon Group</h2>
+      <div className="icon-group-block medium-12 large-12 small-12">
+        <div class="icon-group" role="group">
+          <ul>
+            <li>
+              <span className="icon color-shadow-svg" dangerouslySetInnerHTML={{__html: gridfillImage}} />
+              <span className="std-txt-label">&nbsp;</span>
+            </li>
+            <li className="mrg-rght-XL">
+              <span className="icon color-shadow-svg" dangerouslySetInnerHTML={{__html: listLineImage}} />
+              <span className="std-txt-label">&nbsp;</span>
+            </li>
+            <li className="mrg-lft-XL mrg-rght-L">
+              <span className="icon color-shadow-svg" dangerouslySetInnerHTML={{__html: listLineImageFill}} />
+              <span className="std-txt-label">Active</span>
+            </li>
+            <li className="mrg-lft-L mrg-rght-L">
+              <span className="icon color-shadow-svg" dangerouslySetInnerHTML={{__html: listLineImage}} />
+              <span className="std-txt-label">Default</span>
+            </li>
+            <li className="mrg-lft-L mrg-rght-L">
+              <span className="icon color-shadow-svg" dangerouslySetInnerHTML={{__html: listLineImageFill}} />
+              <span className="std-txt-label">Hover</span>
+            </li>
+            <li className="mrg-lft-L mrg-rght-L">
+              <span className="icon color-shadow-svg disabled" dangerouslySetInnerHTML={{__html: listLineImageFill}} />
+              <span className="std-txt-label">Disabled</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
 
     <p className="anno">Or - horizontal line break</p>
     <div className="or"></div>
@@ -1616,13 +1710,43 @@ class WorkInProgress extends Component {
 
     </div>
 
-    <div className="medium-5 large-5 small-12 column">
-      <h2 className="title title-L mrg-M">Sizing</h2>
+    <div className="medium-12 large-12 small-12 column mrg-XL">
+      <h2 className="title title-L mrg-M">Switch</h2>
         <div className="toggles-block medium-12 large-12 small-12">
-        <div className="onoffswitch">
-            <input type="checkbox" name="onoffswitch" className="onoffswitch-checkbox" id="myonoffswitch" checked/>
-            <label className="onoffswitch-label" for="myonoffswitch"></label>
-        </div>
+          <div className="medium-4 large-4 small-12 fl-left">
+            <div className="onoffswitch mrg-XL fl-left">
+                <input type="checkbox" name="onoffswitch" className="onoffswitch-checkbox" id="onoffswitch-off"/>
+                <label className="onoffswitch-label" htmlFor="onoffswitch-off"></label>
+            </div>
+            <div className="std-txt-label">Off</div>
+            <div className="onoffswitch mrg-XL fl-left">
+                <input type="checkbox" name="onoffswitch" className="onoffswitch-checkbox" id="onoffswitch-offHover"/>
+                <label className="onoffswitch-label hover" htmlFor="onoffswitch-offHover"></label>
+            </div>
+            <div className="std-txt-label">Off Hover</div>
+            <div className="onoffswitch mrg-XL fl-left">
+                <input type="checkbox" name="onoffswitch" className="onoffswitch-checkbox" id="onoffswitch-on" checked="true"/>
+                <label className="onoffswitch-label" htmlFor="onoffswitch-on"></label>
+            </div>
+            <div className="std-txt-label">On</div>
+            <div className="onoffswitch mrg-XL fl-left">
+                <input type="checkbox" name="onoffswitch" className="onoffswitch-checkbox" id="onoffswitch-onHover" checked="true"/>
+                <label className="onoffswitch-label hover" htmlFor="onoffswitch-onHover"></label>
+            </div>
+            <div className="std-txt-label">On Hover</div>
+          </div>
+          <div className="medium-4 large-4 small-12 fl-left">
+            <div className="onoffswitch mrg-XL fl-left">
+                <input type="checkbox" name="onoffswitch" className="onoffswitch-checkbox" id="onoffswitch-off"/>
+                <label className="onoffswitch-label" htmlFor="onoffswitch-off"></label>
+            </div>
+            <div className="std-txt-label">Off</div>
+            <div className="onoffswitch mrg-XL fl-left">
+                <input type="checkbox" name="onoffswitch" className="onoffswitch-checkbox" id="onoffswitch-offHover"/>
+                <label className="onoffswitch-label hover" htmlFor="onoffswitch-offHover"></label>
+            </div>
+            <div className="std-txt-label">Off</div>
+          </div>
         </div>
     </div>
 
