@@ -1076,7 +1076,7 @@ class WorkInProgress extends Component {
 
     <hr></hr>
     <p className="std-txt std-txt-M color-nightsky">Points</p>
-    <div className="tooltip tooltip-bottom-right tooltip-single color-rewards-grape-bg">$10 reward</div>
+    <div className="tooltip tooltip-bottom-center tooltip-single">$10</div>
     <br></br>
     <br></br>
     <div className="progress-bar progress-bar-rewards">
@@ -1256,6 +1256,55 @@ class WorkInProgress extends Component {
       </ul>
     </div>
 
+    <p className="anno">Visual Nav</p>
+    <ul className="viz-nav">
+      <li>
+        <a href="#">
+          <div className="viz-nav-img mrg-S">
+            <img src="https://media.endclothing.com/media/catalog/product/cache/small_image/400x400/beff4985b56e3afdbeabfc89641a4582/2/5/25-03-2017_vanquish_fadedslimjean_washedindigo_vjp4025-036_tc_1.jpg" alt="" />
+          </div>
+          <h2 className="title title-M mrg-XS algn-mid">Liz Claiborne</h2>
+          <p className="std-txt std-txt-M algn-mid">(627)</p>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <div className="viz-nav-img mrg-S">
+            <img src="https://media.endclothing.com/media/catalog/product/cache/small_image/400x400/beff4985b56e3afdbeabfc89641a4582/2/5/25-03-2017_vanquish_fadedslimjean_washedindigo_vjp4025-036_tc_1.jpg" alt="" />
+          </div>
+          <h2 className="title title-M mrg-XS algn-mid">Liz Claiborne</h2>
+          <p className="std-txt std-txt-M algn-mid">(627)</p>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <div className="viz-nav-img mrg-S">
+            <img src="https://media.endclothing.com/media/catalog/product/cache/small_image/400x400/beff4985b56e3afdbeabfc89641a4582/2/5/25-03-2017_vanquish_fadedslimjean_washedindigo_vjp4025-036_tc_1.jpg" alt="" />
+          </div>
+          <h2 className="title title-M mrg-XS algn-mid">Liz Claiborne</h2>
+          <p className="std-txt std-txt-M algn-mid">(627)</p>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <div className="viz-nav-img mrg-S">
+            <img src="https://media.endclothing.com/media/catalog/product/cache/small_image/400x400/beff4985b56e3afdbeabfc89641a4582/2/5/25-03-2017_vanquish_fadedslimjean_washedindigo_vjp4025-036_tc_1.jpg" alt="" />
+          </div>
+          <h2 className="title title-M mrg-XS algn-mid">Liz Claiborne</h2>
+          <p className="std-txt std-txt-M algn-mid">(627)</p>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <div className="viz-nav-img mrg-S">
+            <img src="https://media.endclothing.com/media/catalog/product/cache/small_image/400x400/beff4985b56e3afdbeabfc89641a4582/2/5/25-03-2017_vanquish_fadedslimjean_washedindigo_vjp4025-036_tc_1.jpg" alt="" />
+          </div>
+          <h2 className="title title-M mrg-XS algn-mid">Liz Claiborne</h2>
+          <p className="std-txt std-txt-M algn-mid">(627)</p>
+        </a>
+      </li>
+    </ul>
+
 
     <p className="anno">Color Swatches</p>
 
@@ -1424,6 +1473,8 @@ class WorkInProgress extends Component {
         </div><br/><br/><br/>
 
 
+
+        <br/><br/><br/>
 
         <div className="color-swatches-list medium-12 large-12 small-12">
           <span className="std-txt-label">Small Breakpoint</span>
