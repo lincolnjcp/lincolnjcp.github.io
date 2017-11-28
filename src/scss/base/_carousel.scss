@@ -1,0 +1,49 @@
+/***************************************************
+/* Carousel
+***************************************************/
+
+.carousel-block {
+  
+  .carousel-hero-img li {
+    padding: 2px;
+    margin: 4px 0;
+    width: 72px;
+    max-height: 72px;
+    cursor: pointer;
+    &.active {
+      border: 2px solid $color-nightsky;
+    }
+    .icon {
+      margin: 0 auto;
+      display: block;
+      width: 32px;
+      height: 32px;
+      svg {
+        width: 32px;
+        height: 32px;
+      }
+    }
+    &:first-child, &:last-child {
+      padding: 0;
+      margin: 0;
+    }
+  }
+  .carousel-main-img {
+    position: relative;
+    img {
+      width: 500px;
+      height: 500px;
+    }
+    .badge {
+      position: absolute;
+      background: rgba(204, 0, 0, 0.85);
+      color: $color-white;
+      padding: 6px 8px;
+      border-radius: 14px;
+      font-size: 12px;
+      left: 6px;
+      top: 6px;
+      border: 1px solid $color-white;
+    }
+  }
+}

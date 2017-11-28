@@ -11,6 +11,8 @@ const plusImage = require('!!raw-loader?es5=1!../../../images/global/icons/nav/p
 const gridfillImage = require('!!raw-loader?es5=1!../../../images/global/icons/action/grid-fill.svg');
 const listLineImage = require('!!raw-loader?es5=1!../../../images/global/icons/action/list-line.svg');
 const listLineImageFill = require('!!raw-loader?es5=1!../../../images/global/icons/action/list-fill.svg');
+const ChevronUpImage = require('!!raw-loader?es5=1!../../../images/global/icons/nav/chevron-up.svg');
+const ChevronDownImage = require('!!raw-loader?es5=1!../../../images/global/icons/nav/chevron-down.svg');
 
 class WorkInProgress extends Component {
 
@@ -830,6 +832,41 @@ class WorkInProgress extends Component {
         </div>
       </div>
     </div>
+
+    <div className="medium-12 large-12 small-12 column mrg-XL">
+      <h2 className="title title-L mrg-M">PDP Carousels & Video Player</h2>
+      <div className="carousel-block medium-12 large-12 small-12">
+        <div className="carousel-container medium-8 large-8">
+          <div className="carousel-hero-img medium-2 large-2 column">
+            <ul>
+              <li>
+                <span className="icon color-shadow-svg" dangerouslySetInnerHTML={{__html: ChevronUpImage}} />
+              </li>
+              <li className="active">
+                <img src="https://s7d9.scene7.com/is/image/JCPenney/DP0726201617201191M?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2"/>
+              </li>
+              <li>
+                <img src="https://s7d9.scene7.com/is/image/JCPenney/DP0913201618055525M.tif?$gallery$"/>
+              </li>
+              <li>
+                <img src="https://s7d9.scene7.com/is/image/JCPenney/DP0607201617024741M.tif?$gallery$"/>
+              </li>
+              <li>
+                <img src="https://s7d9.scene7.com/is/image/JCPenney/DP0615201717271938M.tif?$gallery$"/>
+              </li>
+              <li>
+                <span className="icon color-shadow-svg" dangerouslySetInnerHTML={{__html: ChevronDownImage}} />
+              </li>
+            </ul>
+          </div>
+          <div className="carousel-main-img medium-10 large-10 column">
+            <span className="badge">LOW STOCK</span>
+            <img src="https://s7d9.scene7.com/is/image/JCPenney/DP0726201617201191M?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2"/>
+          </div>
+        </div>
+      </div>
+    </div>
+
 
     <p className="anno">Or - horizontal line break</p>
     <div className="or"></div>
@@ -1708,46 +1745,6 @@ class WorkInProgress extends Component {
         </div>
       </div>
 
-    </div>
-
-    <div className="medium-12 large-12 small-12 column mrg-XL">
-      <h2 className="title title-L mrg-M">Switch</h2>
-        <div className="toggles-block medium-12 large-12 small-12">
-          <div className="medium-4 large-4 small-12 fl-left">
-            <div className="onoffswitch mrg-XL fl-left">
-                <input type="checkbox" name="onoffswitch" className="onoffswitch-checkbox" id="onoffswitch-off"/>
-                <label className="onoffswitch-label" htmlFor="onoffswitch-off"></label>
-            </div>
-            <div className="std-txt-label">Off</div>
-            <div className="onoffswitch mrg-XL fl-left">
-                <input type="checkbox" name="onoffswitch" className="onoffswitch-checkbox" id="onoffswitch-offHover"/>
-                <label className="onoffswitch-label hover" htmlFor="onoffswitch-offHover"></label>
-            </div>
-            <div className="std-txt-label">Off Hover</div>
-            <div className="onoffswitch mrg-XL fl-left">
-                <input type="checkbox" name="onoffswitch" className="onoffswitch-checkbox" id="onoffswitch-on" checked="true"/>
-                <label className="onoffswitch-label" htmlFor="onoffswitch-on"></label>
-            </div>
-            <div className="std-txt-label">On</div>
-            <div className="onoffswitch mrg-XL fl-left">
-                <input type="checkbox" name="onoffswitch" className="onoffswitch-checkbox" id="onoffswitch-onHover" checked="true"/>
-                <label className="onoffswitch-label hover" htmlFor="onoffswitch-onHover"></label>
-            </div>
-            <div className="std-txt-label">On Hover</div>
-          </div>
-          <div className="medium-4 large-4 small-12 fl-left">
-            <div className="onoffswitch mrg-XL fl-left">
-                <input type="checkbox" name="onoffswitch" className="onoffswitch-checkbox" id="onoffswitch-off"/>
-                <label className="onoffswitch-label" htmlFor="onoffswitch-off"></label>
-            </div>
-            <div className="std-txt-label">Off</div>
-            <div className="onoffswitch mrg-XL fl-left">
-                <input type="checkbox" name="onoffswitch" className="onoffswitch-checkbox" id="onoffswitch-offHover"/>
-                <label className="onoffswitch-label hover" htmlFor="onoffswitch-offHover"></label>
-            </div>
-            <div className="std-txt-label">Off</div>
-          </div>
-        </div>
     </div>
 
     <p className="anno">Selectors</p>
