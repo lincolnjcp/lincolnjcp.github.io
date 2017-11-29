@@ -835,11 +835,11 @@ class WorkInProgress extends Component {
 
     <div className="medium-12 large-12 small-12 column mrg-XL">
       <h2 className="title title-L mrg-M">PDP Carousels & Video Player</h2>
-      <div className="carousel-block medium-12 large-12 small-12">
-        <div className="carousel-container medium-8 large-8">
+      <div className="carousel-block medium-12 large-12 small-12 mrg-XL column">
+        <div className="carousel-container medium-8 large-8 column">
           <div className="carousel-hero-img medium-2 large-2 column">
             <ul>
-              <li>
+              <li className="visible-hide">
                 <span className="icon color-shadow-svg" dangerouslySetInnerHTML={{__html: ChevronUpImage}} />
               </li>
               <li className="active">
@@ -864,7 +864,47 @@ class WorkInProgress extends Component {
             <img src="https://s7d9.scene7.com/is/image/JCPenney/DP0726201617201191M?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2"/>
           </div>
         </div>
+      </div><br/><br/>
+
+      <div className="carousel-block medium-12 large-12 small-12 mrg-XL column">
+        <div className="carousel-container medium-8 large-8 column">
+          <div className="carousel-hero-img medium-2 large-2 column">
+            <ul>
+              <li>
+                <span className="icon color-shadow-svg" dangerouslySetInnerHTML={{__html: ChevronUpImage}} />
+              </li>
+              <li>
+                <img src="https://s7d9.scene7.com/is/image/JCPenney/DP0926201617173470M"/>
+              </li>
+              <li>
+                <img src="https://s7d9.scene7.com/is/image/JCPenney/DP0731201517030883M"/>
+              </li>
+              <li className="active">
+                <img src="https://s7d9.scene7.com/is/image/JCPenney/DP1107201420322726C?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2"/>
+              </li>
+              <li>
+                <span className="play-button"></span>
+                <img src="https://s7d9.scene7.com/is/image/JCPenney/DP0725201211262144C?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2"/>
+              </li>
+              <li className="visible-hide">
+                <span className="icon color-shadow-svg" dangerouslySetInnerHTML={{__html: ChevronDownImage}} />
+              </li>
+            </ul>
+          </div>
+          <div className="carousel-main-img medium-10 large-10 column">
+            <span className="badge">LOW STOCK</span>
+            <img src="https://s7d9.scene7.com/is/image/JCPenney/DP0926201617173470M"/>
+          </div>
+        </div>
+      </div><br/><br/>
+
+      <div className="carousel-block medium-12 large-12 small-12 mrg-XL column">
+        <div className="carousel-main-img badge carousel-main-img-md">
+          <span className="badge">LOW STOCK</span>
+          <img src="http://s7d9.scene7.com/is/image/JCPenney/DP1107201420322726C?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2"/>
+        </div>
       </div>
+
     </div>
 
 
