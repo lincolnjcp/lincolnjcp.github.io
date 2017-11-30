@@ -48,6 +48,26 @@ module.exports = {
         query: {
           presets: ["es2015"]
         }
+      }, {
+        test: /\.pcss$/,
+        // include: '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/scss',
+        loader: ExtractTextPlugin.extract('style-loader', [
+            `resolve-url-loader?${
+              JSON.stringify({
+                silent: true
+              })}`,
+            `css-loader?${
+              JSON.stringify({
+                importLoaders: 1,
+                sourceMap: true,
+                modules: true,
+                isDebug: true,
+                minimize: false,
+                localIndentName: "[name]-[local]-[hash:base64:5]"
+              })}`,
+            'postcss-loader'
+          ].join("!")
+        )
       }
 
     ],
@@ -74,11 +94,15 @@ module.exports = {
       filename: '[name].css',
       allChunks: true,
     }),*/
+    new ExtractTextPlugin("styles.css", {
+      allChunks: true
+    }),
     new CopyWebpackPlugin([{
       from: 'src/index.html'
     }, {
       from: 'src/images',
       to: 'images'
     }, ])
-  ]
+  ],
+  
 }
