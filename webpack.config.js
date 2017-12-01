@@ -1,84 +1,111 @@
-const HtmlWebpackInlineSVGPlugin = require('html-webpack-inline-svg-plugin');
-var CopyWebpackPlugin = require('copy-webpack-plugin');
-var ExtractTextPlugin = require('extract-text-webpack-plugin');
+const path = require('path');
+const webpack = require('webpack');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+const ExtractTextPlugin = require('extract-text-webpack-plugin');
+const PreloadWebpackPlugin = require('preload-webpack-plugin');
+const ScriptExtHtmlWebpackPlugin = require('script-ext-html-webpack-plugin');
+const StyleExtHtmlWebpackPlugin = require('style-ext-html-webpack-plugin');
+const CompressionPlugin = require('compression-webpack-plugin');
+const autoprefixer = require('autoprefixer');
 
-const webpack = require('webpack')
-const path = require('path')
-
-var BUILD_DIR = path.resolve(__dirname);
-var APP_DIR = path.resolve(__dirname, 'src');
+const sourcePath = path.join(__dirname, 'src');
+const staticSourcePath = path.join(sourcePath, 'scss');
+const buildPath = path.join(__dirname, 'dist');
 
 module.exports = {
-  devtool: 'source-map',
-  entry: {
-    'bundle': [
-      'babel-polyfill',
-      'react-hot-loader/patch',
-      APP_DIR+'/js/index.jsx'
-    ]
-  },
-  output: {
-    path: BUILD_DIR,
-    filename: '[name].js'
-  },
-  module: {
-    loaders: [{
-        test: /\.jsx$/,
-        loader: 'babel-loader',
-        query: {
-          presets: ['babel-loader']
-        }
-      }, {
-        test: /\.js$/,
-        exclude: /node_modules/,
-        loader: 'babel-loader',
-        query: {
-          presets: ['es2015', 'react']
-        }
-      }, {
-        test: /\.svg$/,
-        loader: 'svg-url-loader'
-      }, {
-        test: /\.css$/,
-        use: ['style-loader', 'css-loader']
-      }, {
-        test: /\.es6$/,
-        exclude: /node_modules/,
-        loader: "babel-loader",
-        query: {
-          presets: ["es2015"]
-        }
-      }
-
+    devtool: 'cheap-module-source-map',
+    entry: {
+        base: path.resolve(staticSourcePath, 'test.scss'),
+        app: path.resolve(sourcePath, 'js/index.jsx')
+    },
+    output: {
+        path: path.join(__dirname, 'dist'),
+        filename: '[name].[chunkhash].js',
+        publicPath: '/'
+    },
+    resolve: {
+        extensions: ['.webpack-loader.js', '.web-loader.js', '.loader.js', '.js', '.jsx'],
+        modules: [
+            sourcePath,
+            path.resolve(__dirname, 'node_modules')
+        ]
+    },
+    plugins: [
+        new webpack.DefinePlugin({
+            'process.env.NODE_ENV': JSON.stringify('production')
+        }),
+        new webpack.optimize.ModuleConcatenationPlugin(),
+        new webpack.optimize.CommonsChunkPlugin({
+            name: 'vendor',
+            filename: 'vendor.[chunkhash].js',
+            minChunks (module) {
+                return module.context && module.context.indexOf('node_modules') >= 0;
+            }
+        }),
+        
+        new webpack.LoaderOptionsPlugin({
+            options: {
+                postcss: [
+                    autoprefixer({
+                        browsers: [
+                            'last 3 version',
+                            'ie >= 10'
+                        ]
+                    })
+                ],
+                context: staticSourcePath
+            }
+        }),
+        new webpack.HashedModuleIdsPlugin(),
+        new PreloadWebpackPlugin({
+            rel: 'preload',
+            as: 'script',
+            include: 'all',
+            fileBlacklist: [/\.(css|map)$/, /base?.+/]
+        }),
+        new ScriptExtHtmlWebpackPlugin({
+            defaultAttribute: 'defer'
+        }),
+        new ExtractTextPlugin({
+            filename: '[name].[contenthash].css',
+            allChunks: true
+        }),
+        new StyleExtHtmlWebpackPlugin({
+            minify: true
+        })
     ],
-    rules: [
-      { test: /\.jsx$/, exclude: /node_modules/, loader: 'babel-loader' },
-      { test: /\.js$/, exclude: /node_modules/, loader: 'babel-loader' },
-      //{ test: /\.svg$/, exclude: [ /node_modules/ ], loader: 'raw-loader' },
-      { test: /\.svg$/, exclude: [ /node_modules/ , '/src/js/'], loader: 'svg-url-loader' },
-      {
-            test: /\.scss$/,
-            use: [{
-                loader: "style-loader" // creates style nodes from JS strings
-            }, {
-                loader: "css-loader" // translates CSS into CommonJS
-            }, {
-                loader: "sass-loader" // compiles Sass to CSS
-            }]
-        }
-    ]
-  },
-  plugins: [
-    
-    /*new ExtractTextPlugin({
-      filename: '[name].css',
-      allChunks: true,
-    }),*/
-    new CopyWebpackPlugin([{
-      from: 'src/index.html'
-    }, {
-      from: 'src/images',
-      to: 'images'
-    }, ])
-  ]
-}
+    module: {
+        rules: [
+            {
+                test: /\.(js|jsx)$/,
+                exclude: /node_modules/,
+                use: [
+                    'babel-loader'
+                ],
+                include: sourcePath
+            },
+            {
+                test: /\.scss$/,
+                exclude: /node_modules/,
+                use: ExtractTextPlugin.extract({
+                    fallback: 'style-loader',
+                    use: [
+                        { loader: 'css-loader', options: { minimize: true } },
+                        'postcss-loader', 'sass-loader'
+                    ]
+                })
+            },
+            {
+                test: /\.(eot?.+|svg?.+|ttf?.+|otf?.+|woff?.+|woff2?.+)$/,
+                use: 'file-loader?name=assets/[name]-[hash].[ext]'
+            },
+            {
+                test: /\.(png|gif|jpg|svg)$/,
+                use: [
+                    'url-loader?limit=20480&name=assets/[name]-[hash].[ext]'
+                ],
+                include: staticSourcePath
+            }
+        ]
+    }
+};

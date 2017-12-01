@@ -8,8 +8,8 @@ import DesignSystemPage from '../containers/DesignSystemPage';
 import WorkInProgress from '../components/work-in-progress';
 
 import $ from 'jquery'
-import 'foundation-sites';
-import 'what-input';
+// import 'foundation-sites';
+// import 'what-input';
 
 const Home = () => (
     <div className="design-system-inner-content">
