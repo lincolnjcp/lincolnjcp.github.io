@@ -2,6 +2,7 @@ const path = require('path');
 const webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
+const CopyWebpackPlugin = require('copy-webpack-plugin');
 const PreloadWebpackPlugin = require('preload-webpack-plugin');
 const ScriptExtHtmlWebpackPlugin = require('script-ext-html-webpack-plugin');
 const StyleExtHtmlWebpackPlugin = require('style-ext-html-webpack-plugin');
@@ -10,18 +11,26 @@ const autoprefixer = require('autoprefixer');
 
 const sourcePath = path.join(__dirname, 'src');
 const staticSourcePath = path.join(sourcePath, 'scss');
-const buildPath = path.join(__dirname, 'dist');
+const buildPath = path.resolve(__dirname);
 
 module.exports = {
     devtool: 'cheap-module-source-map',
     entry: {
-        base: path.resolve(staticSourcePath, 'test.scss'),
-        app: path.resolve(sourcePath, 'js/index.jsx')
-    },
+    'bundle': [
+      'babel-polyfill',
+      'react-hot-loader/patch',
+      path.resolve(sourcePath, 'js/index.jsx')
+    ],
+    'style': [
+      path.resolve(staticSourcePath, 'style.scss'),
+    ],
+    'design-system': [
+      path.resolve(staticSourcePath, 'design-system.scss'),
+    ]
+},
     output: {
-        path: path.join(__dirname, 'dist'),
-        filename: '[name].[chunkhash].js',
-        publicPath: '/'
+        path: path.resolve(__dirname),
+        filename: '[name].js'
     },
     resolve: {
         extensions: ['.webpack-loader.js', '.web-loader.js', '.loader.js', '.js', '.jsx'],
@@ -37,7 +46,7 @@ module.exports = {
         new webpack.optimize.ModuleConcatenationPlugin(),
         new webpack.optimize.CommonsChunkPlugin({
             name: 'vendor',
-            filename: 'vendor.[chunkhash].js',
+            filename: 'vendor.js',
             minChunks (module) {
                 return module.context && module.context.indexOf('node_modules') >= 0;
             }
@@ -67,12 +76,18 @@ module.exports = {
             defaultAttribute: 'defer'
         }),
         new ExtractTextPlugin({
-            filename: '[name].[contenthash].css',
+            filename: '[name].css',
             allChunks: true
         }),
         new StyleExtHtmlWebpackPlugin({
             minify: true
-        })
+        }),
+        new CopyWebpackPlugin([{
+      from: 'src/index.html'
+    }, {
+      from: 'src/images',
+      to: 'images'
+}, ])
     ],
     module: {
         rules: [
@@ -97,12 +112,12 @@ module.exports = {
             },
             {
                 test: /\.(eot?.+|svg?.+|ttf?.+|otf?.+|woff?.+|woff2?.+)$/,
-                use: 'file-loader?name=assets/[name]-[hash].[ext]'
+                use: 'file-loader?name=assets/[name].[ext]'
             },
             {
                 test: /\.(png|gif|jpg|svg)$/,
                 use: [
-                    'url-loader?limit=20480&name=assets/[name]-[hash].[ext]'
+                    'url-loader?limit=20480&name=assets/[name].[ext]'
                 ],
                 include: staticSourcePath
             }

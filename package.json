@@ -12,6 +12,7 @@
     "babel-preset-react": "^6.23.0",
     "check-dependencies": "^1.1.0",
     "jquery": "^3.2.1",
+    "move-file-loader": "0.0.5",
     "node-sass": "^4.5.3",
     "raw-loader": "^0.5.1",
     "react": "^16.0.0",
@@ -27,7 +28,7 @@
     "svg-url-loader": "^2.2.0"
   },
   "scripts": {
-    "dev": "webpack-dev-server  --content-base public/ --hot --history-api-fallback --open",
+    "dev": "webpack-dev-server  --content-base / --hot --history-api-fallback --open",
     "build": "webpack"
   },
   "devDependencies": {
@@ -41,6 +42,7 @@
     "postcss-import": "^11.0.0",
     "postcss-loader": "^2.0.9",
     "preload-webpack-plugin": "^2.0.0",
+    "sass-watch": "^0.1.0",
     "script-ext-html-webpack-plugin": "^1.8.8",
     "style-ext-html-webpack-plugin": "^3.4.5",
     "style-loader": "^0.19.0",

@@ -50,8 +50,6 @@ class App extends React.Component {
 
     componentDidMount() {
 
-        $(document).foundation();
-
         $(document).ready(function () {
 
             $(".off-canvas").on("opened.zf.offcanvas", function (e) {
