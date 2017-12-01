@@ -4,8 +4,10 @@ import { AppContainer } from 'react-hot-loader'
 
 import Root from './containers/Root'
 
-import '../scss/tests.pcss';
-// import '../scss/design-system.scss';
+// import '../scss/base/tests.css';
+import '../scss/tests.css';
+import '../scss/app.css';
+
 
 const render = Component => {
   ReactDOM.render(

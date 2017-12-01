@@ -1,19 +1,37 @@
-var path = require('path')
+var path = require('path'),
+pathsHelper = require('./lib/paths-helper');
+
 var webpack = require('webpack'),
-ExtractTextPlugin = require("extract-text-webpack-plugin"),
-ChunkManifestPlugin = require('chunk-manifest-webpack-plugin');
+ExtractTextPlugin = require('extract-text-webpack-plugin');
 
-
+var postcssImport = require('postcss-import');
+var stylelint = require('stylelint');
+var postcssReporter = require('postcss-reporter');
+var postcssCssnext = require('postcss-cssnext');
+var postcssNested = require('postcss-nested');
+var postcssRemoveRoot = require('postcss-remove-root');
+var cssMqpacker = require('css-mqpacker');
+var cssnano = require('cssnano');
 
 var nodeModulesPath = path.resolve(__dirname, 'node_modules');
 var srcPath = path.resolve(__dirname, 'src');
 var buildPath = path.resolve(__dirname, 'dist');
 
 module.exports = {
+    context: srcPath,
+    
+    output: {
+        filename: '[name].js',
+      },
+      resolveLoader: {
+        alias: {
+          'css-prefix-variables': path.resolve(__dirname, './lib/css-prefix-variables.js')
+        }
+      },
     bail: true,
     devtool: false,
     entry: {
-        main: ['./src/js/index.jsx']
+        main: ['./bundle.js']
     },
     output: {
         path: buildPath,
@@ -28,26 +46,59 @@ module.exports = {
                 loader: 'babel-loader'
             },
             {
-                test: /\.pcss$/,
+                enforce: 'pre',
+                test: /\.css$/,
+                include: [
+                srcPath
+                ],
+                use: [
+                  {
+                    loader: 'css-prefix-variables',
+                    options: {
+                       path:path.resolve(__dirname, './src/variables/variables.css')
+                    }
+                  }
+                ]
+              },
+            {
+                test: /\.css$/,
                 use: ExtractTextPlugin.extract({
                     fallback: 'style-loader',
                     use: [
-                        {
-                            loader: 'css-loader',
-                            options: {
-                                modules: true,
-                                importLoaders: 1,
-                                localIdentName: '[name]__[local]___[hash:base64:5]'
-                            }
-                        },
-                        'postcss-loader',
-                        'sass-loader'
+                      'css-loader',
+                      {
+                        loader: 'postcss-loader',
+                        options: {
+                          sourceMap: 'inline',
+                          plugins: () => [
+                            postcssImport,
+                            stylelint(),
+                            postcssReporter(),
+                            postcssCssnext({
+                              features: {
+                                autoprefixer: {
+                                  grid: false
+                                }
+                              }
+                            }),
+                            postcssNested,
+                            postcssRemoveRoot,
+                            cssMqpacker({
+                              sort: true
+                            }),
+                            cssnano({
+                                autoprefixer: false,
+                                safe: true
+                            })
+                          ]
+                        }
+                      }
                     ]
                 })
             }
         ]
     },
     plugins: [
-        new ExtractTextPlugin({ filename: '[name].pcss' })
+        new ExtractTextPlugin('[name].css')
     ]
 };
