@@ -1,4 +1,3 @@
-
 /**
     purecss Grid Structure with 4 Break Points
     https://app.zeplin.io/project.html#pid=588a77ff0deb55f27cd8829f&sid=58909dcc1e71c1f114e8d76
@@ -44,12 +43,12 @@
     padding-left: 4px;
     padding-right: 4px;
 
-    @media (--viewport-lg){
+    @media (--viewport-lg) {
         padding-left: 8px;
         padding-right: 8px;
     }
 
-    @media (--viewport-xl){
+    @media (--viewport-xl) {
         padding-left: 8px;
         padding-right: 8px;
     }
@@ -103,7 +102,7 @@
     width: 100%;
 }
 
-@media screen and (--viewport-sm) {
+@media (--viewport-sm) {
     .row {
         margin: 0 4px;
     }
@@ -179,7 +178,7 @@
     }
 }
 
-@media screen and (--viewport-md) {
+@media (--viewport-md) {
     .row {
         margin: 0 12px;
     }
@@ -255,7 +254,7 @@
     }
 }
 
-@media screen and (--viewport-lg) {
+@media (--viewport-lg) {
     .row {
         margin: 0 16px;
     }
@@ -331,7 +330,7 @@
     }
 }
 
-@media screen and (--viewport-xl) {
+@media (--viewport-xl) {
     .row {
         margin: 0 16px;
     }

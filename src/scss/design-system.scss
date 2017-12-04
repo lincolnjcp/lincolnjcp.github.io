@@ -50,8 +50,6 @@
         top: 0px;
     }
 
-    @include breakpoint(small medium) {}
-
 
     .off-canvas {
         background: $color-design-system-nav;
@@ -230,21 +228,21 @@
         padding-top: 25px;
         padding-bottom: 25px;
     }
-    @include breakpoint(medium) {
+    @media (--viewport-md) {
         .design-system-content {
             padding-top: 50px;
             padding-bottom: 50px;
         }
     }
 
-    @include breakpoint(large xlarge) {
+    @media (--viewport-lg) {
         .design-system-content {
             padding-top: 80px;
             padding-bottom: 80px;
         }
     }
 
-    @include breakpoint(large xlarge) {
+    @media (--viewport-lg) {
         .design-system-nav-mobile {
             display: none;
         }
@@ -275,7 +273,7 @@
     }
 
 
-    @include breakpoint(xlarge) {
+    @media (--viewport-xl) {
         .design-system-inner-wrap {
             display: table;
             width: 100%;
@@ -339,7 +337,7 @@
   CONTENT - COLOR PALETTE
 \*------------------------------------*/
 
-@include breakpoint(medium large xlarge) {
+@media (--viewport-md) {
     .design-system-inner-content {
         padding-left: 50px;
         padding-right: 50px;
@@ -532,7 +530,7 @@
     }
 }
 
-@include breakpoint(medium large xlarge) {
+@media (--viewport-md) {
     .code-generator {
         display: flex;
         flex-direction: row-reverse;
@@ -596,7 +594,7 @@
     }
 }
 
-@include breakpoint(medium large xlarge) {
+@media (--viewport-md) {
     .design-system-color-picker {
         max-width: 300px;
     }
@@ -667,7 +665,7 @@
     }
 }
 
-@include breakpoint(medium large xlarge) {
+@media (--viewport-md) {
     .design-system-icon-col {
         position: relative;
         text-align: left;
