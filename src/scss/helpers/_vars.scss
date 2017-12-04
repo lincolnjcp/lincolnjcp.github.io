@@ -143,3 +143,50 @@ $font-code: Monaco, 'Lucida Console', monospace;
 // Font Weight
 $font-weight-bold: 700;
 $font-weight-regular: 400;
+
+
+
+@mixin breakpoint($breakpoint, $orientation:"") {
+    
+    $break: $breakpoint;
+    $orient: "";
+
+    @if $breakpoint == 'small' {
+        $break: $small-only;
+    }
+    @else if $breakpoint == 'small-up' {
+        $break: $small-up;
+    }
+    // @else if $breakpoint == 'medium' {
+    //     $break: $medium-only;
+    // }
+    @else if $breakpoint == 'medium-up' {
+        $break: $medium-up;
+    }
+    @else if $breakpoint == 'large' {
+        $break: $large-only;
+    }
+    @else if $breakpoint == 'large-up' {
+        $break: $large-up;
+    }
+    // @else if $breakpoint == 'xlarge' {
+    //     $break: $xlarge-only;
+    // }
+    @else if $breakpoint == 'xlarge-up' {
+        $break: $xlarge-up;
+    }
+    @else if $breakpoint == 'xxlarge-up' {
+        $break: $xxlarge-up;
+    }
+
+    @if $orientation != "" {
+        $orient: 'and (orientation : #{$orientation})';
+    }
+
+    $bp: #{$break} #{$orient};
+
+    @media #{$bp} {
+        @content;
+    }
+
+}
