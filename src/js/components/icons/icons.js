@@ -154,7 +154,7 @@ iconCol(iconName, iconDetails, iconComponent ){
       </div>
     )
   } else {
-    return ( <div className="small-4 medium-4 large-3 columns design-system-icon-col"></div> )
+    return ( <div className="sm4 md4 lg3 columns design-system-icon-col"></div> )
   }
 }
 
@@ -191,14 +191,14 @@ componentDidMount() {
     return (
       <div>
     <div className="row">
-        <div className="small-12 columns">
+        <div className="sm12 columns">
             <h1 className="title title-XL mrg-L">Icons</h1>
             <h2 className="std-txt std-txt-XL mrg-L max-width-text">Icons are simple and informative. Each icon builds on the visual language of the design system, and represents the simplest version of the idea.</h2>
             <hr />
         </div>
     </div>
     <div className="row" id="when-to-use">
-        <div className="small-12 columns">
+        <div className="sm12 columns">
             <h3 className="title title-L mrg-L">When to Use</h3>
             <p>Icons are powerful visual helpers, and should be used with care. Overuse quickly results in UIs that are visually overwhelming or distracting.</p>
             <p>Icons are commonly used:</p>
@@ -213,7 +213,7 @@ componentDidMount() {
         </div>
     </div>
     <div className="row" id="alert">
-        <div className="small-12 columns">
+        <div className="sm12 columns">
             <h3 className="title title-L mrg-L">Alert</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             <div className="row  small-up-4 medium-up-3 large-up-4 design-system-icon-set">
@@ -223,7 +223,7 @@ componentDidMount() {
         </div>
     </div>
     <div className="row" id="payment">
-        <div className="small-12 columns">
+        <div className="sm12 columns">
             <h3 className="title title-L mrg-L">Payment</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             <div className="row  small-up-4 medium-up-3 large-up-4 design-system-icon-set">
@@ -234,15 +234,15 @@ componentDidMount() {
     </div>
     <div className="design-system-toggle-section">
         <div className="row" id="action">
-            <div className="small-12 medium-6 large-8 columns">
+            <div className="sm12 md6 lg8 columns">
                 <h3 className="title title-L mrg-L">Action</h3>
             </div>
-            <div className="small-12 medium-6 large-4 columns">
+            <div className="sm12 md6 lg4 columns">
                 <ColorPicker />
             </div>
         </div>
         <div className="row">
-            <div className="small-12 columns">
+            <div className="sm12 columns">
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 <div className="row  small-up-4 medium-up-3 large-up-4 design-system-icon-set">
                     {this.iconCol("thumbsdown-fill", "dislike (active)", thumbsdownfillImage)} {this.iconCol("thumbsdown-line", "dislike (inactive)", thumbsdownlineImage)} {this.iconCol("thumbsup-fill", "like (active)", thumbsupfillImage)} {this.iconCol("thumbsup-line", "like (inactive)", thumbsuplineImage)} {this.iconCol("zoom-in-fill", "zoom in (pressed)", zoominfillImage)} {this.iconCol("zoom-in-line", "zoom in ", zoominlineImage)} {this.iconCol("zoom-out-fill", "zoom out (pressed)", zoomoutfillImage)} {this.iconCol("zoom-out-line", "???", zoomoutlineImage)} {this.iconCol("chat-fill", "chat (pressed)", chatfillImage)} {this.iconCol("chat-line", "chat is available", chatlineImage)} {this.iconCol("conversation-fill", "???", conversationfillImage)} {this.iconCol("conversation-line", "???", conversationlineImage)} {this.iconCol("heart-fill", "save (active)", heartfillImage)} {this.iconCol("heart-line", "save (inactive)", heartlineImage)} {this.iconCol("eye", "unhide form field", eyeImage)} {this.iconCol("eye-crossed-out", "hide form field", eyecrossedoutImage)} {this.iconCol("grid-fill", "grid view (active)", gridfillImage)} {this.iconCol("grid-line", "grid view (inactive)", gridlineImage)} {this.iconCol("list-fill", "list view (active)", listfillImage)} {this.iconCol("list-line", "list view (inactive)", listlineImage)} {this.iconCol("search", "indicate search capability", searchImage)} {this.iconCol("settings", "edit settings/preferences", settingsImage)} {this.iconCol("print", "print page", printImage)} {this.iconCol("trash-can", "delete", trashcanImage)} {this.iconCol("mail", "email page or deal", mailImage)} {this.iconCol("target", "find geo location", targetImage)} {this.iconCol("upload", "upload file", uploadImage)}
@@ -253,15 +253,15 @@ componentDidMount() {
     </div>
     <div className="design-system-toggle-section">
         <div className="row" id="navigation">
-            <div className="small-12 medium-6 large-8 columns">
+            <div className="sm12 md6 lg8 columns">
                 <h3 className="title title-L mrg-L">Navigation</h3>
             </div>
-            <div className="small-12 medium-6 large-4 columns">
+            <div className="sm12 md6 lg4 columns">
                 <ColorPicker />
             </div>
         </div>
         <div className="row">
-            <div className="small-12 columns">
+            <div className="sm12 columns">
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 <div className="row  small-up-4 medium-up-3 large-up-4 design-system-icon-set">
                     {this.iconCol("chevron-down", "advance carousels and navigation", chevrondownImage)} {this.iconCol("chevron-left", "advance carousels and navigation", chevronleftImage)} {this.iconCol("chevron-right", "advance carousels and navigation", chevronrightImage)} {this.iconCol("chevron-up", "advance carousels and navigation", chevronupImage)} {this.iconCol("arrow-left", "back on slideout panel", arrowleftImage)} {this.iconCol("arrow-right", "advance on slideout panel", arrowrightImage)} {this.iconCol("collapse-left", "close drawer to the left", collapseleftImage)} {this.iconCol("collapse-right", "close drawer to the right", collapserightImage)} {this.iconCol("triangle-down", "drop down", triangledownImage)} {this.iconCol("triangle-left", "???", triangleleftImage)} {this.iconCol("triangle-right", "inline expand", trianglerightImage)} {this.iconCol("triangle-up", "drop down (active)", triangleupImage)} {this.iconCol("menu", "global menu", menuImage)} {this.iconCol("close", "close messages; clear text input", closeImage)} {this.iconCol("minus", "collaspe accordion", minusImage)} {this.iconCol("plus", "expand accordion", plusImage)} {this.iconCol("back-to-top", "scroll page back to the top", backtotopImage)}
@@ -272,15 +272,15 @@ componentDidMount() {
     </div>
     <div className="design-system-toggle-section">
         <div className="row" id="utility">
-            <div className="small-12 medium-6 large-8 columns">
+            <div className="sm12 md6 lg8 columns">
                 <h3 className="title title-L mrg-L">Utility</h3>
             </div>
-            <div className="small-12 medium-6 large-4 columns">
+            <div className="sm12 md6 lg4 columns">
                 <ColorPicker />
             </div>
         </div>
         <div className="row">
-            <div className="small-12 columns">
+            <div className="sm12 columns">
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 <div className="row  small-up-4 medium-up-3 large-up-4 design-system-icon-set">
                     {this.iconCol("cart", "navigate to shopping cart", cartImage)} {this.iconCol("express-checkout", "express checkout", expresscheckoutImage)} {this.iconCol("haul-away", "haul away appliaces", haulawayImage)} {this.iconCol("track-order", "CAM track orders", trackorderImage)} {this.iconCol("truck", "truck deilvery", truckImage)} {this.iconCol("local-ad", "local store print ads", localadImage)} {this.iconCol("same-day-pickup", "store pick up", samedaypickupImage)} {this.iconCol("store", "store location", storeImage)} {this.iconCol("location-pin", "indicate location/store", locationpinImage)} {this.iconCol("return", "return prodcuts", returnImage)} {this.iconCol("recycle", "recycling", recycleImage)} {this.iconCol("lock", "security in checkout/payment", lockImage)} {this.iconCol("account", "customer account/profile", accountImage)} {this.iconCol("cash", "rewards cash", cashImage)} {this.iconCol("coupon-fill", "coupons", couponfillImage)} {this.iconCol("gift-registry", "gift registry", giftregistryImage)} {this.iconCol("wallet", "payment method", walletImage)} {this.iconCol("piggy-bank", "savings", piggybankImage)} {this.iconCol("ribbon", "???", ribbonImage)} {this.iconCol("clip", "clip coupon", clipImage)} {this.iconCol("camera", "active camera device", cameraImage)} {this.iconCol("play", "play media", playImage)} {this.iconCol("video", "multi-media video", videoImage)} {this.iconCol("ruler", "size guides", rulerImage)} {this.iconCol("appointment", "???", appointmentImage)} {this.iconCol("schedule-appt", "schedule appointment with JCP store services", scheduleapptImage)} {this.iconCol("wedding-date", "???", weddingdateImage)} {this.iconCol("parts-services", "additional appliance services", partsservicesImage)} {this.iconCol("device-mobile", "mobile device", devicemobileImage)} {this.iconCol("device-phone", "contact via phone; phone input", devicephoneImage)} {this.iconCol("collection", "product collection", collectionImage)} {this.iconCol("collection-multi", "multiple product collections", collectionmultiImage)} {this.iconCol("barcode", "scan barcode", barcodeImage)} {this.iconCol("barcode-qr", "???", barcodeqrImage)} {this.iconCol("shield", "protection plans", shieldImage)} {this.iconCol("star", "ratings", starImage)}
@@ -291,15 +291,15 @@ componentDidMount() {
     </div>
     <div className="design-system-toggle-section">
         <div className="row" id="social">
-            <div className="small-12 medium-6 large-8 columns">
+            <div className="sm12 md6 lg8 columns">
                 <h3 className="title title-L mrg-L">Social</h3>
             </div>
-            <div className="small-12 medium-6 large-4 columns">
+            <div className="sm12 md6 lg4 columns">
                 <ColorPicker />
             </div>
         </div>
         <div className="row">
-            <div className="small-12 columns">
+            <div className="sm12 columns">
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 <div className="row  small-up-4 medium-up-3 large-up-4 design-system-icon-set">
                     {this.iconCol("blog-fill", "Link to JCP blog", blogfillImage)} {this.iconCol("blog-line", "Link to JCP blog", bloglineImage)} {this.iconCol("facebook-fill", "Share to Facebook", facebookfillImage)} {this.iconCol("facebook-line", "Share to Facebook", facebooklineImage)} {this.iconCol("google-plus-fill", "Share to Google+", googleplusfillImage)} {this.iconCol("google-plus-line", "Share to Google+", googlepluslineImage)} {this.iconCol("instagram-fill", "Share to Instagram", instagramfillImage)} {this.iconCol("instagram-line", "Share to Instagram", instagramlineImage)} {this.iconCol("pinterest-fill", "Pin to Pintrest board", pinterestfillImage)} {this.iconCol("pinterest-line", "Pin to Pintrest board", pinterestlineImage)} {this.iconCol("twitter-fill", "Share to Twitter", twitterfillImage)} {this.iconCol("twitter-line", "Share to Twitter", twitterlineImage)} {this.iconCol("youtube-fill", "Link to JCP YouTube channel", youtubefillImage)} {this.iconCol("youtube-line", "Link to JCP YouTube channel", youtubelineImage)}
@@ -308,7 +308,7 @@ componentDidMount() {
         </div>
     </div>
     <div className="row">
-        <div className="small-12 columns">
+        <div className="sm12 columns">
             <hr />
             <p className="S">Created by: <strong>Tony Stark</strong> and <strong>Bruce Banner</strong>
                 <br /> Latest update: 04/05/2017</p>

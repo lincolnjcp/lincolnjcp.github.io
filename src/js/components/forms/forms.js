@@ -18,14 +18,14 @@ class Forms extends Component {
         return (
             <div>
                 <div className="row">
-                    <div className="small-12 columns">
+                    <div className="sm12 columns">
                         <h1 className="title title-XL mrg-L">Forms</h1>
                         <h2 className="std-txt std-txt-XL mrg-L max-width-text">Vestibulum id ligula porta felis euismod semper. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</h2>
                         <hr />
                     </div>
                 </div>
                 <div className="row" id="code-generator">
-                    <div className="small-12 columns">
+                    <div className="sm12 columns">
                         <h3 className="title title-L mrg-L">Code Generator</h3>
                         <CodeGenerator
                             formFields={
@@ -116,11 +116,11 @@ class Forms extends Component {
                     </div>
                 </div>
                 <div className="row" id="when-to-use">
-                    <div className="small-12 columns">
+                    <div className="sm12 columns">
                         <h3 className="title title-L mrg-L">When to Use</h3>
                         <p className="max-width-text">Vestibulum id ligula porta felis euismod semper. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. <br /><br /> </p>
                     </div>
-                    <div className="small-12 columns">
+                    <div className="sm12 columns">
                         <h5 className="title title-M">Best Practices</h5>
                         <ul className="list max-width-text color-slate">
                             <li>Aenean lacinia bibendum nulla sed consectetur</li>
@@ -131,11 +131,11 @@ class Forms extends Component {
                     </div>
                 </div>
                 <div className="row" id="appearance">
-                    <div className="small-12 columns">
+                    <div className="sm12 columns">
                         <h3 className="title title-L mrg-L">Appearance</h3>
                         <p className="max-width-text">Vestibulum id ligula porta felis euismod semper. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. <br /><br /><br /> </p>
-                        <div className="small-12 medium-12 columns input-form">
-                            <div className="small-12 medium-4 columns">
+                        <div className="sm12 md12 columns input-form">
+                            <div className="sm12 md4 columns">
                                 <div className="input-group">
                                     <div className="css-float-label">
                                         <input className="form-control email-text input-text" id="email" type="text" placeholder="example@email.com" />
@@ -143,13 +143,13 @@ class Forms extends Component {
                                     </div>
                                 </div>
                             </div>
-                            <div className="small-12 medium-8 columns">
+                            <div className="sm12 md8 columns">
                                 <h4 className="title title-M mrg-L">Text Field</h4>
                                 <p className="max-width-text">Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus.<br /><br /><br /></p>
                             </div>
                         </div>
-                        <div className="small-12 medium-12 columns select-form">
-                            <div className="small-12 medium-4 columns select">
+                        <div className="sm12 md12 columns select-form">
+                            <div className="sm12 md4 columns select">
                                 <div className="css-float-label">
                                     <select className="form-control custom-select">
                                         <option value=''>Month</option>
@@ -169,13 +169,13 @@ class Forms extends Component {
                                     <span>Month</span>
                                 </div>
                             </div>
-                            <div className="small-12 medium-8 columns">
+                            <div className="sm12 md8 columns">
                                 <h4 className="title title-M mrg-L">Select Input</h4>
                                 <p className="max-width-text">Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus.<br /><br /><br /></p>
                             </div>
                         </div>
-                        <div className="small-12 medium-12 columns text-area-form">
-                            <div className="small-12 medium-4 columns">
+                        <div className="sm12 md12 columns text-area-form">
+                            <div className="sm12 md4 columns">
                                 <div className="input-group">
                                     <div className="css-float-label">
                                         <textarea className="form-control" name="instructions">Please deliver to side service entrance of apartment building. Enter code 9090 to access garage.</textarea>
@@ -183,13 +183,13 @@ class Forms extends Component {
                                     </div>
                                 </div>
                             </div>
-                            <div className="small-12 medium-8 columns">
+                            <div className="sm12 md8 columns">
                                 <h4 className="title title-M mrg-L">Textarea</h4>
                                 <p className="max-width-text">Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus.<br /><br /><br /></p>
                             </div>
                         </div>
-                        <div className="small-12 medium-12 columns radio-button-form">
-                            <div className="small-12 medium-4 columns">
+                        <div className="sm12 md12 columns radio-button-form">
+                            <div className="sm12 md4 columns">
                                 <div className="input-group">
                                     <div className="mrg-XL">
                                         <input type="radio" id="two" name="name" value="" defaultChecked="true" />
@@ -216,13 +216,13 @@ class Forms extends Component {
                                     </div>
                                 </div>
                             </div>
-                            <div className="small-12 medium-8 columns">
+                            <div className="sm12 md8 columns">
                                 <h4 className="title title-M mrg-L">Radio Button</h4>
                                 <p className="max-width-text">Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus.<br /><br /><br /></p>
                             </div>
                         </div>
-                        <div className="small-12 medium-12 columns checkbox-form">
-                            <div className="small-12 medium-4 columns">
+                        <div className="sm12 md12 columns checkbox-form">
+                            <div className="sm12 md4 columns">
                                 <div className="input-group">
                                     <label className="checkbox mrg-M">
                                         <input type="checkbox" disabled="true" /> <span>Disabled Checkbox</span>
@@ -240,13 +240,13 @@ class Forms extends Component {
 
                                 </div>
                             </div>
-                            <div className="small-12 medium-8 columns">
+                            <div className="sm12 md8 columns">
                                 <h4 className="title title-M mrg-L">Checkbox</h4>
                                 <p className="max-width-text">Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus.<br /><br /><br /></p>
                             </div>
                         </div>
-                        <div className="small-12 medium-12 columns input-form">
-                            <div className="small-12 medium-4 columns">
+                        <div className="sm12 md12 columns input-form">
+                            <div className="sm12 md4 columns">
                                 <div className="input-group">
                                     <div className="css-float-label">
                                         <input className="form-control input-text" id="phone-number" maxLength="14" type="text" placeholder="( ___ ) ___-____" />
@@ -254,13 +254,13 @@ class Forms extends Component {
                                     </div>
                                 </div>
                             </div>
-                            <div className="small-12 medium-8 columns">
+                            <div className="sm12 md8 columns">
                                 <h4 className="title title-M mrg-L">Phone Number</h4>
                                 <p className="max-width-text">Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus.<br /><br /><br /></p>
                             </div>
                         </div>
-                        <div className="small-12 medium-12 columns input-form">
-                            <div className="small-12 medium-4 columns">
+                        <div className="sm12 md12 columns input-form">
+                            <div className="sm12 md4 columns">
                                 <div className="input-group">
                                     <div className="css-float-label">
                                         <span className="icon jcp-icon-red" dangerouslySetInnerHTML={{ __html: cardJCPRed }} />
@@ -269,13 +269,13 @@ class Forms extends Component {
                                     </div>
                                 </div>
                             </div>
-                            <div className="small-12 medium-8 columns">
+                            <div className="sm12 md8 columns">
                                 <h4 className="title title-M mrg-L">Credit Card</h4>
                                 <p className="max-width-text">Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus.<br /><br /><br /></p>
                             </div>
                         </div>
-                        <div className="small-12 medium-12 columns input-form password-form">
-                            <div className="small-12 medium-4 columns">
+                        <div className="sm12 md12 columns input-form password-form">
+                            <div className="sm12 md4 columns">
                                 <div className="position-rel">
                                     <div className="css-float-label">
                                         <input className="form-control input-text" id="password" maxLength="16" type="password" placeholder="••••••••••" />
@@ -284,13 +284,13 @@ class Forms extends Component {
                                     <a href="javascript:void(0);" className="show-pwd">show</a>
                                 </div>
                             </div>
-                            <div className="small-12 medium-8 columns">
+                            <div className="sm12 md8 columns">
                                 <h4 className="title title-M mrg-L">Password</h4>
                                 <p className="max-width-text">Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus.<br /><br /><br /></p>
                             </div>
                         </div>
-                        <div className="small-12 medium-12 columns select-form">
-                            <div className="small-2 medium-2 large-2 x-large-2 columns select">
+                        <div className="sm12 md12 columns select-form">
+                            <div className="sm2 md2 lg2 x-lg2 columns select">
                                 <div className="css-float-label">
                                     <select className="form-control custom-select">
                                         <option value=''>Month</option>
@@ -310,7 +310,7 @@ class Forms extends Component {
                                     <span>Month</span>
                                 </div>
                             </div>
-                            <div className="small-2 medium-2 large-2 x-large-2 columns select">
+                            <div className="sm2 md2 lg2 x-lg2 columns select">
                                 <div className="css-float-label">
                                     <select className="form-control custom-select">
                                         <option value=''>Year</option>
@@ -330,13 +330,13 @@ class Forms extends Component {
                                     <span>Year</span>
                                 </div>
                             </div>
-                            <div className="small-12 medium-8 columns">
+                            <div className="sm12 md8 columns">
                                 <h4 className="title title-M mrg-L">Condensed Fields</h4>
                                 <p className="max-width-text">Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus.<br /><br /><br /></p>
                             </div>
                         </div>
-                        <div className="small-12 medium-12 columns input-form">
-                            <div className="small-12 medium-4 columns">
+                        <div className="sm12 md12 columns input-form">
+                            <div className="sm12 md4 columns">
                                 <div className="position-rel">
                                     <div className="css-float-label">
                                         <input className="form-control input-text" id="search" type="text" placeholder="Search Products" />
@@ -345,13 +345,13 @@ class Forms extends Component {
                                     <span className="icon search-icon color-lipstick-svg" dangerouslySetInnerHTML={{ __html: searchIcon }} />
                                 </div>
                             </div>
-                            <div className="small-12 medium-8 columns">
+                            <div className="sm12 md8 columns">
                                 <h4 className="title title-M mrg-L">Search Box</h4>
                                 <p className="max-width-text">Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus.<br /><br /><br /></p>
                             </div>
                         </div>
-                        <div className="small-12 medium-12 columns input-form">
-                            <div className="small-12 medium-4 columns">
+                        <div className="sm12 md12 columns input-form">
+                            <div className="sm12 md4 columns">
                                 <div className="position-rel">
                                     <div className="css-float-label">
                                         <input id="zipcode" type="tel" name="zipcode" placeholder="Enter Code" maxLength="5" className="form-control input-text" />
@@ -360,13 +360,13 @@ class Forms extends Component {
                                     </div>
                                 </div>
                             </div>
-                            <div className="small-12 medium-8 columns">
+                            <div className="sm12 md8 columns">
                                 <h4 className="title title-M mrg-L">Inline Action</h4>
                                 <p className="max-width-text">Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus.<br /><br /><br /></p>
                             </div>
                         </div>
-                        <div className="small-12 medium-12 columns input-form">
-                            <div className="small-12 medium-4 columns">
+                        <div className="sm12 md12 columns input-form">
+                            <div className="sm12 md4 columns">
                                 <div className="position-rel">
                                     <div className="css-float-label">
                                         <input className="form-control input-text" id="date" maxLength="5" type="text" placeholder="Birthday (Optional)" />
@@ -375,13 +375,13 @@ class Forms extends Component {
                                     <span className="icon tooltip-icon" dangerouslySetInnerHTML={{ __html: tooltipIcon }} />
                                 </div>
                             </div>
-                            <div className="small-12 medium-8 columns">
+                            <div className="sm12 md8 columns">
                                 <h4 className="title title-M mrg-L">Optional Fields with Tooltip</h4>
                                 <p className="max-width-text">Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus.<br /><br /><br /></p>
                             </div>
                         </div>
-                        <div className="small-12 medium-12 columns input-form">
-                            <div className="small-12 medium-4 columns">
+                        <div className="sm12 md12 columns input-form">
+                            <div className="sm12 md4 columns">
                                 <div className="input-group">
                                     <div className="css-float-label">
                                         <input className="form-control email-text input-text disabled" id="disemail" type="text" value="example@email.com" disabled />
@@ -389,13 +389,13 @@ class Forms extends Component {
                                     </div>
                                 </div>
                             </div>
-                            <div className="small-12 medium-8 columns">
+                            <div className="sm12 md8 columns">
                                 <h4 className="title title-M mrg-L">Disabled</h4>
                                 <p className="max-width-text">Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus.<br /><br /><br /><br /></p>
                             </div>
                         </div>
-                        <div className="small-12 medium-12 columns input-form">
-                            <div className="small-12 medium-4 columns">
+                        <div className="sm12 md12 columns input-form">
+                            <div className="sm12 md4 columns">
                                 <div className="position-rel">
                                     <div className="css-float-label">
                                         <input className="form-control input-text" id="date-picker" maxLength="5" type="text" placeholder="11/07/2017" />
@@ -403,7 +403,7 @@ class Forms extends Component {
                                     </div>
                                 </div>
                             </div>
-                            <div className="small-12 medium-8 columns">
+                            <div className="sm12 md8 columns">
                                 <h4 className="title title-M mrg-L">Date Picker</h4>
                                 <p className="max-width-text">Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus.<br /><br /><br /></p>
                             </div>
@@ -413,24 +413,24 @@ class Forms extends Component {
                 </div>
                 <hr />
                 <div className="row" id="form-validation">
-                    <div className="small-12 columns">
+                    <div className="sm12 columns">
                         <h3 className="title title-L mrg-L">Form Validation</h3>
                         <p className="max-width-text">Vestibulum id ligula porta felis euismod semper. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.  <br /><br /> </p>
                     </div>
-                    <div className="small-12 medium-12 columns input-form error">
-                        <div className="small-12 medium-12 columns row">
-                            <div className="position-rel small-12 medium-4 columns row">
+                    <div className="sm12 md12 columns input-form error">
+                        <div className="sm12 md12 columns row">
+                            <div className="position-rel sm12 md4 columns row">
                                 <div className="css-float-label">
                                     <input className="form-control email-text input-text" id="email" type="text" placeholder="example@email.com" />
                                     <label htmlFor="email">Email</label>
                                     <br />
                                 </div>
                             </div>
-                            <div className="small-12 medium-12 columns row">
+                            <div className="sm12 md12 columns row">
                                 <span className="error-message">Please enter a valid email address</span>
                                 <br /><br /><br />
                                 <p className="max-width-text">Vestibulum id ligula porta felis euismod semper. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.  <br /><br /> </p>
-                                <div className="small-12 medium-4 columns row">
+                                <div className="sm12 md4 columns row">
                                     <div className="css-float-label">
                                         <div className="msg msg-error mrg-M">Email or password is incorrect</div>
                                         <br />
@@ -452,21 +452,21 @@ class Forms extends Component {
                     </div>
                 </div>
                 <div className="row" id="sample-layout">
-                    <div className="small-12 columns">
+                    <div className="sm12 columns">
                         <h3 className="title title-L mrg-L">Sample Layout</h3>
                         <p className="max-width-text">Vestibulum id ligula porta felis euismod semper. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.  <br /><br /> </p>
                     </div>
-                    <div className="small-12 medium-4 form-layout">
+                    <div className="sm12 md4 form-layout">
                         <div className="form-group column">
                             <input className="form-control input-text" type="text" placeholder="Name" />
                         </div>
                         <div className="form-group column">
                             <input className="form-control input-text" type="text" placeholder="Birthday (Optional)" />
                         </div>
-                        <div className="form-group medium-5 small-4 column">
+                        <div className="form-group md5 sm4 column">
                             <input className="form-control input-text" type="text" placeholder="Zip Code" />
                         </div>
-                        <div className="select medium-7 form-layout column">
+                        <div className="select md7 form-layout column">
                             <select className="form-control custom-select">
                                 <option value=''>State</option>
                                 <option value='1'>01</option>
@@ -495,7 +495,7 @@ class Forms extends Component {
                 </div>
                 <hr />
                 <div className="row" id="related-content">
-                    <div className="small-12 columns">
+                    <div className="sm12 columns">
                         <h3 className="title title-L mrg-L">Related Content</h3>
                         <ul className="list max-width-text color-slate">
                             <li><a href="javascript:void();">Alerts & Messaging</a></li>
@@ -505,7 +505,7 @@ class Forms extends Component {
                     </div>
                 </div>
                 <div className="row">
-                    <div className="small-12 columns">
+                    <div className="sm12 columns">
                         <hr />
                         <p className="S">Created by: <strong>Tony Stark</strong> and <strong>Bruce Banner</strong>
                             <br /> Latest update: 04/05/2017</p>

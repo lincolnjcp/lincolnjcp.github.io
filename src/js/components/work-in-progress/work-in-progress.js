@@ -19,7 +19,7 @@ class WorkInProgress extends Component {
   render() {
     return (
         <div className="row">
-        <div className="small-12 columns">
+        <div className="sm12 columns">
 <h1 className="promo-lbl promo-lbl-L">Lincoln Design System</h1>
 
 
@@ -212,8 +212,8 @@ class WorkInProgress extends Component {
     <p className="anno">Dropdowns</p>
 
     <div className="row mrg-XL">
-      <div className="small-12 medium-12 columns select-form">
-          <div className="small-12 medium-4 columns select">
+      <div className="sm12 md12 columns select-form">
+          <div className="sm12 md4 columns select">
               <div className="css-float-label">
                   <select className="form-control custom-select">
                       <option value=''>Month</option>
@@ -237,8 +237,8 @@ class WorkInProgress extends Component {
     </div>
 
     <div className="row mrg-XL">
-      <div className="small-12 medium-12 columns select-form">
-          <div className="small-12 columns select">
+      <div className="sm12 md12 columns select-form">
+          <div className="sm12 columns select">
               <div className="css-float-label">
                   <select className="form-control custom-select">
                       <option value=''>Month</option>
@@ -741,10 +741,10 @@ class WorkInProgress extends Component {
       </ul>
     </div>
 
-    <div className="medium-12 large-12 small-12 column mrg-XL">
+    <div className="md12 lg12 sm12 column mrg-XL">
       <h2 className="title title-L mrg-M">Switch</h2>
-        <div className="switch-block medium-12 large-12 small-12">
-          <div className="medium-4 large-4 small-12 fl-left">
+        <div className="switch-block md12 lg12 sm12">
+          <div className="md4 lg4 sm12 fl-left">
             <div className="onoffswitch mrg-XL fl-left">
                 <input type="checkbox" name="onoffswitch" className="onoffswitch-checkbox" id="onoffswitch-off"/>
                 <label className="onoffswitch-label" htmlFor="onoffswitch-off"></label>
@@ -766,7 +766,7 @@ class WorkInProgress extends Component {
             </div>
             <div className="std-txt-label">On Hover</div>
           </div>
-          <div className="medium-4 large-4 small-12 fl-left">
+          <div className="md4 lg4 sm12 fl-left">
             <div className="onoffswitch mrg-XL fl-left">
                 <input type="checkbox" name="onoffswitch" className="onoffswitch-checkbox" id="onoffswitch-disabledOff" disabled="true"/>
                 <label className="onoffswitch-label disabled" htmlFor="onoffswitch-disabledOff"></label>
@@ -781,9 +781,9 @@ class WorkInProgress extends Component {
         </div>
     </div>
     
-    <div className="medium-12 large-12 small-12 column mrg-XL">
+    <div className="md12 lg12 sm12 column mrg-XL">
       <h2 className="title title-L mrg-M">Button Group</h2>
-      <div className="btn-group-block medium-12 large-12 small-12">
+      <div className="btn-group-block md12 lg12 sm12">
         <div class="btn-group" role="group">
           <button type="button" class="btn btn-secondary active">Tab 1</button>
           <button type="button" class="btn btn-secondary">Tab 2</button>
@@ -799,9 +799,9 @@ class WorkInProgress extends Component {
       </div>
     </div>
 
-    <div className="medium-12 large-12 small-12 column mrg-XL">
+    <div className="md12 lg12 sm12 column mrg-XL">
       <h2 className="title title-L mrg-M">Icon Group</h2>
-      <div className="icon-group-block medium-12 large-12 small-12">
+      <div className="icon-group-block md12 lg12 sm12">
         <div class="icon-group" role="group">
           <ul>
             <li>
@@ -833,11 +833,11 @@ class WorkInProgress extends Component {
       </div>
     </div>
 
-    <div className="medium-12 large-12 small-12 column mrg-XL">
+    <div className="md12 lg12 sm12 column mrg-XL">
       <h2 className="title title-L mrg-M">PDP Carousels & Video Player</h2>
-      <div className="carousel-block medium-12 large-12 small-12 mrg-XL column">
-        <div className="carousel-container medium-8 large-8 column">
-          <div className="carousel-hero-img medium-2 large-2 column">
+      <div className="carousel-block md12 lg12 sm12 mrg-XL column">
+        <div className="carousel-container md8 lg8 column">
+          <div className="carousel-hero-img md2 lg2 column">
             <ul>
               <li className="visible-hide">
                 <span className="icon color-shadow-svg" dangerouslySetInnerHTML={{__html: ChevronUpImage}} />
@@ -859,16 +859,16 @@ class WorkInProgress extends Component {
               </li>
             </ul>
           </div>
-          <div className="carousel-main-img medium-10 large-10 column">
+          <div className="carousel-main-img md10 lg10 column">
             <span className="badge">LOW STOCK</span>
             <img src="https://s7d9.scene7.com/is/image/JCPenney/DP0726201617201191M?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2"/>
           </div>
         </div>
       </div><br/><br/>
 
-      <div className="carousel-block medium-12 large-12 small-12 mrg-XL column">
-        <div className="carousel-container medium-8 large-8 column">
-          <div className="carousel-hero-img medium-2 large-2 column">
+      <div className="carousel-block md12 lg12 sm12 mrg-XL column">
+        <div className="carousel-container md8 lg8 column">
+          <div className="carousel-hero-img md2 lg2 column">
             <ul>
               <li>
                 <span className="icon color-shadow-svg" dangerouslySetInnerHTML={{__html: ChevronUpImage}} />
@@ -891,14 +891,14 @@ class WorkInProgress extends Component {
               </li>
             </ul>
           </div>
-          <div className="carousel-main-img medium-10 large-10 column">
+          <div className="carousel-main-img md10 lg10 column">
             <span className="badge">LOW STOCK</span>
             <img src="https://s7d9.scene7.com/is/image/JCPenney/DP0926201617173470M"/>
           </div>
         </div>
       </div><br/><br/>
 
-      <div className="carousel-block medium-12 large-12 small-12 mrg-XL column">
+      <div className="carousel-block md12 lg12 sm12 mrg-XL column">
         <div className="carousel-main-img badge carousel-main-img-md">
           <span className="badge">LOW STOCK</span>
           <img src="http://s7d9.scene7.com/is/image/JCPenney/DP1107201420322726C?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2"/>
@@ -1038,7 +1038,7 @@ class WorkInProgress extends Component {
     {/*
           <div className="anno">Icon Toggle</div>
           <h2 className="title-XL mrg-L">Icon Toggle</h2>
-          <div className="toggle-list small-12 medium-12 column row">
+          <div className="toggle-list sm12 md12 column row">
             <div className="icon-toggle mrg-rght-L mrg-L">
               <figure className="toggle-img">
                 <img src="http://via.placeholder.com/220x220" alt="" />
@@ -1067,7 +1067,7 @@ class WorkInProgress extends Component {
               </figure>
             </div>
           </div>
-          <div className="small-12 medium-12 column row">
+          <div className="sm12 md12 column row">
           <div className="thumb-icon row mrg-XL">
               <div className="toggle-thumbs mrg-rght-L">
                 <span className="icon icon-hover" dangerouslySetInnerHTML={{ __html: thumbsUpImage }} />
@@ -1082,7 +1082,7 @@ class WorkInProgress extends Component {
                 <span className="std-txt-label">Active</span>
               </div>
             </div>
-            <div className="row column small-12 medium-12 text-buttons">
+            <div className="row column sm12 md12 text-buttons">
               <h2 className="title-XL mrg-L">Text Button</h2>
               <div className="toggle-thumbs mrg-rght-XL">
                 <button className="txt-btn">Text Button</button>
@@ -1102,7 +1102,7 @@ class WorkInProgress extends Component {
               </div>
             </div>
 
-            <div className="row column small-12 medium-12 text-buttons">
+            <div className="row column sm12 md12 text-buttons">
               <h2 className="title-XL mrg-L">Text Button</h2>
               <div className="toggle-thumbs mrg-rght-XL">
                 <button className="txt-btn txt-btn-S">Text Button</button>
@@ -1122,7 +1122,7 @@ class WorkInProgress extends Component {
               </div>
             </div>
 
-            <div className="row column small-12 medium-12 icon-buttons">
+            <div className="row column sm12 md12 icon-buttons">
               <h2 className="title-XL mrg-L">Icon Button</h2>
               <div className="toggle-thumbs mrg-rght-XL">
                 <a href="javascript:void(0)" className="cart-button">
@@ -1146,7 +1146,7 @@ class WorkInProgress extends Component {
                 <span className="std-txt-label">ARIA focus</span>
               </div>
             </div>
-            <div className="row column small-12 medium-12 icon-buttons">
+            <div className="row column sm12 md12 icon-buttons">
               <div className="toggle-settings mrg-rght-XL">
                 <a href="javascript:void(0)" className="icon-button">
                   <span className="icon icon-hover" dangerouslySetInnerHTML={{__html: settingsImage}} ></span>
@@ -1481,7 +1481,7 @@ class WorkInProgress extends Component {
 
     <div className="color-swatches-block mrg-L fl-left">
       <h2 className="title title-L mrg-M">Product Swatches</h2>
-      <div className="color-swatches-list medium-8 large-8">
+      <div className="color-swatches-list md8 lg8">
         <ul className="list-product-colors-container swatches-grid">
           <li>
             <a href="javascript:void(0)" className="list-color-swatch list-color-swatch-active"></a>
@@ -1509,15 +1509,15 @@ class WorkInProgress extends Component {
           </li>
         </ul>
       </div><br/><br/><br/>
-      <div className="medium-5 large-5 small-12 column">
-        <div className="color-swatches-list medium-12 large-12 small-12">
+      <div className="md5 lg5 sm12 column">
+        <div className="color-swatches-list md12 lg12 sm12">
           <h2 className="title title-L mrg-M">Expand/Collapse</h2>
           <span className="std-txt-label">Large/XL Breakpoint</span>
           <div className="color-swatches-list-label">
-            <p className="medium-6 small-6 large-6 column">
+            <p className="md6 sm6 lg6 column">
               <span><strong>Color:</strong> Blue</span>
             </p>
-            <p className="medium-6 small-6 large-6 column">
+            <p className="md6 sm6 lg6 column">
               <a href="javascript:void(0)" className="show-all-cta">show all colors</a>
             </p>
           </div>
@@ -1647,13 +1647,13 @@ class WorkInProgress extends Component {
 
         <br/><br/><br/>
 
-        <div className="color-swatches-list medium-12 large-12 small-12">
+        <div className="color-swatches-list md12 lg12 sm12">
           <span className="std-txt-label">Small Breakpoint</span>
           <div className="color-swatches-list-label">
-            <p className="medium-6 small-6 large-6 column">
+            <p className="md6 sm6 lg6 column">
               <span><strong>Color:</strong> Blue</span>
             </p>
-            <p className="medium-6 small-6 large-6 column">
+            <p className="md6 sm6 lg6 column">
               <a href="javascript:void(0)" className="show-all-cta">show all colors</a>
             </p>
           </div>
@@ -1683,12 +1683,12 @@ class WorkInProgress extends Component {
           </div>
         </div><br/><br/><br/>
 
-        <div className="color-swatches-list medium-12 large-12 small-12">
+        <div className="color-swatches-list md12 lg12 sm12">
           <div className="color-swatches-list-label">
-            <p className="medium-6 small-6 large-6 column">
+            <p className="md6 sm6 lg6 column">
               <span><strong>Color:</strong> Blue</span>
             </p>
-            <p className="medium-6 small-6 large-6 column">
+            <p className="md6 sm6 lg6 column">
               <a href="javascript:void(0)" className="show-all-cta">fewer colors</a>
             </p>
           </div>
@@ -1741,9 +1741,9 @@ class WorkInProgress extends Component {
         </div>
       </div>
 
-      <div className="medium-5 large-5 small-12 column">
+      <div className="md5 lg5 sm12 column">
       <h2 className="title title-L mrg-M">Sizing</h2>
-        <div className="color-swatches-list medium-12 large-12 small-12">
+        <div className="color-swatches-list md12 lg12 sm12">
           <div className="color-swatches-medium mrg-L">
             <ul className="list-product-colors-container">
               <li>

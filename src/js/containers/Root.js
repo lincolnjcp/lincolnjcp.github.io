@@ -15,7 +15,7 @@ const Home = () => (
     <div className="design-system-inner-content">
         <div className="design-system-content">
             <div className="row">
-                <div className="small-12 columns">
+                <div className="sm12 columns">
                     <h1 className="title title-XL mrg-L">Home</h1>
                     <h2 className="std-txt std-txt-XL mrg-L max-width-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eu mattis orci. Nunc et ullamcorper quam, id dignissim lacus. </h2>
                 </div>
@@ -115,14 +115,14 @@ class App extends React.Component {
 
                     <div className="design-system-nav-mobile">
                         <div className="row expand design-system-nav-mobile-header">
-                            <div className="small-4 columns algn-lft no-side-padding">
+                            <div className="sm4 columns algn-lft no-side-padding">
                                 <a href="javascript:void();" className="button off-canvas-button" data-toggle="offCanvas" id="offCanvasBtn"><img src="/images/design-system/menu.svg" width="30" /></a>
                             </div>
-                            <div className="small-4 columns algn-mid no-side-padding"><Link to="/"><img src="/images/design-system/penny.svg" width="56" className="design-system-logo-mobile" /></Link></div>
-                            <div className="small-4 columns algn-rght no-side-padding"><a href="javascript:void(0)" className="js-search-toggle-mobile design-system-search-btn"><img src="/images/design-system/search.svg" width="34" /></a></div>
+                            <div className="sm4 columns algn-mid no-side-padding"><Link to="/"><img src="/images/design-system/penny.svg" width="56" className="design-system-logo-mobile" /></Link></div>
+                            <div className="sm4 columns algn-rght no-side-padding"><a href="javascript:void(0)" className="js-search-toggle-mobile design-system-search-btn"><img src="/images/design-system/search.svg" width="34" /></a></div>
                         </div>
                         <div className="row expand design-system-search-field">
-                            <div className="small-12">
+                            <div className="sm12">
                                 <input type="text" placeholder="Search" />
                             </div>
                         </div>

@@ -62,13 +62,13 @@ class ContentLoaders extends Component {
         return (
             <div>
                 <div className="row">
-                    <div className="small-12 columns">
+                    <div className="sm12 columns">
                         <h1 className="title title-XL mrg-L">Content Loaders</h1>
                         <h2 className="std-txt std-txt-XL mrg-L max-width-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h2>
                     </div>
                 </div>
                 <div className="row" id="code-generator">
-                    <div className="small-12 columns">
+                    <div className="sm12 columns">
                         <hr />
                         <h3 className="title title-L mrg-L">Code Generator</h3>
 
@@ -157,7 +157,7 @@ class ContentLoaders extends Component {
                                             {
                                                 html:`<[[format_tag_start]]div[[format_tag_end]] [[format_attribute_start]]class="[[format_attribute_end]][[format_tag_value_start]]row[[format_tag_value_end]][[format_attribute_start]]">[[format_attribute_end]]
                                                         [[format_tab_start]]<[[format_tag_start]]div[[format_tag_end]] [[format_attribute_start]]class="[[format_attribute_end]][[format_tag_value_start]]lazy-load-container code-generator-preview columns[[format_tag_value_end]][[format_attribute_start]]">[[format_attribute_end]]
-                                                            [[format_tab_start]]<[[format_tag_start]]div[[format_tag_end]] [[format_attribute_start]]class="[[format_attribute_end]][[format_tag_value_start]]lazy-load small-6 medium-4 large-3 xlarge-3 column lazy-load-1[[format_tag_value_end]][[format_attribute_start]]">[[format_attribute_end]]
+                                                            [[format_tab_start]]<[[format_tag_start]]div[[format_tag_end]] [[format_attribute_start]]class="[[format_attribute_end]][[format_tag_value_start]]lazy-load sm6 md4 lg3 xl3 column lazy-load-1[[format_tag_value_end]][[format_attribute_start]]">[[format_attribute_end]]
                                                                 [[format_tab_start]]<[[format_tag_start]]div[[format_tag_end]] [[format_attribute_start]]class="[[format_attribute_end]][[format_tag_value_end]][[format_tag_value_start]]lazy-border[[format_tag_value_end]][[format_tag_value_end]][[format_attribute_start]]">[[format_attribute_end]]
                                                                     [[format_tab_start]]<[[format_tag_start]]div[[format_tag_end]] [[format_attribute_start]]class="[[format_attribute_end]][[format_tag_value_start]]lazyload-bg lazyload-fade lazy-main[[format_tag_value_end]][[format_attribute_start]]">[[format_attribute_end]]<[[format_tag_start]]/div[[format_tag_end]]>[[format_tab_end]]
                                                                     [[format_tab_start]]<[[format_tag_start]]hr /[[format_tag_end]]>[[format_tab_end]]
@@ -168,7 +168,7 @@ class ContentLoaders extends Component {
                                                                     <[[format_tag_start]]/div[[format_tag_end]]>[[format_tab_end]]
                                                                 <[[format_tag_start]]/div[[format_tag_end]]>[[format_tab_end]]
                                                             <[[format_tag_start]]/div[[format_tag_end]]>[[format_tab_end]]
-                                                            [[format_tab_start]]<[[format_tag_start]]div[[format_tag_end]] [[format_attribute_start]]class="[[format_attribute_end]][[format_tag_value_start]]lazy-load small-6 medium-4 large-3 xlarge-3 column lazy-load-2[[format_tag_value_end]][[format_attribute_start]]">[[format_attribute_end]]
+                                                            [[format_tab_start]]<[[format_tag_start]]div[[format_tag_end]] [[format_attribute_start]]class="[[format_attribute_end]][[format_tag_value_start]]lazy-load sm6 md4 lg3 xl3 column lazy-load-2[[format_tag_value_end]][[format_attribute_start]]">[[format_attribute_end]]
                                                                 [[format_tab_start]]<[[format_tag_start]]div[[format_tag_end]] [[format_attribute_start]]class="[[format_attribute_end]][[format_tag_value_end]][[format_tag_value_start]]lazy-border[[format_tag_value_end]][[format_tag_value_end]][[format_attribute_start]]">[[format_attribute_end]]
                                                                     [[format_tab_start]]<[[format_tag_start]]div[[format_tag_end]] [[format_attribute_start]]class="[[format_attribute_end]][[format_tag_value_start]]lazyload-bg lazyload-fade lazy-main[[format_tag_value_end]][[format_attribute_start]]">[[format_attribute_end]]<[[format_tag_start]]/div[[format_tag_end]]>[[format_tab_end]]
                                                                     [[format_tab_start]]<[[format_tag_start]]hr /[[format_tag_end]]>[[format_tab_end]]
@@ -179,7 +179,7 @@ class ContentLoaders extends Component {
                                                                     <[[format_tag_start]]/div[[format_tag_end]]>[[format_tab_end]]
                                                                 <[[format_tag_start]]/div[[format_tag_end]]>[[format_tab_end]]
                                                             <[[format_tag_start]]/div[[format_tag_end]]>[[format_tab_end]]
-                                                            [[format_tab_start]]<[[format_tag_start]]div[[format_tag_end]] [[format_attribute_start]]class="[[format_attribute_end]][[format_tag_value_start]]lazy-load small-6 medium-4 large-3 xlarge-3 column lazy-load-3 hide-for-small-only[[format_tag_value_end]][[format_attribute_start]]">[[format_attribute_end]]
+                                                            [[format_tab_start]]<[[format_tag_start]]div[[format_tag_end]] [[format_attribute_start]]class="[[format_attribute_end]][[format_tag_value_start]]lazy-load sm6 md4 lg3 xl3 column lazy-load-3 hide-for-small-only[[format_tag_value_end]][[format_attribute_start]]">[[format_attribute_end]]
                                                                 [[format_tab_start]]<[[format_tag_start]]div[[format_tag_end]] [[format_attribute_start]]class="[[format_attribute_end]][[format_tag_value_end]][[format_tag_value_start]]lazy-border[[format_tag_value_end]][[format_tag_value_end]][[format_attribute_start]]">[[format_attribute_end]]
                                                                     [[format_tab_start]]<[[format_tag_start]]div[[format_tag_end]] [[format_attribute_start]]class="[[format_attribute_end]][[format_tag_value_start]]lazyload-bg lazyload-fade lazy-main[[format_tag_value_end]][[format_attribute_start]]">[[format_attribute_end]]<[[format_tag_start]]/div[[format_tag_end]]>[[format_tab_end]]
                                                                     [[format_tab_start]]<[[format_tag_start]]hr /[[format_tag_end]]>[[format_tab_end]]
@@ -190,7 +190,7 @@ class ContentLoaders extends Component {
                                                                     <[[format_tag_start]]/div[[format_tag_end]]>[[format_tab_end]]
                                                                 <[[format_tag_start]]/div[[format_tag_end]]>[[format_tab_end]]
                                                             <[[format_tag_start]]/div[[format_tag_end]]>[[format_tab_end]]
-                                                            [[format_tab_start]]<[[format_tag_start]]div[[format_tag_end]] [[format_attribute_start]]class="[[format_attribute_end]][[format_tag_value_start]]lazy-load small-6 medium-4 large-3 xlarge-3 column lazy-load-4 hide-for-small-only hide-for-medium-only[[format_tag_value_end]][[format_attribute_start]]">[[format_attribute_end]]
+                                                            [[format_tab_start]]<[[format_tag_start]]div[[format_tag_end]] [[format_attribute_start]]class="[[format_attribute_end]][[format_tag_value_start]]lazy-load sm6 md4 lg3 xl3 column lazy-load-4 hide-for-small-only hide-for-medium-only[[format_tag_value_end]][[format_attribute_start]]">[[format_attribute_end]]
                                                                 [[format_tab_start]]<[[format_tag_start]]div[[format_tag_end]] [[format_attribute_start]]class="[[format_attribute_end]][[format_tag_value_end]][[format_tag_value_start]]lazy-border[[format_tag_value_end]][[format_tag_value_end]][[format_attribute_start]]">[[format_attribute_end]]
                                                                     [[format_tab_start]]<[[format_tag_start]]div[[format_tag_end]] [[format_attribute_start]]class="[[format_attribute_end]][[format_tag_value_start]]lazyload-bg lazyload-fade lazy-main[[format_tag_value_end]][[format_attribute_start]]">[[format_attribute_end]]<[[format_tag_start]]/div[[format_tag_end]]>[[format_tab_end]]
                                                                     [[format_tab_start]]<[[format_tag_start]]hr /[[format_tag_end]]>[[format_tab_end]]
@@ -217,11 +217,11 @@ class ContentLoaders extends Component {
                     </div>
                 </div>
                 <div className="row" id="types">
-                    <div className="small-12 columns">
+                    <div className="sm12 columns">
                         <h3 className="title title-L mrg-M">Types</h3>
                         <p className="mrg-L max-width-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                        <div className="small-12 medium-12 columns">
-                            <div className="small-12 medium-4 columns">
+                        <div className="sm12 md12 columns">
+                            <div className="sm12 md4 columns">
                                 <div className="loader-container">
                                     <div className="loader-spin">
                                         <div className="loader-circle">
@@ -232,13 +232,13 @@ class ContentLoaders extends Component {
                                     </div>
                                 </div>
                             </div>
-                            <div className="small-12 medium-8 columns">
+                            <div className="sm12 md8 columns">
                                 <h4 className="title title-M mrg-L">Page</h4>
                                 <p className="max-width-text">Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec ullamcorper nulla non metus auctor fringilla. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. <br /><br /><br /><br /></p>
                             </div>
                         </div>
-                        <div className="small-12 medium-12 columns">
-                            <div className="small-12 medium-4 columns position-rel">
+                        <div className="sm12 md12 columns">
+                            <div className="sm12 md4 columns position-rel">
                                 <div className="loader-checkmark-container">
                                     <svg className="checkmark" version="1.1" xmlns="http://www.w3.org/2000/svg">
                                         <ellipse className="checkmark-circle"cx="32.5" cy="32.5" rx="30" ry="30" fill="none" />
@@ -250,20 +250,20 @@ class ContentLoaders extends Component {
                                     </div>
                                 </div>
                             </div>
-                            <div className="small-12 medium-8 columns">
+                            <div className="sm12 md8 columns">
                                 <h4 className="title title-M mrg-L">Progress</h4>
                                 <p className="max-width-text">Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec ullamcorper nulla non metus auctor fringilla. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. <br /><br /><br /><br /></p>
                             </div>
                         </div>
-                        <div className="small-12 medium-12 columns">
-                            <div className="small-12 medium-4 columns">
+                        <div className="sm12 md12 columns">
+                            <div className="sm12 md4 columns">
                                 <div className="section-container">
                                     <div className="shimmer-bg progressbar-1"></div>
                                     <div className="shimmer-bg progressbar-2"></div>
                                     <div className="shimmer-bg progressbar-3"></div>
                                 </div>
                             </div>
-                            <div className="small-12 medium-8 columns">
+                            <div className="sm12 md8 columns">
                                 <h4 className="title title-M mrg-L">Section</h4>
                                 <p className="max-width-text">Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec ullamcorper nulla non metus auctor fringilla. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. <br /><br /></p>
                             </div>
@@ -272,11 +272,11 @@ class ContentLoaders extends Component {
                 </div>
                 <hr />
                 <div className="row" id="lazy-load">
-                    <div className="small-12 columns">
+                    <div className="sm12 columns">
                         <h3 className="title title-L mrg-L">Lazy Load</h3>
                         <p className="max-width-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                         <div className="lazy-load-container lazy-load-container-preview columns">
-                            <div className="lazy-load small-6 medium-4 large-3 xlarge-3 column lazy-load-1">
+                            <div className="lazy-load sm6 md4 lg3 xl3 column lazy-load-1">
                                 <div className="lazy-border">
                                     <div className="lazyload-bg lazyload-fade lazy-main"></div>
                                     <hr />
@@ -287,7 +287,7 @@ class ContentLoaders extends Component {
                                     </div>
                                 </div>
                             </div>
-                            <div className="lazy-load small-6 medium-4 large-3 xlarge-3 column lazy-load-2">
+                            <div className="lazy-load sm6 md4 lg3 xl3 column lazy-load-2">
                                 <div className="lazy-border">
                                     <div className="lazyload-bg lazyload-fade lazy-main"></div>
                                     <hr />
@@ -298,7 +298,7 @@ class ContentLoaders extends Component {
                                     </div>
                                 </div>
                             </div>
-                            <div className="lazy-load small-6 medium-4 large-3 xlarge-3 column lazy-load-3 hide-for-small-only">
+                            <div className="lazy-load sm6 md4 lg3 xl3 column lazy-load-3 hide-for-small-only">
                                 <div className="lazy-border">
                                     <div className="lazyload-bg lazyload-fade lazy-main"></div>
                                     <hr />
@@ -309,7 +309,7 @@ class ContentLoaders extends Component {
                                     </div>
                                 </div>
                             </div>
-                            <div className="lazy-load small-6 medium-4 large-3 xlarge-3 column lazy-load-4 hide-for-small-only hide-for-medium-only">
+                            <div className="lazy-load sm6 md4 lg3 xl3 column lazy-load-4 hide-for-small-only hide-for-medium-only">
                                 <div className="lazy-border">
                                     <div className="lazyload-bg lazyload-fade lazy-main"></div>
                                     <hr />
@@ -325,7 +325,7 @@ class ContentLoaders extends Component {
                 </div>
                 <div className="bala"></div>
                 <div className="row">
-                    <div className="small-12 columns">
+                    <div className="sm12 columns">
                         <hr />
                         <p className="S">Created by: <strong>Tony Stark</strong> and <strong>Bruce Banner</strong>
                             <br /> Latest update: 04/05/2017</p>

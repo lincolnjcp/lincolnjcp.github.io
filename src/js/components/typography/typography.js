@@ -12,7 +12,7 @@ componentDidMount() {
     return (
 <div>
     <div className="row">
-        <div className="small-12 columns">
+        <div className="sm12 columns">
             <h1 className="title title-XL mrg-L">Typography</h1>
             <h2 className="std-txt std-txt-XL mrg-L max-width-text">Text is the primary way that users digest content and accomplish work, so it’s important to use good typographic principles to establish a clear visual hierarchy and to maximize legibility.<br /><br />
 
@@ -22,7 +22,7 @@ By consistently tying typographic styles to appropriate fuctions in the interfac
     </div>
     
     <div className="row" id="code-generator">
-        <div className="small-12 columns">
+        <div className="sm12 columns">
             
             <h3 className="title title-L mrg-L">Code Generator</h3>
             
@@ -268,7 +268,7 @@ By consistently tying typographic styles to appropriate fuctions in the interfac
     </div>
     
     <div className="row" id="price">
-        <div className="small-12 columns">
+        <div className="sm12 columns">
             <h3 className="title title-L mrg-L">Price <span className="design-system-css-class design-system-css-class-inline">class="price"</span></h3>
             <p className="mrg-L">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             <div className="mrg-L">
@@ -291,7 +291,7 @@ By consistently tying typographic styles to appropriate fuctions in the interfac
         </div>
     </div>
     <div className="row" id="title">
-        <div className="small-12 columns">
+        <div className="sm12 columns">
             <h3 className="title title-L mrg-L">Title <span className="design-system-css-class design-system-css-class-inline">class="title"</span></h3>
             <p className="mrg-L">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             <div className="mrg-L">
@@ -318,7 +318,7 @@ By consistently tying typographic styles to appropriate fuctions in the interfac
         </div>
     </div>
     <div className="row" id="standard-text">
-        <div className="small-12 columns">
+        <div className="sm12 columns">
             <h3 className="title title-L mrg-L">Standard Text <span className="design-system-css-class design-system-css-class-inline">class="std-txt"</span></h3>
             <p className="mrg-L">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             <div className="mrg-L">
@@ -342,7 +342,7 @@ By consistently tying typographic styles to appropriate fuctions in the interfac
     </div>
     
     <div className="row" id="copy">
-        <div className="small-12 columns">
+        <div className="sm12 columns">
             <h3 className="title title-L mrg-L">Copy <span className="design-system-css-class design-system-css-class-inline">&lt;p&gt;</span></h3>
             <p className="mrg-L">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             <div className="mrg-L">
@@ -357,7 +357,7 @@ By consistently tying typographic styles to appropriate fuctions in the interfac
         </div>
     </div>
     <div className="row" id="lists">
-        <div className="small-12 columns">
+        <div className="sm12 columns">
             <h3 className="title title-L mrg-L">Lists <span className="design-system-css-class design-system-css-class-inline">class=“list”</span></h3>
             <h5 className="title title-M mrg-S">Text Lists</h5>
             <p className="mrg-L">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -387,7 +387,7 @@ By consistently tying typographic styles to appropriate fuctions in the interfac
         </div>
     </div>
     <div className="row" id="links">
-        <div className="small-12 columns">
+        <div className="sm12 columns">
             <h3 className="title title-L mrg-L">Links</h3>
             <p className="mrg-L">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             <p className="mrg-L"><a href="javascript:void();">The quick brown fox jumps over the lazy dog.</a></p>
@@ -395,7 +395,7 @@ By consistently tying typographic styles to appropriate fuctions in the interfac
         </div>
     </div>
     <div className="row" id="promo-labels">
-        <div className="small-12 columns">
+        <div className="sm12 columns">
             <h3 className="title title-L mrg-L">Promo Labels <span className="design-system-css-class design-system-css-class-inline">class=“promo-lbl”</span></h3>
             <p className="mrg-L">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             <p className="promo-lbl promo-lbl-XL">Extra 20% Off</p>
@@ -409,7 +409,7 @@ By consistently tying typographic styles to appropriate fuctions in the interfac
         </div>
     </div>
     <div className="row">
-        <div className="small-12 columns">
+        <div className="sm12 columns">
             <hr />
             <p className="S">Created by: <strong>Tony Stark</strong> and <strong>Bruce Banner</strong>
                 <br /> Latest update: 04/05/2017</p>

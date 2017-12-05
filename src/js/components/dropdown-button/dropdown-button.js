@@ -20,44 +20,44 @@ class DropdownButton extends Component {
         return (
             <div id="dropdown-button">
                 <h1 className="title title-XL mrg-L">Dropdown Button</h1>
-                <div className="row medium-12 small-12 large-12 mrg-XL prevent-event">
-                    <div className="dropdown-menu-block small-12 medium-3 large-3 column">
+                <div className="row md12 sm12 lg12 mrg-XL prevent-event">
+                    <div className="dropdown-menu-block sm12 md3 lg3 column">
                         <a className="dropdown-button title-S">Product Type <span className="arrow"></span></a>
                         <span className="std-txt-label">Default</span>
                     </div>
-                    <div className="dropdown-menu-block small-12 medium-3 large-3 column">
+                    <div className="dropdown-menu-block sm12 md3 lg3 column">
                         <a className="dropdown-button title-S hover">Product Type <span className="arrow"></span></a>
                         <span className="std-txt-label">Hover</span>
                     </div>
-                    <div className="dropdown-menu-block small-12 medium-3 large-3 column">
+                    <div className="dropdown-menu-block sm12 md3 lg3 column">
                         <a className="dropdown-button title-S hover arrow-down">Product Type <span className="arrow"></span></a>
                         <span className="std-txt-label">Active</span>
                     </div>
-                    <div className="dropdown-menu-block small-12 medium-3 large-3 column">
+                    <div className="dropdown-menu-block sm12 md3 lg3 column">
                         <a className="dropdown-button title-S disabled">Product Type <span className="arrow"></span></a>
                         <span className="std-txt-label">Disabled</span>
                     </div>
                 </div>
-                <div className="row medium-12 small-12 large-12 mrg-XL prevent-event">
-                    <div className="dropdown-menu-block small-12 medium-3 large-3 column">
+                <div className="row md12 sm12 lg12 mrg-XL prevent-event">
+                    <div className="dropdown-menu-block sm12 md3 lg3 column">
                         <a className="dropdown-button title-S">Sort by: <span className="sortby">Featured</span> <span className="arrow"></span></a>
                         <span className="std-txt-label">Default with selected value</span>
                     </div>
-                    <div className="dropdown-menu-block small-12 medium-3 large-3 column">
+                    <div className="dropdown-menu-block sm12 md3 lg3 column">
                         <a className="dropdown-button title-S hover">Sort by: <span className="sortby">Featured</span> <span className="arrow"></span></a>
                         <span className="std-txt-label">Hover with selected value</span>
                     </div>
-                    <div className="dropdown-menu-block small-12 medium-3 large-3 column">
+                    <div className="dropdown-menu-block sm12 md3 lg3 column">
                         <a className="dropdown-button title-S hover arrow-down">Sort by: <span className="sortby">Featured</span> <span className="arrow"></span></a>
                         <span className="std-txt-label">Active with selected value</span>
                     </div>
-                    <div className="dropdown-menu-block small-12 medium-3 large-3 column">
+                    <div className="dropdown-menu-block sm12 md3 lg3 column">
                         <a className="dropdown-button title-S">Sort by: <span className="sortby">Ratings High to Low</span> <span className="arrow"></span></a>
                         <span className="std-txt-label">display text overflows in area</span>
                     </div>
                 </div>
-                <div className="row medium-12 small-12 large-12">
-                    <div className="dropdown-menu-block column medium-4 small-12 large-4">
+                <div className="row md12 sm12 lg12">
+                    <div className="dropdown-menu-block column md4 sm12 lg4">
                         <a className="dropdown-button title-S">Product Type <span className="arrow"></span></a>
                         <div className="dropdown-menu">
                             <ul className="tooltip tooltip-top-left tooltip-light dropdown-search-type">
@@ -166,7 +166,7 @@ class DropdownButton extends Component {
                         </div>
                     </div>
 
-                    <div className="dropdown-menu-block column medium-4 small-12 large-4">
+                    <div className="dropdown-menu-block column md4 sm12 lg4">
                         <a className="dropdown-button title-S">Product Type <span className="arrow"></span></a>
                         <div className="dropdown-menu">
                             <ul className="tooltip tooltip-top-left tooltip-light dropdown-search-type">
@@ -272,7 +272,7 @@ class DropdownButton extends Component {
                         </div>
                     </div>
 
-                    <div className="dropdown-menu-block column medium-4 small-12 large-4">
+                    <div className="dropdown-menu-block column md4 sm12 lg4">
                         <a className="dropdown-button title-S">Sort by: <span className="arrow"></span></a>
                         <div className="dropdown-menu">
                             <ul className="tooltip tooltip-top-left tooltip-light dropdown-sort">

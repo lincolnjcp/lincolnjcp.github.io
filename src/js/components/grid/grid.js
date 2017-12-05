@@ -9,7 +9,7 @@ componentDidMount() {
     return (
 <div>
     <div className="row">
-        <div className="small-12 columns">
+        <div className="sm12 columns">
             <h1 className="title title-XL mrg-L">Grid, Spacing &amp; Layout</h1>
             <h2 className="std-txt std-txt-XL mrg-L max-width-text">To promote a sense of visual harmony across a wide range of applications, the design system provides the following recommendations on how to combine components into complex patterns and screen layouts.<br /><br />
 There are two kinds of grids that occur within JCPenney eCommerce Platforms, horizontal and vertical. The following breakpoints have been designed to guide the layout and the scaling of elements across screen resolutions. <br /><br />
@@ -22,7 +22,7 @@ The screen sizes were determined by a combination of common screen resolutions, 
    
 
     <div className="row" id="horizontal-grid">
-        <div className="small-12 columns">
+        <div className="sm12 columns">
             <h3 className="title title-L mrg-L">Horizontal Grid</h3>
             <p className="mrg-L">The horizontal grid is key to understanding horizontal positioning of elements on a screen The horizontal grid contains the columns, gutters and margins of a page. Each column has a gutter on either side of the column. The margin is the padding on the outside of columns and gutters, and provides space outside of the content area</p>
             <h5 className="title title-M mrg-S">Horizontal Grid Layout</h5>
@@ -122,18 +122,18 @@ The screen sizes were determined by a combination of common screen resolutions, 
             
             <div className="design-system-grid-preview">
                 <div className="row">
-                    <div className="small-1 columns first"><div className="design-system-preview-inner"></div></div>
-                    <div className="small-1 columns"><div className="design-system-preview-inner"></div></div>
-                    <div className="small-1 columns"><div className="design-system-preview-inner"></div></div>
-                    <div className="small-1 columns"><div className="design-system-preview-inner"></div></div>
-                    <div className="small-1 columns"><div className="design-system-preview-inner"></div></div>
-                    <div className="small-1 columns"><div className="design-system-preview-inner"></div></div>
-                    <div className="small-1 columns"><div className="design-system-preview-inner"></div></div>
-                    <div className="small-1 columns"><div className="design-system-preview-inner"></div></div>
-                    <div className="small-1 columns"><div className="design-system-preview-inner"></div></div>
-                    <div className="small-1 columns"><div className="design-system-preview-inner"></div></div>
-                    <div className="small-1 columns"><div className="design-system-preview-inner"></div></div>
-                    <div className="small-1 columns last"><div className="design-system-preview-inner"></div></div>
+                    <div className="sm1 columns first"><div className="design-system-preview-inner"></div></div>
+                    <div className="sm1 columns"><div className="design-system-preview-inner"></div></div>
+                    <div className="sm1 columns"><div className="design-system-preview-inner"></div></div>
+                    <div className="sm1 columns"><div className="design-system-preview-inner"></div></div>
+                    <div className="sm1 columns"><div className="design-system-preview-inner"></div></div>
+                    <div className="sm1 columns"><div className="design-system-preview-inner"></div></div>
+                    <div className="sm1 columns"><div className="design-system-preview-inner"></div></div>
+                    <div className="sm1 columns"><div className="design-system-preview-inner"></div></div>
+                    <div className="sm1 columns"><div className="design-system-preview-inner"></div></div>
+                    <div className="sm1 columns"><div className="design-system-preview-inner"></div></div>
+                    <div className="sm1 columns"><div className="design-system-preview-inner"></div></div>
+                    <div className="sm1 columns last"><div className="design-system-preview-inner"></div></div>
                 </div>
             </div>
             <div className="design-system-grid-preview-labels mrg-L">
@@ -149,7 +149,7 @@ The screen sizes were determined by a combination of common screen resolutions, 
     </div>
 
     <div className="row" id="vertical-grid">
-        <div className="small-12 columns">
+        <div className="sm12 columns">
             <h3 className="title title-L mrg-L">Vertical Grid</h3>
             <p className="mrg-M">Our vertical baseline grid is the key to achieving vertical rhythm. Vertical rhythm is the balanced spacing of elements as the user moves down the page. It is created by three factors: font size, line height and margin or padding. The diagram below shows how vertical spacing in 10-pixel increments helps create hierarchy and harmony between text and containers. The 10px increment was determined by the base unit</p>
             <div className="mrg-M"><img src="/images/design-system/grids/grid-vertical-grid.jpg" alt="" /></div>
@@ -158,7 +158,7 @@ The screen sizes were determined by a combination of common screen resolutions, 
     </div>
 
     <div className="row" id="documentation">
-        <div className="small-12 columns">
+        <div className="sm12 columns">
             <h3 className="title title-L mrg-L">Documentation &amp; Articles</h3>
             <p className="mrg-M">General Breakdown of Spacing in Interactive Design<br />
             <a href="https://medium.com/eightshapes-llc/space-in-design-systems-188bcbae0d62#.u17jakpj2" target="_blank">https://medium.com/eightshapes-llc/space-in-design-systems-188bcbae0d62#.u17jakpj2</a><br /><br />
@@ -173,7 +173,7 @@ The screen sizes were determined by a combination of common screen resolutions, 
     
     
     <div className="row">
-        <div className="small-12 columns">
+        <div className="sm12 columns">
             <hr />
             <p className="S">Created by: <strong>Tony Stark</strong> and <strong>Bruce Banner</strong>
                 <br /> Latest update: 04/05/2017</p>

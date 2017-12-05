@@ -8,7 +8,26 @@
 @custom-media --viewport-lg (min-width: 1440px);
 @custom-media --viewport-xl (min-width: 1800px);
 
-
+.hide-for-xlarge {
+    @media (--viewport-xl) {
+        display: none;
+    }
+}
+.hide-for-large {
+    @media (--viewport-lg) {
+        display: none;
+    }
+}
+.hide-for-small-only {
+    @media (--viewport-md) {
+        display: none;
+    }
+}
+.hide-for-small-only {
+    @media (--viewport-sm) {
+        display: none;
+    }
+}
 /******************
 /* Vars
 /* File Paths

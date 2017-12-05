@@ -9,13 +9,13 @@ class Tables extends Component {
       <div>
       
     <div className="row">
-        <div className="small-12 columns">
+        <div className="sm12 columns">
             <h1 className="title title-XL mrg-L">Tables</h1>
             <h2 className="std-txt std-txt-XL mrg-L max-width-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h2>
         </div>
     </div>
     <div className="row" id="code-generator">
-        <div className="small-12 columns">
+        <div className="sm12 columns">
             <hr />
             <h3 className="title title-L mrg-L">Code Generator</h3>
 
@@ -191,7 +191,7 @@ class Tables extends Component {
         </div>
     </div>
     <div className="row" id="standard">
-        <div className="small-12 columns">
+        <div className="sm12 columns">
             <hr />
             <h3 className="title title-L mrg-L">Standard</h3>
             <p className="mrg-XL max-width-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -216,16 +216,16 @@ class Tables extends Component {
         </div>
     </div>
     <div className="row" id="feature">
-        <div className="small-12 columns">
+        <div className="sm12 columns">
             <hr />
             <h3 className="title title-L mrg-L">Feature</h3>
             <p className="mrg-XL max-width-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 
             <div className="row">
-                <div className="small-12 medium-4 large-2 columns">
+                <div className="sm12 md4 lg2 columns">
                     <h4 className="title title-XXL mrg-L">Tab Title</h4>
                 </div>
-                <div className="small-12 medium-8 large-10 columns">
+                <div className="sm12 md8 lg10 columns">
                     <table className="std-txt std-txt-S width-full mrg-L algn-lft" width="100%" border="0">
                         <tbody>
                             <tr>
@@ -251,7 +251,7 @@ class Tables extends Component {
         </div>
     </div>
     <div className="row">
-        <div className="small-12 columns">
+        <div className="sm12 columns">
             <hr />
             <p className="S">Created by: <strong>Tony Stark</strong> and <strong>Bruce Banner</strong>
                 <br /> Latest update: 04/05/2017</p>
