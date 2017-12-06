@@ -22,6 +22,7 @@ hr {
     border: none;
     border-top: 1px solid $color-concrete;
     margin: 20px 0;
+    clear: both;
 }
 
 .list {
@@ -340,7 +341,7 @@ p {
     text-align: right;
 }
 
-@include breakpoint(small only) {
+@media (--viewport-sm-only) {
     .algn-lft-S {
         text-align: left;
     }
@@ -352,7 +353,7 @@ p {
     }
 }
 
-@include breakpoint(medium only) {
+@media (--viewport-md-only) {
     .algn-lft-M {
         text-align: left;
     }
@@ -364,7 +365,7 @@ p {
     }
 }
 
-@include breakpoint(large only) {
+@media (--viewport-lg-only) {
     .algn-lft-L {
         text-align: left;
     }
@@ -376,7 +377,7 @@ p {
     }
 }
 
-@include breakpoint(xlarge only) {
+@media (--viewport-xl-only) {
     .algn-lft-XL {
         text-align: left;
     }

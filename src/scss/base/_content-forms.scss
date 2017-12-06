@@ -46,6 +46,26 @@
     }
   }
 
+  .input-text::-webkit-input-placeholder { /* WebKit browsers */
+    color: transparent;
+  }
+  .input-text::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: transparent;
+  }
+  .input-text:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color: transparent;
+  }
+
+  .input-text:focus::-webkit-input-placeholder { /* WebKit browsers */
+    color: $color-slate;
+  }
+  .input-text:focus::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: $color-slate;
+  }
+  .input-text:focus:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color: $color-slate;
+  }
+
   .search-icon, .tooltip-icon {
     position: absolute;
     right: 0;

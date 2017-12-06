@@ -1,1 +1,10 @@
-<svg id="icon_x2F_Utility_x2F_Ship_x2F_haul-away-Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48"><title>icon/Utility/Ship/haul-away</title><g id="icon_x2F_Utility_x2F_Ship_x2F_haul-away-Symbols"><g id="icon_x2F_Utility_x2F_Ship_x2F_haul-away"><g id="icon_x2F_Utility_x2F_Ship_x2F_haul-away-Icon" transform="translate(11 12)"><g id="icon_x2F_Utility_x2F_Ship_x2F_haul-away-Mask" transform="matrix(-1 0 0 1 26 0)"><path id="icon_x2F_Utility_x2F_Ship_x2F_haul-away-path-1_1_" d="M21.6 5.7c-.2-.4-.8-.7-1.2-.7-.2 0-.3.1-.4.1l-9.3 5-4.6-8.4c-.1-.1-.2-.2-.4-.3L.9 0C.5-.1.1.1 0 .5s.1.8.5.9L5 2.7l7.8 14.2c-1 .7-1.7 1.9-1.7 3.2 0 2.1 1.8 3.9 4 3.9s4-1.7 4-3.9c0-.6-.1-1.1-.3-1.6l6.8-3.6c.4-.3.5-1.1.3-1.5l-4.3-7.7zm-9.1 14.4c0-1.4 1.2-2.5 2.6-2.5s2.6 1.1 2.6 2.5-1.2 2.5-2.6 2.5c-1.5 0-2.6-1.1-2.6-2.5z" fill="#384048"/></g></g></g></g></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="icon_x2F_Utility_x2F_Ship_x2F_haul-away-Layer_1"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 48 48"
+	 style="enable-background:new 0 0 48 48;" xml:space="preserve">
+<path id="icon_x2F_Utility_x2F_Ship_x2F_haul-away-path-1_1_" style="fill:#111111;" d="M15.4,17.7c0.2-0.4,0.8-0.7,1.2-0.7
+	c0.2,0,0.3,0.1,0.4,0.1l9.3,5l4.6-8.4c0.1-0.1,0.2-0.2,0.4-0.3l4.8-1.4c0.4-0.1,0.8,0.1,0.9,0.5s-0.1,0.8-0.5,0.9L32,14.7l-7.8,14.2
+	c1,0.7,1.7,1.9,1.7,3.2c0,2.1-1.8,3.9-4,3.9s-4-1.7-4-3.9c0-0.6,0.1-1.1,0.3-1.6l-6.8-3.6c-0.4-0.3-0.5-1.1-0.3-1.5
+	C11.1,25.4,15.4,17.7,15.4,17.7z M24.5,32.1c0-1.4-1.2-2.5-2.6-2.5s-2.6,1.1-2.6,2.5c0,1.4,1.2,2.5,2.6,2.5
+	C23.4,34.6,24.5,33.5,24.5,32.1z"/>
+</svg>

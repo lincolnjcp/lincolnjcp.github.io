@@ -92,10 +92,12 @@ class CreateInput extends Component {
     //Rendering checkbox control
     renderCheckboxControl() {
         return (
-            <div>
+            <div className="row mrg-L">
+              <div className="sm12 columns select-form">
                 <label className="checkbox mrg-S">
                     <input type="checkbox" name={this.props.name} value={this.props.value} defaultChecked={this.props.defaultSelect} /> <span className="std-txt std-txt-S">{this.props.displayLabel}</span>
                 </label>
+              </div>
             </div>
         );
     }

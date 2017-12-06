@@ -52,12 +52,20 @@ class App extends React.Component {
 
         $(document).ready(function () {
 
-            $(".off-canvas").on("opened.zf.offcanvas", function (e) {
-                $(".design-system-nav-mobile").addClass("off-canvas-open");
+            $(".off-canvas-button").click(function () {
+                if($(this).hasClass('off-canvas-open')) {
+                    $(this).removeClass('off-canvas-open');
+                    $(".design-system-nav-mobile").removeClass("off-canvas-open");
+                    $(".off-canvas").removeClass("is-open");
+                    $(".off-canvas-content").removeClass("is-open-left").removeClass("has-transition-push").removeClass("has-position-left");
+                } else {
+                   $(this).addClass('off-canvas-open');
+                   $(".design-system-nav-mobile").addClass("off-canvas-open");
+                   $(".off-canvas").addClass("is-open");
+                   $(".off-canvas-content").addClass("is-open-left").addClass("has-transition-push").addClass("has-position-left");
+                }
             });
-            $(".off-canvas").on("closed.zf.offcanvas", function (e) {
-                $(".design-system-nav-mobile").removeClass("off-canvas-open");
-            });
+
             $(".js-menu-expand").click(function () {
                 var targetLI = $(this).closest("li");
                 var targetMenu = $(this).closest(".design-system-menu");

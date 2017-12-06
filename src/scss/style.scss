@@ -5,11 +5,6 @@
 
 @import 'helpers/_init';
 
-// @include foundation-global-styles;
-// @include foundation-grid;
-// @include foundation-visibility-classes;
-
-
 /* ---
 Base Styles
 --- */
@@ -39,7 +34,7 @@ Base Styles
 @import "base/_visual-nav";
 @import "base/_toggles";
 @import "base/_carousel";
-// @import "base/_additional-buttons";
+/* @import "base/_additional-buttons"; */
 @import "base/_tooltips";
 @import "base/_selectors";
 @import "../js/components/work-in-progress/_work-in-progress";

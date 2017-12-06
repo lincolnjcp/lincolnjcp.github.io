@@ -3,7 +3,7 @@ webpackJsonp([0],{
 /***/ "+Yl1":
 /***/ (function(module, exports) {
 
-module.exports = "<svg id=\"icon_x2F_Social_x2F_youtube-line-Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 48 48\" enable-background=\"new 0 0 48 48\"><title>icon/Social/youtube-line</title><g id=\"icon_x2F_Social_x2F_youtube-line-Symbols\"><g id=\"icon_x2F_Social_x2F_youtube-line\"><g id=\"icon_x2F_Social_x2F_youtube-line-Icon\" transform=\"translate(8 8)\"><g id=\"icon_x2F_Social_x2F_youtube-line-Mask\"><path id=\"icon_x2F_Social_x2F_youtube-line-path-1_1_\" d=\"M16 0c8.8 0 16 7.2 16 16s-7.2 16-16 16S0 24.8 0 16 7.2 0 16 0zm0 30.2c7.8 0 14.2-6.3 14.2-14.2S23.8 1.8 16 1.8 1.8 8.2 1.8 16 8.2 30.2 16 30.2zm8.7-20c.6.6.8 1.9.8 1.9s.2 1.6.2 3.1v1.5c0 1.6-.2 3.1-.2 3.1s-.2 1.3-.8 1.9c-.7.8-1.6.8-1.9.8-2.7.2-6.7.2-6.7.2s-5 0-6.5-.2c-.4-.1-1.4-.1-2.1-.8-.6-.6-.8-1.9-.8-1.9s-.2-1.6-.2-3.1v-1.5c0-1.6.2-3.1.2-3.1s.2-1.3.8-1.9c.7-.8 1.6-.8 1.9-.8 2.6-.3 6.6-.3 6.6-.3s4 0 6.7.2c.4.1 1.3.1 2 .9zM14 18.4l5.2-2.7L14 13v5.4z\" fill=\"#384048\"/></g><defs><filter id=\"icon_x2F_Social_x2F_youtube-line-Adobe_OpacityMaskFilter\" filterUnits=\"userSpaceOnUse\" x=\"-8\" y=\"-8\" width=\"48\" height=\"48\"><feColorMatrix values=\"1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0\"/></filter></defs><mask maskUnits=\"userSpaceOnUse\" x=\"-8\" y=\"-8\" width=\"48\" height=\"48\" id=\"icon_x2F_Social_x2F_youtube-line-mask-2\"><g filter=\"url(#icon_x2F_Social_x2F_youtube-line-Adobe_OpacityMaskFilter)\"><path id=\"icon_x2F_Social_x2F_youtube-line-path-1\" d=\"M16 0c8.8 0 16 7.2 16 16s-7.2 16-16 16S0 24.8 0 16 7.2 0 16 0zm0 30.2c7.8 0 14.2-6.3 14.2-14.2S23.8 1.8 16 1.8 1.8 8.2 1.8 16 8.2 30.2 16 30.2zm8.7-20c.6.6.8 1.9.8 1.9s.2 1.6.2 3.1v1.5c0 1.6-.2 3.1-.2 3.1s-.2 1.3-.8 1.9c-.7.8-1.6.8-1.9.8-2.7.2-6.7.2-6.7.2s-5 0-6.5-.2c-.4-.1-1.4-.1-2.1-.8-.6-.6-.8-1.9-.8-1.9s-.2-1.6-.2-3.1v-1.5c0-1.6.2-3.1.2-3.1s.2-1.3.8-1.9c.7-.8 1.6-.8 1.9-.8 2.6-.3 6.6-.3 6.6-.3s4 0 6.7.2c.4.1 1.3.1 2 .9zM14 18.4l5.2-2.7L14 13v5.4z\" fill=\"#fff\"/></g></mask><g id=\"icon_x2F_Social_x2F_youtube-line-Color_x2F_Grayscale_x2F_Night-Sky\" mask=\"url(#icon_x2F_Social_x2F_youtube-line-mask-2)\"><path fill=\"#111\" d=\"M0 0h48v48H0z\" transform=\"translate(-8 -8)\" id=\"icon_x2F_Social_x2F_youtube-line-Swatch\"/></g></g></g></g></svg>"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"icon_x2F_Social_x2F_youtube-line-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"icon_x2F_Social_x2F_youtube-line-path-1_1_\" style=\"fill:#111111;\" d=\"M24,8c8.8,0,16,7.2,16,16s-7.2,16-16,16\r\n\tS8,32.8,8,24S15.2,8,24,8z M24,38.2c7.8,0,14.2-6.3,14.2-14.2S31.8,9.8,24,9.8S9.8,16.2,9.8,24S16.2,38.2,24,38.2z M32.7,18.2\r\n\tc0.6,0.6,0.8,1.9,0.8,1.9s0.2,1.6,0.2,3.1v1.5c0,1.6-0.2,3.1-0.2,3.1s-0.2,1.3-0.8,1.9c-0.7,0.8-1.6,0.8-1.9,0.8\r\n\tc-2.7,0.2-6.7,0.2-6.7,0.2s-5,0-6.5-0.2c-0.4-0.1-1.4-0.1-2.1-0.8c-0.6-0.6-0.8-1.9-0.8-1.9s-0.2-1.6-0.2-3.1v-1.5\r\n\tc0-1.6,0.2-3.1,0.2-3.1s0.2-1.3,0.8-1.9c0.7-0.8,1.6-0.8,1.9-0.8c2.6-0.3,6.6-0.3,6.6-0.3s4,0,6.7,0.2C31.1,17.4,32,17.4,32.7,18.2z\r\n\t M22,26.4l5.2-2.7L22,21V26.4z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
@@ -245,14 +245,14 @@ var _temp = function () {
 /***/ "+zNw":
 /***/ (function(module, exports) {
 
-module.exports = "<svg id=\"action-zoom-in-fill-Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 48 48\" enable-background=\"new 0 0 48 48\"><title>icon/Action/zoom-in-fill</title><g transform=\"translate(12 12)\"><path id=\"action-zoom-in-fill-a_1_\" d=\"M23.6 20.9c.6.6.6 1.6-.1 2.4-.5.5-1 .7-1.5.7-.4 0-.8-.1-1.1-.4-.7-.7-6-5.9-7.1-7-1.4.9-3.1 1.4-4.8 1.4-5 0-9-4-9-9s4-9 9-9 9 4 9 9c0 1.8-.5 3.6-1.6 5.1 1.3 1.1 6.5 6.2 7.2 6.8zM12.5 8.3H9.7V5.5c0-.4-.3-.7-.7-.7s-.7.3-.7.7v2.8H5.5c-.4 0-.7.3-.7.7 0 .4.3.7.7.7h2.9v2.8c0 .4.3.7.7.7s.7-.3.7-.7V9.7h2.8c.4 0 .7-.3.7-.7s-.4-.7-.8-.7z\" fill=\"#384048\"/><defs><filter id=\"action-zoom-in-fill-Adobe_OpacityMaskFilter\" filterUnits=\"userSpaceOnUse\" x=\"-12\" y=\"-12\" width=\"48\" height=\"48\"><feColorMatrix values=\"1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0\"/></filter></defs><mask maskUnits=\"userSpaceOnUse\" x=\"-12\" y=\"-12\" width=\"48\" height=\"48\" id=\"action-zoom-in-fill-b\"><g filter=\"url(#action-zoom-in-fill-Adobe_OpacityMaskFilter)\"><path id=\"action-zoom-in-fill-a\" d=\"M23.6 20.9c.6.6.6 1.6-.1 2.4-.5.5-1 .7-1.5.7-.4 0-.8-.1-1.1-.4-.7-.7-6-5.9-7.1-7-1.4.9-3.1 1.4-4.8 1.4-5 0-9-4-9-9s4-9 9-9 9 4 9 9c0 1.8-.5 3.6-1.6 5.1 1.3 1.1 6.5 6.2 7.2 6.8zM12.5 8.3H9.7V5.5c0-.4-.3-.7-.7-.7s-.7.3-.7.7v2.8H5.5c-.4 0-.7.3-.7.7 0 .4.3.7.7.7h2.9v2.8c0 .4.3.7.7.7s.7-.3.7-.7V9.7h2.8c.4 0 .7-.3.7-.7s-.4-.7-.8-.7z\" fill=\"#fff\"/></g></mask><g mask=\"url(#action-zoom-in-fill-b)\"><path d=\"M-12-12h48v48h-48v-48z\" fill=\"#111\"/></g></g></svg>"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"action-zoom-in-fill-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"action-zoom-in-fill-a_1_\" style=\"fill:#111111;\" d=\"M35.6,32.9c0.6,0.6,0.6,1.6-0.1,2.4C35,35.8,34.5,36,34,36\r\n\tc-0.4,0-0.8-0.1-1.1-0.4c-0.7-0.7-6-5.9-7.1-7C24.4,29.5,22.7,30,21,30c-5,0-9-4-9-9s4-9,9-9s9,4,9,9c0,1.8-0.5,3.6-1.6,5.1\r\n\tC29.7,27.2,34.9,32.3,35.6,32.9z M24.5,20.3h-2.8v-2.8c0-0.4-0.3-0.7-0.7-0.7s-0.7,0.3-0.7,0.7v2.8h-2.8c-0.4,0-0.7,0.3-0.7,0.7\r\n\ts0.3,0.7,0.7,0.7h2.9v2.8c0,0.4,0.3,0.7,0.7,0.7c0.4,0,0.7-0.3,0.7-0.7v-2.8h2.8c0.4,0,0.7-0.3,0.7-0.7S24.9,20.3,24.5,20.3z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "/KOU":
 /***/ (function(module, exports) {
 
-module.exports = "<svg id=\"action-heart-fill-Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 48 48\" enable-background=\"new 0 0 48 48\"><title>icon/Action/heart-fill</title><g transform=\"translate(11 12)\"><path id=\"action-heart-fill-a_1_\" d=\"M18.7 0C15.4 0 13 3.4 13 3.4S10.8 0 7.3 0C5.6 0 3.9.8 2.7 2 1.1 3.6 0 5.6 0 7.9c0 2.3 1 4.4 2.5 6l8.9 9.2c.4.5 1 .9 1.6.9s1.3-.4 1.7-.9l8.9-9.2c1.5-1.6 2.4-3.7 2.3-6 0-2.3-1-4.3-2.5-5.9-1.2-1.2-3-2-4.7-2\" fill=\"#384048\"/><defs><filter id=\"action-heart-fill-Adobe_OpacityMaskFilter\" filterUnits=\"userSpaceOnUse\" x=\"-11\" y=\"-12\" width=\"48\" height=\"48\"><feColorMatrix values=\"1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0\"/></filter></defs><mask maskUnits=\"userSpaceOnUse\" x=\"-11\" y=\"-12\" width=\"48\" height=\"48\" id=\"action-heart-fill-b\"><g filter=\"url(#action-heart-fill-Adobe_OpacityMaskFilter)\"><path id=\"action-heart-fill-a\" d=\"M18.7 0C15.4 0 13 3.4 13 3.4S10.8 0 7.3 0C5.6 0 3.9.8 2.7 2 1.1 3.6 0 5.6 0 7.9c0 2.3 1 4.4 2.5 6l8.9 9.2c.4.5 1 .9 1.6.9s1.3-.4 1.7-.9l8.9-9.2c1.5-1.6 2.4-3.7 2.3-6 0-2.3-1-4.3-2.5-5.9-1.2-1.2-3-2-4.7-2\" fill=\"#fff\"/></g></mask><g mask=\"url(#action-heart-fill-b)\"><path d=\"M-11-12h48v48h-48v-48z\" fill=\"#111\"/></g></g></svg>"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"action-heart-fill-Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"\r\n\t x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\" style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"action-heart-fill-a_1_\" style=\"fill:#111111;\" d=\"M29.7,12c-3.3,0-5.7,3.4-5.7,3.4S21.8,12,18.3,12c-1.7,0-3.4,0.8-4.6,2\r\n\tc-1.6,1.6-2.7,3.6-2.7,5.9s1,4.4,2.5,6l8.9,9.2c0.4,0.5,1,0.9,1.6,0.9s1.3-0.4,1.7-0.9l8.9-9.2c1.5-1.6,2.4-3.7,2.3-6\r\n\tc0-2.3-1-4.3-2.5-5.9C33.2,12.8,31.4,12,29.7,12\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
@@ -269,14 +269,14 @@ module.exports = __webpack_require__("Lp72");
 /***/ "0nNs":
 /***/ (function(module, exports) {
 
-module.exports = "<svg id=\"icon_x2F_Utility_x2F_Media_x2F_video-Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 48 48\" enable-background=\"new 0 0 48 48\"><title>icon/Utility/Media/video</title><g id=\"icon_x2F_Utility_x2F_Media_x2F_video-Symbols\"><g id=\"icon_x2F_Utility_x2F_Media_x2F_video\"><g id=\"icon_x2F_Utility_x2F_Media_x2F_video-Icon\" transform=\"translate(10 14)\"><g id=\"icon_x2F_Utility_x2F_Media_x2F_video-Mask\"><path id=\"icon_x2F_Utility_x2F_Media_x2F_video-path-1_1_\" d=\"M27.3.1c-.4-.2-1-.1-1.3.2l-7.1 6.2V2.4c0-.8-.6-1.4-1.4-1.4H1.4C.6 1 0 1.6 0 2.4v15.2c0 .8.6 1.4 1.4 1.4h16.1c.8 0 1.4-.6 1.4-1.4v-4.1l7.1 6.2c.2.2.5.3.8.3.2 0 .3 0 .5-.1.4-.2.7-.6.7-1.1V1.2c0-.5-.3-.9-.7-1.1\" fill=\"#384048\"/></g><defs><filter id=\"icon_x2F_Utility_x2F_Media_x2F_video-Adobe_OpacityMaskFilter\" filterUnits=\"userSpaceOnUse\" x=\"-10\" y=\"-14\" width=\"48\" height=\"48\"><feColorMatrix values=\"1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0\"/></filter></defs><mask maskUnits=\"userSpaceOnUse\" x=\"-10\" y=\"-14\" width=\"48\" height=\"48\" id=\"icon_x2F_Utility_x2F_Media_x2F_video-mask-2\"><g filter=\"url(#icon_x2F_Utility_x2F_Media_x2F_video-Adobe_OpacityMaskFilter)\"><path id=\"icon_x2F_Utility_x2F_Media_x2F_video-path-1\" d=\"M27.3.1c-.4-.2-1-.1-1.3.2l-7.1 6.2V2.4c0-.8-.6-1.4-1.4-1.4H1.4C.6 1 0 1.6 0 2.4v15.2c0 .8.6 1.4 1.4 1.4h16.1c.8 0 1.4-.6 1.4-1.4v-4.1l7.1 6.2c.2.2.5.3.8.3.2 0 .3 0 .5-.1.4-.2.7-.6.7-1.1V1.2c0-.5-.3-.9-.7-1.1\" fill=\"#fff\"/></g></mask><g id=\"icon_x2F_Utility_x2F_Media_x2F_video-Color_x2F_Grayscale_x2F_Night-Sky\" mask=\"url(#icon_x2F_Utility_x2F_Media_x2F_video-mask-2)\"><path fill=\"#111\" d=\"M0 0h48v48H0z\" transform=\"translate(-10 -14)\" id=\"icon_x2F_Utility_x2F_Media_x2F_video-Swatch\"/></g></g></g></g></svg>"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"icon_x2F_Utility_x2F_Media_x2F_video-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"icon_x2F_Utility_x2F_Media_x2F_video-path-1_1_\" style=\"fill:#111111;\" d=\"M37.3,14.1c-0.4-0.2-1-0.1-1.3,0.2l-7.1,6.2\r\n\tv-4.1c0-0.8-0.6-1.4-1.4-1.4H11.4c-0.8,0-1.4,0.6-1.4,1.4v15.2c0,0.8,0.6,1.4,1.4,1.4h16.1c0.8,0,1.4-0.6,1.4-1.4v-4.1l7.1,6.2\r\n\tc0.2,0.2,0.5,0.3,0.8,0.3c0.2,0,0.3,0,0.5-0.1c0.4-0.2,0.7-0.6,0.7-1.1V15.2C38,14.7,37.7,14.3,37.3,14.1\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "1DLX":
 /***/ (function(module, exports) {
 
-module.exports = "<svg id=\"new-googleplus-fill-Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 48 48\"><g fill=\"#111\"><path d=\"M23.6 19.6c-.2-1.8-1.4-3.3-2.8-3.3s-2.3 1.3-2 3.1c.2 1.8 1.5 3 2.9 3.1 1.3.1 2.1-1.1 1.9-2.9zM21.4 26.2c-2 0-3.8 1.3-3.8 2.8 0 1.5 1.5 2.8 3.5 2.8 2.6 0 3.8-1.2 3.8-2.7.1-1.5-1.3-2.9-3.5-2.9z\"/><path d=\"M24 8C15.2 8 8 15.2 8 24s7.2 16 16 16 16-7.2 16-16S32.8 8 24 8zm-2.9 24.8c-2.9 0-5.4-1.3-5.4-3.4 0-1.6 1-3.8 5.9-3.8-.7-.6-.9-1.4-.5-2.3-2.9 0-4.3-1.7-4.3-3.8 0-2.1 1.5-4 4.7-4h5.1l-1.1 1.1h-1.3c.9.6 1.4 1.7 1.4 2.9 0 1.1-.6 2-1.5 2.7-1.6 1.2-1.2 1.9.5 3.1 1.6 1.2 2.1 2.1 2.1 3.6 0 1.7-1.6 3.9-5.6 3.9zm11.2-8.9h-2v2h-1.2v-2h-1.9v-1.2h1.9v-1.9h1.2v1.9h2v1.2z\"/></g></svg>"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"new-googleplus-fill-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path style=\"fill:#111111;\" d=\"M23.6,19.6c-0.2-1.8-1.4-3.3-2.8-3.3s-2.3,1.3-2,3.1c0.2,1.8,1.5,3,2.9,3.1\r\n\tC23,22.6,23.8,21.4,23.6,19.6z M21.4,26.2c-2,0-3.8,1.3-3.8,2.8s1.5,2.8,3.5,2.8c2.6,0,3.8-1.2,3.8-2.7C25,27.6,23.6,26.2,21.4,26.2\r\n\tz\"/>\r\n<path style=\"fill:#111111;\" d=\"M24,8C15.2,8,8,15.2,8,24s7.2,16,16,16s16-7.2,16-16S32.8,8,24,8z M21.1,32.8c-2.9,0-5.4-1.3-5.4-3.4\r\n\tc0-1.6,1-3.8,5.9-3.8c-0.7-0.6-0.9-1.4-0.5-2.3c-2.9,0-4.3-1.7-4.3-3.8s1.5-4,4.7-4h5.1l-1.1,1.1h-1.3c0.9,0.6,1.4,1.7,1.4,2.9\r\n\tc0,1.1-0.6,2-1.5,2.7c-1.6,1.2-1.2,1.9,0.5,3.1c1.6,1.2,2.1,2.1,2.1,3.6C26.7,30.6,25.1,32.8,21.1,32.8z M32.3,23.9h-2v2h-1.2v-2\r\n\th-1.9v-1.2h1.9v-1.9h1.2v1.9h2V23.9z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
@@ -290,35 +290,35 @@ module.exports = "<svg id=\"payment-card-visa-Layer_1\" xmlns=\"http://www.w3.or
 /***/ "2Oo2":
 /***/ (function(module, exports) {
 
-module.exports = "<svg id=\"new-facebook-line-Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 48 48\"><g id=\"new-facebook-line-Mask\"><path id=\"new-facebook-line-path-1_1_\" d=\"M25.3 32.6v-7.9H28l.4-3.1h-3v-2c0-.9.2-1.5 1.5-1.5h1.6v-2.7c-.3 0-1.2-.1-2.4-.1-2.3 0-3.9 1.4-3.9 4v2.3h-2.6v3.1h2.6v7.9h3.1z\" fill=\"#111\"/></g><g id=\"new-facebook-line-Mask_1_\"><path id=\"new-facebook-line-path-1_2_\" d=\"M24 8c8.8 0 16 7.2 16 16s-7.2 16-16 16S8 32.8 8 24 15.2 8 24 8zm0 30.2c7.8 0 14.2-6.3 14.2-14.2S31.8 9.8 24 9.8 9.8 16.2 9.8 24 16.2 38.2 24 38.2z\" fill=\"#111\"/></g></svg>"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"new-facebook-line-Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"\r\n\t x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\" style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"new-facebook-line-path-1_1_\" style=\"fill:#111111;\" d=\"M25.3,32.6v-7.9H28l0.4-3.1h-3v-2c0-0.9,0.2-1.5,1.5-1.5h1.6v-2.7\r\n\tc-0.3,0-1.2-0.1-2.4-0.1c-2.3,0-3.9,1.4-3.9,4v2.3h-2.6v3.1h2.6v7.9C22.2,32.6,25.3,32.6,25.3,32.6z\"/>\r\n<path id=\"new-facebook-line-path-1_2_\" style=\"fill:#111111;\" d=\"M24,8c8.8,0,16,7.2,16,16s-7.2,16-16,16S8,32.8,8,24S15.2,8,24,8z\r\n\t M24,38.2c7.8,0,14.2-6.3,14.2-14.2S31.8,9.8,24,9.8S9.8,16.2,9.8,24S16.2,38.2,24,38.2z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "2r0G":
 /***/ (function(module, exports) {
 
-module.exports = "<svg id=\"icon_x2F_Utility_x2F_Media_x2F_play-Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 48 48\" enable-background=\"new 0 0 48 48\"><title>icon/Utility/Media/play</title><g id=\"icon_x2F_Utility_x2F_Media_x2F_play-Symbols\"><g id=\"icon_x2F_Utility_x2F_Media_x2F_play\"><g id=\"icon_x2F_Utility_x2F_Media_x2F_play-Icon\" transform=\"translate(16 12)\"><g id=\"icon_x2F_Utility_x2F_Media_x2F_play-Mask\"><path id=\"icon_x2F_Utility_x2F_Media_x2F_play-path-1_1_\" d=\"M15.6 11L1.6.2C1.3 0 .9-.1.5.1.2.3 0 .7 0 1.2l.1 21.7c0 .4.2.8.5 1 .1.1.3.1.5.1s.4-.1.6-.2l13.9-10.9c.3-.2.4-.6.4-1 0-.3-.2-.7-.4-.9\" fill=\"#384048\"/></g><defs><filter id=\"icon_x2F_Utility_x2F_Media_x2F_play-Adobe_OpacityMaskFilter\" filterUnits=\"userSpaceOnUse\" x=\"-16\" y=\"-12\" width=\"48\" height=\"48\"><feColorMatrix values=\"1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0\"/></filter></defs><mask maskUnits=\"userSpaceOnUse\" x=\"-16\" y=\"-12\" width=\"48\" height=\"48\" id=\"icon_x2F_Utility_x2F_Media_x2F_play-mask-2\"><g filter=\"url(#icon_x2F_Utility_x2F_Media_x2F_play-Adobe_OpacityMaskFilter)\"><path id=\"icon_x2F_Utility_x2F_Media_x2F_play-path-1\" d=\"M15.6 11L1.6.2C1.3 0 .9-.1.5.1.2.3 0 .7 0 1.2l.1 21.7c0 .4.2.8.5 1 .1.1.3.1.5.1s.4-.1.6-.2l13.9-10.9c.3-.2.4-.6.4-1 0-.3-.2-.7-.4-.9\" fill=\"#fff\"/></g></mask><g id=\"icon_x2F_Utility_x2F_Media_x2F_play-Color_x2F_Grayscale_x2F_Night-Sky\" mask=\"url(#icon_x2F_Utility_x2F_Media_x2F_play-mask-2)\"><path fill=\"#111\" d=\"M0 0h48v48H0z\" transform=\"translate(-16 -12)\" id=\"icon_x2F_Utility_x2F_Media_x2F_play-Swatch\"/></g></g></g></g></svg>"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"icon_x2F_Utility_x2F_Media_x2F_play-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"icon_x2F_Utility_x2F_Media_x2F_play-path-1_1_\" style=\"fill:#111111;\" d=\"M31.6,23l-14-10.8c-0.3-0.2-0.7-0.3-1.1-0.1\r\n\tc-0.3,0.2-0.5,0.6-0.5,1.1l0.1,21.7c0,0.4,0.2,0.8,0.5,1c0.1,0.1,0.3,0.1,0.5,0.1c0.2,0,0.4-0.1,0.6-0.2l13.9-10.9\r\n\tc0.3-0.2,0.4-0.6,0.4-1C32,23.6,31.8,23.2,31.6,23\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "39nX":
 /***/ (function(module, exports) {
 
-module.exports = "<svg id=\"action-thumbsup-line-Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 48 48\" enable-background=\"new 0 0 48 48\"><title>icon/Action/thumbsup-line</title><g transform=\"translate(12 12)\"><path d=\"M22.8 8.4h-5.7c-.7 0-1.2.5-1.2 1.2v.2c-1-.2-1.8-.8-2.4-1.6L12.1 5v-.1c-.2-.4-.3-.8-.3-1.5V2c0-1.1-.9-2-2-2h-.6C7.3 0 5.8 1.5 5.8 3.4V4c0 .4 0 .7.1.9l.3 2.9-3.7 1C.7 9.3-.3 11.2.2 12.9L2 21.3c.4 1.5 1.7 2.5 3.3 2.5l6 .2c.9 0 1.9-.4 2.5-1.1l.6-.7c.2-.1.7-.1 1.6-.1v.2c0 .7.5 1.2 1.2 1.2h5.7c.7 0 1.2-.5 1.2-1.2V9.6c-.1-.7-.6-1.2-1.3-1.2zm-9.4 12.8l-.7.8c-.4.4-.9.7-1.5.7l-6-.2c-.9 0-1.7-.6-1.9-1.5l-1.8-8.4c-.3-1.1.3-2.1 1.3-2.5L7.1 9c.3 0 .5-.3.5-.7l-.4-3.5v-.1c0-.2-.1-.4-.1-.7v-.6c0-1.1.9-2 2-2h.5c.4 0 .6.3.7.6v1.3c0 1 .2 1.6.5 2.2l1.4 3.3s0 .1.1.1c.8 1.3 2.1 2.1 3.6 2.3v9.5c-1.4 0-2.1.1-2.5.5zm3.9-11.5h5.3v12.4h-5.3V9.7z\" fill=\"#384048\"/><defs><filter id=\"action-thumbsup-line-Adobe_OpacityMaskFilter\" filterUnits=\"userSpaceOnUse\" x=\"-10.6\" y=\"-11.5\" width=\"46\" height=\"46\"><feColorMatrix values=\"1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0\"/></filter></defs><mask maskUnits=\"userSpaceOnUse\" x=\"-10.6\" y=\"-11.5\" width=\"46\" height=\"46\" id=\"action-thumbsup-line-b\"><path d=\"M22.8 8.4h-5.7c-.7 0-1.2.5-1.2 1.2v.2c-1-.2-1.8-.8-2.4-1.6L12.1 5v-.1c-.2-.4-.3-.8-.3-1.5V2c0-1.1-.9-2-2-2h-.6C7.3 0 5.8 1.5 5.8 3.4V4c0 .4 0 .7.1.9l.3 2.9-3.7 1C.7 9.3-.3 11.2.2 12.9L2 21.3c.4 1.5 1.7 2.5 3.3 2.5l6 .2c.9 0 1.9-.4 2.5-1.1l.6-.7c.2-.1.7-.1 1.6-.1v.2c0 .7.5 1.2 1.2 1.2h5.7c.7 0 1.2-.5 1.2-1.2V9.6c-.1-.7-.6-1.2-1.3-1.2zm-9.4 12.8l-.7.8c-.4.4-.9.7-1.5.7l-6-.2c-.9 0-1.7-.6-1.9-1.5l-1.8-8.4c-.3-1.1.3-2.1 1.3-2.5L7.1 9c.3 0 .5-.3.5-.7l-.4-3.5v-.1c0-.2-.1-.4-.1-.7v-.6c0-1.1.9-2 2-2h.5c.4 0 .6.3.7.6v1.3c0 1 .2 1.6.5 2.2l1.4 3.3s0 .1.1.1c.8 1.3 2.1 2.1 3.6 2.3v9.5c-1.4 0-2.1.1-2.5.5zm3.9-11.5h5.3v12.4h-5.3V9.7z\" fill=\"#fff\" filter=\"url(#action-thumbsup-line-Adobe_OpacityMaskFilter)\"/></mask><g mask=\"url(#action-thumbsup-line-b)\"><path d=\"M-10.6-11.5h46v46h-46v-46z\" fill=\"#111\"/></g></g></svg>"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"action-thumbsup-line-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path style=\"fill:#111111;\" d=\"M34.8,20.4h-5.7c-0.7,0-1.2,0.5-1.2,1.2v0.2c-1-0.2-1.8-0.8-2.4-1.6L24.1,17v-0.1\r\n\tc-0.2-0.4-0.3-0.8-0.3-1.5V14c0-1.1-0.9-2-2-2h-0.6c-1.9,0-3.4,1.5-3.4,3.4V16c0,0.4,0,0.7,0.1,0.9l0.3,2.9l-3.7,1\r\n\tc-1.8,0.5-2.8,2.4-2.3,4.1l1.8,8.4c0.4,1.5,1.7,2.5,3.3,2.5l6,0.2c0.9,0,1.9-0.4,2.5-1.1l0.6-0.7c0.2-0.1,0.7-0.1,1.6-0.1v0.2\r\n\tc0,0.7,0.5,1.2,1.2,1.2h5.7c0.7,0,1.2-0.5,1.2-1.2V21.6C36,20.9,35.5,20.4,34.8,20.4z M25.4,33.2L24.7,34c-0.4,0.4-0.9,0.7-1.5,0.7\r\n\tl-6-0.2c-0.9,0-1.7-0.6-1.9-1.5l-1.8-8.4c-0.3-1.1,0.3-2.1,1.3-2.5l4.3-1.1c0.3,0,0.5-0.3,0.5-0.7l-0.4-3.5v-0.1\r\n\tc0-0.2-0.1-0.4-0.1-0.7v-0.6c0-1.1,0.9-2,2-2h0.5c0.4,0,0.6,0.3,0.7,0.6v1.3c0,1,0.2,1.6,0.5,2.2l1.4,3.3c0,0,0,0.1,0.1,0.1\r\n\tc0.8,1.3,2.1,2.1,3.6,2.3v9.5C26.5,32.7,25.8,32.8,25.4,33.2z M29.3,21.7h5.3v12.4h-5.3C29.3,34.1,29.3,21.7,29.3,21.7z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "3enj":
 /***/ (function(module, exports) {
 
-module.exports = "<svg id=\"icon_x2F_Utility_x2F_Cart_x2F_cart-Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 48 48\" enable-background=\"new 0 0 48 48\"><title>icon/Utility/Cart/cart</title><g id=\"icon_x2F_Utility_x2F_Cart_x2F_cart-Symbols\"><g id=\"icon_x2F_Utility_x2F_Cart_x2F_cart\"><g id=\"icon_x2F_Utility_x2F_Cart_x2F_cart-Icon\" transform=\"translate(9 12)\"><g id=\"icon_x2F_Utility_x2F_Cart_x2F_cart-Mask\"><path id=\"icon_x2F_Utility_x2F_Cart_x2F_cart-path-1_1_\" d=\"M5.6 5.4c0-.1 0-.1 0 0L5 2.1H1c-.6 0-1-.5-1-1s.5-1 1-1h4.8c.5 0 .9.3 1 .8l.6 3.3H29c.6 0 1.1.6 1 1.2l-1.6 8.2c-.1.5-.5.8-1 .8h-18l.4 2h17.6c.6 0 1 .5 1 1s-.5 1-1 1H9c-.5 0-.9-.3-1-.8l-.8-4.1-1.6-8.1zM13 24c-1.3 0-2.4-1.1-2.4-2.5S11.7 19 13 19s2.4 1.1 2.4 2.5S14.3 24 13 24zm10.4 0c-1.3 0-2.4-1.1-2.4-2.5s1.1-2.5 2.4-2.5c1.3 0 2.4 1.1 2.4 2.5S24.7 24 23.4 24z\" fill=\"#384048\"/></g><defs><filter id=\"icon_x2F_Utility_x2F_Cart_x2F_cart-Adobe_OpacityMaskFilter\" filterUnits=\"userSpaceOnUse\" x=\"-9\" y=\"-12\" width=\"48\" height=\"48\"><feColorMatrix values=\"1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0\"/></filter></defs><mask maskUnits=\"userSpaceOnUse\" x=\"-9\" y=\"-12\" width=\"48\" height=\"48\" id=\"icon_x2F_Utility_x2F_Cart_x2F_cart-mask-2\"><g filter=\"url(#icon_x2F_Utility_x2F_Cart_x2F_cart-Adobe_OpacityMaskFilter)\"><path id=\"icon_x2F_Utility_x2F_Cart_x2F_cart-path-1\" d=\"M5.6 5.4c0-.1 0-.1 0 0L5 2.1H1c-.6 0-1-.5-1-1s.5-1 1-1h4.8c.5 0 .9.3 1 .8l.6 3.3H29c.6 0 1.1.6 1 1.2l-1.6 8.2c-.1.5-.5.8-1 .8h-18l.4 2h17.6c.6 0 1 .5 1 1s-.5 1-1 1H9c-.5 0-.9-.3-1-.8l-.8-4.1-1.6-8.1zM13 24c-1.3 0-2.4-1.1-2.4-2.5S11.7 19 13 19s2.4 1.1 2.4 2.5S14.3 24 13 24zm10.4 0c-1.3 0-2.4-1.1-2.4-2.5s1.1-2.5 2.4-2.5c1.3 0 2.4 1.1 2.4 2.5S24.7 24 23.4 24z\" fill=\"#fff\"/></g></mask><g id=\"icon_x2F_Utility_x2F_Cart_x2F_cart-Color_x2F_Grayscale_x2F_Night-Sky\" mask=\"url(#icon_x2F_Utility_x2F_Cart_x2F_cart-mask-2)\"><path fill=\"#111\" d=\"M0 0h48v48H0z\" transform=\"translate(-9 -12)\" id=\"icon_x2F_Utility_x2F_Cart_x2F_cart-Swatch\"/></g></g></g></g></svg>"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"icon_x2F_Utility_x2F_Cart_x2F_cart-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"icon_x2F_Utility_x2F_Cart_x2F_cart-path-1_1_\" style=\"fill:#111111;\" d=\"M14.6,17.4C14.6,17.3,14.6,17.3,14.6,17.4\r\n\tL14,14.1h-4c-0.6,0-1-0.5-1-1s0.5-1,1-1h4.8c0.5,0,0.9,0.3,1,0.8l0.6,3.3H38c0.6,0,1.1,0.6,1,1.2l-1.6,8.2c-0.1,0.5-0.5,0.8-1,0.8\r\n\th-18l0.4,2h17.6c0.6,0,1,0.5,1,1s-0.5,1-1,1H18c-0.5,0-0.9-0.3-1-0.8l-0.8-4.1C16.2,25.5,14.6,17.4,14.6,17.4z M22,36\r\n\tc-1.3,0-2.4-1.1-2.4-2.5S20.7,31,22,31s2.4,1.1,2.4,2.5S23.3,36,22,36z M32.4,36c-1.3,0-2.4-1.1-2.4-2.5s1.1-2.5,2.4-2.5\r\n\tc1.3,0,2.4,1.1,2.4,2.5S33.7,36,32.4,36z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "3k2V":
 /***/ (function(module, exports) {
 
-module.exports = "<svg id=\"action-zoom-out-fill-Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 48 48\" enable-background=\"new 0 0 48 48\"><title>icon/Action/zoom-out-fill</title><g transform=\"translate(12 12)\"><path id=\"action-zoom-out-fill-a_1_\" d=\"M23.5 20.9c-.7-.6-5.9-5.7-7.1-6.9 1-1.5 1.6-3.2 1.6-5 0-4.9-4-9-9-9S0 4 0 9s4 9 9 9c1.7 0 3.4-.5 4.8-1.4 1.1 1.1 6.4 6.3 7.1 6.9.3.3.7.4 1.1.4.5 0 1-.2 1.4-.7.7-.7.8-1.8.1-2.3zm-11-11.3h-7c-.3 0-.7-.3-.7-.6 0-.4.3-.7.7-.7h6.9c.4 0 .7.3.7.7.1.3-.3.6-.6.6z\" fill=\"#384048\"/><defs><filter id=\"action-zoom-out-fill-Adobe_OpacityMaskFilter\" filterUnits=\"userSpaceOnUse\" x=\"-12\" y=\"-12\" width=\"48\" height=\"48\"><feColorMatrix values=\"1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0\"/></filter></defs><mask maskUnits=\"userSpaceOnUse\" x=\"-12\" y=\"-12\" width=\"48\" height=\"48\" id=\"action-zoom-out-fill-b\"><g filter=\"url(#action-zoom-out-fill-Adobe_OpacityMaskFilter)\"><path id=\"action-zoom-out-fill-a\" d=\"M23.5 20.9c-.7-.6-5.9-5.7-7.1-6.9 1-1.5 1.6-3.2 1.6-5 0-4.9-4-9-9-9S0 4 0 9s4 9 9 9c1.7 0 3.4-.5 4.8-1.4 1.1 1.1 6.4 6.3 7.1 6.9.3.3.7.4 1.1.4.5 0 1-.2 1.4-.7.7-.7.8-1.8.1-2.3zm-11-11.3h-7c-.3 0-.7-.3-.7-.6 0-.4.3-.7.7-.7h6.9c.4 0 .7.3.7.7.1.3-.3.6-.6.6z\" fill=\"#fff\"/></g></mask><g mask=\"url(#action-zoom-out-fill-b)\"><path d=\"M-12-12h48v48h-48v-48z\" fill=\"#111\"/></g></g></svg>"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"action-zoom-out-fill-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"action-zoom-out-fill-a_1_\" style=\"fill:#111111;\" d=\"M35.5,32.9c-0.7-0.6-5.9-5.7-7.1-6.9c1-1.5,1.6-3.2,1.6-5\r\n\tc0-4.9-4-9-9-9s-9,4-9,9s4,9,9,9c1.7,0,3.4-0.5,4.8-1.4c1.1,1.1,6.4,6.3,7.1,6.9c0.3,0.3,0.7,0.4,1.1,0.4c0.5,0,1-0.2,1.4-0.7\r\n\tC36.1,34.5,36.2,33.4,35.5,32.9z M24.5,21.6h-7c-0.3,0-0.7-0.3-0.7-0.6c0-0.4,0.3-0.7,0.7-0.7h6.9c0.4,0,0.7,0.3,0.7,0.7\r\n\tC25.2,21.3,24.8,21.6,24.5,21.6z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
@@ -339,238 +339,238 @@ module.exports = "<svg id=\"payment-card-jcp-gold-Layer_1\" xmlns=\"http://www.w
 /***/ "6spg":
 /***/ (function(module, exports) {
 
-module.exports = "<svg id=\"icon_x2F_Social_x2F_pinterest-line-Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 48 48\" enable-background=\"new 0 0 48 48\"><title>icon/Social/pinterest-line</title><g id=\"icon_x2F_Social_x2F_pinterest-line-Symbols\"><g id=\"icon_x2F_Social_x2F_pinterest-line\"><g id=\"icon_x2F_Social_x2F_pinterest-line-Icon\" transform=\"translate(8 8)\"><g id=\"icon_x2F_Social_x2F_pinterest-line-Mask\"><path id=\"icon_x2F_Social_x2F_pinterest-line-path-1_1_\" d=\"M16 0c8.8 0 16 7.2 16 16s-7.2 16-16 16S0 24.8 0 16 7.2 0 16 0zm0 1.8C8.2 1.8 1.8 8.2 1.8 16S8.2 30.2 16 30.2 30.2 23.8 30.2 16 23.8 1.8 16 1.8zm.2 6.4c3.8 0 6.3 2.7 6.3 5.7 0 3.9-2.2 6.8-5.3 6.8-1.1 0-2.1-.6-2.4-1.2 0 0-.6 2.3-.7 2.7-.4 1.6-1.7 3.1-1.8 3.2-.1.1-.2.1-.2-.1s-.3-2.2 0-3.8c.2-.8 1.3-5.4 1.3-5.4s-.4-.5-.4-1.5c0-1.5.9-2.6 1.9-2.6.9 0 1.3.7 1.3 1.5 0 .9-.6 2.3-.9 3.5-.2 1.1.5 1.9 1.6 1.9 1.9 0 3.1-2.4 3.1-5.3 0-2.2-1.5-3.8-4.1-3.8-3 0-4.9 2.2-4.9 4.7 0 .9.3 1.5.7 1.9.2.2.2.3.1.6 0 .2-.2.6-.2.8-.1.3-.3.3-.5.2-1.4-.6-2-2.1-2-3.8 0-2.6 2.4-6 7.1-6z\" fill=\"#384048\"/></g><defs><filter id=\"icon_x2F_Social_x2F_pinterest-line-Adobe_OpacityMaskFilter\" filterUnits=\"userSpaceOnUse\" x=\"-8\" y=\"-8\" width=\"48\" height=\"48\"><feColorMatrix values=\"1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0\"/></filter></defs><mask maskUnits=\"userSpaceOnUse\" x=\"-8\" y=\"-8\" width=\"48\" height=\"48\" id=\"icon_x2F_Social_x2F_pinterest-line-mask-2\"><g filter=\"url(#icon_x2F_Social_x2F_pinterest-line-Adobe_OpacityMaskFilter)\"><path id=\"icon_x2F_Social_x2F_pinterest-line-path-1\" d=\"M16 0c8.8 0 16 7.2 16 16s-7.2 16-16 16S0 24.8 0 16 7.2 0 16 0zm0 1.8C8.2 1.8 1.8 8.2 1.8 16S8.2 30.2 16 30.2 30.2 23.8 30.2 16 23.8 1.8 16 1.8zm.2 6.4c3.8 0 6.3 2.7 6.3 5.7 0 3.9-2.2 6.8-5.3 6.8-1.1 0-2.1-.6-2.4-1.2 0 0-.6 2.3-.7 2.7-.4 1.6-1.7 3.1-1.8 3.2-.1.1-.2.1-.2-.1s-.3-2.2 0-3.8c.2-.8 1.3-5.4 1.3-5.4s-.4-.5-.4-1.5c0-1.5.9-2.6 1.9-2.6.9 0 1.3.7 1.3 1.5 0 .9-.6 2.3-.9 3.5-.2 1.1.5 1.9 1.6 1.9 1.9 0 3.1-2.4 3.1-5.3 0-2.2-1.5-3.8-4.1-3.8-3 0-4.9 2.2-4.9 4.7 0 .9.3 1.5.7 1.9.2.2.2.3.1.6 0 .2-.2.6-.2.8-.1.3-.3.3-.5.2-1.4-.6-2-2.1-2-3.8 0-2.6 2.4-6 7.1-6z\" fill=\"#fff\"/></g></mask><g id=\"icon_x2F_Social_x2F_pinterest-line-Color_x2F_Grayscale_x2F_Night-Sky\" mask=\"url(#icon_x2F_Social_x2F_pinterest-line-mask-2)\"><path fill=\"#111\" d=\"M0 0h48v48H0z\" transform=\"translate(-8 -8)\" id=\"icon_x2F_Social_x2F_pinterest-line-Swatch\"/></g></g></g></g></svg>"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"icon_x2F_Social_x2F_pinterest-line-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"icon_x2F_Social_x2F_pinterest-line-path-1_1_\" style=\"fill:#111111;\" d=\"M24,8c8.8,0,16,7.2,16,16s-7.2,16-16,16\r\n\tS8,32.8,8,24S15.2,8,24,8z M24,9.8C16.2,9.8,9.8,16.2,9.8,24S16.2,38.2,24,38.2S38.2,31.8,38.2,24S31.8,9.8,24,9.8z M24.2,16.2\r\n\tc3.8,0,6.3,2.7,6.3,5.7c0,3.9-2.2,6.8-5.3,6.8c-1.1,0-2.1-0.6-2.4-1.2c0,0-0.6,2.3-0.7,2.7c-0.4,1.6-1.7,3.1-1.8,3.2\r\n\ts-0.2,0.1-0.2-0.1c0-0.2-0.3-2.2,0-3.8c0.2-0.8,1.3-5.4,1.3-5.4S21,23.6,21,22.6c0-1.5,0.9-2.6,1.9-2.6c0.9,0,1.3,0.7,1.3,1.5\r\n\tc0,0.9-0.6,2.3-0.9,3.5c-0.2,1.1,0.5,1.9,1.6,1.9c1.9,0,3.1-2.4,3.1-5.3c0-2.2-1.5-3.8-4.1-3.8c-3,0-4.9,2.2-4.9,4.7\r\n\tc0,0.9,0.3,1.5,0.7,1.9c0.2,0.2,0.2,0.3,0.1,0.6c0,0.2-0.2,0.6-0.2,0.8c-0.1,0.3-0.3,0.3-0.5,0.2c-1.4-0.6-2-2.1-2-3.8\r\n\tC17.1,19.6,19.5,16.2,24.2,16.2z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "738v":
 /***/ (function(module, exports) {
 
-module.exports = "<svg id=\"icon_x2F_Nav_x2F_menu-Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 48 48\" enable-background=\"new 0 0 48 48\"><title>icon/Nav/menu</title><g id=\"icon_x2F_Nav_x2F_menu-Symbols\"><g id=\"icon_x2F_Nav_x2F_menu\"><g id=\"icon_x2F_Nav_x2F_menu-Icon\" transform=\"translate(11 13)\"><g id=\"icon_x2F_Nav_x2F_menu-Mask\"><path id=\"icon_x2F_Nav_x2F_menu-path-1_1_\" d=\"M25 0c.6 0 1 .4 1 1s-.4 1-1 1H1c-.6 0-1-.4-1-1s.4-1 1-1h24zm0 10c.6 0 1 .4 1 1s-.4 1-1 1H1c-.6 0-1-.4-1-1s.4-1 1-1h24zm0 10c.6 0 1 .4 1 1s-.4 1-1 1H1c-.6 0-1-.4-1-1s.4-1 1-1h24z\" fill=\"#384048\"/></g><defs><filter id=\"icon_x2F_Nav_x2F_menu-Adobe_OpacityMaskFilter\" filterUnits=\"userSpaceOnUse\" x=\"-11\" y=\"-13\" width=\"48\" height=\"48\"><feColorMatrix values=\"1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0\"/></filter></defs><mask maskUnits=\"userSpaceOnUse\" x=\"-11\" y=\"-13\" width=\"48\" height=\"48\" id=\"icon_x2F_Nav_x2F_menu-mask-2\"><g filter=\"url(#icon_x2F_Nav_x2F_menu-Adobe_OpacityMaskFilter)\"><path id=\"icon_x2F_Nav_x2F_menu-path-1\" d=\"M25 0c.6 0 1 .4 1 1s-.4 1-1 1H1c-.6 0-1-.4-1-1s.4-1 1-1h24zm0 10c.6 0 1 .4 1 1s-.4 1-1 1H1c-.6 0-1-.4-1-1s.4-1 1-1h24zm0 10c.6 0 1 .4 1 1s-.4 1-1 1H1c-.6 0-1-.4-1-1s.4-1 1-1h24z\" fill=\"#fff\"/></g></mask><g id=\"icon_x2F_Nav_x2F_menu-Color_x2F_Grayscale_x2F_Night-Sky\" mask=\"url(#icon_x2F_Nav_x2F_menu-mask-2)\"><path fill=\"#111\" d=\"M0 0h48v48H0z\" transform=\"translate(-11 -13)\" id=\"icon_x2F_Nav_x2F_menu-Swatch\"/></g></g></g></g></svg>"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"icon_x2F_Nav_x2F_menu-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"icon_x2F_Nav_x2F_menu-path-1_1_\" style=\"fill:#111111;\" d=\"M36,13c0.6,0,1,0.4,1,1s-0.4,1-1,1H12c-0.6,0-1-0.4-1-1\r\n\ts0.4-1,1-1H36z M36,23c0.6,0,1,0.4,1,1s-0.4,1-1,1H12c-0.6,0-1-0.4-1-1s0.4-1,1-1H36z M36,33c0.6,0,1,0.4,1,1s-0.4,1-1,1H12\r\n\tc-0.6,0-1-0.4-1-1s0.4-1,1-1H36z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "7qej":
 /***/ (function(module, exports) {
 
-module.exports = "<svg id=\"action-list-line-Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 48 48\" enable-background=\"new 0 0 48 48\"><title>icon/Action/list-line</title><g transform=\"translate(12 12)\"><path id=\"action-list-line-a_1_\" d=\"M1.1 5.5h4.4V1.1H1.1v4.4zM0 1.1C0 .5.5 0 1.1 0h4.4c.6 0 1.1.5 1.1 1.1v4.4c0 .6-.5 1.1-1.1 1.1H1.1C.5 6.5 0 6.1 0 5.5V1.1zm1.1 8.7v4.4h4.4V9.8H1.1zM0 9.8c0-.6.5-1.1 1.1-1.1h4.4c.6 0 1.1.5 1.1 1.1v4.4c0 .6-.5 1.1-1.1 1.1H1.1c-.6 0-1.1-.5-1.1-1.1V9.8zm22.9-4.3zm-13.1 0h13.1V1.1H9.8v4.4zM8.7 1.1C8.7.5 9.2 0 9.8 0h13.1c.6 0 1.1.5 1.1 1.1v4.4c0 .6-.5 1.1-1.1 1.1H9.8c-.6 0-1.1-.5-1.1-1.1V1.1zm14.2 13.1zm-13.1 0h13.1V9.8H9.8v4.4zM8.7 9.8c0-.6.5-1.1 1.1-1.1h13.1c.6 0 1.1.5 1.1 1.1v4.4c0 .6-.5 1.1-1.1 1.1H9.8c-.6 0-1.1-.5-1.1-1.1V9.8zM1.1 22.9h4.4v-4.4H1.1v4.4zM0 18.5c0-.6.5-1.1 1.1-1.1h4.4c.6 0 1.1.5 1.1 1.1v4.4c0 .6-.5 1.1-1.1 1.1H1.1C.5 24 0 23.5 0 22.9v-4.4zm22.9 4.4zM9.8 18.5zm0 4.4h13.1v-4.4H9.8v4.4zm-1.1-4.4c0-.6.5-1.1 1.1-1.1h13.1c.6 0 1.1.5 1.1 1.1v4.4c0 .6-.5 1.1-1.1 1.1H9.8c-.6 0-1.1-.5-1.1-1.1v-4.4z\" fill=\"#384048\"/><defs><filter id=\"action-list-line-Adobe_OpacityMaskFilter\" filterUnits=\"userSpaceOnUse\" x=\"-12\" y=\"-12\" width=\"48\" height=\"48\"><feColorMatrix values=\"1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0\"/></filter></defs><mask maskUnits=\"userSpaceOnUse\" x=\"-12\" y=\"-12\" width=\"48\" height=\"48\" id=\"action-list-line-b\"><g filter=\"url(#action-list-line-Adobe_OpacityMaskFilter)\"><path id=\"action-list-line-a\" d=\"M1.1 5.5h4.4V1.1H1.1v4.4zM0 1.1C0 .5.5 0 1.1 0h4.4c.6 0 1.1.5 1.1 1.1v4.4c0 .6-.5 1.1-1.1 1.1H1.1C.5 6.5 0 6.1 0 5.5V1.1zm1.1 8.7v4.4h4.4V9.8H1.1zM0 9.8c0-.6.5-1.1 1.1-1.1h4.4c.6 0 1.1.5 1.1 1.1v4.4c0 .6-.5 1.1-1.1 1.1H1.1c-.6 0-1.1-.5-1.1-1.1V9.8zm22.9-4.3zm-13.1 0h13.1V1.1H9.8v4.4zM8.7 1.1C8.7.5 9.2 0 9.8 0h13.1c.6 0 1.1.5 1.1 1.1v4.4c0 .6-.5 1.1-1.1 1.1H9.8c-.6 0-1.1-.5-1.1-1.1V1.1zm14.2 13.1zm-13.1 0h13.1V9.8H9.8v4.4zM8.7 9.8c0-.6.5-1.1 1.1-1.1h13.1c.6 0 1.1.5 1.1 1.1v4.4c0 .6-.5 1.1-1.1 1.1H9.8c-.6 0-1.1-.5-1.1-1.1V9.8zM1.1 22.9h4.4v-4.4H1.1v4.4zM0 18.5c0-.6.5-1.1 1.1-1.1h4.4c.6 0 1.1.5 1.1 1.1v4.4c0 .6-.5 1.1-1.1 1.1H1.1C.5 24 0 23.5 0 22.9v-4.4zm22.9 4.4zM9.8 18.5zm0 4.4h13.1v-4.4H9.8v4.4zm-1.1-4.4c0-.6.5-1.1 1.1-1.1h13.1c.6 0 1.1.5 1.1 1.1v4.4c0 .6-.5 1.1-1.1 1.1H9.8c-.6 0-1.1-.5-1.1-1.1v-4.4z\" fill=\"#fff\"/></g></mask><g mask=\"url(#action-list-line-b)\"><path d=\"M-12-12h48v48h-48v-48z\" fill=\"#111\"/></g></g></svg>"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"action-list-line-Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"\r\n\t x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\" style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"action-list-line-a_1_\" style=\"fill:#111111;\" d=\"M13.1,17.5h4.4v-4.4h-4.4V17.5z M12,13.1c0-0.6,0.5-1.1,1.1-1.1h4.4\r\n\tc0.6,0,1.1,0.5,1.1,1.1v4.4c0,0.6-0.5,1.1-1.1,1.1h-4.4c-0.6-0.1-1.1-0.5-1.1-1.1V13.1z M13.1,21.8v4.4h4.4v-4.4H13.1z M12,21.8\r\n\tc0-0.6,0.5-1.1,1.1-1.1h4.4c0.6,0,1.1,0.5,1.1,1.1v4.4c0,0.6-0.5,1.1-1.1,1.1h-4.4c-0.6,0-1.1-0.5-1.1-1.1V21.8z M21.8,17.5h13.1\r\n\tv-4.4H21.8C21.8,13.1,21.8,17.5,21.8,17.5z M20.7,13.1c0-0.6,0.5-1.1,1.1-1.1h13.1c0.6,0,1.1,0.5,1.1,1.1v4.4c0,0.6-0.5,1.1-1.1,1.1\r\n\tH21.8c-0.6,0-1.1-0.5-1.1-1.1V13.1z M21.8,26.2h13.1v-4.4H21.8C21.8,21.8,21.8,26.2,21.8,26.2z M20.7,21.8c0-0.6,0.5-1.1,1.1-1.1\r\n\th13.1c0.6,0,1.1,0.5,1.1,1.1v4.4c0,0.6-0.5,1.1-1.1,1.1H21.8c-0.6,0-1.1-0.5-1.1-1.1V21.8z M13.1,34.9h4.4v-4.4h-4.4V34.9z M12,30.5\r\n\tc0-0.6,0.5-1.1,1.1-1.1h4.4c0.6,0,1.1,0.5,1.1,1.1v4.4c0,0.6-0.5,1.1-1.1,1.1h-4.4c-0.6,0-1.1-0.5-1.1-1.1V30.5z M21.8,34.9h13.1\r\n\tv-4.4H21.8V34.9z M20.7,30.5c0-0.6,0.5-1.1,1.1-1.1h13.1c0.6,0,1.1,0.5,1.1,1.1v4.4c0,0.6-0.5,1.1-1.1,1.1H21.8\r\n\tc-0.6,0-1.1-0.5-1.1-1.1V30.5z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "7r5T":
 /***/ (function(module, exports) {
 
-module.exports = "<svg id=\"action-search-Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 48 48\" enable-background=\"new 0 0 48 48\"><title>icon/Action/search</title><g transform=\"translate(12 12)\"><path id=\"action-search-a_1_\" d=\"M23.6 20.9c-.7-.6-5.9-5.7-7.1-6.9 1-1.5 1.6-3.3 1.6-5.1 0-5-4-9-9-9C4 0 0 4 0 9s4 9 9 9c1.7 0 3.4-.5 4.8-1.4 1.1 1.1 6.4 6.3 7.1 7 .3.3.7.4 1.1.4.5 0 1-.2 1.4-.7.7-.7.8-1.8.2-2.4zM2.2 9c0-3.7 3.1-6.8 6.8-6.8 3.8 0 6.8 3.1 6.8 6.8 0 3.7-3.1 6.8-6.8 6.8-3.8 0-6.8-3.1-6.8-6.8z\" fill=\"#384048\"/><defs><filter id=\"action-search-Adobe_OpacityMaskFilter\" filterUnits=\"userSpaceOnUse\" x=\"-12\" y=\"-12\" width=\"48\" height=\"48\"><feColorMatrix values=\"1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0\"/></filter></defs><mask maskUnits=\"userSpaceOnUse\" x=\"-12\" y=\"-12\" width=\"48\" height=\"48\" id=\"action-search-b\"><g filter=\"url(#action-search-Adobe_OpacityMaskFilter)\"><path id=\"action-search-a\" d=\"M23.6 20.9c-.7-.6-5.9-5.7-7.1-6.9 1-1.5 1.6-3.3 1.6-5.1 0-5-4-9-9-9C4 0 0 4 0 9s4 9 9 9c1.7 0 3.4-.5 4.8-1.4 1.1 1.1 6.4 6.3 7.1 7 .3.3.7.4 1.1.4.5 0 1-.2 1.4-.7.7-.7.8-1.8.2-2.4zM2.2 9c0-3.7 3.1-6.8 6.8-6.8 3.8 0 6.8 3.1 6.8 6.8 0 3.7-3.1 6.8-6.8 6.8-3.8 0-6.8-3.1-6.8-6.8z\" fill=\"#fff\"/></g></mask><g mask=\"url(#action-search-b)\"><path d=\"M-12-12h48v48h-48v-48z\" fill=\"#111\"/></g></g></svg>"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"action-search-Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"\r\n\t x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\" style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"action-search-a_1_\" style=\"fill:#111111;\" d=\"M35.6,32.9c-0.7-0.6-5.9-5.7-7.1-6.9c1-1.5,1.6-3.3,1.6-5.1c0-5-4-9-9-9\r\n\tC16,12,12,16,12,21s4,9,9,9c1.7,0,3.4-0.5,4.8-1.4c1.1,1.1,6.4,6.3,7.1,7c0.3,0.3,0.7,0.4,1.1,0.4c0.5,0,1-0.2,1.4-0.7\r\n\tC36.1,34.6,36.2,33.5,35.6,32.9z M14.2,21c0-3.7,3.1-6.8,6.8-6.8c3.8,0,6.8,3.1,6.8,6.8s-3.1,6.8-6.8,6.8\r\n\tC17.2,27.8,14.2,24.7,14.2,21z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "8PdL":
 /***/ (function(module, exports) {
 
-module.exports = "<svg id=\"icon_x2F_Social_x2F_youtube-fill-Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 48 48\" enable-background=\"new 0 0 48 48\"><title>icon/Social/youtube-fill</title><g id=\"icon_x2F_Social_x2F_youtube-fill-Symbols\"><g id=\"icon_x2F_Social_x2F_youtube-fill\"><g id=\"icon_x2F_Social_x2F_youtube-fill-Icon\" transform=\"translate(8 8)\"><g id=\"icon_x2F_Social_x2F_youtube-fill-Mask\"><path id=\"icon_x2F_Social_x2F_youtube-fill-path-1_1_\" d=\"M16 0c8.8 0 16 7.2 16 16s-7.2 16-16 16S0 24.8 0 16 7.2 0 16 0zm9.6 16.7v-1.5c0-1.6-.2-3.1-.2-3.1s-.2-1.3-.8-1.9c-.7-.8-1.6-.8-1.9-.8-2.7-.2-6.7-.2-6.7-.2s-4 0-6.7.2c-.4 0-1.2 0-1.9.8-.6.6-.8 1.9-.8 1.9s-.2 1.6-.2 3.1v1.5c0 1.6.2 3.1.2 3.1s.2 1.3.8 1.9c.7.8 1.7.7 2.1.8 1.5.1 6.5.2 6.5.2s4 0 6.7-.2c.4 0 1.2 0 1.9-.8.6-.6.8-1.9.8-1.9s.2-1.5.2-3.1zm-11.9 1.5v-5.4l5.2 2.7-5.2 2.7z\" fill=\"#384048\"/></g><defs><filter id=\"icon_x2F_Social_x2F_youtube-fill-Adobe_OpacityMaskFilter\" filterUnits=\"userSpaceOnUse\" x=\"-8\" y=\"-8\" width=\"48\" height=\"48\"><feColorMatrix values=\"1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0\"/></filter></defs><mask maskUnits=\"userSpaceOnUse\" x=\"-8\" y=\"-8\" width=\"48\" height=\"48\" id=\"icon_x2F_Social_x2F_youtube-fill-mask-2\"><g filter=\"url(#icon_x2F_Social_x2F_youtube-fill-Adobe_OpacityMaskFilter)\"><path id=\"icon_x2F_Social_x2F_youtube-fill-path-1\" d=\"M16 0c8.8 0 16 7.2 16 16s-7.2 16-16 16S0 24.8 0 16 7.2 0 16 0zm9.6 16.7v-1.5c0-1.6-.2-3.1-.2-3.1s-.2-1.3-.8-1.9c-.7-.8-1.6-.8-1.9-.8-2.7-.2-6.7-.2-6.7-.2s-4 0-6.7.2c-.4 0-1.2 0-1.9.8-.6.6-.8 1.9-.8 1.9s-.2 1.6-.2 3.1v1.5c0 1.6.2 3.1.2 3.1s.2 1.3.8 1.9c.7.8 1.7.7 2.1.8 1.5.1 6.5.2 6.5.2s4 0 6.7-.2c.4 0 1.2 0 1.9-.8.6-.6.8-1.9.8-1.9s.2-1.5.2-3.1zm-11.9 1.5v-5.4l5.2 2.7-5.2 2.7z\" fill=\"#fff\"/></g></mask><g id=\"icon_x2F_Social_x2F_youtube-fill-Color_x2F_Grayscale_x2F_Night-Sky\" mask=\"url(#icon_x2F_Social_x2F_youtube-fill-mask-2)\"><path fill=\"#111\" d=\"M0 0h48v48H0z\" transform=\"translate(-8 -8)\" id=\"icon_x2F_Social_x2F_youtube-fill-Swatch\"/></g></g></g></g></svg>"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"icon_x2F_Social_x2F_youtube-fill-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"icon_x2F_Social_x2F_youtube-fill-path-1_1_\" style=\"fill:#111111;\" d=\"M24,8c8.8,0,16,7.2,16,16s-7.2,16-16,16\r\n\tS8,32.8,8,24S15.2,8,24,8z M33.6,24.7v-1.5c0-1.6-0.2-3.1-0.2-3.1s-0.2-1.3-0.8-1.9c-0.7-0.8-1.6-0.8-1.9-0.8\r\n\tC28,17.2,24,17.2,24,17.2s-4,0-6.7,0.2c-0.4,0-1.2,0-1.9,0.8c-0.6,0.6-0.8,1.9-0.8,1.9s-0.2,1.6-0.2,3.1v1.5c0,1.6,0.2,3.1,0.2,3.1\r\n\ts0.2,1.3,0.8,1.9c0.7,0.8,1.7,0.7,2.1,0.8c1.5,0.1,6.5,0.2,6.5,0.2s4,0,6.7-0.2c0.4,0,1.2,0,1.9-0.8c0.6-0.6,0.8-1.9,0.8-1.9\r\n\tS33.6,26.3,33.6,24.7z M21.7,26.2v-5.4l5.2,2.7C26.9,23.5,21.7,26.2,21.7,26.2z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "8ysx":
 /***/ (function(module, exports) {
 
-module.exports = "<svg id=\"icon_x2F_Service_x2F_account-Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 48 48\" enable-background=\"new 0 0 48 48\"><title>icon/Service/account</title><g id=\"icon_x2F_Service_x2F_account-Symbols\"><g id=\"icon_x2F_Service_x2F_account\"><g id=\"icon_x2F_Service_x2F_account-Icon\" transform=\"translate(8 8)\"><g id=\"icon_x2F_Service_x2F_account-Mask\"><path id=\"icon_x2F_Service_x2F_account-path-1_1_\" d=\"M16 0C7.2 0 0 7.2 0 16s7.2 16 16 16 16-7.2 16-16S24.8 0 16 0zm0 1.8c7.8 0 14.2 6.3 14.2 14.2 0 3.2-1.1 6.2-2.9 8.6-1.8-3.4-6-6-7.5-6.7l-.3-.2c-.1 0-.1-.1-.1-.1s.1-.2.2-.3l.1-.2c1-1.1 2.6-3 2.7-6.2.1-3.4-2.4-7.1-6.2-7.3h-.3c-3.7.2-6.2 4-6.1 7.4.1 3.2 1.7 5.1 2.7 6.2l.1.2c.1.2.2.3.2.3s-.1 0-.1.1l-.2.1c-1.6.8-5.9 3.3-7.8 6.7-1.8-2.4-2.9-5.3-2.9-8.6C1.8 8.2 8.2 1.8 16 1.8z\" fill=\"#384048\"/></g><defs><filter id=\"icon_x2F_Service_x2F_account-Adobe_OpacityMaskFilter\" filterUnits=\"userSpaceOnUse\" x=\"-8\" y=\"-8\" width=\"48\" height=\"48\"><feColorMatrix values=\"1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0\"/></filter></defs><mask maskUnits=\"userSpaceOnUse\" x=\"-8\" y=\"-8\" width=\"48\" height=\"48\" id=\"icon_x2F_Service_x2F_account-mask-2\"><g filter=\"url(#icon_x2F_Service_x2F_account-Adobe_OpacityMaskFilter)\"><path id=\"icon_x2F_Service_x2F_account-path-1\" d=\"M16 0C7.2 0 0 7.2 0 16s7.2 16 16 16 16-7.2 16-16S24.8 0 16 0zm0 1.8c7.8 0 14.2 6.3 14.2 14.2 0 3.2-1.1 6.2-2.9 8.6-1.8-3.4-6-6-7.5-6.7l-.3-.2c-.1 0-.1-.1-.1-.1s.1-.2.2-.3l.1-.2c1-1.1 2.6-3 2.7-6.2.1-3.4-2.4-7.1-6.2-7.3h-.3c-3.7.2-6.2 4-6.1 7.4.1 3.2 1.7 5.1 2.7 6.2l.1.2c.1.2.2.3.2.3s-.1 0-.1.1l-.2.1c-1.6.8-5.9 3.3-7.8 6.7-1.8-2.4-2.9-5.3-2.9-8.6C1.8 8.2 8.2 1.8 16 1.8z\" fill=\"#fff\"/></g></mask><g id=\"icon_x2F_Service_x2F_account-Color_x2F_Grayscale_x2F_Night-Sky\" mask=\"url(#icon_x2F_Service_x2F_account-mask-2)\"><path fill=\"#111\" d=\"M0 0h48v48H0z\" transform=\"translate(-8 -8)\" id=\"icon_x2F_Service_x2F_account-Swatch\"/></g></g></g></g></svg>"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"icon_x2F_Service_x2F_account-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"icon_x2F_Service_x2F_account-path-1_1_\" style=\"fill:#111111;\" d=\"M24,8C15.2,8,8,15.2,8,24s7.2,16,16,16s16-7.2,16-16\r\n\tS32.8,8,24,8z M24,9.8c7.8,0,14.2,6.3,14.2,14.2c0,3.2-1.1,6.2-2.9,8.6c-1.8-3.4-6-6-7.5-6.7l-0.3-0.2c-0.1,0-0.1-0.1-0.1-0.1\r\n\ts0.1-0.2,0.2-0.3l0.1-0.2c1-1.1,2.6-3,2.7-6.2c0.1-3.4-2.4-7.1-6.2-7.3h-0.3c-3.7,0.2-6.2,4-6.1,7.4c0.1,3.2,1.7,5.1,2.7,6.2\r\n\tl0.1,0.2c0.1,0.2,0.2,0.3,0.2,0.3s-0.1,0-0.1,0.1l-0.2,0.1c-1.6,0.8-5.9,3.3-7.8,6.7c-1.8-2.4-2.9-5.3-2.9-8.6\r\n\tC9.8,16.2,16.2,9.8,24,9.8z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "9CxF":
 /***/ (function(module, exports) {
 
-module.exports = "<svg id=\"icon_x2F_Alert_x2F_warning-Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 48 48\" enable-background=\"new 0 0 48 48\"><title>icon/Alert/warning</title><g id=\"icon_x2F_Alert_x2F_warning-Symbols\"><g id=\"icon_x2F_Alert_x2F_warning\"><g id=\"icon_x2F_Alert_x2F_warning-Icon\" transform=\"translate(11 12)\"><g id=\"icon_x2F_Alert_x2F_warning-Mask\"><path id=\"icon_x2F_Alert_x2F_warning-path-1_1_\" d=\"M25.7 21.1L14.6 1c-.3-.6-1-1-1.7-1s-1.2.4-1.6 1L.3 21.1c-.3.6-.5 1.4-.1 1.9.3.6 1 .9 1.7.9h21.8c.8 0 1.7-.4 2.1-1 .3-.5.2-1.2-.1-1.8zM12.4 6.9c0-.4.3-.7.7-.7s.7.3.7.7v9.8c0 .4-.3.7-.7.7s-.7-.3-.7-.7V6.9zm.6 13.7c-.5 0-1-.4-1-1 0-.5.4-1 1-1s1 .4 1 1c0 .5-.5 1-1 1z\" fill=\"#384048\"/></g><defs><filter id=\"icon_x2F_Alert_x2F_warning-Adobe_OpacityMaskFilter\" filterUnits=\"userSpaceOnUse\" x=\"-11\" y=\"-12\" width=\"48\" height=\"48\"><feColorMatrix values=\"1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0\"/></filter></defs><mask maskUnits=\"userSpaceOnUse\" x=\"-11\" y=\"-12\" width=\"48\" height=\"48\" id=\"icon_x2F_Alert_x2F_warning-mask-2\"><g filter=\"url(#icon_x2F_Alert_x2F_warning-Adobe_OpacityMaskFilter)\"><path id=\"icon_x2F_Alert_x2F_warning-path-1\" d=\"M25.7 21.1L14.6 1c-.3-.6-1-1-1.7-1s-1.2.4-1.6 1L.3 21.1c-.3.6-.5 1.4-.1 1.9.3.6 1 .9 1.7.9h21.8c.8 0 1.7-.4 2.1-1 .3-.5.2-1.2-.1-1.8zM12.4 6.9c0-.4.3-.7.7-.7s.7.3.7.7v9.8c0 .4-.3.7-.7.7s-.7-.3-.7-.7V6.9zm.6 13.7c-.5 0-1-.4-1-1 0-.5.4-1 1-1s1 .4 1 1c0 .5-.5 1-1 1z\" fill=\"#fff\"/></g></mask><g id=\"icon_x2F_Alert_x2F_warning-Color_x2F_Messaging_x2F_Warning\" mask=\"url(#icon_x2F_Alert_x2F_warning-mask-2)\"><path fill=\"#615d14\" d=\"M0 0h48v48H0z\" transform=\"translate(-11 -12)\" id=\"icon_x2F_Alert_x2F_warning-Swatch\"/></g></g></g></g></svg>"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"icon_x2F_Alert_x2F_warning-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"icon_x2F_Alert_x2F_warning-path-1_1_\" style=\"fill:#615D14;\" d=\"M36.7,33.1L25.6,13c-0.3-0.6-1-1-1.7-1\r\n\tc-0.7,0-1.2,0.4-1.6,1l-11,20.1c-0.3,0.6-0.5,1.4-0.1,1.9c0.3,0.6,1,0.9,1.7,0.9h21.8c0.8,0,1.7-0.4,2.1-1\r\n\tC37.1,34.4,37,33.7,36.7,33.1z M23.4,18.9c0-0.4,0.3-0.7,0.7-0.7c0.4,0,0.7,0.3,0.7,0.7v9.8c0,0.4-0.3,0.7-0.7,0.7\r\n\tc-0.4,0-0.7-0.3-0.7-0.7V18.9z M24,32.6c-0.5,0-1-0.4-1-1c0-0.5,0.4-1,1-1s1,0.4,1,1C25,32.1,24.5,32.6,24,32.6z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "9ZaE":
 /***/ (function(module, exports) {
 
-module.exports = "<svg id=\"icon_x2F_Alert_x2F_error-2-Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 48 48\" enable-background=\"new 0 0 48 48\"><title>icon/Alert/error-2</title><g id=\"icon_x2F_Alert_x2F_error-2-Symbols\"><g id=\"icon_x2F_Alert_x2F_error-2\"><g id=\"icon_x2F_Alert_x2F_error-2-Icon\" transform=\"translate(12 12)\"><g id=\"icon_x2F_Alert_x2F_error-2-Mask\"><path id=\"icon_x2F_Alert_x2F_error-2-path-1_1_\" d=\"M12 2.4c-5.3 0-9.6 4.3-9.6 9.6 0 2.2.8 4.3 2 5.9L17.9 4.4c-1.6-1.2-3.7-2-5.9-2zM12 24C5.4 24 0 18.6 0 12S5.4 0 12 0s12 5.4 12 12-5.4 12-12 12zm7.6-17.9L6.1 19.6c1.6 1.3 3.7 2 5.9 2 5.3 0 9.6-4.3 9.6-9.6 0-2.2-.8-4.3-2-5.9z\" fill=\"#384048\"/></g><defs><filter id=\"icon_x2F_Alert_x2F_error-2-Adobe_OpacityMaskFilter\" filterUnits=\"userSpaceOnUse\" x=\"-12\" y=\"-12\" width=\"48\" height=\"48\"><feColorMatrix values=\"1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0\"/></filter></defs><mask maskUnits=\"userSpaceOnUse\" x=\"-12\" y=\"-12\" width=\"48\" height=\"48\" id=\"icon_x2F_Alert_x2F_error-2-mask-2\"><g filter=\"url(#icon_x2F_Alert_x2F_error-2-Adobe_OpacityMaskFilter)\"><path id=\"icon_x2F_Alert_x2F_error-2-path-1\" d=\"M12 2.4c-5.3 0-9.6 4.3-9.6 9.6 0 2.2.8 4.3 2 5.9L17.9 4.4c-1.6-1.2-3.7-2-5.9-2zM12 24C5.4 24 0 18.6 0 12S5.4 0 12 0s12 5.4 12 12-5.4 12-12 12zm7.6-17.9L6.1 19.6c1.6 1.3 3.7 2 5.9 2 5.3 0 9.6-4.3 9.6-9.6 0-2.2-.8-4.3-2-5.9z\" fill=\"#fff\"/></g></mask><g id=\"icon_x2F_Alert_x2F_error-2-Color_x2F_Messaging_x2F_Error\" mask=\"url(#icon_x2F_Alert_x2F_error-2-mask-2)\"><path fill=\"#9d2028\" d=\"M0 0h48v48H0z\" transform=\"translate(-12 -12)\" id=\"icon_x2F_Alert_x2F_error-2-Swatch\"/></g></g></g></g></svg>"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"icon_x2F_Alert_x2F_error-2-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"icon_x2F_Alert_x2F_error-2-path-1_1_\" style=\"fill:#9D2028;\" d=\"M24,14.4c-5.3,0-9.6,4.3-9.6,9.6c0,2.2,0.8,4.3,2,5.9\r\n\tl13.5-13.5C28.3,15.2,26.2,14.4,24,14.4z M24,36c-6.6,0-12-5.4-12-12s5.4-12,12-12s12,5.4,12,12S30.6,36,24,36z M31.6,18.1\r\n\tL18.1,31.6c1.6,1.3,3.7,2,5.9,2c5.3,0,9.6-4.3,9.6-9.6C33.6,21.8,32.8,19.7,31.6,18.1z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "9nAV":
 /***/ (function(module, exports) {
 
-module.exports = "<svg id=\"icon_x2F_Nav_x2F_arrow-right-Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 48 48\" enable-background=\"new 0 0 48 48\"><title>icon/Nav/arrow-right</title><g id=\"icon_x2F_Nav_x2F_arrow-right-Symbols\"><g id=\"icon_x2F_Nav_x2F_arrow-right\"><g id=\"icon_x2F_Nav_x2F_arrow-right-Icon\" transform=\"translate(9 12)\"><g id=\"icon_x2F_Nav_x2F_arrow-right-Path\"><path id=\"icon_x2F_Nav_x2F_arrow-right-path-1_1_\" d=\"M26.6 12.9l-10.3 9.5c-.4.4-.4.9 0 1.3s1 .4 1.4 0l12-11.1c.4-.4.4-.9 0-1.3L17.7.2c-.4-.4-1-.4-1.4 0-.4.4-.4.9 0 1.3L26.6 11H1c-.6 0-1 .4-1 .9s.4.9 1 .9h25.6z\" fill=\"#384048\"/></g><defs><filter id=\"icon_x2F_Nav_x2F_arrow-right-Adobe_OpacityMaskFilter\" filterUnits=\"userSpaceOnUse\" x=\"-9\" y=\"-12\" width=\"48\" height=\"48\"><feColorMatrix values=\"1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0\"/></filter></defs><mask maskUnits=\"userSpaceOnUse\" x=\"-9\" y=\"-12\" width=\"48\" height=\"48\" id=\"icon_x2F_Nav_x2F_arrow-right-mask-2\"><g filter=\"url(#icon_x2F_Nav_x2F_arrow-right-Adobe_OpacityMaskFilter)\"><path id=\"icon_x2F_Nav_x2F_arrow-right-path-1\" d=\"M26.6 12.9l-10.3 9.5c-.4.4-.4.9 0 1.3s1 .4 1.4 0l12-11.1c.4-.4.4-.9 0-1.3L17.7.2c-.4-.4-1-.4-1.4 0-.4.4-.4.9 0 1.3L26.6 11H1c-.6 0-1 .4-1 .9s.4.9 1 .9h25.6z\" fill=\"#fff\"/></g></mask><g id=\"icon_x2F_Nav_x2F_arrow-right-Color_x2F_Grayscale_x2F_Night-Sky\" mask=\"url(#icon_x2F_Nav_x2F_arrow-right-mask-2)\"><path fill=\"#111\" d=\"M0 0h48v48H0z\" transform=\"translate(-9 -12)\" id=\"icon_x2F_Nav_x2F_arrow-right-Swatch\"/></g></g></g></g></svg>"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"icon_x2F_Nav_x2F_arrow-right-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"icon_x2F_Nav_x2F_arrow-right-path-1_1_\" style=\"fill:#111111;\" d=\"M35.6,24.9l-10.3,9.5c-0.4,0.4-0.4,0.9,0,1.3\r\n\tc0.4,0.4,1,0.4,1.4,0l12-11.1c0.4-0.4,0.4-0.9,0-1.3l-12-11.1c-0.4-0.4-1-0.4-1.4,0c-0.4,0.4-0.4,0.9,0,1.3L35.6,23H10\r\n\tc-0.6,0-1,0.4-1,0.9s0.4,0.9,1,0.9h25.6V24.9z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "A6Z6":
 /***/ (function(module, exports) {
 
-module.exports = "<svg id=\"action-thumbsdown-fill-Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 48 48\" enable-background=\"new 0 0 48 48\"><title>icon/Action/thumbsdown-fill</title><g transform=\"translate(12 12)\"><path id=\"action-thumbsdown-fill-a_1_\" d=\"M22.8 15.2h-4.3c-.7 0-1.2-.5-1.2-1.2V1.2c0-.7.5-1.2 1.2-1.2h4.3c.7 0 1.2.5 1.2 1.2V14c0 .6-.5 1.2-1.2 1.2zM9.7 24h-.5c-1.9 0-3.4-1.5-3.4-3.4V20c0-.4 0-.7.1-.9l.3-2.9-3.7-.9C.7 14.8-.3 12.9.2 11.1L2 2.7C2.4 1.2 3.7.2 5.3.2l6-.2c.9 0 1.9.4 2.5 1.1l.6.7c.1 0 .3.1.9.1.4 0 .7.3.7.7v11.1c0 .3-.2.6-.5.7-.8.3-1.5.8-1.9 1.5L12.1 19v.1c-.2.4-.3.8-.3 1.5V22c-.1 1.1-1 2-2.1 2z\" fill=\"#384048\"/><defs><filter id=\"action-thumbsdown-fill-Adobe_OpacityMaskFilter\" filterUnits=\"userSpaceOnUse\" x=\"-12\" y=\"-12\" width=\"48\" height=\"48\"><feColorMatrix values=\"1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0\"/></filter></defs><mask maskUnits=\"userSpaceOnUse\" x=\"-12\" y=\"-12\" width=\"48\" height=\"48\" id=\"action-thumbsdown-fill-b\"><g filter=\"url(#action-thumbsdown-fill-Adobe_OpacityMaskFilter)\"><path id=\"action-thumbsdown-fill-a\" d=\"M22.8 15.2h-4.3c-.7 0-1.2-.5-1.2-1.2V1.2c0-.7.5-1.2 1.2-1.2h4.3c.7 0 1.2.5 1.2 1.2V14c0 .6-.5 1.2-1.2 1.2zM9.7 24h-.5c-1.9 0-3.4-1.5-3.4-3.4V20c0-.4 0-.7.1-.9l.3-2.9-3.7-.9C.7 14.8-.3 12.9.2 11.1L2 2.7C2.4 1.2 3.7.2 5.3.2l6-.2c.9 0 1.9.4 2.5 1.1l.6.7c.1 0 .3.1.9.1.4 0 .7.3.7.7v11.1c0 .3-.2.6-.5.7-.8.3-1.5.8-1.9 1.5L12.1 19v.1c-.2.4-.3.8-.3 1.5V22c-.1 1.1-1 2-2.1 2z\" fill=\"#fff\"/></g></mask><g mask=\"url(#action-thumbsdown-fill-b)\"><path d=\"M-12-12h48v48h-48v-48z\" fill=\"#111\"/></g></g></svg>"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"action-thumbsdown-fill-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"action-thumbsdown-fill-a_1_\" style=\"fill:#111111;\" d=\"M34.8,27.2h-4.3c-0.7,0-1.2-0.5-1.2-1.2V13.2\r\n\tc0-0.7,0.5-1.2,1.2-1.2h4.3c0.7,0,1.2,0.5,1.2,1.2V26C36,26.6,35.5,27.2,34.8,27.2z M21.7,36h-0.5c-1.9,0-3.4-1.5-3.4-3.4V32\r\n\tc0-0.4,0-0.7,0.1-0.9l0.3-2.9l-3.7-0.9c-1.8-0.5-2.8-2.4-2.3-4.2l1.8-8.4c0.4-1.5,1.7-2.5,3.3-2.5l6-0.2c0.9,0,1.9,0.4,2.5,1.1\r\n\tl0.6,0.7c0.1,0,0.3,0.1,0.9,0.1c0.4,0,0.7,0.3,0.7,0.7v11.1c0,0.3-0.2,0.6-0.5,0.7c-0.8,0.3-1.5,0.8-1.9,1.5L24.1,31v0.1\r\n\tc-0.2,0.4-0.3,0.8-0.3,1.5V34C23.7,35.1,22.8,36,21.7,36z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "AGMn":
 /***/ (function(module, exports) {
 
-module.exports = "<svg id=\"icon_x2F_Social_x2F_instagram-line-Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 48 48\" enable-background=\"new 0 0 48 48\"><title>icon/Social/instagram-line</title><g id=\"icon_x2F_Social_x2F_instagram-line-Symbols\"><g id=\"icon_x2F_Social_x2F_instagram-line\"><g id=\"icon_x2F_Social_x2F_instagram-line-Icon\" transform=\"translate(8 8)\"><g id=\"icon_x2F_Social_x2F_instagram-line-Mask\"><path id=\"icon_x2F_Social_x2F_instagram-line-path-1_1_\" d=\"M16 0c8.8 0 16 7.2 16 16s-7.2 16-16 16S0 24.8 0 16 7.2 0 16 0zm0 30.2c7.8 0 14.2-6.3 14.2-14.2S23.8 1.8 16 1.8 1.8 8.2 1.8 16 8.2 30.2 16 30.2zm0-20.8h3.2c.8 0 1.2.2 1.5.3.4.1.6.3.9.6.3.3.5.5.6.9.1.3.2.7.3 1.5v6.4c0 .8-.2 1.2-.3 1.5-.1.4-.3.6-.6.9-.3.3-.5.5-.9.6-.3.1-.7.2-1.5.3h-6.4c-.8 0-1.2-.2-1.5-.3-.4-.1-.6-.3-.9-.6-.3-.3-.5-.5-.6-.9-.1-.3-.2-.7-.3-1.5v-3.2-3.2c0-.8.2-1.2.3-1.5.1-.4.3-.6.6-.9.3-.3.5-.5.9-.6.3-.1.7-.2 1.5-.3.8.1 1.1 0 3.2 0zm0 2.5c-2.3 0-4.1 1.8-4.1 4.1s1.8 4.1 4.1 4.1 4.1-1.8 4.1-4.1-1.8-4.1-4.1-4.1zm5.2-.2c0-.5-.4-1-1-1-.5 0-1 .4-1 1 0 .5.4 1 1 1s1-.4 1-1zm-5.2 7c-1.5 0-2.7-1.2-2.7-2.7 0-1.5 1.2-2.7 2.7-2.7 1.5 0 2.7 1.2 2.7 2.7 0 1.5-1.2 2.7-2.7 2.7z\" fill=\"#384048\"/></g><defs><filter id=\"icon_x2F_Social_x2F_instagram-line-Adobe_OpacityMaskFilter\" filterUnits=\"userSpaceOnUse\" x=\"-8\" y=\"-8\" width=\"48\" height=\"48\"><feColorMatrix values=\"1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0\"/></filter></defs><mask maskUnits=\"userSpaceOnUse\" x=\"-8\" y=\"-8\" width=\"48\" height=\"48\" id=\"icon_x2F_Social_x2F_instagram-line-mask-2\"><g filter=\"url(#icon_x2F_Social_x2F_instagram-line-Adobe_OpacityMaskFilter)\"><path id=\"icon_x2F_Social_x2F_instagram-line-path-1\" d=\"M16 0c8.8 0 16 7.2 16 16s-7.2 16-16 16S0 24.8 0 16 7.2 0 16 0zm0 30.2c7.8 0 14.2-6.3 14.2-14.2S23.8 1.8 16 1.8 1.8 8.2 1.8 16 8.2 30.2 16 30.2zm0-20.8h3.2c.8 0 1.2.2 1.5.3.4.1.6.3.9.6.3.3.5.5.6.9.1.3.2.7.3 1.5v6.4c0 .8-.2 1.2-.3 1.5-.1.4-.3.6-.6.9-.3.3-.5.5-.9.6-.3.1-.7.2-1.5.3h-6.4c-.8 0-1.2-.2-1.5-.3-.4-.1-.6-.3-.9-.6-.3-.3-.5-.5-.6-.9-.1-.3-.2-.7-.3-1.5v-3.2-3.2c0-.8.2-1.2.3-1.5.1-.4.3-.6.6-.9.3-.3.5-.5.9-.6.3-.1.7-.2 1.5-.3.8.1 1.1 0 3.2 0zm0 2.5c-2.3 0-4.1 1.8-4.1 4.1s1.8 4.1 4.1 4.1 4.1-1.8 4.1-4.1-1.8-4.1-4.1-4.1zm5.2-.2c0-.5-.4-1-1-1-.5 0-1 .4-1 1 0 .5.4 1 1 1s1-.4 1-1zm-5.2 7c-1.5 0-2.7-1.2-2.7-2.7 0-1.5 1.2-2.7 2.7-2.7 1.5 0 2.7 1.2 2.7 2.7 0 1.5-1.2 2.7-2.7 2.7z\" fill=\"#fff\"/></g></mask><g id=\"icon_x2F_Social_x2F_instagram-line-Color_x2F_Grayscale_x2F_Night-Sky\" mask=\"url(#icon_x2F_Social_x2F_instagram-line-mask-2)\"><path fill=\"#111\" d=\"M0 0h48v48H0z\" transform=\"translate(-8 -8)\" id=\"icon_x2F_Social_x2F_instagram-line-Swatch\"/></g></g></g></g></svg>"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"icon_x2F_Social_x2F_instagram-line-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"icon_x2F_Social_x2F_instagram-line-path-1_1_\" style=\"fill:#111111;\" d=\"M24,8c8.8,0,16,7.2,16,16s-7.2,16-16,16\r\n\tS8,32.8,8,24S15.2,8,24,8z M24,38.2c7.8,0,14.2-6.3,14.2-14.2S31.8,9.8,24,9.8S9.8,16.2,9.8,24S16.2,38.2,24,38.2z M24,17.4h3.2\r\n\tc0.8,0,1.2,0.2,1.5,0.3c0.4,0.1,0.6,0.3,0.9,0.6c0.3,0.3,0.5,0.5,0.6,0.9c0.1,0.3,0.2,0.7,0.3,1.5v6.4c0,0.8-0.2,1.2-0.3,1.5\r\n\tc-0.1,0.4-0.3,0.6-0.6,0.9c-0.3,0.3-0.5,0.5-0.9,0.6c-0.3,0.1-0.7,0.2-1.5,0.3h-6.4c-0.8,0-1.2-0.2-1.5-0.3\r\n\tc-0.4-0.1-0.6-0.3-0.9-0.6c-0.3-0.3-0.5-0.5-0.6-0.9c-0.1-0.3-0.2-0.7-0.3-1.5v-3.2v-3.2c0-0.8,0.2-1.2,0.3-1.5\r\n\tc0.1-0.4,0.3-0.6,0.6-0.9s0.5-0.5,0.9-0.6c0.3-0.1,0.7-0.2,1.5-0.3C21.6,17.5,21.9,17.4,24,17.4z M24,19.9c-2.3,0-4.1,1.8-4.1,4.1\r\n\ts1.8,4.1,4.1,4.1s4.1-1.8,4.1-4.1S26.3,19.9,24,19.9z M29.2,19.7c0-0.5-0.4-1-1-1c-0.5,0-1,0.4-1,1c0,0.5,0.4,1,1,1\r\n\tS29.2,20.3,29.2,19.7z M24,26.7c-1.5,0-2.7-1.2-2.7-2.7s1.2-2.7,2.7-2.7s2.7,1.2,2.7,2.7S25.5,26.7,24,26.7z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "ARRV":
 /***/ (function(module, exports) {
 
-module.exports = "<svg id=\"action-trash-can-Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 48 48\" enable-background=\"new 0 0 48 48\"><title>icon/Action/trash-can</title><g transform=\"translate(11 11)\"><path id=\"action-trash-can-a_1_\" d=\"M18 21.3c0 .5-.4.8-.8.8-.5 0-.8-.3-.8-.8V8.1c0-.5.4-.8.8-.8.5 0 .8.4.8.8v13.2zM16.2 3.5H9.8V1.9c0-.2.1-.3.3-.3h5.8c.2 0 .3.1.3.3v1.6zm-2.4 17.8c0 .5-.4.8-.8.8-.5 0-.8-.3-.8-.8V8.1c0-.5.4-.8.8-.8s.8.4.8.8v13.2zm-4.2 0c0 .5-.4.8-.8.8-.5 0-.8-.3-.8-.8V8.1c0-.5.4-.8.8-.8.5 0 .8.4.8.8v13.2zM25.2 3.5h-7.3V1.9c0-1.1-.9-1.9-2-1.9h-5.8c-1.1 0-2 .9-2 1.9v1.6H.8c-.4 0-.8.4-.8.8 0 .5.4.8.8.8h2.4l.6 18.4C3.9 25 5 26 6.4 26h13.2c1.4 0 2.5-1 2.5-2.4l.6-18.4h2.4c.5 0 .8-.3.8-.8.1-.5-.3-.9-.7-.9z\" fill=\"#333\"/><defs><filter id=\"action-trash-can-Adobe_OpacityMaskFilter\" filterUnits=\"userSpaceOnUse\" x=\"-11\" y=\"-11\" width=\"48\" height=\"48\"><feColorMatrix values=\"1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0\"/></filter></defs><mask maskUnits=\"userSpaceOnUse\" x=\"-11\" y=\"-11\" width=\"48\" height=\"48\" id=\"action-trash-can-b\"><g filter=\"url(#action-trash-can-Adobe_OpacityMaskFilter)\"><path id=\"action-trash-can-a\" d=\"M18 21.3c0 .5-.4.8-.8.8-.5 0-.8-.3-.8-.8V8.1c0-.5.4-.8.8-.8.5 0 .8.4.8.8v13.2zM16.2 3.5H9.8V1.9c0-.2.1-.3.3-.3h5.8c.2 0 .3.1.3.3v1.6zm-2.4 17.8c0 .5-.4.8-.8.8-.5 0-.8-.3-.8-.8V8.1c0-.5.4-.8.8-.8s.8.4.8.8v13.2zm-4.2 0c0 .5-.4.8-.8.8-.5 0-.8-.3-.8-.8V8.1c0-.5.4-.8.8-.8.5 0 .8.4.8.8v13.2zM25.2 3.5h-7.3V1.9c0-1.1-.9-1.9-2-1.9h-5.8c-1.1 0-2 .9-2 1.9v1.6H.8c-.4 0-.8.4-.8.8 0 .5.4.8.8.8h2.4l.6 18.4C3.9 25 5 26 6.4 26h13.2c1.4 0 2.5-1 2.5-2.4l.6-18.4h2.4c.5 0 .8-.3.8-.8.1-.5-.3-.9-.7-.9z\" fill=\"#fff\"/></g></mask><g mask=\"url(#action-trash-can-b)\"><path d=\"M-11-11h48v48h-48v-48z\" fill=\"#111\"/></g></g></svg>"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"action-trash-can-Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"\r\n\t x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\" style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"action-trash-can-a_1_\" style=\"fill:#333333;\" d=\"M29,32.3c0,0.5-0.4,0.8-0.8,0.8c-0.5,0-0.8-0.3-0.8-0.8V19.1\r\n\tc0-0.5,0.4-0.8,0.8-0.8c0.5,0,0.8,0.4,0.8,0.8V32.3z M27.2,14.5h-6.4v-1.6c0-0.2,0.1-0.3,0.3-0.3h5.8c0.2,0,0.3,0.1,0.3,0.3V14.5z\r\n\t M24.8,32.3c0,0.5-0.4,0.8-0.8,0.8c-0.5,0-0.8-0.3-0.8-0.8V19.1c0-0.5,0.4-0.8,0.8-0.8c0.4,0,0.8,0.4,0.8,0.8V32.3z M20.6,32.3\r\n\tc0,0.5-0.4,0.8-0.8,0.8c-0.5,0-0.8-0.3-0.8-0.8V19.1c0-0.5,0.4-0.8,0.8-0.8c0.5,0,0.8,0.4,0.8,0.8V32.3z M36.2,14.5h-7.3v-1.6\r\n\tc0-1.1-0.9-1.9-2-1.9h-5.8c-1.1,0-2,0.9-2,1.9v1.6h-7.3c-0.4,0-0.8,0.4-0.8,0.8c0,0.5,0.4,0.8,0.8,0.8h2.4l0.6,18.4\r\n\tC14.9,36,16,37,17.4,37h13.2c1.4,0,2.5-1,2.5-2.4l0.6-18.4h2.4c0.5,0,0.8-0.3,0.8-0.8C37,14.9,36.6,14.5,36.2,14.5z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "BxHr":
 /***/ (function(module, exports) {
 
-module.exports = "<svg id=\"icon_x2F_Utility_x2F_Ship_x2F_track-order-Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 48 48\" enable-background=\"new 0 0 48 48\"><title>icon/Utility/Ship/track-order</title><g id=\"icon_x2F_Utility_x2F_Ship_x2F_track-order-Symbols\"><g id=\"icon_x2F_Utility_x2F_Ship_x2F_track-order\"><g id=\"icon_x2F_Utility_x2F_Ship_x2F_track-order-Icon\" transform=\"translate(11 12)\"><g id=\"icon_x2F_Utility_x2F_Ship_x2F_track-order-Mask\"><path id=\"icon_x2F_Utility_x2F_Ship_x2F_track-order-path-1_1_\" d=\"M25.9 13.4c.2.4.1 1.2-.3 1.5l-6.3 3.6c.2.5.3 1 .3 1.6 0 2.2-1.7 3.9-3.7 3.9s-3.7-1.8-3.7-3.9c0-1.3.6-2.5 1.6-3.2L6.6 2.7 2.4 1.4c-.3-.2-.5-.5-.4-.9.1-.4.5-.6.8-.5l4.4 1.4c.2.1.3.2.4.3l4.2 8.4 8.6-5c.1 0 .3-.1.4-.1.4 0 .9.3 1.1.7l4 7.7zm-10 9.2c1.3 0 2.4-1.1 2.4-2.5s-1.1-2.5-2.4-2.5-2.4 1.1-2.4 2.5 1.1 2.5 2.4 2.5zM5.9 8.3H1.1c-.4 0-.7-.3-.7-.6s.3-.7.7-.7h4.8c.4 0 .7.3.7.7s-.4.6-.7.6zM8 12.5H.7c-.4 0-.7-.3-.7-.7 0-.4.3-.7.7-.7H8c.4 0 .7.3.7.7 0 .4-.3.7-.7.7zm2.2 4.1H5.4c-.4 0-.7-.3-.7-.7 0-.4.3-.7.7-.7h4.8c.4 0 .7.3.7.7 0 .4-.3.7-.7.7z\" fill=\"#384048\"/></g><defs><filter id=\"icon_x2F_Utility_x2F_Ship_x2F_track-order-Adobe_OpacityMaskFilter\" filterUnits=\"userSpaceOnUse\" x=\"-11\" y=\"-12\" width=\"48\" height=\"48\"><feColorMatrix values=\"1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0\"/></filter></defs><mask maskUnits=\"userSpaceOnUse\" x=\"-11\" y=\"-12\" width=\"48\" height=\"48\" id=\"icon_x2F_Utility_x2F_Ship_x2F_track-order-mask-2\"><g filter=\"url(#icon_x2F_Utility_x2F_Ship_x2F_track-order-Adobe_OpacityMaskFilter)\"><path id=\"icon_x2F_Utility_x2F_Ship_x2F_track-order-path-1\" d=\"M25.9 13.4c.2.4.1 1.2-.3 1.5l-6.3 3.6c.2.5.3 1 .3 1.6 0 2.2-1.7 3.9-3.7 3.9s-3.7-1.8-3.7-3.9c0-1.3.6-2.5 1.6-3.2L6.6 2.7 2.4 1.4c-.3-.2-.5-.5-.4-.9.1-.4.5-.6.8-.5l4.4 1.4c.2.1.3.2.4.3l4.2 8.4 8.6-5c.1 0 .3-.1.4-.1.4 0 .9.3 1.1.7l4 7.7zm-10 9.2c1.3 0 2.4-1.1 2.4-2.5s-1.1-2.5-2.4-2.5-2.4 1.1-2.4 2.5 1.1 2.5 2.4 2.5zM5.9 8.3H1.1c-.4 0-.7-.3-.7-.6s.3-.7.7-.7h4.8c.4 0 .7.3.7.7s-.4.6-.7.6zM8 12.5H.7c-.4 0-.7-.3-.7-.7 0-.4.3-.7.7-.7H8c.4 0 .7.3.7.7 0 .4-.3.7-.7.7zm2.2 4.1H5.4c-.4 0-.7-.3-.7-.7 0-.4.3-.7.7-.7h4.8c.4 0 .7.3.7.7 0 .4-.3.7-.7.7z\" fill=\"#fff\"/></g></mask><g id=\"icon_x2F_Utility_x2F_Ship_x2F_track-order-Color_x2F_Grayscale_x2F_Night-Sky\" mask=\"url(#icon_x2F_Utility_x2F_Ship_x2F_track-order-mask-2)\"><path fill=\"#111\" d=\"M0 0h48v48H0z\" transform=\"translate(-11 -12)\" id=\"icon_x2F_Utility_x2F_Ship_x2F_track-order-Swatch\"/></g></g></g></g></svg>"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"icon_x2F_Utility_x2F_Ship_x2F_track-order-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"icon_x2F_Utility_x2F_Ship_x2F_track-order-path-1_1_\" style=\"fill:#111111;\" d=\"M36.9,25.4c0.2,0.4,0.1,1.2-0.3,1.5\r\n\tl-6.3,3.6c0.2,0.5,0.3,1,0.3,1.6c0,2.2-1.7,3.9-3.7,3.9s-3.7-1.8-3.7-3.9c0-1.3,0.6-2.5,1.6-3.2l-7.2-14.2l-4.2-1.3\r\n\tc-0.3-0.2-0.5-0.5-0.4-0.9s0.5-0.6,0.8-0.5l4.4,1.4c0.2,0.1,0.3,0.2,0.4,0.3l4.2,8.4l8.6-5c0.1,0,0.3-0.1,0.4-0.1\r\n\tc0.4,0,0.9,0.3,1.1,0.7L36.9,25.4z M26.9,34.6c1.3,0,2.4-1.1,2.4-2.5c0-1.4-1.1-2.5-2.4-2.5s-2.4,1.1-2.4,2.5\r\n\tC24.5,33.5,25.6,34.6,26.9,34.6z M16.9,20.3h-4.8c-0.4,0-0.7-0.3-0.7-0.6s0.3-0.7,0.7-0.7h4.8c0.4,0,0.7,0.3,0.7,0.7\r\n\tS17.2,20.3,16.9,20.3z M19,24.5h-7.3c-0.4,0-0.7-0.3-0.7-0.7c0-0.4,0.3-0.7,0.7-0.7H19c0.4,0,0.7,0.3,0.7,0.7\r\n\tC19.7,24.2,19.4,24.5,19,24.5z M21.2,28.6h-4.8c-0.4,0-0.7-0.3-0.7-0.7c0-0.4,0.3-0.7,0.7-0.7h4.8c0.4,0,0.7,0.3,0.7,0.7\r\n\tC21.9,28.3,21.6,28.6,21.2,28.6z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "CKfJ":
 /***/ (function(module, exports) {
 
-module.exports = "<svg id=\"icon_x2F_Utility_x2F_Star-Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 48 48\" enable-background=\"new 0 0 48 48\"><title>icon/Utility/Star</title><g id=\"icon_x2F_Utility_x2F_Star-Symbols\"><g id=\"icon_x2F_Utility_x2F_Star\"><g id=\"icon_x2F_Utility_x2F_Star-Icon\" transform=\"translate(12 12)\"><g id=\"icon_x2F_Utility_x2F_Star-Star\"><path id=\"icon_x2F_Utility_x2F_Star-path-1_1_\" fill=\"#c02020\" d=\"M12 18l-7.1 3.7 1.4-7.8L.6 8.3l7.9-1.2L12 0l3.5 7.1 7.9 1.2-5.7 5.6 1.4 7.8z\"/></g><defs><filter id=\"icon_x2F_Utility_x2F_Star-Adobe_OpacityMaskFilter\" filterUnits=\"userSpaceOnUse\" x=\"-12\" y=\"-12\" width=\"48\" height=\"48\"><feColorMatrix values=\"1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0\"/></filter></defs><mask maskUnits=\"userSpaceOnUse\" x=\"-12\" y=\"-12\" width=\"48\" height=\"48\" id=\"icon_x2F_Utility_x2F_Star-mask-2\"><g filter=\"url(#icon_x2F_Utility_x2F_Star-Adobe_OpacityMaskFilter)\"><path id=\"icon_x2F_Utility_x2F_Star-path-1\" fill=\"#fff\" d=\"M12 18l-7.1 3.7 1.4-7.8L.6 8.3l7.9-1.2L12 0l3.5 7.1 7.9 1.2-5.7 5.6 1.4 7.8z\"/></g></mask><g id=\"icon_x2F_Utility_x2F_Star-Color_x2F_Grayscale_x2F_Night-Sky\" mask=\"url(#icon_x2F_Utility_x2F_Star-mask-2)\"><path fill=\"#111\" d=\"M0 0h48v48H0z\" transform=\"translate(-12 -12)\" id=\"icon_x2F_Utility_x2F_Star-Swatch\"/></g></g></g></g></svg>"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"icon_x2F_Utility_x2F_Star-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"icon_x2F_Utility_x2F_Star-path-1_1_\" style=\"fill:#111111;\" d=\"M24,30l-7.1,3.7l1.4-7.8l-5.7-5.6l7.9-1.2L24,12l3.5,7.1\r\n\tl7.9,1.2l-5.7,5.6l1.4,7.8L24,30z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "ESlp":
 /***/ (function(module, exports) {
 
-module.exports = "<svg id=\"icon_x2F_Utility_x2F_Media_x2F_camera-Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 48 48\" enable-background=\"new 0 0 48 48\"><title>icon/Utility/Media/camera</title><g id=\"icon_x2F_Utility_x2F_Media_x2F_camera-Symbols\"><g id=\"icon_x2F_Utility_x2F_Media_x2F_camera\"><g id=\"icon_x2F_Utility_x2F_Media_x2F_camera-Icon\" transform=\"translate(10 14)\"><g id=\"icon_x2F_Utility_x2F_Media_x2F_camera-Mask\"><path id=\"icon_x2F_Utility_x2F_Media_x2F_camera-path-1_1_\" d=\"M25.8 4.1h-4.2c-.5 0-1.2-.4-1.4-.9l-.5-1.4C19.3.8 18.1 0 17 0h-6.3C9.6 0 8.5.8 8.2 1.8l-.5 1.4c-.1.5-.7.9-1.2.9H2.1C.9 4.1 0 5.1 0 6.3v11.6C0 19 .9 20 2.1 20h23.7c1.2 0 2.2-1 2.2-2.2V6.3c0-1.2-1-2.2-2.2-2.2zM14 17.3c-3.4 0-6.1-2.6-6.1-5.9s2.7-5.9 6.1-5.9 6.1 2.6 6.1 5.9-2.7 5.9-6.1 5.9zm0-10.5c-2.6 0-4.7 2-4.7 4.5s2.1 4.5 4.7 4.5 4.7-2 4.7-4.5-2.1-4.5-4.7-4.5z\" fill=\"#384048\"/></g><defs><filter id=\"icon_x2F_Utility_x2F_Media_x2F_camera-Adobe_OpacityMaskFilter\" filterUnits=\"userSpaceOnUse\" x=\"-10\" y=\"-14\" width=\"48\" height=\"48\"><feColorMatrix values=\"1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0\"/></filter></defs><mask maskUnits=\"userSpaceOnUse\" x=\"-10\" y=\"-14\" width=\"48\" height=\"48\" id=\"icon_x2F_Utility_x2F_Media_x2F_camera-mask-2\"><g filter=\"url(#icon_x2F_Utility_x2F_Media_x2F_camera-Adobe_OpacityMaskFilter)\"><path id=\"icon_x2F_Utility_x2F_Media_x2F_camera-path-1\" d=\"M25.8 4.1h-4.2c-.5 0-1.2-.4-1.4-.9l-.5-1.4C19.3.8 18.1 0 17 0h-6.3C9.6 0 8.5.8 8.2 1.8l-.5 1.4c-.1.5-.7.9-1.2.9H2.1C.9 4.1 0 5.1 0 6.3v11.6C0 19 .9 20 2.1 20h23.7c1.2 0 2.2-1 2.2-2.2V6.3c0-1.2-1-2.2-2.2-2.2zM14 17.3c-3.4 0-6.1-2.6-6.1-5.9s2.7-5.9 6.1-5.9 6.1 2.6 6.1 5.9-2.7 5.9-6.1 5.9zm0-10.5c-2.6 0-4.7 2-4.7 4.5s2.1 4.5 4.7 4.5 4.7-2 4.7-4.5-2.1-4.5-4.7-4.5z\" fill=\"#fff\"/></g></mask><g id=\"icon_x2F_Utility_x2F_Media_x2F_camera-Color_x2F_Grayscale_x2F_Night-Sky\" mask=\"url(#icon_x2F_Utility_x2F_Media_x2F_camera-mask-2)\"><path fill=\"#111\" d=\"M0 0h48v48H0z\" transform=\"translate(-10 -14)\" id=\"icon_x2F_Utility_x2F_Media_x2F_camera-Swatch\"/></g></g></g></g></svg>"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"icon_x2F_Utility_x2F_Media_x2F_camera-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"icon_x2F_Utility_x2F_Media_x2F_camera-path-1_1_\" style=\"fill:#111111;\" d=\"M35.8,18.1h-4.2c-0.5,0-1.2-0.4-1.4-0.9\r\n\tl-0.5-1.4c-0.4-1-1.6-1.8-2.7-1.8h-6.3c-1.1,0-2.2,0.8-2.5,1.8l-0.5,1.4c-0.1,0.5-0.7,0.9-1.2,0.9h-4.4c-1.2,0-2.1,1-2.1,2.2v11.6\r\n\tc0,1.1,0.9,2.1,2.1,2.1h23.7c1.2,0,2.2-1,2.2-2.2V20.3C38,19.1,37,18.1,35.8,18.1z M24,31.3c-3.4,0-6.1-2.6-6.1-5.9s2.7-5.9,6.1-5.9\r\n\ts6.1,2.6,6.1,5.9S27.4,31.3,24,31.3z M24,20.8c-2.6,0-4.7,2-4.7,4.5s2.1,4.5,4.7,4.5s4.7-2,4.7-4.5S26.6,20.8,24,20.8z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "FAZD":
 /***/ (function(module, exports) {
 
-module.exports = "<svg id=\"icon_x2F_Nav_x2F_arrow-left-Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 48 48\"><title>icon/Nav/arrow-left</title><g id=\"icon_x2F_Nav_x2F_arrow-left-Symbols\"><g id=\"icon_x2F_Nav_x2F_arrow-left\"><g id=\"icon_x2F_Nav_x2F_arrow-left-Icon\" transform=\"translate(9 12)\"><g id=\"icon_x2F_Nav_x2F_arrow-left-Mask\" transform=\"matrix(-1 0 0 1 30 0)\"><path id=\"icon_x2F_Nav_x2F_arrow-left-path-1_1_\" d=\"M26.6 11L16.3 1.5c-.4-.4-.4-.9 0-1.3s1-.4 1.4 0l12 11.1c.4.4.4.9 0 1.3l-12 11.1c-.4.4-1 .4-1.4 0s-.4-.9 0-1.3l10.3-9.6H1c-.6 0-1-.4-1-.9s.4-.9 1-.9h25.6z\" fill=\"#384048\"/></g></g></g></g></svg>"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"icon_x2F_Nav_x2F_arrow-left-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"icon_x2F_Nav_x2F_arrow-left-path-1_1_\" style=\"fill:#111111;\" d=\"M12.4,23l10.3-9.5c0.4-0.4,0.4-0.9,0-1.3\r\n\tc-0.4-0.4-1-0.4-1.4,0l-12,11.1c-0.4,0.4-0.4,0.9,0,1.3l12,11.1c0.4,0.4,1,0.4,1.4,0s0.4-0.9,0-1.3l-10.3-9.6H38c0.6,0,1-0.4,1-0.9\r\n\tS38.6,23,38,23C38,23,12.4,23,12.4,23z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "FNZ+":
 /***/ (function(module, exports) {
 
-module.exports = "<svg id=\"action-upload-Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 48 48\" enable-background=\"new 0 0 48 48\"><title>icon/Action/upload</title><g transform=\"translate(12 13)\"><path id=\"action-upload-a_1_\" d=\"M23.4 15.1c.3 0 .6.3.6.6v2.4c0 2.1-1.6 3.8-3.7 3.8H3.7c-2 0-3.7-1.7-3.7-3.8v-2.4c0-.4.3-.6.6-.6s.6.3.6.6v2.4c0 1.4 1.1 2.5 2.4 2.5h16.7c1.3 0 2.4-1.1 2.4-2.5v-2.4c.1-.3.4-.6.7-.6zm-3.7 2.5c.3 0 .6.3.6.6s-.3.6-.6.6H4.3c-.3 0-.6-.3-.6-.6 0-.4.3-.6.6-.6h15.4zM18.1 5.2c.3.2.3.6 0 .9-.2.3-.6.3-.8.1l-4.7-4.4v12.4c0 .3-.3.6-.6.6s-.6-.3-.6-.6V1.7L6.7 6.1c-.2.2-.6.2-.8 0-.2-.3-.2-.7 0-.9L11 .4c.6-.5 1.5-.5 2 0l5.1 4.8z\"/><defs><filter id=\"action-upload-Adobe_OpacityMaskFilter\" filterUnits=\"userSpaceOnUse\" x=\"-12\" y=\"-13\" width=\"48\" height=\"48\"><feColorMatrix values=\"1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0\"/></filter></defs><mask maskUnits=\"userSpaceOnUse\" x=\"-12\" y=\"-13\" width=\"48\" height=\"48\" id=\"action-upload-b\"><g filter=\"url(#action-upload-Adobe_OpacityMaskFilter)\"><path id=\"action-upload-a\" d=\"M23.4 15.1c.3 0 .6.3.6.6v2.4c0 2.1-1.6 3.8-3.7 3.8H3.7c-2 0-3.7-1.7-3.7-3.8v-2.4c0-.4.3-.6.6-.6s.6.3.6.6v2.4c0 1.4 1.1 2.5 2.4 2.5h16.7c1.3 0 2.4-1.1 2.4-2.5v-2.4c.1-.3.4-.6.7-.6zm-3.7 2.5c.3 0 .6.3.6.6s-.3.6-.6.6H4.3c-.3 0-.6-.3-.6-.6 0-.4.3-.6.6-.6h15.4zM18.1 5.2c.3.2.3.6 0 .9-.2.3-.6.3-.8.1l-4.7-4.4v12.4c0 .3-.3.6-.6.6s-.6-.3-.6-.6V1.7L6.7 6.1c-.2.2-.6.2-.8 0-.2-.3-.2-.7 0-.9L11 .4c.6-.5 1.5-.5 2 0l5.1 4.8z\" fill=\"#fff\"/></g></mask><g mask=\"url(#action-upload-b)\"><path d=\"M-12-13h48v48h-48v-48z\" fill=\"#111\"/></g></g></svg>"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"action-upload-Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"\r\n\t x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\" style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"action-upload-a_1_\" d=\"M35.4,28.1c0.3,0,0.6,0.3,0.6,0.6v2.4c0,2.1-1.6,3.8-3.7,3.8H15.7c-2,0-3.7-1.7-3.7-3.8v-2.4\r\n\tc0-0.4,0.3-0.6,0.6-0.6c0.3,0,0.6,0.3,0.6,0.6v2.4c0,1.4,1.1,2.5,2.4,2.5h16.7c1.3,0,2.4-1.1,2.4-2.5v-2.4\r\n\tC34.8,28.4,35.1,28.1,35.4,28.1z M31.7,30.6c0.3,0,0.6,0.3,0.6,0.6s-0.3,0.6-0.6,0.6H16.3c-0.3,0-0.6-0.3-0.6-0.6\r\n\tc0-0.4,0.3-0.6,0.6-0.6C16.3,30.6,31.7,30.6,31.7,30.6z M30.1,18.2c0.3,0.2,0.3,0.6,0,0.9c-0.2,0.3-0.6,0.3-0.8,0.1l-4.7-4.4v12.4\r\n\tc0,0.3-0.3,0.6-0.6,0.6c-0.3,0-0.6-0.3-0.6-0.6V14.7l-4.7,4.4c-0.2,0.2-0.6,0.2-0.8,0c-0.2-0.3-0.2-0.7,0-0.9l5.1-4.8\r\n\tc0.6-0.5,1.5-0.5,2,0C25,13.4,30.1,18.2,30.1,18.2z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "Gcex":
 /***/ (function(module, exports) {
 
-module.exports = "<svg id=\"icon_x2F_Utility_x2F_barcode-qr-Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 48 48\" enable-background=\"new 0 0 48 48\"><title>icon/Utility/barcode-qr</title><g id=\"icon_x2F_Utility_x2F_barcode-qr-Symbols\"><g id=\"icon_x2F_Utility_x2F_barcode-qr\"><g id=\"icon_x2F_Utility_x2F_barcode-qr-Icon\" transform=\"translate(11 11)\"><g id=\"icon_x2F_Utility_x2F_barcode-qr-Mask\"><path id=\"icon_x2F_Utility_x2F_barcode-qr-path-1_1_\" d=\"M0 14.5h1.5V16H0v-1.5zM0 10h3v3H0v-3zm4.5 3H6v1.5h1.5V16H3v-1.5h1.5V13zm7-4v1.5H10v-3h3v-3h1.5V6H16v3h-4.5zm0-6v1.5H10V0h1.5v1.5H13V0h3v1.5h-1.5V3h-3zm-7 7h3v1.5h-3V10zm10 10H16v1.5h-1.5V20zm0-5h-3v-4.5H13v3h1.5V15zm2.4-.5h1.5V16h-1.5v-1.5zm6-3V10h3v6h-3v1.5h3V19h-9v-1.5h1.5V16h1.5v1.5h1.5v-3h-3v-3h-3V10h6v1.5h-1.5V13h1.5v-1.5h1.5zm1.5 10v-1h1.5V23h-1.5v3h-6v-1.5h-3.9V23h3.9v-3h1.5v4.5h1.5V23h1.5v-1.5h1.5zm-14.4 3h1.5V23H13v3h-3v-1.5zm-1.4-13h1.5v3H8.6v-3zm4.4 6h1.5V19H13v-1.5zm-1.5 0V20H13v1.5h-1.5V23H10v-5.5h1.5zM0 8.7V0h8.6v8.6H0zm1.5-7.2v5.6h5.6V1.5H1.5zM0 26v-8.6h8.6V26H0zm1.5-7.1v5.6h5.6v-5.6H1.5zM17.4 8.7V0H26v8.6h-8.6zm1.5-7.2v5.6h5.6V1.5h-5.6z\" fill=\"#384048\"/></g><defs><filter id=\"icon_x2F_Utility_x2F_barcode-qr-Adobe_OpacityMaskFilter\" filterUnits=\"userSpaceOnUse\" x=\"-11\" y=\"-11\" width=\"48\" height=\"48\"><feColorMatrix values=\"1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0\"/></filter></defs><mask maskUnits=\"userSpaceOnUse\" x=\"-11\" y=\"-11\" width=\"48\" height=\"48\" id=\"icon_x2F_Utility_x2F_barcode-qr-mask-2\"><g filter=\"url(#icon_x2F_Utility_x2F_barcode-qr-Adobe_OpacityMaskFilter)\"><path id=\"icon_x2F_Utility_x2F_barcode-qr-path-1\" d=\"M0 14.5h1.5V16H0v-1.5zM0 10h3v3H0v-3zm4.5 3H6v1.5h1.5V16H3v-1.5h1.5V13zm7-4v1.5H10v-3h3v-3h1.5V6H16v3h-4.5zm0-6v1.5H10V0h1.5v1.5H13V0h3v1.5h-1.5V3h-3zm-7 7h3v1.5h-3V10zm10 10H16v1.5h-1.5V20zm0-5h-3v-4.5H13v3h1.5V15zm2.4-.5h1.5V16h-1.5v-1.5zm6-3V10h3v6h-3v1.5h3V19h-9v-1.5h1.5V16h1.5v1.5h1.5v-3h-3v-3h-3V10h6v1.5h-1.5V13h1.5v-1.5h1.5zm1.5 10v-1h1.5V23h-1.5v3h-6v-1.5h-3.9V23h3.9v-3h1.5v4.5h1.5V23h1.5v-1.5h1.5zm-14.4 3h1.5V23H13v3h-3v-1.5zm-1.4-13h1.5v3H8.6v-3zm4.4 6h1.5V19H13v-1.5zm-1.5 0V20H13v1.5h-1.5V23H10v-5.5h1.5zM0 8.7V0h8.6v8.6H0zm1.5-7.2v5.6h5.6V1.5H1.5zM0 26v-8.6h8.6V26H0zm1.5-7.1v5.6h5.6v-5.6H1.5zM17.4 8.7V0H26v8.6h-8.6zm1.5-7.2v5.6h5.6V1.5h-5.6z\" fill=\"#fff\"/></g></mask><g id=\"icon_x2F_Utility_x2F_barcode-qr-Color_x2F_Grayscale_x2F_Night-Sky\" mask=\"url(#icon_x2F_Utility_x2F_barcode-qr-mask-2)\"><path fill=\"#111\" d=\"M0 0h48v48H0z\" transform=\"translate(-11 -11)\" id=\"icon_x2F_Utility_x2F_barcode-qr-Swatch\"/></g></g></g></g></svg>"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"icon_x2F_Utility_x2F_barcode-qr-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"icon_x2F_Utility_x2F_barcode-qr-path-1_1_\" style=\"fill:#111111;\" d=\"M11,25.5h1.5V27H11V25.5z M11,21h3v3h-3V21z\r\n\t M15.5,24H17v1.5h1.5V27H14v-1.5h1.5V24z M22.5,20v1.5H21v-3h3v-3h1.5V17H27v3H22.5z M22.5,14v1.5H21V11h1.5v1.5H24V11h3v1.5h-1.5\r\n\tV14H22.5z M15.5,21h3v1.5h-3V21z M25.5,31H27v1.5h-1.5V31z M25.5,26h-3v-4.5H24v3h1.5V26z M27.9,25.5h1.5V27h-1.5V25.5z M33.9,22.5\r\n\tV21h3v6h-3v1.5h3V30h-9v-1.5h1.5V27h1.5v1.5h1.5v-3h-3v-3h-3V21h6v1.5h-1.5V24h1.5v-1.5H33.9z M35.4,32.5v-1h1.5V34h-1.5v3h-6v-1.5\r\n\th-3.9V34h3.9v-3h1.5v4.5h1.5V34h1.5v-1.5H35.4z M21,35.5h1.5V34H24v3h-3V35.5z M19.6,22.5h1.5v3h-1.5V22.5z M24,28.5h1.5V30H24V28.5\r\n\tz M22.5,28.5V31H24v1.5h-1.5V34H21v-5.5H22.5z M11,19.7V11h8.6v8.6H11V19.7z M12.5,12.5v5.6h5.6v-5.6H12.5z M11,37v-8.6h8.6V37H11z\r\n\t M12.5,29.9v5.6h5.6v-5.6H12.5z M28.4,19.7V11H37v8.6h-8.6V19.7z M29.9,12.5v5.6h5.6v-5.6H29.9z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "GqVQ":
 /***/ (function(module, exports) {
 
-module.exports = "<svg id=\"icon_x2F_Service_x2F_wallet-Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 48 48\" enable-background=\"new 0 0 48 48\"><title>icon/Service/wallet</title><g id=\"icon_x2F_Service_x2F_wallet-Symbols\"><g id=\"icon_x2F_Service_x2F_wallet\"><g id=\"icon_x2F_Service_x2F_wallet-Icon\" transform=\"translate(12 14)\"><g id=\"icon_x2F_Service_x2F_wallet-Mask\"><path id=\"icon_x2F_Service_x2F_wallet-path-1_1_\" d=\"M18 15.2h6v2.7c0 1.2-1 2.1-2.1 2.1H2.1C1 20 0 19 0 17.9V5.4c0-1.2 1-2.1 2.1-2.1h19.7c1.2 0 2.1 1 2.1 2.1v2.7h-6c-1 0-1.8.4-2.4 1.2-.5.7-.8 1.5-.8 2.4.1 1.7 1.2 3.5 3.3 3.5zm3.3-12.5H4.1L18.3 0h.5c1.2 0 2.2.9 2.4 2l.1.7c0-.1 0 0 0 0zM18 9.3h6V14h-6c-1.4 0-2-1.2-2-2.3 0-.6.2-1.3.5-1.7.4-.5.9-.7 1.5-.7zm1.4 3.7c.8 0 1.4-.6 1.4-1.4 0-.8-.6-1.4-1.4-1.4s-1.4.7-1.4 1.4c0 .8.6 1.4 1.4 1.4z\" fill=\"#384048\"/></g><defs><filter id=\"icon_x2F_Service_x2F_wallet-Adobe_OpacityMaskFilter\" filterUnits=\"userSpaceOnUse\" x=\"-12\" y=\"-14\" width=\"48\" height=\"48\"><feColorMatrix values=\"1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0\"/></filter></defs><mask maskUnits=\"userSpaceOnUse\" x=\"-12\" y=\"-14\" width=\"48\" height=\"48\" id=\"icon_x2F_Service_x2F_wallet-mask-2\"><g filter=\"url(#icon_x2F_Service_x2F_wallet-Adobe_OpacityMaskFilter)\"><path id=\"icon_x2F_Service_x2F_wallet-path-1\" d=\"M18 15.2h6v2.7c0 1.2-1 2.1-2.1 2.1H2.1C1 20 0 19 0 17.9V5.4c0-1.2 1-2.1 2.1-2.1h19.7c1.2 0 2.1 1 2.1 2.1v2.7h-6c-1 0-1.8.4-2.4 1.2-.5.7-.8 1.5-.8 2.4.1 1.7 1.2 3.5 3.3 3.5zm3.3-12.5H4.1L18.3 0h.5c1.2 0 2.2.9 2.4 2l.1.7c0-.1 0 0 0 0zM18 9.3h6V14h-6c-1.4 0-2-1.2-2-2.3 0-.6.2-1.3.5-1.7.4-.5.9-.7 1.5-.7zm1.4 3.7c.8 0 1.4-.6 1.4-1.4 0-.8-.6-1.4-1.4-1.4s-1.4.7-1.4 1.4c0 .8.6 1.4 1.4 1.4z\" fill=\"#fff\"/></g></mask><g id=\"icon_x2F_Service_x2F_wallet-Color_x2F_Grayscale_x2F_Night-Sky\" mask=\"url(#icon_x2F_Service_x2F_wallet-mask-2)\"><path fill=\"#111\" d=\"M0 0h48v48H0z\" transform=\"translate(-12 -14)\" id=\"icon_x2F_Service_x2F_wallet-Swatch\"/></g></g></g></g></svg>"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"icon_x2F_Service_x2F_wallet-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"icon_x2F_Service_x2F_wallet-path-1_1_\" style=\"fill:#111111;\" d=\"M30,29.2h6v2.7c0,1.2-1,2.1-2.1,2.1H14.1\r\n\tC13,34,12,33,12,31.9V19.4c0-1.2,1-2.1,2.1-2.1h19.7c1.2,0,2.1,1,2.1,2.1v2.7h-6c-1,0-1.8,0.4-2.4,1.2c-0.5,0.7-0.8,1.5-0.8,2.4\r\n\tC26.8,27.4,27.9,29.2,30,29.2z M33.3,16.7H16.1L30.3,14h0.5c1.2,0,2.2,0.9,2.4,2L33.3,16.7C33.3,16.6,33.3,16.7,33.3,16.7z M30,23.3\r\n\th6V28h-6c-1.4,0-2-1.2-2-2.3c0-0.6,0.2-1.3,0.5-1.7C28.9,23.5,29.4,23.3,30,23.3z M31.4,27c0.8,0,1.4-0.6,1.4-1.4\r\n\tc0-0.8-0.6-1.4-1.4-1.4c-0.8,0-1.4,0.7-1.4,1.4C30,26.4,30.6,27,31.4,27z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "GuGm":
 /***/ (function(module, exports) {
 
-module.exports = "<svg id=\"icon_x2F_Alert_x2F_success-Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 48 48\" enable-background=\"new 0 0 48 48\"><title>icon/Alert/success</title><g id=\"icon_x2F_Alert_x2F_success-Symbols\"><g id=\"icon_x2F_Alert_x2F_success\"><g id=\"icon_x2F_Alert_x2F_success-Group-2\" transform=\"translate(12 12)\"><g id=\"icon_x2F_Alert_x2F_success-Mask\"><path id=\"icon_x2F_Alert_x2F_success-path-1_1_\" d=\"M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.6 0 12 0zm6.6 7.4c.4.4.4 1 0 1.4l-8.7 8.7c-.2.2-.5.3-.7.3-.3 0-.5-.1-.7-.3l-2.9-2.9c-.4-.4-.4-1 0-1.4.4-.4 1-.4 1.4 0l2.2 2.2 8-8c.4-.4 1-.4 1.4 0z\" fill=\"#384048\"/></g><defs><filter id=\"icon_x2F_Alert_x2F_success-Adobe_OpacityMaskFilter\" filterUnits=\"userSpaceOnUse\" x=\"-12\" y=\"-12\" width=\"48\" height=\"48\"><feColorMatrix values=\"1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0\"/></filter></defs><mask maskUnits=\"userSpaceOnUse\" x=\"-12\" y=\"-12\" width=\"48\" height=\"48\" id=\"icon_x2F_Alert_x2F_success-mask-2\"><g filter=\"url(#icon_x2F_Alert_x2F_success-Adobe_OpacityMaskFilter)\"><path id=\"icon_x2F_Alert_x2F_success-path-1\" d=\"M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.6 0 12 0zm6.6 7.4c.4.4.4 1 0 1.4l-8.7 8.7c-.2.2-.5.3-.7.3-.3 0-.5-.1-.7-.3l-2.9-2.9c-.4-.4-.4-1 0-1.4.4-.4 1-.4 1.4 0l2.2 2.2 8-8c.4-.4 1-.4 1.4 0z\" fill=\"#fff\"/></g></mask><g id=\"icon_x2F_Alert_x2F_success-Color_x2F_Messaging_x2F_Success\" mask=\"url(#icon_x2F_Alert_x2F_success-mask-2)\"><path fill=\"#2a7952\" d=\"M0 0h48v48H0z\" transform=\"translate(-12 -12)\" id=\"icon_x2F_Alert_x2F_success-Swatch\"/></g></g></g></g></svg>"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"icon_x2F_Alert_x2F_success-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"icon_x2F_Alert_x2F_success-path-1_1_\" style=\"fill:#2A7952;\" d=\"M24,12c-6.6,0-12,5.4-12,12s5.4,12,12,12s12-5.4,12-12\r\n\tS30.6,12,24,12z M30.6,19.4c0.4,0.4,0.4,1,0,1.4l-8.7,8.7c-0.2,0.2-0.5,0.3-0.7,0.3c-0.3,0-0.5-0.1-0.7-0.3l-2.9-2.9\r\n\tc-0.4-0.4-0.4-1,0-1.4s1-0.4,1.4,0l2.2,2.2l8-8C29.6,19,30.2,19,30.6,19.4z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "GvgD":
 /***/ (function(module, exports) {
 
-module.exports = "<svg id=\"action-zoom-in-line-Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 48 48\" enable-background=\"new 0 0 48 48\"><title>icon/Action/zoom-in-line</title><g transform=\"translate(12 12)\"><path id=\"action-zoom-in-line-a_1_\" d=\"M23.6 20.9c.6.6.6 1.6-.1 2.4-.5.5-1 .7-1.5.7-.4 0-.8-.1-1.1-.4-.7-.7-6-5.9-7.1-7-1.4.9-3.1 1.4-4.8 1.4-5 0-9-4-9-9s4-9 9-9 9 4 9 9c0 1.8-.5 3.6-1.6 5.1 1.3 1.1 6.5 6.2 7.2 6.8zM1.4 9c0 4.2 3.4 7.6 7.6 7.6s7.6-3.4 7.6-7.6S13.2 1.4 9 1.4C4.8 1.4 1.4 4.8 1.4 9zm20.8 13.5c.3-.2.4-.5.4-.6-.7-.6-5.6-5.5-7-6.8-.2.2-.4.4-.7.6 1.4 1.3 6.2 6.2 6.9 6.8.1.1.2.2.4 0zM12.5 8.3c.4 0 .7.3.7.7s-.3.7-.7.7H9.7v2.8c0 .4-.3.7-.7.7s-.7-.3-.7-.7V9.7H5.5c-.3 0-.7-.3-.7-.7 0-.4.3-.7.7-.7h2.9V5.5c0-.4.3-.7.7-.7s.7.3.7.7v2.8h2.7z\" fill=\"#384048\"/><defs><filter id=\"action-zoom-in-line-Adobe_OpacityMaskFilter\" filterUnits=\"userSpaceOnUse\" x=\"-12\" y=\"-12\" width=\"48\" height=\"48\"><feColorMatrix values=\"1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0\"/></filter></defs><mask maskUnits=\"userSpaceOnUse\" x=\"-12\" y=\"-12\" width=\"48\" height=\"48\" id=\"action-zoom-in-line-b\"><g filter=\"url(#action-zoom-in-line-Adobe_OpacityMaskFilter)\"><path id=\"action-zoom-in-line-a\" d=\"M23.6 20.9c.6.6.6 1.6-.1 2.4-.5.5-1 .7-1.5.7-.4 0-.8-.1-1.1-.4-.7-.7-6-5.9-7.1-7-1.4.9-3.1 1.4-4.8 1.4-5 0-9-4-9-9s4-9 9-9 9 4 9 9c0 1.8-.5 3.6-1.6 5.1 1.3 1.1 6.5 6.2 7.2 6.8zM1.4 9c0 4.2 3.4 7.6 7.6 7.6s7.6-3.4 7.6-7.6S13.2 1.4 9 1.4C4.8 1.4 1.4 4.8 1.4 9zm20.8 13.5c.3-.2.4-.5.4-.6-.7-.6-5.6-5.5-7-6.8-.2.2-.4.4-.7.6 1.4 1.3 6.2 6.2 6.9 6.8.1.1.2.2.4 0zM12.5 8.3c.4 0 .7.3.7.7s-.3.7-.7.7H9.7v2.8c0 .4-.3.7-.7.7s-.7-.3-.7-.7V9.7H5.5c-.3 0-.7-.3-.7-.7 0-.4.3-.7.7-.7h2.9V5.5c0-.4.3-.7.7-.7s.7.3.7.7v2.8h2.7z\" fill=\"#fff\"/></g></mask><g mask=\"url(#action-zoom-in-line-b)\"><path d=\"M-12-12h48v48h-48v-48z\" fill=\"#111\"/></g></g></svg>"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"action-zoom-in-line-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"action-zoom-in-line-a_1_\" style=\"fill:#111111;\" d=\"M35.6,32.9c0.6,0.6,0.6,1.6-0.1,2.4C35,35.8,34.5,36,34,36\r\n\tc-0.4,0-0.8-0.1-1.1-0.4c-0.7-0.7-6-5.9-7.1-7C24.4,29.5,22.7,30,21,30c-5,0-9-4-9-9s4-9,9-9s9,4,9,9c0,1.8-0.5,3.6-1.6,5.1\r\n\tC29.7,27.2,34.9,32.3,35.6,32.9z M13.4,21c0,4.2,3.4,7.6,7.6,7.6s7.6-3.4,7.6-7.6s-3.4-7.6-7.6-7.6S13.4,16.8,13.4,21z M34.2,34.5\r\n\tc0.3-0.2,0.4-0.5,0.4-0.6c-0.7-0.6-5.6-5.5-7-6.8c-0.2,0.2-0.4,0.4-0.7,0.6c1.4,1.3,6.2,6.2,6.9,6.8C33.9,34.6,34,34.7,34.2,34.5z\r\n\t M24.5,20.3c0.4,0,0.7,0.3,0.7,0.7s-0.3,0.7-0.7,0.7h-2.8v2.8c0,0.4-0.3,0.7-0.7,0.7s-0.7-0.3-0.7-0.7v-2.8h-2.8\r\n\tc-0.3,0-0.7-0.3-0.7-0.7s0.3-0.7,0.7-0.7h2.9v-2.8c0-0.4,0.3-0.7,0.7-0.7c0.4,0,0.7,0.3,0.7,0.7v2.8C21.8,20.3,24.5,20.3,24.5,20.3z\r\n\t\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "H4PX":
 /***/ (function(module, exports) {
 
-module.exports = "<svg id=\"icon_x2F_Nav_x2F_collapse-left-Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 48 48\"><title>icon/Nav/collapse-left</title><g id=\"icon_x2F_Nav_x2F_collapse-left-Symbols\"><g id=\"icon_x2F_Nav_x2F_collapse-left\"><g id=\"icon_x2F_Nav_x2F_collapse-left-Icon\" transform=\"translate(13 16)\"><g id=\"icon_x2F_Nav_x2F_collapse-left-Mask\" transform=\"matrix(-1 0 0 1 22 0)\"><path id=\"icon_x2F_Nav_x2F_collapse-left-path-1_1_\" d=\"M13.2 7L8.7 2.7c-.4-.4-.4-1 0-1.4s1.1-.4 1.5 0l6.3 6c.4.4.4 1 0 1.4l-6.3 6c-.4.4-1.1.4-1.5 0s-.4-1 0-1.4L13.2 9H1c-.6 0-1-.4-1-1s.5-1 1-1h12.2zm6.7 8c0 .6.5 1 1 1s1.1-.4 1.1-1V1c0-.6-.5-1-1-1s-1 .4-1 1v14h-.1z\" fill=\"#384048\"/></g></g></g></g></svg>"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"icon_x2F_Nav_x2F_collapse-left-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"icon_x2F_Nav_x2F_collapse-left-path-1_1_\" style=\"fill:#111111;\" d=\"M21.8,23l4.5-4.3c0.4-0.4,0.4-1,0-1.4\r\n\tc-0.4-0.4-1.1-0.4-1.5,0l-6.3,6c-0.4,0.4-0.4,1,0,1.4l6.3,6c0.4,0.4,1.1,0.4,1.5,0c0.4-0.4,0.4-1,0-1.4L21.8,25H34c0.6,0,1-0.4,1-1\r\n\ts-0.5-1-1-1H21.8z M15.1,31c0,0.6-0.5,1-1,1S13,31.6,13,31V17c0-0.6,0.5-1,1-1s1,0.4,1,1v14H15.1z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "Hebn":
 /***/ (function(module, exports) {
 
-module.exports = "<svg id=\"action-conversation-line-Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 48 48\" enable-background=\"new 0 0 48 48\"><title>icon/Action/conversation-line</title><g transform=\"translate(11 14)\"><path id=\"action-conversation-line-a_1_\" d=\"M19.3 14.5c0-.2.1-.5.2-.6l.3-.5h3.3c1-.1 1.9-1.1 1.9-1.9v-9c0-.9-.6-1.5-1.3-1.5H2.9C1.9 1 1 1.7 1 2.7v8.9c0 1.1.8 1.9 1.9 1.9h10.6l.2.1c.1 0 .2.1.3.2l.1.1 5.2 4.8v-4.2zM23.7 0c1.1 0 2.3.9 2.3 2.5v9.1c0 1.2-1.3 2.7-2.9 2.8h-2.8v5c0 .3-.2.5-.4.6-.2.1-.5 0-.7-.1l-5.8-5.4-.1-.1H2.9c-1.7 0-2.9-1.2-2.9-2.8V2.7C0 1.2 1.3 0 2.9 0h20.8zM13 5.7c.9 0 1.5.7 1.5 1.5s-.7 1.5-1.5 1.5-1.5-.7-1.5-1.5.6-1.5 1.5-1.5m-6.4 0c.8 0 1.5.7 1.5 1.5s-.7 1.5-1.5 1.5C5.7 8.7 5 8 5 7.2s.7-1.5 1.6-1.5m12.8 0c.9 0 1.5.7 1.5 1.5s-.7 1.5-1.5 1.5c-.9 0-1.5-.7-1.5-1.5s.7-1.5 1.5-1.5\" fill=\"#384048\"/><defs><filter id=\"action-conversation-line-Adobe_OpacityMaskFilter\" filterUnits=\"userSpaceOnUse\" x=\"-11\" y=\"-14\" width=\"48\" height=\"48\"><feColorMatrix values=\"1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0\"/></filter></defs><mask maskUnits=\"userSpaceOnUse\" x=\"-11\" y=\"-14\" width=\"48\" height=\"48\" id=\"action-conversation-line-b\"><g filter=\"url(#action-conversation-line-Adobe_OpacityMaskFilter)\"><path id=\"action-conversation-line-a\" d=\"M19.3 14.5c0-.2.1-.5.2-.6l.3-.5h3.3c1-.1 1.9-1.1 1.9-1.9v-9c0-.9-.6-1.5-1.3-1.5H2.9C1.9 1 1 1.7 1 2.7v8.9c0 1.1.8 1.9 1.9 1.9h10.6l.2.1c.1 0 .2.1.3.2l.1.1 5.2 4.8v-4.2zM23.7 0c1.1 0 2.3.9 2.3 2.5v9.1c0 1.2-1.3 2.7-2.9 2.8h-2.8v5c0 .3-.2.5-.4.6-.2.1-.5 0-.7-.1l-5.8-5.4-.1-.1H2.9c-1.7 0-2.9-1.2-2.9-2.8V2.7C0 1.2 1.3 0 2.9 0h20.8zM13 5.7c.9 0 1.5.7 1.5 1.5s-.7 1.5-1.5 1.5-1.5-.7-1.5-1.5.6-1.5 1.5-1.5m-6.4 0c.8 0 1.5.7 1.5 1.5s-.7 1.5-1.5 1.5C5.7 8.7 5 8 5 7.2s.7-1.5 1.6-1.5m12.8 0c.9 0 1.5.7 1.5 1.5s-.7 1.5-1.5 1.5c-.9 0-1.5-.7-1.5-1.5s.7-1.5 1.5-1.5\" fill=\"#fff\"/></g></mask><g mask=\"url(#action-conversation-line-b)\"><path d=\"M-11-14h48v48h-48v-48z\" fill=\"#111\"/></g></g></svg>"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"action-conversation-line-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"action-conversation-line-a_1_\" style=\"fill:#111111;\" d=\"M30.3,28.5c0-0.2,0.1-0.5,0.2-0.6l0.3-0.5h3.3\r\n\tc1-0.1,1.9-1.1,1.9-1.9v-9c0-0.9-0.6-1.5-1.3-1.5H13.9c-1,0-1.9,0.7-1.9,1.7v8.9c0,1.1,0.8,1.9,1.9,1.9h10.6l0.2,0.1\r\n\tc0.1,0,0.2,0.1,0.3,0.2l0.1,0.1l5.2,4.8C30.3,32.7,30.3,28.5,30.3,28.5z M34.7,14c1.1,0,2.3,0.9,2.3,2.5v9.1c0,1.2-1.3,2.7-2.9,2.8\r\n\th-2.8v5c0,0.3-0.2,0.5-0.4,0.6c-0.2,0.1-0.5,0-0.7-0.1l-5.8-5.4l-0.1-0.1H13.9c-1.7,0-2.9-1.2-2.9-2.8v-8.9c0-1.5,1.3-2.7,2.9-2.7\r\n\tC13.9,14,34.7,14,34.7,14z M24,19.7c0.9,0,1.5,0.7,1.5,1.5c0,0.8-0.7,1.5-1.5,1.5s-1.5-0.7-1.5-1.5C22.5,20.4,23.1,19.7,24,19.7\r\n\t M17.6,19.7c0.8,0,1.5,0.7,1.5,1.5c0,0.8-0.7,1.5-1.5,1.5c-0.9,0-1.6-0.7-1.6-1.5C16,20.4,16.7,19.7,17.6,19.7 M30.4,19.7\r\n\tc0.9,0,1.5,0.7,1.5,1.5c0,0.8-0.7,1.5-1.5,1.5c-0.9,0-1.5-0.7-1.5-1.5C28.9,20.4,29.6,19.7,30.4,19.7\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "Hq6d":
 /***/ (function(module, exports) {
 
-module.exports = "<svg id=\"icon_x2F_Utility_x2F_collection-Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 48 48\" enable-background=\"new 0 0 48 48\"><title>icon/Utility/collection</title><g id=\"icon_x2F_Utility_x2F_collection-Symbols\"><g id=\"icon_x2F_Utility_x2F_collection\"><g id=\"icon_x2F_Utility_x2F_collection-Icon\" transform=\"translate(11 14)\"><g id=\"icon_x2F_Utility_x2F_collection-Mask\"><path id=\"icon_x2F_Utility_x2F_collection-path-1_1_\" d=\"M26 2.4c0-.3-.1-.6-.2-.8v-.1c-.2-.5-.6-.9-1.1-1.2 0 0-.1 0-.1-.1-.3-.1-.6-.2-.9-.2H2.4h-.1C1 .1.1 1.1 0 2.4v15.2c.1 1.3 1 2.3 2.3 2.4H23.7c1.2-.1 2.2-1.1 2.3-2.4V2.5v-.1zM3.5 16V4c0-.4.3-.7.7-.7h6c.4 0 .7.3.7.7v12c0 .4-.3.7-.7.7h-6c-.4 0-.7-.3-.7-.7zm8.5 0v-5.2c0-.4.3-.7.7-.7H16c.4 0 .7.3.7.7V16c0 .4-.3.7-.7.7h-3.4c-.3 0-.6-.3-.6-.7zm5.8 0v-5.2c0-.4.3-.7.7-.7h3.4c.4 0 .7.3.7.7V16c0 .4-.3.7-.7.7h-3.4c-.4 0-.7-.3-.7-.7zm4.7-7.8c0 .4-.3.7-.7.7h-9.2c-.4 0-.7-.3-.7-.7V4c0-.4.3-.7.7-.7h9.2c.4 0 .7.3.7.7v4.2z\" fill=\"#384048\"/></g><defs><filter id=\"icon_x2F_Utility_x2F_collection-Adobe_OpacityMaskFilter\" filterUnits=\"userSpaceOnUse\" x=\"-11\" y=\"-14\" width=\"48\" height=\"48\"><feColorMatrix values=\"1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0\"/></filter></defs><mask maskUnits=\"userSpaceOnUse\" x=\"-11\" y=\"-14\" width=\"48\" height=\"48\" id=\"icon_x2F_Utility_x2F_collection-mask-2\"><g filter=\"url(#icon_x2F_Utility_x2F_collection-Adobe_OpacityMaskFilter)\"><path id=\"icon_x2F_Utility_x2F_collection-path-1\" d=\"M26 2.4c0-.3-.1-.6-.2-.8v-.1c-.2-.5-.6-.9-1.1-1.2 0 0-.1 0-.1-.1-.3-.1-.6-.2-.9-.2H2.4h-.1C1 .1.1 1.1 0 2.4v15.2c.1 1.3 1 2.3 2.3 2.4H23.7c1.2-.1 2.2-1.1 2.3-2.4V2.5v-.1zM3.5 16V4c0-.4.3-.7.7-.7h6c.4 0 .7.3.7.7v12c0 .4-.3.7-.7.7h-6c-.4 0-.7-.3-.7-.7zm8.5 0v-5.2c0-.4.3-.7.7-.7H16c.4 0 .7.3.7.7V16c0 .4-.3.7-.7.7h-3.4c-.3 0-.6-.3-.6-.7zm5.8 0v-5.2c0-.4.3-.7.7-.7h3.4c.4 0 .7.3.7.7V16c0 .4-.3.7-.7.7h-3.4c-.4 0-.7-.3-.7-.7zm4.7-7.8c0 .4-.3.7-.7.7h-9.2c-.4 0-.7-.3-.7-.7V4c0-.4.3-.7.7-.7h9.2c.4 0 .7.3.7.7v4.2z\" fill=\"#fff\"/></g></mask><g id=\"icon_x2F_Utility_x2F_collection-Color_x2F_Grayscale_x2F_Night-Sky\" mask=\"url(#icon_x2F_Utility_x2F_collection-mask-2)\"><path fill=\"#111\" d=\"M0 0h48v48H0z\" transform=\"translate(-11 -14)\" id=\"icon_x2F_Utility_x2F_collection-Swatch\"/></g></g></g></g></svg>"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"icon_x2F_Utility_x2F_collection-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"icon_x2F_Utility_x2F_collection-path-1_1_\" style=\"fill:#111111;\" d=\"M37,16.4c0-0.3-0.1-0.6-0.2-0.8v-0.1\r\n\tc-0.2-0.5-0.6-0.9-1.1-1.2c0,0-0.1,0-0.1-0.1C35.3,14.1,35,14,34.7,14H13.4h-0.1c-1.3,0.1-2.2,1.1-2.3,2.4v15.2\r\n\tc0.1,1.3,1,2.3,2.3,2.4h21.4c1.2-0.1,2.2-1.1,2.3-2.4V16.5V16.4z M14.5,30V18c0-0.4,0.3-0.7,0.7-0.7h6c0.4,0,0.7,0.3,0.7,0.7v12\r\n\tc0,0.4-0.3,0.7-0.7,0.7h-6C14.8,30.7,14.5,30.4,14.5,30z M23,30v-5.2c0-0.4,0.3-0.7,0.7-0.7H27c0.4,0,0.7,0.3,0.7,0.7V30\r\n\tc0,0.4-0.3,0.7-0.7,0.7h-3.4C23.3,30.7,23,30.4,23,30z M28.8,30v-5.2c0-0.4,0.3-0.7,0.7-0.7h3.4c0.4,0,0.7,0.3,0.7,0.7V30\r\n\tc0,0.4-0.3,0.7-0.7,0.7h-3.4C29.1,30.7,28.8,30.4,28.8,30z M33.5,22.2c0,0.4-0.3,0.7-0.7,0.7h-9.2c-0.4,0-0.7-0.3-0.7-0.7V18\r\n\tc0-0.4,0.3-0.7,0.7-0.7h9.2c0.4,0,0.7,0.3,0.7,0.7V22.2z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "JAfA":
 /***/ (function(module, exports) {
 
-module.exports = "<svg id=\"action-grid-line-Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 48 48\" enable-background=\"new 0 0 48 48\"><title>icon/Action/grid-line</title><g transform=\"translate(12 12)\"><path id=\"action-grid-line-a_1_\" d=\"M1.1 9.8h8.7V1.1H1.1v8.7zM0 1.1C0 .5.5 0 1.1 0h8.7c.6 0 1.1.5 1.1 1.1v8.7c0 .6-.5 1.1-1.1 1.1H1.1c-.6 0-1.1-.5-1.1-1.1V1.1zm1.1 21.8h8.7v-8.7H1.1v8.7zM0 14.2c0-.6.5-1.1 1.1-1.1h8.7c.6 0 1.1.5 1.1 1.1v8.7c0 .6-.5 1.1-1.1 1.1H1.1C.5 24 0 23.5 0 22.9v-8.7zm14.2-4.4h8.7V1.1h-8.7v8.7zm-1.1-8.7c0-.6.5-1.1 1.1-1.1h8.7c.6 0 1.1.5 1.1 1.1v8.7c0 .6-.5 1.1-1.1 1.1h-8.7c-.6 0-1.1-.5-1.1-1.1V1.1zm1.1 21.8h8.7v-8.7h-8.7v8.7zm-1.1-8.7c0-.6.5-1.1 1.1-1.1h8.7c.6 0 1.1.5 1.1 1.1v8.7c0 .6-.5 1.1-1.1 1.1h-8.7c-.6 0-1.1-.5-1.1-1.1v-8.7z\" fill=\"#384048\"/><defs><filter id=\"action-grid-line-Adobe_OpacityMaskFilter\" filterUnits=\"userSpaceOnUse\" x=\"-12\" y=\"-12\" width=\"48\" height=\"48\"><feColorMatrix values=\"1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0\"/></filter></defs><mask maskUnits=\"userSpaceOnUse\" x=\"-12\" y=\"-12\" width=\"48\" height=\"48\" id=\"action-grid-line-b\"><g filter=\"url(#action-grid-line-Adobe_OpacityMaskFilter)\"><path id=\"action-grid-line-a\" d=\"M1.1 9.8h8.7V1.1H1.1v8.7zM0 1.1C0 .5.5 0 1.1 0h8.7c.6 0 1.1.5 1.1 1.1v8.7c0 .6-.5 1.1-1.1 1.1H1.1c-.6 0-1.1-.5-1.1-1.1V1.1zm1.1 21.8h8.7v-8.7H1.1v8.7zM0 14.2c0-.6.5-1.1 1.1-1.1h8.7c.6 0 1.1.5 1.1 1.1v8.7c0 .6-.5 1.1-1.1 1.1H1.1C.5 24 0 23.5 0 22.9v-8.7zm14.2-4.4h8.7V1.1h-8.7v8.7zm-1.1-8.7c0-.6.5-1.1 1.1-1.1h8.7c.6 0 1.1.5 1.1 1.1v8.7c0 .6-.5 1.1-1.1 1.1h-8.7c-.6 0-1.1-.5-1.1-1.1V1.1zm1.1 21.8h8.7v-8.7h-8.7v8.7zm-1.1-8.7c0-.6.5-1.1 1.1-1.1h8.7c.6 0 1.1.5 1.1 1.1v8.7c0 .6-.5 1.1-1.1 1.1h-8.7c-.6 0-1.1-.5-1.1-1.1v-8.7z\" fill=\"#fff\"/></g></mask><g mask=\"url(#action-grid-line-b)\"><path d=\"M-12-12h48v48h-48v-48z\" fill=\"#111\"/></g></g></svg>"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"action-grid-line-Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"\r\n\t x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\" style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"action-grid-line-a_1_\" style=\"fill:#111111;\" d=\"M13.1,21.8h8.7v-8.7h-8.7V21.8z M12,13.1c0-0.6,0.5-1.1,1.1-1.1h8.7\r\n\tc0.6,0,1.1,0.5,1.1,1.1v8.7c0,0.6-0.5,1.1-1.1,1.1h-8.7c-0.6,0-1.1-0.5-1.1-1.1V13.1z M13.1,34.9h8.7v-8.7h-8.7V34.9z M12,26.2\r\n\tc0-0.6,0.5-1.1,1.1-1.1h8.7c0.6,0,1.1,0.5,1.1,1.1v8.7c0,0.6-0.5,1.1-1.1,1.1h-8.7c-0.6,0-1.1-0.5-1.1-1.1V26.2z M26.2,21.8h8.7\r\n\tv-8.7h-8.7C26.2,13.1,26.2,21.8,26.2,21.8z M25.1,13.1c0-0.6,0.5-1.1,1.1-1.1h8.7c0.6,0,1.1,0.5,1.1,1.1v8.7c0,0.6-0.5,1.1-1.1,1.1\r\n\th-8.7c-0.6,0-1.1-0.5-1.1-1.1C25.1,21.8,25.1,13.1,25.1,13.1z M26.2,34.9h8.7v-8.7h-8.7V34.9z M25.1,26.2c0-0.6,0.5-1.1,1.1-1.1h8.7\r\n\tc0.6,0,1.1,0.5,1.1,1.1v8.7c0,0.6-0.5,1.1-1.1,1.1h-8.7c-0.6,0-1.1-0.5-1.1-1.1V26.2z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "JRc0":
 /***/ (function(module, exports) {
 
-module.exports = "<svg id=\"action-thumbsup-fill-Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 48 48\" enable-background=\"new 0 0 48 48\"><title>icon/Action/thumbsup-fill</title><g transform=\"translate(12 12)\"><path d=\"M24 9.6v12.8c0 .7-.5 1.2-1.2 1.2h-4.3c-.7 0-1.2-.5-1.2-1.2V9.6c0-.7.5-1.2 1.2-1.2h4.3c.7 0 1.2.5 1.2 1.2zM11.7 2v1.4c0 .7.1 1.1.3 1.5V5l1.4 3.2c.5.7 1.1 1.2 1.9 1.5.3.1.5.4.5.7v11.1c0 .4-.3.7-.7.7-.6 0-.8.1-.9.1l-.6.7c-.7.7-1.6 1.1-2.5 1.1l-6-.2c-1.5 0-2.9-1-3.3-2.5L0 13c-.5-1.8.5-3.6 2.3-4.1L6 8l-.1-3c-.1-.3-.1-.6-.1-1v-.6C5.8 1.5 7.3 0 9.2 0h.5c1.1 0 2 .9 2 2z\" fill=\"#384048\"/><defs><filter id=\"action-thumbsup-fill-Adobe_OpacityMaskFilter\" filterUnits=\"userSpaceOnUse\" x=\"-12\" y=\"-12\" width=\"48\" height=\"48\"><feColorMatrix values=\"1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0\"/></filter></defs><mask maskUnits=\"userSpaceOnUse\" x=\"-12\" y=\"-12\" width=\"48\" height=\"48\" id=\"action-thumbsup-fill-b\"><path d=\"M24 9.6v12.8c0 .7-.5 1.2-1.2 1.2h-4.3c-.7 0-1.2-.5-1.2-1.2V9.6c0-.7.5-1.2 1.2-1.2h4.3c.7 0 1.2.5 1.2 1.2zM11.7 2v1.4c0 .7.1 1.1.3 1.5V5l1.4 3.2c.5.7 1.1 1.2 1.9 1.5.3.1.5.4.5.7v11.1c0 .4-.3.7-.7.7-.6 0-.8.1-.9.1l-.6.7c-.7.7-1.6 1.1-2.5 1.1l-6-.2c-1.5 0-2.9-1-3.3-2.5L0 13c-.5-1.8.5-3.6 2.3-4.1L6 8l-.1-3c-.1-.3-.1-.6-.1-1v-.6C5.8 1.5 7.3 0 9.2 0h.5c1.1 0 2 .9 2 2z\" fill=\"#fff\" filter=\"url(#action-thumbsup-fill-Adobe_OpacityMaskFilter)\"/></mask><g mask=\"url(#action-thumbsup-fill-b)\"><path d=\"M-12-12h48v48h-48v-48z\" fill=\"#111\"/></g></g></svg>"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"action-thumbsup-fill-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path style=\"fill:#111111;\" d=\"M36,21.6v12.8c0,0.7-0.5,1.2-1.2,1.2h-4.3c-0.7,0-1.2-0.5-1.2-1.2V21.6c0-0.7,0.5-1.2,1.2-1.2h4.3\r\n\tC35.5,20.4,36,20.9,36,21.6z M23.7,14v1.4c0,0.7,0.1,1.1,0.3,1.5V17l1.4,3.2c0.5,0.7,1.1,1.2,1.9,1.5c0.3,0.1,0.5,0.4,0.5,0.7v11.1\r\n\tc0,0.4-0.3,0.7-0.7,0.7c-0.6,0-0.8,0.1-0.9,0.1L25.6,35c-0.7,0.7-1.6,1.1-2.5,1.1l-6-0.2c-1.5,0-2.9-1-3.3-2.5L12,25\r\n\tc-0.5-1.8,0.5-3.6,2.3-4.1L18,20l-0.1-3c-0.1-0.3-0.1-0.6-0.1-1v-0.6c0-1.9,1.5-3.4,3.4-3.4h0.5C22.8,12,23.7,12.9,23.7,14z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "JRwP":
 /***/ (function(module, exports) {
 
-module.exports = "<svg id=\"action-zoom-out-line-Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 48 48\" enable-background=\"new 0 0 48 48\"><title>icon/Action/zoom-out-line</title><g transform=\"translate(12 12)\"><path id=\"action-zoom-out-line-a_1_\" d=\"M23.6 20.9c.6.6.6 1.6-.1 2.4-.5.5-1 .7-1.5.7-.4 0-.8-.1-1.1-.4-.7-.7-6-5.9-7.1-7-1.4.9-3.1 1.4-4.8 1.4-5 0-9-4-9-9s4-9 9-9 9 4 9 9c0 1.8-.5 3.6-1.6 5.1 1.3 1.1 6.5 6.2 7.2 6.8zM1.4 9c0 4.2 3.4 7.6 7.6 7.6s7.6-3.4 7.6-7.6S13.2 1.4 9 1.4C4.8 1.4 1.4 4.8 1.4 9zm20.8 13.5c.3-.2.4-.5.4-.6-.7-.6-5.6-5.5-7-6.8-.2.2-.4.4-.7.6 1.4 1.3 6.2 6.2 6.9 6.8.1.1.2.2.4 0zM12.5 8.3c.4 0 .7.3.7.7s-.3.7-.7.7h-7c-.3 0-.7-.3-.7-.7 0-.4.3-.7.7-.7h7z\" fill=\"#384048\"/><defs><filter id=\"action-zoom-out-line-Adobe_OpacityMaskFilter\" filterUnits=\"userSpaceOnUse\" x=\"-12\" y=\"-12\" width=\"48\" height=\"48\"><feColorMatrix values=\"1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0\"/></filter></defs><mask maskUnits=\"userSpaceOnUse\" x=\"-12\" y=\"-12\" width=\"48\" height=\"48\" id=\"action-zoom-out-line-b\"><g filter=\"url(#action-zoom-out-line-Adobe_OpacityMaskFilter)\"><path id=\"action-zoom-out-line-a\" d=\"M23.6 20.9c.6.6.6 1.6-.1 2.4-.5.5-1 .7-1.5.7-.4 0-.8-.1-1.1-.4-.7-.7-6-5.9-7.1-7-1.4.9-3.1 1.4-4.8 1.4-5 0-9-4-9-9s4-9 9-9 9 4 9 9c0 1.8-.5 3.6-1.6 5.1 1.3 1.1 6.5 6.2 7.2 6.8zM1.4 9c0 4.2 3.4 7.6 7.6 7.6s7.6-3.4 7.6-7.6S13.2 1.4 9 1.4C4.8 1.4 1.4 4.8 1.4 9zm20.8 13.5c.3-.2.4-.5.4-.6-.7-.6-5.6-5.5-7-6.8-.2.2-.4.4-.7.6 1.4 1.3 6.2 6.2 6.9 6.8.1.1.2.2.4 0zM12.5 8.3c.4 0 .7.3.7.7s-.3.7-.7.7h-7c-.3 0-.7-.3-.7-.7 0-.4.3-.7.7-.7h7z\" fill=\"#fff\"/></g></mask><g mask=\"url(#action-zoom-out-line-b)\"><path d=\"M-12-12h48v48h-48v-48z\" fill=\"#111\"/></g></g></svg>"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"action-zoom-out-line-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"action-zoom-out-line-a_1_\" style=\"fill:#111111;\" d=\"M35.6,32.9c0.6,0.6,0.6,1.6-0.1,2.4C35,35.8,34.5,36,34,36\r\n\tc-0.4,0-0.8-0.1-1.1-0.4c-0.7-0.7-6-5.9-7.1-7C24.4,29.5,22.7,30,21,30c-5,0-9-4-9-9s4-9,9-9s9,4,9,9c0,1.8-0.5,3.6-1.6,5.1\r\n\tC29.7,27.2,34.9,32.3,35.6,32.9z M13.4,21c0,4.2,3.4,7.6,7.6,7.6s7.6-3.4,7.6-7.6s-3.4-7.6-7.6-7.6S13.4,16.8,13.4,21z M34.2,34.5\r\n\tc0.3-0.2,0.4-0.5,0.4-0.6c-0.7-0.6-5.6-5.5-7-6.8c-0.2,0.2-0.4,0.4-0.7,0.6c1.4,1.3,6.2,6.2,6.9,6.8C33.9,34.6,34,34.7,34.2,34.5z\r\n\t M24.5,20.3c0.4,0,0.7,0.3,0.7,0.7s-0.3,0.7-0.7,0.7h-7c-0.3,0-0.7-0.3-0.7-0.7s0.3-0.7,0.7-0.7H24.5z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "K5Ae":
 /***/ (function(module, exports) {
 
-module.exports = "<svg id=\"icon_x2F_Service_x2F_cash-Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 48 48\" enable-background=\"new 0 0 48 48\"><title>icon/Service/cash</title><g id=\"icon_x2F_Service_x2F_cash-Symbols\"><g id=\"icon_x2F_Service_x2F_cash\"><g id=\"icon_x2F_Service_x2F_cash-Icon\" transform=\"translate(10 16)\"><g id=\"icon_x2F_Service_x2F_cash-Mask\"><path id=\"icon_x2F_Service_x2F_cash-path-1_1_\" d=\"M26 0H2.1C1 0 0 1 0 2.1V14c0 1 1 2 2.1 2h23.8c1.1 0 2.1-1 2.1-2V2c0-.9-.8-2-2-2zM5.3 14.5H2.1c-.2 0-.5-.3-.5-.5v-3.4c.2-.1.5-.1.7-.1 1.7 0 3.2 1.4 3.2 3 0 .3-.1.6-.2 1zm-2.9-9c-.3 0-.5 0-.8-.1V2.1c0-.2.3-.5.5-.5h3.2c.1.3.2.6.2.9 0 1.7-1.4 3-3.1 3zm15 4.3c0 1.3-1 2.2-2.4 2.4v1.1c0 .4-.4.8-.8.8s-.8-.3-.8-.8v-1.2c-.9-.2-1.7-.6-2.4-1.2l.9-1c.8.7 1.6 1 2.6 1 .9 0 1.5-.4 1.5-1s-.3-.9-1.9-1.2c-1.8-.4-2.8-.9-2.8-2.4 0-1.2.8-2 2.1-2.3V2.7c0-.4.4-.8.8-.8s.8.3.8.8V4c.8.1 1.5.5 2.2 1l-.9 1c-.7-.5-1.5-.8-2.3-.8-.9 0-1.4.4-1.4 1s.4.9 2 1.3c1.9.3 2.8.9 2.8 2.3zm9 4.2c0 .2-.3.5-.5.5h-3.3c-.1-.3-.2-.6-.2-1 0-1.7 1.4-3 3.2-3 .3 0 .5 0 .8.1V14zm0-8.6c-.3.1-.6.1-.9.1-1.7 0-3.1-1.4-3.1-3.1 0-.3.1-.6.2-.9H26c.2 0 .4.3.4.5v3.4z\" fill=\"#384048\"/></g><defs><filter id=\"icon_x2F_Service_x2F_cash-Adobe_OpacityMaskFilter\" filterUnits=\"userSpaceOnUse\" x=\"-10\" y=\"-16\" width=\"48\" height=\"48\"><feColorMatrix values=\"1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0\"/></filter></defs><mask maskUnits=\"userSpaceOnUse\" x=\"-10\" y=\"-16\" width=\"48\" height=\"48\" id=\"icon_x2F_Service_x2F_cash-mask-2\"><g filter=\"url(#icon_x2F_Service_x2F_cash-Adobe_OpacityMaskFilter)\"><path id=\"icon_x2F_Service_x2F_cash-path-1\" d=\"M26 0H2.1C1 0 0 1 0 2.1V14c0 1 1 2 2.1 2h23.8c1.1 0 2.1-1 2.1-2V2c0-.9-.8-2-2-2zM5.3 14.5H2.1c-.2 0-.5-.3-.5-.5v-3.4c.2-.1.5-.1.7-.1 1.7 0 3.2 1.4 3.2 3 0 .3-.1.6-.2 1zm-2.9-9c-.3 0-.5 0-.8-.1V2.1c0-.2.3-.5.5-.5h3.2c.1.3.2.6.2.9 0 1.7-1.4 3-3.1 3zm15 4.3c0 1.3-1 2.2-2.4 2.4v1.1c0 .4-.4.8-.8.8s-.8-.3-.8-.8v-1.2c-.9-.2-1.7-.6-2.4-1.2l.9-1c.8.7 1.6 1 2.6 1 .9 0 1.5-.4 1.5-1s-.3-.9-1.9-1.2c-1.8-.4-2.8-.9-2.8-2.4 0-1.2.8-2 2.1-2.3V2.7c0-.4.4-.8.8-.8s.8.3.8.8V4c.8.1 1.5.5 2.2 1l-.9 1c-.7-.5-1.5-.8-2.3-.8-.9 0-1.4.4-1.4 1s.4.9 2 1.3c1.9.3 2.8.9 2.8 2.3zm9 4.2c0 .2-.3.5-.5.5h-3.3c-.1-.3-.2-.6-.2-1 0-1.7 1.4-3 3.2-3 .3 0 .5 0 .8.1V14zm0-8.6c-.3.1-.6.1-.9.1-1.7 0-3.1-1.4-3.1-3.1 0-.3.1-.6.2-.9H26c.2 0 .4.3.4.5v3.4z\" fill=\"#fff\"/></g></mask><g id=\"icon_x2F_Service_x2F_cash-Color_x2F_Grayscale_x2F_Night-Sky\" mask=\"url(#icon_x2F_Service_x2F_cash-mask-2)\"><path fill=\"#111\" d=\"M0 0h48v48H0z\" transform=\"translate(-10 -16)\" id=\"icon_x2F_Service_x2F_cash-Swatch\"/></g></g></g></g></svg>"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"icon_x2F_Service_x2F_cash-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"icon_x2F_Service_x2F_cash-path-1_1_\" style=\"fill:#111111;\" d=\"M36,16H12.1C11,16,10,17,10,18.1V30c0,1,1,2,2.1,2h23.8\r\n\tc1.1,0,2.1-1,2.1-2V18C38,17.1,37.2,16,36,16z M15.3,30.5h-3.2c-0.2,0-0.5-0.3-0.5-0.5v-3.4c0.2-0.1,0.5-0.1,0.7-0.1\r\n\tc1.7,0,3.2,1.4,3.2,3C15.5,29.8,15.4,30.1,15.3,30.5z M12.4,21.5c-0.3,0-0.5,0-0.8-0.1v-3.3c0-0.2,0.3-0.5,0.5-0.5h3.2\r\n\tc0.1,0.3,0.2,0.6,0.2,0.9C15.5,20.2,14.1,21.5,12.4,21.5z M27.4,25.8c0,1.3-1,2.2-2.4,2.4v1.1c0,0.4-0.4,0.8-0.8,0.8\r\n\tc-0.4,0-0.8-0.3-0.8-0.8v-1.2c-0.9-0.2-1.7-0.6-2.4-1.2l0.9-1c0.8,0.7,1.6,1,2.6,1c0.9,0,1.5-0.4,1.5-1s-0.3-0.9-1.9-1.2\r\n\tc-1.8-0.4-2.8-0.9-2.8-2.4c0-1.2,0.8-2,2.1-2.3v-1.3c0-0.4,0.4-0.8,0.8-0.8c0.4,0,0.8,0.3,0.8,0.8V20c0.8,0.1,1.5,0.5,2.2,1l-0.9,1\r\n\tc-0.7-0.5-1.5-0.8-2.3-0.8c-0.9,0-1.4,0.4-1.4,1c0,0.6,0.4,0.9,2,1.3C26.5,23.8,27.4,24.4,27.4,25.8z M36.4,30\r\n\tc0,0.2-0.3,0.5-0.5,0.5h-3.3c-0.1-0.3-0.2-0.6-0.2-1c0-1.7,1.4-3,3.2-3c0.3,0,0.5,0,0.8,0.1V30z M36.4,21.4\r\n\tc-0.3,0.1-0.6,0.1-0.9,0.1c-1.7,0-3.1-1.4-3.1-3.1c0-0.3,0.1-0.6,0.2-0.9H36c0.2,0,0.4,0.3,0.4,0.5V21.4z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "KBxn":
 /***/ (function(module, exports) {
 
-module.exports = "<svg id=\"icon_x2F_Service_x2F_gift-registry-Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 48 48\" enable-background=\"new 0 0 48 48\"><title>icon/Service/gift-registry</title><g id=\"icon_x2F_Service_x2F_gift-registry-Symbols\"><g id=\"icon_x2F_Service_x2F_gift-registry\"><g id=\"icon_x2F_Service_x2F_gift-registry-Icon\" transform=\"translate(11 11)\"><g id=\"icon_x2F_Service_x2F_gift-registry-Mask\"><path id=\"icon_x2F_Service_x2F_gift-registry-path-1_1_\" d=\"M16.5 18.5c-1.2 0-2.2-2.3-2.5-4.6 2.8.6 4.7 1.6 4.7 2.5-.1 1.1-1 2-2.2 2.1zm0-11.1c1.2.1 2 .9 2 2 0 .9-1.9 1.9-4.7 2.5.5-2.2 1.4-4.5 2.7-4.5zm-2.7.3V0h10.5c.8 0 1.7.9 1.7 1.6v10.6h-8.1c1.5-.8 2.2-1.7 2.2-2.8 0-1.9-1.5-3.3-3.4-3.5h-.2c-1.2 0-2.1.8-2.7 1.8zm-5.6 4.5H.1V1.7C.1.9 1 0 1.8 0h10.5v7.7c-.6-1-1.5-1.8-2.7-1.8h-.2C7.5 6.1 6.1 7.5 6 9.4c0 1.1.7 2 2.2 2.8zm9.7 1.5H26v10.5c0 .9-.9 1.7-1.7 1.7H13.8v-7.7c.6 1 1.5 1.8 2.7 1.8h.2c1.9-.1 3.4-1.6 3.4-3.5 0-1.1-.7-2-2.2-2.8zM7.5 16.4c0-.9 1.9-1.9 4.7-2.5-.4 2.2-1.3 4.6-2.5 4.6h-.1c-1.2-.1-2-1-2.1-2.1zm2.1-9c1.2 0 2.2 2.3 2.5 4.6-2.8-.6-4.7-1.6-4.7-2.5.2-1.1 1-2 2.2-2.1zm2.7 10.8v7.7H1.7c-.8 0-1.6-.9-1.6-1.7V13.7h8.1c-1.5.8-2.2 1.7-2.2 2.8 0 1.9 1.5 3.3 3.4 3.5h.2c1.2 0 2.1-.8 2.7-1.8z\" fill=\"#384048\"/></g><defs><filter id=\"icon_x2F_Service_x2F_gift-registry-Adobe_OpacityMaskFilter\" filterUnits=\"userSpaceOnUse\" x=\"-11\" y=\"-11\" width=\"48\" height=\"48\"><feColorMatrix values=\"1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0\"/></filter></defs><mask maskUnits=\"userSpaceOnUse\" x=\"-11\" y=\"-11\" width=\"48\" height=\"48\" id=\"icon_x2F_Service_x2F_gift-registry-mask-2\"><g filter=\"url(#icon_x2F_Service_x2F_gift-registry-Adobe_OpacityMaskFilter)\"><path id=\"icon_x2F_Service_x2F_gift-registry-path-1\" d=\"M16.5 18.5c-1.2 0-2.2-2.3-2.5-4.6 2.8.6 4.7 1.6 4.7 2.5-.1 1.1-1 2-2.2 2.1zm0-11.1c1.2.1 2 .9 2 2 0 .9-1.9 1.9-4.7 2.5.5-2.2 1.4-4.5 2.7-4.5zm-2.7.3V0h10.5c.8 0 1.7.9 1.7 1.6v10.6h-8.1c1.5-.8 2.2-1.7 2.2-2.8 0-1.9-1.5-3.3-3.4-3.5h-.2c-1.2 0-2.1.8-2.7 1.8zm-5.6 4.5H.1V1.7C.1.9 1 0 1.8 0h10.5v7.7c-.6-1-1.5-1.8-2.7-1.8h-.2C7.5 6.1 6.1 7.5 6 9.4c0 1.1.7 2 2.2 2.8zm9.7 1.5H26v10.5c0 .9-.9 1.7-1.7 1.7H13.8v-7.7c.6 1 1.5 1.8 2.7 1.8h.2c1.9-.1 3.4-1.6 3.4-3.5 0-1.1-.7-2-2.2-2.8zM7.5 16.4c0-.9 1.9-1.9 4.7-2.5-.4 2.2-1.3 4.6-2.5 4.6h-.1c-1.2-.1-2-1-2.1-2.1zm2.1-9c1.2 0 2.2 2.3 2.5 4.6-2.8-.6-4.7-1.6-4.7-2.5.2-1.1 1-2 2.2-2.1zm2.7 10.8v7.7H1.7c-.8 0-1.6-.9-1.6-1.7V13.7h8.1c-1.5.8-2.2 1.7-2.2 2.8 0 1.9 1.5 3.3 3.4 3.5h.2c1.2 0 2.1-.8 2.7-1.8z\" fill=\"#fff\"/></g></mask><g id=\"icon_x2F_Service_x2F_gift-registry-Color_x2F_Grayscale_x2F_Night-Sky\" mask=\"url(#icon_x2F_Service_x2F_gift-registry-mask-2)\"><path fill=\"#111\" d=\"M0 0h48v48H0z\" transform=\"translate(-11 -11)\" id=\"icon_x2F_Service_x2F_gift-registry-Swatch\"/></g></g></g></g></svg>"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"icon_x2F_Service_x2F_gift-registry-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"icon_x2F_Service_x2F_gift-registry-path-1_1_\" style=\"fill:#111111;\" d=\"M27.5,29.5c-1.2,0-2.2-2.3-2.5-4.6\r\n\tc2.8,0.6,4.7,1.6,4.7,2.5C29.6,28.5,28.7,29.4,27.5,29.5z M27.5,18.4c1.2,0.1,2,0.9,2,2c0,0.9-1.9,1.9-4.7,2.5\r\n\tC25.3,20.7,26.2,18.4,27.5,18.4z M24.8,18.7V11h10.5c0.8,0,1.7,0.9,1.7,1.6v10.6h-8.1c1.5-0.8,2.2-1.7,2.2-2.8\r\n\tc0-1.9-1.5-3.3-3.4-3.5h-0.2C26.3,16.9,25.4,17.7,24.8,18.7z M19.2,23.2h-8.1V12.7c0-0.8,0.9-1.7,1.7-1.7h10.5v7.7\r\n\tc-0.6-1-1.5-1.8-2.7-1.8h-0.2c-1.9,0.2-3.3,1.6-3.4,3.5C17,21.5,17.7,22.4,19.2,23.2z M28.9,24.7H37v10.5c0,0.9-0.9,1.7-1.7,1.7\r\n\tH24.8v-7.7c0.6,1,1.5,1.8,2.7,1.8h0.2c1.9-0.1,3.4-1.6,3.4-3.5C31.1,26.4,30.4,25.5,28.9,24.7z M18.5,27.4c0-0.9,1.9-1.9,4.7-2.5\r\n\tc-0.4,2.2-1.3,4.6-2.5,4.6h-0.1C19.4,29.4,18.6,28.5,18.5,27.4z M20.6,18.4c1.2,0,2.2,2.3,2.5,4.6c-2.8-0.6-4.7-1.6-4.7-2.5\r\n\tC18.6,19.4,19.4,18.5,20.6,18.4z M23.3,29.2v7.7H12.7c-0.8,0-1.6-0.9-1.6-1.7V24.7h8.1c-1.5,0.8-2.2,1.7-2.2,2.8\r\n\tc0,1.9,1.5,3.3,3.4,3.5h0.2C21.8,31,22.7,30.2,23.3,29.2z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "KHFH":
 /***/ (function(module, exports) {
 
-module.exports = "<svg id=\"icon_x2F_Utility_x2F_Store_x2F_sameday-pickup-Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 48 48\" enable-background=\"new 0 0 48 48\"><title>icon/Utility/Store/sameday-pickup</title><g id=\"icon_x2F_Utility_x2F_Store_x2F_sameday-pickup-Symbols\"><g id=\"icon_x2F_Utility_x2F_Store_x2F_sameday-pickup\"><g id=\"icon_x2F_Utility_x2F_Store_x2F_sameday-pickup-Icon\" transform=\"translate(11 11)\"><g id=\"icon_x2F_Utility_x2F_Store_x2F_sameday-pickup-Mask\"><path id=\"icon_x2F_Utility_x2F_Store_x2F_sameday-pickup-path-1_1_\" d=\"M24.5 15.5c.9 1.1 1.5 2.5 1.5 4.1 0 3.5-2.9 6.4-6.4 6.4-3.5 0-6.4-2.9-6.4-6.4 0-2.9 2-5.4 4.7-6.2v-.7c0-.9.8-1.7 1.7-1.7.9 0 1.7.8 1.7 1.7v.7c.8.2 1.5.6 2.1 1.1l.4-.4c.3-.3.8-.3 1.1 0 .3.3.3.8 0 1.1l-.4.3zm-4.9 9c2.7 0 4.9-2.2 4.9-4.9s-2.2-4.9-4.9-4.9-4.9 2.2-4.9 4.9 2.2 4.9 4.9 4.9zm.8-7.2v1.5h2.9c.4 0 .8.3.8.8 0 .4-.3.8-.8.8h-3.7c-.4 0-.8-.3-.8-.8v-2.3c0-.4.3-.8.8-.8.4.1.8.4.8.8zm-7.6 4.3c0 .1 0 .1.1.2H1.4c-.7 0-1.4-.7-1.4-1.5L.7 3.6s0-.4.3-.7C1.3 2.5 2.9.6 3.3.3c.1-.2.5-.3.6-.3h13.9c.3 0 .5.1.6.3.3.3 1.9 2.3 2.2 2.6.4.4.4.7.4.7l.3 7.4-.1-.1-.1-.1H21c-.1-.1-.2-.2-.4-.2-.3-.2-.7-.3-1.1-.3-1.3 0-2.4 1.1-2.4 2.5v.1c-2.8 1-4.7 3.7-4.7 6.7.1.7.2 1.3.4 2zm-2-7.8c2.2 0 4-1 5.1-2.9.8-1.4 1-2.8 1.1-2.8.1-.4-.2-.8-.6-.9-.4-.1-.8.2-.9.6 0 0-.2 1.1-.9 2.3-.9 1.4-2.2 2.2-3.8 2.2-4 0-4.6-4.3-4.7-4.4 0-.4-.4-.7-.8-.7-.4.1-.7.5-.6.9 0 .1.2 1.4 1 2.8 1.2 1.9 2.9 2.9 5.1 2.9z\" fill=\"#384048\"/></g><defs><filter id=\"icon_x2F_Utility_x2F_Store_x2F_sameday-pickup-Adobe_OpacityMaskFilter\" filterUnits=\"userSpaceOnUse\" x=\"-11\" y=\"-11\" width=\"48\" height=\"48\"><feColorMatrix values=\"1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0\"/></filter></defs><mask maskUnits=\"userSpaceOnUse\" x=\"-11\" y=\"-11\" width=\"48\" height=\"48\" id=\"icon_x2F_Utility_x2F_Store_x2F_sameday-pickup-mask-2\"><g filter=\"url(#icon_x2F_Utility_x2F_Store_x2F_sameday-pickup-Adobe_OpacityMaskFilter)\"><path id=\"icon_x2F_Utility_x2F_Store_x2F_sameday-pickup-path-1\" d=\"M24.5 15.5c.9 1.1 1.5 2.5 1.5 4.1 0 3.5-2.9 6.4-6.4 6.4-3.5 0-6.4-2.9-6.4-6.4 0-2.9 2-5.4 4.7-6.2v-.7c0-.9.8-1.7 1.7-1.7.9 0 1.7.8 1.7 1.7v.7c.8.2 1.5.6 2.1 1.1l.4-.4c.3-.3.8-.3 1.1 0 .3.3.3.8 0 1.1l-.4.3zm-4.9 9c2.7 0 4.9-2.2 4.9-4.9s-2.2-4.9-4.9-4.9-4.9 2.2-4.9 4.9 2.2 4.9 4.9 4.9zm.8-7.2v1.5h2.9c.4 0 .8.3.8.8 0 .4-.3.8-.8.8h-3.7c-.4 0-.8-.3-.8-.8v-2.3c0-.4.3-.8.8-.8.4.1.8.4.8.8zm-7.6 4.3c0 .1 0 .1.1.2H1.4c-.7 0-1.4-.7-1.4-1.5L.7 3.6s0-.4.3-.7C1.3 2.5 2.9.6 3.3.3c.1-.2.5-.3.6-.3h13.9c.3 0 .5.1.6.3.3.3 1.9 2.3 2.2 2.6.4.4.4.7.4.7l.3 7.4-.1-.1-.1-.1H21c-.1-.1-.2-.2-.4-.2-.3-.2-.7-.3-1.1-.3-1.3 0-2.4 1.1-2.4 2.5v.1c-2.8 1-4.7 3.7-4.7 6.7.1.7.2 1.3.4 2zm-2-7.8c2.2 0 4-1 5.1-2.9.8-1.4 1-2.8 1.1-2.8.1-.4-.2-.8-.6-.9-.4-.1-.8.2-.9.6 0 0-.2 1.1-.9 2.3-.9 1.4-2.2 2.2-3.8 2.2-4 0-4.6-4.3-4.7-4.4 0-.4-.4-.7-.8-.7-.4.1-.7.5-.6.9 0 .1.2 1.4 1 2.8 1.2 1.9 2.9 2.9 5.1 2.9z\" fill=\"#fff\"/></g></mask><g id=\"icon_x2F_Utility_x2F_Store_x2F_sameday-pickup-Color_x2F_Grayscale_x2F_Night-Sky\" mask=\"url(#icon_x2F_Utility_x2F_Store_x2F_sameday-pickup-mask-2)\"><path fill=\"#111\" d=\"M0 0h48v48H0z\" transform=\"translate(-11 -11)\" id=\"icon_x2F_Utility_x2F_Store_x2F_sameday-pickup-Swatch\"/></g></g></g></g></svg>"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"icon_x2F_Utility_x2F_Store_x2F_sameday-pickup-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"icon_x2F_Utility_x2F_Store_x2F_sameday-pickup-path-1_1_\" style=\"fill:#111111;\" d=\"M35.5,26.5c0.9,1.1,1.5,2.5,1.5,4.1\r\n\tc0,3.5-2.9,6.4-6.4,6.4s-6.4-2.9-6.4-6.4c0-2.9,2-5.4,4.7-6.2v-0.7c0-0.9,0.8-1.7,1.7-1.7c0.9,0,1.7,0.8,1.7,1.7v0.7\r\n\tc0.8,0.2,1.5,0.6,2.1,1.1l0.4-0.4c0.3-0.3,0.8-0.3,1.1,0c0.3,0.3,0.3,0.8,0,1.1C35.9,26.2,35.5,26.5,35.5,26.5z M30.6,35.5\r\n\tc2.7,0,4.9-2.2,4.9-4.9s-2.2-4.9-4.9-4.9s-4.9,2.2-4.9,4.9S27.9,35.5,30.6,35.5z M31.4,28.3v1.5h2.9c0.4,0,0.8,0.3,0.8,0.8\r\n\tc0,0.4-0.3,0.8-0.8,0.8h-3.7c-0.4,0-0.8-0.3-0.8-0.8v-2.3c0-0.4,0.3-0.8,0.8-0.8C31,27.6,31.4,27.9,31.4,28.3z M23.8,32.6\r\n\tc0,0.1,0,0.1,0.1,0.2H12.4c-0.7,0-1.4-0.7-1.4-1.5l0.7-16.7c0,0,0-0.4,0.3-0.7c0.3-0.4,1.9-2.3,2.3-2.6c0.1-0.2,0.5-0.3,0.6-0.3\r\n\th13.9c0.3,0,0.5,0.1,0.6,0.3c0.3,0.3,1.9,2.3,2.2,2.6c0.4,0.4,0.4,0.7,0.4,0.7l0.3,7.4l-0.1-0.1l-0.1-0.1H32\r\n\tc-0.1-0.1-0.2-0.2-0.4-0.2c-0.3-0.2-0.7-0.3-1.1-0.3c-1.3,0-2.4,1.1-2.4,2.5v0.1c-2.8,1-4.7,3.7-4.7,6.7\r\n\tC23.5,31.3,23.6,31.9,23.8,32.6z M21.8,24.8c2.2,0,4-1,5.1-2.9c0.8-1.4,1-2.8,1.1-2.8c0.1-0.4-0.2-0.8-0.6-0.9\r\n\tc-0.4-0.1-0.8,0.2-0.9,0.6c0,0-0.2,1.1-0.9,2.3c-0.9,1.4-2.2,2.2-3.8,2.2c-4,0-4.6-4.3-4.7-4.4c0-0.4-0.4-0.7-0.8-0.7\r\n\tc-0.4,0.1-0.7,0.5-0.6,0.9c0,0.1,0.2,1.4,1,2.8C17.9,23.8,19.6,24.8,21.8,24.8z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "KftJ":
 /***/ (function(module, exports) {
 
-module.exports = "<svg id=\"icon_x2F_Utility_x2F_location-pin-Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 48 48\" enable-background=\"new 0 0 48 48\"><title>icon/Utility/location-pin</title><g id=\"icon_x2F_Utility_x2F_location-pin-Symbols\"><g id=\"icon_x2F_Utility_x2F_location-pin\"><g id=\"icon_x2F_Utility_x2F_location-pin-Icon\" transform=\"translate(15 11)\"><g id=\"icon_x2F_Utility_x2F_location-pin-Mask\"><path id=\"icon_x2F_Utility_x2F_location-pin-path-1_1_\" d=\"M9 0c5 0 9 4.1 9 10.1S9 26 9 26s-9-9.9-9-15.9S4 0 9 0zm0 14.5c2.7 0 4.9-2.3 4.9-5.2S11.7 4.1 9 4.1 4.1 6.4 4.1 9.3s2.2 5.2 4.9 5.2z\" fill=\"#384048\"/></g><defs><filter id=\"icon_x2F_Utility_x2F_location-pin-Adobe_OpacityMaskFilter\" filterUnits=\"userSpaceOnUse\" x=\"-15\" y=\"-11\" width=\"48\" height=\"48\"><feColorMatrix values=\"1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0\"/></filter></defs><mask maskUnits=\"userSpaceOnUse\" x=\"-15\" y=\"-11\" width=\"48\" height=\"48\" id=\"icon_x2F_Utility_x2F_location-pin-mask-2\"><g filter=\"url(#icon_x2F_Utility_x2F_location-pin-Adobe_OpacityMaskFilter)\"><path id=\"icon_x2F_Utility_x2F_location-pin-path-1\" d=\"M9 0c5 0 9 4.1 9 10.1S9 26 9 26s-9-9.9-9-15.9S4 0 9 0zm0 14.5c2.7 0 4.9-2.3 4.9-5.2S11.7 4.1 9 4.1 4.1 6.4 4.1 9.3s2.2 5.2 4.9 5.2z\" fill=\"#fff\"/></g></mask><g id=\"icon_x2F_Utility_x2F_location-pin-Color_x2F_Grayscale_x2F_Night-Sky\" mask=\"url(#icon_x2F_Utility_x2F_location-pin-mask-2)\"><path fill=\"#111\" d=\"M0 0h48v48H0z\" transform=\"translate(-15 -11)\" id=\"icon_x2F_Utility_x2F_location-pin-Swatch\"/></g></g></g></g></svg>"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"icon_x2F_Utility_x2F_location-pin-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"icon_x2F_Utility_x2F_location-pin-path-1_1_\" style=\"fill:#111111;\" d=\"M24,11c5,0,9,4.1,9,10.1S24,37,24,37\r\n\ts-9-9.9-9-15.9S19,11,24,11z M24,25.5c2.7,0,4.9-2.3,4.9-5.2c0-2.9-2.2-5.2-4.9-5.2s-4.9,2.3-4.9,5.2S21.3,25.5,24,25.5z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "Kr1e":
 /***/ (function(module, exports) {
 
-module.exports = "<svg id=\"action-chat-fill-Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 48 48\" enable-background=\"new 0 0 48 48\"><title>icon/Action/chat-fill</title><g transform=\"translate(8 13)\"><path id=\"action-chat-fill-a_1_\" d=\"M29.9 6.2c1 0 2.1.8 2.1 2.2v6.9c0 .5-.3 1.1-.8 1.5-.5.5-1.2.8-1.9.8h-2v3.6c0 .3-.2.5-.5.7-.3.1-.6.1-.9-.1l-4.7-4.1H16c-1.5 0-2.7-1-2.7-2.4V8.5c0-1.3 1.2-2.3 2.7-2.3h13.9zM12.5 8.5V13H12l-4.8 4c-.2.2-.6.2-.9.1-.3-.1-.5-.4-.5-.7V13c-.1 0-.1-.1-.2-.1H2.2C1 13 0 12 0 10.8V2.2C0 1 1 0 2.3 0h17.9c1.3 0 2.3 1 2.3 2.2v3.3H16c-1.9 0-3.5 1.3-3.5 3z\" fill=\"#384048\"/><defs><filter id=\"action-chat-fill-Adobe_OpacityMaskFilter\" filterUnits=\"userSpaceOnUse\" x=\"-8\" y=\"-13\" width=\"48\" height=\"48\"><feColorMatrix values=\"1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0\"/></filter></defs><mask maskUnits=\"userSpaceOnUse\" x=\"-8\" y=\"-13\" width=\"48\" height=\"48\" id=\"action-chat-fill-b\"><g filter=\"url(#action-chat-fill-Adobe_OpacityMaskFilter)\"><path id=\"action-chat-fill-a\" d=\"M29.9 6.2c1 0 2.1.8 2.1 2.2v6.9c0 .5-.3 1.1-.8 1.5-.5.5-1.2.8-1.9.8h-2v3.6c0 .3-.2.5-.5.7-.3.1-.6.1-.9-.1l-4.7-4.1H16c-1.5 0-2.7-1-2.7-2.4V8.5c0-1.3 1.2-2.3 2.7-2.3h13.9zM12.5 8.5V13H12l-4.8 4c-.2.2-.6.2-.9.1-.3-.1-.5-.4-.5-.7V13c-.1 0-.1-.1-.2-.1H2.2C1 13 0 12 0 10.8V2.2C0 1 1 0 2.3 0h17.9c1.3 0 2.3 1 2.3 2.2v3.3H16c-1.9 0-3.5 1.3-3.5 3z\" fill=\"#fff\"/></g></mask><g mask=\"url(#action-chat-fill-b)\"><path d=\"M-8-13h48v48H-8v-48z\" fill=\"#111\"/></g></g></svg>"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"action-chat-fill-Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"\r\n\t x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\" style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"action-chat-fill-a_1_\" style=\"fill:#111111;\" d=\"M37.9,19.2c1,0,2.1,0.8,2.1,2.2v6.9c0,0.5-0.3,1.1-0.8,1.5\r\n\tc-0.5,0.5-1.2,0.8-1.9,0.8h-2v3.6c0,0.3-0.2,0.5-0.5,0.7c-0.3,0.1-0.6,0.1-0.9-0.1l-4.7-4.1H24c-1.5,0-2.7-1-2.7-2.4v-6.8\r\n\tc0-1.3,1.2-2.3,2.7-2.3H37.9z M20.5,21.5V26H20l-4.8,4c-0.2,0.2-0.6,0.2-0.9,0.1c-0.3-0.1-0.5-0.4-0.5-0.7V26\r\n\tc-0.1,0-0.1-0.1-0.2-0.1h-3.4C9,26,8,25,8,23.8v-8.6C8,14,9,13,10.3,13h17.9c1.3,0,2.3,1,2.3,2.2v3.3H24\r\n\tC22.1,18.5,20.5,19.8,20.5,21.5z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "LF3q":
 /***/ (function(module, exports) {
 
-module.exports = "<svg id=\"icon_x2F_Utility_x2F_Store_x2F_local-ad-Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 48 48\" enable-background=\"new 0 0 48 48\"><title>icon/Utility/Store/local-ad</title><g id=\"icon_x2F_Utility_x2F_Store_x2F_local-ad-Symbols\"><g id=\"icon_x2F_Utility_x2F_Store_x2F_local-ad\"><g id=\"icon_x2F_Utility_x2F_Store_x2F_local-ad-Icon\" transform=\"translate(10 12)\"><g id=\"icon_x2F_Utility_x2F_Store_x2F_local-ad-Mask\"><path id=\"icon_x2F_Utility_x2F_Store_x2F_local-ad-path-1_1_\" d=\"M26.1 4.1H6c-1 0-1.8.7-1.8 1.7v16.3c0 1 .8 1.8 1.8 1.8h20.1c1 0 1.9-.8 1.9-1.8V5.9c0-1-.8-1.8-1.9-1.8zM15.2 19.4c0 .5-.2.9-.9.9H8.6c-.7 0-.9-.5-.9-.9V8.8c0-.6.4-.9.9-.9h5.6c.6 0 .9.3.9.9v10.6h.1zm8.8.9h-6.5c-.4 0-.7-.3-.7-.7s.3-.7.7-.7H24c.4 0 .7.3.7.7s-.3.7-.7.7zm0-2.2h-6.5c-.4 0-.7-.3-.7-.7 0-.4.3-.7.7-.7H24c.4 0 .7.3.7.7 0 .4-.3.7-.7.7zm0-2.2h-6.5c-.4 0-.7-.3-.7-.7 0-.4.3-.7.7-.7H24c.4 0 .7.3.7.7 0 .4-.3.7-.7.7zm.7-3.1c0 .4-.3.7-.7.7h-6.5c-.4 0-.7-.3-.7-.7V8.6c0-.4.4-.8.8-.8H24c.4 0 .7.4.7.8v4.2zm-2.3-9.4H10.8C14.8 1.8 19 .1 19 .1c.3-.1.5-.1.8-.1.7 0 1.4.4 1.7 1.1l.9 2.3zM3.6 6.3v11.6L.1 9.6c-.4-.9.1-2 1-2.3l2.5-1z\" fill=\"#384048\"/></g><defs><filter id=\"icon_x2F_Utility_x2F_Store_x2F_local-ad-Adobe_OpacityMaskFilter\" filterUnits=\"userSpaceOnUse\" x=\"-10\" y=\"-12\" width=\"48\" height=\"48\"><feColorMatrix values=\"1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0\"/></filter></defs><mask maskUnits=\"userSpaceOnUse\" x=\"-10\" y=\"-12\" width=\"48\" height=\"48\" id=\"icon_x2F_Utility_x2F_Store_x2F_local-ad-mask-2\"><g filter=\"url(#icon_x2F_Utility_x2F_Store_x2F_local-ad-Adobe_OpacityMaskFilter)\"><path id=\"icon_x2F_Utility_x2F_Store_x2F_local-ad-path-1\" d=\"M26.1 4.1H6c-1 0-1.8.7-1.8 1.7v16.3c0 1 .8 1.8 1.8 1.8h20.1c1 0 1.9-.8 1.9-1.8V5.9c0-1-.8-1.8-1.9-1.8zM15.2 19.4c0 .5-.2.9-.9.9H8.6c-.7 0-.9-.5-.9-.9V8.8c0-.6.4-.9.9-.9h5.6c.6 0 .9.3.9.9v10.6h.1zm8.8.9h-6.5c-.4 0-.7-.3-.7-.7s.3-.7.7-.7H24c.4 0 .7.3.7.7s-.3.7-.7.7zm0-2.2h-6.5c-.4 0-.7-.3-.7-.7 0-.4.3-.7.7-.7H24c.4 0 .7.3.7.7 0 .4-.3.7-.7.7zm0-2.2h-6.5c-.4 0-.7-.3-.7-.7 0-.4.3-.7.7-.7H24c.4 0 .7.3.7.7 0 .4-.3.7-.7.7zm.7-3.1c0 .4-.3.7-.7.7h-6.5c-.4 0-.7-.3-.7-.7V8.6c0-.4.4-.8.8-.8H24c.4 0 .7.4.7.8v4.2zm-2.3-9.4H10.8C14.8 1.8 19 .1 19 .1c.3-.1.5-.1.8-.1.7 0 1.4.4 1.7 1.1l.9 2.3zM3.6 6.3v11.6L.1 9.6c-.4-.9.1-2 1-2.3l2.5-1z\" fill=\"#fff\"/></g></mask><g id=\"icon_x2F_Utility_x2F_Store_x2F_local-ad-Color_x2F_Grayscale_x2F_Night-Sky\" mask=\"url(#icon_x2F_Utility_x2F_Store_x2F_local-ad-mask-2)\"><path fill=\"#111\" d=\"M0 0h48v48H0z\" transform=\"translate(-10 -12)\" id=\"icon_x2F_Utility_x2F_Store_x2F_local-ad-Swatch\"/></g></g></g></g></svg>"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"icon_x2F_Utility_x2F_Store_x2F_local-ad-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"icon_x2F_Utility_x2F_Store_x2F_local-ad-path-1_1_\" style=\"fill:#111111;\" d=\"M36.1,16.1H16c-1,0-1.8,0.7-1.8,1.7v16.3\r\n\tc0,1,0.8,1.8,1.8,1.8h20.1c1,0,1.9-0.8,1.9-1.8V17.9C38,16.9,37.2,16.1,36.1,16.1z M25.2,31.4c0,0.5-0.2,0.9-0.9,0.9h-5.7\r\n\tc-0.7,0-0.9-0.5-0.9-0.9V20.8c0-0.6,0.4-0.9,0.9-0.9h5.6c0.6,0,0.9,0.3,0.9,0.9v10.6C25.1,31.4,25.2,31.4,25.2,31.4z M34,32.3h-6.5\r\n\tc-0.4,0-0.7-0.3-0.7-0.7s0.3-0.7,0.7-0.7H34c0.4,0,0.7,0.3,0.7,0.7S34.4,32.3,34,32.3z M34,30.1h-6.5c-0.4,0-0.7-0.3-0.7-0.7\r\n\tc0-0.4,0.3-0.7,0.7-0.7H34c0.4,0,0.7,0.3,0.7,0.7C34.7,29.8,34.4,30.1,34,30.1z M34,27.9h-6.5c-0.4,0-0.7-0.3-0.7-0.7\r\n\ts0.3-0.7,0.7-0.7H34c0.4,0,0.7,0.3,0.7,0.7S34.4,27.9,34,27.9z M34.7,24.8c0,0.4-0.3,0.7-0.7,0.7h-6.5c-0.4,0-0.7-0.3-0.7-0.7v-4.2\r\n\tc0-0.4,0.4-0.8,0.8-0.8H34c0.4,0,0.7,0.4,0.7,0.8C34.7,20.6,34.7,24.8,34.7,24.8z M32.4,15.4H20.8c4-1.6,8.2-3.3,8.2-3.3\r\n\tc0.3-0.1,0.5-0.1,0.8-0.1c0.7,0,1.4,0.4,1.7,1.1C31.5,13.1,32.4,15.4,32.4,15.4z M13.6,18.3v11.6l-3.5-8.3c-0.4-0.9,0.1-2,1-2.3\r\n\tL13.6,18.3z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "LhDK":
 /***/ (function(module, exports) {
 
-module.exports = "<svg id=\"icon_x2F_Nav_x2F_triangle-left-Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 48 48\" enable-background=\"new 0 0 48 48\"><title>icon/Nav/triangle-left</title><g id=\"icon_x2F_Nav_x2F_triangle-left-Symbols\"><g id=\"icon_x2F_Nav_x2F_triangle-left\"><g id=\"icon_x2F_Nav_x2F_triangle-left-Icon\" transform=\"rotate(-90 25 5)\"><g id=\"icon_x2F_Nav_x2F_triangle-left-Mask\"><path id=\"icon_x2F_Nav_x2F_triangle-left-path-1_1_\" fill=\"#384048\" d=\"M6 0l6 8H0z\"/></g><defs><filter id=\"icon_x2F_Nav_x2F_triangle-left-Adobe_OpacityMaskFilter\" filterUnits=\"userSpaceOnUse\" x=\"-18\" y=\"-28\" width=\"48\" height=\"48\"><feColorMatrix values=\"1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0\"/></filter></defs><mask maskUnits=\"userSpaceOnUse\" x=\"-18\" y=\"-28\" width=\"48\" height=\"48\" id=\"icon_x2F_Nav_x2F_triangle-left-mask-2\"><g filter=\"url(#icon_x2F_Nav_x2F_triangle-left-Adobe_OpacityMaskFilter)\"><path id=\"icon_x2F_Nav_x2F_triangle-left-path-1\" fill=\"#fff\" d=\"M6 0l6 8H0z\"/></g></mask><g id=\"icon_x2F_Nav_x2F_triangle-left-Color_x2F_Grayscale_x2F_Night-Sky\" mask=\"url(#icon_x2F_Nav_x2F_triangle-left-mask-2)\"><path transform=\"rotate(-90 5 23)\" fill=\"#111\" d=\"M0 0h48v48H0z\" id=\"icon_x2F_Nav_x2F_triangle-left-Swatch\"/></g></g></g></g></svg>"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"icon_x2F_Nav_x2F_triangle-left-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"icon_x2F_Nav_x2F_triangle-left-path-1_1_\" style=\"fill:#111111;\" d=\"M20,24l8-6v12L20,24z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
@@ -955,7 +955,7 @@ var buttons_Buttons = function (_Component) {
                     { className: 'row' },
                     react_default.a.createElement(
                         'div',
-                        { className: 'small-12 columns' },
+                        { className: 'sm12 columns' },
                         react_default.a.createElement(
                             'h1',
                             { className: 'title title-XL mrg-L' },
@@ -973,7 +973,7 @@ var buttons_Buttons = function (_Component) {
                     { className: 'row', id: 'code-generator' },
                     react_default.a.createElement(
                         'div',
-                        { className: 'small-12 columns' },
+                        { className: 'sm12 columns' },
                         react_default.a.createElement('hr', null),
                         react_default.a.createElement(
                             'h3',
@@ -1046,7 +1046,7 @@ var buttons_Buttons = function (_Component) {
                     { className: 'row', id: 'when-to-use' },
                     react_default.a.createElement(
                         'div',
-                        { className: 'small-12 columns' },
+                        { className: 'sm12 columns' },
                         react_default.a.createElement(
                             'h3',
                             { className: 'title title-L mrg-L' },
@@ -1107,7 +1107,7 @@ var buttons_Buttons = function (_Component) {
                     { className: 'row', id: 'appearance' },
                     react_default.a.createElement(
                         'div',
-                        { className: 'small-12 columns' },
+                        { className: 'sm12 columns' },
                         react_default.a.createElement('hr', null),
                         react_default.a.createElement(
                             'h3',
@@ -1124,7 +1124,7 @@ var buttons_Buttons = function (_Component) {
                             { className: 'row' },
                             react_default.a.createElement(
                                 'div',
-                                { className: 'small-12 medium-5 large-4 columns mrg-XL' },
+                                { className: 'sm12 md5 lg4 columns mrg-XL' },
                                 react_default.a.createElement(
                                     'div',
                                     { className: 'button-preview algn-mid' },
@@ -1155,7 +1155,7 @@ var buttons_Buttons = function (_Component) {
                             ),
                             react_default.a.createElement(
                                 'div',
-                                { className: 'small-12 medium-7 large-8 columns' },
+                                { className: 'sm12 md7 lg8 columns' },
                                 react_default.a.createElement(
                                     'h5',
                                     { className: 'title title-M mrg-M' },
@@ -1173,7 +1173,7 @@ var buttons_Buttons = function (_Component) {
                             { className: 'row' },
                             react_default.a.createElement(
                                 'div',
-                                { className: 'small-12 medium-5 large-4 columns mrg-XXL' },
+                                { className: 'sm12 md5 lg4 columns mrg-XXL' },
                                 react_default.a.createElement(
                                     'div',
                                     { className: 'button-preview algn-mid' },
@@ -1204,7 +1204,7 @@ var buttons_Buttons = function (_Component) {
                             ),
                             react_default.a.createElement(
                                 'div',
-                                { className: 'small-12 medium-7 large-8 columns' },
+                                { className: 'sm12 md7 lg8 columns' },
                                 react_default.a.createElement(
                                     'h5',
                                     { className: 'title title-M mrg-M' },
@@ -1222,7 +1222,7 @@ var buttons_Buttons = function (_Component) {
                             { className: 'row' },
                             react_default.a.createElement(
                                 'div',
-                                { className: 'small-12 medium-5 large-4 columns' },
+                                { className: 'sm12 md5 lg4 columns' },
                                 react_default.a.createElement(
                                     'div',
                                     { className: 'button-preview algn-mid mrg-XL' },
@@ -1236,7 +1236,7 @@ var buttons_Buttons = function (_Component) {
                             ),
                             react_default.a.createElement(
                                 'div',
-                                { className: 'small-12 medium-7 large-8 columns' },
+                                { className: 'sm12 md7 lg8 columns' },
                                 react_default.a.createElement(
                                     'h5',
                                     { className: 'title title-M mrg-M' },
@@ -1254,7 +1254,7 @@ var buttons_Buttons = function (_Component) {
                             { className: 'row' },
                             react_default.a.createElement(
                                 'div',
-                                { className: 'small-12 medium-5 large-4 columns mrg-XXL' },
+                                { className: 'sm12 md5 lg4 columns mrg-XXL' },
                                 react_default.a.createElement(
                                     'div',
                                     { className: 'button-preview algn-mid' },
@@ -1288,7 +1288,7 @@ var buttons_Buttons = function (_Component) {
                             ),
                             react_default.a.createElement(
                                 'div',
-                                { className: 'small-12 medium-7 large-8 columns' },
+                                { className: 'sm12 md7 lg8 columns' },
                                 react_default.a.createElement(
                                     'h5',
                                     { className: 'title title-M mrg-M' },
@@ -1308,7 +1308,7 @@ var buttons_Buttons = function (_Component) {
                     { className: 'row', id: 'responsive-behavior' },
                     react_default.a.createElement(
                         'div',
-                        { className: 'small-12 columns' },
+                        { className: 'sm12 columns' },
                         react_default.a.createElement('hr', null),
                         react_default.a.createElement(
                             'h3',
@@ -1378,7 +1378,7 @@ var buttons_Buttons = function (_Component) {
                 react_default.a.createElement('br', null),
                 react_default.a.createElement(
                     'div',
-                    { className: 'toggle-list small-12 medium-12 column row' },
+                    { className: 'toggle-list sm12 md12 column row' },
                     react_default.a.createElement(
                         'h2',
                         { className: 'title-XL mrg-L' },
@@ -1444,7 +1444,7 @@ var buttons_Buttons = function (_Component) {
                 ),
                 react_default.a.createElement(
                     'div',
-                    { className: 'small-12 medium-12 column row' },
+                    { className: 'sm12 md12 column row' },
                     react_default.a.createElement(
                         'div',
                         { className: 'thumb-icon row mrg-XL' },
@@ -1483,7 +1483,7 @@ var buttons_Buttons = function (_Component) {
                     react_default.a.createElement('br', null),
                     react_default.a.createElement(
                         'div',
-                        { className: 'row column small-12 medium-12 text-buttons' },
+                        { className: 'row column sm12 md12 text-buttons' },
                         react_default.a.createElement(
                             'h2',
                             { className: 'title-XL mrg-L' },
@@ -1579,7 +1579,7 @@ var buttons_Buttons = function (_Component) {
                     react_default.a.createElement('br', null),
                     react_default.a.createElement(
                         'div',
-                        { className: 'row column small-12 medium-12 icon-buttons' },
+                        { className: 'row column sm12 md12 icon-buttons' },
                         react_default.a.createElement(
                             'h2',
                             { className: 'title-XL mrg-L' },
@@ -1647,7 +1647,7 @@ var buttons_Buttons = function (_Component) {
                     react_default.a.createElement('br', null),
                     react_default.a.createElement(
                         'div',
-                        { className: 'row column small-12 medium-12 icon-buttons' },
+                        { className: 'row column sm12 md12 icon-buttons' },
                         react_default.a.createElement(
                             'div',
                             { className: 'toggle-settings mrg-rght-XL' },
@@ -1711,7 +1711,7 @@ var buttons_Buttons = function (_Component) {
                     { className: 'row' },
                     react_default.a.createElement(
                         'div',
-                        { className: 'small-12 columns' },
+                        { className: 'sm12 columns' },
                         react_default.a.createElement('hr', null),
                         react_default.a.createElement(
                             'p',
@@ -1828,12 +1828,12 @@ var color_Color = function (_Component) {
                     { className: 'row' },
                     react_default.a.createElement(
                         'div',
-                        { className: 'small-4 columns algn-lft', style: colorLabelStyle },
+                        { className: 'sm4 columns algn-lft', style: colorLabelStyle },
                         colorName
                     ),
                     react_default.a.createElement(
                         'div',
-                        { className: 'small-8 columns algn-rght', style: colorLabelStyle },
+                        { className: 'sm8 columns algn-rght', style: colorLabelStyle },
                         react_default.a.createElement(
                             'span',
                             { className: 'design-system-color-class' },
@@ -1857,7 +1857,7 @@ var color_Color = function (_Component) {
                 { className: 'row' },
                 react_default.a.createElement(
                     'div',
-                    { className: 'small-12 columns' },
+                    { className: 'sm12 columns' },
                     react_default.a.createElement(
                         'h1',
                         { className: 'title title-XL mrg-L' },
@@ -1877,7 +1877,7 @@ var color_Color = function (_Component) {
                             { className: 'row design-system-headline-with-toggle', id: 'core' },
                             react_default.a.createElement(
                                 'div',
-                                { className: 'small-12 columns' },
+                                { className: 'sm12 columns' },
                                 react_default.a.createElement(
                                     'h3',
                                     { className: 'title title-L mrg-L' },
@@ -1904,7 +1904,7 @@ var color_Color = function (_Component) {
                             { className: 'row' },
                             react_default.a.createElement(
                                 'div',
-                                { className: 'small-12 medium-6 columns' },
+                                { className: 'sm12 md6 columns' },
                                 react_default.a.createElement(
                                     'div',
                                     { className: 'mrg-L' },
@@ -1919,7 +1919,7 @@ var color_Color = function (_Component) {
                             ),
                             react_default.a.createElement(
                                 'div',
-                                { className: 'small-12 medium-6 columns' },
+                                { className: 'sm12 md6 columns' },
                                 react_default.a.createElement(
                                     'h4',
                                     { className: 'title title-M mrg-M' },
@@ -1937,7 +1937,7 @@ var color_Color = function (_Component) {
                             { className: 'row' },
                             react_default.a.createElement(
                                 'div',
-                                { className: 'small-12 medium-6 columns' },
+                                { className: 'sm12 md6 columns' },
                                 react_default.a.createElement(
                                     'div',
                                     { className: 'mrg-L' },
@@ -1956,7 +1956,7 @@ var color_Color = function (_Component) {
                             ),
                             react_default.a.createElement(
                                 'div',
-                                { className: 'small-12 medium-6 columns' },
+                                { className: 'sm12 md6 columns' },
                                 react_default.a.createElement(
                                     'h4',
                                     { className: 'title title-M mrg-M' },
@@ -1979,7 +1979,7 @@ var color_Color = function (_Component) {
                             { className: 'row design-system-headline-with-toggle', id: 'messaging' },
                             react_default.a.createElement(
                                 'div',
-                                { className: 'small-12 columns' },
+                                { className: 'sm12 columns' },
                                 react_default.a.createElement(
                                     'h3',
                                     { className: 'title title-L mrg-L' },
@@ -2006,7 +2006,7 @@ var color_Color = function (_Component) {
                             { className: 'row' },
                             react_default.a.createElement(
                                 'div',
-                                { className: 'small-12 columns' },
+                                { className: 'sm12 columns' },
                                 react_default.a.createElement(
                                     'p',
                                     { className: 'mrg-L max-width-text' },
@@ -2019,7 +2019,7 @@ var color_Color = function (_Component) {
                             { className: 'row' },
                             react_default.a.createElement(
                                 'div',
-                                { className: 'small-12 medium-6 columns' },
+                                { className: 'sm12 md6 columns' },
                                 react_default.a.createElement(
                                     'div',
                                     { className: 'mrg-L' },
@@ -2032,7 +2032,7 @@ var color_Color = function (_Component) {
                             ),
                             react_default.a.createElement(
                                 'div',
-                                { className: 'small-12 medium-6 columns' },
+                                { className: 'sm12 md6 columns' },
                                 react_default.a.createElement(
                                     'h4',
                                     { className: 'title title-M mrg-M' },
@@ -2050,7 +2050,7 @@ var color_Color = function (_Component) {
                             { className: 'row' },
                             react_default.a.createElement(
                                 'div',
-                                { className: 'small-12 medium-6 columns' },
+                                { className: 'sm12 md6 columns' },
                                 react_default.a.createElement(
                                     'div',
                                     { className: 'mrg-L' },
@@ -2063,7 +2063,7 @@ var color_Color = function (_Component) {
                             ),
                             react_default.a.createElement(
                                 'div',
-                                { className: 'small-12 medium-6 columns' },
+                                { className: 'sm12 md6 columns' },
                                 react_default.a.createElement(
                                     'h4',
                                     { className: 'title title-M mrg-M' },
@@ -2081,7 +2081,7 @@ var color_Color = function (_Component) {
                             { className: 'row' },
                             react_default.a.createElement(
                                 'div',
-                                { className: 'small-12 medium-6 columns' },
+                                { className: 'sm12 md6 columns' },
                                 react_default.a.createElement(
                                     'div',
                                     { className: 'mrg-L' },
@@ -2094,7 +2094,7 @@ var color_Color = function (_Component) {
                             ),
                             react_default.a.createElement(
                                 'div',
-                                { className: 'small-12 medium-6 columns' },
+                                { className: 'sm12 md6 columns' },
                                 react_default.a.createElement(
                                     'h4',
                                     { className: 'title title-M mrg-M' },
@@ -2112,7 +2112,7 @@ var color_Color = function (_Component) {
                             { className: 'row' },
                             react_default.a.createElement(
                                 'div',
-                                { className: 'small-12 medium-6 columns' },
+                                { className: 'sm12 md6 columns' },
                                 react_default.a.createElement(
                                     'div',
                                     { className: 'mrg-L' },
@@ -2125,7 +2125,7 @@ var color_Color = function (_Component) {
                             ),
                             react_default.a.createElement(
                                 'div',
-                                { className: 'small-12 medium-6 columns' },
+                                { className: 'sm12 md6 columns' },
                                 react_default.a.createElement(
                                     'h4',
                                     { className: 'title title-M mrg-M' },
@@ -2147,7 +2147,7 @@ var color_Color = function (_Component) {
                             { className: 'row design-system-headline-with-toggle', id: 'rewards' },
                             react_default.a.createElement(
                                 'div',
-                                { className: 'small-12 columns' },
+                                { className: 'sm12 columns' },
                                 react_default.a.createElement(
                                     'h3',
                                     { className: 'title title-L mrg-L' },
@@ -2174,7 +2174,7 @@ var color_Color = function (_Component) {
                             { className: 'row' },
                             react_default.a.createElement(
                                 'div',
-                                { className: 'small-12 columns' },
+                                { className: 'sm12 columns' },
                                 react_default.a.createElement(
                                     'p',
                                     { className: 'mrg-L max-width-text' },
@@ -2187,7 +2187,7 @@ var color_Color = function (_Component) {
                             { className: 'row' },
                             react_default.a.createElement(
                                 'div',
-                                { className: 'small-12 medium-6 columns' },
+                                { className: 'sm12 md6 columns' },
                                 react_default.a.createElement(
                                     'div',
                                     { className: 'mrg-L' },
@@ -2200,7 +2200,7 @@ var color_Color = function (_Component) {
                             ),
                             react_default.a.createElement(
                                 'div',
-                                { className: 'small-12 medium-6 columns' },
+                                { className: 'sm12 md6 columns' },
                                 react_default.a.createElement(
                                     'h4',
                                     { className: 'title title-M mrg-M' },
@@ -2218,7 +2218,7 @@ var color_Color = function (_Component) {
                             { className: 'row' },
                             react_default.a.createElement(
                                 'div',
-                                { className: 'small-12 medium-6 columns' },
+                                { className: 'sm12 md6 columns' },
                                 react_default.a.createElement(
                                     'div',
                                     { className: 'mrg-L' },
@@ -2231,7 +2231,7 @@ var color_Color = function (_Component) {
                             ),
                             react_default.a.createElement(
                                 'div',
-                                { className: 'small-12 medium-6 columns' },
+                                { className: 'sm12 md6 columns' },
                                 react_default.a.createElement(
                                     'h4',
                                     { className: 'title title-M mrg-M' },
@@ -2249,7 +2249,7 @@ var color_Color = function (_Component) {
                             { className: 'row' },
                             react_default.a.createElement(
                                 'div',
-                                { className: 'small-12 medium-6 columns' },
+                                { className: 'sm12 md6 columns' },
                                 react_default.a.createElement(
                                     'div',
                                     { className: 'mrg-L' },
@@ -2262,7 +2262,7 @@ var color_Color = function (_Component) {
                             ),
                             react_default.a.createElement(
                                 'div',
-                                { className: 'small-12 medium-6 columns' },
+                                { className: 'sm12 md6 columns' },
                                 react_default.a.createElement(
                                     'h4',
                                     { className: 'title title-M mrg-M' },
@@ -2285,7 +2285,7 @@ var color_Color = function (_Component) {
                             { className: 'row design-system-headline-with-toggle', id: 'marketing' },
                             react_default.a.createElement(
                                 'div',
-                                { className: 'small-12 columns' },
+                                { className: 'sm12 columns' },
                                 react_default.a.createElement(
                                     'h3',
                                     { className: 'title title-L mrg-L' },
@@ -2312,7 +2312,7 @@ var color_Color = function (_Component) {
                             { className: 'row' },
                             react_default.a.createElement(
                                 'div',
-                                { className: 'small-12 columns' },
+                                { className: 'sm12 columns' },
                                 react_default.a.createElement(
                                     'p',
                                     { className: 'mrg-L max-width-text' },
@@ -2330,7 +2330,7 @@ var color_Color = function (_Component) {
                             { className: 'row' },
                             react_default.a.createElement(
                                 'div',
-                                { className: 'small-12 medium-6 columns' },
+                                { className: 'sm12 md6 columns' },
                                 react_default.a.createElement(
                                     'div',
                                     { className: 'mrg-L' },
@@ -2343,7 +2343,7 @@ var color_Color = function (_Component) {
                             ),
                             react_default.a.createElement(
                                 'div',
-                                { className: 'small-12 medium-6 columns' },
+                                { className: 'sm12 md6 columns' },
                                 react_default.a.createElement(
                                     'div',
                                     { className: 'mrg-L' },
@@ -2360,7 +2360,7 @@ var color_Color = function (_Component) {
                             { className: 'row' },
                             react_default.a.createElement(
                                 'div',
-                                { className: 'small-12 medium-6 columns' },
+                                { className: 'sm12 md6 columns' },
                                 react_default.a.createElement(
                                     'div',
                                     { className: 'mrg-L' },
@@ -2373,7 +2373,7 @@ var color_Color = function (_Component) {
                             ),
                             react_default.a.createElement(
                                 'div',
-                                { className: 'small-12 medium-6 columns' },
+                                { className: 'sm12 md6 columns' },
                                 react_default.a.createElement(
                                     'div',
                                     { className: 'mrg-L' },
@@ -2390,7 +2390,7 @@ var color_Color = function (_Component) {
                             { className: 'row' },
                             react_default.a.createElement(
                                 'div',
-                                { className: 'small-12 medium-6 columns' },
+                                { className: 'sm12 md6 columns' },
                                 react_default.a.createElement(
                                     'div',
                                     { className: 'mrg-L' },
@@ -2403,7 +2403,7 @@ var color_Color = function (_Component) {
                             ),
                             react_default.a.createElement(
                                 'div',
-                                { className: 'small-12 medium-6 columns' },
+                                { className: 'sm12 md6 columns' },
                                 react_default.a.createElement(
                                     'div',
                                     { className: 'mrg-L' },
@@ -2420,7 +2420,7 @@ var color_Color = function (_Component) {
                             { className: 'row' },
                             react_default.a.createElement(
                                 'div',
-                                { className: 'small-12 columns' },
+                                { className: 'sm12 columns' },
                                 react_default.a.createElement(
                                     'h5',
                                     { className: 'title title-M mrg-S' },
@@ -2433,7 +2433,7 @@ var color_Color = function (_Component) {
                             { className: 'row' },
                             react_default.a.createElement(
                                 'div',
-                                { className: 'small-12 medium-6 columns' },
+                                { className: 'sm12 md6 columns' },
                                 react_default.a.createElement(
                                     'div',
                                     { className: 'mrg-L' },
@@ -2444,7 +2444,7 @@ var color_Color = function (_Component) {
                             ),
                             react_default.a.createElement(
                                 'div',
-                                { className: 'small-12 medium-6 columns' },
+                                { className: 'sm12 md6 columns' },
                                 react_default.a.createElement(
                                     'div',
                                     { className: 'mrg-L' },
@@ -2459,7 +2459,7 @@ var color_Color = function (_Component) {
                             { className: 'row' },
                             react_default.a.createElement(
                                 'div',
-                                { className: 'small-12 medium-6 columns' },
+                                { className: 'sm12 md6 columns' },
                                 react_default.a.createElement(
                                     'div',
                                     { className: 'mrg-L' },
@@ -2468,7 +2468,7 @@ var color_Color = function (_Component) {
                                     this.colorBar("", "#003C78", "color-blackfriday-tertiary-1", "size-large", "")
                                 )
                             ),
-                            react_default.a.createElement('div', { className: 'small-12 medium-6 columns' })
+                            react_default.a.createElement('div', { className: 'sm12 md6 columns' })
                         )
                     ),
                     react_default.a.createElement('hr', null),
@@ -2477,7 +2477,7 @@ var color_Color = function (_Component) {
                         { className: 'row', id: 'color-usage' },
                         react_default.a.createElement(
                             'div',
-                            { className: 'small-12 columns' },
+                            { className: 'sm12 columns' },
                             react_default.a.createElement(
                                 'h3',
                                 { className: 'title title-L mrg-L' },
@@ -2501,7 +2501,7 @@ var color_Color = function (_Component) {
                         { className: 'row', id: 'accessibility' },
                         react_default.a.createElement(
                             'div',
-                            { className: 'small-12 columns' },
+                            { className: 'sm12 columns' },
                             react_default.a.createElement(
                                 'h3',
                                 { className: 'title title-L mrg-L' },
@@ -2524,7 +2524,7 @@ var color_Color = function (_Component) {
                         { className: 'row' },
                         react_default.a.createElement(
                             'div',
-                            { className: 'small-12 columns' },
+                            { className: 'sm12 columns' },
                             react_default.a.createElement('hr', null),
                             react_default.a.createElement(
                                 'p',
@@ -2827,7 +2827,7 @@ var icons_Icons = function (_Component) {
                     )
                 );
             } else {
-                return react_default.a.createElement('div', { className: 'small-4 medium-4 large-3 columns design-system-icon-col' });
+                return react_default.a.createElement('div', { className: 'sm4 md4 lg3 columns design-system-icon-col' });
             }
         }
     }, {
@@ -2868,7 +2868,7 @@ var icons_Icons = function (_Component) {
                     { className: 'row' },
                     react_default.a.createElement(
                         'div',
-                        { className: 'small-12 columns' },
+                        { className: 'sm12 columns' },
                         react_default.a.createElement(
                             'h1',
                             { className: 'title title-XL mrg-L' },
@@ -2887,7 +2887,7 @@ var icons_Icons = function (_Component) {
                     { className: 'row', id: 'when-to-use' },
                     react_default.a.createElement(
                         'div',
-                        { className: 'small-12 columns' },
+                        { className: 'sm12 columns' },
                         react_default.a.createElement(
                             'h3',
                             { className: 'title title-L mrg-L' },
@@ -2940,7 +2940,7 @@ var icons_Icons = function (_Component) {
                     { className: 'row', id: 'alert' },
                     react_default.a.createElement(
                         'div',
-                        { className: 'small-12 columns' },
+                        { className: 'sm12 columns' },
                         react_default.a.createElement(
                             'h3',
                             { className: 'title title-L mrg-L' },
@@ -2976,7 +2976,7 @@ var icons_Icons = function (_Component) {
                     { className: 'row', id: 'payment' },
                     react_default.a.createElement(
                         'div',
-                        { className: 'small-12 columns' },
+                        { className: 'sm12 columns' },
                         react_default.a.createElement(
                             'h3',
                             { className: 'title title-L mrg-L' },
@@ -3023,7 +3023,7 @@ var icons_Icons = function (_Component) {
                         { className: 'row', id: 'action' },
                         react_default.a.createElement(
                             'div',
-                            { className: 'small-12 medium-6 large-8 columns' },
+                            { className: 'sm12 md6 lg8 columns' },
                             react_default.a.createElement(
                                 'h3',
                                 { className: 'title title-L mrg-L' },
@@ -3032,7 +3032,7 @@ var icons_Icons = function (_Component) {
                         ),
                         react_default.a.createElement(
                             'div',
-                            { className: 'small-12 medium-6 large-4 columns' },
+                            { className: 'sm12 md6 lg4 columns' },
                             react_default.a.createElement(icons_ColorPicker, null)
                         )
                     ),
@@ -3041,7 +3041,7 @@ var icons_Icons = function (_Component) {
                         { className: 'row' },
                         react_default.a.createElement(
                             'div',
-                            { className: 'small-12 columns' },
+                            { className: 'sm12 columns' },
                             react_default.a.createElement(
                                 'p',
                                 null,
@@ -3116,7 +3116,7 @@ var icons_Icons = function (_Component) {
                         { className: 'row', id: 'navigation' },
                         react_default.a.createElement(
                             'div',
-                            { className: 'small-12 medium-6 large-8 columns' },
+                            { className: 'sm12 md6 lg8 columns' },
                             react_default.a.createElement(
                                 'h3',
                                 { className: 'title title-L mrg-L' },
@@ -3125,7 +3125,7 @@ var icons_Icons = function (_Component) {
                         ),
                         react_default.a.createElement(
                             'div',
-                            { className: 'small-12 medium-6 large-4 columns' },
+                            { className: 'sm12 md6 lg4 columns' },
                             react_default.a.createElement(icons_ColorPicker, null)
                         )
                     ),
@@ -3134,7 +3134,7 @@ var icons_Icons = function (_Component) {
                         { className: 'row' },
                         react_default.a.createElement(
                             'div',
-                            { className: 'small-12 columns' },
+                            { className: 'sm12 columns' },
                             react_default.a.createElement(
                                 'p',
                                 null,
@@ -3189,7 +3189,7 @@ var icons_Icons = function (_Component) {
                         { className: 'row', id: 'utility' },
                         react_default.a.createElement(
                             'div',
-                            { className: 'small-12 medium-6 large-8 columns' },
+                            { className: 'sm12 md6 lg8 columns' },
                             react_default.a.createElement(
                                 'h3',
                                 { className: 'title title-L mrg-L' },
@@ -3198,7 +3198,7 @@ var icons_Icons = function (_Component) {
                         ),
                         react_default.a.createElement(
                             'div',
-                            { className: 'small-12 medium-6 large-4 columns' },
+                            { className: 'sm12 md6 lg4 columns' },
                             react_default.a.createElement(icons_ColorPicker, null)
                         )
                     ),
@@ -3207,7 +3207,7 @@ var icons_Icons = function (_Component) {
                         { className: 'row' },
                         react_default.a.createElement(
                             'div',
-                            { className: 'small-12 columns' },
+                            { className: 'sm12 columns' },
                             react_default.a.createElement(
                                 'p',
                                 null,
@@ -3300,7 +3300,7 @@ var icons_Icons = function (_Component) {
                         { className: 'row', id: 'social' },
                         react_default.a.createElement(
                             'div',
-                            { className: 'small-12 medium-6 large-8 columns' },
+                            { className: 'sm12 md6 lg8 columns' },
                             react_default.a.createElement(
                                 'h3',
                                 { className: 'title title-L mrg-L' },
@@ -3309,7 +3309,7 @@ var icons_Icons = function (_Component) {
                         ),
                         react_default.a.createElement(
                             'div',
-                            { className: 'small-12 medium-6 large-4 columns' },
+                            { className: 'sm12 md6 lg4 columns' },
                             react_default.a.createElement(icons_ColorPicker, null)
                         )
                     ),
@@ -3318,7 +3318,7 @@ var icons_Icons = function (_Component) {
                         { className: 'row' },
                         react_default.a.createElement(
                             'div',
-                            { className: 'small-12 columns' },
+                            { className: 'sm12 columns' },
                             react_default.a.createElement(
                                 'p',
                                 null,
@@ -3363,7 +3363,7 @@ var icons_Icons = function (_Component) {
                     { className: 'row' },
                     react_default.a.createElement(
                         'div',
-                        { className: 'small-12 columns' },
+                        { className: 'sm12 columns' },
                         react_default.a.createElement('hr', null),
                         react_default.a.createElement(
                             'p',
@@ -3460,7 +3460,7 @@ var grid_Grid = function (_Component) {
           { className: "row" },
           react_default.a.createElement(
             "div",
-            { className: "small-12 columns" },
+            { className: "sm12 columns" },
             react_default.a.createElement(
               "h1",
               { className: "title title-XL mrg-L" },
@@ -3485,7 +3485,7 @@ var grid_Grid = function (_Component) {
           { className: "row", id: "horizontal-grid" },
           react_default.a.createElement(
             "div",
-            { className: "small-12 columns" },
+            { className: "sm12 columns" },
             react_default.a.createElement(
               "h3",
               { className: "title title-L mrg-L" },
@@ -3676,62 +3676,62 @@ var grid_Grid = function (_Component) {
                 { className: "row" },
                 react_default.a.createElement(
                   "div",
-                  { className: "small-1 columns first" },
+                  { className: "sm1 columns first" },
                   react_default.a.createElement("div", { className: "design-system-preview-inner" })
                 ),
                 react_default.a.createElement(
                   "div",
-                  { className: "small-1 columns" },
+                  { className: "sm1 columns" },
                   react_default.a.createElement("div", { className: "design-system-preview-inner" })
                 ),
                 react_default.a.createElement(
                   "div",
-                  { className: "small-1 columns" },
+                  { className: "sm1 columns" },
                   react_default.a.createElement("div", { className: "design-system-preview-inner" })
                 ),
                 react_default.a.createElement(
                   "div",
-                  { className: "small-1 columns" },
+                  { className: "sm1 columns" },
                   react_default.a.createElement("div", { className: "design-system-preview-inner" })
                 ),
                 react_default.a.createElement(
                   "div",
-                  { className: "small-1 columns" },
+                  { className: "sm1 columns" },
                   react_default.a.createElement("div", { className: "design-system-preview-inner" })
                 ),
                 react_default.a.createElement(
                   "div",
-                  { className: "small-1 columns" },
+                  { className: "sm1 columns" },
                   react_default.a.createElement("div", { className: "design-system-preview-inner" })
                 ),
                 react_default.a.createElement(
                   "div",
-                  { className: "small-1 columns" },
+                  { className: "sm1 columns" },
                   react_default.a.createElement("div", { className: "design-system-preview-inner" })
                 ),
                 react_default.a.createElement(
                   "div",
-                  { className: "small-1 columns" },
+                  { className: "sm1 columns" },
                   react_default.a.createElement("div", { className: "design-system-preview-inner" })
                 ),
                 react_default.a.createElement(
                   "div",
-                  { className: "small-1 columns" },
+                  { className: "sm1 columns" },
                   react_default.a.createElement("div", { className: "design-system-preview-inner" })
                 ),
                 react_default.a.createElement(
                   "div",
-                  { className: "small-1 columns" },
+                  { className: "sm1 columns" },
                   react_default.a.createElement("div", { className: "design-system-preview-inner" })
                 ),
                 react_default.a.createElement(
                   "div",
-                  { className: "small-1 columns" },
+                  { className: "sm1 columns" },
                   react_default.a.createElement("div", { className: "design-system-preview-inner" })
                 ),
                 react_default.a.createElement(
                   "div",
-                  { className: "small-1 columns last" },
+                  { className: "sm1 columns last" },
                   react_default.a.createElement("div", { className: "design-system-preview-inner" })
                 )
               )
@@ -3773,7 +3773,7 @@ var grid_Grid = function (_Component) {
           { className: "row", id: "vertical-grid" },
           react_default.a.createElement(
             "div",
-            { className: "small-12 columns" },
+            { className: "sm12 columns" },
             react_default.a.createElement(
               "h3",
               { className: "title title-L mrg-L" },
@@ -3797,7 +3797,7 @@ var grid_Grid = function (_Component) {
           { className: "row", id: "documentation" },
           react_default.a.createElement(
             "div",
-            { className: "small-12 columns" },
+            { className: "sm12 columns" },
             react_default.a.createElement(
               "h3",
               { className: "title title-L mrg-L" },
@@ -3846,7 +3846,7 @@ var grid_Grid = function (_Component) {
           { className: "row" },
           react_default.a.createElement(
             "div",
-            { className: "small-12 columns" },
+            { className: "sm12 columns" },
             react_default.a.createElement("hr", null),
             react_default.a.createElement(
               "p",
@@ -3943,7 +3943,7 @@ var typography_Typography = function (_Component) {
                     { className: 'row' },
                     react_default.a.createElement(
                         'div',
-                        { className: 'small-12 columns' },
+                        { className: 'sm12 columns' },
                         react_default.a.createElement(
                             'h1',
                             { className: 'title title-XL mrg-L' },
@@ -3965,7 +3965,7 @@ var typography_Typography = function (_Component) {
                     { className: 'row', id: 'code-generator' },
                     react_default.a.createElement(
                         'div',
-                        { className: 'small-12 columns' },
+                        { className: 'sm12 columns' },
                         react_default.a.createElement(
                             'h3',
                             { className: 'title title-L mrg-L' },
@@ -4131,7 +4131,7 @@ var typography_Typography = function (_Component) {
                     { className: 'row', id: 'price' },
                     react_default.a.createElement(
                         'div',
-                        { className: 'small-12 columns' },
+                        { className: 'sm12 columns' },
                         react_default.a.createElement(
                             'h3',
                             { className: 'title title-L mrg-L' },
@@ -4211,7 +4211,7 @@ var typography_Typography = function (_Component) {
                     { className: 'row', id: 'title' },
                     react_default.a.createElement(
                         'div',
-                        { className: 'small-12 columns' },
+                        { className: 'sm12 columns' },
                         react_default.a.createElement(
                             'h3',
                             { className: 'title title-L mrg-L' },
@@ -4305,7 +4305,7 @@ var typography_Typography = function (_Component) {
                     { className: 'row', id: 'standard-text' },
                     react_default.a.createElement(
                         'div',
-                        { className: 'small-12 columns' },
+                        { className: 'sm12 columns' },
                         react_default.a.createElement(
                             'h3',
                             { className: 'title title-L mrg-L' },
@@ -4385,7 +4385,7 @@ var typography_Typography = function (_Component) {
                     { className: 'row', id: 'copy' },
                     react_default.a.createElement(
                         'div',
-                        { className: 'small-12 columns' },
+                        { className: 'sm12 columns' },
                         react_default.a.createElement(
                             'h3',
                             { className: 'title title-L mrg-L' },
@@ -4437,7 +4437,7 @@ var typography_Typography = function (_Component) {
                     { className: 'row', id: 'lists' },
                     react_default.a.createElement(
                         'div',
-                        { className: 'small-12 columns' },
+                        { className: 'sm12 columns' },
                         react_default.a.createElement(
                             'h3',
                             { className: 'title title-L mrg-L' },
@@ -4570,7 +4570,7 @@ var typography_Typography = function (_Component) {
                     { className: 'row', id: 'links' },
                     react_default.a.createElement(
                         'div',
-                        { className: 'small-12 columns' },
+                        { className: 'sm12 columns' },
                         react_default.a.createElement(
                             'h3',
                             { className: 'title title-L mrg-L' },
@@ -4598,7 +4598,7 @@ var typography_Typography = function (_Component) {
                     { className: 'row', id: 'promo-labels' },
                     react_default.a.createElement(
                         'div',
-                        { className: 'small-12 columns' },
+                        { className: 'sm12 columns' },
                         react_default.a.createElement(
                             'h3',
                             { className: 'title title-L mrg-L' },
@@ -4661,7 +4661,7 @@ var typography_Typography = function (_Component) {
                     { className: 'row' },
                     react_default.a.createElement(
                         'div',
-                        { className: 'small-12 columns' },
+                        { className: 'sm12 columns' },
                         react_default.a.createElement('hr', null),
                         react_default.a.createElement(
                             'p',
@@ -4755,7 +4755,7 @@ var alerts_Alerts = function (_Component) {
                     { className: 'row' },
                     react_default.a.createElement(
                         'div',
-                        { className: 'small-12 columns' },
+                        { className: 'sm12 columns' },
                         react_default.a.createElement(
                             'h1',
                             { className: 'title title-XL mrg-L' },
@@ -4773,7 +4773,7 @@ var alerts_Alerts = function (_Component) {
                     { className: 'row', id: 'code-generator' },
                     react_default.a.createElement(
                         'div',
-                        { className: 'small-12 columns' },
+                        { className: 'sm12 columns' },
                         react_default.a.createElement('hr', null),
                         react_default.a.createElement(
                             'h3',
@@ -4829,7 +4829,7 @@ var alerts_Alerts = function (_Component) {
                     { className: 'row', id: 'when-to-use' },
                     react_default.a.createElement(
                         'div',
-                        { className: 'small-12 columns' },
+                        { className: 'sm12 columns' },
                         react_default.a.createElement(
                             'h3',
                             { className: 'title title-L mrg-L' },
@@ -4881,7 +4881,7 @@ var alerts_Alerts = function (_Component) {
                     { className: 'row', id: 'appearance' },
                     react_default.a.createElement(
                         'div',
-                        { className: 'small-12 columns' },
+                        { className: 'sm12 columns' },
                         react_default.a.createElement('hr', null),
                         react_default.a.createElement(
                             'h3',
@@ -4898,7 +4898,7 @@ var alerts_Alerts = function (_Component) {
                             { className: 'row' },
                             react_default.a.createElement(
                                 'div',
-                                { className: 'small-12 medium-5 large-4 columns alert-preview-col' },
+                                { className: 'sm12 md5 lg4 columns alert-preview-col' },
                                 react_default.a.createElement(
                                     'div',
                                     { 'class': 'msg msg-success mrg-M' },
@@ -4917,7 +4917,7 @@ var alerts_Alerts = function (_Component) {
                             ),
                             react_default.a.createElement(
                                 'div',
-                                { className: 'small-12 medium-7 large-8 columns' },
+                                { className: 'sm12 md7 lg8 columns' },
                                 react_default.a.createElement(
                                     'h5',
                                     { className: 'title title-M mrg-S' },
@@ -4935,7 +4935,7 @@ var alerts_Alerts = function (_Component) {
                             { className: 'row' },
                             react_default.a.createElement(
                                 'div',
-                                { className: 'small-12 medium-5 large-4 columns alert-preview-col' },
+                                { className: 'sm12 md5 lg4 columns alert-preview-col' },
                                 react_default.a.createElement(
                                     'div',
                                     { 'class': 'msg msg-error mrg-M' },
@@ -4949,7 +4949,7 @@ var alerts_Alerts = function (_Component) {
                             ),
                             react_default.a.createElement(
                                 'div',
-                                { className: 'small-12 medium-7 large-8 columns' },
+                                { className: 'sm12 md7 lg8 columns' },
                                 react_default.a.createElement(
                                     'h5',
                                     { className: 'title title-M mrg-S' },
@@ -4969,7 +4969,7 @@ var alerts_Alerts = function (_Component) {
                     { className: 'row', id: 'content-guidelines' },
                     react_default.a.createElement(
                         'div',
-                        { className: 'small-12 columns' },
+                        { className: 'sm12 columns' },
                         react_default.a.createElement('hr', null),
                         react_default.a.createElement(
                             'h3',
@@ -5012,7 +5012,7 @@ var alerts_Alerts = function (_Component) {
                     { className: 'row', id: 'related-content' },
                     react_default.a.createElement(
                         'div',
-                        { className: 'small-12 columns' },
+                        { className: 'sm12 columns' },
                         react_default.a.createElement('hr', null),
                         react_default.a.createElement(
                             'h3',
@@ -5039,7 +5039,7 @@ var alerts_Alerts = function (_Component) {
                     { className: 'row' },
                     react_default.a.createElement(
                         'div',
-                        { className: 'small-12 columns' },
+                        { className: 'sm12 columns' },
                         react_default.a.createElement('hr', null),
                         react_default.a.createElement(
                             'p',
@@ -5136,7 +5136,7 @@ var badges_Badges = function (_Component) {
                     { className: 'row' },
                     react_default.a.createElement(
                         'div',
-                        { className: 'small-12 columns' },
+                        { className: 'sm12 columns' },
                         react_default.a.createElement(
                             'h1',
                             { className: 'title title-XL mrg-L' },
@@ -5154,7 +5154,7 @@ var badges_Badges = function (_Component) {
                     { className: 'row', id: 'code-generator' },
                     react_default.a.createElement(
                         'div',
-                        { className: 'small-12 columns' },
+                        { className: 'sm12 columns' },
                         react_default.a.createElement('hr', null),
                         react_default.a.createElement(
                             'h3',
@@ -5203,7 +5203,7 @@ var badges_Badges = function (_Component) {
                     { className: 'row', id: 'when-to-use' },
                     react_default.a.createElement(
                         'div',
-                        { className: 'small-12 columns' },
+                        { className: 'sm12 columns' },
                         react_default.a.createElement(
                             'h3',
                             { className: 'title title-L mrg-L' },
@@ -5219,7 +5219,7 @@ var badges_Badges = function (_Component) {
                             { className: 'row' },
                             react_default.a.createElement(
                                 'div',
-                                { className: 'small-12 medium-6 columns' },
+                                { className: 'sm12 md6 columns' },
                                 react_default.a.createElement(
                                     'div',
                                     { className: 'algn-mid mrg-M' },
@@ -5238,7 +5238,7 @@ var badges_Badges = function (_Component) {
                             ),
                             react_default.a.createElement(
                                 'div',
-                                { className: 'small-12 medium-6 columns' },
+                                { className: 'sm12 md6 columns' },
                                 react_default.a.createElement(
                                     'div',
                                     { className: 'algn-mid mrg-M' },
@@ -5263,7 +5263,7 @@ var badges_Badges = function (_Component) {
                     { className: 'row', id: 'appearance' },
                     react_default.a.createElement(
                         'div',
-                        { className: 'small-12 columns' },
+                        { className: 'sm12 columns' },
                         react_default.a.createElement('hr', null),
                         react_default.a.createElement(
                             'h3',
@@ -5280,7 +5280,7 @@ var badges_Badges = function (_Component) {
                             { className: 'row' },
                             react_default.a.createElement(
                                 'div',
-                                { className: 'small-12 medium-5 large-4 columns badges-preview-col algn-mid' },
+                                { className: 'sm12 md5 lg4 columns badges-preview-col algn-mid' },
                                 react_default.a.createElement(
                                     'div',
                                     { 'class': 'flag std-txt std-txt-XS flag-new' },
@@ -5289,7 +5289,7 @@ var badges_Badges = function (_Component) {
                             ),
                             react_default.a.createElement(
                                 'div',
-                                { className: 'small-12 medium-7 large-8 columns' },
+                                { className: 'sm12 md7 lg8 columns' },
                                 react_default.a.createElement(
                                     'h5',
                                     { className: 'title title-M mrg-S' },
@@ -5307,7 +5307,7 @@ var badges_Badges = function (_Component) {
                             { className: 'row' },
                             react_default.a.createElement(
                                 'div',
-                                { className: 'small-12 medium-5 large-4 columns badges-preview-col algn-mid' },
+                                { className: 'sm12 md5 lg4 columns badges-preview-col algn-mid' },
                                 react_default.a.createElement(
                                     'div',
                                     { 'class': 'flag std-txt std-txt-XS flag-new' },
@@ -5318,7 +5318,7 @@ var badges_Badges = function (_Component) {
                             ),
                             react_default.a.createElement(
                                 'div',
-                                { className: 'small-12 medium-7 large-8 columns' },
+                                { className: 'sm12 md7 lg8 columns' },
                                 react_default.a.createElement(
                                     'h5',
                                     { className: 'title title-M mrg-S' },
@@ -5338,7 +5338,7 @@ var badges_Badges = function (_Component) {
                     { className: 'row', id: 'responsive-behavior' },
                     react_default.a.createElement(
                         'div',
-                        { className: 'small-12 columns' },
+                        { className: 'sm12 columns' },
                         react_default.a.createElement('hr', null),
                         react_default.a.createElement(
                             'h3',
@@ -5396,7 +5396,7 @@ var badges_Badges = function (_Component) {
                     { className: 'row' },
                     react_default.a.createElement(
                         'div',
-                        { className: 'small-12 columns' },
+                        { className: 'sm12 columns' },
                         react_default.a.createElement('hr', null),
                         react_default.a.createElement(
                             'p',
@@ -5569,7 +5569,7 @@ var content_loaders_ContentLoaders = function (_Component) {
                     { className: 'row' },
                     react_default.a.createElement(
                         'div',
-                        { className: 'small-12 columns' },
+                        { className: 'sm12 columns' },
                         react_default.a.createElement(
                             'h1',
                             { className: 'title title-XL mrg-L' },
@@ -5587,7 +5587,7 @@ var content_loaders_ContentLoaders = function (_Component) {
                     { className: 'row', id: 'code-generator' },
                     react_default.a.createElement(
                         'div',
-                        { className: 'small-12 columns' },
+                        { className: 'sm12 columns' },
                         react_default.a.createElement('hr', null),
                         react_default.a.createElement(
                             'h3',
@@ -5632,7 +5632,7 @@ var content_loaders_ContentLoaders = function (_Component) {
                                     javascript: ''
                                 }],
                                 loader4: [{
-                                    html: '<[[format_tag_start]]div[[format_tag_end]] [[format_attribute_start]]class="[[format_attribute_end]][[format_tag_value_start]]row[[format_tag_value_end]][[format_attribute_start]]">[[format_attribute_end]]\n                                                        [[format_tab_start]]<[[format_tag_start]]div[[format_tag_end]] [[format_attribute_start]]class="[[format_attribute_end]][[format_tag_value_start]]lazy-load-container code-generator-preview columns[[format_tag_value_end]][[format_attribute_start]]">[[format_attribute_end]]\n                                                            [[format_tab_start]]<[[format_tag_start]]div[[format_tag_end]] [[format_attribute_start]]class="[[format_attribute_end]][[format_tag_value_start]]lazy-load small-6 medium-4 large-3 xlarge-3 column lazy-load-1[[format_tag_value_end]][[format_attribute_start]]">[[format_attribute_end]]\n                                                                [[format_tab_start]]<[[format_tag_start]]div[[format_tag_end]] [[format_attribute_start]]class="[[format_attribute_end]][[format_tag_value_end]][[format_tag_value_start]]lazy-border[[format_tag_value_end]][[format_tag_value_end]][[format_attribute_start]]">[[format_attribute_end]]\n                                                                    [[format_tab_start]]<[[format_tag_start]]div[[format_tag_end]] [[format_attribute_start]]class="[[format_attribute_end]][[format_tag_value_start]]lazyload-bg lazyload-fade lazy-main[[format_tag_value_end]][[format_attribute_start]]">[[format_attribute_end]]<[[format_tag_start]]/div[[format_tag_end]]>[[format_tab_end]]\n                                                                    [[format_tab_start]]<[[format_tag_start]]hr /[[format_tag_end]]>[[format_tab_end]]\n                                                                    [[format_tab_start]]<[[format_tag_start]]div[[format_tag_end]] [[format_attribute_start]]class="[[format_attribute_end]][[format_tag_value_start]]lazy-sub[[format_tag_value_end]][[format_attribute_start]]">[[format_attribute_end]]\n                                                                        [[format_tab_start]]<[[format_tag_start]]div[[format_tag_end]] [[format_attribute_start]]class="[[format_attribute_end]][[format_tag_value_start]]lazyload-bg lazyload-fade progressbar-1[[format_tag_value_end]][[format_attribute_start]]">[[format_attribute_end]]<[[format_tag_start]]/div[[format_tag_end]]>[[format_tab_end]]\n                                                                        [[format_tab_start]]<[[format_tag_start]]div[[format_tag_end]] [[format_attribute_start]]class="[[format_attribute_end]][[format_tag_value_start]]lazyload-bg lazyload-fade progressbar-2[[format_tag_value_end]][[format_attribute_start]]">[[format_attribute_end]]<[[format_tag_start]]/div[[format_tag_end]]>[[format_tab_end]]\n                                                                        [[format_tab_start]]<[[format_tag_start]]div[[format_tag_end]] [[format_attribute_start]]class="[[format_attribute_end]][[format_tag_value_start]]lazyload-bg lazyload-fade progressbar-3[[format_tag_value_end]][[format_attribute_start]]">[[format_attribute_end]]<[[format_tag_start]]/div[[format_tag_end]]>[[format_tab_end]]\n                                                                    <[[format_tag_start]]/div[[format_tag_end]]>[[format_tab_end]]\n                                                                <[[format_tag_start]]/div[[format_tag_end]]>[[format_tab_end]]\n                                                            <[[format_tag_start]]/div[[format_tag_end]]>[[format_tab_end]]\n                                                            [[format_tab_start]]<[[format_tag_start]]div[[format_tag_end]] [[format_attribute_start]]class="[[format_attribute_end]][[format_tag_value_start]]lazy-load small-6 medium-4 large-3 xlarge-3 column lazy-load-2[[format_tag_value_end]][[format_attribute_start]]">[[format_attribute_end]]\n                                                                [[format_tab_start]]<[[format_tag_start]]div[[format_tag_end]] [[format_attribute_start]]class="[[format_attribute_end]][[format_tag_value_end]][[format_tag_value_start]]lazy-border[[format_tag_value_end]][[format_tag_value_end]][[format_attribute_start]]">[[format_attribute_end]]\n                                                                    [[format_tab_start]]<[[format_tag_start]]div[[format_tag_end]] [[format_attribute_start]]class="[[format_attribute_end]][[format_tag_value_start]]lazyload-bg lazyload-fade lazy-main[[format_tag_value_end]][[format_attribute_start]]">[[format_attribute_end]]<[[format_tag_start]]/div[[format_tag_end]]>[[format_tab_end]]\n                                                                    [[format_tab_start]]<[[format_tag_start]]hr /[[format_tag_end]]>[[format_tab_end]]\n                                                                    [[format_tab_start]]<[[format_tag_start]]div[[format_tag_end]] [[format_attribute_start]]class="[[format_attribute_end]][[format_tag_value_start]]lazy-sub[[format_tag_value_end]][[format_attribute_start]]">[[format_attribute_end]]\n                                                                        [[format_tab_start]]<[[format_tag_start]]div[[format_tag_end]] [[format_attribute_start]]class="[[format_attribute_end]][[format_tag_value_start]]lazyload-bg lazyload-fade progressbar-1[[format_tag_value_end]][[format_attribute_start]]">[[format_attribute_end]]<[[format_tag_start]]/div[[format_tag_end]]>[[format_tab_end]]\n                                                                        [[format_tab_start]]<[[format_tag_start]]div[[format_tag_end]] [[format_attribute_start]]class="[[format_attribute_end]][[format_tag_value_start]]lazyload-bg lazyload-fade progressbar-2[[format_tag_value_end]][[format_attribute_start]]">[[format_attribute_end]]<[[format_tag_start]]/div[[format_tag_end]]>[[format_tab_end]]\n                                                                        [[format_tab_start]]<[[format_tag_start]]div[[format_tag_end]] [[format_attribute_start]]class="[[format_attribute_end]][[format_tag_value_start]]lazyload-bg lazyload-fade progressbar-3[[format_tag_value_end]][[format_attribute_start]]">[[format_attribute_end]]<[[format_tag_start]]/div[[format_tag_end]]>[[format_tab_end]]\n                                                                    <[[format_tag_start]]/div[[format_tag_end]]>[[format_tab_end]]\n                                                                <[[format_tag_start]]/div[[format_tag_end]]>[[format_tab_end]]\n                                                            <[[format_tag_start]]/div[[format_tag_end]]>[[format_tab_end]]\n                                                            [[format_tab_start]]<[[format_tag_start]]div[[format_tag_end]] [[format_attribute_start]]class="[[format_attribute_end]][[format_tag_value_start]]lazy-load small-6 medium-4 large-3 xlarge-3 column lazy-load-3 hide-for-small-only[[format_tag_value_end]][[format_attribute_start]]">[[format_attribute_end]]\n                                                                [[format_tab_start]]<[[format_tag_start]]div[[format_tag_end]] [[format_attribute_start]]class="[[format_attribute_end]][[format_tag_value_end]][[format_tag_value_start]]lazy-border[[format_tag_value_end]][[format_tag_value_end]][[format_attribute_start]]">[[format_attribute_end]]\n                                                                    [[format_tab_start]]<[[format_tag_start]]div[[format_tag_end]] [[format_attribute_start]]class="[[format_attribute_end]][[format_tag_value_start]]lazyload-bg lazyload-fade lazy-main[[format_tag_value_end]][[format_attribute_start]]">[[format_attribute_end]]<[[format_tag_start]]/div[[format_tag_end]]>[[format_tab_end]]\n                                                                    [[format_tab_start]]<[[format_tag_start]]hr /[[format_tag_end]]>[[format_tab_end]]\n                                                                    [[format_tab_start]]<[[format_tag_start]]div[[format_tag_end]] [[format_attribute_start]]class="[[format_attribute_end]][[format_tag_value_start]]lazy-sub[[format_tag_value_end]][[format_attribute_start]]">[[format_attribute_end]]\n                                                                        [[format_tab_start]]<[[format_tag_start]]div[[format_tag_end]] [[format_attribute_start]]class="[[format_attribute_end]][[format_tag_value_start]]lazyload-bg lazyload-fade progressbar-1[[format_tag_value_end]][[format_attribute_start]]">[[format_attribute_end]]<[[format_tag_start]]/div[[format_tag_end]]>[[format_tab_end]]\n                                                                        [[format_tab_start]]<[[format_tag_start]]div[[format_tag_end]] [[format_attribute_start]]class="[[format_attribute_end]][[format_tag_value_start]]lazyload-bg lazyload-fade progressbar-2[[format_tag_value_end]][[format_attribute_start]]">[[format_attribute_end]]<[[format_tag_start]]/div[[format_tag_end]]>[[format_tab_end]]\n                                                                        [[format_tab_start]]<[[format_tag_start]]div[[format_tag_end]] [[format_attribute_start]]class="[[format_attribute_end]][[format_tag_value_start]]lazyload-bg lazyload-fade progressbar-3[[format_tag_value_end]][[format_attribute_start]]">[[format_attribute_end]]<[[format_tag_start]]/div[[format_tag_end]]>[[format_tab_end]]\n                                                                    <[[format_tag_start]]/div[[format_tag_end]]>[[format_tab_end]]\n                                                                <[[format_tag_start]]/div[[format_tag_end]]>[[format_tab_end]]\n                                                            <[[format_tag_start]]/div[[format_tag_end]]>[[format_tab_end]]\n                                                            [[format_tab_start]]<[[format_tag_start]]div[[format_tag_end]] [[format_attribute_start]]class="[[format_attribute_end]][[format_tag_value_start]]lazy-load small-6 medium-4 large-3 xlarge-3 column lazy-load-4 hide-for-small-only hide-for-medium-only[[format_tag_value_end]][[format_attribute_start]]">[[format_attribute_end]]\n                                                                [[format_tab_start]]<[[format_tag_start]]div[[format_tag_end]] [[format_attribute_start]]class="[[format_attribute_end]][[format_tag_value_end]][[format_tag_value_start]]lazy-border[[format_tag_value_end]][[format_tag_value_end]][[format_attribute_start]]">[[format_attribute_end]]\n                                                                    [[format_tab_start]]<[[format_tag_start]]div[[format_tag_end]] [[format_attribute_start]]class="[[format_attribute_end]][[format_tag_value_start]]lazyload-bg lazyload-fade lazy-main[[format_tag_value_end]][[format_attribute_start]]">[[format_attribute_end]]<[[format_tag_start]]/div[[format_tag_end]]>[[format_tab_end]]\n                                                                    [[format_tab_start]]<[[format_tag_start]]hr /[[format_tag_end]]>[[format_tab_end]]\n                                                                    [[format_tab_start]]<[[format_tag_start]]div[[format_tag_end]] [[format_attribute_start]]class="[[format_attribute_end]][[format_tag_value_start]]lazy-sub[[format_tag_value_end]][[format_attribute_start]]">[[format_attribute_end]]\n                                                                        [[format_tab_start]]<[[format_tag_start]]div[[format_tag_end]] [[format_attribute_start]]class="[[format_attribute_end]][[format_tag_value_start]]lazyload-bg lazyload-fade progressbar-1[[format_tag_value_end]][[format_attribute_start]]">[[format_attribute_end]]<[[format_tag_start]]/div[[format_tag_end]]>[[format_tab_end]]\n                                                                        [[format_tab_start]]<[[format_tag_start]]div[[format_tag_end]] [[format_attribute_start]]class="[[format_attribute_end]][[format_tag_value_start]]lazyload-bg lazyload-fade progressbar-2[[format_tag_value_end]][[format_attribute_start]]">[[format_attribute_end]]<[[format_tag_start]]/div[[format_tag_end]]>[[format_tab_end]]\n                                                                        [[format_tab_start]]<[[format_tag_start]]div[[format_tag_end]] [[format_attribute_start]]class="[[format_attribute_end]][[format_tag_value_start]]lazyload-bg lazyload-fade progressbar-3[[format_tag_value_end]][[format_attribute_start]]">[[format_attribute_end]]<[[format_tag_start]]/div[[format_tag_end]]>[[format_tab_end]]\n                                                                    <[[format_tag_start]]/div[[format_tag_end]]>[[format_tab_end]]\n                                                                <[[format_tag_start]]/div[[format_tag_end]]>[[format_tab_end]]\n                                                            <[[format_tag_start]]/div[[format_tag_end]]>[[format_tab_end]]\n                                                        <[[format_tag_start]]/div[[format_tag_end]]>[[format_tab_end]]\n                                                    <[[format_tag_start]]/div[[format_tag_end]]>'
+                                    html: '<[[format_tag_start]]div[[format_tag_end]] [[format_attribute_start]]class="[[format_attribute_end]][[format_tag_value_start]]row[[format_tag_value_end]][[format_attribute_start]]">[[format_attribute_end]]\n                                                        [[format_tab_start]]<[[format_tag_start]]div[[format_tag_end]] [[format_attribute_start]]class="[[format_attribute_end]][[format_tag_value_start]]lazy-load-container code-generator-preview columns[[format_tag_value_end]][[format_attribute_start]]">[[format_attribute_end]]\n                                                            [[format_tab_start]]<[[format_tag_start]]div[[format_tag_end]] [[format_attribute_start]]class="[[format_attribute_end]][[format_tag_value_start]]lazy-load sm6 md4 lg3 xl3 column lazy-load-1[[format_tag_value_end]][[format_attribute_start]]">[[format_attribute_end]]\n                                                                [[format_tab_start]]<[[format_tag_start]]div[[format_tag_end]] [[format_attribute_start]]class="[[format_attribute_end]][[format_tag_value_end]][[format_tag_value_start]]lazy-border[[format_tag_value_end]][[format_tag_value_end]][[format_attribute_start]]">[[format_attribute_end]]\n                                                                    [[format_tab_start]]<[[format_tag_start]]div[[format_tag_end]] [[format_attribute_start]]class="[[format_attribute_end]][[format_tag_value_start]]lazyload-bg lazyload-fade lazy-main[[format_tag_value_end]][[format_attribute_start]]">[[format_attribute_end]]<[[format_tag_start]]/div[[format_tag_end]]>[[format_tab_end]]\n                                                                    [[format_tab_start]]<[[format_tag_start]]hr /[[format_tag_end]]>[[format_tab_end]]\n                                                                    [[format_tab_start]]<[[format_tag_start]]div[[format_tag_end]] [[format_attribute_start]]class="[[format_attribute_end]][[format_tag_value_start]]lazy-sub[[format_tag_value_end]][[format_attribute_start]]">[[format_attribute_end]]\n                                                                        [[format_tab_start]]<[[format_tag_start]]div[[format_tag_end]] [[format_attribute_start]]class="[[format_attribute_end]][[format_tag_value_start]]lazyload-bg lazyload-fade progressbar-1[[format_tag_value_end]][[format_attribute_start]]">[[format_attribute_end]]<[[format_tag_start]]/div[[format_tag_end]]>[[format_tab_end]]\n                                                                        [[format_tab_start]]<[[format_tag_start]]div[[format_tag_end]] [[format_attribute_start]]class="[[format_attribute_end]][[format_tag_value_start]]lazyload-bg lazyload-fade progressbar-2[[format_tag_value_end]][[format_attribute_start]]">[[format_attribute_end]]<[[format_tag_start]]/div[[format_tag_end]]>[[format_tab_end]]\n                                                                        [[format_tab_start]]<[[format_tag_start]]div[[format_tag_end]] [[format_attribute_start]]class="[[format_attribute_end]][[format_tag_value_start]]lazyload-bg lazyload-fade progressbar-3[[format_tag_value_end]][[format_attribute_start]]">[[format_attribute_end]]<[[format_tag_start]]/div[[format_tag_end]]>[[format_tab_end]]\n                                                                    <[[format_tag_start]]/div[[format_tag_end]]>[[format_tab_end]]\n                                                                <[[format_tag_start]]/div[[format_tag_end]]>[[format_tab_end]]\n                                                            <[[format_tag_start]]/div[[format_tag_end]]>[[format_tab_end]]\n                                                            [[format_tab_start]]<[[format_tag_start]]div[[format_tag_end]] [[format_attribute_start]]class="[[format_attribute_end]][[format_tag_value_start]]lazy-load sm6 md4 lg3 xl3 column lazy-load-2[[format_tag_value_end]][[format_attribute_start]]">[[format_attribute_end]]\n                                                                [[format_tab_start]]<[[format_tag_start]]div[[format_tag_end]] [[format_attribute_start]]class="[[format_attribute_end]][[format_tag_value_end]][[format_tag_value_start]]lazy-border[[format_tag_value_end]][[format_tag_value_end]][[format_attribute_start]]">[[format_attribute_end]]\n                                                                    [[format_tab_start]]<[[format_tag_start]]div[[format_tag_end]] [[format_attribute_start]]class="[[format_attribute_end]][[format_tag_value_start]]lazyload-bg lazyload-fade lazy-main[[format_tag_value_end]][[format_attribute_start]]">[[format_attribute_end]]<[[format_tag_start]]/div[[format_tag_end]]>[[format_tab_end]]\n                                                                    [[format_tab_start]]<[[format_tag_start]]hr /[[format_tag_end]]>[[format_tab_end]]\n                                                                    [[format_tab_start]]<[[format_tag_start]]div[[format_tag_end]] [[format_attribute_start]]class="[[format_attribute_end]][[format_tag_value_start]]lazy-sub[[format_tag_value_end]][[format_attribute_start]]">[[format_attribute_end]]\n                                                                        [[format_tab_start]]<[[format_tag_start]]div[[format_tag_end]] [[format_attribute_start]]class="[[format_attribute_end]][[format_tag_value_start]]lazyload-bg lazyload-fade progressbar-1[[format_tag_value_end]][[format_attribute_start]]">[[format_attribute_end]]<[[format_tag_start]]/div[[format_tag_end]]>[[format_tab_end]]\n                                                                        [[format_tab_start]]<[[format_tag_start]]div[[format_tag_end]] [[format_attribute_start]]class="[[format_attribute_end]][[format_tag_value_start]]lazyload-bg lazyload-fade progressbar-2[[format_tag_value_end]][[format_attribute_start]]">[[format_attribute_end]]<[[format_tag_start]]/div[[format_tag_end]]>[[format_tab_end]]\n                                                                        [[format_tab_start]]<[[format_tag_start]]div[[format_tag_end]] [[format_attribute_start]]class="[[format_attribute_end]][[format_tag_value_start]]lazyload-bg lazyload-fade progressbar-3[[format_tag_value_end]][[format_attribute_start]]">[[format_attribute_end]]<[[format_tag_start]]/div[[format_tag_end]]>[[format_tab_end]]\n                                                                    <[[format_tag_start]]/div[[format_tag_end]]>[[format_tab_end]]\n                                                                <[[format_tag_start]]/div[[format_tag_end]]>[[format_tab_end]]\n                                                            <[[format_tag_start]]/div[[format_tag_end]]>[[format_tab_end]]\n                                                            [[format_tab_start]]<[[format_tag_start]]div[[format_tag_end]] [[format_attribute_start]]class="[[format_attribute_end]][[format_tag_value_start]]lazy-load sm6 md4 lg3 xl3 column lazy-load-3 hide-for-small-only[[format_tag_value_end]][[format_attribute_start]]">[[format_attribute_end]]\n                                                                [[format_tab_start]]<[[format_tag_start]]div[[format_tag_end]] [[format_attribute_start]]class="[[format_attribute_end]][[format_tag_value_end]][[format_tag_value_start]]lazy-border[[format_tag_value_end]][[format_tag_value_end]][[format_attribute_start]]">[[format_attribute_end]]\n                                                                    [[format_tab_start]]<[[format_tag_start]]div[[format_tag_end]] [[format_attribute_start]]class="[[format_attribute_end]][[format_tag_value_start]]lazyload-bg lazyload-fade lazy-main[[format_tag_value_end]][[format_attribute_start]]">[[format_attribute_end]]<[[format_tag_start]]/div[[format_tag_end]]>[[format_tab_end]]\n                                                                    [[format_tab_start]]<[[format_tag_start]]hr /[[format_tag_end]]>[[format_tab_end]]\n                                                                    [[format_tab_start]]<[[format_tag_start]]div[[format_tag_end]] [[format_attribute_start]]class="[[format_attribute_end]][[format_tag_value_start]]lazy-sub[[format_tag_value_end]][[format_attribute_start]]">[[format_attribute_end]]\n                                                                        [[format_tab_start]]<[[format_tag_start]]div[[format_tag_end]] [[format_attribute_start]]class="[[format_attribute_end]][[format_tag_value_start]]lazyload-bg lazyload-fade progressbar-1[[format_tag_value_end]][[format_attribute_start]]">[[format_attribute_end]]<[[format_tag_start]]/div[[format_tag_end]]>[[format_tab_end]]\n                                                                        [[format_tab_start]]<[[format_tag_start]]div[[format_tag_end]] [[format_attribute_start]]class="[[format_attribute_end]][[format_tag_value_start]]lazyload-bg lazyload-fade progressbar-2[[format_tag_value_end]][[format_attribute_start]]">[[format_attribute_end]]<[[format_tag_start]]/div[[format_tag_end]]>[[format_tab_end]]\n                                                                        [[format_tab_start]]<[[format_tag_start]]div[[format_tag_end]] [[format_attribute_start]]class="[[format_attribute_end]][[format_tag_value_start]]lazyload-bg lazyload-fade progressbar-3[[format_tag_value_end]][[format_attribute_start]]">[[format_attribute_end]]<[[format_tag_start]]/div[[format_tag_end]]>[[format_tab_end]]\n                                                                    <[[format_tag_start]]/div[[format_tag_end]]>[[format_tab_end]]\n                                                                <[[format_tag_start]]/div[[format_tag_end]]>[[format_tab_end]]\n                                                            <[[format_tag_start]]/div[[format_tag_end]]>[[format_tab_end]]\n                                                            [[format_tab_start]]<[[format_tag_start]]div[[format_tag_end]] [[format_attribute_start]]class="[[format_attribute_end]][[format_tag_value_start]]lazy-load sm6 md4 lg3 xl3 column lazy-load-4 hide-for-small-only hide-for-medium-only[[format_tag_value_end]][[format_attribute_start]]">[[format_attribute_end]]\n                                                                [[format_tab_start]]<[[format_tag_start]]div[[format_tag_end]] [[format_attribute_start]]class="[[format_attribute_end]][[format_tag_value_end]][[format_tag_value_start]]lazy-border[[format_tag_value_end]][[format_tag_value_end]][[format_attribute_start]]">[[format_attribute_end]]\n                                                                    [[format_tab_start]]<[[format_tag_start]]div[[format_tag_end]] [[format_attribute_start]]class="[[format_attribute_end]][[format_tag_value_start]]lazyload-bg lazyload-fade lazy-main[[format_tag_value_end]][[format_attribute_start]]">[[format_attribute_end]]<[[format_tag_start]]/div[[format_tag_end]]>[[format_tab_end]]\n                                                                    [[format_tab_start]]<[[format_tag_start]]hr /[[format_tag_end]]>[[format_tab_end]]\n                                                                    [[format_tab_start]]<[[format_tag_start]]div[[format_tag_end]] [[format_attribute_start]]class="[[format_attribute_end]][[format_tag_value_start]]lazy-sub[[format_tag_value_end]][[format_attribute_start]]">[[format_attribute_end]]\n                                                                        [[format_tab_start]]<[[format_tag_start]]div[[format_tag_end]] [[format_attribute_start]]class="[[format_attribute_end]][[format_tag_value_start]]lazyload-bg lazyload-fade progressbar-1[[format_tag_value_end]][[format_attribute_start]]">[[format_attribute_end]]<[[format_tag_start]]/div[[format_tag_end]]>[[format_tab_end]]\n                                                                        [[format_tab_start]]<[[format_tag_start]]div[[format_tag_end]] [[format_attribute_start]]class="[[format_attribute_end]][[format_tag_value_start]]lazyload-bg lazyload-fade progressbar-2[[format_tag_value_end]][[format_attribute_start]]">[[format_attribute_end]]<[[format_tag_start]]/div[[format_tag_end]]>[[format_tab_end]]\n                                                                        [[format_tab_start]]<[[format_tag_start]]div[[format_tag_end]] [[format_attribute_start]]class="[[format_attribute_end]][[format_tag_value_start]]lazyload-bg lazyload-fade progressbar-3[[format_tag_value_end]][[format_attribute_start]]">[[format_attribute_end]]<[[format_tag_start]]/div[[format_tag_end]]>[[format_tab_end]]\n                                                                    <[[format_tag_start]]/div[[format_tag_end]]>[[format_tab_end]]\n                                                                <[[format_tag_start]]/div[[format_tag_end]]>[[format_tab_end]]\n                                                            <[[format_tag_start]]/div[[format_tag_end]]>[[format_tab_end]]\n                                                        <[[format_tag_start]]/div[[format_tag_end]]>[[format_tab_end]]\n                                                    <[[format_tag_start]]/div[[format_tag_end]]>'
                                 }, {
                                     javascript: 'window.lazyLoader();'
                                 }]
@@ -5647,7 +5647,7 @@ var content_loaders_ContentLoaders = function (_Component) {
                     { className: 'row', id: 'types' },
                     react_default.a.createElement(
                         'div',
-                        { className: 'small-12 columns' },
+                        { className: 'sm12 columns' },
                         react_default.a.createElement(
                             'h3',
                             { className: 'title title-L mrg-M' },
@@ -5660,10 +5660,10 @@ var content_loaders_ContentLoaders = function (_Component) {
                         ),
                         react_default.a.createElement(
                             'div',
-                            { className: 'small-12 medium-12 columns' },
+                            { className: 'sm12 md12 columns' },
                             react_default.a.createElement(
                                 'div',
-                                { className: 'small-12 medium-4 columns' },
+                                { className: 'sm12 md4 columns' },
                                 react_default.a.createElement(
                                     'div',
                                     { className: 'loader-container' },
@@ -5688,7 +5688,7 @@ var content_loaders_ContentLoaders = function (_Component) {
                             ),
                             react_default.a.createElement(
                                 'div',
-                                { className: 'small-12 medium-8 columns' },
+                                { className: 'sm12 md8 columns' },
                                 react_default.a.createElement(
                                     'h4',
                                     { className: 'title title-M mrg-L' },
@@ -5707,10 +5707,10 @@ var content_loaders_ContentLoaders = function (_Component) {
                         ),
                         react_default.a.createElement(
                             'div',
-                            { className: 'small-12 medium-12 columns' },
+                            { className: 'sm12 md12 columns' },
                             react_default.a.createElement(
                                 'div',
-                                { className: 'small-12 medium-4 columns position-rel' },
+                                { className: 'sm12 md4 columns position-rel' },
                                 react_default.a.createElement(
                                     'div',
                                     { className: 'loader-checkmark-container' },
@@ -5738,7 +5738,7 @@ var content_loaders_ContentLoaders = function (_Component) {
                             ),
                             react_default.a.createElement(
                                 'div',
-                                { className: 'small-12 medium-8 columns' },
+                                { className: 'sm12 md8 columns' },
                                 react_default.a.createElement(
                                     'h4',
                                     { className: 'title title-M mrg-L' },
@@ -5757,10 +5757,10 @@ var content_loaders_ContentLoaders = function (_Component) {
                         ),
                         react_default.a.createElement(
                             'div',
-                            { className: 'small-12 medium-12 columns' },
+                            { className: 'sm12 md12 columns' },
                             react_default.a.createElement(
                                 'div',
-                                { className: 'small-12 medium-4 columns' },
+                                { className: 'sm12 md4 columns' },
                                 react_default.a.createElement(
                                     'div',
                                     { className: 'section-container' },
@@ -5771,7 +5771,7 @@ var content_loaders_ContentLoaders = function (_Component) {
                             ),
                             react_default.a.createElement(
                                 'div',
-                                { className: 'small-12 medium-8 columns' },
+                                { className: 'sm12 md8 columns' },
                                 react_default.a.createElement(
                                     'h4',
                                     { className: 'title title-M mrg-L' },
@@ -5794,7 +5794,7 @@ var content_loaders_ContentLoaders = function (_Component) {
                     { className: 'row', id: 'lazy-load' },
                     react_default.a.createElement(
                         'div',
-                        { className: 'small-12 columns' },
+                        { className: 'sm12 columns' },
                         react_default.a.createElement(
                             'h3',
                             { className: 'title title-L mrg-L' },
@@ -5810,7 +5810,7 @@ var content_loaders_ContentLoaders = function (_Component) {
                             { className: 'lazy-load-container lazy-load-container-preview columns' },
                             react_default.a.createElement(
                                 'div',
-                                { className: 'lazy-load small-6 medium-4 large-3 xlarge-3 column lazy-load-1' },
+                                { className: 'lazy-load sm6 md4 lg3 xl3 column lazy-load-1' },
                                 react_default.a.createElement(
                                     'div',
                                     { className: 'lazy-border' },
@@ -5827,7 +5827,7 @@ var content_loaders_ContentLoaders = function (_Component) {
                             ),
                             react_default.a.createElement(
                                 'div',
-                                { className: 'lazy-load small-6 medium-4 large-3 xlarge-3 column lazy-load-2' },
+                                { className: 'lazy-load sm6 md4 lg3 xl3 column lazy-load-2' },
                                 react_default.a.createElement(
                                     'div',
                                     { className: 'lazy-border' },
@@ -5844,7 +5844,7 @@ var content_loaders_ContentLoaders = function (_Component) {
                             ),
                             react_default.a.createElement(
                                 'div',
-                                { className: 'lazy-load small-6 medium-4 large-3 xlarge-3 column lazy-load-3 hide-for-small-only' },
+                                { className: 'lazy-load sm6 md4 lg3 xl3 column lazy-load-3 hide-for-small-only' },
                                 react_default.a.createElement(
                                     'div',
                                     { className: 'lazy-border' },
@@ -5861,7 +5861,7 @@ var content_loaders_ContentLoaders = function (_Component) {
                             ),
                             react_default.a.createElement(
                                 'div',
-                                { className: 'lazy-load small-6 medium-4 large-3 xlarge-3 column lazy-load-4 hide-for-small-only hide-for-medium-only' },
+                                { className: 'lazy-load sm6 md4 lg3 xl3 column lazy-load-4 hide-for-small-only hide-for-medium-only' },
                                 react_default.a.createElement(
                                     'div',
                                     { className: 'lazy-border' },
@@ -5885,7 +5885,7 @@ var content_loaders_ContentLoaders = function (_Component) {
                     { className: 'row' },
                     react_default.a.createElement(
                         'div',
-                        { className: 'small-12 columns' },
+                        { className: 'sm12 columns' },
                         react_default.a.createElement('hr', null),
                         react_default.a.createElement(
                             'p',
@@ -5993,10 +5993,10 @@ var dropdown_button_DropdownButton = function (_Component) {
                 ),
                 react_default.a.createElement(
                     'div',
-                    { className: 'row medium-12 small-12 large-12 mrg-XL prevent-event' },
+                    { className: 'row md12 sm12 lg12 mrg-XL prevent-event' },
                     react_default.a.createElement(
                         'div',
-                        { className: 'dropdown-menu-block small-12 medium-3 large-3 column' },
+                        { className: 'dropdown-menu-block sm12 md3 lg3 column' },
                         react_default.a.createElement(
                             'a',
                             { className: 'dropdown-button title-S' },
@@ -6011,7 +6011,7 @@ var dropdown_button_DropdownButton = function (_Component) {
                     ),
                     react_default.a.createElement(
                         'div',
-                        { className: 'dropdown-menu-block small-12 medium-3 large-3 column' },
+                        { className: 'dropdown-menu-block sm12 md3 lg3 column' },
                         react_default.a.createElement(
                             'a',
                             { className: 'dropdown-button title-S hover' },
@@ -6026,7 +6026,7 @@ var dropdown_button_DropdownButton = function (_Component) {
                     ),
                     react_default.a.createElement(
                         'div',
-                        { className: 'dropdown-menu-block small-12 medium-3 large-3 column' },
+                        { className: 'dropdown-menu-block sm12 md3 lg3 column' },
                         react_default.a.createElement(
                             'a',
                             { className: 'dropdown-button title-S hover arrow-down' },
@@ -6041,7 +6041,7 @@ var dropdown_button_DropdownButton = function (_Component) {
                     ),
                     react_default.a.createElement(
                         'div',
-                        { className: 'dropdown-menu-block small-12 medium-3 large-3 column' },
+                        { className: 'dropdown-menu-block sm12 md3 lg3 column' },
                         react_default.a.createElement(
                             'a',
                             { className: 'dropdown-button title-S disabled' },
@@ -6057,10 +6057,10 @@ var dropdown_button_DropdownButton = function (_Component) {
                 ),
                 react_default.a.createElement(
                     'div',
-                    { className: 'row medium-12 small-12 large-12 mrg-XL prevent-event' },
+                    { className: 'row md12 sm12 lg12 mrg-XL prevent-event' },
                     react_default.a.createElement(
                         'div',
-                        { className: 'dropdown-menu-block small-12 medium-3 large-3 column' },
+                        { className: 'dropdown-menu-block sm12 md3 lg3 column' },
                         react_default.a.createElement(
                             'a',
                             { className: 'dropdown-button title-S' },
@@ -6081,7 +6081,7 @@ var dropdown_button_DropdownButton = function (_Component) {
                     ),
                     react_default.a.createElement(
                         'div',
-                        { className: 'dropdown-menu-block small-12 medium-3 large-3 column' },
+                        { className: 'dropdown-menu-block sm12 md3 lg3 column' },
                         react_default.a.createElement(
                             'a',
                             { className: 'dropdown-button title-S hover' },
@@ -6102,7 +6102,7 @@ var dropdown_button_DropdownButton = function (_Component) {
                     ),
                     react_default.a.createElement(
                         'div',
-                        { className: 'dropdown-menu-block small-12 medium-3 large-3 column' },
+                        { className: 'dropdown-menu-block sm12 md3 lg3 column' },
                         react_default.a.createElement(
                             'a',
                             { className: 'dropdown-button title-S hover arrow-down' },
@@ -6123,7 +6123,7 @@ var dropdown_button_DropdownButton = function (_Component) {
                     ),
                     react_default.a.createElement(
                         'div',
-                        { className: 'dropdown-menu-block small-12 medium-3 large-3 column' },
+                        { className: 'dropdown-menu-block sm12 md3 lg3 column' },
                         react_default.a.createElement(
                             'a',
                             { className: 'dropdown-button title-S' },
@@ -6145,10 +6145,10 @@ var dropdown_button_DropdownButton = function (_Component) {
                 ),
                 react_default.a.createElement(
                     'div',
-                    { className: 'row medium-12 small-12 large-12' },
+                    { className: 'row md12 sm12 lg12' },
                     react_default.a.createElement(
                         'div',
-                        { className: 'dropdown-menu-block column medium-4 small-12 large-4' },
+                        { className: 'dropdown-menu-block column md4 sm12 lg4' },
                         react_default.a.createElement(
                             'a',
                             { className: 'dropdown-button title-S' },
@@ -6437,7 +6437,7 @@ var dropdown_button_DropdownButton = function (_Component) {
                     ),
                     react_default.a.createElement(
                         'div',
-                        { className: 'dropdown-menu-block column medium-4 small-12 large-4' },
+                        { className: 'dropdown-menu-block column md4 sm12 lg4' },
                         react_default.a.createElement(
                             'a',
                             { className: 'dropdown-button title-S' },
@@ -6721,7 +6721,7 @@ var dropdown_button_DropdownButton = function (_Component) {
                     ),
                     react_default.a.createElement(
                         'div',
-                        { className: 'dropdown-menu-block column medium-4 small-12 large-4' },
+                        { className: 'dropdown-menu-block column md4 sm12 lg4' },
                         react_default.a.createElement(
                             'a',
                             { className: 'dropdown-button title-S' },
@@ -6846,7 +6846,7 @@ var tables_Tables = function (_Component) {
                     { className: 'row' },
                     react_default.a.createElement(
                         'div',
-                        { className: 'small-12 columns' },
+                        { className: 'sm12 columns' },
                         react_default.a.createElement(
                             'h1',
                             { className: 'title title-XL mrg-L' },
@@ -6864,7 +6864,7 @@ var tables_Tables = function (_Component) {
                     { className: 'row', id: 'code-generator' },
                     react_default.a.createElement(
                         'div',
-                        { className: 'small-12 columns' },
+                        { className: 'sm12 columns' },
                         react_default.a.createElement('hr', null),
                         react_default.a.createElement(
                             'h3',
@@ -6966,7 +6966,7 @@ var tables_Tables = function (_Component) {
                     { className: 'row', id: 'standard' },
                     react_default.a.createElement(
                         'div',
-                        { className: 'small-12 columns' },
+                        { className: 'sm12 columns' },
                         react_default.a.createElement('hr', null),
                         react_default.a.createElement(
                             'h3',
@@ -7046,7 +7046,7 @@ var tables_Tables = function (_Component) {
                     { className: 'row', id: 'feature' },
                     react_default.a.createElement(
                         'div',
-                        { className: 'small-12 columns' },
+                        { className: 'sm12 columns' },
                         react_default.a.createElement('hr', null),
                         react_default.a.createElement(
                             'h3',
@@ -7063,7 +7063,7 @@ var tables_Tables = function (_Component) {
                             { className: 'row' },
                             react_default.a.createElement(
                                 'div',
-                                { className: 'small-12 medium-4 large-2 columns' },
+                                { className: 'sm12 md4 lg2 columns' },
                                 react_default.a.createElement(
                                     'h4',
                                     { className: 'title title-XXL mrg-L' },
@@ -7072,7 +7072,7 @@ var tables_Tables = function (_Component) {
                             ),
                             react_default.a.createElement(
                                 'div',
-                                { className: 'small-12 medium-8 large-10 columns' },
+                                { className: 'sm12 md8 lg10 columns' },
                                 react_default.a.createElement(
                                     'table',
                                     { className: 'std-txt std-txt-S width-full mrg-L algn-lft', width: '100%', border: '0' },
@@ -7146,7 +7146,7 @@ var tables_Tables = function (_Component) {
                     { className: 'row' },
                     react_default.a.createElement(
                         'div',
-                        { className: 'small-12 columns' },
+                        { className: 'sm12 columns' },
                         react_default.a.createElement('hr', null),
                         react_default.a.createElement(
                             'p',
@@ -7249,7 +7249,7 @@ var forms_Forms = function (_Component) {
                     { className: 'row' },
                     react_default.a.createElement(
                         'div',
-                        { className: 'small-12 columns' },
+                        { className: 'sm12 columns' },
                         react_default.a.createElement(
                             'h1',
                             { className: 'title title-XL mrg-L' },
@@ -7268,7 +7268,7 @@ var forms_Forms = function (_Component) {
                     { className: 'row', id: 'code-generator' },
                     react_default.a.createElement(
                         'div',
-                        { className: 'small-12 columns' },
+                        { className: 'sm12 columns' },
                         react_default.a.createElement(
                             'h3',
                             { className: 'title title-L mrg-L' },
@@ -7340,7 +7340,7 @@ var forms_Forms = function (_Component) {
                     { className: 'row', id: 'when-to-use' },
                     react_default.a.createElement(
                         'div',
-                        { className: 'small-12 columns' },
+                        { className: 'sm12 columns' },
                         react_default.a.createElement(
                             'h3',
                             { className: 'title title-L mrg-L' },
@@ -7357,7 +7357,7 @@ var forms_Forms = function (_Component) {
                     ),
                     react_default.a.createElement(
                         'div',
-                        { className: 'small-12 columns' },
+                        { className: 'sm12 columns' },
                         react_default.a.createElement(
                             'h5',
                             { className: 'title title-M' },
@@ -7392,7 +7392,7 @@ var forms_Forms = function (_Component) {
                     { className: 'row', id: 'appearance' },
                     react_default.a.createElement(
                         'div',
-                        { className: 'small-12 columns' },
+                        { className: 'sm12 columns' },
                         react_default.a.createElement(
                             'h3',
                             { className: 'title title-L mrg-L' },
@@ -7409,892 +7409,978 @@ var forms_Forms = function (_Component) {
                         ),
                         react_default.a.createElement(
                             'div',
-                            { className: 'small-12 medium-12 columns input-form' },
+                            { className: 'row' },
                             react_default.a.createElement(
                                 'div',
-                                { className: 'small-12 medium-4 columns' },
+                                { className: 'sm12 columns input-form' },
                                 react_default.a.createElement(
                                     'div',
-                                    { className: 'input-group' },
+                                    { className: 'row' },
                                     react_default.a.createElement(
                                         'div',
-                                        { className: 'css-float-label' },
-                                        react_default.a.createElement('input', { className: 'form-control email-text input-text', id: 'email', type: 'text', placeholder: 'example@email.com' }),
+                                        { className: 'sm12 md4 columns' },
                                         react_default.a.createElement(
-                                            'label',
-                                            { htmlFor: 'email' },
-                                            'Email'
-                                        )
-                                    )
-                                )
-                            ),
-                            react_default.a.createElement(
-                                'div',
-                                { className: 'small-12 medium-8 columns' },
-                                react_default.a.createElement(
-                                    'h4',
-                                    { className: 'title title-M mrg-L' },
-                                    'Text Field'
-                                ),
-                                react_default.a.createElement(
-                                    'p',
-                                    { className: 'max-width-text' },
-                                    'Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus.',
-                                    react_default.a.createElement('br', null),
-                                    react_default.a.createElement('br', null),
-                                    react_default.a.createElement('br', null)
-                                )
-                            )
-                        ),
-                        react_default.a.createElement(
-                            'div',
-                            { className: 'small-12 medium-12 columns select-form' },
-                            react_default.a.createElement(
-                                'div',
-                                { className: 'small-12 medium-4 columns select' },
-                                react_default.a.createElement(
-                                    'div',
-                                    { className: 'css-float-label' },
-                                    react_default.a.createElement(
-                                        'select',
-                                        { className: 'form-control custom-select' },
-                                        react_default.a.createElement(
-                                            'option',
-                                            { value: '' },
-                                            'Month'
-                                        ),
-                                        react_default.a.createElement(
-                                            'option',
-                                            { value: '1' },
-                                            '01 - Janaury'
-                                        ),
-                                        react_default.a.createElement(
-                                            'option',
-                                            { value: '2' },
-                                            '02 - February'
-                                        ),
-                                        react_default.a.createElement(
-                                            'option',
-                                            { value: '3' },
-                                            '03 - March'
-                                        ),
-                                        react_default.a.createElement(
-                                            'option',
-                                            { value: '4' },
-                                            '04 - April'
-                                        ),
-                                        react_default.a.createElement(
-                                            'option',
-                                            { value: '5' },
-                                            '05 - May'
-                                        ),
-                                        react_default.a.createElement(
-                                            'option',
-                                            { value: '6' },
-                                            '06 - June'
-                                        ),
-                                        react_default.a.createElement(
-                                            'option',
-                                            { value: '7' },
-                                            '07 - July'
-                                        ),
-                                        react_default.a.createElement(
-                                            'option',
-                                            { value: '8' },
-                                            '08 - August'
-                                        ),
-                                        react_default.a.createElement(
-                                            'option',
-                                            { value: '9' },
-                                            '09 - September'
-                                        ),
-                                        react_default.a.createElement(
-                                            'option',
-                                            { value: '10' },
-                                            '10 - October'
-                                        ),
-                                        react_default.a.createElement(
-                                            'option',
-                                            { value: '11' },
-                                            '11 - November'
-                                        ),
-                                        react_default.a.createElement(
-                                            'option',
-                                            { value: '12' },
-                                            '12 - December'
-                                        )
-                                    ),
-                                    react_default.a.createElement(
-                                        'span',
-                                        null,
-                                        'Month'
-                                    )
-                                )
-                            ),
-                            react_default.a.createElement(
-                                'div',
-                                { className: 'small-12 medium-8 columns' },
-                                react_default.a.createElement(
-                                    'h4',
-                                    { className: 'title title-M mrg-L' },
-                                    'Select Input'
-                                ),
-                                react_default.a.createElement(
-                                    'p',
-                                    { className: 'max-width-text' },
-                                    'Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus.',
-                                    react_default.a.createElement('br', null),
-                                    react_default.a.createElement('br', null),
-                                    react_default.a.createElement('br', null)
-                                )
-                            )
-                        ),
-                        react_default.a.createElement(
-                            'div',
-                            { className: 'small-12 medium-12 columns text-area-form' },
-                            react_default.a.createElement(
-                                'div',
-                                { className: 'small-12 medium-4 columns' },
-                                react_default.a.createElement(
-                                    'div',
-                                    { className: 'input-group' },
-                                    react_default.a.createElement(
-                                        'div',
-                                        { className: 'css-float-label' },
-                                        react_default.a.createElement(
-                                            'textarea',
-                                            { className: 'form-control', name: 'instructions' },
-                                            'Please deliver to side service entrance of apartment building. Enter code 9090 to access garage.'
-                                        ),
-                                        react_default.a.createElement(
-                                            'label',
-                                            { htmlFor: 'instructions' },
-                                            'Delivery Instructions'
-                                        )
-                                    )
-                                )
-                            ),
-                            react_default.a.createElement(
-                                'div',
-                                { className: 'small-12 medium-8 columns' },
-                                react_default.a.createElement(
-                                    'h4',
-                                    { className: 'title title-M mrg-L' },
-                                    'Textarea'
-                                ),
-                                react_default.a.createElement(
-                                    'p',
-                                    { className: 'max-width-text' },
-                                    'Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus.',
-                                    react_default.a.createElement('br', null),
-                                    react_default.a.createElement('br', null),
-                                    react_default.a.createElement('br', null)
-                                )
-                            )
-                        ),
-                        react_default.a.createElement(
-                            'div',
-                            { className: 'small-12 medium-12 columns radio-button-form' },
-                            react_default.a.createElement(
-                                'div',
-                                { className: 'small-12 medium-4 columns' },
-                                react_default.a.createElement(
-                                    'div',
-                                    { className: 'input-group' },
-                                    react_default.a.createElement(
-                                        'div',
-                                        { className: 'mrg-XL' },
-                                        react_default.a.createElement('input', { type: 'radio', id: 'two', name: 'name', value: '', defaultChecked: 'true' }),
-                                        react_default.a.createElement(
-                                            'label',
-                                            { htmlFor: 'two' },
+                                            'div',
+                                            { className: 'input-group' },
                                             react_default.a.createElement(
-                                                'p',
-                                                { className: 'std-txt std-txt-M' },
+                                                'div',
+                                                { className: 'css-float-label' },
+                                                react_default.a.createElement('input', { className: 'form-control email-text input-text', id: 'email', type: 'text', placeholder: 'example@email.com' }),
                                                 react_default.a.createElement(
-                                                    'span',
-                                                    { className: 'color-penneyred' },
-                                                    'FREE'
-                                                ),
-                                                ' Store Pickup Today at ',
-                                                react_default.a.createElement('br', null),
-                                                react_default.a.createElement(
-                                                    'a',
-                                                    { href: '#' },
-                                                    'Stonebriar Mall'
+                                                    'label',
+                                                    { htmlFor: 'email' },
+                                                    'Email'
                                                 )
                                             )
                                         )
                                     ),
                                     react_default.a.createElement(
                                         'div',
-                                        { className: 'mrg-XL' },
-                                        react_default.a.createElement('input', { type: 'radio', disabled: true, id: 'three', name: 'name', value: '' }),
+                                        { className: 'sm12 md8 columns' },
                                         react_default.a.createElement(
-                                            'label',
-                                            { htmlFor: 'three' },
-                                            react_default.a.createElement(
-                                                'span',
-                                                { className: 'std-txt' },
-                                                'Arrives May 5th - May 23rd'
-                                            )
-                                        )
-                                    ),
-                                    react_default.a.createElement(
-                                        'div',
-                                        { className: 'mrg-XL' },
-                                        react_default.a.createElement('input', { type: 'radio', id: 'two', name: 'name', value: '', defaultChecked: 'true' }),
+                                            'h4',
+                                            { className: 'title title-M mrg-L' },
+                                            'Text Field'
+                                        ),
                                         react_default.a.createElement(
-                                            'label',
-                                            { htmlFor: 'two' },
-                                            react_default.a.createElement(
-                                                'p',
-                                                { className: 'std-txt std-txt-M' },
-                                                react_default.a.createElement(
-                                                    'span',
-                                                    { className: 'color-penneyred' },
-                                                    'FREE'
-                                                ),
-                                                ' Store Pickup Today at ',
-                                                react_default.a.createElement('br', null),
-                                                react_default.a.createElement(
-                                                    'a',
-                                                    { href: '#' },
-                                                    'Stonebriar Mall'
-                                                )
-                                            )
-                                        )
-                                    ),
-                                    react_default.a.createElement(
-                                        'div',
-                                        { className: 'mrg-XL' },
-                                        react_default.a.createElement('input', { type: 'radio', disabled: true, id: 'three', name: 'name', value: '' }),
-                                        react_default.a.createElement(
-                                            'label',
-                                            { htmlFor: 'three' },
-                                            react_default.a.createElement(
-                                                'p',
-                                                { className: 'std-txt std-txt-M' },
-                                                react_default.a.createElement(
-                                                    'span',
-                                                    { className: 'color-penneyred' },
-                                                    'FREE'
-                                                ),
-                                                ' Store Pickup Today at ',
-                                                react_default.a.createElement('br', null),
-                                                react_default.a.createElement(
-                                                    'a',
-                                                    { href: '#' },
-                                                    'Stonebriar Mall'
-                                                )
-                                            )
+                                            'p',
+                                            { className: 'max-width-text' },
+                                            'Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus.',
+                                            react_default.a.createElement('br', null),
+                                            react_default.a.createElement('br', null),
+                                            react_default.a.createElement('br', null)
                                         )
                                     )
                                 )
                             ),
                             react_default.a.createElement(
                                 'div',
-                                { className: 'small-12 medium-8 columns' },
-                                react_default.a.createElement(
-                                    'h4',
-                                    { className: 'title title-M mrg-L' },
-                                    'Radio Button'
-                                ),
-                                react_default.a.createElement(
-                                    'p',
-                                    { className: 'max-width-text' },
-                                    'Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus.',
-                                    react_default.a.createElement('br', null),
-                                    react_default.a.createElement('br', null),
-                                    react_default.a.createElement('br', null)
-                                )
-                            )
-                        ),
-                        react_default.a.createElement(
-                            'div',
-                            { className: 'small-12 medium-12 columns checkbox-form' },
-                            react_default.a.createElement(
-                                'div',
-                                { className: 'small-12 medium-4 columns' },
+                                { className: 'sm12 columns select-form' },
                                 react_default.a.createElement(
                                     'div',
-                                    { className: 'input-group' },
+                                    { className: 'row' },
                                     react_default.a.createElement(
-                                        'label',
-                                        { className: 'checkbox mrg-M' },
-                                        react_default.a.createElement('input', { type: 'checkbox', disabled: 'true' }),
-                                        ' ',
+                                        'div',
+                                        { className: 'sm12 md4 columns' },
                                         react_default.a.createElement(
-                                            'span',
-                                            null,
-                                            'Disabled Checkbox'
+                                            'div',
+                                            { className: 'select' },
+                                            react_default.a.createElement(
+                                                'div',
+                                                { className: 'css-float-label' },
+                                                react_default.a.createElement(
+                                                    'select',
+                                                    { className: 'form-control custom-select' },
+                                                    react_default.a.createElement(
+                                                        'option',
+                                                        { value: '' },
+                                                        'Month'
+                                                    ),
+                                                    react_default.a.createElement(
+                                                        'option',
+                                                        { value: '1' },
+                                                        '01 - Janaury'
+                                                    ),
+                                                    react_default.a.createElement(
+                                                        'option',
+                                                        { value: '2' },
+                                                        '02 - February'
+                                                    ),
+                                                    react_default.a.createElement(
+                                                        'option',
+                                                        { value: '3' },
+                                                        '03 - March'
+                                                    ),
+                                                    react_default.a.createElement(
+                                                        'option',
+                                                        { value: '4' },
+                                                        '04 - April'
+                                                    ),
+                                                    react_default.a.createElement(
+                                                        'option',
+                                                        { value: '5' },
+                                                        '05 - May'
+                                                    ),
+                                                    react_default.a.createElement(
+                                                        'option',
+                                                        { value: '6' },
+                                                        '06 - June'
+                                                    ),
+                                                    react_default.a.createElement(
+                                                        'option',
+                                                        { value: '7' },
+                                                        '07 - July'
+                                                    ),
+                                                    react_default.a.createElement(
+                                                        'option',
+                                                        { value: '8' },
+                                                        '08 - August'
+                                                    ),
+                                                    react_default.a.createElement(
+                                                        'option',
+                                                        { value: '9' },
+                                                        '09 - September'
+                                                    ),
+                                                    react_default.a.createElement(
+                                                        'option',
+                                                        { value: '10' },
+                                                        '10 - October'
+                                                    ),
+                                                    react_default.a.createElement(
+                                                        'option',
+                                                        { value: '11' },
+                                                        '11 - November'
+                                                    ),
+                                                    react_default.a.createElement(
+                                                        'option',
+                                                        { value: '12' },
+                                                        '12 - December'
+                                                    )
+                                                ),
+                                                react_default.a.createElement(
+                                                    'span',
+                                                    null,
+                                                    'Month'
+                                                )
+                                            )
                                         )
                                     ),
                                     react_default.a.createElement(
-                                        'label',
-                                        { className: 'checkbox mrg-M' },
-                                        react_default.a.createElement('input', { type: 'checkbox' }),
-                                        ' ',
+                                        'div',
+                                        { className: 'sm12 md8 columns' },
                                         react_default.a.createElement(
-                                            'span',
-                                            null,
+                                            'h4',
+                                            { className: 'title title-M mrg-L' },
+                                            'Select Input'
+                                        ),
+                                        react_default.a.createElement(
+                                            'p',
+                                            { className: 'max-width-text' },
+                                            'Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus.',
+                                            react_default.a.createElement('br', null),
+                                            react_default.a.createElement('br', null),
+                                            react_default.a.createElement('br', null)
+                                        )
+                                    )
+                                )
+                            ),
+                            react_default.a.createElement(
+                                'div',
+                                { className: 'sm12 columns text-area-form' },
+                                react_default.a.createElement(
+                                    'div',
+                                    { className: 'row' },
+                                    react_default.a.createElement(
+                                        'div',
+                                        { className: 'sm12 md4 columns' },
+                                        react_default.a.createElement(
+                                            'div',
+                                            { className: 'input-group' },
+                                            react_default.a.createElement(
+                                                'div',
+                                                { className: 'css-float-label' },
+                                                react_default.a.createElement(
+                                                    'textarea',
+                                                    { className: 'form-control', name: 'instructions' },
+                                                    'Please deliver to side service entrance of apartment building. Enter code 9090 to access garage.'
+                                                ),
+                                                react_default.a.createElement(
+                                                    'label',
+                                                    { htmlFor: 'instructions' },
+                                                    'Delivery Instructions'
+                                                )
+                                            )
+                                        )
+                                    ),
+                                    react_default.a.createElement(
+                                        'div',
+                                        { className: 'sm12 md8 columns' },
+                                        react_default.a.createElement(
+                                            'h4',
+                                            { className: 'title title-M mrg-L' },
+                                            'Textarea'
+                                        ),
+                                        react_default.a.createElement(
+                                            'p',
+                                            { className: 'max-width-text' },
+                                            'Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus.',
+                                            react_default.a.createElement('br', null),
+                                            react_default.a.createElement('br', null),
+                                            react_default.a.createElement('br', null)
+                                        )
+                                    )
+                                )
+                            ),
+                            react_default.a.createElement(
+                                'div',
+                                { className: 'sm12 columns radio-button-form' },
+                                react_default.a.createElement(
+                                    'div',
+                                    { className: 'row' },
+                                    react_default.a.createElement(
+                                        'div',
+                                        { className: 'sm12 md4 columns' },
+                                        react_default.a.createElement(
+                                            'div',
+                                            { className: 'input-group' },
+                                            react_default.a.createElement(
+                                                'div',
+                                                { className: 'mrg-XL' },
+                                                react_default.a.createElement('input', { type: 'radio', id: 'two', name: 'name', value: '', defaultChecked: 'true' }),
+                                                react_default.a.createElement(
+                                                    'label',
+                                                    { htmlFor: 'two' },
+                                                    react_default.a.createElement(
+                                                        'p',
+                                                        { className: 'std-txt std-txt-M' },
+                                                        react_default.a.createElement(
+                                                            'span',
+                                                            { className: 'color-penneyred' },
+                                                            'FREE'
+                                                        ),
+                                                        ' Store Pickup Today at ',
+                                                        react_default.a.createElement('br', null),
+                                                        react_default.a.createElement(
+                                                            'a',
+                                                            { href: '#' },
+                                                            'Stonebriar Mall'
+                                                        )
+                                                    )
+                                                )
+                                            ),
+                                            react_default.a.createElement(
+                                                'div',
+                                                { className: 'mrg-XL' },
+                                                react_default.a.createElement('input', { type: 'radio', disabled: true, id: 'three', name: 'name', value: '' }),
+                                                react_default.a.createElement(
+                                                    'label',
+                                                    { htmlFor: 'three' },
+                                                    react_default.a.createElement(
+                                                        'span',
+                                                        { className: 'std-txt' },
+                                                        'Arrives May 5th - May 23rd'
+                                                    )
+                                                )
+                                            ),
+                                            react_default.a.createElement(
+                                                'div',
+                                                { className: 'mrg-XL' },
+                                                react_default.a.createElement('input', { type: 'radio', id: 'two', name: 'name', value: '', defaultChecked: 'true' }),
+                                                react_default.a.createElement(
+                                                    'label',
+                                                    { htmlFor: 'two' },
+                                                    react_default.a.createElement(
+                                                        'p',
+                                                        { className: 'std-txt std-txt-M' },
+                                                        react_default.a.createElement(
+                                                            'span',
+                                                            { className: 'color-penneyred' },
+                                                            'FREE'
+                                                        ),
+                                                        ' Store Pickup Today at ',
+                                                        react_default.a.createElement('br', null),
+                                                        react_default.a.createElement(
+                                                            'a',
+                                                            { href: '#' },
+                                                            'Stonebriar Mall'
+                                                        )
+                                                    )
+                                                )
+                                            ),
+                                            react_default.a.createElement(
+                                                'div',
+                                                { className: 'mrg-XL' },
+                                                react_default.a.createElement('input', { type: 'radio', disabled: true, id: 'three', name: 'name', value: '' }),
+                                                react_default.a.createElement(
+                                                    'label',
+                                                    { htmlFor: 'three' },
+                                                    react_default.a.createElement(
+                                                        'p',
+                                                        { className: 'std-txt std-txt-M' },
+                                                        react_default.a.createElement(
+                                                            'span',
+                                                            { className: 'color-penneyred' },
+                                                            'FREE'
+                                                        ),
+                                                        ' Store Pickup Today at ',
+                                                        react_default.a.createElement('br', null),
+                                                        react_default.a.createElement(
+                                                            'a',
+                                                            { href: '#' },
+                                                            'Stonebriar Mall'
+                                                        )
+                                                    )
+                                                )
+                                            )
+                                        )
+                                    ),
+                                    react_default.a.createElement(
+                                        'div',
+                                        { className: 'sm12 md8 columns' },
+                                        react_default.a.createElement(
+                                            'h4',
+                                            { className: 'title title-M mrg-L' },
+                                            'Radio Button'
+                                        ),
+                                        react_default.a.createElement(
+                                            'p',
+                                            { className: 'max-width-text' },
+                                            'Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus.',
+                                            react_default.a.createElement('br', null),
+                                            react_default.a.createElement('br', null),
+                                            react_default.a.createElement('br', null)
+                                        )
+                                    )
+                                )
+                            ),
+                            react_default.a.createElement(
+                                'div',
+                                { className: 'sm12 columns checkbox-form' },
+                                react_default.a.createElement(
+                                    'div',
+                                    { className: 'row' },
+                                    react_default.a.createElement(
+                                        'div',
+                                        { className: 'sm12 md4 columns' },
+                                        react_default.a.createElement(
+                                            'div',
+                                            { className: 'input-group' },
+                                            react_default.a.createElement(
+                                                'label',
+                                                { className: 'checkbox mrg-M' },
+                                                react_default.a.createElement('input', { type: 'checkbox', disabled: 'true' }),
+                                                ' ',
+                                                react_default.a.createElement(
+                                                    'span',
+                                                    null,
+                                                    'Disabled Checkbox'
+                                                )
+                                            ),
+                                            react_default.a.createElement(
+                                                'label',
+                                                { className: 'checkbox mrg-M' },
+                                                react_default.a.createElement('input', { type: 'checkbox' }),
+                                                ' ',
+                                                react_default.a.createElement(
+                                                    'span',
+                                                    null,
+                                                    'Checkbox'
+                                                )
+                                            ),
+                                            react_default.a.createElement(
+                                                'label',
+                                                { className: 'checkbox mrg-M' },
+                                                react_default.a.createElement('input', { type: 'checkbox', defaultChecked: 'true' }),
+                                                ' ',
+                                                react_default.a.createElement(
+                                                    'span',
+                                                    null,
+                                                    'Checkbox'
+                                                )
+                                            ),
+                                            react_default.a.createElement('br', null)
+                                        )
+                                    ),
+                                    react_default.a.createElement(
+                                        'div',
+                                        { className: 'sm12 md8 columns' },
+                                        react_default.a.createElement(
+                                            'h4',
+                                            { className: 'title title-M mrg-L' },
                                             'Checkbox'
-                                        )
-                                    ),
-                                    react_default.a.createElement(
-                                        'label',
-                                        { className: 'checkbox mrg-M' },
-                                        react_default.a.createElement('input', { type: 'checkbox', defaultChecked: 'true' }),
-                                        ' ',
+                                        ),
                                         react_default.a.createElement(
-                                            'span',
-                                            null,
-                                            'Checkbox'
+                                            'p',
+                                            { className: 'max-width-text' },
+                                            'Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus.',
+                                            react_default.a.createElement('br', null),
+                                            react_default.a.createElement('br', null),
+                                            react_default.a.createElement('br', null)
                                         )
-                                    ),
-                                    react_default.a.createElement('br', null)
+                                    )
                                 )
                             ),
                             react_default.a.createElement(
                                 'div',
-                                { className: 'small-12 medium-8 columns' },
-                                react_default.a.createElement(
-                                    'h4',
-                                    { className: 'title title-M mrg-L' },
-                                    'Checkbox'
-                                ),
-                                react_default.a.createElement(
-                                    'p',
-                                    { className: 'max-width-text' },
-                                    'Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus.',
-                                    react_default.a.createElement('br', null),
-                                    react_default.a.createElement('br', null),
-                                    react_default.a.createElement('br', null)
-                                )
-                            )
-                        ),
-                        react_default.a.createElement(
-                            'div',
-                            { className: 'small-12 medium-12 columns input-form' },
-                            react_default.a.createElement(
-                                'div',
-                                { className: 'small-12 medium-4 columns' },
+                                { className: 'sm12 columns input-form' },
                                 react_default.a.createElement(
                                     'div',
-                                    { className: 'input-group' },
+                                    { className: 'row' },
                                     react_default.a.createElement(
                                         'div',
-                                        { className: 'css-float-label' },
-                                        react_default.a.createElement('input', { className: 'form-control input-text', id: 'phone-number', maxLength: '14', type: 'text', placeholder: '( ___ ) ___-____' }),
+                                        { className: 'sm12 md4 columns' },
                                         react_default.a.createElement(
-                                            'label',
-                                            { htmlFor: 'Phone' },
+                                            'div',
+                                            { className: 'input-group' },
+                                            react_default.a.createElement(
+                                                'div',
+                                                { className: 'css-float-label' },
+                                                react_default.a.createElement('input', { className: 'form-control input-text', id: 'phone-number', maxLength: '14', type: 'text', placeholder: '( ___ ) ___-____' }),
+                                                react_default.a.createElement(
+                                                    'label',
+                                                    { htmlFor: 'Phone' },
+                                                    'Phone Number'
+                                                )
+                                            )
+                                        )
+                                    ),
+                                    react_default.a.createElement(
+                                        'div',
+                                        { className: 'sm12 md8 columns' },
+                                        react_default.a.createElement(
+                                            'h4',
+                                            { className: 'title title-M mrg-L' },
                                             'Phone Number'
+                                        ),
+                                        react_default.a.createElement(
+                                            'p',
+                                            { className: 'max-width-text' },
+                                            'Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus.',
+                                            react_default.a.createElement('br', null),
+                                            react_default.a.createElement('br', null),
+                                            react_default.a.createElement('br', null)
                                         )
                                     )
                                 )
                             ),
                             react_default.a.createElement(
                                 'div',
-                                { className: 'small-12 medium-8 columns' },
-                                react_default.a.createElement(
-                                    'h4',
-                                    { className: 'title title-M mrg-L' },
-                                    'Phone Number'
-                                ),
-                                react_default.a.createElement(
-                                    'p',
-                                    { className: 'max-width-text' },
-                                    'Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus.',
-                                    react_default.a.createElement('br', null),
-                                    react_default.a.createElement('br', null),
-                                    react_default.a.createElement('br', null)
-                                )
-                            )
-                        ),
-                        react_default.a.createElement(
-                            'div',
-                            { className: 'small-12 medium-12 columns input-form' },
-                            react_default.a.createElement(
-                                'div',
-                                { className: 'small-12 medium-4 columns' },
+                                { className: 'sm12 columns input-form' },
                                 react_default.a.createElement(
                                     'div',
-                                    { className: 'input-group' },
+                                    { className: 'row' },
                                     react_default.a.createElement(
                                         'div',
-                                        { className: 'css-float-label' },
-                                        react_default.a.createElement('span', { className: 'icon jcp-icon-red', dangerouslySetInnerHTML: { __html: cardJCPRed } }),
-                                        react_default.a.createElement('input', { id: 'creditcard', type: 'tel', name: 'ccnumber', placeholder: '8888 8888 888', className: 'form-control creditcard-text input-text masked' }),
+                                        { className: 'sm12 md4 columns' },
                                         react_default.a.createElement(
-                                            'label',
-                                            { className: 'creditcard', htmlFor: 'creditcard' },
-                                            'Card Number'
+                                            'div',
+                                            { className: 'input-group' },
+                                            react_default.a.createElement(
+                                                'div',
+                                                { className: 'css-float-label' },
+                                                react_default.a.createElement('span', { className: 'icon jcp-icon-red', dangerouslySetInnerHTML: { __html: cardJCPRed } }),
+                                                react_default.a.createElement('input', { id: 'creditcard', type: 'tel', name: 'ccnumber', placeholder: '8888 8888 888', className: 'form-control creditcard-text input-text masked' }),
+                                                react_default.a.createElement(
+                                                    'label',
+                                                    { className: 'creditcard', htmlFor: 'creditcard' },
+                                                    'Card Number'
+                                                )
+                                            )
+                                        )
+                                    ),
+                                    react_default.a.createElement(
+                                        'div',
+                                        { className: 'sm12 md8 columns' },
+                                        react_default.a.createElement(
+                                            'h4',
+                                            { className: 'title title-M mrg-L' },
+                                            'Credit Card'
+                                        ),
+                                        react_default.a.createElement(
+                                            'p',
+                                            { className: 'max-width-text' },
+                                            'Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus.',
+                                            react_default.a.createElement('br', null),
+                                            react_default.a.createElement('br', null),
+                                            react_default.a.createElement('br', null)
                                         )
                                     )
                                 )
                             ),
                             react_default.a.createElement(
                                 'div',
-                                { className: 'small-12 medium-8 columns' },
-                                react_default.a.createElement(
-                                    'h4',
-                                    { className: 'title title-M mrg-L' },
-                                    'Credit Card'
-                                ),
-                                react_default.a.createElement(
-                                    'p',
-                                    { className: 'max-width-text' },
-                                    'Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus.',
-                                    react_default.a.createElement('br', null),
-                                    react_default.a.createElement('br', null),
-                                    react_default.a.createElement('br', null)
-                                )
-                            )
-                        ),
-                        react_default.a.createElement(
-                            'div',
-                            { className: 'small-12 medium-12 columns input-form password-form' },
-                            react_default.a.createElement(
-                                'div',
-                                { className: 'small-12 medium-4 columns' },
+                                { className: 'sm12 columns input-form password-form' },
                                 react_default.a.createElement(
                                     'div',
-                                    { className: 'position-rel' },
+                                    { className: 'row' },
                                     react_default.a.createElement(
                                         'div',
-                                        { className: 'css-float-label' },
-                                        react_default.a.createElement('input', { className: 'form-control input-text', id: 'password', maxLength: '16', type: 'password', placeholder: '\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022' }),
+                                        { className: 'sm12 md4 columns' },
                                         react_default.a.createElement(
-                                            'label',
-                                            { htmlFor: 'password' },
+                                            'div',
+                                            { className: 'position-rel' },
+                                            react_default.a.createElement(
+                                                'div',
+                                                { className: 'css-float-label' },
+                                                react_default.a.createElement('input', { className: 'form-control input-text', id: 'password', maxLength: '16', type: 'password', placeholder: '\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022' }),
+                                                react_default.a.createElement(
+                                                    'label',
+                                                    { htmlFor: 'password' },
+                                                    'Password'
+                                                )
+                                            ),
+                                            react_default.a.createElement(
+                                                'a',
+                                                { href: 'javascript:void(0);', className: 'show-pwd' },
+                                                'show'
+                                            )
+                                        )
+                                    ),
+                                    react_default.a.createElement(
+                                        'div',
+                                        { className: 'sm12 md8 columns' },
+                                        react_default.a.createElement(
+                                            'h4',
+                                            { className: 'title title-M mrg-L' },
                                             'Password'
+                                        ),
+                                        react_default.a.createElement(
+                                            'p',
+                                            { className: 'max-width-text' },
+                                            'Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus.',
+                                            react_default.a.createElement('br', null),
+                                            react_default.a.createElement('br', null),
+                                            react_default.a.createElement('br', null)
+                                        )
+                                    )
+                                )
+                            ),
+                            react_default.a.createElement(
+                                'div',
+                                { className: 'sm12 columns select-form' },
+                                react_default.a.createElement(
+                                    'div',
+                                    { className: 'row' },
+                                    react_default.a.createElement(
+                                        'div',
+                                        { className: 'sm12 md4 columns' },
+                                        react_default.a.createElement(
+                                            'div',
+                                            { className: 'row' },
+                                            react_default.a.createElement(
+                                                'div',
+                                                { className: 'sm6 columns' },
+                                                react_default.a.createElement(
+                                                    'div',
+                                                    { className: 'select' },
+                                                    react_default.a.createElement(
+                                                        'div',
+                                                        { className: 'css-float-label' },
+                                                        react_default.a.createElement(
+                                                            'select',
+                                                            { className: 'form-control custom-select' },
+                                                            react_default.a.createElement(
+                                                                'option',
+                                                                { value: '' },
+                                                                'Month'
+                                                            ),
+                                                            react_default.a.createElement(
+                                                                'option',
+                                                                { value: '1' },
+                                                                '01'
+                                                            ),
+                                                            react_default.a.createElement(
+                                                                'option',
+                                                                { value: '2' },
+                                                                '02'
+                                                            ),
+                                                            react_default.a.createElement(
+                                                                'option',
+                                                                { value: '3' },
+                                                                '03'
+                                                            ),
+                                                            react_default.a.createElement(
+                                                                'option',
+                                                                { value: '4' },
+                                                                '04'
+                                                            ),
+                                                            react_default.a.createElement(
+                                                                'option',
+                                                                { value: '5' },
+                                                                '05'
+                                                            ),
+                                                            react_default.a.createElement(
+                                                                'option',
+                                                                { value: '6' },
+                                                                '06'
+                                                            ),
+                                                            react_default.a.createElement(
+                                                                'option',
+                                                                { value: '7' },
+                                                                '07'
+                                                            ),
+                                                            react_default.a.createElement(
+                                                                'option',
+                                                                { value: '8' },
+                                                                '08'
+                                                            ),
+                                                            react_default.a.createElement(
+                                                                'option',
+                                                                { value: '9' },
+                                                                '09'
+                                                            ),
+                                                            react_default.a.createElement(
+                                                                'option',
+                                                                { value: '10' },
+                                                                '10'
+                                                            ),
+                                                            react_default.a.createElement(
+                                                                'option',
+                                                                { value: '11' },
+                                                                '11'
+                                                            ),
+                                                            react_default.a.createElement(
+                                                                'option',
+                                                                { value: '12' },
+                                                                '12'
+                                                            )
+                                                        ),
+                                                        react_default.a.createElement(
+                                                            'span',
+                                                            null,
+                                                            'Month'
+                                                        )
+                                                    )
+                                                )
+                                            ),
+                                            react_default.a.createElement(
+                                                'div',
+                                                { className: 'sm6 columns' },
+                                                react_default.a.createElement(
+                                                    'div',
+                                                    { className: 'select' },
+                                                    react_default.a.createElement(
+                                                        'div',
+                                                        { className: 'css-float-label' },
+                                                        react_default.a.createElement(
+                                                            'select',
+                                                            { className: 'form-control custom-select' },
+                                                            react_default.a.createElement(
+                                                                'option',
+                                                                { value: '' },
+                                                                'Year'
+                                                            ),
+                                                            react_default.a.createElement(
+                                                                'option',
+                                                                { value: '1' },
+                                                                '2001'
+                                                            ),
+                                                            react_default.a.createElement(
+                                                                'option',
+                                                                { value: '2' },
+                                                                '2002'
+                                                            ),
+                                                            react_default.a.createElement(
+                                                                'option',
+                                                                { value: '3' },
+                                                                '2003'
+                                                            ),
+                                                            react_default.a.createElement(
+                                                                'option',
+                                                                { value: '4' },
+                                                                '2004'
+                                                            ),
+                                                            react_default.a.createElement(
+                                                                'option',
+                                                                { value: '5' },
+                                                                '2005'
+                                                            ),
+                                                            react_default.a.createElement(
+                                                                'option',
+                                                                { value: '6' },
+                                                                '2006'
+                                                            ),
+                                                            react_default.a.createElement(
+                                                                'option',
+                                                                { value: '7' },
+                                                                '2007'
+                                                            ),
+                                                            react_default.a.createElement(
+                                                                'option',
+                                                                { value: '8' },
+                                                                '2008'
+                                                            ),
+                                                            react_default.a.createElement(
+                                                                'option',
+                                                                { value: '9' },
+                                                                '2009'
+                                                            ),
+                                                            react_default.a.createElement(
+                                                                'option',
+                                                                { value: '10' },
+                                                                '2010'
+                                                            ),
+                                                            react_default.a.createElement(
+                                                                'option',
+                                                                { value: '11' },
+                                                                '2011'
+                                                            ),
+                                                            react_default.a.createElement(
+                                                                'option',
+                                                                { value: '12' },
+                                                                '2012'
+                                                            )
+                                                        ),
+                                                        react_default.a.createElement(
+                                                            'span',
+                                                            null,
+                                                            'Year'
+                                                        )
+                                                    )
+                                                )
+                                            )
                                         )
                                     ),
                                     react_default.a.createElement(
-                                        'a',
-                                        { href: 'javascript:void(0);', className: 'show-pwd' },
-                                        'show'
+                                        'div',
+                                        { className: 'sm12 md8 columns' },
+                                        react_default.a.createElement(
+                                            'h4',
+                                            { className: 'title title-M mrg-L' },
+                                            'Condensed Fields'
+                                        ),
+                                        react_default.a.createElement(
+                                            'p',
+                                            { className: 'max-width-text' },
+                                            'Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus.',
+                                            react_default.a.createElement('br', null),
+                                            react_default.a.createElement('br', null),
+                                            react_default.a.createElement('br', null)
+                                        )
                                     )
                                 )
                             ),
                             react_default.a.createElement(
                                 'div',
-                                { className: 'small-12 medium-8 columns' },
-                                react_default.a.createElement(
-                                    'h4',
-                                    { className: 'title title-M mrg-L' },
-                                    'Password'
-                                ),
-                                react_default.a.createElement(
-                                    'p',
-                                    { className: 'max-width-text' },
-                                    'Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus.',
-                                    react_default.a.createElement('br', null),
-                                    react_default.a.createElement('br', null),
-                                    react_default.a.createElement('br', null)
-                                )
-                            )
-                        ),
-                        react_default.a.createElement(
-                            'div',
-                            { className: 'small-12 medium-12 columns select-form' },
-                            react_default.a.createElement(
-                                'div',
-                                { className: 'small-2 medium-2 large-2 x-large-2 columns select' },
+                                { className: 'sm12 columns input-form' },
                                 react_default.a.createElement(
                                     'div',
-                                    { className: 'css-float-label' },
+                                    { className: 'row' },
                                     react_default.a.createElement(
-                                        'select',
-                                        { className: 'form-control custom-select' },
+                                        'div',
+                                        { className: 'sm12 md4 columns' },
                                         react_default.a.createElement(
-                                            'option',
-                                            { value: '' },
-                                            'Month'
-                                        ),
-                                        react_default.a.createElement(
-                                            'option',
-                                            { value: '1' },
-                                            '01'
-                                        ),
-                                        react_default.a.createElement(
-                                            'option',
-                                            { value: '2' },
-                                            '02'
-                                        ),
-                                        react_default.a.createElement(
-                                            'option',
-                                            { value: '3' },
-                                            '03'
-                                        ),
-                                        react_default.a.createElement(
-                                            'option',
-                                            { value: '4' },
-                                            '04'
-                                        ),
-                                        react_default.a.createElement(
-                                            'option',
-                                            { value: '5' },
-                                            '05'
-                                        ),
-                                        react_default.a.createElement(
-                                            'option',
-                                            { value: '6' },
-                                            '06'
-                                        ),
-                                        react_default.a.createElement(
-                                            'option',
-                                            { value: '7' },
-                                            '07'
-                                        ),
-                                        react_default.a.createElement(
-                                            'option',
-                                            { value: '8' },
-                                            '08'
-                                        ),
-                                        react_default.a.createElement(
-                                            'option',
-                                            { value: '9' },
-                                            '09'
-                                        ),
-                                        react_default.a.createElement(
-                                            'option',
-                                            { value: '10' },
-                                            '10'
-                                        ),
-                                        react_default.a.createElement(
-                                            'option',
-                                            { value: '11' },
-                                            '11'
-                                        ),
-                                        react_default.a.createElement(
-                                            'option',
-                                            { value: '12' },
-                                            '12'
+                                            'div',
+                                            { className: 'position-rel' },
+                                            react_default.a.createElement(
+                                                'div',
+                                                { className: 'css-float-label' },
+                                                react_default.a.createElement('input', { className: 'form-control input-text', id: 'search', type: 'text', placeholder: 'Search Products' }),
+                                                react_default.a.createElement(
+                                                    'label',
+                                                    { htmlFor: 'search' },
+                                                    'Search Products'
+                                                )
+                                            ),
+                                            react_default.a.createElement('span', { className: 'icon search-icon color-lipstick-svg', dangerouslySetInnerHTML: { __html: searchIcon } })
                                         )
                                     ),
                                     react_default.a.createElement(
-                                        'span',
-                                        null,
-                                        'Month'
+                                        'div',
+                                        { className: 'sm12 md8 columns' },
+                                        react_default.a.createElement(
+                                            'h4',
+                                            { className: 'title title-M mrg-L' },
+                                            'Search Box'
+                                        ),
+                                        react_default.a.createElement(
+                                            'p',
+                                            { className: 'max-width-text' },
+                                            'Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus.',
+                                            react_default.a.createElement('br', null),
+                                            react_default.a.createElement('br', null),
+                                            react_default.a.createElement('br', null)
+                                        )
                                     )
                                 )
                             ),
                             react_default.a.createElement(
                                 'div',
-                                { className: 'small-2 medium-2 large-2 x-large-2 columns select' },
+                                { className: 'sm12 columns input-form' },
                                 react_default.a.createElement(
                                     'div',
-                                    { className: 'css-float-label' },
+                                    { className: 'row' },
                                     react_default.a.createElement(
-                                        'select',
-                                        { className: 'form-control custom-select' },
+                                        'div',
+                                        { className: 'sm12 md4 columns' },
                                         react_default.a.createElement(
-                                            'option',
-                                            { value: '' },
-                                            'Year'
-                                        ),
-                                        react_default.a.createElement(
-                                            'option',
-                                            { value: '1' },
-                                            '2001'
-                                        ),
-                                        react_default.a.createElement(
-                                            'option',
-                                            { value: '2' },
-                                            '2002'
-                                        ),
-                                        react_default.a.createElement(
-                                            'option',
-                                            { value: '3' },
-                                            '2003'
-                                        ),
-                                        react_default.a.createElement(
-                                            'option',
-                                            { value: '4' },
-                                            '2004'
-                                        ),
-                                        react_default.a.createElement(
-                                            'option',
-                                            { value: '5' },
-                                            '2005'
-                                        ),
-                                        react_default.a.createElement(
-                                            'option',
-                                            { value: '6' },
-                                            '2006'
-                                        ),
-                                        react_default.a.createElement(
-                                            'option',
-                                            { value: '7' },
-                                            '2007'
-                                        ),
-                                        react_default.a.createElement(
-                                            'option',
-                                            { value: '8' },
-                                            '2008'
-                                        ),
-                                        react_default.a.createElement(
-                                            'option',
-                                            { value: '9' },
-                                            '2009'
-                                        ),
-                                        react_default.a.createElement(
-                                            'option',
-                                            { value: '10' },
-                                            '2010'
-                                        ),
-                                        react_default.a.createElement(
-                                            'option',
-                                            { value: '11' },
-                                            '2011'
-                                        ),
-                                        react_default.a.createElement(
-                                            'option',
-                                            { value: '12' },
-                                            '2012'
+                                            'div',
+                                            { className: 'position-rel' },
+                                            react_default.a.createElement(
+                                                'div',
+                                                { className: 'css-float-label' },
+                                                react_default.a.createElement('input', { id: 'zipcode', type: 'tel', name: 'zipcode', placeholder: 'Enter Code', maxLength: '5', className: 'form-control input-text' }),
+                                                react_default.a.createElement(
+                                                    'label',
+                                                    { htmlFor: 'zipcode' },
+                                                    'Enter Code'
+                                                ),
+                                                react_default.a.createElement(
+                                                    'a',
+                                                    { href: 'javascript:void();', className: 'btn btn-S btn-primary apply-btn' },
+                                                    'Apply'
+                                                )
+                                            )
                                         )
                                     ),
                                     react_default.a.createElement(
-                                        'span',
-                                        null,
-                                        'Year'
-                                    )
-                                )
-                            ),
-                            react_default.a.createElement(
-                                'div',
-                                { className: 'small-12 medium-8 columns' },
-                                react_default.a.createElement(
-                                    'h4',
-                                    { className: 'title title-M mrg-L' },
-                                    'Condensed Fields'
-                                ),
-                                react_default.a.createElement(
-                                    'p',
-                                    { className: 'max-width-text' },
-                                    'Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus.',
-                                    react_default.a.createElement('br', null),
-                                    react_default.a.createElement('br', null),
-                                    react_default.a.createElement('br', null)
-                                )
-                            )
-                        ),
-                        react_default.a.createElement(
-                            'div',
-                            { className: 'small-12 medium-12 columns input-form' },
-                            react_default.a.createElement(
-                                'div',
-                                { className: 'small-12 medium-4 columns' },
-                                react_default.a.createElement(
-                                    'div',
-                                    { className: 'position-rel' },
-                                    react_default.a.createElement(
                                         'div',
-                                        { className: 'css-float-label' },
-                                        react_default.a.createElement('input', { className: 'form-control input-text', id: 'search', type: 'text', placeholder: 'Search Products' }),
+                                        { className: 'sm12 md8 columns' },
                                         react_default.a.createElement(
-                                            'label',
-                                            { htmlFor: 'search' },
-                                            'Search Products'
-                                        )
-                                    ),
-                                    react_default.a.createElement('span', { className: 'icon search-icon color-lipstick-svg', dangerouslySetInnerHTML: { __html: searchIcon } })
-                                )
-                            ),
-                            react_default.a.createElement(
-                                'div',
-                                { className: 'small-12 medium-8 columns' },
-                                react_default.a.createElement(
-                                    'h4',
-                                    { className: 'title title-M mrg-L' },
-                                    'Search Box'
-                                ),
-                                react_default.a.createElement(
-                                    'p',
-                                    { className: 'max-width-text' },
-                                    'Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus.',
-                                    react_default.a.createElement('br', null),
-                                    react_default.a.createElement('br', null),
-                                    react_default.a.createElement('br', null)
-                                )
-                            )
-                        ),
-                        react_default.a.createElement(
-                            'div',
-                            { className: 'small-12 medium-12 columns input-form' },
-                            react_default.a.createElement(
-                                'div',
-                                { className: 'small-12 medium-4 columns' },
-                                react_default.a.createElement(
-                                    'div',
-                                    { className: 'position-rel' },
-                                    react_default.a.createElement(
-                                        'div',
-                                        { className: 'css-float-label' },
-                                        react_default.a.createElement('input', { id: 'zipcode', type: 'tel', name: 'zipcode', placeholder: 'Enter Code', maxLength: '5', className: 'form-control input-text' }),
-                                        react_default.a.createElement(
-                                            'label',
-                                            { htmlFor: 'zipcode' },
-                                            'Enter Code'
+                                            'h4',
+                                            { className: 'title title-M mrg-L' },
+                                            'Inline Action'
                                         ),
                                         react_default.a.createElement(
-                                            'a',
-                                            { href: 'javascript:void();', className: 'btn btn-S btn-primary apply-btn' },
-                                            'Apply'
+                                            'p',
+                                            { className: 'max-width-text' },
+                                            'Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus.',
+                                            react_default.a.createElement('br', null),
+                                            react_default.a.createElement('br', null),
+                                            react_default.a.createElement('br', null)
                                         )
                                     )
                                 )
                             ),
                             react_default.a.createElement(
                                 'div',
-                                { className: 'small-12 medium-8 columns' },
-                                react_default.a.createElement(
-                                    'h4',
-                                    { className: 'title title-M mrg-L' },
-                                    'Inline Action'
-                                ),
-                                react_default.a.createElement(
-                                    'p',
-                                    { className: 'max-width-text' },
-                                    'Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus.',
-                                    react_default.a.createElement('br', null),
-                                    react_default.a.createElement('br', null),
-                                    react_default.a.createElement('br', null)
-                                )
-                            )
-                        ),
-                        react_default.a.createElement(
-                            'div',
-                            { className: 'small-12 medium-12 columns input-form' },
-                            react_default.a.createElement(
-                                'div',
-                                { className: 'small-12 medium-4 columns' },
+                                { className: 'sm12 columns input-form' },
                                 react_default.a.createElement(
                                     'div',
-                                    { className: 'position-rel' },
+                                    { className: 'row' },
                                     react_default.a.createElement(
                                         'div',
-                                        { className: 'css-float-label' },
-                                        react_default.a.createElement('input', { className: 'form-control input-text', id: 'date', maxLength: '5', type: 'text', placeholder: 'Birthday (Optional)' }),
+                                        { className: 'sm12 md4 columns' },
                                         react_default.a.createElement(
-                                            'label',
-                                            { htmlFor: 'date' },
-                                            'Birthday (Optional)'
+                                            'div',
+                                            { className: 'position-rel' },
+                                            react_default.a.createElement(
+                                                'div',
+                                                { className: 'css-float-label' },
+                                                react_default.a.createElement('input', { className: 'form-control input-text', id: 'date', maxLength: '5', type: 'text', placeholder: 'Birthday (Optional)' }),
+                                                react_default.a.createElement(
+                                                    'label',
+                                                    { htmlFor: 'date' },
+                                                    'Birthday (Optional)'
+                                                )
+                                            ),
+                                            react_default.a.createElement('span', { className: 'icon tooltip-icon', dangerouslySetInnerHTML: { __html: tooltipIcon } })
                                         )
                                     ),
-                                    react_default.a.createElement('span', { className: 'icon tooltip-icon', dangerouslySetInnerHTML: { __html: tooltipIcon } })
-                                )
-                            ),
-                            react_default.a.createElement(
-                                'div',
-                                { className: 'small-12 medium-8 columns' },
-                                react_default.a.createElement(
-                                    'h4',
-                                    { className: 'title title-M mrg-L' },
-                                    'Optional Fields with Tooltip'
-                                ),
-                                react_default.a.createElement(
-                                    'p',
-                                    { className: 'max-width-text' },
-                                    'Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus.',
-                                    react_default.a.createElement('br', null),
-                                    react_default.a.createElement('br', null),
-                                    react_default.a.createElement('br', null)
-                                )
-                            )
-                        ),
-                        react_default.a.createElement(
-                            'div',
-                            { className: 'small-12 medium-12 columns input-form' },
-                            react_default.a.createElement(
-                                'div',
-                                { className: 'small-12 medium-4 columns' },
-                                react_default.a.createElement(
-                                    'div',
-                                    { className: 'input-group' },
                                     react_default.a.createElement(
                                         'div',
-                                        { className: 'css-float-label' },
-                                        react_default.a.createElement('input', { className: 'form-control email-text input-text disabled', id: 'disemail', type: 'text', value: 'example@email.com', disabled: true }),
+                                        { className: 'sm12 md8 columns' },
                                         react_default.a.createElement(
-                                            'label',
-                                            { htmlFor: 'disemail', className: 'disabled-label' },
-                                            'Email'
+                                            'h4',
+                                            { className: 'title title-M mrg-L' },
+                                            'Optional Fields with Tooltip'
+                                        ),
+                                        react_default.a.createElement(
+                                            'p',
+                                            { className: 'max-width-text' },
+                                            'Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus.',
+                                            react_default.a.createElement('br', null),
+                                            react_default.a.createElement('br', null),
+                                            react_default.a.createElement('br', null)
                                         )
                                     )
                                 )
                             ),
                             react_default.a.createElement(
                                 'div',
-                                { className: 'small-12 medium-8 columns' },
-                                react_default.a.createElement(
-                                    'h4',
-                                    { className: 'title title-M mrg-L' },
-                                    'Disabled'
-                                ),
-                                react_default.a.createElement(
-                                    'p',
-                                    { className: 'max-width-text' },
-                                    'Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus.',
-                                    react_default.a.createElement('br', null),
-                                    react_default.a.createElement('br', null),
-                                    react_default.a.createElement('br', null),
-                                    react_default.a.createElement('br', null)
-                                )
-                            )
-                        ),
-                        react_default.a.createElement(
-                            'div',
-                            { className: 'small-12 medium-12 columns input-form' },
-                            react_default.a.createElement(
-                                'div',
-                                { className: 'small-12 medium-4 columns' },
+                                { className: 'sm12 columns input-form' },
                                 react_default.a.createElement(
                                     'div',
-                                    { className: 'position-rel' },
+                                    { className: 'row' },
                                     react_default.a.createElement(
                                         'div',
-                                        { className: 'css-float-label' },
-                                        react_default.a.createElement('input', { className: 'form-control input-text', id: 'date-picker', maxLength: '5', type: 'text', placeholder: '11/07/2017' }),
+                                        { className: 'sm12 md4 columns' },
                                         react_default.a.createElement(
-                                            'label',
-                                            { htmlFor: 'date-picker' },
-                                            'Delivery Date'
+                                            'div',
+                                            { className: 'input-group' },
+                                            react_default.a.createElement(
+                                                'div',
+                                                { className: 'css-float-label' },
+                                                react_default.a.createElement('input', { className: 'form-control email-text input-text disabled', id: 'disemail', type: 'text', value: 'example@email.com', disabled: true }),
+                                                react_default.a.createElement(
+                                                    'label',
+                                                    { htmlFor: 'disemail', className: 'disabled-label' },
+                                                    'Email'
+                                                )
+                                            )
+                                        )
+                                    ),
+                                    react_default.a.createElement(
+                                        'div',
+                                        { className: 'sm12 md8 columns' },
+                                        react_default.a.createElement(
+                                            'h4',
+                                            { className: 'title title-M mrg-L' },
+                                            'Disabled'
+                                        ),
+                                        react_default.a.createElement(
+                                            'p',
+                                            { className: 'max-width-text' },
+                                            'Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus.',
+                                            react_default.a.createElement('br', null),
+                                            react_default.a.createElement('br', null),
+                                            react_default.a.createElement('br', null),
+                                            react_default.a.createElement('br', null)
                                         )
                                     )
                                 )
                             ),
                             react_default.a.createElement(
                                 'div',
-                                { className: 'small-12 medium-8 columns' },
+                                { className: 'sm12 columns input-form' },
                                 react_default.a.createElement(
-                                    'h4',
-                                    { className: 'title title-M mrg-L' },
-                                    'Date Picker'
-                                ),
-                                react_default.a.createElement(
-                                    'p',
-                                    { className: 'max-width-text' },
-                                    'Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus.',
-                                    react_default.a.createElement('br', null),
-                                    react_default.a.createElement('br', null),
-                                    react_default.a.createElement('br', null)
+                                    'div',
+                                    { className: 'row' },
+                                    react_default.a.createElement(
+                                        'div',
+                                        { className: 'sm12 md4 columns' },
+                                        react_default.a.createElement(
+                                            'div',
+                                            { className: 'position-rel' },
+                                            react_default.a.createElement(
+                                                'div',
+                                                { className: 'css-float-label' },
+                                                react_default.a.createElement('input', { className: 'form-control input-text', id: 'date-picker', maxLength: '5', type: 'text', placeholder: '11/07/2017' }),
+                                                react_default.a.createElement(
+                                                    'label',
+                                                    { htmlFor: 'date-picker' },
+                                                    'Delivery Date'
+                                                )
+                                            )
+                                        )
+                                    ),
+                                    react_default.a.createElement(
+                                        'div',
+                                        { className: 'sm12 md8 columns' },
+                                        react_default.a.createElement(
+                                            'h4',
+                                            { className: 'title title-M mrg-L' },
+                                            'Date Picker'
+                                        ),
+                                        react_default.a.createElement(
+                                            'p',
+                                            { className: 'max-width-text' },
+                                            'Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus.',
+                                            react_default.a.createElement('br', null),
+                                            react_default.a.createElement('br', null),
+                                            react_default.a.createElement('br', null)
+                                        )
+                                    )
                                 )
                             )
-                        ),
-                        react_default.a.createElement('br', null),
-                        react_default.a.createElement('br', null)
+                        )
                     )
                 ),
-                react_default.a.createElement('hr', null),
+                react_default.a.createElement(
+                    'div',
+                    { className: 'row' },
+                    react_default.a.createElement(
+                        'div',
+                        { className: 'sm12 columns' },
+                        react_default.a.createElement('hr', null)
+                    )
+                ),
                 react_default.a.createElement(
                     'div',
                     { className: 'row', id: 'form-validation' },
                     react_default.a.createElement(
                         'div',
-                        { className: 'small-12 columns' },
+                        { className: 'sm12 columns' },
                         react_default.a.createElement(
                             'h3',
                             { className: 'title title-L mrg-L' },
@@ -8311,90 +8397,103 @@ var forms_Forms = function (_Component) {
                     ),
                     react_default.a.createElement(
                         'div',
-                        { className: 'small-12 medium-12 columns input-form error' },
+                        { className: 'sm12 columns input-form error' },
                         react_default.a.createElement(
                             'div',
-                            { className: 'small-12 medium-12 columns row' },
+                            { className: 'row' },
                             react_default.a.createElement(
                                 'div',
-                                { className: 'position-rel small-12 medium-4 columns row' },
+                                { className: 'sm12 columns' },
                                 react_default.a.createElement(
                                     'div',
-                                    { className: 'css-float-label' },
-                                    react_default.a.createElement('input', { className: 'form-control email-text input-text', id: 'email', type: 'text', placeholder: 'example@email.com' }),
-                                    react_default.a.createElement(
-                                        'label',
-                                        { htmlFor: 'email' },
-                                        'Email'
-                                    ),
-                                    react_default.a.createElement('br', null)
-                                )
-                            ),
-                            react_default.a.createElement(
-                                'div',
-                                { className: 'small-12 medium-12 columns row' },
-                                react_default.a.createElement(
-                                    'span',
-                                    { className: 'error-message' },
-                                    'Please enter a valid email address'
-                                ),
-                                react_default.a.createElement('br', null),
-                                react_default.a.createElement('br', null),
-                                react_default.a.createElement('br', null),
-                                react_default.a.createElement(
-                                    'p',
-                                    { className: 'max-width-text' },
-                                    'Vestibulum id ligula porta felis euismod semper. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.  ',
-                                    react_default.a.createElement('br', null),
-                                    react_default.a.createElement('br', null),
-                                    ' '
-                                ),
-                                react_default.a.createElement(
-                                    'div',
-                                    { className: 'small-12 medium-4 columns row' },
+                                    { className: 'row' },
                                     react_default.a.createElement(
                                         'div',
-                                        { className: 'css-float-label' },
+                                        { className: 'position-rel sm12 md4 columns' },
                                         react_default.a.createElement(
                                             'div',
-                                            { className: 'msg msg-error mrg-M' },
-                                            'Email or password is incorrect'
-                                        ),
-                                        react_default.a.createElement('br', null)
+                                            { className: 'css-float-label' },
+                                            react_default.a.createElement('input', { className: 'form-control email-text input-text', id: 'email', type: 'text', placeholder: 'example@email.com' }),
+                                            react_default.a.createElement(
+                                                'label',
+                                                { htmlFor: 'email' },
+                                                'Email'
+                                            ),
+                                            react_default.a.createElement('br', null)
+                                        )
                                     ),
                                     react_default.a.createElement(
                                         'div',
-                                        { className: 'css-float-label' },
-                                        react_default.a.createElement('input', { className: 'form-control email-text input-text', id: 'email', type: 'text', placeholder: 'example@email.com' }),
+                                        { className: 'sm12 columns' },
                                         react_default.a.createElement(
-                                            'label',
-                                            { htmlFor: 'email' },
-                                            'Email'
+                                            'span',
+                                            { className: 'error-message' },
+                                            'Please enter a valid email address'
                                         ),
-                                        react_default.a.createElement('br', null)
-                                    ),
-                                    react_default.a.createElement(
-                                        'div',
-                                        { className: 'css-float-label password-form' },
-                                        react_default.a.createElement('input', { className: 'form-control input-text', id: 'password', maxLength: '16', type: 'password', placeholder: '\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022' }),
+                                        react_default.a.createElement('br', null),
+                                        react_default.a.createElement('br', null),
+                                        react_default.a.createElement('br', null),
                                         react_default.a.createElement(
-                                            'label',
-                                            { htmlFor: 'password' },
-                                            'Password'
+                                            'p',
+                                            { className: 'max-width-text' },
+                                            'Vestibulum id ligula porta felis euismod semper. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.  ',
+                                            react_default.a.createElement('br', null),
+                                            react_default.a.createElement('br', null),
+                                            ' '
                                         ),
                                         react_default.a.createElement(
-                                            'a',
-                                            { href: 'javascript:void(0);', className: 'show-pwd' },
-                                            'show'
+                                            'div',
+                                            { className: 'sm12 md4 columns row' },
+                                            react_default.a.createElement(
+                                                'div',
+                                                { className: 'css-float-label' },
+                                                react_default.a.createElement(
+                                                    'div',
+                                                    { className: 'msg msg-error mrg-M' },
+                                                    'Email or password is incorrect'
+                                                ),
+                                                react_default.a.createElement('br', null)
+                                            ),
+                                            react_default.a.createElement(
+                                                'div',
+                                                { className: 'css-float-label' },
+                                                react_default.a.createElement('input', { className: 'form-control email-text input-text', id: 'email', type: 'text', placeholder: 'example@email.com' }),
+                                                react_default.a.createElement(
+                                                    'label',
+                                                    { htmlFor: 'email' },
+                                                    'Email'
+                                                ),
+                                                react_default.a.createElement('br', null)
+                                            ),
+                                            react_default.a.createElement(
+                                                'div',
+                                                { className: 'css-float-label password-form' },
+                                                react_default.a.createElement('input', { className: 'form-control input-text', id: 'password', maxLength: '16', type: 'password', placeholder: '\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022' }),
+                                                react_default.a.createElement(
+                                                    'label',
+                                                    { htmlFor: 'password' },
+                                                    'Password'
+                                                ),
+                                                react_default.a.createElement(
+                                                    'a',
+                                                    { href: 'javascript:void(0);', className: 'show-pwd' },
+                                                    'show'
+                                                )
+                                            )
                                         )
                                     )
                                 )
-                            ),
-                            react_default.a.createElement('br', null),
-                            react_default.a.createElement('br', null),
-                            react_default.a.createElement('hr', null),
-                            react_default.a.createElement('br', null)
+                            )
                         )
+                    )
+                ),
+                react_default.a.createElement(
+                    'div',
+                    { className: 'row' },
+                    react_default.a.createElement(
+                        'div',
+                        { className: 'sm12 columns' },
+                        react_default.a.createElement('hr', null)
                     )
                 ),
                 react_default.a.createElement(
@@ -8402,7 +8501,7 @@ var forms_Forms = function (_Component) {
                     { className: 'row', id: 'sample-layout' },
                     react_default.a.createElement(
                         'div',
-                        { className: 'small-12 columns' },
+                        { className: 'sm12 columns' },
                         react_default.a.createElement(
                             'h3',
                             { className: 'title title-L mrg-L' },
@@ -8419,7 +8518,7 @@ var forms_Forms = function (_Component) {
                     ),
                     react_default.a.createElement(
                         'div',
-                        { className: 'small-12 medium-4 form-layout' },
+                        { className: 'sm12 md4 form-layout' },
                         react_default.a.createElement(
                             'div',
                             { className: 'form-group column' },
@@ -8432,12 +8531,12 @@ var forms_Forms = function (_Component) {
                         ),
                         react_default.a.createElement(
                             'div',
-                            { className: 'form-group medium-5 small-4 column' },
+                            { className: 'form-group md5 sm4 column' },
                             react_default.a.createElement('input', { className: 'form-control input-text', type: 'text', placeholder: 'Zip Code' })
                         ),
                         react_default.a.createElement(
                             'div',
-                            { className: 'select medium-7 form-layout column' },
+                            { className: 'select md7 form-layout column' },
                             react_default.a.createElement(
                                 'select',
                                 { className: 'form-control custom-select' },
@@ -8536,7 +8635,7 @@ var forms_Forms = function (_Component) {
                     { className: 'row', id: 'related-content' },
                     react_default.a.createElement(
                         'div',
-                        { className: 'small-12 columns' },
+                        { className: 'sm12 columns' },
                         react_default.a.createElement(
                             'h3',
                             { className: 'title title-L mrg-L' },
@@ -8580,7 +8679,7 @@ var forms_Forms = function (_Component) {
                     { className: 'row' },
                     react_default.a.createElement(
                         'div',
-                        { className: 'small-12 columns' },
+                        { className: 'sm12 columns' },
                         react_default.a.createElement('hr', null),
                         react_default.a.createElement(
                             'p',
@@ -8935,7 +9034,7 @@ var work_in_progress_WorkInProgress = function (_Component) {
         { className: 'row' },
         react_default.a.createElement(
           'div',
-          { className: 'small-12 columns' },
+          { className: 'sm12 columns' },
           react_default.a.createElement(
             'h1',
             { className: 'promo-lbl promo-lbl-L' },
@@ -9527,10 +9626,10 @@ var work_in_progress_WorkInProgress = function (_Component) {
             { className: 'row mrg-XL' },
             react_default.a.createElement(
               'div',
-              { className: 'small-12 medium-12 columns select-form' },
+              { className: 'sm12 md12 columns select-form' },
               react_default.a.createElement(
                 'div',
-                { className: 'small-12 medium-4 columns select' },
+                { className: 'sm12 md4 columns select' },
                 react_default.a.createElement(
                   'div',
                   { className: 'css-float-label' },
@@ -9617,10 +9716,10 @@ var work_in_progress_WorkInProgress = function (_Component) {
             { className: 'row mrg-XL' },
             react_default.a.createElement(
               'div',
-              { className: 'small-12 medium-12 columns select-form' },
+              { className: 'sm12 md12 columns select-form' },
               react_default.a.createElement(
                 'div',
-                { className: 'small-12 columns select' },
+                { className: 'sm12 columns select' },
                 react_default.a.createElement(
                   'div',
                   { className: 'css-float-label' },
@@ -10782,7 +10881,7 @@ var work_in_progress_WorkInProgress = function (_Component) {
           ),
           react_default.a.createElement(
             'div',
-            { className: 'medium-12 large-12 small-12 column mrg-XL' },
+            { className: 'md12 lg12 sm12 column mrg-XL' },
             react_default.a.createElement(
               'h2',
               { className: 'title title-L mrg-M' },
@@ -10790,10 +10889,10 @@ var work_in_progress_WorkInProgress = function (_Component) {
             ),
             react_default.a.createElement(
               'div',
-              { className: 'switch-block medium-12 large-12 small-12' },
+              { className: 'switch-block md12 lg12 sm12' },
               react_default.a.createElement(
                 'div',
-                { className: 'medium-4 large-4 small-12 fl-left' },
+                { className: 'md4 lg4 sm12 fl-left' },
                 react_default.a.createElement(
                   'div',
                   { className: 'onoffswitch mrg-XL fl-left' },
@@ -10841,7 +10940,7 @@ var work_in_progress_WorkInProgress = function (_Component) {
               ),
               react_default.a.createElement(
                 'div',
-                { className: 'medium-4 large-4 small-12 fl-left' },
+                { className: 'md4 lg4 sm12 fl-left' },
                 react_default.a.createElement(
                   'div',
                   { className: 'onoffswitch mrg-XL fl-left' },
@@ -10869,7 +10968,7 @@ var work_in_progress_WorkInProgress = function (_Component) {
           ),
           react_default.a.createElement(
             'div',
-            { className: 'medium-12 large-12 small-12 column mrg-XL' },
+            { className: 'md12 lg12 sm12 column mrg-XL' },
             react_default.a.createElement(
               'h2',
               { className: 'title title-L mrg-M' },
@@ -10877,7 +10976,7 @@ var work_in_progress_WorkInProgress = function (_Component) {
             ),
             react_default.a.createElement(
               'div',
-              { className: 'btn-group-block medium-12 large-12 small-12' },
+              { className: 'btn-group-block md12 lg12 sm12' },
               react_default.a.createElement(
                 'div',
                 { 'class': 'btn-group', role: 'group' },
@@ -10930,7 +11029,7 @@ var work_in_progress_WorkInProgress = function (_Component) {
           ),
           react_default.a.createElement(
             'div',
-            { className: 'medium-12 large-12 small-12 column mrg-XL' },
+            { className: 'md12 lg12 sm12 column mrg-XL' },
             react_default.a.createElement(
               'h2',
               { className: 'title title-L mrg-M' },
@@ -10938,7 +11037,7 @@ var work_in_progress_WorkInProgress = function (_Component) {
             ),
             react_default.a.createElement(
               'div',
-              { className: 'icon-group-block medium-12 large-12 small-12' },
+              { className: 'icon-group-block md12 lg12 sm12' },
               react_default.a.createElement(
                 'div',
                 { 'class': 'icon-group', role: 'group' },
@@ -11011,7 +11110,7 @@ var work_in_progress_WorkInProgress = function (_Component) {
           ),
           react_default.a.createElement(
             'div',
-            { className: 'medium-12 large-12 small-12 column mrg-XL' },
+            { className: 'md12 lg12 sm12 column mrg-XL' },
             react_default.a.createElement(
               'h2',
               { className: 'title title-L mrg-M' },
@@ -11019,13 +11118,13 @@ var work_in_progress_WorkInProgress = function (_Component) {
             ),
             react_default.a.createElement(
               'div',
-              { className: 'carousel-block medium-12 large-12 small-12 mrg-XL column' },
+              { className: 'carousel-block md12 lg12 sm12 mrg-XL column' },
               react_default.a.createElement(
                 'div',
-                { className: 'carousel-container medium-8 large-8 column' },
+                { className: 'carousel-container md8 lg8 column' },
                 react_default.a.createElement(
                   'div',
-                  { className: 'carousel-hero-img medium-2 large-2 column' },
+                  { className: 'carousel-hero-img md2 lg2 column' },
                   react_default.a.createElement(
                     'ul',
                     null,
@@ -11063,7 +11162,7 @@ var work_in_progress_WorkInProgress = function (_Component) {
                 ),
                 react_default.a.createElement(
                   'div',
-                  { className: 'carousel-main-img medium-10 large-10 column' },
+                  { className: 'carousel-main-img md10 lg10 column' },
                   react_default.a.createElement(
                     'span',
                     { className: 'badge' },
@@ -11077,13 +11176,13 @@ var work_in_progress_WorkInProgress = function (_Component) {
             react_default.a.createElement('br', null),
             react_default.a.createElement(
               'div',
-              { className: 'carousel-block medium-12 large-12 small-12 mrg-XL column' },
+              { className: 'carousel-block md12 lg12 sm12 mrg-XL column' },
               react_default.a.createElement(
                 'div',
-                { className: 'carousel-container medium-8 large-8 column' },
+                { className: 'carousel-container md8 lg8 column' },
                 react_default.a.createElement(
                   'div',
-                  { className: 'carousel-hero-img medium-2 large-2 column' },
+                  { className: 'carousel-hero-img md2 lg2 column' },
                   react_default.a.createElement(
                     'ul',
                     null,
@@ -11122,7 +11221,7 @@ var work_in_progress_WorkInProgress = function (_Component) {
                 ),
                 react_default.a.createElement(
                   'div',
-                  { className: 'carousel-main-img medium-10 large-10 column' },
+                  { className: 'carousel-main-img md10 lg10 column' },
                   react_default.a.createElement(
                     'span',
                     { className: 'badge' },
@@ -11136,7 +11235,7 @@ var work_in_progress_WorkInProgress = function (_Component) {
             react_default.a.createElement('br', null),
             react_default.a.createElement(
               'div',
-              { className: 'carousel-block medium-12 large-12 small-12 mrg-XL column' },
+              { className: 'carousel-block md12 lg12 sm12 mrg-XL column' },
               react_default.a.createElement(
                 'div',
                 { className: 'carousel-main-img badge carousel-main-img-md' },
@@ -12228,7 +12327,7 @@ var work_in_progress_WorkInProgress = function (_Component) {
             ),
             react_default.a.createElement(
               'div',
-              { className: 'color-swatches-list medium-8 large-8' },
+              { className: 'color-swatches-list md8 lg8' },
               react_default.a.createElement(
                 'ul',
                 { className: 'list-product-colors-container swatches-grid' },
@@ -12299,10 +12398,10 @@ var work_in_progress_WorkInProgress = function (_Component) {
             react_default.a.createElement('br', null),
             react_default.a.createElement(
               'div',
-              { className: 'medium-5 large-5 small-12 column' },
+              { className: 'md5 lg5 sm12 column' },
               react_default.a.createElement(
                 'div',
-                { className: 'color-swatches-list medium-12 large-12 small-12' },
+                { className: 'color-swatches-list md12 lg12 sm12' },
                 react_default.a.createElement(
                   'h2',
                   { className: 'title title-L mrg-M' },
@@ -12318,7 +12417,7 @@ var work_in_progress_WorkInProgress = function (_Component) {
                   { className: 'color-swatches-list-label' },
                   react_default.a.createElement(
                     'p',
-                    { className: 'medium-6 small-6 large-6 column' },
+                    { className: 'md6 sm6 lg6 column' },
                     react_default.a.createElement(
                       'span',
                       null,
@@ -12332,7 +12431,7 @@ var work_in_progress_WorkInProgress = function (_Component) {
                   ),
                   react_default.a.createElement(
                     'p',
-                    { className: 'medium-6 small-6 large-6 column' },
+                    { className: 'md6 sm6 lg6 column' },
                     react_default.a.createElement(
                       'a',
                       { href: 'javascript:void(0)', className: 'show-all-cta' },
@@ -12549,7 +12648,7 @@ var work_in_progress_WorkInProgress = function (_Component) {
               react_default.a.createElement('br', null),
               react_default.a.createElement(
                 'div',
-                { className: 'color-swatches-list medium-12 large-12 small-12' },
+                { className: 'color-swatches-list md12 lg12 sm12' },
                 react_default.a.createElement(
                   'span',
                   { className: 'std-txt-label' },
@@ -12560,7 +12659,7 @@ var work_in_progress_WorkInProgress = function (_Component) {
                   { className: 'color-swatches-list-label' },
                   react_default.a.createElement(
                     'p',
-                    { className: 'medium-6 small-6 large-6 column' },
+                    { className: 'md6 sm6 lg6 column' },
                     react_default.a.createElement(
                       'span',
                       null,
@@ -12574,7 +12673,7 @@ var work_in_progress_WorkInProgress = function (_Component) {
                   ),
                   react_default.a.createElement(
                     'p',
-                    { className: 'medium-6 small-6 large-6 column' },
+                    { className: 'md6 sm6 lg6 column' },
                     react_default.a.createElement(
                       'a',
                       { href: 'javascript:void(0)', className: 'show-all-cta' },
@@ -12627,13 +12726,13 @@ var work_in_progress_WorkInProgress = function (_Component) {
               react_default.a.createElement('br', null),
               react_default.a.createElement(
                 'div',
-                { className: 'color-swatches-list medium-12 large-12 small-12' },
+                { className: 'color-swatches-list md12 lg12 sm12' },
                 react_default.a.createElement(
                   'div',
                   { className: 'color-swatches-list-label' },
                   react_default.a.createElement(
                     'p',
-                    { className: 'medium-6 small-6 large-6 column' },
+                    { className: 'md6 sm6 lg6 column' },
                     react_default.a.createElement(
                       'span',
                       null,
@@ -12647,7 +12746,7 @@ var work_in_progress_WorkInProgress = function (_Component) {
                   ),
                   react_default.a.createElement(
                     'p',
-                    { className: 'medium-6 small-6 large-6 column' },
+                    { className: 'md6 sm6 lg6 column' },
                     react_default.a.createElement(
                       'a',
                       { href: 'javascript:void(0)', className: 'show-all-cta' },
@@ -12737,7 +12836,7 @@ var work_in_progress_WorkInProgress = function (_Component) {
             ),
             react_default.a.createElement(
               'div',
-              { className: 'medium-5 large-5 small-12 column' },
+              { className: 'md5 lg5 sm12 column' },
               react_default.a.createElement(
                 'h2',
                 { className: 'title title-L mrg-M' },
@@ -12745,7 +12844,7 @@ var work_in_progress_WorkInProgress = function (_Component) {
               ),
               react_default.a.createElement(
                 'div',
-                { className: 'color-swatches-list medium-12 large-12 small-12' },
+                { className: 'color-swatches-list md12 lg12 sm12' },
                 react_default.a.createElement(
                   'div',
                   { className: 'color-swatches-medium mrg-L' },
@@ -12963,7 +13062,7 @@ var Root_Home = function Home() {
                 { className: 'row' },
                 react_default.a.createElement(
                     'div',
-                    { className: 'small-12 columns' },
+                    { className: 'sm12 columns' },
                     react_default.a.createElement(
                         'h1',
                         { className: 'title title-XL mrg-L' },
@@ -13056,12 +13155,20 @@ var Root_App = function (_React$Component) {
 
             jquery_default()(document).ready(function () {
 
-                jquery_default()(".off-canvas").on("opened.zf.offcanvas", function (e) {
-                    jquery_default()(".design-system-nav-mobile").addClass("off-canvas-open");
+                jquery_default()(".off-canvas-button").click(function () {
+                    if (jquery_default()(this).hasClass('off-canvas-open')) {
+                        jquery_default()(this).removeClass('off-canvas-open');
+                        jquery_default()(".design-system-nav-mobile").removeClass("off-canvas-open");
+                        jquery_default()(".off-canvas").removeClass("is-open");
+                        jquery_default()(".off-canvas-content").removeClass("is-open-left").removeClass("has-transition-push").removeClass("has-position-left");
+                    } else {
+                        jquery_default()(this).addClass('off-canvas-open');
+                        jquery_default()(".design-system-nav-mobile").addClass("off-canvas-open");
+                        jquery_default()(".off-canvas").addClass("is-open");
+                        jquery_default()(".off-canvas-content").addClass("is-open-left").addClass("has-transition-push").addClass("has-position-left");
+                    }
                 });
-                jquery_default()(".off-canvas").on("closed.zf.offcanvas", function (e) {
-                    jquery_default()(".design-system-nav-mobile").removeClass("off-canvas-open");
-                });
+
                 jquery_default()(".js-menu-expand").click(function () {
                     var targetLI = jquery_default()(this).closest("li");
                     var targetMenu = jquery_default()(this).closest(".design-system-menu");
@@ -13126,7 +13233,7 @@ var Root_App = function (_React$Component) {
                             { className: 'row expand design-system-nav-mobile-header' },
                             react_default.a.createElement(
                                 'div',
-                                { className: 'small-4 columns algn-lft no-side-padding' },
+                                { className: 'sm4 columns algn-lft no-side-padding' },
                                 react_default.a.createElement(
                                     'a',
                                     { href: 'javascript:void();', className: 'button off-canvas-button', 'data-toggle': 'offCanvas', id: 'offCanvasBtn' },
@@ -13135,7 +13242,7 @@ var Root_App = function (_React$Component) {
                             ),
                             react_default.a.createElement(
                                 'div',
-                                { className: 'small-4 columns algn-mid no-side-padding' },
+                                { className: 'sm4 columns algn-mid no-side-padding' },
                                 react_default.a.createElement(
                                     es["b" /* Link */],
                                     { to: '/' },
@@ -13144,7 +13251,7 @@ var Root_App = function (_React$Component) {
                             ),
                             react_default.a.createElement(
                                 'div',
-                                { className: 'small-4 columns algn-rght no-side-padding' },
+                                { className: 'sm4 columns algn-rght no-side-padding' },
                                 react_default.a.createElement(
                                     'a',
                                     { href: 'javascript:void(0)', className: 'js-search-toggle-mobile design-system-search-btn' },
@@ -13157,7 +13264,7 @@ var Root_App = function (_React$Component) {
                             { className: 'row expand design-system-search-field' },
                             react_default.a.createElement(
                                 'div',
-                                { className: 'small-12' },
+                                { className: 'sm12' },
                                 react_default.a.createElement('input', { type: 'text', placeholder: 'Search' })
                             )
                         )
@@ -13307,42 +13414,42 @@ var js__temp = function () {
 /***/ "MCbc":
 /***/ (function(module, exports) {
 
-module.exports = "<svg id=\"action-eye-crossed-out-Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 48 48\" enable-background=\"new 0 0 48 48\"><title>icon/Action/eye-crossed-out</title><g transform=\"translate(11 12)\"><path id=\"action-eye-crossed-out-a_1_\" d=\"M23 .3c.3-.2.5-.3.8-.3h.1c.3 0 .5.1.7.3.2.2.4.5.4.8 0 .3-.1.6-.4.8l-4.3 4.4c.5.3 1 .7 1.5 1.1.5.4.9.8 1.3 1.1l1.1 1.1c.4.4.6.6.8.9l.6.6.3.3c.2.2.2.4 0 .7-.2.2-.5.5-.8.9-.3.4-.9 1-1.8 1.8s-1.8 1.6-2.8 2.3c-.9.6-2.1 1.2-3.5 1.8-1.4.5-2.7.8-4 .8-1.4 0-2.9-.3-4.6-1l-5 5.2c-.1 0-.4.1-.7.1-.3 0-.6-.1-.8-.3-.2-.2-.3-.6-.3-.9 0-.3.1-.6.3-.7L23 .3zm-7.4 14.2c-.7.8-1.6 1.2-2.7 1.2-.5 0-1-.1-1.4-.3l-.8.8c.7.4 1.4.6 2.2.6.9 0 1.7-.2 2.5-.7.7-.5 1.3-1.1 1.8-1.9.4-.8.7-1.6.7-2.5 0-.8-.2-1.6-.6-2.3l-.8.8c.2.5.3 1 .3 1.5 0 1.1-.4 2-1.2 2.8zM10.9 4.1c.7-.1 1.4-.2 2.1-.2 1.3 0 2.7.3 4.2.8l-2.3 2.4c-.7-.3-1.3-.4-1.9-.4-1.4 0-2.5.5-3.4 1.5-.9 1-1.4 2.2-1.4 3.6 0 .6.1 1.3.4 1.9L5.5 17c-1-.6-1.9-1.3-2.7-2.1-.9-.8-1.5-1.4-1.8-1.8-.3-.3-.5-.6-.8-.9-.2-.2-.2-.4 0-.7l.2-.5c.2-.2.3-.4.5-.6l.8-.8c.3-.3.7-.7 1.1-1 .3-.4.8-.7 1.2-1.1 1-.8 2-1.5 3.1-2 .7-.4 1.3-.6 1.9-.9.6-.2 1.3-.4 1.9-.5zm-.6 4.8c.8-.7 1.7-1.1 2.7-1.1.4 0 .7.1 1 .2l-4.6 4.8c-.1-.3-.2-.7-.2-1.1 0-1.1.4-2 1.1-2.8z\" fill=\"#384048\"/><defs><filter id=\"action-eye-crossed-out-Adobe_OpacityMaskFilter\" filterUnits=\"userSpaceOnUse\" x=\"-11\" y=\"-12\" width=\"48\" height=\"48\"><feColorMatrix values=\"1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0\"/></filter></defs><mask maskUnits=\"userSpaceOnUse\" x=\"-11\" y=\"-12\" width=\"48\" height=\"48\" id=\"action-eye-crossed-out-b\"><g filter=\"url(#action-eye-crossed-out-Adobe_OpacityMaskFilter)\"><path id=\"action-eye-crossed-out-a\" d=\"M23 .3c.3-.2.5-.3.8-.3h.1c.3 0 .5.1.7.3.2.2.4.5.4.8 0 .3-.1.6-.4.8l-4.3 4.4c.5.3 1 .7 1.5 1.1.5.4.9.8 1.3 1.1l1.1 1.1c.4.4.6.6.8.9l.6.6.3.3c.2.2.2.4 0 .7-.2.2-.5.5-.8.9-.3.4-.9 1-1.8 1.8s-1.8 1.6-2.8 2.3c-.9.6-2.1 1.2-3.5 1.8-1.4.5-2.7.8-4 .8-1.4 0-2.9-.3-4.6-1l-5 5.2c-.1 0-.4.1-.7.1-.3 0-.6-.1-.8-.3-.2-.2-.3-.6-.3-.9 0-.3.1-.6.3-.7L23 .3zm-7.4 14.2c-.7.8-1.6 1.2-2.7 1.2-.5 0-1-.1-1.4-.3l-.8.8c.7.4 1.4.6 2.2.6.9 0 1.7-.2 2.5-.7.7-.5 1.3-1.1 1.8-1.9.4-.8.7-1.6.7-2.5 0-.8-.2-1.6-.6-2.3l-.8.8c.2.5.3 1 .3 1.5 0 1.1-.4 2-1.2 2.8zM10.9 4.1c.7-.1 1.4-.2 2.1-.2 1.3 0 2.7.3 4.2.8l-2.3 2.4c-.7-.3-1.3-.4-1.9-.4-1.4 0-2.5.5-3.4 1.5-.9 1-1.4 2.2-1.4 3.6 0 .6.1 1.3.4 1.9L5.5 17c-1-.6-1.9-1.3-2.7-2.1-.9-.8-1.5-1.4-1.8-1.8-.3-.3-.5-.6-.8-.9-.2-.2-.2-.4 0-.7l.2-.5c.2-.2.3-.4.5-.6l.8-.8c.3-.3.7-.7 1.1-1 .3-.4.8-.7 1.2-1.1 1-.8 2-1.5 3.1-2 .7-.4 1.3-.6 1.9-.9.6-.2 1.3-.4 1.9-.5zm-.6 4.8c.8-.7 1.7-1.1 2.7-1.1.4 0 .7.1 1 .2l-4.6 4.8c-.1-.3-.2-.7-.2-1.1 0-1.1.4-2 1.1-2.8z\" fill=\"#fff\"/></g></mask><g mask=\"url(#action-eye-crossed-out-b)\"><path d=\"M-11-12h48v48h-48v-48z\" fill=\"#111\"/></g></g></svg>"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"action-eye-crossed-out-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"action-eye-crossed-out-a_1_\" style=\"fill:#111111;\" d=\"M34,12.3c0.3-0.2,0.5-0.3,0.8-0.3h0.1c0.3,0,0.5,0.1,0.7,0.3\r\n\tc0.2,0.2,0.4,0.5,0.4,0.8c0,0.3-0.1,0.6-0.4,0.8l-4.3,4.4c0.5,0.3,1,0.7,1.5,1.1s0.9,0.8,1.3,1.1l1.1,1.1c0.4,0.4,0.6,0.6,0.8,0.9\r\n\tl0.6,0.6l0.3,0.3c0.2,0.2,0.2,0.4,0,0.7c-0.2,0.2-0.5,0.5-0.8,0.9s-0.9,1-1.8,1.8c-0.9,0.8-1.8,1.6-2.8,2.3\r\n\tc-0.9,0.6-2.1,1.2-3.5,1.8c-1.4,0.5-2.7,0.8-4,0.8c-1.4,0-2.9-0.3-4.6-1l-5,5.2c-0.1,0-0.4,0.1-0.7,0.1s-0.6-0.1-0.8-0.3\r\n\tc-0.2-0.2-0.3-0.6-0.3-0.9s0.1-0.6,0.3-0.7L34,12.3z M26.6,26.5c-0.7,0.8-1.6,1.2-2.7,1.2c-0.5,0-1-0.1-1.4-0.3l-0.8,0.8\r\n\tc0.7,0.4,1.4,0.6,2.2,0.6c0.9,0,1.7-0.2,2.5-0.7c0.7-0.5,1.3-1.1,1.8-1.9c0.4-0.8,0.7-1.6,0.7-2.5c0-0.8-0.2-1.6-0.6-2.3l-0.8,0.8\r\n\tc0.2,0.5,0.3,1,0.3,1.5C27.8,24.8,27.4,25.7,26.6,26.5z M21.9,16.1c0.7-0.1,1.4-0.2,2.1-0.2c1.3,0,2.7,0.3,4.2,0.8l-2.3,2.4\r\n\tc-0.7-0.3-1.3-0.4-1.9-0.4c-1.4,0-2.5,0.5-3.4,1.5s-1.4,2.2-1.4,3.6c0,0.6,0.1,1.3,0.4,1.9L16.5,29c-1-0.6-1.9-1.3-2.7-2.1\r\n\tc-0.9-0.8-1.5-1.4-1.8-1.8c-0.3-0.3-0.5-0.6-0.8-0.9c-0.2-0.2-0.2-0.4,0-0.7l0.2-0.5c0.2-0.2,0.3-0.4,0.5-0.6l0.8-0.8\r\n\tc0.3-0.3,0.7-0.7,1.1-1c0.3-0.4,0.8-0.7,1.2-1.1c1-0.8,2-1.5,3.1-2c0.7-0.4,1.3-0.6,1.9-0.9C20.6,16.4,21.3,16.2,21.9,16.1z\r\n\t M21.3,20.9c0.8-0.7,1.7-1.1,2.7-1.1c0.4,0,0.7,0.1,1,0.2l-4.6,4.8c-0.1-0.3-0.2-0.7-0.2-1.1C20.2,22.6,20.6,21.7,21.3,20.9z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "O+Bj":
 /***/ (function(module, exports) {
 
-module.exports = "<svg id=\"icon_x2F_Nav_x2F_triangle-up-Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 48 48\" enable-background=\"new 0 0 48 48\"><title>icon/Nav/triangle-up</title><g id=\"icon_x2F_Nav_x2F_triangle-up-Symbols\"><g id=\"icon_x2F_Nav_x2F_triangle-up\"><g id=\"icon_x2F_Nav_x2F_triangle-up-Icon\" transform=\"translate(18 20)\"><g id=\"icon_x2F_Nav_x2F_triangle-up-Mask\"><path id=\"icon_x2F_Nav_x2F_triangle-up-path-1_1_\" fill=\"#384048\" d=\"M6 0l6 8H0z\"/></g><defs><filter id=\"icon_x2F_Nav_x2F_triangle-up-Adobe_OpacityMaskFilter\" filterUnits=\"userSpaceOnUse\" x=\"-18\" y=\"-20\" width=\"48\" height=\"48\"><feColorMatrix values=\"1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0\"/></filter></defs><mask maskUnits=\"userSpaceOnUse\" x=\"-18\" y=\"-20\" width=\"48\" height=\"48\" id=\"icon_x2F_Nav_x2F_triangle-up-mask-2\"><g filter=\"url(#icon_x2F_Nav_x2F_triangle-up-Adobe_OpacityMaskFilter)\"><path id=\"icon_x2F_Nav_x2F_triangle-up-path-1\" fill=\"#fff\" d=\"M6 0l6 8H0z\"/></g></mask><g id=\"icon_x2F_Nav_x2F_triangle-up-Color_x2F_Grayscale_x2F_Night-Sky\" mask=\"url(#icon_x2F_Nav_x2F_triangle-up-mask-2)\"><path fill=\"#111\" d=\"M0 0h48v48H0z\" transform=\"translate(-18 -20)\" id=\"icon_x2F_Nav_x2F_triangle-up-Swatch\"/></g></g></g></g></svg>"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"icon_x2F_Nav_x2F_triangle-up-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"icon_x2F_Nav_x2F_triangle-up-path-1_1_\" style=\"fill:#111111;\" d=\"M24,20l6,8H18L24,20z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "O1LD":
 /***/ (function(module, exports) {
 
-module.exports = "<svg id=\"action-eye-Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 48 48\" enable-background=\"new 0 0 48 48\"><title>icon/Action/eye</title><g transform=\"translate(11 17)\"><path id=\"action-eye-a_1_\" d=\"M25.8 6.7c.2.2.2.4 0 .6-.2.3-.4.5-.6.7-.2.2-.6.6-1.3 1.2-.6.6-1.3 1.2-2.1 1.6-.7.5-1.6 1-2.5 1.5-.9.5-2 .9-3.1 1.2-1 .3-2.1.5-3.2.5-1.3 0-2.7-.2-4-.7s-2.5-1-3.4-1.5c-1-.6-1.9-1.3-2.8-2C1.8 9 1.2 8.5 1 8.2c-.4-.3-.6-.6-.9-.9-.1-.2-.1-.4 0-.6.3-.3.5-.6.8-.9.3-.3.9-.8 1.8-1.6.9-.7 1.8-1.4 2.8-2 1-.5 2.1-1 3.5-1.5s2.7-.7 4-.7c1.3 0 2.7.2 4 .7 1.4.5 2.5 1 3.5 1.6 1 .6 1.9 1.2 2.8 1.9.9.7 1.5 1.3 1.9 1.7.3.4.5.7.6.8M13 11.5c1.4 0 2.5-.4 3.4-1.3.9-.9 1.4-1.9 1.4-3.2s-.5-2.3-1.4-3.2c-.9-.9-2.1-1.3-3.4-1.3-1.4 0-2.5.4-3.4 1.3-1 .9-1.5 1.9-1.5 3.2s.5 2.3 1.4 3.2 2.1 1.3 3.5 1.3M16.8 7c0 1-.4 1.8-1.1 2.5-.7.7-1.6 1-2.7 1-1 0-1.9-.3-2.7-1C9.6 8.8 9.2 8 9.2 7s.4-1.8 1.1-2.5c.7-.7 1.6-1 2.7-1 1 0 1.9.3 2.7 1 .7.7 1.1 1.5 1.1 2.5\" fill=\"#384048\"/><defs><filter id=\"action-eye-Adobe_OpacityMaskFilter\" filterUnits=\"userSpaceOnUse\" x=\"-11\" y=\"-17\" width=\"48\" height=\"48\"><feColorMatrix values=\"1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0\"/></filter></defs><mask maskUnits=\"userSpaceOnUse\" x=\"-11\" y=\"-17\" width=\"48\" height=\"48\" id=\"action-eye-b\"><g filter=\"url(#action-eye-Adobe_OpacityMaskFilter)\"><path id=\"action-eye-a\" d=\"M25.8 6.7c.2.2.2.4 0 .6-.2.3-.4.5-.6.7-.2.2-.6.6-1.3 1.2-.6.6-1.3 1.2-2.1 1.6-.7.5-1.6 1-2.5 1.5-.9.5-2 .9-3.1 1.2-1 .3-2.1.5-3.2.5-1.3 0-2.7-.2-4-.7s-2.5-1-3.4-1.5c-1-.6-1.9-1.3-2.8-2C1.8 9 1.2 8.5 1 8.2c-.4-.3-.6-.6-.9-.9-.1-.2-.1-.4 0-.6.3-.3.5-.6.8-.9.3-.3.9-.8 1.8-1.6.9-.7 1.8-1.4 2.8-2 1-.5 2.1-1 3.5-1.5s2.7-.7 4-.7c1.3 0 2.7.2 4 .7 1.4.5 2.5 1 3.5 1.6 1 .6 1.9 1.2 2.8 1.9.9.7 1.5 1.3 1.9 1.7.3.4.5.7.6.8M13 11.5c1.4 0 2.5-.4 3.4-1.3.9-.9 1.4-1.9 1.4-3.2s-.5-2.3-1.4-3.2c-.9-.9-2.1-1.3-3.4-1.3-1.4 0-2.5.4-3.4 1.3-1 .9-1.5 1.9-1.5 3.2s.5 2.3 1.4 3.2 2.1 1.3 3.5 1.3M16.8 7c0 1-.4 1.8-1.1 2.5-.7.7-1.6 1-2.7 1-1 0-1.9-.3-2.7-1C9.6 8.8 9.2 8 9.2 7s.4-1.8 1.1-2.5c.7-.7 1.6-1 2.7-1 1 0 1.9.3 2.7 1 .7.7 1.1 1.5 1.1 2.5\" fill=\"#fff\"/></g></mask><g mask=\"url(#action-eye-b)\"><path d=\"M-11-17h48v48h-48v-48z\" fill=\"#111\"/></g></g></svg>"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"action-eye-Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\"\r\n\t y=\"0px\" viewBox=\"0 0 48 48\" style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"action-eye-a_1_\" style=\"fill:#111111;\" d=\"M36.8,23.7c0.2,0.2,0.2,0.4,0,0.6c-0.2,0.3-0.4,0.5-0.6,0.7\r\n\tc-0.2,0.2-0.6,0.6-1.3,1.2c-0.6,0.6-1.3,1.2-2.1,1.6c-0.7,0.5-1.6,1-2.5,1.5s-2,0.9-3.1,1.2c-1,0.3-2.1,0.5-3.2,0.5\r\n\tc-1.3,0-2.7-0.2-4-0.7c-1.3-0.5-2.5-1-3.4-1.5c-1-0.6-1.9-1.3-2.8-2c-1-0.8-1.6-1.3-1.8-1.6c-0.4-0.3-0.6-0.6-0.9-0.9\r\n\tc-0.1-0.2-0.1-0.4,0-0.6c0.3-0.3,0.5-0.6,0.8-0.9c0.3-0.3,0.9-0.8,1.8-1.6c0.9-0.7,1.8-1.4,2.8-2c1-0.5,2.1-1,3.5-1.5s2.7-0.7,4-0.7\r\n\ts2.7,0.2,4,0.7c1.4,0.5,2.5,1,3.5,1.6c1,0.6,1.9,1.2,2.8,1.9c0.9,0.7,1.5,1.3,1.9,1.7C36.5,23.3,36.7,23.6,36.8,23.7 M24,28.5\r\n\tc1.4,0,2.5-0.4,3.4-1.3c0.9-0.9,1.4-1.9,1.4-3.2s-0.5-2.3-1.4-3.2c-0.9-0.9-2.1-1.3-3.4-1.3c-1.4,0-2.5,0.4-3.4,1.3\r\n\tc-1,0.9-1.5,1.9-1.5,3.2s0.5,2.3,1.4,3.2C21.4,28.1,22.6,28.5,24,28.5 M27.8,24c0,1-0.4,1.8-1.1,2.5c-0.7,0.7-1.6,1-2.7,1\r\n\tc-1,0-1.9-0.3-2.7-1c-0.7-0.7-1.1-1.5-1.1-2.5s0.4-1.8,1.1-2.5s1.6-1,2.7-1c1,0,1.9,0.3,2.7,1C27.4,22.2,27.8,23,27.8,24\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "Oiyx":
 /***/ (function(module, exports) {
 
-module.exports = "<svg id=\"icon_x2F_Social_x2F_twitter-fill-Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 48 48\" enable-background=\"new 0 0 48 48\"><title>icon/Social/twitter-fill</title><g id=\"icon_x2F_Social_x2F_twitter-fill-Symbols\"><g id=\"icon_x2F_Social_x2F_twitter-fill\"><g id=\"icon_x2F_Social_x2F_twitter-fill-Icon\" transform=\"translate(8 8)\"><g id=\"icon_x2F_Social_x2F_twitter-fill-Mask\"><path id=\"icon_x2F_Social_x2F_twitter-fill-path-1_1_\" d=\"M16 0C7.2 0 0 7.2 0 16s7.2 16 16 16 16-7.2 16-16S24.8 0 16 0zm8.3 12.3v.5c0 5.3-4.1 11.5-11.5 11.5-2.3 0-4.4-.7-6.2-1.8.3 0 .6.1 1 .1 1.9 0 3.6-.6 5-1.7-1.8 0-3.3-1.2-3.8-2.8.2 0 .5.1.8.1.4 0 .7 0 1.1-.1-1.8-.4-3.2-2-3.2-4V14c.5.3 1.2.5 1.8.5-1.1-.7-1.8-2-1.8-3.4 0-.7.2-1.4.5-2 2 2.4 5 4.1 8.3 4.2-.1-.3-.1-.6-.1-.9 0-2.2 1.8-4 4-4 1.2 0 2.2.5 2.9 1.3.9-.2 1.8-.5 2.6-1-.3.9-.9 1.7-1.8 2.2.8-.1 1.6-.3 2.3-.6-.4.7-1.1 1.4-1.9 2z\" fill=\"#384048\"/></g><defs><filter id=\"icon_x2F_Social_x2F_twitter-fill-Adobe_OpacityMaskFilter\" filterUnits=\"userSpaceOnUse\" x=\"-8\" y=\"-8\" width=\"48\" height=\"48\"><feColorMatrix values=\"1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0\"/></filter></defs><mask maskUnits=\"userSpaceOnUse\" x=\"-8\" y=\"-8\" width=\"48\" height=\"48\" id=\"icon_x2F_Social_x2F_twitter-fill-mask-2\"><g filter=\"url(#icon_x2F_Social_x2F_twitter-fill-Adobe_OpacityMaskFilter)\"><path id=\"icon_x2F_Social_x2F_twitter-fill-path-1\" d=\"M16 0C7.2 0 0 7.2 0 16s7.2 16 16 16 16-7.2 16-16S24.8 0 16 0zm8.3 12.3v.5c0 5.3-4.1 11.5-11.5 11.5-2.3 0-4.4-.7-6.2-1.8.3 0 .6.1 1 .1 1.9 0 3.6-.6 5-1.7-1.8 0-3.3-1.2-3.8-2.8.2 0 .5.1.8.1.4 0 .7 0 1.1-.1-1.8-.4-3.2-2-3.2-4V14c.5.3 1.2.5 1.8.5-1.1-.7-1.8-2-1.8-3.4 0-.7.2-1.4.5-2 2 2.4 5 4.1 8.3 4.2-.1-.3-.1-.6-.1-.9 0-2.2 1.8-4 4-4 1.2 0 2.2.5 2.9 1.3.9-.2 1.8-.5 2.6-1-.3.9-.9 1.7-1.8 2.2.8-.1 1.6-.3 2.3-.6-.4.7-1.1 1.4-1.9 2z\" fill=\"#fff\"/></g></mask><g id=\"icon_x2F_Social_x2F_twitter-fill-Color_x2F_Grayscale_x2F_Night-Sky\" mask=\"url(#icon_x2F_Social_x2F_twitter-fill-mask-2)\"><path fill=\"#111\" d=\"M0 0h48v48H0z\" transform=\"translate(-8 -8)\" id=\"icon_x2F_Social_x2F_twitter-fill-Swatch\"/></g></g></g></g></svg>"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"icon_x2F_Social_x2F_twitter-fill-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"icon_x2F_Social_x2F_twitter-fill-path-1_1_\" style=\"fill:#111111;\" d=\"M24,8C15.2,8,8,15.2,8,24s7.2,16,16,16\r\n\ts16-7.2,16-16S32.8,8,24,8z M32.3,20.3v0.5c0,5.3-4.1,11.5-11.5,11.5c-2.3,0-4.4-0.7-6.2-1.8c0.3,0,0.6,0.1,1,0.1\r\n\tc1.9,0,3.6-0.6,5-1.7c-1.8,0-3.3-1.2-3.8-2.8c0.2,0,0.5,0.1,0.8,0.1c0.4,0,0.7,0,1.1-0.1c-1.8-0.4-3.2-2-3.2-4V22\r\n\tc0.5,0.3,1.2,0.5,1.8,0.5c-1.1-0.7-1.8-2-1.8-3.4c0-0.7,0.2-1.4,0.5-2c2,2.4,5,4.1,8.3,4.2c-0.1-0.3-0.1-0.6-0.1-0.9\r\n\tc0-2.2,1.8-4,4-4c1.2,0,2.2,0.5,2.9,1.3c0.9-0.2,1.8-0.5,2.6-1c-0.3,0.9-0.9,1.7-1.8,2.2c0.8-0.1,1.6-0.3,2.3-0.6\r\n\tC33.8,19,33.1,19.7,32.3,20.3z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "Q4Th":
 /***/ (function(module, exports) {
 
-module.exports = "<svg id=\"icon_x2F_Utility_x2F_recycle-Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 48 48\" enable-background=\"new 0 0 48 48\"><title>icon/Utility/recycle</title><g id=\"icon_x2F_Utility_x2F_recycle-Symbols\"><g id=\"icon_x2F_Utility_x2F_recycle\"><g id=\"icon_x2F_Utility_x2F_recycle-Icon\" transform=\"translate(12 12)\"><g id=\"icon_x2F_Utility_x2F_recycle-Mask\"><path id=\"icon_x2F_Utility_x2F_recycle-path-1_1_\" d=\"M14.9 6.7l1.1.4-2.8-4.9c-.3-.4-.7-.7-1.2-.7s-1 .3-1.2.7L7.2 8.4c-.1.2-.4.4-.6.4-.1 0-.2 0-.3-.1-.4-.2-.5-.7-.3-1l3.6-6.3C10 .5 11 0 12 0s1.9.5 2.4 1.4l2.8 4.9.3-1.1c.1-.4.5-.6.9-.5.4.1.6.5.5.9l-.8 2.8c0 .2-.2.3-.3.4-.1.1-.2.1-.3.1h-.2l-2.7-.8c-.5-.1-.7-.5-.6-.9.1-.3.5-.6.9-.5zm8.7 11c.5.9.5 2 0 2.9-.5.9-1.4 1.4-2.4 1.4h-5.6l.8.8c.3.3.3.7 0 1-.1.1-.3.2-.5.2s-.4-.1-.5-.2l-2-2.1c-.1-.1-.2-.3-.2-.5s.1-.4.2-.5l2-2c.3-.3.7-.3 1 0 .3.3.3.7 0 1l-.8.8h5.6c.5 0 1-.3 1.2-.7.3-.4.3-1 0-1.4l-3.6-6.3c-.2-.3-.1-.8.3-1 .3-.2.8-.1.9.3l3.6 6.3zm-13.7 3c.4 0 .7.3.7.7 0 .4-.3.7-.7.7H2.8c-1 0-1.9-.5-2.4-1.4-.5-.9-.5-2 0-2.9l2.8-4.9-1.1.3c-.4.1-.8-.1-.8-.5-.1-.4.1-.8.5-.9l2.7-.7c.2 0 .4 0 .5.1.2.1.3.3.3.4l.7 2.8c.1.4-.1.8-.5.9h-.2c-.3 0-.6-.2-.7-.5l-.3-1.1-2.8 4.9c-.3.4-.3 1 0 1.4s.7.7 1.2.7h7.2z\" fill=\"#333\"/></g><defs><filter id=\"icon_x2F_Utility_x2F_recycle-Adobe_OpacityMaskFilter\" filterUnits=\"userSpaceOnUse\" x=\"-12\" y=\"-12\" width=\"48\" height=\"48\"><feColorMatrix values=\"1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0\"/></filter></defs><mask maskUnits=\"userSpaceOnUse\" x=\"-12\" y=\"-12\" width=\"48\" height=\"48\" id=\"icon_x2F_Utility_x2F_recycle-mask-2\"><g filter=\"url(#icon_x2F_Utility_x2F_recycle-Adobe_OpacityMaskFilter)\"><path id=\"icon_x2F_Utility_x2F_recycle-path-1\" d=\"M14.9 6.7l1.1.4-2.8-4.9c-.3-.4-.7-.7-1.2-.7s-1 .3-1.2.7L7.2 8.4c-.1.2-.4.4-.6.4-.1 0-.2 0-.3-.1-.4-.2-.5-.7-.3-1l3.6-6.3C10 .5 11 0 12 0s1.9.5 2.4 1.4l2.8 4.9.3-1.1c.1-.4.5-.6.9-.5.4.1.6.5.5.9l-.8 2.8c0 .2-.2.3-.3.4-.1.1-.2.1-.3.1h-.2l-2.7-.8c-.5-.1-.7-.5-.6-.9.1-.3.5-.6.9-.5zm8.7 11c.5.9.5 2 0 2.9-.5.9-1.4 1.4-2.4 1.4h-5.6l.8.8c.3.3.3.7 0 1-.1.1-.3.2-.5.2s-.4-.1-.5-.2l-2-2.1c-.1-.1-.2-.3-.2-.5s.1-.4.2-.5l2-2c.3-.3.7-.3 1 0 .3.3.3.7 0 1l-.8.8h5.6c.5 0 1-.3 1.2-.7.3-.4.3-1 0-1.4l-3.6-6.3c-.2-.3-.1-.8.3-1 .3-.2.8-.1.9.3l3.6 6.3zm-13.7 3c.4 0 .7.3.7.7 0 .4-.3.7-.7.7H2.8c-1 0-1.9-.5-2.4-1.4-.5-.9-.5-2 0-2.9l2.8-4.9-1.1.3c-.4.1-.8-.1-.8-.5-.1-.4.1-.8.5-.9l2.7-.7c.2 0 .4 0 .5.1.2.1.3.3.3.4l.7 2.8c.1.4-.1.8-.5.9h-.2c-.3 0-.6-.2-.7-.5l-.3-1.1-2.8 4.9c-.3.4-.3 1 0 1.4s.7.7 1.2.7h7.2z\" fill=\"#fff\"/></g></mask><g id=\"icon_x2F_Utility_x2F_recycle-Color_x2F_Grayscale_x2F_Night-Sky\" mask=\"url(#icon_x2F_Utility_x2F_recycle-mask-2)\"><path fill=\"#111\" d=\"M0 0h48v48H0z\" transform=\"translate(-12 -12)\" id=\"icon_x2F_Utility_x2F_recycle-Swatch\"/></g></g></g></g></svg>"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"icon_x2F_Utility_x2F_recycle-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"icon_x2F_Utility_x2F_recycle-path-1_1_\" style=\"fill:#333333;\" d=\"M26.9,18.7l1.1,0.4l-2.8-4.9c-0.3-0.4-0.7-0.7-1.2-0.7\r\n\ts-1,0.3-1.2,0.7l-3.6,6.2c-0.1,0.2-0.4,0.4-0.6,0.4c-0.1,0-0.2,0-0.3-0.1c-0.4-0.2-0.5-0.7-0.3-1l3.6-6.3C22,12.5,23,12,24,12\r\n\ts1.9,0.5,2.4,1.4l2.8,4.9l0.3-1.1c0.1-0.4,0.5-0.6,0.9-0.5c0.4,0.1,0.6,0.5,0.5,0.9l-0.8,2.8c0,0.2-0.2,0.3-0.3,0.4\r\n\tc-0.1,0.1-0.2,0.1-0.3,0.1h-0.2l-2.7-0.8c-0.5-0.1-0.7-0.5-0.6-0.9C26.1,18.9,26.5,18.6,26.9,18.7z M35.6,29.7c0.5,0.9,0.5,2,0,2.9\r\n\tc-0.5,0.9-1.4,1.4-2.4,1.4h-5.6l0.8,0.8c0.3,0.3,0.3,0.7,0,1c-0.1,0.1-0.3,0.2-0.5,0.2s-0.4-0.1-0.5-0.2l-2-2.1\r\n\tc-0.1-0.1-0.2-0.3-0.2-0.5c0-0.2,0.1-0.4,0.2-0.5l2-2c0.3-0.3,0.7-0.3,1,0s0.3,0.7,0,1l-0.8,0.8h5.6c0.5,0,1-0.3,1.2-0.7\r\n\tc0.3-0.4,0.3-1,0-1.4l-3.6-6.3c-0.2-0.3-0.1-0.8,0.3-1c0.3-0.2,0.8-0.1,0.9,0.3C32,23.4,35.6,29.7,35.6,29.7z M21.9,32.7\r\n\tc0.4,0,0.7,0.3,0.7,0.7s-0.3,0.7-0.7,0.7h-7.1c-1,0-1.9-0.5-2.4-1.4c-0.5-0.9-0.5-2,0-2.9l2.8-4.9l-1.1,0.3\r\n\tc-0.4,0.1-0.8-0.1-0.8-0.5c-0.1-0.4,0.1-0.8,0.5-0.9l2.7-0.7c0.2,0,0.4,0,0.5,0.1c0.2,0.1,0.3,0.3,0.3,0.4l0.7,2.8\r\n\tc0.1,0.4-0.1,0.8-0.5,0.9h-0.2c-0.3,0-0.6-0.2-0.7-0.5l-0.3-1.1l-2.8,4.9c-0.3,0.4-0.3,1,0,1.4c0.3,0.4,0.7,0.7,1.2,0.7\r\n\tC14.7,32.7,21.9,32.7,21.9,32.7z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "QJkO":
 /***/ (function(module, exports) {
 
-module.exports = "<svg id=\"icon_x2F_Nav_x2F_collapse-right-Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 48 48\" enable-background=\"new 0 0 48 48\"><title>icon/Nav/collapse-right</title><g id=\"icon_x2F_Nav_x2F_collapse-right-Symbols\"><g id=\"icon_x2F_Nav_x2F_collapse-right\"><g id=\"icon_x2F_Nav_x2F_collapse-right-Icon\" transform=\"translate(13 16)\"><g id=\"icon_x2F_Nav_x2F_collapse-right-Mask\"><path id=\"icon_x2F_Nav_x2F_collapse-right-path-1_1_\" d=\"M13.2 9l-4.5 4.3c-.4.4-.4 1 0 1.4.4.4 1.1.4 1.5 0l6.3-6c.4-.4.4-1 0-1.4l-6.3-6c-.4-.4-1.1-.4-1.5 0s-.4 1 0 1.4L13.2 7H1c-.5 0-1 .4-1 1s.5 1 1 1h12.2zm6.7-8c0-.6.5-1 1-1s1 .4 1 1v14c0 .6-.5 1-1 1s-1-.4-1-1V1z\" fill=\"#384048\"/></g><defs><filter id=\"icon_x2F_Nav_x2F_collapse-right-Adobe_OpacityMaskFilter\" filterUnits=\"userSpaceOnUse\" x=\"-13\" y=\"-16\" width=\"48\" height=\"48\"><feColorMatrix values=\"1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0\"/></filter></defs><mask maskUnits=\"userSpaceOnUse\" x=\"-13\" y=\"-16\" width=\"48\" height=\"48\" id=\"icon_x2F_Nav_x2F_collapse-right-mask-2\"><g filter=\"url(#icon_x2F_Nav_x2F_collapse-right-Adobe_OpacityMaskFilter)\"><path id=\"icon_x2F_Nav_x2F_collapse-right-path-1\" d=\"M13.2 9l-4.5 4.3c-.4.4-.4 1 0 1.4.4.4 1.1.4 1.5 0l6.3-6c.4-.4.4-1 0-1.4l-6.3-6c-.4-.4-1.1-.4-1.5 0s-.4 1 0 1.4L13.2 7H1c-.5 0-1 .4-1 1s.5 1 1 1h12.2zm6.7-8c0-.6.5-1 1-1s1 .4 1 1v14c0 .6-.5 1-1 1s-1-.4-1-1V1z\" fill=\"#fff\"/></g></mask><g id=\"icon_x2F_Nav_x2F_collapse-right-Color_x2F_Grayscale_x2F_Night-Sky\" mask=\"url(#icon_x2F_Nav_x2F_collapse-right-mask-2)\"><path fill=\"#111\" d=\"M0 0h48v48H0z\" transform=\"translate(-13 -16)\" id=\"icon_x2F_Nav_x2F_collapse-right-Swatch\"/></g></g></g></g></svg>"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"icon_x2F_Nav_x2F_collapse-right-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"icon_x2F_Nav_x2F_collapse-right-path-1_1_\" style=\"fill:#111111;\" d=\"M26.2,25l-4.5,4.3c-0.4,0.4-0.4,1,0,1.4\r\n\tc0.4,0.4,1.1,0.4,1.5,0l6.3-6c0.4-0.4,0.4-1,0-1.4l-6.3-6c-0.4-0.4-1.1-0.4-1.5,0c-0.4,0.4-0.4,1,0,1.4l4.5,4.3H14c-0.5,0-1,0.4-1,1\r\n\ts0.5,1,1,1H26.2z M32.9,17c0-0.6,0.5-1,1-1s1,0.4,1,1v14c0,0.6-0.5,1-1,1s-1-0.4-1-1V17z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
@@ -13356,42 +13463,42 @@ module.exports = "<svg id=\"payment-card-amex-Layer_1\" xmlns=\"http://www.w3.or
 /***/ "REmY":
 /***/ (function(module, exports) {
 
-module.exports = "<svg id=\"icon_x2F_Social_x2F_instagram-fill-Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 48 48\" enable-background=\"new 0 0 48 48\"><title>icon/Social/instagram-fill</title><g id=\"icon_x2F_Social_x2F_instagram-fill-Symbols\"><g id=\"icon_x2F_Social_x2F_instagram-fill\"><g id=\"icon_x2F_Social_x2F_instagram-fill-Icon\" transform=\"translate(8 8)\"><g id=\"icon_x2F_Social_x2F_instagram-fill-Mask\"><path id=\"icon_x2F_Social_x2F_instagram-fill-path-1_1_\" d=\"M16 32C7.2 32 0 24.8 0 16S7.2 0 16 0s16 7.2 16 16-7.2 16-16 16zm0-24h-3.3c-.9 0-1.4.2-1.9.4s-1 .5-1.4.9c-.4.4-.7.9-.9 1.4-.2.5-.3 1.1-.4 1.9v6.6c0 .9.2 1.4.4 1.9s.5 1 .9 1.4c.4.4.9.7 1.4.9.5.2 1.1.3 1.9.4h6.6c.9 0 1.4-.2 1.9-.4s1-.5 1.4-.9c.4-.4.7-.9.9-1.4.2-.5.3-1.1.4-1.9v-3.3-3.3c0-.9-.2-1.4-.4-1.9s-.5-1-.9-1.4c-.4-.4-.9-.7-1.4-.9-.5-.2-1.1-.3-1.9-.4H16zm0 1.4h3.2c.8 0 1.2.2 1.5.3.4.1.6.3.9.6.3.3.5.5.6.9.1.3.2.7.3 1.5v6.4c0 .8-.2 1.2-.3 1.5-.1.4-.3.6-.6.9-.3.3-.5.5-.9.6-.3.1-.7.2-1.5.3h-6.4c-.8 0-1.2-.2-1.5-.3-.4-.1-.6-.3-.9-.6-.3-.3-.5-.5-.6-.9-.1-.3-.2-.7-.3-1.5v-3.2-3.2c0-.8.2-1.2.3-1.5.1-.4.3-.6.6-.9.3-.3.5-.5.9-.6.3-.1.7-.2 1.5-.3.8.1 1.1 0 3.2 0zm0 2.5c-2.3 0-4.1 1.8-4.1 4.1s1.8 4.1 4.1 4.1 4.1-1.8 4.1-4.1-1.8-4.1-4.1-4.1zm5.2-.2c0-.5-.4-1-1-1-.5 0-1 .4-1 1 0 .5.4 1 1 1s1-.4 1-1zm-5.2 7c-1.5 0-2.7-1.2-2.7-2.7 0-1.5 1.2-2.7 2.7-2.7 1.5 0 2.7 1.2 2.7 2.7 0 1.5-1.2 2.7-2.7 2.7z\" fill=\"#384048\"/></g><defs><filter id=\"icon_x2F_Social_x2F_instagram-fill-Adobe_OpacityMaskFilter\" filterUnits=\"userSpaceOnUse\" x=\"-8\" y=\"-8\" width=\"48\" height=\"48\"><feColorMatrix values=\"1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0\"/></filter></defs><mask maskUnits=\"userSpaceOnUse\" x=\"-8\" y=\"-8\" width=\"48\" height=\"48\" id=\"icon_x2F_Social_x2F_instagram-fill-mask-2\"><g filter=\"url(#icon_x2F_Social_x2F_instagram-fill-Adobe_OpacityMaskFilter)\"><path id=\"icon_x2F_Social_x2F_instagram-fill-path-1\" d=\"M16 32C7.2 32 0 24.8 0 16S7.2 0 16 0s16 7.2 16 16-7.2 16-16 16zm0-24h-3.3c-.9 0-1.4.2-1.9.4s-1 .5-1.4.9c-.4.4-.7.9-.9 1.4-.2.5-.3 1.1-.4 1.9v6.6c0 .9.2 1.4.4 1.9s.5 1 .9 1.4c.4.4.9.7 1.4.9.5.2 1.1.3 1.9.4h6.6c.9 0 1.4-.2 1.9-.4s1-.5 1.4-.9c.4-.4.7-.9.9-1.4.2-.5.3-1.1.4-1.9v-3.3-3.3c0-.9-.2-1.4-.4-1.9s-.5-1-.9-1.4c-.4-.4-.9-.7-1.4-.9-.5-.2-1.1-.3-1.9-.4H16zm0 1.4h3.2c.8 0 1.2.2 1.5.3.4.1.6.3.9.6.3.3.5.5.6.9.1.3.2.7.3 1.5v6.4c0 .8-.2 1.2-.3 1.5-.1.4-.3.6-.6.9-.3.3-.5.5-.9.6-.3.1-.7.2-1.5.3h-6.4c-.8 0-1.2-.2-1.5-.3-.4-.1-.6-.3-.9-.6-.3-.3-.5-.5-.6-.9-.1-.3-.2-.7-.3-1.5v-3.2-3.2c0-.8.2-1.2.3-1.5.1-.4.3-.6.6-.9.3-.3.5-.5.9-.6.3-.1.7-.2 1.5-.3.8.1 1.1 0 3.2 0zm0 2.5c-2.3 0-4.1 1.8-4.1 4.1s1.8 4.1 4.1 4.1 4.1-1.8 4.1-4.1-1.8-4.1-4.1-4.1zm5.2-.2c0-.5-.4-1-1-1-.5 0-1 .4-1 1 0 .5.4 1 1 1s1-.4 1-1zm-5.2 7c-1.5 0-2.7-1.2-2.7-2.7 0-1.5 1.2-2.7 2.7-2.7 1.5 0 2.7 1.2 2.7 2.7 0 1.5-1.2 2.7-2.7 2.7z\" fill=\"#fff\"/></g></mask><g id=\"icon_x2F_Social_x2F_instagram-fill-Color_x2F_Grayscale_x2F_Night-Sky\" mask=\"url(#icon_x2F_Social_x2F_instagram-fill-mask-2)\"><path fill=\"#111\" d=\"M0 0h48v48H0z\" transform=\"translate(-8 -8)\" id=\"icon_x2F_Social_x2F_instagram-fill-Swatch\"/></g></g></g></g></svg>"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"icon_x2F_Social_x2F_instagram-fill-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"icon_x2F_Social_x2F_instagram-fill-path-1_1_\" style=\"fill:#111111;\" d=\"M24,40c-8.8,0-16-7.2-16-16S15.2,8,24,8\r\n\ts16,7.2,16,16S32.8,40,24,40z M24,16h-3.3c-0.9,0-1.4,0.2-1.9,0.4s-1,0.5-1.4,0.9c-0.4,0.4-0.7,0.9-0.9,1.4\r\n\tc-0.2,0.5-0.3,1.1-0.4,1.9v6.6c0,0.9,0.2,1.4,0.4,1.9c0.2,0.5,0.5,1,0.9,1.4c0.4,0.4,0.9,0.7,1.4,0.9c0.5,0.2,1.1,0.3,1.9,0.4h6.6\r\n\tc0.9,0,1.4-0.2,1.9-0.4s1-0.5,1.4-0.9s0.7-0.9,0.9-1.4c0.2-0.5,0.3-1.1,0.4-1.9v-3.3v-3.3c0-0.9-0.2-1.4-0.4-1.9s-0.5-1-0.9-1.4\r\n\ts-0.9-0.7-1.4-0.9s-1.1-0.3-1.9-0.4C27.3,16,24,16,24,16z M24,17.4h3.2c0.8,0,1.2,0.2,1.5,0.3c0.4,0.1,0.6,0.3,0.9,0.6\r\n\tc0.3,0.3,0.5,0.5,0.6,0.9c0.1,0.3,0.2,0.7,0.3,1.5v6.4c0,0.8-0.2,1.2-0.3,1.5c-0.1,0.4-0.3,0.6-0.6,0.9c-0.3,0.3-0.5,0.5-0.9,0.6\r\n\tc-0.3,0.1-0.7,0.2-1.5,0.3h-6.4c-0.8,0-1.2-0.2-1.5-0.3c-0.4-0.1-0.6-0.3-0.9-0.6c-0.3-0.3-0.5-0.5-0.6-0.9\r\n\tc-0.1-0.3-0.2-0.7-0.3-1.5v-3.2v-3.2c0-0.8,0.2-1.2,0.3-1.5c0.1-0.4,0.3-0.6,0.6-0.9c0.3-0.3,0.5-0.5,0.9-0.6\r\n\tc0.3-0.1,0.7-0.2,1.5-0.3C21.6,17.5,21.9,17.4,24,17.4z M24,19.9c-2.3,0-4.1,1.8-4.1,4.1s1.8,4.1,4.1,4.1s4.1-1.8,4.1-4.1\r\n\tS26.3,19.9,24,19.9z M29.2,19.7c0-0.5-0.4-1-1-1c-0.5,0-1,0.4-1,1c0,0.5,0.4,1,1,1S29.2,20.3,29.2,19.7z M24,26.7\r\n\tc-1.5,0-2.7-1.2-2.7-2.7s1.2-2.7,2.7-2.7s2.7,1.2,2.7,2.7S25.5,26.7,24,26.7z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "Vx6E":
 /***/ (function(module, exports) {
 
-module.exports = "<svg id=\"icon_x2F_Nav_x2F_plus-Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 48 48\" enable-background=\"new 0 0 48 48\"><title>icon/Nav/plus</title><g id=\"icon_x2F_Nav_x2F_plus-Symbols\"><g id=\"icon_x2F_Nav_x2F_plus\"><g id=\"icon_x2F_Nav_x2F_plus-Icon\" transform=\"translate(11 11)\"><g id=\"icon_x2F_Nav_x2F_plus-Mask\"><path id=\"icon_x2F_Nav_x2F_plus-path-1_1_\" d=\"M14 12V1.4c0-.8-.4-1.4-1-1.4s-1 .6-1 1.4V12H1.4c-.8 0-1.4.4-1.4 1s.6 1 1.4 1H12v10.6c0 .8.4 1.4 1 1.4s1-.6 1-1.4V14h10.6c.8 0 1.4-.4 1.4-1s-.6-1-1.4-1H14z\" fill=\"#384048\"/></g><defs><filter id=\"icon_x2F_Nav_x2F_plus-Adobe_OpacityMaskFilter\" filterUnits=\"userSpaceOnUse\" x=\"-11\" y=\"-11\" width=\"48\" height=\"48\"><feColorMatrix values=\"1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0\"/></filter></defs><mask maskUnits=\"userSpaceOnUse\" x=\"-11\" y=\"-11\" width=\"48\" height=\"48\" id=\"icon_x2F_Nav_x2F_plus-mask-2\"><g filter=\"url(#icon_x2F_Nav_x2F_plus-Adobe_OpacityMaskFilter)\"><path id=\"icon_x2F_Nav_x2F_plus-path-1\" d=\"M14 12V1.4c0-.8-.4-1.4-1-1.4s-1 .6-1 1.4V12H1.4c-.8 0-1.4.4-1.4 1s.6 1 1.4 1H12v10.6c0 .8.4 1.4 1 1.4s1-.6 1-1.4V14h10.6c.8 0 1.4-.4 1.4-1s-.6-1-1.4-1H14z\" fill=\"#fff\"/></g></mask><g id=\"icon_x2F_Nav_x2F_plus-Color_x2F_Grayscale_x2F_Night-Sky\" mask=\"url(#icon_x2F_Nav_x2F_plus-mask-2)\"><path fill=\"#111\" d=\"M0 0h48v48H0z\" transform=\"translate(-11 -11)\" id=\"icon_x2F_Nav_x2F_plus-Swatch\"/></g></g></g></g></svg>"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"icon_x2F_Nav_x2F_plus-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"icon_x2F_Nav_x2F_plus-path-1_1_\" style=\"fill:#111111;\" d=\"M25,23V12.4c0-0.8-0.4-1.4-1-1.4s-1,0.6-1,1.4V23H12.4\r\n\tc-0.8,0-1.4,0.4-1.4,1s0.6,1,1.4,1H23v10.6c0,0.8,0.4,1.4,1,1.4s1-0.6,1-1.4V25h10.6c0.8,0,1.4-0.4,1.4-1s-0.6-1-1.4-1H25z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "WBOg":
 /***/ (function(module, exports) {
 
-module.exports = "<svg id=\"icon_x2F_Nav_x2F_chevron-left-Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 48 48\" enable-background=\"new 0 0 48 48\"><title>icon/Nav/chevron-left</title><g id=\"icon_x2F_Nav_x2F_chevron-left-Symbols\"><g id=\"icon_x2F_Nav_x2F_chevron-left\"><g id=\"icon_x2F_Nav_x2F_chevron-left-Icon\"><g id=\"icon_x2F_Nav_x2F_chevron-left-Fill-1\"><path id=\"icon_x2F_Nav_x2F_chevron-left-path-1_1_\" d=\"M29.7 12.7c.4-.4.4-1 0-1.4-.4-.4-1-.4-1.4 0l-12 12c-.4.4-.4 1 0 1.4l12 12c.4.4 1 .4 1.4 0s.4-1 0-1.4L18.4 24l11.3-11.3z\" fill=\"#384048\"/></g><defs><filter id=\"icon_x2F_Nav_x2F_chevron-left-Adobe_OpacityMaskFilter\" filterUnits=\"userSpaceOnUse\" x=\"0\" y=\"0\" width=\"48\" height=\"48\"><feColorMatrix values=\"1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0\"/></filter></defs><mask maskUnits=\"userSpaceOnUse\" x=\"0\" y=\"0\" width=\"48\" height=\"48\" id=\"icon_x2F_Nav_x2F_chevron-left-mask-2\"><g filter=\"url(#icon_x2F_Nav_x2F_chevron-left-Adobe_OpacityMaskFilter)\"><path id=\"icon_x2F_Nav_x2F_chevron-left-path-1\" d=\"M29.7 12.7c.4-.4.4-1 0-1.4-.4-.4-1-.4-1.4 0l-12 12c-.4.4-.4 1 0 1.4l12 12c.4.4 1 .4 1.4 0s.4-1 0-1.4L18.4 24l11.3-11.3z\" fill=\"#fff\"/></g></mask><g id=\"icon_x2F_Nav_x2F_chevron-left-Color_x2F_Grayscale_x2F_Night-Sky\" mask=\"url(#icon_x2F_Nav_x2F_chevron-left-mask-2)\"><path id=\"icon_x2F_Nav_x2F_chevron-left-Swatch\" fill=\"#111\" d=\"M0 0h48v48H0z\"/></g></g></g></g></svg>"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"icon_x2F_Nav_x2F_chevron-left-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"icon_x2F_Nav_x2F_chevron-left-path-1_1_\" style=\"fill:#111111;\" d=\"M29.7,12.7c0.4-0.4,0.4-1,0-1.4s-1-0.4-1.4,0l-12,12\r\n\tc-0.4,0.4-0.4,1,0,1.4l12,12c0.4,0.4,1,0.4,1.4,0s0.4-1,0-1.4L18.4,24L29.7,12.7z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "WJSt":
 /***/ (function(module, exports) {
 
-module.exports = "<svg id=\"icon_x2F_Utility_x2F_ruler-Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 48 48\" enable-background=\"new 0 0 48 48\"><title>icon/Utility/ruler</title><g id=\"icon_x2F_Utility_x2F_ruler-Symbols\"><g id=\"icon_x2F_Utility_x2F_ruler\"><g id=\"icon_x2F_Utility_x2F_ruler-Icon\" transform=\"translate(12 12)\"><g id=\"icon_x2F_Utility_x2F_ruler-Mask\"><path id=\"icon_x2F_Utility_x2F_ruler-path-1_1_\" d=\"M23.8 6.7L17.3.2c-.2-.2-.6-.2-.8 0L.2 16.4c-.1.1-.2.3-.2.5s.1.3.2.4l6.5 6.5c.1.1.3.2.4.2s.3-.1.4-.2L9.3 22l-4-4c-.2-.2-.2-.6 0-.8.2-.2.6-.2.8 0l4 4 2.1-2.1-2.8-2.8c-.2-.2-.2-.6 0-.8.2-.2.6-.2.8 0l2.8 2.8 2.1-2.1-4-4c-.2-.2-.2-.6 0-.8s.6-.2.8 0l4 4 2.1-2.1-2.8-2.8c-.2-.2-.2-.6 0-.8.2-.2.6-.2.8 0l2.8 2.8 2.1-2.1-4-4c-.2-.2-.2-.6 0-.8.2-.2.6-.2.8 0l4 4 1.8-1.8c.4-.3.5-.5.5-.7 0-.1-.1-.3-.2-.4\" fill=\"#384048\"/></g><defs><filter id=\"icon_x2F_Utility_x2F_ruler-Adobe_OpacityMaskFilter\" filterUnits=\"userSpaceOnUse\" x=\"-12\" y=\"-12\" width=\"48\" height=\"48\"><feColorMatrix values=\"1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0\"/></filter></defs><mask maskUnits=\"userSpaceOnUse\" x=\"-12\" y=\"-12\" width=\"48\" height=\"48\" id=\"icon_x2F_Utility_x2F_ruler-mask-2\"><g filter=\"url(#icon_x2F_Utility_x2F_ruler-Adobe_OpacityMaskFilter)\"><path id=\"icon_x2F_Utility_x2F_ruler-path-1\" d=\"M23.8 6.7L17.3.2c-.2-.2-.6-.2-.8 0L.2 16.4c-.1.1-.2.3-.2.5s.1.3.2.4l6.5 6.5c.1.1.3.2.4.2s.3-.1.4-.2L9.3 22l-4-4c-.2-.2-.2-.6 0-.8.2-.2.6-.2.8 0l4 4 2.1-2.1-2.8-2.8c-.2-.2-.2-.6 0-.8.2-.2.6-.2.8 0l2.8 2.8 2.1-2.1-4-4c-.2-.2-.2-.6 0-.8s.6-.2.8 0l4 4 2.1-2.1-2.8-2.8c-.2-.2-.2-.6 0-.8.2-.2.6-.2.8 0l2.8 2.8 2.1-2.1-4-4c-.2-.2-.2-.6 0-.8.2-.2.6-.2.8 0l4 4 1.8-1.8c.4-.3.5-.5.5-.7 0-.1-.1-.3-.2-.4\" fill=\"#fff\"/></g></mask><g id=\"icon_x2F_Utility_x2F_ruler-Color_x2F_Grayscale_x2F_Night-Sky\" mask=\"url(#icon_x2F_Utility_x2F_ruler-mask-2)\"><path fill=\"#111\" d=\"M0 0h48v48H0z\" transform=\"translate(-12 -12)\" id=\"icon_x2F_Utility_x2F_ruler-Swatch\"/></g></g></g></g></svg>"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"icon_x2F_Utility_x2F_ruler-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"icon_x2F_Utility_x2F_ruler-path-1_1_\" style=\"fill:#111111;\" d=\"M35.8,18.7l-6.5-6.5c-0.2-0.2-0.6-0.2-0.8,0L12.2,28.4\r\n\tc-0.1,0.1-0.2,0.3-0.2,0.5s0.1,0.3,0.2,0.4l6.5,6.5c0.1,0.1,0.3,0.2,0.4,0.2s0.3-0.1,0.4-0.2l1.8-1.8l-4-4c-0.2-0.2-0.2-0.6,0-0.8\r\n\tc0.2-0.2,0.6-0.2,0.8,0l4,4l2.1-2.1l-2.8-2.8c-0.2-0.2-0.2-0.6,0-0.8c0.2-0.2,0.6-0.2,0.8,0l2.8,2.8l2.1-2.1l-4-4\r\n\tc-0.2-0.2-0.2-0.6,0-0.8c0.2-0.2,0.6-0.2,0.8,0l4,4l2.1-2.1l-2.8-2.8c-0.2-0.2-0.2-0.6,0-0.8c0.2-0.2,0.6-0.2,0.8,0l2.8,2.8l2.1-2.1\r\n\tl-4-4c-0.2-0.2-0.2-0.6,0-0.8c0.2-0.2,0.6-0.2,0.8,0l4,4l1.8-1.8c0.4-0.3,0.5-0.5,0.5-0.7C36,19,35.9,18.8,35.8,18.7\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "X9c8":
 /***/ (function(module, exports) {
 
-module.exports = "<svg id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 48 48\" enable-background=\"new 0 0 48 48\"><title>icon/Social/facebook-fill</title><g id=\"Symbols\"><g id=\"icon_x2F_Social_x2F_facebook-fill\"><g id=\"icon_x2F_Social_x2F_facebook-fill-Icon\" transform=\"translate(8 8)\"><g id=\"icon_x2F_Social_x2F_facebook-fill-Mask\"><path id=\"path-1_1_\" d=\"M16 0c8.8 0 16 7.2 16 16s-7.2 16-16 16S0 24.8 0 16 7.2 0 16 0zm4.5 10.2V7.5c-.3 0-1.2-.1-2.4-.1-2.3 0-3.9 1.4-3.9 4v2.3h-2.6v3.1h2.6v7.9h3.2v-7.9H20l.4-3.1h-3v-2c0-.9.2-1.5 1.5-1.5h1.6z\" fill=\"#384048\"/></g><defs><filter id=\"Adobe_OpacityMaskFilter\" filterUnits=\"userSpaceOnUse\" x=\"-8\" y=\"-8\" width=\"48\" height=\"48\"><feColorMatrix values=\"1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0\"/></filter></defs><mask maskUnits=\"userSpaceOnUse\" x=\"-8\" y=\"-8\" width=\"48\" height=\"48\" id=\"icon_x2F_Social_x2F_facebook-fill-mask-2\"><g filter=\"url(#Adobe_OpacityMaskFilter)\"><path id=\"icon_x2F_Social_x2F_facebook-fill-path-1\" d=\"M16 0c8.8 0 16 7.2 16 16s-7.2 16-16 16S0 24.8 0 16 7.2 0 16 0zm4.5 10.2V7.5c-.3 0-1.2-.1-2.4-.1-2.3 0-3.9 1.4-3.9 4v2.3h-2.6v3.1h2.6v7.9h3.2v-7.9H20l.4-3.1h-3v-2c0-.9.2-1.5 1.5-1.5h1.6z\" fill=\"#fff\"/></g></mask><g id=\"Color_x2F_Grayscale_x2F_Night-Sky\" mask=\"url(#icon_x2F_Social_x2F_facebook-fill-mask-2)\"><path fill=\"#111\" d=\"M0 0h48v48H0z\" transform=\"translate(-8 -8)\" id=\"icon_x2F_Social_x2F_facebook-fill-Swatch\"/></g></g></g></g></svg>"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\"\r\n\t viewBox=\"0 0 48 48\" style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"path-1_1_\" style=\"fill:#111111;\" d=\"M24,8c8.8,0,16,7.2,16,16s-7.2,16-16,16S8,32.8,8,24S15.2,8,24,8z M28.5,18.2v-2.7\r\n\tc-0.3,0-1.2-0.1-2.4-0.1c-2.3,0-3.9,1.4-3.9,4v2.3h-2.6v3.1h2.6v7.9h3.2v-7.9H28l0.4-3.1h-3v-2c0-0.9,0.2-1.5,1.5-1.5\r\n\tC26.9,18.2,28.5,18.2,28.5,18.2z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "XLDm":
 /***/ (function(module, exports) {
 
-module.exports = "<svg id=\"icon_x2F_Utility_x2F_clip-Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 48 48\" enable-background=\"new 0 0 48 48\"><title>icon/Utility/clip</title><g id=\"icon_x2F_Utility_x2F_clip-Symbols\"><g id=\"icon_x2F_Utility_x2F_clip\"><g id=\"icon_x2F_Utility_x2F_clip-Icon\" transform=\"translate(11 14)\"><g id=\"icon_x2F_Utility_x2F_clip-Mask\"><path id=\"icon_x2F_Utility_x2F_clip-path-1_1_\" d=\"M20.5 4.3s-1.1-1.2-2.6-1.2h-.3c-1.8.3-4.6 1.5-9 4.9L7.3 6.8c1.3-1.7.2-4.3-.8-5.3C5.6.5 4.3 0 3.2 0c-.7 0-1.4.2-1.9.6-.9.6-2.8 4 1.3 7.5l2.8 2.4s-4.1 3-5 4.9c-.5 1.1-.5 2.2-.1 3 .1.1.3.5.4.7.5.6 1.4 1 2.4 1 .9 0 2-.3 3.1-1.1 2.5-2.2 1.5-5 1.5-5l.9-.7 1.1.9c.2.2.5.4 1.1.4h5l-4-3.6 8.7-6.7zM5.3 6c-.2.1-.5.2-.8.2-.6 0-1.4-.5-1.9-1.2-.8-1.1-.9-2.2-.2-2.7.2-.2.5-.3.8-.3.6 0 1.4.5 1.9 1.2.8 1.1.9 2.2.2 2.8zm-.2 11.1c-.6.6-1.3 1-1.9 1-.3 0-.6-.1-.8-.3-.6-.6-.5-1.7.4-2.7.6-.6 1.3-1 1.9-1 .3 0 .6.1.8.3.7.5.5 1.7-.4 2.7zm20.2-2.6h-1.5c-.4 0-.7-.3-.7-.6s.3-.6.7-.6h1.5c.4 0 .7.3.7.6s-.3.6-.7.6zm-3.5 0h-1.5c-.4 0-.7-.3-.7-.6s.3-.6.7-.6h1.5c.4 0 .7.3.7.6-.1.3-.4.6-.7.6zm-3.6 0h-1.5c-.4 0-.7-.3-.7-.6s.3-.6.7-.6h1.5c.4 0 .7.3.7.6-.1.3-.3.6-.7.6z\" fill=\"#384048\"/></g><defs><filter id=\"icon_x2F_Utility_x2F_clip-Adobe_OpacityMaskFilter\" filterUnits=\"userSpaceOnUse\" x=\"-11\" y=\"-14\" width=\"48\" height=\"48\"><feColorMatrix values=\"1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0\"/></filter></defs><mask maskUnits=\"userSpaceOnUse\" x=\"-11\" y=\"-14\" width=\"48\" height=\"48\" id=\"icon_x2F_Utility_x2F_clip-mask-2\"><g filter=\"url(#icon_x2F_Utility_x2F_clip-Adobe_OpacityMaskFilter)\"><path id=\"icon_x2F_Utility_x2F_clip-path-1\" d=\"M20.5 4.3s-1.1-1.2-2.6-1.2h-.3c-1.8.3-4.6 1.5-9 4.9L7.3 6.8c1.3-1.7.2-4.3-.8-5.3C5.6.5 4.3 0 3.2 0c-.7 0-1.4.2-1.9.6-.9.6-2.8 4 1.3 7.5l2.8 2.4s-4.1 3-5 4.9c-.5 1.1-.5 2.2-.1 3 .1.1.3.5.4.7.5.6 1.4 1 2.4 1 .9 0 2-.3 3.1-1.1 2.5-2.2 1.5-5 1.5-5l.9-.7 1.1.9c.2.2.5.4 1.1.4h5l-4-3.6 8.7-6.7zM5.3 6c-.2.1-.5.2-.8.2-.6 0-1.4-.5-1.9-1.2-.8-1.1-.9-2.2-.2-2.7.2-.2.5-.3.8-.3.6 0 1.4.5 1.9 1.2.8 1.1.9 2.2.2 2.8zm-.2 11.1c-.6.6-1.3 1-1.9 1-.3 0-.6-.1-.8-.3-.6-.6-.5-1.7.4-2.7.6-.6 1.3-1 1.9-1 .3 0 .6.1.8.3.7.5.5 1.7-.4 2.7zm20.2-2.6h-1.5c-.4 0-.7-.3-.7-.6s.3-.6.7-.6h1.5c.4 0 .7.3.7.6s-.3.6-.7.6zm-3.5 0h-1.5c-.4 0-.7-.3-.7-.6s.3-.6.7-.6h1.5c.4 0 .7.3.7.6-.1.3-.4.6-.7.6zm-3.6 0h-1.5c-.4 0-.7-.3-.7-.6s.3-.6.7-.6h1.5c.4 0 .7.3.7.6-.1.3-.3.6-.7.6z\" fill=\"#fff\"/></g></mask><g id=\"icon_x2F_Utility_x2F_clip-Color_x2F_Grayscale_x2F_Night-Sky\" mask=\"url(#icon_x2F_Utility_x2F_clip-mask-2)\"><path fill=\"#111\" d=\"M0 0h48v48H0z\" transform=\"translate(-11 -14)\" id=\"icon_x2F_Utility_x2F_clip-Swatch\"/></g></g></g></g></svg>"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"icon_x2F_Utility_x2F_clip-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"icon_x2F_Utility_x2F_clip-path-1_1_\" style=\"fill:#111111;\" d=\"M31.5,18.3c0,0-1.1-1.2-2.6-1.2h-0.3\r\n\tc-1.8,0.3-4.6,1.5-9,4.9l-1.3-1.2c1.3-1.7,0.2-4.3-0.8-5.3c-0.9-1-2.2-1.5-3.3-1.5c-0.7,0-1.4,0.2-1.9,0.6c-0.9,0.6-2.8,4,1.3,7.5\r\n\tl2.8,2.4c0,0-4.1,3-5,4.9c-0.5,1.1-0.5,2.2-0.1,3c0.1,0.1,0.3,0.5,0.4,0.7c0.5,0.6,1.4,1,2.4,1c0.9,0,2-0.3,3.1-1.1\r\n\tc2.5-2.2,1.5-5,1.5-5l0.9-0.7l1.1,0.9c0.2,0.2,0.5,0.4,1.1,0.4h5l-4-3.6L31.5,18.3z M16.3,20c-0.2,0.1-0.5,0.2-0.8,0.2\r\n\tc-0.6,0-1.4-0.5-1.9-1.2c-0.8-1.1-0.9-2.2-0.2-2.7c0.2-0.2,0.5-0.3,0.8-0.3c0.6,0,1.4,0.5,1.9,1.2C16.9,18.3,17,19.4,16.3,20z\r\n\t M16.1,31.1c-0.6,0.6-1.3,1-1.9,1c-0.3,0-0.6-0.1-0.8-0.3c-0.6-0.6-0.5-1.7,0.4-2.7c0.6-0.6,1.3-1,1.9-1c0.3,0,0.6,0.1,0.8,0.3\r\n\tC17.2,28.9,17,30.1,16.1,31.1z M36.3,28.5h-1.5c-0.4,0-0.7-0.3-0.7-0.6s0.3-0.6,0.7-0.6h1.5c0.4,0,0.7,0.3,0.7,0.6\r\n\tS36.7,28.5,36.3,28.5z M32.8,28.5h-1.5c-0.4,0-0.7-0.3-0.7-0.6s0.3-0.6,0.7-0.6h1.5c0.4,0,0.7,0.3,0.7,0.6\r\n\tC33.4,28.2,33.1,28.5,32.8,28.5z M29.2,28.5h-1.5c-0.4,0-0.7-0.3-0.7-0.6s0.3-0.6,0.7-0.6h1.5c0.4,0,0.7,0.3,0.7,0.6\r\n\tC29.8,28.2,29.6,28.5,29.2,28.5z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
@@ -13405,56 +13512,56 @@ module.exports = "<svg id=\"payment-card-gift-Layer_1\" xmlns=\"http://www.w3.or
 /***/ "Yvnt":
 /***/ (function(module, exports) {
 
-module.exports = "<svg id=\"icon_x2F_Nav_x2F_chevron-down-Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 48 48\" enable-background=\"new 0 0 48 48\"><title>icon/Nav/chevron-down</title><g id=\"icon_x2F_Nav_x2F_chevron-down-Symbols\"><g id=\"icon_x2F_Nav_x2F_chevron-down\"><g id=\"icon_x2F_Nav_x2F_chevron-down-Icon\" transform=\"translate(11 17)\"><g id=\"icon_x2F_Nav_x2F_chevron-down-Mask\"><path id=\"icon_x2F_Nav_x2F_chevron-down-path-1_1_\" d=\"M1.7.3C1.3-.1.7-.1.3.3s-.4 1 0 1.4l12 12c.4.4 1 .4 1.4 0l12-12c.4-.4.4-1 0-1.4-.4-.4-1-.4-1.4 0L13 11.6 1.7.3z\" fill=\"#384048\"/></g><defs><filter id=\"icon_x2F_Nav_x2F_chevron-down-Adobe_OpacityMaskFilter\" filterUnits=\"userSpaceOnUse\" x=\"-11\" y=\"-17\" width=\"48\" height=\"48\"><feColorMatrix values=\"1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0\"/></filter></defs><mask maskUnits=\"userSpaceOnUse\" x=\"-11\" y=\"-17\" width=\"48\" height=\"48\" id=\"icon_x2F_Nav_x2F_chevron-down-mask-2\"><g filter=\"url(#icon_x2F_Nav_x2F_chevron-down-Adobe_OpacityMaskFilter)\"><path id=\"icon_x2F_Nav_x2F_chevron-down-path-1\" d=\"M1.7.3C1.3-.1.7-.1.3.3s-.4 1 0 1.4l12 12c.4.4 1 .4 1.4 0l12-12c.4-.4.4-1 0-1.4-.4-.4-1-.4-1.4 0L13 11.6 1.7.3z\" fill=\"#fff\"/></g></mask><g id=\"icon_x2F_Nav_x2F_chevron-down-Color_x2F_Grayscale_x2F_Night-Sky\" mask=\"url(#icon_x2F_Nav_x2F_chevron-down-mask-2)\"><path fill=\"#111\" d=\"M0 0h48v48H0z\" transform=\"translate(-11 -17)\" id=\"icon_x2F_Nav_x2F_chevron-down-Swatch\"/></g></g></g></g></svg>"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"icon_x2F_Nav_x2F_chevron-down-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"icon_x2F_Nav_x2F_chevron-down-path-1_1_\" style=\"fill:#111111;\" d=\"M12.7,17.3c-0.4-0.4-1-0.4-1.4,0c-0.4,0.4-0.4,1,0,1.4\r\n\tl12,12c0.4,0.4,1,0.4,1.4,0l12-12c0.4-0.4,0.4-1,0-1.4c-0.4-0.4-1-0.4-1.4,0L24,28.6L12.7,17.3z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "ZO6q":
 /***/ (function(module, exports) {
 
-module.exports = "<svg id=\"action-target-Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 48 48\" enable-background=\"new 0 0 48 48\"><title>icon/Action/target</title><g transform=\"translate(11 11)\"><path id=\"action-target-a_1_\" d=\"M14.2 2.5c4.4.7 7.9 4.1 8.5 8.5h-1.6c-.7-3.5-3.4-6.3-6.9-6.9V2.5zm-3.2 0c-4.4.7-7.8 4.1-8.5 8.5h1.6c.6-3.5 3.4-6.3 6.9-6.9V2.5zm3.2 20.2c4.4-.7 7.9-4.1 8.5-8.5h-1.6c-.7 3.5-3.4 6.3-6.9 6.9v1.6zm-3.2 0c-4.4-.7-7.9-4.1-8.5-8.5h1.6c.7 3.5 3.4 6.3 6.9 6.9v1.6zM11.8.8c0-.4.4-.8.8-.8s.8.4.8.8v6.3c0 .4-.4.8-.8.8s-.8-.4-.8-.8V.8zm0 18.1c0-.4.4-.8.8-.8s.8.4.8.8v6.3c0 .4-.4.8-.8.8s-.8-.4-.8-.8v-6.3zm7.1-5.5c-.4 0-.8-.4-.8-.8s.4-.8.8-.8h6.3c.4 0 .8.4.8.8s-.4.8-.8.8h-6.3zm-18.1 0c-.4 0-.8-.4-.8-.8s.4-.8.8-.8h6.3c.4 0 .8.4.8.8s-.4.8-.8.8H.8z\" fill=\"#384048\"/><defs><filter id=\"action-target-Adobe_OpacityMaskFilter\" filterUnits=\"userSpaceOnUse\" x=\"-13\" y=\"-13\" width=\"52\" height=\"52\"><feColorMatrix values=\"1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0\"/></filter></defs><mask maskUnits=\"userSpaceOnUse\" x=\"-13\" y=\"-13\" width=\"52\" height=\"52\" id=\"action-target-b\"><g filter=\"url(#action-target-Adobe_OpacityMaskFilter)\"><path id=\"action-target-a\" d=\"M14.2 2.5c4.4.7 7.9 4.1 8.5 8.5h-1.6c-.7-3.5-3.4-6.3-6.9-6.9V2.5zm-3.2 0c-4.4.7-7.8 4.1-8.5 8.5h1.6c.6-3.5 3.4-6.3 6.9-6.9V2.5zm3.2 20.2c4.4-.7 7.9-4.1 8.5-8.5h-1.6c-.7 3.5-3.4 6.3-6.9 6.9v1.6zm-3.2 0c-4.4-.7-7.9-4.1-8.5-8.5h1.6c.7 3.5 3.4 6.3 6.9 6.9v1.6zM11.8.8c0-.4.4-.8.8-.8s.8.4.8.8v6.3c0 .4-.4.8-.8.8s-.8-.4-.8-.8V.8zm0 18.1c0-.4.4-.8.8-.8s.8.4.8.8v6.3c0 .4-.4.8-.8.8s-.8-.4-.8-.8v-6.3zm7.1-5.5c-.4 0-.8-.4-.8-.8s.4-.8.8-.8h6.3c.4 0 .8.4.8.8s-.4.8-.8.8h-6.3zm-18.1 0c-.4 0-.8-.4-.8-.8s.4-.8.8-.8h6.3c.4 0 .8.4.8.8s-.4.8-.8.8H.8z\" fill=\"#fff\"/></g></mask><g mask=\"url(#action-target-b)\"><path d=\"M-13-13h52v52h-52v-52z\" fill=\"#111\"/></g></g></svg>"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"action-target-Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"\r\n\t x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\" style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"action-target-a_1_\" style=\"fill:#111111;\" d=\"M25.2,13.5c4.4,0.7,7.9,4.1,8.5,8.5h-1.6c-0.7-3.5-3.4-6.3-6.9-6.9\r\n\tC25.2,15.1,25.2,13.5,25.2,13.5z M22,13.5c-4.4,0.7-7.8,4.1-8.5,8.5h1.6c0.6-3.5,3.4-6.3,6.9-6.9V13.5z M25.2,33.7\r\n\tc4.4-0.7,7.9-4.1,8.5-8.5h-1.6c-0.7,3.5-3.4,6.3-6.9,6.9C25.2,32.1,25.2,33.7,25.2,33.7z M22,33.7c-4.4-0.7-7.9-4.1-8.5-8.5h1.6\r\n\tc0.7,3.5,3.4,6.3,6.9,6.9V33.7z M22.8,11.8c0-0.4,0.4-0.8,0.8-0.8s0.8,0.4,0.8,0.8v6.3c0,0.4-0.4,0.8-0.8,0.8s-0.8-0.4-0.8-0.8V11.8\r\n\tz M22.8,29.9c0-0.4,0.4-0.8,0.8-0.8s0.8,0.4,0.8,0.8v6.3c0,0.4-0.4,0.8-0.8,0.8s-0.8-0.4-0.8-0.8C22.8,36.2,22.8,29.9,22.8,29.9z\r\n\t M29.9,24.4c-0.4,0-0.8-0.4-0.8-0.8c0-0.4,0.4-0.8,0.8-0.8h6.3c0.4,0,0.8,0.4,0.8,0.8c0,0.4-0.4,0.8-0.8,0.8\r\n\tC36.2,24.4,29.9,24.4,29.9,24.4z M11.8,24.4c-0.4,0-0.8-0.4-0.8-0.8c0-0.4,0.4-0.8,0.8-0.8h6.3c0.4,0,0.8,0.4,0.8,0.8\r\n\tc0,0.4-0.4,0.8-0.8,0.8C18.1,24.4,11.8,24.4,11.8,24.4z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "ZRUk":
 /***/ (function(module, exports) {
 
-module.exports = "<svg id=\"icon_x2F_Utility_x2F_collection-multi-Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 48 48\" enable-background=\"new 0 0 48 48\"><title>icon/Utility/collection-multi</title><g id=\"icon_x2F_Utility_x2F_collection-multi-Symbols\"><g id=\"icon_x2F_Utility_x2F_collection-multi\"><g id=\"icon_x2F_Utility_x2F_collection-multi-Icon\" transform=\"translate(11 12)\"><g id=\"icon_x2F_Utility_x2F_collection-multi-Mask\"><path id=\"icon_x2F_Utility_x2F_collection-multi-path-1_1_\" d=\"M24.4 6H1.5C.7 6 0 6.8 0 7.6v14.7c0 .8.7 1.7 1.5 1.7h22.9c.8 0 1.6-.9 1.6-1.7V7.6c0-.8-.8-1.6-1.6-1.6zM9.1 19.5c0 .9-.4 1.2-1.3 1.2H4.2c-.9 0-1.2-.3-1.2-1.2v-9.1c0-.9.4-1.3 1.3-1.3h3.5c.9 0 1.3.3 1.3 1.3v9.1zm6.1 0c0 .9-.4 1.2-1.3 1.2h-2.8c-.9 0-1.2-.3-1.2-1.2v-2.7c0-.9.4-1.3 1.3-1.3h2.6c.9 0 1.3.3 1.3 1.3v2.7h.1zm0-6.5c0 .9-.4 1.2-1.3 1.2h-2.8c-.8 0-1.1-.2-1.1-1.2v-2.7c0-.9.4-1.3 1.3-1.3h2.6c.9 0 1.3.3 1.3 1.3V13zm7.8 6.5c0 .9-.4 1.2-1.3 1.2h-4.5c-.9 0-1.2-.3-1.2-1.2v-2.7c0-.9.4-1.3 1.3-1.3h4.3c.9 0 1.3.3 1.3 1.3l.1 2.7zm0-6.5c0 .9-.4 1.2-1.3 1.2h-4.5c-.9 0-1.2-.2-1.2-1.2v-2.7c0-.9.4-1.3 1.3-1.3h4.3c.9 0 1.3.3 1.3 1.3L23 13zm-.2-8.6H3.3c-.4 0-.7-.3-.7-.7s.3-.7.7-.7h19.5c.4 0 .6.3.6.7s-.3.7-.6.7zm-2.1-3H5.2c-.4 0-.6-.3-.6-.7s.2-.7.6-.7h15.5c.4 0 .6.3.6.7s-.2.7-.6.7z\" fill=\"#384048\"/></g><defs><filter id=\"icon_x2F_Utility_x2F_collection-multi-Adobe_OpacityMaskFilter\" filterUnits=\"userSpaceOnUse\" x=\"-11\" y=\"-12\" width=\"48\" height=\"48\"><feColorMatrix values=\"1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0\"/></filter></defs><mask maskUnits=\"userSpaceOnUse\" x=\"-11\" y=\"-12\" width=\"48\" height=\"48\" id=\"icon_x2F_Utility_x2F_collection-multi-mask-2\"><g filter=\"url(#icon_x2F_Utility_x2F_collection-multi-Adobe_OpacityMaskFilter)\"><path id=\"icon_x2F_Utility_x2F_collection-multi-path-1\" d=\"M24.4 6H1.5C.7 6 0 6.8 0 7.6v14.7c0 .8.7 1.7 1.5 1.7h22.9c.8 0 1.6-.9 1.6-1.7V7.6c0-.8-.8-1.6-1.6-1.6zM9.1 19.5c0 .9-.4 1.2-1.3 1.2H4.2c-.9 0-1.2-.3-1.2-1.2v-9.1c0-.9.4-1.3 1.3-1.3h3.5c.9 0 1.3.3 1.3 1.3v9.1zm6.1 0c0 .9-.4 1.2-1.3 1.2h-2.8c-.9 0-1.2-.3-1.2-1.2v-2.7c0-.9.4-1.3 1.3-1.3h2.6c.9 0 1.3.3 1.3 1.3v2.7h.1zm0-6.5c0 .9-.4 1.2-1.3 1.2h-2.8c-.8 0-1.1-.2-1.1-1.2v-2.7c0-.9.4-1.3 1.3-1.3h2.6c.9 0 1.3.3 1.3 1.3V13zm7.8 6.5c0 .9-.4 1.2-1.3 1.2h-4.5c-.9 0-1.2-.3-1.2-1.2v-2.7c0-.9.4-1.3 1.3-1.3h4.3c.9 0 1.3.3 1.3 1.3l.1 2.7zm0-6.5c0 .9-.4 1.2-1.3 1.2h-4.5c-.9 0-1.2-.2-1.2-1.2v-2.7c0-.9.4-1.3 1.3-1.3h4.3c.9 0 1.3.3 1.3 1.3L23 13zm-.2-8.6H3.3c-.4 0-.7-.3-.7-.7s.3-.7.7-.7h19.5c.4 0 .6.3.6.7s-.3.7-.6.7zm-2.1-3H5.2c-.4 0-.6-.3-.6-.7s.2-.7.6-.7h15.5c.4 0 .6.3.6.7s-.2.7-.6.7z\" fill=\"#fff\"/></g></mask><g id=\"icon_x2F_Utility_x2F_collection-multi-Color_x2F_Grayscale_x2F_Night-Sky\" mask=\"url(#icon_x2F_Utility_x2F_collection-multi-mask-2)\"><path fill=\"#111\" d=\"M0 0h48v48H0z\" transform=\"translate(-11 -12)\" id=\"icon_x2F_Utility_x2F_collection-multi-Swatch\"/></g></g></g></g></svg>"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"icon_x2F_Utility_x2F_collection-multi-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"icon_x2F_Utility_x2F_collection-multi-path-1_1_\" style=\"fill:#111111;\" d=\"M35.4,18H12.5c-0.8,0-1.5,0.8-1.5,1.6v14.7\r\n\tc0,0.8,0.7,1.7,1.5,1.7h22.9c0.8,0,1.6-0.9,1.6-1.7V19.6C37,18.8,36.2,18,35.4,18z M20.1,31.5c0,0.9-0.4,1.2-1.3,1.2h-3.6\r\n\tc-0.9,0-1.2-0.3-1.2-1.2v-9.1c0-0.9,0.4-1.3,1.3-1.3h3.5c0.9,0,1.3,0.3,1.3,1.3C20.1,22.4,20.1,31.5,20.1,31.5z M26.2,31.5\r\n\tc0,0.9-0.4,1.2-1.3,1.2h-2.8c-0.9,0-1.2-0.3-1.2-1.2v-2.7c0-0.9,0.4-1.3,1.3-1.3h2.6c0.9,0,1.3,0.3,1.3,1.3L26.2,31.5\r\n\tC26.1,31.5,26.2,31.5,26.2,31.5z M26.2,25c0,0.9-0.4,1.2-1.3,1.2h-2.8C21.3,26.2,21,26,21,25v-2.7c0-0.9,0.4-1.3,1.3-1.3h2.6\r\n\tc0.9,0,1.3,0.3,1.3,1.3C26.2,22.3,26.2,25,26.2,25z M34,31.5c0,0.9-0.4,1.2-1.3,1.2h-4.5c-0.9,0-1.2-0.3-1.2-1.2v-2.7\r\n\tc0-0.9,0.4-1.3,1.3-1.3h4.3c0.9,0,1.3,0.3,1.3,1.3C33.9,28.8,34,31.5,34,31.5z M34,25c0,0.9-0.4,1.2-1.3,1.2h-4.5\r\n\tC27.3,26.2,27,26,27,25v-2.7c0-0.9,0.4-1.3,1.3-1.3h4.3c0.9,0,1.3,0.3,1.3,1.3L34,25z M33.8,16.4H14.3c-0.4,0-0.7-0.3-0.7-0.7\r\n\tc0-0.4,0.3-0.7,0.7-0.7h19.5c0.4,0,0.6,0.3,0.6,0.7C34.4,16.1,34.1,16.4,33.8,16.4z M31.7,13.4H16.2c-0.4,0-0.6-0.3-0.6-0.7\r\n\tc0-0.4,0.2-0.7,0.6-0.7h15.5c0.4,0,0.6,0.3,0.6,0.7C32.3,13.1,32.1,13.4,31.7,13.4z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "aD2F":
 /***/ (function(module, exports) {
 
-module.exports = "<svg id=\"icon_x2F_Utility_x2F_piggy-bank-Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 48 48\" enable-background=\"new 0 0 48 48\"><title>icon/Utility/piggy-bank</title><g id=\"icon_x2F_Utility_x2F_piggy-bank-Symbols\"><g id=\"icon_x2F_Utility_x2F_piggy-bank\"><g id=\"icon_x2F_Utility_x2F_piggy-bank-Icon\" transform=\"translate(11 12)\"><g id=\"icon_x2F_Utility_x2F_piggy-bank-Mask\"><path id=\"icon_x2F_Utility_x2F_piggy-bank-path-1_1_\" d=\"M8.3 5.4v-.6c0-2.6 2-4.8 4.5-4.8s4.5 2.1 4.5 4.8v.5h-.1c-.3-.1-.6-.2-1-.3h-.1v-.1-.1-.1c0-2-1.5-3.6-3.4-3.6S9.4 2.8 9.4 4.8V5.1h-.1c-.3 0-.6.1-1 .3zM26 10.5c.1.7-.3 1.4-1 1.7-.2.1-.5.2-.7.2-.4 0-.7-.1-1-.4-.3-.3-.5-.7-.6-1.1-.1.1-.2.1-.3.2.4.8.6 1.6.6 2.3 0 3.9-2.5 5.8-2.5 5.8-.2.2-.5.5-.6.7l-1.6 3.6c0 .3-.3.5-.6.5h-2.6c-.3 0-.4-.2-.4-.5v-1.3c0-.3-.3-.6-.5-.6h-3.4c-.3 0-.5.3-.5.6v1.1c0 .3-.2.5-.5.5H7.5c-.3 0-.6-.2-.7-.4L5 19.7c0-.1-.3-.5-.4-.7L3 16.9c-.1-.3-.4-.5-.6-.5H.5c-.3 0-.5-.2-.5-.5v-4.6c0-.3.2-.5.5-.5h1.7c.3 0 .6-.2.7-.5 0 0 .9-2.2 2.2-2.8l-.5-1.7c-.1-.3.1-.6.3-.6l3.1.9c.3.1.5-.1.8-.2 0 0 4.5-2.4 9.4.7 1.6 1 2.8 2.2 3.6 3.3.1-.1.2-.2.4-.2.2-.1.4-.2.6-.4v-.1c.4-1.3 1.1-1.9 2.5-2 .4 0 .7.2.7.6 0 .4-.2.7-.6.7-.4 0-.7.1-.9.3h.2c.7.3 1.2.9 1.3 1.7zm-8.3-.4c.2-.3.1-.7-.2-.9-2.6-1.6-6.4-1.6-9.3 0-.3.2-.4.6-.3.9.1.2.3.4.6.4.1 0 .2 0 .3-.1 2.5-1.4 5.8-1.4 8 0 .3.1.7 0 .9-.3z\" fill=\"#384048\"/></g><defs><filter id=\"icon_x2F_Utility_x2F_piggy-bank-Adobe_OpacityMaskFilter\" filterUnits=\"userSpaceOnUse\" x=\"-11\" y=\"-12\" width=\"48\" height=\"48\"><feColorMatrix values=\"1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0\"/></filter></defs><mask maskUnits=\"userSpaceOnUse\" x=\"-11\" y=\"-12\" width=\"48\" height=\"48\" id=\"icon_x2F_Utility_x2F_piggy-bank-mask-2\"><g filter=\"url(#icon_x2F_Utility_x2F_piggy-bank-Adobe_OpacityMaskFilter)\"><path id=\"icon_x2F_Utility_x2F_piggy-bank-path-1\" d=\"M8.3 5.4v-.6c0-2.6 2-4.8 4.5-4.8s4.5 2.1 4.5 4.8v.5h-.1c-.3-.1-.6-.2-1-.3h-.1v-.1-.1-.1c0-2-1.5-3.6-3.4-3.6S9.4 2.8 9.4 4.8V5.1h-.1c-.3 0-.6.1-1 .3zM26 10.5c.1.7-.3 1.4-1 1.7-.2.1-.5.2-.7.2-.4 0-.7-.1-1-.4-.3-.3-.5-.7-.6-1.1-.1.1-.2.1-.3.2.4.8.6 1.6.6 2.3 0 3.9-2.5 5.8-2.5 5.8-.2.2-.5.5-.6.7l-1.6 3.6c0 .3-.3.5-.6.5h-2.6c-.3 0-.4-.2-.4-.5v-1.3c0-.3-.3-.6-.5-.6h-3.4c-.3 0-.5.3-.5.6v1.1c0 .3-.2.5-.5.5H7.5c-.3 0-.6-.2-.7-.4L5 19.7c0-.1-.3-.5-.4-.7L3 16.9c-.1-.3-.4-.5-.6-.5H.5c-.3 0-.5-.2-.5-.5v-4.6c0-.3.2-.5.5-.5h1.7c.3 0 .6-.2.7-.5 0 0 .9-2.2 2.2-2.8l-.5-1.7c-.1-.3.1-.6.3-.6l3.1.9c.3.1.5-.1.8-.2 0 0 4.5-2.4 9.4.7 1.6 1 2.8 2.2 3.6 3.3.1-.1.2-.2.4-.2.2-.1.4-.2.6-.4v-.1c.4-1.3 1.1-1.9 2.5-2 .4 0 .7.2.7.6 0 .4-.2.7-.6.7-.4 0-.7.1-.9.3h.2c.7.3 1.2.9 1.3 1.7zm-8.3-.4c.2-.3.1-.7-.2-.9-2.6-1.6-6.4-1.6-9.3 0-.3.2-.4.6-.3.9.1.2.3.4.6.4.1 0 .2 0 .3-.1 2.5-1.4 5.8-1.4 8 0 .3.1.7 0 .9-.3z\" fill=\"#fff\"/></g></mask><g id=\"icon_x2F_Utility_x2F_piggy-bank-Color_x2F_Grayscale_x2F_Night-Sky\" mask=\"url(#icon_x2F_Utility_x2F_piggy-bank-mask-2)\"><path fill=\"#111\" d=\"M0 0h48v48H0z\" transform=\"translate(-11 -12)\" id=\"icon_x2F_Utility_x2F_piggy-bank-Swatch\"/></g></g></g></g></svg>"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"icon_x2F_Utility_x2F_piggy-bank-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"icon_x2F_Utility_x2F_piggy-bank-path-1_1_\" style=\"fill:#111111;\" d=\"M19.3,17.4v-0.6c0-2.6,2-4.8,4.5-4.8\r\n\ts4.5,2.1,4.5,4.8v0.5h-0.1c-0.3-0.1-0.6-0.2-1-0.3h-0.1v-0.1v-0.1v-0.1c0-2-1.5-3.6-3.4-3.6s-3.3,1.7-3.3,3.7v0.3h-0.1\r\n\tC20,17.1,19.7,17.2,19.3,17.4z M37,22.5c0.1,0.7-0.3,1.4-1,1.7c-0.2,0.1-0.5,0.2-0.7,0.2c-0.4,0-0.7-0.1-1-0.4s-0.5-0.7-0.6-1.1\r\n\tc-0.1,0.1-0.2,0.1-0.3,0.2c0.4,0.8,0.6,1.6,0.6,2.3c0,3.9-2.5,5.8-2.5,5.8c-0.2,0.2-0.5,0.5-0.6,0.7l-1.6,3.6c0,0.3-0.3,0.5-0.6,0.5\r\n\th-2.6c-0.3,0-0.4-0.2-0.4-0.5v-1.3c0-0.3-0.3-0.6-0.5-0.6h-3.4c-0.3,0-0.5,0.3-0.5,0.6v1.1c0,0.3-0.2,0.5-0.5,0.5h-2.3\r\n\tc-0.3,0-0.6-0.2-0.7-0.4L16,31.7c0-0.1-0.3-0.5-0.4-0.7L14,28.9c-0.1-0.3-0.4-0.5-0.6-0.5h-1.9c-0.3,0-0.5-0.2-0.5-0.5v-4.6\r\n\tc0-0.3,0.2-0.5,0.5-0.5h1.7c0.3,0,0.6-0.2,0.7-0.5c0,0,0.9-2.2,2.2-2.8l-0.5-1.7c-0.1-0.3,0.1-0.6,0.3-0.6l3.1,0.9\r\n\tc0.3,0.1,0.5-0.1,0.8-0.2c0,0,4.5-2.4,9.4,0.7c1.6,1,2.8,2.2,3.6,3.3c0.1-0.1,0.2-0.2,0.4-0.2c0.2-0.1,0.4-0.2,0.6-0.4v-0.1\r\n\tc0.4-1.3,1.1-1.9,2.5-2c0.4,0,0.7,0.2,0.7,0.6c0,0.4-0.2,0.7-0.6,0.7s-0.7,0.1-0.9,0.3h0.2C36.4,21.1,36.9,21.7,37,22.5z M28.7,22.1\r\n\tc0.2-0.3,0.1-0.7-0.2-0.9c-2.6-1.6-6.4-1.6-9.3,0c-0.3,0.2-0.4,0.6-0.3,0.9c0.1,0.2,0.3,0.4,0.6,0.4c0.1,0,0.2,0,0.3-0.1\r\n\tc2.5-1.4,5.8-1.4,8,0C28.1,22.5,28.5,22.4,28.7,22.1z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "aNhq":
 /***/ (function(module, exports) {
 
-module.exports = "<svg id=\"icon_x2F_Nav_x2F_chevron-left-Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 48 48\" enable-background=\"new 0 0 48 48\"><title>icon/Nav/chevron-right</title><g id=\"icon_x2F_Nav_x2F_chevron-left-Symbols\"><g id=\"icon_x2F_Nav_x2F_chevron-left\"><g id=\"icon_x2F_Nav_x2F_chevron-left-Icon\"><g id=\"icon_x2F_Nav_x2F_chevron-left-Fill-1\"><path id=\"icon_x2F_Nav_x2F_chevron-left-path-1_1_\" d=\"M18.3 35.3c-.4.4-.4 1 0 1.4.4.4 1 .4 1.4 0l12-12c.4-.4.4-1 0-1.4l-12-12c-.4-.4-1-.4-1.4 0s-.4 1 0 1.4L29.6 24 18.3 35.3z\" fill=\"#384048\"/></g><defs><filter id=\"icon_x2F_Nav_x2F_chevron-left-Adobe_OpacityMaskFilter\" filterUnits=\"userSpaceOnUse\" x=\"0\" y=\"0\" width=\"48\" height=\"48\"><feColorMatrix values=\"1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0\"/></filter></defs><mask maskUnits=\"userSpaceOnUse\" x=\"0\" y=\"0\" width=\"48\" height=\"48\" id=\"icon_x2F_Nav_x2F_chevron-left-mask-2_1_\"><g filter=\"url(#icon_x2F_Nav_x2F_chevron-left-Adobe_OpacityMaskFilter)\"><path id=\"icon_x2F_Nav_x2F_chevron-left-path-1_2_\" d=\"M18.3 35.3c-.4.4-.4 1 0 1.4.4.4 1 .4 1.4 0l12-12c.4-.4.4-1 0-1.4l-12-12c-.4-.4-1-.4-1.4 0s-.4 1 0 1.4L29.6 24 18.3 35.3z\" fill=\"#fff\"/></g></mask><g id=\"icon_x2F_Nav_x2F_chevron-left-Color_x2F_Grayscale_x2F_Night-Sky\" mask=\"url(#icon_x2F_Nav_x2F_chevron-left-mask-2_1_)\"><path id=\"icon_x2F_Nav_x2F_chevron-left-Swatch\" fill=\"#111\" d=\"M0 0h48v48H0z\"/></g></g></g></g></svg>"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"icon_x2F_Nav_x2F_chevron-left-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"icon_x2F_Nav_x2F_chevron-left-path-1_1_\" style=\"fill:#111111;\" d=\"M18.3,35.3c-0.4,0.4-0.4,1,0,1.4s1,0.4,1.4,0l12-12\r\n\tc0.4-0.4,0.4-1,0-1.4l-12-12c-0.4-0.4-1-0.4-1.4,0s-0.4,1,0,1.4L29.6,24L18.3,35.3z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "afII":
 /***/ (function(module, exports) {
 
-module.exports = "<svg id=\"icon_x2F_Utility_x2F_Store_x2F_return-Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 48 48\" enable-background=\"new 0 0 48 48\"><title>icon/Utility/Store/return</title><g id=\"icon_x2F_Utility_x2F_Store_x2F_return-Symbols\"><g id=\"icon_x2F_Utility_x2F_Store_x2F_return\"><g id=\"icon_x2F_Utility_x2F_Store_x2F_return-Icon\" transform=\"translate(12 15)\"><g id=\"icon_x2F_Utility_x2F_Store_x2F_return-Mask\"><path id=\"icon_x2F_Utility_x2F_Store_x2F_return-path-1_1_\" d=\"M18.4 14.7c.2.2.2.4.2.5v.2c0 .1-.1.3-.2.5-.4.4-1.9 2-2 2 0 0-.2.1-.4.1s-.3-.1-.4-.2c-.2-.2-.2-.6 0-.9l1-1H6.1C2.7 15.9 0 12.8 0 9c0-2.7 1.3-5 3.4-6.2.3-.2.7-.1.8.2.2.3.1.7-.2.9-1.7.9-2.8 2.9-2.8 5.1 0 3.1 2.2 5.7 4.9 5.7h10.7l-1.1-1.1c-.2-.2-.2-.6 0-.9.2-.2.6-.2.8 0 0 0 1.5 1.6 1.9 2zm3.8-10.6C23.4 5.4 24 7.2 24 9c0 2.7-1.3 5-3.4 6.2-.1.1-.2.1-.3.1-.2 0-.4-.1-.5-.3-.2-.3-.1-.7.2-.8 1.7-.9 2.8-3 2.8-5.1 0-1.5-.5-3-1.4-4-.9-1.1-2.1-1.6-3.4-1.6H7.4l1.1 1.1c.2.2.2.6 0 .9-.2-.1-.4 0-.5 0-.2 0-.3-.1-.4-.2-.1-.1-1.5-1.6-2-2-.2-.2-.3-.4-.3-.5v-.2c0-.1.1-.3.2-.5.4-.4 1.9-2 2-2 .2-.2.6-.2.8 0 .2.2.2.6 0 .9l-1 1h10.6c1.7.1 3.2.8 4.3 2.1z\" fill=\"#333\"/></g><defs><filter id=\"icon_x2F_Utility_x2F_Store_x2F_return-Adobe_OpacityMaskFilter\" filterUnits=\"userSpaceOnUse\" x=\"-12\" y=\"-15\" width=\"48\" height=\"48\"><feColorMatrix values=\"1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0\"/></filter></defs><mask maskUnits=\"userSpaceOnUse\" x=\"-12\" y=\"-15\" width=\"48\" height=\"48\" id=\"icon_x2F_Utility_x2F_Store_x2F_return-mask-2\"><g filter=\"url(#icon_x2F_Utility_x2F_Store_x2F_return-Adobe_OpacityMaskFilter)\"><path id=\"icon_x2F_Utility_x2F_Store_x2F_return-path-1\" d=\"M18.4 14.7c.2.2.2.4.2.5v.2c0 .1-.1.3-.2.5-.4.4-1.9 2-2 2 0 0-.2.1-.4.1s-.3-.1-.4-.2c-.2-.2-.2-.6 0-.9l1-1H6.1C2.7 15.9 0 12.8 0 9c0-2.7 1.3-5 3.4-6.2.3-.2.7-.1.8.2.2.3.1.7-.2.9-1.7.9-2.8 2.9-2.8 5.1 0 3.1 2.2 5.7 4.9 5.7h10.7l-1.1-1.1c-.2-.2-.2-.6 0-.9.2-.2.6-.2.8 0 0 0 1.5 1.6 1.9 2zm3.8-10.6C23.4 5.4 24 7.2 24 9c0 2.7-1.3 5-3.4 6.2-.1.1-.2.1-.3.1-.2 0-.4-.1-.5-.3-.2-.3-.1-.7.2-.8 1.7-.9 2.8-3 2.8-5.1 0-1.5-.5-3-1.4-4-.9-1.1-2.1-1.6-3.4-1.6H7.4l1.1 1.1c.2.2.2.6 0 .9-.2-.1-.4 0-.5 0-.2 0-.3-.1-.4-.2-.1-.1-1.5-1.6-2-2-.2-.2-.3-.4-.3-.5v-.2c0-.1.1-.3.2-.5.4-.4 1.9-2 2-2 .2-.2.6-.2.8 0 .2.2.2.6 0 .9l-1 1h10.6c1.7.1 3.2.8 4.3 2.1z\" fill=\"#fff\"/></g></mask><g id=\"icon_x2F_Utility_x2F_Store_x2F_return-Color_x2F_Grayscale_x2F_Night-Sky\" mask=\"url(#icon_x2F_Utility_x2F_Store_x2F_return-mask-2)\"><path fill=\"#111\" d=\"M0 0h48v48H0z\" transform=\"translate(-12 -15)\" id=\"icon_x2F_Utility_x2F_Store_x2F_return-Swatch\"/></g></g></g></g></svg>"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"icon_x2F_Utility_x2F_Store_x2F_return-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"icon_x2F_Utility_x2F_Store_x2F_return-path-1_1_\" style=\"fill:#333333;\" d=\"M30.4,29.7c0.2,0.2,0.2,0.4,0.2,0.5v0.2\r\n\tc0,0.1-0.1,0.3-0.2,0.5c-0.4,0.4-1.9,2-2,2c0,0-0.2,0.1-0.4,0.1s-0.3-0.1-0.4-0.2c-0.2-0.2-0.2-0.6,0-0.9l1-1H18.1\r\n\tc-3.4,0-6.1-3.1-6.1-6.9c0-2.7,1.3-5,3.4-6.2c0.3-0.2,0.7-0.1,0.8,0.2c0.2,0.3,0.1,0.7-0.2,0.9c-1.7,0.9-2.8,2.9-2.8,5.1\r\n\tc0,3.1,2.2,5.7,4.9,5.7h10.7l-1.1-1.1c-0.2-0.2-0.2-0.6,0-0.9c0.2-0.2,0.6-0.2,0.8,0C28.5,27.7,30,29.3,30.4,29.7z M34.2,19.1\r\n\tc1.2,1.3,1.8,3.1,1.8,4.9c0,2.7-1.3,5-3.4,6.2c-0.1,0.1-0.2,0.1-0.3,0.1c-0.2,0-0.4-0.1-0.5-0.3c-0.2-0.3-0.1-0.7,0.2-0.8\r\n\tc1.7-0.9,2.8-3,2.8-5.1c0-1.5-0.5-3-1.4-4c-0.9-1.1-2.1-1.6-3.4-1.6H19.4l1.1,1.1c0.2,0.2,0.2,0.6,0,0.9c-0.2-0.1-0.4,0-0.5,0\r\n\tc-0.2,0-0.3-0.1-0.4-0.2s-1.5-1.6-2-2c-0.2-0.2-0.3-0.4-0.3-0.5v-0.2c0-0.1,0.1-0.3,0.2-0.5c0.4-0.4,1.9-2,2-2\r\n\tc0.2-0.2,0.6-0.2,0.8,0s0.2,0.6,0,0.9l-1,1h10.6C31.6,17.1,33.1,17.8,34.2,19.1z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "apyU":
 /***/ (function(module, exports) {
 
-module.exports = "<svg id=\"icon_x2F_Utility_x2F_Ship_x2F_truck-Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 48 48\" enable-background=\"new 0 0 48 48\"><title>icon/Utility/Ship/truck</title><g id=\"icon_x2F_Utility_x2F_Ship_x2F_truck-Symbols\"><g id=\"icon_x2F_Utility_x2F_Ship_x2F_truck\"><g id=\"icon_x2F_Utility_x2F_Ship_x2F_truck-Icon\" transform=\"translate(11 14)\"><g id=\"icon_x2F_Utility_x2F_Ship_x2F_truck-Mask\"><path id=\"icon_x2F_Utility_x2F_Ship_x2F_truck-path-1_1_\" d=\"M23.5 0H12c-1.2 0-2.5 1.2-2.5 2.4v13.5c0 1.3 1.2 2.6 2.5 2.6h5.5c.5.9 1.5 1.5 2.6 1.5s2.1-.6 2.6-1.5h.8c1.1 0 2.4-1.3 2.4-2.6V2.4C26 1.2 24.8 0 23.5 0zm-3.3 18.7c-1 0-1.7-.8-1.7-1.8s.8-1.8 1.7-1.8c1 0 1.7.8 1.7 1.8s-.7 1.8-1.7 1.8zM8.1 5.1c.4 0 .7.3.7.7v11c0 .4-.3.7-.7.7h-.6C7.3 18.9 6 20 4.5 20s-2.8-1.1-3-2.6H.7c-.4 0-.7-.3-.7-.7v-5.6c0-.1 0-1.1.5-2 0 0 0-.1.1-.1l2.8-3.3c0-.1.1-.1.2-.1.8-.5 1.3-.5 1.6-.5h2.9zM4.5 18.7c1 0 1.7-.8 1.7-1.8s-.8-1.8-1.7-1.8-1.8.9-1.8 1.8.8 1.8 1.8 1.8z\" fill=\"#384048\"/></g><defs><filter id=\"icon_x2F_Utility_x2F_Ship_x2F_truck-Adobe_OpacityMaskFilter\" filterUnits=\"userSpaceOnUse\" x=\"-11\" y=\"-14\" width=\"48\" height=\"48\"><feColorMatrix values=\"1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0\"/></filter></defs><mask maskUnits=\"userSpaceOnUse\" x=\"-11\" y=\"-14\" width=\"48\" height=\"48\" id=\"icon_x2F_Utility_x2F_Ship_x2F_truck-mask-2\"><g filter=\"url(#icon_x2F_Utility_x2F_Ship_x2F_truck-Adobe_OpacityMaskFilter)\"><path id=\"icon_x2F_Utility_x2F_Ship_x2F_truck-path-1\" d=\"M23.5 0H12c-1.2 0-2.5 1.2-2.5 2.4v13.5c0 1.3 1.2 2.6 2.5 2.6h5.5c.5.9 1.5 1.5 2.6 1.5s2.1-.6 2.6-1.5h.8c1.1 0 2.4-1.3 2.4-2.6V2.4C26 1.2 24.8 0 23.5 0zm-3.3 18.7c-1 0-1.7-.8-1.7-1.8s.8-1.8 1.7-1.8c1 0 1.7.8 1.7 1.8s-.7 1.8-1.7 1.8zM8.1 5.1c.4 0 .7.3.7.7v11c0 .4-.3.7-.7.7h-.6C7.3 18.9 6 20 4.5 20s-2.8-1.1-3-2.6H.7c-.4 0-.7-.3-.7-.7v-5.6c0-.1 0-1.1.5-2 0 0 0-.1.1-.1l2.8-3.3c0-.1.1-.1.2-.1.8-.5 1.3-.5 1.6-.5h2.9zM4.5 18.7c1 0 1.7-.8 1.7-1.8s-.8-1.8-1.7-1.8-1.8.9-1.8 1.8.8 1.8 1.8 1.8z\" fill=\"#fff\"/></g></mask><g id=\"icon_x2F_Utility_x2F_Ship_x2F_truck-Color_x2F_Grayscale_x2F_Night-Sky\" mask=\"url(#icon_x2F_Utility_x2F_Ship_x2F_truck-mask-2)\"><path fill=\"#111\" d=\"M0 0h48v48H0z\" transform=\"translate(-11 -14)\" id=\"icon_x2F_Utility_x2F_Ship_x2F_truck-Swatch\"/></g></g></g></g></svg>"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"icon_x2F_Utility_x2F_Ship_x2F_truck-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"icon_x2F_Utility_x2F_Ship_x2F_truck-path-1_1_\" style=\"fill:#111111;\" d=\"M34.5,14H23c-1.2,0-2.5,1.2-2.5,2.4v13.5\r\n\tc0,1.3,1.2,2.6,2.5,2.6h5.5C29,33.4,30,34,31.1,34s2.1-0.6,2.6-1.5h0.8c1.1,0,2.4-1.3,2.4-2.6V16.4C37,15.2,35.8,14,34.5,14z\r\n\t M31.2,32.7c-1,0-1.7-0.8-1.7-1.8s0.8-1.8,1.7-1.8c1,0,1.7,0.8,1.7,1.8S32.2,32.7,31.2,32.7z M19.1,19.1c0.4,0,0.7,0.3,0.7,0.7v11\r\n\tc0,0.4-0.3,0.7-0.7,0.7h-0.6c-0.2,1.4-1.5,2.5-3,2.5s-2.8-1.1-3-2.6h-0.8c-0.4,0-0.7-0.3-0.7-0.7v-5.6c0-0.1,0-1.1,0.5-2\r\n\tc0,0,0-0.1,0.1-0.1l2.8-3.3c0-0.1,0.1-0.1,0.2-0.1c0.8-0.5,1.3-0.5,1.6-0.5C16.2,19.1,19.1,19.1,19.1,19.1z M15.5,32.7\r\n\tc1,0,1.7-0.8,1.7-1.8s-0.8-1.8-1.7-1.8s-1.8,0.9-1.8,1.8S14.5,32.7,15.5,32.7z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "bHds":
 /***/ (function(module, exports) {
 
-module.exports = "<svg id=\"action-conversation-fill-Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 48 48\" enable-background=\"new 0 0 48 48\"><title>icon/Action/conversation-fill</title><g transform=\"translate(11 14)\"><path id=\"action-conversation-fill-a_1_\" d=\"M23.7 0H2.9C1.3 0 0 1.2 0 2.7v8.9c0 1.6 1.3 2.8 2.9 2.8h10.4s.1 0 .1.1l5.8 5.4c.2.2.5.2.7.1.2-.1.4-.3.4-.6v-4.8-.2H23c1.6-.1 2.9-1.6 2.9-2.8V2.5C26 .9 24.8 0 23.7 0zM6.6 8.7C5.7 8.7 5 8 5 7.2s.7-1.5 1.5-1.5c.9 0 1.5.7 1.5 1.5.1.8-.6 1.5-1.4 1.5zm6.4 0c-.9 0-1.5-.7-1.5-1.5s.7-1.5 1.5-1.5 1.5.7 1.5 1.5-.6 1.5-1.5 1.5zm6.4 0c-.9 0-1.5-.7-1.5-1.5s.7-1.5 1.5-1.5c.9 0 1.5.7 1.5 1.5.1.8-.6 1.5-1.5 1.5z\" fill=\"#384048\"/><defs><filter id=\"action-conversation-fill-Adobe_OpacityMaskFilter\" filterUnits=\"userSpaceOnUse\" x=\"-11\" y=\"-14\" width=\"48\" height=\"48\"><feColorMatrix values=\"1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0\"/></filter></defs><mask maskUnits=\"userSpaceOnUse\" x=\"-11\" y=\"-14\" width=\"48\" height=\"48\" id=\"action-conversation-fill-b\"><g filter=\"url(#action-conversation-fill-Adobe_OpacityMaskFilter)\"><path id=\"action-conversation-fill-a\" d=\"M23.7 0H2.9C1.3 0 0 1.2 0 2.7v8.9c0 1.6 1.3 2.8 2.9 2.8h10.4s.1 0 .1.1l5.8 5.4c.2.2.5.2.7.1.2-.1.4-.3.4-.6v-4.8-.2H23c1.6-.1 2.9-1.6 2.9-2.8V2.5C26 .9 24.8 0 23.7 0zM6.6 8.7C5.7 8.7 5 8 5 7.2s.7-1.5 1.5-1.5c.9 0 1.5.7 1.5 1.5.1.8-.6 1.5-1.4 1.5zm6.4 0c-.9 0-1.5-.7-1.5-1.5s.7-1.5 1.5-1.5 1.5.7 1.5 1.5-.6 1.5-1.5 1.5zm6.4 0c-.9 0-1.5-.7-1.5-1.5s.7-1.5 1.5-1.5c.9 0 1.5.7 1.5 1.5.1.8-.6 1.5-1.5 1.5z\" fill=\"#fff\"/></g></mask><g mask=\"url(#action-conversation-fill-b)\"><path d=\"M-11-14h48v48h-48v-48z\" fill=\"#111\"/></g></g></svg>"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"action-conversation-fill-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"action-conversation-fill-a_1_\" style=\"fill:#111111;\" d=\"M34.7,14H13.9c-1.6,0-2.9,1.2-2.9,2.7v8.9c0,1.6,1.3,2.8,2.9,2.8\r\n\th10.4c0,0,0.1,0,0.1,0.1l5.8,5.4c0.2,0.2,0.5,0.2,0.7,0.1s0.4-0.3,0.4-0.6v-4.8v-0.2H34c1.6-0.1,2.9-1.6,2.9-2.8v-9.1\r\n\tC37,14.9,35.8,14,34.7,14z M17.6,22.7c-0.9,0-1.6-0.7-1.6-1.5c0-0.8,0.7-1.5,1.5-1.5c0.9,0,1.5,0.7,1.5,1.5\r\n\tC19.1,22,18.4,22.7,17.6,22.7z M24,22.7c-0.9,0-1.5-0.7-1.5-1.5c0-0.8,0.7-1.5,1.5-1.5s1.5,0.7,1.5,1.5C25.5,22,24.9,22.7,24,22.7z\r\n\t M30.4,22.7c-0.9,0-1.5-0.7-1.5-1.5c0-0.8,0.7-1.5,1.5-1.5c0.9,0,1.5,0.7,1.5,1.5C32,22,31.3,22.7,30.4,22.7z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
@@ -13503,35 +13610,35 @@ var _temp = function () {
 /***/ "cosh":
 /***/ (function(module, exports) {
 
-module.exports = "<svg id=\"action-list-fill-Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 48 48\" enable-background=\"new 0 0 48 48\"><title>icon/Action/list-fill</title><g transform=\"translate(12 12)\"><path id=\"action-list-fill-a_1_\" d=\"M0 1c0-.5.4-1 1-1h4.6c.6 0 1 .4 1 1v4.6c0 .6-.4 1-1 1H1c-.5 0-1-.4-1-1V1zm0 8.7c0-.5.4-1 1-1h4.6c.6 0 1 .4 1 1v4.6c0 .5-.4 1-1 1H1c-.5 0-1-.4-1-1V9.7zM8.7 1c0-.5.4-1 1-1H23c.6 0 1 .4 1 1v4.6c0 .6-.4 1-1 1H9.7c-.6 0-1-.4-1-1V1zm0 8.7c0-.5.4-1 1-1H23c.6 0 1 .4 1 1v4.6c0 .5-.4 1-1 1H9.7c-.6 0-1-.4-1-1V9.7zM0 18.5c0-.5.4-1 1-1h4.6c.6 0 1 .5 1 1V23c0 .5-.4 1-1 1H1c-.5 0-1-.4-1-1v-4.5zm8.7 0c0-.5.4-1 1-1H23c.6 0 1 .5 1 1V23c0 .5-.4 1-1 1H9.7c-.6 0-1-.5-1-1v-4.5z\" fill=\"#384048\"/><defs><filter id=\"action-list-fill-Adobe_OpacityMaskFilter\" filterUnits=\"userSpaceOnUse\" x=\"-12\" y=\"-12\" width=\"48\" height=\"48\"><feColorMatrix values=\"1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0\"/></filter></defs><mask maskUnits=\"userSpaceOnUse\" x=\"-12\" y=\"-12\" width=\"48\" height=\"48\" id=\"action-list-fill-b\"><g filter=\"url(#action-list-fill-Adobe_OpacityMaskFilter)\"><path id=\"action-list-fill-a\" d=\"M0 1c0-.5.4-1 1-1h4.6c.6 0 1 .4 1 1v4.6c0 .6-.4 1-1 1H1c-.5 0-1-.4-1-1V1zm0 8.7c0-.5.4-1 1-1h4.6c.6 0 1 .4 1 1v4.6c0 .5-.4 1-1 1H1c-.5 0-1-.4-1-1V9.7zM8.7 1c0-.5.4-1 1-1H23c.6 0 1 .4 1 1v4.6c0 .6-.4 1-1 1H9.7c-.6 0-1-.4-1-1V1zm0 8.7c0-.5.4-1 1-1H23c.6 0 1 .4 1 1v4.6c0 .5-.4 1-1 1H9.7c-.6 0-1-.4-1-1V9.7zM0 18.5c0-.5.4-1 1-1h4.6c.6 0 1 .5 1 1V23c0 .5-.4 1-1 1H1c-.5 0-1-.4-1-1v-4.5zm8.7 0c0-.5.4-1 1-1H23c.6 0 1 .5 1 1V23c0 .5-.4 1-1 1H9.7c-.6 0-1-.5-1-1v-4.5z\" fill=\"#fff\"/></g></mask><g mask=\"url(#action-list-fill-b)\"><path d=\"M-12-12h48v48h-48v-48z\" fill=\"#111\"/></g></g></svg>"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"action-list-fill-Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"\r\n\t x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\" style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"action-list-fill-a_1_\" style=\"fill:#111111;\" d=\"M12,13c0-0.5,0.4-1,1-1h4.6c0.6,0,1,0.4,1,1v4.6c0,0.6-0.4,1-1,1H13\r\n\tc-0.5,0-1-0.4-1-1V13z M12,21.7c0-0.5,0.4-1,1-1h4.6c0.6,0,1,0.4,1,1v4.6c0,0.5-0.4,1-1,1H13c-0.5,0-1-0.4-1-1V21.7z M20.7,13\r\n\tc0-0.5,0.4-1,1-1H35c0.6,0,1,0.4,1,1v4.6c0,0.6-0.4,1-1,1H21.7c-0.6,0-1-0.4-1-1V13z M20.7,21.7c0-0.5,0.4-1,1-1H35c0.6,0,1,0.4,1,1\r\n\tv4.6c0,0.5-0.4,1-1,1H21.7c-0.6,0-1-0.4-1-1V21.7z M12,30.5c0-0.5,0.4-1,1-1h4.6c0.6,0,1,0.5,1,1V35c0,0.5-0.4,1-1,1H13\r\n\tc-0.5,0-1-0.4-1-1V30.5z M20.7,30.5c0-0.5,0.4-1,1-1H35c0.6,0,1,0.5,1,1V35c0,0.5-0.4,1-1,1H21.7c-0.6,0-1-0.5-1-1V30.5z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "d3mM":
 /***/ (function(module, exports) {
 
-module.exports = "<svg id=\"icon_x2F_Utility_x2F_ribbon-Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 48 48\" enable-background=\"new 0 0 48 48\"><title>icon/Utility/ribbon</title><g id=\"icon_x2F_Utility_x2F_ribbon-Symbols\"><g id=\"icon_x2F_Utility_x2F_ribbon\"><g id=\"icon_x2F_Utility_x2F_ribbon-Icon\" transform=\"translate(14 11)\"><g id=\"icon_x2F_Utility_x2F_ribbon-Mask\"><path id=\"icon_x2F_Utility_x2F_ribbon-path-1_1_\" d=\"M19.4 8.4c.9 1.3.7 2.5-.3 3.6-.6.6-.9 1.1-.9 1.7v.3c-.1 1.3-.7 2-2 2.4v.1c.2.8.4 1.4.6 1.9.4 1.5.6 1.9 1.4 4.3.1.2 0 .5-.2.7-.2.2-.5.2-.7.1-.1 0-.3-.1-.5-.2-.6-.2-1.6-.6-2.1-.8h-.2c-.3 0-.5.4-.6.6-.3.4-.5.8-.7 1.2-.2.4-.5.9-.9 1.5-.1.2-.4.3-.6.3-.3 0-.5-.2-.5-.5-.4-1.3-.8-2.6-1.2-3.7-.1.3-.1.5-.2.7-.2.8-.4 1.6-.8 2.9-.1.3-.3.4-.5.5h-.1c-.2 0-.4-.1-.6-.3-.4-.7-.7-1.2-1-1.7-.2-.3-.4-.7-.6-1-.1-.1-.3-.5-.6-.5-.1 0-.2 0-.2.1-.4.2-1.1.4-1.8.6-.3.1-.7.2-.8.3-.2.1-.5.1-.7-.1s-.3-.4-.2-.7c1.1-3.3 1.2-3.6 2-6.1l.1-.2C2.8 16 2.2 15.3 2 14v-.3c0-.6-.3-1.1-.9-1.7C.1 10.9 0 9.7.8 8.4c.2-.7.4-1.5.2-2.3-.2-1.3.4-2.3 1.7-2.9 1-.4 1.6-1 2-1.8C5.2.6 6 .1 6.9.1c.2 0 .5 0 .7.1.9.2 1.7.3 2.3.3h.1c.9 0 1.8-.2 2.1-.3.2-.1.5-.1.7-.1 1 0 1.8.5 2.3 1.4.4.8 1.1 1.4 2.1 1.8 1.3.5 1.9 1.6 1.7 2.9-.2.7 0 1.5.5 2.2zM14.3 14c1.2-1.2 1.9-2.7 1.8-4.4 0-1.6-.7-3.2-1.9-4.3-1.2-1.1-2.7-1.8-4.4-1.9h-.1c-1.6.1-3.1.8-4.3 1.9C4.2 6.5 3.6 8 3.5 9.6c0 1.6.7 3.2 1.9 4.4 1.2 1.2 2.7 1.8 4.4 1.9 1.8 0 3.4-.7 4.5-1.9zm-5.6-1.6c-.2 0-.3-.1-.5-.2l-1.6-1.6c-.3-.3-.3-.7 0-.9.3-.3.7-.3.9 0l1.1 1.1 3.5-3.5c.3-.3.7-.3.9 0 .3.3.3.7 0 .9l-4 3.9c0 .2-.1.3-.3.3z\" fill=\"#333\"/></g><defs><filter id=\"icon_x2F_Utility_x2F_ribbon-Adobe_OpacityMaskFilter\" filterUnits=\"userSpaceOnUse\" x=\"-10\" y=\"-6.5\" width=\"40\" height=\"39\"><feColorMatrix values=\"1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0\"/></filter></defs><mask maskUnits=\"userSpaceOnUse\" x=\"-10\" y=\"-6.5\" width=\"40\" height=\"39\" id=\"icon_x2F_Utility_x2F_ribbon-mask-2\"><g filter=\"url(#icon_x2F_Utility_x2F_ribbon-Adobe_OpacityMaskFilter)\"><path id=\"icon_x2F_Utility_x2F_ribbon-path-1\" d=\"M19.4 8.4c.9 1.3.7 2.5-.3 3.6-.6.6-.9 1.1-.9 1.7v.3c-.1 1.3-.7 2-2 2.4v.1c.2.8.4 1.4.6 1.9.4 1.5.6 1.9 1.4 4.3.1.2 0 .5-.2.7-.2.2-.5.2-.7.1-.1 0-.3-.1-.5-.2-.6-.2-1.6-.6-2.1-.8h-.2c-.3 0-.5.4-.6.6-.3.4-.5.8-.7 1.2-.2.4-.5.9-.9 1.5-.1.2-.4.3-.6.3-.3 0-.5-.2-.5-.5-.4-1.3-.8-2.6-1.2-3.7-.1.3-.1.5-.2.7-.2.8-.4 1.6-.8 2.9-.1.3-.3.4-.5.5h-.1c-.2 0-.4-.1-.6-.3-.4-.7-.7-1.2-1-1.7-.2-.3-.4-.7-.6-1-.1-.1-.3-.5-.6-.5-.1 0-.2 0-.2.1-.4.2-1.1.4-1.8.6-.3.1-.7.2-.8.3-.2.1-.5.1-.7-.1s-.3-.4-.2-.7c1.1-3.3 1.2-3.6 2-6.1l.1-.2C2.8 16 2.2 15.3 2 14v-.3c0-.6-.3-1.1-.9-1.7C.1 10.9 0 9.7.8 8.4c.2-.7.4-1.5.2-2.3-.2-1.3.4-2.3 1.7-2.9 1-.4 1.6-1 2-1.8C5.2.6 6 .1 6.9.1c.2 0 .5 0 .7.1.9.2 1.7.3 2.3.3h.1c.9 0 1.8-.2 2.1-.3.2-.1.5-.1.7-.1 1 0 1.8.5 2.3 1.4.4.8 1.1 1.4 2.1 1.8 1.3.5 1.9 1.6 1.7 2.9-.2.7 0 1.5.5 2.2zM14.3 14c1.2-1.2 1.9-2.7 1.8-4.4 0-1.6-.7-3.2-1.9-4.3-1.2-1.1-2.7-1.8-4.4-1.9h-.1c-1.6.1-3.1.8-4.3 1.9C4.2 6.5 3.6 8 3.5 9.6c0 1.6.7 3.2 1.9 4.4 1.2 1.2 2.7 1.8 4.4 1.9 1.8 0 3.4-.7 4.5-1.9zm-5.6-1.6c-.2 0-.3-.1-.5-.2l-1.6-1.6c-.3-.3-.3-.7 0-.9.3-.3.7-.3.9 0l1.1 1.1 3.5-3.5c.3-.3.7-.3.9 0 .3.3.3.7 0 .9l-4 3.9c0 .2-.1.3-.3.3z\" fill=\"#fff\"/></g></mask><g id=\"icon_x2F_Utility_x2F_ribbon-Color_x2F_Grayscale_x2F_Night-Sky\" mask=\"url(#icon_x2F_Utility_x2F_ribbon-mask-2)\"><path fill=\"#111\" d=\"M0 0h40v39H0z\" transform=\"translate(-10 -6.5)\" id=\"icon_x2F_Utility_x2F_ribbon-Swatch\"/></g></g></g></g></svg>"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"icon_x2F_Utility_x2F_ribbon-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"icon_x2F_Utility_x2F_ribbon-path-1_1_\" style=\"fill:#333333;\" d=\"M33.4,19.4c0.9,1.3,0.7,2.5-0.3,3.6\r\n\tc-0.6,0.6-0.9,1.1-0.9,1.7V25c-0.1,1.3-0.7,2-2,2.4v0.1c0.2,0.8,0.4,1.4,0.6,1.9c0.4,1.5,0.6,1.9,1.4,4.3c0.1,0.2,0,0.5-0.2,0.7\r\n\ts-0.5,0.2-0.7,0.1c-0.1,0-0.3-0.1-0.5-0.2c-0.6-0.2-1.6-0.6-2.1-0.8h-0.2c-0.3,0-0.5,0.4-0.6,0.6c-0.3,0.4-0.5,0.8-0.7,1.2\r\n\ts-0.5,0.9-0.9,1.5c-0.1,0.2-0.4,0.3-0.6,0.3c-0.3,0-0.5-0.2-0.5-0.5c-0.4-1.3-0.8-2.6-1.2-3.7c-0.1,0.3-0.1,0.5-0.2,0.7\r\n\tc-0.2,0.8-0.4,1.6-0.8,2.9c-0.1,0.3-0.3,0.4-0.5,0.5h-0.1c-0.2,0-0.4-0.1-0.6-0.3c-0.4-0.7-0.7-1.2-1-1.7c-0.2-0.3-0.4-0.7-0.6-1\r\n\tc-0.1-0.1-0.3-0.5-0.6-0.5c-0.1,0-0.2,0-0.2,0.1c-0.4,0.2-1.1,0.4-1.8,0.6c-0.3,0.1-0.7,0.2-0.8,0.3c-0.2,0.1-0.5,0.1-0.7-0.1\r\n\tc-0.2-0.2-0.3-0.4-0.2-0.7c1.1-3.3,1.2-3.6,2-6.1l0.1-0.2c-1.2-0.4-1.8-1.1-2-2.4v-0.3c0-0.6-0.3-1.1-0.9-1.7\r\n\tc-1-1.1-1.1-2.3-0.3-3.6c0.2-0.7,0.4-1.5,0.2-2.3c-0.2-1.3,0.4-2.3,1.7-2.9c1-0.4,1.6-1,2-1.8c0.5-0.8,1.3-1.3,2.2-1.3\r\n\tc0.2,0,0.5,0,0.7,0.1c0.9,0.2,1.7,0.3,2.3,0.3H24c0.9,0,1.8-0.2,2.1-0.3c0.2-0.1,0.5-0.1,0.7-0.1c1,0,1.8,0.5,2.3,1.4\r\n\tc0.4,0.8,1.1,1.4,2.1,1.8c1.3,0.5,1.9,1.6,1.7,2.9C32.7,17.9,32.9,18.7,33.4,19.4z M28.3,25c1.2-1.2,1.9-2.7,1.8-4.4\r\n\tc0-1.6-0.7-3.2-1.9-4.3c-1.2-1.1-2.7-1.8-4.4-1.9h-0.1c-1.6,0.1-3.1,0.8-4.3,1.9c-1.2,1.2-1.8,2.7-1.9,4.3c0,1.6,0.7,3.2,1.9,4.4\r\n\tc1.2,1.2,2.7,1.8,4.4,1.9C25.6,26.9,27.2,26.2,28.3,25z M22.7,23.4c-0.2,0-0.3-0.1-0.5-0.2l-1.6-1.6c-0.3-0.3-0.3-0.7,0-0.9\r\n\tc0.3-0.3,0.7-0.3,0.9,0l1.1,1.1l3.5-3.5c0.3-0.3,0.7-0.3,0.9,0c0.3,0.3,0.3,0.7,0,0.9l-4,3.9C23,23.3,22.9,23.4,22.7,23.4z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "dRZH":
 /***/ (function(module, exports) {
 
-module.exports = "<svg id=\"action-print-Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 48 48\" enable-background=\"new 0 0 48 48\"><title>icon/Action/print</title><g transform=\"translate(11 13)\"><path id=\"action-print-a_1_\" d=\"M23.2 2.5c1.7 0 2.8 1.1 2.8 2.8v8c0 1.6-1.2 2.8-2.8 2.8h-.9l.3 3.8c0 1.3-.9 2.1-2.2 2.1h-15c-1.3 0-2.2-.8-2.2-2.1l.3-3.8h-.7C1.1 16.1 0 15 0 13.3V5.2c0-1.5 1.2-2.6 2.8-2.6 0-.1 20.4-.1 20.4-.1zm-2.7 18.2c.6 0 .9-.3.9-.8L20.4 9v-.1c0-.6-.3-.8-.9-.8h-13c-.3-.1-.9 0-.9.7v.1l-1 11c0 .5.3.8.9.8h15zM7.2 1.3c-.4 0-.7-.3-.7-.7 0-.3.3-.6.7-.6h11.7c.4 0 .6.3.6.6 0 .4-.3.6-.6.6H7.2zm1.2 11.8c-.4 0-.6-.3-.7-.6 0-.4.3-.6.7-.6h9.1c.4 0 .6.3.6.6 0 .4-.3.6-.6.6H8.4zm9.6 3.4c.4 0 .6.3.6.6 0 .4-.3.6-.6.6H8c-.4 0-.6-.3-.6-.6 0-.4.3-.6.7-.6H18z\" fill=\"#384048\"/><defs><filter id=\"action-print-Adobe_OpacityMaskFilter\" filterUnits=\"userSpaceOnUse\" x=\"-11\" y=\"-13\" width=\"48\" height=\"48\"><feColorMatrix values=\"1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0\"/></filter></defs><mask maskUnits=\"userSpaceOnUse\" x=\"-11\" y=\"-13\" width=\"48\" height=\"48\" id=\"action-print-b\"><g filter=\"url(#action-print-Adobe_OpacityMaskFilter)\"><path id=\"action-print-a\" d=\"M23.2 2.5c1.7 0 2.8 1.1 2.8 2.8v8c0 1.6-1.2 2.8-2.8 2.8h-.9l.3 3.8c0 1.3-.9 2.1-2.2 2.1h-15c-1.3 0-2.2-.8-2.2-2.1l.3-3.8h-.7C1.1 16.1 0 15 0 13.3V5.2c0-1.5 1.2-2.6 2.8-2.6 0-.1 20.4-.1 20.4-.1zm-2.7 18.2c.6 0 .9-.3.9-.8L20.4 9v-.1c0-.6-.3-.8-.9-.8h-13c-.3-.1-.9 0-.9.7v.1l-1 11c0 .5.3.8.9.8h15zM7.2 1.3c-.4 0-.7-.3-.7-.7 0-.3.3-.6.7-.6h11.7c.4 0 .6.3.6.6 0 .4-.3.6-.6.6H7.2zm1.2 11.8c-.4 0-.6-.3-.7-.6 0-.4.3-.6.7-.6h9.1c.4 0 .6.3.6.6 0 .4-.3.6-.6.6H8.4zm9.6 3.4c.4 0 .6.3.6.6 0 .4-.3.6-.6.6H8c-.4 0-.6-.3-.6-.6 0-.4.3-.6.7-.6H18z\" fill=\"#fff\"/></g></mask><g mask=\"url(#action-print-b)\"><path d=\"M-11-13h48v48h-48v-48z\" fill=\"#111\"/></g></g></svg>"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"action-print-Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"\r\n\t x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\" style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"action-print-a_1_\" style=\"fill:#111111;\" d=\"M34.2,15.5c1.7,0,2.8,1.1,2.8,2.8v8c0,1.6-1.2,2.8-2.8,2.8h-0.9l0.3,3.8\r\n\tc0,1.3-0.9,2.1-2.2,2.1h-15c-1.3,0-2.2-0.8-2.2-2.1l0.3-3.8h-0.7c-1.7,0-2.8-1.1-2.8-2.8v-8.1c0-1.5,1.2-2.6,2.8-2.6\r\n\tC13.8,15.5,34.2,15.5,34.2,15.5z M31.5,33.7c0.6,0,0.9-0.3,0.9-0.8l-1-10.9v-0.1c0-0.6-0.3-0.8-0.9-0.8h-13c-0.3-0.1-0.9,0-0.9,0.7\r\n\tv0.1l-1,11c0,0.5,0.3,0.8,0.9,0.8C16.5,33.7,31.5,33.7,31.5,33.7z M18.2,14.3c-0.4,0-0.7-0.3-0.7-0.7c0-0.3,0.3-0.6,0.7-0.6h11.7\r\n\tc0.4,0,0.6,0.3,0.6,0.6c0,0.4-0.3,0.6-0.6,0.6H18.2V14.3z M19.4,26.1c-0.4,0-0.6-0.3-0.7-0.6c0-0.4,0.3-0.6,0.7-0.6h9.1\r\n\tc0.4,0,0.6,0.3,0.6,0.6c0,0.4-0.3,0.6-0.6,0.6H19.4z M29,29.5c0.4,0,0.6,0.3,0.6,0.6c0,0.4-0.3,0.6-0.6,0.6H19\r\n\tc-0.4,0-0.6-0.3-0.6-0.6c0-0.4,0.3-0.6,0.7-0.6H29z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "ejGt":
 /***/ (function(module, exports) {
 
-module.exports = "<svg id=\"icon_x2F_Alert_x2F_error-Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 48 48\" enable-background=\"new 0 0 48 48\"><title>icon/Alert/error</title><g id=\"icon_x2F_Alert_x2F_error-Symbols\"><g id=\"icon_x2F_Alert_x2F_error\"><g id=\"icon_x2F_Alert_x2F_error-Icon\" transform=\"translate(12 12)\"><g id=\"icon_x2F_Alert_x2F_error-Mask\"><path id=\"icon_x2F_Alert_x2F_error-path-1_1_\" d=\"M23.3 6.3L17.6.7c-.4-.4-1-.7-1.6-.7H7.9c-.5 0-1.1.2-1.5.7L.9 6.1C.3 6.7 0 7.4 0 8.2V16c0 .6.2 1.2.7 1.7l5.6 5.6c.5.4 1.1.7 1.8.7h7.8c.7 0 1.3-.3 1.8-.8l5.4-5.4c.6-.6.9-1.3.9-2.2V8c0-.7-.3-1.3-.7-1.7zM11.4 6c0-.4.3-.7.7-.7.4 0 .7.3.7.7v9.2c0 .4-.3.7-.7.7-.4 0-.7-.3-.7-.7V6zm.6 12.8c-.5 0-.9-.4-.9-.9s.4-.9.9-.9.9.4.9.9-.4.9-.9.9z\" fill=\"#384048\"/></g><defs><filter id=\"icon_x2F_Alert_x2F_error-Adobe_OpacityMaskFilter\" filterUnits=\"userSpaceOnUse\" x=\"-12\" y=\"-12\" width=\"48\" height=\"48\"><feColorMatrix values=\"1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0\"/></filter></defs><mask maskUnits=\"userSpaceOnUse\" x=\"-12\" y=\"-12\" width=\"48\" height=\"48\" id=\"icon_x2F_Alert_x2F_error-mask-2\"><g filter=\"url(#icon_x2F_Alert_x2F_error-Adobe_OpacityMaskFilter)\"><path id=\"icon_x2F_Alert_x2F_error-path-1\" d=\"M23.3 6.3L17.6.7c-.4-.4-1-.7-1.6-.7H7.9c-.5 0-1.1.2-1.5.7L.9 6.1C.3 6.7 0 7.4 0 8.2V16c0 .6.2 1.2.7 1.7l5.6 5.6c.5.4 1.1.7 1.8.7h7.8c.7 0 1.3-.3 1.8-.8l5.4-5.4c.6-.6.9-1.3.9-2.2V8c0-.7-.3-1.3-.7-1.7zM11.4 6c0-.4.3-.7.7-.7.4 0 .7.3.7.7v9.2c0 .4-.3.7-.7.7-.4 0-.7-.3-.7-.7V6zm.6 12.8c-.5 0-.9-.4-.9-.9s.4-.9.9-.9.9.4.9.9-.4.9-.9.9z\" fill=\"#fff\"/></g></mask><g id=\"icon_x2F_Alert_x2F_error-Color_x2F_Messaging_x2F_Error\" mask=\"url(#icon_x2F_Alert_x2F_error-mask-2)\"><path fill=\"#9d2028\" d=\"M0 0h48v48H0z\" transform=\"translate(-12 -12)\" id=\"icon_x2F_Alert_x2F_error-Swatch\"/></g></g></g></g></svg>"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"icon_x2F_Alert_x2F_error-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"icon_x2F_Alert_x2F_error-path-1_1_\" style=\"fill:#9D2028;\" d=\"M35.3,18.3l-5.7-5.6c-0.4-0.4-1-0.7-1.6-0.7h-8.1\r\n\tc-0.5,0-1.1,0.2-1.5,0.7l-5.5,5.4c-0.6,0.6-0.9,1.3-0.9,2.1V28c0,0.6,0.2,1.2,0.7,1.7l5.6,5.6c0.5,0.4,1.1,0.7,1.8,0.7h7.8\r\n\tc0.7,0,1.3-0.3,1.8-0.8l5.4-5.4c0.6-0.6,0.9-1.3,0.9-2.2V20C36,19.3,35.7,18.7,35.3,18.3z M23.4,18c0-0.4,0.3-0.7,0.7-0.7\r\n\tc0.4,0,0.7,0.3,0.7,0.7v9.2c0,0.4-0.3,0.7-0.7,0.7c-0.4,0-0.7-0.3-0.7-0.7V18z M24,30.8c-0.5,0-0.9-0.4-0.9-0.9S23.5,29,24,29\r\n\ts0.9,0.4,0.9,0.9S24.5,30.8,24,30.8z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "fSow":
 /***/ (function(module, exports) {
 
-module.exports = "<svg id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 48 48\" enable-background=\"new 0 0 48 48\"><title>icon/Social/pinterest-fill</title><g id=\"Symbols\"><g id=\"icon_x2F_Social_x2F_pinterest-fill\"><g id=\"icon_x2F_Social_x2F_pinterest-fill-Icon\" transform=\"translate(8 8)\"><g id=\"icon_x2F_Social_x2F_pinterest-fill-Mask\"><path id=\"icon_x2F_Social_x2F_pinterest-fill-path-1_1_\" d=\"M16 0C7.2 0 0 7.2 0 16s7.2 16 16 16 16-7.2 16-16S24.8 0 16 0zm1.3 20.1c-1.1 0-2.1-.6-2.4-1.2 0 0-.6 2.3-.7 2.7-.4 1.6-1.7 3.1-1.8 3.2-.1.1-.2.1-.2-.1s-.3-2.2 0-3.8c.2-.8 1.3-5.4 1.3-5.4s-.3-.6-.3-1.6c0-1.5.9-2.6 1.9-2.6.9 0 1.3.7 1.3 1.5 0 .9-.6 2.3-.9 3.5-.2 1.1.5 1.9 1.6 1.9 1.9 0 3.1-2.4 3.1-5.3 0-2.2-1.5-3.8-4.1-3.8-3 0-4.9 2.2-4.9 4.7 0 .9.3 1.5.7 1.9.2.2.2.3.1.6 0 .2-.2.6-.2.8-.1.3-.3.3-.5.2-1.4-.6-2-2.1-2-3.8 0-2.8 2.4-6.2 7.1-6.2 3.8 0 6.3 2.7 6.3 5.7 0 4.2-2.2 7.1-5.4 7.1z\" fill=\"#384048\"/></g><defs><filter id=\"Adobe_OpacityMaskFilter\" filterUnits=\"userSpaceOnUse\" x=\"-8\" y=\"-8\" width=\"48\" height=\"48\"><feColorMatrix values=\"1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0\"/></filter></defs><mask maskUnits=\"userSpaceOnUse\" x=\"-8\" y=\"-8\" width=\"48\" height=\"48\" id=\"icon_x2F_Social_x2F_pinterest-fill-mask-2\"><g filter=\"url(#Adobe_OpacityMaskFilter)\"><path id=\"icon_x2F_Social_x2F_pinterest-fill-path-1\" d=\"M16 0C7.2 0 0 7.2 0 16s7.2 16 16 16 16-7.2 16-16S24.8 0 16 0zm1.3 20.1c-1.1 0-2.1-.6-2.4-1.2 0 0-.6 2.3-.7 2.7-.4 1.6-1.7 3.1-1.8 3.2-.1.1-.2.1-.2-.1s-.3-2.2 0-3.8c.2-.8 1.3-5.4 1.3-5.4s-.3-.6-.3-1.6c0-1.5.9-2.6 1.9-2.6.9 0 1.3.7 1.3 1.5 0 .9-.6 2.3-.9 3.5-.2 1.1.5 1.9 1.6 1.9 1.9 0 3.1-2.4 3.1-5.3 0-2.2-1.5-3.8-4.1-3.8-3 0-4.9 2.2-4.9 4.7 0 .9.3 1.5.7 1.9.2.2.2.3.1.6 0 .2-.2.6-.2.8-.1.3-.3.3-.5.2-1.4-.6-2-2.1-2-3.8 0-2.8 2.4-6.2 7.1-6.2 3.8 0 6.3 2.7 6.3 5.7 0 4.2-2.2 7.1-5.4 7.1z\" fill=\"#fff\"/></g></mask><g id=\"icon_x2F_Social_x2F_pinterest-fill-Color_x2F_Grayscale_x2F_Night-Sky\" mask=\"url(#icon_x2F_Social_x2F_pinterest-fill-mask-2)\"><path fill=\"#111\" d=\"M0 0h48v48H0z\" transform=\"translate(-8 -8)\" id=\"Swatch\"/></g></g></g></g></svg>"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\"\r\n\t viewBox=\"0 0 48 48\" style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"icon_x2F_Social_x2F_pinterest-fill-path-1_1_\" style=\"fill:#111111;\" d=\"M24,8C15.2,8,8,15.2,8,24s7.2,16,16,16\r\n\ts16-7.2,16-16S32.8,8,24,8z M25.3,28.1c-1.1,0-2.1-0.6-2.4-1.2c0,0-0.6,2.3-0.7,2.7c-0.4,1.6-1.7,3.1-1.8,3.2\r\n\tc-0.1,0.1-0.2,0.1-0.2-0.1s-0.3-2.2,0-3.8c0.2-0.8,1.3-5.4,1.3-5.4s-0.3-0.6-0.3-1.6c0-1.5,0.9-2.6,1.9-2.6c0.9,0,1.3,0.7,1.3,1.5\r\n\tc0,0.9-0.6,2.3-0.9,3.5c-0.2,1.1,0.5,1.9,1.6,1.9c1.9,0,3.1-2.4,3.1-5.3c0-2.2-1.5-3.8-4.1-3.8c-3,0-4.9,2.2-4.9,4.7\r\n\tc0,0.9,0.3,1.5,0.7,1.9c0.2,0.2,0.2,0.3,0.1,0.6c0,0.2-0.2,0.6-0.2,0.8c-0.1,0.3-0.3,0.3-0.5,0.2c-1.4-0.6-2-2.1-2-3.8\r\n\tc0-2.8,2.4-6.2,7.1-6.2c3.8,0,6.3,2.7,6.3,5.7C30.7,25.2,28.5,28.1,25.3,28.1z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
@@ -13571,7 +13678,7 @@ var CreateInput = function (_Component) {
                 { className: "row mrg-M" },
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                     "div",
-                    { className: "small-12 columns" },
+                    { className: "sm12 columns" },
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                         "label",
                         { htmlFor: this.props.name, className: "std-txt std-txt-S mrg-S" },
@@ -13592,10 +13699,10 @@ var CreateInput = function (_Component) {
                 { className: "row mrg-L" },
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                     "div",
-                    { className: "small-12 columns select-form" },
+                    { className: "sm12 columns select-form" },
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                         "div",
-                        { className: "small-12 columns select" },
+                        { className: "sm12 columns select" },
                         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                             "div",
                             { className: "css-float-label" },
@@ -13631,7 +13738,7 @@ var CreateInput = function (_Component) {
                 { className: "row mrg-L" },
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                     "div",
-                    { className: "small-12 columns" },
+                    { className: "sm12 columns" },
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                         "label",
                         { htmlFor: this.props.name, className: "std-txt std-txt-S mrg-S" },
@@ -13675,10 +13782,10 @@ var CreateInput = function (_Component) {
                 { className: "row mrg-L" },
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                     "div",
-                    { className: "small-12 columns select-form" },
+                    { className: "sm12 columns select-form" },
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                         "div",
-                        { className: "small-12 columns select" },
+                        { className: "sm12 columns select" },
                         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                             "div",
                             { className: "css-float-label" },
@@ -13717,16 +13824,20 @@ var CreateInput = function (_Component) {
         value: function renderCheckboxControl() {
             return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                 "div",
-                null,
+                { className: "row mrg-L" },
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    "label",
-                    { className: "checkbox mrg-S" },
-                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("input", { type: "checkbox", name: this.props.name, value: this.props.value, defaultChecked: this.props.defaultSelect }),
-                    " ",
+                    "div",
+                    { className: "sm12 columns select-form" },
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                        "span",
-                        { className: "std-txt std-txt-S" },
-                        this.props.displayLabel
+                        "label",
+                        { className: "checkbox mrg-S" },
+                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("input", { type: "checkbox", name: this.props.name, value: this.props.value, defaultChecked: this.props.defaultSelect }),
+                        " ",
+                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                            "span",
+                            { className: "std-txt std-txt-S" },
+                            this.props.displayLabel
+                        )
                     )
                 )
             );
@@ -13739,10 +13850,10 @@ var CreateInput = function (_Component) {
                 { className: "row mrg-L" },
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                     "div",
-                    { className: "small-12 columns select-form" },
+                    { className: "sm12 columns select-form" },
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                         "div",
-                        { className: "small-12 columns select" },
+                        { className: "sm12 columns select" },
                         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                             "div",
                             { className: "css-float-label" },
@@ -13812,49 +13923,49 @@ var _temp = function () {
 /***/ "fdEA":
 /***/ (function(module, exports) {
 
-module.exports = "<svg id=\"icon_x2F_Utility_x2F_Cart_x2F_express-checkout-Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 48 48\" enable-background=\"new 0 0 48 48\"><title>icon/Utility/Cart/express-checkout</title><g id=\"icon_x2F_Utility_x2F_Cart_x2F_express-checkout-Symbols\"><g id=\"icon_x2F_Utility_x2F_Cart_x2F_express-checkout\"><g id=\"icon_x2F_Utility_x2F_Cart_x2F_express-checkout-Icon\" transform=\"translate(11 14)\"><g id=\"icon_x2F_Utility_x2F_Cart_x2F_express-checkout-Mask\"><path id=\"icon_x2F_Utility_x2F_Cart_x2F_express-checkout-path-1_1_\" d=\"M23.8.3s-.1-.3-.5-.3H12.6c-.4 0-.6.3-.6.3L8.9 3.4 7 18.8c-.1.6.3 1.2 1 1.2h15.6c.6 0 1.2-.5 1.3-1.2L26 3.4 23.8.3zM22 8.2c-.4 1.6-2.2 4.7-5.5 4.7-1.2 0-2.2-.4-3-1.2C12.1 10.3 12 8.1 12 8c0-.4.3-.7.7-.7.4 0 .7.3.7.7 0 0 0 1 .4 1.9.5 1.1 1.4 1.7 2.7 1.7 1.3 0 2.4-.6 3.3-1.8.7-.9 1-1.9 1-1.9.1-.4.5-.6.8-.5.3 0 .5.4.4.8zM5.8 10.7H1.5c-.4 0-.7-.3-.7-.7s.3-.7.7-.7h4.3c.4 0 .7.3.7.7s-.4.7-.7.7zm-.5 4.1H3.1c-.4 0-.7-.3-.7-.7 0-.4.3-.7.7-.7h2.3c.4 0 .7.3.7.7-.1.3-.4.7-.8.7zm1.3-8.1H.7C.3 6.7 0 6.4 0 6c0-.4.3-.7.7-.7h5.9c.4 0 .7.3.7.7-.1.4-.4.7-.7.7z\" fill=\"#384048\"/></g><defs><filter id=\"icon_x2F_Utility_x2F_Cart_x2F_express-checkout-Adobe_OpacityMaskFilter\" filterUnits=\"userSpaceOnUse\" x=\"-11\" y=\"-14\" width=\"48\" height=\"48\"><feColorMatrix values=\"1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0\"/></filter></defs><mask maskUnits=\"userSpaceOnUse\" x=\"-11\" y=\"-14\" width=\"48\" height=\"48\" id=\"icon_x2F_Utility_x2F_Cart_x2F_express-checkout-mask-2\"><g filter=\"url(#icon_x2F_Utility_x2F_Cart_x2F_express-checkout-Adobe_OpacityMaskFilter)\"><path id=\"icon_x2F_Utility_x2F_Cart_x2F_express-checkout-path-1\" d=\"M23.8.3s-.1-.3-.5-.3H12.6c-.4 0-.6.3-.6.3L8.9 3.4 7 18.8c-.1.6.3 1.2 1 1.2h15.6c.6 0 1.2-.5 1.3-1.2L26 3.4 23.8.3zM22 8.2c-.4 1.6-2.2 4.7-5.5 4.7-1.2 0-2.2-.4-3-1.2C12.1 10.3 12 8.1 12 8c0-.4.3-.7.7-.7.4 0 .7.3.7.7 0 0 0 1 .4 1.9.5 1.1 1.4 1.7 2.7 1.7 1.3 0 2.4-.6 3.3-1.8.7-.9 1-1.9 1-1.9.1-.4.5-.6.8-.5.3 0 .5.4.4.8zM5.8 10.7H1.5c-.4 0-.7-.3-.7-.7s.3-.7.7-.7h4.3c.4 0 .7.3.7.7s-.4.7-.7.7zm-.5 4.1H3.1c-.4 0-.7-.3-.7-.7 0-.4.3-.7.7-.7h2.3c.4 0 .7.3.7.7-.1.3-.4.7-.8.7zm1.3-8.1H.7C.3 6.7 0 6.4 0 6c0-.4.3-.7.7-.7h5.9c.4 0 .7.3.7.7-.1.4-.4.7-.7.7z\" fill=\"#fff\"/></g></mask><g id=\"icon_x2F_Utility_x2F_Cart_x2F_express-checkout-Color_x2F_Grayscale_x2F_Night-Sky\" mask=\"url(#icon_x2F_Utility_x2F_Cart_x2F_express-checkout-mask-2)\"><path fill=\"#111\" d=\"M0 0h48v48H0z\" transform=\"translate(-11 -14)\" id=\"icon_x2F_Utility_x2F_Cart_x2F_express-checkout-Swatch\"/></g></g></g></g></svg>"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"icon_x2F_Utility_x2F_Cart_x2F_express-checkout-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"icon_x2F_Utility_x2F_Cart_x2F_express-checkout-path-1_1_\" style=\"fill:#111111;\" d=\"M34.8,14.3c0,0-0.1-0.3-0.5-0.3H23.6\r\n\tc-0.4,0-0.6,0.3-0.6,0.3l-3.1,3.1L18,32.8c-0.1,0.6,0.3,1.2,1,1.2h15.6c0.6,0,1.2-0.5,1.3-1.2L37,17.4L34.8,14.3z M33,22.2\r\n\tc-0.4,1.6-2.2,4.7-5.5,4.7c-1.2,0-2.2-0.4-3-1.2C23.1,24.3,23,22.1,23,22c0-0.4,0.3-0.7,0.7-0.7c0.4,0,0.7,0.3,0.7,0.7\r\n\tc0,0,0,1,0.4,1.9c0.5,1.1,1.4,1.7,2.7,1.7c1.3,0,2.4-0.6,3.3-1.8c0.7-0.9,1-1.9,1-1.9c0.1-0.4,0.5-0.6,0.8-0.5\r\n\tC32.9,21.4,33.1,21.8,33,22.2z M16.8,24.7h-4.3c-0.4,0-0.7-0.3-0.7-0.7s0.3-0.7,0.7-0.7h4.3c0.4,0,0.7,0.3,0.7,0.7\r\n\tS17.1,24.7,16.8,24.7z M16.3,28.8h-2.2c-0.4,0-0.7-0.3-0.7-0.7c0-0.4,0.3-0.7,0.7-0.7h2.3c0.4,0,0.7,0.3,0.7,0.7\r\n\tC17,28.4,16.7,28.8,16.3,28.8z M17.6,20.7h-5.9c-0.4,0-0.7-0.3-0.7-0.7s0.3-0.7,0.7-0.7h5.9c0.4,0,0.7,0.3,0.7,0.7\r\n\tC18.2,20.4,17.9,20.7,17.6,20.7z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "gFoA":
 /***/ (function(module, exports) {
 
-module.exports = "<svg id=\"icon_x2F_Utility_x2F_Calendar_x2F_appointment-Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 48 48\" enable-background=\"new 0 0 48 48\"><title>icon/Utility/Calendar/appointment</title><g id=\"icon_x2F_Utility_x2F_Calendar_x2F_appointment-Symbols\"><g id=\"icon_x2F_Utility_x2F_Calendar_x2F_appointment\"><g id=\"icon_x2F_Utility_x2F_Calendar_x2F_appointment-Icon\" transform=\"translate(11 13)\"><g id=\"icon_x2F_Utility_x2F_Calendar_x2F_appointment-Mask\"><path id=\"icon_x2F_Utility_x2F_Calendar_x2F_appointment-path-1_1_\" d=\"M18.9 5.1c-.4 0-.6-.3-.6-.6V.6c0-.4.3-.6.6-.6.4 0 .6.3.6.6v3.8c0 .4-.3.7-.6.7zm-11.7 0c-.4 0-.7-.3-.7-.6V.6c0-.3.3-.6.7-.6.4 0 .7.3.7.6v3.8c-.1.4-.4.7-.7.7zm12.9-3.2h3C24.8 1.9 26 3 26 4.7v14.6c0 1.6-1.2 2.8-2.8 2.8H2.8C1.2 22 0 20.9 0 19.3V4.7C0 3 1.2 1.9 2.8 1.9h3v2.5c0 .7.6 1.3 1.3 1.3s1.3-.6 1.3-1.3V1.9h9.1v2.5c0 .7.6 1.3 1.3 1.3.7 0 1.3-.6 1.3-1.3V1.9zM3.9 16.1h1.3v1.3H3.9v-1.3zm0-4.7h1.3v1.3H3.9v-1.3zm0-4.2h1.3v1.3H3.9V7.2zm3.4 8.9h1.3v1.3H7.3v-1.3zm0-4.7h1.3v1.3H7.3v-1.3zm0-4.2h1.3v1.3H7.3V7.2zm3.3 8.9h1.3v1.3h-1.3v-1.3zm0-4.7h1.3v1.3h-1.3v-1.3zm0-4.2h1.3v1.3h-1.3V7.2zm3.5 8.9h1.3v1.3h-1.3v-1.3zm0-4.7h1.3v1.3h-1.3v-1.3zm0-4.2h1.3v1.3h-1.3V7.2zm3.3 8.9h1.3v1.3h-1.3v-1.3zm0-4.7h1.3v1.3h-1.3v-1.3zm0-4.2h1.3v1.3h-1.3V7.2zm3.4 8.9h1.3v1.3h-1.3v-1.3zm0-4.7h1.3v1.3h-1.3v-1.3zm0-4.2h1.3v1.3h-1.3V7.2z\" fill=\"#384048\"/></g><defs><filter id=\"icon_x2F_Utility_x2F_Calendar_x2F_appointment-Adobe_OpacityMaskFilter\" filterUnits=\"userSpaceOnUse\" x=\"-11\" y=\"-13\" width=\"48\" height=\"48\"><feColorMatrix values=\"1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0\"/></filter></defs><mask maskUnits=\"userSpaceOnUse\" x=\"-11\" y=\"-13\" width=\"48\" height=\"48\" id=\"icon_x2F_Utility_x2F_Calendar_x2F_appointment-mask-2\"><g filter=\"url(#icon_x2F_Utility_x2F_Calendar_x2F_appointment-Adobe_OpacityMaskFilter)\"><path id=\"icon_x2F_Utility_x2F_Calendar_x2F_appointment-path-1\" d=\"M18.9 5.1c-.4 0-.6-.3-.6-.6V.6c0-.4.3-.6.6-.6.4 0 .6.3.6.6v3.8c0 .4-.3.7-.6.7zm-11.7 0c-.4 0-.7-.3-.7-.6V.6c0-.3.3-.6.7-.6.4 0 .7.3.7.6v3.8c-.1.4-.4.7-.7.7zm12.9-3.2h3C24.8 1.9 26 3 26 4.7v14.6c0 1.6-1.2 2.8-2.8 2.8H2.8C1.2 22 0 20.9 0 19.3V4.7C0 3 1.2 1.9 2.8 1.9h3v2.5c0 .7.6 1.3 1.3 1.3s1.3-.6 1.3-1.3V1.9h9.1v2.5c0 .7.6 1.3 1.3 1.3.7 0 1.3-.6 1.3-1.3V1.9zM3.9 16.1h1.3v1.3H3.9v-1.3zm0-4.7h1.3v1.3H3.9v-1.3zm0-4.2h1.3v1.3H3.9V7.2zm3.4 8.9h1.3v1.3H7.3v-1.3zm0-4.7h1.3v1.3H7.3v-1.3zm0-4.2h1.3v1.3H7.3V7.2zm3.3 8.9h1.3v1.3h-1.3v-1.3zm0-4.7h1.3v1.3h-1.3v-1.3zm0-4.2h1.3v1.3h-1.3V7.2zm3.5 8.9h1.3v1.3h-1.3v-1.3zm0-4.7h1.3v1.3h-1.3v-1.3zm0-4.2h1.3v1.3h-1.3V7.2zm3.3 8.9h1.3v1.3h-1.3v-1.3zm0-4.7h1.3v1.3h-1.3v-1.3zm0-4.2h1.3v1.3h-1.3V7.2zm3.4 8.9h1.3v1.3h-1.3v-1.3zm0-4.7h1.3v1.3h-1.3v-1.3zm0-4.2h1.3v1.3h-1.3V7.2z\" fill=\"#fff\"/></g></mask><g id=\"icon_x2F_Utility_x2F_Calendar_x2F_appointment-Color_x2F_Grayscale_x2F_Night-Sky\" mask=\"url(#icon_x2F_Utility_x2F_Calendar_x2F_appointment-mask-2)\"><path fill=\"#111\" d=\"M0 0h48v48H0z\" transform=\"translate(-11 -13)\" id=\"icon_x2F_Utility_x2F_Calendar_x2F_appointment-Swatch\"/></g></g></g></g></svg>"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"icon_x2F_Utility_x2F_Calendar_x2F_appointment-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"icon_x2F_Utility_x2F_Calendar_x2F_appointment-path-1_1_\" style=\"fill:#111111;\" d=\"M29.9,18.1c-0.4,0-0.6-0.3-0.6-0.6\r\n\tv-3.9c0-0.4,0.3-0.6,0.6-0.6c0.4,0,0.6,0.3,0.6,0.6v3.8C30.5,17.8,30.2,18.1,29.9,18.1z M18.2,18.1c-0.4,0-0.7-0.3-0.7-0.6v-3.9\r\n\tc0-0.3,0.3-0.6,0.7-0.6c0.4,0,0.7,0.3,0.7,0.6v3.8C18.8,17.8,18.5,18.1,18.2,18.1z M31.1,14.9h3c1.7,0,2.9,1.1,2.9,2.8v14.6\r\n\tc0,1.6-1.2,2.8-2.8,2.8H13.8C12.2,35,11,33.9,11,32.3V17.7c0-1.7,1.2-2.8,2.8-2.8h3v2.5c0,0.7,0.6,1.3,1.3,1.3s1.3-0.6,1.3-1.3v-2.5\r\n\th9.1v2.5c0,0.7,0.6,1.3,1.3,1.3c0.7,0,1.3-0.6,1.3-1.3C31.1,17.4,31.1,14.9,31.1,14.9z M14.9,29.1h1.3v1.3h-1.3V29.1z M14.9,24.4\r\n\th1.3v1.3h-1.3V24.4z M14.9,20.2h1.3v1.3h-1.3C14.9,21.5,14.9,20.2,14.9,20.2z M18.3,29.1h1.3v1.3h-1.3V29.1z M18.3,24.4h1.3v1.3\r\n\th-1.3V24.4z M18.3,20.2h1.3v1.3h-1.3C18.3,21.5,18.3,20.2,18.3,20.2z M21.6,29.1h1.3v1.3h-1.3V29.1z M21.6,24.4h1.3v1.3h-1.3V24.4z\r\n\t M21.6,20.2h1.3v1.3h-1.3C21.6,21.5,21.6,20.2,21.6,20.2z M25.1,29.1h1.3v1.3h-1.3V29.1z M25.1,24.4h1.3v1.3h-1.3V24.4z M25.1,20.2\r\n\th1.3v1.3h-1.3C25.1,21.5,25.1,20.2,25.1,20.2z M28.4,29.1h1.3v1.3h-1.3V29.1z M28.4,24.4h1.3v1.3h-1.3V24.4z M28.4,20.2h1.3v1.3\r\n\th-1.3C28.4,21.5,28.4,20.2,28.4,20.2z M31.8,29.1h1.3v1.3h-1.3V29.1z M31.8,24.4h1.3v1.3h-1.3V24.4z M31.8,20.2h1.3v1.3h-1.3\r\n\tC31.8,21.5,31.8,20.2,31.8,20.2z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "gV9K":
 /***/ (function(module, exports) {
 
-module.exports = "<svg id=\"icon_x2F_Social_x2F_blog-fill-Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 48 48\" enable-background=\"new 0 0 48 48\"><title>icon/Social/blog-fill</title><g id=\"icon_x2F_Social_x2F_blog-fill-Symbols\"><g id=\"icon_x2F_Social_x2F_blog-fill\"><g id=\"icon_x2F_Social_x2F_blog-fill-Icon\" transform=\"translate(8 8)\"><g id=\"icon_x2F_Social_x2F_blog-fill-Mask\"><path id=\"icon_x2F_Social_x2F_blog-fill-path-1_1_\" d=\"M16 0C7.2 0 0 7.2 0 16s7.2 16 16 16 16-7.2 16-16S24.8 0 16 0zm-3.4 23.9c-2.3 0-4.2-1.9-4.2-4.2v-7.3c0-.5.4-.9.9-.9s.9.4.9.9v7.3c0 1.3 1 2.3 2.3 2.3 1.3 0 2.3-1 2.3-2.3s-1-2.3-2.3-2.3c-.5 0-.9-.4-.9-.9s.4-.9.9-.9c2.3 0 4.2 1.9 4.2 4.2.1 2.3-1.8 4.1-4.1 4.1zm6.4-5.3c-.5 0-.9-.4-.9-.9 0-1.9-1.5-3.4-3.4-3.4-.5 0-.9-.4-.9-.9s.4-.9.9-.9c2.9 0 5.2 2.4 5.2 5.2 0 .5-.4.9-.9.9zm4 .5c-.5 0-.9-.4-.9-.9 0-4.4-3.5-7.9-7.9-7.9-.5 0-.9-.4-.9-.9s.4-.9.9-.9c5.4 0 9.8 4.4 9.8 9.8-.1.4-.5.8-1 .8z\" fill=\"#384048\"/></g><defs><filter id=\"icon_x2F_Social_x2F_blog-fill-Adobe_OpacityMaskFilter\" filterUnits=\"userSpaceOnUse\" x=\"-8\" y=\"-8\" width=\"48\" height=\"48\"><feColorMatrix values=\"1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0\"/></filter></defs><mask maskUnits=\"userSpaceOnUse\" x=\"-8\" y=\"-8\" width=\"48\" height=\"48\" id=\"icon_x2F_Social_x2F_blog-fill-mask-2\"><g filter=\"url(#icon_x2F_Social_x2F_blog-fill-Adobe_OpacityMaskFilter)\"><path id=\"icon_x2F_Social_x2F_blog-fill-path-1\" d=\"M16 0C7.2 0 0 7.2 0 16s7.2 16 16 16 16-7.2 16-16S24.8 0 16 0zm-3.4 23.9c-2.3 0-4.2-1.9-4.2-4.2v-7.3c0-.5.4-.9.9-.9s.9.4.9.9v7.3c0 1.3 1 2.3 2.3 2.3 1.3 0 2.3-1 2.3-2.3s-1-2.3-2.3-2.3c-.5 0-.9-.4-.9-.9s.4-.9.9-.9c2.3 0 4.2 1.9 4.2 4.2.1 2.3-1.8 4.1-4.1 4.1zm6.4-5.3c-.5 0-.9-.4-.9-.9 0-1.9-1.5-3.4-3.4-3.4-.5 0-.9-.4-.9-.9s.4-.9.9-.9c2.9 0 5.2 2.4 5.2 5.2 0 .5-.4.9-.9.9zm4 .5c-.5 0-.9-.4-.9-.9 0-4.4-3.5-7.9-7.9-7.9-.5 0-.9-.4-.9-.9s.4-.9.9-.9c5.4 0 9.8 4.4 9.8 9.8-.1.4-.5.8-1 .8z\" fill=\"#fff\"/></g></mask><g id=\"icon_x2F_Social_x2F_blog-fill-Color_x2F_Grayscale_x2F_Night-Sky\" mask=\"url(#icon_x2F_Social_x2F_blog-fill-mask-2)\"><path fill=\"#111\" d=\"M0 0h48v48H0z\" transform=\"translate(-8 -8)\" id=\"icon_x2F_Social_x2F_blog-fill-Swatch\"/></g></g></g></g></svg>"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"icon_x2F_Social_x2F_blog-fill-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"icon_x2F_Social_x2F_blog-fill-path-1_1_\" style=\"fill:#111111;\" d=\"M24,8C15.2,8,8,15.2,8,24s7.2,16,16,16s16-7.2,16-16\r\n\tS32.8,8,24,8z M20.6,31.9c-2.3,0-4.2-1.9-4.2-4.2v-7.3c0-0.5,0.4-0.9,0.9-0.9s0.9,0.4,0.9,0.9v7.3c0,1.3,1,2.3,2.3,2.3\r\n\ts2.3-1,2.3-2.3s-1-2.3-2.3-2.3c-0.5,0-0.9-0.4-0.9-0.9s0.4-0.9,0.9-0.9c2.3,0,4.2,1.9,4.2,4.2C24.8,30.1,22.9,31.9,20.6,31.9z\r\n\t M27,26.6c-0.5,0-0.9-0.4-0.9-0.9c0-1.9-1.5-3.4-3.4-3.4c-0.5,0-0.9-0.4-0.9-0.9s0.4-0.9,0.9-0.9c2.9,0,5.2,2.4,5.2,5.2\r\n\tC27.9,26.2,27.5,26.6,27,26.6z M31,27.1c-0.5,0-0.9-0.4-0.9-0.9c0-4.4-3.5-7.9-7.9-7.9c-0.5,0-0.9-0.4-0.9-0.9s0.4-0.9,0.9-0.9\r\n\tc5.4,0,9.8,4.4,9.8,9.8C31.9,26.7,31.5,27.1,31,27.1z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "hNYp":
 /***/ (function(module, exports) {
 
-module.exports = "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"26\" height=\"26\" viewBox=\"0 0 26 26\">\r\n    <g fill=\"none\" fill-rule=\"evenodd\" transform=\"translate(-11 -11)\">\r\n        <path d=\"M0 0h48v48H0z\"/>\r\n        <circle cx=\"24\" cy=\"24\" r=\"12\" stroke=\"#384048\"/>\r\n        <path fill=\"#384048\" d=\"M22.48 26.654v-.595c0-.681.125-1.248.372-1.7.248-.452.682-.92 1.301-1.403.737-.582 1.213-1.035 1.427-1.357.213-.322.32-.706.32-1.152 0-.52-.173-.92-.52-1.198-.347-.28-.846-.419-1.496-.419-.589 0-1.134.084-1.635.251-.502.168-.992.369-1.469.604L20 18.05A8.18 8.18 0 0 1 24.042 17c1.214 0 2.177.297 2.89.892.712.595 1.068 1.415 1.068 2.462 0 .465-.068.878-.204 1.24a3.56 3.56 0 0 1-.618 1.037c-.276.328-.751.755-1.427 1.282-.576.452-.961.827-1.156 1.124-.195.297-.293.697-.293 1.199v.418h-1.821zm-.38 2.964c0-.935.455-1.403 1.366-1.403.446 0 .786.122 1.022.367.235.245.353.59.353 1.036 0 .44-.12.788-.358 1.045-.238.257-.577.386-1.017.386-.44 0-.778-.126-1.013-.377-.235-.25-.353-.602-.353-1.054z\"/>\r\n    </g>\r\n</svg>\r\n"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\"\r\n\t viewBox=\"0 0 26 26\" style=\"enable-background:new 0 0 26 26;\" xml:space=\"preserve\">\r\n<g transform=\"translate(-11 -11)\">\r\n\t<path style=\"fill:none;\" d=\"M0,0h48v48H0V0z\"/>\r\n\t<circle style=\"fill:none;stroke:#111111;\" cx=\"24\" cy=\"24\" r=\"12\"/>\r\n\t<path style=\"fill:#111111;\" d=\"M22.5,26.7v-0.6c0-0.7,0.1-1.2,0.4-1.7c0.2-0.5,0.7-0.9,1.3-1.4c0.7-0.6,1.2-1,1.4-1.4\r\n\t\tc0.2-0.3,0.3-0.7,0.3-1.2c0-0.5-0.2-0.9-0.5-1.2c-0.3-0.3-0.8-0.4-1.5-0.4c-0.6,0-1.1,0.1-1.6,0.3c-0.5,0.2-1,0.4-1.5,0.6L20,18\r\n\t\tc1.2-0.7,2.6-1.1,4-1c1.2,0,2.2,0.3,2.9,0.9c0.7,0.6,1.1,1.4,1.1,2.5c0,0.5-0.1,0.9-0.2,1.2c-0.1,0.4-0.4,0.7-0.6,1\r\n\t\tc-0.3,0.3-0.8,0.8-1.4,1.3c-0.6,0.5-1,0.8-1.2,1.1s-0.3,0.7-0.3,1.2v0.4H22.5L22.5,26.7z M22.1,29.6c0-0.9,0.5-1.4,1.4-1.4\r\n\t\tc0.4,0,0.8,0.1,1,0.4c0.2,0.2,0.4,0.6,0.4,1c0,0.4-0.1,0.8-0.4,1c-0.2,0.3-0.6,0.4-1,0.4s-0.8-0.1-1-0.4\r\n\t\tC22.2,30.4,22.1,30.1,22.1,29.6z\"/>\r\n</g>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "hh0Z":
 /***/ (function(module, exports) {
 
-module.exports = "<svg id=\"icon_x2F_Nav_x2F_triangle-down-Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 48 48\" enable-background=\"new 0 0 48 48\"><title>icon/Nav/triangle-down</title><g id=\"icon_x2F_Nav_x2F_triangle-down-Symbols\"><g id=\"icon_x2F_Nav_x2F_triangle-down\"><g id=\"icon_x2F_Nav_x2F_triangle-down-Icon\" transform=\"rotate(180 15 14)\"><g id=\"icon_x2F_Nav_x2F_triangle-down-Mask\"><path id=\"icon_x2F_Nav_x2F_triangle-down-path-1_1_\" fill=\"#384048\" d=\"M6 0l6 8H0z\"/></g><defs><filter id=\"icon_x2F_Nav_x2F_triangle-down-Adobe_OpacityMaskFilter\" filterUnits=\"userSpaceOnUse\"><feColorMatrix values=\"1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0\"/></filter></defs><mask maskUnits=\"userSpaceOnUse\" id=\"icon_x2F_Nav_x2F_triangle-down-mask-2\"><g filter=\"url(#icon_x2F_Nav_x2F_triangle-down-Adobe_OpacityMaskFilter)\"><path id=\"icon_x2F_Nav_x2F_triangle-down-path-1\" fill=\"#fff\" d=\"M6 0l6 8H0z\"/></g></mask><g id=\"icon_x2F_Nav_x2F_triangle-down-Color_x2F_Grayscale_x2F_Night-Sky\" mask=\"url(#icon_x2F_Nav_x2F_triangle-down-mask-2)\"><path fill=\"#111\" d=\"M0 0h48v48H0z\" transform=\"translate(-18 -20)\" id=\"icon_x2F_Nav_x2F_triangle-down-Swatch\"/></g></g></g></g></svg>"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"icon_x2F_Nav_x2F_triangle-down-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"icon_x2F_Nav_x2F_triangle-down-path-1_1_\" style=\"fill:#111111;\" d=\"M24,28l-6-8h12L24,28z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "j1tK":
 /***/ (function(module, exports) {
 
-module.exports = "<svg id=\"action-thumbsdown-line-Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 48 48\" enable-background=\"new 0 0 48 48\"><title>icon/Action/thumbsdown-line</title><g transform=\"translate(12 12)\"><path id=\"action-thumbsdown-line-a_1_\" d=\"M22.8.5h-5.7c-.7 0-1.2.5-1.2 1.2v.2c-.8 0-1.3 0-1.6-.1l-.6-.7C13.1.4 12.1 0 11.2 0l-6 .2c-1.5 0-2.9 1-3.3 2.5L.1 11.1c-.5 1.8.6 3.6 2.3 4.1l3.7.9-.2 2.9c-.1.3-.1.6-.1.9v.6c0 1.9 1.5 3.4 3.4 3.4h.5c1.1 0 2-.9 2-2V20.5c0-.7.1-1.1.3-1.5v-.1l1.4-3.2c.5-.8 1.4-1.4 2.4-1.6v.2c0 .7.5 1.2 1.2 1.2h5.7c.7 0 1.2-.5 1.2-1.2V1.7C24 1 23.4.5 22.8.5zM12.3 15.1s0 .1-.1.1l-1.4 3.3c-.3.6-.5 1.2-.5 2.2V22c0 .3-.3.6-.6.6h-.5c-1.1 0-2-.9-2-1.9V20c0-.3 0-.5.1-.8l.4-3.5c0-.3-.2-.7-.5-.7l-4.3-1.1c-1.1-.3-1.7-1.4-1.3-2.5L3.2 3c.2-.9 1-1.5 1.9-1.5l6-.2c.6 0 1.1.2 1.5.7l.7.8c.4.4 1.2.5 2.5.5v9.5c-1.4.2-2.7 1-3.5 2.3zm5-13.2h5.3v12.4h-5.3V1.9z\" fill=\"#384048\"/><defs><filter id=\"action-thumbsdown-line-Adobe_OpacityMaskFilter\" filterUnits=\"userSpaceOnUse\" x=\"-12\" y=\"-12\" width=\"48\" height=\"48\"><feColorMatrix values=\"1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0\"/></filter></defs><mask maskUnits=\"userSpaceOnUse\" x=\"-12\" y=\"-12\" width=\"48\" height=\"48\" id=\"action-thumbsdown-line-b\"><g filter=\"url(#action-thumbsdown-line-Adobe_OpacityMaskFilter)\"><path id=\"action-thumbsdown-line-a\" d=\"M22.8.5h-5.7c-.7 0-1.2.5-1.2 1.2v.2c-.8 0-1.3 0-1.6-.1l-.6-.7C13.1.4 12.1 0 11.2 0l-6 .2c-1.5 0-2.9 1-3.3 2.5L.1 11.1c-.5 1.8.6 3.6 2.3 4.1l3.7.9-.2 2.9c-.1.3-.1.6-.1.9v.6c0 1.9 1.5 3.4 3.4 3.4h.5c1.1 0 2-.9 2-2V20.5c0-.7.1-1.1.3-1.5v-.1l1.4-3.2c.5-.8 1.4-1.4 2.4-1.6v.2c0 .7.5 1.2 1.2 1.2h5.7c.7 0 1.2-.5 1.2-1.2V1.7C24 1 23.4.5 22.8.5zM12.3 15.1s0 .1-.1.1l-1.4 3.3c-.3.6-.5 1.2-.5 2.2V22c0 .3-.3.6-.6.6h-.5c-1.1 0-2-.9-2-1.9V20c0-.3 0-.5.1-.8l.4-3.5c0-.3-.2-.7-.5-.7l-4.3-1.1c-1.1-.3-1.7-1.4-1.3-2.5L3.2 3c.2-.9 1-1.5 1.9-1.5l6-.2c.6 0 1.1.2 1.5.7l.7.8c.4.4 1.2.5 2.5.5v9.5c-1.4.2-2.7 1-3.5 2.3zm5-13.2h5.3v12.4h-5.3V1.9z\" fill=\"#fff\"/></g></mask><g mask=\"url(#action-thumbsdown-line-b)\"><path d=\"M-12-12h48v48h-48v-48z\" fill=\"#111\"/></g></g></svg>"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"action-thumbsdown-line-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"action-thumbsdown-line-a_1_\" style=\"fill:#111111;\" d=\"M34.8,12.5h-5.7c-0.7,0-1.2,0.5-1.2,1.2v0.2c-0.8,0-1.3,0-1.6-0.1\r\n\tl-0.6-0.7c-0.6-0.7-1.6-1.1-2.5-1.1l-6,0.2c-1.5,0-2.9,1-3.3,2.5l-1.8,8.4c-0.5,1.8,0.6,3.6,2.3,4.1l3.7,0.9L17.9,31\r\n\tc-0.1,0.3-0.1,0.6-0.1,0.9v0.6c0,1.9,1.5,3.4,3.4,3.4h0.5c1.1,0,2-0.9,2-2v-1.4c0-0.7,0.1-1.1,0.3-1.5v-0.1l1.4-3.2\r\n\tc0.5-0.8,1.4-1.4,2.4-1.6v0.2c0,0.7,0.5,1.2,1.2,1.2h5.7c0.7,0,1.2-0.5,1.2-1.2V13.7C36,13,35.4,12.5,34.8,12.5z M24.3,27.1\r\n\tc0,0,0,0.1-0.1,0.1l-1.4,3.3c-0.3,0.6-0.5,1.2-0.5,2.2V34c0,0.3-0.3,0.6-0.6,0.6h-0.5c-1.1,0-2-0.9-2-1.9V32c0-0.3,0-0.5,0.1-0.8\r\n\tl0.4-3.5c0-0.3-0.2-0.7-0.5-0.7l-4.3-1.1c-1.1-0.3-1.7-1.4-1.3-2.5l1.6-8.4c0.2-0.9,1-1.5,1.9-1.5l6-0.2c0.6,0,1.1,0.2,1.5,0.7\r\n\tl0.7,0.8c0.4,0.4,1.2,0.5,2.5,0.5v9.5C26.4,25,25.1,25.8,24.3,27.1z M29.3,13.9h5.3v12.4h-5.3C29.3,26.3,29.3,13.9,29.3,13.9z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "jUm2":
 /***/ (function(module, exports) {
 
-module.exports = "<svg id=\"icon_x2F_Utility_x2F_device-mobile-Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 48 48\" enable-background=\"new 0 0 48 48\"><title>icon/Utility/device-mobile</title><g id=\"icon_x2F_Utility_x2F_device-mobile-Symbols\"><g id=\"icon_x2F_Utility_x2F_device-mobile\"><g id=\"icon_x2F_Utility_x2F_device-mobile-Icon\" transform=\"translate(14 8)\"><g id=\"icon_x2F_Utility_x2F_device-mobile-Mask\"><path id=\"icon_x2F_Utility_x2F_device-mobile-path-1_1_\" d=\"M18 0H2C.8 0 0 1 0 2.2v27.7C0 31 .8 32 2 32h16c1.1 0 2-1 2-2.2V2.2C20 1 19.1 0 18 0zm-8 29.3c-.6 0-1.1-.5-1.1-1.1s.5-1.1 1.1-1.1 1.1.5 1.1 1.1-.5 1.1-1.1 1.1zm6.3-4.7c0 .7-.7 1.5-1.4 1.5H5c-.7 0-1.3-.6-1.3-1.4V5.1c0-.3.1-.7.3-.9.2-.3.6-.4 1-.4h10c.6 0 1.3.5 1.3 1.3v19.5z\" fill=\"#384048\"/></g><defs><filter id=\"icon_x2F_Utility_x2F_device-mobile-Adobe_OpacityMaskFilter\" filterUnits=\"userSpaceOnUse\" x=\"-14\" y=\"-8\" width=\"48\" height=\"48\"><feColorMatrix values=\"1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0\"/></filter></defs><mask maskUnits=\"userSpaceOnUse\" x=\"-14\" y=\"-8\" width=\"48\" height=\"48\" id=\"icon_x2F_Utility_x2F_device-mobile-mask-2\"><g filter=\"url(#icon_x2F_Utility_x2F_device-mobile-Adobe_OpacityMaskFilter)\"><path id=\"icon_x2F_Utility_x2F_device-mobile-path-1\" d=\"M18 0H2C.8 0 0 1 0 2.2v27.7C0 31 .8 32 2 32h16c1.1 0 2-1 2-2.2V2.2C20 1 19.1 0 18 0zm-8 29.3c-.6 0-1.1-.5-1.1-1.1s.5-1.1 1.1-1.1 1.1.5 1.1 1.1-.5 1.1-1.1 1.1zm6.3-4.7c0 .7-.7 1.5-1.4 1.5H5c-.7 0-1.3-.6-1.3-1.4V5.1c0-.3.1-.7.3-.9.2-.3.6-.4 1-.4h10c.6 0 1.3.5 1.3 1.3v19.5z\" fill=\"#fff\"/></g></mask><g id=\"icon_x2F_Utility_x2F_device-mobile-Color_x2F_Grayscale_x2F_Night-Sky\" mask=\"url(#icon_x2F_Utility_x2F_device-mobile-mask-2)\"><path fill=\"#111\" d=\"M0 0h48v48H0z\" transform=\"translate(-14 -8)\" id=\"icon_x2F_Utility_x2F_device-mobile-Swatch\"/></g></g></g></g></svg>"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"icon_x2F_Utility_x2F_device-mobile-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"icon_x2F_Utility_x2F_device-mobile-path-1_1_\" style=\"fill:#111111;\" d=\"M32,8H16c-1.2,0-2,1-2,2.2v27.7\r\n\tc0,1.1,0.8,2.1,2,2.1h16c1.1,0,2-1,2-2.2V10.2C34,9,33.1,8,32,8z M24,37.3c-0.6,0-1.1-0.5-1.1-1.1c0-0.6,0.5-1.1,1.1-1.1\r\n\ts1.1,0.5,1.1,1.1C25.1,36.8,24.6,37.3,24,37.3z M30.3,32.6c0,0.7-0.7,1.5-1.4,1.5H19c-0.7,0-1.3-0.6-1.3-1.4V13.1\r\n\tc0-0.3,0.1-0.7,0.3-0.9c0.2-0.3,0.6-0.4,1-0.4h10c0.6,0,1.3,0.5,1.3,1.3V32.6z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
@@ -13868,49 +13979,49 @@ module.exports = "<svg id=\"payment-card-jcp-Layer_1\" xmlns=\"http://www.w3.org
 /***/ "kNu/":
 /***/ (function(module, exports) {
 
-module.exports = "<svg id=\"icon_x2F_Utility_x2F_shield-Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 48 48\" enable-background=\"new 0 0 48 48\"><title>icon/Utility/shield</title><g id=\"icon_x2F_Utility_x2F_shield-Symbols\"><g id=\"icon_x2F_Utility_x2F_shield\"><g id=\"icon_x2F_Utility_x2F_shield-Icon\" transform=\"translate(14 12)\"><g id=\"icon_x2F_Utility_x2F_shield-Mask\"><path id=\"icon_x2F_Utility_x2F_shield-path-1_1_\" d=\"M10 24C.6 21.1 0 14.3 0 14.3V0h20v14.3s-.6 6.8-10 9.7zM6.9 10.7c-.7-.5-1.8-.4-2.4.3-.6.7-.4 1.8.3 2.3l3.4 2.5c.7.5 1.8.4 2.4-.3l5.9-7.8c.6-.7.4-1.8-.4-2.3-.7-.5-1.8-.4-2.3.3l-4.9 6.5-2-1.5z\" fill=\"#384048\"/></g><defs><filter id=\"icon_x2F_Utility_x2F_shield-Adobe_OpacityMaskFilter\" filterUnits=\"userSpaceOnUse\" x=\"-14\" y=\"-12\" width=\"48\" height=\"48\"><feColorMatrix values=\"1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0\"/></filter></defs><mask maskUnits=\"userSpaceOnUse\" x=\"-14\" y=\"-12\" width=\"48\" height=\"48\" id=\"icon_x2F_Utility_x2F_shield-mask-2\"><g filter=\"url(#icon_x2F_Utility_x2F_shield-Adobe_OpacityMaskFilter)\"><path id=\"icon_x2F_Utility_x2F_shield-path-1\" d=\"M10 24C.6 21.1 0 14.3 0 14.3V0h20v14.3s-.6 6.8-10 9.7zM6.9 10.7c-.7-.5-1.8-.4-2.4.3-.6.7-.4 1.8.3 2.3l3.4 2.5c.7.5 1.8.4 2.4-.3l5.9-7.8c.6-.7.4-1.8-.4-2.3-.7-.5-1.8-.4-2.3.3l-4.9 6.5-2-1.5z\" fill=\"#fff\"/></g></mask><g id=\"icon_x2F_Utility_x2F_shield-Color_x2F_Grayscale_x2F_Night-Sky\" mask=\"url(#icon_x2F_Utility_x2F_shield-mask-2)\"><path fill=\"#111\" d=\"M0 0h48v48H0z\" transform=\"translate(-14 -12)\" id=\"icon_x2F_Utility_x2F_shield-Swatch\"/></g></g></g></g></svg>"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"icon_x2F_Utility_x2F_shield-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"icon_x2F_Utility_x2F_shield-path-1_1_\" style=\"fill:#111111;\" d=\"M24,36c-9.4-2.9-10-9.7-10-9.7V12h20v14.3\r\n\tC34,26.3,33.4,33.1,24,36z M20.9,22.7c-0.7-0.5-1.8-0.4-2.4,0.3s-0.4,1.8,0.3,2.3l3.4,2.5c0.7,0.5,1.8,0.4,2.4-0.3l5.9-7.8\r\n\tc0.6-0.7,0.4-1.8-0.4-2.3c-0.7-0.5-1.8-0.4-2.3,0.3l-4.9,6.5C22.9,24.2,20.9,22.7,20.9,22.7z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "lSM2":
 /***/ (function(module, exports) {
 
-module.exports = "<svg id=\"icon_x2F_Nav_x2F_triangle-right-Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 48 48\" enable-background=\"new 0 0 48 48\"><title>icon/Nav/triangle-right</title><g id=\"icon_x2F_Nav_x2F_triangle-right-Symbols\"><g id=\"icon_x2F_Nav_x2F_triangle-right\"><g id=\"icon_x2F_Nav_x2F_triangle-right-Icon\" transform=\"rotate(90 5 23)\"><g id=\"icon_x2F_Nav_x2F_triangle-right-Mask\"><path id=\"icon_x2F_Nav_x2F_triangle-right-path-1_1_\" fill=\"#384048\" d=\"M6 0l6 8H0z\"/></g><defs><filter id=\"icon_x2F_Nav_x2F_triangle-right-Adobe_OpacityMaskFilter\" filterUnits=\"userSpaceOnUse\"><feColorMatrix values=\"1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0\"/></filter></defs><mask maskUnits=\"userSpaceOnUse\" id=\"icon_x2F_Nav_x2F_triangle-right-mask-2\"><g filter=\"url(#icon_x2F_Nav_x2F_triangle-right-Adobe_OpacityMaskFilter)\"><path id=\"icon_x2F_Nav_x2F_triangle-right-path-1\" fill=\"#fff\" d=\"M6 0l6 8H0z\"/></g></mask><g id=\"icon_x2F_Nav_x2F_triangle-right-Color_x2F_Grayscale_x2F_Night-Sky\" mask=\"url(#icon_x2F_Nav_x2F_triangle-right-mask-2)\"><path transform=\"rotate(90 25 5)\" fill=\"#111\" d=\"M0 0h48v48H0z\" id=\"icon_x2F_Nav_x2F_triangle-right-Swatch\"/></g></g></g></g></svg>"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"icon_x2F_Nav_x2F_triangle-right-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"icon_x2F_Nav_x2F_triangle-right-path-1_1_\" style=\"fill:#111111;\" d=\"M28,24l-8,6V18L28,24z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "mPJs":
 /***/ (function(module, exports) {
 
-module.exports = "<svg id=\"action-heart-line-Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 48 48\" enable-background=\"new 0 0 48 48\"><title>icon/Action/heart-line</title><g transform=\"translate(11 12)\"><path id=\"action-heart-line-a_1_\" d=\"M18.7 1.4c1.3 0 2.8.6 3.7 1.6 1.3 1.3 2.1 3.1 2.1 4.9 0 1.8-.7 3.6-2 5l-8.9 9.2c-.3.3-.5.4-.6.5-.1 0-.2-.1-.5-.5l-8.9-9.2c-1.4-1.5-2.1-3.3-2.1-5 0-1.7.8-3.5 2.3-4.9 1-1 2.3-1.6 3.6-1.6 2.6 0 4.4 2.7 4.4 2.7L13 5.9l1.2-1.8s2-2.7 4.5-2.7m0-1.4C15.4 0 13 3.4 13 3.4S10.8 0 7.3 0C5.6 0 3.9.8 2.7 2 1.1 3.6 0 5.6 0 7.9c0 2.3 1 4.4 2.5 6l8.9 9.2c.4.5 1 .9 1.6.9s1.3-.4 1.7-.9l8.9-9.2c1.5-1.6 2.4-3.7 2.3-6 0-2.3-1-4.3-2.5-5.9-1.2-1.2-3-2-4.7-2\" fill=\"#384048\"/><defs><filter id=\"action-heart-line-Adobe_OpacityMaskFilter\" filterUnits=\"userSpaceOnUse\" x=\"-11\" y=\"-12\" width=\"48\" height=\"48\"><feColorMatrix values=\"1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0\"/></filter></defs><mask maskUnits=\"userSpaceOnUse\" x=\"-11\" y=\"-12\" width=\"48\" height=\"48\" id=\"action-heart-line-b\"><g filter=\"url(#action-heart-line-Adobe_OpacityMaskFilter)\"><path id=\"action-heart-line-a\" d=\"M18.7 1.4c1.3 0 2.8.6 3.7 1.6 1.3 1.3 2.1 3.1 2.1 4.9 0 1.8-.7 3.6-2 5l-8.9 9.2c-.3.3-.5.4-.6.5-.1 0-.2-.1-.5-.5l-8.9-9.2c-1.4-1.5-2.1-3.3-2.1-5 0-1.7.8-3.5 2.3-4.9 1-1 2.3-1.6 3.6-1.6 2.6 0 4.4 2.7 4.4 2.7L13 5.9l1.2-1.8s2-2.7 4.5-2.7m0-1.4C15.4 0 13 3.4 13 3.4S10.8 0 7.3 0C5.6 0 3.9.8 2.7 2 1.1 3.6 0 5.6 0 7.9c0 2.3 1 4.4 2.5 6l8.9 9.2c.4.5 1 .9 1.6.9s1.3-.4 1.7-.9l8.9-9.2c1.5-1.6 2.4-3.7 2.3-6 0-2.3-1-4.3-2.5-5.9-1.2-1.2-3-2-4.7-2\" fill=\"#fff\"/></g></mask><g mask=\"url(#action-heart-line-b)\"><path d=\"M-11-12h48v48h-48v-48z\" fill=\"#111\"/></g></g></svg>"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"action-heart-line-Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"\r\n\t x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\" style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"action-heart-line-a_1_\" style=\"fill:#111111;\" d=\"M28.7,13.4c1.3,0,2.8,0.6,3.7,1.6c1.3,1.3,2.1,3.1,2.1,4.9\r\n\tc0,1.8-0.7,3.6-2,5l-8.9,9.2c-0.3,0.3-0.5,0.4-0.6,0.5c-0.1,0-0.2-0.1-0.5-0.5l-8.9-9.2c-1.4-1.5-2.1-3.3-2.1-5\r\n\tc0-1.7,0.8-3.5,2.3-4.9c1-1,2.3-1.6,3.6-1.6c2.6,0,4.4,2.7,4.4,2.7l1.2,1.8l1.2-1.8C24.2,16.1,26.2,13.4,28.7,13.4 M28.7,12\r\n\tc-3.3,0-5.7,3.4-5.7,3.4S20.8,12,17.3,12c-1.7,0-3.4,0.8-4.6,2c-1.6,1.6-2.7,3.6-2.7,5.9s1,4.4,2.5,6l8.9,9.2c0.4,0.5,1,0.9,1.6,0.9\r\n\ts1.3-0.4,1.7-0.9l8.9-9.2c1.5-1.6,2.4-3.7,2.3-6c0-2.3-1-4.3-2.5-5.9C32.2,12.8,30.4,12,28.7,12\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "oW2K":
 /***/ (function(module, exports) {
 
-module.exports = "<svg id=\"icon_x2F_Utility_x2F_device-phone-Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 48 48\" enable-background=\"new 0 0 48 48\"><title>icon/Utility/device-phone</title><g id=\"icon_x2F_Utility_x2F_device-phone-Symbols\"><g id=\"icon_x2F_Utility_x2F_device-phone\"><g id=\"icon_x2F_Utility_x2F_device-phone-Icon\" transform=\"translate(12 12)\"><g id=\"icon_x2F_Utility_x2F_device-phone-Mask\"><path id=\"icon_x2F_Utility_x2F_device-phone-path-1_1_\" d=\"M11.4 7.2c3 0 5.5 2.5 5.5 5.5 0 .4-.3.7-.7.7-.4 0-.7-.3-.7-.7 0-2.3-1.8-4.1-4.1-4.1-.4 0-.7-.3-.7-.7 0-.3.3-.7.7-.7zm8.5 6.9c-.4 0-.7-.3-.7-.7 0-2.3-.9-4.4-2.5-6-1.6-1.6-3.8-2.5-6.1-2.5-.4 0-.7-.3-.7-.7 0-.4.3-.7.7-.7 2.7 0 5.2 1 7 2.9 1.9 1.9 2.9 4.3 2.9 7 .1.4-.3.7-.6.7zM9.9 0C17.7 0 24 6.3 24 14.1c0 .4-.3.7-.7.7s-.7-.3-.7-.7c0-7-5.7-12.7-12.7-12.7-.4 0-.7-.3-.7-.7s.3-.7.7-.7zm11.2 18.9c.4.3.6.7.6 1.2s-.2.9-.6 1.2C19.7 22.6 18 24 16.2 24c-2.3 0-5.9-.6-10.8-5.5C1.3 14.4-.4 11.1.1 7.8c.2-1.7 1.2-3.7 1.6-4.5.3-.6.9-1 1.6-1 .5 0 .9.3 1.2.5l.1.1L7.8 6c.6.5.9 1.2.9 2 0 .7-.3 1.4-.7 1.9L7 11c.4.7 1.1 1.9 2.4 3.2 1.4 1.4 2.8 2.3 3.5 2.7l1.5-1.3c.4-.4.9-.6 1.5-.6.5 0 1.1.2 1.5.6l3.7 3.3z\" fill=\"#384048\"/></g><defs><filter id=\"icon_x2F_Utility_x2F_device-phone-Adobe_OpacityMaskFilter\" filterUnits=\"userSpaceOnUse\" x=\"-12\" y=\"-12\" width=\"48\" height=\"48\"><feColorMatrix values=\"1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0\"/></filter></defs><mask maskUnits=\"userSpaceOnUse\" x=\"-12\" y=\"-12\" width=\"48\" height=\"48\" id=\"icon_x2F_Utility_x2F_device-phone-mask-2\"><g filter=\"url(#icon_x2F_Utility_x2F_device-phone-Adobe_OpacityMaskFilter)\"><path id=\"icon_x2F_Utility_x2F_device-phone-path-1\" d=\"M11.4 7.2c3 0 5.5 2.5 5.5 5.5 0 .4-.3.7-.7.7-.4 0-.7-.3-.7-.7 0-2.3-1.8-4.1-4.1-4.1-.4 0-.7-.3-.7-.7 0-.3.3-.7.7-.7zm8.5 6.9c-.4 0-.7-.3-.7-.7 0-2.3-.9-4.4-2.5-6-1.6-1.6-3.8-2.5-6.1-2.5-.4 0-.7-.3-.7-.7 0-.4.3-.7.7-.7 2.7 0 5.2 1 7 2.9 1.9 1.9 2.9 4.3 2.9 7 .1.4-.3.7-.6.7zM9.9 0C17.7 0 24 6.3 24 14.1c0 .4-.3.7-.7.7s-.7-.3-.7-.7c0-7-5.7-12.7-12.7-12.7-.4 0-.7-.3-.7-.7s.3-.7.7-.7zm11.2 18.9c.4.3.6.7.6 1.2s-.2.9-.6 1.2C19.7 22.6 18 24 16.2 24c-2.3 0-5.9-.6-10.8-5.5C1.3 14.4-.4 11.1.1 7.8c.2-1.7 1.2-3.7 1.6-4.5.3-.6.9-1 1.6-1 .5 0 .9.3 1.2.5l.1.1L7.8 6c.6.5.9 1.2.9 2 0 .7-.3 1.4-.7 1.9L7 11c.4.7 1.1 1.9 2.4 3.2 1.4 1.4 2.8 2.3 3.5 2.7l1.5-1.3c.4-.4.9-.6 1.5-.6.5 0 1.1.2 1.5.6l3.7 3.3z\" fill=\"#fff\"/></g></mask><g id=\"icon_x2F_Utility_x2F_device-phone-Color_x2F_Grayscale_x2F_Night-Sky\" mask=\"url(#icon_x2F_Utility_x2F_device-phone-mask-2)\"><path fill=\"#111\" d=\"M0 0h48v48H0z\" transform=\"translate(-12 -12)\" id=\"icon_x2F_Utility_x2F_device-phone-Swatch\"/></g></g></g></g></svg>"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"icon_x2F_Utility_x2F_device-phone-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"icon_x2F_Utility_x2F_device-phone-path-1_1_\" style=\"fill:#111111;\" d=\"M23.4,19.2c3,0,5.5,2.5,5.5,5.5\r\n\tc0,0.4-0.3,0.7-0.7,0.7c-0.4,0-0.7-0.3-0.7-0.7c0-2.3-1.8-4.1-4.1-4.1c-0.4,0-0.7-0.3-0.7-0.7C22.7,19.6,23,19.2,23.4,19.2z\r\n\t M31.9,26.1c-0.4,0-0.7-0.3-0.7-0.7c0-2.3-0.9-4.4-2.5-6c-1.6-1.6-3.8-2.5-6.1-2.5c-0.4,0-0.7-0.3-0.7-0.7s0.3-0.7,0.7-0.7\r\n\tc2.7,0,5.2,1,7,2.9c1.9,1.9,2.9,4.3,2.9,7C32.6,25.8,32.2,26.1,31.9,26.1z M21.9,12C29.7,12,36,18.3,36,26.1c0,0.4-0.3,0.7-0.7,0.7\r\n\ts-0.7-0.3-0.7-0.7c0-7-5.7-12.7-12.7-12.7c-0.4,0-0.7-0.3-0.7-0.7C21.2,12.3,21.5,12,21.9,12z M33.1,30.9c0.4,0.3,0.6,0.7,0.6,1.2\r\n\tc0,0.5-0.2,0.9-0.6,1.2C31.7,34.6,30,36,28.2,36c-2.3,0-5.9-0.6-10.8-5.5c-4.1-4.1-5.8-7.4-5.3-10.7c0.2-1.7,1.2-3.7,1.6-4.5\r\n\tc0.3-0.6,0.9-1,1.6-1c0.5,0,0.9,0.3,1.2,0.5l0.1,0.1l3.2,3.1c0.6,0.5,0.9,1.2,0.9,2c0,0.7-0.3,1.4-0.7,1.9L19,23\r\n\tc0.4,0.7,1.1,1.9,2.4,3.2c1.4,1.4,2.8,2.3,3.5,2.7l1.5-1.3c0.4-0.4,0.9-0.6,1.5-0.6c0.5,0,1.1,0.2,1.5,0.6\r\n\tC29.4,27.6,33.1,30.9,33.1,30.9z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "oWX6":
 /***/ (function(module, exports) {
 
-module.exports = "<svg id=\"icon_x2F_Nav_x2F_close-Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 48 48\" enable-background=\"new 0 0 48 48\"><title>icon/Nav/close</title><g id=\"icon_x2F_Nav_x2F_close-Symbols\"><g id=\"icon_x2F_Nav_x2F_close\"><g id=\"icon_x2F_Nav_x2F_close-Icon\" transform=\"translate(12 12)\"><g id=\"icon_x2F_Nav_x2F_close-Mask\"><path id=\"icon_x2F_Nav_x2F_close-path-1_1_\" d=\"M12 10.5L1.9.3C1.5-.1.8-.1.4.3S0 1.4.4 1.8L10.5 12 .3 22.1c-.4.4-.4 1.1 0 1.5.4.4 1.1.4 1.5 0L12 13.5l10.1 10.1c.4.4 1.1.4 1.5 0 .4-.4.4-1.1 0-1.5L13.5 12 23.7 1.9c.4-.4.4-1.1 0-1.5-.4-.4-1.1-.4-1.5 0L12 10.5z\" fill=\"#384048\"/></g><defs><filter id=\"icon_x2F_Nav_x2F_close-Adobe_OpacityMaskFilter\" filterUnits=\"userSpaceOnUse\" x=\"-12\" y=\"-12\" width=\"48\" height=\"48\"><feColorMatrix values=\"1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0\"/></filter></defs><mask maskUnits=\"userSpaceOnUse\" x=\"-12\" y=\"-12\" width=\"48\" height=\"48\" id=\"icon_x2F_Nav_x2F_close-mask-2\"><g filter=\"url(#icon_x2F_Nav_x2F_close-Adobe_OpacityMaskFilter)\"><path id=\"icon_x2F_Nav_x2F_close-path-1\" d=\"M12 10.5L1.9.3C1.5-.1.8-.1.4.3S0 1.4.4 1.8L10.5 12 .3 22.1c-.4.4-.4 1.1 0 1.5.4.4 1.1.4 1.5 0L12 13.5l10.1 10.1c.4.4 1.1.4 1.5 0 .4-.4.4-1.1 0-1.5L13.5 12 23.7 1.9c.4-.4.4-1.1 0-1.5-.4-.4-1.1-.4-1.5 0L12 10.5z\" fill=\"#fff\"/></g></mask><g id=\"icon_x2F_Nav_x2F_close-Color_x2F_Grayscale_x2F_Night-Sky\" mask=\"url(#icon_x2F_Nav_x2F_close-mask-2)\"><path fill=\"#111\" d=\"M0 0h48v48H0z\" transform=\"translate(-12 -12)\" id=\"icon_x2F_Nav_x2F_close-Swatch\"/></g></g></g></g></svg>"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"icon_x2F_Nav_x2F_close-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"icon_x2F_Nav_x2F_close-path-1_1_\" style=\"fill:#111111;\" d=\"M24,22.5L13.9,12.3c-0.4-0.4-1.1-0.4-1.5,0\r\n\tc-0.4,0.4-0.4,1.1,0,1.5L22.5,24L12.3,34.1c-0.4,0.4-0.4,1.1,0,1.5c0.4,0.4,1.1,0.4,1.5,0L24,25.5l10.1,10.1c0.4,0.4,1.1,0.4,1.5,0\r\n\tc0.4-0.4,0.4-1.1,0-1.5L25.5,24l10.2-10.1c0.4-0.4,0.4-1.1,0-1.5c-0.4-0.4-1.1-0.4-1.5,0L24,22.5z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "om3C":
 /***/ (function(module, exports) {
 
-module.exports = "<svg id=\"icon_x2F_Nav_x2F_back-to-top-Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 48 48\" enable-background=\"new 0 0 48 48\"><title>icon/Nav/back-to-top</title><g id=\"icon_x2F_Nav_x2F_back-to-top-Symbols\"><g id=\"icon_x2F_Nav_x2F_back-to-top\"><g id=\"icon_x2F_Nav_x2F_back-to-top-Icon\"><g id=\"icon_x2F_Nav_x2F_back-to-top-Mask\"><path id=\"icon_x2F_Nav_x2F_back-to-top-path-1_1_\" d=\"M23.7 31c-1.5 0-2.6 1.2-2.6 2.7 0 1.5 1.1 2.7 2.6 2.7s2.6-1.2 2.6-2.7c0-1.4-1.1-2.7-2.6-2.7zm9.7.2h-1.5v2.7h1.5c1 0 1.5-.6 1.5-1.3 0-1-.6-1.4-1.5-1.4zM24 0C10.7 0 0 10.7 0 24s10.7 24 24 24 24-10.7 24-24S37.3 0 24 0zm-5.7 31.2h-2.6v6.9h-1.9v-6.9h-2.6v-1.8h7.2l-.1 1.8zm10 2.6c0 2.5-1.9 4.5-4.6 4.5-2.7 0-4.6-2-4.6-4.5s1.9-4.5 4.6-4.5c2.7 0 4.6 2 4.6 4.5zm-2.9-22V24c0 .8-.6 1.4-1.4 1.4-.8 0-1.4-.6-1.4-1.4V11.8c-1.8 1.8-4.1 4.1-4.1 4.2-.3.3-.6.4-1 .4s-.7-.1-1-.4c-.5-.5-.5-1.4 0-2l6.2-6.2c.5-.5.9-.6 1.2-.6h.4c.3 0 .7.2 1.2.6l6.2 6.2c.5.5.5 1.4 0 2-.5.5-1.4.5-2 0-.2 0-2.5-2.3-4.3-4.2zm11.4 20.7c0 2-1.6 3-3.5 3h-1.4v2.6H30v-8.7h3.5c2.1 0 3.3 1.3 3.3 3.1z\" fill=\"#384048\"/></g><defs><filter id=\"icon_x2F_Nav_x2F_back-to-top-Adobe_OpacityMaskFilter\" filterUnits=\"userSpaceOnUse\" x=\"0\" y=\"0\" width=\"48\" height=\"48\"><feColorMatrix values=\"1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0\"/></filter></defs><mask maskUnits=\"userSpaceOnUse\" x=\"0\" y=\"0\" width=\"48\" height=\"48\" id=\"icon_x2F_Nav_x2F_back-to-top-mask-2\"><g filter=\"url(#icon_x2F_Nav_x2F_back-to-top-Adobe_OpacityMaskFilter)\"><path id=\"icon_x2F_Nav_x2F_back-to-top-path-1\" d=\"M23.7 31c-1.5 0-2.6 1.2-2.6 2.7 0 1.5 1.1 2.7 2.6 2.7s2.6-1.2 2.6-2.7c0-1.4-1.1-2.7-2.6-2.7zm9.7.2h-1.5v2.7h1.5c1 0 1.5-.6 1.5-1.3 0-1-.6-1.4-1.5-1.4zM24 0C10.7 0 0 10.7 0 24s10.7 24 24 24 24-10.7 24-24S37.3 0 24 0zm-5.7 31.2h-2.6v6.9h-1.9v-6.9h-2.6v-1.8h7.2l-.1 1.8zm10 2.6c0 2.5-1.9 4.5-4.6 4.5-2.7 0-4.6-2-4.6-4.5s1.9-4.5 4.6-4.5c2.7 0 4.6 2 4.6 4.5zm-2.9-22V24c0 .8-.6 1.4-1.4 1.4-.8 0-1.4-.6-1.4-1.4V11.8c-1.8 1.8-4.1 4.1-4.1 4.2-.3.3-.6.4-1 .4s-.7-.1-1-.4c-.5-.5-.5-1.4 0-2l6.2-6.2c.5-.5.9-.6 1.2-.6h.4c.3 0 .7.2 1.2.6l6.2 6.2c.5.5.5 1.4 0 2-.5.5-1.4.5-2 0-.2 0-2.5-2.3-4.3-4.2zm11.4 20.7c0 2-1.6 3-3.5 3h-1.4v2.6H30v-8.7h3.5c2.1 0 3.3 1.3 3.3 3.1z\" fill=\"#fff\"/></g></mask><g id=\"icon_x2F_Nav_x2F_back-to-top-Color_x2F_Grayscale_x2F_Night-Sky\" mask=\"url(#icon_x2F_Nav_x2F_back-to-top-mask-2)\"><path id=\"icon_x2F_Nav_x2F_back-to-top-Swatch\" fill=\"#111\" d=\"M0 0h48v48H0z\"/></g></g></g></g></svg>"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"icon_x2F_Nav_x2F_back-to-top-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"icon_x2F_Nav_x2F_back-to-top-path-1_1_\" style=\"fill:#111111;\" d=\"M23.7,31c-1.5,0-2.6,1.2-2.6,2.7s1.1,2.7,2.6,2.7\r\n\ts2.6-1.2,2.6-2.7C26.3,32.3,25.2,31,23.7,31z M33.4,31.2h-1.5v2.7h1.5c1,0,1.5-0.6,1.5-1.3C34.9,31.6,34.3,31.2,33.4,31.2z M24,0\r\n\tC10.7,0,0,10.7,0,24s10.7,24,24,24s24-10.7,24-24S37.3,0,24,0z M18.3,31.2h-2.6v6.9h-1.9v-6.9h-2.6v-1.8h7.2\r\n\tC18.4,29.4,18.3,31.2,18.3,31.2z M28.3,33.8c0,2.5-1.9,4.5-4.6,4.5s-4.6-2-4.6-4.5s1.9-4.5,4.6-4.5S28.3,31.3,28.3,33.8z M25.4,11.8\r\n\tV24c0,0.8-0.6,1.4-1.4,1.4s-1.4-0.6-1.4-1.4V11.8c-1.8,1.8-4.1,4.1-4.1,4.2c-0.3,0.3-0.6,0.4-1,0.4s-0.7-0.1-1-0.4\r\n\tc-0.5-0.5-0.5-1.4,0-2l6.2-6.2c0.5-0.5,0.9-0.6,1.2-0.6h0.4c0.3,0,0.7,0.2,1.2,0.6l6.2,6.2c0.5,0.5,0.5,1.4,0,2\r\n\tc-0.5,0.5-1.4,0.5-2,0C29.5,16,27.2,13.7,25.4,11.8z M36.8,32.5c0,2-1.6,3-3.5,3h-1.4v2.6H30v-8.7h3.5\r\n\tC35.6,29.4,36.8,30.7,36.8,32.5z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "oxHa":
 /***/ (function(module, exports) {
 
-module.exports = "<svg id=\"icon_x2F_Utility_x2F_barcode-Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 48 48\" enable-background=\"new 0 0 48 48\"><title>icon/Utility/barcode</title><g id=\"icon_x2F_Utility_x2F_barcode-Symbols\"><g id=\"icon_x2F_Utility_x2F_barcode\"><g id=\"icon_x2F_Utility_x2F_barcode-Icon\" transform=\"translate(12 15)\"><g id=\"icon_x2F_Utility_x2F_barcode-Mask\"><path id=\"icon_x2F_Utility_x2F_barcode-path-1_1_\" d=\"M0 0h1v18H0V0zm1.9 0h1.9v18H1.9V0zm2.9 0h3.8v18H4.8V0zm5.8 0h1.9v18h-1.9V0zm2.8 0h1v18h-1V0zm7.7 0h1v18h-1V0zM23 0h1v18h-1V0zm-6.7 0h2.9v18h-2.9V0z\" fill=\"#384048\"/></g><defs><filter id=\"icon_x2F_Utility_x2F_barcode-Adobe_OpacityMaskFilter\" filterUnits=\"userSpaceOnUse\" x=\"-12\" y=\"-15\" width=\"48\" height=\"48\"><feColorMatrix values=\"1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0\"/></filter></defs><mask maskUnits=\"userSpaceOnUse\" x=\"-12\" y=\"-15\" width=\"48\" height=\"48\" id=\"icon_x2F_Utility_x2F_barcode-mask-2\"><g filter=\"url(#icon_x2F_Utility_x2F_barcode-Adobe_OpacityMaskFilter)\"><path id=\"icon_x2F_Utility_x2F_barcode-path-1\" d=\"M0 0h1v18H0V0zm1.9 0h1.9v18H1.9V0zm2.9 0h3.8v18H4.8V0zm5.8 0h1.9v18h-1.9V0zm2.8 0h1v18h-1V0zm7.7 0h1v18h-1V0zM23 0h1v18h-1V0zm-6.7 0h2.9v18h-2.9V0z\" fill=\"#fff\"/></g></mask><g id=\"icon_x2F_Utility_x2F_barcode-Color_x2F_Grayscale_x2F_Night-Sky\" mask=\"url(#icon_x2F_Utility_x2F_barcode-mask-2)\"><path fill=\"#111\" d=\"M0 0h48v48H0z\" transform=\"translate(-12 -15)\" id=\"icon_x2F_Utility_x2F_barcode-Swatch\"/></g></g></g></g></svg>"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"icon_x2F_Utility_x2F_barcode-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"icon_x2F_Utility_x2F_barcode-path-1_1_\" style=\"fill:#111111;\" d=\"M12,15h1v18h-1V15z M13.9,15h1.9v18h-1.9V15z M16.8,15\r\n\th3.8v18h-3.8V15z M22.6,15h1.9v18h-1.9V15z M25.4,15h1v18h-1V15z M33.1,15h1v18h-1V15z M35,15h1v18h-1V15z M28.3,15h2.9v18h-2.9V15z\r\n\t\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
@@ -13931,7 +14042,7 @@ module.exports = "<svg id=\"new-JCP-Mastercard-Layer_1\" xmlns=\"http://www.w3.o
 /***/ "plRc":
 /***/ (function(module, exports) {
 
-module.exports = "<svg id=\"action-grid-fill-Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 48 48\" enable-background=\"new 0 0 48 48\"><title>icon/Action/grid-fill</title><g transform=\"translate(12 12)\"><path id=\"action-grid-fill-a_1_\" d=\"M0 1c0-.6.4-1 1-1h8.9c.6 0 1 .4 1 1v8.9c0 .6-.4 1-1 1H1c-.6 0-1-.4-1-1V1zm0 13.1c0-.6.4-1 1-1h8.9c.6 0 1 .4 1 1V23c0 .6-.4 1-1 1H1c-.6 0-1-.4-1-1v-8.9zM13.1 1c0-.6.4-1 1-1H23c.6 0 1 .4 1 1v8.9c0 .6-.4 1-1 1h-8.9c-.6 0-1-.4-1-1V1zm0 13.1c0-.6.4-1 1-1H23c.6 0 1 .4 1 1V23c0 .6-.4 1-1 1h-8.9c-.6 0-1-.4-1-1v-8.9z\" fill=\"#384048\"/><defs><filter id=\"action-grid-fill-Adobe_OpacityMaskFilter\" filterUnits=\"userSpaceOnUse\" x=\"-12\" y=\"-12\" width=\"48\" height=\"48\"><feColorMatrix values=\"1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0\"/></filter></defs><mask maskUnits=\"userSpaceOnUse\" x=\"-12\" y=\"-12\" width=\"48\" height=\"48\" id=\"action-grid-fill-b\"><g filter=\"url(#action-grid-fill-Adobe_OpacityMaskFilter)\"><path id=\"action-grid-fill-a\" d=\"M0 1c0-.6.4-1 1-1h8.9c.6 0 1 .4 1 1v8.9c0 .6-.4 1-1 1H1c-.6 0-1-.4-1-1V1zm0 13.1c0-.6.4-1 1-1h8.9c.6 0 1 .4 1 1V23c0 .6-.4 1-1 1H1c-.6 0-1-.4-1-1v-8.9zM13.1 1c0-.6.4-1 1-1H23c.6 0 1 .4 1 1v8.9c0 .6-.4 1-1 1h-8.9c-.6 0-1-.4-1-1V1zm0 13.1c0-.6.4-1 1-1H23c.6 0 1 .4 1 1V23c0 .6-.4 1-1 1h-8.9c-.6 0-1-.4-1-1v-8.9z\" fill=\"#fff\"/></g></mask><g mask=\"url(#action-grid-fill-b)\"><path d=\"M-12-12h48v48h-48v-48z\" fill=\"#111\"/></g></g></svg>"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"action-grid-fill-Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"\r\n\t x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\" style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"action-grid-fill-a_1_\" style=\"fill:#111111;\" d=\"M12,13c0-0.6,0.4-1,1-1h8.9c0.6,0,1,0.4,1,1v8.9c0,0.6-0.4,1-1,1H13\r\n\tc-0.6,0-1-0.4-1-1V13z M12,26.1c0-0.6,0.4-1,1-1h8.9c0.6,0,1,0.4,1,1V35c0,0.6-0.4,1-1,1H13c-0.6,0-1-0.4-1-1V26.1z M25.1,13\r\n\tc0-0.6,0.4-1,1-1H35c0.6,0,1,0.4,1,1v8.9c0,0.6-0.4,1-1,1h-8.9c-0.6,0-1-0.4-1-1V13z M25.1,26.1c0-0.6,0.4-1,1-1H35c0.6,0,1,0.4,1,1\r\n\tV35c0,0.6-0.4,1-1,1h-8.9c-0.6,0-1-0.4-1-1V26.1z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
@@ -13945,35 +14056,35 @@ module.exports = "<svg id=\"payment-card-jcvv-Layer_1\" xmlns=\"http://www.w3.or
 /***/ "qZ91":
 /***/ (function(module, exports) {
 
-module.exports = "<svg id=\"icon_x2F_Social_x2F_blog-line-Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 48 48\" enable-background=\"new 0 0 48 48\"><title>icon/Social/blog-line</title><g id=\"icon_x2F_Social_x2F_blog-line-Symbols\"><g id=\"icon_x2F_Social_x2F_blog-line\"><g id=\"icon_x2F_Social_x2F_blog-line-Icon\" transform=\"translate(8 8)\"><g id=\"icon_x2F_Social_x2F_blog-line-Mask\"><path id=\"icon_x2F_Social_x2F_blog-line-path-1_1_\" d=\"M16 0c8.8 0 16 7.2 16 16s-7.2 16-16 16S0 24.8 0 16 7.2 0 16 0zm0 30.2c7.8 0 14.2-6.3 14.2-14.2S23.8 1.8 16 1.8 1.8 8.2 1.8 16 8.2 30.2 16 30.2zm-1.4-22c5.4 0 9.8 4.4 9.8 9.8 0 .5-.4.9-.9.9s-.9-.4-.9-.9c0-4.4-3.5-7.9-7.9-7.9-.5 0-.9-.4-.9-.9s.3-1 .8-1zm0 4.6c2.9 0 5.2 2.4 5.2 5.2 0 .5-.4.9-.9.9-.5.1-.9-.3-.9-.9 0-1.9-1.5-3.4-3.4-3.4-.5 0-.9-.4-.9-.9s.4-.9.9-.9zM13.3 16c2.3 0 4.2 1.9 4.2 4.2s-1.9 4.2-4.2 4.2-4.2-1.9-4.2-4.2v-7.3c0-.5.4-.9.9-.9s.9.4.9.9v7.3c0 1.3 1 2.3 2.3 2.3 1.3 0 2.3-1 2.3-2.3s-1-2.3-2.3-2.3c-.5 0-.9-.4-.9-.9.1-.6.5-1 1-1z\" fill=\"#384048\"/></g><defs><filter id=\"icon_x2F_Social_x2F_blog-line-Adobe_OpacityMaskFilter\" filterUnits=\"userSpaceOnUse\" x=\"-8\" y=\"-8\" width=\"48\" height=\"48\"><feColorMatrix values=\"1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0\"/></filter></defs><mask maskUnits=\"userSpaceOnUse\" x=\"-8\" y=\"-8\" width=\"48\" height=\"48\" id=\"icon_x2F_Social_x2F_blog-line-mask-2\"><g filter=\"url(#icon_x2F_Social_x2F_blog-line-Adobe_OpacityMaskFilter)\"><path id=\"icon_x2F_Social_x2F_blog-line-path-1\" d=\"M16 0c8.8 0 16 7.2 16 16s-7.2 16-16 16S0 24.8 0 16 7.2 0 16 0zm0 30.2c7.8 0 14.2-6.3 14.2-14.2S23.8 1.8 16 1.8 1.8 8.2 1.8 16 8.2 30.2 16 30.2zm-1.4-22c5.4 0 9.8 4.4 9.8 9.8 0 .5-.4.9-.9.9s-.9-.4-.9-.9c0-4.4-3.5-7.9-7.9-7.9-.5 0-.9-.4-.9-.9s.3-1 .8-1zm0 4.6c2.9 0 5.2 2.4 5.2 5.2 0 .5-.4.9-.9.9-.5.1-.9-.3-.9-.9 0-1.9-1.5-3.4-3.4-3.4-.5 0-.9-.4-.9-.9s.4-.9.9-.9zM13.3 16c2.3 0 4.2 1.9 4.2 4.2s-1.9 4.2-4.2 4.2-4.2-1.9-4.2-4.2v-7.3c0-.5.4-.9.9-.9s.9.4.9.9v7.3c0 1.3 1 2.3 2.3 2.3 1.3 0 2.3-1 2.3-2.3s-1-2.3-2.3-2.3c-.5 0-.9-.4-.9-.9.1-.6.5-1 1-1z\" fill=\"#fff\"/></g></mask><g id=\"icon_x2F_Social_x2F_blog-line-Color_x2F_Grayscale_x2F_Night-Sky\" mask=\"url(#icon_x2F_Social_x2F_blog-line-mask-2)\"><path fill=\"#111\" d=\"M0 0h48v48H0z\" transform=\"translate(-8 -8)\" id=\"icon_x2F_Social_x2F_blog-line-Swatch\"/></g></g></g></g></svg>"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"icon_x2F_Social_x2F_blog-line-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"icon_x2F_Social_x2F_blog-line-path-1_1_\" style=\"fill:#111111;\" d=\"M24,8c8.8,0,16,7.2,16,16s-7.2,16-16,16S8,32.8,8,24\r\n\tS15.2,8,24,8z M24,38.2c7.8,0,14.2-6.3,14.2-14.2S31.8,9.8,24,9.8S9.8,16.2,9.8,24S16.2,38.2,24,38.2z M22.6,16.2\r\n\tc5.4,0,9.8,4.4,9.8,9.8c0,0.5-0.4,0.9-0.9,0.9c-0.5,0-0.9-0.4-0.9-0.9c0-4.4-3.5-7.9-7.9-7.9c-0.5,0-0.9-0.4-0.9-0.9\r\n\tS22.1,16.2,22.6,16.2z M22.6,20.8c2.9,0,5.2,2.4,5.2,5.2c0,0.5-0.4,0.9-0.9,0.9C26.4,27,26,26.6,26,26c0-1.9-1.5-3.4-3.4-3.4\r\n\tc-0.5,0-0.9-0.4-0.9-0.9S22.1,20.8,22.6,20.8z M21.3,24c2.3,0,4.2,1.9,4.2,4.2s-1.9,4.2-4.2,4.2s-4.2-1.9-4.2-4.2v-7.3\r\n\tc0-0.5,0.4-0.9,0.9-0.9s0.9,0.4,0.9,0.9v7.3c0,1.3,1,2.3,2.3,2.3c1.3,0,2.3-1,2.3-2.3s-1-2.3-2.3-2.3c-0.5,0-0.9-0.4-0.9-0.9\r\n\tC20.4,24.4,20.8,24,21.3,24z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "qodu":
 /***/ (function(module, exports) {
 
-module.exports = "<svg id=\"icon_x2F_Utility_x2F_Store_x2F_store-Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 48 48\" enable-background=\"new 0 0 48 48\"><title>icon/Utility/Store/store</title><g id=\"icon_x2F_Utility_x2F_Store_x2F_store-Symbols\"><g id=\"icon_x2F_Utility_x2F_Store_x2F_store\"><g id=\"icon_x2F_Utility_x2F_Store_x2F_store-Icon\" transform=\"translate(10 11)\"><g id=\"icon_x2F_Utility_x2F_Store_x2F_store-Mask\"><path id=\"icon_x2F_Utility_x2F_Store_x2F_store-path-1_1_\" d=\"M25.8 0H2.2C.9 0 0 .9 0 2.3v4.1c0 1 .6 1.8 1.4 2.1v14.3c0 1.3.9 2 2.3 2h1.4v-12c0-1.3.9-2.3 2.1-2.3h13.3c1.3 0 2.3.9 2.3 2.2v12.1h1.8c1.4 0 2-.6 2-2V8.5c.8-.3 1.4-1.2 1.4-2.2V2.2C28 .8 27.2 0 25.8 0zm.8 6.3c0 .5-.3.8-.8.8H2.2c-.5 0-.8-.3-.8-.8v-4c0-.6.3-.8.8-.8h23.6c.8 0 .8.4.8.7v4.1zM6.5 12.6c0-.3.1-.9.7-.9h6.3V26h-7V12.6zm14.4-1c.4 0 .9.1.9.8V26h-7V11.6h6.1z\" fill=\"#384048\"/></g><defs><filter id=\"icon_x2F_Utility_x2F_Store_x2F_store-Adobe_OpacityMaskFilter\" filterUnits=\"userSpaceOnUse\" x=\"-10\" y=\"-11\" width=\"48\" height=\"48\"><feColorMatrix values=\"1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0\"/></filter></defs><mask maskUnits=\"userSpaceOnUse\" x=\"-10\" y=\"-11\" width=\"48\" height=\"48\" id=\"icon_x2F_Utility_x2F_Store_x2F_store-mask-2\"><g filter=\"url(#icon_x2F_Utility_x2F_Store_x2F_store-Adobe_OpacityMaskFilter)\"><path id=\"icon_x2F_Utility_x2F_Store_x2F_store-path-1\" d=\"M25.8 0H2.2C.9 0 0 .9 0 2.3v4.1c0 1 .6 1.8 1.4 2.1v14.3c0 1.3.9 2 2.3 2h1.4v-12c0-1.3.9-2.3 2.1-2.3h13.3c1.3 0 2.3.9 2.3 2.2v12.1h1.8c1.4 0 2-.6 2-2V8.5c.8-.3 1.4-1.2 1.4-2.2V2.2C28 .8 27.2 0 25.8 0zm.8 6.3c0 .5-.3.8-.8.8H2.2c-.5 0-.8-.3-.8-.8v-4c0-.6.3-.8.8-.8h23.6c.8 0 .8.4.8.7v4.1zM6.5 12.6c0-.3.1-.9.7-.9h6.3V26h-7V12.6zm14.4-1c.4 0 .9.1.9.8V26h-7V11.6h6.1z\" fill=\"#fff\"/></g></mask><g id=\"icon_x2F_Utility_x2F_Store_x2F_store-Color_x2F_Grayscale_x2F_Night-Sky\" mask=\"url(#icon_x2F_Utility_x2F_Store_x2F_store-mask-2)\"><path fill=\"#111\" d=\"M0 0h48v48H0z\" transform=\"translate(-10 -11)\" id=\"icon_x2F_Utility_x2F_Store_x2F_store-Swatch\"/></g></g></g></g></svg>"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"icon_x2F_Utility_x2F_Store_x2F_store-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"icon_x2F_Utility_x2F_Store_x2F_store-path-1_1_\" style=\"fill:#111111;\" d=\"M35.8,11H12.2c-1.3,0-2.2,0.9-2.2,2.3v4.1\r\n\tc0,1,0.6,1.8,1.4,2.1v14.3c0,1.3,0.9,2,2.3,2h1.4v-12c0-1.3,0.9-2.3,2.1-2.3h13.3c1.3,0,2.3,0.9,2.3,2.2v12.1h1.8c1.4,0,2-0.6,2-2\r\n\tV19.5c0.8-0.3,1.4-1.2,1.4-2.2v-4.1C38,11.8,37.2,11,35.8,11z M36.6,17.3c0,0.5-0.3,0.8-0.8,0.8H12.2c-0.5,0-0.8-0.3-0.8-0.8v-4\r\n\tc0-0.6,0.3-0.8,0.8-0.8h23.6c0.8,0,0.8,0.4,0.8,0.7C36.6,13.2,36.6,17.3,36.6,17.3z M16.5,23.6c0-0.3,0.1-0.9,0.7-0.9h6.3V37h-7\r\n\tV23.6z M30.9,22.6c0.4,0,0.9,0.1,0.9,0.8V37h-7V22.6H30.9z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "qsna":
 /***/ (function(module, exports) {
 
-module.exports = "<svg id=\"icon_x2F_Utility_x2F_parts-services-Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 48 48\" enable-background=\"new 0 0 48 48\"><title>icon/Utility/parts-services</title><g id=\"icon_x2F_Utility_x2F_parts-services-Symbols\"><g id=\"icon_x2F_Utility_x2F_parts-services\"><g id=\"icon_x2F_Utility_x2F_parts-services-Icon\" transform=\"translate(11 11)\"><g id=\"icon_x2F_Utility_x2F_parts-services-Mask\"><path id=\"icon_x2F_Utility_x2F_parts-services-path-1_1_\" d=\"M2.3 23.6c-.6-.6-.6-1.5 0-2.1.6-.6 1.5-.6 2.1 0 .6.6.6 1.5 0 2.1-.6.6-1.5.6-2.1 0zm16.1-11.5L5.4 25c-1.2 1.2-3.3 1.2-4.5 0-1.2-1.2-1.2-3.2 0-4.5l13-12.9c-.5-2 0-4.2 1.6-5.8C17.2.1 19.7-.4 21.9.4l-3.7 3.7c-.5.5-.5 1.4 0 1.9l.8.8.1.1.1.1.8.8c.5.5 1.4.5 1.9 0l3.7-3.7c.8 2.2.3 4.7-1.5 6.4-1.5 1.6-3.7 2.1-5.7 1.6zm-1.5 2.8l1.1-1.1 6.8 6.8c1.2 1.2 1.2 3.2 0 4.5-1.2 1.2-3.3 1.2-4.5 0l-6.8-6.8 1.1-1.1 7 7c.2.2.4.2.6 0 .2-.2.2-.4 0-.6l-7-7 1-1 7 7c.2.2.4.2.6 0 .2-.2.2-.4 0-.6l-6.9-7.1zm-6.1-5.7l-1.7 1.7-4.2-4.3-2-.5L.1 1.8 1.6.3 5.9 3l.6 2.1 4.3 4.1z\" fill=\"#384048\"/></g><defs><filter id=\"icon_x2F_Utility_x2F_parts-services-Adobe_OpacityMaskFilter\" filterUnits=\"userSpaceOnUse\" x=\"-11\" y=\"-11\" width=\"48\" height=\"48\"><feColorMatrix values=\"1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0\"/></filter></defs><mask maskUnits=\"userSpaceOnUse\" x=\"-11\" y=\"-11\" width=\"48\" height=\"48\" id=\"icon_x2F_Utility_x2F_parts-services-mask-2\"><g filter=\"url(#icon_x2F_Utility_x2F_parts-services-Adobe_OpacityMaskFilter)\"><path id=\"icon_x2F_Utility_x2F_parts-services-path-1\" d=\"M2.3 23.6c-.6-.6-.6-1.5 0-2.1.6-.6 1.5-.6 2.1 0 .6.6.6 1.5 0 2.1-.6.6-1.5.6-2.1 0zm16.1-11.5L5.4 25c-1.2 1.2-3.3 1.2-4.5 0-1.2-1.2-1.2-3.2 0-4.5l13-12.9c-.5-2 0-4.2 1.6-5.8C17.2.1 19.7-.4 21.9.4l-3.7 3.7c-.5.5-.5 1.4 0 1.9l.8.8.1.1.1.1.8.8c.5.5 1.4.5 1.9 0l3.7-3.7c.8 2.2.3 4.7-1.5 6.4-1.5 1.6-3.7 2.1-5.7 1.6zm-1.5 2.8l1.1-1.1 6.8 6.8c1.2 1.2 1.2 3.2 0 4.5-1.2 1.2-3.3 1.2-4.5 0l-6.8-6.8 1.1-1.1 7 7c.2.2.4.2.6 0 .2-.2.2-.4 0-.6l-7-7 1-1 7 7c.2.2.4.2.6 0 .2-.2.2-.4 0-.6l-6.9-7.1zm-6.1-5.7l-1.7 1.7-4.2-4.3-2-.5L.1 1.8 1.6.3 5.9 3l.6 2.1 4.3 4.1z\" fill=\"#fff\"/></g></mask><g id=\"icon_x2F_Utility_x2F_parts-services-Color_x2F_Grayscale_x2F_Night-Sky\" mask=\"url(#icon_x2F_Utility_x2F_parts-services-mask-2)\"><path fill=\"#111\" d=\"M0 0h48v48H0z\" transform=\"translate(-11 -11)\" id=\"icon_x2F_Utility_x2F_parts-services-Swatch\"/></g></g></g></g></svg>"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"icon_x2F_Utility_x2F_parts-services-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"icon_x2F_Utility_x2F_parts-services-path-1_1_\" style=\"fill:#111111;\" d=\"M13.3,34.6c-0.6-0.6-0.6-1.5,0-2.1\r\n\tc0.6-0.6,1.5-0.6,2.1,0c0.6,0.6,0.6,1.5,0,2.1C14.8,35.2,13.9,35.2,13.3,34.6z M29.4,23.1L16.4,36c-1.2,1.2-3.3,1.2-4.5,0\r\n\ts-1.2-3.2,0-4.5l13-12.9c-0.5-2,0-4.2,1.6-5.8c1.7-1.7,4.2-2.2,6.4-1.4l-3.7,3.7c-0.5,0.5-0.5,1.4,0,1.9l0.8,0.8l0.1,0.1l0.1,0.1\r\n\tl0.8,0.8c0.5,0.5,1.4,0.5,1.9,0l3.7-3.7c0.8,2.2,0.3,4.7-1.5,6.4C33.6,23.1,31.4,23.6,29.4,23.1z M27.9,25.9l1.1-1.1l6.8,6.8\r\n\tc1.2,1.2,1.2,3.2,0,4.5c-1.2,1.2-3.3,1.2-4.5,0l-6.8-6.8l1.1-1.1l7,7c0.2,0.2,0.4,0.2,0.6,0c0.2-0.2,0.2-0.4,0-0.6l-7-7l1-1l7,7\r\n\tc0.2,0.2,0.4,0.2,0.6,0s0.2-0.4,0-0.6C34.8,33,27.9,25.9,27.9,25.9z M21.8,20.2l-1.7,1.7l-4.2-4.3l-2-0.5l-2.8-4.3l1.5-1.5l4.3,2.7\r\n\tl0.6,2.1C17.5,16.1,21.8,20.2,21.8,20.2z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "rhDH":
 /***/ (function(module, exports) {
 
-module.exports = "<svg id=\"action-mail-Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 48 48\" enable-background=\"new 0 0 48 48\"><title>icon/Action/mail</title><g transform=\"translate(11 14)\"><path id=\"action-mail-a_1_\" d=\"M12.2 9.3l-9.9-8L.8.2c.2-.1.4-.2.5-.2h23.1c.1 0 .4 0 .7.1l-1.6 1.2-9.8 8c-.1.1-.5.2-.8.2s-.5 0-.7-.2zM26 1.2v16.5c0 1.4-.9 2.3-2.2 2.3H2.2C.9 20 0 19.1 0 17.7V1.3l1.5 1.2 9.9 8c.5.4 1.1.5 1.5.5.4 0 1.1-.2 1.5-.5l9.8-8L26 1.2z\" fill=\"#384048\"/><defs><filter id=\"action-mail-Adobe_OpacityMaskFilter\" filterUnits=\"userSpaceOnUse\" x=\"-11\" y=\"-14\" width=\"48\" height=\"48\"><feColorMatrix values=\"1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0\"/></filter></defs><mask maskUnits=\"userSpaceOnUse\" x=\"-11\" y=\"-14\" width=\"48\" height=\"48\" id=\"action-mail-b\"><g filter=\"url(#action-mail-Adobe_OpacityMaskFilter)\"><path id=\"action-mail-a\" d=\"M12.2 9.3l-9.9-8L.8.2c.2-.1.4-.2.5-.2h23.1c.1 0 .4 0 .7.1l-1.6 1.2-9.8 8c-.1.1-.5.2-.8.2s-.5 0-.7-.2zM26 1.2v16.5c0 1.4-.9 2.3-2.2 2.3H2.2C.9 20 0 19.1 0 17.7V1.3l1.5 1.2 9.9 8c.5.4 1.1.5 1.5.5.4 0 1.1-.2 1.5-.5l9.8-8L26 1.2z\" fill=\"#fff\"/></g></mask><g mask=\"url(#action-mail-b)\"><path d=\"M-11-14h48v48h-48v-48z\" fill=\"#111\"/></g></g></svg>"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"action-mail-Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"\r\n\t x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\" style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"action-mail-a_1_\" style=\"fill:#111111;\" d=\"M23.2,23.3l-9.9-8l-1.5-1.1c0.2-0.1,0.4-0.2,0.5-0.2h23.1c0.1,0,0.4,0,0.7,0.1\r\n\tl-1.6,1.2l-9.8,8c-0.1,0.1-0.5,0.2-0.8,0.2S23.4,23.5,23.2,23.3z M37,15.2v16.5c0,1.4-0.9,2.3-2.2,2.3H13.2c-1.3,0-2.2-0.9-2.2-2.3\r\n\tV15.3l1.5,1.2l9.9,8c0.5,0.4,1.1,0.5,1.5,0.5s1.1-0.2,1.5-0.5l9.8-8L37,15.2z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "rmnD":
 /***/ (function(module, exports) {
 
-module.exports = "<svg id=\"icon_x2F_Utility_x2F_Ship_x2F_haul-away-Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 48 48\"><title>icon/Utility/Ship/haul-away</title><g id=\"icon_x2F_Utility_x2F_Ship_x2F_haul-away-Symbols\"><g id=\"icon_x2F_Utility_x2F_Ship_x2F_haul-away\"><g id=\"icon_x2F_Utility_x2F_Ship_x2F_haul-away-Icon\" transform=\"translate(11 12)\"><g id=\"icon_x2F_Utility_x2F_Ship_x2F_haul-away-Mask\" transform=\"matrix(-1 0 0 1 26 0)\"><path id=\"icon_x2F_Utility_x2F_Ship_x2F_haul-away-path-1_1_\" d=\"M21.6 5.7c-.2-.4-.8-.7-1.2-.7-.2 0-.3.1-.4.1l-9.3 5-4.6-8.4c-.1-.1-.2-.2-.4-.3L.9 0C.5-.1.1.1 0 .5s.1.8.5.9L5 2.7l7.8 14.2c-1 .7-1.7 1.9-1.7 3.2 0 2.1 1.8 3.9 4 3.9s4-1.7 4-3.9c0-.6-.1-1.1-.3-1.6l6.8-3.6c.4-.3.5-1.1.3-1.5l-4.3-7.7zm-9.1 14.4c0-1.4 1.2-2.5 2.6-2.5s2.6 1.1 2.6 2.5-1.2 2.5-2.6 2.5c-1.5 0-2.6-1.1-2.6-2.5z\" fill=\"#384048\"/></g></g></g></g></svg>"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"icon_x2F_Utility_x2F_Ship_x2F_haul-away-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"icon_x2F_Utility_x2F_Ship_x2F_haul-away-path-1_1_\" style=\"fill:#111111;\" d=\"M15.4,17.7c0.2-0.4,0.8-0.7,1.2-0.7\r\n\tc0.2,0,0.3,0.1,0.4,0.1l9.3,5l4.6-8.4c0.1-0.1,0.2-0.2,0.4-0.3l4.8-1.4c0.4-0.1,0.8,0.1,0.9,0.5s-0.1,0.8-0.5,0.9L32,14.7l-7.8,14.2\r\n\tc1,0.7,1.7,1.9,1.7,3.2c0,2.1-1.8,3.9-4,3.9s-4-1.7-4-3.9c0-0.6,0.1-1.1,0.3-1.6l-6.8-3.6c-0.4-0.3-0.5-1.1-0.3-1.5\r\n\tC11.1,25.4,15.4,17.7,15.4,17.7z M24.5,32.1c0-1.4-1.2-2.5-2.6-2.5s-2.6,1.1-2.6,2.5c0,1.4,1.2,2.5,2.6,2.5\r\n\tC23.4,34.6,24.5,33.5,24.5,32.1z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
@@ -13994,35 +14105,35 @@ module.exports = "<svg id=\"payment-card-discover-Layer_1\" xmlns=\"http://www.w
 /***/ "uueF":
 /***/ (function(module, exports) {
 
-module.exports = "<svg id=\"icon_x2F_Alert_x2F_success-check-Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 48 48\" enable-background=\"new 0 0 48 48\"><title>icon/Alert/success-check</title><g id=\"icon_x2F_Alert_x2F_success-check-Symbols\"><g id=\"icon_x2F_Alert_x2F_success-check\"><g id=\"icon_x2F_Alert_x2F_success-check-Icon\" transform=\"translate(11 13)\"><g id=\"icon_x2F_Alert_x2F_success-check-Mask\"><path id=\"icon_x2F_Alert_x2F_success-check-path-1_1_\" d=\"M5.5 11.2c-1.5-1.1-3.7-.8-4.9.7s-.8 3.5.7 4.6l6.9 4.9c1.5 1.1 3.7.8 4.9-.7L25.3 5.2c1.1-1.4.8-3.5-.7-4.6-1.5-1.1-3.7-.8-4.8.7L9.7 14.2l-4.2-3z\" fill=\"#384048\"/></g><defs><filter id=\"icon_x2F_Alert_x2F_success-check-Adobe_OpacityMaskFilter\" filterUnits=\"userSpaceOnUse\" x=\"-11\" y=\"-13\" width=\"48\" height=\"48\"><feColorMatrix values=\"1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0\"/></filter></defs><mask maskUnits=\"userSpaceOnUse\" x=\"-11\" y=\"-13\" width=\"48\" height=\"48\" id=\"icon_x2F_Alert_x2F_success-check-mask-2\"><g filter=\"url(#icon_x2F_Alert_x2F_success-check-Adobe_OpacityMaskFilter)\"><path id=\"icon_x2F_Alert_x2F_success-check-path-1\" d=\"M5.5 11.2c-1.5-1.1-3.7-.8-4.9.7s-.8 3.5.7 4.6l6.9 4.9c1.5 1.1 3.7.8 4.9-.7L25.3 5.2c1.1-1.4.8-3.5-.7-4.6-1.5-1.1-3.7-.8-4.8.7L9.7 14.2l-4.2-3z\" fill=\"#fff\"/></g></mask><g id=\"icon_x2F_Alert_x2F_success-check-Color_x2F_Messaging_x2F_Success\" mask=\"url(#icon_x2F_Alert_x2F_success-check-mask-2)\"><path fill=\"#2a7952\" d=\"M0 0h48v48H0z\" transform=\"translate(-11 -13)\" id=\"icon_x2F_Alert_x2F_success-check-Swatch\"/></g></g></g></g></svg>"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"icon_x2F_Alert_x2F_success-check-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"icon_x2F_Alert_x2F_success-check-path-1_1_\" style=\"fill:#2A7952;\" d=\"M16.5,24.2c-1.5-1.1-3.7-0.8-4.9,0.7\r\n\ts-0.8,3.5,0.7,4.6l6.9,4.9c1.5,1.1,3.7,0.8,4.9-0.7l12.2-15.5c1.1-1.4,0.8-3.5-0.7-4.6s-3.7-0.8-4.8,0.7L20.7,27.2L16.5,24.2z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "vWLu":
 /***/ (function(module, exports) {
 
-module.exports = "<svg id=\"action-chat-line-Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 48 48\" enable-background=\"new 0 0 48 48\"><title>icon/Action/chat-line</title><g transform=\"translate(9 14)\"><path id=\"action-chat-line-a_1_\" d=\"M24.9 22c-.2 0-.4-.1-.5-.2L20 17.7h-5c-1.4 0-2.5-1-2.5-2.4V8.5c0-1.3 1.1-2.3 2.5-2.3h13c1 0 2 .8 2 2.2v6.9c0 .5-.3 1.1-.7 1.5-.5.5-1.1.8-1.8.8h-1.9v3.6c0 .3-.2.5-.5.7 0 .1-.1.1-.2.1zM15 7.7h13c.2 0 .5.2.5.7v6.9c0 .3-.4.9-1 1h-2.1c-.7 0-1.3.6-1.3 1.3v2l-3.2-3h-.1c-.3-.2-.6-.3-.9-.3h-5c-.6 0-1-.4-1-1V8.5c.1-.5.5-.8 1.1-.8zm-9.1 9.5c-.3-.1-.4-.4-.4-.7v-3.4s-.1-.1-.2-.1H2.1C1 13 0 12 0 10.8V2.2C0 1 1 0 2.1 0h16.8C20 0 21 1 21 2.2v4.1h-1.5V2.2c0-.4-.3-.7-.6-.7H2.1c-.3 0-.6.3-.6.7v8.6c0 .5.3.8.6.8h3.2c.8 0 1.7.6 1.7 1.4v1.8l3.5-3.1c.1-.1.3-.2.5-.2h1.5v1.4h-1.2l-4.5 4c-.3.3-.6.4-.9.3z\" fill=\"#384048\"/><defs><filter id=\"action-chat-line-Adobe_OpacityMaskFilter\" filterUnits=\"userSpaceOnUse\" x=\"-9\" y=\"-14\" width=\"48\" height=\"48\"><feColorMatrix values=\"1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0\"/></filter></defs><mask maskUnits=\"userSpaceOnUse\" x=\"-9\" y=\"-14\" width=\"48\" height=\"48\" id=\"action-chat-line-b\"><g filter=\"url(#action-chat-line-Adobe_OpacityMaskFilter)\"><path id=\"action-chat-line-a\" d=\"M24.9 22c-.2 0-.4-.1-.5-.2L20 17.7h-5c-1.4 0-2.5-1-2.5-2.4V8.5c0-1.3 1.1-2.3 2.5-2.3h13c1 0 2 .8 2 2.2v6.9c0 .5-.3 1.1-.7 1.5-.5.5-1.1.8-1.8.8h-1.9v3.6c0 .3-.2.5-.5.7 0 .1-.1.1-.2.1zM15 7.7h13c.2 0 .5.2.5.7v6.9c0 .3-.4.9-1 1h-2.1c-.7 0-1.3.6-1.3 1.3v2l-3.2-3h-.1c-.3-.2-.6-.3-.9-.3h-5c-.6 0-1-.4-1-1V8.5c.1-.5.5-.8 1.1-.8zm-9.1 9.5c-.3-.1-.4-.4-.4-.7v-3.4s-.1-.1-.2-.1H2.1C1 13 0 12 0 10.8V2.2C0 1 1 0 2.1 0h16.8C20 0 21 1 21 2.2v4.1h-1.5V2.2c0-.4-.3-.7-.6-.7H2.1c-.3 0-.6.3-.6.7v8.6c0 .5.3.8.6.8h3.2c.8 0 1.7.6 1.7 1.4v1.8l3.5-3.1c.1-.1.3-.2.5-.2h1.5v1.4h-1.2l-4.5 4c-.3.3-.6.4-.9.3z\" fill=\"#fff\"/></g></mask><g mask=\"url(#action-chat-line-b)\"><path d=\"M-9-14h48v48H-9v-48z\" fill=\"#111\"/></g></g></svg>"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"action-chat-line-Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"\r\n\t x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\" style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"action-chat-line-a_1_\" style=\"fill:#111111;\" d=\"M33.9,36c-0.2,0-0.4-0.1-0.5-0.2L29,31.7h-5c-1.4,0-2.5-1-2.5-2.4v-6.8\r\n\tc0-1.3,1.1-2.3,2.5-2.3h13c1,0,2,0.8,2,2.2v6.9c0,0.5-0.3,1.1-0.7,1.5c-0.5,0.5-1.1,0.8-1.8,0.8h-1.9v3.6c0,0.3-0.2,0.5-0.5,0.7\r\n\tC34.1,36,34,36,33.9,36z M24,21.7h13c0.2,0,0.5,0.2,0.5,0.7v6.9c0,0.3-0.4,0.9-1,1h-2.1c-0.7,0-1.3,0.6-1.3,1.3v2l-3.2-3h-0.1\r\n\tc-0.3-0.2-0.6-0.3-0.9-0.3h-5c-0.6,0-1-0.4-1-1v-6.8C23,22,23.4,21.7,24,21.7z M14.9,31.2c-0.3-0.1-0.4-0.4-0.4-0.7v-3.4\r\n\tc0,0-0.1-0.1-0.2-0.1h-3.2C10,27,9,26,9,24.8v-8.6C9,15,10,14,11.1,14h16.8c1.1,0,2.1,1,2.1,2.2v4.1h-1.5v-4.1\r\n\tc0-0.4-0.3-0.7-0.6-0.7H11.1c-0.3,0-0.6,0.3-0.6,0.7v8.6c0,0.5,0.3,0.8,0.6,0.8h3.2c0.8,0,1.7,0.6,1.7,1.4v1.8l3.5-3.1\r\n\tc0.1-0.1,0.3-0.2,0.5-0.2h1.5v1.4h-1.2l-4.5,4C15.5,31.2,15.2,31.3,14.9,31.2z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "vfeN":
 /***/ (function(module, exports) {
 
-module.exports = "<svg id=\"icon_x2F_Utility_x2F_lock-Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 48 48\" enable-background=\"new 0 0 48 48\"><title>icon/Utility/lock</title><g id=\"icon_x2F_Utility_x2F_lock-Symbols\"><g id=\"icon_x2F_Utility_x2F_lock\"><g id=\"icon_x2F_Utility_x2F_lock-Icon\" transform=\"translate(14 11)\"><g id=\"icon_x2F_Utility_x2F_lock-Mask\"><path id=\"icon_x2F_Utility_x2F_lock-path-1_1_\" d=\"M17 10h1c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H2c-1.1 0-2-.9-2-2V12c0-1.1.9-2 2-2h1V7c0-3.9 3.1-7 7-7s7 3.1 7 7v3zm-3 0V7c0-2.2-1.8-4-4-4S6 4.8 6 7v3h8z\" fill=\"#384048\"/></g><defs><filter id=\"icon_x2F_Utility_x2F_lock-Adobe_OpacityMaskFilter\" filterUnits=\"userSpaceOnUse\" x=\"-14\" y=\"-11\" width=\"48\" height=\"48\"><feColorMatrix values=\"1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0\"/></filter></defs><mask maskUnits=\"userSpaceOnUse\" x=\"-14\" y=\"-11\" width=\"48\" height=\"48\" id=\"icon_x2F_Utility_x2F_lock-mask-2\"><g filter=\"url(#icon_x2F_Utility_x2F_lock-Adobe_OpacityMaskFilter)\"><path id=\"icon_x2F_Utility_x2F_lock-path-1\" d=\"M17 10h1c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H2c-1.1 0-2-.9-2-2V12c0-1.1.9-2 2-2h1V7c0-3.9 3.1-7 7-7s7 3.1 7 7v3zm-3 0V7c0-2.2-1.8-4-4-4S6 4.8 6 7v3h8z\" fill=\"#fff\"/></g></mask><g id=\"icon_x2F_Utility_x2F_lock-Color_x2F_Grayscale_x2F_Night-Sky\" mask=\"url(#icon_x2F_Utility_x2F_lock-mask-2)\"><path fill=\"#111\" d=\"M0 0h48v48H0z\" transform=\"translate(-14 -11)\" id=\"icon_x2F_Utility_x2F_lock-Swatch\"/></g></g></g></g></svg>"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"icon_x2F_Utility_x2F_lock-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"icon_x2F_Utility_x2F_lock-path-1_1_\" style=\"fill:#111111;\" d=\"M31,21h1c1.1,0,2,0.9,2,2v12c0,1.1-0.9,2-2,2H16\r\n\tc-1.1,0-2-0.9-2-2V23c0-1.1,0.9-2,2-2h1v-3c0-3.9,3.1-7,7-7s7,3.1,7,7V21z M28,21v-3c0-2.2-1.8-4-4-4s-4,1.8-4,4v3H28z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "vtId":
 /***/ (function(module, exports) {
 
-module.exports = "<svg id=\"icon_x2F_Alert_x2F_information-Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 48 48\" enable-background=\"new 0 0 48 48\"><title>icon/Alert/information</title><g id=\"icon_x2F_Alert_x2F_information-Symbols\"><g id=\"icon_x2F_Alert_x2F_information\"><g id=\"icon_x2F_Alert_x2F_information-Icon\" transform=\"translate(12 12)\"><g id=\"icon_x2F_Alert_x2F_information-Mask\"><path id=\"icon_x2F_Alert_x2F_information-path-1_1_\" d=\"M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.6 0 12 0zm.7 17.6c0 .4-.3.7-.7.7s-.7-.3-.7-.7V8.2c0-.4.3-.7.7-.7s.7.3.7.7v9.4zm-.7-11c-.5 0-.9-.4-.9-.9s.4-.9.9-.9.9.4.9.9-.4.9-.9.9z\" fill=\"#384048\"/></g><defs><filter id=\"icon_x2F_Alert_x2F_information-Adobe_OpacityMaskFilter\" filterUnits=\"userSpaceOnUse\" x=\"-12\" y=\"-12\" width=\"48\" height=\"48\"><feColorMatrix values=\"1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0\"/></filter></defs><mask maskUnits=\"userSpaceOnUse\" x=\"-12\" y=\"-12\" width=\"48\" height=\"48\" id=\"icon_x2F_Alert_x2F_information-mask-2\"><g filter=\"url(#icon_x2F_Alert_x2F_information-Adobe_OpacityMaskFilter)\"><path id=\"icon_x2F_Alert_x2F_information-path-1\" d=\"M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.6 0 12 0zm.7 17.6c0 .4-.3.7-.7.7s-.7-.3-.7-.7V8.2c0-.4.3-.7.7-.7s.7.3.7.7v9.4zm-.7-11c-.5 0-.9-.4-.9-.9s.4-.9.9-.9.9.4.9.9-.4.9-.9.9z\" fill=\"#fff\"/></g></mask><g id=\"icon_x2F_Alert_x2F_information-Color_x2F_Messaging_x2F_Neutral\" mask=\"url(#icon_x2F_Alert_x2F_information-mask-2)\"><path fill=\"#056b9e\" d=\"M0 0h48v48H0z\" transform=\"translate(-12 -12)\" id=\"icon_x2F_Alert_x2F_information-Swatch\"/></g></g></g></g></svg>"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"icon_x2F_Alert_x2F_information-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"icon_x2F_Alert_x2F_information-path-1_1_\" style=\"fill:#056B9E;\" d=\"M24,12c-6.6,0-12,5.4-12,12s5.4,12,12,12\r\n\ts12-5.4,12-12S30.6,12,24,12z M24.7,29.6c0,0.4-0.3,0.7-0.7,0.7s-0.7-0.3-0.7-0.7v-9.4c0-0.4,0.3-0.7,0.7-0.7s0.7,0.3,0.7,0.7\r\n\tC24.7,20.2,24.7,29.6,24.7,29.6z M24,18.6c-0.5,0-0.9-0.4-0.9-0.9s0.4-0.9,0.9-0.9s0.9,0.4,0.9,0.9S24.5,18.6,24,18.6z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "wGGi":
 /***/ (function(module, exports) {
 
-module.exports = "<svg id=\"action-settings-Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 48 48\" enable-background=\"new 0 0 48 48\"><title>icon/Action/settings</title><g transform=\"translate(12 12)\"><path id=\"action-settings-a_1_\" d=\"M23.7 10.7c-.1-.9-.6-1.4-1.5-1.5h-1.4c-.2 0-.2-.1-.3-.2 0-.1-.1-.2-.1-.3-.1-.3-.2-.6-.4-.9-.1-.1-.1-.2.1-.4l.4-.4.6-.6c.5-.6.5-1.4-.1-2l-1.8-1.8c-.3-.3-.6-.4-1-.4-.3 0-.7.1-.9.4-.1.1-.3.3-.5.4-.2.2-.5.4-.7.5-.1.1-.1.1-.2.1h-.1c-.4-.1-.8-.3-1.3-.5-.1 0-.1 0-.1-.2v-.4-1c.1-.9-.5-1.5-1.3-1.5h-2.5c-.8 0-1.4.6-1.4 1.5 0 .4 0 1-.1 1.4 0 .1-.1.2-.2.2l-.3.2-.9.3h-.1s-.1 0-.2-.1c-.3-.3-.7-.7-1-.9-.3-.2-.6-.3-.9-.4-.4 0-.7.2-1 .4-.6.7-1.2 1.3-1.8 1.9-.6.6-.6 1.3-.1 2 .2.1.4.3.5.5l.4.4c.1.2.1.2.1.3-.1.3-.3.7-.4 1l-.1.3c-.1.1-.1.2-.3.2H1.4c-.8.1-1.4.6-1.4 1.5v2.4c0 .9.6 1.5 1.5 1.5h1.3c.2 0 .2.1.2.2l.1.3c.1.3.3.6.4.9.1.1.1.2-.1.4l-.2.2c-.2.3-.5.6-.7.8-.5.6-.5 1.4.1 1.9l1.8 1.8c.3.3.6.4 1 .4.3 0 .7-.1.9-.4.4-.3.8-.8 1-.9.1-.1.1-.1.2-.1h.1c.5.2.9.4 1.3.6 0 0 .1 0 .1.2v1.5c0 .8.6 1.4 1.4 1.4H13c.8 0 1.3-.6 1.4-1.4 0-.4.1-1 .1-1.4 0-.2 0-.2.2-.3l.4-.2c.3-.1.5-.2.8-.3h.1s.1 0 .2.1c.3.3.6.6.9.8.3.3.7.5 1.1.5.4 0 .7-.1.9-.4l1.8-1.8c.6-.6.5-1.4-.1-2.1-.1-.2-.3-.3-.4-.5l-.4-.4c-.1-.1-.1-.2-.1-.3.2-.4.3-.8.5-1.2.1-.1.1-.2.3-.2H22.1c.8-.1 1.4-.6 1.4-1.4 0-.3 0-.6.1-.9V12c.2 0 .1-1.3.1-1.3zm-11.8 5.8c-2.5 0-4.6-2.1-4.6-4.6s2-4.6 4.6-4.6 4.6 2.1 4.6 4.6-2.1 4.6-4.6 4.6z\" fill=\"#384048\"/><defs><filter id=\"action-settings-Adobe_OpacityMaskFilter\" filterUnits=\"userSpaceOnUse\" x=\"-12\" y=\"-12\" width=\"48\" height=\"48\"><feColorMatrix values=\"1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0\"/></filter></defs><mask maskUnits=\"userSpaceOnUse\" x=\"-12\" y=\"-12\" width=\"48\" height=\"48\" id=\"action-settings-b\"><g filter=\"url(#action-settings-Adobe_OpacityMaskFilter)\"><path id=\"action-settings-a\" d=\"M23.7 10.7c-.1-.9-.6-1.4-1.5-1.5h-1.4c-.2 0-.2-.1-.3-.2 0-.1-.1-.2-.1-.3-.1-.3-.2-.6-.4-.9-.1-.1-.1-.2.1-.4l.4-.4.6-.6c.5-.6.5-1.4-.1-2l-1.8-1.8c-.3-.3-.6-.4-1-.4-.3 0-.7.1-.9.4-.1.1-.3.3-.5.4-.2.2-.5.4-.7.5-.1.1-.1.1-.2.1h-.1c-.4-.1-.8-.3-1.3-.5-.1 0-.1 0-.1-.2v-.4-1c.1-.9-.5-1.5-1.3-1.5h-2.5c-.8 0-1.4.6-1.4 1.5 0 .4 0 1-.1 1.4 0 .1-.1.2-.2.2l-.3.2-.9.3h-.1s-.1 0-.2-.1c-.3-.3-.7-.7-1-.9-.3-.2-.6-.3-.9-.4-.4 0-.7.2-1 .4-.6.7-1.2 1.3-1.8 1.9-.6.6-.6 1.3-.1 2 .2.1.4.3.5.5l.4.4c.1.2.1.2.1.3-.1.3-.3.7-.4 1l-.1.3c-.1.1-.1.2-.3.2H1.4c-.8.1-1.4.6-1.4 1.5v2.4c0 .9.6 1.5 1.5 1.5h1.3c.2 0 .2.1.2.2l.1.3c.1.3.3.6.4.9.1.1.1.2-.1.4l-.2.2c-.2.3-.5.6-.7.8-.5.6-.5 1.4.1 1.9l1.8 1.8c.3.3.6.4 1 .4.3 0 .7-.1.9-.4.4-.3.8-.8 1-.9.1-.1.1-.1.2-.1h.1c.5.2.9.4 1.3.6 0 0 .1 0 .1.2v1.5c0 .8.6 1.4 1.4 1.4H13c.8 0 1.3-.6 1.4-1.4 0-.4.1-1 .1-1.4 0-.2 0-.2.2-.3l.4-.2c.3-.1.5-.2.8-.3h.1s.1 0 .2.1c.3.3.6.6.9.8.3.3.7.5 1.1.5.4 0 .7-.1.9-.4l1.8-1.8c.6-.6.5-1.4-.1-2.1-.1-.2-.3-.3-.4-.5l-.4-.4c-.1-.1-.1-.2-.1-.3.2-.4.3-.8.5-1.2.1-.1.1-.2.3-.2H22.1c.8-.1 1.4-.6 1.4-1.4 0-.3 0-.6.1-.9V12c.2 0 .1-1.3.1-1.3zm-11.8 5.8c-2.5 0-4.6-2.1-4.6-4.6s2-4.6 4.6-4.6 4.6 2.1 4.6 4.6-2.1 4.6-4.6 4.6z\" fill=\"#fff\"/></g></mask><g mask=\"url(#action-settings-b)\"><path d=\"M-12-12h48v48h-48v-48z\" fill=\"#111\"/></g></g></svg>"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"action-settings-Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"\r\n\t x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\" style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"action-settings-a_1_\" style=\"fill:#111111;\" d=\"M35.7,22.7c-0.1-0.9-0.6-1.4-1.5-1.5h-1.4c-0.2,0-0.2-0.1-0.3-0.2\r\n\tc0-0.1-0.1-0.2-0.1-0.3c-0.1-0.3-0.2-0.6-0.4-0.9c-0.1-0.1-0.1-0.2,0.1-0.4l0.4-0.4l0.6-0.6c0.5-0.6,0.5-1.4-0.1-2l-1.8-1.8\r\n\tc-0.3-0.3-0.6-0.4-1-0.4c-0.3,0-0.7,0.1-0.9,0.4c-0.1,0.1-0.3,0.3-0.5,0.4c-0.2,0.2-0.5,0.4-0.7,0.5c-0.1,0.1-0.1,0.1-0.2,0.1h-0.1\r\n\tc-0.4-0.1-0.8-0.3-1.3-0.5c-0.1,0-0.1,0-0.1-0.2v-0.4v-1c0.1-0.9-0.5-1.5-1.3-1.5h-2.5c-0.8,0-1.4,0.6-1.4,1.5c0,0.4,0,1-0.1,1.4\r\n\tc0,0.1-0.1,0.2-0.2,0.2l-0.3,0.2l-0.9,0.3h-0.1c0,0-0.1,0-0.2-0.1c-0.3-0.3-0.7-0.7-1-0.9c-0.3-0.2-0.6-0.3-0.9-0.4\r\n\tc-0.4,0-0.7,0.2-1,0.4c-0.6,0.7-1.2,1.3-1.8,1.9c-0.6,0.6-0.6,1.3-0.1,2c0.2,0.1,0.4,0.3,0.5,0.5l0.4,0.4c0.1,0.2,0.1,0.2,0.1,0.3\r\n\tc-0.1,0.3-0.3,0.7-0.4,1L15.1,21c-0.1,0.1-0.1,0.2-0.3,0.2h-1.4c-0.8,0.1-1.4,0.6-1.4,1.5v2.4c0,0.9,0.6,1.5,1.5,1.5h1.3\r\n\tc0.2,0,0.2,0.1,0.2,0.2l0.1,0.3c0.1,0.3,0.3,0.6,0.4,0.9c0.1,0.1,0.1,0.2-0.1,0.4l-0.2,0.2c-0.2,0.3-0.5,0.6-0.7,0.8\r\n\tC14,30,14,30.8,14.6,31.3l1.8,1.8c0.3,0.3,0.6,0.4,1,0.4c0.3,0,0.7-0.1,0.9-0.4c0.4-0.3,0.8-0.8,1-0.9c0.1-0.1,0.1-0.1,0.2-0.1h0.1\r\n\tc0.5,0.2,0.9,0.4,1.3,0.6c0,0,0.1,0,0.1,0.2v1.5c0,0.8,0.6,1.4,1.4,1.4H25c0.8,0,1.3-0.6,1.4-1.4c0-0.4,0.1-1,0.1-1.4\r\n\tc0-0.2,0-0.2,0.2-0.3l0.4-0.2c0.3-0.1,0.5-0.2,0.8-0.3H28c0,0,0.1,0,0.2,0.1c0.3,0.3,0.6,0.6,0.9,0.8c0.3,0.3,0.7,0.5,1.1,0.5\r\n\ts0.7-0.1,0.9-0.4l1.8-1.8c0.6-0.6,0.5-1.4-0.1-2.1c-0.1-0.2-0.3-0.3-0.4-0.5L32,28.4c-0.1-0.1-0.1-0.2-0.1-0.3\r\n\tc0.2-0.4,0.3-0.8,0.5-1.2c0.1-0.1,0.1-0.2,0.3-0.2h1.4c0.8-0.1,1.4-0.6,1.4-1.4c0-0.3,0-0.6,0.1-0.9V24C35.8,24,35.7,22.7,35.7,22.7\r\n\tz M23.9,28.5c-2.5,0-4.6-2.1-4.6-4.6s2-4.6,4.6-4.6s4.6,2.1,4.6,4.6S26.4,28.5,23.9,28.5z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
@@ -14036,49 +14147,49 @@ module.exports = "<svg id=\"payment-card-paypal-Layer_1\" xmlns=\"http://www.w3.
 /***/ "wdiq":
 /***/ (function(module, exports) {
 
-module.exports = "<svg id=\"new-googleplus-line-Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 48 48\"><g id=\"new-googleplus-line-Mask\"><path id=\"new-googleplus-line-path-1_1_\" d=\"M24.6 25.3c-1.6-1.2-2-1.9-.5-3.1.9-.7 1.5-1.6 1.5-2.7 0-1.2-.5-2.3-1.4-2.9h1.3l1.1-1.1h-5.1c-3.2 0-4.7 1.9-4.7 4s1.5 3.8 4.3 3.8c-.4.9-.3 1.7.5 2.3-4.9 0-5.9 2.1-5.9 3.8 0 2.1 2.4 3.4 5.4 3.4 4 0 5.6-2.1 5.6-3.9 0-1.4-.5-2.4-2.1-3.6zm-5.8-5.8c-.2-1.8.7-3.2 2-3.1 1.4 0 2.5 1.5 2.8 3.3.2 1.8-.5 2.9-1.9 2.9-1.4-.1-2.7-1.4-2.9-3.1m2.3 12.3c-2 0-3.5-1.3-3.5-2.8 0-1.5 1.7-2.8 3.8-2.8 2.3 0 3.6 1.4 3.6 2.9s-1.3 2.7-3.9 2.7m9.2-9.1v-1.9h-1.2v1.9h-1.9v1.2h1.9v2h1.2v-2h2v-1.2h-2\" fill=\"#111\"/></g><g id=\"new-googleplus-line-Mask_1_\"><path id=\"new-googleplus-line-path-1_2_\" d=\"M24 8c8.8 0 16 7.2 16 16s-7.2 16-16 16S8 32.8 8 24 15.2 8 24 8zm0 30.2c7.8 0 14.2-6.3 14.2-14.2S31.8 9.8 24 9.8 9.8 16.2 9.8 24 16.2 38.2 24 38.2z\" fill=\"#111\"/></g></svg>"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"new-googleplus-line-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"new-googleplus-line-path-1_1_\" style=\"fill:#111111;\" d=\"M24.6,25.3c-1.6-1.2-2-1.9-0.5-3.1c0.9-0.7,1.5-1.6,1.5-2.7\r\n\tc0-1.2-0.5-2.3-1.4-2.9h1.3l1.1-1.1h-5.1c-3.2,0-4.7,1.9-4.7,4s1.5,3.8,4.3,3.8c-0.4,0.9-0.3,1.7,0.5,2.3c-4.9,0-5.9,2.1-5.9,3.8\r\n\tc0,2.1,2.4,3.4,5.4,3.4c4,0,5.6-2.1,5.6-3.9C26.7,27.5,26.2,26.5,24.6,25.3z M18.8,19.5c-0.2-1.8,0.7-3.2,2-3.1\r\n\tc1.4,0,2.5,1.5,2.8,3.3c0.2,1.8-0.5,2.9-1.9,2.9C20.3,22.5,19,21.2,18.8,19.5 M21.1,31.8c-2,0-3.5-1.3-3.5-2.8s1.7-2.8,3.8-2.8\r\n\tc2.3,0,3.6,1.4,3.6,2.9S23.7,31.8,21.1,31.8 M30.3,22.7v-1.9h-1.2v1.9h-1.9v1.2h1.9v2h1.2v-2h2v-1.2H30.3\"/>\r\n<path id=\"new-googleplus-line-path-1_2_\" style=\"fill:#111111;\" d=\"M24,8c8.8,0,16,7.2,16,16s-7.2,16-16,16S8,32.8,8,24S15.2,8,24,8\r\n\tz M24,38.2c7.8,0,14.2-6.3,14.2-14.2S31.8,9.8,24,9.8S9.8,16.2,9.8,24S16.2,38.2,24,38.2z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "whDz":
 /***/ (function(module, exports) {
 
-module.exports = "<svg id=\"icon_x2F_Social_x2F_twitter-line-Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 48 48\" enable-background=\"new 0 0 48 48\"><title>icon/Social/twitter-line</title><g id=\"icon_x2F_Social_x2F_twitter-line-Symbols\"><g id=\"icon_x2F_Social_x2F_twitter-line\"><g id=\"icon_x2F_Social_x2F_twitter-line-Icon\" transform=\"translate(8 8)\"><g id=\"icon_x2F_Social_x2F_twitter-line-Mask\"><path id=\"icon_x2F_Social_x2F_twitter-line-path-1_1_\" d=\"M16 0c8.8 0 16 7.2 16 16s-7.2 16-16 16S0 24.8 0 16 7.2 0 16 0zm0 30.2c7.8 0 14.2-6.3 14.2-14.2S23.8 1.8 16 1.8 1.8 8.2 1.8 16 8.2 30.2 16 30.2zm7.8-19.4c.8-.1 1.6-.3 2.3-.6-.5.8-1.2 1.5-2 2.1v.5c0 5.3-4.1 11.5-11.5 11.5-2.3 0-4.4-.7-6.2-1.8.3 0 .6.1 1 .1 1.9 0 3.6-.6 5-1.7-1.8 0-3.3-1.2-3.8-2.8.3-.1.5-.1.8-.1.4 0 .7 0 1.1-.1-1.8-.4-3.2-2-3.2-4v-.1c.5.3 1.2.5 1.8.5-1.1-.7-1.8-2-1.8-3.4 0-.7.2-1.4.5-2 2 2.4 5 4.1 8.3 4.2-.1-.2-.1-.5-.1-.8 0-2.2 1.8-4 4-4 1.2 0 2.2.5 2.9 1.3.9-.2 1.8-.5 2.6-1-.3.9-.9 1.7-1.7 2.2z\" fill=\"#384048\"/></g><defs><filter id=\"icon_x2F_Social_x2F_twitter-line-Adobe_OpacityMaskFilter\" filterUnits=\"userSpaceOnUse\" x=\"-8\" y=\"-8\" width=\"48\" height=\"48\"><feColorMatrix values=\"1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0\"/></filter></defs><mask maskUnits=\"userSpaceOnUse\" x=\"-8\" y=\"-8\" width=\"48\" height=\"48\" id=\"icon_x2F_Social_x2F_twitter-line-mask-2\"><g filter=\"url(#icon_x2F_Social_x2F_twitter-line-Adobe_OpacityMaskFilter)\"><path id=\"icon_x2F_Social_x2F_twitter-line-path-1\" d=\"M16 0c8.8 0 16 7.2 16 16s-7.2 16-16 16S0 24.8 0 16 7.2 0 16 0zm0 30.2c7.8 0 14.2-6.3 14.2-14.2S23.8 1.8 16 1.8 1.8 8.2 1.8 16 8.2 30.2 16 30.2zm7.8-19.4c.8-.1 1.6-.3 2.3-.6-.5.8-1.2 1.5-2 2.1v.5c0 5.3-4.1 11.5-11.5 11.5-2.3 0-4.4-.7-6.2-1.8.3 0 .6.1 1 .1 1.9 0 3.6-.6 5-1.7-1.8 0-3.3-1.2-3.8-2.8.3-.1.5-.1.8-.1.4 0 .7 0 1.1-.1-1.8-.4-3.2-2-3.2-4v-.1c.5.3 1.2.5 1.8.5-1.1-.7-1.8-2-1.8-3.4 0-.7.2-1.4.5-2 2 2.4 5 4.1 8.3 4.2-.1-.2-.1-.5-.1-.8 0-2.2 1.8-4 4-4 1.2 0 2.2.5 2.9 1.3.9-.2 1.8-.5 2.6-1-.3.9-.9 1.7-1.7 2.2z\" fill=\"#fff\"/></g></mask><g id=\"icon_x2F_Social_x2F_twitter-line-Color_x2F_Grayscale_x2F_Night-Sky\" mask=\"url(#icon_x2F_Social_x2F_twitter-line-mask-2)\"><path fill=\"#111\" d=\"M0 0h48v48H0z\" transform=\"translate(-8 -8)\" id=\"icon_x2F_Social_x2F_twitter-line-Swatch\"/></g></g></g></g></svg>"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"icon_x2F_Social_x2F_twitter-line-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"icon_x2F_Social_x2F_twitter-line-path-1_1_\" style=\"fill:#111111;\" d=\"M24,8c8.8,0,16,7.2,16,16s-7.2,16-16,16\r\n\tS8,32.8,8,24S15.2,8,24,8z M24,38.2c7.8,0,14.2-6.3,14.2-14.2S31.8,9.8,24,9.8S9.8,16.2,9.8,24S16.2,38.2,24,38.2z M31.8,18.8\r\n\tc0.8-0.1,1.6-0.3,2.3-0.6c-0.5,0.8-1.2,1.5-2,2.1v0.5c0,5.3-4.1,11.5-11.5,11.5c-2.3,0-4.4-0.7-6.2-1.8c0.3,0,0.6,0.1,1,0.1\r\n\tc1.9,0,3.6-0.6,5-1.7c-1.8,0-3.3-1.2-3.8-2.8c0.3-0.1,0.5-0.1,0.8-0.1c0.4,0,0.7,0,1.1-0.1c-1.8-0.4-3.2-2-3.2-4v-0.1\r\n\tc0.5,0.3,1.2,0.5,1.8,0.5c-1.1-0.7-1.8-2-1.8-3.4c0-0.7,0.2-1.4,0.5-2c2,2.4,5,4.1,8.3,4.2C24,20.9,24,20.6,24,20.3c0-2.2,1.8-4,4-4\r\n\tc1.2,0,2.2,0.5,2.9,1.3c0.9-0.2,1.8-0.5,2.6-1C33.2,17.5,32.6,18.3,31.8,18.8z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "wvPr":
 /***/ (function(module, exports) {
 
-module.exports = "<svg id=\"icon_x2F_Service_x2F_coupon-fill-Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 48 48\" enable-background=\"new 0 0 48 48\"><title>icon/Service/coupon-fill</title><g id=\"icon_x2F_Service_x2F_coupon-fill-Symbols\"><g id=\"icon_x2F_Service_x2F_coupon-fill\"><g id=\"icon_x2F_Service_x2F_coupon-fill-Icon\" transform=\"translate(13 12)\"><g id=\"icon_x2F_Service_x2F_coupon-fill-Mask\"><path id=\"icon_x2F_Service_x2F_coupon-fill-path-1_1_\" d=\"M8.1.9c0-.5-.4-.9-.9-.9H.9C.4 0 0 .4 0 .9v22.2c0 .5.4.9.9.9H21c.5 0 .9-.4.9-.9V.9c.1-.5-.3-.9-.8-.9h-6.4c-.5 0-.9.4-.9.9 0 1.5-1.3 2.7-2.8 2.7-1.6 0-2.9-1.2-2.9-2.7zm2.1 12.8l4.2-5.6h1.8l-4.9 6.4-4.2 5.6H5.4l4.8-6.4zm4.3 5.2c-.8 0-1.4-.8-1.4-1.7 0-.9.5-1.7 1.3-1.7s1.4.8 1.4 1.7c.1.9-.4 1.7-1.3 1.7zM7 14.1c-1.7 0-2.9-1.4-2.9-3C4.1 9.4 5.3 8 7 8s3 1.3 3 3-1.2 3.1-3 3.1zm0-4.8c.8 0 1.4.8 1.4 1.7 0 .9-.5 1.7-1.3 1.7s-1.4-.8-1.4-1.7c0-1 .5-1.7 1.3-1.7zm7.5 10.9c-1.7 0-2.9-1.4-2.9-3 0-1.7 1.2-3.1 2.9-3.1s2.9 1.4 2.9 3c0 1.7-1.1 3.1-2.9 3.1z\" fill=\"#384048\"/></g><defs><filter id=\"icon_x2F_Service_x2F_coupon-fill-Adobe_OpacityMaskFilter\" filterUnits=\"userSpaceOnUse\" x=\"-13\" y=\"-12\" width=\"48\" height=\"48\"><feColorMatrix values=\"1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0\"/></filter></defs><mask maskUnits=\"userSpaceOnUse\" x=\"-13\" y=\"-12\" width=\"48\" height=\"48\" id=\"icon_x2F_Service_x2F_coupon-fill-mask-2\"><g filter=\"url(#icon_x2F_Service_x2F_coupon-fill-Adobe_OpacityMaskFilter)\"><path id=\"icon_x2F_Service_x2F_coupon-fill-path-1\" d=\"M8.1.9c0-.5-.4-.9-.9-.9H.9C.4 0 0 .4 0 .9v22.2c0 .5.4.9.9.9H21c.5 0 .9-.4.9-.9V.9c.1-.5-.3-.9-.8-.9h-6.4c-.5 0-.9.4-.9.9 0 1.5-1.3 2.7-2.8 2.7-1.6 0-2.9-1.2-2.9-2.7zm2.1 12.8l4.2-5.6h1.8l-4.9 6.4-4.2 5.6H5.4l4.8-6.4zm4.3 5.2c-.8 0-1.4-.8-1.4-1.7 0-.9.5-1.7 1.3-1.7s1.4.8 1.4 1.7c.1.9-.4 1.7-1.3 1.7zM7 14.1c-1.7 0-2.9-1.4-2.9-3C4.1 9.4 5.3 8 7 8s3 1.3 3 3-1.2 3.1-3 3.1zm0-4.8c.8 0 1.4.8 1.4 1.7 0 .9-.5 1.7-1.3 1.7s-1.4-.8-1.4-1.7c0-1 .5-1.7 1.3-1.7zm7.5 10.9c-1.7 0-2.9-1.4-2.9-3 0-1.7 1.2-3.1 2.9-3.1s2.9 1.4 2.9 3c0 1.7-1.1 3.1-2.9 3.1z\" fill=\"#fff\"/></g></mask><g id=\"icon_x2F_Service_x2F_coupon-fill-Color_x2F_Grayscale_x2F_Night-Sky\" mask=\"url(#icon_x2F_Service_x2F_coupon-fill-mask-2)\"><path fill=\"#111\" d=\"M0 0h48v48H0z\" transform=\"translate(-13 -12)\" id=\"icon_x2F_Service_x2F_coupon-fill-Swatch\"/></g></g></g></g></svg>"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"icon_x2F_Service_x2F_coupon-fill-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"icon_x2F_Service_x2F_coupon-fill-path-1_1_\" style=\"fill:#111111;\" d=\"M21.1,12.9c0-0.5-0.4-0.9-0.9-0.9h-6.3\r\n\tc-0.5,0-0.9,0.4-0.9,0.9v22.2c0,0.5,0.4,0.9,0.9,0.9H34c0.5,0,0.9-0.4,0.9-0.9V12.9c0.1-0.5-0.3-0.9-0.8-0.9h-6.4\r\n\tc-0.5,0-0.9,0.4-0.9,0.9c0,1.5-1.3,2.7-2.8,2.7C22.4,15.6,21.1,14.4,21.1,12.9z M23.2,25.7l4.2-5.6h1.8l-4.9,6.4l-4.2,5.6h-1.7\r\n\tC18.4,32.1,23.2,25.7,23.2,25.7z M27.5,30.9c-0.8,0-1.4-0.8-1.4-1.7c0-0.9,0.5-1.7,1.3-1.7s1.4,0.8,1.4,1.7\r\n\tC28.9,30.1,28.4,30.9,27.5,30.9z M20,26.1c-1.7,0-2.9-1.4-2.9-3c0-1.7,1.2-3.1,2.9-3.1s3,1.3,3,3S21.8,26.1,20,26.1z M20,21.3\r\n\tc0.8,0,1.4,0.8,1.4,1.7s-0.5,1.7-1.3,1.7c-0.8,0-1.4-0.8-1.4-1.7C18.7,22,19.2,21.3,20,21.3z M27.5,32.2c-1.7,0-2.9-1.4-2.9-3\r\n\tc0-1.7,1.2-3.1,2.9-3.1s2.9,1.4,2.9,3C30.4,30.8,29.3,32.2,27.5,32.2z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "xFKG":
 /***/ (function(module, exports) {
 
-module.exports = "<svg id=\"icon_x2F_Nav_x2F_chevron-up-Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 48 48\" enable-background=\"new 0 0 48 48\"><title>icon/Nav/chevron-up</title><g id=\"icon_x2F_Nav_x2F_chevron-up-Symbols\"><g id=\"icon_x2F_Nav_x2F_chevron-up\"><g id=\"icon_x2F_Nav_x2F_chevron-up-Icon\" transform=\"translate(11 17)\"><g id=\"icon_x2F_Nav_x2F_chevron-up-Mask\"><path id=\"icon_x2F_Nav_x2F_chevron-up-path-1_1_\" d=\"M24.3 13.7c.4.4 1 .4 1.4 0 .4-.4.4-1 0-1.4l-12-12c-.4-.4-1-.4-1.4 0l-12 12c-.4.4-.4 1 0 1.4.4.4 1 .4 1.4 0L13 2.4l11.3 11.3z\" fill=\"#384048\"/></g><defs><filter id=\"icon_x2F_Nav_x2F_chevron-up-Adobe_OpacityMaskFilter\" filterUnits=\"userSpaceOnUse\" x=\"-11\" y=\"-17\" width=\"48\" height=\"48\"><feColorMatrix values=\"1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0\"/></filter></defs><mask maskUnits=\"userSpaceOnUse\" x=\"-11\" y=\"-17\" width=\"48\" height=\"48\" id=\"icon_x2F_Nav_x2F_chevron-up-mask-2\"><g filter=\"url(#icon_x2F_Nav_x2F_chevron-up-Adobe_OpacityMaskFilter)\"><path id=\"icon_x2F_Nav_x2F_chevron-up-path-1\" d=\"M24.3 13.7c.4.4 1 .4 1.4 0 .4-.4.4-1 0-1.4l-12-12c-.4-.4-1-.4-1.4 0l-12 12c-.4.4-.4 1 0 1.4.4.4 1 .4 1.4 0L13 2.4l11.3 11.3z\" fill=\"#fff\"/></g></mask><g id=\"icon_x2F_Nav_x2F_chevron-up-Color_x2F_Grayscale_x2F_Night-Sky\" mask=\"url(#icon_x2F_Nav_x2F_chevron-up-mask-2)\"><path fill=\"#111\" d=\"M0 0h48v48H0z\" transform=\"translate(-11 -17)\" id=\"icon_x2F_Nav_x2F_chevron-up-Swatch\"/></g></g></g></g></svg>"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"icon_x2F_Nav_x2F_chevron-up-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"icon_x2F_Nav_x2F_chevron-up-path-1_1_\" style=\"fill:#111111;\" d=\"M35.3,30.7c0.4,0.4,1,0.4,1.4,0c0.4-0.4,0.4-1,0-1.4\r\n\tl-12-12c-0.4-0.4-1-0.4-1.4,0l-12,12c-0.4,0.4-0.4,1,0,1.4c0.4,0.4,1,0.4,1.4,0L24,19.4C24,19.4,35.3,30.7,35.3,30.7z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "xRug":
 /***/ (function(module, exports) {
 
-module.exports = "<svg id=\"icon_x2F_Utility_x2F_Calendar_x2F_schedule-appt-Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 48 48\" enable-background=\"new 0 0 48 48\"><title>icon/Utility/Calendar/schedule-appt</title><g id=\"icon_x2F_Utility_x2F_Calendar_x2F_schedule-appt-Symbols\"><g id=\"icon_x2F_Utility_x2F_Calendar_x2F_schedule-appt\"><g id=\"icon_x2F_Utility_x2F_Calendar_x2F_schedule-appt-Icon\" transform=\"translate(9 9)\"><g id=\"icon_x2F_Utility_x2F_Calendar_x2F_schedule-appt-Mask\"><path id=\"icon_x2F_Utility_x2F_Calendar_x2F_schedule-appt-path-1_1_\" d=\"M7.8 2.8H17V0h1.1v2.8H25v12l-1.1-.3V3.9h-5.7v2.9H17V3.9H7.8v2.9H6.7V3.9H1.1v22h13.5l.6 1.1H0V2.8h6.7V0h1.1v2.8zM22.6 30c-4.1 0-7.4-3.2-7.4-7.2s3.3-7.2 7.4-7.2 7.4 3.2 7.4 7.2-3.3 7.2-7.4 7.2zm0-13.2c-3.5 0-6.3 2.7-6.3 6.1s2.8 6.1 6.3 6.1 6.3-2.7 6.3-6.1-2.8-6.1-6.3-6.1zm2.9 6.7h-3.1l-3.1-3.6.8-.7 2.8 3.2h2.6v1.1zM9.2 9.1h1.2v1.1H9.2V9.1zm2.6 0H13v1.1h-1.2V9.1zm2.5 0h1.2v1.1h-1.2V9.1zm2.7 0h1.2v1.1H17V9.1zm2.5 0h1.2v1.1h-1.2V9.1zM4 11.9h1.2V13H4v-1.1zm2.6 0h1.2V13H6.6v-1.1zm2.6 0h1.2V13H9.2v-1.1zm2.6 0H13V13h-1.2v-1.1zm2.5 0h1.2V13h-1.2v-1.1zm2.7 0h1.2V13H17v-1.1zm2.5 0h1.2V13h-1.2v-1.1zM4 14.6h1.2v1.1H4v-1.1zm2.6 0h1.2v1.1H6.6v-1.1zm2.6 0h1.2v1.1H9.2v-1.1zm2.6 0H13v1.1h-1.2v-1.1zM4 17.4h1.2v1.1H4v-1.1zm2.6 0h1.2v1.1H6.6v-1.1zm2.6 0h1.2v1.1H9.2v-1.1zM4 20.1h1.2v1.1H4v-1.1zm2.6 0h1.2v1.1H6.6v-1.1zm2.6 0h1.2v1.1H9.2v-1.1zm2.6-2.7H13v1.1h-1.2v-1.1zm2.6 0h1.2v1.1h-1.2v-1.1zm-.1-2.8h1.2v1.1h-1.2v-1.1zm2.7 0h1.2v1.1H17v-1.1zm-5.3 5.5h1.2v1.1h-1.2v-1.1z\" fill=\"#384048\"/></g><defs><filter id=\"icon_x2F_Utility_x2F_Calendar_x2F_schedule-appt-Adobe_OpacityMaskFilter\" filterUnits=\"userSpaceOnUse\" x=\"-9\" y=\"-9\" width=\"48\" height=\"48\"><feColorMatrix values=\"1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0\"/></filter></defs><mask maskUnits=\"userSpaceOnUse\" x=\"-9\" y=\"-9\" width=\"48\" height=\"48\" id=\"icon_x2F_Utility_x2F_Calendar_x2F_schedule-appt-mask-2\"><g filter=\"url(#icon_x2F_Utility_x2F_Calendar_x2F_schedule-appt-Adobe_OpacityMaskFilter)\"><path id=\"icon_x2F_Utility_x2F_Calendar_x2F_schedule-appt-path-1\" d=\"M7.8 2.8H17V0h1.1v2.8H25v12l-1.1-.3V3.9h-5.7v2.9H17V3.9H7.8v2.9H6.7V3.9H1.1v22h13.5l.6 1.1H0V2.8h6.7V0h1.1v2.8zM22.6 30c-4.1 0-7.4-3.2-7.4-7.2s3.3-7.2 7.4-7.2 7.4 3.2 7.4 7.2-3.3 7.2-7.4 7.2zm0-13.2c-3.5 0-6.3 2.7-6.3 6.1s2.8 6.1 6.3 6.1 6.3-2.7 6.3-6.1-2.8-6.1-6.3-6.1zm2.9 6.7h-3.1l-3.1-3.6.8-.7 2.8 3.2h2.6v1.1zM9.2 9.1h1.2v1.1H9.2V9.1zm2.6 0H13v1.1h-1.2V9.1zm2.5 0h1.2v1.1h-1.2V9.1zm2.7 0h1.2v1.1H17V9.1zm2.5 0h1.2v1.1h-1.2V9.1zM4 11.9h1.2V13H4v-1.1zm2.6 0h1.2V13H6.6v-1.1zm2.6 0h1.2V13H9.2v-1.1zm2.6 0H13V13h-1.2v-1.1zm2.5 0h1.2V13h-1.2v-1.1zm2.7 0h1.2V13H17v-1.1zm2.5 0h1.2V13h-1.2v-1.1zM4 14.6h1.2v1.1H4v-1.1zm2.6 0h1.2v1.1H6.6v-1.1zm2.6 0h1.2v1.1H9.2v-1.1zm2.6 0H13v1.1h-1.2v-1.1zM4 17.4h1.2v1.1H4v-1.1zm2.6 0h1.2v1.1H6.6v-1.1zm2.6 0h1.2v1.1H9.2v-1.1zM4 20.1h1.2v1.1H4v-1.1zm2.6 0h1.2v1.1H6.6v-1.1zm2.6 0h1.2v1.1H9.2v-1.1zm2.6-2.7H13v1.1h-1.2v-1.1zm2.6 0h1.2v1.1h-1.2v-1.1zm-.1-2.8h1.2v1.1h-1.2v-1.1zm2.7 0h1.2v1.1H17v-1.1zm-5.3 5.5h1.2v1.1h-1.2v-1.1z\" fill=\"#fff\"/></g></mask><g id=\"icon_x2F_Utility_x2F_Calendar_x2F_schedule-appt-Color_x2F_Grayscale_x2F_Night-Sky\" mask=\"url(#icon_x2F_Utility_x2F_Calendar_x2F_schedule-appt-mask-2)\"><path fill=\"#111\" d=\"M0 0h48v48H0z\" transform=\"translate(-9 -9)\" id=\"icon_x2F_Utility_x2F_Calendar_x2F_schedule-appt-Swatch\"/></g></g></g></g></svg>"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"icon_x2F_Utility_x2F_Calendar_x2F_schedule-appt-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"icon_x2F_Utility_x2F_Calendar_x2F_schedule-appt-path-1_1_\" style=\"fill:#111111;\" d=\"M16.8,11.8H26V9h1.1v2.8H34v12\r\n\tl-1.1-0.3V12.9h-5.7v2.9H26v-2.9h-9.2v2.9h-1.1v-2.9h-5.6v22h13.5l0.6,1.1H9V11.8h6.7V9h1.1C16.8,9,16.8,11.8,16.8,11.8z M31.6,39\r\n\tc-4.1,0-7.4-3.2-7.4-7.2s3.3-7.2,7.4-7.2s7.4,3.2,7.4,7.2S35.7,39,31.6,39z M31.6,25.8c-3.5,0-6.3,2.7-6.3,6.1s2.8,6.1,6.3,6.1\r\n\ts6.3-2.7,6.3-6.1S35.1,25.8,31.6,25.8z M34.5,32.5h-3.1l-3.1-3.6l0.8-0.7l2.8,3.2h2.6C34.5,31.4,34.5,32.5,34.5,32.5z M18.2,18.1\r\n\th1.2v1.1h-1.2V18.1z M20.8,18.1H22v1.1h-1.2C20.8,19.2,20.8,18.1,20.8,18.1z M23.3,18.1h1.2v1.1h-1.2V18.1z M26,18.1h1.2v1.1H26\r\n\tV18.1z M28.5,18.1h1.2v1.1h-1.2V18.1z M13,20.9h1.2V22H13V20.9z M15.6,20.9h1.2V22h-1.2V20.9z M18.2,20.9h1.2V22h-1.2V20.9z\r\n\t M20.8,20.9H22V22h-1.2C20.8,22,20.8,20.9,20.8,20.9z M23.3,20.9h1.2V22h-1.2V20.9z M26,20.9h1.2V22H26V20.9z M28.5,20.9h1.2V22\r\n\th-1.2V20.9z M13,23.6h1.2v1.1H13V23.6z M15.6,23.6h1.2v1.1h-1.2V23.6z M18.2,23.6h1.2v1.1h-1.2V23.6z M20.8,23.6H22v1.1h-1.2\r\n\tC20.8,24.7,20.8,23.6,20.8,23.6z M13,26.4h1.2v1.1H13V26.4z M15.6,26.4h1.2v1.1h-1.2V26.4z M18.2,26.4h1.2v1.1h-1.2V26.4z M13,29.1\r\n\th1.2v1.1H13V29.1z M15.6,29.1h1.2v1.1h-1.2V29.1z M18.2,29.1h1.2v1.1h-1.2V29.1z M20.8,26.4H22v1.1h-1.2\r\n\tC20.8,27.5,20.8,26.4,20.8,26.4z M23.4,26.4h1.2v1.1h-1.2V26.4z M23.3,23.6h1.2v1.1h-1.2V23.6z M26,23.6h1.2v1.1H26V23.6z\r\n\t M20.7,29.1h1.2v1.1h-1.2V29.1z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "yNec":
 /***/ (function(module, exports) {
 
-module.exports = "<svg id=\"icon_x2F_Alert_x2F_help-Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 48 48\" enable-background=\"new 0 0 48 48\"><title>icon/Alert/help</title><g id=\"icon_x2F_Alert_x2F_help-Symbols\"><g id=\"icon_x2F_Alert_x2F_help\"><g id=\"icon_x2F_Alert_x2F_help-Icon\" transform=\"translate(12 12)\"><g id=\"icon_x2F_Alert_x2F_help-Mask\"><path id=\"icon_x2F_Alert_x2F_help-path-1_1_\" d=\"M22.4 0H1.6C.8 0 0 .8 0 1.6v20.8c0 .8.8 1.6 1.5 1.6h20.9c.8 0 1.6-.8 1.6-1.6V1.5c0-.7-.8-1.5-1.6-1.5zM12 19.4c-.5 0-.9-.4-.9-.9s.4-.9.9-.9.9.4.9.9-.4.9-.9.9zm1.6-7c-.4.4-.9 1-.9 1.2V16c0 .4-.3.7-.7.7s-.7-.3-.7-.7v-2.4c0-.7.6-1.3 1.3-2.1.9-1 1.9-2.2 1.9-3.5 0-1-1-2.1-2.5-2.1C9.5 5.9 9.3 8 9.3 8c0 .4-.4.7-.7.6-.4.1-.7-.3-.7-.6 0 0 .3-3.4 4.1-3.4.9 0 1.9.4 2.6 1 .8.5 1.3 1.4 1.3 2.4 0 1.8-1.3 3.3-2.3 4.4z\" fill=\"#384048\"/></g><defs><filter id=\"icon_x2F_Alert_x2F_help-Adobe_OpacityMaskFilter\" filterUnits=\"userSpaceOnUse\" x=\"-12\" y=\"-12\" width=\"48\" height=\"48\"><feColorMatrix values=\"1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0\"/></filter></defs><mask maskUnits=\"userSpaceOnUse\" x=\"-12\" y=\"-12\" width=\"48\" height=\"48\" id=\"icon_x2F_Alert_x2F_help-mask-2\"><g filter=\"url(#icon_x2F_Alert_x2F_help-Adobe_OpacityMaskFilter)\"><path id=\"icon_x2F_Alert_x2F_help-path-1\" d=\"M22.4 0H1.6C.8 0 0 .8 0 1.6v20.8c0 .8.8 1.6 1.5 1.6h20.9c.8 0 1.6-.8 1.6-1.6V1.5c0-.7-.8-1.5-1.6-1.5zM12 19.4c-.5 0-.9-.4-.9-.9s.4-.9.9-.9.9.4.9.9-.4.9-.9.9zm1.6-7c-.4.4-.9 1-.9 1.2V16c0 .4-.3.7-.7.7s-.7-.3-.7-.7v-2.4c0-.7.6-1.3 1.3-2.1.9-1 1.9-2.2 1.9-3.5 0-1-1-2.1-2.5-2.1C9.5 5.9 9.3 8 9.3 8c0 .4-.4.7-.7.6-.4.1-.7-.3-.7-.6 0 0 .3-3.4 4.1-3.4.9 0 1.9.4 2.6 1 .8.5 1.3 1.4 1.3 2.4 0 1.8-1.3 3.3-2.3 4.4z\" fill=\"#fff\"/></g></mask><g id=\"icon_x2F_Alert_x2F_help-Color_x2F_Messaging_x2F_Neutral\" mask=\"url(#icon_x2F_Alert_x2F_help-mask-2)\"><path fill=\"#056b9e\" d=\"M0 0h48v48H0z\" transform=\"translate(-12 -12)\" id=\"icon_x2F_Alert_x2F_help-Swatch\"/></g></g></g></g></svg>"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"icon_x2F_Alert_x2F_help-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<g id=\"icon_x2F_Alert_x2F_help-Mask\">\r\n\t<path id=\"icon_x2F_Alert_x2F_help-path-1_1_\" style=\"fill:#056B9E;\" d=\"M34.4,12H13.6c-0.8,0-1.6,0.8-1.6,1.6v20.8\r\n\t\tc0,0.8,0.8,1.6,1.5,1.6h20.9c0.8,0,1.6-0.8,1.6-1.6V13.5C36,12.8,35.2,12,34.4,12z M24,31.4c-0.5,0-0.9-0.4-0.9-0.9\r\n\t\ts0.4-0.9,0.9-0.9s0.9,0.4,0.9,0.9S24.5,31.4,24,31.4z M25.6,24.4c-0.4,0.4-0.9,1-0.9,1.2V28c0,0.4-0.3,0.7-0.7,0.7\r\n\t\tc-0.4,0-0.7-0.3-0.7-0.7v-2.4c0-0.7,0.6-1.3,1.3-2.1c0.9-1,1.9-2.2,1.9-3.5c0-1-1-2.1-2.5-2.1c-2.5,0-2.7,2.1-2.7,2.1\r\n\t\tc0,0.4-0.4,0.7-0.7,0.6c-0.4,0.1-0.7-0.3-0.7-0.6c0,0,0.3-3.4,4.1-3.4c0.9,0,1.9,0.4,2.6,1c0.8,0.5,1.3,1.4,1.3,2.4\r\n\t\tC27.9,21.8,26.6,23.3,25.6,24.4z\"/>\r\n</g>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "yqWQ":
 /***/ (function(module, exports) {
 
-module.exports = "<svg id=\"icon_x2F_Utility_x2F_Calendar_x2F_wedding-date-Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 48 48\" enable-background=\"new 0 0 48 48\"><title>icon/Utility/Calendar/wedding-date</title><g id=\"icon_x2F_Utility_x2F_Calendar_x2F_wedding-date-Symbols\"><g id=\"icon_x2F_Utility_x2F_Calendar_x2F_wedding-date\"><g id=\"icon_x2F_Utility_x2F_Calendar_x2F_wedding-date-Icon\" transform=\"translate(11 12)\"><g id=\"icon_x2F_Utility_x2F_Calendar_x2F_wedding-date-Mask\"><path id=\"icon_x2F_Utility_x2F_Calendar_x2F_wedding-date-path-1_1_\" d=\"M23.2 1.9C24.8 1.9 26 3 26 4.7v14.6c0 1.6-1.2 2.8-2.8 2.8H2.8C1.2 22 0 20.9 0 19.3V4.7C0 3 1.2 1.9 2.8 1.9h3v2.5c0 .7.6 1.3 1.3 1.3s1.3-.6 1.3-1.3V1.9h9.1v2.5c0 .7.6 1.3 1.3 1.3.7 0 1.3-.6 1.3-1.3V1.9h3.1zM3.9 16.1v1.3h1.3v-1.3H3.9zm0-4.7v1.3h1.3v-1.3H3.9zm0-4.2v1.3h1.3V7.2H3.9zm10.2 0v1.3h1.3V7.2h-1.3zm-3.5 0v1.3h1.3V7.2h-1.3zm-3.3 0v1.3h1.3V7.2H7.3zm0 8.9v1.3h1.3v-1.3H7.3zm6.8 0v1.3h1.3v-1.3h-1.3zm1.2-2.4c.5-.5.8-1.1.8-1.8s-.3-1.3-.8-1.8-1.1-.7-1.8-.7-1.4.3-1.8.7l-.5.4-.4-.5c-.5-.4-1.1-.7-1.8-.7s-1.3.2-1.8.7c-.5.5-.8 1.2-.8 1.8 0 .7.3 1.3.8 1.8l3.7 3.4c.1.1.2.1.4.1.1 0 .3 0 .4-.1l3.6-3.3zm2.1 2.4v1.3h1.3v-1.3h-1.3zm0-4.7v1.3h1.3v-1.3h-1.3zm0-4.2v1.3h1.3V7.2h-1.3zm3.4 8.9v1.3h1.3v-1.3h-1.3zm0-4.7v1.3h1.3v-1.3h-1.3zm0-4.2v1.3h1.3V7.2h-1.3zM7.2 5.1c-.4 0-.7-.3-.7-.6V.6c0-.3.3-.6.7-.6.4 0 .7.3.7.6v3.8c-.1.4-.4.7-.7.7zm11.7 0c-.4 0-.6-.3-.6-.6V.6c0-.4.3-.6.6-.6.4 0 .6.3.6.6v3.8c0 .4-.3.7-.6.7z\" fill=\"#384048\"/></g><defs><filter id=\"icon_x2F_Utility_x2F_Calendar_x2F_wedding-date-Adobe_OpacityMaskFilter\" filterUnits=\"userSpaceOnUse\" x=\"-11\" y=\"-12\" width=\"48\" height=\"48\"><feColorMatrix values=\"1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0\"/></filter></defs><mask maskUnits=\"userSpaceOnUse\" x=\"-11\" y=\"-12\" width=\"48\" height=\"48\" id=\"icon_x2F_Utility_x2F_Calendar_x2F_wedding-date-mask-2\"><g filter=\"url(#icon_x2F_Utility_x2F_Calendar_x2F_wedding-date-Adobe_OpacityMaskFilter)\"><path id=\"icon_x2F_Utility_x2F_Calendar_x2F_wedding-date-path-1\" d=\"M23.2 1.9C24.8 1.9 26 3 26 4.7v14.6c0 1.6-1.2 2.8-2.8 2.8H2.8C1.2 22 0 20.9 0 19.3V4.7C0 3 1.2 1.9 2.8 1.9h3v2.5c0 .7.6 1.3 1.3 1.3s1.3-.6 1.3-1.3V1.9h9.1v2.5c0 .7.6 1.3 1.3 1.3.7 0 1.3-.6 1.3-1.3V1.9h3.1zM3.9 16.1v1.3h1.3v-1.3H3.9zm0-4.7v1.3h1.3v-1.3H3.9zm0-4.2v1.3h1.3V7.2H3.9zm10.2 0v1.3h1.3V7.2h-1.3zm-3.5 0v1.3h1.3V7.2h-1.3zm-3.3 0v1.3h1.3V7.2H7.3zm0 8.9v1.3h1.3v-1.3H7.3zm6.8 0v1.3h1.3v-1.3h-1.3zm1.2-2.4c.5-.5.8-1.1.8-1.8s-.3-1.3-.8-1.8-1.1-.7-1.8-.7-1.4.3-1.8.7l-.5.4-.4-.5c-.5-.4-1.1-.7-1.8-.7s-1.3.2-1.8.7c-.5.5-.8 1.2-.8 1.8 0 .7.3 1.3.8 1.8l3.7 3.4c.1.1.2.1.4.1.1 0 .3 0 .4-.1l3.6-3.3zm2.1 2.4v1.3h1.3v-1.3h-1.3zm0-4.7v1.3h1.3v-1.3h-1.3zm0-4.2v1.3h1.3V7.2h-1.3zm3.4 8.9v1.3h1.3v-1.3h-1.3zm0-4.7v1.3h1.3v-1.3h-1.3zm0-4.2v1.3h1.3V7.2h-1.3zM7.2 5.1c-.4 0-.7-.3-.7-.6V.6c0-.3.3-.6.7-.6.4 0 .7.3.7.6v3.8c-.1.4-.4.7-.7.7zm11.7 0c-.4 0-.6-.3-.6-.6V.6c0-.4.3-.6.6-.6.4 0 .6.3.6.6v3.8c0 .4-.3.7-.6.7z\" fill=\"#fff\"/></g></mask><g id=\"icon_x2F_Utility_x2F_Calendar_x2F_wedding-date-Color_x2F_Grayscale_x2F_Night-Sky\" mask=\"url(#icon_x2F_Utility_x2F_Calendar_x2F_wedding-date-mask-2)\"><path fill=\"#111\" d=\"M0 0h48v48H0z\" transform=\"translate(-11 -12)\" id=\"icon_x2F_Utility_x2F_Calendar_x2F_wedding-date-Swatch\"/></g></g></g></g></svg>"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"icon_x2F_Utility_x2F_Calendar_x2F_wedding-date-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"icon_x2F_Utility_x2F_Calendar_x2F_wedding-date-path-1_1_\" style=\"fill:#111111;\" d=\"M34.2,13.9c1.6,0,2.8,1.1,2.8,2.8\r\n\tv14.6c0,1.6-1.2,2.8-2.8,2.8H13.8C12.2,34,11,32.9,11,31.3V16.7c0-1.7,1.2-2.8,2.8-2.8h3v2.5c0,0.7,0.6,1.3,1.3,1.3s1.3-0.6,1.3-1.3\r\n\tv-2.5h9.1v2.5c0,0.7,0.6,1.3,1.3,1.3c0.7,0,1.3-0.6,1.3-1.3v-2.5C31.1,13.9,34.2,13.9,34.2,13.9z M14.9,28.1v1.3h1.3v-1.3H14.9z\r\n\t M14.9,23.4v1.3h1.3v-1.3H14.9z M14.9,19.2v1.3h1.3v-1.3C16.2,19.2,14.9,19.2,14.9,19.2z M25.1,19.2v1.3h1.3v-1.3\r\n\tC26.4,19.2,25.1,19.2,25.1,19.2z M21.6,19.2v1.3h1.3v-1.3C22.9,19.2,21.6,19.2,21.6,19.2z M18.3,19.2v1.3h1.3v-1.3\r\n\tC19.6,19.2,18.3,19.2,18.3,19.2z M18.3,28.1v1.3h1.3v-1.3H18.3z M25.1,28.1v1.3h1.3v-1.3H25.1z M26.3,25.7c0.5-0.5,0.8-1.1,0.8-1.8\r\n\tc0-0.7-0.3-1.3-0.8-1.8s-1.1-0.7-1.8-0.7s-1.4,0.3-1.8,0.7l-0.5,0.4L21.8,22c-0.5-0.4-1.1-0.7-1.8-0.7s-1.3,0.2-1.8,0.7\r\n\ts-0.8,1.2-0.8,1.8c0,0.7,0.3,1.3,0.8,1.8l3.7,3.4c0.1,0.1,0.2,0.1,0.4,0.1c0.1,0,0.3,0,0.4-0.1C22.7,29,26.3,25.7,26.3,25.7z\r\n\t M28.4,28.1v1.3h1.3v-1.3H28.4z M28.4,23.4v1.3h1.3v-1.3H28.4z M28.4,19.2v1.3h1.3v-1.3C29.7,19.2,28.4,19.2,28.4,19.2z M31.8,28.1\r\n\tv1.3h1.3v-1.3H31.8z M31.8,23.4v1.3h1.3v-1.3H31.8z M31.8,19.2v1.3h1.3v-1.3C33.1,19.2,31.8,19.2,31.8,19.2z M18.2,17.1\r\n\tc-0.4,0-0.7-0.3-0.7-0.6v-3.9c0-0.3,0.3-0.6,0.7-0.6c0.4,0,0.7,0.3,0.7,0.6v3.8C18.8,16.8,18.5,17.1,18.2,17.1z M29.9,17.1\r\n\tc-0.4,0-0.6-0.3-0.6-0.6v-3.9c0-0.4,0.3-0.6,0.6-0.6c0.4,0,0.6,0.3,0.6,0.6v3.8C30.5,16.8,30.2,17.1,29.9,17.1z\"/>\r\n</svg>\r\n"
 
 /***/ })
 
