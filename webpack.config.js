@@ -10,7 +10,7 @@ const CompressionPlugin = require('compression-webpack-plugin');
 const autoprefixer = require('autoprefixer');
 
 const sourcePath = path.join(__dirname, 'src');
-const staticSourcePath = path.join(sourcePath, 'scss');
+const staticSourcePath = path.join(sourcePath, 'css');
 const buildPath = path.resolve(__dirname);
 
 module.exports = {
@@ -22,10 +22,10 @@ module.exports = {
       path.resolve(sourcePath, 'js/index.jsx')
     ],
     'style': [
-      path.resolve(staticSourcePath, 'style.scss'),
+      path.resolve(staticSourcePath, 'style.css'),
     ],
     'design-system': [
-      path.resolve(staticSourcePath, 'design-system.scss'),
+      path.resolve(staticSourcePath, 'design-system.css'),
     ]
 },
     output: {
@@ -100,13 +100,13 @@ module.exports = {
                 include: sourcePath
             },
             {
-                test: /\.scss$/,
+                test: /\.css$/,
                 exclude: /node_modules/,
                 use: ExtractTextPlugin.extract({
                     fallback: 'style-loader',
                     use: [
                         { loader: 'css-loader', options: { minimize: true } },
-                        'postcss-loader', 'sass-loader'
+                        'postcss-loader'
                     ]
                 })
             },

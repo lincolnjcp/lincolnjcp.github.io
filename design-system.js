@@ -3,15 +3,8 @@ webpackJsonp([2],{
 /***/ 2:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__("zwt1");
+(function webpackMissingModule() { throw new Error("Cannot find module \"/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/css/design-system.css\""); }());
 
-
-/***/ }),
-
-/***/ "zwt1":
-/***/ (function(module, exports) {
-
-// removed by extract-text-webpack-plugin
 
 /***/ })
 

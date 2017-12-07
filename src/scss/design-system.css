@@ -3,7 +3,7 @@
   Target Browsers: IE9+, Chrome, FF, Safari, iOS9+, Android 4.4+
 \*------------------------------------*/
 
-@import "helpers/_init";
+@import url('helpers/init');
 
 
 /*------------------------------------*\
