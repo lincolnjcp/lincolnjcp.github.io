@@ -4,20 +4,20 @@
 /*  dropdown block */
 .dropdown-menu-block {
 
-  .dropdown-button {
-    border: 1px solid $color-concrete;
+  & .dropdown-button {
+    border: 1px solid var(--color-concrete);
     border-radius: 24px;
     padding: 10px 30px 10px 16px;
     text-decoration: none;
     cursor: pointer;
-    font-weight: $font-weight-bold;
+    font-weight: var(--font-weight-bold);
     display: inline-block;
     position: relative;
     max-width: 220px;
     &:hover, &:active, &.hover {
-      border: 1px solid $color-nightsky;
+      border: 1px solid var(--color-nightsky);
     }
-    .arrow {
+    & .arrow {
       content: "";
       position: absolute;
       pointer-events: none;
@@ -35,7 +35,7 @@
         margin-top: -.5em;
       }
     }
-    .sortby {
+    & .sortby {
       display: inline-block;
       font-weight: normal;
       max-width: 102px;
@@ -48,45 +48,45 @@
     }
   }
 
-  .arrow-down .arrow {
+  & .arrow-down .arrow {
     transform: rotate(180deg);
     top: 11px;
   }
-  .disabled, .disabled:hover {
-    background: $color-lightgrey;
-    border: 2px dotted $color-concrete;
+  & .disabled, & .disabled:hover {
+    background: var(--color-lightgrey);
+    border: 2px dotted var(--color-concrete);
     cursor: default;
-    color: $color-slate;
+    color: var(--color-slate);
     pointer-events: none;
   }
-  .dropdown-menu {
+  & .dropdown-menu {
     display: none;
-    .dropdown-search-type {
+    & .dropdown-search-type {
       position: relative;
       top: 6px;
       width: 260px;
       height: 236px;
       max-height: 236px;
       overflow: auto;
-      border-radius: $border-radius-M;
-      .search-type {
+      border-radius: var(--border-radius-M);
+      & .search-type {
         margin: 10px 0;
-        input[type="text"] {
+        & input[type="text"] {
           width: 94%;
-          border: 1px solid $color-concrete;
+          border: 1px solid var(--color-concrete);
         }
       }
     }
 
-    .dropdown-sort {
+    & .dropdown-sort {
       min-width: 192px;
       position: relative;
       top: 6px;
-      border-radius: $border-radius-M;
+      border-radius: var(--border-radius-M);
     }
 
-    .dropdown-list {
-      .right-label {
+    & .dropdown-list {
+      & .right-label {
         float: right;
         padding-right: 16px;
       }

@@ -4,12 +4,12 @@
 
 .toggle-list .icon-toggle {
   float: left;
-  .toggle-img {
+  & .toggle-img {
     position: relative;
     width: 220px;
     margin: 0 auto;
-    .heart-icon {
-      background: $color-white;
+    & .heart-icon {
+      background: var(--color-white);
       opacity: 0.85;
       width: 40px;
       height: 40px;
@@ -17,18 +17,18 @@
       position: absolute;
       right: 8px;
       top: 8px;
-      color: $color-nightsky;
+      color: var(--color-nightsky);
     }
   }
 }
 .icon.hover {
-  path {
-    fill: $color-penneyred;
+  & path {
+    fill: var(--color-penneyred);
   }
 }
 .icon.disable, .icon.focus  {
-  path {
-    fill: $color-slate;
+  & path {
+    fill: var(--color-slate);
   }
 }
 .toggle-thumbs, .toggle-settings {
@@ -42,33 +42,33 @@
   display: block;
   text-align: center;
   padding: 20px 0;
-  color: $color-marketing-aqua-1;
+  color: var(--color-marketing-aqua-1);
 }
 .text-buttons {
-  a.txt-btn.hover {
+  & a.txt-btn.hover {
     text-decoration: underline;
-    color: $color-slate;
+    color: var(--color-slate);
   }
-  .focus {
-    border: 2px dotted $color-neutral-type;
+  & .focus {
+    border: 2px dotted var(--color-neutral-type);
     border-radius: 0;
     text-decoration: underline;
-    color: $color-slate;
+    color: var(--color-slate);
   }
 }
 .cart-button {
-  background: $color-penneyred;
+  background: var(--color-penneyred);
   display: inline-block;
   position: relative;
   width: 56px;
   height: 48px;
-  span.icon {
+  & span.icon {
     display: block;
     padding: 8px 10px 0 0;
   }
-  .cart-count {
-    background: $color-nightsky;
-    color: $color-white;
+  & .cart-count {
+    background: var(--color-nightsky);
+    color: var(--color-white);
     display: block;
     height: 24px;
     width: 24px;
@@ -81,22 +81,22 @@
     font-size: 12px;
   }
   &.focus {
-    border: 2px dotted $color-white;
+    border: 2px dotted var(--color-whit)e;
   }
 }
 .icon-button {
   display: inline-block;
-  border-radius: $border-radius-S;
+  border-radius: var(--border-radius-S);
 }
 .icon-button .focus {
-  border: 2px dotted $color-neutral-type;
-  border-radius: $border-radius-S;
-  svg {
+  border: 2px dotted var(--color-neutral-type);
+  border-radius: var(--border-radius-S);
+  & svg {
     position: relative;
     top: -2px;
     right: 1px;
   }
 }
 .icon-button.disable {
-  background: $color-lightgrey;
+  background: var(--color-lightgrey;
 }

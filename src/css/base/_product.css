@@ -3,17 +3,17 @@
 *********************************/
 
 .product{
-  border: 1px solid $color-concrete;
-  border-radius: $border-radius-S;
+  border: 1px solid var(--color-concrete);
+  border-radius: var(--border-radius-S);
 
-  .product-img{
+  & .product-img{
     margin: 0;
     padding: 8px;
-    border-bottom: 1px solid $color-concrete;
+    border-bottom: 1px solid var(--color-concrete);
     margin-bottom: 8px;
   }
 
-  .product-body{
+  & .product-body{
     padding: 8px;
   }
 }

@@ -4,22 +4,22 @@
 
 .progress-bar{
   height: 4px;
-  border-radius: $border-radius-M;
-  font-weight: $font-weight-bold;
+  border-radius: var(--border-radius-M);
+  font-weight: var(--font-weight-bold);
   position: relative;
   width: 100%;
-  background-color: $color-concrete;
+  background-color: var(--color-concrete);
 
-  .progress-bar-percent{
+  & .progress-bar-percent{
     width: 20%;
     height: 4px;
-    box-shadow: 0px 0px 0px 2px $color-white;
+    box-shadow: 0px 0px 0px 2px var(--color-white);
     box-sizing: border-box;
     top: 0;
     left: 0;
     position: absolute;
-    background-color: $color-penneyred;
-    border-radius: $border-radius-M;
+    background-color: var(--color-penneyred);
+    border-radius: var(--border-radius-M);
   }
 
   /*  Rewards */
@@ -28,27 +28,27 @@
     border-radius: 10px;
     margin-bottom: 8px;
 
-    .progress-bar-max-points{
+    & .progress-bar-max-points{
       position: absolute;
       top: 0;
       right: 8px;
       font-size: 12px;
       line-height: 20px;
-      color: $color-nightsky;
+      color: var(--color-nightsky);
     }
 
-    .progress-bar-percent{
+    & .progress-bar-percent{
       height: 20px;
-      color: $color-white;
+      color: var(--color-white);
       line-height: 16px;
       font-size: 12px;
-      border: 2px solid $color-concrete;
+      border: 2px solid var(--color-concrete);
       vertical-align: middle;
-      font-family: $font-headline;
+      font-family: var(--font-headline);
       text-align: right;
       padding-right: 8px;
       border-radius: 10px;
-      /*  border: 2px solid $color-white; */
+      /*  border: 2px solid var(--color-white); */
       box-shadow: none;
     }
   }

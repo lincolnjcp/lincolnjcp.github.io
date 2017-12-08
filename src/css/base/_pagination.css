@@ -16,21 +16,21 @@
 
     &.pagination-lbl{
       border-radius: 50%;
-      border: 1px solid $color-white;
+      border: 1px solid var(--color-white);
       cursor: pointer;
-      @include transition(border $transition-time-S ease-in-out);
+      transition: border var(--transition-time-S) ease-in-out;
 
       &:hover{
-        border: 1px solid $color-concrete;
+        border: 1px solid var(--color-concrete);
       }
     }
 
     &.pagination-active{
-      font-weight: $font-weight-bold;
-      border: 1px solid $color-nightsky;
+      font-weight: var(--font-weight-bold);
+      border: 1px solid var(--color-nightsky);
 
       &:hover{
-        border-color: $color-nightsky;
+        border-color: var(--color-nightsky);
       }
     }
 
@@ -41,7 +41,7 @@
 
     /*  Previous button */
     &.pagination-prev{
-      background: url($path-images + "global/icons/nav/chevron-left.svg") no-repeat;
+      background: url("var(--path-images)global/icons/nav/chevron-left.svg") no-repeat;
       content: "";
       cursor: pointer;
       line-height: 28px;
@@ -53,7 +53,7 @@
 
     /*  Next button */
     &.pagination-next{
-      background: url($path-images + "global/icons/nav/chevron-right.svg") no-repeat;
+      background: url("var(--path-images)global/icons/nav/chevron-right.svg") no-repeat;
       content: "";
       cursor: pointer;
       line-height: 28px;

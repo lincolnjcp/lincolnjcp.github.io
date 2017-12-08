@@ -4,13 +4,13 @@
 ***************************************************/
 
 .frame-S{
-  @include frame-S;
+  @apply --frame-S;
 }
 
 .frame-M{
-  @include frame-M;
+  @apply --frame-M;
 }
 
 .frame-L{
-  @include frame-L;
+  @apply --frame-L;
 }

@@ -3,10 +3,10 @@
 *******************************************/
 
 .tab-container{
-  .tab-header{
+  & .tab-header{
     border-bottom: 1px solid $color-concrete;
 
-    li{
+    & li{
       display: inline-block;
       max-width: 144px;
       width: 144px;
@@ -38,7 +38,7 @@
         /*  Disabled state */
         &.tab-lbl-disabled{
           margin-top: -1px;
-          @include disabled;
+          @apply --disabled;
         }
       }
     }
