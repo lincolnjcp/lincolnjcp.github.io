@@ -121,23 +121,20 @@ button{
     position: relative;
     overflow: hidden;
 
-    img, .icon{
+    & img, & .icon{
       position: absolute;
       display: block;
       left: 50%;
       margin-left: -20px;
       top: -30px;
       transition: top .25s ease-in-out;
-        -webkit-transition: top .25s ease-in-out;
     }
 
-    &.btn-label{
+    & .btn-label{
       width: 100%;
       height: 100%;
       display: inline-block;
       backface-visibility: hidden;
-        -webkit-backface-visibility: hidden;
-        -moz-backface-visibility: hidden;
       transition: margin .25s ease-in-out, opacity .25s ease-in-out;
     }
 

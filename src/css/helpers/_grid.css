@@ -15,6 +15,10 @@
     </div>
 **/
 
+img {
+    max-width: 100%;
+}
+
 .rowBlock {
     margin: 0;
 }

@@ -916,13 +916,13 @@ Base Styles
         left: 0;
         width: 100%;
 
-        @include transform(translateX(0));
-        @include transition(transform 0.5s ease);
+        transform: translateX(0);
+        transition: transform 0.5s ease;
 
         z-index: 1000;
 
         &.off-canvas-open {
-            @include transform(translateX(250px));
+            transform: translateX(250px);
         }
 
         & button {
@@ -965,8 +965,9 @@ Base Styles
     }
 
     & .design-system-search-field {
-        @include transition(height 200ms);
-
+        transition: height 200ms;
+        margin-left: 0;
+        margin-right: 0;
         height: 0;
         overflow: hidden;
         background-color: var(--color-design-system-search);
@@ -977,8 +978,9 @@ Base Styles
             color: var(--color-white);
             border: none;
             padding: 5px 15px 5px;
+            margin: 0;
 
-            @include placeholder {
+            placeholder {
                 color: var(--color-white);
                 opacity: 1;
                 font-style: italic;
@@ -1032,7 +1034,7 @@ Base Styles
         }
 
         & ul {
-            @include transition(height 200ms);
+            transition: height 200ms;
 
             height: 0;
             overflow: hidden;
@@ -1150,8 +1152,7 @@ Base Styles
 
                     &.active {
                         display: block;
-
-                        @include transition(top 0.5s ease);
+                        transition: top 0.5s ease;
                     }
                 }
 
