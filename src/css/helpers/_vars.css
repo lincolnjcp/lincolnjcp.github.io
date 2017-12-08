@@ -1,0 +1,173 @@
+/******************
+/* Breakpoints
+******************/
+
+
+@custom-media --viewport-sm-only (width < 600px);
+@custom-media --viewport-md-only (width >= 600px) and (width < 1024px);
+@custom-media --viewport-lg-only (width >= 1024px) and (width < 1440px);
+@custom-media --viewport-xl-only (width >= 1440px);
+
+@custom-media --viewport-sm (width < 600px);
+@custom-media --viewport-md (width >= 600px );
+@custom-media --viewport-lg (width >= 1024px);
+@custom-media --viewport-xl (width >= 1440px);
+
+
+.hide-for-xlarge {
+    @media (--viewport-xl-only) {
+        display: none;
+    }
+}
+.hide-for-large {
+    @media (--viewport-lg-only) {
+        display: none;
+    }
+}
+.hide-for-medium-only {
+    @media (--viewport-md-only) {
+        display: none;
+    }
+}
+.hide-for-small-only {
+    @media (--viewport-sm-only) {
+        display: none;
+    }
+}
+
+    :root {
+    /******************
+    /* Vars
+    /* File Paths
+    ******************/
+
+    --path-images: /images/;
+    --path-images-pages: '../../'+--path-images;
+
+    /******************
+    /* Vars
+    /* Transition times
+    ******************/
+    --transition-time-S: .25s;
+    --transition-time-M: .5s;
+
+    /******************
+    /* Vars
+    /* Colors & fonts
+    ******************/
+
+    /*  Reds */
+    --color-penneyred: #cc0000;
+    --color-lipstick: #990000;
+    --color-passion: #5F1417;
+    --color-blush: #F8BFC6;
+
+    /*  Greys */
+    --color-nightsky: #111111;
+    --color-shadow: #333333;
+    /*  --color-slate: #626E78;  Original color - save in case */
+    --color-slate: #6b7883;
+    --color-concrete: #D8D8D8;
+    --color-lightgrey: #F1F1F1;
+    --color-white: #FFFFFF;
+
+    /* Success */
+    --color-success-type: #2A7952;
+    --color-success-border: #C9E7D9;
+    --color-success-fill: #E8F7F0;
+
+    /*  Neutral */
+    --color-neutral-type: #056B9E;
+    --color-neutral-border: #C0D8E3;
+    --color-neutral-fill: #EBF4F8;
+
+    /* Warning */
+    --color-warning-type: #615D14;
+    --color-warning-border: #E9E3A3;
+    --color-warning-fill: #FFFDE1;
+
+    /* Error */
+    --color-error-type: #9D2028;
+    --color-error-border: #E6B9B9;
+    --color-error-fill: #F9DBDB;
+
+    /*  Rewards / Eggplant */
+    --color-rewards-eggplant: #4F4764;
+    --color-rewards-grape: #362E4C;
+    --color-rewards-plum: #D1C7EC;
+
+    /* PLCC */
+    --color-rewards-platinum-1: #8F9699;
+    --color-rewards-platinum-2: #6F787B;
+    --color-rewards-platinum-3: #D8E0E4;
+    --color-rewards-gold-1: #9C8137;
+    --color-rewards-gold-2: #887330;
+    --color-rewards-gold-3: #F1E8CF;
+
+    /* Marketing */
+    --color-marketing-brown-1: #BA5F28;
+    --color-marketing-brown-2: #984F21;
+    --color-marketing-brown-3: #713916;
+
+    --color-marketing-orange-1: #DE681F;
+    --color-marketing-orange-2: #B7561A;
+    --color-marketing-orange-3: #773309;
+
+    --color-marketing-green-1: #46A491;
+    --color-marketing-green-2: #317064;
+    --color-marketing-green-3: #1D463E;
+
+    --color-marketing-aqua-1: #33A0C1;
+    --color-marketing-aqua-2: #2D768B;
+    --color-marketing-aqua-3: #1D4D5C;
+
+    --color-marketing-blue-1: #5E97D4;
+    --color-marketing-blue-2: #4A6D93;
+    --color-marketing-blue-3: #2D4B6A;
+
+    --color-marketing-pink-1: #D15895;
+    --color-marketing-pink-2: #A72D69;
+    --color-marketing-pink-3: #761F4A;
+
+    /*  Black Friday */
+    --color-blackfriday-primary-1: #DEE335;
+    --color-blackfriday-primary-2: #A4A824;
+
+    --color-blackfriday-secondary-1: #373737;
+    --color-blackfriday-secondary-2: #111111;
+
+    --color-blackfriday-tertiary-1: #003C78;
+    --color-blackfriday-tertiary-2: #16304A;
+
+    /* Typography */
+    --font-headline: 'Montserrat', sans-serif;
+    --font-body: 'Open Sans', sans-serif;
+
+    /* Font Weight */
+    --font-weight-bold: 700;
+    --font-weight-regular: 400;
+
+    /* Border Radius */
+    --border-radius-S: 4px;
+    --border-radius-M: 8px;
+    --border-radius-L: 16px;
+
+    /* Design System */
+    --color-design-system-nav: #1C2024;
+    --color-design-system-search: #A41600;
+    --color-design-system-right-nav: #f1f3f4;
+
+    /******************
+    /* Vars
+    /* Fonts
+    ******************/
+
+    /* Typography */
+    --font-headline: 'Montserrat', sans-serif;
+    --font-body: 'Open Sans', sans-serif;
+    --font-code: Monaco, 'Lucida Console', monospace;
+
+    /* Font Weight */
+    --font-weight-bold: 700;
+    --font-weight-regular: 400;
+}

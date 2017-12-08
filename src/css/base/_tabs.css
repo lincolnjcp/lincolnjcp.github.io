@@ -23,7 +23,7 @@
 
       &.tab-lbl{
 
-        // Active state
+        /*  Active state */
         &.tab-lbl-active{
           font-weight: $font-weight-bold;
           color: $color-nightsky;
@@ -35,7 +35,7 @@
           }
         }
         
-        // Disabled state
+        /*  Disabled state */
         &.tab-lbl-disabled{
           margin-top: -1px;
           @include disabled;

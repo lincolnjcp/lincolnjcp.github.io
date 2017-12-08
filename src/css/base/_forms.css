@@ -3,7 +3,7 @@
   Target Browsers: IE9+, Chrome, FF, Safari, iOS9+, Android 4.4+
 \*------------------------------------*/
 
-// Radio
+/*  Radio */
 [type="radio"]:checked,
 [type="radio"]:not(:checked){
   position: absolute;
@@ -29,7 +29,7 @@
   top: 0;
   width: 20px;
   height: 20px;
-  border: 1px solid $color-nightsky;
+  border: 1px solid var(--color-nightsky);
   border-radius: 100%;
 }
 
@@ -41,41 +41,41 @@
   position: absolute;
   top: 5px;
   left: 5px;
-  background: $color-nightsky;
+  background: var(--color-nightsky);
   border-radius: 100%;
 }
 
 [type="radio"]:not(:checked) + label:after{
   opacity: 0;
   transform: scale(0);
-  @include transition(all $transition-time-S ease-in-out);
+  transition: all var(--transition-time-S) ease-in-out;
 }
 
 [type="radio"]:checked + label:after{
   opacity: 1;
   transform: scale(1);
-  @include transition(all $transition-time-S ease-in-out);
+  transition: all var(--transition-time-S) ease-in-out;
 }
 
 input[type="radio"]:disabled + label{
-  color: $color-slate;
+  color: var(--color-slate);
   cursor: not-allowed;
 }
 
 [type="radio"]:disabled + label:before{
-  border-color: $color-slate;
+  border-color: var(--color-slate);
   border-style: dashed;
   cursor: not-allowed;
 }
 
-// Labels
+/*  Labels */
 label{
   display: block;
   font-size: 16px;
   line-height: 24px;
 }
 
-// Select Dropdowns
+/*  Select Dropdowns */
 
 select{
   outline: none;
@@ -85,11 +85,11 @@ select{
 }
 
 .select select {
-  background-color: $color-white;
+  background-color: var(--color-white);
   padding-left: 12px;
   border: 0;
   margin: 0;
-  border-radius: $border-radius-S;
+  border-radius: var(--border-radius-S);
   text-overflow: '';
   -moz-appearance: none; /* hide default arrow in Firefox */
   -webkit-appearance: button; /* hide default arrow in chrome OSX */
@@ -122,25 +122,25 @@ select{
   bottom: 0;
   background-color: #fff;
   border-radius: 0 3px 3px 0;
-  // box-shadow: -7px 0 20px 3px #fff;
+  /*  box-shadow: -7px 0 20px 3px #fff; */
 }
 
 .select{
   border-radius: 40px;
-  border: 1px solid $color-concrete;
+  border: 1px solid var(--color-concrete);
   overflow: hidden;
   margin-bottom:24px;
   position: relative;
   display: block;
   vertical-align: middle;
   cursor: pointer;
-  // @include elevation;
+  /*  @include elevation; */
 
   &.select-S{
     font-size: 14px;
     height: 35px;
 
-    select{
+   & select{
       font-size: 12px;
       line-height: 35px;
     }
@@ -149,7 +149,7 @@ select{
   &.select-full{
     width: 100%;
 
-    select{
+   & select{
       width: 100%;
     }
   }
@@ -159,7 +159,7 @@ select{
     height: 40px;
     line-height: 40px;
 
-    select{
+   & select{
       font-size: 14px;
       line-height: 40px;
     }
@@ -169,23 +169,23 @@ select{
     font-size: 18px;
     height: 50px;
 
-    select{
+   & select{
       font-size: 16px;
       line-height: 50px;
     }
   }
 }
 
-// Forms
+/*  Forms */
 input[type="text"],
 textarea{
   margin-bottom: 24px;
   max-width: 100%;
   line-height: 24px;
   outline: none;
-  border: 1px solid $color-slate;
+  border: 1px solid var(--color-slate);
   font-size: 16px;
-  border-radius: $border-radius-S;
+  border-radius: var(--border-radius-S);
   box-shadow: none;
 }
 
@@ -195,13 +195,13 @@ input[type="text"]{
   display: inline-block;
 
   &.input-error{
-    border-color: $color-error-type;
+    border-color: var(--color-error-type);
     border-width: 2px;
   }
   &.disabled {
-    border: 1px dashed $color-concrete;
-    background: $color-lightgrey;
-    color: $color-slate;
+    border: 1px dashed var(--color-concrete);
+    background: var(--color-lightgrey);
+    color: var(--color-slate);
   }
 }
 
@@ -209,40 +209,42 @@ textarea{
   padding: 8px;
 }
 
-// Main
+/* Main */
 fieldset {
   margin: 0;
   padding: 0;
   border: 0;
 }
-// input {
-//   display: block;
-//   width: 100%;
-//   height: 3em;
-//   padding: 16px 8px;
-//   border: 0;
-//   font-size: 16px;
-//   font-weight: 400;
-//   line-height: 1;
-//   background: rgba(255,255,255,0.97);
-//   color: #212121;
-//   outline: 0;
-//   appearance: none;
-//   transition: all 0.2s ease-in-out;
-// }
+/*  input {
+   display: block;
+   width: 100%;
+   height: 3em;
+   padding: 16px 8px;
+   border: 0;
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 1;
+   background: rgba(255,255,255,0.97);
+   color: #212121;
+   outline: 0;
+   appearance: none;
+   transition: all 0.2s ease-in-out;
+} */
 .form-inline {
-  fieldset {
-    position: relative;
-    // &:first-child input {
-    //   border-radius: 4px 4px 0 0;
-    // }
-    &:last-child input {
-      // border-radius: 0 0 4px 4px;
-      // box-shadow: 0 2px 0 rgba(0,0,0,0.15);
+   fieldset {
+   position: relative;
+    /*
+	&:first-child input {
+       border-radius: 4px 4px 0 0;
     }
-    // & + fieldset { border-top: 1px solid #ddd; }
+    &:last-child input {
+      border-radius: 0 0 4px 4px;
+      box-shadow: 0 2px 0 rgba(0,0,0,0.15);
+    }
+    & + fieldset { border-top: 1px solid #ddd; }
+	*/
   }
-  label {
+  & label {
     position: absolute;
     top: 8px;
     left: 8px;
@@ -251,16 +253,17 @@ fieldset {
   }
 }
 
-// Animation on <label>
+/* Animation on <label> */
 .form-css-label {
-  input {
+  & input {
     min-width: 200px;
-
+	/* 
     &[data-empty="false"],
     &:valid,
     &:focus {
-      // padding: 22px 8px 10px;
+      padding: 22px 8px 10px;
     }
+	*/
     &:focus {
       outline: 0;
       background: rgba(255,255,255,1);
@@ -269,7 +272,7 @@ fieldset {
     &:valid + label,
     &:focus + label {
       font-size: 12px;
-      color: $color-slate;
+      color: var(--color-slate);
       background-color: #fff;
       padding: 0 2px;
       transform: translate3d(0, -20px, 0);
@@ -277,24 +280,24 @@ fieldset {
   }
 }
 
-// Placeholder text
+/*  Placeholder text */
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-  color: $color-concrete;
+  color: var(--color-concrete);
   font-style: italic;
   font-size: 14px;
 }
 ::-moz-placeholder { /* Firefox 19+ */
-  color: $color-concrete;
+  color: var(--color-concrete);
   font-style: italic;
   font-size: 14px;
 }
 :-ms-input-placeholder { /* IE 10+ */
-  color: $color-concrete;
+  color: var(--color-concrete);
   font-style: italic;
   font-size: 14px;
 }
 :-moz-placeholder { /* Firefox 18- */
-  color: $color-concrete;
+  color: var(--color-concrete);
   font-style: italic;
   font-size: 14px;
 }
@@ -303,14 +306,14 @@ fieldset {
   width: 100%;
 }
 
-// Or
+/*  Or */
 .or{
   width: 100%;
   text-align: center;
   position: relative;
   font-size: 14px;
   height: 32px;
-  border-bottom: 1px solid $color-concrete;
+  border-bottom: 1px solid var(--color-concrete);
 
   &:before{
     position: absolute;
@@ -335,11 +338,11 @@ fieldset {
   user-select:none;
   line-height: 20px;
 
-  input:disabled{
+  & input:disabled{
 
     &+span{
       cursor: not-allowed !important;
-      color: $color-slate;
+      color: var(--color-slate);
 
       &:before{
         content: '';
@@ -351,8 +354,8 @@ fieldset {
         margin-right: 5px;
         width: 16px;
         height: 16px;
-        border: 1px dashed $color-concrete;
-        background: $color-lightgrey;
+        border: 1px dashed var(--color-concrete);
+        background: var(--color-lightgrey);
         box-sizing: content-box;
       }
 
@@ -361,8 +364,8 @@ fieldset {
         display: block;
         width: 4px;
         height: 9px;
-        border-bottom: 3px solid $color-slate;
-        border-right: 3px solid $color-slate;
+        border-bottom: 3px solid var(--color-slate);
+        border-right: 3px solid var(--color-slate);
         position: absolute;
         top: 1px;
         left: 5px;
@@ -375,7 +378,7 @@ fieldset {
     }
   }
 
-  input{
+  & input{
     display: none;
 
     &+span{
@@ -393,7 +396,7 @@ fieldset {
         margin-right: 5px;
         width: 16px;
         height: 16px;
-        border: 1px solid $color-nightsky;
+        border: 1px solid var(--color-nightsky);
         background: #fff;
         box-sizing: content-box;
       }
@@ -405,8 +408,8 @@ fieldset {
         height: 9px;
         border-bottom: 3px solid #fff;
         border-right: 3px solid #fff;
-        // border-bottom: 3px solid $color-penneyred;
-        // border-right: 3px solid $color-penneyred;
+        /*  border-bottom: 3px solid var(--color-penneyred); */
+        /* border-right: 3px solid var(--color-penneyred); */
         position: absolute;
         top: 1px;
         left: 5px;
@@ -419,7 +422,7 @@ fieldset {
     }
 
     &:checked+span::before{
-      background: $color-nightsky;
+      background: var(--color-nightsky);
     }
 
     &:checked+span:after{
@@ -428,9 +431,9 @@ fieldset {
     }
 
     &:checked:before{
-      background-color: $color-nightsky;
+      background-color: var(--color-nightsky);
     }
   }
 }
 
-// New forms
+/*  New forms */

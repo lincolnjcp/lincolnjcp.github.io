@@ -39,7 +39,7 @@
       margin-right: 0;
     }
 
-    // Previous button
+    /*  Previous button */
     &.pagination-prev{
       background: url($path-images + "global/icons/nav/chevron-left.svg") no-repeat;
       content: "";
@@ -51,7 +51,7 @@
       margin-top: -3px;
     }
 
-    // Next button
+    /*  Next button */
     &.pagination-next{
       background: url($path-images + "global/icons/nav/chevron-right.svg") no-repeat;
       content: "";

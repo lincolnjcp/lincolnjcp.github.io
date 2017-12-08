@@ -5,6 +5,6 @@
 
 .well{
   padding: 24px;
-  border-radius: $border-radius-M;
-  border: 1px solid $color-concrete;
+  border-radius: var(--border-radius-M);
+  border: 1px solid var(--color-concrete);
 }

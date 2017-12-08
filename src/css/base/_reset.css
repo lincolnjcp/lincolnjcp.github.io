@@ -49,7 +49,7 @@ table {
 }
 
 html {
-  overflow-y: scroll; // Always show a vertical scrollbar, even when there is no scrolling
+  overflow-y: scroll; /*  Always show a vertical scrollbar, even when there is no scrolling */
 }
 
 html {
@@ -57,7 +57,7 @@ html {
   -ms-text-size-adjust: 100%;
 }
 
-// Global focus styling
+/*  Global focus styling */
 *:focus{
   outline: 2px dashed $color-neutral-type;
 }

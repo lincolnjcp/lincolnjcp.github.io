@@ -38,7 +38,7 @@
       overflow: hidden;
       box-shadow: inset 0px 0px 0px 2px $color-white;
       border: 1px solid $color-concrete;
-      background-color: $color-lightgrey; //Default background color
+      background-color: $color-lightgrey; /* Default background color */
       display: inline-block;
       @include transition(border-color .25s ease-in-out);
 

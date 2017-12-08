@@ -3,62 +3,65 @@
 /* Used for SKU options
 *****************************************/
 
-// .selector{
-//   border-radius: $border-radius-M;
-//   border: 1px solid $color-concrete;
-//   vertical-align: middle;
-//   display: inline-block;
-//   margin-right: 8px;
-//   min-width: 96px;
-//   font-size: 14px;
-//   text-align: center;
-//   color: $color-slate;
-//   cursor: pointer;
-//   @include transition(border-color $transition-time-S ease-in-out);
-//
-//   &:last-child{
-//     margin-right: 0;
-//   }
-//
-//   &:hover{
-//     border-color: $color-nightsky;
-//   }
-//
-//   &.selector-S{
-//     line-height: 40px;
-//   }
-//
-//   &.selector-M{
-//     line-height: 64px;
-//   }
-//
-//   &.selector-active{
-//     border: 2px solid $color-nightsky;
-//     font-weight: $font-weight-bold;
-//     color: $color-nightsky;
-//   }
-//
-//   &.selector-disabled{
-//     cursor: not-allowed;
-//     border-style: dashed;
-//
-//     &:hover{
-//       border-color: $color-concrete;
-//     }
-//   }
-//
-//   &.selector-img{
-//     line-height: none;
-//   }
-//
-//   img{
-//     margin: 3px 0 1px 0;
-//     max-height: 56px;
-//     text-align: center;
-//     width: auto;
-//     border-radius: $border-radius-S;
-//   }
-// }
+/* 
+ .selector{
+  border-radius: $border-radius-M;
+  border: 1px solid $color-concrete;
+  vertical-align: middle;
+  display: inline-block;
+  margin-right: 8px;
+  min-width: 96px;
+  font-size: 14px;
+  text-align: center;
+  color: $color-slate;
+  cursor: pointer;
+  @include transition(border-color $transition-time-S ease-in-out);
+
+  &:last-child{
+    margin-right: 0;
+  }
+
+  &:hover{
+     border-color: $color-nightsky;
+  }
+
+  &.selector-S{
+    line-height: 40px;
+  }
+
+  &.selector-M{
+    line-height: 64px;
+  }
+
+ &.selector-active{
+   border: 2px solid $color-nightsky;
+   font-weight: $font-weight-bold;
+   color: $color-nightsky;
+ }
+
+  &.selector-disabled{
+   cursor: not-allowed;
+   border-style: dashed;
+
+    &:hover{
+       border-color: $color-concrete;
+     }
+   }
+
+   &.selector-img{
+     line-height: none;
+   }
+
+   img{
+     margin: 3px 0 1px 0;
+     max-height: 56px;
+     text-align: center;
+     width: auto;
+     border-radius: $border-radius-S;
+   }
+ }
+*/
+
 /*******************************************
 /* Selectors
 *******************************************/

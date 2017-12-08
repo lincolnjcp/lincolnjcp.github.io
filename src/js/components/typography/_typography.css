@@ -1,9 +1,9 @@
 body {
-    font-family: $font-body;
+    font-family: var(--font-body);
 }
 
 a {
-    color: $color-nightsky;
+    color: var(--color-nightsky);
     text-decoration: underline;
 }
 
@@ -15,46 +15,46 @@ strong {
 }
 
 strong {
-    font-weight: $font-weight-bold;
+    font-weight: var(--font-weight-bold);
 }
 
 hr {
     border: none;
-    border-top: 1px solid $color-concrete;
+    border-top: 1px solid var(--color-concrete);
     margin: 20px 0;
     clear: both;
 }
 
 .list {
-    li {
+    & li {
         list-style-type: disc;
         margin: 15px 0 15px 34px;
         padding-left: 15px;
         line-height: 20px;
     }
     &.list-checkboxes {
-        li {
-            .checkbox {
+        & li {
+            & .checkbox {
                 display: inline-block;
             }
 
-            .list-qty {
+            & .list-qty {
                 float: right;
-                color: $color-slate;
+                color: var(--color-slate);
             }
         }
     }
     &.list-underline {
-        li {
+        & li {
             list-style-type: none;
             line-height: 40px;
-            border-bottom: 1px solid $color-concrete;
+            border-bottom: 1px solid var(--color-concrete);
             margin: 0;
             padding: 0;
         }
     }
     &.list-links {
-        li {
+        & li {
             margin: 0;
             padding: 0;
             list-style-type: none;
@@ -62,7 +62,7 @@ hr {
         }
     }
     &.list-icons {
-        li {
+        & li {
             position: relative;
             border-bottom: none;
             padding-left: 48px;
@@ -88,9 +88,9 @@ hr {
 /* Price, standard type styles
 ***************************************************/
 
-// Body copy
+/*  Body copy */
 p {
-    color: $color-slate;
+    color: var(--color-slate);
     font-size: 16px;
     line-height: 26px;
     margin: 0 0 10px;
@@ -107,11 +107,11 @@ p {
     }
 }
 
-// Price
+/*  Price */
 .price {
-    font-family: $font-headline;
-    font-weight: $font-weight-bold;
-    color: $color-nightsky;
+    font-family: var(--font-headline);
+    font-weight: var(--font-weight-bold);
+    color: var(--color-nightsky);
 
     &.price-XL {
         font-size: 40px;
@@ -145,11 +145,11 @@ p {
 }
 
 
-// Titles
+/*  Titles */
 .title {
-    font-family: $font-headline;
-    font-weight: $font-weight-regular;
-    color: $color-nightsky;
+    font-family: var(--font-headline);
+    font-weight: var(--font-weight-regular);
+    color: var(--color-nightsky);
 }
 
 .title-XXL {
@@ -182,11 +182,11 @@ p {
     line-height: 18px;
 }
 
-// Standard Text
+/*  Standard Text */
 .std-txt {
-    color: $color-slate;
-    font-weight: $font-weight-regular;
-    font-family: $font-body;
+    color: var(--color-slate);
+    font-weight: var(--font-weight-regular);
+    font-family: var(--font-body);
 
     &.std-txt-XL {
         font-size: 20px;
@@ -224,11 +224,11 @@ p {
     }
 }
 
-// Promo Labels
+/*  Promo Labels */
 .promo-lbl {
-    font-family: $font-headline;
-    font-weight: $font-weight-bold;
-    color: $color-nightsky;
+    font-family: var(--font-headline);
+    font-weight: var(--font-weight-bold);
+    color: var(--color-nightsky);
 
     &.promo-lbl-XXXL {
         font-size: 96px;
@@ -282,39 +282,40 @@ p {
 
     &.promo-display {
         text-transform: uppercase;
-        color: $color-white;
-
+        color: var(--color-white);
+		/*
         &.promo-lbl-XXL {
-            // text-shadow: 6px 6px rgba(0,0,0,0.5);
+            text-shadow: 6px 6px rgba(0,0,0,0.5);
         }
 
         &.promo-lbl-XL {
-            // text-shadow: 5px 5px rgba(0,0,0,0.5);
+            text-shadow: 5px 5px rgba(0,0,0,0.5);
         }
 
         &.promo-lbl-L {
-            // text-shadow: 4px 4px rgba(0,0,0,0.5);
+            text-shadow: 4px 4px rgba(0,0,0,0.5);
         }
 
         &.promo-lbl-M {
-            // text-shadow: 4px 4px rgba(0,0,0,0.5);
+            text-shadow: 4px 4px rgba(0,0,0,0.5);
         }
 
         &.promo-lbl-S {
-            // text-shadow: 3px 3px rgba(0,0,0,0.5);
+            text-shadow: 3px 3px rgba(0,0,0,0.5);
         }
+		*/
     }
 }
 
-// Marketing Label
+/*  Marketing Label */
 .marketing-lbl {
     text-transform: uppercase;
-    color: $color-penneyred;
+    color: var(--color-penneyred);
     font-size: 12px;
     line-height: 16px;
-    font-family: $font-headline;
+    font-family: var(--font-headline);
     letter-spacing: -0.3px;
-    font-weight: $font-weight-regular;
+    font-weight: var(--font-weight-regular);
 
     &.marketing-lbl-S {
         font-size: 12px;
@@ -322,13 +323,12 @@ p {
     }
 }
 
-// Value
-// Should be assigned to info around sales, value, etc.
+/*  Value - Should be assigned to info around sales, value, etc. */
 .value{
-  color: $color-penneyred !important;
+  color: var(--color-penneyred) !important;
 }
 
-// Alignment
+/*  Alignment */
 .algn-lft {
     text-align: left;
 }
@@ -391,29 +391,29 @@ p {
 
 .valgn-top {
     vertical-align: top;
-    td,
-    th {
+    & td,
+    & th {
         vertical-align: top;
     }
 }
 
 .valgn-mid {
     vertical-align: middle;
-    td,
-    th {
+    & td,
+    & th {
         vertical-align: middle;
     }
 }
 
 .valgn-btm {
     vertical-align: bottom;
-    td,
-    th {
+    & td,
+    & th {
         vertical-align: bottom;
     }
 }
 
-// All Caps
+/*  All Caps */
 .txt-caps {
     text-transform: uppercase;
 }

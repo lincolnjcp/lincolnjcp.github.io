@@ -5,7 +5,7 @@
   /* Icon Group
 ***************************************************/
 
-//Switch
+/* Switch */
 
 .switch-block {
   .onoffswitch {
@@ -75,7 +75,7 @@
 
 
 
-// Button Group
+/*  Button Group */
 
 .btn-group-block {
   .btn-group > .btn {
@@ -126,7 +126,7 @@
   }
 }
 
-// Icon Group
+/*  Icon Group */
 
 .icon-group-block {
   .icon-group ul {
@@ -134,7 +134,7 @@
       display: inline-block;
       text-align: center;
       span.icon.color-shadow-svg.disabled path {
-        fill: $color-lightgrey !important;//used important to overdide the existing important.
+        fill: $color-lightgrey !important;/* used important to overdide the existing important. */
       }
     }
   }

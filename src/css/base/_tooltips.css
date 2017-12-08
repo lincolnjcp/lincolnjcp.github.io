@@ -2,14 +2,14 @@
 /* Tooltips
 *********************************/
 
-// Contains the tooltip and sets it to absolute
+/*  Contains the tooltip and sets it to absolute */
 .tooltip-container{
   position: absolute;
   top: 32px;
 }
 
-// class to be placed around where the tooltip should appear
-// Appears on hover
+/*  class to be placed around where the tooltip should appear
+ Appears on hover */
 .tooltip-anchor{
   position: relative;
   cursor: pointer;
@@ -22,7 +22,7 @@
 }
 
 .tooltip{
-  // opacity: 0; // Hide tooltip init
+  /*  opacity: 0; Hide tooltip init */
   padding: 16px;
   @include transition(all .25s ease-in-out);
   background-color: #fff;
@@ -33,7 +33,7 @@
   position: relative;
   border-radius: $border-radius-S;
   border: 1px solid $color-concrete;
-  // @include elevation;
+  /*  @include elevation; */
   @include elevation-func(0px, 3px, 8px, 0px, rgba(0,0,0,0.25));
 
   span{
@@ -81,7 +81,7 @@
     display: inline-block;
   }
 
-  // tooltip arrow
+  /*  tooltip arrow */
   &:before{
     content: "";
     position: absolute;
@@ -91,21 +91,21 @@
     bottom: -5px;
     background-color: #fff;
     transform: rotate(45deg);
-    // first dropshow simulates the border on the arrow, second is the drop shadow
+    /*  first dropshow simulates the border on the arrow, second is the drop shadow */
     box-shadow: 1px 1px 0px 0px $color-concrete, 3px 3px 7px 0px rgba(0,0,0,0.2);
   }
 
-  // Set white fade
-  // &:after{
-  //   box-shadow: inset 0px -4px 16px 0 rgba(red, 0.5);
-  //   position: absolute;
-  //   content: "";
-  //   bottom: 0px;
-  //   left: 0px;
-  //   width: 100%;
-  //   height: 20px;
-  //   z-index: 2;
-  // }
+  /*  Set white fade */
+  /*&:after{
+     box-shadow: inset 0px -4px 16px 0 rgba(red, 0.5);
+     position: absolute;
+     content: "";
+     bottom: 0px;
+     left: 0px;
+     width: 100%;
+     height: 20px;
+     z-index: 2;
+  } */
 
   .tooltip-close{
     position: absolute;
@@ -167,7 +167,7 @@
 
     &:before{
       background-color: $color-shadow;
-      // box-shadow: 3px 3px 3px 0px rgba(0,0,0,0.3);
+      /*  box-shadow: 3px 3px 3px 0px rgba(0,0,0,0.3); */
     }
 
     &.tooltip-top-left:before,
