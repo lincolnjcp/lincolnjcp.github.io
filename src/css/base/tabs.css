@@ -1,0 +1,46 @@
+/*******************************************
+/* Tabs
+*******************************************/
+
+.tab-container{
+  & .tab-header{
+    border-bottom: 1px solid $color-concrete;
+
+    & li{
+      display: inline-block;
+      max-width: 144px;
+      width: 144px;
+      max-height: 48px;
+      height: 48px;
+      line-height: 48px;
+      text-align: center;
+      cursor: pointer;
+      color: $color-penneyred;
+
+      &:hover{
+        text-decoration: underline;
+      }
+
+      &.tab-lbl{
+
+        /*  Active state */
+        &.tab-lbl-active{
+          font-weight: $font-weight-bold;
+          color: $color-nightsky;
+          text-decoration: none;
+          border-bottom: 4px solid $color-penneyred;
+
+          &:hover{
+            text-decoration: none;
+          }
+        }
+        
+        /*  Disabled state */
+        &.tab-lbl-disabled{
+          margin-top: -1px;
+          @apply --disabled;
+        }
+      }
+    }
+  }
+}

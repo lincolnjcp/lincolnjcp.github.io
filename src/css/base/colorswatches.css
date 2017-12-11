@@ -1,0 +1,124 @@
+/***************************************************
+/* Colors Swatches
+/* Found on PDP
+***************************************************/
+.color-swatches-block {
+  width: 100%;
+
+  & .list-product-colors-container{
+    & li{
+      display: inline-block;
+      vertical-align: top;
+      margin: 8px 4px;
+    }
+
+    & li.focus {
+      border: 2px dotted var(--color-neutral-type);
+      height: 45px;
+      width: 45px;
+      display: inline;
+    }
+
+    & li:focus{
+      @include focus;
+    }
+
+    & .swatches-list-icon {
+      width: 40px;
+      height: 40px;
+      cursor: pointer;
+    }
+
+    & .list-color-swatch{
+      position: relative;
+      width: 40px;
+      height: 40px;
+      border-radius: 100%;
+      cursor: pointer;
+      overflow: hidden;
+      box-shadow: inset 0px 0px 0px 2px var(--color-white);
+      border: 1px solid var(--color-concrete);
+      background-color: var(--color-lightgrey); /* Default background color */
+      display: inline-block;
+      transition: border-color .25s ease-in-out;
+
+
+      &:hover{
+        border-color: var(--color-slate);
+      }
+
+      &.hover {
+        border-color: var(--color-penneyred);
+      }
+
+      &.list-color-swatch-active{
+        border: 2px solid var(--color-nightsky);
+
+        &.list-color-swatch-oos:hover{
+          border-color: var(--color-nightsky);
+        }
+
+        &.list-color-swatch-oos:after{
+          border-color: var(--color-nightsky);
+        }
+      }
+
+      &.list-color-swatch-oos{
+
+        &:after{
+          content: " ";
+          top: -6px;
+          left: 50%;
+          position: absolute;
+          display: block;
+          width: 4px;
+          height: 48px;
+          border-right: 1px solid var(--color-concrete);
+          border-left: 1px solid var(--color-concrete);
+          background-color: var(--color-white);
+          transform: rotate(45deg);
+        }
+      }
+      & .oos-selected {
+        &:after {
+          border-right: 1px solid var(--color-concrete);
+          border-left: 1px solid var(--color-concrete);
+        }
+
+      }
+    }
+  }
+  
+  & .color-swatches-medium li {
+    & .list-color-swatch, &.swatches-list-icon {
+      width: 24px;
+      height: 24px;
+    }
+  }
+
+  & .color-swatches-small li {
+    & .list-color-swatch, &.swatches-list-icon {
+      width: 16px;
+      height: 16px;
+    }
+  }
+
+  & .show-all-cta {
+    text-align: right;
+    display: block;
+    padding-right: 40px;
+  }
+
+  & .swatches-grid {
+    display: flex;
+    justify-content: space-around;
+
+    & li {
+      margin: 0 16px;
+      text-align: center;
+    }
+  }
+}
+.fl-left {
+  float: left;
+}

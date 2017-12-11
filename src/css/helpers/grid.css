@@ -1,0 +1,443 @@
+/**
+    purecss Grid Structure with 4 Break Points
+    https://app.zeplin.io/project.html#pid=588a77ff0deb55f27cd8829f&sid=58909dcc1e71c1f114e8d76
+**/
+
+/**
+    Optional Row Block used to maintain the 100% covered width to fill the bg colors if neeeded
+    https://app.zeplin.io/project.html#pid=58458704afbe585d24837b39&sid=589552c90193a3231e7179e9
+
+    <div class="rowBlock bgGray"> // For eg to cover the whole row and fill the bg
+        <div class="row"> // Row Block
+            <div class="col12">For full width for all the resolutions </div>
+            <div class="sm12 md8 lg6 xl4">Width Changed Based on the resolution </div>
+        </div>
+    </div>
+**/
+
+img {
+    max-width: 100%;
+}
+
+.rowBlock {
+    margin: 0;
+}
+/* Row Block Ends */
+
+/* Col Util Property have to use only for the common grid width for all the resolution */
+
+.col1,
+.col2,
+.col3,
+.col4,
+.col5,
+.col6,
+.col7,
+.col8,
+.col9,
+.col10,
+.col11,
+.col12 {
+    display: inline-block;
+    zoom: 1;
+    letter-spacing: normal;
+    word-spacing: normal;
+    vertical-align: top;
+    text-rendering: auto;
+    padding-left: 8px;
+    padding-right: 8px;
+
+    @media (--viewport-lg) {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+}
+
+.col1 {
+    width: 8.3333%;
+}
+
+.col2 {
+    width: 16.6667%;
+}
+
+.col3 {
+    width: 25%;
+}
+
+.col4 {
+    width: 33.3333%;
+}
+
+.col5 {
+    width: 41.6667%;
+}
+
+.col6 {
+    width: 50%;
+}
+
+.col7 {
+    width: 58.3333%;
+}
+
+.col8 {
+    width: 66.6667%;
+}
+
+.col9 {
+    width: 75%;
+}
+
+.col10 {
+    width: 83.3333%;
+}
+
+.col11 {
+    width: 91.6667%;
+}
+
+.col12 {
+    width: 100%;
+}
+
+/*@media (--viewport-sm) {*/
+    .row {
+        margin: 0 4px;
+    }
+
+    .row .row {
+        margin: 0 -8px;
+    }
+
+    .sm1,
+    .sm2,
+    .sm3,
+    .sm4,
+    .sm5,
+    .sm6,
+    .sm7,
+    .sm8,
+    .sm9,
+    .sm10,
+    .sm11,
+    .sm12 {
+        display: inline-block;
+        zoom: 1;
+        letter-spacing: normal;
+        word-spacing: normal;
+        vertical-align: top;
+        text-rendering: auto;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    .sm1 {
+        width: 8.3333%;
+    }
+
+    .sm2 {
+        width: 16.6667%;
+    }
+
+    .sm3 {
+        width: 25%;
+    }
+
+    .sm4 {
+        width: 33.3333%;
+    }
+
+    .sm5 {
+        width: 41.6667%;
+    }
+
+    .sm6 {
+        width: 50%;
+    }
+
+    .sm7 {
+        width: 58.3333%;
+    }
+
+    .sm8 {
+        width: 66.6667%;
+    }
+
+    .sm9 {
+        width: 75%;
+    }
+
+    .sm10 {
+        width: 83.3333%;
+    }
+
+    .sm11 {
+        width: 91.6667%;
+    }
+
+    .sm12 {
+        width: 100%;
+    }
+/*}*/
+
+@media (--viewport-md) {
+    .row {
+        margin: 0 12px;
+    }
+
+    .md1,
+    .md2,
+    .md3,
+    .md4,
+    .md5,
+    .md6,
+    .md7,
+    .md8,
+    .md9,
+    .md10,
+    .md11,
+    .md12 {
+        display: inline-block;
+        zoom: 1;
+        letter-spacing: normal;
+        word-spacing: normal;
+        vertical-align: top;
+        text-rendering: auto;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    .md1 {
+        width: 8.3333%;
+    }
+
+    .md2 {
+        width: 16.6667%;
+    }
+
+    .md3 {
+        width: 25%;
+    }
+
+    .md4 {
+        width: 33.3333%;
+    }
+
+    .md5 {
+        width: 41.6667%;
+    }
+
+    .md6 {
+        width: 50%;
+    }
+
+    .md7 {
+        width: 58.3333%;
+    }
+
+    .md8 {
+        width: 66.6667%;
+    }
+
+    .md9 {
+        width: 75%;
+    }
+
+    .md10 {
+        width: 83.3333%;
+    }
+
+    .md11 {
+        width: 91.6667%;
+    }
+
+    .md12 {
+        width: 100%;
+    }
+}
+
+@media (--viewport-lg) {
+    .row {
+        margin: 0 12px;
+    }
+
+    .row .row {
+        margin: 0 -12px;
+    }
+
+    .sm1,
+    .sm2,
+    .sm3,
+    .sm4,
+    .sm5,
+    .sm6,
+    .sm7,
+    .sm8,
+    .sm9,
+    .sm10,
+    .sm11,
+    .sm12,
+    .md1,
+    .md2,
+    .md3,
+    .md4,
+    .md5,
+    .md6,
+    .md7,
+    .md8,
+    .md9,
+    .md10,
+    .md11,
+    .md12 {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+
+    .lg1,
+    .lg2,
+    .lg3,
+    .lg4,
+    .lg5,
+    .lg6,
+    .lg7,
+    .lg8,
+    .lg9,
+    .lg10,
+    .lg11,
+    .lg12 {
+        display: inline-block;
+        zoom: 1;
+        letter-spacing: normal;
+        word-spacing: normal;
+        vertical-align: top;
+        text-rendering: auto;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .lg1 {
+        width: 8.3333%;
+    }
+
+    .lg2 {
+        width: 16.6667%;
+    }
+
+    .lg3 {
+        width: 25%;
+    }
+
+    .lg4 {
+        width: 33.3333%;
+    }
+
+    .lg5 {
+        width: 41.6667%;
+    }
+
+    .lg6 {
+        width: 50%;
+    }
+
+    .lg7 {
+        width: 58.3333%;
+    }
+
+    .lg8 {
+        width: 66.6667%;
+    }
+
+    .lg9 {
+        width: 75%;
+    }
+
+    .lg10 {
+        width: 83.3333%;
+    }
+
+    .lg11 {
+        width: 91.6667%;
+    }
+
+    .lg12 {
+        width: 100%;
+    }
+}
+
+@media (--viewport-xl) {
+    .row {
+        margin: 0 16px;
+    }
+
+    .xl1,
+    .xl2,
+    .xl3,
+    .xl4,
+    .xl5,
+    .xl6,
+    .xl7,
+    .xl8,
+    .xl9,
+    .xl10,
+    .xl11,
+    .xl12 {
+        display: inline-block;
+        zoom: 1;
+        letter-spacing: normal;
+        word-spacing: normal;
+        vertical-align: top;
+        text-rendering: auto;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .xl1 {
+        width: 8.3333%;
+    }
+
+    .xl2 {
+        width: 16.6667%;
+    }
+
+    .xl3 {
+        width: 25%;
+    }
+
+    .xl4 {
+        width: 33.3333%;
+    }
+
+    .xl5 {
+        width: 41.6667%;
+    }
+
+    .xl6 {
+        width: 50%;
+    }
+
+    .xl7 {
+        width: 58.3333%;
+    }
+
+    .xl8 {
+        width: 66.6667%;
+    }
+
+    .xl9 {
+        width: 75%;
+    }
+
+    .xl10 {
+        width: 83.3333%;
+    }
+
+    .xl11 {
+        width: 91.6667%;
+    }
+
+    .xl12 {
+        width: 100%;
+    }
+}

@@ -1,0 +1,557 @@
+/***************************************************
+/* Colors
+/* Used to alter the appearance of text with classes
+***************************************************/
+
+
+/* Reds */
+.color-penneyred{
+  color: var(--color-penneyred);
+}
+
+  .color-penneyred-bg{
+    background-color: var(--color-penneyred);
+  }
+
+  .icon.color-penneyred-svg{
+    & path {
+      fill: var(--color-penneyred) !important;
+    }
+  }
+
+.color-lipstick{
+  color: var(--color-lipstick);
+}
+ 
+  .color-lipstick-bg{
+    background-color: var(--color-lipstick);
+  }
+
+  .icon.color-lipstick-svg{
+    & path {
+      fill: var(--color-lipstick) !important;
+    }
+  }
+
+.color-passion{
+  color: var(--color-passion);
+}
+
+  .color-passion-bg{
+    background-color: var(--color-passion);
+  }
+
+  .icon.color-passion-svg{
+    & path {
+      fill: var(--color-passion) !important;
+    }
+  }
+
+.color-blush{
+  color: var(--color-blush);
+}
+
+  .color-blush-bg{
+    background-color: var(--color-blush);
+  }
+
+  .icon.color-blush-svg{
+    & path {
+      fill: var(--color-blush) !important;
+    }
+  }
+
+/*  Greys */
+
+.color-nightsky{
+  color: var(--color-nightsky);
+}
+
+  .color-nightsky-bg{
+    background-color: var(--color-nightsky);
+  }
+
+  .icon.color-nightsky-svg{
+    & path {
+      fill: var(--color-nightsky) !important;
+    }
+  }
+
+.color-slate{
+  color: var(--color-slate);
+}
+
+  .color-slate-bg{
+    background-color: var(--color-slate);
+  }
+
+  .icon.color-slate-svg{
+    & path {
+      fill: var(--color-slate) !important;
+    }
+  }
+
+.color-shadow{
+  color: var(--color-shadow);
+}
+
+  .color-shadow-bg{
+    background-color: var(--color-shadow);
+  }
+
+  .icon.color-shadow-svg{
+    & path {
+      fill: var(--color-shadow) !important;
+    }
+  }
+
+.color-concrete{
+  color: var(--color-concrete);
+}
+
+  .color-concrete-bg{
+    background-color: var(--color-concrete);
+  }
+
+  .icon.color-concrete-svg{
+    & path {
+      fill: var(--color-concrete) !important;
+    }
+  }
+
+.color-lightgrey{
+  color: var(--color-lightgrey);
+}
+
+  .color-lightgrey-bg{
+    background-color: var(--color-lightgrey);
+  }
+
+  .icon.color-lightgrey-svg{
+    & path {
+      fill: var(--color-lightgrey) !important;
+    }
+  }
+
+.color-white{
+  color: var(--color-white);
+}
+
+  .color-white-bg{
+    background-color: var(--color-white);
+  }
+
+  .icon.color-white-svg{
+    & path {
+      fill: var(--color-white) !important;
+    }
+  }
+/*  Errors */
+.color-error-type{
+  color: var(--color-error-type);
+}
+
+  .color-error-type-bg{
+    background-color: var(--color-error-type);
+  }
+
+.color-error-border{
+  color: var(--color-error-border);
+}
+
+  .color-error-border-bg{
+    background-color: var(--color-error-border);
+  }
+
+.color-error-fill{
+  color: var(--color-error-fill);
+}
+
+  .color-error-fill-bg{
+    background-color: var(--color-error-fill);
+  }
+
+
+
+/*  Warning */
+.color-warning-type{
+  color: var(--color-warning-type);
+}
+
+  .color-warning-type-bg{
+    background-color: var(--color-warning-type);
+  }
+
+.color-warning-border{
+  color: var(--color-warning-border);
+}
+
+  .color-warning-border-bg{
+    background-color: var(--color-warning-border);
+  }
+
+.color-warning-fill{
+  color: var(--color-warning-fill);
+}
+
+  .color-warning-fill-bg{
+    background-color: var(--color-warning-fill);
+  }
+
+
+/*  Success */
+.color-success-type{
+  color: var(--color-success-type);
+}
+
+  .color-success-type-bg{
+    background-color: var(--color-success-type);
+  }
+
+.color-success-border{
+  color: var(--color-success-border);
+}
+
+  .color-success-border-bg{
+    background-color: var(--color-success-border);
+  }
+
+.color-success-fill{
+  color: var(--color-success-fill);
+}
+
+  .color-success-fill-bg{
+    background-color: var(--color-success-fill);
+  }
+
+
+/*  Neutral */
+.color-neutral-type{
+  color: var(--color-neutral-type);
+}
+
+  .color-neutral-type-bg{
+    background-color: var(--color-neutral-type);
+  }
+
+.color-neutral-border{
+  color: var(--color-neutral-border);
+}
+
+  .color-neutral-border-bg{
+    background-color: var(--color-neutral-border);
+  }
+
+.color-neutral-fill{
+  color: var(--color-error-fill);
+}
+
+  .color-neutral-fill-bg{
+    background-color: var(--color-neutral-fill);
+  }
+
+
+
+
+/*  Rewards */
+.color-rewards-eggplant{
+  color: var(--color-rewards-eggplant);
+}
+
+  .color-rewards-eggplant-bg{
+    background-color: var(--color-rewards-eggplant);
+  }
+
+.color-rewards-grape{
+  color: var(--color-rewards-grape);
+}
+
+  .color-rewards-grape-bg{
+    background-color: var(--color-rewards-grape);
+  }
+
+.color-rewards-plum{
+  color: var(--color-rewards-plum);
+}
+
+  .color-rewards-plum-bg{
+    background-color: var(--color-rewards-plum);
+  }
+
+/*  plcc */
+.color-rewards-platinum-1{
+  color: var(--color-rewards-platinum-1);
+}
+
+  .color-rewards-platinum-1-bg{
+    background-color: var(--color-rewards-platinum-1);
+  }
+
+.color-rewards-platinum-2{
+  color: var(--color-rewards-platinum-2);
+}
+
+  .color-rewards-platinum-2-bg{
+    background-color: var(--color-rewards-platinum-2);
+  }
+
+.color-rewards-platinum-3{
+  color: var(--color-rewards-platinum-3);
+}
+
+  .color-rewards-platinum-3-bg{
+    background-color: var(--color-rewards-platinum-3);
+  }
+
+/*  Gold */
+.color-rewards-gold-1{
+  color: var(--color-rewards-gold-1);
+}
+
+  .color-rewards-gold-1-bg{
+    background-color: var(--color-rewards-gold-1);
+  }
+
+.color-rewards-gold-2{
+  color: var(--color-rewards-gold-2);
+}
+
+  .color-rewards-gold-2-bg{
+    background-color: var(--color-rewards-gold-2);
+  }
+
+.color-rewards-gold-3{
+  color: var(--color-rewards-gold-3);
+}
+
+  .color-rewards-gold-3-bg{
+    background-color: var(--color-rewards-gold-3);
+  }
+
+/*  Marketing */
+.color-mrk-brown-1{
+  color: var(--color-marketing-brown-1);
+}
+
+  .color-marketing-brown-1-bg{
+    background-color: var(--color-marketing-brown-1);
+  }
+
+.color-marketing-brown-2{
+  color: var(--color-marketing-brown-2);
+}
+
+  .color-marketing-brown-2-bg{
+    background-color: var(--color-marketing-brown-2);
+  }
+
+.color-marketing-brown-3{
+  color: var(--color-marketing-brown-3);
+}
+
+  .color-marketing-brown-3-bg{
+    background-color: var(--color-marketing-brown-3);
+  }
+
+/*  orange */
+.color-marketing-orange-1{
+  color: var(--color-marketing-orange-1);
+}
+
+  .color-marketing-orange-1-bg{
+    background-color: var(--color-marketing-orange-1);
+  }
+
+.color-marketing-orange-2{
+  color: var(--color-marketing-orange-2);
+}
+
+  .color-marketing-orange-2-bg{
+    background-color: var(--color-marketing-orange-2);
+  }
+
+.color-marketing-orange-3{
+  color: var(--color-marketing-orange-3);
+}
+
+  .color-marketing-orange-3-bg{
+    background-color: var(--color-marketing-orange-3);
+  }
+
+/*  green */
+.color-marketing-green-1{
+  color: var(--color-marketing-green-1);
+}
+
+  .color-marketing-green-1-bg{
+    background-color: var(--color-marketing-green-1);
+  }
+
+.color-marketing-green-2{
+  color: var(--color-marketing-green-2);
+}
+
+  .color-marketing-green-2-bg{
+    background-color: var(--color-marketing-green-2);
+  }
+
+.color-marketing-green-3{
+  color: var(--color-marketing-green-3);
+}
+
+  .color-marketing-green-3-bg{
+    background-color: var(--color-marketing-green-3);
+  }
+
+/*  Aqua */
+.color-marketing-aqua-1{
+  color: var(--color-marketing-aqua-1);
+}
+
+  .color-marketing-aqua-1-bg{
+    background-color: var(--color-marketing-aqua-1);
+  }
+
+.color-marketing-aqua-2{
+  color: var(--color-marketing-aqua-2);
+}
+
+  .color-marketing-aqua-2-bg{
+    background-color: var(--color-marketing-aqua-2);
+  }
+
+.color-marketing-aqua-3{
+  color: var(--color-marketing-aqua-3);
+}
+
+  .color-marketing-aqua-3-bg{
+    background-color: var(--color-marketing-aqua-3);
+  }
+
+/*  blue */
+.color-marketing-blue-1{
+  color: var(--color-marketing-blue-1);
+}
+
+  .color-marketing-blue-1-bg{
+    background-color: var(--color-marketing-blue-1);
+  }
+
+.color-marketing-blue-2{
+  color: var(--color-marketing-blue-2);
+}
+
+  .color-marketing-blue-2-bg{
+    background-color: var(--color-marketing-blue-2);
+  }
+
+.color-marketing-blue-3{
+  color: var(--color-marketing-blue-3);
+}
+
+  .color-marketing-blue-3-bg{
+    background-color: var(--color-marketing-blue-3);
+  }
+
+/*  pink */
+.color-marketing-pink-1{
+  color: var(--color-marketing-pink-1);
+}
+
+  .color-marketing-pink-1-bg{
+    background-color: var(--color-marketing-pink-1);
+  }
+
+.color-marketing-pink-2{
+  color: var(--color-marketing-pink-2);
+}
+
+  .color-marketing-pink-2-bg{
+    background-color: var(--color-marketing-pink-2);
+  }
+
+.color-marketing-pink-3{
+  color: var(--color-marketing-pink-3);
+}
+
+  .color-marketing-pink-3-bg{
+    background-color: var(--color-marketing-pink-3);
+  }
+
+/*  Black Friday */
+.color-blackfriday-primary-1{
+  color: var(--color-blackfriday-primary-1);
+}
+
+  .color-blackfriday-primary-1-bg{
+    background-color: var(--color-blackfriday-primary-1);
+  }
+
+.color-blackfriday-primary-2{
+  color: var(--color-blackfriday-primary-2);
+}
+
+  .color-blackfriday-primary-2-bg{
+    background-color: var(--color-blackfriday-primary-2);
+  }
+
+.color-blackfriday-secondary-1{
+  color: var(--color-blackfriday-secondary-1);
+}
+
+  .color-blackfriday-secondary-1-bg{
+    background-color: var(--color-blackfriday-secondary-1);
+  }
+
+.color-blackfriday-secondary-2{
+  color: var(--color-blackfriday-secondary-2);
+}
+
+  .color-blackfriday-secondary-2-bg{
+    background-color: var(--color-blackfriday-secondary-2);
+  }
+
+.color-blackfriday-tertiary-1{
+  color: var(--color-blackfriday-tertiary-1);
+}
+
+  .color-blackfriday-tertiary-1-bg{
+    background-color: var(--color-blackfriday-tertiary-1);
+  }
+
+.color-blackfriday-tertiary-2{
+  color: var(--color-blackfriday-tertiary-2);
+}
+
+  .color-blackfriday-tertiary-2-bg{
+    background-color: var(--color-blackfriday-tertiary-2);
+  }
+
+/*  Seasons */
+.color-xmas-bg{
+  background-color: var(--color-blackfriday-secondary-1);
+}
+
+.color-mothersday-bg{
+  background-color: var(--color-blackfriday-secondary-1);
+}
+
+.color-cybermonday-bg{
+  background-color: var(--color-blackfriday-secondary-1);
+}
+
+.color-backtoschool-bg{
+  background-color: var(--color-blackfriday-secondary-1);
+}
+
+.color-fathersday-bg{
+  background-color: var(--color-blackfriday-secondary-1);
+}
+
+.color-halloween-bg{
+  background-color: var(--color-blackfriday-secondary-1);
+}
+
+.color-4thofjuly-bg{
+  background-color: var(--color-blackfriday-secondary-1);
+}

@@ -1,0 +1,57 @@
+/*********************************************
+/* Notification Messages
+*********************************************/
+
+.msg{
+  border-style: solid;
+  border-width: 1px;
+  border-radius: var(--border-radius-M);
+  padding: 8px 22px 8px 16px;
+  position: relative;
+  line-height: 24px;
+
+  & a{
+    color: inherit;
+  }
+
+  &.msg-neutral{
+    border-color: var(--color-neutral-border);
+    color: var(--color-neutral-type);
+    background-color: var(--color-neutral-fill);
+  }
+
+  &.msg-success{
+    border-color: var(--color-success-border);
+    background-color: var(--color-success-fill);
+    color: var(--color-success-type);
+  }
+
+  &.msg-warning{
+    border-color: var(--color-warning-border);
+    background-color: var(--color-warning-fill);
+    color: var(--color-warning-type);
+  }
+
+  &.msg-error{
+    border-color: var(--color-error-border);
+    background-color: var(--color-error-fill);
+    color: var(--color-error-type);
+  }
+
+  &.msg-inline{
+    display:inline-block;
+  }
+
+  & .msg-close{
+    position: absolute;
+    top: 8px;
+    display: block;
+    right: 4px;
+    cursor: pointer;
+    background: url("var(--path-images)global/icons/nav/close.svg") no-repeat;
+    width: 16px;
+    height: 16px;
+    background-size: contain;
+    padding: 0;
+  }
+}

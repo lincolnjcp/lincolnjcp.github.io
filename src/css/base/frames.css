@@ -1,0 +1,16 @@
+/***************************************************
+/* Frames
+/* Round border boxes
+***************************************************/
+
+.frame-S{
+  @apply --frame-S;
+}
+
+.frame-M{
+  @apply --frame-M;
+}
+
+.frame-L{
+  @apply --frame-L;
+}
