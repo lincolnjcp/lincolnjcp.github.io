@@ -26,11 +26,11 @@ Base Styles
 @import "base/wells";
 @import "../js/components/content-loaders/content-loaders";
 @import "../js/components/dropdown-button/dropdown-button";
-@import "base/content-forms";
+@import "../js/components/forms/content-forms";
+@import "../js/components/star-ratings/star-ratings";
 @import "base/progressbars";
 @import "base/colorswatches";
 @import "base/pagination";
-@import "base/star-ratings";
 @import "base/visual-nav";
 @import "base/toggles";
 @import "base/carousel";

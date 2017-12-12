@@ -255,6 +255,7 @@ fieldset {
 
 /* Animation on <label> */
 .form-css-label {
+  position: relative;
   & input {
     min-width: 200px;
 	/* 

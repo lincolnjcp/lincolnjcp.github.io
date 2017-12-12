@@ -12,6 +12,7 @@ import ContentLoaders from '../components/content-loaders';
 import DropdownButton from '../components/dropdown-button';
 import Tables from '../components/tables';
 import Forms from '../components/forms';
+import StarRatings from '../components/star-ratings';
 
 import SubNav from './SubNav';
 
@@ -30,7 +31,8 @@ class DesignSystemPage extends Component {
    ContentLoaders: {componentElement: ContentLoaders, componentDisplayName: "Content Loaders", componentSubNav: ['Code Generator', 'Types', 'Lazy Load']},
    Tables: {componentElement: Tables, componentDisplayName: "Tables", componentSubNav: ['Code Generator', 'Standard', 'Feature']},
    Forms: {componentElement: Forms, componentDisplayName: "Forms", componentSubNav: ['Code Generator', 'When to Use', 'Appearance', 'Form Validation', 'Sample Layout', 'Related Content']},
-   DropdownButton: {componentElement: DropdownButton, componentDisplayName: "Content Loaders", componentSubNav: ['Code Generator', 'Types', 'Lazy Load']}
+   DropdownButton: {componentElement: DropdownButton, componentDisplayName: "Content Loaders", componentSubNav: ['Code Generator', 'Types', 'Lazy Load']},
+   StarRatings: {componentElement: StarRatings, componentDisplayName: "Content Loaders", componentSubNav: ['Code Generator', 'Types', 'Lazy Load']}
   }
 
   const Scene = routes[this.props.componentName].componentElement;

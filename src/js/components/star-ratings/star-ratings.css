@@ -9,25 +9,11 @@
   display: inline-block;
   font-size: 14px;
 
-  & .star-ratings-value{
-    position: absolute;
-    top: 0;
-    left: 0;
-    overflow: hidden;
-    width: 85%;
-
-    & li{
-      color: var(--color-penneyred);
-    }
-  }
-
   & li{
     display: inline-block;
-    color: var(--color-concrete);
-
-    &.star-ratings-total{
-      font-size: 10px;
-      margin-left: 4px;
+    color: var(--color-penneyred);
+    &.star-disable {
+      color: var(--color-concrete);
     }
   }
 
@@ -36,6 +22,12 @@
     font-size: 16px;
     & .star-ratings-total{
       font-size: 12px;
+    }
+  }
+  &.star-ratings-XL{
+    & li {
+      font-size: 32px;
+      padding: 0 5px;
     }
   }
 }
