@@ -21,79 +21,60 @@ class ContentLoaders extends Component {
                     <div className="sm12 columns">
                         <hr />
                         <h3 className="title title-L mrg-L">Code Generator</h3>
-            
-            
-                        <CodeGenerator 
+
+
+                        <CodeGenerator
                             formFields={
                                 [
-                                    
-                                    { 
+
+                                    {
                                         fieldType: 'select',
                                         displayLabel: 'Status',
                                         name: 'code_alert_status',
                                         value: [
                                             {
-                                                text: 'Neutral',
+                                                text: 'Large',
                                                 value: 'msg-neutral'
                                             },
                                             {
-                                                text: 'Success',
+                                                text: 'Medium',
                                                 value: 'msg-success'
                                             },
                                             {
-                                                text: 'Warning',
+                                                text: 'Small',
                                                 value: 'msg-warning'
-                                            },
-                                            {
-                                                text: 'Error',
-                                                value: 'msg-error'
                                             }
-            
                                         ],
                                         defaultSelect: 'msg-success'
-                                    },
-                                    { 
-                                        fieldType: 'checkbox',
-                                        displayLabel: 'Inline',
-                                        name: 'code_alert_width',
-                                        value: 'msg-inline',
-                                        defaultSelect: ''
-                                    },
-                                    { 
-                                        fieldType: 'checkbox',
-                                        displayLabel: 'Dismissable',
-                                        name: 'code_alert_dismissable',
-                                        value: '[[format_br]]<[[format_tag_start]]button[[format_tag_end]] [[format_attribute_start]]type="[[format_attribute_end]][[format_tag_value_start]]button[[format_tag_value_end]][[format_attribute_start]]" class="[[format_attribute_end]][[format_tag_value_start]]msg-close[[format_tag_value_end]][[format_attribute_start]]"[[format_attribute_end]]></[[format_tag_start]]button[[format_tag_end]]>',
-                                        defaultSelect: 'true'
                                     }
                                 ]}
-            
-                                htmlPattern={ 
-                                    [
-                                        {
-                                            default: [
-                                                {
-                                                    html:`<[[format_tag_start]]div[[format_tag_end]] [[format_attribute_start]]
+
+                            htmlPattern={
+                                [
+                                    {
+                                        default: [
+                                            {
+                                                html: `<[[format_tag_start]]div[[format_tag_end]] [[format_attribute_start]]
                                                                 class="[[format_attribute_end]][[format_tag_value_start]]msg mrg-M [[code_alert_status]] [[code_alert_width]] [[format_tag_value_end]][[format_attribute_start]]"[[format_attribute_end]]>
                                                                 [[format_tab_start]]
                                                                     This is an alert message.[[code_alert_dismissable]]
                                                                 [[format_tab_end]]
                                                             <[[format_tag_start]]/div[[format_tag_end]]>`,
-                                                },
-                                                {
-                                                    javascript:``,                                        
-                                                }
-            
-                                            ]
-                                        }
-                                    ]} 
-                                    
-            
-                            />
+                                            },
+                                            {
+                                                javascript: ``,
+                                            }
+
+                                        ]
+                                    }
+                                ]}
+
+
+                        />
                     </div>
                 </div>
-            
-            
+
+
                 <div className="row" id="when-to-use">
                     <div className="sm12 columns">
                         <h3 className="title title-L mrg-L">When to Use</h3>
@@ -107,10 +88,10 @@ class ContentLoaders extends Component {
                         <p className="max-width-text mrg-XL">Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras justo odio, dapibus ac facilisis in, egestas eget quam.</p>
                         <div className="row">
                             <div className="sm12 md5 lg4 columns star-preview-col">
-                                <ul className="star-ratings star-ratings-XL">
-                                    <li>★</li>
-                                    <li>★</li>
-                                    <li className="star-disable">★</li>
+                                <ul className="star-ratings-XL">
+                                    <li className="star-ratings full">★</li>
+                                    <li className="star-ratings half">★</li>
+                                    <li className="star-ratings inactive">★</li>
                                 </ul>
                             </div>
                             <div className="sm12 md7 lg8 columns">
@@ -120,23 +101,29 @@ class ContentLoaders extends Component {
                         </div>
                         <div className="row">
                             <div className="sm12 md5 lg4 columns star-preview-col">
-                            <ul className="star-ratings star-ratings-L">
-                                <li className="title">
-                                    <p>Example of Gallery Product</p>
-                                </li>
-                                <li>★</li>
-                                <li>★</li>
-                                <li>★</li>
-                                <li>★</li>
-                                <li>★</li>
-                            </ul>
+                                <p className="S">Example of Gallery Product</p>
+                                <ul className="star-ratings-L">
+                                    <li className="star-ratings full">★</li>
+                                    <li className="star-ratings full">★</li>
+                                    <li className="star-ratings full">★</li>
+                                    <li className="star-ratings full">★</li>
+                                    <li className="star-ratings inactive">★<span className="rating-count">(47)</span></li>
+                                </ul><br/><br/>
+                                <p className="XS">Example of Rec Zone Product </p>
+                                <ul className="star-ratings-S">
+                                    <li className="star-ratings full">★</li>
+                                    <li className="star-ratings full">★</li>
+                                    <li className="star-ratings full">★</li>
+                                    <li className="star-ratings full">★</li>
+                                    <li className="star-ratings inactive">★<span className="rating-count">(47)</span></li>
+                                </ul>
                             </div>
                             <div className="sm12 md7 lg8 columns">
                                 <h5 className="title title-M mrg-S">Sizing</h5>
                                 <p className="max-width-text mrg-XL">Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec ullamcorper nulla non metus auctor fringilla. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. </p>
                             </div>
                         </div>
-                        
+
                     </div>
                 </div>
                 <div className="row">
