@@ -158,6 +158,11 @@ const rootNav = [
                 content: 'Tooltips',
             },
             {
+                to: '/components/scrollbar',
+                activeClassName: 'active',
+                content: 'Scrollbar',
+            },
+            {
                 to: '/',
                 activeClassName: 'inactive',
                 content: 'Video Player',

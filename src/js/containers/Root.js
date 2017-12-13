@@ -168,6 +168,7 @@ class App extends React.Component {
                             <Route exact path="/components/forms" render={() => <DesignSystemPage componentName="Forms" />} />
                             <Route exact path="/components/dropdown-button" render={() => <DesignSystemPage componentName="DropdownButton" />} />
                             <Route exact path="/components/star-ratings" render={() => <DesignSystemPage componentName="StarRatings" />} />
+                            <Route exact path="/components/scrollbar" render={() => <DesignSystemPage componentName="Scrollbar" />} />
                         </div>
                     </div>
 
