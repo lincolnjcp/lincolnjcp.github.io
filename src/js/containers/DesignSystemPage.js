@@ -34,7 +34,7 @@ class DesignSystemPage extends Component {
    Forms: {componentElement: Forms, componentDisplayName: "Forms", componentSubNav: ['Code Generator', 'When to Use', 'Appearance', 'Form Validation', 'Sample Layout', 'Related Content']},
    DropdownButton: {componentElement: DropdownButton, componentDisplayName: "Content Loaders", componentSubNav: ['Code Generator', 'Types', 'Lazy Load']},
    StarRatings: {componentElement: StarRatings, componentDisplayName: "Content Loaders", componentSubNav: ['Code Generator', 'Types', 'Lazy Load']},
-   Scrollbar: {componentElement: Scrollbar, componentDisplayName: "Content Loaders", componentSubNav: ['Code Generator', 'Types', 'Lazy Load']}
+   Scrollbar: {componentElement: Scrollbar, componentDisplayName: "Content Loaders", componentSubNav: ['Scrollbar']}
   }
 
   const Scene = routes[this.props.componentName].componentElement;

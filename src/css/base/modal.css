@@ -23,7 +23,7 @@
     display: block;
     right: 8px;
     cursor: pointer;
-    background: url("var(--path-images-pages)global/icons/nav/close.svg") no-repeat;
+    background: url("var(--path-images)global/icons/nav/close.svg") no-repeat;
     width: 24px;
     height: 24px;
     background-size: contain;
