@@ -168,8 +168,8 @@ const rootNav = [
                 content: 'Video Player',
             },
             {
-                to: '/',
-                activeClassName: 'inactive',
+                to: '/components/visual-navigation',
+                activeClassName: 'active',
                 content: 'Visual Navigation',
             },
             {
