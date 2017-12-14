@@ -1268,6 +1268,10 @@ Base Styles
 }
 
 /* Grid */
+
+.grid-preview { 
+  height: 8px; 
+}
 .design-system-grid-preview {
     & .row {
         background-color:#aaf2ff;

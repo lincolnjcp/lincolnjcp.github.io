@@ -15,6 +15,11 @@
     </div>
 **/
 
+
+
+
+
+
 img {
     max-width: 100%;
 }
@@ -25,6 +30,10 @@ img {
 /* Row Block Ends */
 
 /* Col Util Property have to use only for the common grid width for all the resolution */
+.row {
+    margin: 0 auto;
+    display: block;
+}
 
 .col1,
 .col2,
@@ -103,11 +112,13 @@ img {
 
 /*@media (--viewport-sm) {*/
     .row {
-        margin: 0 4px;
+        
+        max-width: 320px;
     }
 
     .row .row {
-        margin: 0 -8px;
+        margin-left: -16px;
+        margin-right: -16px;
     }
 
     .sm1,
@@ -128,8 +139,8 @@ img {
         word-spacing: normal;
         vertical-align: top;
         text-rendering: auto;
-        padding-left: 8px;
-        padding-right: 8px;
+        padding-left: 16px;
+        padding-right: 16px;
     }
 
     .sm1 {
@@ -183,9 +194,12 @@ img {
 
 @media (--viewport-md) {
     .row {
-        margin: 0 12px;
+        max-width: 704px;
     }
-
+     .row .row {
+        margin-left: -16px;
+        margin-right: -16px;
+    }
     .md1,
     .md2,
     .md3,
@@ -204,8 +218,8 @@ img {
         word-spacing: normal;
         vertical-align: top;
         text-rendering: auto;
-        padding-left: 8px;
-        padding-right: 8px;
+        padding-left: 16px;
+        padding-right: 16px;
     }
 
     .md1 {
@@ -259,11 +273,12 @@ img {
 
 @media (--viewport-lg) {
     .row {
-        margin: 0 12px;
+        max-width: 944px;
     }
 
     .row .row {
-        margin: 0 -12px;
+        margin-left: -16px;
+        margin-right: -16px;
     }
 
     .sm1,
@@ -290,8 +305,8 @@ img {
     .md10,
     .md11,
     .md12 {
-        padding-left: 12px;
-        padding-right: 12px;
+        padding-left: 16px;
+        padding-right: 16px;
     }
 
 
@@ -313,8 +328,8 @@ img {
         word-spacing: normal;
         vertical-align: top;
         text-rendering: auto;
-        padding-left: 12px;
-        padding-right: 12px;
+        padding-left: 16px;
+        padding-right: 16px;
     }
 
     .lg1 {
@@ -368,7 +383,7 @@ img {
 
 @media (--viewport-xl) {
     .row {
-        margin: 0 16px;
+        max-width: 1328px;
     }
 
     .xl1,
@@ -389,8 +404,8 @@ img {
         word-spacing: normal;
         vertical-align: top;
         text-rendering: auto;
-        padding-left: 12px;
-        padding-right: 12px;
+        padding-left: 16px;
+        padding-right: 16px;
     }
 
     .xl1 {
@@ -439,5 +454,54 @@ img {
 
     .xl12 {
         width: 100%;
+    }
+}
+
+.hide-for-xlarge-only {
+    @media (--viewport-xl-only) {
+        display: none;
+    }
+}
+.hide-for-large-only {
+    @media (--viewport-lg-only) {
+        display: none;
+    }
+}
+.hide-for-medium-only {
+    @media (--viewport-md-only) {
+        display: none;
+    }
+}
+.hide-for-small-only {
+    @media (--viewport-sm-only) {
+        display: none;
+    }
+}
+
+.show-for-xlarge-only,
+.show-for-large-only,
+.show-for-medium-only,
+.show-for-small-only {
+    display: none;
+}
+
+.show-for-xlarge-only {
+    @media (--viewport-xl-only) {
+        display: block;
+    }
+}
+.show-for-large-only {
+    @media (--viewport-lg-only) {
+        display: block;
+    }
+}
+.show-for-medium-only {
+    @media (--viewport-md-only) {
+        display: block;
+    }
+}
+.show-for-small-only {
+    @media (--viewport-sm-only) {
+        display: block;
     }
 }

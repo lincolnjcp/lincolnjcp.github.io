@@ -93,8 +93,8 @@ const rootNav = [
                 content: 'Content Loaders',
             },
             {
-                to: '/',
-                activeClassName: 'inactive',
+                to: '/components/countdown-timers',
+                activeClassName: 'active',
                 content: 'Countdown Timers',
             },
             {

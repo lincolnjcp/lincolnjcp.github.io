@@ -1,0 +1,308 @@
+:root {
+  @custom-media --viewport-sm-tmp (max-width: 768px);
+  @custom-media --viewport-md-tmp (max-width: 1024px );
+  @custom-media --viewport-lg-tmp (min-width: 1440px);
+
+  --cube-width: 30px;
+  --cube-height: 45px;
+  --cube-z-perspective-next: 68px;
+  --cube-z-perspective-prev: 28px;
+  --cube-z-perspective-next-s: 39px;
+  --cube-z-perspective-prev-s: 15px;
+  --cube-z-perspective-next-fixed: 30px;
+  --cube-z-perspective-prev-fixed: 8px;
+}
+
+.timer {
+    font-family: var(--font-headline);
+    background-color: #000;
+    height: 80px;
+    color: var(--color-penneyred);
+    width: 100%;
+}
+.timer-inner {
+    display: flex;
+}
+.timer-headline {
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-left: 30px;
+    font-size: 30px;
+    flex: 0 0 70%;
+    line-height: 80px;
+    text-align: center;
+    & .timer-light {
+        color: #fff;
+    }
+}
+@media (--viewport-sm-tmp) {
+  .timer-headline {
+    font-size: 12px;
+    flex: 0 0 45%;
+    text-align: right;
+    margin: 10px 9px 0 0;
+    line-height: 16px;
+  }
+}
+
+@media (--viewport-md-tmp) {
+  .timer-headline {
+    font-size: 20px;
+    line-height: 24px;
+    margin: 15px 0 0 0;
+    flex: 0 0 60%;
+  }
+}
+
+@media (--viewport-lg-tmp) {
+  .timer-headline {
+    margin-top: 8px;
+    margin-left: 20px;
+    line-height: 32px;
+    font-size: 27px;
+    flex: 0 0 56%;
+  }
+}
+
+
+@media (--viewport-sm-tmp) {
+  .timer-coupon {
+    font-size: 18px;
+    line-height: 16px;
+  }
+  .timer-ends-in {
+    display: block;
+    font-size: 11px;
+  }
+}
+
+
+@media (--viewport-lg-tmp) {
+  .timer-coupon {
+    display: block;
+  }
+}
+
+.timer-clock {
+    display: table;
+    width: 232px;
+    text-align: center;
+    color: #FFF;
+    font-weight: 500;
+    margin-top: 9px;
+
+    & .timer-group {
+        display: table-cell;
+        vertical-align: top;
+        text-align: center;
+        width: 33.3%;
+        position: relative;
+        padding-right: 6px;
+        padding-left: 5px;
+        & .timer-seperator::after {
+            content: ":";
+            position: absolute;
+            top: 0;
+            right: -2px;
+            font-size: 32px;
+        }
+    }
+}
+
+@media (--viewport-md-tmp) {
+  .timer-clock {
+    width: 136px;
+    margin-top: 18px;
+
+    & .timer-group {
+       padding-right: 5px;
+       padding-left: 0px;
+    }
+
+    &.timer-seperator::after {
+      font-size: 16px;
+      top: 2px;
+      right: 2px;
+    }
+  }
+}
+
+.timer-clock-label {
+    font-size: 14px;
+    line-height: 10px;
+    float: left;
+    clear: both;
+    width: 100%;
+    margin-top: 6px;
+}
+@media (--viewport-md-tmp) {
+  .timer-clock-label {
+        font-size: 12px;
+  }
+}
+
+.timer-clock-digit {
+    width: 30px;
+    height: 45px;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    background: #FFF;
+    border-radius: 4px;
+    margin-right: 3px;
+    transform: translateZ(0);
+}
+
+@media (--viewport-md-tmp) {
+  .timer-clock-digit {
+        width: 17px;
+        height: 28px;
+    }
+}
+
+.timer-clock-digit-inner {
+    width: var(--cube-width));
+    height: var(--cube-height));
+    transform-style: preserve-3d;
+}
+@media (--viewport-md-tmp) {
+  .timer-clock-digit-inner {
+    width: 17px;
+    height: 28px;
+  }
+}
+
+.timer-clock-digit-inner.timer-flip {
+    transition: all 450ms ease;
+}
+.timer-prev-number, .timer-next-number {
+    height: var(--cube-height);
+}
+@media (--viewport-md-tmp) {
+  .timer-prev-number, .timer-next-number {
+    height: 28px;
+  }
+}
+.timer-prev-number {
+    transform: translateZ(var(--cube-z-perspective-prev));
+}
+@media (--viewport-md-tmp) {
+  .timer-prev-number {
+    transform: translateZ(var(--cube-z-perspective-prev-s));
+  }
+}
+.timer-next-number {
+    transform: rotateX(90deg) translateZ(var(--cube-z-perspective-next));
+}
+@media (--viewport-md-tmp) {
+  .timer-next-number {
+    transform: rotateX(90deg) translateZ(var(--cube-z-perspective-next-s));
+  }
+}
+
+.timer-clock-digit-inner.timer-flip {
+    transform: rotateX(-89deg);
+}
+.timer-clock-digit-inner {
+    text-align: center;
+    margin: 0 auto;
+}
+.timer-prev-number, .timer-next-number {
+    font-size: 35px;
+    color: #000;
+    line-height: 43px;
+}
+@media (--viewport-md-tmp) {
+  .timer-prev-number, .timer-next-number {
+    font-size: 20px;
+    line-height: 27px;
+  }
+}
+.timer-next-number {
+    background: #FFF;
+}
+.timer-clock-digit-inner.timer-flip .timer-prev-number {
+    background: #bfbfbf;
+    transition: all 250ms ease;
+}
+.timer-clock-digit-inner.timer-flip .timer-next-number {
+    background: #fff;
+    transition: all 250ms ease;
+}
+@media (--viewport-sm-tmp) {
+    .timer-sticky {
+        background: none;
+        & .timer-inner {
+            position: fixed;
+            top: 24px;
+            right: 0;
+            width: 136px;
+            border-radius: 3px 0 0 3px;
+            box-shadow: 0 5px 8px 0 rgba(28,32,36,0.5);
+            display: block;
+            text-align: left;
+            height: 40px;
+            z-index: 100;
+            background: #000;
+        }
+        & .timer-hide-fixed {
+            display: none;
+        }
+        & .timer-headline {
+            line-height: 16px;
+            margin: 5px 16px 0 0;
+            display: block;
+            width: 100%;
+        }
+        & .timer-coupon {
+            font-size: 16px;
+            display: block;
+            text-align: center;
+        }
+        & .timer-ends-in {
+            position: absolute;
+            top: 22px;
+            left: 10px;
+            font-size: 11px;
+        }
+        & .timer-clock {
+            margin-top: 1px;
+            width: 87px;
+            float: right;
+            margin-right: 2px;
+        }
+        & .timer-group {
+            padding-right: 0;
+            padding-left: 0px;
+            &.timer-seperator::after {
+                font-size: 11px;
+                top: -1px;
+                right: 2px;
+            }
+        }
+        & .timer-clock-label {
+            display: none;
+        }
+        & .timer-clock-digit {
+            width: 11px;
+            height: 14px;
+            border-radius: 2px;
+            margin-right: 2px;
+        }
+        & .timer-clock-digit-inner {
+            width: 11px;
+            height: 14px;
+        }
+        & .timer-prev-number {
+            transform: translateZ(var(--cube-z-perspective-prev-fixed));
+        }
+        & .timer-next-number {
+            transform: rotateX(90deg) translateZ(var(--cube-z-perspective-next-fixed));
+        }
+        & .timer-prev-number, & .timer-next-number {
+            font-size: 14px;
+            line-height: 14px;
+            height: 14px;
+        }
+    }
+}

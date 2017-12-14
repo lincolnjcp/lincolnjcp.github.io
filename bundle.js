@@ -670,8 +670,8 @@ var rootNav = [{
         activeClassName: 'active',
         content: 'Content Loaders'
     }, {
-        to: '/',
-        activeClassName: 'inactive',
+        to: '/components/countdown-timers',
+        activeClassName: 'active',
         content: 'Countdown Timers'
     }, {
         to: '/',
@@ -706,8 +706,8 @@ var rootNav = [{
         activeClassName: 'active',
         content: 'Dropdown Button'
     }, {
-        to: '/',
-        activeClassName: 'inactive',
+        to: '/components/star-ratings',
+        activeClassName: 'active',
         content: 'Star Ratings'
     }, {
         to: '/components/tables',
@@ -722,12 +722,16 @@ var rootNav = [{
         activeClassName: 'inactive',
         content: 'Tooltips'
     }, {
+        to: '/components/scrollbar',
+        activeClassName: 'active',
+        content: 'Scrollbar'
+    }, {
         to: '/',
         activeClassName: 'inactive',
         content: 'Video Player'
     }, {
-        to: '/',
-        activeClassName: 'inactive',
+        to: '/components/visual-navigation',
+        activeClassName: 'active',
         content: 'Visual Navigation'
     }, {
         to: '/',
@@ -3486,6 +3490,318 @@ var grid_Grid = function (_Component) {
           react_default.a.createElement(
             "div",
             { className: "sm12 columns" },
+            react_default.a.createElement(
+              "div",
+              { className: "show-for-small-only" },
+              react_default.a.createElement(
+                "h4",
+                { "class": "promo-lbl promo-lbl-L mrg-S" },
+                "S 360"
+              ),
+              react_default.a.createElement(
+                "p",
+                { className: "mrg-XL algn-lft title title-L txt-weight-light txt-line-height-L color-nightsky" },
+                "width: 320px",
+                react_default.a.createElement("br", null),
+                "margin: 0 20px",
+                react_default.a.createElement("br", null),
+                "columns: 6",
+                react_default.a.createElement("br", null),
+                "column gutter: 16px",
+                react_default.a.createElement("br", null),
+                "column width: 40px",
+                react_default.a.createElement("br", null),
+                "vertical spacing: 4px"
+              )
+            ),
+            react_default.a.createElement(
+              "div",
+              { className: "show-for-medium-only" },
+              react_default.a.createElement(
+                "h4",
+                { "class": "promo-lbl promo-lbl-L mrg-S" },
+                "M 768"
+              ),
+              react_default.a.createElement(
+                "p",
+                { className: "mrg-XL algn-lft title title-L txt-weight-light txt-line-height-L color-nightsky" },
+                "width: 704px",
+                react_default.a.createElement("br", null),
+                "margin: 0 32px",
+                react_default.a.createElement("br", null),
+                "columns: 12",
+                react_default.a.createElement("br", null),
+                "column gutter: 16px",
+                react_default.a.createElement("br", null),
+                "column width: 44px",
+                react_default.a.createElement("br", null),
+                "vertical spacing: 4px"
+              )
+            ),
+            react_default.a.createElement(
+              "div",
+              { className: "show-for-large-only" },
+              react_default.a.createElement(
+                "h4",
+                { "class": "promo-lbl promo-lbl-L mrg-S" },
+                "L 1024"
+              ),
+              react_default.a.createElement(
+                "p",
+                { className: "mrg-XL algn-lft title title-L txt-weight-light txt-line-height-L color-nightsky" },
+                "width: 944px",
+                react_default.a.createElement("br", null),
+                "margin: 0 40px",
+                react_default.a.createElement("br", null),
+                "columns: 12",
+                react_default.a.createElement("br", null),
+                "column gutter: 16px",
+                react_default.a.createElement("br", null),
+                "column width: 64px",
+                react_default.a.createElement("br", null),
+                "vertical spacing: 4px"
+              )
+            ),
+            react_default.a.createElement(
+              "div",
+              { className: "show-for-xlarge-only" },
+              react_default.a.createElement(
+                "h4",
+                { "class": "promo-lbl promo-lbl-L mrg-S" },
+                "XL 1440"
+              ),
+              react_default.a.createElement(
+                "p",
+                { className: "mrg-XL algn-lft title title-L txt-weight-light txt-line-height-L color-nightsky" },
+                "width: 1328px",
+                react_default.a.createElement("br", null),
+                "margin: 0 56px",
+                react_default.a.createElement("br", null),
+                "columns: 12",
+                react_default.a.createElement("br", null),
+                "column gutter: 16px",
+                react_default.a.createElement("br", null),
+                "column width: 96px",
+                react_default.a.createElement("br", null),
+                "vertical spacing: 4px"
+              )
+            ),
+            react_default.a.createElement(
+              "div",
+              { className: "row" },
+              react_default.a.createElement(
+                "div",
+                { className: "sm12 columns" },
+                react_default.a.createElement("div", { className: "grid-preview color-penneyred-bg" })
+              )
+            ),
+            react_default.a.createElement(
+              "div",
+              { className: "row" },
+              react_default.a.createElement(
+                "div",
+                { className: "sm12 columns" },
+                react_default.a.createElement(
+                  "p",
+                  { className: "mrg-M algn-lft std-txt std-txt-S color-penneyred" },
+                  "full width"
+                )
+              )
+            ),
+            react_default.a.createElement(
+              "div",
+              { className: "row show-for-small-only" },
+              react_default.a.createElement(
+                "div",
+                { className: "sm4 columns" },
+                react_default.a.createElement("div", { className: "grid-preview color-penneyred-bg" })
+              ),
+              react_default.a.createElement(
+                "div",
+                { className: "sm4 columns" },
+                react_default.a.createElement("div", { className: "grid-preview color-penneyred-bg" })
+              ),
+              react_default.a.createElement(
+                "div",
+                { className: "sm4 columns" },
+                react_default.a.createElement("div", { className: "grid-preview color-penneyred-bg" })
+              )
+            ),
+            react_default.a.createElement(
+              "div",
+              { className: "row show-for-small-only" },
+              react_default.a.createElement(
+                "div",
+                { className: "sm12 columns" },
+                react_default.a.createElement(
+                  "p",
+                  { className: "mrg-M algn-lft std-txt std-txt-S color-penneyred" },
+                  "3 columns"
+                )
+              )
+            ),
+            react_default.a.createElement(
+              "div",
+              { className: "row show-for-small-only" },
+              react_default.a.createElement(
+                "div",
+                { className: "sm2 columns" },
+                react_default.a.createElement("div", { className: "grid-preview color-penneyred-bg" })
+              ),
+              react_default.a.createElement(
+                "div",
+                { className: "sm2 columns" },
+                react_default.a.createElement("div", { className: "grid-preview color-penneyred-bg" })
+              ),
+              react_default.a.createElement(
+                "div",
+                { className: "sm2 columns" },
+                react_default.a.createElement("div", { className: "grid-preview color-penneyred-bg" })
+              ),
+              react_default.a.createElement(
+                "div",
+                { className: "sm2 columns" },
+                react_default.a.createElement("div", { className: "grid-preview color-penneyred-bg" })
+              ),
+              react_default.a.createElement(
+                "div",
+                { className: "sm2 columns" },
+                react_default.a.createElement("div", { className: "grid-preview color-penneyred-bg" })
+              ),
+              react_default.a.createElement(
+                "div",
+                { className: "sm2 columns" },
+                react_default.a.createElement("div", { className: "grid-preview color-penneyred-bg" })
+              )
+            ),
+            react_default.a.createElement(
+              "div",
+              { className: "row show-for-small-only" },
+              react_default.a.createElement(
+                "div",
+                { className: "sm12 columns" },
+                react_default.a.createElement(
+                  "p",
+                  { className: "mrg-M algn-lft std-txt std-txt-S color-penneyred" },
+                  "6 columns"
+                )
+              )
+            ),
+            react_default.a.createElement(
+              "div",
+              { className: "row hide-for-small-only" },
+              react_default.a.createElement(
+                "div",
+                { className: "sm3 columns" },
+                react_default.a.createElement("div", { className: "grid-preview color-penneyred-bg" })
+              ),
+              react_default.a.createElement(
+                "div",
+                { className: "sm3 columns" },
+                react_default.a.createElement("div", { className: "grid-preview color-penneyred-bg" })
+              ),
+              react_default.a.createElement(
+                "div",
+                { className: "sm3 columns" },
+                react_default.a.createElement("div", { className: "grid-preview color-penneyred-bg" })
+              ),
+              react_default.a.createElement(
+                "div",
+                { className: "sm3 columns" },
+                react_default.a.createElement("div", { className: "grid-preview color-penneyred-bg" })
+              )
+            ),
+            react_default.a.createElement(
+              "div",
+              { className: "row hide-for-small-only" },
+              react_default.a.createElement(
+                "div",
+                { className: "sm12 columns" },
+                react_default.a.createElement(
+                  "p",
+                  { className: "mrg-M algn-lft std-txt std-txt-S color-penneyred" },
+                  "4 columns"
+                )
+              )
+            ),
+            react_default.a.createElement(
+              "div",
+              { className: "row hide-for-small-only" },
+              react_default.a.createElement(
+                "div",
+                { className: "sm1 columns" },
+                react_default.a.createElement("div", { className: "grid-preview color-penneyred-bg" })
+              ),
+              react_default.a.createElement(
+                "div",
+                { className: "sm1 columns" },
+                react_default.a.createElement("div", { className: "grid-preview color-penneyred-bg" })
+              ),
+              react_default.a.createElement(
+                "div",
+                { className: "sm1 columns" },
+                react_default.a.createElement("div", { className: "grid-preview color-penneyred-bg" })
+              ),
+              react_default.a.createElement(
+                "div",
+                { className: "sm1 columns" },
+                react_default.a.createElement("div", { className: "grid-preview color-penneyred-bg" })
+              ),
+              react_default.a.createElement(
+                "div",
+                { className: "sm1 columns" },
+                react_default.a.createElement("div", { className: "grid-preview color-penneyred-bg" })
+              ),
+              react_default.a.createElement(
+                "div",
+                { className: "sm1 columns" },
+                react_default.a.createElement("div", { className: "grid-preview color-penneyred-bg" })
+              ),
+              react_default.a.createElement(
+                "div",
+                { className: "sm1 columns" },
+                react_default.a.createElement("div", { className: "grid-preview color-penneyred-bg" })
+              ),
+              react_default.a.createElement(
+                "div",
+                { className: "sm1 columns" },
+                react_default.a.createElement("div", { className: "grid-preview color-penneyred-bg" })
+              ),
+              react_default.a.createElement(
+                "div",
+                { className: "sm1 columns" },
+                react_default.a.createElement("div", { className: "grid-preview color-penneyred-bg" })
+              ),
+              react_default.a.createElement(
+                "div",
+                { className: "sm1 columns" },
+                react_default.a.createElement("div", { className: "grid-preview color-penneyred-bg" })
+              ),
+              react_default.a.createElement(
+                "div",
+                { className: "sm1 columns" },
+                react_default.a.createElement("div", { className: "grid-preview color-penneyred-bg" })
+              ),
+              react_default.a.createElement(
+                "div",
+                { className: "sm1 columns" },
+                react_default.a.createElement("div", { className: "grid-preview color-penneyred-bg" })
+              )
+            ),
+            react_default.a.createElement(
+              "div",
+              { className: "row hide-for-small-only" },
+              react_default.a.createElement(
+                "div",
+                { className: "sm12 columns" },
+                react_default.a.createElement(
+                  "p",
+                  { className: "mrg-M algn-lft std-txt std-txt-S color-penneyred" },
+                  "12 columns"
+                )
+              )
+            ),
+            react_default.a.createElement("hr", null),
             react_default.a.createElement(
               "h3",
               { className: "title title-L mrg-L" },
@@ -8740,6 +9056,1248 @@ var components_forms__temp = function () {
 }();
 
 ;
+// CONCATENATED MODULE: ./src/js/components/star-ratings/star-ratings.js
+var star_ratings__createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+function star_ratings__classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function star_ratings__possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function star_ratings__inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+
+
+
+
+
+var star_ratings_ContentLoaders = function (_Component) {
+    star_ratings__inherits(ContentLoaders, _Component);
+
+    function ContentLoaders() {
+        star_ratings__classCallCheck(this, ContentLoaders);
+
+        return star_ratings__possibleConstructorReturn(this, (ContentLoaders.__proto__ || Object.getPrototypeOf(ContentLoaders)).apply(this, arguments));
+    }
+
+    star_ratings__createClass(ContentLoaders, [{
+        key: 'componentDidMount',
+        value: function componentDidMount() {}
+    }, {
+        key: 'render',
+        value: function render() {
+            return react_default.a.createElement(
+                'div',
+                null,
+                react_default.a.createElement(
+                    'div',
+                    { className: 'row' },
+                    react_default.a.createElement(
+                        'div',
+                        { className: 'sm12 columns' },
+                        react_default.a.createElement(
+                            'h1',
+                            { className: 'title title-XL mrg-L' },
+                            'Star Ratings'
+                        ),
+                        react_default.a.createElement(
+                            'h2',
+                            { className: 'std-txt std-txt-XL mrg-L max-width-text' },
+                            'Vestibulum id ligula porta felis euismod semper. Lorem ipsum dolor sit amet, consectetur adipiscing elit. '
+                        )
+                    )
+                ),
+                react_default.a.createElement(
+                    'div',
+                    { className: 'row', id: 'code-generator' },
+                    react_default.a.createElement(
+                        'div',
+                        { className: 'sm12 columns' },
+                        react_default.a.createElement('hr', null),
+                        react_default.a.createElement(
+                            'h3',
+                            { className: 'title title-L mrg-L' },
+                            'Code Generator'
+                        ),
+                        react_default.a.createElement(CodeGenerator["a" /* default */], {
+                            formFields: [{
+                                fieldType: 'select',
+                                displayLabel: 'Status',
+                                name: 'code_alert_status',
+                                value: [{
+                                    text: 'Large',
+                                    value: 'msg-neutral'
+                                }, {
+                                    text: 'Medium',
+                                    value: 'msg-success'
+                                }, {
+                                    text: 'Small',
+                                    value: 'msg-warning'
+                                }],
+                                defaultSelect: 'msg-success'
+                            }],
+
+                            htmlPattern: [{
+                                default: [{
+                                    html: '<[[format_tag_start]]div[[format_tag_end]] [[format_attribute_start]]\n                                                                class="[[format_attribute_end]][[format_tag_value_start]]msg mrg-M [[code_alert_status]] [[code_alert_width]] [[format_tag_value_end]][[format_attribute_start]]"[[format_attribute_end]]>\n                                                                [[format_tab_start]]\n                                                                    This is an alert message.[[code_alert_dismissable]]\n                                                                [[format_tab_end]]\n                                                            <[[format_tag_start]]/div[[format_tag_end]]>'
+                                }, {
+                                    javascript: ''
+                                }]
+                            }]
+
+                        })
+                    )
+                ),
+                react_default.a.createElement(
+                    'div',
+                    { className: 'row', id: 'when-to-use' },
+                    react_default.a.createElement(
+                        'div',
+                        { className: 'sm12 columns' },
+                        react_default.a.createElement(
+                            'h3',
+                            { className: 'title title-L mrg-L' },
+                            'When to Use'
+                        ),
+                        react_default.a.createElement(
+                            'p',
+                            { 'class': ' mrg-L max-width-text' },
+                            'Vestibulum id ligula porta felis euismod semper. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. '
+                        )
+                    )
+                ),
+                react_default.a.createElement(
+                    'div',
+                    { className: 'row', id: 'appearance' },
+                    react_default.a.createElement(
+                        'div',
+                        { className: 'sm12 columns' },
+                        react_default.a.createElement('hr', null),
+                        react_default.a.createElement(
+                            'h3',
+                            { className: 'title title-L mrg-L' },
+                            'Appearance'
+                        ),
+                        react_default.a.createElement(
+                            'p',
+                            { className: 'max-width-text mrg-XL' },
+                            'Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras justo odio, dapibus ac facilisis in, egestas eget quam.'
+                        ),
+                        react_default.a.createElement(
+                            'div',
+                            { className: 'row' },
+                            react_default.a.createElement(
+                                'div',
+                                { className: 'sm12 md5 lg4 columns star-preview-col' },
+                                react_default.a.createElement(
+                                    'ul',
+                                    { className: 'star-ratings-XL' },
+                                    react_default.a.createElement(
+                                        'li',
+                                        { className: 'star-ratings full' },
+                                        '\u2605'
+                                    ),
+                                    react_default.a.createElement(
+                                        'li',
+                                        { className: 'star-ratings half' },
+                                        '\u2605'
+                                    ),
+                                    react_default.a.createElement(
+                                        'li',
+                                        { className: 'star-ratings inactive' },
+                                        '\u2605'
+                                    )
+                                )
+                            ),
+                            react_default.a.createElement(
+                                'div',
+                                { className: 'sm12 md7 lg8 columns' },
+                                react_default.a.createElement(
+                                    'h5',
+                                    { className: 'title title-M mrg-S' },
+                                    'States'
+                                ),
+                                react_default.a.createElement(
+                                    'p',
+                                    { className: 'max-width-text mrg-M' },
+                                    'Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec ullamcorper nulla non metus auctor fringilla. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. '
+                                )
+                            )
+                        ),
+                        react_default.a.createElement(
+                            'div',
+                            { className: 'row' },
+                            react_default.a.createElement(
+                                'div',
+                                { className: 'sm12 md5 lg4 columns star-preview-col' },
+                                react_default.a.createElement(
+                                    'p',
+                                    { className: 'S' },
+                                    'Example of Gallery Product'
+                                ),
+                                react_default.a.createElement(
+                                    'ul',
+                                    { className: 'star-ratings-L' },
+                                    react_default.a.createElement(
+                                        'li',
+                                        { className: 'star-ratings full' },
+                                        '\u2605'
+                                    ),
+                                    react_default.a.createElement(
+                                        'li',
+                                        { className: 'star-ratings full' },
+                                        '\u2605'
+                                    ),
+                                    react_default.a.createElement(
+                                        'li',
+                                        { className: 'star-ratings full' },
+                                        '\u2605'
+                                    ),
+                                    react_default.a.createElement(
+                                        'li',
+                                        { className: 'star-ratings full' },
+                                        '\u2605'
+                                    ),
+                                    react_default.a.createElement(
+                                        'li',
+                                        { className: 'star-ratings inactive' },
+                                        '\u2605',
+                                        react_default.a.createElement(
+                                            'span',
+                                            { className: 'rating-count' },
+                                            '(47)'
+                                        )
+                                    )
+                                ),
+                                react_default.a.createElement('br', null),
+                                react_default.a.createElement('br', null),
+                                react_default.a.createElement(
+                                    'p',
+                                    { className: 'XS' },
+                                    'Example of Rec Zone Product '
+                                ),
+                                react_default.a.createElement(
+                                    'ul',
+                                    { className: 'star-ratings-S' },
+                                    react_default.a.createElement(
+                                        'li',
+                                        { className: 'star-ratings full' },
+                                        '\u2605'
+                                    ),
+                                    react_default.a.createElement(
+                                        'li',
+                                        { className: 'star-ratings full' },
+                                        '\u2605'
+                                    ),
+                                    react_default.a.createElement(
+                                        'li',
+                                        { className: 'star-ratings full' },
+                                        '\u2605'
+                                    ),
+                                    react_default.a.createElement(
+                                        'li',
+                                        { className: 'star-ratings full' },
+                                        '\u2605'
+                                    ),
+                                    react_default.a.createElement(
+                                        'li',
+                                        { className: 'star-ratings inactive' },
+                                        '\u2605',
+                                        react_default.a.createElement(
+                                            'span',
+                                            { className: 'rating-count' },
+                                            '(47)'
+                                        )
+                                    )
+                                )
+                            ),
+                            react_default.a.createElement(
+                                'div',
+                                { className: 'sm12 md7 lg8 columns' },
+                                react_default.a.createElement(
+                                    'h5',
+                                    { className: 'title title-M mrg-S' },
+                                    'Sizing'
+                                ),
+                                react_default.a.createElement(
+                                    'p',
+                                    { className: 'max-width-text mrg-XL' },
+                                    'Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec ullamcorper nulla non metus auctor fringilla. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. '
+                                )
+                            )
+                        )
+                    )
+                ),
+                react_default.a.createElement(
+                    'div',
+                    { className: 'row' },
+                    react_default.a.createElement(
+                        'div',
+                        { className: 'sm12 columns' },
+                        react_default.a.createElement('hr', null),
+                        react_default.a.createElement(
+                            'p',
+                            { className: 'S' },
+                            'Created by: ',
+                            react_default.a.createElement(
+                                'strong',
+                                null,
+                                'Tony Stark'
+                            ),
+                            ' and ',
+                            react_default.a.createElement(
+                                'strong',
+                                null,
+                                'Bruce Banner'
+                            ),
+                            react_default.a.createElement('br', null),
+                            ' Latest update: 04/05/2017'
+                        )
+                    )
+                )
+            );
+        }
+    }]);
+
+    return ContentLoaders;
+}(react["Component"]);
+
+var star_ratings__default = star_ratings_ContentLoaders;
+
+
+/* harmony default export */ var star_ratings = (star_ratings__default);
+;
+
+var star_ratings__temp = function () {
+    if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+        return;
+    }
+
+    __REACT_HOT_LOADER__.register(star_ratings_ContentLoaders, 'ContentLoaders', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/star-ratings/star-ratings.js');
+
+    __REACT_HOT_LOADER__.register(star_ratings__default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/star-ratings/star-ratings.js');
+}();
+
+;
+// CONCATENATED MODULE: ./src/js/components/star-ratings/index.js
+
+var components_star_ratings__default = star_ratings;
+/* harmony default export */ var components_star_ratings = (components_star_ratings__default);
+;
+
+var components_star_ratings__temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(components_star_ratings__default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/star-ratings/index.js');
+}();
+
+;
+// CONCATENATED MODULE: ./src/js/components/scrollbar/scrollbar.js
+var scrollbar__createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+function scrollbar__classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function scrollbar__possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function scrollbar__inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+
+
+var scrollbar_Scrollbar = function (_Component) {
+  scrollbar__inherits(Scrollbar, _Component);
+
+  function Scrollbar() {
+    scrollbar__classCallCheck(this, Scrollbar);
+
+    return scrollbar__possibleConstructorReturn(this, (Scrollbar.__proto__ || Object.getPrototypeOf(Scrollbar)).apply(this, arguments));
+  }
+
+  scrollbar__createClass(Scrollbar, [{
+    key: "componentDidMount",
+    value: function componentDidMount() {}
+  }, {
+    key: "render",
+    value: function render() {
+      return react_default.a.createElement(
+        "div",
+        null,
+        react_default.a.createElement(
+          "div",
+          { className: "row" },
+          react_default.a.createElement(
+            "div",
+            { className: "padding-25" },
+            react_default.a.createElement(
+              "div",
+              { className: "modal scroll-container" },
+              react_default.a.createElement("button", { className: "modal-close" }),
+              react_default.a.createElement(
+                "h2",
+                { className: "title title-L test" },
+                "10 Year Mattress Encasement Plan Twin"
+              ),
+              react_default.a.createElement(
+                "h4",
+                { className: "title-M title" },
+                "Sealy Essentials\u2122 Holly Hills Firm - Mattress + Box Spring"
+              ),
+              react_default.a.createElement(
+                "div",
+                { className: "scroll-block custom-scroll" },
+                "BEDGARD ENCASEMENT: 10 Year Plan with Encasement: For new residential mattresses purchased in conjunction with a BedGard Encasement. Coverage includes: All accidental stains (excluding accumulations). Construction of Mattress Protector. WHY BEDGARD ENCASEMENT? The manufacturer of the mattress will void the warranty if the mattress is stained. A full encasement reduces conditions which attract dust mites, allergens and bed bugs. HOW DOES IT WORK? Customers purchase and use the BedGard Protector along with their new residential mattress. If their mattress becomes stained during normal residential use while using the protector, the affected portion or the complete mattress will be repaired or replaced!HOW LONG IS COVERAGE? The BedGard Product Limited Warranty is effective for ten (10) years from the date the customer takes delivery of the Mattress Protector and the Mattress. WHAT PROBLEMS ARE COVERED? Construction and staining of the BedGard Mattress Protector/Pad. All accidental stains attributed to a single occurrence (excluding accumulation defined as a gradual buildup of dirt, dust, body oils and perspiration). HOW LONG DOES THE CUSTOMER HAVE TO REPORT A PROBLEM? Problems must be reported within ten (10) days of occurrence of the stain or damage. BEDGARD ENCASEMENT: 10 Year Plan with Encasement: For new residential mattresses purchased in conjunction with a BedGard Encasement. Coverage includes: All accidental stains (excluding accumulations). Construction of Mattress Protector. WHY BEDGARD ENCASEMENT? The manufacturer of the mattress will void the warranty if the mattress is stained. A full encasement reduces conditions which attract dust mites, allergens and bed bugs. HOW DOES IT WORK? Customers purchase and use the BedGard Protector along with their new residential mattress. If their mattress becomes stained during normal residential use while using the protector, the affected portion or the complete mattress will be repaired or replaced!HOW LONG IS COVERAGE? The BedGard Product Limited Warranty is effective for ten (10) years from the date the customer takes delivery of the Mattress Protector and the Mattress. WHAT PROBLEMS ARE COVERED? Construction and staining of the BedGard Mattress Protector/Pad. All accidental stains attributed to a single occurrence (excluding accumulation defined as a gradual buildup of dirt, dust, body oils and perspiration). HOW LONG DOES THE CUSTOMER HAVE TO REPORT A PROBLEM? Problems must be reported within ten (10) days of occurrence of the stain or damage."
+              ),
+              react_default.a.createElement("div", { className: "scroll-block-fade" })
+            )
+          )
+        )
+      );
+    }
+  }]);
+
+  return Scrollbar;
+}(react["Component"]);
+
+var scrollbar__default = scrollbar_Scrollbar;
+
+
+/* harmony default export */ var scrollbar = (scrollbar__default);
+;
+
+var scrollbar__temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(scrollbar_Scrollbar, "Scrollbar", "C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/scrollbar/scrollbar.js");
+
+  __REACT_HOT_LOADER__.register(scrollbar__default, "default", "C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/scrollbar/scrollbar.js");
+}();
+
+;
+// CONCATENATED MODULE: ./src/js/components/scrollbar/index.js
+
+var components_scrollbar__default = scrollbar;
+/* harmony default export */ var components_scrollbar = (components_scrollbar__default);
+;
+
+var components_scrollbar__temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(components_scrollbar__default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/scrollbar/index.js');
+}();
+
+;
+// CONCATENATED MODULE: ./src/js/components/visual-navigation/visual-navigation.js
+var visual_navigation__createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+function visual_navigation__classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function visual_navigation__possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function visual_navigation__inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+
+
+var visual_navigation_VisualNavigation = function (_Component) {
+  visual_navigation__inherits(VisualNavigation, _Component);
+
+  function VisualNavigation() {
+    visual_navigation__classCallCheck(this, VisualNavigation);
+
+    return visual_navigation__possibleConstructorReturn(this, (VisualNavigation.__proto__ || Object.getPrototypeOf(VisualNavigation)).apply(this, arguments));
+  }
+
+  visual_navigation__createClass(VisualNavigation, [{
+    key: "componentDidMount",
+    value: function componentDidMount() {}
+  }, {
+    key: "render",
+    value: function render() {
+      return react_default.a.createElement(
+        "div",
+        null,
+        react_default.a.createElement(
+          "div",
+          { className: "row" },
+          react_default.a.createElement(
+            "div",
+            { className: "viz-nav mrg-XXL" },
+            react_default.a.createElement(
+              "h1",
+              { className: "title-L mrg-XL nav-title" },
+              "Category Level"
+            ),
+            react_default.a.createElement(
+              "ul",
+              null,
+              react_default.a.createElement(
+                "li",
+                null,
+                react_default.a.createElement(
+                  "a",
+                  { href: "#" },
+                  react_default.a.createElement(
+                    "div",
+                    { className: "viz-nav-img mrg-S" },
+                    react_default.a.createElement("img", { src: "https://m.jcpenney.com/tablet/images/wmns-coats.jpg", alt: "" })
+                  ),
+                  react_default.a.createElement(
+                    "h2",
+                    { className: "title title-M mrg-XS algn-mid" },
+                    "Tops"
+                  )
+                )
+              ),
+              react_default.a.createElement(
+                "li",
+                null,
+                react_default.a.createElement(
+                  "a",
+                  { href: "#" },
+                  react_default.a.createElement(
+                    "div",
+                    { className: "viz-nav-img mrg-S" },
+                    react_default.a.createElement("img", { src: "https://m.jcpenney.com/tablet/images/wmns_tops.jpg", alt: "" })
+                  ),
+                  react_default.a.createElement(
+                    "h2",
+                    { className: "title title-M mrg-XS algn-mid" },
+                    "Jeans"
+                  )
+                )
+              ),
+              react_default.a.createElement(
+                "li",
+                null,
+                react_default.a.createElement(
+                  "a",
+                  { href: "#" },
+                  react_default.a.createElement(
+                    "div",
+                    { className: "viz-nav-img mrg-S" },
+                    react_default.a.createElement("img", { src: "https://m.jcpenney.com/tablet/images/wmns_jeans.jpg", alt: "" })
+                  ),
+                  react_default.a.createElement(
+                    "h2",
+                    { className: "title title-M mrg-XS algn-mid" },
+                    "Pants"
+                  )
+                )
+              ),
+              react_default.a.createElement(
+                "li",
+                null,
+                react_default.a.createElement(
+                  "a",
+                  { href: "#" },
+                  react_default.a.createElement(
+                    "div",
+                    { className: "viz-nav-img mrg-S" },
+                    react_default.a.createElement("img", { src: "https://m.jcpenney.com/tablet/images/wmns_blazer.jpg", alt: "" })
+                  ),
+                  react_default.a.createElement(
+                    "h2",
+                    { className: "title title-M mrg-XS algn-mid" },
+                    "Dresses"
+                  )
+                )
+              ),
+              react_default.a.createElement(
+                "li",
+                null,
+                react_default.a.createElement(
+                  "a",
+                  { href: "#" },
+                  react_default.a.createElement(
+                    "div",
+                    { className: "viz-nav-img mrg-S" },
+                    react_default.a.createElement("img", { src: "https://m.jcpenney.com/tablet/images/womens%20scrubs%20icon.jpg", alt: "" })
+                  ),
+                  react_default.a.createElement(
+                    "h2",
+                    { className: "title title-M mrg-XS algn-mid" },
+                    "Cropped Pants"
+                  )
+                )
+              )
+            )
+          ),
+          react_default.a.createElement(
+            "div",
+            { className: "viz-nav mrg-XXL" },
+            react_default.a.createElement(
+              "h1",
+              { className: "title-L mrg-XL" },
+              "Subcategory Level"
+            ),
+            react_default.a.createElement(
+              "ul",
+              null,
+              react_default.a.createElement(
+                "li",
+                null,
+                react_default.a.createElement(
+                  "a",
+                  { href: "#" },
+                  react_default.a.createElement(
+                    "div",
+                    { className: "viz-nav-img mrg-S" },
+                    react_default.a.createElement("img", { src: "https://m.jcpenney.com/tablet/images/mens%20sports%20fan%20shop%20tablet%20category%20icon.jpg", alt: "" })
+                  ),
+                  react_default.a.createElement(
+                    "h2",
+                    { className: "title title-M mrg-XS algn-mid" },
+                    "Liz Claiborne"
+                  ),
+                  react_default.a.createElement(
+                    "p",
+                    { className: "std-txt std-txt-M algn-mid" },
+                    "(627)"
+                  )
+                )
+              ),
+              react_default.a.createElement(
+                "li",
+                null,
+                react_default.a.createElement(
+                  "a",
+                  { href: "#" },
+                  react_default.a.createElement(
+                    "div",
+                    { className: "viz-nav-img mrg-S" },
+                    react_default.a.createElement("img", { src: "https://m.jcpenney.com/tablet/images/mens%20athletic%20uniforms%20tablet%20category%20icon.jpg", alt: "" })
+                  ),
+                  react_default.a.createElement(
+                    "h2",
+                    { className: "title title-M mrg-XS algn-mid" },
+                    "Liz Claiborne"
+                  ),
+                  react_default.a.createElement(
+                    "p",
+                    { className: "std-txt std-txt-M algn-mid" },
+                    "(627)"
+                  )
+                )
+              ),
+              react_default.a.createElement(
+                "li",
+                null,
+                react_default.a.createElement(
+                  "a",
+                  { href: "#" },
+                  react_default.a.createElement(
+                    "div",
+                    { className: "viz-nav-img mrg-S" },
+                    react_default.a.createElement("img", { src: "https://m.jcpenney.com/tablet/images/mens%20coats%20jackets%20icon.jpg", alt: "" })
+                  ),
+                  react_default.a.createElement(
+                    "h2",
+                    { className: "title title-M mrg-XS algn-mid" },
+                    "Liz Claiborne"
+                  ),
+                  react_default.a.createElement(
+                    "p",
+                    { className: "std-txt std-txt-M algn-mid" },
+                    "(627)"
+                  )
+                )
+              ),
+              react_default.a.createElement(
+                "li",
+                null,
+                react_default.a.createElement(
+                  "a",
+                  { href: "#" },
+                  react_default.a.createElement(
+                    "div",
+                    { className: "viz-nav-img mrg-S" },
+                    react_default.a.createElement("img", { src: "https://m.jcpenney.com/tablet/images/mens%20sweaters%20icon.jpg", alt: "" })
+                  ),
+                  react_default.a.createElement(
+                    "h2",
+                    { className: "title title-M mrg-XS algn-mid" },
+                    "Liz Claiborne"
+                  ),
+                  react_default.a.createElement(
+                    "p",
+                    { className: "std-txt std-txt-M algn-mid" },
+                    "(627)"
+                  )
+                )
+              ),
+              react_default.a.createElement(
+                "li",
+                null,
+                react_default.a.createElement(
+                  "a",
+                  { href: "#" },
+                  react_default.a.createElement(
+                    "div",
+                    { className: "viz-nav-img mrg-S" },
+                    react_default.a.createElement("img", { src: "https://m.jcpenney.com/tablet/images/mens%20hoodies2%20tablet%20category%20icon.jpg", alt: "" })
+                  ),
+                  react_default.a.createElement(
+                    "h2",
+                    { className: "title title-M mrg-XS algn-mid" },
+                    "Liz Claiborne"
+                  ),
+                  react_default.a.createElement(
+                    "p",
+                    { className: "std-txt std-txt-M algn-mid" },
+                    "(627)"
+                  )
+                )
+              )
+            )
+          )
+        )
+      );
+    }
+  }]);
+
+  return VisualNavigation;
+}(react["Component"]);
+
+var visual_navigation__default = visual_navigation_VisualNavigation;
+
+
+/* harmony default export */ var visual_navigation = (visual_navigation__default);
+;
+
+var visual_navigation__temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(visual_navigation_VisualNavigation, "VisualNavigation", "C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/visual-navigation/visual-navigation.js");
+
+  __REACT_HOT_LOADER__.register(visual_navigation__default, "default", "C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/visual-navigation/visual-navigation.js");
+}();
+
+;
+// CONCATENATED MODULE: ./src/js/components/visual-navigation/index.js
+
+var components_visual_navigation__default = visual_navigation;
+/* harmony default export */ var components_visual_navigation = (components_visual_navigation__default);
+;
+
+var components_visual_navigation__temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(components_visual_navigation__default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/visual-navigation/index.js');
+}();
+
+;
+// CONCATENATED MODULE: ./src/js/components/countdown-timers/countdown-timers.js
+var countdown_timers__createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+function countdown_timers__classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function countdown_timers__possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function countdown_timers__inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+
+
+
+var countdown_timers_CountdownTimers = function (_Component) {
+  countdown_timers__inherits(CountdownTimers, _Component);
+
+  function CountdownTimers() {
+    countdown_timers__classCallCheck(this, CountdownTimers);
+
+    return countdown_timers__possibleConstructorReturn(this, (CountdownTimers.__proto__ || Object.getPrototypeOf(CountdownTimers)).apply(this, arguments));
+  }
+
+  countdown_timers__createClass(CountdownTimers, [{
+    key: 'componentDidMount',
+    value: function componentDidMount() {
+      jquery_default()(document).ready(function () {
+        //Target date
+        var timerCountDownDate = new Date("Sep 7, 2018 22:06:00").getTime();
+
+        //Timer Object References
+        var timerElem = jquery_default()("#timer1");
+        var timerWindow = jquery_default()(window);
+        var timerHoursElem1 = timerElem.find(".timer-hours .timer-clock-digit-inner").eq(0);
+        var timerHoursElem2 = timerElem.find(".timer-hours .timer-clock-digit-inner").eq(1);
+        var timerHoursNextElem1 = timerHoursElem1.find(".timer-next-number span");
+        var timerHoursNextElem2 = timerHoursElem2.find(".timer-next-number span");
+        var timerMinutesElem1 = timerElem.find(".timer-minutes .timer-clock-digit-inner").eq(0);
+        var timerMinutesElem2 = timerElem.find(".timer-minutes .timer-clock-digit-inner").eq(1);
+        var timerMinutesNextElem1 = timerMinutesElem1.find(".timer-next-number span");
+        var timerMinutesNextElem2 = timerMinutesElem2.find(".timer-next-number span");
+        var timerSecondsElem1 = timerElem.find(".timer-seconds .timer-clock-digit-inner").eq(0);
+        var timerSecondsElem2 = timerElem.find(".timer-seconds .timer-clock-digit-inner").eq(1);
+        var timerSecondsNextElem1 = timerSecondsElem1.find(".timer-next-number span");
+        var timerSecondsNextElem2 = timerSecondsElem2.find(".timer-next-number span");
+
+        var timerIntervalDuration = 1000; //Update timer every second
+        var timerInit = false; //Triggers the initial setting of the timer
+
+        var timerInterval = setInterval(function () {
+          var now = new Date().getTime(); // Get todays date and time
+          var distance = timerCountDownDate - now; // Find the distance between now an the count down date
+
+          //Time calculations for days, hours, minutes and seconds
+          //var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+          var hours = Math.floor(distance % (1000 * 60 * 60 * 24) / (1000 * 60 * 60));
+          var minutes = Math.floor(distance % (1000 * 60 * 60) / (1000 * 60));
+          var seconds = Math.floor(distance % (1000 * 60) / 1000);
+
+          //Update the hours, minutes, and seconds
+          window.timerCheckTime(hours, timerHoursNextElem1, timerHoursNextElem2);
+          window.timerCheckTime(minutes, timerMinutesNextElem1, timerMinutesNextElem2);
+          window.timerCheckTime(seconds, timerSecondsNextElem1, timerSecondsNextElem2);
+
+          //Reset the timer-flip class from animated digits
+          setTimeout(function () {
+            timerElem.find(".timer-flip").each(function () {
+              jquery_default()(this).removeClass("timer-flip");
+              var newNumber = jquery_default()(this).find(".timer-next-number span").html();
+              jquery_default()(this).find(".timer-prev-number span").html(newNumber);
+            });
+          }, timerIntervalDuration / 2);
+
+          timerInit = true;
+
+          if (distance < 0) {
+            // The countdown has completed - do something here
+            clearInterval(timerInterval);
+          }
+        }, timerIntervalDuration);
+
+        window.timerCheckTime = function (time, elemNext1, elemNext2) {
+          //Function accepts a 1-2 digit time, and the HTML elements to update
+
+          if (time < 0) {
+            time = 0;
+          } //Prevent any display issues when the countdown ends
+
+          //Compensate for proceeding 0's
+          var digits = time.toString();
+          if (digits.length < 2) {
+            var digit1 = "0";
+            var digit2 = digits.charAt(0);
+          } else {
+            var digit1 = digits.charAt(0);
+            var digit2 = digits.charAt(1);
+          }
+          if (timerInit === true) {
+            if (elemNext1.html() !== digit1) {
+              elemNext1.html(digit1);
+              elemNext1.closest(".timer-clock-digit-inner").addClass("timer-flip");
+            }
+            if (elemNext2.html() !== digit2) {
+              elemNext2.html(digit2);
+              elemNext2.closest(".timer-clock-digit-inner").addClass("timer-flip");
+            }
+          } else {
+            //On first time through set the time without animation
+            elemNext1.html(digit1);
+            elemNext1.closest(".timer-clock-digit-inner").find(".timer-prev-number span").html(digit1);
+            elemNext2.html(digit2);
+            elemNext2.closest(".timer-clock-digit-inner").find(".timer-prev-number span").html(digit2);
+          }
+        };
+
+        timerWindow.resize(function () {
+          //Bind scroll tracking for sticky mobile timer
+          timerCheckSize();
+        });
+
+        timerCheckSize = function timerCheckSize() {
+          if (timerWindow.width() <= 400) {
+            timerWindow.unbind("scroll.timerResize").bind("scroll.timerResize", function () {
+              var timer_offset = timerElem.offset().top;
+              if (timerWindow.scrollTop() > timer_offset) {
+                timerElem.addClass('timer-sticky');
+              } else {
+                timerElem.removeClass('timer-sticky');
+              }
+            });
+          }
+        };
+        timerCheckSize();
+      });
+    }
+  }, {
+    key: 'render',
+    value: function render() {
+      return react_default.a.createElement(
+        'div',
+        null,
+        react_default.a.createElement(
+          'div',
+          { className: 'row' },
+          react_default.a.createElement(
+            'div',
+            { className: 'sm12 columns' },
+            react_default.a.createElement(
+              'h1',
+              { className: 'title title-XL mrg-L' },
+              'Countdown Timers'
+            ),
+            react_default.a.createElement('hr', null)
+          )
+        ),
+        react_default.a.createElement(
+          'div',
+          { className: 'row', id: 'countdown-timers' },
+          react_default.a.createElement(
+            'div',
+            { className: 'sm12 columns' },
+            react_default.a.createElement(
+              'div',
+              { 'class': 'timer', id: 'timer1' },
+              react_default.a.createElement(
+                'div',
+                { 'class': 'timer-inner ' },
+                react_default.a.createElement(
+                  'div',
+                  { 'class': 'timer-headline' },
+                  ' ',
+                  react_default.a.createElement(
+                    'span',
+                    { 'class': 'timer-light timer-hide-fixed' },
+                    'Hurry!'
+                  ),
+                  ' ',
+                  react_default.a.createElement(
+                    'span',
+                    null,
+                    react_default.a.createElement(
+                      'span',
+                      { 'class': 'timer-hide-fixed' },
+                      'COUPON CODE'
+                    ),
+                    ' ',
+                    react_default.a.createElement(
+                      'span',
+                      { 'class': 'timer-coupon' },
+                      '42BUYNOW ',
+                      react_default.a.createElement(
+                        'span',
+                        { 'class': 'timer-ends-in' },
+                        'ENDS ',
+                        react_default.a.createElement(
+                          'span',
+                          { 'class': 'timer-hide-fixed' },
+                          'IN'
+                        )
+                      )
+                    ),
+                    ' '
+                  ),
+                  ' '
+                ),
+                react_default.a.createElement(
+                  'div',
+                  { 'class': 'timer-clock' },
+                  react_default.a.createElement(
+                    'div',
+                    { 'class': 'timer-group timer-hours timer-seperator' },
+                    react_default.a.createElement(
+                      'div',
+                      { 'class': 'timer-digit-set' },
+                      react_default.a.createElement(
+                        'div',
+                        { 'class': 'timer-clock-digit' },
+                        react_default.a.createElement(
+                          'div',
+                          { 'class': 'timer-clock-digit-wrapper' },
+                          react_default.a.createElement(
+                            'div',
+                            { 'class': 'timer-clock-digit-inner' },
+                            react_default.a.createElement(
+                              'div',
+                              { 'class': 'timer-prev-number' },
+                              ' ',
+                              react_default.a.createElement('span', null),
+                              ' '
+                            ),
+                            react_default.a.createElement(
+                              'div',
+                              { 'class': 'timer-next-number' },
+                              ' ',
+                              react_default.a.createElement('span', null),
+                              ' '
+                            )
+                          )
+                        )
+                      ),
+                      react_default.a.createElement(
+                        'div',
+                        { 'class': 'timer-clock-digit' },
+                        react_default.a.createElement(
+                          'div',
+                          { 'class': 'timer-clock-digit-wrapper' },
+                          react_default.a.createElement(
+                            'div',
+                            { 'class': 'timer-clock-digit-inner' },
+                            react_default.a.createElement(
+                              'div',
+                              { 'class': 'timer-prev-number' },
+                              ' ',
+                              react_default.a.createElement('span', null),
+                              ' '
+                            ),
+                            react_default.a.createElement(
+                              'div',
+                              { 'class': 'timer-next-number' },
+                              ' ',
+                              react_default.a.createElement('span', null),
+                              ' '
+                            )
+                          )
+                        )
+                      )
+                    ),
+                    react_default.a.createElement(
+                      'div',
+                      { 'class': 'timer-clock-label' },
+                      ' hours '
+                    )
+                  ),
+                  react_default.a.createElement(
+                    'div',
+                    { 'class': 'timer-group timer-minutes timer-seperator' },
+                    react_default.a.createElement(
+                      'div',
+                      { 'class': 'timer-digit-set' },
+                      react_default.a.createElement(
+                        'div',
+                        { 'class': 'timer-clock-digit' },
+                        react_default.a.createElement(
+                          'div',
+                          { 'class': 'timer-clock-digit-wrapper' },
+                          react_default.a.createElement(
+                            'div',
+                            { 'class': 'timer-clock-digit-inner' },
+                            react_default.a.createElement(
+                              'div',
+                              { 'class': 'timer-prev-number' },
+                              ' ',
+                              react_default.a.createElement('span', null),
+                              ' '
+                            ),
+                            react_default.a.createElement(
+                              'div',
+                              { 'class': 'timer-next-number' },
+                              ' ',
+                              react_default.a.createElement('span', null),
+                              ' '
+                            )
+                          )
+                        )
+                      ),
+                      react_default.a.createElement(
+                        'div',
+                        { 'class': 'timer-clock-digit' },
+                        react_default.a.createElement(
+                          'div',
+                          { 'class': 'timer-clock-digit-wrapper' },
+                          react_default.a.createElement(
+                            'div',
+                            { 'class': 'timer-clock-digit-inner' },
+                            react_default.a.createElement(
+                              'div',
+                              { 'class': 'timer-prev-number' },
+                              ' ',
+                              react_default.a.createElement('span', null),
+                              ' '
+                            ),
+                            react_default.a.createElement(
+                              'div',
+                              { 'class': 'timer-next-number' },
+                              ' ',
+                              react_default.a.createElement('span', null),
+                              ' '
+                            )
+                          )
+                        )
+                      )
+                    ),
+                    react_default.a.createElement(
+                      'div',
+                      { 'class': 'timer-clock-label' },
+                      ' mins '
+                    )
+                  ),
+                  react_default.a.createElement(
+                    'div',
+                    { 'class': 'timer-group timer-seconds' },
+                    react_default.a.createElement(
+                      'div',
+                      { 'class': 'timer-digit-set' },
+                      react_default.a.createElement(
+                        'div',
+                        { 'class': 'timer-clock-digit' },
+                        react_default.a.createElement(
+                          'div',
+                          { 'class': 'timer-clock-digit-wrapper' },
+                          react_default.a.createElement(
+                            'div',
+                            { 'class': 'timer-clock-digit-inner' },
+                            react_default.a.createElement(
+                              'div',
+                              { 'class': 'timer-prev-number' },
+                              ' ',
+                              react_default.a.createElement('span', null),
+                              ' '
+                            ),
+                            react_default.a.createElement(
+                              'div',
+                              { 'class': 'timer-next-number' },
+                              ' ',
+                              react_default.a.createElement('span', null),
+                              ' '
+                            )
+                          )
+                        )
+                      ),
+                      react_default.a.createElement(
+                        'div',
+                        { 'class': 'timer-clock-digit' },
+                        react_default.a.createElement(
+                          'div',
+                          { 'class': 'timer-clock-digit-wrapper' },
+                          react_default.a.createElement(
+                            'div',
+                            { 'class': 'timer-clock-digit-inner' },
+                            react_default.a.createElement(
+                              'div',
+                              { 'class': 'timer-prev-number' },
+                              ' ',
+                              react_default.a.createElement('span', null),
+                              ' '
+                            ),
+                            react_default.a.createElement(
+                              'div',
+                              { 'class': 'timer-next-number' },
+                              ' ',
+                              react_default.a.createElement('span', null),
+                              ' '
+                            )
+                          )
+                        )
+                      )
+                    ),
+                    react_default.a.createElement(
+                      'div',
+                      { 'class': 'timer-clock-label' },
+                      ' secs '
+                    )
+                  )
+                )
+              )
+            )
+          )
+        ),
+        react_default.a.createElement(
+          'div',
+          { className: 'row', id: 'countdown-timers' },
+          react_default.a.createElement(
+            'div',
+            { className: 'sm12 columns' },
+            react_default.a.createElement(
+              'p',
+              null,
+              'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac nibh et nulla lacinia viverra et fermentum nisl. Cras ipsum magna, porta at auctor quis, hendrerit sit amet dui. Donec purus lectus, placerat in velit sit amet, posuere varius lectus. Nulla ullamcorper urna id tempor condimentum. Phasellus porttitor nunc nec lectus venenatis, sit amet sollicitudin sem fermentum. Integer tortor lorem, pharetra maximus imperdiet et, tincidunt non quam. Etiam mollis posuere turpis ut viverra. Etiam magna ipsum, cursus quis lectus vitae, dapibus convallis elit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;'
+            ),
+            react_default.a.createElement(
+              'p',
+              null,
+              'Sed sed nisi nec nulla malesuada maximus cursus a elit. Suspendisse iaculis ante vel lacinia pretium. Sed id lacus magna. Aenean sapien dui, elementum non pellentesque eleifend, interdum cursus augue. Aenean viverra commodo justo, vitae fringilla ipsum mollis vel. Duis cursus tellus at feugiat gravida. Maecenas sed ultrices lorem, sed blandit ipsum. In sodales at felis id porta. In vehicula tempor tellus, in mattis risus aliquet ut. Nulla et dolor dui. Nunc sodales enim purus. Donec et varius ipsum, quis blandit tellus. Praesent in quam non dui condimentum faucibus at quis diam.'
+            ),
+            react_default.a.createElement(
+              'p',
+              null,
+              'Aenean feugiat velit justo, id egestas arcu commodo quis. Vestibulum accumsan vestibulum eros eu placerat. Vivamus scelerisque dapibus urna, ut egestas libero laoreet ut. Maecenas porttitor elementum sem, a tincidunt eros venenatis ut. Quisque odio elit, volutpat quis urna vel, euismod porta mi. Mauris ut erat sit amet arcu dapibus interdum condimentum ac tortor. Maecenas quis porttitor dui. In vel eleifend risus. Mauris sit amet tellus nunc. Vivamus tincidunt mauris ac euismod blandit. Aliquam tempus, augue mattis elementum porta, justo diam feugiat eros, in consequat quam libero id sem.'
+            ),
+            react_default.a.createElement(
+              'p',
+              null,
+              'Mauris tempus sed nisl nec convallis. Nunc vitae mauris in nisl tempor consequat vel in ligula. Mauris varius vitae urna at porta. Nam aliquet, ligula sed auctor tincidunt, nisl lacus sagittis felis, efficitur pulvinar dui mauris id sapien. Nunc semper erat nec ullamcorper tincidunt. Mauris porta enim et ipsum lacinia molestie. Fusce efficitur ultrices velit, eu tincidunt lectus tincidunt quis.'
+            ),
+            react_default.a.createElement(
+              'p',
+              null,
+              'Cras ac nisl non ligula viverra sodales id id sem. Donec quis lectus vel urna hendrerit facilisis ut a est. Duis feugiat euismod pellentesque. Etiam vitae molestie velit. Pellentesque vulputate tincidunt elementum. Fusce consectetur purus massa, non aliquam nulla dignissim ultricies. Cras ac justo lorem. Morbi sed metus leo. Proin auctor metus porttitor congue commodo. Morbi dapibus facilisis odio, at fringilla ligula accumsan quis. Mauris fermentum ex pellentesque, cursus nisl et, tristique mi. Sed vitae interdum enim. Suspendisse ut dolor nulla. Vivamus euismod justo tellus, a lobortis urna aliquam in. '
+            )
+          )
+        ),
+        react_default.a.createElement(
+          'div',
+          { className: 'row' },
+          react_default.a.createElement(
+            'div',
+            { className: 'sm12 columns' },
+            react_default.a.createElement('hr', null),
+            react_default.a.createElement(
+              'p',
+              { className: 'S' },
+              'Created by: ',
+              react_default.a.createElement(
+                'strong',
+                null,
+                'Tony Stark'
+              ),
+              ' and ',
+              react_default.a.createElement(
+                'strong',
+                null,
+                'Bruce Banner'
+              ),
+              react_default.a.createElement('br', null),
+              ' Latest update: 04/05/2017'
+            )
+          )
+        )
+      );
+    }
+  }]);
+
+  return CountdownTimers;
+}(react["Component"]);
+
+var countdown_timers__default = countdown_timers_CountdownTimers;
+
+
+/* harmony default export */ var countdown_timers = (countdown_timers__default);
+;
+
+var countdown_timers__temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(countdown_timers_CountdownTimers, 'CountdownTimers', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/countdown-timers/countdown-timers.js');
+
+  __REACT_HOT_LOADER__.register(countdown_timers__default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/countdown-timers/countdown-timers.js');
+}();
+
+;
+// CONCATENATED MODULE: ./src/js/components/countdown-timers/index.js
+
+var components_countdown_timers__default = countdown_timers;
+/* harmony default export */ var components_countdown_timers = (components_countdown_timers__default);
+;
+
+var components_countdown_timers__temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(components_countdown_timers__default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/countdown-timers/index.js');
+}();
+
+;
 // CONCATENATED MODULE: ./src/js/containers/SubNav.js
 var SubNav__createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
@@ -8925,6 +10483,10 @@ function DesignSystemPage__inherits(subClass, superClass) { if (typeof superClas
 
 
 
+
+
+
+
 var DesignSystemPage_DesignSystemPage = function (_Component) {
   DesignSystemPage__inherits(DesignSystemPage, _Component);
 
@@ -8949,7 +10511,11 @@ var DesignSystemPage_DesignSystemPage = function (_Component) {
         ContentLoaders: { componentElement: components_content_loaders, componentDisplayName: "Content Loaders", componentSubNav: ['Code Generator', 'Types', 'Lazy Load'] },
         Tables: { componentElement: components_tables, componentDisplayName: "Tables", componentSubNav: ['Code Generator', 'Standard', 'Feature'] },
         Forms: { componentElement: components_forms, componentDisplayName: "Forms", componentSubNav: ['Code Generator', 'When to Use', 'Appearance', 'Form Validation', 'Sample Layout', 'Related Content'] },
-        DropdownButton: { componentElement: components_dropdown_button, componentDisplayName: "Content Loaders", componentSubNav: ['Code Generator', 'Types', 'Lazy Load'] }
+        DropdownButton: { componentElement: components_dropdown_button, componentDisplayName: "Content Loaders", componentSubNav: ['Code Generator', 'Types', 'Lazy Load'] },
+        StarRatings: { componentElement: components_star_ratings, componentDisplayName: "Content Loaders", componentSubNav: ['Code Generator', 'Types', 'Lazy Load'] },
+        Scrollbar: { componentElement: components_scrollbar, componentDisplayName: "Content Loaders", componentSubNav: ['Scrollbar'] },
+        CountdownTimers: { componentElement: components_countdown_timers, componentDisplayName: "Countdown Timers", componentSubNav: ['Countdown Timers'] },
+        VisualNavigation: { componentElement: components_visual_navigation, componentDisplayName: "Content Loaders", componentSubNav: ['Category Level', 'Subcategory Level'] }
       };
 
       var Scene = routes[this.props.componentName].componentElement;
@@ -13338,6 +14904,18 @@ var Root_App = function (_React$Component) {
                                 } }),
                             react_default.a.createElement(es["d" /* Route */], { exact: true, path: '/components/dropdown-button', render: function render() {
                                     return react_default.a.createElement(containers_DesignSystemPage, { componentName: 'DropdownButton' });
+                                } }),
+                            react_default.a.createElement(es["d" /* Route */], { exact: true, path: '/components/star-ratings', render: function render() {
+                                    return react_default.a.createElement(containers_DesignSystemPage, { componentName: 'StarRatings' });
+                                } }),
+                            react_default.a.createElement(es["d" /* Route */], { exact: true, path: '/components/scrollbar', render: function render() {
+                                    return react_default.a.createElement(containers_DesignSystemPage, { componentName: 'Scrollbar' });
+                                } }),
+                            react_default.a.createElement(es["d" /* Route */], { exact: true, path: '/components/visual-navigation', render: function render() {
+                                    return react_default.a.createElement(containers_DesignSystemPage, { componentName: 'VisualNavigation' });
+                                } }),
+                            react_default.a.createElement(es["d" /* Route */], { exact: true, path: '/components/countdown-timers', render: function render() {
+                                    return react_default.a.createElement(containers_DesignSystemPage, { componentName: 'CountdownTimers' });
                                 } })
                         )
                     )

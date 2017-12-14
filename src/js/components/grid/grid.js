@@ -23,6 +23,177 @@ The screen sizes were determined by a combination of common screen resolutions, 
 
     <div className="row" id="horizontal-grid">
         <div className="sm12 columns">
+
+        <div className="show-for-small-only">
+          <h4 class="promo-lbl promo-lbl-L mrg-S">S 360</h4>
+          <p className="mrg-XL algn-lft title title-L txt-weight-light txt-line-height-L color-nightsky">
+          width: 320px<br />
+          margin: 0 20px<br />
+          columns: 6<br />
+          column gutter: 16px<br />
+          column width: 40px<br />
+          vertical spacing: 4px</p>
+        </div>
+
+        <div className="show-for-medium-only">
+          <h4 class="promo-lbl promo-lbl-L mrg-S">M 768</h4>
+          <p className="mrg-XL algn-lft title title-L txt-weight-light txt-line-height-L color-nightsky">
+          width: 704px<br />
+          margin: 0 32px<br />
+          columns: 12<br />
+          column gutter: 16px<br />
+          column width: 44px<br />
+          vertical spacing: 4px</p>
+        </div>
+
+        <div className="show-for-large-only">
+          <h4 class="promo-lbl promo-lbl-L mrg-S">L 1024</h4>
+          <p className="mrg-XL algn-lft title title-L txt-weight-light txt-line-height-L color-nightsky">
+          width: 944px<br />
+          margin: 0 40px<br />
+          columns: 12<br />
+          column gutter: 16px<br />
+          column width: 64px<br />
+          vertical spacing: 4px</p>
+        </div>
+
+        <div className="show-for-xlarge-only">
+          <h4 class="promo-lbl promo-lbl-L mrg-S">XL 1440</h4>
+          <p className="mrg-XL algn-lft title title-L txt-weight-light txt-line-height-L color-nightsky">
+          width: 1328px<br />
+          margin: 0 56px<br />
+          columns: 12<br />
+          column gutter: 16px<br />
+          column width: 96px<br />
+          vertical spacing: 4px</p>
+        </div>
+
+        <div className="row">
+          <div className="sm12 columns">
+            <div className="grid-preview color-penneyred-bg"></div>
+          </div>
+        </div>
+
+        <div className="row">
+          <div className="sm12 columns">
+            <p className="mrg-M algn-lft std-txt std-txt-S color-penneyred">full width</p>
+          </div>
+        </div>
+
+        <div className="row show-for-small-only">
+          <div className="sm4 columns">
+            <div className="grid-preview color-penneyred-bg"></div>
+          </div>
+          <div className="sm4 columns">
+            <div className="grid-preview color-penneyred-bg"></div>
+          </div>
+          <div className="sm4 columns">
+            <div className="grid-preview color-penneyred-bg"></div>
+          </div>
+        </div>
+        
+        <div className="row show-for-small-only">
+          <div className="sm12 columns">
+            <p className="mrg-M algn-lft std-txt std-txt-S color-penneyred">3 columns</p>
+          </div>
+        </div>
+
+        <div className="row show-for-small-only">
+          <div className="sm2 columns">
+            <div className="grid-preview color-penneyred-bg"></div>
+          </div>
+          <div className="sm2 columns">
+            <div className="grid-preview color-penneyred-bg"></div>
+          </div>
+          <div className="sm2 columns">
+            <div className="grid-preview color-penneyred-bg"></div>
+          </div>
+          <div className="sm2 columns">
+            <div className="grid-preview color-penneyred-bg"></div>
+          </div>
+          <div className="sm2 columns">
+            <div className="grid-preview color-penneyred-bg"></div>
+          </div>
+          <div className="sm2 columns">
+            <div className="grid-preview color-penneyred-bg"></div>
+          </div>
+        </div>
+        
+        <div className="row show-for-small-only">
+          <div className="sm12 columns">
+            <p className="mrg-M algn-lft std-txt std-txt-S color-penneyred">6 columns</p>
+          </div>
+        </div>
+
+        <div className="row hide-for-small-only">
+          <div className="sm3 columns">
+            <div className="grid-preview color-penneyred-bg"></div>
+          </div>
+          <div className="sm3 columns">
+            <div className="grid-preview color-penneyred-bg"></div>
+          </div>
+          <div className="sm3 columns">
+            <div className="grid-preview color-penneyred-bg"></div>
+          </div>
+          <div className="sm3 columns">
+            <div className="grid-preview color-penneyred-bg"></div>
+          </div>
+        </div>
+        
+        <div className="row hide-for-small-only">
+          <div className="sm12 columns">
+            <p className="mrg-M algn-lft std-txt std-txt-S color-penneyred">4 columns</p>
+          </div>
+        </div>
+
+        <div className="row hide-for-small-only">
+          <div className="sm1 columns">
+            <div className="grid-preview color-penneyred-bg"></div>
+          </div>
+          <div className="sm1 columns">
+            <div className="grid-preview color-penneyred-bg"></div>
+          </div>
+          <div className="sm1 columns">
+            <div className="grid-preview color-penneyred-bg"></div>
+          </div>
+          <div className="sm1 columns">
+            <div className="grid-preview color-penneyred-bg"></div>
+          </div>
+          <div className="sm1 columns">
+            <div className="grid-preview color-penneyred-bg"></div>
+          </div>
+          <div className="sm1 columns">
+            <div className="grid-preview color-penneyred-bg"></div>
+          </div>
+          <div className="sm1 columns">
+            <div className="grid-preview color-penneyred-bg"></div>
+          </div>
+          <div className="sm1 columns">
+            <div className="grid-preview color-penneyred-bg"></div>
+          </div>
+          <div className="sm1 columns">
+            <div className="grid-preview color-penneyred-bg"></div>
+          </div>
+          <div className="sm1 columns">
+            <div className="grid-preview color-penneyred-bg"></div>
+          </div>
+          <div className="sm1 columns">
+            <div className="grid-preview color-penneyred-bg"></div>
+          </div>
+          <div className="sm1 columns">
+            <div className="grid-preview color-penneyred-bg"></div>
+          </div>
+        </div>
+        
+        <div className="row hide-for-small-only">
+          <div className="sm12 columns">
+            <p className="mrg-M algn-lft std-txt std-txt-S color-penneyred">12 columns</p>
+          </div>
+        </div>
+
+        <hr />
+
+
             <h3 className="title title-L mrg-L">Horizontal Grid</h3>
             <p className="mrg-L">The horizontal grid is key to understanding horizontal positioning of elements on a screen The horizontal grid contains the columns, gutters and margins of a page. Each column has a gutter on either side of the column. The margin is the padding on the outside of columns and gutters, and provides space outside of the content area</p>
             <h5 className="title title-M mrg-S">Horizontal Grid Layout</h5>

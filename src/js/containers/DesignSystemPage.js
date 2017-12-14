@@ -15,6 +15,7 @@ import Forms from '../components/forms';
 import StarRatings from '../components/star-ratings';
 import Scrollbar from '../components/scrollbar';
 import VisualNavigation from '../components/visual-navigation';
+import CountdownTimers from '../components/countdown-timers';
 
 import SubNav from './SubNav';
 
@@ -36,6 +37,7 @@ class DesignSystemPage extends Component {
    DropdownButton: {componentElement: DropdownButton, componentDisplayName: "Content Loaders", componentSubNav: ['Code Generator', 'Types', 'Lazy Load']},
    StarRatings: {componentElement: StarRatings, componentDisplayName: "Content Loaders", componentSubNav: ['Code Generator', 'Types', 'Lazy Load']},
    Scrollbar: {componentElement: Scrollbar, componentDisplayName: "Content Loaders", componentSubNav: ['Scrollbar']},
+   CountdownTimers: {componentElement: CountdownTimers, componentDisplayName: "Countdown Timers", componentSubNav: ['Countdown Timers']},
    VisualNavigation: {componentElement: VisualNavigation, componentDisplayName: "Content Loaders", componentSubNav: ['Category Level', 'Subcategory Level']}
   }
 

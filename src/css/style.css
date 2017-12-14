@@ -29,11 +29,12 @@ Base Styles
 @import "../js/components/forms/content-forms";
 @import "../js/components/star-ratings/star-ratings";
 @import "../js/components/scrollbar/scrollbar";
+@import "../js/components/countdown-timers/countdown-timers";
 @import "../js/components/visual-navigation/visual-navigation";
 @import "base/progressbars";
 @import "base/colorswatches";
 @import "base/pagination";
-@import "base/visual-nav";
+/*@import "base/visual-nav";*/
 @import "base/toggles";
 @import "base/carousel";
 /* @import "base/additional-buttons"; */
