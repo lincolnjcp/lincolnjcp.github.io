@@ -718,8 +718,8 @@ var rootNav = [{
         activeClassName: 'inactive',
         content: 'Tabs'
     }, {
-        to: '/',
-        activeClassName: 'inactive',
+        to: '/components/tooltips',
+        activeClassName: 'active',
         content: 'Tooltips'
     }, {
         to: '/components/scrollbar',
@@ -9819,7 +9819,9 @@ var countdown_timers_CountdownTimers = function (_Component) {
     value: function componentDidMount() {
       jquery_default()(document).ready(function () {
         //Target date
-        var timerCountDownDate = new Date("Sep 7, 2018 22:06:00").getTime();
+
+        var timerToday = new Date();
+        var timerCountDownDate = new Date(timerToday.getFullYear(), timerToday.getMonth(), timerToday.getDate() + 7).getTime();
 
         //Timer Object References
         var timerElem = jquery_default()("#timer1");
@@ -9906,24 +9908,15 @@ var countdown_timers_CountdownTimers = function (_Component) {
           }
         };
 
-        timerWindow.resize(function () {
-          //Bind scroll tracking for sticky mobile timer
-          timerCheckSize();
-        });
-
-        timerCheckSize = function timerCheckSize() {
-          if (timerWindow.width() <= 400) {
-            timerWindow.unbind("scroll.timerResize").bind("scroll.timerResize", function () {
-              var timer_offset = timerElem.offset().top;
-              if (timerWindow.scrollTop() > timer_offset) {
-                timerElem.addClass('timer-sticky');
-              } else {
-                timerElem.removeClass('timer-sticky');
-              }
-            });
+        timerWindow.unbind("scroll.timerResize").bind("scroll.timerResize", function () {
+          var timer_offset = timerElem.offset().top;
+          if (timerWindow.scrollTop() > timer_offset) {
+            timerElem.addClass('timer-sticky');
+            timerElem.find('.timer-dates-fixed').text(timerElem.find('.timer-dates').text());
+          } else {
+            timerElem.removeClass('timer-sticky');
           }
-        };
-        timerCheckSize();
+        });
       });
     }
   }, {
@@ -9961,40 +9954,35 @@ var countdown_timers_CountdownTimers = function (_Component) {
                 react_default.a.createElement(
                   'div',
                   { 'class': 'timer-headline' },
-                  ' ',
                   react_default.a.createElement(
-                    'span',
-                    { 'class': 'timer-light timer-hide-fixed' },
-                    'Hurry!'
-                  ),
-                  ' ',
-                  react_default.a.createElement(
-                    'span',
-                    null,
+                    'div',
+                    { 'class': 'timer-headline-inner' },
+                    react_default.a.createElement(
+                      'span',
+                      { 'class': 'timer-hide-fixed-mobile' },
+                      'Day 1 of coupon code '
+                    ),
+                    react_default.a.createElement(
+                      'span',
+                      { 'class': 'timer-coupon timer-light' },
+                      'FALLNOW'
+                    ),
                     react_default.a.createElement(
                       'span',
                       { 'class': 'timer-hide-fixed' },
-                      'COUPON CODE'
-                    ),
-                    ' ',
-                    react_default.a.createElement(
-                      'span',
-                      { 'class': 'timer-coupon' },
-                      '42BUYNOW ',
+                      ' ENDS ',
                       react_default.a.createElement(
                         'span',
-                        { 'class': 'timer-ends-in' },
-                        'ENDS ',
-                        react_default.a.createElement(
-                          'span',
-                          { 'class': 'timer-hide-fixed' },
-                          'IN'
-                        )
+                        { 'class': 'timer-hide-fixed' },
+                        'IN'
                       )
                     ),
-                    ' '
-                  ),
-                  ' '
+                    react_default.a.createElement(
+                      'span',
+                      { 'class': 'timer-dates timer-hide-fixed' },
+                      '*Offer ends on 11/12/17'
+                    )
+                  )
                 ),
                 react_default.a.createElement(
                   'div',
@@ -10194,7 +10182,8 @@ var countdown_timers_CountdownTimers = function (_Component) {
                       ' secs '
                     )
                   )
-                )
+                ),
+                react_default.a.createElement('div', { 'class': 'timer-dates-fixed' })
               )
             )
           )
@@ -10205,6 +10194,15 @@ var countdown_timers_CountdownTimers = function (_Component) {
           react_default.a.createElement(
             'div',
             { className: 'sm12 columns' },
+            react_default.a.createElement(
+              'p',
+              null,
+              react_default.a.createElement(
+                'strong',
+                null,
+                'Scroll down to view the sticky version of the countdown timer.'
+              )
+            ),
             react_default.a.createElement(
               'p',
               null,
@@ -10295,6 +10293,337 @@ var components_countdown_timers__temp = function () {
   }
 
   __REACT_HOT_LOADER__.register(components_countdown_timers__default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/countdown-timers/index.js');
+}();
+
+;
+// CONCATENATED MODULE: ./src/js/components/tooltips/tooltips.js
+var tooltips__createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+function tooltips__classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function tooltips__possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function tooltips__inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+
+
+var tooltips_Tooltips = function (_Component) {
+          tooltips__inherits(Tooltips, _Component);
+
+          function Tooltips() {
+                    tooltips__classCallCheck(this, Tooltips);
+
+                    return tooltips__possibleConstructorReturn(this, (Tooltips.__proto__ || Object.getPrototypeOf(Tooltips)).apply(this, arguments));
+          }
+
+          tooltips__createClass(Tooltips, [{
+                    key: "componentDidMount",
+                    value: function componentDidMount() {}
+          }, {
+                    key: "render",
+                    value: function render() {
+                              return react_default.a.createElement(
+                                        "div",
+                                        null,
+                                        react_default.a.createElement(
+                                                  "div",
+                                                  { className: "mrg-L row" },
+                                                  react_default.a.createElement(
+                                                            "div",
+                                                            { className: "tooltip" },
+                                                            react_default.a.createElement(
+                                                                      "span",
+                                                                      null,
+                                                                      "Multi-line tooltips have 16px of padding. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit."
+                                                            )
+                                                  ),
+                                                  react_default.a.createElement("br", null),
+                                                  react_default.a.createElement(
+                                                            "div",
+                                                            { className: "tooltip tooltip-single" },
+                                                            react_default.a.createElement(
+                                                                      "span",
+                                                                      null,
+                                                                      "tooltip tooltip new"
+                                                            )
+                                                  ),
+                                                  react_default.a.createElement("br", null),
+                                                  react_default.a.createElement("br", null),
+                                                  react_default.a.createElement("br", null),
+                                                  react_default.a.createElement("br", null),
+                                                  react_default.a.createElement(
+                                                            "div",
+                                                            { className: "tooltip tooltip-single tooltip-right-side" },
+                                                            react_default.a.createElement(
+                                                                      "span",
+                                                                      null,
+                                                                      "tooltip right side"
+                                                            )
+                                                  ),
+                                                  react_default.a.createElement("br", null),
+                                                  react_default.a.createElement("br", null),
+                                                  react_default.a.createElement(
+                                                            "div",
+                                                            { className: "tooltip tooltip-single tooltip-left-side" },
+                                                            react_default.a.createElement(
+                                                                      "span",
+                                                                      null,
+                                                                      "tooltip left side"
+                                                            )
+                                                  ),
+                                                  react_default.a.createElement("br", null),
+                                                  react_default.a.createElement(
+                                                            "div",
+                                                            { className: "tooltip tooltip-bottom-center" },
+                                                            react_default.a.createElement(
+                                                                      "span",
+                                                                      null,
+                                                                      "Multi-line tooltips have 16px of padding. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit."
+                                                            )
+                                                  ),
+                                                  react_default.a.createElement("br", null),
+                                                  react_default.a.createElement(
+                                                            "div",
+                                                            { className: "tooltip tooltip-bottom-right" },
+                                                            react_default.a.createElement(
+                                                                      "span",
+                                                                      null,
+                                                                      "Multi-line tooltips have 16px of padding. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit."
+                                                            )
+                                                  ),
+                                                  react_default.a.createElement("br", null),
+                                                  react_default.a.createElement(
+                                                            "div",
+                                                            { className: "tooltip tooltip-top-left" },
+                                                            react_default.a.createElement(
+                                                                      "span",
+                                                                      null,
+                                                                      "Multi-line tooltips have 16px of padding. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit."
+                                                            )
+                                                  ),
+                                                  react_default.a.createElement("br", null),
+                                                  react_default.a.createElement(
+                                                            "div",
+                                                            { className: "tooltip tooltip-dark" },
+                                                            react_default.a.createElement(
+                                                                      "span",
+                                                                      null,
+                                                                      "Multi-line tooltips have 16px of padding. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit."
+                                                            )
+                                                  ),
+                                                  react_default.a.createElement("br", null),
+                                                  react_default.a.createElement(
+                                                            "div",
+                                                            { className: "tooltip tooltip-top-center" },
+                                                            react_default.a.createElement(
+                                                                      "span",
+                                                                      null,
+                                                                      "Multi-line tooltips have 16px of padding. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit."
+                                                            )
+                                                  ),
+                                                  react_default.a.createElement("br", null),
+                                                  react_default.a.createElement(
+                                                            "div",
+                                                            { className: "tooltip tooltip-top-right" },
+                                                            react_default.a.createElement(
+                                                                      "span",
+                                                                      null,
+                                                                      "Multi-line tooltips have 16px of padding. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit."
+                                                            )
+                                                  ),
+                                                  react_default.a.createElement("br", null),
+                                                  react_default.a.createElement(
+                                                            "div",
+                                                            { className: "tooltip tooltip-top-right tooltip-long tooltip-list" },
+                                                            react_default.a.createElement(
+                                                                      "ul",
+                                                                      null,
+                                                                      react_default.a.createElement(
+                                                                                "li",
+                                                                                null,
+                                                                                react_default.a.createElement(
+                                                                                          "a",
+                                                                                          { href: "#" },
+                                                                                          "My Account"
+                                                                                )
+                                                                      ),
+                                                                      react_default.a.createElement(
+                                                                                "li",
+                                                                                null,
+                                                                                react_default.a.createElement(
+                                                                                          "a",
+                                                                                          { href: "#" },
+                                                                                          "My Rewards"
+                                                                                )
+                                                                      ),
+                                                                      react_default.a.createElement(
+                                                                                "li",
+                                                                                null,
+                                                                                react_default.a.createElement(
+                                                                                          "a",
+                                                                                          { href: "#" },
+                                                                                          "My Orders"
+                                                                                )
+                                                                      ),
+                                                                      react_default.a.createElement(
+                                                                                "li",
+                                                                                null,
+                                                                                react_default.a.createElement(
+                                                                                          "a",
+                                                                                          { href: "#" },
+                                                                                          "My Rewards (0)"
+                                                                                )
+                                                                      ),
+                                                                      react_default.a.createElement(
+                                                                                "li",
+                                                                                null,
+                                                                                react_default.a.createElement(
+                                                                                          "a",
+                                                                                          { href: "#" },
+                                                                                          "My List"
+                                                                                )
+                                                                      ),
+                                                                      react_default.a.createElement(
+                                                                                "li",
+                                                                                null,
+                                                                                react_default.a.createElement(
+                                                                                          "a",
+                                                                                          { href: "#" },
+                                                                                          "Profile Settings"
+                                                                                )
+                                                                      ),
+                                                                      react_default.a.createElement(
+                                                                                "li",
+                                                                                null,
+                                                                                react_default.a.createElement(
+                                                                                          "a",
+                                                                                          { href: "#" },
+                                                                                          "Nofications"
+                                                                                )
+                                                                      ),
+                                                                      react_default.a.createElement(
+                                                                                "li",
+                                                                                null,
+                                                                                react_default.a.createElement(
+                                                                                          "a",
+                                                                                          { href: "#" },
+                                                                                          "My JCPenney.com"
+                                                                                )
+                                                                      ),
+                                                                      react_default.a.createElement(
+                                                                                "li",
+                                                                                null,
+                                                                                react_default.a.createElement(
+                                                                                          "a",
+                                                                                          { href: "#" },
+                                                                                          "Gift Registry"
+                                                                                )
+                                                                      ),
+                                                                      react_default.a.createElement(
+                                                                                "li",
+                                                                                null,
+                                                                                react_default.a.createElement(
+                                                                                          "a",
+                                                                                          { href: "#" },
+                                                                                          "JCPenney Credit Card"
+                                                                                )
+                                                                      ),
+                                                                      react_default.a.createElement(
+                                                                                "li",
+                                                                                { className: "tooltip-divider" },
+                                                                                react_default.a.createElement(
+                                                                                          "a",
+                                                                                          { href: "#" },
+                                                                                          "Sign Out"
+                                                                                )
+                                                                      )
+                                                            )
+                                                  ),
+                                                  react_default.a.createElement("br", null),
+                                                  react_default.a.createElement(
+                                                            "div",
+                                                            { className: "tooltip tooltip-top-right" },
+                                                            react_default.a.createElement(
+                                                                      "span",
+                                                                      null,
+                                                                      react_default.a.createElement(
+                                                                                "h1",
+                                                                                { className: "title title-M mrg-S" },
+                                                                                "This is a Tooltip H1 Title"
+                                                                      ),
+                                                                      "Multi-line tooltips have 16px of padding. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.Multi-line tooltips have 16px of padding. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit."
+                                                            )
+                                                  ),
+                                                  react_default.a.createElement("br", null),
+                                                  react_default.a.createElement("br", null),
+                                                  react_default.a.createElement(
+                                                            "div",
+                                                            { className: "tooltip tooltip-dark tooltip-top-right" },
+                                                            react_default.a.createElement(
+                                                                      "span",
+                                                                      null,
+                                                                      "Multi-line tooltips have 16px of padding. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.Multi-line tooltips have 16px of padding. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit."
+                                                            )
+                                                  ),
+                                                  react_default.a.createElement("br", null),
+                                                  react_default.a.createElement("br", null),
+                                                  react_default.a.createElement(
+                                                            "div",
+                                                            { className: "tooltip tooltip-right-side" },
+                                                            react_default.a.createElement("div", { className: "tooltip-close" }),
+                                                            react_default.a.createElement(
+                                                                      "span",
+                                                                      null,
+                                                                      react_default.a.createElement(
+                                                                                "h1",
+                                                                                { className: "title title-M mrg-S" },
+                                                                                "This is a Tooltip H1 Title"
+                                                                      ),
+                                                                      react_default.a.createElement("input", { type: "radio", id: "tooltip-radio", name: "tootlip-radio" }),
+                                                                      react_default.a.createElement(
+                                                                                "label",
+                                                                                { "for": "tooltip-radio" },
+                                                                                "Vanilla label"
+                                                                      )
+                                                            )
+                                                  )
+                                        )
+                              );
+                    }
+          }]);
+
+          return Tooltips;
+}(react["Component"]);
+
+var tooltips__default = tooltips_Tooltips;
+
+
+/* harmony default export */ var tooltips = (tooltips__default);
+;
+
+var tooltips__temp = function () {
+          if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+                    return;
+          }
+
+          __REACT_HOT_LOADER__.register(tooltips_Tooltips, "Tooltips", "C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/tooltips/tooltips.js");
+
+          __REACT_HOT_LOADER__.register(tooltips__default, "default", "C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/tooltips/tooltips.js");
+}();
+
+;
+// CONCATENATED MODULE: ./src/js/components/tooltips/index.js
+
+var components_tooltips__default = tooltips;
+/* harmony default export */ var components_tooltips = (components_tooltips__default);
+;
+
+var components_tooltips__temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(components_tooltips__default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/tooltips/index.js');
 }();
 
 ;
@@ -10487,6 +10816,7 @@ function DesignSystemPage__inherits(subClass, superClass) { if (typeof superClas
 
 
 
+
 var DesignSystemPage_DesignSystemPage = function (_Component) {
   DesignSystemPage__inherits(DesignSystemPage, _Component);
 
@@ -10511,11 +10841,12 @@ var DesignSystemPage_DesignSystemPage = function (_Component) {
         ContentLoaders: { componentElement: components_content_loaders, componentDisplayName: "Content Loaders", componentSubNav: ['Code Generator', 'Types', 'Lazy Load'] },
         Tables: { componentElement: components_tables, componentDisplayName: "Tables", componentSubNav: ['Code Generator', 'Standard', 'Feature'] },
         Forms: { componentElement: components_forms, componentDisplayName: "Forms", componentSubNav: ['Code Generator', 'When to Use', 'Appearance', 'Form Validation', 'Sample Layout', 'Related Content'] },
-        DropdownButton: { componentElement: components_dropdown_button, componentDisplayName: "Content Loaders", componentSubNav: ['Code Generator', 'Types', 'Lazy Load'] },
-        StarRatings: { componentElement: components_star_ratings, componentDisplayName: "Content Loaders", componentSubNav: ['Code Generator', 'Types', 'Lazy Load'] },
-        Scrollbar: { componentElement: components_scrollbar, componentDisplayName: "Content Loaders", componentSubNav: ['Scrollbar'] },
+        DropdownButton: { componentElement: components_dropdown_button, componentDisplayName: "Dropdown Button", componentSubNav: ['Dropdown Button'] },
+        StarRatings: { componentElement: components_star_ratings, componentDisplayName: "Star Ratings", componentSubNav: ['Star Ratings'] },
+        Scrollbar: { componentElement: components_scrollbar, componentDisplayName: "Scrollbar", componentSubNav: ['Scrollbar'] },
         CountdownTimers: { componentElement: components_countdown_timers, componentDisplayName: "Countdown Timers", componentSubNav: ['Countdown Timers'] },
-        VisualNavigation: { componentElement: components_visual_navigation, componentDisplayName: "Content Loaders", componentSubNav: ['Category Level', 'Subcategory Level'] }
+        VisualNavigation: { componentElement: components_visual_navigation, componentDisplayName: "Visual Navigation", componentSubNav: ['Visual Navigation'] },
+        Tooltips: { componentElement: components_tooltips, componentDisplayName: "Tooltips", componentSubNav: ['Tooltips'] }
       };
 
       var Scene = routes[this.props.componentName].componentElement;
@@ -14916,6 +15247,9 @@ var Root_App = function (_React$Component) {
                                 } }),
                             react_default.a.createElement(es["d" /* Route */], { exact: true, path: '/components/countdown-timers', render: function render() {
                                     return react_default.a.createElement(containers_DesignSystemPage, { componentName: 'CountdownTimers' });
+                                } }),
+                            react_default.a.createElement(es["d" /* Route */], { exact: true, path: '/components/tooltips', render: function render() {
+                                    return react_default.a.createElement(containers_DesignSystemPage, { componentName: 'Tooltips' });
                                 } })
                         )
                     )

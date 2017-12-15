@@ -38,6 +38,6 @@ Base Styles
 @import "base/toggles";
 @import "base/carousel";
 /* @import "base/additional-buttons"; */
-@import "base/tooltips";
+/* @import "base/tooltips"; */
 @import "base/selectors";
 /* @import "../js/components/work-in-progress/work-in-progress"; */
