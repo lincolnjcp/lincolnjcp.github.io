@@ -6,7 +6,9 @@ class CountdownTimers extends Component {
 componentDidMount() {
   $( document ).ready(function() {
   //Target date
-  var timerCountDownDate = new Date("Sep 7, 2018 22:06:00").getTime();
+
+  var timerToday = new Date();
+  var timerCountDownDate = new Date(timerToday.getFullYear(), timerToday.getMonth(), timerToday.getDate()+7).getTime();
 
   //Timer Object References
   var timerElem = $("#timer1");
@@ -91,25 +93,17 @@ componentDidMount() {
       elemNext2.closest(".timer-clock-digit-inner").find(".timer-prev-number span").html(digit2);
     }
   }
-  
-  timerWindow.resize(function(){
-  //Bind scroll tracking for sticky mobile timer
-    timerCheckSize();
+
+  timerWindow.unbind( "scroll.timerResize" ).bind( "scroll.timerResize", function() {
+    var timer_offset = timerElem.offset().top;
+      if ( timerWindow.scrollTop() > timer_offset ){
+      timerElem.addClass('timer-sticky');
+      timerElem.find('.timer-dates-fixed').text(timerElem.find('.timer-dates').text());
+      } else {
+      timerElem.removeClass('timer-sticky');
+      }
   });
-  
-  timerCheckSize = function() {
-    if (timerWindow.width() <= 400){
-      timerWindow.unbind( "scroll.timerResize" ).bind( "scroll.timerResize", function() {
-        var timer_offset = timerElem.offset().top;
-          if ( timerWindow.scrollTop() > timer_offset ){
-          timerElem.addClass('timer-sticky');
-          } else {
-          timerElem.removeClass('timer-sticky');
-          }
-      });
-    }
-  }
-  timerCheckSize();
+
 });
 }
 
@@ -130,7 +124,14 @@ componentDidMount() {
       <div className="sm12 columns">
           <div class="timer" id="timer1">
             <div class="timer-inner ">
-              <div class="timer-headline"> <span class="timer-light timer-hide-fixed">Hurry!</span> <span><span class="timer-hide-fixed">COUPON CODE</span> <span class="timer-coupon">42BUYNOW <span class="timer-ends-in">ENDS <span class="timer-hide-fixed">IN</span></span></span> </span> </div>
+              <div class="timer-headline">
+                <div class="timer-headline-inner">
+                  <span class="timer-hide-fixed-mobile">Day 1 of coupon code </span>
+                  <span class="timer-coupon timer-light">FALLNOW</span>
+                  <span class="timer-hide-fixed"> ENDS <span class="timer-hide-fixed">IN</span></span>
+                  <span class="timer-dates timer-hide-fixed">*Offer ends on 11/12/17</span>
+                </div>
+              </div>
               <div class="timer-clock">
                 <div class="timer-group timer-hours timer-seperator">
                   <div class="timer-digit-set">
@@ -196,6 +197,7 @@ componentDidMount() {
                   <div class="timer-clock-label"> secs </div>
                 </div>
               </div>
+              <div class="timer-dates-fixed"></div>
             </div>
           </div>
       </div>
@@ -203,6 +205,8 @@ componentDidMount() {
 
     <div className="row" id="countdown-timers">
       <div className="sm12 columns">
+        <p><strong>Scroll down to view the sticky version of the countdown timer.</strong></p>
+
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac nibh et nulla lacinia viverra et fermentum nisl. Cras ipsum magna, porta at auctor quis, hendrerit sit amet dui. Donec purus lectus, placerat in velit sit amet, posuere varius lectus. Nulla ullamcorper urna id tempor condimentum. Phasellus porttitor nunc nec lectus venenatis, sit amet sollicitudin sem fermentum. Integer tortor lorem, pharetra maximus imperdiet et, tincidunt non quam. Etiam mollis posuere turpis ut viverra. Etiam magna ipsum, cursus quis lectus vitae, dapibus convallis elit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
 
         <p>Sed sed nisi nec nulla malesuada maximus cursus a elit. Suspendisse iaculis ante vel lacinia pretium. Sed id lacus magna. Aenean sapien dui, elementum non pellentesque eleifend, interdum cursus augue. Aenean viverra commodo justo, vitae fringilla ipsum mollis vel. Duis cursus tellus at feugiat gravida. Maecenas sed ultrices lorem, sed blandit ipsum. In sodales at felis id porta. In vehicula tempor tellus, in mattis risus aliquet ut. Nulla et dolor dui. Nunc sodales enim purus. Donec et varius ipsum, quis blandit tellus. Praesent in quam non dui condimentum faucibus at quis diam.</p>
