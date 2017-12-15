@@ -153,8 +153,8 @@ const rootNav = [
                 content: 'Tabs',
             },
             {
-                to: '/',
-                activeClassName: 'inactive',
+                to: '/components/tooltips',
+                activeClassName: 'active',
                 content: 'Tooltips',
             },
             {

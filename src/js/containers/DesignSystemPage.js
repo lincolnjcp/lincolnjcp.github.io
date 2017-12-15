@@ -16,6 +16,7 @@ import StarRatings from '../components/star-ratings';
 import Scrollbar from '../components/scrollbar';
 import VisualNavigation from '../components/visual-navigation';
 import CountdownTimers from '../components/countdown-timers';
+import Tooltips from '../components/tooltips';
 
 import SubNav from './SubNav';
 
@@ -34,11 +35,12 @@ class DesignSystemPage extends Component {
    ContentLoaders: {componentElement: ContentLoaders, componentDisplayName: "Content Loaders", componentSubNav: ['Code Generator', 'Types', 'Lazy Load']},
    Tables: {componentElement: Tables, componentDisplayName: "Tables", componentSubNav: ['Code Generator', 'Standard', 'Feature']},
    Forms: {componentElement: Forms, componentDisplayName: "Forms", componentSubNav: ['Code Generator', 'When to Use', 'Appearance', 'Form Validation', 'Sample Layout', 'Related Content']},
-   DropdownButton: {componentElement: DropdownButton, componentDisplayName: "Content Loaders", componentSubNav: ['Code Generator', 'Types', 'Lazy Load']},
-   StarRatings: {componentElement: StarRatings, componentDisplayName: "Content Loaders", componentSubNav: ['Code Generator', 'Types', 'Lazy Load']},
-   Scrollbar: {componentElement: Scrollbar, componentDisplayName: "Content Loaders", componentSubNav: ['Scrollbar']},
+   DropdownButton: {componentElement: DropdownButton, componentDisplayName: "Dropdown Button", componentSubNav: ['Dropdown Button']},
+   StarRatings: {componentElement: StarRatings, componentDisplayName: "Star Ratings", componentSubNav: ['Star Ratings']},
+   Scrollbar: {componentElement: Scrollbar, componentDisplayName: "Scrollbar", componentSubNav: ['Scrollbar']},
    CountdownTimers: {componentElement: CountdownTimers, componentDisplayName: "Countdown Timers", componentSubNav: ['Countdown Timers']},
-   VisualNavigation: {componentElement: VisualNavigation, componentDisplayName: "Content Loaders", componentSubNav: ['Category Level', 'Subcategory Level']}
+   VisualNavigation: {componentElement: VisualNavigation, componentDisplayName: "Visual Navigation", componentSubNav: ['Visual Navigation']},
+   Tooltips: {componentElement: Tooltips, componentDisplayName: "Tooltips", componentSubNav: ['Tooltips']}
   }
 
   const Scene = routes[this.props.componentName].componentElement;
