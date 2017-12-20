@@ -31,6 +31,7 @@ Base Styles
 @import "../js/components/scrollbar/scrollbar";
 @import "../js/components/countdown-timers/countdown-timers";
 @import "../js/components/visual-navigation/visual-navigation";
+@import "../js/components/tooltips/tooltips";
 @import "base/progressbars";
 @import "base/colorswatches";
 @import "base/pagination";
