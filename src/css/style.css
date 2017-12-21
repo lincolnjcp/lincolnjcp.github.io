@@ -37,7 +37,7 @@ Base Styles
 @import "base/pagination";
 /*@import "base/visual-nav";*/
 @import "base/toggles";
-@import "base/carousel";
+@import "../js/components/carousel/carousel";
 /* @import "base/additional-buttons"; */
 /* @import "base/tooltips"; */
 @import "base/selectors";

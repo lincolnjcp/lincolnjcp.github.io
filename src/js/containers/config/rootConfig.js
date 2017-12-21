@@ -78,8 +78,8 @@ const rootNav = [
                 content: 'Breadcrumbs',
             },
             {
-                to: '/',
-                activeClassName: 'inactive',
+                to: '/components/carousels',
+                activeClassName: 'active',
                 content: 'Carousels',
             },
             {

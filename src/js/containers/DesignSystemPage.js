@@ -17,6 +17,7 @@ import Scrollbar from '../components/scrollbar';
 import VisualNavigation from '../components/visual-navigation';
 import CountdownTimers from '../components/countdown-timers';
 import Tooltips from '../components/tooltips';
+import Carousel from '../components/carousel';
 
 import SubNav from './SubNav';
 
@@ -40,7 +41,8 @@ class DesignSystemPage extends Component {
    Scrollbar: {componentElement: Scrollbar, componentDisplayName: "Scrollbar", componentSubNav: ['Scrollbar']},
    CountdownTimers: {componentElement: CountdownTimers, componentDisplayName: "Countdown Timers", componentSubNav: ['Countdown Timers']},
    VisualNavigation: {componentElement: VisualNavigation, componentDisplayName: "Visual Navigation", componentSubNav: ['Visual Navigation']},
-   Tooltips: {componentElement: Tooltips, componentDisplayName: "Tooltips", componentSubNav: ['Tooltips']}
+   Tooltips: {componentElement: Tooltips, componentDisplayName: "Tooltips", componentSubNav: ['Tooltips']},
+   Carousel: {componentElement: Carousel, componentDisplayName: "Carousels", componentSubNav: ['Carousel']}
   }
 
   const Scene = routes[this.props.componentName].componentElement;

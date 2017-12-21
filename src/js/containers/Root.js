@@ -172,6 +172,9 @@ class App extends React.Component {
                             <Route exact path="/components/visual-navigation" render={() => <DesignSystemPage componentName="VisualNavigation" />} />
                             <Route exact path="/components/countdown-timers" render={() => <DesignSystemPage componentName="CountdownTimers" />} />
                             <Route exact path="/components/tooltips" render={() => <DesignSystemPage componentName="Tooltips" />} />
+
+                            <Route exact path="/components/carousels" render={() => <DesignSystemPage componentName="Carousel" />} />
+
                         </div>
                     </div>
 

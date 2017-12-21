@@ -658,8 +658,8 @@ var rootNav = [{
         activeClassName: 'inactive',
         content: 'Breadcrumbs'
     }, {
-        to: '/',
-        activeClassName: 'inactive',
+        to: '/components/carousels',
+        activeClassName: 'active',
         content: 'Carousels'
     }, {
         to: '/',
@@ -10627,6 +10627,463 @@ var components_tooltips__temp = function () {
 }();
 
 ;
+// EXTERNAL MODULE: ./node_modules/react-slick/lib/index.js
+var lib = __webpack_require__("qmfj");
+var lib_default = /*#__PURE__*/__webpack_require__.n(lib);
+
+// CONCATENATED MODULE: ./src/js/components/carousel/carousel.js
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var carousel__createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+function carousel__classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function carousel__possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function carousel__inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+
+
+
+
+var ChevronUpImage = __webpack_require__("xFKG");
+var ChevronDownImage = __webpack_require__("Yvnt");
+
+var carousel_CarouselLeftButton = function (_React$Component) {
+  carousel__inherits(CarouselLeftButton, _React$Component);
+
+  function CarouselLeftButton() {
+    carousel__classCallCheck(this, CarouselLeftButton);
+
+    return carousel__possibleConstructorReturn(this, (CarouselLeftButton.__proto__ || Object.getPrototypeOf(CarouselLeftButton)).apply(this, arguments));
+  }
+
+  carousel__createClass(CarouselLeftButton, [{
+    key: 'render',
+    value: function render() {
+      return react_default.a.createElement(
+        'button',
+        this.props,
+        'Previous'
+      );
+    }
+  }]);
+
+  return CarouselLeftButton;
+}(react_default.a.Component);
+
+var carousel_CarouselRightButton = function (_React$Component2) {
+  carousel__inherits(CarouselRightButton, _React$Component2);
+
+  function CarouselRightButton() {
+    carousel__classCallCheck(this, CarouselRightButton);
+
+    return carousel__possibleConstructorReturn(this, (CarouselRightButton.__proto__ || Object.getPrototypeOf(CarouselRightButton)).apply(this, arguments));
+  }
+
+  carousel__createClass(CarouselRightButton, [{
+    key: 'render',
+    value: function render() {
+      return react_default.a.createElement(
+        'button',
+        this.props,
+        'Next'
+      );
+    }
+  }]);
+
+  return CarouselRightButton;
+}(react_default.a.Component);
+
+var carousel_CarouselUpButton = function (_React$Component3) {
+  carousel__inherits(CarouselUpButton, _React$Component3);
+
+  function CarouselUpButton() {
+    carousel__classCallCheck(this, CarouselUpButton);
+
+    return carousel__possibleConstructorReturn(this, (CarouselUpButton.__proto__ || Object.getPrototypeOf(CarouselUpButton)).apply(this, arguments));
+  }
+
+  carousel__createClass(CarouselUpButton, [{
+    key: 'render',
+    value: function render() {
+      return react_default.a.createElement(
+        'button',
+        this.props,
+        react_default.a.createElement('span', { className: 'icon color-shadow-svg', dangerouslySetInnerHTML: { __html: ChevronUpImage } })
+      );
+    }
+  }]);
+
+  return CarouselUpButton;
+}(react_default.a.Component);
+
+var carousel_CarouselDownButton = function (_React$Component4) {
+  carousel__inherits(CarouselDownButton, _React$Component4);
+
+  function CarouselDownButton() {
+    carousel__classCallCheck(this, CarouselDownButton);
+
+    return carousel__possibleConstructorReturn(this, (CarouselDownButton.__proto__ || Object.getPrototypeOf(CarouselDownButton)).apply(this, arguments));
+  }
+
+  carousel__createClass(CarouselDownButton, [{
+    key: 'render',
+    value: function render() {
+      return react_default.a.createElement(
+        'button',
+        this.props,
+        react_default.a.createElement('span', { className: 'icon color-shadow-svg', dangerouslySetInnerHTML: { __html: ChevronDownImage } })
+      );
+    }
+  }]);
+
+  return CarouselDownButton;
+}(react_default.a.Component);
+
+var carousel_CarouselImage = function (_React$Component5) {
+  carousel__inherits(CarouselImage, _React$Component5);
+
+  function CarouselImage() {
+    carousel__classCallCheck(this, CarouselImage);
+
+    return carousel__possibleConstructorReturn(this, (CarouselImage.__proto__ || Object.getPrototypeOf(CarouselImage)).apply(this, arguments));
+  }
+
+  carousel__createClass(CarouselImage, [{
+    key: 'render',
+    value: function render() {
+      return react_default.a.createElement(
+        'div',
+        null,
+        react_default.a.createElement('img', { src: this.props.imgSrc })
+      );
+    }
+  }]);
+
+  return CarouselImage;
+}(react_default.a.Component);
+
+var carousel_CarouselNavImage = function (_React$Component6) {
+  carousel__inherits(CarouselNavImage, _React$Component6);
+
+  function CarouselNavImage() {
+    carousel__classCallCheck(this, CarouselNavImage);
+
+    return carousel__possibleConstructorReturn(this, (CarouselNavImage.__proto__ || Object.getPrototypeOf(CarouselNavImage)).apply(this, arguments));
+  }
+
+  carousel__createClass(CarouselNavImage, [{
+    key: 'render',
+    value: function render() {
+      return react_default.a.createElement(
+        'div',
+        null,
+        react_default.a.createElement('img', { src: this.props.imgSrc }),
+        react_default.a.createElement('div', { className: 'carousel-dot' })
+      );
+    }
+  }]);
+
+  return CarouselNavImage;
+}(react_default.a.Component);
+
+var carousel_Carousel = function (_Component) {
+  carousel__inherits(Carousel, _Component);
+
+  function Carousel() {
+    carousel__classCallCheck(this, Carousel);
+
+    return carousel__possibleConstructorReturn(this, (Carousel.__proto__ || Object.getPrototypeOf(Carousel)).apply(this, arguments));
+  }
+
+  carousel__createClass(Carousel, [{
+    key: 'render',
+    value: function render() {
+      var that = this;
+      var pdpPrimaryCarouselSettings = {
+
+        dots: false,
+        infinite: false,
+        speed: 500,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        vertical: false,
+        focusOnSelect: true,
+        arrows: false,
+        variableWidth: true,
+        beforeChange: function beforeChange(index) {
+          /*if(that.refs.mainSlider.state.currentSlide != that.refs.navSlider.state.currentSlide) {
+              console.log("change reg"+that.refs.navSlider.state.currentSlide);
+              that.refs.navSlider.setState({ currentSlide: index });
+              that.refs.mainSlider.setState({ currentSlide: index });
+              that.refs.navSlider.slickGoTo(index);
+          }
+          //that.refs.navSlider.slickGoTo(index);*/
+        },
+        afterChange: function afterChange(index) {},
+        responsive: [{
+          breakpoint: 1440,
+          settings: {}
+        }]
+      };
+
+      var pdpPrimaryCarouselNavSettings = {
+
+        dots: false,
+        infinite: false,
+        speed: 500,
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        vertical: true,
+        focusOnSelect: true,
+        nextArrow: react_default.a.createElement(carousel_CarouselDownButton, null),
+        prevArrow: react_default.a.createElement(carousel_CarouselUpButton, null),
+        beforeChange: function beforeChange(index) {
+          that.refs.navSlider.setState({ currentSlide: index });
+          if (that.refs.mainSlider.state.currentSlide != that.refs.navSlider.state.currentSlide) {
+            console.log("change" + index);
+            that.refs.navSlider.setState({ currentSlideID: index });
+            that.refs.mainSlider.setState({ currentSlideID: index });
+            that.refs.mainSlider.slickGoTo(index);
+          }
+        },
+        afterChange: function afterChange(index) {},
+        responsive: [{
+          breakpoint: 1440,
+          settings: {}
+        }]
+      };
+      return react_default.a.createElement(
+        'div',
+        null,
+        react_default.a.createElement(
+          'div',
+          { className: 'row' },
+          react_default.a.createElement(
+            'div',
+            { className: 'sm12 columns' },
+            react_default.a.createElement(
+              'h1',
+              { className: 'title title-XL mrg-L' },
+              'Carousels'
+            ),
+            react_default.a.createElement(
+              'h2',
+              { className: 'std-txt std-txt-XL mrg-L max-width-text' },
+              'Nulla vitae elit libero, a pharetra augue nullam quis risus eget urna mollis ornare vel eu leo. Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+            )
+          )
+        ),
+        react_default.a.createElement(
+          'div',
+          { className: 'row', id: 'carousel' },
+          react_default.a.createElement(
+            'div',
+            { className: 'md12 lg12 sm12 column mrg-XL' },
+            react_default.a.createElement(
+              'h2',
+              { className: 'title title-L mrg-M' },
+              'PDP Carousels & Video Player'
+            ),
+            react_default.a.createElement(
+              'div',
+              { className: 'carousel-container carousel-container-vertical mrg-L' },
+              react_default.a.createElement(
+                'div',
+                { className: 'carousel-main-img' },
+                react_default.a.createElement(
+                  lib_default.a,
+                  _extends({ ref: 'mainSlider' }, pdpPrimaryCarouselSettings),
+                  react_default.a.createElement(
+                    'div',
+                    null,
+                    react_default.a.createElement(carousel_CarouselImage, { imgSrc: 'https://s7d9.scene7.com/is/image/JCPenney/DP0726201617201191M?hei=500&wid=500&op_usm=.4,.8,0,0&resmode=sharp2', navType: 'carousel-dot-image' })
+                  ),
+                  react_default.a.createElement(
+                    'div',
+                    null,
+                    react_default.a.createElement(carousel_CarouselImage, { imgSrc: 'https://s7d9.scene7.com/is/image/JCPenney/DP0913201618055525M?hei=500&wid=500&op_usm=.4,.8,0,0&resmode=sharp2', navType: 'carousel-dot-image' })
+                  ),
+                  react_default.a.createElement(
+                    'div',
+                    null,
+                    react_default.a.createElement(carousel_CarouselImage, { imgSrc: 'https://s7d9.scene7.com/is/image/JCPenney/DP0607201617024741M?hei=500&wid=500&op_usm=.4,.8,0,0&resmode=sharp2', navType: 'carousel-dot-image' })
+                  ),
+                  react_default.a.createElement(
+                    'div',
+                    null,
+                    react_default.a.createElement(carousel_CarouselImage, { imgSrc: 'https://s7d9.scene7.com/is/image/JCPenney/DP0615201717271938M?hei=500&wid=500&op_usm=.4,.8,0,0&resmode=sharp2', navType: 'carousel-dot-image' })
+                  ),
+                  react_default.a.createElement(
+                    'div',
+                    null,
+                    react_default.a.createElement(carousel_CarouselImage, { imgSrc: 'https://s7d9.scene7.com/is/image/JCPenney/DP0913201618055525M?hei=500&wid=500&op_usm=.4,.8,0,0&resmode=sharp2', navType: 'carousel-dot-video' })
+                  )
+                ),
+                react_default.a.createElement(
+                  'div',
+                  { 'class': 'flag flag-info std-txt std-txt-XS' },
+                  'Low Stock'
+                )
+              ),
+              react_default.a.createElement(
+                'div',
+                { className: 'carousel-component' },
+                react_default.a.createElement(
+                  lib_default.a,
+                  _extends({ ref: 'navSlider' }, pdpPrimaryCarouselNavSettings),
+                  react_default.a.createElement(
+                    'div',
+                    null,
+                    react_default.a.createElement(carousel_CarouselNavImage, { imgSrc: 'https://s7d9.scene7.com/is/image/JCPenney/DP0726201617201191M?hei=500&wid=500&op_usm=.4,.8,0,0&resmode=sharp2', navType: 'carousel-dot-image' })
+                  ),
+                  react_default.a.createElement(
+                    'div',
+                    null,
+                    react_default.a.createElement(carousel_CarouselNavImage, { imgSrc: 'https://s7d9.scene7.com/is/image/JCPenney/DP0913201618055525M.tif?$gallery$', navType: 'carousel-dot-image' })
+                  ),
+                  react_default.a.createElement(
+                    'div',
+                    null,
+                    react_default.a.createElement(carousel_CarouselNavImage, { imgSrc: 'https://s7d9.scene7.com/is/image/JCPenney/DP0607201617024741M.tif?$gallery$', navType: 'carousel-dot-image' })
+                  ),
+                  react_default.a.createElement(
+                    'div',
+                    null,
+                    react_default.a.createElement(carousel_CarouselNavImage, { imgSrc: 'https://s7d9.scene7.com/is/image/JCPenney/DP0615201717271938M.tif?$gallery$', navType: 'carousel-dot-image' })
+                  ),
+                  react_default.a.createElement(
+                    'div',
+                    null,
+                    react_default.a.createElement(carousel_CarouselNavImage, { imgSrc: 'https://s7d9.scene7.com/is/image/JCPenney/DP0913201618055525M.tif?$gallery$', navType: 'carousel-dot-video' })
+                  )
+                )
+              )
+            )
+          )
+        ),
+        react_default.a.createElement(
+          'div',
+          { className: 'row', id: 'content-guidelines' },
+          react_default.a.createElement(
+            'div',
+            { className: 'sm12 columns' },
+            react_default.a.createElement('hr', null),
+            react_default.a.createElement(
+              'h3',
+              { className: 'title title-L mrg-L' },
+              'Content Guidelines'
+            ),
+            react_default.a.createElement(
+              'p',
+              { className: 'mrg-L' },
+              'Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras justo odio, dapibus ac facilisis in, egestas eget quam.'
+            ),
+            react_default.a.createElement(
+              'h4',
+              { className: 'title title-M mrg-L' },
+              'How to write effective alerts:'
+            ),
+            react_default.a.createElement(
+              'ul',
+              { className: 'list max-width-text color-slate' },
+              react_default.a.createElement(
+                'li',
+                null,
+                'Aenean lacinia bibendum nulla sed consectetur'
+              ),
+              react_default.a.createElement(
+                'li',
+                null,
+                'Integer posuere erat a ante venenatis dapibus posuere velit aliquet'
+              ),
+              react_default.a.createElement(
+                'li',
+                null,
+                'Etiam porta sem malesuada magna mollis euismod. Lorem ipsum dolor sit amet, consec'
+              )
+            )
+          )
+        ),
+        react_default.a.createElement(
+          'div',
+          { className: 'row' },
+          react_default.a.createElement(
+            'div',
+            { className: 'sm12 columns' },
+            react_default.a.createElement('hr', null),
+            react_default.a.createElement(
+              'p',
+              { className: 'S' },
+              'Created by: ',
+              react_default.a.createElement(
+                'strong',
+                null,
+                'Tony Stark'
+              ),
+              ' and ',
+              react_default.a.createElement(
+                'strong',
+                null,
+                'Bruce Banner'
+              ),
+              react_default.a.createElement('br', null),
+              ' Latest update: 04/05/2017'
+            )
+          )
+        )
+      );
+    }
+  }]);
+
+  return Carousel;
+}(react["Component"]);
+
+var carousel__default = carousel_Carousel;
+
+
+/* harmony default export */ var carousel = (carousel__default);
+;
+
+var carousel__temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(carousel_CarouselLeftButton, 'CarouselLeftButton', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/carousel/carousel.js');
+
+  __REACT_HOT_LOADER__.register(carousel_CarouselRightButton, 'CarouselRightButton', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/carousel/carousel.js');
+
+  __REACT_HOT_LOADER__.register(carousel_CarouselUpButton, 'CarouselUpButton', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/carousel/carousel.js');
+
+  __REACT_HOT_LOADER__.register(carousel_CarouselDownButton, 'CarouselDownButton', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/carousel/carousel.js');
+
+  __REACT_HOT_LOADER__.register(carousel_CarouselImage, 'CarouselImage', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/carousel/carousel.js');
+
+  __REACT_HOT_LOADER__.register(carousel_CarouselNavImage, 'CarouselNavImage', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/carousel/carousel.js');
+
+  __REACT_HOT_LOADER__.register(carousel_Carousel, 'Carousel', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/carousel/carousel.js');
+
+  __REACT_HOT_LOADER__.register(carousel__default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/carousel/carousel.js');
+}();
+
+;
+// CONCATENATED MODULE: ./src/js/components/carousel/index.js
+
+var components_carousel__default = carousel;
+/* harmony default export */ var components_carousel = (components_carousel__default);
+;
+
+var components_carousel__temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(components_carousel__default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/carousel/index.js');
+}();
+
+;
 // CONCATENATED MODULE: ./src/js/containers/SubNav.js
 var SubNav__createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
@@ -10817,6 +11274,7 @@ function DesignSystemPage__inherits(subClass, superClass) { if (typeof superClas
 
 
 
+
 var DesignSystemPage_DesignSystemPage = function (_Component) {
   DesignSystemPage__inherits(DesignSystemPage, _Component);
 
@@ -10846,7 +11304,8 @@ var DesignSystemPage_DesignSystemPage = function (_Component) {
         Scrollbar: { componentElement: components_scrollbar, componentDisplayName: "Scrollbar", componentSubNav: ['Scrollbar'] },
         CountdownTimers: { componentElement: components_countdown_timers, componentDisplayName: "Countdown Timers", componentSubNav: ['Countdown Timers'] },
         VisualNavigation: { componentElement: components_visual_navigation, componentDisplayName: "Visual Navigation", componentSubNav: ['Visual Navigation'] },
-        Tooltips: { componentElement: components_tooltips, componentDisplayName: "Tooltips", componentSubNav: ['Tooltips'] }
+        Tooltips: { componentElement: components_tooltips, componentDisplayName: "Tooltips", componentSubNav: ['Tooltips'] },
+        Carousel: { componentElement: components_carousel, componentDisplayName: "Carousels", componentSubNav: ['Carousel'] }
       };
 
       var Scene = routes[this.props.componentName].componentElement;
@@ -10911,8 +11370,8 @@ var work_in_progress_plusImage = __webpack_require__("Vx6E");
 var work_in_progress_gridfillImage = __webpack_require__("plRc");
 var listLineImage = __webpack_require__("7qej");
 var listLineImageFill = __webpack_require__("cosh");
-var ChevronUpImage = __webpack_require__("xFKG");
-var ChevronDownImage = __webpack_require__("Yvnt");
+var work_in_progress_ChevronUpImage = __webpack_require__("xFKG");
+var work_in_progress_ChevronDownImage = __webpack_require__("Yvnt");
 
 var work_in_progress_WorkInProgress = function (_Component) {
   work_in_progress__inherits(WorkInProgress, _Component);
@@ -13028,7 +13487,7 @@ var work_in_progress_WorkInProgress = function (_Component) {
                     react_default.a.createElement(
                       'li',
                       { className: 'visible-hide' },
-                      react_default.a.createElement('span', { className: 'icon color-shadow-svg', dangerouslySetInnerHTML: { __html: ChevronUpImage } })
+                      react_default.a.createElement('span', { className: 'icon color-shadow-svg', dangerouslySetInnerHTML: { __html: work_in_progress_ChevronUpImage } })
                     ),
                     react_default.a.createElement(
                       'li',
@@ -13053,7 +13512,7 @@ var work_in_progress_WorkInProgress = function (_Component) {
                     react_default.a.createElement(
                       'li',
                       null,
-                      react_default.a.createElement('span', { className: 'icon color-shadow-svg', dangerouslySetInnerHTML: { __html: ChevronDownImage } })
+                      react_default.a.createElement('span', { className: 'icon color-shadow-svg', dangerouslySetInnerHTML: { __html: work_in_progress_ChevronDownImage } })
                     )
                   )
                 ),
@@ -13086,7 +13545,7 @@ var work_in_progress_WorkInProgress = function (_Component) {
                     react_default.a.createElement(
                       'li',
                       null,
-                      react_default.a.createElement('span', { className: 'icon color-shadow-svg', dangerouslySetInnerHTML: { __html: ChevronUpImage } })
+                      react_default.a.createElement('span', { className: 'icon color-shadow-svg', dangerouslySetInnerHTML: { __html: work_in_progress_ChevronUpImage } })
                     ),
                     react_default.a.createElement(
                       'li',
@@ -13112,7 +13571,7 @@ var work_in_progress_WorkInProgress = function (_Component) {
                     react_default.a.createElement(
                       'li',
                       { className: 'visible-hide' },
-                      react_default.a.createElement('span', { className: 'icon color-shadow-svg', dangerouslySetInnerHTML: { __html: ChevronDownImage } })
+                      react_default.a.createElement('span', { className: 'icon color-shadow-svg', dangerouslySetInnerHTML: { __html: work_in_progress_ChevronDownImage } })
                     )
                   )
                 ),
@@ -15250,6 +15709,9 @@ var Root_App = function (_React$Component) {
                                 } }),
                             react_default.a.createElement(es["d" /* Route */], { exact: true, path: '/components/tooltips', render: function render() {
                                     return react_default.a.createElement(containers_DesignSystemPage, { componentName: 'Tooltips' });
+                                } }),
+                            react_default.a.createElement(es["d" /* Route */], { exact: true, path: '/components/carousels', render: function render() {
+                                    return react_default.a.createElement(containers_DesignSystemPage, { componentName: 'Carousel' });
                                 } })
                         )
                     )
