@@ -203,8 +203,8 @@ const rootNav = [
                 content: 'Footer',
             },
             {
-                to: '/',
-                activeClassName: 'inactive',
+                to: '/page-modules/header',
+                activeClassName: 'active',
                 content: 'Header',
             },
             {

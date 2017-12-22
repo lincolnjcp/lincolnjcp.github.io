@@ -60,7 +60,6 @@
 .slick-prev:before,
 .slick-next:before
 {
-    font-family: 'slick';
     font-size: 20px;
     line-height: 1;
 
@@ -116,7 +115,7 @@
 .slick-dots
 {
     position: absolute;
-    bottom: -25px;
+    bottom: -15px;
 
     display: block;
 
@@ -134,9 +133,9 @@
 
     display: inline-block;
 
-    width: 20px;
-    height: 20px;
-    margin: 0 5px;
+    width: 8px;
+    height: 8px;
+    margin: 0 2px;
     padding: 0;
 
     cursor: pointer;
@@ -148,17 +147,25 @@
 
     display: block;
 
-    width: 20px;
-    height: 20px;
-    padding: 5px;
+    width: 8px;
+    height: 8px;
+    border-radius: 4px;
+
+    background-color: var(--color-concrete);
 
     cursor: pointer;
 
     color: transparent;
     border: 0;
     outline: none;
-    background: transparent;
+    padding: 0;
+
+
 }
+.slick-dots li.slick-active button {
+    	background-color: var(--color-nightsky);
+ }
+
 .slick-dots li button:hover,
 .slick-dots li button:focus
 {
@@ -168,33 +175,6 @@
 .slick-dots li button:focus:before
 {
     opacity: 1;
-}
-.slick-dots li button:before
-{
-    font-family: 'slick';
-    font-size: 6px;
-    line-height: 20px;
-
-    position: absolute;
-    top: 0;
-    left: 0;
-
-    width: 20px;
-    height: 20px;
-
-    content: '•';
-    text-align: center;
-
-    opacity: .25;
-    color: black;
-
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-}
-.slick-dots li.slick-active button:before
-{
-    opacity: .75;
-    color: black;
 }
 
 
@@ -218,33 +198,185 @@
 	max-width: 500px;
 }
 
+.carousel-container-horizontal {
+	max-width: 320px;
+
+	& .carousel-main-img {
+		max-width: 320px;	
+		& .slick-slide {
+			max-width: 320px;
+		}
+	}
+	& .carousel-nav {
+		max-width: 260px;
+		padding-left: 30px;
+		padding-right: 30px;
+		margin: 5px auto;
+		& .slide-slide {
+			padding: 2px;
+		}
+		& .slide-inner {
+			border: 2px solid var(--color-white);
+		}
+		& .slick-current .slide-inner {
+			border: 2px solid var(--color-nightsky);
+			padding: 2px;
+		}
+		& .slick-arrow {
+			padding: 0;
+			left: auto;
+			right: auto;
+			margin:12px auto;
+			width: 24px;
+			height: 24px;
+			border-radius: 12px;
+			border:1px solid var(--color-nightsky);
+			position: absolute;
+			top: 1px;
+
+			& .icon {
+				width:24px;
+				height:24px;
+				position: absolute;
+				top:0px;
+				left:-1px;
+				& svg {
+					width:22px;
+					height:22px;
+				}
+			}
+
+			&.slick-prev .icon {
+				top:0;
+			}
+
+			&.slick-prev {
+				left: -30px;
+			}
+
+			&.slick-next {
+				right: -30px;
+			}
+		}
+	}
+}
+.carousel-container-vertical {
+	& .carousel-nav {
+		max-width: 500px;
+		& .slick-slide {
+			padding-bottom: 5px;
+			cursor: pointer;
+			& .slide-inner {
+				
+			}
+			&:hover {
+				opacity: .5;
+			}
+			
+		}
+		
+		& .slick-current:hover {
+			opacity: 1;
+		}
+		& .slick-current .slide-inner {
+			border: 2px solid var(--color-nightsky);
+			padding: 2px;
+		}
+
+		& .slick-arrow {
+			padding: 0;
+			left: auto;
+			right: auto;
+			margin:12px auto;
+			width: 24px;
+			height: 24px;
+			border-radius: 12px;
+			border:1px solid var(--color-nightsky);
+			position: relative;
+
+			& .icon {
+				width:24px;
+				height:24px;
+				position: absolute;
+				top:1px;
+				left:-1px;
+				& svg {
+					width:22px;
+					height:22px;
+				}
+			}
+
+			&.slick-prev .icon {
+				top:-1px;
+			}
+		}
+
+		& .carousel-dot-video {
+			position: relative;
+			&:after {
+				content:"";
+				border:1px solid var(--color-nightsky);
+				border-radius: 2px;
+				position: absolute;
+				top:24px;
+				left: 24px;
+				width:24px;
+				height: 24px;
+				
+				background: url("var(--path-images)global/icons/nav/triangle-right.svg") no-repeat -15px -15px rgba(255,255,255,.75);
+				background-size: 53px auto;
+			}
+		}
+	}
+}
+
 @media (--viewport-sm-only) {
-	.slick-slide {
-		max-width: 220px;
+	.carousel-container-vertical {
+		& .carousel-main-img {
+			& .slick-slide {
+				max-width: 220px;
+				opacity: .5;
+			}
+			& .slick-active {
+				opacity: 1;
+			}
+		}
+		& .carousel-nav {
+		}
 	}
 }
 @media (--viewport-lg-down) {
-	.carousel-component .slick-slide {
-		position: relative;
-		& .carousel-dot {
-			width:10px;
-			height:10px;
-			border-radius: 5px;
-			background-color: var(--color-nightsky);
-		}
-		& img {
-			display: none;
-		}
 
+	.carousel-container-vertical {
+		& .carousel-nav {
+			& .slick-list {
+				display: none;
+			}
+			& .slick-arrow {
+				display: none !important;
+			}
+			& .slick-slide {
+			position: relative;
+
+				& .slide-inner {
+					border: none;
+					padding: 0;
+
+				}
+				& img {
+					display: none;
+				}
+
+			}
+		}
 	}
-
 }
 
 @media (--viewport-xl) {
 	.carousel-container-vertical {
 		position: relative;
 		padding-left: 112px;
-		& .carousel-component {
+		& .carousel-nav {
 			position: absolute;
 			top: 0;
 			left: 0;

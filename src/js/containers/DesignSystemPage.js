@@ -21,6 +21,8 @@ import Tabs from '../components/tabs';
 import Pagination from '../components/pagination';
 import Carousel from '../components/carousel';
 
+import Header from '../components/header';
+
 import SubNav from './SubNav';
 
 class DesignSystemPage extends Component {
@@ -46,7 +48,8 @@ class DesignSystemPage extends Component {
    Tooltips: {componentElement: Tooltips, componentDisplayName: "Tooltips", componentSubNav: ['Tooltips']},
    Tabs: {componentElement: Tabs, componentDisplayName: "Tabs", componentSubNav: ['Tabs']},
    Pagination: {componentElement: Pagination, componentDisplayName: "Pagination", componentSubNav: ['Pagination']},
-   Carousel: {componentElement: Carousel, componentDisplayName: "Carousels", componentSubNav: ['Carousel']}
+   Carousel: {componentElement: Carousel, componentDisplayName: "Carousels", componentSubNav: ['Carousel']},
+   Header: {componentElement: Header, componentDisplayName: "Header", componentSubNav: ['Header']}
   }
 
   const Scene = routes[this.props.componentName].componentElement;
