@@ -174,6 +174,7 @@ class App extends React.Component {
                             <Route exact path="/components/tooltips" render={() => <DesignSystemPage componentName="Tooltips" />} />
                             <Route exact path="/components/tabs" render={() => <DesignSystemPage componentName="Tabs" />} />
                             <Route exact path="/components/pagination" render={() => <DesignSystemPage componentName="Pagination" />} />
+                            <Route exact path="/components/carousels" render={() => <DesignSystemPage componentName="Carousel" />} />
                         </div>
                     </div>
 

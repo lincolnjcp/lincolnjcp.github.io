@@ -14,6 +14,8 @@
 @custom-media --viewport-xl (width >= 1440px);
 
 
+@custom-media --viewport-lg-down (width < 1440px);
+
     :root {
     /******************
     /* Vars

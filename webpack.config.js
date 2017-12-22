@@ -33,6 +33,9 @@ module.exports = {
         filename: '[name].js'
     },
     resolve: {
+        alias: {
+            react: __dirname + '/node_modules/react'
+        },
         extensions: ['.webpack-loader.js', '.web-loader.js', '.loader.js', '.js', '.jsx'],
         modules: [
             sourcePath,

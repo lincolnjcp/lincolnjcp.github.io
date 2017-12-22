@@ -19,6 +19,7 @@ import CountdownTimers from '../components/countdown-timers';
 import Tooltips from '../components/tooltips';
 import Tabs from '../components/tabs';
 import Pagination from '../components/pagination';
+import Carousel from '../components/carousel';
 
 import SubNav from './SubNav';
 
@@ -44,7 +45,8 @@ class DesignSystemPage extends Component {
    VisualNavigation: {componentElement: VisualNavigation, componentDisplayName: "Visual Navigation", componentSubNav: ['Visual Navigation']},
    Tooltips: {componentElement: Tooltips, componentDisplayName: "Tooltips", componentSubNav: ['Tooltips']},
    Tabs: {componentElement: Tabs, componentDisplayName: "Tabs", componentSubNav: ['Tabs']},
-   Pagination: {componentElement: Pagination, componentDisplayName: "Pagination", componentSubNav: ['Pagination']}
+   Pagination: {componentElement: Pagination, componentDisplayName: "Pagination", componentSubNav: ['Pagination']},
+   Carousel: {componentElement: Carousel, componentDisplayName: "Carousels", componentSubNav: ['Carousel']}
   }
 
   const Scene = routes[this.props.componentName].componentElement;
