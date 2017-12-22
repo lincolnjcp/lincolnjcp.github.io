@@ -21,7 +21,6 @@ Base Styles
 @import "../js/components/alerts/alerts";
 @import "base/modal";
 @import "base/product";
-@import "base/tabs";
 @import "../js/components/tables/tables";
 @import "base/wells";
 @import "../js/components/content-loaders/content-loaders";
@@ -32,6 +31,7 @@ Base Styles
 @import "../js/components/countdown-timers/countdown-timers";
 @import "../js/components/visual-navigation/visual-navigation";
 @import "../js/components/tooltips/tooltips";
+@import "../js/components/tabs/tabs";
 @import "base/progressbars";
 @import "base/colorswatches";
 @import "base/pagination";

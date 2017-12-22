@@ -113,8 +113,8 @@ const rootNav = [
                 content: 'Forms',
             },
             {
-                to: '/',
-                activeClassName: 'inactive',
+                to: '/components/pagination',
+                activeClassName: 'active',
                 content: 'Pagination',
             },
             {
@@ -148,8 +148,8 @@ const rootNav = [
                 content: 'Tables',
             },
             {
-                to: '/',
-                activeClassName: 'inactive',
+                to: '/components/tabs',
+                activeClassName: 'active',
                 content: 'Tabs',
             },
             {

@@ -59,7 +59,7 @@ html {
 
 /*  Global focus styling */
 *:focus{
-  outline: 2px dashed $color-neutral-type;
+  outline: 2px dashed var(--color-neutral-type);
 }
 
 /* ---------------------------------------------------------------------
