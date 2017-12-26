@@ -32,10 +32,9 @@ Base Styles
 @import "../js/components/visual-navigation/visual-navigation";
 @import "../js/components/tooltips/tooltips";
 @import "../js/components/tabs/tabs";
+@import "../js/components/pagination/pagination";
 @import "base/progressbars";
 @import "base/colorswatches";
-@import "base/pagination";
-/*@import "base/visual-nav";*/
 @import "base/toggles";
 @import "../js/components/carousel/carousel";
 /* @import "base/additional-buttons"; */
