@@ -19,6 +19,7 @@ import CountdownTimers from '../components/countdown-timers';
 import Tooltips from '../components/tooltips';
 import Tabs from '../components/tabs';
 import Pagination from '../components/pagination';
+import Swatches from '../components/swatches';
 import Carousel from '../components/carousel';
 
 import Header from '../components/header';
@@ -48,6 +49,7 @@ class DesignSystemPage extends Component {
    Tooltips: {componentElement: Tooltips, componentDisplayName: "Tooltips", componentSubNav: ['Tooltips']},
    Tabs: {componentElement: Tabs, componentDisplayName: "Tabs", componentSubNav: ['Tabs']},
    Pagination: {componentElement: Pagination, componentDisplayName: "Pagination", componentSubNav: ['Pagination']},
+   Swatches: {componentElement: Swatches, componentDisplayName: "Swatches", componentSubNav: ['Swatches']},
    Carousel: {componentElement: Carousel, componentDisplayName: "Carousels", componentSubNav: ['Carousel']},
    Header: {componentElement: Header, componentDisplayName: "Header", componentSubNav: ['Header']}
   }

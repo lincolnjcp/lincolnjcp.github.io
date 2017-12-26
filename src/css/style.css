@@ -33,8 +33,8 @@ Base Styles
 @import "../js/components/tooltips/tooltips";
 @import "../js/components/tabs/tabs";
 @import "../js/components/pagination/pagination";
+@import "../js/components/swatches/swatches";
 @import "base/progressbars";
-@import "base/colorswatches";
 @import "base/toggles";
 @import "../js/components/carousel/carousel";
 /* @import "base/additional-buttons"; */

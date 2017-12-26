@@ -83,9 +83,9 @@ const rootNav = [
                 content: 'Carousels',
             },
             {
-                to: '/',
-                activeClassName: 'inactive',
-                content: 'Color Image Swatches',
+                to: '/components/swatches',
+                activeClassName: 'active',
+                content: 'Color Swatches',
             },
             {
                 to: '/components/content-loaders',

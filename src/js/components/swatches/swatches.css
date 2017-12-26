@@ -1,6 +1,5 @@
 /***************************************************
 /* Colors Swatches
-/* Found on PDP
 ***************************************************/
 .color-swatches-block {
   width: 100%;
@@ -67,12 +66,12 @@
 
         &:after{
           content: " ";
-          top: -6px;
-          left: 50%;
+          top: 0;
+          left: 45%;
           position: absolute;
           display: block;
           width: 4px;
-          height: 48px;
+          height: 38px;
           border-right: 1px solid var(--color-concrete);
           border-left: 1px solid var(--color-concrete);
           background-color: var(--color-white);
