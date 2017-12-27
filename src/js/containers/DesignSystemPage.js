@@ -20,6 +20,7 @@ import Tooltips from '../components/tooltips';
 import Tabs from '../components/tabs';
 import Pagination from '../components/pagination';
 import Swatches from '../components/swatches';
+import Selectors from '../components/selectors';
 import Carousel from '../components/carousel';
 
 import Header from '../components/header';
@@ -50,6 +51,7 @@ class DesignSystemPage extends Component {
    Tabs: {componentElement: Tabs, componentDisplayName: "Tabs", componentSubNav: ['Tabs']},
    Pagination: {componentElement: Pagination, componentDisplayName: "Pagination", componentSubNav: ['Pagination']},
    Swatches: {componentElement: Swatches, componentDisplayName: "Swatches", componentSubNav: ['Swatches']},
+   Selectors: {componentElement: Selectors, componentDisplayName: "Selectors", componentSubNav: ['Selectors']},
    Carousel: {componentElement: Carousel, componentDisplayName: "Carousels", componentSubNav: ['Carousel']},
    Header: {componentElement: Header, componentDisplayName: "Header", componentSubNav: ['Header']}
   }

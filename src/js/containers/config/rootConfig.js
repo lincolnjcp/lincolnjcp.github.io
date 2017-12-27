@@ -128,8 +128,8 @@ const rootNav = [
                 content: 'Progress Bar',
             },
             {
-                to: '/',
-                activeClassName: 'inactive',
+                to: '/components/selectors',
+                activeClassName: 'active',
                 content: 'Selectors',
             },
             {

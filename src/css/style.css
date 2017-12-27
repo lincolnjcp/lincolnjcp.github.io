@@ -34,12 +34,11 @@ Base Styles
 @import "../js/components/tabs/tabs";
 @import "../js/components/pagination/pagination";
 @import "../js/components/swatches/swatches";
+@import "../js/components/selectors/selectors";
 @import "base/progressbars";
 @import "base/toggles";
 @import "../js/components/carousel/carousel";
 /* @import "base/additional-buttons"; */
-/* @import "base/tooltips"; */
-@import "base/selectors";
 /* @import "../js/components/work-in-progress/work-in-progress"; */
 
 
