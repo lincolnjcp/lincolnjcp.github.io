@@ -188,8 +188,8 @@ const rootNav = [
                 content: 'Coupon List',
             },
             {
-                to: '/',
-                activeClassName: 'inactive',
+                to: '/page-modules/coupons',
+                activeClassName: 'active',
                 content: 'Coupons',
             },
             {

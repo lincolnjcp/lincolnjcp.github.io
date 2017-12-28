@@ -1,0 +1,11 @@
+/*********************************
+/* Coupons
+*********************************/
+.coupon-block {
+  margin: 8px 0;  
+  & .coupon-list {
+    border: 2px dashed var(--color-concrete);
+    padding: 16px;
+    border-radius: var(--border-radius-M);
+  }
+}

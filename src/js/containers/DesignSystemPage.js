@@ -22,6 +22,7 @@ import Pagination from '../components/pagination';
 import Swatches from '../components/swatches';
 import Selectors from '../components/selectors';
 import Carousel from '../components/carousel';
+import Coupons from '../components/coupons';
 
 import Header from '../components/header';
 
@@ -53,7 +54,9 @@ class DesignSystemPage extends Component {
    Swatches: {componentElement: Swatches, componentDisplayName: "Swatches", componentSubNav: ['Swatches']},
    Selectors: {componentElement: Selectors, componentDisplayName: "Selectors", componentSubNav: ['Selectors']},
    Carousel: {componentElement: Carousel, componentDisplayName: "Carousels", componentSubNav: ['Carousel']},
-   Header: {componentElement: Header, componentDisplayName: "Header", componentSubNav: ['Header']}
+   Header: {componentElement: Header, componentDisplayName: "Header", componentSubNav: ['Header']},
+   Coupons: {componentElement: Coupons, componentDisplayName: "Coupons", componentSubNav: ['Coupons']}
+
   }
 
   const Scene = routes[this.props.componentName].componentElement;

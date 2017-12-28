@@ -38,6 +38,7 @@ Base Styles
 @import "base/progressbars";
 @import "base/toggles";
 @import "../js/components/carousel/carousel";
+@import "../js/components/coupons/coupons";
 /* @import "base/additional-buttons"; */
 /* @import "../js/components/work-in-progress/work-in-progress"; */
 
