@@ -2,10 +2,58 @@
 /* Coupons
 *********************************/
 .coupon-block {
-  margin: 8px 0;  
+  margin: 8px 0;
+
   & .coupon-list {
     border: 2px dashed var(--color-concrete);
     padding: 16px;
     border-radius: var(--border-radius-M);
+
+    & .coupon-badge {
+      background: var(--color-penneyred);
+      border-radius: 12px;
+      font-size: 12px;
+      color: var(--color-white);
+      padding: 4px 8px;
+      opacity: .8;
+      position: relative;
+      left: -32px;
+      display: inline-block;
+    }
+
+    & span {
+      display: block;
+    }
   }
+  & .coupon-primary-offer, & .coupon-secondary-offer {
+    & p {
+      color: var(--color-design-system-nav);
+    }
+  }
+
+  & .coupon-code {
+    & span {
+      display: inline-block;
+    }
+  }
+
+  & .print-barcode {
+    color: var(--color-blackfriday-secondary-2) !important;
+  }
+
+  & .coupon-see-details {
+    & a {
+      font-size: 12px;
+      letter-spacing: 1px;
+      margin-right: 16px;
+    }
+  }
+}
+.flex-box {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  justify-content: space-between !important;
+}
+.flex-grid {
+  display: flex !important;
 }
