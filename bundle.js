@@ -13301,7159 +13301,948 @@ function header__inherits(subClass, superClass) { if (typeof superClass !== "fun
 var logoImage = __webpack_require__("Qmz5");
 var header_searchImage = __webpack_require__("7r5T");
 var header_menuImage = __webpack_require__("738v");
+var header_closeImage = __webpack_require__("oWX6");
 
 var header_Header = function (_Component) {
-    header__inherits(Header, _Component);
+  header__inherits(Header, _Component);
 
-    function Header() {
-        header__classCallCheck(this, Header);
+  function Header() {
+    header__classCallCheck(this, Header);
 
-        return header__possibleConstructorReturn(this, (Header.__proto__ || Object.getPrototypeOf(Header)).apply(this, arguments));
-    }
+    return header__possibleConstructorReturn(this, (Header.__proto__ || Object.getPrototypeOf(Header)).apply(this, arguments));
+  }
 
-    header__createClass(Header, [{
-        key: 'componentDidMount',
-        value: function componentDidMount() {
+  header__createClass(Header, [{
+    key: 'componentDidMount',
+    value: function componentDidMount() {
 
-            jquery_default()('.dropdown-button').on('click', function () {
+      !function (factory) {
+        "use strict";
+        "function" == typeof define && __webpack_require__("nErl") ? define(["$"], factory) : jquery_default.a && !jquery_default.a.fn.hoverIntent && factory(jquery_default.a);
+      }(function ($) {
+        "use strict";
+        var cX,
+            cY,
+            _cfg = { interval: 100, sensitivity: 6, timeout: 0 },
+            INSTANCE_COUNT = 0,
+            track = function track(ev) {
+          cX = ev.pageX, cY = ev.pageY;
+        },
+            compare = function compare(ev, $el, s, cfg) {
+          if (Math.sqrt((s.pX - cX) * (s.pX - cX) + (s.pY - cY) * (s.pY - cY)) < cfg.sensitivity) return $el.off(s.event, track), delete s.timeoutId, s.isActive = !0, ev.pageX = cX, ev.pageY = cY, delete s.pX, delete s.pY, cfg.over.apply($el[0], [ev]);s.pX = cX, s.pY = cY, s.timeoutId = setTimeout(function () {
+            compare(ev, $el, s, cfg);
+          }, cfg.interval);
+        },
+            delay = function delay(ev, $el, s, out) {
+          return delete $el.data("hoverIntent")[s.id], out.apply($el[0], [ev]);
+        };$.fn.hoverIntent = function (handlerIn, handlerOut, selector) {
+          var instanceId = INSTANCE_COUNT++,
+              cfg = $.extend({}, _cfg);$.isPlainObject(handlerIn) ? (cfg = $.extend(cfg, handlerIn), $.isFunction(cfg.out) || (cfg.out = cfg.over)) : cfg = $.isFunction(handlerOut) ? $.extend(cfg, { over: handlerIn, out: handlerOut, selector: selector }) : $.extend(cfg, { over: handlerIn, out: handlerIn, selector: handlerOut });var handleHover = function handleHover(e) {
+            var ev = $.extend({}, e),
+                $el = $(this),
+                hoverIntentData = $el.data("hoverIntent");hoverIntentData || $el.data("hoverIntent", hoverIntentData = {});var state = hoverIntentData[instanceId];state || (hoverIntentData[instanceId] = state = { id: instanceId }), state.timeoutId && (state.timeoutId = clearTimeout(state.timeoutId));var mousemove = state.event = "mousemove.hoverIntent.hoverIntent" + instanceId;if ("mouseenter" === e.type) {
+              if (state.isActive) return;state.pX = ev.pageX, state.pY = ev.pageY, $el.off(mousemove, track).on(mousemove, track), state.timeoutId = setTimeout(function () {
+                compare(ev, $el, state, cfg);
+              }, cfg.interval);
+            } else {
+              if (!state.isActive) return;$el.off(mousemove, track), state.timeoutId = setTimeout(function () {
+                delay(ev, $el, state, cfg.out);
+              }, cfg.timeout);
+            }
+          };return this.on({ "mouseenter.hoverIntent": handleHover, "mouseleave.hoverIntent": handleHover }, cfg.selector);
+        };
+      });
 
-                var parent_box = jquery_default()(this).closest('.dropdown-menu-block');
-                parent_box.siblings().find('.dropdown-menu').hide();
-                parent_box.find('.dropdown-menu').slideToggle(200, 'swing');
+      jquery_default()('.dropdown-button').on('click', function () {
 
-                jquery_default()(this).toggleClass("arrow-down");
-            });
+        var parent_box = jquery_default()(this).closest('.dropdown-menu-block');
+        parent_box.siblings().find('.dropdown-menu').hide();
+        parent_box.find('.dropdown-menu').slideToggle(200, 'swing');
+
+        jquery_default()(this).toggleClass("arrow-down");
+      });
+
+      jquery_default()('.side-panel-btn').on('click', function (event) {
+        event.preventDefault();
+        var parent = jquery_default()("#" + jquery_default()(this).attr('data-for'));
+        parent.addClass('is-visible');
+      });
+
+      jquery_default()('.side-panel').on('click', function (event) {
+        if (jquery_default()(event.target).is('.side-panel') || jquery_default()(event.target).is('.side-panel-close')) {
+          jquery_default()(this).removeClass('is-visible');
+          event.preventDefault();
         }
-    }, {
-        key: 'render',
-        value: function render() {
-            return react_default.a.createElement(
-                'div',
-                null,
+      });
+
+      jquery_default()(".main-menu-tier2-li-shop-departments").hoverIntent({
+        over: function over() {
+          if (jquery_default()("#mainMenuTier2LightBox").length == 0) {
+            jquery_default()("body").append('<div id="mainMenuTier2LightBox"></div>');
+            var top = 0;
+            if (jquery_default()(".main-menu-bar-tier2").length > 0) {
+              top = jquery_default()(".main-menu-bar-tier2").height() + jquery_default()(".main-menu-bar-tier2").offset().top;
+            }
+            jquery_default()("#mainMenuTier2LightBox").css({ "top": top, "height": jquery_default()(document).height() });
+          }
+          jquery_default()(".main-menu-tier2-li").addClass("main-menu-tier2-hover");
+        },
+        timeout: 800,
+        interval: 100,
+        out: function out() {
+          jquery_default()(".main-menu-tier2-li").removeClass("main-menu-tier2-hover");
+          jquery_default()("#mainMenuTier2LightBox").remove();
+        }
+      });
+    }
+  }, {
+    key: 'render',
+    value: function render() {
+      return react_default.a.createElement(
+        'div',
+        null,
+        react_default.a.createElement(
+          'div',
+          { className: 'row' },
+          react_default.a.createElement(
+            'div',
+            { className: 'sm12 columns' },
+            react_default.a.createElement(
+              'h1',
+              { className: 'title title-XL mrg-L' },
+              'Header'
+            ),
+            react_default.a.createElement(
+              'h2',
+              { className: 'std-txt std-txt-XL mrg-L max-width-text' },
+              'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+            )
+          )
+        ),
+        react_default.a.createElement(
+          'header',
+          { className: 'main-menu' },
+          react_default.a.createElement(
+            'div',
+            { className: 'main-menu-promotional-banner' },
+            react_default.a.createElement(
+              'div',
+              { className: 'main-menu-promotional-banner-content' },
+              react_default.a.createElement(
+                'p',
+                { className: 'S mrg-zero main-menu-promotional-banner-text' },
+                'Get it today with FREE same day pickup'
+              ),
+              react_default.a.createElement(
+                'p',
+                { className: 'S mrg-zero' },
                 react_default.a.createElement(
-                    'div',
-                    { className: 'row' },
-                    react_default.a.createElement(
-                        'div',
-                        { className: 'sm12 columns' },
-                        react_default.a.createElement(
-                            'h1',
-                            { className: 'title title-XL mrg-L' },
-                            'Header'
-                        ),
-                        react_default.a.createElement(
-                            'h2',
-                            { className: 'std-txt std-txt-XL mrg-L max-width-text' },
-                            'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
-                        )
-                    )
+                  'a',
+                  { className: 'main-menu-promotional-banner-link', href: 'javascript:void(0);' },
+                  'See Details'
+                )
+              )
+            )
+          ),
+          react_default.a.createElement(
+            'div',
+            { className: 'main-menu-bar-tier1' },
+            react_default.a.createElement(
+              'ul',
+              { className: 'main-menu-tier1' },
+              react_default.a.createElement(
+                'li',
+                { className: 'main-menu-tier1-item main-menu-tier1-logo' },
+                react_default.a.createElement(
+                  'span',
+                  { className: 'hide-for-large-up' },
+                  react_default.a.createElement(
+                    'a',
+                    { title: 'JCPenney Main Menu', 'aria-label': 'JCPenney Main Menu', href: 'javascript:void(0);', className: 'side-panel-btn', 'data-for': 'mainMenuTier2' },
+                    react_default.a.createElement('div', { className: 'main-menu-tier1-menu-svg icon', dangerouslySetInnerHTML: { __html: header_menuImage } })
+                  )
                 ),
                 react_default.a.createElement(
-                    'header',
-                    { className: 'main-menu' },
+                  'a',
+                  { title: 'JCPenney Home', 'aria-label': 'JCPenney Home Page', href: 'javascript:void(0);' },
+                  react_default.a.createElement('div', { className: 'main-menu-tier1-logo-svg', dangerouslySetInnerHTML: { __html: logoImage } })
+                )
+              ),
+              react_default.a.createElement(
+                'li',
+                { className: 'main-menu-tier1-item main-menu-tier1-search' },
+                react_default.a.createElement(
+                  'form',
+                  { action: 'http://www.jcpenney.com/s/search' },
+                  react_default.a.createElement('input', { type: 'text', placeholder: 'Search Products', size: '20', 'aria-required': 'false', autocomplete: 'off', autocorrect: 'off', autocapitalize: 'off', spellcheck: 'off' }),
+                  react_default.a.createElement(
+                    'button',
+                    { type: 'submit' },
+                    react_default.a.createElement('div', { className: 'main-menu-tier1-search-svg icon', dangerouslySetInnerHTML: { __html: header_searchImage } })
+                  )
+                )
+              ),
+              react_default.a.createElement(
+                'li',
+                { className: 'main-menu-tier1-item main-menu-tier1-rewards hide-for-small-only' },
+                react_default.a.createElement(
+                  'a',
+                  { href: 'javascript:void(0);' },
+                  react_default.a.createElement('img', { src: '/images/global/jcpenney-rewards.png', alt: 'JCPenney Rewards' })
+                )
+              ),
+              react_default.a.createElement(
+                'li',
+                { className: 'main-menu-tier1-item main-menu-tier1-account' },
+                react_default.a.createElement(
+                  'div',
+                  { className: 'dropdown-menu-block' },
+                  react_default.a.createElement(
+                    'button',
+                    { className: 'dropdown-button', type: 'button', tabindex: '-1' },
                     react_default.a.createElement(
-                        'div',
-                        { className: 'main-menu-promotional-banner' },
-                        react_default.a.createElement(
-                            'div',
-                            { className: 'main-menu-promotional-banner-content' },
-                            react_default.a.createElement(
-                                'p',
-                                { className: 'S mrg-zero main-menu-promotional-banner-text' },
-                                'Get it today with FREE same day pickup'
-                            ),
-                            react_default.a.createElement(
-                                'p',
-                                { className: 'S mrg-zero' },
-                                react_default.a.createElement(
-                                    'a',
-                                    { className: 'main-menu-promotional-banner-link', href: 'javascript:void(0);' },
-                                    'See Details'
-                                )
-                            )
-                        )
+                      'div',
+                      { className: 'main-menu-tier1-account-title' },
+                      'My Account'
                     ),
                     react_default.a.createElement(
-                        'div',
-                        { className: 'main-menu-bar-tier1' },
+                      'div',
+                      { className: 'main-menu-tier1-account-link' },
+                      'Sign In ',
+                      react_default.a.createElement('span', { className: 'arrow' })
+                    )
+                  ),
+                  react_default.a.createElement(
+                    'div',
+                    { className: 'dropdown-menu dropdown-account' },
+                    react_default.a.createElement(
+                      'ul',
+                      { className: 'tooltip tooltip-top-right tooltip-long tooltip-list' },
+                      react_default.a.createElement(
+                        'li',
+                        null,
                         react_default.a.createElement(
+                          'a',
+                          { href: 'javascript:void(0)' },
+                          'My Account'
+                        )
+                      ),
+                      react_default.a.createElement(
+                        'li',
+                        null,
+                        react_default.a.createElement(
+                          'a',
+                          { href: 'javascript:void(0)' },
+                          'Find a Store'
+                        )
+                      ),
+                      react_default.a.createElement(
+                        'li',
+                        null,
+                        react_default.a.createElement(
+                          'a',
+                          { href: 'javascript:void(0)' },
+                          'My Orders'
+                        )
+                      ),
+                      react_default.a.createElement(
+                        'li',
+                        null,
+                        react_default.a.createElement(
+                          'a',
+                          { href: 'javascript:void(0)' },
+                          'My Rewards (0)'
+                        )
+                      ),
+                      react_default.a.createElement(
+                        'li',
+                        null,
+                        react_default.a.createElement(
+                          'a',
+                          { href: 'javascript:void(0)' },
+                          'My List'
+                        )
+                      ),
+                      react_default.a.createElement(
+                        'li',
+                        null,
+                        react_default.a.createElement(
+                          'a',
+                          { href: 'javascript:void(0)' },
+                          'Profile Settings'
+                        )
+                      ),
+                      react_default.a.createElement(
+                        'li',
+                        null,
+                        react_default.a.createElement(
+                          'a',
+                          { href: 'javascript:void(0)' },
+                          'Notifications'
+                        )
+                      ),
+                      react_default.a.createElement(
+                        'li',
+                        null,
+                        react_default.a.createElement(
+                          'a',
+                          { href: 'javascript:void(0)' },
+                          'My Jcpenney.com'
+                        )
+                      ),
+                      react_default.a.createElement(
+                        'li',
+                        null,
+                        react_default.a.createElement(
+                          'a',
+                          { href: 'javascript:void(0)' },
+                          'Gift Registry'
+                        )
+                      ),
+                      react_default.a.createElement(
+                        'li',
+                        null,
+                        react_default.a.createElement(
+                          'a',
+                          { href: 'javascript:void(0)' },
+                          'JCPenney Credit Card'
+                        )
+                      ),
+                      react_default.a.createElement(
+                        'li',
+                        { className: 'main-menu-tier1-sign-out' },
+                        react_default.a.createElement(
+                          'a',
+                          { href: 'javascript:void(0)' },
+                          'Sign Out'
+                        )
+                      ),
+                      react_default.a.createElement(
+                        'li',
+                        { className: 'main-menu-tier1-sign-rewards' },
+                        react_default.a.createElement(
+                          'a',
+                          { href: 'javascript:void(0);' },
+                          react_default.a.createElement(
+                            'span',
+                            { className: 'main-menu-tier1-sign-rewards-amount' },
+                            '$20'
+                          ),
+                          react_default.a.createElement(
+                            'span',
+                            { className: 'main-menu-tier1-sign-rewards-label' },
+                            'Redeem Your Rewards'
+                          )
+                        )
+                      )
+                    )
+                  )
+                )
+              ),
+              react_default.a.createElement(
+                'li',
+                { className: 'main-menu-tier1-item main-menu-tier1-cart' },
+                react_default.a.createElement(
+                  'a',
+                  { href: 'javascript:void(0);', className: 'main-menu-tier1-cart-icon-full' },
+                  react_default.a.createElement(
+                    'span',
+                    { className: 'main-menu-tier1-cart-icon-full-items' },
+                    '28'
+                  )
+                )
+              )
+            )
+          ),
+          react_default.a.createElement(
+            'div',
+            { className: 'main-menu-bar-tier2' },
+            react_default.a.createElement(
+              'div',
+              { className: 'side-panel side-panel-disable-desktop from-left', id: 'mainMenuTier2' },
+              react_default.a.createElement(
+                'header',
+                { className: 'side-panel-header' },
+                react_default.a.createElement(
+                  'h1',
+                  null,
+                  'Title Goes Here'
+                ),
+                react_default.a.createElement(
+                  'a',
+                  { href: '#0', className: 'side-panel-close' },
+                  'Close'
+                )
+              ),
+              react_default.a.createElement(
+                'div',
+                { className: 'side-panel-container' },
+                react_default.a.createElement(
+                  'div',
+                  { className: 'side-panel-content' },
+                  react_default.a.createElement(
+                    'div',
+                    { className: 'main-menu-bar-tier2-container' },
+                    react_default.a.createElement(
+                      'div',
+                      { className: 'main-menu-tier2-left' },
+                      react_default.a.createElement(
+                        'ul',
+                        { className: 'main-menu-tier2' },
+                        react_default.a.createElement(
+                          'li',
+                          { className: 'main-menu-tier2-li main-menu-tier2-li-shop-departments' },
+                          react_default.a.createElement(
+                            'button',
+                            { className: 'main-menu-tier2-shop-departments' },
+                            react_default.a.createElement('div', { className: 'main-menu-tier2-shop-departments-menu-svg icon color-nightsky-svg', dangerouslySetInnerHTML: { __html: header_menuImage } }),
+                            react_default.a.createElement(
+                              'span',
+                              { className: 'main-menu-tier2-shop-departments-menu-label' },
+                              'Shop Departments'
+                            )
+                          ),
+                          react_default.a.createElement(
                             'ul',
-                            { className: 'main-menu-tier1' },
+                            { className: 'main-menu-tier3' },
                             react_default.a.createElement(
-                                'li',
-                                { className: 'main-menu-tier1-item main-menu-tier1-logo' },
-                                react_default.a.createElement(
-                                    'a',
-                                    { title: 'JCPenney Home', 'aria-label': 'JCPenney Home Page', href: 'javascript:void(0);' },
-                                    react_default.a.createElement('div', { className: 'main-menu-tier1-logo-svg', dangerouslySetInnerHTML: { __html: logoImage } })
-                                )
+                              'li',
+                              null,
+                              react_default.a.createElement(
+                                'h3',
+                                null,
+                                'For the Home'
+                              )
                             ),
                             react_default.a.createElement(
-                                'li',
-                                { className: 'main-menu-tier1-item main-menu-tier1-search' },
-                                react_default.a.createElement(
-                                    'form',
-                                    { action: 'http://www.jcpenney.com/s/search' },
-                                    react_default.a.createElement('input', { type: 'text', placeholder: 'Search Products', size: '20', 'aria-required': 'false', autocomplete: 'off', autocorrect: 'off', autocapitalize: 'off', spellcheck: 'off' }),
-                                    react_default.a.createElement(
-                                        'button',
-                                        { type: 'submit' },
-                                        react_default.a.createElement('div', { className: 'main-menu-tier1-search-svg icon', dangerouslySetInnerHTML: { __html: header_searchImage } })
-                                    )
-                                )
+                              'li',
+                              null,
+                              react_default.a.createElement(
+                                'h3',
+                                null,
+                                'Bed & Bath'
+                              )
                             ),
                             react_default.a.createElement(
-                                'li',
-                                { className: 'main-menu-tier1-item main-menu-tier1-rewards hide-for-small-only' },
+                              'li',
+                              null,
+                              react_default.a.createElement(
+                                'h3',
+                                null,
+                                'Window'
+                              )
+                            ),
+                            react_default.a.createElement(
+                              'li',
+                              null,
+                              react_default.a.createElement(
+                                'h3',
+                                null,
+                                'Appliances'
+                              )
+                            ),
+                            react_default.a.createElement(
+                              'li',
+                              null,
+                              react_default.a.createElement(
+                                'h3',
+                                null,
+                                'Women'
+                              )
+                            ),
+                            react_default.a.createElement(
+                              'li',
+                              null,
+                              react_default.a.createElement(
+                                'h3',
+                                null,
+                                'Lingerie'
+                              )
+                            ),
+                            react_default.a.createElement(
+                              'li',
+                              null,
+                              react_default.a.createElement(
+                                'h3',
+                                null,
+                                'Men'
+                              )
+                            ),
+                            react_default.a.createElement(
+                              'li',
+                              null,
+                              react_default.a.createElement(
+                                'h3',
+                                null,
+                                'Juniors'
+                              )
+                            ),
+                            react_default.a.createElement(
+                              'li',
+                              null,
+                              react_default.a.createElement(
+                                'h3',
+                                null,
+                                'Kids'
+                              )
+                            ),
+                            react_default.a.createElement(
+                              'li',
+                              null,
+                              react_default.a.createElement(
+                                'h3',
+                                null,
+                                'Baby'
+                              )
+                            ),
+                            react_default.a.createElement(
+                              'li',
+                              null,
+                              react_default.a.createElement(
+                                'h3',
+                                null,
+                                'Shoes'
+                              )
+                            ),
+                            react_default.a.createElement(
+                              'li',
+                              null,
+                              react_default.a.createElement(
+                                'h3',
+                                null,
+                                'Handbags'
+                              )
+                            ),
+                            react_default.a.createElement(
+                              'li',
+                              null,
+                              react_default.a.createElement(
+                                'h3',
+                                null,
+                                'Jewelry'
+                              )
+                            ),
+                            react_default.a.createElement(
+                              'li',
+                              null,
+                              react_default.a.createElement(
+                                'h3',
+                                null,
+                                'Salon'
+                              )
+                            ),
+                            react_default.a.createElement(
+                              'li',
+                              null,
+                              react_default.a.createElement(
+                                'h3',
+                                null,
+                                'Sephora'
+                              )
+                            ),
+                            react_default.a.createElement(
+                              'li',
+                              null,
+                              react_default.a.createElement(
+                                'h3',
+                                null,
+                                'Gifts'
+                              )
+                            ),
+                            react_default.a.createElement(
+                              'li',
+                              null,
+                              react_default.a.createElement(
+                                'h3',
+                                null,
+                                'Clearance'
+                              )
+                            )
+                          )
+                        ),
+                        react_default.a.createElement(
+                          'li',
+                          { className: 'main-menu-tier2-li main-menu-tier2-li-primary' },
+                          react_default.a.createElement(
+                            'a',
+                            { href: 'javascript:void(0)' },
+                            'Same Day Pickup'
+                          )
+                        ),
+                        react_default.a.createElement(
+                          'li',
+                          { className: 'main-menu-tier2-li main-menu-tier2-li-primary' },
+                          react_default.a.createElement(
+                            'a',
+                            { href: 'javascript:void(0)' },
+                            'Gifts'
+                          )
+                        ),
+                        react_default.a.createElement(
+                          'li',
+                          { className: 'main-menu-tier2-li main-menu-tier2-li-primary' },
+                          react_default.a.createElement(
+                            'a',
+                            { href: 'javascript:void(0)' },
+                            'Toys'
+                          )
+                        ),
+                        react_default.a.createElement(
+                          'li',
+                          { className: 'main-menu-tier2-li main-menu-tier2-li-primary' },
+                          react_default.a.createElement(
+                            'a',
+                            { href: 'javascript:void(0)' },
+                            'My List'
+                          )
+                        ),
+                        react_default.a.createElement(
+                          'li',
+                          { className: 'main-menu-tier2-li main-menu-tier2-li-primary main-menu-tier2-li-highlight' },
+                          react_default.a.createElement(
+                            'a',
+                            { href: 'javascript:void(0)' },
+                            'Coupons'
+                          )
+                        )
+                      )
+                    ),
+                    react_default.a.createElement(
+                      'div',
+                      { className: 'main-menu-tier2-right' },
+                      react_default.a.createElement(
+                        'div',
+                        { className: 'dropdown-menu-block main-menu-tier2-my-store' },
+                        react_default.a.createElement(
+                          'button',
+                          { className: 'dropdown-button', type: 'button', tabindex: '-1' },
+                          react_default.a.createElement(
+                            'strong',
+                            null,
+                            'My Store:'
+                          ),
+                          ' Collin Creek Mall ',
+                          react_default.a.createElement('span', { className: 'arrow' })
+                        ),
+                        react_default.a.createElement(
+                          'div',
+                          { className: 'dropdown-menu dropdown-my-store' },
+                          react_default.a.createElement(
+                            'ul',
+                            { className: 'tooltip tooltip-top-right tooltip-long tooltip-list' },
+                            react_default.a.createElement(
+                              'li',
+                              null,
+                              react_default.a.createElement(
+                                'div',
+                                { className: 'main-menu-tier2-my-store-listing' },
                                 react_default.a.createElement(
+                                  'h4',
+                                  { className: 'title title-M' },
+                                  'Collin Creek Mall'
+                                ),
+                                react_default.a.createElement(
+                                  'p',
+                                  { className: 'mrg-S' },
+                                  '821 N Central Expwy',
+                                  react_default.a.createElement('br', null),
+                                  'Plano, TX 75075'
+                                ),
+                                react_default.a.createElement(
+                                  'p',
+                                  { className: 'mrg-S' },
+                                  react_default.a.createElement(
                                     'a',
                                     { href: 'javascript:void(0);' },
-                                    react_default.a.createElement('img', { src: '/images/global/jcpenney-rewards.png', alt: 'JCPenney Rewards' })
-                                )
-                            ),
-                            react_default.a.createElement(
-                                'li',
-                                { className: 'main-menu-tier1-item main-menu-tier1-account' },
+                                    'Get Directions'
+                                  )
+                                ),
                                 react_default.a.createElement(
-                                    'div',
-                                    { className: 'dropdown-menu-block' },
-                                    react_default.a.createElement(
-                                        'button',
-                                        { className: 'dropdown-button', type: 'button', tabindex: '-1' },
-                                        react_default.a.createElement(
-                                            'div',
-                                            { className: 'main-menu-tier1-account-title' },
-                                            'My Account'
-                                        ),
-                                        react_default.a.createElement(
-                                            'div',
-                                            { className: 'main-menu-tier1-account-link' },
-                                            'Sign In ',
-                                            react_default.a.createElement('span', { className: 'arrow' })
-                                        )
-                                    ),
-                                    react_default.a.createElement(
-                                        'div',
-                                        { className: 'dropdown-menu' },
-                                        react_default.a.createElement(
-                                            'ul',
-                                            { className: 'tooltip tooltip-top-left tooltip-light dropdown-account' },
-                                            react_default.a.createElement(
-                                                'li',
-                                                null,
-                                                react_default.a.createElement(
-                                                    'a',
-                                                    { href: 'javascript:void(0)' },
-                                                    'My Account'
-                                                )
-                                            ),
-                                            react_default.a.createElement(
-                                                'li',
-                                                null,
-                                                react_default.a.createElement(
-                                                    'a',
-                                                    { href: 'javascript:void(0)' },
-                                                    'Find a Store'
-                                                )
-                                            ),
-                                            react_default.a.createElement(
-                                                'li',
-                                                null,
-                                                react_default.a.createElement(
-                                                    'a',
-                                                    { href: 'javascript:void(0)' },
-                                                    'My Orders'
-                                                )
-                                            ),
-                                            react_default.a.createElement(
-                                                'li',
-                                                null,
-                                                react_default.a.createElement(
-                                                    'a',
-                                                    { href: 'javascript:void(0)' },
-                                                    'My Rewards (0)'
-                                                )
-                                            ),
-                                            react_default.a.createElement(
-                                                'li',
-                                                null,
-                                                react_default.a.createElement(
-                                                    'a',
-                                                    { href: 'javascript:void(0)' },
-                                                    'My List'
-                                                )
-                                            ),
-                                            react_default.a.createElement(
-                                                'li',
-                                                null,
-                                                react_default.a.createElement(
-                                                    'a',
-                                                    { href: 'javascript:void(0)' },
-                                                    'Profile Settings'
-                                                )
-                                            ),
-                                            react_default.a.createElement(
-                                                'li',
-                                                null,
-                                                react_default.a.createElement(
-                                                    'a',
-                                                    { href: 'javascript:void(0)' },
-                                                    'Notifications'
-                                                )
-                                            ),
-                                            react_default.a.createElement(
-                                                'li',
-                                                null,
-                                                react_default.a.createElement(
-                                                    'a',
-                                                    { href: 'javascript:void(0)' },
-                                                    'My Jcpenney.com'
-                                                )
-                                            ),
-                                            react_default.a.createElement(
-                                                'li',
-                                                null,
-                                                react_default.a.createElement(
-                                                    'a',
-                                                    { href: 'javascript:void(0)' },
-                                                    'Gift Registry'
-                                                )
-                                            ),
-                                            react_default.a.createElement(
-                                                'li',
-                                                null,
-                                                react_default.a.createElement(
-                                                    'a',
-                                                    { href: 'javascript:void(0)' },
-                                                    'JCPenney Credit Card'
-                                                )
-                                            ),
-                                            react_default.a.createElement(
-                                                'li',
-                                                { className: 'main-menu-tier1-sign-out' },
-                                                react_default.a.createElement(
-                                                    'a',
-                                                    { href: 'javascript:void(0)' },
-                                                    'Sign Out'
-                                                )
-                                            ),
-                                            react_default.a.createElement(
-                                                'li',
-                                                { className: 'main-menu-tier1-sign-rewards' },
-                                                react_default.a.createElement(
-                                                    'a',
-                                                    { href: 'javascript:void(0);' },
-                                                    react_default.a.createElement(
-                                                        'span',
-                                                        { 'class': 'main-menu-tier1-sign-rewards-amount' },
-                                                        '$20'
-                                                    ),
-                                                    react_default.a.createElement(
-                                                        'span',
-                                                        { 'class': 'main-menu-tier1-sign-rewards-label' },
-                                                        'Redeem Your Rewards'
-                                                    )
-                                                )
-                                            )
-                                        )
-                                    )
-                                )
-                            ),
-                            react_default.a.createElement(
-                                'li',
-                                { className: 'main-menu-tier1-item main-menu-tier1-cart' },
+                                  'p',
+                                  null,
+                                  'Mon-Thu : 10am-10pm',
+                                  react_default.a.createElement('br', null),
+                                  'Fri : 9am-11pm',
+                                  react_default.a.createElement('br', null),
+                                  'Sat : 8am-11pm',
+                                  react_default.a.createElement('br', null),
+                                  'Sun : 9am-10pm'
+                                ),
                                 react_default.a.createElement(
+                                  'div',
+                                  null,
+                                  react_default.a.createElement(
                                     'a',
-                                    { href: 'javascript:void(0);', className: 'main-menu-tier1-cart-icon-full' },
-                                    react_default.a.createElement(
-                                        'span',
-                                        { className: 'main-menu-tier1-cart-icon-full-items' },
-                                        '28'
-                                    )
+                                    { href: 'javascript:void(0);', 'class': 'btn btn-L btn-secondary btn-full side-panel-btn', 'data-for': 'changeMyStore' },
+                                    'Change My Store'
+                                  )
                                 )
+                              )
                             )
+                          )
                         )
-                    ),
-                    react_default.a.createElement(
-                        'div',
-                        { className: 'main-menu-bar-tier2' },
-                        react_default.a.createElement(
-                            'div',
-                            { className: 'main-menu-tier2-left' },
-                            react_default.a.createElement(
-                                'ul',
-                                { className: 'main-menu-tier2' },
-                                react_default.a.createElement(
-                                    'li',
-                                    { className: 'main-menu-tier2-li' },
-                                    react_default.a.createElement(
-                                        'button',
-                                        { className: 'main-menu-tier2-shop-departments' },
-                                        react_default.a.createElement('div', { className: 'main-menu-tier2-shop-departments-menu-svg icon color-nightsky-svg', dangerouslySetInnerHTML: { __html: header_menuImage } }),
-                                        react_default.a.createElement(
-                                            'span',
-                                            { className: 'main-menu-tier2-shop-departments-menu-label' },
-                                            'Shop Departments'
-                                        )
-                                    )
-                                ),
-                                react_default.a.createElement(
-                                    'li',
-                                    { className: 'main-menu-tier2-li main-menu-tier2-li-primary' },
-                                    react_default.a.createElement(
-                                        'a',
-                                        { href: 'javascript:void(0)' },
-                                        'Same Day Pickup'
-                                    )
-                                ),
-                                react_default.a.createElement(
-                                    'li',
-                                    { className: 'main-menu-tier2-li main-menu-tier2-li-primary' },
-                                    react_default.a.createElement(
-                                        'a',
-                                        { href: 'javascript:void(0)' },
-                                        'Gifts'
-                                    )
-                                ),
-                                react_default.a.createElement(
-                                    'li',
-                                    { className: 'main-menu-tier2-li main-menu-tier2-li-primary' },
-                                    react_default.a.createElement(
-                                        'a',
-                                        { href: 'javascript:void(0)' },
-                                        'Toys'
-                                    )
-                                ),
-                                react_default.a.createElement(
-                                    'li',
-                                    { className: 'main-menu-tier2-li main-menu-tier2-li-primary' },
-                                    react_default.a.createElement(
-                                        'a',
-                                        { href: 'javascript:void(0)' },
-                                        'My List'
-                                    )
-                                ),
-                                react_default.a.createElement(
-                                    'li',
-                                    { className: 'main-menu-tier2-li main-menu-tier2-li-primary main-menu-tier2-li-highlight' },
-                                    react_default.a.createElement(
-                                        'a',
-                                        { href: 'javascript:void(0)' },
-                                        'Coupons'
-                                    )
-                                )
-                            )
-                        ),
-                        react_default.a.createElement(
-                            'div',
-                            { className: 'main-menu-tier2-right' },
-                            react_default.a.createElement(
-                                'div',
-                                { className: 'dropdown-menu-block main-menu-tier2-my-store' },
-                                react_default.a.createElement(
-                                    'button',
-                                    { className: 'dropdown-button', type: 'button', tabindex: '-1' },
-                                    react_default.a.createElement(
-                                        'strong',
-                                        null,
-                                        'My Store:'
-                                    ),
-                                    ' Collin Creek Mall ',
-                                    react_default.a.createElement('span', { className: 'arrow' })
-                                ),
-                                react_default.a.createElement(
-                                    'div',
-                                    { className: 'dropdown-menu' },
-                                    react_default.a.createElement(
-                                        'ul',
-                                        { className: 'tooltip tooltip-top-left tooltip-light dropdown-account' },
-                                        react_default.a.createElement(
-                                            'li',
-                                            null,
-                                            react_default.a.createElement('a', { href: 'javascript:void(0)' })
-                                        )
-                                    )
-                                )
-                            )
-                        )
-                    ),
-                    react_default.a.createElement(
-                        'div',
-                        { className: 'SecondaryNavigationPanel-secondaryMenu', 'data-reactid': '51' },
-                        react_default.a.createElement(
-                            'div',
-                            { className: 'SecondaryNavigationPanel-containerWidth', 'data-reactid': '52' },
-                            react_default.a.createElement(
-                                'div',
-                                { 'data-reactid': '53' },
-                                react_default.a.createElement(
-                                    'div',
-                                    { className: 'SecondaryNavigationPanel-LeftNavigationWrapper', 'data-reactid': '54' },
-                                    react_default.a.createElement(
-                                        'div',
-                                        { className: 'SecondaryNavigationPanel-shopDepartmentsBlock ', 'data-reactid': '55' },
-                                        react_default.a.createElement(
-                                            'button',
-                                            { className: 'SecondaryNavigationPanel-shopdepartments', 'data-reactid': '56' },
-                                            'SHOP DEPARTMENTS'
-                                        ),
-                                        react_default.a.createElement(
-                                            'div',
-                                            { className: 'SecondaryNavigationPanel-largeSubMenu' },
-                                            react_default.a.createElement(
-                                                'div',
-                                                { className: 'SecondaryNavigationPanel-subMenuList SecondaryNavigationPanel-level1Block' },
-                                                react_default.a.createElement(
-                                                    'ul',
-                                                    { className: 'subMenuListBlock' },
-                                                    react_default.a.createElement(
-                                                        'li',
-                                                        { className: 'SecondaryNavigationPanel-menuItem' },
-                                                        react_default.a.createElement(
-                                                            'button',
-                                                            { className: 'SecondaryNavigationPanel-menuItemLink', 'data-automation-id': 'menu-item' },
-                                                            'For the Home'
-                                                        ),
-                                                        react_default.a.createElement(
-                                                            'div',
-                                                            { className: 'SecondaryNavigationPanel-subMenuInnerLevel' },
-                                                            react_default.a.createElement(
-                                                                'div',
-                                                                { className: 'SecondaryNavigationPanel-subMenuLevel1ListBlock' },
-                                                                react_default.a.createElement(
-                                                                    'button',
-                                                                    { className: 'SecondaryNavigationPanel-subMenuItemTitle', 'data-automation-id': 'menu-item-heading' },
-                                                                    'For the Home'
-                                                                ),
-                                                                react_default.a.createElement(
-                                                                    'ul',
-                                                                    { className: 'SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-level2Block' },
-                                                                    react_default.a.createElement(
-                                                                        'li',
-                                                                        { className: 'SecondaryNavigationPanel-subMenuLevelList' },
-                                                                        react_default.a.createElement(
-                                                                            'a',
-                                                                            { href: 'javascript:void(0)', 'data-automation-id': 'sub-menu-level1', className: 'SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link' },
-                                                                            'Furniture'
-                                                                        ),
-                                                                        react_default.a.createElement(
-                                                                            'div',
-                                                                            { className: 'SecondaryNavigationPanel-subMenuInnerLevel2' },
-                                                                            react_default.a.createElement(
-                                                                                'div',
-                                                                                { className: 'subMenuLevel2ListBlock' },
-                                                                                react_default.a.createElement(
-                                                                                    'h3',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuItemTitle' },
-                                                                                    'Furniture'
-                                                                                ),
-                                                                                react_default.a.createElement(
-                                                                                    'ul',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List' },
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Mattresses'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sofas'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Beds & Headboards'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Chairs & Recliners'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Dining Sets'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'View All Furniture'
-                                                                                        )
-                                                                                    )
-                                                                                )
-                                                                            )
-                                                                        )
-                                                                    ),
-                                                                    react_default.a.createElement(
-                                                                        'li',
-                                                                        { className: 'SecondaryNavigationPanel-subMenuLevelList' },
-                                                                        react_default.a.createElement(
-                                                                            'a',
-                                                                            { href: 'javascript:void(0)', 'data-automation-id': 'sub-menu-level1', className: 'SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link' },
-                                                                            'Home Decor'
-                                                                        ),
-                                                                        react_default.a.createElement(
-                                                                            'div',
-                                                                            { className: 'SecondaryNavigationPanel-subMenuInnerLevel2' },
-                                                                            react_default.a.createElement(
-                                                                                'div',
-                                                                                { className: 'subMenuLevel2ListBlock' },
-                                                                                react_default.a.createElement(
-                                                                                    'h3',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuItemTitle' },
-                                                                                    'Home Decor'
-                                                                                ),
-                                                                                react_default.a.createElement(
-                                                                                    'ul',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List' },
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 1'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 2'
-                                                                                        )
-                                                                                    )
-                                                                                )
-                                                                            )
-                                                                        )
-                                                                    ),
-                                                                    react_default.a.createElement(
-                                                                        'li',
-                                                                        { className: 'SecondaryNavigationPanel-subMenuLevelList' },
-                                                                        react_default.a.createElement(
-                                                                            'a',
-                                                                            { href: 'javascript:void(0)', 'data-automation-id': 'sub-menu-level1', className: 'SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link' },
-                                                                            'Kitchen & Dining'
-                                                                        ),
-                                                                        react_default.a.createElement(
-                                                                            'div',
-                                                                            { className: 'SecondaryNavigationPanel-subMenuInnerLevel2' },
-                                                                            react_default.a.createElement(
-                                                                                'div',
-                                                                                { className: 'subMenuLevel2ListBlock' },
-                                                                                react_default.a.createElement(
-                                                                                    'h3',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuItemTitle' },
-                                                                                    'Kitchen'
-                                                                                ),
-                                                                                react_default.a.createElement(
-                                                                                    'ul',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List' },
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 1'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 2'
-                                                                                        )
-                                                                                    )
-                                                                                )
-                                                                            )
-                                                                        )
-                                                                    ),
-                                                                    react_default.a.createElement(
-                                                                        'li',
-                                                                        { className: 'SecondaryNavigationPanel-subMenuLevelList' },
-                                                                        react_default.a.createElement(
-                                                                            'a',
-                                                                            { href: 'javascript:void(0)', 'data-automation-id': 'sub-menu-level1', className: 'SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link' },
-                                                                            'Window'
-                                                                        ),
-                                                                        react_default.a.createElement(
-                                                                            'div',
-                                                                            { className: 'SecondaryNavigationPanel-subMenuInnerLevel2' },
-                                                                            react_default.a.createElement(
-                                                                                'div',
-                                                                                { className: 'subMenuLevel2ListBlock' },
-                                                                                react_default.a.createElement(
-                                                                                    'h3',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuItemTitle' },
-                                                                                    'Window'
-                                                                                ),
-                                                                                react_default.a.createElement(
-                                                                                    'ul',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List' },
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 1'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 2'
-                                                                                        )
-                                                                                    )
-                                                                                )
-                                                                            )
-                                                                        )
-                                                                    ),
-                                                                    react_default.a.createElement(
-                                                                        'li',
-                                                                        { className: 'SecondaryNavigationPanel-subMenuLevelList' },
-                                                                        react_default.a.createElement(
-                                                                            'a',
-                                                                            { href: 'javascript:void(0)', 'data-automation-id': 'sub-menu-level1', className: 'SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link' },
-                                                                            'Bed & Bath'
-                                                                        ),
-                                                                        react_default.a.createElement(
-                                                                            'div',
-                                                                            { className: 'SecondaryNavigationPanel-subMenuInnerLevel2' },
-                                                                            react_default.a.createElement(
-                                                                                'div',
-                                                                                { className: 'subMenuLevel2ListBlock' },
-                                                                                react_default.a.createElement(
-                                                                                    'h3',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuItemTitle' },
-                                                                                    'Bed & Bath'
-                                                                                ),
-                                                                                react_default.a.createElement(
-                                                                                    'ul',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List' },
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 1'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 2'
-                                                                                        )
-                                                                                    )
-                                                                                )
-                                                                            )
-                                                                        )
-                                                                    ),
-                                                                    react_default.a.createElement(
-                                                                        'li',
-                                                                        { className: 'SecondaryNavigationPanel-subMenuLevelList' },
-                                                                        react_default.a.createElement(
-                                                                            'a',
-                                                                            { href: 'javascript:void(0)', 'data-automation-id': 'sub-menu-level1', className: 'SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link' },
-                                                                            'Appliances'
-                                                                        ),
-                                                                        react_default.a.createElement(
-                                                                            'div',
-                                                                            { className: 'SecondaryNavigationPanel-subMenuInnerLevel2' },
-                                                                            react_default.a.createElement(
-                                                                                'div',
-                                                                                { className: 'subMenuLevel2ListBlock' },
-                                                                                react_default.a.createElement(
-                                                                                    'h3',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuItemTitle' },
-                                                                                    'Appliances'
-                                                                                ),
-                                                                                react_default.a.createElement(
-                                                                                    'ul',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List' },
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 1'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 2'
-                                                                                        )
-                                                                                    )
-                                                                                )
-                                                                            )
-                                                                        )
-                                                                    ),
-                                                                    react_default.a.createElement(
-                                                                        'li',
-                                                                        { className: 'SecondaryNavigationPanel-subMenuLevelList' },
-                                                                        react_default.a.createElement(
-                                                                            'a',
-                                                                            { href: 'javascript:void(0)', 'data-automation-id': 'sub-menu-level1', className: 'SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link' },
-                                                                            'More For Your Home'
-                                                                        ),
-                                                                        react_default.a.createElement(
-                                                                            'div',
-                                                                            { className: 'SecondaryNavigationPanel-subMenuInnerLevel2' },
-                                                                            react_default.a.createElement(
-                                                                                'div',
-                                                                                { className: 'subMenuLevel2ListBlock' },
-                                                                                react_default.a.createElement(
-                                                                                    'h3',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuItemTitle' },
-                                                                                    'More For Your Home'
-                                                                                ),
-                                                                                react_default.a.createElement(
-                                                                                    'ul',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List' },
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 1'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 2'
-                                                                                        )
-                                                                                    )
-                                                                                )
-                                                                            )
-                                                                        )
-                                                                    ),
-                                                                    react_default.a.createElement(
-                                                                        'li',
-                                                                        { className: 'SecondaryNavigationPanel-subMenuLevelList' },
-                                                                        react_default.a.createElement(
-                                                                            'a',
-                                                                            { href: 'javascript:void(0)', 'data-automation-id': 'sub-menu-level1', className: 'SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link' },
-                                                                            'Shop Sale & Clearance'
-                                                                        ),
-                                                                        react_default.a.createElement(
-                                                                            'div',
-                                                                            { className: 'SecondaryNavigationPanel-subMenuInnerLevel2' },
-                                                                            react_default.a.createElement(
-                                                                                'div',
-                                                                                { className: 'subMenuLevel2ListBlock' },
-                                                                                react_default.a.createElement(
-                                                                                    'h3',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuItemTitle' },
-                                                                                    'Shop Sale & Clearance'
-                                                                                ),
-                                                                                react_default.a.createElement(
-                                                                                    'ul',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List' },
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 1'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 2'
-                                                                                        )
-                                                                                    )
-                                                                                )
-                                                                            )
-                                                                        )
-                                                                    )
-                                                                )
-                                                            )
-                                                        )
-                                                    ),
-                                                    react_default.a.createElement(
-                                                        'li',
-                                                        { className: 'SecondaryNavigationPanel-menuItem' },
-                                                        react_default.a.createElement(
-                                                            'button',
-                                                            { className: 'SecondaryNavigationPanel-menuItemLink', 'data-automation-id': 'menu-item' },
-                                                            'Bed & Bath'
-                                                        ),
-                                                        react_default.a.createElement(
-                                                            'div',
-                                                            { className: 'SecondaryNavigationPanel-subMenuInnerLevel' },
-                                                            react_default.a.createElement(
-                                                                'div',
-                                                                { className: 'SecondaryNavigationPanel-subMenuLevel1ListBlock' },
-                                                                react_default.a.createElement(
-                                                                    'button',
-                                                                    { className: 'SecondaryNavigationPanel-subMenuItemTitle', 'data-automation-id': 'menu-item-heading' },
-                                                                    'Bed & Bath'
-                                                                ),
-                                                                react_default.a.createElement(
-                                                                    'ul',
-                                                                    { className: 'SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-level2Block' },
-                                                                    react_default.a.createElement(
-                                                                        'li',
-                                                                        { className: 'SecondaryNavigationPanel-subMenuLevelList' },
-                                                                        react_default.a.createElement(
-                                                                            'a',
-                                                                            { href: 'javascript:void(0)', 'data-automation-id': 'sub-menu-level1', className: 'SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link' },
-                                                                            'Furniture'
-                                                                        ),
-                                                                        react_default.a.createElement(
-                                                                            'div',
-                                                                            { className: 'SecondaryNavigationPanel-subMenuInnerLevel2' },
-                                                                            react_default.a.createElement(
-                                                                                'div',
-                                                                                { className: 'subMenuLevel2ListBlock' },
-                                                                                react_default.a.createElement(
-                                                                                    'h3',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuItemTitle' },
-                                                                                    'Furniture'
-                                                                                ),
-                                                                                react_default.a.createElement(
-                                                                                    'ul',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List' },
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Mattresses'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sofas'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Beds & Headboards'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Chairs & Recliners'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Dining Sets'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'View All Furniture'
-                                                                                        )
-                                                                                    )
-                                                                                )
-                                                                            )
-                                                                        )
-                                                                    ),
-                                                                    react_default.a.createElement(
-                                                                        'li',
-                                                                        { className: 'SecondaryNavigationPanel-subMenuLevelList' },
-                                                                        react_default.a.createElement(
-                                                                            'a',
-                                                                            { href: 'javascript:void(0)', 'data-automation-id': 'sub-menu-level1', className: 'SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link' },
-                                                                            'Home Decor'
-                                                                        ),
-                                                                        react_default.a.createElement(
-                                                                            'div',
-                                                                            { className: 'SecondaryNavigationPanel-subMenuInnerLevel2' },
-                                                                            react_default.a.createElement(
-                                                                                'div',
-                                                                                { className: 'subMenuLevel2ListBlock' },
-                                                                                react_default.a.createElement(
-                                                                                    'h3',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuItemTitle' },
-                                                                                    'Home Decor'
-                                                                                ),
-                                                                                react_default.a.createElement(
-                                                                                    'ul',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List' },
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 1'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 2'
-                                                                                        )
-                                                                                    )
-                                                                                )
-                                                                            )
-                                                                        )
-                                                                    ),
-                                                                    react_default.a.createElement(
-                                                                        'li',
-                                                                        { className: 'SecondaryNavigationPanel-subMenuLevelList' },
-                                                                        react_default.a.createElement(
-                                                                            'a',
-                                                                            { href: 'javascript:void(0)', 'data-automation-id': 'sub-menu-level1', className: 'SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link' },
-                                                                            'Kitchen & Dining'
-                                                                        ),
-                                                                        react_default.a.createElement(
-                                                                            'div',
-                                                                            { className: 'SecondaryNavigationPanel-subMenuInnerLevel2' },
-                                                                            react_default.a.createElement(
-                                                                                'div',
-                                                                                { className: 'subMenuLevel2ListBlock' },
-                                                                                react_default.a.createElement(
-                                                                                    'h3',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuItemTitle' },
-                                                                                    'Kitchen'
-                                                                                ),
-                                                                                react_default.a.createElement(
-                                                                                    'ul',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List' },
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 1'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 2'
-                                                                                        )
-                                                                                    )
-                                                                                )
-                                                                            )
-                                                                        )
-                                                                    ),
-                                                                    react_default.a.createElement(
-                                                                        'li',
-                                                                        { className: 'SecondaryNavigationPanel-subMenuLevelList' },
-                                                                        react_default.a.createElement(
-                                                                            'a',
-                                                                            { href: 'javascript:void(0)', 'data-automation-id': 'sub-menu-level1', className: 'SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link' },
-                                                                            'Window'
-                                                                        ),
-                                                                        react_default.a.createElement(
-                                                                            'div',
-                                                                            { className: 'SecondaryNavigationPanel-subMenuInnerLevel2' },
-                                                                            react_default.a.createElement(
-                                                                                'div',
-                                                                                { className: 'subMenuLevel2ListBlock' },
-                                                                                react_default.a.createElement(
-                                                                                    'h3',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuItemTitle' },
-                                                                                    'Window'
-                                                                                ),
-                                                                                react_default.a.createElement(
-                                                                                    'ul',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List' },
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 1'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 2'
-                                                                                        )
-                                                                                    )
-                                                                                )
-                                                                            )
-                                                                        )
-                                                                    ),
-                                                                    react_default.a.createElement(
-                                                                        'li',
-                                                                        { className: 'SecondaryNavigationPanel-subMenuLevelList' },
-                                                                        react_default.a.createElement(
-                                                                            'a',
-                                                                            { href: 'javascript:void(0)', 'data-automation-id': 'sub-menu-level1', className: 'SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link' },
-                                                                            'Bed & Bath'
-                                                                        ),
-                                                                        react_default.a.createElement(
-                                                                            'div',
-                                                                            { className: 'SecondaryNavigationPanel-subMenuInnerLevel2' },
-                                                                            react_default.a.createElement(
-                                                                                'div',
-                                                                                { className: 'subMenuLevel2ListBlock' },
-                                                                                react_default.a.createElement(
-                                                                                    'h3',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuItemTitle' },
-                                                                                    'Bed & Bath'
-                                                                                ),
-                                                                                react_default.a.createElement(
-                                                                                    'ul',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List' },
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 1'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 2'
-                                                                                        )
-                                                                                    )
-                                                                                )
-                                                                            )
-                                                                        )
-                                                                    ),
-                                                                    react_default.a.createElement(
-                                                                        'li',
-                                                                        { className: 'SecondaryNavigationPanel-subMenuLevelList' },
-                                                                        react_default.a.createElement(
-                                                                            'a',
-                                                                            { href: 'javascript:void(0)', 'data-automation-id': 'sub-menu-level1', className: 'SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link' },
-                                                                            'Appliances'
-                                                                        ),
-                                                                        react_default.a.createElement(
-                                                                            'div',
-                                                                            { className: 'SecondaryNavigationPanel-subMenuInnerLevel2' },
-                                                                            react_default.a.createElement(
-                                                                                'div',
-                                                                                { className: 'subMenuLevel2ListBlock' },
-                                                                                react_default.a.createElement(
-                                                                                    'h3',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuItemTitle' },
-                                                                                    'Appliances'
-                                                                                ),
-                                                                                react_default.a.createElement(
-                                                                                    'ul',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List' },
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 1'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 2'
-                                                                                        )
-                                                                                    )
-                                                                                )
-                                                                            )
-                                                                        )
-                                                                    ),
-                                                                    react_default.a.createElement(
-                                                                        'li',
-                                                                        { className: 'SecondaryNavigationPanel-subMenuLevelList' },
-                                                                        react_default.a.createElement(
-                                                                            'a',
-                                                                            { href: 'javascript:void(0)', 'data-automation-id': 'sub-menu-level1', className: 'SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link' },
-                                                                            'More For Your Home'
-                                                                        ),
-                                                                        react_default.a.createElement(
-                                                                            'div',
-                                                                            { className: 'SecondaryNavigationPanel-subMenuInnerLevel2' },
-                                                                            react_default.a.createElement(
-                                                                                'div',
-                                                                                { className: 'subMenuLevel2ListBlock' },
-                                                                                react_default.a.createElement(
-                                                                                    'h3',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuItemTitle' },
-                                                                                    'More For Your Home'
-                                                                                ),
-                                                                                react_default.a.createElement(
-                                                                                    'ul',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List' },
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 1'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 2'
-                                                                                        )
-                                                                                    )
-                                                                                )
-                                                                            )
-                                                                        )
-                                                                    ),
-                                                                    react_default.a.createElement(
-                                                                        'li',
-                                                                        { className: 'SecondaryNavigationPanel-subMenuLevelList' },
-                                                                        react_default.a.createElement(
-                                                                            'a',
-                                                                            { href: 'javascript:void(0)', 'data-automation-id': 'sub-menu-level1', className: 'SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link' },
-                                                                            'Shop Sale & Clearance'
-                                                                        ),
-                                                                        react_default.a.createElement(
-                                                                            'div',
-                                                                            { className: 'SecondaryNavigationPanel-subMenuInnerLevel2' },
-                                                                            react_default.a.createElement(
-                                                                                'div',
-                                                                                { className: 'subMenuLevel2ListBlock' },
-                                                                                react_default.a.createElement(
-                                                                                    'h3',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuItemTitle' },
-                                                                                    'Shop Sale & Clearance'
-                                                                                ),
-                                                                                react_default.a.createElement(
-                                                                                    'ul',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List' },
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 1'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 2'
-                                                                                        )
-                                                                                    )
-                                                                                )
-                                                                            )
-                                                                        )
-                                                                    )
-                                                                )
-                                                            )
-                                                        )
-                                                    ),
-                                                    react_default.a.createElement(
-                                                        'li',
-                                                        { className: 'SecondaryNavigationPanel-menuItem' },
-                                                        react_default.a.createElement(
-                                                            'button',
-                                                            { className: 'SecondaryNavigationPanel-menuItemLink', 'data-automation-id': 'menu-item' },
-                                                            'Window'
-                                                        ),
-                                                        react_default.a.createElement(
-                                                            'div',
-                                                            { className: 'SecondaryNavigationPanel-subMenuInnerLevel' },
-                                                            react_default.a.createElement(
-                                                                'div',
-                                                                { className: 'SecondaryNavigationPanel-subMenuLevel1ListBlock' },
-                                                                react_default.a.createElement(
-                                                                    'button',
-                                                                    { className: 'SecondaryNavigationPanel-subMenuItemTitle', 'data-automation-id': 'menu-item-heading' },
-                                                                    'Window'
-                                                                ),
-                                                                react_default.a.createElement(
-                                                                    'ul',
-                                                                    { className: 'SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-level2Block' },
-                                                                    react_default.a.createElement(
-                                                                        'li',
-                                                                        { className: 'SecondaryNavigationPanel-subMenuLevelList' },
-                                                                        react_default.a.createElement(
-                                                                            'a',
-                                                                            { href: 'javascript:void(0)', 'data-automation-id': 'sub-menu-level1', className: 'SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link' },
-                                                                            'Furniture'
-                                                                        ),
-                                                                        react_default.a.createElement(
-                                                                            'div',
-                                                                            { className: 'SecondaryNavigationPanel-subMenuInnerLevel2' },
-                                                                            react_default.a.createElement(
-                                                                                'div',
-                                                                                { className: 'subMenuLevel2ListBlock' },
-                                                                                react_default.a.createElement(
-                                                                                    'h3',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuItemTitle' },
-                                                                                    'Furniture'
-                                                                                ),
-                                                                                react_default.a.createElement(
-                                                                                    'ul',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List' },
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Mattresses'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sofas'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Beds & Headboards'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Chairs & Recliners'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Dining Sets'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'View All Furniture'
-                                                                                        )
-                                                                                    )
-                                                                                )
-                                                                            )
-                                                                        )
-                                                                    ),
-                                                                    react_default.a.createElement(
-                                                                        'li',
-                                                                        { className: 'SecondaryNavigationPanel-subMenuLevelList' },
-                                                                        react_default.a.createElement(
-                                                                            'a',
-                                                                            { href: 'javascript:void(0)', 'data-automation-id': 'sub-menu-level1', className: 'SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link' },
-                                                                            'Home Decor'
-                                                                        ),
-                                                                        react_default.a.createElement(
-                                                                            'div',
-                                                                            { className: 'SecondaryNavigationPanel-subMenuInnerLevel2' },
-                                                                            react_default.a.createElement(
-                                                                                'div',
-                                                                                { className: 'subMenuLevel2ListBlock' },
-                                                                                react_default.a.createElement(
-                                                                                    'h3',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuItemTitle' },
-                                                                                    'Home Decor'
-                                                                                ),
-                                                                                react_default.a.createElement(
-                                                                                    'ul',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List' },
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 1'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 2'
-                                                                                        )
-                                                                                    )
-                                                                                )
-                                                                            )
-                                                                        )
-                                                                    ),
-                                                                    react_default.a.createElement(
-                                                                        'li',
-                                                                        { className: 'SecondaryNavigationPanel-subMenuLevelList' },
-                                                                        react_default.a.createElement(
-                                                                            'a',
-                                                                            { href: 'javascript:void(0)', 'data-automation-id': 'sub-menu-level1', className: 'SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link' },
-                                                                            'Kitchen & Dining'
-                                                                        ),
-                                                                        react_default.a.createElement(
-                                                                            'div',
-                                                                            { className: 'SecondaryNavigationPanel-subMenuInnerLevel2' },
-                                                                            react_default.a.createElement(
-                                                                                'div',
-                                                                                { className: 'subMenuLevel2ListBlock' },
-                                                                                react_default.a.createElement(
-                                                                                    'h3',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuItemTitle' },
-                                                                                    'Kitchen'
-                                                                                ),
-                                                                                react_default.a.createElement(
-                                                                                    'ul',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List' },
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 1'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 2'
-                                                                                        )
-                                                                                    )
-                                                                                )
-                                                                            )
-                                                                        )
-                                                                    ),
-                                                                    react_default.a.createElement(
-                                                                        'li',
-                                                                        { className: 'SecondaryNavigationPanel-subMenuLevelList' },
-                                                                        react_default.a.createElement(
-                                                                            'a',
-                                                                            { href: 'javascript:void(0)', 'data-automation-id': 'sub-menu-level1', className: 'SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link' },
-                                                                            'Window'
-                                                                        ),
-                                                                        react_default.a.createElement(
-                                                                            'div',
-                                                                            { className: 'SecondaryNavigationPanel-subMenuInnerLevel2' },
-                                                                            react_default.a.createElement(
-                                                                                'div',
-                                                                                { className: 'subMenuLevel2ListBlock' },
-                                                                                react_default.a.createElement(
-                                                                                    'h3',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuItemTitle' },
-                                                                                    'Window'
-                                                                                ),
-                                                                                react_default.a.createElement(
-                                                                                    'ul',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List' },
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 1'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 2'
-                                                                                        )
-                                                                                    )
-                                                                                )
-                                                                            )
-                                                                        )
-                                                                    ),
-                                                                    react_default.a.createElement(
-                                                                        'li',
-                                                                        { className: 'SecondaryNavigationPanel-subMenuLevelList' },
-                                                                        react_default.a.createElement(
-                                                                            'a',
-                                                                            { href: 'javascript:void(0)', 'data-automation-id': 'sub-menu-level1', className: 'SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link' },
-                                                                            'Bed & Bath'
-                                                                        ),
-                                                                        react_default.a.createElement(
-                                                                            'div',
-                                                                            { className: 'SecondaryNavigationPanel-subMenuInnerLevel2' },
-                                                                            react_default.a.createElement(
-                                                                                'div',
-                                                                                { className: 'subMenuLevel2ListBlock' },
-                                                                                react_default.a.createElement(
-                                                                                    'h3',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuItemTitle' },
-                                                                                    'Bed & Bath'
-                                                                                ),
-                                                                                react_default.a.createElement(
-                                                                                    'ul',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List' },
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 1'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 2'
-                                                                                        )
-                                                                                    )
-                                                                                )
-                                                                            )
-                                                                        )
-                                                                    ),
-                                                                    react_default.a.createElement(
-                                                                        'li',
-                                                                        { className: 'SecondaryNavigationPanel-subMenuLevelList' },
-                                                                        react_default.a.createElement(
-                                                                            'a',
-                                                                            { href: 'javascript:void(0)', 'data-automation-id': 'sub-menu-level1', className: 'SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link' },
-                                                                            'Appliances'
-                                                                        ),
-                                                                        react_default.a.createElement(
-                                                                            'div',
-                                                                            { className: 'SecondaryNavigationPanel-subMenuInnerLevel2' },
-                                                                            react_default.a.createElement(
-                                                                                'div',
-                                                                                { className: 'subMenuLevel2ListBlock' },
-                                                                                react_default.a.createElement(
-                                                                                    'h3',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuItemTitle' },
-                                                                                    'Appliances'
-                                                                                ),
-                                                                                react_default.a.createElement(
-                                                                                    'ul',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List' },
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 1'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 2'
-                                                                                        )
-                                                                                    )
-                                                                                )
-                                                                            )
-                                                                        )
-                                                                    ),
-                                                                    react_default.a.createElement(
-                                                                        'li',
-                                                                        { className: 'SecondaryNavigationPanel-subMenuLevelList' },
-                                                                        react_default.a.createElement(
-                                                                            'a',
-                                                                            { href: 'javascript:void(0)', 'data-automation-id': 'sub-menu-level1', className: 'SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link' },
-                                                                            'More For Your Home'
-                                                                        ),
-                                                                        react_default.a.createElement(
-                                                                            'div',
-                                                                            { className: 'SecondaryNavigationPanel-subMenuInnerLevel2' },
-                                                                            react_default.a.createElement(
-                                                                                'div',
-                                                                                { className: 'subMenuLevel2ListBlock' },
-                                                                                react_default.a.createElement(
-                                                                                    'h3',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuItemTitle' },
-                                                                                    'More For Your Home'
-                                                                                ),
-                                                                                react_default.a.createElement(
-                                                                                    'ul',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List' },
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 1'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 2'
-                                                                                        )
-                                                                                    )
-                                                                                )
-                                                                            )
-                                                                        )
-                                                                    ),
-                                                                    react_default.a.createElement(
-                                                                        'li',
-                                                                        { className: 'SecondaryNavigationPanel-subMenuLevelList' },
-                                                                        react_default.a.createElement(
-                                                                            'a',
-                                                                            { href: 'javascript:void(0)', 'data-automation-id': 'sub-menu-level1', className: 'SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link' },
-                                                                            'Shop Sale & Clearance'
-                                                                        ),
-                                                                        react_default.a.createElement(
-                                                                            'div',
-                                                                            { className: 'SecondaryNavigationPanel-subMenuInnerLevel2' },
-                                                                            react_default.a.createElement(
-                                                                                'div',
-                                                                                { className: 'subMenuLevel2ListBlock' },
-                                                                                react_default.a.createElement(
-                                                                                    'h3',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuItemTitle' },
-                                                                                    'Shop Sale & Clearance'
-                                                                                ),
-                                                                                react_default.a.createElement(
-                                                                                    'ul',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List' },
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 1'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 2'
-                                                                                        )
-                                                                                    )
-                                                                                )
-                                                                            )
-                                                                        )
-                                                                    )
-                                                                )
-                                                            )
-                                                        )
-                                                    ),
-                                                    react_default.a.createElement(
-                                                        'li',
-                                                        { className: 'SecondaryNavigationPanel-menuItem' },
-                                                        react_default.a.createElement(
-                                                            'button',
-                                                            { className: 'SecondaryNavigationPanel-menuItemLink', 'data-automation-id': 'menu-item' },
-                                                            'Appliances'
-                                                        ),
-                                                        react_default.a.createElement(
-                                                            'div',
-                                                            { className: 'SecondaryNavigationPanel-subMenuInnerLevel' },
-                                                            react_default.a.createElement(
-                                                                'div',
-                                                                { className: 'SecondaryNavigationPanel-subMenuLevel1ListBlock' },
-                                                                react_default.a.createElement(
-                                                                    'button',
-                                                                    { className: 'SecondaryNavigationPanel-subMenuItemTitle', 'data-automation-id': 'menu-item-heading' },
-                                                                    'Appliances'
-                                                                ),
-                                                                react_default.a.createElement(
-                                                                    'ul',
-                                                                    { className: 'SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-level2Block' },
-                                                                    react_default.a.createElement(
-                                                                        'li',
-                                                                        { className: 'SecondaryNavigationPanel-subMenuLevelList' },
-                                                                        react_default.a.createElement(
-                                                                            'a',
-                                                                            { href: 'javascript:void(0)', 'data-automation-id': 'sub-menu-level1', className: 'SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link' },
-                                                                            'Furniture'
-                                                                        ),
-                                                                        react_default.a.createElement(
-                                                                            'div',
-                                                                            { className: 'SecondaryNavigationPanel-subMenuInnerLevel2' },
-                                                                            react_default.a.createElement(
-                                                                                'div',
-                                                                                { className: 'subMenuLevel2ListBlock' },
-                                                                                react_default.a.createElement(
-                                                                                    'h3',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuItemTitle' },
-                                                                                    'Furniture'
-                                                                                ),
-                                                                                react_default.a.createElement(
-                                                                                    'ul',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List' },
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Mattresses'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sofas'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Beds & Headboards'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Chairs & Recliners'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Dining Sets'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'View All Furniture'
-                                                                                        )
-                                                                                    )
-                                                                                )
-                                                                            )
-                                                                        )
-                                                                    ),
-                                                                    react_default.a.createElement(
-                                                                        'li',
-                                                                        { className: 'SecondaryNavigationPanel-subMenuLevelList' },
-                                                                        react_default.a.createElement(
-                                                                            'a',
-                                                                            { href: 'javascript:void(0)', 'data-automation-id': 'sub-menu-level1', className: 'SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link' },
-                                                                            'Home Decor'
-                                                                        ),
-                                                                        react_default.a.createElement(
-                                                                            'div',
-                                                                            { className: 'SecondaryNavigationPanel-subMenuInnerLevel2' },
-                                                                            react_default.a.createElement(
-                                                                                'div',
-                                                                                { className: 'subMenuLevel2ListBlock' },
-                                                                                react_default.a.createElement(
-                                                                                    'h3',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuItemTitle' },
-                                                                                    'Home Decor'
-                                                                                ),
-                                                                                react_default.a.createElement(
-                                                                                    'ul',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List' },
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 1'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 2'
-                                                                                        )
-                                                                                    )
-                                                                                )
-                                                                            )
-                                                                        )
-                                                                    ),
-                                                                    react_default.a.createElement(
-                                                                        'li',
-                                                                        { className: 'SecondaryNavigationPanel-subMenuLevelList' },
-                                                                        react_default.a.createElement(
-                                                                            'a',
-                                                                            { href: 'javascript:void(0)', 'data-automation-id': 'sub-menu-level1', className: 'SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link' },
-                                                                            'Kitchen & Dining'
-                                                                        ),
-                                                                        react_default.a.createElement(
-                                                                            'div',
-                                                                            { className: 'SecondaryNavigationPanel-subMenuInnerLevel2' },
-                                                                            react_default.a.createElement(
-                                                                                'div',
-                                                                                { className: 'subMenuLevel2ListBlock' },
-                                                                                react_default.a.createElement(
-                                                                                    'h3',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuItemTitle' },
-                                                                                    'Kitchen'
-                                                                                ),
-                                                                                react_default.a.createElement(
-                                                                                    'ul',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List' },
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 1'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 2'
-                                                                                        )
-                                                                                    )
-                                                                                )
-                                                                            )
-                                                                        )
-                                                                    ),
-                                                                    react_default.a.createElement(
-                                                                        'li',
-                                                                        { className: 'SecondaryNavigationPanel-subMenuLevelList' },
-                                                                        react_default.a.createElement(
-                                                                            'a',
-                                                                            { href: 'javascript:void(0)', 'data-automation-id': 'sub-menu-level1', className: 'SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link' },
-                                                                            'Window'
-                                                                        ),
-                                                                        react_default.a.createElement(
-                                                                            'div',
-                                                                            { className: 'SecondaryNavigationPanel-subMenuInnerLevel2' },
-                                                                            react_default.a.createElement(
-                                                                                'div',
-                                                                                { className: 'subMenuLevel2ListBlock' },
-                                                                                react_default.a.createElement(
-                                                                                    'h3',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuItemTitle' },
-                                                                                    'Window'
-                                                                                ),
-                                                                                react_default.a.createElement(
-                                                                                    'ul',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List' },
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 1'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 2'
-                                                                                        )
-                                                                                    )
-                                                                                )
-                                                                            )
-                                                                        )
-                                                                    ),
-                                                                    react_default.a.createElement(
-                                                                        'li',
-                                                                        { className: 'SecondaryNavigationPanel-subMenuLevelList' },
-                                                                        react_default.a.createElement(
-                                                                            'a',
-                                                                            { href: 'javascript:void(0)', 'data-automation-id': 'sub-menu-level1', className: 'SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link' },
-                                                                            'Bed & Bath'
-                                                                        ),
-                                                                        react_default.a.createElement(
-                                                                            'div',
-                                                                            { className: 'SecondaryNavigationPanel-subMenuInnerLevel2' },
-                                                                            react_default.a.createElement(
-                                                                                'div',
-                                                                                { className: 'subMenuLevel2ListBlock' },
-                                                                                react_default.a.createElement(
-                                                                                    'h3',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuItemTitle' },
-                                                                                    'Bed & Bath'
-                                                                                ),
-                                                                                react_default.a.createElement(
-                                                                                    'ul',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List' },
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 1'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 2'
-                                                                                        )
-                                                                                    )
-                                                                                )
-                                                                            )
-                                                                        )
-                                                                    ),
-                                                                    react_default.a.createElement(
-                                                                        'li',
-                                                                        { className: 'SecondaryNavigationPanel-subMenuLevelList' },
-                                                                        react_default.a.createElement(
-                                                                            'a',
-                                                                            { href: 'javascript:void(0)', 'data-automation-id': 'sub-menu-level1', className: 'SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link' },
-                                                                            'Appliances'
-                                                                        ),
-                                                                        react_default.a.createElement(
-                                                                            'div',
-                                                                            { className: 'SecondaryNavigationPanel-subMenuInnerLevel2' },
-                                                                            react_default.a.createElement(
-                                                                                'div',
-                                                                                { className: 'subMenuLevel2ListBlock' },
-                                                                                react_default.a.createElement(
-                                                                                    'h3',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuItemTitle' },
-                                                                                    'Appliances'
-                                                                                ),
-                                                                                react_default.a.createElement(
-                                                                                    'ul',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List' },
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 1'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 2'
-                                                                                        )
-                                                                                    )
-                                                                                )
-                                                                            )
-                                                                        )
-                                                                    ),
-                                                                    react_default.a.createElement(
-                                                                        'li',
-                                                                        { className: 'SecondaryNavigationPanel-subMenuLevelList' },
-                                                                        react_default.a.createElement(
-                                                                            'a',
-                                                                            { href: 'javascript:void(0)', 'data-automation-id': 'sub-menu-level1', className: 'SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link' },
-                                                                            'More For Your Home'
-                                                                        ),
-                                                                        react_default.a.createElement(
-                                                                            'div',
-                                                                            { className: 'SecondaryNavigationPanel-subMenuInnerLevel2' },
-                                                                            react_default.a.createElement(
-                                                                                'div',
-                                                                                { className: 'subMenuLevel2ListBlock' },
-                                                                                react_default.a.createElement(
-                                                                                    'h3',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuItemTitle' },
-                                                                                    'More For Your Home'
-                                                                                ),
-                                                                                react_default.a.createElement(
-                                                                                    'ul',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List' },
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 1'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 2'
-                                                                                        )
-                                                                                    )
-                                                                                )
-                                                                            )
-                                                                        )
-                                                                    ),
-                                                                    react_default.a.createElement(
-                                                                        'li',
-                                                                        { className: 'SecondaryNavigationPanel-subMenuLevelList' },
-                                                                        react_default.a.createElement(
-                                                                            'a',
-                                                                            { href: 'javascript:void(0)', 'data-automation-id': 'sub-menu-level1', className: 'SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link' },
-                                                                            'Shop Sale & Clearance'
-                                                                        ),
-                                                                        react_default.a.createElement(
-                                                                            'div',
-                                                                            { className: 'SecondaryNavigationPanel-subMenuInnerLevel2' },
-                                                                            react_default.a.createElement(
-                                                                                'div',
-                                                                                { className: 'subMenuLevel2ListBlock' },
-                                                                                react_default.a.createElement(
-                                                                                    'h3',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuItemTitle' },
-                                                                                    'Shop Sale & Clearance'
-                                                                                ),
-                                                                                react_default.a.createElement(
-                                                                                    'ul',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List' },
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 1'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 2'
-                                                                                        )
-                                                                                    )
-                                                                                )
-                                                                            )
-                                                                        )
-                                                                    )
-                                                                )
-                                                            )
-                                                        )
-                                                    ),
-                                                    react_default.a.createElement(
-                                                        'li',
-                                                        { className: 'SecondaryNavigationPanel-menuItem' },
-                                                        react_default.a.createElement(
-                                                            'button',
-                                                            { className: 'SecondaryNavigationPanel-menuItemLink', 'data-automation-id': 'menu-item' },
-                                                            'Women'
-                                                        ),
-                                                        react_default.a.createElement(
-                                                            'div',
-                                                            { className: 'SecondaryNavigationPanel-subMenuInnerLevel' },
-                                                            react_default.a.createElement(
-                                                                'div',
-                                                                { className: 'SecondaryNavigationPanel-subMenuLevel1ListBlock' },
-                                                                react_default.a.createElement(
-                                                                    'button',
-                                                                    { className: 'SecondaryNavigationPanel-subMenuItemTitle', 'data-automation-id': 'menu-item-heading' },
-                                                                    'Women'
-                                                                ),
-                                                                react_default.a.createElement(
-                                                                    'ul',
-                                                                    { className: 'SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-level2Block' },
-                                                                    react_default.a.createElement(
-                                                                        'li',
-                                                                        { className: 'SecondaryNavigationPanel-subMenuLevelList' },
-                                                                        react_default.a.createElement(
-                                                                            'a',
-                                                                            { href: 'javascript:void(0)', 'data-automation-id': 'sub-menu-level1', className: 'SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link' },
-                                                                            'Furniture'
-                                                                        ),
-                                                                        react_default.a.createElement(
-                                                                            'div',
-                                                                            { className: 'SecondaryNavigationPanel-subMenuInnerLevel2' },
-                                                                            react_default.a.createElement(
-                                                                                'div',
-                                                                                { className: 'subMenuLevel2ListBlock' },
-                                                                                react_default.a.createElement(
-                                                                                    'h3',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuItemTitle' },
-                                                                                    'Furniture'
-                                                                                ),
-                                                                                react_default.a.createElement(
-                                                                                    'ul',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List' },
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Mattresses'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sofas'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Beds & Headboards'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Chairs & Recliners'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Dining Sets'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'View All Furniture'
-                                                                                        )
-                                                                                    )
-                                                                                )
-                                                                            )
-                                                                        )
-                                                                    ),
-                                                                    react_default.a.createElement(
-                                                                        'li',
-                                                                        { className: 'SecondaryNavigationPanel-subMenuLevelList' },
-                                                                        react_default.a.createElement(
-                                                                            'a',
-                                                                            { href: 'javascript:void(0)', 'data-automation-id': 'sub-menu-level1', className: 'SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link' },
-                                                                            'Home Decor'
-                                                                        ),
-                                                                        react_default.a.createElement(
-                                                                            'div',
-                                                                            { className: 'SecondaryNavigationPanel-subMenuInnerLevel2' },
-                                                                            react_default.a.createElement(
-                                                                                'div',
-                                                                                { className: 'subMenuLevel2ListBlock' },
-                                                                                react_default.a.createElement(
-                                                                                    'h3',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuItemTitle' },
-                                                                                    'Home Decor'
-                                                                                ),
-                                                                                react_default.a.createElement(
-                                                                                    'ul',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List' },
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 1'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 2'
-                                                                                        )
-                                                                                    )
-                                                                                )
-                                                                            )
-                                                                        )
-                                                                    ),
-                                                                    react_default.a.createElement(
-                                                                        'li',
-                                                                        { className: 'SecondaryNavigationPanel-subMenuLevelList' },
-                                                                        react_default.a.createElement(
-                                                                            'a',
-                                                                            { href: 'javascript:void(0)', 'data-automation-id': 'sub-menu-level1', className: 'SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link' },
-                                                                            'Kitchen & Dining'
-                                                                        ),
-                                                                        react_default.a.createElement(
-                                                                            'div',
-                                                                            { className: 'SecondaryNavigationPanel-subMenuInnerLevel2' },
-                                                                            react_default.a.createElement(
-                                                                                'div',
-                                                                                { className: 'subMenuLevel2ListBlock' },
-                                                                                react_default.a.createElement(
-                                                                                    'h3',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuItemTitle' },
-                                                                                    'Kitchen'
-                                                                                ),
-                                                                                react_default.a.createElement(
-                                                                                    'ul',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List' },
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 1'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 2'
-                                                                                        )
-                                                                                    )
-                                                                                )
-                                                                            )
-                                                                        )
-                                                                    ),
-                                                                    react_default.a.createElement(
-                                                                        'li',
-                                                                        { className: 'SecondaryNavigationPanel-subMenuLevelList' },
-                                                                        react_default.a.createElement(
-                                                                            'a',
-                                                                            { href: 'javascript:void(0)', 'data-automation-id': 'sub-menu-level1', className: 'SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link' },
-                                                                            'Window'
-                                                                        ),
-                                                                        react_default.a.createElement(
-                                                                            'div',
-                                                                            { className: 'SecondaryNavigationPanel-subMenuInnerLevel2' },
-                                                                            react_default.a.createElement(
-                                                                                'div',
-                                                                                { className: 'subMenuLevel2ListBlock' },
-                                                                                react_default.a.createElement(
-                                                                                    'h3',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuItemTitle' },
-                                                                                    'Window'
-                                                                                ),
-                                                                                react_default.a.createElement(
-                                                                                    'ul',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List' },
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 1'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 2'
-                                                                                        )
-                                                                                    )
-                                                                                )
-                                                                            )
-                                                                        )
-                                                                    ),
-                                                                    react_default.a.createElement(
-                                                                        'li',
-                                                                        { className: 'SecondaryNavigationPanel-subMenuLevelList' },
-                                                                        react_default.a.createElement(
-                                                                            'a',
-                                                                            { href: 'javascript:void(0)', 'data-automation-id': 'sub-menu-level1', className: 'SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link' },
-                                                                            'Bed & Bath'
-                                                                        ),
-                                                                        react_default.a.createElement(
-                                                                            'div',
-                                                                            { className: 'SecondaryNavigationPanel-subMenuInnerLevel2' },
-                                                                            react_default.a.createElement(
-                                                                                'div',
-                                                                                { className: 'subMenuLevel2ListBlock' },
-                                                                                react_default.a.createElement(
-                                                                                    'h3',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuItemTitle' },
-                                                                                    'Bed & Bath'
-                                                                                ),
-                                                                                react_default.a.createElement(
-                                                                                    'ul',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List' },
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 1'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 2'
-                                                                                        )
-                                                                                    )
-                                                                                )
-                                                                            )
-                                                                        )
-                                                                    ),
-                                                                    react_default.a.createElement(
-                                                                        'li',
-                                                                        { className: 'SecondaryNavigationPanel-subMenuLevelList' },
-                                                                        react_default.a.createElement(
-                                                                            'a',
-                                                                            { href: 'javascript:void(0)', 'data-automation-id': 'sub-menu-level1', className: 'SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link' },
-                                                                            'Appliances'
-                                                                        ),
-                                                                        react_default.a.createElement(
-                                                                            'div',
-                                                                            { className: 'SecondaryNavigationPanel-subMenuInnerLevel2' },
-                                                                            react_default.a.createElement(
-                                                                                'div',
-                                                                                { className: 'subMenuLevel2ListBlock' },
-                                                                                react_default.a.createElement(
-                                                                                    'h3',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuItemTitle' },
-                                                                                    'Appliances'
-                                                                                ),
-                                                                                react_default.a.createElement(
-                                                                                    'ul',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List' },
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 1'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 2'
-                                                                                        )
-                                                                                    )
-                                                                                )
-                                                                            )
-                                                                        )
-                                                                    ),
-                                                                    react_default.a.createElement(
-                                                                        'li',
-                                                                        { className: 'SecondaryNavigationPanel-subMenuLevelList' },
-                                                                        react_default.a.createElement(
-                                                                            'a',
-                                                                            { href: 'javascript:void(0)', 'data-automation-id': 'sub-menu-level1', className: 'SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link' },
-                                                                            'More For Your Home'
-                                                                        ),
-                                                                        react_default.a.createElement(
-                                                                            'div',
-                                                                            { className: 'SecondaryNavigationPanel-subMenuInnerLevel2' },
-                                                                            react_default.a.createElement(
-                                                                                'div',
-                                                                                { className: 'subMenuLevel2ListBlock' },
-                                                                                react_default.a.createElement(
-                                                                                    'h3',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuItemTitle' },
-                                                                                    'More For Your Home'
-                                                                                ),
-                                                                                react_default.a.createElement(
-                                                                                    'ul',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List' },
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 1'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 2'
-                                                                                        )
-                                                                                    )
-                                                                                )
-                                                                            )
-                                                                        )
-                                                                    ),
-                                                                    react_default.a.createElement(
-                                                                        'li',
-                                                                        { className: 'SecondaryNavigationPanel-subMenuLevelList' },
-                                                                        react_default.a.createElement(
-                                                                            'a',
-                                                                            { href: 'javascript:void(0)', 'data-automation-id': 'sub-menu-level1', className: 'SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link' },
-                                                                            'Shop Sale & Clearance'
-                                                                        ),
-                                                                        react_default.a.createElement(
-                                                                            'div',
-                                                                            { className: 'SecondaryNavigationPanel-subMenuInnerLevel2' },
-                                                                            react_default.a.createElement(
-                                                                                'div',
-                                                                                { className: 'subMenuLevel2ListBlock' },
-                                                                                react_default.a.createElement(
-                                                                                    'h3',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuItemTitle' },
-                                                                                    'Shop Sale & Clearance'
-                                                                                ),
-                                                                                react_default.a.createElement(
-                                                                                    'ul',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List' },
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 1'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 2'
-                                                                                        )
-                                                                                    )
-                                                                                )
-                                                                            )
-                                                                        )
-                                                                    )
-                                                                )
-                                                            )
-                                                        )
-                                                    ),
-                                                    react_default.a.createElement(
-                                                        'li',
-                                                        { className: 'SecondaryNavigationPanel-menuItem' },
-                                                        react_default.a.createElement(
-                                                            'button',
-                                                            { className: 'SecondaryNavigationPanel-menuItemLink', 'data-automation-id': 'menu-item' },
-                                                            'Lingerie'
-                                                        ),
-                                                        react_default.a.createElement(
-                                                            'div',
-                                                            { className: 'SecondaryNavigationPanel-subMenuInnerLevel' },
-                                                            react_default.a.createElement(
-                                                                'div',
-                                                                { className: 'SecondaryNavigationPanel-subMenuLevel1ListBlock' },
-                                                                react_default.a.createElement(
-                                                                    'button',
-                                                                    { className: 'SecondaryNavigationPanel-subMenuItemTitle', 'data-automation-id': 'menu-item-heading' },
-                                                                    'Lingerie'
-                                                                ),
-                                                                react_default.a.createElement(
-                                                                    'ul',
-                                                                    { className: 'SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-level2Block' },
-                                                                    react_default.a.createElement(
-                                                                        'li',
-                                                                        { className: 'SecondaryNavigationPanel-subMenuLevelList' },
-                                                                        react_default.a.createElement(
-                                                                            'a',
-                                                                            { href: 'javascript:void(0)', 'data-automation-id': 'sub-menu-level1', className: 'SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link' },
-                                                                            'Furniture'
-                                                                        ),
-                                                                        react_default.a.createElement(
-                                                                            'div',
-                                                                            { className: 'SecondaryNavigationPanel-subMenuInnerLevel2' },
-                                                                            react_default.a.createElement(
-                                                                                'div',
-                                                                                { className: 'subMenuLevel2ListBlock' },
-                                                                                react_default.a.createElement(
-                                                                                    'h3',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuItemTitle' },
-                                                                                    'Furniture'
-                                                                                ),
-                                                                                react_default.a.createElement(
-                                                                                    'ul',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List' },
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Mattresses'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sofas'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Beds & Headboards'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Chairs & Recliners'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Dining Sets'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'View All Furniture'
-                                                                                        )
-                                                                                    )
-                                                                                )
-                                                                            )
-                                                                        )
-                                                                    ),
-                                                                    react_default.a.createElement(
-                                                                        'li',
-                                                                        { className: 'SecondaryNavigationPanel-subMenuLevelList' },
-                                                                        react_default.a.createElement(
-                                                                            'a',
-                                                                            { href: 'javascript:void(0)', 'data-automation-id': 'sub-menu-level1', className: 'SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link' },
-                                                                            'Home Decor'
-                                                                        ),
-                                                                        react_default.a.createElement(
-                                                                            'div',
-                                                                            { className: 'SecondaryNavigationPanel-subMenuInnerLevel2' },
-                                                                            react_default.a.createElement(
-                                                                                'div',
-                                                                                { className: 'subMenuLevel2ListBlock' },
-                                                                                react_default.a.createElement(
-                                                                                    'h3',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuItemTitle' },
-                                                                                    'Home Decor'
-                                                                                ),
-                                                                                react_default.a.createElement(
-                                                                                    'ul',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List' },
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 1'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 2'
-                                                                                        )
-                                                                                    )
-                                                                                )
-                                                                            )
-                                                                        )
-                                                                    ),
-                                                                    react_default.a.createElement(
-                                                                        'li',
-                                                                        { className: 'SecondaryNavigationPanel-subMenuLevelList' },
-                                                                        react_default.a.createElement(
-                                                                            'a',
-                                                                            { href: 'javascript:void(0)', 'data-automation-id': 'sub-menu-level1', className: 'SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link' },
-                                                                            'Kitchen & Dining'
-                                                                        ),
-                                                                        react_default.a.createElement(
-                                                                            'div',
-                                                                            { className: 'SecondaryNavigationPanel-subMenuInnerLevel2' },
-                                                                            react_default.a.createElement(
-                                                                                'div',
-                                                                                { className: 'subMenuLevel2ListBlock' },
-                                                                                react_default.a.createElement(
-                                                                                    'h3',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuItemTitle' },
-                                                                                    'Kitchen'
-                                                                                ),
-                                                                                react_default.a.createElement(
-                                                                                    'ul',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List' },
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 1'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 2'
-                                                                                        )
-                                                                                    )
-                                                                                )
-                                                                            )
-                                                                        )
-                                                                    ),
-                                                                    react_default.a.createElement(
-                                                                        'li',
-                                                                        { className: 'SecondaryNavigationPanel-subMenuLevelList' },
-                                                                        react_default.a.createElement(
-                                                                            'a',
-                                                                            { href: 'javascript:void(0)', 'data-automation-id': 'sub-menu-level1', className: 'SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link' },
-                                                                            'Window'
-                                                                        ),
-                                                                        react_default.a.createElement(
-                                                                            'div',
-                                                                            { className: 'SecondaryNavigationPanel-subMenuInnerLevel2' },
-                                                                            react_default.a.createElement(
-                                                                                'div',
-                                                                                { className: 'subMenuLevel2ListBlock' },
-                                                                                react_default.a.createElement(
-                                                                                    'h3',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuItemTitle' },
-                                                                                    'Window'
-                                                                                ),
-                                                                                react_default.a.createElement(
-                                                                                    'ul',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List' },
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 1'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 2'
-                                                                                        )
-                                                                                    )
-                                                                                )
-                                                                            )
-                                                                        )
-                                                                    ),
-                                                                    react_default.a.createElement(
-                                                                        'li',
-                                                                        { className: 'SecondaryNavigationPanel-subMenuLevelList' },
-                                                                        react_default.a.createElement(
-                                                                            'a',
-                                                                            { href: 'javascript:void(0)', 'data-automation-id': 'sub-menu-level1', className: 'SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link' },
-                                                                            'Bed & Bath'
-                                                                        ),
-                                                                        react_default.a.createElement(
-                                                                            'div',
-                                                                            { className: 'SecondaryNavigationPanel-subMenuInnerLevel2' },
-                                                                            react_default.a.createElement(
-                                                                                'div',
-                                                                                { className: 'subMenuLevel2ListBlock' },
-                                                                                react_default.a.createElement(
-                                                                                    'h3',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuItemTitle' },
-                                                                                    'Bed & Bath'
-                                                                                ),
-                                                                                react_default.a.createElement(
-                                                                                    'ul',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List' },
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 1'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 2'
-                                                                                        )
-                                                                                    )
-                                                                                )
-                                                                            )
-                                                                        )
-                                                                    ),
-                                                                    react_default.a.createElement(
-                                                                        'li',
-                                                                        { className: 'SecondaryNavigationPanel-subMenuLevelList' },
-                                                                        react_default.a.createElement(
-                                                                            'a',
-                                                                            { href: 'javascript:void(0)', 'data-automation-id': 'sub-menu-level1', className: 'SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link' },
-                                                                            'Appliances'
-                                                                        ),
-                                                                        react_default.a.createElement(
-                                                                            'div',
-                                                                            { className: 'SecondaryNavigationPanel-subMenuInnerLevel2' },
-                                                                            react_default.a.createElement(
-                                                                                'div',
-                                                                                { className: 'subMenuLevel2ListBlock' },
-                                                                                react_default.a.createElement(
-                                                                                    'h3',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuItemTitle' },
-                                                                                    'Appliances'
-                                                                                ),
-                                                                                react_default.a.createElement(
-                                                                                    'ul',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List' },
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 1'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 2'
-                                                                                        )
-                                                                                    )
-                                                                                )
-                                                                            )
-                                                                        )
-                                                                    ),
-                                                                    react_default.a.createElement(
-                                                                        'li',
-                                                                        { className: 'SecondaryNavigationPanel-subMenuLevelList' },
-                                                                        react_default.a.createElement(
-                                                                            'a',
-                                                                            { href: 'javascript:void(0)', 'data-automation-id': 'sub-menu-level1', className: 'SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link' },
-                                                                            'More For Your Home'
-                                                                        ),
-                                                                        react_default.a.createElement(
-                                                                            'div',
-                                                                            { className: 'SecondaryNavigationPanel-subMenuInnerLevel2' },
-                                                                            react_default.a.createElement(
-                                                                                'div',
-                                                                                { className: 'subMenuLevel2ListBlock' },
-                                                                                react_default.a.createElement(
-                                                                                    'h3',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuItemTitle' },
-                                                                                    'More For Your Home'
-                                                                                ),
-                                                                                react_default.a.createElement(
-                                                                                    'ul',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List' },
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 1'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 2'
-                                                                                        )
-                                                                                    )
-                                                                                )
-                                                                            )
-                                                                        )
-                                                                    ),
-                                                                    react_default.a.createElement(
-                                                                        'li',
-                                                                        { className: 'SecondaryNavigationPanel-subMenuLevelList' },
-                                                                        react_default.a.createElement(
-                                                                            'a',
-                                                                            { href: 'javascript:void(0)', 'data-automation-id': 'sub-menu-level1', className: 'SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link' },
-                                                                            'Shop Sale & Clearance'
-                                                                        ),
-                                                                        react_default.a.createElement(
-                                                                            'div',
-                                                                            { className: 'SecondaryNavigationPanel-subMenuInnerLevel2' },
-                                                                            react_default.a.createElement(
-                                                                                'div',
-                                                                                { className: 'subMenuLevel2ListBlock' },
-                                                                                react_default.a.createElement(
-                                                                                    'h3',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuItemTitle' },
-                                                                                    'Shop Sale & Clearance'
-                                                                                ),
-                                                                                react_default.a.createElement(
-                                                                                    'ul',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List' },
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 1'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 2'
-                                                                                        )
-                                                                                    )
-                                                                                )
-                                                                            )
-                                                                        )
-                                                                    )
-                                                                )
-                                                            )
-                                                        )
-                                                    ),
-                                                    react_default.a.createElement(
-                                                        'li',
-                                                        { className: 'SecondaryNavigationPanel-menuItem' },
-                                                        react_default.a.createElement(
-                                                            'button',
-                                                            { className: 'SecondaryNavigationPanel-menuItemLink', 'data-automation-id': 'menu-item' },
-                                                            'Men'
-                                                        ),
-                                                        react_default.a.createElement(
-                                                            'div',
-                                                            { className: 'SecondaryNavigationPanel-subMenuInnerLevel' },
-                                                            react_default.a.createElement(
-                                                                'div',
-                                                                { className: 'SecondaryNavigationPanel-subMenuLevel1ListBlock' },
-                                                                react_default.a.createElement(
-                                                                    'button',
-                                                                    { className: 'SecondaryNavigationPanel-subMenuItemTitle', 'data-automation-id': 'menu-item-heading' },
-                                                                    'Men'
-                                                                ),
-                                                                react_default.a.createElement(
-                                                                    'ul',
-                                                                    { className: 'SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-level2Block' },
-                                                                    react_default.a.createElement(
-                                                                        'li',
-                                                                        { className: 'SecondaryNavigationPanel-subMenuLevelList' },
-                                                                        react_default.a.createElement(
-                                                                            'a',
-                                                                            { href: 'javascript:void(0)', 'data-automation-id': 'sub-menu-level1', className: 'SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link' },
-                                                                            'Furniture'
-                                                                        ),
-                                                                        react_default.a.createElement(
-                                                                            'div',
-                                                                            { className: 'SecondaryNavigationPanel-subMenuInnerLevel2' },
-                                                                            react_default.a.createElement(
-                                                                                'div',
-                                                                                { className: 'subMenuLevel2ListBlock' },
-                                                                                react_default.a.createElement(
-                                                                                    'h3',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuItemTitle' },
-                                                                                    'Furniture'
-                                                                                ),
-                                                                                react_default.a.createElement(
-                                                                                    'ul',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List' },
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Mattresses'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sofas'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Beds & Headboards'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Chairs & Recliners'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Dining Sets'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'View All Furniture'
-                                                                                        )
-                                                                                    )
-                                                                                )
-                                                                            )
-                                                                        )
-                                                                    ),
-                                                                    react_default.a.createElement(
-                                                                        'li',
-                                                                        { className: 'SecondaryNavigationPanel-subMenuLevelList' },
-                                                                        react_default.a.createElement(
-                                                                            'a',
-                                                                            { href: 'javascript:void(0)', 'data-automation-id': 'sub-menu-level1', className: 'SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link' },
-                                                                            'Home Decor'
-                                                                        ),
-                                                                        react_default.a.createElement(
-                                                                            'div',
-                                                                            { className: 'SecondaryNavigationPanel-subMenuInnerLevel2' },
-                                                                            react_default.a.createElement(
-                                                                                'div',
-                                                                                { className: 'subMenuLevel2ListBlock' },
-                                                                                react_default.a.createElement(
-                                                                                    'h3',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuItemTitle' },
-                                                                                    'Home Decor'
-                                                                                ),
-                                                                                react_default.a.createElement(
-                                                                                    'ul',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List' },
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 1'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 2'
-                                                                                        )
-                                                                                    )
-                                                                                )
-                                                                            )
-                                                                        )
-                                                                    ),
-                                                                    react_default.a.createElement(
-                                                                        'li',
-                                                                        { className: 'SecondaryNavigationPanel-subMenuLevelList' },
-                                                                        react_default.a.createElement(
-                                                                            'a',
-                                                                            { href: 'javascript:void(0)', 'data-automation-id': 'sub-menu-level1', className: 'SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link' },
-                                                                            'Kitchen & Dining'
-                                                                        ),
-                                                                        react_default.a.createElement(
-                                                                            'div',
-                                                                            { className: 'SecondaryNavigationPanel-subMenuInnerLevel2' },
-                                                                            react_default.a.createElement(
-                                                                                'div',
-                                                                                { className: 'subMenuLevel2ListBlock' },
-                                                                                react_default.a.createElement(
-                                                                                    'h3',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuItemTitle' },
-                                                                                    'Kitchen'
-                                                                                ),
-                                                                                react_default.a.createElement(
-                                                                                    'ul',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List' },
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 1'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 2'
-                                                                                        )
-                                                                                    )
-                                                                                )
-                                                                            )
-                                                                        )
-                                                                    ),
-                                                                    react_default.a.createElement(
-                                                                        'li',
-                                                                        { className: 'SecondaryNavigationPanel-subMenuLevelList' },
-                                                                        react_default.a.createElement(
-                                                                            'a',
-                                                                            { href: 'javascript:void(0)', 'data-automation-id': 'sub-menu-level1', className: 'SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link' },
-                                                                            'Window'
-                                                                        ),
-                                                                        react_default.a.createElement(
-                                                                            'div',
-                                                                            { className: 'SecondaryNavigationPanel-subMenuInnerLevel2' },
-                                                                            react_default.a.createElement(
-                                                                                'div',
-                                                                                { className: 'subMenuLevel2ListBlock' },
-                                                                                react_default.a.createElement(
-                                                                                    'h3',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuItemTitle' },
-                                                                                    'Window'
-                                                                                ),
-                                                                                react_default.a.createElement(
-                                                                                    'ul',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List' },
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 1'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 2'
-                                                                                        )
-                                                                                    )
-                                                                                )
-                                                                            )
-                                                                        )
-                                                                    ),
-                                                                    react_default.a.createElement(
-                                                                        'li',
-                                                                        { className: 'SecondaryNavigationPanel-subMenuLevelList' },
-                                                                        react_default.a.createElement(
-                                                                            'a',
-                                                                            { href: 'javascript:void(0)', 'data-automation-id': 'sub-menu-level1', className: 'SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link' },
-                                                                            'Bed & Bath'
-                                                                        ),
-                                                                        react_default.a.createElement(
-                                                                            'div',
-                                                                            { className: 'SecondaryNavigationPanel-subMenuInnerLevel2' },
-                                                                            react_default.a.createElement(
-                                                                                'div',
-                                                                                { className: 'subMenuLevel2ListBlock' },
-                                                                                react_default.a.createElement(
-                                                                                    'h3',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuItemTitle' },
-                                                                                    'Bed & Bath'
-                                                                                ),
-                                                                                react_default.a.createElement(
-                                                                                    'ul',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List' },
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 1'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 2'
-                                                                                        )
-                                                                                    )
-                                                                                )
-                                                                            )
-                                                                        )
-                                                                    ),
-                                                                    react_default.a.createElement(
-                                                                        'li',
-                                                                        { className: 'SecondaryNavigationPanel-subMenuLevelList' },
-                                                                        react_default.a.createElement(
-                                                                            'a',
-                                                                            { href: 'javascript:void(0)', 'data-automation-id': 'sub-menu-level1', className: 'SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link' },
-                                                                            'Appliances'
-                                                                        ),
-                                                                        react_default.a.createElement(
-                                                                            'div',
-                                                                            { className: 'SecondaryNavigationPanel-subMenuInnerLevel2' },
-                                                                            react_default.a.createElement(
-                                                                                'div',
-                                                                                { className: 'subMenuLevel2ListBlock' },
-                                                                                react_default.a.createElement(
-                                                                                    'h3',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuItemTitle' },
-                                                                                    'Appliances'
-                                                                                ),
-                                                                                react_default.a.createElement(
-                                                                                    'ul',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List' },
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 1'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 2'
-                                                                                        )
-                                                                                    )
-                                                                                )
-                                                                            )
-                                                                        )
-                                                                    ),
-                                                                    react_default.a.createElement(
-                                                                        'li',
-                                                                        { className: 'SecondaryNavigationPanel-subMenuLevelList' },
-                                                                        react_default.a.createElement(
-                                                                            'a',
-                                                                            { href: 'javascript:void(0)', 'data-automation-id': 'sub-menu-level1', className: 'SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link' },
-                                                                            'More For Your Home'
-                                                                        ),
-                                                                        react_default.a.createElement(
-                                                                            'div',
-                                                                            { className: 'SecondaryNavigationPanel-subMenuInnerLevel2' },
-                                                                            react_default.a.createElement(
-                                                                                'div',
-                                                                                { className: 'subMenuLevel2ListBlock' },
-                                                                                react_default.a.createElement(
-                                                                                    'h3',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuItemTitle' },
-                                                                                    'More For Your Home'
-                                                                                ),
-                                                                                react_default.a.createElement(
-                                                                                    'ul',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List' },
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 1'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 2'
-                                                                                        )
-                                                                                    )
-                                                                                )
-                                                                            )
-                                                                        )
-                                                                    ),
-                                                                    react_default.a.createElement(
-                                                                        'li',
-                                                                        { className: 'SecondaryNavigationPanel-subMenuLevelList' },
-                                                                        react_default.a.createElement(
-                                                                            'a',
-                                                                            { href: 'javascript:void(0)', 'data-automation-id': 'sub-menu-level1', className: 'SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link' },
-                                                                            'Shop Sale & Clearance'
-                                                                        ),
-                                                                        react_default.a.createElement(
-                                                                            'div',
-                                                                            { className: 'SecondaryNavigationPanel-subMenuInnerLevel2' },
-                                                                            react_default.a.createElement(
-                                                                                'div',
-                                                                                { className: 'subMenuLevel2ListBlock' },
-                                                                                react_default.a.createElement(
-                                                                                    'h3',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuItemTitle' },
-                                                                                    'Shop Sale & Clearance'
-                                                                                ),
-                                                                                react_default.a.createElement(
-                                                                                    'ul',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List' },
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 1'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 2'
-                                                                                        )
-                                                                                    )
-                                                                                )
-                                                                            )
-                                                                        )
-                                                                    )
-                                                                )
-                                                            )
-                                                        )
-                                                    ),
-                                                    react_default.a.createElement(
-                                                        'li',
-                                                        { className: 'SecondaryNavigationPanel-menuItem' },
-                                                        react_default.a.createElement(
-                                                            'button',
-                                                            { className: 'SecondaryNavigationPanel-menuItemLink', 'data-automation-id': 'menu-item' },
-                                                            'Juniors'
-                                                        ),
-                                                        react_default.a.createElement(
-                                                            'div',
-                                                            { className: 'SecondaryNavigationPanel-subMenuInnerLevel' },
-                                                            react_default.a.createElement(
-                                                                'div',
-                                                                { className: 'SecondaryNavigationPanel-subMenuLevel1ListBlock' },
-                                                                react_default.a.createElement(
-                                                                    'button',
-                                                                    { className: 'SecondaryNavigationPanel-subMenuItemTitle', 'data-automation-id': 'menu-item-heading' },
-                                                                    'Juniors'
-                                                                ),
-                                                                react_default.a.createElement(
-                                                                    'ul',
-                                                                    { className: 'SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-level2Block' },
-                                                                    react_default.a.createElement(
-                                                                        'li',
-                                                                        { className: 'SecondaryNavigationPanel-subMenuLevelList' },
-                                                                        react_default.a.createElement(
-                                                                            'a',
-                                                                            { href: 'javascript:void(0)', 'data-automation-id': 'sub-menu-level1', className: 'SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link' },
-                                                                            'Furniture'
-                                                                        ),
-                                                                        react_default.a.createElement(
-                                                                            'div',
-                                                                            { className: 'SecondaryNavigationPanel-subMenuInnerLevel2' },
-                                                                            react_default.a.createElement(
-                                                                                'div',
-                                                                                { className: 'subMenuLevel2ListBlock' },
-                                                                                react_default.a.createElement(
-                                                                                    'h3',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuItemTitle' },
-                                                                                    'Furniture'
-                                                                                ),
-                                                                                react_default.a.createElement(
-                                                                                    'ul',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List' },
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Mattresses'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sofas'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Beds & Headboards'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Chairs & Recliners'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Dining Sets'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'View All Furniture'
-                                                                                        )
-                                                                                    )
-                                                                                )
-                                                                            )
-                                                                        )
-                                                                    ),
-                                                                    react_default.a.createElement(
-                                                                        'li',
-                                                                        { className: 'SecondaryNavigationPanel-subMenuLevelList' },
-                                                                        react_default.a.createElement(
-                                                                            'a',
-                                                                            { href: 'javascript:void(0)', 'data-automation-id': 'sub-menu-level1', className: 'SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link' },
-                                                                            'Home Decor'
-                                                                        ),
-                                                                        react_default.a.createElement(
-                                                                            'div',
-                                                                            { className: 'SecondaryNavigationPanel-subMenuInnerLevel2' },
-                                                                            react_default.a.createElement(
-                                                                                'div',
-                                                                                { className: 'subMenuLevel2ListBlock' },
-                                                                                react_default.a.createElement(
-                                                                                    'h3',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuItemTitle' },
-                                                                                    'Home Decor'
-                                                                                ),
-                                                                                react_default.a.createElement(
-                                                                                    'ul',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List' },
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 1'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 2'
-                                                                                        )
-                                                                                    )
-                                                                                )
-                                                                            )
-                                                                        )
-                                                                    ),
-                                                                    react_default.a.createElement(
-                                                                        'li',
-                                                                        { className: 'SecondaryNavigationPanel-subMenuLevelList' },
-                                                                        react_default.a.createElement(
-                                                                            'a',
-                                                                            { href: 'javascript:void(0)', 'data-automation-id': 'sub-menu-level1', className: 'SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link' },
-                                                                            'Kitchen & Dining'
-                                                                        ),
-                                                                        react_default.a.createElement(
-                                                                            'div',
-                                                                            { className: 'SecondaryNavigationPanel-subMenuInnerLevel2' },
-                                                                            react_default.a.createElement(
-                                                                                'div',
-                                                                                { className: 'subMenuLevel2ListBlock' },
-                                                                                react_default.a.createElement(
-                                                                                    'h3',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuItemTitle' },
-                                                                                    'Kitchen'
-                                                                                ),
-                                                                                react_default.a.createElement(
-                                                                                    'ul',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List' },
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 1'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 2'
-                                                                                        )
-                                                                                    )
-                                                                                )
-                                                                            )
-                                                                        )
-                                                                    ),
-                                                                    react_default.a.createElement(
-                                                                        'li',
-                                                                        { className: 'SecondaryNavigationPanel-subMenuLevelList' },
-                                                                        react_default.a.createElement(
-                                                                            'a',
-                                                                            { href: 'javascript:void(0)', 'data-automation-id': 'sub-menu-level1', className: 'SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link' },
-                                                                            'Window'
-                                                                        ),
-                                                                        react_default.a.createElement(
-                                                                            'div',
-                                                                            { className: 'SecondaryNavigationPanel-subMenuInnerLevel2' },
-                                                                            react_default.a.createElement(
-                                                                                'div',
-                                                                                { className: 'subMenuLevel2ListBlock' },
-                                                                                react_default.a.createElement(
-                                                                                    'h3',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuItemTitle' },
-                                                                                    'Window'
-                                                                                ),
-                                                                                react_default.a.createElement(
-                                                                                    'ul',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List' },
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 1'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 2'
-                                                                                        )
-                                                                                    )
-                                                                                )
-                                                                            )
-                                                                        )
-                                                                    ),
-                                                                    react_default.a.createElement(
-                                                                        'li',
-                                                                        { className: 'SecondaryNavigationPanel-subMenuLevelList' },
-                                                                        react_default.a.createElement(
-                                                                            'a',
-                                                                            { href: 'javascript:void(0)', 'data-automation-id': 'sub-menu-level1', className: 'SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link' },
-                                                                            'Bed & Bath'
-                                                                        ),
-                                                                        react_default.a.createElement(
-                                                                            'div',
-                                                                            { className: 'SecondaryNavigationPanel-subMenuInnerLevel2' },
-                                                                            react_default.a.createElement(
-                                                                                'div',
-                                                                                { className: 'subMenuLevel2ListBlock' },
-                                                                                react_default.a.createElement(
-                                                                                    'h3',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuItemTitle' },
-                                                                                    'Bed & Bath'
-                                                                                ),
-                                                                                react_default.a.createElement(
-                                                                                    'ul',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List' },
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 1'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 2'
-                                                                                        )
-                                                                                    )
-                                                                                )
-                                                                            )
-                                                                        )
-                                                                    ),
-                                                                    react_default.a.createElement(
-                                                                        'li',
-                                                                        { className: 'SecondaryNavigationPanel-subMenuLevelList' },
-                                                                        react_default.a.createElement(
-                                                                            'a',
-                                                                            { href: 'javascript:void(0)', 'data-automation-id': 'sub-menu-level1', className: 'SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link' },
-                                                                            'Appliances'
-                                                                        ),
-                                                                        react_default.a.createElement(
-                                                                            'div',
-                                                                            { className: 'SecondaryNavigationPanel-subMenuInnerLevel2' },
-                                                                            react_default.a.createElement(
-                                                                                'div',
-                                                                                { className: 'subMenuLevel2ListBlock' },
-                                                                                react_default.a.createElement(
-                                                                                    'h3',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuItemTitle' },
-                                                                                    'Appliances'
-                                                                                ),
-                                                                                react_default.a.createElement(
-                                                                                    'ul',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List' },
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 1'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 2'
-                                                                                        )
-                                                                                    )
-                                                                                )
-                                                                            )
-                                                                        )
-                                                                    ),
-                                                                    react_default.a.createElement(
-                                                                        'li',
-                                                                        { className: 'SecondaryNavigationPanel-subMenuLevelList' },
-                                                                        react_default.a.createElement(
-                                                                            'a',
-                                                                            { href: 'javascript:void(0)', 'data-automation-id': 'sub-menu-level1', className: 'SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link' },
-                                                                            'More For Your Home'
-                                                                        ),
-                                                                        react_default.a.createElement(
-                                                                            'div',
-                                                                            { className: 'SecondaryNavigationPanel-subMenuInnerLevel2' },
-                                                                            react_default.a.createElement(
-                                                                                'div',
-                                                                                { className: 'subMenuLevel2ListBlock' },
-                                                                                react_default.a.createElement(
-                                                                                    'h3',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuItemTitle' },
-                                                                                    'More For Your Home'
-                                                                                ),
-                                                                                react_default.a.createElement(
-                                                                                    'ul',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List' },
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 1'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 2'
-                                                                                        )
-                                                                                    )
-                                                                                )
-                                                                            )
-                                                                        )
-                                                                    ),
-                                                                    react_default.a.createElement(
-                                                                        'li',
-                                                                        { className: 'SecondaryNavigationPanel-subMenuLevelList' },
-                                                                        react_default.a.createElement(
-                                                                            'a',
-                                                                            { href: 'javascript:void(0)', 'data-automation-id': 'sub-menu-level1', className: 'SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link' },
-                                                                            'Shop Sale & Clearance'
-                                                                        ),
-                                                                        react_default.a.createElement(
-                                                                            'div',
-                                                                            { className: 'SecondaryNavigationPanel-subMenuInnerLevel2' },
-                                                                            react_default.a.createElement(
-                                                                                'div',
-                                                                                { className: 'subMenuLevel2ListBlock' },
-                                                                                react_default.a.createElement(
-                                                                                    'h3',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuItemTitle' },
-                                                                                    'Shop Sale & Clearance'
-                                                                                ),
-                                                                                react_default.a.createElement(
-                                                                                    'ul',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List' },
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 1'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 2'
-                                                                                        )
-                                                                                    )
-                                                                                )
-                                                                            )
-                                                                        )
-                                                                    )
-                                                                )
-                                                            )
-                                                        )
-                                                    ),
-                                                    react_default.a.createElement(
-                                                        'li',
-                                                        { className: 'SecondaryNavigationPanel-menuItem' },
-                                                        react_default.a.createElement(
-                                                            'button',
-                                                            { className: 'SecondaryNavigationPanel-menuItemLink', 'data-automation-id': 'menu-item' },
-                                                            'Kids'
-                                                        ),
-                                                        react_default.a.createElement(
-                                                            'div',
-                                                            { className: 'SecondaryNavigationPanel-subMenuInnerLevel' },
-                                                            react_default.a.createElement(
-                                                                'div',
-                                                                { className: 'SecondaryNavigationPanel-subMenuLevel1ListBlock' },
-                                                                react_default.a.createElement(
-                                                                    'button',
-                                                                    { className: 'SecondaryNavigationPanel-subMenuItemTitle', 'data-automation-id': 'menu-item-heading' },
-                                                                    'Kids'
-                                                                ),
-                                                                react_default.a.createElement(
-                                                                    'ul',
-                                                                    { className: 'SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-level2Block' },
-                                                                    react_default.a.createElement(
-                                                                        'li',
-                                                                        { className: 'SecondaryNavigationPanel-subMenuLevelList' },
-                                                                        react_default.a.createElement(
-                                                                            'a',
-                                                                            { href: 'javascript:void(0)', 'data-automation-id': 'sub-menu-level1', className: 'SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link' },
-                                                                            'Furniture'
-                                                                        ),
-                                                                        react_default.a.createElement(
-                                                                            'div',
-                                                                            { className: 'SecondaryNavigationPanel-subMenuInnerLevel2' },
-                                                                            react_default.a.createElement(
-                                                                                'div',
-                                                                                { className: 'subMenuLevel2ListBlock' },
-                                                                                react_default.a.createElement(
-                                                                                    'h3',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuItemTitle' },
-                                                                                    'Furniture'
-                                                                                ),
-                                                                                react_default.a.createElement(
-                                                                                    'ul',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List' },
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Mattresses'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sofas'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Beds & Headboards'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Chairs & Recliners'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Dining Sets'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'View All Furniture'
-                                                                                        )
-                                                                                    )
-                                                                                )
-                                                                            )
-                                                                        )
-                                                                    ),
-                                                                    react_default.a.createElement(
-                                                                        'li',
-                                                                        { className: 'SecondaryNavigationPanel-subMenuLevelList' },
-                                                                        react_default.a.createElement(
-                                                                            'a',
-                                                                            { href: 'javascript:void(0)', 'data-automation-id': 'sub-menu-level1', className: 'SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link' },
-                                                                            'Home Decor'
-                                                                        ),
-                                                                        react_default.a.createElement(
-                                                                            'div',
-                                                                            { className: 'SecondaryNavigationPanel-subMenuInnerLevel2' },
-                                                                            react_default.a.createElement(
-                                                                                'div',
-                                                                                { className: 'subMenuLevel2ListBlock' },
-                                                                                react_default.a.createElement(
-                                                                                    'h3',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuItemTitle' },
-                                                                                    'Home Decor'
-                                                                                ),
-                                                                                react_default.a.createElement(
-                                                                                    'ul',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List' },
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 1'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 2'
-                                                                                        )
-                                                                                    )
-                                                                                )
-                                                                            )
-                                                                        )
-                                                                    ),
-                                                                    react_default.a.createElement(
-                                                                        'li',
-                                                                        { className: 'SecondaryNavigationPanel-subMenuLevelList' },
-                                                                        react_default.a.createElement(
-                                                                            'a',
-                                                                            { href: 'javascript:void(0)', 'data-automation-id': 'sub-menu-level1', className: 'SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link' },
-                                                                            'Kitchen & Dining'
-                                                                        ),
-                                                                        react_default.a.createElement(
-                                                                            'div',
-                                                                            { className: 'SecondaryNavigationPanel-subMenuInnerLevel2' },
-                                                                            react_default.a.createElement(
-                                                                                'div',
-                                                                                { className: 'subMenuLevel2ListBlock' },
-                                                                                react_default.a.createElement(
-                                                                                    'h3',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuItemTitle' },
-                                                                                    'Kitchen'
-                                                                                ),
-                                                                                react_default.a.createElement(
-                                                                                    'ul',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List' },
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 1'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 2'
-                                                                                        )
-                                                                                    )
-                                                                                )
-                                                                            )
-                                                                        )
-                                                                    ),
-                                                                    react_default.a.createElement(
-                                                                        'li',
-                                                                        { className: 'SecondaryNavigationPanel-subMenuLevelList' },
-                                                                        react_default.a.createElement(
-                                                                            'a',
-                                                                            { href: 'javascript:void(0)', 'data-automation-id': 'sub-menu-level1', className: 'SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link' },
-                                                                            'Window'
-                                                                        ),
-                                                                        react_default.a.createElement(
-                                                                            'div',
-                                                                            { className: 'SecondaryNavigationPanel-subMenuInnerLevel2' },
-                                                                            react_default.a.createElement(
-                                                                                'div',
-                                                                                { className: 'subMenuLevel2ListBlock' },
-                                                                                react_default.a.createElement(
-                                                                                    'h3',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuItemTitle' },
-                                                                                    'Window'
-                                                                                ),
-                                                                                react_default.a.createElement(
-                                                                                    'ul',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List' },
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 1'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 2'
-                                                                                        )
-                                                                                    )
-                                                                                )
-                                                                            )
-                                                                        )
-                                                                    ),
-                                                                    react_default.a.createElement(
-                                                                        'li',
-                                                                        { className: 'SecondaryNavigationPanel-subMenuLevelList' },
-                                                                        react_default.a.createElement(
-                                                                            'a',
-                                                                            { href: 'javascript:void(0)', 'data-automation-id': 'sub-menu-level1', className: 'SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link' },
-                                                                            'Bed & Bath'
-                                                                        ),
-                                                                        react_default.a.createElement(
-                                                                            'div',
-                                                                            { className: 'SecondaryNavigationPanel-subMenuInnerLevel2' },
-                                                                            react_default.a.createElement(
-                                                                                'div',
-                                                                                { className: 'subMenuLevel2ListBlock' },
-                                                                                react_default.a.createElement(
-                                                                                    'h3',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuItemTitle' },
-                                                                                    'Bed & Bath'
-                                                                                ),
-                                                                                react_default.a.createElement(
-                                                                                    'ul',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List' },
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 1'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 2'
-                                                                                        )
-                                                                                    )
-                                                                                )
-                                                                            )
-                                                                        )
-                                                                    ),
-                                                                    react_default.a.createElement(
-                                                                        'li',
-                                                                        { className: 'SecondaryNavigationPanel-subMenuLevelList' },
-                                                                        react_default.a.createElement(
-                                                                            'a',
-                                                                            { href: 'javascript:void(0)', 'data-automation-id': 'sub-menu-level1', className: 'SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link' },
-                                                                            'Appliances'
-                                                                        ),
-                                                                        react_default.a.createElement(
-                                                                            'div',
-                                                                            { className: 'SecondaryNavigationPanel-subMenuInnerLevel2' },
-                                                                            react_default.a.createElement(
-                                                                                'div',
-                                                                                { className: 'subMenuLevel2ListBlock' },
-                                                                                react_default.a.createElement(
-                                                                                    'h3',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuItemTitle' },
-                                                                                    'Appliances'
-                                                                                ),
-                                                                                react_default.a.createElement(
-                                                                                    'ul',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List' },
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 1'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 2'
-                                                                                        )
-                                                                                    )
-                                                                                )
-                                                                            )
-                                                                        )
-                                                                    ),
-                                                                    react_default.a.createElement(
-                                                                        'li',
-                                                                        { className: 'SecondaryNavigationPanel-subMenuLevelList' },
-                                                                        react_default.a.createElement(
-                                                                            'a',
-                                                                            { href: 'javascript:void(0)', 'data-automation-id': 'sub-menu-level1', className: 'SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link' },
-                                                                            'More For Your Home'
-                                                                        ),
-                                                                        react_default.a.createElement(
-                                                                            'div',
-                                                                            { className: 'SecondaryNavigationPanel-subMenuInnerLevel2' },
-                                                                            react_default.a.createElement(
-                                                                                'div',
-                                                                                { className: 'subMenuLevel2ListBlock' },
-                                                                                react_default.a.createElement(
-                                                                                    'h3',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuItemTitle' },
-                                                                                    'More For Your Home'
-                                                                                ),
-                                                                                react_default.a.createElement(
-                                                                                    'ul',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List' },
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 1'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 2'
-                                                                                        )
-                                                                                    )
-                                                                                )
-                                                                            )
-                                                                        )
-                                                                    ),
-                                                                    react_default.a.createElement(
-                                                                        'li',
-                                                                        { className: 'SecondaryNavigationPanel-subMenuLevelList' },
-                                                                        react_default.a.createElement(
-                                                                            'a',
-                                                                            { href: 'javascript:void(0)', 'data-automation-id': 'sub-menu-level1', className: 'SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link' },
-                                                                            'Shop Sale & Clearance'
-                                                                        ),
-                                                                        react_default.a.createElement(
-                                                                            'div',
-                                                                            { className: 'SecondaryNavigationPanel-subMenuInnerLevel2' },
-                                                                            react_default.a.createElement(
-                                                                                'div',
-                                                                                { className: 'subMenuLevel2ListBlock' },
-                                                                                react_default.a.createElement(
-                                                                                    'h3',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuItemTitle' },
-                                                                                    'Shop Sale & Clearance'
-                                                                                ),
-                                                                                react_default.a.createElement(
-                                                                                    'ul',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List' },
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 1'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 2'
-                                                                                        )
-                                                                                    )
-                                                                                )
-                                                                            )
-                                                                        )
-                                                                    )
-                                                                )
-                                                            )
-                                                        )
-                                                    ),
-                                                    react_default.a.createElement(
-                                                        'li',
-                                                        { className: 'SecondaryNavigationPanel-menuItem' },
-                                                        react_default.a.createElement(
-                                                            'button',
-                                                            { className: 'SecondaryNavigationPanel-menuItemLink', 'data-automation-id': 'menu-item' },
-                                                            'Baby'
-                                                        ),
-                                                        react_default.a.createElement(
-                                                            'div',
-                                                            { className: 'SecondaryNavigationPanel-subMenuInnerLevel' },
-                                                            react_default.a.createElement(
-                                                                'div',
-                                                                { className: 'SecondaryNavigationPanel-subMenuLevel1ListBlock' },
-                                                                react_default.a.createElement(
-                                                                    'button',
-                                                                    { className: 'SecondaryNavigationPanel-subMenuItemTitle', 'data-automation-id': 'menu-item-heading' },
-                                                                    'Baby'
-                                                                ),
-                                                                react_default.a.createElement(
-                                                                    'ul',
-                                                                    { className: 'SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-level2Block' },
-                                                                    react_default.a.createElement(
-                                                                        'li',
-                                                                        { className: 'SecondaryNavigationPanel-subMenuLevelList' },
-                                                                        react_default.a.createElement(
-                                                                            'a',
-                                                                            { href: 'javascript:void(0)', 'data-automation-id': 'sub-menu-level1', className: 'SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link' },
-                                                                            'Furniture'
-                                                                        ),
-                                                                        react_default.a.createElement(
-                                                                            'div',
-                                                                            { className: 'SecondaryNavigationPanel-subMenuInnerLevel2' },
-                                                                            react_default.a.createElement(
-                                                                                'div',
-                                                                                { className: 'subMenuLevel2ListBlock' },
-                                                                                react_default.a.createElement(
-                                                                                    'h3',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuItemTitle' },
-                                                                                    'Furniture'
-                                                                                ),
-                                                                                react_default.a.createElement(
-                                                                                    'ul',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List' },
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Mattresses'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sofas'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Beds & Headboards'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Chairs & Recliners'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Dining Sets'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'View All Furniture'
-                                                                                        )
-                                                                                    )
-                                                                                )
-                                                                            )
-                                                                        )
-                                                                    ),
-                                                                    react_default.a.createElement(
-                                                                        'li',
-                                                                        { className: 'SecondaryNavigationPanel-subMenuLevelList' },
-                                                                        react_default.a.createElement(
-                                                                            'a',
-                                                                            { href: 'javascript:void(0)', 'data-automation-id': 'sub-menu-level1', className: 'SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link' },
-                                                                            'Home Decor'
-                                                                        ),
-                                                                        react_default.a.createElement(
-                                                                            'div',
-                                                                            { className: 'SecondaryNavigationPanel-subMenuInnerLevel2' },
-                                                                            react_default.a.createElement(
-                                                                                'div',
-                                                                                { className: 'subMenuLevel2ListBlock' },
-                                                                                react_default.a.createElement(
-                                                                                    'h3',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuItemTitle' },
-                                                                                    'Home Decor'
-                                                                                ),
-                                                                                react_default.a.createElement(
-                                                                                    'ul',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List' },
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 1'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 2'
-                                                                                        )
-                                                                                    )
-                                                                                )
-                                                                            )
-                                                                        )
-                                                                    ),
-                                                                    react_default.a.createElement(
-                                                                        'li',
-                                                                        { className: 'SecondaryNavigationPanel-subMenuLevelList' },
-                                                                        react_default.a.createElement(
-                                                                            'a',
-                                                                            { href: 'javascript:void(0)', 'data-automation-id': 'sub-menu-level1', className: 'SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link' },
-                                                                            'Kitchen & Dining'
-                                                                        ),
-                                                                        react_default.a.createElement(
-                                                                            'div',
-                                                                            { className: 'SecondaryNavigationPanel-subMenuInnerLevel2' },
-                                                                            react_default.a.createElement(
-                                                                                'div',
-                                                                                { className: 'subMenuLevel2ListBlock' },
-                                                                                react_default.a.createElement(
-                                                                                    'h3',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuItemTitle' },
-                                                                                    'Kitchen'
-                                                                                ),
-                                                                                react_default.a.createElement(
-                                                                                    'ul',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List' },
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 1'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 2'
-                                                                                        )
-                                                                                    )
-                                                                                )
-                                                                            )
-                                                                        )
-                                                                    ),
-                                                                    react_default.a.createElement(
-                                                                        'li',
-                                                                        { className: 'SecondaryNavigationPanel-subMenuLevelList' },
-                                                                        react_default.a.createElement(
-                                                                            'a',
-                                                                            { href: 'javascript:void(0)', 'data-automation-id': 'sub-menu-level1', className: 'SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link' },
-                                                                            'Window'
-                                                                        ),
-                                                                        react_default.a.createElement(
-                                                                            'div',
-                                                                            { className: 'SecondaryNavigationPanel-subMenuInnerLevel2' },
-                                                                            react_default.a.createElement(
-                                                                                'div',
-                                                                                { className: 'subMenuLevel2ListBlock' },
-                                                                                react_default.a.createElement(
-                                                                                    'h3',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuItemTitle' },
-                                                                                    'Window'
-                                                                                ),
-                                                                                react_default.a.createElement(
-                                                                                    'ul',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List' },
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 1'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 2'
-                                                                                        )
-                                                                                    )
-                                                                                )
-                                                                            )
-                                                                        )
-                                                                    ),
-                                                                    react_default.a.createElement(
-                                                                        'li',
-                                                                        { className: 'SecondaryNavigationPanel-subMenuLevelList' },
-                                                                        react_default.a.createElement(
-                                                                            'a',
-                                                                            { href: 'javascript:void(0)', 'data-automation-id': 'sub-menu-level1', className: 'SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link' },
-                                                                            'Bed & Bath'
-                                                                        ),
-                                                                        react_default.a.createElement(
-                                                                            'div',
-                                                                            { className: 'SecondaryNavigationPanel-subMenuInnerLevel2' },
-                                                                            react_default.a.createElement(
-                                                                                'div',
-                                                                                { className: 'subMenuLevel2ListBlock' },
-                                                                                react_default.a.createElement(
-                                                                                    'h3',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuItemTitle' },
-                                                                                    'Bed & Bath'
-                                                                                ),
-                                                                                react_default.a.createElement(
-                                                                                    'ul',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List' },
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 1'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 2'
-                                                                                        )
-                                                                                    )
-                                                                                )
-                                                                            )
-                                                                        )
-                                                                    ),
-                                                                    react_default.a.createElement(
-                                                                        'li',
-                                                                        { className: 'SecondaryNavigationPanel-subMenuLevelList' },
-                                                                        react_default.a.createElement(
-                                                                            'a',
-                                                                            { href: 'javascript:void(0)', 'data-automation-id': 'sub-menu-level1', className: 'SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link' },
-                                                                            'Appliances'
-                                                                        ),
-                                                                        react_default.a.createElement(
-                                                                            'div',
-                                                                            { className: 'SecondaryNavigationPanel-subMenuInnerLevel2' },
-                                                                            react_default.a.createElement(
-                                                                                'div',
-                                                                                { className: 'subMenuLevel2ListBlock' },
-                                                                                react_default.a.createElement(
-                                                                                    'h3',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuItemTitle' },
-                                                                                    'Appliances'
-                                                                                ),
-                                                                                react_default.a.createElement(
-                                                                                    'ul',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List' },
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 1'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 2'
-                                                                                        )
-                                                                                    )
-                                                                                )
-                                                                            )
-                                                                        )
-                                                                    ),
-                                                                    react_default.a.createElement(
-                                                                        'li',
-                                                                        { className: 'SecondaryNavigationPanel-subMenuLevelList' },
-                                                                        react_default.a.createElement(
-                                                                            'a',
-                                                                            { href: 'javascript:void(0)', 'data-automation-id': 'sub-menu-level1', className: 'SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link' },
-                                                                            'More For Your Home'
-                                                                        ),
-                                                                        react_default.a.createElement(
-                                                                            'div',
-                                                                            { className: 'SecondaryNavigationPanel-subMenuInnerLevel2' },
-                                                                            react_default.a.createElement(
-                                                                                'div',
-                                                                                { className: 'subMenuLevel2ListBlock' },
-                                                                                react_default.a.createElement(
-                                                                                    'h3',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuItemTitle' },
-                                                                                    'More For Your Home'
-                                                                                ),
-                                                                                react_default.a.createElement(
-                                                                                    'ul',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List' },
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 1'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 2'
-                                                                                        )
-                                                                                    )
-                                                                                )
-                                                                            )
-                                                                        )
-                                                                    ),
-                                                                    react_default.a.createElement(
-                                                                        'li',
-                                                                        { className: 'SecondaryNavigationPanel-subMenuLevelList' },
-                                                                        react_default.a.createElement(
-                                                                            'a',
-                                                                            { href: 'javascript:void(0)', 'data-automation-id': 'sub-menu-level1', className: 'SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link' },
-                                                                            'Shop Sale & Clearance'
-                                                                        ),
-                                                                        react_default.a.createElement(
-                                                                            'div',
-                                                                            { className: 'SecondaryNavigationPanel-subMenuInnerLevel2' },
-                                                                            react_default.a.createElement(
-                                                                                'div',
-                                                                                { className: 'subMenuLevel2ListBlock' },
-                                                                                react_default.a.createElement(
-                                                                                    'h3',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuItemTitle' },
-                                                                                    'Shop Sale & Clearance'
-                                                                                ),
-                                                                                react_default.a.createElement(
-                                                                                    'ul',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List' },
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 1'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 2'
-                                                                                        )
-                                                                                    )
-                                                                                )
-                                                                            )
-                                                                        )
-                                                                    )
-                                                                )
-                                                            )
-                                                        )
-                                                    ),
-                                                    react_default.a.createElement(
-                                                        'li',
-                                                        { className: 'SecondaryNavigationPanel-menuItem' },
-                                                        react_default.a.createElement(
-                                                            'button',
-                                                            { className: 'SecondaryNavigationPanel-menuItemLink', 'data-automation-id': 'menu-item' },
-                                                            'Shoes'
-                                                        ),
-                                                        react_default.a.createElement(
-                                                            'div',
-                                                            { className: 'SecondaryNavigationPanel-subMenuInnerLevel' },
-                                                            react_default.a.createElement(
-                                                                'div',
-                                                                { className: 'SecondaryNavigationPanel-subMenuLevel1ListBlock' },
-                                                                react_default.a.createElement(
-                                                                    'button',
-                                                                    { className: 'SecondaryNavigationPanel-subMenuItemTitle', 'data-automation-id': 'menu-item-heading' },
-                                                                    'Shoes'
-                                                                ),
-                                                                react_default.a.createElement(
-                                                                    'ul',
-                                                                    { className: 'SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-level2Block' },
-                                                                    react_default.a.createElement(
-                                                                        'li',
-                                                                        { className: 'SecondaryNavigationPanel-subMenuLevelList' },
-                                                                        react_default.a.createElement(
-                                                                            'a',
-                                                                            { href: 'javascript:void(0)', 'data-automation-id': 'sub-menu-level1', className: 'SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link' },
-                                                                            'Furniture'
-                                                                        ),
-                                                                        react_default.a.createElement(
-                                                                            'div',
-                                                                            { className: 'SecondaryNavigationPanel-subMenuInnerLevel2' },
-                                                                            react_default.a.createElement(
-                                                                                'div',
-                                                                                { className: 'subMenuLevel2ListBlock' },
-                                                                                react_default.a.createElement(
-                                                                                    'h3',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuItemTitle' },
-                                                                                    'Furniture'
-                                                                                ),
-                                                                                react_default.a.createElement(
-                                                                                    'ul',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List' },
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Mattresses'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sofas'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Beds & Headboards'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Chairs & Recliners'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Dining Sets'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'View All Furniture'
-                                                                                        )
-                                                                                    )
-                                                                                )
-                                                                            )
-                                                                        )
-                                                                    ),
-                                                                    react_default.a.createElement(
-                                                                        'li',
-                                                                        { className: 'SecondaryNavigationPanel-subMenuLevelList' },
-                                                                        react_default.a.createElement(
-                                                                            'a',
-                                                                            { href: 'javascript:void(0)', 'data-automation-id': 'sub-menu-level1', className: 'SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link' },
-                                                                            'Home Decor'
-                                                                        ),
-                                                                        react_default.a.createElement(
-                                                                            'div',
-                                                                            { className: 'SecondaryNavigationPanel-subMenuInnerLevel2' },
-                                                                            react_default.a.createElement(
-                                                                                'div',
-                                                                                { className: 'subMenuLevel2ListBlock' },
-                                                                                react_default.a.createElement(
-                                                                                    'h3',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuItemTitle' },
-                                                                                    'Home Decor'
-                                                                                ),
-                                                                                react_default.a.createElement(
-                                                                                    'ul',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List' },
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 1'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 2'
-                                                                                        )
-                                                                                    )
-                                                                                )
-                                                                            )
-                                                                        )
-                                                                    ),
-                                                                    react_default.a.createElement(
-                                                                        'li',
-                                                                        { className: 'SecondaryNavigationPanel-subMenuLevelList' },
-                                                                        react_default.a.createElement(
-                                                                            'a',
-                                                                            { href: 'javascript:void(0)', 'data-automation-id': 'sub-menu-level1', className: 'SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link' },
-                                                                            'Kitchen & Dining'
-                                                                        ),
-                                                                        react_default.a.createElement(
-                                                                            'div',
-                                                                            { className: 'SecondaryNavigationPanel-subMenuInnerLevel2' },
-                                                                            react_default.a.createElement(
-                                                                                'div',
-                                                                                { className: 'subMenuLevel2ListBlock' },
-                                                                                react_default.a.createElement(
-                                                                                    'h3',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuItemTitle' },
-                                                                                    'Kitchen'
-                                                                                ),
-                                                                                react_default.a.createElement(
-                                                                                    'ul',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List' },
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 1'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 2'
-                                                                                        )
-                                                                                    )
-                                                                                )
-                                                                            )
-                                                                        )
-                                                                    ),
-                                                                    react_default.a.createElement(
-                                                                        'li',
-                                                                        { className: 'SecondaryNavigationPanel-subMenuLevelList' },
-                                                                        react_default.a.createElement(
-                                                                            'a',
-                                                                            { href: 'javascript:void(0)', 'data-automation-id': 'sub-menu-level1', className: 'SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link' },
-                                                                            'Window'
-                                                                        ),
-                                                                        react_default.a.createElement(
-                                                                            'div',
-                                                                            { className: 'SecondaryNavigationPanel-subMenuInnerLevel2' },
-                                                                            react_default.a.createElement(
-                                                                                'div',
-                                                                                { className: 'subMenuLevel2ListBlock' },
-                                                                                react_default.a.createElement(
-                                                                                    'h3',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuItemTitle' },
-                                                                                    'Window'
-                                                                                ),
-                                                                                react_default.a.createElement(
-                                                                                    'ul',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List' },
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 1'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 2'
-                                                                                        )
-                                                                                    )
-                                                                                )
-                                                                            )
-                                                                        )
-                                                                    ),
-                                                                    react_default.a.createElement(
-                                                                        'li',
-                                                                        { className: 'SecondaryNavigationPanel-subMenuLevelList' },
-                                                                        react_default.a.createElement(
-                                                                            'a',
-                                                                            { href: 'javascript:void(0)', 'data-automation-id': 'sub-menu-level1', className: 'SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link' },
-                                                                            'Bed & Bath'
-                                                                        ),
-                                                                        react_default.a.createElement(
-                                                                            'div',
-                                                                            { className: 'SecondaryNavigationPanel-subMenuInnerLevel2' },
-                                                                            react_default.a.createElement(
-                                                                                'div',
-                                                                                { className: 'subMenuLevel2ListBlock' },
-                                                                                react_default.a.createElement(
-                                                                                    'h3',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuItemTitle' },
-                                                                                    'Bed & Bath'
-                                                                                ),
-                                                                                react_default.a.createElement(
-                                                                                    'ul',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List' },
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 1'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 2'
-                                                                                        )
-                                                                                    )
-                                                                                )
-                                                                            )
-                                                                        )
-                                                                    ),
-                                                                    react_default.a.createElement(
-                                                                        'li',
-                                                                        { className: 'SecondaryNavigationPanel-subMenuLevelList' },
-                                                                        react_default.a.createElement(
-                                                                            'a',
-                                                                            { href: 'javascript:void(0)', 'data-automation-id': 'sub-menu-level1', className: 'SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link' },
-                                                                            'Appliances'
-                                                                        ),
-                                                                        react_default.a.createElement(
-                                                                            'div',
-                                                                            { className: 'SecondaryNavigationPanel-subMenuInnerLevel2' },
-                                                                            react_default.a.createElement(
-                                                                                'div',
-                                                                                { className: 'subMenuLevel2ListBlock' },
-                                                                                react_default.a.createElement(
-                                                                                    'h3',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuItemTitle' },
-                                                                                    'Appliances'
-                                                                                ),
-                                                                                react_default.a.createElement(
-                                                                                    'ul',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List' },
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 1'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 2'
-                                                                                        )
-                                                                                    )
-                                                                                )
-                                                                            )
-                                                                        )
-                                                                    ),
-                                                                    react_default.a.createElement(
-                                                                        'li',
-                                                                        { className: 'SecondaryNavigationPanel-subMenuLevelList' },
-                                                                        react_default.a.createElement(
-                                                                            'a',
-                                                                            { href: 'javascript:void(0)', 'data-automation-id': 'sub-menu-level1', className: 'SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link' },
-                                                                            'More For Your Home'
-                                                                        ),
-                                                                        react_default.a.createElement(
-                                                                            'div',
-                                                                            { className: 'SecondaryNavigationPanel-subMenuInnerLevel2' },
-                                                                            react_default.a.createElement(
-                                                                                'div',
-                                                                                { className: 'subMenuLevel2ListBlock' },
-                                                                                react_default.a.createElement(
-                                                                                    'h3',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuItemTitle' },
-                                                                                    'More For Your Home'
-                                                                                ),
-                                                                                react_default.a.createElement(
-                                                                                    'ul',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List' },
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 1'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 2'
-                                                                                        )
-                                                                                    )
-                                                                                )
-                                                                            )
-                                                                        )
-                                                                    ),
-                                                                    react_default.a.createElement(
-                                                                        'li',
-                                                                        { className: 'SecondaryNavigationPanel-subMenuLevelList' },
-                                                                        react_default.a.createElement(
-                                                                            'a',
-                                                                            { href: 'javascript:void(0)', 'data-automation-id': 'sub-menu-level1', className: 'SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link' },
-                                                                            'Shop Sale & Clearance'
-                                                                        ),
-                                                                        react_default.a.createElement(
-                                                                            'div',
-                                                                            { className: 'SecondaryNavigationPanel-subMenuInnerLevel2' },
-                                                                            react_default.a.createElement(
-                                                                                'div',
-                                                                                { className: 'subMenuLevel2ListBlock' },
-                                                                                react_default.a.createElement(
-                                                                                    'h3',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuItemTitle' },
-                                                                                    'Shop Sale & Clearance'
-                                                                                ),
-                                                                                react_default.a.createElement(
-                                                                                    'ul',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List' },
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 1'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 2'
-                                                                                        )
-                                                                                    )
-                                                                                )
-                                                                            )
-                                                                        )
-                                                                    )
-                                                                )
-                                                            )
-                                                        )
-                                                    ),
-                                                    react_default.a.createElement(
-                                                        'li',
-                                                        { className: 'SecondaryNavigationPanel-menuItem' },
-                                                        react_default.a.createElement(
-                                                            'button',
-                                                            { className: 'SecondaryNavigationPanel-menuItemLink', 'data-automation-id': 'menu-item' },
-                                                            'Handbags'
-                                                        ),
-                                                        react_default.a.createElement(
-                                                            'div',
-                                                            { className: 'SecondaryNavigationPanel-subMenuInnerLevel' },
-                                                            react_default.a.createElement(
-                                                                'div',
-                                                                { className: 'SecondaryNavigationPanel-subMenuLevel1ListBlock' },
-                                                                react_default.a.createElement(
-                                                                    'button',
-                                                                    { className: 'SecondaryNavigationPanel-subMenuItemTitle', 'data-automation-id': 'menu-item-heading' },
-                                                                    'Handbags'
-                                                                ),
-                                                                react_default.a.createElement(
-                                                                    'ul',
-                                                                    { className: 'SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-level2Block' },
-                                                                    react_default.a.createElement(
-                                                                        'li',
-                                                                        { className: 'SecondaryNavigationPanel-subMenuLevelList' },
-                                                                        react_default.a.createElement(
-                                                                            'a',
-                                                                            { href: 'javascript:void(0)', 'data-automation-id': 'sub-menu-level1', className: 'SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link' },
-                                                                            'Furniture'
-                                                                        ),
-                                                                        react_default.a.createElement(
-                                                                            'div',
-                                                                            { className: 'SecondaryNavigationPanel-subMenuInnerLevel2' },
-                                                                            react_default.a.createElement(
-                                                                                'div',
-                                                                                { className: 'subMenuLevel2ListBlock' },
-                                                                                react_default.a.createElement(
-                                                                                    'h3',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuItemTitle' },
-                                                                                    'Furniture'
-                                                                                ),
-                                                                                react_default.a.createElement(
-                                                                                    'ul',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List' },
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Mattresses'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sofas'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Beds & Headboards'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Chairs & Recliners'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Dining Sets'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'View All Furniture'
-                                                                                        )
-                                                                                    )
-                                                                                )
-                                                                            )
-                                                                        )
-                                                                    ),
-                                                                    react_default.a.createElement(
-                                                                        'li',
-                                                                        { className: 'SecondaryNavigationPanel-subMenuLevelList' },
-                                                                        react_default.a.createElement(
-                                                                            'a',
-                                                                            { href: 'javascript:void(0)', 'data-automation-id': 'sub-menu-level1', className: 'SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link' },
-                                                                            'Home Decor'
-                                                                        ),
-                                                                        react_default.a.createElement(
-                                                                            'div',
-                                                                            { className: 'SecondaryNavigationPanel-subMenuInnerLevel2' },
-                                                                            react_default.a.createElement(
-                                                                                'div',
-                                                                                { className: 'subMenuLevel2ListBlock' },
-                                                                                react_default.a.createElement(
-                                                                                    'h3',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuItemTitle' },
-                                                                                    'Home Decor'
-                                                                                ),
-                                                                                react_default.a.createElement(
-                                                                                    'ul',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List' },
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 1'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 2'
-                                                                                        )
-                                                                                    )
-                                                                                )
-                                                                            )
-                                                                        )
-                                                                    ),
-                                                                    react_default.a.createElement(
-                                                                        'li',
-                                                                        { className: 'SecondaryNavigationPanel-subMenuLevelList' },
-                                                                        react_default.a.createElement(
-                                                                            'a',
-                                                                            { href: 'javascript:void(0)', 'data-automation-id': 'sub-menu-level1', className: 'SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link' },
-                                                                            'Kitchen & Dining'
-                                                                        ),
-                                                                        react_default.a.createElement(
-                                                                            'div',
-                                                                            { className: 'SecondaryNavigationPanel-subMenuInnerLevel2' },
-                                                                            react_default.a.createElement(
-                                                                                'div',
-                                                                                { className: 'subMenuLevel2ListBlock' },
-                                                                                react_default.a.createElement(
-                                                                                    'h3',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuItemTitle' },
-                                                                                    'Kitchen'
-                                                                                ),
-                                                                                react_default.a.createElement(
-                                                                                    'ul',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List' },
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 1'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 2'
-                                                                                        )
-                                                                                    )
-                                                                                )
-                                                                            )
-                                                                        )
-                                                                    ),
-                                                                    react_default.a.createElement(
-                                                                        'li',
-                                                                        { className: 'SecondaryNavigationPanel-subMenuLevelList' },
-                                                                        react_default.a.createElement(
-                                                                            'a',
-                                                                            { href: 'javascript:void(0)', 'data-automation-id': 'sub-menu-level1', className: 'SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link' },
-                                                                            'Window'
-                                                                        ),
-                                                                        react_default.a.createElement(
-                                                                            'div',
-                                                                            { className: 'SecondaryNavigationPanel-subMenuInnerLevel2' },
-                                                                            react_default.a.createElement(
-                                                                                'div',
-                                                                                { className: 'subMenuLevel2ListBlock' },
-                                                                                react_default.a.createElement(
-                                                                                    'h3',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuItemTitle' },
-                                                                                    'Window'
-                                                                                ),
-                                                                                react_default.a.createElement(
-                                                                                    'ul',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List' },
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 1'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 2'
-                                                                                        )
-                                                                                    )
-                                                                                )
-                                                                            )
-                                                                        )
-                                                                    ),
-                                                                    react_default.a.createElement(
-                                                                        'li',
-                                                                        { className: 'SecondaryNavigationPanel-subMenuLevelList' },
-                                                                        react_default.a.createElement(
-                                                                            'a',
-                                                                            { href: 'javascript:void(0)', 'data-automation-id': 'sub-menu-level1', className: 'SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link' },
-                                                                            'Bed & Bath'
-                                                                        ),
-                                                                        react_default.a.createElement(
-                                                                            'div',
-                                                                            { className: 'SecondaryNavigationPanel-subMenuInnerLevel2' },
-                                                                            react_default.a.createElement(
-                                                                                'div',
-                                                                                { className: 'subMenuLevel2ListBlock' },
-                                                                                react_default.a.createElement(
-                                                                                    'h3',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuItemTitle' },
-                                                                                    'Bed & Bath'
-                                                                                ),
-                                                                                react_default.a.createElement(
-                                                                                    'ul',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List' },
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 1'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 2'
-                                                                                        )
-                                                                                    )
-                                                                                )
-                                                                            )
-                                                                        )
-                                                                    ),
-                                                                    react_default.a.createElement(
-                                                                        'li',
-                                                                        { className: 'SecondaryNavigationPanel-subMenuLevelList' },
-                                                                        react_default.a.createElement(
-                                                                            'a',
-                                                                            { href: 'javascript:void(0)', 'data-automation-id': 'sub-menu-level1', className: 'SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link' },
-                                                                            'Appliances'
-                                                                        ),
-                                                                        react_default.a.createElement(
-                                                                            'div',
-                                                                            { className: 'SecondaryNavigationPanel-subMenuInnerLevel2' },
-                                                                            react_default.a.createElement(
-                                                                                'div',
-                                                                                { className: 'subMenuLevel2ListBlock' },
-                                                                                react_default.a.createElement(
-                                                                                    'h3',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuItemTitle' },
-                                                                                    'Appliances'
-                                                                                ),
-                                                                                react_default.a.createElement(
-                                                                                    'ul',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List' },
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 1'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 2'
-                                                                                        )
-                                                                                    )
-                                                                                )
-                                                                            )
-                                                                        )
-                                                                    ),
-                                                                    react_default.a.createElement(
-                                                                        'li',
-                                                                        { className: 'SecondaryNavigationPanel-subMenuLevelList' },
-                                                                        react_default.a.createElement(
-                                                                            'a',
-                                                                            { href: 'javascript:void(0)', 'data-automation-id': 'sub-menu-level1', className: 'SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link' },
-                                                                            'More For Your Home'
-                                                                        ),
-                                                                        react_default.a.createElement(
-                                                                            'div',
-                                                                            { className: 'SecondaryNavigationPanel-subMenuInnerLevel2' },
-                                                                            react_default.a.createElement(
-                                                                                'div',
-                                                                                { className: 'subMenuLevel2ListBlock' },
-                                                                                react_default.a.createElement(
-                                                                                    'h3',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuItemTitle' },
-                                                                                    'More For Your Home'
-                                                                                ),
-                                                                                react_default.a.createElement(
-                                                                                    'ul',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List' },
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 1'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 2'
-                                                                                        )
-                                                                                    )
-                                                                                )
-                                                                            )
-                                                                        )
-                                                                    ),
-                                                                    react_default.a.createElement(
-                                                                        'li',
-                                                                        { className: 'SecondaryNavigationPanel-subMenuLevelList' },
-                                                                        react_default.a.createElement(
-                                                                            'a',
-                                                                            { href: 'javascript:void(0)', 'data-automation-id': 'sub-menu-level1', className: 'SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link' },
-                                                                            'Shop Sale & Clearance'
-                                                                        ),
-                                                                        react_default.a.createElement(
-                                                                            'div',
-                                                                            { className: 'SecondaryNavigationPanel-subMenuInnerLevel2' },
-                                                                            react_default.a.createElement(
-                                                                                'div',
-                                                                                { className: 'subMenuLevel2ListBlock' },
-                                                                                react_default.a.createElement(
-                                                                                    'h3',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuItemTitle' },
-                                                                                    'Shop Sale & Clearance'
-                                                                                ),
-                                                                                react_default.a.createElement(
-                                                                                    'ul',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List' },
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 1'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 2'
-                                                                                        )
-                                                                                    )
-                                                                                )
-                                                                            )
-                                                                        )
-                                                                    )
-                                                                )
-                                                            )
-                                                        )
-                                                    ),
-                                                    react_default.a.createElement(
-                                                        'li',
-                                                        { className: 'SecondaryNavigationPanel-menuItem' },
-                                                        react_default.a.createElement(
-                                                            'button',
-                                                            { className: 'SecondaryNavigationPanel-menuItemLink', 'data-automation-id': 'menu-item' },
-                                                            'Jewelry'
-                                                        ),
-                                                        react_default.a.createElement(
-                                                            'div',
-                                                            { className: 'SecondaryNavigationPanel-subMenuInnerLevel' },
-                                                            react_default.a.createElement(
-                                                                'div',
-                                                                { className: 'SecondaryNavigationPanel-subMenuLevel1ListBlock' },
-                                                                react_default.a.createElement(
-                                                                    'button',
-                                                                    { className: 'SecondaryNavigationPanel-subMenuItemTitle', 'data-automation-id': 'menu-item-heading' },
-                                                                    'Jewelry'
-                                                                ),
-                                                                react_default.a.createElement(
-                                                                    'ul',
-                                                                    { className: 'SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-level2Block' },
-                                                                    react_default.a.createElement(
-                                                                        'li',
-                                                                        { className: 'SecondaryNavigationPanel-subMenuLevelList' },
-                                                                        react_default.a.createElement(
-                                                                            'a',
-                                                                            { href: 'javascript:void(0)', 'data-automation-id': 'sub-menu-level1', className: 'SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link' },
-                                                                            'Furniture'
-                                                                        ),
-                                                                        react_default.a.createElement(
-                                                                            'div',
-                                                                            { className: 'SecondaryNavigationPanel-subMenuInnerLevel2' },
-                                                                            react_default.a.createElement(
-                                                                                'div',
-                                                                                { className: 'subMenuLevel2ListBlock' },
-                                                                                react_default.a.createElement(
-                                                                                    'h3',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuItemTitle' },
-                                                                                    'Furniture'
-                                                                                ),
-                                                                                react_default.a.createElement(
-                                                                                    'ul',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List' },
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Mattresses'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sofas'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Beds & Headboards'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Chairs & Recliners'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Dining Sets'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'View All Furniture'
-                                                                                        )
-                                                                                    )
-                                                                                )
-                                                                            )
-                                                                        )
-                                                                    ),
-                                                                    react_default.a.createElement(
-                                                                        'li',
-                                                                        { className: 'SecondaryNavigationPanel-subMenuLevelList' },
-                                                                        react_default.a.createElement(
-                                                                            'a',
-                                                                            { href: 'javascript:void(0)', 'data-automation-id': 'sub-menu-level1', className: 'SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link' },
-                                                                            'Home Decor'
-                                                                        ),
-                                                                        react_default.a.createElement(
-                                                                            'div',
-                                                                            { className: 'SecondaryNavigationPanel-subMenuInnerLevel2' },
-                                                                            react_default.a.createElement(
-                                                                                'div',
-                                                                                { className: 'subMenuLevel2ListBlock' },
-                                                                                react_default.a.createElement(
-                                                                                    'h3',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuItemTitle' },
-                                                                                    'Home Decor'
-                                                                                ),
-                                                                                react_default.a.createElement(
-                                                                                    'ul',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List' },
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 1'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 2'
-                                                                                        )
-                                                                                    )
-                                                                                )
-                                                                            )
-                                                                        )
-                                                                    ),
-                                                                    react_default.a.createElement(
-                                                                        'li',
-                                                                        { className: 'SecondaryNavigationPanel-subMenuLevelList' },
-                                                                        react_default.a.createElement(
-                                                                            'a',
-                                                                            { href: 'javascript:void(0)', 'data-automation-id': 'sub-menu-level1', className: 'SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link' },
-                                                                            'Kitchen & Dining'
-                                                                        ),
-                                                                        react_default.a.createElement(
-                                                                            'div',
-                                                                            { className: 'SecondaryNavigationPanel-subMenuInnerLevel2' },
-                                                                            react_default.a.createElement(
-                                                                                'div',
-                                                                                { className: 'subMenuLevel2ListBlock' },
-                                                                                react_default.a.createElement(
-                                                                                    'h3',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuItemTitle' },
-                                                                                    'Kitchen'
-                                                                                ),
-                                                                                react_default.a.createElement(
-                                                                                    'ul',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List' },
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 1'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 2'
-                                                                                        )
-                                                                                    )
-                                                                                )
-                                                                            )
-                                                                        )
-                                                                    ),
-                                                                    react_default.a.createElement(
-                                                                        'li',
-                                                                        { className: 'SecondaryNavigationPanel-subMenuLevelList' },
-                                                                        react_default.a.createElement(
-                                                                            'a',
-                                                                            { href: 'javascript:void(0)', 'data-automation-id': 'sub-menu-level1', className: 'SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link' },
-                                                                            'Window'
-                                                                        ),
-                                                                        react_default.a.createElement(
-                                                                            'div',
-                                                                            { className: 'SecondaryNavigationPanel-subMenuInnerLevel2' },
-                                                                            react_default.a.createElement(
-                                                                                'div',
-                                                                                { className: 'subMenuLevel2ListBlock' },
-                                                                                react_default.a.createElement(
-                                                                                    'h3',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuItemTitle' },
-                                                                                    'Window'
-                                                                                ),
-                                                                                react_default.a.createElement(
-                                                                                    'ul',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List' },
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 1'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 2'
-                                                                                        )
-                                                                                    )
-                                                                                )
-                                                                            )
-                                                                        )
-                                                                    ),
-                                                                    react_default.a.createElement(
-                                                                        'li',
-                                                                        { className: 'SecondaryNavigationPanel-subMenuLevelList' },
-                                                                        react_default.a.createElement(
-                                                                            'a',
-                                                                            { href: 'javascript:void(0)', 'data-automation-id': 'sub-menu-level1', className: 'SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link' },
-                                                                            'Bed & Bath'
-                                                                        ),
-                                                                        react_default.a.createElement(
-                                                                            'div',
-                                                                            { className: 'SecondaryNavigationPanel-subMenuInnerLevel2' },
-                                                                            react_default.a.createElement(
-                                                                                'div',
-                                                                                { className: 'subMenuLevel2ListBlock' },
-                                                                                react_default.a.createElement(
-                                                                                    'h3',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuItemTitle' },
-                                                                                    'Bed & Bath'
-                                                                                ),
-                                                                                react_default.a.createElement(
-                                                                                    'ul',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List' },
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 1'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 2'
-                                                                                        )
-                                                                                    )
-                                                                                )
-                                                                            )
-                                                                        )
-                                                                    ),
-                                                                    react_default.a.createElement(
-                                                                        'li',
-                                                                        { className: 'SecondaryNavigationPanel-subMenuLevelList' },
-                                                                        react_default.a.createElement(
-                                                                            'a',
-                                                                            { href: 'javascript:void(0)', 'data-automation-id': 'sub-menu-level1', className: 'SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link' },
-                                                                            'Appliances'
-                                                                        ),
-                                                                        react_default.a.createElement(
-                                                                            'div',
-                                                                            { className: 'SecondaryNavigationPanel-subMenuInnerLevel2' },
-                                                                            react_default.a.createElement(
-                                                                                'div',
-                                                                                { className: 'subMenuLevel2ListBlock' },
-                                                                                react_default.a.createElement(
-                                                                                    'h3',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuItemTitle' },
-                                                                                    'Appliances'
-                                                                                ),
-                                                                                react_default.a.createElement(
-                                                                                    'ul',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List' },
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 1'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 2'
-                                                                                        )
-                                                                                    )
-                                                                                )
-                                                                            )
-                                                                        )
-                                                                    ),
-                                                                    react_default.a.createElement(
-                                                                        'li',
-                                                                        { className: 'SecondaryNavigationPanel-subMenuLevelList' },
-                                                                        react_default.a.createElement(
-                                                                            'a',
-                                                                            { href: 'javascript:void(0)', 'data-automation-id': 'sub-menu-level1', className: 'SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link' },
-                                                                            'More For Your Home'
-                                                                        ),
-                                                                        react_default.a.createElement(
-                                                                            'div',
-                                                                            { className: 'SecondaryNavigationPanel-subMenuInnerLevel2' },
-                                                                            react_default.a.createElement(
-                                                                                'div',
-                                                                                { className: 'subMenuLevel2ListBlock' },
-                                                                                react_default.a.createElement(
-                                                                                    'h3',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuItemTitle' },
-                                                                                    'More For Your Home'
-                                                                                ),
-                                                                                react_default.a.createElement(
-                                                                                    'ul',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List' },
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 1'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 2'
-                                                                                        )
-                                                                                    )
-                                                                                )
-                                                                            )
-                                                                        )
-                                                                    ),
-                                                                    react_default.a.createElement(
-                                                                        'li',
-                                                                        { className: 'SecondaryNavigationPanel-subMenuLevelList' },
-                                                                        react_default.a.createElement(
-                                                                            'a',
-                                                                            { href: 'javascript:void(0)', 'data-automation-id': 'sub-menu-level1', className: 'SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link' },
-                                                                            'Shop Sale & Clearance'
-                                                                        ),
-                                                                        react_default.a.createElement(
-                                                                            'div',
-                                                                            { className: 'SecondaryNavigationPanel-subMenuInnerLevel2' },
-                                                                            react_default.a.createElement(
-                                                                                'div',
-                                                                                { className: 'subMenuLevel2ListBlock' },
-                                                                                react_default.a.createElement(
-                                                                                    'h3',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuItemTitle' },
-                                                                                    'Shop Sale & Clearance'
-                                                                                ),
-                                                                                react_default.a.createElement(
-                                                                                    'ul',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List' },
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 1'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 2'
-                                                                                        )
-                                                                                    )
-                                                                                )
-                                                                            )
-                                                                        )
-                                                                    )
-                                                                )
-                                                            )
-                                                        )
-                                                    ),
-                                                    react_default.a.createElement(
-                                                        'li',
-                                                        { className: 'SecondaryNavigationPanel-menuItem' },
-                                                        react_default.a.createElement(
-                                                            'button',
-                                                            { className: 'SecondaryNavigationPanel-menuItemLink', 'data-automation-id': 'menu-item' },
-                                                            'Salon'
-                                                        ),
-                                                        react_default.a.createElement(
-                                                            'div',
-                                                            { className: 'SecondaryNavigationPanel-subMenuInnerLevel' },
-                                                            react_default.a.createElement(
-                                                                'div',
-                                                                { className: 'SecondaryNavigationPanel-subMenuLevel1ListBlock' },
-                                                                react_default.a.createElement(
-                                                                    'button',
-                                                                    { className: 'SecondaryNavigationPanel-subMenuItemTitle', 'data-automation-id': 'menu-item-heading' },
-                                                                    'Salon'
-                                                                ),
-                                                                react_default.a.createElement(
-                                                                    'ul',
-                                                                    { className: 'SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-level2Block' },
-                                                                    react_default.a.createElement(
-                                                                        'li',
-                                                                        { className: 'SecondaryNavigationPanel-subMenuLevelList' },
-                                                                        react_default.a.createElement(
-                                                                            'a',
-                                                                            { href: 'javascript:void(0)', 'data-automation-id': 'sub-menu-level1', className: 'SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link' },
-                                                                            'Furniture'
-                                                                        ),
-                                                                        react_default.a.createElement(
-                                                                            'div',
-                                                                            { className: 'SecondaryNavigationPanel-subMenuInnerLevel2' },
-                                                                            react_default.a.createElement(
-                                                                                'div',
-                                                                                { className: 'subMenuLevel2ListBlock' },
-                                                                                react_default.a.createElement(
-                                                                                    'h3',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuItemTitle' },
-                                                                                    'Furniture'
-                                                                                ),
-                                                                                react_default.a.createElement(
-                                                                                    'ul',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List' },
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Mattresses'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sofas'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Beds & Headboards'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Chairs & Recliners'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Dining Sets'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'View All Furniture'
-                                                                                        )
-                                                                                    )
-                                                                                )
-                                                                            )
-                                                                        )
-                                                                    ),
-                                                                    react_default.a.createElement(
-                                                                        'li',
-                                                                        { className: 'SecondaryNavigationPanel-subMenuLevelList' },
-                                                                        react_default.a.createElement(
-                                                                            'a',
-                                                                            { href: 'javascript:void(0)', 'data-automation-id': 'sub-menu-level1', className: 'SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link' },
-                                                                            'Home Decor'
-                                                                        ),
-                                                                        react_default.a.createElement(
-                                                                            'div',
-                                                                            { className: 'SecondaryNavigationPanel-subMenuInnerLevel2' },
-                                                                            react_default.a.createElement(
-                                                                                'div',
-                                                                                { className: 'subMenuLevel2ListBlock' },
-                                                                                react_default.a.createElement(
-                                                                                    'h3',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuItemTitle' },
-                                                                                    'Home Decor'
-                                                                                ),
-                                                                                react_default.a.createElement(
-                                                                                    'ul',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List' },
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 1'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 2'
-                                                                                        )
-                                                                                    )
-                                                                                )
-                                                                            )
-                                                                        )
-                                                                    ),
-                                                                    react_default.a.createElement(
-                                                                        'li',
-                                                                        { className: 'SecondaryNavigationPanel-subMenuLevelList' },
-                                                                        react_default.a.createElement(
-                                                                            'a',
-                                                                            { href: 'javascript:void(0)', 'data-automation-id': 'sub-menu-level1', className: 'SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link' },
-                                                                            'Kitchen & Dining'
-                                                                        ),
-                                                                        react_default.a.createElement(
-                                                                            'div',
-                                                                            { className: 'SecondaryNavigationPanel-subMenuInnerLevel2' },
-                                                                            react_default.a.createElement(
-                                                                                'div',
-                                                                                { className: 'subMenuLevel2ListBlock' },
-                                                                                react_default.a.createElement(
-                                                                                    'h3',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuItemTitle' },
-                                                                                    'Kitchen'
-                                                                                ),
-                                                                                react_default.a.createElement(
-                                                                                    'ul',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List' },
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 1'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 2'
-                                                                                        )
-                                                                                    )
-                                                                                )
-                                                                            )
-                                                                        )
-                                                                    ),
-                                                                    react_default.a.createElement(
-                                                                        'li',
-                                                                        { className: 'SecondaryNavigationPanel-subMenuLevelList' },
-                                                                        react_default.a.createElement(
-                                                                            'a',
-                                                                            { href: 'javascript:void(0)', 'data-automation-id': 'sub-menu-level1', className: 'SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link' },
-                                                                            'Window'
-                                                                        ),
-                                                                        react_default.a.createElement(
-                                                                            'div',
-                                                                            { className: 'SecondaryNavigationPanel-subMenuInnerLevel2' },
-                                                                            react_default.a.createElement(
-                                                                                'div',
-                                                                                { className: 'subMenuLevel2ListBlock' },
-                                                                                react_default.a.createElement(
-                                                                                    'h3',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuItemTitle' },
-                                                                                    'Window'
-                                                                                ),
-                                                                                react_default.a.createElement(
-                                                                                    'ul',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List' },
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 1'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 2'
-                                                                                        )
-                                                                                    )
-                                                                                )
-                                                                            )
-                                                                        )
-                                                                    ),
-                                                                    react_default.a.createElement(
-                                                                        'li',
-                                                                        { className: 'SecondaryNavigationPanel-subMenuLevelList' },
-                                                                        react_default.a.createElement(
-                                                                            'a',
-                                                                            { href: 'javascript:void(0)', 'data-automation-id': 'sub-menu-level1', className: 'SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link' },
-                                                                            'Bed & Bath'
-                                                                        ),
-                                                                        react_default.a.createElement(
-                                                                            'div',
-                                                                            { className: 'SecondaryNavigationPanel-subMenuInnerLevel2' },
-                                                                            react_default.a.createElement(
-                                                                                'div',
-                                                                                { className: 'subMenuLevel2ListBlock' },
-                                                                                react_default.a.createElement(
-                                                                                    'h3',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuItemTitle' },
-                                                                                    'Bed & Bath'
-                                                                                ),
-                                                                                react_default.a.createElement(
-                                                                                    'ul',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List' },
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 1'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 2'
-                                                                                        )
-                                                                                    )
-                                                                                )
-                                                                            )
-                                                                        )
-                                                                    ),
-                                                                    react_default.a.createElement(
-                                                                        'li',
-                                                                        { className: 'SecondaryNavigationPanel-subMenuLevelList' },
-                                                                        react_default.a.createElement(
-                                                                            'a',
-                                                                            { href: 'javascript:void(0)', 'data-automation-id': 'sub-menu-level1', className: 'SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link' },
-                                                                            'Appliances'
-                                                                        ),
-                                                                        react_default.a.createElement(
-                                                                            'div',
-                                                                            { className: 'SecondaryNavigationPanel-subMenuInnerLevel2' },
-                                                                            react_default.a.createElement(
-                                                                                'div',
-                                                                                { className: 'subMenuLevel2ListBlock' },
-                                                                                react_default.a.createElement(
-                                                                                    'h3',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuItemTitle' },
-                                                                                    'Appliances'
-                                                                                ),
-                                                                                react_default.a.createElement(
-                                                                                    'ul',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List' },
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 1'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 2'
-                                                                                        )
-                                                                                    )
-                                                                                )
-                                                                            )
-                                                                        )
-                                                                    ),
-                                                                    react_default.a.createElement(
-                                                                        'li',
-                                                                        { className: 'SecondaryNavigationPanel-subMenuLevelList' },
-                                                                        react_default.a.createElement(
-                                                                            'a',
-                                                                            { href: 'javascript:void(0)', 'data-automation-id': 'sub-menu-level1', className: 'SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link' },
-                                                                            'More For Your Home'
-                                                                        ),
-                                                                        react_default.a.createElement(
-                                                                            'div',
-                                                                            { className: 'SecondaryNavigationPanel-subMenuInnerLevel2' },
-                                                                            react_default.a.createElement(
-                                                                                'div',
-                                                                                { className: 'subMenuLevel2ListBlock' },
-                                                                                react_default.a.createElement(
-                                                                                    'h3',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuItemTitle' },
-                                                                                    'More For Your Home'
-                                                                                ),
-                                                                                react_default.a.createElement(
-                                                                                    'ul',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List' },
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 1'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 2'
-                                                                                        )
-                                                                                    )
-                                                                                )
-                                                                            )
-                                                                        )
-                                                                    ),
-                                                                    react_default.a.createElement(
-                                                                        'li',
-                                                                        { className: 'SecondaryNavigationPanel-subMenuLevelList' },
-                                                                        react_default.a.createElement(
-                                                                            'a',
-                                                                            { href: 'javascript:void(0)', 'data-automation-id': 'sub-menu-level1', className: 'SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link' },
-                                                                            'Shop Sale & Clearance'
-                                                                        ),
-                                                                        react_default.a.createElement(
-                                                                            'div',
-                                                                            { className: 'SecondaryNavigationPanel-subMenuInnerLevel2' },
-                                                                            react_default.a.createElement(
-                                                                                'div',
-                                                                                { className: 'subMenuLevel2ListBlock' },
-                                                                                react_default.a.createElement(
-                                                                                    'h3',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuItemTitle' },
-                                                                                    'Shop Sale & Clearance'
-                                                                                ),
-                                                                                react_default.a.createElement(
-                                                                                    'ul',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List' },
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 1'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 2'
-                                                                                        )
-                                                                                    )
-                                                                                )
-                                                                            )
-                                                                        )
-                                                                    )
-                                                                )
-                                                            )
-                                                        )
-                                                    ),
-                                                    react_default.a.createElement(
-                                                        'li',
-                                                        { className: 'SecondaryNavigationPanel-menuItem' },
-                                                        react_default.a.createElement(
-                                                            'button',
-                                                            { className: 'SecondaryNavigationPanel-menuItemLink', 'data-automation-id': 'menu-item' },
-                                                            'Sephora'
-                                                        ),
-                                                        react_default.a.createElement(
-                                                            'div',
-                                                            { className: 'SecondaryNavigationPanel-subMenuInnerLevel' },
-                                                            react_default.a.createElement(
-                                                                'div',
-                                                                { className: 'SecondaryNavigationPanel-subMenuLevel1ListBlock' },
-                                                                react_default.a.createElement(
-                                                                    'button',
-                                                                    { className: 'SecondaryNavigationPanel-subMenuItemTitle', 'data-automation-id': 'menu-item-heading' },
-                                                                    'Sephora'
-                                                                ),
-                                                                react_default.a.createElement(
-                                                                    'ul',
-                                                                    { className: 'SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-level2Block' },
-                                                                    react_default.a.createElement(
-                                                                        'li',
-                                                                        { className: 'SecondaryNavigationPanel-subMenuLevelList' },
-                                                                        react_default.a.createElement(
-                                                                            'a',
-                                                                            { href: 'javascript:void(0)', 'data-automation-id': 'sub-menu-level1', className: 'SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link' },
-                                                                            'Furniture'
-                                                                        ),
-                                                                        react_default.a.createElement(
-                                                                            'div',
-                                                                            { className: 'SecondaryNavigationPanel-subMenuInnerLevel2' },
-                                                                            react_default.a.createElement(
-                                                                                'div',
-                                                                                { className: 'subMenuLevel2ListBlock' },
-                                                                                react_default.a.createElement(
-                                                                                    'h3',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuItemTitle' },
-                                                                                    'Furniture'
-                                                                                ),
-                                                                                react_default.a.createElement(
-                                                                                    'ul',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List' },
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Mattresses'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sofas'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Beds & Headboards'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Chairs & Recliners'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Dining Sets'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'View All Furniture'
-                                                                                        )
-                                                                                    )
-                                                                                )
-                                                                            )
-                                                                        )
-                                                                    ),
-                                                                    react_default.a.createElement(
-                                                                        'li',
-                                                                        { className: 'SecondaryNavigationPanel-subMenuLevelList' },
-                                                                        react_default.a.createElement(
-                                                                            'a',
-                                                                            { href: 'javascript:void(0)', 'data-automation-id': 'sub-menu-level1', className: 'SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link' },
-                                                                            'Home Decor'
-                                                                        ),
-                                                                        react_default.a.createElement(
-                                                                            'div',
-                                                                            { className: 'SecondaryNavigationPanel-subMenuInnerLevel2' },
-                                                                            react_default.a.createElement(
-                                                                                'div',
-                                                                                { className: 'subMenuLevel2ListBlock' },
-                                                                                react_default.a.createElement(
-                                                                                    'h3',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuItemTitle' },
-                                                                                    'Home Decor'
-                                                                                ),
-                                                                                react_default.a.createElement(
-                                                                                    'ul',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List' },
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 1'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 2'
-                                                                                        )
-                                                                                    )
-                                                                                )
-                                                                            )
-                                                                        )
-                                                                    ),
-                                                                    react_default.a.createElement(
-                                                                        'li',
-                                                                        { className: 'SecondaryNavigationPanel-subMenuLevelList' },
-                                                                        react_default.a.createElement(
-                                                                            'a',
-                                                                            { href: 'javascript:void(0)', 'data-automation-id': 'sub-menu-level1', className: 'SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link' },
-                                                                            'Kitchen & Dining'
-                                                                        ),
-                                                                        react_default.a.createElement(
-                                                                            'div',
-                                                                            { className: 'SecondaryNavigationPanel-subMenuInnerLevel2' },
-                                                                            react_default.a.createElement(
-                                                                                'div',
-                                                                                { className: 'subMenuLevel2ListBlock' },
-                                                                                react_default.a.createElement(
-                                                                                    'h3',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuItemTitle' },
-                                                                                    'Kitchen'
-                                                                                ),
-                                                                                react_default.a.createElement(
-                                                                                    'ul',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List' },
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 1'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 2'
-                                                                                        )
-                                                                                    )
-                                                                                )
-                                                                            )
-                                                                        )
-                                                                    ),
-                                                                    react_default.a.createElement(
-                                                                        'li',
-                                                                        { className: 'SecondaryNavigationPanel-subMenuLevelList' },
-                                                                        react_default.a.createElement(
-                                                                            'a',
-                                                                            { href: 'javascript:void(0)', 'data-automation-id': 'sub-menu-level1', className: 'SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link' },
-                                                                            'Window'
-                                                                        ),
-                                                                        react_default.a.createElement(
-                                                                            'div',
-                                                                            { className: 'SecondaryNavigationPanel-subMenuInnerLevel2' },
-                                                                            react_default.a.createElement(
-                                                                                'div',
-                                                                                { className: 'subMenuLevel2ListBlock' },
-                                                                                react_default.a.createElement(
-                                                                                    'h3',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuItemTitle' },
-                                                                                    'Window'
-                                                                                ),
-                                                                                react_default.a.createElement(
-                                                                                    'ul',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List' },
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 1'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 2'
-                                                                                        )
-                                                                                    )
-                                                                                )
-                                                                            )
-                                                                        )
-                                                                    ),
-                                                                    react_default.a.createElement(
-                                                                        'li',
-                                                                        { className: 'SecondaryNavigationPanel-subMenuLevelList' },
-                                                                        react_default.a.createElement(
-                                                                            'a',
-                                                                            { href: 'javascript:void(0)', 'data-automation-id': 'sub-menu-level1', className: 'SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link' },
-                                                                            'Bed & Bath'
-                                                                        ),
-                                                                        react_default.a.createElement(
-                                                                            'div',
-                                                                            { className: 'SecondaryNavigationPanel-subMenuInnerLevel2' },
-                                                                            react_default.a.createElement(
-                                                                                'div',
-                                                                                { className: 'subMenuLevel2ListBlock' },
-                                                                                react_default.a.createElement(
-                                                                                    'h3',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuItemTitle' },
-                                                                                    'Bed & Bath'
-                                                                                ),
-                                                                                react_default.a.createElement(
-                                                                                    'ul',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List' },
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 1'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 2'
-                                                                                        )
-                                                                                    )
-                                                                                )
-                                                                            )
-                                                                        )
-                                                                    ),
-                                                                    react_default.a.createElement(
-                                                                        'li',
-                                                                        { className: 'SecondaryNavigationPanel-subMenuLevelList' },
-                                                                        react_default.a.createElement(
-                                                                            'a',
-                                                                            { href: 'javascript:void(0)', 'data-automation-id': 'sub-menu-level1', className: 'SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link' },
-                                                                            'Appliances'
-                                                                        ),
-                                                                        react_default.a.createElement(
-                                                                            'div',
-                                                                            { className: 'SecondaryNavigationPanel-subMenuInnerLevel2' },
-                                                                            react_default.a.createElement(
-                                                                                'div',
-                                                                                { className: 'subMenuLevel2ListBlock' },
-                                                                                react_default.a.createElement(
-                                                                                    'h3',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuItemTitle' },
-                                                                                    'Appliances'
-                                                                                ),
-                                                                                react_default.a.createElement(
-                                                                                    'ul',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List' },
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 1'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 2'
-                                                                                        )
-                                                                                    )
-                                                                                )
-                                                                            )
-                                                                        )
-                                                                    ),
-                                                                    react_default.a.createElement(
-                                                                        'li',
-                                                                        { className: 'SecondaryNavigationPanel-subMenuLevelList' },
-                                                                        react_default.a.createElement(
-                                                                            'a',
-                                                                            { href: 'javascript:void(0)', 'data-automation-id': 'sub-menu-level1', className: 'SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link' },
-                                                                            'More For Your Home'
-                                                                        ),
-                                                                        react_default.a.createElement(
-                                                                            'div',
-                                                                            { className: 'SecondaryNavigationPanel-subMenuInnerLevel2' },
-                                                                            react_default.a.createElement(
-                                                                                'div',
-                                                                                { className: 'subMenuLevel2ListBlock' },
-                                                                                react_default.a.createElement(
-                                                                                    'h3',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuItemTitle' },
-                                                                                    'More For Your Home'
-                                                                                ),
-                                                                                react_default.a.createElement(
-                                                                                    'ul',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List' },
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 1'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 2'
-                                                                                        )
-                                                                                    )
-                                                                                )
-                                                                            )
-                                                                        )
-                                                                    ),
-                                                                    react_default.a.createElement(
-                                                                        'li',
-                                                                        { className: 'SecondaryNavigationPanel-subMenuLevelList' },
-                                                                        react_default.a.createElement(
-                                                                            'a',
-                                                                            { href: 'javascript:void(0)', 'data-automation-id': 'sub-menu-level1', className: 'SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link' },
-                                                                            'Shop Sale & Clearance'
-                                                                        ),
-                                                                        react_default.a.createElement(
-                                                                            'div',
-                                                                            { className: 'SecondaryNavigationPanel-subMenuInnerLevel2' },
-                                                                            react_default.a.createElement(
-                                                                                'div',
-                                                                                { className: 'subMenuLevel2ListBlock' },
-                                                                                react_default.a.createElement(
-                                                                                    'h3',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuItemTitle' },
-                                                                                    'Shop Sale & Clearance'
-                                                                                ),
-                                                                                react_default.a.createElement(
-                                                                                    'ul',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List' },
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 1'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 2'
-                                                                                        )
-                                                                                    )
-                                                                                )
-                                                                            )
-                                                                        )
-                                                                    )
-                                                                )
-                                                            )
-                                                        )
-                                                    ),
-                                                    react_default.a.createElement(
-                                                        'li',
-                                                        { className: 'SecondaryNavigationPanel-menuItem' },
-                                                        react_default.a.createElement(
-                                                            'button',
-                                                            { className: 'SecondaryNavigationPanel-menuItemLink', 'data-automation-id': 'menu-item' },
-                                                            'Clearance'
-                                                        ),
-                                                        react_default.a.createElement(
-                                                            'div',
-                                                            { className: 'SecondaryNavigationPanel-subMenuInnerLevel' },
-                                                            react_default.a.createElement(
-                                                                'div',
-                                                                { className: 'SecondaryNavigationPanel-subMenuLevel1ListBlock' },
-                                                                react_default.a.createElement(
-                                                                    'button',
-                                                                    { className: 'SecondaryNavigationPanel-subMenuItemTitle', 'data-automation-id': 'menu-item-heading' },
-                                                                    'Clearance'
-                                                                ),
-                                                                react_default.a.createElement(
-                                                                    'ul',
-                                                                    { className: 'SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-level2Block' },
-                                                                    react_default.a.createElement(
-                                                                        'li',
-                                                                        { className: 'SecondaryNavigationPanel-subMenuLevelList' },
-                                                                        react_default.a.createElement(
-                                                                            'a',
-                                                                            { href: 'javascript:void(0)', 'data-automation-id': 'sub-menu-level1', className: 'SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link' },
-                                                                            'Furniture'
-                                                                        ),
-                                                                        react_default.a.createElement(
-                                                                            'div',
-                                                                            { className: 'SecondaryNavigationPanel-subMenuInnerLevel2' },
-                                                                            react_default.a.createElement(
-                                                                                'div',
-                                                                                { className: 'subMenuLevel2ListBlock' },
-                                                                                react_default.a.createElement(
-                                                                                    'h3',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuItemTitle' },
-                                                                                    'Furniture'
-                                                                                ),
-                                                                                react_default.a.createElement(
-                                                                                    'ul',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List' },
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Mattresses'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sofas'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Beds & Headboards'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Chairs & Recliners'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Dining Sets'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'View All Furniture'
-                                                                                        )
-                                                                                    )
-                                                                                )
-                                                                            )
-                                                                        )
-                                                                    ),
-                                                                    react_default.a.createElement(
-                                                                        'li',
-                                                                        { className: 'SecondaryNavigationPanel-subMenuLevelList' },
-                                                                        react_default.a.createElement(
-                                                                            'a',
-                                                                            { href: 'javascript:void(0)', 'data-automation-id': 'sub-menu-level1', className: 'SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link' },
-                                                                            'Home Decor'
-                                                                        ),
-                                                                        react_default.a.createElement(
-                                                                            'div',
-                                                                            { className: 'SecondaryNavigationPanel-subMenuInnerLevel2' },
-                                                                            react_default.a.createElement(
-                                                                                'div',
-                                                                                { className: 'subMenuLevel2ListBlock' },
-                                                                                react_default.a.createElement(
-                                                                                    'h3',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuItemTitle' },
-                                                                                    'Home Decor'
-                                                                                ),
-                                                                                react_default.a.createElement(
-                                                                                    'ul',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List' },
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 1'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 2'
-                                                                                        )
-                                                                                    )
-                                                                                )
-                                                                            )
-                                                                        )
-                                                                    ),
-                                                                    react_default.a.createElement(
-                                                                        'li',
-                                                                        { className: 'SecondaryNavigationPanel-subMenuLevelList' },
-                                                                        react_default.a.createElement(
-                                                                            'a',
-                                                                            { href: 'javascript:void(0)', 'data-automation-id': 'sub-menu-level1', className: 'SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link' },
-                                                                            'Kitchen & Dining'
-                                                                        ),
-                                                                        react_default.a.createElement(
-                                                                            'div',
-                                                                            { className: 'SecondaryNavigationPanel-subMenuInnerLevel2' },
-                                                                            react_default.a.createElement(
-                                                                                'div',
-                                                                                { className: 'subMenuLevel2ListBlock' },
-                                                                                react_default.a.createElement(
-                                                                                    'h3',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuItemTitle' },
-                                                                                    'Kitchen'
-                                                                                ),
-                                                                                react_default.a.createElement(
-                                                                                    'ul',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List' },
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 1'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 2'
-                                                                                        )
-                                                                                    )
-                                                                                )
-                                                                            )
-                                                                        )
-                                                                    ),
-                                                                    react_default.a.createElement(
-                                                                        'li',
-                                                                        { className: 'SecondaryNavigationPanel-subMenuLevelList' },
-                                                                        react_default.a.createElement(
-                                                                            'a',
-                                                                            { href: 'javascript:void(0)', 'data-automation-id': 'sub-menu-level1', className: 'SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link' },
-                                                                            'Window'
-                                                                        ),
-                                                                        react_default.a.createElement(
-                                                                            'div',
-                                                                            { className: 'SecondaryNavigationPanel-subMenuInnerLevel2' },
-                                                                            react_default.a.createElement(
-                                                                                'div',
-                                                                                { className: 'subMenuLevel2ListBlock' },
-                                                                                react_default.a.createElement(
-                                                                                    'h3',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuItemTitle' },
-                                                                                    'Window'
-                                                                                ),
-                                                                                react_default.a.createElement(
-                                                                                    'ul',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List' },
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 1'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 2'
-                                                                                        )
-                                                                                    )
-                                                                                )
-                                                                            )
-                                                                        )
-                                                                    ),
-                                                                    react_default.a.createElement(
-                                                                        'li',
-                                                                        { className: 'SecondaryNavigationPanel-subMenuLevelList' },
-                                                                        react_default.a.createElement(
-                                                                            'a',
-                                                                            { href: 'javascript:void(0)', 'data-automation-id': 'sub-menu-level1', className: 'SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link' },
-                                                                            'Bed & Bath'
-                                                                        ),
-                                                                        react_default.a.createElement(
-                                                                            'div',
-                                                                            { className: 'SecondaryNavigationPanel-subMenuInnerLevel2' },
-                                                                            react_default.a.createElement(
-                                                                                'div',
-                                                                                { className: 'subMenuLevel2ListBlock' },
-                                                                                react_default.a.createElement(
-                                                                                    'h3',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuItemTitle' },
-                                                                                    'Bed & Bath'
-                                                                                ),
-                                                                                react_default.a.createElement(
-                                                                                    'ul',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List' },
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 1'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 2'
-                                                                                        )
-                                                                                    )
-                                                                                )
-                                                                            )
-                                                                        )
-                                                                    ),
-                                                                    react_default.a.createElement(
-                                                                        'li',
-                                                                        { className: 'SecondaryNavigationPanel-subMenuLevelList' },
-                                                                        react_default.a.createElement(
-                                                                            'a',
-                                                                            { href: 'javascript:void(0)', 'data-automation-id': 'sub-menu-level1', className: 'SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link' },
-                                                                            'Appliances'
-                                                                        ),
-                                                                        react_default.a.createElement(
-                                                                            'div',
-                                                                            { className: 'SecondaryNavigationPanel-subMenuInnerLevel2' },
-                                                                            react_default.a.createElement(
-                                                                                'div',
-                                                                                { className: 'subMenuLevel2ListBlock' },
-                                                                                react_default.a.createElement(
-                                                                                    'h3',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuItemTitle' },
-                                                                                    'Appliances'
-                                                                                ),
-                                                                                react_default.a.createElement(
-                                                                                    'ul',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List' },
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 1'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 2'
-                                                                                        )
-                                                                                    )
-                                                                                )
-                                                                            )
-                                                                        )
-                                                                    ),
-                                                                    react_default.a.createElement(
-                                                                        'li',
-                                                                        { className: 'SecondaryNavigationPanel-subMenuLevelList' },
-                                                                        react_default.a.createElement(
-                                                                            'a',
-                                                                            { href: 'javascript:void(0)', 'data-automation-id': 'sub-menu-level1', className: 'SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link' },
-                                                                            'More For Your Home'
-                                                                        ),
-                                                                        react_default.a.createElement(
-                                                                            'div',
-                                                                            { className: 'SecondaryNavigationPanel-subMenuInnerLevel2' },
-                                                                            react_default.a.createElement(
-                                                                                'div',
-                                                                                { className: 'subMenuLevel2ListBlock' },
-                                                                                react_default.a.createElement(
-                                                                                    'h3',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuItemTitle' },
-                                                                                    'More For Your Home'
-                                                                                ),
-                                                                                react_default.a.createElement(
-                                                                                    'ul',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List' },
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 1'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 2'
-                                                                                        )
-                                                                                    )
-                                                                                )
-                                                                            )
-                                                                        )
-                                                                    ),
-                                                                    react_default.a.createElement(
-                                                                        'li',
-                                                                        { className: 'SecondaryNavigationPanel-subMenuLevelList' },
-                                                                        react_default.a.createElement(
-                                                                            'a',
-                                                                            { href: 'javascript:void(0)', 'data-automation-id': 'sub-menu-level1', className: 'SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link' },
-                                                                            'Shop Sale & Clearance'
-                                                                        ),
-                                                                        react_default.a.createElement(
-                                                                            'div',
-                                                                            { className: 'SecondaryNavigationPanel-subMenuInnerLevel2' },
-                                                                            react_default.a.createElement(
-                                                                                'div',
-                                                                                { className: 'subMenuLevel2ListBlock' },
-                                                                                react_default.a.createElement(
-                                                                                    'h3',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuItemTitle' },
-                                                                                    'Shop Sale & Clearance'
-                                                                                ),
-                                                                                react_default.a.createElement(
-                                                                                    'ul',
-                                                                                    { className: 'SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List' },
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 1'
-                                                                                        )
-                                                                                    ),
-                                                                                    react_default.a.createElement(
-                                                                                        'li',
-                                                                                        null,
-                                                                                        react_default.a.createElement(
-                                                                                            'button',
-                                                                                            { className: 'SecondaryNavigationPanel-subMenuLevelLink', 'data-automation-id': 'sub-menu-level2' },
-                                                                                            'Sample Link 2'
-                                                                                        )
-                                                                                    )
-                                                                                )
-                                                                            )
-                                                                        )
-                                                                    )
-                                                                )
-                                                            )
-                                                        )
-                                                    )
-                                                ),
-                                                react_default.a.createElement('div', { className: 'SecondaryNavigationPanelBg' })
-                                            )
-                                        )
-                                    ),
-                                    react_default.a.createElement(
-                                        'div',
-                                        { className: 'SecondaryNavigationPanel-config-links', 'data-reactid': '57' },
-                                        react_default.a.createElement(
-                                            'div',
-                                            { className: 'List-list-main List-cozy', 'data-automation-id': 'at-error-helpfullinks-renderer', 'data-reactid': '58' },
-                                            react_default.a.createElement(
-                                                'div',
-                                                { className: 'list-body SecondaryNavigationPanel-listBody List-list-scroll-h', 'data-reactid': '59' },
-                                                react_default.a.createElement(
-                                                    'ul',
-                                                    { className: 'List-list-ul SecondaryNavigationPanel-listBlock', 'data-automation-id': 'at-error-helpfullinks-renderer', 'data-reactid': '60' },
-                                                    react_default.a.createElement(
-                                                        'li',
-                                                        { className: 'List-list-li List-cozy SecondaryNavigationPanel-listItem', 'data-automation-id': 'list-item-0' },
-                                                        react_default.a.createElement(
-                                                            'button',
-                                                            { className: 'SecondaryNavigationPanel-links', 'data-reactid': '62' },
-                                                            'JCPenney Rewards'
-                                                        )
-                                                    ),
-                                                    react_default.a.createElement(
-                                                        'li',
-                                                        { className: 'List-list-li List-cozy SecondaryNavigationPanel-listItem', 'data-automation-id': 'list-item-1', 'data-reactid': '63' },
-                                                        react_default.a.createElement(
-                                                            'button',
-                                                            { className: 'SecondaryNavigationPanel-links', 'data-reactid': '64' },
-                                                            'Saved Items'
-                                                        )
-                                                    ),
-                                                    react_default.a.createElement(
-                                                        'li',
-                                                        { className: 'List-list-li List-cozy SecondaryNavigationPanel-listItem', 'data-automation-id': 'list-item-2', 'data-reactid': '65' },
-                                                        react_default.a.createElement(
-                                                            'button',
-                                                            { className: 'SecondaryNavigationPanel-links', 'data-reactid': '66' },
-                                                            'Coupons'
-                                                        )
-                                                    )
-                                                )
-                                            )
-                                        )
-                                    )
-                                ),
-                                react_default.a.createElement(
-                                    'button',
-                                    { 'data-automation-id': 'test-automation-btn-0', type: 'button', className: 'Button-btn Button-btnDefault Button-btnText SecondaryNavigationPanel-findStoreWrapper', 'data-reactid': '67' },
-                                    react_default.a.createElement('div', { className: 'SecondaryNavigationPanel-store-iconWrapper', 'data-reactid': '68' }),
-                                    react_default.a.createElement(
-                                        'div',
-                                        { className: 'SecondaryNavigationPanel-store-Text', 'data-reactid': '71' },
-                                        react_default.a.createElement(
-                                            'div',
-                                            { className: 'SecondaryNavigationPanel-findTitle', 'data-reactid': '72' },
-                                            'Near You'
-                                        ),
-                                        react_default.a.createElement(
-                                            'div',
-                                            { className: 'SecondaryNavigationPanel-findText', title: 'Change or update your local store', 'data-reactid': '73' },
-                                            'Find a Store',
-                                            react_default.a.createElement('span', { className: 'SecondaryNavigationPanel-storeDropDownIcon', 'data-reactid': '75' })
-                                        )
-                                    )
-                                )
-                            ),
-                            react_default.a.createElement(
-                                'div',
-                                { className: 'SecondaryNavigationPanel-verticalmenu-wrapper', 'data-reactid': '76' },
-                                react_default.a.createElement('div', { className: 'SecondaryNavigationPanel-hideStoreWrapper', 'data-reactid': '77' }),
-                                react_default.a.createElement(
-                                    'div',
-                                    { className: 'SecondaryNavigationPanel-verticalslide', 'data-reactid': '78' },
-                                    react_default.a.createElement(
-                                        'div',
-                                        { className: 'SecondaryNavigationPanel-sliderHeader', 'data-reactid': '79' },
-                                        react_default.a.createElement(
-                                            'button',
-                                            { 'data-automation-id': 'test-automation-btn-0', type: 'button', className: 'Button-btn Button-btnDefault Button-btnText SecondaryNavigationPanel-leftArrowWrapper', 'data-reactid': '80' },
-                                            'Back'
-                                        )
-                                    ),
-                                    react_default.a.createElement('div', { className: 'SecondaryNavigationPanel-slider-data', 'data-reactid': '84' })
-                                )
-                            )
-                        )
+                      )
                     )
+                  )
+                )
+              )
+            )
+          ),
+          react_default.a.createElement(
+            'div',
+            { className: 'side-panel from-right change-my-store-panel', id: 'changeMyStore' },
+            react_default.a.createElement(
+              'header',
+              { className: 'side-panel-header' },
+              react_default.a.createElement(
+                'h3',
+                { className: 'title title-L color-white' },
+                'Change My Store'
+              ),
+              react_default.a.createElement(
+                'a',
+                { href: 'javascript:void(0);', className: 'side-panel-close' },
+                react_default.a.createElement('div', { className: 'change-my-store-icon-close icon color-white-svg', dangerouslySetInnerHTML: { __html: header_closeImage } })
+              )
+            ),
+            react_default.a.createElement(
+              'div',
+              { className: 'side-panel-container' },
+              react_default.a.createElement(
+                'div',
+                { className: 'side-panel-content' },
+                react_default.a.createElement(
+                  'p',
+                  null,
+                  'Stores within 15 mi. of ',
+                  react_default.a.createElement(
+                    'strong',
+                    null,
+                    '75024'
+                  ),
+                  ' ',
+                  react_default.a.createElement(
+                    'a',
+                    { href: 'javascript:void(0);' },
+                    'Change'
+                  )
                 ),
                 react_default.a.createElement(
+                  'div',
+                  { className: 'side-panel-row' },
+                  react_default.a.createElement(
                     'div',
-                    { className: 'row' },
+                    { className: 'side-panel-col side-panel-col-select' },
                     react_default.a.createElement(
-                        'div',
-                        { className: 'sm12 columns' },
-                        react_default.a.createElement('hr', null),
+                      'div',
+                      { className: 'select form-layout column' },
+                      react_default.a.createElement(
+                        'select',
+                        { className: 'form-control custom-select' },
                         react_default.a.createElement(
-                            'p',
-                            { className: 'S' },
-                            'Created by: ',
-                            react_default.a.createElement(
-                                'strong',
-                                null,
-                                'Tony Stark'
-                            ),
-                            ' and ',
-                            react_default.a.createElement(
-                                'strong',
-                                null,
-                                'Bruce Banner'
-                            ),
-                            react_default.a.createElement('br', null),
-                            ' Latest update: 04/05/2017'
+                          'option',
+                          { value: '' },
+                          'Filter by Services (2)'
+                        ),
+                        react_default.a.createElement(
+                          'option',
+                          { value: '1' },
+                          '01'
+                        ),
+                        react_default.a.createElement(
+                          'option',
+                          { value: '2' },
+                          '02'
+                        ),
+                        react_default.a.createElement(
+                          'option',
+                          { value: '3' },
+                          '03'
+                        ),
+                        react_default.a.createElement(
+                          'option',
+                          { value: '4' },
+                          '04'
+                        ),
+                        react_default.a.createElement(
+                          'option',
+                          { value: '5' },
+                          '05'
+                        ),
+                        react_default.a.createElement(
+                          'option',
+                          { value: '6' },
+                          '06'
+                        ),
+                        react_default.a.createElement(
+                          'option',
+                          { value: '7' },
+                          '07'
+                        ),
+                        react_default.a.createElement(
+                          'option',
+                          { value: '8' },
+                          '08'
+                        ),
+                        react_default.a.createElement(
+                          'option',
+                          { value: '9' },
+                          '09'
+                        ),
+                        react_default.a.createElement(
+                          'option',
+                          { value: '10' },
+                          '10'
+                        ),
+                        react_default.a.createElement(
+                          'option',
+                          { value: '11' },
+                          '11'
+                        ),
+                        react_default.a.createElement(
+                          'option',
+                          { value: '12' },
+                          '12'
                         )
+                      )
                     )
+                  ),
+                  react_default.a.createElement(
+                    'div',
+                    { className: 'side-panel-col side-panel-col-map-view algn-rght' },
+                    react_default.a.createElement(
+                      'a',
+                      { href: 'javascript:void(0);' },
+                      'Map View'
+                    )
+                  )
+                ),
+                react_default.a.createElement(
+                  'div',
+                  { className: 'change-my-store-listing' },
+                  react_default.a.createElement(
+                    'div',
+                    { className: 'side-panel-row' },
+                    react_default.a.createElement(
+                      'div',
+                      { className: 'side-panel-col side-panel-col-details' },
+                      react_default.a.createElement(
+                        'h4',
+                        { className: 'mrg-S' },
+                        'Stonebriar Mall ',
+                        react_default.a.createElement(
+                          'span',
+                          { 'class': 'change-my-store-mileage color-slate' },
+                          '(3.5mi)'
+                        )
+                      ),
+                      react_default.a.createElement(
+                        'p',
+                        { className: 'std-txt std-txt-S mrg-XS color-nightsky' },
+                        '2480 Preston Rd'
+                      ),
+                      react_default.a.createElement(
+                        'p',
+                        { className: 'std-txt std-txt-S' },
+                        react_default.a.createElement(
+                          'a',
+                          { href: 'javascript:void(0);' },
+                          'View Hours & Services'
+                        )
+                      )
+                    ),
+                    react_default.a.createElement(
+                      'div',
+                      { className: 'side-panel-col-button' },
+                      react_default.a.createElement(
+                        'a',
+                        { href: 'javascript:void(0);', 'class': 'btn btn-L btn-full btn-primary btn-disabled' },
+                        'My Store'
+                      )
+                    )
+                  )
+                ),
+                react_default.a.createElement(
+                  'div',
+                  { className: 'change-my-store-listing' },
+                  react_default.a.createElement(
+                    'div',
+                    { className: 'side-panel-row' },
+                    react_default.a.createElement(
+                      'div',
+                      { className: 'side-panel-col side-panel-col-details' },
+                      react_default.a.createElement(
+                        'h4',
+                        { className: 'mrg-S' },
+                        'Collin Creek Mall ',
+                        react_default.a.createElement(
+                          'span',
+                          { 'class': 'change-my-store-mileage color-slate' },
+                          '(5.2mi)'
+                        )
+                      ),
+                      react_default.a.createElement(
+                        'p',
+                        { className: 'std-txt std-txt-S mrg-XS color-nightsky' },
+                        '2480 Preston Rd'
+                      ),
+                      react_default.a.createElement(
+                        'p',
+                        { className: 'std-txt std-txt-S' },
+                        react_default.a.createElement(
+                          'a',
+                          { href: 'javascript:void(0);' },
+                          'View Hours & Services'
+                        )
+                      )
+                    ),
+                    react_default.a.createElement(
+                      'div',
+                      { className: 'side-panel-col side-panel-col-button' },
+                      react_default.a.createElement(
+                        'a',
+                        { href: 'javascript:void(0);', 'class': 'btn btn-L btn-full btn-primary' },
+                        'Set Store'
+                      )
+                    )
+                  )
                 )
-            );
-        }
-    }]);
+              )
+            )
+          )
+        ),
+        react_default.a.createElement(
+          'div',
+          { className: 'row' },
+          react_default.a.createElement(
+            'div',
+            { className: 'sm12 columns' },
+            react_default.a.createElement('hr', null),
+            react_default.a.createElement(
+              'p',
+              { className: 'S' },
+              'Created by: ',
+              react_default.a.createElement(
+                'strong',
+                null,
+                'Tony Stark'
+              ),
+              ' and ',
+              react_default.a.createElement(
+                'strong',
+                null,
+                'Bruce Banner'
+              ),
+              react_default.a.createElement('br', null),
+              ' Latest update: 04/05/2017'
+            )
+          )
+        )
+      );
+    }
+  }]);
 
-    return Header;
+  return Header;
 }(react["Component"]);
 
 var header__default = header_Header;
@@ -20463,13 +14252,13 @@ var header__default = header_Header;
 ;
 
 var header__temp = function () {
-    if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-        return;
-    }
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
 
-    __REACT_HOT_LOADER__.register(header_Header, 'Header', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/header/header.js');
+  __REACT_HOT_LOADER__.register(header_Header, 'Header', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/header/header.js');
 
-    __REACT_HOT_LOADER__.register(header__default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/header/header.js');
+  __REACT_HOT_LOADER__.register(header__default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/header/header.js');
 }();
 
 ;
