@@ -29,10 +29,12 @@ class Header extends Component {
         });
 
         $('.side-panel').on('click', function(event){
-          if( $(event.target).is('.side-panel') || $(event.target).is('.side-panel-close') ) { 
-            $(this).removeClass('is-visible');
-            event.preventDefault();
+          if( $(event.target).is('.side-panel')) { 
+            $(this).removeClass('is-visible');            
+          } else if ($(event.target).is('.side-panel-close')) {
+             $(event.target).closest('.side-panel').removeClass('is-visible');
           }
+          event.preventDefault();
         });
 
         $(".main-menu-tier2-li-shop-departments").hoverIntent({
@@ -113,47 +115,49 @@ class Header extends Component {
               <div className="main-menu-tier1-account-link">Sign In <span className="arrow"></span></div>
             </button>
             <div className="dropdown-menu dropdown-account">
-              <ul className="tooltip tooltip-top-right tooltip-long tooltip-list">
-                <li>
-                    <a href="javascript:void(0)">My Account</a>
-                </li>
-                <li>
-                    <a href="javascript:void(0)">Find a Store</a>
-                </li>
-                <li>
-                    <a href="javascript:void(0)">My Orders</a>
-                </li>
-                <li>
-                    <a href="javascript:void(0)">My Rewards (0)</a>
-                </li>
-                <li>
-                    <a href="javascript:void(0)">My List</a>
-                </li>
-                <li>
-                    <a href="javascript:void(0)">Profile Settings</a>
-                </li>
-                <li>
-                    <a href="javascript:void(0)">Notifications</a>
-                </li>
-                <li>
-                    <a href="javascript:void(0)">My Jcpenney.com</a>
-                </li>
-                <li>
-                    <a href="javascript:void(0)">Gift Registry</a>
-                </li>
-                <li>
-                    <a href="javascript:void(0)">JCPenney Credit Card</a>
-                </li>
-                <li className="main-menu-tier1-sign-out">
-                    <a href="javascript:void(0)">Sign Out</a>
-                </li>
-                <li className="main-menu-tier1-sign-rewards">
-                  <a href="javascript:void(0);">
-                    <span className="main-menu-tier1-sign-rewards-amount">$20</span>
-                    <span className="main-menu-tier1-sign-rewards-label">Redeem Your Rewards</span>
-                  </a>
-                </li>
-              </ul>
+              <div className="tooltip tooltip-top-right tooltip-long tooltip-list">
+                <ul>
+                  <li>
+                      <a href="javascript:void(0)">My Account</a>
+                  </li>
+                  <li>
+                      <a href="javascript:void(0)">Find a Store</a>
+                  </li>
+                  <li>
+                      <a href="javascript:void(0)">My Orders</a>
+                  </li>
+                  <li>
+                      <a href="javascript:void(0)">My Rewards (0)</a>
+                  </li>
+                  <li>
+                      <a href="javascript:void(0)">My List</a>
+                  </li>
+                  <li>
+                      <a href="javascript:void(0)">Profile Settings</a>
+                  </li>
+                  <li>
+                      <a href="javascript:void(0)">Notifications</a>
+                  </li>
+                  <li>
+                      <a href="javascript:void(0)">My Jcpenney.com</a>
+                  </li>
+                  <li>
+                      <a href="javascript:void(0)">Gift Registry</a>
+                  </li>
+                  <li>
+                      <a href="javascript:void(0)">JCPenney Credit Card</a>
+                  </li>
+                  <li className="tooltip-divider">
+                      <a href="javascript:void(0)">Sign Out</a>
+                  </li>
+                  <li className="main-menu-tier1-sign-rewards">
+                    <a href="javascript:void(0);">
+                      <span className="main-menu-tier1-sign-rewards-amount">$20</span>
+                      <span className="main-menu-tier1-sign-rewards-label">Redeem Your Rewards</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
         </li>
@@ -165,10 +169,12 @@ class Header extends Component {
       </ul>
   </div>
   <div className="main-menu-bar-tier2">
-    <div className="side-panel side-panel-disable-desktop from-left" id="mainMenuTier2">
+    <div className="side-panel side-panel-disable-desktop from-left main-menu-bar-tier2-panel" id="mainMenuTier2">
       <header className="side-panel-header">
-      <h1>Title Goes Here</h1>
-      <a href="#0" className="side-panel-close">Close</a>
+      <h3 className="title title-L color-white">Menu</h3>
+      <a href="javascript:void(0);" className="side-panel-close">
+        <div className="change-my-store-icon-close icon color-white-svg" dangerouslySetInnerHTML={{__html: closeImage}} />
+      </a>
       </header>
       <div className="side-panel-container">
         <div className="side-panel-content">
@@ -176,85 +182,85 @@ class Header extends Component {
             <div className="main-menu-tier2-left">
               <ul className="main-menu-tier2">
                 <li className="main-menu-tier2-li main-menu-tier2-li-shop-departments">
-                  <button className="main-menu-tier2-shop-departments">
+                  <button className="main-menu-tier2-shop-departments hide-for-medium-down">
                     <div className="main-menu-tier2-shop-departments-menu-svg icon color-nightsky-svg" dangerouslySetInnerHTML={{__html: menuImage}} />
                     <span className="main-menu-tier2-shop-departments-menu-label">Shop Departments</span>
                   </button>
 
                   <ul className="main-menu-tier3"> 
                     <li>
-                      <h3>For the Home</h3>
+                      <a href="javascript:void(0)" className="main-menu-tier-3-link">For the Home</a>
                     </li>
                     <li>
-                      <h3>Bed & Bath</h3>
+                      <a href="javascript:void(0)" className="main-menu-tier-3-link">Bed & Bath</a>
                     </li>
                     <li>
-                      <h3>Window</h3>
+                      <a href="javascript:void(0)" className="main-menu-tier-3-link">Window</a>
                     </li>
                     <li>
-                      <h3>Appliances</h3>
+                      <a href="javascript:void(0)" className="main-menu-tier-3-link">Appliances</a>
                     </li>
                     <li>
-                      <h3>Women</h3>
+                      <a href="javascript:void(0)" className="main-menu-tier-3-link">Women</a>
                     </li>
                     <li>
-                      <h3>Lingerie</h3>
+                      <a href="javascript:void(0)" className="main-menu-tier-3-link">Lingerie</a>
                     </li>
                     <li>
-                      <h3>Men</h3>
+                      <a href="javascript:void(0)" className="main-menu-tier-3-link">Men</a>
                     </li>
                     <li>
-                      <h3>Juniors</h3>
+                      <a href="javascript:void(0)" className="main-menu-tier-3-link">Juniors</a>
                     </li>
                     <li>
-                      <h3>Kids</h3>
+                      <a href="javascript:void(0)" className="main-menu-tier-3-link">Kids</a>
                     </li>
                     <li>
-                      <h3>Baby</h3>
+                      <a href="javascript:void(0)" className="main-menu-tier-3-link">Baby</a>
                     </li>
                     <li>
-                      <h3>Shoes</h3>
+                      <a href="javascript:void(0)" className="main-menu-tier-3-link">Shoes</a>
                     </li>
                     <li>
-                      <h3>Handbags</h3>
+                      <a href="javascript:void(0)" className="main-menu-tier-3-link">Handbags</a>
                     </li>
                     <li>
-                      <h3>Jewelry</h3>
+                      <a href="javascript:void(0)" className="main-menu-tier-3-link">Jewelry</a>
                     </li>
                     <li>
-                      <h3>Salon</h3>
+                      <a href="javascript:void(0)" className="main-menu-tier-3-link">Salon</a>
                     </li>
                     <li>
-                      <h3>Sephora</h3>
+                      <a href="javascript:void(0)" className="main-menu-tier-3-link">Sephora</a>
                     </li>
                     <li>
-                      <h3>Gifts</h3>
+                      <a href="javascript:void(0)" className="main-menu-tier-3-link">Gifts</a>
                     </li>
                     <li>
-                      <h3>Clearance</h3>
+                      <a href="javascript:void(0)" className="main-menu-tier-3-link">Clearance</a>
                     </li>
                   </ul>
                 </li>
                 <li className="main-menu-tier2-li main-menu-tier2-li-primary">
-                  <a href="javascript:void(0)">Same Day Pickup</a>
+                  <a href="javascript:void(0)" className="main-menu-tier-3-link-md-down">Same Day Pickup</a>
                 </li>
                 <li className="main-menu-tier2-li main-menu-tier2-li-primary">
-                  <a href="javascript:void(0)">Gifts</a>
+                  <a href="javascript:void(0)" className="main-menu-tier-3-link-md-down">Gifts</a>
                 </li>
                 <li className="main-menu-tier2-li main-menu-tier2-li-primary">
-                  <a href="javascript:void(0)">Toys</a>
+                  <a href="javascript:void(0)" className="main-menu-tier-3-link-md-down">Toys</a>
                 </li>
                 <li className="main-menu-tier2-li main-menu-tier2-li-primary">
-                  <a href="javascript:void(0)">My List</a>
+                  <a href="javascript:void(0)" className="main-menu-tier-3-link-md-down">My List</a>
                 </li>
                 <li className="main-menu-tier2-li main-menu-tier2-li-primary main-menu-tier2-li-highlight">
-                  <a href="javascript:void(0)">Coupons</a>
+                  <a href="javascript:void(0)" className="main-menu-tier-3-link-md-down">Coupons</a>
                 </li>
               </ul>
             </div>
             <div className="main-menu-tier2-right">
               <div className="dropdown-menu-block main-menu-tier2-my-store">
-                    <button className="dropdown-button" type="button" tabindex="-1">
+                    <button className="dropdown-button main-menu-tier-3-button-md-down" type="button" tabindex="-1">
                       <strong>My Store:</strong> Collin Creek Mall <span className="arrow"></span>
                     </button>
                     <div className="dropdown-menu dropdown-my-store">
@@ -300,23 +306,116 @@ class Header extends Component {
         <p>Stores within 15 mi. of <strong>75024</strong> <a href="javascript:void(0);">Change</a></p>
         <div className="side-panel-row">
             <div className="side-panel-col side-panel-col-select">
-              <div className="select form-layout column">
-                  <select className="form-control custom-select">
-                      <option value=''>Filter by Services (2)</option>
-                      <option value='1'>01</option>
-                      <option value='2'>02</option>
-                      <option value='3'>03</option>
-                      <option value='4'>04</option>
-                      <option value='5'>05</option>
-                      <option value='6'>06</option>
-                      <option value='7'>07</option>
-                      <option value='8'>08</option>
-                      <option value='9'>09</option>
-                      <option value='10'>10</option>
-                      <option value='11'>11</option>
-                      <option value='12'>12</option>
-                  </select>
-              </div>
+              
+
+              <div className="dropdown-menu-block">
+                        <a className="dropdown-button title-S">Filter By Services <span className="arrow"></span></a>
+                        <div className="dropdown-menu">
+                            <ul className="tooltip tooltip-top-center tooltip-light dropdown-search-type">
+                                <li className="dropdown-list">
+                                    <label className="checkbox mrg-M">
+                                        <input type="checkbox" defaultChecked="" />
+                                        <span className="left">label</span>
+                                        <span className="right-label">(1,008)</span>
+                                    </label>
+                                </li>
+                                <li className="dropdown-list">
+                                    <label className="checkbox mrg-M">
+                                        <input type="checkbox" defaultChecked="" />
+                                        <span className="left">label</span>
+                                        <span className="right-label">(1,008)</span>
+                                    </label>
+                                </li>
+                                <li className="dropdown-list">
+                                    <label className="checkbox mrg-M">
+                                        <input type="checkbox" defaultChecked="" />
+                                        <span className="left">label</span>
+                                        <span className="right-label">(1,008)</span>
+                                    </label>
+                                </li>
+                                <li className="dropdown-list">
+                                    <label className="checkbox mrg-M">
+                                        <input type="checkbox" defaultChecked="" />
+                                        <span className="left">label</span>
+                                        <span className="right-label">(1,008)</span>
+                                    </label>
+                                </li>
+                                <li className="dropdown-list">
+                                    <label className="checkbox mrg-M">
+                                        <input type="checkbox" defaultChecked="" />
+                                        <span className="left">label</span>
+                                        <span className="right-label">(1,008)</span>
+                                    </label>
+                                </li>
+                                <li className="dropdown-list">
+                                    <label className="checkbox mrg-M">
+                                        <input type="checkbox" defaultChecked="" />
+                                        <span className="left">label</span>
+                                        <span className="right-label">(1,008)</span>
+                                    </label>
+                                </li>
+                                <li className="dropdown-list">
+                                    <label className="checkbox mrg-M">
+                                        <input type="checkbox" defaultChecked="" />
+                                        <span className="left">label</span>
+                                        <span className="right-label">(1,008)</span>
+                                    </label>
+                                </li>
+                                <li className="dropdown-list">
+                                    <label className="checkbox mrg-M">
+                                        <input type="checkbox" defaultChecked="" />
+                                        <span className="left">label</span>
+                                        <span className="right-label">(1,008)</span>
+                                    </label>
+                                </li>
+                                <li className="dropdown-list">
+                                    <label className="checkbox mrg-M">
+                                        <input type="checkbox" defaultChecked="" />
+                                        <span className="left">label</span>
+                                        <span className="right-label">(1,008)</span>
+                                    </label>
+                                </li>
+                                <li className="dropdown-list">
+                                    <label className="checkbox mrg-M">
+                                        <input type="checkbox" defaultChecked="" />
+                                        <span className="left">label</span>
+                                        <span className="right-label">(1,008)</span>
+                                    </label>
+                                </li>
+                                <li className="dropdown-list">
+                                    <label className="checkbox mrg-M">
+                                        <input type="checkbox" defaultChecked="" />
+                                        <span className="left">label</span>
+                                        <span className="right-label">(1,008)</span>
+                                    </label>
+                                </li>
+                                <li className="dropdown-list">
+                                    <label className="checkbox mrg-M">
+                                        <input type="checkbox" defaultChecked="" />
+                                        <span className="left">label</span>
+                                        <span className="right-label">(1,008)</span>
+                                    </label>
+                                </li>
+                                <li className="dropdown-list">
+                                    <label className="checkbox mrg-M">
+                                        <input type="checkbox" defaultChecked="" />
+                                        <span className="left">label</span>
+                                        <span className="right-label">(1,008)</span>
+                                    </label>
+                                </li>
+                                <li className="dropdown-list">
+                                    <label className="checkbox mrg-M">
+                                        <input type="checkbox" defaultChecked="" />
+                                        <span className="left">label</span>
+                                        <span className="right-label">(1,008)</span>
+                                    </label>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+
+
             </div>
             <div className="side-panel-col side-panel-col-map-view algn-rght">
               <a href="javascript:void(0);">Map View</a>
@@ -339,7 +438,7 @@ class Header extends Component {
           </div>
         </div>
 
-        <div className="change-my-store-listing">
+        <div className="change-my-store-listing last">
           <div className="side-panel-row">
             <div className="side-panel-col side-panel-col-details">
               <h4 className="mrg-S">Collin Creek Mall <span class="change-my-store-mileage color-slate">(5.2mi)</span></h4>
