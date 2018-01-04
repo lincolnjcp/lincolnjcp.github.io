@@ -363,6 +363,12 @@
 
 }
 @media (--viewport-md-down) {
+	.main-menu-bar-tier2-panel {
+	& .side-panel-container,
+	& .side-panel-header {
+		max-width: 320px;
+	}
+}
 	.main-menu-tier-3-link-md-down {
 		display: block;
 		padding: 10px 16px;
@@ -484,13 +490,11 @@
 		}
 
 	}
+
+
 }
 
 .main-menu-bar-tier2-panel {
-	& .side-panel-container,
-	& .side-panel-header {
-		max-width: 320px;
-	}
 	& .side-panel-content {
 		padding-left: 0;
 		padding-right: 0;
