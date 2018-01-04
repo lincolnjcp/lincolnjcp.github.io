@@ -4,11 +4,14 @@ import $ from 'jquery';
 const logoImage = require('!!raw-loader?es5=1!../../../images/global/jcpenney.svg');
 const searchImage = require('!!raw-loader?es5=1!../../../images/global/icons/action/search.svg');
 const menuImage = require('!!raw-loader?es5=1!../../../images/global/icons/nav/menu.svg');
+const closeImage = require('!!raw-loader?es5=1!../../../images/global/icons/nav/close.svg');
 
 class Header extends Component {
 
   componentDidMount() {
         
+        !function(factory){"use strict";"function"==typeof define&&define.amd?define(["$"],factory):$&&!$.fn.hoverIntent&&factory($)}(function($){"use strict";var cX,cY,_cfg={interval:100,sensitivity:6,timeout:0},INSTANCE_COUNT=0,track=function(ev){cX=ev.pageX,cY=ev.pageY},compare=function(ev,$el,s,cfg){if(Math.sqrt((s.pX-cX)*(s.pX-cX)+(s.pY-cY)*(s.pY-cY))<cfg.sensitivity)return $el.off(s.event,track),delete s.timeoutId,s.isActive=!0,ev.pageX=cX,ev.pageY=cY,delete s.pX,delete s.pY,cfg.over.apply($el[0],[ev]);s.pX=cX,s.pY=cY,s.timeoutId=setTimeout(function(){compare(ev,$el,s,cfg)},cfg.interval)},delay=function(ev,$el,s,out){return delete $el.data("hoverIntent")[s.id],out.apply($el[0],[ev])};$.fn.hoverIntent=function(handlerIn,handlerOut,selector){var instanceId=INSTANCE_COUNT++,cfg=$.extend({},_cfg);$.isPlainObject(handlerIn)?(cfg=$.extend(cfg,handlerIn),$.isFunction(cfg.out)||(cfg.out=cfg.over)):cfg=$.isFunction(handlerOut)?$.extend(cfg,{over:handlerIn,out:handlerOut,selector:selector}):$.extend(cfg,{over:handlerIn,out:handlerIn,selector:handlerOut});var handleHover=function(e){var ev=$.extend({},e),$el=$(this),hoverIntentData=$el.data("hoverIntent");hoverIntentData||$el.data("hoverIntent",hoverIntentData={});var state=hoverIntentData[instanceId];state||(hoverIntentData[instanceId]=state={id:instanceId}),state.timeoutId&&(state.timeoutId=clearTimeout(state.timeoutId));var mousemove=state.event="mousemove.hoverIntent.hoverIntent"+instanceId;if("mouseenter"===e.type){if(state.isActive)return;state.pX=ev.pageX,state.pY=ev.pageY,$el.off(mousemove,track).on(mousemove,track),state.timeoutId=setTimeout(function(){compare(ev,$el,state,cfg)},cfg.interval)}else{if(!state.isActive)return;$el.off(mousemove,track),state.timeoutId=setTimeout(function(){delay(ev,$el,state,cfg.out)},cfg.timeout)}};return this.on({"mouseenter.hoverIntent":handleHover,"mouseleave.hoverIntent":handleHover},cfg.selector)}});
+
         $('.dropdown-button').on('click', function () {
             
             var parent_box = $(this).closest('.dropdown-menu-block');
@@ -18,6 +21,43 @@ class Header extends Component {
             $(this).toggleClass("arrow-down"); 
 
         });
+
+        $('.side-panel-btn').on('click', function(event){
+          event.preventDefault();
+          var parent = $("#"+$(this).attr('data-for'));
+          parent.addClass('is-visible');
+        });
+
+        $('.side-panel').on('click', function(event){
+          if( $(event.target).is('.side-panel') || $(event.target).is('.side-panel-close') ) { 
+            $(this).removeClass('is-visible');
+            event.preventDefault();
+          }
+        });
+
+        $(".main-menu-tier2-li-shop-departments").hoverIntent({
+        over: function() {
+            if ($("#mainMenuTier2LightBox").length == 0) {
+                $("body").append('<div id="mainMenuTier2LightBox"></div>');
+                var top = 0;
+                if($(".main-menu-bar-tier2").length > 0){
+                  top = $(".main-menu-bar-tier2").height()+$(".main-menu-bar-tier2").offset().top;
+                }
+                $("#mainMenuTier2LightBox").css({ "top": top, "height": $(document).height() })
+            }
+            $(".main-menu-tier2-li").addClass("main-menu-tier2-hover");
+        },
+        timeout: 800,
+        interval: 100,
+        out: function() {
+            $(".main-menu-tier2-li").removeClass("main-menu-tier2-hover");
+            $("#mainMenuTier2LightBox").remove();
+
+        }
+    });
+
+        
+        
   }
 
   render() {
@@ -43,9 +83,17 @@ class Header extends Component {
   <div className="main-menu-bar-tier1">
     <ul className="main-menu-tier1">
         <li className="main-menu-tier1-item main-menu-tier1-logo">
-          <a title="JCPenney Home" aria-label="JCPenney Home Page" href="javascript:void(0);">
-            <div className="main-menu-tier1-logo-svg" dangerouslySetInnerHTML={{__html: logoImage}} />
-          </a>
+
+            <span className="hide-for-large-up">
+              <a title="JCPenney Main Menu" aria-label="JCPenney Main Menu" href="javascript:void(0);" className="side-panel-btn" data-for="mainMenuTier2">
+                <div className="main-menu-tier1-menu-svg icon" dangerouslySetInnerHTML={{__html: menuImage}} />
+              </a>
+            </span>
+          
+            <a title="JCPenney Home" aria-label="JCPenney Home Page" href="javascript:void(0);">
+              <div className="main-menu-tier1-logo-svg" dangerouslySetInnerHTML={{__html: logoImage}} />
+            </a>
+                    
         </li>
         <li className="main-menu-tier1-item main-menu-tier1-search">
           <form action="http://www.jcpenney.com/s/search">
@@ -64,8 +112,8 @@ class Header extends Component {
               <div className="main-menu-tier1-account-title">My Account</div>
               <div className="main-menu-tier1-account-link">Sign In <span className="arrow"></span></div>
             </button>
-            <div className="dropdown-menu">
-              <ul className="tooltip tooltip-top-left tooltip-light dropdown-account">
+            <div className="dropdown-menu dropdown-account">
+              <ul className="tooltip tooltip-top-right tooltip-long tooltip-list">
                 <li>
                     <a href="javascript:void(0)">My Account</a>
                 </li>
@@ -101,8 +149,8 @@ class Header extends Component {
                 </li>
                 <li className="main-menu-tier1-sign-rewards">
                   <a href="javascript:void(0);">
-                    <span class="main-menu-tier1-sign-rewards-amount">$20</span>
-                    <span class="main-menu-tier1-sign-rewards-label">Redeem Your Rewards</span>
+                    <span className="main-menu-tier1-sign-rewards-amount">$20</span>
+                    <span className="main-menu-tier1-sign-rewards-label">Redeem Your Rewards</span>
                   </a>
                 </li>
               </ul>
@@ -117,2378 +165,201 @@ class Header extends Component {
       </ul>
   </div>
   <div className="main-menu-bar-tier2">
-    <div className="main-menu-tier2-left">
-      <ul className="main-menu-tier2">
-        <li className="main-menu-tier2-li">
-          <button className="main-menu-tier2-shop-departments">
-            <div className="main-menu-tier2-shop-departments-menu-svg icon color-nightsky-svg" dangerouslySetInnerHTML={{__html: menuImage}} />
-            <span className="main-menu-tier2-shop-departments-menu-label">Shop Departments</span>
-          </button>
-        </li>
-        <li className="main-menu-tier2-li main-menu-tier2-li-primary">
-          <a href="javascript:void(0)">Same Day Pickup</a>
-        </li>
-        <li className="main-menu-tier2-li main-menu-tier2-li-primary">
-          <a href="javascript:void(0)">Gifts</a>
-        </li>
-        <li className="main-menu-tier2-li main-menu-tier2-li-primary">
-          <a href="javascript:void(0)">Toys</a>
-        </li>
-        <li className="main-menu-tier2-li main-menu-tier2-li-primary">
-          <a href="javascript:void(0)">My List</a>
-        </li>
-        <li className="main-menu-tier2-li main-menu-tier2-li-primary main-menu-tier2-li-highlight">
-          <a href="javascript:void(0)">Coupons</a>
-        </li>
-      </ul>
-    </div>
-    <div className="main-menu-tier2-right">
-      <div className="dropdown-menu-block main-menu-tier2-my-store">
-            <button className="dropdown-button" type="button" tabindex="-1">
-              <strong>My Store:</strong> Collin Creek Mall <span className="arrow"></span>
-            </button>
-            <div className="dropdown-menu">
-              <ul className="tooltip tooltip-top-left tooltip-light dropdown-account">
-                <li>
-                    <a href="javascript:void(0)"></a>
+    <div className="side-panel side-panel-disable-desktop from-left" id="mainMenuTier2">
+      <header className="side-panel-header">
+      <h1>Title Goes Here</h1>
+      <a href="#0" className="side-panel-close">Close</a>
+      </header>
+      <div className="side-panel-container">
+        <div className="side-panel-content">
+          <div className="main-menu-bar-tier2-container">
+            <div className="main-menu-tier2-left">
+              <ul className="main-menu-tier2">
+                <li className="main-menu-tier2-li main-menu-tier2-li-shop-departments">
+                  <button className="main-menu-tier2-shop-departments">
+                    <div className="main-menu-tier2-shop-departments-menu-svg icon color-nightsky-svg" dangerouslySetInnerHTML={{__html: menuImage}} />
+                    <span className="main-menu-tier2-shop-departments-menu-label">Shop Departments</span>
+                  </button>
+
+                  <ul className="main-menu-tier3"> 
+                    <li>
+                      <h3>For the Home</h3>
+                    </li>
+                    <li>
+                      <h3>Bed & Bath</h3>
+                    </li>
+                    <li>
+                      <h3>Window</h3>
+                    </li>
+                    <li>
+                      <h3>Appliances</h3>
+                    </li>
+                    <li>
+                      <h3>Women</h3>
+                    </li>
+                    <li>
+                      <h3>Lingerie</h3>
+                    </li>
+                    <li>
+                      <h3>Men</h3>
+                    </li>
+                    <li>
+                      <h3>Juniors</h3>
+                    </li>
+                    <li>
+                      <h3>Kids</h3>
+                    </li>
+                    <li>
+                      <h3>Baby</h3>
+                    </li>
+                    <li>
+                      <h3>Shoes</h3>
+                    </li>
+                    <li>
+                      <h3>Handbags</h3>
+                    </li>
+                    <li>
+                      <h3>Jewelry</h3>
+                    </li>
+                    <li>
+                      <h3>Salon</h3>
+                    </li>
+                    <li>
+                      <h3>Sephora</h3>
+                    </li>
+                    <li>
+                      <h3>Gifts</h3>
+                    </li>
+                    <li>
+                      <h3>Clearance</h3>
+                    </li>
+                  </ul>
+                </li>
+                <li className="main-menu-tier2-li main-menu-tier2-li-primary">
+                  <a href="javascript:void(0)">Same Day Pickup</a>
+                </li>
+                <li className="main-menu-tier2-li main-menu-tier2-li-primary">
+                  <a href="javascript:void(0)">Gifts</a>
+                </li>
+                <li className="main-menu-tier2-li main-menu-tier2-li-primary">
+                  <a href="javascript:void(0)">Toys</a>
+                </li>
+                <li className="main-menu-tier2-li main-menu-tier2-li-primary">
+                  <a href="javascript:void(0)">My List</a>
+                </li>
+                <li className="main-menu-tier2-li main-menu-tier2-li-primary main-menu-tier2-li-highlight">
+                  <a href="javascript:void(0)">Coupons</a>
                 </li>
               </ul>
             </div>
+            <div className="main-menu-tier2-right">
+              <div className="dropdown-menu-block main-menu-tier2-my-store">
+                    <button className="dropdown-button" type="button" tabindex="-1">
+                      <strong>My Store:</strong> Collin Creek Mall <span className="arrow"></span>
+                    </button>
+                    <div className="dropdown-menu dropdown-my-store">
+                      <ul className="tooltip tooltip-top-right tooltip-long tooltip-list">
+                        <li>
+                          <div className="main-menu-tier2-my-store-listing">
+                            <h4 className="title title-M">Collin Creek Mall</h4>
+                            <p className="mrg-S">821 N Central Expwy<br />
+                                Plano, TX 75075</p>
+                            <p className="mrg-S"><a href="javascript:void(0);">Get Directions</a></p>
+                            <p>Mon-Thu : 10am-10pm<br />
+                                Fri : 9am-11pm<br />
+                                Sat : 8am-11pm<br />
+                                Sun : 9am-10pm</p>
+                            <div>
+                              <a href="javascript:void(0);" class="btn btn-L btn-secondary btn-full side-panel-btn" data-for="changeMyStore">
+                                Change My Store
+                              </a>
+                            </div>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+            </div>
           </div>
+        </div>
+      </div>
     </div>
   </div>
 
-<div className="SecondaryNavigationPanel-secondaryMenu" data-reactid="51">
-    <div className="SecondaryNavigationPanel-containerWidth" data-reactid="52">
-        <div data-reactid="53">
-            <div className="SecondaryNavigationPanel-LeftNavigationWrapper" data-reactid="54">
-                <div className="SecondaryNavigationPanel-shopDepartmentsBlock " data-reactid="55">
-                    <button className="SecondaryNavigationPanel-shopdepartments" data-reactid="56">SHOP DEPARTMENTS</button>
-                    <div className="SecondaryNavigationPanel-largeSubMenu">
-                        <div className="SecondaryNavigationPanel-subMenuList SecondaryNavigationPanel-level1Block">
-                            <ul className="subMenuListBlock">
-                                <li className="SecondaryNavigationPanel-menuItem">
-                                    <button className="SecondaryNavigationPanel-menuItemLink" data-automation-id="menu-item">For the Home</button>
-                                    <div className="SecondaryNavigationPanel-subMenuInnerLevel">
-                                        <div className="SecondaryNavigationPanel-subMenuLevel1ListBlock">
-                                            <button className="SecondaryNavigationPanel-subMenuItemTitle" data-automation-id="menu-item-heading">For the Home</button>
-                                            <ul className="SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-level2Block">
-                                                <li className="SecondaryNavigationPanel-subMenuLevelList"><a href="javascript:void(0)" data-automation-id="sub-menu-level1" className="SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link">Furniture</a>
-                                                    <div className="SecondaryNavigationPanel-subMenuInnerLevel2">
-                                                        <div className="subMenuLevel2ListBlock">
-                                                            <h3 className="SecondaryNavigationPanel-subMenuItemTitle">Furniture</h3>
-                                                            <ul className="SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List">
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Mattresses</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sofas</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Beds &amp; Headboards</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Chairs &amp; Recliners</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Dining Sets</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">View All Furniture</button>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li className="SecondaryNavigationPanel-subMenuLevelList"><a href="javascript:void(0)" data-automation-id="sub-menu-level1" className="SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link">Home Decor</a>
-                                                    <div className="SecondaryNavigationPanel-subMenuInnerLevel2">
-                                                        <div className="subMenuLevel2ListBlock">
-                                                            <h3 className="SecondaryNavigationPanel-subMenuItemTitle">Home Decor</h3>
-                                                            <ul className="SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List">
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 1</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 2</button>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li className="SecondaryNavigationPanel-subMenuLevelList"><a href="javascript:void(0)" data-automation-id="sub-menu-level1" className="SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link">Kitchen &amp; Dining</a>
-                                                    <div className="SecondaryNavigationPanel-subMenuInnerLevel2">
-                                                        <div className="subMenuLevel2ListBlock">
-                                                            <h3 className="SecondaryNavigationPanel-subMenuItemTitle">Kitchen</h3>
-                                                            <ul className="SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List">
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 1</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 2</button>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li className="SecondaryNavigationPanel-subMenuLevelList"><a href="javascript:void(0)" data-automation-id="sub-menu-level1" className="SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link">Window</a>
-                                                    <div className="SecondaryNavigationPanel-subMenuInnerLevel2">
-                                                        <div className="subMenuLevel2ListBlock">
-                                                            <h3 className="SecondaryNavigationPanel-subMenuItemTitle">Window</h3>
-                                                            <ul className="SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List">
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 1</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 2</button>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li className="SecondaryNavigationPanel-subMenuLevelList"><a href="javascript:void(0)" data-automation-id="sub-menu-level1" className="SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link">Bed &amp; Bath</a>
-                                                    <div className="SecondaryNavigationPanel-subMenuInnerLevel2">
-                                                        <div className="subMenuLevel2ListBlock">
-                                                            <h3 className="SecondaryNavigationPanel-subMenuItemTitle">Bed &amp; Bath</h3>
-                                                            <ul className="SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List">
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 1</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 2</button>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li className="SecondaryNavigationPanel-subMenuLevelList"><a href="javascript:void(0)" data-automation-id="sub-menu-level1" className="SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link">Appliances</a>
-                                                    <div className="SecondaryNavigationPanel-subMenuInnerLevel2">
-                                                        <div className="subMenuLevel2ListBlock">
-                                                            <h3 className="SecondaryNavigationPanel-subMenuItemTitle">Appliances</h3>
-                                                            <ul className="SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List">
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 1</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 2</button>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li className="SecondaryNavigationPanel-subMenuLevelList"><a href="javascript:void(0)" data-automation-id="sub-menu-level1" className="SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link">More For Your Home</a>
-                                                    <div className="SecondaryNavigationPanel-subMenuInnerLevel2">
-                                                        <div className="subMenuLevel2ListBlock">
-                                                            <h3 className="SecondaryNavigationPanel-subMenuItemTitle">More For Your Home</h3>
-                                                            <ul className="SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List">
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 1</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 2</button>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li className="SecondaryNavigationPanel-subMenuLevelList"><a href="javascript:void(0)" data-automation-id="sub-menu-level1" className="SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link">Shop Sale &amp; Clearance</a>
-                                                    <div className="SecondaryNavigationPanel-subMenuInnerLevel2">
-                                                        <div className="subMenuLevel2ListBlock">
-                                                            <h3 className="SecondaryNavigationPanel-subMenuItemTitle">Shop Sale &amp; Clearance</h3>
-                                                            <ul className="SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List">
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 1</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 2</button>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li className="SecondaryNavigationPanel-menuItem">
-                                    <button className="SecondaryNavigationPanel-menuItemLink" data-automation-id="menu-item">Bed &amp; Bath</button>
-                                    <div className="SecondaryNavigationPanel-subMenuInnerLevel">
-                                        <div className="SecondaryNavigationPanel-subMenuLevel1ListBlock">
-                                            <button className="SecondaryNavigationPanel-subMenuItemTitle" data-automation-id="menu-item-heading">Bed &amp; Bath</button>
-                                            <ul className="SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-level2Block">
-                                                <li className="SecondaryNavigationPanel-subMenuLevelList"><a href="javascript:void(0)" data-automation-id="sub-menu-level1" className="SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link">Furniture</a>
-                                                    <div className="SecondaryNavigationPanel-subMenuInnerLevel2">
-                                                        <div className="subMenuLevel2ListBlock">
-                                                            <h3 className="SecondaryNavigationPanel-subMenuItemTitle">Furniture</h3>
-                                                            <ul className="SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List">
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Mattresses</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sofas</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Beds &amp; Headboards</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Chairs &amp; Recliners</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Dining Sets</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">View All Furniture</button>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li className="SecondaryNavigationPanel-subMenuLevelList"><a href="javascript:void(0)" data-automation-id="sub-menu-level1" className="SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link">Home Decor</a>
-                                                    <div className="SecondaryNavigationPanel-subMenuInnerLevel2">
-                                                        <div className="subMenuLevel2ListBlock">
-                                                            <h3 className="SecondaryNavigationPanel-subMenuItemTitle">Home Decor</h3>
-                                                            <ul className="SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List">
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 1</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 2</button>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li className="SecondaryNavigationPanel-subMenuLevelList"><a href="javascript:void(0)" data-automation-id="sub-menu-level1" className="SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link">Kitchen &amp; Dining</a>
-                                                    <div className="SecondaryNavigationPanel-subMenuInnerLevel2">
-                                                        <div className="subMenuLevel2ListBlock">
-                                                            <h3 className="SecondaryNavigationPanel-subMenuItemTitle">Kitchen</h3>
-                                                            <ul className="SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List">
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 1</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 2</button>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li className="SecondaryNavigationPanel-subMenuLevelList"><a href="javascript:void(0)" data-automation-id="sub-menu-level1" className="SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link">Window</a>
-                                                    <div className="SecondaryNavigationPanel-subMenuInnerLevel2">
-                                                        <div className="subMenuLevel2ListBlock">
-                                                            <h3 className="SecondaryNavigationPanel-subMenuItemTitle">Window</h3>
-                                                            <ul className="SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List">
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 1</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 2</button>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li className="SecondaryNavigationPanel-subMenuLevelList"><a href="javascript:void(0)" data-automation-id="sub-menu-level1" className="SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link">Bed &amp; Bath</a>
-                                                    <div className="SecondaryNavigationPanel-subMenuInnerLevel2">
-                                                        <div className="subMenuLevel2ListBlock">
-                                                            <h3 className="SecondaryNavigationPanel-subMenuItemTitle">Bed &amp; Bath</h3>
-                                                            <ul className="SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List">
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 1</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 2</button>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li className="SecondaryNavigationPanel-subMenuLevelList"><a href="javascript:void(0)" data-automation-id="sub-menu-level1" className="SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link">Appliances</a>
-                                                    <div className="SecondaryNavigationPanel-subMenuInnerLevel2">
-                                                        <div className="subMenuLevel2ListBlock">
-                                                            <h3 className="SecondaryNavigationPanel-subMenuItemTitle">Appliances</h3>
-                                                            <ul className="SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List">
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 1</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 2</button>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li className="SecondaryNavigationPanel-subMenuLevelList"><a href="javascript:void(0)" data-automation-id="sub-menu-level1" className="SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link">More For Your Home</a>
-                                                    <div className="SecondaryNavigationPanel-subMenuInnerLevel2">
-                                                        <div className="subMenuLevel2ListBlock">
-                                                            <h3 className="SecondaryNavigationPanel-subMenuItemTitle">More For Your Home</h3>
-                                                            <ul className="SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List">
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 1</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 2</button>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li className="SecondaryNavigationPanel-subMenuLevelList"><a href="javascript:void(0)" data-automation-id="sub-menu-level1" className="SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link">Shop Sale &amp; Clearance</a>
-                                                    <div className="SecondaryNavigationPanel-subMenuInnerLevel2">
-                                                        <div className="subMenuLevel2ListBlock">
-                                                            <h3 className="SecondaryNavigationPanel-subMenuItemTitle">Shop Sale &amp; Clearance</h3>
-                                                            <ul className="SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List">
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 1</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 2</button>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li className="SecondaryNavigationPanel-menuItem">
-                                    <button className="SecondaryNavigationPanel-menuItemLink" data-automation-id="menu-item">Window</button>
-                                    <div className="SecondaryNavigationPanel-subMenuInnerLevel">
-                                        <div className="SecondaryNavigationPanel-subMenuLevel1ListBlock">
-                                            <button className="SecondaryNavigationPanel-subMenuItemTitle" data-automation-id="menu-item-heading">Window</button>
-                                            <ul className="SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-level2Block">
-                                                <li className="SecondaryNavigationPanel-subMenuLevelList"><a href="javascript:void(0)" data-automation-id="sub-menu-level1" className="SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link">Furniture</a>
-                                                    <div className="SecondaryNavigationPanel-subMenuInnerLevel2">
-                                                        <div className="subMenuLevel2ListBlock">
-                                                            <h3 className="SecondaryNavigationPanel-subMenuItemTitle">Furniture</h3>
-                                                            <ul className="SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List">
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Mattresses</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sofas</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Beds &amp; Headboards</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Chairs &amp; Recliners</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Dining Sets</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">View All Furniture</button>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li className="SecondaryNavigationPanel-subMenuLevelList"><a href="javascript:void(0)" data-automation-id="sub-menu-level1" className="SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link">Home Decor</a>
-                                                    <div className="SecondaryNavigationPanel-subMenuInnerLevel2">
-                                                        <div className="subMenuLevel2ListBlock">
-                                                            <h3 className="SecondaryNavigationPanel-subMenuItemTitle">Home Decor</h3>
-                                                            <ul className="SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List">
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 1</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 2</button>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li className="SecondaryNavigationPanel-subMenuLevelList"><a href="javascript:void(0)" data-automation-id="sub-menu-level1" className="SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link">Kitchen &amp; Dining</a>
-                                                    <div className="SecondaryNavigationPanel-subMenuInnerLevel2">
-                                                        <div className="subMenuLevel2ListBlock">
-                                                            <h3 className="SecondaryNavigationPanel-subMenuItemTitle">Kitchen</h3>
-                                                            <ul className="SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List">
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 1</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 2</button>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li className="SecondaryNavigationPanel-subMenuLevelList"><a href="javascript:void(0)" data-automation-id="sub-menu-level1" className="SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link">Window</a>
-                                                    <div className="SecondaryNavigationPanel-subMenuInnerLevel2">
-                                                        <div className="subMenuLevel2ListBlock">
-                                                            <h3 className="SecondaryNavigationPanel-subMenuItemTitle">Window</h3>
-                                                            <ul className="SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List">
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 1</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 2</button>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li className="SecondaryNavigationPanel-subMenuLevelList"><a href="javascript:void(0)" data-automation-id="sub-menu-level1" className="SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link">Bed &amp; Bath</a>
-                                                    <div className="SecondaryNavigationPanel-subMenuInnerLevel2">
-                                                        <div className="subMenuLevel2ListBlock">
-                                                            <h3 className="SecondaryNavigationPanel-subMenuItemTitle">Bed &amp; Bath</h3>
-                                                            <ul className="SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List">
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 1</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 2</button>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li className="SecondaryNavigationPanel-subMenuLevelList"><a href="javascript:void(0)" data-automation-id="sub-menu-level1" className="SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link">Appliances</a>
-                                                    <div className="SecondaryNavigationPanel-subMenuInnerLevel2">
-                                                        <div className="subMenuLevel2ListBlock">
-                                                            <h3 className="SecondaryNavigationPanel-subMenuItemTitle">Appliances</h3>
-                                                            <ul className="SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List">
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 1</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 2</button>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li className="SecondaryNavigationPanel-subMenuLevelList"><a href="javascript:void(0)" data-automation-id="sub-menu-level1" className="SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link">More For Your Home</a>
-                                                    <div className="SecondaryNavigationPanel-subMenuInnerLevel2">
-                                                        <div className="subMenuLevel2ListBlock">
-                                                            <h3 className="SecondaryNavigationPanel-subMenuItemTitle">More For Your Home</h3>
-                                                            <ul className="SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List">
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 1</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 2</button>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li className="SecondaryNavigationPanel-subMenuLevelList"><a href="javascript:void(0)" data-automation-id="sub-menu-level1" className="SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link">Shop Sale &amp; Clearance</a>
-                                                    <div className="SecondaryNavigationPanel-subMenuInnerLevel2">
-                                                        <div className="subMenuLevel2ListBlock">
-                                                            <h3 className="SecondaryNavigationPanel-subMenuItemTitle">Shop Sale &amp; Clearance</h3>
-                                                            <ul className="SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List">
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 1</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 2</button>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li className="SecondaryNavigationPanel-menuItem">
-                                    <button className="SecondaryNavigationPanel-menuItemLink" data-automation-id="menu-item">Appliances</button>
-                                    <div className="SecondaryNavigationPanel-subMenuInnerLevel">
-                                        <div className="SecondaryNavigationPanel-subMenuLevel1ListBlock">
-                                            <button className="SecondaryNavigationPanel-subMenuItemTitle" data-automation-id="menu-item-heading">Appliances</button>
-                                            <ul className="SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-level2Block">
-                                                <li className="SecondaryNavigationPanel-subMenuLevelList"><a href="javascript:void(0)" data-automation-id="sub-menu-level1" className="SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link">Furniture</a>
-                                                    <div className="SecondaryNavigationPanel-subMenuInnerLevel2">
-                                                        <div className="subMenuLevel2ListBlock">
-                                                            <h3 className="SecondaryNavigationPanel-subMenuItemTitle">Furniture</h3>
-                                                            <ul className="SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List">
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Mattresses</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sofas</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Beds &amp; Headboards</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Chairs &amp; Recliners</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Dining Sets</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">View All Furniture</button>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li className="SecondaryNavigationPanel-subMenuLevelList"><a href="javascript:void(0)" data-automation-id="sub-menu-level1" className="SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link">Home Decor</a>
-                                                    <div className="SecondaryNavigationPanel-subMenuInnerLevel2">
-                                                        <div className="subMenuLevel2ListBlock">
-                                                            <h3 className="SecondaryNavigationPanel-subMenuItemTitle">Home Decor</h3>
-                                                            <ul className="SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List">
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 1</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 2</button>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li className="SecondaryNavigationPanel-subMenuLevelList"><a href="javascript:void(0)" data-automation-id="sub-menu-level1" className="SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link">Kitchen &amp; Dining</a>
-                                                    <div className="SecondaryNavigationPanel-subMenuInnerLevel2">
-                                                        <div className="subMenuLevel2ListBlock">
-                                                            <h3 className="SecondaryNavigationPanel-subMenuItemTitle">Kitchen</h3>
-                                                            <ul className="SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List">
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 1</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 2</button>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li className="SecondaryNavigationPanel-subMenuLevelList"><a href="javascript:void(0)" data-automation-id="sub-menu-level1" className="SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link">Window</a>
-                                                    <div className="SecondaryNavigationPanel-subMenuInnerLevel2">
-                                                        <div className="subMenuLevel2ListBlock">
-                                                            <h3 className="SecondaryNavigationPanel-subMenuItemTitle">Window</h3>
-                                                            <ul className="SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List">
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 1</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 2</button>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li className="SecondaryNavigationPanel-subMenuLevelList"><a href="javascript:void(0)" data-automation-id="sub-menu-level1" className="SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link">Bed &amp; Bath</a>
-                                                    <div className="SecondaryNavigationPanel-subMenuInnerLevel2">
-                                                        <div className="subMenuLevel2ListBlock">
-                                                            <h3 className="SecondaryNavigationPanel-subMenuItemTitle">Bed &amp; Bath</h3>
-                                                            <ul className="SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List">
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 1</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 2</button>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li className="SecondaryNavigationPanel-subMenuLevelList"><a href="javascript:void(0)" data-automation-id="sub-menu-level1" className="SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link">Appliances</a>
-                                                    <div className="SecondaryNavigationPanel-subMenuInnerLevel2">
-                                                        <div className="subMenuLevel2ListBlock">
-                                                            <h3 className="SecondaryNavigationPanel-subMenuItemTitle">Appliances</h3>
-                                                            <ul className="SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List">
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 1</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 2</button>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li className="SecondaryNavigationPanel-subMenuLevelList"><a href="javascript:void(0)" data-automation-id="sub-menu-level1" className="SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link">More For Your Home</a>
-                                                    <div className="SecondaryNavigationPanel-subMenuInnerLevel2">
-                                                        <div className="subMenuLevel2ListBlock">
-                                                            <h3 className="SecondaryNavigationPanel-subMenuItemTitle">More For Your Home</h3>
-                                                            <ul className="SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List">
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 1</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 2</button>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li className="SecondaryNavigationPanel-subMenuLevelList"><a href="javascript:void(0)" data-automation-id="sub-menu-level1" className="SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link">Shop Sale &amp; Clearance</a>
-                                                    <div className="SecondaryNavigationPanel-subMenuInnerLevel2">
-                                                        <div className="subMenuLevel2ListBlock">
-                                                            <h3 className="SecondaryNavigationPanel-subMenuItemTitle">Shop Sale &amp; Clearance</h3>
-                                                            <ul className="SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List">
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 1</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 2</button>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li className="SecondaryNavigationPanel-menuItem">
-                                    <button className="SecondaryNavigationPanel-menuItemLink" data-automation-id="menu-item">Women</button>
-                                    <div className="SecondaryNavigationPanel-subMenuInnerLevel">
-                                        <div className="SecondaryNavigationPanel-subMenuLevel1ListBlock">
-                                            <button className="SecondaryNavigationPanel-subMenuItemTitle" data-automation-id="menu-item-heading">Women</button>
-                                            <ul className="SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-level2Block">
-                                                <li className="SecondaryNavigationPanel-subMenuLevelList"><a href="javascript:void(0)" data-automation-id="sub-menu-level1" className="SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link">Furniture</a>
-                                                    <div className="SecondaryNavigationPanel-subMenuInnerLevel2">
-                                                        <div className="subMenuLevel2ListBlock">
-                                                            <h3 className="SecondaryNavigationPanel-subMenuItemTitle">Furniture</h3>
-                                                            <ul className="SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List">
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Mattresses</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sofas</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Beds &amp; Headboards</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Chairs &amp; Recliners</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Dining Sets</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">View All Furniture</button>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li className="SecondaryNavigationPanel-subMenuLevelList"><a href="javascript:void(0)" data-automation-id="sub-menu-level1" className="SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link">Home Decor</a>
-                                                    <div className="SecondaryNavigationPanel-subMenuInnerLevel2">
-                                                        <div className="subMenuLevel2ListBlock">
-                                                            <h3 className="SecondaryNavigationPanel-subMenuItemTitle">Home Decor</h3>
-                                                            <ul className="SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List">
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 1</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 2</button>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li className="SecondaryNavigationPanel-subMenuLevelList"><a href="javascript:void(0)" data-automation-id="sub-menu-level1" className="SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link">Kitchen &amp; Dining</a>
-                                                    <div className="SecondaryNavigationPanel-subMenuInnerLevel2">
-                                                        <div className="subMenuLevel2ListBlock">
-                                                            <h3 className="SecondaryNavigationPanel-subMenuItemTitle">Kitchen</h3>
-                                                            <ul className="SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List">
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 1</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 2</button>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li className="SecondaryNavigationPanel-subMenuLevelList"><a href="javascript:void(0)" data-automation-id="sub-menu-level1" className="SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link">Window</a>
-                                                    <div className="SecondaryNavigationPanel-subMenuInnerLevel2">
-                                                        <div className="subMenuLevel2ListBlock">
-                                                            <h3 className="SecondaryNavigationPanel-subMenuItemTitle">Window</h3>
-                                                            <ul className="SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List">
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 1</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 2</button>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li className="SecondaryNavigationPanel-subMenuLevelList"><a href="javascript:void(0)" data-automation-id="sub-menu-level1" className="SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link">Bed &amp; Bath</a>
-                                                    <div className="SecondaryNavigationPanel-subMenuInnerLevel2">
-                                                        <div className="subMenuLevel2ListBlock">
-                                                            <h3 className="SecondaryNavigationPanel-subMenuItemTitle">Bed &amp; Bath</h3>
-                                                            <ul className="SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List">
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 1</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 2</button>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li className="SecondaryNavigationPanel-subMenuLevelList"><a href="javascript:void(0)" data-automation-id="sub-menu-level1" className="SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link">Appliances</a>
-                                                    <div className="SecondaryNavigationPanel-subMenuInnerLevel2">
-                                                        <div className="subMenuLevel2ListBlock">
-                                                            <h3 className="SecondaryNavigationPanel-subMenuItemTitle">Appliances</h3>
-                                                            <ul className="SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List">
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 1</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 2</button>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li className="SecondaryNavigationPanel-subMenuLevelList"><a href="javascript:void(0)" data-automation-id="sub-menu-level1" className="SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link">More For Your Home</a>
-                                                    <div className="SecondaryNavigationPanel-subMenuInnerLevel2">
-                                                        <div className="subMenuLevel2ListBlock">
-                                                            <h3 className="SecondaryNavigationPanel-subMenuItemTitle">More For Your Home</h3>
-                                                            <ul className="SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List">
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 1</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 2</button>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li className="SecondaryNavigationPanel-subMenuLevelList"><a href="javascript:void(0)" data-automation-id="sub-menu-level1" className="SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link">Shop Sale &amp; Clearance</a>
-                                                    <div className="SecondaryNavigationPanel-subMenuInnerLevel2">
-                                                        <div className="subMenuLevel2ListBlock">
-                                                            <h3 className="SecondaryNavigationPanel-subMenuItemTitle">Shop Sale &amp; Clearance</h3>
-                                                            <ul className="SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List">
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 1</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 2</button>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li className="SecondaryNavigationPanel-menuItem">
-                                    <button className="SecondaryNavigationPanel-menuItemLink" data-automation-id="menu-item">Lingerie</button>
-                                    <div className="SecondaryNavigationPanel-subMenuInnerLevel">
-                                        <div className="SecondaryNavigationPanel-subMenuLevel1ListBlock">
-                                            <button className="SecondaryNavigationPanel-subMenuItemTitle" data-automation-id="menu-item-heading">Lingerie</button>
-                                            <ul className="SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-level2Block">
-                                                <li className="SecondaryNavigationPanel-subMenuLevelList"><a href="javascript:void(0)" data-automation-id="sub-menu-level1" className="SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link">Furniture</a>
-                                                    <div className="SecondaryNavigationPanel-subMenuInnerLevel2">
-                                                        <div className="subMenuLevel2ListBlock">
-                                                            <h3 className="SecondaryNavigationPanel-subMenuItemTitle">Furniture</h3>
-                                                            <ul className="SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List">
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Mattresses</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sofas</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Beds &amp; Headboards</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Chairs &amp; Recliners</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Dining Sets</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">View All Furniture</button>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li className="SecondaryNavigationPanel-subMenuLevelList"><a href="javascript:void(0)" data-automation-id="sub-menu-level1" className="SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link">Home Decor</a>
-                                                    <div className="SecondaryNavigationPanel-subMenuInnerLevel2">
-                                                        <div className="subMenuLevel2ListBlock">
-                                                            <h3 className="SecondaryNavigationPanel-subMenuItemTitle">Home Decor</h3>
-                                                            <ul className="SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List">
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 1</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 2</button>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li className="SecondaryNavigationPanel-subMenuLevelList"><a href="javascript:void(0)" data-automation-id="sub-menu-level1" className="SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link">Kitchen &amp; Dining</a>
-                                                    <div className="SecondaryNavigationPanel-subMenuInnerLevel2">
-                                                        <div className="subMenuLevel2ListBlock">
-                                                            <h3 className="SecondaryNavigationPanel-subMenuItemTitle">Kitchen</h3>
-                                                            <ul className="SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List">
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 1</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 2</button>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li className="SecondaryNavigationPanel-subMenuLevelList"><a href="javascript:void(0)" data-automation-id="sub-menu-level1" className="SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link">Window</a>
-                                                    <div className="SecondaryNavigationPanel-subMenuInnerLevel2">
-                                                        <div className="subMenuLevel2ListBlock">
-                                                            <h3 className="SecondaryNavigationPanel-subMenuItemTitle">Window</h3>
-                                                            <ul className="SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List">
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 1</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 2</button>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li className="SecondaryNavigationPanel-subMenuLevelList"><a href="javascript:void(0)" data-automation-id="sub-menu-level1" className="SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link">Bed &amp; Bath</a>
-                                                    <div className="SecondaryNavigationPanel-subMenuInnerLevel2">
-                                                        <div className="subMenuLevel2ListBlock">
-                                                            <h3 className="SecondaryNavigationPanel-subMenuItemTitle">Bed &amp; Bath</h3>
-                                                            <ul className="SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List">
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 1</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 2</button>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li className="SecondaryNavigationPanel-subMenuLevelList"><a href="javascript:void(0)" data-automation-id="sub-menu-level1" className="SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link">Appliances</a>
-                                                    <div className="SecondaryNavigationPanel-subMenuInnerLevel2">
-                                                        <div className="subMenuLevel2ListBlock">
-                                                            <h3 className="SecondaryNavigationPanel-subMenuItemTitle">Appliances</h3>
-                                                            <ul className="SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List">
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 1</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 2</button>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li className="SecondaryNavigationPanel-subMenuLevelList"><a href="javascript:void(0)" data-automation-id="sub-menu-level1" className="SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link">More For Your Home</a>
-                                                    <div className="SecondaryNavigationPanel-subMenuInnerLevel2">
-                                                        <div className="subMenuLevel2ListBlock">
-                                                            <h3 className="SecondaryNavigationPanel-subMenuItemTitle">More For Your Home</h3>
-                                                            <ul className="SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List">
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 1</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 2</button>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li className="SecondaryNavigationPanel-subMenuLevelList"><a href="javascript:void(0)" data-automation-id="sub-menu-level1" className="SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link">Shop Sale &amp; Clearance</a>
-                                                    <div className="SecondaryNavigationPanel-subMenuInnerLevel2">
-                                                        <div className="subMenuLevel2ListBlock">
-                                                            <h3 className="SecondaryNavigationPanel-subMenuItemTitle">Shop Sale &amp; Clearance</h3>
-                                                            <ul className="SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List">
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 1</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 2</button>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li className="SecondaryNavigationPanel-menuItem">
-                                    <button className="SecondaryNavigationPanel-menuItemLink" data-automation-id="menu-item">Men</button>
-                                    <div className="SecondaryNavigationPanel-subMenuInnerLevel">
-                                        <div className="SecondaryNavigationPanel-subMenuLevel1ListBlock">
-                                            <button className="SecondaryNavigationPanel-subMenuItemTitle" data-automation-id="menu-item-heading">Men</button>
-                                            <ul className="SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-level2Block">
-                                                <li className="SecondaryNavigationPanel-subMenuLevelList"><a href="javascript:void(0)" data-automation-id="sub-menu-level1" className="SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link">Furniture</a>
-                                                    <div className="SecondaryNavigationPanel-subMenuInnerLevel2">
-                                                        <div className="subMenuLevel2ListBlock">
-                                                            <h3 className="SecondaryNavigationPanel-subMenuItemTitle">Furniture</h3>
-                                                            <ul className="SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List">
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Mattresses</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sofas</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Beds &amp; Headboards</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Chairs &amp; Recliners</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Dining Sets</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">View All Furniture</button>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li className="SecondaryNavigationPanel-subMenuLevelList"><a href="javascript:void(0)" data-automation-id="sub-menu-level1" className="SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link">Home Decor</a>
-                                                    <div className="SecondaryNavigationPanel-subMenuInnerLevel2">
-                                                        <div className="subMenuLevel2ListBlock">
-                                                            <h3 className="SecondaryNavigationPanel-subMenuItemTitle">Home Decor</h3>
-                                                            <ul className="SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List">
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 1</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 2</button>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li className="SecondaryNavigationPanel-subMenuLevelList"><a href="javascript:void(0)" data-automation-id="sub-menu-level1" className="SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link">Kitchen &amp; Dining</a>
-                                                    <div className="SecondaryNavigationPanel-subMenuInnerLevel2">
-                                                        <div className="subMenuLevel2ListBlock">
-                                                            <h3 className="SecondaryNavigationPanel-subMenuItemTitle">Kitchen</h3>
-                                                            <ul className="SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List">
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 1</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 2</button>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li className="SecondaryNavigationPanel-subMenuLevelList"><a href="javascript:void(0)" data-automation-id="sub-menu-level1" className="SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link">Window</a>
-                                                    <div className="SecondaryNavigationPanel-subMenuInnerLevel2">
-                                                        <div className="subMenuLevel2ListBlock">
-                                                            <h3 className="SecondaryNavigationPanel-subMenuItemTitle">Window</h3>
-                                                            <ul className="SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List">
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 1</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 2</button>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li className="SecondaryNavigationPanel-subMenuLevelList"><a href="javascript:void(0)" data-automation-id="sub-menu-level1" className="SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link">Bed &amp; Bath</a>
-                                                    <div className="SecondaryNavigationPanel-subMenuInnerLevel2">
-                                                        <div className="subMenuLevel2ListBlock">
-                                                            <h3 className="SecondaryNavigationPanel-subMenuItemTitle">Bed &amp; Bath</h3>
-                                                            <ul className="SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List">
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 1</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 2</button>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li className="SecondaryNavigationPanel-subMenuLevelList"><a href="javascript:void(0)" data-automation-id="sub-menu-level1" className="SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link">Appliances</a>
-                                                    <div className="SecondaryNavigationPanel-subMenuInnerLevel2">
-                                                        <div className="subMenuLevel2ListBlock">
-                                                            <h3 className="SecondaryNavigationPanel-subMenuItemTitle">Appliances</h3>
-                                                            <ul className="SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List">
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 1</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 2</button>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li className="SecondaryNavigationPanel-subMenuLevelList"><a href="javascript:void(0)" data-automation-id="sub-menu-level1" className="SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link">More For Your Home</a>
-                                                    <div className="SecondaryNavigationPanel-subMenuInnerLevel2">
-                                                        <div className="subMenuLevel2ListBlock">
-                                                            <h3 className="SecondaryNavigationPanel-subMenuItemTitle">More For Your Home</h3>
-                                                            <ul className="SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List">
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 1</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 2</button>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li className="SecondaryNavigationPanel-subMenuLevelList"><a href="javascript:void(0)" data-automation-id="sub-menu-level1" className="SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link">Shop Sale &amp; Clearance</a>
-                                                    <div className="SecondaryNavigationPanel-subMenuInnerLevel2">
-                                                        <div className="subMenuLevel2ListBlock">
-                                                            <h3 className="SecondaryNavigationPanel-subMenuItemTitle">Shop Sale &amp; Clearance</h3>
-                                                            <ul className="SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List">
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 1</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 2</button>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li className="SecondaryNavigationPanel-menuItem">
-                                    <button className="SecondaryNavigationPanel-menuItemLink" data-automation-id="menu-item">Juniors</button>
-                                    <div className="SecondaryNavigationPanel-subMenuInnerLevel">
-                                        <div className="SecondaryNavigationPanel-subMenuLevel1ListBlock">
-                                            <button className="SecondaryNavigationPanel-subMenuItemTitle" data-automation-id="menu-item-heading">Juniors</button>
-                                            <ul className="SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-level2Block">
-                                                <li className="SecondaryNavigationPanel-subMenuLevelList"><a href="javascript:void(0)" data-automation-id="sub-menu-level1" className="SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link">Furniture</a>
-                                                    <div className="SecondaryNavigationPanel-subMenuInnerLevel2">
-                                                        <div className="subMenuLevel2ListBlock">
-                                                            <h3 className="SecondaryNavigationPanel-subMenuItemTitle">Furniture</h3>
-                                                            <ul className="SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List">
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Mattresses</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sofas</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Beds &amp; Headboards</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Chairs &amp; Recliners</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Dining Sets</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">View All Furniture</button>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li className="SecondaryNavigationPanel-subMenuLevelList"><a href="javascript:void(0)" data-automation-id="sub-menu-level1" className="SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link">Home Decor</a>
-                                                    <div className="SecondaryNavigationPanel-subMenuInnerLevel2">
-                                                        <div className="subMenuLevel2ListBlock">
-                                                            <h3 className="SecondaryNavigationPanel-subMenuItemTitle">Home Decor</h3>
-                                                            <ul className="SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List">
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 1</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 2</button>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li className="SecondaryNavigationPanel-subMenuLevelList"><a href="javascript:void(0)" data-automation-id="sub-menu-level1" className="SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link">Kitchen &amp; Dining</a>
-                                                    <div className="SecondaryNavigationPanel-subMenuInnerLevel2">
-                                                        <div className="subMenuLevel2ListBlock">
-                                                            <h3 className="SecondaryNavigationPanel-subMenuItemTitle">Kitchen</h3>
-                                                            <ul className="SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List">
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 1</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 2</button>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li className="SecondaryNavigationPanel-subMenuLevelList"><a href="javascript:void(0)" data-automation-id="sub-menu-level1" className="SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link">Window</a>
-                                                    <div className="SecondaryNavigationPanel-subMenuInnerLevel2">
-                                                        <div className="subMenuLevel2ListBlock">
-                                                            <h3 className="SecondaryNavigationPanel-subMenuItemTitle">Window</h3>
-                                                            <ul className="SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List">
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 1</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 2</button>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li className="SecondaryNavigationPanel-subMenuLevelList"><a href="javascript:void(0)" data-automation-id="sub-menu-level1" className="SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link">Bed &amp; Bath</a>
-                                                    <div className="SecondaryNavigationPanel-subMenuInnerLevel2">
-                                                        <div className="subMenuLevel2ListBlock">
-                                                            <h3 className="SecondaryNavigationPanel-subMenuItemTitle">Bed &amp; Bath</h3>
-                                                            <ul className="SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List">
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 1</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 2</button>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li className="SecondaryNavigationPanel-subMenuLevelList"><a href="javascript:void(0)" data-automation-id="sub-menu-level1" className="SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link">Appliances</a>
-                                                    <div className="SecondaryNavigationPanel-subMenuInnerLevel2">
-                                                        <div className="subMenuLevel2ListBlock">
-                                                            <h3 className="SecondaryNavigationPanel-subMenuItemTitle">Appliances</h3>
-                                                            <ul className="SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List">
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 1</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 2</button>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li className="SecondaryNavigationPanel-subMenuLevelList"><a href="javascript:void(0)" data-automation-id="sub-menu-level1" className="SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link">More For Your Home</a>
-                                                    <div className="SecondaryNavigationPanel-subMenuInnerLevel2">
-                                                        <div className="subMenuLevel2ListBlock">
-                                                            <h3 className="SecondaryNavigationPanel-subMenuItemTitle">More For Your Home</h3>
-                                                            <ul className="SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List">
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 1</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 2</button>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li className="SecondaryNavigationPanel-subMenuLevelList"><a href="javascript:void(0)" data-automation-id="sub-menu-level1" className="SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link">Shop Sale &amp; Clearance</a>
-                                                    <div className="SecondaryNavigationPanel-subMenuInnerLevel2">
-                                                        <div className="subMenuLevel2ListBlock">
-                                                            <h3 className="SecondaryNavigationPanel-subMenuItemTitle">Shop Sale &amp; Clearance</h3>
-                                                            <ul className="SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List">
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 1</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 2</button>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li className="SecondaryNavigationPanel-menuItem">
-                                    <button className="SecondaryNavigationPanel-menuItemLink" data-automation-id="menu-item">Kids</button>
-                                    <div className="SecondaryNavigationPanel-subMenuInnerLevel">
-                                        <div className="SecondaryNavigationPanel-subMenuLevel1ListBlock">
-                                            <button className="SecondaryNavigationPanel-subMenuItemTitle" data-automation-id="menu-item-heading">Kids</button>
-                                            <ul className="SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-level2Block">
-                                                <li className="SecondaryNavigationPanel-subMenuLevelList"><a href="javascript:void(0)" data-automation-id="sub-menu-level1" className="SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link">Furniture</a>
-                                                    <div className="SecondaryNavigationPanel-subMenuInnerLevel2">
-                                                        <div className="subMenuLevel2ListBlock">
-                                                            <h3 className="SecondaryNavigationPanel-subMenuItemTitle">Furniture</h3>
-                                                            <ul className="SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List">
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Mattresses</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sofas</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Beds &amp; Headboards</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Chairs &amp; Recliners</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Dining Sets</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">View All Furniture</button>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li className="SecondaryNavigationPanel-subMenuLevelList"><a href="javascript:void(0)" data-automation-id="sub-menu-level1" className="SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link">Home Decor</a>
-                                                    <div className="SecondaryNavigationPanel-subMenuInnerLevel2">
-                                                        <div className="subMenuLevel2ListBlock">
-                                                            <h3 className="SecondaryNavigationPanel-subMenuItemTitle">Home Decor</h3>
-                                                            <ul className="SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List">
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 1</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 2</button>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li className="SecondaryNavigationPanel-subMenuLevelList"><a href="javascript:void(0)" data-automation-id="sub-menu-level1" className="SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link">Kitchen &amp; Dining</a>
-                                                    <div className="SecondaryNavigationPanel-subMenuInnerLevel2">
-                                                        <div className="subMenuLevel2ListBlock">
-                                                            <h3 className="SecondaryNavigationPanel-subMenuItemTitle">Kitchen</h3>
-                                                            <ul className="SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List">
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 1</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 2</button>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li className="SecondaryNavigationPanel-subMenuLevelList"><a href="javascript:void(0)" data-automation-id="sub-menu-level1" className="SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link">Window</a>
-                                                    <div className="SecondaryNavigationPanel-subMenuInnerLevel2">
-                                                        <div className="subMenuLevel2ListBlock">
-                                                            <h3 className="SecondaryNavigationPanel-subMenuItemTitle">Window</h3>
-                                                            <ul className="SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List">
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 1</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 2</button>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li className="SecondaryNavigationPanel-subMenuLevelList"><a href="javascript:void(0)" data-automation-id="sub-menu-level1" className="SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link">Bed &amp; Bath</a>
-                                                    <div className="SecondaryNavigationPanel-subMenuInnerLevel2">
-                                                        <div className="subMenuLevel2ListBlock">
-                                                            <h3 className="SecondaryNavigationPanel-subMenuItemTitle">Bed &amp; Bath</h3>
-                                                            <ul className="SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List">
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 1</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 2</button>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li className="SecondaryNavigationPanel-subMenuLevelList"><a href="javascript:void(0)" data-automation-id="sub-menu-level1" className="SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link">Appliances</a>
-                                                    <div className="SecondaryNavigationPanel-subMenuInnerLevel2">
-                                                        <div className="subMenuLevel2ListBlock">
-                                                            <h3 className="SecondaryNavigationPanel-subMenuItemTitle">Appliances</h3>
-                                                            <ul className="SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List">
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 1</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 2</button>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li className="SecondaryNavigationPanel-subMenuLevelList"><a href="javascript:void(0)" data-automation-id="sub-menu-level1" className="SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link">More For Your Home</a>
-                                                    <div className="SecondaryNavigationPanel-subMenuInnerLevel2">
-                                                        <div className="subMenuLevel2ListBlock">
-                                                            <h3 className="SecondaryNavigationPanel-subMenuItemTitle">More For Your Home</h3>
-                                                            <ul className="SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List">
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 1</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 2</button>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li className="SecondaryNavigationPanel-subMenuLevelList"><a href="javascript:void(0)" data-automation-id="sub-menu-level1" className="SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link">Shop Sale &amp; Clearance</a>
-                                                    <div className="SecondaryNavigationPanel-subMenuInnerLevel2">
-                                                        <div className="subMenuLevel2ListBlock">
-                                                            <h3 className="SecondaryNavigationPanel-subMenuItemTitle">Shop Sale &amp; Clearance</h3>
-                                                            <ul className="SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List">
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 1</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 2</button>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li className="SecondaryNavigationPanel-menuItem">
-                                    <button className="SecondaryNavigationPanel-menuItemLink" data-automation-id="menu-item">Baby</button>
-                                    <div className="SecondaryNavigationPanel-subMenuInnerLevel">
-                                        <div className="SecondaryNavigationPanel-subMenuLevel1ListBlock">
-                                            <button className="SecondaryNavigationPanel-subMenuItemTitle" data-automation-id="menu-item-heading">Baby</button>
-                                            <ul className="SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-level2Block">
-                                                <li className="SecondaryNavigationPanel-subMenuLevelList"><a href="javascript:void(0)" data-automation-id="sub-menu-level1" className="SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link">Furniture</a>
-                                                    <div className="SecondaryNavigationPanel-subMenuInnerLevel2">
-                                                        <div className="subMenuLevel2ListBlock">
-                                                            <h3 className="SecondaryNavigationPanel-subMenuItemTitle">Furniture</h3>
-                                                            <ul className="SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List">
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Mattresses</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sofas</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Beds &amp; Headboards</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Chairs &amp; Recliners</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Dining Sets</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">View All Furniture</button>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li className="SecondaryNavigationPanel-subMenuLevelList"><a href="javascript:void(0)" data-automation-id="sub-menu-level1" className="SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link">Home Decor</a>
-                                                    <div className="SecondaryNavigationPanel-subMenuInnerLevel2">
-                                                        <div className="subMenuLevel2ListBlock">
-                                                            <h3 className="SecondaryNavigationPanel-subMenuItemTitle">Home Decor</h3>
-                                                            <ul className="SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List">
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 1</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 2</button>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li className="SecondaryNavigationPanel-subMenuLevelList"><a href="javascript:void(0)" data-automation-id="sub-menu-level1" className="SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link">Kitchen &amp; Dining</a>
-                                                    <div className="SecondaryNavigationPanel-subMenuInnerLevel2">
-                                                        <div className="subMenuLevel2ListBlock">
-                                                            <h3 className="SecondaryNavigationPanel-subMenuItemTitle">Kitchen</h3>
-                                                            <ul className="SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List">
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 1</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 2</button>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li className="SecondaryNavigationPanel-subMenuLevelList"><a href="javascript:void(0)" data-automation-id="sub-menu-level1" className="SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link">Window</a>
-                                                    <div className="SecondaryNavigationPanel-subMenuInnerLevel2">
-                                                        <div className="subMenuLevel2ListBlock">
-                                                            <h3 className="SecondaryNavigationPanel-subMenuItemTitle">Window</h3>
-                                                            <ul className="SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List">
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 1</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 2</button>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li className="SecondaryNavigationPanel-subMenuLevelList"><a href="javascript:void(0)" data-automation-id="sub-menu-level1" className="SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link">Bed &amp; Bath</a>
-                                                    <div className="SecondaryNavigationPanel-subMenuInnerLevel2">
-                                                        <div className="subMenuLevel2ListBlock">
-                                                            <h3 className="SecondaryNavigationPanel-subMenuItemTitle">Bed &amp; Bath</h3>
-                                                            <ul className="SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List">
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 1</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 2</button>
-                                                                </li>
-                                                            </ul>
+ 
+<div className="side-panel from-right change-my-store-panel" id="changeMyStore">
+  <header className="side-panel-header">
+    <h3 className="title title-L color-white">Change My Store</h3>
+    <a href="javascript:void(0);" className="side-panel-close">
+      <div className="change-my-store-icon-close icon color-white-svg" dangerouslySetInnerHTML={{__html: closeImage}} />
+    </a>
+  </header>
+ 
+  <div className="side-panel-container">
+    <div className="side-panel-content">
+        <p>Stores within 15 mi. of <strong>75024</strong> <a href="javascript:void(0);">Change</a></p>
+        <div className="side-panel-row">
+            <div className="side-panel-col side-panel-col-select">
+              <div className="select form-layout column">
+                  <select className="form-control custom-select">
+                      <option value=''>Filter by Services (2)</option>
+                      <option value='1'>01</option>
+                      <option value='2'>02</option>
+                      <option value='3'>03</option>
+                      <option value='4'>04</option>
+                      <option value='5'>05</option>
+                      <option value='6'>06</option>
+                      <option value='7'>07</option>
+                      <option value='8'>08</option>
+                      <option value='9'>09</option>
+                      <option value='10'>10</option>
+                      <option value='11'>11</option>
+                      <option value='12'>12</option>
+                  </select>
+              </div>
+            </div>
+            <div className="side-panel-col side-panel-col-map-view algn-rght">
+              <a href="javascript:void(0);">Map View</a>
+            </div>
+          </div>
 
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li className="SecondaryNavigationPanel-subMenuLevelList"><a href="javascript:void(0)" data-automation-id="sub-menu-level1" className="SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link">Appliances</a>
-                                                    <div className="SecondaryNavigationPanel-subMenuInnerLevel2">
-                                                        <div className="subMenuLevel2ListBlock">
-                                                            <h3 className="SecondaryNavigationPanel-subMenuItemTitle">Appliances</h3>
-                                                            <ul className="SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List">
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 1</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 2</button>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li className="SecondaryNavigationPanel-subMenuLevelList"><a href="javascript:void(0)" data-automation-id="sub-menu-level1" className="SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link">More For Your Home</a>
-                                                    <div className="SecondaryNavigationPanel-subMenuInnerLevel2">
-                                                        <div className="subMenuLevel2ListBlock">
-                                                            <h3 className="SecondaryNavigationPanel-subMenuItemTitle">More For Your Home</h3>
-                                                            <ul className="SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List">
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 1</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 2</button>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li className="SecondaryNavigationPanel-subMenuLevelList"><a href="javascript:void(0)" data-automation-id="sub-menu-level1" className="SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link">Shop Sale &amp; Clearance</a>
-                                                    <div className="SecondaryNavigationPanel-subMenuInnerLevel2">
-                                                        <div className="subMenuLevel2ListBlock">
-                                                            <h3 className="SecondaryNavigationPanel-subMenuItemTitle">Shop Sale &amp; Clearance</h3>
-                                                            <ul className="SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List">
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 1</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 2</button>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li className="SecondaryNavigationPanel-menuItem">
-                                    <button className="SecondaryNavigationPanel-menuItemLink" data-automation-id="menu-item">Shoes</button>
-                                    <div className="SecondaryNavigationPanel-subMenuInnerLevel">
-                                        <div className="SecondaryNavigationPanel-subMenuLevel1ListBlock">
-                                            <button className="SecondaryNavigationPanel-subMenuItemTitle" data-automation-id="menu-item-heading">Shoes</button>
-                                            <ul className="SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-level2Block">
-                                                <li className="SecondaryNavigationPanel-subMenuLevelList"><a href="javascript:void(0)" data-automation-id="sub-menu-level1" className="SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link">Furniture</a>
-                                                    <div className="SecondaryNavigationPanel-subMenuInnerLevel2">
-                                                        <div className="subMenuLevel2ListBlock">
-                                                            <h3 className="SecondaryNavigationPanel-subMenuItemTitle">Furniture</h3>
-                                                            <ul className="SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List">
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Mattresses</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sofas</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Beds &amp; Headboards</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Chairs &amp; Recliners</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Dining Sets</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">View All Furniture</button>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li className="SecondaryNavigationPanel-subMenuLevelList"><a href="javascript:void(0)" data-automation-id="sub-menu-level1" className="SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link">Home Decor</a>
-                                                    <div className="SecondaryNavigationPanel-subMenuInnerLevel2">
-                                                        <div className="subMenuLevel2ListBlock">
-                                                            <h3 className="SecondaryNavigationPanel-subMenuItemTitle">Home Decor</h3>
-                                                            <ul className="SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List">
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 1</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 2</button>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li className="SecondaryNavigationPanel-subMenuLevelList"><a href="javascript:void(0)" data-automation-id="sub-menu-level1" className="SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link">Kitchen &amp; Dining</a>
-                                                    <div className="SecondaryNavigationPanel-subMenuInnerLevel2">
-                                                        <div className="subMenuLevel2ListBlock">
-                                                            <h3 className="SecondaryNavigationPanel-subMenuItemTitle">Kitchen</h3>
-                                                            <ul className="SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List">
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 1</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 2</button>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li className="SecondaryNavigationPanel-subMenuLevelList"><a href="javascript:void(0)" data-automation-id="sub-menu-level1" className="SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link">Window</a>
-                                                    <div className="SecondaryNavigationPanel-subMenuInnerLevel2">
-                                                        <div className="subMenuLevel2ListBlock">
-                                                            <h3 className="SecondaryNavigationPanel-subMenuItemTitle">Window</h3>
-                                                            <ul className="SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List">
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 1</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 2</button>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li className="SecondaryNavigationPanel-subMenuLevelList"><a href="javascript:void(0)" data-automation-id="sub-menu-level1" className="SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link">Bed &amp; Bath</a>
-                                                    <div className="SecondaryNavigationPanel-subMenuInnerLevel2">
-                                                        <div className="subMenuLevel2ListBlock">
-                                                            <h3 className="SecondaryNavigationPanel-subMenuItemTitle">Bed &amp; Bath</h3>
-                                                            <ul className="SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List">
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 1</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 2</button>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li className="SecondaryNavigationPanel-subMenuLevelList"><a href="javascript:void(0)" data-automation-id="sub-menu-level1" className="SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link">Appliances</a>
-                                                    <div className="SecondaryNavigationPanel-subMenuInnerLevel2">
-                                                        <div className="subMenuLevel2ListBlock">
-                                                            <h3 className="SecondaryNavigationPanel-subMenuItemTitle">Appliances</h3>
-                                                            <ul className="SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List">
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 1</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 2</button>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li className="SecondaryNavigationPanel-subMenuLevelList"><a href="javascript:void(0)" data-automation-id="sub-menu-level1" className="SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link">More For Your Home</a>
-                                                    <div className="SecondaryNavigationPanel-subMenuInnerLevel2">
-                                                        <div className="subMenuLevel2ListBlock">
-                                                            <h3 className="SecondaryNavigationPanel-subMenuItemTitle">More For Your Home</h3>
-                                                            <ul className="SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List">
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 1</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 2</button>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li className="SecondaryNavigationPanel-subMenuLevelList"><a href="javascript:void(0)" data-automation-id="sub-menu-level1" className="SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link">Shop Sale &amp; Clearance</a>
-                                                    <div className="SecondaryNavigationPanel-subMenuInnerLevel2">
-                                                        <div className="subMenuLevel2ListBlock">
-                                                            <h3 className="SecondaryNavigationPanel-subMenuItemTitle">Shop Sale &amp; Clearance</h3>
-                                                            <ul className="SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List">
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 1</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 2</button>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li className="SecondaryNavigationPanel-menuItem">
-                                    <button className="SecondaryNavigationPanel-menuItemLink" data-automation-id="menu-item">Handbags</button>
-                                    <div className="SecondaryNavigationPanel-subMenuInnerLevel">
-                                        <div className="SecondaryNavigationPanel-subMenuLevel1ListBlock">
-                                            <button className="SecondaryNavigationPanel-subMenuItemTitle" data-automation-id="menu-item-heading">Handbags</button>
-                                            <ul className="SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-level2Block">
-                                                <li className="SecondaryNavigationPanel-subMenuLevelList"><a href="javascript:void(0)" data-automation-id="sub-menu-level1" className="SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link">Furniture</a>
-                                                    <div className="SecondaryNavigationPanel-subMenuInnerLevel2">
-                                                        <div className="subMenuLevel2ListBlock">
-                                                            <h3 className="SecondaryNavigationPanel-subMenuItemTitle">Furniture</h3>
-                                                            <ul className="SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List">
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Mattresses</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sofas</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Beds &amp; Headboards</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Chairs &amp; Recliners</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Dining Sets</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">View All Furniture</button>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li className="SecondaryNavigationPanel-subMenuLevelList"><a href="javascript:void(0)" data-automation-id="sub-menu-level1" className="SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link">Home Decor</a>
-                                                    <div className="SecondaryNavigationPanel-subMenuInnerLevel2">
-                                                        <div className="subMenuLevel2ListBlock">
-                                                            <h3 className="SecondaryNavigationPanel-subMenuItemTitle">Home Decor</h3>
-                                                            <ul className="SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List">
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 1</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 2</button>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li className="SecondaryNavigationPanel-subMenuLevelList"><a href="javascript:void(0)" data-automation-id="sub-menu-level1" className="SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link">Kitchen &amp; Dining</a>
-                                                    <div className="SecondaryNavigationPanel-subMenuInnerLevel2">
-                                                        <div className="subMenuLevel2ListBlock">
-                                                            <h3 className="SecondaryNavigationPanel-subMenuItemTitle">Kitchen</h3>
-                                                            <ul className="SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List">
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 1</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 2</button>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li className="SecondaryNavigationPanel-subMenuLevelList"><a href="javascript:void(0)" data-automation-id="sub-menu-level1" className="SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link">Window</a>
-                                                    <div className="SecondaryNavigationPanel-subMenuInnerLevel2">
-                                                        <div className="subMenuLevel2ListBlock">
-                                                            <h3 className="SecondaryNavigationPanel-subMenuItemTitle">Window</h3>
-                                                            <ul className="SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List">
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 1</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 2</button>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li className="SecondaryNavigationPanel-subMenuLevelList"><a href="javascript:void(0)" data-automation-id="sub-menu-level1" className="SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link">Bed &amp; Bath</a>
-                                                    <div className="SecondaryNavigationPanel-subMenuInnerLevel2">
-                                                        <div className="subMenuLevel2ListBlock">
-                                                            <h3 className="SecondaryNavigationPanel-subMenuItemTitle">Bed &amp; Bath</h3>
-                                                            <ul className="SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List">
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 1</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 2</button>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li className="SecondaryNavigationPanel-subMenuLevelList"><a href="javascript:void(0)" data-automation-id="sub-menu-level1" className="SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link">Appliances</a>
-                                                    <div className="SecondaryNavigationPanel-subMenuInnerLevel2">
-                                                        <div className="subMenuLevel2ListBlock">
-                                                            <h3 className="SecondaryNavigationPanel-subMenuItemTitle">Appliances</h3>
-                                                            <ul className="SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List">
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 1</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 2</button>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li className="SecondaryNavigationPanel-subMenuLevelList"><a href="javascript:void(0)" data-automation-id="sub-menu-level1" className="SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link">More For Your Home</a>
-                                                    <div className="SecondaryNavigationPanel-subMenuInnerLevel2">
-                                                        <div className="subMenuLevel2ListBlock">
-                                                            <h3 className="SecondaryNavigationPanel-subMenuItemTitle">More For Your Home</h3>
-                                                            <ul className="SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List">
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 1</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 2</button>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li className="SecondaryNavigationPanel-subMenuLevelList"><a href="javascript:void(0)" data-automation-id="sub-menu-level1" className="SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link">Shop Sale &amp; Clearance</a>
-                                                    <div className="SecondaryNavigationPanel-subMenuInnerLevel2">
-                                                        <div className="subMenuLevel2ListBlock">
-                                                            <h3 className="SecondaryNavigationPanel-subMenuItemTitle">Shop Sale &amp; Clearance</h3>
-                                                            <ul className="SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List">
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 1</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 2</button>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li className="SecondaryNavigationPanel-menuItem">
-                                    <button className="SecondaryNavigationPanel-menuItemLink" data-automation-id="menu-item">Jewelry</button>
-                                    <div className="SecondaryNavigationPanel-subMenuInnerLevel">
-                                        <div className="SecondaryNavigationPanel-subMenuLevel1ListBlock">
-                                            <button className="SecondaryNavigationPanel-subMenuItemTitle" data-automation-id="menu-item-heading">Jewelry</button>
-                                            <ul className="SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-level2Block">
-                                                <li className="SecondaryNavigationPanel-subMenuLevelList"><a href="javascript:void(0)" data-automation-id="sub-menu-level1" className="SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link">Furniture</a>
-                                                    <div className="SecondaryNavigationPanel-subMenuInnerLevel2">
-                                                        <div className="subMenuLevel2ListBlock">
-                                                            <h3 className="SecondaryNavigationPanel-subMenuItemTitle">Furniture</h3>
-                                                            <ul className="SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List">
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Mattresses</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sofas</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Beds &amp; Headboards</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Chairs &amp; Recliners</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Dining Sets</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">View All Furniture</button>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li className="SecondaryNavigationPanel-subMenuLevelList"><a href="javascript:void(0)" data-automation-id="sub-menu-level1" className="SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link">Home Decor</a>
-                                                    <div className="SecondaryNavigationPanel-subMenuInnerLevel2">
-                                                        <div className="subMenuLevel2ListBlock">
-                                                            <h3 className="SecondaryNavigationPanel-subMenuItemTitle">Home Decor</h3>
-                                                            <ul className="SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List">
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 1</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 2</button>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li className="SecondaryNavigationPanel-subMenuLevelList"><a href="javascript:void(0)" data-automation-id="sub-menu-level1" className="SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link">Kitchen &amp; Dining</a>
-                                                    <div className="SecondaryNavigationPanel-subMenuInnerLevel2">
-                                                        <div className="subMenuLevel2ListBlock">
-                                                            <h3 className="SecondaryNavigationPanel-subMenuItemTitle">Kitchen</h3>
-                                                            <ul className="SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List">
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 1</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 2</button>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li className="SecondaryNavigationPanel-subMenuLevelList"><a href="javascript:void(0)" data-automation-id="sub-menu-level1" className="SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link">Window</a>
-                                                    <div className="SecondaryNavigationPanel-subMenuInnerLevel2">
-                                                        <div className="subMenuLevel2ListBlock">
-                                                            <h3 className="SecondaryNavigationPanel-subMenuItemTitle">Window</h3>
-                                                            <ul className="SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List">
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 1</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 2</button>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li className="SecondaryNavigationPanel-subMenuLevelList"><a href="javascript:void(0)" data-automation-id="sub-menu-level1" className="SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link">Bed &amp; Bath</a>
-                                                    <div className="SecondaryNavigationPanel-subMenuInnerLevel2">
-                                                        <div className="subMenuLevel2ListBlock">
-                                                            <h3 className="SecondaryNavigationPanel-subMenuItemTitle">Bed &amp; Bath</h3>
-                                                            <ul className="SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List">
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 1</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 2</button>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li className="SecondaryNavigationPanel-subMenuLevelList"><a href="javascript:void(0)" data-automation-id="sub-menu-level1" className="SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link">Appliances</a>
-                                                    <div className="SecondaryNavigationPanel-subMenuInnerLevel2">
-                                                        <div className="subMenuLevel2ListBlock">
-                                                            <h3 className="SecondaryNavigationPanel-subMenuItemTitle">Appliances</h3>
-                                                            <ul className="SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List">
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 1</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 2</button>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li className="SecondaryNavigationPanel-subMenuLevelList"><a href="javascript:void(0)" data-automation-id="sub-menu-level1" className="SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link">More For Your Home</a>
-                                                    <div className="SecondaryNavigationPanel-subMenuInnerLevel2">
-                                                        <div className="subMenuLevel2ListBlock">
-                                                            <h3 className="SecondaryNavigationPanel-subMenuItemTitle">More For Your Home</h3>
-                                                            <ul className="SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List">
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 1</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 2</button>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li className="SecondaryNavigationPanel-subMenuLevelList"><a href="javascript:void(0)" data-automation-id="sub-menu-level1" className="SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link">Shop Sale &amp; Clearance</a>
-                                                    <div className="SecondaryNavigationPanel-subMenuInnerLevel2">
-                                                        <div className="subMenuLevel2ListBlock">
-                                                            <h3 className="SecondaryNavigationPanel-subMenuItemTitle">Shop Sale &amp; Clearance</h3>
-                                                            <ul className="SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List">
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 1</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 2</button>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li className="SecondaryNavigationPanel-menuItem">
-                                    <button className="SecondaryNavigationPanel-menuItemLink" data-automation-id="menu-item">Salon</button>
-                                    <div className="SecondaryNavigationPanel-subMenuInnerLevel">
-                                        <div className="SecondaryNavigationPanel-subMenuLevel1ListBlock">
-                                            <button className="SecondaryNavigationPanel-subMenuItemTitle" data-automation-id="menu-item-heading">Salon</button>
-                                            <ul className="SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-level2Block">
-                                                <li className="SecondaryNavigationPanel-subMenuLevelList"><a href="javascript:void(0)" data-automation-id="sub-menu-level1" className="SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link">Furniture</a>
-                                                    <div className="SecondaryNavigationPanel-subMenuInnerLevel2">
-                                                        <div className="subMenuLevel2ListBlock">
-                                                            <h3 className="SecondaryNavigationPanel-subMenuItemTitle">Furniture</h3>
-                                                            <ul className="SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List">
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Mattresses</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sofas</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Beds &amp; Headboards</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Chairs &amp; Recliners</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Dining Sets</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">View All Furniture</button>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li className="SecondaryNavigationPanel-subMenuLevelList"><a href="javascript:void(0)" data-automation-id="sub-menu-level1" className="SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link">Home Decor</a>
-                                                    <div className="SecondaryNavigationPanel-subMenuInnerLevel2">
-                                                        <div className="subMenuLevel2ListBlock">
-                                                            <h3 className="SecondaryNavigationPanel-subMenuItemTitle">Home Decor</h3>
-                                                            <ul className="SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List">
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 1</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 2</button>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li className="SecondaryNavigationPanel-subMenuLevelList"><a href="javascript:void(0)" data-automation-id="sub-menu-level1" className="SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link">Kitchen &amp; Dining</a>
-                                                    <div className="SecondaryNavigationPanel-subMenuInnerLevel2">
-                                                        <div className="subMenuLevel2ListBlock">
-                                                            <h3 className="SecondaryNavigationPanel-subMenuItemTitle">Kitchen</h3>
-                                                            <ul className="SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List">
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 1</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 2</button>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li className="SecondaryNavigationPanel-subMenuLevelList"><a href="javascript:void(0)" data-automation-id="sub-menu-level1" className="SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link">Window</a>
-                                                    <div className="SecondaryNavigationPanel-subMenuInnerLevel2">
-                                                        <div className="subMenuLevel2ListBlock">
-                                                            <h3 className="SecondaryNavigationPanel-subMenuItemTitle">Window</h3>
-                                                            <ul className="SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List">
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 1</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 2</button>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li className="SecondaryNavigationPanel-subMenuLevelList"><a href="javascript:void(0)" data-automation-id="sub-menu-level1" className="SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link">Bed &amp; Bath</a>
-                                                    <div className="SecondaryNavigationPanel-subMenuInnerLevel2">
-                                                        <div className="subMenuLevel2ListBlock">
-                                                            <h3 className="SecondaryNavigationPanel-subMenuItemTitle">Bed &amp; Bath</h3>
-                                                            <ul className="SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List">
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 1</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 2</button>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li className="SecondaryNavigationPanel-subMenuLevelList"><a href="javascript:void(0)" data-automation-id="sub-menu-level1" className="SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link">Appliances</a>
-                                                    <div className="SecondaryNavigationPanel-subMenuInnerLevel2">
-                                                        <div className="subMenuLevel2ListBlock">
-                                                            <h3 className="SecondaryNavigationPanel-subMenuItemTitle">Appliances</h3>
-                                                            <ul className="SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List">
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 1</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 2</button>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li className="SecondaryNavigationPanel-subMenuLevelList"><a href="javascript:void(0)" data-automation-id="sub-menu-level1" className="SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link">More For Your Home</a>
-                                                    <div className="SecondaryNavigationPanel-subMenuInnerLevel2">
-                                                        <div className="subMenuLevel2ListBlock">
-                                                            <h3 className="SecondaryNavigationPanel-subMenuItemTitle">More For Your Home</h3>
-                                                            <ul className="SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List">
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 1</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 2</button>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li className="SecondaryNavigationPanel-subMenuLevelList"><a href="javascript:void(0)" data-automation-id="sub-menu-level1" className="SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link">Shop Sale &amp; Clearance</a>
-                                                    <div className="SecondaryNavigationPanel-subMenuInnerLevel2">
-                                                        <div className="subMenuLevel2ListBlock">
-                                                            <h3 className="SecondaryNavigationPanel-subMenuItemTitle">Shop Sale &amp; Clearance</h3>
-                                                            <ul className="SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List">
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 1</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 2</button>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li className="SecondaryNavigationPanel-menuItem">
-                                    <button className="SecondaryNavigationPanel-menuItemLink" data-automation-id="menu-item">Sephora</button>
-                                    <div className="SecondaryNavigationPanel-subMenuInnerLevel">
-                                        <div className="SecondaryNavigationPanel-subMenuLevel1ListBlock">
-                                            <button className="SecondaryNavigationPanel-subMenuItemTitle" data-automation-id="menu-item-heading">Sephora</button>
-                                            <ul className="SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-level2Block">
-                                                <li className="SecondaryNavigationPanel-subMenuLevelList"><a href="javascript:void(0)" data-automation-id="sub-menu-level1" className="SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link">Furniture</a>
-                                                    <div className="SecondaryNavigationPanel-subMenuInnerLevel2">
-                                                        <div className="subMenuLevel2ListBlock">
-                                                            <h3 className="SecondaryNavigationPanel-subMenuItemTitle">Furniture</h3>
-                                                            <ul className="SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List">
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Mattresses</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sofas</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Beds &amp; Headboards</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Chairs &amp; Recliners</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Dining Sets</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">View All Furniture</button>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li className="SecondaryNavigationPanel-subMenuLevelList"><a href="javascript:void(0)" data-automation-id="sub-menu-level1" className="SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link">Home Decor</a>
-                                                    <div className="SecondaryNavigationPanel-subMenuInnerLevel2">
-                                                        <div className="subMenuLevel2ListBlock">
-                                                            <h3 className="SecondaryNavigationPanel-subMenuItemTitle">Home Decor</h3>
-                                                            <ul className="SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List">
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 1</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 2</button>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li className="SecondaryNavigationPanel-subMenuLevelList"><a href="javascript:void(0)" data-automation-id="sub-menu-level1" className="SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link">Kitchen &amp; Dining</a>
-                                                    <div className="SecondaryNavigationPanel-subMenuInnerLevel2">
-                                                        <div className="subMenuLevel2ListBlock">
-                                                            <h3 className="SecondaryNavigationPanel-subMenuItemTitle">Kitchen</h3>
-                                                            <ul className="SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List">
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 1</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 2</button>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li className="SecondaryNavigationPanel-subMenuLevelList"><a href="javascript:void(0)" data-automation-id="sub-menu-level1" className="SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link">Window</a>
-                                                    <div className="SecondaryNavigationPanel-subMenuInnerLevel2">
-                                                        <div className="subMenuLevel2ListBlock">
-                                                            <h3 className="SecondaryNavigationPanel-subMenuItemTitle">Window</h3>
-                                                            <ul className="SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List">
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 1</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 2</button>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li className="SecondaryNavigationPanel-subMenuLevelList"><a href="javascript:void(0)" data-automation-id="sub-menu-level1" className="SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link">Bed &amp; Bath</a>
-                                                    <div className="SecondaryNavigationPanel-subMenuInnerLevel2">
-                                                        <div className="subMenuLevel2ListBlock">
-                                                            <h3 className="SecondaryNavigationPanel-subMenuItemTitle">Bed &amp; Bath</h3>
-                                                            <ul className="SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List">
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 1</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 2</button>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li className="SecondaryNavigationPanel-subMenuLevelList"><a href="javascript:void(0)" data-automation-id="sub-menu-level1" className="SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link">Appliances</a>
-                                                    <div className="SecondaryNavigationPanel-subMenuInnerLevel2">
-                                                        <div className="subMenuLevel2ListBlock">
-                                                            <h3 className="SecondaryNavigationPanel-subMenuItemTitle">Appliances</h3>
-                                                            <ul className="SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List">
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 1</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 2</button>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li className="SecondaryNavigationPanel-subMenuLevelList"><a href="javascript:void(0)" data-automation-id="sub-menu-level1" className="SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link">More For Your Home</a>
-                                                    <div className="SecondaryNavigationPanel-subMenuInnerLevel2">
-                                                        <div className="subMenuLevel2ListBlock">
-                                                            <h3 className="SecondaryNavigationPanel-subMenuItemTitle">More For Your Home</h3>
-                                                            <ul className="SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List">
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 1</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 2</button>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li className="SecondaryNavigationPanel-subMenuLevelList"><a href="javascript:void(0)" data-automation-id="sub-menu-level1" className="SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link">Shop Sale &amp; Clearance</a>
-                                                    <div className="SecondaryNavigationPanel-subMenuInnerLevel2">
-                                                        <div className="subMenuLevel2ListBlock">
-                                                            <h3 className="SecondaryNavigationPanel-subMenuItemTitle">Shop Sale &amp; Clearance</h3>
-                                                            <ul className="SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List">
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 1</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 2</button>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li className="SecondaryNavigationPanel-menuItem">
-                                    <button className="SecondaryNavigationPanel-menuItemLink" data-automation-id="menu-item">Clearance</button>
-                                    <div className="SecondaryNavigationPanel-subMenuInnerLevel">
-                                        <div className="SecondaryNavigationPanel-subMenuLevel1ListBlock">
-                                            <button className="SecondaryNavigationPanel-subMenuItemTitle" data-automation-id="menu-item-heading">Clearance</button>
-                                            <ul className="SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-level2Block">
-                                                <li className="SecondaryNavigationPanel-subMenuLevelList"><a href="javascript:void(0)" data-automation-id="sub-menu-level1" className="SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link">Furniture</a>
-                                                    <div className="SecondaryNavigationPanel-subMenuInnerLevel2">
-                                                        <div className="subMenuLevel2ListBlock">
-                                                            <h3 className="SecondaryNavigationPanel-subMenuItemTitle">Furniture</h3>
-                                                            <ul className="SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List">
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Mattresses</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sofas</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Beds &amp; Headboards</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Chairs &amp; Recliners</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Dining Sets</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">View All Furniture</button>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li className="SecondaryNavigationPanel-subMenuLevelList"><a href="javascript:void(0)" data-automation-id="sub-menu-level1" className="SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link">Home Decor</a>
-                                                    <div className="SecondaryNavigationPanel-subMenuInnerLevel2">
-                                                        <div className="subMenuLevel2ListBlock">
-                                                            <h3 className="SecondaryNavigationPanel-subMenuItemTitle">Home Decor</h3>
-                                                            <ul className="SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List">
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 1</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 2</button>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li className="SecondaryNavigationPanel-subMenuLevelList"><a href="javascript:void(0)" data-automation-id="sub-menu-level1" className="SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link">Kitchen &amp; Dining</a>
-                                                    <div className="SecondaryNavigationPanel-subMenuInnerLevel2">
-                                                        <div className="subMenuLevel2ListBlock">
-                                                            <h3 className="SecondaryNavigationPanel-subMenuItemTitle">Kitchen</h3>
-                                                            <ul className="SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List">
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 1</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 2</button>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li className="SecondaryNavigationPanel-subMenuLevelList"><a href="javascript:void(0)" data-automation-id="sub-menu-level1" className="SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link">Window</a>
-                                                    <div className="SecondaryNavigationPanel-subMenuInnerLevel2">
-                                                        <div className="subMenuLevel2ListBlock">
-                                                            <h3 className="SecondaryNavigationPanel-subMenuItemTitle">Window</h3>
-                                                            <ul className="SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List">
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 1</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 2</button>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li className="SecondaryNavigationPanel-subMenuLevelList"><a href="javascript:void(0)" data-automation-id="sub-menu-level1" className="SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link">Bed &amp; Bath</a>
-                                                    <div className="SecondaryNavigationPanel-subMenuInnerLevel2">
-                                                        <div className="subMenuLevel2ListBlock">
-                                                            <h3 className="SecondaryNavigationPanel-subMenuItemTitle">Bed &amp; Bath</h3>
-                                                            <ul className="SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List">
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 1</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 2</button>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li className="SecondaryNavigationPanel-subMenuLevelList"><a href="javascript:void(0)" data-automation-id="sub-menu-level1" className="SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link">Appliances</a>
-                                                    <div className="SecondaryNavigationPanel-subMenuInnerLevel2">
-                                                        <div className="subMenuLevel2ListBlock">
-                                                            <h3 className="SecondaryNavigationPanel-subMenuItemTitle">Appliances</h3>
-                                                            <ul className="SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List">
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 1</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 2</button>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li className="SecondaryNavigationPanel-subMenuLevelList"><a href="javascript:void(0)" data-automation-id="sub-menu-level1" className="SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link">More For Your Home</a>
-                                                    <div className="SecondaryNavigationPanel-subMenuInnerLevel2">
-                                                        <div className="subMenuLevel2ListBlock">
-                                                            <h3 className="SecondaryNavigationPanel-subMenuItemTitle">More For Your Home</h3>
-                                                            <ul className="SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List">
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 1</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 2</button>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li className="SecondaryNavigationPanel-subMenuLevelList"><a href="javascript:void(0)" data-automation-id="sub-menu-level1" className="SecondaryNavigationPanel-subMenuLevelLink SecondaryNavigationPanel-subMenuLevel1Link">Shop Sale &amp; Clearance</a>
-                                                    <div className="SecondaryNavigationPanel-subMenuInnerLevel2">
-                                                        <div className="subMenuLevel2ListBlock">
-                                                            <h3 className="SecondaryNavigationPanel-subMenuItemTitle">Shop Sale &amp; Clearance</h3>
-                                                            <ul className="SecondaryNavigationPanel-subMenuLevel1List SecondaryNavigationPanel-subMenuLevel2List">
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 1</button>
-                                                                </li>
-                                                                <li>
-                                                                    <button className="SecondaryNavigationPanel-subMenuLevelLink" data-automation-id="sub-menu-level2">Sample Link 2</button>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </li>
-                            </ul>
-                            <div className="SecondaryNavigationPanelBg"></div>
-                        </div>
-                    </div>
-                </div>
-                <div className="SecondaryNavigationPanel-config-links" data-reactid="57">
-                    <div className="List-list-main List-cozy" data-automation-id="at-error-helpfullinks-renderer" data-reactid="58">
-                        <div className="list-body SecondaryNavigationPanel-listBody List-list-scroll-h" data-reactid="59">
-                            <ul className="List-list-ul SecondaryNavigationPanel-listBlock" data-automation-id="at-error-helpfullinks-renderer" data-reactid="60">
-                                <li className="List-list-li List-cozy SecondaryNavigationPanel-listItem" data-automation-id="list-item-0">
-                                    <button className="SecondaryNavigationPanel-links" data-reactid="62">JCPenney Rewards</button>
-                                </li>
-                                <li className="List-list-li List-cozy SecondaryNavigationPanel-listItem" data-automation-id="list-item-1" data-reactid="63">
-                                    <button className="SecondaryNavigationPanel-links" data-reactid="64">Saved Items</button>
-                                </li>
-                                <li className="List-list-li List-cozy SecondaryNavigationPanel-listItem" data-automation-id="list-item-2" data-reactid="65">
-                                    <button className="SecondaryNavigationPanel-links" data-reactid="66">Coupons</button>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+
+        <div className="change-my-store-listing">
+          <div className="side-panel-row">
+            <div className="side-panel-col side-panel-col-details">
+              <h4 className="mrg-S">Stonebriar Mall <span class="change-my-store-mileage color-slate">(3.5mi)</span></h4>
+              <p className="std-txt std-txt-S mrg-XS color-nightsky">2480 Preston Rd</p>
+              <p className="std-txt std-txt-S"><a href="javascript:void(0);">View Hours &amp; Services</a></p>
             </div>
-            <button data-automation-id="test-automation-btn-0" type="button" className="Button-btn Button-btnDefault Button-btnText SecondaryNavigationPanel-findStoreWrapper" data-reactid="67">
-                <div className="SecondaryNavigationPanel-store-iconWrapper" data-reactid="68">
-                  
-                </div>
-                <div className="SecondaryNavigationPanel-store-Text" data-reactid="71">
-                    <div className="SecondaryNavigationPanel-findTitle" data-reactid="72">Near You</div>
-                    <div className="SecondaryNavigationPanel-findText" title="Change or update your local store" data-reactid="73">
-                        Find a Store
-                       <span className="SecondaryNavigationPanel-storeDropDownIcon" data-reactid="75"></span></div>
-                </div>
-            </button>
-        </div>
-        <div className="SecondaryNavigationPanel-verticalmenu-wrapper" data-reactid="76">
-            <div className="SecondaryNavigationPanel-hideStoreWrapper" data-reactid="77"></div>
-            <div className="SecondaryNavigationPanel-verticalslide" data-reactid="78">
-                <div className="SecondaryNavigationPanel-sliderHeader" data-reactid="79">
-                    <button data-automation-id="test-automation-btn-0" type="button" className="Button-btn Button-btnDefault Button-btnText SecondaryNavigationPanel-leftArrowWrapper" data-reactid="80">
-                       
-                       Back
-                    </button>
-                </div>
-                <div className="SecondaryNavigationPanel-slider-data" data-reactid="84"></div>
+            <div className="side-panel-col-button">
+              <a href="javascript:void(0);" class="btn btn-L btn-full btn-primary btn-disabled">
+                My Store
+              </a>
             </div>
+          </div>
         </div>
-    </div>
-</div>
+
+        <div className="change-my-store-listing">
+          <div className="side-panel-row">
+            <div className="side-panel-col side-panel-col-details">
+              <h4 className="mrg-S">Collin Creek Mall <span class="change-my-store-mileage color-slate">(5.2mi)</span></h4>
+              <p className="std-txt std-txt-S mrg-XS color-nightsky">2480 Preston Rd</p>
+              <p className="std-txt std-txt-S"><a href="javascript:void(0);">View Hours &amp; Services</a></p>
+            </div>
+            <div className="side-panel-col side-panel-col-button">
+              <a href="javascript:void(0);" class="btn btn-L btn-full btn-primary">
+                Set Store
+              </a>
+            </div>
+          </div>
+        </div>
+
+
+    </div> 
+  </div>
+</div> 
+
+
             </header>
     
     <div className="row">
