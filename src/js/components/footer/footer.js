@@ -10,6 +10,7 @@ const pinterestlineImage = require('!!raw-loader?es5=1!../../../images/global/ic
 const googlepluslineImage = require('!!raw-loader?es5=1!../../../images/global/icons/social/google-plus-line.svg');
 const youtubelineImage = require('!!raw-loader?es5=1!../../../images/global/icons/social/youtube-line.svg');
 const bloglineImage = require('!!raw-loader?es5=1!../../../images/global/icons/social/blog-line.svg');
+const cardJCPRed = require('!!raw-loader?es5=1!../../../images/global/icons/payment/card-jcp-red.svg');
 
 class Footer extends Component {
 
@@ -79,43 +80,67 @@ class Footer extends Component {
                             </ul>
                             <ul>
                                 <li className="footer-links-title">Customer Service</li>
-                                <li><a href="avascript:void();">Returns</a></li>
-                                <li><a href="avascript:void();">Shipping information</a></li>
-                                <li><a href="avascript:void();">Rebates</a></li>
-                                <li><a href="avascript:void();">Same Day Pickup</a></li>
-                                <li><a href="avascript:void();">My JCP.com Account</a></li>
-                                <li><a href="avascript:void();">Track My Order</a></li>
-                                <li><a href="avascript:void();">Servicio Al Cliente</a></li>
+                                <li><a href="javascript:void();">Returns</a></li>
+                                <li><a href="javascript:void();">Shipping information</a></li>
+                                <li><a href="javascript:void();">Rebates</a></li>
+                                <li><a href="javascript:void();">Same Day Pickup</a></li>
+                                <li><a href="javascript:void();">My JCP.com Account</a></li>
+                                <li><a href="javascript:void();">Track My Order</a></li>
+                                <li><a href="javascript:void();">Servicio Al Cliente</a></li>
                             </ul>
                             <ul>
-                                <li><a href="avascript:void();">JCP Salon</a></li>
-                                <li><a href="avascript:void();">Sephora</a></li>
-                                <li><a href="avascript:void();">JCP Portraits</a></li>
-                                <li><a href="avascript:void();">JCP Optical</a></li>
-                                <li><a href="avascript:void();">Gift Registry</a></li>
-                                <li><a href="avascript:void();">JCP Custom Window</a></li>
-                                <li><a href="avascript:void();">View All Store Services</a></li>
+                                <li className="footer-links-title">Store Services</li>
+                                <li><a href="javascript:void();">JCP Salon</a></li>
+                                <li><a href="javascript:void();">Sephora</a></li>
+                                <li><a href="javascript:void();">JCP Portraits</a></li>
+                                <li><a href="javascript:void();">JCP Optical</a></li>
+                                <li><a href="javascript:void();">Gift Registry</a></li>
+                                <li><a href="javascript:void();">JCP Custom Window</a></li>
+                                <li><a href="javascript:void();">View All Store Services</a></li>
                             </ul>
                             <ul>
                                 <li className="footer-links-title">More Ways to Shop</li>
-                                <li><a href="avascript:void();">See our ads</a></li>
-                                <li><a href="avascript:void();">Coupons</a></li>
-                                <li><a href="avascript:void();">Recommendations</a></li>
-                                <li><a href="avascript:void();">Gift Cards</a></li>
-                                <li><a href="avascript:void();">International Shopping</a></li>
+                                <li><a href="javascript:void();">See our ads</a></li>
+                                <li><a href="javascript:void();">Coupons</a></li>
+                                <li><a href="javascript:void();">Recommendations</a></li>
+                                <li><a href="javascript:void();">Gift Cards</a></li>
+                                <li><a href="javascript:void();">International Shopping</a></li>
                             </ul>
                             <ul>
                                 <li className="footer-links-title">Corporate Overview</li>
-                                <li><a href="avascript:void();">Careers</a></li>
-                                <li><a href="avascript:void();">Company Info</a></li>
-                                <li><a href="avascript:void();">Community</a></li>
-                                <li><a href="avascript:void();">Media</a></li>
-                                <li><a href="avascript:void();">Investors</a></li>
+                                <li><a href="javascript:void();">Careers</a></li>
+                                <li><a href="javascript:void();">Company Info</a></li>
+                                <li><a href="javascript:void();">Community</a></li>
+                                <li><a href="javascript:void();">Media</a></li>
+                                <li><a href="javascript:void();">Investors</a></li>
                             </ul>
                         </div>
-                        <div className="footer-legal-links md12 lg12 xl12 sm12">
-                            
+                        <div className="footer-bottom-links md12 lg12 xl12 sm12">
+                            <div className="footer-jcp-card md4 lg4 xl4 sm12">
+                                <div className="card-icon">
+                                    <span className="icon" dangerouslySetInnerHTML={{ __html: cardJCPRed }} />
+                                </div>
+                                <div className="card-links">
+                                    <h3>JCPenney Credit Card</h3>
+                                    <ul>
+                                        <li><a href="javascript:void();">Pay Bill </a></li>
+                                        <li><a href="javascript:void();">Check Balance </a></li>
+                                        <li><a href="javascript:void();">Apply Now </a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div className="footer-legal-links md8 lg8 xl8 sm12">
+                                <ul>
+                                    <li><a href="javascript:void();">Legal</a></li>
+                                    <li><a href="javascript:void();">Recalls</a></li>
+                                    <li><a href="javascript:void();">AdChoices</a></li>
+                                    <li><a href="javascript:void();">CA Privacy Rts</a></li>
+                                    <li><a href="javascript:void();">Privacy Policy</a></li>
+                                    <li><a href="javascript:void();">CA Supply Chain Act</a></li>
+                                </ul>
+                            </div>
                         </div>
+                        <div className="footer-copy"> ©JCP Media, Inc. 2017. All Rights Reserved</div>
                     </footer>                    
                 </div>
             </div>
