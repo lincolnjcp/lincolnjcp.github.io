@@ -346,7 +346,7 @@ module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1
 /***/ "738v":
 /***/ (function(module, exports) {
 
-module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"icon_x2F_Nav_x2F_menu-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"icon_x2F_Nav_x2F_menu-path-1_1_\" style=\"fill:#111111;\" d=\"M36,13c0.6,0,1,0.4,1,1s-0.4,1-1,1H12c-0.6,0-1-0.4-1-1\r\n\ts0.4-1,1-1H36z M36,23c0.6,0,1,0.4,1,1s-0.4,1-1,1H12c-0.6,0-1-0.4-1-1s0.4-1,1-1H36z M36,33c0.6,0,1,0.4,1,1s-0.4,1-1,1H12\r\n\tc-0.6,0-1-0.4-1-1s0.4-1,1-1H36z\"/>\r\n</svg>\r\n"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"icon_x2F_Nav_x2F_menu-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"icon_x2F_Nav_x2F_menu-path-1_1_\" style=\"fill:#FFFFFF;\" d=\"M36,13c0.6,0,1,0.4,1,1s-0.4,1-1,1H12c-0.6,0-1-0.4-1-1\r\n\ts0.4-1,1-1H36z M36,23c0.6,0,1,0.4,1,1s-0.4,1-1,1H12c-0.6,0-1-0.4-1-1s0.4-1,1-1H36z M36,33c0.6,0,1,0.4,1,1s-0.4,1-1,1H12\r\n\tc-0.6,0-1-0.4-1-1s0.4-1,1-1H36z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
@@ -374,7 +374,7 @@ module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1
 /***/ "8ysx":
 /***/ (function(module, exports) {
 
-module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"icon_x2F_Service_x2F_account-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"icon_x2F_Service_x2F_account-path-1_1_\" style=\"fill:#111111;\" d=\"M24,8C15.2,8,8,15.2,8,24s7.2,16,16,16s16-7.2,16-16\r\n\tS32.8,8,24,8z M24,9.8c7.8,0,14.2,6.3,14.2,14.2c0,3.2-1.1,6.2-2.9,8.6c-1.8-3.4-6-6-7.5-6.7l-0.3-0.2c-0.1,0-0.1-0.1-0.1-0.1\r\n\ts0.1-0.2,0.2-0.3l0.1-0.2c1-1.1,2.6-3,2.7-6.2c0.1-3.4-2.4-7.1-6.2-7.3h-0.3c-3.7,0.2-6.2,4-6.1,7.4c0.1,3.2,1.7,5.1,2.7,6.2\r\n\tl0.1,0.2c0.1,0.2,0.2,0.3,0.2,0.3s-0.1,0-0.1,0.1l-0.2,0.1c-1.6,0.8-5.9,3.3-7.8,6.7c-1.8-2.4-2.9-5.3-2.9-8.6\r\n\tC9.8,16.2,16.2,9.8,24,9.8z\"/>\r\n</svg>\r\n"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"icon_x2F_Service_x2F_account-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"icon_x2F_Service_x2F_account-path-1_1_\" style=\"fill:#FFFFFF;\" d=\"M24,8C15.2,8,8,15.2,8,24s7.2,16,16,16s16-7.2,16-16\r\n\tS32.8,8,24,8z M24,9.8c7.8,0,14.2,6.3,14.2,14.2c0,3.2-1.1,6.2-2.9,8.6c-1.8-3.4-6-6-7.5-6.7l-0.3-0.2c-0.1,0-0.1-0.1-0.1-0.1\r\n\ts0.1-0.2,0.2-0.3l0.1-0.2c1-1.1,2.6-3,2.7-6.2c0.1-3.4-2.4-7.1-6.2-7.3h-0.3c-3.7,0.2-6.2,4-6.1,7.4c0.1,3.2,1.7,5.1,2.7,6.2\r\n\tl0.1,0.2c0.1,0.2,0.2,0.3,0.2,0.3s-0.1,0-0.1,0.1l-0.2,0.1c-1.6,0.8-5.9,3.3-7.8,6.7c-1.8-2.4-2.9-5.3-2.9-8.6\r\n\tC9.8,16.2,16.2,9.8,24,9.8z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
@@ -662,9 +662,9 @@ var rootNav = [{
         activeClassName: 'active',
         content: 'Carousels'
     }, {
-        to: '/',
-        activeClassName: 'inactive',
-        content: 'Color Image Swatches'
+        to: '/components/swatches',
+        activeClassName: 'active',
+        content: 'Color Swatches'
     }, {
         to: '/components/content-loaders',
         activeClassName: 'active',
@@ -686,8 +686,8 @@ var rootNav = [{
         activeClassName: 'active',
         content: 'Forms'
     }, {
-        to: '/',
-        activeClassName: 'inactive',
+        to: '/components/pagination',
+        activeClassName: 'active',
         content: 'Pagination'
     }, {
         to: '/',
@@ -698,8 +698,8 @@ var rootNav = [{
         activeClassName: 'inactive',
         content: 'Progress Bar'
     }, {
-        to: '/',
-        activeClassName: 'inactive',
+        to: '/components/selectors',
+        activeClassName: 'active',
         content: 'Selectors'
     }, {
         to: '/components/dropdown-button',
@@ -714,8 +714,8 @@ var rootNav = [{
         activeClassName: 'active',
         content: 'Tables'
     }, {
-        to: '/',
-        activeClassName: 'inactive',
+        to: '/components/tabs',
+        activeClassName: 'active',
         content: 'Tabs'
     }, {
         to: '/components/tooltips',
@@ -745,8 +745,8 @@ var rootNav = [{
         activeClassName: 'inactive',
         content: 'Coupon List'
     }, {
-        to: '/',
-        activeClassName: 'inactive',
+        to: '/page-modules/coupons',
+        activeClassName: 'active',
         content: 'Coupons'
     }, {
         to: '/',
@@ -757,8 +757,8 @@ var rootNav = [{
         activeClassName: 'inactive',
         content: 'Footer'
     }, {
-        to: '/',
-        activeClassName: 'inactive',
+        to: '/page-modules/header',
+        activeClassName: 'active',
         content: 'Header'
     }, {
         to: '/',
@@ -2673,6 +2673,7 @@ var plusImage = __webpack_require__("Vx6E");
 var backtotopImage = __webpack_require__("om3C");
 
 var icons_cartImage = __webpack_require__("3enj");
+var cartFullImage = __webpack_require__("VlqD");
 var expresscheckoutImage = __webpack_require__("fdEA");
 var haulawayImage = __webpack_require__("rmnD");
 var trackorderImage = __webpack_require__("BxHr");
@@ -2860,6 +2861,8 @@ var icons_Icons = function (_Component) {
                 children.addClass(curColorSVG);
                 icon.addClass(curColorBG);
             });
+
+            jquery_default()(".design-system-color-picker select").trigger('change');
         }
     }, {
         key: 'render',
@@ -3221,6 +3224,8 @@ var icons_Icons = function (_Component) {
                                 'div',
                                 { className: 'row  small-up-4 medium-up-3 large-up-4 design-system-icon-set' },
                                 this.iconCol("cart", "navigate to shopping cart", icons_cartImage),
+                                ' ',
+                                this.iconCol("full cart", "shopping cart with items", cartFullImage),
                                 ' ',
                                 this.iconCol("express-checkout", "express checkout", expresscheckoutImage),
                                 ' ',
@@ -10627,6 +10632,1278 @@ var components_tooltips__temp = function () {
 }();
 
 ;
+// CONCATENATED MODULE: ./src/js/components/tabs/tabs.js
+var tabs__createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+function tabs__classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function tabs__possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function tabs__inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+
+
+var tabs_Tabs = function (_Component) {
+  tabs__inherits(Tabs, _Component);
+
+  function Tabs() {
+    tabs__classCallCheck(this, Tabs);
+
+    return tabs__possibleConstructorReturn(this, (Tabs.__proto__ || Object.getPrototypeOf(Tabs)).apply(this, arguments));
+  }
+
+  tabs__createClass(Tabs, [{
+    key: "componentDidMount",
+    value: function componentDidMount() {}
+  }, {
+    key: "render",
+    value: function render() {
+      return react_default.a.createElement(
+        "div",
+        null,
+        react_default.a.createElement(
+          "div",
+          { className: "row" },
+          react_default.a.createElement(
+            "div",
+            { className: "tab-container mrg-XL" },
+            react_default.a.createElement(
+              "ul",
+              { className: "tab-header" },
+              react_default.a.createElement(
+                "li",
+                { className: "tab-lbl tab-lbl-active" },
+                react_default.a.createElement(
+                  "span",
+                  null,
+                  "Tab 1"
+                )
+              ),
+              react_default.a.createElement(
+                "li",
+                { className: "tab-lbl" },
+                react_default.a.createElement(
+                  "span",
+                  null,
+                  "Tab 2"
+                )
+              ),
+              react_default.a.createElement(
+                "li",
+                { className: "tab-lbl" },
+                react_default.a.createElement(
+                  "span",
+                  null,
+                  "Tab 3"
+                )
+              ),
+              react_default.a.createElement(
+                "li",
+                { className: "tab-lbl tab-lbl-disabled", disabled: "true" },
+                react_default.a.createElement(
+                  "span",
+                  null,
+                  "Tab 4"
+                )
+              ),
+              react_default.a.createElement(
+                "li",
+                { className: "tab-lbl tab-lbl-focus" },
+                react_default.a.createElement(
+                  "span",
+                  null,
+                  "Tab 5"
+                )
+              )
+            )
+          )
+        )
+      );
+    }
+  }]);
+
+  return Tabs;
+}(react["Component"]);
+
+var tabs__default = tabs_Tabs;
+
+
+/* harmony default export */ var tabs = (tabs__default);
+;
+
+var tabs__temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(tabs_Tabs, "Tabs", "C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/tabs/tabs.js");
+
+  __REACT_HOT_LOADER__.register(tabs__default, "default", "C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/tabs/tabs.js");
+}();
+
+;
+// CONCATENATED MODULE: ./src/js/components/tabs/index.js
+
+var components_tabs__default = tabs;
+/* harmony default export */ var components_tabs = (components_tabs__default);
+;
+
+var components_tabs__temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(components_tabs__default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/tabs/index.js');
+}();
+
+;
+// CONCATENATED MODULE: ./src/js/components/pagination/pagination.js
+var pagination__createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+function pagination__classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function pagination__possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function pagination__inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+
+
+var pagination_Pagination = function (_Component) {
+  pagination__inherits(Pagination, _Component);
+
+  function Pagination() {
+    pagination__classCallCheck(this, Pagination);
+
+    return pagination__possibleConstructorReturn(this, (Pagination.__proto__ || Object.getPrototypeOf(Pagination)).apply(this, arguments));
+  }
+
+  pagination__createClass(Pagination, [{
+    key: "componentDidMount",
+    value: function componentDidMount() {}
+  }, {
+    key: "render",
+    value: function render() {
+      return react_default.a.createElement(
+        "div",
+        null,
+        react_default.a.createElement(
+          "div",
+          { className: "row" },
+          react_default.a.createElement(
+            "div",
+            { className: "paginiation-block" },
+            react_default.a.createElement(
+              "h1",
+              { "class": "title title-XL mrg-L" },
+              "Pagination"
+            ),
+            react_default.a.createElement(
+              "div",
+              { className: "pagination mrg-XXL" },
+              react_default.a.createElement(
+                "p",
+                { className: "std-txt-label" },
+                "Selected"
+              ),
+              react_default.a.createElement(
+                "ul",
+                null,
+                react_default.a.createElement("li", { "class": "pagination-prev hidden", "aria-label": "Prev" }),
+                react_default.a.createElement(
+                  "li",
+                  { className: "pagination-lbl pagination-active" },
+                  "1"
+                ),
+                react_default.a.createElement(
+                  "li",
+                  { className: "pagination-lbl" },
+                  "2"
+                ),
+                react_default.a.createElement(
+                  "li",
+                  { className: "pagination-lbl" },
+                  "3"
+                ),
+                react_default.a.createElement(
+                  "li",
+                  { className: "pagination-lbl" },
+                  "4"
+                ),
+                react_default.a.createElement(
+                  "li",
+                  { "class": "pagination-elipsis" },
+                  "..."
+                ),
+                react_default.a.createElement(
+                  "li",
+                  { "class": "pagination-lbl" },
+                  "99"
+                ),
+                react_default.a.createElement("li", { "class": "pagination-next", "aria-label": "Next" })
+              )
+            ),
+            react_default.a.createElement(
+              "div",
+              { className: "pagination mrg-XXL" },
+              react_default.a.createElement(
+                "p",
+                { className: "std-txt-label" },
+                "On Hover"
+              ),
+              react_default.a.createElement(
+                "ul",
+                null,
+                react_default.a.createElement("li", { "class": "pagination-prev hidden", "aria-label": "Prev" }),
+                react_default.a.createElement(
+                  "li",
+                  { className: "pagination-lbl pagination-active" },
+                  "1"
+                ),
+                react_default.a.createElement(
+                  "li",
+                  { className: "pagination-lbl hover" },
+                  "2"
+                ),
+                react_default.a.createElement(
+                  "li",
+                  { className: "pagination-lbl" },
+                  "3"
+                ),
+                react_default.a.createElement(
+                  "li",
+                  { className: "pagination-lbl" },
+                  "4"
+                ),
+                react_default.a.createElement(
+                  "li",
+                  { "class": "pagination-elipsis" },
+                  "..."
+                ),
+                react_default.a.createElement(
+                  "li",
+                  { "class": "pagination-lbl" },
+                  "99"
+                ),
+                react_default.a.createElement("li", { "class": "pagination-next", "aria-label": "Next" })
+              )
+            ),
+            react_default.a.createElement(
+              "div",
+              { className: "pagination mrg-XXL" },
+              react_default.a.createElement(
+                "p",
+                { className: "std-txt-label" },
+                "Other pages selected"
+              ),
+              react_default.a.createElement(
+                "ul",
+                null,
+                react_default.a.createElement("li", { "class": "pagination-prev", "aria-label": "Prev" }),
+                react_default.a.createElement(
+                  "li",
+                  { className: "pagination-lbl" },
+                  "1"
+                ),
+                react_default.a.createElement(
+                  "li",
+                  { className: "pagination-lbl" },
+                  "2"
+                ),
+                react_default.a.createElement(
+                  "li",
+                  { className: "pagination-lbl pagination-active" },
+                  "3"
+                ),
+                react_default.a.createElement(
+                  "li",
+                  { className: "pagination-lbl" },
+                  "4"
+                ),
+                react_default.a.createElement(
+                  "li",
+                  { "class": "pagination-elipsis" },
+                  "..."
+                ),
+                react_default.a.createElement(
+                  "li",
+                  { "class": "pagination-lbl" },
+                  "99"
+                ),
+                react_default.a.createElement("li", { "class": "pagination-next", "aria-label": "Next" })
+              )
+            ),
+            react_default.a.createElement(
+              "div",
+              { className: "pagination mrg-XXL" },
+              react_default.a.createElement(
+                "p",
+                { className: "std-txt-label" },
+                "s"
+              ),
+              react_default.a.createElement(
+                "ul",
+                null,
+                react_default.a.createElement("li", { "class": "pagination-prev", "aria-label": "Prev" }),
+                react_default.a.createElement(
+                  "li",
+                  { className: "pagination-lbl" },
+                  "1"
+                ),
+                react_default.a.createElement(
+                  "li",
+                  { className: "pagination-lbl pagination-active" },
+                  "2"
+                ),
+                react_default.a.createElement(
+                  "li",
+                  { className: "pagination-lbl" },
+                  "3"
+                ),
+                react_default.a.createElement(
+                  "li",
+                  { className: "pagination-lbl" },
+                  "4"
+                ),
+                react_default.a.createElement(
+                  "li",
+                  { "class": "pagination-elipsis" },
+                  "..."
+                ),
+                react_default.a.createElement(
+                  "li",
+                  { "class": "pagination-lbl" },
+                  "99"
+                ),
+                react_default.a.createElement("li", { "class": "pagination-next", "aria-label": "Next" })
+              )
+            )
+          )
+        )
+      );
+    }
+  }]);
+
+  return Pagination;
+}(react["Component"]);
+
+var pagination__default = pagination_Pagination;
+
+
+/* harmony default export */ var pagination = (pagination__default);
+;
+
+var pagination__temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(pagination_Pagination, "Pagination", "C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/pagination/pagination.js");
+
+  __REACT_HOT_LOADER__.register(pagination__default, "default", "C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/pagination/pagination.js");
+}();
+
+;
+// CONCATENATED MODULE: ./src/js/components/pagination/index.js
+
+var components_pagination__default = pagination;
+/* harmony default export */ var components_pagination = (components_pagination__default);
+;
+
+var components_pagination__temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(components_pagination__default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/pagination/index.js');
+}();
+
+;
+// CONCATENATED MODULE: ./src/js/components/swatches/swatches.js
+var swatches__createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+function swatches__classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function swatches__possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function swatches__inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+
+
+var swatches_plusImage = __webpack_require__("Vx6E");
+
+var swatches_Swatches = function (_Component) {
+  swatches__inherits(Swatches, _Component);
+
+  function Swatches() {
+    swatches__classCallCheck(this, Swatches);
+
+    return swatches__possibleConstructorReturn(this, (Swatches.__proto__ || Object.getPrototypeOf(Swatches)).apply(this, arguments));
+  }
+
+  swatches__createClass(Swatches, [{
+    key: 'componentDidMount',
+    value: function componentDidMount() {}
+  }, {
+    key: 'render',
+    value: function render() {
+      return react_default.a.createElement(
+        'div',
+        null,
+        react_default.a.createElement(
+          'div',
+          { className: 'row' },
+          react_default.a.createElement(
+            'div',
+            { className: 'color-swatches-block mrg-L fl-left' },
+            react_default.a.createElement(
+              'h2',
+              { className: 'title title-L mrg-M' },
+              'Product Swatches'
+            ),
+            react_default.a.createElement(
+              'div',
+              { className: 'color-swatches-list md8 lg8' },
+              react_default.a.createElement(
+                'ul',
+                { className: 'list-product-colors-container swatches-grid' },
+                react_default.a.createElement(
+                  'li',
+                  null,
+                  react_default.a.createElement('a', { href: 'javascript:void(0)', className: 'list-color-swatch list-color-swatch-active' }),
+                  react_default.a.createElement(
+                    'span',
+                    { className: 'std-txt-label' },
+                    'Selected'
+                  )
+                ),
+                react_default.a.createElement(
+                  'li',
+                  null,
+                  react_default.a.createElement('a', { href: 'javascript:void(0)', className: 'list-color-swatch' }),
+                  react_default.a.createElement(
+                    'span',
+                    { className: 'std-txt-label' },
+                    'Default'
+                  )
+                ),
+                react_default.a.createElement(
+                  'li',
+                  null,
+                  react_default.a.createElement('a', { href: 'javascript:void(0)', className: 'list-color-swatch hover' }),
+                  react_default.a.createElement(
+                    'span',
+                    { className: 'std-txt-label' },
+                    'Hover'
+                  )
+                ),
+                react_default.a.createElement(
+                  'li',
+                  null,
+                  react_default.a.createElement('a', { href: 'javascript:void(0)', className: 'list-color-swatch list-color-swatch-oos' }),
+                  react_default.a.createElement(
+                    'span',
+                    { className: 'std-txt-label' },
+                    'Out of Stock'
+                  )
+                ),
+                react_default.a.createElement(
+                  'li',
+                  null,
+                  react_default.a.createElement('a', { href: 'javascript:void(0)', className: 'list-color-swatch list-color-swatch-active list-color-swatch-oos' }),
+                  react_default.a.createElement(
+                    'span',
+                    { className: 'std-txt-label' },
+                    'Out of Stock Selected'
+                  )
+                ),
+                react_default.a.createElement(
+                  'li',
+                  { className: 'focus' },
+                  react_default.a.createElement('a', { href: 'javascript:void(0)', className: 'list-color-swatch hover' }),
+                  react_default.a.createElement(
+                    'span',
+                    { className: 'std-txt-label' },
+                    'ARIA focus'
+                  )
+                )
+              )
+            ),
+            react_default.a.createElement('br', null),
+            react_default.a.createElement('br', null),
+            react_default.a.createElement('br', null),
+            react_default.a.createElement(
+              'div',
+              { className: 'md5 lg5 sm12 column' },
+              react_default.a.createElement(
+                'div',
+                { className: 'color-swatches-list md12 lg12 sm12' },
+                react_default.a.createElement(
+                  'h2',
+                  { className: 'title title-L mrg-M' },
+                  'Expand/Collapse'
+                ),
+                react_default.a.createElement(
+                  'span',
+                  { className: 'std-txt-label' },
+                  'Large/XL Breakpoint'
+                ),
+                react_default.a.createElement(
+                  'div',
+                  { className: 'color-swatches-list-label' },
+                  react_default.a.createElement(
+                    'p',
+                    { className: 'md6 sm6 lg6 column' },
+                    react_default.a.createElement(
+                      'span',
+                      null,
+                      react_default.a.createElement(
+                        'strong',
+                        null,
+                        'Color:'
+                      ),
+                      ' Blue'
+                    )
+                  ),
+                  react_default.a.createElement(
+                    'p',
+                    { className: 'md6 sm6 lg6 column' },
+                    react_default.a.createElement(
+                      'a',
+                      { href: 'javascript:void(0)', className: 'show-all-cta' },
+                      'show all colors'
+                    )
+                  )
+                ),
+                react_default.a.createElement(
+                  'div',
+                  { className: 'color-swatches-list' },
+                  react_default.a.createElement(
+                    'ul',
+                    { className: 'list-product-colors-container' },
+                    react_default.a.createElement(
+                      'li',
+                      null,
+                      react_default.a.createElement('a', { href: 'javascript:void(0)', className: 'list-color-swatch list-color-swatch-active' })
+                    ),
+                    react_default.a.createElement(
+                      'li',
+                      null,
+                      react_default.a.createElement('a', { href: 'javascript:void(0)', className: 'list-color-swatch' })
+                    ),
+                    react_default.a.createElement(
+                      'li',
+                      null,
+                      react_default.a.createElement('a', { href: 'javascript:void(0)', className: 'list-color-swatch' })
+                    ),
+                    react_default.a.createElement(
+                      'li',
+                      null,
+                      react_default.a.createElement('a', { href: 'javascript:void(0)', className: 'list-color-swatch' })
+                    ),
+                    react_default.a.createElement(
+                      'li',
+                      null,
+                      react_default.a.createElement('a', { href: 'javascript:void(0)', className: 'list-color-swatch' })
+                    ),
+                    react_default.a.createElement(
+                      'li',
+                      null,
+                      react_default.a.createElement('a', { href: 'javascript:void(0)', className: 'list-color-swatch' })
+                    ),
+                    react_default.a.createElement(
+                      'li',
+                      null,
+                      react_default.a.createElement('a', { href: 'javascript:void(0)', className: 'list-color-swatch' })
+                    ),
+                    react_default.a.createElement(
+                      'li',
+                      null,
+                      react_default.a.createElement('a', { href: 'javascript:void(0)', className: 'list-color-swatch' })
+                    ),
+                    react_default.a.createElement(
+                      'li',
+                      null,
+                      react_default.a.createElement('a', { href: 'javascript:void(0)', className: 'list-color-swatch' })
+                    ),
+                    react_default.a.createElement(
+                      'li',
+                      null,
+                      react_default.a.createElement('a', { href: 'javascript:void(0)', className: 'list-color-swatch' })
+                    ),
+                    react_default.a.createElement(
+                      'li',
+                      null,
+                      react_default.a.createElement('a', { href: 'javascript:void(0)', className: 'list-color-swatch' })
+                    ),
+                    react_default.a.createElement(
+                      'li',
+                      null,
+                      react_default.a.createElement('a', { href: 'javascript:void(0)', className: 'list-color-swatch' })
+                    ),
+                    react_default.a.createElement(
+                      'li',
+                      null,
+                      react_default.a.createElement('a', { href: 'javascript:void(0)', className: 'list-color-swatch' })
+                    ),
+                    react_default.a.createElement('li', { className: 'swatches-list-icon', dangerouslySetInnerHTML: { __html: swatches_plusImage } })
+                  )
+                ),
+                react_default.a.createElement(
+                  'div',
+                  { className: 'color-swatches-list' },
+                  react_default.a.createElement(
+                    'ul',
+                    { className: 'list-product-colors-container' },
+                    react_default.a.createElement(
+                      'li',
+                      null,
+                      react_default.a.createElement(
+                        'a',
+                        { href: 'javascript:void(0)', className: 'list-color-swatch list-color-swatch-active' },
+                        react_default.a.createElement('img', { src: 'https://s7d9.scene7.com/is/image/JCPenney/DP0816201717175526S' })
+                      )
+                    ),
+                    react_default.a.createElement(
+                      'li',
+                      null,
+                      react_default.a.createElement(
+                        'a',
+                        { href: 'javascript:void(0)', className: 'list-color-swatch' },
+                        react_default.a.createElement('img', { src: 'https://s7d9.scene7.com/is/image/JCPenney/DP0801201717175023S' })
+                      )
+                    ),
+                    react_default.a.createElement(
+                      'li',
+                      null,
+                      react_default.a.createElement(
+                        'a',
+                        { href: 'javascript:void(0)', className: 'list-color-swatch' },
+                        react_default.a.createElement('img', { src: 'https://s7d9.scene7.com/is/image/JCPenney/DP0801201717175123S' })
+                      )
+                    ),
+                    react_default.a.createElement(
+                      'li',
+                      null,
+                      react_default.a.createElement(
+                        'a',
+                        { href: 'javascript:void(0)', className: 'list-color-swatch' },
+                        react_default.a.createElement('img', { src: 'https://s7d9.scene7.com/is/image/JCPenney/DP0719201704043269S' })
+                      )
+                    ),
+                    react_default.a.createElement(
+                      'li',
+                      null,
+                      react_default.a.createElement(
+                        'a',
+                        { href: 'javascript:void(0)', className: 'list-color-swatch' },
+                        react_default.a.createElement('img', { src: 'https://s7d9.scene7.com/is/image/JCPenney/DP0801201717175173S' })
+                      )
+                    ),
+                    react_default.a.createElement(
+                      'li',
+                      null,
+                      react_default.a.createElement(
+                        'a',
+                        { href: 'javascript:void(0)', className: 'list-color-swatch' },
+                        react_default.a.createElement('img', { src: 'https://s7d9.scene7.com/is/image/JCPenney/DP0807201717111344S' })
+                      )
+                    ),
+                    react_default.a.createElement(
+                      'li',
+                      null,
+                      react_default.a.createElement(
+                        'a',
+                        { href: 'javascript:void(0)', className: 'list-color-swatch' },
+                        react_default.a.createElement('img', { src: 'https://s7d9.scene7.com/is/image/JCPenney/DP0801201717175223S' })
+                      )
+                    ),
+                    react_default.a.createElement(
+                      'li',
+                      null,
+                      react_default.a.createElement(
+                        'a',
+                        { href: 'javascript:void(0)', className: 'list-color-swatch' },
+                        react_default.a.createElement('img', { src: 'https://s7d9.scene7.com/is/image/JCPenney/DP0807201717111628S' })
+                      )
+                    ),
+                    react_default.a.createElement(
+                      'li',
+                      null,
+                      react_default.a.createElement(
+                        'a',
+                        { href: 'javascript:void(0)', className: 'list-color-swatch' },
+                        react_default.a.createElement('img', { src: 'https://s7d9.scene7.com/is/image/JCPenney/DP0719201704043369S' })
+                      )
+                    ),
+                    react_default.a.createElement(
+                      'li',
+                      null,
+                      react_default.a.createElement(
+                        'a',
+                        { href: 'javascript:void(0)', className: 'list-color-swatch' },
+                        react_default.a.createElement('img', { src: 'https://s7d9.scene7.com/is/image/JCPenney/DP0726201717065030S' })
+                      )
+                    ),
+                    react_default.a.createElement(
+                      'li',
+                      null,
+                      react_default.a.createElement(
+                        'a',
+                        { href: 'javascript:void(0)', className: 'list-color-swatch' },
+                        react_default.a.createElement('img', { src: 'https://s7d9.scene7.com/is/image/JCPenney/DP0807201717111678S' })
+                      )
+                    ),
+                    react_default.a.createElement(
+                      'li',
+                      null,
+                      react_default.a.createElement(
+                        'a',
+                        { href: 'javascript:void(0)', className: 'list-color-swatch' },
+                        react_default.a.createElement('img', { src: 'https://s7d9.scene7.com/is/image/JCPenney/DP0807201717111357S' })
+                      )
+                    ),
+                    react_default.a.createElement(
+                      'li',
+                      null,
+                      react_default.a.createElement(
+                        'a',
+                        { href: 'javascript:void(0)', className: 'list-color-swatch' },
+                        react_default.a.createElement('img', { src: 'https://s7d9.scene7.com/is/image/JCPenney/DP0719201704043169S' })
+                      )
+                    ),
+                    react_default.a.createElement('li', { className: 'swatches-list-icon', dangerouslySetInnerHTML: { __html: swatches_plusImage } })
+                  )
+                )
+              ),
+              react_default.a.createElement('br', null),
+              react_default.a.createElement('br', null),
+              react_default.a.createElement('br', null),
+              react_default.a.createElement('br', null),
+              react_default.a.createElement('br', null),
+              react_default.a.createElement('br', null),
+              react_default.a.createElement(
+                'div',
+                { className: 'color-swatches-list md12 lg12 sm12' },
+                react_default.a.createElement(
+                  'span',
+                  { className: 'std-txt-label' },
+                  'Small Breakpoint'
+                ),
+                react_default.a.createElement(
+                  'div',
+                  { className: 'color-swatches-list-label' },
+                  react_default.a.createElement(
+                    'p',
+                    { className: 'md6 sm6 lg6 column' },
+                    react_default.a.createElement(
+                      'span',
+                      null,
+                      react_default.a.createElement(
+                        'strong',
+                        null,
+                        'Color:'
+                      ),
+                      ' Blue'
+                    )
+                  ),
+                  react_default.a.createElement(
+                    'p',
+                    { className: 'md6 sm6 lg6 column' },
+                    react_default.a.createElement(
+                      'a',
+                      { href: 'javascript:void(0)', className: 'show-all-cta' },
+                      'show all colors'
+                    )
+                  )
+                ),
+                react_default.a.createElement(
+                  'div',
+                  { className: 'color-swatches-list' },
+                  react_default.a.createElement(
+                    'ul',
+                    { className: 'list-product-colors-container' },
+                    react_default.a.createElement(
+                      'li',
+                      null,
+                      react_default.a.createElement('a', { href: 'javascript:void(0)', className: 'list-color-swatch list-color-swatch-active' })
+                    ),
+                    react_default.a.createElement(
+                      'li',
+                      null,
+                      react_default.a.createElement('a', { href: 'javascript:void(0)', className: 'list-color-swatch' })
+                    ),
+                    react_default.a.createElement(
+                      'li',
+                      null,
+                      react_default.a.createElement('a', { href: 'javascript:void(0)', className: 'list-color-swatch' })
+                    ),
+                    react_default.a.createElement(
+                      'li',
+                      null,
+                      react_default.a.createElement('a', { href: 'javascript:void(0)', className: 'list-color-swatch' })
+                    ),
+                    react_default.a.createElement(
+                      'li',
+                      null,
+                      react_default.a.createElement('a', { href: 'javascript:void(0)', className: 'list-color-swatch' })
+                    ),
+                    react_default.a.createElement(
+                      'li',
+                      null,
+                      react_default.a.createElement('a', { href: 'javascript:void(0)', className: 'list-color-swatch' })
+                    ),
+                    react_default.a.createElement('li', { className: 'swatches-list-icon', dangerouslySetInnerHTML: { __html: swatches_plusImage } })
+                  )
+                )
+              ),
+              react_default.a.createElement('br', null),
+              react_default.a.createElement('br', null),
+              react_default.a.createElement('br', null),
+              react_default.a.createElement(
+                'div',
+                { className: 'color-swatches-list md12 lg12 sm12' },
+                react_default.a.createElement(
+                  'div',
+                  { className: 'color-swatches-list-label' },
+                  react_default.a.createElement(
+                    'p',
+                    { className: 'md6 sm6 lg6 column' },
+                    react_default.a.createElement(
+                      'span',
+                      null,
+                      react_default.a.createElement(
+                        'strong',
+                        null,
+                        'Color:'
+                      ),
+                      ' Blue'
+                    )
+                  ),
+                  react_default.a.createElement(
+                    'p',
+                    { className: 'md6 sm6 lg6 column' },
+                    react_default.a.createElement(
+                      'a',
+                      { href: 'javascript:void(0)', className: 'show-all-cta' },
+                      'fewer colors'
+                    )
+                  )
+                ),
+                react_default.a.createElement(
+                  'div',
+                  { className: 'color-swatches-list' },
+                  react_default.a.createElement(
+                    'ul',
+                    { className: 'list-product-colors-container' },
+                    react_default.a.createElement(
+                      'li',
+                      null,
+                      react_default.a.createElement('a', { href: 'javascript:void(0)', className: 'list-color-swatch' })
+                    ),
+                    react_default.a.createElement(
+                      'li',
+                      null,
+                      react_default.a.createElement('a', { href: 'javascript:void(0)', className: 'list-color-swatch' })
+                    ),
+                    react_default.a.createElement(
+                      'li',
+                      null,
+                      react_default.a.createElement('a', { href: 'javascript:void(0)', className: 'list-color-swatch' })
+                    ),
+                    react_default.a.createElement(
+                      'li',
+                      null,
+                      react_default.a.createElement('a', { href: 'javascript:void(0)', className: 'list-color-swatch' })
+                    ),
+                    react_default.a.createElement(
+                      'li',
+                      null,
+                      react_default.a.createElement('a', { href: 'javascript:void(0)', className: 'list-color-swatch' })
+                    ),
+                    react_default.a.createElement(
+                      'li',
+                      null,
+                      react_default.a.createElement('a', { href: 'javascript:void(0)', className: 'list-color-swatch' })
+                    ),
+                    react_default.a.createElement(
+                      'li',
+                      null,
+                      react_default.a.createElement('a', { href: 'javascript:void(0)', className: 'list-color-swatch' })
+                    ),
+                    react_default.a.createElement(
+                      'li',
+                      null,
+                      react_default.a.createElement('a', { href: 'javascript:void(0)', className: 'list-color-swatch' })
+                    ),
+                    react_default.a.createElement(
+                      'li',
+                      null,
+                      react_default.a.createElement('a', { href: 'javascript:void(0)', className: 'list-color-swatch' })
+                    ),
+                    react_default.a.createElement(
+                      'li',
+                      null,
+                      react_default.a.createElement('a', { href: 'javascript:void(0)', className: 'list-color-swatch' })
+                    ),
+                    react_default.a.createElement(
+                      'li',
+                      null,
+                      react_default.a.createElement('a', { href: 'javascript:void(0)', className: 'list-color-swatch' })
+                    ),
+                    react_default.a.createElement(
+                      'li',
+                      null,
+                      react_default.a.createElement('a', { href: 'javascript:void(0)', className: 'list-color-swatch' })
+                    ),
+                    react_default.a.createElement(
+                      'li',
+                      null,
+                      react_default.a.createElement('a', { href: 'javascript:void(0)', className: 'list-color-swatch' })
+                    ),
+                    react_default.a.createElement(
+                      'li',
+                      null,
+                      react_default.a.createElement('a', { href: 'javascript:void(0)', className: 'list-color-swatch' })
+                    )
+                  )
+                )
+              )
+            ),
+            react_default.a.createElement(
+              'div',
+              { className: 'md5 lg5 sm12 column' },
+              react_default.a.createElement(
+                'h2',
+                { className: 'title title-L mrg-M' },
+                'Sizing'
+              ),
+              react_default.a.createElement(
+                'div',
+                { className: 'color-swatches-list md12 lg12 sm12' },
+                react_default.a.createElement(
+                  'div',
+                  { className: 'color-swatches-medium mrg-L' },
+                  react_default.a.createElement(
+                    'ul',
+                    { className: 'list-product-colors-container' },
+                    react_default.a.createElement(
+                      'li',
+                      null,
+                      react_default.a.createElement('a', { href: 'javascript:void(0)', className: 'list-color-swatch' })
+                    ),
+                    react_default.a.createElement(
+                      'li',
+                      null,
+                      react_default.a.createElement('a', { href: 'javascript:void(0)', className: 'list-color-swatch' })
+                    ),
+                    react_default.a.createElement(
+                      'li',
+                      null,
+                      react_default.a.createElement('a', { href: 'javascript:void(0)', className: 'list-color-swatch' })
+                    ),
+                    react_default.a.createElement(
+                      'li',
+                      null,
+                      react_default.a.createElement('a', { href: 'javascript:void(0)', className: 'list-color-swatch' })
+                    ),
+                    react_default.a.createElement('li', { className: 'swatches-list-icon', dangerouslySetInnerHTML: { __html: swatches_plusImage } })
+                  ),
+                  react_default.a.createElement(
+                    'span',
+                    { className: 'std-txt-label' },
+                    'Medium - Gallery (>5)'
+                  )
+                ),
+                react_default.a.createElement(
+                  'div',
+                  { className: 'color-swatches-small' },
+                  react_default.a.createElement(
+                    'ul',
+                    { className: 'list-product-colors-container' },
+                    react_default.a.createElement(
+                      'li',
+                      null,
+                      react_default.a.createElement('a', { href: 'javascript:void(0)', className: 'list-color-swatch' })
+                    ),
+                    react_default.a.createElement(
+                      'li',
+                      null,
+                      react_default.a.createElement('a', { href: 'javascript:void(0)', className: 'list-color-swatch' })
+                    ),
+                    react_default.a.createElement(
+                      'li',
+                      null,
+                      react_default.a.createElement('a', { href: 'javascript:void(0)', className: 'list-color-swatch' })
+                    ),
+                    react_default.a.createElement(
+                      'li',
+                      null,
+                      react_default.a.createElement('a', { href: 'javascript:void(0)', className: 'list-color-swatch' })
+                    ),
+                    react_default.a.createElement('li', { className: 'swatches-list-icon', dangerouslySetInnerHTML: { __html: swatches_plusImage } })
+                  ),
+                  react_default.a.createElement(
+                    'span',
+                    { className: 'std-txt-label' },
+                    'Small - Gallery (>5)'
+                  )
+                )
+              )
+            )
+          )
+        )
+      );
+    }
+  }]);
+
+  return Swatches;
+}(react["Component"]);
+
+var swatches__default = swatches_Swatches;
+
+
+/* harmony default export */ var swatches = (swatches__default);
+;
+
+var swatches__temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(swatches_Swatches, 'Swatches', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/swatches/swatches.js');
+
+  __REACT_HOT_LOADER__.register(swatches__default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/swatches/swatches.js');
+}();
+
+;
+// CONCATENATED MODULE: ./src/js/components/swatches/index.js
+
+var components_swatches__default = swatches;
+/* harmony default export */ var components_swatches = (components_swatches__default);
+;
+
+var components_swatches__temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(components_swatches__default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/swatches/index.js');
+}();
+
+;
+// CONCATENATED MODULE: ./src/js/components/selectors/selectors.js
+var selectors__createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+function selectors__classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function selectors__possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function selectors__inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+
+
+var selectors_Selectors = function (_Component) {
+  selectors__inherits(Selectors, _Component);
+
+  function Selectors() {
+    selectors__classCallCheck(this, Selectors);
+
+    return selectors__possibleConstructorReturn(this, (Selectors.__proto__ || Object.getPrototypeOf(Selectors)).apply(this, arguments));
+  }
+
+  selectors__createClass(Selectors, [{
+    key: "componentDidMount",
+    value: function componentDidMount() {}
+  }, {
+    key: "render",
+    value: function render() {
+      return react_default.a.createElement(
+        "div",
+        null,
+        react_default.a.createElement(
+          "div",
+          { className: "row" },
+          react_default.a.createElement(
+            "div",
+            { className: "selectors" },
+            react_default.a.createElement(
+              "h3",
+              { className: "title title-L mrg-L" },
+              "SKU Selectors"
+            ),
+            react_default.a.createElement(
+              "div",
+              { className: "std-txt-label mrg-S" },
+              "Small"
+            ),
+            react_default.a.createElement(
+              "div",
+              { className: "mrg-XL" },
+              react_default.a.createElement(
+                "span",
+                { className: "sku-block selected mrg-rght-S" },
+                "XS"
+              ),
+              react_default.a.createElement(
+                "span",
+                { className: "sku-block normal mrg-rght-S" },
+                "M"
+              ),
+              react_default.a.createElement(
+                "span",
+                { className: "sku-block error mrg-rght-S" },
+                "L"
+              ),
+              react_default.a.createElement(
+                "a",
+                { href: "javascript:void(0)", className: "oo-label-block" },
+                react_default.a.createElement(
+                  "span",
+                  { className: "sku-block oo-stock mrg-rght-S" },
+                  "XL"
+                ),
+                react_default.a.createElement(
+                  "span",
+                  { className: "oo-stock-label" },
+                  "Out of Stock Online"
+                )
+              ),
+              react_default.a.createElement(
+                "a",
+                { href: "javascript:void(0)", className: "sku-focus" },
+                react_default.a.createElement(
+                  "span",
+                  { className: "sku-block normal mrg-rght-S" },
+                  "1X"
+                )
+              )
+            ),
+            react_default.a.createElement(
+              "div",
+              { className: "std-txt-label mrg-S" },
+              "Large"
+            ),
+            react_default.a.createElement(
+              "div",
+              { className: "mrg-XL" },
+              react_default.a.createElement(
+                "span",
+                { className: "sku-block sku-block-L selected mrg-rght-S" },
+                "small"
+              ),
+              react_default.a.createElement(
+                "span",
+                { className: "sku-block sku-block-L normal mrg-rght-S" },
+                "medium"
+              ),
+              react_default.a.createElement(
+                "span",
+                { className: "sku-block sku-block-L error mrg-rght-S" },
+                "large"
+              ),
+              react_default.a.createElement(
+                "a",
+                { href: "javascript:void(0)", className: "oo-label-block" },
+                react_default.a.createElement(
+                  "span",
+                  { className: "sku-block sku-block-L oo-stock mrg-rght-S" },
+                  "xlarge"
+                ),
+                react_default.a.createElement(
+                  "span",
+                  { className: "oo-stock-label" },
+                  "Out of Stock Online"
+                )
+              )
+            ),
+            react_default.a.createElement(
+              "div",
+              { className: "std-txt-label mrg-S" },
+              "Large with Image"
+            ),
+            react_default.a.createElement(
+              "div",
+              { className: "mrg-XL" },
+              react_default.a.createElement(
+                "span",
+                { className: "sku-block sku-block-L selected mrg-rght-S" },
+                react_default.a.createElement("img", { src: "http://placehold.it/100/100", alt: "" })
+              ),
+              react_default.a.createElement(
+                "span",
+                { className: "sku-block sku-block-L normal mrg-rght-S" },
+                react_default.a.createElement("img", { src: "http://placehold.it/100/100", alt: "" })
+              ),
+              react_default.a.createElement(
+                "span",
+                { className: "sku-block sku-block-L error mrg-rght-S" },
+                react_default.a.createElement("img", { src: "http://placehold.it/100/100", alt: "" })
+              ),
+              react_default.a.createElement(
+                "a",
+                { href: "javascript:void(0)", className: "oo-label-block" },
+                react_default.a.createElement(
+                  "span",
+                  { className: "sku-block sku-block-L oo-stock mrg-rght-S" },
+                  react_default.a.createElement("img", { src: "http://placehold.it/100/100", alt: "" })
+                ),
+                react_default.a.createElement(
+                  "span",
+                  { className: "oo-stock-label" },
+                  "Out of Stock Online"
+                )
+              ),
+              react_default.a.createElement(
+                "a",
+                { href: "javascript:void(0)", className: "sku-focus oo-label-block" },
+                react_default.a.createElement(
+                  "span",
+                  { className: "sku-block sku-block-L error mrg-rght-S" },
+                  react_default.a.createElement("img", { src: "http://placehold.it/100/100", alt: "" })
+                )
+              )
+            )
+          )
+        )
+      );
+    }
+  }]);
+
+  return Selectors;
+}(react["Component"]);
+
+var selectors__default = selectors_Selectors;
+
+
+/* harmony default export */ var selectors = (selectors__default);
+;
+
+var selectors__temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(selectors_Selectors, "Selectors", "C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/selectors/selectors.js");
+
+  __REACT_HOT_LOADER__.register(selectors__default, "default", "C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/selectors/selectors.js");
+}();
+
+;
+// CONCATENATED MODULE: ./src/js/components/selectors/index.js
+
+var components_selectors__default = selectors;
+/* harmony default export */ var components_selectors = (components_selectors__default);
+;
+
+var components_selectors__temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(components_selectors__default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/selectors/index.js');
+}();
+
+;
 // EXTERNAL MODULE: ./node_modules/react-slick/lib/index.js
 var lib = __webpack_require__("qmfj");
 var lib_default = /*#__PURE__*/__webpack_require__.n(lib);
@@ -10646,6 +11923,8 @@ function carousel__inherits(subClass, superClass) { if (typeof superClass !== "f
 
 
 
+var ChevronLeftImage = __webpack_require__("WBOg");
+var ChevronRightImage = __webpack_require__("aNhq");
 var ChevronUpImage = __webpack_require__("xFKG");
 var ChevronDownImage = __webpack_require__("Yvnt");
 
@@ -10664,7 +11943,7 @@ var carousel_CarouselLeftButton = function (_React$Component) {
       return react_default.a.createElement(
         'button',
         this.props,
-        'Previous'
+        react_default.a.createElement('span', { className: 'icon color-shadow-svg', dangerouslySetInnerHTML: { __html: ChevronLeftImage } })
       );
     }
   }]);
@@ -10687,7 +11966,7 @@ var carousel_CarouselRightButton = function (_React$Component2) {
       return react_default.a.createElement(
         'button',
         this.props,
-        'Next'
+        react_default.a.createElement('span', { className: 'icon color-shadow-svg', dangerouslySetInnerHTML: { __html: ChevronRightImage } })
       );
     }
   }]);
@@ -10778,9 +12057,12 @@ var carousel_CarouselNavImage = function (_React$Component6) {
     value: function render() {
       return react_default.a.createElement(
         'div',
-        null,
-        react_default.a.createElement('img', { src: this.props.imgSrc }),
-        react_default.a.createElement('div', { className: 'carousel-dot' })
+        { className: 'slide-inner' },
+        react_default.a.createElement(
+          'div',
+          { className: this.props.navClass },
+          react_default.a.createElement('img', { src: this.props.imgSrc })
+        )
       );
     }
   }]);
@@ -10798,6 +12080,29 @@ var carousel_Carousel = function (_Component) {
   }
 
   carousel__createClass(Carousel, [{
+    key: 'componentDidMount',
+    value: function componentDidMount() {
+      window.slickNav = react_dom_default.a.findDOMNode(this.refs.navSlider).querySelectorAll('[data-index="0"]');
+      window.slickMain = react_dom_default.a.findDOMNode(this.refs.mainSlider).querySelectorAll('[data-index="0"]');
+      window.secondarySlider = react_dom_default.a.findDOMNode(this.refs.secondarySlider).querySelectorAll('[data-index="0"]');
+      window.secondaryNavSlider = react_dom_default.a.findDOMNode(this.refs.secondaryNavSlider).querySelectorAll('[data-index="0"]');
+
+      setTimeout(function () {
+        [].forEach.call(window.slickNav, function (divElement) {
+          divElement.classList.add("slick-current");
+        });
+        [].forEach.call(window.slickMain, function (divElement) {
+          divElement.classList.add("slick-current");
+        });
+        [].forEach.call(window.secondarySlider, function (divElement) {
+          divElement.classList.add("slick-current");
+        });
+        [].forEach.call(window.secondaryNavSlider, function (divElement) {
+          divElement.classList.add("slick-current");
+        });
+      }, 100);
+    }
+  }, {
     key: 'render',
     value: function render() {
       var that = this;
@@ -10812,16 +12117,21 @@ var carousel_Carousel = function (_Component) {
         focusOnSelect: true,
         arrows: false,
         variableWidth: true,
-        beforeChange: function beforeChange(index) {
-          /*if(that.refs.mainSlider.state.currentSlide != that.refs.navSlider.state.currentSlide) {
-              console.log("change reg"+that.refs.navSlider.state.currentSlide);
-              that.refs.navSlider.setState({ currentSlide: index });
-              that.refs.mainSlider.setState({ currentSlide: index });
-              that.refs.navSlider.slickGoTo(index);
+        beforeChange: function beforeChange(currentSlide, nextSlide) {
+          that.refs.mainSlider.setState({ currentSlide: nextSlide });
+
+          if (that.refs.mainSlider.state.currentSlide !== that.refs.navSlider.state.currentSlide) {
+            that.refs.navSlider.setState({ currentSlide: nextSlide });
+            that.refs.navSlider.slickGoTo(nextSlide);
           }
-          //that.refs.navSlider.slickGoTo(index);*/
+
+          var slickCurrentPrevious = react_dom_default.a.findDOMNode(that.refs.mainSlider).querySelectorAll('[data-index="' + currentSlide + '"]');
+          slickCurrentPrevious[0].classList.remove("slick-current");
         },
-        afterChange: function afterChange(index) {},
+        afterChange: function afterChange(index) {
+          var slickCurrentNext = react_dom_default.a.findDOMNode(that.refs.mainSlider).querySelectorAll('[data-index="' + index + '"]');
+          slickCurrentNext[0].classList.add("slick-current");
+        },
         responsive: [{
           breakpoint: 1440,
           settings: {}
@@ -10839,19 +12149,91 @@ var carousel_Carousel = function (_Component) {
         focusOnSelect: true,
         nextArrow: react_default.a.createElement(carousel_CarouselDownButton, null),
         prevArrow: react_default.a.createElement(carousel_CarouselUpButton, null),
-        beforeChange: function beforeChange(index) {
-          that.refs.navSlider.setState({ currentSlide: index });
-          if (that.refs.mainSlider.state.currentSlide != that.refs.navSlider.state.currentSlide) {
-            console.log("change" + index);
-            that.refs.navSlider.setState({ currentSlideID: index });
-            that.refs.mainSlider.setState({ currentSlideID: index });
-            that.refs.mainSlider.slickGoTo(index);
+        beforeChange: function beforeChange(currentSlide, nextSlide) {
+          that.refs.navSlider.setState({ currentSlide: nextSlide });
+
+          if (that.refs.mainSlider.state.currentSlide !== nextSlide) {
+            that.refs.mainSlider.setState({ currentSlide: nextSlide });
+            that.refs.mainSlider.slickGoTo(nextSlide);
           }
+
+          var slickCurrentPrevious = react_dom_default.a.findDOMNode(that.refs.navSlider).querySelectorAll('[data-index="' + currentSlide + '"]');
+          slickCurrentPrevious[0].classList.remove("slick-current");
         },
-        afterChange: function afterChange(index) {},
+        afterChange: function afterChange(index) {
+          var slickCurrentNext = react_dom_default.a.findDOMNode(that.refs.navSlider).querySelectorAll('[data-index="' + index + '"]');
+          slickCurrentNext[0].classList.add("slick-current");
+        },
+        responsive: [{
+          breakpoint: 1440,
+          settings: {
+            dots: true
+          }
+        }]
+      };
+
+      var pdpSecondaryCarouselSettings = {
+
+        dots: false,
+        infinite: false,
+        speed: 500,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        vertical: false,
+        focusOnSelect: true,
+        arrows: false,
+        variableWidth: true,
+        beforeChange: function beforeChange(currentSlide, nextSlide) {
+          that.refs.secondarySlider.setState({ currentSlide: nextSlide });
+
+          if (that.refs.secondarySlider.state.currentSlide !== that.refs.secondaryNavSlider.state.currentSlide) {
+            that.refs.secondaryNavSlider.setState({ currentSlide: nextSlide });
+            that.refs.secondaryNavSlider.slickGoTo(nextSlide);
+          }
+
+          var slickCurrentPrevious = react_dom_default.a.findDOMNode(that.refs.secondarySlider).querySelectorAll('[data-index="' + currentSlide + '"]');
+          slickCurrentPrevious[0].classList.remove("slick-current");
+        },
+        afterChange: function afterChange(index) {
+          var slickCurrentNext = react_dom_default.a.findDOMNode(that.refs.secondarySlider).querySelectorAll('[data-index="' + index + '"]');
+          slickCurrentNext[0].classList.add("slick-current");
+        },
         responsive: [{
           breakpoint: 1440,
           settings: {}
+        }]
+      };
+
+      var pdpSecondaryCarouselNavSettings = {
+
+        dots: false,
+        infinite: false,
+        speed: 500,
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        focusOnSelect: true,
+        nextArrow: react_default.a.createElement(carousel_CarouselRightButton, null),
+        prevArrow: react_default.a.createElement(carousel_CarouselLeftButton, null),
+        beforeChange: function beforeChange(currentSlide, nextSlide) {
+          that.refs.secondaryNavSlider.setState({ currentSlide: nextSlide });
+
+          if (that.refs.secondarySlider.state.currentSlide !== nextSlide) {
+            that.refs.secondarySlider.setState({ currentSlide: nextSlide });
+            that.refs.secondarySlider.slickGoTo(nextSlide);
+          }
+
+          var slickCurrentPrevious = react_dom_default.a.findDOMNode(that.refs.secondaryNavSlider).querySelectorAll('[data-index="' + currentSlide + '"]');
+          slickCurrentPrevious[0].classList.remove("slick-current");
+        },
+        afterChange: function afterChange(index) {
+          var slickCurrentNext = react_dom_default.a.findDOMNode(that.refs.secondaryNavSlider).querySelectorAll('[data-index="' + index + '"]');
+          slickCurrentNext[0].classList.add("slick-current");
+        },
+        responsive: [{
+          breakpoint: 1440,
+          settings: {
+            dots: true
+          }
         }]
       };
       return react_default.a.createElement(
@@ -10898,27 +12280,27 @@ var carousel_Carousel = function (_Component) {
                   react_default.a.createElement(
                     'div',
                     null,
-                    react_default.a.createElement(carousel_CarouselImage, { imgSrc: 'https://s7d9.scene7.com/is/image/JCPenney/DP0726201617201191M?hei=500&wid=500&op_usm=.4,.8,0,0&resmode=sharp2', navType: 'carousel-dot-image' })
+                    react_default.a.createElement(carousel_CarouselImage, { imgSrc: 'https://s7d9.scene7.com/is/image/JCPenney/DP0726201617201191M?hei=500&wid=500&op_usm=.4,.8,0,0&resmode=sharp2', navClass: 'carousel-dot-image' })
                   ),
                   react_default.a.createElement(
                     'div',
                     null,
-                    react_default.a.createElement(carousel_CarouselImage, { imgSrc: 'https://s7d9.scene7.com/is/image/JCPenney/DP0913201618055525M?hei=500&wid=500&op_usm=.4,.8,0,0&resmode=sharp2', navType: 'carousel-dot-image' })
+                    react_default.a.createElement(carousel_CarouselImage, { imgSrc: 'https://s7d9.scene7.com/is/image/JCPenney/DP0913201618055525M?hei=500&wid=500&op_usm=.4,.8,0,0&resmode=sharp2', navClass: 'carousel-dot-image' })
                   ),
                   react_default.a.createElement(
                     'div',
                     null,
-                    react_default.a.createElement(carousel_CarouselImage, { imgSrc: 'https://s7d9.scene7.com/is/image/JCPenney/DP0607201617024741M?hei=500&wid=500&op_usm=.4,.8,0,0&resmode=sharp2', navType: 'carousel-dot-image' })
+                    react_default.a.createElement(carousel_CarouselImage, { imgSrc: 'https://s7d9.scene7.com/is/image/JCPenney/DP0607201617024741M?hei=500&wid=500&op_usm=.4,.8,0,0&resmode=sharp2', navClass: 'carousel-dot-image' })
                   ),
                   react_default.a.createElement(
                     'div',
                     null,
-                    react_default.a.createElement(carousel_CarouselImage, { imgSrc: 'https://s7d9.scene7.com/is/image/JCPenney/DP0615201717271938M?hei=500&wid=500&op_usm=.4,.8,0,0&resmode=sharp2', navType: 'carousel-dot-image' })
+                    react_default.a.createElement(carousel_CarouselImage, { imgSrc: 'https://s7d9.scene7.com/is/image/JCPenney/DP0615201717271938M?hei=500&wid=500&op_usm=.4,.8,0,0&resmode=sharp2', navClass: 'carousel-dot-image' })
                   ),
                   react_default.a.createElement(
                     'div',
                     null,
-                    react_default.a.createElement(carousel_CarouselImage, { imgSrc: 'https://s7d9.scene7.com/is/image/JCPenney/DP0913201618055525M?hei=500&wid=500&op_usm=.4,.8,0,0&resmode=sharp2', navType: 'carousel-dot-video' })
+                    react_default.a.createElement(carousel_CarouselImage, { imgSrc: 'https://s7d9.scene7.com/is/image/JCPenney/DP0913201618055525M?hei=500&wid=500&op_usm=.4,.8,0,0&resmode=sharp2', navClass: 'carousel-dot-video' })
                   )
                 ),
                 react_default.a.createElement(
@@ -10929,34 +12311,110 @@ var carousel_Carousel = function (_Component) {
               ),
               react_default.a.createElement(
                 'div',
-                { className: 'carousel-component' },
+                { className: 'carousel-nav' },
                 react_default.a.createElement(
                   lib_default.a,
                   _extends({ ref: 'navSlider' }, pdpPrimaryCarouselNavSettings),
                   react_default.a.createElement(
                     'div',
                     null,
-                    react_default.a.createElement(carousel_CarouselNavImage, { imgSrc: 'https://s7d9.scene7.com/is/image/JCPenney/DP0726201617201191M?hei=500&wid=500&op_usm=.4,.8,0,0&resmode=sharp2', navType: 'carousel-dot-image' })
+                    react_default.a.createElement(carousel_CarouselNavImage, { imgSrc: 'https://s7d9.scene7.com/is/image/JCPenney/DP0726201617201191M?hei=500&wid=500&op_usm=.4,.8,0,0&resmode=sharp2', navClass: 'carousel-dot-image' })
                   ),
                   react_default.a.createElement(
                     'div',
                     null,
-                    react_default.a.createElement(carousel_CarouselNavImage, { imgSrc: 'https://s7d9.scene7.com/is/image/JCPenney/DP0913201618055525M.tif?$gallery$', navType: 'carousel-dot-image' })
+                    react_default.a.createElement(carousel_CarouselNavImage, { imgSrc: 'https://s7d9.scene7.com/is/image/JCPenney/DP0913201618055525M.tif?$gallery$', navClass: 'carousel-dot-image' })
                   ),
                   react_default.a.createElement(
                     'div',
                     null,
-                    react_default.a.createElement(carousel_CarouselNavImage, { imgSrc: 'https://s7d9.scene7.com/is/image/JCPenney/DP0607201617024741M.tif?$gallery$', navType: 'carousel-dot-image' })
+                    react_default.a.createElement(carousel_CarouselNavImage, { imgSrc: 'https://s7d9.scene7.com/is/image/JCPenney/DP0607201617024741M.tif?$gallery$', navClass: 'carousel-dot-image' })
                   ),
                   react_default.a.createElement(
                     'div',
                     null,
-                    react_default.a.createElement(carousel_CarouselNavImage, { imgSrc: 'https://s7d9.scene7.com/is/image/JCPenney/DP0615201717271938M.tif?$gallery$', navType: 'carousel-dot-image' })
+                    react_default.a.createElement(carousel_CarouselNavImage, { imgSrc: 'https://s7d9.scene7.com/is/image/JCPenney/DP0615201717271938M.tif?$gallery$', navClass: 'carousel-dot-image' })
                   ),
                   react_default.a.createElement(
                     'div',
                     null,
-                    react_default.a.createElement(carousel_CarouselNavImage, { imgSrc: 'https://s7d9.scene7.com/is/image/JCPenney/DP0913201618055525M.tif?$gallery$', navType: 'carousel-dot-video' })
+                    react_default.a.createElement(carousel_CarouselNavImage, { imgSrc: 'https://s7d9.scene7.com/is/image/JCPenney/DP0913201618055525M.tif?$gallery$', navClass: 'carousel-dot-video' })
+                  )
+                )
+              )
+            ),
+            react_default.a.createElement('hr', null),
+            react_default.a.createElement(
+              'div',
+              { className: 'carousel-container carousel-container-horizontal mrg-L' },
+              react_default.a.createElement(
+                'div',
+                { className: 'carousel-main-img' },
+                react_default.a.createElement(
+                  lib_default.a,
+                  _extends({ ref: 'secondarySlider' }, pdpSecondaryCarouselSettings),
+                  react_default.a.createElement(
+                    'div',
+                    null,
+                    react_default.a.createElement(carousel_CarouselImage, { imgSrc: 'https://s7d9.scene7.com/is/image/JCPenney/DP0726201617201191M?hei=500&wid=500&op_usm=.4,.8,0,0&resmode=sharp2', navClass: 'carousel-dot-image' })
+                  ),
+                  react_default.a.createElement(
+                    'div',
+                    null,
+                    react_default.a.createElement(carousel_CarouselImage, { imgSrc: 'https://s7d9.scene7.com/is/image/JCPenney/DP0913201618055525M?hei=500&wid=500&op_usm=.4,.8,0,0&resmode=sharp2', navClass: 'carousel-dot-image' })
+                  ),
+                  react_default.a.createElement(
+                    'div',
+                    null,
+                    react_default.a.createElement(carousel_CarouselImage, { imgSrc: 'https://s7d9.scene7.com/is/image/JCPenney/DP0607201617024741M?hei=500&wid=500&op_usm=.4,.8,0,0&resmode=sharp2', navClass: 'carousel-dot-image' })
+                  ),
+                  react_default.a.createElement(
+                    'div',
+                    null,
+                    react_default.a.createElement(carousel_CarouselImage, { imgSrc: 'https://s7d9.scene7.com/is/image/JCPenney/DP0615201717271938M?hei=500&wid=500&op_usm=.4,.8,0,0&resmode=sharp2', navClass: 'carousel-dot-image' })
+                  ),
+                  react_default.a.createElement(
+                    'div',
+                    null,
+                    react_default.a.createElement(carousel_CarouselImage, { imgSrc: 'https://s7d9.scene7.com/is/image/JCPenney/DP0913201618055525M?hei=500&wid=500&op_usm=.4,.8,0,0&resmode=sharp2', navClass: 'carousel-dot-video' })
+                  )
+                ),
+                react_default.a.createElement(
+                  'div',
+                  { 'class': 'flag flag-info std-txt std-txt-XS' },
+                  'Low Stock'
+                )
+              ),
+              react_default.a.createElement(
+                'div',
+                { className: 'carousel-nav' },
+                react_default.a.createElement(
+                  lib_default.a,
+                  _extends({ ref: 'secondaryNavSlider' }, pdpSecondaryCarouselNavSettings),
+                  react_default.a.createElement(
+                    'div',
+                    null,
+                    react_default.a.createElement(carousel_CarouselNavImage, { imgSrc: 'https://s7d9.scene7.com/is/image/JCPenney/DP0726201617201191M?hei=500&wid=500&op_usm=.4,.8,0,0&resmode=sharp2', navClass: 'carousel-dot-image' })
+                  ),
+                  react_default.a.createElement(
+                    'div',
+                    null,
+                    react_default.a.createElement(carousel_CarouselNavImage, { imgSrc: 'https://s7d9.scene7.com/is/image/JCPenney/DP0913201618055525M.tif?$gallery$', navClass: 'carousel-dot-image' })
+                  ),
+                  react_default.a.createElement(
+                    'div',
+                    null,
+                    react_default.a.createElement(carousel_CarouselNavImage, { imgSrc: 'https://s7d9.scene7.com/is/image/JCPenney/DP0607201617024741M.tif?$gallery$', navClass: 'carousel-dot-image' })
+                  ),
+                  react_default.a.createElement(
+                    'div',
+                    null,
+                    react_default.a.createElement(carousel_CarouselNavImage, { imgSrc: 'https://s7d9.scene7.com/is/image/JCPenney/DP0615201717271938M.tif?$gallery$', navClass: 'carousel-dot-image' })
+                  ),
+                  react_default.a.createElement(
+                    'div',
+                    null,
+                    react_default.a.createElement(carousel_CarouselNavImage, { imgSrc: 'https://s7d9.scene7.com/is/image/JCPenney/DP0913201618055525M.tif?$gallery$', navClass: 'carousel-dot-video' })
                   )
                 )
               )
@@ -11081,6 +12539,1958 @@ var components_carousel__temp = function () {
   }
 
   __REACT_HOT_LOADER__.register(components_carousel__default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/carousel/index.js');
+}();
+
+;
+// CONCATENATED MODULE: ./src/js/components/coupons/coupons.js
+var coupons__createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+function coupons__classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function coupons__possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function coupons__inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+
+
+var coupons_Coupons = function (_Component) {
+  coupons__inherits(Coupons, _Component);
+
+  function Coupons() {
+    coupons__classCallCheck(this, Coupons);
+
+    return coupons__possibleConstructorReturn(this, (Coupons.__proto__ || Object.getPrototypeOf(Coupons)).apply(this, arguments));
+  }
+
+  coupons__createClass(Coupons, [{
+    key: "componentDidMount",
+    value: function componentDidMount() {}
+  }, {
+    key: "render",
+    value: function render() {
+      return react_default.a.createElement(
+        "div",
+        null,
+        react_default.a.createElement(
+          "div",
+          { className: "row flex-box" },
+          react_default.a.createElement(
+            "div",
+            { className: "coupon-block flex-grid sm12 md6 lg4 xl3" },
+            react_default.a.createElement(
+              "div",
+              { className: "coupon-list" },
+              react_default.a.createElement(
+                "span",
+                { className: "coupon-badge title mrg-S" },
+                "SALE ENDS IN 2HRS"
+              ),
+              react_default.a.createElement(
+                "span",
+                { className: "std-txt std-txt-S mrg-S" },
+                "Online Only"
+              ),
+              react_default.a.createElement(
+                "div",
+                { className: "coupon-primary-offer mrg-M" },
+                react_default.a.createElement(
+                  "h2",
+                  { className: "title-L" },
+                  "Extra 30% OFF $100+"
+                ),
+                react_default.a.createElement(
+                  "p",
+                  { className: "std-txt std-txt-S" },
+                  "select apparel, shoes, accessories, fine jewelry & home"
+                )
+              ),
+              react_default.a.createElement(
+                "div",
+                { className: "coupon-secondary-offer mrg-M" },
+                react_default.a.createElement(
+                  "h4",
+                  { className: "title-M" },
+                  "Or Extra 25% OFF Under $100"
+                ),
+                react_default.a.createElement(
+                  "p",
+                  { className: "std-txt std-txt-S" },
+                  "with any method of payment"
+                )
+              ),
+              react_default.a.createElement(
+                "div",
+                { className: "coupon-code mrg-S" },
+                react_default.a.createElement(
+                  "span",
+                  { className: "std-txt std-txt-S" },
+                  "Expires: 11/05/2017"
+                ),
+                react_default.a.createElement(
+                  "p",
+                  null,
+                  react_default.a.createElement(
+                    "span",
+                    null,
+                    "Code: "
+                  ),
+                  react_default.a.createElement(
+                    "span",
+                    { className: "title-S title" },
+                    "SHOPNOW4"
+                  )
+                )
+              ),
+              react_default.a.createElement(
+                "a",
+                { href: "javascript:void();", className: "btn btn-S btn-primary apply-btn btn-full mrg-S" },
+                "Apply"
+              ),
+              react_default.a.createElement(
+                "div",
+                { className: "coupon-see-details" },
+                react_default.a.createElement(
+                  "a",
+                  { href: "javascript:void(0)" },
+                  "shop home"
+                ),
+                react_default.a.createElement(
+                  "a",
+                  { href: "javascript:void(0)" },
+                  "see details"
+                )
+              )
+            )
+          ),
+          react_default.a.createElement(
+            "div",
+            { className: "coupon-block flex-grid sm12 md6 lg4 xl3" },
+            react_default.a.createElement(
+              "div",
+              { className: "coupon-list" },
+              react_default.a.createElement(
+                "span",
+                { className: "coupon-badge title mrg-S" },
+                "SALE ENDS IN 2HRS"
+              ),
+              react_default.a.createElement(
+                "span",
+                { className: "std-txt std-txt-S mrg-S" },
+                "Online Only"
+              ),
+              react_default.a.createElement(
+                "div",
+                { className: "coupon-primary-offer mrg-M" },
+                react_default.a.createElement(
+                  "h2",
+                  { className: "title-L" },
+                  "Extra 30% OFF $100+"
+                ),
+                react_default.a.createElement(
+                  "p",
+                  { className: "std-txt std-txt-S" },
+                  "select apparel, shoes, accessories, fine jewelry & home"
+                )
+              ),
+              react_default.a.createElement(
+                "div",
+                { className: "coupon-secondary-offer mrg-M" },
+                react_default.a.createElement(
+                  "h4",
+                  { className: "title-M" },
+                  "Or Extra 25% OFF Under $100"
+                ),
+                react_default.a.createElement(
+                  "p",
+                  { className: "std-txt std-txt-S" },
+                  "with any method of payment"
+                )
+              ),
+              react_default.a.createElement(
+                "div",
+                { className: "coupon-code mrg-S" },
+                react_default.a.createElement(
+                  "span",
+                  { className: "std-txt std-txt-S" },
+                  "Expires: 11/05/2017"
+                ),
+                react_default.a.createElement(
+                  "p",
+                  null,
+                  react_default.a.createElement(
+                    "span",
+                    null,
+                    "Code: "
+                  ),
+                  react_default.a.createElement(
+                    "span",
+                    { className: "title-S title" },
+                    "SHOPNOW4"
+                  )
+                )
+              ),
+              react_default.a.createElement(
+                "a",
+                { href: "javascript:void();", className: "btn btn-S btn-primary apply-btn btn-full mrg-S" },
+                "Apply"
+              ),
+              react_default.a.createElement(
+                "div",
+                { className: "coupon-see-details" },
+                react_default.a.createElement(
+                  "a",
+                  { href: "javascript:void(0)" },
+                  "shop home"
+                ),
+                react_default.a.createElement(
+                  "a",
+                  { href: "javascript:void(0)" },
+                  "see details"
+                )
+              )
+            )
+          ),
+          react_default.a.createElement(
+            "div",
+            { className: "coupon-block flex-grid sm12 md6 lg4 xl3" },
+            react_default.a.createElement(
+              "div",
+              { className: "coupon-list" },
+              react_default.a.createElement(
+                "span",
+                { className: "coupon-badge title mrg-S" },
+                "SALE ENDS IN 2HRS"
+              ),
+              react_default.a.createElement(
+                "span",
+                { className: "std-txt std-txt-S mrg-S" },
+                "Online Only"
+              ),
+              react_default.a.createElement(
+                "div",
+                { className: "coupon-primary-offer mrg-M" },
+                react_default.a.createElement(
+                  "h2",
+                  { className: "title-L" },
+                  "Extra 30% OFF $100+"
+                ),
+                react_default.a.createElement(
+                  "p",
+                  { className: "std-txt std-txt-S" },
+                  "select apparel, shoes, accessories, fine jewelry & home"
+                )
+              ),
+              react_default.a.createElement(
+                "a",
+                { href: "javascript:void();", className: "btn btn-S btn-primary apply-btn btn-full mrg-S" },
+                "Apply"
+              ),
+              react_default.a.createElement(
+                "div",
+                { className: "coupon-see-details" },
+                react_default.a.createElement(
+                  "a",
+                  { href: "javascript:void(0)" },
+                  "shop home"
+                ),
+                react_default.a.createElement(
+                  "a",
+                  { href: "javascript:void(0)" },
+                  "see details"
+                )
+              )
+            )
+          ),
+          react_default.a.createElement(
+            "div",
+            { className: "coupon-block flex-grid sm12 md6 lg4 xl3" },
+            react_default.a.createElement(
+              "div",
+              { className: "coupon-list" },
+              react_default.a.createElement(
+                "span",
+                { className: "coupon-badge title mrg-S" },
+                "SALE ENDS IN 2HRS"
+              ),
+              react_default.a.createElement(
+                "span",
+                { className: "std-txt std-txt-S mrg-S" },
+                "Online Only"
+              ),
+              react_default.a.createElement(
+                "div",
+                { className: "coupon-primary-offer mrg-M" },
+                react_default.a.createElement(
+                  "h2",
+                  { className: "title-L" },
+                  "Extra 30% OFF $100+"
+                ),
+                react_default.a.createElement(
+                  "p",
+                  { className: "std-txt std-txt-S" },
+                  "select apparel, shoes, accessories, fine jewelry & home"
+                )
+              ),
+              react_default.a.createElement(
+                "div",
+                { className: "coupon-secondary-offer mrg-M" },
+                react_default.a.createElement(
+                  "h4",
+                  { className: "title-M" },
+                  "Or Extra 25% OFF Under $100"
+                ),
+                react_default.a.createElement(
+                  "p",
+                  { className: "std-txt std-txt-S" },
+                  "with any method of payment"
+                )
+              ),
+              react_default.a.createElement(
+                "div",
+                { className: "coupon-code mrg-S" },
+                react_default.a.createElement(
+                  "span",
+                  { className: "std-txt std-txt-S" },
+                  "Expires: 11/05/2017"
+                ),
+                react_default.a.createElement(
+                  "p",
+                  null,
+                  react_default.a.createElement(
+                    "span",
+                    null,
+                    "Code: "
+                  ),
+                  react_default.a.createElement(
+                    "span",
+                    { className: "title-S title" },
+                    "SHOPNOW4"
+                  )
+                )
+              ),
+              react_default.a.createElement(
+                "a",
+                { href: "javascript:void();", className: "btn btn-S btn-primary apply-btn btn-full mrg-S" },
+                "Apply"
+              ),
+              react_default.a.createElement(
+                "a",
+                { href: "javascript:void();", className: "btn btn-S btn-secondary apply-btn btn-full mrg-S print-barcode" },
+                "Print Barcode"
+              ),
+              react_default.a.createElement(
+                "div",
+                { className: "coupon-see-details" },
+                react_default.a.createElement(
+                  "a",
+                  { href: "javascript:void(0)" },
+                  "shop home"
+                ),
+                react_default.a.createElement(
+                  "a",
+                  { href: "javascript:void(0)" },
+                  "see details"
+                )
+              )
+            )
+          ),
+          react_default.a.createElement(
+            "div",
+            { className: "coupon-block flex-grid sm12 md6 lg4 xl3" },
+            react_default.a.createElement(
+              "div",
+              { className: "coupon-list" },
+              react_default.a.createElement(
+                "span",
+                { className: "coupon-badge title mrg-S" },
+                "SALE ENDS IN 2HRS"
+              ),
+              react_default.a.createElement(
+                "span",
+                { className: "std-txt std-txt-S mrg-S" },
+                "Online Only"
+              ),
+              react_default.a.createElement(
+                "div",
+                { className: "coupon-primary-offer mrg-M" },
+                react_default.a.createElement(
+                  "h2",
+                  { className: "title-L" },
+                  "Extra 30% OFF $100+"
+                ),
+                react_default.a.createElement(
+                  "p",
+                  { className: "std-txt std-txt-S" },
+                  "select apparel, shoes, accessories, fine jewelry & home"
+                )
+              ),
+              react_default.a.createElement(
+                "div",
+                { className: "coupon-secondary-offer mrg-M" },
+                react_default.a.createElement(
+                  "h4",
+                  { className: "title-M" },
+                  "Or Extra 25% OFF Under $100"
+                ),
+                react_default.a.createElement(
+                  "p",
+                  { className: "std-txt std-txt-S" },
+                  "with any method of payment"
+                )
+              ),
+              react_default.a.createElement(
+                "div",
+                { className: "coupon-code mrg-S" },
+                react_default.a.createElement(
+                  "span",
+                  { className: "std-txt std-txt-S" },
+                  "Expires: 11/05/2017"
+                ),
+                react_default.a.createElement(
+                  "p",
+                  null,
+                  react_default.a.createElement(
+                    "span",
+                    null,
+                    "Code: "
+                  ),
+                  react_default.a.createElement(
+                    "span",
+                    { className: "title-S title" },
+                    "SHOPNOW4"
+                  )
+                )
+              ),
+              react_default.a.createElement(
+                "a",
+                { href: "javascript:void();", className: "btn btn-S btn-primary apply-btn btn-full mrg-S" },
+                "Apply"
+              ),
+              react_default.a.createElement(
+                "div",
+                { className: "coupon-see-details" },
+                react_default.a.createElement(
+                  "a",
+                  { href: "javascript:void(0)" },
+                  "shop home"
+                ),
+                react_default.a.createElement(
+                  "a",
+                  { href: "javascript:void(0)" },
+                  "see details"
+                )
+              )
+            )
+          ),
+          react_default.a.createElement(
+            "div",
+            { className: "coupon-block flex-grid sm12 md6 lg4 xl3" },
+            react_default.a.createElement(
+              "div",
+              { className: "coupon-list" },
+              react_default.a.createElement(
+                "span",
+                { className: "coupon-badge title mrg-S" },
+                "SALE ENDS IN 2HRS"
+              ),
+              react_default.a.createElement(
+                "span",
+                { className: "std-txt std-txt-S mrg-S" },
+                "Online Only"
+              ),
+              react_default.a.createElement(
+                "div",
+                { className: "coupon-primary-offer mrg-M" },
+                react_default.a.createElement(
+                  "h2",
+                  { className: "title-L" },
+                  "Extra 30% OFF $100+"
+                ),
+                react_default.a.createElement(
+                  "p",
+                  { className: "std-txt std-txt-S" },
+                  "select apparel, shoes, accessories, fine jewelry & home"
+                )
+              ),
+              react_default.a.createElement(
+                "div",
+                { className: "coupon-secondary-offer mrg-M" },
+                react_default.a.createElement(
+                  "h4",
+                  { className: "title-M" },
+                  "Or Extra 25% OFF Under $100"
+                ),
+                react_default.a.createElement(
+                  "p",
+                  { className: "std-txt std-txt-S" },
+                  "with any method of payment"
+                )
+              ),
+              react_default.a.createElement(
+                "div",
+                { className: "coupon-code mrg-S" },
+                react_default.a.createElement(
+                  "span",
+                  { className: "std-txt std-txt-S" },
+                  "Expires: 11/05/2017"
+                ),
+                react_default.a.createElement(
+                  "p",
+                  null,
+                  react_default.a.createElement(
+                    "span",
+                    null,
+                    "Code: "
+                  ),
+                  react_default.a.createElement(
+                    "span",
+                    { className: "title-S title" },
+                    "SHOPNOW4"
+                  )
+                )
+              ),
+              react_default.a.createElement(
+                "a",
+                { href: "javascript:void();", className: "btn btn-S btn-primary apply-btn btn-full mrg-S" },
+                "Apply"
+              ),
+              react_default.a.createElement(
+                "div",
+                { className: "coupon-see-details" },
+                react_default.a.createElement(
+                  "a",
+                  { href: "javascript:void(0)" },
+                  "shop home"
+                ),
+                react_default.a.createElement(
+                  "a",
+                  { href: "javascript:void(0)" },
+                  "see details"
+                )
+              )
+            )
+          ),
+          react_default.a.createElement(
+            "div",
+            { className: "coupon-block flex-grid sm12 md6 lg4 xl3" },
+            react_default.a.createElement(
+              "div",
+              { className: "coupon-list" },
+              react_default.a.createElement(
+                "span",
+                { className: "coupon-badge title mrg-S" },
+                "SALE ENDS IN 2HRS"
+              ),
+              react_default.a.createElement(
+                "span",
+                { className: "std-txt std-txt-S mrg-S" },
+                "Online Only"
+              ),
+              react_default.a.createElement(
+                "div",
+                { className: "coupon-primary-offer mrg-M" },
+                react_default.a.createElement(
+                  "h2",
+                  { className: "title-L" },
+                  "Extra 30% OFF $100+"
+                ),
+                react_default.a.createElement(
+                  "p",
+                  { className: "std-txt std-txt-S" },
+                  "select apparel, shoes, accessories, fine jewelry & home"
+                )
+              ),
+              react_default.a.createElement(
+                "div",
+                { className: "coupon-secondary-offer mrg-M" },
+                react_default.a.createElement(
+                  "h4",
+                  { className: "title-M" },
+                  "Or Extra 25% OFF Under $100"
+                ),
+                react_default.a.createElement(
+                  "p",
+                  { className: "std-txt std-txt-S" },
+                  "with any method of payment"
+                )
+              ),
+              react_default.a.createElement(
+                "div",
+                { className: "coupon-code mrg-S" },
+                react_default.a.createElement(
+                  "span",
+                  { className: "std-txt std-txt-S" },
+                  "Expires: 11/05/2017"
+                ),
+                react_default.a.createElement(
+                  "p",
+                  null,
+                  react_default.a.createElement(
+                    "span",
+                    null,
+                    "Code: "
+                  ),
+                  react_default.a.createElement(
+                    "span",
+                    { className: "title-S title" },
+                    "SHOPNOW4"
+                  )
+                )
+              ),
+              react_default.a.createElement(
+                "a",
+                { href: "javascript:void();", className: "btn btn-S btn-primary apply-btn btn-full mrg-S" },
+                "Apply"
+              ),
+              react_default.a.createElement(
+                "div",
+                { className: "coupon-see-details" },
+                react_default.a.createElement(
+                  "a",
+                  { href: "javascript:void(0)" },
+                  "shop home"
+                ),
+                react_default.a.createElement(
+                  "a",
+                  { href: "javascript:void(0)" },
+                  "see details"
+                )
+              )
+            )
+          ),
+          react_default.a.createElement(
+            "div",
+            { className: "coupon-block flex-grid sm12 md6 lg4 xl3" },
+            react_default.a.createElement(
+              "div",
+              { className: "coupon-list" },
+              react_default.a.createElement(
+                "span",
+                { className: "coupon-badge title mrg-S" },
+                "SALE ENDS IN 2HRS"
+              ),
+              react_default.a.createElement(
+                "span",
+                { className: "std-txt std-txt-S mrg-S" },
+                "Online Only"
+              ),
+              react_default.a.createElement(
+                "div",
+                { className: "coupon-primary-offer mrg-M" },
+                react_default.a.createElement(
+                  "h2",
+                  { className: "title-L" },
+                  "Extra 30% OFF $100+"
+                ),
+                react_default.a.createElement(
+                  "p",
+                  { className: "std-txt std-txt-S" },
+                  "select apparel, shoes, accessories, fine jewelry & home"
+                )
+              ),
+              react_default.a.createElement(
+                "div",
+                { className: "coupon-secondary-offer mrg-M" },
+                react_default.a.createElement(
+                  "h4",
+                  { className: "title-M" },
+                  "Or Extra 25% OFF Under $100"
+                ),
+                react_default.a.createElement(
+                  "p",
+                  { className: "std-txt std-txt-S" },
+                  "with any method of payment"
+                )
+              ),
+              react_default.a.createElement(
+                "div",
+                { className: "coupon-code mrg-S" },
+                react_default.a.createElement(
+                  "span",
+                  { className: "std-txt std-txt-S" },
+                  "Expires: 11/05/2017"
+                ),
+                react_default.a.createElement(
+                  "p",
+                  null,
+                  react_default.a.createElement(
+                    "span",
+                    null,
+                    "Code: "
+                  ),
+                  react_default.a.createElement(
+                    "span",
+                    { className: "title-S title" },
+                    "SHOPNOW4"
+                  )
+                )
+              ),
+              react_default.a.createElement(
+                "a",
+                { href: "javascript:void();", className: "btn btn-S btn-primary apply-btn btn-full mrg-S" },
+                "Apply"
+              ),
+              react_default.a.createElement(
+                "div",
+                { className: "coupon-see-details" },
+                react_default.a.createElement(
+                  "a",
+                  { href: "javascript:void(0)" },
+                  "shop home"
+                ),
+                react_default.a.createElement(
+                  "a",
+                  { href: "javascript:void(0)" },
+                  "see details"
+                )
+              )
+            )
+          )
+        )
+      );
+    }
+  }]);
+
+  return Coupons;
+}(react["Component"]);
+
+var coupons__default = coupons_Coupons;
+
+
+/* harmony default export */ var coupons = (coupons__default);
+;
+
+var coupons__temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(coupons_Coupons, "Coupons", "C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/coupons/coupons.js");
+
+  __REACT_HOT_LOADER__.register(coupons__default, "default", "C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/coupons/coupons.js");
+}();
+
+;
+// CONCATENATED MODULE: ./src/js/components/coupons/index.js
+
+var components_coupons__default = coupons;
+/* harmony default export */ var components_coupons = (components_coupons__default);
+;
+
+var components_coupons__temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(components_coupons__default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/coupons/index.js');
+}();
+
+;
+// CONCATENATED MODULE: ./src/js/components/header/header.js
+var header__createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+function header__classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function header__possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function header__inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+
+
+
+var logoImage = __webpack_require__("Qmz5");
+var header_searchImage = __webpack_require__("7r5T");
+var header_menuImage = __webpack_require__("738v");
+var header_closeImage = __webpack_require__("oWX6");
+
+var header_Header = function (_Component) {
+  header__inherits(Header, _Component);
+
+  function Header() {
+    header__classCallCheck(this, Header);
+
+    return header__possibleConstructorReturn(this, (Header.__proto__ || Object.getPrototypeOf(Header)).apply(this, arguments));
+  }
+
+  header__createClass(Header, [{
+    key: 'componentDidMount',
+    value: function componentDidMount() {
+
+      !function (factory) {
+        "use strict";
+        "function" == typeof define && __webpack_require__("nErl") ? define(["$"], factory) : jquery_default.a && !jquery_default.a.fn.hoverIntent && factory(jquery_default.a);
+      }(function ($) {
+        "use strict";
+        var cX,
+            cY,
+            _cfg = { interval: 100, sensitivity: 6, timeout: 0 },
+            INSTANCE_COUNT = 0,
+            track = function track(ev) {
+          cX = ev.pageX, cY = ev.pageY;
+        },
+            compare = function compare(ev, $el, s, cfg) {
+          if (Math.sqrt((s.pX - cX) * (s.pX - cX) + (s.pY - cY) * (s.pY - cY)) < cfg.sensitivity) return $el.off(s.event, track), delete s.timeoutId, s.isActive = !0, ev.pageX = cX, ev.pageY = cY, delete s.pX, delete s.pY, cfg.over.apply($el[0], [ev]);s.pX = cX, s.pY = cY, s.timeoutId = setTimeout(function () {
+            compare(ev, $el, s, cfg);
+          }, cfg.interval);
+        },
+            delay = function delay(ev, $el, s, out) {
+          return delete $el.data("hoverIntent")[s.id], out.apply($el[0], [ev]);
+        };$.fn.hoverIntent = function (handlerIn, handlerOut, selector) {
+          var instanceId = INSTANCE_COUNT++,
+              cfg = $.extend({}, _cfg);$.isPlainObject(handlerIn) ? (cfg = $.extend(cfg, handlerIn), $.isFunction(cfg.out) || (cfg.out = cfg.over)) : cfg = $.isFunction(handlerOut) ? $.extend(cfg, { over: handlerIn, out: handlerOut, selector: selector }) : $.extend(cfg, { over: handlerIn, out: handlerIn, selector: handlerOut });var handleHover = function handleHover(e) {
+            var ev = $.extend({}, e),
+                $el = $(this),
+                hoverIntentData = $el.data("hoverIntent");hoverIntentData || $el.data("hoverIntent", hoverIntentData = {});var state = hoverIntentData[instanceId];state || (hoverIntentData[instanceId] = state = { id: instanceId }), state.timeoutId && (state.timeoutId = clearTimeout(state.timeoutId));var mousemove = state.event = "mousemove.hoverIntent.hoverIntent" + instanceId;if ("mouseenter" === e.type) {
+              if (state.isActive) return;state.pX = ev.pageX, state.pY = ev.pageY, $el.off(mousemove, track).on(mousemove, track), state.timeoutId = setTimeout(function () {
+                compare(ev, $el, state, cfg);
+              }, cfg.interval);
+            } else {
+              if (!state.isActive) return;$el.off(mousemove, track), state.timeoutId = setTimeout(function () {
+                delay(ev, $el, state, cfg.out);
+              }, cfg.timeout);
+            }
+          };return this.on({ "mouseenter.hoverIntent": handleHover, "mouseleave.hoverIntent": handleHover }, cfg.selector);
+        };
+      });
+
+      jquery_default()('.dropdown-button').on('click', function () {
+
+        var parent_box = jquery_default()(this).closest('.dropdown-menu-block');
+        parent_box.siblings().find('.dropdown-menu').hide();
+        parent_box.find('.dropdown-menu').slideToggle(200, 'swing');
+
+        jquery_default()(this).toggleClass("arrow-down");
+      });
+
+      jquery_default()('.side-panel-btn').on('click', function (event) {
+        event.preventDefault();
+        var parent = jquery_default()("#" + jquery_default()(this).attr('data-for'));
+        parent.addClass('is-visible');
+      });
+
+      jquery_default()('.side-panel').on('click', function (event) {
+        if (jquery_default()(event.target).is('.side-panel')) {
+          jquery_default()(this).removeClass('is-visible');
+        } else if (jquery_default()(event.target).is('.side-panel-close')) {
+          jquery_default()(event.target).closest('.side-panel').removeClass('is-visible');
+        }
+        event.preventDefault();
+      });
+
+      jquery_default()(".main-menu-tier2-li-shop-departments").hoverIntent({
+        over: function over() {
+          if (jquery_default()("#mainMenuTier2LightBox").length == 0) {
+            jquery_default()("body").append('<div id="mainMenuTier2LightBox"></div>');
+            var top = 0;
+            if (jquery_default()(".main-menu-bar-tier2").length > 0) {
+              top = jquery_default()(".main-menu-bar-tier2").height() + jquery_default()(".main-menu-bar-tier2").offset().top;
+            }
+            jquery_default()("#mainMenuTier2LightBox").css({ "top": top, "height": jquery_default()(document).height() });
+          }
+          jquery_default()(".main-menu-tier2-li").addClass("main-menu-tier2-hover");
+        },
+        timeout: 800,
+        interval: 100,
+        out: function out() {
+          jquery_default()(".main-menu-tier2-li").removeClass("main-menu-tier2-hover");
+          jquery_default()("#mainMenuTier2LightBox").remove();
+        }
+      });
+    }
+  }, {
+    key: 'render',
+    value: function render() {
+      return react_default.a.createElement(
+        'div',
+        null,
+        react_default.a.createElement(
+          'div',
+          { className: 'row' },
+          react_default.a.createElement(
+            'div',
+            { className: 'sm12 columns' },
+            react_default.a.createElement(
+              'h1',
+              { className: 'title title-XL mrg-L' },
+              'Header'
+            ),
+            react_default.a.createElement(
+              'h2',
+              { className: 'std-txt std-txt-XL mrg-L max-width-text' },
+              'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+            )
+          )
+        ),
+        react_default.a.createElement(
+          'header',
+          { className: 'main-menu' },
+          react_default.a.createElement(
+            'div',
+            { className: 'main-menu-promotional-banner' },
+            react_default.a.createElement(
+              'div',
+              { className: 'main-menu-promotional-banner-content' },
+              react_default.a.createElement(
+                'p',
+                { className: 'S mrg-zero main-menu-promotional-banner-text' },
+                'Get it today with FREE same day pickup'
+              ),
+              react_default.a.createElement(
+                'p',
+                { className: 'S mrg-zero' },
+                react_default.a.createElement(
+                  'a',
+                  { className: 'main-menu-promotional-banner-link', href: 'javascript:void(0);' },
+                  'See Details'
+                )
+              )
+            )
+          ),
+          react_default.a.createElement(
+            'div',
+            { className: 'main-menu-bar-tier1' },
+            react_default.a.createElement(
+              'ul',
+              { className: 'main-menu-tier1' },
+              react_default.a.createElement(
+                'li',
+                { className: 'main-menu-tier1-item main-menu-tier1-logo' },
+                react_default.a.createElement(
+                  'span',
+                  { className: 'hide-for-large-up' },
+                  react_default.a.createElement(
+                    'a',
+                    { title: 'JCPenney Main Menu', 'aria-label': 'JCPenney Main Menu', href: 'javascript:void(0);', className: 'side-panel-btn', 'data-for': 'mainMenuTier2' },
+                    react_default.a.createElement('div', { className: 'main-menu-tier1-menu-svg icon', dangerouslySetInnerHTML: { __html: header_menuImage } })
+                  )
+                ),
+                react_default.a.createElement(
+                  'a',
+                  { title: 'JCPenney Home', 'aria-label': 'JCPenney Home Page', href: 'javascript:void(0);' },
+                  react_default.a.createElement('div', { className: 'main-menu-tier1-logo-svg', dangerouslySetInnerHTML: { __html: logoImage } })
+                )
+              ),
+              react_default.a.createElement(
+                'li',
+                { className: 'main-menu-tier1-item main-menu-tier1-search' },
+                react_default.a.createElement(
+                  'form',
+                  { action: 'http://www.jcpenney.com/s/search' },
+                  react_default.a.createElement('input', { type: 'text', placeholder: 'Search Products', size: '20', 'aria-required': 'false', autocomplete: 'off', autocorrect: 'off', autocapitalize: 'off', spellcheck: 'off' }),
+                  react_default.a.createElement(
+                    'button',
+                    { type: 'submit' },
+                    react_default.a.createElement('div', { className: 'main-menu-tier1-search-svg icon', dangerouslySetInnerHTML: { __html: header_searchImage } })
+                  )
+                )
+              ),
+              react_default.a.createElement(
+                'li',
+                { className: 'main-menu-tier1-item main-menu-tier1-rewards hide-for-small-only' },
+                react_default.a.createElement(
+                  'a',
+                  { href: 'javascript:void(0);' },
+                  react_default.a.createElement('img', { src: '/images/global/jcpenney-rewards.png', alt: 'JCPenney Rewards' })
+                )
+              ),
+              react_default.a.createElement(
+                'li',
+                { className: 'main-menu-tier1-item main-menu-tier1-account' },
+                react_default.a.createElement(
+                  'div',
+                  { className: 'dropdown-menu-block' },
+                  react_default.a.createElement(
+                    'button',
+                    { className: 'dropdown-button', type: 'button', tabindex: '-1' },
+                    react_default.a.createElement(
+                      'div',
+                      { className: 'main-menu-tier1-account-title' },
+                      'My Account'
+                    ),
+                    react_default.a.createElement(
+                      'div',
+                      { className: 'main-menu-tier1-account-link' },
+                      'Sign In ',
+                      react_default.a.createElement('span', { className: 'arrow' })
+                    )
+                  ),
+                  react_default.a.createElement(
+                    'div',
+                    { className: 'dropdown-menu dropdown-account' },
+                    react_default.a.createElement(
+                      'div',
+                      { className: 'tooltip tooltip-top-right tooltip-long tooltip-list' },
+                      react_default.a.createElement(
+                        'ul',
+                        null,
+                        react_default.a.createElement(
+                          'li',
+                          null,
+                          react_default.a.createElement(
+                            'a',
+                            { href: 'javascript:void(0)' },
+                            'My Account'
+                          )
+                        ),
+                        react_default.a.createElement(
+                          'li',
+                          null,
+                          react_default.a.createElement(
+                            'a',
+                            { href: 'javascript:void(0)' },
+                            'Find a Store'
+                          )
+                        ),
+                        react_default.a.createElement(
+                          'li',
+                          null,
+                          react_default.a.createElement(
+                            'a',
+                            { href: 'javascript:void(0)' },
+                            'My Orders'
+                          )
+                        ),
+                        react_default.a.createElement(
+                          'li',
+                          null,
+                          react_default.a.createElement(
+                            'a',
+                            { href: 'javascript:void(0)' },
+                            'My Rewards (0)'
+                          )
+                        ),
+                        react_default.a.createElement(
+                          'li',
+                          null,
+                          react_default.a.createElement(
+                            'a',
+                            { href: 'javascript:void(0)' },
+                            'My List'
+                          )
+                        ),
+                        react_default.a.createElement(
+                          'li',
+                          null,
+                          react_default.a.createElement(
+                            'a',
+                            { href: 'javascript:void(0)' },
+                            'Profile Settings'
+                          )
+                        ),
+                        react_default.a.createElement(
+                          'li',
+                          null,
+                          react_default.a.createElement(
+                            'a',
+                            { href: 'javascript:void(0)' },
+                            'Notifications'
+                          )
+                        ),
+                        react_default.a.createElement(
+                          'li',
+                          null,
+                          react_default.a.createElement(
+                            'a',
+                            { href: 'javascript:void(0)' },
+                            'My Jcpenney.com'
+                          )
+                        ),
+                        react_default.a.createElement(
+                          'li',
+                          null,
+                          react_default.a.createElement(
+                            'a',
+                            { href: 'javascript:void(0)' },
+                            'Gift Registry'
+                          )
+                        ),
+                        react_default.a.createElement(
+                          'li',
+                          null,
+                          react_default.a.createElement(
+                            'a',
+                            { href: 'javascript:void(0)' },
+                            'JCPenney Credit Card'
+                          )
+                        ),
+                        react_default.a.createElement(
+                          'li',
+                          { className: 'tooltip-divider' },
+                          react_default.a.createElement(
+                            'a',
+                            { href: 'javascript:void(0)' },
+                            'Sign Out'
+                          )
+                        ),
+                        react_default.a.createElement(
+                          'li',
+                          { className: 'main-menu-tier1-sign-rewards' },
+                          react_default.a.createElement(
+                            'a',
+                            { href: 'javascript:void(0);' },
+                            react_default.a.createElement(
+                              'span',
+                              { className: 'main-menu-tier1-sign-rewards-amount' },
+                              '$20'
+                            ),
+                            react_default.a.createElement(
+                              'span',
+                              { className: 'main-menu-tier1-sign-rewards-label' },
+                              'Redeem Your Rewards'
+                            )
+                          )
+                        )
+                      )
+                    )
+                  )
+                )
+              ),
+              react_default.a.createElement(
+                'li',
+                { className: 'main-menu-tier1-item main-menu-tier1-cart' },
+                react_default.a.createElement(
+                  'a',
+                  { href: 'javascript:void(0);', className: 'main-menu-tier1-cart-icon-full' },
+                  react_default.a.createElement(
+                    'span',
+                    { className: 'main-menu-tier1-cart-icon-full-items' },
+                    '28'
+                  )
+                )
+              )
+            )
+          ),
+          react_default.a.createElement(
+            'div',
+            { className: 'main-menu-bar-tier2' },
+            react_default.a.createElement(
+              'div',
+              { className: 'side-panel side-panel-disable-desktop from-left main-menu-bar-tier2-panel', id: 'mainMenuTier2' },
+              react_default.a.createElement(
+                'header',
+                { className: 'side-panel-header' },
+                react_default.a.createElement(
+                  'h3',
+                  { className: 'title title-L color-white' },
+                  'Menu'
+                ),
+                react_default.a.createElement(
+                  'a',
+                  { href: 'javascript:void(0);', className: 'side-panel-close' },
+                  react_default.a.createElement('div', { className: 'change-my-store-icon-close icon color-white-svg', dangerouslySetInnerHTML: { __html: header_closeImage } })
+                )
+              ),
+              react_default.a.createElement(
+                'div',
+                { className: 'side-panel-container' },
+                react_default.a.createElement(
+                  'div',
+                  { className: 'side-panel-content' },
+                  react_default.a.createElement(
+                    'div',
+                    { className: 'main-menu-bar-tier2-container' },
+                    react_default.a.createElement(
+                      'div',
+                      { className: 'main-menu-tier2-left' },
+                      react_default.a.createElement(
+                        'ul',
+                        { className: 'main-menu-tier2' },
+                        react_default.a.createElement(
+                          'li',
+                          { className: 'main-menu-tier2-li main-menu-tier2-li-shop-departments' },
+                          react_default.a.createElement(
+                            'button',
+                            { className: 'main-menu-tier2-shop-departments hide-for-medium-down' },
+                            react_default.a.createElement('div', { className: 'main-menu-tier2-shop-departments-menu-svg icon color-nightsky-svg', dangerouslySetInnerHTML: { __html: header_menuImage } }),
+                            react_default.a.createElement(
+                              'span',
+                              { className: 'main-menu-tier2-shop-departments-menu-label' },
+                              'Shop Departments'
+                            )
+                          ),
+                          react_default.a.createElement(
+                            'ul',
+                            { className: 'main-menu-tier3' },
+                            react_default.a.createElement(
+                              'li',
+                              null,
+                              react_default.a.createElement(
+                                'a',
+                                { href: 'javascript:void(0)', className: 'main-menu-tier-3-link' },
+                                'For the Home'
+                              )
+                            ),
+                            react_default.a.createElement(
+                              'li',
+                              null,
+                              react_default.a.createElement(
+                                'a',
+                                { href: 'javascript:void(0)', className: 'main-menu-tier-3-link' },
+                                'Bed & Bath'
+                              )
+                            ),
+                            react_default.a.createElement(
+                              'li',
+                              null,
+                              react_default.a.createElement(
+                                'a',
+                                { href: 'javascript:void(0)', className: 'main-menu-tier-3-link' },
+                                'Window'
+                              )
+                            ),
+                            react_default.a.createElement(
+                              'li',
+                              null,
+                              react_default.a.createElement(
+                                'a',
+                                { href: 'javascript:void(0)', className: 'main-menu-tier-3-link' },
+                                'Appliances'
+                              )
+                            ),
+                            react_default.a.createElement(
+                              'li',
+                              null,
+                              react_default.a.createElement(
+                                'a',
+                                { href: 'javascript:void(0)', className: 'main-menu-tier-3-link' },
+                                'Women'
+                              )
+                            ),
+                            react_default.a.createElement(
+                              'li',
+                              null,
+                              react_default.a.createElement(
+                                'a',
+                                { href: 'javascript:void(0)', className: 'main-menu-tier-3-link' },
+                                'Lingerie'
+                              )
+                            ),
+                            react_default.a.createElement(
+                              'li',
+                              null,
+                              react_default.a.createElement(
+                                'a',
+                                { href: 'javascript:void(0)', className: 'main-menu-tier-3-link' },
+                                'Men'
+                              )
+                            ),
+                            react_default.a.createElement(
+                              'li',
+                              null,
+                              react_default.a.createElement(
+                                'a',
+                                { href: 'javascript:void(0)', className: 'main-menu-tier-3-link' },
+                                'Juniors'
+                              )
+                            ),
+                            react_default.a.createElement(
+                              'li',
+                              null,
+                              react_default.a.createElement(
+                                'a',
+                                { href: 'javascript:void(0)', className: 'main-menu-tier-3-link' },
+                                'Kids'
+                              )
+                            ),
+                            react_default.a.createElement(
+                              'li',
+                              null,
+                              react_default.a.createElement(
+                                'a',
+                                { href: 'javascript:void(0)', className: 'main-menu-tier-3-link' },
+                                'Baby'
+                              )
+                            ),
+                            react_default.a.createElement(
+                              'li',
+                              null,
+                              react_default.a.createElement(
+                                'a',
+                                { href: 'javascript:void(0)', className: 'main-menu-tier-3-link' },
+                                'Shoes'
+                              )
+                            ),
+                            react_default.a.createElement(
+                              'li',
+                              null,
+                              react_default.a.createElement(
+                                'a',
+                                { href: 'javascript:void(0)', className: 'main-menu-tier-3-link' },
+                                'Handbags'
+                              )
+                            ),
+                            react_default.a.createElement(
+                              'li',
+                              null,
+                              react_default.a.createElement(
+                                'a',
+                                { href: 'javascript:void(0)', className: 'main-menu-tier-3-link' },
+                                'Jewelry'
+                              )
+                            ),
+                            react_default.a.createElement(
+                              'li',
+                              null,
+                              react_default.a.createElement(
+                                'a',
+                                { href: 'javascript:void(0)', className: 'main-menu-tier-3-link' },
+                                'Salon'
+                              )
+                            ),
+                            react_default.a.createElement(
+                              'li',
+                              null,
+                              react_default.a.createElement(
+                                'a',
+                                { href: 'javascript:void(0)', className: 'main-menu-tier-3-link' },
+                                'Sephora'
+                              )
+                            ),
+                            react_default.a.createElement(
+                              'li',
+                              null,
+                              react_default.a.createElement(
+                                'a',
+                                { href: 'javascript:void(0)', className: 'main-menu-tier-3-link' },
+                                'Gifts'
+                              )
+                            ),
+                            react_default.a.createElement(
+                              'li',
+                              null,
+                              react_default.a.createElement(
+                                'a',
+                                { href: 'javascript:void(0)', className: 'main-menu-tier-3-link' },
+                                'Clearance'
+                              )
+                            )
+                          )
+                        ),
+                        react_default.a.createElement(
+                          'li',
+                          { className: 'main-menu-tier2-li main-menu-tier2-li-primary' },
+                          react_default.a.createElement(
+                            'a',
+                            { href: 'javascript:void(0)', className: 'main-menu-tier-3-link-md-down' },
+                            'Same Day Pickup'
+                          )
+                        ),
+                        react_default.a.createElement(
+                          'li',
+                          { className: 'main-menu-tier2-li main-menu-tier2-li-primary' },
+                          react_default.a.createElement(
+                            'a',
+                            { href: 'javascript:void(0)', className: 'main-menu-tier-3-link-md-down' },
+                            'Gifts'
+                          )
+                        ),
+                        react_default.a.createElement(
+                          'li',
+                          { className: 'main-menu-tier2-li main-menu-tier2-li-primary' },
+                          react_default.a.createElement(
+                            'a',
+                            { href: 'javascript:void(0)', className: 'main-menu-tier-3-link-md-down' },
+                            'Toys'
+                          )
+                        ),
+                        react_default.a.createElement(
+                          'li',
+                          { className: 'main-menu-tier2-li main-menu-tier2-li-primary' },
+                          react_default.a.createElement(
+                            'a',
+                            { href: 'javascript:void(0)', className: 'main-menu-tier-3-link-md-down' },
+                            'My List'
+                          )
+                        ),
+                        react_default.a.createElement(
+                          'li',
+                          { className: 'main-menu-tier2-li main-menu-tier2-li-primary main-menu-tier2-li-highlight' },
+                          react_default.a.createElement(
+                            'a',
+                            { href: 'javascript:void(0)', className: 'main-menu-tier-3-link-md-down' },
+                            'Coupons'
+                          )
+                        )
+                      )
+                    ),
+                    react_default.a.createElement(
+                      'div',
+                      { className: 'main-menu-tier2-right' },
+                      react_default.a.createElement(
+                        'div',
+                        { className: 'dropdown-menu-block main-menu-tier2-my-store' },
+                        react_default.a.createElement(
+                          'button',
+                          { className: 'dropdown-button main-menu-tier-3-button-md-down', type: 'button', tabindex: '-1' },
+                          react_default.a.createElement(
+                            'strong',
+                            null,
+                            'My Store:'
+                          ),
+                          ' Collin Creek Mall ',
+                          react_default.a.createElement('span', { className: 'arrow' })
+                        ),
+                        react_default.a.createElement(
+                          'div',
+                          { className: 'dropdown-menu dropdown-my-store' },
+                          react_default.a.createElement(
+                            'ul',
+                            { className: 'tooltip tooltip-top-right tooltip-long tooltip-list' },
+                            react_default.a.createElement(
+                              'li',
+                              null,
+                              react_default.a.createElement(
+                                'div',
+                                { className: 'main-menu-tier2-my-store-listing' },
+                                react_default.a.createElement(
+                                  'h4',
+                                  { className: 'title title-M' },
+                                  'Collin Creek Mall'
+                                ),
+                                react_default.a.createElement(
+                                  'p',
+                                  { className: 'mrg-S' },
+                                  '821 N Central Expwy',
+                                  react_default.a.createElement('br', null),
+                                  'Plano, TX 75075'
+                                ),
+                                react_default.a.createElement(
+                                  'p',
+                                  { className: 'mrg-S' },
+                                  react_default.a.createElement(
+                                    'a',
+                                    { href: 'javascript:void(0);' },
+                                    'Get Directions'
+                                  )
+                                ),
+                                react_default.a.createElement(
+                                  'p',
+                                  null,
+                                  'Mon-Thu : 10am-10pm',
+                                  react_default.a.createElement('br', null),
+                                  'Fri : 9am-11pm',
+                                  react_default.a.createElement('br', null),
+                                  'Sat : 8am-11pm',
+                                  react_default.a.createElement('br', null),
+                                  'Sun : 9am-10pm'
+                                ),
+                                react_default.a.createElement(
+                                  'div',
+                                  null,
+                                  react_default.a.createElement(
+                                    'a',
+                                    { href: 'javascript:void(0);', 'class': 'btn btn-L btn-secondary btn-full side-panel-btn', 'data-for': 'changeMyStore' },
+                                    'Change My Store'
+                                  )
+                                )
+                              )
+                            )
+                          )
+                        )
+                      )
+                    )
+                  )
+                )
+              )
+            )
+          ),
+          react_default.a.createElement(
+            'div',
+            { className: 'side-panel from-right change-my-store-panel', id: 'changeMyStore' },
+            react_default.a.createElement(
+              'header',
+              { className: 'side-panel-header' },
+              react_default.a.createElement(
+                'h3',
+                { className: 'title title-L color-white' },
+                'Change My Store'
+              ),
+              react_default.a.createElement(
+                'a',
+                { href: 'javascript:void(0);', className: 'side-panel-close' },
+                react_default.a.createElement('div', { className: 'change-my-store-icon-close icon color-white-svg', dangerouslySetInnerHTML: { __html: header_closeImage } })
+              )
+            ),
+            react_default.a.createElement(
+              'div',
+              { className: 'side-panel-container' },
+              react_default.a.createElement(
+                'div',
+                { className: 'side-panel-content' },
+                react_default.a.createElement(
+                  'p',
+                  null,
+                  'Stores within 15 mi. of ',
+                  react_default.a.createElement(
+                    'strong',
+                    null,
+                    '75024'
+                  ),
+                  ' ',
+                  react_default.a.createElement(
+                    'a',
+                    { href: 'javascript:void(0);' },
+                    'Change'
+                  )
+                ),
+                react_default.a.createElement(
+                  'div',
+                  { className: 'side-panel-row' },
+                  react_default.a.createElement(
+                    'div',
+                    { className: 'side-panel-col side-panel-col-select' },
+                    react_default.a.createElement(
+                      'div',
+                      { className: 'dropdown-menu-block' },
+                      react_default.a.createElement(
+                        'a',
+                        { className: 'dropdown-button title-S' },
+                        'Filter By Services ',
+                        react_default.a.createElement('span', { className: 'arrow' })
+                      ),
+                      react_default.a.createElement(
+                        'div',
+                        { className: 'dropdown-menu' },
+                        react_default.a.createElement(
+                          'ul',
+                          { className: 'tooltip tooltip-top-center tooltip-light dropdown-search-type' },
+                          react_default.a.createElement(
+                            'li',
+                            { className: 'dropdown-list' },
+                            react_default.a.createElement(
+                              'label',
+                              { className: 'checkbox mrg-M' },
+                              react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
+                              react_default.a.createElement(
+                                'span',
+                                { className: 'left' },
+                                'label'
+                              ),
+                              react_default.a.createElement(
+                                'span',
+                                { className: 'right-label' },
+                                '(1,008)'
+                              )
+                            )
+                          ),
+                          react_default.a.createElement(
+                            'li',
+                            { className: 'dropdown-list' },
+                            react_default.a.createElement(
+                              'label',
+                              { className: 'checkbox mrg-M' },
+                              react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
+                              react_default.a.createElement(
+                                'span',
+                                { className: 'left' },
+                                'label'
+                              ),
+                              react_default.a.createElement(
+                                'span',
+                                { className: 'right-label' },
+                                '(1,008)'
+                              )
+                            )
+                          ),
+                          react_default.a.createElement(
+                            'li',
+                            { className: 'dropdown-list' },
+                            react_default.a.createElement(
+                              'label',
+                              { className: 'checkbox mrg-M' },
+                              react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
+                              react_default.a.createElement(
+                                'span',
+                                { className: 'left' },
+                                'label'
+                              ),
+                              react_default.a.createElement(
+                                'span',
+                                { className: 'right-label' },
+                                '(1,008)'
+                              )
+                            )
+                          ),
+                          react_default.a.createElement(
+                            'li',
+                            { className: 'dropdown-list' },
+                            react_default.a.createElement(
+                              'label',
+                              { className: 'checkbox mrg-M' },
+                              react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
+                              react_default.a.createElement(
+                                'span',
+                                { className: 'left' },
+                                'label'
+                              ),
+                              react_default.a.createElement(
+                                'span',
+                                { className: 'right-label' },
+                                '(1,008)'
+                              )
+                            )
+                          ),
+                          react_default.a.createElement(
+                            'li',
+                            { className: 'dropdown-list' },
+                            react_default.a.createElement(
+                              'label',
+                              { className: 'checkbox mrg-M' },
+                              react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
+                              react_default.a.createElement(
+                                'span',
+                                { className: 'left' },
+                                'label'
+                              ),
+                              react_default.a.createElement(
+                                'span',
+                                { className: 'right-label' },
+                                '(1,008)'
+                              )
+                            )
+                          ),
+                          react_default.a.createElement(
+                            'li',
+                            { className: 'dropdown-list' },
+                            react_default.a.createElement(
+                              'label',
+                              { className: 'checkbox mrg-M' },
+                              react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
+                              react_default.a.createElement(
+                                'span',
+                                { className: 'left' },
+                                'label'
+                              ),
+                              react_default.a.createElement(
+                                'span',
+                                { className: 'right-label' },
+                                '(1,008)'
+                              )
+                            )
+                          ),
+                          react_default.a.createElement(
+                            'li',
+                            { className: 'dropdown-list' },
+                            react_default.a.createElement(
+                              'label',
+                              { className: 'checkbox mrg-M' },
+                              react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
+                              react_default.a.createElement(
+                                'span',
+                                { className: 'left' },
+                                'label'
+                              ),
+                              react_default.a.createElement(
+                                'span',
+                                { className: 'right-label' },
+                                '(1,008)'
+                              )
+                            )
+                          ),
+                          react_default.a.createElement(
+                            'li',
+                            { className: 'dropdown-list' },
+                            react_default.a.createElement(
+                              'label',
+                              { className: 'checkbox mrg-M' },
+                              react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
+                              react_default.a.createElement(
+                                'span',
+                                { className: 'left' },
+                                'label'
+                              ),
+                              react_default.a.createElement(
+                                'span',
+                                { className: 'right-label' },
+                                '(1,008)'
+                              )
+                            )
+                          ),
+                          react_default.a.createElement(
+                            'li',
+                            { className: 'dropdown-list' },
+                            react_default.a.createElement(
+                              'label',
+                              { className: 'checkbox mrg-M' },
+                              react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
+                              react_default.a.createElement(
+                                'span',
+                                { className: 'left' },
+                                'label'
+                              ),
+                              react_default.a.createElement(
+                                'span',
+                                { className: 'right-label' },
+                                '(1,008)'
+                              )
+                            )
+                          ),
+                          react_default.a.createElement(
+                            'li',
+                            { className: 'dropdown-list' },
+                            react_default.a.createElement(
+                              'label',
+                              { className: 'checkbox mrg-M' },
+                              react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
+                              react_default.a.createElement(
+                                'span',
+                                { className: 'left' },
+                                'label'
+                              ),
+                              react_default.a.createElement(
+                                'span',
+                                { className: 'right-label' },
+                                '(1,008)'
+                              )
+                            )
+                          ),
+                          react_default.a.createElement(
+                            'li',
+                            { className: 'dropdown-list' },
+                            react_default.a.createElement(
+                              'label',
+                              { className: 'checkbox mrg-M' },
+                              react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
+                              react_default.a.createElement(
+                                'span',
+                                { className: 'left' },
+                                'label'
+                              ),
+                              react_default.a.createElement(
+                                'span',
+                                { className: 'right-label' },
+                                '(1,008)'
+                              )
+                            )
+                          ),
+                          react_default.a.createElement(
+                            'li',
+                            { className: 'dropdown-list' },
+                            react_default.a.createElement(
+                              'label',
+                              { className: 'checkbox mrg-M' },
+                              react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
+                              react_default.a.createElement(
+                                'span',
+                                { className: 'left' },
+                                'label'
+                              ),
+                              react_default.a.createElement(
+                                'span',
+                                { className: 'right-label' },
+                                '(1,008)'
+                              )
+                            )
+                          ),
+                          react_default.a.createElement(
+                            'li',
+                            { className: 'dropdown-list' },
+                            react_default.a.createElement(
+                              'label',
+                              { className: 'checkbox mrg-M' },
+                              react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
+                              react_default.a.createElement(
+                                'span',
+                                { className: 'left' },
+                                'label'
+                              ),
+                              react_default.a.createElement(
+                                'span',
+                                { className: 'right-label' },
+                                '(1,008)'
+                              )
+                            )
+                          ),
+                          react_default.a.createElement(
+                            'li',
+                            { className: 'dropdown-list' },
+                            react_default.a.createElement(
+                              'label',
+                              { className: 'checkbox mrg-M' },
+                              react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
+                              react_default.a.createElement(
+                                'span',
+                                { className: 'left' },
+                                'label'
+                              ),
+                              react_default.a.createElement(
+                                'span',
+                                { className: 'right-label' },
+                                '(1,008)'
+                              )
+                            )
+                          )
+                        )
+                      )
+                    )
+                  ),
+                  react_default.a.createElement(
+                    'div',
+                    { className: 'side-panel-col side-panel-col-map-view algn-rght' },
+                    react_default.a.createElement(
+                      'a',
+                      { href: 'javascript:void(0);' },
+                      'Map View'
+                    )
+                  )
+                ),
+                react_default.a.createElement(
+                  'div',
+                  { className: 'change-my-store-listing' },
+                  react_default.a.createElement(
+                    'div',
+                    { className: 'side-panel-row' },
+                    react_default.a.createElement(
+                      'div',
+                      { className: 'side-panel-col side-panel-col-details' },
+                      react_default.a.createElement(
+                        'h4',
+                        { className: 'mrg-S' },
+                        'Stonebriar Mall ',
+                        react_default.a.createElement(
+                          'span',
+                          { 'class': 'change-my-store-mileage color-slate' },
+                          '(3.5mi)'
+                        )
+                      ),
+                      react_default.a.createElement(
+                        'p',
+                        { className: 'std-txt std-txt-S mrg-XS color-nightsky' },
+                        '2480 Preston Rd'
+                      ),
+                      react_default.a.createElement(
+                        'p',
+                        { className: 'std-txt std-txt-S' },
+                        react_default.a.createElement(
+                          'a',
+                          { href: 'javascript:void(0);' },
+                          'View Hours & Services'
+                        )
+                      )
+                    ),
+                    react_default.a.createElement(
+                      'div',
+                      { className: 'side-panel-col-button' },
+                      react_default.a.createElement(
+                        'a',
+                        { href: 'javascript:void(0);', 'class': 'btn btn-L btn-full btn-primary btn-disabled' },
+                        'My Store'
+                      )
+                    )
+                  )
+                ),
+                react_default.a.createElement(
+                  'div',
+                  { className: 'change-my-store-listing last' },
+                  react_default.a.createElement(
+                    'div',
+                    { className: 'side-panel-row' },
+                    react_default.a.createElement(
+                      'div',
+                      { className: 'side-panel-col side-panel-col-details' },
+                      react_default.a.createElement(
+                        'h4',
+                        { className: 'mrg-S' },
+                        'Collin Creek Mall ',
+                        react_default.a.createElement(
+                          'span',
+                          { 'class': 'change-my-store-mileage color-slate' },
+                          '(5.2mi)'
+                        )
+                      ),
+                      react_default.a.createElement(
+                        'p',
+                        { className: 'std-txt std-txt-S mrg-XS color-nightsky' },
+                        '2480 Preston Rd'
+                      ),
+                      react_default.a.createElement(
+                        'p',
+                        { className: 'std-txt std-txt-S' },
+                        react_default.a.createElement(
+                          'a',
+                          { href: 'javascript:void(0);' },
+                          'View Hours & Services'
+                        )
+                      )
+                    ),
+                    react_default.a.createElement(
+                      'div',
+                      { className: 'side-panel-col side-panel-col-button' },
+                      react_default.a.createElement(
+                        'a',
+                        { href: 'javascript:void(0);', 'class': 'btn btn-L btn-full btn-primary' },
+                        'Set Store'
+                      )
+                    )
+                  )
+                )
+              )
+            )
+          )
+        ),
+        react_default.a.createElement(
+          'div',
+          { className: 'row' },
+          react_default.a.createElement(
+            'div',
+            { className: 'sm12 columns' },
+            react_default.a.createElement('hr', null),
+            react_default.a.createElement(
+              'p',
+              { className: 'S' },
+              'Created by: ',
+              react_default.a.createElement(
+                'strong',
+                null,
+                'Tony Stark'
+              ),
+              ' and ',
+              react_default.a.createElement(
+                'strong',
+                null,
+                'Bruce Banner'
+              ),
+              react_default.a.createElement('br', null),
+              ' Latest update: 04/05/2017'
+            )
+          )
+        )
+      );
+    }
+  }]);
+
+  return Header;
+}(react["Component"]);
+
+var header__default = header_Header;
+
+
+/* harmony default export */ var header = (header__default);
+;
+
+var header__temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(header_Header, 'Header', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/header/header.js');
+
+  __REACT_HOT_LOADER__.register(header__default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/header/header.js');
+}();
+
+;
+// CONCATENATED MODULE: ./src/js/components/header/index.js
+
+var components_header__default = header;
+/* harmony default export */ var components_header = (components_header__default);
+;
+
+var components_header__temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(components_header__default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/header/index.js');
 }();
 
 ;
@@ -11275,6 +14685,13 @@ function DesignSystemPage__inherits(subClass, superClass) { if (typeof superClas
 
 
 
+
+
+
+
+
+
+
 var DesignSystemPage_DesignSystemPage = function (_Component) {
   DesignSystemPage__inherits(DesignSystemPage, _Component);
 
@@ -11305,7 +14722,14 @@ var DesignSystemPage_DesignSystemPage = function (_Component) {
         CountdownTimers: { componentElement: components_countdown_timers, componentDisplayName: "Countdown Timers", componentSubNav: ['Countdown Timers'] },
         VisualNavigation: { componentElement: components_visual_navigation, componentDisplayName: "Visual Navigation", componentSubNav: ['Visual Navigation'] },
         Tooltips: { componentElement: components_tooltips, componentDisplayName: "Tooltips", componentSubNav: ['Tooltips'] },
-        Carousel: { componentElement: components_carousel, componentDisplayName: "Carousels", componentSubNav: ['Carousel'] }
+        Tabs: { componentElement: components_tabs, componentDisplayName: "Tabs", componentSubNav: ['Tabs'] },
+        Pagination: { componentElement: components_pagination, componentDisplayName: "Pagination", componentSubNav: ['Pagination'] },
+        Swatches: { componentElement: components_swatches, componentDisplayName: "Swatches", componentSubNav: ['Swatches'] },
+        Selectors: { componentElement: components_selectors, componentDisplayName: "Selectors", componentSubNav: ['Selectors'] },
+        Carousel: { componentElement: components_carousel, componentDisplayName: "Carousels", componentSubNav: ['Carousel'] },
+        Header: { componentElement: components_header, componentDisplayName: "Header", componentSubNav: ['Header'] },
+        Coupons: { componentElement: components_coupons, componentDisplayName: "Coupons", componentSubNav: ['Coupons'] }
+
       };
 
       var Scene = routes[this.props.componentName].componentElement;
@@ -15710,8 +19134,26 @@ var Root_App = function (_React$Component) {
                             react_default.a.createElement(es["d" /* Route */], { exact: true, path: '/components/tooltips', render: function render() {
                                     return react_default.a.createElement(containers_DesignSystemPage, { componentName: 'Tooltips' });
                                 } }),
+                            react_default.a.createElement(es["d" /* Route */], { exact: true, path: '/components/tabs', render: function render() {
+                                    return react_default.a.createElement(containers_DesignSystemPage, { componentName: 'Tabs' });
+                                } }),
+                            react_default.a.createElement(es["d" /* Route */], { exact: true, path: '/components/pagination', render: function render() {
+                                    return react_default.a.createElement(containers_DesignSystemPage, { componentName: 'Pagination' });
+                                } }),
                             react_default.a.createElement(es["d" /* Route */], { exact: true, path: '/components/carousels', render: function render() {
                                     return react_default.a.createElement(containers_DesignSystemPage, { componentName: 'Carousel' });
+                                } }),
+                            react_default.a.createElement(es["d" /* Route */], { exact: true, path: '/components/swatches', render: function render() {
+                                    return react_default.a.createElement(containers_DesignSystemPage, { componentName: 'Swatches' });
+                                } }),
+                            react_default.a.createElement(es["d" /* Route */], { exact: true, path: '/components/selectors', render: function render() {
+                                    return react_default.a.createElement(containers_DesignSystemPage, { componentName: 'Selectors' });
+                                } }),
+                            react_default.a.createElement(es["d" /* Route */], { exact: true, path: '/page-modules/header', render: function render() {
+                                    return react_default.a.createElement(containers_DesignSystemPage, { componentName: 'Header' });
+                                } }),
+                            react_default.a.createElement(es["d" /* Route */], { exact: true, path: '/page-modules/coupons', render: function render() {
+                                    return react_default.a.createElement(containers_DesignSystemPage, { componentName: 'Coupons' });
                                 } })
                         )
                     )
@@ -15834,10 +19276,24 @@ module.exports = "<svg id=\"payment-card-amex-Layer_1\" xmlns=\"http://www.w3.or
 
 /***/ }),
 
+/***/ "Qmz5":
+/***/ (function(module, exports) {
+
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"logo-jcpenney\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\"\r\n\t viewBox=\"0 0 150 35\" style=\"enable-background:new 0 0 150 35;\" xml:space=\"preserve\">\r\n<path id=\"logo-jcpenney-path\" style=\"fill:#111111;\" d=\"M14.6,19.2c0,2.2-0.3,3.8-0.9,5c-1.2,2.2-3.4,3.3-6.7,3.3c-1.9,0-3.5-0.5-4.8-1.6\r\n\tc-1.3-1-2-2.9-2-5.6v-1.8h3.2v1.8c0,1.4,0.3,2.4,0.9,3.1c0.6,0.7,1.6,1.1,2.9,1.1c1.8,0,3-0.6,3.6-1.9c0.3-0.8,0.5-2.3,0.5-4.4V1.2\r\n\th3.4C14.6,1.2,14.6,19.2,14.6,19.2z M36.2,3.1c1.8,1.7,2.7,3.7,2.9,5.8h-3.3c-0.4-1.7-1.1-3-2.3-3.9c-1.1-1-2.7-1.4-4.8-1.4\r\n\tc-2.5,0-4.5,0.9-6,2.7c-1.5,1.8-2.3,4.5-2.3,8.2c0,3,0.7,5.4,2.1,7.3c1.4,1.9,3.4,2.8,6.2,2.8c2.5,0,4.4-1,5.8-3\r\n\tc0.7-1,1.2-2.4,1.6-4.1h3.3c-0.3,2.7-1.3,5-3,6.8c-2,2.2-4.7,3.3-8.1,3.3c-2.9,0-5.4-0.9-7.4-2.7c-2.6-2.4-3.9-6.1-3.9-11\r\n\tc0-3.8,1-6.9,3-9.3C22,1.8,25,0.5,28.7,0.5C31.9,0.5,34.4,1.4,36.2,3.1z M42.1,1.2h11.4c2.2,0,4.1,0.6,5.4,1.9s2.1,3.1,2.1,5.4\r\n\tc0,2-0.6,3.7-1.8,5.2C57.8,15.3,56,16,53.4,16h-7.9v10.8h-3.4V1.2z M55.4,4.7c-0.8-0.4-1.8-0.5-3.1-0.5h-6.8v8.9h6.8\r\n\tc1.5,0,2.8-0.3,3.7-1c1-0.7,1.4-1.8,1.4-3.5C57.4,6.7,56.8,5.4,55.4,4.7L55.4,4.7z M74.5,8.7c1.2,0.6,2.2,1.4,2.8,2.4\r\n\tc0.6,0.9,1,2,1.2,3.3c0.2,0.9,0.3,2.2,0.3,4.1H65.3c0.1,1.9,0.5,3.4,1.3,4.6c0.8,1.1,2.1,1.7,3.8,1.7c1.6,0,2.9-0.5,3.9-1.6\r\n\tc0.6-0.6,0.9-1.4,1.2-2.2h3c-0.1,0.7-0.3,1.5-0.8,2.3c-0.5,0.8-1,1.5-1.5,2.1c-0.9,0.9-2.1,1.6-3.5,1.9c-0.7,0.2-1.6,0.3-2.5,0.3\r\n\tc-2.3,0-4.2-0.8-5.8-2.5c-1.6-1.7-2.4-4.1-2.4-7.1c0-3,0.8-5.4,2.4-7.3c1.6-1.9,3.7-2.8,6.3-2.8C72,7.7,73.3,8,74.5,8.7L74.5,8.7z\r\n\t M75.6,16c-0.1-1.4-0.4-2.4-0.9-3.3c-0.8-1.5-2.3-2.3-4.2-2.3c-1.4,0-2.6,0.5-3.6,1.6c-1,1-1.5,2.4-1.5,4H75.6z M80.8,8.1h2.9v2.7\r\n\tc0.9-1.1,1.8-1.9,2.8-2.4c1-0.5,2.1-0.7,3.2-0.7c2.6,0,4.4,0.9,5.3,2.8c0.5,1,0.8,2.5,0.8,4.3v12h-3.1V15.1c0-1.1-0.2-2.1-0.5-2.8\r\n\tc-0.6-1.2-1.5-1.7-3-1.7c-0.7,0-1.3,0.1-1.8,0.2c-0.8,0.3-1.6,0.8-2.2,1.5c-0.5,0.6-0.8,1.3-1,1.9c-0.2,0.7-0.2,1.6-0.2,2.8v9.8\r\n\th-3.1V8.1L80.8,8.1z M98.6,8.1h2.9v2.7c0.9-1.1,1.8-1.9,2.8-2.4c1-0.5,2.1-0.7,3.2-0.7c2.6,0,4.4,0.9,5.3,2.8c0.5,1,0.8,2.5,0.8,4.3\r\n\tv12h-3.1V15.1c0-1.1-0.2-2.1-0.5-2.8c-0.6-1.2-1.5-1.7-3-1.7c-0.7,0-1.3,0.1-1.8,0.2c-0.8,0.3-1.6,0.8-2.2,1.5\r\n\tc-0.5,0.6-0.8,1.3-1,1.9c-0.2,0.7-0.2,1.6-0.2,2.8v9.8h-3.1L98.6,8.1L98.6,8.1z M127.9,8.7c1.2,0.6,2.2,1.4,2.8,2.4\r\n\tc0.6,0.9,1,2,1.2,3.3c0.2,0.9,0.3,2.2,0.3,4.1h-13.5c0.1,1.9,0.5,3.4,1.3,4.6c0.8,1.1,2.1,1.7,3.8,1.7c1.6,0,2.9-0.5,3.9-1.6\r\n\tc0.6-0.6,0.9-1.4,1.2-2.2h3c-0.1,0.7-0.3,1.5-0.8,2.3c-0.5,0.8-1,1.5-1.5,2.1c-0.9,0.9-2.1,1.6-3.5,1.9c-0.7,0.2-1.6,0.3-2.5,0.3\r\n\tc-2.3,0-4.2-0.8-5.8-2.5c-1.6-1.7-2.4-4.1-2.4-7.1c0-3,0.8-5.4,2.4-7.3c1.6-1.9,3.7-2.8,6.3-2.8C125.4,7.7,126.7,8,127.9,8.7z\r\n\t M129,16c-0.1-1.4-0.4-2.4-0.9-3.3c-0.8-1.5-2.3-2.3-4.2-2.3c-1.4,0-2.6,0.5-3.6,1.6s-1.5,2.4-1.5,4H129z M145.7,8.1h3.4\r\n\tc-0.4,1.2-1.4,3.9-2.9,8.2c-0.9,2.6-1.9,5.2-2.8,7.9c-1.8,4.8-3,7.7-3.8,8.7c-0.7,1-2,1.6-3.8,1.6c-0.3,0-0.7,0-1-0.1\r\n\tc-0.3,0-0.6-0.1-0.9-0.2v-2.9c0.5,0.2,0.9,0.2,1.2,0.3c0.2,0,0.5,0.1,0.6,0.1c0.6,0,1-0.1,1.3-0.3c0.3-0.2,0.5-0.4,0.7-0.7\r\n\tc0.1-0.1,0.3-0.6,0.6-1.4s0.6-1.5,0.8-1.9l-6.8-19.2h3.5l4.9,15.2L145.7,8.1L145.7,8.1z\"/>\r\n</svg>\r\n"
+
+/***/ }),
+
 /***/ "REmY":
 /***/ (function(module, exports) {
 
 module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"icon_x2F_Social_x2F_instagram-fill-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"icon_x2F_Social_x2F_instagram-fill-path-1_1_\" style=\"fill:#111111;\" d=\"M24,40c-8.8,0-16-7.2-16-16S15.2,8,24,8\r\n\ts16,7.2,16,16S32.8,40,24,40z M24,16h-3.3c-0.9,0-1.4,0.2-1.9,0.4s-1,0.5-1.4,0.9c-0.4,0.4-0.7,0.9-0.9,1.4\r\n\tc-0.2,0.5-0.3,1.1-0.4,1.9v6.6c0,0.9,0.2,1.4,0.4,1.9c0.2,0.5,0.5,1,0.9,1.4c0.4,0.4,0.9,0.7,1.4,0.9c0.5,0.2,1.1,0.3,1.9,0.4h6.6\r\n\tc0.9,0,1.4-0.2,1.9-0.4s1-0.5,1.4-0.9s0.7-0.9,0.9-1.4c0.2-0.5,0.3-1.1,0.4-1.9v-3.3v-3.3c0-0.9-0.2-1.4-0.4-1.9s-0.5-1-0.9-1.4\r\n\ts-0.9-0.7-1.4-0.9s-1.1-0.3-1.9-0.4C27.3,16,24,16,24,16z M24,17.4h3.2c0.8,0,1.2,0.2,1.5,0.3c0.4,0.1,0.6,0.3,0.9,0.6\r\n\tc0.3,0.3,0.5,0.5,0.6,0.9c0.1,0.3,0.2,0.7,0.3,1.5v6.4c0,0.8-0.2,1.2-0.3,1.5c-0.1,0.4-0.3,0.6-0.6,0.9c-0.3,0.3-0.5,0.5-0.9,0.6\r\n\tc-0.3,0.1-0.7,0.2-1.5,0.3h-6.4c-0.8,0-1.2-0.2-1.5-0.3c-0.4-0.1-0.6-0.3-0.9-0.6c-0.3-0.3-0.5-0.5-0.6-0.9\r\n\tc-0.1-0.3-0.2-0.7-0.3-1.5v-3.2v-3.2c0-0.8,0.2-1.2,0.3-1.5c0.1-0.4,0.3-0.6,0.6-0.9c0.3-0.3,0.5-0.5,0.9-0.6\r\n\tc0.3-0.1,0.7-0.2,1.5-0.3C21.6,17.5,21.9,17.4,24,17.4z M24,19.9c-2.3,0-4.1,1.8-4.1,4.1s1.8,4.1,4.1,4.1s4.1-1.8,4.1-4.1\r\n\tS26.3,19.9,24,19.9z M29.2,19.7c0-0.5-0.4-1-1-1c-0.5,0-1,0.4-1,1c0,0.5,0.4,1,1,1S29.2,20.3,29.2,19.7z M24,26.7\r\n\tc-1.5,0-2.7-1.2-2.7-2.7s1.2-2.7,2.7-2.7s2.7,1.2,2.7,2.7S25.5,26.7,24,26.7z\"/>\r\n</svg>\r\n"
+
+/***/ }),
+
+/***/ "VlqD":
+/***/ (function(module, exports) {
+
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"icon_x2F_Utility_x2F_Cart_Full_x2F_cart-Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\"\r\n\t viewBox=\"0 0 32 32\" style=\"enable-background:new 0 0 32 32;\" xml:space=\"preserve\">\r\n<path id=\"icon_x2F_Utility_x2F_Cart_Full_x2F_cart-Path-1\" style=\"fill:#FFFFFF;\" d=\"M24.3,19.4l1.7-9.7c0.1-0.5,0.6-0.9,1.1-0.8C27.7,9,28,9.4,28,10c0,0,0,0,0,0.1l-1.9,10.6\r\n\tc0,0,0,0,0,0.1c-0.1,0.5-0.5,0.8-1,0.8H10c-0.5,0-0.9-0.3-1-0.8c0,0,0,0,0-0.1L6.8,7.9h-3c-0.5,0-1-0.4-1-1c0-0.5,0.4-1,1-1h3.8\r\n\tc0.5,0,0.9,0.4,1,0.9l2.2,12.5H24.3L24.3,19.4z M12.3,27.5c-1.2,0-2.3-1-2.3-2.3s1-2.3,2.3-2.3s2.3,1,2.3,2.3S13.5,27.5,12.3,27.5z\r\n\t M22.3,27.5c-1.2,0-2.3-1-2.3-2.3s1-2.3,2.3-2.3s2.3,1,2.3,2.3S23.5,27.5,22.3,27.5z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 

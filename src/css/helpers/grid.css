@@ -477,6 +477,17 @@ img {
         display: none;
     }
 }
+.hide-for-medium-down {
+    @media (--viewport-md-down) {
+        display: none;
+    }
+}
+
+.hide-for-large-up {
+    @media (--viewport-lg) {
+        display: none;
+    }
+}
 
 .show-for-xlarge-only,
 .show-for-large-only,
