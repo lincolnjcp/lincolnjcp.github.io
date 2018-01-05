@@ -22,41 +22,60 @@ class Header extends Component {
 
         });
 
-        $('.side-panel-btn').on('click', function(event){
+        $('.side-panel-btn').unbind('click').on('click', function(event){
           event.preventDefault();
-          var parent = $("#"+$(this).attr('data-for'));
+          var parent = $($(this).attr('data-target'));
           parent.addClass('is-visible');
         });
 
-        $('.side-panel').on('click', function(event){
+        $('.side-panel').unbind('click').on('click', function(event){
           if( $(event.target).is('.side-panel')) { 
             $(this).removeClass('is-visible');            
-          } else if ($(event.target).is('.side-panel-close')) {
+          } else if ($(event.target).is('.side-panel-close') || $(event.target).closest('a').hasClass('side-panel-close') ) {
              $(event.target).closest('.side-panel').removeClass('is-visible');
           }
           event.preventDefault();
         });
 
         $(".main-menu-tier2-li-shop-departments").hoverIntent({
-        over: function() {
-            if ($("#mainMenuTier2LightBox").length == 0) {
-                $("body").append('<div id="mainMenuTier2LightBox"></div>');
-                var top = 0;
-                if($(".main-menu-bar-tier2").length > 0){
-                  top = $(".main-menu-bar-tier2").height()+$(".main-menu-bar-tier2").offset().top;
+            over: function() {
+                if ($("#mainMenuTier2LightBox").length == 0) {
+                    $("body").append('<div id="mainMenuTier2LightBox"></div>');
+                    var top = 0;
+                    if($(".main-menu-bar-tier2").length > 0){
+                      top = $(".main-menu-bar-tier2").height()+$(".main-menu-bar-tier2").offset().top;
+                    }
+                    $("#mainMenuTier2LightBox").css({ "top": top, "height": $(document).height() })
                 }
-                $("#mainMenuTier2LightBox").css({ "top": top, "height": $(document).height() })
-            }
-            $(".main-menu-tier2-li").addClass("main-menu-tier2-hover");
-        },
-        timeout: 800,
-        interval: 100,
-        out: function() {
-            $(".main-menu-tier2-li").removeClass("main-menu-tier2-hover");
-            $("#mainMenuTier2LightBox").remove();
+                $(".main-menu-tier2-li").addClass("main-menu-tier2-hover");
+            },
+            timeout: 800,
+            interval: 100,
+            out: function() {
+                $(".main-menu-tier2-li").removeClass("main-menu-tier2-hover");
+                $("#mainMenuTier2LightBox").remove();
 
-        }
-    });
+            }
+        });
+
+        
+
+        $('.expand-collapse-btn').unbind('click').on('click', function(event){
+          var target = $($(this).attr('data-target'));
+          if(target.hasClass('is-visible')){
+            if($(this).attr('data-show-text')){
+              $(this).text($(this).attr('data-show-text'));
+            }
+            target.removeClass('is-visible').slideUp(400);
+
+          } else {
+            if($(this).attr('data-hide-text')){
+              $(this).attr('data-show-text', $(this).text());
+              $(this).text($(this).attr('data-hide-text'));
+            }
+            target.addClass('is-visible').slideDown(400);
+          }
+        });
 
         
         
@@ -87,7 +106,7 @@ class Header extends Component {
         <li className="main-menu-tier1-item main-menu-tier1-logo">
 
             <span className="hide-for-large-up">
-              <a title="JCPenney Main Menu" aria-label="JCPenney Main Menu" href="javascript:void(0);" className="side-panel-btn" data-for="mainMenuTier2">
+              <a title="JCPenney Main Menu" aria-label="JCPenney Main Menu" href="javascript:void(0);" className="side-panel-btn" data-target="#mainMenuTier2">
                 <div className="main-menu-tier1-menu-svg icon" dangerouslySetInnerHTML={{__html: menuImage}} />
               </a>
             </span>
@@ -170,13 +189,14 @@ class Header extends Component {
   </div>
   <div className="main-menu-bar-tier2">
     <div className="side-panel side-panel-disable-desktop from-left main-menu-bar-tier2-panel" id="mainMenuTier2">
-      <header className="side-panel-header">
-      <h3 className="title title-L color-white">Menu</h3>
-      <a href="javascript:void(0);" className="side-panel-close">
-        <div className="change-my-store-icon-close icon color-white-svg" dangerouslySetInnerHTML={{__html: closeImage}} />
-      </a>
-      </header>
+      
       <div className="side-panel-container">
+        <header className="side-panel-header">
+          <h3 className="title title-L color-white">Menu</h3>
+          <a href="javascript:void(0);" className="side-panel-close">
+            <div className="change-my-store-icon-close icon color-white-svg" dangerouslySetInnerHTML={{__html: closeImage}} />
+          </a>
+        </header>
         <div className="side-panel-content">
           <div className="main-menu-bar-tier2-container">
             <div className="main-menu-tier2-left">
@@ -276,7 +296,7 @@ class Header extends Component {
                                 Sat : 8am-11pm<br />
                                 Sun : 9am-10pm</p>
                             <div>
-                              <a href="javascript:void(0);" class="btn btn-L btn-secondary btn-full side-panel-btn" data-for="changeMyStore">
+                              <a href="javascript:void(0);" class="btn btn-L btn-secondary btn-full side-panel-btn" data-target="#changeMyStore">
                                 Change My Store
                               </a>
                             </div>
@@ -294,164 +314,228 @@ class Header extends Component {
 
  
 <div className="side-panel from-right change-my-store-panel" id="changeMyStore">
-  <header className="side-panel-header">
-    <h3 className="title title-L color-white">Change My Store</h3>
-    <a href="javascript:void(0);" className="side-panel-close">
-      <div className="change-my-store-icon-close icon color-white-svg" dangerouslySetInnerHTML={{__html: closeImage}} />
-    </a>
-  </header>
- 
   <div className="side-panel-container">
+    <header className="side-panel-header">
+      <h3 className="title title-L color-white">Change My Store</h3>
+      <a href="javascript:void(0);" className="side-panel-close">
+        <div className="change-my-store-icon-close icon color-white-svg" dangerouslySetInnerHTML={{__html: closeImage}} />
+      </a>
+    </header>
     <div className="side-panel-content">
         <p>Stores within 15 mi. of <strong>75024</strong> <a href="javascript:void(0);">Change</a></p>
-        <div className="side-panel-row">
-            <div className="side-panel-col side-panel-col-select">
-              
+        <div className="side-panel-row-wrap no-border">
 
-              <div className="dropdown-menu-block">
-                        <a className="dropdown-button title-S">Filter By Services <span className="arrow"></span></a>
-                        <div className="dropdown-menu">
-                            <ul className="tooltip tooltip-top-center tooltip-light dropdown-search-type">
-                                <li className="dropdown-list">
-                                    <label className="checkbox mrg-M">
-                                        <input type="checkbox" defaultChecked="" />
-                                        <span className="left">label</span>
-                                        <span className="right-label">(1,008)</span>
-                                    </label>
-                                </li>
-                                <li className="dropdown-list">
-                                    <label className="checkbox mrg-M">
-                                        <input type="checkbox" defaultChecked="" />
-                                        <span className="left">label</span>
-                                        <span className="right-label">(1,008)</span>
-                                    </label>
-                                </li>
-                                <li className="dropdown-list">
-                                    <label className="checkbox mrg-M">
-                                        <input type="checkbox" defaultChecked="" />
-                                        <span className="left">label</span>
-                                        <span className="right-label">(1,008)</span>
-                                    </label>
-                                </li>
-                                <li className="dropdown-list">
-                                    <label className="checkbox mrg-M">
-                                        <input type="checkbox" defaultChecked="" />
-                                        <span className="left">label</span>
-                                        <span className="right-label">(1,008)</span>
-                                    </label>
-                                </li>
-                                <li className="dropdown-list">
-                                    <label className="checkbox mrg-M">
-                                        <input type="checkbox" defaultChecked="" />
-                                        <span className="left">label</span>
-                                        <span className="right-label">(1,008)</span>
-                                    </label>
-                                </li>
-                                <li className="dropdown-list">
-                                    <label className="checkbox mrg-M">
-                                        <input type="checkbox" defaultChecked="" />
-                                        <span className="left">label</span>
-                                        <span className="right-label">(1,008)</span>
-                                    </label>
-                                </li>
-                                <li className="dropdown-list">
-                                    <label className="checkbox mrg-M">
-                                        <input type="checkbox" defaultChecked="" />
-                                        <span className="left">label</span>
-                                        <span className="right-label">(1,008)</span>
-                                    </label>
-                                </li>
-                                <li className="dropdown-list">
-                                    <label className="checkbox mrg-M">
-                                        <input type="checkbox" defaultChecked="" />
-                                        <span className="left">label</span>
-                                        <span className="right-label">(1,008)</span>
-                                    </label>
-                                </li>
-                                <li className="dropdown-list">
-                                    <label className="checkbox mrg-M">
-                                        <input type="checkbox" defaultChecked="" />
-                                        <span className="left">label</span>
-                                        <span className="right-label">(1,008)</span>
-                                    </label>
-                                </li>
-                                <li className="dropdown-list">
-                                    <label className="checkbox mrg-M">
-                                        <input type="checkbox" defaultChecked="" />
-                                        <span className="left">label</span>
-                                        <span className="right-label">(1,008)</span>
-                                    </label>
-                                </li>
-                                <li className="dropdown-list">
-                                    <label className="checkbox mrg-M">
-                                        <input type="checkbox" defaultChecked="" />
-                                        <span className="left">label</span>
-                                        <span className="right-label">(1,008)</span>
-                                    </label>
-                                </li>
-                                <li className="dropdown-list">
-                                    <label className="checkbox mrg-M">
-                                        <input type="checkbox" defaultChecked="" />
-                                        <span className="left">label</span>
-                                        <span className="right-label">(1,008)</span>
-                                    </label>
-                                </li>
-                                <li className="dropdown-list">
-                                    <label className="checkbox mrg-M">
-                                        <input type="checkbox" defaultChecked="" />
-                                        <span className="left">label</span>
-                                        <span className="right-label">(1,008)</span>
-                                    </label>
-                                </li>
-                                <li className="dropdown-list">
-                                    <label className="checkbox mrg-M">
-                                        <input type="checkbox" defaultChecked="" />
-                                        <span className="left">label</span>
-                                        <span className="right-label">(1,008)</span>
-                                    </label>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
+            <div className="side-panel-row">
+              <div className="side-panel-col side-panel-col-select">
+                
+
+                <div className="dropdown-menu-block">
+                          <a className="dropdown-button title-S">Filter By Services <span className="arrow"></span></a>
+                          <div className="dropdown-menu">
+                              <ul className="tooltip tooltip-top-center tooltip-light dropdown-search-type">
+                                  <li className="dropdown-list">
+                                      <label className="checkbox mrg-M">
+                                          <input type="checkbox" defaultChecked="" />
+                                          <span className="left">label</span>
+                                          <span className="right-label">(1,008)</span>
+                                      </label>
+                                  </li>
+                                  <li className="dropdown-list">
+                                      <label className="checkbox mrg-M">
+                                          <input type="checkbox" defaultChecked="" />
+                                          <span className="left">label</span>
+                                          <span className="right-label">(1,008)</span>
+                                      </label>
+                                  </li>
+                                  <li className="dropdown-list">
+                                      <label className="checkbox mrg-M">
+                                          <input type="checkbox" defaultChecked="" />
+                                          <span className="left">label</span>
+                                          <span className="right-label">(1,008)</span>
+                                      </label>
+                                  </li>
+                                  <li className="dropdown-list">
+                                      <label className="checkbox mrg-M">
+                                          <input type="checkbox" defaultChecked="" />
+                                          <span className="left">label</span>
+                                          <span className="right-label">(1,008)</span>
+                                      </label>
+                                  </li>
+                                  <li className="dropdown-list">
+                                      <label className="checkbox mrg-M">
+                                          <input type="checkbox" defaultChecked="" />
+                                          <span className="left">label</span>
+                                          <span className="right-label">(1,008)</span>
+                                      </label>
+                                  </li>
+                                  <li className="dropdown-list">
+                                      <label className="checkbox mrg-M">
+                                          <input type="checkbox" defaultChecked="" />
+                                          <span className="left">label</span>
+                                          <span className="right-label">(1,008)</span>
+                                      </label>
+                                  </li>
+                                  <li className="dropdown-list">
+                                      <label className="checkbox mrg-M">
+                                          <input type="checkbox" defaultChecked="" />
+                                          <span className="left">label</span>
+                                          <span className="right-label">(1,008)</span>
+                                      </label>
+                                  </li>
+                                  <li className="dropdown-list">
+                                      <label className="checkbox mrg-M">
+                                          <input type="checkbox" defaultChecked="" />
+                                          <span className="left">label</span>
+                                          <span className="right-label">(1,008)</span>
+                                      </label>
+                                  </li>
+                                  <li className="dropdown-list">
+                                      <label className="checkbox mrg-M">
+                                          <input type="checkbox" defaultChecked="" />
+                                          <span className="left">label</span>
+                                          <span className="right-label">(1,008)</span>
+                                      </label>
+                                  </li>
+                                  <li className="dropdown-list">
+                                      <label className="checkbox mrg-M">
+                                          <input type="checkbox" defaultChecked="" />
+                                          <span className="left">label</span>
+                                          <span className="right-label">(1,008)</span>
+                                      </label>
+                                  </li>
+                                  <li className="dropdown-list">
+                                      <label className="checkbox mrg-M">
+                                          <input type="checkbox" defaultChecked="" />
+                                          <span className="left">label</span>
+                                          <span className="right-label">(1,008)</span>
+                                      </label>
+                                  </li>
+                                  <li className="dropdown-list">
+                                      <label className="checkbox mrg-M">
+                                          <input type="checkbox" defaultChecked="" />
+                                          <span className="left">label</span>
+                                          <span className="right-label">(1,008)</span>
+                                      </label>
+                                  </li>
+                                  <li className="dropdown-list">
+                                      <label className="checkbox mrg-M">
+                                          <input type="checkbox" defaultChecked="" />
+                                          <span className="left">label</span>
+                                          <span className="right-label">(1,008)</span>
+                                      </label>
+                                  </li>
+                                  <li className="dropdown-list">
+                                      <label className="checkbox mrg-M">
+                                          <input type="checkbox" defaultChecked="" />
+                                          <span className="left">label</span>
+                                          <span className="right-label">(1,008)</span>
+                                      </label>
+                                  </li>
+                              </ul>
+                          </div>
+                      </div>
 
 
+                  </div>
 
-            </div>
             <div className="side-panel-col side-panel-col-map-view algn-rght">
-              <a href="javascript:void(0);">Map View</a>
+              <a href="javascript:void(0);" className="expand-collapse-btn" data-hide-text="List View" data-target="#changeMyStoreMap">Map View</a>
             </div>
+            </div>
+              <div className="expand-collapse-section change-my-store-map-view" id="changeMyStoreMap">
+            <img src="/images/design-system/fpo/find-a-store/map.jpg" alt="" />
           </div>
 
+          </div>
+
+        
 
         <div className="change-my-store-listing">
-          <div className="side-panel-row">
-            <div className="side-panel-col side-panel-col-details">
-              <h4 className="mrg-S">Stonebriar Mall <span class="change-my-store-mileage color-slate">(3.5mi)</span></h4>
-              <p className="std-txt std-txt-S mrg-XS color-nightsky">2480 Preston Rd</p>
-              <p className="std-txt std-txt-S"><a href="javascript:void(0);">View Hours &amp; Services</a></p>
+          <div className="side-panel-row-wrap">
+            <div className="side-panel-row">
+              <div className="side-panel-col side-panel-col-details">
+                <h4 className="mrg-S">Stonebriar Mall <span class="change-my-store-mileage color-slate">(3.5mi)</span></h4>
+                <p className="std-txt std-txt-S mrg-XS color-nightsky">2480 Preston Rd</p>
+              </div>
+              <div className="side-panel-col-button">
+                <a href="javascript:void(0);" class="btn btn-L btn-full btn-primary btn-disabled">
+                  My Store
+                </a>
+              </div>
             </div>
-            <div className="side-panel-col-button">
-              <a href="javascript:void(0);" class="btn btn-L btn-full btn-primary btn-disabled">
-                My Store
-              </a>
-            </div>
+
+            <div className="side-panel-col-full">
+                <div className="expand-collapse-section change-my-store-details" id="storeLising1">
+                  <div className="std-txt std-txt-S mrg-M color-nightsky">
+                    <a href="javascript:void(0);" className="color-nightsky">Get Directions</a> | 972-578-8666
+                  </div>
+                  <div className="std-txt std-txt-S mrg-M color-slate">
+                    Mon-Thu : 10am-10pm<br />
+                    Fri : 9am-11pm<br />
+                    Sat : 8am-11pm<br />
+                    Sun : 9am-10pm<br />
+                    <br />
+                    <strong className="color-nightsky">Store Services:</strong><br />
+                    Jewelry<br />
+                    Big and Tall<br />
+                    Wedding Registry<br />
+                    TV and Home Theater<br />
+                    Major Appliances<br />
+                    Optical<br />
+                    Portrait Studio<br />
+                    Custom Decorating - <a href="javascript:void(0);" className="color-nightsky">Schedule Appointment</a><br />
+                    Sephora - <a href="javascript:void(0);" className="color-nightsky">Schedule Appointment</a><br />
+                    Salon - <a href="javascript:void(0);" className="color-nightsky">Schedule Appointment</a>
+                  </div>
+                </div>
+                <p className="std-txt std-txt-S"><a href="javascript:void(0);" className="expand-collapse-btn" data-hide-text="Hide Hours &amp; Services" data-target="#storeLising1">View Hours &amp; Services</a></p>
+              </div>
           </div>
         </div>
 
-        <div className="change-my-store-listing last">
-          <div className="side-panel-row">
-            <div className="side-panel-col side-panel-col-details">
-              <h4 className="mrg-S">Collin Creek Mall <span class="change-my-store-mileage color-slate">(5.2mi)</span></h4>
-              <p className="std-txt std-txt-S mrg-XS color-nightsky">2480 Preston Rd</p>
-              <p className="std-txt std-txt-S"><a href="javascript:void(0);">View Hours &amp; Services</a></p>
+        <div className="change-my-store-listing">
+          <div className="side-panel-row-wrap no-border">
+            <div className="side-panel-row">
+              <div className="side-panel-col side-panel-col-details">
+                <h4 className="mrg-S">Collin Creek Mall <span class="change-my-store-mileage color-slate">(5.2mi)</span></h4>
+                <p className="std-txt std-txt-S mrg-XS color-nightsky">2480 Preston Rd</p>
+              </div>
+              <div className="side-panel-col-button">
+                <a href="javascript:void(0);" class="btn btn-L btn-full btn-primary">
+                  Set Store
+                </a>
+              </div>
             </div>
-            <div className="side-panel-col side-panel-col-button">
-              <a href="javascript:void(0);" class="btn btn-L btn-full btn-primary">
-                Set Store
-              </a>
-            </div>
+
+            <div className="side-panel-col-full">
+                <div className="expand-collapse-section change-my-store-details" id="storeLising2">
+                  <div className="std-txt std-txt-S mrg-M color-nightsky">
+                    <a href="javascript:void(0);" className="color-nightsky">Get Directions</a> | 972-578-8666
+                  </div>
+                  <div className="std-txt std-txt-S mrg-M color-slate">
+                    Mon-Thu : 10am-10pm<br />
+                    Fri : 9am-11pm<br />
+                    Sat : 8am-11pm<br />
+                    Sun : 9am-10pm<br />
+                    <br />
+                    <strong className="color-nightsky">Store Services:</strong><br />
+                    Jewelry<br />
+                    Big and Tall<br />
+                    Wedding Registry<br />
+                    TV and Home Theater<br />
+                    Major Appliances<br />
+                    Optical<br />
+                    Portrait Studio<br />
+                    Custom Decorating - <a href="javascript:void(0);" className="color-nightsky">Schedule Appointment</a><br />
+                    Sephora - <a href="javascript:void(0);" className="color-nightsky">Schedule Appointment</a><br />
+                    Salon - <a href="javascript:void(0);" className="color-nightsky">Schedule Appointment</a>
+                  </div>
+                </div>
+                <p className="std-txt std-txt-S"><a href="javascript:void(0);" className="expand-collapse-btn" data-hide-text="Hide Hours &amp; Services" data-target="#storeLising2">View Hours &amp; Services</a></p>
+              </div>
           </div>
         </div>
+        
 
 
     </div> 
