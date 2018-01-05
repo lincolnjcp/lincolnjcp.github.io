@@ -71,7 +71,8 @@ button{
 
   /*  Disabled */
   &:disabled,
-  &.btn-disabled{
+  &.btn-disabled,
+  &.btn-disabled:hover {
     @apply --disabled;
   }
 

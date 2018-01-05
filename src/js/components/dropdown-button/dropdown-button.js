@@ -171,7 +171,7 @@ class DropdownButton extends Component {
                         <div className="dropdown-menu">
                             <ul className="tooltip tooltip-top-left tooltip-light dropdown-search-type">
                                 <li className="dropdown-list">
-                                    <label className="checkbox mrg-M">
+                                    <label className="checkbox mrg-M" >
                                         <input type="checkbox" defaultChecked="" />
                                         <span className="left">label</span>
                                         <span className="right-label">(1,008)</span>

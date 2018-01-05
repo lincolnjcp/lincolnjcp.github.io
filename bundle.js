@@ -753,8 +753,8 @@ var rootNav = [{
         activeClassName: 'inactive',
         content: 'Find a Store'
     }, {
-        to: '/',
-        activeClassName: 'inactive',
+        to: '/page-modules/footer',
+        activeClassName: 'active',
         content: 'Footer'
     }, {
         to: '/page-modules/header',
@@ -13362,16 +13362,16 @@ var header_Header = function (_Component) {
         jquery_default()(this).toggleClass("arrow-down");
       });
 
-      jquery_default()('.side-panel-btn').on('click', function (event) {
+      jquery_default()('.side-panel-btn').unbind('click').on('click', function (event) {
         event.preventDefault();
-        var parent = jquery_default()("#" + jquery_default()(this).attr('data-for'));
+        var parent = jquery_default()(jquery_default()(this).attr('data-target'));
         parent.addClass('is-visible');
       });
 
-      jquery_default()('.side-panel').on('click', function (event) {
+      jquery_default()('.side-panel').unbind('click').on('click', function (event) {
         if (jquery_default()(event.target).is('.side-panel')) {
           jquery_default()(this).removeClass('is-visible');
-        } else if (jquery_default()(event.target).is('.side-panel-close')) {
+        } else if (jquery_default()(event.target).is('.side-panel-close') || jquery_default()(event.target).closest('a').hasClass('side-panel-close')) {
           jquery_default()(event.target).closest('.side-panel').removeClass('is-visible');
         }
         event.preventDefault();
@@ -13394,6 +13394,22 @@ var header_Header = function (_Component) {
         out: function out() {
           jquery_default()(".main-menu-tier2-li").removeClass("main-menu-tier2-hover");
           jquery_default()("#mainMenuTier2LightBox").remove();
+        }
+      });
+
+      jquery_default()('.expand-collapse-btn').unbind('click').on('click', function (event) {
+        var target = jquery_default()(jquery_default()(this).attr('data-target'));
+        if (target.hasClass('is-visible')) {
+          if (jquery_default()(this).attr('data-show-text')) {
+            jquery_default()(this).text(jquery_default()(this).attr('data-show-text'));
+          }
+          target.removeClass('is-visible').slideUp(400);
+        } else {
+          if (jquery_default()(this).attr('data-hide-text')) {
+            jquery_default()(this).attr('data-show-text', jquery_default()(this).text());
+            jquery_default()(this).text(jquery_default()(this).attr('data-hide-text'));
+          }
+          target.addClass('is-visible').slideDown(400);
         }
       });
     }
@@ -13460,7 +13476,7 @@ var header_Header = function (_Component) {
                   { className: 'hide-for-large-up' },
                   react_default.a.createElement(
                     'a',
-                    { title: 'JCPenney Main Menu', 'aria-label': 'JCPenney Main Menu', href: 'javascript:void(0);', className: 'side-panel-btn', 'data-for': 'mainMenuTier2' },
+                    { title: 'JCPenney Main Menu', 'aria-label': 'JCPenney Main Menu', href: 'javascript:void(0);', className: 'side-panel-btn', 'data-target': '#mainMenuTier2' },
                     react_default.a.createElement('div', { className: 'main-menu-tier1-menu-svg icon', dangerouslySetInnerHTML: { __html: header_menuImage } })
                   )
                 ),
@@ -13667,22 +13683,22 @@ var header_Header = function (_Component) {
               'div',
               { className: 'side-panel side-panel-disable-desktop from-left main-menu-bar-tier2-panel', id: 'mainMenuTier2' },
               react_default.a.createElement(
-                'header',
-                { className: 'side-panel-header' },
-                react_default.a.createElement(
-                  'h3',
-                  { className: 'title title-L color-white' },
-                  'Menu'
-                ),
-                react_default.a.createElement(
-                  'a',
-                  { href: 'javascript:void(0);', className: 'side-panel-close' },
-                  react_default.a.createElement('div', { className: 'change-my-store-icon-close icon color-white-svg', dangerouslySetInnerHTML: { __html: header_closeImage } })
-                )
-              ),
-              react_default.a.createElement(
                 'div',
                 { className: 'side-panel-container' },
+                react_default.a.createElement(
+                  'header',
+                  { className: 'side-panel-header' },
+                  react_default.a.createElement(
+                    'h3',
+                    { className: 'title title-L color-white' },
+                    'Menu'
+                  ),
+                  react_default.a.createElement(
+                    'a',
+                    { href: 'javascript:void(0);', className: 'side-panel-close' },
+                    react_default.a.createElement('div', { className: 'change-my-store-icon-close icon color-white-svg', dangerouslySetInnerHTML: { __html: header_closeImage } })
+                  )
+                ),
                 react_default.a.createElement(
                   'div',
                   { className: 'side-panel-content' },
@@ -13979,7 +13995,7 @@ var header_Header = function (_Component) {
                                   null,
                                   react_default.a.createElement(
                                     'a',
-                                    { href: 'javascript:void(0);', 'class': 'btn btn-L btn-secondary btn-full side-panel-btn', 'data-for': 'changeMyStore' },
+                                    { href: 'javascript:void(0);', 'class': 'btn btn-L btn-secondary btn-full side-panel-btn', 'data-target': '#changeMyStore' },
                                     'Change My Store'
                                   )
                                 )
@@ -13998,22 +14014,22 @@ var header_Header = function (_Component) {
             'div',
             { className: 'side-panel from-right change-my-store-panel', id: 'changeMyStore' },
             react_default.a.createElement(
-              'header',
-              { className: 'side-panel-header' },
-              react_default.a.createElement(
-                'h3',
-                { className: 'title title-L color-white' },
-                'Change My Store'
-              ),
-              react_default.a.createElement(
-                'a',
-                { href: 'javascript:void(0);', className: 'side-panel-close' },
-                react_default.a.createElement('div', { className: 'change-my-store-icon-close icon color-white-svg', dangerouslySetInnerHTML: { __html: header_closeImage } })
-              )
-            ),
-            react_default.a.createElement(
               'div',
               { className: 'side-panel-container' },
+              react_default.a.createElement(
+                'header',
+                { className: 'side-panel-header' },
+                react_default.a.createElement(
+                  'h3',
+                  { className: 'title title-L color-white' },
+                  'Change My Store'
+                ),
+                react_default.a.createElement(
+                  'a',
+                  { href: 'javascript:void(0);', className: 'side-panel-close' },
+                  react_default.a.createElement('div', { className: 'change-my-store-icon-close icon color-white-svg', dangerouslySetInnerHTML: { __html: header_closeImage } })
+                )
+              ),
               react_default.a.createElement(
                 'div',
                 { className: 'side-panel-content' },
@@ -14035,302 +14051,431 @@ var header_Header = function (_Component) {
                 ),
                 react_default.a.createElement(
                   'div',
-                  { className: 'side-panel-row' },
+                  { className: 'side-panel-row-wrap no-border' },
                   react_default.a.createElement(
                     'div',
-                    { className: 'side-panel-col side-panel-col-select' },
+                    { className: 'side-panel-row' },
                     react_default.a.createElement(
                       'div',
-                      { className: 'dropdown-menu-block' },
-                      react_default.a.createElement(
-                        'a',
-                        { className: 'dropdown-button title-S' },
-                        'Filter By Services ',
-                        react_default.a.createElement('span', { className: 'arrow' })
-                      ),
+                      { className: 'side-panel-col side-panel-col-select' },
                       react_default.a.createElement(
                         'div',
-                        { className: 'dropdown-menu' },
+                        { className: 'dropdown-menu-block' },
                         react_default.a.createElement(
-                          'ul',
-                          { className: 'tooltip tooltip-top-center tooltip-light dropdown-search-type' },
+                          'a',
+                          { className: 'dropdown-button title-S' },
+                          'Filter By Services ',
+                          react_default.a.createElement('span', { className: 'arrow' })
+                        ),
+                        react_default.a.createElement(
+                          'div',
+                          { className: 'dropdown-menu' },
                           react_default.a.createElement(
-                            'li',
-                            { className: 'dropdown-list' },
+                            'ul',
+                            { className: 'tooltip tooltip-top-center tooltip-light dropdown-search-type' },
                             react_default.a.createElement(
-                              'label',
-                              { className: 'checkbox mrg-M' },
-                              react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
+                              'li',
+                              { className: 'dropdown-list' },
                               react_default.a.createElement(
-                                'span',
-                                { className: 'left' },
-                                'label'
-                              ),
-                              react_default.a.createElement(
-                                'span',
-                                { className: 'right-label' },
-                                '(1,008)'
+                                'label',
+                                { className: 'checkbox mrg-M' },
+                                react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
+                                react_default.a.createElement(
+                                  'span',
+                                  { className: 'left' },
+                                  'label'
+                                ),
+                                react_default.a.createElement(
+                                  'span',
+                                  { className: 'right-label' },
+                                  '(1,008)'
+                                )
                               )
-                            )
-                          ),
-                          react_default.a.createElement(
-                            'li',
-                            { className: 'dropdown-list' },
+                            ),
                             react_default.a.createElement(
-                              'label',
-                              { className: 'checkbox mrg-M' },
-                              react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
+                              'li',
+                              { className: 'dropdown-list' },
                               react_default.a.createElement(
-                                'span',
-                                { className: 'left' },
-                                'label'
-                              ),
-                              react_default.a.createElement(
-                                'span',
-                                { className: 'right-label' },
-                                '(1,008)'
+                                'label',
+                                { className: 'checkbox mrg-M' },
+                                react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
+                                react_default.a.createElement(
+                                  'span',
+                                  { className: 'left' },
+                                  'label'
+                                ),
+                                react_default.a.createElement(
+                                  'span',
+                                  { className: 'right-label' },
+                                  '(1,008)'
+                                )
                               )
-                            )
-                          ),
-                          react_default.a.createElement(
-                            'li',
-                            { className: 'dropdown-list' },
+                            ),
                             react_default.a.createElement(
-                              'label',
-                              { className: 'checkbox mrg-M' },
-                              react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
+                              'li',
+                              { className: 'dropdown-list' },
                               react_default.a.createElement(
-                                'span',
-                                { className: 'left' },
-                                'label'
-                              ),
-                              react_default.a.createElement(
-                                'span',
-                                { className: 'right-label' },
-                                '(1,008)'
+                                'label',
+                                { className: 'checkbox mrg-M' },
+                                react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
+                                react_default.a.createElement(
+                                  'span',
+                                  { className: 'left' },
+                                  'label'
+                                ),
+                                react_default.a.createElement(
+                                  'span',
+                                  { className: 'right-label' },
+                                  '(1,008)'
+                                )
                               )
-                            )
-                          ),
-                          react_default.a.createElement(
-                            'li',
-                            { className: 'dropdown-list' },
+                            ),
                             react_default.a.createElement(
-                              'label',
-                              { className: 'checkbox mrg-M' },
-                              react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
+                              'li',
+                              { className: 'dropdown-list' },
                               react_default.a.createElement(
-                                'span',
-                                { className: 'left' },
-                                'label'
-                              ),
-                              react_default.a.createElement(
-                                'span',
-                                { className: 'right-label' },
-                                '(1,008)'
+                                'label',
+                                { className: 'checkbox mrg-M' },
+                                react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
+                                react_default.a.createElement(
+                                  'span',
+                                  { className: 'left' },
+                                  'label'
+                                ),
+                                react_default.a.createElement(
+                                  'span',
+                                  { className: 'right-label' },
+                                  '(1,008)'
+                                )
                               )
-                            )
-                          ),
-                          react_default.a.createElement(
-                            'li',
-                            { className: 'dropdown-list' },
+                            ),
                             react_default.a.createElement(
-                              'label',
-                              { className: 'checkbox mrg-M' },
-                              react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
+                              'li',
+                              { className: 'dropdown-list' },
                               react_default.a.createElement(
-                                'span',
-                                { className: 'left' },
-                                'label'
-                              ),
-                              react_default.a.createElement(
-                                'span',
-                                { className: 'right-label' },
-                                '(1,008)'
+                                'label',
+                                { className: 'checkbox mrg-M' },
+                                react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
+                                react_default.a.createElement(
+                                  'span',
+                                  { className: 'left' },
+                                  'label'
+                                ),
+                                react_default.a.createElement(
+                                  'span',
+                                  { className: 'right-label' },
+                                  '(1,008)'
+                                )
                               )
-                            )
-                          ),
-                          react_default.a.createElement(
-                            'li',
-                            { className: 'dropdown-list' },
+                            ),
                             react_default.a.createElement(
-                              'label',
-                              { className: 'checkbox mrg-M' },
-                              react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
+                              'li',
+                              { className: 'dropdown-list' },
                               react_default.a.createElement(
-                                'span',
-                                { className: 'left' },
-                                'label'
-                              ),
-                              react_default.a.createElement(
-                                'span',
-                                { className: 'right-label' },
-                                '(1,008)'
+                                'label',
+                                { className: 'checkbox mrg-M' },
+                                react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
+                                react_default.a.createElement(
+                                  'span',
+                                  { className: 'left' },
+                                  'label'
+                                ),
+                                react_default.a.createElement(
+                                  'span',
+                                  { className: 'right-label' },
+                                  '(1,008)'
+                                )
                               )
-                            )
-                          ),
-                          react_default.a.createElement(
-                            'li',
-                            { className: 'dropdown-list' },
+                            ),
                             react_default.a.createElement(
-                              'label',
-                              { className: 'checkbox mrg-M' },
-                              react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
+                              'li',
+                              { className: 'dropdown-list' },
                               react_default.a.createElement(
-                                'span',
-                                { className: 'left' },
-                                'label'
-                              ),
-                              react_default.a.createElement(
-                                'span',
-                                { className: 'right-label' },
-                                '(1,008)'
+                                'label',
+                                { className: 'checkbox mrg-M' },
+                                react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
+                                react_default.a.createElement(
+                                  'span',
+                                  { className: 'left' },
+                                  'label'
+                                ),
+                                react_default.a.createElement(
+                                  'span',
+                                  { className: 'right-label' },
+                                  '(1,008)'
+                                )
                               )
-                            )
-                          ),
-                          react_default.a.createElement(
-                            'li',
-                            { className: 'dropdown-list' },
+                            ),
                             react_default.a.createElement(
-                              'label',
-                              { className: 'checkbox mrg-M' },
-                              react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
+                              'li',
+                              { className: 'dropdown-list' },
                               react_default.a.createElement(
-                                'span',
-                                { className: 'left' },
-                                'label'
-                              ),
-                              react_default.a.createElement(
-                                'span',
-                                { className: 'right-label' },
-                                '(1,008)'
+                                'label',
+                                { className: 'checkbox mrg-M' },
+                                react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
+                                react_default.a.createElement(
+                                  'span',
+                                  { className: 'left' },
+                                  'label'
+                                ),
+                                react_default.a.createElement(
+                                  'span',
+                                  { className: 'right-label' },
+                                  '(1,008)'
+                                )
                               )
-                            )
-                          ),
-                          react_default.a.createElement(
-                            'li',
-                            { className: 'dropdown-list' },
+                            ),
                             react_default.a.createElement(
-                              'label',
-                              { className: 'checkbox mrg-M' },
-                              react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
+                              'li',
+                              { className: 'dropdown-list' },
                               react_default.a.createElement(
-                                'span',
-                                { className: 'left' },
-                                'label'
-                              ),
-                              react_default.a.createElement(
-                                'span',
-                                { className: 'right-label' },
-                                '(1,008)'
+                                'label',
+                                { className: 'checkbox mrg-M' },
+                                react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
+                                react_default.a.createElement(
+                                  'span',
+                                  { className: 'left' },
+                                  'label'
+                                ),
+                                react_default.a.createElement(
+                                  'span',
+                                  { className: 'right-label' },
+                                  '(1,008)'
+                                )
                               )
-                            )
-                          ),
-                          react_default.a.createElement(
-                            'li',
-                            { className: 'dropdown-list' },
+                            ),
                             react_default.a.createElement(
-                              'label',
-                              { className: 'checkbox mrg-M' },
-                              react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
+                              'li',
+                              { className: 'dropdown-list' },
                               react_default.a.createElement(
-                                'span',
-                                { className: 'left' },
-                                'label'
-                              ),
-                              react_default.a.createElement(
-                                'span',
-                                { className: 'right-label' },
-                                '(1,008)'
+                                'label',
+                                { className: 'checkbox mrg-M' },
+                                react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
+                                react_default.a.createElement(
+                                  'span',
+                                  { className: 'left' },
+                                  'label'
+                                ),
+                                react_default.a.createElement(
+                                  'span',
+                                  { className: 'right-label' },
+                                  '(1,008)'
+                                )
                               )
-                            )
-                          ),
-                          react_default.a.createElement(
-                            'li',
-                            { className: 'dropdown-list' },
+                            ),
                             react_default.a.createElement(
-                              'label',
-                              { className: 'checkbox mrg-M' },
-                              react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
+                              'li',
+                              { className: 'dropdown-list' },
                               react_default.a.createElement(
-                                'span',
-                                { className: 'left' },
-                                'label'
-                              ),
-                              react_default.a.createElement(
-                                'span',
-                                { className: 'right-label' },
-                                '(1,008)'
+                                'label',
+                                { className: 'checkbox mrg-M' },
+                                react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
+                                react_default.a.createElement(
+                                  'span',
+                                  { className: 'left' },
+                                  'label'
+                                ),
+                                react_default.a.createElement(
+                                  'span',
+                                  { className: 'right-label' },
+                                  '(1,008)'
+                                )
                               )
-                            )
-                          ),
-                          react_default.a.createElement(
-                            'li',
-                            { className: 'dropdown-list' },
+                            ),
                             react_default.a.createElement(
-                              'label',
-                              { className: 'checkbox mrg-M' },
-                              react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
+                              'li',
+                              { className: 'dropdown-list' },
                               react_default.a.createElement(
-                                'span',
-                                { className: 'left' },
-                                'label'
-                              ),
-                              react_default.a.createElement(
-                                'span',
-                                { className: 'right-label' },
-                                '(1,008)'
+                                'label',
+                                { className: 'checkbox mrg-M' },
+                                react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
+                                react_default.a.createElement(
+                                  'span',
+                                  { className: 'left' },
+                                  'label'
+                                ),
+                                react_default.a.createElement(
+                                  'span',
+                                  { className: 'right-label' },
+                                  '(1,008)'
+                                )
                               )
-                            )
-                          ),
-                          react_default.a.createElement(
-                            'li',
-                            { className: 'dropdown-list' },
+                            ),
                             react_default.a.createElement(
-                              'label',
-                              { className: 'checkbox mrg-M' },
-                              react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
+                              'li',
+                              { className: 'dropdown-list' },
                               react_default.a.createElement(
-                                'span',
-                                { className: 'left' },
-                                'label'
-                              ),
-                              react_default.a.createElement(
-                                'span',
-                                { className: 'right-label' },
-                                '(1,008)'
+                                'label',
+                                { className: 'checkbox mrg-M' },
+                                react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
+                                react_default.a.createElement(
+                                  'span',
+                                  { className: 'left' },
+                                  'label'
+                                ),
+                                react_default.a.createElement(
+                                  'span',
+                                  { className: 'right-label' },
+                                  '(1,008)'
+                                )
                               )
-                            )
-                          ),
-                          react_default.a.createElement(
-                            'li',
-                            { className: 'dropdown-list' },
+                            ),
                             react_default.a.createElement(
-                              'label',
-                              { className: 'checkbox mrg-M' },
-                              react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
+                              'li',
+                              { className: 'dropdown-list' },
                               react_default.a.createElement(
-                                'span',
-                                { className: 'left' },
-                                'label'
-                              ),
-                              react_default.a.createElement(
-                                'span',
-                                { className: 'right-label' },
-                                '(1,008)'
+                                'label',
+                                { className: 'checkbox mrg-M' },
+                                react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
+                                react_default.a.createElement(
+                                  'span',
+                                  { className: 'left' },
+                                  'label'
+                                ),
+                                react_default.a.createElement(
+                                  'span',
+                                  { className: 'right-label' },
+                                  '(1,008)'
+                                )
                               )
                             )
                           )
                         )
                       )
+                    ),
+                    react_default.a.createElement(
+                      'div',
+                      { className: 'side-panel-col side-panel-col-map-view algn-rght' },
+                      react_default.a.createElement(
+                        'a',
+                        { href: 'javascript:void(0);', className: 'expand-collapse-btn', 'data-hide-text': 'List View', 'data-target': '#changeMyStoreMap' },
+                        'Map View'
+                      )
                     )
                   ),
                   react_default.a.createElement(
                     'div',
-                    { className: 'side-panel-col side-panel-col-map-view algn-rght' },
+                    { className: 'expand-collapse-section change-my-store-map-view', id: 'changeMyStoreMap' },
+                    react_default.a.createElement('img', { src: '/images/design-system/fpo/find-a-store/map.jpg', alt: '' })
+                  )
+                ),
+                react_default.a.createElement(
+                  'div',
+                  { className: 'change-my-store-listing' },
+                  react_default.a.createElement(
+                    'div',
+                    { className: 'side-panel-row-wrap' },
                     react_default.a.createElement(
-                      'a',
-                      { href: 'javascript:void(0);' },
-                      'Map View'
+                      'div',
+                      { className: 'side-panel-row' },
+                      react_default.a.createElement(
+                        'div',
+                        { className: 'side-panel-col side-panel-col-details' },
+                        react_default.a.createElement(
+                          'h4',
+                          { className: 'mrg-S' },
+                          'Stonebriar Mall ',
+                          react_default.a.createElement(
+                            'span',
+                            { 'class': 'change-my-store-mileage color-slate' },
+                            '(3.5mi)'
+                          )
+                        ),
+                        react_default.a.createElement(
+                          'p',
+                          { className: 'std-txt std-txt-S mrg-XS color-nightsky' },
+                          '2480 Preston Rd'
+                        )
+                      ),
+                      react_default.a.createElement(
+                        'div',
+                        { className: 'side-panel-col-button' },
+                        react_default.a.createElement(
+                          'a',
+                          { href: 'javascript:void(0);', 'class': 'btn btn-L btn-full btn-primary btn-disabled' },
+                          'My Store'
+                        )
+                      )
+                    ),
+                    react_default.a.createElement(
+                      'div',
+                      { className: 'side-panel-col-full' },
+                      react_default.a.createElement(
+                        'div',
+                        { className: 'expand-collapse-section change-my-store-details', id: 'storeLising1' },
+                        react_default.a.createElement(
+                          'div',
+                          { className: 'std-txt std-txt-S mrg-M color-nightsky' },
+                          react_default.a.createElement(
+                            'a',
+                            { href: 'javascript:void(0);', className: 'color-nightsky' },
+                            'Get Directions'
+                          ),
+                          ' | 972-578-8666'
+                        ),
+                        react_default.a.createElement(
+                          'div',
+                          { className: 'std-txt std-txt-S mrg-M color-slate' },
+                          'Mon-Thu : 10am-10pm',
+                          react_default.a.createElement('br', null),
+                          'Fri : 9am-11pm',
+                          react_default.a.createElement('br', null),
+                          'Sat : 8am-11pm',
+                          react_default.a.createElement('br', null),
+                          'Sun : 9am-10pm',
+                          react_default.a.createElement('br', null),
+                          react_default.a.createElement('br', null),
+                          react_default.a.createElement(
+                            'strong',
+                            { className: 'color-nightsky' },
+                            'Store Services:'
+                          ),
+                          react_default.a.createElement('br', null),
+                          'Jewelry',
+                          react_default.a.createElement('br', null),
+                          'Big and Tall',
+                          react_default.a.createElement('br', null),
+                          'Wedding Registry',
+                          react_default.a.createElement('br', null),
+                          'TV and Home Theater',
+                          react_default.a.createElement('br', null),
+                          'Major Appliances',
+                          react_default.a.createElement('br', null),
+                          'Optical',
+                          react_default.a.createElement('br', null),
+                          'Portrait Studio',
+                          react_default.a.createElement('br', null),
+                          'Custom Decorating - ',
+                          react_default.a.createElement(
+                            'a',
+                            { href: 'javascript:void(0);', className: 'color-nightsky' },
+                            'Schedule Appointment'
+                          ),
+                          react_default.a.createElement('br', null),
+                          'Sephora - ',
+                          react_default.a.createElement(
+                            'a',
+                            { href: 'javascript:void(0);', className: 'color-nightsky' },
+                            'Schedule Appointment'
+                          ),
+                          react_default.a.createElement('br', null),
+                          'Salon - ',
+                          react_default.a.createElement(
+                            'a',
+                            { href: 'javascript:void(0);', className: 'color-nightsky' },
+                            'Schedule Appointment'
+                          )
+                        )
+                      ),
+                      react_default.a.createElement(
+                        'p',
+                        { className: 'std-txt std-txt-S' },
+                        react_default.a.createElement(
+                          'a',
+                          { href: 'javascript:void(0);', className: 'expand-collapse-btn', 'data-hide-text': 'Hide Hours & Services', 'data-target': '#storeLising1' },
+                          'View Hours & Services'
+                        )
+                      )
                     )
                   )
                 ),
@@ -14339,87 +14484,117 @@ var header_Header = function (_Component) {
                   { className: 'change-my-store-listing' },
                   react_default.a.createElement(
                     'div',
-                    { className: 'side-panel-row' },
+                    { className: 'side-panel-row-wrap no-border' },
                     react_default.a.createElement(
                       'div',
-                      { className: 'side-panel-col side-panel-col-details' },
+                      { className: 'side-panel-row' },
                       react_default.a.createElement(
-                        'h4',
-                        { className: 'mrg-S' },
-                        'Stonebriar Mall ',
+                        'div',
+                        { className: 'side-panel-col side-panel-col-details' },
                         react_default.a.createElement(
-                          'span',
-                          { 'class': 'change-my-store-mileage color-slate' },
-                          '(3.5mi)'
+                          'h4',
+                          { className: 'mrg-S' },
+                          'Collin Creek Mall ',
+                          react_default.a.createElement(
+                            'span',
+                            { 'class': 'change-my-store-mileage color-slate' },
+                            '(5.2mi)'
+                          )
+                        ),
+                        react_default.a.createElement(
+                          'p',
+                          { className: 'std-txt std-txt-S mrg-XS color-nightsky' },
+                          '2480 Preston Rd'
                         )
                       ),
                       react_default.a.createElement(
-                        'p',
-                        { className: 'std-txt std-txt-S mrg-XS color-nightsky' },
-                        '2480 Preston Rd'
+                        'div',
+                        { className: 'side-panel-col-button' },
+                        react_default.a.createElement(
+                          'a',
+                          { href: 'javascript:void(0);', 'class': 'btn btn-L btn-full btn-primary' },
+                          'Set Store'
+                        )
+                      )
+                    ),
+                    react_default.a.createElement(
+                      'div',
+                      { className: 'side-panel-col-full' },
+                      react_default.a.createElement(
+                        'div',
+                        { className: 'expand-collapse-section change-my-store-details', id: 'storeLising2' },
+                        react_default.a.createElement(
+                          'div',
+                          { className: 'std-txt std-txt-S mrg-M color-nightsky' },
+                          react_default.a.createElement(
+                            'a',
+                            { href: 'javascript:void(0);', className: 'color-nightsky' },
+                            'Get Directions'
+                          ),
+                          ' | 972-578-8666'
+                        ),
+                        react_default.a.createElement(
+                          'div',
+                          { className: 'std-txt std-txt-S mrg-M color-slate' },
+                          'Mon-Thu : 10am-10pm',
+                          react_default.a.createElement('br', null),
+                          'Fri : 9am-11pm',
+                          react_default.a.createElement('br', null),
+                          'Sat : 8am-11pm',
+                          react_default.a.createElement('br', null),
+                          'Sun : 9am-10pm',
+                          react_default.a.createElement('br', null),
+                          react_default.a.createElement('br', null),
+                          react_default.a.createElement(
+                            'strong',
+                            { className: 'color-nightsky' },
+                            'Store Services:'
+                          ),
+                          react_default.a.createElement('br', null),
+                          'Jewelry',
+                          react_default.a.createElement('br', null),
+                          'Big and Tall',
+                          react_default.a.createElement('br', null),
+                          'Wedding Registry',
+                          react_default.a.createElement('br', null),
+                          'TV and Home Theater',
+                          react_default.a.createElement('br', null),
+                          'Major Appliances',
+                          react_default.a.createElement('br', null),
+                          'Optical',
+                          react_default.a.createElement('br', null),
+                          'Portrait Studio',
+                          react_default.a.createElement('br', null),
+                          'Custom Decorating - ',
+                          react_default.a.createElement(
+                            'a',
+                            { href: 'javascript:void(0);', className: 'color-nightsky' },
+                            'Schedule Appointment'
+                          ),
+                          react_default.a.createElement('br', null),
+                          'Sephora - ',
+                          react_default.a.createElement(
+                            'a',
+                            { href: 'javascript:void(0);', className: 'color-nightsky' },
+                            'Schedule Appointment'
+                          ),
+                          react_default.a.createElement('br', null),
+                          'Salon - ',
+                          react_default.a.createElement(
+                            'a',
+                            { href: 'javascript:void(0);', className: 'color-nightsky' },
+                            'Schedule Appointment'
+                          )
+                        )
                       ),
                       react_default.a.createElement(
                         'p',
                         { className: 'std-txt std-txt-S' },
                         react_default.a.createElement(
                           'a',
-                          { href: 'javascript:void(0);' },
+                          { href: 'javascript:void(0);', className: 'expand-collapse-btn', 'data-hide-text': 'Hide Hours & Services', 'data-target': '#storeLising2' },
                           'View Hours & Services'
                         )
-                      )
-                    ),
-                    react_default.a.createElement(
-                      'div',
-                      { className: 'side-panel-col-button' },
-                      react_default.a.createElement(
-                        'a',
-                        { href: 'javascript:void(0);', 'class': 'btn btn-L btn-full btn-primary btn-disabled' },
-                        'My Store'
-                      )
-                    )
-                  )
-                ),
-                react_default.a.createElement(
-                  'div',
-                  { className: 'change-my-store-listing last' },
-                  react_default.a.createElement(
-                    'div',
-                    { className: 'side-panel-row' },
-                    react_default.a.createElement(
-                      'div',
-                      { className: 'side-panel-col side-panel-col-details' },
-                      react_default.a.createElement(
-                        'h4',
-                        { className: 'mrg-S' },
-                        'Collin Creek Mall ',
-                        react_default.a.createElement(
-                          'span',
-                          { 'class': 'change-my-store-mileage color-slate' },
-                          '(5.2mi)'
-                        )
-                      ),
-                      react_default.a.createElement(
-                        'p',
-                        { className: 'std-txt std-txt-S mrg-XS color-nightsky' },
-                        '2480 Preston Rd'
-                      ),
-                      react_default.a.createElement(
-                        'p',
-                        { className: 'std-txt std-txt-S' },
-                        react_default.a.createElement(
-                          'a',
-                          { href: 'javascript:void(0);' },
-                          'View Hours & Services'
-                        )
-                      )
-                    ),
-                    react_default.a.createElement(
-                      'div',
-                      { className: 'side-panel-col side-panel-col-button' },
-                      react_default.a.createElement(
-                        'a',
-                        { href: 'javascript:void(0);', 'class': 'btn btn-L btn-full btn-primary' },
-                        'Set Store'
                       )
                     )
                   )
@@ -14491,6 +14666,519 @@ var components_header__temp = function () {
   }
 
   __REACT_HOT_LOADER__.register(components_header__default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/header/index.js');
+}();
+
+;
+// CONCATENATED MODULE: ./src/js/components/footer/footer.js
+var footer__createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+function footer__classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function footer__possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function footer__inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+
+
+
+var footer_devicephoneImage = __webpack_require__("oW2K");
+var footer_twitterfillImage = __webpack_require__("Oiyx");
+var footer_chatfillImage = __webpack_require__("Kr1e");
+var footer_facebooklineImage = __webpack_require__("2Oo2");
+var footer_twitterlineImage = __webpack_require__("whDz");
+var footer_pinterestlineImage = __webpack_require__("6spg");
+var footer_googlepluslineImage = __webpack_require__("wdiq");
+var footer_youtubelineImage = __webpack_require__("+Yl1");
+var footer_bloglineImage = __webpack_require__("qZ91");
+
+var footer_Footer = function (_Component) {
+    footer__inherits(Footer, _Component);
+
+    function Footer() {
+        footer__classCallCheck(this, Footer);
+
+        return footer__possibleConstructorReturn(this, (Footer.__proto__ || Object.getPrototypeOf(Footer)).apply(this, arguments));
+    }
+
+    footer__createClass(Footer, [{
+        key: 'componentDidMount',
+        value: function componentDidMount() {}
+    }, {
+        key: 'render',
+        value: function render() {
+            return react_default.a.createElement(
+                'div',
+                null,
+                react_default.a.createElement(
+                    'div',
+                    { className: 'row' },
+                    react_default.a.createElement(
+                        'footer',
+                        { className: 'footer-block' },
+                        react_default.a.createElement(
+                            'div',
+                            { className: 'signup-block md10 lg8 xl8 sm12' },
+                            react_default.a.createElement(
+                                'label',
+                                { className: 'signup-label' },
+                                'Signup for text* or email alerts and offers'
+                            ),
+                            react_default.a.createElement(
+                                'div',
+                                { 'class': 'position-rel input-form' },
+                                react_default.a.createElement(
+                                    'div',
+                                    { 'class': 'css-float-label' },
+                                    react_default.a.createElement('input', { type: 'tel', id: 'signup', name: 'signup', placeholder: 'Phone Number or Email...', maxlength: '', 'class': 'form-control input-text' }),
+                                    react_default.a.createElement(
+                                        'label',
+                                        { 'for': 'signup' },
+                                        'Phone Number or Email...'
+                                    ),
+                                    react_default.a.createElement(
+                                        'a',
+                                        { href: 'javascript:void();', 'class': 'btn btn-S btn-primary apply-btn' },
+                                        'Apply'
+                                    ),
+                                    react_default.a.createElement(
+                                        'a',
+                                        { href: 'javascript:void();', className: 'footer-terms' },
+                                        '*Terms & Conditions'
+                                    )
+                                )
+                            )
+                        ),
+                        react_default.a.createElement(
+                            'div',
+                            { className: 'contact-list md12 lg6 xl6 sm12' },
+                            react_default.a.createElement(
+                                'ul',
+                                null,
+                                react_default.a.createElement(
+                                    'li',
+                                    null,
+                                    react_default.a.createElement('span', { className: 'icon', dangerouslySetInnerHTML: { __html: footer_devicephoneImage } }),
+                                    react_default.a.createElement(
+                                        'a',
+                                        { href: 'javascript:void();' },
+                                        'Give us a call '
+                                    )
+                                ),
+                                react_default.a.createElement(
+                                    'li',
+                                    null,
+                                    react_default.a.createElement('span', { className: 'icon', dangerouslySetInnerHTML: { __html: footer_twitterfillImage } }),
+                                    react_default.a.createElement(
+                                        'a',
+                                        { href: 'javascript:void();' },
+                                        'Ask us on Twitter '
+                                    )
+                                ),
+                                react_default.a.createElement(
+                                    'li',
+                                    null,
+                                    react_default.a.createElement('span', { className: 'icon', dangerouslySetInnerHTML: { __html: footer_chatfillImage } }),
+                                    react_default.a.createElement(
+                                        'a',
+                                        { href: 'javascript:void();' },
+                                        'Chat with us '
+                                    )
+                                )
+                            )
+                        ),
+                        react_default.a.createElement(
+                            'div',
+                            { className: 'social-connect md12 lg6 xl6 sm12' },
+                            react_default.a.createElement(
+                                'ul',
+                                null,
+                                react_default.a.createElement(
+                                    'li',
+                                    null,
+                                    'Stay Connected'
+                                ),
+                                react_default.a.createElement(
+                                    'li',
+                                    null,
+                                    react_default.a.createElement(
+                                        'a',
+                                        { href: 'javascript:void();' },
+                                        react_default.a.createElement('span', { className: 'icon', dangerouslySetInnerHTML: { __html: footer_facebooklineImage } })
+                                    )
+                                ),
+                                react_default.a.createElement(
+                                    'li',
+                                    null,
+                                    react_default.a.createElement(
+                                        'a',
+                                        { href: 'javascript:void();' },
+                                        react_default.a.createElement('span', { className: 'icon', dangerouslySetInnerHTML: { __html: footer_twitterlineImage } })
+                                    )
+                                ),
+                                react_default.a.createElement(
+                                    'li',
+                                    null,
+                                    react_default.a.createElement(
+                                        'a',
+                                        { href: 'javascript:void();' },
+                                        react_default.a.createElement('span', { className: 'icon', dangerouslySetInnerHTML: { __html: footer_pinterestlineImage } })
+                                    )
+                                ),
+                                react_default.a.createElement(
+                                    'li',
+                                    null,
+                                    react_default.a.createElement(
+                                        'a',
+                                        { href: 'javascript:void();' },
+                                        react_default.a.createElement('span', { className: 'icon', dangerouslySetInnerHTML: { __html: footer_googlepluslineImage } })
+                                    )
+                                ),
+                                react_default.a.createElement(
+                                    'li',
+                                    null,
+                                    react_default.a.createElement(
+                                        'a',
+                                        { href: 'javascript:void();' },
+                                        react_default.a.createElement('span', { className: 'icon', dangerouslySetInnerHTML: { __html: footer_youtubelineImage } })
+                                    )
+                                ),
+                                react_default.a.createElement(
+                                    'li',
+                                    null,
+                                    react_default.a.createElement(
+                                        'a',
+                                        { href: 'javascript:void();' },
+                                        react_default.a.createElement('span', { className: 'icon', dangerouslySetInnerHTML: { __html: footer_bloglineImage } })
+                                    )
+                                )
+                            )
+                        ),
+                        react_default.a.createElement(
+                            'div',
+                            { className: 'footer-links md12 lg12 xl12 sm12' },
+                            react_default.a.createElement(
+                                'ul',
+                                null,
+                                react_default.a.createElement(
+                                    'li',
+                                    { className: 'footer-links-title' },
+                                    'JCPenney Rewards & Credit Card'
+                                ),
+                                react_default.a.createElement(
+                                    'li',
+                                    null,
+                                    react_default.a.createElement(
+                                        'a',
+                                        { href: 'avascript:void();' },
+                                        'Enroll in Rewards'
+                                    )
+                                ),
+                                react_default.a.createElement(
+                                    'li',
+                                    null,
+                                    react_default.a.createElement(
+                                        'a',
+                                        { href: 'avascript:void();' },
+                                        'Sign In to Rewards'
+                                    )
+                                ),
+                                react_default.a.createElement(
+                                    'li',
+                                    null,
+                                    react_default.a.createElement(
+                                        'a',
+                                        { href: 'avascript:void();' },
+                                        'JCPenney Credit Card'
+                                    )
+                                )
+                            ),
+                            react_default.a.createElement(
+                                'ul',
+                                null,
+                                react_default.a.createElement(
+                                    'li',
+                                    { className: 'footer-links-title' },
+                                    'Customer Service'
+                                ),
+                                react_default.a.createElement(
+                                    'li',
+                                    null,
+                                    react_default.a.createElement(
+                                        'a',
+                                        { href: 'avascript:void();' },
+                                        'Returns'
+                                    )
+                                ),
+                                react_default.a.createElement(
+                                    'li',
+                                    null,
+                                    react_default.a.createElement(
+                                        'a',
+                                        { href: 'avascript:void();' },
+                                        'Shipping information'
+                                    )
+                                ),
+                                react_default.a.createElement(
+                                    'li',
+                                    null,
+                                    react_default.a.createElement(
+                                        'a',
+                                        { href: 'avascript:void();' },
+                                        'Rebates'
+                                    )
+                                ),
+                                react_default.a.createElement(
+                                    'li',
+                                    null,
+                                    react_default.a.createElement(
+                                        'a',
+                                        { href: 'avascript:void();' },
+                                        'Same Day Pickup'
+                                    )
+                                ),
+                                react_default.a.createElement(
+                                    'li',
+                                    null,
+                                    react_default.a.createElement(
+                                        'a',
+                                        { href: 'avascript:void();' },
+                                        'My JCP.com Account'
+                                    )
+                                ),
+                                react_default.a.createElement(
+                                    'li',
+                                    null,
+                                    react_default.a.createElement(
+                                        'a',
+                                        { href: 'avascript:void();' },
+                                        'Track My Order'
+                                    )
+                                ),
+                                react_default.a.createElement(
+                                    'li',
+                                    null,
+                                    react_default.a.createElement(
+                                        'a',
+                                        { href: 'avascript:void();' },
+                                        'Servicio Al Cliente'
+                                    )
+                                )
+                            ),
+                            react_default.a.createElement(
+                                'ul',
+                                null,
+                                react_default.a.createElement(
+                                    'li',
+                                    null,
+                                    react_default.a.createElement(
+                                        'a',
+                                        { href: 'avascript:void();' },
+                                        'JCP Salon'
+                                    )
+                                ),
+                                react_default.a.createElement(
+                                    'li',
+                                    null,
+                                    react_default.a.createElement(
+                                        'a',
+                                        { href: 'avascript:void();' },
+                                        'Sephora'
+                                    )
+                                ),
+                                react_default.a.createElement(
+                                    'li',
+                                    null,
+                                    react_default.a.createElement(
+                                        'a',
+                                        { href: 'avascript:void();' },
+                                        'JCP Portraits'
+                                    )
+                                ),
+                                react_default.a.createElement(
+                                    'li',
+                                    null,
+                                    react_default.a.createElement(
+                                        'a',
+                                        { href: 'avascript:void();' },
+                                        'JCP Optical'
+                                    )
+                                ),
+                                react_default.a.createElement(
+                                    'li',
+                                    null,
+                                    react_default.a.createElement(
+                                        'a',
+                                        { href: 'avascript:void();' },
+                                        'Gift Registry'
+                                    )
+                                ),
+                                react_default.a.createElement(
+                                    'li',
+                                    null,
+                                    react_default.a.createElement(
+                                        'a',
+                                        { href: 'avascript:void();' },
+                                        'JCP Custom Window'
+                                    )
+                                ),
+                                react_default.a.createElement(
+                                    'li',
+                                    null,
+                                    react_default.a.createElement(
+                                        'a',
+                                        { href: 'avascript:void();' },
+                                        'View All Store Services'
+                                    )
+                                )
+                            ),
+                            react_default.a.createElement(
+                                'ul',
+                                null,
+                                react_default.a.createElement(
+                                    'li',
+                                    { className: 'footer-links-title' },
+                                    'More Ways to Shop'
+                                ),
+                                react_default.a.createElement(
+                                    'li',
+                                    null,
+                                    react_default.a.createElement(
+                                        'a',
+                                        { href: 'avascript:void();' },
+                                        'See our ads'
+                                    )
+                                ),
+                                react_default.a.createElement(
+                                    'li',
+                                    null,
+                                    react_default.a.createElement(
+                                        'a',
+                                        { href: 'avascript:void();' },
+                                        'Coupons'
+                                    )
+                                ),
+                                react_default.a.createElement(
+                                    'li',
+                                    null,
+                                    react_default.a.createElement(
+                                        'a',
+                                        { href: 'avascript:void();' },
+                                        'Recommendations'
+                                    )
+                                ),
+                                react_default.a.createElement(
+                                    'li',
+                                    null,
+                                    react_default.a.createElement(
+                                        'a',
+                                        { href: 'avascript:void();' },
+                                        'Gift Cards'
+                                    )
+                                ),
+                                react_default.a.createElement(
+                                    'li',
+                                    null,
+                                    react_default.a.createElement(
+                                        'a',
+                                        { href: 'avascript:void();' },
+                                        'International Shopping'
+                                    )
+                                )
+                            ),
+                            react_default.a.createElement(
+                                'ul',
+                                null,
+                                react_default.a.createElement(
+                                    'li',
+                                    { className: 'footer-links-title' },
+                                    'Corporate Overview'
+                                ),
+                                react_default.a.createElement(
+                                    'li',
+                                    null,
+                                    react_default.a.createElement(
+                                        'a',
+                                        { href: 'avascript:void();' },
+                                        'Careers'
+                                    )
+                                ),
+                                react_default.a.createElement(
+                                    'li',
+                                    null,
+                                    react_default.a.createElement(
+                                        'a',
+                                        { href: 'avascript:void();' },
+                                        'Company Info'
+                                    )
+                                ),
+                                react_default.a.createElement(
+                                    'li',
+                                    null,
+                                    react_default.a.createElement(
+                                        'a',
+                                        { href: 'avascript:void();' },
+                                        'Community'
+                                    )
+                                ),
+                                react_default.a.createElement(
+                                    'li',
+                                    null,
+                                    react_default.a.createElement(
+                                        'a',
+                                        { href: 'avascript:void();' },
+                                        'Media'
+                                    )
+                                ),
+                                react_default.a.createElement(
+                                    'li',
+                                    null,
+                                    react_default.a.createElement(
+                                        'a',
+                                        { href: 'avascript:void();' },
+                                        'Investors'
+                                    )
+                                )
+                            )
+                        ),
+                        react_default.a.createElement('div', { className: 'footer-legal-links md12 lg12 xl12 sm12' })
+                    )
+                )
+            );
+        }
+    }]);
+
+    return Footer;
+}(react["Component"]);
+
+var footer__default = footer_Footer;
+
+
+/* harmony default export */ var footer = (footer__default);
+;
+
+var footer__temp = function () {
+    if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+        return;
+    }
+
+    __REACT_HOT_LOADER__.register(footer_Footer, 'Footer', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/footer/footer.js');
+
+    __REACT_HOT_LOADER__.register(footer__default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/footer/footer.js');
+}();
+
+;
+// CONCATENATED MODULE: ./src/js/components/footer/index.js
+
+var components_footer__default = footer;
+/* harmony default export */ var components_footer = (components_footer__default);
+;
+
+var components_footer__temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(components_footer__default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/footer/index.js');
 }();
 
 ;
@@ -14692,6 +15380,7 @@ function DesignSystemPage__inherits(subClass, superClass) { if (typeof superClas
 
 
 
+
 var DesignSystemPage_DesignSystemPage = function (_Component) {
   DesignSystemPage__inherits(DesignSystemPage, _Component);
 
@@ -14728,6 +15417,7 @@ var DesignSystemPage_DesignSystemPage = function (_Component) {
         Selectors: { componentElement: components_selectors, componentDisplayName: "Selectors", componentSubNav: ['Selectors'] },
         Carousel: { componentElement: components_carousel, componentDisplayName: "Carousels", componentSubNav: ['Carousel'] },
         Header: { componentElement: components_header, componentDisplayName: "Header", componentSubNav: ['Header'] },
+        Footer: { componentElement: components_footer, componentDisplayName: "Footer", componentSubNav: ['Footer'] },
         Coupons: { componentElement: components_coupons, componentDisplayName: "Coupons", componentSubNav: ['Coupons'] }
 
       };
@@ -19151,6 +19841,9 @@ var Root_App = function (_React$Component) {
                                 } }),
                             react_default.a.createElement(es["d" /* Route */], { exact: true, path: '/page-modules/header', render: function render() {
                                     return react_default.a.createElement(containers_DesignSystemPage, { componentName: 'Header' });
+                                } }),
+                            react_default.a.createElement(es["d" /* Route */], { exact: true, path: '/page-modules/footer', render: function render() {
+                                    return react_default.a.createElement(containers_DesignSystemPage, { componentName: 'Footer' });
                                 } }),
                             react_default.a.createElement(es["d" /* Route */], { exact: true, path: '/page-modules/coupons', render: function render() {
                                     return react_default.a.createElement(containers_DesignSystemPage, { componentName: 'Coupons' });
