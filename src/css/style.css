@@ -39,6 +39,7 @@ Base Styles
 @import "base/toggles";
 @import "../js/components/carousel/carousel";
 @import "../js/components/coupons/coupons";
+
 /* @import "base/additional-buttons"; */
 /* @import "../js/components/work-in-progress/work-in-progress"; */
 
@@ -46,5 +47,6 @@ Base Styles
 /* ---
 Page Modules
 --- */
+@import "../js/components/slide-out-panels/slide-out-panels";
 @import "../js/components/header/header";
 @import "../js/components/footer/footer";

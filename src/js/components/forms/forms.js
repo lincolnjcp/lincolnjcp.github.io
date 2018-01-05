@@ -381,6 +381,36 @@ class Forms extends Component {
                                     </div>
                                 </div>
                             </div>
+
+
+                            <div className="sm12 columns input-form">
+                                <div className="row">
+                                    <div className="sm12 md4 columns">
+                                        <div className="input-form-store-locator">
+                                            <div className="input-form-store-locator-field-1">
+                                                <input className="form-control input-text" id="search" type="text" placeholder="Zip Code" />
+                                            </div>
+                                            <div className="input-form-store-locator-field-2">
+                                                <div className="select">
+                                                    <select className="form-control custom-select">
+                                                        <option value='5'>5 miles</option>
+                                                        <option value='10'>10 miles</option>
+                                                        <option value='20'>20 miles</option>
+                                                        <option value='50'>50 miles</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <button type="submit" className="search-icon">
+                                                <span className="icon color-lipstick-svg" dangerouslySetInnerHTML={{ __html: searchIcon }} />
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div className="sm12 md8 columns">
+                                        <h4 className="title title-M mrg-L">Store Locator</h4>
+                                        <p className="max-width-text">Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus.<br /><br /><br /></p>
+                                    </div>
+                                </div>
+                            </div>
                             <div className="sm12 columns input-form">
                                 <div className="row">
                                     <div className="sm12 md4 columns">

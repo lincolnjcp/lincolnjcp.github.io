@@ -248,8 +248,8 @@ const rootNav = [
                 content: 'Modals',
             },
             {
-                to: '/',
-                activeClassName: 'inactive',
+                to: '/page-modules/slide-out-panels',
+                activeClassName: 'active',
                 content: 'Slide Out Panels',
             },
             {

@@ -69,7 +69,9 @@
   & .search-icon, & .tooltip-icon {
     position: absolute;
     right: 0;
+    border: none;
     border-left: 1px solid var(--color-concrete);
+    padding: 0;
     height: 48px;
     & svg {
       margin-top: 4px;
@@ -261,5 +263,71 @@
         top: 0.3em;
       }
     }
+  }
+}
+
+.input-form-store-locator {
+  position: relative;
+  display: flex;
+  width: 100%;
+  border: 1px solid var(--color-concrete);
+  height: 48px;
+  border-radius: 24px;
+  margin-bottom: 16px;
+
+  & input[type="text"],
+  & select,
+  & .select {
+    border: none;
+    border-radius: 0;
+    font-size: 16px;
+    margin: 0;
+  }
+
+  & select {
+    height: 46px;
+    border: 1px solid var(--color-white);
+    &:focus {
+      border: 1px solid var(--color-nightsky);
+    }
+  }
+
+  & input[type="text"].input-text {
+    height: 46px;
+    border: 1px solid var(--color-white);
+    border-top-left-radius: 24px;
+    border-bottom-left-radius: 24px;
+    border-right: 1px solid var(--color-concrete);
+    &:focus {
+      border: 1px solid var(--color-nightsky);
+    }
+    &::placeholder {
+      color: var(--color-nightsky);
+      font-style: normal;
+      opacity: 1;
+    }
+  }
+
+  & .search-icon {
+    border-radius: 0;
+    height: 46px;
+    width: 56px;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+    overflow: hidden;
+    & .icon {
+      position: absolute;
+      top: -1px;
+      left: 6px;
+    }
+  }
+
+  & .input-form-store-locator-field-1 {
+    width: 45%;
+  }
+
+  & .input-form-store-locator-field-2 {
+    padding-right: 56px;
+    width: 55%;
   }
 }

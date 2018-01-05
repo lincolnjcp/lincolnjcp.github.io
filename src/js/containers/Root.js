@@ -180,6 +180,7 @@ class App extends React.Component {
                             <Route exact path="/page-modules/header" render={() => <DesignSystemPage componentName="Header" />} />
                             <Route exact path="/page-modules/footer" render={() => <DesignSystemPage componentName="Footer" />} />
                             <Route exact path="/page-modules/coupons" render={() => <DesignSystemPage componentName="Coupons" />} />
+                            <Route exact path="/page-modules/slide-out-panels" render={() => <DesignSystemPage componentName="SlideOutPanels" />} />
                         </div>
                     </div>
 

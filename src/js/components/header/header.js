@@ -62,18 +62,35 @@ class Header extends Component {
 
         $('.expand-collapse-btn').unbind('click').on('click', function(event){
           var target = $($(this).attr('data-target'));
+
+          var duration = 400;
+          if($(this).attr('data-duration')){
+            duration = $(this).attr('data-duration');
+          }
+
           if(target.hasClass('is-visible')){
             if($(this).attr('data-show-text')){
               $(this).text($(this).attr('data-show-text'));
             }
-            target.removeClass('is-visible').slideUp(400);
+            if(duration > 0) {
+              target.removeClass('is-visible').slideUp(duration);
+            } else {
+              target.removeClass('is-visible').css('display', 'none');
+            }
 
           } else {
             if($(this).attr('data-hide-text')){
               $(this).attr('data-show-text', $(this).text());
               $(this).text($(this).attr('data-hide-text'));
             }
-            target.addClass('is-visible').slideDown(400);
+            if(duration > 0) {
+              target.addClass('is-visible').slideDown(duration);
+            } else {
+              target.addClass('is-visible').css('display', 'block');
+            }
+            if($(this).attr('data-hide-on-open-target')){
+              $($(this).attr('data-hide-on-open-target')).css('display', 'none');
+            }
           }
         });
 
@@ -322,8 +339,30 @@ class Header extends Component {
       </a>
     </header>
     <div className="side-panel-content">
-        <p>Stores within 15 mi. of <strong>75024</strong> <a href="javascript:void(0);">Change</a></p>
-        <div className="side-panel-row-wrap no-border">
+        <p id="changeMyStoreZipLink">Stores within 15 mi. of <strong>75024</strong> <a href="javascript:void(0);" className="expand-collapse-btn" data-target="#changeMyStoreZip" data-hide-on-open-target="#changeMyStoreZipLink" data-duration="0">Change</a></p>
+         <div className="expand-collapse-section" id="changeMyStoreZip">
+           <div className="input-form">
+              <div className="input-form-store-locator">
+                  <div className="input-form-store-locator-field-1">
+                      <input className="form-control input-text" id="search" type="text" placeholder="Zip Code" defaultValue="75024" />
+                  </div>
+                  <div className="input-form-store-locator-field-2">
+                      <div className="select">
+                          <select className="form-control custom-select">
+                              <option value='5'>5 miles</option>
+                              <option value='10'>10 miles</option>
+                              <option value='20'>20 miles</option>
+                              <option value='50'>50 miles</option>
+                          </select>
+                      </div>
+                  </div>
+                  <button type="submit" className="search-icon">
+                      <span className="icon color-lipstick-svg" dangerouslySetInnerHTML={{ __html: searchImage }} />
+                  </button>
+              </div>
+          </div>
+        </div>
+        <div className="side-panel-row-wrap no-border no-bottom-padding">
 
             <div className="side-panel-row">
               <div className="side-panel-col side-panel-col-select">

@@ -26,6 +26,7 @@ import Coupons from '../components/coupons';
 
 import Header from '../components/header';
 import Footer from '../components/footer';
+import SlideOutPanels from '../components/slide-out-panels';
 
 import SubNav from './SubNav';
 
@@ -57,7 +58,8 @@ class DesignSystemPage extends Component {
    Carousel: {componentElement: Carousel, componentDisplayName: "Carousels", componentSubNav: ['Carousel']},
    Header: {componentElement: Header, componentDisplayName: "Header", componentSubNav: ['Header']},
    Footer: {componentElement: Footer, componentDisplayName: "Footer", componentSubNav: ['Footer']},
-   Coupons: {componentElement: Coupons, componentDisplayName: "Coupons", componentSubNav: ['Coupons']}
+   Coupons: {componentElement: Coupons, componentDisplayName: "Coupons", componentSubNav: ['Coupons']},
+   SlideOutPanels: {componentElement: SlideOutPanels, componentDisplayName: "Slide Out Panels", componentSubNav: ['Slide Out Panels']}
 
   }
 

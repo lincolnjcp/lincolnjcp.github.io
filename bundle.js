@@ -793,8 +793,8 @@ var rootNav = [{
         activeClassName: 'inactive',
         content: 'Modals'
     }, {
-        to: '/',
-        activeClassName: 'inactive',
+        to: '/page-modules/slide-out-panels',
+        activeClassName: 'active',
         content: 'Slide Out Panels'
     }, {
         to: '/',
@@ -8516,6 +8516,81 @@ var forms_Forms = function (_Component) {
                                         { className: 'sm12 md4 columns' },
                                         react_default.a.createElement(
                                             'div',
+                                            { className: 'input-form-store-locator' },
+                                            react_default.a.createElement(
+                                                'div',
+                                                { className: 'input-form-store-locator-field-1' },
+                                                react_default.a.createElement('input', { className: 'form-control input-text', id: 'search', type: 'text', placeholder: 'Zip Code' })
+                                            ),
+                                            react_default.a.createElement(
+                                                'div',
+                                                { className: 'input-form-store-locator-field-2' },
+                                                react_default.a.createElement(
+                                                    'div',
+                                                    { className: 'select' },
+                                                    react_default.a.createElement(
+                                                        'select',
+                                                        { className: 'form-control custom-select' },
+                                                        react_default.a.createElement(
+                                                            'option',
+                                                            { value: '5' },
+                                                            '5 miles'
+                                                        ),
+                                                        react_default.a.createElement(
+                                                            'option',
+                                                            { value: '10' },
+                                                            '10 miles'
+                                                        ),
+                                                        react_default.a.createElement(
+                                                            'option',
+                                                            { value: '20' },
+                                                            '20 miles'
+                                                        ),
+                                                        react_default.a.createElement(
+                                                            'option',
+                                                            { value: '50' },
+                                                            '50 miles'
+                                                        )
+                                                    )
+                                                )
+                                            ),
+                                            react_default.a.createElement(
+                                                'button',
+                                                { type: 'submit', className: 'search-icon' },
+                                                react_default.a.createElement('span', { className: 'icon color-lipstick-svg', dangerouslySetInnerHTML: { __html: searchIcon } })
+                                            )
+                                        )
+                                    ),
+                                    react_default.a.createElement(
+                                        'div',
+                                        { className: 'sm12 md8 columns' },
+                                        react_default.a.createElement(
+                                            'h4',
+                                            { className: 'title title-M mrg-L' },
+                                            'Store Locator'
+                                        ),
+                                        react_default.a.createElement(
+                                            'p',
+                                            { className: 'max-width-text' },
+                                            'Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus.',
+                                            react_default.a.createElement('br', null),
+                                            react_default.a.createElement('br', null),
+                                            react_default.a.createElement('br', null)
+                                        )
+                                    )
+                                )
+                            ),
+                            react_default.a.createElement(
+                                'div',
+                                { className: 'sm12 columns input-form' },
+                                react_default.a.createElement(
+                                    'div',
+                                    { className: 'row' },
+                                    react_default.a.createElement(
+                                        'div',
+                                        { className: 'sm12 md4 columns' },
+                                        react_default.a.createElement(
+                                            'div',
                                             { className: 'position-rel' },
                                             react_default.a.createElement(
                                                 'div',
@@ -13399,17 +13474,34 @@ var header_Header = function (_Component) {
 
       jquery_default()('.expand-collapse-btn').unbind('click').on('click', function (event) {
         var target = jquery_default()(jquery_default()(this).attr('data-target'));
+
+        var duration = 400;
+        if (jquery_default()(this).attr('data-duration')) {
+          duration = jquery_default()(this).attr('data-duration');
+        }
+
         if (target.hasClass('is-visible')) {
           if (jquery_default()(this).attr('data-show-text')) {
             jquery_default()(this).text(jquery_default()(this).attr('data-show-text'));
           }
-          target.removeClass('is-visible').slideUp(400);
+          if (duration > 0) {
+            target.removeClass('is-visible').slideUp(duration);
+          } else {
+            target.removeClass('is-visible').css('display', 'none');
+          }
         } else {
           if (jquery_default()(this).attr('data-hide-text')) {
             jquery_default()(this).attr('data-show-text', jquery_default()(this).text());
             jquery_default()(this).text(jquery_default()(this).attr('data-hide-text'));
           }
-          target.addClass('is-visible').slideDown(400);
+          if (duration > 0) {
+            target.addClass('is-visible').slideDown(duration);
+          } else {
+            target.addClass('is-visible').css('display', 'block');
+          }
+          if (jquery_default()(this).attr('data-hide-on-open-target')) {
+            jquery_default()(jquery_default()(this).attr('data-hide-on-open-target')).css('display', 'none');
+          }
         }
       });
     }
@@ -14035,7 +14127,7 @@ var header_Header = function (_Component) {
                 { className: 'side-panel-content' },
                 react_default.a.createElement(
                   'p',
-                  null,
+                  { id: 'changeMyStoreZipLink' },
                   'Stores within 15 mi. of ',
                   react_default.a.createElement(
                     'strong',
@@ -14045,13 +14137,67 @@ var header_Header = function (_Component) {
                   ' ',
                   react_default.a.createElement(
                     'a',
-                    { href: 'javascript:void(0);' },
+                    { href: 'javascript:void(0);', className: 'expand-collapse-btn', 'data-target': '#changeMyStoreZip', 'data-hide-on-open-target': '#changeMyStoreZipLink', 'data-duration': '0' },
                     'Change'
                   )
                 ),
                 react_default.a.createElement(
                   'div',
-                  { className: 'side-panel-row-wrap no-border' },
+                  { className: 'expand-collapse-section', id: 'changeMyStoreZip' },
+                  react_default.a.createElement(
+                    'div',
+                    { className: 'input-form' },
+                    react_default.a.createElement(
+                      'div',
+                      { className: 'input-form-store-locator' },
+                      react_default.a.createElement(
+                        'div',
+                        { className: 'input-form-store-locator-field-1' },
+                        react_default.a.createElement('input', { className: 'form-control input-text', id: 'search', type: 'text', placeholder: 'Zip Code', defaultValue: '75024' })
+                      ),
+                      react_default.a.createElement(
+                        'div',
+                        { className: 'input-form-store-locator-field-2' },
+                        react_default.a.createElement(
+                          'div',
+                          { className: 'select' },
+                          react_default.a.createElement(
+                            'select',
+                            { className: 'form-control custom-select' },
+                            react_default.a.createElement(
+                              'option',
+                              { value: '5' },
+                              '5 miles'
+                            ),
+                            react_default.a.createElement(
+                              'option',
+                              { value: '10' },
+                              '10 miles'
+                            ),
+                            react_default.a.createElement(
+                              'option',
+                              { value: '20' },
+                              '20 miles'
+                            ),
+                            react_default.a.createElement(
+                              'option',
+                              { value: '50' },
+                              '50 miles'
+                            )
+                          )
+                        )
+                      ),
+                      react_default.a.createElement(
+                        'button',
+                        { type: 'submit', className: 'search-icon' },
+                        react_default.a.createElement('span', { className: 'icon color-lipstick-svg', dangerouslySetInnerHTML: { __html: header_searchImage } })
+                      )
+                    )
+                  )
+                ),
+                react_default.a.createElement(
+                  'div',
+                  { className: 'side-panel-row-wrap no-border no-bottom-padding' },
                   react_default.a.createElement(
                     'div',
                     { className: 'side-panel-row' },
@@ -14690,6 +14836,7 @@ var footer_pinterestlineImage = __webpack_require__("6spg");
 var footer_googlepluslineImage = __webpack_require__("wdiq");
 var footer_youtubelineImage = __webpack_require__("+Yl1");
 var footer_bloglineImage = __webpack_require__("qZ91");
+var footer_cardJCPRed = __webpack_require__("plD6");
 
 var footer_Footer = function (_Component) {
     footer__inherits(Footer, _Component);
@@ -14905,7 +15052,7 @@ var footer_Footer = function (_Component) {
                                     null,
                                     react_default.a.createElement(
                                         'a',
-                                        { href: 'avascript:void();' },
+                                        { href: 'javascript:void();' },
                                         'Returns'
                                     )
                                 ),
@@ -14914,7 +15061,7 @@ var footer_Footer = function (_Component) {
                                     null,
                                     react_default.a.createElement(
                                         'a',
-                                        { href: 'avascript:void();' },
+                                        { href: 'javascript:void();' },
                                         'Shipping information'
                                     )
                                 ),
@@ -14923,7 +15070,7 @@ var footer_Footer = function (_Component) {
                                     null,
                                     react_default.a.createElement(
                                         'a',
-                                        { href: 'avascript:void();' },
+                                        { href: 'javascript:void();' },
                                         'Rebates'
                                     )
                                 ),
@@ -14932,7 +15079,7 @@ var footer_Footer = function (_Component) {
                                     null,
                                     react_default.a.createElement(
                                         'a',
-                                        { href: 'avascript:void();' },
+                                        { href: 'javascript:void();' },
                                         'Same Day Pickup'
                                     )
                                 ),
@@ -14941,7 +15088,7 @@ var footer_Footer = function (_Component) {
                                     null,
                                     react_default.a.createElement(
                                         'a',
-                                        { href: 'avascript:void();' },
+                                        { href: 'javascript:void();' },
                                         'My JCP.com Account'
                                     )
                                 ),
@@ -14950,7 +15097,7 @@ var footer_Footer = function (_Component) {
                                     null,
                                     react_default.a.createElement(
                                         'a',
-                                        { href: 'avascript:void();' },
+                                        { href: 'javascript:void();' },
                                         'Track My Order'
                                     )
                                 ),
@@ -14959,7 +15106,7 @@ var footer_Footer = function (_Component) {
                                     null,
                                     react_default.a.createElement(
                                         'a',
-                                        { href: 'avascript:void();' },
+                                        { href: 'javascript:void();' },
                                         'Servicio Al Cliente'
                                     )
                                 )
@@ -14969,10 +15116,15 @@ var footer_Footer = function (_Component) {
                                 null,
                                 react_default.a.createElement(
                                     'li',
+                                    { className: 'footer-links-title' },
+                                    'Store Services'
+                                ),
+                                react_default.a.createElement(
+                                    'li',
                                     null,
                                     react_default.a.createElement(
                                         'a',
-                                        { href: 'avascript:void();' },
+                                        { href: 'javascript:void();' },
                                         'JCP Salon'
                                     )
                                 ),
@@ -14981,7 +15133,7 @@ var footer_Footer = function (_Component) {
                                     null,
                                     react_default.a.createElement(
                                         'a',
-                                        { href: 'avascript:void();' },
+                                        { href: 'javascript:void();' },
                                         'Sephora'
                                     )
                                 ),
@@ -14990,7 +15142,7 @@ var footer_Footer = function (_Component) {
                                     null,
                                     react_default.a.createElement(
                                         'a',
-                                        { href: 'avascript:void();' },
+                                        { href: 'javascript:void();' },
                                         'JCP Portraits'
                                     )
                                 ),
@@ -14999,7 +15151,7 @@ var footer_Footer = function (_Component) {
                                     null,
                                     react_default.a.createElement(
                                         'a',
-                                        { href: 'avascript:void();' },
+                                        { href: 'javascript:void();' },
                                         'JCP Optical'
                                     )
                                 ),
@@ -15008,7 +15160,7 @@ var footer_Footer = function (_Component) {
                                     null,
                                     react_default.a.createElement(
                                         'a',
-                                        { href: 'avascript:void();' },
+                                        { href: 'javascript:void();' },
                                         'Gift Registry'
                                     )
                                 ),
@@ -15017,7 +15169,7 @@ var footer_Footer = function (_Component) {
                                     null,
                                     react_default.a.createElement(
                                         'a',
-                                        { href: 'avascript:void();' },
+                                        { href: 'javascript:void();' },
                                         'JCP Custom Window'
                                     )
                                 ),
@@ -15026,7 +15178,7 @@ var footer_Footer = function (_Component) {
                                     null,
                                     react_default.a.createElement(
                                         'a',
-                                        { href: 'avascript:void();' },
+                                        { href: 'javascript:void();' },
                                         'View All Store Services'
                                     )
                                 )
@@ -15044,7 +15196,7 @@ var footer_Footer = function (_Component) {
                                     null,
                                     react_default.a.createElement(
                                         'a',
-                                        { href: 'avascript:void();' },
+                                        { href: 'javascript:void();' },
                                         'See our ads'
                                     )
                                 ),
@@ -15053,7 +15205,7 @@ var footer_Footer = function (_Component) {
                                     null,
                                     react_default.a.createElement(
                                         'a',
-                                        { href: 'avascript:void();' },
+                                        { href: 'javascript:void();' },
                                         'Coupons'
                                     )
                                 ),
@@ -15062,7 +15214,7 @@ var footer_Footer = function (_Component) {
                                     null,
                                     react_default.a.createElement(
                                         'a',
-                                        { href: 'avascript:void();' },
+                                        { href: 'javascript:void();' },
                                         'Recommendations'
                                     )
                                 ),
@@ -15071,7 +15223,7 @@ var footer_Footer = function (_Component) {
                                     null,
                                     react_default.a.createElement(
                                         'a',
-                                        { href: 'avascript:void();' },
+                                        { href: 'javascript:void();' },
                                         'Gift Cards'
                                     )
                                 ),
@@ -15080,7 +15232,7 @@ var footer_Footer = function (_Component) {
                                     null,
                                     react_default.a.createElement(
                                         'a',
-                                        { href: 'avascript:void();' },
+                                        { href: 'javascript:void();' },
                                         'International Shopping'
                                     )
                                 )
@@ -15098,7 +15250,7 @@ var footer_Footer = function (_Component) {
                                     null,
                                     react_default.a.createElement(
                                         'a',
-                                        { href: 'avascript:void();' },
+                                        { href: 'javascript:void();' },
                                         'Careers'
                                     )
                                 ),
@@ -15107,7 +15259,7 @@ var footer_Footer = function (_Component) {
                                     null,
                                     react_default.a.createElement(
                                         'a',
-                                        { href: 'avascript:void();' },
+                                        { href: 'javascript:void();' },
                                         'Company Info'
                                     )
                                 ),
@@ -15116,7 +15268,7 @@ var footer_Footer = function (_Component) {
                                     null,
                                     react_default.a.createElement(
                                         'a',
-                                        { href: 'avascript:void();' },
+                                        { href: 'javascript:void();' },
                                         'Community'
                                     )
                                 ),
@@ -15125,7 +15277,7 @@ var footer_Footer = function (_Component) {
                                     null,
                                     react_default.a.createElement(
                                         'a',
-                                        { href: 'avascript:void();' },
+                                        { href: 'javascript:void();' },
                                         'Media'
                                     )
                                 ),
@@ -15134,13 +15286,132 @@ var footer_Footer = function (_Component) {
                                     null,
                                     react_default.a.createElement(
                                         'a',
-                                        { href: 'avascript:void();' },
+                                        { href: 'javascript:void();' },
                                         'Investors'
                                     )
                                 )
                             )
                         ),
-                        react_default.a.createElement('div', { className: 'footer-legal-links md12 lg12 xl12 sm12' })
+                        react_default.a.createElement(
+                            'div',
+                            { className: 'footer-bottom-links md12 lg12 xl12 sm12' },
+                            react_default.a.createElement(
+                                'div',
+                                { className: 'footer-jcp-card md4 lg4 xl4 sm12' },
+                                react_default.a.createElement(
+                                    'div',
+                                    { className: 'card-icon' },
+                                    react_default.a.createElement('span', { className: 'icon', dangerouslySetInnerHTML: { __html: footer_cardJCPRed } })
+                                ),
+                                react_default.a.createElement(
+                                    'div',
+                                    { className: 'card-links' },
+                                    react_default.a.createElement(
+                                        'h3',
+                                        null,
+                                        'JCPenney Credit Card'
+                                    ),
+                                    react_default.a.createElement(
+                                        'ul',
+                                        null,
+                                        react_default.a.createElement(
+                                            'li',
+                                            null,
+                                            react_default.a.createElement(
+                                                'a',
+                                                { href: 'javascript:void();' },
+                                                'Pay Bill '
+                                            )
+                                        ),
+                                        react_default.a.createElement(
+                                            'li',
+                                            null,
+                                            react_default.a.createElement(
+                                                'a',
+                                                { href: 'javascript:void();' },
+                                                'Check Balance '
+                                            )
+                                        ),
+                                        react_default.a.createElement(
+                                            'li',
+                                            null,
+                                            react_default.a.createElement(
+                                                'a',
+                                                { href: 'javascript:void();' },
+                                                'Apply Now '
+                                            )
+                                        )
+                                    )
+                                )
+                            ),
+                            react_default.a.createElement(
+                                'div',
+                                { className: 'footer-legal-links md8 lg8 xl8 sm12' },
+                                react_default.a.createElement(
+                                    'ul',
+                                    null,
+                                    react_default.a.createElement(
+                                        'li',
+                                        null,
+                                        react_default.a.createElement(
+                                            'a',
+                                            { href: 'javascript:void();' },
+                                            'Legal'
+                                        )
+                                    ),
+                                    react_default.a.createElement(
+                                        'li',
+                                        null,
+                                        react_default.a.createElement(
+                                            'a',
+                                            { href: 'javascript:void();' },
+                                            'Recalls'
+                                        )
+                                    ),
+                                    react_default.a.createElement(
+                                        'li',
+                                        null,
+                                        react_default.a.createElement(
+                                            'a',
+                                            { href: 'javascript:void();' },
+                                            'AdChoices'
+                                        )
+                                    ),
+                                    react_default.a.createElement(
+                                        'li',
+                                        null,
+                                        react_default.a.createElement(
+                                            'a',
+                                            { href: 'javascript:void();' },
+                                            'CA Privacy Rts'
+                                        )
+                                    ),
+                                    react_default.a.createElement(
+                                        'li',
+                                        null,
+                                        react_default.a.createElement(
+                                            'a',
+                                            { href: 'javascript:void();' },
+                                            'Privacy Policy'
+                                        )
+                                    ),
+                                    react_default.a.createElement(
+                                        'li',
+                                        null,
+                                        react_default.a.createElement(
+                                            'a',
+                                            { href: 'javascript:void();' },
+                                            'CA Supply Chain Act'
+                                        )
+                                    )
+                                )
+                            )
+                        ),
+                        react_default.a.createElement(
+                            'div',
+                            { className: 'footer-copy' },
+                            ' \xA9JCP Media, Inc. 2017. All Rights Reserved'
+                        )
                     )
                 )
             );
@@ -15179,6 +15450,224 @@ var components_footer__temp = function () {
   }
 
   __REACT_HOT_LOADER__.register(components_footer__default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/footer/index.js');
+}();
+
+;
+// CONCATENATED MODULE: ./src/js/components/slide-out-panels/slide-out-panels.js
+var slide_out_panels__createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+function slide_out_panels__classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function slide_out_panels__possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function slide_out_panels__inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+
+
+
+var slide_out_panels_logoImage = __webpack_require__("Qmz5");
+var slide_out_panels_searchImage = __webpack_require__("7r5T");
+var slide_out_panels_menuImage = __webpack_require__("738v");
+var slide_out_panels_closeImage = __webpack_require__("oWX6");
+
+var slide_out_panels_SlideOutPanels = function (_Component) {
+  slide_out_panels__inherits(SlideOutPanels, _Component);
+
+  function SlideOutPanels() {
+    slide_out_panels__classCallCheck(this, SlideOutPanels);
+
+    return slide_out_panels__possibleConstructorReturn(this, (SlideOutPanels.__proto__ || Object.getPrototypeOf(SlideOutPanels)).apply(this, arguments));
+  }
+
+  slide_out_panels__createClass(SlideOutPanels, [{
+    key: 'componentDidMount',
+    value: function componentDidMount() {
+
+      jquery_default()('.side-panel-btn').unbind('click').on('click', function (event) {
+        event.preventDefault();
+        var parent = jquery_default()(jquery_default()(this).attr('data-target'));
+        parent.addClass('is-visible');
+      });
+
+      jquery_default()('.side-panel').unbind('click').on('click', function (event) {
+        if (jquery_default()(event.target).is('.side-panel')) {
+          jquery_default()(this).removeClass('is-visible');
+        } else if (jquery_default()(event.target).is('.side-panel-close') || jquery_default()(event.target).closest('a').hasClass('side-panel-close')) {
+          jquery_default()(event.target).closest('.side-panel').removeClass('is-visible');
+        }
+        event.preventDefault();
+      });
+    }
+  }, {
+    key: 'render',
+    value: function render() {
+      return react_default.a.createElement(
+        'div',
+        null,
+        react_default.a.createElement(
+          'div',
+          { className: 'row' },
+          react_default.a.createElement(
+            'div',
+            { className: 'sm12 columns' },
+            react_default.a.createElement(
+              'h1',
+              { className: 'title title-XL mrg-L' },
+              'Slide Out Panels'
+            ),
+            react_default.a.createElement(
+              'h2',
+              { className: 'std-txt std-txt-XL mrg-L max-width-text' },
+              'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+            ),
+            react_default.a.createElement(
+              'p',
+              null,
+              react_default.a.createElement(
+                'a',
+                { href: 'javascript:void(0);', 'class': 'side-panel-btn', 'data-target': '#leftPanel' },
+                'Slide In From Left'
+              )
+            ),
+            react_default.a.createElement(
+              'p',
+              null,
+              react_default.a.createElement(
+                'a',
+                { href: 'javascript:void(0);', 'class': 'side-panel-btn', 'data-target': '#rightPanel' },
+                'Slide In From Right'
+              )
+            )
+          )
+        ),
+        react_default.a.createElement(
+          'div',
+          { className: 'side-panel from-right', id: 'rightPanel' },
+          react_default.a.createElement(
+            'div',
+            { className: 'side-panel-container' },
+            react_default.a.createElement(
+              'header',
+              { className: 'side-panel-header' },
+              react_default.a.createElement(
+                'h3',
+                { className: 'title title-L color-white' },
+                'Panel'
+              ),
+              react_default.a.createElement(
+                'a',
+                { href: 'javascript:void(0);', className: 'side-panel-close' },
+                react_default.a.createElement('div', { className: 'change-my-store-icon-close icon color-white-svg', dangerouslySetInnerHTML: { __html: slide_out_panels_closeImage } })
+              ),
+              ' '
+            ),
+            react_default.a.createElement(
+              'div',
+              { className: 'side-panel-content' },
+              react_default.a.createElement(
+                'p',
+                null,
+                'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec fringilla dolor eget scelerisque lobortis. Nulla metus nisi, commodo et suscipit ac, venenatis ut magna. Nunc in venenatis mi, vitae placerat odio. Aenean est tellus, mollis sed tempus vel, egestas non urna. Suspendisse fringilla neque tincidunt, molestie diam non, facilisis ante. Quisque mattis commodo arcu vehicula lobortis. Cras lorem mauris, molestie ac gravida in, condimentum at enim. Aenean elementum, mauris ac convallis tempus, erat eros aliquam quam, ac sodales ligula mauris nec neque. Aliquam ut turpis lectus. Cras eget felis odio.'
+              )
+            )
+          )
+        ),
+        react_default.a.createElement(
+          'div',
+          { className: 'side-panel from-left', id: 'leftPanel' },
+          react_default.a.createElement(
+            'div',
+            { className: 'side-panel-container' },
+            react_default.a.createElement(
+              'header',
+              { className: 'side-panel-header' },
+              react_default.a.createElement(
+                'h3',
+                { className: 'title title-L color-white' },
+                'Panel'
+              ),
+              react_default.a.createElement(
+                'a',
+                { href: 'javascript:void(0);', className: 'side-panel-close' },
+                react_default.a.createElement('div', { className: 'change-my-store-icon-close icon color-white-svg', dangerouslySetInnerHTML: { __html: slide_out_panels_closeImage } })
+              ),
+              ' '
+            ),
+            react_default.a.createElement(
+              'div',
+              { className: 'side-panel-content' },
+              react_default.a.createElement(
+                'p',
+                null,
+                'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec fringilla dolor eget scelerisque lobortis. Nulla metus nisi, commodo et suscipit ac, venenatis ut magna. Nunc in venenatis mi, vitae placerat odio. Aenean est tellus, mollis sed tempus vel, egestas non urna. Suspendisse fringilla neque tincidunt, molestie diam non, facilisis ante. Quisque mattis commodo arcu vehicula lobortis. Cras lorem mauris, molestie ac gravida in, condimentum at enim. Aenean elementum, mauris ac convallis tempus, erat eros aliquam quam, ac sodales ligula mauris nec neque. Aliquam ut turpis lectus. Cras eget felis odio.'
+              )
+            )
+          )
+        ),
+        react_default.a.createElement(
+          'div',
+          { className: 'row' },
+          react_default.a.createElement(
+            'div',
+            { className: 'sm12 columns' },
+            react_default.a.createElement('hr', null),
+            react_default.a.createElement(
+              'p',
+              { className: 'S' },
+              'Created by: ',
+              react_default.a.createElement(
+                'strong',
+                null,
+                'Tony Stark'
+              ),
+              ' and ',
+              react_default.a.createElement(
+                'strong',
+                null,
+                'Bruce Banner'
+              ),
+              ' ',
+              react_default.a.createElement('br', null),
+              'Latest update: 04/05/2017'
+            )
+          )
+        )
+      );
+    }
+  }]);
+
+  return SlideOutPanels;
+}(react["Component"]);
+
+var slide_out_panels__default = slide_out_panels_SlideOutPanels;
+
+
+/* harmony default export */ var slide_out_panels = (slide_out_panels__default);
+;
+
+var slide_out_panels__temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(slide_out_panels_SlideOutPanels, 'SlideOutPanels', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/slide-out-panels/slide-out-panels.js');
+
+  __REACT_HOT_LOADER__.register(slide_out_panels__default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/slide-out-panels/slide-out-panels.js');
+}();
+
+;
+// CONCATENATED MODULE: ./src/js/components/slide-out-panels/index.js
+
+var components_slide_out_panels__default = slide_out_panels;
+/* harmony default export */ var components_slide_out_panels = (components_slide_out_panels__default);
+;
+
+var components_slide_out_panels__temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(components_slide_out_panels__default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/slide-out-panels/index.js');
 }();
 
 ;
@@ -15381,6 +15870,7 @@ function DesignSystemPage__inherits(subClass, superClass) { if (typeof superClas
 
 
 
+
 var DesignSystemPage_DesignSystemPage = function (_Component) {
   DesignSystemPage__inherits(DesignSystemPage, _Component);
 
@@ -15418,7 +15908,8 @@ var DesignSystemPage_DesignSystemPage = function (_Component) {
         Carousel: { componentElement: components_carousel, componentDisplayName: "Carousels", componentSubNav: ['Carousel'] },
         Header: { componentElement: components_header, componentDisplayName: "Header", componentSubNav: ['Header'] },
         Footer: { componentElement: components_footer, componentDisplayName: "Footer", componentSubNav: ['Footer'] },
-        Coupons: { componentElement: components_coupons, componentDisplayName: "Coupons", componentSubNav: ['Coupons'] }
+        Coupons: { componentElement: components_coupons, componentDisplayName: "Coupons", componentSubNav: ['Coupons'] },
+        SlideOutPanels: { componentElement: components_slide_out_panels, componentDisplayName: "Slide Out Panels", componentSubNav: ['Slide Out Panels'] }
 
       };
 
@@ -19847,6 +20338,9 @@ var Root_App = function (_React$Component) {
                                 } }),
                             react_default.a.createElement(es["d" /* Route */], { exact: true, path: '/page-modules/coupons', render: function render() {
                                     return react_default.a.createElement(containers_DesignSystemPage, { componentName: 'Coupons' });
+                                } }),
+                            react_default.a.createElement(es["d" /* Route */], { exact: true, path: '/page-modules/slide-out-panels', render: function render() {
+                                    return react_default.a.createElement(containers_DesignSystemPage, { componentName: 'SlideOutPanels' });
                                 } })
                         )
                     )
