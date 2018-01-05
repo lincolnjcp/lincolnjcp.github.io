@@ -47,3 +47,4 @@ Base Styles
 Page Modules
 --- */
 @import "../js/components/header/header";
+@import "../js/components/footer/footer";

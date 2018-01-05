@@ -25,6 +25,7 @@ import Carousel from '../components/carousel';
 import Coupons from '../components/coupons';
 
 import Header from '../components/header';
+import Footer from '../components/footer';
 
 import SubNav from './SubNav';
 
@@ -55,6 +56,7 @@ class DesignSystemPage extends Component {
    Selectors: {componentElement: Selectors, componentDisplayName: "Selectors", componentSubNav: ['Selectors']},
    Carousel: {componentElement: Carousel, componentDisplayName: "Carousels", componentSubNav: ['Carousel']},
    Header: {componentElement: Header, componentDisplayName: "Header", componentSubNav: ['Header']},
+   Footer: {componentElement: Footer, componentDisplayName: "Footer", componentSubNav: ['Footer']},
    Coupons: {componentElement: Coupons, componentDisplayName: "Coupons", componentSubNav: ['Coupons']}
 
   }

@@ -1184,8 +1184,8 @@ Base Styles
 
 @media (--viewport-md) {
     .design-system-inner-content {
-        padding-left: 50px;
-        padding-right: 50px;
+        padding-left: 32px;
+        padding-right: 32px;
     }
 }
 

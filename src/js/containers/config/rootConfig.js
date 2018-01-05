@@ -198,8 +198,8 @@ const rootNav = [
                 content: 'Find a Store',
             },
             {
-                to: '/',
-                activeClassName: 'inactive',
+                to: '/page-modules/footer',
+                activeClassName: 'active',
                 content: 'Footer',
             },
             {

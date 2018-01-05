@@ -1,0 +1,91 @@
+.footer-block {
+    border-top: 1px solid var(--color-concrete);
+    padding-top: 16px;
+    & .signup-block {
+        margin: 0 auto;
+        display: block;
+        & .signup-label {
+            font-weight: bold;
+            font-size: 14px;
+            padding: 0 0 4px 4px;
+        }
+        & .apply-btn {
+            position: absolute;
+            right: 0;
+            height: 47px;
+            line-height: 47px;
+            border-radius: 0 8px 8px 0;
+        }
+        & .footer-terms {
+            font-size: 10px;
+            position: absolute;
+            left: 2px;
+            bottom: -16px;
+        }
+        & .input-form {
+            & .css-float-label {
+                & label {
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+    
+    & .contact-list {
+        padding: 0;
+        & ul {
+            margin-top: 16px;
+            & li{
+                display: inline;
+                padding-right: 16px;
+                & a {
+                    font-size: 12px;
+                }
+                & .icon {
+                    position: relative;
+                    top: 18px;
+                }
+            }
+        }
+    }
+
+    & .social-connect {
+        padding: 0;
+        & ul {
+            margin-top: 16px;
+            float: right;
+            & li{
+                display: inline;
+                padding-right: 12px;
+                font-weight: bold;
+                font-size: 14px;
+                & .icon {
+                    position: relative;
+                    top: 18px;
+                }
+            }
+        }
+    }
+    & .footer-links {
+        border-top: 1px solid var(--color-concrete);
+        border-bottom: 1px solid var(--color-concrete);
+        margin-top: 32px;
+        padding: 16px 0;
+        & ul {
+            float: left;
+            width: 20%;
+            & li {
+                & a{
+                    font-size: 12px;
+                    line-height: 40px;
+                    text-decoration: none;
+                }
+            }
+            & .footer-links-title {
+                font-size: 14px;
+                font-weight: bold;
+                line-height: 18px;
+            }
+        }
+    }
+}
