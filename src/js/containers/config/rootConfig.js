@@ -63,8 +63,8 @@ const rootNav = [
                 content: 'Apply Coupons',
             },
             {
-                to: '/',
-                activeClassName: 'inactive',
+                to: '/components/pagination',
+                activeClassName: 'active',
                 content: 'Back to Top',
             },
             {
@@ -73,8 +73,8 @@ const rootNav = [
                 content: 'Badges',
             },
             {
-                to: '/',
-                activeClassName: 'inactive',
+                to: '/components/pagination',
+                activeClassName: 'active',
                 content: 'Breadcrumbs',
             },
             {

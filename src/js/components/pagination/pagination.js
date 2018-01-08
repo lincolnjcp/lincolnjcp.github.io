@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+const BackToTopImage = require('!!raw-loader?es5=1!../../../images/global/icons/nav/back-to-top.svg');
+
 class Pagination extends Component {
 
   componentDidMount() {
@@ -63,6 +65,20 @@ class Pagination extends Component {
                 <li class="pagination-next" aria-label="Next"></li>
               </ul>
             </div>
+          </div>
+          <div className="breadcrumbs-block">
+              <h1 class="title title-XL mrg-L">Breadcrumbs</h1>
+              <ul className="breadcrumbs">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Clothing</a></li>
+                <li>Dresses</li>
+              </ul>
+          </div><br/><br/><br/>
+          <div className="back-to-top-block">
+              <h1 class="title title-XL mrg-L">Back to Top</h1>
+              <div className="back-to-top">
+                <span className="icon color-shadow-svg" dangerouslySetInnerHTML={{__html: BackToTopImage}} />
+              </div>
           </div>
         </div>
       </div>
