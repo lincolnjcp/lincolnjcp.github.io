@@ -444,7 +444,7 @@ module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1
 /***/ "FAZD":
 /***/ (function(module, exports) {
 
-module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"icon_x2F_Nav_x2F_arrow-left-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"icon_x2F_Nav_x2F_arrow-left-path-1_1_\" style=\"fill:#111111;\" d=\"M12.4,23l10.3-9.5c0.4-0.4,0.4-0.9,0-1.3\r\n\tc-0.4-0.4-1-0.4-1.4,0l-12,11.1c-0.4,0.4-0.4,0.9,0,1.3l12,11.1c0.4,0.4,1,0.4,1.4,0s0.4-0.9,0-1.3l-10.3-9.6H38c0.6,0,1-0.4,1-0.9\r\n\tS38.6,23,38,23C38,23,12.4,23,12.4,23z\"/>\r\n</svg>\r\n"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"icon_x2F_Nav_x2F_arrow-left-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"icon_x2F_Nav_x2F_arrow-left-path-1_1_\" style=\"fill:#FFF;\" d=\"M12.4,23l10.3-9.5c0.4-0.4,0.4-0.9,0-1.3\r\n\tc-0.4-0.4-1-0.4-1.4,0l-12,11.1c-0.4,0.4-0.4,0.9,0,1.3l12,11.1c0.4,0.4,1,0.4,1.4,0s0.4-0.9,0-1.3l-10.3-9.6H38c0.6,0,1-0.4,1-0.9\r\n\tS38.6,23,38,23C38,23,12.4,23,12.4,23z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
@@ -646,16 +646,16 @@ var rootNav = [{
         activeClassName: 'inactive',
         content: 'Apply Coupons'
     }, {
-        to: '/',
-        activeClassName: 'inactive',
+        to: '/components/pagination',
+        activeClassName: 'active',
         content: 'Back to Top'
     }, {
         to: '/components/badges',
         activeClassName: 'active',
         content: 'Badges'
     }, {
-        to: '/',
-        activeClassName: 'inactive',
+        to: '/components/pagination',
+        activeClassName: 'active',
         content: 'Breadcrumbs'
     }, {
         to: '/components/carousels',
@@ -10843,6 +10843,8 @@ function pagination__inherits(subClass, superClass) { if (typeof superClass !== 
 
 
 
+var BackToTopImage = __webpack_require__("om3C");
+
 var pagination_Pagination = function (_Component) {
   pagination__inherits(Pagination, _Component);
 
@@ -10853,204 +10855,257 @@ var pagination_Pagination = function (_Component) {
   }
 
   pagination__createClass(Pagination, [{
-    key: "componentDidMount",
+    key: 'componentDidMount',
     value: function componentDidMount() {}
   }, {
-    key: "render",
+    key: 'render',
     value: function render() {
       return react_default.a.createElement(
-        "div",
+        'div',
         null,
         react_default.a.createElement(
-          "div",
-          { className: "row" },
+          'div',
+          { className: 'row' },
           react_default.a.createElement(
-            "div",
-            { className: "paginiation-block" },
+            'div',
+            { className: 'paginiation-block' },
             react_default.a.createElement(
-              "h1",
-              { "class": "title title-XL mrg-L" },
-              "Pagination"
+              'h1',
+              { 'class': 'title title-XL mrg-L' },
+              'Pagination'
             ),
             react_default.a.createElement(
-              "div",
-              { className: "pagination mrg-XXL" },
+              'div',
+              { className: 'pagination mrg-XXL' },
               react_default.a.createElement(
-                "p",
-                { className: "std-txt-label" },
-                "Selected"
+                'p',
+                { className: 'std-txt-label' },
+                'Selected'
               ),
               react_default.a.createElement(
-                "ul",
+                'ul',
                 null,
-                react_default.a.createElement("li", { "class": "pagination-prev hidden", "aria-label": "Prev" }),
+                react_default.a.createElement('li', { 'class': 'pagination-prev hidden', 'aria-label': 'Prev' }),
                 react_default.a.createElement(
-                  "li",
-                  { className: "pagination-lbl pagination-active" },
-                  "1"
+                  'li',
+                  { className: 'pagination-lbl pagination-active' },
+                  '1'
                 ),
                 react_default.a.createElement(
-                  "li",
-                  { className: "pagination-lbl" },
-                  "2"
+                  'li',
+                  { className: 'pagination-lbl' },
+                  '2'
                 ),
                 react_default.a.createElement(
-                  "li",
-                  { className: "pagination-lbl" },
-                  "3"
+                  'li',
+                  { className: 'pagination-lbl' },
+                  '3'
                 ),
                 react_default.a.createElement(
-                  "li",
-                  { className: "pagination-lbl" },
-                  "4"
+                  'li',
+                  { className: 'pagination-lbl' },
+                  '4'
                 ),
                 react_default.a.createElement(
-                  "li",
-                  { "class": "pagination-elipsis" },
-                  "..."
+                  'li',
+                  { 'class': 'pagination-elipsis' },
+                  '...'
                 ),
                 react_default.a.createElement(
-                  "li",
-                  { "class": "pagination-lbl" },
-                  "99"
+                  'li',
+                  { 'class': 'pagination-lbl' },
+                  '99'
                 ),
-                react_default.a.createElement("li", { "class": "pagination-next", "aria-label": "Next" })
+                react_default.a.createElement('li', { 'class': 'pagination-next', 'aria-label': 'Next' })
               )
             ),
             react_default.a.createElement(
-              "div",
-              { className: "pagination mrg-XXL" },
+              'div',
+              { className: 'pagination mrg-XXL' },
               react_default.a.createElement(
-                "p",
-                { className: "std-txt-label" },
-                "On Hover"
+                'p',
+                { className: 'std-txt-label' },
+                'On Hover'
               ),
               react_default.a.createElement(
-                "ul",
+                'ul',
                 null,
-                react_default.a.createElement("li", { "class": "pagination-prev hidden", "aria-label": "Prev" }),
+                react_default.a.createElement('li', { 'class': 'pagination-prev hidden', 'aria-label': 'Prev' }),
                 react_default.a.createElement(
-                  "li",
-                  { className: "pagination-lbl pagination-active" },
-                  "1"
+                  'li',
+                  { className: 'pagination-lbl pagination-active' },
+                  '1'
                 ),
                 react_default.a.createElement(
-                  "li",
-                  { className: "pagination-lbl hover" },
-                  "2"
+                  'li',
+                  { className: 'pagination-lbl hover' },
+                  '2'
                 ),
                 react_default.a.createElement(
-                  "li",
-                  { className: "pagination-lbl" },
-                  "3"
+                  'li',
+                  { className: 'pagination-lbl' },
+                  '3'
                 ),
                 react_default.a.createElement(
-                  "li",
-                  { className: "pagination-lbl" },
-                  "4"
+                  'li',
+                  { className: 'pagination-lbl' },
+                  '4'
                 ),
                 react_default.a.createElement(
-                  "li",
-                  { "class": "pagination-elipsis" },
-                  "..."
+                  'li',
+                  { 'class': 'pagination-elipsis' },
+                  '...'
                 ),
                 react_default.a.createElement(
-                  "li",
-                  { "class": "pagination-lbl" },
-                  "99"
+                  'li',
+                  { 'class': 'pagination-lbl' },
+                  '99'
                 ),
-                react_default.a.createElement("li", { "class": "pagination-next", "aria-label": "Next" })
+                react_default.a.createElement('li', { 'class': 'pagination-next', 'aria-label': 'Next' })
               )
             ),
             react_default.a.createElement(
-              "div",
-              { className: "pagination mrg-XXL" },
+              'div',
+              { className: 'pagination mrg-XXL' },
               react_default.a.createElement(
-                "p",
-                { className: "std-txt-label" },
-                "Other pages selected"
+                'p',
+                { className: 'std-txt-label' },
+                'Other pages selected'
               ),
               react_default.a.createElement(
-                "ul",
+                'ul',
                 null,
-                react_default.a.createElement("li", { "class": "pagination-prev", "aria-label": "Prev" }),
+                react_default.a.createElement('li', { 'class': 'pagination-prev', 'aria-label': 'Prev' }),
                 react_default.a.createElement(
-                  "li",
-                  { className: "pagination-lbl" },
-                  "1"
+                  'li',
+                  { className: 'pagination-lbl' },
+                  '1'
                 ),
                 react_default.a.createElement(
-                  "li",
-                  { className: "pagination-lbl" },
-                  "2"
+                  'li',
+                  { className: 'pagination-lbl' },
+                  '2'
                 ),
                 react_default.a.createElement(
-                  "li",
-                  { className: "pagination-lbl pagination-active" },
-                  "3"
+                  'li',
+                  { className: 'pagination-lbl pagination-active' },
+                  '3'
                 ),
                 react_default.a.createElement(
-                  "li",
-                  { className: "pagination-lbl" },
-                  "4"
+                  'li',
+                  { className: 'pagination-lbl' },
+                  '4'
                 ),
                 react_default.a.createElement(
-                  "li",
-                  { "class": "pagination-elipsis" },
-                  "..."
+                  'li',
+                  { 'class': 'pagination-elipsis' },
+                  '...'
                 ),
                 react_default.a.createElement(
-                  "li",
-                  { "class": "pagination-lbl" },
-                  "99"
+                  'li',
+                  { 'class': 'pagination-lbl' },
+                  '99'
                 ),
-                react_default.a.createElement("li", { "class": "pagination-next", "aria-label": "Next" })
+                react_default.a.createElement('li', { 'class': 'pagination-next', 'aria-label': 'Next' })
               )
             ),
             react_default.a.createElement(
-              "div",
-              { className: "pagination mrg-XXL" },
+              'div',
+              { className: 'pagination mrg-XXL' },
               react_default.a.createElement(
-                "p",
-                { className: "std-txt-label" },
-                "s"
+                'p',
+                { className: 'std-txt-label' },
+                's'
               ),
               react_default.a.createElement(
-                "ul",
+                'ul',
                 null,
-                react_default.a.createElement("li", { "class": "pagination-prev", "aria-label": "Prev" }),
+                react_default.a.createElement('li', { 'class': 'pagination-prev', 'aria-label': 'Prev' }),
                 react_default.a.createElement(
-                  "li",
-                  { className: "pagination-lbl" },
-                  "1"
+                  'li',
+                  { className: 'pagination-lbl' },
+                  '1'
                 ),
                 react_default.a.createElement(
-                  "li",
-                  { className: "pagination-lbl pagination-active" },
-                  "2"
+                  'li',
+                  { className: 'pagination-lbl pagination-active' },
+                  '2'
                 ),
                 react_default.a.createElement(
-                  "li",
-                  { className: "pagination-lbl" },
-                  "3"
+                  'li',
+                  { className: 'pagination-lbl' },
+                  '3'
                 ),
                 react_default.a.createElement(
-                  "li",
-                  { className: "pagination-lbl" },
-                  "4"
+                  'li',
+                  { className: 'pagination-lbl' },
+                  '4'
                 ),
                 react_default.a.createElement(
-                  "li",
-                  { "class": "pagination-elipsis" },
-                  "..."
+                  'li',
+                  { 'class': 'pagination-elipsis' },
+                  '...'
                 ),
                 react_default.a.createElement(
-                  "li",
-                  { "class": "pagination-lbl" },
-                  "99"
+                  'li',
+                  { 'class': 'pagination-lbl' },
+                  '99'
                 ),
-                react_default.a.createElement("li", { "class": "pagination-next", "aria-label": "Next" })
+                react_default.a.createElement('li', { 'class': 'pagination-next', 'aria-label': 'Next' })
               )
+            )
+          ),
+          react_default.a.createElement(
+            'div',
+            { className: 'breadcrumbs-block' },
+            react_default.a.createElement(
+              'h1',
+              { 'class': 'title title-XL mrg-L' },
+              'Breadcrumbs'
+            ),
+            react_default.a.createElement(
+              'ul',
+              { className: 'breadcrumbs' },
+              react_default.a.createElement(
+                'li',
+                null,
+                react_default.a.createElement(
+                  'a',
+                  { href: '#' },
+                  'Home'
+                )
+              ),
+              react_default.a.createElement(
+                'li',
+                null,
+                react_default.a.createElement(
+                  'a',
+                  { href: '#' },
+                  'Clothing'
+                )
+              ),
+              react_default.a.createElement(
+                'li',
+                null,
+                'Dresses'
+              )
+            )
+          ),
+          react_default.a.createElement('br', null),
+          react_default.a.createElement('br', null),
+          react_default.a.createElement('br', null),
+          react_default.a.createElement(
+            'div',
+            { className: 'back-to-top-block' },
+            react_default.a.createElement(
+              'h1',
+              { 'class': 'title title-XL mrg-L' },
+              'Back to Top'
+            ),
+            react_default.a.createElement(
+              'div',
+              { className: 'back-to-top' },
+              react_default.a.createElement('span', { className: 'icon color-shadow-svg', dangerouslySetInnerHTML: { __html: BackToTopImage } })
             )
           )
         )
@@ -11072,9 +11127,9 @@ var pagination__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(pagination_Pagination, "Pagination", "C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/pagination/pagination.js");
+  __REACT_HOT_LOADER__.register(pagination_Pagination, 'Pagination', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/pagination/pagination.js');
 
-  __REACT_HOT_LOADER__.register(pagination__default, "default", "C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/pagination/pagination.js");
+  __REACT_HOT_LOADER__.register(pagination__default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/pagination/pagination.js');
 }();
 
 ;
@@ -14036,20 +14091,16 @@ var header_Header = function (_Component) {
           { className: 'main-menu-tier2-ul' },
           react_default.a.createElement(
             'li',
-            { className: 'main-menu-tier2-li main-menu-tier2-li-menu-header' },
+            { className: 'main-menu-secondary-hidden-lg-up' },
             react_default.a.createElement(
-              'div',
-              { className: 'main-menu-md-panel-header' },
+              'span',
+              { className: 'main-menu-tier1-link' },
               react_default.a.createElement(
-                'a',
-                { href: 'javascript:void(0);', className: 'tier2-close' },
-                'Departments'
+                'span',
+                { className: 'main-menu-tier1-link-thumb' },
+                react_default.a.createElement('img', { src: linkSet.thumb, alt: '' })
               ),
-              react_default.a.createElement(
-                'a',
-                { href: 'javascript:void(0);', className: 'side-panel-close' },
-                react_default.a.createElement('div', { className: 'change-my-store-icon-close icon color-white-svg', dangerouslySetInnerHTML: { __html: header_closeImage } })
-              )
+              linkSet.name
             )
           ),
           linkSet.subLinks.map(function (link, index) {
@@ -14157,19 +14208,22 @@ var header_Header = function (_Component) {
           }
           jquery_default()(".main-menu-secondary-li").addClass("main-menu-secondary-hover");
         },
-        timeout: 800,
+        timeout: 400,
         interval: 100,
         out: function out() {
-          jquery_default()(".main-menu-secondary-li").removeClass("main-menu-secondary-hover");
-          jquery_default()("#mainMenusecondaryLightBox").remove();
+          //   $(".main-menu-secondary-li").removeClass("main-menu-secondary-hover");
+          //  $("#mainMenusecondaryLightBox").remove();
+          //$('.main-menu-tier1').removeClass('active-tier2').removeClass('active-tier3')
         }
       });
 
       jquery_default()(".main-menu-tier1-li").hoverIntent({
         over: function over() {
+          jquery_default()(".main-menu-tier1-li").removeClass('active');
           jquery_default()(this).addClass("active");
           jquery_default()(".main-menu-tier2-li.active").removeClass('active');
-          jquery_default()(this).closest('.main-menu-tier1').addClass('active-tier2');
+          jquery_default()(".main-menu-tier2-li.to-activate").removeClass('to-activate');
+          jquery_default()(this).closest('.main-menu-tier1').addClass('active-tier2').removeClass('active-tier3');
         },
         timeout: 200,
         interval: 100,
@@ -14180,16 +14234,26 @@ var header_Header = function (_Component) {
 
       jquery_default()(".main-menu-tier2-li").hoverIntent({
         over: function over() {
-          if (jquery_default()(".main-menu-tier2-li.active").length >= 1) {
+          jquery_default()('.to-activate').removeClass('to-activate');
+          if (jquery_default()(this).closest('.main-menu-tier1').hasClass('active-tier3')) {
             jquery_default()(".main-menu-tier2-li.active").removeClass('active');
+            jquery_default()(this).addClass("active");
+          } else {
+            jquery_default()(this).addClass("to-activate");
+            jquery_default()(".main-menu-tier2-li.active").removeClass('active');
+            setTimeout(function () {
+              if (jquery_default()('.to-activate').length > 0) {
+                jquery_default()(".main-menu-tier2-li.active").removeClass('active');
+                jquery_default()('.to-activate').removeClass('to-activate').addClass('active');
+              }
+            }, 200);
           }
-          jquery_default()(this).addClass("active");
+
           jquery_default()(this).closest('.main-menu-tier1').addClass('active-tier3');
         },
         timeout: 200,
         interval: 100,
         out: function out() {
-          jquery_default()(this).closest('.main-menu-tier2-li').removeClass('active');
           if (jquery_default()(".main-menu-tier2-li.active").length < 1) {
             jquery_default()(this).closest('.main-menu-tier1').removeClass('active-tier3');
           }
@@ -14211,9 +14275,10 @@ var header_Header = function (_Component) {
 
       jquery_default()(".main-menu-tier1-link").unbind('click').on('click', function (event) {
         event.preventDefault();
+        jquery_default()('.main-menu-tier2-ul.tier2-click').removeClass('tier2-click');
         jquery_default()(this).closest('.main-menu-tier1-li').find('.main-menu-tier2-ul').addClass('tier2-click');
         jquery_default()('.side-panel-content').animate({ scrollTop: 0 }, { duration: 200 });
-        jquery_default()('.side-panel-container-inner-container').addClass('tier2-open');
+        jquery_default()('.side-panel-container').addClass('tier2-open');
       });
 
       jquery_default()(".main-menu-tier2-link").unbind('click').on('click', function (event) {
@@ -14235,21 +14300,22 @@ var header_Header = function (_Component) {
           jquery_default()('.tier2-click-remove').removeClass('tier2-click-remove').removeClass('tier2-click');
         }, 400);
 
-        jquery_default()('.side-panel-container-inner-container').removeClass('tier2-open');
+        jquery_default()('.side-panel-container').removeClass('tier2-open');
       });
 
       jquery_default()(".main-menu-md-panel-btn").unbind('click').on('click', function (event) {
         event.preventDefault();
+        jquery_default()('.main-menu-tier2-ul.tier2-click').removeClass('tier2-click');
         jquery_default()(this).closest('.main-menu-md-panel-li').find('.main-menu-md-panel').addClass('tier2-click');
-        jquery_default()('.side-panel-content').animate({ scrollTop: 0 }, { duration: 200 });
-        jquery_default()('.side-panel-container-inner-container').addClass('tier2-open');
+        jquery_default()('.side-panel-content').animate({ scrollTop: 0 }, { duration: 1 });
+        jquery_default()('.side-panel-container').addClass('tier2-open');
       });
 
       jquery_default()(".main-menu-reset").on('click', function (event) {
         event.preventDefault();
         jquery_default()('.main-menu-tier2-ul.tier2-click').addClass('tier2-click');
         jquery_default()('.main-menu-md-panel.tier2-click').addClass('tier2-click');
-        jquery_default()('.side-panel-container-inner-container').removeClass('tier2-open');
+        jquery_default()('.side-panel-container').removeClass('tier2-open');
       });
 
       jquery_default()('.expand-collapse-btn').unbind('click').on('click', function (event) {
@@ -14558,22 +14624,27 @@ var header_Header = function (_Component) {
                 'div',
                 { className: 'side-panel-container' },
                 react_default.a.createElement(
+                  'header',
+                  { className: 'side-panel-header' },
+                  react_default.a.createElement(
+                    'h3',
+                    { className: 'title title-L color-white side-panel-headline' },
+                    'Menu'
+                  ),
+                  react_default.a.createElement(
+                    'a',
+                    { href: 'javascript:void(0);', className: 'title title-L color-white tier2-close' },
+                    'Departments'
+                  ),
+                  react_default.a.createElement(
+                    'a',
+                    { href: 'javascript:void(0);', className: 'side-panel-close main-menu-reset' },
+                    react_default.a.createElement('div', { className: 'change-my-store-icon-close icon color-white-svg', dangerouslySetInnerHTML: { __html: header_closeImage } })
+                  )
+                ),
+                react_default.a.createElement(
                   'div',
                   { className: 'side-panel-container-inner-container' },
-                  react_default.a.createElement(
-                    'header',
-                    { className: 'side-panel-header' },
-                    react_default.a.createElement(
-                      'h3',
-                      { className: 'title title-L color-white' },
-                      'Menu'
-                    ),
-                    react_default.a.createElement(
-                      'a',
-                      { href: 'javascript:void(0);', className: 'side-panel-close main-menu-reset' },
-                      react_default.a.createElement('div', { className: 'change-my-store-icon-close icon color-white-svg', dangerouslySetInnerHTML: { __html: header_closeImage } })
-                    )
-                  ),
                   react_default.a.createElement(
                     'div',
                     { className: 'side-panel-content' },
@@ -14610,7 +14681,7 @@ var header_Header = function (_Component) {
                                   null,
                                   react_default.a.createElement(
                                     'a',
-                                    { href: 'javascript:void(0);', className: 'main-menu-tier1-button-md-down main-menu-md-primary' },
+                                    { href: 'javascript:void(0);', className: 'main-menu-tier1-button-md-down main-menu-md-primary main-menu-md-primary-no-arrow' },
                                     react_default.a.createElement(
                                       'strong',
                                       null,
@@ -14634,20 +14705,6 @@ var header_Header = function (_Component) {
                                   react_default.a.createElement(
                                     'div',
                                     { className: 'main-menu-md-panel' },
-                                    react_default.a.createElement(
-                                      'div',
-                                      { className: 'main-menu-md-panel-header' },
-                                      react_default.a.createElement(
-                                        'a',
-                                        { href: 'javascript:void(0);', className: 'tier2-close' },
-                                        'Departments'
-                                      ),
-                                      react_default.a.createElement(
-                                        'a',
-                                        { href: 'javascript:void(0);', className: 'side-panel-close main-menu-reset' },
-                                        react_default.a.createElement('div', { className: 'change-my-store-icon-close icon color-white-svg', dangerouslySetInnerHTML: { __html: header_closeImage } })
-                                      )
-                                    ),
                                     this.changeMyStoreContent()
                                   )
                                 )
@@ -14829,6 +14886,33 @@ var header_Header = function (_Component) {
                           ),
                           react_default.a.createElement(
                             'li',
+                            { className: 'main-menu-secondary-li main-menu-secondary-li-primary main-menu-secondary-hidden-lg-up' },
+                            react_default.a.createElement(
+                              'a',
+                              { href: 'javascript:void(0)', className: 'main-menu-md-primary' },
+                              'Track Order'
+                            )
+                          ),
+                          react_default.a.createElement(
+                            'li',
+                            { className: 'main-menu-secondary-li main-menu-secondary-li-primary main-menu-secondary-hidden-lg-up' },
+                            react_default.a.createElement(
+                              'a',
+                              { href: 'javascript:void(0)', className: 'main-menu-md-primary' },
+                              'JCPenney Credit Card'
+                            )
+                          ),
+                          react_default.a.createElement(
+                            'li',
+                            { className: 'main-menu-secondary-li main-menu-secondary-li-primary main-menu-secondary-hidden-lg-up' },
+                            react_default.a.createElement(
+                              'a',
+                              { href: 'javascript:void(0)', className: 'main-menu-md-primary' },
+                              'Rewards'
+                            )
+                          ),
+                          react_default.a.createElement(
+                            'li',
                             { className: 'main-menu-secondary-li main-menu-secondary-li-primary' },
                             react_default.a.createElement(
                               'a',
@@ -14838,11 +14922,47 @@ var header_Header = function (_Component) {
                           ),
                           react_default.a.createElement(
                             'li',
+                            { className: 'main-menu-secondary-li main-menu-secondary-li-primary main-menu-secondary-hidden-lg-up' },
+                            react_default.a.createElement(
+                              'a',
+                              { href: 'javascript:void(0)', className: 'main-menu-md-primary' },
+                              'Gift Registry'
+                            )
+                          ),
+                          react_default.a.createElement(
+                            'li',
+                            { className: 'main-menu-secondary-li main-menu-secondary-li-primary main-menu-secondary-hidden-lg-up' },
+                            react_default.a.createElement(
+                              'a',
+                              { href: 'javascript:void(0)', className: 'main-menu-md-primary' },
+                              'My jcpenney.com'
+                            )
+                          ),
+                          react_default.a.createElement(
+                            'li',
+                            { className: 'main-menu-secondary-li main-menu-secondary-li-primary main-menu-secondary-hidden-lg-up' },
+                            react_default.a.createElement(
+                              'a',
+                              { href: 'javascript:void(0)', className: 'main-menu-md-primary' },
+                              'Clearance'
+                            )
+                          ),
+                          react_default.a.createElement(
+                            'li',
                             { className: 'main-menu-secondary-li main-menu-secondary-li-primary main-menu-secondary-li-highlight' },
                             react_default.a.createElement(
                               'a',
                               { href: 'javascript:void(0)', className: 'main-menu-md-primary' },
                               'Coupons'
+                            )
+                          ),
+                          react_default.a.createElement(
+                            'li',
+                            { className: 'main-menu-secondary-li main-menu-secondary-li-primary main-menu-secondary-hidden-lg-up' },
+                            react_default.a.createElement(
+                              'a',
+                              { href: 'javascript:void(0)', className: 'main-menu-md-primary' },
+                              'Sign Out'
                             )
                           )
                         )

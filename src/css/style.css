@@ -11,7 +11,7 @@ Base Styles
 @import "base/reset";
 @import "../js/components/typography/typography";
 @import "../js/components/color/color";
-@import "base/breadcrumbs";
+/*@import "base/breadcrumbs";*/
 @import "../js/components/buttons/buttons";
 @import "../js/components/badges/badges";
 @import "base/forms";

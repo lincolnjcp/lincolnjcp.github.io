@@ -256,21 +256,13 @@ class Header extends Component {
         <li className="main-menu-tier1-li">
           <a href="javascript:void(0)" className="main-menu-tier1-link"><span className="main-menu-tier1-link-thumb"><img src={linkSet.thumb} alt="" /></span>{linkSet.name}</a>
           <ul className="main-menu-tier2-ul">
-            <li className="main-menu-tier2-li main-menu-tier2-li-menu-header">
-              <div className="main-menu-md-panel-header">
-                <a href="javascript:void(0);" className="tier2-close">
-                  Departments
-                </a>
-                <a href="javascript:void(0);" className="side-panel-close">
-                  <div className="change-my-store-icon-close icon color-white-svg" dangerouslySetInnerHTML={{__html: closeImage}} />
-                </a>
-              </div>
-            </li>
+            <li className="main-menu-secondary-hidden-lg-up"><span className="main-menu-tier1-link"><span className="main-menu-tier1-link-thumb"><img src={linkSet.thumb} alt="" /></span>{linkSet.name}</span></li>
             {linkSet.subLinks.map((link, index) => {
               return (
                 <li key={index} className="main-menu-tier2-li"><a href="javascript:void(0)" className="main-menu-tier2-link">
                   {link.name}</a>
-                  <ul className="main-menu-tier3-ul">       
+                  <ul className="main-menu-tier3-ul">
+                           
                     {link.sublinks2.map(function(name, index){
                       return <li key={ index } className="main-menu-tier3-li"><a href="javascript:void(0)" className="main-menu-tier3-link">{name}</a></li>;
                     })}
@@ -326,20 +318,23 @@ class Header extends Component {
                 }
                 $(".main-menu-secondary-li").addClass("main-menu-secondary-hover");
             },
-            timeout: 800,
+            timeout: 400,
             interval: 100,
             out: function() {
-                $(".main-menu-secondary-li").removeClass("main-menu-secondary-hover");
-                $("#mainMenusecondaryLightBox").remove();
+             //   $(".main-menu-secondary-li").removeClass("main-menu-secondary-hover");
+              //  $("#mainMenusecondaryLightBox").remove();
+                //$('.main-menu-tier1').removeClass('active-tier2').removeClass('active-tier3')
             }
         });
 
 
         $(".main-menu-tier1-li").hoverIntent({
             over: function() {
+                $(".main-menu-tier1-li").removeClass('active');
                 $(this).addClass("active");
                 $(".main-menu-tier2-li.active").removeClass('active');
-                $(this).closest('.main-menu-tier1').addClass('active-tier2');
+                $(".main-menu-tier2-li.to-activate").removeClass('to-activate');
+                $(this).closest('.main-menu-tier1').addClass('active-tier2').removeClass('active-tier3');
             },
             timeout: 200,
             interval: 100,
@@ -350,16 +345,26 @@ class Header extends Component {
 
         $(".main-menu-tier2-li").hoverIntent({
             over: function() {
-                if($(".main-menu-tier2-li.active").length >= 1) {
+                $('.to-activate').removeClass('to-activate');
+                if($(this).closest('.main-menu-tier1').hasClass('active-tier3')) {
                   $(".main-menu-tier2-li.active").removeClass('active');
+                  $(this).addClass("active");
+                } else {
+                  $(this).addClass("to-activate");
+                  $(".main-menu-tier2-li.active").removeClass('active');
+                  setTimeout(function(){
+                    if($('.to-activate').length > 0){
+                      $(".main-menu-tier2-li.active").removeClass('active');
+                      $('.to-activate').removeClass('to-activate').addClass('active');
+                    }
+                }, 200);
                 }
-                $(this).addClass("active");
+                
                 $(this).closest('.main-menu-tier1').addClass('active-tier3');
             },
             timeout: 200,
             interval: 100,
             out: function() {
-                $(this).closest('.main-menu-tier2-li').removeClass('active');
                 if($(".main-menu-tier2-li.active").length < 1) {
                   $(this).closest('.main-menu-tier1').removeClass('active-tier3');
                 }
@@ -381,9 +386,10 @@ class Header extends Component {
 
         $(".main-menu-tier1-link").unbind('click').on('click', function(event){
           event.preventDefault();
+          $('.main-menu-tier2-ul.tier2-click').removeClass('tier2-click');
           $(this).closest('.main-menu-tier1-li').find('.main-menu-tier2-ul').addClass('tier2-click');
           $('.side-panel-content').animate({ scrollTop: 0 }, { duration: 200 });
-          $('.side-panel-container-inner-container').addClass('tier2-open');
+          $('.side-panel-container').addClass('tier2-open');
         });
 
         $(".main-menu-tier2-link").unbind('click').on('click', function(event){
@@ -405,21 +411,22 @@ class Header extends Component {
             $('.tier2-click-remove').removeClass('tier2-click-remove').removeClass('tier2-click');
           }, 400);
 
-          $('.side-panel-container-inner-container').removeClass('tier2-open');
+          $('.side-panel-container').removeClass('tier2-open');
         });
 
         $(".main-menu-md-panel-btn").unbind('click').on('click', function(event){
           event.preventDefault();
+          $('.main-menu-tier2-ul.tier2-click').removeClass('tier2-click');
           $(this).closest('.main-menu-md-panel-li').find('.main-menu-md-panel').addClass('tier2-click');
-          $('.side-panel-content').animate({ scrollTop: 0 }, { duration: 200 });
-          $('.side-panel-container-inner-container').addClass('tier2-open');
+          $('.side-panel-content').animate({ scrollTop: 0 }, { duration: 1 });
+          $('.side-panel-container').addClass('tier2-open');
         });
 
         $(".main-menu-reset").on('click', function(event){
           event.preventDefault();
            $('.main-menu-tier2-ul.tier2-click').addClass('tier2-click');
            $('.main-menu-md-panel.tier2-click').addClass('tier2-click');
-           $('.side-panel-container-inner-container').removeClass('tier2-open');
+           $('.side-panel-container').removeClass('tier2-open');
         });
 
 
@@ -574,13 +581,18 @@ class Header extends Component {
     <div className="side-panel side-panel-disable-desktop from-left main-menu-bar-secondary-panel" id="mainMenusecondary">
       
       <div className="side-panel-container">
-        <div className="side-panel-container-inner-container">
-        <header className="side-panel-header">
-          <h3 className="title title-L color-white">Menu</h3>
+      <header className="side-panel-header">
+          <h3 className="title title-L color-white side-panel-headline">Menu</h3>
+          <a href="javascript:void(0);" className="title title-L color-white tier2-close">
+            Departments
+          </a>
           <a href="javascript:void(0);" className="side-panel-close main-menu-reset">
             <div className="change-my-store-icon-close icon color-white-svg" dangerouslySetInnerHTML={{__html: closeImage}} />
           </a>
+
         </header>
+        <div className="side-panel-container-inner-container">
+        
         <div className="side-panel-content">
           <div className="main-menu-bar-secondary-container">
             <div className="main-menu-secondary-left">
@@ -593,19 +605,11 @@ class Header extends Component {
                   <div className="main-menu-tier1">
                   <ul className="main-menu-md-down">
                     <li>
-                      <a href="javascript:void(0);" className="main-menu-tier1-button-md-down main-menu-md-primary"><strong>Sign in or Create an Account</strong></a>
+                      <a href="javascript:void(0);" className="main-menu-tier1-button-md-down main-menu-md-primary main-menu-md-primary-no-arrow"><strong>Sign in or Create an Account</strong></a>
                     </li>
                     <li className="main-menu-md-panel-li">
                       <a href="javascript:void(0);" className="main-menu-tier1-button-md-down main-menu-md-primary main-menu-md-panel-btn"><strong>My Store:</strong> Colin Creek Mall</a>
-                      <div className="main-menu-md-panel">
-                        <div className="main-menu-md-panel-header">
-                          <a href="javascript:void(0);" className="tier2-close">
-                            Departments
-                          </a>
-                          <a href="javascript:void(0);" className="side-panel-close main-menu-reset">
-                            <div className="change-my-store-icon-close icon color-white-svg" dangerouslySetInnerHTML={{__html: closeImage}} />
-                          </a>
-                        </div>
+                      <div className="main-menu-md-panel">                        
                         {this.changeMyStoreContent()} 
                       </div>
                     </li>
@@ -867,6 +871,7 @@ class Header extends Component {
                   </ul>
                   </div>
                 </li>
+
                 <li className="main-menu-secondary-li main-menu-secondary-li-primary main-menu-secondary-hidden-md-down">
                   <a href="javascript:void(0)">Same Day Pickup</a>
                 </li>
@@ -876,11 +881,32 @@ class Header extends Component {
                 <li className="main-menu-secondary-li main-menu-secondary-li-primary main-menu-secondary-hidden-md-down">
                   <a href="javascript:void(0)">Toys</a>
                 </li>
+                <li className="main-menu-secondary-li main-menu-secondary-li-primary main-menu-secondary-hidden-lg-up">
+                  <a href="javascript:void(0)" className="main-menu-md-primary">Track Order</a>
+                </li>
+                <li className="main-menu-secondary-li main-menu-secondary-li-primary main-menu-secondary-hidden-lg-up">
+                  <a href="javascript:void(0)" className="main-menu-md-primary">JCPenney Credit Card</a>
+                </li>
+                <li className="main-menu-secondary-li main-menu-secondary-li-primary main-menu-secondary-hidden-lg-up">
+                  <a href="javascript:void(0)" className="main-menu-md-primary">Rewards</a>
+                </li>
                 <li className="main-menu-secondary-li main-menu-secondary-li-primary">
                   <a href="javascript:void(0)" className="main-menu-md-primary">My List</a>
                 </li>
+                <li className="main-menu-secondary-li main-menu-secondary-li-primary main-menu-secondary-hidden-lg-up">
+                  <a href="javascript:void(0)" className="main-menu-md-primary">Gift Registry</a>
+                </li>
+                <li className="main-menu-secondary-li main-menu-secondary-li-primary main-menu-secondary-hidden-lg-up">
+                  <a href="javascript:void(0)" className="main-menu-md-primary">My jcpenney.com</a>
+                </li>
+                <li className="main-menu-secondary-li main-menu-secondary-li-primary main-menu-secondary-hidden-lg-up">
+                  <a href="javascript:void(0)" className="main-menu-md-primary">Clearance</a>
+                </li>
                 <li className="main-menu-secondary-li main-menu-secondary-li-primary main-menu-secondary-li-highlight">
                   <a href="javascript:void(0)" className="main-menu-md-primary">Coupons</a>
+                </li>
+                <li className="main-menu-secondary-li main-menu-secondary-li-primary main-menu-secondary-hidden-lg-up">
+                  <a href="javascript:void(0)" className="main-menu-md-primary">Sign Out</a>
                 </li>
               </ul>
             </div>
