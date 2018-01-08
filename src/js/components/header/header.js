@@ -321,9 +321,9 @@ class Header extends Component {
             timeout: 400,
             interval: 100,
             out: function() {
-             //   $(".main-menu-secondary-li").removeClass("main-menu-secondary-hover");
-              //  $("#mainMenusecondaryLightBox").remove();
-                //$('.main-menu-tier1').removeClass('active-tier2').removeClass('active-tier3')
+                $(".main-menu-secondary-li").removeClass("main-menu-secondary-hover");
+                $("#mainMenusecondaryLightBox").remove();
+                $('.main-menu-tier1').removeClass('active-tier2').removeClass('active-tier3')
             }
         });
 

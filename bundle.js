@@ -14211,9 +14211,9 @@ var header_Header = function (_Component) {
         timeout: 400,
         interval: 100,
         out: function out() {
-          //   $(".main-menu-secondary-li").removeClass("main-menu-secondary-hover");
-          //  $("#mainMenusecondaryLightBox").remove();
-          //$('.main-menu-tier1').removeClass('active-tier2').removeClass('active-tier3')
+          jquery_default()(".main-menu-secondary-li").removeClass("main-menu-secondary-hover");
+          jquery_default()("#mainMenusecondaryLightBox").remove();
+          jquery_default()('.main-menu-tier1').removeClass('active-tier2').removeClass('active-tier3');
         }
       });
 
