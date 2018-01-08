@@ -22,11 +22,11 @@
 	}
 }
 
-.main-menu-bar-tier1 {
+.main-menu-bar-primary {
 	background-color: var(--color-penneyred);
 }
 
-.main-menu-tier1 {
+.main-menu-primary {
 	display: flex;
 	flex: 0 0 100%;
 	flex-direction: row;
@@ -34,12 +34,12 @@
 	max-width: 1400px;
 	margin: 0 auto;
 
-	& .main-menu-tier1-item {
+	& .main-menu-primary-item {
 		flex: 1;
 		align-self: center;
 	}
 
-	& .main-menu-tier1-search {
+	& .main-menu-primary-search {
 		flex: 2.5;
 		position: relative;
 		padding: 0 15px;
@@ -79,18 +79,18 @@
 		}
 	}
 
-	& .main-menu-tier1-logo {
+	& .main-menu-primary-logo {
 		max-width: 160px;
 		padding-left: 20px;
 		& path {
 		    fill: var(--color-white) !important;
 		}
-		& .main-menu-tier1-logo-svg {
+		& .main-menu-primary-logo-svg {
 			max-width: 160px;
 		}
 	}
 
-	& .main-menu-tier1-account {
+	& .main-menu-primary-account {
 		padding:0 30px;
 		max-width: 260px;
 		min-width: 230px;
@@ -106,7 +106,7 @@
 				padding-bottom: 0;
 			}
 			& ul {
-				& .main-menu-tier1-sign-rewards {
+				& .main-menu-primary-sign-rewards {
 					background-color: var(--color-rewards-grape);
 					& a {
 						color: var(--color-white);
@@ -117,7 +117,7 @@
 							vertical-align: middle;
 							overflow: visible;
 
-							&.main-menu-tier1-sign-rewards-amount {
+							&.main-menu-primary-sign-rewards-amount {
 								border: 2px solid var(--color-rewards-plum);
 								width: 50px;
 								height: 50px;
@@ -142,12 +142,12 @@
 			padding-left: 44px;
 			font-weight: 300;
 
-			& .main-menu-tier1-account-title {
+			& .main-menu-primary-account-title {
 				font-size: 14px;
 				line-height: 16px;
 			}
 
-			& .main-menu-tier1-account-link {
+			& .main-menu-primary-account-link {
 				font-size: 18px;
 				line-height: 20px;
 				position: relative;
@@ -163,7 +163,7 @@
 			}
 
 			&.arrow-down {
-				& .main-menu-tier1-account-link {
+				& .main-menu-primary-account-link {
 					& .arrow {
 						top: 6px;
 					}
@@ -173,23 +173,23 @@
 
 	}
 
-	& .main-menu-tier1-rewards {
+	& .main-menu-primary-rewards {
 		max-width: 125px;
 		padding-left: 15px;
 	}
 
-	& .main-menu-tier1-cart {
+	& .main-menu-primary-cart {
 		max-width: 60px;
 		padding-right: 20px;
 
-		& .main-menu-tier1-cart-icon-full {
+		& .main-menu-primary-cart-icon-full {
 			background: url(var(--path-images)global/icons/utility/cart/cart-full.svg) no-repeat;
 			display: inline-block;
 			width: 40px;
 			height: 40px;
 			position: relative;
 
-			& .main-menu-tier1-cart-icon-full-items {
+			& .main-menu-primary-cart-icon-full-items {
 				position: absolute;
 				top: 6px;
 				left: 0;
@@ -208,7 +208,7 @@
 }
 
 @media (--viewport-lg) {
-	.main-menu-bar-tier2-container {
+	.main-menu-bar-secondary-container {
 		display: flex;
 		flex: 0 0 100%;
 		flex-direction: row;
@@ -216,18 +216,18 @@
 		max-width: 1400px;
 		margin: 0 auto;
 
-		& .main-menu-tier2-left{
+		& .main-menu-secondary-left{
 			flex: 3;
 		}
-		& .main-menu-tier2-right {
+		& .main-menu-secondary-right {
 			flex: 1;
 		}
 
-		& .main-menu-tier2-li {
+		& .main-menu-secondary-li {
 			display: inline-block;
 		}
 
-		& .main-menu-tier2-li-primary {
+		& .main-menu-secondary-li-primary {
 			padding-left: 20px;
 			padding-right: 20px;
 			& a {
@@ -237,24 +237,24 @@
 			}
 		}
 
-		& .main-menu-tier2-li-highlight {
+		& .main-menu-secondary-li-highlight {
 			& a {
 				color: var(--color-penneyred);
 				font-weight: bold;
 			}
 		}
 
-		& .main-menu-tier2-shop-departments {
+		& .main-menu-secondary-shop-departments {
 			color: var(--color-nightsky);
 			position: relative;
 
-			& .main-menu-tier2-shop-departments-menu-svg {
+			& .main-menu-secondary-shop-departments-menu-svg {
 				position: absolute;
 				top: 0;
 				left: 10px;
 			}
 
-			& .main-menu-tier2-shop-departments-menu-label {
+			& .main-menu-secondary-shop-departments-menu-label {
 				font-weight: bold;
 				font-size: 18px;
 				display: inline-block;
@@ -264,7 +264,7 @@
 
 		}
 
-		& .main-menu-tier2-my-store {
+		& .main-menu-secondary-my-store {
 			position: relative;
 			& button {
 				border: none;
@@ -289,7 +289,7 @@
 					padding: 16px;
 				}
 			}
-			& .main-menu-tier2-my-store-listing {
+			& .main-menu-secondary-my-store-listing {
 				& p {
 					line-height: 22px;
 				}
@@ -299,82 +299,40 @@
 }
 
 
-.main-menu-tier3 {
-	    & .main-menu-tier-3-link {
-	    	display: block;
-	    	padding: 10px 16px;
-	    	position: relative;
-	    	font-size: 14px;
-	    	text-decoration: none;
+.main-menu-tier1 {
+    & .main-menu-tier1-link,
+    & .main-menu-tier2-link,
+    & .main-menu-tier3-link {
+    	display: block;
+    	padding: 10px 16px;
+    	position: relative;
+    	font-size: 14px;
+    	text-decoration: none;
 
-	    	&:after{
-	    		content: "";
-	    		position: absolute;
-	    		top: 3px;
-	    		right: 10px;
-	    		background: url(var(--path-images)global/icons/nav/chevron-right.svg) no-repeat right center;
-				background-size: 100% auto;
-				opacity: .5;
-				width: 30px;
-				height: 30px;
-	    	}
-	    }
-	}
-
-
-@media (--viewport-lg) {
-	#mainMenuTier2LightBox {
-		position: absolute;
-	    top:0;
-	    left:0;
-	    width:100%;
-	    height: 100%;
-	    background:rgba(0,0,0,.5);
-	    z-index: 1999;
-	}
-	.main-menu-tier3 {
-		display: none;
-		width: 218px;
-	    height: 0;
-	    position: absolute;
-	    top: 100%;
-	    left: 0;
-	    z-index: -1;
-	    visibility: hidden;
-	    overflow: hidden;  /* Provides clipping for initial slide down animation */
-	    opacity: 0;
-	    background-color: var(--color-white);
-	    transition: height 8000ms ease-in;
-	   
-	}
-
-	.main-menu-tier2-hover {
-		& .main-menu-tier3 {
-			height: 510px;
-			opacity: 1;
-			display: block;
-			visibility: visible;
-			
-			z-index: 2001;
-		}
-	}
-
-
-
+    	&:after{
+    		content: "";
+    		position: absolute;
+    		top: 3px;
+    		right: 10px;
+    		background: url(var(--path-images)global/icons/nav/chevron-right.svg) no-repeat right center;
+			background-size: 100% auto;
+			opacity: .5;
+			width: 30px;
+			height: 30px;
+    	}
+    }
 }
+
+
+
 @media (--viewport-md-down) {
-	.main-menu-bar-tier2-panel {
-	& .side-panel-container,
-	& .side-panel-header {
-		max-width: 320px;
-	}
-}
-	.main-menu-tier-3-link-md-down {
+	.main-menu-md-primary {
 		display: block;
 		padding: 10px 16px;
 		position: relative;
 		font-size: 14px;
 		text-decoration: none;
+		width: 320px;
 
 		&:after{
 			content: "";
@@ -387,10 +345,239 @@
 			width: 30px;
 			height: 30px;
 		}
+
 	}
-	.main-menu-tier2-my-store {
+
+	.main-menu-tier1 {
+		& .main-menu-tier2-link {
+			&:after {
+				background: url(var(--path-images)global/icons/nav/plus.svg) no-repeat right center;
+				background-size: 100% auto;
+				transition: transform 200ms;
+			}
+		}
+		& .tier3-click {
+			& .main-menu-tier2-link {
+				&:after {
+					transform: rotate(45deg);
+				}
+			}	
+		}
+	}
+	.main-menu-md-panel-header {
+	  width: 100%;
+	  height: 50px;
+	  line-height: 50px;
+	  background: var(--color-shadow);
+	  color: var(--color-white);
+	  z-index: 2;
+	  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.08);
+	  padding-left: 16px;
+	  position: fixed;
+	  left:0;
+	  top: 0;
+	  & a {
+	  	color: var(--color-white);
+	  	text-decoration: none;
+	  }
+	}
+	#mainMenusecondaryLightBox {
+		display: none;
+	}
+	.main-menu-secondary-hidden-md-down {
+		display: none;
+	}
+	.main-menu-bar-secondary .side-panel-container {
+		overflow-x: hidden;	
+		position: relative;
+
+		& .side-panel-content {
+			overflow-x: hidden;
+			width: 640px;
+			padding-top: 55px;
+			padding-bottom: 55px;
+		}
+	}
+	.main-menu-tier1-link,
+	.main-menu-secondary-right {
+		width: 320px;
+	}
+	.main-menu-tier1 {
+		& .main-menu-tier1-link {
+			padding-left: 60px;
+			padding-top: 18px;
+			padding-bottom: 18px;
+			position: relative;
+			&:after {
+				top: 8px;
+			}
+			& .main-menu-tier1-link-thumb {
+				position: absolute;
+				top: 2px;
+				left: 2px;
+			}
+		}
+		& .main-menu-tier2-ul {
+		    position: absolute;
+		    top: 0;
+		    padding-top: 55px;
+		    left: 320px;
+		    width: 320px;
+		    display: none;
+		    &.tier2-click {
+		    	display: block;
+		    }
+		}
+
+		& .main-menu-tier2-ul {
+			& .main-menu-tier3-ul {
+				display: none;
+			}
+			& .main-menu-tier2-li {
+				&.tier3-click .main-menu-tier3-ul {
+					display: block;
+				}
+			}
+		}
+
+	}
+	.main-menu-md-panel {
+		position: absolute;
+	    top: 0;
+	    left: 320px;
+	    width: 320px;
+	    height: 100%;
+	    display: none;
+	    &.tier2-click {
+	    	display: block;
+	    }
+	    & .side-panel-row-wrap {
+	    	margin-left: 0;
+	    	margin-right: 0;
+	    }
+	}
+	.side-panel-container-inner-container {
+		transition: left 400ms ease-in;
+		position: relative;
+		top: 0;
+		left: 0;
+		height: 100%;
+		width: 320px;
+
+		&.tier2-open {
+			left: -320px;
+			width: 640px;
+		}
+		& .side-panel-header {
+			position: absolute;
+		}
+	}
+}
+
+@media (--viewport-lg) {
+	#mainMenusecondaryLightBox {
+		position: absolute;
+	    top:0;
+	    left:0;
+	    width:100%;
+	    height: 100%;
+	    background:rgba(0,0,0,.5);
+	    z-index: 1999;
+	}
+	.main-menu-tier2-li-menu-header {
+		display: none;
+	}
+	.main-menu-tier1 {
+		width: auto;
+	    height: 0;
+	    position: absolute;
+	    top: 100%;
+	    left: 0;
+	    z-index: -1;
+	    visibility: hidden;
+	    overflow: hidden;  /* Provides clipping for initial slide down animation */
+	    opacity: 0;
+		background-color: var(--color-white);
+
+	   	& .main-menu-tier1-link,
+	    & .main-menu-tier2-link,
+	    & .main-menu-tier3-link {
+	    	width: 216px;
+	    }
+	    & .main-menu-tier1-ul {
+	    	transform: translateY(-700px);
+	    	transition: transform 400ms ease-in;
+	    	& a:hover,
+	    	& a.active {
+	    		background-color: var(--color-lightgrey);
+	    	}
+	    	& .main-menu-tier2-ul,
+	    	& .main-menu-tier3-ul {
+	    		position: absolute;
+				visibility: hidden;
+				opacity: 0;
+				height: 563px;
+				top: 0;
+				left: 216px;
+				width: 216px;
+				transition: opacity 1ms;
+				transition-delay: 200ms;
+				
+	    	}
+	    }
+	}
+
+
+	.main-menu-secondary-hover {
+		& .main-menu-tier1 {
+			width: 216px;
+			height: 510px;
+			opacity: 1;
+			display: block;
+			visibility: visible;
+			z-index: 2001;
+			transition: width 200ms ease-in;
+			&.active-tier2 {
+				width: 432px;
+			}
+			&.active-tier3 {
+				width: 648px;
+			}
+			& .main-menu-tier1-ul {
+				transform: translateY(0);
+				& .main-menu-tier1-li.active .main-menu-tier2-ul {
+					opacity: 1;
+					visibility: visible;
+					& .main-menu-tier2-li.active .main-menu-tier3-ul {
+						opacity: 1;
+						visibility: visible;
+					}
+				}
+			}
+		}
+	}
+	.main-menu-tier1-link-thumb {
+		display: none;
+	}
+	.main-menu-md-down {
+		display: none;
+	}
+
+
+}
+@media (--viewport-md-down) {
+	.main-menu-bar-secondary-panel {
+		& .side-panel-container,
+		& .side-panel-header {
+			max-width: 320px;
+		}
+	}
+
+
+
+	.main-menu-secondary-my-store {
 		padding-bottom: 25px;
-		& .main-menu-tier-3-button-md-down {
+		& .main-menu-tier1-button-md-down {
 			border: none;
 			max-width: none;
 			color: var(--color-nightsky);
@@ -423,7 +610,7 @@
 			}
 		}
 	}
-	.main-menu-tier1 {
+	.main-menu-primary {
 		position: relative;
 		padding-bottom: 60px;
 		padding-left: 40px;
@@ -434,17 +621,17 @@
 			left: 18px;
 		}
 
-		& .main-menu-tier1-logo {
+		& .main-menu-primary-logo {
 			max-width: initial;
 			flex: 2;
 		}
 
-		& .main-menu-tier1-account {
+		& .main-menu-primary-account {
 			padding: 0 15px;
 			min-width: 200px;
 		}
 
-		& .main-menu-tier1-search {
+		& .main-menu-primary-search {
 			display: block;
 			position: absolute;
 			bottom: 10px;
@@ -456,17 +643,17 @@
 }
 
 @media (--viewport-sm-only) {
-	.main-menu-tier1 {
+	.main-menu-primary {
 		
-		& .main-menu-tier1-logo {
+		& .main-menu-primary-logo {
 			padding-left: 18px;
 		}
 
-		& .main-menu-tier1-cart {
+		& .main-menu-primary-cart {
 			padding-right: 8px;
 		}
 
-		& .main-menu-tier1-account {
+		& .main-menu-primary-account {
 			max-width: 70px;
 			padding: 0 5px;
 			max-width: 55px;
@@ -479,8 +666,8 @@
 			}
 
 
-			& .main-menu-tier1-account-title, 
-			& .main-menu-tier1-account-link {
+			& .main-menu-primary-account-title, 
+			& .main-menu-primary-account-link {
 				display: none;
 			}
 		}
@@ -502,7 +689,7 @@
 	display: none;
 }
 
-.main-menu-bar-tier2-panel {
+.main-menu-bar-secondary-panel {
 	& .side-panel-content {
 		padding-left: 0;
 		padding-right: 0;
