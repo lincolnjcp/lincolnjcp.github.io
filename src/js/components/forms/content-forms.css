@@ -85,12 +85,12 @@
       margin: 12px 0 0 6px;
     }
   }
-.jcp-icon-red {
+& .jcp-icon-red {
   position: absolute;
   left: 8px;
-  top: 0;
+  top: 4px;
 }
-  a.apply-btn {
+  & a.apply-btn {
     position: absolute;
     right: -1px;
     top: 0px;
@@ -115,9 +115,6 @@
   & div.css-float-label {
     & input {
       border: 2px solid var(--color-error-type);
-    }
-    & label {
-      color: var(--color-error-type);
     }
   }
   & .error-message {
@@ -152,6 +149,8 @@
   & input, & select {
     width: 100%;
     margin-bottom: 24px;
+    height: 48px;
+    line-height: 48px;
   }
   & input::-webkit-input-placeholder {
     font-size: 16px;
@@ -162,9 +161,9 @@
 
 .form-layout.select {
   overflow: visible;
-  color: var(--color-nightsky);
+  color: var(--color-slate);
   padding: 5px 6px;
-  max-width: 155px;
+  margin-left: 16px;
   & select {
     line-height: 30px;
     min-width: auto;
@@ -189,7 +188,7 @@
   & .show-pwd {
     position: absolute;
     right: 10px;
-    top: 10px;
+    top: 16px;
   }
 }
 
@@ -230,7 +229,7 @@
     opacity: 1;
     -webkit-transition: all .2s;
     transition: all .2s;
-    top: -.5em;
+    top: 4px;
     left: .75rem;
     z-index: 3;
     line-height: 1;

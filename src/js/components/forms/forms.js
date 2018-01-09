@@ -505,7 +505,7 @@ class Forms extends Component {
                                         <span className="error-message">Please enter a valid email address</span>
                                         <br /><br /><br />
                                         <p className="max-width-text">Vestibulum id ligula porta felis euismod semper. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.  <br /><br /> </p>
-                                        <div className="sm12 md4 columns row">
+                                        <div className="sm12 md5 columns row">
                                             <div className="css-float-label">
                                                 <div className="msg msg-error mrg-M">Email or password is incorrect</div>
                                                 <br />
@@ -544,10 +544,10 @@ class Forms extends Component {
                         <div className="form-group column">
                             <input className="form-control input-text" type="text" placeholder="Birthday (Optional)" />
                         </div>
-                        <div className="form-group md5 sm4 column">
+                        <div className="form-group md6 sm4 column row">
                             <input className="form-control input-text" type="text" placeholder="Zip Code" />
                         </div>
-                        <div className="select md7 form-layout column">
+                        <div className="select md6 form-layout column">
                             <select className="form-control custom-select">
                                 <option value=''>State</option>
                                 <option value='1'>01</option>
