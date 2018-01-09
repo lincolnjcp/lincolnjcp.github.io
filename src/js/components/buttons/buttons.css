@@ -5,7 +5,7 @@
 
 /*  Base btn styling */
 button{
-  background-color: #fff;
+  background-color: var(--color-white);
 }
 
 a.btn,

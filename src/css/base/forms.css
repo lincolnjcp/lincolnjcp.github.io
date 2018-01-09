@@ -93,6 +93,7 @@ select{
   text-overflow: '';
   -moz-appearance: none; /* hide default arrow in Firefox */
   -webkit-appearance: button; /* hide default arrow in chrome OSX */
+  font-size: 14px;
 }
 
 .select select:focus {

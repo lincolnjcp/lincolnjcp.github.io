@@ -43,8 +43,6 @@
 
   & .coupon-see-details {
     & a {
-      font-size: 12px;
-      letter-spacing: 1px;
       margin-right: 16px;
     }
   }

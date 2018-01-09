@@ -428,3 +428,10 @@ p {
 .txt-line-height-L {
     line-height: 26px;
 }
+
+/* links */
+
+.link-sm {
+    font-size: 12px;
+    letter-spacing: 1px;
+}

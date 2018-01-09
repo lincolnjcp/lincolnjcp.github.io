@@ -4,11 +4,15 @@ import $ from 'jquery';
 import CodeGenerator from '../../containers/CodeGenerator.js';
 
 const cartImage = require('!!raw-loader?es5=1!../../../images/global/icons/utility/cart/cart.svg');
+const lockImage = require('!!raw-loader?es5=1!../../../images/global/icons/utility/lock.svg');
 const thumbsupfillImage = require('!!raw-loader?es5=1!../../../images/global/icons/action/thumbsup-fill.svg');
 const thumbsUpImage = require('!!raw-loader?es5=1!../../../images/global/icons/action/thumbsup-line.svg');
 const heartlineImage = require('!!raw-loader?es5=1!../../../images/global/icons/action/heart-line.svg');
 const heartImageFill = require('!!raw-loader?es5=1!../../../images/global/icons/action/heart-fill.svg');
 const settingsImage = require('!!raw-loader?es5=1!../../../images/global/icons/action/settings.svg');
+const gridfillImage = require('!!raw-loader?es5=1!../../../images/global/icons/action/grid-fill.svg');
+const listLineImage = require('!!raw-loader?es5=1!../../../images/global/icons/action/list-line.svg');
+const listLineImageFill = require('!!raw-loader?es5=1!../../../images/global/icons/action/list-fill.svg');
 
 class Buttons extends Component {
     componentDidMount() {
@@ -187,7 +191,7 @@ class Buttons extends Component {
                         <div className="row">
                             <div className="sm12 md5 lg4 columns">
                                 <div className="button-preview algn-mid mrg-XL">
-                                    <a href="javascript:void();" className="btn btn-primary btn-L mrg-M btn-icon"><span className="icon color-white-svg" dangerouslySetInnerHTML={{ __html: cartImage }} /> Checkout</a>
+                                    <a href="javascript:void();" className="btn btn-primary btn-L mrg-M btn-icon"><span className="icon color-white-svg" dangerouslySetInnerHTML={{ __html: lockImage }} /> Checkout</a>
                                 </div>
 
                             </div>
@@ -237,6 +241,46 @@ class Buttons extends Component {
                     </div>
                 </div><br/><br/><br/>
 
+                <div className="md12 lg12 sm12 column mrg-XL">
+                <h2 className="title title-L mrg-M">Switch</h2>
+                  <div className="switch-block md12 lg12 sm12">
+                    <div className="md4 lg4 sm12 fl-left">
+                      <div className="onoffswitch mrg-XL fl-left">
+                          <input type="checkbox" name="onoffswitch" className="onoffswitch-checkbox" id="onoffswitch-off"/>
+                          <label className="onoffswitch-label" htmlFor="onoffswitch-off"></label>
+                      </div>
+                      {/* <div className="std-txt-label">Off</div>
+                      <div className="onoffswitch mrg-XL fl-left">
+                          <input type="checkbox" name="onoffswitch" className="onoffswitch-checkbox" id="onoffswitch-offHover"/>
+                          <label className="onoffswitch-label hover" htmlFor="onoffswitch-offHover"></label>
+                      </div>
+                      <div className="std-txt-label">Off Hover</div>
+                      <div className="onoffswitch mrg-XL fl-left">
+                          <input type="checkbox" name="onoffswitch" className="onoffswitch-checkbox" id="onoffswitch-on" checked="true"/>
+                          <label className="onoffswitch-label" htmlFor="onoffswitch-on"></label>
+                      </div>
+                      <div className="std-txt-label">On</div>
+                      <div className="onoffswitch mrg-XL fl-left">
+                          <input type="checkbox" name="onoffswitch" className="onoffswitch-checkbox" id="onoffswitch-onHover" checked="true"/>
+                          <label className="onoffswitch-label hover" htmlFor="onoffswitch-onHover"></label>
+                      </div>
+                      <div className="std-txt-label">On Hover</div>
+                    </div>
+                    <div className="md4 lg4 sm12 fl-left">
+                      <div className="onoffswitch mrg-XL fl-left">
+                          <input type="checkbox" name="onoffswitch" className="onoffswitch-checkbox" id="onoffswitch-disabledOff" disabled="true"/>
+                          <label className="onoffswitch-label disabled" htmlFor="onoffswitch-disabledOff"></label>
+                      </div>
+                      <div className="std-txt-label">Disabled Off</div>
+                      <div className="onoffswitch mrg-XL fl-left">
+                          <input type="checkbox" name="onoffswitch" className="onoffswitch-checkbox" id="onoffswitch-disabledOn" checked="true"/>
+                          <label className="onoffswitch-label disabled" htmlFor="onoffswitch-disabledOn"></label>
+                      </div>
+                      <div className="std-txt-label">Disabled On</div> */}
+                    </div>
+                  </div>
+            </div>
+                
                 <div className="toggle-list sm12 md12 column row">
                     <h2 className="title-XL mrg-L">Icon Toggle</h2>
                     <div className="icon-toggle mrg-rght-L mrg-L">
@@ -245,122 +289,42 @@ class Buttons extends Component {
                             <a href="javascript:void(0);" className="heart-icon">
                                 <span className="icon icon-hover" dangerouslySetInnerHTML={{ __html: heartlineImage }} />
                             </a>
-                            <span className="std-txt-label algn-lft">Default</span>
-                        </figure>
-                    </div>
-                    <div className="icon-toggle mrg-rght-L mrg-L">
-                        <figure className="toggle-img">
-                            <img src="http://via.placeholder.com/220x220" alt="" />
-                            <a href="javascript:void(0);" className="heart-icon">
-                                <span className="icon hover" dangerouslySetInnerHTML={{ __html: heartlineImage }} />
-                            </a>
-                            <span className="std-txt-label algn-lft">Hover</span>
-                        </figure>
-                    </div>
-                    <div className="icon-toggle mrg-rght-L mrg-L">
-                        <figure className="toggle-img">
-                            <img src="http://via.placeholder.com/220x220" alt="" />
-                            <a href="javascript:void(0);" className="heart-icon">
-                                <span className="icon hover" dangerouslySetInnerHTML={{ __html: heartImageFill }} />
-                            </a>
-                            <span className="std-txt-label algn-lft">Active</span>
                         </figure>
                     </div>
                 </div>
-                <div className="sm12 md12 column row">
-                    <div className="thumb-icon row mrg-XL">
-                        <div className="toggle-thumbs mrg-rght-L">
-                            <span className="icon icon-hover" dangerouslySetInnerHTML={{ __html: thumbsUpImage }} />
-                            <span className="std-txt-label algn-lft">Default</span>
-                        </div>
-                        <div className="toggle-thumbs mrg-rght-L">
-                            <span className="icon hover" dangerouslySetInnerHTML={{ __html: thumbsUpImage }} />
-                            <span className="std-txt-label algn-lft">Hover</span>
-                        </div>
-                        <div className="toggle-thumbs mrg-rght-L">
-                            <span className="icon hover" dangerouslySetInnerHTML={{ __html: thumbsupfillImage }} />
-                            <span className="std-txt-label algn-lft">Active</span>
-                        </div>
-                    </div><br/><br/>
-                    <div className="row column sm12 md12 text-buttons">
-                        <h2 className="title-XL mrg-L">Text Button</h2>
-                        <div className="toggle-thumbs mrg-rght-XL">
-                            <button className="txt-btn">Text Button</button>
-                            <span className="std-txt-label algn-lft">Default</span>
-                        </div>
-                        <div className="toggle-thumbs mrg-rght-XL">
-                            <a href="#" className="txt-btn hover">Text Button</a>
-                            <span className="std-txt-label algn-lft">Hover</span>
-                        </div>
-                        <div className="toggle-thumbs mrg-rght-XL">
-                            <button className="txt-btn" disabled>Text Button</button>
-                            <span className="std-txt-label algn-lft">Disabled</span>
-                        </div>
-                        <div className="toggle-thumbs mrg-rght-XL">
-                            <button className="txt-btn txt-btn-S focus">Text Button</button>
-                            <span className="std-txt-label algn-lft">ARIA focus</span>
-                        </div>
-                        <div className="toggle-thumbs mrg-rght-XL">
-                            <button className="txt-btn value">Text Button</button>
-                            <span className="std-txt-label algn-lft">Value</span>
-                        </div>
-                        <div className="toggle-thumbs mrg-rght-XL">
-                            <button className="txt-btn txt-btn-em">Text Button</button>
-                            <span className="std-txt-label algn-lft">Emphasis</span>
-                        </div>
-                    </div><br/><br/><br/>
 
-                    <div className="row column sm12 md12 icon-buttons">
-                        <h2 className="title-XL mrg-L">Icon Button</h2>
-                        <div className="toggle-thumbs mrg-rght-XL">
-                            <a href="javascript:void(0)" className="cart-button">
-                                <span className="icon color-white-svg" dangerouslySetInnerHTML={{ __html: cartImage }} ></span>
-                                <span className="cart-count">12</span>
-                            </a>
-                            <span className="std-txt-label algn-lft">Default</span>
-                        </div>
-                        <div className="toggle-thumbs mrg-rght-XL">
-                            <a href="javascript:void(0)" className="cart-button">
-                                <span className="icon color-white-svg" dangerouslySetInnerHTML={{ __html: cartImage }} ></span>
-                                <span className="cart-count">12</span>
-                            </a>
-                            <span className="std-txt-label algn-lft">Hover</span>
-                        </div>
-                        <div className="toggle-thumbs mrg-rght-XL">
-                            <a href="javascript:void(0)" className="cart-button focus">
-                                <span className="icon color-white-svg" dangerouslySetInnerHTML={{ __html: cartImage }} ></span>
-                                <span className="cart-count">12</span>
-                            </a>
-                            <span className="std-txt-label algn-lft">ARIA focus</span>
-                        </div>
-                    </div><br/><br/>
-                    <div className="row column sm12 md12 icon-buttons">
-                        <div className="toggle-settings mrg-rght-XL">
-                            <a href="javascript:void(0)" className="icon-button">
-                                <span className="icon icon-hover" dangerouslySetInnerHTML={{ __html: settingsImage }} ></span>
-                            </a>
-                            <span className="std-txt-label algn-lft">Default</span>
-                        </div>
-                        <div className="toggle-settings mrg-rght-XL">
-                            <a href="javascript:void(0)" className="icon-button">
-                                <span className="icon color-penneyred hover" dangerouslySetInnerHTML={{ __html: settingsImage }} ></span>
-                            </a>
-                            <span className="std-txt-label algn-lft">Hover</span>
-                        </div>
-                        <div className="toggle-settings mrg-rght-XL">
-                            <a href="javascript:void(0)" className="icon-button">
-                                <span className="icon focus" dangerouslySetInnerHTML={{ __html: settingsImage }} ></span>
-                            </a>
-                            <span className="std-txt-label algn-lft">ARIA focus</span>
-                        </div>
-                        <div className="toggle-settings mrg-rght-XL">
-                            <a href="javascript:void(0)" className="icon-button disable">
-                                <span className="icon disable" dangerouslySetInnerHTML={{ __html: settingsImage }} ></span>
-                            </a>
-                            <span className="std-txt-label algn-lft">Disabled</span>
-                        </div>
+                <div className="icon-group-block md12 lg12 sm12">
+                    <h2 className="title-XL mrg-L">Icon Group</h2>
+                    <div class="icon-group" role="group">
+                    <ul>
+                        <li>
+                        <span className="icon color-shadow-svg" dangerouslySetInnerHTML={{__html: gridfillImage}} />
+                        <span className="std-txt-label">&nbsp;</span>
+                        </li>
+                        <li className="mrg-rght-XL">
+                        <span className="icon color-shadow-svg" dangerouslySetInnerHTML={{__html: listLineImage}} />
+                        <span className="std-txt-label">&nbsp;</span>
+                        </li>
+                    </ul>
                     </div>
+                </div>
 
+                <div className="md12 lg12 sm12 column mrg-XL">
+                    <h2 className="title title-L mrg-M">Button Group</h2>
+                    <div className="btn-group-block md12 lg12 sm12">
+                        <div class="btn-group" role="group">
+                        <button type="button" class="btn btn-secondary active">Tab 1</button>
+                        <button type="button" class="btn btn-secondary">Tab 2</button>
+                        <button type="button" class="btn btn-secondary hover">Tab 3</button>
+                        <button type="button" class="btn btn-secondary disabled">Tab 4</button>
+                        </div>
+                        <ul className="std-txt-label">
+                        <li>Active</li>
+                        <li>Default</li>
+                        <li>Hover</li>
+                        <li>Disabled</li>
+                        </ul>
+                    </div>
                 </div>
 
                 <div className="row">

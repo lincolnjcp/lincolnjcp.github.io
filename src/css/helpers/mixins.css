@@ -21,7 +21,6 @@
 	  color: var(--color-slate);
 	  cursor: not-allowed;
 	  box-shadow: none;
-	  border-radius: 0;
 		/*
 		&:hover: {
 		background-color: var(--color-lightgrey);
