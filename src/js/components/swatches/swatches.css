@@ -23,9 +23,13 @@
     }
 
     & .swatches-list-icon {
-      width: 40px;
-      height: 40px;
+      width: 24px;
+      height: 24px;
       cursor: pointer;
+      & .list-expand {
+        background: none;
+        border: 0;
+      }
     }
 
     & .list-color-swatch{
@@ -35,7 +39,7 @@
       border-radius: 100%;
       cursor: pointer;
       overflow: hidden;
-      box-shadow: inset 0px 0px 0px 2px var(--color-white);
+      box-shadow: inset 0px 0px 0px 3px var(--color-white);
       border: 1px solid var(--color-concrete);
       background-color: var(--color-lightgrey); /* Default background color */
       display: inline-block;
@@ -47,11 +51,12 @@
       }
 
       &.hover {
-        border-color: var(--color-penneyred);
+        border-color: var(--color-slate);
       }
 
       &.list-color-swatch-active{
         border: 2px solid var(--color-nightsky);
+        box-shadow: inset 0px 0px 0px 5px var(--color-white);
 
         &.list-color-swatch-oos:hover{
           border-color: var(--color-nightsky);
@@ -71,7 +76,7 @@
           position: absolute;
           display: block;
           width: 4px;
-          height: 38px;
+          height: 36px;
           border-right: 1px solid var(--color-concrete);
           border-left: 1px solid var(--color-concrete);
           background-color: var(--color-white);

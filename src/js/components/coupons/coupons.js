@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+const barcodeImage = require('!!raw-loader?es5=1!../../../images/global/icons/utility/barcode.svg');
+
 class Coupons extends Component {
 
   componentDidMount() {
@@ -90,7 +92,10 @@ class Coupons extends Component {
                 <p><span>Code: </span><span className="title-S title">SHOPNOW4</span></p>
               </div>
               <a href="javascript:void();" className="btn btn-S btn-primary apply-btn btn-full mrg-S">Apply</a>
-              <a href="javascript:void();" className="btn btn-S btn-secondary apply-btn btn-full mrg-S print-barcode">Print Barcode</a>
+              <a href="javascript:void();" className="btn btn-S btn-secondary apply-btn btn-full mrg-S print-barcode">
+                <span className="icon" dangerouslySetInnerHTML={{ __html: barcodeImage }}/>
+                  Print Barcode
+                </a>
               <div className="coupon-see-details">
               <a href="javascript:void(0)" className="link-sm">shop home</a>
               <a href="javascript:void(0)" className="link-sm">see details</a>

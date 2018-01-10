@@ -41,16 +41,13 @@ class Swatches extends Component {
               </li>
             </ul>
           </div><br/><br/><br/>
-          <div className="md5 lg5 sm12 column">
+          <div className="md6 lg6 sm12 column">
             <div className="color-swatches-list md12 lg12 sm12">
               <h2 className="title title-L mrg-M">Expand/Collapse</h2>
               <span className="std-txt-label">Large/XL Breakpoint</span>
               <div className="color-swatches-list-label">
-                <p className="md6 sm6 lg6 column">
+                <p>
                   <span><strong>Color:</strong> Blue</span>
-                </p>
-                <p className="md6 sm6 lg6 column">
-                  <a href="javascript:void(0)" className="show-all-cta">show all colors</a>
                 </p>
               </div>
               <div className="color-swatches-list">
@@ -94,9 +91,11 @@ class Swatches extends Component {
                     <li>
                       <a href="javascript:void(0)" className="list-color-swatch"></a>
                     </li>
-                    <li className="swatches-list-icon" dangerouslySetInnerHTML={{ __html: plusImage }} >
-
-                    </li>
+                    <li className="swatches-list-icon">
+                      <a href="javascript:void(0)" className="list-color-swatch list-expand">
+                        <span dangerouslySetInnerHTML={{ __html: plusImage }}/>
+                      </a>                  
+                  </li>
                   </ul>
               </div>
 
@@ -182,11 +181,8 @@ class Swatches extends Component {
             <div className="color-swatches-list md12 lg12 sm12">
               <span className="std-txt-label">Small Breakpoint</span>
               <div className="color-swatches-list-label">
-                <p className="md6 sm6 lg6 column">
+                <p>
                   <span><strong>Color:</strong> Blue</span>
-                </p>
-                <p className="md6 sm6 lg6 column">
-                  <a href="javascript:void(0)" className="show-all-cta">show all colors</a>
                 </p>
               </div>
               <div className="color-swatches-list">
@@ -217,11 +213,8 @@ class Swatches extends Component {
 
             <div className="color-swatches-list md12 lg12 sm12">
               <div className="color-swatches-list-label">
-                <p className="md6 sm6 lg6 column">
+                <p>
                   <span><strong>Color:</strong> Blue</span>
-                </p>
-                <p className="md6 sm6 lg6 column">
-                  <a href="javascript:void(0)" className="show-all-cta">fewer colors</a>
                 </p>
               </div>
               <div className="color-swatches-list">
@@ -273,7 +266,7 @@ class Swatches extends Component {
             </div>
           </div>
 
-          <div className="md5 lg5 sm12 column">
+          <div className="md6 lg6 sm12 column">
           <h2 className="title title-L mrg-M">Sizing</h2>
             <div className="color-swatches-list md12 lg12 sm12">
               <div className="color-swatches-medium mrg-L">
@@ -290,8 +283,11 @@ class Swatches extends Component {
                   <li>
                     <a href="javascript:void(0)" className="list-color-swatch"></a>
                   </li>
-                  <li className="swatches-list-icon" dangerouslySetInnerHTML={{ __html: plusImage }} >
-                    </li>
+                  <li className="swatches-list-icon">
+                    <a href="javascript:void(0)" className="list-color-swatch">
+                      <span dangerouslySetInnerHTML={{ __html: plusImage }}/>
+                    </a>                  
+                  </li>
                 </ul>
                 <span className="std-txt-label">Medium - Gallery (>5)</span>
               </div>

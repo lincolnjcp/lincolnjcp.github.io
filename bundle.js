@@ -9343,18 +9343,18 @@ var scrollbar_Scrollbar = function (_Component) {
               { className: "modal scroll-container" },
               react_default.a.createElement("button", { className: "modal-close" }),
               react_default.a.createElement(
-                "h2",
-                { className: "title title-L test" },
-                "10 Year Mattress Encasement Plan Twin"
-              ),
-              react_default.a.createElement(
-                "h4",
-                { className: "title-M title" },
-                "Sealy Essentials\u2122 Holly Hills Firm - Mattress + Box Spring"
-              ),
-              react_default.a.createElement(
                 "div",
                 { className: "scroll-block custom-scroll" },
+                react_default.a.createElement(
+                  "h2",
+                  { className: "title title-L test" },
+                  "10 Year Mattress Encasement Plan Twin"
+                ),
+                react_default.a.createElement(
+                  "h4",
+                  { className: "title-M title mrg-L" },
+                  "Sealy Essentials\u2122 Holly Hills Firm - Mattress + Box Spring"
+                ),
                 "BEDGARD ENCASEMENT: 10 Year Plan with Encasement: For new residential mattresses purchased in conjunction with a BedGard Encasement. Coverage includes: All accidental stains (excluding accumulations). Construction of Mattress Protector. WHY BEDGARD ENCASEMENT? The manufacturer of the mattress will void the warranty if the mattress is stained. A full encasement reduces conditions which attract dust mites, allergens and bed bugs. HOW DOES IT WORK? Customers purchase and use the BedGard Protector along with their new residential mattress. If their mattress becomes stained during normal residential use while using the protector, the affected portion or the complete mattress will be repaired or replaced!HOW LONG IS COVERAGE? The BedGard Product Limited Warranty is effective for ten (10) years from the date the customer takes delivery of the Mattress Protector and the Mattress. WHAT PROBLEMS ARE COVERED? Construction and staining of the BedGard Mattress Protector/Pad. All accidental stains attributed to a single occurrence (excluding accumulation defined as a gradual buildup of dirt, dust, body oils and perspiration). HOW LONG DOES THE CUSTOMER HAVE TO REPORT A PROBLEM? Problems must be reported within ten (10) days of occurrence of the stain or damage. BEDGARD ENCASEMENT: 10 Year Plan with Encasement: For new residential mattresses purchased in conjunction with a BedGard Encasement. Coverage includes: All accidental stains (excluding accumulations). Construction of Mattress Protector. WHY BEDGARD ENCASEMENT? The manufacturer of the mattress will void the warranty if the mattress is stained. A full encasement reduces conditions which attract dust mites, allergens and bed bugs. HOW DOES IT WORK? Customers purchase and use the BedGard Protector along with their new residential mattress. If their mattress becomes stained during normal residential use while using the protector, the affected portion or the complete mattress will be repaired or replaced!HOW LONG IS COVERAGE? The BedGard Product Limited Warranty is effective for ten (10) years from the date the customer takes delivery of the Mattress Protector and the Mattress. WHAT PROBLEMS ARE COVERED? Construction and staining of the BedGard Mattress Protector/Pad. All accidental stains attributed to a single occurrence (excluding accumulation defined as a gradual buildup of dirt, dust, body oils and perspiration). HOW LONG DOES THE CUSTOMER HAVE TO REPORT A PROBLEM? Problems must be reported within ten (10) days of occurrence of the stain or damage."
               ),
               react_default.a.createElement("div", { className: "scroll-block-fade" })
@@ -9714,6 +9714,9 @@ function modal__inherits(subClass, superClass) { if (typeof superClass !== "func
 
 
 
+var modal_errorImage = __webpack_require__("ejGt");
+var modal_successImage = __webpack_require__("GuGm");
+
 var modal_Modal = function (_Component) {
   modal__inherits(Modal, _Component);
 
@@ -9724,97 +9727,191 @@ var modal_Modal = function (_Component) {
   }
 
   modal__createClass(Modal, [{
-    key: "componentDidMount",
+    key: 'componentDidMount',
     value: function componentDidMount() {}
   }, {
-    key: "render",
+    key: 'render',
     value: function render() {
       return react_default.a.createElement(
-        "div",
+        'div',
         null,
         react_default.a.createElement(
-          "div",
-          { className: "row" },
+          'div',
+          { className: 'row' },
+          react_default.a.createElement('div', { className: 'modal-overlay' }),
           react_default.a.createElement(
-            "div",
-            { className: "modal-preview padding-25" },
+            'div',
+            { className: 'modal' },
+            react_default.a.createElement('button', { className: 'modal-close' }),
             react_default.a.createElement(
-              "div",
-              { className: "modal" },
-              react_default.a.createElement("button", { className: "modal-close" }),
-              react_default.a.createElement(
-                "h2",
-                { className: "modal-title" },
-                "This is a Modal"
-              ),
-              react_default.a.createElement(
-                "p",
-                { className: "modal-body" },
-                "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor"
-              ),
-              react_default.a.createElement(
-                "button",
-                { type: "button", name: "button", className: "btn btn-secondary btn-L" },
-                "Cancel"
-              ),
-              react_default.a.createElement(
-                "button",
-                { type: "button", name: "button", className: "btn btn-primary btn-L" },
-                "Save"
-              )
+              'h2',
+              { className: 'modal-sub-title' },
+              'This is a Modal'
             ),
-            react_default.a.createElement("br", null),
             react_default.a.createElement(
-              "div",
-              { className: "modal" },
-              react_default.a.createElement("button", { className: "modal-close" }),
-              react_default.a.createElement(
-                "h2",
-                { className: "modal-title" },
-                "This is a Modal with One CTA"
-              ),
-              react_default.a.createElement(
-                "p",
-                { className: "modal-body" },
-                "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor"
-              ),
-              react_default.a.createElement(
-                "button",
-                { type: "button", name: "button", className: "btn btn-primary btn-L" },
-                "Save"
-              )
+              'p',
+              { className: 'modal-body' },
+              'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor'
             ),
-            react_default.a.createElement("br", null),
             react_default.a.createElement(
-              "div",
-              { className: "modal" },
-              react_default.a.createElement("button", { className: "modal-close" }),
-              react_default.a.createElement(
-                "div",
-                { className: "msg msg-neutral mrg-S" },
-                "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
-              ),
-              react_default.a.createElement(
-                "h2",
-                { className: "modal-title" },
-                "This is a Modal"
-              ),
-              react_default.a.createElement(
-                "p",
-                { className: "modal-body" },
-                "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor"
-              ),
-              react_default.a.createElement(
-                "button",
-                { type: "button", name: "button", className: "btn btn-secondary btn-L" },
-                "Cancel"
-              ),
-              react_default.a.createElement(
-                "button",
-                { type: "button", name: "button", className: "btn btn-primary btn-L" },
-                "Save"
-              )
+              'button',
+              { type: 'button', name: 'button', className: 'btn btn-secondary btn-L' },
+              'Cancel'
+            ),
+            react_default.a.createElement(
+              'button',
+              { type: 'button', name: 'button', className: 'btn btn-primary btn-L' },
+              'Save'
             )
+          ),
+          react_default.a.createElement('br', null),
+          react_default.a.createElement(
+            'div',
+            { className: 'modal' },
+            react_default.a.createElement('button', { className: 'modal-close' }),
+            react_default.a.createElement(
+              'h2',
+              { className: 'modal-sub-title' },
+              'This is a Modal with One CTA'
+            ),
+            react_default.a.createElement(
+              'p',
+              { className: 'modal-body' },
+              'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor'
+            ),
+            react_default.a.createElement(
+              'button',
+              { type: 'button', name: 'button', className: 'btn btn-primary btn-L' },
+              'Save'
+            )
+          ),
+          react_default.a.createElement('br', null),
+          react_default.a.createElement(
+            'div',
+            { className: 'modal' },
+            react_default.a.createElement('button', { className: 'modal-close' }),
+            react_default.a.createElement('span', { className: 'icon', dangerouslySetInnerHTML: { __html: modal_errorImage } }),
+            react_default.a.createElement(
+              'h2',
+              { className: 'modal-sub-title mrg-L' },
+              'Your Cart is Empty'
+            ),
+            react_default.a.createElement(
+              'p',
+              { className: 'modal-body' },
+              'Oops! We cannot apply this coupon because your cart is empty. We can apply this coupon code once you add an item to your bag.'
+            ),
+            react_default.a.createElement(
+              'button',
+              { type: 'button', name: 'button', className: 'btn btn-secondary btn-L btn-grey-txt' },
+              'Shop Sales'
+            ),
+            react_default.a.createElement(
+              'button',
+              { type: 'button', name: 'button', className: 'btn btn-primary btn-L' },
+              'OK'
+            )
+          ),
+          react_default.a.createElement('br', null),
+          react_default.a.createElement(
+            'div',
+            { className: 'modal' },
+            react_default.a.createElement('button', { className: 'modal-close' }),
+            react_default.a.createElement(
+              'p',
+              { className: 'mrg-S' },
+              'Online & In Store'
+            ),
+            react_default.a.createElement(
+              'h2',
+              { className: 'modal-title-XXL title mrg-S' },
+              'Extra 15% OFF'
+            ),
+            react_default.a.createElement(
+              'p',
+              { className: 'modal-body' },
+              'Show coupon to sales associate'
+            ),
+            react_default.a.createElement(
+              'button',
+              { type: 'button', name: 'button', className: 'btn btn-secondary btn-L btn-grey-txt' },
+              'Print Coupon'
+            )
+          ),
+          react_default.a.createElement('br', null),
+          react_default.a.createElement(
+            'div',
+            { className: 'modal' },
+            react_default.a.createElement('button', { className: 'modal-close' }),
+            react_default.a.createElement('span', { className: 'icon', dangerouslySetInnerHTML: { __html: modal_successImage } }),
+            react_default.a.createElement(
+              'h2',
+              { className: 'modal-sub-title mrg-L' },
+              'Coupon Applied'
+            ),
+            react_default.a.createElement(
+              'p',
+              { className: 'modal-body' },
+              'You saved $78.99'
+            ),
+            react_default.a.createElement(
+              'button',
+              { type: 'button', name: 'button', className: 'btn btn-secondary btn-L btn-grey-txt' },
+              'OK'
+            )
+          ),
+          react_default.a.createElement('br', null),
+          react_default.a.createElement(
+            'div',
+            { className: 'modal' },
+            react_default.a.createElement('button', { className: 'modal-close' }),
+            react_default.a.createElement(
+              'div',
+              { className: 'msg msg-neutral mrg-S' },
+              'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut'
+            ),
+            react_default.a.createElement(
+              'h2',
+              { className: 'modal-sub-title' },
+              'This is a Modal'
+            ),
+            react_default.a.createElement(
+              'p',
+              { className: 'modal-body' },
+              'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor'
+            ),
+            react_default.a.createElement(
+              'button',
+              { type: 'button', name: 'button', className: 'btn btn-secondary btn-L' },
+              'Cancel'
+            ),
+            react_default.a.createElement(
+              'button',
+              { type: 'button', name: 'button', className: 'btn btn-primary btn-L' },
+              'Save'
+            )
+          ),
+          react_default.a.createElement('br', null),
+          react_default.a.createElement(
+            'div',
+            { className: 'modal scroll-container' },
+            react_default.a.createElement('button', { className: 'modal-close' }),
+            react_default.a.createElement(
+              'div',
+              { className: 'scroll-block custom-scroll' },
+              react_default.a.createElement(
+                'h2',
+                { className: 'title title-L test' },
+                '10 Year Mattress Encasement Plan Twin'
+              ),
+              react_default.a.createElement(
+                'h4',
+                { className: 'title-M title mrg-L' },
+                'Sealy Essentials\u2122 Holly Hills Firm - Mattress + Box Spring'
+              ),
+              'BEDGARD ENCASEMENT: 10 Year Plan with Encasement: For new residential mattresses purchased in conjunction with a BedGard Encasement. Coverage includes: All accidental stains (excluding accumulations). Construction of Mattress Protector. WHY BEDGARD ENCASEMENT? The manufacturer of the mattress will void the warranty if the mattress is stained. A full encasement reduces conditions which attract dust mites, allergens and bed bugs. HOW DOES IT WORK? Customers purchase and use the BedGard Protector along with their new residential mattress. If their mattress becomes stained during normal residential use while using the protector, the affected portion or the complete mattress will be repaired or replaced!HOW LONG IS COVERAGE? The BedGard Product Limited Warranty is effective for ten (10) years from the date the customer takes delivery of the Mattress Protector and the Mattress. WHAT PROBLEMS ARE COVERED? Construction and staining of the BedGard Mattress Protector/Pad. All accidental stains attributed to a single occurrence (excluding accumulation defined as a gradual buildup of dirt, dust, body oils and perspiration). HOW LONG DOES THE CUSTOMER HAVE TO REPORT A PROBLEM? Problems must be reported within ten (10) days of occurrence of the stain or damage. BEDGARD ENCASEMENT: 10 Year Plan with Encasement: For new residential mattresses purchased in conjunction with a BedGard Encasement. Coverage includes: All accidental stains (excluding accumulations). Construction of Mattress Protector. WHY BEDGARD ENCASEMENT? The manufacturer of the mattress will void the warranty if the mattress is stained. A full encasement reduces conditions which attract dust mites, allergens and bed bugs. HOW DOES IT WORK? Customers purchase and use the BedGard Protector along with their new residential mattress. If their mattress becomes stained during normal residential use while using the protector, the affected portion or the complete mattress will be repaired or replaced!HOW LONG IS COVERAGE? The BedGard Product Limited Warranty is effective for ten (10) years from the date the customer takes delivery of the Mattress Protector and the Mattress. WHAT PROBLEMS ARE COVERED? Construction and staining of the BedGard Mattress Protector/Pad. All accidental stains attributed to a single occurrence (excluding accumulation defined as a gradual buildup of dirt, dust, body oils and perspiration). HOW LONG DOES THE CUSTOMER HAVE TO REPORT A PROBLEM? Problems must be reported within ten (10) days of occurrence of the stain or damage.'
+            ),
+            react_default.a.createElement('div', { className: 'scroll-block-fade' })
           )
         )
       );
@@ -9835,9 +9932,9 @@ var modal__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(modal_Modal, "Modal", "/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/modal/modal.js");
+  __REACT_HOT_LOADER__.register(modal_Modal, 'Modal', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/modal/modal.js');
 
-  __REACT_HOT_LOADER__.register(modal__default, "default", "/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/modal/modal.js");
+  __REACT_HOT_LOADER__.register(modal__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/modal/modal.js');
 }();
 
 ;
@@ -11246,7 +11343,7 @@ var swatches_Swatches = function (_Component) {
             react_default.a.createElement('br', null),
             react_default.a.createElement(
               'div',
-              { className: 'md5 lg5 sm12 column' },
+              { className: 'md6 lg6 sm12 column' },
               react_default.a.createElement(
                 'div',
                 { className: 'color-swatches-list md12 lg12 sm12' },
@@ -11265,7 +11362,7 @@ var swatches_Swatches = function (_Component) {
                   { className: 'color-swatches-list-label' },
                   react_default.a.createElement(
                     'p',
-                    { className: 'md6 sm6 lg6 column' },
+                    null,
                     react_default.a.createElement(
                       'span',
                       null,
@@ -11275,15 +11372,6 @@ var swatches_Swatches = function (_Component) {
                         'Color:'
                       ),
                       ' Blue'
-                    )
-                  ),
-                  react_default.a.createElement(
-                    'p',
-                    { className: 'md6 sm6 lg6 column' },
-                    react_default.a.createElement(
-                      'a',
-                      { href: 'javascript:void(0)', className: 'show-all-cta' },
-                      'show all colors'
                     )
                   )
                 ),
@@ -11507,7 +11595,7 @@ var swatches_Swatches = function (_Component) {
                   { className: 'color-swatches-list-label' },
                   react_default.a.createElement(
                     'p',
-                    { className: 'md6 sm6 lg6 column' },
+                    null,
                     react_default.a.createElement(
                       'span',
                       null,
@@ -11517,15 +11605,6 @@ var swatches_Swatches = function (_Component) {
                         'Color:'
                       ),
                       ' Blue'
-                    )
-                  ),
-                  react_default.a.createElement(
-                    'p',
-                    { className: 'md6 sm6 lg6 column' },
-                    react_default.a.createElement(
-                      'a',
-                      { href: 'javascript:void(0)', className: 'show-all-cta' },
-                      'show all colors'
                     )
                   )
                 ),
@@ -11580,7 +11659,7 @@ var swatches_Swatches = function (_Component) {
                   { className: 'color-swatches-list-label' },
                   react_default.a.createElement(
                     'p',
-                    { className: 'md6 sm6 lg6 column' },
+                    null,
                     react_default.a.createElement(
                       'span',
                       null,
@@ -11590,15 +11669,6 @@ var swatches_Swatches = function (_Component) {
                         'Color:'
                       ),
                       ' Blue'
-                    )
-                  ),
-                  react_default.a.createElement(
-                    'p',
-                    { className: 'md6 sm6 lg6 column' },
-                    react_default.a.createElement(
-                      'a',
-                      { href: 'javascript:void(0)', className: 'show-all-cta' },
-                      'fewer colors'
                     )
                   )
                 ),
@@ -11684,7 +11754,7 @@ var swatches_Swatches = function (_Component) {
             ),
             react_default.a.createElement(
               'div',
-              { className: 'md5 lg5 sm12 column' },
+              { className: 'md6 lg6 sm12 column' },
               react_default.a.createElement(
                 'h2',
                 { className: 'title title-L mrg-M' },
@@ -11719,7 +11789,15 @@ var swatches_Swatches = function (_Component) {
                       null,
                       react_default.a.createElement('a', { href: 'javascript:void(0)', className: 'list-color-swatch' })
                     ),
-                    react_default.a.createElement('li', { className: 'swatches-list-icon', dangerouslySetInnerHTML: { __html: swatches_plusImage } })
+                    react_default.a.createElement(
+                      'li',
+                      { className: 'swatches-list-icon' },
+                      react_default.a.createElement(
+                        'a',
+                        { href: 'javascript:void(0)', className: 'list-color-swatch' },
+                        react_default.a.createElement('span', { dangerouslySetInnerHTML: { __html: swatches_plusImage } })
+                      )
+                    )
                   ),
                   react_default.a.createElement(
                     'span',

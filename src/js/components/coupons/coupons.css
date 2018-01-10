@@ -39,6 +39,9 @@
 
   & .print-barcode {
     color: var(--color-blackfriday-secondary-2) !important;
+    & .icon {
+      display: inline-block;
+    }
   }
 
   & .coupon-see-details {
