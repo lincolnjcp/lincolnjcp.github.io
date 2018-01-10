@@ -1,0 +1,47 @@
+.product-card-recommendations {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.product-card-recommendation {
+	width: 142px;
+	margin-right: 2px;
+	margin-bottom: 16px;
+	& .product-card-thumbnail {
+		padding-right: 16px;
+	}
+	& .product-card-price {
+		font-size: 0 /* Eliminate extra space between price and note */
+	}
+	& .product-card-price-value {
+		display: inline-block;
+	}
+	& .product-card-note {
+		display: inline-block;
+		white-space: pre-line;
+	}
+	& .product-card-name {
+		text-decoration: none;
+		display: inline-block;
+		margin-top: 12px;
+	}
+}
+
+.ratings-and-reviews {
+	margin-top: 12px;
+
+	& .ratings-and-reviews-stars,
+	& .ratings-and-reviews-count {
+		display: inline-block;
+		vertical-align: top;
+	}
+}
+@media (--viewport-md) {
+	.product-card-recommendation {
+		width: 160px;
+		margin-right: 16px;
+		& .product-card-thumbnail {
+			padding-right: 32px;
+		}
+	}
+}

@@ -561,7 +561,7 @@
 	    overflow: hidden;  /* Provides clipping for initial slide down animation */
 	    opacity: 0;
 		background-color: var(--color-white);
-
+		transition: width 200ms ease-in, height 400ms ease-in;
 	   	& .main-menu-tier1-link,
 	    & .main-menu-tier2-link,
 	    & .main-menu-tier3-link {
@@ -603,7 +603,7 @@
 			display: block;
 			visibility: visible;
 			z-index: 2001;
-			transition: width 200ms ease-in;
+			
 			&.active-tier2 {
 				width: 432px;
 			}

@@ -39,6 +39,7 @@ Base Styles
 @import "base/toggles";
 @import "../js/components/carousel/carousel";
 @import "../js/components/coupons/coupons";
+@import "../js/components/product-cards/product-cards";
 
 /* @import "base/additional-buttons"; */
 /* @import "../js/components/work-in-progress/work-in-progress"; */

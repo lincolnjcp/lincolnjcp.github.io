@@ -218,8 +218,8 @@ const rootNav = [
                 content: 'Mini PDP/Quick Add',
             },
             {
-                to: '/',
-                activeClassName: 'inactive',
+                to: '/page-modules/product-cards',
+                activeClassName: 'active',
                 content: 'Product Cards (Gallery/Rec Row/Cart)',
             },
             {
