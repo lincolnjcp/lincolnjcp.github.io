@@ -15,6 +15,7 @@ import Forms from '../components/forms';
 import StarRatings from '../components/star-ratings';
 import Scrollbar from '../components/scrollbar';
 import VisualNavigation from '../components/visual-navigation';
+import Modal from '../components/modal';
 import CountdownTimers from '../components/countdown-timers';
 import Tooltips from '../components/tooltips';
 import Tabs from '../components/tabs';
@@ -50,6 +51,7 @@ class DesignSystemPage extends Component {
    Scrollbar: {componentElement: Scrollbar, componentDisplayName: "Scrollbar", componentSubNav: ['Scrollbar']},
    CountdownTimers: {componentElement: CountdownTimers, componentDisplayName: "Countdown Timers", componentSubNav: ['Countdown Timers']},
    VisualNavigation: {componentElement: VisualNavigation, componentDisplayName: "Visual Navigation", componentSubNav: ['Visual Navigation']},
+   Modal: {componentElement: Modal, componentDisplayName: "Modal", componentSubNav: ['Modal']},
    Tooltips: {componentElement: Tooltips, componentDisplayName: "Tooltips", componentSubNav: ['Tooltips']},
    Tabs: {componentElement: Tabs, componentDisplayName: "Tabs", componentSubNav: ['Tabs']},
    Pagination: {componentElement: Pagination, componentDisplayName: "Pagination", componentSubNav: ['Pagination']},

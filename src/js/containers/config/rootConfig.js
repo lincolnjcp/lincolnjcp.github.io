@@ -243,8 +243,8 @@ const rootNav = [
                 content: 'Like/Dislike Messages',
             },
             {
-                to: '/',
-                activeClassName: 'inactive',
+                to: '/components/modal',
+                activeClassName: 'active',
                 content: 'Modals',
             },
             {

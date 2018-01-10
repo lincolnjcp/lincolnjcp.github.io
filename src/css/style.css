@@ -19,7 +19,6 @@ Base Styles
 @import "../js/components/icons/icons";
 @import "../js/components/grid/grid";
 @import "../js/components/alerts/alerts";
-@import "base/modal";
 @import "base/product";
 @import "../js/components/tables/tables";
 @import "base/wells";
@@ -34,6 +33,7 @@ Base Styles
 @import "../js/components/tabs/tabs";
 @import "../js/components/pagination/pagination";
 @import "../js/components/swatches/swatches";
+@import "../js/components/modal/modal";
 @import "../js/components/selectors/selectors";
 @import "base/progressbars";
 @import "base/toggles";

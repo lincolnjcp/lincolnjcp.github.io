@@ -182,6 +182,25 @@ p {
     line-height: 18px;
 }
 
+.modal-title-XXL {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.modal-title{
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: var(--font-weight-regular);
+    color: var(--color-nightsky);
+  }
+
+.modal-sub-title {
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: var(--font-weight-regular);
+    color: var(--color-nightsky);
+}
+
 /*  Standard Text */
 .std-txt {
     color: var(--color-slate);

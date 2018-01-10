@@ -54,6 +54,10 @@ button{
     }
   }
 
+  &.btn-grey-txt {
+    color: var(--color-nightsky);
+  }
+
   /*  Tertiary */
   &.btn-tertiary{
     min-width: 128px;
