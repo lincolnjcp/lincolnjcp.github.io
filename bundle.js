@@ -13536,13 +13536,13 @@ var header_Header = function (_Component) {
 
   header__createClass(Header, [{
     key: 'changeMyStoreContent',
-    value: function changeMyStoreContent() {
+    value: function changeMyStoreContent(type) {
       return react_default.a.createElement(
         'div',
         null,
         react_default.a.createElement(
           'p',
-          { id: 'changeMyStoreZipLink' },
+          { id: 'changeMyStoreZipLink' + type },
           'Stores within 15 mi. of ',
           react_default.a.createElement(
             'strong',
@@ -13552,13 +13552,13 @@ var header_Header = function (_Component) {
           ' ',
           react_default.a.createElement(
             'a',
-            { href: 'javascript:void(0);', className: 'expand-collapse-btn', 'data-target': '#changeMyStoreZip', 'data-hide-on-open-target': '#changeMyStoreZipLink', 'data-duration': '0' },
+            { href: 'javascript:void(0);', className: 'expand-collapse-btn', 'data-target': '#changeMyStoreZip' + type, 'data-hide-on-open-target': '#changeMyStoreZipLink' + type, 'data-duration': '0' },
             'Change'
           )
         ),
         react_default.a.createElement(
           'div',
-          { className: 'expand-collapse-section', id: 'changeMyStoreZip' },
+          { className: 'expand-collapse-section', id: 'changeMyStoreZip' + type },
           react_default.a.createElement(
             'div',
             { className: 'input-form' },
@@ -13568,7 +13568,7 @@ var header_Header = function (_Component) {
               react_default.a.createElement(
                 'div',
                 { className: 'input-form-store-locator-field-1' },
-                react_default.a.createElement('input', { className: 'form-control input-text', id: 'search', type: 'text', placeholder: 'Zip Code', defaultValue: '75024' })
+                react_default.a.createElement('input', { className: 'form-control input-text', id: 'changeMyStoreSearch' + type, type: 'text', placeholder: 'Zip Code', defaultValue: '75024' })
               ),
               react_default.a.createElement(
                 'div',
@@ -13909,14 +13909,14 @@ var header_Header = function (_Component) {
               { className: 'side-panel-col side-panel-col-map-view algn-rght' },
               react_default.a.createElement(
                 'a',
-                { href: 'javascript:void(0);', className: 'expand-collapse-btn', 'data-hide-text': 'List View', 'data-target': '#changeMyStoreMap' },
+                { href: 'javascript:void(0);', className: 'expand-collapse-btn', 'data-hide-text': 'List View', 'data-target': '#changeMyStoreMap' + type },
                 'Map View'
               )
             )
           ),
           react_default.a.createElement(
             'div',
-            { className: 'expand-collapse-section change-my-store-map-view', id: 'changeMyStoreMap' },
+            { className: 'expand-collapse-section change-my-store-map-view', id: 'changeMyStoreMap' + type },
             react_default.a.createElement('img', { src: '/images/design-system/fpo/find-a-store/map.jpg', alt: '' })
           )
         ),
@@ -13953,7 +13953,7 @@ var header_Header = function (_Component) {
                 { className: 'side-panel-col-button' },
                 react_default.a.createElement(
                   'a',
-                  { href: 'javascript:void(0);', 'class': 'btn btn-L btn-full btn-primary btn-disabled' },
+                  { href: 'javascript:void(0);', 'class': 'btn btn-M btn-full btn-primary btn-disabled' },
                   'My Store'
                 )
               )
@@ -13963,7 +13963,7 @@ var header_Header = function (_Component) {
               { className: 'side-panel-col-full' },
               react_default.a.createElement(
                 'div',
-                { className: 'expand-collapse-section change-my-store-details', id: 'storeLising1' },
+                { className: 'expand-collapse-section change-my-store-details', id: 'storeLising1' + type },
                 react_default.a.createElement(
                   'div',
                   { className: 'std-txt std-txt-S mrg-M color-nightsky' },
@@ -14033,7 +14033,7 @@ var header_Header = function (_Component) {
                 { className: 'std-txt std-txt-S' },
                 react_default.a.createElement(
                   'a',
-                  { href: 'javascript:void(0);', className: 'expand-collapse-btn', 'data-hide-text': 'Hide Hours & Services', 'data-target': '#storeLising1' },
+                  { href: 'javascript:void(0);', className: 'expand-collapse-btn', 'data-hide-text': 'Hide Hours & Services', 'data-target': '#storeLising2' + type },
                   'View Hours & Services'
                 )
               )
@@ -14073,7 +14073,7 @@ var header_Header = function (_Component) {
                 { className: 'side-panel-col-button' },
                 react_default.a.createElement(
                   'a',
-                  { href: 'javascript:void(0);', 'class': 'btn btn-L btn-full btn-primary' },
+                  { href: 'javascript:void(0);', 'class': 'btn btn-M btn-full btn-primary' },
                   'Set Store'
                 )
               )
@@ -14083,7 +14083,7 @@ var header_Header = function (_Component) {
               { className: 'side-panel-col-full' },
               react_default.a.createElement(
                 'div',
-                { className: 'expand-collapse-section change-my-store-details', id: 'storeLising2' },
+                { className: 'expand-collapse-section change-my-store-details', id: 'storeLising2' + type },
                 react_default.a.createElement(
                   'div',
                   { className: 'std-txt std-txt-S mrg-M color-nightsky' },
@@ -14153,7 +14153,7 @@ var header_Header = function (_Component) {
                 { className: 'std-txt std-txt-S' },
                 react_default.a.createElement(
                   'a',
-                  { href: 'javascript:void(0);', className: 'expand-collapse-btn', 'data-hide-text': 'Hide Hours & Services', 'data-target': '#storeLising2' },
+                  { href: 'javascript:void(0);', className: 'expand-collapse-btn', 'data-hide-text': 'Hide Hours & Services', 'data-target': '#storeLising2' + type },
                   'View Hours & Services'
                 )
               )
@@ -14280,10 +14280,20 @@ var header_Header = function (_Component) {
       });
 
       jquery_default()('.side-panel').unbind('click').on('click', function (event) {
+        var closed = false;
         if (jquery_default()(event.target).is('.side-panel')) {
           jquery_default()(this).removeClass('is-visible');
+          closed = true;
         } else if (jquery_default()(event.target).is('.side-panel-close') || jquery_default()(event.target).closest('a').hasClass('side-panel-close')) {
           jquery_default()(event.target).closest('.side-panel').removeClass('is-visible');
+          closed = true;
+        }
+        if (closed === true && jquery_default()(this).find('.main-menu-reset').length > 0) {
+          setTimeout(function () {
+            jquery_default()('.main-menu-tier2-ul.tier2-click').removeClass('tier2-click');
+            jquery_default()('.main-menu-md-panel.tier2-click').removeClass('tier2-click');
+            jquery_default()('.side-panel-container').removeClass('tier2-open');
+          }, 400);
         }
         event.preventDefault();
       });
@@ -14297,6 +14307,7 @@ var header_Header = function (_Component) {
               top = jquery_default()(".main-menu-bar-secondary").height() + jquery_default()(".main-menu-bar-secondary").offset().top;
             }
             jquery_default()("#mainMenusecondaryLightBox").css({ "top": top, "height": jquery_default()(document).height() });
+            jquery_default()("#mainMenusecondaryLightBox").fadeIn(400);
           }
           jquery_default()(".main-menu-secondary-li").addClass("main-menu-secondary-hover");
         },
@@ -14338,7 +14349,7 @@ var header_Header = function (_Component) {
                 jquery_default()(".main-menu-tier2-li.active").removeClass('active');
                 jquery_default()('.to-activate').removeClass('to-activate').addClass('active');
               }
-            }, 200);
+            }, 500);
           }
 
           jquery_default()(this).closest('.main-menu-tier1').addClass('active-tier3');
@@ -14405,9 +14416,7 @@ var header_Header = function (_Component) {
 
       jquery_default()(".main-menu-reset").on('click', function (event) {
         event.preventDefault();
-        jquery_default()('.main-menu-tier2-ul.tier2-click').addClass('tier2-click');
-        jquery_default()('.main-menu-md-panel.tier2-click').addClass('tier2-click');
-        jquery_default()('.side-panel-container').removeClass('tier2-open');
+        jquery_default()('.side-panel-container').trigger('click');
       });
 
       jquery_default()('.expand-collapse-btn').unbind('click').on('click', function (event) {
@@ -14773,7 +14782,7 @@ var header_Header = function (_Component) {
                                   null,
                                   react_default.a.createElement(
                                     'a',
-                                    { href: 'javascript:void(0);', className: 'main-menu-tier1-button-md-down main-menu-md-primary main-menu-md-primary-no-arrow' },
+                                    { href: 'javascript:void(0);', className: 'main-menu-tier1-button-md-down main-menu-md-primary' },
                                     react_default.a.createElement(
                                       'strong',
                                       null,
@@ -14786,7 +14795,7 @@ var header_Header = function (_Component) {
                                   { className: 'main-menu-md-panel-li' },
                                   react_default.a.createElement(
                                     'a',
-                                    { href: 'javascript:void(0);', className: 'main-menu-tier1-button-md-down main-menu-md-primary main-menu-md-panel-btn' },
+                                    { href: 'javascript:void(0);', className: 'main-menu-tier1-button-md-down main-menu-md-primary main-menu-md-primary-arrow main-menu-md-panel-btn' },
                                     react_default.a.createElement(
                                       'strong',
                                       null,
@@ -14797,7 +14806,7 @@ var header_Header = function (_Component) {
                                   react_default.a.createElement(
                                     'div',
                                     { className: 'main-menu-md-panel' },
-                                    this.changeMyStoreContent()
+                                    this.changeMyStoreContent('Mobile')
                                   )
                                 )
                               ),
@@ -15164,7 +15173,7 @@ var header_Header = function (_Component) {
               react_default.a.createElement(
                 'div',
                 { className: 'side-panel-content' },
-                this.changeMyStoreContent()
+                this.changeMyStoreContent('Desktop')
               )
             )
           )

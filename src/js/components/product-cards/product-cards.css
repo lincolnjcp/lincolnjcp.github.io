@@ -27,13 +27,23 @@
 	}
 }
 
-
-.product-card-pane-L {
-	width: 264px;
-	margin: 0 8px 8px;
-	padding: 8px 8px 16px;
-	border: 1px solid var(--color-lightgrey);
-	position: relative;
+.product-card {
+	& .product-card-price {
+		font-size: 0 /* Eliminate extra space between price and note */
+	}
+	& .product-card-price-value {
+		display: inline-block;
+	}
+	& .product-card-note {
+		display: inline-block;
+		white-space: pre-line;
+	}
+	& .product-card-name {
+		text-decoration: none;
+		display: inline-block;
+		margin-top: 12px;
+		max-width: 225px;
+	}
 
 	& .product-card-thumbnail {
 		& .flag {
@@ -53,22 +63,14 @@
 			}
 		}
 	}
-	& .product-card-price {
-		font-size: 0 /* Eliminate extra space between price and note */
-	}
-	& .product-card-price-value {
-		display: inline-block;
-	}
-	& .product-card-note {
-		display: inline-block;
-		white-space: pre-line;
-	}
-	& .product-card-name {
-		text-decoration: none;
-		display: inline-block;
-		margin-top: 12px;
-		max-width: 225px;
-	}
+}
+
+.product-card-pane-L {
+	width: 264px;
+	margin: 0 8px 8px;
+	padding: 8px 8px 16px;
+	border: 1px solid var(--color-lightgrey);
+	position: relative;
 }
 
 
@@ -85,40 +87,10 @@
 	&:last-of-type {
 		border-right: none;
 	}
-
 	& .product-card-thumbnail {
-		& .flag {
-			position: absolute;
-			top: 16px;
-			left: -8px;
-		}
 		& .favorite-icon {
-			position: absolute;
-			top: 12px;
 			right: 16px;
-			width: 32px;
-			height: 32px;
-			& svg {
-				width: 32px;
-				height: 32px;
-			}
 		}
-	}
-	& .product-card-price {
-		font-size: 0 /* Eliminate extra space between price and note */
-	}
-	& .product-card-price-value {
-		display: inline-block;
-	}
-	& .product-card-note {
-		display: inline-block;
-		white-space: pre-line;
-	}
-	& .product-card-name {
-		text-decoration: none;
-		display: inline-block;
-		margin-top: 12px;
-		max-width: 225px;
 	}
 }
 
@@ -132,11 +104,6 @@
 	&:first-of-type {
 		border-top: none;
 	}
-
-	& .product-card-details {
-
-	}
-
 	& .product-card-thumbnail {
 		position: relative;
 		width: 144px;
@@ -144,37 +111,12 @@
 		padding-left: 16px;
 		padding-right: 16px;
 		& .flag {
-			position: absolute;
 			top: 10px;
-			left: -8px;
 		}
 		& .favorite-icon {
-			position: absolute;
 			top: 6px;
 			right: 16px;
-			width: 32px;
-			height: 32px;
-			& svg {
-				width: 32px;
-				height: 32px;
-			}
 		}
-	}
-	& .product-card-price {
-		font-size: 0 /* Eliminate extra space between price and note */
-	}
-	& .product-card-price-value {
-		display: inline-block;
-	}
-	& .product-card-note {
-		display: inline-block;
-		white-space: pre-line;
-	}
-	& .product-card-name {
-		text-decoration: none;
-		display: inline-block;
-		margin-top: 12px;
-		max-width: 225px;
 	}
 }
 
