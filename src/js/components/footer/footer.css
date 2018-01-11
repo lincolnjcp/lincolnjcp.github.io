@@ -45,13 +45,13 @@
         padding: 0;
         & ul {
             margin-top: 16px;
-            @media (--viewport-sm) {
+            @media (--viewport-sm-only) {
                 text-align: center;
             }
             & li{
                 display: inline;
                 padding-right: 16px;
-                @media (--viewport-sm) {
+                @media (--viewport-sm-only) {
                     display: inline-block;
                     text-align: center;
                     padding: 0 20px;
@@ -59,13 +59,13 @@
                 & a {
                     font-size: 12px;
                     text-decoration: none;
-                    @media (--viewport-sm) {
+                    @media (--viewport-sm-only) {
                         display: block;
                         padding-top: 20px;
                     }
                 }
                 & .icon {
-                    @media (--viewport-sm) {
+                    @media (--viewport-sm-only) {
                         width: 100%;
                     }
                     position: relative;
@@ -80,11 +80,11 @@
         & ul {
             margin-top: 16px;
             float: right;
-            @media (--viewport-md){
+            @media (--viewport-md-only){
                 float: none;
                 text-align: center;
             }
-            @media (--viewport-sm) {
+            @media (--viewport-sm-only) {
                 float: none;
                 text-align: center;
             }
@@ -105,6 +105,7 @@
         border-bottom: 1px solid var(--color-concrete);
         margin-top: 32px;
         padding: 16px 0;
+        float: left;
         & ul {
             float: left;
             width: 20%;
@@ -124,16 +125,16 @@
     }
     & .footer-bottom-links {
         padding: 16px 0;
-        @media (--viewport-sm) {
+        @media (--viewport-sm-only) {
             padding-bottom: 8px;
         }
         & .footer-jcp-card {
             padding: 0;
-            @media (--viewport-md) {
+            @media (--viewport-md-only) {
                 margin: 0 auto;
                 display: block;
             }
-            @media (--viewport-sm) {
+            @media (--viewport-sm-only) {
                 padding-left: 32px;
             }
             & .card-icon {
@@ -165,7 +166,7 @@
             }
         }
         & .footer-legal-links {
-            @media (--viewport-md) {
+            @media (--viewport-md-only) {
                 text-align: center;
             }
             @media (--viewport-sm) {
@@ -175,7 +176,7 @@
             & ul {
                 float: right;
                 padding-top: 8px;
-                @media (--viewport-md) {
+                @media (--viewport-md-only) {
                     float: none;
                 }
                 @media (--viewport-sm) {
@@ -187,7 +188,7 @@
                     padding: 8px 12px 0 0;
                     & a{
                         text-decoration: none;
-                        @media (--viewport-sm) {
+                        @media (--viewport-sm-only) {
                             font-size: 10px;
                         }
                     }
