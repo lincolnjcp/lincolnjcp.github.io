@@ -28,7 +28,13 @@
       cursor: pointer;
       & .list-expand {
         background: none;
-        border: 0;
+        & svg {
+          width: 24px;
+          height: 24px;
+          top: 7px;
+          position: relative;
+          left: 7px;
+        }
       }
     }
 
