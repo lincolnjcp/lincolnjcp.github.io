@@ -19,6 +19,9 @@
       position: relative;
       left: -32px;
       display: inline-block;
+      & > * {
+        display: inline;
+      }
     }
 
     & span {
@@ -45,8 +48,9 @@
   }
 
   & .coupon-see-details {
-    & a {
+    & a, & button {
       margin-right: 16px;
+      padding: 0;
     }
   }
 }

@@ -781,8 +781,8 @@ var rootNav = [{
         activeClassName: 'inactive',
         content: 'Recommendation Zones'
     }, {
-        to: '/',
-        activeClassName: 'inactive',
+        to: '/page-modules/filter-sort',
+        activeClassName: 'active',
         content: 'Filter Sorting'
     }, {
         to: '/',
@@ -1526,6 +1526,11 @@ var buttons_Buttons = function (_Component) {
                                 'Disabled'
                             )
                         )
+                    ),
+                    react_default.a.createElement(
+                        'button',
+                        { className: 'link-sm btn-tiny' },
+                        'See Details'
                     )
                 ),
                 react_default.a.createElement(
@@ -12784,7 +12789,17 @@ var coupons_Coupons = function (_Component) {
               react_default.a.createElement(
                 'span',
                 { className: 'coupon-badge title mrg-S' },
-                'SALE ENDS IN 2HRS'
+                'SALE ENDS IN 2HRS',
+                react_default.a.createElement(
+                  'div',
+                  null,
+                  'style'
+                ),
+                react_default.a.createElement(
+                  'div',
+                  null,
+                  'Days'
+                )
               ),
               react_default.a.createElement(
                 'span',
@@ -12850,6 +12865,7 @@ var coupons_Coupons = function (_Component) {
               react_default.a.createElement(
                 'div',
                 { className: 'coupon-see-details' },
+                react_default.a.createElement('button', { className: 'link-sm btn-tiny' }),
                 react_default.a.createElement(
                   'a',
                   { href: 'javascript:void(0)', className: 'link-sm' },
@@ -15260,12 +15276,12 @@ var footer_Footer = function (_Component) {
                     touchSupported = 'ontouchstart' in window,
                     pointerSupported = 'pointerdown' in window;
 
-                skipClickDelay = function skipClickDelay(e) {
+                var skipClickDelay = function skipClickDelay(e) {
                     e.preventDefault();
                     e.target.click();
                 };
 
-                setAriaAttr = function setAriaAttr(el, ariaType, newProperty) {
+                var setAriaAttr = function setAriaAttr(el, ariaType, newProperty) {
                     el.setAttribute(ariaType, newProperty);
                 };
                 setAccordionAria = function setAccordionAria(el1, el2, expanded) {
@@ -15337,11 +15353,11 @@ var footer_Footer = function (_Component) {
                             ),
                             react_default.a.createElement(
                                 'div',
-                                { 'class': 'position-rel input-form' },
+                                { className: 'position-rel input-form' },
                                 react_default.a.createElement(
                                     'div',
-                                    { 'class': 'css-float-label' },
-                                    react_default.a.createElement('input', { type: 'tel', id: 'signup', name: 'signup', placeholder: 'Phone Number or Email...', maxlength: '', 'class': 'form-control input-text' }),
+                                    { className: 'css-float-label' },
+                                    react_default.a.createElement('input', { type: 'tel', id: 'signup', name: 'signup', placeholder: 'Phone Number or Email...', maxlength: '', className: 'form-control input-text' }),
                                     react_default.a.createElement(
                                         'label',
                                         { 'for': 'signup' },
@@ -15349,7 +15365,7 @@ var footer_Footer = function (_Component) {
                                     ),
                                     react_default.a.createElement(
                                         'a',
-                                        { href: 'javascript:void();', 'class': 'btn btn-S btn-primary apply-btn' },
+                                        { href: 'javascript:void();', className: 'btn btn-S btn-primary apply-btn' },
                                         'Apply'
                                     ),
                                     react_default.a.createElement(
@@ -15362,7 +15378,7 @@ var footer_Footer = function (_Component) {
                         ),
                         react_default.a.createElement(
                             'div',
-                            { className: 'contact-list md12 lg6 xl6 sm12' },
+                            { className: 'contact-list md7 lg6 xl6 sm12' },
                             react_default.a.createElement(
                                 'ul',
                                 null,
@@ -15406,7 +15422,7 @@ var footer_Footer = function (_Component) {
                                 null,
                                 react_default.a.createElement(
                                     'li',
-                                    null,
+                                    { className: 'hide-for-medium-only hide-for-small-only' },
                                     'Stay Connected'
                                 ),
                                 react_default.a.createElement(
@@ -15467,7 +15483,214 @@ var footer_Footer = function (_Component) {
                         ),
                         react_default.a.createElement(
                             'div',
-                            { className: 'footer-links md12 lg12 xl12 sm12' },
+                            { className: 'footer-accordion show-for-small-only show-for-medium-only' },
+                            react_default.a.createElement(
+                                'div',
+                                { className: 'accordion' },
+                                react_default.a.createElement(
+                                    'dl',
+                                    null,
+                                    react_default.a.createElement(
+                                        'dt',
+                                        null,
+                                        react_default.a.createElement(
+                                            'a',
+                                            { href: '#accordion1', 'aria-expanded': 'false', 'aria-controls': 'accordion1', className: 'accordion-title accordionTitle js-accordionTrigger' },
+                                            'JCPenney Rewards & Credit Card'
+                                        )
+                                    ),
+                                    react_default.a.createElement(
+                                        'dd',
+                                        { className: 'accordion-content accordionItem is-collapsed', id: 'accordion1', 'aria-hidden': 'true' },
+                                        react_default.a.createElement(
+                                            'a',
+                                            { href: 'javascript:void();' },
+                                            'Enroll in Rewards'
+                                        ),
+                                        react_default.a.createElement(
+                                            'a',
+                                            { href: 'javascript:void();' },
+                                            'Sign In to Rewards'
+                                        ),
+                                        react_default.a.createElement(
+                                            'a',
+                                            { href: 'javascript:void();' },
+                                            'JCPenney Credit Card'
+                                        )
+                                    ),
+                                    react_default.a.createElement(
+                                        'dt',
+                                        null,
+                                        react_default.a.createElement(
+                                            'a',
+                                            { href: '#accordion2', 'aria-expanded': 'false', 'aria-controls': 'accordion2', className: 'accordion-title accordionTitle js-accordionTrigger' },
+                                            'Customer Service'
+                                        )
+                                    ),
+                                    react_default.a.createElement(
+                                        'dd',
+                                        { className: 'accordion-content accordionItem is-collapsed', id: 'accordion1', 'aria-hidden': 'true' },
+                                        react_default.a.createElement(
+                                            'a',
+                                            { href: 'javascript:void();' },
+                                            'Returns'
+                                        ),
+                                        react_default.a.createElement(
+                                            'a',
+                                            { href: 'javascript:void();' },
+                                            'Shipping information'
+                                        ),
+                                        react_default.a.createElement(
+                                            'a',
+                                            { href: 'javascript:void();' },
+                                            'Rebates'
+                                        ),
+                                        react_default.a.createElement(
+                                            'a',
+                                            { href: 'javascript:void();' },
+                                            'Same Day Pickup'
+                                        ),
+                                        react_default.a.createElement(
+                                            'a',
+                                            { href: 'javascript:void();' },
+                                            'My JCP.com Account'
+                                        ),
+                                        react_default.a.createElement(
+                                            'a',
+                                            { href: 'javascript:void();' },
+                                            'Track My Order'
+                                        ),
+                                        react_default.a.createElement(
+                                            'a',
+                                            { href: 'javascript:void();' },
+                                            'Servicio Al Cliente'
+                                        )
+                                    ),
+                                    react_default.a.createElement(
+                                        'dt',
+                                        null,
+                                        react_default.a.createElement(
+                                            'a',
+                                            { href: '#accordion3', 'aria-expanded': 'false', 'aria-controls': 'accordion3', className: 'accordion-title accordionTitle js-accordionTrigger' },
+                                            'Store Services'
+                                        )
+                                    ),
+                                    react_default.a.createElement(
+                                        'dd',
+                                        { className: 'accordion-content accordionItem is-collapsed', id: 'accordion1', 'aria-hidden': 'true' },
+                                        react_default.a.createElement(
+                                            'a',
+                                            { href: 'javascript:void();' },
+                                            'JCP Salon'
+                                        ),
+                                        react_default.a.createElement(
+                                            'a',
+                                            { href: 'javascript:void();' },
+                                            'Sephora'
+                                        ),
+                                        react_default.a.createElement(
+                                            'a',
+                                            { href: 'javascript:void();' },
+                                            'JCP Optical'
+                                        ),
+                                        react_default.a.createElement(
+                                            'a',
+                                            { href: 'javascript:void();' },
+                                            'Gift Registry'
+                                        ),
+                                        react_default.a.createElement(
+                                            'a',
+                                            { href: 'javascript:void();' },
+                                            'JCP Custom Window'
+                                        ),
+                                        react_default.a.createElement(
+                                            'a',
+                                            { href: 'javascript:void();' },
+                                            'View All Store Services'
+                                        )
+                                    ),
+                                    react_default.a.createElement(
+                                        'dt',
+                                        null,
+                                        react_default.a.createElement(
+                                            'a',
+                                            { href: '#accordion3', 'aria-expanded': 'false', 'aria-controls': 'accordion3', className: 'accordion-title accordionTitle js-accordionTrigger' },
+                                            'More Ways to Shop'
+                                        )
+                                    ),
+                                    react_default.a.createElement(
+                                        'dd',
+                                        { className: 'accordion-content accordionItem is-collapsed', id: 'accordion1', 'aria-hidden': 'true' },
+                                        react_default.a.createElement(
+                                            'a',
+                                            { href: 'javascript:void();' },
+                                            'See our ads'
+                                        ),
+                                        react_default.a.createElement(
+                                            'a',
+                                            { href: 'javascript:void();' },
+                                            'Coupons'
+                                        ),
+                                        react_default.a.createElement(
+                                            'a',
+                                            { href: 'javascript:void();' },
+                                            'Recommendations'
+                                        ),
+                                        react_default.a.createElement(
+                                            'a',
+                                            { href: 'javascript:void();' },
+                                            'Gift Cards'
+                                        ),
+                                        react_default.a.createElement(
+                                            'a',
+                                            { href: 'javascript:void();' },
+                                            'International Shopping'
+                                        )
+                                    ),
+                                    react_default.a.createElement(
+                                        'dt',
+                                        null,
+                                        react_default.a.createElement(
+                                            'a',
+                                            { href: '#accordion3', 'aria-expanded': 'false', 'aria-controls': 'accordion3', className: 'accordion-title accordionTitle js-accordionTrigger' },
+                                            'Corporate Overview'
+                                        )
+                                    ),
+                                    react_default.a.createElement(
+                                        'dd',
+                                        { className: 'accordion-content accordionItem is-collapsed', id: 'accordion1', 'aria-hidden': 'true' },
+                                        react_default.a.createElement(
+                                            'a',
+                                            { href: 'javascript:void();' },
+                                            'Careers'
+                                        ),
+                                        react_default.a.createElement(
+                                            'a',
+                                            { href: 'javascript:void();' },
+                                            'Company Info'
+                                        ),
+                                        react_default.a.createElement(
+                                            'a',
+                                            { href: 'javascript:void();' },
+                                            'Community'
+                                        ),
+                                        react_default.a.createElement(
+                                            'a',
+                                            { href: 'javascript:void();' },
+                                            'Media'
+                                        ),
+                                        react_default.a.createElement(
+                                            'a',
+                                            { href: 'javascript:void();' },
+                                            'Investors'
+                                        )
+                                    )
+                                )
+                            )
+                        ),
+                        react_default.a.createElement(
+                            'div',
+                            { className: 'footer-links md12 lg12 xl12 sm12 show-for-large-only show-for-xlarge-only' },
                             react_default.a.createElement(
                                 'ul',
                                 null,
@@ -15762,7 +15985,7 @@ var footer_Footer = function (_Component) {
                             { className: 'footer-bottom-links md12 lg12 xl12 sm12' },
                             react_default.a.createElement(
                                 'div',
-                                { className: 'footer-jcp-card md4 lg4 xl4 sm12' },
+                                { className: 'footer-jcp-card md6 lg4 xl4 sm12' },
                                 react_default.a.createElement(
                                     'div',
                                     { className: 'card-icon' },
@@ -15811,7 +16034,7 @@ var footer_Footer = function (_Component) {
                             ),
                             react_default.a.createElement(
                                 'div',
-                                { className: 'footer-legal-links md8 lg8 xl8 sm12' },
+                                { className: 'footer-legal-links md12 lg8 xl8 sm12' },
                                 react_default.a.createElement(
                                     'ul',
                                     null,
@@ -15876,117 +16099,6 @@ var footer_Footer = function (_Component) {
                             'div',
                             { className: 'footer-copy' },
                             ' \xA9JCP Media, Inc. 2017. All Rights Reserved'
-                        )
-                    ),
-                    react_default.a.createElement(
-                        'div',
-                        { 'class': 'container' },
-                        react_default.a.createElement(
-                            'h1',
-                            null,
-                            'LDS Expand/Collapse'
-                        ),
-                        react_default.a.createElement(
-                            'h2',
-                            null,
-                            'Accordions'
-                        ),
-                        react_default.a.createElement(
-                            'div',
-                            { 'class': 'accordion' },
-                            react_default.a.createElement(
-                                'dl',
-                                null,
-                                react_default.a.createElement(
-                                    'dt',
-                                    null,
-                                    react_default.a.createElement(
-                                        'a',
-                                        { href: '#accordion1', 'aria-expanded': 'false', 'aria-controls': 'accordion1', 'class': 'accordion-title accordionTitle js-accordionTrigger' },
-                                        'First Accordion Heading'
-                                    )
-                                ),
-                                react_default.a.createElement(
-                                    'dd',
-                                    { 'class': 'accordion-content accordionItem is-collapsed', id: 'accordion1', 'aria-hidden': 'true' },
-                                    react_default.a.createElement(
-                                        'p',
-                                        null,
-                                        'Lorem ipsum dolor sit amet, consectetur ',
-                                        react_default.a.createElement(
-                                            'a',
-                                            { href: 'https://www.google.com' },
-                                            'Test'
-                                        ),
-                                        ' adipiscing elit. Morbi eu interdum diam. Donec interdum porttitor risus non bibendum. Maecenas sollicitudin eros in quam imperdiet placerat. Cras justo purus, rhoncus nec lobortis ut, iaculis vel ipsum. Donec dignissim arcu nec elit faucibus condimentum. Donec facilisis consectetur enim sit amet varius. Pellentesque justo dui, sodales quis luctus a, iaculis eget mauris. '
-                                    ),
-                                    react_default.a.createElement(
-                                        'p',
-                                        null,
-                                        'Aliquam dapibus, ante quis fringilla feugiat, mauris risus condimentum massa, at elementum libero quam ac ligula. Pellentesque at rhoncus dolor. Duis porttitor nibh ut lobortis aliquam. Nullam eu dolor venenatis mauris placerat tristique eget id dolor. Quisque blandit adipiscing erat vitae dapibus. Nulla aliquam magna nec elementum tincidunt.'
-                                    )
-                                ),
-                                react_default.a.createElement(
-                                    'dt',
-                                    null,
-                                    react_default.a.createElement(
-                                        'a',
-                                        { href: '#accordion2', 'aria-expanded': 'false', 'aria-controls': 'accordion2', 'class': 'accordion-title accordionTitle js-accordionTrigger' },
-                                        'Second Accordion Heading'
-                                    )
-                                ),
-                                react_default.a.createElement(
-                                    'dd',
-                                    { 'class': 'accordion-content accordionItem is-collapsed', id: 'accordion2', 'aria-hidden': 'true' },
-                                    react_default.a.createElement(
-                                        'p',
-                                        null,
-                                        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu interdum diam. Donec interdum porttitor risus non bibendum. Maecenas sollicitudin eros in quam imperdiet placerat. Cras justo purus, rhoncus nec lobortis ut, iaculis vel ipsum. Donec dignissim arcu nec elit faucibus condimentum. Donec facilisis consectetur enim sit amet varius. Pellentesque justo dui, sodales quis luctus a, iaculis eget mauris. '
-                                    ),
-                                    react_default.a.createElement(
-                                        'p',
-                                        null,
-                                        'Aliquam dapibus, ante quis fringilla feugiat, mauris risus condimentum massa, at elementum libero quam ac ligula. Pellentesque at rhoncus dolor. Duis porttitor nibh ut lobortis aliquam. Nullam eu dolor venenatis mauris placerat tristique eget id dolor. Quisque blandit adipiscing erat vitae dapibus. Nulla aliquam magna nec elementum tincidunt.'
-                                    )
-                                ),
-                                react_default.a.createElement(
-                                    'dt',
-                                    null,
-                                    react_default.a.createElement(
-                                        'a',
-                                        { href: '#accordion3', 'aria-expanded': 'false', 'aria-controls': 'accordion3', 'class': 'accordion-title accordionTitle js-accordionTrigger' },
-                                        'Third Accordion Heading'
-                                    )
-                                ),
-                                react_default.a.createElement(
-                                    'dd',
-                                    { 'class': 'accordion-content accordionItem is-collapsed', id: 'accordion3', 'aria-hidden': 'true' },
-                                    react_default.a.createElement(
-                                        'p',
-                                        null,
-                                        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu interdum diam. Donec interdum porttitor risus non bibendum. Maecenas sollicitudin eros in quam imperdiet placerat. Cras justo purus, rhoncus nec lobortis ut, iaculis vel ipsum. Donec dignissim arcu nec elit faucibus condimentum. Donec facilisis consectetur enim sit amet varius. Pellentesque justo dui, sodales quis luctus a, iaculis eget mauris. '
-                                    ),
-                                    react_default.a.createElement(
-                                        'p',
-                                        null,
-                                        'Aliquam dapibus, ante quis fringilla feugiat, mauris risus condimentum massa, at elementum libero quam ac ligula. Pellentesque at rhoncus dolor. Duis porttitor nibh ut lobortis aliquam. Nullam eu dolor venenatis mauris placerat tristique eget id dolor. Quisque blandit adipiscing erat vitae dapibus. Nulla aliquam magna nec elementum tincidunt.'
-                                    )
-                                )
-                            )
-                        ),
-                        react_default.a.createElement(
-                            'h2',
-                            null,
-                            'Swatch Show/Hide Button'
-                        ),
-                        react_default.a.createElement(
-                            'div',
-                            { 'class': 'swatches' },
-                            react_default.a.createElement(
-                                'ul',
-                                null,
-                                react_default.a.createElement('li', { 'class': 'show' })
-                            )
                         )
                     )
                 )
@@ -16244,6 +16356,224 @@ var components_slide_out_panels__temp = function () {
   }
 
   __REACT_HOT_LOADER__.register(components_slide_out_panels__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/slide-out-panels/index.js');
+}();
+
+;
+// CONCATENATED MODULE: ./src/js/components/filter-sort/filter-sort.js
+var filter_sort__createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+function filter_sort__classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function filter_sort__possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function filter_sort__inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+
+
+
+var filter_sort_logoImage = __webpack_require__("Qmz5");
+var filter_sort_searchImage = __webpack_require__("7r5T");
+var filter_sort_menuImage = __webpack_require__("738v");
+var filter_sort_closeImage = __webpack_require__("oWX6");
+
+var filter_sort_FilterSort = function (_Component) {
+  filter_sort__inherits(FilterSort, _Component);
+
+  function FilterSort() {
+    filter_sort__classCallCheck(this, FilterSort);
+
+    return filter_sort__possibleConstructorReturn(this, (FilterSort.__proto__ || Object.getPrototypeOf(FilterSort)).apply(this, arguments));
+  }
+
+  filter_sort__createClass(FilterSort, [{
+    key: 'componentDidMount',
+    value: function componentDidMount() {
+
+      jquery_default()('.side-panel-btn').unbind('click').on('click', function (event) {
+        event.preventDefault();
+        var parent = jquery_default()(jquery_default()(this).attr('data-target'));
+        parent.addClass('is-visible');
+      });
+
+      jquery_default()('.side-panel').unbind('click').on('click', function (event) {
+        if (jquery_default()(event.target).is('.side-panel')) {
+          jquery_default()(this).removeClass('is-visible');
+        } else if (jquery_default()(event.target).is('.side-panel-close') || jquery_default()(event.target).closest('a').hasClass('side-panel-close')) {
+          jquery_default()(event.target).closest('.side-panel').removeClass('is-visible');
+        }
+        event.preventDefault();
+      });
+    }
+  }, {
+    key: 'render',
+    value: function render() {
+      return react_default.a.createElement(
+        'div',
+        null,
+        react_default.a.createElement(
+          'div',
+          { className: 'row' },
+          react_default.a.createElement(
+            'div',
+            { className: 'sm12 columns' },
+            react_default.a.createElement(
+              'h1',
+              { className: 'title title-XL mrg-L' },
+              'Slide Out Panels'
+            ),
+            react_default.a.createElement(
+              'h2',
+              { className: 'std-txt std-txt-XL mrg-L max-width-text' },
+              'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+            ),
+            react_default.a.createElement(
+              'p',
+              null,
+              react_default.a.createElement(
+                'a',
+                { href: 'javascript:void(0);', 'class': 'side-panel-btn', 'data-target': '#leftPanel' },
+                'Slide In From Left'
+              )
+            ),
+            react_default.a.createElement(
+              'p',
+              null,
+              react_default.a.createElement(
+                'a',
+                { href: 'javascript:void(0);', 'class': 'side-panel-btn', 'data-target': '#rightPanel' },
+                'Slide In From Right'
+              )
+            )
+          )
+        ),
+        react_default.a.createElement(
+          'div',
+          { className: 'side-panel from-right', id: 'rightPanel' },
+          react_default.a.createElement(
+            'div',
+            { className: 'side-panel-container' },
+            react_default.a.createElement(
+              'header',
+              { className: 'side-panel-header' },
+              react_default.a.createElement(
+                'h3',
+                { className: 'title title-L color-white' },
+                'Panel'
+              ),
+              react_default.a.createElement(
+                'a',
+                { href: 'javascript:void(0);', className: 'side-panel-close' },
+                react_default.a.createElement('div', { className: 'change-my-store-icon-close icon color-white-svg', dangerouslySetInnerHTML: { __html: filter_sort_closeImage } })
+              ),
+              ' '
+            ),
+            react_default.a.createElement(
+              'div',
+              { className: 'side-panel-content' },
+              react_default.a.createElement(
+                'p',
+                null,
+                'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec fringilla dolor eget scelerisque lobortis. Nulla metus nisi, commodo et suscipit ac, venenatis ut magna. Nunc in venenatis mi, vitae placerat odio. Aenean est tellus, mollis sed tempus vel, egestas non urna. Suspendisse fringilla neque tincidunt, molestie diam non, facilisis ante. Quisque mattis commodo arcu vehicula lobortis. Cras lorem mauris, molestie ac gravida in, condimentum at enim. Aenean elementum, mauris ac convallis tempus, erat eros aliquam quam, ac sodales ligula mauris nec neque. Aliquam ut turpis lectus. Cras eget felis odio.'
+              )
+            )
+          )
+        ),
+        react_default.a.createElement(
+          'div',
+          { className: 'side-panel from-left', id: 'leftPanel' },
+          react_default.a.createElement(
+            'div',
+            { className: 'side-panel-container' },
+            react_default.a.createElement(
+              'header',
+              { className: 'side-panel-header' },
+              react_default.a.createElement(
+                'h3',
+                { className: 'title title-L color-white' },
+                'Panel'
+              ),
+              react_default.a.createElement(
+                'a',
+                { href: 'javascript:void(0);', className: 'side-panel-close' },
+                react_default.a.createElement('div', { className: 'change-my-store-icon-close icon color-white-svg', dangerouslySetInnerHTML: { __html: filter_sort_closeImage } })
+              ),
+              ' '
+            ),
+            react_default.a.createElement(
+              'div',
+              { className: 'side-panel-content' },
+              react_default.a.createElement(
+                'p',
+                null,
+                'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec fringilla dolor eget scelerisque lobortis. Nulla metus nisi, commodo et suscipit ac, venenatis ut magna. Nunc in venenatis mi, vitae placerat odio. Aenean est tellus, mollis sed tempus vel, egestas non urna. Suspendisse fringilla neque tincidunt, molestie diam non, facilisis ante. Quisque mattis commodo arcu vehicula lobortis. Cras lorem mauris, molestie ac gravida in, condimentum at enim. Aenean elementum, mauris ac convallis tempus, erat eros aliquam quam, ac sodales ligula mauris nec neque. Aliquam ut turpis lectus. Cras eget felis odio.'
+              )
+            )
+          )
+        ),
+        react_default.a.createElement(
+          'div',
+          { className: 'row' },
+          react_default.a.createElement(
+            'div',
+            { className: 'sm12 columns' },
+            react_default.a.createElement('hr', null),
+            react_default.a.createElement(
+              'p',
+              { className: 'S' },
+              'Created by: ',
+              react_default.a.createElement(
+                'strong',
+                null,
+                'Tony Stark'
+              ),
+              ' and ',
+              react_default.a.createElement(
+                'strong',
+                null,
+                'Bruce Banner'
+              ),
+              ' ',
+              react_default.a.createElement('br', null),
+              'Latest update: 04/05/2017'
+            )
+          )
+        )
+      );
+    }
+  }]);
+
+  return FilterSort;
+}(react["Component"]);
+
+var filter_sort__default = filter_sort_FilterSort;
+
+
+/* harmony default export */ var filter_sort = (filter_sort__default);
+;
+
+var filter_sort__temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(filter_sort_FilterSort, 'FilterSort', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/filter-sort/filter-sort.js');
+
+  __REACT_HOT_LOADER__.register(filter_sort__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/filter-sort/filter-sort.js');
+}();
+
+;
+// CONCATENATED MODULE: ./src/js/components/filter-sort/index.js
+
+var components_filter_sort__default = filter_sort;
+/* harmony default export */ var components_filter_sort = (components_filter_sort__default);
+;
+
+var components_filter_sort__temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(components_filter_sort__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/filter-sort/index.js');
 }();
 
 ;
@@ -16736,6 +17066,7 @@ function DesignSystemPage__inherits(subClass, superClass) { if (typeof superClas
 
 
 
+
 var DesignSystemPage_DesignSystemPage = function (_Component) {
     DesignSystemPage__inherits(DesignSystemPage, _Component);
 
@@ -16776,7 +17107,8 @@ var DesignSystemPage_DesignSystemPage = function (_Component) {
                 Footer: { componentElement: components_footer, componentDisplayName: "Footer", componentSubNav: ['Footer'] },
                 Coupons: { componentElement: components_coupons, componentDisplayName: "Coupons", componentSubNav: ['Coupons'] },
                 SlideOutPanels: { componentElement: components_slide_out_panels, componentDisplayName: "Slide Out Panels", componentSubNav: ['Slide Out Panels'] },
-                ProductCards: { componentElement: components_product_cards, componentDisplayName: "Product Cards", componentSubNav: ['Product Cards'] }
+                ProductCards: { componentElement: components_product_cards, componentDisplayName: "Product Cards", componentSubNav: ['Product Cards'] },
+                FilterSort: { componentElement: components_filter_sort, componentDisplayName: "Filter Sort", componentSubNav: ['FilterSort'] }
 
             };
 
@@ -21214,6 +21546,9 @@ var Root_App = function (_React$Component) {
                                 } }),
                             react_default.a.createElement(es["d" /* Route */], { exact: true, path: '/page-modules/product-cards', render: function render() {
                                     return react_default.a.createElement(containers_DesignSystemPage, { componentName: 'ProductCards' });
+                                } }),
+                            react_default.a.createElement(es["d" /* Route */], { exact: true, path: '/page-modules/filter-sort', render: function render() {
+                                    return react_default.a.createElement(containers_DesignSystemPage, { componentName: 'FilterSort' });
                                 } })
                         )
                     )

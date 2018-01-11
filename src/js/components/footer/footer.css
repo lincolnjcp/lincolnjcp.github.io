@@ -1,8 +1,6 @@
---animation-speed-fast: 0.25s;
---animation-speed-normal: 0.5s;
---animation-speed-slowish: 0.6s;
---animation-speed-slow: 0.75s;
-
+/***************************************************
+/* Footer
+***************************************************/
 .footer-block {
     border-top: 1px solid var(--color-concrete);
     padding-top: 16px;
@@ -237,7 +235,7 @@
         width: 100%;
       }
       
-      & .accordion dd, & .accordion__panel {
+      & .accordion dd, & .accordion-panel {
         font-size: 1em;
         line-height: 1.5em;
         border-bottom: 1px solid #d8d8d8;
@@ -247,7 +245,7 @@
         padding: 0 16px 16px 16px;
       }
       
-      & .accordionTitle, & .accordion__Heading {
+      & .accordionTitle, & .accordion-Heading {
         font-family: 'Montserrat';
         text-align: left;
         font-weight: 500;
@@ -259,7 +257,7 @@
         transition: background-color 0.5s ease-in-out;
       }
       
-      & .accordionTitle:before, & .accordion__Heading:before {
+      & .accordionTitle:before, & .accordion-Heading:before {
         content: " ";
         background-image: url(http://res.cloudinary.com/cbnnexus/image/upload/v1513878720/plus_mjarra.png);
         background-size: contain;

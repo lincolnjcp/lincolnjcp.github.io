@@ -28,6 +28,7 @@ import Coupons from '../components/coupons';
 import Header from '../components/header';
 import Footer from '../components/footer';
 import SlideOutPanels from '../components/slide-out-panels';
+import FilterSort from '../components/filter-sort';
 import ProductCards from '../components/product-cards';
 
 import SubNav from './SubNav';
@@ -63,7 +64,8 @@ class DesignSystemPage extends Component {
    Footer: {componentElement: Footer, componentDisplayName: "Footer", componentSubNav: ['Footer']},
    Coupons: {componentElement: Coupons, componentDisplayName: "Coupons", componentSubNav: ['Coupons']},
    SlideOutPanels: {componentElement: SlideOutPanels, componentDisplayName: "Slide Out Panels", componentSubNav: ['Slide Out Panels']},
-   ProductCards: {componentElement: ProductCards, componentDisplayName: "Product Cards", componentSubNav: ['Product Cards']}
+   ProductCards: {componentElement: ProductCards, componentDisplayName: "Product Cards", componentSubNav: ['Product Cards']},
+   FilterSort: {componentElement: FilterSort, componentDisplayName: "Filter Sort", componentSubNav: ['FilterSort']}
 
   }
 

@@ -233,8 +233,8 @@ const rootNav = [
                 content: 'Recommendation Zones',
             },
             {
-                to: '/',
-                activeClassName: 'inactive',
+                to: '/page-modules/filter-sort',
+                activeClassName: 'active',
                 content: 'Filter Sorting',
             },
             {

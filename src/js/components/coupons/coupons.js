@@ -13,7 +13,9 @@ class Coupons extends Component {
         <div className="row flex-box">
           <div className="coupon-block flex-grid sm12 md6 lg4 xl3">
             <div className="coupon-list">
-              <span className="coupon-badge title mrg-S">SALE ENDS IN 2HRS</span>
+              <span className="coupon-badge title mrg-S">SALE ENDS IN 2HRS
+                <div>style</div><div>Days</div>
+              </span>
               <span className="std-txt std-txt-S mrg-S">Online Only</span>
               <div className="coupon-primary-offer mrg-M">
                 <h2 className="title-L">Extra 30% OFF $100+</h2>
@@ -29,8 +31,8 @@ class Coupons extends Component {
               </div>
               <a href="javascript:void();" className="btn btn-S btn-primary apply-btn btn-full mrg-S">Apply</a>
               <div className="coupon-see-details">
-                <a href="javascript:void(0)" className="link-sm">shop home</a>
-                <a href="javascript:void(0)" className="link-sm">see details</a>
+                <button className="link-sm btn-tiny">shop home</button>
+                <button className="link-sm btn-tiny">see details</button>
               </div>
             </div>
           </div>
