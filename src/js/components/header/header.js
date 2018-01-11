@@ -326,7 +326,7 @@ class Header extends Component {
                       top = $(".main-menu-bar-secondary").height()+$(".main-menu-bar-secondary").offset().top;
                     }
                     $("#mainMenusecondaryLightBox").css({ "top": top, "height": $(document).height() })
-                    $("#mainMenusecondaryLightBox").fadeIn(400);
+                    $("#mainMenusecondaryLightBox").fadeOut(0).fadeIn(200);
                 }
                 $(".main-menu-secondary-li").addClass("main-menu-secondary-hover");
             },

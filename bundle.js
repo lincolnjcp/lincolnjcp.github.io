@@ -14307,7 +14307,7 @@ var header_Header = function (_Component) {
               top = jquery_default()(".main-menu-bar-secondary").height() + jquery_default()(".main-menu-bar-secondary").offset().top;
             }
             jquery_default()("#mainMenusecondaryLightBox").css({ "top": top, "height": jquery_default()(document).height() });
-            jquery_default()("#mainMenusecondaryLightBox").fadeIn(400);
+            jquery_default()("#mainMenusecondaryLightBox").fadeOut(0).fadeIn(200);
           }
           jquery_default()(".main-menu-secondary-li").addClass("main-menu-secondary-hover");
         },
