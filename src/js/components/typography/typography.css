@@ -144,6 +144,14 @@ p {
     }
 
     &.price-promo {
+        font-size: 12px;
+        letter-spacing: -0.3px;
+        line-height: 14px;
+        font-weight: normal;
+        text-transform: uppercase;
+    }
+
+    &.price-promo-S {
         font-size: 10px;
         letter-spacing: -0.6px;
         line-height: 14px;
