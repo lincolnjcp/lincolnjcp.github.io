@@ -526,39 +526,52 @@ class FilterSort extends Component {
             </div>
           </div>
           <div className="product-gallery-block fl-left">
-            <div className="store-pickup column fl-left">
-              <label className="checkbox pos-rel">
-                <input type="checkbox" /> <span><p className="title title-M"><span className="color-penneyred">FREE</span> Store Pickup Today at <a href="#"> Stonebriar Mall</a></p></span><span className="arrow"></span>
-              </label>
-            </div>
+            <div className="row lg12 xl12 md12 sm12">
+              <div className="store-pickup column fl-left">
+                <label className="checkbox pos-rel">
+                  <input type="checkbox" /> <span><p className="title title-M"><span className="color-penneyred">FREE</span> Store Pickup Today at <a href="#"> Stonebriar Mall</a></p></span><span className="arrow"></span>
+                </label>
+              </div>
 
-            <div className="dropdown-menu-block column md4 sm12 lg4 fl-right mrg-M">
-              <div class="listIcon fl-right"></div>  
-              <div className="pos-rel fl-right">
-                <a className="dropdown-button title-S">Sort by: <span class="sortby">Featured</span><span className="arrow"></span></a>
-                <div className="dropdown-menu">
-                  <div className="tooltip tooltip-top-right">
-                    <span>
-                      <ul className="dropdown-sort">
-                        <li className="dropdown-list">
-                          <a href="javascript:void(0)" className="sort-list">Featured</a>
-                        </li>
-                        <li className="dropdown-list">
-                          <a href="javascript:void(0)" className="sort-list">Best Sellers</a>
-                        </li>
-                        <li className="dropdown-list">
-                          <a href="javascript:void(0)" className="sort-list">New Arrivals</a>
-                        </li>
-                        <li className="dropdown-list">
-                          <a href="javascript:void(0)" className="sort-list">Price High to Low</a>
-                        </li>
-                      </ul>
-                    </span>
+              <div className="dropdown-menu-block column md4 sm12 lg4 fl-right mrg-M">
+                <div class="listIcon fl-right"></div>  
+                <div className="pos-rel fl-right">
+                  <a className="dropdown-button title-S">Sort by: <span class="sortby">Featured</span><span className="arrow"></span></a>
+                  <div className="dropdown-menu">
+                    <div className="tooltip tooltip-top-right">
+                      <span>
+                        <ul className="dropdown-sort">
+                          <li className="dropdown-list">
+                            <a href="javascript:void(0)" className="sort-list">Featured</a>
+                          </li>
+                          <li className="dropdown-list">
+                            <a href="javascript:void(0)" className="sort-list">Best Sellers</a>
+                          </li>
+                          <li className="dropdown-list">
+                            <a href="javascript:void(0)" className="sort-list">New Arrivals</a>
+                          </li>
+                          <li className="dropdown-list">
+                            <a href="javascript:void(0)" className="sort-list">Price High to Low</a>
+                          </li>
+                        </ul>
+                      </span>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-            
+            <div className="lg12 xl12 md12 sm12 mrg-L filter-tags">
+                <div className="tags std-txt std-txt-S">
+                  <span className="tag-title">Gender: </span><span>Mens</span><a href="javascript:void(0)" className="color-white-svg icon" dangerouslySetInnerHTML={{ __html: closeImage }}/>
+                </div>
+                <div className="tags std-txt std-txt-S">
+                  <span className="tag-title">Item Type: </span><span>Suit Jackets</span><a href="javascript:void(0)" className="color-white-svg icon" dangerouslySetInnerHTML={{ __html: closeImage }}/>
+                </div>
+                <div className="tags std-txt std-txt-S">
+                  <span className="tag-title">Gender: </span><span>Mens</span><a href="javascript:void(0)" className="color-white-svg icon" dangerouslySetInnerHTML={{ __html: closeImage }}/>
+                </div>
+                <a className="tag-clear std-txt std-txt-S fl-left" href="javascript:void(0)">Clear All</a>
+            </div>
 
             <div className="row">
               <div className="sm12 columns">
