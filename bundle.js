@@ -15537,7 +15537,7 @@ var footer_Footer = function (_Component) {
                         ),
                         react_default.a.createElement(
                             'div',
-                            { className: 'footer-accordion show-for-small-only show-for-medium-only' },
+                            { className: 'accordion-block show-for-small-only show-for-medium-only' },
                             react_default.a.createElement(
                                 'div',
                                 { className: 'accordion' },
@@ -16425,10 +16425,9 @@ function filter_sort__inherits(subClass, superClass) { if (typeof superClass !==
 
 
 
-var filter_sort_logoImage = __webpack_require__("Qmz5");
-var filter_sort_searchImage = __webpack_require__("7r5T");
-var filter_sort_menuImage = __webpack_require__("738v");
 var filter_sort_closeImage = __webpack_require__("oWX6");
+var filter_sort_plusImage = __webpack_require__("Vx6E");
+var filter_sort_heartlineImage = __webpack_require__("mPJs");
 
 var filter_sort_FilterSort = function (_Component) {
   filter_sort__inherits(FilterSort, _Component);
@@ -16452,7 +16451,7 @@ var filter_sort_FilterSort = function (_Component) {
               { className: 'product-card-thumbnail mrg-S' },
               react_default.a.createElement(
                 'a',
-                { href: 'javascript:void(0)', className: 'product-card-name' },
+                { href: 'javascript:void(0)' },
                 react_default.a.createElement('img', { src: productInfo.thumb, alt: '' })
               )
             );
@@ -16462,7 +16461,7 @@ var filter_sort_FilterSort = function (_Component) {
           if (productInfo.promo) {
             return react_default.a.createElement(
               'div',
-              { className: 'price price-promo mrg-XS color-penneyred' },
+              { className: 'price price-promo-S mrg-XS color-penneyred' },
               productInfo.promo
             );
           }
@@ -16478,7 +16477,11 @@ var filter_sort_FilterSort = function (_Component) {
                 react_default.a.createElement(
                   'div',
                   { 'class': 'flag flag-urgency std-txt std-txt-XS mrg-rght-XS' },
-                  productInfo.price
+                  react_default.a.createElement(
+                    'div',
+                    { className: 'price price-XS color-white' },
+                    productInfo.price
+                  )
                 )
               );
             } else {
@@ -16530,8 +16533,225 @@ var filter_sort_FilterSort = function (_Component) {
       );
     }
   }, {
+    key: 'productCardGalleryPanesLarge',
+    value: function productCardGalleryPanesLarge(productInfo) {
+      return react_default.a.createElement(
+        'div',
+        { className: 'product-card product-card-pane-L' },
+        function () {
+          if (productInfo.thumb) {
+            return react_default.a.createElement(
+              'div',
+              { className: 'product-card-thumbnail' },
+              react_default.a.createElement(
+                'a',
+                { href: 'javascript:void(0)' },
+                react_default.a.createElement('img', { src: productInfo.thumb, alt: '' })
+              ),
+              function () {
+                if (productInfo.flag) {
+                  return react_default.a.createElement(
+                    'div',
+                    { 'class': 'flag flag-info std-txt std-txt-XS' },
+                    productInfo.flag
+                  );
+                }
+              }(),
+              react_default.a.createElement('div', { className: 'icon favorite-icon', dangerouslySetInnerHTML: { __html: filter_sort_heartlineImage } })
+            );
+          }
+        }(),
+        react_default.a.createElement(
+          'div',
+          { className: 'color-swatches-block' },
+          react_default.a.createElement(
+            'div',
+            { className: 'color-swatches-list' },
+            react_default.a.createElement(
+              'div',
+              { className: 'color-swatches-medium' },
+              react_default.a.createElement(
+                'ul',
+                { className: 'list-product-colors-container' },
+                react_default.a.createElement(
+                  'li',
+                  null,
+                  react_default.a.createElement('a', { href: 'javascript:void(0)', className: 'list-color-swatch list-color-swatch-active' })
+                ),
+                react_default.a.createElement(
+                  'li',
+                  null,
+                  react_default.a.createElement('a', { href: 'javascript:void(0)', className: 'list-color-swatch' })
+                ),
+                react_default.a.createElement(
+                  'li',
+                  null,
+                  react_default.a.createElement('a', { href: 'javascript:void(0)', className: 'list-color-swatch' })
+                ),
+                react_default.a.createElement(
+                  'li',
+                  null,
+                  react_default.a.createElement('a', { href: 'javascript:void(0)', className: 'list-color-swatch' })
+                ),
+                react_default.a.createElement(
+                  'li',
+                  { className: 'swatches-list-link' },
+                  react_default.a.createElement(
+                    'a',
+                    { href: 'javascript:void(0)', className: 'std-txt std-txt-S color-nightsky' },
+                    '+23'
+                  )
+                )
+              )
+            )
+          )
+        ),
+        function () {
+          if (productInfo.promo) {
+            return react_default.a.createElement(
+              'div',
+              { className: 'price price-promo mrg-XS color-penneyred' },
+              productInfo.promo
+            );
+          }
+        }(),
+        react_default.a.createElement(
+          'div',
+          { className: 'product-card-price' },
+          function () {
+            if (productInfo.priceHighlight === true) {
+              return react_default.a.createElement(
+                'div',
+                { className: 'product-card-price-value' },
+                react_default.a.createElement(
+                  'div',
+                  { 'class': 'flag flag-urgency std-txt std-txt-XS mrg-rght-XS' },
+                  react_default.a.createElement(
+                    'div',
+                    { className: 'price price-S color-white' },
+                    productInfo.price
+                  )
+                )
+              );
+            } else {
+              return react_default.a.createElement(
+                'div',
+                { className: 'product-card-price-value price price-S mrg-rght-XS' },
+                productInfo.price
+              );
+            }
+          }(),
+          function () {
+            if (productInfo.priceRestriction) {
+              return react_default.a.createElement(
+                'div',
+                { className: 'product-card-note price price-note color-penneyred' },
+                productInfo.priceRestriction
+              );
+            }
+          }()
+        ),
+        function () {
+          if (productInfo.priceRegular) {
+            return react_default.a.createElement(
+              'div',
+              { className: 'product-card-note price price-note color-slate font-body' },
+              productInfo.priceRegular
+            );
+          }
+        }(),
+        react_default.a.createElement(
+          'a',
+          { href: 'javascript:void(0)', className: 'product-card-name std-txt std-txt-S color-nightsky' },
+          productInfo.name
+        ),
+        react_default.a.createElement(
+          'div',
+          { className: 'ratings-and-reviews' },
+          react_default.a.createElement(
+            'div',
+            { className: 'ratings-and-reviews-stars mrg-rght-XS' },
+            react_default.a.createElement('img', { src: '/images/design-system/fpo/reviews/reviews-stars-3-5.jpg', alt: '' })
+          ),
+          react_default.a.createElement(
+            'div',
+            { className: 'ratings-and-reviews-count color-slate std-txt std-txt-XXS' },
+            '99,999'
+          )
+        )
+      );
+    }
+  }, {
     key: 'componentDidMount',
     value: function componentDidMount() {
+
+      (function () {
+        var d = document,
+            accordionToggles = d.querySelectorAll('.js-accordionTrigger'),
+            setAria,
+            setAccordionAria,
+            switchAccordion,
+            touchSupported = 'ontouchstart' in window,
+            pointerSupported = 'pointerdown' in window;
+
+        var skipClickDelay = function skipClickDelay(e) {
+          e.preventDefault();
+          e.target.click();
+        };
+
+        var setAriaAttr = function setAriaAttr(el, ariaType, newProperty) {
+          el.setAttribute(ariaType, newProperty);
+        };
+        setAccordionAria = function setAccordionAria(el1, el2, expanded) {
+          switch (expanded) {
+            case "true":
+              setAriaAttr(el1, 'aria-expanded', 'true');
+              setAriaAttr(el2, 'aria-hidden', 'false');
+              break;
+            case "false":
+              setAriaAttr(el1, 'aria-expanded', 'false');
+              setAriaAttr(el2, 'aria-hidden', 'true');
+              break;
+            default:
+              break;
+          }
+        };
+        //function
+        switchAccordion = function switchAccordion(e) {
+          console.log("triggered");
+          e.preventDefault();
+          var thisAnswer = e.target.parentNode.nextElementSibling;
+          var thisQuestion = e.target;
+          if (thisAnswer.classList.contains('is-collapsed')) {
+            setAccordionAria(thisQuestion, thisAnswer, 'true');
+          } else {
+            setAccordionAria(thisQuestion, thisAnswer, 'false');
+          }
+          thisQuestion.classList.toggle('is-collapsed');
+          thisQuestion.classList.toggle('is-expanded');
+          thisAnswer.classList.toggle('is-collapsed');
+          thisAnswer.classList.toggle('is-expanded');
+
+          thisAnswer.classList.toggle('animateIn');
+        };
+        for (var i = 0, len = accordionToggles.length; i < len; i++) {
+          if (touchSupported) {
+            accordionToggles[i].addEventListener('touchstart', skipClickDelay, false);
+          }
+          if (pointerSupported) {
+            accordionToggles[i].addEventListener('pointerdown', skipClickDelay, false);
+          }
+          accordionToggles[i].addEventListener('click', switchAccordion, false);
+        }
+      })();
+
+      jquery_default()(".listIcon").on("click", function () {
+        jquery_default()(this).toggleClass("gridIcon");
+      });
+
+      jquery_default()('.show').on('click', function (e) {
+        jquery_default()('.show').toggleClass("less");
+      });
 
       jquery_default()('.side-panel-btn').unbind('click').on('click', function (event) {
         event.preventDefault();
@@ -16565,26 +16785,43 @@ var filter_sort_FilterSort = function (_Component) {
         null,
         react_default.a.createElement(
           'div',
-          { className: 'row' },
+          { className: 'columns' },
+          react_default.a.createElement(
+            'h1',
+            { className: 'title title-XXL mrg-XL' },
+            'Filter & Sort'
+          ),
+          react_default.a.createElement('br', null),
+          react_default.a.createElement('br', null),
           react_default.a.createElement(
             'div',
-            { className: 'sm12 columns' },
+            { className: 'filter-left-block fl-left' },
             react_default.a.createElement(
-              'h1',
-              { className: 'title title-XL mrg-L' },
-              'Filter & Sort'
+              'h2',
+              { className: 'title title-XL title title-XL mrg-XXL' },
+              'Filter By'
             ),
-            react_default.a.createElement('div', { className: 'filter-left-block' }),
             react_default.a.createElement(
               'div',
-              { className: 'product-gallery-block' },
+              { className: 'column' },
               react_default.a.createElement(
                 'div',
-                { className: 'form-group column fl-left' },
+                { className: 'input-group' },
                 react_default.a.createElement(
                   'label',
                   { className: 'checkbox mrg-M' },
                   react_default.a.createElement('input', { type: 'checkbox' }),
+                  ' ',
+                  react_default.a.createElement(
+                    'span',
+                    null,
+                    'Online Only'
+                  )
+                ),
+                react_default.a.createElement(
+                  'label',
+                  { className: 'checkbox mrg-M' },
+                  react_default.a.createElement('input', { type: 'checkbox', defaultChecked: 'true' }),
                   ' ',
                   react_default.a.createElement(
                     'span',
@@ -16597,85 +16834,687 @@ var filter_sort_FilterSort = function (_Component) {
                         { className: 'color-penneyred' },
                         'FREE'
                       ),
-                      ' Store Pickup Today at ',
-                      react_default.a.createElement(
-                        'a',
-                        { href: '#' },
-                        ' Stonebriar Mall'
-                      )
+                      ' Same Day Pickup'
                     )
                   )
                 )
               ),
               react_default.a.createElement(
                 'div',
-                { className: 'dropdown-menu-block column md4 sm12 lg4' },
+                { className: 'accordion-block filter-accordion' },
                 react_default.a.createElement(
                   'div',
-                  { className: 'pos-rel fl-left' },
+                  { className: 'accordion' },
                   react_default.a.createElement(
-                    'a',
-                    { className: 'dropdown-button title-S' },
-                    'Sort by: ',
+                    'dl',
+                    null,
                     react_default.a.createElement(
-                      'span',
-                      { 'class': 'sortby' },
-                      'Featured'
-                    ),
-                    react_default.a.createElement('span', { className: 'arrow' })
-                  ),
-                  react_default.a.createElement(
-                    'div',
-                    { className: 'dropdown-menu' },
-                    react_default.a.createElement(
-                      'div',
-                      { className: 'tooltip tooltip-top-right' },
+                      'dt',
+                      null,
                       react_default.a.createElement(
-                        'span',
+                        'a',
+                        { href: '#accordion1', 'aria-expanded': 'false', 'aria-controls': 'accordion1', className: 'accordion-title accordionTitle js-accordionTrigger' },
+                        'Accordion Title'
+                      )
+                    ),
+                    react_default.a.createElement(
+                      'dd',
+                      { className: 'accordion-content accordionItem is-collapsed', id: 'accordion1', 'aria-hidden': 'true' },
+                      react_default.a.createElement(
+                        'ul',
                         null,
                         react_default.a.createElement(
-                          'ul',
-                          { className: 'dropdown-sort' },
+                          'div',
+                          { className: 'search-type' },
+                          react_default.a.createElement('input', { type: 'text', placeholder: 'Search Item Type' })
+                        ),
+                        react_default.a.createElement(
+                          'li',
+                          { className: 'dropdown-list' },
                           react_default.a.createElement(
-                            'li',
-                            { className: 'dropdown-list' },
+                            'label',
+                            { className: 'checkbox mrg-M' },
+                            react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
                             react_default.a.createElement(
-                              'a',
-                              { href: 'javascript:void(0)', className: 'sort-list' },
-                              'Featured'
+                              'span',
+                              { className: 'left' },
+                              'label'
+                            ),
+                            react_default.a.createElement(
+                              'span',
+                              { className: 'right-label' },
+                              '(1,008)'
                             )
-                          ),
+                          )
+                        ),
+                        react_default.a.createElement(
+                          'li',
+                          { className: 'dropdown-list' },
                           react_default.a.createElement(
-                            'li',
-                            { className: 'dropdown-list' },
+                            'label',
+                            { className: 'checkbox mrg-M' },
+                            react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
                             react_default.a.createElement(
-                              'a',
-                              { href: 'javascript:void(0)', className: 'sort-list' },
-                              'Best Sellers'
+                              'span',
+                              { className: 'left' },
+                              'label'
+                            ),
+                            react_default.a.createElement(
+                              'span',
+                              { className: 'right-label' },
+                              '(1,008)'
                             )
-                          ),
+                          )
+                        ),
+                        react_default.a.createElement(
+                          'li',
+                          { className: 'dropdown-list' },
                           react_default.a.createElement(
-                            'li',
-                            { className: 'dropdown-list' },
+                            'label',
+                            { className: 'checkbox mrg-M' },
+                            react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
                             react_default.a.createElement(
-                              'a',
-                              { href: 'javascript:void(0)', className: 'sort-list' },
-                              'New Arrivals'
+                              'span',
+                              { className: 'left' },
+                              'label'
+                            ),
+                            react_default.a.createElement(
+                              'span',
+                              { className: 'right-label' },
+                              '(1,008)'
                             )
-                          ),
+                          )
+                        ),
+                        react_default.a.createElement(
+                          'li',
+                          { className: 'dropdown-list' },
                           react_default.a.createElement(
-                            'li',
-                            { className: 'dropdown-list' },
+                            'label',
+                            { className: 'checkbox mrg-M' },
+                            react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
                             react_default.a.createElement(
-                              'a',
-                              { href: 'javascript:void(0)', className: 'sort-list' },
-                              'Price High to Low'
+                              'span',
+                              { className: 'left' },
+                              'label'
+                            ),
+                            react_default.a.createElement(
+                              'span',
+                              { className: 'right-label' },
+                              '(1,008)'
+                            )
+                          )
+                        ),
+                        react_default.a.createElement(
+                          'li',
+                          { className: 'dropdown-list' },
+                          react_default.a.createElement(
+                            'label',
+                            { className: 'checkbox mrg-M' },
+                            react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
+                            react_default.a.createElement(
+                              'span',
+                              { className: 'left' },
+                              'label'
+                            ),
+                            react_default.a.createElement(
+                              'span',
+                              { className: 'right-label' },
+                              '(1,008)'
+                            )
+                          )
+                        )
+                      )
+                    ),
+                    react_default.a.createElement(
+                      'dt',
+                      null,
+                      react_default.a.createElement(
+                        'a',
+                        { href: '#accordion1', 'aria-expanded': 'false', 'aria-controls': 'accordion1', className: 'accordion-title accordionTitle js-accordionTrigger' },
+                        'Accordion Title'
+                      )
+                    ),
+                    react_default.a.createElement(
+                      'dd',
+                      { className: 'accordion-content accordionItem is-collapsed', id: 'accordion1', 'aria-hidden': 'true' },
+                      react_default.a.createElement(
+                        'ul',
+                        null,
+                        react_default.a.createElement(
+                          'div',
+                          { className: 'search-type' },
+                          react_default.a.createElement('input', { type: 'text', placeholder: 'Search Item Type' })
+                        ),
+                        react_default.a.createElement(
+                          'li',
+                          { className: 'dropdown-list' },
+                          react_default.a.createElement(
+                            'label',
+                            { className: 'checkbox mrg-M' },
+                            react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
+                            react_default.a.createElement(
+                              'span',
+                              { className: 'left' },
+                              'label'
+                            ),
+                            react_default.a.createElement(
+                              'span',
+                              { className: 'right-label' },
+                              '(1,008)'
+                            )
+                          )
+                        ),
+                        react_default.a.createElement(
+                          'li',
+                          { className: 'dropdown-list' },
+                          react_default.a.createElement(
+                            'label',
+                            { className: 'checkbox mrg-M' },
+                            react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
+                            react_default.a.createElement(
+                              'span',
+                              { className: 'left' },
+                              'label'
+                            ),
+                            react_default.a.createElement(
+                              'span',
+                              { className: 'right-label' },
+                              '(1,008)'
+                            )
+                          )
+                        ),
+                        react_default.a.createElement(
+                          'li',
+                          { className: 'dropdown-list' },
+                          react_default.a.createElement(
+                            'label',
+                            { className: 'checkbox mrg-M' },
+                            react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
+                            react_default.a.createElement(
+                              'span',
+                              { className: 'left' },
+                              'label'
+                            ),
+                            react_default.a.createElement(
+                              'span',
+                              { className: 'right-label' },
+                              '(1,008)'
+                            )
+                          )
+                        ),
+                        react_default.a.createElement(
+                          'li',
+                          { className: 'dropdown-list' },
+                          react_default.a.createElement(
+                            'label',
+                            { className: 'checkbox mrg-M' },
+                            react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
+                            react_default.a.createElement(
+                              'span',
+                              { className: 'left' },
+                              'label'
+                            ),
+                            react_default.a.createElement(
+                              'span',
+                              { className: 'right-label' },
+                              '(1,008)'
+                            )
+                          )
+                        ),
+                        react_default.a.createElement(
+                          'li',
+                          { className: 'dropdown-list' },
+                          react_default.a.createElement(
+                            'label',
+                            { className: 'checkbox mrg-M' },
+                            react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
+                            react_default.a.createElement(
+                              'span',
+                              { className: 'left' },
+                              'label'
+                            ),
+                            react_default.a.createElement(
+                              'span',
+                              { className: 'right-label' },
+                              '(1,008)'
+                            )
+                          )
+                        )
+                      )
+                    ),
+                    react_default.a.createElement(
+                      'dt',
+                      null,
+                      react_default.a.createElement(
+                        'a',
+                        { href: '#accordion1', 'aria-expanded': 'false', 'aria-controls': 'accordion1', className: 'accordion-title accordionTitle js-accordionTrigger' },
+                        'Accordion Title'
+                      )
+                    ),
+                    react_default.a.createElement(
+                      'dd',
+                      { className: 'accordion-content accordionItem is-collapsed', id: 'accordion1', 'aria-hidden': 'true' },
+                      react_default.a.createElement(
+                        'ul',
+                        null,
+                        react_default.a.createElement(
+                          'div',
+                          { className: 'search-type' },
+                          react_default.a.createElement('input', { type: 'text', placeholder: 'Search Item Type' })
+                        ),
+                        react_default.a.createElement(
+                          'li',
+                          { className: 'dropdown-list' },
+                          react_default.a.createElement(
+                            'label',
+                            { className: 'checkbox mrg-M' },
+                            react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
+                            react_default.a.createElement(
+                              'span',
+                              { className: 'left' },
+                              'label'
+                            ),
+                            react_default.a.createElement(
+                              'span',
+                              { className: 'right-label' },
+                              '(1,008)'
+                            )
+                          )
+                        ),
+                        react_default.a.createElement(
+                          'li',
+                          { className: 'dropdown-list' },
+                          react_default.a.createElement(
+                            'label',
+                            { className: 'checkbox mrg-M' },
+                            react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
+                            react_default.a.createElement(
+                              'span',
+                              { className: 'left' },
+                              'label'
+                            ),
+                            react_default.a.createElement(
+                              'span',
+                              { className: 'right-label' },
+                              '(1,008)'
+                            )
+                          )
+                        ),
+                        react_default.a.createElement(
+                          'li',
+                          { className: 'dropdown-list' },
+                          react_default.a.createElement(
+                            'label',
+                            { className: 'checkbox mrg-M' },
+                            react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
+                            react_default.a.createElement(
+                              'span',
+                              { className: 'left' },
+                              'label'
+                            ),
+                            react_default.a.createElement(
+                              'span',
+                              { className: 'right-label' },
+                              '(1,008)'
+                            )
+                          )
+                        ),
+                        react_default.a.createElement(
+                          'li',
+                          { className: 'dropdown-list' },
+                          react_default.a.createElement(
+                            'label',
+                            { className: 'checkbox mrg-M' },
+                            react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
+                            react_default.a.createElement(
+                              'span',
+                              { className: 'left' },
+                              'label'
+                            ),
+                            react_default.a.createElement(
+                              'span',
+                              { className: 'right-label' },
+                              '(1,008)'
+                            )
+                          )
+                        ),
+                        react_default.a.createElement(
+                          'li',
+                          { className: 'dropdown-list' },
+                          react_default.a.createElement(
+                            'label',
+                            { className: 'checkbox mrg-M' },
+                            react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
+                            react_default.a.createElement(
+                              'span',
+                              { className: 'left' },
+                              'label'
+                            ),
+                            react_default.a.createElement(
+                              'span',
+                              { className: 'right-label' },
+                              '(1,008)'
+                            )
+                          )
+                        )
+                      )
+                    ),
+                    react_default.a.createElement(
+                      'dt',
+                      null,
+                      react_default.a.createElement(
+                        'a',
+                        { href: '#accordion1', 'aria-expanded': 'false', 'aria-controls': 'accordion1', className: 'accordion-title accordionTitle js-accordionTrigger' },
+                        'Accordion Title'
+                      )
+                    ),
+                    react_default.a.createElement(
+                      'dd',
+                      { className: 'accordion-content accordionItem is-collapsed', id: 'accordion1', 'aria-hidden': 'true' },
+                      react_default.a.createElement(
+                        'ul',
+                        null,
+                        react_default.a.createElement(
+                          'div',
+                          { className: 'search-type' },
+                          react_default.a.createElement('input', { type: 'text', placeholder: 'Search Item Type' })
+                        ),
+                        react_default.a.createElement(
+                          'li',
+                          { className: 'dropdown-list' },
+                          react_default.a.createElement(
+                            'label',
+                            { className: 'checkbox mrg-M' },
+                            react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
+                            react_default.a.createElement(
+                              'span',
+                              { className: 'left' },
+                              'label'
+                            ),
+                            react_default.a.createElement(
+                              'span',
+                              { className: 'right-label' },
+                              '(1,008)'
+                            )
+                          )
+                        ),
+                        react_default.a.createElement(
+                          'li',
+                          { className: 'dropdown-list' },
+                          react_default.a.createElement(
+                            'label',
+                            { className: 'checkbox mrg-M' },
+                            react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
+                            react_default.a.createElement(
+                              'span',
+                              { className: 'left' },
+                              'label'
+                            ),
+                            react_default.a.createElement(
+                              'span',
+                              { className: 'right-label' },
+                              '(1,008)'
+                            )
+                          )
+                        ),
+                        react_default.a.createElement(
+                          'li',
+                          { className: 'dropdown-list' },
+                          react_default.a.createElement(
+                            'label',
+                            { className: 'checkbox mrg-M' },
+                            react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
+                            react_default.a.createElement(
+                              'span',
+                              { className: 'left' },
+                              'label'
+                            ),
+                            react_default.a.createElement(
+                              'span',
+                              { className: 'right-label' },
+                              '(1,008)'
+                            )
+                          )
+                        ),
+                        react_default.a.createElement(
+                          'li',
+                          { className: 'dropdown-list' },
+                          react_default.a.createElement(
+                            'label',
+                            { className: 'checkbox mrg-M' },
+                            react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
+                            react_default.a.createElement(
+                              'span',
+                              { className: 'left' },
+                              'label'
+                            ),
+                            react_default.a.createElement(
+                              'span',
+                              { className: 'right-label' },
+                              '(1,008)'
+                            )
+                          )
+                        ),
+                        react_default.a.createElement(
+                          'li',
+                          { className: 'dropdown-list' },
+                          react_default.a.createElement(
+                            'label',
+                            { className: 'checkbox mrg-M' },
+                            react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
+                            react_default.a.createElement(
+                              'span',
+                              { className: 'left' },
+                              'label'
+                            ),
+                            react_default.a.createElement(
+                              'span',
+                              { className: 'right-label' },
+                              '(1,008)'
                             )
                           )
                         )
                       )
                     )
                   )
+                )
+              )
+            )
+          ),
+          react_default.a.createElement(
+            'div',
+            { className: 'product-gallery-block fl-left' },
+            react_default.a.createElement(
+              'div',
+              { className: 'store-pickup column fl-left' },
+              react_default.a.createElement(
+                'label',
+                { className: 'checkbox pos-rel' },
+                react_default.a.createElement('input', { type: 'checkbox' }),
+                ' ',
+                react_default.a.createElement(
+                  'span',
+                  null,
+                  react_default.a.createElement(
+                    'p',
+                    { className: 'title title-M' },
+                    react_default.a.createElement(
+                      'span',
+                      { className: 'color-penneyred' },
+                      'FREE'
+                    ),
+                    ' Store Pickup Today at ',
+                    react_default.a.createElement(
+                      'a',
+                      { href: '#' },
+                      ' Stonebriar Mall'
+                    )
+                  )
+                ),
+                react_default.a.createElement('span', { className: 'arrow' })
+              )
+            ),
+            react_default.a.createElement(
+              'div',
+              { className: 'dropdown-menu-block column md4 sm12 lg4 fl-right mrg-M' },
+              react_default.a.createElement('div', { 'class': 'listIcon fl-right' }),
+              react_default.a.createElement(
+                'div',
+                { className: 'pos-rel fl-right' },
+                react_default.a.createElement(
+                  'a',
+                  { className: 'dropdown-button title-S' },
+                  'Sort by: ',
+                  react_default.a.createElement(
+                    'span',
+                    { 'class': 'sortby' },
+                    'Featured'
+                  ),
+                  react_default.a.createElement('span', { className: 'arrow' })
+                ),
+                react_default.a.createElement(
+                  'div',
+                  { className: 'dropdown-menu' },
+                  react_default.a.createElement(
+                    'div',
+                    { className: 'tooltip tooltip-top-right' },
+                    react_default.a.createElement(
+                      'span',
+                      null,
+                      react_default.a.createElement(
+                        'ul',
+                        { className: 'dropdown-sort' },
+                        react_default.a.createElement(
+                          'li',
+                          { className: 'dropdown-list' },
+                          react_default.a.createElement(
+                            'a',
+                            { href: 'javascript:void(0)', className: 'sort-list' },
+                            'Featured'
+                          )
+                        ),
+                        react_default.a.createElement(
+                          'li',
+                          { className: 'dropdown-list' },
+                          react_default.a.createElement(
+                            'a',
+                            { href: 'javascript:void(0)', className: 'sort-list' },
+                            'Best Sellers'
+                          )
+                        ),
+                        react_default.a.createElement(
+                          'li',
+                          { className: 'dropdown-list' },
+                          react_default.a.createElement(
+                            'a',
+                            { href: 'javascript:void(0)', className: 'sort-list' },
+                            'New Arrivals'
+                          )
+                        ),
+                        react_default.a.createElement(
+                          'li',
+                          { className: 'dropdown-list' },
+                          react_default.a.createElement(
+                            'a',
+                            { href: 'javascript:void(0)', className: 'sort-list' },
+                            'Price High to Low'
+                          )
+                        )
+                      )
+                    )
+                  )
+                )
+              )
+            ),
+            react_default.a.createElement(
+              'div',
+              { className: 'row' },
+              react_default.a.createElement(
+                'div',
+                { className: 'sm12 columns' },
+                react_default.a.createElement(
+                  'div',
+                  { className: 'product-card-wrapper mrg-M' },
+                  this.productCardGalleryPanesLarge({
+                    name: "Lorem Ipsumd Dolor Sit Amet Consec Ter Adpisicing Alit…",
+                    thumb: '/images/design-system/fpo/product-cards/product-card-large-pane-1.jpg',
+                    flag: 'Low Stock',
+                    promo: 'GREEN MONDAL DEAL!',
+                    price: '$29.99',
+                    priceHighlight: false,
+                    priceRestriction: 'sale',
+                    priceRegular: 'was $39.99   20% off'
+                  }),
+                  this.productCardGalleryPanesLarge({
+                    name: "Lorem Ipsumd Dolor Sit Amet Consec Ter Adpisicing Alit…",
+                    thumb: '/images/design-system/fpo/product-cards/product-card-large-pane-2.jpg',
+                    flag: 'Low Stock',
+                    promo: 'GREEN MONDAL DEAL!',
+                    price: '$59.99',
+                    priceHighlight: true,
+                    priceRestriction: 'after coupon',
+                    priceRegular: 'reg. $60.99'
+                  }),
+                  this.productCardGalleryPanesLarge({
+                    name: "Lorem Ipsumd Dolor Sit Amet Consec Ter Adpisicing Alit…",
+                    thumb: '/images/design-system/fpo/product-cards/product-card-large-pane-1.jpg',
+                    flag: 'Low Stock',
+                    promo: 'GREEN MONDAL DEAL!',
+                    price: '$29.99',
+                    priceHighlight: false,
+                    priceRestriction: 'sale',
+                    priceRegular: 'was $39.99   20% off'
+                  }),
+                  this.productCardGalleryPanesLarge({
+                    name: "Lorem Ipsumd Dolor Sit Amet Consec Ter Adpisicing Alit…",
+                    thumb: '/images/design-system/fpo/product-cards/product-card-large-pane-2.jpg',
+                    flag: 'Low Stock',
+                    promo: 'GREEN MONDAL DEAL!',
+                    price: '$59.99',
+                    priceHighlight: true,
+                    priceRestriction: 'after coupon',
+                    priceRegular: 'reg. $60.99'
+                  }),
+                  this.productCardGalleryPanesLarge({
+                    name: "Lorem Ipsumd Dolor Sit Amet Consec Ter Adpisicing Alit…",
+                    thumb: '/images/design-system/fpo/product-cards/product-card-large-pane-1.jpg',
+                    flag: 'Low Stock',
+                    promo: 'GREEN MONDAL DEAL!',
+                    price: '$29.99',
+                    priceHighlight: false,
+                    priceRestriction: 'sale',
+                    priceRegular: 'was $39.99   20% off'
+                  }),
+                  this.productCardGalleryPanesLarge({
+                    name: "Lorem Ipsumd Dolor Sit Amet Consec Ter Adpisicing Alit…",
+                    thumb: '/images/design-system/fpo/product-cards/product-card-large-pane-2.jpg',
+                    flag: 'Low Stock',
+                    promo: 'GREEN MONDAL DEAL!',
+                    price: '$59.99',
+                    priceHighlight: true,
+                    priceRestriction: 'after coupon',
+                    priceRegular: 'reg. $60.99'
+                  }),
+                  this.productCardGalleryPanesLarge({
+                    name: "Lorem Ipsumd Dolor Sit Amet Consec Ter Adpisicing Alit…",
+                    thumb: '/images/design-system/fpo/product-cards/product-card-large-pane-1.jpg',
+                    flag: 'Low Stock',
+                    promo: 'GREEN MONDAL DEAL!',
+                    price: '$29.99',
+                    priceHighlight: false,
+                    priceRestriction: 'sale',
+                    priceRegular: 'was $39.99   20% off'
+                  }),
+                  this.productCardGalleryPanesLarge({
+                    name: "Lorem Ipsumd Dolor Sit Amet Consec Ter Adpisicing Alit…",
+                    thumb: '/images/design-system/fpo/product-cards/product-card-large-pane-2.jpg',
+                    flag: 'Low Stock',
+                    promo: 'GREEN MONDAL DEAL!',
+                    price: '$59.99',
+                    priceHighlight: true,
+                    priceRestriction: 'after coupon',
+                    priceRegular: 'reg. $60.99'
+                  })
                 )
               )
             )
@@ -16710,90 +17549,6 @@ var filter_sort_FilterSort = function (_Component) {
                 null,
                 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec fringilla dolor eget scelerisque lobortis. Nulla metus nisi, commodo et suscipit ac, venenatis ut magna. Nunc in venenatis mi, vitae placerat odio. Aenean est tellus, mollis sed tempus vel, egestas non urna. Suspendisse fringilla neque tincidunt, molestie diam non, facilisis ante. Quisque mattis commodo arcu vehicula lobortis. Cras lorem mauris, molestie ac gravida in, condimentum at enim. Aenean elementum, mauris ac convallis tempus, erat eros aliquam quam, ac sodales ligula mauris nec neque. Aliquam ut turpis lectus. Cras eget felis odio.'
               )
-            )
-          )
-        ),
-        react_default.a.createElement(
-          'div',
-          { className: 'row' },
-          react_default.a.createElement(
-            'div',
-            { className: 'sm12 columns' },
-            react_default.a.createElement(
-              'div',
-              { className: 'product-card-recommendations' },
-              this.productCardRecommendations({
-                name: "Lorem Ipsum Dolor Sec Mud Deler LoreM Dol…",
-                thumb: '/images/design-system/fpo/product-cards/product-card-recommendations-1.jpg',
-                promo: 'SAMSUNG BUY 4 SAVE 10%',
-                price: '$2,499 - $3,999',
-                priceHighlight: true,
-                priceRestriction: '',
-                priceRegular: 'reg. $2,999 - $5,999'
-              }),
-              this.productCardRecommendations({
-                name: "Lorem Ipsum Dolor Sec Mud Deler LoreM Dol…",
-                thumb: '/images/design-system/fpo/product-cards/product-card-recommendations-2.jpg',
-                promo: '',
-                price: '$59.99',
-                priceHighlight: true,
-                priceRestriction: 'after coupon',
-                priceRegular: 'reg. $99.99'
-              }),
-              this.productCardRecommendations({
-                name: "Lorem Ipsum Dolor Sec Mud Deler LoreM Dol…",
-                thumb: '/images/design-system/fpo/product-cards/product-card-recommendations-3.jpg',
-                promo: '',
-                price: '$299.99',
-                priceHighlight: true,
-                priceRestriction: 'after coupon',
-                priceRegular: 'reg. $99.99'
-              }),
-              this.productCardRecommendations({
-                name: "Lorem Ipsum Dolor Sec Mud Deler LoreM Dol…",
-                thumb: '/images/design-system/fpo/product-cards/product-card-recommendations-4.jpg',
-                promo: '',
-                price: '$599.99',
-                priceHighlight: false,
-                priceRestriction: '',
-                priceRegular: ''
-              }),
-              this.productCardRecommendations({
-                name: "Lorem Ipsum Dolor Sec Mud Deler LoreM Dol…",
-                thumb: '/images/design-system/fpo/product-cards/product-card-recommendations-5.jpg',
-                promo: '',
-                price: '$29.99',
-                priceHighlight: false,
-                priceRestriction: 'sale',
-                priceRegular: 'was $60'
-              }),
-              this.productCardRecommendations({
-                name: "Lorem Ipsum Dolor Sec Mud Deler LoreM Dol…",
-                thumb: '/images/design-system/fpo/product-cards/product-card-recommendations-6.jpg',
-                promo: '',
-                price: '$99.99',
-                priceHighlight: false,
-                priceRestriction: 'clearance',
-                priceRegular: 'was $299.99'
-              }),
-              this.productCardRecommendations({
-                name: "Lorem Ipsum Dolor Sec Mud Deler LoreM Dol…",
-                thumb: '/images/design-system/fpo/product-cards/product-card-recommendations-7.jpg',
-                promo: '',
-                price: '$299.99 - $399.99',
-                priceHighlight: false,
-                priceRestriction: 'clearance',
-                priceRegular: 'was $499.99 - $699.99'
-              }),
-              this.productCardRecommendations({
-                name: "Lorem Ipsum Dolor Sec Mud Deler LoreM Dol…",
-                thumb: '/images/design-system/fpo/product-cards/product-card-recommendations-8.jpg',
-                promo: '',
-                price: '$2,999 - $3,999',
-                priceHighlight: false,
-                priceRestriction: 'package deal',
-                priceRegular: 'was $4,999 - $6,999'
-              })
             )
           )
         ),

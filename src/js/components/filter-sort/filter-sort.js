@@ -283,6 +283,11 @@ class FilterSort extends Component {
       }
     })();
 
+
+    $(".listIcon").on("click", function() {
+      $(this).toggleClass("gridIcon");
+    });    
+
     $('.show').on('click', function (e) {
       $('.show').toggleClass("less");
     });
@@ -325,11 +330,11 @@ class FilterSort extends Component {
               <div className="input-group">
 
                 <label className="checkbox mrg-M">
-                  <input type="checkbox" /> <span>Online Only</span>
+                  <input type="checkbox" /> <span>Online Only</span> <span className="fl-right std-txt std-txt-S">(55)</span>
                 </label>
 
                 <label className="checkbox mrg-M">
-                  <input type="checkbox" defaultChecked="true" /> <span><p className="title title-M"><span className="color-penneyred">FREE</span> Same Day Pickup</p></span>
+                  <input type="checkbox" defaultChecked="true" /> <span><p className="title title-M"><span className="color-penneyred">FREE</span> Same Day Pickup</p></span><span className="fl-right std-txt std-txt-S">(55)</span>
                 </label>
               </div>
               <div className="accordion-block filter-accordion">
@@ -347,35 +352,35 @@ class FilterSort extends Component {
                           <label className="checkbox mrg-M" >
                             <input type="checkbox" defaultChecked="" />
                             <span className="left">label</span>
-                            <span className="right-label">(1,008)</span>
+                            <span className="right-label std-txt">(1,008)</span>
                           </label>
                         </li>
                         <li className="dropdown-list">
                           <label className="checkbox mrg-M">
                             <input type="checkbox" defaultChecked="" />
                             <span className="left">label</span>
-                            <span className="right-label">(1,008)</span>
+                            <span className="right-label std-txt">(1,008)</span>
                           </label>
                         </li>
                         <li className="dropdown-list">
                           <label className="checkbox mrg-M">
                             <input type="checkbox" defaultChecked="" />
                             <span className="left">label</span>
-                            <span className="right-label">(1,008)</span>
+                            <span className="right-label std-txt">(1,008)</span>
                           </label>
                         </li>
                         <li className="dropdown-list">
                           <label className="checkbox mrg-M">
                             <input type="checkbox" defaultChecked="" />
                             <span className="left">label</span>
-                            <span className="right-label">(1,008)</span>
+                            <span className="right-label std-txt">(1,008)</span>
                           </label>
                         </li>
                         <li className="dropdown-list">
                           <label className="checkbox mrg-M">
                             <input type="checkbox" defaultChecked="" />
                             <span className="left">label</span>
-                            <span className="right-label">(1,008)</span>
+                            <span className="right-label std-txt">(1,008)</span>
                           </label>
                         </li>
                       </ul>
@@ -392,35 +397,35 @@ class FilterSort extends Component {
                           <label className="checkbox mrg-M" >
                             <input type="checkbox" defaultChecked="" />
                             <span className="left">label</span>
-                            <span className="right-label">(1,008)</span>
+                            <span className="right-label std-txt">(1,008)</span>
                           </label>
                         </li>
                         <li className="dropdown-list">
                           <label className="checkbox mrg-M">
                             <input type="checkbox" defaultChecked="" />
                             <span className="left">label</span>
-                            <span className="right-label">(1,008)</span>
+                            <span className="right-label std-txt">(1,008)</span>
                           </label>
                         </li>
                         <li className="dropdown-list">
                           <label className="checkbox mrg-M">
                             <input type="checkbox" defaultChecked="" />
                             <span className="left">label</span>
-                            <span className="right-label">(1,008)</span>
+                            <span className="right-label std-txt">(1,008)</span>
                           </label>
                         </li>
                         <li className="dropdown-list">
                           <label className="checkbox mrg-M">
                             <input type="checkbox" defaultChecked="" />
                             <span className="left">label</span>
-                            <span className="right-label">(1,008)</span>
+                            <span className="right-label std-txt">(1,008)</span>
                           </label>
                         </li>
                         <li className="dropdown-list">
                           <label className="checkbox mrg-M">
                             <input type="checkbox" defaultChecked="" />
                             <span className="left">label</span>
-                            <span className="right-label">(1,008)</span>
+                            <span className="right-label std-txt">(1,008)</span>
                           </label>
                         </li>
                       </ul>
@@ -437,35 +442,35 @@ class FilterSort extends Component {
                           <label className="checkbox mrg-M" >
                             <input type="checkbox" defaultChecked="" />
                             <span className="left">label</span>
-                            <span className="right-label">(1,008)</span>
+                            <span className="right-label std-txt">(1,008)</span>
                           </label>
                         </li>
                         <li className="dropdown-list">
                           <label className="checkbox mrg-M">
                             <input type="checkbox" defaultChecked="" />
                             <span className="left">label</span>
-                            <span className="right-label">(1,008)</span>
+                            <span className="right-label std-txt">(1,008)</span>
                           </label>
                         </li>
                         <li className="dropdown-list">
                           <label className="checkbox mrg-M">
                             <input type="checkbox" defaultChecked="" />
                             <span className="left">label</span>
-                            <span className="right-label">(1,008)</span>
+                            <span className="right-label std-txt">(1,008)</span>
                           </label>
                         </li>
                         <li className="dropdown-list">
                           <label className="checkbox mrg-M">
                             <input type="checkbox" defaultChecked="" />
                             <span className="left">label</span>
-                            <span className="right-label">(1,008)</span>
+                            <span className="right-label std-txt">(1,008)</span>
                           </label>
                         </li>
                         <li className="dropdown-list">
                           <label className="checkbox mrg-M">
                             <input type="checkbox" defaultChecked="" />
                             <span className="left">label</span>
-                            <span className="right-label">(1,008)</span>
+                            <span className="right-label std-txt">(1,008)</span>
                           </label>
                         </li>
                       </ul>
@@ -482,35 +487,35 @@ class FilterSort extends Component {
                           <label className="checkbox mrg-M" >
                             <input type="checkbox" defaultChecked="" />
                             <span className="left">label</span>
-                            <span className="right-label">(1,008)</span>
+                            <span className="right-label std-txt">(1,008)</span>
                           </label>
                         </li>
                         <li className="dropdown-list">
                           <label className="checkbox mrg-M">
                             <input type="checkbox" defaultChecked="" />
                             <span className="left">label</span>
-                            <span className="right-label">(1,008)</span>
+                            <span className="right-label std-txt">(1,008)</span>
                           </label>
                         </li>
                         <li className="dropdown-list">
                           <label className="checkbox mrg-M">
                             <input type="checkbox" defaultChecked="" />
                             <span className="left">label</span>
-                            <span className="right-label">(1,008)</span>
+                            <span className="right-label std-txt">(1,008)</span>
                           </label>
                         </li>
                         <li className="dropdown-list">
                           <label className="checkbox mrg-M">
                             <input type="checkbox" defaultChecked="" />
                             <span className="left">label</span>
-                            <span className="right-label">(1,008)</span>
+                            <span className="right-label std-txt">(1,008)</span>
                           </label>
                         </li>
                         <li className="dropdown-list">
                           <label className="checkbox mrg-M">
                             <input type="checkbox" defaultChecked="" />
                             <span className="left">label</span>
-                            <span className="right-label">(1,008)</span>
+                            <span className="right-label std-txt">(1,008)</span>
                           </label>
                         </li>
                       </ul>
@@ -528,7 +533,8 @@ class FilterSort extends Component {
             </div>
 
             <div className="dropdown-menu-block column md4 sm12 lg4 fl-right mrg-M">
-              <div className="pos-rel fl-left">
+              <div class="listIcon fl-right"></div>  
+              <div className="pos-rel fl-right">
                 <a className="dropdown-button title-S">Sort by: <span class="sortby">Featured</span><span className="arrow"></span></a>
                 <div className="dropdown-menu">
                   <div className="tooltip tooltip-top-right">
@@ -552,6 +558,7 @@ class FilterSort extends Component {
                 </div>
               </div>
             </div>
+            
 
             <div className="row">
               <div className="sm12 columns">
