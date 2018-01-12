@@ -60,7 +60,14 @@
     pointer-events: none;
   }
   & .dropdown-menu {
-    display: none;
+      display: none;
+      position: relative;
+      & .tooltip {
+        position: absolute;
+        right: -5px;
+        top: 0;
+      }
+
     & .dropdown-search-type {
       position: relative;
       top: 6px;
@@ -79,10 +86,21 @@
     }
 
     & .dropdown-sort {
-      min-width: 192px;
-      position: relative;
-      top: 6px;
-      border-radius: var(--border-radius-M);
+        min-width: 192px;
+        position: absolute;
+        top: 8px;
+        border-radius: var(--border-radius-M);
+        padding: 0;
+        right: 82px;
+      & li {
+        padding: 6px 16px;
+        & a {
+          text-decoration: none;
+        }
+      }
+      & li:hover {
+        background: var(--color-lightgrey);
+      }
     }
 
     & .dropdown-list {

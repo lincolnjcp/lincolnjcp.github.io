@@ -36,6 +36,7 @@
     box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.25);
     /*  @include elevation; */
     @apply --elevation-func; /* (0px, 3px, 8px, 0px, rgba(0,0,0,0.25)) */
+    width: 200px;
   
     & span{
       display: block;

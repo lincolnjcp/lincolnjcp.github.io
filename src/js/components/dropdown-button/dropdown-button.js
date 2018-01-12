@@ -58,237 +58,256 @@ class DropdownButton extends Component {
                 </div>
                 <div className="row md12 sm12 lg12">
                     <div className="dropdown-menu-block column md4 sm12 lg4">
-                        <a className="dropdown-button title-S">Product Type <span className="arrow"></span></a>
-                        <div className="dropdown-menu">
-                            <ul className="tooltip tooltip-top-left tooltip-light dropdown-search-type">
-                                <div className="search-type">
-                                    <input type="text" placeholder="Search Item Type" />
+                        <div className="pos-rel fl-left">
+                            <a className="dropdown-button title-S">Product Type <span className="arrow"></span></a>
+                            <div className="dropdown-menu">
+                                <div className="tooltip tooltip-top-right">
+                                    <span>
+                                    <ul>
+                                        <div className="search-type">
+                                            <input type="text" placeholder="Search Item Type" />
+                                        </div>
+                                        <li className="dropdown-list">
+                                            <label className="checkbox mrg-M" >
+                                                <input type="checkbox" defaultChecked="" />
+                                                <span className="left">label</span>
+                                                <span className="right-label">(1,008)</span>
+                                            </label>
+                                        </li>
+                                        <li className="dropdown-list">
+                                            <label className="checkbox mrg-M">
+                                                <input type="checkbox" defaultChecked="" />
+                                                <span className="left">label</span>
+                                                <span className="right-label">(1,008)</span>
+                                            </label>
+                                        </li>
+                                        <li className="dropdown-list">
+                                            <label className="checkbox mrg-M">
+                                                <input type="checkbox" defaultChecked="" />
+                                                <span className="left">label</span>
+                                                <span className="right-label">(1,008)</span>
+                                            </label>
+                                        </li>
+                                        <li className="dropdown-list">
+                                            <label className="checkbox mrg-M">
+                                                <input type="checkbox" defaultChecked="" />
+                                                <span className="left">label</span>
+                                                <span className="right-label">(1,008)</span>
+                                            </label>
+                                        </li>
+                                        <li className="dropdown-list">
+                                            <label className="checkbox mrg-M">
+                                                <input type="checkbox" defaultChecked="" />
+                                                <span className="left">label</span>
+                                                <span className="right-label">(1,008)</span>
+                                            </label>
+                                        </li>
+                                        <li className="dropdown-list">
+                                            <label className="checkbox mrg-M">
+                                                <input type="checkbox" defaultChecked="" />
+                                                <span className="left">label</span>
+                                                <span className="right-label">(1,008)</span>
+                                            </label>
+                                        </li>
+                                        <li className="dropdown-list">
+                                            <label className="checkbox mrg-M">
+                                                <input type="checkbox" defaultChecked="" />
+                                                <span className="left">label</span>
+                                                <span className="right-label">(1,008)</span>
+                                            </label>
+                                        </li>
+                                        <li className="dropdown-list">
+                                            <label className="checkbox mrg-M">
+                                                <input type="checkbox" defaultChecked="" />
+                                                <span className="left">label</span>
+                                                <span className="right-label">(1,008)</span>
+                                            </label>
+                                        </li>
+                                        <li className="dropdown-list">
+                                            <label className="checkbox mrg-M">
+                                                <input type="checkbox" defaultChecked="" />
+                                                <span className="left">label</span>
+                                                <span className="right-label">(1,008)</span>
+                                            </label>
+                                        </li>
+                                        <li className="dropdown-list">
+                                            <label className="checkbox mrg-M">
+                                                <input type="checkbox" defaultChecked="" />
+                                                <span className="left">label</span>
+                                                <span className="right-label">(1,008)</span>
+                                            </label>
+                                        </li>
+                                        <li className="dropdown-list">
+                                            <label className="checkbox mrg-M">
+                                                <input type="checkbox" defaultChecked="" />
+                                                <span className="left">label</span>
+                                                <span className="right-label">(1,008)</span>
+                                            </label>
+                                        </li>
+                                        <li className="dropdown-list">
+                                            <label className="checkbox mrg-M">
+                                                <input type="checkbox" defaultChecked="" />
+                                                <span className="left">label</span>
+                                                <span className="right-label">(1,008)</span>
+                                            </label>
+                                        </li>
+                                        <li className="dropdown-list">
+                                            <label className="checkbox mrg-M">
+                                                <input type="checkbox" defaultChecked="" />
+                                                <span className="left">label</span>
+                                                <span className="right-label">(1,008)</span>
+                                            </label>
+                                        </li>
+                                        <li className="dropdown-list">
+                                            <label className="checkbox mrg-M">
+                                                <input type="checkbox" defaultChecked="" />
+                                                <span className="left">label</span>
+                                                <span className="right-label">(1,008)</span>
+                                            </label>
+                                        </li>
+                                    </ul>
+                                    </span>
                                 </div>
-                                <li className="dropdown-list">
-                                    <label className="checkbox mrg-M">
-                                        <input type="checkbox" defaultChecked="" />
-                                        <span className="left">label</span>
-                                        <span className="right-label">(1,008)</span>
-                                    </label>
-                                </li>
-                                <li className="dropdown-list">
-                                    <label className="checkbox mrg-M">
-                                        <input type="checkbox" defaultChecked="" />
-                                        <span className="left">label</span>
-                                        <span className="right-label">(1,008)</span>
-                                    </label>
-                                </li>
-                                <li className="dropdown-list">
-                                    <label className="checkbox mrg-M">
-                                        <input type="checkbox" defaultChecked="" />
-                                        <span className="left">label</span>
-                                        <span className="right-label">(1,008)</span>
-                                    </label>
-                                </li>
-                                <li className="dropdown-list">
-                                    <label className="checkbox mrg-M">
-                                        <input type="checkbox" defaultChecked="" />
-                                        <span className="left">label</span>
-                                        <span className="right-label">(1,008)</span>
-                                    </label>
-                                </li>
-                                <li className="dropdown-list">
-                                    <label className="checkbox mrg-M">
-                                        <input type="checkbox" defaultChecked="" />
-                                        <span className="left">label</span>
-                                        <span className="right-label">(1,008)</span>
-                                    </label>
-                                </li>
-                                <li className="dropdown-list">
-                                    <label className="checkbox mrg-M">
-                                        <input type="checkbox" defaultChecked="" />
-                                        <span className="left">label</span>
-                                        <span className="right-label">(1,008)</span>
-                                    </label>
-                                </li>
-                                <li className="dropdown-list">
-                                    <label className="checkbox mrg-M">
-                                        <input type="checkbox" defaultChecked="" />
-                                        <span className="left">label</span>
-                                        <span className="right-label">(1,008)</span>
-                                    </label>
-                                </li>
-                                <li className="dropdown-list">
-                                    <label className="checkbox mrg-M">
-                                        <input type="checkbox" defaultChecked="" />
-                                        <span className="left">label</span>
-                                        <span className="right-label">(1,008)</span>
-                                    </label>
-                                </li>
-                                <li className="dropdown-list">
-                                    <label className="checkbox mrg-M">
-                                        <input type="checkbox" defaultChecked="" />
-                                        <span className="left">label</span>
-                                        <span className="right-label">(1,008)</span>
-                                    </label>
-                                </li>
-                                <li className="dropdown-list">
-                                    <label className="checkbox mrg-M">
-                                        <input type="checkbox" defaultChecked="" />
-                                        <span className="left">label</span>
-                                        <span className="right-label">(1,008)</span>
-                                    </label>
-                                </li>
-                                <li className="dropdown-list">
-                                    <label className="checkbox mrg-M">
-                                        <input type="checkbox" defaultChecked="" />
-                                        <span className="left">label</span>
-                                        <span className="right-label">(1,008)</span>
-                                    </label>
-                                </li>
-                                <li className="dropdown-list">
-                                    <label className="checkbox mrg-M">
-                                        <input type="checkbox" defaultChecked="" />
-                                        <span className="left">label</span>
-                                        <span className="right-label">(1,008)</span>
-                                    </label>
-                                </li>
-                                <li className="dropdown-list">
-                                    <label className="checkbox mrg-M">
-                                        <input type="checkbox" defaultChecked="" />
-                                        <span className="left">label</span>
-                                        <span className="right-label">(1,008)</span>
-                                    </label>
-                                </li>
-                                <li className="dropdown-list">
-                                    <label className="checkbox mrg-M">
-                                        <input type="checkbox" defaultChecked="" />
-                                        <span className="left">label</span>
-                                        <span className="right-label">(1,008)</span>
-                                    </label>
-                                </li>
-                            </ul>
+                            </div>
                         </div>
                     </div>
 
                     <div className="dropdown-menu-block column md4 sm12 lg4">
-                        <a className="dropdown-button title-S">Product Type <span className="arrow"></span></a>
-                        <div className="dropdown-menu">
-                            <ul className="tooltip tooltip-top-left tooltip-light dropdown-search-type">
-                                <li className="dropdown-list">
-                                    <label className="checkbox mrg-M" >
-                                        <input type="checkbox" defaultChecked="" />
-                                        <span className="left">label</span>
-                                        <span className="right-label">(1,008)</span>
-                                    </label>
-                                </li>
-                                <li className="dropdown-list">
-                                    <label className="checkbox mrg-M">
-                                        <input type="checkbox" defaultChecked="" />
-                                        <span className="left">label</span>
-                                        <span className="right-label">(1,008)</span>
-                                    </label>
-                                </li>
-                                <li className="dropdown-list">
-                                    <label className="checkbox mrg-M">
-                                        <input type="checkbox" defaultChecked="" />
-                                        <span className="left">label</span>
-                                        <span className="right-label">(1,008)</span>
-                                    </label>
-                                </li>
-                                <li className="dropdown-list">
-                                    <label className="checkbox mrg-M">
-                                        <input type="checkbox" defaultChecked="" />
-                                        <span className="left">label</span>
-                                        <span className="right-label">(1,008)</span>
-                                    </label>
-                                </li>
-                                <li className="dropdown-list">
-                                    <label className="checkbox mrg-M">
-                                        <input type="checkbox" defaultChecked="" />
-                                        <span className="left">label</span>
-                                        <span className="right-label">(1,008)</span>
-                                    </label>
-                                </li>
-                                <li className="dropdown-list">
-                                    <label className="checkbox mrg-M">
-                                        <input type="checkbox" defaultChecked="" />
-                                        <span className="left">label</span>
-                                        <span className="right-label">(1,008)</span>
-                                    </label>
-                                </li>
-                                <li className="dropdown-list">
-                                    <label className="checkbox mrg-M">
-                                        <input type="checkbox" defaultChecked="" />
-                                        <span className="left">label</span>
-                                        <span className="right-label">(1,008)</span>
-                                    </label>
-                                </li>
-                                <li className="dropdown-list">
-                                    <label className="checkbox mrg-M">
-                                        <input type="checkbox" defaultChecked="" />
-                                        <span className="left">label</span>
-                                        <span className="right-label">(1,008)</span>
-                                    </label>
-                                </li>
-                                <li className="dropdown-list">
-                                    <label className="checkbox mrg-M">
-                                        <input type="checkbox" defaultChecked="" />
-                                        <span className="left">label</span>
-                                        <span className="right-label">(1,008)</span>
-                                    </label>
-                                </li>
-                                <li className="dropdown-list">
-                                    <label className="checkbox mrg-M">
-                                        <input type="checkbox" defaultChecked="" />
-                                        <span className="left">label</span>
-                                        <span className="right-label">(1,008)</span>
-                                    </label>
-                                </li>
-                                <li className="dropdown-list">
-                                    <label className="checkbox mrg-M">
-                                        <input type="checkbox" defaultChecked="" />
-                                        <span className="left">label</span>
-                                        <span className="right-label">(1,008)</span>
-                                    </label>
-                                </li>
-                                <li className="dropdown-list">
-                                    <label className="checkbox mrg-M">
-                                        <input type="checkbox" defaultChecked="" />
-                                        <span className="left">label</span>
-                                        <span className="right-label">(1,008)</span>
-                                    </label>
-                                </li>
-                                <li className="dropdown-list">
-                                    <label className="checkbox mrg-M">
-                                        <input type="checkbox" defaultChecked="" />
-                                        <span className="left">label</span>
-                                        <span className="right-label">(1,008)</span>
-                                    </label>
-                                </li>
-                                <li className="dropdown-list">
-                                    <label className="checkbox mrg-M">
-                                        <input type="checkbox" defaultChecked="" />
-                                        <span className="left">label</span>
-                                        <span className="right-label">(1,008)</span>
-                                    </label>
-                                </li>
-                            </ul>
+                        <div className="pos-rel fl-left">
+                            <a className="dropdown-button title-S">Product Type <span className="arrow"></span></a>
+                            <div className="dropdown-menu">
+                                <div className="tooltip tooltip-top-right">
+                                    <span>
+                                    <ul>
+                                        <li className="dropdown-list">
+                                            <label className="checkbox mrg-M" >
+                                                <input type="checkbox" defaultChecked="" />
+                                                <span className="left">label</span>
+                                                <span className="right-label">(1,008)</span>
+                                            </label>
+                                        </li>
+                                        <li className="dropdown-list">
+                                            <label className="checkbox mrg-M">
+                                                <input type="checkbox" defaultChecked="" />
+                                                <span className="left">label</span>
+                                                <span className="right-label">(1,008)</span>
+                                            </label>
+                                        </li>
+                                        <li className="dropdown-list">
+                                            <label className="checkbox mrg-M">
+                                                <input type="checkbox" defaultChecked="" />
+                                                <span className="left">label</span>
+                                                <span className="right-label">(1,008)</span>
+                                            </label>
+                                        </li>
+                                        <li className="dropdown-list">
+                                            <label className="checkbox mrg-M">
+                                                <input type="checkbox" defaultChecked="" />
+                                                <span className="left">label</span>
+                                                <span className="right-label">(1,008)</span>
+                                            </label>
+                                        </li>
+                                        <li className="dropdown-list">
+                                            <label className="checkbox mrg-M">
+                                                <input type="checkbox" defaultChecked="" />
+                                                <span className="left">label</span>
+                                                <span className="right-label">(1,008)</span>
+                                            </label>
+                                        </li>
+                                        <li className="dropdown-list">
+                                            <label className="checkbox mrg-M">
+                                                <input type="checkbox" defaultChecked="" />
+                                                <span className="left">label</span>
+                                                <span className="right-label">(1,008)</span>
+                                            </label>
+                                        </li>
+                                        <li className="dropdown-list">
+                                            <label className="checkbox mrg-M">
+                                                <input type="checkbox" defaultChecked="" />
+                                                <span className="left">label</span>
+                                                <span className="right-label">(1,008)</span>
+                                            </label>
+                                        </li>
+                                        <li className="dropdown-list">
+                                            <label className="checkbox mrg-M">
+                                                <input type="checkbox" defaultChecked="" />
+                                                <span className="left">label</span>
+                                                <span className="right-label">(1,008)</span>
+                                            </label>
+                                        </li>
+                                        <li className="dropdown-list">
+                                            <label className="checkbox mrg-M">
+                                                <input type="checkbox" defaultChecked="" />
+                                                <span className="left">label</span>
+                                                <span className="right-label">(1,008)</span>
+                                            </label>
+                                        </li>
+                                        <li className="dropdown-list">
+                                            <label className="checkbox mrg-M">
+                                                <input type="checkbox" defaultChecked="" />
+                                                <span className="left">label</span>
+                                                <span className="right-label">(1,008)</span>
+                                            </label>
+                                        </li>
+                                        <li className="dropdown-list">
+                                            <label className="checkbox mrg-M">
+                                                <input type="checkbox" defaultChecked="" />
+                                                <span className="left">label</span>
+                                                <span className="right-label">(1,008)</span>
+                                            </label>
+                                        </li>
+                                        <li className="dropdown-list">
+                                            <label className="checkbox mrg-M">
+                                                <input type="checkbox" defaultChecked="" />
+                                                <span className="left">label</span>
+                                                <span className="right-label">(1,008)</span>
+                                            </label>
+                                        </li>
+                                        <li className="dropdown-list">
+                                            <label className="checkbox mrg-M">
+                                                <input type="checkbox" defaultChecked="" />
+                                                <span className="left">label</span>
+                                                <span className="right-label">(1,008)</span>
+                                            </label>
+                                        </li>
+                                        <li className="dropdown-list">
+                                            <label className="checkbox mrg-M">
+                                                <input type="checkbox" defaultChecked="" />
+                                                <span className="left">label</span>
+                                                <span className="right-label">(1,008)</span>
+                                            </label>
+                                        </li>
+                                    </ul>
+                                    </span>
+                                </div>
+                            </div>
                         </div>
                     </div>
 
+
                     <div className="dropdown-menu-block column md4 sm12 lg4">
-                        <a className="dropdown-button title-S">Sort by: <span className="arrow"></span></a>
-                        <div className="dropdown-menu">
-                            <ul className="tooltip tooltip-top-left tooltip-light dropdown-sort">
-                                <li className="dropdown-list">
-                                    <a href="javascript:void(0)" className="sort-list">Featured</a>
-                                </li>
-                                <li className="dropdown-list">
-                                    <a href="javascript:void(0)" className="sort-list">Best Sellers</a>
-                                </li>
-                                <li className="dropdown-list">
-                                    <a href="javascript:void(0)" className="sort-list">New Arrivals</a>
-                                </li>
-                                <li className="dropdown-list">
-                                    <a href="javascript:void(0)" className="sort-list">Price High to Low</a>
-                                </li>
-                            </ul>
+                        <div className="pos-rel fl-left">
+                            <a className="dropdown-button title-S">Sort by: <span class="sortby">Featured</span><span className="arrow"></span></a>
+                            <div className="dropdown-menu">
+                                <div className="tooltip tooltip-top-right">
+                                    <span>
+                                        <ul className="dropdown-sort">
+                                            <li className="dropdown-list">
+                                                <a href="javascript:void(0)" className="sort-list">Featured</a>
+                                            </li>
+                                            <li className="dropdown-list">
+                                                <a href="javascript:void(0)" className="sort-list">Best Sellers</a>
+                                            </li>
+                                            <li className="dropdown-list">
+                                                <a href="javascript:void(0)" className="sort-list">New Arrivals</a>
+                                            </li>
+                                            <li className="dropdown-list">
+                                                <a href="javascript:void(0)" className="sort-list">Price High to Low</a>
+                                            </li>
+                                        </ul>
+                                    </span>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>

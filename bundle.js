@@ -1528,9 +1528,14 @@ var buttons_Buttons = function (_Component) {
                         )
                     ),
                     react_default.a.createElement(
+                        'h2',
+                        { className: 'title title-L mrg-M' },
+                        'Tiny Button Coupon'
+                    ),
+                    react_default.a.createElement(
                         'button',
                         { className: 'link-sm btn-tiny' },
-                        'See Details'
+                        'see details'
                     )
                 ),
                 react_default.a.createElement(
@@ -12865,15 +12870,14 @@ var coupons_Coupons = function (_Component) {
               react_default.a.createElement(
                 'div',
                 { className: 'coupon-see-details' },
-                react_default.a.createElement('button', { className: 'link-sm btn-tiny' }),
                 react_default.a.createElement(
-                  'a',
-                  { href: 'javascript:void(0)', className: 'link-sm' },
+                  'button',
+                  { className: 'link-sm btn-tiny' },
                   'shop home'
                 ),
                 react_default.a.createElement(
-                  'a',
-                  { href: 'javascript:void(0)', className: 'link-sm' },
+                  'button',
+                  { className: 'link-sm btn-tiny' },
                   'see details'
                 )
               )
@@ -16386,6 +16390,96 @@ var filter_sort_FilterSort = function (_Component) {
   }
 
   filter_sort__createClass(FilterSort, [{
+    key: 'productCardRecommendations',
+    value: function productCardRecommendations(productInfo) {
+      return react_default.a.createElement(
+        'div',
+        { className: 'product-card product-card-recommendation' },
+        function () {
+          if (productInfo.thumb) {
+            return react_default.a.createElement(
+              'div',
+              { className: 'product-card-thumbnail mrg-S' },
+              react_default.a.createElement(
+                'a',
+                { href: 'javascript:void(0)', className: 'product-card-name' },
+                react_default.a.createElement('img', { src: productInfo.thumb, alt: '' })
+              )
+            );
+          }
+        }(),
+        function () {
+          if (productInfo.promo) {
+            return react_default.a.createElement(
+              'div',
+              { className: 'price price-promo mrg-XS color-penneyred' },
+              productInfo.promo
+            );
+          }
+        }(),
+        react_default.a.createElement(
+          'div',
+          { className: 'product-card-price' },
+          function () {
+            if (productInfo.priceHighlight === true) {
+              return react_default.a.createElement(
+                'div',
+                { className: 'product-card-price-value' },
+                react_default.a.createElement(
+                  'div',
+                  { 'class': 'flag flag-urgency std-txt std-txt-XS mrg-rght-XS' },
+                  productInfo.price
+                )
+              );
+            } else {
+              return react_default.a.createElement(
+                'div',
+                { className: 'product-card-price-value price price-XS mrg-rght-XS' },
+                productInfo.price
+              );
+            }
+          }(),
+          function () {
+            if (productInfo.priceRestriction) {
+              return react_default.a.createElement(
+                'div',
+                { className: 'product-card-note price price-note color-penneyred' },
+                productInfo.priceRestriction
+              );
+            }
+          }()
+        ),
+        function () {
+          if (productInfo.priceRegular) {
+            return react_default.a.createElement(
+              'div',
+              { className: 'product-card-note price price-note color-slate font-body' },
+              productInfo.priceRegular
+            );
+          }
+        }(),
+        react_default.a.createElement(
+          'a',
+          { href: 'javascript:void(0)', className: 'product-card-name std-txt std-txt-S color-nightsky' },
+          productInfo.name
+        ),
+        react_default.a.createElement(
+          'div',
+          { className: 'ratings-and-reviews' },
+          react_default.a.createElement(
+            'div',
+            { className: 'ratings-and-reviews-stars mrg-rght-XS' },
+            react_default.a.createElement('img', { src: '/images/design-system/fpo/reviews/reviews-stars-3-5.jpg', alt: '' })
+          ),
+          react_default.a.createElement(
+            'div',
+            { className: 'ratings-and-reviews-count color-slate std-txt std-txt-XXS' },
+            '99,999'
+          )
+        )
+      );
+    }
+  }, {
     key: 'componentDidMount',
     value: function componentDidMount() {
 
@@ -16448,7 +16542,7 @@ var filter_sort_FilterSort = function (_Component) {
         ),
         react_default.a.createElement(
           'div',
-          { className: 'side-panel from-right', id: 'rightPanel' },
+          { className: 'side-panel from-left', id: 'leftPanel' },
           react_default.a.createElement(
             'div',
             { className: 'side-panel-container' },
@@ -16480,33 +16574,85 @@ var filter_sort_FilterSort = function (_Component) {
         ),
         react_default.a.createElement(
           'div',
-          { className: 'side-panel from-left', id: 'leftPanel' },
+          { className: 'row' },
           react_default.a.createElement(
             'div',
-            { className: 'side-panel-container' },
-            react_default.a.createElement(
-              'header',
-              { className: 'side-panel-header' },
-              react_default.a.createElement(
-                'h3',
-                { className: 'title title-L color-white' },
-                'Panel'
-              ),
-              react_default.a.createElement(
-                'a',
-                { href: 'javascript:void(0);', className: 'side-panel-close' },
-                react_default.a.createElement('div', { className: 'change-my-store-icon-close icon color-white-svg', dangerouslySetInnerHTML: { __html: filter_sort_closeImage } })
-              ),
-              ' '
-            ),
+            { className: 'sm12 columns' },
             react_default.a.createElement(
               'div',
-              { className: 'side-panel-content' },
-              react_default.a.createElement(
-                'p',
-                null,
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec fringilla dolor eget scelerisque lobortis. Nulla metus nisi, commodo et suscipit ac, venenatis ut magna. Nunc in venenatis mi, vitae placerat odio. Aenean est tellus, mollis sed tempus vel, egestas non urna. Suspendisse fringilla neque tincidunt, molestie diam non, facilisis ante. Quisque mattis commodo arcu vehicula lobortis. Cras lorem mauris, molestie ac gravida in, condimentum at enim. Aenean elementum, mauris ac convallis tempus, erat eros aliquam quam, ac sodales ligula mauris nec neque. Aliquam ut turpis lectus. Cras eget felis odio.'
-              )
+              { className: 'product-card-recommendations' },
+              this.productCardRecommendations({
+                name: "Lorem Ipsum Dolor Sec Mud Deler LoreM Dol…",
+                thumb: '/images/design-system/fpo/product-cards/product-card-recommendations-1.jpg',
+                promo: 'SAMSUNG BUY 4 SAVE 10%',
+                price: '$2,499 - $3,999',
+                priceHighlight: true,
+                priceRestriction: '',
+                priceRegular: 'reg. $2,999 - $5,999'
+              }),
+              this.productCardRecommendations({
+                name: "Lorem Ipsum Dolor Sec Mud Deler LoreM Dol…",
+                thumb: '/images/design-system/fpo/product-cards/product-card-recommendations-2.jpg',
+                promo: '',
+                price: '$59.99',
+                priceHighlight: true,
+                priceRestriction: 'after coupon',
+                priceRegular: 'reg. $99.99'
+              }),
+              this.productCardRecommendations({
+                name: "Lorem Ipsum Dolor Sec Mud Deler LoreM Dol…",
+                thumb: '/images/design-system/fpo/product-cards/product-card-recommendations-3.jpg',
+                promo: '',
+                price: '$299.99',
+                priceHighlight: true,
+                priceRestriction: 'after coupon',
+                priceRegular: 'reg. $99.99'
+              }),
+              this.productCardRecommendations({
+                name: "Lorem Ipsum Dolor Sec Mud Deler LoreM Dol…",
+                thumb: '/images/design-system/fpo/product-cards/product-card-recommendations-4.jpg',
+                promo: '',
+                price: '$599.99',
+                priceHighlight: false,
+                priceRestriction: '',
+                priceRegular: ''
+              }),
+              this.productCardRecommendations({
+                name: "Lorem Ipsum Dolor Sec Mud Deler LoreM Dol…",
+                thumb: '/images/design-system/fpo/product-cards/product-card-recommendations-5.jpg',
+                promo: '',
+                price: '$29.99',
+                priceHighlight: false,
+                priceRestriction: 'sale',
+                priceRegular: 'was $60'
+              }),
+              this.productCardRecommendations({
+                name: "Lorem Ipsum Dolor Sec Mud Deler LoreM Dol…",
+                thumb: '/images/design-system/fpo/product-cards/product-card-recommendations-6.jpg',
+                promo: '',
+                price: '$99.99',
+                priceHighlight: false,
+                priceRestriction: 'clearance',
+                priceRegular: 'was $299.99'
+              }),
+              this.productCardRecommendations({
+                name: "Lorem Ipsum Dolor Sec Mud Deler LoreM Dol…",
+                thumb: '/images/design-system/fpo/product-cards/product-card-recommendations-7.jpg',
+                promo: '',
+                price: '$299.99 - $399.99',
+                priceHighlight: false,
+                priceRestriction: 'clearance',
+                priceRegular: 'was $499.99 - $699.99'
+              }),
+              this.productCardRecommendations({
+                name: "Lorem Ipsum Dolor Sec Mud Deler LoreM Dol…",
+                thumb: '/images/design-system/fpo/product-cards/product-card-recommendations-8.jpg',
+                promo: '',
+                price: '$2,999 - $3,999',
+                priceHighlight: false,
+                priceRestriction: 'package deal',
+                priceRegular: 'was $4,999 - $6,999'
+              })
             )
           )
         ),
