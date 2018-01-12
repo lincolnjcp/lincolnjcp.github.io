@@ -1,0 +1,52 @@
+.list {
+    & li {
+        list-style-type: disc;
+        margin: 15px 0 15px 34px;
+        padding-left: 15px;
+        line-height: 20px;
+    }
+    &.list-checkboxes {
+        & li {
+            & .checkbox {
+                display: inline-block;
+            }
+
+            & .list-qty {
+                float: right;
+                color: var(--color-slate);
+            }
+        }
+    }
+    &.list-underline {
+        & li {
+            list-style-type: none;
+            line-height: 40px;
+            border-bottom: 1px solid var(--color-concrete);
+            margin: 0;
+            padding: 0;
+        }
+    }
+    &.list-links {
+        & li {
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+            line-height: 40px;
+        }
+    }
+    &.list-icons {
+        & li {
+            position: relative;
+            border-bottom: none;
+            padding-left: 48px;
+            line-height: 24px;
+            list-style-type: none;
+            margin: 0 0 16px;
+            .icon {
+                position: absolute;
+                top: 0px;
+                left: 0px;
+            }
+        }
+    }
+}
