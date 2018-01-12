@@ -445,6 +445,60 @@ class ProductCards extends Component {
   }
 
 
+
+
+  pricingCart(productInfo) {
+    return(
+    <div className="pricing-cart algn-rght algn-lft-S">
+          
+      
+      <div className="product-card-details">
+
+        {(() => {
+          if (productInfo.details) {
+            return (
+              <div className="std-txt std-txt-XS mrg-XS color-slate"  dangerouslySetInnerHTML={{__html: productInfo.details}}>
+              </div>      
+            )
+          }
+        })()}
+
+        {(() => {
+          if (productInfo.promo) {
+            return (
+              <div className="price price-promo mrg-XS color-penneyred">
+                {productInfo.promo}
+              </div>      
+            )
+          }
+        })()}
+
+        {(() => {
+          if (productInfo.priceRegular) {
+            return (
+              <div className="product-card-note price price-note color-slate font-body" dangerouslySetInnerHTML={{__html: productInfo.priceRegular}}>
+                
+              </div>      
+            )
+          }
+        })()}
+
+        {(() => {
+          if (productInfo.price) {
+            return (
+              <div className="product-card-price-value price price-XS">
+                {productInfo.price}
+              </div>      
+            )
+          }
+        })()}
+ 
+      </div>
+    </div>
+    )
+  }
+
+
   componentDidMount() {
         
         
@@ -461,6 +515,9 @@ class ProductCards extends Component {
 
         </div>
     </div>
+
+
+
 
     <div className="row">
         <div className="sm12 columns">
@@ -647,6 +704,27 @@ class ProductCards extends Component {
 
         </div>
     </div>
+
+    <div className="row">
+        <div className="sm12 columns">
+            <h2><strong>Pricing Cart</strong></h2>
+            <hr />
+            <div className="product-card-wrapper mrg-M">
+              {this.pricingCart({
+                details: 'Disposal fee may apply <a href="javascript:void(0);">see details</a>',
+                promo: 'Marketing Label',
+                priceRegular: 'was <span class="line-through">$1,899.00</span>',
+                price: '$1,409.39'
+                
+              })}
+
+             
+              
+            </div>
+
+        </div>
+    </div>
+
     
     
     <div className="row">

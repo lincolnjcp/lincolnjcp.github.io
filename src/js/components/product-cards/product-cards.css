@@ -141,3 +141,9 @@
 		}
 	}
 }
+
+.pricing-cart {
+	& .product-card-price-value {
+		margin-top: 8px;
+	}
+}

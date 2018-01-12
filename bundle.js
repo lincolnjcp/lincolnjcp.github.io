@@ -18462,6 +18462,46 @@ var product_cards_ProductCards = function (_Component) {
       );
     }
   }, {
+    key: 'pricingCart',
+    value: function pricingCart(productInfo) {
+      return react_default.a.createElement(
+        'div',
+        { className: 'pricing-cart algn-rght algn-lft-S' },
+        react_default.a.createElement(
+          'div',
+          { className: 'product-card-details' },
+          function () {
+            if (productInfo.details) {
+              return react_default.a.createElement('div', { className: 'std-txt std-txt-XS mrg-XS color-slate', dangerouslySetInnerHTML: { __html: productInfo.details } });
+            }
+          }(),
+          function () {
+            if (productInfo.promo) {
+              return react_default.a.createElement(
+                'div',
+                { className: 'price price-promo mrg-XS color-penneyred' },
+                productInfo.promo
+              );
+            }
+          }(),
+          function () {
+            if (productInfo.priceRegular) {
+              return react_default.a.createElement('div', { className: 'product-card-note price price-note color-slate font-body', dangerouslySetInnerHTML: { __html: productInfo.priceRegular } });
+            }
+          }(),
+          function () {
+            if (productInfo.price) {
+              return react_default.a.createElement(
+                'div',
+                { className: 'product-card-price-value price price-XS' },
+                productInfo.price
+              );
+            }
+          }()
+        )
+      );
+    }
+  }, {
     key: 'componentDidMount',
     value: function componentDidMount() {}
   }, {
@@ -18704,6 +18744,35 @@ var product_cards_ProductCards = function (_Component) {
                 priceHighlight: false,
                 priceRestriction: 'package deal',
                 priceRegular: 'was $4,999 - $6,999'
+              })
+            )
+          )
+        ),
+        react_default.a.createElement(
+          'div',
+          { className: 'row' },
+          react_default.a.createElement(
+            'div',
+            { className: 'sm12 columns' },
+            react_default.a.createElement(
+              'h2',
+              null,
+              react_default.a.createElement(
+                'strong',
+                null,
+                'Pricing Cart'
+              )
+            ),
+            react_default.a.createElement('hr', null),
+            react_default.a.createElement(
+              'div',
+              { className: 'product-card-wrapper mrg-M' },
+              this.pricingCart({
+                details: 'Disposal fee may apply <a href="javascript:void(0);">see details</a>',
+                promo: 'Marketing Label',
+                priceRegular: 'was <span class="line-through">$1,899.00</span>',
+                price: '$1,409.39'
+
               })
             )
           )

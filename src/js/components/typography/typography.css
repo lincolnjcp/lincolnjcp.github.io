@@ -56,6 +56,9 @@ p {
     }
 }
 
+.line-through {
+    text-decoration: line-through;
+}
 /*  Price */
 .price {
     font-family: var(--font-headline);
