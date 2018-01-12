@@ -7,15 +7,15 @@ const menuImage = require('!!raw-loader?es5=1!../../../images/global/icons/nav/m
 const closeImage = require('!!raw-loader?es5=1!../../../images/global/icons/nav/close.svg');
 
 class Header extends Component {
-  changeMyStoreContent() {
+  changeMyStoreContent(type) {
     return(
       <div>
-        <p id="changeMyStoreZipLink">Stores within 15 mi. of <strong>75024</strong> <a href="javascript:void(0);" className="expand-collapse-btn" data-target="#changeMyStoreZip" data-hide-on-open-target="#changeMyStoreZipLink" data-duration="0">Change</a></p>
-         <div className="expand-collapse-section" id="changeMyStoreZip">
+        <p id={'changeMyStoreZipLink'+type}>Stores within 15 mi. of <strong>75024</strong> <a href="javascript:void(0);" className="expand-collapse-btn" data-target={'#changeMyStoreZip'+type} data-hide-on-open-target={'#changeMyStoreZipLink'+type} data-duration="0">Change</a></p>
+         <div className="expand-collapse-section" id={'changeMyStoreZip'+type}>
            <div className="input-form">
               <div className="input-form-store-locator">
                   <div className="input-form-store-locator-field-1">
-                      <input className="form-control input-text" id="search" type="text" placeholder="Zip Code" defaultValue="75024" />
+                      <input className="form-control input-text" id={'changeMyStoreSearch'+type} type="text" placeholder="Zip Code" defaultValue="75024" />
                   </div>
                   <div className="input-form-store-locator-field-2">
                       <div className="select">
@@ -149,10 +149,10 @@ class Header extends Component {
                   </div>
 
             <div className="side-panel-col side-panel-col-map-view algn-rght">
-              <a href="javascript:void(0);" className="expand-collapse-btn" data-hide-text="List View" data-target="#changeMyStoreMap">Map View</a>
+              <a href="javascript:void(0);" className="expand-collapse-btn" data-hide-text="List View" data-target={'#changeMyStoreMap'+type}>Map View</a>
             </div>
             </div>
-              <div className="expand-collapse-section change-my-store-map-view" id="changeMyStoreMap">
+              <div className="expand-collapse-section change-my-store-map-view" id={'changeMyStoreMap'+type}>
             <img src="/images/design-system/fpo/find-a-store/map.jpg" alt="" />
           </div>
 
@@ -168,14 +168,14 @@ class Header extends Component {
                 <p className="std-txt std-txt-S mrg-XS color-nightsky">2480 Preston Rd</p>
               </div>
               <div className="side-panel-col-button">
-                <a href="javascript:void(0);" class="btn btn-L btn-full btn-primary btn-disabled">
+                <a href="javascript:void(0);" class="btn btn-M btn-full btn-primary btn-disabled">
                   My Store
                 </a>
               </div>
             </div>
 
             <div className="side-panel-col-full">
-                <div className="expand-collapse-section change-my-store-details" id="storeLising1">
+                <div className="expand-collapse-section change-my-store-details" id={'storeLising1'+type}>
                   <div className="std-txt std-txt-S mrg-M color-nightsky">
                     <a href="javascript:void(0);" className="color-nightsky">Get Directions</a> | 972-578-8666
                   </div>
@@ -198,7 +198,7 @@ class Header extends Component {
                     Salon - <a href="javascript:void(0);" className="color-nightsky">Schedule Appointment</a>
                   </div>
                 </div>
-                <p className="std-txt std-txt-S"><a href="javascript:void(0);" className="expand-collapse-btn" data-hide-text="Hide Hours &amp; Services" data-target="#storeLising1">View Hours &amp; Services</a></p>
+                <p className="std-txt std-txt-S"><a href="javascript:void(0);" className="expand-collapse-btn" data-hide-text="Hide Hours &amp; Services" data-target={'#storeLising2'+type}>View Hours &amp; Services</a></p>
               </div>
           </div>
         </div>
@@ -211,14 +211,14 @@ class Header extends Component {
                 <p className="std-txt std-txt-S mrg-XS color-nightsky">2480 Preston Rd</p>
               </div>
               <div className="side-panel-col-button">
-                <a href="javascript:void(0);" class="btn btn-L btn-full btn-primary">
+                <a href="javascript:void(0);" class="btn btn-M btn-full btn-primary">
                   Set Store
                 </a>
               </div>
             </div>
 
             <div className="side-panel-col-full">
-                <div className="expand-collapse-section change-my-store-details" id="storeLising2">
+                <div className="expand-collapse-section change-my-store-details" id={'storeLising2'+type} >
                   <div className="std-txt std-txt-S mrg-M color-nightsky">
                     <a href="javascript:void(0);" className="color-nightsky">Get Directions</a> | 972-578-8666
                   </div>
@@ -241,7 +241,7 @@ class Header extends Component {
                     Salon - <a href="javascript:void(0);" className="color-nightsky">Schedule Appointment</a>
                   </div>
                 </div>
-                <p className="std-txt std-txt-S"><a href="javascript:void(0);" className="expand-collapse-btn" data-hide-text="Hide Hours &amp; Services" data-target="#storeLising2">View Hours &amp; Services</a></p>
+                <p className="std-txt std-txt-S"><a href="javascript:void(0);" className="expand-collapse-btn" data-hide-text="Hide Hours &amp; Services" data-target={'#storeLising2'+type}>View Hours &amp; Services</a></p>
               </div>
           </div>
         </div>
@@ -298,10 +298,21 @@ class Header extends Component {
         });
 
         $('.side-panel').unbind('click').on('click', function(event){
+          var closed = false;
           if( $(event.target).is('.side-panel')) { 
-            $(this).removeClass('is-visible');            
+            $(this).removeClass('is-visible');       
+            closed = true;
           } else if ($(event.target).is('.side-panel-close') || $(event.target).closest('a').hasClass('side-panel-close') ) {
              $(event.target).closest('.side-panel').removeClass('is-visible');
+             closed = true;
+          }
+          if(closed === true && $(this).find('.main-menu-reset').length > 0) {
+            setTimeout(function(){            
+              $('.main-menu-tier2-ul.tier2-click').removeClass('tier2-click');
+              $('.main-menu-md-panel.tier2-click').removeClass('tier2-click');
+              $('.side-panel-container').removeClass('tier2-open');
+            }, 400);
+            
           }
           event.preventDefault();
         });
@@ -315,6 +326,7 @@ class Header extends Component {
                       top = $(".main-menu-bar-secondary").height()+$(".main-menu-bar-secondary").offset().top;
                     }
                     $("#mainMenusecondaryLightBox").css({ "top": top, "height": $(document).height() })
+                    $("#mainMenusecondaryLightBox").fadeOut(0).fadeIn(200);
                 }
                 $(".main-menu-secondary-li").addClass("main-menu-secondary-hover");
             },
@@ -357,7 +369,7 @@ class Header extends Component {
                       $(".main-menu-tier2-li.active").removeClass('active');
                       $('.to-activate').removeClass('to-activate').addClass('active');
                     }
-                }, 200);
+                }, 500);
                 }
                 
                 $(this).closest('.main-menu-tier1').addClass('active-tier3');
@@ -424,9 +436,7 @@ class Header extends Component {
 
         $(".main-menu-reset").on('click', function(event){
           event.preventDefault();
-           $('.main-menu-tier2-ul.tier2-click').addClass('tier2-click');
-           $('.main-menu-md-panel.tier2-click').addClass('tier2-click');
-           $('.side-panel-container').removeClass('tier2-open');
+           $('.side-panel-container').trigger('click');
         });
 
 
@@ -605,12 +615,12 @@ class Header extends Component {
                   <div className="main-menu-tier1">
                   <ul className="main-menu-md-down">
                     <li>
-                      <a href="javascript:void(0);" className="main-menu-tier1-button-md-down main-menu-md-primary main-menu-md-primary-no-arrow"><strong>Sign in or Create an Account</strong></a>
+                      <a href="javascript:void(0);" className="main-menu-tier1-button-md-down main-menu-md-primary"><strong>Sign in or Create an Account</strong></a>
                     </li>
                     <li className="main-menu-md-panel-li">
-                      <a href="javascript:void(0);" className="main-menu-tier1-button-md-down main-menu-md-primary main-menu-md-panel-btn"><strong>My Store:</strong> Colin Creek Mall</a>
+                      <a href="javascript:void(0);" className="main-menu-tier1-button-md-down main-menu-md-primary main-menu-md-primary-arrow main-menu-md-panel-btn"><strong>My Store:</strong> Colin Creek Mall</a>
                       <div className="main-menu-md-panel">                        
-                        {this.changeMyStoreContent()} 
+                        {this.changeMyStoreContent('Mobile')} 
                       </div>
                     </li>
                   </ul>
@@ -955,7 +965,7 @@ class Header extends Component {
       </a>
     </header>
     <div className="side-panel-content">
-      {this.changeMyStoreContent()}
+      {this.changeMyStoreContent('Desktop')}
     </div>
   </div>
 </div> 

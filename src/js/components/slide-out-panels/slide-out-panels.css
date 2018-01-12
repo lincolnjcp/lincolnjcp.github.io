@@ -47,6 +47,7 @@
   width: 100%;
   visibility: hidden;
   transition: visibility 0s 0.6s;
+  opacity: 0;
   z-index: 2000;
   &:after {
 	  position: absolute;
@@ -66,6 +67,7 @@
 }
 .side-panel.is-visible {
   visibility: visible;
+  opacity: 1;
   transition: visibility 0s 0s;
 }
 .side-panel.is-visible::after {
@@ -164,6 +166,7 @@
 		transition: none;
 		top: initial;
 		left: initial;
+		opacity: 1;
 		& .side-panel-content {
 			position: relative;
 			top: initial;
@@ -178,6 +181,7 @@
 		& .side-panel-container {
   			transform: none;
   			transition-delay: 0s;
+  			transition: none;
   			position: initial;
   			width: 100%;
   			height: auto;

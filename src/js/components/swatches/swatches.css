@@ -38,6 +38,10 @@
       }
     }
 
+    & .swatches-list-link {
+      padding-top: 3px;
+    }
+
     & .list-color-swatch{
       position: relative;
       width: 40px;
@@ -107,6 +111,8 @@
   }
 
   & .color-swatches-small li {
+    margin-left: 2px;
+    margin-right: 2px;
     & .list-color-swatch, &.swatches-list-icon {
       width: 16px;
       height: 16px;
