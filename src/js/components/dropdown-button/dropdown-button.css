@@ -86,12 +86,7 @@
     }
 
     & .dropdown-sort {
-        min-width: 192px;
-        position: absolute;
-        top: 8px;
-        border-radius: var(--border-radius-M);
         padding: 0;
-        right: 82px;
       & li {
         padding: 6px 16px;
         & a {

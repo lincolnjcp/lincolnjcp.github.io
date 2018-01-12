@@ -2,3 +2,55 @@
     display: none !important;
 }
 
+.filter-left-block {
+    width: 20%;
+    & .filter-accordion {
+        margin-right: 16px;
+        & .accordion {
+            margin: 0;
+            & .accordion-content {
+                & ul {
+                    padding-left: 16px;
+                    & .right-label {
+                        float: right;
+                    }
+                    & .search-type {
+                        & input {
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+            & .accordionTitle:focus {
+                outline: none;
+            }
+        }
+    }
+}
+
+.product-gallery-block {
+    width: 78%;
+    margin-left: 16px;
+
+    & .store-pickup {
+        padding-top: 16px;
+        & .arrow {
+            content: "";
+            position: absolute;
+            pointer-events: none;
+            display: inline-block;
+            right: -13px;
+            top: 0;
+            &::after {
+              content: "\25BE";
+              height: 1em;
+              font-size: 16px;
+              line-height: 1;
+              position: relative;
+              right: -8;
+              top: 50%;
+              margin-top: -.5em;
+            }
+          }
+    }
+}

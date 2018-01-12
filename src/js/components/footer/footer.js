@@ -137,7 +137,7 @@ class Footer extends Component {
                             </ul>
                         </div>
 
-                        <div className="footer-accordion show-for-small-only show-for-medium-only">
+                        <div className="accordion-block show-for-small-only show-for-medium-only">
                             <div className="accordion">
                                 <dl>
                                     <dt>

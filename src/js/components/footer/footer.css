@@ -200,7 +200,7 @@
     }
 }
 
-.footer-accordion {
+.accordion-block {
     clear: both;
     & .accordion {
         position: relative;
