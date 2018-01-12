@@ -1,3 +1,7 @@
+* {
+    -webkit-font-smoothing: antialiased;
+}
+
 body {
     font-family: var(--font-body);
 }
@@ -24,61 +28,6 @@ hr {
     margin: 20px 0;
     clear: both;
 }
-
-.list {
-    & li {
-        list-style-type: disc;
-        margin: 15px 0 15px 34px;
-        padding-left: 15px;
-        line-height: 20px;
-    }
-    &.list-checkboxes {
-        & li {
-            & .checkbox {
-                display: inline-block;
-            }
-
-            & .list-qty {
-                float: right;
-                color: var(--color-slate);
-            }
-        }
-    }
-    &.list-underline {
-        & li {
-            list-style-type: none;
-            line-height: 40px;
-            border-bottom: 1px solid var(--color-concrete);
-            margin: 0;
-            padding: 0;
-        }
-    }
-    &.list-links {
-        & li {
-            margin: 0;
-            padding: 0;
-            list-style-type: none;
-            line-height: 40px;
-        }
-    }
-    &.list-icons {
-        & li {
-            position: relative;
-            border-bottom: none;
-            padding-left: 48px;
-            line-height: 24px;
-            list-style-type: none;
-            margin: 0 0 16px;
-            .icon {
-                position: absolute;
-                top: 0px;
-                left: 0px;
-            }
-        }
-    }
-}
-
-
 
 
 
@@ -112,40 +61,39 @@ p {
     font-family: var(--font-headline);
     font-weight: var(--font-weight-bold);
     color: var(--color-nightsky);
+    letter-spacing: 0;
 
     &.price-XL {
         font-size: 40px;
         line-height: 38px;
-        letter-spacing: -0.75px;
     }
 
     &.price-L {
         font-size: 34px;
         line-height: 24px;
-        letter-spacing: -1.06;
     }
 
     &.price-M {
         font-size: 24px;
-        letter-spacing: -0.75px;
+        letter-spacing: .25px;
         line-height: 24px;
     }
 
     &.price-S {
         font-size: 20px;
-        letter-spacing: -0.62px;
+        letter-spacing: .25px;
         line-height: 20px;
     }
 
     &.price-XS {
         font-size: 16px;
-        letter-spacing: -0.6px;
+        letter-spacing: .25px;
         line-height: 20px;
     }
 
     &.price-promo {
         font-size: 12px;
-        letter-spacing: -0.3px;
+        letter-spacing: .25px;
         line-height: 14px;
         font-weight: normal;
         text-transform: uppercase;
@@ -153,7 +101,7 @@ p {
 
     &.price-promo-S {
         font-size: 10px;
-        letter-spacing: -0.6px;
+        letter-spacing: .25px;
         line-height: 14px;
         font-weight: normal;
         text-transform: uppercase;
@@ -161,7 +109,7 @@ p {
 
     &.price-note {
         font-size: 12px;
-        letter-spacing: -0.4px;
+        letter-spacing: .25px;
         line-height: 14px;
         font-weight: normal;
     }
@@ -287,45 +235,45 @@ p {
     color: var(--color-nightsky);
 
     &.promo-lbl-XXXL {
-        font-size: 96px;
-        letter-spacing: -0.8px;
-        line-height: 102px;
-    }
-
-    &.promo-lbl-XXL {
-        font-size: 72px;
-        letter-spacing: -0.6px;
-        line-height: 74px;
-    }
-
-    &.promo-lbl-XL {
         font-size: 50px;
         letter-spacing: -0.6px;
         line-height: 52px;
     }
 
-    &.promo-lbl-L {
+    &.promo-lbl-XXL {
         font-size: 44px;
-        letter-spacing: -0.52px;
+        letter-spacing: -0.5px;
         line-height: 46px;
     }
 
-    &.promo-lbl-M {
+    &.promo-lbl-XL {
         font-size: 36px;
-        letter-spacing: -0.43px;
+        letter-spacing: -0.4px;
         line-height: 38px;
     }
 
-    &.promo-lbl-MS {
+    &.promo-lbl-L {
         font-size: 24px;
-        letter-spacing: -0.43px;
+        letter-spacing: -0.3px;
         line-height: 26px;
     }
 
-    &.promo-lbl-S {
+    &.promo-lbl-M {
         font-size: 20px;
-        letter-spacing: -0.24px;
-        line-height: 24px;
+        letter-spacing: -0.2px;
+        line-height: 22px;
+    }
+
+    &.promo-lbl-S {
+        font-size: 16px;
+        letter-spacing: -0.2px;
+        line-height: 18px;
+    }
+
+    &.promo-lbl-XS {
+        font-size: 14px;
+        letter-spacing: -0.2px;
+        line-height: 16px;
 
         &.promo-display {
             text-shadow: .2rem .2rem rgba(0, 0, 0, 0.5);

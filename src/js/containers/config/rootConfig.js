@@ -113,6 +113,11 @@ const rootNav = [
                 content: 'Forms',
             },
             {
+                to: '/components/lists',
+                activeClassName: 'active',
+                content: 'Lists',
+            },
+            {
                 to: '/components/pagination',
                 activeClassName: 'active',
                 content: 'Pagination',
@@ -210,11 +215,6 @@ const rootNav = [
             {
                 to: '/',
                 activeClassName: 'inactive',
-                content: 'Lists',
-            },
-            {
-                to: '/',
-                activeClassName: 'inactive',
                 content: 'Mini PDP/Quick Add',
             },
             {
@@ -238,8 +238,8 @@ const rootNav = [
                 content: 'Filter Sorting',
             },
             {
-                to: '/',
-                activeClassName: 'inactive',
+                to: '/page-modules/like-dislike',
+                activeClassName: 'active',
                 content: 'Like/Dislike Messages',
             },
             {

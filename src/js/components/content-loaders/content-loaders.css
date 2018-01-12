@@ -4,10 +4,6 @@
 /* Progress
 /* Section
 *******************************************/
-.position-rel {
-  position: relative;
-}
- 
 .loader-container {
   width: 60px;
   height: 60px;

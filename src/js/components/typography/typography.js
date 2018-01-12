@@ -356,36 +356,6 @@ By consistently tying typographic styles to appropriate fuctions in the interfac
             <hr />
         </div>
     </div>
-    <div className="row" id="lists">
-        <div className="sm12 columns">
-            <h3 className="title title-L mrg-L">Lists <span className="design-system-css-class design-system-css-class-inline">class=“list”</span></h3>
-            <h5 className="title title-M mrg-S">Text Lists</h5>
-            <p className="mrg-L">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            <ul className="list max-width-text color-slate">
-                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
-                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
-                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-            </ul>
-            <p className="design-system-css-class mrg-XL">???</p>
-            <h5 className="title title-M mrg-S">Icon Lists</h5>
-            <p className="mrg-L">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            <ul className="list list-icons max-width-text color-slate">
-                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
-                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
-                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-            </ul>
-            <p className="design-system-css-class mrg-XL">.list-icons</p>
-            <h5 className="title title-M mrg-S">Link Lists</h5>
-            <p className="mrg-L">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            <ul className="list list-links max-width-text color-slate">
-                <li><a href="javascript:void();">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a></li>
-                <li><a href="javascript:void();">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a></li>
-                <li><a href="javascript:void();">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a></li>
-            </ul>
-            <p className="design-system-css-class">.list-links</p>
-            <hr />
-        </div>
-    </div>
     <div className="row" id="links">
         <div className="sm12 columns">
             <h3 className="title title-L mrg-L">Links</h3>
@@ -400,6 +370,10 @@ By consistently tying typographic styles to appropriate fuctions in the interfac
         <div className="sm12 columns">
             <h3 className="title title-L mrg-L">Promo Labels <span className="design-system-css-class design-system-css-class-inline">class=“promo-lbl”</span></h3>
             <p className="mrg-L">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <p className="promo-lbl promo-lbl-XXXL">Extra 20% Off</p>
+            <p className="design-system-css-class mrg-XL">.promo-lbl-XXXL</p>
+            <p className="promo-lbl promo-lbl-XXL">Extra 20% Off</p>
+            <p className="design-system-css-class mrg-XL">.promo-lbl-XXL</p>
             <p className="promo-lbl promo-lbl-XL">Extra 20% Off</p>
             <p className="design-system-css-class mrg-XL">.promo-lbl-XL</p>
             <p className="promo-lbl promo-lbl-L">Extra 20% Off</p>
@@ -408,6 +382,8 @@ By consistently tying typographic styles to appropriate fuctions in the interfac
             <p className="design-system-css-class mrg-XL">.promo-lbl-M</p>
             <p className="promo-lbl promo-lbl-S">+ get an extra 10% off with your JCPenney Credit Card</p>
             <p className="design-system-css-class mrg-XL">.promo-lbl-S</p>
+            <p className="promo-lbl promo-lbl-XS">+ get an extra 10% off with your JCPenney Credit Card</p>
+            <p className="design-system-css-class mrg-XL">.promo-lbl-XS</p>
         </div>
     </div>
     <div className="row">

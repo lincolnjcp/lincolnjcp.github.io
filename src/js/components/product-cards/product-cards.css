@@ -28,6 +28,8 @@
 }
 
 .product-card {
+	position: relative;
+	display: inline-block;
 	& .product-card-price {
 		font-size: 0 /* Eliminate extra space between price and note */
 	}

@@ -510,6 +510,7 @@
 		left: 0;
 		height: 100%;
 		width: 320px;
+		z-index: 1;
 
 		& .side-panel-header {
 			position: absolute;

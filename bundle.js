@@ -3,7 +3,7 @@ webpackJsonp([0],{
 /***/ "+Yl1":
 /***/ (function(module, exports) {
 
-module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<svg version=\"1.1\" id=\"icon_x2F_Social_x2F_youtube-line-Layer_1\"\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\n<path id=\"icon_x2F_Social_x2F_youtube-line-path-1_1_\" style=\"fill:#111111;\" d=\"M24,8c8.8,0,16,7.2,16,16s-7.2,16-16,16\n\tS8,32.8,8,24S15.2,8,24,8z M24,38.2c7.8,0,14.2-6.3,14.2-14.2S31.8,9.8,24,9.8S9.8,16.2,9.8,24S16.2,38.2,24,38.2z M32.7,18.2\n\tc0.6,0.6,0.8,1.9,0.8,1.9s0.2,1.6,0.2,3.1v1.5c0,1.6-0.2,3.1-0.2,3.1s-0.2,1.3-0.8,1.9c-0.7,0.8-1.6,0.8-1.9,0.8\n\tc-2.7,0.2-6.7,0.2-6.7,0.2s-5,0-6.5-0.2c-0.4-0.1-1.4-0.1-2.1-0.8c-0.6-0.6-0.8-1.9-0.8-1.9s-0.2-1.6-0.2-3.1v-1.5\n\tc0-1.6,0.2-3.1,0.2-3.1s0.2-1.3,0.8-1.9c0.7-0.8,1.6-0.8,1.9-0.8c2.6-0.3,6.6-0.3,6.6-0.3s4,0,6.7,0.2C31.1,17.4,32,17.4,32.7,18.2z\n\t M22,26.4l5.2-2.7L22,21V26.4z\"/>\n</svg>\n"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"icon_x2F_Social_x2F_youtube-line-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"icon_x2F_Social_x2F_youtube-line-path-1_1_\" style=\"fill:#111111;\" d=\"M24,8c8.8,0,16,7.2,16,16s-7.2,16-16,16\r\n\tS8,32.8,8,24S15.2,8,24,8z M24,38.2c7.8,0,14.2-6.3,14.2-14.2S31.8,9.8,24,9.8S9.8,16.2,9.8,24S16.2,38.2,24,38.2z M32.7,18.2\r\n\tc0.6,0.6,0.8,1.9,0.8,1.9s0.2,1.6,0.2,3.1v1.5c0,1.6-0.2,3.1-0.2,3.1s-0.2,1.3-0.8,1.9c-0.7,0.8-1.6,0.8-1.9,0.8\r\n\tc-2.7,0.2-6.7,0.2-6.7,0.2s-5,0-6.5-0.2c-0.4-0.1-1.4-0.1-2.1-0.8c-0.6-0.6-0.8-1.9-0.8-1.9s-0.2-1.6-0.2-3.1v-1.5\r\n\tc0-1.6,0.2-3.1,0.2-3.1s0.2-1.3,0.8-1.9c0.7-0.8,1.6-0.8,1.9-0.8c2.6-0.3,6.6-0.3,6.6-0.3s4,0,6.7,0.2C31.1,17.4,32,17.4,32.7,18.2z\r\n\t M22,26.4l5.2-2.7L22,21V26.4z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
@@ -233,9 +233,9 @@ var _temp = function () {
         return;
     }
 
-    __REACT_HOT_LOADER__.register(CodeGenerator, 'CodeGenerator', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/containers/CodeGenerator.js');
+    __REACT_HOT_LOADER__.register(CodeGenerator, 'CodeGenerator', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/containers/CodeGenerator.js');
 
-    __REACT_HOT_LOADER__.register(_default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/containers/CodeGenerator.js');
+    __REACT_HOT_LOADER__.register(_default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/containers/CodeGenerator.js');
 }();
 
 ;
@@ -245,14 +245,14 @@ var _temp = function () {
 /***/ "+zNw":
 /***/ (function(module, exports) {
 
-module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<svg version=\"1.1\" id=\"action-zoom-in-fill-Layer_1\"\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\n<path id=\"action-zoom-in-fill-a_1_\" style=\"fill:#111111;\" d=\"M35.6,32.9c0.6,0.6,0.6,1.6-0.1,2.4C35,35.8,34.5,36,34,36\n\tc-0.4,0-0.8-0.1-1.1-0.4c-0.7-0.7-6-5.9-7.1-7C24.4,29.5,22.7,30,21,30c-5,0-9-4-9-9s4-9,9-9s9,4,9,9c0,1.8-0.5,3.6-1.6,5.1\n\tC29.7,27.2,34.9,32.3,35.6,32.9z M24.5,20.3h-2.8v-2.8c0-0.4-0.3-0.7-0.7-0.7s-0.7,0.3-0.7,0.7v2.8h-2.8c-0.4,0-0.7,0.3-0.7,0.7\n\ts0.3,0.7,0.7,0.7h2.9v2.8c0,0.4,0.3,0.7,0.7,0.7c0.4,0,0.7-0.3,0.7-0.7v-2.8h2.8c0.4,0,0.7-0.3,0.7-0.7S24.9,20.3,24.5,20.3z\"/>\n</svg>\n"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"action-zoom-in-fill-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"action-zoom-in-fill-a_1_\" style=\"fill:#111111;\" d=\"M35.6,32.9c0.6,0.6,0.6,1.6-0.1,2.4C35,35.8,34.5,36,34,36\r\n\tc-0.4,0-0.8-0.1-1.1-0.4c-0.7-0.7-6-5.9-7.1-7C24.4,29.5,22.7,30,21,30c-5,0-9-4-9-9s4-9,9-9s9,4,9,9c0,1.8-0.5,3.6-1.6,5.1\r\n\tC29.7,27.2,34.9,32.3,35.6,32.9z M24.5,20.3h-2.8v-2.8c0-0.4-0.3-0.7-0.7-0.7s-0.7,0.3-0.7,0.7v2.8h-2.8c-0.4,0-0.7,0.3-0.7,0.7\r\n\ts0.3,0.7,0.7,0.7h2.9v2.8c0,0.4,0.3,0.7,0.7,0.7c0.4,0,0.7-0.3,0.7-0.7v-2.8h2.8c0.4,0,0.7-0.3,0.7-0.7S24.9,20.3,24.5,20.3z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "/KOU":
 /***/ (function(module, exports) {
 
-module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<svg version=\"1.1\" id=\"action-heart-fill-Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"\n\t x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\" style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\n<path id=\"action-heart-fill-a_1_\" style=\"fill:#111111;\" d=\"M29.7,12c-3.3,0-5.7,3.4-5.7,3.4S21.8,12,18.3,12c-1.7,0-3.4,0.8-4.6,2\n\tc-1.6,1.6-2.7,3.6-2.7,5.9s1,4.4,2.5,6l8.9,9.2c0.4,0.5,1,0.9,1.6,0.9s1.3-0.4,1.7-0.9l8.9-9.2c1.5-1.6,2.4-3.7,2.3-6\n\tc0-2.3-1-4.3-2.5-5.9C33.2,12.8,31.4,12,29.7,12\"/>\n</svg>\n"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"action-heart-fill-Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"\r\n\t x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\" style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"action-heart-fill-a_1_\" style=\"fill:#111111;\" d=\"M29.7,12c-3.3,0-5.7,3.4-5.7,3.4S21.8,12,18.3,12c-1.7,0-3.4,0.8-4.6,2\r\n\tc-1.6,1.6-2.7,3.6-2.7,5.9s1,4.4,2.5,6l8.9,9.2c0.4,0.5,1,0.9,1.6,0.9s1.3-0.4,1.7-0.9l8.9-9.2c1.5-1.6,2.4-3.7,2.3-6\r\n\tc0-2.3-1-4.3-2.5-5.9C33.2,12.8,31.4,12,29.7,12\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
@@ -269,14 +269,14 @@ module.exports = __webpack_require__("Lp72");
 /***/ "0nNs":
 /***/ (function(module, exports) {
 
-module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<svg version=\"1.1\" id=\"icon_x2F_Utility_x2F_Media_x2F_video-Layer_1\"\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\n<path id=\"icon_x2F_Utility_x2F_Media_x2F_video-path-1_1_\" style=\"fill:#111111;\" d=\"M37.3,14.1c-0.4-0.2-1-0.1-1.3,0.2l-7.1,6.2\n\tv-4.1c0-0.8-0.6-1.4-1.4-1.4H11.4c-0.8,0-1.4,0.6-1.4,1.4v15.2c0,0.8,0.6,1.4,1.4,1.4h16.1c0.8,0,1.4-0.6,1.4-1.4v-4.1l7.1,6.2\n\tc0.2,0.2,0.5,0.3,0.8,0.3c0.2,0,0.3,0,0.5-0.1c0.4-0.2,0.7-0.6,0.7-1.1V15.2C38,14.7,37.7,14.3,37.3,14.1\"/>\n</svg>\n"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"icon_x2F_Utility_x2F_Media_x2F_video-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"icon_x2F_Utility_x2F_Media_x2F_video-path-1_1_\" style=\"fill:#111111;\" d=\"M37.3,14.1c-0.4-0.2-1-0.1-1.3,0.2l-7.1,6.2\r\n\tv-4.1c0-0.8-0.6-1.4-1.4-1.4H11.4c-0.8,0-1.4,0.6-1.4,1.4v15.2c0,0.8,0.6,1.4,1.4,1.4h16.1c0.8,0,1.4-0.6,1.4-1.4v-4.1l7.1,6.2\r\n\tc0.2,0.2,0.5,0.3,0.8,0.3c0.2,0,0.3,0,0.5-0.1c0.4-0.2,0.7-0.6,0.7-1.1V15.2C38,14.7,37.7,14.3,37.3,14.1\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "1DLX":
 /***/ (function(module, exports) {
 
-module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<svg version=\"1.1\" id=\"new-googleplus-fill-Layer_1\"\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\n<path style=\"fill:#111111;\" d=\"M23.6,19.6c-0.2-1.8-1.4-3.3-2.8-3.3s-2.3,1.3-2,3.1c0.2,1.8,1.5,3,2.9,3.1\n\tC23,22.6,23.8,21.4,23.6,19.6z M21.4,26.2c-2,0-3.8,1.3-3.8,2.8s1.5,2.8,3.5,2.8c2.6,0,3.8-1.2,3.8-2.7C25,27.6,23.6,26.2,21.4,26.2\n\tz\"/>\n<path style=\"fill:#111111;\" d=\"M24,8C15.2,8,8,15.2,8,24s7.2,16,16,16s16-7.2,16-16S32.8,8,24,8z M21.1,32.8c-2.9,0-5.4-1.3-5.4-3.4\n\tc0-1.6,1-3.8,5.9-3.8c-0.7-0.6-0.9-1.4-0.5-2.3c-2.9,0-4.3-1.7-4.3-3.8s1.5-4,4.7-4h5.1l-1.1,1.1h-1.3c0.9,0.6,1.4,1.7,1.4,2.9\n\tc0,1.1-0.6,2-1.5,2.7c-1.6,1.2-1.2,1.9,0.5,3.1c1.6,1.2,2.1,2.1,2.1,3.6C26.7,30.6,25.1,32.8,21.1,32.8z M32.3,23.9h-2v2h-1.2v-2\n\th-1.9v-1.2h1.9v-1.9h1.2v1.9h2V23.9z\"/>\n</svg>\n"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"new-googleplus-fill-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path style=\"fill:#111111;\" d=\"M23.6,19.6c-0.2-1.8-1.4-3.3-2.8-3.3s-2.3,1.3-2,3.1c0.2,1.8,1.5,3,2.9,3.1\r\n\tC23,22.6,23.8,21.4,23.6,19.6z M21.4,26.2c-2,0-3.8,1.3-3.8,2.8s1.5,2.8,3.5,2.8c2.6,0,3.8-1.2,3.8-2.7C25,27.6,23.6,26.2,21.4,26.2\r\n\tz\"/>\r\n<path style=\"fill:#111111;\" d=\"M24,8C15.2,8,8,15.2,8,24s7.2,16,16,16s16-7.2,16-16S32.8,8,24,8z M21.1,32.8c-2.9,0-5.4-1.3-5.4-3.4\r\n\tc0-1.6,1-3.8,5.9-3.8c-0.7-0.6-0.9-1.4-0.5-2.3c-2.9,0-4.3-1.7-4.3-3.8s1.5-4,4.7-4h5.1l-1.1,1.1h-1.3c0.9,0.6,1.4,1.7,1.4,2.9\r\n\tc0,1.1-0.6,2-1.5,2.7c-1.6,1.2-1.2,1.9,0.5,3.1c1.6,1.2,2.1,2.1,2.1,3.6C26.7,30.6,25.1,32.8,21.1,32.8z M32.3,23.9h-2v2h-1.2v-2\r\n\th-1.9v-1.2h1.9v-1.9h1.2v1.9h2V23.9z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
@@ -290,35 +290,35 @@ module.exports = "<svg id=\"payment-card-visa-Layer_1\" xmlns=\"http://www.w3.or
 /***/ "2Oo2":
 /***/ (function(module, exports) {
 
-module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<svg version=\"1.1\" id=\"new-facebook-line-Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"\n\t x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\" style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\n<path id=\"new-facebook-line-path-1_1_\" style=\"fill:#111111;\" d=\"M25.3,32.6v-7.9H28l0.4-3.1h-3v-2c0-0.9,0.2-1.5,1.5-1.5h1.6v-2.7\n\tc-0.3,0-1.2-0.1-2.4-0.1c-2.3,0-3.9,1.4-3.9,4v2.3h-2.6v3.1h2.6v7.9C22.2,32.6,25.3,32.6,25.3,32.6z\"/>\n<path id=\"new-facebook-line-path-1_2_\" style=\"fill:#111111;\" d=\"M24,8c8.8,0,16,7.2,16,16s-7.2,16-16,16S8,32.8,8,24S15.2,8,24,8z\n\t M24,38.2c7.8,0,14.2-6.3,14.2-14.2S31.8,9.8,24,9.8S9.8,16.2,9.8,24S16.2,38.2,24,38.2z\"/>\n</svg>\n"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"new-facebook-line-Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"\r\n\t x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\" style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"new-facebook-line-path-1_1_\" style=\"fill:#111111;\" d=\"M25.3,32.6v-7.9H28l0.4-3.1h-3v-2c0-0.9,0.2-1.5,1.5-1.5h1.6v-2.7\r\n\tc-0.3,0-1.2-0.1-2.4-0.1c-2.3,0-3.9,1.4-3.9,4v2.3h-2.6v3.1h2.6v7.9C22.2,32.6,25.3,32.6,25.3,32.6z\"/>\r\n<path id=\"new-facebook-line-path-1_2_\" style=\"fill:#111111;\" d=\"M24,8c8.8,0,16,7.2,16,16s-7.2,16-16,16S8,32.8,8,24S15.2,8,24,8z\r\n\t M24,38.2c7.8,0,14.2-6.3,14.2-14.2S31.8,9.8,24,9.8S9.8,16.2,9.8,24S16.2,38.2,24,38.2z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "2r0G":
 /***/ (function(module, exports) {
 
-module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<svg version=\"1.1\" id=\"icon_x2F_Utility_x2F_Media_x2F_play-Layer_1\"\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\n<path id=\"icon_x2F_Utility_x2F_Media_x2F_play-path-1_1_\" style=\"fill:#111111;\" d=\"M31.6,23l-14-10.8c-0.3-0.2-0.7-0.3-1.1-0.1\n\tc-0.3,0.2-0.5,0.6-0.5,1.1l0.1,21.7c0,0.4,0.2,0.8,0.5,1c0.1,0.1,0.3,0.1,0.5,0.1c0.2,0,0.4-0.1,0.6-0.2l13.9-10.9\n\tc0.3-0.2,0.4-0.6,0.4-1C32,23.6,31.8,23.2,31.6,23\"/>\n</svg>\n"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"icon_x2F_Utility_x2F_Media_x2F_play-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"icon_x2F_Utility_x2F_Media_x2F_play-path-1_1_\" style=\"fill:#111111;\" d=\"M31.6,23l-14-10.8c-0.3-0.2-0.7-0.3-1.1-0.1\r\n\tc-0.3,0.2-0.5,0.6-0.5,1.1l0.1,21.7c0,0.4,0.2,0.8,0.5,1c0.1,0.1,0.3,0.1,0.5,0.1c0.2,0,0.4-0.1,0.6-0.2l13.9-10.9\r\n\tc0.3-0.2,0.4-0.6,0.4-1C32,23.6,31.8,23.2,31.6,23\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "39nX":
 /***/ (function(module, exports) {
 
-module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<svg version=\"1.1\" id=\"action-thumbsup-line-Layer_1\"\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\n<path style=\"fill:#111111;\" d=\"M34.8,20.4h-5.7c-0.7,0-1.2,0.5-1.2,1.2v0.2c-1-0.2-1.8-0.8-2.4-1.6L24.1,17v-0.1\n\tc-0.2-0.4-0.3-0.8-0.3-1.5V14c0-1.1-0.9-2-2-2h-0.6c-1.9,0-3.4,1.5-3.4,3.4V16c0,0.4,0,0.7,0.1,0.9l0.3,2.9l-3.7,1\n\tc-1.8,0.5-2.8,2.4-2.3,4.1l1.8,8.4c0.4,1.5,1.7,2.5,3.3,2.5l6,0.2c0.9,0,1.9-0.4,2.5-1.1l0.6-0.7c0.2-0.1,0.7-0.1,1.6-0.1v0.2\n\tc0,0.7,0.5,1.2,1.2,1.2h5.7c0.7,0,1.2-0.5,1.2-1.2V21.6C36,20.9,35.5,20.4,34.8,20.4z M25.4,33.2L24.7,34c-0.4,0.4-0.9,0.7-1.5,0.7\n\tl-6-0.2c-0.9,0-1.7-0.6-1.9-1.5l-1.8-8.4c-0.3-1.1,0.3-2.1,1.3-2.5l4.3-1.1c0.3,0,0.5-0.3,0.5-0.7l-0.4-3.5v-0.1\n\tc0-0.2-0.1-0.4-0.1-0.7v-0.6c0-1.1,0.9-2,2-2h0.5c0.4,0,0.6,0.3,0.7,0.6v1.3c0,1,0.2,1.6,0.5,2.2l1.4,3.3c0,0,0,0.1,0.1,0.1\n\tc0.8,1.3,2.1,2.1,3.6,2.3v9.5C26.5,32.7,25.8,32.8,25.4,33.2z M29.3,21.7h5.3v12.4h-5.3C29.3,34.1,29.3,21.7,29.3,21.7z\"/>\n</svg>\n"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"action-thumbsup-line-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path style=\"fill:#111111;\" d=\"M34.8,20.4h-5.7c-0.7,0-1.2,0.5-1.2,1.2v0.2c-1-0.2-1.8-0.8-2.4-1.6L24.1,17v-0.1\r\n\tc-0.2-0.4-0.3-0.8-0.3-1.5V14c0-1.1-0.9-2-2-2h-0.6c-1.9,0-3.4,1.5-3.4,3.4V16c0,0.4,0,0.7,0.1,0.9l0.3,2.9l-3.7,1\r\n\tc-1.8,0.5-2.8,2.4-2.3,4.1l1.8,8.4c0.4,1.5,1.7,2.5,3.3,2.5l6,0.2c0.9,0,1.9-0.4,2.5-1.1l0.6-0.7c0.2-0.1,0.7-0.1,1.6-0.1v0.2\r\n\tc0,0.7,0.5,1.2,1.2,1.2h5.7c0.7,0,1.2-0.5,1.2-1.2V21.6C36,20.9,35.5,20.4,34.8,20.4z M25.4,33.2L24.7,34c-0.4,0.4-0.9,0.7-1.5,0.7\r\n\tl-6-0.2c-0.9,0-1.7-0.6-1.9-1.5l-1.8-8.4c-0.3-1.1,0.3-2.1,1.3-2.5l4.3-1.1c0.3,0,0.5-0.3,0.5-0.7l-0.4-3.5v-0.1\r\n\tc0-0.2-0.1-0.4-0.1-0.7v-0.6c0-1.1,0.9-2,2-2h0.5c0.4,0,0.6,0.3,0.7,0.6v1.3c0,1,0.2,1.6,0.5,2.2l1.4,3.3c0,0,0,0.1,0.1,0.1\r\n\tc0.8,1.3,2.1,2.1,3.6,2.3v9.5C26.5,32.7,25.8,32.8,25.4,33.2z M29.3,21.7h5.3v12.4h-5.3C29.3,34.1,29.3,21.7,29.3,21.7z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "3enj":
 /***/ (function(module, exports) {
 
-module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<svg version=\"1.1\" id=\"icon_x2F_Utility_x2F_Cart_x2F_cart-Layer_1\"\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\n<path id=\"icon_x2F_Utility_x2F_Cart_x2F_cart-path-1_1_\" style=\"fill:#111111;\" d=\"M14.6,17.4C14.6,17.3,14.6,17.3,14.6,17.4\n\tL14,14.1h-4c-0.6,0-1-0.5-1-1s0.5-1,1-1h4.8c0.5,0,0.9,0.3,1,0.8l0.6,3.3H38c0.6,0,1.1,0.6,1,1.2l-1.6,8.2c-0.1,0.5-0.5,0.8-1,0.8\n\th-18l0.4,2h17.6c0.6,0,1,0.5,1,1s-0.5,1-1,1H18c-0.5,0-0.9-0.3-1-0.8l-0.8-4.1C16.2,25.5,14.6,17.4,14.6,17.4z M22,36\n\tc-1.3,0-2.4-1.1-2.4-2.5S20.7,31,22,31s2.4,1.1,2.4,2.5S23.3,36,22,36z M32.4,36c-1.3,0-2.4-1.1-2.4-2.5s1.1-2.5,2.4-2.5\n\tc1.3,0,2.4,1.1,2.4,2.5S33.7,36,32.4,36z\"/>\n</svg>\n"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"icon_x2F_Utility_x2F_Cart_x2F_cart-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"icon_x2F_Utility_x2F_Cart_x2F_cart-path-1_1_\" style=\"fill:#111111;\" d=\"M14.6,17.4C14.6,17.3,14.6,17.3,14.6,17.4\r\n\tL14,14.1h-4c-0.6,0-1-0.5-1-1s0.5-1,1-1h4.8c0.5,0,0.9,0.3,1,0.8l0.6,3.3H38c0.6,0,1.1,0.6,1,1.2l-1.6,8.2c-0.1,0.5-0.5,0.8-1,0.8\r\n\th-18l0.4,2h17.6c0.6,0,1,0.5,1,1s-0.5,1-1,1H18c-0.5,0-0.9-0.3-1-0.8l-0.8-4.1C16.2,25.5,14.6,17.4,14.6,17.4z M22,36\r\n\tc-1.3,0-2.4-1.1-2.4-2.5S20.7,31,22,31s2.4,1.1,2.4,2.5S23.3,36,22,36z M32.4,36c-1.3,0-2.4-1.1-2.4-2.5s1.1-2.5,2.4-2.5\r\n\tc1.3,0,2.4,1.1,2.4,2.5S33.7,36,32.4,36z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "3k2V":
 /***/ (function(module, exports) {
 
-module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<svg version=\"1.1\" id=\"action-zoom-out-fill-Layer_1\"\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\n<path id=\"action-zoom-out-fill-a_1_\" style=\"fill:#111111;\" d=\"M35.5,32.9c-0.7-0.6-5.9-5.7-7.1-6.9c1-1.5,1.6-3.2,1.6-5\n\tc0-4.9-4-9-9-9s-9,4-9,9s4,9,9,9c1.7,0,3.4-0.5,4.8-1.4c1.1,1.1,6.4,6.3,7.1,6.9c0.3,0.3,0.7,0.4,1.1,0.4c0.5,0,1-0.2,1.4-0.7\n\tC36.1,34.5,36.2,33.4,35.5,32.9z M24.5,21.6h-7c-0.3,0-0.7-0.3-0.7-0.6c0-0.4,0.3-0.7,0.7-0.7h6.9c0.4,0,0.7,0.3,0.7,0.7\n\tC25.2,21.3,24.8,21.6,24.5,21.6z\"/>\n</svg>\n"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"action-zoom-out-fill-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"action-zoom-out-fill-a_1_\" style=\"fill:#111111;\" d=\"M35.5,32.9c-0.7-0.6-5.9-5.7-7.1-6.9c1-1.5,1.6-3.2,1.6-5\r\n\tc0-4.9-4-9-9-9s-9,4-9,9s4,9,9,9c1.7,0,3.4-0.5,4.8-1.4c1.1,1.1,6.4,6.3,7.1,6.9c0.3,0.3,0.7,0.4,1.1,0.4c0.5,0,1-0.2,1.4-0.7\r\n\tC36.1,34.5,36.2,33.4,35.5,32.9z M24.5,21.6h-7c-0.3,0-0.7-0.3-0.7-0.6c0-0.4,0.3-0.7,0.7-0.7h6.9c0.4,0,0.7,0.3,0.7,0.7\r\n\tC25.2,21.3,24.8,21.6,24.5,21.6z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
@@ -339,238 +339,238 @@ module.exports = "<svg id=\"payment-card-jcp-gold-Layer_1\" xmlns=\"http://www.w
 /***/ "6spg":
 /***/ (function(module, exports) {
 
-module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<svg version=\"1.1\" id=\"icon_x2F_Social_x2F_pinterest-line-Layer_1\"\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\n<path id=\"icon_x2F_Social_x2F_pinterest-line-path-1_1_\" style=\"fill:#111111;\" d=\"M24,8c8.8,0,16,7.2,16,16s-7.2,16-16,16\n\tS8,32.8,8,24S15.2,8,24,8z M24,9.8C16.2,9.8,9.8,16.2,9.8,24S16.2,38.2,24,38.2S38.2,31.8,38.2,24S31.8,9.8,24,9.8z M24.2,16.2\n\tc3.8,0,6.3,2.7,6.3,5.7c0,3.9-2.2,6.8-5.3,6.8c-1.1,0-2.1-0.6-2.4-1.2c0,0-0.6,2.3-0.7,2.7c-0.4,1.6-1.7,3.1-1.8,3.2\n\ts-0.2,0.1-0.2-0.1c0-0.2-0.3-2.2,0-3.8c0.2-0.8,1.3-5.4,1.3-5.4S21,23.6,21,22.6c0-1.5,0.9-2.6,1.9-2.6c0.9,0,1.3,0.7,1.3,1.5\n\tc0,0.9-0.6,2.3-0.9,3.5c-0.2,1.1,0.5,1.9,1.6,1.9c1.9,0,3.1-2.4,3.1-5.3c0-2.2-1.5-3.8-4.1-3.8c-3,0-4.9,2.2-4.9,4.7\n\tc0,0.9,0.3,1.5,0.7,1.9c0.2,0.2,0.2,0.3,0.1,0.6c0,0.2-0.2,0.6-0.2,0.8c-0.1,0.3-0.3,0.3-0.5,0.2c-1.4-0.6-2-2.1-2-3.8\n\tC17.1,19.6,19.5,16.2,24.2,16.2z\"/>\n</svg>\n"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"icon_x2F_Social_x2F_pinterest-line-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"icon_x2F_Social_x2F_pinterest-line-path-1_1_\" style=\"fill:#111111;\" d=\"M24,8c8.8,0,16,7.2,16,16s-7.2,16-16,16\r\n\tS8,32.8,8,24S15.2,8,24,8z M24,9.8C16.2,9.8,9.8,16.2,9.8,24S16.2,38.2,24,38.2S38.2,31.8,38.2,24S31.8,9.8,24,9.8z M24.2,16.2\r\n\tc3.8,0,6.3,2.7,6.3,5.7c0,3.9-2.2,6.8-5.3,6.8c-1.1,0-2.1-0.6-2.4-1.2c0,0-0.6,2.3-0.7,2.7c-0.4,1.6-1.7,3.1-1.8,3.2\r\n\ts-0.2,0.1-0.2-0.1c0-0.2-0.3-2.2,0-3.8c0.2-0.8,1.3-5.4,1.3-5.4S21,23.6,21,22.6c0-1.5,0.9-2.6,1.9-2.6c0.9,0,1.3,0.7,1.3,1.5\r\n\tc0,0.9-0.6,2.3-0.9,3.5c-0.2,1.1,0.5,1.9,1.6,1.9c1.9,0,3.1-2.4,3.1-5.3c0-2.2-1.5-3.8-4.1-3.8c-3,0-4.9,2.2-4.9,4.7\r\n\tc0,0.9,0.3,1.5,0.7,1.9c0.2,0.2,0.2,0.3,0.1,0.6c0,0.2-0.2,0.6-0.2,0.8c-0.1,0.3-0.3,0.3-0.5,0.2c-1.4-0.6-2-2.1-2-3.8\r\n\tC17.1,19.6,19.5,16.2,24.2,16.2z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "738v":
 /***/ (function(module, exports) {
 
-module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<svg version=\"1.1\" id=\"icon_x2F_Nav_x2F_menu-Layer_1\"\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\n<path id=\"icon_x2F_Nav_x2F_menu-path-1_1_\" style=\"fill:#FFFFFF;\" d=\"M36,13c0.6,0,1,0.4,1,1s-0.4,1-1,1H12c-0.6,0-1-0.4-1-1\n\ts0.4-1,1-1H36z M36,23c0.6,0,1,0.4,1,1s-0.4,1-1,1H12c-0.6,0-1-0.4-1-1s0.4-1,1-1H36z M36,33c0.6,0,1,0.4,1,1s-0.4,1-1,1H12\n\tc-0.6,0-1-0.4-1-1s0.4-1,1-1H36z\"/>\n</svg>\n"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"icon_x2F_Nav_x2F_menu-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"icon_x2F_Nav_x2F_menu-path-1_1_\" style=\"fill:#FFFFFF;\" d=\"M36,13c0.6,0,1,0.4,1,1s-0.4,1-1,1H12c-0.6,0-1-0.4-1-1\r\n\ts0.4-1,1-1H36z M36,23c0.6,0,1,0.4,1,1s-0.4,1-1,1H12c-0.6,0-1-0.4-1-1s0.4-1,1-1H36z M36,33c0.6,0,1,0.4,1,1s-0.4,1-1,1H12\r\n\tc-0.6,0-1-0.4-1-1s0.4-1,1-1H36z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "7qej":
 /***/ (function(module, exports) {
 
-module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<svg version=\"1.1\" id=\"action-list-line-Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"\n\t x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\" style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\n<path id=\"action-list-line-a_1_\" style=\"fill:#111111;\" d=\"M13.1,17.5h4.4v-4.4h-4.4V17.5z M12,13.1c0-0.6,0.5-1.1,1.1-1.1h4.4\n\tc0.6,0,1.1,0.5,1.1,1.1v4.4c0,0.6-0.5,1.1-1.1,1.1h-4.4c-0.6-0.1-1.1-0.5-1.1-1.1V13.1z M13.1,21.8v4.4h4.4v-4.4H13.1z M12,21.8\n\tc0-0.6,0.5-1.1,1.1-1.1h4.4c0.6,0,1.1,0.5,1.1,1.1v4.4c0,0.6-0.5,1.1-1.1,1.1h-4.4c-0.6,0-1.1-0.5-1.1-1.1V21.8z M21.8,17.5h13.1\n\tv-4.4H21.8C21.8,13.1,21.8,17.5,21.8,17.5z M20.7,13.1c0-0.6,0.5-1.1,1.1-1.1h13.1c0.6,0,1.1,0.5,1.1,1.1v4.4c0,0.6-0.5,1.1-1.1,1.1\n\tH21.8c-0.6,0-1.1-0.5-1.1-1.1V13.1z M21.8,26.2h13.1v-4.4H21.8C21.8,21.8,21.8,26.2,21.8,26.2z M20.7,21.8c0-0.6,0.5-1.1,1.1-1.1\n\th13.1c0.6,0,1.1,0.5,1.1,1.1v4.4c0,0.6-0.5,1.1-1.1,1.1H21.8c-0.6,0-1.1-0.5-1.1-1.1V21.8z M13.1,34.9h4.4v-4.4h-4.4V34.9z M12,30.5\n\tc0-0.6,0.5-1.1,1.1-1.1h4.4c0.6,0,1.1,0.5,1.1,1.1v4.4c0,0.6-0.5,1.1-1.1,1.1h-4.4c-0.6,0-1.1-0.5-1.1-1.1V30.5z M21.8,34.9h13.1\n\tv-4.4H21.8V34.9z M20.7,30.5c0-0.6,0.5-1.1,1.1-1.1h13.1c0.6,0,1.1,0.5,1.1,1.1v4.4c0,0.6-0.5,1.1-1.1,1.1H21.8\n\tc-0.6,0-1.1-0.5-1.1-1.1V30.5z\"/>\n</svg>\n"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"action-list-line-Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"\r\n\t x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\" style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"action-list-line-a_1_\" style=\"fill:#111111;\" d=\"M13.1,17.5h4.4v-4.4h-4.4V17.5z M12,13.1c0-0.6,0.5-1.1,1.1-1.1h4.4\r\n\tc0.6,0,1.1,0.5,1.1,1.1v4.4c0,0.6-0.5,1.1-1.1,1.1h-4.4c-0.6-0.1-1.1-0.5-1.1-1.1V13.1z M13.1,21.8v4.4h4.4v-4.4H13.1z M12,21.8\r\n\tc0-0.6,0.5-1.1,1.1-1.1h4.4c0.6,0,1.1,0.5,1.1,1.1v4.4c0,0.6-0.5,1.1-1.1,1.1h-4.4c-0.6,0-1.1-0.5-1.1-1.1V21.8z M21.8,17.5h13.1\r\n\tv-4.4H21.8C21.8,13.1,21.8,17.5,21.8,17.5z M20.7,13.1c0-0.6,0.5-1.1,1.1-1.1h13.1c0.6,0,1.1,0.5,1.1,1.1v4.4c0,0.6-0.5,1.1-1.1,1.1\r\n\tH21.8c-0.6,0-1.1-0.5-1.1-1.1V13.1z M21.8,26.2h13.1v-4.4H21.8C21.8,21.8,21.8,26.2,21.8,26.2z M20.7,21.8c0-0.6,0.5-1.1,1.1-1.1\r\n\th13.1c0.6,0,1.1,0.5,1.1,1.1v4.4c0,0.6-0.5,1.1-1.1,1.1H21.8c-0.6,0-1.1-0.5-1.1-1.1V21.8z M13.1,34.9h4.4v-4.4h-4.4V34.9z M12,30.5\r\n\tc0-0.6,0.5-1.1,1.1-1.1h4.4c0.6,0,1.1,0.5,1.1,1.1v4.4c0,0.6-0.5,1.1-1.1,1.1h-4.4c-0.6,0-1.1-0.5-1.1-1.1V30.5z M21.8,34.9h13.1\r\n\tv-4.4H21.8V34.9z M20.7,30.5c0-0.6,0.5-1.1,1.1-1.1h13.1c0.6,0,1.1,0.5,1.1,1.1v4.4c0,0.6-0.5,1.1-1.1,1.1H21.8\r\n\tc-0.6,0-1.1-0.5-1.1-1.1V30.5z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "7r5T":
 /***/ (function(module, exports) {
 
-module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<svg version=\"1.1\" id=\"action-search-Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"\n\t x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\" style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\n<path id=\"action-search-a_1_\" style=\"fill:#111111;\" d=\"M35.6,32.9c-0.7-0.6-5.9-5.7-7.1-6.9c1-1.5,1.6-3.3,1.6-5.1c0-5-4-9-9-9\n\tC16,12,12,16,12,21s4,9,9,9c1.7,0,3.4-0.5,4.8-1.4c1.1,1.1,6.4,6.3,7.1,7c0.3,0.3,0.7,0.4,1.1,0.4c0.5,0,1-0.2,1.4-0.7\n\tC36.1,34.6,36.2,33.5,35.6,32.9z M14.2,21c0-3.7,3.1-6.8,6.8-6.8c3.8,0,6.8,3.1,6.8,6.8s-3.1,6.8-6.8,6.8\n\tC17.2,27.8,14.2,24.7,14.2,21z\"/>\n</svg>\n"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"action-search-Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"\r\n\t x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\" style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"action-search-a_1_\" style=\"fill:#111111;\" d=\"M35.6,32.9c-0.7-0.6-5.9-5.7-7.1-6.9c1-1.5,1.6-3.3,1.6-5.1c0-5-4-9-9-9\r\n\tC16,12,12,16,12,21s4,9,9,9c1.7,0,3.4-0.5,4.8-1.4c1.1,1.1,6.4,6.3,7.1,7c0.3,0.3,0.7,0.4,1.1,0.4c0.5,0,1-0.2,1.4-0.7\r\n\tC36.1,34.6,36.2,33.5,35.6,32.9z M14.2,21c0-3.7,3.1-6.8,6.8-6.8c3.8,0,6.8,3.1,6.8,6.8s-3.1,6.8-6.8,6.8\r\n\tC17.2,27.8,14.2,24.7,14.2,21z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "8PdL":
 /***/ (function(module, exports) {
 
-module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<svg version=\"1.1\" id=\"icon_x2F_Social_x2F_youtube-fill-Layer_1\"\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\n<path id=\"icon_x2F_Social_x2F_youtube-fill-path-1_1_\" style=\"fill:#111111;\" d=\"M24,8c8.8,0,16,7.2,16,16s-7.2,16-16,16\n\tS8,32.8,8,24S15.2,8,24,8z M33.6,24.7v-1.5c0-1.6-0.2-3.1-0.2-3.1s-0.2-1.3-0.8-1.9c-0.7-0.8-1.6-0.8-1.9-0.8\n\tC28,17.2,24,17.2,24,17.2s-4,0-6.7,0.2c-0.4,0-1.2,0-1.9,0.8c-0.6,0.6-0.8,1.9-0.8,1.9s-0.2,1.6-0.2,3.1v1.5c0,1.6,0.2,3.1,0.2,3.1\n\ts0.2,1.3,0.8,1.9c0.7,0.8,1.7,0.7,2.1,0.8c1.5,0.1,6.5,0.2,6.5,0.2s4,0,6.7-0.2c0.4,0,1.2,0,1.9-0.8c0.6-0.6,0.8-1.9,0.8-1.9\n\tS33.6,26.3,33.6,24.7z M21.7,26.2v-5.4l5.2,2.7C26.9,23.5,21.7,26.2,21.7,26.2z\"/>\n</svg>\n"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"icon_x2F_Social_x2F_youtube-fill-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"icon_x2F_Social_x2F_youtube-fill-path-1_1_\" style=\"fill:#111111;\" d=\"M24,8c8.8,0,16,7.2,16,16s-7.2,16-16,16\r\n\tS8,32.8,8,24S15.2,8,24,8z M33.6,24.7v-1.5c0-1.6-0.2-3.1-0.2-3.1s-0.2-1.3-0.8-1.9c-0.7-0.8-1.6-0.8-1.9-0.8\r\n\tC28,17.2,24,17.2,24,17.2s-4,0-6.7,0.2c-0.4,0-1.2,0-1.9,0.8c-0.6,0.6-0.8,1.9-0.8,1.9s-0.2,1.6-0.2,3.1v1.5c0,1.6,0.2,3.1,0.2,3.1\r\n\ts0.2,1.3,0.8,1.9c0.7,0.8,1.7,0.7,2.1,0.8c1.5,0.1,6.5,0.2,6.5,0.2s4,0,6.7-0.2c0.4,0,1.2,0,1.9-0.8c0.6-0.6,0.8-1.9,0.8-1.9\r\n\tS33.6,26.3,33.6,24.7z M21.7,26.2v-5.4l5.2,2.7C26.9,23.5,21.7,26.2,21.7,26.2z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "8ysx":
 /***/ (function(module, exports) {
 
-module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<svg version=\"1.1\" id=\"icon_x2F_Service_x2F_account-Layer_1\"\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\n<path id=\"icon_x2F_Service_x2F_account-path-1_1_\" style=\"fill:#FFFFFF;\" d=\"M24,8C15.2,8,8,15.2,8,24s7.2,16,16,16s16-7.2,16-16\n\tS32.8,8,24,8z M24,9.8c7.8,0,14.2,6.3,14.2,14.2c0,3.2-1.1,6.2-2.9,8.6c-1.8-3.4-6-6-7.5-6.7l-0.3-0.2c-0.1,0-0.1-0.1-0.1-0.1\n\ts0.1-0.2,0.2-0.3l0.1-0.2c1-1.1,2.6-3,2.7-6.2c0.1-3.4-2.4-7.1-6.2-7.3h-0.3c-3.7,0.2-6.2,4-6.1,7.4c0.1,3.2,1.7,5.1,2.7,6.2\n\tl0.1,0.2c0.1,0.2,0.2,0.3,0.2,0.3s-0.1,0-0.1,0.1l-0.2,0.1c-1.6,0.8-5.9,3.3-7.8,6.7c-1.8-2.4-2.9-5.3-2.9-8.6\n\tC9.8,16.2,16.2,9.8,24,9.8z\"/>\n</svg>\n"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"icon_x2F_Service_x2F_account-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"icon_x2F_Service_x2F_account-path-1_1_\" style=\"fill:#FFFFFF;\" d=\"M24,8C15.2,8,8,15.2,8,24s7.2,16,16,16s16-7.2,16-16\r\n\tS32.8,8,24,8z M24,9.8c7.8,0,14.2,6.3,14.2,14.2c0,3.2-1.1,6.2-2.9,8.6c-1.8-3.4-6-6-7.5-6.7l-0.3-0.2c-0.1,0-0.1-0.1-0.1-0.1\r\n\ts0.1-0.2,0.2-0.3l0.1-0.2c1-1.1,2.6-3,2.7-6.2c0.1-3.4-2.4-7.1-6.2-7.3h-0.3c-3.7,0.2-6.2,4-6.1,7.4c0.1,3.2,1.7,5.1,2.7,6.2\r\n\tl0.1,0.2c0.1,0.2,0.2,0.3,0.2,0.3s-0.1,0-0.1,0.1l-0.2,0.1c-1.6,0.8-5.9,3.3-7.8,6.7c-1.8-2.4-2.9-5.3-2.9-8.6\r\n\tC9.8,16.2,16.2,9.8,24,9.8z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "9CxF":
 /***/ (function(module, exports) {
 
-module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<svg version=\"1.1\" id=\"icon_x2F_Alert_x2F_warning-Layer_1\"\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\n<path id=\"icon_x2F_Alert_x2F_warning-path-1_1_\" style=\"fill:#615D14;\" d=\"M36.7,33.1L25.6,13c-0.3-0.6-1-1-1.7-1\n\tc-0.7,0-1.2,0.4-1.6,1l-11,20.1c-0.3,0.6-0.5,1.4-0.1,1.9c0.3,0.6,1,0.9,1.7,0.9h21.8c0.8,0,1.7-0.4,2.1-1\n\tC37.1,34.4,37,33.7,36.7,33.1z M23.4,18.9c0-0.4,0.3-0.7,0.7-0.7c0.4,0,0.7,0.3,0.7,0.7v9.8c0,0.4-0.3,0.7-0.7,0.7\n\tc-0.4,0-0.7-0.3-0.7-0.7V18.9z M24,32.6c-0.5,0-1-0.4-1-1c0-0.5,0.4-1,1-1s1,0.4,1,1C25,32.1,24.5,32.6,24,32.6z\"/>\n</svg>\n"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"icon_x2F_Alert_x2F_warning-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"icon_x2F_Alert_x2F_warning-path-1_1_\" style=\"fill:#615D14;\" d=\"M36.7,33.1L25.6,13c-0.3-0.6-1-1-1.7-1\r\n\tc-0.7,0-1.2,0.4-1.6,1l-11,20.1c-0.3,0.6-0.5,1.4-0.1,1.9c0.3,0.6,1,0.9,1.7,0.9h21.8c0.8,0,1.7-0.4,2.1-1\r\n\tC37.1,34.4,37,33.7,36.7,33.1z M23.4,18.9c0-0.4,0.3-0.7,0.7-0.7c0.4,0,0.7,0.3,0.7,0.7v9.8c0,0.4-0.3,0.7-0.7,0.7\r\n\tc-0.4,0-0.7-0.3-0.7-0.7V18.9z M24,32.6c-0.5,0-1-0.4-1-1c0-0.5,0.4-1,1-1s1,0.4,1,1C25,32.1,24.5,32.6,24,32.6z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "9ZaE":
 /***/ (function(module, exports) {
 
-module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<svg version=\"1.1\" id=\"icon_x2F_Alert_x2F_error-2-Layer_1\"\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\n<path id=\"icon_x2F_Alert_x2F_error-2-path-1_1_\" style=\"fill:#9D2028;\" d=\"M24,14.4c-5.3,0-9.6,4.3-9.6,9.6c0,2.2,0.8,4.3,2,5.9\n\tl13.5-13.5C28.3,15.2,26.2,14.4,24,14.4z M24,36c-6.6,0-12-5.4-12-12s5.4-12,12-12s12,5.4,12,12S30.6,36,24,36z M31.6,18.1\n\tL18.1,31.6c1.6,1.3,3.7,2,5.9,2c5.3,0,9.6-4.3,9.6-9.6C33.6,21.8,32.8,19.7,31.6,18.1z\"/>\n</svg>\n"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"icon_x2F_Alert_x2F_error-2-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"icon_x2F_Alert_x2F_error-2-path-1_1_\" style=\"fill:#9D2028;\" d=\"M24,14.4c-5.3,0-9.6,4.3-9.6,9.6c0,2.2,0.8,4.3,2,5.9\r\n\tl13.5-13.5C28.3,15.2,26.2,14.4,24,14.4z M24,36c-6.6,0-12-5.4-12-12s5.4-12,12-12s12,5.4,12,12S30.6,36,24,36z M31.6,18.1\r\n\tL18.1,31.6c1.6,1.3,3.7,2,5.9,2c5.3,0,9.6-4.3,9.6-9.6C33.6,21.8,32.8,19.7,31.6,18.1z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "9nAV":
 /***/ (function(module, exports) {
 
-module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<svg version=\"1.1\" id=\"icon_x2F_Nav_x2F_arrow-right-Layer_1\"\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\n<path id=\"icon_x2F_Nav_x2F_arrow-right-path-1_1_\" style=\"fill:#111111;\" d=\"M35.6,24.9l-10.3,9.5c-0.4,0.4-0.4,0.9,0,1.3\n\tc0.4,0.4,1,0.4,1.4,0l12-11.1c0.4-0.4,0.4-0.9,0-1.3l-12-11.1c-0.4-0.4-1-0.4-1.4,0c-0.4,0.4-0.4,0.9,0,1.3L35.6,23H10\n\tc-0.6,0-1,0.4-1,0.9s0.4,0.9,1,0.9h25.6V24.9z\"/>\n</svg>\n"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"icon_x2F_Nav_x2F_arrow-right-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"icon_x2F_Nav_x2F_arrow-right-path-1_1_\" style=\"fill:#111111;\" d=\"M35.6,24.9l-10.3,9.5c-0.4,0.4-0.4,0.9,0,1.3\r\n\tc0.4,0.4,1,0.4,1.4,0l12-11.1c0.4-0.4,0.4-0.9,0-1.3l-12-11.1c-0.4-0.4-1-0.4-1.4,0c-0.4,0.4-0.4,0.9,0,1.3L35.6,23H10\r\n\tc-0.6,0-1,0.4-1,0.9s0.4,0.9,1,0.9h25.6V24.9z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "A6Z6":
 /***/ (function(module, exports) {
 
-module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<svg version=\"1.1\" id=\"action-thumbsdown-fill-Layer_1\"\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\n<path id=\"action-thumbsdown-fill-a_1_\" style=\"fill:#111111;\" d=\"M34.8,27.2h-4.3c-0.7,0-1.2-0.5-1.2-1.2V13.2\n\tc0-0.7,0.5-1.2,1.2-1.2h4.3c0.7,0,1.2,0.5,1.2,1.2V26C36,26.6,35.5,27.2,34.8,27.2z M21.7,36h-0.5c-1.9,0-3.4-1.5-3.4-3.4V32\n\tc0-0.4,0-0.7,0.1-0.9l0.3-2.9l-3.7-0.9c-1.8-0.5-2.8-2.4-2.3-4.2l1.8-8.4c0.4-1.5,1.7-2.5,3.3-2.5l6-0.2c0.9,0,1.9,0.4,2.5,1.1\n\tl0.6,0.7c0.1,0,0.3,0.1,0.9,0.1c0.4,0,0.7,0.3,0.7,0.7v11.1c0,0.3-0.2,0.6-0.5,0.7c-0.8,0.3-1.5,0.8-1.9,1.5L24.1,31v0.1\n\tc-0.2,0.4-0.3,0.8-0.3,1.5V34C23.7,35.1,22.8,36,21.7,36z\"/>\n</svg>\n"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"action-thumbsdown-fill-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"action-thumbsdown-fill-a_1_\" style=\"fill:#111111;\" d=\"M34.8,27.2h-4.3c-0.7,0-1.2-0.5-1.2-1.2V13.2\r\n\tc0-0.7,0.5-1.2,1.2-1.2h4.3c0.7,0,1.2,0.5,1.2,1.2V26C36,26.6,35.5,27.2,34.8,27.2z M21.7,36h-0.5c-1.9,0-3.4-1.5-3.4-3.4V32\r\n\tc0-0.4,0-0.7,0.1-0.9l0.3-2.9l-3.7-0.9c-1.8-0.5-2.8-2.4-2.3-4.2l1.8-8.4c0.4-1.5,1.7-2.5,3.3-2.5l6-0.2c0.9,0,1.9,0.4,2.5,1.1\r\n\tl0.6,0.7c0.1,0,0.3,0.1,0.9,0.1c0.4,0,0.7,0.3,0.7,0.7v11.1c0,0.3-0.2,0.6-0.5,0.7c-0.8,0.3-1.5,0.8-1.9,1.5L24.1,31v0.1\r\n\tc-0.2,0.4-0.3,0.8-0.3,1.5V34C23.7,35.1,22.8,36,21.7,36z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "AGMn":
 /***/ (function(module, exports) {
 
-module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<svg version=\"1.1\" id=\"icon_x2F_Social_x2F_instagram-line-Layer_1\"\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\n<path id=\"icon_x2F_Social_x2F_instagram-line-path-1_1_\" style=\"fill:#111111;\" d=\"M24,8c8.8,0,16,7.2,16,16s-7.2,16-16,16\n\tS8,32.8,8,24S15.2,8,24,8z M24,38.2c7.8,0,14.2-6.3,14.2-14.2S31.8,9.8,24,9.8S9.8,16.2,9.8,24S16.2,38.2,24,38.2z M24,17.4h3.2\n\tc0.8,0,1.2,0.2,1.5,0.3c0.4,0.1,0.6,0.3,0.9,0.6c0.3,0.3,0.5,0.5,0.6,0.9c0.1,0.3,0.2,0.7,0.3,1.5v6.4c0,0.8-0.2,1.2-0.3,1.5\n\tc-0.1,0.4-0.3,0.6-0.6,0.9c-0.3,0.3-0.5,0.5-0.9,0.6c-0.3,0.1-0.7,0.2-1.5,0.3h-6.4c-0.8,0-1.2-0.2-1.5-0.3\n\tc-0.4-0.1-0.6-0.3-0.9-0.6c-0.3-0.3-0.5-0.5-0.6-0.9c-0.1-0.3-0.2-0.7-0.3-1.5v-3.2v-3.2c0-0.8,0.2-1.2,0.3-1.5\n\tc0.1-0.4,0.3-0.6,0.6-0.9s0.5-0.5,0.9-0.6c0.3-0.1,0.7-0.2,1.5-0.3C21.6,17.5,21.9,17.4,24,17.4z M24,19.9c-2.3,0-4.1,1.8-4.1,4.1\n\ts1.8,4.1,4.1,4.1s4.1-1.8,4.1-4.1S26.3,19.9,24,19.9z M29.2,19.7c0-0.5-0.4-1-1-1c-0.5,0-1,0.4-1,1c0,0.5,0.4,1,1,1\n\tS29.2,20.3,29.2,19.7z M24,26.7c-1.5,0-2.7-1.2-2.7-2.7s1.2-2.7,2.7-2.7s2.7,1.2,2.7,2.7S25.5,26.7,24,26.7z\"/>\n</svg>\n"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"icon_x2F_Social_x2F_instagram-line-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"icon_x2F_Social_x2F_instagram-line-path-1_1_\" style=\"fill:#111111;\" d=\"M24,8c8.8,0,16,7.2,16,16s-7.2,16-16,16\r\n\tS8,32.8,8,24S15.2,8,24,8z M24,38.2c7.8,0,14.2-6.3,14.2-14.2S31.8,9.8,24,9.8S9.8,16.2,9.8,24S16.2,38.2,24,38.2z M24,17.4h3.2\r\n\tc0.8,0,1.2,0.2,1.5,0.3c0.4,0.1,0.6,0.3,0.9,0.6c0.3,0.3,0.5,0.5,0.6,0.9c0.1,0.3,0.2,0.7,0.3,1.5v6.4c0,0.8-0.2,1.2-0.3,1.5\r\n\tc-0.1,0.4-0.3,0.6-0.6,0.9c-0.3,0.3-0.5,0.5-0.9,0.6c-0.3,0.1-0.7,0.2-1.5,0.3h-6.4c-0.8,0-1.2-0.2-1.5-0.3\r\n\tc-0.4-0.1-0.6-0.3-0.9-0.6c-0.3-0.3-0.5-0.5-0.6-0.9c-0.1-0.3-0.2-0.7-0.3-1.5v-3.2v-3.2c0-0.8,0.2-1.2,0.3-1.5\r\n\tc0.1-0.4,0.3-0.6,0.6-0.9s0.5-0.5,0.9-0.6c0.3-0.1,0.7-0.2,1.5-0.3C21.6,17.5,21.9,17.4,24,17.4z M24,19.9c-2.3,0-4.1,1.8-4.1,4.1\r\n\ts1.8,4.1,4.1,4.1s4.1-1.8,4.1-4.1S26.3,19.9,24,19.9z M29.2,19.7c0-0.5-0.4-1-1-1c-0.5,0-1,0.4-1,1c0,0.5,0.4,1,1,1\r\n\tS29.2,20.3,29.2,19.7z M24,26.7c-1.5,0-2.7-1.2-2.7-2.7s1.2-2.7,2.7-2.7s2.7,1.2,2.7,2.7S25.5,26.7,24,26.7z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "ARRV":
 /***/ (function(module, exports) {
 
-module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<svg version=\"1.1\" id=\"action-trash-can-Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"\n\t x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\" style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\n<path id=\"action-trash-can-a_1_\" style=\"fill:#333333;\" d=\"M29,32.3c0,0.5-0.4,0.8-0.8,0.8c-0.5,0-0.8-0.3-0.8-0.8V19.1\n\tc0-0.5,0.4-0.8,0.8-0.8c0.5,0,0.8,0.4,0.8,0.8V32.3z M27.2,14.5h-6.4v-1.6c0-0.2,0.1-0.3,0.3-0.3h5.8c0.2,0,0.3,0.1,0.3,0.3V14.5z\n\t M24.8,32.3c0,0.5-0.4,0.8-0.8,0.8c-0.5,0-0.8-0.3-0.8-0.8V19.1c0-0.5,0.4-0.8,0.8-0.8c0.4,0,0.8,0.4,0.8,0.8V32.3z M20.6,32.3\n\tc0,0.5-0.4,0.8-0.8,0.8c-0.5,0-0.8-0.3-0.8-0.8V19.1c0-0.5,0.4-0.8,0.8-0.8c0.5,0,0.8,0.4,0.8,0.8V32.3z M36.2,14.5h-7.3v-1.6\n\tc0-1.1-0.9-1.9-2-1.9h-5.8c-1.1,0-2,0.9-2,1.9v1.6h-7.3c-0.4,0-0.8,0.4-0.8,0.8c0,0.5,0.4,0.8,0.8,0.8h2.4l0.6,18.4\n\tC14.9,36,16,37,17.4,37h13.2c1.4,0,2.5-1,2.5-2.4l0.6-18.4h2.4c0.5,0,0.8-0.3,0.8-0.8C37,14.9,36.6,14.5,36.2,14.5z\"/>\n</svg>\n"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"action-trash-can-Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"\r\n\t x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\" style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"action-trash-can-a_1_\" style=\"fill:#333333;\" d=\"M29,32.3c0,0.5-0.4,0.8-0.8,0.8c-0.5,0-0.8-0.3-0.8-0.8V19.1\r\n\tc0-0.5,0.4-0.8,0.8-0.8c0.5,0,0.8,0.4,0.8,0.8V32.3z M27.2,14.5h-6.4v-1.6c0-0.2,0.1-0.3,0.3-0.3h5.8c0.2,0,0.3,0.1,0.3,0.3V14.5z\r\n\t M24.8,32.3c0,0.5-0.4,0.8-0.8,0.8c-0.5,0-0.8-0.3-0.8-0.8V19.1c0-0.5,0.4-0.8,0.8-0.8c0.4,0,0.8,0.4,0.8,0.8V32.3z M20.6,32.3\r\n\tc0,0.5-0.4,0.8-0.8,0.8c-0.5,0-0.8-0.3-0.8-0.8V19.1c0-0.5,0.4-0.8,0.8-0.8c0.5,0,0.8,0.4,0.8,0.8V32.3z M36.2,14.5h-7.3v-1.6\r\n\tc0-1.1-0.9-1.9-2-1.9h-5.8c-1.1,0-2,0.9-2,1.9v1.6h-7.3c-0.4,0-0.8,0.4-0.8,0.8c0,0.5,0.4,0.8,0.8,0.8h2.4l0.6,18.4\r\n\tC14.9,36,16,37,17.4,37h13.2c1.4,0,2.5-1,2.5-2.4l0.6-18.4h2.4c0.5,0,0.8-0.3,0.8-0.8C37,14.9,36.6,14.5,36.2,14.5z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "BxHr":
 /***/ (function(module, exports) {
 
-module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<svg version=\"1.1\" id=\"icon_x2F_Utility_x2F_Ship_x2F_track-order-Layer_1\"\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\n<path id=\"icon_x2F_Utility_x2F_Ship_x2F_track-order-path-1_1_\" style=\"fill:#111111;\" d=\"M36.9,25.4c0.2,0.4,0.1,1.2-0.3,1.5\n\tl-6.3,3.6c0.2,0.5,0.3,1,0.3,1.6c0,2.2-1.7,3.9-3.7,3.9s-3.7-1.8-3.7-3.9c0-1.3,0.6-2.5,1.6-3.2l-7.2-14.2l-4.2-1.3\n\tc-0.3-0.2-0.5-0.5-0.4-0.9s0.5-0.6,0.8-0.5l4.4,1.4c0.2,0.1,0.3,0.2,0.4,0.3l4.2,8.4l8.6-5c0.1,0,0.3-0.1,0.4-0.1\n\tc0.4,0,0.9,0.3,1.1,0.7L36.9,25.4z M26.9,34.6c1.3,0,2.4-1.1,2.4-2.5c0-1.4-1.1-2.5-2.4-2.5s-2.4,1.1-2.4,2.5\n\tC24.5,33.5,25.6,34.6,26.9,34.6z M16.9,20.3h-4.8c-0.4,0-0.7-0.3-0.7-0.6s0.3-0.7,0.7-0.7h4.8c0.4,0,0.7,0.3,0.7,0.7\n\tS17.2,20.3,16.9,20.3z M19,24.5h-7.3c-0.4,0-0.7-0.3-0.7-0.7c0-0.4,0.3-0.7,0.7-0.7H19c0.4,0,0.7,0.3,0.7,0.7\n\tC19.7,24.2,19.4,24.5,19,24.5z M21.2,28.6h-4.8c-0.4,0-0.7-0.3-0.7-0.7c0-0.4,0.3-0.7,0.7-0.7h4.8c0.4,0,0.7,0.3,0.7,0.7\n\tC21.9,28.3,21.6,28.6,21.2,28.6z\"/>\n</svg>\n"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"icon_x2F_Utility_x2F_Ship_x2F_track-order-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"icon_x2F_Utility_x2F_Ship_x2F_track-order-path-1_1_\" style=\"fill:#111111;\" d=\"M36.9,25.4c0.2,0.4,0.1,1.2-0.3,1.5\r\n\tl-6.3,3.6c0.2,0.5,0.3,1,0.3,1.6c0,2.2-1.7,3.9-3.7,3.9s-3.7-1.8-3.7-3.9c0-1.3,0.6-2.5,1.6-3.2l-7.2-14.2l-4.2-1.3\r\n\tc-0.3-0.2-0.5-0.5-0.4-0.9s0.5-0.6,0.8-0.5l4.4,1.4c0.2,0.1,0.3,0.2,0.4,0.3l4.2,8.4l8.6-5c0.1,0,0.3-0.1,0.4-0.1\r\n\tc0.4,0,0.9,0.3,1.1,0.7L36.9,25.4z M26.9,34.6c1.3,0,2.4-1.1,2.4-2.5c0-1.4-1.1-2.5-2.4-2.5s-2.4,1.1-2.4,2.5\r\n\tC24.5,33.5,25.6,34.6,26.9,34.6z M16.9,20.3h-4.8c-0.4,0-0.7-0.3-0.7-0.6s0.3-0.7,0.7-0.7h4.8c0.4,0,0.7,0.3,0.7,0.7\r\n\tS17.2,20.3,16.9,20.3z M19,24.5h-7.3c-0.4,0-0.7-0.3-0.7-0.7c0-0.4,0.3-0.7,0.7-0.7H19c0.4,0,0.7,0.3,0.7,0.7\r\n\tC19.7,24.2,19.4,24.5,19,24.5z M21.2,28.6h-4.8c-0.4,0-0.7-0.3-0.7-0.7c0-0.4,0.3-0.7,0.7-0.7h4.8c0.4,0,0.7,0.3,0.7,0.7\r\n\tC21.9,28.3,21.6,28.6,21.2,28.6z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "CKfJ":
 /***/ (function(module, exports) {
 
-module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<svg version=\"1.1\" id=\"icon_x2F_Utility_x2F_Star-Layer_1\"\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\n<path id=\"icon_x2F_Utility_x2F_Star-path-1_1_\" style=\"fill:#111111;\" d=\"M24,30l-7.1,3.7l1.4-7.8l-5.7-5.6l7.9-1.2L24,12l3.5,7.1\n\tl7.9,1.2l-5.7,5.6l1.4,7.8L24,30z\"/>\n</svg>\n"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"icon_x2F_Utility_x2F_Star-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"icon_x2F_Utility_x2F_Star-path-1_1_\" style=\"fill:#111111;\" d=\"M24,30l-7.1,3.7l1.4-7.8l-5.7-5.6l7.9-1.2L24,12l3.5,7.1\r\n\tl7.9,1.2l-5.7,5.6l1.4,7.8L24,30z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "ESlp":
 /***/ (function(module, exports) {
 
-module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<svg version=\"1.1\" id=\"icon_x2F_Utility_x2F_Media_x2F_camera-Layer_1\"\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\n<path id=\"icon_x2F_Utility_x2F_Media_x2F_camera-path-1_1_\" style=\"fill:#111111;\" d=\"M35.8,18.1h-4.2c-0.5,0-1.2-0.4-1.4-0.9\n\tl-0.5-1.4c-0.4-1-1.6-1.8-2.7-1.8h-6.3c-1.1,0-2.2,0.8-2.5,1.8l-0.5,1.4c-0.1,0.5-0.7,0.9-1.2,0.9h-4.4c-1.2,0-2.1,1-2.1,2.2v11.6\n\tc0,1.1,0.9,2.1,2.1,2.1h23.7c1.2,0,2.2-1,2.2-2.2V20.3C38,19.1,37,18.1,35.8,18.1z M24,31.3c-3.4,0-6.1-2.6-6.1-5.9s2.7-5.9,6.1-5.9\n\ts6.1,2.6,6.1,5.9S27.4,31.3,24,31.3z M24,20.8c-2.6,0-4.7,2-4.7,4.5s2.1,4.5,4.7,4.5s4.7-2,4.7-4.5S26.6,20.8,24,20.8z\"/>\n</svg>\n"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"icon_x2F_Utility_x2F_Media_x2F_camera-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"icon_x2F_Utility_x2F_Media_x2F_camera-path-1_1_\" style=\"fill:#111111;\" d=\"M35.8,18.1h-4.2c-0.5,0-1.2-0.4-1.4-0.9\r\n\tl-0.5-1.4c-0.4-1-1.6-1.8-2.7-1.8h-6.3c-1.1,0-2.2,0.8-2.5,1.8l-0.5,1.4c-0.1,0.5-0.7,0.9-1.2,0.9h-4.4c-1.2,0-2.1,1-2.1,2.2v11.6\r\n\tc0,1.1,0.9,2.1,2.1,2.1h23.7c1.2,0,2.2-1,2.2-2.2V20.3C38,19.1,37,18.1,35.8,18.1z M24,31.3c-3.4,0-6.1-2.6-6.1-5.9s2.7-5.9,6.1-5.9\r\n\ts6.1,2.6,6.1,5.9S27.4,31.3,24,31.3z M24,20.8c-2.6,0-4.7,2-4.7,4.5s2.1,4.5,4.7,4.5s4.7-2,4.7-4.5S26.6,20.8,24,20.8z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "FAZD":
 /***/ (function(module, exports) {
 
-module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<svg version=\"1.1\" id=\"icon_x2F_Nav_x2F_arrow-left-Layer_1\"\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\n<path id=\"icon_x2F_Nav_x2F_arrow-left-path-1_1_\" style=\"fill:#FFF;\" d=\"M12.4,23l10.3-9.5c0.4-0.4,0.4-0.9,0-1.3\n\tc-0.4-0.4-1-0.4-1.4,0l-12,11.1c-0.4,0.4-0.4,0.9,0,1.3l12,11.1c0.4,0.4,1,0.4,1.4,0s0.4-0.9,0-1.3l-10.3-9.6H38c0.6,0,1-0.4,1-0.9\n\tS38.6,23,38,23C38,23,12.4,23,12.4,23z\"/>\n</svg>\n"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"icon_x2F_Nav_x2F_arrow-left-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"icon_x2F_Nav_x2F_arrow-left-path-1_1_\" style=\"fill:#FFF;\" d=\"M12.4,23l10.3-9.5c0.4-0.4,0.4-0.9,0-1.3\r\n\tc-0.4-0.4-1-0.4-1.4,0l-12,11.1c-0.4,0.4-0.4,0.9,0,1.3l12,11.1c0.4,0.4,1,0.4,1.4,0s0.4-0.9,0-1.3l-10.3-9.6H38c0.6,0,1-0.4,1-0.9\r\n\tS38.6,23,38,23C38,23,12.4,23,12.4,23z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "FNZ+":
 /***/ (function(module, exports) {
 
-module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<svg version=\"1.1\" id=\"action-upload-Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"\n\t x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\" style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\n<path id=\"action-upload-a_1_\" d=\"M35.4,28.1c0.3,0,0.6,0.3,0.6,0.6v2.4c0,2.1-1.6,3.8-3.7,3.8H15.7c-2,0-3.7-1.7-3.7-3.8v-2.4\n\tc0-0.4,0.3-0.6,0.6-0.6c0.3,0,0.6,0.3,0.6,0.6v2.4c0,1.4,1.1,2.5,2.4,2.5h16.7c1.3,0,2.4-1.1,2.4-2.5v-2.4\n\tC34.8,28.4,35.1,28.1,35.4,28.1z M31.7,30.6c0.3,0,0.6,0.3,0.6,0.6s-0.3,0.6-0.6,0.6H16.3c-0.3,0-0.6-0.3-0.6-0.6\n\tc0-0.4,0.3-0.6,0.6-0.6C16.3,30.6,31.7,30.6,31.7,30.6z M30.1,18.2c0.3,0.2,0.3,0.6,0,0.9c-0.2,0.3-0.6,0.3-0.8,0.1l-4.7-4.4v12.4\n\tc0,0.3-0.3,0.6-0.6,0.6c-0.3,0-0.6-0.3-0.6-0.6V14.7l-4.7,4.4c-0.2,0.2-0.6,0.2-0.8,0c-0.2-0.3-0.2-0.7,0-0.9l5.1-4.8\n\tc0.6-0.5,1.5-0.5,2,0C25,13.4,30.1,18.2,30.1,18.2z\"/>\n</svg>\n"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"action-upload-Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"\r\n\t x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\" style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"action-upload-a_1_\" d=\"M35.4,28.1c0.3,0,0.6,0.3,0.6,0.6v2.4c0,2.1-1.6,3.8-3.7,3.8H15.7c-2,0-3.7-1.7-3.7-3.8v-2.4\r\n\tc0-0.4,0.3-0.6,0.6-0.6c0.3,0,0.6,0.3,0.6,0.6v2.4c0,1.4,1.1,2.5,2.4,2.5h16.7c1.3,0,2.4-1.1,2.4-2.5v-2.4\r\n\tC34.8,28.4,35.1,28.1,35.4,28.1z M31.7,30.6c0.3,0,0.6,0.3,0.6,0.6s-0.3,0.6-0.6,0.6H16.3c-0.3,0-0.6-0.3-0.6-0.6\r\n\tc0-0.4,0.3-0.6,0.6-0.6C16.3,30.6,31.7,30.6,31.7,30.6z M30.1,18.2c0.3,0.2,0.3,0.6,0,0.9c-0.2,0.3-0.6,0.3-0.8,0.1l-4.7-4.4v12.4\r\n\tc0,0.3-0.3,0.6-0.6,0.6c-0.3,0-0.6-0.3-0.6-0.6V14.7l-4.7,4.4c-0.2,0.2-0.6,0.2-0.8,0c-0.2-0.3-0.2-0.7,0-0.9l5.1-4.8\r\n\tc0.6-0.5,1.5-0.5,2,0C25,13.4,30.1,18.2,30.1,18.2z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "Gcex":
 /***/ (function(module, exports) {
 
-module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<svg version=\"1.1\" id=\"icon_x2F_Utility_x2F_barcode-qr-Layer_1\"\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\n<path id=\"icon_x2F_Utility_x2F_barcode-qr-path-1_1_\" style=\"fill:#111111;\" d=\"M11,25.5h1.5V27H11V25.5z M11,21h3v3h-3V21z\n\t M15.5,24H17v1.5h1.5V27H14v-1.5h1.5V24z M22.5,20v1.5H21v-3h3v-3h1.5V17H27v3H22.5z M22.5,14v1.5H21V11h1.5v1.5H24V11h3v1.5h-1.5\n\tV14H22.5z M15.5,21h3v1.5h-3V21z M25.5,31H27v1.5h-1.5V31z M25.5,26h-3v-4.5H24v3h1.5V26z M27.9,25.5h1.5V27h-1.5V25.5z M33.9,22.5\n\tV21h3v6h-3v1.5h3V30h-9v-1.5h1.5V27h1.5v1.5h1.5v-3h-3v-3h-3V21h6v1.5h-1.5V24h1.5v-1.5H33.9z M35.4,32.5v-1h1.5V34h-1.5v3h-6v-1.5\n\th-3.9V34h3.9v-3h1.5v4.5h1.5V34h1.5v-1.5H35.4z M21,35.5h1.5V34H24v3h-3V35.5z M19.6,22.5h1.5v3h-1.5V22.5z M24,28.5h1.5V30H24V28.5\n\tz M22.5,28.5V31H24v1.5h-1.5V34H21v-5.5H22.5z M11,19.7V11h8.6v8.6H11V19.7z M12.5,12.5v5.6h5.6v-5.6H12.5z M11,37v-8.6h8.6V37H11z\n\t M12.5,29.9v5.6h5.6v-5.6H12.5z M28.4,19.7V11H37v8.6h-8.6V19.7z M29.9,12.5v5.6h5.6v-5.6H29.9z\"/>\n</svg>\n"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"icon_x2F_Utility_x2F_barcode-qr-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"icon_x2F_Utility_x2F_barcode-qr-path-1_1_\" style=\"fill:#111111;\" d=\"M11,25.5h1.5V27H11V25.5z M11,21h3v3h-3V21z\r\n\t M15.5,24H17v1.5h1.5V27H14v-1.5h1.5V24z M22.5,20v1.5H21v-3h3v-3h1.5V17H27v3H22.5z M22.5,14v1.5H21V11h1.5v1.5H24V11h3v1.5h-1.5\r\n\tV14H22.5z M15.5,21h3v1.5h-3V21z M25.5,31H27v1.5h-1.5V31z M25.5,26h-3v-4.5H24v3h1.5V26z M27.9,25.5h1.5V27h-1.5V25.5z M33.9,22.5\r\n\tV21h3v6h-3v1.5h3V30h-9v-1.5h1.5V27h1.5v1.5h1.5v-3h-3v-3h-3V21h6v1.5h-1.5V24h1.5v-1.5H33.9z M35.4,32.5v-1h1.5V34h-1.5v3h-6v-1.5\r\n\th-3.9V34h3.9v-3h1.5v4.5h1.5V34h1.5v-1.5H35.4z M21,35.5h1.5V34H24v3h-3V35.5z M19.6,22.5h1.5v3h-1.5V22.5z M24,28.5h1.5V30H24V28.5\r\n\tz M22.5,28.5V31H24v1.5h-1.5V34H21v-5.5H22.5z M11,19.7V11h8.6v8.6H11V19.7z M12.5,12.5v5.6h5.6v-5.6H12.5z M11,37v-8.6h8.6V37H11z\r\n\t M12.5,29.9v5.6h5.6v-5.6H12.5z M28.4,19.7V11H37v8.6h-8.6V19.7z M29.9,12.5v5.6h5.6v-5.6H29.9z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "GqVQ":
 /***/ (function(module, exports) {
 
-module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<svg version=\"1.1\" id=\"icon_x2F_Service_x2F_wallet-Layer_1\"\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\n<path id=\"icon_x2F_Service_x2F_wallet-path-1_1_\" style=\"fill:#111111;\" d=\"M30,29.2h6v2.7c0,1.2-1,2.1-2.1,2.1H14.1\n\tC13,34,12,33,12,31.9V19.4c0-1.2,1-2.1,2.1-2.1h19.7c1.2,0,2.1,1,2.1,2.1v2.7h-6c-1,0-1.8,0.4-2.4,1.2c-0.5,0.7-0.8,1.5-0.8,2.4\n\tC26.8,27.4,27.9,29.2,30,29.2z M33.3,16.7H16.1L30.3,14h0.5c1.2,0,2.2,0.9,2.4,2L33.3,16.7C33.3,16.6,33.3,16.7,33.3,16.7z M30,23.3\n\th6V28h-6c-1.4,0-2-1.2-2-2.3c0-0.6,0.2-1.3,0.5-1.7C28.9,23.5,29.4,23.3,30,23.3z M31.4,27c0.8,0,1.4-0.6,1.4-1.4\n\tc0-0.8-0.6-1.4-1.4-1.4c-0.8,0-1.4,0.7-1.4,1.4C30,26.4,30.6,27,31.4,27z\"/>\n</svg>\n"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"icon_x2F_Service_x2F_wallet-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"icon_x2F_Service_x2F_wallet-path-1_1_\" style=\"fill:#111111;\" d=\"M30,29.2h6v2.7c0,1.2-1,2.1-2.1,2.1H14.1\r\n\tC13,34,12,33,12,31.9V19.4c0-1.2,1-2.1,2.1-2.1h19.7c1.2,0,2.1,1,2.1,2.1v2.7h-6c-1,0-1.8,0.4-2.4,1.2c-0.5,0.7-0.8,1.5-0.8,2.4\r\n\tC26.8,27.4,27.9,29.2,30,29.2z M33.3,16.7H16.1L30.3,14h0.5c1.2,0,2.2,0.9,2.4,2L33.3,16.7C33.3,16.6,33.3,16.7,33.3,16.7z M30,23.3\r\n\th6V28h-6c-1.4,0-2-1.2-2-2.3c0-0.6,0.2-1.3,0.5-1.7C28.9,23.5,29.4,23.3,30,23.3z M31.4,27c0.8,0,1.4-0.6,1.4-1.4\r\n\tc0-0.8-0.6-1.4-1.4-1.4c-0.8,0-1.4,0.7-1.4,1.4C30,26.4,30.6,27,31.4,27z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "GuGm":
 /***/ (function(module, exports) {
 
-module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<svg version=\"1.1\" id=\"icon_x2F_Alert_x2F_success-Layer_1\"\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\n<path id=\"icon_x2F_Alert_x2F_success-path-1_1_\" style=\"fill:#2A7952;\" d=\"M24,12c-6.6,0-12,5.4-12,12s5.4,12,12,12s12-5.4,12-12\n\tS30.6,12,24,12z M30.6,19.4c0.4,0.4,0.4,1,0,1.4l-8.7,8.7c-0.2,0.2-0.5,0.3-0.7,0.3c-0.3,0-0.5-0.1-0.7-0.3l-2.9-2.9\n\tc-0.4-0.4-0.4-1,0-1.4s1-0.4,1.4,0l2.2,2.2l8-8C29.6,19,30.2,19,30.6,19.4z\"/>\n</svg>\n"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"icon_x2F_Alert_x2F_success-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"icon_x2F_Alert_x2F_success-path-1_1_\" style=\"fill:#2A7952;\" d=\"M24,12c-6.6,0-12,5.4-12,12s5.4,12,12,12s12-5.4,12-12\r\n\tS30.6,12,24,12z M30.6,19.4c0.4,0.4,0.4,1,0,1.4l-8.7,8.7c-0.2,0.2-0.5,0.3-0.7,0.3c-0.3,0-0.5-0.1-0.7-0.3l-2.9-2.9\r\n\tc-0.4-0.4-0.4-1,0-1.4s1-0.4,1.4,0l2.2,2.2l8-8C29.6,19,30.2,19,30.6,19.4z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "GvgD":
 /***/ (function(module, exports) {
 
-module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<svg version=\"1.1\" id=\"action-zoom-in-line-Layer_1\"\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\n<path id=\"action-zoom-in-line-a_1_\" style=\"fill:#111111;\" d=\"M35.6,32.9c0.6,0.6,0.6,1.6-0.1,2.4C35,35.8,34.5,36,34,36\n\tc-0.4,0-0.8-0.1-1.1-0.4c-0.7-0.7-6-5.9-7.1-7C24.4,29.5,22.7,30,21,30c-5,0-9-4-9-9s4-9,9-9s9,4,9,9c0,1.8-0.5,3.6-1.6,5.1\n\tC29.7,27.2,34.9,32.3,35.6,32.9z M13.4,21c0,4.2,3.4,7.6,7.6,7.6s7.6-3.4,7.6-7.6s-3.4-7.6-7.6-7.6S13.4,16.8,13.4,21z M34.2,34.5\n\tc0.3-0.2,0.4-0.5,0.4-0.6c-0.7-0.6-5.6-5.5-7-6.8c-0.2,0.2-0.4,0.4-0.7,0.6c1.4,1.3,6.2,6.2,6.9,6.8C33.9,34.6,34,34.7,34.2,34.5z\n\t M24.5,20.3c0.4,0,0.7,0.3,0.7,0.7s-0.3,0.7-0.7,0.7h-2.8v2.8c0,0.4-0.3,0.7-0.7,0.7s-0.7-0.3-0.7-0.7v-2.8h-2.8\n\tc-0.3,0-0.7-0.3-0.7-0.7s0.3-0.7,0.7-0.7h2.9v-2.8c0-0.4,0.3-0.7,0.7-0.7c0.4,0,0.7,0.3,0.7,0.7v2.8C21.8,20.3,24.5,20.3,24.5,20.3z\n\t\"/>\n</svg>\n"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"action-zoom-in-line-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"action-zoom-in-line-a_1_\" style=\"fill:#111111;\" d=\"M35.6,32.9c0.6,0.6,0.6,1.6-0.1,2.4C35,35.8,34.5,36,34,36\r\n\tc-0.4,0-0.8-0.1-1.1-0.4c-0.7-0.7-6-5.9-7.1-7C24.4,29.5,22.7,30,21,30c-5,0-9-4-9-9s4-9,9-9s9,4,9,9c0,1.8-0.5,3.6-1.6,5.1\r\n\tC29.7,27.2,34.9,32.3,35.6,32.9z M13.4,21c0,4.2,3.4,7.6,7.6,7.6s7.6-3.4,7.6-7.6s-3.4-7.6-7.6-7.6S13.4,16.8,13.4,21z M34.2,34.5\r\n\tc0.3-0.2,0.4-0.5,0.4-0.6c-0.7-0.6-5.6-5.5-7-6.8c-0.2,0.2-0.4,0.4-0.7,0.6c1.4,1.3,6.2,6.2,6.9,6.8C33.9,34.6,34,34.7,34.2,34.5z\r\n\t M24.5,20.3c0.4,0,0.7,0.3,0.7,0.7s-0.3,0.7-0.7,0.7h-2.8v2.8c0,0.4-0.3,0.7-0.7,0.7s-0.7-0.3-0.7-0.7v-2.8h-2.8\r\n\tc-0.3,0-0.7-0.3-0.7-0.7s0.3-0.7,0.7-0.7h2.9v-2.8c0-0.4,0.3-0.7,0.7-0.7c0.4,0,0.7,0.3,0.7,0.7v2.8C21.8,20.3,24.5,20.3,24.5,20.3z\r\n\t\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "H4PX":
 /***/ (function(module, exports) {
 
-module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<svg version=\"1.1\" id=\"icon_x2F_Nav_x2F_collapse-left-Layer_1\"\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\n<path id=\"icon_x2F_Nav_x2F_collapse-left-path-1_1_\" style=\"fill:#111111;\" d=\"M21.8,23l4.5-4.3c0.4-0.4,0.4-1,0-1.4\n\tc-0.4-0.4-1.1-0.4-1.5,0l-6.3,6c-0.4,0.4-0.4,1,0,1.4l6.3,6c0.4,0.4,1.1,0.4,1.5,0c0.4-0.4,0.4-1,0-1.4L21.8,25H34c0.6,0,1-0.4,1-1\n\ts-0.5-1-1-1H21.8z M15.1,31c0,0.6-0.5,1-1,1S13,31.6,13,31V17c0-0.6,0.5-1,1-1s1,0.4,1,1v14H15.1z\"/>\n</svg>\n"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"icon_x2F_Nav_x2F_collapse-left-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"icon_x2F_Nav_x2F_collapse-left-path-1_1_\" style=\"fill:#111111;\" d=\"M21.8,23l4.5-4.3c0.4-0.4,0.4-1,0-1.4\r\n\tc-0.4-0.4-1.1-0.4-1.5,0l-6.3,6c-0.4,0.4-0.4,1,0,1.4l6.3,6c0.4,0.4,1.1,0.4,1.5,0c0.4-0.4,0.4-1,0-1.4L21.8,25H34c0.6,0,1-0.4,1-1\r\n\ts-0.5-1-1-1H21.8z M15.1,31c0,0.6-0.5,1-1,1S13,31.6,13,31V17c0-0.6,0.5-1,1-1s1,0.4,1,1v14H15.1z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "Hebn":
 /***/ (function(module, exports) {
 
-module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<svg version=\"1.1\" id=\"action-conversation-line-Layer_1\"\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\n<path id=\"action-conversation-line-a_1_\" style=\"fill:#111111;\" d=\"M30.3,28.5c0-0.2,0.1-0.5,0.2-0.6l0.3-0.5h3.3\n\tc1-0.1,1.9-1.1,1.9-1.9v-9c0-0.9-0.6-1.5-1.3-1.5H13.9c-1,0-1.9,0.7-1.9,1.7v8.9c0,1.1,0.8,1.9,1.9,1.9h10.6l0.2,0.1\n\tc0.1,0,0.2,0.1,0.3,0.2l0.1,0.1l5.2,4.8C30.3,32.7,30.3,28.5,30.3,28.5z M34.7,14c1.1,0,2.3,0.9,2.3,2.5v9.1c0,1.2-1.3,2.7-2.9,2.8\n\th-2.8v5c0,0.3-0.2,0.5-0.4,0.6c-0.2,0.1-0.5,0-0.7-0.1l-5.8-5.4l-0.1-0.1H13.9c-1.7,0-2.9-1.2-2.9-2.8v-8.9c0-1.5,1.3-2.7,2.9-2.7\n\tC13.9,14,34.7,14,34.7,14z M24,19.7c0.9,0,1.5,0.7,1.5,1.5c0,0.8-0.7,1.5-1.5,1.5s-1.5-0.7-1.5-1.5C22.5,20.4,23.1,19.7,24,19.7\n\t M17.6,19.7c0.8,0,1.5,0.7,1.5,1.5c0,0.8-0.7,1.5-1.5,1.5c-0.9,0-1.6-0.7-1.6-1.5C16,20.4,16.7,19.7,17.6,19.7 M30.4,19.7\n\tc0.9,0,1.5,0.7,1.5,1.5c0,0.8-0.7,1.5-1.5,1.5c-0.9,0-1.5-0.7-1.5-1.5C28.9,20.4,29.6,19.7,30.4,19.7\"/>\n</svg>\n"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"action-conversation-line-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"action-conversation-line-a_1_\" style=\"fill:#111111;\" d=\"M30.3,28.5c0-0.2,0.1-0.5,0.2-0.6l0.3-0.5h3.3\r\n\tc1-0.1,1.9-1.1,1.9-1.9v-9c0-0.9-0.6-1.5-1.3-1.5H13.9c-1,0-1.9,0.7-1.9,1.7v8.9c0,1.1,0.8,1.9,1.9,1.9h10.6l0.2,0.1\r\n\tc0.1,0,0.2,0.1,0.3,0.2l0.1,0.1l5.2,4.8C30.3,32.7,30.3,28.5,30.3,28.5z M34.7,14c1.1,0,2.3,0.9,2.3,2.5v9.1c0,1.2-1.3,2.7-2.9,2.8\r\n\th-2.8v5c0,0.3-0.2,0.5-0.4,0.6c-0.2,0.1-0.5,0-0.7-0.1l-5.8-5.4l-0.1-0.1H13.9c-1.7,0-2.9-1.2-2.9-2.8v-8.9c0-1.5,1.3-2.7,2.9-2.7\r\n\tC13.9,14,34.7,14,34.7,14z M24,19.7c0.9,0,1.5,0.7,1.5,1.5c0,0.8-0.7,1.5-1.5,1.5s-1.5-0.7-1.5-1.5C22.5,20.4,23.1,19.7,24,19.7\r\n\t M17.6,19.7c0.8,0,1.5,0.7,1.5,1.5c0,0.8-0.7,1.5-1.5,1.5c-0.9,0-1.6-0.7-1.6-1.5C16,20.4,16.7,19.7,17.6,19.7 M30.4,19.7\r\n\tc0.9,0,1.5,0.7,1.5,1.5c0,0.8-0.7,1.5-1.5,1.5c-0.9,0-1.5-0.7-1.5-1.5C28.9,20.4,29.6,19.7,30.4,19.7\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "Hq6d":
 /***/ (function(module, exports) {
 
-module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<svg version=\"1.1\" id=\"icon_x2F_Utility_x2F_collection-Layer_1\"\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\n<path id=\"icon_x2F_Utility_x2F_collection-path-1_1_\" style=\"fill:#111111;\" d=\"M37,16.4c0-0.3-0.1-0.6-0.2-0.8v-0.1\n\tc-0.2-0.5-0.6-0.9-1.1-1.2c0,0-0.1,0-0.1-0.1C35.3,14.1,35,14,34.7,14H13.4h-0.1c-1.3,0.1-2.2,1.1-2.3,2.4v15.2\n\tc0.1,1.3,1,2.3,2.3,2.4h21.4c1.2-0.1,2.2-1.1,2.3-2.4V16.5V16.4z M14.5,30V18c0-0.4,0.3-0.7,0.7-0.7h6c0.4,0,0.7,0.3,0.7,0.7v12\n\tc0,0.4-0.3,0.7-0.7,0.7h-6C14.8,30.7,14.5,30.4,14.5,30z M23,30v-5.2c0-0.4,0.3-0.7,0.7-0.7H27c0.4,0,0.7,0.3,0.7,0.7V30\n\tc0,0.4-0.3,0.7-0.7,0.7h-3.4C23.3,30.7,23,30.4,23,30z M28.8,30v-5.2c0-0.4,0.3-0.7,0.7-0.7h3.4c0.4,0,0.7,0.3,0.7,0.7V30\n\tc0,0.4-0.3,0.7-0.7,0.7h-3.4C29.1,30.7,28.8,30.4,28.8,30z M33.5,22.2c0,0.4-0.3,0.7-0.7,0.7h-9.2c-0.4,0-0.7-0.3-0.7-0.7V18\n\tc0-0.4,0.3-0.7,0.7-0.7h9.2c0.4,0,0.7,0.3,0.7,0.7V22.2z\"/>\n</svg>\n"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"icon_x2F_Utility_x2F_collection-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"icon_x2F_Utility_x2F_collection-path-1_1_\" style=\"fill:#111111;\" d=\"M37,16.4c0-0.3-0.1-0.6-0.2-0.8v-0.1\r\n\tc-0.2-0.5-0.6-0.9-1.1-1.2c0,0-0.1,0-0.1-0.1C35.3,14.1,35,14,34.7,14H13.4h-0.1c-1.3,0.1-2.2,1.1-2.3,2.4v15.2\r\n\tc0.1,1.3,1,2.3,2.3,2.4h21.4c1.2-0.1,2.2-1.1,2.3-2.4V16.5V16.4z M14.5,30V18c0-0.4,0.3-0.7,0.7-0.7h6c0.4,0,0.7,0.3,0.7,0.7v12\r\n\tc0,0.4-0.3,0.7-0.7,0.7h-6C14.8,30.7,14.5,30.4,14.5,30z M23,30v-5.2c0-0.4,0.3-0.7,0.7-0.7H27c0.4,0,0.7,0.3,0.7,0.7V30\r\n\tc0,0.4-0.3,0.7-0.7,0.7h-3.4C23.3,30.7,23,30.4,23,30z M28.8,30v-5.2c0-0.4,0.3-0.7,0.7-0.7h3.4c0.4,0,0.7,0.3,0.7,0.7V30\r\n\tc0,0.4-0.3,0.7-0.7,0.7h-3.4C29.1,30.7,28.8,30.4,28.8,30z M33.5,22.2c0,0.4-0.3,0.7-0.7,0.7h-9.2c-0.4,0-0.7-0.3-0.7-0.7V18\r\n\tc0-0.4,0.3-0.7,0.7-0.7h9.2c0.4,0,0.7,0.3,0.7,0.7V22.2z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "JAfA":
 /***/ (function(module, exports) {
 
-module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<svg version=\"1.1\" id=\"action-grid-line-Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"\n\t x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\" style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\n<path id=\"action-grid-line-a_1_\" style=\"fill:#111111;\" d=\"M13.1,21.8h8.7v-8.7h-8.7V21.8z M12,13.1c0-0.6,0.5-1.1,1.1-1.1h8.7\n\tc0.6,0,1.1,0.5,1.1,1.1v8.7c0,0.6-0.5,1.1-1.1,1.1h-8.7c-0.6,0-1.1-0.5-1.1-1.1V13.1z M13.1,34.9h8.7v-8.7h-8.7V34.9z M12,26.2\n\tc0-0.6,0.5-1.1,1.1-1.1h8.7c0.6,0,1.1,0.5,1.1,1.1v8.7c0,0.6-0.5,1.1-1.1,1.1h-8.7c-0.6,0-1.1-0.5-1.1-1.1V26.2z M26.2,21.8h8.7\n\tv-8.7h-8.7C26.2,13.1,26.2,21.8,26.2,21.8z M25.1,13.1c0-0.6,0.5-1.1,1.1-1.1h8.7c0.6,0,1.1,0.5,1.1,1.1v8.7c0,0.6-0.5,1.1-1.1,1.1\n\th-8.7c-0.6,0-1.1-0.5-1.1-1.1C25.1,21.8,25.1,13.1,25.1,13.1z M26.2,34.9h8.7v-8.7h-8.7V34.9z M25.1,26.2c0-0.6,0.5-1.1,1.1-1.1h8.7\n\tc0.6,0,1.1,0.5,1.1,1.1v8.7c0,0.6-0.5,1.1-1.1,1.1h-8.7c-0.6,0-1.1-0.5-1.1-1.1V26.2z\"/>\n</svg>\n"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"action-grid-line-Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"\r\n\t x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\" style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"action-grid-line-a_1_\" style=\"fill:#111111;\" d=\"M13.1,21.8h8.7v-8.7h-8.7V21.8z M12,13.1c0-0.6,0.5-1.1,1.1-1.1h8.7\r\n\tc0.6,0,1.1,0.5,1.1,1.1v8.7c0,0.6-0.5,1.1-1.1,1.1h-8.7c-0.6,0-1.1-0.5-1.1-1.1V13.1z M13.1,34.9h8.7v-8.7h-8.7V34.9z M12,26.2\r\n\tc0-0.6,0.5-1.1,1.1-1.1h8.7c0.6,0,1.1,0.5,1.1,1.1v8.7c0,0.6-0.5,1.1-1.1,1.1h-8.7c-0.6,0-1.1-0.5-1.1-1.1V26.2z M26.2,21.8h8.7\r\n\tv-8.7h-8.7C26.2,13.1,26.2,21.8,26.2,21.8z M25.1,13.1c0-0.6,0.5-1.1,1.1-1.1h8.7c0.6,0,1.1,0.5,1.1,1.1v8.7c0,0.6-0.5,1.1-1.1,1.1\r\n\th-8.7c-0.6,0-1.1-0.5-1.1-1.1C25.1,21.8,25.1,13.1,25.1,13.1z M26.2,34.9h8.7v-8.7h-8.7V34.9z M25.1,26.2c0-0.6,0.5-1.1,1.1-1.1h8.7\r\n\tc0.6,0,1.1,0.5,1.1,1.1v8.7c0,0.6-0.5,1.1-1.1,1.1h-8.7c-0.6,0-1.1-0.5-1.1-1.1V26.2z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "JRc0":
 /***/ (function(module, exports) {
 
-module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<svg version=\"1.1\" id=\"action-thumbsup-fill-Layer_1\"\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\n<path style=\"fill:#111111;\" d=\"M36,21.6v12.8c0,0.7-0.5,1.2-1.2,1.2h-4.3c-0.7,0-1.2-0.5-1.2-1.2V21.6c0-0.7,0.5-1.2,1.2-1.2h4.3\n\tC35.5,20.4,36,20.9,36,21.6z M23.7,14v1.4c0,0.7,0.1,1.1,0.3,1.5V17l1.4,3.2c0.5,0.7,1.1,1.2,1.9,1.5c0.3,0.1,0.5,0.4,0.5,0.7v11.1\n\tc0,0.4-0.3,0.7-0.7,0.7c-0.6,0-0.8,0.1-0.9,0.1L25.6,35c-0.7,0.7-1.6,1.1-2.5,1.1l-6-0.2c-1.5,0-2.9-1-3.3-2.5L12,25\n\tc-0.5-1.8,0.5-3.6,2.3-4.1L18,20l-0.1-3c-0.1-0.3-0.1-0.6-0.1-1v-0.6c0-1.9,1.5-3.4,3.4-3.4h0.5C22.8,12,23.7,12.9,23.7,14z\"/>\n</svg>\n"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"action-thumbsup-fill-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path style=\"fill:#111111;\" d=\"M36,21.6v12.8c0,0.7-0.5,1.2-1.2,1.2h-4.3c-0.7,0-1.2-0.5-1.2-1.2V21.6c0-0.7,0.5-1.2,1.2-1.2h4.3\r\n\tC35.5,20.4,36,20.9,36,21.6z M23.7,14v1.4c0,0.7,0.1,1.1,0.3,1.5V17l1.4,3.2c0.5,0.7,1.1,1.2,1.9,1.5c0.3,0.1,0.5,0.4,0.5,0.7v11.1\r\n\tc0,0.4-0.3,0.7-0.7,0.7c-0.6,0-0.8,0.1-0.9,0.1L25.6,35c-0.7,0.7-1.6,1.1-2.5,1.1l-6-0.2c-1.5,0-2.9-1-3.3-2.5L12,25\r\n\tc-0.5-1.8,0.5-3.6,2.3-4.1L18,20l-0.1-3c-0.1-0.3-0.1-0.6-0.1-1v-0.6c0-1.9,1.5-3.4,3.4-3.4h0.5C22.8,12,23.7,12.9,23.7,14z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "JRwP":
 /***/ (function(module, exports) {
 
-module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<svg version=\"1.1\" id=\"action-zoom-out-line-Layer_1\"\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\n<path id=\"action-zoom-out-line-a_1_\" style=\"fill:#111111;\" d=\"M35.6,32.9c0.6,0.6,0.6,1.6-0.1,2.4C35,35.8,34.5,36,34,36\n\tc-0.4,0-0.8-0.1-1.1-0.4c-0.7-0.7-6-5.9-7.1-7C24.4,29.5,22.7,30,21,30c-5,0-9-4-9-9s4-9,9-9s9,4,9,9c0,1.8-0.5,3.6-1.6,5.1\n\tC29.7,27.2,34.9,32.3,35.6,32.9z M13.4,21c0,4.2,3.4,7.6,7.6,7.6s7.6-3.4,7.6-7.6s-3.4-7.6-7.6-7.6S13.4,16.8,13.4,21z M34.2,34.5\n\tc0.3-0.2,0.4-0.5,0.4-0.6c-0.7-0.6-5.6-5.5-7-6.8c-0.2,0.2-0.4,0.4-0.7,0.6c1.4,1.3,6.2,6.2,6.9,6.8C33.9,34.6,34,34.7,34.2,34.5z\n\t M24.5,20.3c0.4,0,0.7,0.3,0.7,0.7s-0.3,0.7-0.7,0.7h-7c-0.3,0-0.7-0.3-0.7-0.7s0.3-0.7,0.7-0.7H24.5z\"/>\n</svg>\n"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"action-zoom-out-line-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"action-zoom-out-line-a_1_\" style=\"fill:#111111;\" d=\"M35.6,32.9c0.6,0.6,0.6,1.6-0.1,2.4C35,35.8,34.5,36,34,36\r\n\tc-0.4,0-0.8-0.1-1.1-0.4c-0.7-0.7-6-5.9-7.1-7C24.4,29.5,22.7,30,21,30c-5,0-9-4-9-9s4-9,9-9s9,4,9,9c0,1.8-0.5,3.6-1.6,5.1\r\n\tC29.7,27.2,34.9,32.3,35.6,32.9z M13.4,21c0,4.2,3.4,7.6,7.6,7.6s7.6-3.4,7.6-7.6s-3.4-7.6-7.6-7.6S13.4,16.8,13.4,21z M34.2,34.5\r\n\tc0.3-0.2,0.4-0.5,0.4-0.6c-0.7-0.6-5.6-5.5-7-6.8c-0.2,0.2-0.4,0.4-0.7,0.6c1.4,1.3,6.2,6.2,6.9,6.8C33.9,34.6,34,34.7,34.2,34.5z\r\n\t M24.5,20.3c0.4,0,0.7,0.3,0.7,0.7s-0.3,0.7-0.7,0.7h-7c-0.3,0-0.7-0.3-0.7-0.7s0.3-0.7,0.7-0.7H24.5z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "K5Ae":
 /***/ (function(module, exports) {
 
-module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<svg version=\"1.1\" id=\"icon_x2F_Service_x2F_cash-Layer_1\"\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\n<path id=\"icon_x2F_Service_x2F_cash-path-1_1_\" style=\"fill:#111111;\" d=\"M36,16H12.1C11,16,10,17,10,18.1V30c0,1,1,2,2.1,2h23.8\n\tc1.1,0,2.1-1,2.1-2V18C38,17.1,37.2,16,36,16z M15.3,30.5h-3.2c-0.2,0-0.5-0.3-0.5-0.5v-3.4c0.2-0.1,0.5-0.1,0.7-0.1\n\tc1.7,0,3.2,1.4,3.2,3C15.5,29.8,15.4,30.1,15.3,30.5z M12.4,21.5c-0.3,0-0.5,0-0.8-0.1v-3.3c0-0.2,0.3-0.5,0.5-0.5h3.2\n\tc0.1,0.3,0.2,0.6,0.2,0.9C15.5,20.2,14.1,21.5,12.4,21.5z M27.4,25.8c0,1.3-1,2.2-2.4,2.4v1.1c0,0.4-0.4,0.8-0.8,0.8\n\tc-0.4,0-0.8-0.3-0.8-0.8v-1.2c-0.9-0.2-1.7-0.6-2.4-1.2l0.9-1c0.8,0.7,1.6,1,2.6,1c0.9,0,1.5-0.4,1.5-1s-0.3-0.9-1.9-1.2\n\tc-1.8-0.4-2.8-0.9-2.8-2.4c0-1.2,0.8-2,2.1-2.3v-1.3c0-0.4,0.4-0.8,0.8-0.8c0.4,0,0.8,0.3,0.8,0.8V20c0.8,0.1,1.5,0.5,2.2,1l-0.9,1\n\tc-0.7-0.5-1.5-0.8-2.3-0.8c-0.9,0-1.4,0.4-1.4,1c0,0.6,0.4,0.9,2,1.3C26.5,23.8,27.4,24.4,27.4,25.8z M36.4,30\n\tc0,0.2-0.3,0.5-0.5,0.5h-3.3c-0.1-0.3-0.2-0.6-0.2-1c0-1.7,1.4-3,3.2-3c0.3,0,0.5,0,0.8,0.1V30z M36.4,21.4\n\tc-0.3,0.1-0.6,0.1-0.9,0.1c-1.7,0-3.1-1.4-3.1-3.1c0-0.3,0.1-0.6,0.2-0.9H36c0.2,0,0.4,0.3,0.4,0.5V21.4z\"/>\n</svg>\n"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"icon_x2F_Service_x2F_cash-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"icon_x2F_Service_x2F_cash-path-1_1_\" style=\"fill:#111111;\" d=\"M36,16H12.1C11,16,10,17,10,18.1V30c0,1,1,2,2.1,2h23.8\r\n\tc1.1,0,2.1-1,2.1-2V18C38,17.1,37.2,16,36,16z M15.3,30.5h-3.2c-0.2,0-0.5-0.3-0.5-0.5v-3.4c0.2-0.1,0.5-0.1,0.7-0.1\r\n\tc1.7,0,3.2,1.4,3.2,3C15.5,29.8,15.4,30.1,15.3,30.5z M12.4,21.5c-0.3,0-0.5,0-0.8-0.1v-3.3c0-0.2,0.3-0.5,0.5-0.5h3.2\r\n\tc0.1,0.3,0.2,0.6,0.2,0.9C15.5,20.2,14.1,21.5,12.4,21.5z M27.4,25.8c0,1.3-1,2.2-2.4,2.4v1.1c0,0.4-0.4,0.8-0.8,0.8\r\n\tc-0.4,0-0.8-0.3-0.8-0.8v-1.2c-0.9-0.2-1.7-0.6-2.4-1.2l0.9-1c0.8,0.7,1.6,1,2.6,1c0.9,0,1.5-0.4,1.5-1s-0.3-0.9-1.9-1.2\r\n\tc-1.8-0.4-2.8-0.9-2.8-2.4c0-1.2,0.8-2,2.1-2.3v-1.3c0-0.4,0.4-0.8,0.8-0.8c0.4,0,0.8,0.3,0.8,0.8V20c0.8,0.1,1.5,0.5,2.2,1l-0.9,1\r\n\tc-0.7-0.5-1.5-0.8-2.3-0.8c-0.9,0-1.4,0.4-1.4,1c0,0.6,0.4,0.9,2,1.3C26.5,23.8,27.4,24.4,27.4,25.8z M36.4,30\r\n\tc0,0.2-0.3,0.5-0.5,0.5h-3.3c-0.1-0.3-0.2-0.6-0.2-1c0-1.7,1.4-3,3.2-3c0.3,0,0.5,0,0.8,0.1V30z M36.4,21.4\r\n\tc-0.3,0.1-0.6,0.1-0.9,0.1c-1.7,0-3.1-1.4-3.1-3.1c0-0.3,0.1-0.6,0.2-0.9H36c0.2,0,0.4,0.3,0.4,0.5V21.4z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "KBxn":
 /***/ (function(module, exports) {
 
-module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<svg version=\"1.1\" id=\"icon_x2F_Service_x2F_gift-registry-Layer_1\"\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\n<path id=\"icon_x2F_Service_x2F_gift-registry-path-1_1_\" style=\"fill:#111111;\" d=\"M27.5,29.5c-1.2,0-2.2-2.3-2.5-4.6\n\tc2.8,0.6,4.7,1.6,4.7,2.5C29.6,28.5,28.7,29.4,27.5,29.5z M27.5,18.4c1.2,0.1,2,0.9,2,2c0,0.9-1.9,1.9-4.7,2.5\n\tC25.3,20.7,26.2,18.4,27.5,18.4z M24.8,18.7V11h10.5c0.8,0,1.7,0.9,1.7,1.6v10.6h-8.1c1.5-0.8,2.2-1.7,2.2-2.8\n\tc0-1.9-1.5-3.3-3.4-3.5h-0.2C26.3,16.9,25.4,17.7,24.8,18.7z M19.2,23.2h-8.1V12.7c0-0.8,0.9-1.7,1.7-1.7h10.5v7.7\n\tc-0.6-1-1.5-1.8-2.7-1.8h-0.2c-1.9,0.2-3.3,1.6-3.4,3.5C17,21.5,17.7,22.4,19.2,23.2z M28.9,24.7H37v10.5c0,0.9-0.9,1.7-1.7,1.7\n\tH24.8v-7.7c0.6,1,1.5,1.8,2.7,1.8h0.2c1.9-0.1,3.4-1.6,3.4-3.5C31.1,26.4,30.4,25.5,28.9,24.7z M18.5,27.4c0-0.9,1.9-1.9,4.7-2.5\n\tc-0.4,2.2-1.3,4.6-2.5,4.6h-0.1C19.4,29.4,18.6,28.5,18.5,27.4z M20.6,18.4c1.2,0,2.2,2.3,2.5,4.6c-2.8-0.6-4.7-1.6-4.7-2.5\n\tC18.6,19.4,19.4,18.5,20.6,18.4z M23.3,29.2v7.7H12.7c-0.8,0-1.6-0.9-1.6-1.7V24.7h8.1c-1.5,0.8-2.2,1.7-2.2,2.8\n\tc0,1.9,1.5,3.3,3.4,3.5h0.2C21.8,31,22.7,30.2,23.3,29.2z\"/>\n</svg>\n"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"icon_x2F_Service_x2F_gift-registry-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"icon_x2F_Service_x2F_gift-registry-path-1_1_\" style=\"fill:#111111;\" d=\"M27.5,29.5c-1.2,0-2.2-2.3-2.5-4.6\r\n\tc2.8,0.6,4.7,1.6,4.7,2.5C29.6,28.5,28.7,29.4,27.5,29.5z M27.5,18.4c1.2,0.1,2,0.9,2,2c0,0.9-1.9,1.9-4.7,2.5\r\n\tC25.3,20.7,26.2,18.4,27.5,18.4z M24.8,18.7V11h10.5c0.8,0,1.7,0.9,1.7,1.6v10.6h-8.1c1.5-0.8,2.2-1.7,2.2-2.8\r\n\tc0-1.9-1.5-3.3-3.4-3.5h-0.2C26.3,16.9,25.4,17.7,24.8,18.7z M19.2,23.2h-8.1V12.7c0-0.8,0.9-1.7,1.7-1.7h10.5v7.7\r\n\tc-0.6-1-1.5-1.8-2.7-1.8h-0.2c-1.9,0.2-3.3,1.6-3.4,3.5C17,21.5,17.7,22.4,19.2,23.2z M28.9,24.7H37v10.5c0,0.9-0.9,1.7-1.7,1.7\r\n\tH24.8v-7.7c0.6,1,1.5,1.8,2.7,1.8h0.2c1.9-0.1,3.4-1.6,3.4-3.5C31.1,26.4,30.4,25.5,28.9,24.7z M18.5,27.4c0-0.9,1.9-1.9,4.7-2.5\r\n\tc-0.4,2.2-1.3,4.6-2.5,4.6h-0.1C19.4,29.4,18.6,28.5,18.5,27.4z M20.6,18.4c1.2,0,2.2,2.3,2.5,4.6c-2.8-0.6-4.7-1.6-4.7-2.5\r\n\tC18.6,19.4,19.4,18.5,20.6,18.4z M23.3,29.2v7.7H12.7c-0.8,0-1.6-0.9-1.6-1.7V24.7h8.1c-1.5,0.8-2.2,1.7-2.2,2.8\r\n\tc0,1.9,1.5,3.3,3.4,3.5h0.2C21.8,31,22.7,30.2,23.3,29.2z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "KHFH":
 /***/ (function(module, exports) {
 
-module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<svg version=\"1.1\" id=\"icon_x2F_Utility_x2F_Store_x2F_sameday-pickup-Layer_1\"\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\n<path id=\"icon_x2F_Utility_x2F_Store_x2F_sameday-pickup-path-1_1_\" style=\"fill:#111111;\" d=\"M35.5,26.5c0.9,1.1,1.5,2.5,1.5,4.1\n\tc0,3.5-2.9,6.4-6.4,6.4s-6.4-2.9-6.4-6.4c0-2.9,2-5.4,4.7-6.2v-0.7c0-0.9,0.8-1.7,1.7-1.7c0.9,0,1.7,0.8,1.7,1.7v0.7\n\tc0.8,0.2,1.5,0.6,2.1,1.1l0.4-0.4c0.3-0.3,0.8-0.3,1.1,0c0.3,0.3,0.3,0.8,0,1.1C35.9,26.2,35.5,26.5,35.5,26.5z M30.6,35.5\n\tc2.7,0,4.9-2.2,4.9-4.9s-2.2-4.9-4.9-4.9s-4.9,2.2-4.9,4.9S27.9,35.5,30.6,35.5z M31.4,28.3v1.5h2.9c0.4,0,0.8,0.3,0.8,0.8\n\tc0,0.4-0.3,0.8-0.8,0.8h-3.7c-0.4,0-0.8-0.3-0.8-0.8v-2.3c0-0.4,0.3-0.8,0.8-0.8C31,27.6,31.4,27.9,31.4,28.3z M23.8,32.6\n\tc0,0.1,0,0.1,0.1,0.2H12.4c-0.7,0-1.4-0.7-1.4-1.5l0.7-16.7c0,0,0-0.4,0.3-0.7c0.3-0.4,1.9-2.3,2.3-2.6c0.1-0.2,0.5-0.3,0.6-0.3\n\th13.9c0.3,0,0.5,0.1,0.6,0.3c0.3,0.3,1.9,2.3,2.2,2.6c0.4,0.4,0.4,0.7,0.4,0.7l0.3,7.4l-0.1-0.1l-0.1-0.1H32\n\tc-0.1-0.1-0.2-0.2-0.4-0.2c-0.3-0.2-0.7-0.3-1.1-0.3c-1.3,0-2.4,1.1-2.4,2.5v0.1c-2.8,1-4.7,3.7-4.7,6.7\n\tC23.5,31.3,23.6,31.9,23.8,32.6z M21.8,24.8c2.2,0,4-1,5.1-2.9c0.8-1.4,1-2.8,1.1-2.8c0.1-0.4-0.2-0.8-0.6-0.9\n\tc-0.4-0.1-0.8,0.2-0.9,0.6c0,0-0.2,1.1-0.9,2.3c-0.9,1.4-2.2,2.2-3.8,2.2c-4,0-4.6-4.3-4.7-4.4c0-0.4-0.4-0.7-0.8-0.7\n\tc-0.4,0.1-0.7,0.5-0.6,0.9c0,0.1,0.2,1.4,1,2.8C17.9,23.8,19.6,24.8,21.8,24.8z\"/>\n</svg>\n"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"icon_x2F_Utility_x2F_Store_x2F_sameday-pickup-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"icon_x2F_Utility_x2F_Store_x2F_sameday-pickup-path-1_1_\" style=\"fill:#111111;\" d=\"M35.5,26.5c0.9,1.1,1.5,2.5,1.5,4.1\r\n\tc0,3.5-2.9,6.4-6.4,6.4s-6.4-2.9-6.4-6.4c0-2.9,2-5.4,4.7-6.2v-0.7c0-0.9,0.8-1.7,1.7-1.7c0.9,0,1.7,0.8,1.7,1.7v0.7\r\n\tc0.8,0.2,1.5,0.6,2.1,1.1l0.4-0.4c0.3-0.3,0.8-0.3,1.1,0c0.3,0.3,0.3,0.8,0,1.1C35.9,26.2,35.5,26.5,35.5,26.5z M30.6,35.5\r\n\tc2.7,0,4.9-2.2,4.9-4.9s-2.2-4.9-4.9-4.9s-4.9,2.2-4.9,4.9S27.9,35.5,30.6,35.5z M31.4,28.3v1.5h2.9c0.4,0,0.8,0.3,0.8,0.8\r\n\tc0,0.4-0.3,0.8-0.8,0.8h-3.7c-0.4,0-0.8-0.3-0.8-0.8v-2.3c0-0.4,0.3-0.8,0.8-0.8C31,27.6,31.4,27.9,31.4,28.3z M23.8,32.6\r\n\tc0,0.1,0,0.1,0.1,0.2H12.4c-0.7,0-1.4-0.7-1.4-1.5l0.7-16.7c0,0,0-0.4,0.3-0.7c0.3-0.4,1.9-2.3,2.3-2.6c0.1-0.2,0.5-0.3,0.6-0.3\r\n\th13.9c0.3,0,0.5,0.1,0.6,0.3c0.3,0.3,1.9,2.3,2.2,2.6c0.4,0.4,0.4,0.7,0.4,0.7l0.3,7.4l-0.1-0.1l-0.1-0.1H32\r\n\tc-0.1-0.1-0.2-0.2-0.4-0.2c-0.3-0.2-0.7-0.3-1.1-0.3c-1.3,0-2.4,1.1-2.4,2.5v0.1c-2.8,1-4.7,3.7-4.7,6.7\r\n\tC23.5,31.3,23.6,31.9,23.8,32.6z M21.8,24.8c2.2,0,4-1,5.1-2.9c0.8-1.4,1-2.8,1.1-2.8c0.1-0.4-0.2-0.8-0.6-0.9\r\n\tc-0.4-0.1-0.8,0.2-0.9,0.6c0,0-0.2,1.1-0.9,2.3c-0.9,1.4-2.2,2.2-3.8,2.2c-4,0-4.6-4.3-4.7-4.4c0-0.4-0.4-0.7-0.8-0.7\r\n\tc-0.4,0.1-0.7,0.5-0.6,0.9c0,0.1,0.2,1.4,1,2.8C17.9,23.8,19.6,24.8,21.8,24.8z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "KftJ":
 /***/ (function(module, exports) {
 
-module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<svg version=\"1.1\" id=\"icon_x2F_Utility_x2F_location-pin-Layer_1\"\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\n<path id=\"icon_x2F_Utility_x2F_location-pin-path-1_1_\" style=\"fill:#111111;\" d=\"M24,11c5,0,9,4.1,9,10.1S24,37,24,37\n\ts-9-9.9-9-15.9S19,11,24,11z M24,25.5c2.7,0,4.9-2.3,4.9-5.2c0-2.9-2.2-5.2-4.9-5.2s-4.9,2.3-4.9,5.2S21.3,25.5,24,25.5z\"/>\n</svg>\n"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"icon_x2F_Utility_x2F_location-pin-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"icon_x2F_Utility_x2F_location-pin-path-1_1_\" style=\"fill:#111111;\" d=\"M24,11c5,0,9,4.1,9,10.1S24,37,24,37\r\n\ts-9-9.9-9-15.9S19,11,24,11z M24,25.5c2.7,0,4.9-2.3,4.9-5.2c0-2.9-2.2-5.2-4.9-5.2s-4.9,2.3-4.9,5.2S21.3,25.5,24,25.5z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "Kr1e":
 /***/ (function(module, exports) {
 
-module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<svg version=\"1.1\" id=\"action-chat-fill-Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"\n\t x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\" style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\n<path id=\"action-chat-fill-a_1_\" style=\"fill:#111111;\" d=\"M37.9,19.2c1,0,2.1,0.8,2.1,2.2v6.9c0,0.5-0.3,1.1-0.8,1.5\n\tc-0.5,0.5-1.2,0.8-1.9,0.8h-2v3.6c0,0.3-0.2,0.5-0.5,0.7c-0.3,0.1-0.6,0.1-0.9-0.1l-4.7-4.1H24c-1.5,0-2.7-1-2.7-2.4v-6.8\n\tc0-1.3,1.2-2.3,2.7-2.3H37.9z M20.5,21.5V26H20l-4.8,4c-0.2,0.2-0.6,0.2-0.9,0.1c-0.3-0.1-0.5-0.4-0.5-0.7V26\n\tc-0.1,0-0.1-0.1-0.2-0.1h-3.4C9,26,8,25,8,23.8v-8.6C8,14,9,13,10.3,13h17.9c1.3,0,2.3,1,2.3,2.2v3.3H24\n\tC22.1,18.5,20.5,19.8,20.5,21.5z\"/>\n</svg>\n"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"action-chat-fill-Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"\r\n\t x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\" style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"action-chat-fill-a_1_\" style=\"fill:#111111;\" d=\"M37.9,19.2c1,0,2.1,0.8,2.1,2.2v6.9c0,0.5-0.3,1.1-0.8,1.5\r\n\tc-0.5,0.5-1.2,0.8-1.9,0.8h-2v3.6c0,0.3-0.2,0.5-0.5,0.7c-0.3,0.1-0.6,0.1-0.9-0.1l-4.7-4.1H24c-1.5,0-2.7-1-2.7-2.4v-6.8\r\n\tc0-1.3,1.2-2.3,2.7-2.3H37.9z M20.5,21.5V26H20l-4.8,4c-0.2,0.2-0.6,0.2-0.9,0.1c-0.3-0.1-0.5-0.4-0.5-0.7V26\r\n\tc-0.1,0-0.1-0.1-0.2-0.1h-3.4C9,26,8,25,8,23.8v-8.6C8,14,9,13,10.3,13h17.9c1.3,0,2.3,1,2.3,2.2v3.3H24\r\n\tC22.1,18.5,20.5,19.8,20.5,21.5z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "LF3q":
 /***/ (function(module, exports) {
 
-module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<svg version=\"1.1\" id=\"icon_x2F_Utility_x2F_Store_x2F_local-ad-Layer_1\"\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\n<path id=\"icon_x2F_Utility_x2F_Store_x2F_local-ad-path-1_1_\" style=\"fill:#111111;\" d=\"M36.1,16.1H16c-1,0-1.8,0.7-1.8,1.7v16.3\n\tc0,1,0.8,1.8,1.8,1.8h20.1c1,0,1.9-0.8,1.9-1.8V17.9C38,16.9,37.2,16.1,36.1,16.1z M25.2,31.4c0,0.5-0.2,0.9-0.9,0.9h-5.7\n\tc-0.7,0-0.9-0.5-0.9-0.9V20.8c0-0.6,0.4-0.9,0.9-0.9h5.6c0.6,0,0.9,0.3,0.9,0.9v10.6C25.1,31.4,25.2,31.4,25.2,31.4z M34,32.3h-6.5\n\tc-0.4,0-0.7-0.3-0.7-0.7s0.3-0.7,0.7-0.7H34c0.4,0,0.7,0.3,0.7,0.7S34.4,32.3,34,32.3z M34,30.1h-6.5c-0.4,0-0.7-0.3-0.7-0.7\n\tc0-0.4,0.3-0.7,0.7-0.7H34c0.4,0,0.7,0.3,0.7,0.7C34.7,29.8,34.4,30.1,34,30.1z M34,27.9h-6.5c-0.4,0-0.7-0.3-0.7-0.7\n\ts0.3-0.7,0.7-0.7H34c0.4,0,0.7,0.3,0.7,0.7S34.4,27.9,34,27.9z M34.7,24.8c0,0.4-0.3,0.7-0.7,0.7h-6.5c-0.4,0-0.7-0.3-0.7-0.7v-4.2\n\tc0-0.4,0.4-0.8,0.8-0.8H34c0.4,0,0.7,0.4,0.7,0.8C34.7,20.6,34.7,24.8,34.7,24.8z M32.4,15.4H20.8c4-1.6,8.2-3.3,8.2-3.3\n\tc0.3-0.1,0.5-0.1,0.8-0.1c0.7,0,1.4,0.4,1.7,1.1C31.5,13.1,32.4,15.4,32.4,15.4z M13.6,18.3v11.6l-3.5-8.3c-0.4-0.9,0.1-2,1-2.3\n\tL13.6,18.3z\"/>\n</svg>\n"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"icon_x2F_Utility_x2F_Store_x2F_local-ad-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"icon_x2F_Utility_x2F_Store_x2F_local-ad-path-1_1_\" style=\"fill:#111111;\" d=\"M36.1,16.1H16c-1,0-1.8,0.7-1.8,1.7v16.3\r\n\tc0,1,0.8,1.8,1.8,1.8h20.1c1,0,1.9-0.8,1.9-1.8V17.9C38,16.9,37.2,16.1,36.1,16.1z M25.2,31.4c0,0.5-0.2,0.9-0.9,0.9h-5.7\r\n\tc-0.7,0-0.9-0.5-0.9-0.9V20.8c0-0.6,0.4-0.9,0.9-0.9h5.6c0.6,0,0.9,0.3,0.9,0.9v10.6C25.1,31.4,25.2,31.4,25.2,31.4z M34,32.3h-6.5\r\n\tc-0.4,0-0.7-0.3-0.7-0.7s0.3-0.7,0.7-0.7H34c0.4,0,0.7,0.3,0.7,0.7S34.4,32.3,34,32.3z M34,30.1h-6.5c-0.4,0-0.7-0.3-0.7-0.7\r\n\tc0-0.4,0.3-0.7,0.7-0.7H34c0.4,0,0.7,0.3,0.7,0.7C34.7,29.8,34.4,30.1,34,30.1z M34,27.9h-6.5c-0.4,0-0.7-0.3-0.7-0.7\r\n\ts0.3-0.7,0.7-0.7H34c0.4,0,0.7,0.3,0.7,0.7S34.4,27.9,34,27.9z M34.7,24.8c0,0.4-0.3,0.7-0.7,0.7h-6.5c-0.4,0-0.7-0.3-0.7-0.7v-4.2\r\n\tc0-0.4,0.4-0.8,0.8-0.8H34c0.4,0,0.7,0.4,0.7,0.8C34.7,20.6,34.7,24.8,34.7,24.8z M32.4,15.4H20.8c4-1.6,8.2-3.3,8.2-3.3\r\n\tc0.3-0.1,0.5-0.1,0.8-0.1c0.7,0,1.4,0.4,1.7,1.1C31.5,13.1,32.4,15.4,32.4,15.4z M13.6,18.3v11.6l-3.5-8.3c-0.4-0.9,0.1-2,1-2.3\r\n\tL13.6,18.3z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "LhDK":
 /***/ (function(module, exports) {
 
-module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<svg version=\"1.1\" id=\"icon_x2F_Nav_x2F_triangle-left-Layer_1\"\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\n<path id=\"icon_x2F_Nav_x2F_triangle-left-path-1_1_\" style=\"fill:#111111;\" d=\"M20,24l8-6v12L20,24z\"/>\n</svg>\n"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"icon_x2F_Nav_x2F_triangle-left-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"icon_x2F_Nav_x2F_triangle-left-path-1_1_\" style=\"fill:#111111;\" d=\"M20,24l8-6v12L20,24z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
@@ -686,6 +686,10 @@ var rootNav = [{
         activeClassName: 'active',
         content: 'Forms'
     }, {
+        to: '/components/lists',
+        activeClassName: 'active',
+        content: 'Lists'
+    }, {
         to: '/components/pagination',
         activeClassName: 'active',
         content: 'Pagination'
@@ -763,10 +767,6 @@ var rootNav = [{
     }, {
         to: '/',
         activeClassName: 'inactive',
-        content: 'Lists'
-    }, {
-        to: '/',
-        activeClassName: 'inactive',
         content: 'Mini PDP/Quick Add'
     }, {
         to: '/page-modules/product-cards',
@@ -785,8 +785,8 @@ var rootNav = [{
         activeClassName: 'active',
         content: 'Filter Sorting'
     }, {
-        to: '/',
-        activeClassName: 'inactive',
+        to: '/page-modules/like-dislike',
+        activeClassName: 'active',
         content: 'Like/Dislike Messages'
     }, {
         to: '/components/modal',
@@ -898,7 +898,7 @@ var _temp = function () {
         return;
     }
 
-    __REACT_HOT_LOADER__.register(rootNav, 'rootNav', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/containers/config/rootConfig.js');
+    __REACT_HOT_LOADER__.register(rootNav, 'rootNav', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/containers/config/rootConfig.js');
 }();
 
 ;
@@ -1583,9 +1583,9 @@ var buttons__temp = function () {
         return;
     }
 
-    __REACT_HOT_LOADER__.register(buttons_Buttons, 'Buttons', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/buttons/buttons.js');
+    __REACT_HOT_LOADER__.register(buttons_Buttons, 'Buttons', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/buttons/buttons.js');
 
-    __REACT_HOT_LOADER__.register(_default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/buttons/buttons.js');
+    __REACT_HOT_LOADER__.register(_default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/buttons/buttons.js');
 }();
 
 ;
@@ -1600,7 +1600,7 @@ var components_buttons__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(buttons__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/buttons/index.js');
+  __REACT_HOT_LOADER__.register(buttons__default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/buttons/index.js');
 }();
 
 ;
@@ -2397,11 +2397,11 @@ var color__temp = function () {
         return;
     }
 
-    __REACT_HOT_LOADER__.register(SubNavLinks, 'SubNavLinks', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/color/color.js');
+    __REACT_HOT_LOADER__.register(SubNavLinks, 'SubNavLinks', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/color/color.js');
 
-    __REACT_HOT_LOADER__.register(color_Color, 'Color', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/color/color.js');
+    __REACT_HOT_LOADER__.register(color_Color, 'Color', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/color/color.js');
 
-    __REACT_HOT_LOADER__.register(color__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/color/color.js');
+    __REACT_HOT_LOADER__.register(color__default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/color/color.js');
 }();
 
 ;
@@ -2416,7 +2416,7 @@ var components_color__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_color__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/color/index.js');
+  __REACT_HOT_LOADER__.register(components_color__default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/color/index.js');
 }();
 
 ;
@@ -3240,11 +3240,11 @@ var icons__temp = function () {
         return;
     }
 
-    __REACT_HOT_LOADER__.register(icons_ColorPicker, 'ColorPicker', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/icons/icons.js');
+    __REACT_HOT_LOADER__.register(icons_ColorPicker, 'ColorPicker', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/icons/icons.js');
 
-    __REACT_HOT_LOADER__.register(icons_Icons, 'Icons', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/icons/icons.js');
+    __REACT_HOT_LOADER__.register(icons_Icons, 'Icons', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/icons/icons.js');
 
-    __REACT_HOT_LOADER__.register(icons__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/icons/icons.js');
+    __REACT_HOT_LOADER__.register(icons__default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/icons/icons.js');
 }();
 
 ;
@@ -3259,7 +3259,7 @@ var components_icons__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_icons__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/icons/index.js');
+  __REACT_HOT_LOADER__.register(components_icons__default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/icons/index.js');
 }();
 
 ;
@@ -4035,9 +4035,9 @@ var grid__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(grid_Grid, "Grid", "/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/grid/grid.js");
+  __REACT_HOT_LOADER__.register(grid_Grid, "Grid", "C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/grid/grid.js");
 
-  __REACT_HOT_LOADER__.register(grid__default, "default", "/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/grid/grid.js");
+  __REACT_HOT_LOADER__.register(grid__default, "default", "C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/grid/grid.js");
 }();
 
 ;
@@ -4052,7 +4052,7 @@ var components_grid__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_grid__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/grid/index.js');
+  __REACT_HOT_LOADER__.register(components_grid__default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/grid/index.js');
 }();
 
 ;
@@ -4583,139 +4583,6 @@ var typography_Typography = function (_Component) {
                 ),
                 react_default.a.createElement(
                     'div',
-                    { className: 'row', id: 'lists' },
-                    react_default.a.createElement(
-                        'div',
-                        { className: 'sm12 columns' },
-                        react_default.a.createElement(
-                            'h3',
-                            { className: 'title title-L mrg-L' },
-                            'Lists ',
-                            react_default.a.createElement(
-                                'span',
-                                { className: 'design-system-css-class design-system-css-class-inline' },
-                                'class=\u201Clist\u201D'
-                            )
-                        ),
-                        react_default.a.createElement(
-                            'h5',
-                            { className: 'title title-M mrg-S' },
-                            'Text Lists'
-                        ),
-                        react_default.a.createElement(
-                            'p',
-                            { className: 'mrg-L' },
-                            'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
-                        ),
-                        react_default.a.createElement(
-                            'ul',
-                            { className: 'list max-width-text color-slate' },
-                            react_default.a.createElement(
-                                'li',
-                                null,
-                                'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'
-                            ),
-                            react_default.a.createElement(
-                                'li',
-                                null,
-                                'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
-                            ),
-                            react_default.a.createElement(
-                                'li',
-                                null,
-                                'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
-                            )
-                        ),
-                        react_default.a.createElement(
-                            'p',
-                            { className: 'design-system-css-class mrg-XL' },
-                            '???'
-                        ),
-                        react_default.a.createElement(
-                            'h5',
-                            { className: 'title title-M mrg-S' },
-                            'Icon Lists'
-                        ),
-                        react_default.a.createElement(
-                            'p',
-                            { className: 'mrg-L' },
-                            'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
-                        ),
-                        react_default.a.createElement(
-                            'ul',
-                            { className: 'list list-icons max-width-text color-slate' },
-                            react_default.a.createElement(
-                                'li',
-                                null,
-                                'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'
-                            ),
-                            react_default.a.createElement(
-                                'li',
-                                null,
-                                'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
-                            ),
-                            react_default.a.createElement(
-                                'li',
-                                null,
-                                'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
-                            )
-                        ),
-                        react_default.a.createElement(
-                            'p',
-                            { className: 'design-system-css-class mrg-XL' },
-                            '.list-icons'
-                        ),
-                        react_default.a.createElement(
-                            'h5',
-                            { className: 'title title-M mrg-S' },
-                            'Link Lists'
-                        ),
-                        react_default.a.createElement(
-                            'p',
-                            { className: 'mrg-L' },
-                            'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
-                        ),
-                        react_default.a.createElement(
-                            'ul',
-                            { className: 'list list-links max-width-text color-slate' },
-                            react_default.a.createElement(
-                                'li',
-                                null,
-                                react_default.a.createElement(
-                                    'a',
-                                    { href: 'javascript:void();' },
-                                    'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'
-                                )
-                            ),
-                            react_default.a.createElement(
-                                'li',
-                                null,
-                                react_default.a.createElement(
-                                    'a',
-                                    { href: 'javascript:void();' },
-                                    'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'
-                                )
-                            ),
-                            react_default.a.createElement(
-                                'li',
-                                null,
-                                react_default.a.createElement(
-                                    'a',
-                                    { href: 'javascript:void();' },
-                                    'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'
-                                )
-                            )
-                        ),
-                        react_default.a.createElement(
-                            'p',
-                            { className: 'design-system-css-class' },
-                            '.list-links'
-                        ),
-                        react_default.a.createElement('hr', null)
-                    )
-                ),
-                react_default.a.createElement(
-                    'div',
                     { className: 'row', id: 'links' },
                     react_default.a.createElement(
                         'div',
@@ -4777,6 +4644,26 @@ var typography_Typography = function (_Component) {
                         ),
                         react_default.a.createElement(
                             'p',
+                            { className: 'promo-lbl promo-lbl-XXXL' },
+                            'Extra 20% Off'
+                        ),
+                        react_default.a.createElement(
+                            'p',
+                            { className: 'design-system-css-class mrg-XL' },
+                            '.promo-lbl-XXXL'
+                        ),
+                        react_default.a.createElement(
+                            'p',
+                            { className: 'promo-lbl promo-lbl-XXL' },
+                            'Extra 20% Off'
+                        ),
+                        react_default.a.createElement(
+                            'p',
+                            { className: 'design-system-css-class mrg-XL' },
+                            '.promo-lbl-XXL'
+                        ),
+                        react_default.a.createElement(
+                            'p',
                             { className: 'promo-lbl promo-lbl-XL' },
                             'Extra 20% Off'
                         ),
@@ -4814,6 +4701,16 @@ var typography_Typography = function (_Component) {
                             'p',
                             { className: 'design-system-css-class mrg-XL' },
                             '.promo-lbl-S'
+                        ),
+                        react_default.a.createElement(
+                            'p',
+                            { className: 'promo-lbl promo-lbl-XS' },
+                            '+ get an extra 10% off with your JCPenney Credit Card'
+                        ),
+                        react_default.a.createElement(
+                            'p',
+                            { className: 'design-system-css-class mrg-XL' },
+                            '.promo-lbl-XS'
                         )
                     )
                 ),
@@ -4862,9 +4759,9 @@ var typography__temp = function () {
         return;
     }
 
-    __REACT_HOT_LOADER__.register(typography_Typography, 'Typography', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/typography/typography.js');
+    __REACT_HOT_LOADER__.register(typography_Typography, 'Typography', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/typography/typography.js');
 
-    __REACT_HOT_LOADER__.register(typography__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/typography/typography.js');
+    __REACT_HOT_LOADER__.register(typography__default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/typography/typography.js');
 }();
 
 ;
@@ -4879,7 +4776,7 @@ var components_typography__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_typography__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/typography/index.js');
+  __REACT_HOT_LOADER__.register(components_typography__default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/typography/index.js');
 }();
 
 ;
@@ -5240,9 +5137,9 @@ var alerts__temp = function () {
         return;
     }
 
-    __REACT_HOT_LOADER__.register(alerts_Alerts, 'Alerts', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/alerts/alerts.js');
+    __REACT_HOT_LOADER__.register(alerts_Alerts, 'Alerts', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/alerts/alerts.js');
 
-    __REACT_HOT_LOADER__.register(alerts__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/alerts/alerts.js');
+    __REACT_HOT_LOADER__.register(alerts__default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/alerts/alerts.js');
 }();
 
 ;
@@ -5257,7 +5154,7 @@ var components_alerts__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_alerts__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/alerts/index.js');
+  __REACT_HOT_LOADER__.register(components_alerts__default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/alerts/index.js');
 }();
 
 ;
@@ -5597,9 +5494,9 @@ var badges__temp = function () {
         return;
     }
 
-    __REACT_HOT_LOADER__.register(badges_Badges, 'Badges', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/badges/badges.js');
+    __REACT_HOT_LOADER__.register(badges_Badges, 'Badges', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/badges/badges.js');
 
-    __REACT_HOT_LOADER__.register(badges__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/badges/badges.js');
+    __REACT_HOT_LOADER__.register(badges__default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/badges/badges.js');
 }();
 
 ;
@@ -5614,7 +5511,7 @@ var components_badges__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_badges__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/badges/index.js');
+  __REACT_HOT_LOADER__.register(components_badges__default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/badges/index.js');
 }();
 
 ;
@@ -6086,9 +5983,9 @@ var content_loaders__temp = function () {
         return;
     }
 
-    __REACT_HOT_LOADER__.register(content_loaders_ContentLoaders, 'ContentLoaders', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/content-loaders/content-loaders.js');
+    __REACT_HOT_LOADER__.register(content_loaders_ContentLoaders, 'ContentLoaders', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/content-loaders/content-loaders.js');
 
-    __REACT_HOT_LOADER__.register(content_loaders__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/content-loaders/content-loaders.js');
+    __REACT_HOT_LOADER__.register(content_loaders__default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/content-loaders/content-loaders.js');
 }();
 
 ;
@@ -6103,7 +6000,7 @@ var components_content_loaders__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_content_loaders__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/content-loaders/index.js');
+  __REACT_HOT_LOADER__.register(components_content_loaders__default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/content-loaders/index.js');
 }();
 
 ;
@@ -6994,9 +6891,9 @@ var dropdown_button__temp = function () {
         return;
     }
 
-    __REACT_HOT_LOADER__.register(dropdown_button_DropdownButton, 'DropdownButton', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/dropdown-button/dropdown-button.js');
+    __REACT_HOT_LOADER__.register(dropdown_button_DropdownButton, 'DropdownButton', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/dropdown-button/dropdown-button.js');
 
-    __REACT_HOT_LOADER__.register(dropdown_button__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/dropdown-button/dropdown-button.js');
+    __REACT_HOT_LOADER__.register(dropdown_button__default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/dropdown-button/dropdown-button.js');
 }();
 
 ;
@@ -7011,7 +6908,7 @@ var components_dropdown_button__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_dropdown_button__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/dropdown-button/index.js');
+  __REACT_HOT_LOADER__.register(components_dropdown_button__default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/dropdown-button/index.js');
 }();
 
 ;
@@ -7388,9 +7285,9 @@ var tables__temp = function () {
         return;
     }
 
-    __REACT_HOT_LOADER__.register(tables_Tables, 'Tables', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/tables/tables.js');
+    __REACT_HOT_LOADER__.register(tables_Tables, 'Tables', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/tables/tables.js');
 
-    __REACT_HOT_LOADER__.register(tables__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/tables/tables.js');
+    __REACT_HOT_LOADER__.register(tables__default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/tables/tables.js');
 }();
 
 ;
@@ -7405,7 +7302,7 @@ var components_tables__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_tables__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/tables/index.js');
+  __REACT_HOT_LOADER__.register(components_tables__default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/tables/index.js');
 }();
 
 ;
@@ -8996,9 +8893,9 @@ var forms__temp = function () {
         return;
     }
 
-    __REACT_HOT_LOADER__.register(forms_Forms, 'Forms', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/forms/forms.js');
+    __REACT_HOT_LOADER__.register(forms_Forms, 'Forms', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/forms/forms.js');
 
-    __REACT_HOT_LOADER__.register(forms__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/forms/forms.js');
+    __REACT_HOT_LOADER__.register(forms__default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/forms/forms.js');
 }();
 
 ;
@@ -9013,7 +8910,7 @@ var components_forms__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_forms__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/forms/index.js');
+  __REACT_HOT_LOADER__.register(components_forms__default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/forms/index.js');
 }();
 
 ;
@@ -9333,9 +9230,9 @@ var star_ratings__temp = function () {
         return;
     }
 
-    __REACT_HOT_LOADER__.register(star_ratings_ContentLoaders, 'ContentLoaders', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/star-ratings/star-ratings.js');
+    __REACT_HOT_LOADER__.register(star_ratings_ContentLoaders, 'ContentLoaders', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/star-ratings/star-ratings.js');
 
-    __REACT_HOT_LOADER__.register(star_ratings__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/star-ratings/star-ratings.js');
+    __REACT_HOT_LOADER__.register(star_ratings__default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/star-ratings/star-ratings.js');
 }();
 
 ;
@@ -9350,7 +9247,7 @@ var components_star_ratings__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_star_ratings__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/star-ratings/index.js');
+  __REACT_HOT_LOADER__.register(components_star_ratings__default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/star-ratings/index.js');
 }();
 
 ;
@@ -9430,9 +9327,9 @@ var scrollbar__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(scrollbar_Scrollbar, "Scrollbar", "/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/scrollbar/scrollbar.js");
+  __REACT_HOT_LOADER__.register(scrollbar_Scrollbar, "Scrollbar", "C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/scrollbar/scrollbar.js");
 
-  __REACT_HOT_LOADER__.register(scrollbar__default, "default", "/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/scrollbar/scrollbar.js");
+  __REACT_HOT_LOADER__.register(scrollbar__default, "default", "C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/scrollbar/scrollbar.js");
 }();
 
 ;
@@ -9447,7 +9344,7 @@ var components_scrollbar__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_scrollbar__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/scrollbar/index.js');
+  __REACT_HOT_LOADER__.register(components_scrollbar__default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/scrollbar/index.js');
 }();
 
 ;
@@ -9733,9 +9630,9 @@ var visual_navigation__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(visual_navigation_VisualNavigation, "VisualNavigation", "/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/visual-navigation/visual-navigation.js");
+  __REACT_HOT_LOADER__.register(visual_navigation_VisualNavigation, "VisualNavigation", "C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/visual-navigation/visual-navigation.js");
 
-  __REACT_HOT_LOADER__.register(visual_navigation__default, "default", "/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/visual-navigation/visual-navigation.js");
+  __REACT_HOT_LOADER__.register(visual_navigation__default, "default", "C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/visual-navigation/visual-navigation.js");
 }();
 
 ;
@@ -9750,7 +9647,7 @@ var components_visual_navigation__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_visual_navigation__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/visual-navigation/index.js');
+  __REACT_HOT_LOADER__.register(components_visual_navigation__default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/visual-navigation/index.js');
 }();
 
 ;
@@ -9983,9 +9880,9 @@ var modal__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(modal_Modal, 'Modal', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/modal/modal.js');
+  __REACT_HOT_LOADER__.register(modal_Modal, 'Modal', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/modal/modal.js');
 
-  __REACT_HOT_LOADER__.register(modal__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/modal/modal.js');
+  __REACT_HOT_LOADER__.register(modal__default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/modal/modal.js');
 }();
 
 ;
@@ -10000,7 +9897,7 @@ var components_modal__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_modal__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/modal/index.js');
+  __REACT_HOT_LOADER__.register(components_modal__default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/modal/index.js');
 }();
 
 ;
@@ -10486,9 +10383,9 @@ var countdown_timers__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(countdown_timers_CountdownTimers, 'CountdownTimers', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/countdown-timers/countdown-timers.js');
+  __REACT_HOT_LOADER__.register(countdown_timers_CountdownTimers, 'CountdownTimers', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/countdown-timers/countdown-timers.js');
 
-  __REACT_HOT_LOADER__.register(countdown_timers__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/countdown-timers/countdown-timers.js');
+  __REACT_HOT_LOADER__.register(countdown_timers__default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/countdown-timers/countdown-timers.js');
 }();
 
 ;
@@ -10503,7 +10400,7 @@ var components_countdown_timers__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_countdown_timers__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/countdown-timers/index.js');
+  __REACT_HOT_LOADER__.register(components_countdown_timers__default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/countdown-timers/index.js');
 }();
 
 ;
@@ -10519,291 +10416,291 @@ function tooltips__inherits(subClass, superClass) { if (typeof superClass !== "f
 
 
 var tooltips_Tooltips = function (_Component) {
-  tooltips__inherits(Tooltips, _Component);
+          tooltips__inherits(Tooltips, _Component);
 
-  function Tooltips() {
-    tooltips__classCallCheck(this, Tooltips);
+          function Tooltips() {
+                    tooltips__classCallCheck(this, Tooltips);
 
-    return tooltips__possibleConstructorReturn(this, (Tooltips.__proto__ || Object.getPrototypeOf(Tooltips)).apply(this, arguments));
-  }
+                    return tooltips__possibleConstructorReturn(this, (Tooltips.__proto__ || Object.getPrototypeOf(Tooltips)).apply(this, arguments));
+          }
 
-  tooltips__createClass(Tooltips, [{
-    key: "componentDidMount",
-    value: function componentDidMount() {}
-  }, {
-    key: "render",
-    value: function render() {
-      return react_default.a.createElement(
-        "div",
-        null,
-        react_default.a.createElement(
-          "div",
-          { className: "mrg-L row" },
-          react_default.a.createElement(
-            "div",
-            { className: "tooltip" },
-            react_default.a.createElement(
-              "span",
-              null,
-              "Multi-line tooltips have 16px of padding. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit."
-            )
-          ),
-          react_default.a.createElement("br", null),
-          react_default.a.createElement(
-            "div",
-            { className: "tooltip tooltip-single" },
-            react_default.a.createElement(
-              "span",
-              null,
-              "tooltip tooltip new"
-            )
-          ),
-          react_default.a.createElement("br", null),
-          react_default.a.createElement("br", null),
-          react_default.a.createElement("br", null),
-          react_default.a.createElement("br", null),
-          react_default.a.createElement(
-            "div",
-            { className: "tooltip tooltip-single tooltip-right-side" },
-            react_default.a.createElement(
-              "span",
-              null,
-              "tooltip right side"
-            )
-          ),
-          react_default.a.createElement("br", null),
-          react_default.a.createElement("br", null),
-          react_default.a.createElement(
-            "div",
-            { className: "tooltip tooltip-single tooltip-left-side" },
-            react_default.a.createElement(
-              "span",
-              null,
-              "tooltip left side"
-            )
-          ),
-          react_default.a.createElement("br", null),
-          react_default.a.createElement(
-            "div",
-            { className: "tooltip tooltip-bottom-center" },
-            react_default.a.createElement(
-              "span",
-              null,
-              "Multi-line tooltips have 16px of padding. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit."
-            )
-          ),
-          react_default.a.createElement("br", null),
-          react_default.a.createElement(
-            "div",
-            { className: "tooltip tooltip-bottom-right" },
-            react_default.a.createElement(
-              "span",
-              null,
-              "Multi-line tooltips have 16px of padding. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit."
-            )
-          ),
-          react_default.a.createElement("br", null),
-          react_default.a.createElement(
-            "div",
-            { className: "tooltip tooltip-top-left" },
-            react_default.a.createElement(
-              "span",
-              null,
-              "Multi-line tooltips have 16px of padding. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit."
-            )
-          ),
-          react_default.a.createElement("br", null),
-          react_default.a.createElement(
-            "div",
-            { className: "tooltip tooltip-dark" },
-            react_default.a.createElement(
-              "span",
-              null,
-              "Multi-line tooltips have 16px of padding. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit."
-            )
-          ),
-          react_default.a.createElement("br", null),
-          react_default.a.createElement(
-            "div",
-            { className: "tooltip tooltip-top-center" },
-            react_default.a.createElement(
-              "span",
-              null,
-              "Multi-line tooltips have 16px of padding. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit."
-            )
-          ),
-          react_default.a.createElement("br", null),
-          react_default.a.createElement(
-            "div",
-            { className: "tooltip tooltip-top-right" },
-            react_default.a.createElement(
-              "span",
-              null,
-              "Multi-line tooltips have 16px of padding. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit."
-            )
-          ),
-          react_default.a.createElement("br", null),
-          react_default.a.createElement(
-            "div",
-            { className: "tooltip tooltip-top-right tooltip-long tooltip-list" },
-            react_default.a.createElement(
-              "ul",
-              null,
-              react_default.a.createElement(
-                "li",
-                null,
-                react_default.a.createElement(
-                  "a",
-                  { href: "#" },
-                  "My Account"
-                )
-              ),
-              react_default.a.createElement(
-                "li",
-                null,
-                react_default.a.createElement(
-                  "a",
-                  { href: "#" },
-                  "My Rewards"
-                )
-              ),
-              react_default.a.createElement(
-                "li",
-                null,
-                react_default.a.createElement(
-                  "a",
-                  { href: "#" },
-                  "My Orders"
-                )
-              ),
-              react_default.a.createElement(
-                "li",
-                null,
-                react_default.a.createElement(
-                  "a",
-                  { href: "#" },
-                  "My Rewards (0)"
-                )
-              ),
-              react_default.a.createElement(
-                "li",
-                null,
-                react_default.a.createElement(
-                  "a",
-                  { href: "#" },
-                  "My List"
-                )
-              ),
-              react_default.a.createElement(
-                "li",
-                null,
-                react_default.a.createElement(
-                  "a",
-                  { href: "#" },
-                  "Profile Settings"
-                )
-              ),
-              react_default.a.createElement(
-                "li",
-                null,
-                react_default.a.createElement(
-                  "a",
-                  { href: "#" },
-                  "Nofications"
-                )
-              ),
-              react_default.a.createElement(
-                "li",
-                null,
-                react_default.a.createElement(
-                  "a",
-                  { href: "#" },
-                  "My JCPenney.com"
-                )
-              ),
-              react_default.a.createElement(
-                "li",
-                null,
-                react_default.a.createElement(
-                  "a",
-                  { href: "#" },
-                  "Gift Registry"
-                )
-              ),
-              react_default.a.createElement(
-                "li",
-                null,
-                react_default.a.createElement(
-                  "a",
-                  { href: "#" },
-                  "JCPenney Credit Card"
-                )
-              ),
-              react_default.a.createElement(
-                "li",
-                { className: "tooltip-divider" },
-                react_default.a.createElement(
-                  "a",
-                  { href: "#" },
-                  "Sign Out"
-                )
-              )
-            )
-          ),
-          react_default.a.createElement("br", null),
-          react_default.a.createElement(
-            "div",
-            { className: "tooltip tooltip-top-right" },
-            react_default.a.createElement(
-              "span",
-              null,
-              react_default.a.createElement(
-                "h1",
-                { className: "title title-M mrg-S" },
-                "This is a Tooltip H1 Title"
-              ),
-              "Multi-line tooltips have 16px of padding. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.Multi-line tooltips have 16px of padding. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit."
-            )
-          ),
-          react_default.a.createElement("br", null),
-          react_default.a.createElement("br", null),
-          react_default.a.createElement(
-            "div",
-            { className: "tooltip tooltip-dark tooltip-top-right" },
-            react_default.a.createElement(
-              "span",
-              null,
-              "Multi-line tooltips have 16px of padding. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.Multi-line tooltips have 16px of padding. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit."
-            )
-          ),
-          react_default.a.createElement("br", null),
-          react_default.a.createElement("br", null),
-          react_default.a.createElement(
-            "div",
-            { className: "tooltip tooltip-right-side" },
-            react_default.a.createElement("div", { className: "tooltip-close" }),
-            react_default.a.createElement(
-              "span",
-              null,
-              react_default.a.createElement(
-                "h1",
-                { className: "title title-M mrg-S" },
-                "This is a Tooltip H1 Title"
-              ),
-              react_default.a.createElement("input", { type: "radio", id: "tooltip-radio", name: "tootlip-radio" }),
-              react_default.a.createElement(
-                "label",
-                { "for": "tooltip-radio" },
-                "Vanilla label"
-              )
-            )
-          )
-        )
-      );
-    }
-  }]);
+          tooltips__createClass(Tooltips, [{
+                    key: "componentDidMount",
+                    value: function componentDidMount() {}
+          }, {
+                    key: "render",
+                    value: function render() {
+                              return react_default.a.createElement(
+                                        "div",
+                                        null,
+                                        react_default.a.createElement(
+                                                  "div",
+                                                  { className: "mrg-L row" },
+                                                  react_default.a.createElement(
+                                                            "div",
+                                                            { className: "tooltip" },
+                                                            react_default.a.createElement(
+                                                                      "span",
+                                                                      null,
+                                                                      "Multi-line tooltips have 16px of padding. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit."
+                                                            )
+                                                  ),
+                                                  react_default.a.createElement("br", null),
+                                                  react_default.a.createElement(
+                                                            "div",
+                                                            { className: "tooltip tooltip-single" },
+                                                            react_default.a.createElement(
+                                                                      "span",
+                                                                      null,
+                                                                      "tooltip tooltip new"
+                                                            )
+                                                  ),
+                                                  react_default.a.createElement("br", null),
+                                                  react_default.a.createElement("br", null),
+                                                  react_default.a.createElement("br", null),
+                                                  react_default.a.createElement("br", null),
+                                                  react_default.a.createElement(
+                                                            "div",
+                                                            { className: "tooltip tooltip-single tooltip-right-side" },
+                                                            react_default.a.createElement(
+                                                                      "span",
+                                                                      null,
+                                                                      "tooltip right side"
+                                                            )
+                                                  ),
+                                                  react_default.a.createElement("br", null),
+                                                  react_default.a.createElement("br", null),
+                                                  react_default.a.createElement(
+                                                            "div",
+                                                            { className: "tooltip tooltip-single tooltip-left-side" },
+                                                            react_default.a.createElement(
+                                                                      "span",
+                                                                      null,
+                                                                      "tooltip left side"
+                                                            )
+                                                  ),
+                                                  react_default.a.createElement("br", null),
+                                                  react_default.a.createElement(
+                                                            "div",
+                                                            { className: "tooltip tooltip-bottom-center" },
+                                                            react_default.a.createElement(
+                                                                      "span",
+                                                                      null,
+                                                                      "Multi-line tooltips have 16px of padding. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit."
+                                                            )
+                                                  ),
+                                                  react_default.a.createElement("br", null),
+                                                  react_default.a.createElement(
+                                                            "div",
+                                                            { className: "tooltip tooltip-bottom-right" },
+                                                            react_default.a.createElement(
+                                                                      "span",
+                                                                      null,
+                                                                      "Multi-line tooltips have 16px of padding. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit."
+                                                            )
+                                                  ),
+                                                  react_default.a.createElement("br", null),
+                                                  react_default.a.createElement(
+                                                            "div",
+                                                            { className: "tooltip tooltip-top-left" },
+                                                            react_default.a.createElement(
+                                                                      "span",
+                                                                      null,
+                                                                      "Multi-line tooltips have 16px of padding. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit."
+                                                            )
+                                                  ),
+                                                  react_default.a.createElement("br", null),
+                                                  react_default.a.createElement(
+                                                            "div",
+                                                            { className: "tooltip tooltip-dark" },
+                                                            react_default.a.createElement(
+                                                                      "span",
+                                                                      null,
+                                                                      "Multi-line tooltips have 16px of padding. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit."
+                                                            )
+                                                  ),
+                                                  react_default.a.createElement("br", null),
+                                                  react_default.a.createElement(
+                                                            "div",
+                                                            { className: "tooltip tooltip-top-center" },
+                                                            react_default.a.createElement(
+                                                                      "span",
+                                                                      null,
+                                                                      "Multi-line tooltips have 16px of padding. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit."
+                                                            )
+                                                  ),
+                                                  react_default.a.createElement("br", null),
+                                                  react_default.a.createElement(
+                                                            "div",
+                                                            { className: "tooltip tooltip-top-right" },
+                                                            react_default.a.createElement(
+                                                                      "span",
+                                                                      null,
+                                                                      "Multi-line tooltips have 16px of padding. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit."
+                                                            )
+                                                  ),
+                                                  react_default.a.createElement("br", null),
+                                                  react_default.a.createElement(
+                                                            "div",
+                                                            { className: "tooltip tooltip-top-right tooltip-long tooltip-list" },
+                                                            react_default.a.createElement(
+                                                                      "ul",
+                                                                      null,
+                                                                      react_default.a.createElement(
+                                                                                "li",
+                                                                                null,
+                                                                                react_default.a.createElement(
+                                                                                          "a",
+                                                                                          { href: "#" },
+                                                                                          "My Account"
+                                                                                )
+                                                                      ),
+                                                                      react_default.a.createElement(
+                                                                                "li",
+                                                                                null,
+                                                                                react_default.a.createElement(
+                                                                                          "a",
+                                                                                          { href: "#" },
+                                                                                          "My Rewards"
+                                                                                )
+                                                                      ),
+                                                                      react_default.a.createElement(
+                                                                                "li",
+                                                                                null,
+                                                                                react_default.a.createElement(
+                                                                                          "a",
+                                                                                          { href: "#" },
+                                                                                          "My Orders"
+                                                                                )
+                                                                      ),
+                                                                      react_default.a.createElement(
+                                                                                "li",
+                                                                                null,
+                                                                                react_default.a.createElement(
+                                                                                          "a",
+                                                                                          { href: "#" },
+                                                                                          "My Rewards (0)"
+                                                                                )
+                                                                      ),
+                                                                      react_default.a.createElement(
+                                                                                "li",
+                                                                                null,
+                                                                                react_default.a.createElement(
+                                                                                          "a",
+                                                                                          { href: "#" },
+                                                                                          "My List"
+                                                                                )
+                                                                      ),
+                                                                      react_default.a.createElement(
+                                                                                "li",
+                                                                                null,
+                                                                                react_default.a.createElement(
+                                                                                          "a",
+                                                                                          { href: "#" },
+                                                                                          "Profile Settings"
+                                                                                )
+                                                                      ),
+                                                                      react_default.a.createElement(
+                                                                                "li",
+                                                                                null,
+                                                                                react_default.a.createElement(
+                                                                                          "a",
+                                                                                          { href: "#" },
+                                                                                          "Nofications"
+                                                                                )
+                                                                      ),
+                                                                      react_default.a.createElement(
+                                                                                "li",
+                                                                                null,
+                                                                                react_default.a.createElement(
+                                                                                          "a",
+                                                                                          { href: "#" },
+                                                                                          "My JCPenney.com"
+                                                                                )
+                                                                      ),
+                                                                      react_default.a.createElement(
+                                                                                "li",
+                                                                                null,
+                                                                                react_default.a.createElement(
+                                                                                          "a",
+                                                                                          { href: "#" },
+                                                                                          "Gift Registry"
+                                                                                )
+                                                                      ),
+                                                                      react_default.a.createElement(
+                                                                                "li",
+                                                                                null,
+                                                                                react_default.a.createElement(
+                                                                                          "a",
+                                                                                          { href: "#" },
+                                                                                          "JCPenney Credit Card"
+                                                                                )
+                                                                      ),
+                                                                      react_default.a.createElement(
+                                                                                "li",
+                                                                                { className: "tooltip-divider" },
+                                                                                react_default.a.createElement(
+                                                                                          "a",
+                                                                                          { href: "#" },
+                                                                                          "Sign Out"
+                                                                                )
+                                                                      )
+                                                            )
+                                                  ),
+                                                  react_default.a.createElement("br", null),
+                                                  react_default.a.createElement(
+                                                            "div",
+                                                            { className: "tooltip tooltip-top-right" },
+                                                            react_default.a.createElement(
+                                                                      "span",
+                                                                      null,
+                                                                      react_default.a.createElement(
+                                                                                "h1",
+                                                                                { className: "title title-M mrg-S" },
+                                                                                "This is a Tooltip H1 Title"
+                                                                      ),
+                                                                      "Multi-line tooltips have 16px of padding. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.Multi-line tooltips have 16px of padding. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit."
+                                                            )
+                                                  ),
+                                                  react_default.a.createElement("br", null),
+                                                  react_default.a.createElement("br", null),
+                                                  react_default.a.createElement(
+                                                            "div",
+                                                            { className: "tooltip tooltip-dark tooltip-top-right" },
+                                                            react_default.a.createElement(
+                                                                      "span",
+                                                                      null,
+                                                                      "Multi-line tooltips have 16px of padding. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.Multi-line tooltips have 16px of padding. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit."
+                                                            )
+                                                  ),
+                                                  react_default.a.createElement("br", null),
+                                                  react_default.a.createElement("br", null),
+                                                  react_default.a.createElement(
+                                                            "div",
+                                                            { className: "tooltip tooltip-right-side" },
+                                                            react_default.a.createElement("div", { className: "tooltip-close" }),
+                                                            react_default.a.createElement(
+                                                                      "span",
+                                                                      null,
+                                                                      react_default.a.createElement(
+                                                                                "h1",
+                                                                                { className: "title title-M mrg-S" },
+                                                                                "This is a Tooltip H1 Title"
+                                                                      ),
+                                                                      react_default.a.createElement("input", { type: "radio", id: "tooltip-radio", name: "tootlip-radio" }),
+                                                                      react_default.a.createElement(
+                                                                                "label",
+                                                                                { "for": "tooltip-radio" },
+                                                                                "Vanilla label"
+                                                                      )
+                                                            )
+                                                  )
+                                        )
+                              );
+                    }
+          }]);
 
-  return Tooltips;
+          return Tooltips;
 }(react["Component"]);
 
 var tooltips__default = tooltips_Tooltips;
@@ -10813,13 +10710,13 @@ var tooltips__default = tooltips_Tooltips;
 ;
 
 var tooltips__temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
+          if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+                    return;
+          }
 
-  __REACT_HOT_LOADER__.register(tooltips_Tooltips, "Tooltips", "/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/tooltips/tooltips.js");
+          __REACT_HOT_LOADER__.register(tooltips_Tooltips, "Tooltips", "C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/tooltips/tooltips.js");
 
-  __REACT_HOT_LOADER__.register(tooltips__default, "default", "/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/tooltips/tooltips.js");
+          __REACT_HOT_LOADER__.register(tooltips__default, "default", "C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/tooltips/tooltips.js");
 }();
 
 ;
@@ -10834,7 +10731,7 @@ var components_tooltips__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_tooltips__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/tooltips/index.js');
+  __REACT_HOT_LOADER__.register(components_tooltips__default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/tooltips/index.js');
 }();
 
 ;
@@ -10942,9 +10839,9 @@ var tabs__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(tabs_Tabs, "Tabs", "/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/tabs/tabs.js");
+  __REACT_HOT_LOADER__.register(tabs_Tabs, "Tabs", "C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/tabs/tabs.js");
 
-  __REACT_HOT_LOADER__.register(tabs__default, "default", "/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/tabs/tabs.js");
+  __REACT_HOT_LOADER__.register(tabs__default, "default", "C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/tabs/tabs.js");
 }();
 
 ;
@@ -10959,7 +10856,7 @@ var components_tabs__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_tabs__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/tabs/index.js');
+  __REACT_HOT_LOADER__.register(components_tabs__default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/tabs/index.js');
 }();
 
 ;
@@ -11258,9 +11155,9 @@ var pagination__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(pagination_Pagination, 'Pagination', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/pagination/pagination.js');
+  __REACT_HOT_LOADER__.register(pagination_Pagination, 'Pagination', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/pagination/pagination.js');
 
-  __REACT_HOT_LOADER__.register(pagination__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/pagination/pagination.js');
+  __REACT_HOT_LOADER__.register(pagination__default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/pagination/pagination.js');
 }();
 
 ;
@@ -11275,7 +11172,7 @@ var components_pagination__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_pagination__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/pagination/index.js');
+  __REACT_HOT_LOADER__.register(components_pagination__default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/pagination/index.js');
 }();
 
 ;
@@ -11920,9 +11817,9 @@ var swatches__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(swatches_Swatches, 'Swatches', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/swatches/swatches.js');
+  __REACT_HOT_LOADER__.register(swatches_Swatches, 'Swatches', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/swatches/swatches.js');
 
-  __REACT_HOT_LOADER__.register(swatches__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/swatches/swatches.js');
+  __REACT_HOT_LOADER__.register(swatches__default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/swatches/swatches.js');
 }();
 
 ;
@@ -11937,7 +11834,7 @@ var components_swatches__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_swatches__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/swatches/index.js');
+  __REACT_HOT_LOADER__.register(components_swatches__default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/swatches/index.js');
 }();
 
 ;
@@ -12133,9 +12030,9 @@ var selectors__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(selectors_Selectors, "Selectors", "/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/selectors/selectors.js");
+  __REACT_HOT_LOADER__.register(selectors_Selectors, "Selectors", "C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/selectors/selectors.js");
 
-  __REACT_HOT_LOADER__.register(selectors__default, "default", "/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/selectors/selectors.js");
+  __REACT_HOT_LOADER__.register(selectors__default, "default", "C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/selectors/selectors.js");
 }();
 
 ;
@@ -12150,7 +12047,7 @@ var components_selectors__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_selectors__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/selectors/index.js');
+  __REACT_HOT_LOADER__.register(components_selectors__default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/selectors/index.js');
 }();
 
 ;
@@ -12759,21 +12656,21 @@ var carousel__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(carousel_CarouselLeftButton, 'CarouselLeftButton', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/carousel/carousel.js');
+  __REACT_HOT_LOADER__.register(carousel_CarouselLeftButton, 'CarouselLeftButton', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/carousel/carousel.js');
 
-  __REACT_HOT_LOADER__.register(carousel_CarouselRightButton, 'CarouselRightButton', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/carousel/carousel.js');
+  __REACT_HOT_LOADER__.register(carousel_CarouselRightButton, 'CarouselRightButton', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/carousel/carousel.js');
 
-  __REACT_HOT_LOADER__.register(carousel_CarouselUpButton, 'CarouselUpButton', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/carousel/carousel.js');
+  __REACT_HOT_LOADER__.register(carousel_CarouselUpButton, 'CarouselUpButton', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/carousel/carousel.js');
 
-  __REACT_HOT_LOADER__.register(carousel_CarouselDownButton, 'CarouselDownButton', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/carousel/carousel.js');
+  __REACT_HOT_LOADER__.register(carousel_CarouselDownButton, 'CarouselDownButton', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/carousel/carousel.js');
 
-  __REACT_HOT_LOADER__.register(carousel_CarouselImage, 'CarouselImage', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/carousel/carousel.js');
+  __REACT_HOT_LOADER__.register(carousel_CarouselImage, 'CarouselImage', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/carousel/carousel.js');
 
-  __REACT_HOT_LOADER__.register(carousel_CarouselNavImage, 'CarouselNavImage', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/carousel/carousel.js');
+  __REACT_HOT_LOADER__.register(carousel_CarouselNavImage, 'CarouselNavImage', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/carousel/carousel.js');
 
-  __REACT_HOT_LOADER__.register(carousel_Carousel, 'Carousel', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/carousel/carousel.js');
+  __REACT_HOT_LOADER__.register(carousel_Carousel, 'Carousel', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/carousel/carousel.js');
 
-  __REACT_HOT_LOADER__.register(carousel__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/carousel/carousel.js');
+  __REACT_HOT_LOADER__.register(carousel__default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/carousel/carousel.js');
 }();
 
 ;
@@ -12788,7 +12685,7 @@ var components_carousel__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_carousel__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/carousel/index.js');
+  __REACT_HOT_LOADER__.register(components_carousel__default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/carousel/index.js');
 }();
 
 ;
@@ -13528,9 +13425,9 @@ var coupons__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(coupons_Coupons, 'Coupons', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/coupons/coupons.js');
+  __REACT_HOT_LOADER__.register(coupons_Coupons, 'Coupons', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/coupons/coupons.js');
 
-  __REACT_HOT_LOADER__.register(coupons__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/coupons/coupons.js');
+  __REACT_HOT_LOADER__.register(coupons__default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/coupons/coupons.js');
 }();
 
 ;
@@ -13545,7 +13442,360 @@ var components_coupons__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_coupons__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/coupons/index.js');
+  __REACT_HOT_LOADER__.register(components_coupons__default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/coupons/index.js');
+}();
+
+;
+// CONCATENATED MODULE: ./src/js/components/lists/lists.js
+var lists__createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+function lists__classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function lists__possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function lists__inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+
+
+var lists_chatfillImage = __webpack_require__("Kr1e");
+var lists_thumbsupfillImage = __webpack_require__("JRc0");
+var lists_heartlineImage = __webpack_require__("mPJs");
+var lists_trianglerightImage = __webpack_require__("lSM2");
+
+var lists_Lists = function (_Component) {
+    lists__inherits(Lists, _Component);
+
+    function Lists() {
+        lists__classCallCheck(this, Lists);
+
+        return lists__possibleConstructorReturn(this, (Lists.__proto__ || Object.getPrototypeOf(Lists)).apply(this, arguments));
+    }
+
+    lists__createClass(Lists, [{
+        key: 'componentDidMount',
+        value: function componentDidMount() {}
+    }, {
+        key: 'render',
+        value: function render() {
+            return react_default.a.createElement(
+                'div',
+                null,
+                react_default.a.createElement(
+                    'div',
+                    { className: 'row' },
+                    react_default.a.createElement(
+                        'div',
+                        { className: 'sm12 columns' },
+                        react_default.a.createElement(
+                            'h1',
+                            { className: 'title title-XL mrg-L' },
+                            'Lists'
+                        ),
+                        react_default.a.createElement(
+                            'h2',
+                            { className: 'std-txt std-txt-XL mrg-L max-width-text' },
+                            'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+                        )
+                    )
+                ),
+                react_default.a.createElement(
+                    'div',
+                    { className: 'row', id: 'lists' },
+                    react_default.a.createElement(
+                        'div',
+                        { className: 'sm12 columns' },
+                        react_default.a.createElement(
+                            'h3',
+                            { className: 'title title-L mrg-L' },
+                            'Lists ',
+                            react_default.a.createElement(
+                                'span',
+                                { className: 'design-system-css-class design-system-css-class-inline' },
+                                'class=\u201Clist\u201D'
+                            )
+                        ),
+                        react_default.a.createElement(
+                            'h5',
+                            { className: 'title title-M mrg-S' },
+                            'List Underline'
+                        ),
+                        react_default.a.createElement(
+                            'p',
+                            { className: 'mrg-L' },
+                            'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+                        ),
+                        react_default.a.createElement(
+                            'ul',
+                            { className: 'list list-underline max-width-400 mrg-XL' },
+                            react_default.a.createElement(
+                                'li',
+                                null,
+                                'list item 1'
+                            ),
+                            react_default.a.createElement(
+                                'li',
+                                null,
+                                'list item 3'
+                            ),
+                            react_default.a.createElement(
+                                'li',
+                                null,
+                                'list item 4'
+                            ),
+                            react_default.a.createElement(
+                                'li',
+                                null,
+                                'list item 5'
+                            )
+                        ),
+                        react_default.a.createElement(
+                            'p',
+                            { className: 'design-system-css-class mrg-XL' },
+                            '.list-underline'
+                        ),
+                        react_default.a.createElement(
+                            'h5',
+                            { className: 'title title-M mrg-S' },
+                            'Text Lists'
+                        ),
+                        react_default.a.createElement(
+                            'p',
+                            { className: 'mrg-L' },
+                            'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+                        ),
+                        react_default.a.createElement(
+                            'ul',
+                            { className: 'list mrg-XL' },
+                            react_default.a.createElement(
+                                'li',
+                                null,
+                                'List Item Normal'
+                            ),
+                            react_default.a.createElement(
+                                'li',
+                                null,
+                                'List Item Normal'
+                            ),
+                            react_default.a.createElement(
+                                'li',
+                                null,
+                                'List Item Normal'
+                            ),
+                            react_default.a.createElement(
+                                'li',
+                                null,
+                                'List Item Normal'
+                            ),
+                            react_default.a.createElement(
+                                'li',
+                                null,
+                                'List Item Normal'
+                            )
+                        ),
+                        react_default.a.createElement(
+                            'p',
+                            { className: 'design-system-css-class mrg-XL' },
+                            '.list'
+                        ),
+                        react_default.a.createElement(
+                            'h5',
+                            { className: 'title title-M mrg-S' },
+                            'Icon Lists'
+                        ),
+                        react_default.a.createElement(
+                            'p',
+                            { className: 'mrg-L' },
+                            'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+                        ),
+                        react_default.a.createElement(
+                            'ul',
+                            { className: 'list list-icons max-width-text ' },
+                            react_default.a.createElement(
+                                'li',
+                                null,
+                                react_default.a.createElement('span', { className: 'icon color-shadow-svg', dangerouslySetInnerHTML: { __html: lists_chatfillImage } }),
+                                ' Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+                            ),
+                            react_default.a.createElement(
+                                'li',
+                                null,
+                                react_default.a.createElement('span', { className: 'icon color-shadow-svg', dangerouslySetInnerHTML: { __html: lists_thumbsupfillImage } }),
+                                ' Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+                            ),
+                            react_default.a.createElement(
+                                'li',
+                                null,
+                                react_default.a.createElement('span', { className: 'icon color-shadow-svg', dangerouslySetInnerHTML: { __html: lists_heartlineImage } }),
+                                ' Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+                            ),
+                            react_default.a.createElement(
+                                'li',
+                                null,
+                                react_default.a.createElement('span', { className: 'icon color-shadow-svg', dangerouslySetInnerHTML: { __html: lists_trianglerightImage } }),
+                                ' Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+                            )
+                        ),
+                        react_default.a.createElement(
+                            'p',
+                            { className: 'design-system-css-class mrg-XL' },
+                            '.list-icons'
+                        ),
+                        react_default.a.createElement(
+                            'h5',
+                            { className: 'title title-M mrg-S' },
+                            'Link Lists'
+                        ),
+                        react_default.a.createElement(
+                            'p',
+                            { className: 'mrg-L' },
+                            'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+                        ),
+                        react_default.a.createElement(
+                            'ul',
+                            { className: 'list list-links mrg-XL' },
+                            react_default.a.createElement(
+                                'li',
+                                null,
+                                react_default.a.createElement(
+                                    'a',
+                                    { href: '#' },
+                                    'List item with link'
+                                )
+                            ),
+                            react_default.a.createElement(
+                                'li',
+                                null,
+                                react_default.a.createElement(
+                                    'a',
+                                    { href: '#' },
+                                    'List item with link'
+                                )
+                            ),
+                            react_default.a.createElement(
+                                'li',
+                                null,
+                                react_default.a.createElement(
+                                    'a',
+                                    { href: '#' },
+                                    'List item with link'
+                                )
+                            ),
+                            react_default.a.createElement(
+                                'li',
+                                null,
+                                react_default.a.createElement(
+                                    'a',
+                                    { href: '#' },
+                                    'List item with link'
+                                )
+                            ),
+                            react_default.a.createElement(
+                                'li',
+                                null,
+                                react_default.a.createElement(
+                                    'a',
+                                    { href: '#' },
+                                    'List item with link'
+                                )
+                            ),
+                            react_default.a.createElement(
+                                'li',
+                                null,
+                                react_default.a.createElement(
+                                    'a',
+                                    { href: '#' },
+                                    'List item with link'
+                                )
+                            ),
+                            react_default.a.createElement(
+                                'li',
+                                null,
+                                react_default.a.createElement(
+                                    'a',
+                                    { href: '#' },
+                                    'List item with link'
+                                )
+                            ),
+                            react_default.a.createElement(
+                                'li',
+                                null,
+                                react_default.a.createElement(
+                                    'a',
+                                    { href: '#' },
+                                    'List item with link'
+                                )
+                            )
+                        ),
+                        react_default.a.createElement(
+                            'p',
+                            { className: 'design-system-css-class' },
+                            '.list-links'
+                        )
+                    )
+                ),
+                react_default.a.createElement(
+                    'div',
+                    { className: 'row' },
+                    react_default.a.createElement(
+                        'div',
+                        { className: 'sm12 columns' },
+                        react_default.a.createElement('hr', null),
+                        react_default.a.createElement(
+                            'p',
+                            { className: 'S' },
+                            'Created by: ',
+                            react_default.a.createElement(
+                                'strong',
+                                null,
+                                'Tony Stark'
+                            ),
+                            ' and ',
+                            react_default.a.createElement(
+                                'strong',
+                                null,
+                                'Bruce Banner'
+                            ),
+                            react_default.a.createElement('br', null),
+                            ' Latest update: 04/05/2017'
+                        )
+                    )
+                )
+            );
+        }
+    }]);
+
+    return Lists;
+}(react["Component"]);
+
+var lists__default = lists_Lists;
+
+
+/* harmony default export */ var lists = (lists__default);
+;
+
+var lists__temp = function () {
+    if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+        return;
+    }
+
+    __REACT_HOT_LOADER__.register(lists_Lists, 'Lists', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/lists/lists.js');
+
+    __REACT_HOT_LOADER__.register(lists__default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/lists/lists.js');
+}();
+
+;
+// CONCATENATED MODULE: ./src/js/components/lists/index.js
+
+var components_lists__default = lists;
+/* harmony default export */ var components_lists = (components_lists__default);
+;
+
+var components_lists__temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(components_lists__default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/lists/index.js');
 }();
 
 ;
@@ -15264,9 +15514,9 @@ var header__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(header_Header, 'Header', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/header/header.js');
+  __REACT_HOT_LOADER__.register(header_Header, 'Header', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/header/header.js');
 
-  __REACT_HOT_LOADER__.register(header__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/header/header.js');
+  __REACT_HOT_LOADER__.register(header__default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/header/header.js');
 }();
 
 ;
@@ -15281,7 +15531,7 @@ var components_header__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_header__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/header/index.js');
+  __REACT_HOT_LOADER__.register(components_header__default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/header/index.js');
 }();
 
 ;
@@ -16174,9 +16424,9 @@ var footer__temp = function () {
         return;
     }
 
-    __REACT_HOT_LOADER__.register(footer_Footer, 'Footer', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/footer/footer.js');
+    __REACT_HOT_LOADER__.register(footer_Footer, 'Footer', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/footer/footer.js');
 
-    __REACT_HOT_LOADER__.register(footer__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/footer/footer.js');
+    __REACT_HOT_LOADER__.register(footer__default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/footer/footer.js');
 }();
 
 ;
@@ -16191,7 +16441,7 @@ var components_footer__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_footer__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/footer/index.js');
+  __REACT_HOT_LOADER__.register(components_footer__default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/footer/index.js');
 }();
 
 ;
@@ -16392,9 +16642,9 @@ var slide_out_panels__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(slide_out_panels_SlideOutPanels, 'SlideOutPanels', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/slide-out-panels/slide-out-panels.js');
+  __REACT_HOT_LOADER__.register(slide_out_panels_SlideOutPanels, 'SlideOutPanels', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/slide-out-panels/slide-out-panels.js');
 
-  __REACT_HOT_LOADER__.register(slide_out_panels__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/slide-out-panels/slide-out-panels.js');
+  __REACT_HOT_LOADER__.register(slide_out_panels__default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/slide-out-panels/slide-out-panels.js');
 }();
 
 ;
@@ -16409,7 +16659,7 @@ var components_slide_out_panels__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_slide_out_panels__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/slide-out-panels/index.js');
+  __REACT_HOT_LOADER__.register(components_slide_out_panels__default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/slide-out-panels/index.js');
 }();
 
 ;
@@ -17491,7 +17741,7 @@ var filter_sort_FilterSort = function (_Component) {
               ),
               react_default.a.createElement(
                 'a',
-                { className: 'tag-clear std-txt std-txt-S', href: 'javascript:void(0)' },
+                { className: 'tag-clear std-txt std-txt-S fl-left', href: 'javascript:void(0)' },
                 'Clear All'
               )
             ),
@@ -17667,9 +17917,9 @@ var filter_sort__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(filter_sort_FilterSort, 'FilterSort', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/filter-sort/filter-sort.js');
+  __REACT_HOT_LOADER__.register(filter_sort_FilterSort, 'FilterSort', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/filter-sort/filter-sort.js');
 
-  __REACT_HOT_LOADER__.register(filter_sort__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/filter-sort/filter-sort.js');
+  __REACT_HOT_LOADER__.register(filter_sort__default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/filter-sort/filter-sort.js');
 }();
 
 ;
@@ -17684,7 +17934,7 @@ var components_filter_sort__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_filter_sort__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/filter-sort/index.js');
+  __REACT_HOT_LOADER__.register(components_filter_sort__default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/filter-sort/index.js');
 }();
 
 ;
@@ -18503,9 +18753,9 @@ var product_cards__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(product_cards_ProductCards, 'ProductCards', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/product-cards/product-cards.js');
+  __REACT_HOT_LOADER__.register(product_cards_ProductCards, 'ProductCards', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/product-cards/product-cards.js');
 
-  __REACT_HOT_LOADER__.register(product_cards__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/product-cards/product-cards.js');
+  __REACT_HOT_LOADER__.register(product_cards__default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/product-cards/product-cards.js');
 }();
 
 ;
@@ -18520,7 +18770,169 @@ var components_product_cards__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_product_cards__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/product-cards/index.js');
+  __REACT_HOT_LOADER__.register(components_product_cards__default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/product-cards/index.js');
+}();
+
+;
+// CONCATENATED MODULE: ./src/js/components/like-dislike/like-dislike.js
+var like_dislike__createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+function like_dislike__classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function like_dislike__possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function like_dislike__inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+
+
+var like_dislike_heartfillImage = __webpack_require__("/KOU");
+
+var like_dislike_LikeDislike = function (_Component) {
+    like_dislike__inherits(LikeDislike, _Component);
+
+    function LikeDislike() {
+        like_dislike__classCallCheck(this, LikeDislike);
+
+        return like_dislike__possibleConstructorReturn(this, (LikeDislike.__proto__ || Object.getPrototypeOf(LikeDislike)).apply(this, arguments));
+    }
+
+    like_dislike__createClass(LikeDislike, [{
+        key: 'componentDidMount',
+        value: function componentDidMount() {
+
+            jquery_default()(".heart").on("click", function () {
+                var parent = jquery_default()(this).closest('.like-icon');
+                var tooltip = parent.find('.tooltip-content');
+                parent.closest('.like-icon').toggleClass("is-active");
+                if (parent.hasClass("is-active")) {
+                    tooltip.html('Added<br /><a href="javascript:void(0);">View My Favorites</a>');
+                }
+            });
+
+            jquery_default()(".like-icon").mouseleave(function () {
+                var parent = jquery_default()(this).closest('.like-icon');
+                var tooltip = parent.find('.tooltip-content');
+                if (parent.hasClass("is-active")) {
+                    tooltip.html('Remove Favorite');
+                } else {
+                    tooltip.html('Favorite');
+                }
+            });
+        }
+    }, {
+        key: 'render',
+        value: function render() {
+            return react_default.a.createElement(
+                'div',
+                null,
+                react_default.a.createElement(
+                    'div',
+                    { className: 'row' },
+                    react_default.a.createElement(
+                        'div',
+                        { className: 'sm12 columns' },
+                        react_default.a.createElement(
+                            'h1',
+                            { className: 'title title-XL mrg-L' },
+                            'Like / Dislike Messages'
+                        ),
+                        react_default.a.createElement(
+                            'h2',
+                            { className: 'std-txt std-txt-XL mrg-L max-width-text' },
+                            'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+                        )
+                    )
+                ),
+                react_default.a.createElement(
+                    'div',
+                    { className: 'row' },
+                    react_default.a.createElement(
+                        'div',
+                        { className: 'sm12 columns' },
+                        react_default.a.createElement(
+                            'div',
+                            { className: 'product-card' },
+                            react_default.a.createElement('img', { src: '/images/design-system/fpo/product-cards/product-like-dislike.jpg' }),
+                            react_default.a.createElement(
+                                'div',
+                                { className: 'like-icon' },
+                                react_default.a.createElement('span', { className: 'icon heart', dangerouslySetInnerHTML: { __html: like_dislike_heartfillImage } }),
+                                react_default.a.createElement(
+                                    'div',
+                                    { className: 'tooltip tooltip-single tooltip-top-right' },
+                                    react_default.a.createElement(
+                                        'span',
+                                        { className: 'tooltip-content' },
+                                        'Favorite'
+                                    )
+                                )
+                            )
+                        )
+                    )
+                ),
+                react_default.a.createElement(
+                    'div',
+                    { className: 'row' },
+                    react_default.a.createElement(
+                        'div',
+                        { className: 'sm12 columns' },
+                        react_default.a.createElement('hr', null),
+                        react_default.a.createElement(
+                            'p',
+                            { className: 'S' },
+                            'Created by: ',
+                            react_default.a.createElement(
+                                'strong',
+                                null,
+                                'Tony Stark'
+                            ),
+                            ' and ',
+                            react_default.a.createElement(
+                                'strong',
+                                null,
+                                'Bruce Banner'
+                            ),
+                            react_default.a.createElement('br', null),
+                            ' Latest update: 04/05/2017'
+                        )
+                    )
+                )
+            );
+        }
+    }]);
+
+    return LikeDislike;
+}(react["Component"]);
+
+var like_dislike__default = like_dislike_LikeDislike;
+
+
+/* harmony default export */ var like_dislike = (like_dislike__default);
+;
+
+var like_dislike__temp = function () {
+    if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+        return;
+    }
+
+    __REACT_HOT_LOADER__.register(like_dislike_LikeDislike, 'LikeDislike', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/like-dislike/like-dislike.js');
+
+    __REACT_HOT_LOADER__.register(like_dislike__default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/like-dislike/like-dislike.js');
+}();
+
+;
+// CONCATENATED MODULE: ./src/js/components/like-dislike/index.js
+
+var components_like_dislike__default = like_dislike;
+/* harmony default export */ var components_like_dislike = (components_like_dislike__default);
+;
+
+var components_like_dislike__temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(components_like_dislike__default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/like-dislike/index.js');
 }();
 
 ;
@@ -18675,11 +19087,11 @@ var SubNav__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(varToURL, 'varToURL', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/containers/SubNav.js');
+  __REACT_HOT_LOADER__.register(varToURL, 'varToURL', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/containers/SubNav.js');
 
-  __REACT_HOT_LOADER__.register(SubNav_SubNav, 'SubNav', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/containers/SubNav.js');
+  __REACT_HOT_LOADER__.register(SubNav_SubNav, 'SubNav', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/containers/SubNav.js');
 
-  __REACT_HOT_LOADER__.register(SubNav__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/containers/SubNav.js');
+  __REACT_HOT_LOADER__.register(SubNav__default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/containers/SubNav.js');
 }();
 
 ;
@@ -18727,72 +19139,76 @@ function DesignSystemPage__inherits(subClass, superClass) { if (typeof superClas
 
 
 
+
+
 var DesignSystemPage_DesignSystemPage = function (_Component) {
-    DesignSystemPage__inherits(DesignSystemPage, _Component);
+  DesignSystemPage__inherits(DesignSystemPage, _Component);
 
-    function DesignSystemPage() {
-        DesignSystemPage__classCallCheck(this, DesignSystemPage);
+  function DesignSystemPage() {
+    DesignSystemPage__classCallCheck(this, DesignSystemPage);
 
-        return DesignSystemPage__possibleConstructorReturn(this, (DesignSystemPage.__proto__ || Object.getPrototypeOf(DesignSystemPage)).apply(this, arguments));
+    return DesignSystemPage__possibleConstructorReturn(this, (DesignSystemPage.__proto__ || Object.getPrototypeOf(DesignSystemPage)).apply(this, arguments));
+  }
+
+  DesignSystemPage__createClass(DesignSystemPage, [{
+    key: 'render',
+    value: function render() {
+
+      var routes = {
+        Buttons: { componentElement: components_buttons, componentDisplayName: "Buttons", componentSubNav: ['Code Generator', 'When to Use', 'Appearance', 'Responsive Behavior'] },
+        Color: { componentElement: components_color, componentDisplayName: "Color", componentSubNav: ['Core', 'Messaging', 'Rewards', 'Marketing', 'Color Usage', 'Accessibility'] },
+        Icons: { componentElement: components_icons, componentDisplayName: "Icons", componentSubNav: ['When to Use', 'Alert', 'Payment', 'Action', 'Navigation', 'Utility', 'Social'] },
+        Grid: { componentElement: components_grid, componentDisplayName: "Grid", componentSubNav: ['Horizontal Grid', 'Vertical Grid', 'Documentation'] },
+        Typography: { componentElement: components_typography, componentDisplayName: "Typography", componentSubNav: ['Code Generator', 'Price', 'Title', 'Standard Text', 'Copy', 'Links', 'Promo Labels'] },
+        Alerts: { componentElement: components_alerts, componentDisplayName: "Alerts & Messaging", componentSubNav: ['Code Generator', 'When to Use', 'Appearance', 'Content Guidelines', 'Related Content'] },
+        Badges: { componentElement: components_badges, componentDisplayName: "Badges", componentSubNav: ['Code Generator', 'When to Use', 'Appearance', 'Examples'] },
+        ContentLoaders: { componentElement: components_content_loaders, componentDisplayName: "Content Loaders", componentSubNav: ['Code Generator', 'Types', 'Lazy Load'] },
+        Tables: { componentElement: components_tables, componentDisplayName: "Tables", componentSubNav: ['Code Generator', 'Standard', 'Feature'] },
+        Forms: { componentElement: components_forms, componentDisplayName: "Forms", componentSubNav: ['Code Generator', 'When to Use', 'Appearance', 'Form Validation', 'Sample Layout', 'Related Content'] },
+        DropdownButton: { componentElement: components_dropdown_button, componentDisplayName: "Dropdown Button", componentSubNav: ['Dropdown Button'] },
+        StarRatings: { componentElement: components_star_ratings, componentDisplayName: "Star Ratings", componentSubNav: ['Star Ratings'] },
+        Scrollbar: { componentElement: components_scrollbar, componentDisplayName: "Scrollbar", componentSubNav: ['Scrollbar'] },
+        CountdownTimers: { componentElement: components_countdown_timers, componentDisplayName: "Countdown Timers", componentSubNav: ['Countdown Timers'] },
+        VisualNavigation: { componentElement: components_visual_navigation, componentDisplayName: "Visual Navigation", componentSubNav: ['Visual Navigation'] },
+        Modal: { componentElement: components_modal, componentDisplayName: "Modal", componentSubNav: ['Modal'] },
+        Lists: { componentElement: components_lists, componentDisplayName: "Lists", componentSubNav: ['Lists'] },
+        Tooltips: { componentElement: components_tooltips, componentDisplayName: "Tooltips", componentSubNav: ['Tooltips'] },
+        Tabs: { componentElement: components_tabs, componentDisplayName: "Tabs", componentSubNav: ['Tabs'] },
+        Pagination: { componentElement: components_pagination, componentDisplayName: "Pagination", componentSubNav: ['Pagination'] },
+        Swatches: { componentElement: components_swatches, componentDisplayName: "Swatches", componentSubNav: ['Swatches'] },
+        Selectors: { componentElement: components_selectors, componentDisplayName: "Selectors", componentSubNav: ['Selectors'] },
+        Carousel: { componentElement: components_carousel, componentDisplayName: "Carousels", componentSubNav: ['Carousel'] },
+        Header: { componentElement: components_header, componentDisplayName: "Header", componentSubNav: ['Header'] },
+        Footer: { componentElement: components_footer, componentDisplayName: "Footer", componentSubNav: ['Footer'] },
+        Coupons: { componentElement: components_coupons, componentDisplayName: "Coupons", componentSubNav: ['Coupons'] },
+        SlideOutPanels: { componentElement: components_slide_out_panels, componentDisplayName: "Slide Out Panels", componentSubNav: ['Slide Out Panels'] },
+        ProductCards: { componentElement: components_product_cards, componentDisplayName: "Product Cards", componentSubNav: ['Product Cards'] },
+        FilterSort: { componentElement: components_filter_sort, componentDisplayName: "Filter Sort", componentSubNav: ['FilterSort'] },
+        LikeDislike: { componentElement: components_like_dislike, componentDisplayName: "Like Dislike Messages", componentSubNav: ['Like Dislike Messages'] }
+
+      };
+
+      var Scene = routes[this.props.componentName].componentElement;
+      var SceneSubNavName = routes[this.props.componentName].componentDisplayName;
+      var SceneSubNav = routes[this.props.componentName].componentSubNav;
+      return react_default.a.createElement(
+        'div',
+        { className: 'design-system-inner-wrap' },
+        react_default.a.createElement(
+          'div',
+          { className: 'design-system-inner-content' },
+          react_default.a.createElement(
+            'div',
+            { className: 'design-system-content' },
+            react_default.a.createElement(Scene, null)
+          )
+        ),
+        react_default.a.createElement(containers_SubNav, { name: SceneSubNavName, data: SceneSubNav })
+      );
     }
+  }]);
 
-    DesignSystemPage__createClass(DesignSystemPage, [{
-        key: 'render',
-        value: function render() {
-
-            var routes = {
-                Buttons: { componentElement: components_buttons, componentDisplayName: "Buttons", componentSubNav: ['Code Generator', 'When to Use', 'Appearance', 'Responsive Behavior'] },
-                Color: { componentElement: components_color, componentDisplayName: "Color", componentSubNav: ['Core', 'Messaging', 'Rewards', 'Marketing', 'Color Usage', 'Accessibility'] },
-                Icons: { componentElement: components_icons, componentDisplayName: "Icons", componentSubNav: ['When to Use', 'Alert', 'Payment', 'Action', 'Navigation', 'Utility', 'Social'] },
-                Grid: { componentElement: components_grid, componentDisplayName: "Grid", componentSubNav: ['Horizontal Grid', 'Vertical Grid', 'Documentation'] },
-                Typography: { componentElement: components_typography, componentDisplayName: "Typography", componentSubNav: ['Code Generator', 'Price', 'Title', 'Standard Text', 'Copy', 'Lists', 'Links', 'Promo Labels'] },
-                Alerts: { componentElement: components_alerts, componentDisplayName: "Alerts & Messaging", componentSubNav: ['Code Generator', 'When to Use', 'Appearance', 'Content Guidelines', 'Related Content'] },
-                Badges: { componentElement: components_badges, componentDisplayName: "Badges", componentSubNav: ['Code Generator', 'When to Use', 'Appearance', 'Examples'] },
-                ContentLoaders: { componentElement: components_content_loaders, componentDisplayName: "Content Loaders", componentSubNav: ['Code Generator', 'Types', 'Lazy Load'] },
-                Tables: { componentElement: components_tables, componentDisplayName: "Tables", componentSubNav: ['Code Generator', 'Standard', 'Feature'] },
-                Forms: { componentElement: components_forms, componentDisplayName: "Forms", componentSubNav: ['Code Generator', 'When to Use', 'Appearance', 'Form Validation', 'Sample Layout', 'Related Content'] },
-                DropdownButton: { componentElement: components_dropdown_button, componentDisplayName: "Dropdown Button", componentSubNav: ['Dropdown Button'] },
-                StarRatings: { componentElement: components_star_ratings, componentDisplayName: "Star Ratings", componentSubNav: ['Star Ratings'] },
-                Scrollbar: { componentElement: components_scrollbar, componentDisplayName: "Scrollbar", componentSubNav: ['Scrollbar'] },
-                CountdownTimers: { componentElement: components_countdown_timers, componentDisplayName: "Countdown Timers", componentSubNav: ['Countdown Timers'] },
-                VisualNavigation: { componentElement: components_visual_navigation, componentDisplayName: "Visual Navigation", componentSubNav: ['Visual Navigation'] },
-                Modal: { componentElement: components_modal, componentDisplayName: "Modal", componentSubNav: ['Modal'] },
-                Tooltips: { componentElement: components_tooltips, componentDisplayName: "Tooltips", componentSubNav: ['Tooltips'] },
-                Tabs: { componentElement: components_tabs, componentDisplayName: "Tabs", componentSubNav: ['Tabs'] },
-                Pagination: { componentElement: components_pagination, componentDisplayName: "Pagination", componentSubNav: ['Pagination'] },
-                Swatches: { componentElement: components_swatches, componentDisplayName: "Swatches", componentSubNav: ['Swatches'] },
-                Selectors: { componentElement: components_selectors, componentDisplayName: "Selectors", componentSubNav: ['Selectors'] },
-                Carousel: { componentElement: components_carousel, componentDisplayName: "Carousels", componentSubNav: ['Carousel'] },
-                Header: { componentElement: components_header, componentDisplayName: "Header", componentSubNav: ['Header'] },
-                Footer: { componentElement: components_footer, componentDisplayName: "Footer", componentSubNav: ['Footer'] },
-                Coupons: { componentElement: components_coupons, componentDisplayName: "Coupons", componentSubNav: ['Coupons'] },
-                SlideOutPanels: { componentElement: components_slide_out_panels, componentDisplayName: "Slide Out Panels", componentSubNav: ['Slide Out Panels'] },
-                ProductCards: { componentElement: components_product_cards, componentDisplayName: "Product Cards", componentSubNav: ['Product Cards'] },
-                FilterSort: { componentElement: components_filter_sort, componentDisplayName: "Filter Sort", componentSubNav: ['FilterSort'] }
-
-            };
-
-            var Scene = routes[this.props.componentName].componentElement;
-            var SceneSubNavName = routes[this.props.componentName].componentDisplayName;
-            var SceneSubNav = routes[this.props.componentName].componentSubNav;
-            return react_default.a.createElement(
-                'div',
-                { className: 'design-system-inner-wrap' },
-                react_default.a.createElement(
-                    'div',
-                    { className: 'design-system-inner-content' },
-                    react_default.a.createElement(
-                        'div',
-                        { className: 'design-system-content' },
-                        react_default.a.createElement(Scene, null)
-                    )
-                ),
-                react_default.a.createElement(containers_SubNav, { name: SceneSubNavName, data: SceneSubNav })
-            );
-        }
-    }]);
-
-    return DesignSystemPage;
+  return DesignSystemPage;
 }(react["Component"]);
 
 ;
@@ -18802,13 +19218,13 @@ var DesignSystemPage__default = DesignSystemPage_DesignSystemPage;
 ;
 
 var DesignSystemPage__temp = function () {
-    if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-        return;
-    }
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
 
-    __REACT_HOT_LOADER__.register(DesignSystemPage_DesignSystemPage, 'DesignSystemPage', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/containers/DesignSystemPage.js');
+  __REACT_HOT_LOADER__.register(DesignSystemPage_DesignSystemPage, 'DesignSystemPage', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/containers/DesignSystemPage.js');
 
-    __REACT_HOT_LOADER__.register(DesignSystemPage__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/containers/DesignSystemPage.js');
+  __REACT_HOT_LOADER__.register(DesignSystemPage__default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/containers/DesignSystemPage.js');
 }();
 
 ;
@@ -22827,9 +23243,9 @@ var work_in_progress__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(work_in_progress_WorkInProgress, 'WorkInProgress', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/work-in-progress/work-in-progress.js');
+  __REACT_HOT_LOADER__.register(work_in_progress_WorkInProgress, 'WorkInProgress', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/work-in-progress/work-in-progress.js');
 
-  __REACT_HOT_LOADER__.register(work_in_progress__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/work-in-progress/work-in-progress.js');
+  __REACT_HOT_LOADER__.register(work_in_progress__default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/work-in-progress/work-in-progress.js');
 }();
 
 ;
@@ -22844,7 +23260,7 @@ var components_work_in_progress__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_work_in_progress__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/work-in-progress/index.js');
+  __REACT_HOT_LOADER__.register(components_work_in_progress__default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/work-in-progress/index.js');
 }();
 
 ;
@@ -22867,8 +23283,6 @@ function Root__inherits(subClass, superClass) { if (typeof superClass !== "funct
 
 
 
-// import 'foundation-sites';
-// import 'what-input';
 
 var Root_Home = function Home() {
     return react_default.a.createElement(
@@ -23192,6 +23606,9 @@ var Root_App = function (_React$Component) {
                             react_default.a.createElement(es["d" /* Route */], { exact: true, path: '/components/selectors', render: function render() {
                                     return react_default.a.createElement(containers_DesignSystemPage, { componentName: 'Selectors' });
                                 } }),
+                            react_default.a.createElement(es["d" /* Route */], { exact: true, path: '/components/lists', render: function render() {
+                                    return react_default.a.createElement(containers_DesignSystemPage, { componentName: 'Lists' });
+                                } }),
                             react_default.a.createElement(es["d" /* Route */], { exact: true, path: '/page-modules/header', render: function render() {
                                     return react_default.a.createElement(containers_DesignSystemPage, { componentName: 'Header' });
                                 } }),
@@ -23209,6 +23626,9 @@ var Root_App = function (_React$Component) {
                                 } }),
                             react_default.a.createElement(es["d" /* Route */], { exact: true, path: '/page-modules/filter-sort', render: function render() {
                                     return react_default.a.createElement(containers_DesignSystemPage, { componentName: 'FilterSort' });
+                                } }),
+                            react_default.a.createElement(es["d" /* Route */], { exact: true, path: '/page-modules/like-dislike', render: function render() {
+                                    return react_default.a.createElement(containers_DesignSystemPage, { componentName: 'LikeDislike' });
                                 } })
                         )
                     )
@@ -23231,15 +23651,15 @@ var Root__temp = function () {
         return;
     }
 
-    __REACT_HOT_LOADER__.register(Root_Home, 'Home', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/containers/Root.js');
+    __REACT_HOT_LOADER__.register(Root_Home, 'Home', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/containers/Root.js');
 
-    __REACT_HOT_LOADER__.register(Root_renderNavLinkItems, 'renderNavLinkItems', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/containers/Root.js');
+    __REACT_HOT_LOADER__.register(Root_renderNavLinkItems, 'renderNavLinkItems', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/containers/Root.js');
 
-    __REACT_HOT_LOADER__.register(Root_RenderNavLink, 'RenderNavLink', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/containers/Root.js');
+    __REACT_HOT_LOADER__.register(Root_RenderNavLink, 'RenderNavLink', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/containers/Root.js');
 
-    __REACT_HOT_LOADER__.register(Root_App, 'App', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/containers/Root.js');
+    __REACT_HOT_LOADER__.register(Root_App, 'App', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/containers/Root.js');
 
-    __REACT_HOT_LOADER__.register(Root__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/containers/Root.js');
+    __REACT_HOT_LOADER__.register(Root__default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/containers/Root.js');
 }();
 
 ;
@@ -23275,7 +23695,7 @@ var js__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(js_render, 'render', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/index.jsx');
+  __REACT_HOT_LOADER__.register(js_render, 'render', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/index.jsx');
 }();
 
 ;
@@ -23285,42 +23705,42 @@ var js__temp = function () {
 /***/ "MCbc":
 /***/ (function(module, exports) {
 
-module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<svg version=\"1.1\" id=\"action-eye-crossed-out-Layer_1\"\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\n<path id=\"action-eye-crossed-out-a_1_\" style=\"fill:#111111;\" d=\"M34,12.3c0.3-0.2,0.5-0.3,0.8-0.3h0.1c0.3,0,0.5,0.1,0.7,0.3\n\tc0.2,0.2,0.4,0.5,0.4,0.8c0,0.3-0.1,0.6-0.4,0.8l-4.3,4.4c0.5,0.3,1,0.7,1.5,1.1s0.9,0.8,1.3,1.1l1.1,1.1c0.4,0.4,0.6,0.6,0.8,0.9\n\tl0.6,0.6l0.3,0.3c0.2,0.2,0.2,0.4,0,0.7c-0.2,0.2-0.5,0.5-0.8,0.9s-0.9,1-1.8,1.8c-0.9,0.8-1.8,1.6-2.8,2.3\n\tc-0.9,0.6-2.1,1.2-3.5,1.8c-1.4,0.5-2.7,0.8-4,0.8c-1.4,0-2.9-0.3-4.6-1l-5,5.2c-0.1,0-0.4,0.1-0.7,0.1s-0.6-0.1-0.8-0.3\n\tc-0.2-0.2-0.3-0.6-0.3-0.9s0.1-0.6,0.3-0.7L34,12.3z M26.6,26.5c-0.7,0.8-1.6,1.2-2.7,1.2c-0.5,0-1-0.1-1.4-0.3l-0.8,0.8\n\tc0.7,0.4,1.4,0.6,2.2,0.6c0.9,0,1.7-0.2,2.5-0.7c0.7-0.5,1.3-1.1,1.8-1.9c0.4-0.8,0.7-1.6,0.7-2.5c0-0.8-0.2-1.6-0.6-2.3l-0.8,0.8\n\tc0.2,0.5,0.3,1,0.3,1.5C27.8,24.8,27.4,25.7,26.6,26.5z M21.9,16.1c0.7-0.1,1.4-0.2,2.1-0.2c1.3,0,2.7,0.3,4.2,0.8l-2.3,2.4\n\tc-0.7-0.3-1.3-0.4-1.9-0.4c-1.4,0-2.5,0.5-3.4,1.5s-1.4,2.2-1.4,3.6c0,0.6,0.1,1.3,0.4,1.9L16.5,29c-1-0.6-1.9-1.3-2.7-2.1\n\tc-0.9-0.8-1.5-1.4-1.8-1.8c-0.3-0.3-0.5-0.6-0.8-0.9c-0.2-0.2-0.2-0.4,0-0.7l0.2-0.5c0.2-0.2,0.3-0.4,0.5-0.6l0.8-0.8\n\tc0.3-0.3,0.7-0.7,1.1-1c0.3-0.4,0.8-0.7,1.2-1.1c1-0.8,2-1.5,3.1-2c0.7-0.4,1.3-0.6,1.9-0.9C20.6,16.4,21.3,16.2,21.9,16.1z\n\t M21.3,20.9c0.8-0.7,1.7-1.1,2.7-1.1c0.4,0,0.7,0.1,1,0.2l-4.6,4.8c-0.1-0.3-0.2-0.7-0.2-1.1C20.2,22.6,20.6,21.7,21.3,20.9z\"/>\n</svg>\n"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"action-eye-crossed-out-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"action-eye-crossed-out-a_1_\" style=\"fill:#111111;\" d=\"M34,12.3c0.3-0.2,0.5-0.3,0.8-0.3h0.1c0.3,0,0.5,0.1,0.7,0.3\r\n\tc0.2,0.2,0.4,0.5,0.4,0.8c0,0.3-0.1,0.6-0.4,0.8l-4.3,4.4c0.5,0.3,1,0.7,1.5,1.1s0.9,0.8,1.3,1.1l1.1,1.1c0.4,0.4,0.6,0.6,0.8,0.9\r\n\tl0.6,0.6l0.3,0.3c0.2,0.2,0.2,0.4,0,0.7c-0.2,0.2-0.5,0.5-0.8,0.9s-0.9,1-1.8,1.8c-0.9,0.8-1.8,1.6-2.8,2.3\r\n\tc-0.9,0.6-2.1,1.2-3.5,1.8c-1.4,0.5-2.7,0.8-4,0.8c-1.4,0-2.9-0.3-4.6-1l-5,5.2c-0.1,0-0.4,0.1-0.7,0.1s-0.6-0.1-0.8-0.3\r\n\tc-0.2-0.2-0.3-0.6-0.3-0.9s0.1-0.6,0.3-0.7L34,12.3z M26.6,26.5c-0.7,0.8-1.6,1.2-2.7,1.2c-0.5,0-1-0.1-1.4-0.3l-0.8,0.8\r\n\tc0.7,0.4,1.4,0.6,2.2,0.6c0.9,0,1.7-0.2,2.5-0.7c0.7-0.5,1.3-1.1,1.8-1.9c0.4-0.8,0.7-1.6,0.7-2.5c0-0.8-0.2-1.6-0.6-2.3l-0.8,0.8\r\n\tc0.2,0.5,0.3,1,0.3,1.5C27.8,24.8,27.4,25.7,26.6,26.5z M21.9,16.1c0.7-0.1,1.4-0.2,2.1-0.2c1.3,0,2.7,0.3,4.2,0.8l-2.3,2.4\r\n\tc-0.7-0.3-1.3-0.4-1.9-0.4c-1.4,0-2.5,0.5-3.4,1.5s-1.4,2.2-1.4,3.6c0,0.6,0.1,1.3,0.4,1.9L16.5,29c-1-0.6-1.9-1.3-2.7-2.1\r\n\tc-0.9-0.8-1.5-1.4-1.8-1.8c-0.3-0.3-0.5-0.6-0.8-0.9c-0.2-0.2-0.2-0.4,0-0.7l0.2-0.5c0.2-0.2,0.3-0.4,0.5-0.6l0.8-0.8\r\n\tc0.3-0.3,0.7-0.7,1.1-1c0.3-0.4,0.8-0.7,1.2-1.1c1-0.8,2-1.5,3.1-2c0.7-0.4,1.3-0.6,1.9-0.9C20.6,16.4,21.3,16.2,21.9,16.1z\r\n\t M21.3,20.9c0.8-0.7,1.7-1.1,2.7-1.1c0.4,0,0.7,0.1,1,0.2l-4.6,4.8c-0.1-0.3-0.2-0.7-0.2-1.1C20.2,22.6,20.6,21.7,21.3,20.9z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "O+Bj":
 /***/ (function(module, exports) {
 
-module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<svg version=\"1.1\" id=\"icon_x2F_Nav_x2F_triangle-up-Layer_1\"\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\n<path id=\"icon_x2F_Nav_x2F_triangle-up-path-1_1_\" style=\"fill:#111111;\" d=\"M24,20l6,8H18L24,20z\"/>\n</svg>\n"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"icon_x2F_Nav_x2F_triangle-up-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"icon_x2F_Nav_x2F_triangle-up-path-1_1_\" style=\"fill:#111111;\" d=\"M24,20l6,8H18L24,20z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "O1LD":
 /***/ (function(module, exports) {
 
-module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<svg version=\"1.1\" id=\"action-eye-Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\"\n\t y=\"0px\" viewBox=\"0 0 48 48\" style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\n<path id=\"action-eye-a_1_\" style=\"fill:#111111;\" d=\"M36.8,23.7c0.2,0.2,0.2,0.4,0,0.6c-0.2,0.3-0.4,0.5-0.6,0.7\n\tc-0.2,0.2-0.6,0.6-1.3,1.2c-0.6,0.6-1.3,1.2-2.1,1.6c-0.7,0.5-1.6,1-2.5,1.5s-2,0.9-3.1,1.2c-1,0.3-2.1,0.5-3.2,0.5\n\tc-1.3,0-2.7-0.2-4-0.7c-1.3-0.5-2.5-1-3.4-1.5c-1-0.6-1.9-1.3-2.8-2c-1-0.8-1.6-1.3-1.8-1.6c-0.4-0.3-0.6-0.6-0.9-0.9\n\tc-0.1-0.2-0.1-0.4,0-0.6c0.3-0.3,0.5-0.6,0.8-0.9c0.3-0.3,0.9-0.8,1.8-1.6c0.9-0.7,1.8-1.4,2.8-2c1-0.5,2.1-1,3.5-1.5s2.7-0.7,4-0.7\n\ts2.7,0.2,4,0.7c1.4,0.5,2.5,1,3.5,1.6c1,0.6,1.9,1.2,2.8,1.9c0.9,0.7,1.5,1.3,1.9,1.7C36.5,23.3,36.7,23.6,36.8,23.7 M24,28.5\n\tc1.4,0,2.5-0.4,3.4-1.3c0.9-0.9,1.4-1.9,1.4-3.2s-0.5-2.3-1.4-3.2c-0.9-0.9-2.1-1.3-3.4-1.3c-1.4,0-2.5,0.4-3.4,1.3\n\tc-1,0.9-1.5,1.9-1.5,3.2s0.5,2.3,1.4,3.2C21.4,28.1,22.6,28.5,24,28.5 M27.8,24c0,1-0.4,1.8-1.1,2.5c-0.7,0.7-1.6,1-2.7,1\n\tc-1,0-1.9-0.3-2.7-1c-0.7-0.7-1.1-1.5-1.1-2.5s0.4-1.8,1.1-2.5s1.6-1,2.7-1c1,0,1.9,0.3,2.7,1C27.4,22.2,27.8,23,27.8,24\"/>\n</svg>\n"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"action-eye-Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\"\r\n\t y=\"0px\" viewBox=\"0 0 48 48\" style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"action-eye-a_1_\" style=\"fill:#111111;\" d=\"M36.8,23.7c0.2,0.2,0.2,0.4,0,0.6c-0.2,0.3-0.4,0.5-0.6,0.7\r\n\tc-0.2,0.2-0.6,0.6-1.3,1.2c-0.6,0.6-1.3,1.2-2.1,1.6c-0.7,0.5-1.6,1-2.5,1.5s-2,0.9-3.1,1.2c-1,0.3-2.1,0.5-3.2,0.5\r\n\tc-1.3,0-2.7-0.2-4-0.7c-1.3-0.5-2.5-1-3.4-1.5c-1-0.6-1.9-1.3-2.8-2c-1-0.8-1.6-1.3-1.8-1.6c-0.4-0.3-0.6-0.6-0.9-0.9\r\n\tc-0.1-0.2-0.1-0.4,0-0.6c0.3-0.3,0.5-0.6,0.8-0.9c0.3-0.3,0.9-0.8,1.8-1.6c0.9-0.7,1.8-1.4,2.8-2c1-0.5,2.1-1,3.5-1.5s2.7-0.7,4-0.7\r\n\ts2.7,0.2,4,0.7c1.4,0.5,2.5,1,3.5,1.6c1,0.6,1.9,1.2,2.8,1.9c0.9,0.7,1.5,1.3,1.9,1.7C36.5,23.3,36.7,23.6,36.8,23.7 M24,28.5\r\n\tc1.4,0,2.5-0.4,3.4-1.3c0.9-0.9,1.4-1.9,1.4-3.2s-0.5-2.3-1.4-3.2c-0.9-0.9-2.1-1.3-3.4-1.3c-1.4,0-2.5,0.4-3.4,1.3\r\n\tc-1,0.9-1.5,1.9-1.5,3.2s0.5,2.3,1.4,3.2C21.4,28.1,22.6,28.5,24,28.5 M27.8,24c0,1-0.4,1.8-1.1,2.5c-0.7,0.7-1.6,1-2.7,1\r\n\tc-1,0-1.9-0.3-2.7-1c-0.7-0.7-1.1-1.5-1.1-2.5s0.4-1.8,1.1-2.5s1.6-1,2.7-1c1,0,1.9,0.3,2.7,1C27.4,22.2,27.8,23,27.8,24\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "Oiyx":
 /***/ (function(module, exports) {
 
-module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<svg version=\"1.1\" id=\"icon_x2F_Social_x2F_twitter-fill-Layer_1\"\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\n<path id=\"icon_x2F_Social_x2F_twitter-fill-path-1_1_\" style=\"fill:#111111;\" d=\"M24,8C15.2,8,8,15.2,8,24s7.2,16,16,16\n\ts16-7.2,16-16S32.8,8,24,8z M32.3,20.3v0.5c0,5.3-4.1,11.5-11.5,11.5c-2.3,0-4.4-0.7-6.2-1.8c0.3,0,0.6,0.1,1,0.1\n\tc1.9,0,3.6-0.6,5-1.7c-1.8,0-3.3-1.2-3.8-2.8c0.2,0,0.5,0.1,0.8,0.1c0.4,0,0.7,0,1.1-0.1c-1.8-0.4-3.2-2-3.2-4V22\n\tc0.5,0.3,1.2,0.5,1.8,0.5c-1.1-0.7-1.8-2-1.8-3.4c0-0.7,0.2-1.4,0.5-2c2,2.4,5,4.1,8.3,4.2c-0.1-0.3-0.1-0.6-0.1-0.9\n\tc0-2.2,1.8-4,4-4c1.2,0,2.2,0.5,2.9,1.3c0.9-0.2,1.8-0.5,2.6-1c-0.3,0.9-0.9,1.7-1.8,2.2c0.8-0.1,1.6-0.3,2.3-0.6\n\tC33.8,19,33.1,19.7,32.3,20.3z\"/>\n</svg>\n"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"icon_x2F_Social_x2F_twitter-fill-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"icon_x2F_Social_x2F_twitter-fill-path-1_1_\" style=\"fill:#111111;\" d=\"M24,8C15.2,8,8,15.2,8,24s7.2,16,16,16\r\n\ts16-7.2,16-16S32.8,8,24,8z M32.3,20.3v0.5c0,5.3-4.1,11.5-11.5,11.5c-2.3,0-4.4-0.7-6.2-1.8c0.3,0,0.6,0.1,1,0.1\r\n\tc1.9,0,3.6-0.6,5-1.7c-1.8,0-3.3-1.2-3.8-2.8c0.2,0,0.5,0.1,0.8,0.1c0.4,0,0.7,0,1.1-0.1c-1.8-0.4-3.2-2-3.2-4V22\r\n\tc0.5,0.3,1.2,0.5,1.8,0.5c-1.1-0.7-1.8-2-1.8-3.4c0-0.7,0.2-1.4,0.5-2c2,2.4,5,4.1,8.3,4.2c-0.1-0.3-0.1-0.6-0.1-0.9\r\n\tc0-2.2,1.8-4,4-4c1.2,0,2.2,0.5,2.9,1.3c0.9-0.2,1.8-0.5,2.6-1c-0.3,0.9-0.9,1.7-1.8,2.2c0.8-0.1,1.6-0.3,2.3-0.6\r\n\tC33.8,19,33.1,19.7,32.3,20.3z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "Q4Th":
 /***/ (function(module, exports) {
 
-module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<svg version=\"1.1\" id=\"icon_x2F_Utility_x2F_recycle-Layer_1\"\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\n<path id=\"icon_x2F_Utility_x2F_recycle-path-1_1_\" style=\"fill:#333333;\" d=\"M26.9,18.7l1.1,0.4l-2.8-4.9c-0.3-0.4-0.7-0.7-1.2-0.7\n\ts-1,0.3-1.2,0.7l-3.6,6.2c-0.1,0.2-0.4,0.4-0.6,0.4c-0.1,0-0.2,0-0.3-0.1c-0.4-0.2-0.5-0.7-0.3-1l3.6-6.3C22,12.5,23,12,24,12\n\ts1.9,0.5,2.4,1.4l2.8,4.9l0.3-1.1c0.1-0.4,0.5-0.6,0.9-0.5c0.4,0.1,0.6,0.5,0.5,0.9l-0.8,2.8c0,0.2-0.2,0.3-0.3,0.4\n\tc-0.1,0.1-0.2,0.1-0.3,0.1h-0.2l-2.7-0.8c-0.5-0.1-0.7-0.5-0.6-0.9C26.1,18.9,26.5,18.6,26.9,18.7z M35.6,29.7c0.5,0.9,0.5,2,0,2.9\n\tc-0.5,0.9-1.4,1.4-2.4,1.4h-5.6l0.8,0.8c0.3,0.3,0.3,0.7,0,1c-0.1,0.1-0.3,0.2-0.5,0.2s-0.4-0.1-0.5-0.2l-2-2.1\n\tc-0.1-0.1-0.2-0.3-0.2-0.5c0-0.2,0.1-0.4,0.2-0.5l2-2c0.3-0.3,0.7-0.3,1,0s0.3,0.7,0,1l-0.8,0.8h5.6c0.5,0,1-0.3,1.2-0.7\n\tc0.3-0.4,0.3-1,0-1.4l-3.6-6.3c-0.2-0.3-0.1-0.8,0.3-1c0.3-0.2,0.8-0.1,0.9,0.3C32,23.4,35.6,29.7,35.6,29.7z M21.9,32.7\n\tc0.4,0,0.7,0.3,0.7,0.7s-0.3,0.7-0.7,0.7h-7.1c-1,0-1.9-0.5-2.4-1.4c-0.5-0.9-0.5-2,0-2.9l2.8-4.9l-1.1,0.3\n\tc-0.4,0.1-0.8-0.1-0.8-0.5c-0.1-0.4,0.1-0.8,0.5-0.9l2.7-0.7c0.2,0,0.4,0,0.5,0.1c0.2,0.1,0.3,0.3,0.3,0.4l0.7,2.8\n\tc0.1,0.4-0.1,0.8-0.5,0.9h-0.2c-0.3,0-0.6-0.2-0.7-0.5l-0.3-1.1l-2.8,4.9c-0.3,0.4-0.3,1,0,1.4c0.3,0.4,0.7,0.7,1.2,0.7\n\tC14.7,32.7,21.9,32.7,21.9,32.7z\"/>\n</svg>\n"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"icon_x2F_Utility_x2F_recycle-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"icon_x2F_Utility_x2F_recycle-path-1_1_\" style=\"fill:#333333;\" d=\"M26.9,18.7l1.1,0.4l-2.8-4.9c-0.3-0.4-0.7-0.7-1.2-0.7\r\n\ts-1,0.3-1.2,0.7l-3.6,6.2c-0.1,0.2-0.4,0.4-0.6,0.4c-0.1,0-0.2,0-0.3-0.1c-0.4-0.2-0.5-0.7-0.3-1l3.6-6.3C22,12.5,23,12,24,12\r\n\ts1.9,0.5,2.4,1.4l2.8,4.9l0.3-1.1c0.1-0.4,0.5-0.6,0.9-0.5c0.4,0.1,0.6,0.5,0.5,0.9l-0.8,2.8c0,0.2-0.2,0.3-0.3,0.4\r\n\tc-0.1,0.1-0.2,0.1-0.3,0.1h-0.2l-2.7-0.8c-0.5-0.1-0.7-0.5-0.6-0.9C26.1,18.9,26.5,18.6,26.9,18.7z M35.6,29.7c0.5,0.9,0.5,2,0,2.9\r\n\tc-0.5,0.9-1.4,1.4-2.4,1.4h-5.6l0.8,0.8c0.3,0.3,0.3,0.7,0,1c-0.1,0.1-0.3,0.2-0.5,0.2s-0.4-0.1-0.5-0.2l-2-2.1\r\n\tc-0.1-0.1-0.2-0.3-0.2-0.5c0-0.2,0.1-0.4,0.2-0.5l2-2c0.3-0.3,0.7-0.3,1,0s0.3,0.7,0,1l-0.8,0.8h5.6c0.5,0,1-0.3,1.2-0.7\r\n\tc0.3-0.4,0.3-1,0-1.4l-3.6-6.3c-0.2-0.3-0.1-0.8,0.3-1c0.3-0.2,0.8-0.1,0.9,0.3C32,23.4,35.6,29.7,35.6,29.7z M21.9,32.7\r\n\tc0.4,0,0.7,0.3,0.7,0.7s-0.3,0.7-0.7,0.7h-7.1c-1,0-1.9-0.5-2.4-1.4c-0.5-0.9-0.5-2,0-2.9l2.8-4.9l-1.1,0.3\r\n\tc-0.4,0.1-0.8-0.1-0.8-0.5c-0.1-0.4,0.1-0.8,0.5-0.9l2.7-0.7c0.2,0,0.4,0,0.5,0.1c0.2,0.1,0.3,0.3,0.3,0.4l0.7,2.8\r\n\tc0.1,0.4-0.1,0.8-0.5,0.9h-0.2c-0.3,0-0.6-0.2-0.7-0.5l-0.3-1.1l-2.8,4.9c-0.3,0.4-0.3,1,0,1.4c0.3,0.4,0.7,0.7,1.2,0.7\r\n\tC14.7,32.7,21.9,32.7,21.9,32.7z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "QJkO":
 /***/ (function(module, exports) {
 
-module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<svg version=\"1.1\" id=\"icon_x2F_Nav_x2F_collapse-right-Layer_1\"\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\n<path id=\"icon_x2F_Nav_x2F_collapse-right-path-1_1_\" style=\"fill:#111111;\" d=\"M26.2,25l-4.5,4.3c-0.4,0.4-0.4,1,0,1.4\n\tc0.4,0.4,1.1,0.4,1.5,0l6.3-6c0.4-0.4,0.4-1,0-1.4l-6.3-6c-0.4-0.4-1.1-0.4-1.5,0c-0.4,0.4-0.4,1,0,1.4l4.5,4.3H14c-0.5,0-1,0.4-1,1\n\ts0.5,1,1,1H26.2z M32.9,17c0-0.6,0.5-1,1-1s1,0.4,1,1v14c0,0.6-0.5,1-1,1s-1-0.4-1-1V17z\"/>\n</svg>\n"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"icon_x2F_Nav_x2F_collapse-right-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"icon_x2F_Nav_x2F_collapse-right-path-1_1_\" style=\"fill:#111111;\" d=\"M26.2,25l-4.5,4.3c-0.4,0.4-0.4,1,0,1.4\r\n\tc0.4,0.4,1.1,0.4,1.5,0l6.3-6c0.4-0.4,0.4-1,0-1.4l-6.3-6c-0.4-0.4-1.1-0.4-1.5,0c-0.4,0.4-0.4,1,0,1.4l4.5,4.3H14c-0.5,0-1,0.4-1,1\r\n\ts0.5,1,1,1H26.2z M32.9,17c0-0.6,0.5-1,1-1s1,0.4,1,1v14c0,0.6-0.5,1-1,1s-1-0.4-1-1V17z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
@@ -23334,56 +23754,56 @@ module.exports = "<svg id=\"payment-card-amex-Layer_1\" xmlns=\"http://www.w3.or
 /***/ "Qmz5":
 /***/ (function(module, exports) {
 
-module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<svg version=\"1.1\" id=\"logo-jcpenney\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\"\n\t viewBox=\"0 0 150 35\" style=\"enable-background:new 0 0 150 35;\" xml:space=\"preserve\">\n<path id=\"logo-jcpenney-path\" style=\"fill:#111111;\" d=\"M14.6,19.2c0,2.2-0.3,3.8-0.9,5c-1.2,2.2-3.4,3.3-6.7,3.3c-1.9,0-3.5-0.5-4.8-1.6\n\tc-1.3-1-2-2.9-2-5.6v-1.8h3.2v1.8c0,1.4,0.3,2.4,0.9,3.1c0.6,0.7,1.6,1.1,2.9,1.1c1.8,0,3-0.6,3.6-1.9c0.3-0.8,0.5-2.3,0.5-4.4V1.2\n\th3.4C14.6,1.2,14.6,19.2,14.6,19.2z M36.2,3.1c1.8,1.7,2.7,3.7,2.9,5.8h-3.3c-0.4-1.7-1.1-3-2.3-3.9c-1.1-1-2.7-1.4-4.8-1.4\n\tc-2.5,0-4.5,0.9-6,2.7c-1.5,1.8-2.3,4.5-2.3,8.2c0,3,0.7,5.4,2.1,7.3c1.4,1.9,3.4,2.8,6.2,2.8c2.5,0,4.4-1,5.8-3\n\tc0.7-1,1.2-2.4,1.6-4.1h3.3c-0.3,2.7-1.3,5-3,6.8c-2,2.2-4.7,3.3-8.1,3.3c-2.9,0-5.4-0.9-7.4-2.7c-2.6-2.4-3.9-6.1-3.9-11\n\tc0-3.8,1-6.9,3-9.3C22,1.8,25,0.5,28.7,0.5C31.9,0.5,34.4,1.4,36.2,3.1z M42.1,1.2h11.4c2.2,0,4.1,0.6,5.4,1.9s2.1,3.1,2.1,5.4\n\tc0,2-0.6,3.7-1.8,5.2C57.8,15.3,56,16,53.4,16h-7.9v10.8h-3.4V1.2z M55.4,4.7c-0.8-0.4-1.8-0.5-3.1-0.5h-6.8v8.9h6.8\n\tc1.5,0,2.8-0.3,3.7-1c1-0.7,1.4-1.8,1.4-3.5C57.4,6.7,56.8,5.4,55.4,4.7L55.4,4.7z M74.5,8.7c1.2,0.6,2.2,1.4,2.8,2.4\n\tc0.6,0.9,1,2,1.2,3.3c0.2,0.9,0.3,2.2,0.3,4.1H65.3c0.1,1.9,0.5,3.4,1.3,4.6c0.8,1.1,2.1,1.7,3.8,1.7c1.6,0,2.9-0.5,3.9-1.6\n\tc0.6-0.6,0.9-1.4,1.2-2.2h3c-0.1,0.7-0.3,1.5-0.8,2.3c-0.5,0.8-1,1.5-1.5,2.1c-0.9,0.9-2.1,1.6-3.5,1.9c-0.7,0.2-1.6,0.3-2.5,0.3\n\tc-2.3,0-4.2-0.8-5.8-2.5c-1.6-1.7-2.4-4.1-2.4-7.1c0-3,0.8-5.4,2.4-7.3c1.6-1.9,3.7-2.8,6.3-2.8C72,7.7,73.3,8,74.5,8.7L74.5,8.7z\n\t M75.6,16c-0.1-1.4-0.4-2.4-0.9-3.3c-0.8-1.5-2.3-2.3-4.2-2.3c-1.4,0-2.6,0.5-3.6,1.6c-1,1-1.5,2.4-1.5,4H75.6z M80.8,8.1h2.9v2.7\n\tc0.9-1.1,1.8-1.9,2.8-2.4c1-0.5,2.1-0.7,3.2-0.7c2.6,0,4.4,0.9,5.3,2.8c0.5,1,0.8,2.5,0.8,4.3v12h-3.1V15.1c0-1.1-0.2-2.1-0.5-2.8\n\tc-0.6-1.2-1.5-1.7-3-1.7c-0.7,0-1.3,0.1-1.8,0.2c-0.8,0.3-1.6,0.8-2.2,1.5c-0.5,0.6-0.8,1.3-1,1.9c-0.2,0.7-0.2,1.6-0.2,2.8v9.8\n\th-3.1V8.1L80.8,8.1z M98.6,8.1h2.9v2.7c0.9-1.1,1.8-1.9,2.8-2.4c1-0.5,2.1-0.7,3.2-0.7c2.6,0,4.4,0.9,5.3,2.8c0.5,1,0.8,2.5,0.8,4.3\n\tv12h-3.1V15.1c0-1.1-0.2-2.1-0.5-2.8c-0.6-1.2-1.5-1.7-3-1.7c-0.7,0-1.3,0.1-1.8,0.2c-0.8,0.3-1.6,0.8-2.2,1.5\n\tc-0.5,0.6-0.8,1.3-1,1.9c-0.2,0.7-0.2,1.6-0.2,2.8v9.8h-3.1L98.6,8.1L98.6,8.1z M127.9,8.7c1.2,0.6,2.2,1.4,2.8,2.4\n\tc0.6,0.9,1,2,1.2,3.3c0.2,0.9,0.3,2.2,0.3,4.1h-13.5c0.1,1.9,0.5,3.4,1.3,4.6c0.8,1.1,2.1,1.7,3.8,1.7c1.6,0,2.9-0.5,3.9-1.6\n\tc0.6-0.6,0.9-1.4,1.2-2.2h3c-0.1,0.7-0.3,1.5-0.8,2.3c-0.5,0.8-1,1.5-1.5,2.1c-0.9,0.9-2.1,1.6-3.5,1.9c-0.7,0.2-1.6,0.3-2.5,0.3\n\tc-2.3,0-4.2-0.8-5.8-2.5c-1.6-1.7-2.4-4.1-2.4-7.1c0-3,0.8-5.4,2.4-7.3c1.6-1.9,3.7-2.8,6.3-2.8C125.4,7.7,126.7,8,127.9,8.7z\n\t M129,16c-0.1-1.4-0.4-2.4-0.9-3.3c-0.8-1.5-2.3-2.3-4.2-2.3c-1.4,0-2.6,0.5-3.6,1.6s-1.5,2.4-1.5,4H129z M145.7,8.1h3.4\n\tc-0.4,1.2-1.4,3.9-2.9,8.2c-0.9,2.6-1.9,5.2-2.8,7.9c-1.8,4.8-3,7.7-3.8,8.7c-0.7,1-2,1.6-3.8,1.6c-0.3,0-0.7,0-1-0.1\n\tc-0.3,0-0.6-0.1-0.9-0.2v-2.9c0.5,0.2,0.9,0.2,1.2,0.3c0.2,0,0.5,0.1,0.6,0.1c0.6,0,1-0.1,1.3-0.3c0.3-0.2,0.5-0.4,0.7-0.7\n\tc0.1-0.1,0.3-0.6,0.6-1.4s0.6-1.5,0.8-1.9l-6.8-19.2h3.5l4.9,15.2L145.7,8.1L145.7,8.1z\"/>\n</svg>\n"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"logo-jcpenney\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\"\r\n\t viewBox=\"0 0 150 35\" style=\"enable-background:new 0 0 150 35;\" xml:space=\"preserve\">\r\n<path id=\"logo-jcpenney-path\" style=\"fill:#111111;\" d=\"M14.6,19.2c0,2.2-0.3,3.8-0.9,5c-1.2,2.2-3.4,3.3-6.7,3.3c-1.9,0-3.5-0.5-4.8-1.6\r\n\tc-1.3-1-2-2.9-2-5.6v-1.8h3.2v1.8c0,1.4,0.3,2.4,0.9,3.1c0.6,0.7,1.6,1.1,2.9,1.1c1.8,0,3-0.6,3.6-1.9c0.3-0.8,0.5-2.3,0.5-4.4V1.2\r\n\th3.4C14.6,1.2,14.6,19.2,14.6,19.2z M36.2,3.1c1.8,1.7,2.7,3.7,2.9,5.8h-3.3c-0.4-1.7-1.1-3-2.3-3.9c-1.1-1-2.7-1.4-4.8-1.4\r\n\tc-2.5,0-4.5,0.9-6,2.7c-1.5,1.8-2.3,4.5-2.3,8.2c0,3,0.7,5.4,2.1,7.3c1.4,1.9,3.4,2.8,6.2,2.8c2.5,0,4.4-1,5.8-3\r\n\tc0.7-1,1.2-2.4,1.6-4.1h3.3c-0.3,2.7-1.3,5-3,6.8c-2,2.2-4.7,3.3-8.1,3.3c-2.9,0-5.4-0.9-7.4-2.7c-2.6-2.4-3.9-6.1-3.9-11\r\n\tc0-3.8,1-6.9,3-9.3C22,1.8,25,0.5,28.7,0.5C31.9,0.5,34.4,1.4,36.2,3.1z M42.1,1.2h11.4c2.2,0,4.1,0.6,5.4,1.9s2.1,3.1,2.1,5.4\r\n\tc0,2-0.6,3.7-1.8,5.2C57.8,15.3,56,16,53.4,16h-7.9v10.8h-3.4V1.2z M55.4,4.7c-0.8-0.4-1.8-0.5-3.1-0.5h-6.8v8.9h6.8\r\n\tc1.5,0,2.8-0.3,3.7-1c1-0.7,1.4-1.8,1.4-3.5C57.4,6.7,56.8,5.4,55.4,4.7L55.4,4.7z M74.5,8.7c1.2,0.6,2.2,1.4,2.8,2.4\r\n\tc0.6,0.9,1,2,1.2,3.3c0.2,0.9,0.3,2.2,0.3,4.1H65.3c0.1,1.9,0.5,3.4,1.3,4.6c0.8,1.1,2.1,1.7,3.8,1.7c1.6,0,2.9-0.5,3.9-1.6\r\n\tc0.6-0.6,0.9-1.4,1.2-2.2h3c-0.1,0.7-0.3,1.5-0.8,2.3c-0.5,0.8-1,1.5-1.5,2.1c-0.9,0.9-2.1,1.6-3.5,1.9c-0.7,0.2-1.6,0.3-2.5,0.3\r\n\tc-2.3,0-4.2-0.8-5.8-2.5c-1.6-1.7-2.4-4.1-2.4-7.1c0-3,0.8-5.4,2.4-7.3c1.6-1.9,3.7-2.8,6.3-2.8C72,7.7,73.3,8,74.5,8.7L74.5,8.7z\r\n\t M75.6,16c-0.1-1.4-0.4-2.4-0.9-3.3c-0.8-1.5-2.3-2.3-4.2-2.3c-1.4,0-2.6,0.5-3.6,1.6c-1,1-1.5,2.4-1.5,4H75.6z M80.8,8.1h2.9v2.7\r\n\tc0.9-1.1,1.8-1.9,2.8-2.4c1-0.5,2.1-0.7,3.2-0.7c2.6,0,4.4,0.9,5.3,2.8c0.5,1,0.8,2.5,0.8,4.3v12h-3.1V15.1c0-1.1-0.2-2.1-0.5-2.8\r\n\tc-0.6-1.2-1.5-1.7-3-1.7c-0.7,0-1.3,0.1-1.8,0.2c-0.8,0.3-1.6,0.8-2.2,1.5c-0.5,0.6-0.8,1.3-1,1.9c-0.2,0.7-0.2,1.6-0.2,2.8v9.8\r\n\th-3.1V8.1L80.8,8.1z M98.6,8.1h2.9v2.7c0.9-1.1,1.8-1.9,2.8-2.4c1-0.5,2.1-0.7,3.2-0.7c2.6,0,4.4,0.9,5.3,2.8c0.5,1,0.8,2.5,0.8,4.3\r\n\tv12h-3.1V15.1c0-1.1-0.2-2.1-0.5-2.8c-0.6-1.2-1.5-1.7-3-1.7c-0.7,0-1.3,0.1-1.8,0.2c-0.8,0.3-1.6,0.8-2.2,1.5\r\n\tc-0.5,0.6-0.8,1.3-1,1.9c-0.2,0.7-0.2,1.6-0.2,2.8v9.8h-3.1L98.6,8.1L98.6,8.1z M127.9,8.7c1.2,0.6,2.2,1.4,2.8,2.4\r\n\tc0.6,0.9,1,2,1.2,3.3c0.2,0.9,0.3,2.2,0.3,4.1h-13.5c0.1,1.9,0.5,3.4,1.3,4.6c0.8,1.1,2.1,1.7,3.8,1.7c1.6,0,2.9-0.5,3.9-1.6\r\n\tc0.6-0.6,0.9-1.4,1.2-2.2h3c-0.1,0.7-0.3,1.5-0.8,2.3c-0.5,0.8-1,1.5-1.5,2.1c-0.9,0.9-2.1,1.6-3.5,1.9c-0.7,0.2-1.6,0.3-2.5,0.3\r\n\tc-2.3,0-4.2-0.8-5.8-2.5c-1.6-1.7-2.4-4.1-2.4-7.1c0-3,0.8-5.4,2.4-7.3c1.6-1.9,3.7-2.8,6.3-2.8C125.4,7.7,126.7,8,127.9,8.7z\r\n\t M129,16c-0.1-1.4-0.4-2.4-0.9-3.3c-0.8-1.5-2.3-2.3-4.2-2.3c-1.4,0-2.6,0.5-3.6,1.6s-1.5,2.4-1.5,4H129z M145.7,8.1h3.4\r\n\tc-0.4,1.2-1.4,3.9-2.9,8.2c-0.9,2.6-1.9,5.2-2.8,7.9c-1.8,4.8-3,7.7-3.8,8.7c-0.7,1-2,1.6-3.8,1.6c-0.3,0-0.7,0-1-0.1\r\n\tc-0.3,0-0.6-0.1-0.9-0.2v-2.9c0.5,0.2,0.9,0.2,1.2,0.3c0.2,0,0.5,0.1,0.6,0.1c0.6,0,1-0.1,1.3-0.3c0.3-0.2,0.5-0.4,0.7-0.7\r\n\tc0.1-0.1,0.3-0.6,0.6-1.4s0.6-1.5,0.8-1.9l-6.8-19.2h3.5l4.9,15.2L145.7,8.1L145.7,8.1z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "REmY":
 /***/ (function(module, exports) {
 
-module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<svg version=\"1.1\" id=\"icon_x2F_Social_x2F_instagram-fill-Layer_1\"\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\n<path id=\"icon_x2F_Social_x2F_instagram-fill-path-1_1_\" style=\"fill:#111111;\" d=\"M24,40c-8.8,0-16-7.2-16-16S15.2,8,24,8\n\ts16,7.2,16,16S32.8,40,24,40z M24,16h-3.3c-0.9,0-1.4,0.2-1.9,0.4s-1,0.5-1.4,0.9c-0.4,0.4-0.7,0.9-0.9,1.4\n\tc-0.2,0.5-0.3,1.1-0.4,1.9v6.6c0,0.9,0.2,1.4,0.4,1.9c0.2,0.5,0.5,1,0.9,1.4c0.4,0.4,0.9,0.7,1.4,0.9c0.5,0.2,1.1,0.3,1.9,0.4h6.6\n\tc0.9,0,1.4-0.2,1.9-0.4s1-0.5,1.4-0.9s0.7-0.9,0.9-1.4c0.2-0.5,0.3-1.1,0.4-1.9v-3.3v-3.3c0-0.9-0.2-1.4-0.4-1.9s-0.5-1-0.9-1.4\n\ts-0.9-0.7-1.4-0.9s-1.1-0.3-1.9-0.4C27.3,16,24,16,24,16z M24,17.4h3.2c0.8,0,1.2,0.2,1.5,0.3c0.4,0.1,0.6,0.3,0.9,0.6\n\tc0.3,0.3,0.5,0.5,0.6,0.9c0.1,0.3,0.2,0.7,0.3,1.5v6.4c0,0.8-0.2,1.2-0.3,1.5c-0.1,0.4-0.3,0.6-0.6,0.9c-0.3,0.3-0.5,0.5-0.9,0.6\n\tc-0.3,0.1-0.7,0.2-1.5,0.3h-6.4c-0.8,0-1.2-0.2-1.5-0.3c-0.4-0.1-0.6-0.3-0.9-0.6c-0.3-0.3-0.5-0.5-0.6-0.9\n\tc-0.1-0.3-0.2-0.7-0.3-1.5v-3.2v-3.2c0-0.8,0.2-1.2,0.3-1.5c0.1-0.4,0.3-0.6,0.6-0.9c0.3-0.3,0.5-0.5,0.9-0.6\n\tc0.3-0.1,0.7-0.2,1.5-0.3C21.6,17.5,21.9,17.4,24,17.4z M24,19.9c-2.3,0-4.1,1.8-4.1,4.1s1.8,4.1,4.1,4.1s4.1-1.8,4.1-4.1\n\tS26.3,19.9,24,19.9z M29.2,19.7c0-0.5-0.4-1-1-1c-0.5,0-1,0.4-1,1c0,0.5,0.4,1,1,1S29.2,20.3,29.2,19.7z M24,26.7\n\tc-1.5,0-2.7-1.2-2.7-2.7s1.2-2.7,2.7-2.7s2.7,1.2,2.7,2.7S25.5,26.7,24,26.7z\"/>\n</svg>\n"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"icon_x2F_Social_x2F_instagram-fill-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"icon_x2F_Social_x2F_instagram-fill-path-1_1_\" style=\"fill:#111111;\" d=\"M24,40c-8.8,0-16-7.2-16-16S15.2,8,24,8\r\n\ts16,7.2,16,16S32.8,40,24,40z M24,16h-3.3c-0.9,0-1.4,0.2-1.9,0.4s-1,0.5-1.4,0.9c-0.4,0.4-0.7,0.9-0.9,1.4\r\n\tc-0.2,0.5-0.3,1.1-0.4,1.9v6.6c0,0.9,0.2,1.4,0.4,1.9c0.2,0.5,0.5,1,0.9,1.4c0.4,0.4,0.9,0.7,1.4,0.9c0.5,0.2,1.1,0.3,1.9,0.4h6.6\r\n\tc0.9,0,1.4-0.2,1.9-0.4s1-0.5,1.4-0.9s0.7-0.9,0.9-1.4c0.2-0.5,0.3-1.1,0.4-1.9v-3.3v-3.3c0-0.9-0.2-1.4-0.4-1.9s-0.5-1-0.9-1.4\r\n\ts-0.9-0.7-1.4-0.9s-1.1-0.3-1.9-0.4C27.3,16,24,16,24,16z M24,17.4h3.2c0.8,0,1.2,0.2,1.5,0.3c0.4,0.1,0.6,0.3,0.9,0.6\r\n\tc0.3,0.3,0.5,0.5,0.6,0.9c0.1,0.3,0.2,0.7,0.3,1.5v6.4c0,0.8-0.2,1.2-0.3,1.5c-0.1,0.4-0.3,0.6-0.6,0.9c-0.3,0.3-0.5,0.5-0.9,0.6\r\n\tc-0.3,0.1-0.7,0.2-1.5,0.3h-6.4c-0.8,0-1.2-0.2-1.5-0.3c-0.4-0.1-0.6-0.3-0.9-0.6c-0.3-0.3-0.5-0.5-0.6-0.9\r\n\tc-0.1-0.3-0.2-0.7-0.3-1.5v-3.2v-3.2c0-0.8,0.2-1.2,0.3-1.5c0.1-0.4,0.3-0.6,0.6-0.9c0.3-0.3,0.5-0.5,0.9-0.6\r\n\tc0.3-0.1,0.7-0.2,1.5-0.3C21.6,17.5,21.9,17.4,24,17.4z M24,19.9c-2.3,0-4.1,1.8-4.1,4.1s1.8,4.1,4.1,4.1s4.1-1.8,4.1-4.1\r\n\tS26.3,19.9,24,19.9z M29.2,19.7c0-0.5-0.4-1-1-1c-0.5,0-1,0.4-1,1c0,0.5,0.4,1,1,1S29.2,20.3,29.2,19.7z M24,26.7\r\n\tc-1.5,0-2.7-1.2-2.7-2.7s1.2-2.7,2.7-2.7s2.7,1.2,2.7,2.7S25.5,26.7,24,26.7z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "VlqD":
 /***/ (function(module, exports) {
 
-module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<svg version=\"1.1\" id=\"icon_x2F_Utility_x2F_Cart_Full_x2F_cart-Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\"\n\t viewBox=\"0 0 32 32\" style=\"enable-background:new 0 0 32 32;\" xml:space=\"preserve\">\n<path id=\"icon_x2F_Utility_x2F_Cart_Full_x2F_cart-Path-1\" style=\"fill:#FFFFFF;\" d=\"M24.3,19.4l1.7-9.7c0.1-0.5,0.6-0.9,1.1-0.8C27.7,9,28,9.4,28,10c0,0,0,0,0,0.1l-1.9,10.6\n\tc0,0,0,0,0,0.1c-0.1,0.5-0.5,0.8-1,0.8H10c-0.5,0-0.9-0.3-1-0.8c0,0,0,0,0-0.1L6.8,7.9h-3c-0.5,0-1-0.4-1-1c0-0.5,0.4-1,1-1h3.8\n\tc0.5,0,0.9,0.4,1,0.9l2.2,12.5H24.3L24.3,19.4z M12.3,27.5c-1.2,0-2.3-1-2.3-2.3s1-2.3,2.3-2.3s2.3,1,2.3,2.3S13.5,27.5,12.3,27.5z\n\t M22.3,27.5c-1.2,0-2.3-1-2.3-2.3s1-2.3,2.3-2.3s2.3,1,2.3,2.3S23.5,27.5,22.3,27.5z\"/>\n</svg>\n"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"icon_x2F_Utility_x2F_Cart_Full_x2F_cart-Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\"\r\n\t viewBox=\"0 0 32 32\" style=\"enable-background:new 0 0 32 32;\" xml:space=\"preserve\">\r\n<path id=\"icon_x2F_Utility_x2F_Cart_Full_x2F_cart-Path-1\" style=\"fill:#FFFFFF;\" d=\"M24.3,19.4l1.7-9.7c0.1-0.5,0.6-0.9,1.1-0.8C27.7,9,28,9.4,28,10c0,0,0,0,0,0.1l-1.9,10.6\r\n\tc0,0,0,0,0,0.1c-0.1,0.5-0.5,0.8-1,0.8H10c-0.5,0-0.9-0.3-1-0.8c0,0,0,0,0-0.1L6.8,7.9h-3c-0.5,0-1-0.4-1-1c0-0.5,0.4-1,1-1h3.8\r\n\tc0.5,0,0.9,0.4,1,0.9l2.2,12.5H24.3L24.3,19.4z M12.3,27.5c-1.2,0-2.3-1-2.3-2.3s1-2.3,2.3-2.3s2.3,1,2.3,2.3S13.5,27.5,12.3,27.5z\r\n\t M22.3,27.5c-1.2,0-2.3-1-2.3-2.3s1-2.3,2.3-2.3s2.3,1,2.3,2.3S23.5,27.5,22.3,27.5z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "Vx6E":
 /***/ (function(module, exports) {
 
-module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<svg version=\"1.1\" id=\"icon_x2F_Nav_x2F_plus-Layer_1\"\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\n<path id=\"icon_x2F_Nav_x2F_plus-path-1_1_\" style=\"fill:#111111;\" d=\"M25,23V12.4c0-0.8-0.4-1.4-1-1.4s-1,0.6-1,1.4V23H12.4\n\tc-0.8,0-1.4,0.4-1.4,1s0.6,1,1.4,1H23v10.6c0,0.8,0.4,1.4,1,1.4s1-0.6,1-1.4V25h10.6c0.8,0,1.4-0.4,1.4-1s-0.6-1-1.4-1H25z\"/>\n</svg>\n"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"icon_x2F_Nav_x2F_plus-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"icon_x2F_Nav_x2F_plus-path-1_1_\" style=\"fill:#111111;\" d=\"M25,23V12.4c0-0.8-0.4-1.4-1-1.4s-1,0.6-1,1.4V23H12.4\r\n\tc-0.8,0-1.4,0.4-1.4,1s0.6,1,1.4,1H23v10.6c0,0.8,0.4,1.4,1,1.4s1-0.6,1-1.4V25h10.6c0.8,0,1.4-0.4,1.4-1s-0.6-1-1.4-1H25z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "WBOg":
 /***/ (function(module, exports) {
 
-module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<svg version=\"1.1\" id=\"icon_x2F_Nav_x2F_chevron-left-Layer_1\"\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\n<path id=\"icon_x2F_Nav_x2F_chevron-left-path-1_1_\" style=\"fill:#111111;\" d=\"M29.7,12.7c0.4-0.4,0.4-1,0-1.4s-1-0.4-1.4,0l-12,12\n\tc-0.4,0.4-0.4,1,0,1.4l12,12c0.4,0.4,1,0.4,1.4,0s0.4-1,0-1.4L18.4,24L29.7,12.7z\"/>\n</svg>\n"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"icon_x2F_Nav_x2F_chevron-left-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"icon_x2F_Nav_x2F_chevron-left-path-1_1_\" style=\"fill:#111111;\" d=\"M29.7,12.7c0.4-0.4,0.4-1,0-1.4s-1-0.4-1.4,0l-12,12\r\n\tc-0.4,0.4-0.4,1,0,1.4l12,12c0.4,0.4,1,0.4,1.4,0s0.4-1,0-1.4L18.4,24L29.7,12.7z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "WJSt":
 /***/ (function(module, exports) {
 
-module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<svg version=\"1.1\" id=\"icon_x2F_Utility_x2F_ruler-Layer_1\"\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\n<path id=\"icon_x2F_Utility_x2F_ruler-path-1_1_\" style=\"fill:#111111;\" d=\"M35.8,18.7l-6.5-6.5c-0.2-0.2-0.6-0.2-0.8,0L12.2,28.4\n\tc-0.1,0.1-0.2,0.3-0.2,0.5s0.1,0.3,0.2,0.4l6.5,6.5c0.1,0.1,0.3,0.2,0.4,0.2s0.3-0.1,0.4-0.2l1.8-1.8l-4-4c-0.2-0.2-0.2-0.6,0-0.8\n\tc0.2-0.2,0.6-0.2,0.8,0l4,4l2.1-2.1l-2.8-2.8c-0.2-0.2-0.2-0.6,0-0.8c0.2-0.2,0.6-0.2,0.8,0l2.8,2.8l2.1-2.1l-4-4\n\tc-0.2-0.2-0.2-0.6,0-0.8c0.2-0.2,0.6-0.2,0.8,0l4,4l2.1-2.1l-2.8-2.8c-0.2-0.2-0.2-0.6,0-0.8c0.2-0.2,0.6-0.2,0.8,0l2.8,2.8l2.1-2.1\n\tl-4-4c-0.2-0.2-0.2-0.6,0-0.8c0.2-0.2,0.6-0.2,0.8,0l4,4l1.8-1.8c0.4-0.3,0.5-0.5,0.5-0.7C36,19,35.9,18.8,35.8,18.7\"/>\n</svg>\n"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"icon_x2F_Utility_x2F_ruler-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"icon_x2F_Utility_x2F_ruler-path-1_1_\" style=\"fill:#111111;\" d=\"M35.8,18.7l-6.5-6.5c-0.2-0.2-0.6-0.2-0.8,0L12.2,28.4\r\n\tc-0.1,0.1-0.2,0.3-0.2,0.5s0.1,0.3,0.2,0.4l6.5,6.5c0.1,0.1,0.3,0.2,0.4,0.2s0.3-0.1,0.4-0.2l1.8-1.8l-4-4c-0.2-0.2-0.2-0.6,0-0.8\r\n\tc0.2-0.2,0.6-0.2,0.8,0l4,4l2.1-2.1l-2.8-2.8c-0.2-0.2-0.2-0.6,0-0.8c0.2-0.2,0.6-0.2,0.8,0l2.8,2.8l2.1-2.1l-4-4\r\n\tc-0.2-0.2-0.2-0.6,0-0.8c0.2-0.2,0.6-0.2,0.8,0l4,4l2.1-2.1l-2.8-2.8c-0.2-0.2-0.2-0.6,0-0.8c0.2-0.2,0.6-0.2,0.8,0l2.8,2.8l2.1-2.1\r\n\tl-4-4c-0.2-0.2-0.2-0.6,0-0.8c0.2-0.2,0.6-0.2,0.8,0l4,4l1.8-1.8c0.4-0.3,0.5-0.5,0.5-0.7C36,19,35.9,18.8,35.8,18.7\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "X9c8":
 /***/ (function(module, exports) {
 
-module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\"\n\t viewBox=\"0 0 48 48\" style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\n<path id=\"path-1_1_\" style=\"fill:#111111;\" d=\"M24,8c8.8,0,16,7.2,16,16s-7.2,16-16,16S8,32.8,8,24S15.2,8,24,8z M28.5,18.2v-2.7\n\tc-0.3,0-1.2-0.1-2.4-0.1c-2.3,0-3.9,1.4-3.9,4v2.3h-2.6v3.1h2.6v7.9h3.2v-7.9H28l0.4-3.1h-3v-2c0-0.9,0.2-1.5,1.5-1.5\n\tC26.9,18.2,28.5,18.2,28.5,18.2z\"/>\n</svg>\n"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\"\r\n\t viewBox=\"0 0 48 48\" style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"path-1_1_\" style=\"fill:#111111;\" d=\"M24,8c8.8,0,16,7.2,16,16s-7.2,16-16,16S8,32.8,8,24S15.2,8,24,8z M28.5,18.2v-2.7\r\n\tc-0.3,0-1.2-0.1-2.4-0.1c-2.3,0-3.9,1.4-3.9,4v2.3h-2.6v3.1h2.6v7.9h3.2v-7.9H28l0.4-3.1h-3v-2c0-0.9,0.2-1.5,1.5-1.5\r\n\tC26.9,18.2,28.5,18.2,28.5,18.2z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "XLDm":
 /***/ (function(module, exports) {
 
-module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<svg version=\"1.1\" id=\"icon_x2F_Utility_x2F_clip-Layer_1\"\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\n<path id=\"icon_x2F_Utility_x2F_clip-path-1_1_\" style=\"fill:#111111;\" d=\"M31.5,18.3c0,0-1.1-1.2-2.6-1.2h-0.3\n\tc-1.8,0.3-4.6,1.5-9,4.9l-1.3-1.2c1.3-1.7,0.2-4.3-0.8-5.3c-0.9-1-2.2-1.5-3.3-1.5c-0.7,0-1.4,0.2-1.9,0.6c-0.9,0.6-2.8,4,1.3,7.5\n\tl2.8,2.4c0,0-4.1,3-5,4.9c-0.5,1.1-0.5,2.2-0.1,3c0.1,0.1,0.3,0.5,0.4,0.7c0.5,0.6,1.4,1,2.4,1c0.9,0,2-0.3,3.1-1.1\n\tc2.5-2.2,1.5-5,1.5-5l0.9-0.7l1.1,0.9c0.2,0.2,0.5,0.4,1.1,0.4h5l-4-3.6L31.5,18.3z M16.3,20c-0.2,0.1-0.5,0.2-0.8,0.2\n\tc-0.6,0-1.4-0.5-1.9-1.2c-0.8-1.1-0.9-2.2-0.2-2.7c0.2-0.2,0.5-0.3,0.8-0.3c0.6,0,1.4,0.5,1.9,1.2C16.9,18.3,17,19.4,16.3,20z\n\t M16.1,31.1c-0.6,0.6-1.3,1-1.9,1c-0.3,0-0.6-0.1-0.8-0.3c-0.6-0.6-0.5-1.7,0.4-2.7c0.6-0.6,1.3-1,1.9-1c0.3,0,0.6,0.1,0.8,0.3\n\tC17.2,28.9,17,30.1,16.1,31.1z M36.3,28.5h-1.5c-0.4,0-0.7-0.3-0.7-0.6s0.3-0.6,0.7-0.6h1.5c0.4,0,0.7,0.3,0.7,0.6\n\tS36.7,28.5,36.3,28.5z M32.8,28.5h-1.5c-0.4,0-0.7-0.3-0.7-0.6s0.3-0.6,0.7-0.6h1.5c0.4,0,0.7,0.3,0.7,0.6\n\tC33.4,28.2,33.1,28.5,32.8,28.5z M29.2,28.5h-1.5c-0.4,0-0.7-0.3-0.7-0.6s0.3-0.6,0.7-0.6h1.5c0.4,0,0.7,0.3,0.7,0.6\n\tC29.8,28.2,29.6,28.5,29.2,28.5z\"/>\n</svg>\n"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"icon_x2F_Utility_x2F_clip-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"icon_x2F_Utility_x2F_clip-path-1_1_\" style=\"fill:#111111;\" d=\"M31.5,18.3c0,0-1.1-1.2-2.6-1.2h-0.3\r\n\tc-1.8,0.3-4.6,1.5-9,4.9l-1.3-1.2c1.3-1.7,0.2-4.3-0.8-5.3c-0.9-1-2.2-1.5-3.3-1.5c-0.7,0-1.4,0.2-1.9,0.6c-0.9,0.6-2.8,4,1.3,7.5\r\n\tl2.8,2.4c0,0-4.1,3-5,4.9c-0.5,1.1-0.5,2.2-0.1,3c0.1,0.1,0.3,0.5,0.4,0.7c0.5,0.6,1.4,1,2.4,1c0.9,0,2-0.3,3.1-1.1\r\n\tc2.5-2.2,1.5-5,1.5-5l0.9-0.7l1.1,0.9c0.2,0.2,0.5,0.4,1.1,0.4h5l-4-3.6L31.5,18.3z M16.3,20c-0.2,0.1-0.5,0.2-0.8,0.2\r\n\tc-0.6,0-1.4-0.5-1.9-1.2c-0.8-1.1-0.9-2.2-0.2-2.7c0.2-0.2,0.5-0.3,0.8-0.3c0.6,0,1.4,0.5,1.9,1.2C16.9,18.3,17,19.4,16.3,20z\r\n\t M16.1,31.1c-0.6,0.6-1.3,1-1.9,1c-0.3,0-0.6-0.1-0.8-0.3c-0.6-0.6-0.5-1.7,0.4-2.7c0.6-0.6,1.3-1,1.9-1c0.3,0,0.6,0.1,0.8,0.3\r\n\tC17.2,28.9,17,30.1,16.1,31.1z M36.3,28.5h-1.5c-0.4,0-0.7-0.3-0.7-0.6s0.3-0.6,0.7-0.6h1.5c0.4,0,0.7,0.3,0.7,0.6\r\n\tS36.7,28.5,36.3,28.5z M32.8,28.5h-1.5c-0.4,0-0.7-0.3-0.7-0.6s0.3-0.6,0.7-0.6h1.5c0.4,0,0.7,0.3,0.7,0.6\r\n\tC33.4,28.2,33.1,28.5,32.8,28.5z M29.2,28.5h-1.5c-0.4,0-0.7-0.3-0.7-0.6s0.3-0.6,0.7-0.6h1.5c0.4,0,0.7,0.3,0.7,0.6\r\n\tC29.8,28.2,29.6,28.5,29.2,28.5z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
@@ -23397,56 +23817,56 @@ module.exports = "<svg id=\"payment-card-gift-Layer_1\" xmlns=\"http://www.w3.or
 /***/ "Yvnt":
 /***/ (function(module, exports) {
 
-module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<svg version=\"1.1\" id=\"icon_x2F_Nav_x2F_chevron-down-Layer_1\"\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\n<path id=\"icon_x2F_Nav_x2F_chevron-down-path-1_1_\" style=\"fill:#111111;\" d=\"M12.7,17.3c-0.4-0.4-1-0.4-1.4,0c-0.4,0.4-0.4,1,0,1.4\n\tl12,12c0.4,0.4,1,0.4,1.4,0l12-12c0.4-0.4,0.4-1,0-1.4c-0.4-0.4-1-0.4-1.4,0L24,28.6L12.7,17.3z\"/>\n</svg>\n"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"icon_x2F_Nav_x2F_chevron-down-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"icon_x2F_Nav_x2F_chevron-down-path-1_1_\" style=\"fill:#111111;\" d=\"M12.7,17.3c-0.4-0.4-1-0.4-1.4,0c-0.4,0.4-0.4,1,0,1.4\r\n\tl12,12c0.4,0.4,1,0.4,1.4,0l12-12c0.4-0.4,0.4-1,0-1.4c-0.4-0.4-1-0.4-1.4,0L24,28.6L12.7,17.3z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "ZO6q":
 /***/ (function(module, exports) {
 
-module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<svg version=\"1.1\" id=\"action-target-Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"\n\t x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\" style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\n<path id=\"action-target-a_1_\" style=\"fill:#111111;\" d=\"M25.2,13.5c4.4,0.7,7.9,4.1,8.5,8.5h-1.6c-0.7-3.5-3.4-6.3-6.9-6.9\n\tC25.2,15.1,25.2,13.5,25.2,13.5z M22,13.5c-4.4,0.7-7.8,4.1-8.5,8.5h1.6c0.6-3.5,3.4-6.3,6.9-6.9V13.5z M25.2,33.7\n\tc4.4-0.7,7.9-4.1,8.5-8.5h-1.6c-0.7,3.5-3.4,6.3-6.9,6.9C25.2,32.1,25.2,33.7,25.2,33.7z M22,33.7c-4.4-0.7-7.9-4.1-8.5-8.5h1.6\n\tc0.7,3.5,3.4,6.3,6.9,6.9V33.7z M22.8,11.8c0-0.4,0.4-0.8,0.8-0.8s0.8,0.4,0.8,0.8v6.3c0,0.4-0.4,0.8-0.8,0.8s-0.8-0.4-0.8-0.8V11.8\n\tz M22.8,29.9c0-0.4,0.4-0.8,0.8-0.8s0.8,0.4,0.8,0.8v6.3c0,0.4-0.4,0.8-0.8,0.8s-0.8-0.4-0.8-0.8C22.8,36.2,22.8,29.9,22.8,29.9z\n\t M29.9,24.4c-0.4,0-0.8-0.4-0.8-0.8c0-0.4,0.4-0.8,0.8-0.8h6.3c0.4,0,0.8,0.4,0.8,0.8c0,0.4-0.4,0.8-0.8,0.8\n\tC36.2,24.4,29.9,24.4,29.9,24.4z M11.8,24.4c-0.4,0-0.8-0.4-0.8-0.8c0-0.4,0.4-0.8,0.8-0.8h6.3c0.4,0,0.8,0.4,0.8,0.8\n\tc0,0.4-0.4,0.8-0.8,0.8C18.1,24.4,11.8,24.4,11.8,24.4z\"/>\n</svg>\n"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"action-target-Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"\r\n\t x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\" style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"action-target-a_1_\" style=\"fill:#111111;\" d=\"M25.2,13.5c4.4,0.7,7.9,4.1,8.5,8.5h-1.6c-0.7-3.5-3.4-6.3-6.9-6.9\r\n\tC25.2,15.1,25.2,13.5,25.2,13.5z M22,13.5c-4.4,0.7-7.8,4.1-8.5,8.5h1.6c0.6-3.5,3.4-6.3,6.9-6.9V13.5z M25.2,33.7\r\n\tc4.4-0.7,7.9-4.1,8.5-8.5h-1.6c-0.7,3.5-3.4,6.3-6.9,6.9C25.2,32.1,25.2,33.7,25.2,33.7z M22,33.7c-4.4-0.7-7.9-4.1-8.5-8.5h1.6\r\n\tc0.7,3.5,3.4,6.3,6.9,6.9V33.7z M22.8,11.8c0-0.4,0.4-0.8,0.8-0.8s0.8,0.4,0.8,0.8v6.3c0,0.4-0.4,0.8-0.8,0.8s-0.8-0.4-0.8-0.8V11.8\r\n\tz M22.8,29.9c0-0.4,0.4-0.8,0.8-0.8s0.8,0.4,0.8,0.8v6.3c0,0.4-0.4,0.8-0.8,0.8s-0.8-0.4-0.8-0.8C22.8,36.2,22.8,29.9,22.8,29.9z\r\n\t M29.9,24.4c-0.4,0-0.8-0.4-0.8-0.8c0-0.4,0.4-0.8,0.8-0.8h6.3c0.4,0,0.8,0.4,0.8,0.8c0,0.4-0.4,0.8-0.8,0.8\r\n\tC36.2,24.4,29.9,24.4,29.9,24.4z M11.8,24.4c-0.4,0-0.8-0.4-0.8-0.8c0-0.4,0.4-0.8,0.8-0.8h6.3c0.4,0,0.8,0.4,0.8,0.8\r\n\tc0,0.4-0.4,0.8-0.8,0.8C18.1,24.4,11.8,24.4,11.8,24.4z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "ZRUk":
 /***/ (function(module, exports) {
 
-module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<svg version=\"1.1\" id=\"icon_x2F_Utility_x2F_collection-multi-Layer_1\"\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\n<path id=\"icon_x2F_Utility_x2F_collection-multi-path-1_1_\" style=\"fill:#111111;\" d=\"M35.4,18H12.5c-0.8,0-1.5,0.8-1.5,1.6v14.7\n\tc0,0.8,0.7,1.7,1.5,1.7h22.9c0.8,0,1.6-0.9,1.6-1.7V19.6C37,18.8,36.2,18,35.4,18z M20.1,31.5c0,0.9-0.4,1.2-1.3,1.2h-3.6\n\tc-0.9,0-1.2-0.3-1.2-1.2v-9.1c0-0.9,0.4-1.3,1.3-1.3h3.5c0.9,0,1.3,0.3,1.3,1.3C20.1,22.4,20.1,31.5,20.1,31.5z M26.2,31.5\n\tc0,0.9-0.4,1.2-1.3,1.2h-2.8c-0.9,0-1.2-0.3-1.2-1.2v-2.7c0-0.9,0.4-1.3,1.3-1.3h2.6c0.9,0,1.3,0.3,1.3,1.3L26.2,31.5\n\tC26.1,31.5,26.2,31.5,26.2,31.5z M26.2,25c0,0.9-0.4,1.2-1.3,1.2h-2.8C21.3,26.2,21,26,21,25v-2.7c0-0.9,0.4-1.3,1.3-1.3h2.6\n\tc0.9,0,1.3,0.3,1.3,1.3C26.2,22.3,26.2,25,26.2,25z M34,31.5c0,0.9-0.4,1.2-1.3,1.2h-4.5c-0.9,0-1.2-0.3-1.2-1.2v-2.7\n\tc0-0.9,0.4-1.3,1.3-1.3h4.3c0.9,0,1.3,0.3,1.3,1.3C33.9,28.8,34,31.5,34,31.5z M34,25c0,0.9-0.4,1.2-1.3,1.2h-4.5\n\tC27.3,26.2,27,26,27,25v-2.7c0-0.9,0.4-1.3,1.3-1.3h4.3c0.9,0,1.3,0.3,1.3,1.3L34,25z M33.8,16.4H14.3c-0.4,0-0.7-0.3-0.7-0.7\n\tc0-0.4,0.3-0.7,0.7-0.7h19.5c0.4,0,0.6,0.3,0.6,0.7C34.4,16.1,34.1,16.4,33.8,16.4z M31.7,13.4H16.2c-0.4,0-0.6-0.3-0.6-0.7\n\tc0-0.4,0.2-0.7,0.6-0.7h15.5c0.4,0,0.6,0.3,0.6,0.7C32.3,13.1,32.1,13.4,31.7,13.4z\"/>\n</svg>\n"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"icon_x2F_Utility_x2F_collection-multi-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"icon_x2F_Utility_x2F_collection-multi-path-1_1_\" style=\"fill:#111111;\" d=\"M35.4,18H12.5c-0.8,0-1.5,0.8-1.5,1.6v14.7\r\n\tc0,0.8,0.7,1.7,1.5,1.7h22.9c0.8,0,1.6-0.9,1.6-1.7V19.6C37,18.8,36.2,18,35.4,18z M20.1,31.5c0,0.9-0.4,1.2-1.3,1.2h-3.6\r\n\tc-0.9,0-1.2-0.3-1.2-1.2v-9.1c0-0.9,0.4-1.3,1.3-1.3h3.5c0.9,0,1.3,0.3,1.3,1.3C20.1,22.4,20.1,31.5,20.1,31.5z M26.2,31.5\r\n\tc0,0.9-0.4,1.2-1.3,1.2h-2.8c-0.9,0-1.2-0.3-1.2-1.2v-2.7c0-0.9,0.4-1.3,1.3-1.3h2.6c0.9,0,1.3,0.3,1.3,1.3L26.2,31.5\r\n\tC26.1,31.5,26.2,31.5,26.2,31.5z M26.2,25c0,0.9-0.4,1.2-1.3,1.2h-2.8C21.3,26.2,21,26,21,25v-2.7c0-0.9,0.4-1.3,1.3-1.3h2.6\r\n\tc0.9,0,1.3,0.3,1.3,1.3C26.2,22.3,26.2,25,26.2,25z M34,31.5c0,0.9-0.4,1.2-1.3,1.2h-4.5c-0.9,0-1.2-0.3-1.2-1.2v-2.7\r\n\tc0-0.9,0.4-1.3,1.3-1.3h4.3c0.9,0,1.3,0.3,1.3,1.3C33.9,28.8,34,31.5,34,31.5z M34,25c0,0.9-0.4,1.2-1.3,1.2h-4.5\r\n\tC27.3,26.2,27,26,27,25v-2.7c0-0.9,0.4-1.3,1.3-1.3h4.3c0.9,0,1.3,0.3,1.3,1.3L34,25z M33.8,16.4H14.3c-0.4,0-0.7-0.3-0.7-0.7\r\n\tc0-0.4,0.3-0.7,0.7-0.7h19.5c0.4,0,0.6,0.3,0.6,0.7C34.4,16.1,34.1,16.4,33.8,16.4z M31.7,13.4H16.2c-0.4,0-0.6-0.3-0.6-0.7\r\n\tc0-0.4,0.2-0.7,0.6-0.7h15.5c0.4,0,0.6,0.3,0.6,0.7C32.3,13.1,32.1,13.4,31.7,13.4z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "aD2F":
 /***/ (function(module, exports) {
 
-module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<svg version=\"1.1\" id=\"icon_x2F_Utility_x2F_piggy-bank-Layer_1\"\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\n<path id=\"icon_x2F_Utility_x2F_piggy-bank-path-1_1_\" style=\"fill:#111111;\" d=\"M19.3,17.4v-0.6c0-2.6,2-4.8,4.5-4.8\n\ts4.5,2.1,4.5,4.8v0.5h-0.1c-0.3-0.1-0.6-0.2-1-0.3h-0.1v-0.1v-0.1v-0.1c0-2-1.5-3.6-3.4-3.6s-3.3,1.7-3.3,3.7v0.3h-0.1\n\tC20,17.1,19.7,17.2,19.3,17.4z M37,22.5c0.1,0.7-0.3,1.4-1,1.7c-0.2,0.1-0.5,0.2-0.7,0.2c-0.4,0-0.7-0.1-1-0.4s-0.5-0.7-0.6-1.1\n\tc-0.1,0.1-0.2,0.1-0.3,0.2c0.4,0.8,0.6,1.6,0.6,2.3c0,3.9-2.5,5.8-2.5,5.8c-0.2,0.2-0.5,0.5-0.6,0.7l-1.6,3.6c0,0.3-0.3,0.5-0.6,0.5\n\th-2.6c-0.3,0-0.4-0.2-0.4-0.5v-1.3c0-0.3-0.3-0.6-0.5-0.6h-3.4c-0.3,0-0.5,0.3-0.5,0.6v1.1c0,0.3-0.2,0.5-0.5,0.5h-2.3\n\tc-0.3,0-0.6-0.2-0.7-0.4L16,31.7c0-0.1-0.3-0.5-0.4-0.7L14,28.9c-0.1-0.3-0.4-0.5-0.6-0.5h-1.9c-0.3,0-0.5-0.2-0.5-0.5v-4.6\n\tc0-0.3,0.2-0.5,0.5-0.5h1.7c0.3,0,0.6-0.2,0.7-0.5c0,0,0.9-2.2,2.2-2.8l-0.5-1.7c-0.1-0.3,0.1-0.6,0.3-0.6l3.1,0.9\n\tc0.3,0.1,0.5-0.1,0.8-0.2c0,0,4.5-2.4,9.4,0.7c1.6,1,2.8,2.2,3.6,3.3c0.1-0.1,0.2-0.2,0.4-0.2c0.2-0.1,0.4-0.2,0.6-0.4v-0.1\n\tc0.4-1.3,1.1-1.9,2.5-2c0.4,0,0.7,0.2,0.7,0.6c0,0.4-0.2,0.7-0.6,0.7s-0.7,0.1-0.9,0.3h0.2C36.4,21.1,36.9,21.7,37,22.5z M28.7,22.1\n\tc0.2-0.3,0.1-0.7-0.2-0.9c-2.6-1.6-6.4-1.6-9.3,0c-0.3,0.2-0.4,0.6-0.3,0.9c0.1,0.2,0.3,0.4,0.6,0.4c0.1,0,0.2,0,0.3-0.1\n\tc2.5-1.4,5.8-1.4,8,0C28.1,22.5,28.5,22.4,28.7,22.1z\"/>\n</svg>\n"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"icon_x2F_Utility_x2F_piggy-bank-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"icon_x2F_Utility_x2F_piggy-bank-path-1_1_\" style=\"fill:#111111;\" d=\"M19.3,17.4v-0.6c0-2.6,2-4.8,4.5-4.8\r\n\ts4.5,2.1,4.5,4.8v0.5h-0.1c-0.3-0.1-0.6-0.2-1-0.3h-0.1v-0.1v-0.1v-0.1c0-2-1.5-3.6-3.4-3.6s-3.3,1.7-3.3,3.7v0.3h-0.1\r\n\tC20,17.1,19.7,17.2,19.3,17.4z M37,22.5c0.1,0.7-0.3,1.4-1,1.7c-0.2,0.1-0.5,0.2-0.7,0.2c-0.4,0-0.7-0.1-1-0.4s-0.5-0.7-0.6-1.1\r\n\tc-0.1,0.1-0.2,0.1-0.3,0.2c0.4,0.8,0.6,1.6,0.6,2.3c0,3.9-2.5,5.8-2.5,5.8c-0.2,0.2-0.5,0.5-0.6,0.7l-1.6,3.6c0,0.3-0.3,0.5-0.6,0.5\r\n\th-2.6c-0.3,0-0.4-0.2-0.4-0.5v-1.3c0-0.3-0.3-0.6-0.5-0.6h-3.4c-0.3,0-0.5,0.3-0.5,0.6v1.1c0,0.3-0.2,0.5-0.5,0.5h-2.3\r\n\tc-0.3,0-0.6-0.2-0.7-0.4L16,31.7c0-0.1-0.3-0.5-0.4-0.7L14,28.9c-0.1-0.3-0.4-0.5-0.6-0.5h-1.9c-0.3,0-0.5-0.2-0.5-0.5v-4.6\r\n\tc0-0.3,0.2-0.5,0.5-0.5h1.7c0.3,0,0.6-0.2,0.7-0.5c0,0,0.9-2.2,2.2-2.8l-0.5-1.7c-0.1-0.3,0.1-0.6,0.3-0.6l3.1,0.9\r\n\tc0.3,0.1,0.5-0.1,0.8-0.2c0,0,4.5-2.4,9.4,0.7c1.6,1,2.8,2.2,3.6,3.3c0.1-0.1,0.2-0.2,0.4-0.2c0.2-0.1,0.4-0.2,0.6-0.4v-0.1\r\n\tc0.4-1.3,1.1-1.9,2.5-2c0.4,0,0.7,0.2,0.7,0.6c0,0.4-0.2,0.7-0.6,0.7s-0.7,0.1-0.9,0.3h0.2C36.4,21.1,36.9,21.7,37,22.5z M28.7,22.1\r\n\tc0.2-0.3,0.1-0.7-0.2-0.9c-2.6-1.6-6.4-1.6-9.3,0c-0.3,0.2-0.4,0.6-0.3,0.9c0.1,0.2,0.3,0.4,0.6,0.4c0.1,0,0.2,0,0.3-0.1\r\n\tc2.5-1.4,5.8-1.4,8,0C28.1,22.5,28.5,22.4,28.7,22.1z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "aNhq":
 /***/ (function(module, exports) {
 
-module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<svg version=\"1.1\" id=\"icon_x2F_Nav_x2F_chevron-left-Layer_1\"\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\n<path id=\"icon_x2F_Nav_x2F_chevron-left-path-1_1_\" style=\"fill:#111111;\" d=\"M18.3,35.3c-0.4,0.4-0.4,1,0,1.4s1,0.4,1.4,0l12-12\n\tc0.4-0.4,0.4-1,0-1.4l-12-12c-0.4-0.4-1-0.4-1.4,0s-0.4,1,0,1.4L29.6,24L18.3,35.3z\"/>\n</svg>\n"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"icon_x2F_Nav_x2F_chevron-left-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"icon_x2F_Nav_x2F_chevron-left-path-1_1_\" style=\"fill:#111111;\" d=\"M18.3,35.3c-0.4,0.4-0.4,1,0,1.4s1,0.4,1.4,0l12-12\r\n\tc0.4-0.4,0.4-1,0-1.4l-12-12c-0.4-0.4-1-0.4-1.4,0s-0.4,1,0,1.4L29.6,24L18.3,35.3z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "afII":
 /***/ (function(module, exports) {
 
-module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<svg version=\"1.1\" id=\"icon_x2F_Utility_x2F_Store_x2F_return-Layer_1\"\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\n<path id=\"icon_x2F_Utility_x2F_Store_x2F_return-path-1_1_\" style=\"fill:#333333;\" d=\"M30.4,29.7c0.2,0.2,0.2,0.4,0.2,0.5v0.2\n\tc0,0.1-0.1,0.3-0.2,0.5c-0.4,0.4-1.9,2-2,2c0,0-0.2,0.1-0.4,0.1s-0.3-0.1-0.4-0.2c-0.2-0.2-0.2-0.6,0-0.9l1-1H18.1\n\tc-3.4,0-6.1-3.1-6.1-6.9c0-2.7,1.3-5,3.4-6.2c0.3-0.2,0.7-0.1,0.8,0.2c0.2,0.3,0.1,0.7-0.2,0.9c-1.7,0.9-2.8,2.9-2.8,5.1\n\tc0,3.1,2.2,5.7,4.9,5.7h10.7l-1.1-1.1c-0.2-0.2-0.2-0.6,0-0.9c0.2-0.2,0.6-0.2,0.8,0C28.5,27.7,30,29.3,30.4,29.7z M34.2,19.1\n\tc1.2,1.3,1.8,3.1,1.8,4.9c0,2.7-1.3,5-3.4,6.2c-0.1,0.1-0.2,0.1-0.3,0.1c-0.2,0-0.4-0.1-0.5-0.3c-0.2-0.3-0.1-0.7,0.2-0.8\n\tc1.7-0.9,2.8-3,2.8-5.1c0-1.5-0.5-3-1.4-4c-0.9-1.1-2.1-1.6-3.4-1.6H19.4l1.1,1.1c0.2,0.2,0.2,0.6,0,0.9c-0.2-0.1-0.4,0-0.5,0\n\tc-0.2,0-0.3-0.1-0.4-0.2s-1.5-1.6-2-2c-0.2-0.2-0.3-0.4-0.3-0.5v-0.2c0-0.1,0.1-0.3,0.2-0.5c0.4-0.4,1.9-2,2-2\n\tc0.2-0.2,0.6-0.2,0.8,0s0.2,0.6,0,0.9l-1,1h10.6C31.6,17.1,33.1,17.8,34.2,19.1z\"/>\n</svg>\n"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"icon_x2F_Utility_x2F_Store_x2F_return-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"icon_x2F_Utility_x2F_Store_x2F_return-path-1_1_\" style=\"fill:#333333;\" d=\"M30.4,29.7c0.2,0.2,0.2,0.4,0.2,0.5v0.2\r\n\tc0,0.1-0.1,0.3-0.2,0.5c-0.4,0.4-1.9,2-2,2c0,0-0.2,0.1-0.4,0.1s-0.3-0.1-0.4-0.2c-0.2-0.2-0.2-0.6,0-0.9l1-1H18.1\r\n\tc-3.4,0-6.1-3.1-6.1-6.9c0-2.7,1.3-5,3.4-6.2c0.3-0.2,0.7-0.1,0.8,0.2c0.2,0.3,0.1,0.7-0.2,0.9c-1.7,0.9-2.8,2.9-2.8,5.1\r\n\tc0,3.1,2.2,5.7,4.9,5.7h10.7l-1.1-1.1c-0.2-0.2-0.2-0.6,0-0.9c0.2-0.2,0.6-0.2,0.8,0C28.5,27.7,30,29.3,30.4,29.7z M34.2,19.1\r\n\tc1.2,1.3,1.8,3.1,1.8,4.9c0,2.7-1.3,5-3.4,6.2c-0.1,0.1-0.2,0.1-0.3,0.1c-0.2,0-0.4-0.1-0.5-0.3c-0.2-0.3-0.1-0.7,0.2-0.8\r\n\tc1.7-0.9,2.8-3,2.8-5.1c0-1.5-0.5-3-1.4-4c-0.9-1.1-2.1-1.6-3.4-1.6H19.4l1.1,1.1c0.2,0.2,0.2,0.6,0,0.9c-0.2-0.1-0.4,0-0.5,0\r\n\tc-0.2,0-0.3-0.1-0.4-0.2s-1.5-1.6-2-2c-0.2-0.2-0.3-0.4-0.3-0.5v-0.2c0-0.1,0.1-0.3,0.2-0.5c0.4-0.4,1.9-2,2-2\r\n\tc0.2-0.2,0.6-0.2,0.8,0s0.2,0.6,0,0.9l-1,1h10.6C31.6,17.1,33.1,17.8,34.2,19.1z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "apyU":
 /***/ (function(module, exports) {
 
-module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<svg version=\"1.1\" id=\"icon_x2F_Utility_x2F_Ship_x2F_truck-Layer_1\"\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\n<path id=\"icon_x2F_Utility_x2F_Ship_x2F_truck-path-1_1_\" style=\"fill:#111111;\" d=\"M34.5,14H23c-1.2,0-2.5,1.2-2.5,2.4v13.5\n\tc0,1.3,1.2,2.6,2.5,2.6h5.5C29,33.4,30,34,31.1,34s2.1-0.6,2.6-1.5h0.8c1.1,0,2.4-1.3,2.4-2.6V16.4C37,15.2,35.8,14,34.5,14z\n\t M31.2,32.7c-1,0-1.7-0.8-1.7-1.8s0.8-1.8,1.7-1.8c1,0,1.7,0.8,1.7,1.8S32.2,32.7,31.2,32.7z M19.1,19.1c0.4,0,0.7,0.3,0.7,0.7v11\n\tc0,0.4-0.3,0.7-0.7,0.7h-0.6c-0.2,1.4-1.5,2.5-3,2.5s-2.8-1.1-3-2.6h-0.8c-0.4,0-0.7-0.3-0.7-0.7v-5.6c0-0.1,0-1.1,0.5-2\n\tc0,0,0-0.1,0.1-0.1l2.8-3.3c0-0.1,0.1-0.1,0.2-0.1c0.8-0.5,1.3-0.5,1.6-0.5C16.2,19.1,19.1,19.1,19.1,19.1z M15.5,32.7\n\tc1,0,1.7-0.8,1.7-1.8s-0.8-1.8-1.7-1.8s-1.8,0.9-1.8,1.8S14.5,32.7,15.5,32.7z\"/>\n</svg>\n"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"icon_x2F_Utility_x2F_Ship_x2F_truck-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"icon_x2F_Utility_x2F_Ship_x2F_truck-path-1_1_\" style=\"fill:#111111;\" d=\"M34.5,14H23c-1.2,0-2.5,1.2-2.5,2.4v13.5\r\n\tc0,1.3,1.2,2.6,2.5,2.6h5.5C29,33.4,30,34,31.1,34s2.1-0.6,2.6-1.5h0.8c1.1,0,2.4-1.3,2.4-2.6V16.4C37,15.2,35.8,14,34.5,14z\r\n\t M31.2,32.7c-1,0-1.7-0.8-1.7-1.8s0.8-1.8,1.7-1.8c1,0,1.7,0.8,1.7,1.8S32.2,32.7,31.2,32.7z M19.1,19.1c0.4,0,0.7,0.3,0.7,0.7v11\r\n\tc0,0.4-0.3,0.7-0.7,0.7h-0.6c-0.2,1.4-1.5,2.5-3,2.5s-2.8-1.1-3-2.6h-0.8c-0.4,0-0.7-0.3-0.7-0.7v-5.6c0-0.1,0-1.1,0.5-2\r\n\tc0,0,0-0.1,0.1-0.1l2.8-3.3c0-0.1,0.1-0.1,0.2-0.1c0.8-0.5,1.3-0.5,1.6-0.5C16.2,19.1,19.1,19.1,19.1,19.1z M15.5,32.7\r\n\tc1,0,1.7-0.8,1.7-1.8s-0.8-1.8-1.7-1.8s-1.8,0.9-1.8,1.8S14.5,32.7,15.5,32.7z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "bHds":
 /***/ (function(module, exports) {
 
-module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<svg version=\"1.1\" id=\"action-conversation-fill-Layer_1\"\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\n<path id=\"action-conversation-fill-a_1_\" style=\"fill:#111111;\" d=\"M34.7,14H13.9c-1.6,0-2.9,1.2-2.9,2.7v8.9c0,1.6,1.3,2.8,2.9,2.8\n\th10.4c0,0,0.1,0,0.1,0.1l5.8,5.4c0.2,0.2,0.5,0.2,0.7,0.1s0.4-0.3,0.4-0.6v-4.8v-0.2H34c1.6-0.1,2.9-1.6,2.9-2.8v-9.1\n\tC37,14.9,35.8,14,34.7,14z M17.6,22.7c-0.9,0-1.6-0.7-1.6-1.5c0-0.8,0.7-1.5,1.5-1.5c0.9,0,1.5,0.7,1.5,1.5\n\tC19.1,22,18.4,22.7,17.6,22.7z M24,22.7c-0.9,0-1.5-0.7-1.5-1.5c0-0.8,0.7-1.5,1.5-1.5s1.5,0.7,1.5,1.5C25.5,22,24.9,22.7,24,22.7z\n\t M30.4,22.7c-0.9,0-1.5-0.7-1.5-1.5c0-0.8,0.7-1.5,1.5-1.5c0.9,0,1.5,0.7,1.5,1.5C32,22,31.3,22.7,30.4,22.7z\"/>\n</svg>\n"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"action-conversation-fill-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"action-conversation-fill-a_1_\" style=\"fill:#111111;\" d=\"M34.7,14H13.9c-1.6,0-2.9,1.2-2.9,2.7v8.9c0,1.6,1.3,2.8,2.9,2.8\r\n\th10.4c0,0,0.1,0,0.1,0.1l5.8,5.4c0.2,0.2,0.5,0.2,0.7,0.1s0.4-0.3,0.4-0.6v-4.8v-0.2H34c1.6-0.1,2.9-1.6,2.9-2.8v-9.1\r\n\tC37,14.9,35.8,14,34.7,14z M17.6,22.7c-0.9,0-1.6-0.7-1.6-1.5c0-0.8,0.7-1.5,1.5-1.5c0.9,0,1.5,0.7,1.5,1.5\r\n\tC19.1,22,18.4,22.7,17.6,22.7z M24,22.7c-0.9,0-1.5-0.7-1.5-1.5c0-0.8,0.7-1.5,1.5-1.5s1.5,0.7,1.5,1.5C25.5,22,24.9,22.7,24,22.7z\r\n\t M30.4,22.7c-0.9,0-1.5-0.7-1.5-1.5c0-0.8,0.7-1.5,1.5-1.5c0.9,0,1.5,0.7,1.5,1.5C32,22,31.3,22.7,30.4,22.7z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
@@ -23483,9 +23903,9 @@ var _temp = function () {
         return;
     }
 
-    __REACT_HOT_LOADER__.register(Utils, 'Utils', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/helpers/Utils.js');
+    __REACT_HOT_LOADER__.register(Utils, 'Utils', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/helpers/Utils.js');
 
-    __REACT_HOT_LOADER__.register(_default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/helpers/Utils.js');
+    __REACT_HOT_LOADER__.register(_default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/helpers/Utils.js');
 }();
 
 ;
@@ -23495,35 +23915,35 @@ var _temp = function () {
 /***/ "cosh":
 /***/ (function(module, exports) {
 
-module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<svg version=\"1.1\" id=\"action-list-fill-Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"\n\t x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\" style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\n<path id=\"action-list-fill-a_1_\" style=\"fill:#111111;\" d=\"M12,13c0-0.5,0.4-1,1-1h4.6c0.6,0,1,0.4,1,1v4.6c0,0.6-0.4,1-1,1H13\n\tc-0.5,0-1-0.4-1-1V13z M12,21.7c0-0.5,0.4-1,1-1h4.6c0.6,0,1,0.4,1,1v4.6c0,0.5-0.4,1-1,1H13c-0.5,0-1-0.4-1-1V21.7z M20.7,13\n\tc0-0.5,0.4-1,1-1H35c0.6,0,1,0.4,1,1v4.6c0,0.6-0.4,1-1,1H21.7c-0.6,0-1-0.4-1-1V13z M20.7,21.7c0-0.5,0.4-1,1-1H35c0.6,0,1,0.4,1,1\n\tv4.6c0,0.5-0.4,1-1,1H21.7c-0.6,0-1-0.4-1-1V21.7z M12,30.5c0-0.5,0.4-1,1-1h4.6c0.6,0,1,0.5,1,1V35c0,0.5-0.4,1-1,1H13\n\tc-0.5,0-1-0.4-1-1V30.5z M20.7,30.5c0-0.5,0.4-1,1-1H35c0.6,0,1,0.5,1,1V35c0,0.5-0.4,1-1,1H21.7c-0.6,0-1-0.5-1-1V30.5z\"/>\n</svg>\n"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"action-list-fill-Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"\r\n\t x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\" style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"action-list-fill-a_1_\" style=\"fill:#111111;\" d=\"M12,13c0-0.5,0.4-1,1-1h4.6c0.6,0,1,0.4,1,1v4.6c0,0.6-0.4,1-1,1H13\r\n\tc-0.5,0-1-0.4-1-1V13z M12,21.7c0-0.5,0.4-1,1-1h4.6c0.6,0,1,0.4,1,1v4.6c0,0.5-0.4,1-1,1H13c-0.5,0-1-0.4-1-1V21.7z M20.7,13\r\n\tc0-0.5,0.4-1,1-1H35c0.6,0,1,0.4,1,1v4.6c0,0.6-0.4,1-1,1H21.7c-0.6,0-1-0.4-1-1V13z M20.7,21.7c0-0.5,0.4-1,1-1H35c0.6,0,1,0.4,1,1\r\n\tv4.6c0,0.5-0.4,1-1,1H21.7c-0.6,0-1-0.4-1-1V21.7z M12,30.5c0-0.5,0.4-1,1-1h4.6c0.6,0,1,0.5,1,1V35c0,0.5-0.4,1-1,1H13\r\n\tc-0.5,0-1-0.4-1-1V30.5z M20.7,30.5c0-0.5,0.4-1,1-1H35c0.6,0,1,0.5,1,1V35c0,0.5-0.4,1-1,1H21.7c-0.6,0-1-0.5-1-1V30.5z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "d3mM":
 /***/ (function(module, exports) {
 
-module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<svg version=\"1.1\" id=\"icon_x2F_Utility_x2F_ribbon-Layer_1\"\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\n<path id=\"icon_x2F_Utility_x2F_ribbon-path-1_1_\" style=\"fill:#333333;\" d=\"M33.4,19.4c0.9,1.3,0.7,2.5-0.3,3.6\n\tc-0.6,0.6-0.9,1.1-0.9,1.7V25c-0.1,1.3-0.7,2-2,2.4v0.1c0.2,0.8,0.4,1.4,0.6,1.9c0.4,1.5,0.6,1.9,1.4,4.3c0.1,0.2,0,0.5-0.2,0.7\n\ts-0.5,0.2-0.7,0.1c-0.1,0-0.3-0.1-0.5-0.2c-0.6-0.2-1.6-0.6-2.1-0.8h-0.2c-0.3,0-0.5,0.4-0.6,0.6c-0.3,0.4-0.5,0.8-0.7,1.2\n\ts-0.5,0.9-0.9,1.5c-0.1,0.2-0.4,0.3-0.6,0.3c-0.3,0-0.5-0.2-0.5-0.5c-0.4-1.3-0.8-2.6-1.2-3.7c-0.1,0.3-0.1,0.5-0.2,0.7\n\tc-0.2,0.8-0.4,1.6-0.8,2.9c-0.1,0.3-0.3,0.4-0.5,0.5h-0.1c-0.2,0-0.4-0.1-0.6-0.3c-0.4-0.7-0.7-1.2-1-1.7c-0.2-0.3-0.4-0.7-0.6-1\n\tc-0.1-0.1-0.3-0.5-0.6-0.5c-0.1,0-0.2,0-0.2,0.1c-0.4,0.2-1.1,0.4-1.8,0.6c-0.3,0.1-0.7,0.2-0.8,0.3c-0.2,0.1-0.5,0.1-0.7-0.1\n\tc-0.2-0.2-0.3-0.4-0.2-0.7c1.1-3.3,1.2-3.6,2-6.1l0.1-0.2c-1.2-0.4-1.8-1.1-2-2.4v-0.3c0-0.6-0.3-1.1-0.9-1.7\n\tc-1-1.1-1.1-2.3-0.3-3.6c0.2-0.7,0.4-1.5,0.2-2.3c-0.2-1.3,0.4-2.3,1.7-2.9c1-0.4,1.6-1,2-1.8c0.5-0.8,1.3-1.3,2.2-1.3\n\tc0.2,0,0.5,0,0.7,0.1c0.9,0.2,1.7,0.3,2.3,0.3H24c0.9,0,1.8-0.2,2.1-0.3c0.2-0.1,0.5-0.1,0.7-0.1c1,0,1.8,0.5,2.3,1.4\n\tc0.4,0.8,1.1,1.4,2.1,1.8c1.3,0.5,1.9,1.6,1.7,2.9C32.7,17.9,32.9,18.7,33.4,19.4z M28.3,25c1.2-1.2,1.9-2.7,1.8-4.4\n\tc0-1.6-0.7-3.2-1.9-4.3c-1.2-1.1-2.7-1.8-4.4-1.9h-0.1c-1.6,0.1-3.1,0.8-4.3,1.9c-1.2,1.2-1.8,2.7-1.9,4.3c0,1.6,0.7,3.2,1.9,4.4\n\tc1.2,1.2,2.7,1.8,4.4,1.9C25.6,26.9,27.2,26.2,28.3,25z M22.7,23.4c-0.2,0-0.3-0.1-0.5-0.2l-1.6-1.6c-0.3-0.3-0.3-0.7,0-0.9\n\tc0.3-0.3,0.7-0.3,0.9,0l1.1,1.1l3.5-3.5c0.3-0.3,0.7-0.3,0.9,0c0.3,0.3,0.3,0.7,0,0.9l-4,3.9C23,23.3,22.9,23.4,22.7,23.4z\"/>\n</svg>\n"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"icon_x2F_Utility_x2F_ribbon-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"icon_x2F_Utility_x2F_ribbon-path-1_1_\" style=\"fill:#333333;\" d=\"M33.4,19.4c0.9,1.3,0.7,2.5-0.3,3.6\r\n\tc-0.6,0.6-0.9,1.1-0.9,1.7V25c-0.1,1.3-0.7,2-2,2.4v0.1c0.2,0.8,0.4,1.4,0.6,1.9c0.4,1.5,0.6,1.9,1.4,4.3c0.1,0.2,0,0.5-0.2,0.7\r\n\ts-0.5,0.2-0.7,0.1c-0.1,0-0.3-0.1-0.5-0.2c-0.6-0.2-1.6-0.6-2.1-0.8h-0.2c-0.3,0-0.5,0.4-0.6,0.6c-0.3,0.4-0.5,0.8-0.7,1.2\r\n\ts-0.5,0.9-0.9,1.5c-0.1,0.2-0.4,0.3-0.6,0.3c-0.3,0-0.5-0.2-0.5-0.5c-0.4-1.3-0.8-2.6-1.2-3.7c-0.1,0.3-0.1,0.5-0.2,0.7\r\n\tc-0.2,0.8-0.4,1.6-0.8,2.9c-0.1,0.3-0.3,0.4-0.5,0.5h-0.1c-0.2,0-0.4-0.1-0.6-0.3c-0.4-0.7-0.7-1.2-1-1.7c-0.2-0.3-0.4-0.7-0.6-1\r\n\tc-0.1-0.1-0.3-0.5-0.6-0.5c-0.1,0-0.2,0-0.2,0.1c-0.4,0.2-1.1,0.4-1.8,0.6c-0.3,0.1-0.7,0.2-0.8,0.3c-0.2,0.1-0.5,0.1-0.7-0.1\r\n\tc-0.2-0.2-0.3-0.4-0.2-0.7c1.1-3.3,1.2-3.6,2-6.1l0.1-0.2c-1.2-0.4-1.8-1.1-2-2.4v-0.3c0-0.6-0.3-1.1-0.9-1.7\r\n\tc-1-1.1-1.1-2.3-0.3-3.6c0.2-0.7,0.4-1.5,0.2-2.3c-0.2-1.3,0.4-2.3,1.7-2.9c1-0.4,1.6-1,2-1.8c0.5-0.8,1.3-1.3,2.2-1.3\r\n\tc0.2,0,0.5,0,0.7,0.1c0.9,0.2,1.7,0.3,2.3,0.3H24c0.9,0,1.8-0.2,2.1-0.3c0.2-0.1,0.5-0.1,0.7-0.1c1,0,1.8,0.5,2.3,1.4\r\n\tc0.4,0.8,1.1,1.4,2.1,1.8c1.3,0.5,1.9,1.6,1.7,2.9C32.7,17.9,32.9,18.7,33.4,19.4z M28.3,25c1.2-1.2,1.9-2.7,1.8-4.4\r\n\tc0-1.6-0.7-3.2-1.9-4.3c-1.2-1.1-2.7-1.8-4.4-1.9h-0.1c-1.6,0.1-3.1,0.8-4.3,1.9c-1.2,1.2-1.8,2.7-1.9,4.3c0,1.6,0.7,3.2,1.9,4.4\r\n\tc1.2,1.2,2.7,1.8,4.4,1.9C25.6,26.9,27.2,26.2,28.3,25z M22.7,23.4c-0.2,0-0.3-0.1-0.5-0.2l-1.6-1.6c-0.3-0.3-0.3-0.7,0-0.9\r\n\tc0.3-0.3,0.7-0.3,0.9,0l1.1,1.1l3.5-3.5c0.3-0.3,0.7-0.3,0.9,0c0.3,0.3,0.3,0.7,0,0.9l-4,3.9C23,23.3,22.9,23.4,22.7,23.4z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "dRZH":
 /***/ (function(module, exports) {
 
-module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<svg version=\"1.1\" id=\"action-print-Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"\n\t x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\" style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\n<path id=\"action-print-a_1_\" style=\"fill:#111111;\" d=\"M34.2,15.5c1.7,0,2.8,1.1,2.8,2.8v8c0,1.6-1.2,2.8-2.8,2.8h-0.9l0.3,3.8\n\tc0,1.3-0.9,2.1-2.2,2.1h-15c-1.3,0-2.2-0.8-2.2-2.1l0.3-3.8h-0.7c-1.7,0-2.8-1.1-2.8-2.8v-8.1c0-1.5,1.2-2.6,2.8-2.6\n\tC13.8,15.5,34.2,15.5,34.2,15.5z M31.5,33.7c0.6,0,0.9-0.3,0.9-0.8l-1-10.9v-0.1c0-0.6-0.3-0.8-0.9-0.8h-13c-0.3-0.1-0.9,0-0.9,0.7\n\tv0.1l-1,11c0,0.5,0.3,0.8,0.9,0.8C16.5,33.7,31.5,33.7,31.5,33.7z M18.2,14.3c-0.4,0-0.7-0.3-0.7-0.7c0-0.3,0.3-0.6,0.7-0.6h11.7\n\tc0.4,0,0.6,0.3,0.6,0.6c0,0.4-0.3,0.6-0.6,0.6H18.2V14.3z M19.4,26.1c-0.4,0-0.6-0.3-0.7-0.6c0-0.4,0.3-0.6,0.7-0.6h9.1\n\tc0.4,0,0.6,0.3,0.6,0.6c0,0.4-0.3,0.6-0.6,0.6H19.4z M29,29.5c0.4,0,0.6,0.3,0.6,0.6c0,0.4-0.3,0.6-0.6,0.6H19\n\tc-0.4,0-0.6-0.3-0.6-0.6c0-0.4,0.3-0.6,0.7-0.6H29z\"/>\n</svg>\n"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"action-print-Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"\r\n\t x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\" style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"action-print-a_1_\" style=\"fill:#111111;\" d=\"M34.2,15.5c1.7,0,2.8,1.1,2.8,2.8v8c0,1.6-1.2,2.8-2.8,2.8h-0.9l0.3,3.8\r\n\tc0,1.3-0.9,2.1-2.2,2.1h-15c-1.3,0-2.2-0.8-2.2-2.1l0.3-3.8h-0.7c-1.7,0-2.8-1.1-2.8-2.8v-8.1c0-1.5,1.2-2.6,2.8-2.6\r\n\tC13.8,15.5,34.2,15.5,34.2,15.5z M31.5,33.7c0.6,0,0.9-0.3,0.9-0.8l-1-10.9v-0.1c0-0.6-0.3-0.8-0.9-0.8h-13c-0.3-0.1-0.9,0-0.9,0.7\r\n\tv0.1l-1,11c0,0.5,0.3,0.8,0.9,0.8C16.5,33.7,31.5,33.7,31.5,33.7z M18.2,14.3c-0.4,0-0.7-0.3-0.7-0.7c0-0.3,0.3-0.6,0.7-0.6h11.7\r\n\tc0.4,0,0.6,0.3,0.6,0.6c0,0.4-0.3,0.6-0.6,0.6H18.2V14.3z M19.4,26.1c-0.4,0-0.6-0.3-0.7-0.6c0-0.4,0.3-0.6,0.7-0.6h9.1\r\n\tc0.4,0,0.6,0.3,0.6,0.6c0,0.4-0.3,0.6-0.6,0.6H19.4z M29,29.5c0.4,0,0.6,0.3,0.6,0.6c0,0.4-0.3,0.6-0.6,0.6H19\r\n\tc-0.4,0-0.6-0.3-0.6-0.6c0-0.4,0.3-0.6,0.7-0.6H29z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "ejGt":
 /***/ (function(module, exports) {
 
-module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<svg version=\"1.1\" id=\"icon_x2F_Alert_x2F_error-Layer_1\"\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\n<path id=\"icon_x2F_Alert_x2F_error-path-1_1_\" style=\"fill:#9D2028;\" d=\"M35.3,18.3l-5.7-5.6c-0.4-0.4-1-0.7-1.6-0.7h-8.1\n\tc-0.5,0-1.1,0.2-1.5,0.7l-5.5,5.4c-0.6,0.6-0.9,1.3-0.9,2.1V28c0,0.6,0.2,1.2,0.7,1.7l5.6,5.6c0.5,0.4,1.1,0.7,1.8,0.7h7.8\n\tc0.7,0,1.3-0.3,1.8-0.8l5.4-5.4c0.6-0.6,0.9-1.3,0.9-2.2V20C36,19.3,35.7,18.7,35.3,18.3z M23.4,18c0-0.4,0.3-0.7,0.7-0.7\n\tc0.4,0,0.7,0.3,0.7,0.7v9.2c0,0.4-0.3,0.7-0.7,0.7c-0.4,0-0.7-0.3-0.7-0.7V18z M24,30.8c-0.5,0-0.9-0.4-0.9-0.9S23.5,29,24,29\n\ts0.9,0.4,0.9,0.9S24.5,30.8,24,30.8z\"/>\n</svg>\n"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"icon_x2F_Alert_x2F_error-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"icon_x2F_Alert_x2F_error-path-1_1_\" style=\"fill:#9D2028;\" d=\"M35.3,18.3l-5.7-5.6c-0.4-0.4-1-0.7-1.6-0.7h-8.1\r\n\tc-0.5,0-1.1,0.2-1.5,0.7l-5.5,5.4c-0.6,0.6-0.9,1.3-0.9,2.1V28c0,0.6,0.2,1.2,0.7,1.7l5.6,5.6c0.5,0.4,1.1,0.7,1.8,0.7h7.8\r\n\tc0.7,0,1.3-0.3,1.8-0.8l5.4-5.4c0.6-0.6,0.9-1.3,0.9-2.2V20C36,19.3,35.7,18.7,35.3,18.3z M23.4,18c0-0.4,0.3-0.7,0.7-0.7\r\n\tc0.4,0,0.7,0.3,0.7,0.7v9.2c0,0.4-0.3,0.7-0.7,0.7c-0.4,0-0.7-0.3-0.7-0.7V18z M24,30.8c-0.5,0-0.9-0.4-0.9-0.9S23.5,29,24,29\r\n\ts0.9,0.4,0.9,0.9S24.5,30.8,24,30.8z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "fSow":
 /***/ (function(module, exports) {
 
-module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\"\n\t viewBox=\"0 0 48 48\" style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\n<path id=\"icon_x2F_Social_x2F_pinterest-fill-path-1_1_\" style=\"fill:#111111;\" d=\"M24,8C15.2,8,8,15.2,8,24s7.2,16,16,16\n\ts16-7.2,16-16S32.8,8,24,8z M25.3,28.1c-1.1,0-2.1-0.6-2.4-1.2c0,0-0.6,2.3-0.7,2.7c-0.4,1.6-1.7,3.1-1.8,3.2\n\tc-0.1,0.1-0.2,0.1-0.2-0.1s-0.3-2.2,0-3.8c0.2-0.8,1.3-5.4,1.3-5.4s-0.3-0.6-0.3-1.6c0-1.5,0.9-2.6,1.9-2.6c0.9,0,1.3,0.7,1.3,1.5\n\tc0,0.9-0.6,2.3-0.9,3.5c-0.2,1.1,0.5,1.9,1.6,1.9c1.9,0,3.1-2.4,3.1-5.3c0-2.2-1.5-3.8-4.1-3.8c-3,0-4.9,2.2-4.9,4.7\n\tc0,0.9,0.3,1.5,0.7,1.9c0.2,0.2,0.2,0.3,0.1,0.6c0,0.2-0.2,0.6-0.2,0.8c-0.1,0.3-0.3,0.3-0.5,0.2c-1.4-0.6-2-2.1-2-3.8\n\tc0-2.8,2.4-6.2,7.1-6.2c3.8,0,6.3,2.7,6.3,5.7C30.7,25.2,28.5,28.1,25.3,28.1z\"/>\n</svg>\n"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\"\r\n\t viewBox=\"0 0 48 48\" style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"icon_x2F_Social_x2F_pinterest-fill-path-1_1_\" style=\"fill:#111111;\" d=\"M24,8C15.2,8,8,15.2,8,24s7.2,16,16,16\r\n\ts16-7.2,16-16S32.8,8,24,8z M25.3,28.1c-1.1,0-2.1-0.6-2.4-1.2c0,0-0.6,2.3-0.7,2.7c-0.4,1.6-1.7,3.1-1.8,3.2\r\n\tc-0.1,0.1-0.2,0.1-0.2-0.1s-0.3-2.2,0-3.8c0.2-0.8,1.3-5.4,1.3-5.4s-0.3-0.6-0.3-1.6c0-1.5,0.9-2.6,1.9-2.6c0.9,0,1.3,0.7,1.3,1.5\r\n\tc0,0.9-0.6,2.3-0.9,3.5c-0.2,1.1,0.5,1.9,1.6,1.9c1.9,0,3.1-2.4,3.1-5.3c0-2.2-1.5-3.8-4.1-3.8c-3,0-4.9,2.2-4.9,4.7\r\n\tc0,0.9,0.3,1.5,0.7,1.9c0.2,0.2,0.2,0.3,0.1,0.6c0,0.2-0.2,0.6-0.2,0.8c-0.1,0.3-0.3,0.3-0.5,0.2c-1.4-0.6-2-2.1-2-3.8\r\n\tc0-2.8,2.4-6.2,7.1-6.2c3.8,0,6.3,2.7,6.3,5.7C30.7,25.2,28.5,28.1,25.3,28.1z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
@@ -23796,9 +24216,9 @@ var _temp = function () {
         return;
     }
 
-    __REACT_HOT_LOADER__.register(CreateInput, "CreateInput", "/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/containers/CreateInput.js");
+    __REACT_HOT_LOADER__.register(CreateInput, "CreateInput", "C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/containers/CreateInput.js");
 
-    __REACT_HOT_LOADER__.register(_default, "default", "/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/containers/CreateInput.js");
+    __REACT_HOT_LOADER__.register(_default, "default", "C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/containers/CreateInput.js");
 }();
 
 ;
@@ -23808,49 +24228,49 @@ var _temp = function () {
 /***/ "fdEA":
 /***/ (function(module, exports) {
 
-module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<svg version=\"1.1\" id=\"icon_x2F_Utility_x2F_Cart_x2F_express-checkout-Layer_1\"\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\n<path id=\"icon_x2F_Utility_x2F_Cart_x2F_express-checkout-path-1_1_\" style=\"fill:#111111;\" d=\"M34.8,14.3c0,0-0.1-0.3-0.5-0.3H23.6\n\tc-0.4,0-0.6,0.3-0.6,0.3l-3.1,3.1L18,32.8c-0.1,0.6,0.3,1.2,1,1.2h15.6c0.6,0,1.2-0.5,1.3-1.2L37,17.4L34.8,14.3z M33,22.2\n\tc-0.4,1.6-2.2,4.7-5.5,4.7c-1.2,0-2.2-0.4-3-1.2C23.1,24.3,23,22.1,23,22c0-0.4,0.3-0.7,0.7-0.7c0.4,0,0.7,0.3,0.7,0.7\n\tc0,0,0,1,0.4,1.9c0.5,1.1,1.4,1.7,2.7,1.7c1.3,0,2.4-0.6,3.3-1.8c0.7-0.9,1-1.9,1-1.9c0.1-0.4,0.5-0.6,0.8-0.5\n\tC32.9,21.4,33.1,21.8,33,22.2z M16.8,24.7h-4.3c-0.4,0-0.7-0.3-0.7-0.7s0.3-0.7,0.7-0.7h4.3c0.4,0,0.7,0.3,0.7,0.7\n\tS17.1,24.7,16.8,24.7z M16.3,28.8h-2.2c-0.4,0-0.7-0.3-0.7-0.7c0-0.4,0.3-0.7,0.7-0.7h2.3c0.4,0,0.7,0.3,0.7,0.7\n\tC17,28.4,16.7,28.8,16.3,28.8z M17.6,20.7h-5.9c-0.4,0-0.7-0.3-0.7-0.7s0.3-0.7,0.7-0.7h5.9c0.4,0,0.7,0.3,0.7,0.7\n\tC18.2,20.4,17.9,20.7,17.6,20.7z\"/>\n</svg>\n"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"icon_x2F_Utility_x2F_Cart_x2F_express-checkout-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"icon_x2F_Utility_x2F_Cart_x2F_express-checkout-path-1_1_\" style=\"fill:#111111;\" d=\"M34.8,14.3c0,0-0.1-0.3-0.5-0.3H23.6\r\n\tc-0.4,0-0.6,0.3-0.6,0.3l-3.1,3.1L18,32.8c-0.1,0.6,0.3,1.2,1,1.2h15.6c0.6,0,1.2-0.5,1.3-1.2L37,17.4L34.8,14.3z M33,22.2\r\n\tc-0.4,1.6-2.2,4.7-5.5,4.7c-1.2,0-2.2-0.4-3-1.2C23.1,24.3,23,22.1,23,22c0-0.4,0.3-0.7,0.7-0.7c0.4,0,0.7,0.3,0.7,0.7\r\n\tc0,0,0,1,0.4,1.9c0.5,1.1,1.4,1.7,2.7,1.7c1.3,0,2.4-0.6,3.3-1.8c0.7-0.9,1-1.9,1-1.9c0.1-0.4,0.5-0.6,0.8-0.5\r\n\tC32.9,21.4,33.1,21.8,33,22.2z M16.8,24.7h-4.3c-0.4,0-0.7-0.3-0.7-0.7s0.3-0.7,0.7-0.7h4.3c0.4,0,0.7,0.3,0.7,0.7\r\n\tS17.1,24.7,16.8,24.7z M16.3,28.8h-2.2c-0.4,0-0.7-0.3-0.7-0.7c0-0.4,0.3-0.7,0.7-0.7h2.3c0.4,0,0.7,0.3,0.7,0.7\r\n\tC17,28.4,16.7,28.8,16.3,28.8z M17.6,20.7h-5.9c-0.4,0-0.7-0.3-0.7-0.7s0.3-0.7,0.7-0.7h5.9c0.4,0,0.7,0.3,0.7,0.7\r\n\tC18.2,20.4,17.9,20.7,17.6,20.7z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "gFoA":
 /***/ (function(module, exports) {
 
-module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<svg version=\"1.1\" id=\"icon_x2F_Utility_x2F_Calendar_x2F_appointment-Layer_1\"\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\n<path id=\"icon_x2F_Utility_x2F_Calendar_x2F_appointment-path-1_1_\" style=\"fill:#111111;\" d=\"M29.9,18.1c-0.4,0-0.6-0.3-0.6-0.6\n\tv-3.9c0-0.4,0.3-0.6,0.6-0.6c0.4,0,0.6,0.3,0.6,0.6v3.8C30.5,17.8,30.2,18.1,29.9,18.1z M18.2,18.1c-0.4,0-0.7-0.3-0.7-0.6v-3.9\n\tc0-0.3,0.3-0.6,0.7-0.6c0.4,0,0.7,0.3,0.7,0.6v3.8C18.8,17.8,18.5,18.1,18.2,18.1z M31.1,14.9h3c1.7,0,2.9,1.1,2.9,2.8v14.6\n\tc0,1.6-1.2,2.8-2.8,2.8H13.8C12.2,35,11,33.9,11,32.3V17.7c0-1.7,1.2-2.8,2.8-2.8h3v2.5c0,0.7,0.6,1.3,1.3,1.3s1.3-0.6,1.3-1.3v-2.5\n\th9.1v2.5c0,0.7,0.6,1.3,1.3,1.3c0.7,0,1.3-0.6,1.3-1.3C31.1,17.4,31.1,14.9,31.1,14.9z M14.9,29.1h1.3v1.3h-1.3V29.1z M14.9,24.4\n\th1.3v1.3h-1.3V24.4z M14.9,20.2h1.3v1.3h-1.3C14.9,21.5,14.9,20.2,14.9,20.2z M18.3,29.1h1.3v1.3h-1.3V29.1z M18.3,24.4h1.3v1.3\n\th-1.3V24.4z M18.3,20.2h1.3v1.3h-1.3C18.3,21.5,18.3,20.2,18.3,20.2z M21.6,29.1h1.3v1.3h-1.3V29.1z M21.6,24.4h1.3v1.3h-1.3V24.4z\n\t M21.6,20.2h1.3v1.3h-1.3C21.6,21.5,21.6,20.2,21.6,20.2z M25.1,29.1h1.3v1.3h-1.3V29.1z M25.1,24.4h1.3v1.3h-1.3V24.4z M25.1,20.2\n\th1.3v1.3h-1.3C25.1,21.5,25.1,20.2,25.1,20.2z M28.4,29.1h1.3v1.3h-1.3V29.1z M28.4,24.4h1.3v1.3h-1.3V24.4z M28.4,20.2h1.3v1.3\n\th-1.3C28.4,21.5,28.4,20.2,28.4,20.2z M31.8,29.1h1.3v1.3h-1.3V29.1z M31.8,24.4h1.3v1.3h-1.3V24.4z M31.8,20.2h1.3v1.3h-1.3\n\tC31.8,21.5,31.8,20.2,31.8,20.2z\"/>\n</svg>\n"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"icon_x2F_Utility_x2F_Calendar_x2F_appointment-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"icon_x2F_Utility_x2F_Calendar_x2F_appointment-path-1_1_\" style=\"fill:#111111;\" d=\"M29.9,18.1c-0.4,0-0.6-0.3-0.6-0.6\r\n\tv-3.9c0-0.4,0.3-0.6,0.6-0.6c0.4,0,0.6,0.3,0.6,0.6v3.8C30.5,17.8,30.2,18.1,29.9,18.1z M18.2,18.1c-0.4,0-0.7-0.3-0.7-0.6v-3.9\r\n\tc0-0.3,0.3-0.6,0.7-0.6c0.4,0,0.7,0.3,0.7,0.6v3.8C18.8,17.8,18.5,18.1,18.2,18.1z M31.1,14.9h3c1.7,0,2.9,1.1,2.9,2.8v14.6\r\n\tc0,1.6-1.2,2.8-2.8,2.8H13.8C12.2,35,11,33.9,11,32.3V17.7c0-1.7,1.2-2.8,2.8-2.8h3v2.5c0,0.7,0.6,1.3,1.3,1.3s1.3-0.6,1.3-1.3v-2.5\r\n\th9.1v2.5c0,0.7,0.6,1.3,1.3,1.3c0.7,0,1.3-0.6,1.3-1.3C31.1,17.4,31.1,14.9,31.1,14.9z M14.9,29.1h1.3v1.3h-1.3V29.1z M14.9,24.4\r\n\th1.3v1.3h-1.3V24.4z M14.9,20.2h1.3v1.3h-1.3C14.9,21.5,14.9,20.2,14.9,20.2z M18.3,29.1h1.3v1.3h-1.3V29.1z M18.3,24.4h1.3v1.3\r\n\th-1.3V24.4z M18.3,20.2h1.3v1.3h-1.3C18.3,21.5,18.3,20.2,18.3,20.2z M21.6,29.1h1.3v1.3h-1.3V29.1z M21.6,24.4h1.3v1.3h-1.3V24.4z\r\n\t M21.6,20.2h1.3v1.3h-1.3C21.6,21.5,21.6,20.2,21.6,20.2z M25.1,29.1h1.3v1.3h-1.3V29.1z M25.1,24.4h1.3v1.3h-1.3V24.4z M25.1,20.2\r\n\th1.3v1.3h-1.3C25.1,21.5,25.1,20.2,25.1,20.2z M28.4,29.1h1.3v1.3h-1.3V29.1z M28.4,24.4h1.3v1.3h-1.3V24.4z M28.4,20.2h1.3v1.3\r\n\th-1.3C28.4,21.5,28.4,20.2,28.4,20.2z M31.8,29.1h1.3v1.3h-1.3V29.1z M31.8,24.4h1.3v1.3h-1.3V24.4z M31.8,20.2h1.3v1.3h-1.3\r\n\tC31.8,21.5,31.8,20.2,31.8,20.2z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "gV9K":
 /***/ (function(module, exports) {
 
-module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<svg version=\"1.1\" id=\"icon_x2F_Social_x2F_blog-fill-Layer_1\"\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\n<path id=\"icon_x2F_Social_x2F_blog-fill-path-1_1_\" style=\"fill:#111111;\" d=\"M24,8C15.2,8,8,15.2,8,24s7.2,16,16,16s16-7.2,16-16\n\tS32.8,8,24,8z M20.6,31.9c-2.3,0-4.2-1.9-4.2-4.2v-7.3c0-0.5,0.4-0.9,0.9-0.9s0.9,0.4,0.9,0.9v7.3c0,1.3,1,2.3,2.3,2.3\n\ts2.3-1,2.3-2.3s-1-2.3-2.3-2.3c-0.5,0-0.9-0.4-0.9-0.9s0.4-0.9,0.9-0.9c2.3,0,4.2,1.9,4.2,4.2C24.8,30.1,22.9,31.9,20.6,31.9z\n\t M27,26.6c-0.5,0-0.9-0.4-0.9-0.9c0-1.9-1.5-3.4-3.4-3.4c-0.5,0-0.9-0.4-0.9-0.9s0.4-0.9,0.9-0.9c2.9,0,5.2,2.4,5.2,5.2\n\tC27.9,26.2,27.5,26.6,27,26.6z M31,27.1c-0.5,0-0.9-0.4-0.9-0.9c0-4.4-3.5-7.9-7.9-7.9c-0.5,0-0.9-0.4-0.9-0.9s0.4-0.9,0.9-0.9\n\tc5.4,0,9.8,4.4,9.8,9.8C31.9,26.7,31.5,27.1,31,27.1z\"/>\n</svg>\n"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"icon_x2F_Social_x2F_blog-fill-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"icon_x2F_Social_x2F_blog-fill-path-1_1_\" style=\"fill:#111111;\" d=\"M24,8C15.2,8,8,15.2,8,24s7.2,16,16,16s16-7.2,16-16\r\n\tS32.8,8,24,8z M20.6,31.9c-2.3,0-4.2-1.9-4.2-4.2v-7.3c0-0.5,0.4-0.9,0.9-0.9s0.9,0.4,0.9,0.9v7.3c0,1.3,1,2.3,2.3,2.3\r\n\ts2.3-1,2.3-2.3s-1-2.3-2.3-2.3c-0.5,0-0.9-0.4-0.9-0.9s0.4-0.9,0.9-0.9c2.3,0,4.2,1.9,4.2,4.2C24.8,30.1,22.9,31.9,20.6,31.9z\r\n\t M27,26.6c-0.5,0-0.9-0.4-0.9-0.9c0-1.9-1.5-3.4-3.4-3.4c-0.5,0-0.9-0.4-0.9-0.9s0.4-0.9,0.9-0.9c2.9,0,5.2,2.4,5.2,5.2\r\n\tC27.9,26.2,27.5,26.6,27,26.6z M31,27.1c-0.5,0-0.9-0.4-0.9-0.9c0-4.4-3.5-7.9-7.9-7.9c-0.5,0-0.9-0.4-0.9-0.9s0.4-0.9,0.9-0.9\r\n\tc5.4,0,9.8,4.4,9.8,9.8C31.9,26.7,31.5,27.1,31,27.1z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "hNYp":
 /***/ (function(module, exports) {
 
-module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\"\n\t viewBox=\"0 0 26 26\" style=\"enable-background:new 0 0 26 26;\" xml:space=\"preserve\">\n<g transform=\"translate(-11 -11)\">\n\t<path style=\"fill:none;\" d=\"M0,0h48v48H0V0z\"/>\n\t<circle style=\"fill:none;stroke:#111111;\" cx=\"24\" cy=\"24\" r=\"12\"/>\n\t<path style=\"fill:#111111;\" d=\"M22.5,26.7v-0.6c0-0.7,0.1-1.2,0.4-1.7c0.2-0.5,0.7-0.9,1.3-1.4c0.7-0.6,1.2-1,1.4-1.4\n\t\tc0.2-0.3,0.3-0.7,0.3-1.2c0-0.5-0.2-0.9-0.5-1.2c-0.3-0.3-0.8-0.4-1.5-0.4c-0.6,0-1.1,0.1-1.6,0.3c-0.5,0.2-1,0.4-1.5,0.6L20,18\n\t\tc1.2-0.7,2.6-1.1,4-1c1.2,0,2.2,0.3,2.9,0.9c0.7,0.6,1.1,1.4,1.1,2.5c0,0.5-0.1,0.9-0.2,1.2c-0.1,0.4-0.4,0.7-0.6,1\n\t\tc-0.3,0.3-0.8,0.8-1.4,1.3c-0.6,0.5-1,0.8-1.2,1.1s-0.3,0.7-0.3,1.2v0.4H22.5L22.5,26.7z M22.1,29.6c0-0.9,0.5-1.4,1.4-1.4\n\t\tc0.4,0,0.8,0.1,1,0.4c0.2,0.2,0.4,0.6,0.4,1c0,0.4-0.1,0.8-0.4,1c-0.2,0.3-0.6,0.4-1,0.4s-0.8-0.1-1-0.4\n\t\tC22.2,30.4,22.1,30.1,22.1,29.6z\"/>\n</g>\n</svg>\n"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\"\r\n\t viewBox=\"0 0 26 26\" style=\"enable-background:new 0 0 26 26;\" xml:space=\"preserve\">\r\n<g transform=\"translate(-11 -11)\">\r\n\t<path style=\"fill:none;\" d=\"M0,0h48v48H0V0z\"/>\r\n\t<circle style=\"fill:none;stroke:#111111;\" cx=\"24\" cy=\"24\" r=\"12\"/>\r\n\t<path style=\"fill:#111111;\" d=\"M22.5,26.7v-0.6c0-0.7,0.1-1.2,0.4-1.7c0.2-0.5,0.7-0.9,1.3-1.4c0.7-0.6,1.2-1,1.4-1.4\r\n\t\tc0.2-0.3,0.3-0.7,0.3-1.2c0-0.5-0.2-0.9-0.5-1.2c-0.3-0.3-0.8-0.4-1.5-0.4c-0.6,0-1.1,0.1-1.6,0.3c-0.5,0.2-1,0.4-1.5,0.6L20,18\r\n\t\tc1.2-0.7,2.6-1.1,4-1c1.2,0,2.2,0.3,2.9,0.9c0.7,0.6,1.1,1.4,1.1,2.5c0,0.5-0.1,0.9-0.2,1.2c-0.1,0.4-0.4,0.7-0.6,1\r\n\t\tc-0.3,0.3-0.8,0.8-1.4,1.3c-0.6,0.5-1,0.8-1.2,1.1s-0.3,0.7-0.3,1.2v0.4H22.5L22.5,26.7z M22.1,29.6c0-0.9,0.5-1.4,1.4-1.4\r\n\t\tc0.4,0,0.8,0.1,1,0.4c0.2,0.2,0.4,0.6,0.4,1c0,0.4-0.1,0.8-0.4,1c-0.2,0.3-0.6,0.4-1,0.4s-0.8-0.1-1-0.4\r\n\t\tC22.2,30.4,22.1,30.1,22.1,29.6z\"/>\r\n</g>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "hh0Z":
 /***/ (function(module, exports) {
 
-module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<svg version=\"1.1\" id=\"icon_x2F_Nav_x2F_triangle-down-Layer_1\"\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\n<path id=\"icon_x2F_Nav_x2F_triangle-down-path-1_1_\" style=\"fill:#111111;\" d=\"M24,28l-6-8h12L24,28z\"/>\n</svg>\n"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"icon_x2F_Nav_x2F_triangle-down-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"icon_x2F_Nav_x2F_triangle-down-path-1_1_\" style=\"fill:#111111;\" d=\"M24,28l-6-8h12L24,28z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "j1tK":
 /***/ (function(module, exports) {
 
-module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<svg version=\"1.1\" id=\"action-thumbsdown-line-Layer_1\"\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\n<path id=\"action-thumbsdown-line-a_1_\" style=\"fill:#111111;\" d=\"M34.8,12.5h-5.7c-0.7,0-1.2,0.5-1.2,1.2v0.2c-0.8,0-1.3,0-1.6-0.1\n\tl-0.6-0.7c-0.6-0.7-1.6-1.1-2.5-1.1l-6,0.2c-1.5,0-2.9,1-3.3,2.5l-1.8,8.4c-0.5,1.8,0.6,3.6,2.3,4.1l3.7,0.9L17.9,31\n\tc-0.1,0.3-0.1,0.6-0.1,0.9v0.6c0,1.9,1.5,3.4,3.4,3.4h0.5c1.1,0,2-0.9,2-2v-1.4c0-0.7,0.1-1.1,0.3-1.5v-0.1l1.4-3.2\n\tc0.5-0.8,1.4-1.4,2.4-1.6v0.2c0,0.7,0.5,1.2,1.2,1.2h5.7c0.7,0,1.2-0.5,1.2-1.2V13.7C36,13,35.4,12.5,34.8,12.5z M24.3,27.1\n\tc0,0,0,0.1-0.1,0.1l-1.4,3.3c-0.3,0.6-0.5,1.2-0.5,2.2V34c0,0.3-0.3,0.6-0.6,0.6h-0.5c-1.1,0-2-0.9-2-1.9V32c0-0.3,0-0.5,0.1-0.8\n\tl0.4-3.5c0-0.3-0.2-0.7-0.5-0.7l-4.3-1.1c-1.1-0.3-1.7-1.4-1.3-2.5l1.6-8.4c0.2-0.9,1-1.5,1.9-1.5l6-0.2c0.6,0,1.1,0.2,1.5,0.7\n\tl0.7,0.8c0.4,0.4,1.2,0.5,2.5,0.5v9.5C26.4,25,25.1,25.8,24.3,27.1z M29.3,13.9h5.3v12.4h-5.3C29.3,26.3,29.3,13.9,29.3,13.9z\"/>\n</svg>\n"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"action-thumbsdown-line-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"action-thumbsdown-line-a_1_\" style=\"fill:#111111;\" d=\"M34.8,12.5h-5.7c-0.7,0-1.2,0.5-1.2,1.2v0.2c-0.8,0-1.3,0-1.6-0.1\r\n\tl-0.6-0.7c-0.6-0.7-1.6-1.1-2.5-1.1l-6,0.2c-1.5,0-2.9,1-3.3,2.5l-1.8,8.4c-0.5,1.8,0.6,3.6,2.3,4.1l3.7,0.9L17.9,31\r\n\tc-0.1,0.3-0.1,0.6-0.1,0.9v0.6c0,1.9,1.5,3.4,3.4,3.4h0.5c1.1,0,2-0.9,2-2v-1.4c0-0.7,0.1-1.1,0.3-1.5v-0.1l1.4-3.2\r\n\tc0.5-0.8,1.4-1.4,2.4-1.6v0.2c0,0.7,0.5,1.2,1.2,1.2h5.7c0.7,0,1.2-0.5,1.2-1.2V13.7C36,13,35.4,12.5,34.8,12.5z M24.3,27.1\r\n\tc0,0,0,0.1-0.1,0.1l-1.4,3.3c-0.3,0.6-0.5,1.2-0.5,2.2V34c0,0.3-0.3,0.6-0.6,0.6h-0.5c-1.1,0-2-0.9-2-1.9V32c0-0.3,0-0.5,0.1-0.8\r\n\tl0.4-3.5c0-0.3-0.2-0.7-0.5-0.7l-4.3-1.1c-1.1-0.3-1.7-1.4-1.3-2.5l1.6-8.4c0.2-0.9,1-1.5,1.9-1.5l6-0.2c0.6,0,1.1,0.2,1.5,0.7\r\n\tl0.7,0.8c0.4,0.4,1.2,0.5,2.5,0.5v9.5C26.4,25,25.1,25.8,24.3,27.1z M29.3,13.9h5.3v12.4h-5.3C29.3,26.3,29.3,13.9,29.3,13.9z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "jUm2":
 /***/ (function(module, exports) {
 
-module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<svg version=\"1.1\" id=\"icon_x2F_Utility_x2F_device-mobile-Layer_1\"\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\n<path id=\"icon_x2F_Utility_x2F_device-mobile-path-1_1_\" style=\"fill:#111111;\" d=\"M32,8H16c-1.2,0-2,1-2,2.2v27.7\n\tc0,1.1,0.8,2.1,2,2.1h16c1.1,0,2-1,2-2.2V10.2C34,9,33.1,8,32,8z M24,37.3c-0.6,0-1.1-0.5-1.1-1.1c0-0.6,0.5-1.1,1.1-1.1\n\ts1.1,0.5,1.1,1.1C25.1,36.8,24.6,37.3,24,37.3z M30.3,32.6c0,0.7-0.7,1.5-1.4,1.5H19c-0.7,0-1.3-0.6-1.3-1.4V13.1\n\tc0-0.3,0.1-0.7,0.3-0.9c0.2-0.3,0.6-0.4,1-0.4h10c0.6,0,1.3,0.5,1.3,1.3V32.6z\"/>\n</svg>\n"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"icon_x2F_Utility_x2F_device-mobile-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"icon_x2F_Utility_x2F_device-mobile-path-1_1_\" style=\"fill:#111111;\" d=\"M32,8H16c-1.2,0-2,1-2,2.2v27.7\r\n\tc0,1.1,0.8,2.1,2,2.1h16c1.1,0,2-1,2-2.2V10.2C34,9,33.1,8,32,8z M24,37.3c-0.6,0-1.1-0.5-1.1-1.1c0-0.6,0.5-1.1,1.1-1.1\r\n\ts1.1,0.5,1.1,1.1C25.1,36.8,24.6,37.3,24,37.3z M30.3,32.6c0,0.7-0.7,1.5-1.4,1.5H19c-0.7,0-1.3-0.6-1.3-1.4V13.1\r\n\tc0-0.3,0.1-0.7,0.3-0.9c0.2-0.3,0.6-0.4,1-0.4h10c0.6,0,1.3,0.5,1.3,1.3V32.6z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
@@ -23864,49 +24284,49 @@ module.exports = "<svg id=\"payment-card-jcp-Layer_1\" xmlns=\"http://www.w3.org
 /***/ "kNu/":
 /***/ (function(module, exports) {
 
-module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<svg version=\"1.1\" id=\"icon_x2F_Utility_x2F_shield-Layer_1\"\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\n<path id=\"icon_x2F_Utility_x2F_shield-path-1_1_\" style=\"fill:#111111;\" d=\"M24,36c-9.4-2.9-10-9.7-10-9.7V12h20v14.3\n\tC34,26.3,33.4,33.1,24,36z M20.9,22.7c-0.7-0.5-1.8-0.4-2.4,0.3s-0.4,1.8,0.3,2.3l3.4,2.5c0.7,0.5,1.8,0.4,2.4-0.3l5.9-7.8\n\tc0.6-0.7,0.4-1.8-0.4-2.3c-0.7-0.5-1.8-0.4-2.3,0.3l-4.9,6.5C22.9,24.2,20.9,22.7,20.9,22.7z\"/>\n</svg>\n"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"icon_x2F_Utility_x2F_shield-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"icon_x2F_Utility_x2F_shield-path-1_1_\" style=\"fill:#111111;\" d=\"M24,36c-9.4-2.9-10-9.7-10-9.7V12h20v14.3\r\n\tC34,26.3,33.4,33.1,24,36z M20.9,22.7c-0.7-0.5-1.8-0.4-2.4,0.3s-0.4,1.8,0.3,2.3l3.4,2.5c0.7,0.5,1.8,0.4,2.4-0.3l5.9-7.8\r\n\tc0.6-0.7,0.4-1.8-0.4-2.3c-0.7-0.5-1.8-0.4-2.3,0.3l-4.9,6.5C22.9,24.2,20.9,22.7,20.9,22.7z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "lSM2":
 /***/ (function(module, exports) {
 
-module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<svg version=\"1.1\" id=\"icon_x2F_Nav_x2F_triangle-right-Layer_1\"\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\n<path id=\"icon_x2F_Nav_x2F_triangle-right-path-1_1_\" style=\"fill:#111111;\" d=\"M28,24l-8,6V18L28,24z\"/>\n</svg>\n"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"icon_x2F_Nav_x2F_triangle-right-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"icon_x2F_Nav_x2F_triangle-right-path-1_1_\" style=\"fill:#111111;\" d=\"M28,24l-8,6V18L28,24z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "mPJs":
 /***/ (function(module, exports) {
 
-module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<svg version=\"1.1\" id=\"action-heart-line-Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"\n\t x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\" style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\n<path id=\"action-heart-line-a_1_\" style=\"fill:#111111;\" d=\"M28.7,13.4c1.3,0,2.8,0.6,3.7,1.6c1.3,1.3,2.1,3.1,2.1,4.9\n\tc0,1.8-0.7,3.6-2,5l-8.9,9.2c-0.3,0.3-0.5,0.4-0.6,0.5c-0.1,0-0.2-0.1-0.5-0.5l-8.9-9.2c-1.4-1.5-2.1-3.3-2.1-5\n\tc0-1.7,0.8-3.5,2.3-4.9c1-1,2.3-1.6,3.6-1.6c2.6,0,4.4,2.7,4.4,2.7l1.2,1.8l1.2-1.8C24.2,16.1,26.2,13.4,28.7,13.4 M28.7,12\n\tc-3.3,0-5.7,3.4-5.7,3.4S20.8,12,17.3,12c-1.7,0-3.4,0.8-4.6,2c-1.6,1.6-2.7,3.6-2.7,5.9s1,4.4,2.5,6l8.9,9.2c0.4,0.5,1,0.9,1.6,0.9\n\ts1.3-0.4,1.7-0.9l8.9-9.2c1.5-1.6,2.4-3.7,2.3-6c0-2.3-1-4.3-2.5-5.9C32.2,12.8,30.4,12,28.7,12\"/>\n</svg>\n"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"action-heart-line-Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"\r\n\t x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\" style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"action-heart-line-a_1_\" style=\"fill:#111111;\" d=\"M28.7,13.4c1.3,0,2.8,0.6,3.7,1.6c1.3,1.3,2.1,3.1,2.1,4.9\r\n\tc0,1.8-0.7,3.6-2,5l-8.9,9.2c-0.3,0.3-0.5,0.4-0.6,0.5c-0.1,0-0.2-0.1-0.5-0.5l-8.9-9.2c-1.4-1.5-2.1-3.3-2.1-5\r\n\tc0-1.7,0.8-3.5,2.3-4.9c1-1,2.3-1.6,3.6-1.6c2.6,0,4.4,2.7,4.4,2.7l1.2,1.8l1.2-1.8C24.2,16.1,26.2,13.4,28.7,13.4 M28.7,12\r\n\tc-3.3,0-5.7,3.4-5.7,3.4S20.8,12,17.3,12c-1.7,0-3.4,0.8-4.6,2c-1.6,1.6-2.7,3.6-2.7,5.9s1,4.4,2.5,6l8.9,9.2c0.4,0.5,1,0.9,1.6,0.9\r\n\ts1.3-0.4,1.7-0.9l8.9-9.2c1.5-1.6,2.4-3.7,2.3-6c0-2.3-1-4.3-2.5-5.9C32.2,12.8,30.4,12,28.7,12\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "oW2K":
 /***/ (function(module, exports) {
 
-module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<svg version=\"1.1\" id=\"icon_x2F_Utility_x2F_device-phone-Layer_1\"\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\n<path id=\"icon_x2F_Utility_x2F_device-phone-path-1_1_\" style=\"fill:#111111;\" d=\"M23.4,19.2c3,0,5.5,2.5,5.5,5.5\n\tc0,0.4-0.3,0.7-0.7,0.7c-0.4,0-0.7-0.3-0.7-0.7c0-2.3-1.8-4.1-4.1-4.1c-0.4,0-0.7-0.3-0.7-0.7C22.7,19.6,23,19.2,23.4,19.2z\n\t M31.9,26.1c-0.4,0-0.7-0.3-0.7-0.7c0-2.3-0.9-4.4-2.5-6c-1.6-1.6-3.8-2.5-6.1-2.5c-0.4,0-0.7-0.3-0.7-0.7s0.3-0.7,0.7-0.7\n\tc2.7,0,5.2,1,7,2.9c1.9,1.9,2.9,4.3,2.9,7C32.6,25.8,32.2,26.1,31.9,26.1z M21.9,12C29.7,12,36,18.3,36,26.1c0,0.4-0.3,0.7-0.7,0.7\n\ts-0.7-0.3-0.7-0.7c0-7-5.7-12.7-12.7-12.7c-0.4,0-0.7-0.3-0.7-0.7C21.2,12.3,21.5,12,21.9,12z M33.1,30.9c0.4,0.3,0.6,0.7,0.6,1.2\n\tc0,0.5-0.2,0.9-0.6,1.2C31.7,34.6,30,36,28.2,36c-2.3,0-5.9-0.6-10.8-5.5c-4.1-4.1-5.8-7.4-5.3-10.7c0.2-1.7,1.2-3.7,1.6-4.5\n\tc0.3-0.6,0.9-1,1.6-1c0.5,0,0.9,0.3,1.2,0.5l0.1,0.1l3.2,3.1c0.6,0.5,0.9,1.2,0.9,2c0,0.7-0.3,1.4-0.7,1.9L19,23\n\tc0.4,0.7,1.1,1.9,2.4,3.2c1.4,1.4,2.8,2.3,3.5,2.7l1.5-1.3c0.4-0.4,0.9-0.6,1.5-0.6c0.5,0,1.1,0.2,1.5,0.6\n\tC29.4,27.6,33.1,30.9,33.1,30.9z\"/>\n</svg>\n"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"icon_x2F_Utility_x2F_device-phone-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"icon_x2F_Utility_x2F_device-phone-path-1_1_\" style=\"fill:#111111;\" d=\"M23.4,19.2c3,0,5.5,2.5,5.5,5.5\r\n\tc0,0.4-0.3,0.7-0.7,0.7c-0.4,0-0.7-0.3-0.7-0.7c0-2.3-1.8-4.1-4.1-4.1c-0.4,0-0.7-0.3-0.7-0.7C22.7,19.6,23,19.2,23.4,19.2z\r\n\t M31.9,26.1c-0.4,0-0.7-0.3-0.7-0.7c0-2.3-0.9-4.4-2.5-6c-1.6-1.6-3.8-2.5-6.1-2.5c-0.4,0-0.7-0.3-0.7-0.7s0.3-0.7,0.7-0.7\r\n\tc2.7,0,5.2,1,7,2.9c1.9,1.9,2.9,4.3,2.9,7C32.6,25.8,32.2,26.1,31.9,26.1z M21.9,12C29.7,12,36,18.3,36,26.1c0,0.4-0.3,0.7-0.7,0.7\r\n\ts-0.7-0.3-0.7-0.7c0-7-5.7-12.7-12.7-12.7c-0.4,0-0.7-0.3-0.7-0.7C21.2,12.3,21.5,12,21.9,12z M33.1,30.9c0.4,0.3,0.6,0.7,0.6,1.2\r\n\tc0,0.5-0.2,0.9-0.6,1.2C31.7,34.6,30,36,28.2,36c-2.3,0-5.9-0.6-10.8-5.5c-4.1-4.1-5.8-7.4-5.3-10.7c0.2-1.7,1.2-3.7,1.6-4.5\r\n\tc0.3-0.6,0.9-1,1.6-1c0.5,0,0.9,0.3,1.2,0.5l0.1,0.1l3.2,3.1c0.6,0.5,0.9,1.2,0.9,2c0,0.7-0.3,1.4-0.7,1.9L19,23\r\n\tc0.4,0.7,1.1,1.9,2.4,3.2c1.4,1.4,2.8,2.3,3.5,2.7l1.5-1.3c0.4-0.4,0.9-0.6,1.5-0.6c0.5,0,1.1,0.2,1.5,0.6\r\n\tC29.4,27.6,33.1,30.9,33.1,30.9z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "oWX6":
 /***/ (function(module, exports) {
 
-module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<svg version=\"1.1\" id=\"icon_x2F_Nav_x2F_close-Layer_1\"\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\n<path id=\"icon_x2F_Nav_x2F_close-path-1_1_\" style=\"fill:#111111;\" d=\"M24,22.5L13.9,12.3c-0.4-0.4-1.1-0.4-1.5,0\n\tc-0.4,0.4-0.4,1.1,0,1.5L22.5,24L12.3,34.1c-0.4,0.4-0.4,1.1,0,1.5c0.4,0.4,1.1,0.4,1.5,0L24,25.5l10.1,10.1c0.4,0.4,1.1,0.4,1.5,0\n\tc0.4-0.4,0.4-1.1,0-1.5L25.5,24l10.2-10.1c0.4-0.4,0.4-1.1,0-1.5c-0.4-0.4-1.1-0.4-1.5,0L24,22.5z\"/>\n</svg>\n"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"icon_x2F_Nav_x2F_close-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"icon_x2F_Nav_x2F_close-path-1_1_\" style=\"fill:#111111;\" d=\"M24,22.5L13.9,12.3c-0.4-0.4-1.1-0.4-1.5,0\r\n\tc-0.4,0.4-0.4,1.1,0,1.5L22.5,24L12.3,34.1c-0.4,0.4-0.4,1.1,0,1.5c0.4,0.4,1.1,0.4,1.5,0L24,25.5l10.1,10.1c0.4,0.4,1.1,0.4,1.5,0\r\n\tc0.4-0.4,0.4-1.1,0-1.5L25.5,24l10.2-10.1c0.4-0.4,0.4-1.1,0-1.5c-0.4-0.4-1.1-0.4-1.5,0L24,22.5z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "om3C":
 /***/ (function(module, exports) {
 
-module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<svg version=\"1.1\" id=\"icon_x2F_Nav_x2F_back-to-top-Layer_1\"\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\n<path id=\"icon_x2F_Nav_x2F_back-to-top-path-1_1_\" style=\"fill:#111111;\" d=\"M23.7,31c-1.5,0-2.6,1.2-2.6,2.7s1.1,2.7,2.6,2.7\n\ts2.6-1.2,2.6-2.7C26.3,32.3,25.2,31,23.7,31z M33.4,31.2h-1.5v2.7h1.5c1,0,1.5-0.6,1.5-1.3C34.9,31.6,34.3,31.2,33.4,31.2z M24,0\n\tC10.7,0,0,10.7,0,24s10.7,24,24,24s24-10.7,24-24S37.3,0,24,0z M18.3,31.2h-2.6v6.9h-1.9v-6.9h-2.6v-1.8h7.2\n\tC18.4,29.4,18.3,31.2,18.3,31.2z M28.3,33.8c0,2.5-1.9,4.5-4.6,4.5s-4.6-2-4.6-4.5s1.9-4.5,4.6-4.5S28.3,31.3,28.3,33.8z M25.4,11.8\n\tV24c0,0.8-0.6,1.4-1.4,1.4s-1.4-0.6-1.4-1.4V11.8c-1.8,1.8-4.1,4.1-4.1,4.2c-0.3,0.3-0.6,0.4-1,0.4s-0.7-0.1-1-0.4\n\tc-0.5-0.5-0.5-1.4,0-2l6.2-6.2c0.5-0.5,0.9-0.6,1.2-0.6h0.4c0.3,0,0.7,0.2,1.2,0.6l6.2,6.2c0.5,0.5,0.5,1.4,0,2\n\tc-0.5,0.5-1.4,0.5-2,0C29.5,16,27.2,13.7,25.4,11.8z M36.8,32.5c0,2-1.6,3-3.5,3h-1.4v2.6H30v-8.7h3.5\n\tC35.6,29.4,36.8,30.7,36.8,32.5z\"/>\n</svg>\n"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"icon_x2F_Nav_x2F_back-to-top-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"icon_x2F_Nav_x2F_back-to-top-path-1_1_\" style=\"fill:#111111;\" d=\"M23.7,31c-1.5,0-2.6,1.2-2.6,2.7s1.1,2.7,2.6,2.7\r\n\ts2.6-1.2,2.6-2.7C26.3,32.3,25.2,31,23.7,31z M33.4,31.2h-1.5v2.7h1.5c1,0,1.5-0.6,1.5-1.3C34.9,31.6,34.3,31.2,33.4,31.2z M24,0\r\n\tC10.7,0,0,10.7,0,24s10.7,24,24,24s24-10.7,24-24S37.3,0,24,0z M18.3,31.2h-2.6v6.9h-1.9v-6.9h-2.6v-1.8h7.2\r\n\tC18.4,29.4,18.3,31.2,18.3,31.2z M28.3,33.8c0,2.5-1.9,4.5-4.6,4.5s-4.6-2-4.6-4.5s1.9-4.5,4.6-4.5S28.3,31.3,28.3,33.8z M25.4,11.8\r\n\tV24c0,0.8-0.6,1.4-1.4,1.4s-1.4-0.6-1.4-1.4V11.8c-1.8,1.8-4.1,4.1-4.1,4.2c-0.3,0.3-0.6,0.4-1,0.4s-0.7-0.1-1-0.4\r\n\tc-0.5-0.5-0.5-1.4,0-2l6.2-6.2c0.5-0.5,0.9-0.6,1.2-0.6h0.4c0.3,0,0.7,0.2,1.2,0.6l6.2,6.2c0.5,0.5,0.5,1.4,0,2\r\n\tc-0.5,0.5-1.4,0.5-2,0C29.5,16,27.2,13.7,25.4,11.8z M36.8,32.5c0,2-1.6,3-3.5,3h-1.4v2.6H30v-8.7h3.5\r\n\tC35.6,29.4,36.8,30.7,36.8,32.5z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "oxHa":
 /***/ (function(module, exports) {
 
-module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<svg version=\"1.1\" id=\"icon_x2F_Utility_x2F_barcode-Layer_1\"\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\n<path id=\"icon_x2F_Utility_x2F_barcode-path-1_1_\" style=\"fill:#111111;\" d=\"M12,15h1v18h-1V15z M13.9,15h1.9v18h-1.9V15z M16.8,15\n\th3.8v18h-3.8V15z M22.6,15h1.9v18h-1.9V15z M25.4,15h1v18h-1V15z M33.1,15h1v18h-1V15z M35,15h1v18h-1V15z M28.3,15h2.9v18h-2.9V15z\n\t\"/>\n</svg>\n"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"icon_x2F_Utility_x2F_barcode-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"icon_x2F_Utility_x2F_barcode-path-1_1_\" style=\"fill:#111111;\" d=\"M12,15h1v18h-1V15z M13.9,15h1.9v18h-1.9V15z M16.8,15\r\n\th3.8v18h-3.8V15z M22.6,15h1.9v18h-1.9V15z M25.4,15h1v18h-1V15z M33.1,15h1v18h-1V15z M35,15h1v18h-1V15z M28.3,15h2.9v18h-2.9V15z\r\n\t\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
@@ -23927,7 +24347,7 @@ module.exports = "<svg id=\"new-JCP-Mastercard-Layer_1\" xmlns=\"http://www.w3.o
 /***/ "plRc":
 /***/ (function(module, exports) {
 
-module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<svg version=\"1.1\" id=\"action-grid-fill-Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"\n\t x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\" style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\n<path id=\"action-grid-fill-a_1_\" style=\"fill:#111111;\" d=\"M12,13c0-0.6,0.4-1,1-1h8.9c0.6,0,1,0.4,1,1v8.9c0,0.6-0.4,1-1,1H13\n\tc-0.6,0-1-0.4-1-1V13z M12,26.1c0-0.6,0.4-1,1-1h8.9c0.6,0,1,0.4,1,1V35c0,0.6-0.4,1-1,1H13c-0.6,0-1-0.4-1-1V26.1z M25.1,13\n\tc0-0.6,0.4-1,1-1H35c0.6,0,1,0.4,1,1v8.9c0,0.6-0.4,1-1,1h-8.9c-0.6,0-1-0.4-1-1V13z M25.1,26.1c0-0.6,0.4-1,1-1H35c0.6,0,1,0.4,1,1\n\tV35c0,0.6-0.4,1-1,1h-8.9c-0.6,0-1-0.4-1-1V26.1z\"/>\n</svg>\n"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"action-grid-fill-Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"\r\n\t x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\" style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"action-grid-fill-a_1_\" style=\"fill:#111111;\" d=\"M12,13c0-0.6,0.4-1,1-1h8.9c0.6,0,1,0.4,1,1v8.9c0,0.6-0.4,1-1,1H13\r\n\tc-0.6,0-1-0.4-1-1V13z M12,26.1c0-0.6,0.4-1,1-1h8.9c0.6,0,1,0.4,1,1V35c0,0.6-0.4,1-1,1H13c-0.6,0-1-0.4-1-1V26.1z M25.1,13\r\n\tc0-0.6,0.4-1,1-1H35c0.6,0,1,0.4,1,1v8.9c0,0.6-0.4,1-1,1h-8.9c-0.6,0-1-0.4-1-1V13z M25.1,26.1c0-0.6,0.4-1,1-1H35c0.6,0,1,0.4,1,1\r\n\tV35c0,0.6-0.4,1-1,1h-8.9c-0.6,0-1-0.4-1-1V26.1z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
@@ -23941,35 +24361,35 @@ module.exports = "<svg id=\"payment-card-jcvv-Layer_1\" xmlns=\"http://www.w3.or
 /***/ "qZ91":
 /***/ (function(module, exports) {
 
-module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<svg version=\"1.1\" id=\"icon_x2F_Social_x2F_blog-line-Layer_1\"\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\n<path id=\"icon_x2F_Social_x2F_blog-line-path-1_1_\" style=\"fill:#111111;\" d=\"M24,8c8.8,0,16,7.2,16,16s-7.2,16-16,16S8,32.8,8,24\n\tS15.2,8,24,8z M24,38.2c7.8,0,14.2-6.3,14.2-14.2S31.8,9.8,24,9.8S9.8,16.2,9.8,24S16.2,38.2,24,38.2z M22.6,16.2\n\tc5.4,0,9.8,4.4,9.8,9.8c0,0.5-0.4,0.9-0.9,0.9c-0.5,0-0.9-0.4-0.9-0.9c0-4.4-3.5-7.9-7.9-7.9c-0.5,0-0.9-0.4-0.9-0.9\n\tS22.1,16.2,22.6,16.2z M22.6,20.8c2.9,0,5.2,2.4,5.2,5.2c0,0.5-0.4,0.9-0.9,0.9C26.4,27,26,26.6,26,26c0-1.9-1.5-3.4-3.4-3.4\n\tc-0.5,0-0.9-0.4-0.9-0.9S22.1,20.8,22.6,20.8z M21.3,24c2.3,0,4.2,1.9,4.2,4.2s-1.9,4.2-4.2,4.2s-4.2-1.9-4.2-4.2v-7.3\n\tc0-0.5,0.4-0.9,0.9-0.9s0.9,0.4,0.9,0.9v7.3c0,1.3,1,2.3,2.3,2.3c1.3,0,2.3-1,2.3-2.3s-1-2.3-2.3-2.3c-0.5,0-0.9-0.4-0.9-0.9\n\tC20.4,24.4,20.8,24,21.3,24z\"/>\n</svg>\n"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"icon_x2F_Social_x2F_blog-line-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"icon_x2F_Social_x2F_blog-line-path-1_1_\" style=\"fill:#111111;\" d=\"M24,8c8.8,0,16,7.2,16,16s-7.2,16-16,16S8,32.8,8,24\r\n\tS15.2,8,24,8z M24,38.2c7.8,0,14.2-6.3,14.2-14.2S31.8,9.8,24,9.8S9.8,16.2,9.8,24S16.2,38.2,24,38.2z M22.6,16.2\r\n\tc5.4,0,9.8,4.4,9.8,9.8c0,0.5-0.4,0.9-0.9,0.9c-0.5,0-0.9-0.4-0.9-0.9c0-4.4-3.5-7.9-7.9-7.9c-0.5,0-0.9-0.4-0.9-0.9\r\n\tS22.1,16.2,22.6,16.2z M22.6,20.8c2.9,0,5.2,2.4,5.2,5.2c0,0.5-0.4,0.9-0.9,0.9C26.4,27,26,26.6,26,26c0-1.9-1.5-3.4-3.4-3.4\r\n\tc-0.5,0-0.9-0.4-0.9-0.9S22.1,20.8,22.6,20.8z M21.3,24c2.3,0,4.2,1.9,4.2,4.2s-1.9,4.2-4.2,4.2s-4.2-1.9-4.2-4.2v-7.3\r\n\tc0-0.5,0.4-0.9,0.9-0.9s0.9,0.4,0.9,0.9v7.3c0,1.3,1,2.3,2.3,2.3c1.3,0,2.3-1,2.3-2.3s-1-2.3-2.3-2.3c-0.5,0-0.9-0.4-0.9-0.9\r\n\tC20.4,24.4,20.8,24,21.3,24z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "qodu":
 /***/ (function(module, exports) {
 
-module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<svg version=\"1.1\" id=\"icon_x2F_Utility_x2F_Store_x2F_store-Layer_1\"\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\n<path id=\"icon_x2F_Utility_x2F_Store_x2F_store-path-1_1_\" style=\"fill:#111111;\" d=\"M35.8,11H12.2c-1.3,0-2.2,0.9-2.2,2.3v4.1\n\tc0,1,0.6,1.8,1.4,2.1v14.3c0,1.3,0.9,2,2.3,2h1.4v-12c0-1.3,0.9-2.3,2.1-2.3h13.3c1.3,0,2.3,0.9,2.3,2.2v12.1h1.8c1.4,0,2-0.6,2-2\n\tV19.5c0.8-0.3,1.4-1.2,1.4-2.2v-4.1C38,11.8,37.2,11,35.8,11z M36.6,17.3c0,0.5-0.3,0.8-0.8,0.8H12.2c-0.5,0-0.8-0.3-0.8-0.8v-4\n\tc0-0.6,0.3-0.8,0.8-0.8h23.6c0.8,0,0.8,0.4,0.8,0.7C36.6,13.2,36.6,17.3,36.6,17.3z M16.5,23.6c0-0.3,0.1-0.9,0.7-0.9h6.3V37h-7\n\tV23.6z M30.9,22.6c0.4,0,0.9,0.1,0.9,0.8V37h-7V22.6H30.9z\"/>\n</svg>\n"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"icon_x2F_Utility_x2F_Store_x2F_store-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"icon_x2F_Utility_x2F_Store_x2F_store-path-1_1_\" style=\"fill:#111111;\" d=\"M35.8,11H12.2c-1.3,0-2.2,0.9-2.2,2.3v4.1\r\n\tc0,1,0.6,1.8,1.4,2.1v14.3c0,1.3,0.9,2,2.3,2h1.4v-12c0-1.3,0.9-2.3,2.1-2.3h13.3c1.3,0,2.3,0.9,2.3,2.2v12.1h1.8c1.4,0,2-0.6,2-2\r\n\tV19.5c0.8-0.3,1.4-1.2,1.4-2.2v-4.1C38,11.8,37.2,11,35.8,11z M36.6,17.3c0,0.5-0.3,0.8-0.8,0.8H12.2c-0.5,0-0.8-0.3-0.8-0.8v-4\r\n\tc0-0.6,0.3-0.8,0.8-0.8h23.6c0.8,0,0.8,0.4,0.8,0.7C36.6,13.2,36.6,17.3,36.6,17.3z M16.5,23.6c0-0.3,0.1-0.9,0.7-0.9h6.3V37h-7\r\n\tV23.6z M30.9,22.6c0.4,0,0.9,0.1,0.9,0.8V37h-7V22.6H30.9z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "qsna":
 /***/ (function(module, exports) {
 
-module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<svg version=\"1.1\" id=\"icon_x2F_Utility_x2F_parts-services-Layer_1\"\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\n<path id=\"icon_x2F_Utility_x2F_parts-services-path-1_1_\" style=\"fill:#111111;\" d=\"M13.3,34.6c-0.6-0.6-0.6-1.5,0-2.1\n\tc0.6-0.6,1.5-0.6,2.1,0c0.6,0.6,0.6,1.5,0,2.1C14.8,35.2,13.9,35.2,13.3,34.6z M29.4,23.1L16.4,36c-1.2,1.2-3.3,1.2-4.5,0\n\ts-1.2-3.2,0-4.5l13-12.9c-0.5-2,0-4.2,1.6-5.8c1.7-1.7,4.2-2.2,6.4-1.4l-3.7,3.7c-0.5,0.5-0.5,1.4,0,1.9l0.8,0.8l0.1,0.1l0.1,0.1\n\tl0.8,0.8c0.5,0.5,1.4,0.5,1.9,0l3.7-3.7c0.8,2.2,0.3,4.7-1.5,6.4C33.6,23.1,31.4,23.6,29.4,23.1z M27.9,25.9l1.1-1.1l6.8,6.8\n\tc1.2,1.2,1.2,3.2,0,4.5c-1.2,1.2-3.3,1.2-4.5,0l-6.8-6.8l1.1-1.1l7,7c0.2,0.2,0.4,0.2,0.6,0c0.2-0.2,0.2-0.4,0-0.6l-7-7l1-1l7,7\n\tc0.2,0.2,0.4,0.2,0.6,0s0.2-0.4,0-0.6C34.8,33,27.9,25.9,27.9,25.9z M21.8,20.2l-1.7,1.7l-4.2-4.3l-2-0.5l-2.8-4.3l1.5-1.5l4.3,2.7\n\tl0.6,2.1C17.5,16.1,21.8,20.2,21.8,20.2z\"/>\n</svg>\n"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"icon_x2F_Utility_x2F_parts-services-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"icon_x2F_Utility_x2F_parts-services-path-1_1_\" style=\"fill:#111111;\" d=\"M13.3,34.6c-0.6-0.6-0.6-1.5,0-2.1\r\n\tc0.6-0.6,1.5-0.6,2.1,0c0.6,0.6,0.6,1.5,0,2.1C14.8,35.2,13.9,35.2,13.3,34.6z M29.4,23.1L16.4,36c-1.2,1.2-3.3,1.2-4.5,0\r\n\ts-1.2-3.2,0-4.5l13-12.9c-0.5-2,0-4.2,1.6-5.8c1.7-1.7,4.2-2.2,6.4-1.4l-3.7,3.7c-0.5,0.5-0.5,1.4,0,1.9l0.8,0.8l0.1,0.1l0.1,0.1\r\n\tl0.8,0.8c0.5,0.5,1.4,0.5,1.9,0l3.7-3.7c0.8,2.2,0.3,4.7-1.5,6.4C33.6,23.1,31.4,23.6,29.4,23.1z M27.9,25.9l1.1-1.1l6.8,6.8\r\n\tc1.2,1.2,1.2,3.2,0,4.5c-1.2,1.2-3.3,1.2-4.5,0l-6.8-6.8l1.1-1.1l7,7c0.2,0.2,0.4,0.2,0.6,0c0.2-0.2,0.2-0.4,0-0.6l-7-7l1-1l7,7\r\n\tc0.2,0.2,0.4,0.2,0.6,0s0.2-0.4,0-0.6C34.8,33,27.9,25.9,27.9,25.9z M21.8,20.2l-1.7,1.7l-4.2-4.3l-2-0.5l-2.8-4.3l1.5-1.5l4.3,2.7\r\n\tl0.6,2.1C17.5,16.1,21.8,20.2,21.8,20.2z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "rhDH":
 /***/ (function(module, exports) {
 
-module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<svg version=\"1.1\" id=\"action-mail-Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"\n\t x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\" style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\n<path id=\"action-mail-a_1_\" style=\"fill:#111111;\" d=\"M23.2,23.3l-9.9-8l-1.5-1.1c0.2-0.1,0.4-0.2,0.5-0.2h23.1c0.1,0,0.4,0,0.7,0.1\n\tl-1.6,1.2l-9.8,8c-0.1,0.1-0.5,0.2-0.8,0.2S23.4,23.5,23.2,23.3z M37,15.2v16.5c0,1.4-0.9,2.3-2.2,2.3H13.2c-1.3,0-2.2-0.9-2.2-2.3\n\tV15.3l1.5,1.2l9.9,8c0.5,0.4,1.1,0.5,1.5,0.5s1.1-0.2,1.5-0.5l9.8-8L37,15.2z\"/>\n</svg>\n"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"action-mail-Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"\r\n\t x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\" style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"action-mail-a_1_\" style=\"fill:#111111;\" d=\"M23.2,23.3l-9.9-8l-1.5-1.1c0.2-0.1,0.4-0.2,0.5-0.2h23.1c0.1,0,0.4,0,0.7,0.1\r\n\tl-1.6,1.2l-9.8,8c-0.1,0.1-0.5,0.2-0.8,0.2S23.4,23.5,23.2,23.3z M37,15.2v16.5c0,1.4-0.9,2.3-2.2,2.3H13.2c-1.3,0-2.2-0.9-2.2-2.3\r\n\tV15.3l1.5,1.2l9.9,8c0.5,0.4,1.1,0.5,1.5,0.5s1.1-0.2,1.5-0.5l9.8-8L37,15.2z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "rmnD":
 /***/ (function(module, exports) {
 
-module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<svg version=\"1.1\" id=\"icon_x2F_Utility_x2F_Ship_x2F_haul-away-Layer_1\"\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\n<path id=\"icon_x2F_Utility_x2F_Ship_x2F_haul-away-path-1_1_\" style=\"fill:#111111;\" d=\"M15.4,17.7c0.2-0.4,0.8-0.7,1.2-0.7\n\tc0.2,0,0.3,0.1,0.4,0.1l9.3,5l4.6-8.4c0.1-0.1,0.2-0.2,0.4-0.3l4.8-1.4c0.4-0.1,0.8,0.1,0.9,0.5s-0.1,0.8-0.5,0.9L32,14.7l-7.8,14.2\n\tc1,0.7,1.7,1.9,1.7,3.2c0,2.1-1.8,3.9-4,3.9s-4-1.7-4-3.9c0-0.6,0.1-1.1,0.3-1.6l-6.8-3.6c-0.4-0.3-0.5-1.1-0.3-1.5\n\tC11.1,25.4,15.4,17.7,15.4,17.7z M24.5,32.1c0-1.4-1.2-2.5-2.6-2.5s-2.6,1.1-2.6,2.5c0,1.4,1.2,2.5,2.6,2.5\n\tC23.4,34.6,24.5,33.5,24.5,32.1z\"/>\n</svg>\n"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"icon_x2F_Utility_x2F_Ship_x2F_haul-away-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"icon_x2F_Utility_x2F_Ship_x2F_haul-away-path-1_1_\" style=\"fill:#111111;\" d=\"M15.4,17.7c0.2-0.4,0.8-0.7,1.2-0.7\r\n\tc0.2,0,0.3,0.1,0.4,0.1l9.3,5l4.6-8.4c0.1-0.1,0.2-0.2,0.4-0.3l4.8-1.4c0.4-0.1,0.8,0.1,0.9,0.5s-0.1,0.8-0.5,0.9L32,14.7l-7.8,14.2\r\n\tc1,0.7,1.7,1.9,1.7,3.2c0,2.1-1.8,3.9-4,3.9s-4-1.7-4-3.9c0-0.6,0.1-1.1,0.3-1.6l-6.8-3.6c-0.4-0.3-0.5-1.1-0.3-1.5\r\n\tC11.1,25.4,15.4,17.7,15.4,17.7z M24.5,32.1c0-1.4-1.2-2.5-2.6-2.5s-2.6,1.1-2.6,2.5c0,1.4,1.2,2.5,2.6,2.5\r\n\tC23.4,34.6,24.5,33.5,24.5,32.1z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
@@ -23990,35 +24410,35 @@ module.exports = "<svg id=\"payment-card-discover-Layer_1\" xmlns=\"http://www.w
 /***/ "uueF":
 /***/ (function(module, exports) {
 
-module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<svg version=\"1.1\" id=\"icon_x2F_Alert_x2F_success-check-Layer_1\"\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\n<path id=\"icon_x2F_Alert_x2F_success-check-path-1_1_\" style=\"fill:#2A7952;\" d=\"M16.5,24.2c-1.5-1.1-3.7-0.8-4.9,0.7\n\ts-0.8,3.5,0.7,4.6l6.9,4.9c1.5,1.1,3.7,0.8,4.9-0.7l12.2-15.5c1.1-1.4,0.8-3.5-0.7-4.6s-3.7-0.8-4.8,0.7L20.7,27.2L16.5,24.2z\"/>\n</svg>\n"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"icon_x2F_Alert_x2F_success-check-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"icon_x2F_Alert_x2F_success-check-path-1_1_\" style=\"fill:#2A7952;\" d=\"M16.5,24.2c-1.5-1.1-3.7-0.8-4.9,0.7\r\n\ts-0.8,3.5,0.7,4.6l6.9,4.9c1.5,1.1,3.7,0.8,4.9-0.7l12.2-15.5c1.1-1.4,0.8-3.5-0.7-4.6s-3.7-0.8-4.8,0.7L20.7,27.2L16.5,24.2z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "vWLu":
 /***/ (function(module, exports) {
 
-module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<svg version=\"1.1\" id=\"action-chat-line-Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"\n\t x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\" style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\n<path id=\"action-chat-line-a_1_\" style=\"fill:#111111;\" d=\"M33.9,36c-0.2,0-0.4-0.1-0.5-0.2L29,31.7h-5c-1.4,0-2.5-1-2.5-2.4v-6.8\n\tc0-1.3,1.1-2.3,2.5-2.3h13c1,0,2,0.8,2,2.2v6.9c0,0.5-0.3,1.1-0.7,1.5c-0.5,0.5-1.1,0.8-1.8,0.8h-1.9v3.6c0,0.3-0.2,0.5-0.5,0.7\n\tC34.1,36,34,36,33.9,36z M24,21.7h13c0.2,0,0.5,0.2,0.5,0.7v6.9c0,0.3-0.4,0.9-1,1h-2.1c-0.7,0-1.3,0.6-1.3,1.3v2l-3.2-3h-0.1\n\tc-0.3-0.2-0.6-0.3-0.9-0.3h-5c-0.6,0-1-0.4-1-1v-6.8C23,22,23.4,21.7,24,21.7z M14.9,31.2c-0.3-0.1-0.4-0.4-0.4-0.7v-3.4\n\tc0,0-0.1-0.1-0.2-0.1h-3.2C10,27,9,26,9,24.8v-8.6C9,15,10,14,11.1,14h16.8c1.1,0,2.1,1,2.1,2.2v4.1h-1.5v-4.1\n\tc0-0.4-0.3-0.7-0.6-0.7H11.1c-0.3,0-0.6,0.3-0.6,0.7v8.6c0,0.5,0.3,0.8,0.6,0.8h3.2c0.8,0,1.7,0.6,1.7,1.4v1.8l3.5-3.1\n\tc0.1-0.1,0.3-0.2,0.5-0.2h1.5v1.4h-1.2l-4.5,4C15.5,31.2,15.2,31.3,14.9,31.2z\"/>\n</svg>\n"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"action-chat-line-Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"\r\n\t x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\" style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"action-chat-line-a_1_\" style=\"fill:#111111;\" d=\"M33.9,36c-0.2,0-0.4-0.1-0.5-0.2L29,31.7h-5c-1.4,0-2.5-1-2.5-2.4v-6.8\r\n\tc0-1.3,1.1-2.3,2.5-2.3h13c1,0,2,0.8,2,2.2v6.9c0,0.5-0.3,1.1-0.7,1.5c-0.5,0.5-1.1,0.8-1.8,0.8h-1.9v3.6c0,0.3-0.2,0.5-0.5,0.7\r\n\tC34.1,36,34,36,33.9,36z M24,21.7h13c0.2,0,0.5,0.2,0.5,0.7v6.9c0,0.3-0.4,0.9-1,1h-2.1c-0.7,0-1.3,0.6-1.3,1.3v2l-3.2-3h-0.1\r\n\tc-0.3-0.2-0.6-0.3-0.9-0.3h-5c-0.6,0-1-0.4-1-1v-6.8C23,22,23.4,21.7,24,21.7z M14.9,31.2c-0.3-0.1-0.4-0.4-0.4-0.7v-3.4\r\n\tc0,0-0.1-0.1-0.2-0.1h-3.2C10,27,9,26,9,24.8v-8.6C9,15,10,14,11.1,14h16.8c1.1,0,2.1,1,2.1,2.2v4.1h-1.5v-4.1\r\n\tc0-0.4-0.3-0.7-0.6-0.7H11.1c-0.3,0-0.6,0.3-0.6,0.7v8.6c0,0.5,0.3,0.8,0.6,0.8h3.2c0.8,0,1.7,0.6,1.7,1.4v1.8l3.5-3.1\r\n\tc0.1-0.1,0.3-0.2,0.5-0.2h1.5v1.4h-1.2l-4.5,4C15.5,31.2,15.2,31.3,14.9,31.2z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "vfeN":
 /***/ (function(module, exports) {
 
-module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<svg version=\"1.1\" id=\"icon_x2F_Utility_x2F_lock-Layer_1\"\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\n<path id=\"icon_x2F_Utility_x2F_lock-path-1_1_\" style=\"fill:#111111;\" d=\"M31,21h1c1.1,0,2,0.9,2,2v12c0,1.1-0.9,2-2,2H16\n\tc-1.1,0-2-0.9-2-2V23c0-1.1,0.9-2,2-2h1v-3c0-3.9,3.1-7,7-7s7,3.1,7,7V21z M28,21v-3c0-2.2-1.8-4-4-4s-4,1.8-4,4v3H28z\"/>\n</svg>\n"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"icon_x2F_Utility_x2F_lock-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"icon_x2F_Utility_x2F_lock-path-1_1_\" style=\"fill:#111111;\" d=\"M31,21h1c1.1,0,2,0.9,2,2v12c0,1.1-0.9,2-2,2H16\r\n\tc-1.1,0-2-0.9-2-2V23c0-1.1,0.9-2,2-2h1v-3c0-3.9,3.1-7,7-7s7,3.1,7,7V21z M28,21v-3c0-2.2-1.8-4-4-4s-4,1.8-4,4v3H28z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "vtId":
 /***/ (function(module, exports) {
 
-module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<svg version=\"1.1\" id=\"icon_x2F_Alert_x2F_information-Layer_1\"\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\n<path id=\"icon_x2F_Alert_x2F_information-path-1_1_\" style=\"fill:#056B9E;\" d=\"M24,12c-6.6,0-12,5.4-12,12s5.4,12,12,12\n\ts12-5.4,12-12S30.6,12,24,12z M24.7,29.6c0,0.4-0.3,0.7-0.7,0.7s-0.7-0.3-0.7-0.7v-9.4c0-0.4,0.3-0.7,0.7-0.7s0.7,0.3,0.7,0.7\n\tC24.7,20.2,24.7,29.6,24.7,29.6z M24,18.6c-0.5,0-0.9-0.4-0.9-0.9s0.4-0.9,0.9-0.9s0.9,0.4,0.9,0.9S24.5,18.6,24,18.6z\"/>\n</svg>\n"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"icon_x2F_Alert_x2F_information-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"icon_x2F_Alert_x2F_information-path-1_1_\" style=\"fill:#056B9E;\" d=\"M24,12c-6.6,0-12,5.4-12,12s5.4,12,12,12\r\n\ts12-5.4,12-12S30.6,12,24,12z M24.7,29.6c0,0.4-0.3,0.7-0.7,0.7s-0.7-0.3-0.7-0.7v-9.4c0-0.4,0.3-0.7,0.7-0.7s0.7,0.3,0.7,0.7\r\n\tC24.7,20.2,24.7,29.6,24.7,29.6z M24,18.6c-0.5,0-0.9-0.4-0.9-0.9s0.4-0.9,0.9-0.9s0.9,0.4,0.9,0.9S24.5,18.6,24,18.6z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "wGGi":
 /***/ (function(module, exports) {
 
-module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<svg version=\"1.1\" id=\"action-settings-Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"\n\t x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\" style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\n<path id=\"action-settings-a_1_\" style=\"fill:#111111;\" d=\"M35.7,22.7c-0.1-0.9-0.6-1.4-1.5-1.5h-1.4c-0.2,0-0.2-0.1-0.3-0.2\n\tc0-0.1-0.1-0.2-0.1-0.3c-0.1-0.3-0.2-0.6-0.4-0.9c-0.1-0.1-0.1-0.2,0.1-0.4l0.4-0.4l0.6-0.6c0.5-0.6,0.5-1.4-0.1-2l-1.8-1.8\n\tc-0.3-0.3-0.6-0.4-1-0.4c-0.3,0-0.7,0.1-0.9,0.4c-0.1,0.1-0.3,0.3-0.5,0.4c-0.2,0.2-0.5,0.4-0.7,0.5c-0.1,0.1-0.1,0.1-0.2,0.1h-0.1\n\tc-0.4-0.1-0.8-0.3-1.3-0.5c-0.1,0-0.1,0-0.1-0.2v-0.4v-1c0.1-0.9-0.5-1.5-1.3-1.5h-2.5c-0.8,0-1.4,0.6-1.4,1.5c0,0.4,0,1-0.1,1.4\n\tc0,0.1-0.1,0.2-0.2,0.2l-0.3,0.2l-0.9,0.3h-0.1c0,0-0.1,0-0.2-0.1c-0.3-0.3-0.7-0.7-1-0.9c-0.3-0.2-0.6-0.3-0.9-0.4\n\tc-0.4,0-0.7,0.2-1,0.4c-0.6,0.7-1.2,1.3-1.8,1.9c-0.6,0.6-0.6,1.3-0.1,2c0.2,0.1,0.4,0.3,0.5,0.5l0.4,0.4c0.1,0.2,0.1,0.2,0.1,0.3\n\tc-0.1,0.3-0.3,0.7-0.4,1L15.1,21c-0.1,0.1-0.1,0.2-0.3,0.2h-1.4c-0.8,0.1-1.4,0.6-1.4,1.5v2.4c0,0.9,0.6,1.5,1.5,1.5h1.3\n\tc0.2,0,0.2,0.1,0.2,0.2l0.1,0.3c0.1,0.3,0.3,0.6,0.4,0.9c0.1,0.1,0.1,0.2-0.1,0.4l-0.2,0.2c-0.2,0.3-0.5,0.6-0.7,0.8\n\tC14,30,14,30.8,14.6,31.3l1.8,1.8c0.3,0.3,0.6,0.4,1,0.4c0.3,0,0.7-0.1,0.9-0.4c0.4-0.3,0.8-0.8,1-0.9c0.1-0.1,0.1-0.1,0.2-0.1h0.1\n\tc0.5,0.2,0.9,0.4,1.3,0.6c0,0,0.1,0,0.1,0.2v1.5c0,0.8,0.6,1.4,1.4,1.4H25c0.8,0,1.3-0.6,1.4-1.4c0-0.4,0.1-1,0.1-1.4\n\tc0-0.2,0-0.2,0.2-0.3l0.4-0.2c0.3-0.1,0.5-0.2,0.8-0.3H28c0,0,0.1,0,0.2,0.1c0.3,0.3,0.6,0.6,0.9,0.8c0.3,0.3,0.7,0.5,1.1,0.5\n\ts0.7-0.1,0.9-0.4l1.8-1.8c0.6-0.6,0.5-1.4-0.1-2.1c-0.1-0.2-0.3-0.3-0.4-0.5L32,28.4c-0.1-0.1-0.1-0.2-0.1-0.3\n\tc0.2-0.4,0.3-0.8,0.5-1.2c0.1-0.1,0.1-0.2,0.3-0.2h1.4c0.8-0.1,1.4-0.6,1.4-1.4c0-0.3,0-0.6,0.1-0.9V24C35.8,24,35.7,22.7,35.7,22.7\n\tz M23.9,28.5c-2.5,0-4.6-2.1-4.6-4.6s2-4.6,4.6-4.6s4.6,2.1,4.6,4.6S26.4,28.5,23.9,28.5z\"/>\n</svg>\n"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"action-settings-Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"\r\n\t x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\" style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"action-settings-a_1_\" style=\"fill:#111111;\" d=\"M35.7,22.7c-0.1-0.9-0.6-1.4-1.5-1.5h-1.4c-0.2,0-0.2-0.1-0.3-0.2\r\n\tc0-0.1-0.1-0.2-0.1-0.3c-0.1-0.3-0.2-0.6-0.4-0.9c-0.1-0.1-0.1-0.2,0.1-0.4l0.4-0.4l0.6-0.6c0.5-0.6,0.5-1.4-0.1-2l-1.8-1.8\r\n\tc-0.3-0.3-0.6-0.4-1-0.4c-0.3,0-0.7,0.1-0.9,0.4c-0.1,0.1-0.3,0.3-0.5,0.4c-0.2,0.2-0.5,0.4-0.7,0.5c-0.1,0.1-0.1,0.1-0.2,0.1h-0.1\r\n\tc-0.4-0.1-0.8-0.3-1.3-0.5c-0.1,0-0.1,0-0.1-0.2v-0.4v-1c0.1-0.9-0.5-1.5-1.3-1.5h-2.5c-0.8,0-1.4,0.6-1.4,1.5c0,0.4,0,1-0.1,1.4\r\n\tc0,0.1-0.1,0.2-0.2,0.2l-0.3,0.2l-0.9,0.3h-0.1c0,0-0.1,0-0.2-0.1c-0.3-0.3-0.7-0.7-1-0.9c-0.3-0.2-0.6-0.3-0.9-0.4\r\n\tc-0.4,0-0.7,0.2-1,0.4c-0.6,0.7-1.2,1.3-1.8,1.9c-0.6,0.6-0.6,1.3-0.1,2c0.2,0.1,0.4,0.3,0.5,0.5l0.4,0.4c0.1,0.2,0.1,0.2,0.1,0.3\r\n\tc-0.1,0.3-0.3,0.7-0.4,1L15.1,21c-0.1,0.1-0.1,0.2-0.3,0.2h-1.4c-0.8,0.1-1.4,0.6-1.4,1.5v2.4c0,0.9,0.6,1.5,1.5,1.5h1.3\r\n\tc0.2,0,0.2,0.1,0.2,0.2l0.1,0.3c0.1,0.3,0.3,0.6,0.4,0.9c0.1,0.1,0.1,0.2-0.1,0.4l-0.2,0.2c-0.2,0.3-0.5,0.6-0.7,0.8\r\n\tC14,30,14,30.8,14.6,31.3l1.8,1.8c0.3,0.3,0.6,0.4,1,0.4c0.3,0,0.7-0.1,0.9-0.4c0.4-0.3,0.8-0.8,1-0.9c0.1-0.1,0.1-0.1,0.2-0.1h0.1\r\n\tc0.5,0.2,0.9,0.4,1.3,0.6c0,0,0.1,0,0.1,0.2v1.5c0,0.8,0.6,1.4,1.4,1.4H25c0.8,0,1.3-0.6,1.4-1.4c0-0.4,0.1-1,0.1-1.4\r\n\tc0-0.2,0-0.2,0.2-0.3l0.4-0.2c0.3-0.1,0.5-0.2,0.8-0.3H28c0,0,0.1,0,0.2,0.1c0.3,0.3,0.6,0.6,0.9,0.8c0.3,0.3,0.7,0.5,1.1,0.5\r\n\ts0.7-0.1,0.9-0.4l1.8-1.8c0.6-0.6,0.5-1.4-0.1-2.1c-0.1-0.2-0.3-0.3-0.4-0.5L32,28.4c-0.1-0.1-0.1-0.2-0.1-0.3\r\n\tc0.2-0.4,0.3-0.8,0.5-1.2c0.1-0.1,0.1-0.2,0.3-0.2h1.4c0.8-0.1,1.4-0.6,1.4-1.4c0-0.3,0-0.6,0.1-0.9V24C35.8,24,35.7,22.7,35.7,22.7\r\n\tz M23.9,28.5c-2.5,0-4.6-2.1-4.6-4.6s2-4.6,4.6-4.6s4.6,2.1,4.6,4.6S26.4,28.5,23.9,28.5z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
@@ -24032,49 +24452,49 @@ module.exports = "<svg id=\"payment-card-paypal-Layer_1\" xmlns=\"http://www.w3.
 /***/ "wdiq":
 /***/ (function(module, exports) {
 
-module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<svg version=\"1.1\" id=\"new-googleplus-line-Layer_1\"\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\n<path id=\"new-googleplus-line-path-1_1_\" style=\"fill:#111111;\" d=\"M24.6,25.3c-1.6-1.2-2-1.9-0.5-3.1c0.9-0.7,1.5-1.6,1.5-2.7\n\tc0-1.2-0.5-2.3-1.4-2.9h1.3l1.1-1.1h-5.1c-3.2,0-4.7,1.9-4.7,4s1.5,3.8,4.3,3.8c-0.4,0.9-0.3,1.7,0.5,2.3c-4.9,0-5.9,2.1-5.9,3.8\n\tc0,2.1,2.4,3.4,5.4,3.4c4,0,5.6-2.1,5.6-3.9C26.7,27.5,26.2,26.5,24.6,25.3z M18.8,19.5c-0.2-1.8,0.7-3.2,2-3.1\n\tc1.4,0,2.5,1.5,2.8,3.3c0.2,1.8-0.5,2.9-1.9,2.9C20.3,22.5,19,21.2,18.8,19.5 M21.1,31.8c-2,0-3.5-1.3-3.5-2.8s1.7-2.8,3.8-2.8\n\tc2.3,0,3.6,1.4,3.6,2.9S23.7,31.8,21.1,31.8 M30.3,22.7v-1.9h-1.2v1.9h-1.9v1.2h1.9v2h1.2v-2h2v-1.2H30.3\"/>\n<path id=\"new-googleplus-line-path-1_2_\" style=\"fill:#111111;\" d=\"M24,8c8.8,0,16,7.2,16,16s-7.2,16-16,16S8,32.8,8,24S15.2,8,24,8\n\tz M24,38.2c7.8,0,14.2-6.3,14.2-14.2S31.8,9.8,24,9.8S9.8,16.2,9.8,24S16.2,38.2,24,38.2z\"/>\n</svg>\n"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"new-googleplus-line-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"new-googleplus-line-path-1_1_\" style=\"fill:#111111;\" d=\"M24.6,25.3c-1.6-1.2-2-1.9-0.5-3.1c0.9-0.7,1.5-1.6,1.5-2.7\r\n\tc0-1.2-0.5-2.3-1.4-2.9h1.3l1.1-1.1h-5.1c-3.2,0-4.7,1.9-4.7,4s1.5,3.8,4.3,3.8c-0.4,0.9-0.3,1.7,0.5,2.3c-4.9,0-5.9,2.1-5.9,3.8\r\n\tc0,2.1,2.4,3.4,5.4,3.4c4,0,5.6-2.1,5.6-3.9C26.7,27.5,26.2,26.5,24.6,25.3z M18.8,19.5c-0.2-1.8,0.7-3.2,2-3.1\r\n\tc1.4,0,2.5,1.5,2.8,3.3c0.2,1.8-0.5,2.9-1.9,2.9C20.3,22.5,19,21.2,18.8,19.5 M21.1,31.8c-2,0-3.5-1.3-3.5-2.8s1.7-2.8,3.8-2.8\r\n\tc2.3,0,3.6,1.4,3.6,2.9S23.7,31.8,21.1,31.8 M30.3,22.7v-1.9h-1.2v1.9h-1.9v1.2h1.9v2h1.2v-2h2v-1.2H30.3\"/>\r\n<path id=\"new-googleplus-line-path-1_2_\" style=\"fill:#111111;\" d=\"M24,8c8.8,0,16,7.2,16,16s-7.2,16-16,16S8,32.8,8,24S15.2,8,24,8\r\n\tz M24,38.2c7.8,0,14.2-6.3,14.2-14.2S31.8,9.8,24,9.8S9.8,16.2,9.8,24S16.2,38.2,24,38.2z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "whDz":
 /***/ (function(module, exports) {
 
-module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<svg version=\"1.1\" id=\"icon_x2F_Social_x2F_twitter-line-Layer_1\"\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\n<path id=\"icon_x2F_Social_x2F_twitter-line-path-1_1_\" style=\"fill:#111111;\" d=\"M24,8c8.8,0,16,7.2,16,16s-7.2,16-16,16\n\tS8,32.8,8,24S15.2,8,24,8z M24,38.2c7.8,0,14.2-6.3,14.2-14.2S31.8,9.8,24,9.8S9.8,16.2,9.8,24S16.2,38.2,24,38.2z M31.8,18.8\n\tc0.8-0.1,1.6-0.3,2.3-0.6c-0.5,0.8-1.2,1.5-2,2.1v0.5c0,5.3-4.1,11.5-11.5,11.5c-2.3,0-4.4-0.7-6.2-1.8c0.3,0,0.6,0.1,1,0.1\n\tc1.9,0,3.6-0.6,5-1.7c-1.8,0-3.3-1.2-3.8-2.8c0.3-0.1,0.5-0.1,0.8-0.1c0.4,0,0.7,0,1.1-0.1c-1.8-0.4-3.2-2-3.2-4v-0.1\n\tc0.5,0.3,1.2,0.5,1.8,0.5c-1.1-0.7-1.8-2-1.8-3.4c0-0.7,0.2-1.4,0.5-2c2,2.4,5,4.1,8.3,4.2C24,20.9,24,20.6,24,20.3c0-2.2,1.8-4,4-4\n\tc1.2,0,2.2,0.5,2.9,1.3c0.9-0.2,1.8-0.5,2.6-1C33.2,17.5,32.6,18.3,31.8,18.8z\"/>\n</svg>\n"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"icon_x2F_Social_x2F_twitter-line-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"icon_x2F_Social_x2F_twitter-line-path-1_1_\" style=\"fill:#111111;\" d=\"M24,8c8.8,0,16,7.2,16,16s-7.2,16-16,16\r\n\tS8,32.8,8,24S15.2,8,24,8z M24,38.2c7.8,0,14.2-6.3,14.2-14.2S31.8,9.8,24,9.8S9.8,16.2,9.8,24S16.2,38.2,24,38.2z M31.8,18.8\r\n\tc0.8-0.1,1.6-0.3,2.3-0.6c-0.5,0.8-1.2,1.5-2,2.1v0.5c0,5.3-4.1,11.5-11.5,11.5c-2.3,0-4.4-0.7-6.2-1.8c0.3,0,0.6,0.1,1,0.1\r\n\tc1.9,0,3.6-0.6,5-1.7c-1.8,0-3.3-1.2-3.8-2.8c0.3-0.1,0.5-0.1,0.8-0.1c0.4,0,0.7,0,1.1-0.1c-1.8-0.4-3.2-2-3.2-4v-0.1\r\n\tc0.5,0.3,1.2,0.5,1.8,0.5c-1.1-0.7-1.8-2-1.8-3.4c0-0.7,0.2-1.4,0.5-2c2,2.4,5,4.1,8.3,4.2C24,20.9,24,20.6,24,20.3c0-2.2,1.8-4,4-4\r\n\tc1.2,0,2.2,0.5,2.9,1.3c0.9-0.2,1.8-0.5,2.6-1C33.2,17.5,32.6,18.3,31.8,18.8z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "wvPr":
 /***/ (function(module, exports) {
 
-module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<svg version=\"1.1\" id=\"icon_x2F_Service_x2F_coupon-fill-Layer_1\"\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\n<path id=\"icon_x2F_Service_x2F_coupon-fill-path-1_1_\" style=\"fill:#111111;\" d=\"M21.1,12.9c0-0.5-0.4-0.9-0.9-0.9h-6.3\n\tc-0.5,0-0.9,0.4-0.9,0.9v22.2c0,0.5,0.4,0.9,0.9,0.9H34c0.5,0,0.9-0.4,0.9-0.9V12.9c0.1-0.5-0.3-0.9-0.8-0.9h-6.4\n\tc-0.5,0-0.9,0.4-0.9,0.9c0,1.5-1.3,2.7-2.8,2.7C22.4,15.6,21.1,14.4,21.1,12.9z M23.2,25.7l4.2-5.6h1.8l-4.9,6.4l-4.2,5.6h-1.7\n\tC18.4,32.1,23.2,25.7,23.2,25.7z M27.5,30.9c-0.8,0-1.4-0.8-1.4-1.7c0-0.9,0.5-1.7,1.3-1.7s1.4,0.8,1.4,1.7\n\tC28.9,30.1,28.4,30.9,27.5,30.9z M20,26.1c-1.7,0-2.9-1.4-2.9-3c0-1.7,1.2-3.1,2.9-3.1s3,1.3,3,3S21.8,26.1,20,26.1z M20,21.3\n\tc0.8,0,1.4,0.8,1.4,1.7s-0.5,1.7-1.3,1.7c-0.8,0-1.4-0.8-1.4-1.7C18.7,22,19.2,21.3,20,21.3z M27.5,32.2c-1.7,0-2.9-1.4-2.9-3\n\tc0-1.7,1.2-3.1,2.9-3.1s2.9,1.4,2.9,3C30.4,30.8,29.3,32.2,27.5,32.2z\"/>\n</svg>\n"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"icon_x2F_Service_x2F_coupon-fill-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"icon_x2F_Service_x2F_coupon-fill-path-1_1_\" style=\"fill:#111111;\" d=\"M21.1,12.9c0-0.5-0.4-0.9-0.9-0.9h-6.3\r\n\tc-0.5,0-0.9,0.4-0.9,0.9v22.2c0,0.5,0.4,0.9,0.9,0.9H34c0.5,0,0.9-0.4,0.9-0.9V12.9c0.1-0.5-0.3-0.9-0.8-0.9h-6.4\r\n\tc-0.5,0-0.9,0.4-0.9,0.9c0,1.5-1.3,2.7-2.8,2.7C22.4,15.6,21.1,14.4,21.1,12.9z M23.2,25.7l4.2-5.6h1.8l-4.9,6.4l-4.2,5.6h-1.7\r\n\tC18.4,32.1,23.2,25.7,23.2,25.7z M27.5,30.9c-0.8,0-1.4-0.8-1.4-1.7c0-0.9,0.5-1.7,1.3-1.7s1.4,0.8,1.4,1.7\r\n\tC28.9,30.1,28.4,30.9,27.5,30.9z M20,26.1c-1.7,0-2.9-1.4-2.9-3c0-1.7,1.2-3.1,2.9-3.1s3,1.3,3,3S21.8,26.1,20,26.1z M20,21.3\r\n\tc0.8,0,1.4,0.8,1.4,1.7s-0.5,1.7-1.3,1.7c-0.8,0-1.4-0.8-1.4-1.7C18.7,22,19.2,21.3,20,21.3z M27.5,32.2c-1.7,0-2.9-1.4-2.9-3\r\n\tc0-1.7,1.2-3.1,2.9-3.1s2.9,1.4,2.9,3C30.4,30.8,29.3,32.2,27.5,32.2z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "xFKG":
 /***/ (function(module, exports) {
 
-module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<svg version=\"1.1\" id=\"icon_x2F_Nav_x2F_chevron-up-Layer_1\"\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\n<path id=\"icon_x2F_Nav_x2F_chevron-up-path-1_1_\" style=\"fill:#111111;\" d=\"M35.3,30.7c0.4,0.4,1,0.4,1.4,0c0.4-0.4,0.4-1,0-1.4\n\tl-12-12c-0.4-0.4-1-0.4-1.4,0l-12,12c-0.4,0.4-0.4,1,0,1.4c0.4,0.4,1,0.4,1.4,0L24,19.4C24,19.4,35.3,30.7,35.3,30.7z\"/>\n</svg>\n"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"icon_x2F_Nav_x2F_chevron-up-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"icon_x2F_Nav_x2F_chevron-up-path-1_1_\" style=\"fill:#111111;\" d=\"M35.3,30.7c0.4,0.4,1,0.4,1.4,0c0.4-0.4,0.4-1,0-1.4\r\n\tl-12-12c-0.4-0.4-1-0.4-1.4,0l-12,12c-0.4,0.4-0.4,1,0,1.4c0.4,0.4,1,0.4,1.4,0L24,19.4C24,19.4,35.3,30.7,35.3,30.7z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "xRug":
 /***/ (function(module, exports) {
 
-module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<svg version=\"1.1\" id=\"icon_x2F_Utility_x2F_Calendar_x2F_schedule-appt-Layer_1\"\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\n<path id=\"icon_x2F_Utility_x2F_Calendar_x2F_schedule-appt-path-1_1_\" style=\"fill:#111111;\" d=\"M16.8,11.8H26V9h1.1v2.8H34v12\n\tl-1.1-0.3V12.9h-5.7v2.9H26v-2.9h-9.2v2.9h-1.1v-2.9h-5.6v22h13.5l0.6,1.1H9V11.8h6.7V9h1.1C16.8,9,16.8,11.8,16.8,11.8z M31.6,39\n\tc-4.1,0-7.4-3.2-7.4-7.2s3.3-7.2,7.4-7.2s7.4,3.2,7.4,7.2S35.7,39,31.6,39z M31.6,25.8c-3.5,0-6.3,2.7-6.3,6.1s2.8,6.1,6.3,6.1\n\ts6.3-2.7,6.3-6.1S35.1,25.8,31.6,25.8z M34.5,32.5h-3.1l-3.1-3.6l0.8-0.7l2.8,3.2h2.6C34.5,31.4,34.5,32.5,34.5,32.5z M18.2,18.1\n\th1.2v1.1h-1.2V18.1z M20.8,18.1H22v1.1h-1.2C20.8,19.2,20.8,18.1,20.8,18.1z M23.3,18.1h1.2v1.1h-1.2V18.1z M26,18.1h1.2v1.1H26\n\tV18.1z M28.5,18.1h1.2v1.1h-1.2V18.1z M13,20.9h1.2V22H13V20.9z M15.6,20.9h1.2V22h-1.2V20.9z M18.2,20.9h1.2V22h-1.2V20.9z\n\t M20.8,20.9H22V22h-1.2C20.8,22,20.8,20.9,20.8,20.9z M23.3,20.9h1.2V22h-1.2V20.9z M26,20.9h1.2V22H26V20.9z M28.5,20.9h1.2V22\n\th-1.2V20.9z M13,23.6h1.2v1.1H13V23.6z M15.6,23.6h1.2v1.1h-1.2V23.6z M18.2,23.6h1.2v1.1h-1.2V23.6z M20.8,23.6H22v1.1h-1.2\n\tC20.8,24.7,20.8,23.6,20.8,23.6z M13,26.4h1.2v1.1H13V26.4z M15.6,26.4h1.2v1.1h-1.2V26.4z M18.2,26.4h1.2v1.1h-1.2V26.4z M13,29.1\n\th1.2v1.1H13V29.1z M15.6,29.1h1.2v1.1h-1.2V29.1z M18.2,29.1h1.2v1.1h-1.2V29.1z M20.8,26.4H22v1.1h-1.2\n\tC20.8,27.5,20.8,26.4,20.8,26.4z M23.4,26.4h1.2v1.1h-1.2V26.4z M23.3,23.6h1.2v1.1h-1.2V23.6z M26,23.6h1.2v1.1H26V23.6z\n\t M20.7,29.1h1.2v1.1h-1.2V29.1z\"/>\n</svg>\n"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"icon_x2F_Utility_x2F_Calendar_x2F_schedule-appt-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"icon_x2F_Utility_x2F_Calendar_x2F_schedule-appt-path-1_1_\" style=\"fill:#111111;\" d=\"M16.8,11.8H26V9h1.1v2.8H34v12\r\n\tl-1.1-0.3V12.9h-5.7v2.9H26v-2.9h-9.2v2.9h-1.1v-2.9h-5.6v22h13.5l0.6,1.1H9V11.8h6.7V9h1.1C16.8,9,16.8,11.8,16.8,11.8z M31.6,39\r\n\tc-4.1,0-7.4-3.2-7.4-7.2s3.3-7.2,7.4-7.2s7.4,3.2,7.4,7.2S35.7,39,31.6,39z M31.6,25.8c-3.5,0-6.3,2.7-6.3,6.1s2.8,6.1,6.3,6.1\r\n\ts6.3-2.7,6.3-6.1S35.1,25.8,31.6,25.8z M34.5,32.5h-3.1l-3.1-3.6l0.8-0.7l2.8,3.2h2.6C34.5,31.4,34.5,32.5,34.5,32.5z M18.2,18.1\r\n\th1.2v1.1h-1.2V18.1z M20.8,18.1H22v1.1h-1.2C20.8,19.2,20.8,18.1,20.8,18.1z M23.3,18.1h1.2v1.1h-1.2V18.1z M26,18.1h1.2v1.1H26\r\n\tV18.1z M28.5,18.1h1.2v1.1h-1.2V18.1z M13,20.9h1.2V22H13V20.9z M15.6,20.9h1.2V22h-1.2V20.9z M18.2,20.9h1.2V22h-1.2V20.9z\r\n\t M20.8,20.9H22V22h-1.2C20.8,22,20.8,20.9,20.8,20.9z M23.3,20.9h1.2V22h-1.2V20.9z M26,20.9h1.2V22H26V20.9z M28.5,20.9h1.2V22\r\n\th-1.2V20.9z M13,23.6h1.2v1.1H13V23.6z M15.6,23.6h1.2v1.1h-1.2V23.6z M18.2,23.6h1.2v1.1h-1.2V23.6z M20.8,23.6H22v1.1h-1.2\r\n\tC20.8,24.7,20.8,23.6,20.8,23.6z M13,26.4h1.2v1.1H13V26.4z M15.6,26.4h1.2v1.1h-1.2V26.4z M18.2,26.4h1.2v1.1h-1.2V26.4z M13,29.1\r\n\th1.2v1.1H13V29.1z M15.6,29.1h1.2v1.1h-1.2V29.1z M18.2,29.1h1.2v1.1h-1.2V29.1z M20.8,26.4H22v1.1h-1.2\r\n\tC20.8,27.5,20.8,26.4,20.8,26.4z M23.4,26.4h1.2v1.1h-1.2V26.4z M23.3,23.6h1.2v1.1h-1.2V23.6z M26,23.6h1.2v1.1H26V23.6z\r\n\t M20.7,29.1h1.2v1.1h-1.2V29.1z\"/>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "yNec":
 /***/ (function(module, exports) {
 
-module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<svg version=\"1.1\" id=\"icon_x2F_Alert_x2F_help-Layer_1\"\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\n<g id=\"icon_x2F_Alert_x2F_help-Mask\">\n\t<path id=\"icon_x2F_Alert_x2F_help-path-1_1_\" style=\"fill:#056B9E;\" d=\"M34.4,12H13.6c-0.8,0-1.6,0.8-1.6,1.6v20.8\n\t\tc0,0.8,0.8,1.6,1.5,1.6h20.9c0.8,0,1.6-0.8,1.6-1.6V13.5C36,12.8,35.2,12,34.4,12z M24,31.4c-0.5,0-0.9-0.4-0.9-0.9\n\t\ts0.4-0.9,0.9-0.9s0.9,0.4,0.9,0.9S24.5,31.4,24,31.4z M25.6,24.4c-0.4,0.4-0.9,1-0.9,1.2V28c0,0.4-0.3,0.7-0.7,0.7\n\t\tc-0.4,0-0.7-0.3-0.7-0.7v-2.4c0-0.7,0.6-1.3,1.3-2.1c0.9-1,1.9-2.2,1.9-3.5c0-1-1-2.1-2.5-2.1c-2.5,0-2.7,2.1-2.7,2.1\n\t\tc0,0.4-0.4,0.7-0.7,0.6c-0.4,0.1-0.7-0.3-0.7-0.6c0,0,0.3-3.4,4.1-3.4c0.9,0,1.9,0.4,2.6,1c0.8,0.5,1.3,1.4,1.3,2.4\n\t\tC27.9,21.8,26.6,23.3,25.6,24.4z\"/>\n</g>\n</svg>\n"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"icon_x2F_Alert_x2F_help-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<g id=\"icon_x2F_Alert_x2F_help-Mask\">\r\n\t<path id=\"icon_x2F_Alert_x2F_help-path-1_1_\" style=\"fill:#056B9E;\" d=\"M34.4,12H13.6c-0.8,0-1.6,0.8-1.6,1.6v20.8\r\n\t\tc0,0.8,0.8,1.6,1.5,1.6h20.9c0.8,0,1.6-0.8,1.6-1.6V13.5C36,12.8,35.2,12,34.4,12z M24,31.4c-0.5,0-0.9-0.4-0.9-0.9\r\n\t\ts0.4-0.9,0.9-0.9s0.9,0.4,0.9,0.9S24.5,31.4,24,31.4z M25.6,24.4c-0.4,0.4-0.9,1-0.9,1.2V28c0,0.4-0.3,0.7-0.7,0.7\r\n\t\tc-0.4,0-0.7-0.3-0.7-0.7v-2.4c0-0.7,0.6-1.3,1.3-2.1c0.9-1,1.9-2.2,1.9-3.5c0-1-1-2.1-2.5-2.1c-2.5,0-2.7,2.1-2.7,2.1\r\n\t\tc0,0.4-0.4,0.7-0.7,0.6c-0.4,0.1-0.7-0.3-0.7-0.6c0,0,0.3-3.4,4.1-3.4c0.9,0,1.9,0.4,2.6,1c0.8,0.5,1.3,1.4,1.3,2.4\r\n\t\tC27.9,21.8,26.6,23.3,25.6,24.4z\"/>\r\n</g>\r\n</svg>\r\n"
 
 /***/ }),
 
 /***/ "yqWQ":
 /***/ (function(module, exports) {
 
-module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<svg version=\"1.1\" id=\"icon_x2F_Utility_x2F_Calendar_x2F_wedding-date-Layer_1\"\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\n<path id=\"icon_x2F_Utility_x2F_Calendar_x2F_wedding-date-path-1_1_\" style=\"fill:#111111;\" d=\"M34.2,13.9c1.6,0,2.8,1.1,2.8,2.8\n\tv14.6c0,1.6-1.2,2.8-2.8,2.8H13.8C12.2,34,11,32.9,11,31.3V16.7c0-1.7,1.2-2.8,2.8-2.8h3v2.5c0,0.7,0.6,1.3,1.3,1.3s1.3-0.6,1.3-1.3\n\tv-2.5h9.1v2.5c0,0.7,0.6,1.3,1.3,1.3c0.7,0,1.3-0.6,1.3-1.3v-2.5C31.1,13.9,34.2,13.9,34.2,13.9z M14.9,28.1v1.3h1.3v-1.3H14.9z\n\t M14.9,23.4v1.3h1.3v-1.3H14.9z M14.9,19.2v1.3h1.3v-1.3C16.2,19.2,14.9,19.2,14.9,19.2z M25.1,19.2v1.3h1.3v-1.3\n\tC26.4,19.2,25.1,19.2,25.1,19.2z M21.6,19.2v1.3h1.3v-1.3C22.9,19.2,21.6,19.2,21.6,19.2z M18.3,19.2v1.3h1.3v-1.3\n\tC19.6,19.2,18.3,19.2,18.3,19.2z M18.3,28.1v1.3h1.3v-1.3H18.3z M25.1,28.1v1.3h1.3v-1.3H25.1z M26.3,25.7c0.5-0.5,0.8-1.1,0.8-1.8\n\tc0-0.7-0.3-1.3-0.8-1.8s-1.1-0.7-1.8-0.7s-1.4,0.3-1.8,0.7l-0.5,0.4L21.8,22c-0.5-0.4-1.1-0.7-1.8-0.7s-1.3,0.2-1.8,0.7\n\ts-0.8,1.2-0.8,1.8c0,0.7,0.3,1.3,0.8,1.8l3.7,3.4c0.1,0.1,0.2,0.1,0.4,0.1c0.1,0,0.3,0,0.4-0.1C22.7,29,26.3,25.7,26.3,25.7z\n\t M28.4,28.1v1.3h1.3v-1.3H28.4z M28.4,23.4v1.3h1.3v-1.3H28.4z M28.4,19.2v1.3h1.3v-1.3C29.7,19.2,28.4,19.2,28.4,19.2z M31.8,28.1\n\tv1.3h1.3v-1.3H31.8z M31.8,23.4v1.3h1.3v-1.3H31.8z M31.8,19.2v1.3h1.3v-1.3C33.1,19.2,31.8,19.2,31.8,19.2z M18.2,17.1\n\tc-0.4,0-0.7-0.3-0.7-0.6v-3.9c0-0.3,0.3-0.6,0.7-0.6c0.4,0,0.7,0.3,0.7,0.6v3.8C18.8,16.8,18.5,17.1,18.2,17.1z M29.9,17.1\n\tc-0.4,0-0.6-0.3-0.6-0.6v-3.9c0-0.4,0.3-0.6,0.6-0.6c0.4,0,0.6,0.3,0.6,0.6v3.8C30.5,16.8,30.2,17.1,29.9,17.1z\"/>\n</svg>\n"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"icon_x2F_Utility_x2F_Calendar_x2F_wedding-date-Layer_1\"\r\n\t xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 48 48\"\r\n\t style=\"enable-background:new 0 0 48 48;\" xml:space=\"preserve\">\r\n<path id=\"icon_x2F_Utility_x2F_Calendar_x2F_wedding-date-path-1_1_\" style=\"fill:#111111;\" d=\"M34.2,13.9c1.6,0,2.8,1.1,2.8,2.8\r\n\tv14.6c0,1.6-1.2,2.8-2.8,2.8H13.8C12.2,34,11,32.9,11,31.3V16.7c0-1.7,1.2-2.8,2.8-2.8h3v2.5c0,0.7,0.6,1.3,1.3,1.3s1.3-0.6,1.3-1.3\r\n\tv-2.5h9.1v2.5c0,0.7,0.6,1.3,1.3,1.3c0.7,0,1.3-0.6,1.3-1.3v-2.5C31.1,13.9,34.2,13.9,34.2,13.9z M14.9,28.1v1.3h1.3v-1.3H14.9z\r\n\t M14.9,23.4v1.3h1.3v-1.3H14.9z M14.9,19.2v1.3h1.3v-1.3C16.2,19.2,14.9,19.2,14.9,19.2z M25.1,19.2v1.3h1.3v-1.3\r\n\tC26.4,19.2,25.1,19.2,25.1,19.2z M21.6,19.2v1.3h1.3v-1.3C22.9,19.2,21.6,19.2,21.6,19.2z M18.3,19.2v1.3h1.3v-1.3\r\n\tC19.6,19.2,18.3,19.2,18.3,19.2z M18.3,28.1v1.3h1.3v-1.3H18.3z M25.1,28.1v1.3h1.3v-1.3H25.1z M26.3,25.7c0.5-0.5,0.8-1.1,0.8-1.8\r\n\tc0-0.7-0.3-1.3-0.8-1.8s-1.1-0.7-1.8-0.7s-1.4,0.3-1.8,0.7l-0.5,0.4L21.8,22c-0.5-0.4-1.1-0.7-1.8-0.7s-1.3,0.2-1.8,0.7\r\n\ts-0.8,1.2-0.8,1.8c0,0.7,0.3,1.3,0.8,1.8l3.7,3.4c0.1,0.1,0.2,0.1,0.4,0.1c0.1,0,0.3,0,0.4-0.1C22.7,29,26.3,25.7,26.3,25.7z\r\n\t M28.4,28.1v1.3h1.3v-1.3H28.4z M28.4,23.4v1.3h1.3v-1.3H28.4z M28.4,19.2v1.3h1.3v-1.3C29.7,19.2,28.4,19.2,28.4,19.2z M31.8,28.1\r\n\tv1.3h1.3v-1.3H31.8z M31.8,23.4v1.3h1.3v-1.3H31.8z M31.8,19.2v1.3h1.3v-1.3C33.1,19.2,31.8,19.2,31.8,19.2z M18.2,17.1\r\n\tc-0.4,0-0.7-0.3-0.7-0.6v-3.9c0-0.3,0.3-0.6,0.7-0.6c0.4,0,0.7,0.3,0.7,0.6v3.8C18.8,16.8,18.5,17.1,18.2,17.1z M29.9,17.1\r\n\tc-0.4,0-0.6-0.3-0.6-0.6v-3.9c0-0.4,0.3-0.6,0.6-0.6c0.4,0,0.6,0.3,0.6,0.6v3.8C30.5,16.8,30.2,17.1,29.9,17.1z\"/>\r\n</svg>\r\n"
 
 /***/ })
 

@@ -24,12 +24,14 @@ import Swatches from '../components/swatches';
 import Selectors from '../components/selectors';
 import Carousel from '../components/carousel';
 import Coupons from '../components/coupons';
+import Lists from '../components/lists';
 
 import Header from '../components/header';
 import Footer from '../components/footer';
 import SlideOutPanels from '../components/slide-out-panels';
 import FilterSort from '../components/filter-sort';
 import ProductCards from '../components/product-cards';
+import LikeDislike from '../components/like-dislike';
 
 import SubNav from './SubNav';
 
@@ -42,7 +44,7 @@ class DesignSystemPage extends Component {
    Color: {componentElement: Color, componentDisplayName: "Color", componentSubNav: ['Core', 'Messaging', 'Rewards', 'Marketing', 'Color Usage', 'Accessibility']},
    Icons: {componentElement: Icons, componentDisplayName: "Icons", componentSubNav: ['When to Use', 'Alert', 'Payment', 'Action', 'Navigation', 'Utility', 'Social']},
    Grid: {componentElement: Grid, componentDisplayName: "Grid", componentSubNav: ['Horizontal Grid', 'Vertical Grid', 'Documentation']},
-   Typography: {componentElement: Typography, componentDisplayName: "Typography", componentSubNav: ['Code Generator', 'Price', 'Title', 'Standard Text', 'Copy', 'Lists', 'Links', 'Promo Labels']},
+   Typography: {componentElement: Typography, componentDisplayName: "Typography", componentSubNav: ['Code Generator', 'Price', 'Title', 'Standard Text', 'Copy', 'Links', 'Promo Labels']},
    Alerts: {componentElement: Alerts, componentDisplayName: "Alerts & Messaging", componentSubNav: ['Code Generator', 'When to Use', 'Appearance', 'Content Guidelines', 'Related Content']},
    Badges: {componentElement: Badges, componentDisplayName: "Badges", componentSubNav: ['Code Generator', 'When to Use', 'Appearance', 'Examples']},
    ContentLoaders: {componentElement: ContentLoaders, componentDisplayName: "Content Loaders", componentSubNav: ['Code Generator', 'Types', 'Lazy Load']},
@@ -54,6 +56,7 @@ class DesignSystemPage extends Component {
    CountdownTimers: {componentElement: CountdownTimers, componentDisplayName: "Countdown Timers", componentSubNav: ['Countdown Timers']},
    VisualNavigation: {componentElement: VisualNavigation, componentDisplayName: "Visual Navigation", componentSubNav: ['Visual Navigation']},
    Modal: {componentElement: Modal, componentDisplayName: "Modal", componentSubNav: ['Modal']},
+   Lists: {componentElement: Lists, componentDisplayName: "Lists", componentSubNav: ['Lists']},
    Tooltips: {componentElement: Tooltips, componentDisplayName: "Tooltips", componentSubNav: ['Tooltips']},
    Tabs: {componentElement: Tabs, componentDisplayName: "Tabs", componentSubNav: ['Tabs']},
    Pagination: {componentElement: Pagination, componentDisplayName: "Pagination", componentSubNav: ['Pagination']},
@@ -65,7 +68,8 @@ class DesignSystemPage extends Component {
    Coupons: {componentElement: Coupons, componentDisplayName: "Coupons", componentSubNav: ['Coupons']},
    SlideOutPanels: {componentElement: SlideOutPanels, componentDisplayName: "Slide Out Panels", componentSubNav: ['Slide Out Panels']},
    ProductCards: {componentElement: ProductCards, componentDisplayName: "Product Cards", componentSubNav: ['Product Cards']},
-   FilterSort: {componentElement: FilterSort, componentDisplayName: "Filter Sort", componentSubNav: ['FilterSort']}
+   FilterSort: {componentElement: FilterSort, componentDisplayName: "Filter Sort", componentSubNav: ['FilterSort']},
+   LikeDislike: {componentElement: LikeDislike, componentDisplayName: "Like Dislike Messages", componentSubNav: ['Like Dislike Messages']}
 
   }
 
