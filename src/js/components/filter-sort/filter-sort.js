@@ -284,9 +284,9 @@ class FilterSort extends Component {
     })();
 
 
-    $(".listIcon").on("click", function() {
+    $(".listIcon").on("click", function () {
       $(this).toggleClass("gridIcon");
-    });    
+    });
 
     $('.show').on('click', function (e) {
       $('.show').toggleClass("less");
@@ -324,7 +324,9 @@ class FilterSort extends Component {
       <div>
         <div className="columns">
           <h1 className="title title-XXL mrg-XL">Filter & Sort</h1><br /><br />
-          <div className="filter-left-block fl-left">
+
+
+          <div className="filter-left-block fl-left show-forllarge-only show-for-xlarge-only">
             <h2 className="title title-XL title title-XL mrg-XXL">Filter By</h2>
             <div className="column">
               <div className="input-group">
@@ -525,7 +527,301 @@ class FilterSort extends Component {
               </div>
             </div>
           </div>
-          <div className="product-gallery-block fl-left">
+
+          {/* for mobile and tablet only */}
+
+          <div className="side-panel from-left" id="leftPanel">
+            <div className="side-panel-container">
+              <header className="side-panel-header">
+                <h3 className="title title-L color-white">Panel</h3>
+                <a href="javascript:void(0);" className="side-panel-close">
+                  <div className="change-my-store-icon-close icon color-white-svg" dangerouslySetInnerHTML={{ __html: closeImage }} />
+                </a> </header>
+              <div className="side-panel-content">
+                <div className="filter-left-block">
+                  <h2 className="title title-XL title title-XL mrg-XXL">Filter By</h2>
+                  <div className="column">
+                    <div className="input-group">
+
+                      <label className="checkbox mrg-M">
+                        <input type="checkbox" /> <span>Online Only</span> <span className="fl-right std-txt std-txt-S">(55)</span>
+                      </label>
+
+                      <label className="checkbox mrg-M">
+                        <input type="checkbox" defaultChecked="true" /> <span><p className="title title-M"><span className="color-penneyred">FREE</span> Same Day Pickup</p></span><span className="fl-right std-txt std-txt-S">(55)</span>
+                      </label>
+                    </div>
+                    <div className="accordion-block filter-accordion">
+                      <div className="accordion">
+                        <dl>
+                          <dt>
+                            <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" className="accordion-title accordionTitle js-accordionTrigger">Accordion Title</a>
+                          </dt>
+                          <dd className="accordion-content accordionItem is-collapsed" id="accordion1" aria-hidden="true">
+                            <ul>
+                              <div className="search-type">
+                                <input type="text" placeholder="Search Item Type" />
+                              </div>
+                              <li className="dropdown-list">
+                                <label className="checkbox mrg-M" >
+                                  <input type="checkbox" defaultChecked="" />
+                                  <span className="left">label</span>
+                                  <span className="right-label std-txt">(1,008)</span>
+                                </label>
+                              </li>
+                              <li className="dropdown-list">
+                                <label className="checkbox mrg-M">
+                                  <input type="checkbox" defaultChecked="" />
+                                  <span className="left">label</span>
+                                  <span className="right-label std-txt">(1,008)</span>
+                                </label>
+                              </li>
+                              <li className="dropdown-list">
+                                <label className="checkbox mrg-M">
+                                  <input type="checkbox" defaultChecked="" />
+                                  <span className="left">label</span>
+                                  <span className="right-label std-txt">(1,008)</span>
+                                </label>
+                              </li>
+                              <li className="dropdown-list">
+                                <label className="checkbox mrg-M">
+                                  <input type="checkbox" defaultChecked="" />
+                                  <span className="left">label</span>
+                                  <span className="right-label std-txt">(1,008)</span>
+                                </label>
+                              </li>
+                              <li className="dropdown-list">
+                                <label className="checkbox mrg-M">
+                                  <input type="checkbox" defaultChecked="" />
+                                  <span className="left">label</span>
+                                  <span className="right-label std-txt">(1,008)</span>
+                                </label>
+                              </li>
+                            </ul>
+                          </dd>
+                          <dt>
+                            <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" className="accordion-title accordionTitle js-accordionTrigger">Accordion Title</a>
+                          </dt>
+                          <dd className="accordion-content accordionItem is-collapsed" id="accordion1" aria-hidden="true">
+                            <ul>
+                              <div className="search-type">
+                                <input type="text" placeholder="Search Item Type" />
+                              </div>
+                              <li className="dropdown-list">
+                                <label className="checkbox mrg-M" >
+                                  <input type="checkbox" defaultChecked="" />
+                                  <span className="left">label</span>
+                                  <span className="right-label std-txt">(1,008)</span>
+                                </label>
+                              </li>
+                              <li className="dropdown-list">
+                                <label className="checkbox mrg-M">
+                                  <input type="checkbox" defaultChecked="" />
+                                  <span className="left">label</span>
+                                  <span className="right-label std-txt">(1,008)</span>
+                                </label>
+                              </li>
+                              <li className="dropdown-list">
+                                <label className="checkbox mrg-M">
+                                  <input type="checkbox" defaultChecked="" />
+                                  <span className="left">label</span>
+                                  <span className="right-label std-txt">(1,008)</span>
+                                </label>
+                              </li>
+                              <li className="dropdown-list">
+                                <label className="checkbox mrg-M">
+                                  <input type="checkbox" defaultChecked="" />
+                                  <span className="left">label</span>
+                                  <span className="right-label std-txt">(1,008)</span>
+                                </label>
+                              </li>
+                              <li className="dropdown-list">
+                                <label className="checkbox mrg-M">
+                                  <input type="checkbox" defaultChecked="" />
+                                  <span className="left">label</span>
+                                  <span className="right-label std-txt">(1,008)</span>
+                                </label>
+                              </li>
+                            </ul>
+                          </dd>
+                          <dt>
+                            <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" className="accordion-title accordionTitle js-accordionTrigger">Accordion Title</a>
+                          </dt>
+                          <dd className="accordion-content accordionItem is-collapsed" id="accordion1" aria-hidden="true">
+                            <ul>
+                              <div className="search-type">
+                                <input type="text" placeholder="Search Item Type" />
+                              </div>
+                              <li className="dropdown-list">
+                                <label className="checkbox mrg-M" >
+                                  <input type="checkbox" defaultChecked="" />
+                                  <span className="left">label</span>
+                                  <span className="right-label std-txt">(1,008)</span>
+                                </label>
+                              </li>
+                              <li className="dropdown-list">
+                                <label className="checkbox mrg-M">
+                                  <input type="checkbox" defaultChecked="" />
+                                  <span className="left">label</span>
+                                  <span className="right-label std-txt">(1,008)</span>
+                                </label>
+                              </li>
+                              <li className="dropdown-list">
+                                <label className="checkbox mrg-M">
+                                  <input type="checkbox" defaultChecked="" />
+                                  <span className="left">label</span>
+                                  <span className="right-label std-txt">(1,008)</span>
+                                </label>
+                              </li>
+                              <li className="dropdown-list">
+                                <label className="checkbox mrg-M">
+                                  <input type="checkbox" defaultChecked="" />
+                                  <span className="left">label</span>
+                                  <span className="right-label std-txt">(1,008)</span>
+                                </label>
+                              </li>
+                              <li className="dropdown-list">
+                                <label className="checkbox mrg-M">
+                                  <input type="checkbox" defaultChecked="" />
+                                  <span className="left">label</span>
+                                  <span className="right-label std-txt">(1,008)</span>
+                                </label>
+                              </li>
+                            </ul>
+                          </dd>
+                          <dt>
+                            <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" className="accordion-title accordionTitle js-accordionTrigger">Accordion Title</a>
+                          </dt>
+                          <dd className="accordion-content accordionItem is-collapsed" id="accordion1" aria-hidden="true">
+                            <ul>
+                              <div className="search-type">
+                                <input type="text" placeholder="Search Item Type" />
+                              </div>
+                              <li className="dropdown-list">
+                                <label className="checkbox mrg-M" >
+                                  <input type="checkbox" defaultChecked="" />
+                                  <span className="left">label</span>
+                                  <span className="right-label std-txt">(1,008)</span>
+                                </label>
+                              </li>
+                              <li className="dropdown-list">
+                                <label className="checkbox mrg-M">
+                                  <input type="checkbox" defaultChecked="" />
+                                  <span className="left">label</span>
+                                  <span className="right-label std-txt">(1,008)</span>
+                                </label>
+                              </li>
+                              <li className="dropdown-list">
+                                <label className="checkbox mrg-M">
+                                  <input type="checkbox" defaultChecked="" />
+                                  <span className="left">label</span>
+                                  <span className="right-label std-txt">(1,008)</span>
+                                </label>
+                              </li>
+                              <li className="dropdown-list">
+                                <label className="checkbox mrg-M">
+                                  <input type="checkbox" defaultChecked="" />
+                                  <span className="left">label</span>
+                                  <span className="right-label std-txt">(1,008)</span>
+                                </label>
+                              </li>
+                              <li className="dropdown-list">
+                                <label className="checkbox mrg-M">
+                                  <input type="checkbox" defaultChecked="" />
+                                  <span className="left">label</span>
+                                  <span className="right-label std-txt">(1,008)</span>
+                                </label>
+                              </li>
+                            </ul>
+                          </dd>
+                        </dl>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="product-gallery-block fl-left md12 sm12">
+
+            <div className="pos-rel fl-left hide-for-large-only hide-for-xlarge-only md12 mrg-S">
+              <div className="fl-left dropdown-menu-block">
+                <a className="dropdown-button title-S no-dropdown mrg-rght-M side-panel-btn" data-target="#leftPanel">Filter by <span class="sortby std-txt std-txt-S">(02)</span></a>
+              </div>
+
+              <div className="fl-left dropdown-menu-block">
+                <a className="dropdown-button title-S mrg-rght-M">Item Type <span className="arrow"></span></a>
+                <div className="dropdown-menu">
+                  <div className="tooltip tooltip-top-right">
+                    <span>
+                      <ul className="dropdown-sort">
+                        <li className="dropdown-list">
+                          <a href="javascript:void(0)" className="sort-list">Featured</a>
+                        </li>
+                        <li className="dropdown-list">
+                          <a href="javascript:void(0)" className="sort-list">Best Sellers</a>
+                        </li>
+                        <li className="dropdown-list">
+                          <a href="javascript:void(0)" className="sort-list">New Arrivals</a>
+                        </li>
+                        <li className="dropdown-list">
+                          <a href="javascript:void(0)" className="sort-list">Price High to Low</a>
+                        </li>
+                      </ul>
+                    </span>
+                  </div>
+                </div>
+              </div>
+
+              <div className="fl-left dropdown-menu-block">
+                <a className="dropdown-button title-S mrg-rght-M">Features <span className="arrow"></span></a>
+                <div className="dropdown-menu">
+                  <div className="tooltip tooltip-top-right">
+                    <span>
+                      <ul className="dropdown-sort">
+                        <li className="dropdown-list">
+                          <a href="javascript:void(0)" className="sort-list">Featured</a>
+                        </li>
+                        <li className="dropdown-list">
+                          <a href="javascript:void(0)" className="sort-list">Best Sellers</a>
+                        </li>
+                        <li className="dropdown-list">
+                          <a href="javascript:void(0)" className="sort-list">New Arrivals</a>
+                        </li>
+                        <li className="dropdown-list">
+                          <a href="javascript:void(0)" className="sort-list">Price High to Low</a>
+                        </li>
+                      </ul>
+                    </span>
+                  </div>
+                </div>
+              </div>
+
+              <div className="fl-right dropdown-menu-block">
+                <a className="dropdown-button title-S">Sort by: <span class="sortby">Best Match</span><span className="arrow"></span></a>
+                <div className="dropdown-menu">
+                  <div className="tooltip tooltip-top-right">
+                    <span>
+                      <ul className="dropdown-sort">
+                        <li className="dropdown-list">
+                          <a href="javascript:void(0)" className="sort-list">Featured</a>
+                        </li>
+                        <li className="dropdown-list">
+                          <a href="javascript:void(0)" className="sort-list">Best Sellers</a>
+                        </li>
+                        <li className="dropdown-list">
+                          <a href="javascript:void(0)" className="sort-list">New Arrivals</a>
+                        </li>
+                        <li className="dropdown-list">
+                          <a href="javascript:void(0)" className="sort-list">Price High to Low</a>
+                        </li>
+                      </ul>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
             <div className="row lg12 xl12 md12 sm12">
               <div className="store-pickup column fl-left">
                 <label className="checkbox pos-rel">
@@ -534,8 +830,8 @@ class FilterSort extends Component {
               </div>
 
               <div className="dropdown-menu-block column md4 sm12 lg4 fl-right mrg-M">
-                <div class="listIcon fl-right"></div>  
-                <div className="pos-rel fl-right">
+                <div class="listIcon fl-right"></div>
+                <div className="pos-rel fl-right hide-for-medium-only hide-for-small-only">
                   <a className="dropdown-button title-S">Sort by: <span class="sortby">Featured</span><span className="arrow"></span></a>
                   <div className="dropdown-menu">
                     <div className="tooltip tooltip-top-right">
@@ -560,17 +856,17 @@ class FilterSort extends Component {
                 </div>
               </div>
             </div>
-            <div className="lg12 xl12 md12 sm12 mrg-L filter-tags">
-                <div className="tags std-txt std-txt-S">
-                  <span className="tag-title">Gender: </span><span>Mens</span><a href="javascript:void(0)" className="color-white-svg icon" dangerouslySetInnerHTML={{ __html: closeImage }}/>
-                </div>
-                <div className="tags std-txt std-txt-S">
-                  <span className="tag-title">Item Type: </span><span>Suit Jackets</span><a href="javascript:void(0)" className="color-white-svg icon" dangerouslySetInnerHTML={{ __html: closeImage }}/>
-                </div>
-                <div className="tags std-txt std-txt-S">
-                  <span className="tag-title">Gender: </span><span>Mens</span><a href="javascript:void(0)" className="color-white-svg icon" dangerouslySetInnerHTML={{ __html: closeImage }}/>
-                </div>
-                <a className="tag-clear std-txt std-txt-S fl-left" href="javascript:void(0)">Clear All</a>
+            <div className="lg12 xl12 md12 sm12 mrg-L filter-tags hide-for-medium-only hide-for-small-only">
+              <div className="tags std-txt std-txt-S">
+                <span className="tag-title">Gender: </span><span>Mens</span><a href="javascript:void(0)" className="color-white-svg icon" dangerouslySetInnerHTML={{ __html: closeImage }} />
+              </div>
+              <div className="tags std-txt std-txt-S">
+                <span className="tag-title">Item Type: </span><span>Suit Jackets</span><a href="javascript:void(0)" className="color-white-svg icon" dangerouslySetInnerHTML={{ __html: closeImage }} />
+              </div>
+              <div className="tags std-txt std-txt-S">
+                <span className="tag-title">Gender: </span><span>Mens</span><a href="javascript:void(0)" className="color-white-svg icon" dangerouslySetInnerHTML={{ __html: closeImage }} />
+              </div>
+              <a className="tag-clear std-txt std-txt-S fl-left" href="javascript:void(0)">Clear All</a>
             </div>
 
             <div className="row">

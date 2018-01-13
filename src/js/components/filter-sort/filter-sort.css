@@ -2,8 +2,15 @@
     display: none !important;
 }
 
+/* sort and filter */
+
 .filter-left-block {
-    width: 20%;
+    @media (--viewport-lg-only) {
+        width: 20%;
+    }
+    @media (--viewport-xl-only) {
+        width: 20%;
+    }
     & .filter-accordion {
         margin-right: 16px;
         & .accordion {
@@ -29,9 +36,6 @@
 }
 
 .product-gallery-block {
-    width: 78%;
-    margin-left: 16px;
-
     & .store-pickup {
         padding: 16px 0 0 16px;
         & .arrow {
@@ -66,20 +70,6 @@
             transform: rotate(180deg);
         }
     }
-    & .product-card-wrapper {
-        @media (--viewport-xl-only) {
-            & .product-card-pane-L {
-                width: 23%;
-                margin: 0 1% 1%;
-            }
-        }
-        @media (--viewport-lg-only) {
-            & .product-card-pane-L {
-                width: 32%;
-                margin: 0 1% 1%;
-            }
-        }
-    }
 
     & .filter-tags {
         margin-left: 12px;
@@ -96,15 +86,15 @@
             & .icon {
                 display: block;
                 float: right;
-                width: 18px;
-                height: 18px;
+                width: 16px;
+                height: 16px;
                 background: var(--color-shadow);
                 border-radius: 100%;
                 margin-left: 8px;
                 cursor: pointer;
                 & svg {
-                    width: 18px;
-                    height: 18px;
+                    width: 16px;
+                    height: 16px;
                 }
             }
         }
@@ -115,3 +105,45 @@
         }
     }
 }
+
+/* below code is not required for sort and filter */
+
+
+@media (--viewport-md-only) {
+    .product-gallery-block {
+        margin: 0;
+        padding: 0 !important;
+        & .product-card-pane-L {
+            width: 22%;
+        }
+    }
+}
+
+@media (--viewport-xl-only) {
+    .product-gallery-block {
+        width: 73% !important;
+        margin-left: 16px;
+        & .product-card-wrapper {
+            & .product-card-pane-L {
+                width: 23%;
+                margin: 0 1% 1%;
+            }
+        }
+    }
+}
+
+@media (--viewport-lg-only) {
+    .product-gallery-block {
+        width: 73% !important;
+        margin-left: 16px;
+        & .product-card-wrapper {
+            & .product-card-pane-L {
+                width: 32%;
+                margin: 0 1% 1%;
+            }
+        }
+    }
+}
+
+
+
