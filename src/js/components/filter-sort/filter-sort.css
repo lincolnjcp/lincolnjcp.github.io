@@ -17,10 +17,6 @@
             margin: 0;
             & .accordion-content {
                 & ul {
-                    padding-left: 16px;
-                    & .right-label {
-                        float: right;
-                    }
                     & .search-type {
                         & input {
                             width: 100%;

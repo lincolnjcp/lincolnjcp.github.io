@@ -30,6 +30,7 @@ import Header from '../components/header';
 import Footer from '../components/footer';
 import SlideOutPanels from '../components/slide-out-panels';
 import FilterSort from '../components/filter-sort';
+import ExpandCollapse from '../components/expand-collapse';
 import ProductCards from '../components/product-cards';
 import LikeDislike from '../components/like-dislike';
 
@@ -69,7 +70,8 @@ class DesignSystemPage extends Component {
    SlideOutPanels: {componentElement: SlideOutPanels, componentDisplayName: "Slide Out Panels", componentSubNav: ['Slide Out Panels']},
    ProductCards: {componentElement: ProductCards, componentDisplayName: "Product Cards", componentSubNav: ['Product Cards']},
    FilterSort: {componentElement: FilterSort, componentDisplayName: "Filter Sort", componentSubNav: ['FilterSort']},
-   LikeDislike: {componentElement: LikeDislike, componentDisplayName: "Like Dislike Messages", componentSubNav: ['Like Dislike Messages']}
+   LikeDislike: {componentElement: LikeDislike, componentDisplayName: "Like Dislike Messages", componentSubNav: ['Like Dislike Messages']},
+   ExpandCollapse: {componentElement: ExpandCollapse, componentDisplayName: "Expand Collapse", componentSubNav: ['ExpandCollapse']}
 
   }
 

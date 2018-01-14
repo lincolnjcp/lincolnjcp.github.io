@@ -176,6 +176,7 @@ class App extends React.Component {
                             <Route exact path="/components/carousels" render={() => <DesignSystemPage componentName="Carousel" />} />
                             <Route exact path="/components/swatches" render={() => <DesignSystemPage componentName="Swatches" />} />
                             <Route exact path="/components/selectors" render={() => <DesignSystemPage componentName="Selectors" />} />
+                            <Route exact path="/components/expand-collapse" render={() => <DesignSystemPage componentName="ExpandCollapse" />} />
                             <Route exact path="/components/lists" render={() => <DesignSystemPage componentName="Lists" />} />
                             <Route exact path="/page-modules/header" render={() => <DesignSystemPage componentName="Header" />} />
                             <Route exact path="/page-modules/footer" render={() => <DesignSystemPage componentName="Footer" />} />

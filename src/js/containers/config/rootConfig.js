@@ -103,8 +103,8 @@ const rootNav = [
                 content: 'Discount Savings',
             },
             {
-                to: '/',
-                activeClassName: 'inactive',
+                to: '/components/expand-collapse',
+                activeClassName: 'active',
                 content: 'Expand/Collapse',
             },
             {

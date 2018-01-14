@@ -1,0 +1,110 @@
+.accordion-block {
+    clear: both;
+    & .accordion {
+        position: relative;
+        margin: 32px 0 0;
+        & dl:after {
+          content: "";
+          display: block;
+          height: 1em;
+          width: 100%;
+        }
+        & dd {
+            & a {
+                display: block;
+                font-size: 14px;
+                text-decoration: none;
+                margin-left: 35px;
+                margin: 8px 0 8px 36px;
+            }
+            & a:first-child {
+                margin-top: 0;
+            }
+            & a:last-child {
+                margin-bottom: 16px;
+            }
+        }
+      }
+      
+      & .accordion-list:after {
+        content: "";
+        display: block;
+        height: 1em;
+        width: 100%;
+      }
+      
+      & .accordion dd, & .accordion-panel {
+        font-size: 1em;
+        line-height: 1.5em;
+        border-bottom: 1px solid #d8d8d8;
+      }
+      
+      & .accordion p {
+        padding: 0 16px 16px 16px;
+      }
+      
+      & .accordionTitle, & .accordion-Heading {
+        text-align: left;
+        font-weight: 500;
+        font-size: 16px;
+        padding: 16px 16px 16px 8px;
+        display: block;
+        text-decoration: none;
+        color: #111;
+        transition: background-color 0.5s ease-in-out;
+      }
+
+      & .accordionTitle:focus, & .accordion-Heading:focus {
+            outline: 0;
+      }
+      
+      & .accordionTitle:before, & .accordion-Heading:before {
+        content: " ";
+        background-image: url(http://res.cloudinary.com/cbnnexus/image/upload/v1513878720/plus_mjarra.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 18px;
+        width: 18px;
+        position: relative;
+        float: left;
+        margin: -2px 12px 0 0;
+        transition: transform 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55), -webkit-transform 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+      }
+
+      & .accordionTitle-right::before {
+          float: right;
+      }
+      
+      & .accordionTitleActive:before, & .accordionTitle.is-expanded:before {
+        transform: rotate(135deg);
+      }
+      
+      & .accordionItem {
+        height: auto;
+        overflow: hidden;
+        max-height: 50em;
+        transition: max-height 1s ease-in-out;
+        &.is-collapsed {
+          max-height: 0;
+        }
+      }
+      
+      @media screen and (min-width: 48em) {
+        & .accordionItem {
+          max-height: 15em;
+          transition: max-height 0.5s ease-in-out;
+        }
+      }
+      
+      & .no-js {
+        & .accordionItem.is-collapsed {
+            max-height: auto;
+        }
+      }
+      & .animateIn {
+        animation: accordionIn 0.5s normal ease-in-out both 1;
+      }
+      & .animateOut {
+        animation: accordionOut 0.5s alternate ease-in-out both 1;
+      }
+}

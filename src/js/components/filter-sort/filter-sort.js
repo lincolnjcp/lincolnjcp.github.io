@@ -346,7 +346,7 @@ class FilterSort extends Component {
                       <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" className="accordion-title accordionTitle js-accordionTrigger">Accordion Title</a>
                     </dt>
                     <dd className="accordion-content accordionItem is-collapsed" id="accordion1" aria-hidden="true">
-                      <ul>
+                      <ul className="mrg-lft-M">
                         <div className="search-type">
                           <input type="text" placeholder="Search Item Type" />
                         </div>
@@ -354,35 +354,35 @@ class FilterSort extends Component {
                           <label className="checkbox mrg-M" >
                             <input type="checkbox" defaultChecked="" />
                             <span className="left">label</span>
-                            <span className="right-label std-txt">(1,008)</span>
+                            <span className="fl-right std-txt">(1,008)</span>
                           </label>
                         </li>
                         <li className="dropdown-list">
                           <label className="checkbox mrg-M">
                             <input type="checkbox" defaultChecked="" />
                             <span className="left">label</span>
-                            <span className="right-label std-txt">(1,008)</span>
+                            <span className="fl-right std-txt">(1,008)</span>
                           </label>
                         </li>
                         <li className="dropdown-list">
                           <label className="checkbox mrg-M">
                             <input type="checkbox" defaultChecked="" />
                             <span className="left">label</span>
-                            <span className="right-label std-txt">(1,008)</span>
+                            <span className="fl-right std-txt">(1,008)</span>
                           </label>
                         </li>
                         <li className="dropdown-list">
                           <label className="checkbox mrg-M">
                             <input type="checkbox" defaultChecked="" />
                             <span className="left">label</span>
-                            <span className="right-label std-txt">(1,008)</span>
+                            <span className="fl-right std-txt">(1,008)</span>
                           </label>
                         </li>
                         <li className="dropdown-list">
                           <label className="checkbox mrg-M">
                             <input type="checkbox" defaultChecked="" />
                             <span className="left">label</span>
-                            <span className="right-label std-txt">(1,008)</span>
+                            <span className="fl-right std-txt">(1,008)</span>
                           </label>
                         </li>
                       </ul>
@@ -391,7 +391,7 @@ class FilterSort extends Component {
                       <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" className="accordion-title accordionTitle js-accordionTrigger">Accordion Title</a>
                     </dt>
                     <dd className="accordion-content accordionItem is-collapsed" id="accordion1" aria-hidden="true">
-                      <ul>
+                      <ul className="mrg-lft-M">
                         <div className="search-type">
                           <input type="text" placeholder="Search Item Type" />
                         </div>
@@ -399,35 +399,35 @@ class FilterSort extends Component {
                           <label className="checkbox mrg-M" >
                             <input type="checkbox" defaultChecked="" />
                             <span className="left">label</span>
-                            <span className="right-label std-txt">(1,008)</span>
+                            <span className="fl-right std-txt">(1,008)</span>
                           </label>
                         </li>
                         <li className="dropdown-list">
                           <label className="checkbox mrg-M">
                             <input type="checkbox" defaultChecked="" />
                             <span className="left">label</span>
-                            <span className="right-label std-txt">(1,008)</span>
+                            <span className="fl-right std-txt">(1,008)</span>
                           </label>
                         </li>
                         <li className="dropdown-list">
                           <label className="checkbox mrg-M">
                             <input type="checkbox" defaultChecked="" />
                             <span className="left">label</span>
-                            <span className="right-label std-txt">(1,008)</span>
+                            <span className="fl-right std-txt">(1,008)</span>
                           </label>
                         </li>
                         <li className="dropdown-list">
                           <label className="checkbox mrg-M">
                             <input type="checkbox" defaultChecked="" />
                             <span className="left">label</span>
-                            <span className="right-label std-txt">(1,008)</span>
+                            <span className="fl-right std-txt">(1,008)</span>
                           </label>
                         </li>
                         <li className="dropdown-list">
                           <label className="checkbox mrg-M">
                             <input type="checkbox" defaultChecked="" />
                             <span className="left">label</span>
-                            <span className="right-label std-txt">(1,008)</span>
+                            <span className="fl-right std-txt">(1,008)</span>
                           </label>
                         </li>
                       </ul>
@@ -436,7 +436,7 @@ class FilterSort extends Component {
                       <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" className="accordion-title accordionTitle js-accordionTrigger">Accordion Title</a>
                     </dt>
                     <dd className="accordion-content accordionItem is-collapsed" id="accordion1" aria-hidden="true">
-                      <ul>
+                      <ul className="mrg-lft-M">
                         <div className="search-type">
                           <input type="text" placeholder="Search Item Type" />
                         </div>
@@ -444,35 +444,35 @@ class FilterSort extends Component {
                           <label className="checkbox mrg-M" >
                             <input type="checkbox" defaultChecked="" />
                             <span className="left">label</span>
-                            <span className="right-label std-txt">(1,008)</span>
+                            <span className="fl-right std-txt">(1,008)</span>
                           </label>
                         </li>
                         <li className="dropdown-list">
                           <label className="checkbox mrg-M">
                             <input type="checkbox" defaultChecked="" />
                             <span className="left">label</span>
-                            <span className="right-label std-txt">(1,008)</span>
+                            <span className="fl-right std-txt">(1,008)</span>
                           </label>
                         </li>
                         <li className="dropdown-list">
                           <label className="checkbox mrg-M">
                             <input type="checkbox" defaultChecked="" />
                             <span className="left">label</span>
-                            <span className="right-label std-txt">(1,008)</span>
+                            <span className="fl-right std-txt">(1,008)</span>
                           </label>
                         </li>
                         <li className="dropdown-list">
                           <label className="checkbox mrg-M">
                             <input type="checkbox" defaultChecked="" />
                             <span className="left">label</span>
-                            <span className="right-label std-txt">(1,008)</span>
+                            <span className="fl-right std-txt">(1,008)</span>
                           </label>
                         </li>
                         <li className="dropdown-list">
                           <label className="checkbox mrg-M">
                             <input type="checkbox" defaultChecked="" />
                             <span className="left">label</span>
-                            <span className="right-label std-txt">(1,008)</span>
+                            <span className="fl-right std-txt">(1,008)</span>
                           </label>
                         </li>
                       </ul>
@@ -481,7 +481,7 @@ class FilterSort extends Component {
                       <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" className="accordion-title accordionTitle js-accordionTrigger">Accordion Title</a>
                     </dt>
                     <dd className="accordion-content accordionItem is-collapsed" id="accordion1" aria-hidden="true">
-                      <ul>
+                      <ul className="mrg-lft-M">
                         <div className="search-type">
                           <input type="text" placeholder="Search Item Type" />
                         </div>
@@ -489,35 +489,35 @@ class FilterSort extends Component {
                           <label className="checkbox mrg-M" >
                             <input type="checkbox" defaultChecked="" />
                             <span className="left">label</span>
-                            <span className="right-label std-txt">(1,008)</span>
+                            <span className="fl-right std-txt">(1,008)</span>
                           </label>
                         </li>
                         <li className="dropdown-list">
                           <label className="checkbox mrg-M">
                             <input type="checkbox" defaultChecked="" />
                             <span className="left">label</span>
-                            <span className="right-label std-txt">(1,008)</span>
+                            <span className="fl-right std-txt">(1,008)</span>
                           </label>
                         </li>
                         <li className="dropdown-list">
                           <label className="checkbox mrg-M">
                             <input type="checkbox" defaultChecked="" />
                             <span className="left">label</span>
-                            <span className="right-label std-txt">(1,008)</span>
+                            <span className="fl-right std-txt">(1,008)</span>
                           </label>
                         </li>
                         <li className="dropdown-list">
                           <label className="checkbox mrg-M">
                             <input type="checkbox" defaultChecked="" />
                             <span className="left">label</span>
-                            <span className="right-label std-txt">(1,008)</span>
+                            <span className="fl-right std-txt">(1,008)</span>
                           </label>
                         </li>
                         <li className="dropdown-list">
                           <label className="checkbox mrg-M">
                             <input type="checkbox" defaultChecked="" />
                             <span className="left">label</span>
-                            <span className="right-label std-txt">(1,008)</span>
+                            <span className="fl-right std-txt">(1,008)</span>
                           </label>
                         </li>
                       </ul>
@@ -558,7 +558,7 @@ class FilterSort extends Component {
                             <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" className="accordion-title accordionTitle js-accordionTrigger">Accordion Title</a>
                           </dt>
                           <dd className="accordion-content accordionItem is-collapsed" id="accordion1" aria-hidden="true">
-                            <ul>
+                            <ul className="mrg-lft-M">
                             <div className="lg12 xl12 md12 sm12 mrg-L filter-tags nopad-sm nopad-md">
                               <div className="tags std-txt std-txt-S">
                               <span className="tag-title">Filter</span><a href="javascript:void(0)" className="color-white-svg icon nopad-sm nopad-md" dangerouslySetInnerHTML={{ __html: closeImage }} />
@@ -574,35 +574,35 @@ class FilterSort extends Component {
                                 <label className="checkbox mrg-M" >
                                   <input type="checkbox" defaultChecked="true" />
                                   <span className="left">label</span>
-                                  <span className="right-label std-txt">(1,008)</span>
+                                  <span className="fl-right std-txt">(1,008)</span>
                                 </label>
                               </li>
                               <li className="dropdown-list">
                                 <label className="checkbox mrg-M">
                                   <input type="checkbox" defaultChecked="true" />
                                   <span className="left">label</span>
-                                  <span className="right-label std-txt">(1,008)</span>
+                                  <span className="fl-right std-txt">(1,008)</span>
                                 </label>
                               </li>
                               <li className="dropdown-list">
                                 <label className="checkbox mrg-M">
                                   <input type="checkbox" defaultChecked="" />
                                   <span className="left">label</span>
-                                  <span className="right-label std-txt">(1,008)</span>
+                                  <span className="fl-right std-txt">(1,008)</span>
                                 </label>
                               </li>
                               <li className="dropdown-list">
                                 <label className="checkbox mrg-M">
                                   <input type="checkbox" defaultChecked="" />
                                   <span className="left">label</span>
-                                  <span className="right-label std-txt">(1,008)</span>
+                                  <span className="fl-right std-txt">(1,008)</span>
                                 </label>
                               </li>
                               <li className="dropdown-list">
                                 <label className="checkbox mrg-M">
                                   <input type="checkbox" defaultChecked="" />
                                   <span className="left">label</span>
-                                  <span className="right-label std-txt">(1,008)</span>
+                                  <span className="fl-right std-txt">(1,008)</span>
                                 </label>
                               </li>
                             </ul>
@@ -611,7 +611,7 @@ class FilterSort extends Component {
                             <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" className="accordion-title accordionTitle js-accordionTrigger">Accordion Title</a>
                           </dt>
                           <dd className="accordion-content accordionItem is-collapsed" id="accordion1" aria-hidden="true">
-                            <ul>
+                            <ul className="mrg-lft-M">
                               <div className="search-type">
                                 <input type="text" placeholder="Search Item Type" />
                               </div>
@@ -619,35 +619,35 @@ class FilterSort extends Component {
                                 <label className="checkbox mrg-M" >
                                   <input type="checkbox" defaultChecked="" />
                                   <span className="left">label</span>
-                                  <span className="right-label std-txt">(1,008)</span>
+                                  <span className="fl-right std-txt">(1,008)</span>
                                 </label>
                               </li>
                               <li className="dropdown-list">
                                 <label className="checkbox mrg-M">
                                   <input type="checkbox" defaultChecked="" />
                                   <span className="left">label</span>
-                                  <span className="right-label std-txt">(1,008)</span>
+                                  <span className="fl-right std-txt">(1,008)</span>
                                 </label>
                               </li>
                               <li className="dropdown-list">
                                 <label className="checkbox mrg-M">
                                   <input type="checkbox" defaultChecked="" />
                                   <span className="left">label</span>
-                                  <span className="right-label std-txt">(1,008)</span>
+                                  <span className="fl-right std-txt">(1,008)</span>
                                 </label>
                               </li>
                               <li className="dropdown-list">
                                 <label className="checkbox mrg-M">
                                   <input type="checkbox" defaultChecked="" />
                                   <span className="left">label</span>
-                                  <span className="right-label std-txt">(1,008)</span>
+                                  <span className="fl-right std-txt">(1,008)</span>
                                 </label>
                               </li>
                               <li className="dropdown-list">
                                 <label className="checkbox mrg-M">
                                   <input type="checkbox" defaultChecked="" />
                                   <span className="left">label</span>
-                                  <span className="right-label std-txt">(1,008)</span>
+                                  <span className="fl-right std-txt">(1,008)</span>
                                 </label>
                               </li>
                             </ul>
@@ -656,7 +656,7 @@ class FilterSort extends Component {
                             <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" className="accordion-title accordionTitle js-accordionTrigger">Accordion Title</a>
                           </dt>
                           <dd className="accordion-content accordionItem is-collapsed" id="accordion1" aria-hidden="true">
-                            <ul>
+                            <ul className="mrg-lft-M">
                               <div className="search-type">
                                 <input type="text" placeholder="Search Item Type" />
                               </div>
@@ -664,35 +664,35 @@ class FilterSort extends Component {
                                 <label className="checkbox mrg-M" >
                                   <input type="checkbox" defaultChecked="" />
                                   <span className="left">label</span>
-                                  <span className="right-label std-txt">(1,008)</span>
+                                  <span className="fl-right std-txt">(1,008)</span>
                                 </label>
                               </li>
                               <li className="dropdown-list">
                                 <label className="checkbox mrg-M">
                                   <input type="checkbox" defaultChecked="" />
                                   <span className="left">label</span>
-                                  <span className="right-label std-txt">(1,008)</span>
+                                  <span className="fl-right std-txt">(1,008)</span>
                                 </label>
                               </li>
                               <li className="dropdown-list">
                                 <label className="checkbox mrg-M">
                                   <input type="checkbox" defaultChecked="" />
                                   <span className="left">label</span>
-                                  <span className="right-label std-txt">(1,008)</span>
+                                  <span className="fl-right std-txt">(1,008)</span>
                                 </label>
                               </li>
                               <li className="dropdown-list">
                                 <label className="checkbox mrg-M">
                                   <input type="checkbox" defaultChecked="" />
                                   <span className="left">label</span>
-                                  <span className="right-label std-txt">(1,008)</span>
+                                  <span className="fl-right std-txt">(1,008)</span>
                                 </label>
                               </li>
                               <li className="dropdown-list">
                                 <label className="checkbox mrg-M">
                                   <input type="checkbox" defaultChecked="" />
                                   <span className="left">label</span>
-                                  <span className="right-label std-txt">(1,008)</span>
+                                  <span className="fl-right std-txt">(1,008)</span>
                                 </label>
                               </li>
                             </ul>
@@ -701,7 +701,7 @@ class FilterSort extends Component {
                             <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" className="accordion-title accordionTitle js-accordionTrigger">Accordion Title</a>
                           </dt>
                           <dd className="accordion-content accordionItem is-collapsed" id="accordion1" aria-hidden="true">
-                            <ul>
+                            <ul className="mrg-lft-M">
                               <div className="search-type">
                                 <input type="text" placeholder="Search Item Type" />
                               </div>
@@ -709,35 +709,35 @@ class FilterSort extends Component {
                                 <label className="checkbox mrg-M" >
                                   <input type="checkbox" defaultChecked="" />
                                   <span className="left">label</span>
-                                  <span className="right-label std-txt">(1,008)</span>
+                                  <span className="fl-right std-txt">(1,008)</span>
                                 </label>
                               </li>
                               <li className="dropdown-list">
                                 <label className="checkbox mrg-M">
                                   <input type="checkbox" defaultChecked="" />
                                   <span className="left">label</span>
-                                  <span className="right-label std-txt">(1,008)</span>
+                                  <span className="fl-right std-txt">(1,008)</span>
                                 </label>
                               </li>
                               <li className="dropdown-list">
                                 <label className="checkbox mrg-M">
                                   <input type="checkbox" defaultChecked="" />
                                   <span className="left">label</span>
-                                  <span className="right-label std-txt">(1,008)</span>
+                                  <span className="fl-right std-txt">(1,008)</span>
                                 </label>
                               </li>
                               <li className="dropdown-list">
                                 <label className="checkbox mrg-M">
                                   <input type="checkbox" defaultChecked="" />
                                   <span className="left">label</span>
-                                  <span className="right-label std-txt">(1,008)</span>
+                                  <span className="fl-right std-txt">(1,008)</span>
                                 </label>
                               </li>
                               <li className="dropdown-list">
                                 <label className="checkbox mrg-M">
                                   <input type="checkbox" defaultChecked="" />
                                   <span className="left">label</span>
-                                  <span className="right-label std-txt">(1,008)</span>
+                                  <span className="fl-right std-txt">(1,008)</span>
                                 </label>
                               </li>
                             </ul>

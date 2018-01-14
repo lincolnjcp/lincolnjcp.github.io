@@ -678,8 +678,8 @@ var rootNav = [{
         activeClassName: 'inactive',
         content: 'Discount Savings'
     }, {
-        to: '/',
-        activeClassName: 'inactive',
+        to: '/components/expand-collapse',
+        activeClassName: 'active',
         content: 'Expand/Collapse'
     }, {
         to: '/components/forms',
@@ -17038,7 +17038,7 @@ var filter_sort_FilterSort = function (_Component) {
           { className: 'columns' },
           react_default.a.createElement(
             'h1',
-            { className: 'title title-XXL mrg-XL' },
+            { className: 'title title-XXL mrg-XL sm12' },
             'Filter & Sort'
           ),
           react_default.a.createElement('br', null),
@@ -17143,7 +17143,7 @@ var filter_sort_FilterSort = function (_Component) {
                             ),
                             react_default.a.createElement(
                               'span',
-                              { className: 'right-label std-txt' },
+                              { className: 'fl-right std-txt' },
                               '(1,008)'
                             )
                           )
@@ -17162,7 +17162,7 @@ var filter_sort_FilterSort = function (_Component) {
                             ),
                             react_default.a.createElement(
                               'span',
-                              { className: 'right-label std-txt' },
+                              { className: 'fl-right std-txt' },
                               '(1,008)'
                             )
                           )
@@ -17181,7 +17181,7 @@ var filter_sort_FilterSort = function (_Component) {
                             ),
                             react_default.a.createElement(
                               'span',
-                              { className: 'right-label std-txt' },
+                              { className: 'fl-right std-txt' },
                               '(1,008)'
                             )
                           )
@@ -17200,7 +17200,7 @@ var filter_sort_FilterSort = function (_Component) {
                             ),
                             react_default.a.createElement(
                               'span',
-                              { className: 'right-label std-txt' },
+                              { className: 'fl-right std-txt' },
                               '(1,008)'
                             )
                           )
@@ -17219,124 +17219,7 @@ var filter_sort_FilterSort = function (_Component) {
                             ),
                             react_default.a.createElement(
                               'span',
-                              { className: 'right-label std-txt' },
-                              '(1,008)'
-                            )
-                          )
-                        )
-                      )
-                    ),
-                    react_default.a.createElement(
-                      'dt',
-                      null,
-                      react_default.a.createElement(
-                        'a',
-                        { href: '#accordion1', 'aria-expanded': 'false', 'aria-controls': 'accordion1', className: 'accordion-title accordionTitle js-accordionTrigger' },
-                        'Accordion Title'
-                      )
-                    ),
-                    react_default.a.createElement(
-                      'dd',
-                      { className: 'accordion-content accordionItem is-collapsed', id: 'accordion1', 'aria-hidden': 'true' },
-                      react_default.a.createElement(
-                        'ul',
-                        null,
-                        react_default.a.createElement(
-                          'div',
-                          { className: 'search-type' },
-                          react_default.a.createElement('input', { type: 'text', placeholder: 'Search Item Type' })
-                        ),
-                        react_default.a.createElement(
-                          'li',
-                          { className: 'dropdown-list' },
-                          react_default.a.createElement(
-                            'label',
-                            { className: 'checkbox mrg-M' },
-                            react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
-                            react_default.a.createElement(
-                              'span',
-                              { className: 'left' },
-                              'label'
-                            ),
-                            react_default.a.createElement(
-                              'span',
-                              { className: 'right-label std-txt' },
-                              '(1,008)'
-                            )
-                          )
-                        ),
-                        react_default.a.createElement(
-                          'li',
-                          { className: 'dropdown-list' },
-                          react_default.a.createElement(
-                            'label',
-                            { className: 'checkbox mrg-M' },
-                            react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
-                            react_default.a.createElement(
-                              'span',
-                              { className: 'left' },
-                              'label'
-                            ),
-                            react_default.a.createElement(
-                              'span',
-                              { className: 'right-label std-txt' },
-                              '(1,008)'
-                            )
-                          )
-                        ),
-                        react_default.a.createElement(
-                          'li',
-                          { className: 'dropdown-list' },
-                          react_default.a.createElement(
-                            'label',
-                            { className: 'checkbox mrg-M' },
-                            react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
-                            react_default.a.createElement(
-                              'span',
-                              { className: 'left' },
-                              'label'
-                            ),
-                            react_default.a.createElement(
-                              'span',
-                              { className: 'right-label std-txt' },
-                              '(1,008)'
-                            )
-                          )
-                        ),
-                        react_default.a.createElement(
-                          'li',
-                          { className: 'dropdown-list' },
-                          react_default.a.createElement(
-                            'label',
-                            { className: 'checkbox mrg-M' },
-                            react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
-                            react_default.a.createElement(
-                              'span',
-                              { className: 'left' },
-                              'label'
-                            ),
-                            react_default.a.createElement(
-                              'span',
-                              { className: 'right-label std-txt' },
-                              '(1,008)'
-                            )
-                          )
-                        ),
-                        react_default.a.createElement(
-                          'li',
-                          { className: 'dropdown-list' },
-                          react_default.a.createElement(
-                            'label',
-                            { className: 'checkbox mrg-M' },
-                            react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
-                            react_default.a.createElement(
-                              'span',
-                              { className: 'left' },
-                              'label'
-                            ),
-                            react_default.a.createElement(
-                              'span',
-                              { className: 'right-label std-txt' },
+                              { className: 'fl-right std-txt' },
                               '(1,008)'
                             )
                           )
@@ -17377,7 +17260,7 @@ var filter_sort_FilterSort = function (_Component) {
                             ),
                             react_default.a.createElement(
                               'span',
-                              { className: 'right-label std-txt' },
+                              { className: 'fl-right std-txt' },
                               '(1,008)'
                             )
                           )
@@ -17396,7 +17279,7 @@ var filter_sort_FilterSort = function (_Component) {
                             ),
                             react_default.a.createElement(
                               'span',
-                              { className: 'right-label std-txt' },
+                              { className: 'fl-right std-txt' },
                               '(1,008)'
                             )
                           )
@@ -17415,7 +17298,7 @@ var filter_sort_FilterSort = function (_Component) {
                             ),
                             react_default.a.createElement(
                               'span',
-                              { className: 'right-label std-txt' },
+                              { className: 'fl-right std-txt' },
                               '(1,008)'
                             )
                           )
@@ -17434,7 +17317,7 @@ var filter_sort_FilterSort = function (_Component) {
                             ),
                             react_default.a.createElement(
                               'span',
-                              { className: 'right-label std-txt' },
+                              { className: 'fl-right std-txt' },
                               '(1,008)'
                             )
                           )
@@ -17453,7 +17336,7 @@ var filter_sort_FilterSort = function (_Component) {
                             ),
                             react_default.a.createElement(
                               'span',
-                              { className: 'right-label std-txt' },
+                              { className: 'fl-right std-txt' },
                               '(1,008)'
                             )
                           )
@@ -17494,7 +17377,7 @@ var filter_sort_FilterSort = function (_Component) {
                             ),
                             react_default.a.createElement(
                               'span',
-                              { className: 'right-label std-txt' },
+                              { className: 'fl-right std-txt' },
                               '(1,008)'
                             )
                           )
@@ -17513,7 +17396,7 @@ var filter_sort_FilterSort = function (_Component) {
                             ),
                             react_default.a.createElement(
                               'span',
-                              { className: 'right-label std-txt' },
+                              { className: 'fl-right std-txt' },
                               '(1,008)'
                             )
                           )
@@ -17532,7 +17415,7 @@ var filter_sort_FilterSort = function (_Component) {
                             ),
                             react_default.a.createElement(
                               'span',
-                              { className: 'right-label std-txt' },
+                              { className: 'fl-right std-txt' },
                               '(1,008)'
                             )
                           )
@@ -17551,7 +17434,7 @@ var filter_sort_FilterSort = function (_Component) {
                             ),
                             react_default.a.createElement(
                               'span',
-                              { className: 'right-label std-txt' },
+                              { className: 'fl-right std-txt' },
                               '(1,008)'
                             )
                           )
@@ -17570,7 +17453,124 @@ var filter_sort_FilterSort = function (_Component) {
                             ),
                             react_default.a.createElement(
                               'span',
-                              { className: 'right-label std-txt' },
+                              { className: 'fl-right std-txt' },
+                              '(1,008)'
+                            )
+                          )
+                        )
+                      )
+                    ),
+                    react_default.a.createElement(
+                      'dt',
+                      null,
+                      react_default.a.createElement(
+                        'a',
+                        { href: '#accordion1', 'aria-expanded': 'false', 'aria-controls': 'accordion1', className: 'accordion-title accordionTitle js-accordionTrigger' },
+                        'Accordion Title'
+                      )
+                    ),
+                    react_default.a.createElement(
+                      'dd',
+                      { className: 'accordion-content accordionItem is-collapsed', id: 'accordion1', 'aria-hidden': 'true' },
+                      react_default.a.createElement(
+                        'ul',
+                        null,
+                        react_default.a.createElement(
+                          'div',
+                          { className: 'search-type' },
+                          react_default.a.createElement('input', { type: 'text', placeholder: 'Search Item Type' })
+                        ),
+                        react_default.a.createElement(
+                          'li',
+                          { className: 'dropdown-list' },
+                          react_default.a.createElement(
+                            'label',
+                            { className: 'checkbox mrg-M' },
+                            react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
+                            react_default.a.createElement(
+                              'span',
+                              { className: 'left' },
+                              'label'
+                            ),
+                            react_default.a.createElement(
+                              'span',
+                              { className: 'fl-right std-txt' },
+                              '(1,008)'
+                            )
+                          )
+                        ),
+                        react_default.a.createElement(
+                          'li',
+                          { className: 'dropdown-list' },
+                          react_default.a.createElement(
+                            'label',
+                            { className: 'checkbox mrg-M' },
+                            react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
+                            react_default.a.createElement(
+                              'span',
+                              { className: 'left' },
+                              'label'
+                            ),
+                            react_default.a.createElement(
+                              'span',
+                              { className: 'fl-right std-txt' },
+                              '(1,008)'
+                            )
+                          )
+                        ),
+                        react_default.a.createElement(
+                          'li',
+                          { className: 'dropdown-list' },
+                          react_default.a.createElement(
+                            'label',
+                            { className: 'checkbox mrg-M' },
+                            react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
+                            react_default.a.createElement(
+                              'span',
+                              { className: 'left' },
+                              'label'
+                            ),
+                            react_default.a.createElement(
+                              'span',
+                              { className: 'fl-right std-txt' },
+                              '(1,008)'
+                            )
+                          )
+                        ),
+                        react_default.a.createElement(
+                          'li',
+                          { className: 'dropdown-list' },
+                          react_default.a.createElement(
+                            'label',
+                            { className: 'checkbox mrg-M' },
+                            react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
+                            react_default.a.createElement(
+                              'span',
+                              { className: 'left' },
+                              'label'
+                            ),
+                            react_default.a.createElement(
+                              'span',
+                              { className: 'fl-right std-txt' },
+                              '(1,008)'
+                            )
+                          )
+                        ),
+                        react_default.a.createElement(
+                          'li',
+                          { className: 'dropdown-list' },
+                          react_default.a.createElement(
+                            'label',
+                            { className: 'checkbox mrg-M' },
+                            react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
+                            react_default.a.createElement(
+                              'span',
+                              { className: 'left' },
+                              'label'
+                            ),
+                            react_default.a.createElement(
+                              'span',
+                              { className: 'fl-right std-txt' },
                               '(1,008)'
                             )
                           )
@@ -17584,13 +17584,834 @@ var filter_sort_FilterSort = function (_Component) {
           ),
           react_default.a.createElement(
             'div',
-            { className: 'product-gallery-block fl-left' },
+            { className: 'side-panel from-left', id: 'leftPanel' },
             react_default.a.createElement(
               'div',
-              { className: 'row lg12 xl12 md12 sm12' },
+              { className: 'side-panel-container' },
+              react_default.a.createElement(
+                'header',
+                { className: 'side-panel-header' },
+                react_default.a.createElement(
+                  'h3',
+                  { className: 'title title-L color-white' },
+                  'Panel'
+                ),
+                react_default.a.createElement(
+                  'a',
+                  { href: 'javascript:void(0);', className: 'side-panel-close' },
+                  react_default.a.createElement('div', { className: 'change-my-store-icon-close icon color-white-svg', dangerouslySetInnerHTML: { __html: filter_sort_closeImage } })
+                ),
+                ' '
+              ),
               react_default.a.createElement(
                 'div',
-                { className: 'store-pickup column fl-left' },
+                { className: 'side-panel-content' },
+                react_default.a.createElement(
+                  'div',
+                  { className: 'filter-left-block' },
+                  react_default.a.createElement(
+                    'h2',
+                    { className: 'title title-XL title title-XL mrg-XXL' },
+                    'Filter By'
+                  ),
+                  react_default.a.createElement(
+                    'div',
+                    { className: 'column' },
+                    react_default.a.createElement(
+                      'div',
+                      { className: 'input-group' },
+                      react_default.a.createElement(
+                        'label',
+                        { className: 'checkbox mrg-M' },
+                        react_default.a.createElement('input', { type: 'checkbox' }),
+                        ' ',
+                        react_default.a.createElement(
+                          'span',
+                          null,
+                          'Online Only'
+                        ),
+                        ' ',
+                        react_default.a.createElement(
+                          'span',
+                          { className: 'fl-right std-txt std-txt-S' },
+                          '(55)'
+                        )
+                      ),
+                      react_default.a.createElement(
+                        'label',
+                        { className: 'checkbox mrg-M' },
+                        react_default.a.createElement('input', { type: 'checkbox', defaultChecked: 'true' }),
+                        ' ',
+                        react_default.a.createElement(
+                          'span',
+                          null,
+                          react_default.a.createElement(
+                            'p',
+                            { className: 'title title-M' },
+                            react_default.a.createElement(
+                              'span',
+                              { className: 'color-penneyred' },
+                              'FREE'
+                            ),
+                            ' Same Day Pickup'
+                          )
+                        ),
+                        react_default.a.createElement(
+                          'span',
+                          { className: 'fl-right std-txt std-txt-S' },
+                          '(55)'
+                        )
+                      )
+                    ),
+                    react_default.a.createElement(
+                      'div',
+                      { className: 'accordion-block filter-accordion' },
+                      react_default.a.createElement(
+                        'div',
+                        { className: 'accordion' },
+                        react_default.a.createElement(
+                          'dl',
+                          null,
+                          react_default.a.createElement(
+                            'dt',
+                            null,
+                            react_default.a.createElement(
+                              'a',
+                              { href: '#accordion1', 'aria-expanded': 'false', 'aria-controls': 'accordion1', className: 'accordion-title accordionTitle js-accordionTrigger' },
+                              'Accordion Title'
+                            )
+                          ),
+                          react_default.a.createElement(
+                            'dd',
+                            { className: 'accordion-content accordionItem is-collapsed', id: 'accordion1', 'aria-hidden': 'true' },
+                            react_default.a.createElement(
+                              'ul',
+                              null,
+                              react_default.a.createElement(
+                                'div',
+                                { className: 'lg12 xl12 md12 sm12 mrg-L filter-tags nopad-sm nopad-md' },
+                                react_default.a.createElement(
+                                  'div',
+                                  { className: 'tags std-txt std-txt-S' },
+                                  react_default.a.createElement(
+                                    'span',
+                                    { className: 'tag-title' },
+                                    'Filter'
+                                  ),
+                                  react_default.a.createElement('a', { href: 'javascript:void(0)', className: 'color-white-svg icon nopad-sm nopad-md', dangerouslySetInnerHTML: { __html: filter_sort_closeImage } })
+                                ),
+                                react_default.a.createElement(
+                                  'div',
+                                  { className: 'tags std-txt std-txt-S' },
+                                  react_default.a.createElement(
+                                    'span',
+                                    { className: 'tag-title' },
+                                    'Filter'
+                                  ),
+                                  react_default.a.createElement('a', { href: 'javascript:void(0)', className: 'color-white-svg icon nopad-sm nopad-md', dangerouslySetInnerHTML: { __html: filter_sort_closeImage } })
+                                )
+                              ),
+                              react_default.a.createElement(
+                                'div',
+                                { className: 'search-type' },
+                                react_default.a.createElement('input', { type: 'text', placeholder: 'Search Item Type' })
+                              ),
+                              react_default.a.createElement(
+                                'li',
+                                { className: 'dropdown-list' },
+                                react_default.a.createElement(
+                                  'label',
+                                  { className: 'checkbox mrg-M' },
+                                  react_default.a.createElement('input', { type: 'checkbox', defaultChecked: 'true' }),
+                                  react_default.a.createElement(
+                                    'span',
+                                    { className: 'left' },
+                                    'label'
+                                  ),
+                                  react_default.a.createElement(
+                                    'span',
+                                    { className: 'fl-right std-txt' },
+                                    '(1,008)'
+                                  )
+                                )
+                              ),
+                              react_default.a.createElement(
+                                'li',
+                                { className: 'dropdown-list' },
+                                react_default.a.createElement(
+                                  'label',
+                                  { className: 'checkbox mrg-M' },
+                                  react_default.a.createElement('input', { type: 'checkbox', defaultChecked: 'true' }),
+                                  react_default.a.createElement(
+                                    'span',
+                                    { className: 'left' },
+                                    'label'
+                                  ),
+                                  react_default.a.createElement(
+                                    'span',
+                                    { className: 'fl-right std-txt' },
+                                    '(1,008)'
+                                  )
+                                )
+                              ),
+                              react_default.a.createElement(
+                                'li',
+                                { className: 'dropdown-list' },
+                                react_default.a.createElement(
+                                  'label',
+                                  { className: 'checkbox mrg-M' },
+                                  react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
+                                  react_default.a.createElement(
+                                    'span',
+                                    { className: 'left' },
+                                    'label'
+                                  ),
+                                  react_default.a.createElement(
+                                    'span',
+                                    { className: 'fl-right std-txt' },
+                                    '(1,008)'
+                                  )
+                                )
+                              ),
+                              react_default.a.createElement(
+                                'li',
+                                { className: 'dropdown-list' },
+                                react_default.a.createElement(
+                                  'label',
+                                  { className: 'checkbox mrg-M' },
+                                  react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
+                                  react_default.a.createElement(
+                                    'span',
+                                    { className: 'left' },
+                                    'label'
+                                  ),
+                                  react_default.a.createElement(
+                                    'span',
+                                    { className: 'fl-right std-txt' },
+                                    '(1,008)'
+                                  )
+                                )
+                              ),
+                              react_default.a.createElement(
+                                'li',
+                                { className: 'dropdown-list' },
+                                react_default.a.createElement(
+                                  'label',
+                                  { className: 'checkbox mrg-M' },
+                                  react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
+                                  react_default.a.createElement(
+                                    'span',
+                                    { className: 'left' },
+                                    'label'
+                                  ),
+                                  react_default.a.createElement(
+                                    'span',
+                                    { className: 'fl-right std-txt' },
+                                    '(1,008)'
+                                  )
+                                )
+                              )
+                            )
+                          ),
+                          react_default.a.createElement(
+                            'dt',
+                            null,
+                            react_default.a.createElement(
+                              'a',
+                              { href: '#accordion1', 'aria-expanded': 'false', 'aria-controls': 'accordion1', className: 'accordion-title accordionTitle js-accordionTrigger' },
+                              'Accordion Title'
+                            )
+                          ),
+                          react_default.a.createElement(
+                            'dd',
+                            { className: 'accordion-content accordionItem is-collapsed', id: 'accordion1', 'aria-hidden': 'true' },
+                            react_default.a.createElement(
+                              'ul',
+                              null,
+                              react_default.a.createElement(
+                                'div',
+                                { className: 'search-type' },
+                                react_default.a.createElement('input', { type: 'text', placeholder: 'Search Item Type' })
+                              ),
+                              react_default.a.createElement(
+                                'li',
+                                { className: 'dropdown-list' },
+                                react_default.a.createElement(
+                                  'label',
+                                  { className: 'checkbox mrg-M' },
+                                  react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
+                                  react_default.a.createElement(
+                                    'span',
+                                    { className: 'left' },
+                                    'label'
+                                  ),
+                                  react_default.a.createElement(
+                                    'span',
+                                    { className: 'fl-right std-txt' },
+                                    '(1,008)'
+                                  )
+                                )
+                              ),
+                              react_default.a.createElement(
+                                'li',
+                                { className: 'dropdown-list' },
+                                react_default.a.createElement(
+                                  'label',
+                                  { className: 'checkbox mrg-M' },
+                                  react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
+                                  react_default.a.createElement(
+                                    'span',
+                                    { className: 'left' },
+                                    'label'
+                                  ),
+                                  react_default.a.createElement(
+                                    'span',
+                                    { className: 'fl-right std-txt' },
+                                    '(1,008)'
+                                  )
+                                )
+                              ),
+                              react_default.a.createElement(
+                                'li',
+                                { className: 'dropdown-list' },
+                                react_default.a.createElement(
+                                  'label',
+                                  { className: 'checkbox mrg-M' },
+                                  react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
+                                  react_default.a.createElement(
+                                    'span',
+                                    { className: 'left' },
+                                    'label'
+                                  ),
+                                  react_default.a.createElement(
+                                    'span',
+                                    { className: 'fl-right std-txt' },
+                                    '(1,008)'
+                                  )
+                                )
+                              ),
+                              react_default.a.createElement(
+                                'li',
+                                { className: 'dropdown-list' },
+                                react_default.a.createElement(
+                                  'label',
+                                  { className: 'checkbox mrg-M' },
+                                  react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
+                                  react_default.a.createElement(
+                                    'span',
+                                    { className: 'left' },
+                                    'label'
+                                  ),
+                                  react_default.a.createElement(
+                                    'span',
+                                    { className: 'fl-right std-txt' },
+                                    '(1,008)'
+                                  )
+                                )
+                              ),
+                              react_default.a.createElement(
+                                'li',
+                                { className: 'dropdown-list' },
+                                react_default.a.createElement(
+                                  'label',
+                                  { className: 'checkbox mrg-M' },
+                                  react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
+                                  react_default.a.createElement(
+                                    'span',
+                                    { className: 'left' },
+                                    'label'
+                                  ),
+                                  react_default.a.createElement(
+                                    'span',
+                                    { className: 'fl-right std-txt' },
+                                    '(1,008)'
+                                  )
+                                )
+                              )
+                            )
+                          ),
+                          react_default.a.createElement(
+                            'dt',
+                            null,
+                            react_default.a.createElement(
+                              'a',
+                              { href: '#accordion1', 'aria-expanded': 'false', 'aria-controls': 'accordion1', className: 'accordion-title accordionTitle js-accordionTrigger' },
+                              'Accordion Title'
+                            )
+                          ),
+                          react_default.a.createElement(
+                            'dd',
+                            { className: 'accordion-content accordionItem is-collapsed', id: 'accordion1', 'aria-hidden': 'true' },
+                            react_default.a.createElement(
+                              'ul',
+                              null,
+                              react_default.a.createElement(
+                                'div',
+                                { className: 'search-type' },
+                                react_default.a.createElement('input', { type: 'text', placeholder: 'Search Item Type' })
+                              ),
+                              react_default.a.createElement(
+                                'li',
+                                { className: 'dropdown-list' },
+                                react_default.a.createElement(
+                                  'label',
+                                  { className: 'checkbox mrg-M' },
+                                  react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
+                                  react_default.a.createElement(
+                                    'span',
+                                    { className: 'left' },
+                                    'label'
+                                  ),
+                                  react_default.a.createElement(
+                                    'span',
+                                    { className: 'fl-right std-txt' },
+                                    '(1,008)'
+                                  )
+                                )
+                              ),
+                              react_default.a.createElement(
+                                'li',
+                                { className: 'dropdown-list' },
+                                react_default.a.createElement(
+                                  'label',
+                                  { className: 'checkbox mrg-M' },
+                                  react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
+                                  react_default.a.createElement(
+                                    'span',
+                                    { className: 'left' },
+                                    'label'
+                                  ),
+                                  react_default.a.createElement(
+                                    'span',
+                                    { className: 'fl-right std-txt' },
+                                    '(1,008)'
+                                  )
+                                )
+                              ),
+                              react_default.a.createElement(
+                                'li',
+                                { className: 'dropdown-list' },
+                                react_default.a.createElement(
+                                  'label',
+                                  { className: 'checkbox mrg-M' },
+                                  react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
+                                  react_default.a.createElement(
+                                    'span',
+                                    { className: 'left' },
+                                    'label'
+                                  ),
+                                  react_default.a.createElement(
+                                    'span',
+                                    { className: 'fl-right std-txt' },
+                                    '(1,008)'
+                                  )
+                                )
+                              ),
+                              react_default.a.createElement(
+                                'li',
+                                { className: 'dropdown-list' },
+                                react_default.a.createElement(
+                                  'label',
+                                  { className: 'checkbox mrg-M' },
+                                  react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
+                                  react_default.a.createElement(
+                                    'span',
+                                    { className: 'left' },
+                                    'label'
+                                  ),
+                                  react_default.a.createElement(
+                                    'span',
+                                    { className: 'fl-right std-txt' },
+                                    '(1,008)'
+                                  )
+                                )
+                              ),
+                              react_default.a.createElement(
+                                'li',
+                                { className: 'dropdown-list' },
+                                react_default.a.createElement(
+                                  'label',
+                                  { className: 'checkbox mrg-M' },
+                                  react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
+                                  react_default.a.createElement(
+                                    'span',
+                                    { className: 'left' },
+                                    'label'
+                                  ),
+                                  react_default.a.createElement(
+                                    'span',
+                                    { className: 'fl-right std-txt' },
+                                    '(1,008)'
+                                  )
+                                )
+                              )
+                            )
+                          ),
+                          react_default.a.createElement(
+                            'dt',
+                            null,
+                            react_default.a.createElement(
+                              'a',
+                              { href: '#accordion1', 'aria-expanded': 'false', 'aria-controls': 'accordion1', className: 'accordion-title accordionTitle js-accordionTrigger' },
+                              'Accordion Title'
+                            )
+                          ),
+                          react_default.a.createElement(
+                            'dd',
+                            { className: 'accordion-content accordionItem is-collapsed', id: 'accordion1', 'aria-hidden': 'true' },
+                            react_default.a.createElement(
+                              'ul',
+                              null,
+                              react_default.a.createElement(
+                                'div',
+                                { className: 'search-type' },
+                                react_default.a.createElement('input', { type: 'text', placeholder: 'Search Item Type' })
+                              ),
+                              react_default.a.createElement(
+                                'li',
+                                { className: 'dropdown-list' },
+                                react_default.a.createElement(
+                                  'label',
+                                  { className: 'checkbox mrg-M' },
+                                  react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
+                                  react_default.a.createElement(
+                                    'span',
+                                    { className: 'left' },
+                                    'label'
+                                  ),
+                                  react_default.a.createElement(
+                                    'span',
+                                    { className: 'fl-right std-txt' },
+                                    '(1,008)'
+                                  )
+                                )
+                              ),
+                              react_default.a.createElement(
+                                'li',
+                                { className: 'dropdown-list' },
+                                react_default.a.createElement(
+                                  'label',
+                                  { className: 'checkbox mrg-M' },
+                                  react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
+                                  react_default.a.createElement(
+                                    'span',
+                                    { className: 'left' },
+                                    'label'
+                                  ),
+                                  react_default.a.createElement(
+                                    'span',
+                                    { className: 'fl-right std-txt' },
+                                    '(1,008)'
+                                  )
+                                )
+                              ),
+                              react_default.a.createElement(
+                                'li',
+                                { className: 'dropdown-list' },
+                                react_default.a.createElement(
+                                  'label',
+                                  { className: 'checkbox mrg-M' },
+                                  react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
+                                  react_default.a.createElement(
+                                    'span',
+                                    { className: 'left' },
+                                    'label'
+                                  ),
+                                  react_default.a.createElement(
+                                    'span',
+                                    { className: 'fl-right std-txt' },
+                                    '(1,008)'
+                                  )
+                                )
+                              ),
+                              react_default.a.createElement(
+                                'li',
+                                { className: 'dropdown-list' },
+                                react_default.a.createElement(
+                                  'label',
+                                  { className: 'checkbox mrg-M' },
+                                  react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
+                                  react_default.a.createElement(
+                                    'span',
+                                    { className: 'left' },
+                                    'label'
+                                  ),
+                                  react_default.a.createElement(
+                                    'span',
+                                    { className: 'fl-right std-txt' },
+                                    '(1,008)'
+                                  )
+                                )
+                              ),
+                              react_default.a.createElement(
+                                'li',
+                                { className: 'dropdown-list' },
+                                react_default.a.createElement(
+                                  'label',
+                                  { className: 'checkbox mrg-M' },
+                                  react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
+                                  react_default.a.createElement(
+                                    'span',
+                                    { className: 'left' },
+                                    'label'
+                                  ),
+                                  react_default.a.createElement(
+                                    'span',
+                                    { className: 'fl-right std-txt' },
+                                    '(1,008)'
+                                  )
+                                )
+                              )
+                            )
+                          )
+                        )
+                      )
+                    ),
+                    react_default.a.createElement(
+                      'div',
+                      { className: 'filter-button-block' },
+                      react_default.a.createElement(
+                        'div',
+                        { className: 'md6 sm6' },
+                        react_default.a.createElement(
+                          'a',
+                          { href: 'javascript:void();', className: 'btn btn-primary btn-M' },
+                          'Apply'
+                        )
+                      ),
+                      react_default.a.createElement(
+                        'div',
+                        { className: 'md6 sm6' },
+                        react_default.a.createElement(
+                          'a',
+                          { href: 'javascript:void();', className: 'btn btn-secondary btn-M' },
+                          'Clear All'
+                        )
+                      )
+                    )
+                  )
+                )
+              )
+            )
+          ),
+          react_default.a.createElement(
+            'div',
+            { className: 'product-gallery-block fl-left md12 sm12' },
+            react_default.a.createElement(
+              'div',
+              { className: 'pos-rel fl-left hide-for-large-only hide-for-xlarge-only md12 mrg-S' },
+              react_default.a.createElement(
+                'div',
+                { className: 'fl-left dropdown-menu-block' },
+                react_default.a.createElement(
+                  'a',
+                  { className: 'dropdown-button title-S no-dropdown mrg-rght-M side-panel-btn', 'data-target': '#leftPanel' },
+                  'Filter by ',
+                  react_default.a.createElement(
+                    'span',
+                    { 'class': 'sortby std-txt std-txt-S' },
+                    '(2)'
+                  )
+                )
+              ),
+              react_default.a.createElement(
+                'div',
+                { className: 'fl-left dropdown-menu-block' },
+                react_default.a.createElement(
+                  'a',
+                  { className: 'dropdown-button title-S mrg-rght-M' },
+                  'Item Type ',
+                  react_default.a.createElement('span', { className: 'arrow' })
+                ),
+                react_default.a.createElement(
+                  'div',
+                  { className: 'dropdown-menu' },
+                  react_default.a.createElement(
+                    'div',
+                    { className: 'tooltip tooltip-top-center' },
+                    react_default.a.createElement(
+                      'span',
+                      null,
+                      react_default.a.createElement(
+                        'ul',
+                        { className: 'dropdown-sort' },
+                        react_default.a.createElement(
+                          'li',
+                          { className: 'dropdown-list' },
+                          react_default.a.createElement(
+                            'a',
+                            { href: 'javascript:void(0)', className: 'sort-list' },
+                            'Featured'
+                          )
+                        ),
+                        react_default.a.createElement(
+                          'li',
+                          { className: 'dropdown-list' },
+                          react_default.a.createElement(
+                            'a',
+                            { href: 'javascript:void(0)', className: 'sort-list' },
+                            'Best Sellers'
+                          )
+                        ),
+                        react_default.a.createElement(
+                          'li',
+                          { className: 'dropdown-list' },
+                          react_default.a.createElement(
+                            'a',
+                            { href: 'javascript:void(0)', className: 'sort-list' },
+                            'New Arrivals'
+                          )
+                        ),
+                        react_default.a.createElement(
+                          'li',
+                          { className: 'dropdown-list' },
+                          react_default.a.createElement(
+                            'a',
+                            { href: 'javascript:void(0)', className: 'sort-list' },
+                            'Price High to Low'
+                          )
+                        )
+                      )
+                    )
+                  )
+                )
+              ),
+              react_default.a.createElement(
+                'div',
+                { className: 'fl-left dropdown-menu-block' },
+                react_default.a.createElement(
+                  'a',
+                  { className: 'dropdown-button title-S mrg-rght-M' },
+                  'Features ',
+                  react_default.a.createElement('span', { className: 'arrow' })
+                ),
+                react_default.a.createElement(
+                  'div',
+                  { className: 'dropdown-menu' },
+                  react_default.a.createElement(
+                    'div',
+                    { className: 'tooltip tooltip-top-center' },
+                    react_default.a.createElement(
+                      'span',
+                      null,
+                      react_default.a.createElement(
+                        'ul',
+                        { className: 'dropdown-sort' },
+                        react_default.a.createElement(
+                          'li',
+                          { className: 'dropdown-list' },
+                          react_default.a.createElement(
+                            'a',
+                            { href: 'javascript:void(0)', className: 'sort-list' },
+                            'Featured'
+                          )
+                        ),
+                        react_default.a.createElement(
+                          'li',
+                          { className: 'dropdown-list' },
+                          react_default.a.createElement(
+                            'a',
+                            { href: 'javascript:void(0)', className: 'sort-list' },
+                            'Best Sellers'
+                          )
+                        ),
+                        react_default.a.createElement(
+                          'li',
+                          { className: 'dropdown-list' },
+                          react_default.a.createElement(
+                            'a',
+                            { href: 'javascript:void(0)', className: 'sort-list' },
+                            'New Arrivals'
+                          )
+                        ),
+                        react_default.a.createElement(
+                          'li',
+                          { className: 'dropdown-list' },
+                          react_default.a.createElement(
+                            'a',
+                            { href: 'javascript:void(0)', className: 'sort-list' },
+                            'Price High to Low'
+                          )
+                        )
+                      )
+                    )
+                  )
+                )
+              ),
+              react_default.a.createElement(
+                'div',
+                { className: 'fl-right dropdown-menu-block' },
+                react_default.a.createElement(
+                  'a',
+                  { className: 'dropdown-button title-S' },
+                  'Sort by: ',
+                  react_default.a.createElement(
+                    'span',
+                    { 'class': 'sortby' },
+                    'Best Match'
+                  ),
+                  react_default.a.createElement('span', { className: 'arrow' })
+                ),
+                react_default.a.createElement(
+                  'div',
+                  { className: 'dropdown-menu' },
+                  react_default.a.createElement(
+                    'div',
+                    { className: 'tooltip tooltip-top-right' },
+                    react_default.a.createElement(
+                      'span',
+                      null,
+                      react_default.a.createElement(
+                        'ul',
+                        { className: 'dropdown-sort' },
+                        react_default.a.createElement(
+                          'li',
+                          { className: 'dropdown-list' },
+                          react_default.a.createElement(
+                            'a',
+                            { href: 'javascript:void(0)', className: 'sort-list' },
+                            'Featured'
+                          )
+                        ),
+                        react_default.a.createElement(
+                          'li',
+                          { className: 'dropdown-list' },
+                          react_default.a.createElement(
+                            'a',
+                            { href: 'javascript:void(0)', className: 'sort-list' },
+                            'Best Sellers'
+                          )
+                        ),
+                        react_default.a.createElement(
+                          'li',
+                          { className: 'dropdown-list' },
+                          react_default.a.createElement(
+                            'a',
+                            { href: 'javascript:void(0)', className: 'sort-list' },
+                            'New Arrivals'
+                          )
+                        ),
+                        react_default.a.createElement(
+                          'li',
+                          { className: 'dropdown-list' },
+                          react_default.a.createElement(
+                            'a',
+                            { href: 'javascript:void(0)', className: 'sort-list' },
+                            'Price High to Low'
+                          )
+                        )
+                      )
+                    )
+                  )
+                )
+              )
+            ),
+            react_default.a.createElement(
+              'div',
+              { className: 'row lg12 xl12 md12 sm12 nopad-sm' },
+              react_default.a.createElement(
+                'div',
+                { className: 'store-pickup column fl-left sm10 md10 lg9 xl9' },
                 react_default.a.createElement(
                   'label',
                   { className: 'checkbox pos-rel' },
@@ -17607,7 +18428,7 @@ var filter_sort_FilterSort = function (_Component) {
                         { className: 'color-penneyred' },
                         'FREE'
                       ),
-                      ' Store Pickup Today at ',
+                      ' Same Day Pickup at ',
                       react_default.a.createElement(
                         'a',
                         { href: '#' },
@@ -17620,11 +18441,11 @@ var filter_sort_FilterSort = function (_Component) {
               ),
               react_default.a.createElement(
                 'div',
-                { className: 'dropdown-menu-block column md4 sm12 lg4 fl-right mrg-M' },
+                { className: 'dropdown-menu-block column md2 sm2 lg3 xl3 fl-right mrg-M' },
                 react_default.a.createElement('div', { 'class': 'listIcon fl-right' }),
                 react_default.a.createElement(
                   'div',
-                  { className: 'pos-rel fl-right' },
+                  { className: 'pos-rel fl-right hide-for-medium-only hide-for-small-only' },
                   react_default.a.createElement(
                     'a',
                     { className: 'dropdown-button title-S' },
@@ -17693,7 +18514,7 @@ var filter_sort_FilterSort = function (_Component) {
             ),
             react_default.a.createElement(
               'div',
-              { className: 'lg12 xl12 md12 sm12 mrg-L filter-tags' },
+              { className: 'lg12 xl12 md12 sm12 mrg-L filter-tags hide-for-medium-only hide-for-small-only' },
               react_default.a.createElement(
                 'div',
                 { className: 'tags std-txt std-txt-S' },
@@ -17750,7 +18571,7 @@ var filter_sort_FilterSort = function (_Component) {
               { className: 'row' },
               react_default.a.createElement(
                 'div',
-                { className: 'sm12 columns' },
+                { className: 'columns' },
                 react_default.a.createElement(
                   'div',
                   { className: 'product-card-wrapper mrg-M' },
@@ -17935,6 +18756,613 @@ var components_filter_sort__temp = function () {
   }
 
   __REACT_HOT_LOADER__.register(components_filter_sort__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/filter-sort/index.js');
+}();
+
+;
+// CONCATENATED MODULE: ./src/js/components/expand-collapse/expand-collapse.js
+var expand_collapse__createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+function expand_collapse__classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function expand_collapse__possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function expand_collapse__inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+
+
+var expand_collapse_ExpandCollapse = function (_Component) {
+  expand_collapse__inherits(ExpandCollapse, _Component);
+
+  function ExpandCollapse() {
+    expand_collapse__classCallCheck(this, ExpandCollapse);
+
+    return expand_collapse__possibleConstructorReturn(this, (ExpandCollapse.__proto__ || Object.getPrototypeOf(ExpandCollapse)).apply(this, arguments));
+  }
+
+  expand_collapse__createClass(ExpandCollapse, [{
+    key: 'componentDidMount',
+    value: function componentDidMount() {
+      (function () {
+        var d = document,
+            accordionToggles = d.querySelectorAll('.js-accordionTrigger'),
+            setAria,
+            setAccordionAria,
+            switchAccordion,
+            touchSupported = 'ontouchstart' in window,
+            pointerSupported = 'pointerdown' in window;
+
+        var skipClickDelay = function skipClickDelay(e) {
+          e.preventDefault();
+          e.target.click();
+        };
+
+        var setAriaAttr = function setAriaAttr(el, ariaType, newProperty) {
+          el.setAttribute(ariaType, newProperty);
+        };
+        setAccordionAria = function setAccordionAria(el1, el2, expanded) {
+          switch (expanded) {
+            case "true":
+              setAriaAttr(el1, 'aria-expanded', 'true');
+              setAriaAttr(el2, 'aria-hidden', 'false');
+              break;
+            case "false":
+              setAriaAttr(el1, 'aria-expanded', 'false');
+              setAriaAttr(el2, 'aria-hidden', 'true');
+              break;
+            default:
+              break;
+          }
+        };
+        //function
+        switchAccordion = function switchAccordion(e) {
+          console.log("triggered");
+          e.preventDefault();
+          var thisAnswer = e.target.parentNode.nextElementSibling;
+          var thisQuestion = e.target;
+          if (thisAnswer.classList.contains('is-collapsed')) {
+            setAccordionAria(thisQuestion, thisAnswer, 'true');
+          } else {
+            setAccordionAria(thisQuestion, thisAnswer, 'false');
+          }
+          thisQuestion.classList.toggle('is-collapsed');
+          thisQuestion.classList.toggle('is-expanded');
+          thisAnswer.classList.toggle('is-collapsed');
+          thisAnswer.classList.toggle('is-expanded');
+
+          thisAnswer.classList.toggle('animateIn');
+        };
+        for (var i = 0, len = accordionToggles.length; i < len; i++) {
+          if (touchSupported) {
+            accordionToggles[i].addEventListener('touchstart', skipClickDelay, false);
+          }
+          if (pointerSupported) {
+            accordionToggles[i].addEventListener('pointerdown', skipClickDelay, false);
+          }
+          accordionToggles[i].addEventListener('click', switchAccordion, false);
+        }
+      })();
+    }
+  }, {
+    key: 'render',
+    value: function render() {
+      return react_default.a.createElement(
+        'div',
+        null,
+        react_default.a.createElement(
+          'div',
+          { className: 'row' },
+          react_default.a.createElement(
+            'div',
+            { className: 'accordion-block filter-accordion' },
+            react_default.a.createElement(
+              'div',
+              { className: 'accordion' },
+              react_default.a.createElement(
+                'dl',
+                null,
+                react_default.a.createElement(
+                  'dt',
+                  null,
+                  react_default.a.createElement(
+                    'a',
+                    { href: '#accordion1', 'aria-expanded': 'false', 'aria-controls': 'accordion1', className: 'accordion-title accordionTitle js-accordionTrigger' },
+                    'Accordion Title'
+                  )
+                ),
+                react_default.a.createElement(
+                  'dd',
+                  { className: 'accordion-content accordionItem is-collapsed', id: 'accordion1', 'aria-hidden': 'true' },
+                  react_default.a.createElement(
+                    'ul',
+                    null,
+                    react_default.a.createElement(
+                      'li',
+                      { className: 'dropdown-list' },
+                      react_default.a.createElement(
+                        'label',
+                        { className: 'checkbox mrg-M' },
+                        react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
+                        react_default.a.createElement(
+                          'span',
+                          { className: 'left' },
+                          'label'
+                        ),
+                        react_default.a.createElement(
+                          'span',
+                          { className: 'fl-right std-txt' },
+                          '(1,008)'
+                        )
+                      )
+                    ),
+                    react_default.a.createElement(
+                      'li',
+                      { className: 'dropdown-list' },
+                      react_default.a.createElement(
+                        'label',
+                        { className: 'checkbox mrg-M' },
+                        react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
+                        react_default.a.createElement(
+                          'span',
+                          { className: 'left' },
+                          'label'
+                        ),
+                        react_default.a.createElement(
+                          'span',
+                          { className: 'fl-right std-txt' },
+                          '(1,008)'
+                        )
+                      )
+                    ),
+                    react_default.a.createElement(
+                      'li',
+                      { className: 'dropdown-list' },
+                      react_default.a.createElement(
+                        'label',
+                        { className: 'checkbox mrg-M' },
+                        react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
+                        react_default.a.createElement(
+                          'span',
+                          { className: 'left' },
+                          'label'
+                        ),
+                        react_default.a.createElement(
+                          'span',
+                          { className: 'fl-right std-txt' },
+                          '(1,008)'
+                        )
+                      )
+                    ),
+                    react_default.a.createElement(
+                      'li',
+                      { className: 'dropdown-list' },
+                      react_default.a.createElement(
+                        'label',
+                        { className: 'checkbox mrg-M' },
+                        react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
+                        react_default.a.createElement(
+                          'span',
+                          { className: 'left' },
+                          'label'
+                        ),
+                        react_default.a.createElement(
+                          'span',
+                          { className: 'fl-right std-txt' },
+                          '(1,008)'
+                        )
+                      )
+                    ),
+                    react_default.a.createElement(
+                      'li',
+                      { className: 'dropdown-list' },
+                      react_default.a.createElement(
+                        'label',
+                        { className: 'checkbox mrg-M' },
+                        react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
+                        react_default.a.createElement(
+                          'span',
+                          { className: 'left' },
+                          'label'
+                        ),
+                        react_default.a.createElement(
+                          'span',
+                          { className: 'fl-right std-txt' },
+                          '(1,008)'
+                        )
+                      )
+                    )
+                  )
+                ),
+                react_default.a.createElement(
+                  'dt',
+                  null,
+                  react_default.a.createElement(
+                    'a',
+                    { href: '#accordion1', 'aria-expanded': 'false', 'aria-controls': 'accordion1', className: 'accordion-title accordionTitle js-accordionTrigger' },
+                    'Accordion Title'
+                  )
+                ),
+                react_default.a.createElement(
+                  'dd',
+                  { className: 'accordion-content accordionItem is-collapsed', id: 'accordion1', 'aria-hidden': 'true' },
+                  react_default.a.createElement(
+                    'ul',
+                    null,
+                    react_default.a.createElement(
+                      'div',
+                      { className: 'search-type' },
+                      react_default.a.createElement('input', { type: 'text', placeholder: 'Search Item Type' })
+                    ),
+                    react_default.a.createElement(
+                      'li',
+                      { className: 'dropdown-list' },
+                      react_default.a.createElement(
+                        'label',
+                        { className: 'checkbox mrg-M' },
+                        react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
+                        react_default.a.createElement(
+                          'span',
+                          { className: 'left' },
+                          'label'
+                        ),
+                        react_default.a.createElement(
+                          'span',
+                          { className: 'fl-right std-txt' },
+                          '(1,008)'
+                        )
+                      )
+                    ),
+                    react_default.a.createElement(
+                      'li',
+                      { className: 'dropdown-list' },
+                      react_default.a.createElement(
+                        'label',
+                        { className: 'checkbox mrg-M' },
+                        react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
+                        react_default.a.createElement(
+                          'span',
+                          { className: 'left' },
+                          'label'
+                        ),
+                        react_default.a.createElement(
+                          'span',
+                          { className: 'fl-right std-txt' },
+                          '(1,008)'
+                        )
+                      )
+                    ),
+                    react_default.a.createElement(
+                      'li',
+                      { className: 'dropdown-list' },
+                      react_default.a.createElement(
+                        'label',
+                        { className: 'checkbox mrg-M' },
+                        react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
+                        react_default.a.createElement(
+                          'span',
+                          { className: 'left' },
+                          'label'
+                        ),
+                        react_default.a.createElement(
+                          'span',
+                          { className: 'fl-right std-txt' },
+                          '(1,008)'
+                        )
+                      )
+                    ),
+                    react_default.a.createElement(
+                      'li',
+                      { className: 'dropdown-list' },
+                      react_default.a.createElement(
+                        'label',
+                        { className: 'checkbox mrg-M' },
+                        react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
+                        react_default.a.createElement(
+                          'span',
+                          { className: 'left' },
+                          'label'
+                        ),
+                        react_default.a.createElement(
+                          'span',
+                          { className: 'fl-right std-txt' },
+                          '(1,008)'
+                        )
+                      )
+                    ),
+                    react_default.a.createElement(
+                      'li',
+                      { className: 'dropdown-list' },
+                      react_default.a.createElement(
+                        'label',
+                        { className: 'checkbox mrg-M' },
+                        react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
+                        react_default.a.createElement(
+                          'span',
+                          { className: 'left' },
+                          'label'
+                        ),
+                        react_default.a.createElement(
+                          'span',
+                          { className: 'fl-right std-txt' },
+                          '(1,008)'
+                        )
+                      )
+                    )
+                  )
+                ),
+                react_default.a.createElement(
+                  'dt',
+                  null,
+                  react_default.a.createElement(
+                    'a',
+                    { href: '#accordion1', 'aria-expanded': 'false', 'aria-controls': 'accordion1', className: 'accordion-title accordionTitle js-accordionTrigger' },
+                    'Accordion Title'
+                  )
+                ),
+                react_default.a.createElement(
+                  'dd',
+                  { className: 'accordion-content accordionItem is-collapsed', id: 'accordion1', 'aria-hidden': 'true' },
+                  react_default.a.createElement(
+                    'ul',
+                    null,
+                    react_default.a.createElement(
+                      'div',
+                      { className: 'search-type' },
+                      react_default.a.createElement('input', { type: 'text', placeholder: 'Search Item Type' })
+                    ),
+                    react_default.a.createElement(
+                      'li',
+                      { className: 'dropdown-list' },
+                      react_default.a.createElement(
+                        'label',
+                        { className: 'checkbox mrg-M' },
+                        react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
+                        react_default.a.createElement(
+                          'span',
+                          { className: 'left' },
+                          'label'
+                        ),
+                        react_default.a.createElement(
+                          'span',
+                          { className: 'fl-right std-txt' },
+                          '(1,008)'
+                        )
+                      )
+                    ),
+                    react_default.a.createElement(
+                      'li',
+                      { className: 'dropdown-list' },
+                      react_default.a.createElement(
+                        'label',
+                        { className: 'checkbox mrg-M' },
+                        react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
+                        react_default.a.createElement(
+                          'span',
+                          { className: 'left' },
+                          'label'
+                        ),
+                        react_default.a.createElement(
+                          'span',
+                          { className: 'fl-right std-txt' },
+                          '(1,008)'
+                        )
+                      )
+                    ),
+                    react_default.a.createElement(
+                      'li',
+                      { className: 'dropdown-list' },
+                      react_default.a.createElement(
+                        'label',
+                        { className: 'checkbox mrg-M' },
+                        react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
+                        react_default.a.createElement(
+                          'span',
+                          { className: 'left' },
+                          'label'
+                        ),
+                        react_default.a.createElement(
+                          'span',
+                          { className: 'fl-right std-txt' },
+                          '(1,008)'
+                        )
+                      )
+                    ),
+                    react_default.a.createElement(
+                      'li',
+                      { className: 'dropdown-list' },
+                      react_default.a.createElement(
+                        'label',
+                        { className: 'checkbox mrg-M' },
+                        react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
+                        react_default.a.createElement(
+                          'span',
+                          { className: 'left' },
+                          'label'
+                        ),
+                        react_default.a.createElement(
+                          'span',
+                          { className: 'fl-right std-txt' },
+                          '(1,008)'
+                        )
+                      )
+                    ),
+                    react_default.a.createElement(
+                      'li',
+                      { className: 'dropdown-list' },
+                      react_default.a.createElement(
+                        'label',
+                        { className: 'checkbox mrg-M' },
+                        react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
+                        react_default.a.createElement(
+                          'span',
+                          { className: 'left' },
+                          'label'
+                        ),
+                        react_default.a.createElement(
+                          'span',
+                          { className: 'fl-right std-txt' },
+                          '(1,008)'
+                        )
+                      )
+                    )
+                  )
+                ),
+                react_default.a.createElement(
+                  'dt',
+                  null,
+                  react_default.a.createElement(
+                    'a',
+                    { href: '#accordion1', 'aria-expanded': 'false', 'aria-controls': 'accordion1', className: 'accordion-title accordionTitle js-accordionTrigger' },
+                    'Accordion Title'
+                  )
+                ),
+                react_default.a.createElement(
+                  'dd',
+                  { className: 'accordion-content accordionItem is-collapsed', id: 'accordion1', 'aria-hidden': 'true' },
+                  react_default.a.createElement(
+                    'ul',
+                    null,
+                    react_default.a.createElement(
+                      'div',
+                      { className: 'search-type' },
+                      react_default.a.createElement('input', { type: 'text', placeholder: 'Search Item Type' })
+                    ),
+                    react_default.a.createElement(
+                      'li',
+                      { className: 'dropdown-list' },
+                      react_default.a.createElement(
+                        'label',
+                        { className: 'checkbox mrg-M' },
+                        react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
+                        react_default.a.createElement(
+                          'span',
+                          { className: 'left' },
+                          'label'
+                        ),
+                        react_default.a.createElement(
+                          'span',
+                          { className: 'fl-right std-txt' },
+                          '(1,008)'
+                        )
+                      )
+                    ),
+                    react_default.a.createElement(
+                      'li',
+                      { className: 'dropdown-list' },
+                      react_default.a.createElement(
+                        'label',
+                        { className: 'checkbox mrg-M' },
+                        react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
+                        react_default.a.createElement(
+                          'span',
+                          { className: 'left' },
+                          'label'
+                        ),
+                        react_default.a.createElement(
+                          'span',
+                          { className: 'fl-right std-txt' },
+                          '(1,008)'
+                        )
+                      )
+                    ),
+                    react_default.a.createElement(
+                      'li',
+                      { className: 'dropdown-list' },
+                      react_default.a.createElement(
+                        'label',
+                        { className: 'checkbox mrg-M' },
+                        react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
+                        react_default.a.createElement(
+                          'span',
+                          { className: 'left' },
+                          'label'
+                        ),
+                        react_default.a.createElement(
+                          'span',
+                          { className: 'fl-right std-txt' },
+                          '(1,008)'
+                        )
+                      )
+                    ),
+                    react_default.a.createElement(
+                      'li',
+                      { className: 'dropdown-list' },
+                      react_default.a.createElement(
+                        'label',
+                        { className: 'checkbox mrg-M' },
+                        react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
+                        react_default.a.createElement(
+                          'span',
+                          { className: 'left' },
+                          'label'
+                        ),
+                        react_default.a.createElement(
+                          'span',
+                          { className: 'fl-right std-txt' },
+                          '(1,008)'
+                        )
+                      )
+                    ),
+                    react_default.a.createElement(
+                      'li',
+                      { className: 'dropdown-list' },
+                      react_default.a.createElement(
+                        'label',
+                        { className: 'checkbox mrg-M' },
+                        react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
+                        react_default.a.createElement(
+                          'span',
+                          { className: 'left' },
+                          'label'
+                        ),
+                        react_default.a.createElement(
+                          'span',
+                          { className: 'fl-right std-txt' },
+                          '(1,008)'
+                        )
+                      )
+                    )
+                  )
+                )
+              )
+            )
+          )
+        )
+      );
+    }
+  }]);
+
+  return ExpandCollapse;
+}(react["Component"]);
+
+var expand_collapse__default = expand_collapse_ExpandCollapse;
+
+
+/* harmony default export */ var expand_collapse = (expand_collapse__default);
+;
+
+var expand_collapse__temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(expand_collapse_ExpandCollapse, 'ExpandCollapse', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/expand-collapse/expand-collapse.js');
+
+  __REACT_HOT_LOADER__.register(expand_collapse__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/expand-collapse/expand-collapse.js');
+}();
+
+;
+// CONCATENATED MODULE: ./src/js/components/expand-collapse/index.js
+
+var components_expand_collapse__default = expand_collapse;
+/* harmony default export */ var components_expand_collapse = (components_expand_collapse__default);
+;
+
+var components_expand_collapse__temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(components_expand_collapse__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/expand-collapse/index.js');
 }();
 
 ;
@@ -19210,6 +20638,7 @@ function DesignSystemPage__inherits(subClass, superClass) { if (typeof superClas
 
 
 
+
 var DesignSystemPage_DesignSystemPage = function (_Component) {
     DesignSystemPage__inherits(DesignSystemPage, _Component);
 
@@ -19253,7 +20682,8 @@ var DesignSystemPage_DesignSystemPage = function (_Component) {
                 SlideOutPanels: { componentElement: components_slide_out_panels, componentDisplayName: "Slide Out Panels", componentSubNav: ['Slide Out Panels'] },
                 ProductCards: { componentElement: components_product_cards, componentDisplayName: "Product Cards", componentSubNav: ['Product Cards'] },
                 FilterSort: { componentElement: components_filter_sort, componentDisplayName: "Filter Sort", componentSubNav: ['FilterSort'] },
-                LikeDislike: { componentElement: components_like_dislike, componentDisplayName: "Like Dislike Messages", componentSubNav: ['Like Dislike Messages'] }
+                LikeDislike: { componentElement: components_like_dislike, componentDisplayName: "Like Dislike Messages", componentSubNav: ['Like Dislike Messages'] },
+                ExpandCollapse: { componentElement: components_expand_collapse, componentDisplayName: "Expand Collapse", componentSubNav: ['ExpandCollapse'] }
 
             };
 
@@ -23674,6 +25104,9 @@ var Root_App = function (_React$Component) {
                                 } }),
                             react_default.a.createElement(es["d" /* Route */], { exact: true, path: '/components/selectors', render: function render() {
                                     return react_default.a.createElement(containers_DesignSystemPage, { componentName: 'Selectors' });
+                                } }),
+                            react_default.a.createElement(es["d" /* Route */], { exact: true, path: '/components/expand-collapse', render: function render() {
+                                    return react_default.a.createElement(containers_DesignSystemPage, { componentName: 'ExpandCollapse' });
                                 } }),
                             react_default.a.createElement(es["d" /* Route */], { exact: true, path: '/components/lists', render: function render() {
                                     return react_default.a.createElement(containers_DesignSystemPage, { componentName: 'Lists' });
