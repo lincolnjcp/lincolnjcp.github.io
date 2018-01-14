@@ -43,7 +43,7 @@ button{
   &.btn-secondary{
     min-width: 128px;
     background-color: var(--color-white);
-    color: var(--color-lipstick);
+    color: var(--color-nightsky);
     border: 1px solid var(--color-concrete);
     @apply --elevation;
     @apply --btn-transition;

@@ -24,6 +24,13 @@
                     & .search-type {
                         & input {
                             width: 100%;
+                            border-radius: var(--border-radius-M);
+                            @media (--viewport-sm-only) {
+                                margin-top: 8px;
+                            }
+                            @media (--viewport-md-only) {
+                                margin-top: 8px;
+                            }
                         }
                     }
                 }
@@ -33,17 +40,45 @@
             }
         }
     }
+    & .filter-button-block {
+        background: var(--color-lightgrey);
+        padding: 16px;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        left: 0px;
+    }
 }
 
 .product-gallery-block {
     & .store-pickup {
         padding: 16px 0 0 16px;
+        @media (--viewport-sm-only) {
+            padding: 10px 0 0;
+            & .title-M {
+                font-size: 14px;
+                position: relative;
+                top: -6px;
+                & .color-penneyred {
+                    font-weight: bold;
+                }
+                & a{
+                    max-width: 55px;
+                    white-space: nowrap;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    position: relative;
+                    display: inline-block;
+                    top: 5px;
+                }
+            }
+        }
         & .arrow {
             content: "";
             position: absolute;
             pointer-events: none;
             display: inline-block;
-            right: -13px;
+            right: auto;
             top: 0;
             &::after {
               content: "\25BE";
@@ -71,38 +106,70 @@
         }
     }
 
-    & .filter-tags {
-        margin-left: 12px;
-        & .tags {
-            padding: 8px;
-            margin-right: 16px;
+    & .dropdown-menu-block {
+        @media (--viewport-sm-only) {
+            min-height: 38px;
             float: left;
-            border-radius: var(--border-radius-M);
-            border: solid 1px solid var(--color-concrete);
-            & .tag-title {
-                font-weight: var(--font-weight-bold);
-                color: var(--color-shadow);
-            }
-            & .icon {
-                display: block;
-                float: right;
-                width: 16px;
-                height: 16px;
-                background: var(--color-shadow);
-                border-radius: 100%;
-                margin-left: 8px;
-                cursor: pointer;
-                & svg {
-                    width: 16px;
-                    height: 16px;
+            margin-bottom: 16px;
+            & .dropdown-button {
+                min-width: 152px;
+                & .sortby {
+                    max-width: 50px;
                 }
             }
         }
-        & .tag-clear {
-            color: var(--color-nightsky);
-            display: block;
-            margin-top: 8px;
+    }
+}
+
+.filter-tags {
+    margin-left: 12px;
+    @media (--viewport-sm-only) {
+        padding: 0;
+        margin: 0;
+        & .tags {
+            & .tag-title {
+                padding-right: 8px;
+            }
         }
+    }
+    @media (--viewport-md-only) {
+        padding: 0;
+        margin: 0;
+        & .tags {
+            & .tag-title {
+                padding-right: 8px;
+            }
+        }
+    }
+    & .tags {
+        padding: 8px;
+        margin-right: 16px;
+        float: left;
+        border-radius: var(--border-radius-M);
+        border: solid 1px solid var(--color-concrete);
+        & .tag-title {
+            font-weight: var(--font-weight-bold);
+            color: var(--color-shadow);
+        }
+        & .icon {
+            display: block;
+            float: right;
+            width: 16px;
+            height: 16px;
+            background: var(--color-shadow);
+            border-radius: 100%;
+            margin-left: 8px;
+            cursor: pointer;
+            & svg {
+                width: 16px;
+                height: 16px;
+            }
+        }
+    }
+    & .tag-clear {
+        color: var(--color-nightsky);
+        display: block;
+        margin-top: 8px;
     }
 }
 
@@ -115,6 +182,13 @@
         padding: 0 !important;
         & .product-card-pane-L {
             width: 22%;
+        }
+    }
+}
+@media (--viewport-sm-only) {
+    .product-gallery-block {
+        & .product-card-pane-L {
+            width: 45%;
         }
     }
 }

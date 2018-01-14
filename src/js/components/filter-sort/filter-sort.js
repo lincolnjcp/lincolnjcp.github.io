@@ -323,7 +323,7 @@ class FilterSort extends Component {
 
       <div>
         <div className="columns">
-          <h1 className="title title-XXL mrg-XL">Filter & Sort</h1><br /><br />
+          <h1 className="title title-XXL mrg-XL sm12">Filter & Sort</h1><br /><br />
 
 
           <div className="filter-left-block fl-left show-forllarge-only show-for-xlarge-only">
@@ -559,19 +559,27 @@ class FilterSort extends Component {
                           </dt>
                           <dd className="accordion-content accordionItem is-collapsed" id="accordion1" aria-hidden="true">
                             <ul>
+                            <div className="lg12 xl12 md12 sm12 mrg-L filter-tags nopad-sm nopad-md">
+                              <div className="tags std-txt std-txt-S">
+                              <span className="tag-title">Filter</span><a href="javascript:void(0)" className="color-white-svg icon nopad-sm nopad-md" dangerouslySetInnerHTML={{ __html: closeImage }} />
+                              </div>
+                              <div className="tags std-txt std-txt-S">
+                                <span className="tag-title">Filter</span><a href="javascript:void(0)" className="color-white-svg icon nopad-sm nopad-md" dangerouslySetInnerHTML={{ __html: closeImage }} />
+                              </div>
+                            </div>
                               <div className="search-type">
                                 <input type="text" placeholder="Search Item Type" />
                               </div>
                               <li className="dropdown-list">
                                 <label className="checkbox mrg-M" >
-                                  <input type="checkbox" defaultChecked="" />
+                                  <input type="checkbox" defaultChecked="true" />
                                   <span className="left">label</span>
                                   <span className="right-label std-txt">(1,008)</span>
                                 </label>
                               </li>
                               <li className="dropdown-list">
                                 <label className="checkbox mrg-M">
-                                  <input type="checkbox" defaultChecked="" />
+                                  <input type="checkbox" defaultChecked="true" />
                                   <span className="left">label</span>
                                   <span className="right-label std-txt">(1,008)</span>
                                 </label>
@@ -737,6 +745,17 @@ class FilterSort extends Component {
                         </dl>
                       </div>
                     </div>
+
+                    <div className="filter-button-block">
+                      <div className="md6 sm6">
+                        <a href="javascript:void();" className="btn btn-primary btn-M">Apply</a>
+                      </div>
+                      <div className="md6 sm6">
+                        <a href="javascript:void();" className="btn btn-secondary btn-M">Clear All</a>
+                      </div>
+
+                    </div>
+
                   </div>
                 </div>
               </div>
@@ -747,13 +766,13 @@ class FilterSort extends Component {
 
             <div className="pos-rel fl-left hide-for-large-only hide-for-xlarge-only md12 mrg-S">
               <div className="fl-left dropdown-menu-block">
-                <a className="dropdown-button title-S no-dropdown mrg-rght-M side-panel-btn" data-target="#leftPanel">Filter by <span class="sortby std-txt std-txt-S">(02)</span></a>
+                <a className="dropdown-button title-S no-dropdown mrg-rght-M side-panel-btn" data-target="#leftPanel">Filter by <span class="sortby std-txt std-txt-S">(2)</span></a>
               </div>
 
               <div className="fl-left dropdown-menu-block">
                 <a className="dropdown-button title-S mrg-rght-M">Item Type <span className="arrow"></span></a>
                 <div className="dropdown-menu">
-                  <div className="tooltip tooltip-top-right">
+                  <div className="tooltip tooltip-top-center">
                     <span>
                       <ul className="dropdown-sort">
                         <li className="dropdown-list">
@@ -777,7 +796,7 @@ class FilterSort extends Component {
               <div className="fl-left dropdown-menu-block">
                 <a className="dropdown-button title-S mrg-rght-M">Features <span className="arrow"></span></a>
                 <div className="dropdown-menu">
-                  <div className="tooltip tooltip-top-right">
+                  <div className="tooltip tooltip-top-center">
                     <span>
                       <ul className="dropdown-sort">
                         <li className="dropdown-list">
@@ -822,14 +841,14 @@ class FilterSort extends Component {
                 </div>
               </div>
             </div>
-            <div className="row lg12 xl12 md12 sm12">
-              <div className="store-pickup column fl-left">
+            <div className="row lg12 xl12 md12 sm12 nopad-sm">
+              <div className="store-pickup column fl-left sm10 md10 lg9 xl9">
                 <label className="checkbox pos-rel">
-                  <input type="checkbox" /> <span><p className="title title-M"><span className="color-penneyred">FREE</span> Store Pickup Today at <a href="#"> Stonebriar Mall</a></p></span><span className="arrow"></span>
+                  <input type="checkbox" /> <span><p className="title title-M"><span className="color-penneyred">FREE</span> Same Day Pickup at <a href="#"> Stonebriar Mall</a></p></span><span className="arrow"></span>
                 </label>
               </div>
 
-              <div className="dropdown-menu-block column md4 sm12 lg4 fl-right mrg-M">
+              <div className="dropdown-menu-block column md2 sm2 lg3 xl3 fl-right mrg-M">
                 <div class="listIcon fl-right"></div>
                 <div className="pos-rel fl-right hide-for-medium-only hide-for-small-only">
                   <a className="dropdown-button title-S">Sort by: <span class="sortby">Featured</span><span className="arrow"></span></a>
@@ -870,7 +889,7 @@ class FilterSort extends Component {
             </div>
 
             <div className="row">
-              <div className="sm12 columns">
+              <div className="columns">
                 <div className="product-card-wrapper mrg-M">
                   {this.productCardGalleryPanesLarge({
                     name: "Lorem Ipsumd Dolor Sit Amet Consec Ter Adpisicing Alit…",
