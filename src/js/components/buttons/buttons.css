@@ -178,7 +178,7 @@ button{
 
     &:before{
       /*background: url('../images/icon/cart-light.svg') no-repeat;*/
-      background: url(var(--path-images+"/global/icons/utility/cart.svg") no-repeat;
+      /* background: url(var(--path-images+"/global/icons/utility/cart.svg") no-repeat; */
       content: " ";
       height: 100%;
       width: 40px;
