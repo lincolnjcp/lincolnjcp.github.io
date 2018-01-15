@@ -248,15 +248,13 @@
 	}
 	& .product-card-image {
 		position: relative;
-		padding-left: 8px;
-		padding-right: 8px;
 		& .product-card-thumbnail {
 			position: relative;
 			display: inline-block;
 		}
 		& .flag {
 			top: 10px;
-			left: -24px;
+			left: -16px;
 		}
 		& .alt-link {
 		    position: absolute;

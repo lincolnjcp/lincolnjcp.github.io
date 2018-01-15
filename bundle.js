@@ -19832,7 +19832,7 @@ var expand_collapse_ExpandCollapse = function (_Component) {
           react_default.a.createElement('br', null),
           react_default.a.createElement(
             'div',
-            { className: 'xl7 lg7 md8 sm12' },
+            { className: 'xl7 lg7 md12 sm12' },
             react_default.a.createElement(
               'h2',
               { className: 'title title-L' },
@@ -20473,7 +20473,7 @@ var expand_collapse_ExpandCollapse = function (_Component) {
                     react_default.a.createElement(
                       'a',
                       { href: '#accordion1', 'aria-expanded': 'false', 'aria-controls': 'accordion1', className: 'accordion-title accordionTitle js-accordionTrigger' },
-                      'Furniture & Mattresses'
+                      'Helpful Guides'
                     )
                   ),
                   react_default.a.createElement(
@@ -20553,7 +20553,89 @@ var expand_collapse_ExpandCollapse = function (_Component) {
                     react_default.a.createElement(
                       'a',
                       { href: '#accordion1', 'aria-expanded': 'false', 'aria-controls': 'accordion1', className: 'accordion-title accordionTitle js-accordionTrigger' },
-                      'Home Decor'
+                      'Reviews',
+                      react_default.a.createElement(
+                        'div',
+                        { className: 'star-preview-col fl-right' },
+                        react_default.a.createElement(
+                          'ul',
+                          { className: 'star-ratings-L' },
+                          react_default.a.createElement(
+                            'li',
+                            { className: 'star-ratings full' },
+                            '\u2605'
+                          ),
+                          react_default.a.createElement(
+                            'li',
+                            { className: 'star-ratings full' },
+                            '\u2605'
+                          ),
+                          react_default.a.createElement(
+                            'li',
+                            { className: 'star-ratings full' },
+                            '\u2605'
+                          ),
+                          react_default.a.createElement(
+                            'li',
+                            { className: 'star-ratings full' },
+                            '\u2605'
+                          ),
+                          react_default.a.createElement(
+                            'li',
+                            { className: 'star-ratings inactive' },
+                            '\u2605',
+                            react_default.a.createElement(
+                              'span',
+                              { className: 'rating-count' },
+                              '(99,999)'
+                            )
+                          )
+                        )
+                      )
+                    )
+                  ),
+                  react_default.a.createElement(
+                    'dd',
+                    { className: 'accordion-content accordionItem is-collapsed', id: 'accordion1', 'aria-hidden': 'true' },
+                    react_default.a.createElement(
+                      'ul',
+                      null,
+                      react_default.a.createElement(
+                        'li',
+                        null,
+                        react_default.a.createElement(
+                          'a',
+                          { href: 'javascript:void();' },
+                          'Content here'
+                        )
+                      ),
+                      react_default.a.createElement(
+                        'li',
+                        null,
+                        react_default.a.createElement(
+                          'a',
+                          { href: 'javascript:void();' },
+                          'More content here'
+                        )
+                      ),
+                      react_default.a.createElement(
+                        'li',
+                        null,
+                        react_default.a.createElement(
+                          'a',
+                          { href: 'javascript:void();' },
+                          'Even more content here'
+                        )
+                      )
+                    )
+                  ),
+                  react_default.a.createElement(
+                    'dt',
+                    null,
+                    react_default.a.createElement(
+                      'a',
+                      { href: '#accordion1', 'aria-expanded': 'false', 'aria-controls': 'accordion1', className: 'accordion-title accordionTitle js-accordionTrigger' },
+                      'Questions & Answers'
                     )
                   ),
                   react_default.a.createElement(
@@ -20633,87 +20715,7 @@ var expand_collapse_ExpandCollapse = function (_Component) {
                     react_default.a.createElement(
                       'a',
                       { href: '#accordion1', 'aria-expanded': 'false', 'aria-controls': 'accordion1', className: 'accordion-title accordionTitle js-accordionTrigger' },
-                      'Kitchen & Dining'
-                    )
-                  ),
-                  react_default.a.createElement(
-                    'dd',
-                    { className: 'accordion-content accordionItem is-collapsed', id: 'accordion1', 'aria-hidden': 'true' },
-                    react_default.a.createElement(
-                      'ul',
-                      null,
-                      react_default.a.createElement(
-                        'li',
-                        null,
-                        react_default.a.createElement(
-                          'a',
-                          { href: 'javascript:void();' },
-                          'Returns'
-                        )
-                      ),
-                      react_default.a.createElement(
-                        'li',
-                        null,
-                        react_default.a.createElement(
-                          'a',
-                          { href: 'javascript:void();' },
-                          'Shipping information'
-                        )
-                      ),
-                      react_default.a.createElement(
-                        'li',
-                        null,
-                        react_default.a.createElement(
-                          'a',
-                          { href: 'javascript:void();' },
-                          'Rebates'
-                        )
-                      ),
-                      react_default.a.createElement(
-                        'li',
-                        null,
-                        react_default.a.createElement(
-                          'a',
-                          { href: 'javascript:void();' },
-                          'Same Day Pickup'
-                        )
-                      ),
-                      react_default.a.createElement(
-                        'li',
-                        null,
-                        react_default.a.createElement(
-                          'a',
-                          { href: 'javascript:void();' },
-                          'My JCP.com Account'
-                        )
-                      ),
-                      react_default.a.createElement(
-                        'li',
-                        null,
-                        react_default.a.createElement(
-                          'a',
-                          { href: 'javascript:void();' },
-                          'Track My Order'
-                        )
-                      ),
-                      react_default.a.createElement(
-                        'li',
-                        null,
-                        react_default.a.createElement(
-                          'a',
-                          { href: 'javascript:void();' },
-                          'Servicio Al Cliente'
-                        )
-                      )
-                    )
-                  ),
-                  react_default.a.createElement(
-                    'dt',
-                    null,
-                    react_default.a.createElement(
-                      'a',
-                      { href: '#accordion1', 'aria-expanded': 'false', 'aria-controls': 'accordion1', className: 'accordion-title accordionTitle js-accordionTrigger' },
-                      'Window'
+                      'Shipping & Returns'
                     )
                   ),
                   react_default.a.createElement(
@@ -21866,14 +21868,17 @@ var product_cards_ProductCards = function (_Component) {
             gridRow.push(jquery_default()(this));
           } else if (gridYPos !== jquery_default()(this).offset().top) {
             //New Row
-            gridYPos = jquery_default()(this).offset().top;
             jquery_default()(gridRow).each(function (index) {
               if (gridRowHasCompare === false) {
+
                 jquery_default()(this).addClass('product-card-pane-grid-no-compare');
+              } else {
+                jquery_default()(this).removeClass('product-card-pane-grid-no-compare');
               }
             });
             gridRow = [];
             gridRow.push(jquery_default()(this));
+            gridYPos = jquery_default()(this).offset().top;
             gridRowHasCompare = false;
           } else {
             gridRow.push(jquery_default()(this));
@@ -21882,6 +21887,8 @@ var product_cards_ProductCards = function (_Component) {
         jquery_default()(gridRow).each(function (index) {
           if (gridRowHasCompare === false) {
             jquery_default()(this).addClass('product-card-pane-grid-no-compare');
+          } else {
+            jquery_default()(this).removeClass('product-card-pane-grid-no-compare');
           }
         });
       }).resize();

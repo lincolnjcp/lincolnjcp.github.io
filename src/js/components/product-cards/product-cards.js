@@ -889,24 +889,30 @@ class ProductCards extends Component {
             gridYPos = $( this ).offset().top;
             gridRow.push($(this));
           } else if(gridYPos !== $( this ).offset().top) { //New Row
-            gridYPos = $( this ).offset().top;
             $(gridRow).each(function( index ) {
               if(gridRowHasCompare === false) {
+                
                 $(this).addClass('product-card-pane-grid-no-compare');
+              } else {
+                $(this).removeClass('product-card-pane-grid-no-compare');
               }
             });
             gridRow = [];
             gridRow.push($(this));
+            gridYPos = $( this ).offset().top;
             gridRowHasCompare = false;
           } else {
             gridRow.push($(this));
           }
+          
 
         });
         $(gridRow).each(function( index ) {
           if(gridRowHasCompare === false) {
             $(this).addClass('product-card-pane-grid-no-compare');
-          }
+          } else {
+                $(this).removeClass('product-card-pane-grid-no-compare');
+              }
         });
     }).resize();
 
