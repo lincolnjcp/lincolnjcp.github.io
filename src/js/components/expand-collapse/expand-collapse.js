@@ -256,8 +256,8 @@ class ExpandCollapse extends Component {
             </div>
           </div>
           <br /><br /><br />
-          
-          
+
+
           <div className="xl4 lg4 md6 sm12">
             <h2 className="title title-L">Accordions: Alternate</h2>
             <div className="accordion-block filter-accordion">
@@ -444,6 +444,209 @@ class ExpandCollapse extends Component {
               </div>
             </div>
           </div>
+          <br /><br /><br />
+
+
+          <div className="xl7 lg7 md8 sm12">
+            <h2 className="title title-L">Accordions: PDP Q&A</h2>
+            <div className="accordion-block filter-accordion">
+              <div className="accordion">
+                <dl>
+                  <dt>
+                    <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" className="accordion-title accordionTitle js-accordionTrigger">What is the air velocity of an unladen swallow? <span className="std-txt std-txt-S fl-right">9 Answers</span></a>
+                  </dt>
+                  <dd className="accordion-content accordionItem is-collapsed" id="accordion1" aria-hidden="true">
+                    <p className="title title-S">This is the detail that the customer enters for the question. It can be long or short, but is usually just one or two lines long, depending on screen size, etc. Answers would show up below this.</p>
+                  </dd>
+                  <dt>
+                    <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" className="accordion-title accordionTitle js-accordionTrigger">Luke, who is your father? <span className="std-txt std-txt-S fl-right">9 Answers</span></a>
+                  </dt>
+                  <dd className="accordion-content accordionItem is-collapsed" id="accordion1" aria-hidden="true">
+                    <p className="title title-S">This is the detail that the customer enters for the question. It can be long or short, but is usually just one or two lines long, depending on screen size, etc. Answers would show up below this.</p>
+                  </dd>
+                  <dt>
+                    <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" className="accordion-title accordionTitle js-accordionTrigger">How much wood could a woodchuck chuck? <span className="std-txt std-txt-S fl-right">9 Answers</span></a>
+                  </dt>
+                  <dd className="accordion-content accordionItem is-collapsed" id="accordion1" aria-hidden="true">
+                    <p className="title title-S">This is the detail that the customer enters for the question. It can be long or short, but is usually just one or two lines long, depending on screen size, etc. Answers would show up below this.</p>
+                  </dd>
+                  <dt>
+                    <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" className="accordion-title accordionTitle js-accordionTrigger">What does this look like when it is open? <span className="std-txt std-txt-S fl-right">9 Answers</span></a>
+                  </dt>
+                  <dd className="accordion-content accordionItem is-collapsed" id="accordion1" aria-hidden="true">
+                    <p className="title title-S">This is the detail that the customer enters for the question. It can be long or short, but is usually just one or two lines long, depending on screen size, etc. Answers would show up below this.</p>
+                  </dd>
+                </dl>
+              </div>
+            </div>
+          </div>
+          <br /><br /><br />
+
+
+          <div className="xl4 lg4 md6 sm12">
+            <h2 className="title title-L">Accordions: Subcategory Menu (Tablet/Mobile)</h2>
+            <div className="accordion-block filter-accordion">
+              <div className="accordion">
+                <dl>
+                  <dt>
+                    <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" className="accordion-title accordionTitle js-accordionTrigger">Holiday</a>
+                  </dt>
+                  <dd className="accordion-content accordionItem is-collapsed" id="accordion1" aria-hidden="true">
+                    <ul>
+                      <li><a href="javascript:void();">Returns</a></li>
+                      <li><a href="javascript:void();">Shipping information</a></li>
+                      <li><a href="javascript:void();">Rebates</a></li>
+                      <li><a href="javascript:void();">Same Day Pickup</a></li>
+                      <li><a href="javascript:void();">My JCP.com Account</a></li>
+                      <li><a href="javascript:void();">Track My Order</a></li>
+                      <li><a href="javascript:void();">Servicio Al Cliente</a></li>
+                    </ul>
+                  </dd>
+                  <dt>
+                    <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" className="accordion-title accordionTitle js-accordionTrigger">Furniture & Mattresses</a>
+                  </dt>
+                  <dd className="accordion-content accordionItem is-collapsed" id="accordion1" aria-hidden="true">
+                    <ul>
+                      <li><a href="javascript:void();">Returns</a></li>
+                      <li><a href="javascript:void();">Shipping information</a></li>
+                      <li><a href="javascript:void();">Rebates</a></li>
+                      <li><a href="javascript:void();">Same Day Pickup</a></li>
+                      <li><a href="javascript:void();">My JCP.com Account</a></li>
+                      <li><a href="javascript:void();">Track My Order</a></li>
+                      <li><a href="javascript:void();">Servicio Al Cliente</a></li>
+                    </ul>
+                  </dd>
+                  <dt>
+                    <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" className="accordion-title accordionTitle js-accordionTrigger">Home Decor</a>
+                  </dt>
+                  <dd className="accordion-content accordionItem is-collapsed" id="accordion1" aria-hidden="true">
+                    <ul>
+                      <li><a href="javascript:void();">Returns</a></li>
+                      <li><a href="javascript:void();">Shipping information</a></li>
+                      <li><a href="javascript:void();">Rebates</a></li>
+                      <li><a href="javascript:void();">Same Day Pickup</a></li>
+                      <li><a href="javascript:void();">My JCP.com Account</a></li>
+                      <li><a href="javascript:void();">Track My Order</a></li>
+                      <li><a href="javascript:void();">Servicio Al Cliente</a></li>
+                    </ul>
+                  </dd>
+                  <dt>
+                    <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" className="accordion-title accordionTitle js-accordionTrigger">Kitchen & Dining</a>
+                  </dt>
+                  <dd className="accordion-content accordionItem is-collapsed" id="accordion1" aria-hidden="true">
+                    <ul>
+                      <li><a href="javascript:void();">Returns</a></li>
+                      <li><a href="javascript:void();">Shipping information</a></li>
+                      <li><a href="javascript:void();">Rebates</a></li>
+                      <li><a href="javascript:void();">Same Day Pickup</a></li>
+                      <li><a href="javascript:void();">My JCP.com Account</a></li>
+                      <li><a href="javascript:void();">Track My Order</a></li>
+                      <li><a href="javascript:void();">Servicio Al Cliente</a></li>
+                    </ul>
+                  </dd>
+                  <dt>
+                    <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" className="accordion-title accordionTitle js-accordionTrigger">Window</a>
+                  </dt>
+                  <dd className="accordion-content accordionItem is-collapsed" id="accordion1" aria-hidden="true">
+                    <ul>
+                      <li><a href="javascript:void();">Returns</a></li>
+                      <li><a href="javascript:void();">Shipping information</a></li>
+                      <li><a href="javascript:void();">Rebates</a></li>
+                      <li><a href="javascript:void();">Same Day Pickup</a></li>
+                      <li><a href="javascript:void();">My JCP.com Account</a></li>
+                      <li><a href="javascript:void();">Track My Order</a></li>
+                      <li><a href="javascript:void();">Servicio Al Cliente</a></li>
+                    </ul>
+                  </dd>
+                </dl>
+              </div>
+            </div>
+          </div>
+          <br /><br /><br />
+
+
+          <div className="xl4 lg4 md6 sm12">
+            <h2 className="title title-L">Accordions: PDP Product Details (Tablet/Mobile)</h2>
+            <div className="accordion-block filter-accordion">
+              <div className="accordion">
+                <dl>
+                  <dt>
+                    <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" className="accordion-title accordionTitle js-accordionTrigger">Product Specifications</a>
+                  </dt>
+                  <dd className="accordion-content accordionItem is-collapsed" id="accordion1" aria-hidden="true">
+                    <ul>
+                      <li><a href="javascript:void();">Returns</a></li>
+                      <li><a href="javascript:void();">Shipping information</a></li>
+                      <li><a href="javascript:void();">Rebates</a></li>
+                      <li><a href="javascript:void();">Same Day Pickup</a></li>
+                      <li><a href="javascript:void();">My JCP.com Account</a></li>
+                      <li><a href="javascript:void();">Track My Order</a></li>
+                      <li><a href="javascript:void();">Servicio Al Cliente</a></li>
+                    </ul>
+                  </dd>
+                  <dt>
+                    <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" className="accordion-title accordionTitle js-accordionTrigger">Furniture & Mattresses</a>
+                  </dt>
+                  <dd className="accordion-content accordionItem is-collapsed" id="accordion1" aria-hidden="true">
+                    <ul>
+                      <li><a href="javascript:void();">Returns</a></li>
+                      <li><a href="javascript:void();">Shipping information</a></li>
+                      <li><a href="javascript:void();">Rebates</a></li>
+                      <li><a href="javascript:void();">Same Day Pickup</a></li>
+                      <li><a href="javascript:void();">My JCP.com Account</a></li>
+                      <li><a href="javascript:void();">Track My Order</a></li>
+                      <li><a href="javascript:void();">Servicio Al Cliente</a></li>
+                    </ul>
+                  </dd>
+                  <dt>
+                    <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" className="accordion-title accordionTitle js-accordionTrigger">Home Decor</a>
+                  </dt>
+                  <dd className="accordion-content accordionItem is-collapsed" id="accordion1" aria-hidden="true">
+                    <ul>
+                      <li><a href="javascript:void();">Returns</a></li>
+                      <li><a href="javascript:void();">Shipping information</a></li>
+                      <li><a href="javascript:void();">Rebates</a></li>
+                      <li><a href="javascript:void();">Same Day Pickup</a></li>
+                      <li><a href="javascript:void();">My JCP.com Account</a></li>
+                      <li><a href="javascript:void();">Track My Order</a></li>
+                      <li><a href="javascript:void();">Servicio Al Cliente</a></li>
+                    </ul>
+                  </dd>
+                  <dt>
+                    <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" className="accordion-title accordionTitle js-accordionTrigger">Kitchen & Dining</a>
+                  </dt>
+                  <dd className="accordion-content accordionItem is-collapsed" id="accordion1" aria-hidden="true">
+                    <ul>
+                      <li><a href="javascript:void();">Returns</a></li>
+                      <li><a href="javascript:void();">Shipping information</a></li>
+                      <li><a href="javascript:void();">Rebates</a></li>
+                      <li><a href="javascript:void();">Same Day Pickup</a></li>
+                      <li><a href="javascript:void();">My JCP.com Account</a></li>
+                      <li><a href="javascript:void();">Track My Order</a></li>
+                      <li><a href="javascript:void();">Servicio Al Cliente</a></li>
+                    </ul>
+                  </dd>
+                  <dt>
+                    <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" className="accordion-title accordionTitle js-accordionTrigger">Window</a>
+                  </dt>
+                  <dd className="accordion-content accordionItem is-collapsed" id="accordion1" aria-hidden="true">
+                    <ul>
+                      <li><a href="javascript:void();">Returns</a></li>
+                      <li><a href="javascript:void();">Shipping information</a></li>
+                      <li><a href="javascript:void();">Rebates</a></li>
+                      <li><a href="javascript:void();">Same Day Pickup</a></li>
+                      <li><a href="javascript:void();">My JCP.com Account</a></li>
+                      <li><a href="javascript:void();">Track My Order</a></li>
+                      <li><a href="javascript:void();">Servicio Al Cliente</a></li>
+                    </ul>
+                  </dd>
+                </dl>
+              </div>
+            </div>
+          </div>
+
+
+
         </div>
       </div>
     );
