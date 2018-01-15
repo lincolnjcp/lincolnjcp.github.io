@@ -231,6 +231,16 @@ p {
     }
 }
 
+@media (--viewport-sm-only) {
+    .std-txt {
+        &.std-txt-XS-at-S {
+            font-size: 12px;
+            letter-spacing: -0.28px;
+            line-height: 16px;
+        }
+    }
+}
+
 /*  Promo Labels */
 .promo-lbl {
     font-family: var(--font-headline);
