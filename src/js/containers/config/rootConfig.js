@@ -228,8 +228,8 @@ const rootNav = [
                 content: 'Promo/Marketing Cards',
             },
             {
-                to: '/',
-                activeClassName: 'inactive',
+                to: '/page-modules/recommendation-zone',
+                activeClassName: 'active',
                 content: 'Recommendation Zones',
             },
             {

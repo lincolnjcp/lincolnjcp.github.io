@@ -1,0 +1,15 @@
+/* note:- import product card css in yoda */
+.product-card-wrapper {
+	& ul {
+		display: inline;
+		overflow: auto;
+		white-space: nowrap;
+		& .product-card-recommendation {
+			white-space: pre-wrap;
+			& a {
+				display: block;
+				text-decoration: none;
+			}
+		}
+	}
+}

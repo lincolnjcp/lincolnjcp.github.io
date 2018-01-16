@@ -33,6 +33,7 @@ import FilterSort from '../components/filter-sort';
 import ExpandCollapse from '../components/expand-collapse';
 import ProductCards from '../components/product-cards';
 import LikeDislike from '../components/like-dislike';
+import RecommendationZone from '../components/recommendation-zone';
 
 import SubNav from './SubNav';
 
@@ -71,7 +72,8 @@ class DesignSystemPage extends Component {
    ProductCards: {componentElement: ProductCards, componentDisplayName: "Product Cards", componentSubNav: ['Product Cards']},
    FilterSort: {componentElement: FilterSort, componentDisplayName: "Filter Sort", componentSubNav: ['FilterSort']},
    LikeDislike: {componentElement: LikeDislike, componentDisplayName: "Like Dislike Messages", componentSubNav: ['Like Dislike Messages']},
-   ExpandCollapse: {componentElement: ExpandCollapse, componentDisplayName: "Expand Collapse", componentSubNav: ['ExpandCollapse']}
+   ExpandCollapse: {componentElement: ExpandCollapse, componentDisplayName: "Expand Collapse", componentSubNav: ['ExpandCollapse']},
+   RecommendationZone: {componentElement: RecommendationZone, componentDisplayName: "Recommendation Zone", componentSubNav: ['RecommendationZone']}
 
   }
 

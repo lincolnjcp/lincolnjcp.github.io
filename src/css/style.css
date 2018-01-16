@@ -43,6 +43,7 @@ Base Styles
 @import "../js/components/coupons/coupons";
 @import "../js/components/product-cards/product-cards";
 @import "../js/components/expand-collapse/expand-collapse";
+@import "../js/components/recommendation-zone/recommendation-zone";
 
 /* @import "base/additional-buttons"; */
 /* @import "../js/components/work-in-progress/work-in-progress"; */
