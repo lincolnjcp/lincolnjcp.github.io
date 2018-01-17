@@ -21,8 +21,12 @@
 			box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.25);
 			border-radius: 50%;
 			& svg {
-				& path {
-					fill: var(--color-white) !important;
+				width: 30px;
+				height: 30px;
+				margin-top: 5px;
+				margin-left: 6px;
+				& use {
+					fill: #fff;
 				}
 			}
 		}
@@ -34,6 +38,9 @@
 		}
 		& ul {
 			transition: transform .4s ease-in-out,-webkit-transform .4s ease-in-out;
+			& li {
+				display: inline-flex;
+			}
 			& .product-card-recommendation {
 				white-space: pre-wrap;
 				& a {
@@ -43,12 +50,53 @@
 			}
 		}
 	}
-}
-& .product-card-wrapper:hover {
-	& .chevron-wrapper {
-		& .chevron-icon{
-			display: block;
-		}
+	& .rec-zone-carousel {
+		text-align: center;
+		& .bullet[type="radio"] {
+			&:checked + label, &:not(:checked) + label {
+			  position: relative;
+			  padding-left: 15px;
+			  cursor: pointer;
+			  line-height: 20px;
+			  display: inline-block;
+			}
+			&:checked + label:before, &:not(:checked) + label:before {
+				content: "";
+				  position: absolute;
+				  left: 5.2px;
+				top: 4px;
+				width: 10px;
+				height: 10px;
+				border: 0;
+				border-radius: 100%;
+				background: #d8d8d8;
+			}
+			&:checked + label:after {
+			  content: "";
+			  width: 10px;
+			  height: 10px;
+			  position: absolute;
+			  top: 5px;
+			  left: 5px;
+			  background: #384048;
+			  border-radius: 100%;
+			}
+			&:not(:checked) + label:after {
+			  content: "";
+			  width: 10px;
+			  height: 10px;
+			  position: absolute;
+			  top: 5px;
+			  left: 5px;
+			  background: #d8d8d8;
+			  border-radius: 100%;
+			  opacity: 0;
+			  transform: scale(0);
+			  transition: all var(--transition-time-S) ease-in-out;
+			}
+		  }
+		
 	}
 }
+
 

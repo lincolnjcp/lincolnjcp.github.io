@@ -400,13 +400,13 @@ class RecommendationZone extends Component {
                 <div className="rec-zone-carousel show-for-small-only show-for-medium-only">
                   <input type="radio" className="bullet" id="one" name="name" value="" defaultChecked="true" />
                   <label htmlFor="one"></label>
-                  <input type="radio" id="two" name="name" value="" />
+                  <input type="radio" id="two" className="bullet" name="name" value="" />
                   <label htmlFor="two"></label>
-                  <input type="radio" id="three" name="name" value="" />
+                  <input type="radio" id="three" className="bullet" name="name" value="" />
                   <label htmlFor="three"></label>
-                  <input type="radio" id="four" name="name" value="" />
+                  <input type="radio" id="four" className="bullet" name="name" value="" />
                   <label htmlFor="four"></label>
-                  <input type="radio" id="five" name="name" value="" />
+                  <input type="radio" id="five" className="bullet" name="name" value="" />
                   <label htmlFor="five"></label>
                 </div>
               </div>
