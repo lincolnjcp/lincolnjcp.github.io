@@ -22779,8 +22779,6 @@ function recommendation_zone__inherits(subClass, superClass) { if (typeof superC
 var recommendation_zone_ChevronLeftImage = __webpack_require__("WBOg");
 var recommendation_zone_ChevronRightImage = __webpack_require__("aNhq");
 
-<<<<<<< HEAD
-=======
 var add = function add(param1, param2) {
   return param1 + param2;
 };
@@ -22828,25 +22826,42 @@ var calculateScrollPixel = function calculateScrollPixel(_ref) {
   };
 };
 
->>>>>>> 9b793ad61c08a594546fbe55988935f59713e5ce
 var recommendation_zone_RecommendationZone = function (_Component) {
   recommendation_zone__inherits(RecommendationZone, _Component);
 
   function RecommendationZone() {
     recommendation_zone__classCallCheck(this, RecommendationZone);
 
-    return recommendation_zone__possibleConstructorReturn(this, (RecommendationZone.__proto__ || Object.getPrototypeOf(RecommendationZone)).apply(this, arguments));
+    var _this = recommendation_zone__possibleConstructorReturn(this, (RecommendationZone.__proto__ || Object.getPrototypeOf(RecommendationZone)).call(this));
+
+    _this.state = {
+      listStyle: {},
+      disableLeftArrow: true,
+      disableRightArrow: false,
+      productCartridgeList: [],
+      cartridgeHeader: '',
+      currentDotIndex: 1
+    };
+    _this.scrollStatus = {
+      scrollPixels: 0,
+      scrolledPanes: 0
+    };
+    return _this;
   }
 
   recommendation_zone__createClass(RecommendationZone, [{
     key: 'productCardRecommendations',
     value: function productCardRecommendations(productInfo) {
+      var _this2 = this;
+
       return react_default.a.createElement(
         'li',
         { className: 'product-card' },
         react_default.a.createElement(
           'a',
-          { href: 'javascript:void(0)', className: '' },
+          { href: 'javascript:void(0)', className: '', ref: function ref(productPane) {
+              _this2.productPane = productPane;
+            } },
           react_default.a.createElement(
             'div',
             { className: 'product-card-recommendation' },
@@ -22882,10 +22897,10 @@ var recommendation_zone_RecommendationZone = function (_Component) {
                     { className: 'product-card-price-value' },
                     react_default.a.createElement(
                       'div',
-                      { 'class': 'flag flag-urgency std-txt std-txt-XS mrg-rght-XS' },
+                      { 'class': 'std-txt std-txt-XS mrg-rght-XS' },
                       react_default.a.createElement(
                         'div',
-                        { className: 'price price-XS color-white' },
+                        { className: 'price price-XS' },
                         productInfo.price
                       )
                     )
@@ -22968,25 +22983,21 @@ var recommendation_zone_RecommendationZone = function (_Component) {
       );
     }
   }, {
-<<<<<<< HEAD
-    key: 'componentDidMount',
-    value: function componentDidMount() {}
-=======
     key: 'scrollCartridge',
     value: function scrollCartridge(scrollToRight) {
       // const { productCartridgeList } = this.state;
       var productCartridgeList = 16;
-      // const pane = this.props.productPane || this.productPane;
-      var pane = 176;
+      var pane = this.productPane;
+      // const pane = 176;
       var wrapperWidth = this.wrapper.getBoundingClientRect().width;
-      var productPaneWidth = pane.getBoundingClientRect().width + pane.getBoundingClientRect().width / 10;
+      var productPaneWidth = pane.getBoundingClientRect().width;
       var _scrollStatus = this.scrollStatus,
           scrollPixels = _scrollStatus.scrollPixels,
           scrolledPanes = _scrollStatus.scrolledPanes;
 
       // Calculate number of products displayed in the container
 
-      var totalProductPanes = productCartridgeList.length;
+      var totalProductPanes = productCartridgeList;
       var result = wrapperWidth / productPaneWidth;
       var productPanesDisplayed = Math.floor(result);
       var remainingWrapperWidth = (result - productPanesDisplayed).toFixed(2) * productPaneWidth;
@@ -23018,11 +23029,15 @@ var recommendation_zone_RecommendationZone = function (_Component) {
         }
       });
     }
->>>>>>> 9b793ad61c08a594546fbe55988935f59713e5ce
   }, {
     key: 'render',
     value: function render() {
-      var _this2 = this;
+      var _this3 = this;
+
+      var _state = this.state,
+          listStyle = _state.listStyle,
+          disableLeftArrow = _state.disableLeftArrow,
+          disableRightArrow = _state.disableRightArrow;
 
       return react_default.a.createElement(
         'div',
@@ -23057,185 +23072,175 @@ var recommendation_zone_RecommendationZone = function (_Component) {
               react_default.a.createElement('hr', null),
               react_default.a.createElement(
                 'div',
-<<<<<<< HEAD
-                { className: 'product-card-wrapper position-rel' },
-=======
-                { className: 'product-card-wrapper position-rel', ref: function ref(wrapper) {
-                    _this2.wrapper = wrapper;
-                  } },
->>>>>>> 9b793ad61c08a594546fbe55988935f59713e5ce
+                { className: 'product-card-wrapper', ref: function ref(wrapper) {
+                    _this3.wrapper = wrapper;
+                  }, style: listStyle },
                 react_default.a.createElement(
-                  'ul',
-                  null,
+                  'div',
+                  { className: 'product-card-block' },
                   react_default.a.createElement(
                     'div',
                     { className: 'chevron-wrapper hide-for-small-only hide-for-medium-only' },
-<<<<<<< HEAD
-                    react_default.a.createElement('a', { href: 'javascript:void(0);', className: 'rec-zone-chevron-left icon chevron-icon', dangerouslySetInnerHTML: { __html: recommendation_zone_ChevronLeftImage } }),
-                    react_default.a.createElement('a', { href: 'javascript:void(0);', className: 'rec-zone-chevron-right icon chevron-icon', dangerouslySetInnerHTML: { __html: recommendation_zone_ChevronRightImage } })
-=======
-                    react_default.a.createElement('a', { href: 'javascript:void(0);', onClick: function onClick() {
-                        return _this2.scrollCartridge(false);
+                    react_default.a.createElement('a', { style: { visibility: disableLeftArrow ? 'hidden' : 'visible' }, href: 'javascript:void(0);', onClick: function onClick() {
+                        return _this3.scrollCartridge(false);
                       }, className: 'rec-zone-chevron-left icon chevron-icon', dangerouslySetInnerHTML: { __html: recommendation_zone_ChevronLeftImage } }),
-                    react_default.a.createElement('a', { href: 'javascript:void(0);', onClick: function onClick() {
-                        return _this2.scrollCartridge(true);
+                    react_default.a.createElement('a', { style: { visibility: disableRightArrow ? 'hidden' : 'visible' }, href: 'javascript:void(0);', onClick: function onClick() {
+                        return _this3.scrollCartridge(true);
                       }, className: 'rec-zone-chevron-right icon chevron-icon', dangerouslySetInnerHTML: { __html: recommendation_zone_ChevronRightImage } })
->>>>>>> 9b793ad61c08a594546fbe55988935f59713e5ce
                   ),
-                  this.productCardRecommendations({
-                    name: "Lorem Ipsum Dolor Sec Mud Deler LoreM Dol…",
-                    thumb: '/images/design-system/fpo/product-cards/product-card-recommendations-1.jpg',
-                    promo: 'SAMSUNG BUY 4 SAVE 10%',
-                    price: '$2,499 - $3,999',
-                    priceHighlight: true,
-                    priceRestriction: '',
-                    priceRegular: 'reg. $2,999 - $5,999'
-                  }),
-                  this.productCardRecommendations({
-                    name: "Lorem Ipsum Dolor Sec Mud Deler LoreM Dol…",
-                    thumb: '/images/design-system/fpo/product-cards/product-card-recommendations-2.jpg',
-                    promo: '',
-                    price: '$59.99',
-                    priceHighlight: true,
-                    priceRestriction: 'after coupon',
-                    priceRegular: 'reg. $99.99'
-                  }),
-                  this.productCardRecommendations({
-                    name: "Lorem Ipsum Dolor Sec Mud Deler LoreM Dol…",
-                    thumb: '/images/design-system/fpo/product-cards/product-card-recommendations-3.jpg',
-                    promo: '',
-                    price: '$299.99',
-                    priceHighlight: true,
-                    priceRestriction: 'after coupon',
-                    priceRegular: 'reg. $99.99'
-                  }),
-                  this.productCardRecommendations({
-                    name: "Lorem Ipsum Dolor Sec Mud Deler LoreM Dol…",
-                    thumb: '/images/design-system/fpo/product-cards/product-card-recommendations-4.jpg',
-                    promo: '',
-                    price: '$599.99',
-                    priceHighlight: false,
-                    priceRestriction: '',
-                    priceRegular: ''
-                  }),
-                  this.productCardRecommendations({
-                    name: "Lorem Ipsum Dolor Sec Mud Deler LoreM Dol…",
-                    thumb: '/images/design-system/fpo/product-cards/product-card-recommendations-5.jpg',
-                    promo: '',
-                    price: '$29.99',
-                    priceHighlight: false,
-                    priceRestriction: 'sale',
-                    priceRegular: 'was $60'
-                  }),
-                  this.productCardRecommendations({
-                    name: "Lorem Ipsum Dolor Sec Mud Deler LoreM Dol…",
-                    thumb: '/images/design-system/fpo/product-cards/product-card-recommendations-6.jpg',
-                    promo: '',
-                    price: '$99.99',
-                    priceHighlight: false,
-                    priceRestriction: 'clearance',
-                    priceRegular: 'was $299.99'
-                  }),
-                  this.productCardRecommendations({
-                    name: "Lorem Ipsum Dolor Sec Mud Deler LoreM Dol…",
-                    thumb: '/images/design-system/fpo/product-cards/product-card-recommendations-7.jpg',
-                    promo: '',
-                    price: '$299.99 - $399.99',
-                    priceHighlight: false,
-                    priceRestriction: 'clearance',
-                    priceRegular: 'was $499.99 - $699.99'
-                  }),
-                  this.productCardRecommendations({
-                    name: "Lorem Ipsum Dolor Sec Mud Deler LoreM Dol…",
-                    thumb: '/images/design-system/fpo/product-cards/product-card-recommendations-8.jpg',
-                    promo: '',
-                    price: '$2,999 - $3,999',
-                    priceHighlight: false,
-                    priceRestriction: 'package deal',
-                    priceRegular: 'was $4,999 - $6,999'
-                  }),
-                  this.productCardRecommendations({
-                    name: "Lorem Ipsum Dolor Sec Mud Deler LoreM Dol…",
-                    thumb: '/images/design-system/fpo/product-cards/product-card-recommendations-1.jpg',
-                    promo: 'SAMSUNG BUY 4 SAVE 10%',
-                    price: '$2,499 - $3,999',
-                    priceHighlight: true,
-                    priceRestriction: '',
-                    priceRegular: 'reg. $2,999 - $5,999'
-                  }),
-                  this.productCardRecommendations({
-                    name: "Lorem Ipsum Dolor Sec Mud Deler LoreM Dol…",
-                    thumb: '/images/design-system/fpo/product-cards/product-card-recommendations-2.jpg',
-                    promo: '',
-                    price: '$59.99',
-                    priceHighlight: true,
-                    priceRestriction: 'after coupon',
-                    priceRegular: 'reg. $99.99'
-                  }),
-                  this.productCardRecommendations({
-                    name: "Lorem Ipsum Dolor Sec Mud Deler LoreM Dol…",
-                    thumb: '/images/design-system/fpo/product-cards/product-card-recommendations-3.jpg',
-                    promo: '',
-                    price: '$299.99',
-                    priceHighlight: true,
-                    priceRestriction: 'after coupon',
-                    priceRegular: 'reg. $99.99'
-                  }),
-                  this.productCardRecommendations({
-                    name: "Lorem Ipsum Dolor Sec Mud Deler LoreM Dol…",
-                    thumb: '/images/design-system/fpo/product-cards/product-card-recommendations-4.jpg',
-                    promo: '',
-                    price: '$599.99',
-                    priceHighlight: false,
-                    priceRestriction: '',
-                    priceRegular: ''
-                  }),
-                  this.productCardRecommendations({
-                    name: "Lorem Ipsum Dolor Sec Mud Deler LoreM Dol…",
-                    thumb: '/images/design-system/fpo/product-cards/product-card-recommendations-5.jpg',
-                    promo: '',
-                    price: '$29.99',
-                    priceHighlight: false,
-                    priceRestriction: 'sale',
-                    priceRegular: 'was $60'
-                  }),
-                  this.productCardRecommendations({
-                    name: "Lorem Ipsum Dolor Sec Mud Deler LoreM Dol…",
-                    thumb: '/images/design-system/fpo/product-cards/product-card-recommendations-6.jpg',
-                    promo: '',
-                    price: '$99.99',
-                    priceHighlight: false,
-                    priceRestriction: 'clearance',
-                    priceRegular: 'was $299.99'
-                  }),
-                  this.productCardRecommendations({
-                    name: "Lorem Ipsum Dolor Sec Mud Deler LoreM Dol…",
-                    thumb: '/images/design-system/fpo/product-cards/product-card-recommendations-7.jpg',
-                    promo: '',
-                    price: '$299.99 - $399.99',
-                    priceHighlight: false,
-                    priceRestriction: 'clearance',
-                    priceRegular: 'was $499.99 - $699.99'
-                  }),
-                  this.productCardRecommendations({
-                    name: "Lorem Ipsum Dolor Sec Mud Deler LoreM Dol…",
-                    thumb: '/images/design-system/fpo/product-cards/product-card-recommendations-8.jpg',
-                    promo: '',
-                    price: '$2,999 - $3,999',
-                    priceHighlight: false,
-                    priceRestriction: 'package deal',
-                    priceRegular: 'was $4,999 - $6,999'
-                  })
+                  react_default.a.createElement(
+                    'ul',
+                    { style: listStyle },
+                    this.productCardRecommendations({
+                      name: "Lorem Ipsum Dolor Sec Mud Deler LoreM Dol…",
+                      thumb: '/images/design-system/fpo/product-cards/product-card-recommendations-1.jpg',
+                      promo: 'SAMSUNG BUY 4 SAVE 10%',
+                      price: '$2,499 - $3,999',
+                      priceHighlight: true,
+                      priceRestriction: '',
+                      priceRegular: 'reg. $2,999 - $5,999'
+                    }),
+                    this.productCardRecommendations({
+                      name: "Lorem Ipsum Dolor Sec Mud Deler LoreM Dol…",
+                      thumb: '/images/design-system/fpo/product-cards/product-card-recommendations-2.jpg',
+                      promo: '',
+                      price: '$59.99',
+                      priceHighlight: true,
+                      priceRestriction: 'after coupon',
+                      priceRegular: 'reg. $99.99'
+                    }),
+                    this.productCardRecommendations({
+                      name: "Lorem Ipsum Dolor Sec Mud Deler LoreM Dol…",
+                      thumb: '/images/design-system/fpo/product-cards/product-card-recommendations-3.jpg',
+                      promo: '',
+                      price: '$299.99',
+                      priceHighlight: true,
+                      priceRestriction: 'after coupon',
+                      priceRegular: 'reg. $99.99'
+                    }),
+                    this.productCardRecommendations({
+                      name: "Lorem Ipsum Dolor Sec Mud Deler LoreM Dol…",
+                      thumb: '/images/design-system/fpo/product-cards/product-card-recommendations-4.jpg',
+                      promo: '',
+                      price: '$599.99',
+                      priceHighlight: false,
+                      priceRestriction: '',
+                      priceRegular: ''
+                    }),
+                    this.productCardRecommendations({
+                      name: "Lorem Ipsum Dolor Sec Mud Deler LoreM Dol…",
+                      thumb: '/images/design-system/fpo/product-cards/product-card-recommendations-5.jpg',
+                      promo: '',
+                      price: '$29.99',
+                      priceHighlight: false,
+                      priceRestriction: 'sale',
+                      priceRegular: 'was $60'
+                    }),
+                    this.productCardRecommendations({
+                      name: "Lorem Ipsum Dolor Sec Mud Deler LoreM Dol…",
+                      thumb: '/images/design-system/fpo/product-cards/product-card-recommendations-6.jpg',
+                      promo: '',
+                      price: '$99.99',
+                      priceHighlight: false,
+                      priceRestriction: 'clearance',
+                      priceRegular: 'was $299.99'
+                    }),
+                    this.productCardRecommendations({
+                      name: "Lorem Ipsum Dolor Sec Mud Deler LoreM Dol…",
+                      thumb: '/images/design-system/fpo/product-cards/product-card-recommendations-7.jpg',
+                      promo: '',
+                      price: '$299.99 - $399.99',
+                      priceHighlight: false,
+                      priceRestriction: 'clearance',
+                      priceRegular: 'was $499.99 - $699.99'
+                    }),
+                    this.productCardRecommendations({
+                      name: "Lorem Ipsum Dolor Sec Mud Deler LoreM Dol…",
+                      thumb: '/images/design-system/fpo/product-cards/product-card-recommendations-8.jpg',
+                      promo: '',
+                      price: '$2,999 - $3,999',
+                      priceHighlight: false,
+                      priceRestriction: 'package deal',
+                      priceRegular: 'was $4,999 - $6,999'
+                    }),
+                    this.productCardRecommendations({
+                      name: "Lorem Ipsum Dolor Sec Mud Deler LoreM Dol…",
+                      thumb: '/images/design-system/fpo/product-cards/product-card-recommendations-1.jpg',
+                      promo: 'SAMSUNG BUY 4 SAVE 10%',
+                      price: '$2,499 - $3,999',
+                      priceHighlight: true,
+                      priceRestriction: '',
+                      priceRegular: 'reg. $2,999 - $5,999'
+                    }),
+                    this.productCardRecommendations({
+                      name: "Lorem Ipsum Dolor Sec Mud Deler LoreM Dol…",
+                      thumb: '/images/design-system/fpo/product-cards/product-card-recommendations-2.jpg',
+                      promo: '',
+                      price: '$59.99',
+                      priceHighlight: true,
+                      priceRestriction: 'after coupon',
+                      priceRegular: 'reg. $99.99'
+                    }),
+                    this.productCardRecommendations({
+                      name: "Lorem Ipsum Dolor Sec Mud Deler LoreM Dol…",
+                      thumb: '/images/design-system/fpo/product-cards/product-card-recommendations-3.jpg',
+                      promo: '',
+                      price: '$299.99',
+                      priceHighlight: true,
+                      priceRestriction: 'after coupon',
+                      priceRegular: 'reg. $99.99'
+                    }),
+                    this.productCardRecommendations({
+                      name: "Lorem Ipsum Dolor Sec Mud Deler LoreM Dol…",
+                      thumb: '/images/design-system/fpo/product-cards/product-card-recommendations-4.jpg',
+                      promo: '',
+                      price: '$599.99',
+                      priceHighlight: false,
+                      priceRestriction: '',
+                      priceRegular: ''
+                    }),
+                    this.productCardRecommendations({
+                      name: "Lorem Ipsum Dolor Sec Mud Deler LoreM Dol…",
+                      thumb: '/images/design-system/fpo/product-cards/product-card-recommendations-5.jpg',
+                      promo: '',
+                      price: '$29.99',
+                      priceHighlight: false,
+                      priceRestriction: 'sale',
+                      priceRegular: 'was $60'
+                    }),
+                    this.productCardRecommendations({
+                      name: "Lorem Ipsum Dolor Sec Mud Deler LoreM Dol…",
+                      thumb: '/images/design-system/fpo/product-cards/product-card-recommendations-6.jpg',
+                      promo: '',
+                      price: '$99.99',
+                      priceHighlight: false,
+                      priceRestriction: 'clearance',
+                      priceRegular: 'was $299.99'
+                    }),
+                    this.productCardRecommendations({
+                      name: "Lorem Ipsum Dolor Sec Mud Deler LoreM Dol…",
+                      thumb: '/images/design-system/fpo/product-cards/product-card-recommendations-7.jpg',
+                      promo: '',
+                      price: '$299.99 - $399.99',
+                      priceHighlight: false,
+                      priceRestriction: 'clearance',
+                      priceRegular: 'was $499.99 - $699.99'
+                    }),
+                    this.productCardRecommendations({
+                      name: "Lorem Ipsum Dolor Sec Mud Deler LoreM Dol…",
+                      thumb: '/images/design-system/fpo/product-cards/product-card-recommendations-8.jpg',
+                      promo: '',
+                      price: '$2,999 - $3,999',
+                      priceHighlight: false,
+                      priceRestriction: 'package deal',
+                      priceRegular: 'was $4,999 - $6,999'
+                    })
+                  )
                 ),
                 react_default.a.createElement(
                   'div',
-<<<<<<< HEAD
-                  { classname: 'rec-zone-carousel show-for-small-only show-for-medium-only' },
-                  react_default.a.createElement('input', { type: 'radio', id: 'one', name: 'name', value: '', defaultChecked: 'true' }),
-=======
                   { className: 'rec-zone-carousel show-for-small-only show-for-medium-only' },
                   react_default.a.createElement('input', { type: 'radio', className: 'bullet', id: 'one', name: 'name', value: '', defaultChecked: 'true' }),
->>>>>>> 9b793ad61c08a594546fbe55988935f59713e5ce
                   react_default.a.createElement('label', { htmlFor: 'one' }),
                   react_default.a.createElement('input', { type: 'radio', id: 'two', name: 'name', value: '' }),
                   react_default.a.createElement('label', { htmlFor: 'two' }),
@@ -23295,17 +23300,13 @@ var recommendation_zone__temp = function () {
     return;
   }
 
-<<<<<<< HEAD
+  __REACT_HOT_LOADER__.register(add, 'add', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/recommendation-zone/recommendation-zone.js');
+
+  __REACT_HOT_LOADER__.register(subtract, 'subtract', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/recommendation-zone/recommendation-zone.js');
+
+  __REACT_HOT_LOADER__.register(calculateScrollPixel, 'calculateScrollPixel', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/recommendation-zone/recommendation-zone.js');
+
   __REACT_HOT_LOADER__.register(recommendation_zone_RecommendationZone, 'RecommendationZone', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/recommendation-zone/recommendation-zone.js');
-=======
-  __REACT_HOT_LOADER__.register(add, 'add', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/recommendation-zone/recommendation-zone.js');
-
-  __REACT_HOT_LOADER__.register(subtract, 'subtract', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/recommendation-zone/recommendation-zone.js');
-
-  __REACT_HOT_LOADER__.register(calculateScrollPixel, 'calculateScrollPixel', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/recommendation-zone/recommendation-zone.js');
-
-  __REACT_HOT_LOADER__.register(recommendation_zone_RecommendationZone, 'RecommendationZone', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/recommendation-zone/recommendation-zone.js');
->>>>>>> 9b793ad61c08a594546fbe55988935f59713e5ce
 
   __REACT_HOT_LOADER__.register(recommendation_zone__default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/recommendation-zone/recommendation-zone.js');
 }();
