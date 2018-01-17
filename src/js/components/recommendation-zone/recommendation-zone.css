@@ -1,13 +1,13 @@
 /* note:- import product card css in yoda */
 .product-card-wrapper {
-	& ul {
-		display: inline;
-		overflow: auto;
-		white-space: nowrap;
-		& .chevron-wrapper {
-			& .chevron-icon{
-				display: none;
-			}
+	display: inline;
+	overflow: auto;
+	white-space: nowrap;
+	& .product-card-block {
+		position: relative;
+		overflow: hidden;
+		@media (--viewport-md-down) {
+			overflow: auto;
 		}
 		& .chevron-icon{
 			position: absolute;
@@ -32,23 +32,23 @@
 		& .rec-zone-chevron-right{
 			right: 0;
 		}
-		& .product-card-recommendation {
-			white-space: pre-wrap;
-			& a {
-				display: block;
-				text-decoration: none;
+		& ul {
+			transition: transform .4s ease-in-out,-webkit-transform .4s ease-in-out;
+			& .product-card-recommendation {
+				white-space: pre-wrap;
+				& a {
+					display: block;
+					text-decoration: none;
+				}
 			}
 		}
-	}
-	& ul:hover {
-		& .chevron-wrapper {
-			& .chevron-icon{
-				display: block;
-			}
-		}
-	}
-	& .rec-zone-carousel {
-		text-align: center;
-		width: 100%;
 	}
 }
+& .product-card-wrapper:hover {
+	& .chevron-wrapper {
+		& .chevron-icon{
+			display: block;
+		}
+	}
+}
+
