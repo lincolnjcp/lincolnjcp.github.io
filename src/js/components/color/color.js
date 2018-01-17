@@ -66,7 +66,7 @@ componentDidMount() {
             <div className="row">
                 <div className="sm12 md6 columns">
                     <div className="mrg-L">
-                        {this.colorBar("Passion", "#5F1417", "color-passion", "", "")} {this.colorBar("Lipstick", "#990000", "color-lipstick", "", "")} {this.colorBar("Penney Red", "#CC0000", "color-penneyred", "size-large", "")} {this.colorBar("Blush", "#F8BFC6", "color-blush", "", "#c02020")}
+                        {this.colorBar("Passion", "#5F1417", "color-passion", "", "")} {this.colorBar("Lipstick", "#A32026", "color-lipstick", "", "")} {this.colorBar("Penney Red", "#CC0000", "color-penneyred", "size-large", "")} {this.colorBar("Blush", "#F8BFC6", "color-blush", "", "#c02020")}
                     </div>
                 </div>
                 <div className="sm12 md6 columns">
@@ -176,7 +176,7 @@ componentDidMount() {
             <div className="row">
                 <div className="sm12 md6 columns">
                     <div className="mrg-L">
-                        {this.colorBar("Silver", "#111111", "color-rewards-platinum-1", "", "")} {this.colorBar("Platinum", "#384048", "color-rewards-platinum-2", "size-large", "")} {this.colorBar("Shine", "#6b7883", "color-rewards-platinum-3", "", "#6f787b")}
+                        {this.colorBar("Silver", "#6F787B", "color-rewards-platinum-2", "", "")} {this.colorBar("Platinum", "#8f9699", "color-rewards-platinum-1", "size-large", "")} {this.colorBar("Shine", "#6b7883", "color-rewards-platinum-3", "", "#6f787b")}
                     </div>
                 </div>
                 <div className="sm12 md6 columns">
@@ -187,7 +187,7 @@ componentDidMount() {
             <div className="row">
                 <div className="sm12 md6 columns">
                     <div className="mrg-L">
-                        {this.colorBar("Premium", "#111111", "color-rewards-gold-1", "", "")} {this.colorBar("Gold", "#384048", "color-rewards-gold-2", "size-large", "")} {this.colorBar("Tan", "#6b7883", "color-rewards-gold-3", "", "#887330")}
+                        {this.colorBar("Premium", "#887330", "color-rewards-gold-2", "", "")} {this.colorBar("Gold", "#9c8137", "color-rewards-gold-1", "size-large", "")} {this.colorBar("Tan", "#6b7883", "color-rewards-gold-3", "", "#887330")}
                     </div>
                 </div>
                 <div className="sm12 md6 columns">

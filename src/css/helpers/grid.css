@@ -275,7 +275,7 @@ img {
 
 @media (--viewport-lg) {
     .row {
-        max-width: 944px;
+        max-width: 968px;
     }
 
     .row .row {
@@ -385,7 +385,7 @@ img {
 
 @media (--viewport-xl) {
     .row {
-        max-width: 1328px;
+        max-width: 1376px;
     }
 
     .xl1,

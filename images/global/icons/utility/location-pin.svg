@@ -1,7 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?>
-<svg version="1.1" id="icon_x2F_Utility_x2F_location-pin-Layer_1"
-	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 48 48"
-	 style="enable-background:new 0 0 48 48;" xml:space="preserve">
-<path id="icon_x2F_Utility_x2F_location-pin-path-1_1_" style="fill:#111111;" d="M24,11c5,0,9,4.1,9,10.1S24,37,24,37
-	s-9-9.9-9-15.9S19,11,24,11z M24,25.5c2.7,0,4.9-2.3,4.9-5.2c0-2.9-2.2-5.2-4.9-5.2s-4.9,2.3-4.9,5.2S21.3,25.5,24,25.5z"/>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32">
+  <defs>
+    <path id="location-pin-a" d="M8,0 C12.4181943,0 16,3.81120604 16,9.33211574 C16,14.8530254 8.00018286,24 8.00018286,24 C8.00018286,24 0,14.8613318 0,9.35713482 C0,3.85293787 3.58171429,0 8,0 Z M8,13.3964148 C10.4174629,13.3964148 12.3842743,11.2435732 12.3842743,8.59745556 C12.3842743,5.9513379 10.4174629,3.79849635 8,3.79849635 C5.58253714,3.79849635 3.61572571,5.9513379 3.61572571,8.59745556 C3.61572571,11.2435732 5.58253714,13.3964148 8,13.3964148 Z"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="translate(8 4)">
+    <use fill="#384048" xlink:href="#location-pin-a"/>
+  </g>
 </svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32">
+  <defs>
+    <polygon id="star-half-a" points="12 18 4.947 21.708 6.294 13.854 .587 8.292 8.473 7.146 12 0 15.527 7.146 23.413 8.292 17.706 13.854 19.053 21.708"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="translate(4 5)">
+    <mask id="star-half-b" fill="#fff">
+      <use xlink:href="#star-half-a"/>
+    </mask>
+    <use fill="#C00" xlink:href="#star-half-a"/>
+    <rect width="16" height="32" x="12" y="-5" fill="#D8D8D8" mask="url(#star-half-b)"/>
+  </g>
+</svg>

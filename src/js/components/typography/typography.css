@@ -69,16 +69,18 @@ p {
     &.price-XL {
         font-size: 40px;
         line-height: 38px;
+        letter-spacing: -.66px;
     }
 
     &.price-L {
         font-size: 34px;
         line-height: 24px;
+        letter-spacing: -.5px;
     }
 
     &.price-M {
         font-size: 24px;
-        letter-spacing: .25px;
+        letter-spacing: .33px;
         line-height: 24px;
     }
 
@@ -136,31 +138,31 @@ p {
 
 .title-XXL {
     font-size: 28px;
-    letter-spacing: -0.7px;
+    letter-spacing: -0.75px;
     line-height: 32px;
 }
 
 .title-XL {
     font-size: 24px;
-    letter-spacing: -0.64px;
+    letter-spacing: -0.66px;
     line-height: 28px;
 }
 
 .title-L {
     font-size: 20px;
-    letter-spacing: -0.54px;
+    letter-spacing: -0.5px;
     line-height: 24px;
 }
 
 .title-M {
     font-size: 16px;
-    letter-spacing: -0.43px;
+    letter-spacing: -0.33px;
     line-height: 20px;
 }
 
 .title-S {
     font-size: 14px;
-    letter-spacing: -0.37px;
+    letter-spacing: -0.25px;
     line-height: 18px;
 }
 
@@ -188,40 +190,35 @@ p {
     color: var(--color-slate);
     font-weight: var(--font-weight-regular);
     font-family: var(--font-body);
+    letter-spacing: 0px;
 
     &.std-txt-XL {
         font-size: 20px;
-        letter-spacing: -0.5px;
         line-height: 30px;
     }
 
     &.std-txt-L {
         font-size: 18px;
-        letter-spacing: -0.6px;
         line-height: 22px;
     }
 
     &.std-txt-M {
         font-size: 16px;
-        letter-spacing: -0.54px;
         line-height: 20px;
     }
 
     &.std-txt-S {
         font-size: 14px;
-        letter-spacing: -0.43px;
         line-height: 18px;
     }
 
     &.std-txt-XS {
         font-size: 12px;
-        letter-spacing: -0.28px;
         line-height: 16px;
     }
 
     &.std-txt-XXS {
         font-size: 10px;
-        letter-spacing: -0.2px;
         line-height: 14px;
     }
 

@@ -1,7 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?>
-<svg version="1.1" id="icon_x2F_Utility_x2F_Star-Layer_1"
-	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 48 48"
-	 style="enable-background:new 0 0 48 48;" xml:space="preserve">
-<path id="icon_x2F_Utility_x2F_Star-path-1_1_" style="fill:#111111;" d="M24,30l-7.1,3.7l1.4-7.8l-5.7-5.6l7.9-1.2L24,12l3.5,7.1
-	l7.9,1.2l-5.7,5.6l1.4,7.8L24,30z"/>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32">
+  <defs>
+    <polygon id="star-a" points="12 19 4.947 22.708 6.294 14.854 .587 9.292 8.473 8.146 12 1 15.527 8.146 23.413 9.292 17.706 14.854 19.053 22.708"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="translate(4 4)">
+    <use fill="#C02020" xlink:href="#star-a"/>
+  </g>
 </svg>

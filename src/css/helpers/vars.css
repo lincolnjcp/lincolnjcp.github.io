@@ -34,6 +34,8 @@
     ******************/
     --transition-time-S: .25s;
     --transition-time-M: .5s;
+    --transition-time-L: 0.6s;
+    --transition-time-XL: 0.75s;
 
     /******************
     /* Vars
@@ -42,13 +44,13 @@
 
     /*  Reds */
     --color-penneyred: #cc0000;
-    --color-lipstick: #990000;
+    --color-lipstick: #A32026;
     --color-passion: #5F1417;
     --color-blush: #F8BFC6;
 
     /*  Greys */
     --color-nightsky: #111111;
-    --color-shadow: #333333;
+    --color-shadow: #384048;
     /*  --color-slate: #626E78;  Original color - save in case */
     --color-slate: #6b7883;
     --color-concrete: #D8D8D8;
@@ -81,10 +83,10 @@
     --color-rewards-plum: #D1C7EC;
 
     /* PLCC */
-    --color-rewards-platinum-1: #8F9699;
+    --color-rewards-platinum-1: #8f9699;
     --color-rewards-platinum-2: #6F787B;
     --color-rewards-platinum-3: #D8E0E4;
-    --color-rewards-gold-1: #9C8137;
+    --color-rewards-gold-1: #9c8137;
     --color-rewards-gold-2: #887330;
     --color-rewards-gold-3: #F1E8CF;
 

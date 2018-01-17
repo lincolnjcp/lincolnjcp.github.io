@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32">
+  <defs>
+    <path id="chevron-left-circle-a" d="M12,24 C5.372583,24 0,18.627417 0,12 C0,5.372583 5.372583,-1.77635684e-15 12,-1.77635684e-15 C18.627417,-1.77635684e-15 24,5.372583 24,12 C24,18.627417 18.627417,24 12,24 Z M10.5222672,5.5 L9,7.0275 L13.9446694,12 L9,16.9725 L10.5222672,18.5 L17,12 L10.5222672,5.5 Z"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="rotate(90 12 16)">
+    <use fill="#384048" transform="rotate(90 12 12)" xlink:href="#chevron-left-circle-a"/>
+  </g>
+</svg>

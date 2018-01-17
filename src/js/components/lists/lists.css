@@ -42,7 +42,7 @@
             line-height: 24px;
             list-style-type: none;
             margin: 0 0 16px;
-            .icon {
+            & .icon {
                 position: absolute;
                 top: 0px;
                 left: 0px;

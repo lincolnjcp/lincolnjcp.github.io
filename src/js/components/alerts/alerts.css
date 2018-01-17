@@ -24,6 +24,9 @@
     border-color: var(--color-success-border);
     background-color: var(--color-success-fill);
     color: var(--color-success-type);
+    & path, & use, & polygon, & circle {
+      fill: var(--color-shadow) !important;
+    }
   }
 
   &.msg-warning{
@@ -44,9 +47,9 @@
 
   & .msg-close{
     position: absolute;
-    top: 8px;
+    top: 12px;
     display: block;
-    right: 4px;
+    right: 12px;
     cursor: pointer;
     background: url("var(--path-images)global/icons/nav/close.svg") no-repeat;
     width: 16px;

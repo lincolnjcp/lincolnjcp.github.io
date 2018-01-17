@@ -13,8 +13,8 @@
     background-color: var(--color-penneyred);
   }
 
-  .icon.color-penneyred-svg{
-    & path {
+  .color-penneyred-svg{
+    & path, & use, & polygon, & circle {
       fill: var(--color-penneyred) !important;
     }
   }
@@ -27,8 +27,8 @@
     background-color: var(--color-lipstick);
   }
 
-  .icon.color-lipstick-svg{
-    & path {
+  .color-lipstick-svg{
+    & path, & use, & polygon, & circle {
       fill: var(--color-lipstick) !important;
     }
   }
@@ -41,8 +41,8 @@
     background-color: var(--color-passion);
   }
 
-  .icon.color-passion-svg{
-    & path {
+  .color-passion-svg{
+    & path, & use, & polygon, & circle {
       fill: var(--color-passion) !important;
     }
   }
@@ -55,8 +55,8 @@
     background-color: var(--color-blush);
   }
 
-  .icon.color-blush-svg{
-    & path {
+  .color-blush-svg{
+    & path, & use, & polygon, & circle {
       fill: var(--color-blush) !important;
     }
   }
@@ -71,8 +71,8 @@
     background-color: var(--color-nightsky);
   }
 
-  .icon.color-nightsky-svg{
-    & path {
+  .color-nightsky-svg{
+    & path, & use, & polygon, & circle {
       fill: var(--color-nightsky) !important;
     }
   }
@@ -85,8 +85,8 @@
     background-color: var(--color-slate);
   }
 
-  .icon.color-slate-svg{
-    & path {
+  .color-slate-svg{
+    & path, & use, & polygon, & circle {
       fill: var(--color-slate) !important;
     }
   }
@@ -99,8 +99,8 @@
     background-color: var(--color-shadow);
   }
 
-  .icon.color-shadow-svg{
-    & path {
+  .color-shadow-svg{
+    & path, & use, & polygon, & circle {
       fill: var(--color-shadow) !important;
     }
   }
@@ -113,8 +113,8 @@
     background-color: var(--color-concrete);
   }
 
-  .icon.color-concrete-svg{
-    & path {
+  .color-concrete-svg{
+    & path, & use, & polygon, & circle {
       fill: var(--color-concrete) !important;
     }
   }
@@ -127,8 +127,8 @@
     background-color: var(--color-lightgrey);
   }
 
-  .icon.color-lightgrey-svg{
-    & path {
+  .color-lightgrey-svg{
+    & path, & use, & polygon, & circle {
       fill: var(--color-lightgrey) !important;
     }
   }
@@ -141,8 +141,8 @@
     background-color: var(--color-white);
   }
 
-  .icon.color-white-svg{
-    & path {
+  .color-white-svg{
+    & path, & use, & polygon, & circle {
       fill: var(--color-white) !important;
     }
   }

@@ -58,8 +58,8 @@ table {
             }
         }
         & th {
-            & background-color: var(--color-lightgrey);
-            & color: var(--color-slate);
+            background-color: var(--color-lightgrey);
+            color: var(--color-slate);
         }
         &.table-striped-rewards th {
             background-color: var(--color-rewards-eggplant);

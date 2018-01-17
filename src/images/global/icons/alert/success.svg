@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?>
-<svg version="1.1" id="icon_x2F_Alert_x2F_success-Layer_1"
-	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 48 48"
-	 style="enable-background:new 0 0 48 48;" xml:space="preserve">
-<path id="icon_x2F_Alert_x2F_success-path-1_1_" style="fill:#2A7952;" d="M24,12c-6.6,0-12,5.4-12,12s5.4,12,12,12s12-5.4,12-12
-	S30.6,12,24,12z M30.6,19.4c0.4,0.4,0.4,1,0,1.4l-8.7,8.7c-0.2,0.2-0.5,0.3-0.7,0.3c-0.3,0-0.5-0.1-0.7-0.3l-2.9-2.9
-	c-0.4-0.4-0.4-1,0-1.4s1-0.4,1.4,0l2.2,2.2l8-8C29.6,19,30.2,19,30.6,19.4z"/>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32">
+  <defs>
+    <path id="success-a" d="M12,0 C5.3726,0 0,5.3726 0,12 C0,18.6273 5.3726,24 12,24 C18.6273,24 24,18.6273 24,12 C24,5.3726 18.6273,0 12,0 L12,0 Z M10.1817254,13.3161719 L17.4548237,6.0430736 L19.8791898,8.46743971 L10.1817254,18.1649041 L4.12081015,12.1039889 L6.54517626,9.67962276 L10.1817254,13.3161719 Z"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="translate(4 4)">
+    <use fill="#2A7952" xlink:href="#success-a"/>
+  </g>
 </svg>
