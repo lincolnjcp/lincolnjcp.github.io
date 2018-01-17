@@ -22779,6 +22779,56 @@ function recommendation_zone__inherits(subClass, superClass) { if (typeof superC
 var recommendation_zone_ChevronLeftImage = __webpack_require__("WBOg");
 var recommendation_zone_ChevronRightImage = __webpack_require__("aNhq");
 
+<<<<<<< HEAD
+=======
+var add = function add(param1, param2) {
+  return param1 + param2;
+};
+var subtract = function subtract(param1, param2) {
+  return param1 - param2;
+};
+
+var calculateScrollPixel = function calculateScrollPixel(_ref) {
+  var productPanesDisplayed = _ref.productPanesDisplayed,
+      totalProductPanes = _ref.totalProductPanes,
+      scrollPixels = _ref.scrollPixels,
+      scrolledPanes = _ref.scrolledPanes,
+      productPaneWidth = _ref.productPaneWidth,
+      scrollToRight = _ref.scrollToRight,
+      remainingWrapperWidth = _ref.remainingWrapperWidth,
+      disableRightArrow = _ref.disableRightArrow;
+
+  var operator = scrollToRight ? subtract : add;
+
+  // Calculate remaining(hidden panes) product panes in container to display
+  var remainingProductsPanes = scrollToRight ? totalProductPanes - productPanesDisplayed - scrolledPanes : scrolledPanes;
+
+  // Calculate product panes to show. It depends on the remaining panes and container size.
+  /* istanbul ignore next */
+  var numberOfPanesToMove = remainingProductsPanes >= productPanesDisplayed ? productPanesDisplayed : remainingProductsPanes;
+
+  // Calculate next scroll position
+  var scrollX = numberOfPanesToMove * productPaneWidth;
+
+  // Calculate the total number of panes which are scrolled
+  var productPanesScrolled = scrollToRight ? scrolledPanes + numberOfPanesToMove : scrolledPanes - numberOfPanesToMove;
+
+  // Calculate the total panes which are displaced from its original position
+  var migratedProductPanes = scrollToRight ? add(productPanesScrolled, productPanesDisplayed) : productPanesScrolled;
+
+  if (totalProductPanes === migratedProductPanes || disableRightArrow) {
+    scrollX -= remainingWrapperWidth;
+  }
+  var scrollContentBy = operator(scrollPixels, scrollX);
+
+  return {
+    scrollContentBy: scrollContentBy,
+    migratedProductPanes: migratedProductPanes,
+    productPanesScrolled: productPanesScrolled
+  };
+};
+
+>>>>>>> 9b793ad61c08a594546fbe55988935f59713e5ce
 var recommendation_zone_RecommendationZone = function (_Component) {
   recommendation_zone__inherits(RecommendationZone, _Component);
 
@@ -22918,11 +22968,62 @@ var recommendation_zone_RecommendationZone = function (_Component) {
       );
     }
   }, {
+<<<<<<< HEAD
     key: 'componentDidMount',
     value: function componentDidMount() {}
+=======
+    key: 'scrollCartridge',
+    value: function scrollCartridge(scrollToRight) {
+      // const { productCartridgeList } = this.state;
+      var productCartridgeList = 16;
+      // const pane = this.props.productPane || this.productPane;
+      var pane = 176;
+      var wrapperWidth = this.wrapper.getBoundingClientRect().width;
+      var productPaneWidth = pane.getBoundingClientRect().width + pane.getBoundingClientRect().width / 10;
+      var _scrollStatus = this.scrollStatus,
+          scrollPixels = _scrollStatus.scrollPixels,
+          scrolledPanes = _scrollStatus.scrolledPanes;
+
+      // Calculate number of products displayed in the container
+
+      var totalProductPanes = productCartridgeList.length;
+      var result = wrapperWidth / productPaneWidth;
+      var productPanesDisplayed = Math.floor(result);
+      var remainingWrapperWidth = (result - productPanesDisplayed).toFixed(2) * productPaneWidth;
+
+      var mountedCartrdigeInfo = {
+        productPanesDisplayed: productPanesDisplayed,
+        totalProductPanes: totalProductPanes,
+        scrollPixels: scrollPixels,
+        scrolledPanes: scrolledPanes,
+        productPaneWidth: productPaneWidth,
+        scrollToRight: scrollToRight,
+        remainingWrapperWidth: remainingWrapperWidth,
+        disableRightArrow: this.state.disableRightArrow
+      };
+
+      var _calculateScrollPixel = calculateScrollPixel(mountedCartrdigeInfo),
+          scrollContentBy = _calculateScrollPixel.scrollContentBy,
+          productPanesScrolled = _calculateScrollPixel.productPanesScrolled,
+          migratedProductPanes = _calculateScrollPixel.migratedProductPanes;
+
+      this.scrollStatus.scrollPixels = scrollContentBy;
+      this.scrollStatus.scrolledPanes = productPanesScrolled;
+
+      this.setState({
+        disableLeftArrow: migratedProductPanes === 0,
+        disableRightArrow: migratedProductPanes === totalProductPanes,
+        listStyle: {
+          transform: 'translate(' + scrollContentBy + 'px)'
+        }
+      });
+    }
+>>>>>>> 9b793ad61c08a594546fbe55988935f59713e5ce
   }, {
     key: 'render',
     value: function render() {
+      var _this2 = this;
+
       return react_default.a.createElement(
         'div',
         null,
@@ -22956,15 +23057,30 @@ var recommendation_zone_RecommendationZone = function (_Component) {
               react_default.a.createElement('hr', null),
               react_default.a.createElement(
                 'div',
+<<<<<<< HEAD
                 { className: 'product-card-wrapper position-rel' },
+=======
+                { className: 'product-card-wrapper position-rel', ref: function ref(wrapper) {
+                    _this2.wrapper = wrapper;
+                  } },
+>>>>>>> 9b793ad61c08a594546fbe55988935f59713e5ce
                 react_default.a.createElement(
                   'ul',
                   null,
                   react_default.a.createElement(
                     'div',
                     { className: 'chevron-wrapper hide-for-small-only hide-for-medium-only' },
+<<<<<<< HEAD
                     react_default.a.createElement('a', { href: 'javascript:void(0);', className: 'rec-zone-chevron-left icon chevron-icon', dangerouslySetInnerHTML: { __html: recommendation_zone_ChevronLeftImage } }),
                     react_default.a.createElement('a', { href: 'javascript:void(0);', className: 'rec-zone-chevron-right icon chevron-icon', dangerouslySetInnerHTML: { __html: recommendation_zone_ChevronRightImage } })
+=======
+                    react_default.a.createElement('a', { href: 'javascript:void(0);', onClick: function onClick() {
+                        return _this2.scrollCartridge(false);
+                      }, className: 'rec-zone-chevron-left icon chevron-icon', dangerouslySetInnerHTML: { __html: recommendation_zone_ChevronLeftImage } }),
+                    react_default.a.createElement('a', { href: 'javascript:void(0);', onClick: function onClick() {
+                        return _this2.scrollCartridge(true);
+                      }, className: 'rec-zone-chevron-right icon chevron-icon', dangerouslySetInnerHTML: { __html: recommendation_zone_ChevronRightImage } })
+>>>>>>> 9b793ad61c08a594546fbe55988935f59713e5ce
                   ),
                   this.productCardRecommendations({
                     name: "Lorem Ipsum Dolor Sec Mud Deler LoreM Dol…",
@@ -23113,8 +23229,13 @@ var recommendation_zone_RecommendationZone = function (_Component) {
                 ),
                 react_default.a.createElement(
                   'div',
+<<<<<<< HEAD
                   { classname: 'rec-zone-carousel show-for-small-only show-for-medium-only' },
                   react_default.a.createElement('input', { type: 'radio', id: 'one', name: 'name', value: '', defaultChecked: 'true' }),
+=======
+                  { className: 'rec-zone-carousel show-for-small-only show-for-medium-only' },
+                  react_default.a.createElement('input', { type: 'radio', className: 'bullet', id: 'one', name: 'name', value: '', defaultChecked: 'true' }),
+>>>>>>> 9b793ad61c08a594546fbe55988935f59713e5ce
                   react_default.a.createElement('label', { htmlFor: 'one' }),
                   react_default.a.createElement('input', { type: 'radio', id: 'two', name: 'name', value: '' }),
                   react_default.a.createElement('label', { htmlFor: 'two' }),
@@ -23174,7 +23295,17 @@ var recommendation_zone__temp = function () {
     return;
   }
 
+<<<<<<< HEAD
   __REACT_HOT_LOADER__.register(recommendation_zone_RecommendationZone, 'RecommendationZone', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/recommendation-zone/recommendation-zone.js');
+=======
+  __REACT_HOT_LOADER__.register(add, 'add', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/recommendation-zone/recommendation-zone.js');
+
+  __REACT_HOT_LOADER__.register(subtract, 'subtract', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/recommendation-zone/recommendation-zone.js');
+
+  __REACT_HOT_LOADER__.register(calculateScrollPixel, 'calculateScrollPixel', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/recommendation-zone/recommendation-zone.js');
+
+  __REACT_HOT_LOADER__.register(recommendation_zone_RecommendationZone, 'RecommendationZone', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/recommendation-zone/recommendation-zone.js');
+>>>>>>> 9b793ad61c08a594546fbe55988935f59713e5ce
 
   __REACT_HOT_LOADER__.register(recommendation_zone__default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/recommendation-zone/recommendation-zone.js');
 }();
