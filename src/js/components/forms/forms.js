@@ -202,7 +202,7 @@ class Forms extends Component {
                                     <div className="sm12 md4 columns">
                                         <div className="input-group">
                                             <div className="mrg-XL">
-                                                <input type="radio" id="two" name="name" value="" defaultChecked="true" />
+                                                <input type="radio" id="two" name="name" value="" defaultChecked="false" />
                                                 <label htmlFor="two">
                                                     <p className="std-txt std-txt-M"><span className="color-penneyred">FREE</span> Store Pickup Today at <br /><a href="#">Stonebriar Mall</a></p>
                                                 </label>
@@ -213,7 +213,7 @@ class Forms extends Component {
                                                     <span className="std-txt">Arrives May 5th - May 23rd</span></label>
                                             </div>
                                             <div className="mrg-XL">
-                                                <input type="radio" id="two" name="name" value="" defaultChecked="true" />
+                                                <input type="radio" id="two" name="name" value="" defaultChecked="false" />
                                                 <label htmlFor="two">
                                                     <p className="std-txt std-txt-M"><span className="color-penneyred">FREE</span> Store Pickup Today at <br /><a href="#">Stonebriar Mall</a></p>
                                                 </label>

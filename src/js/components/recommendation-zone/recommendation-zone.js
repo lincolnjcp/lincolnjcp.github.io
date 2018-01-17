@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import $ from 'jquery';
 
+const ChevronLeftImage = require('!!raw-loader?es5=1!../../../images/global/icons/nav/chevron-left.svg');
+const ChevronRightImage = require('!!raw-loader?es5=1!../../../images/global/icons/nav/chevron-right.svg');
+
 class RecommendationZone extends Component {
   productCardRecommendations(productInfo) {
     return (
@@ -114,8 +117,12 @@ class RecommendationZone extends Component {
             <div className="sm12 columns">
               <h2><strong>Rec Row</strong></h2>
               <hr />
-              <div className="product-card-wrapper">
+              <div className="product-card-wrapper position-rel">
                 <ul>
+                  <div className="chevron-wrapper hide-for-small-only hide-for-medium-only">
+                    <a href="javascript:void(0);" className="rec-zone-chevron-left icon chevron-icon" dangerouslySetInnerHTML={{__html: ChevronLeftImage}}></a>
+                    <a href="javascript:void(0);" className="rec-zone-chevron-right icon chevron-icon" dangerouslySetInnerHTML={{__html: ChevronRightImage}}></a>
+                  </div>
                   {this.productCardRecommendations({
                     name: "Lorem Ipsum Dolor Sec Mud Deler LoreM Dol…",
                     thumb: '/images/design-system/fpo/product-cards/product-card-recommendations-1.jpg',
@@ -275,6 +282,18 @@ class RecommendationZone extends Component {
                     priceRegular: 'was $4,999 - $6,999'
                   })}
                 </ul>
+                <div classname="rec-zone-carousel show-for-small-only show-for-medium-only">
+                  <input type="radio" id="one" name="name" value="" defaultChecked="true"/>
+                  <label htmlFor="one"></label>
+                  <input type="radio" id="two" name="name" value=""/>
+                  <label htmlFor="two"></label>
+                  <input type="radio" id="three" name="name" value=""/>
+                  <label htmlFor="three"></label>
+                  <input type="radio" id="four" name="name" value=""/>
+                  <label htmlFor="four"></label>
+                  <input type="radio" id="five" name="name" value=""/>
+                  <label htmlFor="five"></label>
+                </div>
               </div>
 
             </div>
