@@ -61,7 +61,7 @@
 		& button {
 			position: absolute;
 			top: 0;
-			right: 25px;
+			right: 12px;
 			background: none;
 			border: none;
 			padding: 0;
@@ -69,6 +69,13 @@
 			height: 40px;
 			z-index: 3;
 
+			& .main-menu-primary-search-icon, & svg {
+				position: absolute;
+				top: 4px;
+				left: 5px;
+				width: 25px;
+				height: 25px;
+			}
 			&:hover {
 				border: none;
 			}
@@ -80,7 +87,8 @@
 	}
 
 	& .main-menu-primary-logo {
-		max-width: 160px;
+		flex: none;
+		width: 160px;
 		padding-left: 20px;
 		& path {
 		    fill: var(--color-white) !important;
@@ -92,18 +100,19 @@
 
 	& .main-menu-primary-account {
 		padding:0 30px;
-		max-width: 260px;
-		min-width: 230px;
+		flex: none;
+		width: 194px;
 		position: relative;
 
 		& .dropdown-account {
 			position: absolute; 
 			z-index: 2001;
 			width: 250px;
-			right: 44px;
+			right: 30px;
 
 			& .tooltip {
 				padding-bottom: 0;
+				width: 250px;
 			}
 			& ul {
 				& .main-menu-primary-sign-rewards {
@@ -133,14 +142,22 @@
 		}
 
 		& button {
-			background: url(var(--path-images)global/icons/service/account.svg) no-repeat left center;
-			background-size: 40px auto;
+
 			border: none;
 			text-align: left;
 			max-width: none;
 			width: 100%;
 			padding-left: 44px;
+			padding-right: 0;
 			font-weight: 300;
+			position: relative;
+			background: none;
+
+			& .main-menu-primary-account-icon {
+				position: absolute;
+				top: 6px;
+				left: 0;
+			}
 
 			& .main-menu-primary-account-title {
 				font-size: 14px;
@@ -151,10 +168,12 @@
 				font-size: 18px;
 				line-height: 20px;
 				position: relative;
+				display: inline-block;
+				padding-right: 16px;
 
 				& .arrow {
 					right: 0;
-					top: 2px;
+					top: 1px;
 				}
 			}
 
@@ -174,16 +193,18 @@
 	}
 
 	& .main-menu-primary-rewards {
-		max-width: 125px;
+		flex: none;
+		width: 140px;
 		padding-left: 15px;
 	}
 
+
 	& .main-menu-primary-cart {
-		max-width: 60px;
+		flex: none;
+		width: 60px;
 		padding-right: 20px;
 
 		& .main-menu-primary-cart-icon-full {
-			background: url(var(--path-images)global/icons/utility/cart/cart-full.svg) no-repeat;
 			display: inline-block;
 			width: 40px;
 			height: 40px;
@@ -192,7 +213,7 @@
 			& .main-menu-primary-cart-icon-full-items {
 				position: absolute;
 				top: 6px;
-				left: 0;
+				left: 1.5px;
 				text-align: center;
 				color: var(--color-white);
 				display: block;
@@ -207,7 +228,38 @@
 	}
 }
 
+.main-menu-primary-search-form {
+	position: relative;
+	max-width: 100%;
+}
+
 @media (--viewport-lg) {
+
+	.main-menu-primary {
+
+
+		& .main-menu-primary-search {
+			transition: width 200ms ease-in-out;
+		}
+
+	}
+
+
+	.main-menu-search-open {
+		
+		& .main-menu-primary {
+			min-height: 72px;
+		}
+		& .main-menu-primary-rewards,
+		& .main-menu-primary-account {
+			display: none;
+		}
+		& .main-menu-primary-search {
+			& input[type=text] {
+				
+			}
+		}
+	}
 	.main-menu-bar-secondary-container {
 		display: flex;
 		flex: 0 0 100%;
@@ -217,10 +269,12 @@
 		margin: 0 auto;
 
 		& .main-menu-secondary-left{
-			flex: 3;
+			flex: 2;
 		}
 		& .main-menu-secondary-right {
-			flex: 1;
+			flex: none;
+			width: 300px;
+			padding-top: 2px;
 		}
 
 		& .main-menu-secondary-li {
@@ -228,8 +282,8 @@
 		}
 
 		& .main-menu-secondary-li-primary {
-			padding-left: 20px;
-			padding-right: 20px;
+			padding-left: 8px;
+			padding-right: 8px;
 			& a {
 				text-decoration: none;
 				display: inline-block;
@@ -246,15 +300,21 @@
 
 			& .main-menu-secondary-shop-departments-menu-svg {
 				position: absolute;
-				top: 0;
-				left: 10px;
+				top: 9px;
+				left: 11px;
+				width: 24px;
+				height: 24px;
+				& svg {
+					width: 24px;
+					height: 24px;
+				}
 			}
 
 			& .main-menu-secondary-shop-departments-menu-label {
 				font-weight: bold;
 				font-size: 18px;
 				display: inline-block;
-				padding-left: 40px;
+				padding-left: 26px;
 			}
 
 		}
@@ -262,6 +322,7 @@
 		& .main-menu-secondary-my-store {
 			position: relative;
 			& button {
+				font-size: 18px;
 				border: none;
 				color: var(--color-nightsky);
 				font-weight: 500;
@@ -277,16 +338,12 @@
 				position: absolute; 
 				z-index: 2001;
 				width: 300px;
-				right: -3px;
+				right: 2px;
 				top: 38px;
 
 				& ul {
 					padding: 16px;
-				}
-			}
-			& .main-menu-secondary-my-store-listing {
-				& p {
-					line-height: 22px;
+					width: 100%;
 				}
 			}
 		}
@@ -299,7 +356,7 @@
     & .main-menu-tier2-link,
     & .main-menu-tier3-link {
     	display: block;
-    	padding: 10px 16px;
+    	padding: 10px 24px 10px 16px;
     	position: relative;
     	font-size: 14px;
     	text-decoration: none;
@@ -307,13 +364,13 @@
     	&:after{
     		content: "";
     		position: absolute;
-    		top: 3px;
-    		right: 2px;
+    		top: 8px;
+    		right: 8px;
     		background: url(var(--path-images)global/icons/nav/chevron-right.svg) no-repeat right center;
 			background-size: 100% auto;
 			opacity: .2;
-			width: 30px;
-			height: 30px;
+			width: 18px;
+			height: 18px;
     	}
     }
 }
@@ -324,7 +381,15 @@
 	}
 }
 
+@media (--viewport-xl) {
+	.main-menu-bar-secondary-container {
+		& .main-menu-secondary-li-primary {
+			padding-left: 20px;
+			padding-right: 20px;
+		}
+	}
 
+}
 
 @media (--viewport-md-down) {
 	.main-menu-secondary-li-shop-departments {
@@ -332,11 +397,12 @@
 	}
 	.main-menu-md-primary {
 		display: block;
-		padding: 16px;
+		padding: 20px 16px;
 		position: relative;
-		font-size: 14px;
+		font-size: 16px;
 		text-decoration: none;
 		width: 320px;
+		font-family: var(--font-headline);
 		border-bottom: 1px solid var(--color-concrete);
 
 		
@@ -345,17 +411,19 @@
 			&:after{
 				content: "";
 				position: absolute;
-				top: 8px;
+				top: 16px;
 				right: 10px;
 				background: url(var(--path-images)global/icons/nav/chevron-right.svg) no-repeat right center;
 				background-size: 100% auto;
-				opacity: .5;
-				width: 30px;
-				height: 30px;
+				opacity: .2;
+				width: 26px;
+				height: 26px;
 			}
 		}
 
 	}
+
+
 
 	.main-menu-tier1 {
 		& .main-menu-tier2-li {
@@ -367,12 +435,24 @@
 		& .main-menu-tier2-link {
 			font-size: 16px;
 			padding-left: 40px;
+			font-family: var(--font-headline);
 			&:after {
 				right: auto;
-				left: 7px;
+				left: 12px;
 				background: url(var(--path-images)global/icons/nav/plus.svg) no-repeat right center;
 				background-size: 100% auto;
 				transition: transform 200ms;
+				opacity: 1;
+			}
+		}
+		& .main-menu-tier3-ul {
+			margin-bottom: 20px;
+			& .main-menu-tier3-link {
+				padding-top: 14px;
+				padding-bottom: 14px;
+				&:after {
+					display: none;
+				}
 			}
 		}
 		& .tier3-click {
@@ -413,7 +493,7 @@
 		& .side-panel-content {
 			overflow-x: hidden;
 			width: 640px;
-			padding-top: 55px;
+			padding-top: 64px;
 			padding-bottom: 55px;
 		}
 	}
@@ -423,17 +503,23 @@
 	}
 	.main-menu-tier1 {
 		& .main-menu-tier1-link {
-			padding-left: 60px;
+			padding-left: 76px;
 			padding-top: 18px;
 			padding-bottom: 18px;
 			position: relative;
-			&:after {
-				top: 5px;
-			}
+			font-size: 16px;
+			font-family: var(--font-headline);
+			&:after{
+	    		top: 13px;
+				right: 10px;
+				opacity: .2;
+				width: 26px;
+				height: 26px;
+	    	}
 			& .main-menu-tier1-link-thumb {
 				position: absolute;
 				top: 4px;
-				left: 2px;
+				left: 16px;
 			}
 
 		}
@@ -445,7 +531,7 @@
 		& .main-menu-tier2-ul {
 		    position: absolute;
 		    top: 0;
-		    padding-top: 55px;
+		    padding-top: 64px;
 		    left: 320px;
 		    width: 320px;
 		    display: none;
@@ -468,7 +554,7 @@
 	}
 	.main-menu-md-panel {
 		position: absolute;
-	    top: 46px;
+	    top: 64px;
 	    left: 320px;
 	    width: 320px;
 	    height: 100%;
@@ -478,8 +564,6 @@
 	    &.tier2-click {
 	    	display: block;
 	    }
-	    & .side-panel-row-wrap {
-	    }
 	}
 	.main-menu-md-down {
 		margin-bottom: 8px;
@@ -488,18 +572,19 @@
 		display: none;
 		text-decoration: none;
 		position: relative;
-		padding-left: 38px;
+		padding-left: 30px;
 
-		&:after{
-				content: "";
-				position: absolute;
-				top: -2px;
-				left: 5px;
-				background: url(var(--path-images)global/icons/nav/arrow-left.svg) no-repeat right center;
-				background-size: 100% auto;
-				width: 30px;
-				height: 30px;
+		& .tier2-close-icon {
+			position: absolute;
+			top: 3px;
+			left: 0;
+			width: 24px;
+			height: 24px;
+			& svg {
+				width: 24px;
+				height: 24px;
 			}
+		}
 
 	}
 	
@@ -549,8 +634,7 @@
 	.main-menu-secondary-li-shop-departments {
 		position: relative;
 	}
-	.main-menu-bar-secondary-container {
-		/* box-shadow: 0 4px 8px 0 rgba(56, 64, 72, 0.5); */
+	.main-menu-bar-secondary {
 		box-shadow: 0px 8px 8px -8px rgba(56, 64, 72, 0.5);
 	}
 	.main-menu-tier1 {
@@ -581,7 +665,7 @@
 	    	transform: translateY(-700px);
 	    	transition: transform 100ms ease-out;
 	    	& a {
-	    		transition: background-color 200ms;
+	    		transition: background-color .25s;
 	    	}
 	    	& a:hover,
 	    	& a.active {
@@ -667,6 +751,10 @@
 		}
 	}
 
+	.main-menu-tier1 {
+		margin-bottom: 20px;
+	}
+
 
 
 	.main-menu-secondary-my-store {
@@ -707,28 +795,31 @@
 	.main-menu-primary {
 		position: relative;
 		padding-bottom: 60px;
-		padding-left: 40px;
 
 		& .side-panel-btn {
 			position: absolute;
-			top: 13px;
-			left: 18px;
+			top: -5px;
+			left: 8px;
 		}
 
 		& .main-menu-primary-logo {
 			max-width: initial;
 			flex: 2;
+			flex-basis: 160px;
+			padding-left: 52px;
+			position: relative;
+
 		}
 
-		& .main-menu-primary-account {
-			padding: 0 15px;
-			min-width: 200px;
+		& .main-menu-primary-cart {
+			padding-right: 10px;
+			width: 50px;
 		}
 
 		& .main-menu-primary-search {
 			display: block;
 			position: absolute;
-			bottom: 10px;
+			bottom: 12px;
 			left: 0px;
 			width: 100%;
 		}
@@ -737,40 +828,116 @@
 }
 
 @media (--viewport-sm-only) {
-	.main-menu-primary {
-		
-		& .main-menu-primary-logo {
-			padding-left: 18px;
-			max-width: 146px;
-		}
+	.main-menu-bar-secondary .side-panel-container {
 
+
+		& .side-panel-content {
+			padding-top: 44px;
+		}
+	}
+	.main-menu-md-panel {
+		    top: 44px;
+	}
+	.main-menu-tier1 {
+		& .main-menu-tier2-ul {	    
+		    padding-top: 44px;
+		}
+	}
+
+
+	.main-menu-promotional-banner {
+		padding: 4px 5px 6px 5px;
+	}
+	.main-menu-primary {
+		padding: 8px 20px 47px;
 		& .main-menu-primary-cart {
 			padding-right: 8px;
+			width: 44px;
+			& .main-menu-primary-cart-icon-full {
+				width: 32px;
+				height: 32px;
+				& .main-menu-primary-cart-icon-full-icon {
+					width: 32px;
+					height: 32px;
+					& svg {
+						width: 32px;
+						height: 32px;	
+					}
+				}
+				& .main-menu-primary-cart-icon-full-items {
+					font-size: 12px;
+					padding-left: 2px
+				}
+			}
+		}
+		& .main-menu-primary-logo {
+			flex-basis: 156px;
+			padding-left: 46px;
+			& .main-menu-primary-logo-svg {
+				max-width: 120px;
+			}
+		}
+
+		& .main-menu-primary-search {
+			padding: 0 20px;
+			& input[type="text"] {
+				height: 32px;
+				padding: 6px 13px;
+				font-size: 14px;
+			}
+
+			& button {
+				width: 32px;
+				height: 32px;
+
+				& svg {
+					top: 2px;
+					width: 20px;
+					height: 20px;
+				}
+			}
+		}
+
+		& .main-menu-primary-logo {
+			padding-left: 38px;
+		}
+		& .side-panel-btn {
+			width: 32px;
+			height: 32px;
+			left: 0;
+			& svg {
+				width: 32px;
+				height: 32px;
+			}
 		}
 
 		& .main-menu-primary-account {
-			max-width: 70px;
 			padding: 0 5px;
-			max-width: 55px;
+			max-width: 46px;
 			min-width: initial;
 
 			& button {
-				width: 40px;
-				height: 40px;
+				width: 32px;
+				height: 32px;
 				padding: 0;
+				& .main-menu-primary-account-icon {
+					top: -1px;
+					width: 32px;
+					height: 32px;
+					& svg {
+						width: 32px;
+						height: 32px;
+					}
+				}
+				& .main-menu-primary-account-title, 
+				& .main-menu-primary-account-link {
+					display: none;
+				}
 			}
 
 
-			& .main-menu-primary-account-title, 
-			& .main-menu-primary-account-link {
-				display: none;
-			}
+			
 		}
-
-		& .side-panel-btn {
-			top: 7px;
-		}
-
 	}
 
 

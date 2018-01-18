@@ -56,6 +56,21 @@ p {
     }
 }
 
+@media (--viewport-sm) {
+    p {
+        &.S-at-S {
+            font-size: 14px;
+            line-height: 24px;
+            letter-spacing: -0.38px;
+        }
+
+        &.XS-at-S {
+            font-size: 12px;
+            line-height: 16px;
+        }
+    }
+}
+
 .line-through {
     text-decoration: line-through;
 }

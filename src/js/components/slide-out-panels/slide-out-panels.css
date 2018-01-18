@@ -39,6 +39,8 @@
 	}
 }
 
+
+
 .side-panel {
   position: fixed;
   top: 0;
@@ -63,7 +65,20 @@
 	& .side-panel-col-button {
 		padding: 20px 0 2px;
 	}
+
+	&.side-panel-disable-desktop {
+		opacity: 0;
+	}
+	&.is-enabled {
+		opacity: 1;
+	}
+	/*.side-panel-disable-desktop {
+		opacity: 0;
+	} &.active {
+		opacity: 1;
+	}*/
 }
+
 .side-panel-content {
   position: absolute;
   top: 0;
@@ -108,23 +123,17 @@
   }
 }
 
-.side-panel-bg {}
-
 .side-panel-header {
   position: fixed;
   width: 100%;
-  height: 50px;
-  line-height: 50px;
   background: var(--color-shadow);
   color: var(--color-white);
   z-index: 2;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.08);
-
-	& h3 {
-		margin:10px 0 0 16px;
-	}
+  padding: 20px 16px;
 
 }
+
 
 .from-right .side-panel-header {
   right: 0;
@@ -136,13 +145,43 @@
 
 .side-panel-close {
   position: absolute;
-  top: 0;
-  right: 0;
+  top: 13px;
+  right: 16px;
   height: 100%;
-  width: 45px;
+  width: 32px;
   display: inline-block;
   white-space: nowrap;
   padding-top: 5px;
+  & .change-my-store-icon-close {
+  	width: 32px;
+  	height: 32px;
+  	& svg {
+  		width: 32px;
+  		height: 32px;
+  	}
+  }
+}
+
+@media (--viewport-sm-only) {
+	.side-panel-header {
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+	.side-panel-close {
+	  top: 5px;
+	  height: 24px;
+	  width: 24px;
+	  
+	  & .change-my-store-icon-close {
+	  	width: 24px;
+	  	height: 24px;
+	  	& svg {
+	  		width: 24px;
+	  		height: 24px;
+	  	}
+	  }
+	}
+
 }
 
 
@@ -160,38 +199,42 @@
 
 
 @media (--viewport-md-up) {
-	.side-panel-disable-desktop {
-		visibility: visible;
-		height: auto;
-		position: relative;
-		transition: none;
-		top: initial;
-		left: initial;
-		opacity: 1;
-		& .side-panel-content {
-			position: relative;
-			top: initial;
-  			left: initial;
-			overflow: visible;
+	
+	.side-panel {
+		&.side-panel-disable-desktop {
+			visibility: visible;
 			height: auto;
-			padding: 0;
-		}
-		& .side-panel-header {
-			display: none;
-		}
-		& .side-panel-container {
-  			transform: none;
-  			transition-delay: 0s;
-  			transition: none;
-  			position: initial;
-  			width: 100%;
-  			height: auto;
-  			top: initial;
-  			left: initial;
-  			background: none;
-		}
-		&:after {
-			display: none;
+			position: relative;
+			transition: none;
+			top: initial;
+			left: initial;
+			opacity: 1;
+			& .side-panel-content {
+				position: relative;
+				top: initial;
+	  			left: initial;
+				overflow: visible;
+				height: auto;
+				padding: 0;
+			}
+			& .side-panel-header {
+				display: none;
+			}
+			
+			& .side-panel-container {
+	  			transform: none;
+	  			transition-delay: 0s;
+	  			transition: none;
+	  			position: initial;
+	  			width: 100%;
+	  			height: auto;
+	  			top: initial;
+	  			left: initial;
+	  			background: none;
+			}
+			&:after {
+				display: none;
+			}
 		}
 	}
 }

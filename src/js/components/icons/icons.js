@@ -14,6 +14,7 @@ const cardjcpgoldImage = require('!!raw-loader?es5=1!../../../images/global/icon
 const cardjcpredImage = require('!!raw-loader?es5=1!../../../images/global/icons/payment/card-jcp-red.svg');
 const cardjcpplatinumImage = require('!!raw-loader?es5=1!../../../images/global/icons/payment/card-jcp-platinum.svg');
 const cardmastercardImage = require('!!raw-loader?es5=1!../../../images/global/icons/payment/card-mastercard.svg');
+const cardmastercardgoldImage = require('!!raw-loader?es5=1!../../../images/global/icons/payment/card-jcp-mastercard-gold.svg');
 const cardpaypalImage = require('!!raw-loader?es5=1!../../../images/global/icons/payment/card-paypal.svg');
 const cardvisaImage = require('!!raw-loader?es5=1!../../../images/global/icons/payment/card-visa.svg');
 const cardamexImage = require('!!raw-loader?es5=1!../../../images/global/icons/payment/card-amex.svg');
@@ -240,7 +241,7 @@ componentDidMount() {
             <h3 className="title title-L mrg-L">Payment</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             <div className="row  small-up-4 medium-up-3 large-up-4 design-system-icon-set">
-                {this.iconCol("card-jcp", "JCP credit card accepted", cardjcpImage)} {this.iconCol("card-jcp-gold", "JCP mastercard gold", cardjcpgoldImage)} {this.iconCol("card-jcp-red", "JCP mastercard", cardjcpredImage)} {this.iconCol("card-jcp-platinum", "JCP mastercard platinum", cardjcpplatinumImage)} {this.iconCol("card-mastercard", "Mastercard", cardmastercardImage)} {this.iconCol("card-paypal", "PayPal", cardpaypalImage)} {this.iconCol("card-visa", "Visa", cardvisaImage)} {this.iconCol("card-amex", "American Express", cardamexImage)} {this.iconCol("card-discover", "Discover", carddiscoverImage)} {this.iconCol("card-gift", "Gift Card Payment", cardgiftImage)} {this.iconCol("card-jcvv", "card verification code", cardjcvvImage)}
+                {this.iconCol("card-jcp", "JCP credit card accepted", cardjcpImage)} {this.iconCol("card-jcp-gold", "JCP mastercard gold", cardjcpgoldImage)} {this.iconCol("card-jcp-red", "JCP mastercard", cardjcpredImage)} {this.iconCol("card-jcp-platinum", "JCP mastercard platinum", cardjcpplatinumImage)} {this.iconCol("card-mastercard", "Mastercard", cardmastercardImage)} {this.iconCol("card-mastercard-gold", "Gold Mastercard", cardmastercardgoldImage)} {this.iconCol("card-paypal", "PayPal", cardpaypalImage)} {this.iconCol("card-visa", "Visa", cardvisaImage)} {this.iconCol("card-amex", "American Express", cardamexImage)} {this.iconCol("card-discover", "Discover", carddiscoverImage)} {this.iconCol("card-gift", "Gift Card Payment", cardgiftImage)} {this.iconCol("card-jcvv", "card verification code", cardjcvvImage)}
             </div>
             <hr />
         </div>
