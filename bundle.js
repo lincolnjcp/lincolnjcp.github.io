@@ -7304,6 +7304,104 @@ var tables_Tables = function (_Component) {
                                     )
                                 )
                             )
+                        ),
+                        react_default.a.createElement(
+                            'div',
+                            { className: 'row' },
+                            react_default.a.createElement(
+                                'div',
+                                { className: 'sm12 columns' },
+                                react_default.a.createElement(
+                                    'h4',
+                                    { className: 'title title-M mrg-L' },
+                                    'Headers & Optional Stripes'
+                                )
+                            )
+                        ),
+                        react_default.a.createElement(
+                            'div',
+                            { className: 'row' },
+                            react_default.a.createElement(
+                                'div',
+                                { className: 'sm12 md6 lg4 columns' },
+                                react_default.a.createElement(
+                                    'table',
+                                    { className: 'table-striped-columns width-full std-txt std-txt-S mrg-L algn-lft', width: '208', border: '0' },
+                                    react_default.a.createElement(
+                                        'thead',
+                                        null,
+                                        react_default.a.createElement(
+                                            'tr',
+                                            null,
+                                            react_default.a.createElement(
+                                                'th',
+                                                { colspan: '2' },
+                                                'Details'
+                                            )
+                                        )
+                                    ),
+                                    react_default.a.createElement(
+                                        'tbody',
+                                        null,
+                                        react_default.a.createElement(
+                                            'tr',
+                                            null,
+                                            react_default.a.createElement(
+                                                'th',
+                                                { className: 'title-S width-quarter' },
+                                                'Appliance Types'
+                                            ),
+                                            react_default.a.createElement(
+                                                'td',
+                                                { className: 'width-quarter' },
+                                                'French Door'
+                                            )
+                                        ),
+                                        react_default.a.createElement(
+                                            'tr',
+                                            null,
+                                            react_default.a.createElement(
+                                                'th',
+                                                { className: 'title-S' },
+                                                'Color of Cabinet'
+                                            ),
+                                            react_default.a.createElement(
+                                                'td',
+                                                null,
+                                                'White'
+                                            )
+                                        ),
+                                        react_default.a.createElement(
+                                            'tr',
+                                            null,
+                                            react_default.a.createElement(
+                                                'th',
+                                                { className: 'title-S' },
+                                                'Defrost Type'
+                                            ),
+                                            react_default.a.createElement(
+                                                'td',
+                                                null,
+                                                'Auto'
+                                            )
+                                        ),
+                                        react_default.a.createElement(
+                                            'tr',
+                                            null,
+                                            react_default.a.createElement(
+                                                'th',
+                                                { className: 'title-S' },
+                                                'Dispenser Features'
+                                            ),
+                                            react_default.a.createElement(
+                                                'td',
+                                                null,
+                                                'Filtration System, Water Filtration, Dispenser Lock-out, Water Dispenser, Cubed Ice, Filter Replace Light, Crushed Ice, In Door Dispenser'
+                                            )
+                                        )
+                                    )
+                                )
+                            )
                         )
                     )
                 ),
@@ -18281,290 +18379,310 @@ var footer_Footer = function (_Component) {
                             'div',
                             { className: 'footer-links md12 lg12 xl12 sm12 show-for-large-only show-for-xlarge-only' },
                             react_default.a.createElement(
-                                'ul',
-                                null,
+                                'div',
+                                { className: 'footer-links-title' },
                                 react_default.a.createElement(
-                                    'li',
-                                    { className: 'footer-links-title' },
+                                    'h5',
+                                    null,
                                     'JCPenney Rewards & Credit Card'
                                 ),
                                 react_default.a.createElement(
-                                    'li',
+                                    'ul',
                                     null,
                                     react_default.a.createElement(
-                                        'a',
-                                        { href: 'avascript:void();' },
-                                        'Enroll in Rewards'
-                                    )
-                                ),
-                                react_default.a.createElement(
-                                    'li',
-                                    null,
+                                        'li',
+                                        null,
+                                        react_default.a.createElement(
+                                            'a',
+                                            { href: 'avascript:void();' },
+                                            'Enroll in Rewards'
+                                        )
+                                    ),
                                     react_default.a.createElement(
-                                        'a',
-                                        { href: 'avascript:void();' },
-                                        'Sign In to Rewards'
-                                    )
-                                ),
-                                react_default.a.createElement(
-                                    'li',
-                                    null,
+                                        'li',
+                                        null,
+                                        react_default.a.createElement(
+                                            'a',
+                                            { href: 'avascript:void();' },
+                                            'Sign In to Rewards'
+                                        )
+                                    ),
                                     react_default.a.createElement(
-                                        'a',
-                                        { href: 'avascript:void();' },
-                                        'JCPenney Credit Card'
+                                        'li',
+                                        null,
+                                        react_default.a.createElement(
+                                            'a',
+                                            { href: 'avascript:void();' },
+                                            'JCPenney Credit Card'
+                                        )
                                     )
                                 )
                             ),
                             react_default.a.createElement(
-                                'ul',
-                                null,
+                                'div',
+                                { className: 'footer-links-title' },
                                 react_default.a.createElement(
-                                    'li',
-                                    { className: 'footer-links-title' },
+                                    'h5',
+                                    null,
                                     'Customer Service'
                                 ),
                                 react_default.a.createElement(
-                                    'li',
+                                    'ul',
                                     null,
                                     react_default.a.createElement(
-                                        'a',
-                                        { href: 'javascript:void();' },
-                                        'Returns'
-                                    )
-                                ),
-                                react_default.a.createElement(
-                                    'li',
-                                    null,
+                                        'li',
+                                        null,
+                                        react_default.a.createElement(
+                                            'a',
+                                            { href: 'javascript:void();' },
+                                            'Returns'
+                                        )
+                                    ),
                                     react_default.a.createElement(
-                                        'a',
-                                        { href: 'javascript:void();' },
-                                        'Shipping information'
-                                    )
-                                ),
-                                react_default.a.createElement(
-                                    'li',
-                                    null,
+                                        'li',
+                                        null,
+                                        react_default.a.createElement(
+                                            'a',
+                                            { href: 'javascript:void();' },
+                                            'Shipping information'
+                                        )
+                                    ),
                                     react_default.a.createElement(
-                                        'a',
-                                        { href: 'javascript:void();' },
-                                        'Rebates'
-                                    )
-                                ),
-                                react_default.a.createElement(
-                                    'li',
-                                    null,
+                                        'li',
+                                        null,
+                                        react_default.a.createElement(
+                                            'a',
+                                            { href: 'javascript:void();' },
+                                            'Rebates'
+                                        )
+                                    ),
                                     react_default.a.createElement(
-                                        'a',
-                                        { href: 'javascript:void();' },
-                                        'Same Day Pickup'
-                                    )
-                                ),
-                                react_default.a.createElement(
-                                    'li',
-                                    null,
+                                        'li',
+                                        null,
+                                        react_default.a.createElement(
+                                            'a',
+                                            { href: 'javascript:void();' },
+                                            'Same Day Pickup'
+                                        )
+                                    ),
                                     react_default.a.createElement(
-                                        'a',
-                                        { href: 'javascript:void();' },
-                                        'My JCP.com Account'
-                                    )
-                                ),
-                                react_default.a.createElement(
-                                    'li',
-                                    null,
+                                        'li',
+                                        null,
+                                        react_default.a.createElement(
+                                            'a',
+                                            { href: 'javascript:void();' },
+                                            'My JCP.com Account'
+                                        )
+                                    ),
                                     react_default.a.createElement(
-                                        'a',
-                                        { href: 'javascript:void();' },
-                                        'Track My Order'
-                                    )
-                                ),
-                                react_default.a.createElement(
-                                    'li',
-                                    null,
+                                        'li',
+                                        null,
+                                        react_default.a.createElement(
+                                            'a',
+                                            { href: 'javascript:void();' },
+                                            'Track My Order'
+                                        )
+                                    ),
                                     react_default.a.createElement(
-                                        'a',
-                                        { href: 'javascript:void();' },
-                                        'Servicio Al Cliente'
+                                        'li',
+                                        null,
+                                        react_default.a.createElement(
+                                            'a',
+                                            { href: 'javascript:void();' },
+                                            'Servicio Al Cliente'
+                                        )
                                     )
                                 )
                             ),
                             react_default.a.createElement(
-                                'ul',
-                                null,
+                                'div',
+                                { className: 'footer-links-title' },
                                 react_default.a.createElement(
-                                    'li',
-                                    { className: 'footer-links-title' },
+                                    'h5',
+                                    null,
                                     'Store Services'
                                 ),
                                 react_default.a.createElement(
-                                    'li',
+                                    'ul',
                                     null,
                                     react_default.a.createElement(
-                                        'a',
-                                        { href: 'javascript:void();' },
-                                        'JCP Salon'
-                                    )
-                                ),
-                                react_default.a.createElement(
-                                    'li',
-                                    null,
+                                        'li',
+                                        null,
+                                        react_default.a.createElement(
+                                            'a',
+                                            { href: 'javascript:void();' },
+                                            'JCP Salon'
+                                        )
+                                    ),
                                     react_default.a.createElement(
-                                        'a',
-                                        { href: 'javascript:void();' },
-                                        'Sephora'
-                                    )
-                                ),
-                                react_default.a.createElement(
-                                    'li',
-                                    null,
+                                        'li',
+                                        null,
+                                        react_default.a.createElement(
+                                            'a',
+                                            { href: 'javascript:void();' },
+                                            'Sephora'
+                                        )
+                                    ),
                                     react_default.a.createElement(
-                                        'a',
-                                        { href: 'javascript:void();' },
-                                        'JCP Portraits'
-                                    )
-                                ),
-                                react_default.a.createElement(
-                                    'li',
-                                    null,
+                                        'li',
+                                        null,
+                                        react_default.a.createElement(
+                                            'a',
+                                            { href: 'javascript:void();' },
+                                            'JCP Portraits'
+                                        )
+                                    ),
                                     react_default.a.createElement(
-                                        'a',
-                                        { href: 'javascript:void();' },
-                                        'JCP Optical'
-                                    )
-                                ),
-                                react_default.a.createElement(
-                                    'li',
-                                    null,
+                                        'li',
+                                        null,
+                                        react_default.a.createElement(
+                                            'a',
+                                            { href: 'javascript:void();' },
+                                            'JCP Optical'
+                                        )
+                                    ),
                                     react_default.a.createElement(
-                                        'a',
-                                        { href: 'javascript:void();' },
-                                        'Gift Registry'
-                                    )
-                                ),
-                                react_default.a.createElement(
-                                    'li',
-                                    null,
+                                        'li',
+                                        null,
+                                        react_default.a.createElement(
+                                            'a',
+                                            { href: 'javascript:void();' },
+                                            'Gift Registry'
+                                        )
+                                    ),
                                     react_default.a.createElement(
-                                        'a',
-                                        { href: 'javascript:void();' },
-                                        'JCP Custom Window'
-                                    )
-                                ),
-                                react_default.a.createElement(
-                                    'li',
-                                    null,
+                                        'li',
+                                        null,
+                                        react_default.a.createElement(
+                                            'a',
+                                            { href: 'javascript:void();' },
+                                            'JCP Custom Window'
+                                        )
+                                    ),
                                     react_default.a.createElement(
-                                        'a',
-                                        { href: 'javascript:void();' },
-                                        'View All Store Services'
+                                        'li',
+                                        null,
+                                        react_default.a.createElement(
+                                            'a',
+                                            { href: 'javascript:void();' },
+                                            'View All Store Services'
+                                        )
                                     )
                                 )
                             ),
                             react_default.a.createElement(
-                                'ul',
-                                null,
+                                'div',
+                                { className: 'footer-links-title' },
                                 react_default.a.createElement(
-                                    'li',
-                                    { className: 'footer-links-title' },
+                                    'h5',
+                                    null,
                                     'More Ways to Shop'
                                 ),
                                 react_default.a.createElement(
-                                    'li',
+                                    'ul',
                                     null,
                                     react_default.a.createElement(
-                                        'a',
-                                        { href: 'javascript:void();' },
-                                        'See our ads'
-                                    )
-                                ),
-                                react_default.a.createElement(
-                                    'li',
-                                    null,
+                                        'li',
+                                        null,
+                                        react_default.a.createElement(
+                                            'a',
+                                            { href: 'javascript:void();' },
+                                            'See our ads'
+                                        )
+                                    ),
                                     react_default.a.createElement(
-                                        'a',
-                                        { href: 'javascript:void();' },
-                                        'Coupons'
-                                    )
-                                ),
-                                react_default.a.createElement(
-                                    'li',
-                                    null,
+                                        'li',
+                                        null,
+                                        react_default.a.createElement(
+                                            'a',
+                                            { href: 'javascript:void();' },
+                                            'Coupons'
+                                        )
+                                    ),
                                     react_default.a.createElement(
-                                        'a',
-                                        { href: 'javascript:void();' },
-                                        'Recommendations'
-                                    )
-                                ),
-                                react_default.a.createElement(
-                                    'li',
-                                    null,
+                                        'li',
+                                        null,
+                                        react_default.a.createElement(
+                                            'a',
+                                            { href: 'javascript:void();' },
+                                            'Recommendations'
+                                        )
+                                    ),
                                     react_default.a.createElement(
-                                        'a',
-                                        { href: 'javascript:void();' },
-                                        'Gift Cards'
-                                    )
-                                ),
-                                react_default.a.createElement(
-                                    'li',
-                                    null,
+                                        'li',
+                                        null,
+                                        react_default.a.createElement(
+                                            'a',
+                                            { href: 'javascript:void();' },
+                                            'Gift Cards'
+                                        )
+                                    ),
                                     react_default.a.createElement(
-                                        'a',
-                                        { href: 'javascript:void();' },
-                                        'International Shopping'
+                                        'li',
+                                        null,
+                                        react_default.a.createElement(
+                                            'a',
+                                            { href: 'javascript:void();' },
+                                            'International Shopping'
+                                        )
                                     )
                                 )
                             ),
                             react_default.a.createElement(
-                                'ul',
-                                null,
+                                'div',
+                                { className: 'footer-links-title' },
                                 react_default.a.createElement(
-                                    'li',
-                                    { className: 'footer-links-title' },
+                                    'h5',
+                                    null,
                                     'Corporate Overview'
                                 ),
                                 react_default.a.createElement(
-                                    'li',
+                                    'ul',
                                     null,
                                     react_default.a.createElement(
-                                        'a',
-                                        { href: 'javascript:void();' },
-                                        'Careers'
-                                    )
-                                ),
-                                react_default.a.createElement(
-                                    'li',
-                                    null,
+                                        'li',
+                                        null,
+                                        react_default.a.createElement(
+                                            'a',
+                                            { href: 'javascript:void();' },
+                                            'Careers'
+                                        )
+                                    ),
                                     react_default.a.createElement(
-                                        'a',
-                                        { href: 'javascript:void();' },
-                                        'Company Info'
-                                    )
-                                ),
-                                react_default.a.createElement(
-                                    'li',
-                                    null,
+                                        'li',
+                                        null,
+                                        react_default.a.createElement(
+                                            'a',
+                                            { href: 'javascript:void();' },
+                                            'Company Info'
+                                        )
+                                    ),
                                     react_default.a.createElement(
-                                        'a',
-                                        { href: 'javascript:void();' },
-                                        'Community'
-                                    )
-                                ),
-                                react_default.a.createElement(
-                                    'li',
-                                    null,
+                                        'li',
+                                        null,
+                                        react_default.a.createElement(
+                                            'a',
+                                            { href: 'javascript:void();' },
+                                            'Community'
+                                        )
+                                    ),
                                     react_default.a.createElement(
-                                        'a',
-                                        { href: 'javascript:void();' },
-                                        'Media'
-                                    )
-                                ),
-                                react_default.a.createElement(
-                                    'li',
-                                    null,
+                                        'li',
+                                        null,
+                                        react_default.a.createElement(
+                                            'a',
+                                            { href: 'javascript:void();' },
+                                            'Media'
+                                        )
+                                    ),
                                     react_default.a.createElement(
-                                        'a',
-                                        { href: 'javascript:void();' },
-                                        'Investors'
+                                        'li',
+                                        null,
+                                        react_default.a.createElement(
+                                            'a',
+                                            { href: 'javascript:void();' },
+                                            'Investors'
+                                        )
                                     )
                                 )
                             )

@@ -61,13 +61,19 @@ table {
             background-color: var(--color-lightgrey);
             color: var(--color-slate);
         }
+        & thead th {
+            background-color: var(--color-white);
+            color: var(--color-nightsky);
+            font-size: 16px;
+            font-weight: 500;
+        }
         &.table-striped-rewards th {
             background-color: var(--color-rewards-eggplant);
             color: var(--color-white);
         }
         & tr:last-child {
-            td,
-            th {
+            & td,
+            & th {
                 border-bottom: 1px solid var(--color-concrete);
             }
         }

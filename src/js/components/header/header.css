@@ -1,7 +1,7 @@
 .main-menu-promotional-banner {
 	background-color: var(--color-nightsky);
 	text-align: center;
-	padding: 8px;
+	padding: 4px;
 
 	& p {
 		color: var(--color-white);
@@ -30,7 +30,7 @@
 	display: flex;
 	flex: 0 0 100%;
 	flex-direction: row;
-	padding: 10px 8px;
+	padding: 4px 8px;
 	max-width: 1400px;
 	margin: 0 auto;
 
@@ -165,7 +165,7 @@
 			}
 
 			& .main-menu-primary-account-link {
-				font-size: 18px;
+				font-size: 16px;
 				line-height: 20px;
 				position: relative;
 				display: inline-block;
@@ -212,14 +212,15 @@
 
 			& .main-menu-primary-cart-icon-full-items {
 				position: absolute;
-				top: 6px;
+				top: 7px;
 				left: 1.5px;
 				text-align: center;
 				color: var(--color-white);
 				display: block;
 				padding-left: 3px;
 				letter-spacing: -.25px;
-				font-size: 15px;
+				font-size: 14px;
+				font-weight: bold;
 				width: 100%;
 			}
 
@@ -264,7 +265,7 @@
 		display: flex;
 		flex: 0 0 100%;
 		flex-direction: row;
-		padding: 10px 8px;
+		padding: 2px 8px;
 		max-width: 1400px;
 		margin: 0 auto;
 
@@ -287,7 +288,7 @@
 			& a {
 				text-decoration: none;
 				display: inline-block;
-				font-size: 18px;
+				font-size: 16px;
 			}
 		}
 
@@ -312,7 +313,7 @@
 
 			& .main-menu-secondary-shop-departments-menu-label {
 				font-weight: bold;
-				font-size: 18px;
+				font-size: 16px;
 				display: inline-block;
 				padding-left: 26px;
 			}
@@ -322,13 +323,12 @@
 		& .main-menu-secondary-my-store {
 			position: relative;
 			& button {
-				font-size: 18px;
+				font-size: 16px;
 				border: none;
 				color: var(--color-nightsky);
 				font-weight: 500;
 				max-width: initial;
 				float: right;
-
 				&:hover {
 					border: none;
 				}
@@ -384,8 +384,8 @@
 @media (--viewport-xl) {
 	.main-menu-bar-secondary-container {
 		& .main-menu-secondary-li-primary {
-			padding-left: 20px;
-			padding-right: 20px;
+			padding-left: 12px;
+			padding-right: 12px;
 		}
 	}
 
@@ -641,7 +641,7 @@
 		width: auto;
 	    height: 0;
 	    position: absolute;
-	    top: 50px;
+	    top: 42px;
 	    left: 0;
 	    z-index: -1;
 	    visibility: hidden;

@@ -248,6 +248,43 @@ class Tables extends Component {
                     </table>
                 </div>
             </div>
+
+            <div className="row">
+                <div className="sm12 columns">
+                    <h4 className="title title-M mrg-L">Headers &amp; Optional Stripes</h4>
+                </div>
+            </div>
+            <div className="row">
+                <div className="sm12 md6 lg4 columns">
+                    <table className="table-striped-columns width-full std-txt std-txt-S mrg-L algn-lft" width="208" border="0">               
+                        <thead>
+                            <tr>
+                                <th colspan="2">Details</th>
+                            </tr>
+                        </thead>
+                         <tbody>
+                            <tr>
+                                <th className="title-S width-quarter">Appliance Types</th>
+                                <td className="width-quarter">French Door</td>
+                            </tr>
+                            <tr>
+                                <th className="title-S">Color of Cabinet</th>
+                                <td>White</td>
+                            </tr>
+                            <tr>
+                                <th className="title-S">Defrost Type</th>
+                                <td>Auto</td>
+                            </tr>
+                            <tr>
+                                <th className="title-S">Dispenser Features</th>
+                                <td>Filtration System, Water Filtration, Dispenser Lock-out, Water Dispenser, Cubed Ice, Filter Replace Light, Crushed Ice, In Door Dispenser</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+
+            </div>
         </div>
     </div>
     <div className="row">
