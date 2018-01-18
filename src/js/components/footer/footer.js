@@ -197,48 +197,63 @@ class Footer extends Component {
 
 
                         <div className="footer-links md12 lg12 xl12 sm12 show-for-large-only show-for-xlarge-only">
-                            <ul>
-                                <li className="footer-links-title">JCPenney Rewards & Credit Card</li>
-                                <li><a href="avascript:void();">Enroll in Rewards</a></li>
-                                <li><a href="avascript:void();">Sign In to Rewards</a></li>
-                                <li><a href="avascript:void();">JCPenney Credit Card</a></li>
-                            </ul>
-                            <ul>
-                                <li className="footer-links-title">Customer Service</li>
-                                <li><a href="javascript:void();">Returns</a></li>
-                                <li><a href="javascript:void();">Shipping information</a></li>
-                                <li><a href="javascript:void();">Rebates</a></li>
-                                <li><a href="javascript:void();">Same Day Pickup</a></li>
-                                <li><a href="javascript:void();">My JCP.com Account</a></li>
-                                <li><a href="javascript:void();">Track My Order</a></li>
-                                <li><a href="javascript:void();">Servicio Al Cliente</a></li>
-                            </ul>
-                            <ul>
-                                <li className="footer-links-title">Store Services</li>
-                                <li><a href="javascript:void();">JCP Salon</a></li>
-                                <li><a href="javascript:void();">Sephora</a></li>
-                                <li><a href="javascript:void();">JCP Portraits</a></li>
-                                <li><a href="javascript:void();">JCP Optical</a></li>
-                                <li><a href="javascript:void();">Gift Registry</a></li>
-                                <li><a href="javascript:void();">JCP Custom Window</a></li>
-                                <li><a href="javascript:void();">View All Store Services</a></li>
-                            </ul>
-                            <ul>
-                                <li className="footer-links-title">More Ways to Shop</li>
-                                <li><a href="javascript:void();">See our ads</a></li>
-                                <li><a href="javascript:void();">Coupons</a></li>
-                                <li><a href="javascript:void();">Recommendations</a></li>
-                                <li><a href="javascript:void();">Gift Cards</a></li>
-                                <li><a href="javascript:void();">International Shopping</a></li>
-                            </ul>
-                            <ul>
-                                <li className="footer-links-title">Corporate Overview</li>
-                                <li><a href="javascript:void();">Careers</a></li>
-                                <li><a href="javascript:void();">Company Info</a></li>
-                                <li><a href="javascript:void();">Community</a></li>
-                                <li><a href="javascript:void();">Media</a></li>
-                                <li><a href="javascript:void();">Investors</a></li>
-                            </ul>
+                            <div className="footer-links-title">
+                                <h5>JCPenney Rewards & Credit Card</h5>
+                                <ul>
+                                    <li><a href="avascript:void();">Enroll in Rewards</a></li>
+                                    <li><a href="avascript:void();">Sign In to Rewards</a></li>
+                                    <li><a href="avascript:void();">JCPenney Credit Card</a></li>
+                                </ul>
+                            </div>
+
+                            <div className="footer-links-title">
+                                <h5>Customer Service</h5>
+                                <ul>
+                                    <li><a href="javascript:void();">Returns</a></li>
+                                    <li><a href="javascript:void();">Shipping information</a></li>
+                                    <li><a href="javascript:void();">Rebates</a></li>
+                                    <li><a href="javascript:void();">Same Day Pickup</a></li>
+                                    <li><a href="javascript:void();">My JCP.com Account</a></li>
+                                    <li><a href="javascript:void();">Track My Order</a></li>
+                                    <li><a href="javascript:void();">Servicio Al Cliente</a></li>
+                                </ul>
+                            </div>
+
+                            <div className="footer-links-title">
+                                <h5>Store Services</h5>
+                                <ul>
+                                    <li><a href="javascript:void();">JCP Salon</a></li>
+                                    <li><a href="javascript:void();">Sephora</a></li>
+                                    <li><a href="javascript:void();">JCP Portraits</a></li>
+                                    <li><a href="javascript:void();">JCP Optical</a></li>
+                                    <li><a href="javascript:void();">Gift Registry</a></li>
+                                    <li><a href="javascript:void();">JCP Custom Window</a></li>
+                                    <li><a href="javascript:void();">View All Store Services</a></li>
+                                </ul>
+                            </div>
+
+                            <div className="footer-links-title">
+                                <h5>More Ways to Shop</h5>
+                                <ul>
+                                    <li><a href="javascript:void();">See our ads</a></li>
+                                    <li><a href="javascript:void();">Coupons</a></li>
+                                    <li><a href="javascript:void();">Recommendations</a></li>
+                                    <li><a href="javascript:void();">Gift Cards</a></li>
+                                    <li><a href="javascript:void();">International Shopping</a></li>
+                                </ul>
+                            </div>
+
+                            <div className="footer-links-title">
+                                <h5>Corporate Overview</h5>
+                                <ul>
+                                    <li><a href="javascript:void();">Careers</a></li>
+                                    <li><a href="javascript:void();">Company Info</a></li>
+                                    <li><a href="javascript:void();">Community</a></li>
+                                    <li><a href="javascript:void();">Media</a></li>
+                                    <li><a href="javascript:void();">Investors</a></li>
+                                </ul>
+                            </div>
+
                         </div>
                         <div className="footer-bottom-links md12 lg12 xl12 sm12">
                             <div className="footer-jcp-card md6 lg4 xl4 sm12">
