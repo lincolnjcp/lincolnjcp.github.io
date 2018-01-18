@@ -25293,7 +25293,7 @@ var recommendation_zone_RecommendationZone = function (_Component) {
               react_default.a.createElement('hr', null),
               react_default.a.createElement(
                 'div',
-                { className: 'product-card-wrapper', ref: function ref(wrapper) {
+                { className: 'product-card-wrapper product-card-wrapper-recommentations', ref: function ref(wrapper) {
                     _this3.wrapper = wrapper;
                   }, style: listStyle },
                 react_default.a.createElement(
