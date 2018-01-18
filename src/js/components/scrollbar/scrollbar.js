@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class Scrollbar extends Component {
+class Pricing extends Component {
 
   componentDidMount() {
   }
@@ -25,4 +25,4 @@ class Scrollbar extends Component {
   }
 }
 
-export default Scrollbar;
+export default Pricing;

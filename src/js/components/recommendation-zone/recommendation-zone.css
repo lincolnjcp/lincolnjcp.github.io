@@ -9,6 +9,17 @@
 		@media (--viewport-md-down) {
 			overflow: auto;
 		}
+		& .product-card-recommendation {
+			@media (--viewport-xl-only) {
+				width: 168px;
+			}
+			@media (--viewport-lg-only) {
+				width: 160px;
+			}
+			@media (--viewport-sm) {
+				width: 144px;
+			}
+		}
 		& .chevron-icon{
 			position: absolute;
 			display: block;
@@ -94,9 +105,10 @@
 			  transform: scale(0);
 			  transition: all var(--transition-time-S) ease-in-out;
 			}
-		  }
+		}
 		
 	}
 }
+
 
 

@@ -1,0 +1,19 @@
+/***************************************************
+/* Pricing
+***************************************************/
+
+.pricing-block {
+    & .gallery-pricing {
+        & .gallery-pricing-column {
+            & > li {
+                width: 25%;
+                float: left;
+                & .gallery-pricing-row {
+                    & li {
+                        padding-bottom: 48px;  
+                    }
+                }
+            }
+        }
+    }
+}

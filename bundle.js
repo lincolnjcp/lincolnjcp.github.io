@@ -729,8 +729,8 @@ var rootNav = [{
         activeClassName: 'active',
         content: 'Pagination'
     }, {
-        to: '/',
-        activeClassName: 'inactive',
+        to: '/components/pricing',
+        activeClassName: 'active',
         content: 'Pricing'
     }, {
         to: '/',
@@ -9326,16 +9326,16 @@ function scrollbar__inherits(subClass, superClass) { if (typeof superClass !== "
 
 
 
-var scrollbar_Scrollbar = function (_Component) {
-  scrollbar__inherits(Scrollbar, _Component);
+var scrollbar_Pricing = function (_Component) {
+  scrollbar__inherits(Pricing, _Component);
 
-  function Scrollbar() {
-    scrollbar__classCallCheck(this, Scrollbar);
+  function Pricing() {
+    scrollbar__classCallCheck(this, Pricing);
 
-    return scrollbar__possibleConstructorReturn(this, (Scrollbar.__proto__ || Object.getPrototypeOf(Scrollbar)).apply(this, arguments));
+    return scrollbar__possibleConstructorReturn(this, (Pricing.__proto__ || Object.getPrototypeOf(Pricing)).apply(this, arguments));
   }
 
-  scrollbar__createClass(Scrollbar, [{
+  scrollbar__createClass(Pricing, [{
     key: "componentDidMount",
     value: function componentDidMount() {}
   }, {
@@ -9377,10 +9377,10 @@ var scrollbar_Scrollbar = function (_Component) {
     }
   }]);
 
-  return Scrollbar;
+  return Pricing;
 }(react["Component"]);
 
-var scrollbar__default = scrollbar_Scrollbar;
+var scrollbar__default = scrollbar_Pricing;
 
 
 /* harmony default export */ var scrollbar = (scrollbar__default);
@@ -9391,7 +9391,7 @@ var scrollbar__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(scrollbar_Scrollbar, "Scrollbar", "/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/scrollbar/scrollbar.js");
+  __REACT_HOT_LOADER__.register(scrollbar_Pricing, "Pricing", "/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/scrollbar/scrollbar.js");
 
   __REACT_HOT_LOADER__.register(scrollbar__default, "default", "/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/scrollbar/scrollbar.js");
 }();
@@ -9409,6 +9409,83 @@ var components_scrollbar__temp = function () {
   }
 
   __REACT_HOT_LOADER__.register(components_scrollbar__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/scrollbar/index.js');
+}();
+
+;
+// CONCATENATED MODULE: ./src/js/components/pricing/pricing.js
+var pricing__createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+function pricing__classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function pricing__possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function pricing__inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+
+
+var pricing_Scrollbar = function (_Component) {
+  pricing__inherits(Scrollbar, _Component);
+
+  function Scrollbar() {
+    pricing__classCallCheck(this, Scrollbar);
+
+    return pricing__possibleConstructorReturn(this, (Scrollbar.__proto__ || Object.getPrototypeOf(Scrollbar)).apply(this, arguments));
+  }
+
+  pricing__createClass(Scrollbar, [{
+    key: "componentDidMount",
+    value: function componentDidMount() {}
+  }, {
+    key: "render",
+    value: function render() {
+      return react_default.a.createElement(
+        "div",
+        null,
+        react_default.a.createElement(
+          "div",
+          { className: "row" },
+          react_default.a.createElement(
+            "div",
+            { className: "padding-25" },
+            react_default.a.createElement("div", { className: "pricing-block" })
+          )
+        )
+      );
+    }
+  }]);
+
+  return Scrollbar;
+}(react["Component"]);
+
+var pricing__default = pricing_Scrollbar;
+
+
+/* harmony default export */ var pricing = (pricing__default);
+;
+
+var pricing__temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(pricing_Scrollbar, "Scrollbar", "/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/pricing/pricing.js");
+
+  __REACT_HOT_LOADER__.register(pricing__default, "default", "/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/pricing/pricing.js");
+}();
+
+;
+// CONCATENATED MODULE: ./src/js/components/pricing/index.js
+
+var components_pricing__default = pricing;
+/* harmony default export */ var components_pricing = (components_pricing__default);
+;
+
+var components_pricing__temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(components_pricing__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/pricing/index.js');
 }();
 
 ;
@@ -23242,13 +23319,13 @@ var recommendation_zone_RecommendationZone = function (_Component) {
                   { className: 'rec-zone-carousel show-for-small-only show-for-medium-only' },
                   react_default.a.createElement('input', { type: 'radio', className: 'bullet', id: 'one', name: 'name', value: '', defaultChecked: 'true' }),
                   react_default.a.createElement('label', { htmlFor: 'one' }),
-                  react_default.a.createElement('input', { type: 'radio', id: 'two', name: 'name', value: '' }),
+                  react_default.a.createElement('input', { type: 'radio', id: 'two', className: 'bullet', name: 'name', value: '' }),
                   react_default.a.createElement('label', { htmlFor: 'two' }),
-                  react_default.a.createElement('input', { type: 'radio', id: 'three', name: 'name', value: '' }),
+                  react_default.a.createElement('input', { type: 'radio', id: 'three', className: 'bullet', name: 'name', value: '' }),
                   react_default.a.createElement('label', { htmlFor: 'three' }),
-                  react_default.a.createElement('input', { type: 'radio', id: 'four', name: 'name', value: '' }),
+                  react_default.a.createElement('input', { type: 'radio', id: 'four', className: 'bullet', name: 'name', value: '' }),
                   react_default.a.createElement('label', { htmlFor: 'four' }),
-                  react_default.a.createElement('input', { type: 'radio', id: 'five', name: 'name', value: '' }),
+                  react_default.a.createElement('input', { type: 'radio', id: 'five', className: 'bullet', name: 'name', value: '' }),
                   react_default.a.createElement('label', { htmlFor: 'five' })
                 )
               )
@@ -23534,6 +23611,7 @@ function DesignSystemPage__inherits(subClass, superClass) { if (typeof superClas
 
 
 
+
 var DesignSystemPage_DesignSystemPage = function (_Component) {
     DesignSystemPage__inherits(DesignSystemPage, _Component);
 
@@ -23579,7 +23657,8 @@ var DesignSystemPage_DesignSystemPage = function (_Component) {
                 FilterSort: { componentElement: components_filter_sort, componentDisplayName: "Filter Sort", componentSubNav: ['FilterSort'] },
                 LikeDislike: { componentElement: components_like_dislike, componentDisplayName: "Like Dislike Messages", componentSubNav: ['Like Dislike Messages'] },
                 ExpandCollapse: { componentElement: components_expand_collapse, componentDisplayName: "Expand Collapse", componentSubNav: ['ExpandCollapse'] },
-                RecommendationZone: { componentElement: components_recommendation_zone, componentDisplayName: "Recommendation Zone", componentSubNav: ['RecommendationZone'] }
+                RecommendationZone: { componentElement: components_recommendation_zone, componentDisplayName: "Recommendation Zone", componentSubNav: ['RecommendationZone'] },
+                Pricing: { componentElement: components_pricing, componentDisplayName: "Pricing", componentSubNav: ['Pricing'] }
 
             };
 
@@ -28006,6 +28085,9 @@ var Root_App = function (_React$Component) {
                                 } }),
                             react_default.a.createElement(es["d" /* Route */], { exact: true, path: '/components/lists', render: function render() {
                                     return react_default.a.createElement(containers_DesignSystemPage, { componentName: 'Lists' });
+                                } }),
+                            react_default.a.createElement(es["d" /* Route */], { exact: true, path: '/components/pricing', render: function render() {
+                                    return react_default.a.createElement(containers_DesignSystemPage, { componentName: 'Pricing' });
                                 } }),
                             react_default.a.createElement(es["d" /* Route */], { exact: true, path: '/page-modules/header', render: function render() {
                                     return react_default.a.createElement(containers_DesignSystemPage, { componentName: 'Header' });

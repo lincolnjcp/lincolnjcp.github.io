@@ -123,8 +123,8 @@ const rootNav = [
                 content: 'Pagination',
             },
             {
-                to: '/',
-                activeClassName: 'inactive',
+                to: '/components/pricing',
+                activeClassName: 'active',
                 content: 'Pricing',
             },
             {

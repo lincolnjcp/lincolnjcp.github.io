@@ -96,6 +96,12 @@ p {
         line-height: 20px;
     }
 
+    &.price-XXS {
+        font-size: 12px;
+        letter-spacing: .25px;
+        line-height: 20px;
+    }
+
     &.price-promo {
         font-size: 12px;
         letter-spacing: .25px;
@@ -118,9 +124,16 @@ p {
         line-height: 14px;
         font-weight: normal;
     }
+
+    &.price-note-XS {
+        font-size: 10px;
+        letter-spacing: .25px;
+        line-height: 14px;
+        font-weight: normal;
+    }
 }
 
-@media (--viewport-md) {
+@media (--viewport-md-only) {
     .price {      
         &.price-note {
             font-size: 10px;
@@ -164,6 +177,12 @@ p {
     font-size: 14px;
     letter-spacing: -0.25px;
     line-height: 18px;
+}
+
+.title-XS {
+    font-size: 12px;
+    letter-spacing: -0.25px;
+    line-height: 16px;
 }
 
 .modal-title-XXL {

@@ -114,7 +114,6 @@
 }
 @media (--viewport-md) {
 	.product-card-recommendation {
-		width: 160px;
 		margin-right: 16px;
 		& .product-card-thumbnail {
 			padding-right: 32px;
