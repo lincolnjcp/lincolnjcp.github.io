@@ -733,8 +733,8 @@ var rootNav = [{
         activeClassName: 'active',
         content: 'Pricing'
     }, {
-        to: '/',
-        activeClassName: 'inactive',
+        to: '/components/progressbar',
+        activeClassName: 'active',
         content: 'Progress Bar'
     }, {
         to: '/components/selectors',
@@ -9516,6 +9516,141 @@ var components_scrollbar__temp = function () {
   }
 
   __REACT_HOT_LOADER__.register(components_scrollbar__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/scrollbar/index.js');
+}();
+
+;
+// CONCATENATED MODULE: ./src/js/components/progressbar/progressbar.js
+var progressbar__createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+function progressbar__classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function progressbar__possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function progressbar__inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+
+
+var progressbar_ProgressBar = function (_Component) {
+  progressbar__inherits(ProgressBar, _Component);
+
+  function ProgressBar() {
+    progressbar__classCallCheck(this, ProgressBar);
+
+    return progressbar__possibleConstructorReturn(this, (ProgressBar.__proto__ || Object.getPrototypeOf(ProgressBar)).apply(this, arguments));
+  }
+
+  progressbar__createClass(ProgressBar, [{
+    key: "componentDidMount",
+    value: function componentDidMount() {}
+  }, {
+    key: "render",
+    value: function render() {
+      return react_default.a.createElement(
+        "div",
+        null,
+        react_default.a.createElement(
+          "div",
+          { className: "row" },
+          react_default.a.createElement(
+            "p",
+            { className: "std-txt std-txt-M color-nightsky" },
+            "Spend ",
+            react_default.a.createElement(
+              "strong",
+              null,
+              "$83.00"
+            ),
+            " more to Ship to Home FREE"
+          ),
+          react_default.a.createElement(
+            "div",
+            { className: "progress-bar" },
+            react_default.a.createElement("div", { className: "progress-bar-percent" })
+          ),
+          react_default.a.createElement(
+            "p",
+            null,
+            "(will need inline style built into React component)"
+          ),
+          react_default.a.createElement("hr", null),
+          react_default.a.createElement(
+            "p",
+            { className: "std-txt std-txt-M color-nightsky" },
+            "Points"
+          ),
+          react_default.a.createElement(
+            "div",
+            { className: "tooltip tooltip-bottom-center tooltip-single" },
+            "$10"
+          ),
+          react_default.a.createElement("br", null),
+          react_default.a.createElement("br", null),
+          react_default.a.createElement(
+            "div",
+            { className: "progress-bar progress-bar-rewards" },
+            react_default.a.createElement(
+              "span",
+              { className: "progress-bar-max-points" },
+              "200"
+            ),
+            react_default.a.createElement(
+              "div",
+              { className: "progress-bar-percent" },
+              "165"
+            )
+          ),
+          react_default.a.createElement(
+            "p",
+            { className: "S" },
+            react_default.a.createElement(
+              "strong",
+              null,
+              "35 points"
+            ),
+            " away from your next ",
+            react_default.a.createElement(
+              "strong",
+              null,
+              "$10 reward*"
+            )
+          )
+        )
+      );
+    }
+  }]);
+
+  return ProgressBar;
+}(react["Component"]);
+
+var progressbar__default = progressbar_ProgressBar;
+
+
+/* harmony default export */ var progressbar = (progressbar__default);
+;
+
+var progressbar__temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(progressbar_ProgressBar, "ProgressBar", "/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/progressbar/progressbar.js");
+
+  __REACT_HOT_LOADER__.register(progressbar__default, "default", "/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/progressbar/progressbar.js");
+}();
+
+;
+// CONCATENATED MODULE: ./src/js/components/progressbar/index.js
+
+var components_progressbar__default = progressbar;
+/* harmony default export */ var components_progressbar = (components_progressbar__default);
+;
+
+var components_progressbar__temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(components_progressbar__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/progressbar/index.js');
 }();
 
 ;
@@ -25934,6 +26069,7 @@ function DesignSystemPage__inherits(subClass, superClass) { if (typeof superClas
 
 
 
+
 var DesignSystemPage_DesignSystemPage = function (_Component) {
     DesignSystemPage__inherits(DesignSystemPage, _Component);
 
@@ -30374,6 +30510,9 @@ var Root_App = function (_React$Component) {
                                 } }),
                             react_default.a.createElement(es["d" /* Route */], { exact: true, path: '/components/scrollbar', render: function render() {
                                     return react_default.a.createElement(containers_DesignSystemPage, { componentName: 'Scrollbar' });
+                                } }),
+                            react_default.a.createElement(es["d" /* Route */], { exact: true, path: '/components/progressbar', render: function render() {
+                                    return react_default.a.createElement(containers_DesignSystemPage, { componentName: 'ProgressBar' });
                                 } }),
                             react_default.a.createElement(es["d" /* Route */], { exact: true, path: '/components/visual-navigation', render: function render() {
                                     return react_default.a.createElement(containers_DesignSystemPage, { componentName: 'VisualNavigation' });
