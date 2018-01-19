@@ -43,6 +43,9 @@
         position: relative;
         top: -1px;
         left: 4px;
+        &.rating-count-s{
+          text-decoration: none;
+        }
     }
   }
   & .star-ratings-S {

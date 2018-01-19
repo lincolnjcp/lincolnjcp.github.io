@@ -107,7 +107,7 @@ class ContentLoaders extends Component {
                                     <li className="star-ratings full">★</li>
                                     <li className="star-ratings full">★</li>
                                     <li className="star-ratings full">★</li>
-                                    <li className="star-ratings inactive">★<span className="rating-count">(47)</span></li>
+                                    <li className="star-ratings inactive">★<span className="rating-count">47</span></li>
                                 </ul><br/><br/>
                                 <p className="XS">Example of Rec Zone Product </p>
                                 <ul className="star-ratings-S">
@@ -115,7 +115,7 @@ class ContentLoaders extends Component {
                                     <li className="star-ratings full">★</li>
                                     <li className="star-ratings full">★</li>
                                     <li className="star-ratings full">★</li>
-                                    <li className="star-ratings inactive">★<span className="rating-count">(47)</span></li>
+                                    <li className="star-ratings inactive">★<span className="rating-count rating-count-s">47</span></li>
                                 </ul>
                             </div>
                             <div className="sm12 md7 lg8 columns">

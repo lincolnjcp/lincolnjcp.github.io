@@ -52,6 +52,12 @@ button{
       background-color: var(--color-lightgrey);
       @apply --btn-radius-hover;
     }
+
+    &:disabled{
+      @apply --elevation;
+      @apply --btn-transition;
+      cursor: not-allowed;
+    }
   }
 
   &.btn-grey-txt {
@@ -361,6 +367,7 @@ a.txt-btn,
   color: var(--color-nightsky);
   font-size: 12px;
   text-decoration: underline;
+  letter-spacing: 0px;
 }
 /*** Additional Buttons Ends ***/
 

@@ -316,7 +316,7 @@ class Buttons extends Component {
                         <button type="button" class="btn btn-secondary active">Tab 1</button>
                         <button type="button" class="btn btn-secondary">Tab 2</button>
                         <button type="button" class="btn btn-secondary hover">Tab 3</button>
-                        <button type="button" class="btn btn-secondary disabled">Tab 4</button>
+                        <button type="button" class="btn btn-secondary disabled" disabled>Tab 4</button>
                         </div>
                         <ul className="std-txt-label">
                         <li>Active</li>

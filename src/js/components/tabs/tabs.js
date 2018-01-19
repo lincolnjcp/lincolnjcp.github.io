@@ -11,19 +11,19 @@ class Tabs extends Component {
         <div className="row">
           <div className="tab-container mrg-XL">
             <ul className="tab-header">
-              <li className="tab-lbl tab-lbl-active">
+              <li className="title tab-lbl tab-lbl-active">
                 <span>Tab 1</span>
               </li>
-              <li className="tab-lbl">
+              <li className="title tab-lbl">
                 <span>Tab 2</span>
               </li>
-              <li className="tab-lbl">
+              <li className="title tab-lbl">
                 <span>Tab 3</span>
               </li>
-              <li className="tab-lbl tab-lbl-disabled" disabled="true">
+              <li className="title tab-lbl tab-lbl-disabled" disabled="true">
                 <span>Tab 4</span>
               </li>
-              <li className="tab-lbl tab-lbl-focus">
+              <li className="title tab-lbl tab-lbl-focus">
                 <span>Tab 5</span>
               </li>
             </ul>

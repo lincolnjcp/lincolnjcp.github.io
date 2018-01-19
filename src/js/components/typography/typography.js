@@ -106,6 +106,14 @@ By consistently tying typographic styles to appropriate fuctions in the interfac
                                     {
                                         text: 'S',
                                         value: 'price price-S'
+                                    },
+                                    {
+                                        text: 'XS',
+                                        value: 'price price-XS'
+                                    },
+                                    {
+                                        text: 'XXS',
+                                        value: 'price price-XXS'
                                     }
                                   ]
                                 },

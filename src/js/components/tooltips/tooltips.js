@@ -9,70 +9,72 @@ class Tooltips extends Component {
     return (
       <div>
         <div className="mrg-L row">
-          <div className="tooltip">
-            <span>Multi-line tooltips have 16px of padding. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.</span>
+        <div className="tooltip tooltip-single tooltip-left-side">
+            <span>Tooltip left side</span>
           </div>
-
           <br></br>
+          <br></br><br></br><br></br>
 
-          <div className="tooltip tooltip-single">
-            <span>tooltip tooltip new</span>
+        <div className="tooltip tooltip-single tooltip-top-left">
+          <span>Tooltip Top left side</span>
+        </div>
+        <br></br>
+        <br></br><br></br><br></br>
+
+          <div className="tooltip tooltip-single tooltip-bottom-left">
+          <span>Tooltip Bottom left side</span>
           </div>
-
           <br></br>
-          <br></br>
-          <br></br>
-          <br></br>
+          <br></br><br></br><br></br>
 
           <div className="tooltip tooltip-single tooltip-right-side">
-            <span>tooltip right side</span>
+            <span>Tooltip right side</span>
+          </div>
+          <br></br>
+          <br></br><br></br><br></br>
+
+          
+          <div className="tooltip tooltip-single tooltip-top-right ">
+            <span>Tooltip Top right side</span>
           </div>
 
-          <br></br>
-          <br></br>
+          <br></br><br></br><br></br><br></br>
 
-          <div className="tooltip tooltip-single tooltip-left-side">
-            <span>tooltip left side</span>
+          <div className="tooltip tooltip-single tooltip-bottom-right ">
+            <span>Tooltip Bottom right side</span>
           </div>
+          <br></br><br></br><br></br><br></br>
 
-          <br></br>
-
-          <div className="tooltip tooltip-bottom-center">
-            <span>Multi-line tooltips have 16px of padding. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.</span>
+          <div className="tooltip tooltip-single tooltip-top-center">
+          <span>Tooltip Top center side</span>
           </div>
+          <br></br><br></br><br></br><br></br>
 
-          <br></br>
-
-          <div className="tooltip tooltip-bottom-right">
-            <span>Multi-line tooltips have 16px of padding. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.</span>
+          <div className="tooltip tooltip-single tooltip-bottom-center">
+          <span>Tooltip Bottom center side</span>
           </div>
-
-          <br></br>
-
-          <div className="tooltip tooltip-top-left">
-            <span>Multi-line tooltips have 16px of padding. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.</span>
+          <br></br><br></br><br></br><br></br>
+          <div className="tooltip tooltip-single tooltip-dark">
+          <span>Tooltip Single line dark</span>
           </div>
-
-          <br></br>
-
-          <div className="tooltip tooltip-dark">
-            <span>Multi-line tooltips have 16px of padding. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.</span>
+          <br></br><br></br><br></br><br></br>
+          
+          <div className="tooltip tooltip-multi-line tooltip-top-center">
+          <span>Tooltip Multi line Top center side,Multi-line tooltips have 16px of padding. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.</span>
           </div>
-
-          <br></br>
-
-          <div className="tooltip tooltip-top-center">
-            <span>Multi-line tooltips have 16px of padding. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.</span>
+          <br></br><br></br><br></br><br></br>
+          <div className="tooltip tooltip-multi-line tooltip-bottom-center">
+            <span>Tooltip Multi line Bottom center side,Multi-line tooltips have 16px of padding. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.</span>
           </div>
-
-          <br></br>
-
-          <div className="tooltip tooltip-top-right">
-            <span>Multi-line tooltips have 16px of padding. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.</span>
+          <br></br><br></br><br></br><br></br>
+          <div className="tooltip tooltip-top-right tooltip-multi-line">
+            <span>
+            <h1 className="std-txt std-txt-L mrg-S tooltip-title">This is a Tooltip H1 Title</h1>
+              Multi-line tooltips have 16px of padding. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.Multi-line tooltips have 16px of padding. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.</span>
           </div>
+          <br></br><br></br><br></br>
 
-          <br></br>
-
+         
           <div className="tooltip tooltip-top-right tooltip-long tooltip-list">
             <ul>
               <li><a href="#">My Account</a></li>
@@ -88,26 +90,8 @@ class Tooltips extends Component {
               <li className="tooltip-divider"><a href="#">Sign Out</a></li>
             </ul>
           </div>
-
-          <br></br>
-
-          <div className="tooltip tooltip-top-right">
-            <span>
-              <h1 className="title title-M mrg-S">This is a Tooltip H1 Title</h1>
-              Multi-line tooltips have 16px of padding. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.Multi-line tooltips have 16px of padding. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.</span>
-          </div>
-
-          <br></br>
-          <br></br>
-
-          <div className="tooltip tooltip-dark tooltip-top-right">
-            <span>Multi-line tooltips have 16px of padding. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.Multi-line tooltips have 16px of padding. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.</span>
-          </div>
-
-          <br></br>
-          <br></br>
-
-          <div className="tooltip tooltip-right-side">
+          <br></br><br></br><br></br>
+          <div className="tooltip tooltip-right-side tooltip-multi-line">
             <div className="tooltip-close">
 
             </div>
@@ -117,7 +101,6 @@ class Tooltips extends Component {
               <label for="tooltip-radio">Vanilla label</label>
             </span>
           </div>
-
         </div>
       </div>
     );

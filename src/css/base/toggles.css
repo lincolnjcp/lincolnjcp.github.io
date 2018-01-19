@@ -87,6 +87,7 @@
     line-height: 1.5;
     border-radius: 4px;
     color: var(--color-nightsky);
+    font-size:16px;
     &:not(:first-child):not(:last-child) {
       border-radius: 0;
       border-left: 0;
@@ -117,7 +118,7 @@
     &.disabled {
       background: var(--color-lightgrey);
       color: var(--color-slate);
-      pointer-events: none;
+      text-decoration: none;
     }
   }
   & ul>li {

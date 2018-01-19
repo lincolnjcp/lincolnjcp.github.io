@@ -7,7 +7,7 @@
   
     & li{
       display: inline-block;
-      line-height: 28px;
+      line-height: 27px;
       width: 28px;
       height: 28px;
       text-align: center;
@@ -81,7 +81,7 @@
   & li{
     display: inline-block;
     padding-right: 4px;
-
+    font-size: 12px;
     &:after{
       content: "/";
       padding-left: 8px;
@@ -91,4 +91,32 @@
       content: none;
     }
   }
+}
+
+/*********************************
+/* Breadcrumbs Back to Product
+*********************************/
+
+.back-to-product{
+  & .icon{
+      width: 16px;
+      height:16px;
+      top: 1px;
+      position: relative;
+      & svg{
+        width: 16px;
+        height:16px;
+        padding: 1px;
+    }
+  }
+  & li{
+      display: inline-block;
+      vertical-align: text-top;
+      margin-left: 6px;
+      list-style-type: none;
+      & a{
+        font-size: 12px;
+        letter-spacing: -0.3px;
+      }
+    }
 }

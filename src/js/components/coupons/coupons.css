@@ -37,6 +37,14 @@
   & .coupon-code {
     & span {
       display: inline-block;
+      font-size: 14px;
+      line-height: 18px;
+      letter-spacing:normal;
+      color: var(--color-shadow);
+    }
+    & p span:last-child{
+      margin-left: 3px;
+      color: var(--color-nightsky);
     }
   }
 
@@ -51,6 +59,9 @@
     & a, & button {
       margin-right: 16px;
       padding: 0;
+    }
+    & .btn-tiny{
+      font-size: 14px;
     }
   }
 }

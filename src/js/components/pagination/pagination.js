@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 const BackToTopImage = require('!!raw-loader?es5=1!../../../images/global/icons/nav/back-to-top.svg');
-
+const chevronleftImage = require('!!raw-loader?es5=1!../../../images/global/icons/nav/chevron-left.svg');
 class Pagination extends Component {
 
   componentDidMount() {
@@ -73,6 +73,11 @@ class Pagination extends Component {
                 <li><a href="#">Clothing</a></li>
                 <li>Dresses</li>
               </ul>
+          </div><br/><br/><br/>
+
+          <div className="back-to-product">
+            <span className="icon color-shadow-svg" dangerouslySetInnerHTML={{__html: chevronleftImage}} /> 
+            <li><a>Back to Products </a> </li>
           </div><br/><br/><br/>
           <div className="back-to-top-block">
               <h1 class="title title-XL mrg-L">Back to Top</h1>

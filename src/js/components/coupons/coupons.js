@@ -27,7 +27,7 @@ class Coupons extends Component {
               </div>
               <div className="coupon-code mrg-S">
                 <span className="std-txt std-txt-S">Expires: 11/05/2017</span>
-                <p><span>Code: </span><span className="title-S title">SHOPNOW4</span></p>
+                <p><span>Code: </span><span className="std-txt std-txt-S">SHOPNOW4</span></p>
               </div>
               <a href="javascript:void();" className="btn btn-S btn-primary apply-btn btn-full mrg-S">Apply</a>
               <div className="coupon-see-details">
@@ -51,12 +51,12 @@ class Coupons extends Component {
               </div>
               <div className="coupon-code mrg-S">
                 <span className="std-txt std-txt-S">Expires: 11/05/2017</span>
-                <p><span>Code: </span><span className="title-S title">SHOPNOW4</span></p>
+                <p><span>Code: </span><span className="std-txt std-txt-S">SHOPNOW4</span></p>
               </div>
               <a href="javascript:void();" className="btn btn-S btn-primary apply-btn btn-full mrg-S">Apply</a>
               <div className="coupon-see-details">
-              <a href="javascript:void(0)" className="link-sm">shop home</a>
-              <a href="javascript:void(0)" className="link-sm">see details</a>
+              <a href="javascript:void(0)" className="link-sm btn-tiny">shop home</a>
+              <a href="javascript:void(0)" className="link-sm btn-tiny">see details</a>
             </div>
             </div>
           </div>
@@ -91,7 +91,7 @@ class Coupons extends Component {
               </div>
               <div className="coupon-code mrg-S">
                 <span className="std-txt std-txt-S">Expires: 11/05/2017</span>
-                <p><span>Code: </span><span className="title-S title">SHOPNOW4</span></p>
+                <p><span>Code: </span><span className="std-txt std-txt-S">SHOPNOW4</span></p>
               </div>
               <a href="javascript:void();" className="btn btn-S btn-primary apply-btn btn-full mrg-S">Apply</a>
               <a href="javascript:void();" className="btn btn-S btn-secondary apply-btn btn-full mrg-S print-barcode">
@@ -99,8 +99,8 @@ class Coupons extends Component {
                   Print Barcode
                 </a>
               <div className="coupon-see-details">
-              <a href="javascript:void(0)" className="link-sm">shop home</a>
-              <a href="javascript:void(0)" className="link-sm">see details</a>
+              <a href="javascript:void(0)" className="link-sm btn-tiny">shop home</a>
+              <a href="javascript:void(0)" className="link-sm btn-tiny">see details</a>
             </div>
             </div>
           </div>
@@ -119,12 +119,12 @@ class Coupons extends Component {
               </div>
               <div className="coupon-code mrg-S">
                 <span className="std-txt std-txt-S">Expires: 11/05/2017</span>
-                <p><span>Code: </span><span className="title-S title">SHOPNOW4</span></p>
+                <p><span>Code: </span><span className="std-txt std-txt-S">SHOPNOW4</span></p>
               </div>
               <a href="javascript:void();" className="btn btn-S btn-primary apply-btn btn-full mrg-S">Apply</a>
               <div className="coupon-see-details">
-              <a href="javascript:void(0)" className="link-sm">shop home</a>
-              <a href="javascript:void(0)" className="link-sm">see details</a>
+              <a href="javascript:void(0)" className="link-sm btn-tiny">shop home</a>
+              <a href="javascript:void(0)" className="link-sm btn-tiny">see details</a>
             </div>
             </div>
           </div>
@@ -143,12 +143,12 @@ class Coupons extends Component {
               </div>
               <div className="coupon-code mrg-S">
                 <span className="std-txt std-txt-S">Expires: 11/05/2017</span>
-                <p><span>Code: </span><span className="title-S title">SHOPNOW4</span></p>
+                <p><span>Code: </span><span className="std-txt std-txt-S">SHOPNOW4</span></p>
               </div>
               <a href="javascript:void();" className="btn btn-S btn-primary apply-btn btn-full mrg-S">Apply</a>
               <div className="coupon-see-details">
-              <a href="javascript:void(0)" className="link-sm">shop home</a>
-              <a href="javascript:void(0)" className="link-sm">see details</a>
+              <a href="javascript:void(0)" className="link-sm btn-tiny">shop home</a>
+              <a href="javascript:void(0)" className="link-sm btn-tiny">see details</a>
             </div>
             </div>
           </div>
@@ -167,12 +167,12 @@ class Coupons extends Component {
               </div>
               <div className="coupon-code mrg-S">
                 <span className="std-txt std-txt-S">Expires: 11/05/2017</span>
-                <p><span>Code: </span><span className="title-S title">SHOPNOW4</span></p>
+                <p><span>Code: </span><span className="std-txt std-txt-S">SHOPNOW4</span></p>
               </div>
               <a href="javascript:void();" className="btn btn-S btn-primary apply-btn btn-full mrg-S">Apply</a>
               <div className="coupon-see-details">
-              <a href="javascript:void(0)" className="link-sm">shop home</a>
-              <a href="javascript:void(0)" className="link-sm">see details</a>
+              <a href="javascript:void(0)" className="link-sm btn-tiny">shop home</a>
+              <a href="javascript:void(0)" className="link-sm btn-tiny">see details</a>
             </div>
             </div>
           </div>
@@ -191,12 +191,12 @@ class Coupons extends Component {
               </div>
               <div className="coupon-code mrg-S">
                 <span className="std-txt std-txt-S">Expires: 11/05/2017</span>
-                <p><span>Code: </span><span className="title-S title">SHOPNOW4</span></p>
+                <p><span>Code: </span><span className="std-txt std-txt-S">SHOPNOW4</span></p>
               </div>
               <a href="javascript:void();" className="btn btn-S btn-primary apply-btn btn-full mrg-S">Apply</a>
               <div className="coupon-see-details">
-              <a href="javascript:void(0)" className="link-sm">shop home</a>
-              <a href="javascript:void(0)" className="link-sm">see details</a>
+              <a href="javascript:void(0)" className="link-sm btn-tiny">shop home</a>
+              <a href="javascript:void(0)" className="link-sm btn-tiny">see details</a>
             </div>
             </div>
           </div>

@@ -1,10 +1,13 @@
 import React, { Component } from 'react';
-
+import $ from 'jquery';
 const plusImage = require('!!raw-loader?es5=1!../../../images/global/icons/nav/plus.svg');
 
 class Swatches extends Component {
 
   componentDidMount() {
+    $('.plus-expand').on('click', function (e) {
+      $(this).toggleClass("close-expand");
+  });
   }
 
   render() {
@@ -92,14 +95,14 @@ class Swatches extends Component {
                       <a href="javascript:void(0)" className="list-color-swatch"></a>
                     </li>
                     <li className="swatches-list-icon">
-                      <a href="javascript:void(0)" className="list-color-swatch list-expand">
+                      <a href="javascript:void(0)" className="list-color-swatch list-expand plus-expand">
                         <span dangerouslySetInnerHTML={{ __html: plusImage }}/>
                       </a>                  
                   </li>
                   </ul>
               </div>
 
-              <div className="color-swatches-list">
+              <div className="color-swatches-list images-swatches-list">
                   <ul className="list-product-colors-container">
                     <li>
                       <a href="javascript:void(0)" className="list-color-swatch list-color-swatch-active">
@@ -166,7 +169,7 @@ class Swatches extends Component {
                         <img src="https://s7d9.scene7.com/is/image/JCPenney/DP0719201704043169S"/>
                       </a>
                     </li>
-                    <li className="swatches-list-icon" dangerouslySetInnerHTML={{ __html: plusImage }} >
+                    <li className="swatches-list-icon swatches-list-icon-large" dangerouslySetInnerHTML={{ __html: plusImage }} >
 
                     </li>
                   </ul>
@@ -205,7 +208,7 @@ class Swatches extends Component {
                     <li>
                       <a href="javascript:void(0)" className="list-color-swatch"></a>
                     </li>
-                    <li className="swatches-list-icon" dangerouslySetInnerHTML={{ __html: plusImage }} >
+                    <li className="swatches-list-icon swatches-list-icon-large" dangerouslySetInnerHTML={{ __html: plusImage }} >
                     </li>
                   </ul>
               </div>
@@ -284,7 +287,7 @@ class Swatches extends Component {
                     <a href="javascript:void(0)" className="list-color-swatch"></a>
                   </li>
                   <li className="swatches-list-icon">
-                    <a href="javascript:void(0)" className="list-color-swatch">
+                    <a href="javascript:void(0)" className="list-color-swatch plus-expand">
                       <span dangerouslySetInnerHTML={{ __html: plusImage }}/>
                     </a>                  
                   </li>

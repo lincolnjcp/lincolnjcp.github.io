@@ -44,7 +44,11 @@
       max-height: 160px;
       overflow: auto;
     }
-  
+    & .tooltip-title{
+      font-weight: bold;
+      letter-spacing: -0.6px;
+      color: var(--color-nightsky);
+    }
     &.tooltip-list{
       padding: 8px 0;
       max-width: auto;
@@ -83,7 +87,12 @@
       padding: 12px;
       display: inline-block;
     }
-  
+    &.tooltip-multi-line{
+      width: 300px;
+      padding: 16px;
+      display: inline-block;
+      
+    }
     /*  tooltip arrow */
     &:before{
       content: "";
@@ -91,7 +100,7 @@
       display: block;
       height: 12px;
       width: 12px;
-      bottom: -5px;
+      bottom: -6px;
       background-color: #fff;
       transform: rotate(45deg);
       /*  first dropshow simulates the border on the arrow, second is the drop shadow */
@@ -120,19 +129,23 @@
     }
   
     &.tooltip-top-left:before{
-      top: -5px;
+      top: -6px;
+      left: 16px;
       box-shadow: -1px -1px 0px 0px var(--color-concrete);
     }
-  
+    &.tooltip-bottom-left:before{
+      bottom: -6px;
+      left: 16px;
+    }
     &.tooltip-top-center:before{
-      top: -5px;
+      top: -6px;
       left: 50%;
       margin-left: -6px;
       box-shadow: -1px -1px 0px 0px var(--color-concrete);
     }
   
     &.tooltip-top-right:before{
-      top: -5px;
+      top: -6px;
       right: 16px;
       margin-left: -6px;
       box-shadow: -1px -1px 0px 0px var(--color-concrete);
@@ -170,6 +183,8 @@
   
       &:before{
         background-color: var(--color-shadow);
+        bottom: -6px;
+        left: 16px;
         /*  box-shadow: 3px 3px 3px 0px rgba(0,0,0,0.3); */
       }
   
