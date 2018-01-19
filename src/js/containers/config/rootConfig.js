@@ -128,8 +128,8 @@ const rootNav = [
                 content: 'Pricing',
             },
             {
-                to: '/',
-                activeClassName: 'inactive',
+                to: '/components/progressbar',
+                activeClassName: 'active',
                 content: 'Progress Bar',
             },
             {

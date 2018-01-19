@@ -14,6 +14,7 @@ import Tables from '../components/tables';
 import Forms from '../components/forms';
 import StarRatings from '../components/star-ratings';
 import Scrollbar from '../components/scrollbar';
+import ProgressBar from '../components/progressbar';
 import Pricing from '../components/pricing';
 import VisualNavigation from '../components/visual-navigation';
 import Modal from '../components/modal';
@@ -75,8 +76,8 @@ class DesignSystemPage extends Component {
    LikeDislike: {componentElement: LikeDislike, componentDisplayName: "Like Dislike Messages", componentSubNav: ['Like Dislike Messages']},
    ExpandCollapse: {componentElement: ExpandCollapse, componentDisplayName: "Expand Collapse", componentSubNav: ['ExpandCollapse']},
    RecommendationZone: {componentElement: RecommendationZone, componentDisplayName: "Recommendation Zone", componentSubNav: ['RecommendationZone']},
-   Pricing: {componentElement: Pricing, componentDisplayName: "Pricing", componentSubNav: ['Pricing']}
-
+   Pricing: {componentElement: Pricing, componentDisplayName: "Pricing", componentSubNav: ['Pricing']},
+   ProgressBar: {componentElement: ProgressBar, componentDisplayName: "ProgressBar", componentSubNav: ['ProgressBar']}
   }
 
   const Scene = routes[this.props.componentName].componentElement;

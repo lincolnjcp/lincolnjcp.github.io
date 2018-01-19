@@ -230,7 +230,7 @@ class RecommendationZone extends Component {
             <div className="sm12 columns">
               <h2><strong>Rec Row</strong></h2>
               <hr />
-              <div className="product-card-wrapper product-card-wrapper-recommentations" ref={(wrapper) => { this.wrapper = wrapper }} style={listStyle}>
+              <div className="product-card-wrapper product-card-wrapper-recommendations" ref={(wrapper) => { this.wrapper = wrapper }} style={listStyle}>
                 <div className="product-card-block">
                   <div className="chevron-wrapper hide-for-small-only hide-for-medium-only">
                     <a style={{ visibility: disableLeftArrow ? 'hidden' : 'visible' }} href="javascript:void(0);" onClick={() => this.scrollCartridge(false)} className="rec-zone-chevron-left icon chevron-icon" dangerouslySetInnerHTML={{ __html: ChevronLeftImage }}></a>

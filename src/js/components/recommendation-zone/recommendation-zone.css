@@ -1,5 +1,6 @@
 /* note:- import product card css in yoda */
 .product-card-wrapper-recommendations {
+	
 	display: inline;
 	overflow: auto;
 	white-space: nowrap;
