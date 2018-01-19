@@ -18,6 +18,9 @@
             height: 47px;
             line-height: 47px;
             border-radius: 0 8px 8px 0;
+            font-weight: normal;
+            box-shadow: none;
+            padding: 0 25px;
         }
         & .footer-terms {
             font-size: 10px;
@@ -94,6 +97,10 @@
                 & .icon {
                     position: relative;
                     top: 18px;
+                }
+                &.footer-stay-conntected{
+                    position: relative;
+                    top: 4px;
                 }
             }
         }

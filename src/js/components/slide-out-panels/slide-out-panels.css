@@ -181,7 +181,17 @@
 	  	}
 	  }
 	}
-
+	.side-panel-content{
+		padding: 60px 16px;
+		& .filter-left-block {
+			& .filter-accordion{
+				margin: 0 -15px;
+				}
+		}
+		& ul{
+			margin-right: 16px;
+		}
+	}
 }
 
 

@@ -18,11 +18,12 @@ class Coupons extends Component {
               </span>
               <span className="std-txt std-txt-S mrg-S">Online Only</span>
               <div className="coupon-primary-offer mrg-M">
-                <h2 className="title-L">Extra 30% OFF $100+</h2>
+                <h2 className="price price-M">Extra 30% OFF $100+</h2>
                 <p className="std-txt std-txt-S">select apparel, shoes, accessories, fine jewelry & home</p>
               </div>
               <div className="coupon-secondary-offer mrg-M">
-                <h4 className="title-M">Or Extra 25% OFF Under $100</h4>
+              <p class="price coupon-text-or">OR</p>
+                <h4 className="price price-M">Extra 25% OFF Under $100</h4>
                 <p className="std-txt std-txt-S">with any method of payment</p>
               </div>
               <div className="coupon-code mrg-S">
@@ -31,8 +32,8 @@ class Coupons extends Component {
               </div>
               <a href="javascript:void();" className="btn btn-S btn-primary apply-btn btn-full mrg-S">Apply</a>
               <div className="coupon-see-details">
-                <button className="link-sm btn-tiny">shop home</button>
-                <button className="link-sm btn-tiny">see details</button>
+                <a className="link-sm btn-tiny">shop home</a>
+                <a className="link-sm btn-tiny">see details</a>
               </div>
             </div>
           </div>
@@ -42,11 +43,12 @@ class Coupons extends Component {
               <span className="coupon-badge title mrg-S">SALE ENDS IN 2HRS</span>
               <span className="std-txt std-txt-S mrg-S">Online Only</span>
               <div className="coupon-primary-offer mrg-M">
-                <h2 className="title-L">Extra 30% OFF $100+</h2>
+                <h2 className="price price-M">Extra 30% OFF $100+</h2>
                 <p className="std-txt std-txt-S">select apparel, shoes, accessories, fine jewelry & home</p>
               </div>
               <div className="coupon-secondary-offer mrg-M">
-                <h4 className="title-M">Or Extra 25% OFF Under $100</h4>
+              <p class="price coupon-text-or">OR</p>
+                <h4 className="price price-M">Extra 25% OFF Under $100</h4>
                 <p className="std-txt std-txt-S">with any method of payment</p>
               </div>
               <div className="coupon-code mrg-S">
@@ -66,7 +68,7 @@ class Coupons extends Component {
               <span className="coupon-badge title mrg-S">SALE ENDS IN 2HRS</span>
               <span className="std-txt std-txt-S mrg-S">Online Only</span>
               <div className="coupon-primary-offer mrg-M">
-                <h2 className="title-L">Extra 30% OFF $100+</h2>
+                <h2 className="price price-M">Extra 30% OFF $100+</h2>
                 <p className="std-txt std-txt-S">select apparel, shoes, accessories, fine jewelry & home</p>
               </div>
               <a href="javascript:void();" className="btn btn-S btn-primary apply-btn btn-full mrg-S">Apply</a>
@@ -82,11 +84,12 @@ class Coupons extends Component {
               <span className="coupon-badge title mrg-S">SALE ENDS IN 2HRS</span>
               <span className="std-txt std-txt-S mrg-S">Online Only</span>
               <div className="coupon-primary-offer mrg-M">
-                <h2 className="title-L">Extra 30% OFF $100+</h2>
+                <h2 className="price price-M">Extra 30% OFF $100+</h2>
                 <p className="std-txt std-txt-S">select apparel, shoes, accessories, fine jewelry & home</p>
               </div>
               <div className="coupon-secondary-offer mrg-M">
-                <h4 className="title-M">Or Extra 25% OFF Under $100</h4>
+              <p class="price coupon-text-or">OR</p>
+                <h4 className="price price-M">Extra 25% OFF Under $100</h4>
                 <p className="std-txt std-txt-S">with any method of payment</p>
               </div>
               <div className="coupon-code mrg-S">
@@ -110,11 +113,12 @@ class Coupons extends Component {
               <span className="coupon-badge title mrg-S">SALE ENDS IN 2HRS</span>
               <span className="std-txt std-txt-S mrg-S">Online Only</span>
               <div className="coupon-primary-offer mrg-M">
-                <h2 className="title-L">Extra 30% OFF $100+</h2>
+                <h2 className="price price-M">Extra 30% OFF $100+</h2>
                 <p className="std-txt std-txt-S">select apparel, shoes, accessories, fine jewelry & home</p>
               </div>
               <div className="coupon-secondary-offer mrg-M">
-                <h4 className="title-M">Or Extra 25% OFF Under $100</h4>
+              <p class="price coupon-text-or">OR</p>
+                <h4 className="price price-M">Extra 25% OFF Under $100</h4>
                 <p className="std-txt std-txt-S">with any method of payment</p>
               </div>
               <div className="coupon-code mrg-S">
@@ -134,11 +138,12 @@ class Coupons extends Component {
               <span className="coupon-badge title mrg-S">SALE ENDS IN 2HRS</span>
               <span className="std-txt std-txt-S mrg-S">Online Only</span>
               <div className="coupon-primary-offer mrg-M">
-                <h2 className="title-L">Extra 30% OFF $100+</h2>
+                <h2 className="price price-M">Extra 30% OFF $100+</h2>
                 <p className="std-txt std-txt-S">select apparel, shoes, accessories, fine jewelry & home</p>
               </div>
               <div className="coupon-secondary-offer mrg-M">
-                <h4 className="title-M">Or Extra 25% OFF Under $100</h4>
+              <p class="price coupon-text-or">OR</p>
+                <h4 className="price price-M">Extra 25% OFF Under $100</h4>
                 <p className="std-txt std-txt-S">with any method of payment</p>
               </div>
               <div className="coupon-code mrg-S">
@@ -158,11 +163,12 @@ class Coupons extends Component {
               <span className="coupon-badge title mrg-S">SALE ENDS IN 2HRS</span>
               <span className="std-txt std-txt-S mrg-S">Online Only</span>
               <div className="coupon-primary-offer mrg-M">
-                <h2 className="title-L">Extra 30% OFF $100+</h2>
+                <h2 className="price price-M">Extra 30% OFF $100+</h2>
                 <p className="std-txt std-txt-S">select apparel, shoes, accessories, fine jewelry & home</p>
               </div>
               <div className="coupon-secondary-offer mrg-M">
-                <h4 className="title-M">Or Extra 25% OFF Under $100</h4>
+              <p class="price coupon-text-or">OR</p>
+                <h4 className="price price-M">Extra 25% OFF Under $100</h4>
                 <p className="std-txt std-txt-S">with any method of payment</p>
               </div>
               <div className="coupon-code mrg-S">
@@ -182,11 +188,12 @@ class Coupons extends Component {
               <span className="coupon-badge title mrg-S">SALE ENDS IN 2HRS</span>
               <span className="std-txt std-txt-S mrg-S">Online Only</span>
               <div className="coupon-primary-offer mrg-M">
-                <h2 className="title-L">Extra 30% OFF $100+</h2>
+                <h2 className="price price-M">Extra 30% OFF $100+</h2>
                 <p className="std-txt std-txt-S">select apparel, shoes, accessories, fine jewelry & home</p>
               </div>
               <div className="coupon-secondary-offer mrg-M">
-                <h4 className="title-M">Or Extra 25% OFF Under $100</h4>
+              <p class="price coupon-text-or">OR</p>
+                <h4 className="price price-M">Extra 25% OFF Under $100</h4>
                 <p className="std-txt std-txt-S">with any method of payment</p>
               </div>
               <div className="coupon-code mrg-S">

@@ -56,7 +56,7 @@
     --color-concrete: #D8D8D8;
     --color-lightgrey: #F1F1F1;
     --color-white: #FFFFFF;
-
+    
     /* Success */
     --color-success-type: #2A7952;
     --color-success-border: #C9E7D9;
@@ -156,4 +156,7 @@
     /* Font Weight */
     --font-weight-bold: 700;
     --font-weight-regular: 400;
+
+    /* Coupon */
+    --color-coupon-grey:#53606b;
 }

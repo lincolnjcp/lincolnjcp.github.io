@@ -5,7 +5,7 @@
   & .star-ratings {
     color: var(--color-concrete);
     position: relative;
-    margin: 0 4px;
+    margin: 0 1px;
     display: inline;
     &:before {
       color: var(--color-concrete);
@@ -24,7 +24,7 @@
       content: '★';
       position: absolute;
       left: 0;
-      width: 50%;
+      width: 51%;
       overflow: hidden;
     }
     &.half:after {

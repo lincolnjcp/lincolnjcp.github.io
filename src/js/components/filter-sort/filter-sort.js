@@ -332,11 +332,11 @@ class FilterSort extends Component {
               <div className="input-group">
 
                 <label className="checkbox mrg-M">
-                  <input type="checkbox" /> <span>Online Only</span> <span className="fl-right std-txt std-txt-S">(55)</span>
+                  <input type="checkbox" /> <span>Online Only</span> <span className="fl-right std-txt std-txt-M">(55)</span>
                 </label>
 
                 <label className="checkbox mrg-M">
-                  <input type="checkbox" defaultChecked="true" /> <span><p className="title title-M"><span className="color-penneyred">FREE</span> Same Day Pickup</p></span><span className="fl-right std-txt std-txt-S">(55)</span>
+                  <input type="checkbox" defaultChecked="true" /> <span><p className="title title-M"><span className="color-penneyred">FREE</span> Same Day Pickup</p></span><span className="fl-right std-txt std-txt-M">(55)</span>
                 </label>
               </div>
               <div className="accordion-block filter-accordion">
@@ -544,11 +544,11 @@ class FilterSort extends Component {
                     <div className="input-group">
 
                       <label className="checkbox mrg-M">
-                        <input type="checkbox" /> <span>Online Only</span> <span className="fl-right std-txt std-txt-S">(55)</span>
+                        <input type="checkbox" /> <span>Online Only</span> <span className="fl-right std-txt std-txt-M">(55)</span>
                       </label>
 
                       <label className="checkbox mrg-M">
-                        <input type="checkbox" defaultChecked="true" /> <span><p className="title title-M"><span className="color-penneyred">FREE</span> Same Day Pickup</p></span><span className="fl-right std-txt std-txt-S">(55)</span>
+                        <input type="checkbox" defaultChecked="true" /> <span><p className="title title-M"><span className="color-penneyred">FREE</span> Same Day Pickup</p></span><span className="fl-right std-txt std-txt-M">(55)</span>
                       </label>
                     </div>
                     <div className="accordion-block filter-accordion">
@@ -747,10 +747,10 @@ class FilterSort extends Component {
                     </div>
 
                     <div className="filter-button-block">
-                      <div className="md6 sm6">
+                      <div className="md6 sm6 button-left-block">
                         <a href="javascript:void();" className="btn btn-primary btn-M">Apply</a>
                       </div>
-                      <div className="md6 sm6">
+                      <div className="md6 sm6 button-right-block">
                         <a href="javascript:void();" className="btn btn-secondary btn-M">Clear All</a>
                       </div>
 
@@ -877,13 +877,13 @@ class FilterSort extends Component {
             </div>
             <div className="lg12 xl12 md12 sm12 mrg-L filter-tags hide-for-medium-only hide-for-small-only">
               <div className="tags std-txt std-txt-S">
-                <span className="tag-title">Gender: </span><span>Mens</span><a href="javascript:void(0)" className="color-white-svg icon" dangerouslySetInnerHTML={{ __html: closeImage }} />
+                <span className="tag-title">Gender: </span><span class="tag-item">Mens</span><a href="javascript:void(0)" className="color-white-svg icon" dangerouslySetInnerHTML={{ __html: closeImage }} />
               </div>
               <div className="tags std-txt std-txt-S">
-                <span className="tag-title">Item Type: </span><span>Suit Jackets</span><a href="javascript:void(0)" className="color-white-svg icon" dangerouslySetInnerHTML={{ __html: closeImage }} />
+                <span className="tag-title">Item Type: </span><span class="tag-item">Suit Jackets</span><a href="javascript:void(0)" className="color-white-svg icon" dangerouslySetInnerHTML={{ __html: closeImage }} />
               </div>
               <div className="tags std-txt std-txt-S">
-                <span className="tag-title">Gender: </span><span>Mens</span><a href="javascript:void(0)" className="color-white-svg icon" dangerouslySetInnerHTML={{ __html: closeImage }} />
+                <span className="tag-title">Gender: </span><span class="tag-item">Mens</span><a href="javascript:void(0)" className="color-white-svg icon" dangerouslySetInnerHTML={{ __html: closeImage }} />
               </div>
               <a className="tag-clear std-txt std-txt-S fl-left" href="javascript:void(0)">Clear All</a>
             </div>

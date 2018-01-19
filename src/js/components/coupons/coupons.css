@@ -29,11 +29,28 @@
     }
   }
   & .coupon-primary-offer, & .coupon-secondary-offer {
-    & p {
-      color: var(--color-design-system-nav);
+    & p{
+      color: var(--color-coupon-grey);
     }
   }
-
+& .coupon-secondary-offer{
+ 
+     & .coupon-text-or {  
+        font-weight: normal;
+        color: #6b7883;
+        position: relative;
+        letter-spacing: -0.2px;
+        &:before{
+          content: '';
+          width: 88%;
+          height: 1px;
+          background:#c7cdd4;
+          position: absolute;
+          top: 12px;
+          right: 0;
+        }
+      }
+}
   & .coupon-code {
     & span {
       display: inline-block;
@@ -72,4 +89,22 @@
 }
 .flex-grid {
   display: flex !important;
+}
+
+@media (--viewport-sm) {
+  .coupon-block {
+    padding: 0 !important;
+    & .coupon-list{
+        border:0;
+        width: 100%;
+        & .coupon-badge{
+          left: 0;
+        }
+      }
+    & .coupon-secondary-offer{
+        & .coupon-text-or:before {  
+      width: 89%;    
+      }
+    }
+  }
 }

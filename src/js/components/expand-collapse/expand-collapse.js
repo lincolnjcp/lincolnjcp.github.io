@@ -449,7 +449,7 @@ class ExpandCollapse extends Component {
 
           <div className="xl7 lg7 md12 sm12">
             <h2 className="title title-L">Accordions: PDP Q&A</h2>
-            <div className="accordion-block filter-accordion">
+            <div className="accordion-block filter-accordion accordion-block-answer">
               <div className="accordion">
                 <dl>
                   <dt>

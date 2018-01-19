@@ -28,7 +28,7 @@
         content: "\25BE";
         height: 1em;
         font-size: 16px;
-        line-height: 1;
+        line-height: 19px;
         position: relative;
         right: -8;
         top: 50%;
@@ -54,7 +54,7 @@
 
   & .arrow-down .arrow {
     transform: rotate(180deg);
-    top: 11px;
+    top: 8px;
   }
   & .disabled, & .disabled:hover {
     background: var(--color-lightgrey);
@@ -68,8 +68,8 @@
       position: relative;
       & .tooltip {
         position: absolute;
-        right: -5px;
-        top: 0;
+        right: 2px;
+        top:-2px;
       }
 
     & .dropdown-search-type {
@@ -110,6 +110,7 @@
     }
   }
 }
+
 .prevent-event .dropdown-button{
   pointer-events: none;
 }

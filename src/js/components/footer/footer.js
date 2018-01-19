@@ -11,7 +11,6 @@ const googlepluslineImage = require('!!raw-loader?es5=1!../../../images/global/i
 const youtubelineImage = require('!!raw-loader?es5=1!../../../images/global/icons/social/youtube-line.svg');
 const bloglineImage = require('!!raw-loader?es5=1!../../../images/global/icons/social/blog-line.svg');
 const cardJCPRed = require('!!raw-loader?es5=1!../../../images/global/icons/payment/card-jcp-red.svg');
-
 class Footer extends Component {
 
     componentDidMount() {
@@ -92,7 +91,7 @@ class Footer extends Component {
                                 <div className="css-float-label">
                                     <input type="tel" id="signup" name="signup" placeholder="Phone Number or Email..." maxlength="" className="form-control input-text" />
                                     <label for="signup">Phone Number or Email...</label>
-                                    <a href="javascript:void();" className="btn btn-S btn-primary apply-btn">Apply</a>
+                                    <a href="javascript:void();" className="btn btn-S btn-primary apply-btn">Sign Up</a>
                                     <a href="javascript:void();" className="footer-terms">*Terms & Conditions</a>
                                 </div>
                             </div>
@@ -115,7 +114,7 @@ class Footer extends Component {
                         </div>
                         <div className="social-connect md12 lg6 xl6 sm12">
                             <ul>
-                                <li className="hide-for-medium-only hide-for-small-only">Stay Connected</li>
+                                <li className="hide-for-medium-only hide-for-small-only footer-stay-conntected">Stay Connected</li>
                                 <li>
                                     <a href="javascript:void();"><span className="icon" dangerouslySetInnerHTML={{ __html: facebooklineImage }} /></a>
                                 </li>
@@ -273,7 +272,7 @@ class Footer extends Component {
                                 <ul>
                                     <li><a href="javascript:void();">Legal</a></li>
                                     <li><a href="javascript:void();">Recalls</a></li>
-                                    <li><a href="javascript:void();">AdChoices</a></li>
+                                    <li><a href="javascript:void();">AdChoices<img src="/images/global/Adchoices.png" alt="Adchoices" /> </a></li>
                                     <li><a href="javascript:void();">CA Privacy Rts</a></li>
                                     <li><a href="javascript:void();">Privacy Policy</a></li>
                                     <li><a href="javascript:void();">CA Supply Chain Act</a></li>

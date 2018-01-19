@@ -249,6 +249,10 @@ class Buttons extends Component {
                           <input type="checkbox" name="onoffswitch" className="onoffswitch-checkbox" id="onoffswitch-off"/>
                           <label className="onoffswitch-label" htmlFor="onoffswitch-off"></label>
                       </div>
+                      <div className="onoffswitch mrg-XL fl-left">
+                        <input type="checkbox" name="onoffswitch" className="onoffswitch-checkbox" id="onoffswitch-disabledOff" disabled="true"/>
+                        <label className="onoffswitch-label disabled" htmlFor="onoffswitch-disabledOff"></label>
+                    </div>
                       {/* <div className="std-txt-label">Off</div>
                       <div className="onoffswitch mrg-XL fl-left">
                           <input type="checkbox" name="onoffswitch" className="onoffswitch-checkbox" id="onoffswitch-offHover"/>
@@ -327,6 +331,16 @@ class Buttons extends Component {
                     </div>
                     <h2 className="title title-L mrg-M">Tiny Button Coupon</h2>
                     <button className="link-sm btn-tiny">see details</button>
+                    <br/><br/><br/>
+                    <h2 className="title title-L mrg-M">Disabled Button</h2>
+                    <div><a href="#" class="btn btn-S btn-disabled mrg-L">Disabled Button</a></div>
+                    <div><a href="#" class="btn btn-M btn-disabled mrg-L">Disabled Button</a></div>
+                    <div><a href="#" class="btn btn-L btn-disabled mrg-L">Disabled Button</a></div>
+                    <div><button type="button" name="button" class="btn btn-primary btn-L" disabled="">Active Button Turned Disabled</button></div>
+               
+
+                   
+               
                 </div>
 
                 <div className="row">
@@ -337,7 +351,7 @@ class Buttons extends Component {
                     </div>
                 </div>
             </div>
-
+    
         );
     }
 }

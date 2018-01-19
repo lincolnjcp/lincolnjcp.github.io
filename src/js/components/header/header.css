@@ -184,7 +184,7 @@
 			&.arrow-down {
 				& .main-menu-primary-account-link {
 					& .arrow {
-						top: 6px;
+						top: 0;
 					}
 				}
 			}
@@ -933,13 +933,16 @@
 				& .main-menu-primary-account-link {
 					display: none;
 				}
+				
 			}
-
-
+			& .dropdown-account .tooltip{
+				right: 0;
+				top: -4px;
+				left: 28px;
+		}
 			
 		}
 	}
-
 
 }
 
