@@ -3,6 +3,7 @@ import $ from 'jquery';
 
 import CodeGenerator from '../../containers/CodeGenerator.js';
 
+const heartfillImage = require('!!raw-loader?es5=1!../../../images/global/icons/action/heart-fill.svg');
 const cartImage = require('!!raw-loader?es5=1!../../../images/global/icons/utility/cart/cart.svg');
 const lockImage = require('!!raw-loader?es5=1!../../../images/global/icons/utility/lock.svg');
 const thumbsupfillImage = require('!!raw-loader?es5=1!../../../images/global/icons/action/thumbsup-fill.svg');
@@ -16,12 +17,39 @@ const listLineImageFill = require('!!raw-loader?es5=1!../../../images/global/ico
 
 class Buttons extends Component {
     componentDidMount() {
-        $(".icon-hover").hover(function() {
+        $(".icon-hover").hover(function () {
             $(this).addClass("hover");
-        }, function() {
+        }, function () {
             $(this).removeClass("hover");
         });
-      }
+
+        $(".heart").on("click", function () {
+            var parent = $(this).closest('.like-icon');
+            var tooltip = parent.find('.tooltip-content');
+            parent.closest('.like-icon').toggleClass("is-active");
+            if (parent.hasClass("is-active")) {
+                tooltip.html('Added<br /><a href="javascript:void(0);">View My Favorites</a>');
+            }
+        });
+
+        $(".like-icon").mouseleave(function() {
+            var parent = $(this).closest('.like-icon');
+            var tooltip = parent.find('.tooltip-content');
+            if(parent.hasClass("is-active")) {
+              tooltip.html('Remove Favorite');
+            } else {
+              tooltip.html('Favorite');
+            }
+        });
+
+        $(".listIcon").on("click", function () {
+            $(this).toggleClass("gridIcon");
+          });
+      
+          $('.show').on('click', function (e) {
+            $('.show').toggleClass("less");
+          });
+    }
 
     render() {
         return (
@@ -239,21 +267,21 @@ class Buttons extends Component {
                             </div>
                         </div>
                     </div>
-                </div><br/><br/><br/>
+                </div><br /><br /><br />
 
                 <div className="md12 lg12 sm12 column mrg-XL">
-                <h2 className="title title-L mrg-M">Switch</h2>
-                  <div className="switch-block md12 lg12 sm12">
-                    <div className="md4 lg4 sm12 fl-left">
-                      <div className="onoffswitch mrg-XL fl-left">
-                          <input type="checkbox" name="onoffswitch" className="onoffswitch-checkbox" id="onoffswitch-off"/>
-                          <label className="onoffswitch-label" htmlFor="onoffswitch-off"></label>
-                      </div>
-                      <div className="onoffswitch mrg-XL fl-left">
-                        <input type="checkbox" name="onoffswitch" className="onoffswitch-checkbox" id="onoffswitch-disabledOff" disabled="true"/>
-                        <label className="onoffswitch-label disabled" htmlFor="onoffswitch-disabledOff"></label>
-                    </div>
-                      {/* <div className="std-txt-label">Off</div>
+                    <h2 className="title title-L mrg-M">Switch</h2>
+                    <div className="switch-block md12 lg12 sm12">
+                        <div className="md4 lg4 sm12 fl-left">
+                            <div className="onoffswitch mrg-XL fl-left">
+                                <input type="checkbox" name="onoffswitch" className="onoffswitch-checkbox" id="onoffswitch-off" />
+                                <label className="onoffswitch-label" htmlFor="onoffswitch-off"></label>
+                            </div>
+                            <div className="onoffswitch mrg-XL fl-left">
+                                <input type="checkbox" name="onoffswitch" className="onoffswitch-checkbox" id="onoffswitch-disabledOff" disabled="true" />
+                                <label className="onoffswitch-label disabled" htmlFor="onoffswitch-disabledOff"></label>
+                            </div>
+                            {/* <div className="std-txt-label">Off</div>
                       <div className="onoffswitch mrg-XL fl-left">
                           <input type="checkbox" name="onoffswitch" className="onoffswitch-checkbox" id="onoffswitch-offHover"/>
                           <label className="onoffswitch-label hover" htmlFor="onoffswitch-offHover"></label>
@@ -281,35 +309,30 @@ class Buttons extends Component {
                           <label className="onoffswitch-label disabled" htmlFor="onoffswitch-disabledOn"></label>
                       </div>
                       <div className="std-txt-label">Disabled On</div> */}
+                        </div>
                     </div>
-                  </div>
-            </div>
-                
+                </div>
+
                 <div className="toggle-list sm12 md12 column row">
                     <h2 className="title-XL mrg-L">Icon Toggle</h2>
                     <div className="icon-toggle mrg-rght-L mrg-L">
                         <figure className="toggle-img">
                             <img src="http://via.placeholder.com/220x220" alt="" />
-                            <a href="javascript:void(0);" className="heart-icon">
-                                <span className="icon icon-hover" dangerouslySetInnerHTML={{ __html: heartlineImage }} />
-                            </a>
+                            <div className="like-icon">
+                                <span className="icon heart" dangerouslySetInnerHTML={{ __html: heartfillImage }} />
+                                <div className="tooltip tooltip-single tooltip-top-right">
+                                    <span className="tooltip-content">Favorite</span>
+                                </div>
+                            </div>
                         </figure>
+
                     </div>
                 </div>
 
                 <div className="icon-group-block md12 lg12 sm12">
                     <h2 className="title-XL mrg-L">Icon Group</h2>
-                    <div class="icon-group" role="group">
-                    <ul>
-                        <li>
-                        <span className="icon color-shadow-svg" dangerouslySetInnerHTML={{__html: gridfillImage}} />
-                        <span className="std-txt-label">&nbsp;</span>
-                        </li>
-                        <li className="mrg-rght-XL">
-                        <span className="icon color-shadow-svg" dangerouslySetInnerHTML={{__html: listLineImage}} />
-                        <span className="std-txt-label">&nbsp;</span>
-                        </li>
-                    </ul>
+                    <div class="icon-group product-gallery-block" role="group">
+                        <div class="listIcon fl-left mrg-XXL"></div>
                     </div>
                 </div>
 
@@ -317,30 +340,30 @@ class Buttons extends Component {
                     <h2 className="title title-L mrg-M">Button Group</h2>
                     <div className="btn-group-block md12 lg12 sm12">
                         <div class="btn-group" role="group">
-                        <button type="button" class="btn btn-secondary active">Tab 1</button>
-                        <button type="button" class="btn btn-secondary">Tab 2</button>
-                        <button type="button" class="btn btn-secondary hover">Tab 3</button>
-                        <button type="button" class="btn btn-secondary disabled" disabled>Tab 4</button>
+                            <button type="button" class="btn btn-secondary active">Tab 1</button>
+                            <button type="button" class="btn btn-secondary">Tab 2</button>
+                            <button type="button" class="btn btn-secondary hover">Tab 3</button>
+                            <button type="button" class="btn btn-secondary disabled" disabled>Tab 4</button>
                         </div>
                         <ul className="std-txt-label">
-                        <li>Active</li>
-                        <li>Default</li>
-                        <li>Hover</li>
-                        <li>Disabled</li>
+                            <li>Active</li>
+                            <li>Default</li>
+                            <li>Hover</li>
+                            <li>Disabled</li>
                         </ul>
                     </div>
                     <h2 className="title title-L mrg-M">Tiny Button Coupon</h2>
                     <button className="link-sm btn-tiny">see details</button>
-                    <br/><br/><br/>
+                    <br /><br /><br />
                     <h2 className="title title-L mrg-M">Disabled Button</h2>
                     <div><a href="#" class="btn btn-S btn-disabled mrg-L">Disabled Button</a></div>
                     <div><a href="#" class="btn btn-M btn-disabled mrg-L">Disabled Button</a></div>
                     <div><a href="#" class="btn btn-L btn-disabled mrg-L">Disabled Button</a></div>
                     <div><button type="button" name="button" class="btn btn-primary btn-L" disabled="">Active Button Turned Disabled</button></div>
-               
 
-                   
-               
+
+
+
                 </div>
 
                 <div className="row">
@@ -351,7 +374,7 @@ class Buttons extends Component {
                     </div>
                 </div>
             </div>
-    
+
         );
     }
 }
