@@ -9550,68 +9550,130 @@ var progressbar_ProgressBar = function (_Component) {
         null,
         react_default.a.createElement(
           "div",
-          { className: "row" },
+          { className: "row sm12 md4 lg4 xl4" },
           react_default.a.createElement(
-            "p",
-            { className: "std-txt std-txt-M color-nightsky" },
-            "Spend ",
+            "div",
+            { className: "row" },
             react_default.a.createElement(
-              "strong",
-              null,
-              "$83.00"
-            ),
-            " more to Ship to Home FREE"
-          ),
-          react_default.a.createElement(
-            "div",
-            { className: "progress-bar" },
-            react_default.a.createElement("div", { className: "progress-bar-percent" })
-          ),
-          react_default.a.createElement(
-            "p",
-            null,
-            "(will need inline style built into React component)"
-          ),
-          react_default.a.createElement("hr", null),
-          react_default.a.createElement(
-            "p",
-            { className: "std-txt std-txt-M color-nightsky" },
-            "Points"
-          ),
-          react_default.a.createElement(
-            "div",
-            { className: "tooltip tooltip-bottom-center tooltip-single" },
-            "$10"
-          ),
-          react_default.a.createElement("br", null),
-          react_default.a.createElement("br", null),
-          react_default.a.createElement(
-            "div",
-            { className: "progress-bar progress-bar-rewards" },
-            react_default.a.createElement(
-              "span",
-              { className: "progress-bar-max-points" },
-              "200"
+              "p",
+              { className: "std-txt std-txt-M color-nightsky" },
+              react_default.a.createElement(
+                "strong",
+                null,
+                "Points"
+              )
             ),
             react_default.a.createElement(
               "div",
-              { className: "progress-bar-percent" },
-              "165"
+              { className: "progress-bar progress-bar-rewards position-rel" },
+              react_default.a.createElement(
+                "div",
+                { className: "tooltip tooltip-bottom-center tooltip-single" },
+                "$10"
+              ),
+              react_default.a.createElement(
+                "span",
+                { className: "progress-bar-max-points" },
+                "200"
+              ),
+              react_default.a.createElement(
+                "div",
+                { className: "progress-bar-percent" },
+                "150"
+              )
+            ),
+            react_default.a.createElement(
+              "p",
+              { className: "S text-center" },
+              react_default.a.createElement(
+                "strong",
+                null,
+                "35 points"
+              ),
+              " away from your next ",
+              react_default.a.createElement(
+                "strong",
+                null,
+                "$10 reward*"
+              )
             )
           ),
+          react_default.a.createElement("br", null),
+          react_default.a.createElement("br", null),
+          react_default.a.createElement("br", null),
           react_default.a.createElement(
-            "p",
-            { className: "S" },
+            "div",
+            { className: "row" },
             react_default.a.createElement(
-              "strong",
-              null,
-              "35 points"
+              "div",
+              { className: "progress-bar" },
+              react_default.a.createElement("div", { className: "progress-bar-percent" })
             ),
-            " away from your next ",
             react_default.a.createElement(
-              "strong",
-              null,
-              "$10 reward*"
+              "p",
+              { className: "std-txt std-txt-M color-nightsky text-center" },
+              "Spend ",
+              react_default.a.createElement(
+                "strong",
+                null,
+                "$83.00"
+              ),
+              " more to earn ",
+              react_default.a.createElement(
+                "strong",
+                { className: "color-penneyred" },
+                "FREE SHIPPING"
+              )
+            )
+          ),
+          react_default.a.createElement("br", null),
+          react_default.a.createElement("br", null),
+          react_default.a.createElement("br", null),
+          react_default.a.createElement(
+            "div",
+            { className: "row progress-bar-box" },
+            react_default.a.createElement(
+              "p",
+              { className: "std-txt std-txt-M color-nightsky" },
+              react_default.a.createElement(
+                "strong",
+                null,
+                "Points"
+              )
+            ),
+            react_default.a.createElement(
+              "div",
+              { className: "progress-bar progress-bar-rewards position-rel" },
+              react_default.a.createElement(
+                "div",
+                { className: "tooltip tooltip-bottom-center tooltip-single" },
+                "$10"
+              ),
+              react_default.a.createElement(
+                "span",
+                { className: "progress-bar-max-points" },
+                "200"
+              ),
+              react_default.a.createElement(
+                "div",
+                { className: "progress-bar-percent" },
+                "150"
+              )
+            ),
+            react_default.a.createElement(
+              "p",
+              { className: "S text-center" },
+              react_default.a.createElement(
+                "strong",
+                null,
+                "35 points"
+              ),
+              " away from your next ",
+              react_default.a.createElement(
+                "strong",
+                null,
+                "$10 reward*"
+              )
             )
           )
         )
@@ -26116,8 +26178,8 @@ var DesignSystemPage_DesignSystemPage = function (_Component) {
                 LikeDislike: { componentElement: components_like_dislike, componentDisplayName: "Like Dislike Messages", componentSubNav: ['Like Dislike Messages'] },
                 ExpandCollapse: { componentElement: components_expand_collapse, componentDisplayName: "Expand Collapse", componentSubNav: ['ExpandCollapse'] },
                 RecommendationZone: { componentElement: components_recommendation_zone, componentDisplayName: "Recommendation Zone", componentSubNav: ['RecommendationZone'] },
-                Pricing: { componentElement: components_pricing, componentDisplayName: "Pricing", componentSubNav: ['Pricing'] }
-
+                Pricing: { componentElement: components_pricing, componentDisplayName: "Pricing", componentSubNav: ['Pricing'] },
+                ProgressBar: { componentElement: components_progressbar, componentDisplayName: "ProgressBar", componentSubNav: ['ProgressBar'] }
             };
 
             var Scene = routes[this.props.componentName].componentElement;
