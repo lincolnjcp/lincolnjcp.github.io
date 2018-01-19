@@ -281,34 +281,6 @@ class Buttons extends Component {
                                 <input type="checkbox" name="onoffswitch" className="onoffswitch-checkbox" id="onoffswitch-disabledOff" disabled="true" />
                                 <label className="onoffswitch-label disabled" htmlFor="onoffswitch-disabledOff"></label>
                             </div>
-                            {/* <div className="std-txt-label">Off</div>
-                      <div className="onoffswitch mrg-XL fl-left">
-                          <input type="checkbox" name="onoffswitch" className="onoffswitch-checkbox" id="onoffswitch-offHover"/>
-                          <label className="onoffswitch-label hover" htmlFor="onoffswitch-offHover"></label>
-                      </div>
-                      <div className="std-txt-label">Off Hover</div>
-                      <div className="onoffswitch mrg-XL fl-left">
-                          <input type="checkbox" name="onoffswitch" className="onoffswitch-checkbox" id="onoffswitch-on" checked="true"/>
-                          <label className="onoffswitch-label" htmlFor="onoffswitch-on"></label>
-                      </div>
-                      <div className="std-txt-label">On</div>
-                      <div className="onoffswitch mrg-XL fl-left">
-                          <input type="checkbox" name="onoffswitch" className="onoffswitch-checkbox" id="onoffswitch-onHover" checked="true"/>
-                          <label className="onoffswitch-label hover" htmlFor="onoffswitch-onHover"></label>
-                      </div>
-                      <div className="std-txt-label">On Hover</div>
-                    </div>
-                    <div className="md4 lg4 sm12 fl-left">
-                      <div className="onoffswitch mrg-XL fl-left">
-                          <input type="checkbox" name="onoffswitch" className="onoffswitch-checkbox" id="onoffswitch-disabledOff" disabled="true"/>
-                          <label className="onoffswitch-label disabled" htmlFor="onoffswitch-disabledOff"></label>
-                      </div>
-                      <div className="std-txt-label">Disabled Off</div>
-                      <div className="onoffswitch mrg-XL fl-left">
-                          <input type="checkbox" name="onoffswitch" className="onoffswitch-checkbox" id="onoffswitch-disabledOn" checked="true"/>
-                          <label className="onoffswitch-label disabled" htmlFor="onoffswitch-disabledOn"></label>
-                      </div>
-                      <div className="std-txt-label">Disabled On</div> */}
                         </div>
                     </div>
                 </div>
@@ -360,10 +332,6 @@ class Buttons extends Component {
                     <div><a href="#" class="btn btn-M btn-disabled mrg-L">Disabled Button</a></div>
                     <div><a href="#" class="btn btn-L btn-disabled mrg-L">Disabled Button</a></div>
                     <div><button type="button" name="button" class="btn btn-primary btn-L" disabled="">Active Button Turned Disabled</button></div>
-
-
-
-
                 </div>
 
                 <div className="row">

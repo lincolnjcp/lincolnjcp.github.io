@@ -958,6 +958,7 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 
 
 
+var heartfillImage = __webpack_require__("/KOU");
 var cartImage = __webpack_require__("3enj");
 var lockImage = __webpack_require__("vfeN");
 var thumbsupfillImage = __webpack_require__("JRc0");
@@ -994,6 +995,24 @@ var buttons_Buttons = function (_Component) {
                 if (parent.hasClass("is-active")) {
                     tooltip.html('Added<br /><a href="javascript:void(0);">View My Favorites</a>');
                 }
+            });
+
+            jquery_default()(".like-icon").mouseleave(function () {
+                var parent = jquery_default()(this).closest('.like-icon');
+                var tooltip = parent.find('.tooltip-content');
+                if (parent.hasClass("is-active")) {
+                    tooltip.html('Remove Favorite');
+                } else {
+                    tooltip.html('Favorite');
+                }
+            });
+
+            jquery_default()(".listIcon").on("click", function () {
+                jquery_default()(this).toggleClass("gridIcon");
+            });
+
+            jquery_default()('.show').on('click', function (e) {
+                jquery_default()('.show').toggleClass("less");
             });
         }
     }, {
@@ -1473,22 +1492,17 @@ var buttons_Buttons = function (_Component) {
                             { className: 'toggle-img' },
                             react_default.a.createElement('img', { src: 'http://via.placeholder.com/220x220', alt: '' }),
                             react_default.a.createElement(
-                                'a',
-                                { href: 'javascript:void(0);', className: 'heart-icon' },
-                                react_default.a.createElement('span', { className: 'icon icon-hover', dangerouslySetInnerHTML: { __html: heartlineImage } })
-                            )
-                        ),
-                        react_default.a.createElement(
-                            'div',
-                            { className: 'like-icon' },
-                            react_default.a.createElement('span', { className: 'icon heart', dangerouslySetInnerHTML: { __html: heartfillImage } }),
-                            react_default.a.createElement(
                                 'div',
-                                { className: 'tooltip tooltip-single tooltip-top-right' },
+                                { className: 'like-icon' },
+                                react_default.a.createElement('span', { className: 'icon heart', dangerouslySetInnerHTML: { __html: heartfillImage } }),
                                 react_default.a.createElement(
-                                    'span',
-                                    { className: 'tooltip-content' },
-                                    'Favorite'
+                                    'div',
+                                    { className: 'tooltip tooltip-single tooltip-top-right' },
+                                    react_default.a.createElement(
+                                        'span',
+                                        { className: 'tooltip-content' },
+                                        'Favorite'
+                                    )
                                 )
                             )
                         )
@@ -1504,31 +1518,8 @@ var buttons_Buttons = function (_Component) {
                     ),
                     react_default.a.createElement(
                         'div',
-                        { 'class': 'icon-group', role: 'group' },
-                        react_default.a.createElement(
-                            'ul',
-                            null,
-                            react_default.a.createElement(
-                                'li',
-                                null,
-                                react_default.a.createElement('span', { className: 'icon color-shadow-svg', dangerouslySetInnerHTML: { __html: gridfillImage } }),
-                                react_default.a.createElement(
-                                    'span',
-                                    { className: 'std-txt-label' },
-                                    '\xA0'
-                                )
-                            ),
-                            react_default.a.createElement(
-                                'li',
-                                { className: 'mrg-rght-XL' },
-                                react_default.a.createElement('span', { className: 'icon color-shadow-svg', dangerouslySetInnerHTML: { __html: listLineImage } }),
-                                react_default.a.createElement(
-                                    'span',
-                                    { className: 'std-txt-label' },
-                                    '\xA0'
-                                )
-                            )
-                        )
+                        { 'class': 'icon-group product-gallery-block', role: 'group' },
+                        react_default.a.createElement('div', { 'class': 'listIcon fl-left mrg-XXL' })
                     )
                 ),
                 react_default.a.createElement(
