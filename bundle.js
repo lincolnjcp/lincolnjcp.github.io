@@ -233,9 +233,9 @@ var _temp = function () {
         return;
     }
 
-    __REACT_HOT_LOADER__.register(CodeGenerator, 'CodeGenerator', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/containers/CodeGenerator.js');
+    __REACT_HOT_LOADER__.register(CodeGenerator, 'CodeGenerator', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/containers/CodeGenerator.js');
 
-    __REACT_HOT_LOADER__.register(_default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/containers/CodeGenerator.js');
+    __REACT_HOT_LOADER__.register(_default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/containers/CodeGenerator.js');
 }();
 
 ;
@@ -933,7 +933,7 @@ var _temp = function () {
         return;
     }
 
-    __REACT_HOT_LOADER__.register(rootNav, 'rootNav', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/containers/config/rootConfig.js');
+    __REACT_HOT_LOADER__.register(rootNav, 'rootNav', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/containers/config/rootConfig.js');
 }();
 
 ;
@@ -1533,7 +1533,7 @@ var buttons_Buttons = function (_Component) {
                             ),
                             react_default.a.createElement(
                                 'button',
-                                { type: 'button', 'class': 'btn btn-secondary disabled' },
+                                { type: 'button', 'class': 'btn btn-secondary disabled', disabled: true },
                                 'Tab 4'
                             )
                         ),
@@ -1618,9 +1618,9 @@ var buttons__temp = function () {
         return;
     }
 
-    __REACT_HOT_LOADER__.register(buttons_Buttons, 'Buttons', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/buttons/buttons.js');
+    __REACT_HOT_LOADER__.register(buttons_Buttons, 'Buttons', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/buttons/buttons.js');
 
-    __REACT_HOT_LOADER__.register(_default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/buttons/buttons.js');
+    __REACT_HOT_LOADER__.register(_default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/buttons/buttons.js');
 }();
 
 ;
@@ -1635,7 +1635,7 @@ var components_buttons__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(buttons__default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/buttons/index.js');
+  __REACT_HOT_LOADER__.register(buttons__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/buttons/index.js');
 }();
 
 ;
@@ -2432,11 +2432,11 @@ var color__temp = function () {
         return;
     }
 
-    __REACT_HOT_LOADER__.register(SubNavLinks, 'SubNavLinks', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/color/color.js');
+    __REACT_HOT_LOADER__.register(SubNavLinks, 'SubNavLinks', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/color/color.js');
 
-    __REACT_HOT_LOADER__.register(color_Color, 'Color', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/color/color.js');
+    __REACT_HOT_LOADER__.register(color_Color, 'Color', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/color/color.js');
 
-    __REACT_HOT_LOADER__.register(color__default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/color/color.js');
+    __REACT_HOT_LOADER__.register(color__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/color/color.js');
 }();
 
 ;
@@ -2451,7 +2451,7 @@ var components_color__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_color__default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/color/index.js');
+  __REACT_HOT_LOADER__.register(components_color__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/color/index.js');
 }();
 
 ;
@@ -3307,11 +3307,11 @@ var icons__temp = function () {
         return;
     }
 
-    __REACT_HOT_LOADER__.register(icons_ColorPicker, 'ColorPicker', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/icons/icons.js');
+    __REACT_HOT_LOADER__.register(icons_ColorPicker, 'ColorPicker', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/icons/icons.js');
 
-    __REACT_HOT_LOADER__.register(icons_Icons, 'Icons', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/icons/icons.js');
+    __REACT_HOT_LOADER__.register(icons_Icons, 'Icons', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/icons/icons.js');
 
-    __REACT_HOT_LOADER__.register(icons__default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/icons/icons.js');
+    __REACT_HOT_LOADER__.register(icons__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/icons/icons.js');
 }();
 
 ;
@@ -3326,7 +3326,7 @@ var components_icons__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_icons__default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/icons/index.js');
+  __REACT_HOT_LOADER__.register(components_icons__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/icons/index.js');
 }();
 
 ;
@@ -4102,9 +4102,9 @@ var grid__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(grid_Grid, "Grid", "C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/grid/grid.js");
+  __REACT_HOT_LOADER__.register(grid_Grid, "Grid", "/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/grid/grid.js");
 
-  __REACT_HOT_LOADER__.register(grid__default, "default", "C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/grid/grid.js");
+  __REACT_HOT_LOADER__.register(grid__default, "default", "/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/grid/grid.js");
 }();
 
 ;
@@ -4119,7 +4119,7 @@ var components_grid__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_grid__default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/grid/index.js');
+  __REACT_HOT_LOADER__.register(components_grid__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/grid/index.js');
 }();
 
 ;
@@ -4247,6 +4247,12 @@ var typography_Typography = function (_Component) {
                                     }, {
                                         text: 'S',
                                         value: 'price price-S'
+                                    }, {
+                                        text: 'XS',
+                                        value: 'price price-XS'
+                                    }, {
+                                        text: 'XXS',
+                                        value: 'price price-XXS'
                                     }]
                                 }, {
                                     displayLabel: "Title",
@@ -4826,9 +4832,9 @@ var typography__temp = function () {
         return;
     }
 
-    __REACT_HOT_LOADER__.register(typography_Typography, 'Typography', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/typography/typography.js');
+    __REACT_HOT_LOADER__.register(typography_Typography, 'Typography', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/typography/typography.js');
 
-    __REACT_HOT_LOADER__.register(typography__default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/typography/typography.js');
+    __REACT_HOT_LOADER__.register(typography__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/typography/typography.js');
 }();
 
 ;
@@ -4843,7 +4849,7 @@ var components_typography__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_typography__default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/typography/index.js');
+  __REACT_HOT_LOADER__.register(components_typography__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/typography/index.js');
 }();
 
 ;
@@ -5204,9 +5210,9 @@ var alerts__temp = function () {
         return;
     }
 
-    __REACT_HOT_LOADER__.register(alerts_Alerts, 'Alerts', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/alerts/alerts.js');
+    __REACT_HOT_LOADER__.register(alerts_Alerts, 'Alerts', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/alerts/alerts.js');
 
-    __REACT_HOT_LOADER__.register(alerts__default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/alerts/alerts.js');
+    __REACT_HOT_LOADER__.register(alerts__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/alerts/alerts.js');
 }();
 
 ;
@@ -5221,7 +5227,7 @@ var components_alerts__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_alerts__default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/alerts/index.js');
+  __REACT_HOT_LOADER__.register(components_alerts__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/alerts/index.js');
 }();
 
 ;
@@ -5561,9 +5567,9 @@ var badges__temp = function () {
         return;
     }
 
-    __REACT_HOT_LOADER__.register(badges_Badges, 'Badges', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/badges/badges.js');
+    __REACT_HOT_LOADER__.register(badges_Badges, 'Badges', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/badges/badges.js');
 
-    __REACT_HOT_LOADER__.register(badges__default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/badges/badges.js');
+    __REACT_HOT_LOADER__.register(badges__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/badges/badges.js');
 }();
 
 ;
@@ -5578,7 +5584,7 @@ var components_badges__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_badges__default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/badges/index.js');
+  __REACT_HOT_LOADER__.register(components_badges__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/badges/index.js');
 }();
 
 ;
@@ -6050,9 +6056,9 @@ var content_loaders__temp = function () {
         return;
     }
 
-    __REACT_HOT_LOADER__.register(content_loaders_ContentLoaders, 'ContentLoaders', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/content-loaders/content-loaders.js');
+    __REACT_HOT_LOADER__.register(content_loaders_ContentLoaders, 'ContentLoaders', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/content-loaders/content-loaders.js');
 
-    __REACT_HOT_LOADER__.register(content_loaders__default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/content-loaders/content-loaders.js');
+    __REACT_HOT_LOADER__.register(content_loaders__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/content-loaders/content-loaders.js');
 }();
 
 ;
@@ -6067,7 +6073,7 @@ var components_content_loaders__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_content_loaders__default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/content-loaders/index.js');
+  __REACT_HOT_LOADER__.register(components_content_loaders__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/content-loaders/index.js');
 }();
 
 ;
@@ -6958,9 +6964,9 @@ var dropdown_button__temp = function () {
         return;
     }
 
-    __REACT_HOT_LOADER__.register(dropdown_button_DropdownButton, 'DropdownButton', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/dropdown-button/dropdown-button.js');
+    __REACT_HOT_LOADER__.register(dropdown_button_DropdownButton, 'DropdownButton', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/dropdown-button/dropdown-button.js');
 
-    __REACT_HOT_LOADER__.register(dropdown_button__default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/dropdown-button/dropdown-button.js');
+    __REACT_HOT_LOADER__.register(dropdown_button__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/dropdown-button/dropdown-button.js');
 }();
 
 ;
@@ -6975,7 +6981,7 @@ var components_dropdown_button__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_dropdown_button__default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/dropdown-button/index.js');
+  __REACT_HOT_LOADER__.register(components_dropdown_button__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/dropdown-button/index.js');
 }();
 
 ;
@@ -7450,9 +7456,9 @@ var tables__temp = function () {
         return;
     }
 
-    __REACT_HOT_LOADER__.register(tables_Tables, 'Tables', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/tables/tables.js');
+    __REACT_HOT_LOADER__.register(tables_Tables, 'Tables', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/tables/tables.js');
 
-    __REACT_HOT_LOADER__.register(tables__default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/tables/tables.js');
+    __REACT_HOT_LOADER__.register(tables__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/tables/tables.js');
 }();
 
 ;
@@ -7467,7 +7473,7 @@ var components_tables__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_tables__default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/tables/index.js');
+  __REACT_HOT_LOADER__.register(components_tables__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/tables/index.js');
 }();
 
 ;
@@ -9058,9 +9064,9 @@ var forms__temp = function () {
         return;
     }
 
-    __REACT_HOT_LOADER__.register(forms_Forms, 'Forms', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/forms/forms.js');
+    __REACT_HOT_LOADER__.register(forms_Forms, 'Forms', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/forms/forms.js');
 
-    __REACT_HOT_LOADER__.register(forms__default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/forms/forms.js');
+    __REACT_HOT_LOADER__.register(forms__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/forms/forms.js');
 }();
 
 ;
@@ -9075,7 +9081,7 @@ var components_forms__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_forms__default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/forms/index.js');
+  __REACT_HOT_LOADER__.register(components_forms__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/forms/index.js');
 }();
 
 ;
@@ -9287,7 +9293,7 @@ var star_ratings_ContentLoaders = function (_Component) {
                                         react_default.a.createElement(
                                             'span',
                                             { className: 'rating-count' },
-                                            '(47)'
+                                            '47'
                                         )
                                     )
                                 ),
@@ -9327,8 +9333,8 @@ var star_ratings_ContentLoaders = function (_Component) {
                                         '\u2605',
                                         react_default.a.createElement(
                                             'span',
-                                            { className: 'rating-count' },
-                                            '(47)'
+                                            { className: 'rating-count rating-count-s' },
+                                            '47'
                                         )
                                     )
                                 )
@@ -9395,9 +9401,9 @@ var star_ratings__temp = function () {
         return;
     }
 
-    __REACT_HOT_LOADER__.register(star_ratings_ContentLoaders, 'ContentLoaders', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/star-ratings/star-ratings.js');
+    __REACT_HOT_LOADER__.register(star_ratings_ContentLoaders, 'ContentLoaders', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/star-ratings/star-ratings.js');
 
-    __REACT_HOT_LOADER__.register(star_ratings__default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/star-ratings/star-ratings.js');
+    __REACT_HOT_LOADER__.register(star_ratings__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/star-ratings/star-ratings.js');
 }();
 
 ;
@@ -9412,7 +9418,7 @@ var components_star_ratings__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_star_ratings__default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/star-ratings/index.js');
+  __REACT_HOT_LOADER__.register(components_star_ratings__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/star-ratings/index.js');
 }();
 
 ;
@@ -9492,9 +9498,9 @@ var scrollbar__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(scrollbar_Pricing, "Pricing", "C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/scrollbar/scrollbar.js");
+  __REACT_HOT_LOADER__.register(scrollbar_Pricing, "Pricing", "/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/scrollbar/scrollbar.js");
 
-  __REACT_HOT_LOADER__.register(scrollbar__default, "default", "C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/scrollbar/scrollbar.js");
+  __REACT_HOT_LOADER__.register(scrollbar__default, "default", "/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/scrollbar/scrollbar.js");
 }();
 
 ;
@@ -9509,7 +9515,7 @@ var components_scrollbar__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_scrollbar__default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/scrollbar/index.js');
+  __REACT_HOT_LOADER__.register(components_scrollbar__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/scrollbar/index.js');
 }();
 
 ;
@@ -11570,9 +11576,9 @@ var pricing__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(pricing_Scrollbar, "Scrollbar", "C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/pricing/pricing.js");
+  __REACT_HOT_LOADER__.register(pricing_Scrollbar, "Scrollbar", "/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/pricing/pricing.js");
 
-  __REACT_HOT_LOADER__.register(pricing__default, "default", "C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/pricing/pricing.js");
+  __REACT_HOT_LOADER__.register(pricing__default, "default", "/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/pricing/pricing.js");
 }();
 
 ;
@@ -11587,7 +11593,7 @@ var components_pricing__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_pricing__default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/pricing/index.js');
+  __REACT_HOT_LOADER__.register(components_pricing__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/pricing/index.js');
 }();
 
 ;
@@ -11873,9 +11879,9 @@ var visual_navigation__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(visual_navigation_VisualNavigation, "VisualNavigation", "C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/visual-navigation/visual-navigation.js");
+  __REACT_HOT_LOADER__.register(visual_navigation_VisualNavigation, "VisualNavigation", "/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/visual-navigation/visual-navigation.js");
 
-  __REACT_HOT_LOADER__.register(visual_navigation__default, "default", "C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/visual-navigation/visual-navigation.js");
+  __REACT_HOT_LOADER__.register(visual_navigation__default, "default", "/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/visual-navigation/visual-navigation.js");
 }();
 
 ;
@@ -11890,7 +11896,7 @@ var components_visual_navigation__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_visual_navigation__default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/visual-navigation/index.js');
+  __REACT_HOT_LOADER__.register(components_visual_navigation__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/visual-navigation/index.js');
 }();
 
 ;
@@ -12123,9 +12129,9 @@ var modal__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(modal_Modal, 'Modal', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/modal/modal.js');
+  __REACT_HOT_LOADER__.register(modal_Modal, 'Modal', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/modal/modal.js');
 
-  __REACT_HOT_LOADER__.register(modal__default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/modal/modal.js');
+  __REACT_HOT_LOADER__.register(modal__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/modal/modal.js');
 }();
 
 ;
@@ -12140,7 +12146,7 @@ var components_modal__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_modal__default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/modal/index.js');
+  __REACT_HOT_LOADER__.register(components_modal__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/modal/index.js');
 }();
 
 ;
@@ -12626,9 +12632,9 @@ var countdown_timers__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(countdown_timers_CountdownTimers, 'CountdownTimers', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/countdown-timers/countdown-timers.js');
+  __REACT_HOT_LOADER__.register(countdown_timers_CountdownTimers, 'CountdownTimers', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/countdown-timers/countdown-timers.js');
 
-  __REACT_HOT_LOADER__.register(countdown_timers__default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/countdown-timers/countdown-timers.js');
+  __REACT_HOT_LOADER__.register(countdown_timers__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/countdown-timers/countdown-timers.js');
 }();
 
 ;
@@ -12643,7 +12649,7 @@ var components_countdown_timers__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_countdown_timers__default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/countdown-timers/index.js');
+  __REACT_HOT_LOADER__.register(components_countdown_timers__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/countdown-timers/index.js');
 }();
 
 ;
@@ -12659,291 +12665,322 @@ function tooltips__inherits(subClass, superClass) { if (typeof superClass !== "f
 
 
 var tooltips_Tooltips = function (_Component) {
-          tooltips__inherits(Tooltips, _Component);
+  tooltips__inherits(Tooltips, _Component);
 
-          function Tooltips() {
-                    tooltips__classCallCheck(this, Tooltips);
+  function Tooltips() {
+    tooltips__classCallCheck(this, Tooltips);
 
-                    return tooltips__possibleConstructorReturn(this, (Tooltips.__proto__ || Object.getPrototypeOf(Tooltips)).apply(this, arguments));
-          }
+    return tooltips__possibleConstructorReturn(this, (Tooltips.__proto__ || Object.getPrototypeOf(Tooltips)).apply(this, arguments));
+  }
 
-          tooltips__createClass(Tooltips, [{
-                    key: "componentDidMount",
-                    value: function componentDidMount() {}
-          }, {
-                    key: "render",
-                    value: function render() {
-                              return react_default.a.createElement(
-                                        "div",
-                                        null,
-                                        react_default.a.createElement(
-                                                  "div",
-                                                  { className: "mrg-L row" },
-                                                  react_default.a.createElement(
-                                                            "div",
-                                                            { className: "tooltip" },
-                                                            react_default.a.createElement(
-                                                                      "span",
-                                                                      null,
-                                                                      "Multi-line tooltips have 16px of padding. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit."
-                                                            )
-                                                  ),
-                                                  react_default.a.createElement("br", null),
-                                                  react_default.a.createElement(
-                                                            "div",
-                                                            { className: "tooltip tooltip-single" },
-                                                            react_default.a.createElement(
-                                                                      "span",
-                                                                      null,
-                                                                      "tooltip tooltip new"
-                                                            )
-                                                  ),
-                                                  react_default.a.createElement("br", null),
-                                                  react_default.a.createElement("br", null),
-                                                  react_default.a.createElement("br", null),
-                                                  react_default.a.createElement("br", null),
-                                                  react_default.a.createElement(
-                                                            "div",
-                                                            { className: "tooltip tooltip-single tooltip-right-side" },
-                                                            react_default.a.createElement(
-                                                                      "span",
-                                                                      null,
-                                                                      "tooltip right side"
-                                                            )
-                                                  ),
-                                                  react_default.a.createElement("br", null),
-                                                  react_default.a.createElement("br", null),
-                                                  react_default.a.createElement(
-                                                            "div",
-                                                            { className: "tooltip tooltip-single tooltip-left-side" },
-                                                            react_default.a.createElement(
-                                                                      "span",
-                                                                      null,
-                                                                      "tooltip left side"
-                                                            )
-                                                  ),
-                                                  react_default.a.createElement("br", null),
-                                                  react_default.a.createElement(
-                                                            "div",
-                                                            { className: "tooltip tooltip-bottom-center" },
-                                                            react_default.a.createElement(
-                                                                      "span",
-                                                                      null,
-                                                                      "Multi-line tooltips have 16px of padding. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit."
-                                                            )
-                                                  ),
-                                                  react_default.a.createElement("br", null),
-                                                  react_default.a.createElement(
-                                                            "div",
-                                                            { className: "tooltip tooltip-bottom-right" },
-                                                            react_default.a.createElement(
-                                                                      "span",
-                                                                      null,
-                                                                      "Multi-line tooltips have 16px of padding. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit."
-                                                            )
-                                                  ),
-                                                  react_default.a.createElement("br", null),
-                                                  react_default.a.createElement(
-                                                            "div",
-                                                            { className: "tooltip tooltip-top-left" },
-                                                            react_default.a.createElement(
-                                                                      "span",
-                                                                      null,
-                                                                      "Multi-line tooltips have 16px of padding. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit."
-                                                            )
-                                                  ),
-                                                  react_default.a.createElement("br", null),
-                                                  react_default.a.createElement(
-                                                            "div",
-                                                            { className: "tooltip tooltip-dark" },
-                                                            react_default.a.createElement(
-                                                                      "span",
-                                                                      null,
-                                                                      "Multi-line tooltips have 16px of padding. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit."
-                                                            )
-                                                  ),
-                                                  react_default.a.createElement("br", null),
-                                                  react_default.a.createElement(
-                                                            "div",
-                                                            { className: "tooltip tooltip-top-center" },
-                                                            react_default.a.createElement(
-                                                                      "span",
-                                                                      null,
-                                                                      "Multi-line tooltips have 16px of padding. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit."
-                                                            )
-                                                  ),
-                                                  react_default.a.createElement("br", null),
-                                                  react_default.a.createElement(
-                                                            "div",
-                                                            { className: "tooltip tooltip-top-right" },
-                                                            react_default.a.createElement(
-                                                                      "span",
-                                                                      null,
-                                                                      "Multi-line tooltips have 16px of padding. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit."
-                                                            )
-                                                  ),
-                                                  react_default.a.createElement("br", null),
-                                                  react_default.a.createElement(
-                                                            "div",
-                                                            { className: "tooltip tooltip-top-right tooltip-long tooltip-list" },
-                                                            react_default.a.createElement(
-                                                                      "ul",
-                                                                      null,
-                                                                      react_default.a.createElement(
-                                                                                "li",
-                                                                                null,
-                                                                                react_default.a.createElement(
-                                                                                          "a",
-                                                                                          { href: "#" },
-                                                                                          "My Account"
-                                                                                )
-                                                                      ),
-                                                                      react_default.a.createElement(
-                                                                                "li",
-                                                                                null,
-                                                                                react_default.a.createElement(
-                                                                                          "a",
-                                                                                          { href: "#" },
-                                                                                          "My Rewards"
-                                                                                )
-                                                                      ),
-                                                                      react_default.a.createElement(
-                                                                                "li",
-                                                                                null,
-                                                                                react_default.a.createElement(
-                                                                                          "a",
-                                                                                          { href: "#" },
-                                                                                          "My Orders"
-                                                                                )
-                                                                      ),
-                                                                      react_default.a.createElement(
-                                                                                "li",
-                                                                                null,
-                                                                                react_default.a.createElement(
-                                                                                          "a",
-                                                                                          { href: "#" },
-                                                                                          "My Rewards (0)"
-                                                                                )
-                                                                      ),
-                                                                      react_default.a.createElement(
-                                                                                "li",
-                                                                                null,
-                                                                                react_default.a.createElement(
-                                                                                          "a",
-                                                                                          { href: "#" },
-                                                                                          "My List"
-                                                                                )
-                                                                      ),
-                                                                      react_default.a.createElement(
-                                                                                "li",
-                                                                                null,
-                                                                                react_default.a.createElement(
-                                                                                          "a",
-                                                                                          { href: "#" },
-                                                                                          "Profile Settings"
-                                                                                )
-                                                                      ),
-                                                                      react_default.a.createElement(
-                                                                                "li",
-                                                                                null,
-                                                                                react_default.a.createElement(
-                                                                                          "a",
-                                                                                          { href: "#" },
-                                                                                          "Nofications"
-                                                                                )
-                                                                      ),
-                                                                      react_default.a.createElement(
-                                                                                "li",
-                                                                                null,
-                                                                                react_default.a.createElement(
-                                                                                          "a",
-                                                                                          { href: "#" },
-                                                                                          "My JCPenney.com"
-                                                                                )
-                                                                      ),
-                                                                      react_default.a.createElement(
-                                                                                "li",
-                                                                                null,
-                                                                                react_default.a.createElement(
-                                                                                          "a",
-                                                                                          { href: "#" },
-                                                                                          "Gift Registry"
-                                                                                )
-                                                                      ),
-                                                                      react_default.a.createElement(
-                                                                                "li",
-                                                                                null,
-                                                                                react_default.a.createElement(
-                                                                                          "a",
-                                                                                          { href: "#" },
-                                                                                          "JCPenney Credit Card"
-                                                                                )
-                                                                      ),
-                                                                      react_default.a.createElement(
-                                                                                "li",
-                                                                                { className: "tooltip-divider" },
-                                                                                react_default.a.createElement(
-                                                                                          "a",
-                                                                                          { href: "#" },
-                                                                                          "Sign Out"
-                                                                                )
-                                                                      )
-                                                            )
-                                                  ),
-                                                  react_default.a.createElement("br", null),
-                                                  react_default.a.createElement(
-                                                            "div",
-                                                            { className: "tooltip tooltip-top-right" },
-                                                            react_default.a.createElement(
-                                                                      "span",
-                                                                      null,
-                                                                      react_default.a.createElement(
-                                                                                "h1",
-                                                                                { className: "title title-M mrg-S" },
-                                                                                "This is a Tooltip H1 Title"
-                                                                      ),
-                                                                      "Multi-line tooltips have 16px of padding. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.Multi-line tooltips have 16px of padding. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit."
-                                                            )
-                                                  ),
-                                                  react_default.a.createElement("br", null),
-                                                  react_default.a.createElement("br", null),
-                                                  react_default.a.createElement(
-                                                            "div",
-                                                            { className: "tooltip tooltip-dark tooltip-top-right" },
-                                                            react_default.a.createElement(
-                                                                      "span",
-                                                                      null,
-                                                                      "Multi-line tooltips have 16px of padding. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.Multi-line tooltips have 16px of padding. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit."
-                                                            )
-                                                  ),
-                                                  react_default.a.createElement("br", null),
-                                                  react_default.a.createElement("br", null),
-                                                  react_default.a.createElement(
-                                                            "div",
-                                                            { className: "tooltip tooltip-right-side" },
-                                                            react_default.a.createElement("div", { className: "tooltip-close" }),
-                                                            react_default.a.createElement(
-                                                                      "span",
-                                                                      null,
-                                                                      react_default.a.createElement(
-                                                                                "h1",
-                                                                                { className: "title title-M mrg-S" },
-                                                                                "This is a Tooltip H1 Title"
-                                                                      ),
-                                                                      react_default.a.createElement("input", { type: "radio", id: "tooltip-radio", name: "tootlip-radio" }),
-                                                                      react_default.a.createElement(
-                                                                                "label",
-                                                                                { "for": "tooltip-radio" },
-                                                                                "Vanilla label"
-                                                                      )
-                                                            )
-                                                  )
-                                        )
-                              );
-                    }
-          }]);
+  tooltips__createClass(Tooltips, [{
+    key: "componentDidMount",
+    value: function componentDidMount() {}
+  }, {
+    key: "render",
+    value: function render() {
+      return react_default.a.createElement(
+        "div",
+        null,
+        react_default.a.createElement(
+          "div",
+          { className: "mrg-L row" },
+          react_default.a.createElement(
+            "div",
+            { className: "tooltip tooltip-single tooltip-left-side" },
+            react_default.a.createElement(
+              "span",
+              null,
+              "Tooltip left side"
+            )
+          ),
+          react_default.a.createElement("br", null),
+          react_default.a.createElement("br", null),
+          react_default.a.createElement("br", null),
+          react_default.a.createElement("br", null),
+          react_default.a.createElement(
+            "div",
+            { className: "tooltip tooltip-single tooltip-top-left" },
+            react_default.a.createElement(
+              "span",
+              null,
+              "Tooltip Top left side"
+            )
+          ),
+          react_default.a.createElement("br", null),
+          react_default.a.createElement("br", null),
+          react_default.a.createElement("br", null),
+          react_default.a.createElement("br", null),
+          react_default.a.createElement(
+            "div",
+            { className: "tooltip tooltip-single tooltip-bottom-left" },
+            react_default.a.createElement(
+              "span",
+              null,
+              "Tooltip Bottom left side"
+            )
+          ),
+          react_default.a.createElement("br", null),
+          react_default.a.createElement("br", null),
+          react_default.a.createElement("br", null),
+          react_default.a.createElement("br", null),
+          react_default.a.createElement(
+            "div",
+            { className: "tooltip tooltip-single tooltip-right-side" },
+            react_default.a.createElement(
+              "span",
+              null,
+              "Tooltip right side"
+            )
+          ),
+          react_default.a.createElement("br", null),
+          react_default.a.createElement("br", null),
+          react_default.a.createElement("br", null),
+          react_default.a.createElement("br", null),
+          react_default.a.createElement(
+            "div",
+            { className: "tooltip tooltip-single tooltip-top-right " },
+            react_default.a.createElement(
+              "span",
+              null,
+              "Tooltip Top right side"
+            )
+          ),
+          react_default.a.createElement("br", null),
+          react_default.a.createElement("br", null),
+          react_default.a.createElement("br", null),
+          react_default.a.createElement("br", null),
+          react_default.a.createElement(
+            "div",
+            { className: "tooltip tooltip-single tooltip-bottom-right " },
+            react_default.a.createElement(
+              "span",
+              null,
+              "Tooltip Bottom right side"
+            )
+          ),
+          react_default.a.createElement("br", null),
+          react_default.a.createElement("br", null),
+          react_default.a.createElement("br", null),
+          react_default.a.createElement("br", null),
+          react_default.a.createElement(
+            "div",
+            { className: "tooltip tooltip-single tooltip-top-center" },
+            react_default.a.createElement(
+              "span",
+              null,
+              "Tooltip Top center side"
+            )
+          ),
+          react_default.a.createElement("br", null),
+          react_default.a.createElement("br", null),
+          react_default.a.createElement("br", null),
+          react_default.a.createElement("br", null),
+          react_default.a.createElement(
+            "div",
+            { className: "tooltip tooltip-single tooltip-bottom-center" },
+            react_default.a.createElement(
+              "span",
+              null,
+              "Tooltip Bottom center side"
+            )
+          ),
+          react_default.a.createElement("br", null),
+          react_default.a.createElement("br", null),
+          react_default.a.createElement("br", null),
+          react_default.a.createElement("br", null),
+          react_default.a.createElement(
+            "div",
+            { className: "tooltip tooltip-single tooltip-dark" },
+            react_default.a.createElement(
+              "span",
+              null,
+              "Tooltip Single line dark"
+            )
+          ),
+          react_default.a.createElement("br", null),
+          react_default.a.createElement("br", null),
+          react_default.a.createElement("br", null),
+          react_default.a.createElement("br", null),
+          react_default.a.createElement(
+            "div",
+            { className: "tooltip tooltip-multi-line tooltip-top-center" },
+            react_default.a.createElement(
+              "span",
+              null,
+              "Tooltip Multi line Top center side,Multi-line tooltips have 16px of padding. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit."
+            )
+          ),
+          react_default.a.createElement("br", null),
+          react_default.a.createElement("br", null),
+          react_default.a.createElement("br", null),
+          react_default.a.createElement("br", null),
+          react_default.a.createElement(
+            "div",
+            { className: "tooltip tooltip-multi-line tooltip-bottom-center" },
+            react_default.a.createElement(
+              "span",
+              null,
+              "Tooltip Multi line Bottom center side,Multi-line tooltips have 16px of padding. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit."
+            )
+          ),
+          react_default.a.createElement("br", null),
+          react_default.a.createElement("br", null),
+          react_default.a.createElement("br", null),
+          react_default.a.createElement("br", null),
+          react_default.a.createElement(
+            "div",
+            { className: "tooltip tooltip-top-right tooltip-multi-line" },
+            react_default.a.createElement(
+              "span",
+              null,
+              react_default.a.createElement(
+                "h1",
+                { className: "std-txt std-txt-L mrg-S tooltip-title" },
+                "This is a Tooltip H1 Title"
+              ),
+              "Multi-line tooltips have 16px of padding. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.Multi-line tooltips have 16px of padding. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit."
+            )
+          ),
+          react_default.a.createElement("br", null),
+          react_default.a.createElement("br", null),
+          react_default.a.createElement("br", null),
+          react_default.a.createElement(
+            "div",
+            { className: "tooltip tooltip-top-right tooltip-long tooltip-list" },
+            react_default.a.createElement(
+              "ul",
+              null,
+              react_default.a.createElement(
+                "li",
+                null,
+                react_default.a.createElement(
+                  "a",
+                  { href: "#" },
+                  "My Account"
+                )
+              ),
+              react_default.a.createElement(
+                "li",
+                null,
+                react_default.a.createElement(
+                  "a",
+                  { href: "#" },
+                  "My Rewards"
+                )
+              ),
+              react_default.a.createElement(
+                "li",
+                null,
+                react_default.a.createElement(
+                  "a",
+                  { href: "#" },
+                  "My Orders"
+                )
+              ),
+              react_default.a.createElement(
+                "li",
+                null,
+                react_default.a.createElement(
+                  "a",
+                  { href: "#" },
+                  "My Rewards (0)"
+                )
+              ),
+              react_default.a.createElement(
+                "li",
+                null,
+                react_default.a.createElement(
+                  "a",
+                  { href: "#" },
+                  "My List"
+                )
+              ),
+              react_default.a.createElement(
+                "li",
+                null,
+                react_default.a.createElement(
+                  "a",
+                  { href: "#" },
+                  "Profile Settings"
+                )
+              ),
+              react_default.a.createElement(
+                "li",
+                null,
+                react_default.a.createElement(
+                  "a",
+                  { href: "#" },
+                  "Nofications"
+                )
+              ),
+              react_default.a.createElement(
+                "li",
+                null,
+                react_default.a.createElement(
+                  "a",
+                  { href: "#" },
+                  "My JCPenney.com"
+                )
+              ),
+              react_default.a.createElement(
+                "li",
+                null,
+                react_default.a.createElement(
+                  "a",
+                  { href: "#" },
+                  "Gift Registry"
+                )
+              ),
+              react_default.a.createElement(
+                "li",
+                null,
+                react_default.a.createElement(
+                  "a",
+                  { href: "#" },
+                  "JCPenney Credit Card"
+                )
+              ),
+              react_default.a.createElement(
+                "li",
+                { className: "tooltip-divider" },
+                react_default.a.createElement(
+                  "a",
+                  { href: "#" },
+                  "Sign Out"
+                )
+              )
+            )
+          ),
+          react_default.a.createElement("br", null),
+          react_default.a.createElement("br", null),
+          react_default.a.createElement("br", null),
+          react_default.a.createElement(
+            "div",
+            { className: "tooltip tooltip-right-side tooltip-multi-line" },
+            react_default.a.createElement("div", { className: "tooltip-close" }),
+            react_default.a.createElement(
+              "span",
+              null,
+              react_default.a.createElement(
+                "h1",
+                { className: "title title-M mrg-S" },
+                "This is a Tooltip H1 Title"
+              ),
+              react_default.a.createElement("input", { type: "radio", id: "tooltip-radio", name: "tootlip-radio" }),
+              react_default.a.createElement(
+                "label",
+                { "for": "tooltip-radio" },
+                "Vanilla label"
+              )
+            )
+          )
+        )
+      );
+    }
+  }]);
 
-          return Tooltips;
+  return Tooltips;
 }(react["Component"]);
 
 var tooltips__default = tooltips_Tooltips;
@@ -12953,13 +12990,13 @@ var tooltips__default = tooltips_Tooltips;
 ;
 
 var tooltips__temp = function () {
-          if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-                    return;
-          }
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
 
-          __REACT_HOT_LOADER__.register(tooltips_Tooltips, "Tooltips", "C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/tooltips/tooltips.js");
+  __REACT_HOT_LOADER__.register(tooltips_Tooltips, "Tooltips", "/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/tooltips/tooltips.js");
 
-          __REACT_HOT_LOADER__.register(tooltips__default, "default", "C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/tooltips/tooltips.js");
+  __REACT_HOT_LOADER__.register(tooltips__default, "default", "/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/tooltips/tooltips.js");
 }();
 
 ;
@@ -12974,7 +13011,7 @@ var components_tooltips__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_tooltips__default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/tooltips/index.js');
+  __REACT_HOT_LOADER__.register(components_tooltips__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/tooltips/index.js');
 }();
 
 ;
@@ -13018,7 +13055,7 @@ var tabs_Tabs = function (_Component) {
               { className: "tab-header" },
               react_default.a.createElement(
                 "li",
-                { className: "tab-lbl tab-lbl-active" },
+                { className: "title tab-lbl tab-lbl-active" },
                 react_default.a.createElement(
                   "span",
                   null,
@@ -13027,7 +13064,7 @@ var tabs_Tabs = function (_Component) {
               ),
               react_default.a.createElement(
                 "li",
-                { className: "tab-lbl" },
+                { className: "title tab-lbl" },
                 react_default.a.createElement(
                   "span",
                   null,
@@ -13036,7 +13073,7 @@ var tabs_Tabs = function (_Component) {
               ),
               react_default.a.createElement(
                 "li",
-                { className: "tab-lbl" },
+                { className: "title tab-lbl" },
                 react_default.a.createElement(
                   "span",
                   null,
@@ -13045,7 +13082,7 @@ var tabs_Tabs = function (_Component) {
               ),
               react_default.a.createElement(
                 "li",
-                { className: "tab-lbl tab-lbl-disabled", disabled: "true" },
+                { className: "title tab-lbl tab-lbl-disabled", disabled: "true" },
                 react_default.a.createElement(
                   "span",
                   null,
@@ -13054,7 +13091,7 @@ var tabs_Tabs = function (_Component) {
               ),
               react_default.a.createElement(
                 "li",
-                { className: "tab-lbl tab-lbl-focus" },
+                { className: "title tab-lbl tab-lbl-focus" },
                 react_default.a.createElement(
                   "span",
                   null,
@@ -13082,9 +13119,9 @@ var tabs__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(tabs_Tabs, "Tabs", "C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/tabs/tabs.js");
+  __REACT_HOT_LOADER__.register(tabs_Tabs, "Tabs", "/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/tabs/tabs.js");
 
-  __REACT_HOT_LOADER__.register(tabs__default, "default", "C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/tabs/tabs.js");
+  __REACT_HOT_LOADER__.register(tabs__default, "default", "/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/tabs/tabs.js");
 }();
 
 ;
@@ -13099,7 +13136,7 @@ var components_tabs__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_tabs__default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/tabs/index.js');
+  __REACT_HOT_LOADER__.register(components_tabs__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/tabs/index.js');
 }();
 
 ;
@@ -13115,6 +13152,7 @@ function pagination__inherits(subClass, superClass) { if (typeof superClass !== 
 
 
 var BackToTopImage = __webpack_require__("om3C");
+var pagination_chevronleftImage = __webpack_require__("WBOg");
 
 var pagination_Pagination = function (_Component) {
   pagination__inherits(Pagination, _Component);
@@ -13367,6 +13405,24 @@ var pagination_Pagination = function (_Component) {
           react_default.a.createElement('br', null),
           react_default.a.createElement(
             'div',
+            { className: 'back-to-product' },
+            react_default.a.createElement('span', { className: 'icon color-shadow-svg', dangerouslySetInnerHTML: { __html: pagination_chevronleftImage } }),
+            react_default.a.createElement(
+              'li',
+              null,
+              react_default.a.createElement(
+                'a',
+                null,
+                'Back to Products '
+              ),
+              ' '
+            )
+          ),
+          react_default.a.createElement('br', null),
+          react_default.a.createElement('br', null),
+          react_default.a.createElement('br', null),
+          react_default.a.createElement(
+            'div',
             { className: 'back-to-top-block' },
             react_default.a.createElement(
               'h1',
@@ -13398,9 +13454,9 @@ var pagination__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(pagination_Pagination, 'Pagination', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/pagination/pagination.js');
+  __REACT_HOT_LOADER__.register(pagination_Pagination, 'Pagination', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/pagination/pagination.js');
 
-  __REACT_HOT_LOADER__.register(pagination__default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/pagination/pagination.js');
+  __REACT_HOT_LOADER__.register(pagination__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/pagination/pagination.js');
 }();
 
 ;
@@ -13415,7 +13471,7 @@ var components_pagination__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_pagination__default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/pagination/index.js');
+  __REACT_HOT_LOADER__.register(components_pagination__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/pagination/index.js');
 }();
 
 ;
@@ -13443,7 +13499,11 @@ var swatches_Swatches = function (_Component) {
 
   swatches__createClass(Swatches, [{
     key: 'componentDidMount',
-    value: function componentDidMount() {}
+    value: function componentDidMount() {
+      jquery_default()('.plus-expand').on('click', function (e) {
+        jquery_default()(this).toggleClass("close-expand");
+      });
+    }
   }, {
     key: 'render',
     value: function render() {
@@ -13642,7 +13702,7 @@ var swatches_Swatches = function (_Component) {
                       { className: 'swatches-list-icon' },
                       react_default.a.createElement(
                         'a',
-                        { href: 'javascript:void(0)', className: 'list-color-swatch list-expand' },
+                        { href: 'javascript:void(0)', className: 'list-color-swatch list-expand plus-expand' },
                         react_default.a.createElement('span', { dangerouslySetInnerHTML: { __html: swatches_plusImage } })
                       )
                     )
@@ -13650,7 +13710,7 @@ var swatches_Swatches = function (_Component) {
                 ),
                 react_default.a.createElement(
                   'div',
-                  { className: 'color-swatches-list' },
+                  { className: 'color-swatches-list images-swatches-list' },
                   react_default.a.createElement(
                     'ul',
                     { className: 'list-product-colors-container' },
@@ -13771,7 +13831,7 @@ var swatches_Swatches = function (_Component) {
                         react_default.a.createElement('img', { src: 'https://s7d9.scene7.com/is/image/JCPenney/DP0719201704043169S' })
                       )
                     ),
-                    react_default.a.createElement('li', { className: 'swatches-list-icon', dangerouslySetInnerHTML: { __html: swatches_plusImage } })
+                    react_default.a.createElement('li', { className: 'swatches-list-icon swatches-list-icon-large', dangerouslySetInnerHTML: { __html: swatches_plusImage } })
                   )
                 )
               ),
@@ -13843,7 +13903,7 @@ var swatches_Swatches = function (_Component) {
                       null,
                       react_default.a.createElement('a', { href: 'javascript:void(0)', className: 'list-color-swatch' })
                     ),
-                    react_default.a.createElement('li', { className: 'swatches-list-icon', dangerouslySetInnerHTML: { __html: swatches_plusImage } })
+                    react_default.a.createElement('li', { className: 'swatches-list-icon swatches-list-icon-large', dangerouslySetInnerHTML: { __html: swatches_plusImage } })
                   )
                 )
               ),
@@ -13993,7 +14053,7 @@ var swatches_Swatches = function (_Component) {
                       { className: 'swatches-list-icon' },
                       react_default.a.createElement(
                         'a',
-                        { href: 'javascript:void(0)', className: 'list-color-swatch' },
+                        { href: 'javascript:void(0)', className: 'list-color-swatch plus-expand' },
                         react_default.a.createElement('span', { dangerouslySetInnerHTML: { __html: swatches_plusImage } })
                       )
                     )
@@ -14060,9 +14120,9 @@ var swatches__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(swatches_Swatches, 'Swatches', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/swatches/swatches.js');
+  __REACT_HOT_LOADER__.register(swatches_Swatches, 'Swatches', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/swatches/swatches.js');
 
-  __REACT_HOT_LOADER__.register(swatches__default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/swatches/swatches.js');
+  __REACT_HOT_LOADER__.register(swatches__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/swatches/swatches.js');
 }();
 
 ;
@@ -14077,7 +14137,7 @@ var components_swatches__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_swatches__default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/swatches/index.js');
+  __REACT_HOT_LOADER__.register(components_swatches__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/swatches/index.js');
 }();
 
 ;
@@ -14273,9 +14333,9 @@ var selectors__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(selectors_Selectors, "Selectors", "C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/selectors/selectors.js");
+  __REACT_HOT_LOADER__.register(selectors_Selectors, "Selectors", "/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/selectors/selectors.js");
 
-  __REACT_HOT_LOADER__.register(selectors__default, "default", "C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/selectors/selectors.js");
+  __REACT_HOT_LOADER__.register(selectors__default, "default", "/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/selectors/selectors.js");
 }();
 
 ;
@@ -14290,7 +14350,7 @@ var components_selectors__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_selectors__default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/selectors/index.js');
+  __REACT_HOT_LOADER__.register(components_selectors__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/selectors/index.js');
 }();
 
 ;
@@ -14899,21 +14959,21 @@ var carousel__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(carousel_CarouselLeftButton, 'CarouselLeftButton', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/carousel/carousel.js');
+  __REACT_HOT_LOADER__.register(carousel_CarouselLeftButton, 'CarouselLeftButton', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/carousel/carousel.js');
 
-  __REACT_HOT_LOADER__.register(carousel_CarouselRightButton, 'CarouselRightButton', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/carousel/carousel.js');
+  __REACT_HOT_LOADER__.register(carousel_CarouselRightButton, 'CarouselRightButton', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/carousel/carousel.js');
 
-  __REACT_HOT_LOADER__.register(carousel_CarouselUpButton, 'CarouselUpButton', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/carousel/carousel.js');
+  __REACT_HOT_LOADER__.register(carousel_CarouselUpButton, 'CarouselUpButton', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/carousel/carousel.js');
 
-  __REACT_HOT_LOADER__.register(carousel_CarouselDownButton, 'CarouselDownButton', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/carousel/carousel.js');
+  __REACT_HOT_LOADER__.register(carousel_CarouselDownButton, 'CarouselDownButton', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/carousel/carousel.js');
 
-  __REACT_HOT_LOADER__.register(carousel_CarouselImage, 'CarouselImage', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/carousel/carousel.js');
+  __REACT_HOT_LOADER__.register(carousel_CarouselImage, 'CarouselImage', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/carousel/carousel.js');
 
-  __REACT_HOT_LOADER__.register(carousel_CarouselNavImage, 'CarouselNavImage', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/carousel/carousel.js');
+  __REACT_HOT_LOADER__.register(carousel_CarouselNavImage, 'CarouselNavImage', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/carousel/carousel.js');
 
-  __REACT_HOT_LOADER__.register(carousel_Carousel, 'Carousel', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/carousel/carousel.js');
+  __REACT_HOT_LOADER__.register(carousel_Carousel, 'Carousel', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/carousel/carousel.js');
 
-  __REACT_HOT_LOADER__.register(carousel__default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/carousel/carousel.js');
+  __REACT_HOT_LOADER__.register(carousel__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/carousel/carousel.js');
 }();
 
 ;
@@ -14928,7 +14988,7 @@ var components_carousel__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_carousel__default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/carousel/index.js');
+  __REACT_HOT_LOADER__.register(components_carousel__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/carousel/index.js');
 }();
 
 ;
@@ -15038,7 +15098,7 @@ var coupons_Coupons = function (_Component) {
                   ),
                   react_default.a.createElement(
                     'span',
-                    { className: 'title-S title' },
+                    { className: 'std-txt std-txt-S' },
                     'SHOPNOW4'
                   )
                 )
@@ -15126,7 +15186,7 @@ var coupons_Coupons = function (_Component) {
                   ),
                   react_default.a.createElement(
                     'span',
-                    { className: 'title-S title' },
+                    { className: 'std-txt std-txt-S' },
                     'SHOPNOW4'
                   )
                 )
@@ -15141,12 +15201,12 @@ var coupons_Coupons = function (_Component) {
                 { className: 'coupon-see-details' },
                 react_default.a.createElement(
                   'a',
-                  { href: 'javascript:void(0)', className: 'link-sm' },
+                  { href: 'javascript:void(0)', className: 'link-sm btn-tiny' },
                   'shop home'
                 ),
                 react_default.a.createElement(
                   'a',
-                  { href: 'javascript:void(0)', className: 'link-sm' },
+                  { href: 'javascript:void(0)', className: 'link-sm btn-tiny' },
                   'see details'
                 )
               )
@@ -15265,7 +15325,7 @@ var coupons_Coupons = function (_Component) {
                   ),
                   react_default.a.createElement(
                     'span',
-                    { className: 'title-S title' },
+                    { className: 'std-txt std-txt-S' },
                     'SHOPNOW4'
                   )
                 )
@@ -15286,12 +15346,12 @@ var coupons_Coupons = function (_Component) {
                 { className: 'coupon-see-details' },
                 react_default.a.createElement(
                   'a',
-                  { href: 'javascript:void(0)', className: 'link-sm' },
+                  { href: 'javascript:void(0)', className: 'link-sm btn-tiny' },
                   'shop home'
                 ),
                 react_default.a.createElement(
                   'a',
-                  { href: 'javascript:void(0)', className: 'link-sm' },
+                  { href: 'javascript:void(0)', className: 'link-sm btn-tiny' },
                   'see details'
                 )
               )
@@ -15359,7 +15419,7 @@ var coupons_Coupons = function (_Component) {
                   ),
                   react_default.a.createElement(
                     'span',
-                    { className: 'title-S title' },
+                    { className: 'std-txt std-txt-S' },
                     'SHOPNOW4'
                   )
                 )
@@ -15374,12 +15434,12 @@ var coupons_Coupons = function (_Component) {
                 { className: 'coupon-see-details' },
                 react_default.a.createElement(
                   'a',
-                  { href: 'javascript:void(0)', className: 'link-sm' },
+                  { href: 'javascript:void(0)', className: 'link-sm btn-tiny' },
                   'shop home'
                 ),
                 react_default.a.createElement(
                   'a',
-                  { href: 'javascript:void(0)', className: 'link-sm' },
+                  { href: 'javascript:void(0)', className: 'link-sm btn-tiny' },
                   'see details'
                 )
               )
@@ -15447,7 +15507,7 @@ var coupons_Coupons = function (_Component) {
                   ),
                   react_default.a.createElement(
                     'span',
-                    { className: 'title-S title' },
+                    { className: 'std-txt std-txt-S' },
                     'SHOPNOW4'
                   )
                 )
@@ -15462,12 +15522,12 @@ var coupons_Coupons = function (_Component) {
                 { className: 'coupon-see-details' },
                 react_default.a.createElement(
                   'a',
-                  { href: 'javascript:void(0)', className: 'link-sm' },
+                  { href: 'javascript:void(0)', className: 'link-sm btn-tiny' },
                   'shop home'
                 ),
                 react_default.a.createElement(
                   'a',
-                  { href: 'javascript:void(0)', className: 'link-sm' },
+                  { href: 'javascript:void(0)', className: 'link-sm btn-tiny' },
                   'see details'
                 )
               )
@@ -15535,7 +15595,7 @@ var coupons_Coupons = function (_Component) {
                   ),
                   react_default.a.createElement(
                     'span',
-                    { className: 'title-S title' },
+                    { className: 'std-txt std-txt-S' },
                     'SHOPNOW4'
                   )
                 )
@@ -15550,12 +15610,12 @@ var coupons_Coupons = function (_Component) {
                 { className: 'coupon-see-details' },
                 react_default.a.createElement(
                   'a',
-                  { href: 'javascript:void(0)', className: 'link-sm' },
+                  { href: 'javascript:void(0)', className: 'link-sm btn-tiny' },
                   'shop home'
                 ),
                 react_default.a.createElement(
                   'a',
-                  { href: 'javascript:void(0)', className: 'link-sm' },
+                  { href: 'javascript:void(0)', className: 'link-sm btn-tiny' },
                   'see details'
                 )
               )
@@ -15623,7 +15683,7 @@ var coupons_Coupons = function (_Component) {
                   ),
                   react_default.a.createElement(
                     'span',
-                    { className: 'title-S title' },
+                    { className: 'std-txt std-txt-S' },
                     'SHOPNOW4'
                   )
                 )
@@ -15638,12 +15698,12 @@ var coupons_Coupons = function (_Component) {
                 { className: 'coupon-see-details' },
                 react_default.a.createElement(
                   'a',
-                  { href: 'javascript:void(0)', className: 'link-sm' },
+                  { href: 'javascript:void(0)', className: 'link-sm btn-tiny' },
                   'shop home'
                 ),
                 react_default.a.createElement(
                   'a',
-                  { href: 'javascript:void(0)', className: 'link-sm' },
+                  { href: 'javascript:void(0)', className: 'link-sm btn-tiny' },
                   'see details'
                 )
               )
@@ -15668,9 +15728,9 @@ var coupons__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(coupons_Coupons, 'Coupons', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/coupons/coupons.js');
+  __REACT_HOT_LOADER__.register(coupons_Coupons, 'Coupons', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/coupons/coupons.js');
 
-  __REACT_HOT_LOADER__.register(coupons__default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/coupons/coupons.js');
+  __REACT_HOT_LOADER__.register(coupons__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/coupons/coupons.js');
 }();
 
 ;
@@ -15685,7 +15745,7 @@ var components_coupons__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_coupons__default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/coupons/index.js');
+  __REACT_HOT_LOADER__.register(components_coupons__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/coupons/index.js');
 }();
 
 ;
@@ -16021,9 +16081,9 @@ var lists__temp = function () {
         return;
     }
 
-    __REACT_HOT_LOADER__.register(lists_Lists, 'Lists', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/lists/lists.js');
+    __REACT_HOT_LOADER__.register(lists_Lists, 'Lists', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/lists/lists.js');
 
-    __REACT_HOT_LOADER__.register(lists__default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/lists/lists.js');
+    __REACT_HOT_LOADER__.register(lists__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/lists/lists.js');
 }();
 
 ;
@@ -16038,7 +16098,7 @@ var components_lists__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_lists__default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/lists/index.js');
+  __REACT_HOT_LOADER__.register(components_lists__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/lists/index.js');
 }();
 
 ;
@@ -17897,9 +17957,9 @@ var header__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(header_Header, 'Header', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/header/header.js');
+  __REACT_HOT_LOADER__.register(header_Header, 'Header', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/header/header.js');
 
-  __REACT_HOT_LOADER__.register(header__default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/header/header.js');
+  __REACT_HOT_LOADER__.register(header__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/header/header.js');
 }();
 
 ;
@@ -17914,7 +17974,7 @@ var components_header__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_header__default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/header/index.js');
+  __REACT_HOT_LOADER__.register(components_header__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/header/index.js');
 }();
 
 ;
@@ -18827,9 +18887,9 @@ var footer__temp = function () {
         return;
     }
 
-    __REACT_HOT_LOADER__.register(footer_Footer, 'Footer', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/footer/footer.js');
+    __REACT_HOT_LOADER__.register(footer_Footer, 'Footer', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/footer/footer.js');
 
-    __REACT_HOT_LOADER__.register(footer__default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/footer/footer.js');
+    __REACT_HOT_LOADER__.register(footer__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/footer/footer.js');
 }();
 
 ;
@@ -18844,7 +18904,7 @@ var components_footer__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_footer__default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/footer/index.js');
+  __REACT_HOT_LOADER__.register(components_footer__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/footer/index.js');
 }();
 
 ;
@@ -19045,9 +19105,9 @@ var slide_out_panels__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(slide_out_panels_SlideOutPanels, 'SlideOutPanels', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/slide-out-panels/slide-out-panels.js');
+  __REACT_HOT_LOADER__.register(slide_out_panels_SlideOutPanels, 'SlideOutPanels', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/slide-out-panels/slide-out-panels.js');
 
-  __REACT_HOT_LOADER__.register(slide_out_panels__default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/slide-out-panels/slide-out-panels.js');
+  __REACT_HOT_LOADER__.register(slide_out_panels__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/slide-out-panels/slide-out-panels.js');
 }();
 
 ;
@@ -19062,7 +19122,7 @@ var components_slide_out_panels__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_slide_out_panels__default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/slide-out-panels/index.js');
+  __REACT_HOT_LOADER__.register(components_slide_out_panels__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/slide-out-panels/index.js');
 }();
 
 ;
@@ -21141,9 +21201,9 @@ var filter_sort__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(filter_sort_FilterSort, 'FilterSort', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/filter-sort/filter-sort.js');
+  __REACT_HOT_LOADER__.register(filter_sort_FilterSort, 'FilterSort', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/filter-sort/filter-sort.js');
 
-  __REACT_HOT_LOADER__.register(filter_sort__default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/filter-sort/filter-sort.js');
+  __REACT_HOT_LOADER__.register(filter_sort__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/filter-sort/filter-sort.js');
 }();
 
 ;
@@ -21158,7 +21218,7 @@ var components_filter_sort__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_filter_sort__default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/filter-sort/index.js');
+  __REACT_HOT_LOADER__.register(components_filter_sort__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/filter-sort/index.js');
 }();
 
 ;
@@ -23215,9 +23275,9 @@ var expand_collapse__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(expand_collapse_ExpandCollapse, 'ExpandCollapse', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/expand-collapse/expand-collapse.js');
+  __REACT_HOT_LOADER__.register(expand_collapse_ExpandCollapse, 'ExpandCollapse', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/expand-collapse/expand-collapse.js');
 
-  __REACT_HOT_LOADER__.register(expand_collapse__default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/expand-collapse/expand-collapse.js');
+  __REACT_HOT_LOADER__.register(expand_collapse__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/expand-collapse/expand-collapse.js');
 }();
 
 ;
@@ -23232,7 +23292,7 @@ var components_expand_collapse__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_expand_collapse__default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/expand-collapse/index.js');
+  __REACT_HOT_LOADER__.register(components_expand_collapse__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/expand-collapse/index.js');
 }();
 
 ;
@@ -24920,9 +24980,9 @@ var product_cards__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(product_cards_ProductCards, 'ProductCards', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/product-cards/product-cards.js');
+  __REACT_HOT_LOADER__.register(product_cards_ProductCards, 'ProductCards', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/product-cards/product-cards.js');
 
-  __REACT_HOT_LOADER__.register(product_cards__default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/product-cards/product-cards.js');
+  __REACT_HOT_LOADER__.register(product_cards__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/product-cards/product-cards.js');
 }();
 
 ;
@@ -24937,7 +24997,7 @@ var components_product_cards__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_product_cards__default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/product-cards/index.js');
+  __REACT_HOT_LOADER__.register(components_product_cards__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/product-cards/index.js');
 }();
 
 ;
@@ -25082,9 +25142,9 @@ var like_dislike__temp = function () {
         return;
     }
 
-    __REACT_HOT_LOADER__.register(like_dislike_LikeDislike, 'LikeDislike', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/like-dislike/like-dislike.js');
+    __REACT_HOT_LOADER__.register(like_dislike_LikeDislike, 'LikeDislike', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/like-dislike/like-dislike.js');
 
-    __REACT_HOT_LOADER__.register(like_dislike__default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/like-dislike/like-dislike.js');
+    __REACT_HOT_LOADER__.register(like_dislike__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/like-dislike/like-dislike.js');
 }();
 
 ;
@@ -25099,7 +25159,7 @@ var components_like_dislike__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_like_dislike__default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/like-dislike/index.js');
+  __REACT_HOT_LOADER__.register(components_like_dislike__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/like-dislike/index.js');
 }();
 
 ;
@@ -25411,7 +25471,7 @@ var recommendation_zone_RecommendationZone = function (_Component) {
               react_default.a.createElement('hr', null),
               react_default.a.createElement(
                 'div',
-                { className: 'product-card-wrapper product-card-wrapper-recommentations', ref: function ref(wrapper) {
+                { className: 'product-card-wrapper product-card-wrapper-recommendations', ref: function ref(wrapper) {
                     _this3.wrapper = wrapper;
                   }, style: listStyle },
                 react_default.a.createElement(
@@ -25639,15 +25699,15 @@ var recommendation_zone__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(add, 'add', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/recommendation-zone/recommendation-zone.js');
+  __REACT_HOT_LOADER__.register(add, 'add', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/recommendation-zone/recommendation-zone.js');
 
-  __REACT_HOT_LOADER__.register(subtract, 'subtract', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/recommendation-zone/recommendation-zone.js');
+  __REACT_HOT_LOADER__.register(subtract, 'subtract', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/recommendation-zone/recommendation-zone.js');
 
-  __REACT_HOT_LOADER__.register(calculateScrollPixel, 'calculateScrollPixel', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/recommendation-zone/recommendation-zone.js');
+  __REACT_HOT_LOADER__.register(calculateScrollPixel, 'calculateScrollPixel', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/recommendation-zone/recommendation-zone.js');
 
-  __REACT_HOT_LOADER__.register(recommendation_zone_RecommendationZone, 'RecommendationZone', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/recommendation-zone/recommendation-zone.js');
+  __REACT_HOT_LOADER__.register(recommendation_zone_RecommendationZone, 'RecommendationZone', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/recommendation-zone/recommendation-zone.js');
 
-  __REACT_HOT_LOADER__.register(recommendation_zone__default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/recommendation-zone/recommendation-zone.js');
+  __REACT_HOT_LOADER__.register(recommendation_zone__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/recommendation-zone/recommendation-zone.js');
 }();
 
 ;
@@ -25662,7 +25722,7 @@ var components_recommendation_zone__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_recommendation_zone__default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/recommendation-zone/index.js');
+  __REACT_HOT_LOADER__.register(components_recommendation_zone__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/recommendation-zone/index.js');
 }();
 
 ;
@@ -25817,11 +25877,11 @@ var SubNav__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(varToURL, 'varToURL', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/containers/SubNav.js');
+  __REACT_HOT_LOADER__.register(varToURL, 'varToURL', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/containers/SubNav.js');
 
-  __REACT_HOT_LOADER__.register(SubNav_SubNav, 'SubNav', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/containers/SubNav.js');
+  __REACT_HOT_LOADER__.register(SubNav_SubNav, 'SubNav', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/containers/SubNav.js');
 
-  __REACT_HOT_LOADER__.register(SubNav__default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/containers/SubNav.js');
+  __REACT_HOT_LOADER__.register(SubNav__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/containers/SubNav.js');
 }();
 
 ;
@@ -25875,76 +25935,76 @@ function DesignSystemPage__inherits(subClass, superClass) { if (typeof superClas
 
 
 var DesignSystemPage_DesignSystemPage = function (_Component) {
-  DesignSystemPage__inherits(DesignSystemPage, _Component);
+    DesignSystemPage__inherits(DesignSystemPage, _Component);
 
-  function DesignSystemPage() {
-    DesignSystemPage__classCallCheck(this, DesignSystemPage);
+    function DesignSystemPage() {
+        DesignSystemPage__classCallCheck(this, DesignSystemPage);
 
-    return DesignSystemPage__possibleConstructorReturn(this, (DesignSystemPage.__proto__ || Object.getPrototypeOf(DesignSystemPage)).apply(this, arguments));
-  }
-
-  DesignSystemPage__createClass(DesignSystemPage, [{
-    key: 'render',
-    value: function render() {
-
-      var routes = {
-        Buttons: { componentElement: components_buttons, componentDisplayName: "Buttons", componentSubNav: ['Code Generator', 'When to Use', 'Appearance', 'Responsive Behavior'] },
-        Color: { componentElement: components_color, componentDisplayName: "Color", componentSubNav: ['Core', 'Messaging', 'Rewards', 'Marketing', 'Color Usage', 'Accessibility'] },
-        Icons: { componentElement: components_icons, componentDisplayName: "Icons", componentSubNav: ['When to Use', 'Alert', 'Payment', 'Action', 'Navigation', 'Utility', 'Social'] },
-        Grid: { componentElement: components_grid, componentDisplayName: "Grid", componentSubNav: ['Horizontal Grid', 'Vertical Grid', 'Documentation'] },
-        Typography: { componentElement: components_typography, componentDisplayName: "Typography", componentSubNav: ['Code Generator', 'Price', 'Title', 'Standard Text', 'Copy', 'Links', 'Promo Labels'] },
-        Alerts: { componentElement: components_alerts, componentDisplayName: "Alerts & Messaging", componentSubNav: ['Code Generator', 'When to Use', 'Appearance', 'Content Guidelines', 'Related Content'] },
-        Badges: { componentElement: components_badges, componentDisplayName: "Badges", componentSubNav: ['Code Generator', 'When to Use', 'Appearance', 'Examples'] },
-        ContentLoaders: { componentElement: components_content_loaders, componentDisplayName: "Content Loaders", componentSubNav: ['Code Generator', 'Types', 'Lazy Load'] },
-        Tables: { componentElement: components_tables, componentDisplayName: "Tables", componentSubNav: ['Code Generator', 'Standard', 'Feature'] },
-        Forms: { componentElement: components_forms, componentDisplayName: "Forms", componentSubNav: ['Code Generator', 'When to Use', 'Appearance', 'Form Validation', 'Sample Layout', 'Related Content'] },
-        DropdownButton: { componentElement: components_dropdown_button, componentDisplayName: "Dropdown Button", componentSubNav: ['Dropdown Button'] },
-        StarRatings: { componentElement: components_star_ratings, componentDisplayName: "Star Ratings", componentSubNav: ['Star Ratings'] },
-        Scrollbar: { componentElement: components_scrollbar, componentDisplayName: "Scrollbar", componentSubNav: ['Scrollbar'] },
-        CountdownTimers: { componentElement: components_countdown_timers, componentDisplayName: "Countdown Timers", componentSubNav: ['Countdown Timers'] },
-        VisualNavigation: { componentElement: components_visual_navigation, componentDisplayName: "Visual Navigation", componentSubNav: ['Visual Navigation'] },
-        Modal: { componentElement: components_modal, componentDisplayName: "Modal", componentSubNav: ['Modal'] },
-        Lists: { componentElement: components_lists, componentDisplayName: "Lists", componentSubNav: ['Lists'] },
-        Tooltips: { componentElement: components_tooltips, componentDisplayName: "Tooltips", componentSubNav: ['Tooltips'] },
-        Tabs: { componentElement: components_tabs, componentDisplayName: "Tabs", componentSubNav: ['Tabs'] },
-        Pagination: { componentElement: components_pagination, componentDisplayName: "Pagination", componentSubNav: ['Pagination'] },
-        Swatches: { componentElement: components_swatches, componentDisplayName: "Swatches", componentSubNav: ['Swatches'] },
-        Selectors: { componentElement: components_selectors, componentDisplayName: "Selectors", componentSubNav: ['Selectors'] },
-        Carousel: { componentElement: components_carousel, componentDisplayName: "Carousels", componentSubNav: ['Carousel'] },
-        Header: { componentElement: components_header, componentDisplayName: "Header", componentSubNav: ['Header'] },
-        Footer: { componentElement: components_footer, componentDisplayName: "Footer", componentSubNav: ['Footer'] },
-        Coupons: { componentElement: components_coupons, componentDisplayName: "Coupons", componentSubNav: ['Coupons'] },
-        SlideOutPanels: { componentElement: components_slide_out_panels, componentDisplayName: "Slide Out Panels", componentSubNav: ['Slide Out Panels'] },
-        ProductCards: { componentElement: components_product_cards, componentDisplayName: "Product Cards", componentSubNav: ['Product Cards'] },
-        FilterSort: { componentElement: components_filter_sort, componentDisplayName: "Filter Sort", componentSubNav: ['FilterSort'] },
-        LikeDislike: { componentElement: components_like_dislike, componentDisplayName: "Like Dislike Messages", componentSubNav: ['Like Dislike Messages'] },
-        ExpandCollapse: { componentElement: components_expand_collapse, componentDisplayName: "Expand Collapse", componentSubNav: ['ExpandCollapse'] },
-        RecommendationZone: { componentElement: components_recommendation_zone, componentDisplayName: "Recommendation Zone", componentSubNav: ['RecommendationZone'] },
-        Pricing: { componentElement: components_pricing, componentDisplayName: "Pricing", componentSubNav: ['Pricing'] }
-
-      };
-
-      var Scene = routes[this.props.componentName].componentElement;
-      var SceneSubNavName = routes[this.props.componentName].componentDisplayName;
-      var SceneSubNav = routes[this.props.componentName].componentSubNav;
-      return react_default.a.createElement(
-        'div',
-        { className: 'design-system-inner-wrap' },
-        react_default.a.createElement(
-          'div',
-          { className: 'design-system-inner-content' },
-          react_default.a.createElement(
-            'div',
-            { className: 'design-system-content' },
-            react_default.a.createElement(Scene, null)
-          )
-        ),
-        react_default.a.createElement(containers_SubNav, { name: SceneSubNavName, data: SceneSubNav })
-      );
+        return DesignSystemPage__possibleConstructorReturn(this, (DesignSystemPage.__proto__ || Object.getPrototypeOf(DesignSystemPage)).apply(this, arguments));
     }
-  }]);
 
-  return DesignSystemPage;
+    DesignSystemPage__createClass(DesignSystemPage, [{
+        key: 'render',
+        value: function render() {
+
+            var routes = {
+                Buttons: { componentElement: components_buttons, componentDisplayName: "Buttons", componentSubNav: ['Code Generator', 'When to Use', 'Appearance', 'Responsive Behavior'] },
+                Color: { componentElement: components_color, componentDisplayName: "Color", componentSubNav: ['Core', 'Messaging', 'Rewards', 'Marketing', 'Color Usage', 'Accessibility'] },
+                Icons: { componentElement: components_icons, componentDisplayName: "Icons", componentSubNav: ['When to Use', 'Alert', 'Payment', 'Action', 'Navigation', 'Utility', 'Social'] },
+                Grid: { componentElement: components_grid, componentDisplayName: "Grid", componentSubNav: ['Horizontal Grid', 'Vertical Grid', 'Documentation'] },
+                Typography: { componentElement: components_typography, componentDisplayName: "Typography", componentSubNav: ['Code Generator', 'Price', 'Title', 'Standard Text', 'Copy', 'Links', 'Promo Labels'] },
+                Alerts: { componentElement: components_alerts, componentDisplayName: "Alerts & Messaging", componentSubNav: ['Code Generator', 'When to Use', 'Appearance', 'Content Guidelines', 'Related Content'] },
+                Badges: { componentElement: components_badges, componentDisplayName: "Badges", componentSubNav: ['Code Generator', 'When to Use', 'Appearance', 'Examples'] },
+                ContentLoaders: { componentElement: components_content_loaders, componentDisplayName: "Content Loaders", componentSubNav: ['Code Generator', 'Types', 'Lazy Load'] },
+                Tables: { componentElement: components_tables, componentDisplayName: "Tables", componentSubNav: ['Code Generator', 'Standard', 'Feature'] },
+                Forms: { componentElement: components_forms, componentDisplayName: "Forms", componentSubNav: ['Code Generator', 'When to Use', 'Appearance', 'Form Validation', 'Sample Layout', 'Related Content'] },
+                DropdownButton: { componentElement: components_dropdown_button, componentDisplayName: "Dropdown Button", componentSubNav: ['Dropdown Button'] },
+                StarRatings: { componentElement: components_star_ratings, componentDisplayName: "Star Ratings", componentSubNav: ['Star Ratings'] },
+                Scrollbar: { componentElement: components_scrollbar, componentDisplayName: "Scrollbar", componentSubNav: ['Scrollbar'] },
+                CountdownTimers: { componentElement: components_countdown_timers, componentDisplayName: "Countdown Timers", componentSubNav: ['Countdown Timers'] },
+                VisualNavigation: { componentElement: components_visual_navigation, componentDisplayName: "Visual Navigation", componentSubNav: ['Visual Navigation'] },
+                Modal: { componentElement: components_modal, componentDisplayName: "Modal", componentSubNav: ['Modal'] },
+                Lists: { componentElement: components_lists, componentDisplayName: "Lists", componentSubNav: ['Lists'] },
+                Tooltips: { componentElement: components_tooltips, componentDisplayName: "Tooltips", componentSubNav: ['Tooltips'] },
+                Tabs: { componentElement: components_tabs, componentDisplayName: "Tabs", componentSubNav: ['Tabs'] },
+                Pagination: { componentElement: components_pagination, componentDisplayName: "Pagination", componentSubNav: ['Pagination'] },
+                Swatches: { componentElement: components_swatches, componentDisplayName: "Swatches", componentSubNav: ['Swatches'] },
+                Selectors: { componentElement: components_selectors, componentDisplayName: "Selectors", componentSubNav: ['Selectors'] },
+                Carousel: { componentElement: components_carousel, componentDisplayName: "Carousels", componentSubNav: ['Carousel'] },
+                Header: { componentElement: components_header, componentDisplayName: "Header", componentSubNav: ['Header'] },
+                Footer: { componentElement: components_footer, componentDisplayName: "Footer", componentSubNav: ['Footer'] },
+                Coupons: { componentElement: components_coupons, componentDisplayName: "Coupons", componentSubNav: ['Coupons'] },
+                SlideOutPanels: { componentElement: components_slide_out_panels, componentDisplayName: "Slide Out Panels", componentSubNav: ['Slide Out Panels'] },
+                ProductCards: { componentElement: components_product_cards, componentDisplayName: "Product Cards", componentSubNav: ['Product Cards'] },
+                FilterSort: { componentElement: components_filter_sort, componentDisplayName: "Filter Sort", componentSubNav: ['FilterSort'] },
+                LikeDislike: { componentElement: components_like_dislike, componentDisplayName: "Like Dislike Messages", componentSubNav: ['Like Dislike Messages'] },
+                ExpandCollapse: { componentElement: components_expand_collapse, componentDisplayName: "Expand Collapse", componentSubNav: ['ExpandCollapse'] },
+                RecommendationZone: { componentElement: components_recommendation_zone, componentDisplayName: "Recommendation Zone", componentSubNav: ['RecommendationZone'] },
+                Pricing: { componentElement: components_pricing, componentDisplayName: "Pricing", componentSubNav: ['Pricing'] }
+
+            };
+
+            var Scene = routes[this.props.componentName].componentElement;
+            var SceneSubNavName = routes[this.props.componentName].componentDisplayName;
+            var SceneSubNav = routes[this.props.componentName].componentSubNav;
+            return react_default.a.createElement(
+                'div',
+                { className: 'design-system-inner-wrap' },
+                react_default.a.createElement(
+                    'div',
+                    { className: 'design-system-inner-content' },
+                    react_default.a.createElement(
+                        'div',
+                        { className: 'design-system-content' },
+                        react_default.a.createElement(Scene, null)
+                    )
+                ),
+                react_default.a.createElement(containers_SubNav, { name: SceneSubNavName, data: SceneSubNav })
+            );
+        }
+    }]);
+
+    return DesignSystemPage;
 }(react["Component"]);
 
 ;
@@ -25954,13 +26014,13 @@ var DesignSystemPage__default = DesignSystemPage_DesignSystemPage;
 ;
 
 var DesignSystemPage__temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
+    if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+        return;
+    }
 
-  __REACT_HOT_LOADER__.register(DesignSystemPage_DesignSystemPage, 'DesignSystemPage', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/containers/DesignSystemPage.js');
+    __REACT_HOT_LOADER__.register(DesignSystemPage_DesignSystemPage, 'DesignSystemPage', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/containers/DesignSystemPage.js');
 
-  __REACT_HOT_LOADER__.register(DesignSystemPage__default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/containers/DesignSystemPage.js');
+    __REACT_HOT_LOADER__.register(DesignSystemPage__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/containers/DesignSystemPage.js');
 }();
 
 ;
@@ -29979,9 +30039,9 @@ var work_in_progress__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(work_in_progress_WorkInProgress, 'WorkInProgress', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/work-in-progress/work-in-progress.js');
+  __REACT_HOT_LOADER__.register(work_in_progress_WorkInProgress, 'WorkInProgress', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/work-in-progress/work-in-progress.js');
 
-  __REACT_HOT_LOADER__.register(work_in_progress__default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/work-in-progress/work-in-progress.js');
+  __REACT_HOT_LOADER__.register(work_in_progress__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/work-in-progress/work-in-progress.js');
 }();
 
 ;
@@ -29996,7 +30056,7 @@ var components_work_in_progress__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_work_in_progress__default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/components/work-in-progress/index.js');
+  __REACT_HOT_LOADER__.register(components_work_in_progress__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/work-in-progress/index.js');
 }();
 
 ;
@@ -30396,15 +30456,15 @@ var Root__temp = function () {
         return;
     }
 
-    __REACT_HOT_LOADER__.register(Root_Home, 'Home', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/containers/Root.js');
+    __REACT_HOT_LOADER__.register(Root_Home, 'Home', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/containers/Root.js');
 
-    __REACT_HOT_LOADER__.register(Root_renderNavLinkItems, 'renderNavLinkItems', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/containers/Root.js');
+    __REACT_HOT_LOADER__.register(Root_renderNavLinkItems, 'renderNavLinkItems', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/containers/Root.js');
 
-    __REACT_HOT_LOADER__.register(Root_RenderNavLink, 'RenderNavLink', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/containers/Root.js');
+    __REACT_HOT_LOADER__.register(Root_RenderNavLink, 'RenderNavLink', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/containers/Root.js');
 
-    __REACT_HOT_LOADER__.register(Root_App, 'App', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/containers/Root.js');
+    __REACT_HOT_LOADER__.register(Root_App, 'App', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/containers/Root.js');
 
-    __REACT_HOT_LOADER__.register(Root__default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/containers/Root.js');
+    __REACT_HOT_LOADER__.register(Root__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/containers/Root.js');
 }();
 
 ;
@@ -30440,7 +30500,7 @@ var js__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(js_render, 'render', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/index.jsx');
+  __REACT_HOT_LOADER__.register(js_render, 'render', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/index.jsx');
 }();
 
 ;
@@ -30499,7 +30559,7 @@ module.exports = "<svg id=\"payment-card-amex-Layer_1\" xmlns=\"http://www.w3.or
 /***/ "Qmz5":
 /***/ (function(module, exports) {
 
-module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"logo-jcpenney\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\"\r\n\t viewBox=\"0 0 150 35\" style=\"enable-background:new 0 0 150 35;\" xml:space=\"preserve\">\r\n<path id=\"logo-jcpenney-path\" style=\"fill:#111111;\" d=\"M14.6,19.2c0,2.2-0.3,3.8-0.9,5c-1.2,2.2-3.4,3.3-6.7,3.3c-1.9,0-3.5-0.5-4.8-1.6\r\n\tc-1.3-1-2-2.9-2-5.6v-1.8h3.2v1.8c0,1.4,0.3,2.4,0.9,3.1c0.6,0.7,1.6,1.1,2.9,1.1c1.8,0,3-0.6,3.6-1.9c0.3-0.8,0.5-2.3,0.5-4.4V1.2\r\n\th3.4C14.6,1.2,14.6,19.2,14.6,19.2z M36.2,3.1c1.8,1.7,2.7,3.7,2.9,5.8h-3.3c-0.4-1.7-1.1-3-2.3-3.9c-1.1-1-2.7-1.4-4.8-1.4\r\n\tc-2.5,0-4.5,0.9-6,2.7c-1.5,1.8-2.3,4.5-2.3,8.2c0,3,0.7,5.4,2.1,7.3c1.4,1.9,3.4,2.8,6.2,2.8c2.5,0,4.4-1,5.8-3\r\n\tc0.7-1,1.2-2.4,1.6-4.1h3.3c-0.3,2.7-1.3,5-3,6.8c-2,2.2-4.7,3.3-8.1,3.3c-2.9,0-5.4-0.9-7.4-2.7c-2.6-2.4-3.9-6.1-3.9-11\r\n\tc0-3.8,1-6.9,3-9.3C22,1.8,25,0.5,28.7,0.5C31.9,0.5,34.4,1.4,36.2,3.1z M42.1,1.2h11.4c2.2,0,4.1,0.6,5.4,1.9s2.1,3.1,2.1,5.4\r\n\tc0,2-0.6,3.7-1.8,5.2C57.8,15.3,56,16,53.4,16h-7.9v10.8h-3.4V1.2z M55.4,4.7c-0.8-0.4-1.8-0.5-3.1-0.5h-6.8v8.9h6.8\r\n\tc1.5,0,2.8-0.3,3.7-1c1-0.7,1.4-1.8,1.4-3.5C57.4,6.7,56.8,5.4,55.4,4.7L55.4,4.7z M74.5,8.7c1.2,0.6,2.2,1.4,2.8,2.4\r\n\tc0.6,0.9,1,2,1.2,3.3c0.2,0.9,0.3,2.2,0.3,4.1H65.3c0.1,1.9,0.5,3.4,1.3,4.6c0.8,1.1,2.1,1.7,3.8,1.7c1.6,0,2.9-0.5,3.9-1.6\r\n\tc0.6-0.6,0.9-1.4,1.2-2.2h3c-0.1,0.7-0.3,1.5-0.8,2.3c-0.5,0.8-1,1.5-1.5,2.1c-0.9,0.9-2.1,1.6-3.5,1.9c-0.7,0.2-1.6,0.3-2.5,0.3\r\n\tc-2.3,0-4.2-0.8-5.8-2.5c-1.6-1.7-2.4-4.1-2.4-7.1c0-3,0.8-5.4,2.4-7.3c1.6-1.9,3.7-2.8,6.3-2.8C72,7.7,73.3,8,74.5,8.7L74.5,8.7z\r\n\t M75.6,16c-0.1-1.4-0.4-2.4-0.9-3.3c-0.8-1.5-2.3-2.3-4.2-2.3c-1.4,0-2.6,0.5-3.6,1.6c-1,1-1.5,2.4-1.5,4H75.6z M80.8,8.1h2.9v2.7\r\n\tc0.9-1.1,1.8-1.9,2.8-2.4c1-0.5,2.1-0.7,3.2-0.7c2.6,0,4.4,0.9,5.3,2.8c0.5,1,0.8,2.5,0.8,4.3v12h-3.1V15.1c0-1.1-0.2-2.1-0.5-2.8\r\n\tc-0.6-1.2-1.5-1.7-3-1.7c-0.7,0-1.3,0.1-1.8,0.2c-0.8,0.3-1.6,0.8-2.2,1.5c-0.5,0.6-0.8,1.3-1,1.9c-0.2,0.7-0.2,1.6-0.2,2.8v9.8\r\n\th-3.1V8.1L80.8,8.1z M98.6,8.1h2.9v2.7c0.9-1.1,1.8-1.9,2.8-2.4c1-0.5,2.1-0.7,3.2-0.7c2.6,0,4.4,0.9,5.3,2.8c0.5,1,0.8,2.5,0.8,4.3\r\n\tv12h-3.1V15.1c0-1.1-0.2-2.1-0.5-2.8c-0.6-1.2-1.5-1.7-3-1.7c-0.7,0-1.3,0.1-1.8,0.2c-0.8,0.3-1.6,0.8-2.2,1.5\r\n\tc-0.5,0.6-0.8,1.3-1,1.9c-0.2,0.7-0.2,1.6-0.2,2.8v9.8h-3.1L98.6,8.1L98.6,8.1z M127.9,8.7c1.2,0.6,2.2,1.4,2.8,2.4\r\n\tc0.6,0.9,1,2,1.2,3.3c0.2,0.9,0.3,2.2,0.3,4.1h-13.5c0.1,1.9,0.5,3.4,1.3,4.6c0.8,1.1,2.1,1.7,3.8,1.7c1.6,0,2.9-0.5,3.9-1.6\r\n\tc0.6-0.6,0.9-1.4,1.2-2.2h3c-0.1,0.7-0.3,1.5-0.8,2.3c-0.5,0.8-1,1.5-1.5,2.1c-0.9,0.9-2.1,1.6-3.5,1.9c-0.7,0.2-1.6,0.3-2.5,0.3\r\n\tc-2.3,0-4.2-0.8-5.8-2.5c-1.6-1.7-2.4-4.1-2.4-7.1c0-3,0.8-5.4,2.4-7.3c1.6-1.9,3.7-2.8,6.3-2.8C125.4,7.7,126.7,8,127.9,8.7z\r\n\t M129,16c-0.1-1.4-0.4-2.4-0.9-3.3c-0.8-1.5-2.3-2.3-4.2-2.3c-1.4,0-2.6,0.5-3.6,1.6s-1.5,2.4-1.5,4H129z M145.7,8.1h3.4\r\n\tc-0.4,1.2-1.4,3.9-2.9,8.2c-0.9,2.6-1.9,5.2-2.8,7.9c-1.8,4.8-3,7.7-3.8,8.7c-0.7,1-2,1.6-3.8,1.6c-0.3,0-0.7,0-1-0.1\r\n\tc-0.3,0-0.6-0.1-0.9-0.2v-2.9c0.5,0.2,0.9,0.2,1.2,0.3c0.2,0,0.5,0.1,0.6,0.1c0.6,0,1-0.1,1.3-0.3c0.3-0.2,0.5-0.4,0.7-0.7\r\n\tc0.1-0.1,0.3-0.6,0.6-1.4s0.6-1.5,0.8-1.9l-6.8-19.2h3.5l4.9,15.2L145.7,8.1L145.7,8.1z\"/>\r\n</svg>\r\n"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<svg version=\"1.1\" id=\"logo-jcpenney\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\"\n\t viewBox=\"0 0 150 35\" style=\"enable-background:new 0 0 150 35;\" xml:space=\"preserve\">\n<path id=\"logo-jcpenney-path\" style=\"fill:#111111;\" d=\"M14.6,19.2c0,2.2-0.3,3.8-0.9,5c-1.2,2.2-3.4,3.3-6.7,3.3c-1.9,0-3.5-0.5-4.8-1.6\n\tc-1.3-1-2-2.9-2-5.6v-1.8h3.2v1.8c0,1.4,0.3,2.4,0.9,3.1c0.6,0.7,1.6,1.1,2.9,1.1c1.8,0,3-0.6,3.6-1.9c0.3-0.8,0.5-2.3,0.5-4.4V1.2\n\th3.4C14.6,1.2,14.6,19.2,14.6,19.2z M36.2,3.1c1.8,1.7,2.7,3.7,2.9,5.8h-3.3c-0.4-1.7-1.1-3-2.3-3.9c-1.1-1-2.7-1.4-4.8-1.4\n\tc-2.5,0-4.5,0.9-6,2.7c-1.5,1.8-2.3,4.5-2.3,8.2c0,3,0.7,5.4,2.1,7.3c1.4,1.9,3.4,2.8,6.2,2.8c2.5,0,4.4-1,5.8-3\n\tc0.7-1,1.2-2.4,1.6-4.1h3.3c-0.3,2.7-1.3,5-3,6.8c-2,2.2-4.7,3.3-8.1,3.3c-2.9,0-5.4-0.9-7.4-2.7c-2.6-2.4-3.9-6.1-3.9-11\n\tc0-3.8,1-6.9,3-9.3C22,1.8,25,0.5,28.7,0.5C31.9,0.5,34.4,1.4,36.2,3.1z M42.1,1.2h11.4c2.2,0,4.1,0.6,5.4,1.9s2.1,3.1,2.1,5.4\n\tc0,2-0.6,3.7-1.8,5.2C57.8,15.3,56,16,53.4,16h-7.9v10.8h-3.4V1.2z M55.4,4.7c-0.8-0.4-1.8-0.5-3.1-0.5h-6.8v8.9h6.8\n\tc1.5,0,2.8-0.3,3.7-1c1-0.7,1.4-1.8,1.4-3.5C57.4,6.7,56.8,5.4,55.4,4.7L55.4,4.7z M74.5,8.7c1.2,0.6,2.2,1.4,2.8,2.4\n\tc0.6,0.9,1,2,1.2,3.3c0.2,0.9,0.3,2.2,0.3,4.1H65.3c0.1,1.9,0.5,3.4,1.3,4.6c0.8,1.1,2.1,1.7,3.8,1.7c1.6,0,2.9-0.5,3.9-1.6\n\tc0.6-0.6,0.9-1.4,1.2-2.2h3c-0.1,0.7-0.3,1.5-0.8,2.3c-0.5,0.8-1,1.5-1.5,2.1c-0.9,0.9-2.1,1.6-3.5,1.9c-0.7,0.2-1.6,0.3-2.5,0.3\n\tc-2.3,0-4.2-0.8-5.8-2.5c-1.6-1.7-2.4-4.1-2.4-7.1c0-3,0.8-5.4,2.4-7.3c1.6-1.9,3.7-2.8,6.3-2.8C72,7.7,73.3,8,74.5,8.7L74.5,8.7z\n\t M75.6,16c-0.1-1.4-0.4-2.4-0.9-3.3c-0.8-1.5-2.3-2.3-4.2-2.3c-1.4,0-2.6,0.5-3.6,1.6c-1,1-1.5,2.4-1.5,4H75.6z M80.8,8.1h2.9v2.7\n\tc0.9-1.1,1.8-1.9,2.8-2.4c1-0.5,2.1-0.7,3.2-0.7c2.6,0,4.4,0.9,5.3,2.8c0.5,1,0.8,2.5,0.8,4.3v12h-3.1V15.1c0-1.1-0.2-2.1-0.5-2.8\n\tc-0.6-1.2-1.5-1.7-3-1.7c-0.7,0-1.3,0.1-1.8,0.2c-0.8,0.3-1.6,0.8-2.2,1.5c-0.5,0.6-0.8,1.3-1,1.9c-0.2,0.7-0.2,1.6-0.2,2.8v9.8\n\th-3.1V8.1L80.8,8.1z M98.6,8.1h2.9v2.7c0.9-1.1,1.8-1.9,2.8-2.4c1-0.5,2.1-0.7,3.2-0.7c2.6,0,4.4,0.9,5.3,2.8c0.5,1,0.8,2.5,0.8,4.3\n\tv12h-3.1V15.1c0-1.1-0.2-2.1-0.5-2.8c-0.6-1.2-1.5-1.7-3-1.7c-0.7,0-1.3,0.1-1.8,0.2c-0.8,0.3-1.6,0.8-2.2,1.5\n\tc-0.5,0.6-0.8,1.3-1,1.9c-0.2,0.7-0.2,1.6-0.2,2.8v9.8h-3.1L98.6,8.1L98.6,8.1z M127.9,8.7c1.2,0.6,2.2,1.4,2.8,2.4\n\tc0.6,0.9,1,2,1.2,3.3c0.2,0.9,0.3,2.2,0.3,4.1h-13.5c0.1,1.9,0.5,3.4,1.3,4.6c0.8,1.1,2.1,1.7,3.8,1.7c1.6,0,2.9-0.5,3.9-1.6\n\tc0.6-0.6,0.9-1.4,1.2-2.2h3c-0.1,0.7-0.3,1.5-0.8,2.3c-0.5,0.8-1,1.5-1.5,2.1c-0.9,0.9-2.1,1.6-3.5,1.9c-0.7,0.2-1.6,0.3-2.5,0.3\n\tc-2.3,0-4.2-0.8-5.8-2.5c-1.6-1.7-2.4-4.1-2.4-7.1c0-3,0.8-5.4,2.4-7.3c1.6-1.9,3.7-2.8,6.3-2.8C125.4,7.7,126.7,8,127.9,8.7z\n\t M129,16c-0.1-1.4-0.4-2.4-0.9-3.3c-0.8-1.5-2.3-2.3-4.2-2.3c-1.4,0-2.6,0.5-3.6,1.6s-1.5,2.4-1.5,4H129z M145.7,8.1h3.4\n\tc-0.4,1.2-1.4,3.9-2.9,8.2c-0.9,2.6-1.9,5.2-2.8,7.9c-1.8,4.8-3,7.7-3.8,8.7c-0.7,1-2,1.6-3.8,1.6c-0.3,0-0.7,0-1-0.1\n\tc-0.3,0-0.6-0.1-0.9-0.2v-2.9c0.5,0.2,0.9,0.2,1.2,0.3c0.2,0,0.5,0.1,0.6,0.1c0.6,0,1-0.1,1.3-0.3c0.3-0.2,0.5-0.4,0.7-0.7\n\tc0.1-0.1,0.3-0.6,0.6-1.4s0.6-1.5,0.8-1.9l-6.8-19.2h3.5l4.9,15.2L145.7,8.1L145.7,8.1z\"/>\n</svg>\n"
 
 /***/ }),
 
@@ -30662,9 +30722,9 @@ var _temp = function () {
         return;
     }
 
-    __REACT_HOT_LOADER__.register(Utils, 'Utils', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/helpers/Utils.js');
+    __REACT_HOT_LOADER__.register(Utils, 'Utils', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/helpers/Utils.js');
 
-    __REACT_HOT_LOADER__.register(_default, 'default', 'C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/helpers/Utils.js');
+    __REACT_HOT_LOADER__.register(_default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/helpers/Utils.js');
 }();
 
 ;
@@ -30975,9 +31035,9 @@ var _temp = function () {
         return;
     }
 
-    __REACT_HOT_LOADER__.register(CreateInput, "CreateInput", "C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/containers/CreateInput.js");
+    __REACT_HOT_LOADER__.register(CreateInput, "CreateInput", "/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/containers/CreateInput.js");
 
-    __REACT_HOT_LOADER__.register(_default, "default", "C:/Users/Tom/Desktop/lincolnjcp.github.io/src/js/containers/CreateInput.js");
+    __REACT_HOT_LOADER__.register(_default, "default", "/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/containers/CreateInput.js");
 }();
 
 ;
@@ -31008,7 +31068,7 @@ module.exports = "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http:/
 /***/ "hNYp":
 /***/ (function(module, exports) {
 
-module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\"\r\n\t viewBox=\"0 0 26 26\" style=\"enable-background:new 0 0 26 26;\" xml:space=\"preserve\">\r\n<g transform=\"translate(-11 -11)\">\r\n\t<path style=\"fill:none;\" d=\"M0,0h48v48H0V0z\"/>\r\n\t<circle style=\"fill:none;stroke:#111111;\" cx=\"24\" cy=\"24\" r=\"12\"/>\r\n\t<path style=\"fill:#111111;\" d=\"M22.5,26.7v-0.6c0-0.7,0.1-1.2,0.4-1.7c0.2-0.5,0.7-0.9,1.3-1.4c0.7-0.6,1.2-1,1.4-1.4\r\n\t\tc0.2-0.3,0.3-0.7,0.3-1.2c0-0.5-0.2-0.9-0.5-1.2c-0.3-0.3-0.8-0.4-1.5-0.4c-0.6,0-1.1,0.1-1.6,0.3c-0.5,0.2-1,0.4-1.5,0.6L20,18\r\n\t\tc1.2-0.7,2.6-1.1,4-1c1.2,0,2.2,0.3,2.9,0.9c0.7,0.6,1.1,1.4,1.1,2.5c0,0.5-0.1,0.9-0.2,1.2c-0.1,0.4-0.4,0.7-0.6,1\r\n\t\tc-0.3,0.3-0.8,0.8-1.4,1.3c-0.6,0.5-1,0.8-1.2,1.1s-0.3,0.7-0.3,1.2v0.4H22.5L22.5,26.7z M22.1,29.6c0-0.9,0.5-1.4,1.4-1.4\r\n\t\tc0.4,0,0.8,0.1,1,0.4c0.2,0.2,0.4,0.6,0.4,1c0,0.4-0.1,0.8-0.4,1c-0.2,0.3-0.6,0.4-1,0.4s-0.8-0.1-1-0.4\r\n\t\tC22.2,30.4,22.1,30.1,22.1,29.6z\"/>\r\n</g>\r\n</svg>\r\n"
+module.exports = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\"\n\t viewBox=\"0 0 26 26\" style=\"enable-background:new 0 0 26 26;\" xml:space=\"preserve\">\n<g transform=\"translate(-11 -11)\">\n\t<path style=\"fill:none;\" d=\"M0,0h48v48H0V0z\"/>\n\t<circle style=\"fill:none;stroke:#111111;\" cx=\"24\" cy=\"24\" r=\"12\"/>\n\t<path style=\"fill:#111111;\" d=\"M22.5,26.7v-0.6c0-0.7,0.1-1.2,0.4-1.7c0.2-0.5,0.7-0.9,1.3-1.4c0.7-0.6,1.2-1,1.4-1.4\n\t\tc0.2-0.3,0.3-0.7,0.3-1.2c0-0.5-0.2-0.9-0.5-1.2c-0.3-0.3-0.8-0.4-1.5-0.4c-0.6,0-1.1,0.1-1.6,0.3c-0.5,0.2-1,0.4-1.5,0.6L20,18\n\t\tc1.2-0.7,2.6-1.1,4-1c1.2,0,2.2,0.3,2.9,0.9c0.7,0.6,1.1,1.4,1.1,2.5c0,0.5-0.1,0.9-0.2,1.2c-0.1,0.4-0.4,0.7-0.6,1\n\t\tc-0.3,0.3-0.8,0.8-1.4,1.3c-0.6,0.5-1,0.8-1.2,1.1s-0.3,0.7-0.3,1.2v0.4H22.5L22.5,26.7z M22.1,29.6c0-0.9,0.5-1.4,1.4-1.4\n\t\tc0.4,0,0.8,0.1,1,0.4c0.2,0.2,0.4,0.6,0.4,1c0,0.4-0.1,0.8-0.4,1c-0.2,0.3-0.6,0.4-1,0.4s-0.8-0.1-1-0.4\n\t\tC22.2,30.4,22.1,30.1,22.1,29.6z\"/>\n</g>\n</svg>\n"
 
 /***/ }),
 
