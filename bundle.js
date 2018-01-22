@@ -9836,15 +9836,11 @@ var pricing_Scrollbar = function (_Component) {
                         null,
                         react_default.a.createElement(
                           "div",
-                          { className: "product-card-details" },
+                          { className: "price-card" },
                           react_default.a.createElement(
                             "div",
-                            { className: "product-card-price" },
-                            react_default.a.createElement(
-                              "div",
-                              { className: "product-card-price-value price price-S mrg-rght-XS" },
-                              "$49.99 - $99.99"
-                            )
+                            { className: "price price-S mrg-rght-XS" },
+                            "$49.99 - $99.99"
                           )
                         )
                       ),
@@ -9853,24 +9849,20 @@ var pricing_Scrollbar = function (_Component) {
                         null,
                         react_default.a.createElement(
                           "div",
-                          { className: "product-card-details" },
+                          { className: "price-card" },
                           react_default.a.createElement(
                             "div",
-                            { className: "product-card-price" },
+                            { className: "price price-S mrg-rght-XS" },
+                            "$29.99",
                             react_default.a.createElement(
-                              "div",
-                              { className: "product-card-price-value price price-S mrg-rght-XS" },
-                              "$29.99",
-                              react_default.a.createElement(
-                                "span",
-                                { className: "product-card-note price price-note color-penneyred" },
-                                " sale"
-                              )
+                              "span",
+                              { className: "price price-note color-penneyred" },
+                              " sale"
                             )
                           ),
                           react_default.a.createElement(
                             "div",
-                            { className: "product-card-note price price-note color-slate font-body" },
+                            { className: "price price-note color-slate font-body" },
                             "was $39.99   20% off"
                           )
                         )
@@ -9880,7 +9872,7 @@ var pricing_Scrollbar = function (_Component) {
                         null,
                         react_default.a.createElement(
                           "div",
-                          { className: "product-card-details" },
+                          { className: "price-card" },
                           react_default.a.createElement(
                             "div",
                             { className: "price price-promo mrg-XS color-penneyred" },
@@ -9888,21 +9880,17 @@ var pricing_Scrollbar = function (_Component) {
                           ),
                           react_default.a.createElement(
                             "div",
-                            { className: "product-card-price" },
+                            { className: "price price-S mrg-rght-XS" },
+                            "$29.99",
                             react_default.a.createElement(
-                              "div",
-                              { className: "product-card-price-value price price-S mrg-rght-XS" },
-                              "$29.99",
-                              react_default.a.createElement(
-                                "span",
-                                { className: "product-card-note price price-note color-penneyred" },
-                                " sale"
-                              )
+                              "span",
+                              { className: "price price-note color-penneyred" },
+                              " sale"
                             )
                           ),
                           react_default.a.createElement(
                             "div",
-                            { className: "product-card-note price price-note color-slate font-body" },
+                            { className: "price price-note color-slate font-body" },
                             "was $39.99   20% off"
                           )
                         )
@@ -9912,7 +9900,7 @@ var pricing_Scrollbar = function (_Component) {
                         null,
                         react_default.a.createElement(
                           "div",
-                          { className: "product-card-details" },
+                          { className: "price-card" },
                           react_default.a.createElement(
                             "div",
                             { className: "price price-promo mrg-XS color-penneyred" },
@@ -9920,12 +9908,8 @@ var pricing_Scrollbar = function (_Component) {
                           ),
                           react_default.a.createElement(
                             "div",
-                            { className: "product-card-price" },
-                            react_default.a.createElement(
-                              "div",
-                              { className: "product-card-price-value price price-S mrg-rght-XS" },
-                              "$29.99"
-                            )
+                            { className: "price price-S mrg-rght-XS" },
+                            "$29.99"
                           )
                         )
                       ),
@@ -9934,15 +9918,11 @@ var pricing_Scrollbar = function (_Component) {
                         null,
                         react_default.a.createElement(
                           "div",
-                          { className: "product-card-details" },
+                          { className: "price-card" },
                           react_default.a.createElement(
                             "div",
-                            { className: "product-card-price" },
-                            react_default.a.createElement(
-                              "div",
-                              { className: "product-card-price-value price price-S mrg-rght-XS" },
-                              "View Price in Cart"
-                            )
+                            { className: "price price-S mrg-rght-XS" },
+                            "View Price in Cart"
                           )
                         )
                       ),
@@ -9951,7 +9931,7 @@ var pricing_Scrollbar = function (_Component) {
                         null,
                         react_default.a.createElement(
                           "div",
-                          { className: "product-card-details" },
+                          { className: "price-card" },
                           react_default.a.createElement(
                             "div",
                             { className: "price price-promo mrg-XS color-penneyred" },
@@ -9959,21 +9939,17 @@ var pricing_Scrollbar = function (_Component) {
                           ),
                           react_default.a.createElement(
                             "div",
-                            { className: "product-card-price" },
+                            { className: "price price-S mrg-rght-XS" },
+                            "$29.99",
                             react_default.a.createElement(
-                              "div",
-                              { className: "product-card-price-value price price-S mrg-rght-XS" },
-                              "$29.99",
-                              react_default.a.createElement(
-                                "span",
-                                { className: "product-card-note price price-note color-penneyred" },
-                                " sale"
-                              )
+                              "span",
+                              { className: "price price-note color-penneyred" },
+                              " sale"
                             )
                           ),
                           react_default.a.createElement(
                             "div",
-                            { className: "product-card-note price price-note color-slate font-body" },
+                            { className: "price price-note color-slate font-body" },
                             "was $39.99   20% off"
                           ),
                           react_default.a.createElement(
@@ -9996,15 +9972,11 @@ var pricing_Scrollbar = function (_Component) {
                         null,
                         react_default.a.createElement(
                           "div",
-                          { className: "product-card-details" },
+                          { className: "price-card" },
                           react_default.a.createElement(
                             "div",
-                            { className: "product-card-price" },
-                            react_default.a.createElement(
-                              "div",
-                              { className: "product-card-price-value price price-S mrg-rght-XS" },
-                              "$49.99 - $99.99"
-                            )
+                            { className: "price price-S mrg-rght-XS" },
+                            "$49.99 - $99.99"
                           )
                         )
                       ),
@@ -10013,24 +9985,20 @@ var pricing_Scrollbar = function (_Component) {
                         null,
                         react_default.a.createElement(
                           "div",
-                          { className: "product-card-details" },
+                          { className: "price-card" },
                           react_default.a.createElement(
                             "div",
-                            { className: "product-card-price" },
+                            { className: "price price-S mrg-rght-XS" },
+                            "$29.99",
                             react_default.a.createElement(
-                              "div",
-                              { className: "product-card-price-value price price-S mrg-rght-XS" },
-                              "$29.99",
-                              react_default.a.createElement(
-                                "span",
-                                { className: "product-card-note price price-note color-penneyred" },
-                                " sale"
-                              )
+                              "span",
+                              { className: "price price-note color-penneyred" },
+                              " sale"
                             )
                           ),
                           react_default.a.createElement(
                             "div",
-                            { className: "product-card-note price price-note color-slate font-body" },
+                            { className: "price price-note color-slate font-body" },
                             "was $39.99   20% off"
                           )
                         )
@@ -10040,7 +10008,7 @@ var pricing_Scrollbar = function (_Component) {
                         null,
                         react_default.a.createElement(
                           "div",
-                          { className: "product-card-details" },
+                          { className: "price-card" },
                           react_default.a.createElement(
                             "div",
                             { className: "price price-promo mrg-XS color-penneyred" },
@@ -10048,21 +10016,17 @@ var pricing_Scrollbar = function (_Component) {
                           ),
                           react_default.a.createElement(
                             "div",
-                            { className: "product-card-price" },
+                            { className: "price price-S mrg-rght-XS" },
+                            "$29.99",
                             react_default.a.createElement(
-                              "div",
-                              { className: "product-card-price-value price price-S mrg-rght-XS" },
-                              "$29.99",
-                              react_default.a.createElement(
-                                "span",
-                                { className: "product-card-note price price-note color-penneyred" },
-                                " sale"
-                              )
+                              "span",
+                              { className: "price price-note color-penneyred" },
+                              " sale"
                             )
                           ),
                           react_default.a.createElement(
                             "div",
-                            { className: "product-card-note price price-note color-slate font-body" },
+                            { className: "price price-note color-slate font-body" },
                             "was $39.99   20% off"
                           )
                         )
@@ -10072,7 +10036,7 @@ var pricing_Scrollbar = function (_Component) {
                         null,
                         react_default.a.createElement(
                           "div",
-                          { className: "product-card-details" },
+                          { className: "price-card" },
                           react_default.a.createElement(
                             "div",
                             { className: "price price-promo mrg-XS color-penneyred" },
@@ -10080,12 +10044,8 @@ var pricing_Scrollbar = function (_Component) {
                           ),
                           react_default.a.createElement(
                             "div",
-                            { className: "product-card-price" },
-                            react_default.a.createElement(
-                              "div",
-                              { className: "product-card-price-value price price-S mrg-rght-XS" },
-                              "$29.99"
-                            )
+                            { className: "price price-S mrg-rght-XS" },
+                            "$29.99"
                           )
                         )
                       ),
@@ -10094,15 +10054,11 @@ var pricing_Scrollbar = function (_Component) {
                         null,
                         react_default.a.createElement(
                           "div",
-                          { className: "product-card-details" },
+                          { className: "price-card" },
                           react_default.a.createElement(
                             "div",
-                            { className: "product-card-price" },
-                            react_default.a.createElement(
-                              "div",
-                              { className: "product-card-price-value price price-S mrg-rght-XS" },
-                              "View Price in Cart"
-                            )
+                            { className: "price price-S mrg-rght-XS" },
+                            "View Price in Cart"
                           )
                         )
                       ),
@@ -10111,7 +10067,7 @@ var pricing_Scrollbar = function (_Component) {
                         null,
                         react_default.a.createElement(
                           "div",
-                          { className: "product-card-details" },
+                          { className: "price-card" },
                           react_default.a.createElement(
                             "div",
                             { className: "price price-promo mrg-XS color-penneyred" },
@@ -10119,21 +10075,17 @@ var pricing_Scrollbar = function (_Component) {
                           ),
                           react_default.a.createElement(
                             "div",
-                            { className: "product-card-price" },
+                            { className: "price price-S mrg-rght-XS" },
+                            "$29.99",
                             react_default.a.createElement(
-                              "div",
-                              { className: "product-card-price-value price price-S mrg-rght-XS" },
-                              "$29.99",
-                              react_default.a.createElement(
-                                "span",
-                                { className: "product-card-note price price-note color-penneyred" },
-                                " sale"
-                              )
+                              "span",
+                              { className: "price price-note color-penneyred" },
+                              " sale"
                             )
                           ),
                           react_default.a.createElement(
                             "div",
-                            { className: "product-card-note price price-note color-slate font-body" },
+                            { className: "price price-note color-slate font-body" },
                             "was $39.99   20% off"
                           ),
                           react_default.a.createElement(
@@ -10156,15 +10108,11 @@ var pricing_Scrollbar = function (_Component) {
                         null,
                         react_default.a.createElement(
                           "div",
-                          { className: "product-card-details" },
+                          { className: "price-card" },
                           react_default.a.createElement(
                             "div",
-                            { className: "product-card-price" },
-                            react_default.a.createElement(
-                              "div",
-                              { className: "product-card-price-value price price-S mrg-rght-XS" },
-                              "$49.99 - $99.99"
-                            )
+                            { className: "price price-S mrg-rght-XS" },
+                            "$49.99 - $99.99"
                           )
                         )
                       ),
@@ -10173,24 +10121,20 @@ var pricing_Scrollbar = function (_Component) {
                         null,
                         react_default.a.createElement(
                           "div",
-                          { className: "product-card-details" },
+                          { className: "price-card" },
                           react_default.a.createElement(
                             "div",
-                            { className: "product-card-price" },
+                            { className: "price price-S mrg-rght-XS" },
+                            "$29.99",
                             react_default.a.createElement(
-                              "div",
-                              { className: "product-card-price-value price price-S mrg-rght-XS" },
-                              "$29.99",
-                              react_default.a.createElement(
-                                "span",
-                                { className: "product-card-note price price-note color-penneyred" },
-                                " sale"
-                              )
+                              "span",
+                              { className: "price price-note color-penneyred" },
+                              " sale"
                             )
                           ),
                           react_default.a.createElement(
                             "div",
-                            { className: "product-card-note price price-note color-slate font-body" },
+                            { className: "price price-note color-slate font-body" },
                             "was $39.99   20% off"
                           )
                         )
@@ -10200,7 +10144,7 @@ var pricing_Scrollbar = function (_Component) {
                         null,
                         react_default.a.createElement(
                           "div",
-                          { className: "product-card-details" },
+                          { className: "price-card" },
                           react_default.a.createElement(
                             "div",
                             { className: "price price-promo mrg-XS color-penneyred" },
@@ -10208,21 +10152,17 @@ var pricing_Scrollbar = function (_Component) {
                           ),
                           react_default.a.createElement(
                             "div",
-                            { className: "product-card-price" },
+                            { className: "price price-S mrg-rght-XS" },
+                            "$29.99",
                             react_default.a.createElement(
-                              "div",
-                              { className: "product-card-price-value price price-S mrg-rght-XS" },
-                              "$29.99",
-                              react_default.a.createElement(
-                                "span",
-                                { className: "product-card-note price price-note color-penneyred" },
-                                " sale"
-                              )
+                              "span",
+                              { className: "price price-note color-penneyred" },
+                              " sale"
                             )
                           ),
                           react_default.a.createElement(
                             "div",
-                            { className: "product-card-note price price-note color-slate font-body" },
+                            { className: "price price-note color-slate font-body" },
                             "was $39.99   20% off"
                           )
                         )
@@ -10232,7 +10172,7 @@ var pricing_Scrollbar = function (_Component) {
                         null,
                         react_default.a.createElement(
                           "div",
-                          { className: "product-card-details" },
+                          { className: "price-card" },
                           react_default.a.createElement(
                             "div",
                             { className: "price price-promo mrg-XS color-penneyred" },
@@ -10240,12 +10180,8 @@ var pricing_Scrollbar = function (_Component) {
                           ),
                           react_default.a.createElement(
                             "div",
-                            { className: "product-card-price" },
-                            react_default.a.createElement(
-                              "div",
-                              { className: "product-card-price-value price price-S mrg-rght-XS" },
-                              "$29.99"
-                            )
+                            { className: "price price-S mrg-rght-XS" },
+                            "$29.99"
                           )
                         )
                       ),
@@ -10254,15 +10190,11 @@ var pricing_Scrollbar = function (_Component) {
                         null,
                         react_default.a.createElement(
                           "div",
-                          { className: "product-card-details" },
+                          { className: "price-card" },
                           react_default.a.createElement(
                             "div",
-                            { className: "product-card-price" },
-                            react_default.a.createElement(
-                              "div",
-                              { className: "product-card-price-value price price-S mrg-rght-XS" },
-                              "View Price in Cart"
-                            )
+                            { className: "price price-S mrg-rght-XS" },
+                            "View Price in Cart"
                           )
                         )
                       ),
@@ -10271,7 +10203,7 @@ var pricing_Scrollbar = function (_Component) {
                         null,
                         react_default.a.createElement(
                           "div",
-                          { className: "product-card-details" },
+                          { className: "price-card" },
                           react_default.a.createElement(
                             "div",
                             { className: "price price-promo mrg-XS color-penneyred" },
@@ -10279,21 +10211,17 @@ var pricing_Scrollbar = function (_Component) {
                           ),
                           react_default.a.createElement(
                             "div",
-                            { className: "product-card-price" },
+                            { className: "price price-S mrg-rght-XS" },
+                            "$29.99",
                             react_default.a.createElement(
-                              "div",
-                              { className: "product-card-price-value price price-S mrg-rght-XS" },
-                              "$29.99",
-                              react_default.a.createElement(
-                                "span",
-                                { className: "product-card-note price price-note color-penneyred" },
-                                " sale"
-                              )
+                              "span",
+                              { className: "price price-note color-penneyred" },
+                              " sale"
                             )
                           ),
                           react_default.a.createElement(
                             "div",
-                            { className: "product-card-note price price-note color-slate font-body" },
+                            { className: "price price-note color-slate font-body" },
                             "was $39.99   20% off"
                           ),
                           react_default.a.createElement(
@@ -10316,15 +10244,11 @@ var pricing_Scrollbar = function (_Component) {
                         null,
                         react_default.a.createElement(
                           "div",
-                          { className: "product-card-details" },
+                          { className: "price-card" },
                           react_default.a.createElement(
                             "div",
-                            { className: "product-card-price" },
-                            react_default.a.createElement(
-                              "div",
-                              { className: "product-card-price-value price price-S mrg-rght-XS" },
-                              "$49.99 - $99.99"
-                            )
+                            { className: "price price-S mrg-rght-XS" },
+                            "$49.99 - $99.99"
                           )
                         )
                       ),
@@ -10333,24 +10257,20 @@ var pricing_Scrollbar = function (_Component) {
                         null,
                         react_default.a.createElement(
                           "div",
-                          { className: "product-card-details" },
+                          { className: "price-card" },
                           react_default.a.createElement(
                             "div",
-                            { className: "product-card-price" },
+                            { className: "price price-S mrg-rght-XS" },
+                            "$29.99",
                             react_default.a.createElement(
-                              "div",
-                              { className: "product-card-price-value price price-S mrg-rght-XS" },
-                              "$29.99",
-                              react_default.a.createElement(
-                                "span",
-                                { className: "product-card-note price price-note color-penneyred" },
-                                " sale"
-                              )
+                              "span",
+                              { className: "price price-note color-penneyred" },
+                              " sale"
                             )
                           ),
                           react_default.a.createElement(
                             "div",
-                            { className: "product-card-note price price-note color-slate font-body" },
+                            { className: "price price-note color-slate font-body" },
                             "was $39.99   20% off"
                           )
                         )
@@ -10360,7 +10280,7 @@ var pricing_Scrollbar = function (_Component) {
                         null,
                         react_default.a.createElement(
                           "div",
-                          { className: "product-card-details" },
+                          { className: "price-card" },
                           react_default.a.createElement(
                             "div",
                             { className: "price price-promo mrg-XS color-penneyred" },
@@ -10368,21 +10288,17 @@ var pricing_Scrollbar = function (_Component) {
                           ),
                           react_default.a.createElement(
                             "div",
-                            { className: "product-card-price" },
+                            { className: "price price-S mrg-rght-XS" },
+                            "$29.99",
                             react_default.a.createElement(
-                              "div",
-                              { className: "product-card-price-value price price-S mrg-rght-XS" },
-                              "$29.99",
-                              react_default.a.createElement(
-                                "span",
-                                { className: "product-card-note price price-note color-penneyred" },
-                                " sale"
-                              )
+                              "span",
+                              { className: "price price-note color-penneyred" },
+                              " sale"
                             )
                           ),
                           react_default.a.createElement(
                             "div",
-                            { className: "product-card-note price price-note color-slate font-body" },
+                            { className: "price price-note color-slate font-body" },
                             "was $39.99   20% off"
                           )
                         )
@@ -10392,10 +10308,10 @@ var pricing_Scrollbar = function (_Component) {
                         null,
                         react_default.a.createElement(
                           "div",
-                          { className: "product-card-details" },
+                          { className: "price-card" },
                           react_default.a.createElement(
                             "div",
-                            { "class": "flag flag-urgency std-txt price-promo-S mrg-rght-XS" },
+                            { className: "flag flag-urgency std-txt price-promo-S mrg-rght-XS" },
                             react_default.a.createElement(
                               "div",
                               { className: "price price-XS color-white" },
@@ -10409,12 +10325,8 @@ var pricing_Scrollbar = function (_Component) {
                           ),
                           react_default.a.createElement(
                             "div",
-                            { className: "product-card-price" },
-                            react_default.a.createElement(
-                              "div",
-                              { className: "product-card-price-value price price-S mrg-rght-XS" },
-                              "$29.99"
-                            )
+                            { className: "price price-S mrg-rght-XS" },
+                            "$29.99"
                           )
                         )
                       ),
@@ -10423,15 +10335,11 @@ var pricing_Scrollbar = function (_Component) {
                         null,
                         react_default.a.createElement(
                           "div",
-                          { className: "product-card-details" },
+                          { className: "price-card" },
                           react_default.a.createElement(
                             "div",
-                            { className: "product-card-price" },
-                            react_default.a.createElement(
-                              "div",
-                              { className: "product-card-price-value price price-S mrg-rght-XS" },
-                              "View Price in Cart"
-                            )
+                            { className: "price price-S mrg-rght-XS" },
+                            "View Price in Cart"
                           )
                         )
                       ),
@@ -10440,7 +10348,7 @@ var pricing_Scrollbar = function (_Component) {
                         null,
                         react_default.a.createElement(
                           "div",
-                          { className: "product-card-details" },
+                          { className: "price-card" },
                           react_default.a.createElement(
                             "div",
                             { className: "price price-promo mrg-XS color-penneyred" },
@@ -10448,21 +10356,17 @@ var pricing_Scrollbar = function (_Component) {
                           ),
                           react_default.a.createElement(
                             "div",
-                            { className: "product-card-price" },
+                            { className: "price price-S mrg-rght-XS" },
+                            "$29.99",
                             react_default.a.createElement(
-                              "div",
-                              { className: "product-card-price-value price price-S mrg-rght-XS" },
-                              "$29.99",
-                              react_default.a.createElement(
-                                "span",
-                                { className: "product-card-note price price-note color-penneyred" },
-                                " sale"
-                              )
+                              "span",
+                              { className: "price price-note color-penneyred" },
+                              " sale"
                             )
                           ),
                           react_default.a.createElement(
                             "div",
-                            { className: "product-card-note price price-note color-slate font-body" },
+                            { className: "price price-note color-slate font-body" },
                             "was $39.99   20% off"
                           ),
                           react_default.a.createElement(
@@ -10506,15 +10410,11 @@ var pricing_Scrollbar = function (_Component) {
                         null,
                         react_default.a.createElement(
                           "div",
-                          { className: "product-card-details" },
+                          { className: "price-card" },
                           react_default.a.createElement(
                             "div",
-                            { className: "product-card-price" },
-                            react_default.a.createElement(
-                              "div",
-                              { className: "product-card-price-value price price-XS mrg-rght-XS" },
-                              "$49.99 - $99.99"
-                            )
+                            { className: "price price-XS mrg-rght-XS" },
+                            "$49.99 - $99.99"
                           )
                         )
                       ),
@@ -10523,24 +10423,20 @@ var pricing_Scrollbar = function (_Component) {
                         null,
                         react_default.a.createElement(
                           "div",
-                          { className: "product-card-details" },
+                          { className: "price-card" },
                           react_default.a.createElement(
                             "div",
-                            { className: "product-card-price" },
+                            { className: "price price-XS mrg-rght-XS" },
+                            "$29.99",
                             react_default.a.createElement(
-                              "div",
-                              { className: "product-card-price-value price price-XS mrg-rght-XS" },
-                              "$29.99",
-                              react_default.a.createElement(
-                                "span",
-                                { className: "product-card-note price price-note color-penneyred" },
-                                " sale"
-                              )
+                              "span",
+                              { className: "price price-note color-penneyred" },
+                              " sale"
                             )
                           ),
                           react_default.a.createElement(
                             "div",
-                            { className: "product-card-note price price-note color-slate font-body" },
+                            { className: "price price-note color-slate font-body" },
                             "was $39.99   20% off"
                           )
                         )
@@ -10550,7 +10446,7 @@ var pricing_Scrollbar = function (_Component) {
                         null,
                         react_default.a.createElement(
                           "div",
-                          { className: "product-card-details" },
+                          { className: "price-card" },
                           react_default.a.createElement(
                             "div",
                             { className: "price price-promo-S mrg-XS color-penneyred" },
@@ -10558,21 +10454,17 @@ var pricing_Scrollbar = function (_Component) {
                           ),
                           react_default.a.createElement(
                             "div",
-                            { className: "product-card-price" },
+                            { className: "price price-XS mrg-rght-XS" },
+                            "$29.99",
                             react_default.a.createElement(
-                              "div",
-                              { className: "product-card-price-value price price-XS mrg-rght-XS" },
-                              "$29.99",
-                              react_default.a.createElement(
-                                "span",
-                                { className: "product-card-note price price-note color-penneyred" },
-                                " sale"
-                              )
+                              "span",
+                              { className: "price price-note color-penneyred" },
+                              " sale"
                             )
                           ),
                           react_default.a.createElement(
                             "div",
-                            { className: "product-card-note price price-note color-slate font-body" },
+                            { className: "price price-note color-slate font-body" },
                             "was $39.99   20% off"
                           )
                         )
@@ -10582,7 +10474,7 @@ var pricing_Scrollbar = function (_Component) {
                         null,
                         react_default.a.createElement(
                           "div",
-                          { className: "product-card-details" },
+                          { className: "price-card" },
                           react_default.a.createElement(
                             "div",
                             { className: "price price-promo-S mrg-XS color-penneyred" },
@@ -10590,12 +10482,8 @@ var pricing_Scrollbar = function (_Component) {
                           ),
                           react_default.a.createElement(
                             "div",
-                            { className: "product-card-price" },
-                            react_default.a.createElement(
-                              "div",
-                              { className: "product-card-price-value price price-XS mrg-rght-XS" },
-                              "$29.99"
-                            )
+                            { className: "price price-XS mrg-rght-XS" },
+                            "$29.99"
                           )
                         )
                       ),
@@ -10604,15 +10492,11 @@ var pricing_Scrollbar = function (_Component) {
                         null,
                         react_default.a.createElement(
                           "div",
-                          { className: "product-card-details" },
+                          { className: "price-card" },
                           react_default.a.createElement(
                             "div",
-                            { className: "product-card-price" },
-                            react_default.a.createElement(
-                              "div",
-                              { className: "product-card-price-value price price-XS mrg-rght-XS" },
-                              "View Price in Cart"
-                            )
+                            { className: "price price-XS mrg-rght-XS" },
+                            "View Price in Cart"
                           )
                         )
                       ),
@@ -10621,7 +10505,7 @@ var pricing_Scrollbar = function (_Component) {
                         null,
                         react_default.a.createElement(
                           "div",
-                          { className: "product-card-details" },
+                          { className: "price-card" },
                           react_default.a.createElement(
                             "div",
                             { className: "price price-promo-S mrg-XS color-penneyred" },
@@ -10629,21 +10513,17 @@ var pricing_Scrollbar = function (_Component) {
                           ),
                           react_default.a.createElement(
                             "div",
-                            { className: "product-card-price" },
+                            { className: "price price-XS mrg-rght-XS" },
+                            "$29.99",
                             react_default.a.createElement(
-                              "div",
-                              { className: "product-card-price-value price price-XS mrg-rght-XS" },
-                              "$29.99",
-                              react_default.a.createElement(
-                                "span",
-                                { className: "product-card-note price price-note color-penneyred" },
-                                " sale"
-                              )
+                              "span",
+                              { className: "price price-note color-penneyred" },
+                              " sale"
                             )
                           ),
                           react_default.a.createElement(
                             "div",
-                            { className: "product-card-note price price-note color-slate font-body" },
+                            { className: "price price-note color-slate font-body" },
                             "was $39.99   20% off"
                           ),
                           react_default.a.createElement(
@@ -10666,15 +10546,11 @@ var pricing_Scrollbar = function (_Component) {
                         null,
                         react_default.a.createElement(
                           "div",
-                          { className: "product-card-details" },
+                          { className: "price-card" },
                           react_default.a.createElement(
                             "div",
-                            { className: "product-card-price" },
-                            react_default.a.createElement(
-                              "div",
-                              { className: "product-card-price-value price price-XS mrg-rght-XS" },
-                              "$49.99 - $99.99"
-                            )
+                            { className: "price price-XS mrg-rght-XS" },
+                            "$49.99 - $99.99"
                           )
                         )
                       ),
@@ -10683,24 +10559,20 @@ var pricing_Scrollbar = function (_Component) {
                         null,
                         react_default.a.createElement(
                           "div",
-                          { className: "product-card-details" },
+                          { className: "price-card" },
                           react_default.a.createElement(
                             "div",
-                            { className: "product-card-price" },
+                            { className: "price price-XS mrg-rght-XS" },
+                            "$29.99",
                             react_default.a.createElement(
-                              "div",
-                              { className: "product-card-price-value price price-XS mrg-rght-XS" },
-                              "$29.99",
-                              react_default.a.createElement(
-                                "span",
-                                { className: "product-card-note price price-note color-penneyred" },
-                                " sale"
-                              )
+                              "span",
+                              { className: "price price-note color-penneyred" },
+                              " sale"
                             )
                           ),
                           react_default.a.createElement(
                             "div",
-                            { className: "product-card-note price price-note color-slate font-body" },
+                            { className: "price price-note color-slate font-body" },
                             "was $39.99   20% off"
                           )
                         )
@@ -10710,7 +10582,7 @@ var pricing_Scrollbar = function (_Component) {
                         null,
                         react_default.a.createElement(
                           "div",
-                          { className: "product-card-details" },
+                          { className: "price-card" },
                           react_default.a.createElement(
                             "div",
                             { className: "price price-promo-S mrg-XS color-penneyred" },
@@ -10718,21 +10590,17 @@ var pricing_Scrollbar = function (_Component) {
                           ),
                           react_default.a.createElement(
                             "div",
-                            { className: "product-card-price" },
+                            { className: "price price-XS mrg-rght-XS" },
+                            "$29.99",
                             react_default.a.createElement(
-                              "div",
-                              { className: "product-card-price-value price price-XS mrg-rght-XS" },
-                              "$29.99",
-                              react_default.a.createElement(
-                                "span",
-                                { className: "product-card-note price price-note color-penneyred" },
-                                " sale"
-                              )
+                              "span",
+                              { className: "price price-note color-penneyred" },
+                              " sale"
                             )
                           ),
                           react_default.a.createElement(
                             "div",
-                            { className: "product-card-note price price-note color-slate font-body" },
+                            { className: "price price-note color-slate font-body" },
                             "was $39.99   20% off"
                           )
                         )
@@ -10742,7 +10610,7 @@ var pricing_Scrollbar = function (_Component) {
                         null,
                         react_default.a.createElement(
                           "div",
-                          { className: "product-card-details" },
+                          { className: "price-card" },
                           react_default.a.createElement(
                             "div",
                             { className: "price price-promo-S mrg-XS color-penneyred" },
@@ -10750,12 +10618,8 @@ var pricing_Scrollbar = function (_Component) {
                           ),
                           react_default.a.createElement(
                             "div",
-                            { className: "product-card-price" },
-                            react_default.a.createElement(
-                              "div",
-                              { className: "product-card-price-value price price-XS mrg-rght-XS" },
-                              "$29.99"
-                            )
+                            { className: "price price-XS mrg-rght-XS" },
+                            "$29.99"
                           )
                         )
                       ),
@@ -10764,15 +10628,11 @@ var pricing_Scrollbar = function (_Component) {
                         null,
                         react_default.a.createElement(
                           "div",
-                          { className: "product-card-details" },
+                          { className: "price-card" },
                           react_default.a.createElement(
                             "div",
-                            { className: "product-card-price" },
-                            react_default.a.createElement(
-                              "div",
-                              { className: "product-card-price-value price price-XS mrg-rght-XS" },
-                              "View Price in Cart"
-                            )
+                            { className: "price price-XS mrg-rght-XS" },
+                            "View Price in Cart"
                           )
                         )
                       ),
@@ -10781,7 +10641,7 @@ var pricing_Scrollbar = function (_Component) {
                         null,
                         react_default.a.createElement(
                           "div",
-                          { className: "product-card-details" },
+                          { className: "price-card" },
                           react_default.a.createElement(
                             "div",
                             { className: "price price-promo-S mrg-XS color-penneyred" },
@@ -10789,21 +10649,17 @@ var pricing_Scrollbar = function (_Component) {
                           ),
                           react_default.a.createElement(
                             "div",
-                            { className: "product-card-price" },
+                            { className: "price price-XS mrg-rght-XS" },
+                            "$29.99",
                             react_default.a.createElement(
-                              "div",
-                              { className: "product-card-price-value price price-XS mrg-rght-XS" },
-                              "$29.99",
-                              react_default.a.createElement(
-                                "span",
-                                { className: "product-card-note price price-note color-penneyred" },
-                                " sale"
-                              )
+                              "span",
+                              { className: "price price-note color-penneyred" },
+                              " sale"
                             )
                           ),
                           react_default.a.createElement(
                             "div",
-                            { className: "product-card-note price price-note color-slate font-body" },
+                            { className: "price price-note color-slate font-body" },
                             "was $39.99   20% off"
                           ),
                           react_default.a.createElement(
@@ -10826,15 +10682,11 @@ var pricing_Scrollbar = function (_Component) {
                         null,
                         react_default.a.createElement(
                           "div",
-                          { className: "product-card-details" },
+                          { className: "price-card" },
                           react_default.a.createElement(
                             "div",
-                            { className: "product-card-price" },
-                            react_default.a.createElement(
-                              "div",
-                              { className: "product-card-price-value price price-XS mrg-rght-XS" },
-                              "$49.99 - $99.99"
-                            )
+                            { className: "price price-XS mrg-rght-XS" },
+                            "$49.99 - $99.99"
                           )
                         )
                       ),
@@ -10843,24 +10695,20 @@ var pricing_Scrollbar = function (_Component) {
                         null,
                         react_default.a.createElement(
                           "div",
-                          { className: "product-card-details" },
+                          { className: "price-card" },
                           react_default.a.createElement(
                             "div",
-                            { className: "product-card-price" },
+                            { className: "price price-XS mrg-rght-XS" },
+                            "$29.99",
                             react_default.a.createElement(
-                              "div",
-                              { className: "product-card-price-value price price-XS mrg-rght-XS" },
-                              "$29.99",
-                              react_default.a.createElement(
-                                "span",
-                                { className: "product-card-note price price-note color-penneyred" },
-                                " sale"
-                              )
+                              "span",
+                              { className: "price price-note color-penneyred" },
+                              " sale"
                             )
                           ),
                           react_default.a.createElement(
                             "div",
-                            { className: "product-card-note price price-note color-slate font-body" },
+                            { className: "price price-note color-slate font-body" },
                             "was $39.99   20% off"
                           )
                         )
@@ -10870,7 +10718,7 @@ var pricing_Scrollbar = function (_Component) {
                         null,
                         react_default.a.createElement(
                           "div",
-                          { className: "product-card-details" },
+                          { className: "price-card" },
                           react_default.a.createElement(
                             "div",
                             { className: "price price-promo-S mrg-XS color-penneyred" },
@@ -10878,21 +10726,17 @@ var pricing_Scrollbar = function (_Component) {
                           ),
                           react_default.a.createElement(
                             "div",
-                            { className: "product-card-price" },
+                            { className: "price price-XS mrg-rght-XS" },
+                            "$29.99",
                             react_default.a.createElement(
-                              "div",
-                              { className: "product-card-price-value price price-XS mrg-rght-XS" },
-                              "$29.99",
-                              react_default.a.createElement(
-                                "span",
-                                { className: "product-card-note price price-note color-penneyred" },
-                                " sale"
-                              )
+                              "span",
+                              { className: "price price-note color-penneyred" },
+                              " sale"
                             )
                           ),
                           react_default.a.createElement(
                             "div",
-                            { className: "product-card-note price price-note color-slate font-body" },
+                            { className: "price price-note color-slate font-body" },
                             "was $39.99   20% off"
                           )
                         )
@@ -10902,7 +10746,7 @@ var pricing_Scrollbar = function (_Component) {
                         null,
                         react_default.a.createElement(
                           "div",
-                          { className: "product-card-details" },
+                          { className: "price-card" },
                           react_default.a.createElement(
                             "div",
                             { className: "price price-promo-S mrg-XS color-penneyred" },
@@ -10910,12 +10754,8 @@ var pricing_Scrollbar = function (_Component) {
                           ),
                           react_default.a.createElement(
                             "div",
-                            { className: "product-card-price" },
-                            react_default.a.createElement(
-                              "div",
-                              { className: "product-card-price-value price price-XS mrg-rght-XS" },
-                              "$29.99"
-                            )
+                            { className: "price price-XS mrg-rght-XS" },
+                            "$29.99"
                           )
                         )
                       ),
@@ -10924,15 +10764,11 @@ var pricing_Scrollbar = function (_Component) {
                         null,
                         react_default.a.createElement(
                           "div",
-                          { className: "product-card-details" },
+                          { className: "price-card" },
                           react_default.a.createElement(
                             "div",
-                            { className: "product-card-price" },
-                            react_default.a.createElement(
-                              "div",
-                              { className: "product-card-price-value price price-XS mrg-rght-XS" },
-                              "View Price in Cart"
-                            )
+                            { className: "price price-XS mrg-rght-XS" },
+                            "View Price in Cart"
                           )
                         )
                       ),
@@ -10941,7 +10777,7 @@ var pricing_Scrollbar = function (_Component) {
                         null,
                         react_default.a.createElement(
                           "div",
-                          { className: "product-card-details" },
+                          { className: "price-card" },
                           react_default.a.createElement(
                             "div",
                             { className: "price price-promo-S mrg-XS color-penneyred" },
@@ -10949,21 +10785,17 @@ var pricing_Scrollbar = function (_Component) {
                           ),
                           react_default.a.createElement(
                             "div",
-                            { className: "product-card-price" },
+                            { className: "price price-XS mrg-rght-XS" },
+                            "$29.99",
                             react_default.a.createElement(
-                              "div",
-                              { className: "product-card-price-value price price-XS mrg-rght-XS" },
-                              "$29.99",
-                              react_default.a.createElement(
-                                "span",
-                                { className: "product-card-note price price-note color-penneyred" },
-                                " sale"
-                              )
+                              "span",
+                              { className: "price price-note color-penneyred" },
+                              " sale"
                             )
                           ),
                           react_default.a.createElement(
                             "div",
-                            { className: "product-card-note price price-note color-slate font-body" },
+                            { className: "price price-note color-slate font-body" },
                             "was $39.99   20% off"
                           ),
                           react_default.a.createElement(
@@ -10986,15 +10818,11 @@ var pricing_Scrollbar = function (_Component) {
                         null,
                         react_default.a.createElement(
                           "div",
-                          { className: "product-card-details" },
+                          { className: "price-card" },
                           react_default.a.createElement(
                             "div",
-                            { className: "product-card-price" },
-                            react_default.a.createElement(
-                              "div",
-                              { className: "product-card-price-value price price-XS mrg-rght-XS" },
-                              "$49.99 - $99.99"
-                            )
+                            { className: "price price-XS mrg-rght-XS" },
+                            "$49.99 - $99.99"
                           )
                         )
                       ),
@@ -11003,24 +10831,20 @@ var pricing_Scrollbar = function (_Component) {
                         null,
                         react_default.a.createElement(
                           "div",
-                          { className: "product-card-details" },
+                          { className: "price-card" },
                           react_default.a.createElement(
                             "div",
-                            { className: "product-card-price" },
+                            { className: "price price-XS mrg-rght-XS" },
+                            "$29.99",
                             react_default.a.createElement(
-                              "div",
-                              { className: "product-card-price-value price price-XS mrg-rght-XS" },
-                              "$29.99",
-                              react_default.a.createElement(
-                                "span",
-                                { className: "product-card-note price price-note color-penneyred" },
-                                " sale"
-                              )
+                              "span",
+                              { className: "price price-note color-penneyred" },
+                              " sale"
                             )
                           ),
                           react_default.a.createElement(
                             "div",
-                            { className: "product-card-note price price-note color-slate font-body" },
+                            { className: "price price-note color-slate font-body" },
                             "was $39.99   20% off"
                           )
                         )
@@ -11030,7 +10854,7 @@ var pricing_Scrollbar = function (_Component) {
                         null,
                         react_default.a.createElement(
                           "div",
-                          { className: "product-card-details" },
+                          { className: "price-card" },
                           react_default.a.createElement(
                             "div",
                             { className: "price price-promo-S mrg-XS color-penneyred" },
@@ -11038,21 +10862,17 @@ var pricing_Scrollbar = function (_Component) {
                           ),
                           react_default.a.createElement(
                             "div",
-                            { className: "product-card-price" },
+                            { className: "price price-XS mrg-rght-XS" },
+                            "$29.99",
                             react_default.a.createElement(
-                              "div",
-                              { className: "product-card-price-value price price-XS mrg-rght-XS" },
-                              "$29.99",
-                              react_default.a.createElement(
-                                "span",
-                                { className: "product-card-note price price-note color-penneyred" },
-                                " sale"
-                              )
+                              "span",
+                              { className: "price price-note color-penneyred" },
+                              " sale"
                             )
                           ),
                           react_default.a.createElement(
                             "div",
-                            { className: "product-card-note price price-note color-slate font-body" },
+                            { className: "price price-note color-slate font-body" },
                             "was $39.99   20% off"
                           )
                         )
@@ -11062,10 +10882,10 @@ var pricing_Scrollbar = function (_Component) {
                         null,
                         react_default.a.createElement(
                           "div",
-                          { className: "product-card-details" },
+                          { className: "price-card" },
                           react_default.a.createElement(
                             "div",
-                            { "class": "flag flag-urgency std-txt price-promo-S mrg-rght-XS" },
+                            { className: "flag flag-urgency std-txt price-promo-S mrg-rght-XS" },
                             react_default.a.createElement(
                               "div",
                               { className: "price color-white" },
@@ -11079,12 +10899,8 @@ var pricing_Scrollbar = function (_Component) {
                           ),
                           react_default.a.createElement(
                             "div",
-                            { className: "product-card-price" },
-                            react_default.a.createElement(
-                              "div",
-                              { className: "product-card-price-value price price-XS mrg-rght-XS" },
-                              "$29.99"
-                            )
+                            { className: "price price-XS mrg-rght-XS" },
+                            "$29.99"
                           )
                         )
                       ),
@@ -11093,15 +10909,11 @@ var pricing_Scrollbar = function (_Component) {
                         null,
                         react_default.a.createElement(
                           "div",
-                          { className: "product-card-details" },
+                          { className: "price-card" },
                           react_default.a.createElement(
                             "div",
-                            { className: "product-card-price" },
-                            react_default.a.createElement(
-                              "div",
-                              { className: "product-card-price-value price price-XS mrg-rght-XS" },
-                              "View Price in Cart"
-                            )
+                            { className: "price price-XS mrg-rght-XS" },
+                            "View Price in Cart"
                           )
                         )
                       ),
@@ -11110,7 +10922,7 @@ var pricing_Scrollbar = function (_Component) {
                         null,
                         react_default.a.createElement(
                           "div",
-                          { className: "product-card-details" },
+                          { className: "price-card" },
                           react_default.a.createElement(
                             "div",
                             { className: "price price-promo-S mrg-XS color-penneyred" },
@@ -11118,21 +10930,17 @@ var pricing_Scrollbar = function (_Component) {
                           ),
                           react_default.a.createElement(
                             "div",
-                            { className: "product-card-price" },
+                            { className: "price price-XS mrg-rght-XS" },
+                            "$29.99",
                             react_default.a.createElement(
-                              "div",
-                              { className: "product-card-price-value price price-XS mrg-rght-XS" },
-                              "$29.99",
-                              react_default.a.createElement(
-                                "span",
-                                { className: "product-card-note price price-note color-penneyred" },
-                                " sale"
-                              )
+                              "span",
+                              { className: "price price-note color-penneyred" },
+                              " sale"
                             )
                           ),
                           react_default.a.createElement(
                             "div",
-                            { className: "product-card-note price price-note color-slate font-body" },
+                            { className: "price price-note color-slate font-body" },
                             "was $39.99   20% off"
                           ),
                           react_default.a.createElement(
@@ -11176,15 +10984,11 @@ var pricing_Scrollbar = function (_Component) {
                         null,
                         react_default.a.createElement(
                           "div",
-                          { className: "product-card-details" },
+                          { className: "price-card" },
                           react_default.a.createElement(
                             "div",
-                            { className: "product-card-price" },
-                            react_default.a.createElement(
-                              "div",
-                              { className: "product-card-price-value price price-XXS mrg-rght-XS" },
-                              "$49.99 - $99.99"
-                            )
+                            { className: "price price-XXS mrg-rght-XS" },
+                            "$49.99 - $99.99"
                           )
                         )
                       ),
@@ -11193,24 +10997,20 @@ var pricing_Scrollbar = function (_Component) {
                         null,
                         react_default.a.createElement(
                           "div",
-                          { className: "product-card-details" },
+                          { className: "price-card" },
                           react_default.a.createElement(
                             "div",
-                            { className: "product-card-price" },
+                            { className: "price price-XXS mrg-rght-XS" },
+                            "$29.99",
                             react_default.a.createElement(
-                              "div",
-                              { className: "product-card-price-value price price-XXS mrg-rght-XS" },
-                              "$29.99",
-                              react_default.a.createElement(
-                                "span",
-                                { className: "product-card-note price price-note color-penneyred" },
-                                " sale"
-                              )
+                              "span",
+                              { className: "price price-note color-penneyred" },
+                              " sale"
                             )
                           ),
                           react_default.a.createElement(
                             "div",
-                            { className: "product-card-note price price-note-XS color-slate font-body" },
+                            { className: "price price-note-XS color-slate font-body" },
                             "was $39.99   20% off"
                           )
                         )
@@ -11220,7 +11020,7 @@ var pricing_Scrollbar = function (_Component) {
                         null,
                         react_default.a.createElement(
                           "div",
-                          { className: "product-card-details" },
+                          { className: "price-card" },
                           react_default.a.createElement(
                             "div",
                             { className: "price price-promo-S mrg-XS color-penneyred" },
@@ -11228,21 +11028,17 @@ var pricing_Scrollbar = function (_Component) {
                           ),
                           react_default.a.createElement(
                             "div",
-                            { className: "product-card-price" },
+                            { className: "price price-XXS mrg-rght-XS" },
+                            "$29.99",
                             react_default.a.createElement(
-                              "div",
-                              { className: "product-card-price-value price price-XXS mrg-rght-XS" },
-                              "$29.99",
-                              react_default.a.createElement(
-                                "span",
-                                { className: "product-card-note price price-note color-penneyred" },
-                                " sale"
-                              )
+                              "span",
+                              { className: "price price-note color-penneyred" },
+                              " sale"
                             )
                           ),
                           react_default.a.createElement(
                             "div",
-                            { className: "product-card-note price price-note-XS color-slate font-body" },
+                            { className: "price price-note-XS color-slate font-body" },
                             "was $39.99   20% off"
                           )
                         )
@@ -11252,7 +11048,7 @@ var pricing_Scrollbar = function (_Component) {
                         null,
                         react_default.a.createElement(
                           "div",
-                          { className: "product-card-details" },
+                          { className: "price-card" },
                           react_default.a.createElement(
                             "div",
                             { className: "price price-promo-S mrg-XS color-penneyred" },
@@ -11260,12 +11056,8 @@ var pricing_Scrollbar = function (_Component) {
                           ),
                           react_default.a.createElement(
                             "div",
-                            { className: "product-card-price" },
-                            react_default.a.createElement(
-                              "div",
-                              { className: "product-card-price-value price price-XXS mrg-rght-XS" },
-                              "$29.99"
-                            )
+                            { className: "price price-XXS mrg-rght-XS" },
+                            "$29.99"
                           )
                         )
                       ),
@@ -11274,15 +11066,11 @@ var pricing_Scrollbar = function (_Component) {
                         null,
                         react_default.a.createElement(
                           "div",
-                          { className: "product-card-details" },
+                          { className: "price-card" },
                           react_default.a.createElement(
                             "div",
-                            { className: "product-card-price" },
-                            react_default.a.createElement(
-                              "div",
-                              { className: "product-card-price-value price price-XXS mrg-rght-XS" },
-                              "View Price in Cart"
-                            )
+                            { className: "price price-XXS mrg-rght-XS" },
+                            "View Price in Cart"
                           )
                         )
                       ),
@@ -11291,7 +11079,7 @@ var pricing_Scrollbar = function (_Component) {
                         null,
                         react_default.a.createElement(
                           "div",
-                          { className: "product-card-details" },
+                          { className: "price-card" },
                           react_default.a.createElement(
                             "div",
                             { className: "price price-promo-S mrg-XS color-penneyred" },
@@ -11299,21 +11087,17 @@ var pricing_Scrollbar = function (_Component) {
                           ),
                           react_default.a.createElement(
                             "div",
-                            { className: "product-card-price" },
+                            { className: "price price-XXS mrg-rght-XS" },
+                            "$29.99",
                             react_default.a.createElement(
-                              "div",
-                              { className: "product-card-price-value price price-XXS mrg-rght-XS" },
-                              "$29.99",
-                              react_default.a.createElement(
-                                "span",
-                                { className: "product-card-note price price-note color-penneyred" },
-                                " sale"
-                              )
+                              "span",
+                              { className: "price price-note color-penneyred" },
+                              " sale"
                             )
                           ),
                           react_default.a.createElement(
                             "div",
-                            { className: "product-card-note price price-note-XS color-slate font-body" },
+                            { className: "price price-note-XS color-slate font-body" },
                             "was $39.99   20% off"
                           ),
                           react_default.a.createElement(
@@ -11336,15 +11120,11 @@ var pricing_Scrollbar = function (_Component) {
                         null,
                         react_default.a.createElement(
                           "div",
-                          { className: "product-card-details" },
+                          { className: "price-card" },
                           react_default.a.createElement(
                             "div",
-                            { className: "product-card-price" },
-                            react_default.a.createElement(
-                              "div",
-                              { className: "product-card-price-value price price-XXS mrg-rght-XS" },
-                              "$49.99 - $99.99"
-                            )
+                            { className: "price price-XXS mrg-rght-XS" },
+                            "$49.99 - $99.99"
                           )
                         )
                       ),
@@ -11353,24 +11133,20 @@ var pricing_Scrollbar = function (_Component) {
                         null,
                         react_default.a.createElement(
                           "div",
-                          { className: "product-card-details" },
+                          { className: "price-card" },
                           react_default.a.createElement(
                             "div",
-                            { className: "product-card-price" },
+                            { className: "price price-XXS mrg-rght-XS" },
+                            "$29.99",
                             react_default.a.createElement(
-                              "div",
-                              { className: "product-card-price-value price price-XXS mrg-rght-XS" },
-                              "$29.99",
-                              react_default.a.createElement(
-                                "span",
-                                { className: "product-card-note price price-note color-penneyred" },
-                                " sale"
-                              )
+                              "span",
+                              { className: "price price-note color-penneyred" },
+                              " sale"
                             )
                           ),
                           react_default.a.createElement(
                             "div",
-                            { className: "product-card-note price price-note-XS color-slate font-body" },
+                            { className: "price price-note-XS color-slate font-body" },
                             "was $39.99   20% off"
                           )
                         )
@@ -11380,7 +11156,7 @@ var pricing_Scrollbar = function (_Component) {
                         null,
                         react_default.a.createElement(
                           "div",
-                          { className: "product-card-details" },
+                          { className: "price-card" },
                           react_default.a.createElement(
                             "div",
                             { className: "price price-promo-S mrg-XS color-penneyred" },
@@ -11388,21 +11164,17 @@ var pricing_Scrollbar = function (_Component) {
                           ),
                           react_default.a.createElement(
                             "div",
-                            { className: "product-card-price" },
+                            { className: "price price-XXS mrg-rght-XS" },
+                            "$29.99",
                             react_default.a.createElement(
-                              "div",
-                              { className: "product-card-price-value price price-XXS mrg-rght-XS" },
-                              "$29.99",
-                              react_default.a.createElement(
-                                "span",
-                                { className: "product-card-note price price-note color-penneyred" },
-                                " sale"
-                              )
+                              "span",
+                              { className: "price price-note color-penneyred" },
+                              " sale"
                             )
                           ),
                           react_default.a.createElement(
                             "div",
-                            { className: "product-card-note price price-note-XS color-slate font-body" },
+                            { className: "price price-note-XS color-slate font-body" },
                             "was $39.99   20% off"
                           )
                         )
@@ -11412,7 +11184,7 @@ var pricing_Scrollbar = function (_Component) {
                         null,
                         react_default.a.createElement(
                           "div",
-                          { className: "product-card-details" },
+                          { className: "price-card" },
                           react_default.a.createElement(
                             "div",
                             { className: "price price-promo-S mrg-XS color-penneyred" },
@@ -11420,12 +11192,8 @@ var pricing_Scrollbar = function (_Component) {
                           ),
                           react_default.a.createElement(
                             "div",
-                            { className: "product-card-price" },
-                            react_default.a.createElement(
-                              "div",
-                              { className: "product-card-price-value price price-XXS mrg-rght-XS" },
-                              "$29.99"
-                            )
+                            { className: "price price-XXS mrg-rght-XS" },
+                            "$29.99"
                           )
                         )
                       ),
@@ -11434,15 +11202,11 @@ var pricing_Scrollbar = function (_Component) {
                         null,
                         react_default.a.createElement(
                           "div",
-                          { className: "product-card-details" },
+                          { className: "price-card" },
                           react_default.a.createElement(
                             "div",
-                            { className: "product-card-price" },
-                            react_default.a.createElement(
-                              "div",
-                              { className: "product-card-price-value price price-XXS mrg-rght-XS" },
-                              "View Price in Cart"
-                            )
+                            { className: "price price-XXS mrg-rght-XS" },
+                            "View Price in Cart"
                           )
                         )
                       ),
@@ -11451,7 +11215,7 @@ var pricing_Scrollbar = function (_Component) {
                         null,
                         react_default.a.createElement(
                           "div",
-                          { className: "product-card-details" },
+                          { className: "price-card" },
                           react_default.a.createElement(
                             "div",
                             { className: "price price-promo-S mrg-XS color-penneyred" },
@@ -11459,21 +11223,17 @@ var pricing_Scrollbar = function (_Component) {
                           ),
                           react_default.a.createElement(
                             "div",
-                            { className: "product-card-price" },
+                            { className: "price price-XXS mrg-rght-XS" },
+                            "$29.99",
                             react_default.a.createElement(
-                              "div",
-                              { className: "product-card-price-value price price-XXS mrg-rght-XS" },
-                              "$29.99",
-                              react_default.a.createElement(
-                                "span",
-                                { className: "product-card-note price price-note color-penneyred" },
-                                " sale"
-                              )
+                              "span",
+                              { className: "price price-note color-penneyred" },
+                              " sale"
                             )
                           ),
                           react_default.a.createElement(
                             "div",
-                            { className: "product-card-note price price-note-XS color-slate font-body" },
+                            { className: "price price-note-XS color-slate font-body" },
                             "was $39.99   20% off"
                           ),
                           react_default.a.createElement(
@@ -11496,15 +11256,11 @@ var pricing_Scrollbar = function (_Component) {
                         null,
                         react_default.a.createElement(
                           "div",
-                          { className: "product-card-details" },
+                          { className: "price-card" },
                           react_default.a.createElement(
                             "div",
-                            { className: "product-card-price" },
-                            react_default.a.createElement(
-                              "div",
-                              { className: "product-card-price-value price price-XXS mrg-rght-XS" },
-                              "$49.99 - $99.99"
-                            )
+                            { className: "price price-XXS mrg-rght-XS" },
+                            "$49.99 - $99.99"
                           )
                         )
                       ),
@@ -11513,24 +11269,20 @@ var pricing_Scrollbar = function (_Component) {
                         null,
                         react_default.a.createElement(
                           "div",
-                          { className: "product-card-details" },
+                          { className: "price-card" },
                           react_default.a.createElement(
                             "div",
-                            { className: "product-card-price" },
+                            { className: "price price-XXS mrg-rght-XS" },
+                            "$29.99",
                             react_default.a.createElement(
-                              "div",
-                              { className: "product-card-price-value price price-XXS mrg-rght-XS" },
-                              "$29.99",
-                              react_default.a.createElement(
-                                "span",
-                                { className: "product-card-note price price-note color-penneyred" },
-                                " sale"
-                              )
+                              "span",
+                              { className: "price price-note color-penneyred" },
+                              " sale"
                             )
                           ),
                           react_default.a.createElement(
                             "div",
-                            { className: "product-card-note price price-note-XS color-slate font-body" },
+                            { className: "price price-note-XS color-slate font-body" },
                             "was $39.99   20% off"
                           )
                         )
@@ -11540,7 +11292,7 @@ var pricing_Scrollbar = function (_Component) {
                         null,
                         react_default.a.createElement(
                           "div",
-                          { className: "product-card-details" },
+                          { className: "price-card" },
                           react_default.a.createElement(
                             "div",
                             { className: "price price-promo-S mrg-XS color-penneyred" },
@@ -11548,21 +11300,17 @@ var pricing_Scrollbar = function (_Component) {
                           ),
                           react_default.a.createElement(
                             "div",
-                            { className: "product-card-price" },
+                            { className: "price price-XXS mrg-rght-XS" },
+                            "$29.99",
                             react_default.a.createElement(
-                              "div",
-                              { className: "product-card-price-value price price-XXS mrg-rght-XS" },
-                              "$29.99",
-                              react_default.a.createElement(
-                                "span",
-                                { className: "product-card-note price price-note color-penneyred" },
-                                " sale"
-                              )
+                              "span",
+                              { className: "price price-note color-penneyred" },
+                              " sale"
                             )
                           ),
                           react_default.a.createElement(
                             "div",
-                            { className: "product-card-note price price-note-XS color-slate font-body" },
+                            { className: "price price-note-XS color-slate font-body" },
                             "was $39.99   20% off"
                           )
                         )
@@ -11572,7 +11320,7 @@ var pricing_Scrollbar = function (_Component) {
                         null,
                         react_default.a.createElement(
                           "div",
-                          { className: "product-card-details" },
+                          { className: "price-card" },
                           react_default.a.createElement(
                             "div",
                             { className: "price price-promo-S mrg-XS color-penneyred" },
@@ -11580,12 +11328,8 @@ var pricing_Scrollbar = function (_Component) {
                           ),
                           react_default.a.createElement(
                             "div",
-                            { className: "product-card-price" },
-                            react_default.a.createElement(
-                              "div",
-                              { className: "product-card-price-value price price-XXS mrg-rght-XS" },
-                              "$29.99"
-                            )
+                            { className: "price price-XXS mrg-rght-XS" },
+                            "$29.99"
                           )
                         )
                       ),
@@ -11594,15 +11338,11 @@ var pricing_Scrollbar = function (_Component) {
                         null,
                         react_default.a.createElement(
                           "div",
-                          { className: "product-card-details" },
+                          { className: "price-card" },
                           react_default.a.createElement(
                             "div",
-                            { className: "product-card-price" },
-                            react_default.a.createElement(
-                              "div",
-                              { className: "product-card-price-value price price-XXS mrg-rght-XS" },
-                              "View Price in Cart"
-                            )
+                            { className: "price price-XXS mrg-rght-XS" },
+                            "View Price in Cart"
                           )
                         )
                       ),
@@ -11611,7 +11351,7 @@ var pricing_Scrollbar = function (_Component) {
                         null,
                         react_default.a.createElement(
                           "div",
-                          { className: "product-card-details" },
+                          { className: "price-card" },
                           react_default.a.createElement(
                             "div",
                             { className: "price price-promo-S mrg-XS color-penneyred" },
@@ -11619,21 +11359,17 @@ var pricing_Scrollbar = function (_Component) {
                           ),
                           react_default.a.createElement(
                             "div",
-                            { className: "product-card-price" },
+                            { className: "price price-XXS mrg-rght-XS" },
+                            "$29.99",
                             react_default.a.createElement(
-                              "div",
-                              { className: "product-card-price-value price price-XXS mrg-rght-XS" },
-                              "$29.99",
-                              react_default.a.createElement(
-                                "span",
-                                { className: "product-card-note price price-note color-penneyred" },
-                                " sale"
-                              )
+                              "span",
+                              { className: "price price-note color-penneyred" },
+                              " sale"
                             )
                           ),
                           react_default.a.createElement(
                             "div",
-                            { className: "product-card-note price price-note-XS color-slate font-body" },
+                            { className: "price price-note-XS color-slate font-body" },
                             "was $39.99   20% off"
                           ),
                           react_default.a.createElement(
@@ -11656,15 +11392,11 @@ var pricing_Scrollbar = function (_Component) {
                         null,
                         react_default.a.createElement(
                           "div",
-                          { className: "product-card-details" },
+                          { className: "price-card" },
                           react_default.a.createElement(
                             "div",
-                            { className: "product-card-price" },
-                            react_default.a.createElement(
-                              "div",
-                              { className: "product-card-price-value price price-XXS mrg-rght-XS" },
-                              "$49.99 - $99.99"
-                            )
+                            { className: "price price-XXS mrg-rght-XS" },
+                            "$49.99 - $99.99"
                           )
                         )
                       ),
@@ -11673,24 +11405,24 @@ var pricing_Scrollbar = function (_Component) {
                         null,
                         react_default.a.createElement(
                           "div",
-                          { className: "product-card-details" },
+                          { className: "price-card" },
                           react_default.a.createElement(
                             "div",
                             { className: "product-card-price" },
                             react_default.a.createElement(
                               "div",
-                              { className: "product-card-price-value price price-XXS mrg-rght-XS" },
+                              { className: "price price-XXS mrg-rght-XS" },
                               "$29.99",
                               react_default.a.createElement(
                                 "span",
-                                { className: "product-card-note price price-note color-penneyred" },
+                                { className: "price price-note color-penneyred" },
                                 " sale"
                               )
                             )
                           ),
                           react_default.a.createElement(
                             "div",
-                            { className: "product-card-note price price-note-XS color-slate font-body" },
+                            { className: "price price-note-XS color-slate font-body" },
                             "was $39.99   20% off"
                           )
                         )
@@ -11700,7 +11432,7 @@ var pricing_Scrollbar = function (_Component) {
                         null,
                         react_default.a.createElement(
                           "div",
-                          { className: "product-card-details" },
+                          { className: "price-card" },
                           react_default.a.createElement(
                             "div",
                             { className: "price price-promo-S mrg-XS color-penneyred" },
@@ -11708,21 +11440,17 @@ var pricing_Scrollbar = function (_Component) {
                           ),
                           react_default.a.createElement(
                             "div",
-                            { className: "product-card-price" },
+                            { className: "price price-XXS mrg-rght-XS" },
+                            "$29.99",
                             react_default.a.createElement(
-                              "div",
-                              { className: "product-card-price-value price price-XXS mrg-rght-XS" },
-                              "$29.99",
-                              react_default.a.createElement(
-                                "span",
-                                { className: "product-card-note price price-note color-penneyred" },
-                                " sale"
-                              )
+                              "span",
+                              { className: "price price-note color-penneyred" },
+                              " sale"
                             )
                           ),
                           react_default.a.createElement(
                             "div",
-                            { className: "product-card-note price price-note-XS color-slate font-body" },
+                            { className: "price price-note-XS color-slate font-body" },
                             "was $39.99   20% off"
                           )
                         )
@@ -11732,8 +11460,8 @@ var pricing_Scrollbar = function (_Component) {
                         null,
                         react_default.a.createElement(
                           "div",
-                          { className: "product-card-details" },
-                          react_default.a.createElement("div", { "class": "flag flag-urgency std-txt price-promo-S mrg-rght-XS" }),
+                          { className: "price-card" },
+                          react_default.a.createElement("div", { className: "flag flag-urgency std-txt price-promo-S mrg-rght-XS" }),
                           react_default.a.createElement(
                             "div",
                             { className: "price price-promo-S mrg-XS color-penneyred" },
@@ -11741,12 +11469,8 @@ var pricing_Scrollbar = function (_Component) {
                           ),
                           react_default.a.createElement(
                             "div",
-                            { className: "product-card-price" },
-                            react_default.a.createElement(
-                              "div",
-                              { className: "product-card-price-value price price-XXS mrg-rght-XS" },
-                              "$29.99"
-                            )
+                            { className: "price price-XXS mrg-rght-XS" },
+                            "$29.99"
                           )
                         )
                       ),
@@ -11755,15 +11479,11 @@ var pricing_Scrollbar = function (_Component) {
                         null,
                         react_default.a.createElement(
                           "div",
-                          { className: "product-card-details" },
+                          { className: "price-card" },
                           react_default.a.createElement(
                             "div",
-                            { className: "product-card-price" },
-                            react_default.a.createElement(
-                              "div",
-                              { className: "product-card-price-value price price-XXS mrg-rght-XS" },
-                              "View Price in Cart"
-                            )
+                            { className: "price price-XXS mrg-rght-XS" },
+                            "View Price in Cart"
                           )
                         )
                       ),
@@ -11772,7 +11492,7 @@ var pricing_Scrollbar = function (_Component) {
                         null,
                         react_default.a.createElement(
                           "div",
-                          { className: "product-card-details" },
+                          { className: "price-card" },
                           react_default.a.createElement(
                             "div",
                             { className: "price price-promo-S mrg-XS color-penneyred" },
@@ -11780,27 +11500,366 @@ var pricing_Scrollbar = function (_Component) {
                           ),
                           react_default.a.createElement(
                             "div",
-                            { className: "product-card-price" },
+                            { className: "price price-XXS mrg-rght-XS" },
+                            "$29.99",
                             react_default.a.createElement(
-                              "div",
-                              { className: "product-card-price-value price price-XXS mrg-rght-XS" },
-                              "$29.99",
-                              react_default.a.createElement(
-                                "span",
-                                { className: "product-card-note price price-note-XS color-penneyred" },
-                                " sale"
-                              )
+                              "span",
+                              { className: "price price-note-XS color-penneyred" },
+                              " sale"
                             )
                           ),
                           react_default.a.createElement(
                             "div",
-                            { className: "product-card-note price price-note color-slate font-body" },
+                            { className: "price price-note color-slate font-body" },
                             "was $39.99   20% off"
                           ),
                           react_default.a.createElement(
                             "a",
                             { href: "javascript:void(0)", className: "title title-XS" },
                             "rebates available"
+                          )
+                        )
+                      )
+                    )
+                  )
+                )
+              )
+            ),
+            react_default.a.createElement(
+              "div",
+              { className: "pricing-block mrg-XXL" },
+              react_default.a.createElement(
+                "h1",
+                { className: "title title-XXL" },
+                "PDP Pricing Stack"
+              ),
+              react_default.a.createElement("br", null),
+              react_default.a.createElement("br", null),
+              react_default.a.createElement("br", null),
+              react_default.a.createElement(
+                "div",
+                { className: "gallery-pricing" },
+                react_default.a.createElement(
+                  "ul",
+                  { className: "gallery-pricing-column" },
+                  react_default.a.createElement(
+                    "li",
+                    null,
+                    react_default.a.createElement(
+                      "h2",
+                      { className: "title title-L" },
+                      "Final Price After Coupon",
+                      react_default.a.createElement("br", null),
+                      react_default.a.createElement("br", null)
+                    ),
+                    react_default.a.createElement(
+                      "ul",
+                      { className: "gallery-pricing-row" },
+                      react_default.a.createElement(
+                        "li",
+                        null,
+                        react_default.a.createElement(
+                          "div",
+                          { className: "price-card" },
+                          react_default.a.createElement(
+                            "div",
+                            { className: "price price-promo mrg-XS color-penneyred" },
+                            "LARGE MARKETING LABEL"
+                          ),
+                          react_default.a.createElement(
+                            "div",
+                            { className: "price price-S mrg-rght-XS flag flag-urgency" },
+                            "$29.99"
+                          ),
+                          react_default.a.createElement(
+                            "span",
+                            { className: "price price-note-M color-penneyred" },
+                            "Extra 20% off"
+                          ),
+                          react_default.a.createElement(
+                            "div",
+                            { className: "price" },
+                            react_default.a.createElement(
+                              "span",
+                              { className: "price price-note-M color-penneyred" },
+                              "with coupon code: FUNDEAL "
+                            ),
+                            react_default.a.createElement(
+                              "span",
+                              { className: "std-txt std-txt-S" },
+                              react_default.a.createElement(
+                                "a",
+                                { href: "javascript:void(0);" },
+                                "details"
+                              )
+                            ),
+                            react_default.a.createElement(
+                              "div",
+                              { className: "price price-S mrg-rght-XS" },
+                              "$29.99",
+                              react_default.a.createElement(
+                                "span",
+                                { className: "price price-note-M" },
+                                " sale "
+                              ),
+                              react_default.a.createElement(
+                                "span",
+                                { className: "price price-note color-slate font-body" },
+                                " was $39.99   20% off"
+                              )
+                            )
+                          )
+                        )
+                      ),
+                      react_default.a.createElement(
+                        "li",
+                        null,
+                        react_default.a.createElement(
+                          "div",
+                          { className: "price-card" },
+                          react_default.a.createElement(
+                            "div",
+                            { className: "price price-promo mrg-XS color-penneyred" },
+                            "LARGE MARKETING LABEL"
+                          ),
+                          react_default.a.createElement(
+                            "div",
+                            { className: "price price-S mrg-rght-XS flag flag-urgency" },
+                            "$29.99"
+                          ),
+                          react_default.a.createElement(
+                            "span",
+                            { className: "price price-note-M color-penneyred" },
+                            "Extra 20% off"
+                          ),
+                          react_default.a.createElement(
+                            "div",
+                            { className: "price" },
+                            react_default.a.createElement(
+                              "span",
+                              { className: "price price-note-M color-penneyred" },
+                              "with coupon code: FUNDEAL "
+                            ),
+                            react_default.a.createElement(
+                              "span",
+                              { className: "std-txt std-txt-S" },
+                              react_default.a.createElement(
+                                "a",
+                                { href: "javascript:void(0);" },
+                                "details"
+                              )
+                            ),
+                            react_default.a.createElement(
+                              "div",
+                              { className: "price price-S mrg-rght-XS" },
+                              "$29.99",
+                              react_default.a.createElement(
+                                "span",
+                                { className: "price price-note-M" },
+                                " sale "
+                              ),
+                              react_default.a.createElement(
+                                "span",
+                                { className: "price price-note color-slate font-body" },
+                                " was $39.99   20% off"
+                              )
+                            )
+                          )
+                        )
+                      ),
+                      react_default.a.createElement(
+                        "li",
+                        null,
+                        react_default.a.createElement(
+                          "div",
+                          { className: "price-card" },
+                          react_default.a.createElement(
+                            "div",
+                            { className: "price price-promo mrg-XS color-penneyred" },
+                            "LARGE MARKETING LABEL"
+                          ),
+                          react_default.a.createElement(
+                            "div",
+                            { className: "price price-S mrg-rght-XS flag flag-urgency" },
+                            "$29.99"
+                          ),
+                          react_default.a.createElement(
+                            "span",
+                            { className: "price price-note-M color-penneyred" },
+                            "Extra 20% off"
+                          ),
+                          react_default.a.createElement(
+                            "div",
+                            { className: "price" },
+                            react_default.a.createElement(
+                              "span",
+                              { className: "price price-note-M color-penneyred" },
+                              "with coupon code: FUNDEAL "
+                            ),
+                            react_default.a.createElement(
+                              "span",
+                              { className: "std-txt std-txt-S" },
+                              react_default.a.createElement(
+                                "a",
+                                { href: "javascript:void(0);" },
+                                "details"
+                              )
+                            ),
+                            react_default.a.createElement(
+                              "div",
+                              { className: "price price-S mrg-rght-XS" },
+                              "$29.99",
+                              react_default.a.createElement(
+                                "span",
+                                { className: "price price-note-M" },
+                                " sale "
+                              ),
+                              react_default.a.createElement(
+                                "span",
+                                { className: "price price-note color-slate font-body" },
+                                " was $39.99   20% off"
+                              )
+                            )
+                          )
+                        )
+                      ),
+                      react_default.a.createElement(
+                        "li",
+                        null,
+                        react_default.a.createElement(
+                          "div",
+                          { className: "price-card" },
+                          react_default.a.createElement(
+                            "div",
+                            { className: "price price-promo mrg-XS color-penneyred" },
+                            "LARGE MARKETING LABEL"
+                          ),
+                          react_default.a.createElement(
+                            "div",
+                            { className: "promo-lbl promo-lbl-L color-penneyred" },
+                            "Extra 20% off"
+                          ),
+                          react_default.a.createElement(
+                            "div",
+                            { className: "price" },
+                            react_default.a.createElement(
+                              "span",
+                              { className: "price price-note-M color-penneyred" },
+                              "with coupon code: FUNDEAL "
+                            ),
+                            react_default.a.createElement(
+                              "span",
+                              { className: "std-txt std-txt-S" },
+                              react_default.a.createElement(
+                                "a",
+                                { href: "javascript:void(0);" },
+                                "details"
+                              )
+                            ),
+                            react_default.a.createElement(
+                              "div",
+                              { className: "price price-S mrg-rght-XS" },
+                              "$29.99",
+                              react_default.a.createElement(
+                                "span",
+                                { className: "price price-note-M" },
+                                " sale "
+                              ),
+                              react_default.a.createElement(
+                                "span",
+                                { className: "price price-note color-slate font-body" },
+                                " was $39.99   20% off"
+                              )
+                            )
+                          )
+                        )
+                      )
+                    )
+                  ),
+                  react_default.a.createElement(
+                    "li",
+                    null,
+                    react_default.a.createElement(
+                      "h2",
+                      { className: "title title-L" },
+                      "Regular Pricing",
+                      react_default.a.createElement("br", null),
+                      react_default.a.createElement("br", null)
+                    ),
+                    react_default.a.createElement(
+                      "ul",
+                      { className: "gallery-pricing-row" },
+                      react_default.a.createElement(
+                        "li",
+                        null,
+                        react_default.a.createElement(
+                          "div",
+                          { className: "price-card" },
+                          react_default.a.createElement(
+                            "div",
+                            { className: "price price-promo mrg-XS color-penneyred" },
+                            "ALL BREAKPOINTS MARKETING LABEL"
+                          ),
+                          react_default.a.createElement(
+                            "div",
+                            { className: "price price-M mrg-rght-XS" },
+                            "$7"
+                          )
+                        )
+                      ),
+                      react_default.a.createElement(
+                        "li",
+                        null,
+                        react_default.a.createElement(
+                          "div",
+                          { className: "price-card" },
+                          react_default.a.createElement(
+                            "div",
+                            { className: "price price-promo mrg-XS color-penneyred" },
+                            "LARGE MARKETING LABEL"
+                          ),
+                          react_default.a.createElement(
+                            "div",
+                            { className: "price price-M" },
+                            "$49.99",
+                            react_default.a.createElement(
+                              "span",
+                              { className: "price price-note-M color-penneyred" },
+                              " sale "
+                            ),
+                            react_default.a.createElement(
+                              "span",
+                              { className: "price price-note color-slate font-body" },
+                              " was $39.99   20% off"
+                            )
+                          )
+                        )
+                      ),
+                      react_default.a.createElement(
+                        "li",
+                        null,
+                        react_default.a.createElement(
+                          "div",
+                          { className: "price-card" },
+                          react_default.a.createElement(
+                            "div",
+                            { className: "price price-promo mrg-XS color-penneyred" },
+                            "LARGE MARKETING LABEL"
+                          ),
+                          react_default.a.createElement(
+                            "div",
+                            { className: "price price-M" },
+                            "$49.99",
+                            react_default.a.createElement(
+                              "span",
+                              { className: "price price-note-M color-penneyred" },
+                              " sale "
+                            ),
+                            react_default.a.createElement(
+                              "span",
+                              { className: "price price-note color-slate font-body" },
+                              " was $39.99   20% off"
+                            )
                           )
                         )
                       )
