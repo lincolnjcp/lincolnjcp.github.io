@@ -59,7 +59,6 @@
   & .input-text:-ms-input-placeholder { /* Internet Explorer 10+ */
     color: transparent;
   }
-
   & .input-text:focus::-webkit-input-placeholder { /* WebKit browsers */
     color: var(--color-slate);
   }
@@ -69,7 +68,6 @@
   & .input-text:focus:-ms-input-placeholder { /* Internet Explorer 10+ */
     color: var(--color-slate);
   }
-
   & .search-icon, & .tooltip-icon {
     position: absolute;
     right: 0;

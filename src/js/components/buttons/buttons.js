@@ -325,7 +325,7 @@ class Buttons extends Component {
                         </ul>
                     </div>
                     <h2 className="title title-L mrg-M">Tiny Button Coupon</h2>
-                    <button className="link-S btn-tiny">see details</button>
+                    <button className="title-XS">see details</button>
                     <br /><br /><br />
                     <h2 className="title title-L mrg-M">Disabled Button</h2>
                     <div><a href="#" class="btn btn-S btn-disabled mrg-L">Disabled Button</a></div>

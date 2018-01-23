@@ -363,11 +363,5 @@ a.txt-btn,
 .icon-button.disable {
   background: var(--color-lightgrey);
 }
-.btn-tiny {
-  color: var(--color-nightsky);
-  font-size: 12px;
-  text-decoration: underline;
-  letter-spacing: 0px;
-}
 /*** Additional Buttons Ends ***/
 

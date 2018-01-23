@@ -3,6 +3,9 @@ import $ from 'jquery'
 
 import CodeGenerator from '../../containers/CodeGenerator.js';
 
+const starImage = require('!!raw-loader?es5=1!../../../images/global/icons/utility/star.svg');
+const starhalfImage = require('!!raw-loader?es5=1!../../../images/global/icons/utility/star-half.svg');
+
 class ContentLoaders extends Component {
 
     componentDidMount() {
@@ -89,9 +92,15 @@ class ContentLoaders extends Component {
                         <div className="row">
                             <div className="sm12 md5 lg4 columns star-preview-col">
                                 <ul className="star-ratings-XL">
-                                    <li className="star-ratings full">★</li>
-                                    <li className="star-ratings half">★</li>
-                                    <li className="star-ratings inactive">★</li>
+                                    <li className="star-ratings start-ratings-full">
+                                        <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
+                                    </li>
+                                    <li className="star-ratings start-ratings-half">
+                                        <span className="icon" dangerouslySetInnerHTML={{ __html: starhalfImage }} />
+                                    </li>
+                                    <li className="star-ratings star-rating-empty">
+                                        <span className="icon" dangerouslySetInnerHTML={{ __html: starImage }} />
+                                    </li>
                                 </ul>
                             </div>
                             <div className="sm12 md7 lg8 columns">
@@ -103,19 +112,45 @@ class ContentLoaders extends Component {
                             <div className="sm12 md5 lg4 columns star-preview-col">
                                 <p className="S">Example of Gallery Product</p>
                                 <ul className="star-ratings-L">
-                                    <li className="star-ratings full">★</li>
-                                    <li className="star-ratings full">★</li>
-                                    <li className="star-ratings full">★</li>
-                                    <li className="star-ratings full">★</li>
-                                    <li className="star-ratings inactive">★<span className="rating-count">47</span></li>
-                                </ul><br/><br/>
+                                    <li className="star-ratings start-ratings-full">
+                                        <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
+                                    </li>
+                                    <li className="star-ratings start-ratings-full">
+                                        <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
+                                    </li>
+                                    <li className="star-ratings start-ratings-full">
+                                        <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
+                                    </li>
+                                    <li className="star-ratings start-ratings-half">
+                                        <span className="icon" dangerouslySetInnerHTML={{ __html: starhalfImage }} />
+                                    </li>
+                                    <li className="star-ratings star-rating-empty">
+                                        <span className="icon" dangerouslySetInnerHTML={{ __html: starImage }} />
+                                    </li>
+                                    <li className="star-ratings">
+                                        <a href="javascript:void();" className="rating-count">47</a>
+                                    </li>
+                                </ul><br /><br />
                                 <p className="XS">Example of Rec Zone Product </p>
                                 <ul className="star-ratings-S">
-                                    <li className="star-ratings full">★</li>
-                                    <li className="star-ratings full">★</li>
-                                    <li className="star-ratings full">★</li>
-                                    <li className="star-ratings full">★</li>
-                                    <li className="star-ratings inactive">★<span className="rating-count rating-count-s">47</span></li>
+                                    <li className="star-ratings start-ratings-full">
+                                        <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
+                                    </li>
+                                    <li className="star-ratings start-ratings-full">
+                                        <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
+                                    </li>
+                                    <li className="star-ratings start-ratings-full">
+                                        <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
+                                    </li>
+                                    <li className="star-ratings start-ratings-half">
+                                        <span className="icon" dangerouslySetInnerHTML={{ __html: starhalfImage }} />
+                                    </li>
+                                    <li className="star-ratings star-rating-empty">
+                                        <span className="icon" dangerouslySetInnerHTML={{ __html: starImage }} />
+                                    </li>
+                                    <li className="star-ratings">
+                                        <a href="javascript:void();" className="rating-count">47</a>
+                                    </li>
                                 </ul>
                             </div>
                             <div className="sm12 md7 lg8 columns">

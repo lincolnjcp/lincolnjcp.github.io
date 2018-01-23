@@ -35,6 +35,12 @@
                     top: 1.2em;
                 }
             }
+            & .input-text {
+                font-size: 14px;
+            }
+        }
+        & .input-text::-webkit-input-placeholder { 
+            color: var(--color-shadow);
         }
     }
 

@@ -9,12 +9,7 @@
     padding: 16px;
     border-radius: var(--border-radius-M);
 
-    & .coupon-badge {
-      background: var(--color-penneyred);
-      border-radius: 12px;
-      font-size: 12px;
-      color: var(--color-white);
-      padding: 4px 8px;
+    & .flag {
       opacity: .8;
       position: relative;
       left: -32px;
@@ -77,9 +72,6 @@
       margin-right: 16px;
       padding: 0;
     }
-    & .btn-tiny{
-      font-size: 14px;
-    }
   }
 }
 .flex-box {
@@ -103,13 +95,14 @@
   }
 }
 
-@media (--viewport-sm) {
+@media (--viewport-sm-only) {
   .coupon-block {
     padding: 0 !important;
+    border-bottom: 1px solid #c7cdd4;
     & .coupon-list{
         border:0;
         width: 100%;
-        & .coupon-badge{
+        & .flag{
           left: 0;
         }
       }

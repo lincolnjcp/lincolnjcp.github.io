@@ -3,64 +3,49 @@
 *******************************************/
 .star-preview-col {
   & .star-ratings {
-    color: var(--color-concrete);
-    position: relative;
-    margin: 0 1px;
-    display: inline;
-    &:before {
-      color: var(--color-concrete);
-      content: '★';
-      position: absolute;
-      left: 0;
-    }
-    &.full:before {
-      color: var(--color-penneyred);
-      content: '★';
-      position: absolute;
-      left: 0;
-    }
-    &.half:before {
-      color: var(--color-penneyred);
-      content: '★';
-      position: absolute;
-      left: 0;
-      width: 51%;
-      overflow: hidden;
-    }
-    &.half:after {
-      color: var(--color-concrete);
-      content: '★';
-      position: absolute;
-      left: 0%;
-      width: 100%;
-      overflow: hidden;
-      z-index: -1;
-    }
+    display: inline-block;
     & .rating-count {
         font-size: 12px;
-        color: var(--color-nightsky);
+        color: #111;
         text-decoration: underline;
         position: relative;
-        top: -1px;
+        top: -3px;
         left: 4px;
+        display: block;
         &.rating-count-s{
           text-decoration: none;
         }
     }
   }
+  & .rating-empty {
+    & svg {
+      & use {
+        fill: var(--color-concrete);
+      }
+    }
+  }
   & .star-ratings-S {
     & .star-ratings {
-      font-size: 12px;
+      width: 16px;
+      & svg {
+        width: 16px;
+        height: 16px;
+      }
+      & a {
+        text-decoration: none;
+      }
     }
   }
   & .star-ratings-L {
     & .star-ratings {
-      font-size: 16px;
-    }
-  }
-  & .star-ratings-XL {
-    & .star-ratings {
-      font-size: 32px;
+      width: 24px;
+      & svg {
+        width: 24px;
+        height: 24px;
+      }
+      & a {
+        top: -6px;
+      }
     }
   }
 }

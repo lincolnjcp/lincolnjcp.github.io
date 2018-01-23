@@ -75,9 +75,9 @@ class ProductCards extends Component {
 
       
 
-      <a href="javascript:void(0)" className="product-card-name std-txt std-txt-S color-nightsky">
+      <div className="product-card-name std-txt std-txt-S color-nightsky">
         {productInfo.name}
-      </a>
+      </div>
 
       <div className="ratings-and-reviews">
         <div className="ratings-and-reviews-stars mrg-rght-XS">
@@ -206,9 +206,9 @@ class ProductCards extends Component {
 
       
 
-      <a href="javascript:void(0)" className="product-card-name std-txt std-txt-S color-nightsky">
+      <div className="product-card-name std-txt std-txt-S color-nightsky">
         {productInfo.name}
-      </a>
+      </div>
 
       <div className="ratings-and-reviews">
         <div className="ratings-and-reviews-stars mrg-rght-XS">
@@ -337,9 +337,9 @@ class ProductCards extends Component {
 
       
 
-      <a href="javascript:void(0)" className="product-card-name std-txt std-txt-XS color-nightsky">
+      <div className="product-card-name std-txt std-txt-XS color-nightsky">
         {productInfo.name}
-      </a>
+      </div>
 
       <div className="ratings-and-reviews">
         <div className="ratings-and-reviews-stars mrg-rght-XS">
@@ -442,9 +442,9 @@ class ProductCards extends Component {
 
         
 
-        <a href="javascript:void(0)" className="product-card-name std-txt std-txt-XS color-nightsky">
+        <div className="product-card-name std-txt std-txt-XS color-nightsky">
           {productInfo.name}
-        </a>
+        </div>
 
         <div className="ratings-and-reviews">
           <div className="ratings-and-reviews-stars mrg-rght-XS">
@@ -653,9 +653,9 @@ class ProductCards extends Component {
 
           
           <div className="product-card-name-wrap">
-            <a href="javascript:void(0)" className="product-card-name std-txt std-txt-S std-txt-XS-at-S color-nightsky">
+            <div className="product-card-name std-txt std-txt-S std-txt-XS-at-S color-nightsky">
               {productInfo.name}
-            </a>
+            </div>
           </div>
 
           <div className="ratings-and-reviews">
@@ -814,9 +814,9 @@ class ProductCards extends Component {
 
           
           <div className="product-card-name-wrap">
-            <a href="javascript:void(0)" className="product-card-name std-txt std-txt-S std-txt-XS-at-S color-nightsky">
+            <div className="product-card-name std-txt std-txt-S std-txt-XS-at-S color-nightsky">
               {productInfo.name}
-            </a>
+            </div>
           </div>
 
           <div className="ratings-and-reviews">
