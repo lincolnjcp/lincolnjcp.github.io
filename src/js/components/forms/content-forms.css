@@ -73,7 +73,8 @@
     border-left: 1px solid var(--color-concrete);
     padding: 0;
     height: 48px;
-    width: 40px;
+    width: 48px;
+    text-align: center;
     & .icon {
       width: 24px;
     }
@@ -333,5 +334,21 @@
   & .input-form-store-locator-field-2 {
     padding-right: 56px;
     width: 55%;
+  }
+}
+.search-block {
+  & .search-close-icon {
+    display: block;
+      position: absolute;
+      right: 54px;
+      top: 18px;
+      background: url("var(--path-images)global/icons/nav/close.svg") no-repeat;
+      height: 16px;
+      width: 16px;
+      background-size: contain;
+    
+  }
+  & .input-text:not(:valid) ~ .search-close-icon {
+    display: none;
   }
 }
