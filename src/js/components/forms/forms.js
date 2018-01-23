@@ -367,13 +367,10 @@ class Forms extends Component {
                             <div className="sm12 columns input-form">
                                 <div className="row">
                                     <div className="sm12 md4 columns">
-                                        <div className="position-rel search-block">
+                                        <div className="position-rel">
                                             <div className="css-float-label">
-                                                <form>
-                                                <input className="form-control input-text" id="search" type="text" name="focus" required placeholder="Search Products" />
+                                                <input className="form-control input-text" id="search" type="text" placeholder="Search Products" />
                                                 <label htmlFor="search">Search Products</label>
-                                                <a href="javascript:void();" class="search-close-icon" type="reset"></a>
-                                                </form>
                                             </div>
                                             <span className="icon search-icon color-lipstick-svg" dangerouslySetInnerHTML={{ __html: searchIcon }} />
                                         </div>
