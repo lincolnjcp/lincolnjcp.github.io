@@ -19,8 +19,17 @@
         padding: 2px 0;
       }
     }
+    & .normal{
+      background-color: #ffffff;
+      border: solid 1px #d8d8d8;
+      color: #626e78;
+    }
+    & .hover {
+      border: solid 1px #626e78;
+      color: var(--color-slate);
+    }
     & .selected {
-      border: 2px solid var(--color-nightsky);
+      border: 2px solid var(--color-shadow);
       color: var(--color-nightsky);
       font-weight: bold;
     }
@@ -28,11 +37,49 @@
       border: 1px solid var(--color-penneyred);
     }
     & .oo-stock {
-      border: 1px dotted var(--color-slate);
+      border: 1px solid var(--color-concrete);
+      position: relative;
+      &::before {
+
+        width: 98px;
+        height: 1px;
+        background-color: var(--color-concrete);
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 19px;
+        -webkit-transform: scale(1) rotate(-20deg);
+        transform: scale(1) rotate(-20deg);
+      }
     }
+
     & .sku-block-L {
       height: 64px;
       line-height: 64px;
+      &::before {
+        left: -6px;
+        top: 30px;
+        -webkit-transform: scale(1) rotate(-20deg);
+        transform: scale(1) rotate(-33deg);
+        width: 108px;
+      }
+    }
+    & .sku-double-block-L{
+      width: 192px;
+      font-size: 14px;
+      line-height: normal;
+      padding: 6px 0px;
+      & .price-content{
+        line-height: 24px;
+        color:var(--color-shadow);
+      }
+      & .standart-content{
+        display: block;
+      line-height: 18px;
+      font-weight: normal;
+      letter-spacing: -0.5px;
+      color:var(--color-slate);
+      }
     }
     & .sku-focus {
       border: 2px dotted var(--color-neutral-type);

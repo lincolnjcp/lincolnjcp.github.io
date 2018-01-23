@@ -532,13 +532,6 @@ module.exports = "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http:/
 
 /***/ }),
 
-/***/ "Igpn":
-/***/ (function(module, exports) {
-
-throw new Error("Module build failed: SyntaxError: C:/Users/sudheer_v/Documents/GitHub/lincolnjcp.github.io/src/js/components/modal/modal.js: Unterminated JSX contents (112:12)\n\n\u001b[0m \u001b[90m 110 | \u001b[39m          \u001b[33m<\u001b[39m\u001b[33mbr\u001b[39m \u001b[33m/\u001b[39m\u001b[33m>\u001b[39m\n \u001b[90m 111 | \u001b[39m        \u001b[33m<\u001b[39m\u001b[33m/\u001b[39m\u001b[33mdiv\u001b[39m\u001b[33m>\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 112 | \u001b[39m      \u001b[33m<\u001b[39m\u001b[33m/\u001b[39m\u001b[33mdiv\u001b[39m\u001b[33m>\u001b[39m\n \u001b[90m     | \u001b[39m            \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 113 | \u001b[39m    )\u001b[33m;\u001b[39m\n \u001b[90m 114 | \u001b[39m  }\n \u001b[90m 115 | \u001b[39m}\u001b[0m\n");
-
-/***/ }),
-
 /***/ "JAfA":
 /***/ (function(module, exports) {
 
@@ -12219,13 +12212,349 @@ var components_visual_navigation__temp = function () {
 }();
 
 ;
-// EXTERNAL MODULE: ./src/js/components/modal/modal.js
-var modal = __webpack_require__("Igpn");
+// CONCATENATED MODULE: ./src/js/components/modal/modal.js
+var modal__createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-// CONCATENATED MODULE: ./src/js/components/modal/index.js
+function modal__classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
-var modal__default = modal["default"];
-/* harmony default export */ var components_modal = (modal__default);
+function modal__possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function modal__inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+
+
+var modal_errorImage = __webpack_require__("ejGt");
+var modal_successImage = __webpack_require__("GuGm");
+
+var modal_Modal = function (_Component) {
+  modal__inherits(Modal, _Component);
+
+  function Modal() {
+    modal__classCallCheck(this, Modal);
+
+    return modal__possibleConstructorReturn(this, (Modal.__proto__ || Object.getPrototypeOf(Modal)).apply(this, arguments));
+  }
+
+  modal__createClass(Modal, [{
+    key: 'componentDidMount',
+    value: function componentDidMount() {}
+  }, {
+    key: 'render',
+    value: function render() {
+      return react_default.a.createElement(
+        'div',
+        null,
+        react_default.a.createElement(
+          'div',
+          { className: 'row' },
+          react_default.a.createElement('div', { className: 'modal-overlay' }),
+          react_default.a.createElement(
+            'div',
+            { className: 'modal dialog-pop-up' },
+            react_default.a.createElement('button', { className: 'modal-close' }),
+            react_default.a.createElement(
+              'h2',
+              { className: 'modal-sub-title title title-L' },
+              'Delete Address'
+            ),
+            react_default.a.createElement(
+              'p',
+              { className: 'modal-body std-txt std-txt-M' },
+              'Are you sure you want to delete this address from your account?'
+            ),
+            react_default.a.createElement(
+              'button',
+              { type: 'button', name: 'button', className: 'btn btn-secondary title title-M' },
+              'No'
+            ),
+            react_default.a.createElement(
+              'button',
+              { type: 'button', name: 'button', className: 'btn btn-primary title title-M' },
+              'Yes'
+            )
+          ),
+          react_default.a.createElement('br', null),
+          react_default.a.createElement('br', null),
+          react_default.a.createElement(
+            'div',
+            { className: 'modal alert-pop-up informational-pop-up' },
+            react_default.a.createElement('button', { className: 'modal-close' }),
+            react_default.a.createElement(
+              'h2',
+              { className: 'modal-sub-title title title-L' },
+              'Truckable Item Delivery'
+            ),
+            react_default.a.createElement(
+              'p',
+              { className: 'modal-body std-txt std-txt-M' },
+              'Some heavy or bulky items cannot be delivered via UPS, USPS or FedEx. These items must be delivered via truck.'
+            ),
+            react_default.a.createElement(
+              'ul',
+              { className: 'modal-body std-txt std-txt-M informational-list' },
+              react_default.a.createElement(
+                'li',
+                { 'class': 'informational-list-content' },
+                react_default.a.createElement(
+                  'p',
+                  { 'class': 'informational-list-para' },
+                  'Additional delivery charges may apply and will be reflected at checkout. '
+                )
+              ),
+              react_default.a.createElement(
+                'li',
+                { 'class': 'informational-list-content' },
+                react_default.a.createElement(
+                  'p',
+                  { 'class': 'informational-list-para' },
+                  'You will be contacted in 7 to 14 days from the time the item is shipped to schedule a delivery appointment.'
+                )
+              ),
+              react_default.a.createElement(
+                'li',
+                { 'class': 'informational-list-content' },
+                react_default.a.createElement(
+                  'p',
+                  { 'class': 'informational-list-para' },
+                  'After delivery, you may be contacted about your satisfaction.'
+                )
+              ),
+              react_default.a.createElement(
+                'li',
+                { 'class': 'informational-list-content' },
+                react_default.a.createElement(
+                  'p',
+                  { 'class': 'informational-list-para' },
+                  'All contacts may be automated calls to the number you provided for delivery.'
+                )
+              ),
+              react_default.a.createElement(
+                'li',
+                { 'class': 'informational-list-content' },
+                react_default.a.createElement(
+                  'p',
+                  { 'class': 'informational-list-para' },
+                  'You must be present to accept delivery.'
+                )
+              )
+            )
+          ),
+          react_default.a.createElement('br', null),
+          react_default.a.createElement('br', null),
+          react_default.a.createElement(
+            'div',
+            { className: 'modal alert-pop-up' },
+            react_default.a.createElement('button', { className: 'modal-close' }),
+            react_default.a.createElement('span', { className: 'icon', dangerouslySetInnerHTML: { __html: modal_errorImage } }),
+            react_default.a.createElement(
+              'h2',
+              { className: 'modal-sub-title title title-L' },
+              'Account Locked'
+            ),
+            react_default.a.createElement(
+              'p',
+              { className: 'modal-body std-txt std-txt-M' },
+              'Check the email ',
+              react_default.a.createElement(
+                'span',
+                { 'class': 'bold-text' },
+                'username@emaildomain.com'
+              ),
+              'for instructions on how to unlock it.'
+            ),
+            react_default.a.createElement(
+              'button',
+              { type: 'button', name: 'button', className: 'btn btn-secondary title title-M btn-grey-txt' },
+              'OK'
+            )
+          ),
+          react_default.a.createElement('br', null),
+          react_default.a.createElement(
+            'div',
+            { className: 'modal alert-pop-up' },
+            react_default.a.createElement('button', { className: 'modal-close' }),
+            react_default.a.createElement(
+              'p',
+              { className: 'mrg-S' },
+              'Online & In Store'
+            ),
+            react_default.a.createElement(
+              'h2',
+              { className: 'modal-title-XXL title mrg-S' },
+              'Extra 15% OFF'
+            ),
+            react_default.a.createElement(
+              'p',
+              { className: 'modal-body' },
+              'Show coupon to sales associate'
+            ),
+            react_default.a.createElement(
+              'button',
+              { type: 'button', name: 'button', className: 'btn btn-secondary title title-M' },
+              'Print Coupon'
+            )
+          ),
+          react_default.a.createElement('br', null),
+          react_default.a.createElement(
+            'div',
+            { className: 'modal alert-pop-up' },
+            react_default.a.createElement('button', { className: 'modal-close' }),
+            react_default.a.createElement('span', { className: 'icon', dangerouslySetInnerHTML: { __html: modal_successImage } }),
+            react_default.a.createElement(
+              'h2',
+              { className: 'modal-sub-title title title-L' },
+              'Coupon Applied'
+            ),
+            react_default.a.createElement(
+              'p',
+              { className: 'modal-body std-txt std-txt-M' },
+              'You saved $78.99'
+            ),
+            react_default.a.createElement(
+              'button',
+              { type: 'button', name: 'button', className: 'btn btn-secondary title title-M' },
+              'OK'
+            )
+          ),
+          react_default.a.createElement('br', null),
+          react_default.a.createElement(
+            'div',
+            { className: 'modal dialog-pop-up' },
+            react_default.a.createElement('button', { className: 'modal-close' }),
+            react_default.a.createElement(
+              'div',
+              { className: 'msg msg-neutral mrg-S' },
+              'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut'
+            ),
+            react_default.a.createElement(
+              'h2',
+              { className: 'modal-sub-title' },
+              'This is a Modal'
+            ),
+            react_default.a.createElement(
+              'p',
+              { className: 'modal-body' },
+              'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor'
+            ),
+            react_default.a.createElement(
+              'button',
+              { type: 'button', name: 'button', className: 'btn btn-secondary title title-M' },
+              'Cancel'
+            ),
+            react_default.a.createElement(
+              'button',
+              { type: 'button', name: 'button', className: 'btn btn-primary title title-M' },
+              'Save'
+            )
+          ),
+          react_default.a.createElement('br', null),
+          react_default.a.createElement('br', null),
+          react_default.a.createElement(
+            'div',
+            { className: 'modal scroll-container' },
+            react_default.a.createElement('button', { className: 'modal-close' }),
+            react_default.a.createElement(
+              'div',
+              { className: 'scroll-block custom-scroll' },
+              react_default.a.createElement(
+                'h2',
+                { className: 'title title-L test mrg-XS' },
+                '10 Year Mattress Encasement Plan Twin'
+              ),
+              react_default.a.createElement(
+                'h4',
+                { className: 'title-S title mrg-M' },
+                'Sealy Essentials\u2122 Holly Hills Firm - Mattress + Box Spring'
+              ),
+              'BEDGARD ENCASEMENT: 10 Year Plan with Encasement: For new residential mattresses purchased in conjunction with a BedGard Encasement. Coverage includes: All accidental stains (excluding accumulations). Construction of Mattress Protector. WHY BEDGARD ENCASEMENT? The manufacturer of the mattress will void the warranty if the mattress is stained. A full encasement reduces conditions which attract dust mites, allergens and bed bugs. HOW DOES IT WORK? Customers purchase and use the BedGard Protector along with their new residential mattress. If their mattress becomes stained during normal residential use while using the protector, the affected portion or the complete mattress will be repaired or replaced!HOW LONG IS COVERAGE? The BedGard Product Limited Warranty is effective for ten (10) years from the date the customer takes delivery of the Mattress Protector and the Mattress. WHAT PROBLEMS ARE COVERED? Construction and staining of the BedGard Mattress Protector/Pad. All accidental stains attributed to a single occurrence (excluding accumulation defined as a gradual buildup of dirt, dust, body oils and perspiration). HOW LONG DOES THE CUSTOMER HAVE TO REPORT A PROBLEM? Problems must be reported within ten (10) days of occurrence of the stain or damage. BEDGARD ENCASEMENT: 10 Year Plan with Encasement: For new residential mattresses purchased in conjunction with a BedGard Encasement. Coverage includes: All accidental stains (excluding accumulations). Construction of Mattress Protector. WHY BEDGARD ENCASEMENT? The manufacturer of the mattress will void the warranty if the mattress is stained. A full encasement reduces conditions which attract dust mites, allergens and bed bugs. HOW DOES IT WORK? Customers purchase and use the BedGard Protector along with their new residential mattress. If their mattress becomes stained during normal residential use while using the protector, the affected portion or the complete mattress will be repaired or replaced!HOW LONG IS COVERAGE? The BedGard Product Limited Warranty is effective for ten (10) years from the date the customer takes delivery of the Mattress Protector and the Mattress. WHAT PROBLEMS ARE COVERED? Construction and staining of the BedGard Mattress Protector/Pad. All accidental stains attributed to a single occurrence (excluding accumulation defined as a gradual buildup of dirt, dust, body oils and perspiration). HOW LONG DOES THE CUSTOMER HAVE TO REPORT A PROBLEM? Problems must be reported within ten (10) days of occurrence of the stain or damage.'
+            ),
+            react_default.a.createElement('div', { className: 'scroll-block-fade' })
+          ),
+          react_default.a.createElement('br', null),
+          react_default.a.createElement('br', null),
+          react_default.a.createElement(
+            'div',
+            { className: 'modal scroll-container' },
+            react_default.a.createElement('button', { className: 'modal-close' }),
+            react_default.a.createElement(
+              'div',
+              { className: 'scroll-block custom-scroll' },
+              react_default.a.createElement(
+                'h2',
+                { className: 'title title-L test mrg-XS' },
+                '10 Year Mattress Encasement Plan Twin'
+              ),
+              react_default.a.createElement('img', { src: '/images/global/Marketing Content.png', alt: 'Marketing Content' })
+            ),
+            react_default.a.createElement('div', { className: 'scroll-block-fade' })
+          ),
+          react_default.a.createElement('br', null),
+          react_default.a.createElement('br', null),
+          react_default.a.createElement(
+            'div',
+            { className: 'modal alert-pop-up informational-pop-up form-modal-pop' },
+            react_default.a.createElement('button', { className: 'modal-close' }),
+            react_default.a.createElement(
+              'h2',
+              { className: 'modal-sub-title title title-L' },
+              'Send by Email'
+            ),
+            react_default.a.createElement(
+              'p',
+              { className: 'modal-body std-txt std-txt-M' },
+              react_default.a.createElement(
+                'h4',
+                { 'class': 'title-M title mrg-XS information-sendcopy' },
+                ' Send a copy of your list to up to 10 email addresses '
+              )
+            ),
+            react_default.a.createElement(
+              'div',
+              { className: 'form-group column' },
+              react_default.a.createElement('input', { className: 'form-control input-text ', type: 'text', placeholder: 'To' })
+            ),
+            react_default.a.createElement(
+              'h4',
+              { 'class': 'title-XS title mrg-L information-sendcopy' },
+              ' Separate emails by comma. This information will not be used for marketing purposes.'
+            ),
+            react_default.a.createElement(
+              'div',
+              { className: 'form-group column' },
+              react_default.a.createElement('textarea', { 'class': 'form-control text-area', name: 'instructions', placeholder: 'Your Message' }),
+              react_default.a.createElement(
+                'label',
+                { 'class': 'checkbox mrg-M' },
+                react_default.a.createElement('input', { type: 'checkbox', value: 'on' }),
+                ' ',
+                react_default.a.createElement(
+                  'span',
+                  null,
+                  'Send me a copy'
+                ),
+                ' '
+              )
+            ),
+            react_default.a.createElement(
+              'button',
+              { type: 'button', name: 'button', 'class': 'btn btn-primary title title-M form-save' },
+              'Save'
+            )
+          ),
+          react_default.a.createElement('br', null),
+          react_default.a.createElement('br', null)
+        )
+      );
+    }
+  }]);
+
+  return Modal;
+}(react["Component"]);
+
+var modal__default = modal_Modal;
+
+
+/* harmony default export */ var modal = (modal__default);
 ;
 
 var modal__temp = function () {
@@ -12233,7 +12562,24 @@ var modal__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(modal__default, 'default', 'C:/Users/sudheer_v/Documents/GitHub/lincolnjcp.github.io/src/js/components/modal/index.js');
+  __REACT_HOT_LOADER__.register(modal_Modal, 'Modal', 'C:/Users/sudheer_v/Documents/GitHub/lincolnjcp.github.io/src/js/components/modal/modal.js');
+
+  __REACT_HOT_LOADER__.register(modal__default, 'default', 'C:/Users/sudheer_v/Documents/GitHub/lincolnjcp.github.io/src/js/components/modal/modal.js');
+}();
+
+;
+// CONCATENATED MODULE: ./src/js/components/modal/index.js
+
+var components_modal__default = modal;
+/* harmony default export */ var components_modal = (components_modal__default);
+;
+
+var components_modal__temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(components_modal__default, 'default', 'C:/Users/sudheer_v/Documents/GitHub/lincolnjcp.github.io/src/js/components/modal/index.js');
 }();
 
 ;
@@ -14285,6 +14631,11 @@ var selectors_Selectors = function (_Component) {
                 "span",
                 { className: "sku-block normal mrg-rght-S" },
                 "M"
+              ),
+              react_default.a.createElement(
+                "span",
+                { className: "sku-block mrg-rght-S hover" },
+                "Hover"
               ),
               react_default.a.createElement(
                 "span",

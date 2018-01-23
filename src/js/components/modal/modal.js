@@ -112,21 +112,22 @@ class Modal extends Component {
           </div> 
           <br />
           <br />
-          <div className="modal alert-pop-up informational-pop-up">
+          <div className="modal alert-pop-up informational-pop-up form-modal-pop">
           <button className="modal-close"></button>
           <h2 className="modal-sub-title title title-L">Send by Email</h2>
           <p className="modal-body std-txt std-txt-M">
-          Send a copy of your list to up to 10 email addresses
+          <h4 class="title-M title mrg-XS information-sendcopy"> Send a copy of your list to up to 10 email addresses </h4>
           </p>
           <div className="form-group column">
-                            <input className="form-control input-text" type="text" placeholder="Name" />
-                        </div>
-                        <div className="form-group column">
-                            <input className="form-control input-text" type="text" placeholder="mm/dd/yyyy" />
-                        </div>
-                        <div className="form-group md6 sm4 column row">
-                            <input className="form-control input-text" type="text" placeholder="Zip Code" />
-                        </div>
+            <input className="form-control input-text " type="text" placeholder="To" />
+          </div>
+          <h4 class="title-XS title mrg-L information-sendcopy"> Separate emails by comma. This information will not be used for marketing purposes.</h4>
+          <div className="form-group column">
+          <textarea class="form-control text-area" name="instructions" placeholder="Your Message" ></textarea>
+          <label class="checkbox mrg-M"><input type="checkbox" value="on" /> <span>Send me a copy</span> </label>
+          </div>
+          <button type="button" name="button" class="btn btn-primary title title-M form-save">Save</button>
+       
         </div>
           <br />
           <br />

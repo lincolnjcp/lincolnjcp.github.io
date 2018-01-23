@@ -85,6 +85,57 @@
           font-size: 16px;
         }
       }
+     
+    }
+    &.form-modal-pop{
+      height: 414px;
+      & .information-sendcopy{
+        color:var(--color-slate1);
+      }
+      & .input-text{
+        padding: 15px 30px 13px 20px;
+        height: 48px;
+        width: 100%;
+        margin-bottom: 6px;
+      }
+      & .text-area{
+        height: 80px;
+        padding: 15px 30px 13px 20px;
+        width: 100%;
+      }
+      & .form-save{
+        padding: 13px;
+        color: white;
+        font-size: 18px;
+        float: right;
+      }
+      & .checkbox input+span{
+        padding-left: 26px;
+      }
+      & ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+        color: var(--color-slate);
+        font-style: normal;
+        font-size: 16px;
+        font-family: var(--font-body);
+      }
+      & ::-moz-placeholder { /* Firefox 19+ */
+        color: var(--color-slate);
+        font-style: normal;
+        font-size: 16px;
+        font-family: var(--font-body);
+      }
+      & :-ms-input-placeholder { /* IE 10+ */
+        color: var(--color-slate);
+        font-style: normal;
+        font-size: 16px;
+        font-family: var(--font-body);
+      }
+      & :-moz-placeholder { /* Firefox 18- */
+        color: var(--color-slate);
+        font-style: normal;
+        font-family: var(--font-body);
+        font-size: 16px;
+      }
     }
   }
   &.dialog-pop-up {

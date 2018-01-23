@@ -15,6 +15,7 @@ class Selectors extends Component {
           <div className="mrg-XL">
             <span className="sku-block selected mrg-rght-S">XS</span>
             <span className="sku-block normal mrg-rght-S">M</span>
+            <span className="sku-block mrg-rght-S hover">Hover</span>
             <span className="sku-block error mrg-rght-S">L</span>
             <a href="javascript:void(0)" className="oo-label-block">
               <span className="sku-block oo-stock mrg-rght-S">XL</span>
@@ -29,6 +30,7 @@ class Selectors extends Component {
           <div className="mrg-XL">
             <span className="sku-block sku-block-L selected mrg-rght-S">small</span>
             <span className="sku-block sku-block-L normal mrg-rght-S">medium</span>
+            <span className="sku-block sku-block-L hover mrg-rght-S">medium</span>
             <span className="sku-block sku-block-L error mrg-rght-S">large</span>
             <a href="javascript:void(0)" className="oo-label-block">
               <span className="sku-block sku-block-L oo-stock mrg-rght-S">xlarge</span>
@@ -60,6 +62,15 @@ class Selectors extends Component {
             </a>
           </div>
 
+
+          <div className="std-txt-label mrg-S">Large with double line</div>
+          <div className="mrg-XL">
+          <p className="sku-block sku-block-L sku-double-block-L selected mrg-rght-S"><span class="price-content">$29.99 </span> <span class="standart-content">1 year protection plan</span></p>
+          <p className="sku-block sku-block-L sku-double-block-L normal mrg-rght-S"><span class="price-content">$59.99 </span> <span class="standart-content">2 year protection plan</span></p>
+          <p className="sku-block sku-block-L sku-double-block-L hover mrg-rght-S"><span class="price-content">$55.99 </span> <span class="standart-content">2 year protection plan</span></p>
+    
+            
+          </div>
         </div>
         </div>
       </div>
