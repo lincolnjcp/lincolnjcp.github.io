@@ -71,10 +71,12 @@ class Coupons extends Component {
                 <h2 className="price price-M">Extra 30% OFF $100+</h2>
                 <p className="std-txt std-txt-S">select apparel, shoes, accessories, fine jewelry & home</p>
               </div>
+              <div class="coupon-bottom">
               <a href="javascript:void();" className="btn btn-S btn-primary apply-btn btn-full mrg-S">Apply</a>
               <div className="coupon-see-details">
-              <a href="javascript:void(0)" className="link-S">shop home</a>
-              <a href="javascript:void(0)" className="link-S">see details</a>
+              <a href="javascript:void(0)" className="link-S btn-tiny">shop home</a>
+              <a href="javascript:void(0)" className="link-S btn-tiny">see details</a>
+            </div>
             </div>
             </div>
           </div>

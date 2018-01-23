@@ -18,6 +18,7 @@
       font-size: 16px;
       opacity: 1;
       top: 1em;
+      color: #6b7883;
       &.disabled-label {
         top: -16px;
         font-size: 12px;
@@ -25,6 +26,9 @@
         padding: 8px;
         color: var(--color-slate);
       }
+    }
+    & .disabled-label::after {
+      height: 10px;
     }
     & .creditcard {
       margin-left: 42px;
@@ -120,6 +124,7 @@
   & div.css-float-label {
     & input {
       border: 2px solid var(--color-error-type);
+      margin-bottom: 5px;
     }
   }
   & .error-message {
@@ -331,7 +336,12 @@
   }
 
   & .input-form-store-locator-field-2 {
-    padding-right: 56px;
+    padding-right: 46px;
     width: 55%;
+  }
+  & .input-form-store-locator-field-2 select:focus{
+    & .select:before{
+      border: 0.5px solid #111;
+    }
   }
 }

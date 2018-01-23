@@ -90,6 +90,18 @@
 .flex-grid {
   display: flex !important;
 }
+@media (--viewport-md) {
+  .coupon-block {
+    position: relative;
+    & .coupon-bottom{
+      position: absolute;
+      bottom: 18px;
+      width: 100%;
+      left: 0;
+      padding: 0 30px;
+    }
+  }
+}
 
 @media (--viewport-sm) {
   .coupon-block {

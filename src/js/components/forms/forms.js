@@ -11,6 +11,7 @@ const cardJCPRed = require('!!raw-loader?es5=1!../../../images/global/icons/paym
 class Forms extends Component {
 
     componentDidMount() {
+        
 
     }
 
@@ -156,7 +157,7 @@ class Forms extends Component {
                                     <div className="sm12 md4 columns">
                                         <div className="select">
                                             <div className="css-float-label">
-                                                <select className="form-control custom-select">
+                                                <select className="form-control custom-select select-box">
                                                     <option value=''>Month</option>
                                                     <option value='1'>01 - Janaury</option>
                                                     <option value='2'>02 - February</option>
@@ -186,7 +187,7 @@ class Forms extends Component {
                                     <div className="sm12 md4 columns">
                                         <div className="input-group">
                                             <div className="css-float-label">
-                                                <textarea className="form-control" name="instructions">Please deliver to side service entrance of apartment building. Enter code 9090 to access garage.</textarea>
+                                                <textarea className="form-control text-area" name="instructions">Please deliver to side service entrance of apartment building. Enter code 9090 to access garage.</textarea>
                                                 <label htmlFor="instructions">Delivery Instructions</label>
                                             </div>
                                         </div>
@@ -433,7 +434,7 @@ class Forms extends Component {
                                     <div className="sm12 md4 columns">
                                         <div className="position-rel">
                                             <div className="css-float-label">
-                                                <input className="form-control input-text" id="date" maxLength="5" type="text" placeholder="Birthday (Optional)" />
+                                                <input className="form-control input-text" id="date" maxLength="5" type="text" placeholder="mm/dd/yyyy" />
                                                 <label htmlFor="date">Birthday (Optional)</label>
                                             </div>
                                             <span className="icon tooltip-icon" dangerouslySetInnerHTML={{ __html: tooltipIcon }} />
@@ -542,7 +543,7 @@ class Forms extends Component {
                             <input className="form-control input-text" type="text" placeholder="Name" />
                         </div>
                         <div className="form-group column">
-                            <input className="form-control input-text" type="text" placeholder="Birthday (Optional)" />
+                            <input className="form-control input-text" type="text" placeholder="mm/dd/yyyy" />
                         </div>
                         <div className="form-group md6 sm4 column row">
                             <input className="form-control input-text" type="text" placeholder="Zip Code" />
