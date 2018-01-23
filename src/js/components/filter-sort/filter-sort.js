@@ -848,12 +848,12 @@ class FilterSort extends Component {
                 </label>
               </div>
 
-              <div className="dropdown-menu-block column md2 sm2 lg3 xl3 fl-right mrg-M">
+              <div className="dropdown-menu-block column md2 sm2 lg3 xl3 fl-right mrg-M nopad">
                 <div class="listIcon fl-right"></div>
-                <div className="pos-rel fl-right hide-for-medium-only hide-for-small-only">
+                <div className="hide-for-medium-only hide-for-small-only">
                   <a className="dropdown-button title-S">Sort by: <span class="sortby">Featured</span><span className="arrow"></span></a>
                   <div className="dropdown-menu">
-                    <div className="tooltip tooltip-top-right">
+                    <div className="tooltip tooltip-top-right filter-tooltip">
                       <span>
                         <ul className="dropdown-sort">
                           <li className="dropdown-list">

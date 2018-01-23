@@ -38,13 +38,13 @@
     & .sortby {
       display: inline-block;
       font-weight: normal;
-      max-width: 102px;
+      max-width: 99px;
       white-space: nowrap;
       overflow: hidden;
       text-overflow: ellipsis;
       position: relative;
       top: 3px;
-      line-height: 15px;
+      line-height: 16px;
     }
   }
 
@@ -68,8 +68,25 @@
       position: relative;
       & .tooltip {
         position: absolute;
-        right: 2px;
-        top:-2px;
+        left: 2px;
+        top: 11px;
+        padding: 16px;
+      &.tooltip-Large{
+        min-height: 235px;
+        min-width: 290px;
+        & span{
+        max-height: 200px
+        }
+        & .checkbox input+span{
+          overflow: hidden;
+        }
+      }
+      & .search-type{
+        width: 100%;
+      }
+      &.filter-tooltip{
+        left: -39px;
+      }
       }
 
     & .dropdown-search-type {
@@ -106,6 +123,7 @@
       & .right-label {
         float: right;
         padding-right: 16px;
+        overflow: hidden;
       }
     }
   }

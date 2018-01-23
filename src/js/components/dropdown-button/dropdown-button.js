@@ -61,7 +61,7 @@ class DropdownButton extends Component {
                         <div className="pos-rel fl-left">
                             <a className="dropdown-button title-S">Product Type <span className="arrow"></span></a>
                             <div className="dropdown-menu">
-                                <div className="tooltip tooltip-top-right">
+                                <div className="tooltip tooltip-top-left tooltip-Large">
                                     <span>
                                     <ul>
                                         <div className="search-type">
@@ -176,7 +176,7 @@ class DropdownButton extends Component {
                         <div className="pos-rel fl-left">
                             <a className="dropdown-button title-S">Product Type <span className="arrow"></span></a>
                             <div className="dropdown-menu">
-                                <div className="tooltip tooltip-top-right">
+                                <div className="tooltip tooltip-top-left tooltip-Large">
                                     <span>
                                         <ul>
                                             <li className="dropdown-list">
@@ -289,7 +289,7 @@ class DropdownButton extends Component {
                         <div className="pos-rel fl-left">
                             <a className="dropdown-button title-S">Sort by: <span class="sortby">Featured</span><span className="arrow"></span></a>
                             <div className="dropdown-menu">
-                                <div className="tooltip tooltip-top-right">
+                                <div className="tooltip tooltip-top-left">
                                     <span>
                                         <ul className="dropdown-sort">
                                             <li className="dropdown-list">
