@@ -26,7 +26,7 @@ The screen sizes were determined by a combination of common screen resolutions, 
 
         <div className="show-for-small-only">
           <h4 class="promo-lbl promo-lbl-L mrg-S">S 360</h4>
-          <p className="mrg-XL algn-lft title title-L txt-weight-light txt-line-height-L color-nightsky">
+          <p className="mrg-XL algn-lft title title-L color-nightsky">
           width: 320px<br />
           margin: 0 20px<br />
           columns: 6<br />
@@ -37,7 +37,7 @@ The screen sizes were determined by a combination of common screen resolutions, 
 
         <div className="show-for-medium-only">
           <h4 class="promo-lbl promo-lbl-L mrg-S">M 768</h4>
-          <p className="mrg-XL algn-lft title title-L txt-weight-light txt-line-height-L color-nightsky">
+          <p className="mrg-XL algn-lft title title-L color-nightsky">
           width: 704px<br />
           margin: 0 32px<br />
           columns: 12<br />
@@ -48,7 +48,7 @@ The screen sizes were determined by a combination of common screen resolutions, 
 
         <div className="show-for-large-only">
           <h4 class="promo-lbl promo-lbl-L mrg-S">L 1024</h4>
-          <p className="mrg-XL algn-lft title title-L txt-weight-light txt-line-height-L color-nightsky">
+          <p className="mrg-XL algn-lft title title-L color-nightsky">
           width: 944px<br />
           margin: 0 40px<br />
           columns: 12<br />
@@ -59,7 +59,7 @@ The screen sizes were determined by a combination of common screen resolutions, 
 
         <div className="show-for-xlarge-only">
           <h4 class="promo-lbl promo-lbl-L mrg-S">XL 1440</h4>
-          <p className="mrg-XL algn-lft title title-L txt-weight-light txt-line-height-L color-nightsky">
+          <p className="mrg-XL algn-lft title title-L color-nightsky">
           width: 1328px<br />
           margin: 0 56px<br />
           columns: 12<br />

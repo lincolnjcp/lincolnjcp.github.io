@@ -106,7 +106,7 @@ class Badges extends Component {
             <h3 className="title title-L mrg-L">Appearance</h3>
             <p className="mrg-XL max-width-text">Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras justo odio, dapibus ac facilisis in, egestas eget quam.</p>
             <div className="row">
-                <div className="sm12 md5 lg4 columns badges-preview-col algn-mid">
+                <div className="sm12 md5 lg4 columns algn-mid">
                     <div class="flag std-txt std-txt-XS flag-new">Low Stock</div>
                 </div>
                 <div className="sm12 md7 lg8 columns">
@@ -115,7 +115,7 @@ class Badges extends Component {
                 </div>
             </div>
             <div className="row">
-                <div className="sm12 md5 lg4 columns badges-preview-col algn-mid">
+                <div className="sm12 md5 lg4 columns algn-mid">
                     <div class="flag std-txt std-txt-XS flag-new">Low<br /> Stock</div>
                 </div>
                 <div className="sm12 md7 lg8 columns">

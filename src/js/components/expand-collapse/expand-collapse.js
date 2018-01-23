@@ -74,11 +74,56 @@ class ExpandCollapse extends Component {
             <div className="accordion-block filter-accordion">
               <div className="accordion">
                 <dl>
-                  <dt>
-                    <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" className="accordion-title accordionTitle js-accordionTrigger">Accordion Title</a>
+                  <dt className="js-accordionTrigger">
+                    <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" className="accordion-title accordionTitle">Accordion Title</a>
                   </dt>
                   <dd className="accordion-content accordionItem is-collapsed" id="accordion1" aria-hidden="true">
                     <ul className="mrg-lft-M">
+                      <li className="dropdown-list">
+                        <label className="checkbox mrg-M" >
+                          <input type="checkbox" defaultChecked="" />
+                          <span className="left">label</span>
+                          <span className="fl-right">(1,008)</span>
+                        </label>
+                      </li>
+                      <li className="dropdown-list">
+                        <label className="checkbox mrg-M">
+                          <input type="checkbox" defaultChecked="" />
+                          <span className="left">label</span>
+                          <span className="fl-right">(1,008)</span>
+                        </label>
+                      </li>
+                      <li className="dropdown-list">
+                        <label className="checkbox mrg-M">
+                          <input type="checkbox" defaultChecked="" />
+                          <span className="left">label</span>
+                          <span className="fl-right">(1,008)</span>
+                        </label>
+                      </li>
+                      <li className="dropdown-list">
+                        <label className="checkbox mrg-M">
+                          <input type="checkbox" defaultChecked="" />
+                          <span className="left">label</span>
+                          <span className="fl-right">(1,008)</span>
+                        </label>
+                      </li>
+                      <li className="dropdown-list">
+                        <label className="checkbox mrg-M">
+                          <input type="checkbox" defaultChecked="" />
+                          <span className="left">label</span>
+                          <span className="fl-right">(1,008)</span>
+                        </label>
+                      </li>
+                    </ul>
+                  </dd>
+                  <dt className="js-accordionTrigger">
+                    <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" className="accordion-title accordionTitle">Accordion Title</a>
+                  </dt>
+                  <dd className="accordion-content accordionItem is-collapsed" id="accordion1" aria-hidden="true">
+                    <ul className="mrg-lft-M">
+                      <div className="search-type">
+                        <input type="text" placeholder="Search Item Type" />
+                      </div>
                       <li className="dropdown-list">
                         <label className="checkbox mrg-M" >
                           <input type="checkbox" defaultChecked="" />
@@ -161,53 +206,8 @@ class ExpandCollapse extends Component {
                       </li>
                     </ul>
                   </dd>
-                  <dt>
-                    <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" className="accordion-title accordionTitle js-accordionTrigger">Accordion Title</a>
-                  </dt>
-                  <dd className="accordion-content accordionItem is-collapsed" id="accordion1" aria-hidden="true">
-                    <ul className="mrg-lft-M">
-                      <div className="search-type">
-                        <input type="text" placeholder="Search Item Type" />
-                      </div>
-                      <li className="dropdown-list">
-                        <label className="checkbox mrg-M" >
-                          <input type="checkbox" defaultChecked="" />
-                          <span className="left">label</span>
-                          <span className="fl-right">(1,008)</span>
-                        </label>
-                      </li>
-                      <li className="dropdown-list">
-                        <label className="checkbox mrg-M">
-                          <input type="checkbox" defaultChecked="" />
-                          <span className="left">label</span>
-                          <span className="fl-right">(1,008)</span>
-                        </label>
-                      </li>
-                      <li className="dropdown-list">
-                        <label className="checkbox mrg-M">
-                          <input type="checkbox" defaultChecked="" />
-                          <span className="left">label</span>
-                          <span className="fl-right">(1,008)</span>
-                        </label>
-                      </li>
-                      <li className="dropdown-list">
-                        <label className="checkbox mrg-M">
-                          <input type="checkbox" defaultChecked="" />
-                          <span className="left">label</span>
-                          <span className="fl-right">(1,008)</span>
-                        </label>
-                      </li>
-                      <li className="dropdown-list">
-                        <label className="checkbox mrg-M">
-                          <input type="checkbox" defaultChecked="" />
-                          <span className="left">label</span>
-                          <span className="fl-right">(1,008)</span>
-                        </label>
-                      </li>
-                    </ul>
-                  </dd>
-                  <dt>
-                    <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" className="accordion-title accordionTitle js-accordionTrigger">Accordion Title</a>
+                  <dt className="js-accordionTrigger">
+                    <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" className="accordion-title accordionTitle">Accordion Title</a>
                   </dt>
                   <dd className="accordion-content accordionItem is-collapsed" id="accordion1" aria-hidden="true">
                     <ul className="mrg-lft-M">
@@ -263,8 +263,8 @@ class ExpandCollapse extends Component {
             <div className="accordion-block filter-accordion">
               <div className="accordion">
                 <dl>
-                  <dt>
-                    <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" className="accordion-title accordionTitle accordionTitle-right js-accordionTrigger">Accordion Title</a>
+                  <dt className="js-accordionTrigger">
+                    <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" className="accordion-title accordionTitle accordionTitle-right">Accordion Title</a>
                   </dt>
                   <dd className="accordion-content accordionItem is-collapsed" id="accordion1" aria-hidden="true">
                     <ul className="mrg-lft-M">
@@ -305,53 +305,8 @@ class ExpandCollapse extends Component {
                       </li>
                     </ul>
                   </dd>
-                  <dt>
-                    <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" className="accordion-title accordionTitle accordionTitle-right js-accordionTrigger">Accordion Title</a>
-                  </dt>
-                  <dd className="accordion-content accordionItem is-collapsed" id="accordion1" aria-hidden="true">
-                    <ul className="mrg-lft-M">
-                      <div className="search-type">
-                        <input type="text" placeholder="Search Item Type" />
-                      </div>
-                      <li className="dropdown-list">
-                        <label className="checkbox mrg-M" >
-                          <input type="checkbox" defaultChecked="" />
-                          <span className="left">label</span>
-                          <span className="fl-right">(1,008)</span>
-                        </label>
-                      </li>
-                      <li className="dropdown-list">
-                        <label className="checkbox mrg-M">
-                          <input type="checkbox" defaultChecked="" />
-                          <span className="left">label</span>
-                          <span className="fl-right">(1,008)</span>
-                        </label>
-                      </li>
-                      <li className="dropdown-list">
-                        <label className="checkbox mrg-M">
-                          <input type="checkbox" defaultChecked="" />
-                          <span className="left">label</span>
-                          <span className="fl-right">(1,008)</span>
-                        </label>
-                      </li>
-                      <li className="dropdown-list">
-                        <label className="checkbox mrg-M">
-                          <input type="checkbox" defaultChecked="" />
-                          <span className="left">label</span>
-                          <span className="fl-right">(1,008)</span>
-                        </label>
-                      </li>
-                      <li className="dropdown-list">
-                        <label className="checkbox mrg-M">
-                          <input type="checkbox" defaultChecked="" />
-                          <span className="left">label</span>
-                          <span className="fl-right">(1,008)</span>
-                        </label>
-                      </li>
-                    </ul>
-                  </dd>
-                  <dt>
-                    <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" className="accordion-title accordionTitle accordionTitle-right accordionTitle-right js-accordionTrigger">Accordion Title</a>
+                  <dt className="js-accordionTrigger">
+                    <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" className="accordion-title accordionTitle accordionTitle-right">Accordion Title</a>
                   </dt>
                   <dd className="accordion-content accordionItem is-collapsed" id="accordion1" aria-hidden="true">
                     <ul className="mrg-lft-M">
@@ -395,8 +350,53 @@ class ExpandCollapse extends Component {
                       </li>
                     </ul>
                   </dd>
-                  <dt>
-                    <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" className="accordion-title accordionTitle accordionTitle-right js-accordionTrigger">Accordion Title</a>
+                  <dt className="js-accordionTrigger">
+                    <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" className="accordion-title accordionTitle accordionTitle-right accordionTitle-right">Accordion Title</a>
+                  </dt>
+                  <dd className="accordion-content accordionItem is-collapsed" id="accordion1" aria-hidden="true">
+                    <ul className="mrg-lft-M">
+                      <div className="search-type">
+                        <input type="text" placeholder="Search Item Type" />
+                      </div>
+                      <li className="dropdown-list">
+                        <label className="checkbox mrg-M" >
+                          <input type="checkbox" defaultChecked="" />
+                          <span className="left">label</span>
+                          <span className="fl-right">(1,008)</span>
+                        </label>
+                      </li>
+                      <li className="dropdown-list">
+                        <label className="checkbox mrg-M">
+                          <input type="checkbox" defaultChecked="" />
+                          <span className="left">label</span>
+                          <span className="fl-right">(1,008)</span>
+                        </label>
+                      </li>
+                      <li className="dropdown-list">
+                        <label className="checkbox mrg-M">
+                          <input type="checkbox" defaultChecked="" />
+                          <span className="left">label</span>
+                          <span className="fl-right">(1,008)</span>
+                        </label>
+                      </li>
+                      <li className="dropdown-list">
+                        <label className="checkbox mrg-M">
+                          <input type="checkbox" defaultChecked="" />
+                          <span className="left">label</span>
+                          <span className="fl-right">(1,008)</span>
+                        </label>
+                      </li>
+                      <li className="dropdown-list">
+                        <label className="checkbox mrg-M">
+                          <input type="checkbox" defaultChecked="" />
+                          <span className="left">label</span>
+                          <span className="fl-right">(1,008)</span>
+                        </label>
+                      </li>
+                    </ul>
+                  </dd>
+                  <dt className="js-accordionTrigger">
+                    <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" className="accordion-title accordionTitle accordionTitle-right">Accordion Title</a>
                   </dt>
                   <dd className="accordion-content accordionItem is-collapsed" id="accordion1" aria-hidden="true">
                     <ul className="mrg-lft-M">
@@ -452,26 +452,26 @@ class ExpandCollapse extends Component {
             <div className="accordion-block filter-accordion accordion-block-answer">
               <div className="accordion">
                 <dl>
-                  <dt>
-                    <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" className="accordion-title accordionTitle js-accordionTrigger">What is the air velocity of an unladen swallow? <span className="std-txt std-txt-S fl-right">9 Answers</span></a>
+                  <dt className="js-accordionTrigger">
+                    <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" className="accordion-title accordionTitle">What is the air velocity of an unladen swallow? <span className="std-txt std-txt-S fl-right">9 Answers</span></a>
                   </dt>
                   <dd className="accordion-content accordionItem is-collapsed" id="accordion1" aria-hidden="true">
                     <p className="title title-S">This is the detail that the customer enters for the question. It can be long or short, but is usually just one or two lines long, depending on screen size, etc. Answers would show up below this.</p>
                   </dd>
-                  <dt>
-                    <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" className="accordion-title accordionTitle js-accordionTrigger">Luke, who is your father? <span className="std-txt std-txt-S fl-right">9 Answers</span></a>
+                  <dt className="js-accordionTrigger">
+                    <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" className="accordion-title accordionTitle">Luke, who is your father? <span className="std-txt std-txt-S fl-right">9 Answers</span></a>
                   </dt>
                   <dd className="accordion-content accordionItem is-collapsed" id="accordion1" aria-hidden="true">
                     <p className="title title-S">This is the detail that the customer enters for the question. It can be long or short, but is usually just one or two lines long, depending on screen size, etc. Answers would show up below this.</p>
                   </dd>
-                  <dt>
-                    <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" className="accordion-title accordionTitle js-accordionTrigger">How much wood could a woodchuck chuck? <span className="std-txt std-txt-S fl-right">9 Answers</span></a>
+                  <dt className="js-accordionTrigger">
+                    <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" className="accordion-title accordionTitle">How much wood could a woodchuck chuck? <span className="std-txt std-txt-S fl-right">9 Answers</span></a>
                   </dt>
                   <dd className="accordion-content accordionItem is-collapsed" id="accordion1" aria-hidden="true">
                     <p className="title title-S">This is the detail that the customer enters for the question. It can be long or short, but is usually just one or two lines long, depending on screen size, etc. Answers would show up below this.</p>
                   </dd>
-                  <dt>
-                    <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" className="accordion-title accordionTitle js-accordionTrigger">What does this look like when it is open? <span className="std-txt std-txt-S fl-right">9 Answers</span></a>
+                  <dt className="js-accordionTrigger">
+                    <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" className="accordion-title accordionTitle">What does this look like when it is open? <span className="std-txt std-txt-S fl-right">9 Answers</span></a>
                   </dt>
                   <dd className="accordion-content accordionItem is-collapsed" id="accordion1" aria-hidden="true">
                     <p className="title title-S">This is the detail that the customer enters for the question. It can be long or short, but is usually just one or two lines long, depending on screen size, etc. Answers would show up below this.</p>
@@ -488,8 +488,8 @@ class ExpandCollapse extends Component {
             <div className="accordion-block filter-accordion">
               <div className="accordion">
                 <dl>
-                  <dt>
-                    <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" className="accordion-title accordionTitle js-accordionTrigger">Holiday</a>
+                  <dt className="js-accordionTrigger">
+                    <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" className="accordion-title accordionTitle">Holiday</a>
                   </dt>
                   <dd className="accordion-content accordionItem is-collapsed" id="accordion1" aria-hidden="true">
                     <ul>
@@ -502,8 +502,8 @@ class ExpandCollapse extends Component {
                       <li><a href="javascript:void();">Servicio Al Cliente</a></li>
                     </ul>
                   </dd>
-                  <dt>
-                    <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" className="accordion-title accordionTitle js-accordionTrigger">Furniture & Mattresses</a>
+                  <dt className="js-accordionTrigger">
+                    <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" className="accordion-title accordionTitle">Furniture & Mattresses</a>
                   </dt>
                   <dd className="accordion-content accordionItem is-collapsed" id="accordion1" aria-hidden="true">
                     <ul>
@@ -516,8 +516,8 @@ class ExpandCollapse extends Component {
                       <li><a href="javascript:void();">Servicio Al Cliente</a></li>
                     </ul>
                   </dd>
-                  <dt>
-                    <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" className="accordion-title accordionTitle js-accordionTrigger">Home Decor</a>
+                  <dt className="js-accordionTrigger">
+                    <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" className="accordion-title accordionTitle">Home Decor</a>
                   </dt>
                   <dd className="accordion-content accordionItem is-collapsed" id="accordion1" aria-hidden="true">
                     <ul>
@@ -530,8 +530,8 @@ class ExpandCollapse extends Component {
                       <li><a href="javascript:void();">Servicio Al Cliente</a></li>
                     </ul>
                   </dd>
-                  <dt>
-                    <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" className="accordion-title accordionTitle js-accordionTrigger">Kitchen & Dining</a>
+                  <dt className="js-accordionTrigger">
+                    <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" className="accordion-title accordionTitle">Kitchen & Dining</a>
                   </dt>
                   <dd className="accordion-content accordionItem is-collapsed" id="accordion1" aria-hidden="true">
                     <ul>
@@ -544,8 +544,8 @@ class ExpandCollapse extends Component {
                       <li><a href="javascript:void();">Servicio Al Cliente</a></li>
                     </ul>
                   </dd>
-                  <dt>
-                    <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" className="accordion-title accordionTitle js-accordionTrigger">Window</a>
+                  <dt className="js-accordionTrigger">
+                    <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" className="accordion-title accordionTitle">Window</a>
                   </dt>
                   <dd className="accordion-content accordionItem is-collapsed" id="accordion1" aria-hidden="true">
                     <ul>
@@ -570,8 +570,8 @@ class ExpandCollapse extends Component {
             <div className="accordion-block filter-accordion">
               <div className="accordion">
                 <dl>
-                  <dt>
-                    <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" className="accordion-title accordionTitle js-accordionTrigger">Product Specifications</a>
+                  <dt className="js-accordionTrigger">
+                    <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" className="accordion-title accordionTitle">Product Specifications</a>
                   </dt>
                   <dd className="accordion-content accordionItem is-collapsed" id="accordion1" aria-hidden="true">
                     <ul>
@@ -584,8 +584,8 @@ class ExpandCollapse extends Component {
                       <li><a href="javascript:void();">Servicio Al Cliente</a></li>
                     </ul>
                   </dd>
-                  <dt>
-                    <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" className="accordion-title accordionTitle js-accordionTrigger">Helpful Guides</a>
+                  <dt className="js-accordionTrigger">
+                    <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" className="accordion-title accordionTitle">Helpful Guides</a>
                   </dt>
                   <dd className="accordion-content accordionItem is-collapsed" id="accordion1" aria-hidden="true">
                     <ul>
@@ -598,8 +598,8 @@ class ExpandCollapse extends Component {
                       <li><a href="javascript:void();">Servicio Al Cliente</a></li>
                     </ul>
                   </dd>
-                  <dt>
-                    <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" className="accordion-title accordionTitle js-accordionTrigger">Reviews
+                  <dt className="js-accordionTrigger">
+                    <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" className="accordion-title accordionTitle">Reviews
                     <div className="star-preview-col fl-right">
                         <ul className="star-ratings-L">
                           <li className="star-ratings full">★</li>
@@ -618,8 +618,8 @@ class ExpandCollapse extends Component {
                       <li><a href="javascript:void();">Even more content here</a></li>
                     </ul>
                   </dd>
-                  <dt>
-                    <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" className="accordion-title accordionTitle js-accordionTrigger">Questions & Answers</a>
+                  <dt className="js-accordionTrigger">
+                    <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" className="accordion-title accordionTitle">Questions & Answers</a>
                   </dt>
                   <dd className="accordion-content accordionItem is-collapsed" id="accordion1" aria-hidden="true">
                     <ul>
@@ -632,8 +632,8 @@ class ExpandCollapse extends Component {
                       <li><a href="javascript:void();">Servicio Al Cliente</a></li>
                     </ul>
                   </dd>
-                  <dt>
-                    <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" className="accordion-title accordionTitle js-accordionTrigger">Shipping & Returns</a>
+                  <dt className="js-accordionTrigger">
+                    <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" className="accordion-title accordionTitle">Shipping & Returns</a>
                   </dt>
                   <dd className="accordion-content accordionItem is-collapsed" id="accordion1" aria-hidden="true">
                     <ul>
@@ -650,9 +650,6 @@ class ExpandCollapse extends Component {
               </div>
             </div>
           </div>
-
-
-
         </div>
       </div>
     );

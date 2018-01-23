@@ -369,7 +369,7 @@ By consistently tying typographic styles to appropriate fuctions in the interfac
             <h3 className="title title-L mrg-L">Links</h3>
             <p className="mrg-L">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             <p className="mrg-L"><a href="javascript:void();">The quick brown fox jumps over the lazy dog.</a></p><br/><br/><br/>
-            <p className="mrg-L link-sm"><a href="javascript:void();">See Details</a></p>
+            <p className="mrg-L link-S"><a href="javascript:void();">See Details</a></p>
 
             <hr />
         </div>

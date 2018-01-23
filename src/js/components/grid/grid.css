@@ -140,6 +140,23 @@
 .text-center {
   text-align: center;
 }
+
+.hidden {
+  visibility: hidden !important;
+}
+
+.fl-left {
+  float: left;
+}
+
+.fl-right {
+  float: right;
+}
+
+.pos-rel {
+  position: relative;
+}
+
 /* 
  @media(max-width: $grid-breakpoint-L){
    .mrg-zero{

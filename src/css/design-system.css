@@ -1559,19 +1559,3 @@ Base Styles
 .width-216 {
   width: 216px;
 }
-
-.hidden {
-  visibility: hidden !important;
-}
-
-.fl-left {
-  float: left;
-}
-
-.fl-right {
-  float: right;
-}
-
-.pos-rel {
-  position: relative;
-}

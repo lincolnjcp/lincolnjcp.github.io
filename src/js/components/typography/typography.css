@@ -490,20 +490,13 @@ p {
     text-transform: uppercase;
 }
 
-.txt-weight-light {
-    font-weight: 300;
-}
-
 .txt-bold {
     font-weight: bold;
-}
-.txt-line-height-L {
-    line-height: 26px;
 }
 
 /* links */
 
-.link-sm {
+.link-S {
     font-size: 12px;
     letter-spacing: 1px;
 }
