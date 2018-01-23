@@ -633,7 +633,7 @@ var $export = __webpack_require__("Ds5P");
 module.exports = function (COLLECTION) {
   $export($export.S, COLLECTION, { of: function of() {
     var length = arguments.length;
-    var A = new Array(length);
+    var A = Array(length);
     while (length--) A[length] = arguments[length];
     return new this(A);
   } });
@@ -956,17 +956,6 @@ metadata.exp({ deleteMetadata: function deleteMetadata(metadataKey, target /* , 
 var $export = __webpack_require__("Ds5P");
 
 $export($export.S, 'Math', { RAD_PER_DEG: 180 / Math.PI });
-
-
-/***/ }),
-
-/***/ "41xE":
-/***/ (function(module, exports, __webpack_require__) {
-
-var global = __webpack_require__("OzIq");
-var navigator = global.navigator;
-
-module.exports = navigator && navigator.userAgent || '';
 
 
 /***/ }),
@@ -1854,7 +1843,7 @@ module.exports = function (O, D) {
 /***/ "7gX0":
 /***/ (function(module, exports) {
 
-var core = module.exports = { version: '2.5.3' };
+var core = module.exports = { version: '2.5.1' };
 if (typeof __e == 'number') __e = core; // eslint-disable-line no-undef
 
 
@@ -12193,7 +12182,7 @@ $export($export.P + $export.F * __webpack_require__("zgIt")(function () {
     var start = toAbsoluteIndex(begin, len);
     var upTo = toAbsoluteIndex(end, len);
     var size = toLength(upTo - start);
-    var cloned = new Array(size);
+    var cloned = Array(size);
     var i = 0;
     for (; i < size; i++) cloned[i] = klass == 'String'
       ? this.charAt(start + i)
@@ -12516,7 +12505,6 @@ var wksDefine = __webpack_require__("3g/S");
 var enumKeys = __webpack_require__("C+Ps");
 var isArray = __webpack_require__("XO1R");
 var anObject = __webpack_require__("DIVP");
-var isObject = __webpack_require__("UKM+");
 var toIObject = __webpack_require__("PHqh");
 var toPrimitive = __webpack_require__("s4j0");
 var createDesc = __webpack_require__("fU25");
@@ -12709,14 +12697,15 @@ $JSON && $export($export.S + $export.F * (!USE_NATIVE || $fails(function () {
   return _stringify([S]) != '[null]' || _stringify({ a: S }) != '{}' || _stringify(Object(S)) != '{}';
 })), 'JSON', {
   stringify: function stringify(it) {
+    if (it === undefined || isSymbol(it)) return; // IE8 returns string on undefined
     var args = [it];
     var i = 1;
     var replacer, $replacer;
     while (arguments.length > i) args.push(arguments[i++]);
-    $replacer = replacer = args[1];
-    if (!isObject(replacer) && it === undefined || isSymbol(it)) return; // IE8 returns string on undefined
-    if (!isArray(replacer)) replacer = function (key, value) {
-      if (typeof $replacer == 'function') value = $replacer.call(this, key, value);
+    replacer = args[1];
+    if (typeof replacer == 'function') $replacer = replacer;
+    if ($replacer || !isArray(replacer)) replacer = function (key, value) {
+      if ($replacer) value = $replacer.call(this, key, value);
       if (!isSymbol(value)) return value;
     };
     args[1] = replacer;
@@ -18223,7 +18212,7 @@ var $OFFSET = DESCRIPTORS ? '_o' : BYTE_OFFSET;
 
 // IEEE754 conversions based on https://github.com/feross/ieee754
 function packIEEE754(value, mLen, nBytes) {
-  var buffer = new Array(nBytes);
+  var buffer = Array(nBytes);
   var eLen = nBytes * 8 - mLen - 1;
   var eMax = (1 << eLen) - 1;
   var eBias = eMax >> 1;
@@ -18341,7 +18330,7 @@ if (!$typed.ABV) {
   $ArrayBuffer = function ArrayBuffer(length) {
     anInstance(this, $ArrayBuffer, ARRAY_BUFFER);
     var byteLength = toIndex(length);
-    this._b = arrayFill.call(new Array(byteLength), 0);
+    this._b = arrayFill.call(Array(byteLength), 0);
     this[$LENGTH] = byteLength;
   };
 
@@ -19929,10 +19918,13 @@ module.exports = {
 /***/ (function(module, exports) {
 
 /**
- * Copyright (c) 2014-present, Facebook, Inc.
+ * Copyright (c) 2014, Facebook, Inc.
+ * All rights reserved.
  *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
+ * This source code is licensed under the BSD-style license found in the
+ * https://raw.github.com/facebook/regenerator/master/LICENSE file. An
+ * additional grant of patent rights can be found in the PATENTS file in
+ * the same directory.
  */
 
 !(function(global) {
@@ -22299,7 +22291,7 @@ var closest = __webpack_require__("Jssu");
  * @param {Boolean} useCapture
  * @return {Object}
  */
-function _delegate(element, selector, type, callback, useCapture) {
+function delegate(element, selector, type, callback, useCapture) {
     var listenerFn = listener.apply(this, arguments);
 
     element.addEventListener(type, listenerFn, useCapture);
@@ -22309,40 +22301,6 @@ function _delegate(element, selector, type, callback, useCapture) {
             element.removeEventListener(type, listenerFn, useCapture);
         }
     }
-}
-
-/**
- * Delegates event to a selector.
- *
- * @param {Element|String|Array} [elements]
- * @param {String} selector
- * @param {String} type
- * @param {Function} callback
- * @param {Boolean} useCapture
- * @return {Object}
- */
-function delegate(elements, selector, type, callback, useCapture) {
-    // Handle the regular Element usage
-    if (typeof elements.addEventListener === 'function') {
-        return _delegate.apply(null, arguments);
-    }
-
-    // Handle Element-less usage, it defaults to global delegation
-    if (typeof type === 'function') {
-        // Use `document` as the first parameter, then apply arguments
-        // This is a short way to .unshift `arguments` without running into deoptimizations
-        return _delegate.bind(null, document).apply(null, arguments);
-    }
-
-    // Handle Selector-based usage
-    if (typeof elements === 'string') {
-        elements = document.querySelectorAll(elements);
-    }
-
-    // Handle Array-like based usage
-    return Array.prototype.map.call(elements, function (element) {
-        return _delegate(element, selector, type, callback, useCapture);
-    });
 }
 
 /**
@@ -23728,8 +23686,8 @@ module.exports = function () {
     notify = function () {
       process.nextTick(flush);
     };
-  // browsers with MutationObserver, except iOS Safari - https://github.com/zloirock/core-js/issues/339
-  } else if (Observer && !(global.navigator && global.navigator.standalone)) {
+  // browsers with MutationObserver
+  } else if (Observer) {
     var toggle = true;
     var node = document.createTextNode('');
     new Observer(flush).observe(node, { characterData: true }); // eslint-disable-line no-new
@@ -24940,10 +24898,8 @@ $export($export.S, 'Math', { fround: __webpack_require__("g/m8") });
 // https://github.com/tc39/proposal-string-pad-start-end
 var $export = __webpack_require__("Ds5P");
 var $pad = __webpack_require__("2VSL");
-var userAgent = __webpack_require__("41xE");
 
-// https://github.com/zloirock/core-js/issues/280
-$export($export.P + $export.F * /Version\/10\.\d+(\.\d+)? Safari\//.test(userAgent), 'String', {
+$export($export.P, 'String', {
   padEnd: function padEnd(maxLength /* , fillString = ' ' */) {
     return $pad(this, maxLength, arguments.length > 1 ? arguments[1] : undefined, false);
   }
@@ -25305,7 +25261,7 @@ redefineAll($Observable, {
     });
   },
   of: function of() {
-    for (var i = 0, l = arguments.length, items = new Array(l); i < l;) items[i] = arguments[i++];
+    for (var i = 0, l = arguments.length, items = Array(l); i < l;) items[i] = arguments[i++];
     return new (typeof this === 'function' ? this : $Observable)(function (observer) {
       var done = false;
       microtask(function () {
@@ -26137,10 +26093,8 @@ module.exports = shallowEqual;
 // https://github.com/tc39/proposal-string-pad-start-end
 var $export = __webpack_require__("Ds5P");
 var $pad = __webpack_require__("2VSL");
-var userAgent = __webpack_require__("41xE");
 
-// https://github.com/zloirock/core-js/issues/280
-$export($export.P + $export.F * /Version\/10\.\d+(\.\d+)? Safari\//.test(userAgent), 'String', {
+$export($export.P, 'String', {
   padStart: function padStart(maxLength /* , fillString = ' ' */) {
     return $pad(this, maxLength, arguments.length > 1 ? arguments[1] : undefined, true);
   }
@@ -26543,7 +26497,7 @@ module.exports = function (Base, NAME, Constructor, next, DEFAULT, IS_SET, FORCE
   var VALUES_BUG = false;
   var proto = Base.prototype;
   var $native = proto[ITERATOR] || proto[FF_ITERATOR] || DEFAULT && proto[DEFAULT];
-  var $default = (!BUGGY && $native) || getMethod(DEFAULT);
+  var $default = $native || getMethod(DEFAULT);
   var $entries = DEFAULT ? !DEF_VALUES ? $default : getMethod('entries') : undefined;
   var $anyNative = NAME == 'Array' ? proto.entries || $native : $native;
   var methods, key, IteratorPrototype;
@@ -26654,9 +26608,9 @@ metadata.exp({ getMetadataKeys: function getMetadataKeys(target /* , targetKey *
 // ie9- setTimeout & setInterval additional parameters fix
 var global = __webpack_require__("OzIq");
 var $export = __webpack_require__("Ds5P");
-var userAgent = __webpack_require__("41xE");
+var navigator = global.navigator;
 var slice = [].slice;
-var MSIE = /MSIE .\./.test(userAgent); // <- dirty ie9- check
+var MSIE = !!navigator && /MSIE .\./.test(navigator.userAgent); // <- dirty ie9- check
 var wrap = function (set) {
   return function (fn, time /* , ...args */) {
     var boundArgs = arguments.length > 2;
@@ -28988,7 +28942,14 @@ var onUnhandled = function (promise) {
   });
 };
 var isUnhandled = function (promise) {
-  return promise._h !== 1 && (promise._a || promise._c).length === 0;
+  if (promise._h == 1) return false;
+  var chain = promise._a || promise._c;
+  var i = 0;
+  var reaction;
+  while (chain.length > i) {
+    reaction = chain[i++];
+    if (reaction.fail || !isUnhandled(reaction.promise)) return false;
+  } return true;
 };
 var onHandleUnhandled = function (promise) {
   task.call(global, function () {
