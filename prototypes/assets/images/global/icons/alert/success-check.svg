@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32">
+  <defs>
+    <polygon id="success-check-a" points="9.273 11.256 20.182 .066 23.819 3.796 9.273 18.715 .181 9.391 3.818 5.661"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="translate(4 6)">
+    <use fill="#2A7952" xlink:href="#success-check-a"/>
+  </g>
+</svg>
