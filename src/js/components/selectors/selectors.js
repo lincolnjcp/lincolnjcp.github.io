@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+const successImage = require('!!raw-loader?es5=1!../../../images/global/icons/alert/success.svg');
 class Selectors extends Component {
 
   componentDidMount() {
@@ -13,7 +13,8 @@ class Selectors extends Component {
           <h3 className="title title-L mrg-L">SKU Selectors</h3>
           <div className="std-txt-label mrg-S">Small</div>
           <div className="mrg-XL">
-            <span className="sku-block selected mrg-rght-S">XS</span>
+            <span className="sku-block selected mrg-rght-S">XS <span className="color-shadow-svg success-checkbox"  dangerouslySetInnerHTML={{ __html: successImage }} />
+            </span>
             <span className="sku-block normal mrg-rght-S">M</span>
             <span className="sku-block mrg-rght-S hover">Hover</span>
             <span className="sku-block error mrg-rght-S">L</span>
@@ -28,7 +29,7 @@ class Selectors extends Component {
 
           <div className="std-txt-label mrg-S">Large</div>
           <div className="mrg-XL">
-            <span className="sku-block sku-block-L selected mrg-rght-S">small</span>
+            <span className="sku-block sku-block-L selected mrg-rght-S">small <span className="color-shadow-svg success-checkbox"  dangerouslySetInnerHTML={{ __html: successImage }} /></span>
             <span className="sku-block sku-block-L normal mrg-rght-S">medium</span>
             <span className="sku-block sku-block-L hover mrg-rght-S">medium</span>
             <span className="sku-block sku-block-L error mrg-rght-S">large</span>
@@ -41,7 +42,9 @@ class Selectors extends Component {
           <div className="std-txt-label mrg-S">Large with Image</div>
           <div className="mrg-XL">
             <span className="sku-block sku-block-L selected mrg-rght-S">
+            
               <img src="http://placehold.it/100/100" alt="" />
+              <span className="color-shadow-svg success-checkbox"  dangerouslySetInnerHTML={{ __html: successImage }} />
             </span>
             <span className="sku-block sku-block-L normal mrg-rght-S">
               <img src="http://placehold.it/100/100" alt="" />
@@ -65,7 +68,7 @@ class Selectors extends Component {
 
           <div className="std-txt-label mrg-S">Large with double line</div>
           <div className="mrg-XL">
-          <p className="sku-block sku-block-L sku-double-block-L selected mrg-rght-S"><span class="price-content">$29.99 </span> <span class="standart-content">1 year protection plan</span></p>
+          <p className="sku-block sku-block-L sku-double-block-L selected mrg-rght-S"><span class="price-content">$29.99 </span> <span class="standart-content">1 year protection plan</span> <span className="color-shadow-svg success-checkbox"  dangerouslySetInnerHTML={{ __html: successImage }} /></p>
           <p className="sku-block sku-block-L sku-double-block-L normal mrg-rght-S"><span class="price-content">$59.99 </span> <span class="standart-content">2 year protection plan</span></p>
           <p className="sku-block sku-block-L sku-double-block-L hover mrg-rght-S"><span class="price-content">$55.99 </span> <span class="standart-content">2 year protection plan</span></p>
     

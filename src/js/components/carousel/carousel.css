@@ -335,7 +335,7 @@
 		& .carousel-main-img {
 			& .slick-slide {
 				max-width: 220px;
-				opacity: .5;
+				opacity: .3;
 			}
 			& .slick-active {
 				opacity: 1;

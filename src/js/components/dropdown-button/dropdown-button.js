@@ -9,10 +9,10 @@ class DropdownButton extends Component {
             
             var parent_box = $(this).closest('.dropdown-menu-block');
             parent_box.siblings().find('.dropdown-menu').hide();
-            parent_box.find('.dropdown-menu').slideToggle(200, 'swing');
+            parent_box.find('.dropdown-menu').slideToggle(200 ,"swing");
             
             $(this).toggleClass("arrow-down"); 
-
+            return false;
         });
     }
 

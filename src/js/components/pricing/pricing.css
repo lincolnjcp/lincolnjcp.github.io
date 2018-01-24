@@ -14,6 +14,17 @@
                     }
                 }
             }
+            &.gallery-pdp-pricing-column{
+                & > li {
+                width: 50%;
+                }
+                & .mrg-top-M{
+                    margin-top: 16px;
+                }
+                & .gallery-pdp-pricing-column-full{
+                    width: 100%;
+                }
+            }
         }
     }
 }
