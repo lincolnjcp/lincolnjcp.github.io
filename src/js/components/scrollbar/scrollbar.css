@@ -24,8 +24,8 @@
     }
     & .custom-scroll {
         &::-webkit-scrollbar-track {
-          /* width: 2px;
-          background: var(--color-rewards-platinum-3); */
+          width: 2px;
+          background: var(--color-rewards-platinum-3);
         }
         &::-webkit-scrollbar {
           width: 8px;
