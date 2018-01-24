@@ -11,7 +11,7 @@
 }
 
 .input-form{
-  & .css-float-label {
+  & .form-float-label {
     display: inline-block;
     width: 100%;
     & .form-control:placeholder-shown:not(:focus) + * {
@@ -44,14 +44,19 @@
     padding-left: 20px;
     display: inline-block;
     border-radius: var(--border-radius-M);
+    font-size: 16px;
     &:focus {
-      border: 1px solid var(--color-nightsky);
+      border: 1px solid var(--color-shadow);
       outline: 0;
     }
   }
 
   & .input-text::-webkit-input-placeholder { /* WebKit browsers */
     color: transparent;
+  }
+  
+  & .placeholder-text::-webkit-input-placeholder { /* WebKit browsers */
+    color: var(--color-shadow);
   }
   & .input-text::-moz-placeholder { /* Mozilla Firefox 19+ */
     color: transparent;
@@ -75,7 +80,9 @@
     border-left: 1px solid var(--color-concrete);
     padding: 0;
     height: 48px;
-    width: 40px;
+    width: 48px;
+    text-align: center;
+    cursor: pointer;
     & .icon {
       width: 24px;
     }
@@ -119,7 +126,7 @@
 }
 
 .input-form.error {
-  & div.css-float-label {
+  & div.form-float-label {
     & input {
       border: 2px solid var(--color-error-type);
       margin-bottom: 5px;
@@ -139,7 +146,7 @@
       line-height: 30px;
       min-width: auto;
     }
-    & .css-float-label {
+    & .form-float-label {
       & span {
         background: var(--color-white);
         display: block;
@@ -182,12 +189,19 @@
 }
 
 .text-area-form {
-  & .css-float-label {
+  & .form-float-label {
     display: inline-block;
     width: 100%;
     & textarea.form-control {
       min-height: 110px;
       width: 100%;
+    }
+    & textarea.form-control:focus {
+      border: 1px solid var(--color-shadow);
+      outline: 0;
+    }
+    & label {
+      font-size: 16px !important;
     }
   }
 }
@@ -203,7 +217,7 @@
 
 
 
-.css-float-label {
+.form-float-label {
   display: block;
   position: relative;
   & label {
@@ -293,7 +307,7 @@
 
   & select {
     height: 38px;
-    border: 1px solid var(--color-white);
+    border: none;
     &:focus {
       border: 1px solid var(--color-nightsky);
     }
@@ -341,5 +355,22 @@
     & .select:before{
       border: 0.5px solid #111;
     }
+  }
+}
+
+.search-block {
+  & .search-close-icon {
+    display: block;
+      position: absolute;
+      right: 54px;
+      top: 18px;
+      background: url("var(--path-images)global/icons/nav/close.svg") no-repeat;
+      height: 16px;
+      width: 16px;
+      background-size: contain;
+    
+  }
+  & .input-text:not(:valid) ~ .search-close-icon {
+    display: none;
   }
 }

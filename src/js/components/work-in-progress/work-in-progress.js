@@ -214,7 +214,7 @@ class WorkInProgress extends Component {
     <div className="row mrg-XL">
       <div className="sm12 md12 columns select-form">
           <div className="sm12 md4 columns select">
-              <div className="css-float-label">
+              <div className="form-float-label">
                   <select className="form-control custom-select">
                       <option value=''>Month</option>
                       <option value='1'>01 - Janaury</option>
@@ -239,7 +239,7 @@ class WorkInProgress extends Component {
     <div className="row mrg-XL">
       <div className="sm12 md12 columns select-form">
           <div className="sm12 columns select">
-              <div className="css-float-label">
+              <div className="form-float-label">
                   <select className="form-control custom-select">
                       <option value=''>Month</option>
                       <option value='1'>01 - Janaury</option>

@@ -88,8 +88,8 @@ class Footer extends Component {
                         <div className="signup-block md10 lg8 xl8 sm12">
                             <label className="signup-label">Signup for text* or email alerts and offers</label>
                             <div className="position-rel input-form">
-                                <div className="css-float-label">
-                                    <input type="tel" id="signup" name="signup" placeholder="Phone Number or Email..." className="input-text" />
+                                <div className="form-float-label">
+                                    <input type="tel" id="signup" name="signup" placeholder="Phone Number or Email..." className="input-text placeholder-text" />
                                     <a href="javascript:void();" className="btn btn-S btn-primary apply-btn">Sign Up</a>
                                     <a href="javascript:void();" className="footer-terms">*Terms & Conditions</a>
                                 </div>

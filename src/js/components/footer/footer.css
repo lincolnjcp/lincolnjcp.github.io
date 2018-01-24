@@ -29,7 +29,7 @@
             bottom: -16px;
         }
         & .input-form {
-            & .css-float-label {
+            & .form-float-label {
                 & .form-control:placeholder-shown:not(:focus)+* {
                     font-size: 14px;
                     top: 1.2em;
@@ -39,7 +39,7 @@
                 font-size: 14px;
             }
         }
-        & .input-text::-webkit-input-placeholder { 
+        & .placeholder-text::-webkit-input-placeholder { 
             color: var(--color-shadow);
         }
     }

@@ -11,7 +11,7 @@ const cardJCPRed = require('!!raw-loader?es5=1!../../../images/global/icons/paym
 class Forms extends Component {
 
     componentDidMount() {
-        
+
 
     }
 
@@ -92,12 +92,12 @@ class Forms extends Component {
                                     }
                                 ]}
 
-                            htmlPattern={ 
+                            htmlPattern={
                                 [
                                     {
                                         default: [
                                             {
-                                                html:`<[[format_tag_start]]a[[format_tag_end]] [[format_attribute_start]]
+                                                html: `<[[format_tag_start]]a[[format_tag_end]] [[format_attribute_start]]
                                                             href="[[format_attribute_end]][[format_tag_value_start]]javascript:void();[[format_tag_value_end]][[format_attribute_start]]"
                                                             class="[[format_attribute_end]][[format_tag_value_start]]btn [[code_button_size]] [[code_button_style]] [[code_button_width]] [[code_button_disabled]][[format_tag_value_end]][[format_attribute_start]]"[[format_attribute_end]]>
                                                             [[format_tab_start]]
@@ -106,7 +106,7 @@ class Forms extends Component {
                                                         <[[format_tag_start]]/a[[format_tag_end]]>`,
                                             },
                                             {
-                                                javascript:``,                                        
+                                                javascript: ``,
                                             }
 
                                         ]
@@ -140,7 +140,7 @@ class Forms extends Component {
                                 <div className="row">
                                     <div className="sm12 md4 columns">
                                         <div className="input-group">
-                                            <div className="css-float-label">
+                                            <div className="form-float-label">
                                                 <input className="form-control email-text input-text" id="email" type="text" placeholder="example@email.com" />
                                                 <label htmlFor="email">Email</label>
                                             </div>
@@ -156,7 +156,7 @@ class Forms extends Component {
                                 <div className="row">
                                     <div className="sm12 md4 columns">
                                         <div className="select">
-                                            <div className="css-float-label">
+                                            <div className="form-float-label">
                                                 <select className="form-control custom-select select-box">
                                                     <option value=''>Month</option>
                                                     <option value='1'>01 - Janaury</option>
@@ -186,8 +186,8 @@ class Forms extends Component {
                                 <div className="row">
                                     <div className="sm12 md4 columns">
                                         <div className="input-group">
-                                            <div className="css-float-label">
-                                                <textarea className="form-control text-area" name="instructions">Please deliver to side service entrance of apartment building. Enter code 9090 to access garage.</textarea>
+                                            <div className="form-float-label">
+                                                <textarea className="form-control text-area" name="instructions" placeholder="Please deliver to side service entrance of apartment building. Enter code 9090 to access garage."></textarea>
                                                 <label htmlFor="instructions">Delivery Instructions</label>
                                             </div>
                                         </div>
@@ -263,7 +263,7 @@ class Forms extends Component {
                                 <div className="row">
                                     <div className="sm12 md4 columns">
                                         <div className="input-group">
-                                            <div className="css-float-label">
+                                            <div className="form-float-label">
                                                 <input className="form-control input-text" id="phone-number" maxLength="14" type="text" placeholder="( ___ ) ___-____" />
                                                 <label htmlFor="Phone">Phone Number</label>
                                             </div>
@@ -279,7 +279,7 @@ class Forms extends Component {
                                 <div className="row">
                                     <div className="sm12 md4 columns">
                                         <div className="input-group">
-                                            <div className="css-float-label">
+                                            <div className="form-float-label">
                                                 <span className="icon jcp-icon-red" dangerouslySetInnerHTML={{ __html: cardJCPRed }} />
                                                 <input id="creditcard" type="tel" name="ccnumber" placeholder="8888 8888 888" className="form-control creditcard-text input-text masked" />
                                                 <label className="creditcard" htmlFor="creditcard">Card Number</label>
@@ -296,7 +296,7 @@ class Forms extends Component {
                                 <div className="row">
                                     <div className="sm12 md4 columns">
                                         <div className="position-rel">
-                                            <div className="css-float-label">
+                                            <div className="form-float-label">
                                                 <input className="form-control input-text" id="password" maxLength="16" type="password" placeholder="••••••••••" />
                                                 <label htmlFor="password">Password</label>
                                             </div>
@@ -315,7 +315,7 @@ class Forms extends Component {
                                         <div className="row">
                                             <div className="sm6 columns">
                                                 <div className="select">
-                                                    <div className="css-float-label">
+                                                    <div className="form-float-label">
                                                         <select className="form-control custom-select">
                                                             <option value=''>Month</option>
                                                             <option value='1'>01</option>
@@ -337,7 +337,7 @@ class Forms extends Component {
                                             </div>
                                             <div className="sm6 columns">
                                                 <div className="select">
-                                                    <div className="css-float-label">
+                                                    <div className="form-float-label">
                                                         <select className="form-control custom-select">
                                                             <option value=''>Year</option>
                                                             <option value='1'>2001</option>
@@ -368,10 +368,12 @@ class Forms extends Component {
                             <div className="sm12 columns input-form">
                                 <div className="row">
                                     <div className="sm12 md4 columns">
-                                        <div className="position-rel">
-                                            <div className="css-float-label">
-                                                <input className="form-control input-text" id="search" type="text" placeholder="Search Products" />
-                                                <label htmlFor="search">Search Products</label>
+                                        <div className="position-rel search-block">
+                                            <div className="form-float-label">
+                                                <form>
+                                                    <input type="text" id="search" name="focus" placeholder="Search Products" required className="input-text placeholder-text" />
+                                                    <button class="search-close-icon" type="reset"></button>
+                                                </form>
                                             </div>
                                             <span className="icon search-icon color-lipstick-svg" dangerouslySetInnerHTML={{ __html: searchIcon }} />
                                         </div>
@@ -416,8 +418,8 @@ class Forms extends Component {
                                 <div className="row">
                                     <div className="sm12 md4 columns">
                                         <div className="position-rel">
-                                            <div className="css-float-label">
-                                                <input id="zipcode" type="tel" name="zipcode" placeholder="Enter Code" maxLength="5" className="form-control input-text" />
+                                            <div className="form-float-label">
+                                                <input type="tel" id="zipcode" name="zipcode" placeholder="Enter Code" required className="input-text placeholder-text" />
                                                 <label htmlFor="zipcode">Enter Code</label>
                                                 <a href="javascript:void();" className="btn btn-S btn-primary apply-btn">Apply</a>
                                             </div>
@@ -433,8 +435,8 @@ class Forms extends Component {
                                 <div className="row">
                                     <div className="sm12 md4 columns">
                                         <div className="position-rel">
-                                            <div className="css-float-label">
-                                                <input className="form-control input-text" id="date" maxLength="5" type="text" placeholder="mm/dd/yyyy" />
+                                            <div className="form-float-label">
+                                                <input type="text" id="date" name="date" placeholder="mm/dd/yyyy" required className="input-text placeholder-text" />
                                                 <label htmlFor="date">Birthday (Optional)</label>
                                             </div>
                                             <span className="icon tooltip-icon" dangerouslySetInnerHTML={{ __html: tooltipIcon }} />
@@ -450,7 +452,7 @@ class Forms extends Component {
                                 <div className="row">
                                     <div className="sm12 md4 columns">
                                         <div className="input-group">
-                                            <div className="css-float-label">
+                                            <div className="form-float-label">
                                                 <input className="form-control email-text input-text disabled" id="disemail" type="text" value="example@email.com" disabled />
                                                 <label htmlFor="disemail" className="disabled-label">Email</label>
                                             </div>
@@ -466,7 +468,7 @@ class Forms extends Component {
                                 <div className="row">
                                     <div className="sm12 md4 columns">
                                         <div className="position-rel">
-                                            <div className="css-float-label">
+                                            <div className="form-float-label">
                                                 <input className="form-control input-text" id="date-picker" maxLength="5" type="text" placeholder="11/07/2017" />
                                                 <label htmlFor="date-picker">Delivery Date</label>
                                             </div>
@@ -494,9 +496,9 @@ class Forms extends Component {
                     <div className="sm12 columns input-form error">
                         <div className="row">
                             <div className="sm12 columns">
-                                <div className="row">        
+                                <div className="row">
                                     <div className="position-rel sm12 md4 columns">
-                                        <div className="css-float-label">
+                                        <div className="form-float-label">
                                             <input className="form-control email-text input-text" id="email" type="text" placeholder="example@email.com" />
                                             <label htmlFor="email">Email</label>
                                             <br />
@@ -507,16 +509,16 @@ class Forms extends Component {
                                         <br /><br /><br />
                                         <p className="max-width-text">Vestibulum id ligula porta felis euismod semper. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.  <br /><br /> </p>
                                         <div className="sm12 md5 columns row">
-                                            <div className="css-float-label">
+                                            <div className="form-float-label">
                                                 <div className="msg msg-error mrg-M">Email or password is incorrect</div>
                                                 <br />
                                             </div>
-                                            <div className="css-float-label">
+                                            <div className="form-float-label">
                                                 <input className="form-control email-text input-text" id="email" type="text" placeholder="example@email.com" />
                                                 <label htmlFor="email">Email</label>
                                                 <br />
                                             </div>
-                                            <div className="css-float-label password-form">
+                                            <div className="form-float-label password-form">
                                                 <input className="form-control input-text" id="password" maxLength="16" type="password" placeholder="••••••••••" />
                                                 <label htmlFor="password">Password</label>
                                                 <a href="javascript:void(0);" className="show-pwd">show</a>

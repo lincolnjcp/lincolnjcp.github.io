@@ -20,7 +20,7 @@ class CreateInput extends Component {
                 <div className="row mrg-L">
                   <div className="sm12 columns select-form">
                       <div className="sm12 columns select">
-                          <div className="css-float-label">
+                          <div className="form-float-label">
                               <select className="form-control custom-select" name={this.props.name} defaultValue={this.props.defaultSelect}>
                                   {this.props.value.map((field, index) => {
                                 return (
@@ -65,7 +65,7 @@ class CreateInput extends Component {
             <div className="row mrg-L">
               <div className="sm12 columns select-form">
                   <div className="sm12 columns select">
-                      <div className="css-float-label">
+                      <div className="form-float-label">
                           <select className="form-control custom-select" name={this.props.name} defaultValue={this.props.defaultSelect}>
                                {this.props.value.map((field, index) => {
                              return (
@@ -107,7 +107,7 @@ class CreateInput extends Component {
                 <div className="row mrg-L">
                   <div className="sm12 columns select-form">
                       <div className="sm12 columns select">
-                          <div className="css-float-label">
+                          <div className="form-float-label">
                               <select className="form-control custom-select select-pattern" name={this.props.name} defaultValue={this.props.defaultSelect}>
                                   {this.props.value.map((field, index) => {
                                 return (
