@@ -82,6 +82,10 @@
 .flex-grid {
   display: flex !important;
 }
+.coupon-block .coupon-code span:last-child {
+  font-weight: 600;
+  margin-left: 4px;
+}
 @media (--viewport-md) {
   .coupon-block {
     position: relative;
