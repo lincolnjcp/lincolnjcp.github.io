@@ -3,6 +3,8 @@ import $ from 'jquery';
 
 const ChevronLeftImage = require('!!raw-loader?es5=1!../../../images/global/icons/nav/chevron-left.svg');
 const ChevronRightImage = require('!!raw-loader?es5=1!../../../images/global/icons/nav/chevron-right.svg');
+const starImage = require('!!raw-loader?es5=1!../../../images/global/icons/utility/star.svg');
+const starhalfImage = require('!!raw-loader?es5=1!../../../images/global/icons/utility/star-half.svg');
 
 const add = (param1, param2) => param1 + param2;
 const subtract = (param1, param2) => param1 - param2;
@@ -79,7 +81,7 @@ class RecommendationZone extends Component {
   productCardRecommendations(productInfo) {
     return (
       <li className="product-card">
-        <a href="javascript:void(0)" className="" ref={(productPane) => { this.productPane = productPane }}>
+        <a href="javascript:void(0)" className="product-rec-zone" ref={(productPane) => { this.productPane = productPane }}>
           <div className="product-card-recommendation">
 
             {(() => {
@@ -145,21 +147,32 @@ class RecommendationZone extends Component {
                 )
               }
             })()}
-            <h6 className="product-card-name std-txt std-txt-S color-nightsky">
+            <div className="product-card-name std-txt std-txt-S color-nightsky">
               {productInfo.name}
-            </h6>
+            </div>
 
             <div className="ratings-and-reviews">
               <div className="ratings-and-reviews-stars mrg-rght-XS">
                 <div className="star-preview-col fl-right">
-                  <ul className="star-ratings-L">
-                    <li className="star-ratings full">★</li>
-                    <li className="star-ratings full">★</li>
-                    <li className="star-ratings full">★</li>
-                    <li className="star-ratings full">★</li>
-                    <div className="ratings-and-reviews-count color-slate std-txt std-txt-XXS">
-                      99,999
-                    </div>
+                  <ul className="star-ratings-S">
+                    <li className="star-ratings start-ratings-full">
+                      <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
+                    </li>
+                    <li className="star-ratings start-ratings-full">
+                      <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
+                    </li>
+                    <li className="star-ratings start-ratings-full">
+                      <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
+                    </li>
+                    <li className="star-ratings start-ratings-half">
+                      <span className="icon" dangerouslySetInnerHTML={{ __html: starhalfImage }} />
+                    </li>
+                    <li className="star-ratings star-rating-empty color-concrete-svg">
+                      <span className="icon" dangerouslySetInnerHTML={{ __html: starImage }} />
+                    </li>
+                    <li className="star-ratings">
+                      <a href="javascript:void();" className="rating-count">47</a>
+                    </li>
                   </ul>
                 </div>
               </div>

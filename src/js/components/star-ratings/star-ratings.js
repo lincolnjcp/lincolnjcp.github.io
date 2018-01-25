@@ -98,7 +98,7 @@ class ContentLoaders extends Component {
                                     <li className="star-ratings start-ratings-half">
                                         <span className="icon" dangerouslySetInnerHTML={{ __html: starhalfImage }} />
                                     </li>
-                                    <li className="star-ratings star-rating-empty">
+                                    <li className="star-ratings star-rating-full color-concrete-svg">
                                         <span className="icon" dangerouslySetInnerHTML={{ __html: starImage }} />
                                     </li>
                                 </ul>
@@ -125,7 +125,7 @@ class ContentLoaders extends Component {
                                         <span className="icon" dangerouslySetInnerHTML={{ __html: starhalfImage }} />
                                     </li>
                                     <li className="star-ratings star-rating-empty">
-                                        <span className="icon" dangerouslySetInnerHTML={{ __html: starImage }} />
+                                        <span className="icon color-concrete-svg" dangerouslySetInnerHTML={{ __html: starImage }} />
                                     </li>
                                     <li className="star-ratings">
                                         <a href="javascript:void();" className="rating-count">47</a>
@@ -146,7 +146,7 @@ class ContentLoaders extends Component {
                                         <span className="icon" dangerouslySetInnerHTML={{ __html: starhalfImage }} />
                                     </li>
                                     <li className="star-ratings star-rating-empty">
-                                        <span className="icon" dangerouslySetInnerHTML={{ __html: starImage }} />
+                                        <span className="icon color-concrete-svg" dangerouslySetInnerHTML={{ __html: starImage }} />
                                     </li>
                                     <li className="star-ratings">
                                         <a href="javascript:void();" className="rating-count">47</a>

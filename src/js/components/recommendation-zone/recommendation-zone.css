@@ -7,18 +7,26 @@
 	& .product-card-block {
 		position: relative;
 		overflow: hidden;
+		overflow-x: auto;
 		@media (--viewport-md-down) {
 			overflow: auto;
 		}
 		& .product-card-recommendation {
 			@media (--viewport-xl-only) {
-				width: 168px;
+				width: 160px;
 			}
 			@media (--viewport-lg-only) {
 				width: 160px;
 			}
-			@media (--viewport-sm) {
+			@media (--viewport-md-only) {
 				width: 144px;
+			}
+			@media (--viewport-sm-only) {
+				width: 114px;
+				margin: 0 8px;
+				& .product-card-name {
+					font-size: 12px;
+				}
 			}
 		}
 		& .chevron-icon{
@@ -28,8 +36,7 @@
 			top: 45%;
 			width: 40px;
 			height: 40px;
-			opacity: 0.75;
-			background-color: #384048;
+			background: rgba(56, 64, 72, 0.8);
 			box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.25);
 			border-radius: 50%;
 			& svg {
@@ -44,6 +51,9 @@
 		}
 		& .rec-zone-chevron-left{
 			left: 0;
+			& svg {
+				margin-left: 4px;
+			}
 		}
 		& .rec-zone-chevron-right{
 			right: 0;
@@ -52,13 +62,13 @@
 			transition: transform .4s ease-in-out,-webkit-transform .4s ease-in-out;
 			& li {
 				display: inline-flex;
-			}
-			& .product-card-recommendation {
-				white-space: pre-wrap;
 				& a {
 					display: block;
 					text-decoration: none;
 				}
+			}
+			& .product-card-recommendation {
+				white-space: pre-wrap;
 			}
 		}
 	}
