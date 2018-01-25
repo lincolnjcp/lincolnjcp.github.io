@@ -1,7 +1,11 @@
 import React, { Component } from 'react';
 import $ from 'jquery';
 import CodeGenerator from '../../containers/CodeGenerator.js';
-
+const arrowdownImage = require('!!raw-loader?es5=1!../../../images/global/icons/nav/arrow-down.svg');
+const cartImage = require('!!raw-loader?es5=1!../../../images/global/icons/utility/cart/cart.svg');
+const storeImage = require('!!raw-loader?es5=1!../../../images/global/icons/utility/store/store.svg');
+const starImage = require('!!raw-loader?es5=1!../../../images/global/icons/utility/star.svg');
+const starhalfImage = require('!!raw-loader?es5=1!../../../images/global/icons/utility/star-half.svg');
 class Tables extends Component {
 
   render() {
@@ -285,8 +289,227 @@ class Tables extends Component {
 
 
             </div>
+
+
         </div>
     </div>
+    <div className="row " id="activity">
+        <div className="sm12 columns">
+            <hr />
+            <h3 className="title title-L mrg-L">Activity History</h3>
+          
+            <table className="table-striped-columns activity-table-striped-columns width-full std-txt std-txt-S mrg-L algn-lft" width="100%" border="0">
+                <tbody>
+                    <tr>
+                        <th className="title-S width-quarter bg-color-white">Date <span className="activity-icon color-slate-svg" dangerouslySetInnerHTML={{ __html: arrowdownImage }}/></th>
+                        <th className="title-S width-quarter bg-color-white">Description</th>
+                        <th className="title-S width-quarter bg-color-white">Transaction Type</th>
+                        <th className="title-S width-quarter table-points">Points Earned/Used</th>
+                        
+                    </tr>
+                    <tr>
+                        <td>12/01/2017</td>
+                        <td><span>jcp.com</span> <span>Master Card</span><span> Eligible Amount: $46.99</span></td>
+                        <td><span className="activity-icon color-slate-svg" dangerouslySetInnerHTML={{ __html: cartImage }}/><span class="table-icon-content">Online Purchase</span></td>
+                        <td class="table-points">+23 points</td>
+                    </tr>
+                    <tr>
+                        <td>12/01/2017</td>
+                        <td><span>Stonebriar Mall</span> <span>JCPenney Credit Card</span><span> Eligible Amount: $80.75</span></td>
+                        <td><span className="activity-icon color-slate-svg" dangerouslySetInnerHTML={{ __html: storeImage }}/><span class="table-icon-content">In Store Purchase</span></td>
+                        <td class="table-points">+80 points</td>
+                    </tr>
+                    
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div className="row">
+                <div className="sm12 columns">
+                    <h4 className="title title-M mrg-L">Activity History</h4>
+                </div>
+            </div>
+            <div className="row">
+                <div className="sm12 md6 lg4 columns">
+                    <table className="table-striped-columns activity-table-striped-columns width-full std-txt std-txt-S mrg-L algn-lft" width="208" border="0">               
+                
+                         <tbody>
+                            <tr>
+                            <th className="title-S width-quarter bg-color-white">Date <span className="activity-icon color-slate-svg" dangerouslySetInnerHTML={{ __html: arrowdownImage }}/></th>
+                                <th className="title-S width-quarter table-points">Points</th>
+                            </tr>
+                            <tr>
+                                <td><span>12/30/2017</span><span>Stonebriar Mall</span><span>JCPenney Credit Card</span><span className="mrg-XS">Eligible Amount: $80.75</span>
+                                <span className="activity-icon color-slate-svg" dangerouslySetInnerHTML={{ __html: storeImage }}/><span class="table-icon-content">In Store Purchase</span></td>
+                            <td class="table-points">+80 points</td>
+                            </tr>
+                            <tr>
+                            <td><span>12/30/2017</span><span>jcp.com</span><span>Master Card</span><span className="mrg-XS">Eligible Amount: $46.99</span>
+                            <span className="activity-icon color-slate-svg" dangerouslySetInnerHTML={{ __html: cartImage }}/><span class="table-icon-content">Online Purchase</span></td>
+                            <td class="table-points">+23 points</td>
+                            </tr>
+                            
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+
+            <section className="row noPad sm12 md12 lg12 xl12 prodCompareContainer">
+    <div className="prodCompare">
+        <div className="rowChild">
+            <div className="colHeader std-txt std-txt-S noBackground" />
+            <div className="colChild"><img src="https://s7d9.scene7.com/is/image/JCPenney/DP0120201617040708M" alt=""/><span className="prodName std-txt std-txt-S">25.5 cu. ft. French Door Refrigerator in Stainless Steel</span></div>
+            <div className="colChild"><img src="https://s7d9.scene7.com/is/image/JCPenney/DP0120201617040708M" alt=""/><span className="prodName std-txt std-txt-S">25.5 cu. ft. French Door Refrigerator in Stainless Steel</span></div>
+            <div className="colChild"><img src="https://s7d9.scene7.com/is/image/JCPenney/DP0120201617040708M" alt=""/><span className="prodName std-txt std-txt-S">25.5 cu. ft. French Door Refrigerator in Stainless Steel</span></div>
+            <div className="colChild"><img src="https://s7d9.scene7.com/is/image/JCPenney/DP0120201617040708M" alt=""/><span className="prodName std-txt std-txt-S">25.5 cu. ft. French Door Refrigerator in Stainless Steel</span></div>
+        </div>
+        <div className="rowChild">
+            <div className="colHeader std-txt std-txt-S">Price</div>
+            <div className="colChild priceCol">
+            <p class="title title-XS color-penneyred mrg-XS">CYBER WEEK</p>
+            <div class="price price-M mrg-rght-XS mrg-XS mrg-top-M">$1099 <span class="price price-note-M mrg-lft-XS color-penneyred"> sale </span></div>
+               <div><span class="price price-note-M color-slate font-body">was $2,999  |</span><span class="price price-note-M mrg-lft-XS color-slate font-body">33% off</span></div>
+            </div>
+            <div className="colChild priceCol">
+            <p class="title title-XS color-penneyred mrg-XS">CYBER WEEK</p>
+            <div class="price price-M mrg-rght-XS mrg-XS mrg-top-M">$1099 <span class="price price-note-M mrg-lft-XS color-penneyred"> sale </span></div>
+               <div><span class="price price-note-M color-slate font-body">was $2,999  |</span><span class="price price-note-M mrg-lft-XS color-slate font-body">33% off</span></div>
+            </div>
+            <div className="colChild priceCol">
+            <p class="title title-XS color-penneyred mrg-XS">CYBER WEEK</p>
+            <div class="price price-M mrg-rght-XS mrg-XS mrg-top-M">$1099 <span class="price price-note-M mrg-lft-XS color-penneyred"> sale </span></div>
+               <div><span class="price price-note-M color-slate font-body">was $2,999  |</span><span class="price price-note-M mrg-lft-XS color-slate font-body">33% off</span></div>
+            </div>
+            <div className="colChild priceCol">
+            <p class="title title-XS color-penneyred mrg-XS">CYBER WEEK</p>
+            <div class="price price-M mrg-rght-XS mrg-XS mrg-top-M">$1099 <span class="price price-note-M mrg-lft-XS color-penneyred"> sale </span></div>
+               <div><span class="price price-note-M color-slate font-body">was $2,999  |</span><span class="price price-note-M mrg-lft-XS color-slate font-body">33% off</span></div>
+            </div>
+        </div>
+        <div className="rowChild">
+            <div className="colHeader std-txt std-txt-S">Brand</div>
+            <div className="colChild std-txt std-txt-S">LG</div>
+            <div className="colChild std-txt std-txt-S">Samsung</div>
+            <div className="colChild std-txt std-txt-S">LG</div>
+            <div className="colChild std-txt std-txt-S">LG</div>
+        </div>
+        <div className="rowChild star-preview-col">
+            <div className="colHeader std-txt std-txt-S">Rating</div>
+            <div className="colChild">
+            <ul className="star-ratings-S">
+                <li className="star-ratings start-ratings-full">
+                    <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
+                </li>
+                <li className="star-ratings start-ratings-full">
+                    <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
+                </li>
+                <li className="star-ratings start-ratings-full">
+                    <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
+                </li>
+                <li className="star-ratings start-ratings-half">
+                    <span className="icon" dangerouslySetInnerHTML={{ __html: starhalfImage }} />
+                </li>
+                <li className="star-ratings star-rating-empty">
+                    <span className="icon" dangerouslySetInnerHTML={{ __html: starImage }} />
+                </li>
+                <li className="star-ratings">
+                    <a href="javascript:void();" className="rating-count">(99,999)</a>
+                </li>
+            </ul>
+            </div>
+            <div className="colChild">
+            <ul className="star-ratings-S">
+                <li className="star-ratings start-ratings-full">
+                    <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
+                </li>
+                <li className="star-ratings start-ratings-full">
+                    <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
+                </li>
+                <li className="star-ratings start-ratings-full">
+                    <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
+                </li>
+                <li className="star-ratings start-ratings-half">
+                    <span className="icon" dangerouslySetInnerHTML={{ __html: starhalfImage }} />
+                </li>
+                <li className="star-ratings star-rating-empty">
+                    <span className="icon" dangerouslySetInnerHTML={{ __html: starImage }} />
+                </li>
+                <li className="star-ratings">
+                    <a href="javascript:void();" className="rating-count">(99,999)</a>
+                </li>
+            </ul>
+            </div>
+            <div className="colChild">
+            <ul className="star-ratings-S">
+                <li className="star-ratings start-ratings-full">
+                    <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
+                </li>
+                <li className="star-ratings start-ratings-full">
+                    <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
+                </li>
+                <li className="star-ratings start-ratings-full">
+                    <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
+                </li>
+                <li className="star-ratings start-ratings-half">
+                    <span className="icon" dangerouslySetInnerHTML={{ __html: starhalfImage }} />
+                </li>
+                <li className="star-ratings star-rating-empty">
+                    <span className="icon" dangerouslySetInnerHTML={{ __html: starImage }} />
+                </li>
+                <li className="star-ratings">
+                    <a href="javascript:void();" className="rating-count">(99,999)</a>
+                </li>
+            </ul>
+            </div>
+            <div className="colChild">
+            <ul className="star-ratings-S">
+                <li className="star-ratings start-ratings-full">
+                    <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
+                </li>
+                <li className="star-ratings start-ratings-full">
+                    <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
+                </li>
+                <li className="star-ratings start-ratings-full">
+                    <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
+                </li>
+                <li className="star-ratings start-ratings-half">
+                    <span className="icon" dangerouslySetInnerHTML={{ __html: starhalfImage }} />
+                </li>
+                <li className="star-ratings star-rating-empty">
+                    <span className="icon" dangerouslySetInnerHTML={{ __html: starImage }} />
+                </li>
+                <li className="star-ratings">
+                    <a href="javascript:void();" className="rating-count">(99,999)</a>
+                </li>
+            </ul>
+            </div>
+        </div>
+      
+        <div className="rowChild">
+            <div className="colHeader std-txt std-txt-S">Depth (in.)</div>
+            <div className="colChild std-txt std-txt-S">34 1/4 Inch</div>
+            <div className="colChild std-txt std-txt-S">36 1/4 Inch</div>
+            <div className="colChild std-txt std-txt-S">34 1/4 Inch</div>
+            <div className="colChild std-txt std-txt-S">34 1/4 Inch</div>
+        </div>
+        <div className="rowChild">
+            <div className="colHeader std-txt std-txt-S">Height (in.)</div>
+            <div className="colChild std-txt std-txt-S">68 3/8 inch</div>
+            <div className="colChild std-txt std-txt-S">68 3/8 inch</div>
+            <div className="colChild std-txt std-txt-S">68 3/8 inch</div>
+            <div className="colChild std-txt std-txt-S">68 3/8 inch</div>
+        </div>
+        <div className="rowChild">
+            <div className="colHeader std-txt std-txt-S">Width (in.)</div>
+            <div className="colChild std-txt std-txt-S">35 3/4 inch</div>
+            <div className="colChild std-txt std-txt-S">35 3/4 inch</div>
+            <div className="colChild std-txt std-txt-S">35 3/4 inch</div>
+            <div className="colChild std-txt std-txt-S">35 3/4 inch</div>
+        </div>
+    </div>
+</section>
+ 
     <div className="row">
         <div className="sm12 columns">
             <hr />

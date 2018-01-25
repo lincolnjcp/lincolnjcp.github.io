@@ -49,7 +49,15 @@ table {
             color: var(--color-white);
         }
     }
-
+    & .activity-icon {
+        display: inline !important;
+        & svg{
+        width: 20px;
+        height: 20px;
+        vertical-align: text-bottom;
+        }
+    
+    }
     &.table-striped-columns {
         & tr:nth-child(1) {
             & td,
@@ -77,6 +85,24 @@ table {
                 border-bottom: 1px solid var(--color-concrete);
             }
         }
+        &.activity-table-striped-columns{
+         & span{
+             display:block;
+            } 
+              
+        & .table-icon-content{
+            display: inline;
+        }
+        & .bg-color-white{
+            background-color:var(--color-white);
+           }
+        & .table-points{
+            background-color: var(--color-lightgrey);
+            color: var(--color-slate);
+            font-weight: 700;
+            text-align: center;
+           }
+        }
     }
 
     &.table-borders {
@@ -91,4 +117,72 @@ table {
             }
         }
     }
+    
 }
+
+.prodCompareContainer{
+    margin: 2%;
+    overflow: auto;
+
+& .prodCompare {
+      width: 150%;
+      display:table;
+      font-size: 14px;
+      margin-top: 26px;
+      font-family: OpenSans, Arial, Helvetica, sans-serif;
+
+& .rowChild {
+      border: 1px solid var(--color-concrete);
+      display:table-row;
+}
+
+}
+
+& .noBorderBottom {
+      border-bottom: none;
+
+& .colChild {
+      border-bottom: none;
+  }
+    
+}
+
+& .colHeader {
+      border-right: 1px solid var(--color-concrete);
+      border-bottom: 1px solid var(--color-concrete);
+      background: var(--color-lightgrey);
+      display: table-cell;
+      width:9%;
+      text-align: left;
+      font-weight: bold;
+      padding: 18px 12px;
+      vertical-align: middle;
+}
+& .noBackground {
+    background: none;
+}
+& .colChild {
+      border-right: 1px solid var(--color-concrete);
+      display: table-cell;
+      width:9%;
+      padding: 12px;
+      text-align: left;
+      border-bottom: 1px solid var(--color-concrete);
+      vertical-align: middle;
+
+& img {
+      width: 128px;
+      display: block;
+      margin:0 auto;
+  }
+& .prodName {
+      display: block;
+      margin-top: 16px;
+  }
+}
+}
+
+    & .lastCell {
+        border-right: none;
+    }
+
