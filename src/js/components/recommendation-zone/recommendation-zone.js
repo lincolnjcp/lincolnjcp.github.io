@@ -244,11 +244,11 @@ class RecommendationZone extends Component {
               <h2><strong>Rec Row</strong></h2>
               <hr />
               <div className="product-card-wrapper product-card-wrapper-recommendations" ref={(wrapper) => { this.wrapper = wrapper }} style={listStyle}>
+                <div className="chevron-wrapper hide-for-small-only hide-for-medium-only">
+                  <a style={{ visibility: disableLeftArrow ? 'hidden' : 'visible' }} href="javascript:void(0);" onClick={() => this.scrollCartridge(false)} className="rec-zone-chevron-left icon chevron-icon" dangerouslySetInnerHTML={{ __html: ChevronLeftImage }}></a>
+                  <a style={{ visibility: disableRightArrow ? 'hidden' : 'visible' }} href="javascript:void(0);" onClick={() => this.scrollCartridge(true)} className="rec-zone-chevron-right icon chevron-icon" dangerouslySetInnerHTML={{ __html: ChevronRightImage }}></a>
+                </div>
                 <div className="product-card-block">
-                  <div className="chevron-wrapper hide-for-small-only hide-for-medium-only">
-                    <a style={{ visibility: disableLeftArrow ? 'hidden' : 'visible' }} href="javascript:void(0);" onClick={() => this.scrollCartridge(false)} className="rec-zone-chevron-left icon chevron-icon" dangerouslySetInnerHTML={{ __html: ChevronLeftImage }}></a>
-                    <a style={{ visibility: disableRightArrow ? 'hidden' : 'visible' }} href="javascript:void(0);" onClick={() => this.scrollCartridge(true)} className="rec-zone-chevron-right icon chevron-icon" dangerouslySetInnerHTML={{ __html: ChevronRightImage }}></a>
-                  </div>
                   <ul style={listStyle}>
                     {this.productCardRecommendations({
                       name: "Lorem Ipsum Dolor Sec Mud Deler LoreM Dol…",

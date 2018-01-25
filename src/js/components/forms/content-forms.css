@@ -30,9 +30,6 @@
     & .disabled-label::after {
       height: 10px;
     }
-    & .creditcard {
-      margin-left: 42px;
-    }
     & .creditcard-text {
       padding-left: 52px;
     }
@@ -149,7 +146,6 @@
     & .form-float-label {
       & span {
         background: var(--color-white);
-        display: block;
         padding: 0 3px;
         top: -1.2em;
       }
@@ -373,4 +369,10 @@
   & .input-text:not(:valid) ~ .search-close-icon {
     display: none;
   }
+}
+.credit-card-icon {
+  display: none;
+}
+.creditcard-text:focus + label + .credit-card-icon { 
+  display: block; 
 }

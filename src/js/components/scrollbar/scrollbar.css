@@ -40,5 +40,26 @@
             background: var(--color-slate);
           }
         }
+        
+    }
+
+    & .custom-scroll {
+        &::-moz-scrollbar-track {
+          width: 2px;
+          background: var(--color-rewards-platinum-3);
+        }
+        &::-moz-scrollbar {
+          width: 8px;
+          background: var(--color-rewards-platinum-3);
+          border-radius: 10px;
+        }
+        &::-moz-scrollbar-thumb {
+          border-radius: 10px;
+          -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+          background: var(--color-concrete);
+          &:hover {
+            background: var(--color-slate);
+          }
+        }
     }
 }

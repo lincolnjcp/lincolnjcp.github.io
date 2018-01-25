@@ -106,7 +106,7 @@ class Modal extends Component {
               <button className="modal-close"></button>
               <div className="scroll-block custom-scroll">
                 <h2 className="title title-L test mrg-XS">10 Year Mattress Encasement Plan Twin</h2>
-              <img src="/images/global/Marketing Content.png" alt="Marketing Content" />
+              <img src="https://www.jcpenney.com/dotcom/images/Levis_MENS_BT_DIV2_SIZECHART_OCT2016%20(002).jpg" alt="Marketing Content" />
               </div>
               <div className="scroll-block-fade"></div>
           </div> 

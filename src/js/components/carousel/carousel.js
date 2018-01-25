@@ -112,31 +112,34 @@ componentDidMount() {
 
     var pdpPrimaryCarouselNavSettings = {
 
-      dots: false,
       infinite: false,
-      speed: 500,
       slidesToShow: 4,
-      slidesToScroll: 1,
+      slidesToScroll: 4,
       vertical: true,
-      focusOnSelect: true,
+      arrows: true,
       nextArrow: <CarouselDownButton />,
       prevArrow: <CarouselUpButton />,
-      beforeChange: function(currentSlide, nextSlide) {
-        that.refs.navSlider.setState({ currentSlide: nextSlide });
+      centerMode: false,
+      useCSS: true,
+      speed: 500,
+      nextArrow: <CarouselDownButton />,
+      prevArrow: <CarouselUpButton />,
+      // beforeChange: function(currentSlide, nextSlide) {
+      //   that.refs.navSlider.setState({ currentSlide: nextSlide });
 
-        if(that.refs.mainSlider.state.currentSlide !== nextSlide) {
-            that.refs.mainSlider.setState({ currentSlide: nextSlide });
-            that.refs.mainSlider.slickGoTo(nextSlide);
-        }
+      //   if(that.refs.mainSlider.state.currentSlide !== nextSlide) {
+      //       that.refs.mainSlider.setState({ currentSlide: nextSlide });
+      //       that.refs.mainSlider.slickGoTo(nextSlide);
+      //   }
 
-        var slickCurrentPrevious = ReactDOM.findDOMNode(that.refs.navSlider).querySelectorAll('[data-index="'+currentSlide+'"]');
-        slickCurrentPrevious[0].classList.remove("slick-current");
+      //   var slickCurrentPrevious = ReactDOM.findDOMNode(that.refs.navSlider).querySelectorAll('[data-index="'+currentSlide+'"]');
+      //   slickCurrentPrevious[0].classList.remove("slick-current");
         
-      },
-      afterChange: function(index) {
-        var slickCurrentNext = ReactDOM.findDOMNode(that.refs.navSlider).querySelectorAll('[data-index="'+index+'"]');
-        slickCurrentNext[0].classList.add("slick-current");
-      },
+      // },
+      // afterChange: function(index) {
+      //   var slickCurrentNext = ReactDOM.findDOMNode(that.refs.navSlider).querySelectorAll('[data-index="'+index+'"]');
+      //   slickCurrentNext[0].classList.add("slick-current");
+      // },
       responsive: [ 
         { 
             breakpoint: 1440, 
@@ -243,7 +246,6 @@ componentDidMount() {
                 <Slider ref='mainSlider' {...pdpPrimaryCarouselSettings}>
               
                   <div>
-                    <CarouselImage imgSrc="https://s7d9.scene7.com/is/image/JCPenney/DP0726201617201191M?hei=500&amp;wid=500&op_usm=.4,.8,0,0&resmode=sharp2" navClass="carousel-dot-image" />
                   </div>
                   <div>
                     <CarouselImage imgSrc="https://s7d9.scene7.com/is/image/JCPenney/DP0913201618055525M?hei=500&amp;wid=500&op_usm=.4,.8,0,0&resmode=sharp2" navClass="carousel-dot-image" />

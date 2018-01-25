@@ -157,6 +157,10 @@
   position: relative;
 }
 
+.hide {
+  display: none;
+}
+
 /* 
  @media(max-width: $grid-breakpoint-L){
    .mrg-zero{

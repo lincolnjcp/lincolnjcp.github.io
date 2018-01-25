@@ -43,6 +43,10 @@
       display: block;
       max-height: 160px;
       overflow: auto;
+      width: 105%;
+      & p {
+        margin-right: 14px;
+      }
     }
     & .tooltip-title{
       font-weight: bold;
