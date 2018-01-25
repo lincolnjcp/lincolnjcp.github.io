@@ -7,7 +7,9 @@
     background: #000;
 }
 
-
+/* .slick-list {
+	height: auto !important;
+} */
 /* Arrows */
 /*.slick-prev,
 .slick-next
@@ -271,6 +273,10 @@
 			}
 			&:hover {
 				opacity: .5;
+				transition: opacity .3s ease-out;
+				-moz-transition: opacity .3s ease-out;
+				-webkit-transition: opacity .3s ease-out;
+				-o-transition: opacity .3s ease-out;
 			}
 			
 		}

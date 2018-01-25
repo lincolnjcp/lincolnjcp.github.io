@@ -322,7 +322,7 @@ componentDidMount() {
                     Low Stock
                 </div>
             </div>
-            <div className="carousel-nav">
+            <div className="carousel-nav hide-for-small-only">
 
                 <Slider ref='secondaryNavSlider' {...pdpSecondaryCarouselNavSettings}>
               
