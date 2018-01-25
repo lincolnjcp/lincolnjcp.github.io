@@ -289,6 +289,12 @@
 			padding: 2px;
 		}
 
+		& .slick-list {
+			width: 80px;
+			height: 85px;
+			overflow: auto;
+		}
+
 		& .slick-arrow {
 			padding: 0;
 			left: auto;
