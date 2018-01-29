@@ -123,7 +123,7 @@ class Carousel extends Component {
       focusOnSelect: true,
       arrows: false,
       variableWidth: true,
-      beforeChange: function (currentSlide, nextSlide) {
+      beforeChange: function(currentSlide, nextSlide) {
         that.refs.mainSlider.setState({ currentSlide: nextSlide });
 
         if (
@@ -139,7 +139,7 @@ class Carousel extends Component {
         ).querySelectorAll('[data-index="' + currentSlide + '"]');
         slickCurrentPrevious[0].classList.remove("slick-current");
       },
-      afterChange: function (index) {
+      afterChange: function(index) {
         var slickCurrentNext = ReactDOM.findDOMNode(
           that.refs.mainSlider,
         ).querySelectorAll('[data-index="' + index + '"]');
@@ -173,6 +173,26 @@ class Carousel extends Component {
       ],
     };
 
+    var pdpPrimaryMobileCarouselNavSettings = {
+      infinite: false,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      vertical: false,
+      arrows: true,
+      // nextArrow: <CarouselDownButton />,
+      // prevArrow: <CarouselUpButton />,
+      centerMode: false,
+      useCSS: true,
+      responsive: [
+        {
+          breakpoint: 1440,
+          settings: {
+            dots: true,
+          },
+        },
+      ],
+    };
+
     var pdpSecondaryCarouselSettings = {
       dots: false,
       infinite: false,
@@ -183,7 +203,7 @@ class Carousel extends Component {
       focusOnSelect: true,
       arrows: true,
       variableWidth: true,
-      beforeChange: function (currentSlide, nextSlide) {
+      beforeChange: function(currentSlide, nextSlide) {
         that.refs.secondarySlider.setState({ currentSlide: nextSlide });
 
         if (
@@ -199,7 +219,7 @@ class Carousel extends Component {
         ).querySelectorAll('[data-index="' + currentSlide + '"]');
         slickCurrentPrevious[0].classList.remove("slick-current");
       },
-      afterChange: function (index) {
+      afterChange: function(index) {
         var slickCurrentNext = ReactDOM.findDOMNode(
           that.refs.secondarySlider,
         ).querySelectorAll('[data-index="' + index + '"]');
@@ -267,9 +287,9 @@ class Carousel extends Component {
             <h1 className="title title-XL mrg-L">Carousels</h1>
             <h2 className="std-txt std-txt-XL mrg-L max-width-text">
               Nulla vitae elit libero, a pharetra augue nullam quis risus eget
- urna mollis ornare vel eu leo. Lorem ipsum dolor sit amet,
- consectetur adipiscing elit.
- </h2>
+              urna mollis ornare vel eu leo. Lorem ipsum dolor sit amet,
+              consectetur adipiscing elit.
+            </h2>
           </div>
         </div>
 
@@ -277,7 +297,7 @@ class Carousel extends Component {
           <div className="md12 lg12 sm12 column mrg-XL">
             <h2 className="title title-L mrg-M">
               PDP Carousels & Video Player
- </h2>
+            </h2>
 
             <div className="carousel-container carousel-container-vertical mrg-L hide-for-medium-only hide-for-small-only">
               <div className="carousel-main-img">
@@ -364,7 +384,27 @@ class Carousel extends Component {
             </div>
 
             <div className="carousel-container carousel-container-horizontal mrg-L show-for-medium-only show-for-small-only">
-                  For mobile and tablet only
+              <Slider ref="navSlider" {...pdpPrimaryMobileCarouselNavSettings}>
+                {PrimaryImgUrls.map((url, index) => {
+                  return (
+                    <div
+                      onClick={() => {
+                        this.setState({
+                          currentSlideIndex: index,
+                          selectedImage: url,
+                        });
+                      }}
+                    >
+                      <CarouselNavImage
+                        imgSrc={url}
+                        navClass="carousel-dot-image"
+                        index={index}
+                        selectedIndex={this.state.currentSlideIndex}
+                      />
+                    </div>
+                  );
+                })}
+              </Slider>
             </div>
           </div>
         </div>
@@ -375,24 +415,24 @@ class Carousel extends Component {
             <h3 className="title title-L mrg-L">Content Guidelines</h3>
             <p className="mrg-L">
               Cras mattis consectetur purus sit amet fermentum. Fusce dapibus,
- tellus ac cursus commodo, tortor mauris condimentum nibh, ut
- fermentum massa justo sit amet risus. Cras justo odio, dapibus ac
- facilisis in, egestas eget quam.
- </p>
+              tellus ac cursus commodo, tortor mauris condimentum nibh, ut
+              fermentum massa justo sit amet risus. Cras justo odio, dapibus ac
+              facilisis in, egestas eget quam.
+            </p>
 
             <h4 className="title title-M mrg-L">
               How to write effective alerts:
- </h4>
+            </h4>
             <ul className="list max-width-text color-slate">
               <li>Aenean lacinia bibendum nulla sed consectetur</li>
               <li>
                 Integer posuere erat a ante venenatis dapibus posuere velit
- aliquet
- </li>
+                aliquet
+              </li>
               <li>
                 Etiam porta sem malesuada magna mollis euismod. Lorem ipsum
- dolor sit amet, consec
- </li>
+                dolor sit amet, consec
+              </li>
             </ul>
           </div>
         </div>
@@ -403,7 +443,7 @@ class Carousel extends Component {
               Created by: <strong>Tony Stark</strong> and{" "}
               <strong>Bruce Banner</strong>
               <br /> Latest update: 04/05/2017
- </p>
+            </p>
           </div>
         </div>
       </div>
