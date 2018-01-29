@@ -15,6 +15,7 @@ const gridfillImage = require('!!raw-loader?es5=1!../../../images/global/icons/a
 const listLineImage = require('!!raw-loader?es5=1!../../../images/global/icons/action/list-line.svg');
 const listLineImageFill = require('!!raw-loader?es5=1!../../../images/global/icons/action/list-fill.svg');
 
+
 class Buttons extends Component {
     componentDidMount() {
         $(".icon-hover").hover(function () {
@@ -49,6 +50,15 @@ class Buttons extends Component {
           $('.show').on('click', function (e) {
             $('.show').toggleClass("less");
           });
+          $('.dropdown-button').on('click', function () {
+            
+            var parent_box = $(this).closest('.dropdown-menu-block');
+            parent_box.siblings().find('.dropdown-menu').hide();
+            parent_box.find('.dropdown-menu').slideToggle(200 ,"swing");
+            
+            $(this).toggleClass("arrow-down"); 
+            return false;
+        });
     }
 
     render() {
@@ -219,7 +229,7 @@ class Buttons extends Component {
                         <div className="row">
                             <div className="sm12 md5 lg4 columns">
                                 <div className="button-preview algn-mid mrg-XL">
-                                    <a href="javascript:void();" className="btn btn-primary btn-L mrg-M btn-icon"><span className="icon color-white-svg" dangerouslySetInnerHTML={{ __html: lockImage }} /> Checkout</a>
+                                    <a href="javascript:void();" className="btn btn-primary btn-L mrg-M btn-icon "><span className="icon color-white-svg lock-icon" dangerouslySetInnerHTML={{ __html: lockImage }} /> Checkout</a>
                                 </div>
 
                             </div>
@@ -235,7 +245,7 @@ class Buttons extends Component {
                                 </div>
 
                                 <div className="button-preview algn-mid">
-                                    <a href="javascript:void();" className="btn btn-secondary btn-L mrg-M btn-icon btn-icon-slide"><span className="icon" dangerouslySetInnerHTML={{ __html: cartImage }} /> <span className="btn-label">Add to Cart</span></a>
+                                    <a href="javascript:void();" className="btn btn-secondary btn-L mrg-M btn-icon btn-icon-slide"><span className="icon color-penneyred-svg" dangerouslySetInnerHTML={{ __html: cartImage }} /> <span className="btn-label">Add to Cart</span></a>
                                 </div>
                             </div>
                             <div className="sm12 md7 lg8 columns">
@@ -268,6 +278,56 @@ class Buttons extends Component {
                         </div>
                     </div>
                 </div><br /><br /><br />
+
+
+                <div className="dropdown-menu-block column md4 sm12 lg4">
+                        <div className="pos-rel fl-left">
+                            <a className="dropdown-button title-S">Product Type <span className="arrow"></span></a>
+                            <div className="dropdown-menu">
+                                <div className="tooltip tooltip-top-left">
+                                    <span>
+                                        <ul className="dropdown-sort">
+                                            <li className="dropdown-list">
+                                                <a href="javascript:void(0)" className="sort-list">Featured</a>
+                                            </li>
+                                            <li className="dropdown-list">
+                                                <a href="javascript:void(0)" className="sort-list">Best Sellers</a>
+                                            </li>
+                                            <li className="dropdown-list">
+                                                <a href="javascript:void(0)" className="sort-list">New Arrivals</a>
+                                            </li>
+                                            <li className="dropdown-list">
+                                                <a href="javascript:void(0)" className="sort-list">Price High to Low</a>
+                                            </li>
+                                        </ul>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br /><br /><br />
+                    <div class="main-menu-bar-secondary-container lg4">
+                        <div className="main-menu-secondary-left">
+                                    <div className="bg-color-penneyred"></div>
+
+                                    <ul className="main-menu-secondary button-main-menu">
+                                        <li className="main-menu-secondary-li main-menu-secondary-li-primary title title-S">Gifts</li>
+                                        <li className="main-menu-secondary-li main-menu-secondary-li-primary title title-S">My List</li>
+                                        <li className="main-menu-secondary-li main-menu-secondary-li-primary title title-S">Coupons</li>
+                                    </ul>
+                            </div>
+                        
+                    </div>
+                    <br /><br /><br />
+                    <div className="cart-icon lg4">
+                    <ul>
+                        <li className="main-menu-primary-item main-menu-primary-cart"> <a href="javascript:void(0);" className="main-menu-primary-cart-icon-full"> <span className="main-menu-primary-cart-icon-full-items ">28</span>
+                        <div className="main-menu-primary-cart-icon-full-icon icon color-white-svg" dangerouslySetInnerHTML={{__html: cartImage}} />
+                        </a> </li>
+                    </ul>
+                    </div>
+                    <br /><br /><br />
+
 
                 <div className="md12 lg12 sm12 column mrg-XL">
                     <h2 className="title title-L mrg-M">Switch</h2>

@@ -1332,6 +1332,9 @@ Base Styles
         border-top: 1px solid var(--color-concrete);
         border-bottom: 1px solid var(--color-concrete);
         padding: 15px;
+      & .btn-primary{
+        padding: 0 34px;
+      }
     }
     & .code-generator-code-preview {
         padding: 15px;
