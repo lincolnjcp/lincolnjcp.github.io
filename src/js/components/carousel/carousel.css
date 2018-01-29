@@ -220,7 +220,7 @@
 		& .slide-inner {
 			border: 2px solid var(--color-white);
 		}
-		& .slick-current .slide-inner {
+		& .slick-current {
 			border: 2px solid var(--color-nightsky);
 			padding: 2px;
 		}
@@ -284,7 +284,7 @@
 		& .slick-current:hover {
 			opacity: 1;
 		}
-		& .slick-current .slide-inner {
+		& .slick-current {
 			border: 2px solid var(--color-nightsky);
 			padding: 2px;
 		}
