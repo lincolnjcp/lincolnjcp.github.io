@@ -88,9 +88,11 @@ class Carousel extends Component {
     super();
     this.state = {
       currentSlideIndex: 0,
+      secondarySlideIndex: 0,
       selectedImage:
         "https://s7d9.scene7.com/is/image/JCPenney/DP0726201617201191M?hei=500&amp;wid=500&op_usm=.4,.8,0,0&resmode=sharp2",
-      secondarySelectedImage: "https://s7d9.scene7.com/is/image/JCPenney/DP0726201617201191M?hei=500&amp;wid=500&op_usm=.4,.8,0,0&resmode=sharp2",
+      secondarySelectedImage:
+        "https://s7d9.scene7.com/is/image/JCPenney/DP0726201617201191M?hei=500&amp;wid=500&op_usm=.4,.8,0,0&resmode=sharp2",
     };
   }
 
@@ -216,30 +218,11 @@ class Carousel extends Component {
       infinite: false,
       speed: 500,
       slidesToShow: 4,
-      slidesToScroll: 1,
-      focusOnSelect: true,
+      slidesToScroll: 4,
+      // focusOnSelect: true,
       centerMode: false,
       nextArrow: <CarouselRightButton />,
       prevArrow: <CarouselLeftButton />,
-      beforeChange: function (currentSlide, nextSlide) {
-        that.refs.secondaryNavSlider.setState({ currentSlide: nextSlide });
-
-        if (that.refs.secondarySlider.state.currentSlide !== nextSlide) {
-          that.refs.secondarySlider.setState({ currentSlide: nextSlide });
-          that.refs.secondarySlider.slickGoTo(nextSlide);
-        }
-
-        var slickCurrentPrevious = ReactDOM.findDOMNode(
-          that.refs.secondaryNavSlider,
-        ).querySelectorAll('[data-index="' + currentSlide + '"]');
-        slickCurrentPrevious[0].classList.remove("slick-current");
-      },
-      afterChange: function (index) {
-        var slickCurrentNext = ReactDOM.findDOMNode(
-          that.refs.secondaryNavSlider,
-        ).querySelectorAll('[data-index="' + index + '"]');
-        slickCurrentNext[0].classList.add("slick-current");
-      },
       responsive: [
         {
           breakpoint: 1440,
@@ -275,8 +258,7 @@ class Carousel extends Component {
       "https://s7d9.scene7.com/is/image/JCPenney/DP0607201617024741M?hei=500&amp;wid=500&op_usm=.4,.8,0,0&resmode=sharp2",
       "https://s7d9.scene7.com/is/image/JCPenney/DP0615201717271938M?hei=500&amp;wid=500&op_usm=.4,.8,0,0&resmode=sharp2",
       "https://s7d9.scene7.com/is/image/JCPenney/DP0913201618055525M?hei=500&amp;wid=500&op_usm=.4,.8,0,0&resmode=sharp2",
-
-    ]
+    ];
 
     return (
       <div>
@@ -285,9 +267,9 @@ class Carousel extends Component {
             <h1 className="title title-XL mrg-L">Carousels</h1>
             <h2 className="std-txt std-txt-XL mrg-L max-width-text">
               Nulla vitae elit libero, a pharetra augue nullam quis risus eget
-              urna mollis ornare vel eu leo. Lorem ipsum dolor sit amet,
-              consectetur adipiscing elit.
-            </h2>
+ urna mollis ornare vel eu leo. Lorem ipsum dolor sit amet,
+ consectetur adipiscing elit.
+ </h2>
           </div>
         </div>
 
@@ -295,9 +277,9 @@ class Carousel extends Component {
           <div className="md12 lg12 sm12 column mrg-XL">
             <h2 className="title title-L mrg-M">
               PDP Carousels & Video Player
-            </h2>
+ </h2>
 
-            <div className="carousel-container carousel-container-vertical mrg-L">
+            <div className="carousel-container carousel-container-vertical mrg-L hide-for-medium-only hide-for-small-only">
               <div className="carousel-main-img">
                 <Slider ref="mainSlider" {...pdpPrimaryCarouselSettings}>
                   {/* first carousel main image */}
@@ -340,39 +322,15 @@ class Carousel extends Component {
 
             <hr />
 
-            <div className="carousel-container carousel-container-horizontal mrg-L">
+            <div className="carousel-container carousel-container-horizontal mrg-L hide-for-medium-only hide-for-small-only">
               <div className="carousel-main-img">
                 <Slider ref="secondarySlider" {...pdpSecondaryCarouselSettings}>
                   <div>
                     <CarouselImage
-                      imgSrc="https://s7d9.scene7.com/is/image/JCPenney/DP0726201617201191M?hei=500&amp;wid=500&op_usm=.4,.8,0,0&resmode=sharp2"
-                      navClass="carousel-dot-image"
-                    />
-                  </div>
-                  <div>
-                    <CarouselImage
-                      imgSrc="https://s7d9.scene7.com/is/image/JCPenney/DP0913201618055525M?hei=500&amp;wid=500&op_usm=.4,.8,0,0&resmode=sharp2"
-                      navClass="carousel-dot-image"
-                    />
-                  </div>
-                  <div>
-                    <CarouselImage
-                      imgSrc="https://s7d9.scene7.com/is/image/JCPenney/DP0607201617024741M?hei=500&amp;wid=500&op_usm=.4,.8,0,0&resmode=sharp2"
-                      navClass="carousel-dot-image"
-                    />
-                  </div>
-                  <div>
-                    <CarouselImage
-                      imgSrc="https://s7d9.scene7.com/is/image/JCPenney/DP0615201717271938M?hei=500&amp;wid=500&op_usm=.4,.8,0,0&resmode=sharp2"
-                      navClass="carousel-dot-image"
-                    />
-                  </div>
-                  {/* <div>
-                    <CarouselImage
-                      imgSrc={this.state.selectedImage}
+                      imgSrc={this.state.secondarySelectedImage}
                       navClass="carousel-dot-video"
                     />
-                  </div> */}
+                  </div>
                 </Slider>
 
                 <div class="flag flag-info std-txt std-txt-XS">Low Stock</div>
@@ -382,38 +340,31 @@ class Carousel extends Component {
                   ref="secondaryNavSlider"
                   {...pdpSecondaryCarouselNavSettings}
                 >
-                  <div>
-                    <CarouselNavImage
-                      imgSrc="https://s7d9.scene7.com/is/image/JCPenney/DP0726201617201191M?hei=500&amp;wid=500&op_usm=.4,.8,0,0&resmode=sharp2"
-                      navClass="carousel-dot-image"
-                    />
-                  </div>
-                  <div>
-                    <CarouselNavImage
-                      imgSrc="https://s7d9.scene7.com/is/image/JCPenney/DP0913201618055525M.tif?$gallery$"
-                      navClass="carousel-dot-image"
-                    />
-                  </div>
-                  <div>
-                    <CarouselNavImage
-                      imgSrc="https://s7d9.scene7.com/is/image/JCPenney/DP0607201617024741M.tif?$gallery$"
-                      navClass="carousel-dot-image"
-                    />
-                  </div>
-                  <div>
-                    <CarouselNavImage
-                      imgSrc="https://s7d9.scene7.com/is/image/JCPenney/DP0615201717271938M.tif?$gallery$"
-                      navClass="carousel-dot-image"
-                    />
-                  </div>
-                  <div>
-                    <CarouselNavImage
-                      imgSrc="https://s7d9.scene7.com/is/image/JCPenney/DP0913201618055525M.tif?$gallery$"
-                      navClass="carousel-dot-video"
-                    />
-                  </div>
+                  {secondarySlideImageUrls.map((url, index) => {
+                    return (
+                      <div
+                        onClick={() => {
+                          this.setState({
+                            secondarySlideIndex: index,
+                            secondarySelectedImage: url,
+                          });
+                        }}
+                      >
+                        <CarouselNavImage
+                          imgSrc={url}
+                          navClass="carousel-dot-image"
+                          index={index}
+                          selectedIndex={this.state.secondarySlideIndex}
+                        />
+                      </div>
+                    );
+                  })}
                 </Slider>
               </div>
+            </div>
+
+            <div className="carousel-container carousel-container-horizontal mrg-L show-for-medium-only show-for-small-only">
+                  For mobile and tablet only
             </div>
           </div>
         </div>
@@ -424,24 +375,24 @@ class Carousel extends Component {
             <h3 className="title title-L mrg-L">Content Guidelines</h3>
             <p className="mrg-L">
               Cras mattis consectetur purus sit amet fermentum. Fusce dapibus,
-              tellus ac cursus commodo, tortor mauris condimentum nibh, ut
-              fermentum massa justo sit amet risus. Cras justo odio, dapibus ac
-              facilisis in, egestas eget quam.
-            </p>
+ tellus ac cursus commodo, tortor mauris condimentum nibh, ut
+ fermentum massa justo sit amet risus. Cras justo odio, dapibus ac
+ facilisis in, egestas eget quam.
+ </p>
 
             <h4 className="title title-M mrg-L">
               How to write effective alerts:
-            </h4>
+ </h4>
             <ul className="list max-width-text color-slate">
               <li>Aenean lacinia bibendum nulla sed consectetur</li>
               <li>
                 Integer posuere erat a ante venenatis dapibus posuere velit
-                aliquet
-              </li>
+ aliquet
+ </li>
               <li>
                 Etiam porta sem malesuada magna mollis euismod. Lorem ipsum
-                dolor sit amet, consec
-              </li>
+ dolor sit amet, consec
+ </li>
             </ul>
           </div>
         </div>
@@ -452,7 +403,7 @@ class Carousel extends Component {
               Created by: <strong>Tony Stark</strong> and{" "}
               <strong>Bruce Banner</strong>
               <br /> Latest update: 04/05/2017
-            </p>
+ </p>
           </div>
         </div>
       </div>
