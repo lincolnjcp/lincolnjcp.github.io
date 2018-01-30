@@ -14,7 +14,6 @@ class Coupons extends Component {
           <div className="coupon-block flex-grid sm12 md6 lg4 xl3">
             <div className="coupon-list">
               <span className="flag std-txt std-txt-XS flag-urgency mrg-S mrg-rght-S">SALE ENDS IN 2HRS
-                <div>style</div><div>Days</div>
               </span>
               <span className="std-txt std-txt-S mrg-S">Online Only</span>
               <div className="coupon-primary-offer mrg-M">
@@ -97,11 +96,12 @@ class Coupons extends Component {
                 <span className="std-txt std-txt-S">Expires: 11/05/2017</span>
                 <div><span classname="std-txt std-txt-S">Code: </span><span className="std-txt std-txt-S">SHOPNOW4</span></div>
               </div>
-              <a href="javascript:void();" className="btn btn-S btn-primary apply-btn btn-full mrg-S">Apply</a>
               <a href="javascript:void();" className="btn btn-S btn-secondary apply-btn btn-full mrg-S print-barcode">
-                <span className="icon" dangerouslySetInnerHTML={{ __html: barcodeImage }}/>
+                <span className="icon mrg-rght-XS" dangerouslySetInnerHTML={{ __html: barcodeImage }}/>
                   Print Barcode
                 </a>
+              <a href="javascript:void();" className="btn btn-S btn-primary apply-btn btn-full mrg-S">Apply</a>
+             
               <div className="coupon-see-details">
               <a href="javascript:void(0)" className="title-XS">shop home</a>
               <a href="javascript:void(0)" className="title-XS">see details</a>

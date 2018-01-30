@@ -216,7 +216,7 @@
 
 @media (--viewport-lg-only) {
     .product-gallery-block {
-        width: 73% !important;
+       /* width: 73% !important; */
         margin-left: 16px;
         & .product-card-wrapper {
             & .product-card-pane-L {
