@@ -10,16 +10,32 @@
 
     & .tooltip {
         position: absolute;
-        top: 47px;
+        top: 51px;
         right: -3.5px;
         text-align: center;
         display: none;
-        width: auto;
+        max-width: 138px;
+        line-height: 12px;
+        padding: 12px;
+        @media (--viewport-sm-only) {
+            top: 45px;
+            right: -7.5px;
+        }
+        & span {
+            white-space: nowrap;
+            display: inline;
+        }
+        & a {
+            text-decoration: underline;
+            padding-top: 4px;
+            display: block;
+        }
     }
 
     &:hover {
         & .tooltip {
-            display: block;
+            display: inline-block;
+            width: auto;
        }
     }
 
@@ -27,8 +43,12 @@
         height: 26px;
         width: 26px;
         position: absolute;
-        top: 3px;
-        left: 3px;
+        top: 5px;
+        left: 4px;
+        @media (--viewport-sm-only) {
+            top: 4px;
+            left: 3.1px;
+        }
         border-radius: 13px;
         overflow: hidden;
 
@@ -81,25 +101,24 @@
     }
 }
 
-@media (--viewport-md) {
+@media (--viewport-md-only) {
     .like-icon {
-        height: 40px;
-        width: 40px;
+        height: 32px;
+        width: 32px;
         border-radius: 20px;
-        top: 10px;
-        right:10px;
+        top: 0;
+        right:6px;
 
         & .tooltip {
-            top: 47px;
+            top: 52px;
             right: -3.5px;
-
         }
 
         & .heart {
             height: 32px;
             width: 32px;
-            top: 4px;
-            left: 4.5px;
+            top: 5px;
+            left: 4px;
             border-radius: 20px;
 
             & svg {

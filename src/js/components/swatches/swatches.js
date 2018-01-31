@@ -43,7 +43,7 @@ class Swatches extends Component {
                 <span className="std-txt-label">ARIA focus</span>
               </li>
             </ul>
-          </div><br/><br/><br/>
+          </div><br/><br/><br/><br/>
           <div className="md6 lg6 sm12 column">
             <div className="color-swatches-list md12 lg12 sm12">
               <h2 className="title title-L mrg-M">Expand/Collapse</h2>

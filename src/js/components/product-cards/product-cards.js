@@ -837,7 +837,7 @@ class ProductCards extends Component {
             return (
               <div className="product-card-compare">
                 <div className="product-card-compare-inner input-group">
-                  <label className="checkbox mrg-M">
+                  <label className="checkbox">
                       <input type="checkbox" /> <span className="std-txt std-txt-S color-nightsky">Compare</span>
                   </label>
                 </div>

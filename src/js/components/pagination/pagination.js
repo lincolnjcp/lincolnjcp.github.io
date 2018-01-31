@@ -11,7 +11,7 @@ class Pagination extends Component {
     return (
       <div>
         <div className="row">
-          <div className="paginiation-block">
+          <div className="paginiation-block mrg-lft-M">
             <h1 class="title title-XL mrg-L">Pagination</h1>
             <div className="pagination mrg-XXL">
               <p className="std-txt-label">Selected</p>

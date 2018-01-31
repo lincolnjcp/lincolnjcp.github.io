@@ -171,8 +171,8 @@ class RecommendationZone extends Component {
                       <span className="icon" dangerouslySetInnerHTML={{ __html: starImage }} />
                     </li>
                     <li className="star-ratings">
-                      <a href="javascript:void();" className="rating-count">47</a>
-                    </li>
+                                        <a href="javascript:void();" className="rating-count rating-count-underline">99,999</a>
+                   </li>
                   </ul>
                 </div>
               </div>

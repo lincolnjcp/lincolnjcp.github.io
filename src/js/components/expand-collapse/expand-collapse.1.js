@@ -602,7 +602,7 @@ class ExpandCollapse extends Component {
 
                   <dt className="js-accordionTrigger">
                     <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" className="accordion-title accordionTitle title title-M">Reviews
-                    <div className="star-preview-col review-star">
+                    <div className="star-preview-col fl-right">
                        <ul className="star-ratings-S">
                                     <li className="star-ratings start-ratings-full">
                                         <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />

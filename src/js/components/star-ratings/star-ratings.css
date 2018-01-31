@@ -16,6 +16,7 @@
           text-decoration: none;
         }
     }
+    
   }
   & .rating-empty {
     & svg {
@@ -34,6 +35,9 @@
       }
       & a {
         text-decoration: none;
+        &.rating-count-underline{
+          text-decoration: underline;
+        }
       }
     }
   }
@@ -51,3 +55,4 @@
     }
   }
 }
+

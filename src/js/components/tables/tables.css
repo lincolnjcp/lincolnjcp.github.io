@@ -156,7 +156,7 @@ table {
       text-align: left;
       font-weight: bold;
       padding: 18px 12px;
-      vertical-align: middle;
+      vertical-align: top;
 }
 & .noBackground {
     background: none;
@@ -165,15 +165,31 @@ table {
       border-right: 1px solid var(--color-concrete);
       display: table-cell;
       width:9%;
-      padding: 12px;
+      padding:16px;
       text-align: left;
       border-bottom: 1px solid var(--color-concrete);
-      vertical-align: middle;
+      vertical-align: top;
+      position:relative;
 
+& .current-product{
+    margin: 0 -12px;
+    text-align: center;
+    background: var(--color-lightgrey);
+    position: absolute;
+    top: 0;
+    width: 100%;
+    padding: 5px;
+    color: var(--color-slate1);
+    font-weight:500;
+    text-transform: uppercase;
+}
+&:last-child{
+    border-right: 0;
+}
 & img {
       width: 128px;
       display: block;
-      margin:0 auto;
+      margin:20px auto 0;
   }
 & .prodName {
       display: block;
@@ -186,3 +202,15 @@ table {
         border-right: none;
     }
 
+@media (--viewport-sm-only) {
+
+    .prodCompareContainer .prodCompare{
+        width: 230%;
+    }
+}
+@media (--viewport-xl-only) {
+
+    .prodCompareContainer .prodCompare{
+        width: 100%;
+    }
+}
