@@ -19,12 +19,20 @@ class Selectors extends Component {
             <span className="sku-block mrg-rght-S hover">Hover</span>
             <span className="sku-block error mrg-rght-S">L</span>
             <a href="javascript:void(0)" className="oo-label-block">
+            <span className="sku-block selected mrg-rght-S">XS <span className="color-shadow-svg success-checkbox"  dangerouslySetInnerHTML={{ __html: successImage }} />
+            </span>
+            <span className="oo-stock-label">Out of Stock Online</span>
+            </a>
+            <a href="javascript:void(0)" className="oo-label-block">
               <span className="sku-block oo-stock mrg-rght-S">XL</span>
               <span className="oo-stock-label">Out of Stock Online</span>
             </a>
             <a href="javascript:void(0)" className="sku-focus">
               <span className="sku-block normal mrg-rght-S">1X</span>
             </a>
+
+            
+           
           </div>
 
           <div className="std-txt-label mrg-S">Large</div>
@@ -34,8 +42,16 @@ class Selectors extends Component {
             <span className="sku-block sku-block-L hover mrg-rght-S">medium</span>
             <span className="sku-block sku-block-L error mrg-rght-S">large</span>
             <a href="javascript:void(0)" className="oo-label-block">
+            <span className="sku-block sku-block-L selected mrg-rght-S">XS <span className="color-shadow-svg success-checkbox"  dangerouslySetInnerHTML={{ __html: successImage }} />
+            </span>
+            <span className="oo-stock-label">Out of Stock Online</span>
+            </a>
+            <a href="javascript:void(0)" className="oo-label-block">
               <span className="sku-block sku-block-L oo-stock mrg-rght-S">xlarge</span>
               <span className="oo-stock-label">Out of Stock Online</span>
+            </a>
+            <a href="javascript:void(0)" className="sku-focus">
+              <span className="sku-block sku-block-L normal mrg-rght-S">1X</span>
             </a>
           </div>
 
@@ -55,6 +71,13 @@ class Selectors extends Component {
             <a href="javascript:void(0)" className="oo-label-block">
               <span className="sku-block sku-block-L oo-stock mrg-rght-S">
                 <img src="http://placehold.it/100/100" alt="" />
+              </span>
+              <span className="oo-stock-label">Out of Stock Online</span>
+            </a>
+            <a href="javascript:void(0)" className="oo-label-block">
+              <span className="sku-block oo-stock selected sku-block-L mrg-rght-S">
+                <img src="http://placehold.it/100/100" alt="" />
+                <span className="color-shadow-svg success-checkbox"  dangerouslySetInnerHTML={{ __html: successImage }} />
               </span>
               <span className="oo-stock-label">Out of Stock Online</span>
             </a>

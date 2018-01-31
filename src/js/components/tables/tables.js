@@ -359,7 +359,7 @@ class Tables extends Component {
     <div className="prodCompare">
         <div className="rowChild">
             <div className="colHeader std-txt std-txt-S noBackground" />
-            <div className="colChild"><img src="https://s7d9.scene7.com/is/image/JCPenney/DP0120201617040708M" alt=""/><span className="prodName std-txt std-txt-S">25.5 cu. ft. French Door Refrigerator in Stainless Steel</span></div>
+            <div className="colChild"><p class="current-product title title-XS">Current product</p><img src="https://s7d9.scene7.com/is/image/JCPenney/DP0120201617040708M" alt=""/><span className="prodName std-txt std-txt-S">25.5 cu. ft. French Door Refrigerator in Stainless Steel</span></div>
             <div className="colChild"><img src="https://s7d9.scene7.com/is/image/JCPenney/DP0120201617040708M" alt=""/><span className="prodName std-txt std-txt-S">25.5 cu. ft. French Door Refrigerator in Stainless Steel</span></div>
             <div className="colChild"><img src="https://s7d9.scene7.com/is/image/JCPenney/DP0120201617040708M" alt=""/><span className="prodName std-txt std-txt-S">25.5 cu. ft. French Door Refrigerator in Stainless Steel</span></div>
             <div className="colChild"><img src="https://s7d9.scene7.com/is/image/JCPenney/DP0120201617040708M" alt=""/><span className="prodName std-txt std-txt-S">25.5 cu. ft. French Door Refrigerator in Stainless Steel</span></div>
@@ -368,23 +368,23 @@ class Tables extends Component {
             <div className="colHeader std-txt std-txt-S">Price</div>
             <div className="colChild priceCol">
             <p class="title title-XS color-penneyred mrg-XS">CYBER WEEK</p>
-            <div class="price price-M mrg-rght-XS mrg-XS mrg-top-M">$1099 <span class="price price-note-M mrg-lft-XS color-penneyred"> sale </span></div>
-               <div><span class="price price-note-M color-slate font-body">was $2,999  |</span><span class="price price-note-M mrg-lft-XS color-slate font-body">33% off</span></div>
+            <div class="price price-S mrg-rght-XS mrg-XS mrg-top-M">$1099 <span class="price price-note-M mrg-lft-XS color-penneyred"> sale </span></div>
+               <div><span class="price price-note color-slate font-body">was $2,999  |</span><span class="price price-note mrg-lft-XS color-slate font-body">33% off</span></div>
             </div>
             <div className="colChild priceCol">
             <p class="title title-XS color-penneyred mrg-XS">CYBER WEEK</p>
-            <div class="price price-M mrg-rght-XS mrg-XS mrg-top-M">$1099 <span class="price price-note-M mrg-lft-XS color-penneyred"> sale </span></div>
-               <div><span class="price price-note-M color-slate font-body">was $2,999  |</span><span class="price price-note-M mrg-lft-XS color-slate font-body">33% off</span></div>
+            <div class="price price-S mrg-rght-XS mrg-XS mrg-top-M">$1099 <span class="price price-note-M mrg-lft-XS color-penneyred"> sale </span></div>
+               <div><span class="price price-note color-slate font-body">was $2,999  |</span><span class="price price-note mrg-lft-XS color-slate font-body">33% off</span></div>
             </div>
             <div className="colChild priceCol">
             <p class="title title-XS color-penneyred mrg-XS">CYBER WEEK</p>
-            <div class="price price-M mrg-rght-XS mrg-XS mrg-top-M">$1099 <span class="price price-note-M mrg-lft-XS color-penneyred"> sale </span></div>
-               <div><span class="price price-note-M color-slate font-body">was $2,999  |</span><span class="price price-note-M mrg-lft-XS color-slate font-body">33% off</span></div>
+            <div class="price price-S mrg-rght-XS mrg-XS mrg-top-M">$1099 <span class="price price-note-M mrg-lft-XS color-penneyred"> sale </span></div>
+               <div><span class="price price-note color-slate font-body">was $2,999  |</span><span class="price price-note mrg-lft-XS color-slate font-body">33% off</span></div>
             </div>
             <div className="colChild priceCol">
             <p class="title title-XS color-penneyred mrg-XS">CYBER WEEK</p>
-            <div class="price price-M mrg-rght-XS mrg-XS mrg-top-M">$1099 <span class="price price-note-M mrg-lft-XS color-penneyred"> sale </span></div>
-               <div><span class="price price-note-M color-slate font-body">was $2,999  |</span><span class="price price-note-M mrg-lft-XS color-slate font-body">33% off</span></div>
+            <div class="price price-S mrg-rght-XS mrg-XS mrg-top-M">$1099 <span class="price price-note-M mrg-lft-XS color-penneyred"> sale </span></div>
+               <div><span class="price price-note color-slate font-body">was $2,999  |</span><span class="price price-note mrg-lft-XS color-slate font-body">33% off</span></div>
             </div>
         </div>
         <div className="rowChild">

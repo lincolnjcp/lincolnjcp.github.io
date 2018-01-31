@@ -37,7 +37,7 @@
       color: var(--color-slate);
     }
     & .selected {
-      border: 2px solid var(--color-shadow);
+      border: 2px solid var(--color-shadow) !important;
       color: var(--color-nightsky);
       font-weight: bold;
       position: relative;
@@ -81,6 +81,7 @@
       & .price-content{
         line-height: 24px;
         color:var(--color-shadow);
+        font-weight:700;
       }
       & .standart-content{
         display: block;
