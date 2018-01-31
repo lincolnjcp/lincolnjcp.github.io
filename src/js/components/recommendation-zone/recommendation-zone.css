@@ -143,4 +143,23 @@
 	}
 }
 
+.rec-fade-left {
+    position: absolute;
+    left: 0;
+    height: 100px;
+    width: 50px;
+    z-index: 999;
+    border: 1px solid;
+}
+
+.rec-fade-right {
+    position: absolute;
+    right: 0;
+    height: 100px;
+    width: 50px;
+    border: 1px solid;
+    z-index: 999;
+}
+
+
 

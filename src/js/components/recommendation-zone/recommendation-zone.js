@@ -8,6 +8,9 @@ const starhalfImage = require('!!raw-loader?es5=1!../../../images/global/icons/u
 
 const add = (param1, param2) => param1 + param2;
 const subtract = (param1, param2) => param1 - param2;
+let dotsToDisplay = {};
+let isSameStateFirstTime = true;
+let isMobile = false;
 
 const calculateScrollPixel = ({
     productPanesDisplayed,
@@ -62,12 +65,14 @@ class RecommendationZone extends Component {
   constructor() {
     super();
     this.state = {
+
       listStyle: {},
       disableLeftArrow: true,
       disableRightArrow: false,
       productCartridgeList: [],
       cartridgeHeader: '',
       currentDotIndex: 1,
+      dotNodes: '',
     };
     this.scrollStatus = {
       scrollPixels: 0,
@@ -186,6 +191,62 @@ class RecommendationZone extends Component {
     )
   }
 
+  componentWillMount() {
+
+    isMobile = window.innerWidth < 1024;
+  }
+  componentDidMount() {
+    this.listenScrollEvent = this.listenScrollEvent.bind(this);
+  }
+  shouldComponentUpdate(nextProps, nextState) {
+    if (isMobile) {
+      if (this.state.currentDotIndex === nextState.currentDotIndex && isSameStateFirstTime) {
+        isSameStateFirstTime = false;
+        return true;
+      }
+      else if (this.state.currentDotIndex !== nextState.currentDotIndex) {
+        isSameStateFirstTime = true;
+        return true;
+      }
+    } else return true;
+  }
+
+  getDots() {
+    if (!this.wrapper) return;
+    const productCartridgeList = 16;
+    const pane = this.productPane;
+    // const pane = 176;
+    const wrapperWidth = this.wrapper.getBoundingClientRect().width;
+    const productPaneWidth = pane.getBoundingClientRect().width;
+    const { scrollPixels, scrolledPanes } = this.scrollStatus;
+
+    const totalProductPanes = productCartridgeList;
+    const result = (wrapperWidth / productPaneWidth);
+    const productPanesDisplayed = Math.floor(result);
+    const numberOfDots = Math.ceil(totalProductPanes / productPanesDisplayed);
+    
+    const generateDots = () => {
+      const listDots = [];
+      for (let i = 1; i <= numberOfDots; i += 1) {
+        
+        let checkStatus = false;
+        if (this.state.currentDotIndex === i) {
+          checkStatus = true;
+        }
+        listDots.push(<span>
+          <input type="radio" className="bullet" id={"id" + i} name="name" value="" checked={checkStatus} />
+          <label htmlFor={"id" + i}></label>
+        </span>);
+      }
+      dotsToDisplay = listDots.length > 1 ? listDots : [];
+      return dotsToDisplay;
+    };
+    let node = generateDots();
+    this.setState({
+      dotNodes: node,
+    })
+  }
+
   scrollCartridge(scrollToRight) {
     // const { productCartridgeList } = this.state;
     const productCartridgeList = 16;
@@ -229,10 +290,74 @@ class RecommendationZone extends Component {
       },
     });
   };
+
+  delayedExec(after, fn) {
+    /* istanbul ignore next */
+    this.timer && clearTimeout(this.timer);
+    /* istanbul ignore next */
+    this.timer = setTimeout(fn, after);
+  };
+
+  getDotsWithDeley() {
+    let node;
+    this.delayedExec(100, () => {
+      node = this.getDots();
+      return node;
+    })
+  }
+  listenScrollEvent() {
+    /* istanbul ignore next */
+    this.delayedExec(100, () => {
+      this.updateDotsPosition();
+    });
+  }
+
+  updateDotsPosition() {
+    const productCartridgeList = 16;
+    const pane = this.productPane;
+    const wrapperWidth = this.wrapper.getBoundingClientRect().width;
+    const productPaneWidth = pane.getBoundingClientRect().width;
+    const { scrollPixels, scrolledPanes } = this.scrollStatus;
+    // Calculate number of products displayed in the container
+    const totalProductPanes = productCartridgeList;
+    const result = (wrapperWidth / productPaneWidth);
+    const productPanesDisplayed = Math.floor(result);
+    const dots = Math.ceil(totalProductPanes / productPanesDisplayed);
+
+    const elementDOMObj = document.getElementById("product-card-section");
+    /* istanbul ignore next */
+    // const lstStyle = $(".listStyleClass");
+
+    // const elementDOMObj = document.getElementById(this.props.slotId);
+    /* istanbul ignore next */
+    const element = elementDOMObj ? elementDOMObj.querySelector(`.listStyleClass`).parentNode : 0;
+
+
+    // const parentNode = lstStyle[0].parentNode
+    // const element = elementDOMObj ? elementDOMObj.parentNode : 0;
+    const scrollLeft = element.scrollLeft;
+    const maxScrollWidth = (dots - 1) * productPanesDisplayed * productPaneWidth;
+    const minscroll = maxScrollWidth / dots;
+    let currentPaneSlot = Math.ceil(scrollLeft / minscroll);
+    /* istanbul ignore next */
+    if (currentPaneSlot <= 0) {
+      currentPaneSlot = 1;
+    }
+    /* istanbul ignore next */
+    if (currentPaneSlot > dots) {
+      currentPaneSlot = dots;
+    }
+    this.setState({
+      currentDotIndex: currentPaneSlot,
+    });
+  }
+
   render() {
     const { listStyle,
       disableLeftArrow,
       disableRightArrow } = this.state;
+      const mobLeftFade = <div className="rec-fade-left show-for-small-only show-for-medium-only"></div>;
+      const mobRightFade = <div className="rec-fade-right show-for-small-only show-for-medium-only"></div>;
     return (
       <div>
         <div className="row">
@@ -244,12 +369,24 @@ class RecommendationZone extends Component {
               <h2><strong>Rec Row</strong></h2>
               <hr />
               <div className="product-card-wrapper product-card-wrapper-recommendations" ref={(wrapper) => { this.wrapper = wrapper }} style={listStyle}>
-                <div className="chevron-wrapper hide-for-small-only hide-for-medium-only">
-                  <a style={{ visibility: disableLeftArrow ? 'hidden' : 'visible' }} href="javascript:void(0);" onClick={() => this.scrollCartridge(false)} className="rec-zone-chevron-left icon chevron-icon" dangerouslySetInnerHTML={{ __html: ChevronLeftImage }}></a>
-                  <a style={{ visibility: disableRightArrow ? 'hidden' : 'visible' }} href="javascript:void(0);" onClick={() => this.scrollCartridge(true)} className="rec-zone-chevron-right icon chevron-icon" dangerouslySetInnerHTML={{ __html: ChevronRightImage }}></a>
+                <div className="chevron-wrapper">
+                  <a style={{ visibility: disableLeftArrow ? 'hidden' : 'visible' }}
+                    href="javascript:void(0);"
+                    onClick={() => this.scrollCartridge(false)}
+                    className="rec-zone-chevron-left icon chevron-icon hide-for-small-only hide-for-medium-only"
+                    dangerouslySetInnerHTML={{ __html: ChevronLeftImage }}></a>
+                  <a style={{ visibility: disableRightArrow ? 'hidden' : 'visible' }}
+                    href="javascript:void(0);"
+                    onClick={() => this.scrollCartridge(true)}
+                    className="rec-zone-chevron-right icon chevron-icon hide-for-small-only hide-for-medium-only"
+                    dangerouslySetInnerHTML={{ __html: ChevronRightImage }}></a>
+                  
+                  {this.state.currentDotIndex == 1 ? '' : mobLeftFade}
+                  {this.state.currentDotIndex == this.state.dotNodes.length? '' : mobRightFade}
+                  
                 </div>
-                <div className="product-card-block">
-                  <ul style={listStyle}>
+                <div className="product-card-block" id="product-card-section" onScroll={isMobile ? () => this.listenScrollEvent() : ''}>
+                  <ul style={listStyle} className="listStyleClass">
                     {this.productCardRecommendations({
                       name: "Lorem Ipsum Dolor Sec Mud Deler LoreM Dol…",
                       thumb: '/images/design-system/fpo/product-cards/product-card-recommendations-1.jpg',
@@ -411,16 +548,7 @@ class RecommendationZone extends Component {
                   </ul>
                 </div>
                 <div className="rec-zone-carousel show-for-small-only show-for-medium-only">
-                  <input type="radio" className="bullet" id="one" name="name" value="" defaultChecked="true" />
-                  <label htmlFor="one"></label>
-                  <input type="radio" id="two" className="bullet" name="name" value="" />
-                  <label htmlFor="two"></label>
-                  <input type="radio" id="three" className="bullet" name="name" value="" />
-                  <label htmlFor="three"></label>
-                  <input type="radio" id="four" className="bullet" name="name" value="" />
-                  <label htmlFor="four"></label>
-                  <input type="radio" id="five" className="bullet" name="name" value="" />
-                  <label htmlFor="five"></label>
+                  <div>{isMobile ? this.getDotsWithDeley() : ''} {isMobile ? this.state.dotNodes : ''}</div>
                 </div>
               </div>
 
