@@ -438,7 +438,7 @@ class Scrollbar extends Component {
                             <div class="price-badge-topLft"></div>
                             <div class="price-badge-circle"></div>
                             <span class="price-badge-price">Up to $450 in Savings</span>
-                          </div>
+                          </div><br/>
                           <div className="price price-promo-S mrg-XS color-penneyred">BUY 1 GET 1 for Free</div>
                           <div className="price price-XS mrg-rght-XS">$29.99</div>
                         </div>
