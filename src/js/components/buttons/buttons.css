@@ -156,6 +156,7 @@ button{
       display: inline-block;
       backface-visibility: hidden;
       transition: margin .25s ease-in-out, opacity .25s ease-in-out;
+      font-weight: var(--font-weight-normal);
     }
 
     &:hover{

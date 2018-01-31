@@ -79,9 +79,9 @@ class Modal extends Component {
 
           <div className="modal dialog-pop-up">
             <button className="modal-close"></button>
-            <div className="msg msg-neutral mrg-S">
+            {/* <div className="msg msg-neutral mrg-S">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-            </div>
+    </div> */}  
             <h2 className="modal-sub-title">This is a Modal</h2>
             <p className="modal-body">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor

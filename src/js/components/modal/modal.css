@@ -148,6 +148,16 @@
       }
     }
   }
+  &.scroll-container{
+        max-width: 540px;
+        padding: 36px 24px 0px;
+      & .modal-close{
+        width: 16px;
+        height: 16px;
+        right: -6px;
+        top: 10px;
+      }
+  }
 }
 
 .modal-overlay {
