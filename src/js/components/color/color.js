@@ -46,7 +46,7 @@ componentDidMount() {
 
   render() {
     return (
-      
+
 
 <div className="row">
     <div className="sm12 columns">
@@ -77,7 +77,7 @@ componentDidMount() {
             <div className="row">
                 <div className="sm12 md6 columns">
                     <div className="mrg-L">
-                        {this.colorBar("Night Sky", "#111111", "color-nightsky", "size-large", "")} {this.colorBar("Shadow", "#384048", "color-shadow", "", "")} {this.colorBar("Slate", "#6b7883", "color-slate", "", "")} {this.colorBar("Concrete", "#d8d8d8", "color-concrete", "", "#111111")} {this.colorBar("Light Gray", "#f1f1f1", "color-lightgrey", "", "#111111")} {this.colorBar("White", "#FFFFFF", "color-white", "", "#111111")}
+                        {this.colorBar("Night Sky", "#111111", "color-nightsky", "size-large", "")} {this.colorBar("Shadow", "#384048", "color-shadow", "", "")} {this.colorBar("Slate", "#636F79", "color-slate", "", "")} {this.colorBar("Concrete", "#d8d8d8", "color-concrete", "", "#111111")} {this.colorBar("Light Gray", "#f1f1f1", "color-lightgrey", "", "#111111")} {this.colorBar("White", "#FFFFFF", "color-white", "", "#111111")}
                     </div>
                 </div>
                 <div className="sm12 md6 columns">
@@ -301,8 +301,8 @@ componentDidMount() {
     </div>
     </div>
 </div>
-                
-    
+
+
     );
   }
 }
