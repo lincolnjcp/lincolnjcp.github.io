@@ -259,7 +259,7 @@ class Footer extends Component {
                                     <span className="icon" dangerouslySetInnerHTML={{ __html: cardJCPRed }} />
                                 </div>
                                 <div className="card-links">
-                                    <h3>JCPenney Credit Card</h3>
+                                    <h3>JCPenney Credit</h3>
                                     <ul>
                                         <li><a href="javascript:void();">Pay Bill </a></li>
                                         <li><a href="javascript:void();">Check Balance </a></li>
@@ -267,11 +267,15 @@ class Footer extends Component {
                                     </ul>
                                 </div>
                             </div>
-                            <div className="footer-legal-links md12 lg8 xl8 sm12">
-                                <ul>
+                            <div className="footer-legal-links md6 lg4 xl4 sm12 nopad">
+                                <ul className="">
                                     <li><a href="javascript:void();">Legal</a></li>
                                     <li><a href="javascript:void();">Recalls</a></li>
                                     <li><a href="javascript:void();">AdChoices<img src="/images/global/Adchoices.png" alt="Adchoices" /> </a></li>
+                                    </ul>
+                            </div>
+                            <div className="footer-legal-links md6 lg4 xl4 sm12 nopad">
+                                <ul className="">
                                     <li><a href="javascript:void();">CA Privacy Rts</a></li>
                                     <li><a href="javascript:void();">Privacy Policy</a></li>
                                     <li><a href="javascript:void();">CA Supply Chain Act</a></li>
@@ -279,9 +283,39 @@ class Footer extends Component {
                             </div>
                         </div>
                         <div className="footer-copy"> ©JCP Media, Inc. 2017. All Rights Reserved</div>
+
+                        
                     </footer>
 
+                <footer className="footer-block mini-footer-block">
 
+                <div className="contact-list md12 lg12 xl12 sm12">
+                            <ul>
+                                <li>
+                                    <span className="icon" dangerouslySetInnerHTML={{ __html: devicephoneImage }} />
+                                    <a href="javascript:void();">Need Help? Give us a call 1 (800) 322-1189 </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div className="footer-bottom-links md12 lg12 xl12 sm12">
+                            <div className="footer-legal-links md6 lg4 xl4 sm12 nopad">
+                                <ul className="">
+                                    <li><a href="javascript:void();">Legal</a></li>
+                                    <li><a href="javascript:void();">Recalls</a></li>
+                                    <li><a href="javascript:void();">AdChoices<img src="/images/global/Adchoices.png" alt="Adchoices" /> </a></li>
+                                    </ul>
+                            </div>
+                            <div className="footer-legal-links md6 lg4 xl4 sm12 nopad">
+                                <ul className="">
+                                    <li><a href="javascript:void();">CA Privacy Rts</a></li>
+                                    <li><a href="javascript:void();">Privacy Policy</a></li>
+                                    <li><a href="javascript:void();">CA Supply Chain Act</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div className="footer-copy"> ©JCP Media, Inc. 2017. All Rights Reserved</div>
+
+                    </footer>
                 </div>
             </div>
         );
