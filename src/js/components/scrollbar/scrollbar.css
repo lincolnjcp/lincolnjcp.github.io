@@ -17,9 +17,9 @@
         -webkit-overflow-scrolling: touch;
     }
     & .scroll-block-fade {
-        position: absolute;
+        position: relative;
         bottom: 24px;
-        height: 48px;
+        height: 40px;
         width: auto;
         background: linear-gradient(rgba(255,255,255,0), rgba(255,255,255,1));
     }
@@ -64,3 +64,71 @@
         }
     }
 }
+
+
+
+.scroll-container { 
+  &.modal{
+    max-width: 540px;
+    padding: 36px 24px 0px;
+    & .modal-close{
+      width: 16px;
+      height: 16px;
+      right: -6px;
+      top: 10px;
+    }
+  }
+    & .scrollable {
+        margin: 0 auto;
+        /* width: 484px; */
+        padding: 0;
+        position: relative;
+       /* border: 1px solid gray; */
+        overflow: hidden;
+        height: 434px;
+    }
+    & .scrollable.showScroll::after {
+        position: absolute;
+        content: '';
+        top: 5%;
+        right: 7px;
+        height: 100%;
+        width: 1px;
+        background: #d8d8d8;
+    }
+    & .scroll-content-wrapper{
+        width: 100%;
+        height: 100%;
+        padding-right: 20px;
+        overflow-y: scroll;
+    & .scroll-content{
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+  }
+  & .scroller {
+      z-index: 5;
+      cursor: pointer;
+      position: absolute;
+      width: 8px;
+      border-radius: 4px;
+      background-color: #d8d8d8;
+      top: 0px;
+      right: 4px;
+      -webkit-transition: top .08s;
+      -moz-transition: top .08s;
+      -ms-transition: top .08s;
+      -o-transition: top .08s;
+      transition: top .08s;
+     &:hover{
+      background-color: #6b7883;
+    }
+  }
+}
+
+
+
