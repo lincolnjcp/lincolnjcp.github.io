@@ -42,6 +42,7 @@
     display: inline-block;
     border-radius: var(--border-radius-M);
     font-size: 16px;
+    color: var(--color-slate);
     &:focus {
       border: 1px solid var(--color-shadow);
       outline: 0;
@@ -142,6 +143,7 @@
     & select {
       line-height: 30px;
       min-width: auto;
+      color: var(--color-slate);
     }
     & .form-float-label {
       & span {
@@ -162,6 +164,7 @@
     margin-bottom: 24px;
     height: 48px;
     line-height: 48px;
+    border-radius: var(--border-radius-M);
   }
   & input::-webkit-input-placeholder {
     font-size: 16px;
@@ -174,10 +177,11 @@
   overflow: visible;
   color: var(--color-slate);
   padding: 5px 6px;
-  margin-left: 16px;
+  float: right;
   & select {
-    line-height: 30px;
+    line-height: 36px;
     min-width: auto;
+    color: var(--color-slate);
   }
   &::before {
     width: 0;
@@ -195,9 +199,6 @@
     & textarea.form-control:focus {
       border: 1px solid var(--color-shadow);
       outline: 0;
-    }
-    & label {
-      font-size: 16px !important;
     }
   }
 }
@@ -275,7 +276,6 @@
         opacity: 0;
       }
       & + * {
-        font-size: 150%;
         opacity: .5;
         top: 0.3em;
       }
@@ -304,8 +304,16 @@
   & select {
     height: 38px;
     border: none;
+    @media (--viewport-md-only) {
+      padding-left: 4px;
+    }
     &:focus {
       border: 1px solid var(--color-nightsky);
+    }
+  }
+  @media (--viewport-md-only) {
+    & .select:after {
+      right: 1px;
     }
   }
 
@@ -336,6 +344,12 @@
       position: absolute;
       top: -5px;
       left: 9px;
+    }
+    @media (--viewport-md-only) {
+      width: 38px;
+      & .icon {
+        left: 5px;
+      }
     }
   }
 

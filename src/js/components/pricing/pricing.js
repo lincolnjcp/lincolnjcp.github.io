@@ -24,7 +24,7 @@ class Scrollbar extends Component {
 
                       <li>
                         <div className="price-card">
-                          <div className="price price-S mrg-rght-XS">$29.99
+                          <div className="price price-S mrg-rght-XS mrg-XS">$29.99
                               <span className="price price-note color-penneyred"> sale</span>
                           </div>
                           <div className="price price-note color-slate font-body">was $39.99   20% off</div>
@@ -34,7 +34,7 @@ class Scrollbar extends Component {
                       <li>
                         <div className="price-card">
                           <div className="price price-promo mrg-XS color-penneyred">GREEN MONDAL DEAL!</div>
-                          <div className="price price-S mrg-rght-XS">$29.99
+                          <div className="price price-S mrg-rght-XS mrg-XS">$29.99
                               <span className="price price-note color-penneyred"> sale</span>
                           </div>
                           <div className="price price-note color-slate font-body">was $39.99   20% off</div>
@@ -44,20 +44,20 @@ class Scrollbar extends Component {
                       <li>
                         <div className="price-card">
                           <div className="price price-promo mrg-XS color-penneyred">BUY 1 GET 1 for Free</div>
-                          <div className="price price-S mrg-rght-XS">$29.99</div>
+                          <div className="price price-S mrg-rght-XS mrg-XS">$29.99</div>
                         </div>
                       </li>
 
                       <li>
                         <div className="price-card">
-                          <div className="price price-S mrg-rght-XS">View Price in Cart</div>
+                          <div className="price price-S mrg-rght-XS mrg-XS">View Price in Cart</div>
                         </div>
                       </li>
 
                       <li>
                         <div className="price-card">
                           <div className="price price-promo mrg-XS color-penneyred">MARKETING LABEL</div>
-                          <div className="price price-S mrg-rght-XS">$29.99
+                          <div className="price price-S mrg-rght-XS mrg-XS">$29.99
                               <span className="price price-note color-penneyred"> sale</span>
                           </div>
                           <div className="price price-note color-slate font-body">was $39.99   20% off</div>
@@ -71,13 +71,13 @@ class Scrollbar extends Component {
                     <ul className="gallery-pricing-row">
                       <li>
                         <div className="price-card">
-                          <div className="price price-S mrg-rght-XS">$49.99 - $99.99</div>
+                          <div className="price price-S mrg-rght-XS mrg-XS">$49.99 - $99.99</div>
                         </div>
                       </li>
 
                       <li>
                         <div className="price-card">
-                          <div className="price price-S mrg-rght-XS">$29.99
+                          <div className="price price-S mrg-rght-XS mrg-XS">$29.99
                               <span className="price price-note color-penneyred"> sale</span>
                           </div>
                           <div className="price price-note color-slate font-body">was $39.99   20% off</div>
@@ -87,7 +87,7 @@ class Scrollbar extends Component {
                       <li>
                         <div className="price-card">
                           <div className="price price-promo mrg-XS color-penneyred">GREEN MONDAL DEAL!</div>
-                          <div className="price price-S mrg-rght-XS">$29.99
+                          <div className="price price-S mrg-rght-XS mrg-XS">$29.99
                               <span className="price price-note color-penneyred"> sale</span>
                           </div>
                           <div className="price price-note color-slate font-body">was $39.99   20% off</div>
@@ -97,20 +97,20 @@ class Scrollbar extends Component {
                       <li>
                         <div className="price-card">
                           <div className="price price-promo mrg-XS color-penneyred">BUY 1 GET 1 for Free</div>
-                          <div className="price price-S mrg-rght-XS">$29.99</div>
+                          <div className="price price-S mrg-rght-XS mrg-XS">$29.99</div>
                         </div>
                       </li>
 
                       <li>
                         <div className="price-card">
-                          <div className="price price-S mrg-rght-XS">View Price in Cart</div>
+                          <div className="price price-S mrg-rght-XS mrg-XS">View Price in Cart</div>
                         </div>
                       </li>
 
                       <li>
                         <div className="price-card">
                           <div className="price price-promo mrg-XS color-penneyred">MARKETING LABEL</div>
-                          <div className="price price-S mrg-rght-XS">$29.99
+                          <div className="price price-S mrg-rght-XS mrg-XS">$29.99
                               <span className="price price-note color-penneyred"> sale</span>
                           </div>
                           <div className="price price-note color-slate font-body">was $39.99   20% off</div>
@@ -124,13 +124,13 @@ class Scrollbar extends Component {
                     <ul className="gallery-pricing-row">
                       <li>
                         <div className="price-card">
-                          <div className="price price-S mrg-rght-XS">$49.99 - $99.99</div>
+                          <div className="price price-S mrg-rght-XS mrg-XS">$49.99 - $99.99</div>
                         </div>
                       </li>
 
                       <li>
                         <div className="price-card">
-                          <div className="price price-S mrg-rght-XS">$29.99
+                          <div className="price price-S mrg-rght-XS mrg-XS">$29.99
                           <span className="price price-note color-penneyred"> sale</span>
                           </div>
                           <div className="price price-note color-slate font-body">was $39.99   20% off</div>
@@ -140,7 +140,7 @@ class Scrollbar extends Component {
                       <li>
                         <div className="price-card">
                           <div className="price price-promo mrg-XS color-penneyred">GREEN MONDAL DEAL!</div>
-                          <div className="price price-S mrg-rght-XS">$29.99
+                          <div className="price price-S mrg-rght-XS mrg-XS">$29.99
                           <span className="price price-note color-penneyred"> sale</span>
                           </div>
                           <div className="price price-note color-slate font-body">was $39.99   20% off</div>
@@ -150,20 +150,20 @@ class Scrollbar extends Component {
                       <li>
                         <div className="price-card">
                           <div className="price price-promo mrg-XS color-penneyred">BUY 1 GET 1 for Free</div>
-                          <div className="price price-S mrg-rght-XS">$29.99</div>
+                          <div className="price price-S mrg-rght-XS mrg-XS">$29.99</div>
                         </div>
                       </li>
 
                       <li>
                         <div className="price-card">
-                          <div className="price price-S mrg-rght-XS">View Price in Cart</div>
+                          <div className="price price-S mrg-rght-XS mrg-XS">View Price in Cart</div>
                         </div>
                       </li>
 
                       <li>
                         <div className="price-card">
                           <div className="price price-promo mrg-XS color-penneyred">MARKETING LABEL</div>
-                          <div className="price price-S mrg-rght-XS">$29.99
+                          <div className="price price-S mrg-rght-XS mrg-XS">$29.99
                           <span className="price price-note color-penneyred"> sale</span>
                           </div>
                           <div className="price price-note color-slate font-body">was $39.99   20% off</div>
@@ -177,13 +177,13 @@ class Scrollbar extends Component {
                     <ul className="gallery-pricing-row">
                       <li>
                         <div className="price-card">
-                          <div className="price price-S mrg-rght-XS">$49.99 - $99.99</div>
+                          <div className="price price-S mrg-rght-XS mrg-XS">$49.99 - $99.99</div>
                         </div>
                       </li>
 
                       <li>
                         <div className="price-card">
-                          <div className="price price-S mrg-rght-XS">$29.99
+                          <div className="price price-S mrg-rght-XS mrg-XS">$29.99
                           <span className="price price-note color-penneyred"> sale</span>
                           </div>
                           <div className="price price-note color-slate font-body">was $39.99   20% off</div>
@@ -193,7 +193,7 @@ class Scrollbar extends Component {
                       <li>
                         <div className="price-card">
                           <div className="price price-promo mrg-XS color-penneyred">GREEN MONDAL DEAL!</div>
-                          <div className="price price-S mrg-rght-XS">$29.99
+                          <div className="price price-S mrg-rght-XS mrg-XS">$29.99
                           <span className="price price-note color-penneyred"> sale</span>
                           </div>
                           <div className="price price-note color-slate font-body">was $39.99   20% off</div>
@@ -209,7 +209,7 @@ class Scrollbar extends Component {
                             <span class="price-badge-price">Up to $450 in Savings</span>
                           </div>
                           <div className="price price-promo mrg-XS color-penneyred">MARKETING LABEL</div>
-                          <div className="price price-S mrg-rght-XS">$29.99
+                          <div className="price price-S mrg-rght-XS mrg-XS">$29.99
                           <span className="price std-txt std-txt-S color-penneyred"> package deal</span>
                           </div>
                           <div className="price price-note color-slate font-body">was $39.99   20% off</div>
@@ -219,14 +219,14 @@ class Scrollbar extends Component {
 
                       <li>
                         <div className="price-card">
-                          <div className="price price-S mrg-rght-XS">View Price in Cart</div>
+                          <div className="price price-S mrg-rght-XS mrg-XS">View Price in Cart</div>
                         </div>
                       </li>
 
                       <li>
                         <div className="price-card">
                           <div className="price price-promo mrg-XS color-penneyred">MARKETING LABEL</div>
-                          <div className="price price-S mrg-rght-XS">$29.99
+                          <div className="price price-S mrg-rght-XS mrg-XS">$29.99
                           <span className="price price-note color-penneyred"> sale</span>
                           </div>
                           <div className="price price-note color-slate font-body">was $39.99   20% off</div>
@@ -703,15 +703,15 @@ class Scrollbar extends Component {
                       <li>
                         <div className="price-card">
                           <div className="price price-promo mrg-XS color-penneyred">LARGE MARKETING LABEL</div>
+                          <div className="price price-M mrg-rght-XS mrg-top-S mrg-M">$59.99
+                              <span className="price price-note-M mrg-lft-XS"> sale </span>
+                              <span className="price price-note-M mrg-lft-S color-slate font-body">was $89.99</span><span className="price price-note-M mrg-lft-M color-slate font-body">20% off</span>
+                            </div>
                           <div className="price price-M mrg-rght-XS flag flag-urgency mrg-XS">$40.99</div>
                           <span className="price price-note-M color-penneyred">Extra 20% off</span>
                           <div className="price">
                             <span className="price price-note-M color-penneyred">with coupon code: FUNDEAL </span>
                             <span className="std-txt std-txt-XS"><a href="javascript:void(0);">details</a></span>
-                            <div className="price price-M mrg-rght-XS mrg-top-M">$59.99
-                              <span className="price price-note-M mrg-lft-XS"> sale </span>
-                              <span className="price price-note-M mrg-lft-S color-slate font-body">was $89.99</span><span className="price price-note-M mrg-lft-M color-slate font-body">20% off</span>
-                            </div>
                           </div>
                         </div>
                       </li>
@@ -719,15 +719,15 @@ class Scrollbar extends Component {
                       <li>
                         <div className="price-card">
                           <div className="price price-promo mrg-XS color-penneyred">LARGE MARKETING LABEL</div>
+                          <div className="price price-M mrg-rght-XS mrg-top-S mrg-M">$5,999
+                              <span className="price price-note-M mrg-lft-XS"> sale </span>
+                              <span className="price price-note-M mrg-lft-S color-slate font-body">was $9,999</span><span className="price price-note-M mrg-lft-M color-slate font-body">40% off</span>
+                            </div>
                           <div className="price price-M mrg-rght-XS flag flag-urgency mrg-XS">$4,999</div>
                           <span className="price price-note-M color-penneyred">Extra 20% off</span>
                           <div className="price">
                             <span className="price price-note-M color-penneyred">with coupon code: FUNDEAL </span>
                             <span className="std-txt std-txt-S"><a href="javascript:void(0);">details</a></span>
-                            <div className="price price-M mrg-rght-XS mrg-top-M">$5,999
-                              <span className="price price-note-M mrg-lft-XS"> sale </span>
-                              <span className="price price-note-M mrg-lft-S color-slate font-body">was $9,999</span><span className="price price-note-M mrg-lft-M color-slate font-body">40% off</span>
-                            </div>
                           </div>
                         </div>
                       </li>
@@ -735,15 +735,15 @@ class Scrollbar extends Component {
                       <li>
                         <div className="price-card">
                           <div className="price price-promo mrg-XS color-penneyred">LARGE MARKETING LABEL</div>
+                          <div className="price price-M mrg-rght-XS mrg-top-S mrg-M">
+                              <span className="price price-note-M">reg. </span>
+                              $399.99
+                            </div>
                           <div className="price price-M mrg-rght-XS flag flag-urgency mrg-XS">$299.99</div>
                           <span className="price price-note-M color-penneyred">Extra 20% off</span>
                           <div className="price">
                             <span className="price price-note-M color-penneyred">with coupon code: FUNDEAL </span>
                             <span className="std-txt std-txt-XS"><a href="javascript:void(0);">details</a></span>
-                            <div className="price price-S mrg-rght-XS mrg-top-M">
-                              <span className="price price-note-M">reg. </span>
-                              $399.99
-                            </div>
                           </div>
                         </div>
                       </li>
@@ -751,14 +751,14 @@ class Scrollbar extends Component {
                       <li>
                         <div className="price-card">
                           <div className="price price-promo mrg-S color-penneyred">LARGE MARKETING LABEL</div>
+                          <div className="price price-M mrg-rght-XS mrg-top-S mrg-M">$299.99
+                              <span className="price price-note-M mrg-lft-XS"> sale </span>
+                              <span className="price price-note-M mrg-lft-S color-slate font-body">was $499.99</span><span className="price price-note-M mrg-lft-S color-slate font-body">40% off</span>
+                            </div>
                           <div className="promo-lbl promo-lbl-L mrg-XS color-penneyred">Extra 20% off</div>
                           <div className="price">
                             <span className="price price-note-M color-penneyred">with coupon code: FUNDEAL </span>
                             <span className="std-txt std-txt-S"><a href="javascript:void(0);">details</a></span>
-                            <div className="price price-M mrg-rght-XS mrg-top-M">$299.99
-                              <span className="price price-note-M mrg-lft-XS"> sale </span>
-                              <span className="price price-note-M mrg-lft-S color-slate font-body">was $499.99</span><span className="price price-note-M mrg-lft-S color-slate font-body">40% off</span>
-                            </div>
                           </div>
                         </div>
                       </li>
@@ -777,8 +777,8 @@ class Scrollbar extends Component {
 
                       <li>
                         <div className="price-card">
-                          <div class="price price-promo mrg-XS color-penneyred">ALL BREAKPOINTS MARKETING LABEL</div>
-                          <div className="price price-M mrg-rght-XS mrg-top-M">$49.99
+                          <div class="price price-promo color-penneyred">ALL BREAKPOINTS MARKETING LABEL</div>
+                          <div className="price price-M mrg-rght-XS mrg-top-S">$49.99
                               <span className="price price-note-M mrg-lft-XS color-penneyred"> sale </span>
                             <span className="price price-note-M mrg-lft-S color-slate font-body">was $9,999</span><span className="price price-note-M mrg-lft-S color-slate font-body">40% off</span>
                           </div>
@@ -787,8 +787,8 @@ class Scrollbar extends Component {
 
                       <li>
                         <div className="price-card">
-                          <div class="price price-promo mrg-XS color-penneyred">ALL BREAKPOINTS MARKETING LABEL</div>
-                          <div className="price price-M mrg-rght-XS mrg-top-M">$299.99
+                          <div class="price price-promo color-penneyred">ALL BREAKPOINTS MARKETING LABEL</div>
+                          <div className="price price-M mrg-rght-XS mrg-top-S">$299.99
                               <span className="price price-note-M mrg-lft-XS color-penneyred"> sale </span>
                             <span className="price price-note-M mrg-lft-S color-slate font-body">was $9,999</span><span className="price price-note-M mrg-lft-S color-slate font-body">40% off</span>
                           </div>
@@ -797,8 +797,8 @@ class Scrollbar extends Component {
 
                       <li>
                         <div className="price-card">
-                          <div class="price price-promo mrg-XS color-penneyred">ALL BREAKPOINTS MARKETING LABEL</div>
-                          <div className="price price-M mrg-rght-XS mrg-top-M">$5,999
+                          <div class="price price-promo color-penneyred">ALL BREAKPOINTS MARKETING LABEL</div>
+                          <div className="price price-M mrg-rght-XS mrg-top-S">$5,999
                               <span className="price price-note-M mrg-lft-XS color-penneyred"> sale </span>
                             <span className="price price-note-M mrg-lft-S color-slate font-body">was $9,999</span><span className="price price-note-M mrg-lft-S color-slate font-body">40% off</span>
                           </div>
@@ -807,8 +807,8 @@ class Scrollbar extends Component {
 
                       <li>
                         <div className="price-card">
-                          <div class="price price-promo mrg-XS color-penneyred">ALL BREAKPOINTS MARKETING LABEL</div>
-                          <div className="price price-M mrg-rght-XS mrg-top-M mrg-S">$5,999
+                          <div class="price price-promo color-penneyred">ALL BREAKPOINTS MARKETING LABEL</div>
+                          <div className="price price-M mrg-rght-XS mrg-top-S mrg-S">$5,999
                           <span className="price price-note-M mrg-lft-S color-slate font-body">was $9,999</span><span className="price price-note-M mrg-lft-S color-slate font-body">40% off</span>
                           </div>
                           <span className="price price-note-M color-slate font-body">up to $400 in rebates available</span><span className="std-txt std-txt-S"> <a href="javascript:void(0);">get rebate </a></span>
@@ -816,8 +816,8 @@ class Scrollbar extends Component {
                       </li>
                       <li>
                         <div className="price-card">
-                          <div class="price price-promo mrg-XS color-penneyred">MARKETING LABEL</div>
-                          <div className="price price-M mrg-rght-XS mrg-top-M mrg-S">
+                          <div class="price price-promo color-penneyred">MARKETING LABEL</div>
+                          <div className="price price-M mrg-rght-XS mrg-top-S mrg-S">
                             <span>View Price in Cart</span><span className="price price-note-M mrg-lft-M color-slate font-body">was $9,999</span>
                           </div>
                         </div>

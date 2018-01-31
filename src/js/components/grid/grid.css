@@ -74,6 +74,21 @@
   margin-right: 32px;
 }
 
+.mrg-top-XS{
+  margin-top: 4px;
+}
+
+.mrg-top-S{
+  margin-top: 8px;
+}
+
+.mrg-top-M{
+  margin-top: 16px;
+}
+
+.mrg-top-L{
+  margin-top: 24px;
+}
 
 .width-full {
 	width: 100%;
@@ -159,6 +174,10 @@
 
 .hide {
   display: none;
+}
+
+.padding-right-zero {
+  padding-right: 0 !important;
 }
 
 /* 

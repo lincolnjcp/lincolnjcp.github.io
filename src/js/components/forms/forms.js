@@ -211,7 +211,7 @@ class Forms extends Component {
                                     <div className="sm12 md4 columns">
                                         <div className="input-group">
                                             <div className="form-float-label">
-                                                <input className="form-control email-text input-text" id="email" type="text" placeholder="example@email.com" />
+                                                <input className="form-control email-text input-text" id="email" type="text" placeholder=" " />
                                                 <label htmlFor="email">Email</label>
                                             </div>
                                         </div>
@@ -252,12 +252,12 @@ class Forms extends Component {
                                     </div>
                                 </div>
                             </div>
-                            <div className="sm12 columns text-area-form">
+                            <div className="sm12 columns text-area-form input-form">
                                 <div className="row">
                                     <div className="sm12 md4 columns">
                                         <div className="input-group">
                                             <div className="form-float-label">
-                                                <textarea className="form-control text-area" name="instructions" placeholder="Please deliver to side service entrance of apartment building. Enter code 9090 to access garage."></textarea>
+                                                <textarea className="form-control input-text text-area" name="instructions" placeholder=" "></textarea>
                                                 <label htmlFor="instructions">Delivery Instructions</label>
                                             </div>
                                         </div>
@@ -350,7 +350,7 @@ class Forms extends Component {
                                     <div className="sm12 md4 columns">
                                         <div className="input-group credit-card-form">
                                             <div className="form-float-label">
-                                                <input id="creditcard" type="tel" maxLength="16" name="ccnumber" placeholder="8888 8888 888" className="form-control creditcard-text input-text masked" />
+                                                <input id="creditcard" type="tel" maxLength="16" name="ccnumber" placeholder=" " className="form-control creditcard-text input-text masked" />
                                                 <label className="creditcard" htmlFor="creditcard">Card Number</label>
                                                 <span className="icon credit-card-icon" dangerouslySetInnerHTML={{ __html: cardJCP }} />
                                             </div>
@@ -523,7 +523,7 @@ class Forms extends Component {
                                     <div className="sm12 md4 columns">
                                         <div className="input-group">
                                             <div className="form-float-label">
-                                                <input className="form-control email-text input-text disabled" id="disemail" type="text" value="example@email.com" disabled />
+                                                <input className="form-control email-text input-text disabled" id="disemail" type="text" value=" " disabled />
                                                 <label htmlFor="disemail" className="disabled-label">Email</label>
                                             </div>
                                         </div>
@@ -569,7 +569,7 @@ class Forms extends Component {
                                 <div className="row">
                                     <div className="position-rel sm12 md4 columns">
                                         <div className="form-float-label">
-                                            <input className="form-control email-text input-text" id="email" type="text" placeholder="example@email.com" />
+                                            <input className="form-control email-text input-text" id="email" type="text" placeholder=" " />
                                             <label htmlFor="email">Email</label>
                                             <br />
                                         </div>
@@ -580,16 +580,15 @@ class Forms extends Component {
                                         <p className="max-width-text">Vestibulum id ligula porta felis euismod semper. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.  <br /><br /> </p>
                                         <div className="sm12 md5 columns row">
                                             <div className="form-float-label">
-                                                <div className="msg msg-error mrg-M">Email or password is incorrect</div>
-                                                <br />
+                                                <div className="msg msg-error mrg-L">Email or password is incorrect</div>
                                             </div>
-                                            <div className="form-float-label">
-                                                <input className="form-control email-text input-text" id="email" type="text" placeholder="example@email.com" />
+                                            <div className="form-float-label mrg-L">
+                                                <input className="form-control email-text input-text" id="email" type="text" placeholder=" " />
                                                 <label htmlFor="email">Email</label>
                                                 <br />
                                             </div>
                                             <div className="form-float-label password-form">
-                                                <input className="form-control input-text" id="password" maxLength="16" type="password" placeholder="••••••••••" />
+                                                <input className="form-control input-text" id="password" maxLength="16" type="password" placeholder=" " />
                                                 <label htmlFor="password">Password</label>
                                                 <a href="javascript:void(0);" className="show-pwd">show</a>
                                             </div>
@@ -605,7 +604,7 @@ class Forms extends Component {
                         <hr />
                     </div>
                 </div>
-                <div className="row" id="sample-layout">
+                <div className="row sample-layout" id="sample-layout">
                     <div className="sm12 columns">
                         <h3 className="title title-L mrg-L">Sample Layout</h3>
                         <p className="max-width-text">Vestibulum id ligula porta felis euismod semper. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.  <br /><br /> </p>
@@ -617,7 +616,7 @@ class Forms extends Component {
                         <div className="form-group column">
                             <input className="form-control input-text" type="text" placeholder="mm/dd/yyyy" />
                         </div>
-                        <div className="form-group md6 sm4 column row">
+                        <div className="form-group md6 sm4 column row padding-right-zero">
                             <input className="form-control input-text" type="text" placeholder="Zip Code" />
                         </div>
                         <div className="select md6 form-layout column">

@@ -250,6 +250,9 @@
 		& .product-card-thumbnail {
 			position: relative;
 			display: inline-block;
+			& a {
+				outline: none;
+			}
 		}
 		& .flag {
 			top: 10px;
@@ -289,6 +292,17 @@
             line-height: 14px;
         }
     }
+}
+@media (--viewport-sm-only) {
+	.product-card-pane-grid:nth-child(odd){
+		border-right: 1px solid var(--color-lightgrey);
+	}
+	.product-card-pane-grid {
+		border-bottom: 1px solid var(--color-lightgrey);
+		& .product-card-inner {
+			border: none;
+		}
+	}
 }
 
 @media (--viewport-md) {
