@@ -22,7 +22,7 @@ class DropdownButton extends Component {
                 <h1 className="title title-XL mrg-L">Dropdown Button</h1>
 
                 <div className="row md12 sm12 lg12">
-                    <div className="dropdown-menu-block column md4 sm12 lg3">
+                    <div className="dropdown-menu-block column md4 sm6 lg3 mrg-M">
                         <div className="pos-rel fl-left">
                             <a className="dropdown-button title-S">Product Type <span className="arrow"></span></a>
                             <div className="dropdown-menu">
@@ -137,7 +137,7 @@ class DropdownButton extends Component {
                         </div>
                     </div>
 
-                    <div className="dropdown-menu-block column md4 sm12 lg3">
+                    <div className="dropdown-menu-block column md4 sm6 lg3 mrg-M">
                         <div className="pos-rel fl-left">
                             <a className="dropdown-button title-S">Product Type <span className="arrow"></span></a>
                             <div className="dropdown-menu">
@@ -250,7 +250,7 @@ class DropdownButton extends Component {
                     </div>
 
 
-                    <div className="dropdown-menu-block column md4 sm12 lg3">
+                    <div className="dropdown-menu-block column md4 sm6 lg3 mrg-M">
                         <div className="pos-rel fl-left">
                             <a className="dropdown-button title-S">Sort by: <span class="sortby">Featured</span><span className="arrow"></span></a>
                             <div className="dropdown-menu">

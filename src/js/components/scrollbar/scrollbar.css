@@ -80,12 +80,11 @@
   }
     & .scrollable {
         margin: 0 auto;
-        /* width: 484px; */
         padding: 0;
         position: relative;
-       /* border: 1px solid gray; */
         overflow: hidden;
         height: 434px;
+        width: 101%;
     }
     & .scrollable.showScroll::after {
         position: absolute;
@@ -94,13 +93,18 @@
         right: 7px;
         height: 100%;
         width: 1px;
-        background: #d8d8d8;
+        background: var(--color-concrete);
     }
     & .scroll-content-wrapper{
         width: 100%;
         height: 100%;
         padding-right: 20px;
         overflow-y: scroll;
+        position: absolute;
+        right: -2%;
+        @media (--viewport-sm-only) {
+          right: -4%;
+        }
     & .scroll-content{
         -webkit-touch-callout: none;
         -webkit-user-select: none;
@@ -108,6 +112,7 @@
         -moz-user-select: none;
         -ms-user-select: none;
         user-select: none;
+        padding-right: 16px;
     }
   }
   & .scroller {

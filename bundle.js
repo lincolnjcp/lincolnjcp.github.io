@@ -233,9 +233,9 @@ var _temp = function () {
         return;
     }
 
-    __REACT_HOT_LOADER__.register(CodeGenerator, 'CodeGenerator', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/containers/CodeGenerator.js');
+    __REACT_HOT_LOADER__.register(CodeGenerator, 'CodeGenerator', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/containers/CodeGenerator.js');
 
-    __REACT_HOT_LOADER__.register(_default, 'default', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/containers/CodeGenerator.js');
+    __REACT_HOT_LOADER__.register(_default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/containers/CodeGenerator.js');
 }();
 
 ;
@@ -933,7 +933,7 @@ var _temp = function () {
         return;
     }
 
-    __REACT_HOT_LOADER__.register(rootNav, 'rootNav', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/containers/config/rootConfig.js');
+    __REACT_HOT_LOADER__.register(rootNav, 'rootNav', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/containers/config/rootConfig.js');
 }();
 
 ;
@@ -1819,9 +1819,9 @@ var buttons__temp = function () {
         return;
     }
 
-    __REACT_HOT_LOADER__.register(buttons_Buttons, 'Buttons', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/buttons/buttons.js');
+    __REACT_HOT_LOADER__.register(buttons_Buttons, 'Buttons', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/buttons/buttons.js');
 
-    __REACT_HOT_LOADER__.register(_default, 'default', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/buttons/buttons.js');
+    __REACT_HOT_LOADER__.register(_default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/buttons/buttons.js');
 }();
 
 ;
@@ -1836,7 +1836,7 @@ var components_buttons__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(buttons__default, 'default', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/buttons/index.js');
+  __REACT_HOT_LOADER__.register(buttons__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/buttons/index.js');
 }();
 
 ;
@@ -2633,11 +2633,11 @@ var color__temp = function () {
         return;
     }
 
-    __REACT_HOT_LOADER__.register(SubNavLinks, 'SubNavLinks', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/color/color.js');
+    __REACT_HOT_LOADER__.register(SubNavLinks, 'SubNavLinks', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/color/color.js');
 
-    __REACT_HOT_LOADER__.register(color_Color, 'Color', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/color/color.js');
+    __REACT_HOT_LOADER__.register(color_Color, 'Color', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/color/color.js');
 
-    __REACT_HOT_LOADER__.register(color__default, 'default', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/color/color.js');
+    __REACT_HOT_LOADER__.register(color__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/color/color.js');
 }();
 
 ;
@@ -2652,7 +2652,7 @@ var components_color__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_color__default, 'default', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/color/index.js');
+  __REACT_HOT_LOADER__.register(components_color__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/color/index.js');
 }();
 
 ;
@@ -3500,11 +3500,11 @@ var icons__temp = function () {
         return;
     }
 
-    __REACT_HOT_LOADER__.register(icons_ColorPicker, 'ColorPicker', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/icons/icons.js');
+    __REACT_HOT_LOADER__.register(icons_ColorPicker, 'ColorPicker', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/icons/icons.js');
 
-    __REACT_HOT_LOADER__.register(icons_Icons, 'Icons', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/icons/icons.js');
+    __REACT_HOT_LOADER__.register(icons_Icons, 'Icons', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/icons/icons.js');
 
-    __REACT_HOT_LOADER__.register(icons__default, 'default', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/icons/icons.js');
+    __REACT_HOT_LOADER__.register(icons__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/icons/icons.js');
 }();
 
 ;
@@ -3519,7 +3519,7 @@ var components_icons__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_icons__default, 'default', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/icons/index.js');
+  __REACT_HOT_LOADER__.register(components_icons__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/icons/index.js');
 }();
 
 ;
@@ -4295,9 +4295,9 @@ var grid__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(grid_Grid, "Grid", "/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/grid/grid.js");
+  __REACT_HOT_LOADER__.register(grid_Grid, "Grid", "/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/grid/grid.js");
 
-  __REACT_HOT_LOADER__.register(grid__default, "default", "/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/grid/grid.js");
+  __REACT_HOT_LOADER__.register(grid__default, "default", "/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/grid/grid.js");
 }();
 
 ;
@@ -4312,7 +4312,7 @@ var components_grid__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_grid__default, 'default', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/grid/index.js');
+  __REACT_HOT_LOADER__.register(components_grid__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/grid/index.js');
 }();
 
 ;
@@ -5025,9 +5025,9 @@ var typography__temp = function () {
         return;
     }
 
-    __REACT_HOT_LOADER__.register(typography_Typography, 'Typography', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/typography/typography.js');
+    __REACT_HOT_LOADER__.register(typography_Typography, 'Typography', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/typography/typography.js');
 
-    __REACT_HOT_LOADER__.register(typography__default, 'default', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/typography/typography.js');
+    __REACT_HOT_LOADER__.register(typography__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/typography/typography.js');
 }();
 
 ;
@@ -5042,7 +5042,7 @@ var components_typography__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_typography__default, 'default', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/typography/index.js');
+  __REACT_HOT_LOADER__.register(components_typography__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/typography/index.js');
 }();
 
 ;
@@ -5403,9 +5403,9 @@ var alerts__temp = function () {
         return;
     }
 
-    __REACT_HOT_LOADER__.register(alerts_Alerts, 'Alerts', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/alerts/alerts.js');
+    __REACT_HOT_LOADER__.register(alerts_Alerts, 'Alerts', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/alerts/alerts.js');
 
-    __REACT_HOT_LOADER__.register(alerts__default, 'default', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/alerts/alerts.js');
+    __REACT_HOT_LOADER__.register(alerts__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/alerts/alerts.js');
 }();
 
 ;
@@ -5420,7 +5420,7 @@ var components_alerts__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_alerts__default, 'default', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/alerts/index.js');
+  __REACT_HOT_LOADER__.register(components_alerts__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/alerts/index.js');
 }();
 
 ;
@@ -5760,9 +5760,9 @@ var badges__temp = function () {
         return;
     }
 
-    __REACT_HOT_LOADER__.register(badges_Badges, 'Badges', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/badges/badges.js');
+    __REACT_HOT_LOADER__.register(badges_Badges, 'Badges', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/badges/badges.js');
 
-    __REACT_HOT_LOADER__.register(badges__default, 'default', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/badges/badges.js');
+    __REACT_HOT_LOADER__.register(badges__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/badges/badges.js');
 }();
 
 ;
@@ -5777,7 +5777,7 @@ var components_badges__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_badges__default, 'default', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/badges/index.js');
+  __REACT_HOT_LOADER__.register(components_badges__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/badges/index.js');
 }();
 
 ;
@@ -6249,9 +6249,9 @@ var content_loaders__temp = function () {
         return;
     }
 
-    __REACT_HOT_LOADER__.register(content_loaders_ContentLoaders, 'ContentLoaders', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/content-loaders/content-loaders.js');
+    __REACT_HOT_LOADER__.register(content_loaders_ContentLoaders, 'ContentLoaders', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/content-loaders/content-loaders.js');
 
-    __REACT_HOT_LOADER__.register(content_loaders__default, 'default', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/content-loaders/content-loaders.js');
+    __REACT_HOT_LOADER__.register(content_loaders__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/content-loaders/content-loaders.js');
 }();
 
 ;
@@ -6266,7 +6266,7 @@ var components_content_loaders__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_content_loaders__default, 'default', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/content-loaders/index.js');
+  __REACT_HOT_LOADER__.register(components_content_loaders__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/content-loaders/index.js');
 }();
 
 ;
@@ -6298,8 +6298,8 @@ var dropdown_button_DropdownButton = function (_Component) {
             jquery_default()('.dropdown-button').on('click', function () {
 
                 var parent_box = jquery_default()(this).closest('.dropdown-menu-block');
-                parent_box.siblings().find('.dropdown-menu').hide();
                 parent_box.find('.dropdown-menu').slideToggle(200, "swing");
+                parent_box.siblings().find('.dropdown-menu').hide();
 
                 jquery_default()(this).toggleClass("arrow-down");
                 return false;
@@ -6318,162 +6318,10 @@ var dropdown_button_DropdownButton = function (_Component) {
                 ),
                 react_default.a.createElement(
                     'div',
-                    { className: 'row md12 sm12 lg12 mrg-XL prevent-event' },
-                    react_default.a.createElement(
-                        'div',
-                        { className: 'dropdown-menu-block sm12 md3 lg3 column' },
-                        react_default.a.createElement(
-                            'a',
-                            { className: 'dropdown-button title-S' },
-                            'Product Type ',
-                            react_default.a.createElement('span', { className: 'arrow' })
-                        ),
-                        react_default.a.createElement(
-                            'span',
-                            { className: 'std-txt-label' },
-                            'Default'
-                        )
-                    ),
-                    react_default.a.createElement(
-                        'div',
-                        { className: 'dropdown-menu-block sm12 md3 lg3 column' },
-                        react_default.a.createElement(
-                            'a',
-                            { className: 'dropdown-button title-S hover' },
-                            'Product Type ',
-                            react_default.a.createElement('span', { className: 'arrow' })
-                        ),
-                        react_default.a.createElement(
-                            'span',
-                            { className: 'std-txt-label' },
-                            'Hover'
-                        )
-                    ),
-                    react_default.a.createElement(
-                        'div',
-                        { className: 'dropdown-menu-block sm12 md3 lg3 column' },
-                        react_default.a.createElement(
-                            'a',
-                            { className: 'dropdown-button title-S hover arrow-down' },
-                            'Product Type ',
-                            react_default.a.createElement('span', { className: 'arrow' })
-                        ),
-                        react_default.a.createElement(
-                            'span',
-                            { className: 'std-txt-label' },
-                            'Active'
-                        )
-                    ),
-                    react_default.a.createElement(
-                        'div',
-                        { className: 'dropdown-menu-block sm12 md3 lg3 column' },
-                        react_default.a.createElement(
-                            'a',
-                            { className: 'dropdown-button title-S disabled' },
-                            'Product Type ',
-                            react_default.a.createElement('span', { className: 'arrow' })
-                        ),
-                        react_default.a.createElement(
-                            'span',
-                            { className: 'std-txt-label' },
-                            'Disabled'
-                        )
-                    )
-                ),
-                react_default.a.createElement(
-                    'div',
-                    { className: 'row md12 sm12 lg12 mrg-XL prevent-event' },
-                    react_default.a.createElement(
-                        'div',
-                        { className: 'dropdown-menu-block sm12 md3 lg3 column' },
-                        react_default.a.createElement(
-                            'a',
-                            { className: 'dropdown-button title-S' },
-                            'Sort by: ',
-                            react_default.a.createElement(
-                                'span',
-                                { className: 'sortby' },
-                                'Featured'
-                            ),
-                            ' ',
-                            react_default.a.createElement('span', { className: 'arrow' })
-                        ),
-                        react_default.a.createElement(
-                            'span',
-                            { className: 'std-txt-label' },
-                            'Default with selected value'
-                        )
-                    ),
-                    react_default.a.createElement(
-                        'div',
-                        { className: 'dropdown-menu-block sm12 md3 lg3 column' },
-                        react_default.a.createElement(
-                            'a',
-                            { className: 'dropdown-button title-S hover' },
-                            'Sort by: ',
-                            react_default.a.createElement(
-                                'span',
-                                { className: 'sortby' },
-                                'Featured'
-                            ),
-                            ' ',
-                            react_default.a.createElement('span', { className: 'arrow' })
-                        ),
-                        react_default.a.createElement(
-                            'span',
-                            { className: 'std-txt-label' },
-                            'Hover with selected value'
-                        )
-                    ),
-                    react_default.a.createElement(
-                        'div',
-                        { className: 'dropdown-menu-block sm12 md3 lg3 column' },
-                        react_default.a.createElement(
-                            'a',
-                            { className: 'dropdown-button title-S hover arrow-down' },
-                            'Sort by: ',
-                            react_default.a.createElement(
-                                'span',
-                                { className: 'sortby' },
-                                'Featured'
-                            ),
-                            ' ',
-                            react_default.a.createElement('span', { className: 'arrow' })
-                        ),
-                        react_default.a.createElement(
-                            'span',
-                            { className: 'std-txt-label' },
-                            'Active with selected value'
-                        )
-                    ),
-                    react_default.a.createElement(
-                        'div',
-                        { className: 'dropdown-menu-block sm12 md3 lg3 column' },
-                        react_default.a.createElement(
-                            'a',
-                            { className: 'dropdown-button title-S' },
-                            'Sort by: ',
-                            react_default.a.createElement(
-                                'span',
-                                { className: 'sortby' },
-                                'Ratings High to Low'
-                            ),
-                            ' ',
-                            react_default.a.createElement('span', { className: 'arrow' })
-                        ),
-                        react_default.a.createElement(
-                            'span',
-                            { className: 'std-txt-label' },
-                            'display text overflows in area'
-                        )
-                    )
-                ),
-                react_default.a.createElement(
-                    'div',
                     { className: 'row md12 sm12 lg12' },
                     react_default.a.createElement(
                         'div',
-                        { className: 'dropdown-menu-block column md4 sm12 lg4' },
+                        { className: 'dropdown-menu-block column md4 sm6 lg3 mrg-M' },
                         react_default.a.createElement(
                             'div',
                             { className: 'pos-rel fl-left' },
@@ -6774,7 +6622,7 @@ var dropdown_button_DropdownButton = function (_Component) {
                     ),
                     react_default.a.createElement(
                         'div',
-                        { className: 'dropdown-menu-block column md4 sm12 lg4' },
+                        { className: 'dropdown-menu-block column md4 sm6 lg3 mrg-M' },
                         react_default.a.createElement(
                             'div',
                             { className: 'pos-rel fl-left' },
@@ -7070,7 +6918,7 @@ var dropdown_button_DropdownButton = function (_Component) {
                     ),
                     react_default.a.createElement(
                         'div',
-                        { className: 'dropdown-menu-block column md4 sm12 lg4' },
+                        { className: 'dropdown-menu-block column md4 sm6 lg3 mrg-M' },
                         react_default.a.createElement(
                             'div',
                             { className: 'pos-rel fl-left' },
@@ -7139,6 +6987,164 @@ var dropdown_button_DropdownButton = function (_Component) {
                             )
                         )
                     )
+                ),
+                react_default.a.createElement('br', null),
+                react_default.a.createElement('br', null),
+                react_default.a.createElement('br', null),
+                react_default.a.createElement('br', null),
+                react_default.a.createElement('br', null),
+                react_default.a.createElement('br', null),
+                react_default.a.createElement(
+                    'div',
+                    { className: 'row md12 sm12 lg12 mrg-XL prevent-event' },
+                    react_default.a.createElement(
+                        'div',
+                        { className: 'dropdown-menu-block sm12 md4 lg3 column' },
+                        react_default.a.createElement(
+                            'a',
+                            { className: 'dropdown-button title-S' },
+                            'Product Type ',
+                            react_default.a.createElement('span', { className: 'arrow' })
+                        ),
+                        react_default.a.createElement(
+                            'span',
+                            { className: 'std-txt-label' },
+                            'Default'
+                        )
+                    ),
+                    react_default.a.createElement(
+                        'div',
+                        { className: 'dropdown-menu-block sm12 md4 lg3 column' },
+                        react_default.a.createElement(
+                            'a',
+                            { className: 'dropdown-button title-S hover' },
+                            'Product Type ',
+                            react_default.a.createElement('span', { className: 'arrow' })
+                        ),
+                        react_default.a.createElement(
+                            'span',
+                            { className: 'std-txt-label' },
+                            'Hover'
+                        )
+                    ),
+                    react_default.a.createElement(
+                        'div',
+                        { className: 'dropdown-menu-block sm12 md4 lg3 column' },
+                        react_default.a.createElement(
+                            'a',
+                            { className: 'dropdown-button title-S hover arrow-down' },
+                            'Product Type ',
+                            react_default.a.createElement('span', { className: 'arrow' })
+                        ),
+                        react_default.a.createElement(
+                            'span',
+                            { className: 'std-txt-label' },
+                            'Active'
+                        )
+                    ),
+                    react_default.a.createElement(
+                        'div',
+                        { className: 'dropdown-menu-block sm12 md4 lg3 column' },
+                        react_default.a.createElement(
+                            'a',
+                            { className: 'dropdown-button title-S disabled' },
+                            'Product Type ',
+                            react_default.a.createElement('span', { className: 'arrow' })
+                        ),
+                        react_default.a.createElement(
+                            'span',
+                            { className: 'std-txt-label' },
+                            'Disabled'
+                        )
+                    )
+                ),
+                react_default.a.createElement(
+                    'div',
+                    { className: 'row md12 sm12 lg12 mrg-XL prevent-event' },
+                    react_default.a.createElement(
+                        'div',
+                        { className: 'dropdown-menu-block sm12 md4 lg3 column' },
+                        react_default.a.createElement(
+                            'a',
+                            { className: 'dropdown-button title-S' },
+                            'Sort by: ',
+                            react_default.a.createElement(
+                                'span',
+                                { className: 'sortby' },
+                                'Featured'
+                            ),
+                            ' ',
+                            react_default.a.createElement('span', { className: 'arrow' })
+                        ),
+                        react_default.a.createElement(
+                            'span',
+                            { className: 'std-txt-label' },
+                            'Default with selected value'
+                        )
+                    ),
+                    react_default.a.createElement(
+                        'div',
+                        { className: 'dropdown-menu-block sm12 md4 lg3 column' },
+                        react_default.a.createElement(
+                            'a',
+                            { className: 'dropdown-button title-S hover' },
+                            'Sort by: ',
+                            react_default.a.createElement(
+                                'span',
+                                { className: 'sortby' },
+                                'Featured'
+                            ),
+                            ' ',
+                            react_default.a.createElement('span', { className: 'arrow' })
+                        ),
+                        react_default.a.createElement(
+                            'span',
+                            { className: 'std-txt-label' },
+                            'Hover with selected value'
+                        )
+                    ),
+                    react_default.a.createElement(
+                        'div',
+                        { className: 'dropdown-menu-block sm12 md4 lg3 column' },
+                        react_default.a.createElement(
+                            'a',
+                            { className: 'dropdown-button title-S hover arrow-down' },
+                            'Sort by: ',
+                            react_default.a.createElement(
+                                'span',
+                                { className: 'sortby' },
+                                'Featured'
+                            ),
+                            ' ',
+                            react_default.a.createElement('span', { className: 'arrow' })
+                        ),
+                        react_default.a.createElement(
+                            'span',
+                            { className: 'std-txt-label' },
+                            'Active with selected value'
+                        )
+                    ),
+                    react_default.a.createElement(
+                        'div',
+                        { className: 'dropdown-menu-block sm12 md4 lg3 column' },
+                        react_default.a.createElement(
+                            'a',
+                            { className: 'dropdown-button title-S' },
+                            'Sort by: ',
+                            react_default.a.createElement(
+                                'span',
+                                { className: 'sortby' },
+                                'Ratings High to Low'
+                            ),
+                            ' ',
+                            react_default.a.createElement('span', { className: 'arrow' })
+                        ),
+                        react_default.a.createElement(
+                            'span',
+                            { className: 'std-txt-label' },
+                            'display text overflows in area'
+                        )
+                    )
                 )
             );
         }
@@ -7158,9 +7164,9 @@ var dropdown_button__temp = function () {
         return;
     }
 
-    __REACT_HOT_LOADER__.register(dropdown_button_DropdownButton, 'DropdownButton', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/dropdown-button/dropdown-button.js');
+    __REACT_HOT_LOADER__.register(dropdown_button_DropdownButton, 'DropdownButton', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/dropdown-button/dropdown-button.js');
 
-    __REACT_HOT_LOADER__.register(dropdown_button__default, 'default', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/dropdown-button/dropdown-button.js');
+    __REACT_HOT_LOADER__.register(dropdown_button__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/dropdown-button/dropdown-button.js');
 }();
 
 ;
@@ -7175,7 +7181,7 @@ var components_dropdown_button__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_dropdown_button__default, 'default', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/dropdown-button/index.js');
+  __REACT_HOT_LOADER__.register(components_dropdown_button__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/dropdown-button/index.js');
 }();
 
 ;
@@ -8404,9 +8410,9 @@ var tables__temp = function () {
         return;
     }
 
-    __REACT_HOT_LOADER__.register(tables_Tables, 'Tables', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/tables/tables.js');
+    __REACT_HOT_LOADER__.register(tables_Tables, 'Tables', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/tables/tables.js');
 
-    __REACT_HOT_LOADER__.register(tables__default, 'default', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/tables/tables.js');
+    __REACT_HOT_LOADER__.register(tables__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/tables/tables.js');
 }();
 
 ;
@@ -8421,7 +8427,7 @@ var components_tables__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_tables__default, 'default', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/tables/index.js');
+  __REACT_HOT_LOADER__.register(components_tables__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/tables/index.js');
 }();
 
 ;
@@ -10075,9 +10081,9 @@ var forms__temp = function () {
         return;
     }
 
-    __REACT_HOT_LOADER__.register(forms_Forms, 'Forms', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/forms/forms.js');
+    __REACT_HOT_LOADER__.register(forms_Forms, 'Forms', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/forms/forms.js');
 
-    __REACT_HOT_LOADER__.register(forms__default, 'default', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/forms/forms.js');
+    __REACT_HOT_LOADER__.register(forms__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/forms/forms.js');
 }();
 
 ;
@@ -10092,7 +10098,7 @@ var components_forms__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_forms__default, 'default', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/forms/index.js');
+  __REACT_HOT_LOADER__.register(components_forms__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/forms/index.js');
 }();
 
 ;
@@ -10423,9 +10429,9 @@ var star_ratings__temp = function () {
         return;
     }
 
-    __REACT_HOT_LOADER__.register(star_ratings_ContentLoaders, 'ContentLoaders', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/star-ratings/star-ratings.js');
+    __REACT_HOT_LOADER__.register(star_ratings_ContentLoaders, 'ContentLoaders', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/star-ratings/star-ratings.js');
 
-    __REACT_HOT_LOADER__.register(star_ratings__default, 'default', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/star-ratings/star-ratings.js');
+    __REACT_HOT_LOADER__.register(star_ratings__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/star-ratings/star-ratings.js');
 }();
 
 ;
@@ -10440,7 +10446,7 @@ var components_star_ratings__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_star_ratings__default, 'default', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/star-ratings/index.js');
+  __REACT_HOT_LOADER__.register(components_star_ratings__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/star-ratings/index.js');
 }();
 
 ;
@@ -10456,57 +10462,139 @@ function scrollbar__inherits(subClass, superClass) { if (typeof superClass !== "
 
 
 var scrollbar_Pricing = function (_Component) {
-  scrollbar__inherits(Pricing, _Component);
+    scrollbar__inherits(Pricing, _Component);
 
-  function Pricing() {
-    scrollbar__classCallCheck(this, Pricing);
+    function Pricing() {
+        scrollbar__classCallCheck(this, Pricing);
 
-    return scrollbar__possibleConstructorReturn(this, (Pricing.__proto__ || Object.getPrototypeOf(Pricing)).apply(this, arguments));
-  }
-
-  scrollbar__createClass(Pricing, [{
-    key: "componentDidMount",
-    value: function componentDidMount() {}
-  }, {
-    key: "render",
-    value: function render() {
-      return react_default.a.createElement(
-        "div",
-        null,
-        react_default.a.createElement(
-          "div",
-          { className: "row" },
-          react_default.a.createElement(
-            "div",
-            { className: "padding-25" },
-            react_default.a.createElement(
-              "div",
-              { className: "modal scroll-container" },
-              react_default.a.createElement("button", { className: "modal-close" }),
-              react_default.a.createElement(
-                "div",
-                { className: "scroll-block custom-scroll" },
-                react_default.a.createElement(
-                  "h2",
-                  { className: "title title-L test" },
-                  "10 Year Mattress Encasement Plan Twin"
-                ),
-                react_default.a.createElement(
-                  "h4",
-                  { className: "title-M title mrg-L" },
-                  "Sealy Essentials\u2122 Holly Hills Firm - Mattress + Box Spring"
-                ),
-                "BEDGARD ENCASEMENT: 10 Year Plan with Encasement: For new residential mattresses purchased in conjunction with a BedGard Encasement. Coverage includes: All accidental stains (excluding accumulations). Construction of Mattress Protector. WHY BEDGARD ENCASEMENT? The manufacturer of the mattress will void the warranty if the mattress is stained. A full encasement reduces conditions which attract dust mites, allergens and bed bugs. HOW DOES IT WORK? Customers purchase and use the BedGard Protector along with their new residential mattress. If their mattress becomes stained during normal residential use while using the protector, the affected portion or the complete mattress will be repaired or replaced!HOW LONG IS COVERAGE? The BedGard Product Limited Warranty is effective for ten (10) years from the date the customer takes delivery of the Mattress Protector and the Mattress. WHAT PROBLEMS ARE COVERED? Construction and staining of the BedGard Mattress Protector/Pad. All accidental stains attributed to a single occurrence (excluding accumulation defined as a gradual buildup of dirt, dust, body oils and perspiration). HOW LONG DOES THE CUSTOMER HAVE TO REPORT A PROBLEM? Problems must be reported within ten (10) days of occurrence of the stain or damage. BEDGARD ENCASEMENT: 10 Year Plan with Encasement: For new residential mattresses purchased in conjunction with a BedGard Encasement. Coverage includes: All accidental stains (excluding accumulations). Construction of Mattress Protector. WHY BEDGARD ENCASEMENT? The manufacturer of the mattress will void the warranty if the mattress is stained. A full encasement reduces conditions which attract dust mites, allergens and bed bugs. HOW DOES IT WORK? Customers purchase and use the BedGard Protector along with their new residential mattress. If their mattress becomes stained during normal residential use while using the protector, the affected portion or the complete mattress will be repaired or replaced!HOW LONG IS COVERAGE? The BedGard Product Limited Warranty is effective for ten (10) years from the date the customer takes delivery of the Mattress Protector and the Mattress. WHAT PROBLEMS ARE COVERED? Construction and staining of the BedGard Mattress Protector/Pad. All accidental stains attributed to a single occurrence (excluding accumulation defined as a gradual buildup of dirt, dust, body oils and perspiration). HOW LONG DOES THE CUSTOMER HAVE TO REPORT A PROBLEM? Problems must be reported within ten (10) days of occurrence of the stain or damage."
-              ),
-              react_default.a.createElement("div", { className: "scroll-block-fade" })
-            )
-          )
-        )
-      );
+        return scrollbar__possibleConstructorReturn(this, (Pricing.__proto__ || Object.getPrototypeOf(Pricing)).apply(this, arguments));
     }
-  }]);
 
-  return Pricing;
+    scrollbar__createClass(Pricing, [{
+        key: 'componentDidMount',
+        value: function componentDidMount() {
+            (function () {
+
+                var scrollContainer = document.querySelector('.scrollable'),
+                    scrollContentWrapper = document.querySelector('.scrollable .scroll-content-wrapper'),
+                    scrollContent = document.querySelector('.scrollable .scroll-content'),
+                    contentPosition = 0,
+                    scrollerBeingDragged = false,
+                    scroller,
+                    topPosition,
+                    scrollerHeight;
+
+                function calculateScrollerHeight() {
+                    // *Calculation of how tall scroller should be
+                    var visibleRatio = scrollContainer.offsetHeight / scrollContentWrapper.scrollHeight;
+                    return visibleRatio * scrollContainer.offsetHeight;
+                }
+
+                function moveScroller(evt) {
+                    // Move Scroll bar to top offset
+                    var scrollPercentage = evt.target.scrollTop / scrollContentWrapper.scrollHeight;
+                    topPosition = scrollPercentage * (scrollContainer.offsetHeight - 5); // 5px arbitrary offset so scroll bar doesn't move too far beyond content wrapper bounding box
+                    scroller.style.top = topPosition + 'px';
+                }
+
+                function startDrag(evt) {
+                    normalizedPosition = evt.pageY;
+                    contentPosition = scrollContentWrapper.scrollTop;
+                    scrollerBeingDragged = true;
+                }
+
+                function stopDrag(evt) {
+                    scrollerBeingDragged = false;
+                }
+
+                function scrollBarScroll(evt) {
+                    if (scrollerBeingDragged === true) {
+                        var mouseDifferential = evt.pageY - normalizedPosition;
+                        var scrollEquivalent = mouseDifferential * (scrollContentWrapper.scrollHeight / scrollContainer.offsetHeight);
+                        scrollContentWrapper.scrollTop = contentPosition + scrollEquivalent;
+                    }
+                }
+
+                function createScroller() {
+                    // *Creates scroller element and appends to '.scrollable' div
+                    // create scroller element
+                    scroller = document.createElement("div");
+                    scroller.className = 'scroller';
+
+                    // determine how big scroller should be based on content
+                    scrollerHeight = calculateScrollerHeight();
+
+                    if (scrollerHeight / scrollContainer.offsetHeight < 1) {
+                        // *If there is a need to have scroll bar based on content size
+                        scroller.style.height = scrollerHeight + 'px';
+
+                        // append scroller to scrollContainer div
+                        scrollContainer.appendChild(scroller);
+
+                        // show scroll path divot
+                        scrollContainer.className += ' showScroll';
+
+                        // attach related draggable listeners
+                        scroller.addEventListener('mousedown', startDrag);
+                        window.addEventListener('mouseup', stopDrag);
+                        window.addEventListener('mousemove', scrollBarScroll);
+                    }
+                }
+
+                createScroller();
+
+                // *** Listeners ***
+                scrollContentWrapper.addEventListener('scroll', moveScroller);
+            })();
+        }
+    }, {
+        key: 'render',
+        value: function render() {
+            return react_default.a.createElement(
+                'div',
+                null,
+                react_default.a.createElement(
+                    'div',
+                    { className: 'row' },
+                    react_default.a.createElement(
+                        'div',
+                        { className: 'padding-25' },
+                        react_default.a.createElement(
+                            'div',
+                            { className: 'modal scroll-container' },
+                            react_default.a.createElement('button', { className: 'modal-close' }),
+                            react_default.a.createElement(
+                                'div',
+                                { className: 'scroll-block custom-scroll scrollable' },
+                                react_default.a.createElement(
+                                    'div',
+                                    { className: 'scroll-content-wrapper' },
+                                    react_default.a.createElement(
+                                        'div',
+                                        { className: 'scroll-content' },
+                                        react_default.a.createElement(
+                                            'h2',
+                                            { className: 'title title-L test mrg-XS' },
+                                            '10 Year Mattress Encasement Plan Twin'
+                                        ),
+                                        react_default.a.createElement(
+                                            'h4',
+                                            { className: 'title-M title mrg-M' },
+                                            'Sealy Essentials\u2122 Holly Hills Firm - Mattress + Box Spring'
+                                        ),
+                                        'BEDGARD ENCASEMENT: 10 Year Plan with Encasement: For new residential mattresses purchased in conjunction with a BedGard Encasement. Coverage includes: All accidental stains (excluding accumulations). Construction of Mattress Protector. WHY BEDGARD ENCASEMENT? The manufacturer of the mattress will void the warranty if the mattress is stained. A full encasement reduces conditions which attract dust mites, allergens and bed bugs. HOW DOES IT WORK? Customers purchase and use the BedGard Protector along with their new residential mattress. If their mattress becomes stained during normal residential use while using the protector, the affected portion or the complete mattress will be repaired or replaced!HOW LONG IS COVERAGE? The BedGard Product Limited Warranty is effective for ten (10) years from the date the customer takes delivery of the Mattress Protector and the Mattress. WHAT PROBLEMS ARE COVERED? Construction and staining of the BedGard Mattress Protector/Pad. All accidental stains attributed to a single occurrence (excluding accumulation defined as a gradual buildup of dirt, dust, body oils and perspiration). HOW LONG DOES THE CUSTOMER HAVE TO REPORT A PROBLEM? Problems must be reported within ten (10) days of occurrence of the stain or damage. BEDGARD ENCASEMENT: 10 Year Plan with Encasement: For new residential mattresses purchased in conjunction with a BedGard Encasement. Coverage includes: All accidental stains (excluding accumulations). Construction of Mattress Protector. WHY BEDGARD ENCASEMENT? The manufacturer of the mattress will void the warranty if the mattress is stained. A full encasement reduces conditions which attract dust mites, allergens and bed bugs. HOW DOES IT WORK? Customers purchase and use the BedGard Protector along with their new residential mattress. If their mattress becomes stained during normal residential use while using the protector, the affected portion or the complete mattress will be repaired or replaced!HOW LONG IS COVERAGE? The BedGard Product Limited Warranty is effective for ten (10) years from the date the customer takes delivery of the Mattress Protector and the Mattress. WHAT PROBLEMS ARE COVERED? Construction and staining of the BedGard Mattress Protector/Pad. All accidental stains attributed to a single occurrence (excluding accumulation defined as a gradual buildup of dirt, dust, body oils and perspiration). HOW LONG DOES THE CUSTOMER HAVE TO REPORT A PROBLEM? Problems must be reported within ten (10) days of occurrence of the stain or damage.'
+                                    )
+                                )
+                            ),
+                            react_default.a.createElement('div', { className: 'scroll-block-fade' })
+                        )
+                    )
+                )
+            );
+        }
+    }]);
+
+    return Pricing;
 }(react["Component"]);
 
 var scrollbar__default = scrollbar_Pricing;
@@ -10516,13 +10604,13 @@ var scrollbar__default = scrollbar_Pricing;
 ;
 
 var scrollbar__temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
+    if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+        return;
+    }
 
-  __REACT_HOT_LOADER__.register(scrollbar_Pricing, "Pricing", "/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/scrollbar/scrollbar.js");
+    __REACT_HOT_LOADER__.register(scrollbar_Pricing, 'Pricing', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/scrollbar/scrollbar.js');
 
-  __REACT_HOT_LOADER__.register(scrollbar__default, "default", "/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/scrollbar/scrollbar.js");
+    __REACT_HOT_LOADER__.register(scrollbar__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/scrollbar/scrollbar.js');
 }();
 
 ;
@@ -10537,7 +10625,7 @@ var components_scrollbar__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_scrollbar__default, 'default', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/scrollbar/index.js');
+  __REACT_HOT_LOADER__.register(components_scrollbar__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/scrollbar/index.js');
 }();
 
 ;
@@ -10717,9 +10805,9 @@ var progressbar__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(progressbar_ProgressBar, "ProgressBar", "/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/progressbar/progressbar.js");
+  __REACT_HOT_LOADER__.register(progressbar_ProgressBar, "ProgressBar", "/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/progressbar/progressbar.js");
 
-  __REACT_HOT_LOADER__.register(progressbar__default, "default", "/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/progressbar/progressbar.js");
+  __REACT_HOT_LOADER__.register(progressbar__default, "default", "/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/progressbar/progressbar.js");
 }();
 
 ;
@@ -10734,7 +10822,7 @@ var components_progressbar__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_progressbar__default, 'default', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/progressbar/index.js');
+  __REACT_HOT_LOADER__.register(components_progressbar__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/progressbar/index.js');
 }();
 
 ;
@@ -11879,6 +11967,7 @@ var pricing_Scrollbar = function (_Component) {
                               "Up to $450 in Savings"
                             )
                           ),
+                          react_default.a.createElement("br", null),
                           react_default.a.createElement(
                             "div",
                             { className: "price price-promo-S mrg-XS color-penneyred" },
@@ -13421,9 +13510,9 @@ var pricing__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(pricing_Scrollbar, "Scrollbar", "/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/pricing/pricing.js");
+  __REACT_HOT_LOADER__.register(pricing_Scrollbar, "Scrollbar", "/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/pricing/pricing.js");
 
-  __REACT_HOT_LOADER__.register(pricing__default, "default", "/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/pricing/pricing.js");
+  __REACT_HOT_LOADER__.register(pricing__default, "default", "/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/pricing/pricing.js");
 }();
 
 ;
@@ -13438,7 +13527,7 @@ var components_pricing__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_pricing__default, 'default', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/pricing/index.js');
+  __REACT_HOT_LOADER__.register(components_pricing__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/pricing/index.js');
 }();
 
 ;
@@ -13724,9 +13813,9 @@ var visual_navigation__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(visual_navigation_VisualNavigation, "VisualNavigation", "/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/visual-navigation/visual-navigation.js");
+  __REACT_HOT_LOADER__.register(visual_navigation_VisualNavigation, "VisualNavigation", "/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/visual-navigation/visual-navigation.js");
 
-  __REACT_HOT_LOADER__.register(visual_navigation__default, "default", "/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/visual-navigation/visual-navigation.js");
+  __REACT_HOT_LOADER__.register(visual_navigation__default, "default", "/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/visual-navigation/visual-navigation.js");
 }();
 
 ;
@@ -13741,7 +13830,7 @@ var components_visual_navigation__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_visual_navigation__default, 'default', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/visual-navigation/index.js');
+  __REACT_HOT_LOADER__.register(components_visual_navigation__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/visual-navigation/index.js');
 }();
 
 ;
@@ -13955,11 +14044,6 @@ var modal_Modal = function (_Component) {
             { className: 'modal dialog-pop-up' },
             react_default.a.createElement('button', { className: 'modal-close' }),
             react_default.a.createElement(
-              'div',
-              { className: 'msg msg-neutral mrg-S' },
-              'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut'
-            ),
-            react_default.a.createElement(
               'h2',
               { className: 'modal-sub-title' },
               'This is a Modal'
@@ -14095,9 +14179,9 @@ var modal__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(modal_Modal, 'Modal', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/modal/modal.js');
+  __REACT_HOT_LOADER__.register(modal_Modal, 'Modal', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/modal/modal.js');
 
-  __REACT_HOT_LOADER__.register(modal__default, 'default', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/modal/modal.js');
+  __REACT_HOT_LOADER__.register(modal__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/modal/modal.js');
 }();
 
 ;
@@ -14112,7 +14196,7 @@ var components_modal__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_modal__default, 'default', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/modal/index.js');
+  __REACT_HOT_LOADER__.register(components_modal__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/modal/index.js');
 }();
 
 ;
@@ -14598,9 +14682,9 @@ var countdown_timers__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(countdown_timers_CountdownTimers, 'CountdownTimers', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/countdown-timers/countdown-timers.js');
+  __REACT_HOT_LOADER__.register(countdown_timers_CountdownTimers, 'CountdownTimers', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/countdown-timers/countdown-timers.js');
 
-  __REACT_HOT_LOADER__.register(countdown_timers__default, 'default', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/countdown-timers/countdown-timers.js');
+  __REACT_HOT_LOADER__.register(countdown_timers__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/countdown-timers/countdown-timers.js');
 }();
 
 ;
@@ -14615,7 +14699,7 @@ var components_countdown_timers__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_countdown_timers__default, 'default', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/countdown-timers/index.js');
+  __REACT_HOT_LOADER__.register(components_countdown_timers__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/countdown-timers/index.js');
 }();
 
 ;
@@ -14972,9 +15056,9 @@ var tooltips__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(tooltips_Tooltips, "Tooltips", "/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/tooltips/tooltips.js");
+  __REACT_HOT_LOADER__.register(tooltips_Tooltips, "Tooltips", "/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/tooltips/tooltips.js");
 
-  __REACT_HOT_LOADER__.register(tooltips__default, "default", "/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/tooltips/tooltips.js");
+  __REACT_HOT_LOADER__.register(tooltips__default, "default", "/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/tooltips/tooltips.js");
 }();
 
 ;
@@ -14989,7 +15073,7 @@ var components_tooltips__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_tooltips__default, 'default', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/tooltips/index.js');
+  __REACT_HOT_LOADER__.register(components_tooltips__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/tooltips/index.js');
 }();
 
 ;
@@ -15097,9 +15181,9 @@ var tabs__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(tabs_Tabs, "Tabs", "/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/tabs/tabs.js");
+  __REACT_HOT_LOADER__.register(tabs_Tabs, "Tabs", "/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/tabs/tabs.js");
 
-  __REACT_HOT_LOADER__.register(tabs__default, "default", "/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/tabs/tabs.js");
+  __REACT_HOT_LOADER__.register(tabs__default, "default", "/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/tabs/tabs.js");
 }();
 
 ;
@@ -15114,7 +15198,7 @@ var components_tabs__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_tabs__default, 'default', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/tabs/index.js');
+  __REACT_HOT_LOADER__.register(components_tabs__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/tabs/index.js');
 }();
 
 ;
@@ -15432,9 +15516,9 @@ var pagination__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(pagination_Pagination, 'Pagination', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/pagination/pagination.js');
+  __REACT_HOT_LOADER__.register(pagination_Pagination, 'Pagination', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/pagination/pagination.js');
 
-  __REACT_HOT_LOADER__.register(pagination__default, 'default', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/pagination/pagination.js');
+  __REACT_HOT_LOADER__.register(pagination__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/pagination/pagination.js');
 }();
 
 ;
@@ -15449,7 +15533,7 @@ var components_pagination__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_pagination__default, 'default', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/pagination/index.js');
+  __REACT_HOT_LOADER__.register(components_pagination__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/pagination/index.js');
 }();
 
 ;
@@ -16099,9 +16183,9 @@ var swatches__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(swatches_Swatches, 'Swatches', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/swatches/swatches.js');
+  __REACT_HOT_LOADER__.register(swatches_Swatches, 'Swatches', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/swatches/swatches.js');
 
-  __REACT_HOT_LOADER__.register(swatches__default, 'default', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/swatches/swatches.js');
+  __REACT_HOT_LOADER__.register(swatches__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/swatches/swatches.js');
 }();
 
 ;
@@ -16116,7 +16200,7 @@ var components_swatches__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_swatches__default, 'default', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/swatches/index.js');
+  __REACT_HOT_LOADER__.register(components_swatches__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/swatches/index.js');
 }();
 
 ;
@@ -16596,9 +16680,9 @@ var selectors__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(selectors_Selectors, 'Selectors', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/selectors/selectors.js');
+  __REACT_HOT_LOADER__.register(selectors_Selectors, 'Selectors', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/selectors/selectors.js');
 
-  __REACT_HOT_LOADER__.register(selectors__default, 'default', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/selectors/selectors.js');
+  __REACT_HOT_LOADER__.register(selectors__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/selectors/selectors.js');
 }();
 
 ;
@@ -16613,7 +16697,7 @@ var components_selectors__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_selectors__default, 'default', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/selectors/index.js');
+  __REACT_HOT_LOADER__.register(components_selectors__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/selectors/index.js');
 }();
 
 ;
@@ -17189,21 +17273,21 @@ var carousel__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(carousel_CarouselLeftButton, "CarouselLeftButton", "/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/carousel/carousel.js");
+  __REACT_HOT_LOADER__.register(carousel_CarouselLeftButton, "CarouselLeftButton", "/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/carousel/carousel.js");
 
-  __REACT_HOT_LOADER__.register(carousel_CarouselRightButton, "CarouselRightButton", "/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/carousel/carousel.js");
+  __REACT_HOT_LOADER__.register(carousel_CarouselRightButton, "CarouselRightButton", "/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/carousel/carousel.js");
 
-  __REACT_HOT_LOADER__.register(carousel_CarouselUpButton, "CarouselUpButton", "/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/carousel/carousel.js");
+  __REACT_HOT_LOADER__.register(carousel_CarouselUpButton, "CarouselUpButton", "/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/carousel/carousel.js");
 
-  __REACT_HOT_LOADER__.register(carousel_CarouselDownButton, "CarouselDownButton", "/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/carousel/carousel.js");
+  __REACT_HOT_LOADER__.register(carousel_CarouselDownButton, "CarouselDownButton", "/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/carousel/carousel.js");
 
-  __REACT_HOT_LOADER__.register(carousel_CarouselImage, "CarouselImage", "/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/carousel/carousel.js");
+  __REACT_HOT_LOADER__.register(carousel_CarouselImage, "CarouselImage", "/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/carousel/carousel.js");
 
-  __REACT_HOT_LOADER__.register(carousel_CarouselNavImage, "CarouselNavImage", "/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/carousel/carousel.js");
+  __REACT_HOT_LOADER__.register(carousel_CarouselNavImage, "CarouselNavImage", "/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/carousel/carousel.js");
 
-  __REACT_HOT_LOADER__.register(carousel_Carousel, "Carousel", "/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/carousel/carousel.js");
+  __REACT_HOT_LOADER__.register(carousel_Carousel, "Carousel", "/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/carousel/carousel.js");
 
-  __REACT_HOT_LOADER__.register(carousel__default, "default", "/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/carousel/carousel.js");
+  __REACT_HOT_LOADER__.register(carousel__default, "default", "/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/carousel/carousel.js");
 }();
 
 ;
@@ -17218,7 +17302,7 @@ var components_carousel__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_carousel__default, 'default', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/carousel/index.js');
+  __REACT_HOT_LOADER__.register(components_carousel__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/carousel/index.js');
 }();
 
 ;
@@ -17982,9 +18066,9 @@ var coupons__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(coupons_Coupons, 'Coupons', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/coupons/coupons.js');
+  __REACT_HOT_LOADER__.register(coupons_Coupons, 'Coupons', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/coupons/coupons.js');
 
-  __REACT_HOT_LOADER__.register(coupons__default, 'default', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/coupons/coupons.js');
+  __REACT_HOT_LOADER__.register(coupons__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/coupons/coupons.js');
 }();
 
 ;
@@ -17999,7 +18083,7 @@ var components_coupons__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_coupons__default, 'default', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/coupons/index.js');
+  __REACT_HOT_LOADER__.register(components_coupons__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/coupons/index.js');
 }();
 
 ;
@@ -18335,9 +18419,9 @@ var lists__temp = function () {
         return;
     }
 
-    __REACT_HOT_LOADER__.register(lists_Lists, 'Lists', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/lists/lists.js');
+    __REACT_HOT_LOADER__.register(lists_Lists, 'Lists', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/lists/lists.js');
 
-    __REACT_HOT_LOADER__.register(lists__default, 'default', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/lists/lists.js');
+    __REACT_HOT_LOADER__.register(lists__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/lists/lists.js');
 }();
 
 ;
@@ -18352,7 +18436,7 @@ var components_lists__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_lists__default, 'default', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/lists/index.js');
+  __REACT_HOT_LOADER__.register(components_lists__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/lists/index.js');
 }();
 
 ;
@@ -20211,9 +20295,9 @@ var header__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(header_Header, 'Header', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/header/header.js');
+  __REACT_HOT_LOADER__.register(header_Header, 'Header', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/header/header.js');
 
-  __REACT_HOT_LOADER__.register(header__default, 'default', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/header/header.js');
+  __REACT_HOT_LOADER__.register(header__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/header/header.js');
 }();
 
 ;
@@ -20228,7 +20312,7 @@ var components_header__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_header__default, 'default', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/header/index.js');
+  __REACT_HOT_LOADER__.register(components_header__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/header/index.js');
 }();
 
 ;
@@ -21013,7 +21097,7 @@ var footer_Footer = function (_Component) {
                                     react_default.a.createElement(
                                         'h3',
                                         null,
-                                        'JCPenney Credit Card'
+                                        'JCPenney Credit'
                                     ),
                                     react_default.a.createElement(
                                         'ul',
@@ -21050,10 +21134,10 @@ var footer_Footer = function (_Component) {
                             ),
                             react_default.a.createElement(
                                 'div',
-                                { className: 'footer-legal-links md12 lg8 xl8 sm12' },
+                                { className: 'footer-legal-links md6 lg4 xl4 sm12 nopad' },
                                 react_default.a.createElement(
                                     'ul',
-                                    null,
+                                    { className: '' },
                                     react_default.a.createElement(
                                         'li',
                                         null,
@@ -21082,7 +21166,118 @@ var footer_Footer = function (_Component) {
                                             react_default.a.createElement('img', { src: '/images/global/Adchoices.png', alt: 'Adchoices' }),
                                             ' '
                                         )
+                                    )
+                                )
+                            ),
+                            react_default.a.createElement(
+                                'div',
+                                { className: 'footer-legal-links md6 lg4 xl4 sm12 nopad' },
+                                react_default.a.createElement(
+                                    'ul',
+                                    { className: '' },
+                                    react_default.a.createElement(
+                                        'li',
+                                        null,
+                                        react_default.a.createElement(
+                                            'a',
+                                            { href: 'javascript:void();' },
+                                            'CA Privacy Rts'
+                                        )
                                     ),
+                                    react_default.a.createElement(
+                                        'li',
+                                        null,
+                                        react_default.a.createElement(
+                                            'a',
+                                            { href: 'javascript:void();' },
+                                            'Privacy Policy'
+                                        )
+                                    ),
+                                    react_default.a.createElement(
+                                        'li',
+                                        null,
+                                        react_default.a.createElement(
+                                            'a',
+                                            { href: 'javascript:void();' },
+                                            'CA Supply Chain Act'
+                                        )
+                                    )
+                                )
+                            )
+                        ),
+                        react_default.a.createElement(
+                            'div',
+                            { className: 'footer-copy' },
+                            ' \xA9JCP Media, Inc. 2017. All Rights Reserved'
+                        )
+                    ),
+                    react_default.a.createElement(
+                        'footer',
+                        { className: 'footer-block mini-footer-block' },
+                        react_default.a.createElement(
+                            'div',
+                            { className: 'contact-list md12 lg12 xl12 sm12' },
+                            react_default.a.createElement(
+                                'ul',
+                                null,
+                                react_default.a.createElement(
+                                    'li',
+                                    null,
+                                    react_default.a.createElement('span', { className: 'icon', dangerouslySetInnerHTML: { __html: footer_devicephoneImage } }),
+                                    react_default.a.createElement(
+                                        'a',
+                                        { href: 'javascript:void();' },
+                                        'Need Help? Give us a call 1 (800) 322-1189 '
+                                    )
+                                )
+                            )
+                        ),
+                        react_default.a.createElement(
+                            'div',
+                            { className: 'footer-bottom-links md12 lg12 xl12 sm12' },
+                            react_default.a.createElement(
+                                'div',
+                                { className: 'footer-legal-links md6 lg4 xl4 sm12 nopad' },
+                                react_default.a.createElement(
+                                    'ul',
+                                    { className: '' },
+                                    react_default.a.createElement(
+                                        'li',
+                                        null,
+                                        react_default.a.createElement(
+                                            'a',
+                                            { href: 'javascript:void();' },
+                                            'Legal'
+                                        )
+                                    ),
+                                    react_default.a.createElement(
+                                        'li',
+                                        null,
+                                        react_default.a.createElement(
+                                            'a',
+                                            { href: 'javascript:void();' },
+                                            'Recalls'
+                                        )
+                                    ),
+                                    react_default.a.createElement(
+                                        'li',
+                                        null,
+                                        react_default.a.createElement(
+                                            'a',
+                                            { href: 'javascript:void();' },
+                                            'AdChoices',
+                                            react_default.a.createElement('img', { src: '/images/global/Adchoices.png', alt: 'Adchoices' }),
+                                            ' '
+                                        )
+                                    )
+                                )
+                            ),
+                            react_default.a.createElement(
+                                'div',
+                                { className: 'footer-legal-links md6 lg4 xl4 sm12 nopad' },
+                                react_default.a.createElement(
+                                    'ul',
+                                    { className: '' },
                                     react_default.a.createElement(
                                         'li',
                                         null,
@@ -21138,9 +21333,9 @@ var footer__temp = function () {
         return;
     }
 
-    __REACT_HOT_LOADER__.register(footer_Footer, 'Footer', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/footer/footer.js');
+    __REACT_HOT_LOADER__.register(footer_Footer, 'Footer', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/footer/footer.js');
 
-    __REACT_HOT_LOADER__.register(footer__default, 'default', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/footer/footer.js');
+    __REACT_HOT_LOADER__.register(footer__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/footer/footer.js');
 }();
 
 ;
@@ -21155,7 +21350,7 @@ var components_footer__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_footer__default, 'default', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/footer/index.js');
+  __REACT_HOT_LOADER__.register(components_footer__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/footer/index.js');
 }();
 
 ;
@@ -21356,9 +21551,9 @@ var slide_out_panels__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(slide_out_panels_SlideOutPanels, 'SlideOutPanels', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/slide-out-panels/slide-out-panels.js');
+  __REACT_HOT_LOADER__.register(slide_out_panels_SlideOutPanels, 'SlideOutPanels', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/slide-out-panels/slide-out-panels.js');
 
-  __REACT_HOT_LOADER__.register(slide_out_panels__default, 'default', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/slide-out-panels/slide-out-panels.js');
+  __REACT_HOT_LOADER__.register(slide_out_panels__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/slide-out-panels/slide-out-panels.js');
 }();
 
 ;
@@ -21373,7 +21568,7 @@ var components_slide_out_panels__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_slide_out_panels__default, 'default', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/slide-out-panels/index.js');
+  __REACT_HOT_LOADER__.register(components_slide_out_panels__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/slide-out-panels/index.js');
 }();
 
 ;
@@ -23452,9 +23647,9 @@ var filter_sort__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(filter_sort_FilterSort, 'FilterSort', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/filter-sort/filter-sort.js');
+  __REACT_HOT_LOADER__.register(filter_sort_FilterSort, 'FilterSort', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/filter-sort/filter-sort.js');
 
-  __REACT_HOT_LOADER__.register(filter_sort__default, 'default', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/filter-sort/filter-sort.js');
+  __REACT_HOT_LOADER__.register(filter_sort__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/filter-sort/filter-sort.js');
 }();
 
 ;
@@ -23469,7 +23664,7 @@ var components_filter_sort__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_filter_sort__default, 'default', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/filter-sort/index.js');
+  __REACT_HOT_LOADER__.register(components_filter_sort__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/filter-sort/index.js');
 }();
 
 ;
@@ -25306,8 +25501,8 @@ var expand_collapse_ExpandCollapse = function (_Component) {
                             { className: 'star-ratings' },
                             react_default.a.createElement(
                               'a',
-                              { href: 'javascript:void();', className: 'rating-count' },
-                              '47'
+                              { href: 'javascript:void();', className: 'rating-count rating-count-underline std-txt std-txt-S' },
+                              '(99,999)'
                             )
                           )
                         )
@@ -25532,9 +25727,9 @@ var expand_collapse__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(expand_collapse_ExpandCollapse, 'ExpandCollapse', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/expand-collapse/expand-collapse.js');
+  __REACT_HOT_LOADER__.register(expand_collapse_ExpandCollapse, 'ExpandCollapse', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/expand-collapse/expand-collapse.js');
 
-  __REACT_HOT_LOADER__.register(expand_collapse__default, 'default', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/expand-collapse/expand-collapse.js');
+  __REACT_HOT_LOADER__.register(expand_collapse__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/expand-collapse/expand-collapse.js');
 }();
 
 ;
@@ -25549,7 +25744,7 @@ var components_expand_collapse__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_expand_collapse__default, 'default', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/expand-collapse/index.js');
+  __REACT_HOT_LOADER__.register(components_expand_collapse__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/expand-collapse/index.js');
 }();
 
 ;
@@ -27237,9 +27432,9 @@ var product_cards__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(product_cards_ProductCards, 'ProductCards', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/product-cards/product-cards.js');
+  __REACT_HOT_LOADER__.register(product_cards_ProductCards, 'ProductCards', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/product-cards/product-cards.js');
 
-  __REACT_HOT_LOADER__.register(product_cards__default, 'default', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/product-cards/product-cards.js');
+  __REACT_HOT_LOADER__.register(product_cards__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/product-cards/product-cards.js');
 }();
 
 ;
@@ -27254,7 +27449,7 @@ var components_product_cards__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_product_cards__default, 'default', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/product-cards/index.js');
+  __REACT_HOT_LOADER__.register(components_product_cards__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/product-cards/index.js');
 }();
 
 ;
@@ -27399,9 +27594,9 @@ var like_dislike__temp = function () {
         return;
     }
 
-    __REACT_HOT_LOADER__.register(like_dislike_LikeDislike, 'LikeDislike', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/like-dislike/like-dislike.js');
+    __REACT_HOT_LOADER__.register(like_dislike_LikeDislike, 'LikeDislike', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/like-dislike/like-dislike.js');
 
-    __REACT_HOT_LOADER__.register(like_dislike__default, 'default', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/like-dislike/like-dislike.js');
+    __REACT_HOT_LOADER__.register(like_dislike__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/like-dislike/like-dislike.js');
 }();
 
 ;
@@ -27416,7 +27611,7 @@ var components_like_dislike__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_like_dislike__default, 'default', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/like-dislike/index.js');
+  __REACT_HOT_LOADER__.register(components_like_dislike__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/like-dislike/index.js');
 }();
 
 ;
@@ -27443,6 +27638,9 @@ var add = function add(param1, param2) {
 var subtract = function subtract(param1, param2) {
   return param1 - param2;
 };
+var dotsToDisplay = {};
+var isSameStateFirstTime = true;
+var isMobile = false;
 
 var calculateScrollPixel = function calculateScrollPixel(_ref) {
   var productPanesDisplayed = _ref.productPanesDisplayed,
@@ -27493,12 +27691,14 @@ var recommendation_zone_RecommendationZone = function (_Component) {
     var _this = recommendation_zone__possibleConstructorReturn(this, (RecommendationZone.__proto__ || Object.getPrototypeOf(RecommendationZone)).call(this));
 
     _this.state = {
+
       listStyle: {},
       disableLeftArrow: true,
       disableRightArrow: false,
       productCartridgeList: [],
       cartridgeHeader: '',
-      currentDotIndex: 1
+      currentDotIndex: 1,
+      dotNodes: ''
     };
     _this.scrollStatus = {
       scrollPixels: 0,
@@ -27650,9 +27850,35 @@ var recommendation_zone_RecommendationZone = function (_Component) {
       );
     }
   }, {
-    key: 'scrollCartridge',
-    value: function scrollCartridge(scrollToRight) {
-      // const { productCartridgeList } = this.state;
+    key: 'componentWillMount',
+    value: function componentWillMount() {
+
+      isMobile = window.innerWidth < 1024;
+    }
+  }, {
+    key: 'componentDidMount',
+    value: function componentDidMount() {
+      this.listenScrollEvent = this.listenScrollEvent.bind(this);
+    }
+  }, {
+    key: 'shouldComponentUpdate',
+    value: function shouldComponentUpdate(nextProps, nextState) {
+      if (isMobile) {
+        if (this.state.currentDotIndex === nextState.currentDotIndex && isSameStateFirstTime) {
+          isSameStateFirstTime = false;
+          return true;
+        } else if (this.state.currentDotIndex !== nextState.currentDotIndex) {
+          isSameStateFirstTime = true;
+          return true;
+        }
+      } else return true;
+    }
+  }, {
+    key: 'getDots',
+    value: function getDots() {
+      var _this3 = this;
+
+      if (!this.wrapper) return;
       var productCartridgeList = 16;
       var pane = this.productPane;
       // const pane = 176;
@@ -27661,6 +27887,48 @@ var recommendation_zone_RecommendationZone = function (_Component) {
       var _scrollStatus = this.scrollStatus,
           scrollPixels = _scrollStatus.scrollPixels,
           scrolledPanes = _scrollStatus.scrolledPanes;
+
+
+      var totalProductPanes = productCartridgeList;
+      var result = wrapperWidth / productPaneWidth;
+      var productPanesDisplayed = Math.floor(result);
+      var numberOfDots = Math.ceil(totalProductPanes / productPanesDisplayed);
+
+      var generateDots = function generateDots() {
+        var listDots = [];
+        for (var i = 1; i <= numberOfDots; i += 1) {
+
+          var checkStatus = false;
+          if (_this3.state.currentDotIndex === i) {
+            checkStatus = true;
+          }
+          listDots.push(react_default.a.createElement(
+            'span',
+            null,
+            react_default.a.createElement('input', { type: 'radio', className: 'bullet', id: "id" + i, name: 'name', value: '', checked: checkStatus }),
+            react_default.a.createElement('label', { htmlFor: "id" + i })
+          ));
+        }
+        dotsToDisplay = listDots.length > 1 ? listDots : [];
+        return dotsToDisplay;
+      };
+      var node = generateDots();
+      this.setState({
+        dotNodes: node
+      });
+    }
+  }, {
+    key: 'scrollCartridge',
+    value: function scrollCartridge(scrollToRight) {
+      // const { productCartridgeList } = this.state;
+      var productCartridgeList = 16;
+      var pane = this.productPane;
+      // const pane = 176;
+      var wrapperWidth = this.wrapper.getBoundingClientRect().width;
+      var productPaneWidth = pane.getBoundingClientRect().width;
+      var _scrollStatus2 = this.scrollStatus,
+          scrollPixels = _scrollStatus2.scrollPixels,
+          scrolledPanes = _scrollStatus2.scrolledPanes;
 
       // Calculate number of products displayed in the container
 
@@ -27697,15 +27965,89 @@ var recommendation_zone_RecommendationZone = function (_Component) {
       });
     }
   }, {
+    key: 'delayedExec',
+    value: function delayedExec(after, fn) {
+      /* istanbul ignore next */
+      this.timer && clearTimeout(this.timer);
+      /* istanbul ignore next */
+      this.timer = setTimeout(fn, after);
+    }
+  }, {
+    key: 'getDotsWithDeley',
+    value: function getDotsWithDeley() {
+      var _this4 = this;
+
+      var node = void 0;
+      this.delayedExec(100, function () {
+        node = _this4.getDots();
+        return node;
+      });
+    }
+  }, {
+    key: 'listenScrollEvent',
+    value: function listenScrollEvent() {
+      var _this5 = this;
+
+      /* istanbul ignore next */
+      this.delayedExec(100, function () {
+        _this5.updateDotsPosition();
+      });
+    }
+  }, {
+    key: 'updateDotsPosition',
+    value: function updateDotsPosition() {
+      var productCartridgeList = 16;
+      var pane = this.productPane;
+      var wrapperWidth = this.wrapper.getBoundingClientRect().width;
+      var productPaneWidth = pane.getBoundingClientRect().width;
+      var _scrollStatus3 = this.scrollStatus,
+          scrollPixels = _scrollStatus3.scrollPixels,
+          scrolledPanes = _scrollStatus3.scrolledPanes;
+      // Calculate number of products displayed in the container
+
+      var totalProductPanes = productCartridgeList;
+      var result = wrapperWidth / productPaneWidth;
+      var productPanesDisplayed = Math.floor(result);
+      var dots = Math.ceil(totalProductPanes / productPanesDisplayed);
+
+      var elementDOMObj = document.getElementById("product-card-section");
+      /* istanbul ignore next */
+      // const lstStyle = $(".listStyleClass");
+
+      // const elementDOMObj = document.getElementById(this.props.slotId);
+      /* istanbul ignore next */
+      var element = elementDOMObj ? elementDOMObj.querySelector('.listStyleClass').parentNode : 0;
+
+      // const parentNode = lstStyle[0].parentNode
+      // const element = elementDOMObj ? elementDOMObj.parentNode : 0;
+      var scrollLeft = element.scrollLeft;
+      var maxScrollWidth = (dots - 1) * productPanesDisplayed * productPaneWidth;
+      var minscroll = maxScrollWidth / dots;
+      var currentPaneSlot = Math.ceil(scrollLeft / minscroll);
+      /* istanbul ignore next */
+      if (currentPaneSlot <= 0) {
+        currentPaneSlot = 1;
+      }
+      /* istanbul ignore next */
+      if (currentPaneSlot > dots) {
+        currentPaneSlot = dots;
+      }
+      this.setState({
+        currentDotIndex: currentPaneSlot
+      });
+    }
+  }, {
     key: 'render',
     value: function render() {
-      var _this3 = this;
+      var _this6 = this;
 
       var _state = this.state,
           listStyle = _state.listStyle,
           disableLeftArrow = _state.disableLeftArrow,
           disableRightArrow = _state.disableRightArrow;
 
+      var mobLeftFade = react_default.a.createElement('div', { className: 'rec-fade-left show-for-small-only show-for-medium-only' });
+      var mobRightFade = react_default.a.createElement('div', { className: 'rec-fade-right show-for-small-only show-for-medium-only' });
       return react_default.a.createElement(
         'div',
         null,
@@ -27740,24 +28082,36 @@ var recommendation_zone_RecommendationZone = function (_Component) {
               react_default.a.createElement(
                 'div',
                 { className: 'product-card-wrapper product-card-wrapper-recommendations', ref: function ref(wrapper) {
-                    _this3.wrapper = wrapper;
+                    _this6.wrapper = wrapper;
                   }, style: listStyle },
                 react_default.a.createElement(
                   'div',
-                  { className: 'chevron-wrapper hide-for-small-only hide-for-medium-only' },
-                  react_default.a.createElement('a', { style: { visibility: disableLeftArrow ? 'hidden' : 'visible' }, href: 'javascript:void(0);', onClick: function onClick() {
-                      return _this3.scrollCartridge(false);
-                    }, className: 'rec-zone-chevron-left icon chevron-icon', dangerouslySetInnerHTML: { __html: recommendation_zone_ChevronLeftImage } }),
-                  react_default.a.createElement('a', { style: { visibility: disableRightArrow ? 'hidden' : 'visible' }, href: 'javascript:void(0);', onClick: function onClick() {
-                      return _this3.scrollCartridge(true);
-                    }, className: 'rec-zone-chevron-right icon chevron-icon', dangerouslySetInnerHTML: { __html: recommendation_zone_ChevronRightImage } })
+                  { className: 'chevron-wrapper' },
+                  react_default.a.createElement('a', { style: { visibility: disableLeftArrow ? 'hidden' : 'visible' },
+                    href: 'javascript:void(0);',
+                    onClick: function onClick() {
+                      return _this6.scrollCartridge(false);
+                    },
+                    className: 'rec-zone-chevron-left icon chevron-icon hide-for-small-only hide-for-medium-only',
+                    dangerouslySetInnerHTML: { __html: recommendation_zone_ChevronLeftImage } }),
+                  react_default.a.createElement('a', { style: { visibility: disableRightArrow ? 'hidden' : 'visible' },
+                    href: 'javascript:void(0);',
+                    onClick: function onClick() {
+                      return _this6.scrollCartridge(true);
+                    },
+                    className: 'rec-zone-chevron-right icon chevron-icon hide-for-small-only hide-for-medium-only',
+                    dangerouslySetInnerHTML: { __html: recommendation_zone_ChevronRightImage } }),
+                  this.state.currentDotIndex == 1 ? '' : mobLeftFade,
+                  this.state.currentDotIndex == this.state.dotNodes.length ? '' : mobRightFade
                 ),
                 react_default.a.createElement(
                   'div',
-                  { className: 'product-card-block' },
+                  { className: 'product-card-block', id: 'product-card-section', onScroll: isMobile ? function () {
+                      return _this6.listenScrollEvent();
+                    } : '' },
                   react_default.a.createElement(
                     'ul',
-                    { style: listStyle },
+                    { style: listStyle, className: 'listStyleClass' },
                     this.productCardRecommendations({
                       name: "Lorem Ipsum Dolor Sec Mud Deler LoreM Dol…",
                       thumb: '/images/design-system/fpo/product-cards/product-card-recommendations-1.jpg',
@@ -27907,16 +28261,13 @@ var recommendation_zone_RecommendationZone = function (_Component) {
                 react_default.a.createElement(
                   'div',
                   { className: 'rec-zone-carousel show-for-small-only show-for-medium-only' },
-                  react_default.a.createElement('input', { type: 'radio', className: 'bullet', id: 'one', name: 'name', value: '', defaultChecked: 'true' }),
-                  react_default.a.createElement('label', { htmlFor: 'one' }),
-                  react_default.a.createElement('input', { type: 'radio', id: 'two', className: 'bullet', name: 'name', value: '' }),
-                  react_default.a.createElement('label', { htmlFor: 'two' }),
-                  react_default.a.createElement('input', { type: 'radio', id: 'three', className: 'bullet', name: 'name', value: '' }),
-                  react_default.a.createElement('label', { htmlFor: 'three' }),
-                  react_default.a.createElement('input', { type: 'radio', id: 'four', className: 'bullet', name: 'name', value: '' }),
-                  react_default.a.createElement('label', { htmlFor: 'four' }),
-                  react_default.a.createElement('input', { type: 'radio', id: 'five', className: 'bullet', name: 'name', value: '' }),
-                  react_default.a.createElement('label', { htmlFor: 'five' })
+                  react_default.a.createElement(
+                    'div',
+                    null,
+                    isMobile ? this.getDotsWithDeley() : '',
+                    ' ',
+                    isMobile ? this.state.dotNodes : ''
+                  )
                 )
               )
             )
@@ -27967,15 +28318,21 @@ var recommendation_zone__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(add, 'add', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/recommendation-zone/recommendation-zone.js');
+  __REACT_HOT_LOADER__.register(add, 'add', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/recommendation-zone/recommendation-zone.js');
 
-  __REACT_HOT_LOADER__.register(subtract, 'subtract', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/recommendation-zone/recommendation-zone.js');
+  __REACT_HOT_LOADER__.register(subtract, 'subtract', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/recommendation-zone/recommendation-zone.js');
 
-  __REACT_HOT_LOADER__.register(calculateScrollPixel, 'calculateScrollPixel', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/recommendation-zone/recommendation-zone.js');
+  __REACT_HOT_LOADER__.register(dotsToDisplay, 'dotsToDisplay', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/recommendation-zone/recommendation-zone.js');
 
-  __REACT_HOT_LOADER__.register(recommendation_zone_RecommendationZone, 'RecommendationZone', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/recommendation-zone/recommendation-zone.js');
+  __REACT_HOT_LOADER__.register(isSameStateFirstTime, 'isSameStateFirstTime', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/recommendation-zone/recommendation-zone.js');
 
-  __REACT_HOT_LOADER__.register(recommendation_zone__default, 'default', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/recommendation-zone/recommendation-zone.js');
+  __REACT_HOT_LOADER__.register(isMobile, 'isMobile', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/recommendation-zone/recommendation-zone.js');
+
+  __REACT_HOT_LOADER__.register(calculateScrollPixel, 'calculateScrollPixel', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/recommendation-zone/recommendation-zone.js');
+
+  __REACT_HOT_LOADER__.register(recommendation_zone_RecommendationZone, 'RecommendationZone', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/recommendation-zone/recommendation-zone.js');
+
+  __REACT_HOT_LOADER__.register(recommendation_zone__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/recommendation-zone/recommendation-zone.js');
 }();
 
 ;
@@ -27990,7 +28347,7 @@ var components_recommendation_zone__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_recommendation_zone__default, 'default', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/recommendation-zone/index.js');
+  __REACT_HOT_LOADER__.register(components_recommendation_zone__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/recommendation-zone/index.js');
 }();
 
 ;
@@ -28145,11 +28502,11 @@ var SubNav__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(varToURL, 'varToURL', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/containers/SubNav.js');
+  __REACT_HOT_LOADER__.register(varToURL, 'varToURL', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/containers/SubNav.js');
 
-  __REACT_HOT_LOADER__.register(SubNav_SubNav, 'SubNav', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/containers/SubNav.js');
+  __REACT_HOT_LOADER__.register(SubNav_SubNav, 'SubNav', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/containers/SubNav.js');
 
-  __REACT_HOT_LOADER__.register(SubNav__default, 'default', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/containers/SubNav.js');
+  __REACT_HOT_LOADER__.register(SubNav__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/containers/SubNav.js');
 }();
 
 ;
@@ -28287,9 +28644,9 @@ var DesignSystemPage__temp = function () {
         return;
     }
 
-    __REACT_HOT_LOADER__.register(DesignSystemPage_DesignSystemPage, 'DesignSystemPage', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/containers/DesignSystemPage.js');
+    __REACT_HOT_LOADER__.register(DesignSystemPage_DesignSystemPage, 'DesignSystemPage', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/containers/DesignSystemPage.js');
 
-    __REACT_HOT_LOADER__.register(DesignSystemPage__default, 'default', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/containers/DesignSystemPage.js');
+    __REACT_HOT_LOADER__.register(DesignSystemPage__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/containers/DesignSystemPage.js');
 }();
 
 ;
@@ -32308,9 +32665,9 @@ var work_in_progress__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(work_in_progress_WorkInProgress, 'WorkInProgress', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/work-in-progress/work-in-progress.js');
+  __REACT_HOT_LOADER__.register(work_in_progress_WorkInProgress, 'WorkInProgress', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/work-in-progress/work-in-progress.js');
 
-  __REACT_HOT_LOADER__.register(work_in_progress__default, 'default', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/work-in-progress/work-in-progress.js');
+  __REACT_HOT_LOADER__.register(work_in_progress__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/work-in-progress/work-in-progress.js');
 }();
 
 ;
@@ -32325,7 +32682,7 @@ var components_work_in_progress__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_work_in_progress__default, 'default', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/work-in-progress/index.js');
+  __REACT_HOT_LOADER__.register(components_work_in_progress__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/work-in-progress/index.js');
 }();
 
 ;
@@ -32728,15 +33085,15 @@ var Root__temp = function () {
         return;
     }
 
-    __REACT_HOT_LOADER__.register(Root_Home, 'Home', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/containers/Root.js');
+    __REACT_HOT_LOADER__.register(Root_Home, 'Home', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/containers/Root.js');
 
-    __REACT_HOT_LOADER__.register(Root_renderNavLinkItems, 'renderNavLinkItems', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/containers/Root.js');
+    __REACT_HOT_LOADER__.register(Root_renderNavLinkItems, 'renderNavLinkItems', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/containers/Root.js');
 
-    __REACT_HOT_LOADER__.register(Root_RenderNavLink, 'RenderNavLink', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/containers/Root.js');
+    __REACT_HOT_LOADER__.register(Root_RenderNavLink, 'RenderNavLink', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/containers/Root.js');
 
-    __REACT_HOT_LOADER__.register(Root_App, 'App', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/containers/Root.js');
+    __REACT_HOT_LOADER__.register(Root_App, 'App', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/containers/Root.js');
 
-    __REACT_HOT_LOADER__.register(Root__default, 'default', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/containers/Root.js');
+    __REACT_HOT_LOADER__.register(Root__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/containers/Root.js');
 }();
 
 ;
@@ -32772,7 +33129,7 @@ var js__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(js_render, 'render', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/index.jsx');
+  __REACT_HOT_LOADER__.register(js_render, 'render', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/index.jsx');
 }();
 
 ;
@@ -32994,9 +33351,9 @@ var _temp = function () {
         return;
     }
 
-    __REACT_HOT_LOADER__.register(Utils, 'Utils', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/helpers/Utils.js');
+    __REACT_HOT_LOADER__.register(Utils, 'Utils', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/helpers/Utils.js');
 
-    __REACT_HOT_LOADER__.register(_default, 'default', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/helpers/Utils.js');
+    __REACT_HOT_LOADER__.register(_default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/helpers/Utils.js');
 }();
 
 ;
@@ -33307,9 +33664,9 @@ var _temp = function () {
         return;
     }
 
-    __REACT_HOT_LOADER__.register(CreateInput, "CreateInput", "/Users/guest/Desktop/lincolnjcp.github.io/src/js/containers/CreateInput.js");
+    __REACT_HOT_LOADER__.register(CreateInput, "CreateInput", "/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/containers/CreateInput.js");
 
-    __REACT_HOT_LOADER__.register(_default, "default", "/Users/guest/Desktop/lincolnjcp.github.io/src/js/containers/CreateInput.js");
+    __REACT_HOT_LOADER__.register(_default, "default", "/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/containers/CreateInput.js");
 }();
 
 ;
