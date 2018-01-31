@@ -188,3 +188,11 @@
     }
   }
 }
+@media (--viewport-sm-only) {
+  .color-swatches-block .swatches-grid{
+    display: block; 
+  }
+  .color-swatches-block .list-product-colors-container li.focus{
+    display: inline-block; 
+  }
+}

@@ -208,3 +208,9 @@ table {
         width: 230%;
     }
 }
+@media (--viewport-xl-only) {
+
+    .prodCompareContainer .prodCompare{
+        width: 100%;
+    }
+}

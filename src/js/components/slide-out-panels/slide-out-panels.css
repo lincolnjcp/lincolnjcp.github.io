@@ -85,7 +85,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  padding: 70px 16px;
+  padding: 74px 16px;
   overflow: auto;
   -webkit-overflow-scrolling: touch;
 }
@@ -182,7 +182,7 @@
 	  }
 	}
 	.side-panel-content{
-		padding: 60px 16px;
+		padding: 54px 16px;
 		& .filter-left-block {
 			& .filter-accordion{
 				margin: 0 -15px;
