@@ -75,7 +75,6 @@
     position: absolute;
     right: 0;
     border: none;
-    border-left: 1px solid var(--color-concrete);
     padding: 0;
     height: 48px;
     width: 48px;
@@ -371,14 +370,16 @@
 .search-block {
   & .search-close-icon {
     display: block;
-      position: absolute;
-      right: 54px;
-      top: 18px;
-      background: url("var(--path-images)global/icons/nav/close.svg") no-repeat;
-      height: 16px;
-      width: 16px;
-      background-size: contain;
-    
+    position: absolute;
+    right: 54px;
+    top: 18px;
+    background: url("var(--path-images)global/icons/nav/close.svg") no-repeat;
+    height: 16px;
+    width: 16px;
+    background-size: contain;
+  }
+  & input[type="text"] {
+    border-radius: 24px;
   }
   & .input-text:not(:valid) ~ .search-close-icon {
     display: none;

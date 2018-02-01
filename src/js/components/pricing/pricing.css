@@ -40,6 +40,7 @@
     left: -4%;
     z-index: 1;
     margin-left: 4px;
+    width: 150px;
 }
 
 .price-badge-btmLft {

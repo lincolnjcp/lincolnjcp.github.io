@@ -28,7 +28,7 @@
 				}
 			}
 			@media (--viewport-sm-only) {
-				width: 114px;
+				width: 120px;
 				margin: 0 8px;
 				& .product-card-name {
 					font-size: 12px;
