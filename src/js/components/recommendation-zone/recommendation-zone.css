@@ -8,8 +8,10 @@
 		position: relative;
 		overflow: hidden;
 		overflow-x: auto;
+		overflow-y: hidden;
 		@media (--viewport-md-down) {
 			overflow: auto;
+			overflow-y: hidden;
 		}
 		& .product-card-recommendation {
 			@media (--viewport-xl-only) {
@@ -19,13 +21,19 @@
 				width: 160px;
 			}
 			@media (--viewport-md-only) {
-				width: 144px;
+				width: 122px;
+				& .product-card-name {
+					height: 35px;
+    				overflow: hidden;
+				}
 			}
 			@media (--viewport-sm-only) {
 				width: 114px;
 				margin: 0 8px;
 				& .product-card-name {
 					font-size: 12px;
+					height: 35px;
+    				overflow: hidden;
 				}
 			}
 		}
@@ -146,23 +154,27 @@
 .rec-fade-left {
 	position: absolute;
     max-height: 300px;
-    width: 68px;
+    width: 120px;
     z-index: 999;
     min-height: 290px;
-    background: #fff;
-	opacity: 0.6;
 	left: 0;
+	background: -moz-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 99%, rgba(255,255,255,0) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 99%,rgba(255,255,255,0) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 99%,rgba(255,255,255,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=1 ); /* IE6-9 */
 }
 
 .rec-fade-right {
 	position: absolute;
     max-height: 300px;
-    width: 68px;
+    width: 120px;
     z-index: 999;
-    min-height: 290px;
-    background: #fff;
-	opacity: 0.6;
+	min-height: 290px;
 	right: 0;
+    background: -moz-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 */
 }
 
 

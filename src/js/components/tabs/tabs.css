@@ -19,6 +19,9 @@
       color: var(--color-penneyred);
       position: relative;
       top: 2px;
+      @media (--viewport-sm-only) {
+        display: block;
+      }
 
       &:hover{
         text-decoration: underline;

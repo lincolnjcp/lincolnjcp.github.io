@@ -154,6 +154,8 @@
             @media (--viewport-md-only) {
                 margin: 0 auto;
                 display: block;
+                text-align: center;
+                padding-left: 50px;
             }
             @media (--viewport-sm-only) {
                 padding-left: 20px;
@@ -164,6 +166,9 @@
                 position: relative;
                 top: -16px;
                 right: 16px;
+                @media (--viewport-md-only) {
+                    margin-right: 8px;
+                }
                 & svg {
                     width: 80px;
                     height: 60px;
@@ -173,8 +178,14 @@
                 & h3 {
                     font-weight: bold;
                     font-size: 14px;
+                    @media (--viewport-md-only) {
+                        text-align: left;
+                    }
                 }
                 & ul {
+                    @media (--viewport-md-only) {
+                        text-align: left;
+                    }
                     & li {
                         display: inline-block;
                         font-size: 12px;
@@ -187,6 +198,7 @@
             }
         }
         & .footer-legal-links {
+            float: right;
             @media (--viewport-md-only) {
                 text-align: center;
             }
@@ -229,4 +241,17 @@
             }
         }
     }
+}
+@media (--viewport-sm) {
+     .footer-block {
+        & .footer-bottom-links{
+            & .footer-legal-links ul{
+                float: none;
+                margin: 0 15%;
+            }
+            & .footer-jcp-card .card-links ul li{
+                padding: 6px 24px 0 0;
+            }
+        }
+     }
 }

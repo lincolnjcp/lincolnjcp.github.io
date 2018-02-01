@@ -267,15 +267,11 @@ class Footer extends Component {
                                     </ul>
                                 </div>
                             </div>
-                            <div className="footer-legal-links md6 lg4 xl4 sm12 nopad">
+                            <div className="footer-legal-links md12 lg4 xl4 sm12 nopad">
                                 <ul className="">
                                     <li><a href="javascript:void();">Legal</a></li>
                                     <li><a href="javascript:void();">Recalls</a></li>
                                     <li><a href="javascript:void();">AdChoices<img src="/images/global/Adchoices.png" alt="Adchoices" /> </a></li>
-                                </ul>
-                            </div>
-                            <div className="footer-legal-links md6 lg4 xl4 sm12 nopad">
-                                <ul className="">
                                     <li><a href="javascript:void();">CA Privacy Rts</a></li>
                                     <li><a href="javascript:void();">Privacy Policy</a></li>
                                     <li><a href="javascript:void();">CA Supply Chain Act</a></li>
