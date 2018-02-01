@@ -1,0 +1,46 @@
+/***************************************************
+/* Footer Minimized
+***************************************************/
+
+.mini-footer {
+    & .footer-need-help {
+        border-top: 1px solid var(--color-concrete);
+        border-bottom: 1px solid var(--color-concrete);
+        text-align: center;
+        padding: 16px 0 8px;
+        & .device-phone {
+            & svg {
+                width: 32px;
+                height: 32px;;
+            }
+        }
+        & .need-help {
+            position: relative;
+            top: -10px;
+            left: 4px;
+            font-size: 12px;
+        }
+    }
+    & .mini-legal-links {
+        & ul {
+            & li{
+                display: inline-block;
+                padding-right: 26px;
+                & a {
+                    text-decoration: none;
+                    font-size: 12px;
+                }
+                @media (--viewport-sm-only) {
+                    padding-right: 16px;
+                    line-height: 18px;
+                    & a{
+                        font-size: 10px;
+                    }
+                }
+            }
+        }
+    }
+    & .mini-footer-copy {
+        font-size: 10px;
+    }
+}

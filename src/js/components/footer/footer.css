@@ -156,7 +156,7 @@
                 display: block;
             }
             @media (--viewport-sm-only) {
-                padding-left: 32px;
+                padding-left: 20px;
             }
             & .card-icon {
                 float: left;
@@ -228,48 +228,5 @@
                 margin-left: 36px;
             }
         }
-    }
-}
-
-.mini-footer-block{
-    & .contact-list{
-        border-top: 1px solid var(--color-concrete);
-        border-bottom: 1px solid var(--color-concrete);
-        text-align: center;
-        padding:16px 0;
-        & ul{
-            margin: 0;
-            & li .icon{
-                top: auto;
-            vertical-align: middle;
-            }
-        }
-      
-    }
-    & .footer-bottom-links{
-        text-align: center;
-    }
-  
-}
-@media (--viewport-sm) {
-     .footer-block {
-        & .footer-bottom-links{
-            & .footer-legal-links ul{
-                float: none;
-            }
-            & .footer-jcp-card .card-links ul li{
-                padding: 6px 12px 0 0;
-            }
-        }
-
-     }
-    .footer-block .signup-block .input-form .input-text{
-        padding-right: 108px;
-    }
-    .footer-block .footer-bottom-links .footer-legal-links ul{
-      
-    }
-    .footer-block .footer-bottom-links .footer-jcp-card .card-links ul li{
-       
     }
 }

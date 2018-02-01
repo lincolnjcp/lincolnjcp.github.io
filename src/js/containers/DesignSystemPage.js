@@ -30,6 +30,7 @@ import Lists from '../components/lists';
 
 import Header from '../components/header';
 import Footer from '../components/footer';
+import FooterMinimized from '../components/footer-minimized';
 import SlideOutPanels from '../components/slide-out-panels';
 import FilterSort from '../components/filter-sort';
 import ExpandCollapse from '../components/expand-collapse';
@@ -69,6 +70,7 @@ class DesignSystemPage extends Component {
    Carousel: {componentElement: Carousel, componentDisplayName: "Carousels", componentSubNav: ['Carousel']},
    Header: {componentElement: Header, componentDisplayName: "Header", componentSubNav: ['Header']},
    Footer: {componentElement: Footer, componentDisplayName: "Footer", componentSubNav: ['Footer']},
+   FooterMinimized: {componentElement: FooterMinimized, componentDisplayName: "FooterMinimized", componentSubNav: ['FooterMinimized']},
    Coupons: {componentElement: Coupons, componentDisplayName: "Coupons", componentSubNav: ['Coupons']},
    SlideOutPanels: {componentElement: SlideOutPanels, componentDisplayName: "Slide Out Panels", componentSubNav: ['Slide Out Panels']},
    ProductCards: {componentElement: ProductCards, componentDisplayName: "Product Cards", componentSubNav: ['Product Cards']},

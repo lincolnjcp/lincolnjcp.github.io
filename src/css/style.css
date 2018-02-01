@@ -11,7 +11,6 @@ Base Styles
 @import "base/reset";
 @import "../js/components/typography/typography";
 @import "../js/components/color/color";
-/*@import "base/breadcrumbs";*/
 @import "../js/components/buttons/buttons";
 @import "../js/components/badges/badges";
 @import "base/forms";
@@ -57,4 +56,5 @@ Page Modules
 @import "../js/components/slide-out-panels/slide-out-panels";
 @import "../js/components/header/header";
 @import "../js/components/footer/footer";
+@import "../js/components/footer-minimized/footer-minimized";
 @import "../js/components/filter-sort/filter-sort";

@@ -144,21 +144,25 @@
 }
 
 .rec-fade-left {
-    position: absolute;
-    left: 0;
-    height: 100px;
-    width: 50px;
+	position: absolute;
+    max-height: 300px;
+    width: 68px;
     z-index: 999;
-    border: 1px solid;
+    min-height: 290px;
+    background: #fff;
+	opacity: 0.6;
+	left: 0;
 }
 
 .rec-fade-right {
-    position: absolute;
-    right: 0;
-    height: 100px;
-    width: 50px;
-    border: 1px solid;
+	position: absolute;
+    max-height: 300px;
+    width: 68px;
     z-index: 999;
+    min-height: 290px;
+    background: #fff;
+	opacity: 0.6;
+	right: 0;
 }
 
 
