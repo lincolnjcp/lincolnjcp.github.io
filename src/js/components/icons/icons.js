@@ -22,6 +22,7 @@ const carddiscoverImage = require('!!raw-loader?es5=1!../../../images/global/ico
 const cardgiftImage = require('!!raw-loader?es5=1!../../../images/global/icons/payment/card-gift.svg');
 const cardjcvvImage = require('!!raw-loader?es5=1!../../../images/global/icons/payment/card-jcvv.svg');
 const cardneutralImage = require('!!raw-loader?es5=1!../../../images/global/icons/payment/card-neutral.svg');
+const applePayImage = require('!!raw-loader?es5=1!../../../images/global/icons/payment/applepay.svg');
 
 const thumbsdownfillImage = require('!!raw-loader?es5=1!../../../images/global/icons/action/thumbsdown-fill.svg');
 const thumbsdownlineImage = require('!!raw-loader?es5=1!../../../images/global/icons/action/thumbsdown-line.svg');
@@ -75,6 +76,7 @@ const minusImage = require('!!raw-loader?es5=1!../../../images/global/icons/nav/
 const plusImage = require('!!raw-loader?es5=1!../../../images/global/icons/nav/plus.svg');
 const backtotopImage = require('!!raw-loader?es5=1!../../../images/global/icons/nav/back-to-top.svg');
 
+// Utility
 const cartImage = require('!!raw-loader?es5=1!../../../images/global/icons/utility/cart/cart.svg');
 const cartFullImage = require('!!raw-loader?es5=1!../../../images/global/icons/utility/cart/cart-full.svg');
 const expresscheckoutImage = require('!!raw-loader?es5=1!../../../images/global/icons/utility/cart/express-checkout.svg');
@@ -116,10 +118,14 @@ const starhalfImage = require('!!raw-loader?es5=1!../../../images/global/icons/u
 const onlineonlyImage = require('!!raw-loader?es5=1!../../../images/global/icons/utility/online-only.svg');
 const idImage = require('!!raw-loader?es5=1!../../../images/global/icons/utility/info/id.svg');
 const idfillImage = require('!!raw-loader?es5=1!../../../images/global/icons/utility/info/id-fill.svg');
+const penneyImage = require('!!raw-loader?es5=1!../../../images/global/icons/utility/penny.svg');
+const rewardsImage = require('!!raw-loader?es5=1!../../../images/global/icons/utility/rewards.svg');
+
 
 const blogfillImage = require('!!raw-loader?es5=1!../../../images/global/icons/social/blog-fill.svg');
 const bloglineImage = require('!!raw-loader?es5=1!../../../images/global/icons/social/blog-line.svg');
 const facebookfillImage = require('!!raw-loader?es5=1!../../../images/global/icons/social/facebook-fill.svg');
+const facebookMinImage = require('!!raw-loader?es5=1!../../../images/global/icons/social/facebook-min.svg');
 const facebooklineImage = require('!!raw-loader?es5=1!../../../images/global/icons/social/facebook-line.svg');
 const googleplusfillImage = require('!!raw-loader?es5=1!../../../images/global/icons/social/google-plus-fill.svg');
 const googlepluslineImage = require('!!raw-loader?es5=1!../../../images/global/icons/social/google-plus-line.svg');
@@ -129,10 +135,14 @@ const pinterestfillImage = require('!!raw-loader?es5=1!../../../images/global/ic
 const pinterestlineImage = require('!!raw-loader?es5=1!../../../images/global/icons/social/pinterest-line.svg');
 const twitterfillImage = require('!!raw-loader?es5=1!../../../images/global/icons/social/twitter-fill.svg');
 const twitterlineImage = require('!!raw-loader?es5=1!../../../images/global/icons/social/twitter-line.svg');
+const twitterMinImage = require('!!raw-loader?es5=1!../../../images/global/icons/social/twitter-min.svg');
 const youtubefillImage = require('!!raw-loader?es5=1!../../../images/global/icons/social/youtube-fill.svg');
 const youtubelineImage = require('!!raw-loader?es5=1!../../../images/global/icons/social/youtube-line.svg');
+// Logos
+const jcpenneyImage = require('!!raw-loader?es5=1!../../../images/global/icons/logos/JCPenney.svg');
+const jcpenneyRewardsImage = require('!!raw-loader?es5=1!../../../images/global/icons/logos/JCPRewards.svg');
 
-const ColorPicker = () => 
+const ColorPicker = () =>
     <div class="design-system-color-picker mrg-M">
       <span class="color-picker-icon selected"><span class="color-nightsky-bg color-picker-swatch"></span></span>
 
@@ -173,7 +183,7 @@ iconCol(iconName, iconDetails, iconComponent ){
 
 componentDidMount() {
 
-  $(".design-system-color-picker select").change(function(event) { 
+  $(".design-system-color-picker select").change(function(event) {
     var parent = $(this).closest(".design-system-toggle-section");
     var children = parent.find(".icon");
     var attr = parent.attr('data-color-class');
@@ -197,7 +207,7 @@ componentDidMount() {
   });
 
   $(".design-system-color-picker select").trigger('change');
-   
+
 }
 
 
@@ -243,6 +253,7 @@ componentDidMount() {
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             <div className="row  small-up-4 medium-up-3 large-up-4 design-system-icon-set">
                 {this.iconCol("card-jcp", "JCP credit card accepted", cardjcpImage)} {this.iconCol("card-jcp-gold", "JCP mastercard gold", cardjcpgoldImage)} {this.iconCol("card-jcp-red", "JCP mastercard", cardjcpredImage)} {this.iconCol("card-jcp-platinum", "JCP mastercard platinum", cardjcpplatinumImage)} {this.iconCol("card-mastercard", "Mastercard", cardmastercardImage)} {this.iconCol("card-mastercard-gold", "Gold Mastercard", cardmastercardgoldImage)} {this.iconCol("card-paypal", "PayPal", cardpaypalImage)} {this.iconCol("card-visa", "Visa", cardvisaImage)} {this.iconCol("card-amex", "American Express", cardamexImage)} {this.iconCol("card-discover", "Discover", carddiscoverImage)} {this.iconCol("card-gift", "Gift Card Payment", cardgiftImage)} {this.iconCol("card-jcvv", "card verification code", cardjcvvImage)} {this.iconCol("card-neutral", "card neutral", cardneutralImage)}
+                {this.iconCol("apple-pay", "Apple Pay", applePayImage)}
             </div>
             <hr />
         </div>
@@ -299,8 +310,9 @@ componentDidMount() {
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 <div className="row  small-up-4 medium-up-3 large-up-4 design-system-icon-set">
                     {this.iconCol("cart", "navigate to shopping cart", cartImage)} {this.iconCol("full cart", "shopping cart with items", cartFullImage)} {this.iconCol("express-checkout", "express checkout", expresscheckoutImage)} {this.iconCol("haul-away", "haul away appliaces", haulawayImage)} {this.iconCol("track-order", "CAM track orders", trackorderImage)} {this.iconCol("truck", "truck deilvery", truckImage)} {this.iconCol("local-ad", "local store print ads", localadImage)} {this.iconCol("same-day-pickup", "store pick up", samedaypickupImage)} {this.iconCol("store", "store location", storeImage)} {this.iconCol("location-pin", "indicate location/store", locationpinImage)} {this.iconCol("return", "return prodcuts", returnImage)} {this.iconCol("recycle", "recycling", recycleImage)} {this.iconCol("lock", "security in checkout/payment", lockImage)} {this.iconCol("account", "customer account/profile", accountImage)} {this.iconCol("cash", "rewards cash", cashImage)} {this.iconCol("coupon-fill", "coupons", couponfillImage)} {this.iconCol("gift-registry", "gift registry", giftregistryImage)} {this.iconCol("wallet", "payment method", walletImage)} {this.iconCol("piggy-bank", "savings", piggybankImage)} {this.iconCol("ribbon", "???", ribbonImage)} {this.iconCol("clip", "clip coupon", clipImage)} {this.iconCol("camera", "active camera device", cameraImage)} {this.iconCol("play", "play media", playImage)} {this.iconCol("video", "multi-media video", videoImage)} {this.iconCol("ruler", "size guides", rulerImage)} {this.iconCol("appointment", "???", appointmentImage)} {this.iconCol("schedule-appt", "schedule appointment with JCP store services", scheduleapptImage)} {this.iconCol("wedding-date", "???", weddingdateImage)} {this.iconCol("parts-services", "additional appliance services", partsservicesImage)} {this.iconCol("device-mobile", "mobile device", devicemobileImage)} {this.iconCol("device-phone", "contact via phone; phone input", devicephoneImage)} {this.iconCol("collection", "product collection", collectionImage)} {this.iconCol("collection-multi", "multiple product collections", collectionmultiImage)} {this.iconCol("barcode", "scan barcode", barcodeImage)} {this.iconCol("barcode-qr", "???", barcodeqrImage)} {this.iconCol("shield", "protection plans", shieldImage)} {this.iconCol("star", "ratings", starImage)} {this.iconCol("star-half", "ratings", starhalfImage)} {this.iconCol("online-only", "???", onlineonlyImage)}
-
                     {this.iconCol("id", "???", idImage)} {this.iconCol("id-fill", "???", idfillImage)}
+                    {this.iconCol("Penney", "Penney Icon", penneyImage)}
+                    {this.iconCol("Rewards", "Rewards Icon", rewardsImage)}
                 </div>
                 <hr />
             </div>
@@ -319,8 +331,31 @@ componentDidMount() {
             <div className="sm12 columns">
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 <div className="row  small-up-4 medium-up-3 large-up-4 design-system-icon-set">
-                    {this.iconCol("blog-fill", "Link to JCP blog", blogfillImage)} {this.iconCol("blog-line", "Link to JCP blog", bloglineImage)} {this.iconCol("facebook-fill", "Share to Facebook", facebookfillImage)} {this.iconCol("facebook-line", "Share to Facebook", facebooklineImage)} {this.iconCol("google-plus-fill", "Share to Google+", googleplusfillImage)} {this.iconCol("google-plus-line", "Share to Google+", googlepluslineImage)} {this.iconCol("instagram-fill", "Share to Instagram", instagramfillImage)} {this.iconCol("instagram-line", "Share to Instagram", instagramlineImage)} {this.iconCol("pinterest-fill", "Pin to Pintrest board", pinterestfillImage)} {this.iconCol("pinterest-line", "Pin to Pintrest board", pinterestlineImage)} {this.iconCol("twitter-fill", "Share to Twitter", twitterfillImage)} {this.iconCol("twitter-line", "Share to Twitter", twitterlineImage)} {this.iconCol("youtube-fill", "Link to JCP YouTube channel", youtubefillImage)} {this.iconCol("youtube-line", "Link to JCP YouTube channel", youtubelineImage)}
+                    {this.iconCol("blog-fill", "Link to JCP blog", blogfillImage)} {this.iconCol("blog-line", "Link to JCP blog", bloglineImage)} {this.iconCol("facebook-fill", "Share to Facebook", facebookfillImage)}
+                    {this.iconCol("facebook-min", "Share to Facebook", facebookMinImage)}
+                    {this.iconCol("facebook-line", "Share to Facebook", facebooklineImage)} {this.iconCol("google-plus-fill", "Share to Google+", googleplusfillImage)} {this.iconCol("google-plus-line", "Share to Google+", googlepluslineImage)} {this.iconCol("instagram-fill", "Share to Instagram", instagramfillImage)} {this.iconCol("instagram-line", "Share to Instagram", instagramlineImage)} {this.iconCol("pinterest-fill", "Pin to Pintrest board", pinterestfillImage)} {this.iconCol("pinterest-line", "Pin to Pintrest board", pinterestlineImage)} {this.iconCol("twitter-fill", "Share to Twitter", twitterfillImage)} {this.iconCol("twitter-line", "Share to Twitter", twitterlineImage)} {this.iconCol("twitter-min", "Share to Twitter", twitterMinImage)} {this.iconCol("youtube-fill", "Link to JCP YouTube channel", youtubefillImage)} {this.iconCol("youtube-line", "Link to JCP YouTube channel", youtubelineImage)}
                 </div>
+            </div>
+        </div>
+    </div>
+    <hr />
+    <div className="design-system-toggle-section">
+        <div className="row" id="logos">
+            <div className="sm12 md6 lg8 columns">
+                <h3 className="title title-L mrg-L">Logos</h3>
+            </div>
+            <div className="sm12 md6 lg4 columns">
+                <ColorPicker />
+            </div>
+        </div>
+        <div className="row">
+            <div className="sm12 columns">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <div className="row  small-up-4 medium-up-3 large-up-4 design-system-icon-set">
+                    {this.iconCol("jcp-logo", "The JCPenney Logo", jcpenneyImage)}
+                    {this.iconCol("jcp-rewards-logo", "JCPRewards Logo", jcpenneyRewardsImage)}
+                </div>
+                <hr />
             </div>
         </div>
     </div>
@@ -332,7 +367,7 @@ componentDidMount() {
         </div>
     </div>
 </div>
-    
+
     );
   }
 }
