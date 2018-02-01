@@ -148,6 +148,16 @@
       }
     }
   }
+  &.scroll-container{
+        max-width: 540px;
+        padding: 36px 14px 0;
+      & .modal-close{
+        width: 16px;
+        height: 16px;
+        right: -6px;
+        top: 10px;
+      }
+  }
 }
 
 .modal-overlay {
@@ -179,6 +189,10 @@
     }
     &.scroll-container{
       width: 96%;
+      & .scrollable {
+        left: -6px;
+        width: 102%;
+      }
     }
   }
 }

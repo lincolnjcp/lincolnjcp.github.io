@@ -203,6 +203,11 @@ const rootNav = [
                 content: 'Find a Store',
             },
             {
+                to: '/page-modules/footer-minimized',
+                activeClassName: 'active',
+                content: 'Footer Minimized',
+            },
+            {
                 to: '/page-modules/footer',
                 activeClassName: 'active',
                 content: 'Footer',

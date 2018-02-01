@@ -138,25 +138,25 @@ p {
     &.price-note-M {
         font-size: 14px;
         line-height: 14px;
-        font-weight: normal;
+        font-weight: var(--font-weight-normal);
     }
 
     &.price-note {
         font-size: 12px;
         line-height: 14px;
-        font-weight: normal;
+        font-weight: var(--font-weight-normal);
     }
 
     &.price-note-XS {
         font-size: 10px;
         letter-spacing: .25px;
         line-height: 14px;
-        font-weight: normal;
+        font-weight: var(--font-weight-normal);
     }
 
     &.price-details {
         font-size: 14px;
-        font-weight: normal;
+        font-weight: var(--font-weight-normal);
     }
 }
 
@@ -172,7 +172,7 @@ p {
 /*  Titles */
 .title {
     font-family: var(--font-headline);
-    font-weight: var(--font-weight-regular);
+    font-weight: var(--font-weight-normal);
     color: var(--color-nightsky);
 }
 

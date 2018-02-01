@@ -259,7 +259,7 @@ class Footer extends Component {
                                     <span className="icon" dangerouslySetInnerHTML={{ __html: cardJCPRed }} />
                                 </div>
                                 <div className="card-links">
-                                    <h3>JCPenney Credit Card</h3>
+                                    <h3>JCPenney Credit</h3>
                                     <ul>
                                         <li><a href="javascript:void();">Pay Bill </a></li>
                                         <li><a href="javascript:void();">Check Balance </a></li>
@@ -267,8 +267,8 @@ class Footer extends Component {
                                     </ul>
                                 </div>
                             </div>
-                            <div className="footer-legal-links md12 lg8 xl8 sm12">
-                                <ul>
+                            <div className="footer-legal-links md12 lg4 xl4 sm12 nopad">
+                                <ul className="">
                                     <li><a href="javascript:void();">Legal</a></li>
                                     <li><a href="javascript:void();">Recalls</a></li>
                                     <li><a href="javascript:void();">AdChoices<img src="/images/global/Adchoices.png" alt="Adchoices" /> </a></li>
@@ -280,8 +280,6 @@ class Footer extends Component {
                         </div>
                         <div className="footer-copy"> ©JCP Media, Inc. 2017. All Rights Reserved</div>
                     </footer>
-
-
                 </div>
             </div>
         );

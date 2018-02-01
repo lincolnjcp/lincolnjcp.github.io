@@ -45,6 +45,9 @@
       position: relative;
       top: 3px;
       line-height: 16px;
+      @media (--viewport-sm-only) {
+        max-width: 54px;
+      }
     }
   }
 

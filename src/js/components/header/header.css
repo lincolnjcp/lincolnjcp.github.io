@@ -30,7 +30,7 @@
 	display: flex;
 	flex: 0 0 100%;
 	flex-direction: row;
-	padding: 4px 8px;
+	padding: 5px 8px;
 	max-width: 1400px;
 	margin: 0 auto;
 
@@ -195,7 +195,7 @@
 	& .main-menu-primary-rewards {
 		flex: none;
 		width: 140px;
-		padding-left: 15px;
+		padding-left: 5px;
 	}
 
 
@@ -283,8 +283,8 @@
 		}
 
 		& .main-menu-secondary-li-primary {
-			padding-left: 8px;
-			padding-right: 8px;
+			padding-left: 16px;
+			padding-right: 16px;
 			& a {
 				text-decoration: none;
 				display: inline-block;
@@ -794,7 +794,9 @@
 	}
 	.main-menu-primary {
 		position: relative;
+		padding: 10px 25px;
 		padding-bottom: 60px;
+
 
 		& .side-panel-btn {
 			position: absolute;
@@ -806,7 +808,7 @@
 			max-width: initial;
 			flex: 2;
 			flex-basis: 160px;
-			padding-left: 52px;
+			padding-left: 63px;
 			position: relative;
 
 		}
@@ -822,6 +824,7 @@
 			bottom: 12px;
 			left: 0px;
 			width: 100%;
+			padding: 0 32px;
 		}
 
 	}
@@ -849,19 +852,21 @@
 		padding: 4px 5px 6px 5px;
 	}
 	.main-menu-primary {
-		padding: 8px 20px 47px;
+		padding: 8px 22px 47px;
 		& .main-menu-primary-cart {
-			padding-right: 8px;
-			width: 44px;
+			padding-right: 0;
+			width: 36px;
 			& .main-menu-primary-cart-icon-full {
 				width: 32px;
 				height: 32px;
+				top: -2px;
 				& .main-menu-primary-cart-icon-full-icon {
 					width: 32px;
 					height: 32px;
+					
 					& svg {
-						width: 32px;
-						height: 32px;	
+						width: 36px;
+						height: 36px;	
 					}
 				}
 				& .main-menu-primary-cart-icon-full-items {
@@ -899,7 +904,7 @@
 		}
 
 		& .main-menu-primary-logo {
-			padding-left: 38px;
+			padding-left: 44px;
 		}
 		& .side-panel-btn {
 			width: 32px;
@@ -921,12 +926,13 @@
 				height: 32px;
 				padding: 0;
 				& .main-menu-primary-account-icon {
-					top: -1px;
-					width: 32px;
-					height: 32px;
+					top: -3px;
+					width: 36px;
+					height: 36px;
+					left: -4px;
 					& svg {
-						width: 32px;
-						height: 32px;
+						width: 36px;
+						height: 36px;
 					}
 				}
 				& .main-menu-primary-account-title, 
@@ -943,7 +949,22 @@
 			
 		}
 	}
-
+.my-location{
+	& .btn.btn-secondary{
+		width: 100%;
+		color:var(--color-nightsky);
+		& .icon{
+			width: 28px;
+			height: 28px;
+			margin-right: 4px;
+			top: -1px;
+			& svg{
+				height:28px;
+				width:28px;
+			}
+		}
+	}
+}
 }
 
 .change-my-store-map-view {

@@ -102,7 +102,7 @@ class Swatches extends Component {
                   </ul>
               </div>
 
-              <div className="color-swatches-list images-swatches-list">
+              {/* <div className="color-swatches-list images-swatches-list">
                   <ul className="list-product-colors-container">
                     <li>
                       <a href="javascript:void(0)" className="list-color-swatch list-color-swatch-active">
@@ -173,7 +173,7 @@ class Swatches extends Component {
 
                     </li>
                   </ul>
-              </div>
+              </div> */}
 
             </div><br/><br/><br/>
 

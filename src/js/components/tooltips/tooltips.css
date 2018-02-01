@@ -43,7 +43,6 @@
       display: block;
       max-height: 160px;
       overflow: auto;
-      width: 105%;
       & p {
         margin-right: 14px;
       }
@@ -93,7 +92,7 @@
     }
     &.tooltip-multi-line{
       width: 300px;
-      padding: 16px;
+      padding: 14px;
       display: inline-block;
       
     }
@@ -196,6 +195,15 @@
       &.tooltip-top-center:before,
       &.tooltip-top-right:before{
         box-shadow: 1px 1px 0px 0px rgba(var(--color-shadow), 0.3);
+      }
+    }
+    & .scroll-block {
+      height: 166px;
+      left: -8px;
+      width: 104%;
+      & .scroll-content-wrapper {
+        right: -5%;
+        padding-right: 16px;
       }
     }
   }
