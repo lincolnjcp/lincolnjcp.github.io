@@ -29,17 +29,17 @@
     }
   }
 & .coupon-secondary-offer{
- 
-     & .coupon-text-or {  
+
+     & .coupon-text-or {
         font-weight: normal;
-        color: #6b7883;
+        color: var(--color-slate);
         position: relative;
         letter-spacing: -0.2px;
         &:before{
           content: '';
           width: 88%;
           height: 1px;
-          background:#c7cdd4;
+          background: var(--color-concrete);
           position: absolute;
           top: 12px;
           right: 0;
@@ -62,7 +62,7 @@
 
   & .print-barcode {
     color: var(--color-blackfriday-secondary-2) !important;
-   
+
     & svg{
       width: 36px;
       height:36px;
@@ -117,8 +117,8 @@
         }
       }
     & .coupon-secondary-offer{
-        & .coupon-text-or:before {  
-      width: 89%;    
+        & .coupon-text-or:before {
+      width: 89%;
       }
     }
   }
