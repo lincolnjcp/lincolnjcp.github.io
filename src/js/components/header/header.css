@@ -949,7 +949,22 @@
 			
 		}
 	}
-
+.my-location{
+	& .btn.btn-secondary{
+		width: 100%;
+		color:var(--color-nightsky);
+		& .icon{
+			width: 28px;
+			height: 28px;
+			margin-right: 4px;
+			top: -1px;
+			& svg{
+				height:28px;
+				width:28px;
+			}
+		}
+	}
+}
 }
 
 .change-my-store-map-view {

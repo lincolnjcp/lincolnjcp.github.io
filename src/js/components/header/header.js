@@ -8,18 +8,26 @@ const closeImage = require('!!raw-loader?es5=1!../../../images/global/icons/nav/
 const cartFullImage = require('!!raw-loader?es5=1!../../../images/global/icons/utility/cart/cart-full.svg');
 const accountImage = require('!!raw-loader?es5=1!../../../images/global/icons/service/account.svg');
 const arrowleftImage = require('!!raw-loader?es5=1!../../../images/global/icons/nav/arrow-left.svg');
-
+const targetImage = require('!!raw-loader?es5=1!../../../images/global/icons/action/target.svg');
 class Header extends Component {
   changeMyStoreContent(type) {
     return(
       <div>
         <p id={'changeMyStoreZipLink'+type}>Stores within 15 mi. of <strong>75024</strong> <a href="javascript:void(0);" className="expand-collapse-btn" data-target={'#changeMyStoreZip'+type} data-hide-on-open-target={'#changeMyStoreZipLink'+type} data-duration="0">Change</a></p>
+        <div className="button-preview algn-mid my-location">
+                                    <a href="javascript:void();" className="btn btn-secondary btn-M mrg-M"><span className="icon" dangerouslySetInnerHTML={{ __html: targetImage }} /><span>Use my Location</span></a>
+                                </div>
+        <div className="">
+                  <span>or</span>
+                  <a href="">cancel</a>
+        </div>
          <div className="expand-collapse-section" id={'changeMyStoreZip'+type}>
            <div className="input-form">
               <div className="input-form-store-locator">
                   <div className="input-form-store-locator-field-1">
                       <input className="form-control input-text" id={'changeMyStoreSearch'+type} type="text" placeholder="Zip Code" defaultValue="75024" />
                   </div>
+                
                   <div className="input-form-store-locator-field-2">
                       <div className="select">
                           <select className="form-control custom-select">
