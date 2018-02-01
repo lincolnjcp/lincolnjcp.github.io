@@ -122,6 +122,10 @@
   }
 }
 
+input[type="text"]::-webkit-input-placeholder {
+  color: var(--color-slate) !important;
+}
+
 .input-form.error {
   & div.form-float-label {
     & input {
@@ -151,6 +155,9 @@
         top: -1.2em;
       }
     }
+  }
+  & .select-selected {
+    color: var(--color-nightsky) !important;
   }
   .select::before {
     width: auto;
@@ -301,13 +308,11 @@
   }
 
   & select {
-    height: 38px;
+    height: 36px;
     border: none;
+    color: var(--color-slate);
     @media (--viewport-md-only) {
       padding-left: 4px;
-    }
-    &:focus {
-      border: 1px solid var(--color-nightsky);
     }
   }
   @media (--viewport-md-only) {
@@ -352,6 +357,7 @@
     }
   }
 
+
   & .input-form-store-locator-field-1 {
     width: 45%;
   }
@@ -365,6 +371,15 @@
       border: 0.5px solid #111;
     }
   }
+}
+
+.input-birthday:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+
+.input-birthday:focus::-webkit-input-placeholder {
+  transition: opacity 0.5s 0.5s ease; 
+  opacity: 0;
 }
 
 .search-block {
@@ -390,4 +405,25 @@
 }
 .creditcard-text:focus + label + .credit-card-icon { 
   display: block; 
+}
+
+.is_focused {
+  & div {
+    & input[type="text"] {
+      border: 1px solid #111 !important;
+      border-right: 0;
+      &:focus {
+        border-right: none !important;
+      }
+    }
+    & .select {
+      border-top: 1px solid #111;
+      border-bottom: 1px solid #111;
+      border-left: 1px solid var(--color-concrete);
+    }
+  }
+  & button {
+    border: 1px solid #111 !important;
+    border-left: 1px solid var(--color-concrete) !important; 
+  }
 }

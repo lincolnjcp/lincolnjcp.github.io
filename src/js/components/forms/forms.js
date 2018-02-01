@@ -39,9 +39,11 @@ class Forms extends Component {
             $(".form-select1 select").on('change', function() {
                 if ($(this).val() != " ") {
                     $(".form-select1 .select-label").removeClass("hide");
+                    $(".form-select1 select").addClass("select-selected");
                     
                 } else {
                     $(".form-select1 .select-label").addClass("hide");
+                    $(".form-select1 select").removeClass("select-selected");
                 }
             });
         });
@@ -50,9 +52,11 @@ class Forms extends Component {
             $(".form-select2 select").on('change', function() {
                 if ($(this).val() != " ") {
                     $(".form-select2 .select-label").removeClass("hide");
+                    $(".form-select2 select").addClass("select-selected");
                     
                 } else {
                     $(".form-select2 .select-label").addClass("hide");
+                    $(".form-select2 select").removeClass("select-selected");
                 }
             });
         });
@@ -61,9 +65,11 @@ class Forms extends Component {
             $(".form-select3 select").on('change', function() {
                 if ($(this).val() != " ") {
                     $(".form-select3 .select-label").removeClass("hide");
+                    $(".form-select3 select").addClass("select-selected");
                     
                 } else {
                     $(".form-select3 .select-label").addClass("hide");
+                    $(".form-select3 select").removeClass("select-selected");
                 }
             });
         });
@@ -83,6 +89,10 @@ class Forms extends Component {
                 $(this).attr('maxlength', '12');
             });
         });
+
+        $(".zipcode_text").on('focus blur', function(){
+            $(this).parent('div').parent('div').toggleClass('is_focused');
+       })
 
     }
 
@@ -462,7 +472,7 @@ class Forms extends Component {
                                     <div className="sm12 md4 columns">
                                         <div className="input-form-store-locator">
                                             <div className="input-form-store-locator-field-1">
-                                                <input className="form-control input-text" id="search" type="text" placeholder="Zip Code" />
+                                                <input className="form-control input-text zipcode_text" id="search" type="text" placeholder="Zip Code" />
                                             </div>
                                             <div className="input-form-store-locator-field-2">
                                                 <div className="select">
@@ -507,7 +517,7 @@ class Forms extends Component {
                                     <div className="sm12 md4 columns">
                                         <div className="position-rel">
                                             <div className="form-float-label">
-                                                <input type="text" id="date" name="date" placeholder="mm/dd/yyyy" required className="input-text placeholder-text" />
+                                                <input type="text" id="date" name="date" placeholder="mm/dd/yyyy" required className="input-text input-birthday placeholder-text" />
                                                 <label htmlFor="date">Birthday (Optional)</label>
                                             </div>
                                             <span className="icon tooltip-icon" dangerouslySetInnerHTML={{ __html: tooltipIcon }} />
