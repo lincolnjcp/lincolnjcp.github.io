@@ -304,7 +304,9 @@ fieldset {
   font-style: italic;
   font-size: 14px;
 }
-
+.input-form :-ms-input-placeholder.input-text , .input-group :-ms-input-placeholder.input-text{
+  color: var(--color-concrete) !important;
+}
 .form-full{
   width: 100%;
 }
