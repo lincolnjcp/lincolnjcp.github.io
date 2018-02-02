@@ -56,28 +56,18 @@
 }
 
 .product-gallery-block {
-    & .store-pickup {
-        padding: 16px 0 0 16px;
-        @media (--viewport-sm-only) {
-            padding: 10px 0 0;
-            & .title-M {
-                font-size: 14px;
-                position: relative;
-                top: -6px;
-                & .color-penneyred {
-                    font-weight: bold;
-                }
-                & a{
-                    max-width: 55px;
-                    white-space: nowrap;
-                    overflow: hidden;
-                    text-overflow: ellipsis;
-                    position: relative;
-                    display: inline-block;
-                    top: 5px;
-                }
-            }
+    & .filter-store-pick{
+        & .dropdown-menu-block{
+        padding-top: 7px !important;
         }
+    }
+    & .product-card-wrapper{
+        & .product-card-pane-L{
+            border: 0;
+        }
+    }
+    & .store-pickup {
+        padding: 16px 0 4px 1px;
         & .arrow {
             content: "";
             position: absolute;
@@ -96,6 +86,29 @@
               margin-top: -.5em;
             }
           }
+          @media (--viewport-sm-only) {
+            padding: 10px 0 0;
+            & .title-M {
+                font-size: 14px;
+                position: relative;
+                top: -1px;
+                & .color-penneyred {
+                    font-weight: bold;
+                }
+                & a{
+                    max-width: 55px;
+                    white-space: nowrap;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    position: relative;
+                    display: inline-block;
+                    top: 5px;
+                }
+            }
+            & .arrow{
+                top: 4px;
+            }
+        }
     }
     & .listIcon {
         background: url("var(--path-images)global/icons/action/grid-fill.svg") center center no-repeat;
@@ -191,12 +204,35 @@
         & .product-card-pane-L {
             width: 22%;
         }
-    }
+        & .filter-store-pick{
+            padding: 0 10px 0 10px!important;
+            & .dropdown-menu-block{
+            padding-top:5px !important;
+            width: 32%;
+            }
+        }
+        & .store-pickup{
+            width: 68%;
+        }
+    } 
 }
+
 @media (--viewport-sm-only) {
     .product-gallery-block {
         & .product-card-pane-L {
             width: 45%;
+        }
+        & .filter-store-pick{
+            padding:0 4px 0 8px!important;
+            & .dropdown-menu-block{
+            padding-top:3px !important;
+            }
+            & .checkbox input+span:before{
+                top: 4px;
+            }
+            & .checkbox input+span:after{
+                top: 6px;
+            }
         }
     }
 }

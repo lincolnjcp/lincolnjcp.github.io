@@ -99,7 +99,6 @@ class FilterSort extends Component {
   productCardGalleryPanesLarge(productInfo) {
     return (
       <div className="product-card product-card-pane-L">
-
         {(() => {
           if (productInfo.thumb) {
             return (
@@ -116,7 +115,7 @@ class FilterSort extends Component {
                     )
                   }
                 })()}
-                <div className="icon favorite-icon" dangerouslySetInnerHTML={{ __html: heartlineImage }}></div>
+                <div className="icon favorite-icon like-dislike" dangerouslySetInnerHTML={{ __html: heartlineImage }}></div>
               </div>
             )
           }
@@ -841,7 +840,7 @@ class FilterSort extends Component {
                 </div>
               </div>
             </div>
-            <div className="row lg12 xl12 md12 sm12 nopad-sm">
+            <div className="row lg12 xl12 md12 sm12 nopad-sm color-lightgrey-bg filter-store-pick">
               <div className="store-pickup column fl-left sm10 md10 lg9 xl9">
                 <label className="checkbox pos-rel">
                   <input type="checkbox" /> <span><p className="title title-M"><span className="color-penneyred">FREE</span> Same Day Pickup at <a href="#"> Stonebriar Mall</a></p></span><span className="arrow"></span>
