@@ -158,7 +158,7 @@ iconCol(iconName, iconDetails, iconComponent ){
   if(iconName !=="") {
     return(
       <div className="design-system-icon-col column column-block">
-        <span className="design-system-icon" title={iconDetails}><div className="icon" dangerouslySetInnerHTML={{__html: iconComponent}} /></span>
+        <span className="design-system-icon" title={iconDetails}><div className="icon" title={iconDetails} dangerouslySetInnerHTML={{__html: iconComponent}} /></span>
         <div className="design-system-icon-label hide-for-small-only">
           <p className="design-system-icon-name">{iconName}</p>
           <p className="design-system-icon-details">{iconDetails}</p>

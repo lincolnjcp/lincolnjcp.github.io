@@ -2900,7 +2900,7 @@ var icons_Icons = function (_Component) {
                     react_default.a.createElement(
                         'span',
                         { className: 'design-system-icon', title: iconDetails },
-                        react_default.a.createElement('div', { className: 'icon', dangerouslySetInnerHTML: { __html: iconComponent } })
+                        react_default.a.createElement('div', { className: 'icon', title: iconDetails, dangerouslySetInnerHTML: { __html: iconComponent } })
                     ),
                     react_default.a.createElement(
                         'div',
