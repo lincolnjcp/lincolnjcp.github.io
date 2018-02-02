@@ -8739,7 +8739,7 @@ var forms_Forms = function (_Component) {
                                             react_default.a.createElement(
                                                 'div',
                                                 { className: 'form-float-label' },
-                                                react_default.a.createElement('input', { className: 'form-control email-text input-text', id: 'email', type: 'text', placeholder: ' ' }),
+                                                react_default.a.createElement('input', { className: 'form-control email-text input-text', id: 'email', type: 'text', placeholder: 'Email ' }),
                                                 react_default.a.createElement(
                                                     'label',
                                                     { htmlFor: 'email' },
@@ -8893,7 +8893,7 @@ var forms_Forms = function (_Component) {
                                             react_default.a.createElement(
                                                 'div',
                                                 { className: 'form-float-label' },
-                                                react_default.a.createElement('textarea', { className: 'form-control input-text text-area', name: 'instructions', placeholder: ' ' }),
+                                                react_default.a.createElement('textarea', { className: 'form-control input-text text-area', name: 'instructions', placeholder: 'Delivery Instructions' }),
                                                 react_default.a.createElement(
                                                     'label',
                                                     { htmlFor: 'instructions' },
@@ -9509,7 +9509,7 @@ var forms_Forms = function (_Component) {
                                             react_default.a.createElement(
                                                 'div',
                                                 { className: 'input-form-store-locator-field-1' },
-                                                react_default.a.createElement('input', { className: 'form-control input-text zipcode_text', id: 'search', type: 'text', placeholder: 'Zip Code' })
+                                                react_default.a.createElement('input', { className: 'form-control input-text zipcode_text placeholder-text', id: 'search', type: 'text', placeholder: 'Zip Code' })
                                             ),
                                             react_default.a.createElement(
                                                 'div',
@@ -9798,10 +9798,10 @@ var forms_Forms = function (_Component) {
                                         react_default.a.createElement(
                                             'div',
                                             { className: 'form-float-label' },
-                                            react_default.a.createElement('input', { className: 'form-control email-text input-text', id: 'email', type: 'text', placeholder: ' ' }),
+                                            react_default.a.createElement('input', { className: 'form-control email-text input-text', id: 'email1', type: 'text', placeholder: 'Email' }),
                                             react_default.a.createElement(
                                                 'label',
-                                                { htmlFor: 'email' },
+                                                { htmlFor: 'email1' },
                                                 'Email'
                                             ),
                                             react_default.a.createElement('br', null)
@@ -9841,7 +9841,7 @@ var forms_Forms = function (_Component) {
                                             react_default.a.createElement(
                                                 'div',
                                                 { className: 'form-float-label mrg-L' },
-                                                react_default.a.createElement('input', { className: 'form-control email-text input-text', id: 'email', type: 'text', placeholder: ' ' }),
+                                                react_default.a.createElement('input', { className: 'form-control email-text input-text', id: 'email', type: 'text', placeholder: 'Email ' }),
                                                 react_default.a.createElement(
                                                     'label',
                                                     { htmlFor: 'email' },
@@ -9852,7 +9852,7 @@ var forms_Forms = function (_Component) {
                                             react_default.a.createElement(
                                                 'div',
                                                 { className: 'form-float-label password-form' },
-                                                react_default.a.createElement('input', { className: 'form-control input-text', id: 'password', maxLength: '16', type: 'password', placeholder: ' ' }),
+                                                react_default.a.createElement('input', { className: 'form-control input-text', id: 'password', maxLength: '16', type: 'password', placeholder: 'Password' }),
                                                 react_default.a.createElement(
                                                     'label',
                                                     { htmlFor: 'password' },
@@ -22052,27 +22052,6 @@ var filter_sort_FilterSort = function (_Component) {
 
         jquery_default()(this).toggleClass("arrow-down");
       });
-
-      jquery_default()("#HideDesignSystem").unbind('click').on('click', function (event) {
-        jquery_default()(this).toggleClass('active');
-        if (jquery_default()(this).hasClass('active')) {
-          jquery_default()(this).text('Show Design System Wrapper');
-          jquery_default()(".design-system-nav-col").css('display', 'none');
-          jquery_default()(".design-system-content").css('padding', 0);
-          jquery_default()(".design-system-inner-content").css('padding', 0);
-          jquery_default()(".design-system-enable-hide").css('display', 'none');
-          jquery_default()(".design-system-nav-mobile").css('display', 'none');
-          jquery_default()(".design-system-wrap").css('margin', 0);
-        } else {
-          jquery_default()(this).text('Hide Design System Wrapper');
-          jquery_default()(".design-system-nav-col").removeAttr('style');
-          jquery_default()(".design-system-content").removeAttr('style');
-          jquery_default()(".design-system-inner-content").removeAttr('style');
-          jquery_default()(".design-system-enable-hide").removeAttr('style');
-          jquery_default()(".design-system-nav-mobile").removeAttr('style');
-          jquery_default()(".design-system-wrap").removeAttr('style');
-        }
-      });
     }
   }, {
     key: 'render',
@@ -22083,11 +22062,6 @@ var filter_sort_FilterSort = function (_Component) {
         react_default.a.createElement(
           'div',
           { className: 'columns' },
-          react_default.a.createElement(
-            'a',
-            { href: 'javascript:void(0);', id: 'HideDesignSystem' },
-            'Hide Design System Wrapper'
-          ),
           react_default.a.createElement(
             'h1',
             { className: 'title title-XXL mrg-XL sm12' },
@@ -22136,7 +22110,7 @@ var filter_sort_FilterSort = function (_Component) {
                     null,
                     react_default.a.createElement(
                       'p',
-                      { className: 'title title-M' },
+                      { className: 'title title-M filter-ellipsis' },
                       react_default.a.createElement(
                         'span',
                         { className: 'color-penneyred' },
@@ -23248,7 +23222,7 @@ var filter_sort_FilterSort = function (_Component) {
           ),
           react_default.a.createElement(
             'div',
-            { className: 'product-gallery-block fl-left md12 sm12 lg8' },
+            { className: 'product-gallery-block fl-left md12 sm12 lg9' },
             react_default.a.createElement(
               'div',
               { className: 'pos-rel fl-left hide-for-large-only hide-for-xlarge-only md12 mrg-S' },
@@ -23463,7 +23437,7 @@ var filter_sort_FilterSort = function (_Component) {
               { className: 'row lg12 xl12 md12 sm12 nopad-sm color-lightgrey-bg filter-store-pick' },
               react_default.a.createElement(
                 'div',
-                { className: 'store-pickup column fl-left sm10 md10 lg9 xl9' },
+                { className: 'store-pickup column fl-left sm10 md10 lg8 xl9' },
                 react_default.a.createElement(
                   'label',
                   { className: 'checkbox pos-rel' },
@@ -23493,11 +23467,11 @@ var filter_sort_FilterSort = function (_Component) {
               ),
               react_default.a.createElement(
                 'div',
-                { className: 'dropdown-menu-block column md2 sm2 lg3 xl3 fl-right mrg-M nopad' },
+                { className: 'dropdown-menu-block column md2 sm2 lg4 xl3 fl-right mrg-M nopad' },
                 react_default.a.createElement('div', { 'class': 'listIcon fl-right' }),
                 react_default.a.createElement(
                   'div',
-                  { className: 'hide-for-medium-only hide-for-small-only' },
+                  { className: 'hide-for-medium-only hide-for-small-only filter-dropdown-block' },
                   react_default.a.createElement(
                     'a',
                     { className: 'dropdown-button title-S' },
@@ -23566,10 +23540,10 @@ var filter_sort_FilterSort = function (_Component) {
             ),
             react_default.a.createElement(
               'div',
-              { className: 'lg12 xl12 md12 sm12 mrg-L filter-tags hide-for-medium-only hide-for-small-only' },
+              { className: 'lg12 xl12 md12 sm12 filter-tags hide-for-medium-only hide-for-small-only nopad' },
               react_default.a.createElement(
                 'div',
-                { className: 'tags std-txt std-txt-S' },
+                { className: 'tags std-txt std-txt-S mrg-top-M' },
                 react_default.a.createElement(
                   'span',
                   { className: 'tag-title' },
@@ -23584,7 +23558,7 @@ var filter_sort_FilterSort = function (_Component) {
               ),
               react_default.a.createElement(
                 'div',
-                { className: 'tags std-txt std-txt-S' },
+                { className: 'tags std-txt std-txt-S mrg-top-M' },
                 react_default.a.createElement(
                   'span',
                   { className: 'tag-title' },
@@ -23599,7 +23573,7 @@ var filter_sort_FilterSort = function (_Component) {
               ),
               react_default.a.createElement(
                 'div',
-                { className: 'tags std-txt std-txt-S' },
+                { className: 'tags std-txt std-txt-S mrg-top-M' },
                 react_default.a.createElement(
                   'span',
                   { className: 'tag-title' },
@@ -23614,7 +23588,7 @@ var filter_sort_FilterSort = function (_Component) {
               ),
               react_default.a.createElement(
                 'a',
-                { className: 'tag-clear std-txt std-txt-S fl-left', href: 'javascript:void(0)' },
+                { className: 'tag-clear std-txt std-txt-S fl-left mrg-top-L', href: 'javascript:void(0)' },
                 'Clear All'
               )
             ),
@@ -23626,7 +23600,7 @@ var filter_sort_FilterSort = function (_Component) {
                 { className: 'columns' },
                 react_default.a.createElement(
                   'div',
-                  { className: 'product-card-wrapper mrg-M' },
+                  { className: 'product-card-wrapper mrg-M mrg-top-M' },
                   this.productCardGalleryPanesLarge({
                     name: "Lorem Ipsumd Dolor Sit Amet Consec Ter Adpisicing Alit…",
                     thumb: '/images/design-system/fpo/product-cards/product-card-large-pane-1.jpg',

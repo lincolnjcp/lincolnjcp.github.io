@@ -335,7 +335,7 @@ class FilterSort extends Component {
                 </label>
 
                 <label className="checkbox mrg-M">
-                  <input type="checkbox" defaultChecked="true" /> <span><p className="title title-M"><span className="color-penneyred">FREE</span> Same Day Pickup</p></span><span className="fl-right std-txt std-txt-M">(55)</span>
+                  <input type="checkbox" defaultChecked="true" /> <span><p className="title title-M filter-ellipsis"><span className="color-penneyred">FREE</span> Same Day Pickup</p></span><span className="fl-right std-txt std-txt-M">(55)</span>
                 </label>
               </div>
               <div className="accordion-block filter-accordion">
@@ -761,7 +761,7 @@ class FilterSort extends Component {
             </div>
           </div>
 
-          <div className="product-gallery-block fl-left md12 sm12 lg8">
+          <div className="product-gallery-block fl-left md12 sm12 lg9">
 
             <div className="pos-rel fl-left hide-for-large-only hide-for-xlarge-only md12 mrg-S">
               <div className="fl-left dropdown-menu-block">
@@ -841,13 +841,13 @@ class FilterSort extends Component {
               </div>
             </div>
             <div className="row lg12 xl12 md12 sm12 nopad-sm color-lightgrey-bg filter-store-pick">
-              <div className="store-pickup column fl-left sm10 md10 lg9 xl9">
+              <div className="store-pickup column fl-left sm10 md10 lg8 xl9">
                 <label className="checkbox pos-rel">
                   <input type="checkbox" /> <span><p className="title title-M"><span className="color-penneyred">FREE</span> Same Day Pickup at <a href="#"> Stonebriar Mall</a></p></span><span className="arrow"></span>
                 </label>
               </div>
 
-              <div className="dropdown-menu-block column md2 sm2 lg3 xl3 fl-right mrg-M nopad">
+              <div className="dropdown-menu-block column md2 sm2 lg4 xl3 fl-right mrg-M nopad">
                 <div class="listIcon fl-right"></div>
                 <div className="hide-for-medium-only hide-for-small-only filter-dropdown-block">
                   <a className="dropdown-button title-S">Sort by: <span class="sortby">Featured</span><span className="arrow"></span></a>

@@ -11,6 +11,12 @@
     @media (--viewport-xl-only) {
         width: 20%;
     }
+    & .filter-ellipsis {
+        width: 150px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
     & .filter-accordion {
         margin-right: 16px;
         & .accordion {
