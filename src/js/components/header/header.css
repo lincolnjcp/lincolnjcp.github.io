@@ -687,7 +687,32 @@
 	    }
 	}
 
-
+	.my-location{
+		& .btn.btn-secondary{
+			width: 80%;
+			float: left;
+			color:var(--color-nightsky);
+			
+			& .icon{
+				width: 28px;
+				height: 28px;
+				margin-right: 4px;
+				top: -1px;
+				& svg{
+					height:28px;
+					width:28px;
+				}
+			}
+		}
+		
+	}
+	.title-text-or{
+		width: 80%;
+		font-weight: bold;
+		display: inline-block;
+		text-align: center;
+		margin-bottom: 15px;
+	}
 	.main-menu-secondary-hover {
 		& .main-menu-tier1 {
 			width: 216px;

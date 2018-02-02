@@ -307,6 +307,9 @@ fieldset {
 .input-form :-ms-input-placeholder.input-text , .input-group :-ms-input-placeholder.input-text{
   color: var(--color-concrete) !important;
 }
+.input-form :-ms-input-placeholder.input-text:focus{
+  color: transparent !important;
+}
 .form-full{
   width: 100%;
 }

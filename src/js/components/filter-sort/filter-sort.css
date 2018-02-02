@@ -62,8 +62,9 @@
         }
     }
     & .product-card-wrapper{
-        & .product-card-pane-L{
-            border: 0;
+        & .product-card-thumbnail a:focus{
+            outline: 0;
+          
         }
     }
     & .store-pickup {
