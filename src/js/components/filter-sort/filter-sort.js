@@ -315,6 +315,27 @@ class FilterSort extends Component {
       $(this).toggleClass("arrow-down");
 
     });
+
+    $("#HideDesignSystem").unbind('click').on('click', function(event){
+      $(this).toggleClass('active');
+      if($(this).hasClass('active')) {
+        $(this).text('Show Design System Wrapper');
+        $(".design-system-nav-col").css('display', 'none');
+        $(".design-system-content").css('padding',0);
+        $(".design-system-inner-content").css('padding',0);
+        $(".design-system-enable-hide").css('display', 'none');
+        $(".design-system-nav-mobile").css('display', 'none');
+        $(".design-system-wrap").css('margin',0);
+      } else {
+        $(this).text('Hide Design System Wrapper');
+        $(".design-system-nav-col").removeAttr('style');
+        $(".design-system-content").removeAttr('style');
+        $(".design-system-inner-content").removeAttr('style');
+        $(".design-system-enable-hide").removeAttr('style');
+        $(".design-system-nav-mobile").removeAttr('style');
+        $(".design-system-wrap").removeAttr('style');
+      }
+    });
   }
 
   render() {
@@ -322,10 +343,11 @@ class FilterSort extends Component {
 
       <div>
         <div className="columns">
+        <a href="javascript:void(0);" id="HideDesignSystem">Hide Design System Wrapper</a>
           <h1 className="title title-XXL mrg-XL sm12">Filter & Sort</h1><br /><br />
 
 
-          <div className="filter-left-block fl-left show-forllarge-only show-for-xlarge-only">
+          <div className="filter-left-block fl-left show-for-large-only show-for-xlarge-only">
             <h2 className="title title-XL title title-XL mrg-XXL">Filter By</h2>
             <div className="column">
               <div className="input-group">
@@ -761,7 +783,7 @@ class FilterSort extends Component {
             </div>
           </div>
 
-          <div className="product-gallery-block fl-left md12 sm12">
+          <div className="product-gallery-block fl-left md12 sm12 lg8">
 
             <div className="pos-rel fl-left hide-for-large-only hide-for-xlarge-only md12 mrg-S">
               <div className="fl-left dropdown-menu-block">
