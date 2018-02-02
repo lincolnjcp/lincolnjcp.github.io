@@ -1,14 +1,12 @@
 /* note:- import product card css in yoda */
 .product-card-wrapper-recommendations {
-	
+	transform: none !important;
 	display: inline;
 	overflow: auto;
 	white-space: nowrap;
 	& .product-card-block {
 		position: relative;
 		overflow: hidden;
-		overflow-x: auto;
-		overflow-y: hidden;
 		@media (--viewport-md-down) {
 			overflow: auto;
 			overflow-y: hidden;

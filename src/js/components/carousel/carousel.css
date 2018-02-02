@@ -213,7 +213,7 @@
 		max-width: 260px;
 		padding-left: 30px;
 		padding-right: 30px;
-		margin: 5px auto;
+		margin: -3px auto 0;
 		& .slide-slide {
 			padding: 2px;
 		}

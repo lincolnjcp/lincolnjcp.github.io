@@ -199,10 +199,10 @@
     }
     & .scroll-block {
       height: 166px;
-      left: -8px;
-      width: 104%;
+      left: -15px;
+      width: 107%;
       & .scroll-content-wrapper {
-        right: -5%;
+        right: -6%;
         padding-right: 16px;
       }
     }

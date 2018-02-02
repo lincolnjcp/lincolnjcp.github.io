@@ -99,7 +99,6 @@ class FilterSort extends Component {
   productCardGalleryPanesLarge(productInfo) {
     return (
       <div className="product-card product-card-pane-L">
-
         {(() => {
           if (productInfo.thumb) {
             return (
@@ -116,7 +115,7 @@ class FilterSort extends Component {
                     )
                   }
                 })()}
-                <div className="icon favorite-icon" dangerouslySetInnerHTML={{ __html: heartlineImage }}></div>
+                <div className="icon favorite-icon like-dislike" dangerouslySetInnerHTML={{ __html: heartlineImage }}></div>
               </div>
             )
           }
@@ -316,6 +315,7 @@ class FilterSort extends Component {
       $(this).toggleClass("arrow-down");
 
     });
+
   }
 
   render() {
@@ -325,8 +325,7 @@ class FilterSort extends Component {
         <div className="columns">
           <h1 className="title title-XXL mrg-XL sm12">Filter & Sort</h1><br /><br />
 
-
-          <div className="filter-left-block fl-left show-forllarge-only show-for-xlarge-only">
+          <div className="filter-left-block fl-left show-for-large-only show-for-xlarge-only">
             <h2 className="title title-XL title title-XL mrg-XXL">Filter By</h2>
             <div className="column">
               <div className="input-group">
@@ -336,14 +335,14 @@ class FilterSort extends Component {
                 </label>
 
                 <label className="checkbox mrg-M">
-                  <input type="checkbox" defaultChecked="true" /> <span><p className="title title-M"><span className="color-penneyred">FREE</span> Same Day Pickup</p></span><span className="fl-right std-txt std-txt-M">(55)</span>
+                  <input type="checkbox" defaultChecked="true" /> <span><p className="title title-M filter-ellipsis"><span className="color-penneyred">FREE</span> Same Day Pickup</p></span><span className="fl-right std-txt std-txt-M">(55)</span>
                 </label>
               </div>
               <div className="accordion-block filter-accordion">
                 <div className="accordion">
                   <dl>
-                    <dt>
-                      <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" className="accordion-title accordionTitle js-accordionTrigger">Accordion Title</a>
+                    <dt aria-expanded="false" aria-controls="accordion1">
+                      <a href="#accordion1" className="accordion-title accordionTitle js-accordionTrigger">Accordion Title</a>
                     </dt>
                     <dd className="accordion-content accordionItem is-collapsed" id="accordion1" aria-hidden="true">
                       <ul className="mrg-lft-M">
@@ -387,8 +386,8 @@ class FilterSort extends Component {
                         </li>
                       </ul>
                     </dd>
-                    <dt>
-                      <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" className="accordion-title accordionTitle js-accordionTrigger">Accordion Title</a>
+                    <dt aria-expanded="false" aria-controls="accordion1" >
+                      <a href="#accordion1" className="accordion-title accordionTitle js-accordionTrigger">Accordion Title</a>
                     </dt>
                     <dd className="accordion-content accordionItem is-collapsed" id="accordion1" aria-hidden="true">
                       <ul className="mrg-lft-M">
@@ -432,8 +431,8 @@ class FilterSort extends Component {
                         </li>
                       </ul>
                     </dd>
-                    <dt>
-                      <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" className="accordion-title accordionTitle js-accordionTrigger">Accordion Title</a>
+                    <dt aria-expanded="false" aria-controls="accordion1" >
+                      <a href="#accordion1" className="accordion-title accordionTitle js-accordionTrigger">Accordion Title</a>
                     </dt>
                     <dd className="accordion-content accordionItem is-collapsed" id="accordion1" aria-hidden="true">
                       <ul className="mrg-lft-M">
@@ -477,8 +476,8 @@ class FilterSort extends Component {
                         </li>
                       </ul>
                     </dd>
-                    <dt>
-                      <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" className="accordion-title accordionTitle js-accordionTrigger">Accordion Title</a>
+                    <dt aria-expanded="false" aria-controls="accordion1">
+                      <a href="#accordion1" className="accordion-title accordionTitle js-accordionTrigger">Accordion Title</a>
                     </dt>
                     <dd className="accordion-content accordionItem is-collapsed" id="accordion1" aria-hidden="true">
                       <ul className="mrg-lft-M">
@@ -554,8 +553,8 @@ class FilterSort extends Component {
                     <div className="accordion-block filter-accordion">
                       <div className="accordion">
                         <dl>
-                          <dt>
-                            <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" className="accordion-title accordionTitle js-accordionTrigger">Accordion Title</a>
+                          <dt aria-expanded="false" aria-controls="accordion1"> 
+                            <a href="#accordion1" className="accordion-title accordionTitle js-accordionTrigger">Accordion Title</a>
                           </dt>
                           <dd className="accordion-content accordionItem is-collapsed" id="accordion1" aria-hidden="true">
                             <ul className="mrg-lft-M">
@@ -607,8 +606,8 @@ class FilterSort extends Component {
                               </li>
                             </ul>
                           </dd>
-                          <dt>
-                            <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" className="accordion-title accordionTitle js-accordionTrigger">Accordion Title</a>
+                          <dt aria-expanded="false" aria-controls="accordion1">
+                            <a href="#accordion1" className="accordion-title accordionTitle js-accordionTrigger">Accordion Title</a>
                           </dt>
                           <dd className="accordion-content accordionItem is-collapsed" id="accordion1" aria-hidden="true">
                             <ul className="mrg-lft-M">
@@ -652,8 +651,8 @@ class FilterSort extends Component {
                               </li>
                             </ul>
                           </dd>
-                          <dt>
-                            <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" className="accordion-title accordionTitle js-accordionTrigger">Accordion Title</a>
+                          <dt aria-expanded="false" aria-controls="accordion1">
+                            <a href="#accordion1" className="accordion-title accordionTitle js-accordionTrigger">Accordion Title</a>
                           </dt>
                           <dd className="accordion-content accordionItem is-collapsed" id="accordion1" aria-hidden="true">
                             <ul className="mrg-lft-M">
@@ -697,8 +696,8 @@ class FilterSort extends Component {
                               </li>
                             </ul>
                           </dd>
-                          <dt>
-                            <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" className="accordion-title accordionTitle js-accordionTrigger">Accordion Title</a>
+                          <dt aria-expanded="false" aria-controls="accordion1">
+                            <a href="#accordion1" className="accordion-title accordionTitle js-accordionTrigger">Accordion Title</a>
                           </dt>
                           <dd className="accordion-content accordionItem is-collapsed" id="accordion1" aria-hidden="true">
                             <ul className="mrg-lft-M">
@@ -762,7 +761,7 @@ class FilterSort extends Component {
             </div>
           </div>
 
-          <div className="product-gallery-block fl-left md12 sm12">
+          <div className="product-gallery-block fl-left md12 sm12 lg9">
 
             <div className="pos-rel fl-left hide-for-large-only hide-for-xlarge-only md12 mrg-S">
               <div className="fl-left dropdown-menu-block">
@@ -841,16 +840,16 @@ class FilterSort extends Component {
                 </div>
               </div>
             </div>
-            <div className="row lg12 xl12 md12 sm12 nopad-sm">
-              <div className="store-pickup column fl-left sm10 md10 lg9 xl9">
+            <div className="row lg12 xl12 md12 sm12 nopad-sm color-lightgrey-bg filter-store-pick">
+              <div className="store-pickup column fl-left sm10 md10 lg8 xl9">
                 <label className="checkbox pos-rel">
                   <input type="checkbox" /> <span><p className="title title-M"><span className="color-penneyred">FREE</span> Same Day Pickup at <a href="#"> Stonebriar Mall</a></p></span><span className="arrow"></span>
                 </label>
               </div>
 
-              <div className="dropdown-menu-block column md2 sm2 lg3 xl3 fl-right mrg-M nopad">
+              <div className="dropdown-menu-block column md2 sm2 lg4 xl3 fl-right mrg-M nopad">
                 <div class="listIcon fl-right"></div>
-                <div className="hide-for-medium-only hide-for-small-only">
+                <div className="hide-for-medium-only hide-for-small-only filter-dropdown-block">
                   <a className="dropdown-button title-S">Sort by: <span class="sortby">Featured</span><span className="arrow"></span></a>
                   <div className="dropdown-menu">
                     <div className="tooltip tooltip-top-right filter-tooltip">
@@ -875,22 +874,22 @@ class FilterSort extends Component {
                 </div>
               </div>
             </div>
-            <div className="lg12 xl12 md12 sm12 mrg-L filter-tags hide-for-medium-only hide-for-small-only">
-              <div className="tags std-txt std-txt-S">
+            <div className="lg12 xl12 md12 sm12 filter-tags hide-for-medium-only hide-for-small-only nopad">
+              <div className="tags std-txt std-txt-S mrg-top-M">
                 <span className="tag-title">Gender: </span><span class="tag-item">Mens</span><a href="javascript:void(0)" className="color-white-svg icon" dangerouslySetInnerHTML={{ __html: closeImage }} />
               </div>
-              <div className="tags std-txt std-txt-S">
+              <div className="tags std-txt std-txt-S mrg-top-M">
                 <span className="tag-title">Item Type: </span><span class="tag-item">Suit Jackets</span><a href="javascript:void(0)" className="color-white-svg icon" dangerouslySetInnerHTML={{ __html: closeImage }} />
               </div>
-              <div className="tags std-txt std-txt-S">
+              <div className="tags std-txt std-txt-S mrg-top-M">
                 <span className="tag-title">Gender: </span><span class="tag-item">Mens</span><a href="javascript:void(0)" className="color-white-svg icon" dangerouslySetInnerHTML={{ __html: closeImage }} />
               </div>
-              <a className="tag-clear std-txt std-txt-S fl-left" href="javascript:void(0)">Clear All</a>
+              <a className="tag-clear std-txt std-txt-S fl-left mrg-top-L" href="javascript:void(0)">Clear All</a>
             </div>
 
             <div className="row">
               <div className="columns">
-                <div className="product-card-wrapper mrg-M">
+                <div className="product-card-wrapper mrg-M mrg-top-M">
                   {this.productCardGalleryPanesLarge({
                     name: "Lorem Ipsumd Dolor Sit Amet Consec Ter Adpisicing Alit…",
                     thumb: '/images/design-system/fpo/product-cards/product-card-large-pane-1.jpg',

@@ -14,14 +14,15 @@ class Header extends Component {
     return(
       <div>
         <p id={'changeMyStoreZipLink'+type}>Stores within 15 mi. of <strong>75024</strong> <a href="javascript:void(0);" className="expand-collapse-btn" data-target={'#changeMyStoreZip'+type} data-hide-on-open-target={'#changeMyStoreZipLink'+type} data-duration="0">Change</a></p>
-        <div className="button-preview algn-mid my-location">
+       
+         <div className="expand-collapse-section" id={'changeMyStoreZip'+type}>
+         <div className="button-preview algn-mid my-location">
                                     <a href="javascript:void();" className="btn btn-secondary btn-M mrg-M"><span className="icon" dangerouslySetInnerHTML={{ __html: targetImage }} /><span>Use my Location</span></a>
                                 </div>
-        <div className="">
-                  <span>or</span>
-                  <a href="">cancel</a>
-        </div>
-         <div className="expand-collapse-section" id={'changeMyStoreZip'+type}>
+            <div className="">
+                  <span className="title title-S title-text-or">or</span>
+                  <a href="javascript:void();">cancel</a>
+            </div>
            <div className="input-form">
               <div className="input-form-store-locator">
                   <div className="input-form-store-locator-field-1">

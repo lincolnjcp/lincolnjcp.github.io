@@ -50,15 +50,13 @@
   }
 
   & .input-text::-webkit-input-placeholder { /* WebKit browsers */
-    color: transparent;
+    
   }
   
   & .placeholder-text::-webkit-input-placeholder { /* WebKit browsers */
     color: var(--color-shadow);
   }
-  & .input-text::-moz-placeholder { /* Mozilla Firefox 19+ */
-    color: transparent;
-  }
+ 
   & .input-text:-ms-input-placeholder { /* Internet Explorer 10+ */
     color: transparent;
   }
@@ -132,6 +130,9 @@ input[type="text"]::-webkit-input-placeholder {
       border: 2px solid var(--color-error-type);
       margin-bottom: 5px;
     }
+   & label{
+    color: var(--color-error-type);
+   } 
   }
   & .error-message {
     color: var(--color-error-type);
@@ -186,9 +187,11 @@ input[type="text"]::-webkit-input-placeholder {
   float: right;
   & select {
     line-height: 36px;
+    height:36px;
     min-width: auto;
     color: var(--color-slate);
   }
+  
   &::before {
     width: 0;
   }
@@ -234,7 +237,7 @@ input[type="text"]::-webkit-input-placeholder {
     left: .75rem;
     z-index: 3;
     line-height: 1;
-    padding: 0 1px;
+    padding: 0 5px;
     &::after {
       content: " ";
       display: block;
@@ -426,4 +429,7 @@ input[type="text"]::-webkit-input-placeholder {
     border: 1px solid #111 !important;
     border-left: 1px solid var(--color-concrete) !important; 
   }
+}
+select::-ms-expand {
+  display: none;
 }
