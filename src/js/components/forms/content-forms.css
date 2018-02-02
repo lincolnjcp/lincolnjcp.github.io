@@ -187,9 +187,11 @@ input[type="text"]::-webkit-input-placeholder {
   float: right;
   & select {
     line-height: 36px;
+    height:36px;
     min-width: auto;
     color: var(--color-slate);
   }
+  
   &::before {
     width: 0;
   }
@@ -427,4 +429,7 @@ input[type="text"]::-webkit-input-placeholder {
     border: 1px solid #111 !important;
     border-left: 1px solid var(--color-concrete) !important; 
   }
+}
+select::-ms-expand {
+  display: none;
 }
