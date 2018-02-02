@@ -1,7 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32" aria-labelledby="title-48">
   <defs>
     <polygon id="triangle-down-a" points="12 0 24 16 0 16"/>
   </defs>
+  <title id="title-48" lang="en">dropdown</title>
   <g fill="none" fill-rule="evenodd" transform="rotate(180 14 12)">
     <use fill="#384048" xlink:href="#triangle-down-a"/>
   </g>
