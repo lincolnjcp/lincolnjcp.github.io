@@ -1,7 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32" aria-labelledby="title-2">
   <defs>
     <path id="error-2-a" d="M12,2.4 C6.70656,2.4 2.4,6.70656 2.4,12 C2.4,14.21508 3.15612,16.25568 4.42104,17.88192 L17.88192,4.42104 C16.25568,3.15612 14.21508,2.4 12,2.4 L12,2.4 Z M12,24 C5.37252,24 0,18.62748 0,12 C0,5.37264 5.37252,0 12,0 C18.62736,0 24,5.37264 24,12 C24,18.62748 18.62736,24 12,24 L12,24 Z M19.57884,6.11808 L6.11808,19.57896 C7.74432,20.84388 9.78492,21.6 12,21.6 C17.29344,21.6 21.6,17.29344 21.6,12 C21.6,9.78492 20.84388,7.74432 19.57884,6.11808 L19.57884,6.11808 Z"/>
   </defs>
+  <title id="title-2" lang="en">unavailable</title>
   <g fill="none" fill-rule="evenodd" transform="translate(4 4)">
     <use fill="#384048" xlink:href="#error-2-a"/>
   </g>

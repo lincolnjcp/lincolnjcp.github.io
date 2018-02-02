@@ -1526,10 +1526,10 @@ Base Styles
         }
 
         & .design-system-icon {
-            position: absolute;
-            top: 0;
-            left: 5px;
-            width: 35px;
+          display: block;
+          width: 40px;
+          height: 40px;
+          float: left;
         }
     }
 }
