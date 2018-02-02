@@ -341,8 +341,8 @@ class FilterSort extends Component {
               <div className="accordion-block filter-accordion">
                 <div className="accordion">
                   <dl>
-                    <dt>
-                      <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" className="accordion-title accordionTitle js-accordionTrigger">Accordion Title</a>
+                    <dt aria-expanded="false" aria-controls="accordion1">
+                      <a href="#accordion1" className="accordion-title accordionTitle js-accordionTrigger">Accordion Title</a>
                     </dt>
                     <dd className="accordion-content accordionItem is-collapsed" id="accordion1" aria-hidden="true">
                       <ul className="mrg-lft-M">
@@ -386,8 +386,8 @@ class FilterSort extends Component {
                         </li>
                       </ul>
                     </dd>
-                    <dt>
-                      <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" className="accordion-title accordionTitle js-accordionTrigger">Accordion Title</a>
+                    <dt aria-expanded="false" aria-controls="accordion1" >
+                      <a href="#accordion1" className="accordion-title accordionTitle js-accordionTrigger">Accordion Title</a>
                     </dt>
                     <dd className="accordion-content accordionItem is-collapsed" id="accordion1" aria-hidden="true">
                       <ul className="mrg-lft-M">
@@ -431,8 +431,8 @@ class FilterSort extends Component {
                         </li>
                       </ul>
                     </dd>
-                    <dt>
-                      <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" className="accordion-title accordionTitle js-accordionTrigger">Accordion Title</a>
+                    <dt aria-expanded="false" aria-controls="accordion1" >
+                      <a href="#accordion1" className="accordion-title accordionTitle js-accordionTrigger">Accordion Title</a>
                     </dt>
                     <dd className="accordion-content accordionItem is-collapsed" id="accordion1" aria-hidden="true">
                       <ul className="mrg-lft-M">
@@ -476,8 +476,8 @@ class FilterSort extends Component {
                         </li>
                       </ul>
                     </dd>
-                    <dt>
-                      <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" className="accordion-title accordionTitle js-accordionTrigger">Accordion Title</a>
+                    <dt aria-expanded="false" aria-controls="accordion1">
+                      <a href="#accordion1" className="accordion-title accordionTitle js-accordionTrigger">Accordion Title</a>
                     </dt>
                     <dd className="accordion-content accordionItem is-collapsed" id="accordion1" aria-hidden="true">
                       <ul className="mrg-lft-M">
@@ -553,8 +553,8 @@ class FilterSort extends Component {
                     <div className="accordion-block filter-accordion">
                       <div className="accordion">
                         <dl>
-                          <dt>
-                            <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" className="accordion-title accordionTitle js-accordionTrigger">Accordion Title</a>
+                          <dt aria-expanded="false" aria-controls="accordion1"> 
+                            <a href="#accordion1" className="accordion-title accordionTitle js-accordionTrigger">Accordion Title</a>
                           </dt>
                           <dd className="accordion-content accordionItem is-collapsed" id="accordion1" aria-hidden="true">
                             <ul className="mrg-lft-M">
@@ -606,8 +606,8 @@ class FilterSort extends Component {
                               </li>
                             </ul>
                           </dd>
-                          <dt>
-                            <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" className="accordion-title accordionTitle js-accordionTrigger">Accordion Title</a>
+                          <dt aria-expanded="false" aria-controls="accordion1">
+                            <a href="#accordion1" className="accordion-title accordionTitle js-accordionTrigger">Accordion Title</a>
                           </dt>
                           <dd className="accordion-content accordionItem is-collapsed" id="accordion1" aria-hidden="true">
                             <ul className="mrg-lft-M">
@@ -651,8 +651,8 @@ class FilterSort extends Component {
                               </li>
                             </ul>
                           </dd>
-                          <dt>
-                            <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" className="accordion-title accordionTitle js-accordionTrigger">Accordion Title</a>
+                          <dt aria-expanded="false" aria-controls="accordion1">
+                            <a href="#accordion1" className="accordion-title accordionTitle js-accordionTrigger">Accordion Title</a>
                           </dt>
                           <dd className="accordion-content accordionItem is-collapsed" id="accordion1" aria-hidden="true">
                             <ul className="mrg-lft-M">
@@ -696,8 +696,8 @@ class FilterSort extends Component {
                               </li>
                             </ul>
                           </dd>
-                          <dt>
-                            <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" className="accordion-title accordionTitle js-accordionTrigger">Accordion Title</a>
+                          <dt aria-expanded="false" aria-controls="accordion1">
+                            <a href="#accordion1" className="accordion-title accordionTitle js-accordionTrigger">Accordion Title</a>
                           </dt>
                           <dd className="accordion-content accordionItem is-collapsed" id="accordion1" aria-hidden="true">
                             <ul className="mrg-lft-M">
