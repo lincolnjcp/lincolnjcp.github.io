@@ -222,7 +222,7 @@ class Forms extends Component {
                                     <div className="sm12 md4 columns">
                                         <div className="input-group">
                                             <div className="form-float-label">
-                                                <input className="form-control email-text input-text" id="email" type="text" placeholder=" " />
+                                                <input className="form-control email-text input-text" id="email" type="text" placeholder="Email" />
                                                 <label htmlFor="email">Email</label>
                                             </div>
                                         </div>

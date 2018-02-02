@@ -316,26 +316,6 @@ class FilterSort extends Component {
 
     });
 
-    $("#HideDesignSystem").unbind('click').on('click', function(event){
-      $(this).toggleClass('active');
-      if($(this).hasClass('active')) {
-        $(this).text('Show Design System Wrapper');
-        $(".design-system-nav-col").css('display', 'none');
-        $(".design-system-content").css('padding',0);
-        $(".design-system-inner-content").css('padding',0);
-        $(".design-system-enable-hide").css('display', 'none');
-        $(".design-system-nav-mobile").css('display', 'none');
-        $(".design-system-wrap").css('margin',0);
-      } else {
-        $(this).text('Hide Design System Wrapper');
-        $(".design-system-nav-col").removeAttr('style');
-        $(".design-system-content").removeAttr('style');
-        $(".design-system-inner-content").removeAttr('style');
-        $(".design-system-enable-hide").removeAttr('style');
-        $(".design-system-nav-mobile").removeAttr('style');
-        $(".design-system-wrap").removeAttr('style');
-      }
-    });
   }
 
   render() {
@@ -343,9 +323,7 @@ class FilterSort extends Component {
 
       <div>
         <div className="columns">
-        <a href="javascript:void(0);" id="HideDesignSystem">Hide Design System Wrapper</a>
           <h1 className="title title-XXL mrg-XL sm12">Filter & Sort</h1><br /><br />
-
 
           <div className="filter-left-block fl-left show-for-large-only show-for-xlarge-only">
             <h2 className="title title-XL title title-XL mrg-XXL">Filter By</h2>
@@ -871,7 +849,7 @@ class FilterSort extends Component {
 
               <div className="dropdown-menu-block column md2 sm2 lg3 xl3 fl-right mrg-M nopad">
                 <div class="listIcon fl-right"></div>
-                <div className="hide-for-medium-only hide-for-small-only">
+                <div className="hide-for-medium-only hide-for-small-only filter-dropdown-block">
                   <a className="dropdown-button title-S">Sort by: <span class="sortby">Featured</span><span className="arrow"></span></a>
                   <div className="dropdown-menu">
                     <div className="tooltip tooltip-top-right filter-tooltip">
@@ -896,22 +874,22 @@ class FilterSort extends Component {
                 </div>
               </div>
             </div>
-            <div className="lg12 xl12 md12 sm12 mrg-L filter-tags hide-for-medium-only hide-for-small-only">
-              <div className="tags std-txt std-txt-S">
+            <div className="lg12 xl12 md12 sm12 filter-tags hide-for-medium-only hide-for-small-only nopad">
+              <div className="tags std-txt std-txt-S mrg-top-M">
                 <span className="tag-title">Gender: </span><span class="tag-item">Mens</span><a href="javascript:void(0)" className="color-white-svg icon" dangerouslySetInnerHTML={{ __html: closeImage }} />
               </div>
-              <div className="tags std-txt std-txt-S">
+              <div className="tags std-txt std-txt-S mrg-top-M">
                 <span className="tag-title">Item Type: </span><span class="tag-item">Suit Jackets</span><a href="javascript:void(0)" className="color-white-svg icon" dangerouslySetInnerHTML={{ __html: closeImage }} />
               </div>
-              <div className="tags std-txt std-txt-S">
+              <div className="tags std-txt std-txt-S mrg-top-M">
                 <span className="tag-title">Gender: </span><span class="tag-item">Mens</span><a href="javascript:void(0)" className="color-white-svg icon" dangerouslySetInnerHTML={{ __html: closeImage }} />
               </div>
-              <a className="tag-clear std-txt std-txt-S fl-left" href="javascript:void(0)">Clear All</a>
+              <a className="tag-clear std-txt std-txt-S fl-left mrg-top-L" href="javascript:void(0)">Clear All</a>
             </div>
 
             <div className="row">
               <div className="columns">
-                <div className="product-card-wrapper mrg-M">
+                <div className="product-card-wrapper mrg-M mrg-top-M">
                   {this.productCardGalleryPanesLarge({
                     name: "Lorem Ipsumd Dolor Sit Amet Consec Ter Adpisicing Alit…",
                     thumb: '/images/design-system/fpo/product-cards/product-card-large-pane-1.jpg',
