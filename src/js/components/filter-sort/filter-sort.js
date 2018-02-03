@@ -3,7 +3,6 @@ import $ from 'jquery';
 
 const closeImage = require('!!raw-loader?es5=1!../../../images/global/icons/nav/close.svg');
 const plusImage = require('!!raw-loader?es5=1!../../../images/global/icons/nav/plus.svg');
-
 const heartlineImage = require('!!raw-loader?es5=1!../../../images/global/icons/action/heart-line.svg');
 const clearImage = require('!!raw-loader?es5=1!../../../images/global/icons/nav/close.svg');
 const starImage = require('!!raw-loader?es5=1!../../../images/global/icons/utility/star.svg');

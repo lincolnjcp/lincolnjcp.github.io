@@ -21930,7 +21930,6 @@ function filter_sort__inherits(subClass, superClass) { if (typeof superClass !==
 
 var filter_sort_closeImage = __webpack_require__("oWX6");
 var filter_sort_plusImage = __webpack_require__("Vx6E");
-
 var filter_sort_heartlineImage = __webpack_require__("mPJs");
 var filter_sort_clearImage = __webpack_require__("oWX6");
 var filter_sort_starImage = __webpack_require__("CKfJ");

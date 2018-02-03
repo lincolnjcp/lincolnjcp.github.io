@@ -90,7 +90,7 @@ class Modal extends Component {
         <div className="row">
           <div className="modal-overlay"></div>
           <div className="modal dialog-pop-up">
-            <button className="modal-close"></button>
+            <button className="modal-close" title="close"></button>
             <h2 className="modal-sub-title title title-L">Delete Address</h2>
             <p className="modal-body std-txt std-txt-M">
               Are you sure you want to delete this address from your account?
@@ -102,7 +102,7 @@ class Modal extends Component {
           <br />
           <br />
           <div className="modal alert-pop-up informational-pop-up">
-            <button className="modal-close"></button>
+            <button className="modal-close" title="close"></button>
             <h2 className="modal-sub-title title title-L">Truckable Item Delivery</h2>
             <p className="modal-body std-txt std-txt-M">
               Some heavy or bulky items cannot be delivered via UPS, USPS or FedEx. These items must be delivered via truck.
@@ -119,7 +119,7 @@ class Modal extends Component {
           <br />
           <br />
           <div className="modal alert-pop-up">
-            <button className="modal-close"></button>
+            <button className="modal-close" title="close"></button>
             <span className="icon" dangerouslySetInnerHTML={{ __html: errorImage }} />
             <h2 className="modal-sub-title title title-L">Account Locked</h2>
             <p className="modal-body std-txt std-txt-M">
@@ -132,7 +132,7 @@ class Modal extends Component {
           <br />
 
           <div className="modal alert-pop-up">
-            <button className="modal-close"></button>
+            <button className="modal-close" title="close"></button>
             <p className="mrg-S">Online & In Store</p>
             <h2 className="modal-title-XXL title mrg-S">Extra 15% OFF</h2>
             <p className="modal-body">Show coupon to sales associate</p>
@@ -142,7 +142,7 @@ class Modal extends Component {
           <br />
 
           <div className="modal alert-pop-up">
-            <button className="modal-close"></button>
+            <button className="modal-close" title="close"></button>
             <span className="icon" dangerouslySetInnerHTML={{ __html: successImage }} />
             <h2 className="modal-sub-title title title-L">Coupon Applied</h2>
             <p className="modal-body std-txt std-txt-M">
@@ -154,7 +154,7 @@ class Modal extends Component {
           <br />
 
           <div className="modal dialog-pop-up">
-            <button className="modal-close"></button>
+            <button className="modal-close" title="close"></button>
             {/* <div className="msg msg-neutral mrg-S">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
     </div> */}
@@ -169,7 +169,7 @@ class Modal extends Component {
           <br />
           <br />
           <div className="modal scroll-container">
-            <button className="modal-close"></button>
+            <button className="modal-close" title="close"></button>
             <div className="scroll-block custom-scroll scrollable">
               <div className="scroll-content-wrapper">
                 <div className="scroll-content">
@@ -183,7 +183,7 @@ class Modal extends Component {
           <br />
           <br />
           <div className="modal scroll-container">
-            <button className="modal-close"></button>
+            <button className="modal-close" title="close"></button>
             <div className="scroll-block custom-scroll">
               <h2 className="title title-L test mrg-XS">10 Year Mattress Encasement Plan Twin</h2>
               <img src="https://www.jcpenney.com/dotcom/images/Levis_MENS_BT_DIV2_SIZECHART_OCT2016%20(002).jpg" alt="Marketing Content" />
@@ -193,7 +193,7 @@ class Modal extends Component {
           <br />
           <br />
           <div className="modal alert-pop-up informational-pop-up form-modal-pop">
-            <button className="modal-close"></button>
+            <button className="modal-close" title="close"></button>
             <h2 className="modal-sub-title title title-L">Send by Email</h2>
             <p className="modal-body std-txt std-txt-M">
               <h4 class="title-M title mrg-XS information-sendcopy"> Send a copy of your list to up to 10 email addresses </h4>

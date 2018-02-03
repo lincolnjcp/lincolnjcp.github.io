@@ -118,6 +118,7 @@
         padding: 6px 16px;
         & a {
           text-decoration: none;
+          display: block;
         }
       }
       & li:hover {
