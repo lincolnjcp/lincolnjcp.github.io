@@ -66,7 +66,7 @@ class ProductCards extends Component {
       {(() => {
         if (productInfo.priceRegular) {
           return (
-            <div className="product-card-note price price-note color-slate font-body">
+            <div className="product-card-note price price-note color-slate std-txt">
               {productInfo.priceRegular}
             </div>      
           )
@@ -197,7 +197,7 @@ class ProductCards extends Component {
       {(() => {
         if (productInfo.priceRegular) {
           return (
-            <div className="product-card-note price price-note color-slate font-body">
+            <div className="product-card-note price price-note color-slate std-txt">
               {productInfo.priceRegular}
             </div>      
           )
@@ -328,7 +328,7 @@ class ProductCards extends Component {
       {(() => {
         if (productInfo.priceRegular) {
           return (
-            <div className="product-card-note price price-note color-slate font-body">
+            <div className="product-card-note price price-note color-slate std-txt">
               {productInfo.priceRegular}
             </div>      
           )
@@ -433,7 +433,7 @@ class ProductCards extends Component {
         {(() => {
           if (productInfo.priceRegular) {
             return (
-              <div className="product-card-note price price-note color-slate font-body">
+              <div className="product-card-note price price-note color-slate std-txt">
                 {productInfo.priceRegular}
               </div>      
             )
@@ -644,7 +644,7 @@ class ProductCards extends Component {
           {(() => {
             if (productInfo.priceRegular) {
               return (
-                <div className="product-card-note price price-note color-slate font-body">
+                <div className="product-card-note price price-note color-slate std-txt">
                   {productInfo.priceRegular}
                 </div>      
               )
@@ -805,7 +805,7 @@ class ProductCards extends Component {
           {(() => {
             if (productInfo.priceRegular) {
               return (
-                <div className="product-card-note price price-note color-slate font-body">
+                <div className="product-card-note price price-note color-slate std-txt">
                   {productInfo.priceRegular}
                 </div>      
               )

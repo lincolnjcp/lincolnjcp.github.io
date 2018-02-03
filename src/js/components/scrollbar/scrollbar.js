@@ -87,7 +87,7 @@ class Pricing extends Component {
                 <div className="row">
                     <div className="padding-25">
                         <div className="modal scroll-container">
-                            <button className="modal-close"></button>
+                            <button className="modal-close" title="close"></button>
                             <div className="scroll-block custom-scroll scrollable">
                                 <div className="scroll-content-wrapper">
                                     <div className="scroll-content">

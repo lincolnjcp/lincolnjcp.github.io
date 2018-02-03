@@ -60,7 +60,7 @@ class Alerts extends Component {
                             fieldType: 'checkbox',
                             displayLabel: 'Dismissable',
                             name: 'code_alert_dismissable',
-                            value: '[[format_br]]<[[format_tag_start]]button[[format_tag_end]] [[format_attribute_start]]type="[[format_attribute_end]][[format_tag_value_start]]button[[format_tag_value_end]][[format_attribute_start]]" class="[[format_attribute_end]][[format_tag_value_start]]msg-close[[format_tag_value_end]][[format_attribute_start]]"[[format_attribute_end]]></[[format_tag_start]]button[[format_tag_end]]>',
+                            value: '[[format_br]]<[[format_tag_start]]button[[format_tag_end]] [[format_attribute_start]]type="[[format_attribute_end]][[format_tag_value_start]]button[[format_tag_value_end]][[format_attribute_start]]" class="[[format_attribute_end]][[format_tag_value_start]]msg-close[[format_tag_value_end]][[format_attribute_start]]" title="close">',
                             defaultSelect: 'true'
                         }
                     ]}

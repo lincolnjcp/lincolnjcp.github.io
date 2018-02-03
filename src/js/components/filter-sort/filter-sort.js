@@ -3,7 +3,11 @@ import $ from 'jquery';
 
 const closeImage = require('!!raw-loader?es5=1!../../../images/global/icons/nav/close.svg');
 const plusImage = require('!!raw-loader?es5=1!../../../images/global/icons/nav/plus.svg');
+
 const heartlineImage = require('!!raw-loader?es5=1!../../../images/global/icons/action/heart-line.svg');
+const clearImage = require('!!raw-loader?es5=1!../../../images/global/icons/nav/close.svg');
+const starImage = require('!!raw-loader?es5=1!../../../images/global/icons/utility/star.svg');
+const starhalfImage = require('!!raw-loader?es5=1!../../../images/global/icons/utility/star-half.svg');
 
 class FilterSort extends Component {
   productCardRecommendations(productInfo) {
@@ -876,13 +880,41 @@ class FilterSort extends Component {
             </div>
             <div className="lg12 xl12 md12 sm12 filter-tags hide-for-medium-only hide-for-small-only nopad">
               <div className="tags std-txt std-txt-S mrg-top-M">
-                <span className="tag-title">Gender: </span><span class="tag-item">Mens</span><a href="javascript:void(0)" className="color-white-svg icon" dangerouslySetInnerHTML={{ __html: closeImage }} />
+                <span className="tag-title">Gender: </span><span class="tag-item">Mens</span><a href="javascript:void(0)" className="color-white-svg icon" dangerouslySetInnerHTML={{ __html: clearImage }} />
               </div>
               <div className="tags std-txt std-txt-S mrg-top-M">
-                <span className="tag-title">Item Type: </span><span class="tag-item">Suit Jackets</span><a href="javascript:void(0)" className="color-white-svg icon" dangerouslySetInnerHTML={{ __html: closeImage }} />
+                <span className="tag-title">Item Type: </span><span class="tag-item">Suit Jackets</span><a href="javascript:void(0)" className="color-white-svg icon" dangerouslySetInnerHTML={{ __html: clearImage }} />
               </div>
               <div className="tags std-txt std-txt-S mrg-top-M">
-                <span className="tag-title">Gender: </span><span class="tag-item">Mens</span><a href="javascript:void(0)" className="color-white-svg icon" dangerouslySetInnerHTML={{ __html: closeImage }} />
+                <span className="tag-title">Gender: </span>
+                <span class="tag-item">
+               <span className="filter-color-swatches" />Grey
+                  
+               
+                </span><a href="javascript:void(0)" className="color-white-svg icon" dangerouslySetInnerHTML={{ __html: clearImage }} />
+              </div>
+              <div className="tags std-txt std-txt-S mrg-top-M star-preview-col">
+                <span className="tag-title">Rating: </span>
+                <span class="tag-item">
+                <ul className="star-ratings-S">
+                    <li className="star-ratings start-ratings-full">
+                        <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
+                    </li>
+                    <li className="star-ratings start-ratings-full">
+                        <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
+                    </li>
+                    <li className="star-ratings start-ratings-full">
+                        <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
+                    </li>
+                    <li className="star-ratings start-ratings-half">
+                        <span className="icon" dangerouslySetInnerHTML={{ __html: starhalfImage }} />
+                    </li>
+                    <li className="star-ratings star-rating-empty">
+                        <span className="icon color-concrete-svg" dangerouslySetInnerHTML={{ __html: starImage }} />
+                    </li>
+                </ul>
+                
+                </span><a href="javascript:void(0)" className="color-white-svg icon" dangerouslySetInnerHTML={{ __html: clearImage }} />
               </div>
               <a className="tag-clear std-txt std-txt-S fl-left mrg-top-L" href="javascript:void(0)">Clear All</a>
             </div>

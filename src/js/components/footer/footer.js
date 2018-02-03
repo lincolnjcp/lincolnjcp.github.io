@@ -113,7 +113,7 @@ class Footer extends Component {
                         </div>
                         <div className="social-connect md12 lg6 xl6 sm12">
                             <ul>
-                                <li className="hide-for-medium-only hide-for-small-only footer-stay-conntected">Stay Connected</li>
+                               
                                 <li>
                                     <a href="javascript:void();"><span className="icon" dangerouslySetInnerHTML={{ __html: facebooklineImage }} /></a>
                                 </li>
@@ -259,7 +259,7 @@ class Footer extends Component {
                                     <span className="icon" dangerouslySetInnerHTML={{ __html: cardJCPRed }} />
                                 </div>
                                 <div className="card-links">
-                                    <h3>JCPenney Credit</h3>
+                                    <h3>JCPenney Credit Card</h3>
                                     <ul>
                                         <li><a href="javascript:void();">Pay Bill </a></li>
                                         <li><a href="javascript:void();">Check Balance </a></li>
@@ -267,7 +267,7 @@ class Footer extends Component {
                                     </ul>
                                 </div>
                             </div>
-                            <div className="footer-legal-links md12 lg4 xl4 sm12 nopad">
+                            <div className="footer-legal-links md12 lg8 xl4 sm12 nopad">
                                 <ul className="">
                                     <li><a href="javascript:void();">Legal</a></li>
                                     <li><a href="javascript:void();">Recalls</a></li>

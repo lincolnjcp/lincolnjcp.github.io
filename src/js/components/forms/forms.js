@@ -330,6 +330,12 @@ class Forms extends Component {
                                                 <input type="checkbox" defaultChecked="true" /> <span>Checkbox</span>
                                             </label>
 
+                                            <label className="checkbox checkbox-M mrg-M">
+                                                <input type="checkbox" /> <span>Checkbox Medium</span>
+                                            </label>
+                                            <label className="checkbox checkbox-S mrg-M">
+                                                <input type="checkbox" /> <span>Checkbox Small</span>
+                                            </label>
                                             <br />
 
                                         </div>
