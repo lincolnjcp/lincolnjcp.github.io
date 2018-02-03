@@ -233,9 +233,9 @@ var _temp = function () {
         return;
     }
 
-    __REACT_HOT_LOADER__.register(CodeGenerator, 'CodeGenerator', '/Users/anbazhagan_pe/Documents/GitHub/lincolnjcp.github.io/src/js/containers/CodeGenerator.js');
+    __REACT_HOT_LOADER__.register(CodeGenerator, 'CodeGenerator', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/containers/CodeGenerator.js');
 
-    __REACT_HOT_LOADER__.register(_default, 'default', '/Users/anbazhagan_pe/Documents/GitHub/lincolnjcp.github.io/src/js/containers/CodeGenerator.js');
+    __REACT_HOT_LOADER__.register(_default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/containers/CodeGenerator.js');
 }();
 
 ;
@@ -944,7 +944,7 @@ var _temp = function () {
         return;
     }
 
-    __REACT_HOT_LOADER__.register(rootNav, 'rootNav', '/Users/anbazhagan_pe/Documents/GitHub/lincolnjcp.github.io/src/js/containers/config/rootConfig.js');
+    __REACT_HOT_LOADER__.register(rootNav, 'rootNav', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/containers/config/rootConfig.js');
 }();
 
 ;
@@ -980,6 +980,9 @@ var settingsImage = __webpack_require__("wGGi");
 var gridfillImage = __webpack_require__("plRc");
 var listLineImage = __webpack_require__("7qej");
 var listLineImageFill = __webpack_require__("cosh");
+var clearImage = __webpack_require__("oWX6");
+var starImage = __webpack_require__("CKfJ");
+var starhalfImage = __webpack_require__("KM/1");
 
 var buttons_Buttons = function (_Component) {
     _inherits(Buttons, _Component);
@@ -1785,6 +1788,107 @@ var buttons_Buttons = function (_Component) {
                         )
                     )
                 ),
+                react_default.a.createElement('br', null),
+                react_default.a.createElement('br', null),
+                react_default.a.createElement('br', null),
+                react_default.a.createElement(
+                    'div',
+                    { className: 'lg12 xl12 md12 sm12 filter-tags hide-for-medium-only hide-for-small-only nopad' },
+                    react_default.a.createElement(
+                        'div',
+                        { className: 'tags std-txt std-txt-S mrg-top-M' },
+                        react_default.a.createElement(
+                            'span',
+                            { className: 'tag-title' },
+                            'Gender: '
+                        ),
+                        react_default.a.createElement(
+                            'span',
+                            { 'class': 'tag-item' },
+                            'Mens'
+                        ),
+                        react_default.a.createElement('a', { href: 'javascript:void(0)', className: 'color-white-svg icon', dangerouslySetInnerHTML: { __html: clearImage } })
+                    ),
+                    react_default.a.createElement(
+                        'div',
+                        { className: 'tags std-txt std-txt-S mrg-top-M' },
+                        react_default.a.createElement(
+                            'span',
+                            { className: 'tag-title' },
+                            'Item Type: '
+                        ),
+                        react_default.a.createElement(
+                            'span',
+                            { 'class': 'tag-item' },
+                            'Suit Jackets'
+                        ),
+                        react_default.a.createElement('a', { href: 'javascript:void(0)', className: 'color-white-svg icon', dangerouslySetInnerHTML: { __html: clearImage } })
+                    ),
+                    react_default.a.createElement(
+                        'div',
+                        { className: 'tags std-txt std-txt-S mrg-top-M' },
+                        react_default.a.createElement(
+                            'span',
+                            { className: 'tag-title' },
+                            'Gender: '
+                        ),
+                        react_default.a.createElement(
+                            'span',
+                            { 'class': 'tag-item' },
+                            react_default.a.createElement('span', { className: 'filter-color-swatches' }),
+                            'Grey'
+                        ),
+                        react_default.a.createElement('a', { href: 'javascript:void(0)', className: 'color-white-svg icon', dangerouslySetInnerHTML: { __html: clearImage } })
+                    ),
+                    react_default.a.createElement(
+                        'div',
+                        { className: 'tags std-txt std-txt-S mrg-top-M star-preview-col' },
+                        react_default.a.createElement(
+                            'span',
+                            { className: 'tag-title' },
+                            'Rating: '
+                        ),
+                        react_default.a.createElement(
+                            'span',
+                            { 'class': 'tag-item' },
+                            react_default.a.createElement(
+                                'ul',
+                                { className: 'star-ratings-S' },
+                                react_default.a.createElement(
+                                    'li',
+                                    { className: 'star-ratings start-ratings-full' },
+                                    react_default.a.createElement('span', { className: 'icon ', dangerouslySetInnerHTML: { __html: starImage } })
+                                ),
+                                react_default.a.createElement(
+                                    'li',
+                                    { className: 'star-ratings start-ratings-full' },
+                                    react_default.a.createElement('span', { className: 'icon ', dangerouslySetInnerHTML: { __html: starImage } })
+                                ),
+                                react_default.a.createElement(
+                                    'li',
+                                    { className: 'star-ratings start-ratings-full' },
+                                    react_default.a.createElement('span', { className: 'icon ', dangerouslySetInnerHTML: { __html: starImage } })
+                                ),
+                                react_default.a.createElement(
+                                    'li',
+                                    { className: 'star-ratings start-ratings-half' },
+                                    react_default.a.createElement('span', { className: 'icon', dangerouslySetInnerHTML: { __html: starhalfImage } })
+                                ),
+                                react_default.a.createElement(
+                                    'li',
+                                    { className: 'star-ratings star-rating-empty' },
+                                    react_default.a.createElement('span', { className: 'icon color-concrete-svg', dangerouslySetInnerHTML: { __html: starImage } })
+                                )
+                            )
+                        ),
+                        react_default.a.createElement('a', { href: 'javascript:void(0)', className: 'color-white-svg icon', dangerouslySetInnerHTML: { __html: clearImage } })
+                    ),
+                    react_default.a.createElement(
+                        'a',
+                        { className: 'tag-clear std-txt std-txt-S fl-left mrg-top-L', href: 'javascript:void(0)' },
+                        'Clear All'
+                    )
+                ),
                 react_default.a.createElement(
                     'div',
                     { className: 'row' },
@@ -1830,9 +1934,9 @@ var buttons__temp = function () {
         return;
     }
 
-    __REACT_HOT_LOADER__.register(buttons_Buttons, 'Buttons', '/Users/anbazhagan_pe/Documents/GitHub/lincolnjcp.github.io/src/js/components/buttons/buttons.js');
+    __REACT_HOT_LOADER__.register(buttons_Buttons, 'Buttons', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/buttons/buttons.js');
 
-    __REACT_HOT_LOADER__.register(_default, 'default', '/Users/anbazhagan_pe/Documents/GitHub/lincolnjcp.github.io/src/js/components/buttons/buttons.js');
+    __REACT_HOT_LOADER__.register(_default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/buttons/buttons.js');
 }();
 
 ;
@@ -1847,7 +1951,7 @@ var components_buttons__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(buttons__default, 'default', '/Users/anbazhagan_pe/Documents/GitHub/lincolnjcp.github.io/src/js/components/buttons/index.js');
+  __REACT_HOT_LOADER__.register(buttons__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/buttons/index.js');
 }();
 
 ;
@@ -2644,11 +2748,11 @@ var color__temp = function () {
         return;
     }
 
-    __REACT_HOT_LOADER__.register(SubNavLinks, 'SubNavLinks', '/Users/anbazhagan_pe/Documents/GitHub/lincolnjcp.github.io/src/js/components/color/color.js');
+    __REACT_HOT_LOADER__.register(SubNavLinks, 'SubNavLinks', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/color/color.js');
 
-    __REACT_HOT_LOADER__.register(color_Color, 'Color', '/Users/anbazhagan_pe/Documents/GitHub/lincolnjcp.github.io/src/js/components/color/color.js');
+    __REACT_HOT_LOADER__.register(color_Color, 'Color', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/color/color.js');
 
-    __REACT_HOT_LOADER__.register(color__default, 'default', '/Users/anbazhagan_pe/Documents/GitHub/lincolnjcp.github.io/src/js/components/color/color.js');
+    __REACT_HOT_LOADER__.register(color__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/color/color.js');
 }();
 
 ;
@@ -2663,7 +2767,7 @@ var components_color__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_color__default, 'default', '/Users/anbazhagan_pe/Documents/GitHub/lincolnjcp.github.io/src/js/components/color/index.js');
+  __REACT_HOT_LOADER__.register(components_color__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/color/index.js');
 }();
 
 ;
@@ -2790,8 +2894,8 @@ var collectionmultiImage = __webpack_require__("ZRUk");
 var barcodeImage = __webpack_require__("oxHa");
 var barcodeqrImage = __webpack_require__("Gcex");
 var shieldImage = __webpack_require__("kNu/");
-var starImage = __webpack_require__("CKfJ");
-var starhalfImage = __webpack_require__("KM/1");
+var icons_starImage = __webpack_require__("CKfJ");
+var icons_starhalfImage = __webpack_require__("KM/1");
 var onlineonlyImage = __webpack_require__("3p/b");
 var idImage = __webpack_require__("cbNP");
 var idfillImage = __webpack_require__("s1aE");
@@ -3387,9 +3491,9 @@ var icons_Icons = function (_Component) {
                                 ' ',
                                 this.iconCol("shield", "protection plans", shieldImage),
                                 ' ',
-                                this.iconCol("star", "ratings", starImage),
+                                this.iconCol("star", "ratings", icons_starImage),
                                 ' ',
-                                this.iconCol("star-half", "ratings", starhalfImage),
+                                this.iconCol("star-half", "ratings", icons_starhalfImage),
                                 ' ',
                                 this.iconCol("online-only", "???", onlineonlyImage),
                                 this.iconCol("id", "???", idImage),
@@ -3511,11 +3615,11 @@ var icons__temp = function () {
         return;
     }
 
-    __REACT_HOT_LOADER__.register(icons_ColorPicker, 'ColorPicker', '/Users/anbazhagan_pe/Documents/GitHub/lincolnjcp.github.io/src/js/components/icons/icons.js');
+    __REACT_HOT_LOADER__.register(icons_ColorPicker, 'ColorPicker', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/icons/icons.js');
 
-    __REACT_HOT_LOADER__.register(icons_Icons, 'Icons', '/Users/anbazhagan_pe/Documents/GitHub/lincolnjcp.github.io/src/js/components/icons/icons.js');
+    __REACT_HOT_LOADER__.register(icons_Icons, 'Icons', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/icons/icons.js');
 
-    __REACT_HOT_LOADER__.register(icons__default, 'default', '/Users/anbazhagan_pe/Documents/GitHub/lincolnjcp.github.io/src/js/components/icons/icons.js');
+    __REACT_HOT_LOADER__.register(icons__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/icons/icons.js');
 }();
 
 ;
@@ -3530,7 +3634,7 @@ var components_icons__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_icons__default, 'default', '/Users/anbazhagan_pe/Documents/GitHub/lincolnjcp.github.io/src/js/components/icons/index.js');
+  __REACT_HOT_LOADER__.register(components_icons__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/icons/index.js');
 }();
 
 ;
@@ -4306,9 +4410,9 @@ var grid__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(grid_Grid, "Grid", "/Users/anbazhagan_pe/Documents/GitHub/lincolnjcp.github.io/src/js/components/grid/grid.js");
+  __REACT_HOT_LOADER__.register(grid_Grid, "Grid", "/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/grid/grid.js");
 
-  __REACT_HOT_LOADER__.register(grid__default, "default", "/Users/anbazhagan_pe/Documents/GitHub/lincolnjcp.github.io/src/js/components/grid/grid.js");
+  __REACT_HOT_LOADER__.register(grid__default, "default", "/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/grid/grid.js");
 }();
 
 ;
@@ -4323,7 +4427,7 @@ var components_grid__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_grid__default, 'default', '/Users/anbazhagan_pe/Documents/GitHub/lincolnjcp.github.io/src/js/components/grid/index.js');
+  __REACT_HOT_LOADER__.register(components_grid__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/grid/index.js');
 }();
 
 ;
@@ -5036,9 +5140,9 @@ var typography__temp = function () {
         return;
     }
 
-    __REACT_HOT_LOADER__.register(typography_Typography, 'Typography', '/Users/anbazhagan_pe/Documents/GitHub/lincolnjcp.github.io/src/js/components/typography/typography.js');
+    __REACT_HOT_LOADER__.register(typography_Typography, 'Typography', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/typography/typography.js');
 
-    __REACT_HOT_LOADER__.register(typography__default, 'default', '/Users/anbazhagan_pe/Documents/GitHub/lincolnjcp.github.io/src/js/components/typography/typography.js');
+    __REACT_HOT_LOADER__.register(typography__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/typography/typography.js');
 }();
 
 ;
@@ -5053,7 +5157,7 @@ var components_typography__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_typography__default, 'default', '/Users/anbazhagan_pe/Documents/GitHub/lincolnjcp.github.io/src/js/components/typography/index.js');
+  __REACT_HOT_LOADER__.register(components_typography__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/typography/index.js');
 }();
 
 ;
@@ -5144,7 +5248,7 @@ var alerts_Alerts = function (_Component) {
                                 fieldType: 'checkbox',
                                 displayLabel: 'Dismissable',
                                 name: 'code_alert_dismissable',
-                                value: '[[format_br]]<[[format_tag_start]]button[[format_tag_end]] [[format_attribute_start]]type="[[format_attribute_end]][[format_tag_value_start]]button[[format_tag_value_end]][[format_attribute_start]]" class="[[format_attribute_end]][[format_tag_value_start]]msg-close[[format_tag_value_end]][[format_attribute_start]]"[[format_attribute_end]]></[[format_tag_start]]button[[format_tag_end]]>',
+                                value: '[[format_br]]<[[format_tag_start]]button[[format_tag_end]] [[format_attribute_start]]type="[[format_attribute_end]][[format_tag_value_start]]button[[format_tag_value_end]][[format_attribute_start]]" class="[[format_attribute_end]][[format_tag_value_start]]msg-close[[format_tag_value_end]][[format_attribute_start]]" title="close">',
                                 defaultSelect: 'true'
                             }],
 
@@ -5414,9 +5518,9 @@ var alerts__temp = function () {
         return;
     }
 
-    __REACT_HOT_LOADER__.register(alerts_Alerts, 'Alerts', '/Users/anbazhagan_pe/Documents/GitHub/lincolnjcp.github.io/src/js/components/alerts/alerts.js');
+    __REACT_HOT_LOADER__.register(alerts_Alerts, 'Alerts', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/alerts/alerts.js');
 
-    __REACT_HOT_LOADER__.register(alerts__default, 'default', '/Users/anbazhagan_pe/Documents/GitHub/lincolnjcp.github.io/src/js/components/alerts/alerts.js');
+    __REACT_HOT_LOADER__.register(alerts__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/alerts/alerts.js');
 }();
 
 ;
@@ -5431,7 +5535,7 @@ var components_alerts__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_alerts__default, 'default', '/Users/anbazhagan_pe/Documents/GitHub/lincolnjcp.github.io/src/js/components/alerts/index.js');
+  __REACT_HOT_LOADER__.register(components_alerts__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/alerts/index.js');
 }();
 
 ;
@@ -5771,9 +5875,9 @@ var badges__temp = function () {
         return;
     }
 
-    __REACT_HOT_LOADER__.register(badges_Badges, 'Badges', '/Users/anbazhagan_pe/Documents/GitHub/lincolnjcp.github.io/src/js/components/badges/badges.js');
+    __REACT_HOT_LOADER__.register(badges_Badges, 'Badges', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/badges/badges.js');
 
-    __REACT_HOT_LOADER__.register(badges__default, 'default', '/Users/anbazhagan_pe/Documents/GitHub/lincolnjcp.github.io/src/js/components/badges/badges.js');
+    __REACT_HOT_LOADER__.register(badges__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/badges/badges.js');
 }();
 
 ;
@@ -5788,7 +5892,7 @@ var components_badges__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_badges__default, 'default', '/Users/anbazhagan_pe/Documents/GitHub/lincolnjcp.github.io/src/js/components/badges/index.js');
+  __REACT_HOT_LOADER__.register(components_badges__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/badges/index.js');
 }();
 
 ;
@@ -6260,9 +6364,9 @@ var content_loaders__temp = function () {
         return;
     }
 
-    __REACT_HOT_LOADER__.register(content_loaders_ContentLoaders, 'ContentLoaders', '/Users/anbazhagan_pe/Documents/GitHub/lincolnjcp.github.io/src/js/components/content-loaders/content-loaders.js');
+    __REACT_HOT_LOADER__.register(content_loaders_ContentLoaders, 'ContentLoaders', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/content-loaders/content-loaders.js');
 
-    __REACT_HOT_LOADER__.register(content_loaders__default, 'default', '/Users/anbazhagan_pe/Documents/GitHub/lincolnjcp.github.io/src/js/components/content-loaders/content-loaders.js');
+    __REACT_HOT_LOADER__.register(content_loaders__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/content-loaders/content-loaders.js');
 }();
 
 ;
@@ -6277,7 +6381,7 @@ var components_content_loaders__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_content_loaders__default, 'default', '/Users/anbazhagan_pe/Documents/GitHub/lincolnjcp.github.io/src/js/components/content-loaders/index.js');
+  __REACT_HOT_LOADER__.register(components_content_loaders__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/content-loaders/index.js');
 }();
 
 ;
@@ -7175,9 +7279,9 @@ var dropdown_button__temp = function () {
         return;
     }
 
-    __REACT_HOT_LOADER__.register(dropdown_button_DropdownButton, 'DropdownButton', '/Users/anbazhagan_pe/Documents/GitHub/lincolnjcp.github.io/src/js/components/dropdown-button/dropdown-button.js');
+    __REACT_HOT_LOADER__.register(dropdown_button_DropdownButton, 'DropdownButton', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/dropdown-button/dropdown-button.js');
 
-    __REACT_HOT_LOADER__.register(dropdown_button__default, 'default', '/Users/anbazhagan_pe/Documents/GitHub/lincolnjcp.github.io/src/js/components/dropdown-button/dropdown-button.js');
+    __REACT_HOT_LOADER__.register(dropdown_button__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/dropdown-button/dropdown-button.js');
 }();
 
 ;
@@ -7192,7 +7296,7 @@ var components_dropdown_button__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_dropdown_button__default, 'default', '/Users/anbazhagan_pe/Documents/GitHub/lincolnjcp.github.io/src/js/components/dropdown-button/index.js');
+  __REACT_HOT_LOADER__.register(components_dropdown_button__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/dropdown-button/index.js');
 }();
 
 ;
@@ -8421,9 +8525,9 @@ var tables__temp = function () {
         return;
     }
 
-    __REACT_HOT_LOADER__.register(tables_Tables, 'Tables', '/Users/anbazhagan_pe/Documents/GitHub/lincolnjcp.github.io/src/js/components/tables/tables.js');
+    __REACT_HOT_LOADER__.register(tables_Tables, 'Tables', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/tables/tables.js');
 
-    __REACT_HOT_LOADER__.register(tables__default, 'default', '/Users/anbazhagan_pe/Documents/GitHub/lincolnjcp.github.io/src/js/components/tables/tables.js');
+    __REACT_HOT_LOADER__.register(tables__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/tables/tables.js');
 }();
 
 ;
@@ -8438,7 +8542,7 @@ var components_tables__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_tables__default, 'default', '/Users/anbazhagan_pe/Documents/GitHub/lincolnjcp.github.io/src/js/components/tables/index.js');
+  __REACT_HOT_LOADER__.register(components_tables__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/tables/index.js');
 }();
 
 ;
@@ -9086,6 +9190,28 @@ var forms_Forms = function (_Component) {
                                                     'span',
                                                     null,
                                                     'Checkbox'
+                                                )
+                                            ),
+                                            react_default.a.createElement(
+                                                'label',
+                                                { className: 'checkbox checkbox-M mrg-M' },
+                                                react_default.a.createElement('input', { type: 'checkbox' }),
+                                                ' ',
+                                                react_default.a.createElement(
+                                                    'span',
+                                                    null,
+                                                    'Checkbox Medium'
+                                                )
+                                            ),
+                                            react_default.a.createElement(
+                                                'label',
+                                                { className: 'checkbox checkbox-S mrg-M' },
+                                                react_default.a.createElement('input', { type: 'checkbox' }),
+                                                ' ',
+                                                react_default.a.createElement(
+                                                    'span',
+                                                    null,
+                                                    'Checkbox Small'
                                                 )
                                             ),
                                             react_default.a.createElement('br', null)
@@ -10103,9 +10229,9 @@ var forms__temp = function () {
         return;
     }
 
-    __REACT_HOT_LOADER__.register(forms_Forms, 'Forms', '/Users/anbazhagan_pe/Documents/GitHub/lincolnjcp.github.io/src/js/components/forms/forms.js');
+    __REACT_HOT_LOADER__.register(forms_Forms, 'Forms', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/forms/forms.js');
 
-    __REACT_HOT_LOADER__.register(forms__default, 'default', '/Users/anbazhagan_pe/Documents/GitHub/lincolnjcp.github.io/src/js/components/forms/forms.js');
+    __REACT_HOT_LOADER__.register(forms__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/forms/forms.js');
 }();
 
 ;
@@ -10120,7 +10246,7 @@ var components_forms__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_forms__default, 'default', '/Users/anbazhagan_pe/Documents/GitHub/lincolnjcp.github.io/src/js/components/forms/index.js');
+  __REACT_HOT_LOADER__.register(components_forms__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/forms/index.js');
 }();
 
 ;
@@ -10451,9 +10577,9 @@ var star_ratings__temp = function () {
         return;
     }
 
-    __REACT_HOT_LOADER__.register(star_ratings_ContentLoaders, 'ContentLoaders', '/Users/anbazhagan_pe/Documents/GitHub/lincolnjcp.github.io/src/js/components/star-ratings/star-ratings.js');
+    __REACT_HOT_LOADER__.register(star_ratings_ContentLoaders, 'ContentLoaders', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/star-ratings/star-ratings.js');
 
-    __REACT_HOT_LOADER__.register(star_ratings__default, 'default', '/Users/anbazhagan_pe/Documents/GitHub/lincolnjcp.github.io/src/js/components/star-ratings/star-ratings.js');
+    __REACT_HOT_LOADER__.register(star_ratings__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/star-ratings/star-ratings.js');
 }();
 
 ;
@@ -10468,7 +10594,7 @@ var components_star_ratings__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_star_ratings__default, 'default', '/Users/anbazhagan_pe/Documents/GitHub/lincolnjcp.github.io/src/js/components/star-ratings/index.js');
+  __REACT_HOT_LOADER__.register(components_star_ratings__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/star-ratings/index.js');
 }();
 
 ;
@@ -10583,50 +10709,32 @@ var scrollbar_Pricing = function (_Component) {
                         { className: 'padding-25' },
                         react_default.a.createElement(
                             'div',
-                            { id: 'main', 'class': 'scrollable' },
+                            { className: 'modal scroll-container' },
+                            react_default.a.createElement('button', { className: 'modal-close', title: 'close' }),
                             react_default.a.createElement(
                                 'div',
-                                { 'class': 'content-wrapper' },
+                                { className: 'scroll-block custom-scroll scrollable' },
                                 react_default.a.createElement(
                                     'div',
-                                    { 'class': 'content' },
+                                    { className: 'scroll-content-wrapper' },
                                     react_default.a.createElement(
-                                        'p',
-                                        null,
-                                        'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt accusamus maxime voluptatem quasi. Recusandae optio nobis ratione iste consectetur consequatur cupiditate saepe laborum natus neque a provident eum explicabo delectus qui accusantium nostrum reiciendis soluta hic ut at sed laboriosam possimus repudiandae deserunt velit rerum. Aliquam ratione itaque corrupti aperiam quisquam unde aspernatur odio id repellendus corporis eaque expedita in ab minus possimus! Quo tempore consequatur repellat consectetur nemo molestiae perferendis ipsum esse nesciunt blanditiis nobis dicta? Laudantium quaerat inventore deleniti exercitationem explicabo quos pariatur sunt earum labore sed eius blanditiis architecto consequuntur ad consectetur unde sapiente nisi. Sunt eos.'
-                                    ),
-                                    react_default.a.createElement(
-                                        'p',
-                                        null,
-                                        'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt accusamus maxime voluptatem quasi. Recusandae optio nobis ratione iste consectetur consequatur cupiditate saepe laborum natus neque a provident eum explicabo delectus qui accusantium nostrum reiciendis soluta hic ut at sed laboriosam possimus repudiandae deserunt velit rerum. Aliquam ratione itaque corrupti aperiam quisquam unde aspernatur odio id repellendus corporis eaque expedita in ab minus possimus! Quo tempore consequatur repellat consectetur nemo molestiae perferendis ipsum esse nesciunt blanditiis nobis dicta? Laudantium quaerat inventore deleniti exercitationem explicabo quos pariatur sunt earum labore sed eius blanditiis architecto consequuntur ad consectetur unde sapiente nisi. Sunt eos.'
-                                    ),
-                                    react_default.a.createElement(
-                                        'p',
-                                        null,
-                                        'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt accusamus maxime voluptatem quasi. Recusandae optio nobis ratione iste consectetur consequatur cupiditate saepe laborum natus neque a provident eum explicabo delectus qui accusantium nostrum reiciendis soluta hic ut at sed laboriosam possimus repudiandae deserunt velit rerum. Aliquam ratione itaque corrupti aperiam quisquam unde aspernatur odio id repellendus corporis eaque expedita in ab minus possimus! Quo tempore consequatur repellat consectetur nemo molestiae perferendis ipsum esse nesciunt blanditiis nobis dicta? Laudantium quaerat inventore deleniti exercitationem explicabo quos pariatur sunt earum labore sed eius blanditiis architecto consequuntur ad consectetur unde sapiente nisi. Sunt eos.'
-                                    ),
-                                    react_default.a.createElement(
-                                        'p',
-                                        null,
-                                        'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt accusamus maxime voluptatem quasi. Recusandae optio nobis ratione iste consectetur consequatur cupiditate saepe laborum natus neque a provident eum explicabo delectus qui accusantium nostrum reiciendis soluta hic ut at sed laboriosam possimus repudiandae deserunt velit rerum. Aliquam ratione itaque corrupti aperiam quisquam unde aspernatur odio id repellendus corporis eaque expedita in ab minus possimus! Quo tempore consequatur repellat consectetur nemo molestiae perferendis ipsum esse nesciunt blanditiis nobis dicta? Laudantium quaerat inventore deleniti exercitationem explicabo quos pariatur sunt earum labore sed eius blanditiis architecto consequuntur ad consectetur unde sapiente nisi. Sunt eos.'
-                                    ),
-                                    react_default.a.createElement(
-                                        'p',
-                                        null,
-                                        'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt accusamus maxime voluptatem quasi. Recusandae optio nobis ratione iste consectetur consequatur cupiditate saepe laborum natus neque a provident eum explicabo delectus qui accusantium nostrum reiciendis soluta hic ut at sed laboriosam possimus repudiandae deserunt velit rerum. Aliquam ratione itaque corrupti aperiam quisquam unde aspernatur odio id repellendus corporis eaque expedita in ab minus possimus! Quo tempore consequatur repellat consectetur nemo molestiae perferendis ipsum esse nesciunt blanditiis nobis dicta? Laudantium quaerat inventore deleniti exercitationem explicabo quos pariatur sunt earum labore sed eius blanditiis architecto consequuntur ad consectetur unde sapiente nisi. Sunt eos.'
-                                    ),
-                                    react_default.a.createElement(
-                                        'p',
-                                        null,
-                                        'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt accusamus maxime voluptatem quasi. Recusandae optio nobis ratione iste consectetur consequatur cupiditate saepe laborum natus neque a provident eum explicabo delectus qui accusantium nostrum reiciendis soluta hic ut at sed laboriosam possimus repudiandae deserunt velit rerum. Aliquam ratione itaque corrupti aperiam quisquam unde aspernatur odio id repellendus corporis eaque expedita in ab minus possimus! Quo tempore consequatur repellat consectetur nemo molestiae perferendis ipsum esse nesciunt blanditiis nobis dicta? Laudantium quaerat inventore deleniti exercitationem explicabo quos pariatur sunt earum labore sed eius blanditiis architecto consequuntur ad consectetur unde sapiente nisi. Sunt eos.'
+                                        'div',
+                                        { className: 'scroll-content' },
+                                        react_default.a.createElement(
+                                            'h2',
+                                            { className: 'title title-L test mrg-XS' },
+                                            '10 Year Mattress Encasement Plan Twin'
+                                        ),
+                                        react_default.a.createElement(
+                                            'h4',
+                                            { className: 'title-M title mrg-M' },
+                                            'Sealy Essentials\u2122 Holly Hills Firm - Mattress + Box Spring'
+                                        ),
+                                        'BEDGARD ENCASEMENT: 10 Year Plan with Encasement: For new residential mattresses purchased in conjunction with a BedGard Encasement. Coverage includes: All accidental stains (excluding accumulations). Construction of Mattress Protector. WHY BEDGARD ENCASEMENT? The manufacturer of the mattress will void the warranty if the mattress is stained. A full encasement reduces conditions which attract dust mites, allergens and bed bugs. HOW DOES IT WORK? Customers purchase and use the BedGard Protector along with their new residential mattress. If their mattress becomes stained during normal residential use while using the protector, the affected portion or the complete mattress will be repaired or replaced!HOW LONG IS COVERAGE? The BedGard Product Limited Warranty is effective for ten (10) years from the date the customer takes delivery of the Mattress Protector and the Mattress. WHAT PROBLEMS ARE COVERED? Construction and staining of the BedGard Mattress Protector/Pad. All accidental stains attributed to a single occurrence (excluding accumulation defined as a gradual buildup of dirt, dust, body oils and perspiration). HOW LONG DOES THE CUSTOMER HAVE TO REPORT A PROBLEM? Problems must be reported within ten (10) days of occurrence of the stain or damage. BEDGARD ENCASEMENT: 10 Year Plan with Encasement: For new residential mattresses purchased in conjunction with a BedGard Encasement. Coverage includes: All accidental stains (excluding accumulations). Construction of Mattress Protector. WHY BEDGARD ENCASEMENT? The manufacturer of the mattress will void the warranty if the mattress is stained. A full encasement reduces conditions which attract dust mites, allergens and bed bugs. HOW DOES IT WORK? Customers purchase and use the BedGard Protector along with their new residential mattress. If their mattress becomes stained during normal residential use while using the protector, the affected portion or the complete mattress will be repaired or replaced!HOW LONG IS COVERAGE? The BedGard Product Limited Warranty is effective for ten (10) years from the date the customer takes delivery of the Mattress Protector and the Mattress. WHAT PROBLEMS ARE COVERED? Construction and staining of the BedGard Mattress Protector/Pad. All accidental stains attributed to a single occurrence (excluding accumulation defined as a gradual buildup of dirt, dust, body oils and perspiration). HOW LONG DOES THE CUSTOMER HAVE TO REPORT A PROBLEM? Problems must be reported within ten (10) days of occurrence of the stain or damage.'
                                     )
                                 )
-                            )
-                        ),
-                        react_default.a.createElement(
-                            'div',
-                            null,
-                            'Not special and not contained within scrolling'
+                            ),
+                            react_default.a.createElement('div', { className: 'scroll-block-fade' })
                         )
                     )
                 )
@@ -10648,9 +10756,9 @@ var scrollbar__temp = function () {
         return;
     }
 
-    __REACT_HOT_LOADER__.register(scrollbar_Pricing, 'Pricing', '/Users/anbazhagan_pe/Documents/GitHub/lincolnjcp.github.io/src/js/components/scrollbar/scrollbar.js');
+    __REACT_HOT_LOADER__.register(scrollbar_Pricing, 'Pricing', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/scrollbar/scrollbar.js');
 
-    __REACT_HOT_LOADER__.register(scrollbar__default, 'default', '/Users/anbazhagan_pe/Documents/GitHub/lincolnjcp.github.io/src/js/components/scrollbar/scrollbar.js');
+    __REACT_HOT_LOADER__.register(scrollbar__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/scrollbar/scrollbar.js');
 }();
 
 ;
@@ -10665,7 +10773,7 @@ var components_scrollbar__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_scrollbar__default, 'default', '/Users/anbazhagan_pe/Documents/GitHub/lincolnjcp.github.io/src/js/components/scrollbar/index.js');
+  __REACT_HOT_LOADER__.register(components_scrollbar__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/scrollbar/index.js');
 }();
 
 ;
@@ -10845,9 +10953,9 @@ var progressbar__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(progressbar_ProgressBar, "ProgressBar", "/Users/anbazhagan_pe/Documents/GitHub/lincolnjcp.github.io/src/js/components/progressbar/progressbar.js");
+  __REACT_HOT_LOADER__.register(progressbar_ProgressBar, "ProgressBar", "/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/progressbar/progressbar.js");
 
-  __REACT_HOT_LOADER__.register(progressbar__default, "default", "/Users/anbazhagan_pe/Documents/GitHub/lincolnjcp.github.io/src/js/components/progressbar/progressbar.js");
+  __REACT_HOT_LOADER__.register(progressbar__default, "default", "/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/progressbar/progressbar.js");
 }();
 
 ;
@@ -10862,7 +10970,7 @@ var components_progressbar__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_progressbar__default, 'default', '/Users/anbazhagan_pe/Documents/GitHub/lincolnjcp.github.io/src/js/components/progressbar/index.js');
+  __REACT_HOT_LOADER__.register(components_progressbar__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/progressbar/index.js');
 }();
 
 ;
@@ -12899,6 +13007,67 @@ var pricing_Scrollbar = function (_Component) {
                             )
                           )
                         )
+                      ),
+                      react_default.a.createElement(
+                        "li",
+                        null,
+                        react_default.a.createElement(
+                          "div",
+                          { className: "price-card" },
+                          react_default.a.createElement(
+                            "div",
+                            { className: "price price-promo mrg-XS color-penneyred" },
+                            "BUY MORE AND SAVE WITH CODE:47BUYNOW"
+                          ),
+                          react_default.a.createElement(
+                            "div",
+                            { className: "price price-S mrg-rght-XS mrg-top-XS mrg-M" },
+                            "$64.99",
+                            react_default.a.createElement(
+                              "span",
+                              { className: "price price-note-M mrg-lft-XS" },
+                              " sale "
+                            ),
+                            react_default.a.createElement(
+                              "span",
+                              { className: "price price-note-M mrg-lft-S color-slate font-body" },
+                              "was $89.99"
+                            ),
+                            react_default.a.createElement(
+                              "span",
+                              { className: "price price-note-M mrg-lft-M color-slate font-body" },
+                              "20% off"
+                            )
+                          ),
+                          react_default.a.createElement(
+                            "div",
+                            { className: "price price-S mrg-rght-XS flag flag-urgency mrg-XS" },
+                            "$40.99"
+                          ),
+                          react_default.a.createElement(
+                            "span",
+                            { className: "price price-note-M color-penneyred" },
+                            "Extra 20% off"
+                          ),
+                          react_default.a.createElement(
+                            "div",
+                            { className: "price" },
+                            react_default.a.createElement(
+                              "span",
+                              { className: "price price-note-M color-penneyred" },
+                              "with coupon code: FUNDEAL "
+                            ),
+                            react_default.a.createElement(
+                              "span",
+                              { className: "std-txt std-txt-XS" },
+                              react_default.a.createElement(
+                                "a",
+                                { href: "javascript:void(0);" },
+                                "details"
+                              )
+                            )
+                          )
+                        )
                       )
                     )
                   ),
@@ -13232,6 +13401,69 @@ var pricing_Scrollbar = function (_Component) {
                       react_default.a.createElement(
                         "h2",
                         { className: "title title-L" },
+                        "Small Clearance",
+                        react_default.a.createElement("br", null),
+                        react_default.a.createElement("br", null)
+                      ),
+                      react_default.a.createElement(
+                        "li",
+                        null,
+                        react_default.a.createElement(
+                          "div",
+                          { className: "price-card" },
+                          react_default.a.createElement(
+                            "div",
+                            { className: "price price-S mrg-rght-XS mrg-XS" },
+                            "$299.99 - $599.99",
+                            react_default.a.createElement(
+                              "span",
+                              { className: "price price-note-M mrg-lft-XS color-penneyred" },
+                              " clearance "
+                            )
+                          ),
+                          react_default.a.createElement(
+                            "span",
+                            { className: "price price-note-M color-slate font-body" },
+                            "was $9,999"
+                          ),
+                          react_default.a.createElement(
+                            "span",
+                            { className: "price price-note-M mrg-lft-M color-slate font-body" },
+                            "40% off"
+                          )
+                        )
+                      ),
+                      react_default.a.createElement(
+                        "li",
+                        null,
+                        react_default.a.createElement(
+                          "div",
+                          { className: "price-card" },
+                          react_default.a.createElement(
+                            "div",
+                            { className: "price price-S mrg-rght-XS mrg-XS" },
+                            "$3,999 - $9,999",
+                            react_default.a.createElement(
+                              "span",
+                              { className: "price price-note-M mrg-lft-XS color-penneyred" },
+                              " clearance "
+                            )
+                          ),
+                          react_default.a.createElement(
+                            "span",
+                            { className: "price price-note-M color-slate font-body" },
+                            "was $9,999"
+                          ),
+                          react_default.a.createElement(
+                            "span",
+                            { className: "price price-note-M mrg-lft-M color-slate font-body" },
+                            "40% off"
+                          )
+                        )
+                      ),
+                      react_default.a.createElement(
+                        "h2",
+                        { className: "title title-L" },
                         "Range",
                         react_default.a.createElement("br", null),
                         react_default.a.createElement("br", null)
@@ -13550,9 +13782,9 @@ var pricing__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(pricing_Scrollbar, "Scrollbar", "/Users/anbazhagan_pe/Documents/GitHub/lincolnjcp.github.io/src/js/components/pricing/pricing.js");
+  __REACT_HOT_LOADER__.register(pricing_Scrollbar, "Scrollbar", "/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/pricing/pricing.js");
 
-  __REACT_HOT_LOADER__.register(pricing__default, "default", "/Users/anbazhagan_pe/Documents/GitHub/lincolnjcp.github.io/src/js/components/pricing/pricing.js");
+  __REACT_HOT_LOADER__.register(pricing__default, "default", "/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/pricing/pricing.js");
 }();
 
 ;
@@ -13567,7 +13799,7 @@ var components_pricing__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_pricing__default, 'default', '/Users/anbazhagan_pe/Documents/GitHub/lincolnjcp.github.io/src/js/components/pricing/index.js');
+  __REACT_HOT_LOADER__.register(components_pricing__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/pricing/index.js');
 }();
 
 ;
@@ -13623,7 +13855,7 @@ var visual_navigation_VisualNavigation = function (_Component) {
                   react_default.a.createElement(
                     "div",
                     { className: "viz-nav-img mrg-XL" },
-                    react_default.a.createElement("img", { src: "https://m.jcpenney.com/tablet/images/wmns-coats.jpg", alt: "" })
+                    react_default.a.createElement("img", { src: "https://m.jcpenney.com/tablet/images/wmns-coats.jpg", alt: "product-image" })
                   ),
                   react_default.a.createElement(
                     "h2",
@@ -13641,7 +13873,7 @@ var visual_navigation_VisualNavigation = function (_Component) {
                   react_default.a.createElement(
                     "div",
                     { className: "viz-nav-img mrg-XL" },
-                    react_default.a.createElement("img", { src: "https://m.jcpenney.com/tablet/images/wmns_tops.jpg", alt: "" })
+                    react_default.a.createElement("img", { src: "https://m.jcpenney.com/tablet/images/wmns_tops.jpg", alt: "product-image" })
                   ),
                   react_default.a.createElement(
                     "h2",
@@ -13659,7 +13891,7 @@ var visual_navigation_VisualNavigation = function (_Component) {
                   react_default.a.createElement(
                     "div",
                     { className: "viz-nav-img mrg-XL" },
-                    react_default.a.createElement("img", { src: "https://m.jcpenney.com/tablet/images/wmns_jeans.jpg", alt: "" })
+                    react_default.a.createElement("img", { src: "https://m.jcpenney.com/tablet/images/wmns_jeans.jpg", alt: "product-image" })
                   ),
                   react_default.a.createElement(
                     "h2",
@@ -13677,7 +13909,7 @@ var visual_navigation_VisualNavigation = function (_Component) {
                   react_default.a.createElement(
                     "div",
                     { className: "viz-nav-img mrg-XL" },
-                    react_default.a.createElement("img", { src: "https://m.jcpenney.com/tablet/images/wmns_blazer.jpg", alt: "" })
+                    react_default.a.createElement("img", { src: "https://m.jcpenney.com/tablet/images/wmns_blazer.jpg", alt: "product-image" })
                   ),
                   react_default.a.createElement(
                     "h2",
@@ -13695,7 +13927,7 @@ var visual_navigation_VisualNavigation = function (_Component) {
                   react_default.a.createElement(
                     "div",
                     { className: "viz-nav-img mrg-XL" },
-                    react_default.a.createElement("img", { src: "https://m.jcpenney.com/tablet/images/womens%20scrubs%20icon.jpg", alt: "" })
+                    react_default.a.createElement("img", { src: "https://m.jcpenney.com/tablet/images/womens%20scrubs%20icon.jpg", alt: "product-image" })
                   ),
                   react_default.a.createElement(
                     "h2",
@@ -13726,7 +13958,7 @@ var visual_navigation_VisualNavigation = function (_Component) {
                   react_default.a.createElement(
                     "div",
                     { className: "viz-nav-img mrg-XL" },
-                    react_default.a.createElement("img", { src: "https://m.jcpenney.com/tablet/images/mens%20sports%20fan%20shop%20tablet%20category%20icon.jpg", alt: "" })
+                    react_default.a.createElement("img", { src: "https://m.jcpenney.com/tablet/images/mens%20sports%20fan%20shop%20tablet%20category%20icon.jpg", alt: "product-image" })
                   ),
                   react_default.a.createElement(
                     "h2",
@@ -13749,7 +13981,7 @@ var visual_navigation_VisualNavigation = function (_Component) {
                   react_default.a.createElement(
                     "div",
                     { className: "viz-nav-img mrg-XL" },
-                    react_default.a.createElement("img", { src: "https://m.jcpenney.com/tablet/images/mens%20athletic%20uniforms%20tablet%20category%20icon.jpg", alt: "" })
+                    react_default.a.createElement("img", { src: "https://m.jcpenney.com/tablet/images/mens%20athletic%20uniforms%20tablet%20category%20icon.jpg", alt: "product-image" })
                   ),
                   react_default.a.createElement(
                     "h2",
@@ -13772,7 +14004,7 @@ var visual_navigation_VisualNavigation = function (_Component) {
                   react_default.a.createElement(
                     "div",
                     { className: "viz-nav-img mrg-XL" },
-                    react_default.a.createElement("img", { src: "https://m.jcpenney.com/tablet/images/mens%20coats%20jackets%20icon.jpg", alt: "" })
+                    react_default.a.createElement("img", { src: "https://m.jcpenney.com/tablet/images/mens%20coats%20jackets%20icon.jpg", alt: "product-image" })
                   ),
                   react_default.a.createElement(
                     "h2",
@@ -13795,7 +14027,7 @@ var visual_navigation_VisualNavigation = function (_Component) {
                   react_default.a.createElement(
                     "div",
                     { className: "viz-nav-img mrg-XL" },
-                    react_default.a.createElement("img", { src: "https://m.jcpenney.com/tablet/images/mens%20sweaters%20icon.jpg", alt: "" })
+                    react_default.a.createElement("img", { src: "https://m.jcpenney.com/tablet/images/mens%20sweaters%20icon.jpg", alt: "product-image" })
                   ),
                   react_default.a.createElement(
                     "h2",
@@ -13818,7 +14050,7 @@ var visual_navigation_VisualNavigation = function (_Component) {
                   react_default.a.createElement(
                     "div",
                     { className: "viz-nav-img mrg-XL" },
-                    react_default.a.createElement("img", { src: "https://m.jcpenney.com/tablet/images/mens%20hoodies2%20tablet%20category%20icon.jpg", alt: "" })
+                    react_default.a.createElement("img", { src: "https://m.jcpenney.com/tablet/images/mens%20hoodies2%20tablet%20category%20icon.jpg", alt: "product-image" })
                   ),
                   react_default.a.createElement(
                     "h2",
@@ -13853,9 +14085,9 @@ var visual_navigation__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(visual_navigation_VisualNavigation, "VisualNavigation", "/Users/anbazhagan_pe/Documents/GitHub/lincolnjcp.github.io/src/js/components/visual-navigation/visual-navigation.js");
+  __REACT_HOT_LOADER__.register(visual_navigation_VisualNavigation, "VisualNavigation", "/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/visual-navigation/visual-navigation.js");
 
-  __REACT_HOT_LOADER__.register(visual_navigation__default, "default", "/Users/anbazhagan_pe/Documents/GitHub/lincolnjcp.github.io/src/js/components/visual-navigation/visual-navigation.js");
+  __REACT_HOT_LOADER__.register(visual_navigation__default, "default", "/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/visual-navigation/visual-navigation.js");
 }();
 
 ;
@@ -13870,7 +14102,7 @@ var components_visual_navigation__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_visual_navigation__default, 'default', '/Users/anbazhagan_pe/Documents/GitHub/lincolnjcp.github.io/src/js/components/visual-navigation/index.js');
+  __REACT_HOT_LOADER__.register(components_visual_navigation__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/visual-navigation/index.js');
 }();
 
 ;
@@ -14302,9 +14534,9 @@ var modal__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(modal_Modal, 'Modal', '/Users/anbazhagan_pe/Documents/GitHub/lincolnjcp.github.io/src/js/components/modal/modal.js');
+  __REACT_HOT_LOADER__.register(modal_Modal, 'Modal', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/modal/modal.js');
 
-  __REACT_HOT_LOADER__.register(modal__default, 'default', '/Users/anbazhagan_pe/Documents/GitHub/lincolnjcp.github.io/src/js/components/modal/modal.js');
+  __REACT_HOT_LOADER__.register(modal__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/modal/modal.js');
 }();
 
 ;
@@ -14319,7 +14551,7 @@ var components_modal__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_modal__default, 'default', '/Users/anbazhagan_pe/Documents/GitHub/lincolnjcp.github.io/src/js/components/modal/index.js');
+  __REACT_HOT_LOADER__.register(components_modal__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/modal/index.js');
 }();
 
 ;
@@ -14805,9 +15037,9 @@ var countdown_timers__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(countdown_timers_CountdownTimers, 'CountdownTimers', '/Users/anbazhagan_pe/Documents/GitHub/lincolnjcp.github.io/src/js/components/countdown-timers/countdown-timers.js');
+  __REACT_HOT_LOADER__.register(countdown_timers_CountdownTimers, 'CountdownTimers', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/countdown-timers/countdown-timers.js');
 
-  __REACT_HOT_LOADER__.register(countdown_timers__default, 'default', '/Users/anbazhagan_pe/Documents/GitHub/lincolnjcp.github.io/src/js/components/countdown-timers/countdown-timers.js');
+  __REACT_HOT_LOADER__.register(countdown_timers__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/countdown-timers/countdown-timers.js');
 }();
 
 ;
@@ -14822,7 +15054,7 @@ var components_countdown_timers__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_countdown_timers__default, 'default', '/Users/anbazhagan_pe/Documents/GitHub/lincolnjcp.github.io/src/js/components/countdown-timers/index.js');
+  __REACT_HOT_LOADER__.register(components_countdown_timers__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/countdown-timers/index.js');
 }();
 
 ;
@@ -15083,7 +15315,7 @@ var tooltips_Tooltips = function (_Component) {
                 null,
                 react_default.a.createElement(
                   'a',
-                  { href: '#' },
+                  { href: 'javascript:void(0)' },
                   'My Account'
                 )
               ),
@@ -15092,7 +15324,7 @@ var tooltips_Tooltips = function (_Component) {
                 null,
                 react_default.a.createElement(
                   'a',
-                  { href: '#' },
+                  { href: 'javascript:void(0)' },
                   'My Rewards'
                 )
               ),
@@ -15101,7 +15333,7 @@ var tooltips_Tooltips = function (_Component) {
                 null,
                 react_default.a.createElement(
                   'a',
-                  { href: '#' },
+                  { href: 'javascript:void(0)' },
                   'My Orders'
                 )
               ),
@@ -15110,7 +15342,7 @@ var tooltips_Tooltips = function (_Component) {
                 null,
                 react_default.a.createElement(
                   'a',
-                  { href: '#' },
+                  { href: 'javascript:void(0)' },
                   'My Rewards (0)'
                 )
               ),
@@ -15119,7 +15351,7 @@ var tooltips_Tooltips = function (_Component) {
                 null,
                 react_default.a.createElement(
                   'a',
-                  { href: '#' },
+                  { href: 'javascript:void(0)' },
                   'My List'
                 )
               ),
@@ -15128,7 +15360,7 @@ var tooltips_Tooltips = function (_Component) {
                 null,
                 react_default.a.createElement(
                   'a',
-                  { href: '#' },
+                  { href: 'javascript:void(0)' },
                   'Profile Settings'
                 )
               ),
@@ -15137,7 +15369,7 @@ var tooltips_Tooltips = function (_Component) {
                 null,
                 react_default.a.createElement(
                   'a',
-                  { href: '#' },
+                  { href: 'javascript:void(0)' },
                   'Nofications'
                 )
               ),
@@ -15146,7 +15378,7 @@ var tooltips_Tooltips = function (_Component) {
                 null,
                 react_default.a.createElement(
                   'a',
-                  { href: '#' },
+                  { href: 'javascript:void(0)' },
                   'My JCPenney.com'
                 )
               ),
@@ -15155,7 +15387,7 @@ var tooltips_Tooltips = function (_Component) {
                 null,
                 react_default.a.createElement(
                   'a',
-                  { href: '#' },
+                  { href: 'javascript:void(0)' },
                   'Gift Registry'
                 )
               ),
@@ -15164,7 +15396,7 @@ var tooltips_Tooltips = function (_Component) {
                 null,
                 react_default.a.createElement(
                   'a',
-                  { href: '#' },
+                  { href: 'javascript:void(0)' },
                   'JCPenney Credit Card'
                 )
               ),
@@ -15173,7 +15405,7 @@ var tooltips_Tooltips = function (_Component) {
                 { className: 'tooltip-divider' },
                 react_default.a.createElement(
                   'a',
-                  { href: '#' },
+                  { href: 'javascript:void(0)' },
                   'Sign Out'
                 )
               )
@@ -15221,9 +15453,9 @@ var tooltips__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(tooltips_Tooltips, 'Tooltips', '/Users/anbazhagan_pe/Documents/GitHub/lincolnjcp.github.io/src/js/components/tooltips/tooltips.js');
+  __REACT_HOT_LOADER__.register(tooltips_Tooltips, 'Tooltips', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/tooltips/tooltips.js');
 
-  __REACT_HOT_LOADER__.register(tooltips__default, 'default', '/Users/anbazhagan_pe/Documents/GitHub/lincolnjcp.github.io/src/js/components/tooltips/tooltips.js');
+  __REACT_HOT_LOADER__.register(tooltips__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/tooltips/tooltips.js');
 }();
 
 ;
@@ -15238,7 +15470,7 @@ var components_tooltips__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_tooltips__default, 'default', '/Users/anbazhagan_pe/Documents/GitHub/lincolnjcp.github.io/src/js/components/tooltips/index.js');
+  __REACT_HOT_LOADER__.register(components_tooltips__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/tooltips/index.js');
 }();
 
 ;
@@ -15346,9 +15578,9 @@ var tabs__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(tabs_Tabs, "Tabs", "/Users/anbazhagan_pe/Documents/GitHub/lincolnjcp.github.io/src/js/components/tabs/tabs.js");
+  __REACT_HOT_LOADER__.register(tabs_Tabs, "Tabs", "/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/tabs/tabs.js");
 
-  __REACT_HOT_LOADER__.register(tabs__default, "default", "/Users/anbazhagan_pe/Documents/GitHub/lincolnjcp.github.io/src/js/components/tabs/tabs.js");
+  __REACT_HOT_LOADER__.register(tabs__default, "default", "/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/tabs/tabs.js");
 }();
 
 ;
@@ -15363,7 +15595,7 @@ var components_tabs__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_tabs__default, 'default', '/Users/anbazhagan_pe/Documents/GitHub/lincolnjcp.github.io/src/js/components/tabs/index.js');
+  __REACT_HOT_LOADER__.register(components_tabs__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/tabs/index.js');
 }();
 
 ;
@@ -15681,9 +15913,9 @@ var pagination__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(pagination_Pagination, 'Pagination', '/Users/anbazhagan_pe/Documents/GitHub/lincolnjcp.github.io/src/js/components/pagination/pagination.js');
+  __REACT_HOT_LOADER__.register(pagination_Pagination, 'Pagination', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/pagination/pagination.js');
 
-  __REACT_HOT_LOADER__.register(pagination__default, 'default', '/Users/anbazhagan_pe/Documents/GitHub/lincolnjcp.github.io/src/js/components/pagination/pagination.js');
+  __REACT_HOT_LOADER__.register(pagination__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/pagination/pagination.js');
 }();
 
 ;
@@ -15698,7 +15930,7 @@ var components_pagination__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_pagination__default, 'default', '/Users/anbazhagan_pe/Documents/GitHub/lincolnjcp.github.io/src/js/components/pagination/index.js');
+  __REACT_HOT_LOADER__.register(components_pagination__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/pagination/index.js');
 }();
 
 ;
@@ -16222,9 +16454,9 @@ var swatches__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(swatches_Swatches, 'Swatches', '/Users/anbazhagan_pe/Documents/GitHub/lincolnjcp.github.io/src/js/components/swatches/swatches.js');
+  __REACT_HOT_LOADER__.register(swatches_Swatches, 'Swatches', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/swatches/swatches.js');
 
-  __REACT_HOT_LOADER__.register(swatches__default, 'default', '/Users/anbazhagan_pe/Documents/GitHub/lincolnjcp.github.io/src/js/components/swatches/swatches.js');
+  __REACT_HOT_LOADER__.register(swatches__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/swatches/swatches.js');
 }();
 
 ;
@@ -16239,7 +16471,7 @@ var components_swatches__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_swatches__default, 'default', '/Users/anbazhagan_pe/Documents/GitHub/lincolnjcp.github.io/src/js/components/swatches/index.js');
+  __REACT_HOT_LOADER__.register(components_swatches__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/swatches/index.js');
 }();
 
 ;
@@ -16719,9 +16951,9 @@ var selectors__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(selectors_Selectors, 'Selectors', '/Users/anbazhagan_pe/Documents/GitHub/lincolnjcp.github.io/src/js/components/selectors/selectors.js');
+  __REACT_HOT_LOADER__.register(selectors_Selectors, 'Selectors', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/selectors/selectors.js');
 
-  __REACT_HOT_LOADER__.register(selectors__default, 'default', '/Users/anbazhagan_pe/Documents/GitHub/lincolnjcp.github.io/src/js/components/selectors/selectors.js');
+  __REACT_HOT_LOADER__.register(selectors__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/selectors/selectors.js');
 }();
 
 ;
@@ -16736,7 +16968,7 @@ var components_selectors__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_selectors__default, 'default', '/Users/anbazhagan_pe/Documents/GitHub/lincolnjcp.github.io/src/js/components/selectors/index.js');
+  __REACT_HOT_LOADER__.register(components_selectors__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/selectors/index.js');
 }();
 
 ;
@@ -16883,7 +17115,7 @@ var carousel_CarouselImage = function (_React$Component5) {
       return react_default.a.createElement(
         "div",
         null,
-        react_default.a.createElement("img", { src: this.props.imgSrc })
+        react_default.a.createElement("img", { src: this.props.imgSrc, alt: "product-image" })
       );
     }
   }]);
@@ -16899,7 +17131,7 @@ var carousel_CarouselNavImage = function CarouselNavImage(args) {
     react_default.a.createElement(
       "div",
       { className: args.navClass },
-      react_default.a.createElement("img", { src: args.imgSrc })
+      react_default.a.createElement("img", { src: args.imgSrc, alt: "product-image" })
     )
   );
 };
@@ -17312,21 +17544,21 @@ var carousel__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(carousel_CarouselLeftButton, "CarouselLeftButton", "/Users/anbazhagan_pe/Documents/GitHub/lincolnjcp.github.io/src/js/components/carousel/carousel.js");
+  __REACT_HOT_LOADER__.register(carousel_CarouselLeftButton, "CarouselLeftButton", "/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/carousel/carousel.js");
 
-  __REACT_HOT_LOADER__.register(carousel_CarouselRightButton, "CarouselRightButton", "/Users/anbazhagan_pe/Documents/GitHub/lincolnjcp.github.io/src/js/components/carousel/carousel.js");
+  __REACT_HOT_LOADER__.register(carousel_CarouselRightButton, "CarouselRightButton", "/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/carousel/carousel.js");
 
-  __REACT_HOT_LOADER__.register(carousel_CarouselUpButton, "CarouselUpButton", "/Users/anbazhagan_pe/Documents/GitHub/lincolnjcp.github.io/src/js/components/carousel/carousel.js");
+  __REACT_HOT_LOADER__.register(carousel_CarouselUpButton, "CarouselUpButton", "/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/carousel/carousel.js");
 
-  __REACT_HOT_LOADER__.register(carousel_CarouselDownButton, "CarouselDownButton", "/Users/anbazhagan_pe/Documents/GitHub/lincolnjcp.github.io/src/js/components/carousel/carousel.js");
+  __REACT_HOT_LOADER__.register(carousel_CarouselDownButton, "CarouselDownButton", "/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/carousel/carousel.js");
 
-  __REACT_HOT_LOADER__.register(carousel_CarouselImage, "CarouselImage", "/Users/anbazhagan_pe/Documents/GitHub/lincolnjcp.github.io/src/js/components/carousel/carousel.js");
+  __REACT_HOT_LOADER__.register(carousel_CarouselImage, "CarouselImage", "/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/carousel/carousel.js");
 
-  __REACT_HOT_LOADER__.register(carousel_CarouselNavImage, "CarouselNavImage", "/Users/anbazhagan_pe/Documents/GitHub/lincolnjcp.github.io/src/js/components/carousel/carousel.js");
+  __REACT_HOT_LOADER__.register(carousel_CarouselNavImage, "CarouselNavImage", "/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/carousel/carousel.js");
 
-  __REACT_HOT_LOADER__.register(carousel_Carousel, "Carousel", "/Users/anbazhagan_pe/Documents/GitHub/lincolnjcp.github.io/src/js/components/carousel/carousel.js");
+  __REACT_HOT_LOADER__.register(carousel_Carousel, "Carousel", "/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/carousel/carousel.js");
 
-  __REACT_HOT_LOADER__.register(carousel__default, "default", "/Users/anbazhagan_pe/Documents/GitHub/lincolnjcp.github.io/src/js/components/carousel/carousel.js");
+  __REACT_HOT_LOADER__.register(carousel__default, "default", "/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/carousel/carousel.js");
 }();
 
 ;
@@ -17341,7 +17573,7 @@ var components_carousel__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_carousel__default, 'default', '/Users/anbazhagan_pe/Documents/GitHub/lincolnjcp.github.io/src/js/components/carousel/index.js');
+  __REACT_HOT_LOADER__.register(components_carousel__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/carousel/index.js');
 }();
 
 ;
@@ -17392,7 +17624,7 @@ var coupons_Coupons = function (_Component) {
               ),
               react_default.a.createElement(
                 'span',
-                { className: 'std-txt std-txt-S mrg-S' },
+                { className: 'std-txt std-txt-S color-shadow mrg-S' },
                 'Online Only'
               ),
               react_default.a.createElement(
@@ -17405,7 +17637,7 @@ var coupons_Coupons = function (_Component) {
                 ),
                 react_default.a.createElement(
                   'p',
-                  { className: 'std-txt std-txt-S' },
+                  { className: 'std-txt std-txt-S color-shadow' },
                   'select apparel, shoes, accessories, fine jewelry & home'
                 )
               ),
@@ -17414,7 +17646,7 @@ var coupons_Coupons = function (_Component) {
                 { className: 'coupon-secondary-offer mrg-M' },
                 react_default.a.createElement(
                   'p',
-                  { 'class': 'price coupon-text-or' },
+                  { 'class': 'price coupon-text-or color-shadow' },
                   'OR'
                 ),
                 react_default.a.createElement(
@@ -17424,16 +17656,16 @@ var coupons_Coupons = function (_Component) {
                 ),
                 react_default.a.createElement(
                   'p',
-                  { className: 'std-txt std-txt-S' },
+                  { className: 'std-txt std-txt-S color-shadow' },
                   'with any method of payment'
                 )
               ),
               react_default.a.createElement(
                 'div',
-                { className: 'coupon-code mrg-S' },
+                { className: 'coupon-code mrg-M' },
                 react_default.a.createElement(
                   'span',
-                  { className: 'std-txt std-txt-S' },
+                  { className: 'std-txt std-txt-S color-shadow' },
                   'Expires: 11/05/2017'
                 ),
                 react_default.a.createElement(
@@ -17441,19 +17673,19 @@ var coupons_Coupons = function (_Component) {
                   null,
                   react_default.a.createElement(
                     'span',
-                    { classname: 'std-txt std-txt-S' },
+                    { classname: 'std-txt std-txt-S color-shadow' },
                     'Code: '
                   ),
                   react_default.a.createElement(
                     'span',
-                    { className: 'std-txt std-txt-S' },
+                    { className: 'std-txt std-txt-S color-shadow' },
                     ' SHOPNOW4'
                   )
                 )
               ),
               react_default.a.createElement(
                 'a',
-                { href: 'javascript:void();', className: 'btn btn-S btn-primary apply-btn btn-full mrg-S' },
+                { href: 'javascript:void();', role: 'button', className: 'btn btn-S btn-primary apply-btn btn-full mrg-S' },
                 'Apply'
               ),
               react_default.a.createElement(
@@ -17485,7 +17717,7 @@ var coupons_Coupons = function (_Component) {
               ),
               react_default.a.createElement(
                 'span',
-                { className: 'std-txt std-txt-S mrg-S' },
+                { className: 'std-txt std-txt-S color-shadow mrg-S' },
                 'Online Only'
               ),
               react_default.a.createElement(
@@ -17498,7 +17730,7 @@ var coupons_Coupons = function (_Component) {
                 ),
                 react_default.a.createElement(
                   'p',
-                  { className: 'std-txt std-txt-S' },
+                  { className: 'std-txt std-txt-S color-shadow' },
                   'select apparel, shoes, accessories, fine jewelry & home'
                 )
               ),
@@ -17507,7 +17739,7 @@ var coupons_Coupons = function (_Component) {
                 { className: 'coupon-secondary-offer mrg-M' },
                 react_default.a.createElement(
                   'p',
-                  { 'class': 'price coupon-text-or' },
+                  { 'class': 'price coupon-text-or color-shadow' },
                   'OR'
                 ),
                 react_default.a.createElement(
@@ -17517,16 +17749,16 @@ var coupons_Coupons = function (_Component) {
                 ),
                 react_default.a.createElement(
                   'p',
-                  { className: 'std-txt std-txt-S' },
+                  { className: 'std-txt std-txt-S color-shadow' },
                   'with any method of payment'
                 )
               ),
               react_default.a.createElement(
                 'div',
-                { className: 'coupon-code mrg-S' },
+                { className: 'coupon-code mrg-M' },
                 react_default.a.createElement(
                   'span',
-                  { className: 'std-txt std-txt-S' },
+                  { className: 'std-txt std-txt-S color-shadow' },
                   'Expires: 11/05/2017'
                 ),
                 react_default.a.createElement(
@@ -17534,19 +17766,19 @@ var coupons_Coupons = function (_Component) {
                   null,
                   react_default.a.createElement(
                     'span',
-                    { classname: 'std-txt std-txt-S' },
+                    { classname: 'std-txt std-txt-S color-shadow' },
                     'Code: '
                   ),
                   react_default.a.createElement(
                     'span',
-                    { className: 'std-txt std-txt-S' },
+                    { className: 'std-txt std-txt-S color-shadow' },
                     'SHOPNOW4'
                   )
                 )
               ),
               react_default.a.createElement(
                 'a',
-                { href: 'javascript:void();', className: 'btn btn-S btn-primary apply-btn btn-full mrg-S' },
+                { href: 'javascript:void();', role: 'button', className: 'btn btn-S btn-primary apply-btn btn-full mrg-S' },
                 'Apply'
               ),
               react_default.a.createElement(
@@ -17586,7 +17818,7 @@ var coupons_Coupons = function (_Component) {
                 ),
                 react_default.a.createElement(
                   'p',
-                  { className: 'std-txt std-txt-S' },
+                  { className: 'std-txt std-txt-S color-shadow' },
                   'select apparel, shoes, accessories, fine jewelry & home'
                 )
               ),
@@ -17595,7 +17827,7 @@ var coupons_Coupons = function (_Component) {
                 { 'class': 'coupon-bottom' },
                 react_default.a.createElement(
                   'a',
-                  { href: 'javascript:void();', className: 'btn btn-S btn-primary apply-btn btn-full mrg-S' },
+                  { href: 'javascript:void();', role: 'button', className: 'btn btn-S btn-primary apply-btn btn-full mrg-S' },
                   'Apply'
                 ),
                 react_default.a.createElement(
@@ -17628,7 +17860,7 @@ var coupons_Coupons = function (_Component) {
               ),
               react_default.a.createElement(
                 'span',
-                { className: 'std-txt std-txt-S mrg-S' },
+                { className: 'std-txt std-txt-S mrg-S color-shadow' },
                 'Online Only'
               ),
               react_default.a.createElement(
@@ -17641,7 +17873,7 @@ var coupons_Coupons = function (_Component) {
                 ),
                 react_default.a.createElement(
                   'p',
-                  { className: 'std-txt std-txt-S' },
+                  { className: 'std-txt std-txt-S color-shadow' },
                   'select apparel, shoes, accessories, fine jewelry & home'
                 )
               ),
@@ -17650,7 +17882,7 @@ var coupons_Coupons = function (_Component) {
                 { className: 'coupon-secondary-offer mrg-M' },
                 react_default.a.createElement(
                   'p',
-                  { 'class': 'price coupon-text-or' },
+                  { 'class': 'price coupon-text-or color-shadow' },
                   'OR'
                 ),
                 react_default.a.createElement(
@@ -17660,16 +17892,16 @@ var coupons_Coupons = function (_Component) {
                 ),
                 react_default.a.createElement(
                   'p',
-                  { className: 'std-txt std-txt-S' },
+                  { className: 'std-txt std-txt-S color-shadow' },
                   'with any method of payment'
                 )
               ),
               react_default.a.createElement(
                 'div',
-                { className: 'coupon-code mrg-S' },
+                { className: 'coupon-code mrg-M' },
                 react_default.a.createElement(
                   'span',
-                  { className: 'std-txt std-txt-S' },
+                  { className: 'std-txt std-txt-S color-shadow' },
                   'Expires: 11/05/2017'
                 ),
                 react_default.a.createElement(
@@ -17677,25 +17909,25 @@ var coupons_Coupons = function (_Component) {
                   null,
                   react_default.a.createElement(
                     'span',
-                    { classname: 'std-txt std-txt-S' },
+                    { classname: 'std-txt std-txt-S color-shadow' },
                     'Code: '
                   ),
                   react_default.a.createElement(
                     'span',
-                    { className: 'std-txt std-txt-S' },
+                    { className: 'std-txt std-txt-S color-shadow' },
                     'SHOPNOW4'
                   )
                 )
               ),
               react_default.a.createElement(
                 'a',
-                { href: 'javascript:void();', className: 'btn btn-S btn-secondary apply-btn btn-full mrg-S print-barcode' },
+                { href: 'javascript:void();', role: 'button', className: 'btn btn-S btn-secondary apply-btn btn-full mrg-S print-barcode' },
                 react_default.a.createElement('span', { className: 'icon mrg-rght-XS', dangerouslySetInnerHTML: { __html: coupons_barcodeImage } }),
                 'Print Barcode'
               ),
               react_default.a.createElement(
                 'a',
-                { href: 'javascript:void();', className: 'btn btn-S btn-primary apply-btn btn-full mrg-S' },
+                { href: 'javascript:void();', role: 'button', className: 'btn btn-S btn-primary apply-btn btn-full mrg-S' },
                 'Apply'
               ),
               react_default.a.createElement(
@@ -17727,7 +17959,7 @@ var coupons_Coupons = function (_Component) {
               ),
               react_default.a.createElement(
                 'span',
-                { className: 'std-txt std-txt-S mrg-S' },
+                { className: 'std-txt std-txt-S mrg-S color-shadow' },
                 'Online Only'
               ),
               react_default.a.createElement(
@@ -17740,7 +17972,7 @@ var coupons_Coupons = function (_Component) {
                 ),
                 react_default.a.createElement(
                   'p',
-                  { className: 'std-txt std-txt-S' },
+                  { className: 'std-txt std-txt-S color-shadow' },
                   'select apparel, shoes, accessories, fine jewelry & home'
                 )
               ),
@@ -17749,7 +17981,7 @@ var coupons_Coupons = function (_Component) {
                 { className: 'coupon-secondary-offer mrg-M' },
                 react_default.a.createElement(
                   'p',
-                  { 'class': 'price coupon-text-or' },
+                  { 'class': 'price coupon-text-or color-shadow' },
                   'OR'
                 ),
                 react_default.a.createElement(
@@ -17759,16 +17991,16 @@ var coupons_Coupons = function (_Component) {
                 ),
                 react_default.a.createElement(
                   'p',
-                  { className: 'std-txt std-txt-S' },
+                  { className: 'std-txt std-txt-S color-shadow' },
                   'with any method of payment'
                 )
               ),
               react_default.a.createElement(
                 'div',
-                { className: 'coupon-code mrg-S' },
+                { className: 'coupon-code mrg-M' },
                 react_default.a.createElement(
                   'span',
-                  { className: 'std-txt std-txt-S' },
+                  { className: 'std-txt std-txt-S color-shadow' },
                   'Expires: 11/05/2017'
                 ),
                 react_default.a.createElement(
@@ -17776,19 +18008,19 @@ var coupons_Coupons = function (_Component) {
                   null,
                   react_default.a.createElement(
                     'span',
-                    { classname: 'std-txt std-txt-S' },
+                    { classname: 'std-txt std-txt-S color-shadow' },
                     'Code: '
                   ),
                   react_default.a.createElement(
                     'span',
-                    { className: 'std-txt std-txt-S' },
+                    { className: 'std-txt std-txt-S color-shadow' },
                     'SHOPNOW4'
                   )
                 )
               ),
               react_default.a.createElement(
                 'a',
-                { href: 'javascript:void();', className: 'btn btn-S btn-primary apply-btn btn-full mrg-S' },
+                { href: 'javascript:void();', role: 'button', className: 'btn btn-S btn-primary apply-btn btn-full mrg-S' },
                 'Apply'
               ),
               react_default.a.createElement(
@@ -17820,7 +18052,7 @@ var coupons_Coupons = function (_Component) {
               ),
               react_default.a.createElement(
                 'span',
-                { className: 'std-txt std-txt-S mrg-S' },
+                { className: 'std-txt std-txt-S color-shadow mrg-S' },
                 'Online Only'
               ),
               react_default.a.createElement(
@@ -17833,7 +18065,7 @@ var coupons_Coupons = function (_Component) {
                 ),
                 react_default.a.createElement(
                   'p',
-                  { className: 'std-txt std-txt-S' },
+                  { className: 'std-txt std-txt-S color-shadow' },
                   'select apparel, shoes, accessories, fine jewelry & home'
                 )
               ),
@@ -17842,7 +18074,7 @@ var coupons_Coupons = function (_Component) {
                 { className: 'coupon-secondary-offer mrg-M' },
                 react_default.a.createElement(
                   'p',
-                  { 'class': 'price coupon-text-or' },
+                  { 'class': 'price coupon-text-or color-shadow' },
                   'OR'
                 ),
                 react_default.a.createElement(
@@ -17852,16 +18084,16 @@ var coupons_Coupons = function (_Component) {
                 ),
                 react_default.a.createElement(
                   'p',
-                  { className: 'std-txt std-txt-S' },
+                  { className: 'std-txt std-txt-S color-shadow' },
                   'with any method of payment'
                 )
               ),
               react_default.a.createElement(
                 'div',
-                { className: 'coupon-code mrg-S' },
+                { className: 'coupon-code mrg-M' },
                 react_default.a.createElement(
                   'span',
-                  { className: 'std-txt std-txt-S' },
+                  { className: 'std-txt std-txt-S color-shadow' },
                   'Expires: 11/05/2017'
                 ),
                 react_default.a.createElement(
@@ -17869,19 +18101,19 @@ var coupons_Coupons = function (_Component) {
                   null,
                   react_default.a.createElement(
                     'span',
-                    { classname: 'std-txt std-txt-S' },
+                    { classname: 'std-txt std-txt-S color-shadow' },
                     'Code: '
                   ),
                   react_default.a.createElement(
                     'span',
-                    { className: 'std-txt std-txt-S' },
+                    { className: 'std-txt std-txt-S color-shadow' },
                     'SHOPNOW4'
                   )
                 )
               ),
               react_default.a.createElement(
                 'a',
-                { href: 'javascript:void();', className: 'btn btn-S btn-primary apply-btn btn-full mrg-S' },
+                { href: 'javascript:void();', role: 'button', className: 'btn btn-S btn-primary apply-btn btn-full mrg-S' },
                 'Apply'
               ),
               react_default.a.createElement(
@@ -17913,7 +18145,7 @@ var coupons_Coupons = function (_Component) {
               ),
               react_default.a.createElement(
                 'span',
-                { className: 'std-txt std-txt-S mrg-S' },
+                { className: 'std-txt std-txt-S mrg-S color-shadow' },
                 'Online Only'
               ),
               react_default.a.createElement(
@@ -17926,7 +18158,7 @@ var coupons_Coupons = function (_Component) {
                 ),
                 react_default.a.createElement(
                   'p',
-                  { className: 'std-txt std-txt-S' },
+                  { className: 'std-txt std-txt-S color-shadow' },
                   'select apparel, shoes, accessories, fine jewelry & home'
                 )
               ),
@@ -17935,7 +18167,7 @@ var coupons_Coupons = function (_Component) {
                 { className: 'coupon-secondary-offer mrg-M' },
                 react_default.a.createElement(
                   'p',
-                  { 'class': 'price coupon-text-or' },
+                  { 'class': 'price coupon-text-or color-shadow' },
                   'OR'
                 ),
                 react_default.a.createElement(
@@ -17945,16 +18177,16 @@ var coupons_Coupons = function (_Component) {
                 ),
                 react_default.a.createElement(
                   'p',
-                  { className: 'std-txt std-txt-S' },
+                  { className: 'std-txt std-txt-S color-shadow' },
                   'with any method of payment'
                 )
               ),
               react_default.a.createElement(
                 'div',
-                { className: 'coupon-code mrg-S' },
+                { className: 'coupon-code mrg-M' },
                 react_default.a.createElement(
                   'span',
-                  { className: 'std-txt std-txt-S' },
+                  { className: 'std-txt std-txt-S color-shadow' },
                   'Expires: 11/05/2017'
                 ),
                 react_default.a.createElement(
@@ -17962,19 +18194,19 @@ var coupons_Coupons = function (_Component) {
                   null,
                   react_default.a.createElement(
                     'span',
-                    { classname: 'std-txt std-txt-S' },
+                    { classname: 'std-txt std-txt-S color-shadow' },
                     'Code: '
                   ),
                   react_default.a.createElement(
                     'span',
-                    { className: 'std-txt std-txt-S' },
+                    { className: 'std-txt std-txt-S color-shadow' },
                     'SHOPNOW4'
                   )
                 )
               ),
               react_default.a.createElement(
                 'a',
-                { href: 'javascript:void();', className: 'btn btn-S btn-primary apply-btn btn-full mrg-S' },
+                { href: 'javascript:void();', role: 'button', className: 'btn btn-S btn-primary apply-btn btn-full mrg-S' },
                 'Apply'
               ),
               react_default.a.createElement(
@@ -18006,7 +18238,7 @@ var coupons_Coupons = function (_Component) {
               ),
               react_default.a.createElement(
                 'span',
-                { className: 'std-txt std-txt-S mrg-S' },
+                { className: 'std-txt std-txt-S mrg-S color-shadow' },
                 'Online Only'
               ),
               react_default.a.createElement(
@@ -18019,7 +18251,7 @@ var coupons_Coupons = function (_Component) {
                 ),
                 react_default.a.createElement(
                   'p',
-                  { className: 'std-txt std-txt-S' },
+                  { className: 'std-txt std-txt-S color-shadow' },
                   'select apparel, shoes, accessories, fine jewelry & home'
                 )
               ),
@@ -18028,7 +18260,7 @@ var coupons_Coupons = function (_Component) {
                 { className: 'coupon-secondary-offer mrg-M' },
                 react_default.a.createElement(
                   'p',
-                  { 'class': 'price coupon-text-or' },
+                  { 'class': 'price coupon-text-or color-shadow' },
                   'OR'
                 ),
                 react_default.a.createElement(
@@ -18038,16 +18270,16 @@ var coupons_Coupons = function (_Component) {
                 ),
                 react_default.a.createElement(
                   'p',
-                  { className: 'std-txt std-txt-S' },
+                  { className: 'std-txt std-txt-S color-shadow' },
                   'with any method of payment'
                 )
               ),
               react_default.a.createElement(
                 'div',
-                { className: 'coupon-code mrg-S' },
+                { className: 'coupon-code mrg-M' },
                 react_default.a.createElement(
                   'span',
-                  { className: 'std-txt std-txt-S' },
+                  { className: 'std-txt std-txt-S color-shadow' },
                   'Expires: 11/05/2017'
                 ),
                 react_default.a.createElement(
@@ -18055,19 +18287,19 @@ var coupons_Coupons = function (_Component) {
                   null,
                   react_default.a.createElement(
                     'span',
-                    { classname: 'std-txt std-txt-S' },
+                    { classname: 'std-txt std-txt-S color-shadow' },
                     'Code: '
                   ),
                   react_default.a.createElement(
                     'span',
-                    { className: 'std-txt std-txt-S' },
+                    { className: 'std-txt std-txt-S color-shadow' },
                     'SHOPNOW4'
                   )
                 )
               ),
               react_default.a.createElement(
                 'a',
-                { href: 'javascript:void();', className: 'btn btn-S btn-primary apply-btn btn-full mrg-S' },
+                { href: 'javascript:void();', role: 'button', className: 'btn btn-S btn-primary apply-btn btn-full mrg-S' },
                 'Apply'
               ),
               react_default.a.createElement(
@@ -18105,9 +18337,9 @@ var coupons__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(coupons_Coupons, 'Coupons', '/Users/anbazhagan_pe/Documents/GitHub/lincolnjcp.github.io/src/js/components/coupons/coupons.js');
+  __REACT_HOT_LOADER__.register(coupons_Coupons, 'Coupons', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/coupons/coupons.js');
 
-  __REACT_HOT_LOADER__.register(coupons__default, 'default', '/Users/anbazhagan_pe/Documents/GitHub/lincolnjcp.github.io/src/js/components/coupons/coupons.js');
+  __REACT_HOT_LOADER__.register(coupons__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/coupons/coupons.js');
 }();
 
 ;
@@ -18122,7 +18354,7 @@ var components_coupons__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_coupons__default, 'default', '/Users/anbazhagan_pe/Documents/GitHub/lincolnjcp.github.io/src/js/components/coupons/index.js');
+  __REACT_HOT_LOADER__.register(components_coupons__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/coupons/index.js');
 }();
 
 ;
@@ -18458,9 +18690,9 @@ var lists__temp = function () {
         return;
     }
 
-    __REACT_HOT_LOADER__.register(lists_Lists, 'Lists', '/Users/anbazhagan_pe/Documents/GitHub/lincolnjcp.github.io/src/js/components/lists/lists.js');
+    __REACT_HOT_LOADER__.register(lists_Lists, 'Lists', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/lists/lists.js');
 
-    __REACT_HOT_LOADER__.register(lists__default, 'default', '/Users/anbazhagan_pe/Documents/GitHub/lincolnjcp.github.io/src/js/components/lists/lists.js');
+    __REACT_HOT_LOADER__.register(lists__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/lists/lists.js');
 }();
 
 ;
@@ -18475,7 +18707,7 @@ var components_lists__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_lists__default, 'default', '/Users/anbazhagan_pe/Documents/GitHub/lincolnjcp.github.io/src/js/components/lists/index.js');
+  __REACT_HOT_LOADER__.register(components_lists__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/lists/index.js');
 }();
 
 ;
@@ -20363,9 +20595,9 @@ var header__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(header_Header, 'Header', '/Users/anbazhagan_pe/Documents/GitHub/lincolnjcp.github.io/src/js/components/header/header.js');
+  __REACT_HOT_LOADER__.register(header_Header, 'Header', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/header/header.js');
 
-  __REACT_HOT_LOADER__.register(header__default, 'default', '/Users/anbazhagan_pe/Documents/GitHub/lincolnjcp.github.io/src/js/components/header/header.js');
+  __REACT_HOT_LOADER__.register(header__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/header/header.js');
 }();
 
 ;
@@ -20380,7 +20612,7 @@ var components_header__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_header__default, 'default', '/Users/anbazhagan_pe/Documents/GitHub/lincolnjcp.github.io/src/js/components/header/index.js');
+  __REACT_HOT_LOADER__.register(components_header__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/header/index.js');
 }();
 
 ;
@@ -20568,11 +20800,6 @@ var footer_Footer = function (_Component) {
                             react_default.a.createElement(
                                 'ul',
                                 null,
-                                react_default.a.createElement(
-                                    'li',
-                                    { className: 'hide-for-medium-only hide-for-small-only footer-stay-conntected' },
-                                    'Stay Connected'
-                                ),
                                 react_default.a.createElement(
                                     'li',
                                     null,
@@ -21165,7 +21392,7 @@ var footer_Footer = function (_Component) {
                                     react_default.a.createElement(
                                         'h3',
                                         null,
-                                        'JCPenney Credit'
+                                        'JCPenney Credit Card'
                                     ),
                                     react_default.a.createElement(
                                         'ul',
@@ -21202,7 +21429,7 @@ var footer_Footer = function (_Component) {
                             ),
                             react_default.a.createElement(
                                 'div',
-                                { className: 'footer-legal-links md12 lg4 xl4 sm12 nopad' },
+                                { className: 'footer-legal-links md12 lg8 xl4 sm12 nopad' },
                                 react_default.a.createElement(
                                     'ul',
                                     { className: '' },
@@ -21290,9 +21517,9 @@ var footer__temp = function () {
         return;
     }
 
-    __REACT_HOT_LOADER__.register(footer_Footer, 'Footer', '/Users/anbazhagan_pe/Documents/GitHub/lincolnjcp.github.io/src/js/components/footer/footer.js');
+    __REACT_HOT_LOADER__.register(footer_Footer, 'Footer', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/footer/footer.js');
 
-    __REACT_HOT_LOADER__.register(footer__default, 'default', '/Users/anbazhagan_pe/Documents/GitHub/lincolnjcp.github.io/src/js/components/footer/footer.js');
+    __REACT_HOT_LOADER__.register(footer__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/footer/footer.js');
 }();
 
 ;
@@ -21307,7 +21534,7 @@ var components_footer__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_footer__default, 'default', '/Users/anbazhagan_pe/Documents/GitHub/lincolnjcp.github.io/src/js/components/footer/index.js');
+  __REACT_HOT_LOADER__.register(components_footer__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/footer/index.js');
 }();
 
 ;
@@ -21450,9 +21677,9 @@ var footer_minimized__temp = function () {
         return;
     }
 
-    __REACT_HOT_LOADER__.register(footer_minimized_FooterMinimized, 'FooterMinimized', '/Users/anbazhagan_pe/Documents/GitHub/lincolnjcp.github.io/src/js/components/footer-minimized/footer-minimized.js');
+    __REACT_HOT_LOADER__.register(footer_minimized_FooterMinimized, 'FooterMinimized', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/footer-minimized/footer-minimized.js');
 
-    __REACT_HOT_LOADER__.register(footer_minimized__default, 'default', '/Users/anbazhagan_pe/Documents/GitHub/lincolnjcp.github.io/src/js/components/footer-minimized/footer-minimized.js');
+    __REACT_HOT_LOADER__.register(footer_minimized__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/footer-minimized/footer-minimized.js');
 }();
 
 ;
@@ -21467,7 +21694,7 @@ var components_footer_minimized__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_footer_minimized__default, 'default', '/Users/anbazhagan_pe/Documents/GitHub/lincolnjcp.github.io/src/js/components/footer-minimized/index.js');
+  __REACT_HOT_LOADER__.register(components_footer_minimized__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/footer-minimized/index.js');
 }();
 
 ;
@@ -21668,9 +21895,9 @@ var slide_out_panels__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(slide_out_panels_SlideOutPanels, 'SlideOutPanels', '/Users/anbazhagan_pe/Documents/GitHub/lincolnjcp.github.io/src/js/components/slide-out-panels/slide-out-panels.js');
+  __REACT_HOT_LOADER__.register(slide_out_panels_SlideOutPanels, 'SlideOutPanels', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/slide-out-panels/slide-out-panels.js');
 
-  __REACT_HOT_LOADER__.register(slide_out_panels__default, 'default', '/Users/anbazhagan_pe/Documents/GitHub/lincolnjcp.github.io/src/js/components/slide-out-panels/slide-out-panels.js');
+  __REACT_HOT_LOADER__.register(slide_out_panels__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/slide-out-panels/slide-out-panels.js');
 }();
 
 ;
@@ -21685,7 +21912,7 @@ var components_slide_out_panels__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_slide_out_panels__default, 'default', '/Users/anbazhagan_pe/Documents/GitHub/lincolnjcp.github.io/src/js/components/slide-out-panels/index.js');
+  __REACT_HOT_LOADER__.register(components_slide_out_panels__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/slide-out-panels/index.js');
 }();
 
 ;
@@ -21703,7 +21930,11 @@ function filter_sort__inherits(subClass, superClass) { if (typeof superClass !==
 
 var filter_sort_closeImage = __webpack_require__("oWX6");
 var filter_sort_plusImage = __webpack_require__("Vx6E");
+
 var filter_sort_heartlineImage = __webpack_require__("mPJs");
+var filter_sort_clearImage = __webpack_require__("oWX6");
+var filter_sort_starImage = __webpack_require__("CKfJ");
+var filter_sort_starhalfImage = __webpack_require__("KM/1");
 
 var filter_sort_FilterSort = function (_Component) {
   filter_sort__inherits(FilterSort, _Component);
@@ -23554,7 +23785,7 @@ var filter_sort_FilterSort = function (_Component) {
                   { 'class': 'tag-item' },
                   'Mens'
                 ),
-                react_default.a.createElement('a', { href: 'javascript:void(0)', className: 'color-white-svg icon', dangerouslySetInnerHTML: { __html: filter_sort_closeImage } })
+                react_default.a.createElement('a', { href: 'javascript:void(0)', className: 'color-white-svg icon', dangerouslySetInnerHTML: { __html: filter_sort_clearImage } })
               ),
               react_default.a.createElement(
                 'div',
@@ -23569,7 +23800,7 @@ var filter_sort_FilterSort = function (_Component) {
                   { 'class': 'tag-item' },
                   'Suit Jackets'
                 ),
-                react_default.a.createElement('a', { href: 'javascript:void(0)', className: 'color-white-svg icon', dangerouslySetInnerHTML: { __html: filter_sort_closeImage } })
+                react_default.a.createElement('a', { href: 'javascript:void(0)', className: 'color-white-svg icon', dangerouslySetInnerHTML: { __html: filter_sort_clearImage } })
               ),
               react_default.a.createElement(
                 'div',
@@ -23582,9 +23813,53 @@ var filter_sort_FilterSort = function (_Component) {
                 react_default.a.createElement(
                   'span',
                   { 'class': 'tag-item' },
-                  'Mens'
+                  react_default.a.createElement('span', { className: 'filter-color-swatches' }),
+                  'Grey'
                 ),
-                react_default.a.createElement('a', { href: 'javascript:void(0)', className: 'color-white-svg icon', dangerouslySetInnerHTML: { __html: filter_sort_closeImage } })
+                react_default.a.createElement('a', { href: 'javascript:void(0)', className: 'color-white-svg icon', dangerouslySetInnerHTML: { __html: filter_sort_clearImage } })
+              ),
+              react_default.a.createElement(
+                'div',
+                { className: 'tags std-txt std-txt-S mrg-top-M star-preview-col' },
+                react_default.a.createElement(
+                  'span',
+                  { className: 'tag-title' },
+                  'Rating: '
+                ),
+                react_default.a.createElement(
+                  'span',
+                  { 'class': 'tag-item' },
+                  react_default.a.createElement(
+                    'ul',
+                    { className: 'star-ratings-S' },
+                    react_default.a.createElement(
+                      'li',
+                      { className: 'star-ratings start-ratings-full' },
+                      react_default.a.createElement('span', { className: 'icon ', dangerouslySetInnerHTML: { __html: filter_sort_starImage } })
+                    ),
+                    react_default.a.createElement(
+                      'li',
+                      { className: 'star-ratings start-ratings-full' },
+                      react_default.a.createElement('span', { className: 'icon ', dangerouslySetInnerHTML: { __html: filter_sort_starImage } })
+                    ),
+                    react_default.a.createElement(
+                      'li',
+                      { className: 'star-ratings start-ratings-full' },
+                      react_default.a.createElement('span', { className: 'icon ', dangerouslySetInnerHTML: { __html: filter_sort_starImage } })
+                    ),
+                    react_default.a.createElement(
+                      'li',
+                      { className: 'star-ratings start-ratings-half' },
+                      react_default.a.createElement('span', { className: 'icon', dangerouslySetInnerHTML: { __html: filter_sort_starhalfImage } })
+                    ),
+                    react_default.a.createElement(
+                      'li',
+                      { className: 'star-ratings star-rating-empty' },
+                      react_default.a.createElement('span', { className: 'icon color-concrete-svg', dangerouslySetInnerHTML: { __html: filter_sort_starImage } })
+                    )
+                  )
+                ),
+                react_default.a.createElement('a', { href: 'javascript:void(0)', className: 'color-white-svg icon', dangerouslySetInnerHTML: { __html: filter_sort_clearImage } })
               ),
               react_default.a.createElement(
                 'a',
@@ -23764,9 +24039,9 @@ var filter_sort__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(filter_sort_FilterSort, 'FilterSort', '/Users/anbazhagan_pe/Documents/GitHub/lincolnjcp.github.io/src/js/components/filter-sort/filter-sort.js');
+  __REACT_HOT_LOADER__.register(filter_sort_FilterSort, 'FilterSort', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/filter-sort/filter-sort.js');
 
-  __REACT_HOT_LOADER__.register(filter_sort__default, 'default', '/Users/anbazhagan_pe/Documents/GitHub/lincolnjcp.github.io/src/js/components/filter-sort/filter-sort.js');
+  __REACT_HOT_LOADER__.register(filter_sort__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/filter-sort/filter-sort.js');
 }();
 
 ;
@@ -23781,7 +24056,7 @@ var components_filter_sort__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_filter_sort__default, 'default', '/Users/anbazhagan_pe/Documents/GitHub/lincolnjcp.github.io/src/js/components/filter-sort/index.js');
+  __REACT_HOT_LOADER__.register(components_filter_sort__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/filter-sort/index.js');
 }();
 
 ;
@@ -25844,9 +26119,9 @@ var expand_collapse__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(expand_collapse_ExpandCollapse, 'ExpandCollapse', '/Users/anbazhagan_pe/Documents/GitHub/lincolnjcp.github.io/src/js/components/expand-collapse/expand-collapse.js');
+  __REACT_HOT_LOADER__.register(expand_collapse_ExpandCollapse, 'ExpandCollapse', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/expand-collapse/expand-collapse.js');
 
-  __REACT_HOT_LOADER__.register(expand_collapse__default, 'default', '/Users/anbazhagan_pe/Documents/GitHub/lincolnjcp.github.io/src/js/components/expand-collapse/expand-collapse.js');
+  __REACT_HOT_LOADER__.register(expand_collapse__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/expand-collapse/expand-collapse.js');
 }();
 
 ;
@@ -25861,7 +26136,7 @@ var components_expand_collapse__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_expand_collapse__default, 'default', '/Users/anbazhagan_pe/Documents/GitHub/lincolnjcp.github.io/src/js/components/expand-collapse/index.js');
+  __REACT_HOT_LOADER__.register(components_expand_collapse__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/expand-collapse/index.js');
 }();
 
 ;
@@ -25903,7 +26178,7 @@ var product_cards_ProductCards = function (_Component) {
               react_default.a.createElement(
                 'a',
                 { href: 'javascript:void(0)' },
-                react_default.a.createElement('img', { src: productInfo.thumb, alt: '' })
+                react_default.a.createElement('img', { src: productInfo.thumb, alt: 'Samsung ENERGY STAR' })
               )
             );
           }
@@ -25957,7 +26232,7 @@ var product_cards_ProductCards = function (_Component) {
           if (productInfo.priceRegular) {
             return react_default.a.createElement(
               'div',
-              { className: 'product-card-note price price-note color-slate font-body' },
+              { className: 'product-card-note price price-note color-slate std-txt' },
               productInfo.priceRegular
             );
           }
@@ -25973,7 +26248,7 @@ var product_cards_ProductCards = function (_Component) {
           react_default.a.createElement(
             'div',
             { className: 'ratings-and-reviews-stars mrg-rght-XS' },
-            react_default.a.createElement('img', { src: '/images/design-system/fpo/reviews/reviews-stars-3-5.jpg', alt: '' })
+            react_default.a.createElement('img', { src: '/images/design-system/fpo/reviews/reviews-stars-3-5.jpg', alt: 'Star Ratings' })
           ),
           react_default.a.createElement(
             'div',
@@ -25997,7 +26272,7 @@ var product_cards_ProductCards = function (_Component) {
               react_default.a.createElement(
                 'a',
                 { href: 'javascript:void(0)' },
-                react_default.a.createElement('img', { src: productInfo.thumb, alt: '' })
+                react_default.a.createElement('img', { src: productInfo.thumb, alt: 'Samsung ENERGY STAR' })
               ),
               function () {
                 if (productInfo.flag) {
@@ -26119,7 +26394,7 @@ var product_cards_ProductCards = function (_Component) {
           if (productInfo.priceRegular) {
             return react_default.a.createElement(
               'div',
-              { className: 'product-card-note price price-note color-slate font-body' },
+              { className: 'product-card-note price price-note color-slate std-txt' },
               productInfo.priceRegular
             );
           }
@@ -26135,7 +26410,7 @@ var product_cards_ProductCards = function (_Component) {
           react_default.a.createElement(
             'div',
             { className: 'ratings-and-reviews-stars mrg-rght-XS' },
-            react_default.a.createElement('img', { src: '/images/design-system/fpo/reviews/reviews-stars-3-5.jpg', alt: '' })
+            react_default.a.createElement('img', { src: '/images/design-system/fpo/reviews/reviews-stars-3-5.jpg', alt: 'ratings' })
           ),
           react_default.a.createElement(
             'div',
@@ -26159,7 +26434,7 @@ var product_cards_ProductCards = function (_Component) {
               react_default.a.createElement(
                 'a',
                 { href: 'javascript:void(0)' },
-                react_default.a.createElement('img', { src: productInfo.thumb, alt: '' })
+                react_default.a.createElement('img', { src: productInfo.thumb, alt: 'Samsung ENERGY STAR' })
               ),
               function () {
                 if (productInfo.flag) {
@@ -26281,7 +26556,7 @@ var product_cards_ProductCards = function (_Component) {
           if (productInfo.priceRegular) {
             return react_default.a.createElement(
               'div',
-              { className: 'product-card-note price price-note color-slate font-body' },
+              { className: 'product-card-note price price-note color-slate std-txt' },
               productInfo.priceRegular
             );
           }
@@ -26297,7 +26572,7 @@ var product_cards_ProductCards = function (_Component) {
           react_default.a.createElement(
             'div',
             { className: 'ratings-and-reviews-stars mrg-rght-XS' },
-            react_default.a.createElement('img', { src: '/images/design-system/fpo/reviews/reviews-stars-3-5.jpg', alt: '' })
+            react_default.a.createElement('img', { src: '/images/design-system/fpo/reviews/reviews-stars-3-5.jpg', alt: 'Star Ratings' })
           ),
           react_default.a.createElement(
             'div',
@@ -26321,7 +26596,7 @@ var product_cards_ProductCards = function (_Component) {
               react_default.a.createElement(
                 'a',
                 { href: 'javascript:void(0)' },
-                react_default.a.createElement('img', { src: productInfo.thumb, alt: '' })
+                react_default.a.createElement('img', { src: productInfo.thumb, alt: 'Samsung ENERGY STAR' })
               ),
               function () {
                 if (productInfo.flag) {
@@ -26401,7 +26676,7 @@ var product_cards_ProductCards = function (_Component) {
             if (productInfo.priceRegular) {
               return react_default.a.createElement(
                 'div',
-                { className: 'product-card-note price price-note color-slate font-body' },
+                { className: 'product-card-note price price-note color-slate std-txt' },
                 productInfo.priceRegular
               );
             }
@@ -26417,7 +26692,7 @@ var product_cards_ProductCards = function (_Component) {
             react_default.a.createElement(
               'div',
               { className: 'ratings-and-reviews-stars mrg-rght-XS' },
-              react_default.a.createElement('img', { src: '/images/design-system/fpo/reviews/reviews-stars-3-5.jpg', alt: '' })
+              react_default.a.createElement('img', { src: '/images/design-system/fpo/reviews/reviews-stars-3-5.jpg', alt: 'Star Ratings' })
             ),
             react_default.a.createElement(
               'div',
@@ -26483,7 +26758,7 @@ var product_cards_ProductCards = function (_Component) {
                   react_default.a.createElement(
                     'a',
                     { href: 'javascript:void(0)' },
-                    react_default.a.createElement('img', { src: productInfo.thumb, alt: '' })
+                    react_default.a.createElement('img', { src: productInfo.thumb, alt: 'Samsung ENERGY STAR' })
                   ),
                   function () {
                     if (productInfo.flag) {
@@ -26618,7 +26893,7 @@ var product_cards_ProductCards = function (_Component) {
               if (productInfo.priceRegular) {
                 return react_default.a.createElement(
                   'div',
-                  { className: 'product-card-note price price-note color-slate font-body' },
+                  { className: 'product-card-note price price-note color-slate std-txt' },
                   productInfo.priceRegular
                 );
               }
@@ -26638,7 +26913,7 @@ var product_cards_ProductCards = function (_Component) {
               react_default.a.createElement(
                 'div',
                 { className: 'ratings-and-reviews-stars mrg-rght-XS' },
-                react_default.a.createElement('img', { src: '/images/design-system/fpo/reviews/reviews-stars-3-5.jpg', alt: '' })
+                react_default.a.createElement('img', { src: '/images/design-system/fpo/reviews/reviews-stars-3-5.jpg', alt: 'Star Ratings' })
               ),
               react_default.a.createElement(
                 'div',
@@ -26693,7 +26968,7 @@ var product_cards_ProductCards = function (_Component) {
                   react_default.a.createElement(
                     'a',
                     { href: 'javascript:void(0)' },
-                    react_default.a.createElement('img', { src: productInfo.thumb, alt: '' })
+                    react_default.a.createElement('img', { src: productInfo.thumb, alt: 'Samsung ENERGY STAR' })
                   ),
                   function () {
                     if (productInfo.flag) {
@@ -26808,7 +27083,7 @@ var product_cards_ProductCards = function (_Component) {
               if (productInfo.priceRegular) {
                 return react_default.a.createElement(
                   'div',
-                  { className: 'product-card-note price price-note color-slate font-body' },
+                  { className: 'product-card-note price price-note color-slate std-txt' },
                   productInfo.priceRegular
                 );
               }
@@ -26828,7 +27103,7 @@ var product_cards_ProductCards = function (_Component) {
               react_default.a.createElement(
                 'div',
                 { className: 'ratings-and-reviews-stars mrg-rght-XS' },
-                react_default.a.createElement('img', { src: '/images/design-system/fpo/reviews/reviews-stars-3-5.jpg', alt: '' })
+                react_default.a.createElement('img', { src: '/images/design-system/fpo/reviews/reviews-stars-3-5.jpg', alt: 'Star Ratings' })
               ),
               react_default.a.createElement(
                 'div',
@@ -27549,9 +27824,9 @@ var product_cards__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(product_cards_ProductCards, 'ProductCards', '/Users/anbazhagan_pe/Documents/GitHub/lincolnjcp.github.io/src/js/components/product-cards/product-cards.js');
+  __REACT_HOT_LOADER__.register(product_cards_ProductCards, 'ProductCards', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/product-cards/product-cards.js');
 
-  __REACT_HOT_LOADER__.register(product_cards__default, 'default', '/Users/anbazhagan_pe/Documents/GitHub/lincolnjcp.github.io/src/js/components/product-cards/product-cards.js');
+  __REACT_HOT_LOADER__.register(product_cards__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/product-cards/product-cards.js');
 }();
 
 ;
@@ -27566,7 +27841,7 @@ var components_product_cards__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_product_cards__default, 'default', '/Users/anbazhagan_pe/Documents/GitHub/lincolnjcp.github.io/src/js/components/product-cards/index.js');
+  __REACT_HOT_LOADER__.register(components_product_cards__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/product-cards/index.js');
 }();
 
 ;
@@ -27648,7 +27923,7 @@ var like_dislike_LikeDislike = function (_Component) {
                         react_default.a.createElement(
                             'div',
                             { className: 'product-card' },
-                            react_default.a.createElement('img', { src: '/images/design-system/fpo/product-cards/product-like-dislike.jpg' }),
+                            react_default.a.createElement('img', { src: '/images/design-system/fpo/product-cards/product-like-dislike.jpg', alt: 'product-image' }),
                             react_default.a.createElement(
                                 'div',
                                 { className: 'like-icon' },
@@ -27711,9 +27986,9 @@ var like_dislike__temp = function () {
         return;
     }
 
-    __REACT_HOT_LOADER__.register(like_dislike_LikeDislike, 'LikeDislike', '/Users/anbazhagan_pe/Documents/GitHub/lincolnjcp.github.io/src/js/components/like-dislike/like-dislike.js');
+    __REACT_HOT_LOADER__.register(like_dislike_LikeDislike, 'LikeDislike', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/like-dislike/like-dislike.js');
 
-    __REACT_HOT_LOADER__.register(like_dislike__default, 'default', '/Users/anbazhagan_pe/Documents/GitHub/lincolnjcp.github.io/src/js/components/like-dislike/like-dislike.js');
+    __REACT_HOT_LOADER__.register(like_dislike__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/like-dislike/like-dislike.js');
 }();
 
 ;
@@ -27728,7 +28003,7 @@ var components_like_dislike__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_like_dislike__default, 'default', '/Users/anbazhagan_pe/Documents/GitHub/lincolnjcp.github.io/src/js/components/like-dislike/index.js');
+  __REACT_HOT_LOADER__.register(components_like_dislike__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/like-dislike/index.js');
 }();
 
 ;
@@ -27848,7 +28123,7 @@ var recommendation_zone_RecommendationZone = function (_Component) {
                   react_default.a.createElement(
                     'a',
                     { href: 'javascript:void(0)' },
-                    react_default.a.createElement('img', { src: productInfo.thumb, alt: '' })
+                    react_default.a.createElement('img', { src: productInfo.thumb, alt: 'product-image' })
                   )
                 );
               }
@@ -27902,7 +28177,7 @@ var recommendation_zone_RecommendationZone = function (_Component) {
               if (productInfo.priceRegular) {
                 return react_default.a.createElement(
                   'div',
-                  { className: 'product-card-note price price-note color-slate font-body' },
+                  { className: 'product-card-note price price-note color-slate std-txt' },
                   productInfo.priceRegular
                 );
               }
@@ -28435,21 +28710,21 @@ var recommendation_zone__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(add, 'add', '/Users/anbazhagan_pe/Documents/GitHub/lincolnjcp.github.io/src/js/components/recommendation-zone/recommendation-zone.js');
+  __REACT_HOT_LOADER__.register(add, 'add', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/recommendation-zone/recommendation-zone.js');
 
-  __REACT_HOT_LOADER__.register(subtract, 'subtract', '/Users/anbazhagan_pe/Documents/GitHub/lincolnjcp.github.io/src/js/components/recommendation-zone/recommendation-zone.js');
+  __REACT_HOT_LOADER__.register(subtract, 'subtract', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/recommendation-zone/recommendation-zone.js');
 
-  __REACT_HOT_LOADER__.register(dotsToDisplay, 'dotsToDisplay', '/Users/anbazhagan_pe/Documents/GitHub/lincolnjcp.github.io/src/js/components/recommendation-zone/recommendation-zone.js');
+  __REACT_HOT_LOADER__.register(dotsToDisplay, 'dotsToDisplay', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/recommendation-zone/recommendation-zone.js');
 
-  __REACT_HOT_LOADER__.register(isSameStateFirstTime, 'isSameStateFirstTime', '/Users/anbazhagan_pe/Documents/GitHub/lincolnjcp.github.io/src/js/components/recommendation-zone/recommendation-zone.js');
+  __REACT_HOT_LOADER__.register(isSameStateFirstTime, 'isSameStateFirstTime', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/recommendation-zone/recommendation-zone.js');
 
-  __REACT_HOT_LOADER__.register(isMobile, 'isMobile', '/Users/anbazhagan_pe/Documents/GitHub/lincolnjcp.github.io/src/js/components/recommendation-zone/recommendation-zone.js');
+  __REACT_HOT_LOADER__.register(isMobile, 'isMobile', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/recommendation-zone/recommendation-zone.js');
 
-  __REACT_HOT_LOADER__.register(calculateScrollPixel, 'calculateScrollPixel', '/Users/anbazhagan_pe/Documents/GitHub/lincolnjcp.github.io/src/js/components/recommendation-zone/recommendation-zone.js');
+  __REACT_HOT_LOADER__.register(calculateScrollPixel, 'calculateScrollPixel', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/recommendation-zone/recommendation-zone.js');
 
-  __REACT_HOT_LOADER__.register(recommendation_zone_RecommendationZone, 'RecommendationZone', '/Users/anbazhagan_pe/Documents/GitHub/lincolnjcp.github.io/src/js/components/recommendation-zone/recommendation-zone.js');
+  __REACT_HOT_LOADER__.register(recommendation_zone_RecommendationZone, 'RecommendationZone', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/recommendation-zone/recommendation-zone.js');
 
-  __REACT_HOT_LOADER__.register(recommendation_zone__default, 'default', '/Users/anbazhagan_pe/Documents/GitHub/lincolnjcp.github.io/src/js/components/recommendation-zone/recommendation-zone.js');
+  __REACT_HOT_LOADER__.register(recommendation_zone__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/recommendation-zone/recommendation-zone.js');
 }();
 
 ;
@@ -28464,7 +28739,7 @@ var components_recommendation_zone__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_recommendation_zone__default, 'default', '/Users/anbazhagan_pe/Documents/GitHub/lincolnjcp.github.io/src/js/components/recommendation-zone/index.js');
+  __REACT_HOT_LOADER__.register(components_recommendation_zone__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/recommendation-zone/index.js');
 }();
 
 ;
@@ -28619,11 +28894,11 @@ var SubNav__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(varToURL, 'varToURL', '/Users/anbazhagan_pe/Documents/GitHub/lincolnjcp.github.io/src/js/containers/SubNav.js');
+  __REACT_HOT_LOADER__.register(varToURL, 'varToURL', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/containers/SubNav.js');
 
-  __REACT_HOT_LOADER__.register(SubNav_SubNav, 'SubNav', '/Users/anbazhagan_pe/Documents/GitHub/lincolnjcp.github.io/src/js/containers/SubNav.js');
+  __REACT_HOT_LOADER__.register(SubNav_SubNav, 'SubNav', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/containers/SubNav.js');
 
-  __REACT_HOT_LOADER__.register(SubNav__default, 'default', '/Users/anbazhagan_pe/Documents/GitHub/lincolnjcp.github.io/src/js/containers/SubNav.js');
+  __REACT_HOT_LOADER__.register(SubNav__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/containers/SubNav.js');
 }();
 
 ;
@@ -28763,9 +29038,9 @@ var DesignSystemPage__temp = function () {
         return;
     }
 
-    __REACT_HOT_LOADER__.register(DesignSystemPage_DesignSystemPage, 'DesignSystemPage', '/Users/anbazhagan_pe/Documents/GitHub/lincolnjcp.github.io/src/js/containers/DesignSystemPage.js');
+    __REACT_HOT_LOADER__.register(DesignSystemPage_DesignSystemPage, 'DesignSystemPage', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/containers/DesignSystemPage.js');
 
-    __REACT_HOT_LOADER__.register(DesignSystemPage__default, 'default', '/Users/anbazhagan_pe/Documents/GitHub/lincolnjcp.github.io/src/js/containers/DesignSystemPage.js');
+    __REACT_HOT_LOADER__.register(DesignSystemPage__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/containers/DesignSystemPage.js');
 }();
 
 ;
@@ -32784,9 +33059,9 @@ var work_in_progress__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(work_in_progress_WorkInProgress, 'WorkInProgress', '/Users/anbazhagan_pe/Documents/GitHub/lincolnjcp.github.io/src/js/components/work-in-progress/work-in-progress.js');
+  __REACT_HOT_LOADER__.register(work_in_progress_WorkInProgress, 'WorkInProgress', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/work-in-progress/work-in-progress.js');
 
-  __REACT_HOT_LOADER__.register(work_in_progress__default, 'default', '/Users/anbazhagan_pe/Documents/GitHub/lincolnjcp.github.io/src/js/components/work-in-progress/work-in-progress.js');
+  __REACT_HOT_LOADER__.register(work_in_progress__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/work-in-progress/work-in-progress.js');
 }();
 
 ;
@@ -32801,7 +33076,7 @@ var components_work_in_progress__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_work_in_progress__default, 'default', '/Users/anbazhagan_pe/Documents/GitHub/lincolnjcp.github.io/src/js/components/work-in-progress/index.js');
+  __REACT_HOT_LOADER__.register(components_work_in_progress__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/work-in-progress/index.js');
 }();
 
 ;
@@ -33207,15 +33482,15 @@ var Root__temp = function () {
         return;
     }
 
-    __REACT_HOT_LOADER__.register(Root_Home, 'Home', '/Users/anbazhagan_pe/Documents/GitHub/lincolnjcp.github.io/src/js/containers/Root.js');
+    __REACT_HOT_LOADER__.register(Root_Home, 'Home', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/containers/Root.js');
 
-    __REACT_HOT_LOADER__.register(Root_renderNavLinkItems, 'renderNavLinkItems', '/Users/anbazhagan_pe/Documents/GitHub/lincolnjcp.github.io/src/js/containers/Root.js');
+    __REACT_HOT_LOADER__.register(Root_renderNavLinkItems, 'renderNavLinkItems', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/containers/Root.js');
 
-    __REACT_HOT_LOADER__.register(Root_RenderNavLink, 'RenderNavLink', '/Users/anbazhagan_pe/Documents/GitHub/lincolnjcp.github.io/src/js/containers/Root.js');
+    __REACT_HOT_LOADER__.register(Root_RenderNavLink, 'RenderNavLink', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/containers/Root.js');
 
-    __REACT_HOT_LOADER__.register(Root_App, 'App', '/Users/anbazhagan_pe/Documents/GitHub/lincolnjcp.github.io/src/js/containers/Root.js');
+    __REACT_HOT_LOADER__.register(Root_App, 'App', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/containers/Root.js');
 
-    __REACT_HOT_LOADER__.register(Root__default, 'default', '/Users/anbazhagan_pe/Documents/GitHub/lincolnjcp.github.io/src/js/containers/Root.js');
+    __REACT_HOT_LOADER__.register(Root__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/containers/Root.js');
 }();
 
 ;
@@ -33251,7 +33526,7 @@ var js__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(js_render, 'render', '/Users/anbazhagan_pe/Documents/GitHub/lincolnjcp.github.io/src/js/index.jsx');
+  __REACT_HOT_LOADER__.register(js_render, 'render', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/index.jsx');
 }();
 
 ;
@@ -33473,9 +33748,9 @@ var _temp = function () {
         return;
     }
 
-    __REACT_HOT_LOADER__.register(Utils, 'Utils', '/Users/anbazhagan_pe/Documents/GitHub/lincolnjcp.github.io/src/js/helpers/Utils.js');
+    __REACT_HOT_LOADER__.register(Utils, 'Utils', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/helpers/Utils.js');
 
-    __REACT_HOT_LOADER__.register(_default, 'default', '/Users/anbazhagan_pe/Documents/GitHub/lincolnjcp.github.io/src/js/helpers/Utils.js');
+    __REACT_HOT_LOADER__.register(_default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/helpers/Utils.js');
 }();
 
 ;
@@ -33786,9 +34061,9 @@ var _temp = function () {
         return;
     }
 
-    __REACT_HOT_LOADER__.register(CreateInput, "CreateInput", "/Users/anbazhagan_pe/Documents/GitHub/lincolnjcp.github.io/src/js/containers/CreateInput.js");
+    __REACT_HOT_LOADER__.register(CreateInput, "CreateInput", "/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/containers/CreateInput.js");
 
-    __REACT_HOT_LOADER__.register(_default, "default", "/Users/anbazhagan_pe/Documents/GitHub/lincolnjcp.github.io/src/js/containers/CreateInput.js");
+    __REACT_HOT_LOADER__.register(_default, "default", "/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/containers/CreateInput.js");
 }();
 
 ;
