@@ -151,61 +151,7 @@
     }
 }
 
-.filter-tags {
-    margin-left: 0;
-    padding-left: 0; 
-    @media (--viewport-sm-only) {
-        padding: 0;
-        margin: 0;
-        & .tags {
-            & .tag-title {
-                padding-right: 8px;
-            }
-        }
-    }
-    @media (--viewport-md-only) {
-        padding: 0;
-        margin: 0;
-        & .tags {
-            & .tag-title {
-                padding-right: 8px;
-            }
-        }
-    }
-    & .tags {
-        padding: 8px;
-        margin-right: 16px;
-        float: left;
-        border-radius: var(--border-radius-M);
-        border: solid 1px solid var(--color-concrete);
-        & .tag-item{
-            color: var(--color-shadow);
-        }
-        & .tag-title {
-            font-weight: var(--font-weight-bold);
-            color: var(--color-shadow);
-        }
-        & .icon {
-            display: block;
-            float: right;
-            width: 16px;
-            height: 16px;
-            background: var(--color-shadow);
-            border-radius: 100%;
-            margin-left: 8px;
-            cursor: pointer;
-            & svg {
-                width: 16px;
-                height: 16px;
-                padding: 2px;
-            }
-        }
-    }
-    & .tag-clear {
-        color: var(--color-nightsky);
-        display: block;
-    }
-}
+
 
 /* below code is not required for sort and filter */
 

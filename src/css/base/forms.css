@@ -396,7 +396,7 @@ font-style: normal;
       }
     }
   }
-
+  
   & input{
     display: none;
 
@@ -453,6 +453,25 @@ font-style: normal;
       background-color: var(--color-nightsky);
     }
   }
+  &.checkbox-M {
+      & input{
+          &+span{
+          font-size:14px;
+          }
+      }
+  }
+  &.checkbox-S {
+    & input{
+        &+span{
+        font-size:12px;
+          &:before{
+            top: 1px;
+            width: 14px;
+            height: 14px;
+          }
+        }
+    }
+}
 }
 
 /*  New forms */

@@ -3,7 +3,7 @@
 ***************************************************/
 .footer-block {
     border-top: 1px solid var(--color-concrete);
-    padding-top: 16px;
+    padding-top: 24px;
     & .signup-block {
         margin: 0 auto;
         display: block;
@@ -37,6 +37,7 @@
                 }
             }
             & .input-text {
+                color: var(--color-slate);
                 font-size: 14px;
             }
         }
@@ -55,13 +56,13 @@
         }
         padding: 0;
         & ul {
-            margin-top: 16px;
+            margin-top: 24px;
             @media (--viewport-sm-only) {
                 text-align: center;
             }
             & li{
                 display: inline;
-                padding-right: 16px;
+                padding-right: 18px;
                 @media (--viewport-sm-only) {
                     display: inline-block;
                     text-align: center;
@@ -80,7 +81,14 @@
                         width: 100%;
                     }
                     position: relative;
-                    top: 18px;
+                    top: 13px;
+                    width:32px;
+                    height:32px;
+                    right:6px;
+                & svg{
+                    width:32px;
+                    height:32px;
+                }
                 }
             }
         }
@@ -107,6 +115,12 @@
                 & .icon {
                     position: relative;
                     top: 18px;
+                    width: 32px;
+                    height: 32px;
+                 & svg{
+                    width: 32px;
+                    height: 32px;
+                 }
                 }
                 &.footer-stay-conntected{
                     position: relative;
@@ -119,7 +133,7 @@
         border-top: 1px solid var(--color-concrete);
         border-bottom: 1px solid var(--color-concrete);
         margin-top: 32px;
-        padding: 16px 0;
+        padding: 24px 0 16px;
         float: left;
         & ul {
             float: left;
@@ -145,7 +159,7 @@
         }
     }
     & .footer-bottom-links {
-        padding: 16px 0;
+        padding: 16px 0 24px;
         @media (--viewport-sm-only) {
             padding-bottom: 8px;
         }
