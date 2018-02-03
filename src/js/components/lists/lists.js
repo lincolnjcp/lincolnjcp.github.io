@@ -45,25 +45,30 @@ componentDidMount() {
             <h5 className="title title-M mrg-S">Icon Lists</h5>
             <p className="mrg-L">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             <ul className="list list-icons max-width-text ">
-              <li><span className="icon color-shadow-svg" dangerouslySetInnerHTML={{__html: chatfillImage}} /> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
-              <li><span className="icon color-shadow-svg" dangerouslySetInnerHTML={{__html: thumbsupfillImage}} /> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
-              <li><span className="icon color-shadow-svg" dangerouslySetInnerHTML={{__html: heartlineImage}} /> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
-              <li><span className="icon color-shadow-svg" dangerouslySetInnerHTML={{__html: trianglerightImage}} /> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
+              <li className="title-txt title-S"><span className="icon color-shadow-svg icon-L" dangerouslySetInnerHTML={{__html: chatfillImage}} /> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
+              <li className="title-txt title-S"><span className="icon color-shadow-svg icon-L" dangerouslySetInnerHTML={{__html: thumbsupfillImage}} /> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
+              <li className="title-txt title-S"><span className="icon color-shadow-svg icon-L" dangerouslySetInnerHTML={{__html: heartlineImage}} /> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
+              <li className="title-txt title-S"><span className="icon color-shadow-svg icon-L" dangerouslySetInnerHTML={{__html: trianglerightImage}} /> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
             </ul>
             <p className="design-system-css-class mrg-XL">.list-icons</p>
             <h5 className="title title-M mrg-S">Link Lists</h5>
             <p className="mrg-L">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             <ul className="list list-links mrg-XL">
-              <li><a href="#">List item with link</a></li>
-              <li><a href="#">List item with link</a></li>
-              <li><a href="#">List item with link</a></li>
-              <li><a href="#">List item with link</a></li>
-              <li><a href="#">List item with link</a></li>
-              <li><a href="#">List item with link</a></li>
-              <li><a href="#">List item with link</a></li>
-              <li><a href="#">List item with link</a></li>
+              <li className="title-txt title-S"><a href="#">Refrigerator Measuring Guide</a></li>
+              <li className="title-txt title-S"><a href="#">Refrigerator Buying Guide</a></li>
+              <li className="title-txt title-S"><a href="#">Delivery Checklist</a></li>
+              <li className="title-txt title-S"><a href="#">Refrigerator Measuring Guide</a></li>
+              <li className="title-txt title-S"><a href="#">Refrigerator Buying Guide</a></li>
+              <li className="title-txt title-S"><a href="#">Delivery Checklist</a></li>
+              <li className="title-txt title-S"><a href="#">Refrigerator Measuring Guide</a></li>
+              <li className="title-txt title-S"><a href="#">Refrigerator Buying Guide</a></li>
+              <li className="title-txt title-S"><a href="#">Delivery Checklist</a></li>
             </ul>
             <p className="design-system-css-class">.list-links</p>
+
+            <div className="">
+
+            </div>
         </div>
     </div>
 
