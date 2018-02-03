@@ -15,7 +15,7 @@ class VisualNavigation extends Component {
               <li>
                 <a href="#">
                   <div className="viz-nav-img mrg-XL">
-                    <img src="https://m.jcpenney.com/tablet/images/wmns-coats.jpg" alt="" />
+                    <img src="https://m.jcpenney.com/tablet/images/wmns-coats.jpg" alt="product-image" />
                   </div>
                   <h2 className="title title-M mrg-XS algn-mid">Tops</h2>
                 </a>
@@ -23,7 +23,7 @@ class VisualNavigation extends Component {
               <li>
                 <a href="#">
                   <div className="viz-nav-img mrg-XL">
-                    <img src="https://m.jcpenney.com/tablet/images/wmns_tops.jpg" alt="" />
+                    <img src="https://m.jcpenney.com/tablet/images/wmns_tops.jpg" alt="product-image" />
                   </div>
                   <h2 className="title title-M mrg-XS algn-mid">Jeans</h2>
                 </a>
@@ -31,7 +31,7 @@ class VisualNavigation extends Component {
               <li>
                 <a href="#">
                   <div className="viz-nav-img mrg-XL">
-                    <img src="https://m.jcpenney.com/tablet/images/wmns_jeans.jpg" alt="" />
+                    <img src="https://m.jcpenney.com/tablet/images/wmns_jeans.jpg" alt="product-image" />
                   </div>
                   <h2 className="title title-M mrg-XS algn-mid">Pants</h2>
                 </a>
@@ -39,7 +39,7 @@ class VisualNavigation extends Component {
               <li>
                 <a href="#">
                   <div className="viz-nav-img mrg-XL">
-                    <img src="https://m.jcpenney.com/tablet/images/wmns_blazer.jpg" alt="" />
+                    <img src="https://m.jcpenney.com/tablet/images/wmns_blazer.jpg" alt="product-image" />
                   </div>
                   <h2 className="title title-M mrg-XS algn-mid">Dresses</h2>
                 </a>
@@ -47,7 +47,7 @@ class VisualNavigation extends Component {
               <li>
                 <a href="#">
                   <div className="viz-nav-img mrg-XL">
-                    <img src="https://m.jcpenney.com/tablet/images/womens%20scrubs%20icon.jpg" alt="" />
+                    <img src="https://m.jcpenney.com/tablet/images/womens%20scrubs%20icon.jpg" alt="product-image" />
                   </div>
                   <h2 className="title title-M mrg-XS algn-mid">Cropped Pants</h2>
                 </a>
@@ -60,7 +60,7 @@ class VisualNavigation extends Component {
               <li>
                 <a href="#">
                   <div className="viz-nav-img mrg-XL">
-                    <img src="https://m.jcpenney.com/tablet/images/mens%20sports%20fan%20shop%20tablet%20category%20icon.jpg" alt="" />
+                    <img src="https://m.jcpenney.com/tablet/images/mens%20sports%20fan%20shop%20tablet%20category%20icon.jpg" alt="product-image" />
                   </div>
                   <h2 className="title title-M mrg-XS algn-mid">Liz Claiborne</h2>
                   <p className="std-txt std-txt-M algn-mid">(627)</p>
@@ -69,7 +69,7 @@ class VisualNavigation extends Component {
               <li>
                 <a href="#">
                   <div className="viz-nav-img mrg-XL">
-                    <img src="https://m.jcpenney.com/tablet/images/mens%20athletic%20uniforms%20tablet%20category%20icon.jpg" alt="" />
+                    <img src="https://m.jcpenney.com/tablet/images/mens%20athletic%20uniforms%20tablet%20category%20icon.jpg" alt="product-image" />
                   </div>
                   <h2 className="title title-M mrg-XS algn-mid">Liz Claiborne</h2>
                   <p className="std-txt std-txt-M algn-mid">(627)</p>
@@ -78,7 +78,7 @@ class VisualNavigation extends Component {
               <li>
                 <a href="#">
                   <div className="viz-nav-img mrg-XL">
-                    <img src="https://m.jcpenney.com/tablet/images/mens%20coats%20jackets%20icon.jpg" alt="" />
+                    <img src="https://m.jcpenney.com/tablet/images/mens%20coats%20jackets%20icon.jpg" alt="product-image" />
                   </div>
                   <h2 className="title title-M mrg-XS algn-mid">Liz Claiborne</h2>
                   <p className="std-txt std-txt-M algn-mid">(627)</p>
@@ -87,7 +87,7 @@ class VisualNavigation extends Component {
               <li>
                 <a href="#">
                   <div className="viz-nav-img mrg-XL">
-                    <img src="https://m.jcpenney.com/tablet/images/mens%20sweaters%20icon.jpg" alt="" />
+                    <img src="https://m.jcpenney.com/tablet/images/mens%20sweaters%20icon.jpg" alt="product-image" />
                   </div>
                   <h2 className="title title-M mrg-XS algn-mid">Liz Claiborne</h2>
                   <p className="std-txt std-txt-M algn-mid">(627)</p>
@@ -96,7 +96,7 @@ class VisualNavigation extends Component {
               <li>
                 <a href="#">
                   <div className="viz-nav-img mrg-XL">
-                    <img src="https://m.jcpenney.com/tablet/images/mens%20hoodies2%20tablet%20category%20icon.jpg" alt="" />
+                    <img src="https://m.jcpenney.com/tablet/images/mens%20hoodies2%20tablet%20category%20icon.jpg" alt="product-image" />
                   </div>
                   <h2 className="title title-M mrg-XS algn-mid">Liz Claiborne</h2>
                   <p className="std-txt std-txt-M algn-mid">(627)</p>

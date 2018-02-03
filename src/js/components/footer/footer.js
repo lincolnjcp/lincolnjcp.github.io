@@ -90,7 +90,7 @@ class Footer extends Component {
                             <div className="position-rel input-form">
                                 <div className="form-float-label">
                                     <input type="tel" id="signup" name="signup" placeholder="Phone Number or Email..." className="input-text placeholder-text" />
-                                    <a href="javascript:void();" className="btn btn-S btn-primary apply-btn">Sign Up</a>
+                                    <a href="javascript:void();" role="button" className="btn btn-S btn-primary apply-btn">Sign Up</a>
                                     <a href="javascript:void();" className="footer-terms">*Terms & Conditions</a>
                                 </div>
                             </div>

@@ -173,17 +173,17 @@ class Tooltips extends Component {
 
           <div className="tooltip tooltip-top-right tooltip-long tooltip-list">
             <ul>
-              <li><a href="#">My Account</a></li>
-              <li><a href="#">My Rewards</a></li>
-              <li><a href="#">My Orders</a></li>
-              <li><a href="#">My Rewards (0)</a></li>
-              <li><a href="#">My List</a></li>
-              <li><a href="#">Profile Settings</a></li>
-              <li><a href="#">Nofications</a></li>
-              <li><a href="#">My JCPenney.com</a></li>
-              <li><a href="#">Gift Registry</a></li>
-              <li><a href="#">JCPenney Credit Card</a></li>
-              <li className="tooltip-divider"><a href="#">Sign Out</a></li>
+              <li><a href="javascript:void(0)">My Account</a></li>
+              <li><a href="javascript:void(0)">My Rewards</a></li>
+              <li><a href="javascript:void(0)">My Orders</a></li>
+              <li><a href="javascript:void(0)">My Rewards (0)</a></li>
+              <li><a href="javascript:void(0)">My List</a></li>
+              <li><a href="javascript:void(0)">Profile Settings</a></li>
+              <li><a href="javascript:void(0)">Nofications</a></li>
+              <li><a href="javascript:void(0)">My JCPenney.com</a></li>
+              <li><a href="javascript:void(0)">Gift Registry</a></li>
+              <li><a href="javascript:void(0)">JCPenney Credit Card</a></li>
+              <li className="tooltip-divider"><a href="javascript:void(0)">Sign Out</a></li>
             </ul>
           </div>
           <br></br><br></br><br></br>

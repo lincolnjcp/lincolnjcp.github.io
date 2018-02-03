@@ -63,7 +63,7 @@ class CarouselImage extends React.Component {
   render() {
     return (
       <div>
-        <img src={this.props.imgSrc} />
+        <img src={this.props.imgSrc} alt="product-image" />
       </div>
     );
   }
@@ -77,7 +77,7 @@ const CarouselNavImage = (args) => {
   return (
     <div className={selectedImageStyle}>
       <div className={args.navClass}>
-        <img src={args.imgSrc} />
+        <img src={args.imgSrc} alt="product-image" />
       </div>
     </div>
   );

@@ -94,7 +94,7 @@ class RecommendationZone extends Component {
                 return (
                   <div className="product-card-thumbnail mrg-S">
                     <a href="javascript:void(0)">
-                      <img src={productInfo.thumb} alt="" />
+                      <img src={productInfo.thumb} alt="product-image" />
                     </a>
                   </div>
                 )

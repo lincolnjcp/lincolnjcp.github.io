@@ -14,11 +14,11 @@ class ProductCards extends Component {
           return (
             <div className="product-card-thumbnail mrg-S">
               <a href="javascript:void(0)">
-                <img src={productInfo.thumb} alt="" />
+                <img src={productInfo.thumb} alt="Samsung ENERGY STAR" />
               </a>      
             </div>
           )
-        }
+        } 
       })()}
 
       {(() => {
@@ -81,7 +81,7 @@ class ProductCards extends Component {
 
       <div className="ratings-and-reviews">
         <div className="ratings-and-reviews-stars mrg-rght-XS">
-          <img src="/images/design-system/fpo/reviews/reviews-stars-3-5.jpg" alt="" />
+          <img src="/images/design-system/fpo/reviews/reviews-stars-3-5.jpg" alt="Star Ratings" />
         </div>
         <div className="ratings-and-reviews-count color-slate std-txt std-txt-XXS">
           99,999
@@ -104,7 +104,7 @@ class ProductCards extends Component {
           return (
             <div className="product-card-thumbnail">
               <a href="javascript:void(0)">
-                <img src={productInfo.thumb} alt="" />
+                <img src={productInfo.thumb} alt="Samsung ENERGY STAR" />
               </a>
               {(() => {
                 if (productInfo.flag) {
@@ -212,7 +212,7 @@ class ProductCards extends Component {
 
       <div className="ratings-and-reviews">
         <div className="ratings-and-reviews-stars mrg-rght-XS">
-          <img src="/images/design-system/fpo/reviews/reviews-stars-3-5.jpg" alt="" />
+          <img src="/images/design-system/fpo/reviews/reviews-stars-3-5.jpg" alt="ratings" />
         </div>
         <div className="ratings-and-reviews-count color-slate std-txt std-txt-XXS">
           99,999
@@ -235,7 +235,7 @@ class ProductCards extends Component {
           return (
             <div className="product-card-thumbnail">
               <a href="javascript:void(0)">
-                <img src={productInfo.thumb} alt="" />
+                <img src={productInfo.thumb} alt="Samsung ENERGY STAR" />
               </a>
               {(() => {
                 if (productInfo.flag) {
@@ -343,7 +343,7 @@ class ProductCards extends Component {
 
       <div className="ratings-and-reviews">
         <div className="ratings-and-reviews-stars mrg-rght-XS">
-          <img src="/images/design-system/fpo/reviews/reviews-stars-3-5.jpg" alt="" />
+          <img src="/images/design-system/fpo/reviews/reviews-stars-3-5.jpg" alt="Star Ratings" />
         </div>
         <div className="ratings-and-reviews-count color-slate std-txt std-txt-XXS">
           99,999
@@ -365,7 +365,7 @@ class ProductCards extends Component {
           return (
             <div className="product-card-thumbnail">
               <a href="javascript:void(0)">
-                <img src={productInfo.thumb} alt="" />
+                <img src={productInfo.thumb} alt="Samsung ENERGY STAR" />
               </a>
               {(() => {
                 if (productInfo.flag) {
@@ -448,7 +448,7 @@ class ProductCards extends Component {
 
         <div className="ratings-and-reviews">
           <div className="ratings-and-reviews-stars mrg-rght-XS">
-            <img src="/images/design-system/fpo/reviews/reviews-stars-3-5.jpg" alt="" />
+            <img src="/images/design-system/fpo/reviews/reviews-stars-3-5.jpg" alt="Star Ratings" />
           </div>
           <div className="ratings-and-reviews-count color-slate std-txt std-txt-XXS">
             99,999
@@ -537,7 +537,7 @@ class ProductCards extends Component {
             return (
               <div className="product-card-thumbnail">
                 <a href="javascript:void(0)">
-                  <img src={productInfo.thumb} alt="" />
+                  <img src={productInfo.thumb} alt="Samsung ENERGY STAR" />
                 </a>
                 {(() => {
                   if (productInfo.flag) {
@@ -660,7 +660,7 @@ class ProductCards extends Component {
 
           <div className="ratings-and-reviews">
             <div className="ratings-and-reviews-stars mrg-rght-XS">
-              <img src="/images/design-system/fpo/reviews/reviews-stars-3-5.jpg" alt="" />
+              <img src="/images/design-system/fpo/reviews/reviews-stars-3-5.jpg" alt="Star Ratings" />
             </div>
             <div className="ratings-and-reviews-count color-slate std-txt std-txt-XXS">
               99,999
@@ -710,7 +710,7 @@ class ProductCards extends Component {
             return (
               <div className="product-card-thumbnail">
                 <a href="javascript:void(0)">
-                  <img src={productInfo.thumb} alt="" />
+                  <img src={productInfo.thumb} alt="Samsung ENERGY STAR" />
                 </a>
                 {(() => {
                   if (productInfo.flag) {
@@ -821,7 +821,7 @@ class ProductCards extends Component {
 
           <div className="ratings-and-reviews">
             <div className="ratings-and-reviews-stars mrg-rght-XS">
-              <img src="/images/design-system/fpo/reviews/reviews-stars-3-5.jpg" alt="" />
+              <img src="/images/design-system/fpo/reviews/reviews-stars-3-5.jpg" alt="Star Ratings" />
             </div>
             <div className="ratings-and-reviews-count color-slate std-txt std-txt-XXS">
               99,999

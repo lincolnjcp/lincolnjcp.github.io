@@ -170,9 +170,9 @@ class Buttons extends Component {
                         <h3 className="title title-L mrg-L">When to Use</h3>
                         <p className="max-width-text mrg-XL">Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor don ullamco nulla non metus auctor fringilla. </p>
                         <div className="button-overview algn-mid-S mrg-XL">
-                            <a href="javascript:void();" className="btn btn-primary btn-L mrg-L">Primary Large</a>
-                            <a href="javascript:void();" className="btn btn-secondary btn-L mrg-L">Secondary Large</a>
-                            <a href="javascript:void();" className="btn btn-L btn-disabled mrg-L">Disabled Large</a>
+                            <a href="javascript:void();" role="button" className="btn btn-primary btn-L mrg-L">Primary Large</a>
+                            <a href="javascript:void();" role="button" className="btn btn-secondary btn-L mrg-L">Secondary Large</a>
+                            <a href="javascript:void();" role="button" className="btn btn-L btn-disabled mrg-L">Disabled Large</a>
 
                         </div>
                         <h5 className="title title-M mrg-M">Best Practices</h5>
@@ -191,15 +191,15 @@ class Buttons extends Component {
                         <div className="row">
                             <div className="sm12 md5 lg4 columns mrg-XL">
                                 <div className="button-preview algn-mid">
-                                    <a href="javascript:void();" className="btn btn-primary btn-S mrg-M">Primary Small</a>
+                                    <a href="javascript:void();" role="button" className="btn btn-primary btn-S mrg-M">Primary Small</a>
                                 </div>
 
                                 <div className="button-preview algn-mid">
-                                    <a href="javascript:void();" className="btn btn-primary btn-M mrg-M">Primary Medium</a>
+                                    <a href="javascript:void();" role="button" className="btn btn-primary btn-M mrg-M">Primary Medium</a>
                                 </div>
 
                                 <div className="button-preview algn-mid">
-                                    <a href="javascript:void();" className="btn btn-primary btn-L mrg-M">Primary Large</a>
+                                    <a href="javascript:void();" role="button" className="btn btn-primary btn-L mrg-M">Primary Large</a>
                                 </div>
                             </div>
                             <div className="sm12 md7 lg8 columns">
@@ -210,15 +210,15 @@ class Buttons extends Component {
                         <div className="row">
                             <div className="sm12 md5 lg4 columns mrg-XXL">
                                 <div className="button-preview algn-mid">
-                                    <a href="javascript:void();" className="btn btn-secondary btn-S mrg-M">Secondary Small</a>
+                                    <a href="javascript:void();" role="button" className="btn btn-secondary btn-S mrg-M">Secondary Small</a>
                                 </div>
 
                                 <div className="button-preview algn-mid">
-                                    <a href="javascript:void();" className="btn btn-secondary btn-M mrg-M">Secondary Medium</a>
+                                    <a href="javascript:void();" role="button" className="btn btn-secondary btn-M mrg-M">Secondary Medium</a>
                                 </div>
 
                                 <div className="button-preview algn-mid">
-                                    <a href="javascript:void();" className="btn btn-secondary btn-L mrg-M">Secondary Large</a>
+                                    <a href="javascript:void();" role="button" className="btn btn-secondary btn-L mrg-M">Secondary Large</a>
                                 </div>
                             </div>
                             <div className="sm12 md7 lg8 columns">
@@ -229,7 +229,7 @@ class Buttons extends Component {
                         <div className="row">
                             <div className="sm12 md5 lg4 columns">
                                 <div className="button-preview algn-mid mrg-XL">
-                                    <a href="javascript:void();" className="btn btn-primary btn-L mrg-M btn-icon "><span className="icon color-white-svg lock-icon" dangerouslySetInnerHTML={{ __html: lockImage }} /> Checkout</a>
+                                    <a href="javascript:void();" role="button" className="btn btn-primary btn-L mrg-M btn-icon "><span className="icon color-white-svg lock-icon" dangerouslySetInnerHTML={{ __html: lockImage }} /> Checkout</a>
                                 </div>
 
                             </div>
@@ -241,11 +241,11 @@ class Buttons extends Component {
                         <div className="row">
                             <div className="sm12 md5 lg4 columns mrg-XXL">
                                 <div className="button-preview algn-mid">
-                                    <a href="javascript:void();" className="btn btn-primary btn-L mrg-M btn-icon btn-icon-slide"><span className="icon color-white-svg" dangerouslySetInnerHTML={{ __html: cartImage }} /> <span className="btn-label">Add to Cart</span></a>
+                                    <a href="javascript:void();" role="button" className="btn btn-primary btn-L mrg-M btn-icon btn-icon-slide"><span className="icon color-white-svg" dangerouslySetInnerHTML={{ __html: cartImage }} /> <span className="btn-label">Add to Cart</span></a>
                                 </div>
 
                                 <div className="button-preview algn-mid">
-                                    <a href="javascript:void();" className="btn btn-secondary btn-L mrg-M btn-icon btn-icon-slide"><span className="icon color-penneyred-svg" dangerouslySetInnerHTML={{ __html: cartImage }} /> <span className="btn-label">Add to Cart</span></a>
+                                    <a href="javascript:void();" role="button" className="btn btn-secondary btn-L mrg-M btn-icon btn-icon-slide"><span className="icon color-penneyred-svg" dangerouslySetInnerHTML={{ __html: cartImage }} /> <span className="btn-label">Add to Cart</span></a>
                                 </div>
                             </div>
                             <div className="sm12 md7 lg8 columns">
@@ -263,8 +263,8 @@ class Buttons extends Component {
                         <div className="design-system-container hide-for-small-only mrg-L">
                             <p className="std-txt std-txt-S color-slate mrg-L">CONTAINER</p>
                             <div className="design-system-container-inner algn-rght btn-set-desktop-example">
-                                <a href="javascript:void();" className="btn btn-secondary btn-L mrg-zero">Cancel</a>
-                                <a href="javascript:void();" className="btn btn-primary btn-L mrg-zero">Save</a>
+                                <a href="javascript:void();" role="button" className="btn btn-secondary btn-L mrg-zero">Cancel</a>
+                                <a href="javascript:void();" role="button" className="btn btn-primary btn-L mrg-zero">Save</a>
                             </div>
                         </div>
                         <p className="mrg-L max-width-text">Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec ullamcorper nulla non metus auctor fringilla. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. </p>
@@ -272,8 +272,8 @@ class Buttons extends Component {
                         <div className="design-system-container design-system-container-small mrg-L">
                             <p className="std-txt std-txt-S color-slate mrg-L">CONTAINER</p>
                             <div className="design-system-container-inner algn-rght">
-                                <a href="javascript:void();" className="btn btn-primary btn-L btn-full mrg-M">Save</a>
-                                <a href="javascript:void();" className="btn btn-secondary btn-L btn-full mrg-M">Cancel</a>
+                                <a href="javascript:void();" role="button" className="btn btn-primary btn-L btn-full mrg-M">Save</a>
+                                <a href="javascript:void();" role="button" className="btn btn-secondary btn-L btn-full mrg-M">Cancel</a>
                             </div>
                         </div>
                     </div>
@@ -388,9 +388,9 @@ class Buttons extends Component {
                     <button className="title-XS">see details</button>
                     <br /><br /><br />
                     <h2 className="title title-L mrg-M">Disabled Button</h2>
-                    <div><a href="#" class="btn btn-S btn-disabled mrg-L">Disabled Button</a></div>
-                    <div><a href="#" class="btn btn-M btn-disabled mrg-L">Disabled Button</a></div>
-                    <div><a href="#" class="btn btn-L btn-disabled mrg-L">Disabled Button</a></div>
+                    <div><a href="#" role="button" class="btn btn-S btn-disabled mrg-L">Disabled Button</a></div>
+                    <div><a href="#" role="button" class="btn btn-M btn-disabled mrg-L">Disabled Button</a></div>
+                    <div><a href="#" role="button" class="btn btn-L btn-disabled mrg-L">Disabled Button</a></div>
                     <div><button type="button" name="button" class="btn btn-primary btn-L" disabled="">Active Button Turned Disabled</button></div>
                 </div>
 

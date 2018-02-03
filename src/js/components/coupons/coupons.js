@@ -29,7 +29,7 @@ class Coupons extends Component {
                 <span className="std-txt std-txt-S">Expires: 11/05/2017</span>
                 <div><span classname="std-txt std-txt-S">Code: </span><span className="std-txt std-txt-S"> SHOPNOW4</span></div>
               </div>
-              <a href="javascript:void();" className="btn btn-S btn-primary apply-btn btn-full mrg-S">Apply</a>
+              <a href="javascript:void();" role="button" className="btn btn-S btn-primary apply-btn btn-full mrg-S">Apply</a>
               <div className="coupon-see-details">
                 <a href="javascript:void();" className="title-XS">shop home</a>
                 <a href="javascript:void();" className="title-XS">see details</a>
@@ -54,7 +54,7 @@ class Coupons extends Component {
                 <span className="std-txt std-txt-S">Expires: 11/05/2017</span>
                 <div><span classname="std-txt std-txt-S">Code: </span><span className="std-txt std-txt-S">SHOPNOW4</span></div>
               </div>
-              <a href="javascript:void();" className="btn btn-S btn-primary apply-btn btn-full mrg-S">Apply</a>
+              <a href="javascript:void();" role="button" className="btn btn-S btn-primary apply-btn btn-full mrg-S">Apply</a>
               <div className="coupon-see-details">
               <a href="javascript:void(0)" className="title-XS">shop home</a>
               <a href="javascript:void(0)" className="title-XS">see details</a>
@@ -70,7 +70,7 @@ class Coupons extends Component {
                 <p className="std-txt std-txt-S">select apparel, shoes, accessories, fine jewelry & home</p>
               </div>
               <div class="coupon-bottom">
-              <a href="javascript:void();" className="btn btn-S btn-primary apply-btn btn-full mrg-S">Apply</a>
+              <a href="javascript:void();" role="button" className="btn btn-S btn-primary apply-btn btn-full mrg-S">Apply</a>
               <div className="coupon-see-details">
               <a href="javascript:void(0)" className="title-XS">shop home</a>
               <a href="javascript:void(0)" className="title-XS">see details</a>
@@ -96,11 +96,11 @@ class Coupons extends Component {
                 <span className="std-txt std-txt-S">Expires: 11/05/2017</span>
                 <div><span classname="std-txt std-txt-S">Code: </span><span className="std-txt std-txt-S">SHOPNOW4</span></div>
               </div>
-              <a href="javascript:void();" className="btn btn-S btn-secondary apply-btn btn-full mrg-S print-barcode">
+              <a href="javascript:void();" role="button" className="btn btn-S btn-secondary apply-btn btn-full mrg-S print-barcode">
                 <span className="icon mrg-rght-XS" dangerouslySetInnerHTML={{ __html: barcodeImage }}/>
                   Print Barcode
                 </a>
-              <a href="javascript:void();" className="btn btn-S btn-primary apply-btn btn-full mrg-S">Apply</a>
+              <a href="javascript:void();" role="button" className="btn btn-S btn-primary apply-btn btn-full mrg-S">Apply</a>
              
               <div className="coupon-see-details">
               <a href="javascript:void(0)" className="title-XS">shop home</a>
@@ -126,7 +126,7 @@ class Coupons extends Component {
                 <span className="std-txt std-txt-S">Expires: 11/05/2017</span>
                 <div><span classname="std-txt std-txt-S">Code: </span><span className="std-txt std-txt-S">SHOPNOW4</span></div>
               </div>
-              <a href="javascript:void();" className="btn btn-S btn-primary apply-btn btn-full mrg-S">Apply</a>
+              <a href="javascript:void();" role="button" className="btn btn-S btn-primary apply-btn btn-full mrg-S">Apply</a>
               <div className="coupon-see-details">
               <a href="javascript:void(0)" className="title-XS">shop home</a>
               <a href="javascript:void(0)" className="title-XS">see details</a>
@@ -151,7 +151,7 @@ class Coupons extends Component {
                 <span className="std-txt std-txt-S">Expires: 11/05/2017</span>
                 <div><span classname="std-txt std-txt-S">Code: </span><span className="std-txt std-txt-S">SHOPNOW4</span></div>
               </div>
-              <a href="javascript:void();" className="btn btn-S btn-primary apply-btn btn-full mrg-S">Apply</a>
+              <a href="javascript:void();" role="button" className="btn btn-S btn-primary apply-btn btn-full mrg-S">Apply</a>
               <div className="coupon-see-details">
               <a href="javascript:void(0)" className="title-XS">shop home</a>
               <a href="javascript:void(0)" className="title-XS">see details</a>
@@ -176,7 +176,7 @@ class Coupons extends Component {
                 <span className="std-txt std-txt-S">Expires: 11/05/2017</span>
                 <div><span classname="std-txt std-txt-S">Code: </span><span className="std-txt std-txt-S">SHOPNOW4</span></div>
               </div>
-              <a href="javascript:void();" className="btn btn-S btn-primary apply-btn btn-full mrg-S">Apply</a>
+              <a href="javascript:void();" role="button" className="btn btn-S btn-primary apply-btn btn-full mrg-S">Apply</a>
               <div className="coupon-see-details">
               <a href="javascript:void(0)" className="title-XS">shop home</a>
               <a href="javascript:void(0)" className="title-XS">see details</a>
@@ -201,7 +201,7 @@ class Coupons extends Component {
                 <span className="std-txt std-txt-S">Expires: 11/05/2017</span>
                 <div><span classname="std-txt std-txt-S">Code: </span><span className="std-txt std-txt-S">SHOPNOW4</span></div>
               </div>
-              <a href="javascript:void();" className="btn btn-S btn-primary apply-btn btn-full mrg-S">Apply</a>
+              <a href="javascript:void();" role="button" className="btn btn-S btn-primary apply-btn btn-full mrg-S">Apply</a>
               <div className="coupon-see-details">
               <a href="javascript:void(0)" className="title-XS">shop home</a>
               <a href="javascript:void(0)" className="title-XS">see details</a>

@@ -502,7 +502,7 @@ class Forms extends Component {
                                             <div className="form-float-label">
                                                 <input type="tel" id="zipcode" name="zipcode" placeholder="Enter Code" required className="input-text placeholder-text" />
                                                 <label htmlFor="zipcode">Enter Code</label>
-                                                <a href="javascript:void();" className="btn btn-S btn-primary apply-btn">Apply</a>
+                                                <a href="javascript:void();" role="button" className="btn btn-S btn-primary apply-btn">Apply</a>
                                             </div>
                                         </div>
                                     </div>
