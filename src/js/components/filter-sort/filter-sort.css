@@ -67,7 +67,8 @@
             padding-top: 7px !important;
             & .filter-dropdown-block {
                 & .dropdown-button {
-                    left: 28px;
+                    float: right;
+                    margin-right: 12px;
                 }
             }
         }
