@@ -89,7 +89,7 @@
         width: 100%;
       }
       &.filter-tooltip{
-        left: -10px;
+        left: 32px;
         top: -5px;
         padding: 8px 0;
       }

@@ -43,8 +43,8 @@
         height: 26px;
         width: 26px;
         position: absolute;
-        top: 5px;
-        left: 4px;
+        top: 4px;
+        left: 3px;
         @media (--viewport-sm-only) {
             top: 4px;
             left: 3.1px;

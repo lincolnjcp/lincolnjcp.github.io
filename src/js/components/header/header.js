@@ -607,7 +607,7 @@ class Header extends Component {
       </ul>
     </div>
     <div className="main-menu-bar-secondary">
-      <div className="side-panel side-panel-disable-desktop from-left main-menu-bar-secondary-panel" id="mainMenusecondary">
+      <div className="side-panel side-panel-disable-desktop slide-panel-from-left main-menu-bar-secondary-panel" id="mainMenusecondary">
         <div className="side-panel-container">
           <header className="side-panel-header">
             <h3 className="title title-L color-white side-panel-headline">Menu</h3>
@@ -930,7 +930,7 @@ class Header extends Component {
         </div>
       </div>
     </div>
-    <div className="side-panel from-right change-my-store-panel" id="changeMyStore">
+    <div className="side-panel slide-panel-from-right change-my-store-panel" id="changeMyStore">
       <div className="side-panel-container">
         <header className="side-panel-header">
           <h3 className="title title-L color-white">Change My Store</h3>

@@ -70,7 +70,7 @@ class FilterSort extends Component {
         {(() => {
           if (productInfo.priceRegular) {
             return (
-              <div className="product-card-note price price-note color-slate font-body">
+              <div className="product-card-note price price-note color-slate std-txt">
                 {productInfo.priceRegular}
               </div>
             )
@@ -125,7 +125,7 @@ class FilterSort extends Component {
         })()}
 
         <div className="color-swatches-block">
-          <div className="color-swatches-list">
+          <div>
             <div className="color-swatches-medium">
               <ul className="list-product-colors-container">
                 <li>
@@ -195,7 +195,7 @@ class FilterSort extends Component {
         {(() => {
           if (productInfo.priceRegular) {
             return (
-              <div className="product-card-note price price-note color-slate font-body">
+              <div className="product-card-note price price-note color-slate std-txt">
                 {productInfo.priceRegular}
               </div>
             )
@@ -532,7 +532,7 @@ class FilterSort extends Component {
 
           {/* for mobile and tablet only */}
 
-          <div className="side-panel from-left" id="leftPanel">
+          <div className="side-panel slide-panel-from-left" id="leftPanel">
             <div className="side-panel-container">
               <header className="side-panel-header">
                 <h3 className="title title-L color-white">Panel</h3>
@@ -1012,7 +1012,7 @@ class FilterSort extends Component {
           </div>
         </div>
 
-        <div className="side-panel from-left" id="leftPanel">
+        <div className="side-panel slide-panel-from-left" id="leftPanel">
           <div className="side-panel-container">
             <header className="side-panel-header">
               <h3 className="title title-L color-white">Panel</h3>

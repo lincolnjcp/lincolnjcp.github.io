@@ -102,11 +102,11 @@
   z-index: 1;
   transition: transform var(--transition-time-M) ease-in-out;
 }
-.from-right .side-panel-container {
+.slide-panel-from-right .side-panel-container {
   right: 0;
   transform: translate3d(100%, 0, 0);
 }
-.from-left .side-panel-container {
+.slide-panel-from-left .side-panel-container {
   left: 0;
   transform: translate3d(-100%, 0, 0);
 }
@@ -135,10 +135,10 @@
 }
 
 
-.from-right .side-panel-header {
+.slide-panel-from-right .side-panel-header {
   right: 0;
 }
-.from-left .side-panel-header {
+.slide-panel-from-left .side-panel-header {
   left: 0;
 }
 

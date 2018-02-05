@@ -1562,3 +1562,21 @@ Base Styles
 .width-216 {
   width: 216px;
 }
+.std-txt-label {
+  display: block;
+  padding: 20px 0;
+  color: var(--color-marketing-aqua-1);
+}
+
+.switch-block {
+  & .std-txt-label {
+    position: relative;
+    top: -17px;
+    left: 30px;
+  }
+}
+.pagination{
+  & p.std-txt-label {
+    padding: 0;
+  }
+}

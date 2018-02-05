@@ -16,7 +16,7 @@ class Swatches extends Component {
         <div className="row">
         <div className="color-swatches-block mrg-L fl-left">
           <h2 className="title title-L mrg-M">Product Swatches</h2>
-          <div className="color-swatches-list md8 lg8">
+          <div className="md8 lg8">
             <ul className="list-product-colors-container swatches-grid">
               <li>
                 <a href="javascript:void(0)" className="list-color-swatch list-color-swatch-active"></a>
@@ -44,16 +44,16 @@ class Swatches extends Component {
               </li>
             </ul>
           </div><br/><br/><br/><br/>
-          <div className="md6 lg6 sm12 column">
-            <div className="color-swatches-list md12 lg12 sm12">
+          <div className="md6 lg4 sm12 column">
+            <div className="md12 lg12 sm12">
               <h2 className="title title-L mrg-M">Expand/Collapse</h2>
               <span className="std-txt-label">Large/XL Breakpoint</span>
-              <div className="color-swatches-list-label">
+              <div>
                 <p>
                   <span><strong>Color:</strong> Blue</span>
                 </p>
               </div>
-              <div className="color-swatches-list">
+              <div>
                   <ul className="list-product-colors-container">
                     <li>
                       <a href="javascript:void(0)" className="list-color-swatch list-color-swatch-active"></a>
@@ -102,93 +102,20 @@ class Swatches extends Component {
                   </ul>
               </div>
 
-              {/* <div className="color-swatches-list images-swatches-list">
-                  <ul className="list-product-colors-container">
-                    <li>
-                      <a href="javascript:void(0)" className="list-color-swatch list-color-swatch-active">
-                        <img src="https://s7d9.scene7.com/is/image/JCPenney/DP0816201717175526S"/>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="javascript:void(0)" className="list-color-swatch">
-                        <img src="https://s7d9.scene7.com/is/image/JCPenney/DP0801201717175023S"/>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="javascript:void(0)" className="list-color-swatch">
-                        <img src="https://s7d9.scene7.com/is/image/JCPenney/DP0801201717175123S"/>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="javascript:void(0)" className="list-color-swatch">
-                        <img src="https://s7d9.scene7.com/is/image/JCPenney/DP0719201704043269S"/>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="javascript:void(0)" className="list-color-swatch">
-                        <img src="https://s7d9.scene7.com/is/image/JCPenney/DP0801201717175173S"/>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="javascript:void(0)" className="list-color-swatch">
-                        <img src="https://s7d9.scene7.com/is/image/JCPenney/DP0807201717111344S"/>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="javascript:void(0)" className="list-color-swatch">
-                        <img src="https://s7d9.scene7.com/is/image/JCPenney/DP0801201717175223S"/>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="javascript:void(0)" className="list-color-swatch">
-                        <img src="https://s7d9.scene7.com/is/image/JCPenney/DP0807201717111628S"/>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="javascript:void(0)" className="list-color-swatch">
-                        <img src="https://s7d9.scene7.com/is/image/JCPenney/DP0719201704043369S"/>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="javascript:void(0)" className="list-color-swatch">
-                        <img src="https://s7d9.scene7.com/is/image/JCPenney/DP0726201717065030S"/>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="javascript:void(0)" className="list-color-swatch">
-                        <img src="https://s7d9.scene7.com/is/image/JCPenney/DP0807201717111678S"/>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="javascript:void(0)" className="list-color-swatch">
-                        <img src="https://s7d9.scene7.com/is/image/JCPenney/DP0807201717111357S"/>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="javascript:void(0)" className="list-color-swatch">
-                        <img src="https://s7d9.scene7.com/is/image/JCPenney/DP0719201704043169S"/>
-                      </a>
-                    </li>
-                    <li className="swatches-list-icon swatches-list-icon-large" dangerouslySetInnerHTML={{ __html: plusImage }} >
-
-                    </li>
-                  </ul>
-              </div> */}
-
             </div><br/><br/><br/>
 
 
 
             <br/><br/><br/>
 
-            <div className="color-swatches-list md12 lg12 sm12">
+            <div className="md12 lg12 sm12">
               <span className="std-txt-label">Small Breakpoint</span>
-              <div className="color-swatches-list-label">
+              <div>
                 <p>
                   <span><strong>Color:</strong> Blue</span>
                 </p>
               </div>
-              <div className="color-swatches-list">
+              <div>
                   <ul className="list-product-colors-container">
                     <li>
                       <a href="javascript:void(0)" className="list-color-swatch list-color-swatch-active"></a>
@@ -214,13 +141,13 @@ class Swatches extends Component {
               </div>
             </div><br/><br/><br/>
 
-            <div className="color-swatches-list md12 lg12 sm12">
-              <div className="color-swatches-list-label">
+            <div className="md12 lg12 sm12">
+              <div>
                 <p>
                   <span><strong>Color:</strong> Blue</span>
                 </p>
               </div>
-              <div className="color-swatches-list">
+              <div>
                   <ul className="list-product-colors-container">
                     <li>
                       <a href="javascript:void(0)" className="list-color-swatch"></a>
@@ -269,9 +196,9 @@ class Swatches extends Component {
             </div>
           </div>
 
-          <div className="md6 lg6 sm12 column">
+          <div className="md6 lg4 sm12 column">
           <h2 className="title title-L mrg-M">Sizing</h2>
-            <div className="color-swatches-list md12 lg12 sm12">
+            <div className="md12 lg12 sm12">
               <div className="color-swatches-medium mrg-L">
                 <ul className="list-product-colors-container">
                   <li>

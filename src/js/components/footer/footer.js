@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import $ from 'jquery';
 
 const devicephoneImage = require('!!raw-loader?es5=1!../../../images/global/icons/utility/device-phone.svg');
 const twitterfillImage = require('!!raw-loader?es5=1!../../../images/global/icons/social/twitter-fill.svg');
@@ -75,10 +74,6 @@ class Footer extends Component {
             }
         })();
 
-        $('.show').on('click', function (e) {
-            $('.show').toggleClass("less");
-        });
-
     }
     render() {
         return (
@@ -86,7 +81,7 @@ class Footer extends Component {
                 <div className="row">
                     <footer className="footer-block">
                         <div className="signup-block md10 lg8 xl8 sm12">
-                            <label className="signup-label">Signup for text* or email alerts and offers</label>
+                            <em className="signup-label">Signup for text* or email alerts and offers</em>
                             <div className="position-rel input-form">
                                 <div className="form-float-label">
                                     <input type="tel" id="signup" name="signup" placeholder="Phone Number or Email..." className="input-text placeholder-text" />

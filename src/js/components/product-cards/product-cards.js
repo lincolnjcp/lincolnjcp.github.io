@@ -127,7 +127,7 @@ class ProductCards extends Component {
       })()}
 
       <div className="color-swatches-block">
-        <div className="color-swatches-list">
+        <div>
           <div className="color-swatches-medium">
             <ul className="list-product-colors-container">
               <li>
@@ -258,7 +258,7 @@ class ProductCards extends Component {
       })()}
 
       <div className="color-swatches-block">
-        <div className="color-swatches-list">
+        <div>
           <div className="color-swatches-small">
             <ul className="list-product-colors-container">
               <li>
@@ -491,7 +491,7 @@ class ProductCards extends Component {
           if (productInfo.priceNotes) {         
 
              return productInfo.priceNotes.map(function(value) {
-              return <div className="product-card-note price price-note color-nightsky font-body" dangerouslySetInnerHTML={{ __html: value.text }}></div>;
+              return <div className="product-card-note price price-note color-nightsky std-txt" dangerouslySetInnerHTML={{ __html: value.text }}></div>;
             });
 
           }
@@ -567,7 +567,7 @@ class ProductCards extends Component {
         })()}
 
         <div className="color-swatches-block hide-for-small-only">
-          <div className="color-swatches-list">
+          <div>
             <div className="color-swatches-medium">
               <ul className="list-product-colors-container">
                 <li>
@@ -673,7 +673,7 @@ class ProductCards extends Component {
           if (productInfo.productFeatures) {         
 
              var listItems = productInfo.productFeatures.map(function(value) {
-                return <li className="price price-note color-slate font-body" dangerouslySetInnerHTML={{ __html: value.text }}></li>;
+                return <li className="price price-note color-slate std-txt" dangerouslySetInnerHTML={{ __html: value.text }}></li>;
               });
 
              return (<div><div className="std-txt std-txt-S product-features color-nightsky hide-for-small-only">Product Features</div><ul className="list hide-for-small-only">{listItems}</ul></div>)
@@ -740,7 +740,7 @@ class ProductCards extends Component {
         })()}
 
         <div className="color-swatches-block hide-for-small-only">
-          <div className="color-swatches-list">
+          <div>
             <div className="color-swatches-medium">
               <ul className="list-product-colors-container">
                 <li>

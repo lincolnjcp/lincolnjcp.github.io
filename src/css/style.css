@@ -37,8 +37,6 @@ Base Styles
 @import "../js/components/selectors/selectors";
 @import "../js/components/lists/lists";
 @import "../js/components/like-dislike/like-dislike";
-@import "base/progressbars";
-@import "base/toggles";
 @import "../js/components/carousel/carousel";
 @import "../js/components/coupons/coupons";
 @import "../js/components/product-cards/product-cards";

@@ -726,7 +726,7 @@ class WorkInProgress extends Component {
     <h2 className="title title-L mrg-M">Tabs</h2>
     <div className="tab-container mrg-XL">
       <ul className="tab-header">
-        <li className="tab-lbl tab-lbl-active">
+        <li className="tab-lbl btn-active">
           <span>Tab 1</span>
         </li>
         <li className="tab-lbl">
@@ -1513,7 +1513,7 @@ class WorkInProgress extends Component {
         <div className="color-swatches-list md12 lg12 sm12">
           <h2 className="title title-L mrg-M">Expand/Collapse</h2>
           <span className="std-txt-label">Large/XL Breakpoint</span>
-          <div className="color-swatches-list-label">
+          <div>
             <p className="md6 sm6 lg6 column">
               <span><strong>Color:</strong> Blue</span>
             </p>
@@ -1649,7 +1649,7 @@ class WorkInProgress extends Component {
 
         <div className="color-swatches-list md12 lg12 sm12">
           <span className="std-txt-label">Small Breakpoint</span>
-          <div className="color-swatches-list-label">
+          <div>
             <p className="md6 sm6 lg6 column">
               <span><strong>Color:</strong> Blue</span>
             </p>
@@ -1684,7 +1684,7 @@ class WorkInProgress extends Component {
         </div><br/><br/><br/>
 
         <div className="color-swatches-list md12 lg12 sm12">
-          <div className="color-swatches-list-label">
+          <div>
             <p className="md6 sm6 lg6 column">
               <span><strong>Color:</strong> Blue</span>
             </p>

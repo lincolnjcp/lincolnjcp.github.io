@@ -13,6 +13,7 @@
       border: 1px solid var(--color-slate);
       border-radius: var(--border-radius-M);
       font-size: 14px;
+      cursor: pointer;
       & img {
         width: 44px;
         height: 62px;
@@ -29,7 +30,7 @@
         background: white;
       }
     }
-    & .normal{
+    & .sku-block-normal{
       background-color: #ffffff;
       border: solid 1px #d8d8d8;
       color: #626e78;
@@ -42,7 +43,7 @@
       border: solid 1px #626e78;
       color: var(--color-slate);
     }
-    & .selected {
+    & .sku-block-selected {
       border: 2px solid var(--color-shadow) !important;
       color: var(--color-nightsky);
       font-weight: bold;
@@ -51,11 +52,10 @@
     & .error {
       border: 1px solid var(--color-penneyred);
     }
-    & .oo-stock {
+    & .sku-block-oos {
       border: 1px solid var(--color-concrete);
       position: relative;
       &::before {
-
         width: 98px;
         height: 1px;
         background-color: var(--color-concrete);
@@ -65,6 +65,20 @@
         top: 19px;
         -webkit-transform: scale(1) rotate(-20deg);
         transform: scale(1) rotate(-20deg);
+      }
+    }
+
+    & .sku-block-oos-label {
+      display: inline-block;
+      width: 104px;
+      position: relative;
+      cursor: default;
+      & .oos-label {
+        font-size: 10px;
+        text-decoration: none;
+        position: absolute;
+        bottom: -14px;
+        left: 4px;
       }
     }
 
@@ -103,19 +117,6 @@
       display: inline-block;
       width: 104px;
       border-radius: var(--border-radius-M);
-    }
-    & .oo-label-block {
-      display: inline-block;
-      width: 104px;
-      position: relative;
-      cursor: default;
-      & .oo-stock-label {
-        font-size: 10px;
-        text-decoration: none;
-        position: absolute;
-        bottom: -14px;
-        left: 4px;
-      }
     }
   }
   
