@@ -108,11 +108,11 @@ class Modal extends Component {
               Some heavy or bulky items cannot be delivered via UPS, USPS or FedEx. These items must be delivered via truck.
             </p>
             <ul className="mrg-L std-txt std-txt-M list">
-              <li><p>Additional delivery charges may apply and will be reflected at checkout. </p></li>
-              <li><p>You will be contacted in 7 to 14 days from the time the item is shipped to schedule a delivery appointment.</p></li>
-              <li><p>After delivery, you may be contacted about your satisfaction.</p></li>
-              <li><p>All contacts may be automated calls to the number you provided for delivery.</p></li>
-              <li><p>You must be present to accept delivery.</p></li>
+              <li>Additional delivery charges may apply and will be reflected at checkout.</li>
+              <li>You will be contacted in 7 to 14 days from the time the item is shipped to schedule a delivery appointment.</li>
+              <li>After delivery, you may be contacted about your satisfaction.</li>
+              <li>All contacts may be automated calls to the number you provided for delivery.</li>
+              <li>You must be present to accept delivery.</li>
 
             </ul>
           </div>

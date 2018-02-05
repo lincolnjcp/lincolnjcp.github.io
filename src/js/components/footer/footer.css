@@ -7,10 +7,8 @@
     & .signup-block {
         margin: 0 auto;
         display: block;
-        & .signup-label {
-            font-weight: bold;
-            font-size: 14px;
-            padding: 0 0 4px 4px;
+        & em {
+            display: block;
         }
         & .apply-btn {
             position: absolute;
@@ -138,23 +136,16 @@
         & ul {
             float: left;
             width: 100%;
-            & li {
-                & a{
-                    font-size: 12px;
-                    line-height: 36px;
-                    text-decoration: none;
-                    font-weight: normal;
-                }
-            }
         }
         & .footer-links-title {
             float: left;
             width: 20%;
-            font-size: 14px;
-            font-weight: bold;
-            line-height: 18px;
             & h5 {
                 padding-right: 16px;
+                font-weight: bold;        
+            }
+            & a {
+                text-decoration: none;
             }
         }
     }
@@ -202,7 +193,6 @@
                     }
                     & li {
                         display: inline-block;
-                        font-size: 12px;
                         padding: 8px 12px 0 0;
                         & a{
                             text-decoration: none;
@@ -264,7 +254,7 @@
                 margin: 0 15%;
             }
             & .footer-jcp-card .card-links ul li{
-                padding: 6px 24px 0 0;
+                padding: 6px 16px 0 0;
             }
         }
      }

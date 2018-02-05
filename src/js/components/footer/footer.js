@@ -81,7 +81,7 @@ class Footer extends Component {
                 <div className="row">
                     <footer className="footer-block">
                         <div className="signup-block md10 lg8 xl8 sm12">
-                            <em className="signup-label">Signup for text* or email alerts and offers</em>
+                            <em className="mrg-S title-S">Signup for text* or email alerts and offers</em>
                             <div className="position-rel input-form">
                                 <div className="form-float-label">
                                     <input type="tel" id="signup" name="signup" placeholder="Phone Number or Email..." className="input-text placeholder-text" />
@@ -188,62 +188,61 @@ class Footer extends Component {
                             </div>
                         </div>
 
-
                         <div className="footer-links md12 lg12 xl12 sm12 show-for-large-only show-for-xlarge-only">
                             <div className="footer-links-title">
-                                <h5>JCPenney Rewards & Credit Card</h5>
-                                <ul>
-                                    <li><a href="avascript:void();">Enroll in Rewards</a></li>
-                                    <li><a href="avascript:void();">Sign In to Rewards</a></li>
-                                    <li><a href="avascript:void();">JCPenney Credit Card</a></li>
+                                <h5 className="mrg-L">JCPenney Rewards & Credit Card</h5>
+                                <ul className="list list-links mrg-S">
+                                    <li className="title-txt title-XS"><a href="javascript:void();">Enroll in Rewards</a></li>
+                                    <li className="title-txt title-XS"><a href="javascript:void();">Sign In to Rewards</a></li>
+                                    <li className="title-txt title-XS"><a href="javascript:void();">JCPenney Credit Card</a></li>
                                 </ul>
                             </div>
 
                             <div className="footer-links-title">
-                                <h5>Customer Service</h5>
-                                <ul>
-                                    <li><a href="javascript:void();">Returns</a></li>
-                                    <li><a href="javascript:void();">Shipping information</a></li>
-                                    <li><a href="javascript:void();">Rebates</a></li>
-                                    <li><a href="javascript:void();">Same Day Pickup</a></li>
-                                    <li><a href="javascript:void();">My JCP.com Account</a></li>
-                                    <li><a href="javascript:void();">Track My Order</a></li>
-                                    <li><a href="javascript:void();">Servicio Al Cliente</a></li>
+                                <h5 className="mrg-L">Customer Service</h5>
+                                <ul className="list list-links mrg-S">
+                                    <li className="title-txt title-XS"><a href="javascript:void();">Returns</a></li>
+                                    <li className="title-txt title-XS"><a href="javascript:void();">Shipping information</a></li>
+                                    <li className="title-txt title-XS"><a href="javascript:void();">Rebates</a></li>
+                                    <li className="title-txt title-XS"><a href="javascript:void();">Same Day Pickup</a></li>
+                                    <li className="title-txt title-XS"><a href="javascript:void();">My JCP.com Account</a></li>
+                                    <li className="title-txt title-XS"><a href="javascript:void();">Track My Order</a></li>
+                                    <li className="title-txt title-XS"><a href="javascript:void();">Servicio Al Cliente</a></li>
                                 </ul>
                             </div>
 
                             <div className="footer-links-title">
-                                <h5>Store Services</h5>
-                                <ul>
-                                    <li><a href="javascript:void();">JCP Salon</a></li>
-                                    <li><a href="javascript:void();">Sephora</a></li>
-                                    <li><a href="javascript:void();">JCP Portraits</a></li>
-                                    <li><a href="javascript:void();">JCP Optical</a></li>
-                                    <li><a href="javascript:void();">Gift Registry</a></li>
-                                    <li><a href="javascript:void();">JCP Custom Window</a></li>
-                                    <li><a href="javascript:void();">View All Store Services</a></li>
+                                <h5 className="mrg-L">Store Services</h5>
+                                <ul className="list list-links mrg-S">
+                                    <li className="title-txt title-XS"><a href="javascript:void();">JCP Salon</a></li>
+                                    <li className="title-txt title-XS"><a href="javascript:void();">Sephora</a></li>
+                                    <li className="title-txt title-XS"><a href="javascript:void();">JCP Portraits</a></li>
+                                    <li className="title-txt title-XS"><a href="javascript:void();">JCP Optical</a></li>
+                                    <li className="title-txt title-XS"><a href="javascript:void();">Gift Registry</a></li>
+                                    <li className="title-txt title-XS"><a href="javascript:void();">JCP Custom Window</a></li>
+                                    <li className="title-txt title-XS"><a href="javascript:void();">View All Store Services</a></li>
                                 </ul>
                             </div>
 
                             <div className="footer-links-title">
-                                <h5>More Ways to Shop</h5>
-                                <ul>
-                                    <li><a href="javascript:void();">See our ads</a></li>
-                                    <li><a href="javascript:void();">Coupons</a></li>
-                                    <li><a href="javascript:void();">Recommendations</a></li>
-                                    <li><a href="javascript:void();">Gift Cards</a></li>
-                                    <li><a href="javascript:void();">International Shopping</a></li>
+                                <h5 className="mrg-L">More Ways to Shop</h5>
+                                <ul className="list list-links mrg-S">
+                                    <li className="title-txt title-XS"><a href="javascript:void();">See our ads</a></li>
+                                    <li className="title-txt title-XS"><a href="javascript:void();">Coupons</a></li>
+                                    <li className="title-txt title-XS"><a href="javascript:void();">Recommendations</a></li>
+                                    <li className="title-txt title-XS"><a href="javascript:void();">Gift Cards</a></li>
+                                    <li className="title-txt title-XS"><a href="javascript:void();">International Shopping</a></li>
                                 </ul>
                             </div>
 
                             <div className="footer-links-title">
-                                <h5>Corporate Overview</h5>
-                                <ul>
-                                    <li><a href="javascript:void();">Careers</a></li>
-                                    <li><a href="javascript:void();">Company Info</a></li>
-                                    <li><a href="javascript:void();">Community</a></li>
-                                    <li><a href="javascript:void();">Media</a></li>
-                                    <li><a href="javascript:void();">Investors</a></li>
+                                <h5 className="mrg-L">Corporate Overview</h5>
+                                <ul className="list list-links mrg-S">
+                                    <li className="title-txt title-XS"><a href="javascript:void();">Careers</a></li>
+                                    <li className="title-txt title-XS"><a href="javascript:void();">Company Info</a></li>
+                                    <li className="title-txt title-XS"><a href="javascript:void();">Community</a></li>
+                                    <li className="title-txt title-XS"><a href="javascript:void();">Media</a></li>
+                                    <li className="title-txt title-XS"><a href="javascript:void();">Investors</a></li>
                                 </ul>
                             </div>
 
@@ -255,21 +254,21 @@ class Footer extends Component {
                                 </div>
                                 <div className="card-links">
                                     <h3>JCPenney Credit Card</h3>
-                                    <ul>
-                                        <li><a href="javascript:void();">Pay Bill </a></li>
-                                        <li><a href="javascript:void();">Check Balance </a></li>
-                                        <li><a href="javascript:void();">Apply Now </a></li>
+                                    <ul className="list list-links mrg-S">
+                                        <li className="title-txt title-XS"><a href="javascript:void();">Pay Bill </a></li>
+                                        <li className="title-txt title-XS"><a href="javascript:void();">Check Balance </a></li>
+                                        <li className="title-txt title-XS"><a href="javascript:void();">Apply Now </a></li>
                                     </ul>
                                 </div>
                             </div>
                             <div className="footer-legal-links md12 lg8 xl4 sm12 nopad">
-                                <ul className="">
-                                    <li><a href="javascript:void();">Legal</a></li>
-                                    <li><a href="javascript:void();">Recalls</a></li>
-                                    <li><a href="javascript:void();">AdChoices<img src="/images/global/Adchoices.png" alt="Adchoices" /> </a></li>
-                                    <li><a href="javascript:void();">CA Privacy Rts</a></li>
-                                    <li><a href="javascript:void();">Privacy Policy</a></li>
-                                    <li><a href="javascript:void();">CA Supply Chain Act</a></li>
+                                <ul className="list list-links mrg-S">
+                                    <li className="title-txt title-XS"><a href="javascript:void();">Legal</a></li>
+                                    <li className="title-txt title-XS"><a href="javascript:void();">Recalls</a></li>
+                                    <li className="title-txt title-XS"><a href="javascript:void();">AdChoices<img src="/images/global/Adchoices.png" alt="Adchoices" /> </a></li>
+                                    <li className="title-txt title-XS"><a href="javascript:void();">CA Privacy Rts</a></li>
+                                    <li className="title-txt title-XS"><a href="javascript:void();">Privacy Policy</a></li>
+                                    <li className="title-txt title-XS"><a href="javascript:void();">CA Supply Chain Act</a></li>
                                 </ul>
                             </div>
                         </div>
