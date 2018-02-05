@@ -14027,16 +14027,16 @@ var modal_Modal = function (_Component) {
           react_default.a.createElement('div', { className: 'modal-overlay' }),
           react_default.a.createElement(
             'div',
-            { className: 'modal modal-S' },
+            { className: 'modal dialog-pop-up' },
             react_default.a.createElement('button', { className: 'modal-close', title: 'close' }),
             react_default.a.createElement(
               'h2',
-              { className: 'title title-L mrg-M' },
+              { className: 'modal-sub-title title title-L' },
               'Delete Address'
             ),
             react_default.a.createElement(
               'p',
-              { className: 'mrg-XL std-txt std-txt-M' },
+              { className: 'modal-body std-txt std-txt-M' },
               'Are you sure you want to delete this address from your account?'
             ),
             react_default.a.createElement(
@@ -14054,45 +14054,65 @@ var modal_Modal = function (_Component) {
           react_default.a.createElement('br', null),
           react_default.a.createElement(
             'div',
-            { className: 'modal modal-L text-left' },
+            { className: 'modal alert-pop-up informational-pop-up' },
             react_default.a.createElement('button', { className: 'modal-close', title: 'close' }),
             react_default.a.createElement(
               'h2',
-              { className: 'title title-L mrg-M' },
+              { className: 'modal-sub-title title title-L' },
               'Truckable Item Delivery'
             ),
             react_default.a.createElement(
               'p',
-              { className: 'std-txt std-txt-M mrg-L' },
+              { className: 'modal-body std-txt std-txt-M' },
               'Some heavy or bulky items cannot be delivered via UPS, USPS or FedEx. These items must be delivered via truck.'
             ),
             react_default.a.createElement(
               'ul',
-              { className: 'mrg-L std-txt std-txt-M list' },
+              { className: 'modal-body std-txt std-txt-M informational-list' },
               react_default.a.createElement(
                 'li',
-                null,
-                'Additional delivery charges may apply and will be reflected at checkout.'
+                { 'class': 'informational-list-content' },
+                react_default.a.createElement(
+                  'p',
+                  { 'class': 'informational-list-para' },
+                  'Additional delivery charges may apply and will be reflected at checkout. '
+                )
               ),
               react_default.a.createElement(
                 'li',
-                null,
-                'You will be contacted in 7 to 14 days from the time the item is shipped to schedule a delivery appointment.'
+                { 'class': 'informational-list-content' },
+                react_default.a.createElement(
+                  'p',
+                  { 'class': 'informational-list-para' },
+                  'You will be contacted in 7 to 14 days from the time the item is shipped to schedule a delivery appointment.'
+                )
               ),
               react_default.a.createElement(
                 'li',
-                null,
-                'After delivery, you may be contacted about your satisfaction.'
+                { 'class': 'informational-list-content' },
+                react_default.a.createElement(
+                  'p',
+                  { 'class': 'informational-list-para' },
+                  'After delivery, you may be contacted about your satisfaction.'
+                )
               ),
               react_default.a.createElement(
                 'li',
-                null,
-                'All contacts may be automated calls to the number you provided for delivery.'
+                { 'class': 'informational-list-content' },
+                react_default.a.createElement(
+                  'p',
+                  { 'class': 'informational-list-para' },
+                  'All contacts may be automated calls to the number you provided for delivery.'
+                )
               ),
               react_default.a.createElement(
                 'li',
-                null,
-                'You must be present to accept delivery.'
+                { 'class': 'informational-list-content' },
+                react_default.a.createElement(
+                  'p',
+                  { 'class': 'informational-list-para' },
+                  'You must be present to accept delivery.'
+                )
               )
             )
           ),
@@ -14100,17 +14120,17 @@ var modal_Modal = function (_Component) {
           react_default.a.createElement('br', null),
           react_default.a.createElement(
             'div',
-            { className: 'modal modal-S' },
+            { className: 'modal alert-pop-up' },
             react_default.a.createElement('button', { className: 'modal-close', title: 'close' }),
             react_default.a.createElement('span', { className: 'icon', dangerouslySetInnerHTML: { __html: modal_errorImage } }),
             react_default.a.createElement(
               'h2',
-              { className: 'title title-L mrg-M' },
+              { className: 'modal-sub-title title title-L' },
               'Account Locked'
             ),
             react_default.a.createElement(
               'p',
-              { className: 'std-txt std-txt-M mrg-M' },
+              { className: 'modal-body std-txt std-txt-M' },
               'Check the email ',
               react_default.a.createElement(
                 'span',
