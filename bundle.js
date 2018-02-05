@@ -4443,7 +4443,6 @@ function typography__inherits(subClass, superClass) { if (typeof superClass !== 
 
 
 
-
 var typography_Typography = function (_Component) {
     typography__inherits(Typography, _Component);
 
@@ -5173,7 +5172,6 @@ function alerts__inherits(subClass, superClass) { if (typeof superClass !== "fun
 
 
 
-
 var alerts_Alerts = function (_Component) {
     alerts__inherits(Alerts, _Component);
 
@@ -5547,7 +5545,6 @@ function badges__classCallCheck(instance, Constructor) { if (!(instance instance
 function badges__possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
 
 function badges__inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
 
 
 
@@ -6457,276 +6454,89 @@ var dropdown_button_DropdownButton = function (_Component) {
                                         null,
                                         react_default.a.createElement(
                                             'ul',
-                                            null,
-                                            react_default.a.createElement(
-                                                'div',
-                                                { className: 'search-type' },
-                                                react_default.a.createElement('input', { type: 'text', placeholder: 'Search Item Type' })
-                                            ),
+                                            { className: 'list list-underline list-checkboxes' },
                                             react_default.a.createElement(
                                                 'li',
-                                                { className: 'dropdown-list' },
+                                                null,
                                                 react_default.a.createElement(
                                                     'label',
-                                                    { className: 'checkbox mrg-M' },
-                                                    react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
+                                                    { className: 'checkbox' },
+                                                    react_default.a.createElement('input', { type: 'checkbox' }),
+                                                    ' ',
                                                     react_default.a.createElement(
                                                         'span',
-                                                        { className: 'left' },
-                                                        'label'
-                                                    ),
-                                                    react_default.a.createElement(
-                                                        'span',
-                                                        { className: 'right-label' },
-                                                        '(1,008)'
+                                                        null,
+                                                        '$200 - $300'
                                                     )
+                                                ),
+                                                ' ',
+                                                react_default.a.createElement(
+                                                    'span',
+                                                    { className: 'list-qty' },
+                                                    '(14)'
                                                 )
                                             ),
                                             react_default.a.createElement(
                                                 'li',
-                                                { className: 'dropdown-list' },
+                                                null,
                                                 react_default.a.createElement(
                                                     'label',
-                                                    { className: 'checkbox mrg-M' },
-                                                    react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
+                                                    { className: 'checkbox' },
+                                                    react_default.a.createElement('input', { type: 'checkbox' }),
+                                                    ' ',
                                                     react_default.a.createElement(
                                                         'span',
-                                                        { className: 'left' },
-                                                        'label'
-                                                    ),
-                                                    react_default.a.createElement(
-                                                        'span',
-                                                        { className: 'right-label' },
-                                                        '(1,008)'
+                                                        null,
+                                                        '$200 - $300'
                                                     )
+                                                ),
+                                                ' ',
+                                                react_default.a.createElement(
+                                                    'span',
+                                                    { className: 'list-qty' },
+                                                    '(14)'
                                                 )
                                             ),
                                             react_default.a.createElement(
                                                 'li',
-                                                { className: 'dropdown-list' },
+                                                null,
                                                 react_default.a.createElement(
                                                     'label',
-                                                    { className: 'checkbox mrg-M' },
-                                                    react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
+                                                    { className: 'checkbox' },
+                                                    react_default.a.createElement('input', { type: 'checkbox' }),
+                                                    ' ',
                                                     react_default.a.createElement(
                                                         'span',
-                                                        { className: 'left' },
-                                                        'label'
-                                                    ),
-                                                    react_default.a.createElement(
-                                                        'span',
-                                                        { className: 'right-label' },
-                                                        '(1,008)'
+                                                        null,
+                                                        '$200 - $300'
                                                     )
+                                                ),
+                                                ' ',
+                                                react_default.a.createElement(
+                                                    'span',
+                                                    { className: 'list-qty' },
+                                                    '(14)'
                                                 )
                                             ),
                                             react_default.a.createElement(
                                                 'li',
-                                                { className: 'dropdown-list' },
+                                                null,
                                                 react_default.a.createElement(
                                                     'label',
-                                                    { className: 'checkbox mrg-M' },
-                                                    react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
+                                                    { className: 'checkbox' },
+                                                    react_default.a.createElement('input', { type: 'checkbox' }),
+                                                    ' ',
                                                     react_default.a.createElement(
                                                         'span',
-                                                        { className: 'left' },
-                                                        'label'
-                                                    ),
-                                                    react_default.a.createElement(
-                                                        'span',
-                                                        { className: 'right-label' },
-                                                        '(1,008)'
+                                                        null,
+                                                        '$200 - $300'
                                                     )
-                                                )
-                                            ),
-                                            react_default.a.createElement(
-                                                'li',
-                                                { className: 'dropdown-list' },
+                                                ),
+                                                ' ',
                                                 react_default.a.createElement(
-                                                    'label',
-                                                    { className: 'checkbox mrg-M' },
-                                                    react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
-                                                    react_default.a.createElement(
-                                                        'span',
-                                                        { className: 'left' },
-                                                        'label'
-                                                    ),
-                                                    react_default.a.createElement(
-                                                        'span',
-                                                        { className: 'right-label' },
-                                                        '(1,008)'
-                                                    )
-                                                )
-                                            ),
-                                            react_default.a.createElement(
-                                                'li',
-                                                { className: 'dropdown-list' },
-                                                react_default.a.createElement(
-                                                    'label',
-                                                    { className: 'checkbox mrg-M' },
-                                                    react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
-                                                    react_default.a.createElement(
-                                                        'span',
-                                                        { className: 'left' },
-                                                        'label'
-                                                    ),
-                                                    react_default.a.createElement(
-                                                        'span',
-                                                        { className: 'right-label' },
-                                                        '(1,008)'
-                                                    )
-                                                )
-                                            ),
-                                            react_default.a.createElement(
-                                                'li',
-                                                { className: 'dropdown-list' },
-                                                react_default.a.createElement(
-                                                    'label',
-                                                    { className: 'checkbox mrg-M' },
-                                                    react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
-                                                    react_default.a.createElement(
-                                                        'span',
-                                                        { className: 'left' },
-                                                        'label'
-                                                    ),
-                                                    react_default.a.createElement(
-                                                        'span',
-                                                        { className: 'right-label' },
-                                                        '(1,008)'
-                                                    )
-                                                )
-                                            ),
-                                            react_default.a.createElement(
-                                                'li',
-                                                { className: 'dropdown-list' },
-                                                react_default.a.createElement(
-                                                    'label',
-                                                    { className: 'checkbox mrg-M' },
-                                                    react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
-                                                    react_default.a.createElement(
-                                                        'span',
-                                                        { className: 'left' },
-                                                        'label'
-                                                    ),
-                                                    react_default.a.createElement(
-                                                        'span',
-                                                        { className: 'right-label' },
-                                                        '(1,008)'
-                                                    )
-                                                )
-                                            ),
-                                            react_default.a.createElement(
-                                                'li',
-                                                { className: 'dropdown-list' },
-                                                react_default.a.createElement(
-                                                    'label',
-                                                    { className: 'checkbox mrg-M' },
-                                                    react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
-                                                    react_default.a.createElement(
-                                                        'span',
-                                                        { className: 'left' },
-                                                        'label'
-                                                    ),
-                                                    react_default.a.createElement(
-                                                        'span',
-                                                        { className: 'right-label' },
-                                                        '(1,008)'
-                                                    )
-                                                )
-                                            ),
-                                            react_default.a.createElement(
-                                                'li',
-                                                { className: 'dropdown-list' },
-                                                react_default.a.createElement(
-                                                    'label',
-                                                    { className: 'checkbox mrg-M' },
-                                                    react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
-                                                    react_default.a.createElement(
-                                                        'span',
-                                                        { className: 'left' },
-                                                        'label'
-                                                    ),
-                                                    react_default.a.createElement(
-                                                        'span',
-                                                        { className: 'right-label' },
-                                                        '(1,008)'
-                                                    )
-                                                )
-                                            ),
-                                            react_default.a.createElement(
-                                                'li',
-                                                { className: 'dropdown-list' },
-                                                react_default.a.createElement(
-                                                    'label',
-                                                    { className: 'checkbox mrg-M' },
-                                                    react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
-                                                    react_default.a.createElement(
-                                                        'span',
-                                                        { className: 'left' },
-                                                        'label'
-                                                    ),
-                                                    react_default.a.createElement(
-                                                        'span',
-                                                        { className: 'right-label' },
-                                                        '(1,008)'
-                                                    )
-                                                )
-                                            ),
-                                            react_default.a.createElement(
-                                                'li',
-                                                { className: 'dropdown-list' },
-                                                react_default.a.createElement(
-                                                    'label',
-                                                    { className: 'checkbox mrg-M' },
-                                                    react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
-                                                    react_default.a.createElement(
-                                                        'span',
-                                                        { className: 'left' },
-                                                        'label'
-                                                    ),
-                                                    react_default.a.createElement(
-                                                        'span',
-                                                        { className: 'right-label' },
-                                                        '(1,008)'
-                                                    )
-                                                )
-                                            ),
-                                            react_default.a.createElement(
-                                                'li',
-                                                { className: 'dropdown-list' },
-                                                react_default.a.createElement(
-                                                    'label',
-                                                    { className: 'checkbox mrg-M' },
-                                                    react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
-                                                    react_default.a.createElement(
-                                                        'span',
-                                                        { className: 'left' },
-                                                        'label'
-                                                    ),
-                                                    react_default.a.createElement(
-                                                        'span',
-                                                        { className: 'right-label' },
-                                                        '(1,008)'
-                                                    )
-                                                )
-                                            ),
-                                            react_default.a.createElement(
-                                                'li',
-                                                { className: 'dropdown-list' },
-                                                react_default.a.createElement(
-                                                    'label',
-                                                    { className: 'checkbox mrg-M' },
-                                                    react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
-                                                    react_default.a.createElement(
-                                                        'span',
-                                                        { className: 'left' },
-                                                        'label'
-                                                    ),
-                                                    react_default.a.createElement(
-                                                        'span',
-                                                        { className: 'right-label' },
-                                                        '(1,008)'
-                                                    )
+                                                    'span',
+                                                    { className: 'list-qty' },
+                                                    '(14)'
                                                 )
                                             )
                                         )
@@ -7308,7 +7118,6 @@ function tables__classCallCheck(instance, Constructor) { if (!(instance instance
 function tables__possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
 
 function tables__inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
 
 
 
@@ -8075,12 +7884,12 @@ var tables_Tables = function (_Component) {
                                     null,
                                     react_default.a.createElement(
                                         'span',
-                                        { 'class': 'price price-note color-slate font-body' },
+                                        { 'class': 'price price-note color-slate std-txt' },
                                         'was $2,999  |'
                                     ),
                                     react_default.a.createElement(
                                         'span',
-                                        { 'class': 'price price-note mrg-lft-XS color-slate font-body' },
+                                        { 'class': 'price price-note mrg-lft-XS color-slate std-txt' },
                                         '33% off'
                                     )
                                 )
@@ -8108,12 +7917,12 @@ var tables_Tables = function (_Component) {
                                     null,
                                     react_default.a.createElement(
                                         'span',
-                                        { 'class': 'price price-note color-slate font-body' },
+                                        { 'class': 'price price-note color-slate std-txt' },
                                         'was $2,999  |'
                                     ),
                                     react_default.a.createElement(
                                         'span',
-                                        { 'class': 'price price-note mrg-lft-XS color-slate font-body' },
+                                        { 'class': 'price price-note mrg-lft-XS color-slate std-txt' },
                                         '33% off'
                                     )
                                 )
@@ -8141,12 +7950,12 @@ var tables_Tables = function (_Component) {
                                     null,
                                     react_default.a.createElement(
                                         'span',
-                                        { 'class': 'price price-note color-slate font-body' },
+                                        { 'class': 'price price-note color-slate std-txt' },
                                         'was $2,999  |'
                                     ),
                                     react_default.a.createElement(
                                         'span',
-                                        { 'class': 'price price-note mrg-lft-XS color-slate font-body' },
+                                        { 'class': 'price price-note mrg-lft-XS color-slate std-txt' },
                                         '33% off'
                                     )
                                 )
@@ -8174,12 +7983,12 @@ var tables_Tables = function (_Component) {
                                     null,
                                     react_default.a.createElement(
                                         'span',
-                                        { 'class': 'price price-note color-slate font-body' },
+                                        { 'class': 'price price-note color-slate std-txt' },
                                         'was $2,999  |'
                                     ),
                                     react_default.a.createElement(
                                         'span',
-                                        { 'class': 'price price-note mrg-lft-XS color-slate font-body' },
+                                        { 'class': 'price price-note mrg-lft-XS color-slate std-txt' },
                                         '33% off'
                                     )
                                 )
@@ -10263,7 +10072,6 @@ function star_ratings__inherits(subClass, superClass) { if (typeof superClass !=
 
 
 
-
 var star_ratings_starImage = __webpack_require__("CKfJ");
 var star_ratings_starhalfImage = __webpack_require__("KM/1");
 
@@ -11064,7 +10872,7 @@ var pricing_Scrollbar = function (_Component) {
                           ),
                           react_default.a.createElement(
                             "div",
-                            { className: "price price-note color-slate font-body" },
+                            { className: "price price-note color-slate std-txt" },
                             "was $39.99   20% off"
                           )
                         )
@@ -11092,7 +10900,7 @@ var pricing_Scrollbar = function (_Component) {
                           ),
                           react_default.a.createElement(
                             "div",
-                            { className: "price price-note color-slate font-body" },
+                            { className: "price price-note color-slate std-txt" },
                             "was $39.99   20% off"
                           )
                         )
@@ -11151,7 +10959,7 @@ var pricing_Scrollbar = function (_Component) {
                           ),
                           react_default.a.createElement(
                             "div",
-                            { className: "price price-note color-slate font-body" },
+                            { className: "price price-note color-slate std-txt" },
                             "was $39.99   20% off"
                           ),
                           react_default.a.createElement(
@@ -11200,7 +11008,7 @@ var pricing_Scrollbar = function (_Component) {
                           ),
                           react_default.a.createElement(
                             "div",
-                            { className: "price price-note color-slate font-body" },
+                            { className: "price price-note color-slate std-txt" },
                             "was $39.99   20% off"
                           )
                         )
@@ -11228,7 +11036,7 @@ var pricing_Scrollbar = function (_Component) {
                           ),
                           react_default.a.createElement(
                             "div",
-                            { className: "price price-note color-slate font-body" },
+                            { className: "price price-note color-slate std-txt" },
                             "was $39.99   20% off"
                           )
                         )
@@ -11287,7 +11095,7 @@ var pricing_Scrollbar = function (_Component) {
                           ),
                           react_default.a.createElement(
                             "div",
-                            { className: "price price-note color-slate font-body" },
+                            { className: "price price-note color-slate std-txt" },
                             "was $39.99   20% off"
                           ),
                           react_default.a.createElement(
@@ -11336,7 +11144,7 @@ var pricing_Scrollbar = function (_Component) {
                           ),
                           react_default.a.createElement(
                             "div",
-                            { className: "price price-note color-slate font-body" },
+                            { className: "price price-note color-slate std-txt" },
                             "was $39.99   20% off"
                           )
                         )
@@ -11364,7 +11172,7 @@ var pricing_Scrollbar = function (_Component) {
                           ),
                           react_default.a.createElement(
                             "div",
-                            { className: "price price-note color-slate font-body" },
+                            { className: "price price-note color-slate std-txt" },
                             "was $39.99   20% off"
                           )
                         )
@@ -11423,7 +11231,7 @@ var pricing_Scrollbar = function (_Component) {
                           ),
                           react_default.a.createElement(
                             "div",
-                            { className: "price price-note color-slate font-body" },
+                            { className: "price price-note color-slate std-txt" },
                             "was $39.99   20% off"
                           ),
                           react_default.a.createElement(
@@ -11472,7 +11280,7 @@ var pricing_Scrollbar = function (_Component) {
                           ),
                           react_default.a.createElement(
                             "div",
-                            { className: "price price-note color-slate font-body" },
+                            { className: "price price-note color-slate std-txt" },
                             "was $39.99   20% off"
                           )
                         )
@@ -11500,7 +11308,7 @@ var pricing_Scrollbar = function (_Component) {
                           ),
                           react_default.a.createElement(
                             "div",
-                            { className: "price price-note color-slate font-body" },
+                            { className: "price price-note color-slate std-txt" },
                             "was $39.99   20% off"
                           )
                         )
@@ -11540,7 +11348,7 @@ var pricing_Scrollbar = function (_Component) {
                           ),
                           react_default.a.createElement(
                             "div",
-                            { className: "price price-note color-slate font-body" },
+                            { className: "price price-note color-slate std-txt" },
                             "was $39.99   20% off"
                           ),
                           react_default.a.createElement(
@@ -11586,7 +11394,7 @@ var pricing_Scrollbar = function (_Component) {
                           ),
                           react_default.a.createElement(
                             "div",
-                            { className: "price price-note color-slate font-body" },
+                            { className: "price price-note color-slate std-txt" },
                             "was $39.99   20% off"
                           ),
                           react_default.a.createElement(
@@ -11656,7 +11464,7 @@ var pricing_Scrollbar = function (_Component) {
                           ),
                           react_default.a.createElement(
                             "div",
-                            { className: "price price-note color-slate font-body" },
+                            { className: "price price-note color-slate std-txt" },
                             "was $39.99   20% off"
                           )
                         )
@@ -11684,7 +11492,7 @@ var pricing_Scrollbar = function (_Component) {
                           ),
                           react_default.a.createElement(
                             "div",
-                            { className: "price price-note color-slate font-body" },
+                            { className: "price price-note color-slate std-txt" },
                             "was $39.99   20% off"
                           )
                         )
@@ -11743,7 +11551,7 @@ var pricing_Scrollbar = function (_Component) {
                           ),
                           react_default.a.createElement(
                             "div",
-                            { className: "price price-note color-slate font-body" },
+                            { className: "price price-note color-slate std-txt" },
                             "was $39.99   20% off"
                           ),
                           react_default.a.createElement(
@@ -11792,7 +11600,7 @@ var pricing_Scrollbar = function (_Component) {
                           ),
                           react_default.a.createElement(
                             "div",
-                            { className: "price price-note color-slate font-body" },
+                            { className: "price price-note color-slate std-txt" },
                             "was $39.99   20% off"
                           )
                         )
@@ -11820,7 +11628,7 @@ var pricing_Scrollbar = function (_Component) {
                           ),
                           react_default.a.createElement(
                             "div",
-                            { className: "price price-note color-slate font-body" },
+                            { className: "price price-note color-slate std-txt" },
                             "was $39.99   20% off"
                           )
                         )
@@ -11879,7 +11687,7 @@ var pricing_Scrollbar = function (_Component) {
                           ),
                           react_default.a.createElement(
                             "div",
-                            { className: "price price-note color-slate font-body" },
+                            { className: "price price-note color-slate std-txt" },
                             "was $39.99   20% off"
                           ),
                           react_default.a.createElement(
@@ -11928,7 +11736,7 @@ var pricing_Scrollbar = function (_Component) {
                           ),
                           react_default.a.createElement(
                             "div",
-                            { className: "price price-note color-slate font-body" },
+                            { className: "price price-note color-slate std-txt" },
                             "was $39.99   20% off"
                           )
                         )
@@ -11956,7 +11764,7 @@ var pricing_Scrollbar = function (_Component) {
                           ),
                           react_default.a.createElement(
                             "div",
-                            { className: "price price-note color-slate font-body" },
+                            { className: "price price-note color-slate std-txt" },
                             "was $39.99   20% off"
                           )
                         )
@@ -12015,7 +11823,7 @@ var pricing_Scrollbar = function (_Component) {
                           ),
                           react_default.a.createElement(
                             "div",
-                            { className: "price price-note color-slate font-body" },
+                            { className: "price price-note color-slate std-txt" },
                             "was $39.99   20% off"
                           ),
                           react_default.a.createElement(
@@ -12064,7 +11872,7 @@ var pricing_Scrollbar = function (_Component) {
                           ),
                           react_default.a.createElement(
                             "div",
-                            { className: "price price-note color-slate font-body" },
+                            { className: "price price-note color-slate std-txt" },
                             "was $39.99   20% off"
                           )
                         )
@@ -12092,7 +11900,7 @@ var pricing_Scrollbar = function (_Component) {
                           ),
                           react_default.a.createElement(
                             "div",
-                            { className: "price price-note color-slate font-body" },
+                            { className: "price price-note color-slate std-txt" },
                             "was $39.99   20% off"
                           )
                         )
@@ -12164,7 +11972,7 @@ var pricing_Scrollbar = function (_Component) {
                           ),
                           react_default.a.createElement(
                             "div",
-                            { className: "price price-note color-slate font-body" },
+                            { className: "price price-note color-slate std-txt" },
                             "was $39.99   20% off"
                           ),
                           react_default.a.createElement(
@@ -12234,7 +12042,7 @@ var pricing_Scrollbar = function (_Component) {
                           ),
                           react_default.a.createElement(
                             "div",
-                            { className: "price price-note-XS color-slate font-body" },
+                            { className: "price price-note-XS color-slate std-txt" },
                             "was $39.99   20% off"
                           )
                         )
@@ -12262,7 +12070,7 @@ var pricing_Scrollbar = function (_Component) {
                           ),
                           react_default.a.createElement(
                             "div",
-                            { className: "price price-note-XS color-slate font-body" },
+                            { className: "price price-note-XS color-slate std-txt" },
                             "was $39.99   20% off"
                           )
                         )
@@ -12321,7 +12129,7 @@ var pricing_Scrollbar = function (_Component) {
                           ),
                           react_default.a.createElement(
                             "div",
-                            { className: "price price-note-XS color-slate font-body" },
+                            { className: "price price-note-XS color-slate std-txt" },
                             "was $39.99   20% off"
                           ),
                           react_default.a.createElement(
@@ -12370,7 +12178,7 @@ var pricing_Scrollbar = function (_Component) {
                           ),
                           react_default.a.createElement(
                             "div",
-                            { className: "price price-note-XS color-slate font-body" },
+                            { className: "price price-note-XS color-slate std-txt" },
                             "was $39.99   20% off"
                           )
                         )
@@ -12398,7 +12206,7 @@ var pricing_Scrollbar = function (_Component) {
                           ),
                           react_default.a.createElement(
                             "div",
-                            { className: "price price-note-XS color-slate font-body" },
+                            { className: "price price-note-XS color-slate std-txt" },
                             "was $39.99   20% off"
                           )
                         )
@@ -12457,7 +12265,7 @@ var pricing_Scrollbar = function (_Component) {
                           ),
                           react_default.a.createElement(
                             "div",
-                            { className: "price price-note-XS color-slate font-body" },
+                            { className: "price price-note-XS color-slate std-txt" },
                             "was $39.99   20% off"
                           ),
                           react_default.a.createElement(
@@ -12506,7 +12314,7 @@ var pricing_Scrollbar = function (_Component) {
                           ),
                           react_default.a.createElement(
                             "div",
-                            { className: "price price-note-XS color-slate font-body" },
+                            { className: "price price-note-XS color-slate std-txt" },
                             "was $39.99   20% off"
                           )
                         )
@@ -12534,7 +12342,7 @@ var pricing_Scrollbar = function (_Component) {
                           ),
                           react_default.a.createElement(
                             "div",
-                            { className: "price price-note-XS color-slate font-body" },
+                            { className: "price price-note-XS color-slate std-txt" },
                             "was $39.99   20% off"
                           )
                         )
@@ -12593,7 +12401,7 @@ var pricing_Scrollbar = function (_Component) {
                           ),
                           react_default.a.createElement(
                             "div",
-                            { className: "price price-note-XS color-slate font-body" },
+                            { className: "price price-note-XS color-slate std-txt" },
                             "was $39.99   20% off"
                           ),
                           react_default.a.createElement(
@@ -12646,7 +12454,7 @@ var pricing_Scrollbar = function (_Component) {
                           ),
                           react_default.a.createElement(
                             "div",
-                            { className: "price price-note-XS color-slate font-body" },
+                            { className: "price price-note-XS color-slate std-txt" },
                             "was $39.99   20% off"
                           )
                         )
@@ -12674,7 +12482,7 @@ var pricing_Scrollbar = function (_Component) {
                           ),
                           react_default.a.createElement(
                             "div",
-                            { className: "price price-note-XS color-slate font-body" },
+                            { className: "price price-note-XS color-slate std-txt" },
                             "was $39.99   20% off"
                           )
                         )
@@ -12734,7 +12542,7 @@ var pricing_Scrollbar = function (_Component) {
                           ),
                           react_default.a.createElement(
                             "div",
-                            { className: "price price-note color-slate font-body" },
+                            { className: "price price-note color-slate std-txt" },
                             "was $39.99   20% off"
                           ),
                           react_default.a.createElement(
@@ -12801,12 +12609,12 @@ var pricing_Scrollbar = function (_Component) {
                             ),
                             react_default.a.createElement(
                               "span",
-                              { className: "price price-note-M mrg-lft-S color-slate font-body" },
+                              { className: "price price-note-M mrg-lft-S color-slate std-txt" },
                               "was $89.99"
                             ),
                             react_default.a.createElement(
                               "span",
-                              { className: "price price-note-M mrg-lft-M color-slate font-body" },
+                              { className: "price price-note-M mrg-lft-M color-slate std-txt" },
                               "20% off"
                             )
                           ),
@@ -12862,12 +12670,12 @@ var pricing_Scrollbar = function (_Component) {
                             ),
                             react_default.a.createElement(
                               "span",
-                              { className: "price price-note-M mrg-lft-S color-slate font-body" },
+                              { className: "price price-note-M mrg-lft-S color-slate std-txt" },
                               "was $9,999"
                             ),
                             react_default.a.createElement(
                               "span",
-                              { className: "price price-note-M mrg-lft-M color-slate font-body" },
+                              { className: "price price-note-M mrg-lft-M color-slate std-txt" },
                               "40% off"
                             )
                           ),
@@ -12974,12 +12782,12 @@ var pricing_Scrollbar = function (_Component) {
                             ),
                             react_default.a.createElement(
                               "span",
-                              { className: "price price-note-M mrg-lft-S color-slate font-body" },
+                              { className: "price price-note-M mrg-lft-S color-slate std-txt" },
                               "was $499.99"
                             ),
                             react_default.a.createElement(
                               "span",
-                              { className: "price price-note-M mrg-lft-S color-slate font-body" },
+                              { className: "price price-note-M mrg-lft-S color-slate std-txt" },
                               "40% off"
                             )
                           ),
@@ -13030,12 +12838,12 @@ var pricing_Scrollbar = function (_Component) {
                             ),
                             react_default.a.createElement(
                               "span",
-                              { className: "price price-note-M mrg-lft-S color-slate font-body" },
+                              { className: "price price-note-M mrg-lft-S color-slate std-txt" },
                               "was $89.99"
                             ),
                             react_default.a.createElement(
                               "span",
-                              { className: "price price-note-M mrg-lft-M color-slate font-body" },
+                              { className: "price price-note-M mrg-lft-M color-slate std-txt" },
                               "20% off"
                             )
                           ),
@@ -13124,12 +12932,12 @@ var pricing_Scrollbar = function (_Component) {
                             ),
                             react_default.a.createElement(
                               "span",
-                              { className: "price price-note-M mrg-lft-S color-slate font-body" },
+                              { className: "price price-note-M mrg-lft-S color-slate std-txt" },
                               "was $9,999"
                             ),
                             react_default.a.createElement(
                               "span",
-                              { className: "price price-note-M mrg-lft-S color-slate font-body" },
+                              { className: "price price-note-M mrg-lft-S color-slate std-txt" },
                               "40% off"
                             )
                           )
@@ -13157,12 +12965,12 @@ var pricing_Scrollbar = function (_Component) {
                             ),
                             react_default.a.createElement(
                               "span",
-                              { className: "price price-note-M mrg-lft-S color-slate font-body" },
+                              { className: "price price-note-M mrg-lft-S color-slate std-txt" },
                               "was $9,999"
                             ),
                             react_default.a.createElement(
                               "span",
-                              { className: "price price-note-M mrg-lft-S color-slate font-body" },
+                              { className: "price price-note-M mrg-lft-S color-slate std-txt" },
                               "40% off"
                             )
                           )
@@ -13190,12 +12998,12 @@ var pricing_Scrollbar = function (_Component) {
                             ),
                             react_default.a.createElement(
                               "span",
-                              { className: "price price-note-M mrg-lft-S color-slate font-body" },
+                              { className: "price price-note-M mrg-lft-S color-slate std-txt" },
                               "was $9,999"
                             ),
                             react_default.a.createElement(
                               "span",
-                              { className: "price price-note-M mrg-lft-S color-slate font-body" },
+                              { className: "price price-note-M mrg-lft-S color-slate std-txt" },
                               "40% off"
                             )
                           )
@@ -13218,18 +13026,18 @@ var pricing_Scrollbar = function (_Component) {
                             "$5,999",
                             react_default.a.createElement(
                               "span",
-                              { className: "price price-note-M mrg-lft-S color-slate font-body" },
+                              { className: "price price-note-M mrg-lft-S color-slate std-txt" },
                               "was $9,999"
                             ),
                             react_default.a.createElement(
                               "span",
-                              { className: "price price-note-M mrg-lft-S color-slate font-body" },
+                              { className: "price price-note-M mrg-lft-S color-slate std-txt" },
                               "40% off"
                             )
                           ),
                           react_default.a.createElement(
                             "span",
-                            { className: "price price-note-M color-slate font-body" },
+                            { className: "price price-note-M color-slate std-txt" },
                             "up to $400 in rebates available"
                           ),
                           react_default.a.createElement(
@@ -13265,7 +13073,7 @@ var pricing_Scrollbar = function (_Component) {
                             ),
                             react_default.a.createElement(
                               "span",
-                              { className: "price price-note-M mrg-lft-M color-slate font-body" },
+                              { className: "price price-note-M mrg-lft-M color-slate std-txt" },
                               "was $9,999"
                             )
                           )
@@ -13303,12 +13111,12 @@ var pricing_Scrollbar = function (_Component) {
                             ),
                             react_default.a.createElement(
                               "span",
-                              { className: "price price-note-M mrg-lft-S color-slate font-body" },
+                              { className: "price price-note-M mrg-lft-S color-slate std-txt" },
                               "was $599.99"
                             ),
                             react_default.a.createElement(
                               "span",
-                              { className: "price price-note-M mrg-lft-M color-slate font-body" },
+                              { className: "price price-note-M mrg-lft-M color-slate std-txt" },
                               "40% off"
                             )
                           )
@@ -13331,12 +13139,12 @@ var pricing_Scrollbar = function (_Component) {
                             ),
                             react_default.a.createElement(
                               "span",
-                              { className: "price price-note-M mrg-lft-S color-slate font-body" },
+                              { className: "price price-note-M mrg-lft-S color-slate std-txt" },
                               "was $9,999"
                             ),
                             react_default.a.createElement(
                               "span",
-                              { className: "price price-note-M mrg-lft-M color-slate font-body" },
+                              { className: "price price-note-M mrg-lft-M color-slate std-txt" },
                               "40% off"
                             )
                           )
@@ -13359,12 +13167,12 @@ var pricing_Scrollbar = function (_Component) {
                             ),
                             react_default.a.createElement(
                               "span",
-                              { className: "price price-note-M mrg-lft-S color-slate font-body" },
+                              { className: "price price-note-M mrg-lft-S color-slate std-txt" },
                               "was $9,999"
                             ),
                             react_default.a.createElement(
                               "span",
-                              { className: "price price-note-M mrg-lft-M color-slate font-body" },
+                              { className: "price price-note-M mrg-lft-M color-slate std-txt" },
                               "40% off"
                             )
                           )
@@ -13387,12 +13195,12 @@ var pricing_Scrollbar = function (_Component) {
                             ),
                             react_default.a.createElement(
                               "span",
-                              { className: "price price-note-M mrg-lft-S color-slate font-body" },
+                              { className: "price price-note-M mrg-lft-S color-slate std-txt" },
                               "was $9,999"
                             ),
                             react_default.a.createElement(
                               "span",
-                              { className: "price price-note-M mrg-lft-M color-slate font-body" },
+                              { className: "price price-note-M mrg-lft-M color-slate std-txt" },
                               "40% off"
                             )
                           )
@@ -13423,12 +13231,12 @@ var pricing_Scrollbar = function (_Component) {
                           ),
                           react_default.a.createElement(
                             "span",
-                            { className: "price price-note-M color-slate font-body" },
+                            { className: "price price-note-M color-slate std-txt" },
                             "was $9,999"
                           ),
                           react_default.a.createElement(
                             "span",
-                            { className: "price price-note-M mrg-lft-M color-slate font-body" },
+                            { className: "price price-note-M mrg-lft-M color-slate std-txt" },
                             "40% off"
                           )
                         )
@@ -13451,12 +13259,12 @@ var pricing_Scrollbar = function (_Component) {
                           ),
                           react_default.a.createElement(
                             "span",
-                            { className: "price price-note-M color-slate font-body" },
+                            { className: "price price-note-M color-slate std-txt" },
                             "was $9,999"
                           ),
                           react_default.a.createElement(
                             "span",
-                            { className: "price price-note-M mrg-lft-M color-slate font-body" },
+                            { className: "price price-note-M mrg-lft-M color-slate std-txt" },
                             "40% off"
                           )
                         )
@@ -13490,12 +13298,12 @@ var pricing_Scrollbar = function (_Component) {
                             ),
                             react_default.a.createElement(
                               "span",
-                              { className: "price price-note-M mrg-lft-S color-slate font-body" },
+                              { className: "price price-note-M mrg-lft-S color-slate std-txt" },
                               "was $499.99 - $699.99"
                             ),
                             react_default.a.createElement(
                               "span",
-                              { className: "price price-note-M mrg-lft-M color-slate font-body" },
+                              { className: "price price-note-M mrg-lft-M color-slate std-txt" },
                               "30% - 40% off"
                             )
                           )
@@ -13523,12 +13331,12 @@ var pricing_Scrollbar = function (_Component) {
                             ),
                             react_default.a.createElement(
                               "span",
-                              { className: "price price-note-M mrg-lft-S color-slate font-body" },
+                              { className: "price price-note-M mrg-lft-S color-slate std-txt" },
                               "was $9,999 - $9,999"
                             ),
                             react_default.a.createElement(
                               "span",
-                              { className: "price price-note-M mrg-lft-M color-slate font-body" },
+                              { className: "price price-note-M mrg-lft-M color-slate std-txt" },
                               "30% - 40% off"
                             )
                           )
@@ -13556,12 +13364,12 @@ var pricing_Scrollbar = function (_Component) {
                             ),
                             react_default.a.createElement(
                               "span",
-                              { className: "price price-note-M mrg-lft-S color-slate font-body" },
+                              { className: "price price-note-M mrg-lft-S color-slate std-txt" },
                               "was $9,999 - $9,999"
                             ),
                             react_default.a.createElement(
                               "span",
-                              { className: "price price-note-M mrg-lft-M color-slate font-body" },
+                              { className: "price price-note-M mrg-lft-M color-slate std-txt" },
                               "30% - 40% off"
                             )
                           )
@@ -13602,12 +13410,12 @@ var pricing_Scrollbar = function (_Component) {
                               null,
                               react_default.a.createElement(
                                 "span",
-                                { className: "price price-note-M color-slate font-body" },
+                                { className: "price price-note-M color-slate std-txt" },
                                 "was $9,999"
                               ),
                               react_default.a.createElement(
                                 "span",
-                                { className: "price price-note-M mrg-lft-M color-slate font-body" },
+                                { className: "price price-note-M mrg-lft-M color-slate std-txt" },
                                 "40% off"
                               )
                             )
@@ -13634,12 +13442,12 @@ var pricing_Scrollbar = function (_Component) {
                               null,
                               react_default.a.createElement(
                                 "span",
-                                { className: "price price-note-M color-slate font-body" },
+                                { className: "price price-note-M color-slate std-txt" },
                                 "was $9,999"
                               ),
                               react_default.a.createElement(
                                 "span",
-                                { className: "price price-note-M mrg-lft-M color-slate font-body" },
+                                { className: "price price-note-M mrg-lft-M color-slate std-txt" },
                                 "40% off"
                               )
                             )
@@ -13671,12 +13479,12 @@ var pricing_Scrollbar = function (_Component) {
                               null,
                               react_default.a.createElement(
                                 "span",
-                                { className: "price price-note-M color-slate font-body" },
+                                { className: "price price-note-M color-slate std-txt" },
                                 "was $499.99 - $699.99"
                               ),
                               react_default.a.createElement(
                                 "span",
-                                { className: "price price-note-M mrg-lft-M color-slate font-body" },
+                                { className: "price price-note-M mrg-lft-M color-slate std-txt" },
                                 "30% - 40% off"
                               )
                             )
@@ -13708,12 +13516,12 @@ var pricing_Scrollbar = function (_Component) {
                               null,
                               react_default.a.createElement(
                                 "span",
-                                { className: "price price-note-M color-slate font-body" },
+                                { className: "price price-note-M color-slate std-txt" },
                                 "was $9,999 - $9,999"
                               ),
                               react_default.a.createElement(
                                 "span",
-                                { className: "price price-note-M mrg-lft-M color-slate font-body" },
+                                { className: "price price-note-M mrg-lft-M color-slate std-txt" },
                                 "30% - 40% off"
                               )
                             )
@@ -13745,12 +13553,12 @@ var pricing_Scrollbar = function (_Component) {
                               null,
                               react_default.a.createElement(
                                 "span",
-                                { className: "price price-note-M color-slate font-body" },
+                                { className: "price price-note-M color-slate std-txt" },
                                 "was $9,999 - $9,999"
                               ),
                               react_default.a.createElement(
                                 "span",
-                                { className: "price price-note-M mrg-lft-M color-slate font-body" },
+                                { className: "price price-note-M mrg-lft-M color-slate std-txt" },
                                 "30% - 40% off"
                               )
                             )
@@ -13854,7 +13662,7 @@ var visual_navigation_VisualNavigation = function (_Component) {
                   { href: "#" },
                   react_default.a.createElement(
                     "div",
-                    { className: "viz-nav-img mrg-XL" },
+                    { className: "viz-nav-img mrg-M" },
                     react_default.a.createElement("img", { src: "https://m.jcpenney.com/tablet/images/wmns-coats.jpg", alt: "product-image" })
                   ),
                   react_default.a.createElement(
@@ -13872,7 +13680,7 @@ var visual_navigation_VisualNavigation = function (_Component) {
                   { href: "#" },
                   react_default.a.createElement(
                     "div",
-                    { className: "viz-nav-img mrg-XL" },
+                    { className: "viz-nav-img mrg-M" },
                     react_default.a.createElement("img", { src: "https://m.jcpenney.com/tablet/images/wmns_tops.jpg", alt: "product-image" })
                   ),
                   react_default.a.createElement(
@@ -13890,7 +13698,7 @@ var visual_navigation_VisualNavigation = function (_Component) {
                   { href: "#" },
                   react_default.a.createElement(
                     "div",
-                    { className: "viz-nav-img mrg-XL" },
+                    { className: "viz-nav-img mrg-M" },
                     react_default.a.createElement("img", { src: "https://m.jcpenney.com/tablet/images/wmns_jeans.jpg", alt: "product-image" })
                   ),
                   react_default.a.createElement(
@@ -13908,7 +13716,7 @@ var visual_navigation_VisualNavigation = function (_Component) {
                   { href: "#" },
                   react_default.a.createElement(
                     "div",
-                    { className: "viz-nav-img mrg-XL" },
+                    { className: "viz-nav-img mrg-M" },
                     react_default.a.createElement("img", { src: "https://m.jcpenney.com/tablet/images/wmns_blazer.jpg", alt: "product-image" })
                   ),
                   react_default.a.createElement(
@@ -13926,7 +13734,7 @@ var visual_navigation_VisualNavigation = function (_Component) {
                   { href: "#" },
                   react_default.a.createElement(
                     "div",
-                    { className: "viz-nav-img mrg-XL" },
+                    { className: "viz-nav-img mrg-M" },
                     react_default.a.createElement("img", { src: "https://m.jcpenney.com/tablet/images/womens%20scrubs%20icon.jpg", alt: "product-image" })
                   ),
                   react_default.a.createElement(
@@ -13957,7 +13765,7 @@ var visual_navigation_VisualNavigation = function (_Component) {
                   { href: "#" },
                   react_default.a.createElement(
                     "div",
-                    { className: "viz-nav-img mrg-XL" },
+                    { className: "viz-nav-img mrg-M" },
                     react_default.a.createElement("img", { src: "https://m.jcpenney.com/tablet/images/mens%20sports%20fan%20shop%20tablet%20category%20icon.jpg", alt: "product-image" })
                   ),
                   react_default.a.createElement(
@@ -13980,7 +13788,7 @@ var visual_navigation_VisualNavigation = function (_Component) {
                   { href: "#" },
                   react_default.a.createElement(
                     "div",
-                    { className: "viz-nav-img mrg-XL" },
+                    { className: "viz-nav-img mrg-M" },
                     react_default.a.createElement("img", { src: "https://m.jcpenney.com/tablet/images/mens%20athletic%20uniforms%20tablet%20category%20icon.jpg", alt: "product-image" })
                   ),
                   react_default.a.createElement(
@@ -14003,7 +13811,7 @@ var visual_navigation_VisualNavigation = function (_Component) {
                   { href: "#" },
                   react_default.a.createElement(
                     "div",
-                    { className: "viz-nav-img mrg-XL" },
+                    { className: "viz-nav-img mrg-M" },
                     react_default.a.createElement("img", { src: "https://m.jcpenney.com/tablet/images/mens%20coats%20jackets%20icon.jpg", alt: "product-image" })
                   ),
                   react_default.a.createElement(
@@ -14026,7 +13834,7 @@ var visual_navigation_VisualNavigation = function (_Component) {
                   { href: "#" },
                   react_default.a.createElement(
                     "div",
-                    { className: "viz-nav-img mrg-XL" },
+                    { className: "viz-nav-img mrg-M" },
                     react_default.a.createElement("img", { src: "https://m.jcpenney.com/tablet/images/mens%20sweaters%20icon.jpg", alt: "product-image" })
                   ),
                   react_default.a.createElement(
@@ -14049,7 +13857,7 @@ var visual_navigation_VisualNavigation = function (_Component) {
                   { href: "#" },
                   react_default.a.createElement(
                     "div",
-                    { className: "viz-nav-img mrg-XL" },
+                    { className: "viz-nav-img mrg-M" },
                     react_default.a.createElement("img", { src: "https://m.jcpenney.com/tablet/images/mens%20hoodies2%20tablet%20category%20icon.jpg", alt: "product-image" })
                   ),
                   react_default.a.createElement(
@@ -14219,16 +14027,16 @@ var modal_Modal = function (_Component) {
           react_default.a.createElement('div', { className: 'modal-overlay' }),
           react_default.a.createElement(
             'div',
-            { className: 'modal dialog-pop-up' },
-            react_default.a.createElement('button', { className: 'modal-close' }),
+            { className: 'modal modal-S' },
+            react_default.a.createElement('button', { className: 'modal-close', title: 'close' }),
             react_default.a.createElement(
               'h2',
-              { className: 'modal-sub-title title title-L' },
+              { className: 'title title-L mrg-M' },
               'Delete Address'
             ),
             react_default.a.createElement(
               'p',
-              { className: 'modal-body std-txt std-txt-M' },
+              { className: 'mrg-XL std-txt std-txt-M' },
               'Are you sure you want to delete this address from your account?'
             ),
             react_default.a.createElement(
@@ -14246,65 +14054,45 @@ var modal_Modal = function (_Component) {
           react_default.a.createElement('br', null),
           react_default.a.createElement(
             'div',
-            { className: 'modal alert-pop-up informational-pop-up' },
-            react_default.a.createElement('button', { className: 'modal-close' }),
+            { className: 'modal modal-L text-left' },
+            react_default.a.createElement('button', { className: 'modal-close', title: 'close' }),
             react_default.a.createElement(
               'h2',
-              { className: 'modal-sub-title title title-L' },
+              { className: 'title title-L mrg-M' },
               'Truckable Item Delivery'
             ),
             react_default.a.createElement(
               'p',
-              { className: 'modal-body std-txt std-txt-M' },
+              { className: 'std-txt std-txt-M mrg-L' },
               'Some heavy or bulky items cannot be delivered via UPS, USPS or FedEx. These items must be delivered via truck.'
             ),
             react_default.a.createElement(
               'ul',
-              { className: 'modal-body std-txt std-txt-M informational-list' },
+              { className: 'mrg-L std-txt std-txt-M list' },
               react_default.a.createElement(
                 'li',
-                { 'class': 'informational-list-content' },
-                react_default.a.createElement(
-                  'p',
-                  { 'class': 'informational-list-para' },
-                  'Additional delivery charges may apply and will be reflected at checkout. '
-                )
+                null,
+                'Additional delivery charges may apply and will be reflected at checkout.'
               ),
               react_default.a.createElement(
                 'li',
-                { 'class': 'informational-list-content' },
-                react_default.a.createElement(
-                  'p',
-                  { 'class': 'informational-list-para' },
-                  'You will be contacted in 7 to 14 days from the time the item is shipped to schedule a delivery appointment.'
-                )
+                null,
+                'You will be contacted in 7 to 14 days from the time the item is shipped to schedule a delivery appointment.'
               ),
               react_default.a.createElement(
                 'li',
-                { 'class': 'informational-list-content' },
-                react_default.a.createElement(
-                  'p',
-                  { 'class': 'informational-list-para' },
-                  'After delivery, you may be contacted about your satisfaction.'
-                )
+                null,
+                'After delivery, you may be contacted about your satisfaction.'
               ),
               react_default.a.createElement(
                 'li',
-                { 'class': 'informational-list-content' },
-                react_default.a.createElement(
-                  'p',
-                  { 'class': 'informational-list-para' },
-                  'All contacts may be automated calls to the number you provided for delivery.'
-                )
+                null,
+                'All contacts may be automated calls to the number you provided for delivery.'
               ),
               react_default.a.createElement(
                 'li',
-                { 'class': 'informational-list-content' },
-                react_default.a.createElement(
-                  'p',
-                  { 'class': 'informational-list-para' },
-                  'You must be present to accept delivery.'
-                )
+                null,
+                'You must be present to accept delivery.'
               )
             )
           ),
@@ -14312,17 +14100,17 @@ var modal_Modal = function (_Component) {
           react_default.a.createElement('br', null),
           react_default.a.createElement(
             'div',
-            { className: 'modal alert-pop-up' },
-            react_default.a.createElement('button', { className: 'modal-close' }),
+            { className: 'modal modal-S' },
+            react_default.a.createElement('button', { className: 'modal-close', title: 'close' }),
             react_default.a.createElement('span', { className: 'icon', dangerouslySetInnerHTML: { __html: modal_errorImage } }),
             react_default.a.createElement(
               'h2',
-              { className: 'modal-sub-title title title-L' },
+              { className: 'title title-L mrg-M' },
               'Account Locked'
             ),
             react_default.a.createElement(
               'p',
-              { className: 'modal-body std-txt std-txt-M' },
+              { className: 'std-txt std-txt-M mrg-M' },
               'Check the email ',
               react_default.a.createElement(
                 'span',
@@ -14341,7 +14129,7 @@ var modal_Modal = function (_Component) {
           react_default.a.createElement(
             'div',
             { className: 'modal alert-pop-up' },
-            react_default.a.createElement('button', { className: 'modal-close' }),
+            react_default.a.createElement('button', { className: 'modal-close', title: 'close' }),
             react_default.a.createElement(
               'p',
               { className: 'mrg-S' },
@@ -14367,7 +14155,7 @@ var modal_Modal = function (_Component) {
           react_default.a.createElement(
             'div',
             { className: 'modal alert-pop-up' },
-            react_default.a.createElement('button', { className: 'modal-close' }),
+            react_default.a.createElement('button', { className: 'modal-close', title: 'close' }),
             react_default.a.createElement('span', { className: 'icon', dangerouslySetInnerHTML: { __html: modal_successImage } }),
             react_default.a.createElement(
               'h2',
@@ -14389,7 +14177,7 @@ var modal_Modal = function (_Component) {
           react_default.a.createElement(
             'div',
             { className: 'modal dialog-pop-up' },
-            react_default.a.createElement('button', { className: 'modal-close' }),
+            react_default.a.createElement('button', { className: 'modal-close', title: 'close' }),
             react_default.a.createElement(
               'h2',
               { className: 'modal-sub-title' },
@@ -14416,7 +14204,7 @@ var modal_Modal = function (_Component) {
           react_default.a.createElement(
             'div',
             { className: 'modal scroll-container' },
-            react_default.a.createElement('button', { className: 'modal-close' }),
+            react_default.a.createElement('button', { className: 'modal-close', title: 'close' }),
             react_default.a.createElement(
               'div',
               { className: 'scroll-block custom-scroll scrollable' },
@@ -14447,7 +14235,7 @@ var modal_Modal = function (_Component) {
           react_default.a.createElement(
             'div',
             { className: 'modal scroll-container' },
-            react_default.a.createElement('button', { className: 'modal-close' }),
+            react_default.a.createElement('button', { className: 'modal-close', title: 'close' }),
             react_default.a.createElement(
               'div',
               { className: 'scroll-block custom-scroll' },
@@ -14465,7 +14253,7 @@ var modal_Modal = function (_Component) {
           react_default.a.createElement(
             'div',
             { className: 'modal alert-pop-up informational-pop-up form-modal-pop' },
-            react_default.a.createElement('button', { className: 'modal-close' }),
+            react_default.a.createElement('button', { className: 'modal-close', title: 'close' }),
             react_default.a.createElement(
               'h2',
               { className: 'modal-sub-title title title-L' },
@@ -15514,7 +15302,7 @@ var tabs_Tabs = function (_Component) {
               { className: "tab-header" },
               react_default.a.createElement(
                 "li",
-                { className: "title tab-lbl tab-lbl-active" },
+                { className: "title tab-lbl btn-active" },
                 react_default.a.createElement(
                   "span",
                   null,
@@ -15982,7 +15770,7 @@ var swatches_Swatches = function (_Component) {
             ),
             react_default.a.createElement(
               'div',
-              { className: 'color-swatches-list md8 lg8' },
+              { className: 'md8 lg8' },
               react_default.a.createElement(
                 'ul',
                 { className: 'list-product-colors-container swatches-grid' },
@@ -16054,10 +15842,10 @@ var swatches_Swatches = function (_Component) {
             react_default.a.createElement('br', null),
             react_default.a.createElement(
               'div',
-              { className: 'md6 lg6 sm12 column' },
+              { className: 'md6 lg4 sm12 column' },
               react_default.a.createElement(
                 'div',
-                { className: 'color-swatches-list md12 lg12 sm12' },
+                { className: 'md12 lg12 sm12' },
                 react_default.a.createElement(
                   'h2',
                   { className: 'title title-L mrg-M' },
@@ -16070,7 +15858,7 @@ var swatches_Swatches = function (_Component) {
                 ),
                 react_default.a.createElement(
                   'div',
-                  { className: 'color-swatches-list-label' },
+                  null,
                   react_default.a.createElement(
                     'p',
                     null,
@@ -16088,7 +15876,7 @@ var swatches_Swatches = function (_Component) {
                 ),
                 react_default.a.createElement(
                   'div',
-                  { className: 'color-swatches-list' },
+                  null,
                   react_default.a.createElement(
                     'ul',
                     { className: 'list-product-colors-container' },
@@ -16177,7 +15965,7 @@ var swatches_Swatches = function (_Component) {
               react_default.a.createElement('br', null),
               react_default.a.createElement(
                 'div',
-                { className: 'color-swatches-list md12 lg12 sm12' },
+                { className: 'md12 lg12 sm12' },
                 react_default.a.createElement(
                   'span',
                   { className: 'std-txt-label' },
@@ -16185,7 +15973,7 @@ var swatches_Swatches = function (_Component) {
                 ),
                 react_default.a.createElement(
                   'div',
-                  { className: 'color-swatches-list-label' },
+                  null,
                   react_default.a.createElement(
                     'p',
                     null,
@@ -16203,7 +15991,7 @@ var swatches_Swatches = function (_Component) {
                 ),
                 react_default.a.createElement(
                   'div',
-                  { className: 'color-swatches-list' },
+                  null,
                   react_default.a.createElement(
                     'ul',
                     { className: 'list-product-colors-container' },
@@ -16246,10 +16034,10 @@ var swatches_Swatches = function (_Component) {
               react_default.a.createElement('br', null),
               react_default.a.createElement(
                 'div',
-                { className: 'color-swatches-list md12 lg12 sm12' },
+                { className: 'md12 lg12 sm12' },
                 react_default.a.createElement(
                   'div',
-                  { className: 'color-swatches-list-label' },
+                  null,
                   react_default.a.createElement(
                     'p',
                     null,
@@ -16267,7 +16055,7 @@ var swatches_Swatches = function (_Component) {
                 ),
                 react_default.a.createElement(
                   'div',
-                  { className: 'color-swatches-list' },
+                  null,
                   react_default.a.createElement(
                     'ul',
                     { className: 'list-product-colors-container' },
@@ -16347,7 +16135,7 @@ var swatches_Swatches = function (_Component) {
             ),
             react_default.a.createElement(
               'div',
-              { className: 'md6 lg6 sm12 column' },
+              { className: 'md6 lg4 sm12 column' },
               react_default.a.createElement(
                 'h2',
                 { className: 'title title-L mrg-M' },
@@ -16355,7 +16143,7 @@ var swatches_Swatches = function (_Component) {
               ),
               react_default.a.createElement(
                 'div',
-                { className: 'color-swatches-list md12 lg12 sm12' },
+                { className: 'md12 lg12 sm12' },
                 react_default.a.createElement(
                   'div',
                   { className: 'color-swatches-medium mrg-L' },
@@ -16526,13 +16314,13 @@ var selectors_Selectors = function (_Component) {
               { className: 'mrg-XL' },
               react_default.a.createElement(
                 'span',
-                { className: 'sku-block selected mrg-rght-S mrg-S' },
+                { className: 'sku-block sku-block-selected mrg-rght-S mrg-S' },
                 'XS ',
                 react_default.a.createElement('span', { className: 'color-shadow-svg success-checkbox', dangerouslySetInnerHTML: { __html: selectors_successImage } })
               ),
               react_default.a.createElement(
                 'span',
-                { className: 'sku-block normal mrg-rght-S mrg-S' },
+                { className: 'sku-block sku-block-normal mrg-rght-S mrg-S' },
                 'M'
               ),
               react_default.a.createElement(
@@ -16547,30 +16335,30 @@ var selectors_Selectors = function (_Component) {
               ),
               react_default.a.createElement(
                 'a',
-                { href: 'javascript:void(0)', className: 'oo-label-block' },
+                { href: 'javascript:void(0)', className: 'sku-block-oos-label' },
                 react_default.a.createElement(
                   'span',
-                  { className: 'sku-block selected mrg-rght-S' },
+                  { className: 'sku-block sku-block-selected mrg-rght-S' },
                   'XS ',
                   react_default.a.createElement('span', { className: 'color-shadow-svg success-checkbox', dangerouslySetInnerHTML: { __html: selectors_successImage } })
                 ),
                 react_default.a.createElement(
                   'span',
-                  { className: 'oo-stock-label' },
+                  { className: 'oos-label' },
                   'Out of Stock Online'
                 )
               ),
               react_default.a.createElement(
                 'a',
-                { href: 'javascript:void(0)', className: 'oo-label-block' },
+                { href: 'javascript:void(0)', className: 'sku-block-oos-label' },
                 react_default.a.createElement(
                   'span',
-                  { className: 'sku-block oo-stock mrg-rght-S' },
+                  { className: 'sku-block sku-block-oos mrg-rght-S' },
                   'XL'
                 ),
                 react_default.a.createElement(
                   'span',
-                  { className: 'oo-stock-label' },
+                  { className: 'oos-label' },
                   'Out of Stock Online'
                 )
               ),
@@ -16579,7 +16367,7 @@ var selectors_Selectors = function (_Component) {
                 { href: 'javascript:void(0)', className: 'sku-focus' },
                 react_default.a.createElement(
                   'span',
-                  { className: 'sku-block normal mrg-rght-S mrg-S' },
+                  { className: 'sku-block sku-block-normal mrg-rght-S mrg-S' },
                   '1X'
                 )
               )
@@ -16594,13 +16382,13 @@ var selectors_Selectors = function (_Component) {
               { className: 'mrg-XL' },
               react_default.a.createElement(
                 'span',
-                { className: 'sku-block sku-block-L selected mrg-rght-S' },
+                { className: 'sku-block sku-block-L sku-block-selected mrg-rght-S' },
                 'small ',
                 react_default.a.createElement('span', { className: 'color-shadow-svg success-checkbox', dangerouslySetInnerHTML: { __html: selectors_successImage } })
               ),
               react_default.a.createElement(
                 'span',
-                { className: 'sku-block sku-block-L normal mrg-rght-S' },
+                { className: 'sku-block sku-block-L sku-block-normal mrg-rght-S' },
                 'medium'
               ),
               react_default.a.createElement(
@@ -16615,30 +16403,30 @@ var selectors_Selectors = function (_Component) {
               ),
               react_default.a.createElement(
                 'a',
-                { href: 'javascript:void(0)', className: 'oo-label-block' },
+                { href: 'javascript:void(0)', className: 'sku-block-oos-label' },
                 react_default.a.createElement(
                   'span',
-                  { className: 'sku-block sku-block-L selected mrg-rght-S' },
+                  { className: 'sku-block sku-block-L sku-block-selected mrg-rght-S' },
                   'XS ',
                   react_default.a.createElement('span', { className: 'color-shadow-svg success-checkbox', dangerouslySetInnerHTML: { __html: selectors_successImage } })
                 ),
                 react_default.a.createElement(
                   'span',
-                  { className: 'oo-stock-label' },
+                  { className: 'oos-label' },
                   'Out of Stock Online'
                 )
               ),
               react_default.a.createElement(
                 'a',
-                { href: 'javascript:void(0)', className: 'oo-label-block' },
+                { href: 'javascript:void(0)', className: 'sku-block-oos-label' },
                 react_default.a.createElement(
                   'span',
-                  { className: 'sku-block sku-block-L oo-stock mrg-rght-S' },
+                  { className: 'sku-block sku-block-L sku-block-oos mrg-rght-S' },
                   'xlarge'
                 ),
                 react_default.a.createElement(
                   'span',
-                  { className: 'oo-stock-label' },
+                  { className: 'oos-label' },
                   'Out of Stock Online'
                 )
               ),
@@ -16647,7 +16435,7 @@ var selectors_Selectors = function (_Component) {
                 { href: 'javascript:void(0)', className: 'sku-focus' },
                 react_default.a.createElement(
                   'span',
-                  { className: 'sku-block sku-block-L normal mrg-rght-S' },
+                  { className: 'sku-block sku-block-L sku-block-normal mrg-rght-S' },
                   '1X'
                 )
               )
@@ -16662,13 +16450,13 @@ var selectors_Selectors = function (_Component) {
               { className: 'mrg-XL' },
               react_default.a.createElement(
                 'span',
-                { className: 'sku-block sku-block-L selected mrg-rght-S' },
+                { className: 'sku-block sku-block-L sku-block-selected mrg-rght-S' },
                 react_default.a.createElement('img', { src: 'http://placehold.it/100/100', alt: '' }),
                 react_default.a.createElement('span', { className: 'color-shadow-svg success-checkbox', dangerouslySetInnerHTML: { __html: selectors_successImage } })
               ),
               react_default.a.createElement(
                 'span',
-                { className: 'sku-block sku-block-L normal mrg-rght-S' },
+                { className: 'sku-block sku-block-L sku-block-normal mrg-rght-S' },
                 react_default.a.createElement('img', { src: 'http://placehold.it/100/100', alt: '' })
               ),
               react_default.a.createElement(
@@ -16678,36 +16466,36 @@ var selectors_Selectors = function (_Component) {
               ),
               react_default.a.createElement(
                 'a',
-                { href: 'javascript:void(0)', className: 'oo-label-block' },
+                { href: 'javascript:void(0)', className: 'sku-block-oos-label' },
                 react_default.a.createElement(
                   'span',
-                  { className: 'sku-block sku-block-L oo-stock mrg-rght-S' },
+                  { className: 'sku-block sku-block-L sku-block-oos mrg-rght-S' },
                   react_default.a.createElement('img', { src: 'http://placehold.it/100/100', alt: '' })
                 ),
                 react_default.a.createElement(
                   'span',
-                  { className: 'oo-stock-label' },
+                  { className: 'oos-label' },
                   'Out of Stock Online'
                 )
               ),
               react_default.a.createElement(
                 'a',
-                { href: 'javascript:void(0)', className: 'oo-label-block' },
+                { href: 'javascript:void(0)', className: 'sku-block-oos-label' },
                 react_default.a.createElement(
                   'span',
-                  { className: 'sku-block oo-stock selected sku-block-L mrg-rght-S' },
+                  { className: 'sku-block sku-block-oos sku-block-selected sku-block-L mrg-rght-S' },
                   react_default.a.createElement('img', { src: 'http://placehold.it/100/100', alt: '' }),
                   react_default.a.createElement('span', { className: 'color-shadow-svg success-checkbox', dangerouslySetInnerHTML: { __html: selectors_successImage } })
                 ),
                 react_default.a.createElement(
                   'span',
-                  { className: 'oo-stock-label' },
+                  { className: 'oos-label' },
                   'Out of Stock Online'
                 )
               ),
               react_default.a.createElement(
                 'a',
-                { href: 'javascript:void(0)', className: 'sku-focus oo-label-block' },
+                { href: 'javascript:void(0)', className: 'sku-focus sku-block-oos-label' },
                 react_default.a.createElement(
                   'span',
                   { className: 'sku-block sku-block-L error mrg-rght-S' },
@@ -16725,7 +16513,7 @@ var selectors_Selectors = function (_Component) {
               { className: 'mrg-XL' },
               react_default.a.createElement(
                 'p',
-                { className: 'sku-block sku-block-L sku-double-block-L selected mrg-rght-S' },
+                { className: 'sku-block sku-block-L sku-double-block-L sku-block-selected mrg-rght-S' },
                 react_default.a.createElement(
                   'span',
                   { 'class': 'price-content' },
@@ -16742,7 +16530,7 @@ var selectors_Selectors = function (_Component) {
               ),
               react_default.a.createElement(
                 'p',
-                { className: 'sku-block sku-block-L sku-double-block-L normal mrg-rght-S' },
+                { className: 'sku-block sku-block-L sku-double-block-L sku-block-normal mrg-rght-S' },
                 react_default.a.createElement(
                   'span',
                   { 'class': 'price-content' },
@@ -16786,53 +16574,53 @@ var selectors_Selectors = function (_Component) {
               { className: 'mrg-XL lg8' },
               react_default.a.createElement(
                 'span',
-                { className: 'sku-block selected mrg-rght-S' },
+                { className: 'sku-block sku-block-selected mrg-rght-S' },
                 'size label ',
                 react_default.a.createElement('span', { className: 'color-shadow-svg success-checkbox', dangerouslySetInnerHTML: { __html: selectors_successImage } })
               ),
               react_default.a.createElement(
                 'span',
-                { className: 'sku-block normal mrg-rght-S mrg-S' },
+                { className: 'sku-block sku-block-normal mrg-rght-S mrg-S' },
                 'size label'
               ),
               react_default.a.createElement(
                 'span',
-                { className: 'sku-block normal mrg-rght-S mrg-S' },
+                { className: 'sku-block sku-block-normal mrg-rght-S mrg-S' },
                 'size label'
               ),
               react_default.a.createElement(
                 'span',
-                { className: 'sku-block normal mrg-rght-S mrg-S' },
+                { className: 'sku-block sku-block-normal mrg-rght-S mrg-S' },
                 'size label'
               ),
               react_default.a.createElement(
                 'span',
-                { className: 'sku-block normal mrg-rght-S mrg-S' },
+                { className: 'sku-block sku-block-normal mrg-rght-S mrg-S' },
                 'size label'
               ),
               react_default.a.createElement(
                 'span',
-                { className: 'sku-block normal mrg-rght-S mrg-S' },
+                { className: 'sku-block sku-block-normal mrg-rght-S mrg-S' },
                 'size label'
               ),
               react_default.a.createElement(
                 'span',
-                { className: 'sku-block normal mrg-rght-S mrg-S' },
+                { className: 'sku-block sku-block-normal mrg-rght-S mrg-S' },
                 'size label'
               ),
               react_default.a.createElement(
                 'span',
-                { className: 'sku-block normal mrg-rght-S mrg-S' },
+                { className: 'sku-block sku-block-normal mrg-rght-S mrg-S' },
                 'size label'
               ),
               react_default.a.createElement(
                 'span',
-                { className: 'sku-block normal mrg-rght-S mrg-S' },
+                { className: 'sku-block sku-block-normal mrg-rght-S mrg-S' },
                 'size label'
               ),
               react_default.a.createElement(
                 'span',
-                { className: 'sku-block normal show-more mrg-rght-S mrg-S' },
+                { className: 'sku-block sku-block-normal show-more mrg-rght-S mrg-S' },
                 'show more'
               )
             ),
@@ -16841,53 +16629,53 @@ var selectors_Selectors = function (_Component) {
               { className: 'mrg-XL lg8' },
               react_default.a.createElement(
                 'span',
-                { className: 'sku-block sku-block-L selected mrg-rght-S' },
+                { className: 'sku-block sku-block-L sku-block-selected mrg-rght-S' },
                 'size label ',
                 react_default.a.createElement('span', { className: 'color-shadow-svg success-checkbox', dangerouslySetInnerHTML: { __html: selectors_successImage } })
               ),
               react_default.a.createElement(
                 'span',
-                { className: 'sku-block sku-block-L normal mrg-rght-S mrg-S' },
+                { className: 'sku-block sku-block-L sku-block-normal mrg-rght-S mrg-S' },
                 'size label'
               ),
               react_default.a.createElement(
                 'span',
-                { className: 'sku-block sku-block-L normal mrg-rght-S mrg-S' },
+                { className: 'sku-block sku-block-L sku-block-normal mrg-rght-S mrg-S' },
                 'size label'
               ),
               react_default.a.createElement(
                 'span',
-                { className: 'sku-block sku-block-L normal mrg-rght-S mrg-S' },
+                { className: 'sku-block sku-block-L sku-block-normal mrg-rght-S mrg-S' },
                 'size label'
               ),
               react_default.a.createElement(
                 'span',
-                { className: 'sku-block sku-block-L normal mrg-rght-S mrg-S' },
+                { className: 'sku-block sku-block-L sku-block-normal mrg-rght-S mrg-S' },
                 'size label'
               ),
               react_default.a.createElement(
                 'span',
-                { className: 'sku-block sku-block-L normal mrg-rght-S mrg-S' },
+                { className: 'sku-block sku-block-L sku-block-normal mrg-rght-S mrg-S' },
                 'size label'
               ),
               react_default.a.createElement(
                 'span',
-                { className: 'sku-block sku-block-L normal mrg-rght-S mrg-S' },
+                { className: 'sku-block sku-block-L sku-block-normal mrg-rght-S mrg-S' },
                 'size label'
               ),
               react_default.a.createElement(
                 'span',
-                { className: 'sku-block sku-block-L normal mrg-rght-S mrg-S' },
+                { className: 'sku-block sku-block-L sku-block-normal mrg-rght-S mrg-S' },
                 'size label'
               ),
               react_default.a.createElement(
                 'span',
-                { className: 'sku-block sku-block-L normal mrg-rght-S mrg-S' },
+                { className: 'sku-block sku-block-L sku-block-normal mrg-rght-S mrg-S' },
                 'size label'
               ),
               react_default.a.createElement(
                 'span',
-                { className: 'sku-block sku-block-L normal show-more mrg-rght-S mrg-S' },
+                { className: 'sku-block sku-block-L sku-block-normal show-more mrg-rght-S mrg-S' },
                 'show more'
               )
             ),
@@ -16901,33 +16689,33 @@ var selectors_Selectors = function (_Component) {
               { className: 'mrg-XL lg5' },
               react_default.a.createElement(
                 'span',
-                { className: 'sku-block selected mrg-rght-S' },
+                { className: 'sku-block sku-block-selected mrg-rght-S' },
                 'size label ',
                 react_default.a.createElement('span', { className: 'color-shadow-svg success-checkbox', dangerouslySetInnerHTML: { __html: selectors_successImage } })
               ),
               react_default.a.createElement(
                 'span',
-                { className: 'sku-block normal mrg-rght-S mrg-S' },
+                { className: 'sku-block sku-block-normal mrg-rght-S mrg-S' },
                 'size label'
               ),
               react_default.a.createElement(
                 'span',
-                { className: 'sku-block normal mrg-rght-S mrg-S' },
+                { className: 'sku-block sku-block-normal mrg-rght-S mrg-S' },
                 'size label'
               ),
               react_default.a.createElement(
                 'span',
-                { className: 'sku-block normal mrg-rght-S mrg-S' },
+                { className: 'sku-block sku-block-normal mrg-rght-S mrg-S' },
                 'size label'
               ),
               react_default.a.createElement(
                 'span',
-                { className: 'sku-block normal mrg-rght-S mrg-S' },
+                { className: 'sku-block sku-block-normal mrg-rght-S mrg-S' },
                 'size label'
               ),
               react_default.a.createElement(
                 'span',
-                { className: 'sku-block normal show-more mrg-rght-S mrg-S' },
+                { className: 'sku-block sku-block-normal show-more mrg-rght-S mrg-S' },
                 'show more'
               )
             )
@@ -18524,26 +18312,26 @@ var lists_Lists = function (_Component) {
                             { className: 'list list-icons max-width-text ' },
                             react_default.a.createElement(
                                 'li',
-                                null,
-                                react_default.a.createElement('span', { className: 'icon color-shadow-svg', dangerouslySetInnerHTML: { __html: lists_chatfillImage } }),
+                                { className: 'title-txt title-S' },
+                                react_default.a.createElement('span', { className: 'icon color-shadow-svg icon-L', dangerouslySetInnerHTML: { __html: lists_chatfillImage } }),
                                 ' Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
                             ),
                             react_default.a.createElement(
                                 'li',
-                                null,
-                                react_default.a.createElement('span', { className: 'icon color-shadow-svg', dangerouslySetInnerHTML: { __html: lists_thumbsupfillImage } }),
+                                { className: 'title-txt title-S' },
+                                react_default.a.createElement('span', { className: 'icon color-shadow-svg icon-L', dangerouslySetInnerHTML: { __html: lists_thumbsupfillImage } }),
                                 ' Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
                             ),
                             react_default.a.createElement(
                                 'li',
-                                null,
-                                react_default.a.createElement('span', { className: 'icon color-shadow-svg', dangerouslySetInnerHTML: { __html: lists_heartlineImage } }),
+                                { className: 'title-txt title-S' },
+                                react_default.a.createElement('span', { className: 'icon color-shadow-svg icon-L', dangerouslySetInnerHTML: { __html: lists_heartlineImage } }),
                                 ' Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
                             ),
                             react_default.a.createElement(
                                 'li',
-                                null,
-                                react_default.a.createElement('span', { className: 'icon color-shadow-svg', dangerouslySetInnerHTML: { __html: lists_trianglerightImage } }),
+                                { className: 'title-txt title-S' },
+                                react_default.a.createElement('span', { className: 'icon color-shadow-svg icon-L', dangerouslySetInnerHTML: { __html: lists_trianglerightImage } }),
                                 ' Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
                             )
                         ),
@@ -18567,74 +18355,83 @@ var lists_Lists = function (_Component) {
                             { className: 'list list-links mrg-XL' },
                             react_default.a.createElement(
                                 'li',
-                                null,
+                                { className: 'title-txt title-S' },
                                 react_default.a.createElement(
                                     'a',
                                     { href: '#' },
-                                    'List item with link'
+                                    'Refrigerator Measuring Guide'
                                 )
                             ),
                             react_default.a.createElement(
                                 'li',
-                                null,
+                                { className: 'title-txt title-S' },
                                 react_default.a.createElement(
                                     'a',
                                     { href: '#' },
-                                    'List item with link'
+                                    'Refrigerator Buying Guide'
                                 )
                             ),
                             react_default.a.createElement(
                                 'li',
-                                null,
+                                { className: 'title-txt title-S' },
                                 react_default.a.createElement(
                                     'a',
                                     { href: '#' },
-                                    'List item with link'
+                                    'Delivery Checklist'
                                 )
                             ),
                             react_default.a.createElement(
                                 'li',
-                                null,
+                                { className: 'title-txt title-S' },
                                 react_default.a.createElement(
                                     'a',
                                     { href: '#' },
-                                    'List item with link'
+                                    'Refrigerator Measuring Guide'
                                 )
                             ),
                             react_default.a.createElement(
                                 'li',
-                                null,
+                                { className: 'title-txt title-S' },
                                 react_default.a.createElement(
                                     'a',
                                     { href: '#' },
-                                    'List item with link'
+                                    'Refrigerator Buying Guide'
                                 )
                             ),
                             react_default.a.createElement(
                                 'li',
-                                null,
+                                { className: 'title-txt title-S' },
                                 react_default.a.createElement(
                                     'a',
                                     { href: '#' },
-                                    'List item with link'
+                                    'Delivery Checklist'
                                 )
                             ),
                             react_default.a.createElement(
                                 'li',
-                                null,
+                                { className: 'title-txt title-S' },
                                 react_default.a.createElement(
                                     'a',
                                     { href: '#' },
-                                    'List item with link'
+                                    'Refrigerator Measuring Guide'
                                 )
                             ),
                             react_default.a.createElement(
                                 'li',
-                                null,
+                                { className: 'title-txt title-S' },
                                 react_default.a.createElement(
                                     'a',
                                     { href: '#' },
-                                    'List item with link'
+                                    'Refrigerator Buying Guide'
+                                )
+                            ),
+                            react_default.a.createElement(
+                                'li',
+                                { className: 'title-txt title-S' },
+                                react_default.a.createElement(
+                                    'a',
+                                    { href: '#' },
+                                    'Delivery Checklist'
                                 )
                             )
                         ),
@@ -18642,7 +18439,8 @@ var lists_Lists = function (_Component) {
                             'p',
                             { className: 'design-system-css-class' },
                             '.list-links'
-                        )
+                        ),
+                        react_default.a.createElement('div', { className: '' })
                     )
                 ),
                 react_default.a.createElement(
@@ -18856,282 +18654,196 @@ var header_Header = function (_Component) {
               { className: 'side-panel-col side-panel-col-select' },
               react_default.a.createElement(
                 'div',
-                { className: 'dropdown-menu-block' },
-                react_default.a.createElement(
-                  'a',
-                  { className: 'dropdown-button title-S' },
-                  'Filter By Services ',
-                  react_default.a.createElement('span', { className: 'arrow' })
-                ),
+                { className: 'dropdown-menu-block column mrg-M' },
                 react_default.a.createElement(
                   'div',
-                  { className: 'dropdown-menu' },
+                  { className: 'pos-rel fl-left' },
                   react_default.a.createElement(
-                    'ul',
-                    { className: 'tooltip tooltip-top-center tooltip-light dropdown-search-type' },
+                    'a',
+                    { className: 'dropdown-button title-S' },
+                    'Product Type ',
+                    react_default.a.createElement('span', { className: 'arrow' })
+                  ),
+                  react_default.a.createElement(
+                    'div',
+                    { className: 'dropdown-menu' },
                     react_default.a.createElement(
-                      'li',
-                      { className: 'dropdown-list' },
+                      'div',
+                      { className: 'tooltip tooltip-top-left tooltip-Large' },
                       react_default.a.createElement(
-                        'label',
-                        { className: 'checkbox mrg-M' },
-                        react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
+                        'span',
+                        null,
                         react_default.a.createElement(
-                          'span',
-                          { className: 'left' },
-                          'label'
-                        ),
-                        react_default.a.createElement(
-                          'span',
-                          { className: 'right-label' },
-                          '(1,008)'
-                        )
-                      )
-                    ),
-                    react_default.a.createElement(
-                      'li',
-                      { className: 'dropdown-list' },
-                      react_default.a.createElement(
-                        'label',
-                        { className: 'checkbox mrg-M' },
-                        react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
-                        react_default.a.createElement(
-                          'span',
-                          { className: 'left' },
-                          'label'
-                        ),
-                        react_default.a.createElement(
-                          'span',
-                          { className: 'right-label' },
-                          '(1,008)'
-                        )
-                      )
-                    ),
-                    react_default.a.createElement(
-                      'li',
-                      { className: 'dropdown-list' },
-                      react_default.a.createElement(
-                        'label',
-                        { className: 'checkbox mrg-M' },
-                        react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
-                        react_default.a.createElement(
-                          'span',
-                          { className: 'left' },
-                          'label'
-                        ),
-                        react_default.a.createElement(
-                          'span',
-                          { className: 'right-label' },
-                          '(1,008)'
-                        )
-                      )
-                    ),
-                    react_default.a.createElement(
-                      'li',
-                      { className: 'dropdown-list' },
-                      react_default.a.createElement(
-                        'label',
-                        { className: 'checkbox mrg-M' },
-                        react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
-                        react_default.a.createElement(
-                          'span',
-                          { className: 'left' },
-                          'label'
-                        ),
-                        react_default.a.createElement(
-                          'span',
-                          { className: 'right-label' },
-                          '(1,008)'
-                        )
-                      )
-                    ),
-                    react_default.a.createElement(
-                      'li',
-                      { className: 'dropdown-list' },
-                      react_default.a.createElement(
-                        'label',
-                        { className: 'checkbox mrg-M' },
-                        react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
-                        react_default.a.createElement(
-                          'span',
-                          { className: 'left' },
-                          'label'
-                        ),
-                        react_default.a.createElement(
-                          'span',
-                          { className: 'right-label' },
-                          '(1,008)'
-                        )
-                      )
-                    ),
-                    react_default.a.createElement(
-                      'li',
-                      { className: 'dropdown-list' },
-                      react_default.a.createElement(
-                        'label',
-                        { className: 'checkbox mrg-M' },
-                        react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
-                        react_default.a.createElement(
-                          'span',
-                          { className: 'left' },
-                          'label'
-                        ),
-                        react_default.a.createElement(
-                          'span',
-                          { className: 'right-label' },
-                          '(1,008)'
-                        )
-                      )
-                    ),
-                    react_default.a.createElement(
-                      'li',
-                      { className: 'dropdown-list' },
-                      react_default.a.createElement(
-                        'label',
-                        { className: 'checkbox mrg-M' },
-                        react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
-                        react_default.a.createElement(
-                          'span',
-                          { className: 'left' },
-                          'label'
-                        ),
-                        react_default.a.createElement(
-                          'span',
-                          { className: 'right-label' },
-                          '(1,008)'
-                        )
-                      )
-                    ),
-                    react_default.a.createElement(
-                      'li',
-                      { className: 'dropdown-list' },
-                      react_default.a.createElement(
-                        'label',
-                        { className: 'checkbox mrg-M' },
-                        react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
-                        react_default.a.createElement(
-                          'span',
-                          { className: 'left' },
-                          'label'
-                        ),
-                        react_default.a.createElement(
-                          'span',
-                          { className: 'right-label' },
-                          '(1,008)'
-                        )
-                      )
-                    ),
-                    react_default.a.createElement(
-                      'li',
-                      { className: 'dropdown-list' },
-                      react_default.a.createElement(
-                        'label',
-                        { className: 'checkbox mrg-M' },
-                        react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
-                        react_default.a.createElement(
-                          'span',
-                          { className: 'left' },
-                          'label'
-                        ),
-                        react_default.a.createElement(
-                          'span',
-                          { className: 'right-label' },
-                          '(1,008)'
-                        )
-                      )
-                    ),
-                    react_default.a.createElement(
-                      'li',
-                      { className: 'dropdown-list' },
-                      react_default.a.createElement(
-                        'label',
-                        { className: 'checkbox mrg-M' },
-                        react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
-                        react_default.a.createElement(
-                          'span',
-                          { className: 'left' },
-                          'label'
-                        ),
-                        react_default.a.createElement(
-                          'span',
-                          { className: 'right-label' },
-                          '(1,008)'
-                        )
-                      )
-                    ),
-                    react_default.a.createElement(
-                      'li',
-                      { className: 'dropdown-list' },
-                      react_default.a.createElement(
-                        'label',
-                        { className: 'checkbox mrg-M' },
-                        react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
-                        react_default.a.createElement(
-                          'span',
-                          { className: 'left' },
-                          'label'
-                        ),
-                        react_default.a.createElement(
-                          'span',
-                          { className: 'right-label' },
-                          '(1,008)'
-                        )
-                      )
-                    ),
-                    react_default.a.createElement(
-                      'li',
-                      { className: 'dropdown-list' },
-                      react_default.a.createElement(
-                        'label',
-                        { className: 'checkbox mrg-M' },
-                        react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
-                        react_default.a.createElement(
-                          'span',
-                          { className: 'left' },
-                          'label'
-                        ),
-                        react_default.a.createElement(
-                          'span',
-                          { className: 'right-label' },
-                          '(1,008)'
-                        )
-                      )
-                    ),
-                    react_default.a.createElement(
-                      'li',
-                      { className: 'dropdown-list' },
-                      react_default.a.createElement(
-                        'label',
-                        { className: 'checkbox mrg-M' },
-                        react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
-                        react_default.a.createElement(
-                          'span',
-                          { className: 'left' },
-                          'label'
-                        ),
-                        react_default.a.createElement(
-                          'span',
-                          { className: 'right-label' },
-                          '(1,008)'
-                        )
-                      )
-                    ),
-                    react_default.a.createElement(
-                      'li',
-                      { className: 'dropdown-list' },
-                      react_default.a.createElement(
-                        'label',
-                        { className: 'checkbox mrg-M' },
-                        react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
-                        react_default.a.createElement(
-                          'span',
-                          { className: 'left' },
-                          'label'
-                        ),
-                        react_default.a.createElement(
-                          'span',
-                          { className: 'right-label' },
-                          '(1,008)'
+                          'ul',
+                          { className: 'list list-underline list-checkboxes' },
+                          react_default.a.createElement(
+                            'li',
+                            null,
+                            react_default.a.createElement(
+                              'label',
+                              { className: 'checkbox' },
+                              react_default.a.createElement('input', { type: 'checkbox' }),
+                              ' ',
+                              react_default.a.createElement(
+                                'span',
+                                null,
+                                '$200 - $300'
+                              )
+                            ),
+                            ' ',
+                            react_default.a.createElement(
+                              'span',
+                              { className: 'list-qty' },
+                              '(14)'
+                            )
+                          ),
+                          react_default.a.createElement(
+                            'li',
+                            null,
+                            react_default.a.createElement(
+                              'label',
+                              { className: 'checkbox' },
+                              react_default.a.createElement('input', { type: 'checkbox' }),
+                              ' ',
+                              react_default.a.createElement(
+                                'span',
+                                null,
+                                '$200 - $300'
+                              )
+                            ),
+                            ' ',
+                            react_default.a.createElement(
+                              'span',
+                              { className: 'list-qty' },
+                              '(14)'
+                            )
+                          ),
+                          react_default.a.createElement(
+                            'li',
+                            null,
+                            react_default.a.createElement(
+                              'label',
+                              { className: 'checkbox' },
+                              react_default.a.createElement('input', { type: 'checkbox' }),
+                              ' ',
+                              react_default.a.createElement(
+                                'span',
+                                null,
+                                '$200 - $300'
+                              )
+                            ),
+                            ' ',
+                            react_default.a.createElement(
+                              'span',
+                              { className: 'list-qty' },
+                              '(14)'
+                            )
+                          ),
+                          react_default.a.createElement(
+                            'li',
+                            null,
+                            react_default.a.createElement(
+                              'label',
+                              { className: 'checkbox' },
+                              react_default.a.createElement('input', { type: 'checkbox' }),
+                              ' ',
+                              react_default.a.createElement(
+                                'span',
+                                null,
+                                '$200 - $300'
+                              )
+                            ),
+                            ' ',
+                            react_default.a.createElement(
+                              'span',
+                              { className: 'list-qty' },
+                              '(14)'
+                            )
+                          ),
+                          react_default.a.createElement(
+                            'li',
+                            null,
+                            react_default.a.createElement(
+                              'label',
+                              { className: 'checkbox' },
+                              react_default.a.createElement('input', { type: 'checkbox' }),
+                              ' ',
+                              react_default.a.createElement(
+                                'span',
+                                null,
+                                '$200 - $300'
+                              )
+                            ),
+                            ' ',
+                            react_default.a.createElement(
+                              'span',
+                              { className: 'list-qty' },
+                              '(14)'
+                            )
+                          ),
+                          react_default.a.createElement(
+                            'li',
+                            null,
+                            react_default.a.createElement(
+                              'label',
+                              { className: 'checkbox' },
+                              react_default.a.createElement('input', { type: 'checkbox' }),
+                              ' ',
+                              react_default.a.createElement(
+                                'span',
+                                null,
+                                '$200 - $300'
+                              )
+                            ),
+                            ' ',
+                            react_default.a.createElement(
+                              'span',
+                              { className: 'list-qty' },
+                              '(14)'
+                            )
+                          ),
+                          react_default.a.createElement(
+                            'li',
+                            null,
+                            react_default.a.createElement(
+                              'label',
+                              { className: 'checkbox' },
+                              react_default.a.createElement('input', { type: 'checkbox' }),
+                              ' ',
+                              react_default.a.createElement(
+                                'span',
+                                null,
+                                '$200 - $300'
+                              )
+                            ),
+                            ' ',
+                            react_default.a.createElement(
+                              'span',
+                              { className: 'list-qty' },
+                              '(14)'
+                            )
+                          ),
+                          react_default.a.createElement(
+                            'li',
+                            null,
+                            react_default.a.createElement(
+                              'label',
+                              { className: 'checkbox' },
+                              react_default.a.createElement('input', { type: 'checkbox' }),
+                              ' ',
+                              react_default.a.createElement(
+                                'span',
+                                null,
+                                '$200 - $300'
+                              )
+                            ),
+                            ' ',
+                            react_default.a.createElement(
+                              'span',
+                              { className: 'list-qty' },
+                              '(14)'
+                            )
+                          )
                         )
                       )
                     )
@@ -19789,7 +19501,7 @@ var header_Header = function (_Component) {
           ),
           react_default.a.createElement(
             'div',
-            { className: 'main-menu-bar-primary' },
+            { className: 'main-menu-bar-primary color-penneyred-bg' },
             react_default.a.createElement(
               'ul',
               { className: 'main-menu-primary' },
@@ -20029,7 +19741,7 @@ var header_Header = function (_Component) {
             { className: 'main-menu-bar-secondary' },
             react_default.a.createElement(
               'div',
-              { className: 'side-panel side-panel-disable-desktop from-left main-menu-bar-secondary-panel', id: 'mainMenusecondary' },
+              { className: 'side-panel side-panel-disable-desktop slide-panel-from-left main-menu-bar-secondary-panel', id: 'mainMenusecondary' },
               react_default.a.createElement(
                 'div',
                 { className: 'side-panel-container' },
@@ -20498,7 +20210,7 @@ var header_Header = function (_Component) {
           ),
           react_default.a.createElement(
             'div',
-            { className: 'side-panel from-right change-my-store-panel', id: 'changeMyStore' },
+            { className: 'side-panel slide-panel-from-right change-my-store-panel', id: 'changeMyStore' },
             react_default.a.createElement(
               'div',
               { className: 'side-panel-container' },
@@ -20627,7 +20339,6 @@ function footer__inherits(subClass, superClass) { if (typeof superClass !== "fun
 
 
 
-
 var footer_devicephoneImage = __webpack_require__("oW2K");
 var footer_twitterfillImage = __webpack_require__("Oiyx");
 var footer_chatfillImage = __webpack_require__("Kr1e");
@@ -20711,10 +20422,6 @@ var footer_Footer = function (_Component) {
                     accordionToggles[i].addEventListener('click', switchAccordion, false);
                 }
             })();
-
-            jquery_default()('.show').on('click', function (e) {
-                jquery_default()('.show').toggleClass("less");
-            });
         }
     }, {
         key: 'render',
@@ -20732,8 +20439,8 @@ var footer_Footer = function (_Component) {
                             'div',
                             { className: 'signup-block md10 lg8 xl8 sm12' },
                             react_default.a.createElement(
-                                'label',
-                                { className: 'signup-label' },
+                                'em',
+                                { className: 'mrg-S title-S' },
                                 'Signup for text* or email alerts and offers'
                             ),
                             react_default.a.createElement(
@@ -21071,36 +20778,36 @@ var footer_Footer = function (_Component) {
                                 { className: 'footer-links-title' },
                                 react_default.a.createElement(
                                     'h5',
-                                    null,
+                                    { className: 'mrg-L' },
                                     'JCPenney Rewards & Credit Card'
                                 ),
                                 react_default.a.createElement(
                                     'ul',
-                                    null,
+                                    { className: 'list list-links mrg-S' },
                                     react_default.a.createElement(
                                         'li',
-                                        null,
+                                        { className: 'title-txt title-XS' },
                                         react_default.a.createElement(
                                             'a',
-                                            { href: 'avascript:void();' },
+                                            { href: 'javascript:void();' },
                                             'Enroll in Rewards'
                                         )
                                     ),
                                     react_default.a.createElement(
                                         'li',
-                                        null,
+                                        { className: 'title-txt title-XS' },
                                         react_default.a.createElement(
                                             'a',
-                                            { href: 'avascript:void();' },
+                                            { href: 'javascript:void();' },
                                             'Sign In to Rewards'
                                         )
                                     ),
                                     react_default.a.createElement(
                                         'li',
-                                        null,
+                                        { className: 'title-txt title-XS' },
                                         react_default.a.createElement(
                                             'a',
-                                            { href: 'avascript:void();' },
+                                            { href: 'javascript:void();' },
                                             'JCPenney Credit Card'
                                         )
                                     )
@@ -21111,15 +20818,15 @@ var footer_Footer = function (_Component) {
                                 { className: 'footer-links-title' },
                                 react_default.a.createElement(
                                     'h5',
-                                    null,
+                                    { className: 'mrg-L' },
                                     'Customer Service'
                                 ),
                                 react_default.a.createElement(
                                     'ul',
-                                    null,
+                                    { className: 'list list-links mrg-S' },
                                     react_default.a.createElement(
                                         'li',
-                                        null,
+                                        { className: 'title-txt title-XS' },
                                         react_default.a.createElement(
                                             'a',
                                             { href: 'javascript:void();' },
@@ -21128,7 +20835,7 @@ var footer_Footer = function (_Component) {
                                     ),
                                     react_default.a.createElement(
                                         'li',
-                                        null,
+                                        { className: 'title-txt title-XS' },
                                         react_default.a.createElement(
                                             'a',
                                             { href: 'javascript:void();' },
@@ -21137,7 +20844,7 @@ var footer_Footer = function (_Component) {
                                     ),
                                     react_default.a.createElement(
                                         'li',
-                                        null,
+                                        { className: 'title-txt title-XS' },
                                         react_default.a.createElement(
                                             'a',
                                             { href: 'javascript:void();' },
@@ -21146,7 +20853,7 @@ var footer_Footer = function (_Component) {
                                     ),
                                     react_default.a.createElement(
                                         'li',
-                                        null,
+                                        { className: 'title-txt title-XS' },
                                         react_default.a.createElement(
                                             'a',
                                             { href: 'javascript:void();' },
@@ -21155,7 +20862,7 @@ var footer_Footer = function (_Component) {
                                     ),
                                     react_default.a.createElement(
                                         'li',
-                                        null,
+                                        { className: 'title-txt title-XS' },
                                         react_default.a.createElement(
                                             'a',
                                             { href: 'javascript:void();' },
@@ -21164,7 +20871,7 @@ var footer_Footer = function (_Component) {
                                     ),
                                     react_default.a.createElement(
                                         'li',
-                                        null,
+                                        { className: 'title-txt title-XS' },
                                         react_default.a.createElement(
                                             'a',
                                             { href: 'javascript:void();' },
@@ -21173,7 +20880,7 @@ var footer_Footer = function (_Component) {
                                     ),
                                     react_default.a.createElement(
                                         'li',
-                                        null,
+                                        { className: 'title-txt title-XS' },
                                         react_default.a.createElement(
                                             'a',
                                             { href: 'javascript:void();' },
@@ -21187,15 +20894,15 @@ var footer_Footer = function (_Component) {
                                 { className: 'footer-links-title' },
                                 react_default.a.createElement(
                                     'h5',
-                                    null,
+                                    { className: 'mrg-L' },
                                     'Store Services'
                                 ),
                                 react_default.a.createElement(
                                     'ul',
-                                    null,
+                                    { className: 'list list-links mrg-S' },
                                     react_default.a.createElement(
                                         'li',
-                                        null,
+                                        { className: 'title-txt title-XS' },
                                         react_default.a.createElement(
                                             'a',
                                             { href: 'javascript:void();' },
@@ -21204,7 +20911,7 @@ var footer_Footer = function (_Component) {
                                     ),
                                     react_default.a.createElement(
                                         'li',
-                                        null,
+                                        { className: 'title-txt title-XS' },
                                         react_default.a.createElement(
                                             'a',
                                             { href: 'javascript:void();' },
@@ -21213,7 +20920,7 @@ var footer_Footer = function (_Component) {
                                     ),
                                     react_default.a.createElement(
                                         'li',
-                                        null,
+                                        { className: 'title-txt title-XS' },
                                         react_default.a.createElement(
                                             'a',
                                             { href: 'javascript:void();' },
@@ -21222,7 +20929,7 @@ var footer_Footer = function (_Component) {
                                     ),
                                     react_default.a.createElement(
                                         'li',
-                                        null,
+                                        { className: 'title-txt title-XS' },
                                         react_default.a.createElement(
                                             'a',
                                             { href: 'javascript:void();' },
@@ -21231,7 +20938,7 @@ var footer_Footer = function (_Component) {
                                     ),
                                     react_default.a.createElement(
                                         'li',
-                                        null,
+                                        { className: 'title-txt title-XS' },
                                         react_default.a.createElement(
                                             'a',
                                             { href: 'javascript:void();' },
@@ -21240,7 +20947,7 @@ var footer_Footer = function (_Component) {
                                     ),
                                     react_default.a.createElement(
                                         'li',
-                                        null,
+                                        { className: 'title-txt title-XS' },
                                         react_default.a.createElement(
                                             'a',
                                             { href: 'javascript:void();' },
@@ -21249,7 +20956,7 @@ var footer_Footer = function (_Component) {
                                     ),
                                     react_default.a.createElement(
                                         'li',
-                                        null,
+                                        { className: 'title-txt title-XS' },
                                         react_default.a.createElement(
                                             'a',
                                             { href: 'javascript:void();' },
@@ -21263,15 +20970,15 @@ var footer_Footer = function (_Component) {
                                 { className: 'footer-links-title' },
                                 react_default.a.createElement(
                                     'h5',
-                                    null,
+                                    { className: 'mrg-L' },
                                     'More Ways to Shop'
                                 ),
                                 react_default.a.createElement(
                                     'ul',
-                                    null,
+                                    { className: 'list list-links mrg-S' },
                                     react_default.a.createElement(
                                         'li',
-                                        null,
+                                        { className: 'title-txt title-XS' },
                                         react_default.a.createElement(
                                             'a',
                                             { href: 'javascript:void();' },
@@ -21280,7 +20987,7 @@ var footer_Footer = function (_Component) {
                                     ),
                                     react_default.a.createElement(
                                         'li',
-                                        null,
+                                        { className: 'title-txt title-XS' },
                                         react_default.a.createElement(
                                             'a',
                                             { href: 'javascript:void();' },
@@ -21289,7 +20996,7 @@ var footer_Footer = function (_Component) {
                                     ),
                                     react_default.a.createElement(
                                         'li',
-                                        null,
+                                        { className: 'title-txt title-XS' },
                                         react_default.a.createElement(
                                             'a',
                                             { href: 'javascript:void();' },
@@ -21298,7 +21005,7 @@ var footer_Footer = function (_Component) {
                                     ),
                                     react_default.a.createElement(
                                         'li',
-                                        null,
+                                        { className: 'title-txt title-XS' },
                                         react_default.a.createElement(
                                             'a',
                                             { href: 'javascript:void();' },
@@ -21307,7 +21014,7 @@ var footer_Footer = function (_Component) {
                                     ),
                                     react_default.a.createElement(
                                         'li',
-                                        null,
+                                        { className: 'title-txt title-XS' },
                                         react_default.a.createElement(
                                             'a',
                                             { href: 'javascript:void();' },
@@ -21321,15 +21028,15 @@ var footer_Footer = function (_Component) {
                                 { className: 'footer-links-title' },
                                 react_default.a.createElement(
                                     'h5',
-                                    null,
+                                    { className: 'mrg-L' },
                                     'Corporate Overview'
                                 ),
                                 react_default.a.createElement(
                                     'ul',
-                                    null,
+                                    { className: 'list list-links mrg-S' },
                                     react_default.a.createElement(
                                         'li',
-                                        null,
+                                        { className: 'title-txt title-XS' },
                                         react_default.a.createElement(
                                             'a',
                                             { href: 'javascript:void();' },
@@ -21338,7 +21045,7 @@ var footer_Footer = function (_Component) {
                                     ),
                                     react_default.a.createElement(
                                         'li',
-                                        null,
+                                        { className: 'title-txt title-XS' },
                                         react_default.a.createElement(
                                             'a',
                                             { href: 'javascript:void();' },
@@ -21347,7 +21054,7 @@ var footer_Footer = function (_Component) {
                                     ),
                                     react_default.a.createElement(
                                         'li',
-                                        null,
+                                        { className: 'title-txt title-XS' },
                                         react_default.a.createElement(
                                             'a',
                                             { href: 'javascript:void();' },
@@ -21356,7 +21063,7 @@ var footer_Footer = function (_Component) {
                                     ),
                                     react_default.a.createElement(
                                         'li',
-                                        null,
+                                        { className: 'title-txt title-XS' },
                                         react_default.a.createElement(
                                             'a',
                                             { href: 'javascript:void();' },
@@ -21365,7 +21072,7 @@ var footer_Footer = function (_Component) {
                                     ),
                                     react_default.a.createElement(
                                         'li',
-                                        null,
+                                        { className: 'title-txt title-XS' },
                                         react_default.a.createElement(
                                             'a',
                                             { href: 'javascript:void();' },
@@ -21396,10 +21103,10 @@ var footer_Footer = function (_Component) {
                                     ),
                                     react_default.a.createElement(
                                         'ul',
-                                        null,
+                                        { className: 'list list-links mrg-S' },
                                         react_default.a.createElement(
                                             'li',
-                                            null,
+                                            { className: 'title-txt title-XS' },
                                             react_default.a.createElement(
                                                 'a',
                                                 { href: 'javascript:void();' },
@@ -21408,7 +21115,7 @@ var footer_Footer = function (_Component) {
                                         ),
                                         react_default.a.createElement(
                                             'li',
-                                            null,
+                                            { className: 'title-txt title-XS' },
                                             react_default.a.createElement(
                                                 'a',
                                                 { href: 'javascript:void();' },
@@ -21417,7 +21124,7 @@ var footer_Footer = function (_Component) {
                                         ),
                                         react_default.a.createElement(
                                             'li',
-                                            null,
+                                            { className: 'title-txt title-XS' },
                                             react_default.a.createElement(
                                                 'a',
                                                 { href: 'javascript:void();' },
@@ -21432,10 +21139,10 @@ var footer_Footer = function (_Component) {
                                 { className: 'footer-legal-links md12 lg8 xl4 sm12 nopad' },
                                 react_default.a.createElement(
                                     'ul',
-                                    { className: '' },
+                                    { className: 'list list-links mrg-S' },
                                     react_default.a.createElement(
                                         'li',
-                                        null,
+                                        { className: 'title-txt title-XS' },
                                         react_default.a.createElement(
                                             'a',
                                             { href: 'javascript:void();' },
@@ -21444,7 +21151,7 @@ var footer_Footer = function (_Component) {
                                     ),
                                     react_default.a.createElement(
                                         'li',
-                                        null,
+                                        { className: 'title-txt title-XS' },
                                         react_default.a.createElement(
                                             'a',
                                             { href: 'javascript:void();' },
@@ -21453,7 +21160,7 @@ var footer_Footer = function (_Component) {
                                     ),
                                     react_default.a.createElement(
                                         'li',
-                                        null,
+                                        { className: 'title-txt title-XS' },
                                         react_default.a.createElement(
                                             'a',
                                             { href: 'javascript:void();' },
@@ -21464,7 +21171,7 @@ var footer_Footer = function (_Component) {
                                     ),
                                     react_default.a.createElement(
                                         'li',
-                                        null,
+                                        { className: 'title-txt title-XS' },
                                         react_default.a.createElement(
                                             'a',
                                             { href: 'javascript:void();' },
@@ -21473,7 +21180,7 @@ var footer_Footer = function (_Component) {
                                     ),
                                     react_default.a.createElement(
                                         'li',
-                                        null,
+                                        { className: 'title-txt title-XS' },
                                         react_default.a.createElement(
                                             'a',
                                             { href: 'javascript:void();' },
@@ -21482,7 +21189,7 @@ var footer_Footer = function (_Component) {
                                     ),
                                     react_default.a.createElement(
                                         'li',
-                                        null,
+                                        { className: 'title-txt title-XS' },
                                         react_default.a.createElement(
                                             'a',
                                             { href: 'javascript:void();' },
@@ -21546,8 +21253,6 @@ function footer_minimized__classCallCheck(instance, Constructor) { if (!(instanc
 function footer_minimized__possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
 
 function footer_minimized__inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-
 
 
 var footer_minimized_devicephoneImage = __webpack_require__("oW2K");
@@ -21787,7 +21492,7 @@ var slide_out_panels_SlideOutPanels = function (_Component) {
         ),
         react_default.a.createElement(
           'div',
-          { className: 'side-panel from-right', id: 'rightPanel' },
+          { className: 'side-panel slide-panel-from-right', id: 'rightPanel' },
           react_default.a.createElement(
             'div',
             { className: 'side-panel-container' },
@@ -21796,7 +21501,7 @@ var slide_out_panels_SlideOutPanels = function (_Component) {
               { className: 'side-panel-header' },
               react_default.a.createElement(
                 'h3',
-                { className: 'title title-L color-white' },
+                { className: 'title title-L' },
                 'Panel'
               ),
               react_default.a.createElement(
@@ -21819,7 +21524,7 @@ var slide_out_panels_SlideOutPanels = function (_Component) {
         ),
         react_default.a.createElement(
           'div',
-          { className: 'side-panel from-left', id: 'leftPanel' },
+          { className: 'side-panel slide-panel-from-left', id: 'leftPanel' },
           react_default.a.createElement(
             'div',
             { className: 'side-panel-container' },
@@ -21828,7 +21533,7 @@ var slide_out_panels_SlideOutPanels = function (_Component) {
               { className: 'side-panel-header' },
               react_default.a.createElement(
                 'h3',
-                { className: 'title title-L color-white' },
+                { className: 'title title-L ' },
                 'Panel'
               ),
               react_default.a.createElement(
@@ -22012,7 +21717,7 @@ var filter_sort_FilterSort = function (_Component) {
           if (productInfo.priceRegular) {
             return react_default.a.createElement(
               'div',
-              { className: 'product-card-note price price-note color-slate font-body' },
+              { className: 'product-card-note price price-note color-slate std-txt' },
               productInfo.priceRegular
             );
           }
@@ -22072,7 +21777,7 @@ var filter_sort_FilterSort = function (_Component) {
           { className: 'color-swatches-block' },
           react_default.a.createElement(
             'div',
-            { className: 'color-swatches-list' },
+            null,
             react_default.a.createElement(
               'div',
               { className: 'color-swatches-medium' },
@@ -22161,7 +21866,7 @@ var filter_sort_FilterSort = function (_Component) {
           if (productInfo.priceRegular) {
             return react_default.a.createElement(
               'div',
-              { className: 'product-card-note price price-note color-slate font-body' },
+              { className: 'product-card-note price price-note color-slate std-txt' },
               productInfo.priceRegular
             );
           }
@@ -22840,7 +22545,7 @@ var filter_sort_FilterSort = function (_Component) {
           ),
           react_default.a.createElement(
             'div',
-            { className: 'side-panel from-left', id: 'leftPanel' },
+            { className: 'side-panel slide-panel-from-left', id: 'leftPanel' },
             react_default.a.createElement(
               'div',
               { className: 'side-panel-container' },
@@ -23962,7 +23667,7 @@ var filter_sort_FilterSort = function (_Component) {
         ),
         react_default.a.createElement(
           'div',
-          { className: 'side-panel from-left', id: 'leftPanel' },
+          { className: 'side-panel slide-panel-from-left', id: 'leftPanel' },
           react_default.a.createElement(
             'div',
             { className: 'side-panel-container' },
@@ -26304,7 +26009,7 @@ var product_cards_ProductCards = function (_Component) {
           { className: 'color-swatches-block' },
           react_default.a.createElement(
             'div',
-            { className: 'color-swatches-list' },
+            null,
             react_default.a.createElement(
               'div',
               { className: 'color-swatches-medium' },
@@ -26466,7 +26171,7 @@ var product_cards_ProductCards = function (_Component) {
           { className: 'color-swatches-block' },
           react_default.a.createElement(
             'div',
-            { className: 'color-swatches-list' },
+            null,
             react_default.a.createElement(
               'div',
               { className: 'color-swatches-small' },
@@ -26725,7 +26430,7 @@ var product_cards_ProductCards = function (_Component) {
             if (productInfo.priceNotes) {
 
               return productInfo.priceNotes.map(function (value) {
-                return react_default.a.createElement('div', { className: 'product-card-note price price-note color-nightsky font-body', dangerouslySetInnerHTML: { __html: value.text } });
+                return react_default.a.createElement('div', { className: 'product-card-note price price-note color-nightsky std-txt', dangerouslySetInnerHTML: { __html: value.text } });
               });
             }
           }(),
@@ -26795,7 +26500,7 @@ var product_cards_ProductCards = function (_Component) {
               { className: 'color-swatches-block hide-for-small-only' },
               react_default.a.createElement(
                 'div',
-                { className: 'color-swatches-list' },
+                null,
                 react_default.a.createElement(
                   'div',
                   { className: 'color-swatches-medium' },
@@ -26924,7 +26629,7 @@ var product_cards_ProductCards = function (_Component) {
               if (productInfo.productFeatures) {
 
                 var listItems = productInfo.productFeatures.map(function (value) {
-                  return react_default.a.createElement('li', { className: 'price price-note color-slate font-body', dangerouslySetInnerHTML: { __html: value.text } });
+                  return react_default.a.createElement('li', { className: 'price price-note color-slate std-txt', dangerouslySetInnerHTML: { __html: value.text } });
                 });
 
                 return react_default.a.createElement(
@@ -27005,7 +26710,7 @@ var product_cards_ProductCards = function (_Component) {
               { className: 'color-swatches-block hide-for-small-only' },
               react_default.a.createElement(
                 'div',
-                { className: 'color-swatches-list' },
+                null,
                 react_default.a.createElement(
                   'div',
                   { className: 'color-swatches-medium' },
@@ -28014,7 +27719,6 @@ function recommendation_zone__classCallCheck(instance, Constructor) { if (!(inst
 function recommendation_zone__possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
 
 function recommendation_zone__inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
 
 
 
@@ -30894,7 +30598,7 @@ var work_in_progress_WorkInProgress = function (_Component) {
               { className: 'tab-header' },
               react_default.a.createElement(
                 'li',
-                { className: 'tab-lbl tab-lbl-active' },
+                { className: 'tab-lbl btn-active' },
                 react_default.a.createElement(
                   'span',
                   null,
@@ -32465,7 +32169,7 @@ var work_in_progress_WorkInProgress = function (_Component) {
                 ),
                 react_default.a.createElement(
                   'div',
-                  { className: 'color-swatches-list-label' },
+                  null,
                   react_default.a.createElement(
                     'p',
                     { className: 'md6 sm6 lg6 column' },
@@ -32707,7 +32411,7 @@ var work_in_progress_WorkInProgress = function (_Component) {
                 ),
                 react_default.a.createElement(
                   'div',
-                  { className: 'color-swatches-list-label' },
+                  null,
                   react_default.a.createElement(
                     'p',
                     { className: 'md6 sm6 lg6 column' },
@@ -32780,7 +32484,7 @@ var work_in_progress_WorkInProgress = function (_Component) {
                 { className: 'color-swatches-list md12 lg12 sm12' },
                 react_default.a.createElement(
                   'div',
-                  { className: 'color-swatches-list-label' },
+                  null,
                   react_default.a.createElement(
                     'p',
                     { className: 'md6 sm6 lg6 column' },
