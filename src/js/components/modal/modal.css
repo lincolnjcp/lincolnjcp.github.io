@@ -47,13 +47,20 @@
       height: 50px;
     }
   }
-  &.alert-pop-up ,&.dialog-pop-up {
+  &.modal-S{
     width: 360px;
     padding: 32px 16px;
-    & .modal-sub-title {
-      font-size: 20px;
-      margin-bottom: 5px;
-    }
+  }
+  &.modal-M{
+    max-width: 540px;
+    padding: 36px 14px 0;
+  }
+  &.modal-L{
+    width: 600px;
+    padding: 32px 24px 14px;
+  }
+  &.alert-pop-up ,&.dialog-pop-up {
+
     & .modal-body {
       margin-bottom: 16px;
       line-height: 26px;
@@ -64,29 +71,23 @@
         font-weight:bold;
       }
     }
-    & .btn {
-      min-width: 160px;
-      max-width: 200px;
-      margin: 0;
-      padding: 10px 13px;
+   
+  }
+  & .btn {
+    min-width: 160px;
+    max-width: 200px;
+    margin: 0;
+    padding: 10px 13px;
+      &:last-child {
+        margin-left: 6px;
+        color: #fff;
     }
   }
+ 
   &.informational-pop-up{
     width: 600px;
     text-align: left;
     padding: 32px 24px 14px;
-    & .informational-list{
-      padding-left: 30px;
-     & .informational-list-content{
-        list-style-type: disc;
-        padding-left: 10px;
-        font-size: 12px;
-        & informational-list-para{
-          font-size: 16px;
-        }
-      }
-     
-    }
     &.form-modal-pop{
       height: 414px;
       & .information-sendcopy{
@@ -183,9 +184,6 @@
     width: 96%;
     &.informational-pop-up{
       width: 96%;
-      & .informational-list{
-        padding-left:22px;
-      }
     }
     &.scroll-container{
       width: 96%;

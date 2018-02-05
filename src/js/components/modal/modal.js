@@ -89,10 +89,10 @@ class Modal extends Component {
       <div>
         <div className="row">
           <div className="modal-overlay"></div>
-          <div className="modal dialog-pop-up">
+          <div className="modal modal-S">
             <button className="modal-close" title="close"></button>
-            <h2 className="modal-sub-title title title-L">Delete Address</h2>
-            <p className="modal-body std-txt std-txt-M">
+            <h2 className="title title-L mrg-M">Delete Address</h2>
+            <p className="mrg-XL std-txt std-txt-M">
               Are you sure you want to delete this address from your account?
             </p>
             <button type="button" name="button" className="btn btn-secondary title title-M">No</button>
@@ -101,28 +101,28 @@ class Modal extends Component {
 
           <br />
           <br />
-          <div className="modal alert-pop-up informational-pop-up">
+          <div className="modal modal-L text-left">
             <button className="modal-close" title="close"></button>
-            <h2 className="modal-sub-title title title-L">Truckable Item Delivery</h2>
-            <p className="modal-body std-txt std-txt-M">
+            <h2 className="title title-L mrg-M">Truckable Item Delivery</h2>
+            <p className="std-txt std-txt-M mrg-L">
               Some heavy or bulky items cannot be delivered via UPS, USPS or FedEx. These items must be delivered via truck.
             </p>
-            <ul className="modal-body std-txt std-txt-M informational-list">
-              <li class="informational-list-content"><p class="informational-list-para">Additional delivery charges may apply and will be reflected at checkout. </p></li>
-              <li class="informational-list-content"><p class="informational-list-para">You will be contacted in 7 to 14 days from the time the item is shipped to schedule a delivery appointment.</p></li>
-              <li class="informational-list-content"><p class="informational-list-para">After delivery, you may be contacted about your satisfaction.</p></li>
-              <li class="informational-list-content"><p class="informational-list-para">All contacts may be automated calls to the number you provided for delivery.</p></li>
-              <li class="informational-list-content"><p class="informational-list-para">You must be present to accept delivery.</p></li>
+            <ul className="mrg-L std-txt std-txt-M list">
+              <li><p>Additional delivery charges may apply and will be reflected at checkout. </p></li>
+              <li><p>You will be contacted in 7 to 14 days from the time the item is shipped to schedule a delivery appointment.</p></li>
+              <li><p>After delivery, you may be contacted about your satisfaction.</p></li>
+              <li><p>All contacts may be automated calls to the number you provided for delivery.</p></li>
+              <li><p>You must be present to accept delivery.</p></li>
 
             </ul>
           </div>
           <br />
           <br />
-          <div className="modal alert-pop-up">
+          <div className="modal modal-S">
             <button className="modal-close" title="close"></button>
             <span className="icon" dangerouslySetInnerHTML={{ __html: errorImage }} />
-            <h2 className="modal-sub-title title title-L">Account Locked</h2>
-            <p className="modal-body std-txt std-txt-M">
+            <h2 className="title title-L mrg-M">Account Locked</h2>
+            <p className="std-txt std-txt-M mrg-M">
               Check the email <span class="bold-text">username@emaildomain.com</span>
               for instructions on how to unlock it.
             </p>

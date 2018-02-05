@@ -176,7 +176,9 @@
 .text-center {
   text-align: center;
 }
-
+.text-left{
+  text-align: left !important;
+}
 .hidden {
   visibility: hidden !important;
 }
