@@ -13656,13 +13656,13 @@ var visual_navigation_VisualNavigation = function (_Component) {
               null,
               react_default.a.createElement(
                 "li",
-                null,
+                { className: "mrg-XL mrg-lft-XL" },
                 react_default.a.createElement(
                   "a",
                   { href: "#" },
                   react_default.a.createElement(
                     "div",
-                    { className: "viz-nav-img mrg-M" },
+                    { className: "viz-nav-img mrg-S" },
                     react_default.a.createElement("img", { src: "https://m.jcpenney.com/tablet/images/wmns-coats.jpg", alt: "product-image" })
                   ),
                   react_default.a.createElement(
@@ -13674,13 +13674,13 @@ var visual_navigation_VisualNavigation = function (_Component) {
               ),
               react_default.a.createElement(
                 "li",
-                null,
+                { className: "mrg-XL mrg-lft-XL" },
                 react_default.a.createElement(
                   "a",
                   { href: "#" },
                   react_default.a.createElement(
                     "div",
-                    { className: "viz-nav-img mrg-M" },
+                    { className: "viz-nav-img mrg-S" },
                     react_default.a.createElement("img", { src: "https://m.jcpenney.com/tablet/images/wmns_tops.jpg", alt: "product-image" })
                   ),
                   react_default.a.createElement(
@@ -13692,13 +13692,13 @@ var visual_navigation_VisualNavigation = function (_Component) {
               ),
               react_default.a.createElement(
                 "li",
-                null,
+                { className: "mrg-XL mrg-lft-XL" },
                 react_default.a.createElement(
                   "a",
                   { href: "#" },
                   react_default.a.createElement(
                     "div",
-                    { className: "viz-nav-img mrg-M" },
+                    { className: "viz-nav-img mrg-S" },
                     react_default.a.createElement("img", { src: "https://m.jcpenney.com/tablet/images/wmns_jeans.jpg", alt: "product-image" })
                   ),
                   react_default.a.createElement(
@@ -13710,13 +13710,13 @@ var visual_navigation_VisualNavigation = function (_Component) {
               ),
               react_default.a.createElement(
                 "li",
-                null,
+                { className: "mrg-XL mrg-lft-XL" },
                 react_default.a.createElement(
                   "a",
                   { href: "#" },
                   react_default.a.createElement(
                     "div",
-                    { className: "viz-nav-img mrg-M" },
+                    { className: "viz-nav-img mrg-S" },
                     react_default.a.createElement("img", { src: "https://m.jcpenney.com/tablet/images/wmns_blazer.jpg", alt: "product-image" })
                   ),
                   react_default.a.createElement(
@@ -13728,13 +13728,13 @@ var visual_navigation_VisualNavigation = function (_Component) {
               ),
               react_default.a.createElement(
                 "li",
-                null,
+                { className: "mrg-XL mrg-lft-XL" },
                 react_default.a.createElement(
                   "a",
                   { href: "#" },
                   react_default.a.createElement(
                     "div",
-                    { className: "viz-nav-img mrg-M" },
+                    { className: "viz-nav-img mrg-S" },
                     react_default.a.createElement("img", { src: "https://m.jcpenney.com/tablet/images/womens%20scrubs%20icon.jpg", alt: "product-image" })
                   ),
                   react_default.a.createElement(
@@ -13751,7 +13751,7 @@ var visual_navigation_VisualNavigation = function (_Component) {
             { className: "viz-nav mrg-XXL" },
             react_default.a.createElement(
               "h1",
-              { className: "title-L mrg-XL" },
+              { className: "title-L mrg-XL mrg-lft-XL" },
               "Subcategory Level"
             ),
             react_default.a.createElement(
@@ -13759,13 +13759,13 @@ var visual_navigation_VisualNavigation = function (_Component) {
               null,
               react_default.a.createElement(
                 "li",
-                null,
+                { className: "mrg-XL mrg-lft-XL" },
                 react_default.a.createElement(
                   "a",
                   { href: "#" },
                   react_default.a.createElement(
                     "div",
-                    { className: "viz-nav-img mrg-M" },
+                    { className: "viz-nav-img mrg-S" },
                     react_default.a.createElement("img", { src: "https://m.jcpenney.com/tablet/images/mens%20sports%20fan%20shop%20tablet%20category%20icon.jpg", alt: "product-image" })
                   ),
                   react_default.a.createElement(
@@ -13782,13 +13782,13 @@ var visual_navigation_VisualNavigation = function (_Component) {
               ),
               react_default.a.createElement(
                 "li",
-                null,
+                { className: "mrg-XL mrg-lft-XL" },
                 react_default.a.createElement(
                   "a",
                   { href: "#" },
                   react_default.a.createElement(
                     "div",
-                    { className: "viz-nav-img mrg-M" },
+                    { className: "viz-nav-img mrg-S" },
                     react_default.a.createElement("img", { src: "https://m.jcpenney.com/tablet/images/mens%20athletic%20uniforms%20tablet%20category%20icon.jpg", alt: "product-image" })
                   ),
                   react_default.a.createElement(
@@ -13805,13 +13805,13 @@ var visual_navigation_VisualNavigation = function (_Component) {
               ),
               react_default.a.createElement(
                 "li",
-                null,
+                { className: "mrg-XL mrg-lft-XL" },
                 react_default.a.createElement(
                   "a",
                   { href: "#" },
                   react_default.a.createElement(
                     "div",
-                    { className: "viz-nav-img mrg-M" },
+                    { className: "viz-nav-img mrg-S" },
                     react_default.a.createElement("img", { src: "https://m.jcpenney.com/tablet/images/mens%20coats%20jackets%20icon.jpg", alt: "product-image" })
                   ),
                   react_default.a.createElement(
@@ -13828,13 +13828,13 @@ var visual_navigation_VisualNavigation = function (_Component) {
               ),
               react_default.a.createElement(
                 "li",
-                null,
+                { className: "mrg-XL mrg-lft-XL" },
                 react_default.a.createElement(
                   "a",
                   { href: "#" },
                   react_default.a.createElement(
                     "div",
-                    { className: "viz-nav-img mrg-M" },
+                    { className: "viz-nav-img mrg-S" },
                     react_default.a.createElement("img", { src: "https://m.jcpenney.com/tablet/images/mens%20sweaters%20icon.jpg", alt: "product-image" })
                   ),
                   react_default.a.createElement(
@@ -13851,13 +13851,13 @@ var visual_navigation_VisualNavigation = function (_Component) {
               ),
               react_default.a.createElement(
                 "li",
-                null,
+                { className: "mrg-XL mrg-lft-XL" },
                 react_default.a.createElement(
                   "a",
                   { href: "#" },
                   react_default.a.createElement(
                     "div",
-                    { className: "viz-nav-img mrg-M" },
+                    { className: "viz-nav-img mrg-S" },
                     react_default.a.createElement("img", { src: "https://m.jcpenney.com/tablet/images/mens%20hoodies2%20tablet%20category%20icon.jpg", alt: "product-image" })
                   ),
                   react_default.a.createElement(
@@ -20798,7 +20798,7 @@ var footer_Footer = function (_Component) {
                                 { className: 'footer-links-title' },
                                 react_default.a.createElement(
                                     'h5',
-                                    { className: 'mrg-L' },
+                                    { className: 'mrg-S' },
                                     'JCPenney Rewards & Credit Card'
                                 ),
                                 react_default.a.createElement(
