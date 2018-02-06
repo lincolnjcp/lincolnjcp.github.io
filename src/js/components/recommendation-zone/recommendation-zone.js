@@ -145,7 +145,7 @@ class RecommendationZone extends Component {
             {(() => {
               if (productInfo.priceRegular) {
                 return (
-                  <div className="product-card-note price price-note color-slate std-txt">
+                  <div className="product-card-note price color-slate std-txt std-txt-XS">
                     {productInfo.priceRegular}
                   </div>
                 )
