@@ -239,6 +239,9 @@
         padding-bottom: 10px;
     }
     & .footer-accordion {
+        & .accordion-title {
+            font-family: var(--font-headline);
+        }
         & .accordion-content {
             & a {
                 margin-left: 36px;

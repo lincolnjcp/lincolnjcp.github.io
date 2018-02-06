@@ -190,7 +190,7 @@ class Footer extends Component {
 
                         <div className="footer-links md12 lg12 xl12 sm12 show-for-large-only show-for-xlarge-only">
                             <div className="footer-links-title">
-                                <h5 className="mrg-L">JCPenney Rewards & Credit Card</h5>
+                                <h5 className="mrg-S">JCPenney Rewards & Credit Card</h5>
                                 <ul className="list list-links mrg-S">
                                     <li className="title-txt title-XS"><a href="javascript:void();">Enroll in Rewards</a></li>
                                     <li className="title-txt title-XS"><a href="javascript:void();">Sign In to Rewards</a></li>
