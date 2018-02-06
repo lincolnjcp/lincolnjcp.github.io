@@ -103,6 +103,7 @@
       max-height: 236px;
       overflow: auto;
       border-radius: var(--border-radius-M);
+      -webkit-overflow-scrolling: touch;
       & .search-type {
         margin: 10px 0;
         & input[type="text"] {

@@ -135,6 +135,13 @@
   padding: 50px;
 }
 
+.padding-rght-S {
+  padding-right: 8px;
+}
+.padding-lft-S {
+  padding-left: 8px;
+}
+
 .icon-M {
   & svg {
     width: 16px;
@@ -202,25 +209,3 @@
 .padding-right-zero {
   padding-right: 0 !important;
 }
-
-/* 
- @media(max-width: $grid-breakpoint-L){
-   .mrg-zero{
-     margin: 0px;
-   }
-
-   .mrg-S{
-     margin: 0 0 8px 0;
-   }
- }
-
- @media(max-width: $breakpoint-M){
-   .mrg-zero{
-     margin: 0px;
-   }
-
-   .mrg-S{
-     margin: 0 0 8px 0;
-   }
- }
-*/

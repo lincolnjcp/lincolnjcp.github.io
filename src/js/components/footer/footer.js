@@ -190,7 +190,7 @@ class Footer extends Component {
 
                         <div className="footer-links md12 lg12 xl12 sm12 show-for-large-only show-for-xlarge-only">
                             <div className="footer-links-title">
-                                <h5 className="mrg-S">JCPenney Rewards & Credit Card</h5>
+                                <h5 className="mrg-S title-S">JCPenney Rewards & Credit Card</h5>
                                 <ul className="list list-links mrg-S">
                                     <li className="title-txt title-XS"><a href="javascript:void();">Enroll in Rewards</a></li>
                                     <li className="title-txt title-XS"><a href="javascript:void();">Sign In to Rewards</a></li>
@@ -199,7 +199,7 @@ class Footer extends Component {
                             </div>
 
                             <div className="footer-links-title">
-                                <h5 className="mrg-L">Customer Service</h5>
+                                <h5 className="mrg-S title-S">Customer Service</h5>
                                 <ul className="list list-links mrg-S">
                                     <li className="title-txt title-XS"><a href="javascript:void();">Returns</a></li>
                                     <li className="title-txt title-XS"><a href="javascript:void();">Shipping information</a></li>
@@ -212,7 +212,7 @@ class Footer extends Component {
                             </div>
 
                             <div className="footer-links-title">
-                                <h5 className="mrg-L">Store Services</h5>
+                                <h5 className="mrg-S title-S">Store Services</h5>
                                 <ul className="list list-links mrg-S">
                                     <li className="title-txt title-XS"><a href="javascript:void();">JCP Salon</a></li>
                                     <li className="title-txt title-XS"><a href="javascript:void();">Sephora</a></li>
@@ -225,7 +225,7 @@ class Footer extends Component {
                             </div>
 
                             <div className="footer-links-title">
-                                <h5 className="mrg-L">More Ways to Shop</h5>
+                                <h5 className="mrg-S title-S">More Ways to Shop</h5>
                                 <ul className="list list-links mrg-S">
                                     <li className="title-txt title-XS"><a href="javascript:void();">See our ads</a></li>
                                     <li className="title-txt title-XS"><a href="javascript:void();">Coupons</a></li>
@@ -236,7 +236,7 @@ class Footer extends Component {
                             </div>
 
                             <div className="footer-links-title">
-                                <h5 className="mrg-L">Corporate Overview</h5>
+                                <h5 className="mrg-S title-S">Corporate Overview</h5>
                                 <ul className="list list-links mrg-S">
                                     <li className="title-txt title-XS"><a href="javascript:void();">Careers</a></li>
                                     <li className="title-txt title-XS"><a href="javascript:void();">Company Info</a></li>
@@ -261,7 +261,7 @@ class Footer extends Component {
                                     </ul>
                                 </div>
                             </div>
-                            <div className="footer-legal-links md12 lg8 xl4 sm12 nopad">
+                            <div className="footer-legal-links md12 lg8 xl8 sm12 nopad">
                                 <ul className="list list-links mrg-S">
                                     <li className="title-txt title-XS"><a href="javascript:void();">Legal</a></li>
                                     <li className="title-txt title-XS"><a href="javascript:void();">Recalls</a></li>

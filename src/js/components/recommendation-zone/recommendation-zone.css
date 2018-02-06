@@ -4,6 +4,7 @@
 	display: inline;
 	overflow: auto;
 	white-space: nowrap;
+	-webkit-overflow-scrolling: touch;
 	& .product-card-block {
 		position: relative;
 		overflow: hidden;

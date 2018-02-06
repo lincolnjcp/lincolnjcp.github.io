@@ -20,7 +20,7 @@ Base Styles
 @import "../js/components/alerts/alerts";
 @import "base/product";
 @import "../js/components/tables/tables";
-@import "base/wells";
+@import "../js/components/wells/wells";
 @import "../js/components/content-loaders/content-loaders";
 @import "../js/components/dropdown-button/dropdown-button";
 @import "../js/components/forms/content-forms";

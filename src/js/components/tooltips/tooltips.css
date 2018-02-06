@@ -43,6 +43,7 @@
       display: block;
       max-height: 160px;
       overflow: auto;
+      -webkit-overflow-scrolling: touch;
       & p {
         margin-right: 14px;
       }

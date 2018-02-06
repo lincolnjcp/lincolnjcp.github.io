@@ -772,6 +772,10 @@ var rootNav = [{
         activeClassName: 'active',
         content: 'Scrollbar'
     }, {
+        to: '/components/wells',
+        activeClassName: 'active',
+        content: 'Wells'
+    }, {
         to: '/',
         activeClassName: 'inactive',
         content: 'Video Player'
@@ -10417,16 +10421,16 @@ function scrollbar__inherits(subClass, superClass) { if (typeof superClass !== "
 
 
 
-var scrollbar_Pricing = function (_Component) {
-    scrollbar__inherits(Pricing, _Component);
+var scrollbar_Scrollbar = function (_Component) {
+    scrollbar__inherits(Scrollbar, _Component);
 
-    function Pricing() {
-        scrollbar__classCallCheck(this, Pricing);
+    function Scrollbar() {
+        scrollbar__classCallCheck(this, Scrollbar);
 
-        return scrollbar__possibleConstructorReturn(this, (Pricing.__proto__ || Object.getPrototypeOf(Pricing)).apply(this, arguments));
+        return scrollbar__possibleConstructorReturn(this, (Scrollbar.__proto__ || Object.getPrototypeOf(Scrollbar)).apply(this, arguments));
     }
 
-    scrollbar__createClass(Pricing, [{
+    scrollbar__createClass(Scrollbar, [{
         key: 'componentDidMount',
         value: function componentDidMount() {
             (function () {
@@ -10550,10 +10554,10 @@ var scrollbar_Pricing = function (_Component) {
         }
     }]);
 
-    return Pricing;
+    return Scrollbar;
 }(react["Component"]);
 
-var scrollbar__default = scrollbar_Pricing;
+var scrollbar__default = scrollbar_Scrollbar;
 
 
 /* harmony default export */ var scrollbar = (scrollbar__default);
@@ -10564,7 +10568,7 @@ var scrollbar__temp = function () {
         return;
     }
 
-    __REACT_HOT_LOADER__.register(scrollbar_Pricing, 'Pricing', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/scrollbar/scrollbar.js');
+    __REACT_HOT_LOADER__.register(scrollbar_Scrollbar, 'Scrollbar', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/scrollbar/scrollbar.js');
 
     __REACT_HOT_LOADER__.register(scrollbar__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/scrollbar/scrollbar.js');
 }();
@@ -10582,6 +10586,355 @@ var components_scrollbar__temp = function () {
   }
 
   __REACT_HOT_LOADER__.register(components_scrollbar__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/scrollbar/index.js');
+}();
+
+;
+// CONCATENATED MODULE: ./src/js/components/wells/wells.js
+var wells__createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+function wells__classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function wells__possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function wells__inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+
+
+var wells_returnImage = __webpack_require__("afII");
+var wells_truckImage = __webpack_require__("apyU");
+var wells_haulawayImage = __webpack_require__("rmnD");
+var wells_trashcanImage = __webpack_require__("ARRV");
+var wells_storeImage = __webpack_require__("qodu");
+var wells_devicephoneImage = __webpack_require__("oW2K");
+var wells_shieldImage = __webpack_require__("kNu/");
+
+var wells_Wells = function (_Component) {
+    wells__inherits(Wells, _Component);
+
+    function Wells() {
+        wells__classCallCheck(this, Wells);
+
+        return wells__possibleConstructorReturn(this, (Wells.__proto__ || Object.getPrototypeOf(Wells)).apply(this, arguments));
+    }
+
+    wells__createClass(Wells, [{
+        key: 'componentDidMount',
+        value: function componentDidMount() {}
+    }, {
+        key: 'render',
+        value: function render() {
+            return react_default.a.createElement(
+                'div',
+                null,
+                react_default.a.createElement(
+                    'div',
+                    { className: 'row' },
+                    react_default.a.createElement(
+                        'div',
+                        { className: 'mrg-XXL sm12 md12 xl6 lg6 well mrg-rght-XS' },
+                        react_default.a.createElement(
+                            'h3',
+                            { className: 'title title-M mrg-M mrg-lft-S' },
+                            'General Information'
+                        ),
+                        react_default.a.createElement(
+                            'ul',
+                            { className: 'list list-icons mrg-lft-S' },
+                            react_default.a.createElement(
+                                'li',
+                                { className: 'title-txt title-S' },
+                                react_default.a.createElement('span', { className: 'icon color-shadow-svg icon-L', dangerouslySetInnerHTML: { __html: wells_trashcanImage } }),
+                                react_default.a.createElement(
+                                    'h3',
+                                    null,
+                                    'Disposal Fee'
+                                ),
+                                react_default.a.createElement(
+                                    'span',
+                                    null,
+                                    'Please note that some states may charge a disposal fee per item. ',
+                                    react_default.a.createElement(
+                                        'a',
+                                        { href: 'javascript:void(0);' },
+                                        ' see details'
+                                    )
+                                )
+                            ),
+                            react_default.a.createElement(
+                                'li',
+                                { className: 'title-txt title-S' },
+                                react_default.a.createElement('span', { className: 'icon color-shadow-svg icon-L', dangerouslySetInnerHTML: { __html: wells_storeImage } }),
+                                react_default.a.createElement(
+                                    'h3',
+                                    null,
+                                    'InStore Display'
+                                ),
+                                react_default.a.createElement(
+                                    'span',
+                                    null,
+                                    'Check for stores with major appliance display. ',
+                                    react_default.a.createElement(
+                                        'a',
+                                        { href: 'javascript:void(0);' },
+                                        ' find a store'
+                                    )
+                                )
+                            ),
+                            react_default.a.createElement(
+                                'li',
+                                { className: 'title-txt title-S' },
+                                react_default.a.createElement('span', { className: 'icon color-shadow-svg icon-L', dangerouslySetInnerHTML: { __html: wells_devicephoneImage } }),
+                                react_default.a.createElement(
+                                    'h3',
+                                    null,
+                                    'Need Help'
+                                ),
+                                react_default.a.createElement(
+                                    'span',
+                                    null,
+                                    'Please call 1.899.JCP.APP. ',
+                                    react_default.a.createElement(
+                                        'a',
+                                        { href: 'callto:1-844-527-2775' },
+                                        ' (1-844-527-2775)'
+                                    )
+                                )
+                            ),
+                            react_default.a.createElement(
+                                'li',
+                                { className: 'title-txt title-S' },
+                                react_default.a.createElement('span', { className: 'icon color-shadow-svg icon-L', dangerouslySetInnerHTML: { __html: wells_shieldImage } }),
+                                react_default.a.createElement(
+                                    'h3',
+                                    null,
+                                    'Protection Plan Terms & Conditions'
+                                ),
+                                react_default.a.createElement(
+                                    'span',
+                                    null,
+                                    'Limitations and exclusions may apply for major appliances. ',
+                                    react_default.a.createElement(
+                                        'a',
+                                        { href: 'javascript:void(0);' },
+                                        ' see details'
+                                    )
+                                )
+                            )
+                        )
+                    ),
+                    react_default.a.createElement(
+                        'div',
+                        { className: 'mrg-XXL sm12 md12 xl6 lg6 well mrg-rght-XS' },
+                        react_default.a.createElement(
+                            'h3',
+                            { className: 'title title-M mrg-M mrg-lft-S' },
+                            'Shipping & Returns'
+                        ),
+                        react_default.a.createElement(
+                            'ul',
+                            { className: 'list list-icons mrg-lft-S' },
+                            react_default.a.createElement(
+                                'li',
+                                { className: 'title-txt title-S' },
+                                react_default.a.createElement('span', { className: 'icon color-shadow-svg icon-L', dangerouslySetInnerHTML: { __html: wells_returnImage } }),
+                                react_default.a.createElement(
+                                    'h3',
+                                    null,
+                                    'Easy Returns'
+                                ),
+                                react_default.a.createElement(
+                                    'span',
+                                    null,
+                                    'Shop with confidence. Read our full, common sense ',
+                                    react_default.a.createElement(
+                                        'a',
+                                        { href: 'javascript:void(0);' },
+                                        ' return policy'
+                                    )
+                                )
+                            ),
+                            react_default.a.createElement(
+                                'li',
+                                { className: 'title-txt title-S' },
+                                react_default.a.createElement('span', { className: 'icon color-shadow-svg icon-L', dangerouslySetInnerHTML: { __html: wells_truckImage } }),
+                                react_default.a.createElement(
+                                    'h3',
+                                    null,
+                                    'Truck Delivery'
+                                ),
+                                react_default.a.createElement(
+                                    'span',
+                                    null,
+                                    'Some heavy or bulky items cannot be Shipped via UPS are shipped via truck. ',
+                                    react_default.a.createElement(
+                                        'a',
+                                        { href: 'javascript:void(0);' },
+                                        ' see details'
+                                    )
+                                )
+                            ),
+                            react_default.a.createElement(
+                                'li',
+                                { className: 'title-txt title-S' },
+                                react_default.a.createElement('span', { className: 'icon color-shadow-svg icon-L', dangerouslySetInnerHTML: { __html: wells_haulawayImage } }),
+                                react_default.a.createElement(
+                                    'h3',
+                                    null,
+                                    'Haul Away'
+                                ),
+                                react_default.a.createElement(
+                                    'span',
+                                    null,
+                                    'Appliance haul away and/or moving services are available for purchase. ',
+                                    react_default.a.createElement(
+                                        'a',
+                                        { href: 'javascript:void(0);' },
+                                        ' see details'
+                                    )
+                                )
+                            )
+                        )
+                    ),
+                    react_default.a.createElement(
+                        'div',
+                        { className: 'mrg-XXL sm12 md12 xl6 lg6 well-fill mrg-rght-XS' },
+                        react_default.a.createElement(
+                            'div',
+                            { className: 'title-S mrg-S' },
+                            react_default.a.createElement(
+                                'em',
+                                null,
+                                'Protection Plan '
+                            ),
+                            react_default.a.createElement(
+                                'a',
+                                { href: 'javascript:void(0);' },
+                                'Edit'
+                            )
+                        ),
+                        react_default.a.createElement(
+                            'div',
+                            { className: 'mrg-XL' },
+                            react_default.a.createElement('div', { className: 'border-dashed' }),
+                            react_default.a.createElement(
+                                'span',
+                                { className: 'fl-left title-XS protection-plan-bg-fill padding-rght-S' },
+                                '1 Year Limited'
+                            ),
+                            react_default.a.createElement(
+                                'span',
+                                { className: 'fl-right title-XS protection-plan-bg-fill padding-lft-S' },
+                                react_default.a.createElement(
+                                    'em',
+                                    null,
+                                    'Included'
+                                )
+                            )
+                        ),
+                        react_default.a.createElement(
+                            'div',
+                            { className: 'title-S mrg-S mrg-top-M' },
+                            react_default.a.createElement(
+                                'em',
+                                null,
+                                'Parts & Services '
+                            ),
+                            react_default.a.createElement(
+                                'a',
+                                { href: 'javascript:void(0);' },
+                                'Edit'
+                            )
+                        ),
+                        react_default.a.createElement(
+                            'div',
+                            { className: 'mrg-L' },
+                            react_default.a.createElement('div', { className: 'border-dashed' }),
+                            react_default.a.createElement(
+                                'span',
+                                { className: 'fl-left title-XS protection-plan-bg-fill padding-rght-S' },
+                                'Appliance Installation'
+                            ),
+                            react_default.a.createElement(
+                                'span',
+                                { className: 'fl-right title-XS protection-plan-bg-fill padding-lft-S' },
+                                react_default.a.createElement(
+                                    'a',
+                                    { href: 'javascript:void(0);' },
+                                    'Show Details'
+                                )
+                            )
+                        ),
+                        react_default.a.createElement(
+                            'div',
+                            { className: 'mrg-XL' },
+                            react_default.a.createElement('div', { className: 'border-dashed' }),
+                            react_default.a.createElement(
+                                'span',
+                                { className: 'fl-left title-XS protection-plan-bg-fill padding-rght-S' },
+                                'Reinforced Hose'
+                            ),
+                            react_default.a.createElement(
+                                'span',
+                                { className: 'fl-right title-XS protection-plan-bg-fill padding-lft-S' },
+                                react_default.a.createElement(
+                                    'em',
+                                    null,
+                                    '$9.99'
+                                )
+                            )
+                        ),
+                        react_default.a.createElement(
+                            'div',
+                            { className: 'mrg-L protection-plan-price' },
+                            react_default.a.createElement(
+                                'span',
+                                { className: 'fl-left price price-S' },
+                                'Item Total'
+                            ),
+                            react_default.a.createElement(
+                                'span',
+                                { className: 'fl-right price price-S' },
+                                '$999.99'
+                            )
+                        )
+                    )
+                )
+            );
+        }
+    }]);
+
+    return Wells;
+}(react["Component"]);
+
+var wells__default = wells_Wells;
+
+
+/* harmony default export */ var wells = (wells__default);
+;
+
+var wells__temp = function () {
+    if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+        return;
+    }
+
+    __REACT_HOT_LOADER__.register(wells_Wells, 'Wells', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/wells/wells.js');
+
+    __REACT_HOT_LOADER__.register(wells__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/wells/wells.js');
+}();
+
+;
+// CONCATENATED MODULE: ./src/js/components/wells/index.js
+
+var components_wells__default = wells;
+/* harmony default export */ var components_wells = (components_wells__default);
+;
+
+var components_wells__temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(components_wells__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/wells/index.js');
 }();
 
 ;
@@ -20798,7 +21151,7 @@ var footer_Footer = function (_Component) {
                                 { className: 'footer-links-title' },
                                 react_default.a.createElement(
                                     'h5',
-                                    { className: 'mrg-S' },
+                                    { className: 'mrg-S title-S' },
                                     'JCPenney Rewards & Credit Card'
                                 ),
                                 react_default.a.createElement(
@@ -20838,7 +21191,7 @@ var footer_Footer = function (_Component) {
                                 { className: 'footer-links-title' },
                                 react_default.a.createElement(
                                     'h5',
-                                    { className: 'mrg-L' },
+                                    { className: 'mrg-S title-S' },
                                     'Customer Service'
                                 ),
                                 react_default.a.createElement(
@@ -20914,7 +21267,7 @@ var footer_Footer = function (_Component) {
                                 { className: 'footer-links-title' },
                                 react_default.a.createElement(
                                     'h5',
-                                    { className: 'mrg-L' },
+                                    { className: 'mrg-S title-S' },
                                     'Store Services'
                                 ),
                                 react_default.a.createElement(
@@ -20990,7 +21343,7 @@ var footer_Footer = function (_Component) {
                                 { className: 'footer-links-title' },
                                 react_default.a.createElement(
                                     'h5',
-                                    { className: 'mrg-L' },
+                                    { className: 'mrg-S title-S' },
                                     'More Ways to Shop'
                                 ),
                                 react_default.a.createElement(
@@ -21048,7 +21401,7 @@ var footer_Footer = function (_Component) {
                                 { className: 'footer-links-title' },
                                 react_default.a.createElement(
                                     'h5',
-                                    { className: 'mrg-L' },
+                                    { className: 'mrg-S title-S' },
                                     'Corporate Overview'
                                 ),
                                 react_default.a.createElement(
@@ -21156,7 +21509,7 @@ var footer_Footer = function (_Component) {
                             ),
                             react_default.a.createElement(
                                 'div',
-                                { className: 'footer-legal-links md12 lg8 xl4 sm12 nopad' },
+                                { className: 'footer-legal-links md12 lg8 xl8 sm12 nopad' },
                                 react_default.a.createElement(
                                     'ul',
                                     { className: 'list list-links mrg-S' },
@@ -28676,6 +29029,7 @@ function DesignSystemPage__inherits(subClass, superClass) { if (typeof superClas
 
 
 
+
 var DesignSystemPage_DesignSystemPage = function (_Component) {
     DesignSystemPage__inherits(DesignSystemPage, _Component);
 
@@ -28703,6 +29057,7 @@ var DesignSystemPage_DesignSystemPage = function (_Component) {
                 DropdownButton: { componentElement: components_dropdown_button, componentDisplayName: "Dropdown Button", componentSubNav: ['Dropdown Button'] },
                 StarRatings: { componentElement: components_star_ratings, componentDisplayName: "Star Ratings", componentSubNav: ['Star Ratings'] },
                 Scrollbar: { componentElement: components_scrollbar, componentDisplayName: "Scrollbar", componentSubNav: ['Scrollbar'] },
+                Wells: { componentElement: components_wells, componentDisplayName: "Wells", componentSubNav: ['Wells'] },
                 CountdownTimers: { componentElement: components_countdown_timers, componentDisplayName: "Countdown Timers", componentSubNav: ['Countdown Timers'] },
                 VisualNavigation: { componentElement: components_visual_navigation, componentDisplayName: "Visual Navigation", componentSubNav: ['Visual Navigation'] },
                 Modal: { componentElement: components_modal, componentDisplayName: "Modal", componentSubNav: ['Modal'] },
@@ -33117,6 +33472,9 @@ var Root_App = function (_React$Component) {
                                 } }),
                             react_default.a.createElement(es["d" /* Route */], { exact: true, path: '/components/scrollbar', render: function render() {
                                     return react_default.a.createElement(containers_DesignSystemPage, { componentName: 'Scrollbar' });
+                                } }),
+                            react_default.a.createElement(es["d" /* Route */], { exact: true, path: '/components/wells', render: function render() {
+                                    return react_default.a.createElement(containers_DesignSystemPage, { componentName: 'Wells' });
                                 } }),
                             react_default.a.createElement(es["d" /* Route */], { exact: true, path: '/components/progressbar', render: function render() {
                                     return react_default.a.createElement(containers_DesignSystemPage, { componentName: 'ProgressBar' });

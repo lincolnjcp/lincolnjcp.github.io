@@ -168,6 +168,11 @@ const rootNav = [
                 content: 'Scrollbar',
             },
             {
+                to: '/components/wells',
+                activeClassName: 'active',
+                content: 'Wells',
+            },
+            {
                 to: '/',
                 activeClassName: 'inactive',
                 content: 'Video Player',

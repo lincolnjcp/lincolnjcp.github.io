@@ -123,6 +123,7 @@ table {
 .prodCompareContainer{
     margin: 2%;
     overflow: auto;
+    -webkit-overflow-scrolling: touch;
 
 & .prodCompare {
       width: 150%;

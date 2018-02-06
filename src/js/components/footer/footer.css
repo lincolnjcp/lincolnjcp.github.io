@@ -249,8 +249,13 @@
         }
     }
 }
-@media (--viewport-sm) {
-     .footer-block {
+
+.footer-block {
+    @media (--viewport-xl-only) {
+        max-width: 1135px;
+        margin: 0 auto;
+    }
+    @media (--viewport-sm) {
         & .footer-bottom-links{
             & .footer-legal-links ul{
                 float: none;
