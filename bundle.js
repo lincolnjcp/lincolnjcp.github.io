@@ -14380,26 +14380,26 @@ var modal_Modal = function (_Component) {
           react_default.a.createElement('div', { className: 'modal-overlay' }),
           react_default.a.createElement(
             'div',
-            { className: 'modal dialog-pop-up' },
+            { className: 'modal modal-S' },
             react_default.a.createElement('button', { className: 'modal-close', title: 'close' }),
             react_default.a.createElement(
               'h2',
-              { className: 'modal-sub-title title title-L' },
+              { className: 'title title-L mrg-M' },
               'Delete Address'
             ),
             react_default.a.createElement(
               'p',
-              { className: 'modal-body std-txt std-txt-M' },
+              { className: 'mrg-XL std-txt std-txt-M' },
               'Are you sure you want to delete this address from your account?'
             ),
             react_default.a.createElement(
-              'button',
-              { type: 'button', name: 'button', className: 'btn btn-secondary title title-M' },
+              'a',
+              { href: 'javascript:void();', role: 'button', className: 'btn btn-secondary btn-M title title-M mrg-rght-S btn-grey-txt' },
               'No'
             ),
             react_default.a.createElement(
-              'button',
-              { type: 'button', name: 'button', className: 'btn btn-primary title title-M' },
+              'a',
+              { href: 'javascript:void();', role: 'button', className: 'btn btn-primary btn-M title title-M' },
               'Yes'
             )
           ),
@@ -14407,65 +14407,45 @@ var modal_Modal = function (_Component) {
           react_default.a.createElement('br', null),
           react_default.a.createElement(
             'div',
-            { className: 'modal alert-pop-up informational-pop-up' },
+            { className: 'modal modal-L text-left' },
             react_default.a.createElement('button', { className: 'modal-close', title: 'close' }),
             react_default.a.createElement(
               'h2',
-              { className: 'modal-sub-title title title-L' },
+              { className: 'title title-L mrg-M' },
               'Truckable Item Delivery'
             ),
             react_default.a.createElement(
               'p',
-              { className: 'modal-body std-txt std-txt-M' },
+              { className: 'std-txt std-txt-M mrg-L' },
               'Some heavy or bulky items cannot be delivered via UPS, USPS or FedEx. These items must be delivered via truck.'
             ),
             react_default.a.createElement(
               'ul',
-              { className: 'modal-body std-txt std-txt-M informational-list' },
+              { className: 'mrg-XL std-txt std-txt-M list' },
               react_default.a.createElement(
                 'li',
-                { 'class': 'informational-list-content' },
-                react_default.a.createElement(
-                  'p',
-                  { 'class': 'informational-list-para' },
-                  'Additional delivery charges may apply and will be reflected at checkout. '
-                )
+                null,
+                'Additional delivery charges may apply and will be reflected at checkout.'
               ),
               react_default.a.createElement(
                 'li',
-                { 'class': 'informational-list-content' },
-                react_default.a.createElement(
-                  'p',
-                  { 'class': 'informational-list-para' },
-                  'You will be contacted in 7 to 14 days from the time the item is shipped to schedule a delivery appointment.'
-                )
+                null,
+                'You will be contacted in 7 to 14 days from the time the item is shipped to schedule a delivery appointment.'
               ),
               react_default.a.createElement(
                 'li',
-                { 'class': 'informational-list-content' },
-                react_default.a.createElement(
-                  'p',
-                  { 'class': 'informational-list-para' },
-                  'After delivery, you may be contacted about your satisfaction.'
-                )
+                null,
+                'After delivery, you may be contacted about your satisfaction.'
               ),
               react_default.a.createElement(
                 'li',
-                { 'class': 'informational-list-content' },
-                react_default.a.createElement(
-                  'p',
-                  { 'class': 'informational-list-para' },
-                  'All contacts may be automated calls to the number you provided for delivery.'
-                )
+                null,
+                'All contacts may be automated calls to the number you provided for delivery.'
               ),
               react_default.a.createElement(
                 'li',
-                { 'class': 'informational-list-content' },
-                react_default.a.createElement(
-                  'p',
-                  { 'class': 'informational-list-para' },
-                  'You must be present to accept delivery.'
-                )
+                null,
+                'You must be present to accept delivery.'
               )
             )
           ),
@@ -14473,35 +14453,35 @@ var modal_Modal = function (_Component) {
           react_default.a.createElement('br', null),
           react_default.a.createElement(
             'div',
-            { className: 'modal alert-pop-up' },
+            { className: 'modal modal-S' },
             react_default.a.createElement('button', { className: 'modal-close', title: 'close' }),
             react_default.a.createElement('span', { className: 'icon', dangerouslySetInnerHTML: { __html: modal_errorImage } }),
             react_default.a.createElement(
               'h2',
-              { className: 'modal-sub-title title title-L' },
+              { className: 'title title-L mrg-M' },
               'Account Locked'
             ),
             react_default.a.createElement(
-              'p',
-              { className: 'modal-body std-txt std-txt-M' },
+              'div',
+              { className: 'std-txt std-txt-M mrg-M' },
               'Check the email ',
               react_default.a.createElement(
-                'span',
-                { 'class': 'bold-text' },
+                'em',
+                { 'class': 'email-text' },
                 'username@emaildomain.com'
               ),
               'for instructions on how to unlock it.'
             ),
             react_default.a.createElement(
-              'button',
-              { type: 'button', name: 'button', className: 'btn btn-secondary title title-M btn-grey-txt' },
-              'OK'
+              'a',
+              { href: 'javascript:void();', role: 'button', className: 'btn btn-secondary btn-M title title-M btn-grey-txt' },
+              'Ok'
             )
           ),
           react_default.a.createElement('br', null),
           react_default.a.createElement(
             'div',
-            { className: 'modal alert-pop-up' },
+            { className: 'modal modal-S' },
             react_default.a.createElement('button', { className: 'modal-close', title: 'close' }),
             react_default.a.createElement(
               'p',
@@ -14510,24 +14490,24 @@ var modal_Modal = function (_Component) {
             ),
             react_default.a.createElement(
               'h2',
-              { className: 'modal-title-XXL title mrg-S' },
+              { className: 'promo-lbl promo-lbl-XL mrg-S' },
               'Extra 15% OFF'
             ),
             react_default.a.createElement(
               'p',
-              { className: 'modal-body' },
+              { className: 'mrg-XL' },
               'Show coupon to sales associate'
             ),
             react_default.a.createElement(
-              'button',
-              { type: 'button', name: 'button', className: 'btn btn-secondary title title-M' },
+              'a',
+              { href: 'javascript:void();', role: 'button', className: 'btn btn-secondary btn-M title title-M btn-grey-txt' },
               'Print Coupon'
             )
           ),
           react_default.a.createElement('br', null),
           react_default.a.createElement(
             'div',
-            { className: 'modal alert-pop-up' },
+            { className: 'modal modal-S' },
             react_default.a.createElement('button', { className: 'modal-close', title: 'close' }),
             react_default.a.createElement('span', { className: 'icon', dangerouslySetInnerHTML: { __html: modal_successImage } }),
             react_default.a.createElement(
@@ -14537,46 +14517,20 @@ var modal_Modal = function (_Component) {
             ),
             react_default.a.createElement(
               'p',
-              { className: 'modal-body std-txt std-txt-M' },
+              { className: 'mrg-XL std-txt std-txt-M' },
               'You saved $78.99'
             ),
             react_default.a.createElement(
-              'button',
-              { type: 'button', name: 'button', className: 'btn btn-secondary title title-M' },
-              'OK'
-            )
-          ),
-          react_default.a.createElement('br', null),
-          react_default.a.createElement(
-            'div',
-            { className: 'modal dialog-pop-up' },
-            react_default.a.createElement('button', { className: 'modal-close', title: 'close' }),
-            react_default.a.createElement(
-              'h2',
-              { className: 'modal-sub-title' },
-              'This is a Modal'
-            ),
-            react_default.a.createElement(
-              'p',
-              { className: 'modal-body' },
-              'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor'
-            ),
-            react_default.a.createElement(
-              'button',
-              { type: 'button', name: 'button', className: 'btn btn-secondary title title-M' },
-              'Cancel'
-            ),
-            react_default.a.createElement(
-              'button',
-              { type: 'button', name: 'button', className: 'btn btn-primary title title-M' },
-              'Save'
+              'a',
+              { href: 'javascript:void();', role: 'button', className: 'btn btn-secondary btn-M title title-M btn-grey-txt' },
+              'Ok'
             )
           ),
           react_default.a.createElement('br', null),
           react_default.a.createElement('br', null),
           react_default.a.createElement(
             'div',
-            { className: 'modal scroll-container' },
+            { className: 'modal scroll-container modal-L' },
             react_default.a.createElement('button', { className: 'modal-close', title: 'close' }),
             react_default.a.createElement(
               'div',
@@ -14607,7 +14561,7 @@ var modal_Modal = function (_Component) {
           react_default.a.createElement('br', null),
           react_default.a.createElement(
             'div',
-            { className: 'modal scroll-container' },
+            { className: 'modal scroll-container modal-L' },
             react_default.a.createElement('button', { className: 'modal-close', title: 'close' }),
             react_default.a.createElement(
               'div',
@@ -14625,19 +14579,19 @@ var modal_Modal = function (_Component) {
           react_default.a.createElement('br', null),
           react_default.a.createElement(
             'div',
-            { className: 'modal alert-pop-up informational-pop-up form-modal-pop' },
+            { className: 'modal form-modal modal-L' },
             react_default.a.createElement('button', { className: 'modal-close', title: 'close' }),
             react_default.a.createElement(
               'h2',
-              { className: 'modal-sub-title title title-L' },
+              { className: 'title title-L' },
               'Send by Email'
             ),
             react_default.a.createElement(
               'p',
-              { className: 'modal-body std-txt std-txt-M' },
+              { className: 'mrg-XL std-txt std-txt-M fl-left' },
               react_default.a.createElement(
                 'h4',
-                { 'class': 'title-M title mrg-XS information-sendcopy' },
+                { 'class': 'title-M title mrg-XS' },
                 ' Send a copy of your list to up to 10 email addresses '
               )
             ),
@@ -14648,8 +14602,8 @@ var modal_Modal = function (_Component) {
             ),
             react_default.a.createElement(
               'h4',
-              { 'class': 'title-XS title mrg-L information-sendcopy' },
-              ' Separate emails by comma. This information will not be used for marketing purposes.'
+              { 'class': 'title-XS std-txt mrg-L fl-left' },
+              'Separate emails by comma. This information will not be used for marketing purposes.'
             ),
             react_default.a.createElement(
               'div',
@@ -14657,7 +14611,7 @@ var modal_Modal = function (_Component) {
               react_default.a.createElement('textarea', { 'class': 'form-control text-area', name: 'instructions', placeholder: 'Your Message' }),
               react_default.a.createElement(
                 'label',
-                { 'class': 'checkbox mrg-M' },
+                { 'class': 'checkbox mrg-M fl-left' },
                 react_default.a.createElement('input', { type: 'checkbox', value: 'on' }),
                 ' ',
                 react_default.a.createElement(
@@ -14669,9 +14623,13 @@ var modal_Modal = function (_Component) {
               )
             ),
             react_default.a.createElement(
-              'button',
-              { type: 'button', name: 'button', 'class': 'btn btn-primary title title-M form-save' },
-              'Save'
+              'div',
+              { className: 'md12 sm12 lg12 xl12 nopad' },
+              react_default.a.createElement(
+                'a',
+                { href: 'javascript:void();', role: 'button', className: 'btn btn-primary btn-M title title-M fl-right' },
+                'Save'
+              )
             )
           ),
           react_default.a.createElement('br', null),
@@ -28253,7 +28211,7 @@ var recommendation_zone_RecommendationZone = function (_Component) {
               if (productInfo.priceRegular) {
                 return react_default.a.createElement(
                   'div',
-                  { className: 'product-card-note price price-note color-slate std-txt' },
+                  { className: 'product-card-note price color-slate std-txt std-txt-XS' },
                   productInfo.priceRegular
                 );
               }
