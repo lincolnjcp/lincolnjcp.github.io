@@ -890,7 +890,7 @@ var rootNav = [{
         activeClassName: 'inactive',
         content: 'My Account'
     }, {
-        to: '/Page Layouts/pdp',
+        to: '/page-layouts/pdp',
         activeClassName: 'active',
         content: 'PDPs'
     }, {
@@ -15990,7 +15990,7 @@ var pagination_Pagination = function (_Component) {
               null,
               react_default.a.createElement(
                 'a',
-                null,
+                { href: 'javascript:void(0);' },
                 'Back to Products '
               ),
               ' '
@@ -18689,7 +18689,7 @@ var lists_Lists = function (_Component) {
                                 { className: 'title-txt title-S' },
                                 react_default.a.createElement(
                                     'a',
-                                    { href: '#' },
+                                    { href: 'javascript:void(0);' },
                                     'Refrigerator Measuring Guide'
                                 )
                             ),
@@ -18698,7 +18698,7 @@ var lists_Lists = function (_Component) {
                                 { className: 'title-txt title-S' },
                                 react_default.a.createElement(
                                     'a',
-                                    { href: '#' },
+                                    { href: 'javascript:void(0);' },
                                     'Refrigerator Buying Guide'
                                 )
                             ),
@@ -18707,7 +18707,7 @@ var lists_Lists = function (_Component) {
                                 { className: 'title-txt title-S' },
                                 react_default.a.createElement(
                                     'a',
-                                    { href: '#' },
+                                    { href: 'javascript:void(0);' },
                                     'Delivery Checklist'
                                 )
                             ),
@@ -18716,7 +18716,7 @@ var lists_Lists = function (_Component) {
                                 { className: 'title-txt title-S' },
                                 react_default.a.createElement(
                                     'a',
-                                    { href: '#' },
+                                    { href: 'javascript:void(0);' },
                                     'Refrigerator Measuring Guide'
                                 )
                             ),
@@ -18725,7 +18725,7 @@ var lists_Lists = function (_Component) {
                                 { className: 'title-txt title-S' },
                                 react_default.a.createElement(
                                     'a',
-                                    { href: '#' },
+                                    { href: 'javascript:void(0);' },
                                     'Refrigerator Buying Guide'
                                 )
                             ),
@@ -18734,7 +18734,7 @@ var lists_Lists = function (_Component) {
                                 { className: 'title-txt title-S' },
                                 react_default.a.createElement(
                                     'a',
-                                    { href: '#' },
+                                    { href: 'javascript:void(0);' },
                                     'Delivery Checklist'
                                 )
                             ),
@@ -18743,7 +18743,7 @@ var lists_Lists = function (_Component) {
                                 { className: 'title-txt title-S' },
                                 react_default.a.createElement(
                                     'a',
-                                    { href: '#' },
+                                    { href: 'javascript:void(0);' },
                                     'Refrigerator Measuring Guide'
                                 )
                             ),
@@ -18752,7 +18752,7 @@ var lists_Lists = function (_Component) {
                                 { className: 'title-txt title-S' },
                                 react_default.a.createElement(
                                     'a',
-                                    { href: '#' },
+                                    { href: 'javascript:void(0);' },
                                     'Refrigerator Buying Guide'
                                 )
                             ),
@@ -18761,7 +18761,7 @@ var lists_Lists = function (_Component) {
                                 { className: 'title-txt title-S' },
                                 react_default.a.createElement(
                                     'a',
-                                    { href: '#' },
+                                    { href: 'javascript:void(0);' },
                                     'Delivery Checklist'
                                 )
                             )
@@ -19790,16 +19790,22 @@ var header_Header = function (_Component) {
           { className: 'row design-system-enable-hide' },
           react_default.a.createElement(
             'div',
-            { className: 'sm12 columns' },
+            { className: 'row' },
             react_default.a.createElement(
-              'h1',
-              { className: 'title title-XL mrg-L' },
-              'Header'
-            ),
-            react_default.a.createElement(
-              'h2',
-              { className: 'std-txt std-txt-XL mrg-L max-width-text' },
-              'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+              'div',
+              { className: 'sm12 columns' },
+              react_default.a.createElement(
+                'p',
+                { className: 'S' },
+                react_default.a.createElement('br', null),
+                react_default.a.createElement(
+                  'a',
+                  { href: 'javascript:void(0);', id: 'HideDesignSystem' },
+                  'Hide Design System Wrapper'
+                )
+              ),
+              react_default.a.createElement('br', null),
+              react_default.a.createElement('br', null)
             )
           )
         ),
@@ -20569,56 +20575,6 @@ var header_Header = function (_Component) {
               )
             )
           )
-        ),
-        react_default.a.createElement(
-          'div',
-          { className: 'row' },
-          react_default.a.createElement(
-            'div',
-            { className: 'sm12 columns' },
-            react_default.a.createElement(
-              'p',
-              { className: 'S' },
-              react_default.a.createElement('br', null),
-              react_default.a.createElement('br', null),
-              react_default.a.createElement('br', null),
-              react_default.a.createElement('br', null),
-              react_default.a.createElement('br', null),
-              react_default.a.createElement(
-                'a',
-                { href: 'javascript:void(0);', id: 'HideDesignSystem' },
-                'Hide Design System Wrapper'
-              )
-            )
-          )
-        ),
-        react_default.a.createElement(
-          'div',
-          { className: 'row design-system-enable-hide' },
-          react_default.a.createElement(
-            'div',
-            { className: 'sm12 columns' },
-            react_default.a.createElement('hr', null),
-            react_default.a.createElement(
-              'p',
-              { className: 'S' },
-              'Created by: ',
-              react_default.a.createElement(
-                'strong',
-                null,
-                'Tony Stark'
-              ),
-              ' and ',
-              react_default.a.createElement(
-                'strong',
-                null,
-                'Bruce Banner'
-              ),
-              ' ',
-              react_default.a.createElement('br', null),
-              'Latest update: 04/05/2017'
-            )
-          )
         )
       );
     }
@@ -20762,7 +20718,7 @@ var footer_Footer = function (_Component) {
                 null,
                 react_default.a.createElement(
                     'div',
-                    { className: 'row' },
+                    { className: '' },
                     react_default.a.createElement(
                         'footer',
                         { className: 'footer-block' },
@@ -28789,6 +28745,7 @@ function pdp__inherits(subClass, superClass) { if (typeof superClass !== "functi
 
 
 
+
 var pdp_Pdp = function (_Component) {
     pdp__inherits(Pdp, _Component);
 
@@ -28810,7 +28767,8 @@ var pdp_Pdp = function (_Component) {
                 react_default.a.createElement(
                     'div',
                     { className: 'row' },
-                    react_default.a.createElement(header, null)
+                    react_default.a.createElement(header, null),
+                    react_default.a.createElement(footer, null)
                 )
             );
         }
