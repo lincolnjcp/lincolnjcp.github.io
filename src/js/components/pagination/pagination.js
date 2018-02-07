@@ -77,7 +77,7 @@ class Pagination extends Component {
 
           <div className="back-to-product">
             <span className="icon color-shadow-svg" dangerouslySetInnerHTML={{__html: chevronleftImage}} /> 
-            <li><a>Back to Products </a> </li>
+            <li><a href="javascript:void(0);">Back to Products </a> </li>
           </div><br/><br/><br/>
           <div className="back-to-top-block">
               <h1 class="title title-XL mrg-L">Back to Top</h1>

@@ -190,6 +190,7 @@ class App extends React.Component {
                             <Route exact path="/page-modules/filter-sort" render={() => <DesignSystemPage componentName="FilterSort" />} />
                             <Route exact path="/page-modules/like-dislike" render={() => <DesignSystemPage componentName="LikeDislike" />} />
                             <Route exact path="/page-modules/recommendation-zone" render={() => <DesignSystemPage componentName="RecommendationZone" />} />
+                            <Route exact path="/page-layouts/pdp" render={() => <DesignSystemPage componentName="Pdp" />} />
                         </div>
                     </div>
 

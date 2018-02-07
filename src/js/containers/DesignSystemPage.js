@@ -38,6 +38,7 @@ import ExpandCollapse from '../components/expand-collapse';
 import ProductCards from '../components/product-cards';
 import LikeDislike from '../components/like-dislike';
 import RecommendationZone from '../components/recommendation-zone';
+import Pdp from '../components/pdp';
 
 import SubNav from './SubNav';
 
@@ -81,7 +82,8 @@ class DesignSystemPage extends Component {
    ExpandCollapse: {componentElement: ExpandCollapse, componentDisplayName: "Expand Collapse", componentSubNav: ['ExpandCollapse']},
    RecommendationZone: {componentElement: RecommendationZone, componentDisplayName: "Recommendation Zone", componentSubNav: ['RecommendationZone']},
    Pricing: {componentElement: Pricing, componentDisplayName: "Pricing", componentSubNav: ['Pricing']},
-   ProgressBar: {componentElement: ProgressBar, componentDisplayName: "ProgressBar", componentSubNav: ['ProgressBar']}
+   ProgressBar: {componentElement: ProgressBar, componentDisplayName: "ProgressBar", componentSubNav: ['ProgressBar']},
+   Pdp: {componentElement: Pdp, componentDisplayName: "Pdp", componentSubNav: ['Pdp']}
   }
 
   const Scene = routes[this.props.componentName].componentElement;

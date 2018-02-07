@@ -476,10 +476,18 @@ class Header extends Component {
     return (
       <div>
         <div className="row design-system-enable-hide">
-          <div className="sm12 columns">
+          {/* <div className="sm12 columns">
             <h1 className="title title-XL mrg-L">Header</h1>
             <h2 className="std-txt std-txt-XL mrg-L max-width-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h2>
+          </div> */}
+          <div className="row">
+          <div className="sm12 columns">
+            <p className="S"><br />
+              <a href="javascript:void(0);" id="HideDesignSystem">Hide Design System Wrapper</a></p>
+              <br />
+              <br />
           </div>
+        </div>
         </div>
         <header className="main-menu">
           <div className="main-menu-promotional-banner">
@@ -873,23 +881,13 @@ class Header extends Component {
             </div>
           </div>
         </header>
-        <div className="row">
-          <div className="sm12 columns">
-            <p className="S"><br />
-              <br />
-              <br />
-              <br />
-              <br />
-              <a href="javascript:void(0);" id="HideDesignSystem">Hide Design System Wrapper</a></p>
-          </div>
-        </div>
-        <div className="row design-system-enable-hide">
+        {/* <div className="row design-system-enable-hide">
           <div className="sm12 columns">
             <hr />
             <p className="S">Created by: <strong>Tony Stark</strong> and <strong>Bruce Banner</strong> <br />
               Latest update: 04/05/2017</p>
           </div>
-        </div>
+        </div> */}
       </div>
 
 

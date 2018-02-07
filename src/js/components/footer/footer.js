@@ -78,7 +78,7 @@ class Footer extends Component {
     render() {
         return (
             <div>
-                <div className="row">
+                <div className="">
                     <footer className="footer-block">
                         <div className="signup-block md10 lg8 xl8 sm12">
                             <em className="mrg-S title-S">Signup for text* or email alerts and offers</em>

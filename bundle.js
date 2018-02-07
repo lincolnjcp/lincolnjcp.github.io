@@ -839,7 +839,7 @@ var rootNav = [{
         activeClassName: 'active',
         content: 'Like/Dislike Messages'
     }, {
-        to: '/components/modal',
+        to: '/page-modules/modal',
         activeClassName: 'active',
         content: 'Modals'
     }, {
@@ -890,8 +890,8 @@ var rootNav = [{
         activeClassName: 'inactive',
         content: 'My Account'
     }, {
-        to: '/',
-        activeClassName: 'inactive',
+        to: '/Page Layouts/pdp',
+        activeClassName: 'active',
         content: 'PDPs'
     }, {
         to: '/',
@@ -28777,6 +28777,80 @@ var components_recommendation_zone__temp = function () {
 }();
 
 ;
+// CONCATENATED MODULE: ./src/js/components/pdp/pdp.js
+var pdp__createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+function pdp__classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function pdp__possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function pdp__inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+
+
+
+var pdp_Pdp = function (_Component) {
+    pdp__inherits(Pdp, _Component);
+
+    function Pdp() {
+        pdp__classCallCheck(this, Pdp);
+
+        return pdp__possibleConstructorReturn(this, (Pdp.__proto__ || Object.getPrototypeOf(Pdp)).apply(this, arguments));
+    }
+
+    pdp__createClass(Pdp, [{
+        key: 'componentDidMount',
+        value: function componentDidMount() {}
+    }, {
+        key: 'render',
+        value: function render() {
+            return react_default.a.createElement(
+                'div',
+                null,
+                react_default.a.createElement(
+                    'div',
+                    { className: 'row' },
+                    react_default.a.createElement(header, null)
+                )
+            );
+        }
+    }]);
+
+    return Pdp;
+}(react["Component"]);
+
+var pdp__default = pdp_Pdp;
+
+
+/* harmony default export */ var pdp = (pdp__default);
+;
+
+var pdp__temp = function () {
+    if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+        return;
+    }
+
+    __REACT_HOT_LOADER__.register(pdp_Pdp, 'Pdp', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/pdp/pdp.js');
+
+    __REACT_HOT_LOADER__.register(pdp__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/pdp/pdp.js');
+}();
+
+;
+// CONCATENATED MODULE: ./src/js/components/pdp/index.js
+
+var components_pdp__default = pdp;
+/* harmony default export */ var components_pdp = (components_pdp__default);
+;
+
+var components_pdp__temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(components_pdp__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/pdp/index.js');
+}();
+
+;
 // CONCATENATED MODULE: ./src/js/containers/SubNav.js
 var SubNav__createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
@@ -28988,6 +29062,7 @@ function DesignSystemPage__inherits(subClass, superClass) { if (typeof superClas
 
 
 
+
 var DesignSystemPage_DesignSystemPage = function (_Component) {
     DesignSystemPage__inherits(DesignSystemPage, _Component);
 
@@ -29037,7 +29112,8 @@ var DesignSystemPage_DesignSystemPage = function (_Component) {
                 ExpandCollapse: { componentElement: components_expand_collapse, componentDisplayName: "Expand Collapse", componentSubNav: ['ExpandCollapse'] },
                 RecommendationZone: { componentElement: components_recommendation_zone, componentDisplayName: "Recommendation Zone", componentSubNav: ['RecommendationZone'] },
                 Pricing: { componentElement: components_pricing, componentDisplayName: "Pricing", componentSubNav: ['Pricing'] },
-                ProgressBar: { componentElement: components_progressbar, componentDisplayName: "ProgressBar", componentSubNav: ['ProgressBar'] }
+                ProgressBar: { componentElement: components_progressbar, componentDisplayName: "ProgressBar", componentSubNav: ['ProgressBar'] },
+                Pdp: { componentElement: components_pdp, componentDisplayName: "Pdp", componentSubNav: ['Pdp'] }
             };
 
             var Scene = routes[this.props.componentName].componentElement;
@@ -33499,6 +33575,9 @@ var Root_App = function (_React$Component) {
                                 } }),
                             react_default.a.createElement(es["d" /* Route */], { exact: true, path: '/page-modules/recommendation-zone', render: function render() {
                                     return react_default.a.createElement(containers_DesignSystemPage, { componentName: 'RecommendationZone' });
+                                } }),
+                            react_default.a.createElement(es["d" /* Route */], { exact: true, path: '/page-layouts/pdp', render: function render() {
+                                    return react_default.a.createElement(containers_DesignSystemPage, { componentName: 'Pdp' });
                                 } })
                         )
                     )

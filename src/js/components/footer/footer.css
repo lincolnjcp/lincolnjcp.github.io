@@ -252,7 +252,7 @@
 
 .footer-block {
     @media (--viewport-xl-only) {
-        max-width: 1135px;
+        max-width: 1440px;
         margin: 0 auto;
     }
     @media (--viewport-sm) {

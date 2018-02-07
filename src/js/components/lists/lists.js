@@ -54,15 +54,15 @@ componentDidMount() {
             <h5 className="title title-M mrg-S">Link Lists</h5>
             <p className="mrg-L">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             <ul className="list list-links mrg-XL">
-              <li className="title-txt title-S"><a href="#">Refrigerator Measuring Guide</a></li>
-              <li className="title-txt title-S"><a href="#">Refrigerator Buying Guide</a></li>
-              <li className="title-txt title-S"><a href="#">Delivery Checklist</a></li>
-              <li className="title-txt title-S"><a href="#">Refrigerator Measuring Guide</a></li>
-              <li className="title-txt title-S"><a href="#">Refrigerator Buying Guide</a></li>
-              <li className="title-txt title-S"><a href="#">Delivery Checklist</a></li>
-              <li className="title-txt title-S"><a href="#">Refrigerator Measuring Guide</a></li>
-              <li className="title-txt title-S"><a href="#">Refrigerator Buying Guide</a></li>
-              <li className="title-txt title-S"><a href="#">Delivery Checklist</a></li>
+              <li className="title-txt title-S"><a href="javascript:void(0);">Refrigerator Measuring Guide</a></li>
+              <li className="title-txt title-S"><a href="javascript:void(0);">Refrigerator Buying Guide</a></li>
+              <li className="title-txt title-S"><a href="javascript:void(0);">Delivery Checklist</a></li>
+              <li className="title-txt title-S"><a href="javascript:void(0);">Refrigerator Measuring Guide</a></li>
+              <li className="title-txt title-S"><a href="javascript:void(0);">Refrigerator Buying Guide</a></li>
+              <li className="title-txt title-S"><a href="javascript:void(0);">Delivery Checklist</a></li>
+              <li className="title-txt title-S"><a href="javascript:void(0);">Refrigerator Measuring Guide</a></li>
+              <li className="title-txt title-S"><a href="javascript:void(0);">Refrigerator Buying Guide</a></li>
+              <li className="title-txt title-S"><a href="javascript:void(0);">Delivery Checklist</a></li>
             </ul>
             <p className="design-system-css-class">.list-links</p>
 
