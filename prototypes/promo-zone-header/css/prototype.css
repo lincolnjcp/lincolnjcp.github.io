@@ -403,3 +403,13 @@
 	opacity: 0.5;
 	cursor: default;
 }
+
+
+@media (max-width: 767px) {
+	.main-menu-promotional-banner-promo-set { display: block; }
+	.main-menu-promotional-banner-promo-item, .main-menu-promotional-banner-promo-or { display: block; flex: unset; }
+	.main-menu-promotional-banner-carousel-btn-row { margin-top: 0; }
+	.main-menu-promotional-banner-promo-set { margin-bottom: 10px; }
+	.main-menu-promotional-banner-promo-or div { position: relative; top:auto; left: auto; display: inline-block; width: auto; padding-left: 8px; padding-right: 8px; }
+	.main-menu-promotional-banner-promo-or::before { border-left: none; border-top: 1px solid #FFF; width: 100%; height: 1px; left: 0; top: -4px; }
+}
