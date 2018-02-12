@@ -19,7 +19,7 @@ class Wells extends Component {
         return (
             <div>
                 <div className="row">
-                    <div className="mrg-XXL sm12 md12 xl6 lg6 well mrg-rght-XS">
+                    <div className="mrg-XXL sm12 md12 well mrg-rght-XS">
                         <h3 className="title title-M mrg-M mrg-lft-S">General Information</h3>
                         <ul className="list list-icons mrg-lft-S">
                             <li className="title-txt title-S">
@@ -44,7 +44,7 @@ class Wells extends Component {
                             </li>
                         </ul>
                     </div>
-                    <div className="mrg-XXL sm12 md12 xl6 lg6 well mrg-rght-XS">
+                    {/* <div className="mrg-XXL sm12 md12 xl6 lg6 well mrg-rght-XS">
                         <h3 className="title title-M mrg-M mrg-lft-S">Shipping & Returns</h3>
                         <ul className="list list-icons mrg-lft-S">
                             <li className="title-txt title-S">
@@ -92,7 +92,7 @@ class Wells extends Component {
                             <span className="fl-left price price-S">Item Total</span>
                             <span className="fl-right price price-S">$999.99</span>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         );
