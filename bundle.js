@@ -26920,6 +26920,8 @@ function pdp__inherits(subClass, superClass) { if (typeof superClass !== "functi
 
 
 
+
+
 var pdp_starImage = __webpack_require__("CKfJ");
 var pdp_starhalfImage = __webpack_require__("KM/1");
 var pdp_mailImage = __webpack_require__("rhDH");
@@ -26927,6 +26929,7 @@ var pdp_rulerImage = __webpack_require__("eAXJ");
 var pdp_facebookfillImage = __webpack_require__("RHxQ");
 var pdp_twitterfillImage = __webpack_require__("Oiyx");
 var pdp_pinterestfillImage = __webpack_require__("fSow");
+var pdp_plusImage = __webpack_require__("Vx6E");
 
 var pdp_Pdp = function (_Component) {
     pdp__inherits(Pdp, _Component);
@@ -26999,6 +27002,30 @@ var pdp_Pdp = function (_Component) {
                     accordionToggles[i].addEventListener('click', switchAccordion, false);
                 }
             })();
+
+            jquery_default()(function () {
+                jquery_default()(".form-select1 select").on('change', function () {
+                    if (jquery_default()(this).val() != " ") {
+                        jquery_default()(".form-select1 .select-label").removeClass("hide");
+                        jquery_default()(".form-select1 select").addClass("select-selected");
+                    } else {
+                        jquery_default()(".form-select1 .select-label").addClass("hide");
+                        jquery_default()(".form-select1 select").removeClass("select-selected");
+                    }
+                });
+            });
+
+            jquery_default()(function () {
+                jquery_default()(".form-select2 select").on('change', function () {
+                    if (jquery_default()(this).val() != " ") {
+                        jquery_default()(".form-select2 .select-label").removeClass("hide");
+                        jquery_default()(".form-select2 select").addClass("select-selected");
+                    } else {
+                        jquery_default()(".form-select2 .select-label").addClass("hide");
+                        jquery_default()(".form-select2 select").removeClass("select-selected");
+                    }
+                });
+            });
         }
     }, {
         key: 'render',
@@ -27012,166 +27039,162 @@ var pdp_Pdp = function (_Component) {
                     react_default.a.createElement(header, null),
                     react_default.a.createElement(
                         'div',
-                        { className: 'row' },
+                        { className: 'product-title-block mrg-L mrg-top-L' },
                         react_default.a.createElement(
                             'div',
-                            { className: 'product-title-block mrg-L mrg-top-L' },
+                            { className: 'breadcrumbs-block' },
+                            react_default.a.createElement(
+                                'ul',
+                                { className: 'breadcrumbs' },
+                                react_default.a.createElement(
+                                    'li',
+                                    null,
+                                    react_default.a.createElement(
+                                        'a',
+                                        { href: '#' },
+                                        'JCPenney'
+                                    )
+                                ),
+                                react_default.a.createElement(
+                                    'li',
+                                    null,
+                                    react_default.a.createElement(
+                                        'a',
+                                        { href: '#' },
+                                        'Womens'
+                                    )
+                                ),
+                                react_default.a.createElement(
+                                    'li',
+                                    null,
+                                    'Tops'
+                                )
+                            )
+                        ),
+                        react_default.a.createElement(
+                            'h1',
+                            { className: 'title title-L mrg-top-S mrg-S' },
+                            'St. John\'s Bay Long Sleeve V Neck Pullover Sweater'
+                        ),
+                        react_default.a.createElement(
+                            'div',
+                            { className: 'lg12 sm12 md12 xl12 nopad' },
                             react_default.a.createElement(
                                 'div',
-                                { className: 'breadcrumbs-block' },
+                                { className: 'star-preview-col fl-left sm12 md6 lg6 xl6 nopad' },
                                 react_default.a.createElement(
                                     'ul',
-                                    { className: 'breadcrumbs' },
+                                    { className: 'star-ratings-S' },
                                     react_default.a.createElement(
                                         'li',
-                                        null,
-                                        react_default.a.createElement(
-                                            'a',
-                                            { href: '#' },
-                                            'JCPenney'
-                                        )
+                                        { className: 'star-ratings start-ratings-full' },
+                                        react_default.a.createElement('span', { className: 'icon ', dangerouslySetInnerHTML: { __html: pdp_starImage } })
                                     ),
                                     react_default.a.createElement(
                                         'li',
-                                        null,
-                                        react_default.a.createElement(
-                                            'a',
-                                            { href: '#' },
-                                            'Womens'
-                                        )
+                                        { className: 'star-ratings start-ratings-full' },
+                                        react_default.a.createElement('span', { className: 'icon ', dangerouslySetInnerHTML: { __html: pdp_starImage } })
                                     ),
                                     react_default.a.createElement(
                                         'li',
-                                        null,
-                                        'Tops'
+                                        { className: 'star-ratings start-ratings-full' },
+                                        react_default.a.createElement('span', { className: 'icon ', dangerouslySetInnerHTML: { __html: pdp_starImage } })
+                                    ),
+                                    react_default.a.createElement(
+                                        'li',
+                                        { className: 'star-ratings start-ratings-half' },
+                                        react_default.a.createElement('span', { className: 'icon', dangerouslySetInnerHTML: { __html: pdp_starhalfImage } })
+                                    ),
+                                    react_default.a.createElement(
+                                        'li',
+                                        { className: 'star-ratings star-rating-empty' },
+                                        react_default.a.createElement('span', { className: 'icon color-concrete-svg', dangerouslySetInnerHTML: { __html: pdp_starImage } })
+                                    ),
+                                    react_default.a.createElement(
+                                        'li',
+                                        { className: 'star-ratings' },
+                                        react_default.a.createElement(
+                                            'a',
+                                            { href: 'javascript:void();', className: 'rating-count' },
+                                            '99,999'
+                                        )
                                     )
                                 )
                             ),
                             react_default.a.createElement(
-                                'h1',
-                                { className: 'title title-L mrg-top-S mrg-S' },
-                                'St. John\'s Bay Long Sleeve V Neck Pullover Sweater'
-                            ),
+                                'div',
+                                { className: 'md6 sm12 lg6 xl6 nopad social-share' },
+                                react_default.a.createElement('span', { className: 'icon ', dangerouslySetInnerHTML: { __html: pdp_mailImage } }),
+                                react_default.a.createElement('span', { className: 'icon ', dangerouslySetInnerHTML: { __html: pdp_facebookfillImage } }),
+                                react_default.a.createElement('span', { className: 'icon ', dangerouslySetInnerHTML: { __html: pdp_twitterfillImage } }),
+                                react_default.a.createElement('span', { className: 'icon ', dangerouslySetInnerHTML: { __html: pdp_pinterestfillImage } })
+                            )
+                        )
+                    ),
+                    react_default.a.createElement(
+                        'div',
+                        { className: 'md12 sm12 lg6 xl6 nopad' },
+                        react_default.a.createElement(carousel, null)
+                    ),
+                    react_default.a.createElement(
+                        'div',
+                        { className: 'md12 sm12 lg6 xl6' },
+                        react_default.a.createElement(
+                            'div',
+                            { className: 'pdp-pricing mrg-M' },
                             react_default.a.createElement(
                                 'div',
-                                { className: 'lg12 sm12 md12 xl12 nopad' },
+                                { className: 'price-card' },
                                 react_default.a.createElement(
                                     'div',
-                                    { className: 'star-preview-col fl-left sm12 md6 lg6 xl6 nopad' },
+                                    { className: 'price price-promo mrg-XS color-penneyred' },
+                                    'LARGE MARKETING LABEL'
+                                ),
+                                react_default.a.createElement(
+                                    'div',
+                                    { className: 'price price-M mrg-rght-XS mrg-top-S mrg-M' },
+                                    '$59.99',
                                     react_default.a.createElement(
-                                        'ul',
-                                        { className: 'star-ratings-S' },
-                                        react_default.a.createElement(
-                                            'li',
-                                            { className: 'star-ratings start-ratings-full' },
-                                            react_default.a.createElement('span', { className: 'icon ', dangerouslySetInnerHTML: { __html: pdp_starImage } })
-                                        ),
-                                        react_default.a.createElement(
-                                            'li',
-                                            { className: 'star-ratings start-ratings-full' },
-                                            react_default.a.createElement('span', { className: 'icon ', dangerouslySetInnerHTML: { __html: pdp_starImage } })
-                                        ),
-                                        react_default.a.createElement(
-                                            'li',
-                                            { className: 'star-ratings start-ratings-full' },
-                                            react_default.a.createElement('span', { className: 'icon ', dangerouslySetInnerHTML: { __html: pdp_starImage } })
-                                        ),
-                                        react_default.a.createElement(
-                                            'li',
-                                            { className: 'star-ratings start-ratings-half' },
-                                            react_default.a.createElement('span', { className: 'icon', dangerouslySetInnerHTML: { __html: pdp_starhalfImage } })
-                                        ),
-                                        react_default.a.createElement(
-                                            'li',
-                                            { className: 'star-ratings star-rating-empty' },
-                                            react_default.a.createElement('span', { className: 'icon color-concrete-svg', dangerouslySetInnerHTML: { __html: pdp_starImage } })
-                                        ),
-                                        react_default.a.createElement(
-                                            'li',
-                                            { className: 'star-ratings' },
-                                            react_default.a.createElement(
-                                                'a',
-                                                { href: 'javascript:void();', className: 'rating-count' },
-                                                '99,999'
-                                            )
-                                        )
+                                        'span',
+                                        { className: 'price price-note-M mrg-lft-XS' },
+                                        ' sale '
+                                    ),
+                                    react_default.a.createElement(
+                                        'span',
+                                        { className: 'price price-note-M mrg-lft-S color-slate std-txt' },
+                                        'was $89.99'
+                                    ),
+                                    react_default.a.createElement(
+                                        'span',
+                                        { className: 'price price-note-M mrg-lft-M color-slate std-txt' },
+                                        '20% off'
                                     )
                                 ),
                                 react_default.a.createElement(
                                     'div',
-                                    { className: 'md6 sm12 lg6 xl6 nopad social-share' },
-                                    react_default.a.createElement('span', { className: 'icon ', dangerouslySetInnerHTML: { __html: pdp_mailImage } }),
-                                    react_default.a.createElement('span', { className: 'icon ', dangerouslySetInnerHTML: { __html: pdp_facebookfillImage } }),
-                                    react_default.a.createElement('span', { className: 'icon ', dangerouslySetInnerHTML: { __html: pdp_twitterfillImage } }),
-                                    react_default.a.createElement('span', { className: 'icon ', dangerouslySetInnerHTML: { __html: pdp_pinterestfillImage } })
-                                )
-                            )
-                        ),
-                        react_default.a.createElement(
-                            'div',
-                            { className: 'md12 sm12 lg6 xl6 nopad' },
-                            react_default.a.createElement(carousel, null)
-                        ),
-                        react_default.a.createElement(
-                            'div',
-                            { className: 'md12 sm12 lg6 xl6' },
-                            react_default.a.createElement(
-                                'div',
-                                { className: 'pdp-pricing' },
+                                    { className: 'price price-M mrg-rght-XS flag flag-price mrg-XS' },
+                                    '$40.99'
+                                ),
+                                react_default.a.createElement(
+                                    'span',
+                                    { className: 'price price-note-M color-penneyred' },
+                                    'Extra 20% off'
+                                ),
                                 react_default.a.createElement(
                                     'div',
-                                    { className: 'price-card' },
-                                    react_default.a.createElement(
-                                        'div',
-                                        { className: 'price price-promo mrg-XS color-penneyred' },
-                                        'LARGE MARKETING LABEL'
-                                    ),
-                                    react_default.a.createElement(
-                                        'div',
-                                        { className: 'price price-M mrg-rght-XS mrg-top-S mrg-M' },
-                                        '$59.99',
-                                        react_default.a.createElement(
-                                            'span',
-                                            { className: 'price price-note-M mrg-lft-XS' },
-                                            ' sale '
-                                        ),
-                                        react_default.a.createElement(
-                                            'span',
-                                            { className: 'price price-note-M mrg-lft-S color-slate std-txt' },
-                                            'was $89.99'
-                                        ),
-                                        react_default.a.createElement(
-                                            'span',
-                                            { className: 'price price-note-M mrg-lft-M color-slate std-txt' },
-                                            '20% off'
-                                        )
-                                    ),
-                                    react_default.a.createElement(
-                                        'div',
-                                        { className: 'price price-M mrg-rght-XS flag flag-price mrg-XS' },
-                                        '$40.99'
-                                    ),
+                                    { className: 'price' },
                                     react_default.a.createElement(
                                         'span',
                                         { className: 'price price-note-M color-penneyred' },
-                                        'Extra 20% off'
+                                        'with coupon code: FUNDEAL '
                                     ),
                                     react_default.a.createElement(
-                                        'div',
-                                        { className: 'price' },
+                                        'span',
+                                        { className: 'std-txt std-txt-XS' },
                                         react_default.a.createElement(
-                                            'span',
-                                            { className: 'price price-note-M color-penneyred' },
-                                            'with coupon code: FUNDEAL '
-                                        ),
-                                        react_default.a.createElement(
-                                            'span',
-                                            { className: 'std-txt std-txt-XS' },
-                                            react_default.a.createElement(
-                                                'a',
-                                                { href: 'javascript:void(0);' },
-                                                'details'
-                                            )
+                                            'a',
+                                            { href: 'javascript:void(0);' },
+                                            'details'
                                         )
                                     )
                                 )
@@ -27179,28 +27202,323 @@ var pdp_Pdp = function (_Component) {
                         ),
                         react_default.a.createElement(
                             'div',
-                            { className: 'fit-predictor' },
+                            { className: 'fit-predictor mrg-L' },
                             react_default.a.createElement(
                                 'span',
                                 { className: 'title tile-M' },
-                                'Fit Predictor'
+                                'Fit Predictor '
                             ),
                             react_default.a.createElement(
                                 'a',
                                 { href: 'javascript:void(0);' },
-                                'calculate your size'
+                                'calculate your size '
                             ),
-                            react_default.a.createElement('span', { className: 'icon ', dangerouslySetInnerHTML: { __html: pdp_rulerImage } }),
                             react_default.a.createElement(
                                 'a',
                                 { href: 'javascript:void(0);' },
-                                'size chart'
+                                ' size chart'
                             )
                         ),
-                        react_default.a.createElement(expand_collapse, null),
-                        react_default.a.createElement(recommendation_zone, null),
-                        react_default.a.createElement(recommendation_zone, null)
+                        react_default.a.createElement(
+                            'div',
+                            { className: 'sku-selector sm12 md12 lg12 xl12 nopad' },
+                            react_default.a.createElement(
+                                'div',
+                                { className: 'select-form sm12 md6 lg6 xl6 nopad' },
+                                react_default.a.createElement(
+                                    'div',
+                                    { className: 'select' },
+                                    react_default.a.createElement(
+                                        'div',
+                                        { className: 'form-float-label form-select1' },
+                                        react_default.a.createElement(
+                                            'select',
+                                            { className: 'form-control custom-select' },
+                                            react_default.a.createElement(
+                                                'option',
+                                                { value: ' ' },
+                                                'Size Range'
+                                            ),
+                                            react_default.a.createElement(
+                                                'option',
+                                                { value: '1' },
+                                                'Small'
+                                            ),
+                                            react_default.a.createElement(
+                                                'option',
+                                                { value: '2' },
+                                                'Medium'
+                                            ),
+                                            react_default.a.createElement(
+                                                'option',
+                                                { value: '3' },
+                                                'Large'
+                                            ),
+                                            react_default.a.createElement(
+                                                'option',
+                                                { value: '4' },
+                                                'X Large'
+                                            )
+                                        ),
+                                        react_default.a.createElement(
+                                            'span',
+                                            { className: 'select-label hide' },
+                                            'Size Range'
+                                        )
+                                    )
+                                )
+                            ),
+                            react_default.a.createElement(
+                                'div',
+                                { className: 'select-form sm12 md6 lg6 xl6' },
+                                react_default.a.createElement(
+                                    'div',
+                                    { className: 'select' },
+                                    react_default.a.createElement(
+                                        'div',
+                                        { className: 'form-float-label form-select2' },
+                                        react_default.a.createElement(
+                                            'select',
+                                            { className: 'form-control custom-select' },
+                                            react_default.a.createElement(
+                                                'option',
+                                                { value: ' ' },
+                                                'Size'
+                                            ),
+                                            react_default.a.createElement(
+                                                'option',
+                                                { value: '1' },
+                                                'Small'
+                                            ),
+                                            react_default.a.createElement(
+                                                'option',
+                                                { value: '2' },
+                                                'Medium'
+                                            ),
+                                            react_default.a.createElement(
+                                                'option',
+                                                { value: '3' },
+                                                'Large'
+                                            ),
+                                            react_default.a.createElement(
+                                                'option',
+                                                { value: '4' },
+                                                'X Large'
+                                            )
+                                        ),
+                                        react_default.a.createElement(
+                                            'span',
+                                            { className: 'select-label hide' },
+                                            'Size'
+                                        )
+                                    )
+                                )
+                            )
+                        ),
+                        react_default.a.createElement(
+                            'div',
+                            { className: 'overall-fit mrg-M' },
+                            react_default.a.createElement('img', { src: '/images/global/bazaar-voice-fit@3x.png', alt: '' })
+                        ),
+                        react_default.a.createElement(
+                            'div',
+                            { className: 'color-swatches-block mrg-L' },
+                            react_default.a.createElement(
+                                'p',
+                                null,
+                                react_default.a.createElement(
+                                    'span',
+                                    null,
+                                    react_default.a.createElement(
+                                        'strong',
+                                        null,
+                                        'Color:'
+                                    ),
+                                    ' Blue'
+                                )
+                            ),
+                            react_default.a.createElement(
+                                'ul',
+                                { className: 'list-product-colors-container' },
+                                react_default.a.createElement(
+                                    'li',
+                                    null,
+                                    react_default.a.createElement('a', { href: 'javascript:void(0)', className: 'list-color-swatch list-color-swatch-active color-neutral-type-bg' })
+                                ),
+                                react_default.a.createElement(
+                                    'li',
+                                    null,
+                                    react_default.a.createElement('a', { href: 'javascript:void(0)', className: 'list-color-swatch' })
+                                ),
+                                react_default.a.createElement(
+                                    'li',
+                                    null,
+                                    react_default.a.createElement('a', { href: 'javascript:void(0)', className: 'list-color-swatch' })
+                                ),
+                                react_default.a.createElement(
+                                    'li',
+                                    null,
+                                    react_default.a.createElement('a', { href: 'javascript:void(0)', className: 'list-color-swatch' })
+                                ),
+                                react_default.a.createElement(
+                                    'li',
+                                    null,
+                                    react_default.a.createElement('a', { href: 'javascript:void(0)', className: 'list-color-swatch' })
+                                )
+                            )
+                        ),
+                        react_default.a.createElement(
+                            'div',
+                            { className: 'well sm12 md12 lg12 xl12 nopad' },
+                            react_default.a.createElement(
+                                'div',
+                                { className: 'ship-to-home sm6 md6 lg6 xl6' },
+                                react_default.a.createElement(
+                                    'div',
+                                    { className: '' },
+                                    react_default.a.createElement('input', { type: 'radio', id: 'two', name: 'name', value: '', defaultChecked: 'false' }),
+                                    react_default.a.createElement(
+                                        'label',
+                                        { htmlFor: 'two' },
+                                        react_default.a.createElement(
+                                            'p',
+                                            { className: 'title title-S std-txt color-nightsky' },
+                                            react_default.a.createElement(
+                                                'span',
+                                                null,
+                                                'Ship to Home'
+                                            ),
+                                            ' ',
+                                            react_default.a.createElement('br', null),
+                                            react_default.a.createElement(
+                                                'span',
+                                                { className: 'std-txt std-txt-XS' },
+                                                'Delivered by May 9th - May 20th '
+                                            )
+                                        )
+                                    )
+                                )
+                            ),
+                            react_default.a.createElement(
+                                'div',
+                                { className: 'ship-to-home sm6 md6 lg6 xl6' },
+                                react_default.a.createElement(
+                                    'div',
+                                    { className: '' },
+                                    react_default.a.createElement('input', { type: 'radio', id: 'two', name: 'name', value: '', defaultChecked: 'false' }),
+                                    react_default.a.createElement(
+                                        'label',
+                                        { htmlFor: 'two' },
+                                        react_default.a.createElement(
+                                            'p',
+                                            { className: 'title title-S std-txt color-nightsky' },
+                                            react_default.a.createElement(
+                                                'strong',
+                                                { className: 'color-penneyred' },
+                                                'FREE'
+                                            ),
+                                            ' Same day pickup ',
+                                            react_default.a.createElement('br', null),
+                                            react_default.a.createElement(
+                                                'span',
+                                                { className: 'std-txt std-txt-XS' },
+                                                'at Stonebriar Mall '
+                                            ),
+                                            react_default.a.createElement(
+                                                'a',
+                                                { href: '#', className: 'std-txt std-txt-XS color-nightsky' },
+                                                'change'
+                                            )
+                                        )
+                                    )
+                                )
+                            )
+                        ),
+                        react_default.a.createElement(
+                            'span',
+                            { className: 'std-txt std-txt-XS mrg-M fl-left' },
+                            'Order before 3 pm to get same day pickup.'
+                        ),
+                        react_default.a.createElement(
+                            'div',
+                            { className: 'sm12 md12 lg12 xl12 nopad' },
+                            react_default.a.createElement(
+                                'div',
+                                { className: 'sm12 md3 lg3 xl3 nopad' },
+                                react_default.a.createElement(
+                                    'div',
+                                    { className: 'select-form' },
+                                    react_default.a.createElement(
+                                        'div',
+                                        { className: 'select' },
+                                        react_default.a.createElement(
+                                            'div',
+                                            { className: 'form-float-label form-select1' },
+                                            react_default.a.createElement(
+                                                'select',
+                                                { className: 'form-control custom-select' },
+                                                react_default.a.createElement(
+                                                    'option',
+                                                    { value: '1' },
+                                                    '1'
+                                                ),
+                                                react_default.a.createElement(
+                                                    'option',
+                                                    { value: '2' },
+                                                    '2'
+                                                ),
+                                                react_default.a.createElement(
+                                                    'option',
+                                                    { value: '3' },
+                                                    '3'
+                                                ),
+                                                react_default.a.createElement(
+                                                    'option',
+                                                    { value: '4' },
+                                                    '4'
+                                                )
+                                            ),
+                                            react_default.a.createElement(
+                                                'span',
+                                                { className: 'select-label hide' },
+                                                'Size Range'
+                                            )
+                                        )
+                                    )
+                                )
+                            ),
+                            react_default.a.createElement(
+                                'div',
+                                { className: 'sm12 md9 lg9 xl9' },
+                                react_default.a.createElement(
+                                    'a',
+                                    { href: 'javascript:void();', role: 'button', className: 'btn btn-primary btn-L mrg-L sm12 md12 lg12 xl12' },
+                                    'Add to Cart'
+                                )
+                            ),
+                            react_default.a.createElement(
+                                'div',
+                                { className: 'sm12 md6 lg6 xl6 nopad' },
+                                react_default.a.createElement(
+                                    'a',
+                                    { href: 'javascript:void();', role: 'button', className: 'btn btn-secondary btn-L mrg-L sm12 md12 lg12 xl12 color-nightsky' },
+                                    'Add to List'
+                                )
+                            ),
+                            react_default.a.createElement(
+                                'div',
+                                { className: 'sm12 md6 lg6 xl6' },
+                                react_default.a.createElement(
+                                    'a',
+                                    { href: 'javascript:void();', role: 'button', className: 'btn btn-secondary btn-L mrg-L sm12 md12 lg12 xl12 color-nightsky' },
+                                    'Add to Registry'
+                                )
+                            )
+                        )
                     ),
+                    react_default.a.createElement(expand_collapse, null),
+                    react_default.a.createElement(recommendation_zone, null),
+                    react_default.a.createElement(recommendation_zone, null),
                     react_default.a.createElement(footer, null)
                 )
             );

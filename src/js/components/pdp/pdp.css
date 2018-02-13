@@ -12,3 +12,11 @@
         }
     }
 }
+.overall-fit {
+    width: 136px;
+}
+
+.ship-to-home {
+    border-right: 1px solid var(--color-concrete);
+    padding: 12px;
+}
