@@ -563,7 +563,7 @@ class Header extends Component {
                         <ul className="main-menu-secondary">
                           <li className="main-menu-secondary-li main-menu-secondary-li-shop-departments">
                             <button className="main-menu-secondary-shop-departments hide-for-medium-down">
-                              <div className="main-menu-secondary-shop-departments-menu-svg icon color-nightsky-svg" dangerouslySetInnerHTML={{ __html: menuImage }} />sdsd
+                              <div className="main-menu-secondary-shop-departments-menu-svg icon color-nightsky-svg" dangerouslySetInnerHTML={{ __html: menuImage }} />
                               <span className="main-menu-secondary-shop-departments-menu-label">Shop Departments</span> </button>
                             <div className="main-menu-tier1">
                               <ul className="main-menu-md-down">
