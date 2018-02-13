@@ -499,7 +499,7 @@ class Header extends Component {
           <div className="main-menu-bar-primary color-penneyred-bg">
             <ul className="main-menu-primary">
               <li className="main-menu-primary-item main-menu-primary-logo"> <span className="hide-for-large-up"> <a title="JCPenney Main Menu" aria-label="JCPenney Main Menu" href="javascript:void(0);" className="side-panel-btn" data-target="#mainMenusecondary" id="mainMenuSidePanelButton">
-                <div className="main-menu-primary-menu-svg color-white-svg icon" dangerouslySetInnerHTML={{ __html: menuImage }} />
+                <div className="main-menu-primary-menu-svg icon" dangerouslySetInnerHTML={{ __html: menuImage }} />
               </a> </span> <a title="JCPenney Home" aria-label="JCPenney Home Page" href="javascript:void(0);">
                   <div className="main-menu-primary-logo-svg" dangerouslySetInnerHTML={{ __html: logoImage }} />
                 </a> </li>
@@ -563,7 +563,7 @@ class Header extends Component {
                         <ul className="main-menu-secondary">
                           <li className="main-menu-secondary-li main-menu-secondary-li-shop-departments">
                             <button className="main-menu-secondary-shop-departments hide-for-medium-down">
-                              <div className="main-menu-secondary-shop-departments-menu-svg icon color-nightsky-svg" dangerouslySetInnerHTML={{ __html: menuImage }} />
+                              <div className="main-menu-secondary-shop-departments-menu-svg icon color-nightsky-svg" dangerouslySetInnerHTML={{ __html: menuImage }} />sdsd
                               <span className="main-menu-secondary-shop-departments-menu-label">Shop Departments</span> </button>
                             <div className="main-menu-tier1">
                               <ul className="main-menu-md-down">

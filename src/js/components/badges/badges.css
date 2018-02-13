@@ -19,6 +19,11 @@
         color: var(--color-white);
     }
 
+    &.flag-price {
+        background-color: rgba(204, 0, 0, 1);
+        color: var(--color-white);
+    }
+
     &.flag-new {
         background-color: rgba(17, 17, 17, 0.85);
         color: var(--color-white);

@@ -284,10 +284,10 @@ class Carousel extends Component {
       <div>
 
         <div className="row" id="carousel">
-          <div className="md12 lg12 sm12 column mrg-XL">
-            <h2 className="title title-L mrg-M">
+          <div className="md12 lg12 sm12 column">
+            {/* <h2 className="title title-L mrg-M">
               PDP Carousels & Video Player
-            </h2>
+            </h2> */}
 
             <div className="carousel-container carousel-container-vertical mrg-L hide-for-medium-only hide-for-small-only">
               <div className="carousel-main-img">

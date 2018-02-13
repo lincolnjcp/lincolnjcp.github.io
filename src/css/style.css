@@ -56,3 +56,9 @@ Page Modules
 @import "../js/components/footer/footer";
 @import "../js/components/footer-minimized/footer-minimized";
 @import "../js/components/filter-sort/filter-sort";
+
+
+/* ---
+Page Layouts
+--- */
+@import "../js/components/pdp/pdp";

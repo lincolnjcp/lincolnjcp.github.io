@@ -181,8 +181,6 @@ class RecommendationZone
                   </ul>
                 </div>
               </div>
-
-
             </div>
 
           </div>
