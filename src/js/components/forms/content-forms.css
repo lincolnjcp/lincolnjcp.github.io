@@ -395,8 +395,8 @@ input[type="text"]::-webkit-input-placeholder {
   & .search-close-icon {
     display: block;
     position: absolute;
-    right: 54px;
-    top: 18px;
+    right: 30px;
+    top: 16px;
     background: url("var(--path-images)global/icons/nav/close.svg") no-repeat;
     height: 16px;
     width: 16px;
