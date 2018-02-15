@@ -233,9 +233,9 @@ var _temp = function () {
         return;
     }
 
-    __REACT_HOT_LOADER__.register(CodeGenerator, 'CodeGenerator', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/containers/CodeGenerator.js');
+    __REACT_HOT_LOADER__.register(CodeGenerator, 'CodeGenerator', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/containers/CodeGenerator.js');
 
-    __REACT_HOT_LOADER__.register(_default, 'default', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/containers/CodeGenerator.js');
+    __REACT_HOT_LOADER__.register(_default, 'default', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/containers/CodeGenerator.js');
 }();
 
 ;
@@ -983,7 +983,7 @@ var _temp = function () {
         return;
     }
 
-    __REACT_HOT_LOADER__.register(rootNav, 'rootNav', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/containers/config/rootConfig.js');
+    __REACT_HOT_LOADER__.register(rootNav, 'rootNav', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/containers/config/rootConfig.js');
 }();
 
 ;
@@ -1973,9 +1973,9 @@ var buttons__temp = function () {
         return;
     }
 
-    __REACT_HOT_LOADER__.register(buttons_Buttons, 'Buttons', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/buttons/buttons.js');
+    __REACT_HOT_LOADER__.register(buttons_Buttons, 'Buttons', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/buttons/buttons.js');
 
-    __REACT_HOT_LOADER__.register(_default, 'default', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/buttons/buttons.js');
+    __REACT_HOT_LOADER__.register(_default, 'default', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/buttons/buttons.js');
 }();
 
 ;
@@ -1990,7 +1990,7 @@ var components_buttons__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(buttons__default, 'default', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/buttons/index.js');
+  __REACT_HOT_LOADER__.register(buttons__default, 'default', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/buttons/index.js');
 }();
 
 ;
@@ -2787,11 +2787,11 @@ var color__temp = function () {
         return;
     }
 
-    __REACT_HOT_LOADER__.register(SubNavLinks, 'SubNavLinks', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/color/color.js');
+    __REACT_HOT_LOADER__.register(SubNavLinks, 'SubNavLinks', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/color/color.js');
 
-    __REACT_HOT_LOADER__.register(color_Color, 'Color', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/color/color.js');
+    __REACT_HOT_LOADER__.register(color_Color, 'Color', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/color/color.js');
 
-    __REACT_HOT_LOADER__.register(color__default, 'default', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/color/color.js');
+    __REACT_HOT_LOADER__.register(color__default, 'default', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/color/color.js');
 }();
 
 ;
@@ -2806,7 +2806,7 @@ var components_color__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_color__default, 'default', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/color/index.js');
+  __REACT_HOT_LOADER__.register(components_color__default, 'default', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/color/index.js');
 }();
 
 ;
@@ -2844,11 +2844,8 @@ var cardamexImage = __webpack_require__("QMoC");
 var carddiscoverImage = __webpack_require__("rx95");
 var cardgiftImage = __webpack_require__("YcOn");
 var cardjcvvImage = __webpack_require__("q6Id");
-<<<<<<< HEAD
 var cardneutralImage = __webpack_require__("4HgM");
 var applePayImage = __webpack_require__("3GKc");
-=======
->>>>>>> 534e238901c934d7fc9a9c39e843543003ba4650
 
 var thumbsdownfillImage = __webpack_require__("A6Z6");
 var thumbsdownlineImage = __webpack_require__("j1tK");
@@ -3259,14 +3256,10 @@ var icons_Icons = function (_Component) {
                             ' ',
                             this.iconCol("card-gift", "Gift Card Payment", cardgiftImage),
                             ' ',
-<<<<<<< HEAD
                             this.iconCol("card-jcvv", "card verification code", cardjcvvImage),
                             ' ',
                             this.iconCol("card-neutral", "card neutral", cardneutralImage),
                             this.iconCol("apple-pay", "Apple Pay", applePayImage)
-=======
-                            this.iconCol("card-jcvv", "card verification code", cardjcvvImage)
->>>>>>> 534e238901c934d7fc9a9c39e843543003ba4650
                         ),
                         react_default.a.createElement('hr', null)
                     )
@@ -3721,11 +3714,11 @@ var icons__temp = function () {
         return;
     }
 
-    __REACT_HOT_LOADER__.register(icons_ColorPicker, 'ColorPicker', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/icons/icons.js');
+    __REACT_HOT_LOADER__.register(icons_ColorPicker, 'ColorPicker', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/icons/icons.js');
 
-    __REACT_HOT_LOADER__.register(icons_Icons, 'Icons', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/icons/icons.js');
+    __REACT_HOT_LOADER__.register(icons_Icons, 'Icons', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/icons/icons.js');
 
-    __REACT_HOT_LOADER__.register(icons__default, 'default', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/icons/icons.js');
+    __REACT_HOT_LOADER__.register(icons__default, 'default', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/icons/icons.js');
 }();
 
 ;
@@ -3740,7 +3733,7 @@ var components_icons__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_icons__default, 'default', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/icons/index.js');
+  __REACT_HOT_LOADER__.register(components_icons__default, 'default', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/icons/index.js');
 }();
 
 ;
@@ -4516,9 +4509,9 @@ var grid__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(grid_Grid, "Grid", "/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/grid/grid.js");
+  __REACT_HOT_LOADER__.register(grid_Grid, "Grid", "/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/grid/grid.js");
 
-  __REACT_HOT_LOADER__.register(grid__default, "default", "/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/grid/grid.js");
+  __REACT_HOT_LOADER__.register(grid__default, "default", "/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/grid/grid.js");
 }();
 
 ;
@@ -4533,7 +4526,7 @@ var components_grid__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_grid__default, 'default', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/grid/index.js');
+  __REACT_HOT_LOADER__.register(components_grid__default, 'default', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/grid/index.js');
 }();
 
 ;
@@ -5245,9 +5238,9 @@ var typography__temp = function () {
         return;
     }
 
-    __REACT_HOT_LOADER__.register(typography_Typography, 'Typography', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/typography/typography.js');
+    __REACT_HOT_LOADER__.register(typography_Typography, 'Typography', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/typography/typography.js');
 
-    __REACT_HOT_LOADER__.register(typography__default, 'default', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/typography/typography.js');
+    __REACT_HOT_LOADER__.register(typography__default, 'default', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/typography/typography.js');
 }();
 
 ;
@@ -5262,7 +5255,7 @@ var components_typography__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_typography__default, 'default', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/typography/index.js');
+  __REACT_HOT_LOADER__.register(components_typography__default, 'default', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/typography/index.js');
 }();
 
 ;
@@ -5622,9 +5615,9 @@ var alerts__temp = function () {
         return;
     }
 
-    __REACT_HOT_LOADER__.register(alerts_Alerts, 'Alerts', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/alerts/alerts.js');
+    __REACT_HOT_LOADER__.register(alerts_Alerts, 'Alerts', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/alerts/alerts.js');
 
-    __REACT_HOT_LOADER__.register(alerts__default, 'default', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/alerts/alerts.js');
+    __REACT_HOT_LOADER__.register(alerts__default, 'default', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/alerts/alerts.js');
 }();
 
 ;
@@ -5639,7 +5632,7 @@ var components_alerts__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_alerts__default, 'default', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/alerts/index.js');
+  __REACT_HOT_LOADER__.register(components_alerts__default, 'default', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/alerts/index.js');
 }();
 
 ;
@@ -5978,9 +5971,9 @@ var badges__temp = function () {
         return;
     }
 
-    __REACT_HOT_LOADER__.register(badges_Badges, 'Badges', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/badges/badges.js');
+    __REACT_HOT_LOADER__.register(badges_Badges, 'Badges', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/badges/badges.js');
 
-    __REACT_HOT_LOADER__.register(badges__default, 'default', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/badges/badges.js');
+    __REACT_HOT_LOADER__.register(badges__default, 'default', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/badges/badges.js');
 }();
 
 ;
@@ -5995,7 +5988,7 @@ var components_badges__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_badges__default, 'default', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/badges/index.js');
+  __REACT_HOT_LOADER__.register(components_badges__default, 'default', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/badges/index.js');
 }();
 
 ;
@@ -6467,9 +6460,9 @@ var content_loaders__temp = function () {
         return;
     }
 
-    __REACT_HOT_LOADER__.register(content_loaders_ContentLoaders, 'ContentLoaders', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/content-loaders/content-loaders.js');
+    __REACT_HOT_LOADER__.register(content_loaders_ContentLoaders, 'ContentLoaders', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/content-loaders/content-loaders.js');
 
-    __REACT_HOT_LOADER__.register(content_loaders__default, 'default', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/content-loaders/content-loaders.js');
+    __REACT_HOT_LOADER__.register(content_loaders__default, 'default', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/content-loaders/content-loaders.js');
 }();
 
 ;
@@ -6484,7 +6477,7 @@ var components_content_loaders__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_content_loaders__default, 'default', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/content-loaders/index.js');
+  __REACT_HOT_LOADER__.register(components_content_loaders__default, 'default', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/content-loaders/index.js');
 }();
 
 ;
@@ -7195,9 +7188,9 @@ var dropdown_button__temp = function () {
         return;
     }
 
-    __REACT_HOT_LOADER__.register(dropdown_button_DropdownButton, 'DropdownButton', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/dropdown-button/dropdown-button.js');
+    __REACT_HOT_LOADER__.register(dropdown_button_DropdownButton, 'DropdownButton', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/dropdown-button/dropdown-button.js');
 
-    __REACT_HOT_LOADER__.register(dropdown_button__default, 'default', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/dropdown-button/dropdown-button.js');
+    __REACT_HOT_LOADER__.register(dropdown_button__default, 'default', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/dropdown-button/dropdown-button.js');
 }();
 
 ;
@@ -7212,7 +7205,7 @@ var components_dropdown_button__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_dropdown_button__default, 'default', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/dropdown-button/index.js');
+  __REACT_HOT_LOADER__.register(components_dropdown_button__default, 'default', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/dropdown-button/index.js');
 }();
 
 ;
@@ -8440,9 +8433,9 @@ var tables__temp = function () {
         return;
     }
 
-    __REACT_HOT_LOADER__.register(tables_Tables, 'Tables', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/tables/tables.js');
+    __REACT_HOT_LOADER__.register(tables_Tables, 'Tables', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/tables/tables.js');
 
-    __REACT_HOT_LOADER__.register(tables__default, 'default', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/tables/tables.js');
+    __REACT_HOT_LOADER__.register(tables__default, 'default', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/tables/tables.js');
 }();
 
 ;
@@ -8457,7 +8450,7 @@ var components_tables__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_tables__default, 'default', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/tables/index.js');
+  __REACT_HOT_LOADER__.register(components_tables__default, 'default', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/tables/index.js');
 }();
 
 ;
@@ -8479,7 +8472,7 @@ function forms__inherits(subClass, superClass) { if (typeof superClass !== "func
 var searchIcon = __webpack_require__("7r5T");
 var tooltipIcon = __webpack_require__("hNYp");
 var cardJCP = __webpack_require__("jrV8");
-var cardneutralImage = __webpack_require__("4HgM");
+var forms_cardneutralImage = __webpack_require__("4HgM");
 
 var forms_Forms = function (_Component) {
     forms__inherits(Forms, _Component);
@@ -9215,7 +9208,7 @@ var forms_Forms = function (_Component) {
                                                     { className: 'creditcard', htmlFor: 'creditcard' },
                                                     'Card Number'
                                                 ),
-                                                react_default.a.createElement('span', { className: 'icon credit-card-icon', dangerouslySetInnerHTML: { __html: cardneutralImage } })
+                                                react_default.a.createElement('span', { className: 'icon credit-card-icon', dangerouslySetInnerHTML: { __html: forms_cardneutralImage } })
                                             )
                                         )
                                     ),
@@ -9550,11 +9543,7 @@ var forms_Forms = function (_Component) {
                                             react_default.a.createElement(
                                                 'div',
                                                 { className: 'input-form-store-locator-field-1' },
-<<<<<<< HEAD
-                                                react_default.a.createElement('input', { className: 'form-control input-text zipcode_text', id: 'search', type: 'text', placeholder: 'Zip Code' })
-=======
                                                 react_default.a.createElement('input', { className: 'form-control input-text zipcode_text placeholder-text', id: 'search', type: 'text', placeholder: 'Zip Code' })
->>>>>>> 534e238901c934d7fc9a9c39e843543003ba4650
                                             ),
                                             react_default.a.createElement(
                                                 'div',
@@ -10148,9 +10137,9 @@ var forms__temp = function () {
         return;
     }
 
-    __REACT_HOT_LOADER__.register(forms_Forms, 'Forms', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/forms/forms.js');
+    __REACT_HOT_LOADER__.register(forms_Forms, 'Forms', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/forms/forms.js');
 
-    __REACT_HOT_LOADER__.register(forms__default, 'default', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/forms/forms.js');
+    __REACT_HOT_LOADER__.register(forms__default, 'default', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/forms/forms.js');
 }();
 
 ;
@@ -10165,7 +10154,7 @@ var components_forms__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_forms__default, 'default', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/forms/index.js');
+  __REACT_HOT_LOADER__.register(components_forms__default, 'default', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/forms/index.js');
 }();
 
 ;
@@ -10495,9 +10484,9 @@ var star_ratings__temp = function () {
         return;
     }
 
-    __REACT_HOT_LOADER__.register(star_ratings_ContentLoaders, 'ContentLoaders', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/star-ratings/star-ratings.js');
+    __REACT_HOT_LOADER__.register(star_ratings_ContentLoaders, 'ContentLoaders', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/star-ratings/star-ratings.js');
 
-    __REACT_HOT_LOADER__.register(star_ratings__default, 'default', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/star-ratings/star-ratings.js');
+    __REACT_HOT_LOADER__.register(star_ratings__default, 'default', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/star-ratings/star-ratings.js');
 }();
 
 ;
@@ -10512,7 +10501,7 @@ var components_star_ratings__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_star_ratings__default, 'default', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/star-ratings/index.js');
+  __REACT_HOT_LOADER__.register(components_star_ratings__default, 'default', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/star-ratings/index.js');
 }();
 
 ;
@@ -10674,13 +10663,9 @@ var scrollbar__temp = function () {
         return;
     }
 
-<<<<<<< HEAD
-    __REACT_HOT_LOADER__.register(scrollbar_Pricing, 'Pricing', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/scrollbar/scrollbar.js');
-=======
-    __REACT_HOT_LOADER__.register(scrollbar_Scrollbar, 'Scrollbar', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/scrollbar/scrollbar.js');
->>>>>>> 534e238901c934d7fc9a9c39e843543003ba4650
+    __REACT_HOT_LOADER__.register(scrollbar_Scrollbar, 'Scrollbar', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/scrollbar/scrollbar.js');
 
-    __REACT_HOT_LOADER__.register(scrollbar__default, 'default', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/scrollbar/scrollbar.js');
+    __REACT_HOT_LOADER__.register(scrollbar__default, 'default', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/scrollbar/scrollbar.js');
 }();
 
 ;
@@ -10695,7 +10680,7 @@ var components_scrollbar__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_scrollbar__default, 'default', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/scrollbar/index.js');
+  __REACT_HOT_LOADER__.register(components_scrollbar__default, 'default', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/scrollbar/index.js');
 }();
 
 ;
@@ -10851,9 +10836,9 @@ var wells__temp = function () {
         return;
     }
 
-    __REACT_HOT_LOADER__.register(wells_Wells, 'Wells', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/wells/wells.js');
+    __REACT_HOT_LOADER__.register(wells_Wells, 'Wells', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/wells/wells.js');
 
-    __REACT_HOT_LOADER__.register(wells__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/wells/wells.js');
+    __REACT_HOT_LOADER__.register(wells__default, 'default', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/wells/wells.js');
 }();
 
 ;
@@ -10868,7 +10853,7 @@ var components_wells__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_wells__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/wells/index.js');
+  __REACT_HOT_LOADER__.register(components_wells__default, 'default', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/wells/index.js');
 }();
 
 ;
@@ -11048,9 +11033,9 @@ var progressbar__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(progressbar_ProgressBar, "ProgressBar", "/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/progressbar/progressbar.js");
+  __REACT_HOT_LOADER__.register(progressbar_ProgressBar, "ProgressBar", "/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/progressbar/progressbar.js");
 
-  __REACT_HOT_LOADER__.register(progressbar__default, "default", "/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/progressbar/progressbar.js");
+  __REACT_HOT_LOADER__.register(progressbar__default, "default", "/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/progressbar/progressbar.js");
 }();
 
 ;
@@ -11065,7 +11050,7 @@ var components_progressbar__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_progressbar__default, 'default', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/progressbar/index.js');
+  __REACT_HOT_LOADER__.register(components_progressbar__default, 'default', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/progressbar/index.js');
 }();
 
 ;
@@ -13877,9 +13862,9 @@ var pricing__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(pricing_Scrollbar, "Scrollbar", "/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/pricing/pricing.js");
+  __REACT_HOT_LOADER__.register(pricing_Scrollbar, "Scrollbar", "/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/pricing/pricing.js");
 
-  __REACT_HOT_LOADER__.register(pricing__default, "default", "/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/pricing/pricing.js");
+  __REACT_HOT_LOADER__.register(pricing__default, "default", "/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/pricing/pricing.js");
 }();
 
 ;
@@ -13894,7 +13879,7 @@ var components_pricing__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_pricing__default, 'default', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/pricing/index.js');
+  __REACT_HOT_LOADER__.register(components_pricing__default, 'default', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/pricing/index.js');
 }();
 
 ;
@@ -14180,9 +14165,9 @@ var visual_navigation__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(visual_navigation_VisualNavigation, "VisualNavigation", "/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/visual-navigation/visual-navigation.js");
+  __REACT_HOT_LOADER__.register(visual_navigation_VisualNavigation, "VisualNavigation", "/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/visual-navigation/visual-navigation.js");
 
-  __REACT_HOT_LOADER__.register(visual_navigation__default, "default", "/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/visual-navigation/visual-navigation.js");
+  __REACT_HOT_LOADER__.register(visual_navigation__default, "default", "/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/visual-navigation/visual-navigation.js");
 }();
 
 ;
@@ -14197,7 +14182,7 @@ var components_visual_navigation__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_visual_navigation__default, 'default', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/visual-navigation/index.js');
+  __REACT_HOT_LOADER__.register(components_visual_navigation__default, 'default', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/visual-navigation/index.js');
 }();
 
 ;
@@ -14587,9 +14572,9 @@ var modal__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(modal_Modal, 'Modal', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/modal/modal.js');
+  __REACT_HOT_LOADER__.register(modal_Modal, 'Modal', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/modal/modal.js');
 
-  __REACT_HOT_LOADER__.register(modal__default, 'default', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/modal/modal.js');
+  __REACT_HOT_LOADER__.register(modal__default, 'default', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/modal/modal.js');
 }();
 
 ;
@@ -14604,7 +14589,7 @@ var components_modal__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_modal__default, 'default', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/modal/index.js');
+  __REACT_HOT_LOADER__.register(components_modal__default, 'default', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/modal/index.js');
 }();
 
 ;
@@ -15090,9 +15075,9 @@ var countdown_timers__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(countdown_timers_CountdownTimers, 'CountdownTimers', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/countdown-timers/countdown-timers.js');
+  __REACT_HOT_LOADER__.register(countdown_timers_CountdownTimers, 'CountdownTimers', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/countdown-timers/countdown-timers.js');
 
-  __REACT_HOT_LOADER__.register(countdown_timers__default, 'default', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/countdown-timers/countdown-timers.js');
+  __REACT_HOT_LOADER__.register(countdown_timers__default, 'default', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/countdown-timers/countdown-timers.js');
 }();
 
 ;
@@ -15107,7 +15092,7 @@ var components_countdown_timers__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_countdown_timers__default, 'default', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/countdown-timers/index.js');
+  __REACT_HOT_LOADER__.register(components_countdown_timers__default, 'default', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/countdown-timers/index.js');
 }();
 
 ;
@@ -15506,9 +15491,9 @@ var tooltips__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(tooltips_Tooltips, 'Tooltips', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/tooltips/tooltips.js');
+  __REACT_HOT_LOADER__.register(tooltips_Tooltips, 'Tooltips', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/tooltips/tooltips.js');
 
-  __REACT_HOT_LOADER__.register(tooltips__default, 'default', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/tooltips/tooltips.js');
+  __REACT_HOT_LOADER__.register(tooltips__default, 'default', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/tooltips/tooltips.js');
 }();
 
 ;
@@ -15523,7 +15508,7 @@ var components_tooltips__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_tooltips__default, 'default', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/tooltips/index.js');
+  __REACT_HOT_LOADER__.register(components_tooltips__default, 'default', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/tooltips/index.js');
 }();
 
 ;
@@ -15631,9 +15616,9 @@ var tabs__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(tabs_Tabs, "Tabs", "/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/tabs/tabs.js");
+  __REACT_HOT_LOADER__.register(tabs_Tabs, "Tabs", "/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/tabs/tabs.js");
 
-  __REACT_HOT_LOADER__.register(tabs__default, "default", "/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/tabs/tabs.js");
+  __REACT_HOT_LOADER__.register(tabs__default, "default", "/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/tabs/tabs.js");
 }();
 
 ;
@@ -15648,7 +15633,7 @@ var components_tabs__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_tabs__default, 'default', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/tabs/index.js');
+  __REACT_HOT_LOADER__.register(components_tabs__default, 'default', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/tabs/index.js');
 }();
 
 ;
@@ -15966,9 +15951,9 @@ var pagination__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(pagination_Pagination, 'Pagination', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/pagination/pagination.js');
+  __REACT_HOT_LOADER__.register(pagination_Pagination, 'Pagination', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/pagination/pagination.js');
 
-  __REACT_HOT_LOADER__.register(pagination__default, 'default', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/pagination/pagination.js');
+  __REACT_HOT_LOADER__.register(pagination__default, 'default', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/pagination/pagination.js');
 }();
 
 ;
@@ -15983,7 +15968,7 @@ var components_pagination__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_pagination__default, 'default', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/pagination/index.js');
+  __REACT_HOT_LOADER__.register(components_pagination__default, 'default', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/pagination/index.js');
 }();
 
 ;
@@ -16507,9 +16492,9 @@ var swatches__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(swatches_Swatches, 'Swatches', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/swatches/swatches.js');
+  __REACT_HOT_LOADER__.register(swatches_Swatches, 'Swatches', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/swatches/swatches.js');
 
-  __REACT_HOT_LOADER__.register(swatches__default, 'default', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/swatches/swatches.js');
+  __REACT_HOT_LOADER__.register(swatches__default, 'default', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/swatches/swatches.js');
 }();
 
 ;
@@ -16524,7 +16509,7 @@ var components_swatches__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_swatches__default, 'default', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/swatches/index.js');
+  __REACT_HOT_LOADER__.register(components_swatches__default, 'default', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/swatches/index.js');
 }();
 
 ;
@@ -17004,9 +16989,9 @@ var selectors__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(selectors_Selectors, 'Selectors', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/selectors/selectors.js');
+  __REACT_HOT_LOADER__.register(selectors_Selectors, 'Selectors', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/selectors/selectors.js');
 
-  __REACT_HOT_LOADER__.register(selectors__default, 'default', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/selectors/selectors.js');
+  __REACT_HOT_LOADER__.register(selectors__default, 'default', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/selectors/selectors.js');
 }();
 
 ;
@@ -17021,7 +17006,7 @@ var components_selectors__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_selectors__default, 'default', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/selectors/index.js');
+  __REACT_HOT_LOADER__.register(components_selectors__default, 'default', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/selectors/index.js');
 }();
 
 ;
@@ -17502,21 +17487,21 @@ var carousel__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(carousel_CarouselLeftButton, "CarouselLeftButton", "/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/carousel/carousel.js");
+  __REACT_HOT_LOADER__.register(carousel_CarouselLeftButton, "CarouselLeftButton", "/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/carousel/carousel.js");
 
-  __REACT_HOT_LOADER__.register(carousel_CarouselRightButton, "CarouselRightButton", "/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/carousel/carousel.js");
+  __REACT_HOT_LOADER__.register(carousel_CarouselRightButton, "CarouselRightButton", "/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/carousel/carousel.js");
 
-  __REACT_HOT_LOADER__.register(carousel_CarouselUpButton, "CarouselUpButton", "/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/carousel/carousel.js");
+  __REACT_HOT_LOADER__.register(carousel_CarouselUpButton, "CarouselUpButton", "/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/carousel/carousel.js");
 
-  __REACT_HOT_LOADER__.register(carousel_CarouselDownButton, "CarouselDownButton", "/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/carousel/carousel.js");
+  __REACT_HOT_LOADER__.register(carousel_CarouselDownButton, "CarouselDownButton", "/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/carousel/carousel.js");
 
-  __REACT_HOT_LOADER__.register(carousel_CarouselImage, "CarouselImage", "/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/carousel/carousel.js");
+  __REACT_HOT_LOADER__.register(carousel_CarouselImage, "CarouselImage", "/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/carousel/carousel.js");
 
-  __REACT_HOT_LOADER__.register(carousel_CarouselNavImage, "CarouselNavImage", "/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/carousel/carousel.js");
+  __REACT_HOT_LOADER__.register(carousel_CarouselNavImage, "CarouselNavImage", "/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/carousel/carousel.js");
 
-  __REACT_HOT_LOADER__.register(carousel_Carousel, "Carousel", "/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/carousel/carousel.js");
+  __REACT_HOT_LOADER__.register(carousel_Carousel, "Carousel", "/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/carousel/carousel.js");
 
-  __REACT_HOT_LOADER__.register(carousel__default, "default", "/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/carousel/carousel.js");
+  __REACT_HOT_LOADER__.register(carousel__default, "default", "/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/carousel/carousel.js");
 }();
 
 ;
@@ -17531,7 +17516,7 @@ var components_carousel__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_carousel__default, 'default', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/carousel/index.js');
+  __REACT_HOT_LOADER__.register(components_carousel__default, 'default', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/carousel/index.js');
 }();
 
 ;
@@ -18295,9 +18280,9 @@ var coupons__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(coupons_Coupons, 'Coupons', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/coupons/coupons.js');
+  __REACT_HOT_LOADER__.register(coupons_Coupons, 'Coupons', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/coupons/coupons.js');
 
-  __REACT_HOT_LOADER__.register(coupons__default, 'default', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/coupons/coupons.js');
+  __REACT_HOT_LOADER__.register(coupons__default, 'default', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/coupons/coupons.js');
 }();
 
 ;
@@ -18312,7 +18297,7 @@ var components_coupons__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_coupons__default, 'default', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/coupons/index.js');
+  __REACT_HOT_LOADER__.register(components_coupons__default, 'default', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/coupons/index.js');
 }();
 
 ;
@@ -18658,9 +18643,9 @@ var lists__temp = function () {
         return;
     }
 
-    __REACT_HOT_LOADER__.register(lists_Lists, 'Lists', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/lists/lists.js');
+    __REACT_HOT_LOADER__.register(lists_Lists, 'Lists', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/lists/lists.js');
 
-    __REACT_HOT_LOADER__.register(lists__default, 'default', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/lists/lists.js');
+    __REACT_HOT_LOADER__.register(lists__default, 'default', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/lists/lists.js');
 }();
 
 ;
@@ -18675,7 +18660,7 @@ var components_lists__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_lists__default, 'default', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/lists/index.js');
+  __REACT_HOT_LOADER__.register(components_lists__default, 'default', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/lists/index.js');
 }();
 
 ;
@@ -19965,7 +19950,6 @@ var header_Header = function (_Component) {
                               'button',
                               { className: 'main-menu-secondary-shop-departments hide-for-medium-down' },
                               react_default.a.createElement('div', { className: 'main-menu-secondary-shop-departments-menu-svg icon color-nightsky-svg', dangerouslySetInnerHTML: { __html: header_menuImage } }),
-                              'sdsd',
                               react_default.a.createElement(
                                 'span',
                                 { className: 'main-menu-secondary-shop-departments-menu-label' },
@@ -20434,9 +20418,9 @@ var header__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(header_Header, 'Header', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/header/header.js');
+  __REACT_HOT_LOADER__.register(header_Header, 'Header', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/header/header.js');
 
-  __REACT_HOT_LOADER__.register(header__default, 'default', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/header/header.js');
+  __REACT_HOT_LOADER__.register(header__default, 'default', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/header/header.js');
 }();
 
 ;
@@ -20451,7 +20435,7 @@ var components_header__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_header__default, 'default', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/header/index.js');
+  __REACT_HOT_LOADER__.register(components_header__default, 'default', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/header/index.js');
 }();
 
 ;
@@ -21351,9 +21335,9 @@ var footer__temp = function () {
         return;
     }
 
-    __REACT_HOT_LOADER__.register(footer_Footer, 'Footer', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/footer/footer.js');
+    __REACT_HOT_LOADER__.register(footer_Footer, 'Footer', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/footer/footer.js');
 
-    __REACT_HOT_LOADER__.register(footer__default, 'default', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/footer/footer.js');
+    __REACT_HOT_LOADER__.register(footer__default, 'default', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/footer/footer.js');
 }();
 
 ;
@@ -21368,7 +21352,7 @@ var components_footer__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_footer__default, 'default', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/footer/index.js');
+  __REACT_HOT_LOADER__.register(components_footer__default, 'default', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/footer/index.js');
 }();
 
 ;
@@ -21509,9 +21493,9 @@ var footer_minimized__temp = function () {
         return;
     }
 
-    __REACT_HOT_LOADER__.register(footer_minimized_FooterMinimized, 'FooterMinimized', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/footer-minimized/footer-minimized.js');
+    __REACT_HOT_LOADER__.register(footer_minimized_FooterMinimized, 'FooterMinimized', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/footer-minimized/footer-minimized.js');
 
-    __REACT_HOT_LOADER__.register(footer_minimized__default, 'default', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/footer-minimized/footer-minimized.js');
+    __REACT_HOT_LOADER__.register(footer_minimized__default, 'default', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/footer-minimized/footer-minimized.js');
 }();
 
 ;
@@ -21526,7 +21510,7 @@ var components_footer_minimized__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_footer_minimized__default, 'default', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/footer-minimized/index.js');
+  __REACT_HOT_LOADER__.register(components_footer_minimized__default, 'default', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/footer-minimized/index.js');
 }();
 
 ;
@@ -21727,9 +21711,9 @@ var slide_out_panels__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(slide_out_panels_SlideOutPanels, 'SlideOutPanels', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/slide-out-panels/slide-out-panels.js');
+  __REACT_HOT_LOADER__.register(slide_out_panels_SlideOutPanels, 'SlideOutPanels', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/slide-out-panels/slide-out-panels.js');
 
-  __REACT_HOT_LOADER__.register(slide_out_panels__default, 'default', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/slide-out-panels/slide-out-panels.js');
+  __REACT_HOT_LOADER__.register(slide_out_panels__default, 'default', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/slide-out-panels/slide-out-panels.js');
 }();
 
 ;
@@ -21744,7 +21728,7 @@ var components_slide_out_panels__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_slide_out_panels__default, 'default', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/slide-out-panels/index.js');
+  __REACT_HOT_LOADER__.register(components_slide_out_panels__default, 'default', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/slide-out-panels/index.js');
 }();
 
 ;
@@ -23870,9 +23854,9 @@ var filter_sort__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(filter_sort_FilterSort, 'FilterSort', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/filter-sort/filter-sort.js');
+  __REACT_HOT_LOADER__.register(filter_sort_FilterSort, 'FilterSort', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/filter-sort/filter-sort.js');
 
-  __REACT_HOT_LOADER__.register(filter_sort__default, 'default', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/filter-sort/filter-sort.js');
+  __REACT_HOT_LOADER__.register(filter_sort__default, 'default', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/filter-sort/filter-sort.js');
 }();
 
 ;
@@ -23887,7 +23871,7 @@ var components_filter_sort__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_filter_sort__default, 'default', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/filter-sort/index.js');
+  __REACT_HOT_LOADER__.register(components_filter_sort__default, 'default', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/filter-sort/index.js');
 }();
 
 ;
@@ -24426,9 +24410,9 @@ var expand_collapse__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(expand_collapse_ExpandCollapse, 'ExpandCollapse', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/expand-collapse/expand-collapse.js');
+  __REACT_HOT_LOADER__.register(expand_collapse_ExpandCollapse, 'ExpandCollapse', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/expand-collapse/expand-collapse.js');
 
-  __REACT_HOT_LOADER__.register(expand_collapse__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/expand-collapse/expand-collapse.js');
+  __REACT_HOT_LOADER__.register(expand_collapse__default, 'default', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/expand-collapse/expand-collapse.js');
 }();
 
 ;
@@ -24443,7 +24427,7 @@ var components_expand_collapse__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_expand_collapse__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/expand-collapse/index.js');
+  __REACT_HOT_LOADER__.register(components_expand_collapse__default, 'default', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/expand-collapse/index.js');
 }();
 
 ;
@@ -24516,975 +24500,6 @@ var product_cards_ProductCards = function (_Component) {
                     productInfo.price
                   )
                 )
-<<<<<<< HEAD
-              )
-            )
-          ),
-          react_default.a.createElement('br', null),
-          react_default.a.createElement('br', null),
-          react_default.a.createElement('br', null),
-          react_default.a.createElement(
-            'div',
-            { className: 'xl4 lg4 md6 sm12' },
-            react_default.a.createElement(
-              'h2',
-              { className: 'title title-L' },
-              'Accordions: Subcategory Menu (Tablet/Mobile)'
-            ),
-            react_default.a.createElement(
-              'div',
-              { className: 'accordion-block filter-accordion' },
-              react_default.a.createElement(
-                'div',
-                { className: 'accordion' },
-                react_default.a.createElement(
-                  'dl',
-                  null,
-                  react_default.a.createElement(
-                    'dt',
-                    { className: 'js-accordionTrigger' },
-                    react_default.a.createElement(
-                      'a',
-                      { href: '#accordion1', 'aria-expanded': 'false', 'aria-controls': 'accordion1', className: 'accordion-title accordionTitle title title-M' },
-                      'Holiday'
-                    )
-                  ),
-                  react_default.a.createElement(
-                    'dd',
-                    { className: 'accordion-content accordionItem is-collapsed', id: 'accordion1', 'aria-hidden': 'true' },
-                    react_default.a.createElement(
-                      'ul',
-                      null,
-                      react_default.a.createElement(
-                        'li',
-                        null,
-                        react_default.a.createElement(
-                          'a',
-                          { href: 'javascript:void();' },
-                          'Returns'
-                        )
-                      ),
-                      react_default.a.createElement(
-                        'li',
-                        null,
-                        react_default.a.createElement(
-                          'a',
-                          { href: 'javascript:void();' },
-                          'Shipping information'
-                        )
-                      ),
-                      react_default.a.createElement(
-                        'li',
-                        null,
-                        react_default.a.createElement(
-                          'a',
-                          { href: 'javascript:void();' },
-                          'Rebates'
-                        )
-                      ),
-                      react_default.a.createElement(
-                        'li',
-                        null,
-                        react_default.a.createElement(
-                          'a',
-                          { href: 'javascript:void();' },
-                          'Same Day Pickup'
-                        )
-                      ),
-                      react_default.a.createElement(
-                        'li',
-                        null,
-                        react_default.a.createElement(
-                          'a',
-                          { href: 'javascript:void();' },
-                          'My JCP.com Account'
-                        )
-                      ),
-                      react_default.a.createElement(
-                        'li',
-                        null,
-                        react_default.a.createElement(
-                          'a',
-                          { href: 'javascript:void();' },
-                          'Track My Order'
-                        )
-                      ),
-                      react_default.a.createElement(
-                        'li',
-                        null,
-                        react_default.a.createElement(
-                          'a',
-                          { href: 'javascript:void();' },
-                          'Servicio Al Cliente'
-                        )
-                      )
-                    )
-                  ),
-                  react_default.a.createElement(
-                    'dt',
-                    { className: 'js-accordionTrigger' },
-                    react_default.a.createElement(
-                      'a',
-                      { href: '#accordion1', 'aria-expanded': 'false', 'aria-controls': 'accordion1', className: 'accordion-title accordionTitle title title-M title title-M' },
-                      'Furniture & Mattresses'
-                    )
-                  ),
-                  react_default.a.createElement(
-                    'dd',
-                    { className: 'accordion-content accordionItem is-collapsed', id: 'accordion1', 'aria-hidden': 'true' },
-                    react_default.a.createElement(
-                      'ul',
-                      null,
-                      react_default.a.createElement(
-                        'li',
-                        null,
-                        react_default.a.createElement(
-                          'a',
-                          { href: 'javascript:void();' },
-                          'Returns'
-                        )
-                      ),
-                      react_default.a.createElement(
-                        'li',
-                        null,
-                        react_default.a.createElement(
-                          'a',
-                          { href: 'javascript:void();' },
-                          'Shipping information'
-                        )
-                      ),
-                      react_default.a.createElement(
-                        'li',
-                        null,
-                        react_default.a.createElement(
-                          'a',
-                          { href: 'javascript:void();' },
-                          'Rebates'
-                        )
-                      ),
-                      react_default.a.createElement(
-                        'li',
-                        null,
-                        react_default.a.createElement(
-                          'a',
-                          { href: 'javascript:void();' },
-                          'Same Day Pickup'
-                        )
-                      ),
-                      react_default.a.createElement(
-                        'li',
-                        null,
-                        react_default.a.createElement(
-                          'a',
-                          { href: 'javascript:void();' },
-                          'My JCP.com Account'
-                        )
-                      ),
-                      react_default.a.createElement(
-                        'li',
-                        null,
-                        react_default.a.createElement(
-                          'a',
-                          { href: 'javascript:void();' },
-                          'Track My Order'
-                        )
-                      ),
-                      react_default.a.createElement(
-                        'li',
-                        null,
-                        react_default.a.createElement(
-                          'a',
-                          { href: 'javascript:void();' },
-                          'Servicio Al Cliente'
-                        )
-                      )
-                    )
-                  ),
-                  react_default.a.createElement(
-                    'dt',
-                    { className: 'js-accordionTrigger' },
-                    react_default.a.createElement(
-                      'a',
-                      { href: '#accordion1', 'aria-expanded': 'false', 'aria-controls': 'accordion1', className: 'accordion-title accordionTitle title title-M' },
-                      'Home Decor'
-                    )
-                  ),
-                  react_default.a.createElement(
-                    'dd',
-                    { className: 'accordion-content accordionItem is-collapsed', id: 'accordion1', 'aria-hidden': 'true' },
-                    react_default.a.createElement(
-                      'ul',
-                      null,
-                      react_default.a.createElement(
-                        'li',
-                        null,
-                        react_default.a.createElement(
-                          'a',
-                          { href: 'javascript:void();' },
-                          'Returns'
-                        )
-                      ),
-                      react_default.a.createElement(
-                        'li',
-                        null,
-                        react_default.a.createElement(
-                          'a',
-                          { href: 'javascript:void();' },
-                          'Shipping information'
-                        )
-                      ),
-                      react_default.a.createElement(
-                        'li',
-                        null,
-                        react_default.a.createElement(
-                          'a',
-                          { href: 'javascript:void();' },
-                          'Rebates'
-                        )
-                      ),
-                      react_default.a.createElement(
-                        'li',
-                        null,
-                        react_default.a.createElement(
-                          'a',
-                          { href: 'javascript:void();' },
-                          'Same Day Pickup'
-                        )
-                      ),
-                      react_default.a.createElement(
-                        'li',
-                        null,
-                        react_default.a.createElement(
-                          'a',
-                          { href: 'javascript:void();' },
-                          'My JCP.com Account'
-                        )
-                      ),
-                      react_default.a.createElement(
-                        'li',
-                        null,
-                        react_default.a.createElement(
-                          'a',
-                          { href: 'javascript:void();' },
-                          'Track My Order'
-                        )
-                      ),
-                      react_default.a.createElement(
-                        'li',
-                        null,
-                        react_default.a.createElement(
-                          'a',
-                          { href: 'javascript:void();' },
-                          'Servicio Al Cliente'
-                        )
-                      )
-                    )
-                  ),
-                  react_default.a.createElement(
-                    'dt',
-                    { className: 'js-accordionTrigger' },
-                    react_default.a.createElement(
-                      'a',
-                      { href: '#accordion1', 'aria-expanded': 'false', 'aria-controls': 'accordion1', className: 'accordion-title accordionTitle title title-M' },
-                      'Kitchen & Dining'
-                    )
-                  ),
-                  react_default.a.createElement(
-                    'dd',
-                    { className: 'accordion-content accordionItem is-collapsed', id: 'accordion1', 'aria-hidden': 'true' },
-                    react_default.a.createElement(
-                      'ul',
-                      null,
-                      react_default.a.createElement(
-                        'li',
-                        null,
-                        react_default.a.createElement(
-                          'a',
-                          { href: 'javascript:void();' },
-                          'Returns'
-                        )
-                      ),
-                      react_default.a.createElement(
-                        'li',
-                        null,
-                        react_default.a.createElement(
-                          'a',
-                          { href: 'javascript:void();' },
-                          'Shipping information'
-                        )
-                      ),
-                      react_default.a.createElement(
-                        'li',
-                        null,
-                        react_default.a.createElement(
-                          'a',
-                          { href: 'javascript:void();' },
-                          'Rebates'
-                        )
-                      ),
-                      react_default.a.createElement(
-                        'li',
-                        null,
-                        react_default.a.createElement(
-                          'a',
-                          { href: 'javascript:void();' },
-                          'Same Day Pickup'
-                        )
-                      ),
-                      react_default.a.createElement(
-                        'li',
-                        null,
-                        react_default.a.createElement(
-                          'a',
-                          { href: 'javascript:void();' },
-                          'My JCP.com Account'
-                        )
-                      ),
-                      react_default.a.createElement(
-                        'li',
-                        null,
-                        react_default.a.createElement(
-                          'a',
-                          { href: 'javascript:void();' },
-                          'Track My Order'
-                        )
-                      ),
-                      react_default.a.createElement(
-                        'li',
-                        null,
-                        react_default.a.createElement(
-                          'a',
-                          { href: 'javascript:void();' },
-                          'Servicio Al Cliente'
-                        )
-                      )
-                    )
-                  ),
-                  react_default.a.createElement(
-                    'dt',
-                    { className: 'js-accordionTrigger' },
-                    react_default.a.createElement(
-                      'a',
-                      { href: '#accordion1', 'aria-expanded': 'false', 'aria-controls': 'accordion1', className: 'accordion-title accordionTitle title title-M' },
-                      'Window'
-                    )
-                  ),
-                  react_default.a.createElement(
-                    'dd',
-                    { className: 'accordion-content accordionItem is-collapsed', id: 'accordion1', 'aria-hidden': 'true' },
-                    react_default.a.createElement(
-                      'ul',
-                      null,
-                      react_default.a.createElement(
-                        'li',
-                        null,
-                        react_default.a.createElement(
-                          'a',
-                          { href: 'javascript:void();' },
-                          'Returns'
-                        )
-                      ),
-                      react_default.a.createElement(
-                        'li',
-                        null,
-                        react_default.a.createElement(
-                          'a',
-                          { href: 'javascript:void();' },
-                          'Shipping information'
-                        )
-                      ),
-                      react_default.a.createElement(
-                        'li',
-                        null,
-                        react_default.a.createElement(
-                          'a',
-                          { href: 'javascript:void();' },
-                          'Rebates'
-                        )
-                      ),
-                      react_default.a.createElement(
-                        'li',
-                        null,
-                        react_default.a.createElement(
-                          'a',
-                          { href: 'javascript:void();' },
-                          'Same Day Pickup'
-                        )
-                      ),
-                      react_default.a.createElement(
-                        'li',
-                        null,
-                        react_default.a.createElement(
-                          'a',
-                          { href: 'javascript:void();' },
-                          'My JCP.com Account'
-                        )
-                      ),
-                      react_default.a.createElement(
-                        'li',
-                        null,
-                        react_default.a.createElement(
-                          'a',
-                          { href: 'javascript:void();' },
-                          'Track My Order'
-                        )
-                      ),
-                      react_default.a.createElement(
-                        'li',
-                        null,
-                        react_default.a.createElement(
-                          'a',
-                          { href: 'javascript:void();' },
-                          'Servicio Al Cliente'
-                        )
-                      )
-                    )
-                  )
-                )
-              )
-            )
-          ),
-          react_default.a.createElement('br', null),
-          react_default.a.createElement('br', null),
-          react_default.a.createElement('br', null),
-          react_default.a.createElement(
-            'div',
-            { className: 'xl4 lg4 md6 sm12' },
-            react_default.a.createElement(
-              'h2',
-              { className: 'title title-L' },
-              'Accordions: PDP Product Details (Tablet/Mobile)'
-            ),
-            react_default.a.createElement(
-              'div',
-              { className: 'accordion-block filter-accordion' },
-              react_default.a.createElement(
-                'div',
-                { className: 'accordion' },
-                react_default.a.createElement(
-                  'dl',
-                  null,
-                  react_default.a.createElement(
-                    'dt',
-                    { className: 'js-accordionTrigger' },
-                    react_default.a.createElement(
-                      'a',
-                      { href: '#accordion1', 'aria-expanded': 'false', 'aria-controls': 'accordion1', className: 'accordion-title accordionTitle title title-M' },
-                      'Product Specifications'
-                    )
-                  ),
-                  react_default.a.createElement(
-                    'dd',
-                    { className: 'accordion-content accordionItem is-collapsed', id: 'accordion1', 'aria-hidden': 'true' },
-                    react_default.a.createElement(
-                      'ul',
-                      null,
-                      react_default.a.createElement(
-                        'li',
-                        null,
-                        react_default.a.createElement(
-                          'a',
-                          { href: 'javascript:void();' },
-                          'Returns'
-                        )
-                      ),
-                      react_default.a.createElement(
-                        'li',
-                        null,
-                        react_default.a.createElement(
-                          'a',
-                          { href: 'javascript:void();' },
-                          'Shipping information'
-                        )
-                      ),
-                      react_default.a.createElement(
-                        'li',
-                        null,
-                        react_default.a.createElement(
-                          'a',
-                          { href: 'javascript:void();' },
-                          'Rebates'
-                        )
-                      ),
-                      react_default.a.createElement(
-                        'li',
-                        null,
-                        react_default.a.createElement(
-                          'a',
-                          { href: 'javascript:void();' },
-                          'Same Day Pickup'
-                        )
-                      ),
-                      react_default.a.createElement(
-                        'li',
-                        null,
-                        react_default.a.createElement(
-                          'a',
-                          { href: 'javascript:void();' },
-                          'My JCP.com Account'
-                        )
-                      ),
-                      react_default.a.createElement(
-                        'li',
-                        null,
-                        react_default.a.createElement(
-                          'a',
-                          { href: 'javascript:void();' },
-                          'Track My Order'
-                        )
-                      ),
-                      react_default.a.createElement(
-                        'li',
-                        null,
-                        react_default.a.createElement(
-                          'a',
-                          { href: 'javascript:void();' },
-                          'Servicio Al Cliente'
-                        )
-                      )
-                    )
-                  ),
-                  react_default.a.createElement(
-                    'dt',
-                    { className: 'js-accordionTrigger' },
-                    react_default.a.createElement(
-                      'a',
-                      { href: '#accordion1', 'aria-expanded': 'false', 'aria-controls': 'accordion1', className: 'accordion-title accordionTitle title title-M' },
-                      'Helpful Guides'
-                    )
-                  ),
-                  react_default.a.createElement(
-                    'dd',
-                    { className: 'accordion-content accordionItem is-collapsed', id: 'accordion1', 'aria-hidden': 'true' },
-                    react_default.a.createElement(
-                      'ul',
-                      null,
-                      react_default.a.createElement(
-                        'li',
-                        null,
-                        react_default.a.createElement(
-                          'a',
-                          { href: 'javascript:void();' },
-                          'Returns'
-                        )
-                      ),
-                      react_default.a.createElement(
-                        'li',
-                        null,
-                        react_default.a.createElement(
-                          'a',
-                          { href: 'javascript:void();' },
-                          'Shipping information'
-                        )
-                      ),
-                      react_default.a.createElement(
-                        'li',
-                        null,
-                        react_default.a.createElement(
-                          'a',
-                          { href: 'javascript:void();' },
-                          'Rebates'
-                        )
-                      ),
-                      react_default.a.createElement(
-                        'li',
-                        null,
-                        react_default.a.createElement(
-                          'a',
-                          { href: 'javascript:void();' },
-                          'Same Day Pickup'
-                        )
-                      ),
-                      react_default.a.createElement(
-                        'li',
-                        null,
-                        react_default.a.createElement(
-                          'a',
-                          { href: 'javascript:void();' },
-                          'My JCP.com Account'
-                        )
-                      ),
-                      react_default.a.createElement(
-                        'li',
-                        null,
-                        react_default.a.createElement(
-                          'a',
-                          { href: 'javascript:void();' },
-                          'Track My Order'
-                        )
-                      ),
-                      react_default.a.createElement(
-                        'li',
-                        null,
-                        react_default.a.createElement(
-                          'a',
-                          { href: 'javascript:void();' },
-                          'Servicio Al Cliente'
-                        )
-                      )
-                    )
-                  ),
-                  react_default.a.createElement(
-                    'dt',
-                    { className: 'js-accordionTrigger' },
-                    react_default.a.createElement(
-                      'a',
-                      { href: '#accordion1', 'aria-expanded': 'false', 'aria-controls': 'accordion1', className: 'accordion-title accordionTitle title title-M' },
-                      'Reviews',
-                      react_default.a.createElement(
-                        'div',
-                        { className: 'star-preview-col review-star' },
-                        react_default.a.createElement(
-                          'ul',
-                          { className: 'star-ratings-S' },
-                          react_default.a.createElement(
-                            'li',
-                            { className: 'star-ratings start-ratings-full' },
-                            react_default.a.createElement('span', { className: 'icon ', dangerouslySetInnerHTML: { __html: expand_collapse_starImage } })
-                          ),
-                          react_default.a.createElement(
-                            'li',
-                            { className: 'star-ratings start-ratings-full' },
-                            react_default.a.createElement('span', { className: 'icon ', dangerouslySetInnerHTML: { __html: expand_collapse_starImage } })
-                          ),
-                          react_default.a.createElement(
-                            'li',
-                            { className: 'star-ratings start-ratings-full' },
-                            react_default.a.createElement('span', { className: 'icon ', dangerouslySetInnerHTML: { __html: expand_collapse_starImage } })
-                          ),
-                          react_default.a.createElement(
-                            'li',
-                            { className: 'star-ratings start-ratings-half' },
-                            react_default.a.createElement('span', { className: 'icon', dangerouslySetInnerHTML: { __html: expand_collapse_starhalfImage } })
-                          ),
-                          react_default.a.createElement(
-                            'li',
-                            { className: 'star-ratings star-rating-empty' },
-                            react_default.a.createElement('span', { className: 'icon color-concrete-svg', dangerouslySetInnerHTML: { __html: expand_collapse_starImage } })
-                          ),
-                          react_default.a.createElement(
-                            'li',
-                            { className: 'star-ratings' },
-                            react_default.a.createElement(
-                              'a',
-                              { href: 'javascript:void();', className: 'rating-count rating-count-underline std-txt std-txt-S' },
-                              '(99,999)'
-                            )
-                          )
-                        )
-                      )
-                    )
-                  ),
-                  react_default.a.createElement(
-                    'dd',
-                    { className: 'accordion-content accordionItem is-collapsed', id: 'accordion1', 'aria-hidden': 'true' },
-                    react_default.a.createElement(
-                      'ul',
-                      null,
-                      react_default.a.createElement(
-                        'li',
-                        null,
-                        react_default.a.createElement(
-                          'a',
-                          { href: 'javascript:void();' },
-                          'Content here'
-                        )
-                      ),
-                      react_default.a.createElement(
-                        'li',
-                        null,
-                        react_default.a.createElement(
-                          'a',
-                          { href: 'javascript:void();' },
-                          'More content here'
-                        )
-                      ),
-                      react_default.a.createElement(
-                        'li',
-                        null,
-                        react_default.a.createElement(
-                          'a',
-                          { href: 'javascript:void();' },
-                          'Even more content here'
-                        )
-                      )
-                    )
-                  ),
-                  react_default.a.createElement(
-                    'dt',
-                    { className: 'js-accordionTrigger' },
-                    react_default.a.createElement(
-                      'a',
-                      { href: '#accordion1', 'aria-expanded': 'false', 'aria-controls': 'accordion1', className: 'accordion-title accordionTitle title title-M' },
-                      'Questions & Answers'
-                    )
-                  ),
-                  react_default.a.createElement(
-                    'dd',
-                    { className: 'accordion-content accordionItem is-collapsed', id: 'accordion1', 'aria-hidden': 'true' },
-                    react_default.a.createElement(
-                      'ul',
-                      null,
-                      react_default.a.createElement(
-                        'li',
-                        null,
-                        react_default.a.createElement(
-                          'a',
-                          { href: 'javascript:void();' },
-                          'Returns'
-                        )
-                      ),
-                      react_default.a.createElement(
-                        'li',
-                        null,
-                        react_default.a.createElement(
-                          'a',
-                          { href: 'javascript:void();' },
-                          'Shipping information'
-                        )
-                      ),
-                      react_default.a.createElement(
-                        'li',
-                        null,
-                        react_default.a.createElement(
-                          'a',
-                          { href: 'javascript:void();' },
-                          'Rebates'
-                        )
-                      ),
-                      react_default.a.createElement(
-                        'li',
-                        null,
-                        react_default.a.createElement(
-                          'a',
-                          { href: 'javascript:void();' },
-                          'Same Day Pickup'
-                        )
-                      ),
-                      react_default.a.createElement(
-                        'li',
-                        null,
-                        react_default.a.createElement(
-                          'a',
-                          { href: 'javascript:void();' },
-                          'My JCP.com Account'
-                        )
-                      ),
-                      react_default.a.createElement(
-                        'li',
-                        null,
-                        react_default.a.createElement(
-                          'a',
-                          { href: 'javascript:void();' },
-                          'Track My Order'
-                        )
-                      ),
-                      react_default.a.createElement(
-                        'li',
-                        null,
-                        react_default.a.createElement(
-                          'a',
-                          { href: 'javascript:void();' },
-                          'Servicio Al Cliente'
-                        )
-                      )
-                    )
-                  ),
-                  react_default.a.createElement(
-                    'dt',
-                    { className: 'js-accordionTrigger' },
-                    react_default.a.createElement(
-                      'a',
-                      { href: '#accordion1', 'aria-expanded': 'false', 'aria-controls': 'accordion1', className: 'accordion-title accordionTitle title title-M' },
-                      'Shipping & Returns'
-                    )
-                  ),
-                  react_default.a.createElement(
-                    'dd',
-                    { className: 'accordion-content accordionItem is-collapsed', id: 'accordion1', 'aria-hidden': 'true' },
-                    react_default.a.createElement(
-                      'ul',
-                      null,
-                      react_default.a.createElement(
-                        'li',
-                        null,
-                        react_default.a.createElement(
-                          'a',
-                          { href: 'javascript:void();' },
-                          'Returns'
-                        )
-                      ),
-                      react_default.a.createElement(
-                        'li',
-                        null,
-                        react_default.a.createElement(
-                          'a',
-                          { href: 'javascript:void();' },
-                          'Shipping information'
-                        )
-                      ),
-                      react_default.a.createElement(
-                        'li',
-                        null,
-                        react_default.a.createElement(
-                          'a',
-                          { href: 'javascript:void();' },
-                          'Rebates'
-                        )
-                      ),
-                      react_default.a.createElement(
-                        'li',
-                        null,
-                        react_default.a.createElement(
-                          'a',
-                          { href: 'javascript:void();' },
-                          'Same Day Pickup'
-                        )
-                      ),
-                      react_default.a.createElement(
-                        'li',
-                        null,
-                        react_default.a.createElement(
-                          'a',
-                          { href: 'javascript:void();' },
-                          'My JCP.com Account'
-                        )
-                      ),
-                      react_default.a.createElement(
-                        'li',
-                        null,
-                        react_default.a.createElement(
-                          'a',
-                          { href: 'javascript:void();' },
-                          'Track My Order'
-                        )
-                      ),
-                      react_default.a.createElement(
-                        'li',
-                        null,
-                        react_default.a.createElement(
-                          'a',
-                          { href: 'javascript:void();' },
-                          'Servicio Al Cliente'
-                        )
-                      )
-                    )
-                  )
-                )
-              )
-            )
-          )
-        )
-      );
-    }
-  }]);
-
-  return ExpandCollapse;
-}(react["Component"]);
-
-var expand_collapse__default = expand_collapse_ExpandCollapse;
-
-
-/* harmony default export */ var expand_collapse = (expand_collapse__default);
-;
-
-var expand_collapse__temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(expand_collapse_ExpandCollapse, 'ExpandCollapse', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/expand-collapse/expand-collapse.js');
-
-  __REACT_HOT_LOADER__.register(expand_collapse__default, 'default', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/expand-collapse/expand-collapse.js');
-}();
-
-;
-// CONCATENATED MODULE: ./src/js/components/expand-collapse/index.js
-
-var components_expand_collapse__default = expand_collapse;
-/* harmony default export */ var components_expand_collapse = (components_expand_collapse__default);
-;
-
-var components_expand_collapse__temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(components_expand_collapse__default, 'default', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/expand-collapse/index.js');
-}();
-
-;
-// CONCATENATED MODULE: ./src/js/components/product-cards/product-cards.js
-var product_cards__createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-function product_cards__classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function product_cards__possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function product_cards__inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-
-
-
-var product_cards_plusImage = __webpack_require__("Vx6E");
-var product_cards_heartfillImage = __webpack_require__("/KOU");
-
-var product_cards_ProductCards = function (_Component) {
-  product_cards__inherits(ProductCards, _Component);
-
-  function ProductCards() {
-    product_cards__classCallCheck(this, ProductCards);
-
-    return product_cards__possibleConstructorReturn(this, (ProductCards.__proto__ || Object.getPrototypeOf(ProductCards)).apply(this, arguments));
-  }
-
-  product_cards__createClass(ProductCards, [{
-    key: 'productCardRecommendations',
-    value: function productCardRecommendations(productInfo) {
-      return react_default.a.createElement(
-        'div',
-        { className: 'product-card product-card-recommendation' },
-        function () {
-          if (productInfo.thumb) {
-            return react_default.a.createElement(
-              'div',
-              { className: 'product-card-thumbnail mrg-S' },
-              react_default.a.createElement(
-                'a',
-                { href: 'javascript:void(0)' },
-                react_default.a.createElement('img', { src: productInfo.thumb, alt: '' })
-              )
-            );
-          }
-        }(),
-        function () {
-          if (productInfo.promo) {
-            return react_default.a.createElement(
-              'div',
-              { className: 'price price-promo-S mrg-XS color-penneyred' },
-              productInfo.promo
-            );
-          }
-        }(),
-        react_default.a.createElement(
-          'div',
-          { className: 'product-card-price' },
-          function () {
-            if (productInfo.priceHighlight === true) {
-              return react_default.a.createElement(
-                'div',
-                { className: 'product-card-price-value' },
-                react_default.a.createElement(
-                  'div',
-                  { 'class': 'flag flag-urgency std-txt std-txt-XS mrg-rght-XS' },
-                  react_default.a.createElement(
-                    'div',
-                    { className: 'price price-XS color-white' },
-                    productInfo.price
-                  )
-                )
-=======
->>>>>>> 534e238901c934d7fc9a9c39e843543003ba4650
               );
             } else {
               return react_default.a.createElement(
@@ -27100,9 +26115,9 @@ var product_cards__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(product_cards_ProductCards, 'ProductCards', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/product-cards/product-cards.js');
+  __REACT_HOT_LOADER__.register(product_cards_ProductCards, 'ProductCards', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/product-cards/product-cards.js');
 
-  __REACT_HOT_LOADER__.register(product_cards__default, 'default', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/product-cards/product-cards.js');
+  __REACT_HOT_LOADER__.register(product_cards__default, 'default', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/product-cards/product-cards.js');
 }();
 
 ;
@@ -27117,7 +26132,7 @@ var components_product_cards__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_product_cards__default, 'default', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/product-cards/index.js');
+  __REACT_HOT_LOADER__.register(components_product_cards__default, 'default', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/product-cards/index.js');
 }();
 
 ;
@@ -27262,9 +26277,9 @@ var like_dislike__temp = function () {
         return;
     }
 
-    __REACT_HOT_LOADER__.register(like_dislike_LikeDislike, 'LikeDislike', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/like-dislike/like-dislike.js');
+    __REACT_HOT_LOADER__.register(like_dislike_LikeDislike, 'LikeDislike', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/like-dislike/like-dislike.js');
 
-    __REACT_HOT_LOADER__.register(like_dislike__default, 'default', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/like-dislike/like-dislike.js');
+    __REACT_HOT_LOADER__.register(like_dislike__default, 'default', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/like-dislike/like-dislike.js');
 }();
 
 ;
@@ -27279,7 +26294,7 @@ var components_like_dislike__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_like_dislike__default, 'default', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/like-dislike/index.js');
+  __REACT_HOT_LOADER__.register(components_like_dislike__default, 'default', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/like-dislike/index.js');
 }();
 
 ;
@@ -27949,21 +26964,21 @@ var recommendation_zone__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(add, 'add', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/recommendation-zone/recommendation-zone.js');
+  __REACT_HOT_LOADER__.register(add, 'add', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/recommendation-zone/recommendation-zone.js');
 
-  __REACT_HOT_LOADER__.register(subtract, 'subtract', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/recommendation-zone/recommendation-zone.js');
+  __REACT_HOT_LOADER__.register(subtract, 'subtract', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/recommendation-zone/recommendation-zone.js');
 
-  __REACT_HOT_LOADER__.register(dotsToDisplay, 'dotsToDisplay', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/recommendation-zone/recommendation-zone.js');
+  __REACT_HOT_LOADER__.register(dotsToDisplay, 'dotsToDisplay', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/recommendation-zone/recommendation-zone.js');
 
-  __REACT_HOT_LOADER__.register(isSameStateFirstTime, 'isSameStateFirstTime', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/recommendation-zone/recommendation-zone.js');
+  __REACT_HOT_LOADER__.register(isSameStateFirstTime, 'isSameStateFirstTime', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/recommendation-zone/recommendation-zone.js');
 
-  __REACT_HOT_LOADER__.register(isMobile, 'isMobile', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/recommendation-zone/recommendation-zone.js');
+  __REACT_HOT_LOADER__.register(isMobile, 'isMobile', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/recommendation-zone/recommendation-zone.js');
 
-  __REACT_HOT_LOADER__.register(calculateScrollPixel, 'calculateScrollPixel', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/recommendation-zone/recommendation-zone.js');
+  __REACT_HOT_LOADER__.register(calculateScrollPixel, 'calculateScrollPixel', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/recommendation-zone/recommendation-zone.js');
 
-  __REACT_HOT_LOADER__.register(recommendation_zone_RecommendationZone, 'RecommendationZone', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/recommendation-zone/recommendation-zone.js');
+  __REACT_HOT_LOADER__.register(recommendation_zone_RecommendationZone, 'RecommendationZone', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/recommendation-zone/recommendation-zone.js');
 
-  __REACT_HOT_LOADER__.register(recommendation_zone__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/recommendation-zone/recommendation-zone.js');
+  __REACT_HOT_LOADER__.register(recommendation_zone__default, 'default', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/recommendation-zone/recommendation-zone.js');
 }();
 
 ;
@@ -27978,7 +26993,7 @@ var components_recommendation_zone__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_recommendation_zone__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/recommendation-zone/index.js');
+  __REACT_HOT_LOADER__.register(components_recommendation_zone__default, 'default', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/recommendation-zone/index.js');
 }();
 
 ;
@@ -28212,12 +27227,12 @@ var pdp_Pdp = function (_Component) {
                     ),
                     react_default.a.createElement(
                         'div',
-                        { className: 'md12 sm12 lg6 xl6 nopad' },
+                        { className: 'md6 sm12 lg6 xl6 nopad' },
                         react_default.a.createElement(carousel, null)
                     ),
                     react_default.a.createElement(
                         'div',
-                        { className: 'md12 sm12 lg6 xl6' },
+                        { className: 'md6 sm12 lg6 xl6' },
                         react_default.a.createElement(
                             'div',
                             { className: 'pdp-pricing mrg-M' },
@@ -28613,37 +27628,14 @@ var pdp__default = pdp_Pdp;
 /* harmony default export */ var pdp = (pdp__default);
 ;
 
-<<<<<<< HEAD
-var recommendation_zone__temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(add, 'add', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/recommendation-zone/recommendation-zone.js');
-
-  __REACT_HOT_LOADER__.register(subtract, 'subtract', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/recommendation-zone/recommendation-zone.js');
-
-  __REACT_HOT_LOADER__.register(dotsToDisplay, 'dotsToDisplay', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/recommendation-zone/recommendation-zone.js');
-
-  __REACT_HOT_LOADER__.register(isSameStateFirstTime, 'isSameStateFirstTime', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/recommendation-zone/recommendation-zone.js');
-
-  __REACT_HOT_LOADER__.register(isMobile, 'isMobile', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/recommendation-zone/recommendation-zone.js');
-
-  __REACT_HOT_LOADER__.register(calculateScrollPixel, 'calculateScrollPixel', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/recommendation-zone/recommendation-zone.js');
-
-  __REACT_HOT_LOADER__.register(recommendation_zone_RecommendationZone, 'RecommendationZone', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/recommendation-zone/recommendation-zone.js');
-
-  __REACT_HOT_LOADER__.register(recommendation_zone__default, 'default', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/recommendation-zone/recommendation-zone.js');
-=======
 var pdp__temp = function () {
     if (typeof __REACT_HOT_LOADER__ === 'undefined') {
         return;
     }
 
-    __REACT_HOT_LOADER__.register(pdp_Pdp, 'Pdp', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/pdp/pdp.js');
+    __REACT_HOT_LOADER__.register(pdp_Pdp, 'Pdp', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/pdp/pdp.js');
 
-    __REACT_HOT_LOADER__.register(pdp__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/pdp/pdp.js');
->>>>>>> 534e238901c934d7fc9a9c39e843543003ba4650
+    __REACT_HOT_LOADER__.register(pdp__default, 'default', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/pdp/pdp.js');
 }();
 
 ;
@@ -28658,11 +27650,7 @@ var components_pdp__temp = function () {
     return;
   }
 
-<<<<<<< HEAD
-  __REACT_HOT_LOADER__.register(components_recommendation_zone__default, 'default', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/recommendation-zone/index.js');
-=======
-  __REACT_HOT_LOADER__.register(components_pdp__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/pdp/index.js');
->>>>>>> 534e238901c934d7fc9a9c39e843543003ba4650
+  __REACT_HOT_LOADER__.register(components_pdp__default, 'default', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/pdp/index.js');
 }();
 
 ;
@@ -28817,11 +27805,11 @@ var SubNav__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(varToURL, 'varToURL', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/containers/SubNav.js');
+  __REACT_HOT_LOADER__.register(varToURL, 'varToURL', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/containers/SubNav.js');
 
-  __REACT_HOT_LOADER__.register(SubNav_SubNav, 'SubNav', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/containers/SubNav.js');
+  __REACT_HOT_LOADER__.register(SubNav_SubNav, 'SubNav', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/containers/SubNav.js');
 
-  __REACT_HOT_LOADER__.register(SubNav__default, 'default', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/containers/SubNav.js');
+  __REACT_HOT_LOADER__.register(SubNav__default, 'default', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/containers/SubNav.js');
 }();
 
 ;
@@ -28965,9 +27953,9 @@ var DesignSystemPage__temp = function () {
         return;
     }
 
-    __REACT_HOT_LOADER__.register(DesignSystemPage_DesignSystemPage, 'DesignSystemPage', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/containers/DesignSystemPage.js');
+    __REACT_HOT_LOADER__.register(DesignSystemPage_DesignSystemPage, 'DesignSystemPage', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/containers/DesignSystemPage.js');
 
-    __REACT_HOT_LOADER__.register(DesignSystemPage__default, 'default', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/containers/DesignSystemPage.js');
+    __REACT_HOT_LOADER__.register(DesignSystemPage__default, 'default', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/containers/DesignSystemPage.js');
 }();
 
 ;
@@ -32986,9 +31974,9 @@ var work_in_progress__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(work_in_progress_WorkInProgress, 'WorkInProgress', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/work-in-progress/work-in-progress.js');
+  __REACT_HOT_LOADER__.register(work_in_progress_WorkInProgress, 'WorkInProgress', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/work-in-progress/work-in-progress.js');
 
-  __REACT_HOT_LOADER__.register(work_in_progress__default, 'default', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/work-in-progress/work-in-progress.js');
+  __REACT_HOT_LOADER__.register(work_in_progress__default, 'default', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/work-in-progress/work-in-progress.js');
 }();
 
 ;
@@ -33003,7 +31991,7 @@ var components_work_in_progress__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_work_in_progress__default, 'default', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/components/work-in-progress/index.js');
+  __REACT_HOT_LOADER__.register(components_work_in_progress__default, 'default', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/work-in-progress/index.js');
 }();
 
 ;
@@ -33415,15 +32403,15 @@ var Root__temp = function () {
         return;
     }
 
-    __REACT_HOT_LOADER__.register(Root_Home, 'Home', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/containers/Root.js');
+    __REACT_HOT_LOADER__.register(Root_Home, 'Home', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/containers/Root.js');
 
-    __REACT_HOT_LOADER__.register(Root_renderNavLinkItems, 'renderNavLinkItems', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/containers/Root.js');
+    __REACT_HOT_LOADER__.register(Root_renderNavLinkItems, 'renderNavLinkItems', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/containers/Root.js');
 
-    __REACT_HOT_LOADER__.register(Root_RenderNavLink, 'RenderNavLink', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/containers/Root.js');
+    __REACT_HOT_LOADER__.register(Root_RenderNavLink, 'RenderNavLink', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/containers/Root.js');
 
-    __REACT_HOT_LOADER__.register(Root_App, 'App', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/containers/Root.js');
+    __REACT_HOT_LOADER__.register(Root_App, 'App', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/containers/Root.js');
 
-    __REACT_HOT_LOADER__.register(Root__default, 'default', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/containers/Root.js');
+    __REACT_HOT_LOADER__.register(Root__default, 'default', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/containers/Root.js');
 }();
 
 ;
@@ -33459,7 +32447,7 @@ var js__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(js_render, 'render', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/index.jsx');
+  __REACT_HOT_LOADER__.register(js_render, 'render', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/index.jsx');
 }();
 
 ;
@@ -33539,7 +32527,7 @@ module.exports = "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http:/
 /***/ "RHxQ":
 /***/ (function(module, exports) {
 
-module.exports = "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"32\" height=\"32\" viewBox=\"0 0 32 32\">\n    <defs>\n        <path id=\"a\" d=\"M9.852 0C3.302 0 0 4.696 0 8.612c0 2.37.897 4.48 2.823 5.266.315.13.598.005.69-.345.063-.242.214-.852.282-1.106.092-.346.056-.467-.199-.768-.555-.655-.91-1.503-.91-2.704 0-3.483 2.607-6.602 6.787-6.602 3.702 0 5.737 2.262 5.737 5.282 0 3.975-1.76 7.33-4.371 7.33-1.442 0-2.522-1.193-2.176-2.656.415-1.746 1.217-3.63 1.217-4.891 0-1.128-.605-2.07-1.859-2.07-1.474 0-2.658 1.526-2.658 3.569 0 1.3.44 2.181.44 2.181L4.028 18.61c-.527 2.23-.08 4.963-.041 5.239.022.163.232.202.327.078.136-.177 1.892-2.345 2.489-4.51.169-.614.97-3.79.97-3.79.479.913 1.879 1.718 3.367 1.718 4.431 0 7.438-4.04 7.438-9.448C18.58 3.808 15.115 0 9.852 0\"/>\n    </defs>\n    <g fill=\"none\" fill-rule=\"evenodd\" transform=\"translate(7 4)\">\n        <mask id=\"b\" fill=\"#fff\">\n            <use xlink:href=\"#a\"/>\n        </mask>\n        <use fill=\"#111\" xlink:href=\"#a\"/>\n        <g fill=\"#111\" mask=\"url(#b)\">\n            <path d=\"M-9-6h36v36H-9z\"/>\n        </g>\n    </g>\n</svg>\n"
+module.exports = "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"32\" height=\"32\" viewBox=\"0 0 32 32\">\n  <defs>\n    <path id=\"pinterest-min-a\" d=\"M9.85183908,0 C3.30216074,0 0,4.69588258 0,8.61176093 C0,10.9826309 0.897433432,13.0922852 2.822801,13.8782895 C3.13844557,14.0075044 3.42108996,13.8827895 3.51301903,13.5332876 C3.57644794,13.2911434 3.72709162,12.6810687 3.79459198,12.4271387 C3.88694962,12.0812797 3.85094943,11.9602076 3.59616234,11.658706 C3.04094504,11.003631 2.68608598,10.1559122 2.68608598,8.95526279 C2.68608598,5.47181535 5.29288581,2.35286989 9.47340845,2.35286989 C13.1752142,2.35286989 15.2098681,4.61488214 15.2098681,7.63546993 C15.2098681,11.6102772 13.4503586,14.9651525 10.8388444,14.9651525 C9.39690804,14.9651525 8.31733076,13.7724317 8.66318978,12.3094952 C9.07783488,10.5632715 9.88033923,8.67861843 9.88033923,7.41796875 C9.88033923,6.28953407 9.27455023,5.3486004 8.0211863,5.3486004 C6.5468926,5.3486004 5.36252905,6.87368009 5.36252905,8.91669115 C5.36252905,10.2176268 5.80224571,11.0981315 5.80224571,11.0981315 C5.80224571,11.0981315 4.29345183,17.490309 4.02923611,18.6097437 C3.50230468,20.8393986 3.94973568,23.5726277 3.98766446,23.8486292 C4.00995029,24.0121301 4.22016572,24.0507017 4.3150948,23.9272725 C4.45138125,23.7500572 6.20724791,21.5823312 6.80403685,19.4161052 C6.97289491,18.8030304 7.77389925,15.6268704 7.77389925,15.6268704 C8.25283041,16.5403753 9.65255228,17.3450225 11.1412032,17.3450225 C15.5722272,17.3450225 18.5793149,13.3048578 18.5793149,7.89732849 C18.5795292,3.80809205 15.1153676,0 9.85183908,0\"/>\n  </defs>\n  <g fill=\"none\" fill-rule=\"evenodd\" transform=\"translate(7 4)\">\n    <use fill=\"#111\" xlink:href=\"#pinterest-min-a\"/>\n  </g>\n</svg>\n"
 
 /***/ }),
 
@@ -33695,9 +32683,9 @@ var _temp = function () {
         return;
     }
 
-    __REACT_HOT_LOADER__.register(Utils, 'Utils', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/helpers/Utils.js');
+    __REACT_HOT_LOADER__.register(Utils, 'Utils', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/helpers/Utils.js');
 
-    __REACT_HOT_LOADER__.register(_default, 'default', '/Users/guest/Desktop/lincolnjcp.github.io/src/js/helpers/Utils.js');
+    __REACT_HOT_LOADER__.register(_default, 'default', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/helpers/Utils.js');
 }();
 
 ;
@@ -34015,9 +33003,9 @@ var _temp = function () {
         return;
     }
 
-    __REACT_HOT_LOADER__.register(CreateInput, "CreateInput", "/Users/guest/Desktop/lincolnjcp.github.io/src/js/containers/CreateInput.js");
+    __REACT_HOT_LOADER__.register(CreateInput, "CreateInput", "/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/containers/CreateInput.js");
 
-    __REACT_HOT_LOADER__.register(_default, "default", "/Users/guest/Desktop/lincolnjcp.github.io/src/js/containers/CreateInput.js");
+    __REACT_HOT_LOADER__.register(_default, "default", "/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/containers/CreateInput.js");
 }();
 
 ;
