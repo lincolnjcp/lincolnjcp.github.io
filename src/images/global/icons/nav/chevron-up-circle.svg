@@ -1,7 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32" aria-labelledby="title-44">
   <defs>
     <path id="chevron-up-circle-a" d="M19,31 C12.372583,31 7,25.627417 7,19 C7,12.372583 12.372583,7 19,7 C25.627417,7 31,12.372583 31,19 C31,25.627417 25.627417,31 19,31 Z M17.5222672,12.5 L16,14.0275 L20.9446694,19 L16,23.9725 L17.5222672,25.5 L24,19 L17.5222672,12.5 Z"/>
   </defs>
+  <title id="title-44" lang="en">advance carousels and navigations</title>
   <g fill="none" fill-rule="evenodd" transform="rotate(-90 16 19)">
     <use fill="#384048" xlink:href="#chevron-up-circle-a"/>
   </g>

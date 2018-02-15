@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import $ from 'jquery';
 import CodeGenerator from '../../containers/CodeGenerator.js';
 const arrowdownImage = require('!!raw-loader?es5=1!../../../images/global/icons/nav/arrow-down.svg');
 const cartImage = require('!!raw-loader?es5=1!../../../images/global/icons/utility/cart/cart.svg');
@@ -369,22 +368,22 @@ class Tables extends Component {
             <div className="colChild priceCol">
             <p class="title title-XS color-penneyred mrg-XS">CYBER WEEK</p>
             <div class="price price-S mrg-rght-XS mrg-XS mrg-top-M">$1099 <span class="price price-note-M mrg-lft-XS color-penneyred"> sale </span></div>
-               <div><span class="price price-note color-slate font-body">was $2,999  |</span><span class="price price-note mrg-lft-XS color-slate font-body">33% off</span></div>
+               <div><span class="price price-note color-slate std-txt">was $2,999  |</span><span class="price price-note mrg-lft-XS color-slate std-txt">33% off</span></div>
             </div>
             <div className="colChild priceCol">
             <p class="title title-XS color-penneyred mrg-XS">CYBER WEEK</p>
             <div class="price price-S mrg-rght-XS mrg-XS mrg-top-M">$1099 <span class="price price-note-M mrg-lft-XS color-penneyred"> sale </span></div>
-               <div><span class="price price-note color-slate font-body">was $2,999  |</span><span class="price price-note mrg-lft-XS color-slate font-body">33% off</span></div>
+               <div><span class="price price-note color-slate std-txt">was $2,999  |</span><span class="price price-note mrg-lft-XS color-slate std-txt">33% off</span></div>
             </div>
             <div className="colChild priceCol">
             <p class="title title-XS color-penneyred mrg-XS">CYBER WEEK</p>
             <div class="price price-S mrg-rght-XS mrg-XS mrg-top-M">$1099 <span class="price price-note-M mrg-lft-XS color-penneyred"> sale </span></div>
-               <div><span class="price price-note color-slate font-body">was $2,999  |</span><span class="price price-note mrg-lft-XS color-slate font-body">33% off</span></div>
+               <div><span class="price price-note color-slate std-txt">was $2,999  |</span><span class="price price-note mrg-lft-XS color-slate std-txt">33% off</span></div>
             </div>
             <div className="colChild priceCol">
             <p class="title title-XS color-penneyred mrg-XS">CYBER WEEK</p>
             <div class="price price-S mrg-rght-XS mrg-XS mrg-top-M">$1099 <span class="price price-note-M mrg-lft-XS color-penneyred"> sale </span></div>
-               <div><span class="price price-note color-slate font-body">was $2,999  |</span><span class="price price-note mrg-lft-XS color-slate font-body">33% off</span></div>
+               <div><span class="price price-note color-slate std-txt">was $2,999  |</span><span class="price price-note mrg-lft-XS color-slate std-txt">33% off</span></div>
             </div>
         </div>
         <div className="rowChild">

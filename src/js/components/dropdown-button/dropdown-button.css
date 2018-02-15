@@ -14,6 +14,7 @@
     display: inline-block;
     position: relative;
     max-width: 220px;
+    background: var(--color-white);
     &:hover, &:active, &.hover {
       border: 1px solid var(--color-nightsky);
     }
@@ -46,7 +47,7 @@
       top: 3px;
       line-height: 16px;
       @media (--viewport-sm-only) {
-        max-width: 54px;
+        max-width: 35px;
       }
     }
   }
@@ -88,7 +89,9 @@
         width: 100%;
       }
       &.filter-tooltip{
-        left: -39px;
+        left: 32px;
+        top: -5px;
+        padding: 8px 0;
       }
       }
 
@@ -100,6 +103,7 @@
       max-height: 236px;
       overflow: auto;
       border-radius: var(--border-radius-M);
+      -webkit-overflow-scrolling: touch;
       & .search-type {
         margin: 10px 0;
         & input[type="text"] {
@@ -115,6 +119,7 @@
         padding: 6px 16px;
         & a {
           text-decoration: none;
+          display: block;
         }
       }
       & li:hover {

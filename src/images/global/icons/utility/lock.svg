@@ -1,7 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32" aria-labaria-lelledby="title-013">
   <defs>
     <path id="lock-a" d="M15.3,9.23076923 L16.0049107,9.23076923 C17.1067681,9.23076923 18,10.1324182 18,11.2226134 L18,22.0081558 C18,23.108221 17.1073772,24 16.0049107,24 L1.99508929,24 C0.893231902,24 0,23.098351 0,22.0081558 L0,11.2226134 C0,10.1225482 0.892622799,9.23076923 1.99508929,9.23076923 L2.7,9.23076923 L2.7,6.46736383 C2.7,2.89553742 5.52768594,0 9,0 C12.4793939,0 15.3,2.8962285 15.3,6.46736383 L15.3,9.23076923 Z M12.6,9.23076923 L12.6,6.46736383 C12.6,4.42478968 10.987403,2.76923077 9,2.76923077 C7.01648525,2.76923077 5.4,4.42737193 5.4,6.46736383 L5.4,9.23076923 L12.6,9.23076923 Z"/>
   </defs>
+  <title id="title-013" lang="en">security in checkout payment</title>
   <g fill="none" fill-rule="evenodd" transform="translate(7 4)">
     <use fill="#384048" xlink:href="#lock-a"/>
   </g>

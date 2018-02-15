@@ -63,7 +63,7 @@ class CarouselImage extends React.Component {
   render() {
     return (
       <div>
-        <img src={this.props.imgSrc} />
+        <img src={this.props.imgSrc} alt="product-image" />
       </div>
     );
   }
@@ -77,7 +77,7 @@ const CarouselNavImage = (args) => {
   return (
     <div className={selectedImageStyle}>
       <div className={args.navClass}>
-        <img src={args.imgSrc} />
+        <img src={args.imgSrc} alt="product-image" />
       </div>
     </div>
   );
@@ -282,22 +282,12 @@ class Carousel extends Component {
 
     return (
       <div>
-        <div className="row">
-          <div className="sm12 columns">
-            <h1 className="title title-XL mrg-L">Carousels</h1>
-            <h2 className="std-txt std-txt-XL mrg-L max-width-text">
-              Nulla vitae elit libero, a pharetra augue nullam quis risus eget
-              urna mollis ornare vel eu leo. Lorem ipsum dolor sit amet,
-              consectetur adipiscing elit.
-            </h2>
-          </div>
-        </div>
 
         <div className="row" id="carousel">
-          <div className="md12 lg12 sm12 column mrg-XL">
-            <h2 className="title title-L mrg-M">
+          <div className="md12 lg12 sm12 column">
+            {/* <h2 className="title title-L mrg-M">
               PDP Carousels & Video Player
-            </h2>
+            </h2> */}
 
             <div className="carousel-container carousel-container-vertical mrg-L hide-for-medium-only hide-for-small-only">
               <div className="carousel-main-img">
@@ -340,9 +330,8 @@ class Carousel extends Component {
               </div>
             </div>
 
-            <hr />
-
-            <div className="carousel-container carousel-container-horizontal mrg-L hide-for-medium-only hide-for-small-only">
+            {/*  hiding secondary carousel */}
+            <div className="carousel-container carousel-container-horizontal mrg-L hide-for-medium-only hide-for-small-only hide">
               <div className="carousel-main-img">
                 <Slider ref="secondarySlider" {...pdpSecondaryCarouselSettings}>
                   <div>
@@ -409,7 +398,7 @@ class Carousel extends Component {
           </div>
         </div>
 
-        <div className="row" id="content-guidelines">
+        {/* <div className="row" id="content-guidelines">
           <div className="sm12 columns">
             <hr />
             <h3 className="title title-L mrg-L">Content Guidelines</h3>
@@ -435,8 +424,8 @@ class Carousel extends Component {
               </li>
             </ul>
           </div>
-        </div>
-        <div className="row">
+        </div> */}
+        {/* <div className="row">
           <div className="sm12 columns">
             <hr />
             <p className="S">
@@ -445,7 +434,7 @@ class Carousel extends Component {
               <br /> Latest update: 04/05/2017
             </p>
           </div>
-        </div>
+        </div> */}
       </div>
     );
   }

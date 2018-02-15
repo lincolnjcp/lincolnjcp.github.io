@@ -1,7 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32" aria-labelledby="title-44">
   <defs>
     <polygon id="chevron-left-a" points="2.538 .34 14.204 12 2.538 23.66 -.204 20.92 8.701 12 -.204 3.08"/>
   </defs>
+ <title id="title-44" lang="en">advance carousels and navigations</title>
   <g fill="none" fill-rule="evenodd" transform="matrix(-1 0 0 1 23 4)">
     <use fill="#384048" xlink:href="#chevron-left-a"/>
   </g>

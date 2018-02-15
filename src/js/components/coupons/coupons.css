@@ -10,7 +10,6 @@
     border-radius: var(--border-radius-M);
 
     & .flag {
-      opacity: .85;
       position: relative;
       left: -32px;
       display: inline-block;
@@ -23,11 +22,7 @@
       display: block;
     }
   }
-  & .coupon-primary-offer, & .coupon-secondary-offer {
-    & p{
-      color: var(--color-coupon-grey);
-    }
-  }
+  
 & .coupon-secondary-offer{
 
      & .coupon-text-or {
@@ -91,6 +86,9 @@
 .coupon-block .coupon-code span:last-child {
   font-weight: 600;
   margin-left: 4px;
+}
+.flag {
+  opacity: .85;
 }
 @media (--viewport-md) {
   .coupon-block {

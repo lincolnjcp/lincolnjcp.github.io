@@ -167,6 +167,7 @@ class App extends React.Component {
                             <Route exact path="/components/dropdown-button" render={() => <DesignSystemPage componentName="DropdownButton" />} />
                             <Route exact path="/components/star-ratings" render={() => <DesignSystemPage componentName="StarRatings" />} />
                             <Route exact path="/components/scrollbar" render={() => <DesignSystemPage componentName="Scrollbar" />} />
+                            <Route exact path="/components/wells" render={() => <DesignSystemPage componentName="Wells" />} />
                             <Route exact path="/components/progressbar" render={() => <DesignSystemPage componentName="ProgressBar" />} />
                             <Route exact path="/components/visual-navigation" render={() => <DesignSystemPage componentName="VisualNavigation" />} />
                             <Route exact path="/components/modal" render={() => <DesignSystemPage componentName="Modal" />} />
@@ -189,6 +190,7 @@ class App extends React.Component {
                             <Route exact path="/page-modules/filter-sort" render={() => <DesignSystemPage componentName="FilterSort" />} />
                             <Route exact path="/page-modules/like-dislike" render={() => <DesignSystemPage componentName="LikeDislike" />} />
                             <Route exact path="/page-modules/recommendation-zone" render={() => <DesignSystemPage componentName="RecommendationZone" />} />
+                            <Route exact path="/page-layouts/pdp" render={() => <DesignSystemPage componentName="Pdp" />} />
                         </div>
                     </div>
 

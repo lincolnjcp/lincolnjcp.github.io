@@ -168,6 +168,11 @@ const rootNav = [
                 content: 'Scrollbar',
             },
             {
+                to: '/components/wells',
+                activeClassName: 'active',
+                content: 'Wells',
+            },
+            {
                 to: '/',
                 activeClassName: 'inactive',
                 content: 'Video Player',
@@ -248,7 +253,7 @@ const rootNav = [
                 content: 'Like/Dislike Messages',
             },
             {
-                to: '/components/modal',
+                to: '/page-modules/modal',
                 activeClassName: 'active',
                 content: 'Modals',
             },
@@ -313,8 +318,8 @@ const rootNav = [
                 content: 'My Account',
             },
             {
-                to: '/',
-                activeClassName: 'inactive',
+                to: '/page-layouts/pdp',
+                activeClassName: 'active',
                 content: 'PDPs',
             },
             {

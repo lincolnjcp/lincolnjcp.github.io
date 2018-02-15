@@ -49,22 +49,22 @@ The screen sizes were determined by a combination of common screen resolutions, 
         <div className="show-for-large-only">
           <h4 class="promo-lbl promo-lbl-L mrg-S">L 1024</h4>
           <p className="mrg-XL algn-lft title title-L color-nightsky">
-          width: 944px<br />
-          margin: 0 40px<br />
+          width: 968px<br />
+          margin: 0 28px<br />
           columns: 12<br />
           column gutter: 16px<br />
-          column width: 64px<br />
+          column width: 66px<br />
           vertical spacing: 4px</p>
         </div>
 
         <div className="show-for-xlarge-only">
-          <h4 class="promo-lbl promo-lbl-L mrg-S">XL 1440</h4>
+          <h4 class="promo-lbl promo-lbl-L mrg-S">XL 1440 </h4>
           <p className="mrg-XL algn-lft title title-L color-nightsky">
-          width: 1328px<br />
-          margin: 0 56px<br />
+          width: 1376px<br />
+          margin: 0 32px<br />
           columns: 12<br />
           column gutter: 16px<br />
-          column width: 96px<br />
+          column width: 100px<br />
           vertical spacing: 4px</p>
         </div>
 

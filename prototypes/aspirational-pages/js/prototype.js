@@ -9,10 +9,15 @@ jQuery.extend( jQuery.easing,
 	}
 });
 
+function getUrlParameter(name) {
+    name = name.replace(/[\[]/, '\\[').replace(/[\]]/, '\\]');
+    var regex = new RegExp('[\\?&]' + name + '=([^&#]*)');
+    var results = regex.exec(location.search);
+    return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
+};
 
 $( document ).ready(function() {
 
-	 
 	 $(".js-trigger-modal").on('click', function () {		 
 		 $('.modal-wrap').fadeIn(400);
 		 $('html').addClass('modal-open');
@@ -51,12 +56,14 @@ $( document ).ready(function() {
         });
 
 	
-	$('.toggle-images').on('click', function () {
+	/*$('.toggle-images').on('click', function () {
 	  $('body').toggleClass('hide-preview-images');
-	});
+	});*/
+	if(getUrlParameter('previewimages') == 'true') {
+		$('body').removeClass('hide-preview-images');
+	}
 
 	$('.hotspot-link').on('click', function () {
-	 //$('.hotspot-link.active').removeClass('active');
 	  $(this).toggleClass('active');
 	});
 

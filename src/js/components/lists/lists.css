@@ -28,25 +28,28 @@
     }
     &.list-links {
         & li {
-            margin: 0;
+            margin: 0 0 8px 0;
             padding: 0;
             list-style-type: none;
-            line-height: 40px;
+            line-height: 24px;
         }
     }
     &.list-icons {
         & li {
             position: relative;
             border-bottom: none;
-            padding-left: 48px;
+            padding-left: 32px;
             line-height: 24px;
             list-style-type: none;
             margin: 0 0 16px;
             & .icon {
                 position: absolute;
-                top: 0px;
+                top: 2px;
                 left: 0px;
             }
+            &:last-child {
+                margin-bottom: 0;
+            }
         }
-    }
+    } 
 }

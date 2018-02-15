@@ -169,7 +169,7 @@ iconCol(iconName, iconDetails, iconComponent ){
   if(iconName !=="") {
     return(
       <div className="design-system-icon-col column column-block">
-        <span className="design-system-icon"><div className="icon" dangerouslySetInnerHTML={{__html: iconComponent}} /></span>
+        <span className="design-system-icon" title={iconDetails}><div className="icon" title={iconDetails} dangerouslySetInnerHTML={{__html: iconComponent}} /></span>
         <div className="design-system-icon-label hide-for-small-only">
           <p className="design-system-icon-name">{iconName}</p>
           <p className="design-system-icon-details">{iconDetails}</p>
@@ -252,8 +252,10 @@ componentDidMount() {
             <h3 className="title title-L mrg-L">Payment</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             <div className="row  small-up-4 medium-up-3 large-up-4 design-system-icon-set">
+
                 {this.iconCol("card-jcp", "JCP credit card accepted", cardjcpImage)} {this.iconCol("card-jcp-gold", "JCP mastercard gold", cardjcpgoldImage)} {this.iconCol("card-jcp-red", "JCP mastercard", cardjcpredImage)} {this.iconCol("card-jcp-platinum", "JCP mastercard platinum", cardjcpplatinumImage)} {this.iconCol("card-mastercard", "Mastercard", cardmastercardImage)} {this.iconCol("card-mastercard-gold", "Gold Mastercard", cardmastercardgoldImage)} {this.iconCol("card-paypal", "PayPal", cardpaypalImage)} {this.iconCol("card-visa", "Visa", cardvisaImage)} {this.iconCol("card-amex", "American Express", cardamexImage)} {this.iconCol("card-discover", "Discover", carddiscoverImage)} {this.iconCol("card-gift", "Gift Card Payment", cardgiftImage)} {this.iconCol("card-jcvv", "card verification code", cardjcvvImage)} {this.iconCol("card-neutral", "card neutral", cardneutralImage)}
                 {this.iconCol("apple-pay", "Apple Pay", applePayImage)}
+
             </div>
             <hr />
         </div>

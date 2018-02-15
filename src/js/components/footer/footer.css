@@ -3,14 +3,12 @@
 ***************************************************/
 .footer-block {
     border-top: 1px solid var(--color-concrete);
-    padding-top: 16px;
+    padding-top: 24px;
     & .signup-block {
         margin: 0 auto;
         display: block;
-        & .signup-label {
-            font-weight: bold;
-            font-size: 14px;
-            padding: 0 0 4px 4px;
+        & em {
+            display: block;
         }
         & .apply-btn {
             position: absolute;
@@ -37,6 +35,7 @@
                 }
             }
             & .input-text {
+                color: var(--color-slate);
                 font-size: 14px;
             }
         }
@@ -55,17 +54,17 @@
         }
         padding: 0;
         & ul {
-            margin-top: 16px;
+            margin-top: 24px;
             @media (--viewport-sm-only) {
                 text-align: center;
             }
             & li{
                 display: inline;
-                padding-right: 16px;
+                padding-right: 18px;
                 @media (--viewport-sm-only) {
                     display: inline-block;
                     text-align: center;
-                    padding: 0 20px;
+                    padding: 0 12px;
                 }
                 & a {
                     font-size: 12px;
@@ -80,7 +79,14 @@
                         width: 100%;
                     }
                     position: relative;
-                    top: 18px;
+                    top: 13px;
+                    width:32px;
+                    height:32px;
+                    right:6px;
+                & svg{
+                    width:32px;
+                    height:32px;
+                }
                 }
             }
         }
@@ -107,6 +113,12 @@
                 & .icon {
                     position: relative;
                     top: 18px;
+                    width: 32px;
+                    height: 32px;
+                 & svg{
+                    width: 32px;
+                    height: 32px;
+                 }
                 }
                 &.footer-stay-conntected{
                     position: relative;
@@ -119,33 +131,26 @@
         border-top: 1px solid var(--color-concrete);
         border-bottom: 1px solid var(--color-concrete);
         margin-top: 32px;
-        padding: 16px 0;
+        padding: 24px 0 16px;
         float: left;
         & ul {
             float: left;
             width: 100%;
-            & li {
-                & a{
-                    font-size: 12px;
-                    line-height: 36px;
-                    text-decoration: none;
-                    font-weight: normal;
-                }
-            }
         }
         & .footer-links-title {
             float: left;
             width: 20%;
-            font-size: 14px;
-            font-weight: bold;
-            line-height: 18px;
             & h5 {
                 padding-right: 16px;
+                font-weight: bold;        
+            }
+            & a {
+                text-decoration: none;
             }
         }
     }
     & .footer-bottom-links {
-        padding: 16px 0;
+        padding: 16px 0 24px;
         @media (--viewport-sm-only) {
             padding-bottom: 8px;
         }
@@ -188,7 +193,6 @@
                     }
                     & li {
                         display: inline-block;
-                        font-size: 12px;
                         padding: 8px 12px 0 0;
                         & a{
                             text-decoration: none;
@@ -235,6 +239,9 @@
         padding-bottom: 10px;
     }
     & .footer-accordion {
+        & .accordion-title {
+            font-family: var(--font-headline);
+        }
         & .accordion-content {
             & a {
                 margin-left: 36px;
@@ -242,15 +249,20 @@
         }
     }
 }
-@media (--viewport-sm) {
-     .footer-block {
+
+.footer-block {
+    @media (--viewport-xl-only) {
+        max-width: 1440px;
+        margin: 0 auto;
+    }
+    @media (--viewport-sm) {
         & .footer-bottom-links{
             & .footer-legal-links ul{
                 float: none;
                 margin: 0 15%;
             }
             & .footer-jcp-card .card-links ul li{
-                padding: 6px 24px 0 0;
+                padding: 6px 16px 0 0;
             }
         }
      }

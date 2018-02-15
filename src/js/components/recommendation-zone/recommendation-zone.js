@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import $ from 'jquery';
 
 const ChevronLeftImage = require('!!raw-loader?es5=1!../../../images/global/icons/nav/chevron-left.svg');
 const ChevronRightImage = require('!!raw-loader?es5=1!../../../images/global/icons/nav/chevron-right.svg');
@@ -61,7 +60,8 @@ const calculateScrollPixel = ({
 };
 
 
-class RecommendationZone extends Component {
+class RecommendationZone
+ extends Component {
   constructor() {
     super();
     this.state = {
@@ -94,7 +94,7 @@ class RecommendationZone extends Component {
                 return (
                   <div className="product-card-thumbnail mrg-S">
                     <a href="javascript:void(0)">
-                      <img src={productInfo.thumb} alt="" />
+                      <img src={productInfo.thumb} alt="product-image" />
                     </a>
                   </div>
                 )
@@ -146,7 +146,7 @@ class RecommendationZone extends Component {
             {(() => {
               if (productInfo.priceRegular) {
                 return (
-                  <div className="product-card-note price price-note color-slate font-body">
+                  <div className="product-card-note price color-slate std-txt std-txt-XS">
                     {productInfo.priceRegular}
                   </div>
                 )
@@ -181,8 +181,6 @@ class RecommendationZone extends Component {
                   </ul>
                 </div>
               </div>
-
-
             </div>
 
           </div>
@@ -361,9 +359,9 @@ class RecommendationZone extends Component {
     return (
       <div>
         <div className="row">
-          <div className="sm12 columns">
+          {/* <div className="sm12 columns">
             <h1 className="title title-XL mrg-L">Recommendation Zone</h1>
-          </div>
+          </div> */}
           <div className="row">
             <div className="sm12 columns">
               <h2><strong>Rec Row</strong></h2>
@@ -556,17 +554,18 @@ class RecommendationZone extends Component {
           </div>
         </div>
 
-        <div className="row">
+        {/* <div className="row">
           <div className="sm12 columns">
             <hr />
             <p className="S">Created by: <strong>Tony Stark</strong> and <strong>Bruce Banner</strong>
               <br /> Latest update: 04/05/2017</p>
           </div>
-        </div>
+        </div> */}
       </div>
 
     );
   }
 }
 
-export default RecommendationZone;
+export default RecommendationZone
+;

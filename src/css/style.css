@@ -20,7 +20,7 @@ Base Styles
 @import "../js/components/alerts/alerts";
 @import "base/product";
 @import "../js/components/tables/tables";
-@import "base/wells";
+@import "../js/components/wells/wells";
 @import "../js/components/content-loaders/content-loaders";
 @import "../js/components/dropdown-button/dropdown-button";
 @import "../js/components/forms/content-forms";
@@ -37,8 +37,6 @@ Base Styles
 @import "../js/components/selectors/selectors";
 @import "../js/components/lists/lists";
 @import "../js/components/like-dislike/like-dislike";
-@import "base/progressbars";
-@import "base/toggles";
 @import "../js/components/carousel/carousel";
 @import "../js/components/coupons/coupons";
 @import "../js/components/product-cards/product-cards";
@@ -58,3 +56,9 @@ Page Modules
 @import "../js/components/footer/footer";
 @import "../js/components/footer-minimized/footer-minimized";
 @import "../js/components/filter-sort/filter-sort";
+
+
+/* ---
+Page Layouts
+--- */
+@import "../js/components/pdp/pdp";

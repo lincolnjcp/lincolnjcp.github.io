@@ -68,186 +68,186 @@ class ExpandCollapse extends Component {
   render() {
     return (
       <div>
-        <div className="row">
-          <h1 className="title title-XL mrg-XXL">Expand / Collapse</h1>
-          <div className="xl4 lg4 md6 sm12">
-            <h2 className="title title-L">Accordions: Basic</h2>
-            <div className="accordion-block filter-accordion">
-              <div className="accordion">
+        <div class="row">
+          {/* <h1 class="title title-XL mrg-XXL">Expand / Collapse</h1>
+          <div class="xl4 lg4 md6 sm12">
+            <h2 class="title title-L">Accordions: Basic</h2>
+            <div class="accordion-block filter-accordion">
+              <div class="accordion">
                 <dl>
-                  <dt className="js-accordionTrigger">
-                    <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" className="accordion-title accordionTitle title title-M">Accordion Title</a>
+                  <dt class="js-accordionTrigger">
+                    <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" class="accordion-title accordionTitle title title-M">Accordion Title</a>
                   </dt>
-                  <dd className="accordion-content accordionItem is-collapsed" id="accordion1" aria-hidden="true">
-                    <ul className="mrg-lft-M">
-                      <li className="dropdown-list">
-                        <label className="checkbox mrg-M" >
+                  <dd class="accordion-content accordionItem is-collapsed" id="accordion1" aria-hidden="true">
+                    <ul class="mrg-lft-M">
+                      <li class="dropdown-list">
+                        <label class="checkbox mrg-M" >
                           <input type="checkbox" defaultChecked="" />
-                          <span className="left">label</span>
-                          <span className="fl-right">(1,008)</span>
+                          <span class="left">label</span>
+                          <span class="fl-right">(1,008)</span>
                         </label>
                       </li>
-                      <li className="dropdown-list">
-                        <label className="checkbox mrg-M">
+                      <li class="dropdown-list">
+                        <label class="checkbox mrg-M">
                           <input type="checkbox" defaultChecked="" />
-                          <span className="left">label</span>
-                          <span className="fl-right">(1,008)</span>
+                          <span class="left">label</span>
+                          <span class="fl-right">(1,008)</span>
                         </label>
                       </li>
-                      <li className="dropdown-list">
-                        <label className="checkbox mrg-M">
+                      <li class="dropdown-list">
+                        <label class="checkbox mrg-M">
                           <input type="checkbox" defaultChecked="" />
-                          <span className="left">label</span>
-                          <span className="fl-right">(1,008)</span>
+                          <span class="left">label</span>
+                          <span class="fl-right">(1,008)</span>
                         </label>
                       </li>
-                      <li className="dropdown-list">
-                        <label className="checkbox mrg-M">
+                      <li class="dropdown-list">
+                        <label class="checkbox mrg-M">
                           <input type="checkbox" defaultChecked="" />
-                          <span className="left">label</span>
-                          <span className="fl-right">(1,008)</span>
+                          <span class="left">label</span>
+                          <span class="fl-right">(1,008)</span>
                         </label>
                       </li>
-                      <li className="dropdown-list">
-                        <label className="checkbox mrg-M">
+                      <li class="dropdown-list">
+                        <label class="checkbox mrg-M">
                           <input type="checkbox" defaultChecked="" />
-                          <span className="left">label</span>
-                          <span className="fl-right">(1,008)</span>
+                          <span class="left">label</span>
+                          <span class="fl-right">(1,008)</span>
                         </label>
                       </li>
                     </ul>
                   </dd>
-                  <dt className="js-accordionTrigger">
-                    <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" className="accordion-title accordionTitle title title-M">Accordion Title</a>
+                  <dt class="js-accordionTrigger">
+                    <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" class="accordion-title accordionTitle title title-M">Accordion Title</a>
                   </dt>
-                  <dd className="accordion-content accordionItem is-collapsed" id="accordion1" aria-hidden="true">
-                    <ul className="mrg-lft-M">
-                      <div className="search-type">
+                  <dd class="accordion-content accordionItem is-collapsed" id="accordion1" aria-hidden="true">
+                    <ul class="mrg-lft-M">
+                      <div class="search-type">
                         <input type="text" placeholder="Search Item Type" />
                       </div>
-                      <li className="dropdown-list">
-                        <label className="checkbox mrg-M" >
+                      <li class="dropdown-list">
+                        <label class="checkbox mrg-M" >
                           <input type="checkbox" defaultChecked="" />
-                          <span className="left">label</span>
-                          <span className="fl-right">(1,008)</span>
+                          <span class="left">label</span>
+                          <span class="fl-right">(1,008)</span>
                         </label>
                       </li>
-                      <li className="dropdown-list">
-                        <label className="checkbox mrg-M">
+                      <li class="dropdown-list">
+                        <label class="checkbox mrg-M">
                           <input type="checkbox" defaultChecked="" />
-                          <span className="left">label</span>
-                          <span className="fl-right">(1,008)</span>
+                          <span class="left">label</span>
+                          <span class="fl-right">(1,008)</span>
                         </label>
                       </li>
-                      <li className="dropdown-list">
-                        <label className="checkbox mrg-M">
+                      <li class="dropdown-list">
+                        <label class="checkbox mrg-M">
                           <input type="checkbox" defaultChecked="" />
-                          <span className="left">label</span>
-                          <span className="fl-right">(1,008)</span>
+                          <span class="left">label</span>
+                          <span class="fl-right">(1,008)</span>
                         </label>
                       </li>
-                      <li className="dropdown-list">
-                        <label className="checkbox mrg-M">
+                      <li class="dropdown-list">
+                        <label class="checkbox mrg-M">
                           <input type="checkbox" defaultChecked="" />
-                          <span className="left">label</span>
-                          <span className="fl-right">(1,008)</span>
+                          <span class="left">label</span>
+                          <span class="fl-right">(1,008)</span>
                         </label>
                       </li>
-                      <li className="dropdown-list">
-                        <label className="checkbox mrg-M">
+                      <li class="dropdown-list">
+                        <label class="checkbox mrg-M">
                           <input type="checkbox" defaultChecked="" />
-                          <span className="left">label</span>
-                          <span className="fl-right">(1,008)</span>
+                          <span class="left">label</span>
+                          <span class="fl-right">(1,008)</span>
                         </label>
                       </li>
                     </ul>
                   </dd>
                   <dt>
-                    <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" className="accordion-title accordionTitle title title-M js-accordionTrigger">Accordion Title</a>
+                    <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" class="accordion-title accordionTitle title title-M js-accordionTrigger">Accordion Title</a>
                   </dt>
-                  <dd className="accordion-content accordionItem is-collapsed" id="accordion1" aria-hidden="true">
-                    <ul className="mrg-lft-M">
-                      <div className="search-type">
+                  <dd class="accordion-content accordionItem is-collapsed" id="accordion1" aria-hidden="true">
+                    <ul class="mrg-lft-M">
+                      <div class="search-type">
                         <input type="text" placeholder="Search Item Type" />
                       </div>
-                      <li className="dropdown-list">
-                        <label className="checkbox mrg-M" >
+                      <li class="dropdown-list">
+                        <label class="checkbox mrg-M" >
                           <input type="checkbox" defaultChecked="" />
-                          <span className="left">label</span>
-                          <span className="fl-right">(1,008)</span>
+                          <span class="left">label</span>
+                          <span class="fl-right">(1,008)</span>
                         </label>
                       </li>
-                      <li className="dropdown-list">
-                        <label className="checkbox mrg-M">
+                      <li class="dropdown-list">
+                        <label class="checkbox mrg-M">
                           <input type="checkbox" defaultChecked="" />
-                          <span className="left">label</span>
-                          <span className="fl-right">(1,008)</span>
+                          <span class="left">label</span>
+                          <span class="fl-right">(1,008)</span>
                         </label>
                       </li>
-                      <li className="dropdown-list">
-                        <label className="checkbox mrg-M">
+                      <li class="dropdown-list">
+                        <label class="checkbox mrg-M">
                           <input type="checkbox" defaultChecked="" />
-                          <span className="left">label</span>
-                          <span className="fl-right">(1,008)</span>
+                          <span class="left">label</span>
+                          <span class="fl-right">(1,008)</span>
                         </label>
                       </li>
-                      <li className="dropdown-list">
-                        <label className="checkbox mrg-M">
+                      <li class="dropdown-list">
+                        <label class="checkbox mrg-M">
                           <input type="checkbox" defaultChecked="" />
-                          <span className="left">label</span>
-                          <span className="fl-right">(1,008)</span>
+                          <span class="left">label</span>
+                          <span class="fl-right">(1,008)</span>
                         </label>
                       </li>
-                      <li className="dropdown-list">
-                        <label className="checkbox mrg-M">
+                      <li class="dropdown-list">
+                        <label class="checkbox mrg-M">
                           <input type="checkbox" defaultChecked="" />
-                          <span className="left">label</span>
-                          <span className="fl-right">(1,008)</span>
+                          <span class="left">label</span>
+                          <span class="fl-right">(1,008)</span>
                         </label>
                       </li>
                     </ul>
                   </dd>
-                  <dt className="js-accordionTrigger">
-                    <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" className="accordion-title accordionTitle title title-M">Accordion Title</a>
+                  <dt class="js-accordionTrigger">
+                    <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" class="accordion-title accordionTitle title title-M">Accordion Title</a>
                   </dt>
-                  <dd className="accordion-content accordionItem is-collapsed" id="accordion1" aria-hidden="true">
-                    <ul className="mrg-lft-M">
-                      <div className="search-type">
+                  <dd class="accordion-content accordionItem is-collapsed" id="accordion1" aria-hidden="true">
+                    <ul class="mrg-lft-M">
+                      <div class="search-type">
                         <input type="text" placeholder="Search Item Type" />
                       </div>
-                      <li className="dropdown-list">
-                        <label className="checkbox mrg-M" >
+                      <li class="dropdown-list">
+                        <label class="checkbox mrg-M" >
                           <input type="checkbox" defaultChecked="" />
-                          <span className="left">label</span>
-                          <span className="fl-right">(1,008)</span>
+                          <span class="left">label</span>
+                          <span class="fl-right">(1,008)</span>
                         </label>
                       </li>
-                      <li className="dropdown-list">
-                        <label className="checkbox mrg-M">
+                      <li class="dropdown-list">
+                        <label class="checkbox mrg-M">
                           <input type="checkbox" defaultChecked="" />
-                          <span className="left">label</span>
-                          <span className="fl-right">(1,008)</span>
+                          <span class="left">label</span>
+                          <span class="fl-right">(1,008)</span>
                         </label>
                       </li>
-                      <li className="dropdown-list">
-                        <label className="checkbox mrg-M">
+                      <li class="dropdown-list">
+                        <label class="checkbox mrg-M">
                           <input type="checkbox" defaultChecked="" />
-                          <span className="left">label</span>
-                          <span className="fl-right">(1,008)</span>
+                          <span class="left">label</span>
+                          <span class="fl-right">(1,008)</span>
                         </label>
                       </li>
-                      <li className="dropdown-list">
-                        <label className="checkbox mrg-M">
+                      <li class="dropdown-list">
+                        <label class="checkbox mrg-M">
                           <input type="checkbox" defaultChecked="" />
-                          <span className="left">label</span>
-                          <span className="fl-right">(1,008)</span>
+                          <span class="left">label</span>
+                          <span class="fl-right">(1,008)</span>
                         </label>
                       </li>
-                      <li className="dropdown-list">
-                        <label className="checkbox mrg-M">
+                      <li class="dropdown-list">
+                        <label class="checkbox mrg-M">
                           <input type="checkbox" defaultChecked="" />
-                          <span className="left">label</span>
-                          <span className="fl-right">(1,008)</span>
+                          <span class="left">label</span>
+                          <span class="fl-right">(1,008)</span>
                         </label>
                       </li>
                     </ul>
@@ -259,184 +259,184 @@ class ExpandCollapse extends Component {
           <br /><br /><br />
 
 
-          <div className="xl4 lg4 md6 sm12">
-            <h2 className="title title-L">Accordions: Alternate</h2>
-            <div className="accordion-block filter-accordion">
-              <div className="accordion">
+          <div class="xl4 lg4 md6 sm12">
+            <h2 class="title title-L">Accordions: Alternate</h2>
+            <div class="accordion-block filter-accordion">
+              <div class="accordion">
                 <dl>
-                  <dt className="js-accordionTrigger">
-                    <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" className="accordion-title accordionTitle title title-M accordionTitle-right">Accordion Title</a>
+                  <dt class="js-accordionTrigger">
+                    <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" class="accordion-title accordionTitle title title-M accordionTitle-right">Accordion Title</a>
                   </dt>
-                  <dd className="accordion-content accordionItem is-collapsed" id="accordion1" aria-hidden="true">
-                    <ul className="mrg-lft-M">
-                      <li className="dropdown-list">
-                        <label className="checkbox mrg-M" >
+                  <dd class="accordion-content accordionItem is-collapsed" id="accordion1" aria-hidden="true">
+                    <ul class="mrg-lft-M">
+                      <li class="dropdown-list">
+                        <label class="checkbox mrg-M" >
                           <input type="checkbox" defaultChecked="" />
-                          <span className="left">label</span>
-                          <span className="fl-right">(1,008)</span>
+                          <span class="left">label</span>
+                          <span class="fl-right">(1,008)</span>
                         </label>
                       </li>
-                      <li className="dropdown-list">
-                        <label className="checkbox mrg-M">
+                      <li class="dropdown-list">
+                        <label class="checkbox mrg-M">
                           <input type="checkbox" defaultChecked="" />
-                          <span className="left">label</span>
-                          <span className="fl-right">(1,008)</span>
+                          <span class="left">label</span>
+                          <span class="fl-right">(1,008)</span>
                         </label>
                       </li>
-                      <li className="dropdown-list">
-                        <label className="checkbox mrg-M">
+                      <li class="dropdown-list">
+                        <label class="checkbox mrg-M">
                           <input type="checkbox" defaultChecked="" />
-                          <span className="left">label</span>
-                          <span className="fl-right">(1,008)</span>
+                          <span class="left">label</span>
+                          <span class="fl-right">(1,008)</span>
                         </label>
                       </li>
-                      <li className="dropdown-list">
-                        <label className="checkbox mrg-M">
+                      <li class="dropdown-list">
+                        <label class="checkbox mrg-M">
                           <input type="checkbox" defaultChecked="" />
-                          <span className="left">label</span>
-                          <span className="fl-right">(1,008)</span>
+                          <span class="left">label</span>
+                          <span class="fl-right">(1,008)</span>
                         </label>
                       </li>
-                      <li className="dropdown-list">
-                        <label className="checkbox mrg-M">
+                      <li class="dropdown-list">
+                        <label class="checkbox mrg-M">
                           <input type="checkbox" defaultChecked="" />
-                          <span className="left">label</span>
-                          <span className="fl-right">(1,008)</span>
+                          <span class="left">label</span>
+                          <span class="fl-right">(1,008)</span>
                         </label>
                       </li>
                     </ul>
                   </dd>
-                  <dt className="js-accordionTrigger">
-                    <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" className="accordion-title accordionTitle title title-M accordionTitle-right">Accordion Title</a>
+                  <dt class="js-accordionTrigger">
+                    <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" class="accordion-title accordionTitle title title-M accordionTitle-right">Accordion Title</a>
                   </dt>
-                  <dd className="accordion-content accordionItem is-collapsed" id="accordion1" aria-hidden="true">
-                    <ul className="mrg-lft-M">
-                      <div className="search-type">
+                  <dd class="accordion-content accordionItem is-collapsed" id="accordion1" aria-hidden="true">
+                    <ul class="mrg-lft-M">
+                      <div class="search-type">
                         <input type="text" placeholder="Search Item Type" />
                       </div>
-                      <li className="dropdown-list">
-                        <label className="checkbox mrg-M" >
+                      <li class="dropdown-list">
+                        <label class="checkbox mrg-M" >
                           <input type="checkbox" defaultChecked="" />
-                          <span className="left">label</span>
-                          <span className="fl-right">(1,008)</span>
+                          <span class="left">label</span>
+                          <span class="fl-right">(1,008)</span>
                         </label>
                       </li>
-                      <li className="dropdown-list">
-                        <label className="checkbox mrg-M">
+                      <li class="dropdown-list">
+                        <label class="checkbox mrg-M">
                           <input type="checkbox" defaultChecked="" />
-                          <span className="left">label</span>
-                          <span className="fl-right">(1,008)</span>
+                          <span class="left">label</span>
+                          <span class="fl-right">(1,008)</span>
                         </label>
                       </li>
-                      <li className="dropdown-list">
-                        <label className="checkbox mrg-M">
+                      <li class="dropdown-list">
+                        <label class="checkbox mrg-M">
                           <input type="checkbox" defaultChecked="" />
-                          <span className="left">label</span>
-                          <span className="fl-right">(1,008)</span>
+                          <span class="left">label</span>
+                          <span class="fl-right">(1,008)</span>
                         </label>
                       </li>
-                      <li className="dropdown-list">
-                        <label className="checkbox mrg-M">
+                      <li class="dropdown-list">
+                        <label class="checkbox mrg-M">
                           <input type="checkbox" defaultChecked="" />
-                          <span className="left">label</span>
-                          <span className="fl-right">(1,008)</span>
+                          <span class="left">label</span>
+                          <span class="fl-right">(1,008)</span>
                         </label>
                       </li>
-                      <li className="dropdown-list">
-                        <label className="checkbox mrg-M">
+                      <li class="dropdown-list">
+                        <label class="checkbox mrg-M">
                           <input type="checkbox" defaultChecked="" />
-                          <span className="left">label</span>
-                          <span className="fl-right">(1,008)</span>
+                          <span class="left">label</span>
+                          <span class="fl-right">(1,008)</span>
                         </label>
                       </li>
                     </ul>
                   </dd>
-                  <dt className="js-accordionTrigger">
-                    <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" className="accordion-title accordionTitle title title-M accordionTitle-right accordionTitle-right">Accordion Title</a>
+                  <dt class="js-accordionTrigger">
+                    <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" class="accordion-title accordionTitle title title-M accordionTitle-right accordionTitle-right">Accordion Title</a>
                   </dt>
-                  <dd className="accordion-content accordionItem is-collapsed" id="accordion1" aria-hidden="true">
-                    <ul className="mrg-lft-M">
-                      <div className="search-type">
+                  <dd class="accordion-content accordionItem is-collapsed" id="accordion1" aria-hidden="true">
+                    <ul class="mrg-lft-M">
+                      <div class="search-type">
                         <input type="text" placeholder="Search Item Type" />
                       </div>
-                      <li className="dropdown-list">
-                        <label className="checkbox mrg-M" >
+                      <li class="dropdown-list">
+                        <label class="checkbox mrg-M" >
                           <input type="checkbox" defaultChecked="" />
-                          <span className="left">label</span>
-                          <span className="fl-right">(1,008)</span>
+                          <span class="left">label</span>
+                          <span class="fl-right">(1,008)</span>
                         </label>
                       </li>
-                      <li className="dropdown-list">
-                        <label className="checkbox mrg-M">
+                      <li class="dropdown-list">
+                        <label class="checkbox mrg-M">
                           <input type="checkbox" defaultChecked="" />
-                          <span className="left">label</span>
-                          <span className="fl-right">(1,008)</span>
+                          <span class="left">label</span>
+                          <span class="fl-right">(1,008)</span>
                         </label>
                       </li>
-                      <li className="dropdown-list">
-                        <label className="checkbox mrg-M">
+                      <li class="dropdown-list">
+                        <label class="checkbox mrg-M">
                           <input type="checkbox" defaultChecked="" />
-                          <span className="left">label</span>
-                          <span className="fl-right">(1,008)</span>
+                          <span class="left">label</span>
+                          <span class="fl-right">(1,008)</span>
                         </label>
                       </li>
-                      <li className="dropdown-list">
-                        <label className="checkbox mrg-M">
+                      <li class="dropdown-list">
+                        <label class="checkbox mrg-M">
                           <input type="checkbox" defaultChecked="" />
-                          <span className="left">label</span>
-                          <span className="fl-right">(1,008)</span>
+                          <span class="left">label</span>
+                          <span class="fl-right">(1,008)</span>
                         </label>
                       </li>
-                      <li className="dropdown-list">
-                        <label className="checkbox mrg-M">
+                      <li class="dropdown-list">
+                        <label class="checkbox mrg-M">
                           <input type="checkbox" defaultChecked="" />
-                          <span className="left">label</span>
-                          <span className="fl-right">(1,008)</span>
+                          <span class="left">label</span>
+                          <span class="fl-right">(1,008)</span>
                         </label>
                       </li>
                     </ul>
                   </dd>
-                  <dt className="js-accordionTrigger">
-                    <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" className="accordion-title accordionTitle title title-M accordionTitle-right">Accordion Title</a>
+                  <dt class="js-accordionTrigger">
+                    <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" class="accordion-title accordionTitle title title-M accordionTitle-right">Accordion Title</a>
                   </dt>
-                  <dd className="accordion-content accordionItem is-collapsed" id="accordion1" aria-hidden="true">
-                    <ul className="mrg-lft-M">
-                      <div className="search-type">
+                  <dd class="accordion-content accordionItem is-collapsed" id="accordion1" aria-hidden="true">
+                    <ul class="mrg-lft-M">
+                      <div class="search-type">
                         <input type="text" placeholder="Search Item Type" />
                       </div>
-                      <li className="dropdown-list">
-                        <label className="checkbox mrg-M" >
+                      <li class="dropdown-list">
+                        <label class="checkbox mrg-M" >
                           <input type="checkbox" defaultChecked="" />
-                          <span className="left">label</span>
-                          <span className="fl-right">(1,008)</span>
+                          <span class="left">label</span>
+                          <span class="fl-right">(1,008)</span>
                         </label>
                       </li>
-                      <li className="dropdown-list">
-                        <label className="checkbox mrg-M">
+                      <li class="dropdown-list">
+                        <label class="checkbox mrg-M">
                           <input type="checkbox" defaultChecked="" />
-                          <span className="left">label</span>
-                          <span className="fl-right">(1,008)</span>
+                          <span class="left">label</span>
+                          <span class="fl-right">(1,008)</span>
                         </label>
                       </li>
-                      <li className="dropdown-list">
-                        <label className="checkbox mrg-M">
+                      <li class="dropdown-list">
+                        <label class="checkbox mrg-M">
                           <input type="checkbox" defaultChecked="" />
-                          <span className="left">label</span>
-                          <span className="fl-right">(1,008)</span>
+                          <span class="left">label</span>
+                          <span class="fl-right">(1,008)</span>
                         </label>
                       </li>
-                      <li className="dropdown-list">
-                        <label className="checkbox mrg-M">
+                      <li class="dropdown-list">
+                        <label class="checkbox mrg-M">
                           <input type="checkbox" defaultChecked="" />
-                          <span className="left">label</span>
-                          <span className="fl-right">(1,008)</span>
+                          <span class="left">label</span>
+                          <span class="fl-right">(1,008)</span>
                         </label>
                       </li>
-                      <li className="dropdown-list">
-                        <label className="checkbox mrg-M">
+                      <li class="dropdown-list">
+                        <label class="checkbox mrg-M">
                           <input type="checkbox" defaultChecked="" />
-                          <span className="left">label</span>
-                          <span className="fl-right">(1,008)</span>
+                          <span class="left">label</span>
+                          <span class="fl-right">(1,008)</span>
                         </label>
                       </li>
                     </ul>
@@ -448,51 +448,51 @@ class ExpandCollapse extends Component {
           <br /><br /><br />
 
 
-          <div className="xl7 lg7 md12 sm12">
-            <h2 className="title title-L">Accordions: PDP Q&A</h2>
-            <div className="accordion-block filter-accordion accordion-block-answer">
-              <div className="accordion">
+          <div class="xl7 lg7 md12 sm12">
+            <h2 class="title title-L">Accordions: PDP Q&A</h2>
+            <div class="accordion-block filter-accordion accordion-block-answer">
+              <div class="accordion">
                 <dl>
-                  <dt className="js-accordionTrigger">
-                    <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" className="accordion-title accordionTitle title title-M">What is the air velocity of an unladen swallow? <span className="std-txt std-txt-S fl-right">9 Answers</span></a>
+                  <dt class="js-accordionTrigger">
+                    <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" class="accordion-title accordionTitle title title-M">What is the air velocity of an unladen swallow? <span class="std-txt std-txt-S fl-right">9 Answers</span></a>
                   </dt>
-                  <dd className="accordion-content accordionItem is-collapsed" id="accordion1" aria-hidden="true">
-                    <p className="title title-S">This is the detail that the customer enters for the question. It can be long or short, but is usually just one or two lines long, depending on screen size, etc. Answers would show up below this.</p>
+                  <dd class="accordion-content accordionItem is-collapsed" id="accordion1" aria-hidden="true">
+                    <p class="title title-S">This is the detail that the customer enters for the question. It can be long or short, but is usually just one or two lines long, depending on screen size, etc. Answers would show up below this.</p>
                   </dd>
-                  <dt className="js-accordionTrigger">
-                    <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" className="accordion-title accordionTitle title title-M">Luke, who is your father? <span className="std-txt std-txt-S fl-right">9 Answers</span></a>
+                  <dt class="js-accordionTrigger">
+                    <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" class="accordion-title accordionTitle title title-M">Luke, who is your father? <span class="std-txt std-txt-S fl-right">9 Answers</span></a>
                   </dt>
-                  <dd className="accordion-content accordionItem is-collapsed" id="accordion1" aria-hidden="true">
-                    <p className="title title-S">This is the detail that the customer enters for the question. It can be long or short, but is usually just one or two lines long, depending on screen size, etc. Answers would show up below this.</p>
+                  <dd class="accordion-content accordionItem is-collapsed" id="accordion1" aria-hidden="true">
+                    <p class="title title-S">This is the detail that the customer enters for the question. It can be long or short, but is usually just one or two lines long, depending on screen size, etc. Answers would show up below this.</p>
                   </dd>
-                  <dt className="js-accordionTrigger">
-                    <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" className="accordion-title accordionTitle title title-M">How much wood could a woodchuck chuck? <span className="std-txt std-txt-S fl-right">9 Answers</span></a>
+                  <dt class="js-accordionTrigger">
+                    <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" class="accordion-title accordionTitle title title-M">How much wood could a woodchuck chuck? <span class="std-txt std-txt-S fl-right">9 Answers</span></a>
                   </dt>
-                  <dd className="accordion-content accordionItem is-collapsed" id="accordion1" aria-hidden="true">
-                    <p className="title title-S">This is the detail that the customer enters for the question. It can be long or short, but is usually just one or two lines long, depending on screen size, etc. Answers would show up below this.</p>
+                  <dd class="accordion-content accordionItem is-collapsed" id="accordion1" aria-hidden="true">
+                    <p class="title title-S">This is the detail that the customer enters for the question. It can be long or short, but is usually just one or two lines long, depending on screen size, etc. Answers would show up below this.</p>
                   </dd>
-                  <dt className="js-accordionTrigger">
-                    <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" className="accordion-title accordionTitle title title-M">What does this look like when it is open? <span className="std-txt std-txt-S fl-right">9 Answers</span></a>
+                  <dt class="js-accordionTrigger">
+                    <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" class="accordion-title accordionTitle title title-M">What does this look like when it is open? <span class="std-txt std-txt-S fl-right">9 Answers</span></a>
                   </dt>
-                  <dd className="accordion-content accordionItem is-collapsed" id="accordion1" aria-hidden="true">
-                    <p className="title title-S">This is the detail that the customer enters for the question. It can be long or short, but is usually just one or two lines long, depending on screen size, etc. Answers would show up below this.</p>
+                  <dd class="accordion-content accordionItem is-collapsed" id="accordion1" aria-hidden="true">
+                    <p class="title title-S">This is the detail that the customer enters for the question. It can be long or short, but is usually just one or two lines long, depending on screen size, etc. Answers would show up below this.</p>
                   </dd>
                 </dl>
               </div>
             </div>
           </div>
-          <br /><br /><br />
+          <br /><br /><br /> */}
 
 
-          <div className="xl4 lg4 md6 sm12">
-            <h2 className="title title-L">Accordions: Subcategory Menu (Tablet/Mobile)</h2>
-            <div className="accordion-block filter-accordion">
-              <div className="accordion">
+          {/* <div class="xl4 lg4 md6 sm12">
+            <h2 class="title title-L">Accordions: Subcategory Menu (Tablet/Mobile)</h2>
+            <div class="accordion-block filter-accordion">
+              <div class="accordion">
                 <dl>
-                  <dt className="js-accordionTrigger">
-                    <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" className="accordion-title accordionTitle title title-M">Holiday</a>
+                  <dt class="js-accordionTrigger">
+                    <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" class="accordion-title accordionTitle title title-M">Holiday</a>
                   </dt>
-                  <dd className="accordion-content accordionItem is-collapsed" id="accordion1" aria-hidden="true">
+                  <dd class="accordion-content accordionItem is-collapsed" id="accordion1" aria-hidden="true">
                     <ul>
                       <li><a href="javascript:void();">Returns</a></li>
                       <li><a href="javascript:void();">Shipping information</a></li>
@@ -503,10 +503,10 @@ class ExpandCollapse extends Component {
                       <li><a href="javascript:void();">Servicio Al Cliente</a></li>
                     </ul>
                   </dd>
-                  <dt className="js-accordionTrigger">
-                    <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" className="accordion-title accordionTitle title title-M title title-M">Furniture & Mattresses</a>
+                  <dt class="js-accordionTrigger">
+                    <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" class="accordion-title accordionTitle title title-M title title-M">Furniture & Mattresses</a>
                   </dt>
-                  <dd className="accordion-content accordionItem is-collapsed" id="accordion1" aria-hidden="true">
+                  <dd class="accordion-content accordionItem is-collapsed" id="accordion1" aria-hidden="true">
                     <ul>
                       <li><a href="javascript:void();">Returns</a></li>
                       <li><a href="javascript:void();">Shipping information</a></li>
@@ -517,10 +517,10 @@ class ExpandCollapse extends Component {
                       <li><a href="javascript:void();">Servicio Al Cliente</a></li>
                     </ul>
                   </dd>
-                  <dt className="js-accordionTrigger">
-                    <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" className="accordion-title accordionTitle title title-M">Home Decor</a>
+                  <dt class="js-accordionTrigger">
+                    <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" class="accordion-title accordionTitle title title-M">Home Decor</a>
                   </dt>
-                  <dd className="accordion-content accordionItem is-collapsed" id="accordion1" aria-hidden="true">
+                  <dd class="accordion-content accordionItem is-collapsed" id="accordion1" aria-hidden="true">
                     <ul>
                       <li><a href="javascript:void();">Returns</a></li>
                       <li><a href="javascript:void();">Shipping information</a></li>
@@ -531,10 +531,10 @@ class ExpandCollapse extends Component {
                       <li><a href="javascript:void();">Servicio Al Cliente</a></li>
                     </ul>
                   </dd>
-                  <dt className="js-accordionTrigger">
-                    <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" className="accordion-title accordionTitle title title-M">Kitchen & Dining</a>
+                  <dt class="js-accordionTrigger">
+                    <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" class="accordion-title accordionTitle title title-M">Kitchen & Dining</a>
                   </dt>
-                  <dd className="accordion-content accordionItem is-collapsed" id="accordion1" aria-hidden="true">
+                  <dd class="accordion-content accordionItem is-collapsed" id="accordion1" aria-hidden="true">
                     <ul>
                       <li><a href="javascript:void();">Returns</a></li>
                       <li><a href="javascript:void();">Shipping information</a></li>
@@ -545,10 +545,10 @@ class ExpandCollapse extends Component {
                       <li><a href="javascript:void();">Servicio Al Cliente</a></li>
                     </ul>
                   </dd>
-                  <dt className="js-accordionTrigger">
-                    <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" className="accordion-title accordionTitle title title-M">Window</a>
+                  <dt class="js-accordionTrigger">
+                    <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" class="accordion-title accordionTitle title title-M">Window</a>
                   </dt>
-                  <dd className="accordion-content accordionItem is-collapsed" id="accordion1" aria-hidden="true">
+                  <dd class="accordion-content accordionItem is-collapsed" id="accordion1" aria-hidden="true">
                     <ul>
                       <li><a href="javascript:void();">Returns</a></li>
                       <li><a href="javascript:void();">Shipping information</a></li>
@@ -563,18 +563,18 @@ class ExpandCollapse extends Component {
               </div>
             </div>
           </div>
-          <br /><br /><br />
+          <br /><br /><br /> */}
 
 
-          <div className="xl4 lg4 md6 sm12">
-            <h2 className="title title-L">Accordions: PDP Product Details (Tablet/Mobile)</h2>
-            <div className="accordion-block filter-accordion">
-              <div className="accordion">
+          <div class="sm12">
+            {/* <h2 class="title title-L">Accordions: PDP Product Details (Tablet/Mobile)</h2> */}
+            <div class="accordion-block filter-accordion">
+              <div class="accordion">
                 <dl>
-                  <dt className="js-accordionTrigger">
-                    <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" className="accordion-title accordionTitle title title-M">Product Specifications</a>
+                  <dt class="js-accordionTrigger">
+                    <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" class="accordion-title accordionTitle title title-M">Product Specifications</a>
                   </dt>
-                  <dd className="accordion-content accordionItem is-collapsed" id="accordion1" aria-hidden="true">
+                  <dd class="accordion-content accordionItem is-collapsed" id="accordion1" aria-hidden="true">
                     <ul>
                       <li><a href="javascript:void();">Returns</a></li>
                       <li><a href="javascript:void();">Shipping information</a></li>
@@ -585,10 +585,10 @@ class ExpandCollapse extends Component {
                       <li><a href="javascript:void();">Servicio Al Cliente</a></li>
                     </ul>
                   </dd>
-                  <dt className="js-accordionTrigger">
-                    <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" className="accordion-title accordionTitle title title-M">Helpful Guides</a>
+                  <dt class="js-accordionTrigger">
+                    <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" class="accordion-title accordionTitle title title-M">Helpful Guides</a>
                   </dt>
-                  <dd className="accordion-content accordionItem is-collapsed" id="accordion1" aria-hidden="true">
+                  <dd class="accordion-content accordionItem is-collapsed" id="accordion1" aria-hidden="true">
                     <ul>
                       <li><a href="javascript:void();">Returns</a></li>
                       <li><a href="javascript:void();">Shipping information</a></li>
@@ -600,43 +600,43 @@ class ExpandCollapse extends Component {
                     </ul>
                   </dd>
 
-                  <dt className="js-accordionTrigger">
-                    <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" className="accordion-title accordionTitle title title-M">Reviews
-                    <div className="star-preview-col review-star">
-                       <ul className="star-ratings-S">
-                                    <li className="star-ratings start-ratings-full">
-                                        <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
+                  <dt class="js-accordionTrigger">
+                    <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" class="accordion-title accordionTitle title title-M">Reviews
+                    <div class="star-preview-col review-star">
+                       <ul class="star-ratings-S">
+                                    <li class="star-ratings start-ratings-full">
+                                        <span class="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
                                     </li>
-                                    <li className="star-ratings start-ratings-full">
-                                        <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
+                                    <li class="star-ratings start-ratings-full">
+                                        <span class="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
                                     </li>
-                                    <li className="star-ratings start-ratings-full">
-                                        <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
+                                    <li class="star-ratings start-ratings-full">
+                                        <span class="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
                                     </li>
-                                    <li className="star-ratings start-ratings-half">
-                                        <span className="icon" dangerouslySetInnerHTML={{ __html: starhalfImage }} />
+                                    <li class="star-ratings start-ratings-half">
+                                        <span class="icon" dangerouslySetInnerHTML={{ __html: starhalfImage }} />
                                     </li>
-                                    <li className="star-ratings star-rating-empty">
-                                        <span className="icon color-concrete-svg" dangerouslySetInnerHTML={{ __html: starImage }} />
+                                    <li class="star-ratings star-rating-empty">
+                                        <span class="icon color-concrete-svg" dangerouslySetInnerHTML={{ __html: starImage }} />
                                     </li>
-                                    <li className="star-ratings">
-                                        <a href="javascript:void();" className="rating-count rating-count-underline std-txt std-txt-S">(99,999)</a>
+                                    <li class="star-ratings">
+                                        <a href="javascript:void();" class="rating-count rating-count-underline std-txt std-txt-S">(99,999)</a>
                                     </li>
                                 </ul>
                       </div>
                     </a>
                   </dt>
-                  <dd className="accordion-content accordionItem is-collapsed" id="accordion1" aria-hidden="true">
+                  <dd class="accordion-content accordionItem is-collapsed" id="accordion1" aria-hidden="true">
                     <ul>
                       <li><a href="javascript:void();">Content here</a></li>
                       <li><a href="javascript:void();">More content here</a></li>
                       <li><a href="javascript:void();">Even more content here</a></li>
                     </ul>
                   </dd>
-                  <dt className="js-accordionTrigger">
-                    <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" className="accordion-title accordionTitle title title-M">Questions & Answers</a>
+                  <dt class="js-accordionTrigger">
+                    <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" class="accordion-title accordionTitle title title-M">Questions & Answers</a>
                   </dt>
-                  <dd className="accordion-content accordionItem is-collapsed" id="accordion1" aria-hidden="true">
+                  <dd class="accordion-content accordionItem is-collapsed" id="accordion1" aria-hidden="true">
                     <ul>
                       <li><a href="javascript:void();">Returns</a></li>
                       <li><a href="javascript:void();">Shipping information</a></li>
@@ -647,10 +647,10 @@ class ExpandCollapse extends Component {
                       <li><a href="javascript:void();">Servicio Al Cliente</a></li>
                     </ul>
                   </dd>
-                  <dt className="js-accordionTrigger">
-                    <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" className="accordion-title accordionTitle title title-M">Shipping & Returns</a>
+                  <dt class="js-accordionTrigger">
+                    <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" class="accordion-title accordionTitle title title-M">Shipping & Returns</a>
                   </dt>
-                  <dd className="accordion-content accordionItem is-collapsed" id="accordion1" aria-hidden="true">
+                  <dd class="accordion-content accordionItem is-collapsed" id="accordion1" aria-hidden="true">
                     <ul>
                       <li><a href="javascript:void();">Returns</a></li>
                       <li><a href="javascript:void();">Shipping information</a></li>

@@ -14,11 +14,11 @@ class ProductCards extends Component {
           return (
             <div className="product-card-thumbnail mrg-S">
               <a href="javascript:void(0)">
-                <img src={productInfo.thumb} alt="" />
+                <img src={productInfo.thumb} alt="Samsung ENERGY STAR" />
               </a>      
             </div>
           )
-        }
+        } 
       })()}
 
       {(() => {
@@ -66,7 +66,7 @@ class ProductCards extends Component {
       {(() => {
         if (productInfo.priceRegular) {
           return (
-            <div className="product-card-note price price-note color-slate font-body">
+            <div className="product-card-note price price-note color-slate std-txt">
               {productInfo.priceRegular}
             </div>      
           )
@@ -81,7 +81,7 @@ class ProductCards extends Component {
 
       <div className="ratings-and-reviews">
         <div className="ratings-and-reviews-stars mrg-rght-XS">
-          <img src="/images/design-system/fpo/reviews/reviews-stars-3-5.jpg" alt="" />
+          <img src="/images/design-system/fpo/reviews/reviews-stars-3-5.jpg" alt="Star Ratings" />
         </div>
         <div className="ratings-and-reviews-count color-slate std-txt std-txt-XXS">
           99,999
@@ -104,7 +104,7 @@ class ProductCards extends Component {
           return (
             <div className="product-card-thumbnail">
               <a href="javascript:void(0)">
-                <img src={productInfo.thumb} alt="" />
+                <img src={productInfo.thumb} alt="Samsung ENERGY STAR" />
               </a>
               {(() => {
                 if (productInfo.flag) {
@@ -127,7 +127,7 @@ class ProductCards extends Component {
       })()}
 
       <div className="color-swatches-block">
-        <div className="color-swatches-list">
+        <div>
           <div className="color-swatches-medium">
             <ul className="list-product-colors-container">
               <li>
@@ -197,7 +197,7 @@ class ProductCards extends Component {
       {(() => {
         if (productInfo.priceRegular) {
           return (
-            <div className="product-card-note price price-note color-slate font-body">
+            <div className="product-card-note price price-note color-slate std-txt">
               {productInfo.priceRegular}
             </div>      
           )
@@ -212,7 +212,7 @@ class ProductCards extends Component {
 
       <div className="ratings-and-reviews">
         <div className="ratings-and-reviews-stars mrg-rght-XS">
-          <img src="/images/design-system/fpo/reviews/reviews-stars-3-5.jpg" alt="" />
+          <img src="/images/design-system/fpo/reviews/reviews-stars-3-5.jpg" alt="ratings" />
         </div>
         <div className="ratings-and-reviews-count color-slate std-txt std-txt-XXS">
           99,999
@@ -235,7 +235,7 @@ class ProductCards extends Component {
           return (
             <div className="product-card-thumbnail">
               <a href="javascript:void(0)">
-                <img src={productInfo.thumb} alt="" />
+                <img src={productInfo.thumb} alt="Samsung ENERGY STAR" />
               </a>
               {(() => {
                 if (productInfo.flag) {
@@ -258,7 +258,7 @@ class ProductCards extends Component {
       })()}
 
       <div className="color-swatches-block">
-        <div className="color-swatches-list">
+        <div>
           <div className="color-swatches-small">
             <ul className="list-product-colors-container">
               <li>
@@ -328,7 +328,7 @@ class ProductCards extends Component {
       {(() => {
         if (productInfo.priceRegular) {
           return (
-            <div className="product-card-note price price-note color-slate font-body">
+            <div className="product-card-note price price-note color-slate std-txt">
               {productInfo.priceRegular}
             </div>      
           )
@@ -343,7 +343,7 @@ class ProductCards extends Component {
 
       <div className="ratings-and-reviews">
         <div className="ratings-and-reviews-stars mrg-rght-XS">
-          <img src="/images/design-system/fpo/reviews/reviews-stars-3-5.jpg" alt="" />
+          <img src="/images/design-system/fpo/reviews/reviews-stars-3-5.jpg" alt="Star Ratings" />
         </div>
         <div className="ratings-and-reviews-count color-slate std-txt std-txt-XXS">
           99,999
@@ -365,7 +365,7 @@ class ProductCards extends Component {
           return (
             <div className="product-card-thumbnail">
               <a href="javascript:void(0)">
-                <img src={productInfo.thumb} alt="" />
+                <img src={productInfo.thumb} alt="Samsung ENERGY STAR" />
               </a>
               {(() => {
                 if (productInfo.flag) {
@@ -433,7 +433,7 @@ class ProductCards extends Component {
         {(() => {
           if (productInfo.priceRegular) {
             return (
-              <div className="product-card-note price price-note color-slate font-body">
+              <div className="product-card-note price price-note color-slate std-txt">
                 {productInfo.priceRegular}
               </div>      
             )
@@ -448,7 +448,7 @@ class ProductCards extends Component {
 
         <div className="ratings-and-reviews">
           <div className="ratings-and-reviews-stars mrg-rght-XS">
-            <img src="/images/design-system/fpo/reviews/reviews-stars-3-5.jpg" alt="" />
+            <img src="/images/design-system/fpo/reviews/reviews-stars-3-5.jpg" alt="Star Ratings" />
           </div>
           <div className="ratings-and-reviews-count color-slate std-txt std-txt-XXS">
             99,999
@@ -491,7 +491,7 @@ class ProductCards extends Component {
           if (productInfo.priceNotes) {         
 
              return productInfo.priceNotes.map(function(value) {
-              return <div className="product-card-note price price-note color-nightsky font-body" dangerouslySetInnerHTML={{ __html: value.text }}></div>;
+              return <div className="product-card-note price price-note color-nightsky std-txt" dangerouslySetInnerHTML={{ __html: value.text }}></div>;
             });
 
           }
@@ -537,7 +537,7 @@ class ProductCards extends Component {
             return (
               <div className="product-card-thumbnail">
                 <a href="javascript:void(0)">
-                  <img src={productInfo.thumb} alt="" />
+                  <img src={productInfo.thumb} alt="Samsung ENERGY STAR" />
                 </a>
                 {(() => {
                   if (productInfo.flag) {
@@ -567,7 +567,7 @@ class ProductCards extends Component {
         })()}
 
         <div className="color-swatches-block hide-for-small-only">
-          <div className="color-swatches-list">
+          <div>
             <div className="color-swatches-medium">
               <ul className="list-product-colors-container">
                 <li>
@@ -644,7 +644,7 @@ class ProductCards extends Component {
           {(() => {
             if (productInfo.priceRegular) {
               return (
-                <div className="product-card-note price price-note color-slate font-body">
+                <div className="product-card-note price price-note color-slate std-txt">
                   {productInfo.priceRegular}
                 </div>      
               )
@@ -660,7 +660,7 @@ class ProductCards extends Component {
 
           <div className="ratings-and-reviews">
             <div className="ratings-and-reviews-stars mrg-rght-XS">
-              <img src="/images/design-system/fpo/reviews/reviews-stars-3-5.jpg" alt="" />
+              <img src="/images/design-system/fpo/reviews/reviews-stars-3-5.jpg" alt="Star Ratings" />
             </div>
             <div className="ratings-and-reviews-count color-slate std-txt std-txt-XXS">
               99,999
@@ -673,7 +673,7 @@ class ProductCards extends Component {
           if (productInfo.productFeatures) {         
 
              var listItems = productInfo.productFeatures.map(function(value) {
-                return <li className="price price-note color-slate font-body" dangerouslySetInnerHTML={{ __html: value.text }}></li>;
+                return <li className="price price-note color-slate std-txt" dangerouslySetInnerHTML={{ __html: value.text }}></li>;
               });
 
              return (<div><div className="std-txt std-txt-S product-features color-nightsky hide-for-small-only">Product Features</div><ul className="list hide-for-small-only">{listItems}</ul></div>)
@@ -710,7 +710,7 @@ class ProductCards extends Component {
             return (
               <div className="product-card-thumbnail">
                 <a href="javascript:void(0)">
-                  <img src={productInfo.thumb} alt="" />
+                  <img src={productInfo.thumb} alt="Samsung ENERGY STAR" />
                 </a>
                 {(() => {
                   if (productInfo.flag) {
@@ -740,7 +740,7 @@ class ProductCards extends Component {
         })()}
 
         <div className="color-swatches-block hide-for-small-only">
-          <div className="color-swatches-list">
+          <div>
             <div className="color-swatches-medium">
               <ul className="list-product-colors-container">
                 <li>
@@ -805,7 +805,7 @@ class ProductCards extends Component {
           {(() => {
             if (productInfo.priceRegular) {
               return (
-                <div className="product-card-note price price-note color-slate font-body">
+                <div className="product-card-note price price-note color-slate std-txt">
                   {productInfo.priceRegular}
                 </div>      
               )
@@ -821,7 +821,7 @@ class ProductCards extends Component {
 
           <div className="ratings-and-reviews">
             <div className="ratings-and-reviews-stars mrg-rght-XS">
-              <img src="/images/design-system/fpo/reviews/reviews-stars-3-5.jpg" alt="" />
+              <img src="/images/design-system/fpo/reviews/reviews-stars-3-5.jpg" alt="Star Ratings" />
             </div>
             <div className="ratings-and-reviews-count color-slate std-txt std-txt-XXS">
               99,999

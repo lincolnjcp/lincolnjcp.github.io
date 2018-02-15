@@ -14,6 +14,7 @@ import Tables from '../components/tables';
 import Forms from '../components/forms';
 import StarRatings from '../components/star-ratings';
 import Scrollbar from '../components/scrollbar';
+import Wells from '../components/wells';
 import ProgressBar from '../components/progressbar';
 import Pricing from '../components/pricing';
 import VisualNavigation from '../components/visual-navigation';
@@ -37,6 +38,7 @@ import ExpandCollapse from '../components/expand-collapse';
 import ProductCards from '../components/product-cards';
 import LikeDislike from '../components/like-dislike';
 import RecommendationZone from '../components/recommendation-zone';
+import Pdp from '../components/pdp';
 
 import SubNav from './SubNav';
 
@@ -58,6 +60,7 @@ class DesignSystemPage extends Component {
    DropdownButton: {componentElement: DropdownButton, componentDisplayName: "Dropdown Button", componentSubNav: ['Dropdown Button']},
    StarRatings: {componentElement: StarRatings, componentDisplayName: "Star Ratings", componentSubNav: ['Star Ratings']},
    Scrollbar: {componentElement: Scrollbar, componentDisplayName: "Scrollbar", componentSubNav: ['Scrollbar']},
+   Wells: {componentElement: Wells, componentDisplayName: "Wells", componentSubNav: ['Wells']},
    CountdownTimers: {componentElement: CountdownTimers, componentDisplayName: "Countdown Timers", componentSubNav: ['Countdown Timers']},
    VisualNavigation: {componentElement: VisualNavigation, componentDisplayName: "Visual Navigation", componentSubNav: ['Visual Navigation']},
    Modal: {componentElement: Modal, componentDisplayName: "Modal", componentSubNav: ['Modal']},
@@ -79,7 +82,8 @@ class DesignSystemPage extends Component {
    ExpandCollapse: {componentElement: ExpandCollapse, componentDisplayName: "Expand Collapse", componentSubNav: ['ExpandCollapse']},
    RecommendationZone: {componentElement: RecommendationZone, componentDisplayName: "Recommendation Zone", componentSubNav: ['RecommendationZone']},
    Pricing: {componentElement: Pricing, componentDisplayName: "Pricing", componentSubNav: ['Pricing']},
-   ProgressBar: {componentElement: ProgressBar, componentDisplayName: "ProgressBar", componentSubNav: ['ProgressBar']}
+   ProgressBar: {componentElement: ProgressBar, componentDisplayName: "ProgressBar", componentSubNav: ['ProgressBar']},
+   Pdp: {componentElement: Pdp, componentDisplayName: "Pdp", componentSubNav: ['Pdp']}
   }
 
   const Scene = routes[this.props.componentName].componentElement;

@@ -284,6 +284,7 @@ fieldset {
 }
 
 /*  Placeholder text */
+
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
   color: var(--color-concrete);
   font-style: italic;
@@ -304,6 +305,21 @@ fieldset {
   font-style: italic;
   font-size: 14px;
 }
+.input-form .input-text::placeholder {
+  color:transparent!important;
+}
+.input-form .input-text.placeholder-text::placeholder {
+  color: var(--color-concrete) !important;
+}
+.input-form :-ms-input-placeholder.input-text , .input-group :-ms-input-placeholder.input-text{
+  color: var(--color-concrete) !important;
+  font-family: Open Sans,sans-serif;
+font-style: normal;
+}
+.input-form :-ms-input-placeholder.input-text:focus{
+  color: transparent !important;
+}
+
 
 .form-full{
   width: 100%;
@@ -380,7 +396,7 @@ fieldset {
       }
     }
   }
-
+  
   & input{
     display: none;
 
@@ -437,6 +453,25 @@ fieldset {
       background-color: var(--color-nightsky);
     }
   }
+  &.checkbox-M {
+      & input{
+          &+span{
+          font-size:14px;
+          }
+      }
+  }
+  &.checkbox-S {
+    & input{
+        &+span{
+        font-size:12px;
+          &:before{
+            top: 1px;
+            width: 14px;
+            height: 14px;
+          }
+        }
+    }
+}
 }
 
 /*  New forms */

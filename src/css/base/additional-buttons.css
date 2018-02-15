@@ -38,12 +38,6 @@
 .toggle-thumbs.column:last-child:not(:first-child) {
   float: left;
 }
-.std-txt-label {
-  display: block;
-  text-align: center;
-  padding: 20px 0;
-  color: var(--color-marketing-aqua-1);
-}
 .text-buttons {
   & a.txt-btn.hover {
     text-decoration: underline;

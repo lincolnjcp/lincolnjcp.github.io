@@ -1,8 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32" aria-labaria-lelledby="title-8">
   <defs>
     <rect id="jcpenney-mastercard-gold-a" width="23.995" height="14.82" rx="2"/>
     <rect id="jcpenney-mastercard-gold-c" width="23.995" height="14.997" rx=".3"/>
   </defs>
+  <title id="title-8" lang="en">jcp mastercard gold</title>
   <g fill="none" fill-rule="evenodd" transform="translate(4 8)">
     <rect width="23.995" height="14.663" rx="2"/>
     <mask id="jcpenney-mastercard-gold-b" fill="#fff">

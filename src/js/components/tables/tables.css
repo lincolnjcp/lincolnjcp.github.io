@@ -123,13 +123,13 @@ table {
 .prodCompareContainer{
     margin: 2%;
     overflow: auto;
+    -webkit-overflow-scrolling: touch;
 
 & .prodCompare {
       width: 150%;
       display:table;
       font-size: 14px;
       margin-top: 26px;
-      font-family: OpenSans, Arial, Helvetica, sans-serif;
 
 & .rowChild {
       border: 1px solid var(--color-concrete);

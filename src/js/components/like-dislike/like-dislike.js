@@ -43,7 +43,7 @@ $(".like-icon").mouseleave(function() {
 
     <div className="row">
         <div className="sm12 columns">
-            <div className="product-card"><img src="/images/design-system/fpo/product-cards/product-like-dislike.jpg" />
+            <div className="product-card"><img src="/images/design-system/fpo/product-cards/product-like-dislike.jpg" alt="product-image"/>
               <div className="like-icon">
                 <span className="icon heart" dangerouslySetInnerHTML={{ __html: heartfillImage }} />
                 <div className="tooltip tooltip-single tooltip-top-right">

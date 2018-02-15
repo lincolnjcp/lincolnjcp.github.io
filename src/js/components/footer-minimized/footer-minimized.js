@@ -1,14 +1,10 @@
 import React, { Component } from 'react';
-import $ from 'jquery';
-
 const devicephoneImage = require('!!raw-loader?es5=1!../../../images/global/icons/utility/device-phone.svg');
 
 class FooterMinimized extends Component {
 
     componentDidMount() {
-
-        
-    }
+        }
     render() {
         return (
             <div>

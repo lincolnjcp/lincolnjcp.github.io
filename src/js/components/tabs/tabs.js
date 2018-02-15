@@ -11,7 +11,7 @@ class Tabs extends Component {
         <div className="row">
           <div className="tab-container mrg-XL">
             <ul className="tab-header">
-              <li className="title tab-lbl tab-lbl-active">
+              <li className="title tab-lbl btn-active">
                 <span>Tab 1</span>
               </li>
               <li className="title tab-lbl">

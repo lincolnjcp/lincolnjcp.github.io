@@ -135,6 +135,34 @@
   padding: 50px;
 }
 
+.padding-rght-S {
+  padding-right: 8px;
+}
+.padding-lft-S {
+  padding-left: 8px;
+}
+
+.icon-M {
+  & svg {
+    width: 16px;
+    height: 16px;
+  }
+}
+
+.icon-L {
+  & svg {
+    width: 24px;
+    height: 24px;
+  }
+}
+
+.icon-XL {
+  & svg {
+    width: 32px;
+    height: 32px;
+  }
+}
+
 .nopad {
   padding: 0 !important;
   margin: 0 !important;
@@ -155,7 +183,9 @@
 .text-center {
   text-align: center;
 }
-
+.text-left{
+  text-align: left !important;
+}
 .hidden {
   visibility: hidden !important;
 }
@@ -179,25 +209,3 @@
 .padding-right-zero {
   padding-right: 0 !important;
 }
-
-/* 
- @media(max-width: $grid-breakpoint-L){
-   .mrg-zero{
-     margin: 0px;
-   }
-
-   .mrg-S{
-     margin: 0 0 8px 0;
-   }
- }
-
- @media(max-width: $breakpoint-M){
-   .mrg-zero{
-     margin: 0px;
-   }
-
-   .mrg-S{
-     margin: 0 0 8px 0;
-   }
- }
-*/

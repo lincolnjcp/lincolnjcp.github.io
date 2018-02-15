@@ -1,0 +1,32 @@
+/*******************************************
+/* Wells
+/* Container box with border
+*******************************************/
+
+.well{
+  padding: 24px;
+  border-radius: var(--border-radius-M);
+  border: 1px solid var(--color-concrete);
+}
+
+.well-fill{
+  background: var(--color-lightgrey);
+  padding: 16px;
+  border-radius: var(--border-radius-M);
+
+  & .border-dashed {
+    border-top: 1px dashed var(--color-concrete);
+    position: relative;
+    height: 1px;
+    top: 10px;
+  }
+
+  & .protection-plan-bg-fill {
+      background: var(--color-lightgrey);
+      position: relative;
+  }
+  & .protection-plan-price {
+     border-top: 1px solid var(--color-concrete);
+     padding-top: 16px;
+  }
+}

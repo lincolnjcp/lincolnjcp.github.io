@@ -30,7 +30,7 @@
       &.tab-lbl{
 
         /*  Active state */
-        &.tab-lbl-active{
+        &.btn-active{
           font-weight: var(--font-weight-bold);
           color: var(--color-nightsky);
           text-decoration: none;

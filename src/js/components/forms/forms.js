@@ -222,7 +222,7 @@ class Forms extends Component {
                                     <div className="sm12 md4 columns">
                                         <div className="input-group">
                                             <div className="form-float-label">
-                                                <input className="form-control email-text input-text" id="email" type="text" placeholder=" " />
+                                                <input className="form-control email-text input-text" id="email" type="text" placeholder="Email " />
                                                 <label htmlFor="email">Email</label>
                                             </div>
                                         </div>
@@ -268,7 +268,7 @@ class Forms extends Component {
                                     <div className="sm12 md4 columns">
                                         <div className="input-group">
                                             <div className="form-float-label">
-                                                <textarea className="form-control input-text text-area" name="instructions" placeholder=" "></textarea>
+                                                <textarea className="form-control input-text text-area" name="instructions" placeholder="Delivery Instructions"></textarea>
                                                 <label htmlFor="instructions">Delivery Instructions</label>
                                             </div>
                                         </div>
@@ -330,6 +330,12 @@ class Forms extends Component {
                                                 <input type="checkbox" defaultChecked="true" /> <span>Checkbox</span>
                                             </label>
 
+                                            <label className="checkbox checkbox-M mrg-M">
+                                                <input type="checkbox" /> <span>Checkbox Medium</span>
+                                            </label>
+                                            <label className="checkbox checkbox-S mrg-M">
+                                                <input type="checkbox" /> <span>Checkbox Small</span>
+                                            </label>
                                             <br />
 
                                         </div>
@@ -472,7 +478,7 @@ class Forms extends Component {
                                     <div className="sm12 md4 columns">
                                         <div className="input-form-store-locator">
                                             <div className="input-form-store-locator-field-1">
-                                                <input className="form-control input-text zipcode_text" id="search" type="text" placeholder="Zip Code" />
+                                                <input className="form-control input-text zipcode_text placeholder-text" id="search" type="text" placeholder="Zip Code" />
                                             </div>
                                             <div className="input-form-store-locator-field-2">
                                                 <div className="select">
@@ -502,7 +508,7 @@ class Forms extends Component {
                                             <div className="form-float-label">
                                                 <input type="tel" id="zipcode" name="zipcode" placeholder="Enter Code" required className="input-text placeholder-text" />
                                                 <label htmlFor="zipcode">Enter Code</label>
-                                                <a href="javascript:void();" className="btn btn-S btn-primary apply-btn">Apply</a>
+                                                <a href="javascript:void();" role="button" className="btn btn-S btn-primary apply-btn">Apply</a>
                                             </div>
                                         </div>
                                     </div>
@@ -580,8 +586,8 @@ class Forms extends Component {
                                 <div className="row">
                                     <div className="position-rel sm12 md4 columns">
                                         <div className="form-float-label">
-                                            <input className="form-control email-text input-text" id="email" type="text" placeholder=" " />
-                                            <label htmlFor="email">Email</label>
+                                            <input className="form-control email-text input-text" id="email1" type="text" placeholder="Email" />
+                                            <label htmlFor="email1">Email</label>
                                             <br />
                                         </div>
                                     </div>
@@ -594,12 +600,12 @@ class Forms extends Component {
                                                 <div className="msg msg-error mrg-L">Email or password is incorrect</div>
                                             </div>
                                             <div className="form-float-label mrg-L">
-                                                <input className="form-control email-text input-text" id="email" type="text" placeholder=" " />
+                                                <input className="form-control email-text input-text" id="email" type="text" placeholder="Email " />
                                                 <label htmlFor="email">Email</label>
                                                 <br />
                                             </div>
                                             <div className="form-float-label password-form">
-                                                <input className="form-control input-text" id="password" maxLength="16" type="password" placeholder=" " />
+                                                <input className="form-control input-text" id="password" maxLength="16" type="password" placeholder="Password" />
                                                 <label htmlFor="password">Password</label>
                                                 <a href="javascript:void(0);" className="show-pwd">show</a>
                                             </div>
