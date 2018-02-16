@@ -20574,8 +20574,8 @@ var footer_Footer = function (_Component) {
                     setAria,
                     setAccordionAria,
                     switchAccordion,
-                    touchSupported = 'ontouchstart' in window,
-                    pointerSupported = 'pointerdown' in window;
+                    touchSupported = 'click' in window,
+                    pointerSupported = 'click' in window;
 
                 var skipClickDelay = function skipClickDelay(e) {
                     e.preventDefault();
@@ -22107,8 +22107,8 @@ var filter_sort_FilterSort = function (_Component) {
             setAria,
             setAccordionAria,
             switchAccordion,
-            touchSupported = 'ontouchstart' in window,
-            pointerSupported = 'pointerdown' in window;
+            touchSupported = 'click' in window,
+            pointerSupported = 'click' in window;
 
         var skipClickDelay = function skipClickDelay(e) {
           e.preventDefault();
@@ -24077,10 +24077,10 @@ var expand_collapse_ExpandCollapse = function (_Component) {
                   null,
                   react_default.a.createElement(
                     'dt',
-                    { 'class': 'js-accordionTrigger', 'aria-expanded': 'false', 'aria-controls': 'accordion1' },
+                    { 'class': 'js-accordionTrigger' },
                     react_default.a.createElement(
                       'a',
-                      { href: '#accordion1', 'class': 'accordion-title accordionTitle title title-M' },
+                      { href: '#accordion1', 'aria-expanded': 'false', 'aria-controls': 'accordion1', 'class': 'accordion-title accordionTitle title title-M' },
                       'Product Specifications'
                     )
                   ),
@@ -24157,10 +24157,10 @@ var expand_collapse_ExpandCollapse = function (_Component) {
                   ),
                   react_default.a.createElement(
                     'dt',
-                    { 'class': 'js-accordionTrigger', 'aria-expanded': 'false', 'aria-controls': 'accordion1' },
+                    { 'class': 'js-accordionTrigger' },
                     react_default.a.createElement(
                       'a',
-                      { href: '#accordion1', 'class': 'accordion-title accordionTitle title title-M' },
+                      { href: '#accordion1', 'aria-expanded': 'false', 'aria-controls': 'accordion1', 'class': 'accordion-title accordionTitle title title-M' },
                       'Helpful Guides'
                     )
                   ),
@@ -24237,10 +24237,10 @@ var expand_collapse_ExpandCollapse = function (_Component) {
                   ),
                   react_default.a.createElement(
                     'dt',
-                    { href: '#accordion1', 'aria-expanded': 'false', 'class': 'js-accordionTrigger', 'aria-controls': 'accordion1' },
+                    { 'class': 'js-accordionTrigger' },
                     react_default.a.createElement(
                       'a',
-                      { 'class': 'accordion-title accordionTitle title title-M' },
+                      { href: '#accordion1', 'aria-expanded': 'false', 'aria-controls': 'accordion1', 'class': 'accordion-title accordionTitle title title-M' },
                       'Reviews',
                       react_default.a.createElement(
                         'div',
@@ -24323,10 +24323,10 @@ var expand_collapse_ExpandCollapse = function (_Component) {
                   ),
                   react_default.a.createElement(
                     'dt',
-                    { href: '#accordion1', 'aria-expanded': 'false', 'class': 'js-accordionTrigger', 'aria-controls': 'accordion1' },
+                    { 'class': 'js-accordionTrigger' },
                     react_default.a.createElement(
                       'a',
-                      { 'class': 'accordion-title accordionTitle title title-M' },
+                      { href: '#accordion1', 'aria-expanded': 'false', 'aria-controls': 'accordion1', 'class': 'accordion-title accordionTitle title title-M' },
                       'Questions & Answers'
                     )
                   ),
@@ -24403,10 +24403,10 @@ var expand_collapse_ExpandCollapse = function (_Component) {
                   ),
                   react_default.a.createElement(
                     'dt',
-                    { href: '#accordion1', 'aria-expanded': 'false', 'class': 'js-accordionTrigger', 'aria-controls': 'accordion1' },
+                    { 'class': 'js-accordionTrigger' },
                     react_default.a.createElement(
                       'a',
-                      { 'class': 'accordion-title accordionTitle title title-M' },
+                      { href: '#accordion1', 'aria-expanded': 'false', 'aria-controls': 'accordion1', 'class': 'accordion-title accordionTitle title title-M' },
                       'Shipping & Returns'
                     )
                   ),
@@ -27137,8 +27137,8 @@ var pdp_Pdp = function (_Component) {
                     setAria,
                     setAccordionAria,
                     switchAccordion,
-                    touchSupported = 'ontouchstart' in window,
-                    pointerSupported = 'pointerdown' in window;
+                    touchSupported = 'click' in window,
+                    pointerSupported = 'click' in window;
 
                 var skipClickDelay = function skipClickDelay(e) {
                     e.preventDefault();
