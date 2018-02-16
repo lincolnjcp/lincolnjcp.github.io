@@ -142,7 +142,7 @@
   }
 
   .color-white-svg{
-    & path, & use, & polygon, & circle {
+    & path, & use, & polygon, & circle, & g {
       fill: var(--color-white) !important;
     }
   }

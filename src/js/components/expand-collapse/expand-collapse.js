@@ -571,8 +571,8 @@ class ExpandCollapse extends Component {
             <div class="accordion-block filter-accordion">
               <div class="accordion">
                 <dl>
-                  <dt class="js-accordionTrigger">
-                    <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" class="accordion-title accordionTitle title title-M">Product Specifications</a>
+                  <dt class="js-accordionTrigger" aria-expanded="false" aria-controls="accordion1">
+                    <a href="#accordion1" class="accordion-title accordionTitle title title-M">Product Specifications</a>
                   </dt>
                   <dd class="accordion-content accordionItem is-collapsed" id="accordion1" aria-hidden="true">
                     <ul>
@@ -585,8 +585,8 @@ class ExpandCollapse extends Component {
                       <li><a href="javascript:void();">Servicio Al Cliente</a></li>
                     </ul>
                   </dd>
-                  <dt class="js-accordionTrigger">
-                    <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" class="accordion-title accordionTitle title title-M">Helpful Guides</a>
+                  <dt class="js-accordionTrigger" aria-expanded="false" aria-controls="accordion1">
+                    <a href="#accordion1" class="accordion-title accordionTitle title title-M">Helpful Guides</a>
                   </dt>
                   <dd class="accordion-content accordionItem is-collapsed" id="accordion1" aria-hidden="true">
                     <ul>
@@ -600,8 +600,8 @@ class ExpandCollapse extends Component {
                     </ul>
                   </dd>
 
-                  <dt class="js-accordionTrigger">
-                    <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" class="accordion-title accordionTitle title title-M">Reviews
+                  <dt href="#accordion1" aria-expanded="false" class="js-accordionTrigger" aria-controls="accordion1">
+                    <a  class="accordion-title accordionTitle title title-M">Reviews
                     <div class="star-preview-col review-star">
                        <ul class="star-ratings-S">
                                     <li class="star-ratings start-ratings-full">
@@ -633,8 +633,8 @@ class ExpandCollapse extends Component {
                       <li><a href="javascript:void();">Even more content here</a></li>
                     </ul>
                   </dd>
-                  <dt class="js-accordionTrigger">
-                    <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" class="accordion-title accordionTitle title title-M">Questions & Answers</a>
+                  <dt href="#accordion1" aria-expanded="false"  class="js-accordionTrigger" aria-controls="accordion1">
+                    <a class="accordion-title accordionTitle title title-M">Questions & Answers</a>
                   </dt>
                   <dd class="accordion-content accordionItem is-collapsed" id="accordion1" aria-hidden="true">
                     <ul>
@@ -647,8 +647,8 @@ class ExpandCollapse extends Component {
                       <li><a href="javascript:void();">Servicio Al Cliente</a></li>
                     </ul>
                   </dd>
-                  <dt class="js-accordionTrigger">
-                    <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" class="accordion-title accordionTitle title title-M">Shipping & Returns</a>
+                  <dt href="#accordion1" aria-expanded="false" class="js-accordionTrigger" aria-controls="accordion1">
+                    <a class="accordion-title accordionTitle title title-M">Shipping & Returns</a>
                   </dt>
                   <dd class="accordion-content accordionItem is-collapsed" id="accordion1" aria-hidden="true">
                     <ul>

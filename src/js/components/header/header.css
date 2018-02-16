@@ -192,6 +192,10 @@
 		flex: none;
 		width: 140px;
 		padding-left: 5px;
+		& svg {
+			width: 124px;
+			height: 40px;
+		}
 	}
 
 

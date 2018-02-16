@@ -340,7 +340,7 @@ a.txt-btn,
     fill: var(--color-penneyred);
   }
 }
-.icon.disable, .icon.focus  {
+.icon.disable, .icon.focus {
   & path {
     fill: var(--color-slate);
   }

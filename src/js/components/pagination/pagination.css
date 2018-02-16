@@ -42,27 +42,12 @@
       }
   
       /*  Previous button */
-      &.pagination-prev{
-        background: url("var(--path-images)global/icons/nav/chevron-left.svg") no-repeat;
-        content: "";
+      &.pagination{
         cursor: pointer;
-        line-height: 28px;
-        width: 28px;
-        height: 28px;
-        vertical-align: middle;
-        margin-top: -3px;
-      }
-  
-      /*  Next button */
-      &.pagination-next{
-        background: url("var(--path-images)global/icons/nav/chevron-right.svg") no-repeat;
-        content: "";
-        cursor: pointer;
-        line-height: 28px;
-        width: 28px;
-        height: 28px;
-        vertical-align: middle;
-        margin-top: -3px;
+       & svg {
+         width: 24px;
+         height: 24px;
+       } 
       }
     }
   }

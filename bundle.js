@@ -233,9 +233,9 @@ var _temp = function () {
         return;
     }
 
-    __REACT_HOT_LOADER__.register(CodeGenerator, 'CodeGenerator', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/containers/CodeGenerator.js');
+    __REACT_HOT_LOADER__.register(CodeGenerator, 'CodeGenerator', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/containers/CodeGenerator.js');
 
-    __REACT_HOT_LOADER__.register(_default, 'default', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/containers/CodeGenerator.js');
+    __REACT_HOT_LOADER__.register(_default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/containers/CodeGenerator.js');
 }();
 
 ;
@@ -473,6 +473,13 @@ module.exports = "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http:/
 /***/ (function(module, exports) {
 
 module.exports = "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"32\" height=\"32\" viewBox=\"0 0 32 32\" aria-labaria-lelledby=\"title-40\" >\n  <defs>\n    <path id=\"trash-can-a\" d=\"M16.6451613,19.631746 C16.6451613,20.0634921 16.3096774,20.3936508 15.8709677,20.3936508 C15.4322581,20.3936508 15.0967742,20.0634921 15.0967742,19.631746 L15.0967742,7.44126984 C15.0967742,7.00952381 15.4322581,6.67936508 15.8709677,6.67936508 C16.3096774,6.67936508 16.6451613,7.00952381 16.6451613,7.44126984 L16.6451613,19.631746 Z M14.9419355,3.25079365 L9.08387097,3.25079365 L9.08387097,1.77777778 C9.08387097,1.62539683 9.18709677,1.52380952 9.34193548,1.52380952 L14.683871,1.52380952 C14.8387097,1.52380952 14.9419355,1.62539683 14.9419355,1.77777778 L14.9419355,3.25079365 Z M12.7741935,19.631746 C12.7741935,20.0634921 12.4387097,20.3936508 12,20.3936508 C11.5612903,20.3936508 11.2258065,20.0634921 11.2258065,19.631746 L11.2258065,7.44126984 C11.2258065,7.00952381 11.5612903,6.67936508 12,6.67936508 C12.4387097,6.67936508 12.7741935,7.00952381 12.7741935,7.44126984 L12.7741935,19.631746 Z M8.90322581,19.631746 C8.90322581,20.0634921 8.56774194,20.3936508 8.12903226,20.3936508 C7.69032258,20.3936508 7.35483871,20.0634921 7.35483871,19.631746 L7.35483871,7.44126984 C7.35483871,7.00952381 7.69032258,6.67936508 8.12903226,6.67936508 C8.56774194,6.67936508 8.90322581,7.00952381 8.90322581,7.44126984 L8.90322581,19.631746 Z M23.2258065,3.25079365 L16.4645161,3.25079365 L16.4645161,1.77777778 C16.4645161,0.787301587 15.6645161,0 14.6580645,0 L9.34193548,0 C8.33548387,0 7.53548387,0.787301587 7.53548387,1.77777778 L7.53548387,3.25079365 L0.774193548,3.25079365 C0.335483871,3.25079365 0,3.58095238 0,4.01269841 C0,4.44444444 0.361290323,4.77460317 0.774193548,4.77460317 L2.99354839,4.77460317 L3.58709677,21.7904762 C3.63870968,23.0349206 4.64516129,24 5.90967742,24 L18.0903226,24 C19.3548387,24 20.3612903,23.0349206 20.4129032,21.7904762 L21.0064516,4.77460317 L23.2258065,4.77460317 C23.6645161,4.77460317 24,4.44444444 24,4.01269841 C24,3.58095238 23.6645161,3.25079365 23.2258065,3.25079365 L23.2258065,3.25079365 Z\"/>\n  </defs>\n  <title id=\"title-40\" lang=\"en\">delete</title>\n  <g fill=\"none\" fill-rule=\"evenodd\" transform=\"translate(4 4)\">\n    <use fill=\"#333\" xlink:href=\"#trash-can-a\"/>\n  </g>\n</svg>\n"
+
+/***/ }),
+
+/***/ "AzU2":
+/***/ (function(module, exports) {
+
+module.exports = "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"124\" height=\"40\" viewBox=\"0 0 124 40\">\n  <defs>\n    <path id=\"jcp-rewards-a\" d=\"M99.6684878,24.5605854 L99.6684878,26.601561 C99.6684878,27.2474146 99.8362927,27.808878 100.168,28.2903415 C100.502146,28.7727805 100.942634,29.1757073 101.488976,29.5020488 C102.036293,29.8283902 102.660195,30.0722927 103.362146,30.2352195 C103.731902,30.3205854 104.108976,30.3820488 104.488,30.424 L104.488,33.7581463 L107.176293,33.7581463 L107.176293,30.3337561 C107.369951,30.2996098 107.563122,30.2610732 107.756293,30.2137561 C108.489951,30.0357073 109.148488,29.748878 109.726537,29.3498537 C110.307024,28.9522927 110.772878,28.4361951 111.128,27.8020488 C111.482634,27.1683902 111.660683,26.3996098 111.660683,25.4942439 C111.660683,24.9952195 111.597756,24.546439 111.469463,24.146439 C111.344585,23.7493659 111.168,23.3942439 110.944585,23.0830244 C110.71922,22.7713171 110.45239,22.4961951 110.145073,22.2576585 C109.838244,22.0186341 109.505561,21.8005854 109.146537,21.6049756 C108.787024,21.4098537 108.408488,21.2357073 108.011902,21.0830244 C107.61239,20.9327805 107.211415,20.784 106.805561,20.6386341 C106.44361,20.5083902 106.095805,20.3805854 105.763122,20.2527805 C105.429951,20.126439 105.137268,19.9835122 104.882634,19.824 C104.630439,19.6649756 104.427512,19.4854634 104.273854,19.286439 C104.122146,19.0874146 104.046537,18.8503415 104.046537,18.5752195 C104.046537,18.3722927 104.093854,18.2000976 104.188,18.059122 C104.281171,17.9171707 104.407024,17.8049756 104.56361,17.7220488 C104.718244,17.6386341 104.900195,17.5800976 105.105561,17.5425366 C105.31239,17.5079024 105.530927,17.4883902 105.763122,17.4883902 C106.008976,17.4883902 106.245073,17.5083902 106.468976,17.5483902 C106.693854,17.5883902 106.891415,17.6479024 107.060683,17.7279024 C107.231415,17.8074146 107.364585,17.9074146 107.463122,18.026439 C107.560195,18.146439 107.609463,18.2859512 107.609463,18.4454634 L107.609463,19.4444878 L111.171902,19.4444878 L111.171902,17.0869268 C111.171902,16.5810732 111.018244,16.1366829 110.710927,15.7571707 C110.402146,15.3761951 109.995317,15.0576585 109.488,14.8010732 C108.981659,14.544 108.40361,14.3508293 107.756293,14.2254634 C107.564098,14.186439 107.369951,14.1576585 107.176293,14.1308293 L107.176293,11.0093659 L104.488,11.0093659 L104.488,14.121561 C104.215805,14.159122 103.945561,14.2035122 103.67678,14.2635122 C102.996293,14.4157073 102.386537,14.6718049 101.846537,15.0342439 C101.307024,15.3961951 100.874341,15.8742439 100.544098,16.4683902 C100.213366,17.0625366 100.049463,17.8005854 100.049463,18.6830244 C100.049463,19.4152195 100.164585,20.0361951 100.396293,20.5474146 C100.628976,21.0561951 100.93922,21.4952195 101.325073,21.8605854 C101.713366,22.226439 102.158732,22.5342439 102.663122,22.7835122 C103.165073,23.0332683 103.687024,23.2610732 104.231902,23.461561 C104.64361,23.6293659 105.055317,23.7859512 105.46361,23.9298537 C105.871902,24.0747317 106.241659,24.2303415 106.567024,24.3966829 C106.89239,24.564 107.154829,24.7532683 107.354341,24.9605854 C107.553366,25.1713171 107.65239,25.4283902 107.65239,25.7327805 C107.65239,25.9430244 107.600195,26.1293659 107.494341,26.2927805 C107.389463,26.4557073 107.24361,26.5898537 107.055317,26.6996098 C106.867024,26.8083902 106.642634,26.8893659 106.381171,26.9435122 C106.121659,26.9981463 105.835805,27.0259512 105.523122,27.0259512 C105.21239,27.0259512 104.917268,26.9971707 104.637756,26.9386341 C104.359707,26.8810732 104.117756,26.7966829 103.911415,26.688878 C103.704098,26.5800976 103.540195,26.446439 103.41678,26.2869268 C103.294829,26.1279024 103.23239,25.9430244 103.23239,25.7327805 L103.23239,24.5605854 L99.6684878,24.5605854 Z M105.666049,4.96546341 C99.5323902,4.96546341 93.8777561,8.1937561 90.728,13.426439 C90.9548293,13.4337561 91.1797073,13.441561 91.3967805,13.4522927 C91.5358049,13.4596098 91.6826341,13.464 91.8167805,13.4732683 C91.9494634,13.4825366 92.0777561,13.506439 92.2099512,13.5205854 C95.1821463,9.02156098 100.220195,6.27229268 105.666049,6.27229268 C114.557756,6.27229268 121.792878,13.5074146 121.792878,22.4005854 C121.792878,31.2937561 114.557756,38.5293659 105.666049,38.5293659 C100.044585,38.5293659 94.903122,35.6342439 91.9689756,30.904 C91.7270244,30.9298537 91.4845854,30.9518049 91.2284878,30.9674146 C90.9958049,30.9810732 90.7562927,30.9918049 90.5109268,30.9986341 C93.612878,36.4610732 99.3597073,39.8352195 105.666049,39.8352195 C115.277756,39.8352195 123.099707,32.0147317 123.099707,22.4005854 C123.099707,12.786439 115.277756,4.96546341 105.666049,4.96546341 L105.666049,4.96546341 Z M25.2699512,27.0908293 L21.8494634,27.0908293 L21.8494634,23.7566829 L26.4967805,23.7566829 L26.4967805,20.6386341 L21.8494634,20.6386341 L21.8494634,17.4127805 L25.0084878,17.4127805 L25.0084878,18.9996098 L28.343122,18.9996098 L28.343122,14.3069268 L16.0811707,14.3069268 L16.0811707,17.1961951 L17.863122,17.1961951 L17.863122,27.3176585 L16.0811707,27.3176585 L16.0811707,30.2074146 L28.6040976,30.2074146 L28.6040976,25.5142439 L25.2699512,25.5142439 L25.2699512,27.0908293 Z M9.0484878,21.019122 C8.68409756,21.3444878 8.19336585,21.5079024 7.57043902,21.5079024 L5.76702439,21.5079024 L5.76702439,17.4127805 L7.18995122,17.4127805 C7.83385366,17.4127805 8.34507317,17.5025366 8.72263415,17.6844878 C8.89482927,17.7718049 9.0382439,17.8766829 9.15043902,17.9996098 C9.26360976,18.1230244 9.35239024,18.2600976 9.41629268,18.4118049 C9.48165854,18.5644878 9.52653659,18.7298537 9.55336585,18.9069268 C9.57726829,19.084 9.59141463,19.2630244 9.59141463,19.4444878 C9.59141463,20.1683902 9.4084878,20.6932683 9.0484878,21.019122 L9.0484878,21.019122 Z M13.5719024,27.2049756 C13.4094634,27.1283902 13.2762927,26.9971707 13.1748293,26.8083902 L11.948,24.4508293 C11.8538537,24.2776585 11.7519024,24.1313171 11.6445854,24.0118049 C11.5338537,23.8927805 11.4299512,23.7922927 11.3284878,23.7127805 C11.2138537,23.6254634 11.0923902,23.5542439 10.9699512,23.4952195 L10.9699512,23.4410732 C11.7592195,23.0220488 12.3875122,22.4522927 12.8543415,21.7352195 C13.3211707,21.019122 13.5553171,20.1357073 13.5553171,19.0854634 C13.5553171,18.499122 13.4797073,17.9659512 13.3270244,17.4830244 C13.1748293,17.001561 12.9587317,16.5737561 12.6821463,16.1966829 C12.4011707,15.8205854 12.068,15.4981463 11.6758049,15.2298537 C11.2845854,14.9630244 10.8499512,14.7552195 10.372878,14.6108293 C9.91531707,14.4796098 9.42263415,14.3971707 8.88897561,14.3605854 C8.3577561,14.3254634 7.78995122,14.3069268 7.18995122,14.3069268 L0.000195121951,14.3069268 L0.000195121951,17.1961951 L1.78117073,17.1961951 L1.78117073,27.3176585 L0.000195121951,27.3176585 L0.000195121951,30.2074146 L7.4284878,30.2074146 L7.4284878,27.3176585 L5.76702439,27.3176585 L5.76702439,24.6244878 L6.57043902,24.6244878 C6.77287805,24.6244878 6.94653659,24.6366829 7.09239024,24.6571707 C7.2377561,24.6796098 7.36068293,24.7166829 7.46214634,24.7722927 C7.56312195,24.826439 7.65141463,24.8966829 7.72702439,24.9825366 C7.80312195,25.0698537 7.87434146,25.179122 7.93921951,25.3083902 L9.88458537,29.0244878 C9.99287805,29.241561 10.1109268,29.426439 10.2362927,29.5771707 C10.3621463,29.7303415 10.5133659,29.8518049 10.688,29.9420488 C10.8611707,30.0318049 11.0640976,30.099122 11.2948293,30.1425366 C11.5275122,30.186439 11.8065366,30.2074146 12.1319024,30.2074146 L14.7489756,30.2074146 L14.7489756,27.3176585 L14.1958049,27.3176585 C13.9416585,27.3176585 13.7348293,27.2810732 13.5719024,27.2049756 L13.5719024,27.2049756 Z M93.5353171,24.988878 C93.4411707,25.1752195 93.3401951,25.3483902 93.2284878,25.5083902 C92.888,26.004 92.4611707,26.3830244 91.9484878,26.644 C91.5875122,26.8122927 91.2138537,26.9274146 90.8289756,26.9918049 C90.4553171,27.0566829 90.0284878,27.0879024 89.5533659,27.0903415 C89.5387317,27.0903415 89.5284878,27.0908293 89.5162927,27.0908293 L88.3640976,27.0908293 L88.3640976,17.4127805 L89.5162927,17.4127805 C89.5587317,17.4127805 89.5953171,17.4161951 89.6367805,17.4161951 C89.9933659,17.4196098 90.328,17.4371707 90.6299512,17.4737561 C90.9660488,17.5122927 91.3070244,17.6049756 91.6548293,17.7493659 C92.0245854,17.901561 92.3601951,18.1127805 92.6611707,18.3854634 C92.8260488,18.5352195 92.9753171,18.7049756 93.1153171,18.8854634 C93.2270244,19.0332683 93.3358049,19.1879024 93.4319024,19.3566829 C93.6450732,19.7342439 93.8089756,20.166439 93.925561,20.6552195 C94.0416585,21.1449756 94.1006829,21.681561 94.1006829,22.2683902 C94.1006829,23.3249756 93.9109268,24.2322927 93.5353171,24.988878 L93.5353171,24.988878 Z M97.8250732,19.4976585 C97.5650732,18.6654634 97.1972683,17.9259512 96.7284878,17.2776585 C96.2567805,16.628878 95.6953171,16.0830244 95.0445854,15.6376585 C94.8948293,15.5357073 94.7406829,15.4410732 94.5850732,15.3503415 C94.0577561,15.0459512 93.4919024,14.8054634 92.8840976,14.6322927 C92.3762927,14.4883902 91.8567805,14.3971707 91.323122,14.3605854 C91.2026341,14.3522927 91.0699512,14.348878 90.943122,14.341561 C90.5192195,14.3205854 90.0758049,14.3069268 89.6021463,14.3069268 L82.5972683,14.3069268 L82.5972683,17.1961951 L84.3777561,17.1961951 L84.3777561,27.3176585 L82.5972683,27.3176585 L82.5972683,30.2074146 L89.6362927,30.2074146 C90.0392195,30.2074146 90.423122,30.1937561 90.7919024,30.1713171 C91.083122,30.1537561 91.3689756,30.1318049 91.6397073,30.099122 C92.2514146,30.0274146 92.8499512,29.8854634 93.4362927,29.6757073 C93.9289756,29.4942439 94.3875122,29.2630244 94.8182439,28.9903415 C95.0201951,28.861561 95.2192195,28.7269268 95.4089756,28.5786341 C96.0001951,28.1147317 96.5021463,27.5669268 96.9177561,26.9337561 C97.3353171,26.3000976 97.6553171,25.5869268 97.8782439,24.799122 C98.1036098,24.0098537 98.2153171,23.159122 98.2153171,22.246439 C98.2153171,21.246439 98.0860488,20.3308293 97.8250732,19.4976585 L97.8250732,19.4976585 Z M52.0348293,17.1961951 L52.0348293,14.3069268 L44.985561,14.3069268 L44.985561,17.1961951 L46.8323902,17.1961951 L45.3660488,24.2444878 C45.3211707,24.4405854 45.288,24.6376585 45.2626341,24.8366829 C45.2367805,25.0357073 45.2172683,25.2152195 45.203122,25.3742439 C45.1811707,25.564 45.1665366,25.744 45.1592195,25.9171707 L45.0733659,25.9171707 C45.0650732,25.744 45.0465366,25.564 45.0177561,25.3742439 C44.9953171,25.2152195 44.9684878,25.0357073 44.9294634,24.8366829 C44.8948293,24.6376585 44.8523902,24.4405854 44.8016585,24.2444878 L42.3572683,14.3069268 L39.283122,14.3069268 L36.8392195,24.2444878 C36.788,24.4405854 36.7475122,24.6376585 36.712878,24.8366829 C36.6816585,25.0357073 36.6538537,25.2152195 36.6319024,25.3742439 C36.6045854,25.564 36.5870244,25.744 36.5787317,25.9171707 L36.4806829,25.9171707 C36.472878,25.744 36.4587317,25.564 36.4377561,25.3742439 C36.4221463,25.2152195 36.4026341,25.0357073 36.3777561,24.8366829 C36.3519024,24.6376585 36.3216585,24.4405854 36.285561,24.2444878 L34.8182439,17.1961951 L36.6650732,17.1961951 L36.6650732,14.3069268 L29.6153171,14.3069268 L29.6153171,17.1961951 L30.9416585,17.1961951 L34.1006829,30.2074146 L38.4899512,30.2074146 L40.5109268,22.061561 C40.5611707,21.8727805 40.6040976,21.6747317 40.6421463,21.464 C40.6767805,21.2552195 40.7060488,21.0659512 40.7270244,20.9000976 C40.7562927,20.7044878 40.7738537,20.5083902 40.7821463,20.3127805 L40.8689756,20.3127805 C40.8762927,20.5083902 40.8948293,20.7044878 40.9226341,20.9000976 C40.9445854,21.0659512 40.9719024,21.2552195 41.0045854,21.464 C41.0377561,21.6747317 41.0787317,21.8727805 41.1294634,22.061561 L43.1601951,30.2074146 L47.5382439,30.2074146 L50.6987317,17.1961951 L52.0348293,17.1961951 Z M56.2440976,22.181561 L57.0914146,19.2366829 C57.1558049,18.9913171 57.208,18.7674146 57.2475122,18.5644878 C57.288,18.361561 57.3187317,18.1869268 57.3416585,18.0430244 C57.3689756,17.8698537 57.3875122,17.7142439 57.3958049,17.5757073 L57.4923902,17.5757073 C57.5011707,17.7142439 57.5182439,17.8698537 57.5475122,18.0430244 C57.5689756,18.1869268 57.6001951,18.361561 57.6392195,18.5644878 C57.6801951,18.7674146 57.732878,18.9913171 57.7972683,19.2366829 L58.623122,22.181561 L56.2440976,22.181561 Z M59.7084878,14.3069268 L55.1792195,14.3069268 L50.8348293,27.3176585 L49.5216585,27.3176585 L49.5216585,30.2074146 L56.1787317,30.2074146 L56.1787317,27.3176585 L54.8001951,27.3176585 L55.3958049,25.2000976 L59.490439,25.2000976 L60.088,27.3176585 L58.7094634,27.3176585 L58.7094634,30.2074146 L65.3670244,30.2074146 L65.3670244,27.3176585 L64.0538537,27.3176585 L59.7084878,14.3069268 Z M75.5636098,21.019122 C75.2011707,21.3444878 74.7070244,21.5079024 74.085561,21.5079024 L72.2826341,21.5079024 L72.2826341,17.4127805 L73.7060488,17.4127805 C74.3514146,17.4127805 74.8611707,17.5025366 75.2382439,17.6844878 C75.4114146,17.7718049 75.5533659,17.8766829 75.6670244,17.9996098 C75.7787317,18.1230244 75.8670244,18.2600976 75.9319024,18.4118049 C75.9982439,18.5644878 76.0421463,18.7298537 76.0684878,18.9069268 C76.092878,19.084 76.1050732,19.2630244 76.1050732,19.4444878 C76.1050732,20.1683902 75.9250732,20.6932683 75.5636098,21.019122 L75.5636098,21.019122 Z M80.0875122,27.2049756 C79.9236098,27.1283902 79.7923902,26.9971707 79.6914146,26.8083902 L78.463122,24.4508293 C78.3689756,24.2776585 78.268,24.1313171 78.1587317,24.0118049 C78.0509268,23.8927805 77.9460488,23.7922927 77.843122,23.7127805 C77.7270244,23.6254634 77.6084878,23.5542439 77.4860488,23.4952195 L77.4860488,23.4410732 C78.2738537,23.0220488 78.9026341,22.4522927 79.370439,21.7352195 C79.8382439,21.019122 80.070439,20.1357073 80.070439,19.0854634 C80.070439,18.499122 79.9953171,17.9659512 79.8416585,17.4830244 C79.6914146,17.001561 79.4753171,16.5737561 79.1953171,16.1966829 C78.9167805,15.8205854 78.5821463,15.4981463 78.1909268,15.2298537 C77.8011707,14.9630244 77.365561,14.7552195 76.8875122,14.6108293 C76.4309268,14.4796098 75.9377561,14.3971707 75.4070244,14.3605854 C74.872878,14.3254634 74.308,14.3069268 73.7060488,14.3069268 L66.5158049,14.3069268 L66.5158049,17.1961951 L68.2962927,17.1961951 L68.2962927,27.3176585 L66.5158049,27.3176585 L66.5158049,30.2074146 L73.945561,30.2074146 L73.945561,27.3176585 L72.2826341,27.3176585 L72.2826341,24.6244878 L73.0860488,24.6244878 C73.2894634,24.6244878 73.463122,24.6366829 73.6075122,24.6571707 C73.7523902,24.6796098 73.8758049,24.7166829 73.9758049,24.7722927 C74.0787317,24.826439 74.1675122,24.8966829 74.243122,24.9825366 C74.3197073,25.0698537 74.3909268,25.179122 74.4548293,25.3083902 L76.4001951,29.0244878 C76.5075122,29.241561 76.6245854,29.426439 76.752878,29.5771707 C76.8787317,29.7303415 77.0294634,29.8518049 77.2026341,29.9420488 C77.3772683,30.0318049 77.5801951,30.099122 77.8123902,30.1425366 C78.0421463,30.186439 78.3211707,30.2074146 78.648,30.2074146 L81.2650732,30.2074146 L81.2650732,27.3176585 L80.7119024,27.3176585 C80.4582439,27.3176585 80.2499512,27.2810732 80.0875122,27.2049756 L80.0875122,27.2049756 Z M51.2489756,7.52595122 L48.5411707,0.180097561 L50.5992195,0.180097561 L52.205561,5.26985366 L53.8660488,0.180097561 L55.8875122,0.180097561 L53.108,7.52595122 L53.108,12.219122 L51.2489756,12.219122 L51.2489756,7.52595122 Z M42.6938537,0.180097561 L48.1445854,0.180097561 L48.1445854,1.89521951 L44.552878,1.89521951 L44.552878,5.07180488 L47.2060488,5.07180488 L47.2060488,6.78595122 L44.552878,6.78595122 L44.552878,10.504 L48.1445854,10.504 L48.1445854,12.219122 L42.6938537,12.219122 L42.6938537,0.180097561 Z M34.8245854,0.180097561 L36.7016585,0.180097561 L39.7338537,7.67034146 L39.7338537,0.180097561 L41.5026341,0.180097561 L41.5026341,12.219122 L39.8421463,12.219122 L36.5933659,4.20497561 L36.5933659,12.219122 L34.8245854,12.219122 L34.8245854,0.180097561 Z M26.9558049,0.180097561 L28.832878,0.180097561 L31.8650732,7.67034146 L31.8650732,0.180097561 L33.6338537,0.180097561 L33.6338537,12.219122 L31.9733659,12.219122 L28.7245854,4.20497561 L28.7245854,12.219122 L26.9558049,12.219122 L26.9558049,0.180097561 Z M20.4943415,0.180097561 L25.9450732,0.180097561 L25.9450732,1.89521951 L22.3533659,1.89521951 L22.3533659,5.07180488 L25.0065366,5.07180488 L25.0065366,6.78595122 L22.3533659,6.78595122 L22.3533659,10.504 L25.9450732,10.504 L25.9450732,12.219122 L20.4943415,12.219122 L20.4943415,0.180097561 Z M15.5850732,5.63131707 C16.3309268,5.63131707 16.845561,5.49570732 17.128,5.22497561 C17.4109268,4.9542439 17.5523902,4.464 17.5523902,3.7542439 C17.5523902,3.05668293 17.4109268,2.57180488 17.128,2.30107317 C16.845561,2.03034146 16.3309268,1.89521951 15.5850732,1.89521951 L14.772878,1.89521951 L14.772878,5.63131707 L15.5850732,5.63131707 Z M12.9138537,0.180097561 L16.0001951,0.180097561 C16.6138537,0.180097561 17.1192195,0.241073171 17.5162927,0.361073171 C17.9133659,0.481560976 18.2499512,0.679609756 18.5270244,0.956682927 C19.1645854,1.55814634 19.4836098,2.49082927 19.4836098,3.7542439 C19.4836098,5.02936585 19.1645854,5.96839024 18.5270244,6.56985366 C18.2499512,6.84643902 17.9133659,7.04497561 17.5162927,7.16546341 C17.1192195,7.28546341 16.6138537,7.34546341 16.0001951,7.34546341 L14.772878,7.34546341 L14.772878,12.219122 L12.9138537,12.219122 L12.9138537,0.180097561 Z M11.6148293,8.0137561 L11.6148293,8.42887805 C11.6148293,9.74058537 11.3377561,10.7298537 10.7845854,11.3976585 C10.2309268,12.0654634 9.40653659,12.3996098 8.31190244,12.3996098 C7.6977561,12.3996098 7.16263415,12.2849756 6.70556098,12.0566829 C6.248,11.8279024 5.88702439,11.4971707 5.62263415,11.0635122 C5.51385366,10.8835122 5.42068293,10.6966829 5.34263415,10.504 C5.26409756,10.3118049 5.20409756,10.0922927 5.16214634,9.84546341 C5.11970732,9.59912195 5.08995122,9.31326829 5.07190244,8.98839024 C5.05385366,8.6635122 5.04458537,8.27814634 5.04458537,7.83278049 L5.04458537,4.45765854 C5.04458537,3.97668293 5.05385366,3.56741463 5.07190244,3.23082927 C5.08995122,2.8937561 5.12604878,2.60204878 5.18019512,2.35521951 C5.23434146,2.10887805 5.30653659,1.88887805 5.39678049,1.69668293 C5.48702439,1.504 5.60409756,1.31131707 5.7484878,1.11912195 C6.01336585,0.757658537 6.36263415,0.481560976 6.79531707,0.288878049 C7.22897561,0.0966829268 7.728,9.75609756e-05 8.29385366,9.75609756e-05 C9.3284878,9.75609756e-05 10.1314146,0.32204878 10.703122,0.965463415 C11.2743415,1.60936585 11.5601951,2.52643902 11.5601951,3.71814634 L11.5601951,4.07912195 L9.70117073,4.07912195 L9.70117073,3.82643902 C9.70117073,2.43082927 9.23190244,1.73278049 8.29385366,1.73278049 C7.76409756,1.73278049 7.39726829,1.93180488 7.19239024,2.33082927 C7.13239024,2.42741463 7.08458537,2.52692683 7.048,2.62985366 C7.01239024,2.73229268 6.98214634,2.85034146 6.9577561,2.98302439 C6.93385366,3.11619512 6.91873171,3.26985366 6.91287805,3.44546341 C6.90653659,3.62058537 6.90409756,3.82887805 6.90409756,4.07034146 L6.90409756,8.09326829 C6.90409756,8.55278049 6.91873171,8.91521951 6.94897561,9.18107317 C6.97873171,9.44643902 7.03043902,9.68204878 7.10263415,9.88741463 C7.19873171,10.1293659 7.35190244,10.3196098 7.56263415,10.4581463 C7.77287805,10.5971707 8.01678049,10.6669268 8.29385366,10.6669268 C9.00360976,10.6669268 9.4484878,10.2518049 9.62897561,9.42156098 C9.66556098,9.27717073 9.68897561,9.11180488 9.70117073,8.92497561 C9.71336585,8.73863415 9.72556098,8.43473171 9.7377561,8.0137561 L11.6148293,8.0137561 Z M0.0816585366,10.486439 L0.514829268,10.486439 C0.971902439,10.486439 1.29092683,10.3898537 1.47141463,10.1971707 C1.65190244,10.004 1.74214634,9.65473171 1.74214634,9.14839024 L1.74214634,0.180097561 L3.60117073,0.180097561 L3.60117073,9.27717073 C3.60117073,9.59034146 3.59239024,9.8635122 3.57434146,10.0981463 C3.55629268,10.3327805 3.52604878,10.5376585 3.48409756,10.7118049 C3.44165854,10.886439 3.3875122,11.0400976 3.32165854,11.1722927 C3.25531707,11.3044878 3.17434146,11.4308293 3.0777561,11.5513171 C2.71678049,11.9966829 2.09092683,12.219122 1.20068293,12.219122 L0.0816585366,12.219122 L0.0816585366,10.486439 Z\"/>\n  </defs>\n  <g fill=\"none\" fill-rule=\"evenodd\">\n    <use fill=\"#111\" xlink:href=\"#jcp-rewards-a\"/>\n  </g>\n</svg>\n"
 
 /***/ }),
 
@@ -983,7 +990,7 @@ var _temp = function () {
         return;
     }
 
-    __REACT_HOT_LOADER__.register(rootNav, 'rootNav', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/containers/config/rootConfig.js');
+    __REACT_HOT_LOADER__.register(rootNav, 'rootNav', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/containers/config/rootConfig.js');
 }();
 
 ;
@@ -1010,6 +1017,7 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 
 var heartfillImage = __webpack_require__("/KOU");
 var cartImage = __webpack_require__("3enj");
+var cartFullImage = __webpack_require__("VlqD");
 var lockImage = __webpack_require__("vfeN");
 var thumbsupfillImage = __webpack_require__("JRc0");
 var thumbsUpImage = __webpack_require__("39nX");
@@ -1046,16 +1054,25 @@ var buttons_Buttons = function (_Component) {
                 var tooltip = parent.find('.tooltip-content');
                 parent.closest('.like-icon').toggleClass("is-active");
                 if (parent.hasClass("is-active")) {
+                    jquery_default()('.like-icon .tooltip').css('display', 'inline-block');
                     tooltip.html('Added<br /><a href="javascript:void(0);">View My Favorites</a>');
                 }
             });
+            jquery_default()(".like-icon").mouseenter(function () {
+                jquery_default()('.like-icon .tooltip').css('display', 'inline-block');
+            });
 
             jquery_default()(".like-icon").mouseleave(function () {
+
                 var parent = jquery_default()(this).closest('.like-icon');
                 var tooltip = parent.find('.tooltip-content');
                 if (parent.hasClass("is-active")) {
-                    tooltip.html('Remove Favorite');
+                    setTimeout(function () {
+                        jquery_default()('.like-icon .tooltip').css('display', 'none');
+                        tooltip.html('Remove Favorite');
+                    }, 2000);
                 } else {
+                    jquery_default()('.like-icon .tooltip').css('display', 'none');
                     tooltip.html('Favorite');
                 }
             });
@@ -1393,8 +1410,8 @@ var buttons_Buttons = function (_Component) {
                                     { className: 'button-preview algn-mid' },
                                     react_default.a.createElement(
                                         'a',
-                                        { href: 'javascript:void();', role: 'button', className: 'btn btn-primary btn-L mrg-M btn-icon btn-icon-slide' },
-                                        react_default.a.createElement('span', { className: 'icon color-white-svg', dangerouslySetInnerHTML: { __html: cartImage } }),
+                                        { href: 'javascript:void();', role: 'button', className: 'btn btn-secondary btn-L mrg-M btn-icon btn-icon-slide' },
+                                        react_default.a.createElement('span', { className: 'icon color-penneyred-svg', dangerouslySetInnerHTML: { __html: cartImage } }),
                                         ' ',
                                         react_default.a.createElement(
                                             'span',
@@ -1408,8 +1425,8 @@ var buttons_Buttons = function (_Component) {
                                     { className: 'button-preview algn-mid' },
                                     react_default.a.createElement(
                                         'a',
-                                        { href: 'javascript:void();', role: 'button', className: 'btn btn-secondary btn-L mrg-M btn-icon btn-icon-slide' },
-                                        react_default.a.createElement('span', { className: 'icon color-penneyred-svg', dangerouslySetInnerHTML: { __html: cartImage } }),
+                                        { href: 'javascript:void();', role: 'button', className: 'btn btn-primary btn-L mrg-M btn-icon btn-icon-slide' },
+                                        react_default.a.createElement('span', { className: 'icon color-white-svg', dangerouslySetInnerHTML: { __html: cartImage } }),
                                         ' ',
                                         react_default.a.createElement(
                                             'span',
@@ -1628,7 +1645,7 @@ var buttons_Buttons = function (_Component) {
                                     { className: 'main-menu-primary-cart-icon-full-items ' },
                                     '28'
                                 ),
-                                react_default.a.createElement('div', { className: 'main-menu-primary-cart-icon-full-icon icon color-white-svg', dangerouslySetInnerHTML: { __html: cartImage } })
+                                react_default.a.createElement('div', { className: 'main-menu-primary-cart-icon-full-icon icon color-white-svg', dangerouslySetInnerHTML: { __html: cartFullImage } })
                             ),
                             ' '
                         )
@@ -1973,9 +1990,9 @@ var buttons__temp = function () {
         return;
     }
 
-    __REACT_HOT_LOADER__.register(buttons_Buttons, 'Buttons', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/buttons/buttons.js');
+    __REACT_HOT_LOADER__.register(buttons_Buttons, 'Buttons', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/buttons/buttons.js');
 
-    __REACT_HOT_LOADER__.register(_default, 'default', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/buttons/buttons.js');
+    __REACT_HOT_LOADER__.register(_default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/buttons/buttons.js');
 }();
 
 ;
@@ -1990,7 +2007,7 @@ var components_buttons__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(buttons__default, 'default', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/buttons/index.js');
+  __REACT_HOT_LOADER__.register(buttons__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/buttons/index.js');
 }();
 
 ;
@@ -2787,11 +2804,11 @@ var color__temp = function () {
         return;
     }
 
-    __REACT_HOT_LOADER__.register(SubNavLinks, 'SubNavLinks', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/color/color.js');
+    __REACT_HOT_LOADER__.register(SubNavLinks, 'SubNavLinks', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/color/color.js');
 
-    __REACT_HOT_LOADER__.register(color_Color, 'Color', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/color/color.js');
+    __REACT_HOT_LOADER__.register(color_Color, 'Color', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/color/color.js');
 
-    __REACT_HOT_LOADER__.register(color__default, 'default', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/color/color.js');
+    __REACT_HOT_LOADER__.register(color__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/color/color.js');
 }();
 
 ;
@@ -2806,7 +2823,7 @@ var components_color__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_color__default, 'default', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/color/index.js');
+  __REACT_HOT_LOADER__.register(components_color__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/color/index.js');
 }();
 
 ;
@@ -2901,7 +2918,7 @@ var backtotopImage = __webpack_require__("om3C");
 
 // Utility
 var icons_cartImage = __webpack_require__("3enj");
-var cartFullImage = __webpack_require__("VlqD");
+var icons_cartFullImage = __webpack_require__("VlqD");
 var expresscheckoutImage = __webpack_require__("fdEA");
 var haulawayImage = __webpack_require__("rmnD");
 var trackorderImage = __webpack_require__("BxHr");
@@ -3473,7 +3490,7 @@ var icons_Icons = function (_Component) {
                                 { className: 'row  small-up-4 medium-up-3 large-up-4 design-system-icon-set' },
                                 this.iconCol("cart", "navigate to shopping cart", icons_cartImage),
                                 ' ',
-                                this.iconCol("full cart", "shopping cart with items", cartFullImage),
+                                this.iconCol("full cart", "shopping cart with items", icons_cartFullImage),
                                 ' ',
                                 this.iconCol("express-checkout", "express checkout", expresscheckoutImage),
                                 ' ',
@@ -3714,11 +3731,11 @@ var icons__temp = function () {
         return;
     }
 
-    __REACT_HOT_LOADER__.register(icons_ColorPicker, 'ColorPicker', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/icons/icons.js');
+    __REACT_HOT_LOADER__.register(icons_ColorPicker, 'ColorPicker', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/icons/icons.js');
 
-    __REACT_HOT_LOADER__.register(icons_Icons, 'Icons', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/icons/icons.js');
+    __REACT_HOT_LOADER__.register(icons_Icons, 'Icons', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/icons/icons.js');
 
-    __REACT_HOT_LOADER__.register(icons__default, 'default', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/icons/icons.js');
+    __REACT_HOT_LOADER__.register(icons__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/icons/icons.js');
 }();
 
 ;
@@ -3733,7 +3750,7 @@ var components_icons__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_icons__default, 'default', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/icons/index.js');
+  __REACT_HOT_LOADER__.register(components_icons__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/icons/index.js');
 }();
 
 ;
@@ -4509,9 +4526,9 @@ var grid__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(grid_Grid, "Grid", "/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/grid/grid.js");
+  __REACT_HOT_LOADER__.register(grid_Grid, "Grid", "/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/grid/grid.js");
 
-  __REACT_HOT_LOADER__.register(grid__default, "default", "/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/grid/grid.js");
+  __REACT_HOT_LOADER__.register(grid__default, "default", "/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/grid/grid.js");
 }();
 
 ;
@@ -4526,7 +4543,7 @@ var components_grid__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_grid__default, 'default', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/grid/index.js');
+  __REACT_HOT_LOADER__.register(components_grid__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/grid/index.js');
 }();
 
 ;
@@ -5238,9 +5255,9 @@ var typography__temp = function () {
         return;
     }
 
-    __REACT_HOT_LOADER__.register(typography_Typography, 'Typography', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/typography/typography.js');
+    __REACT_HOT_LOADER__.register(typography_Typography, 'Typography', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/typography/typography.js');
 
-    __REACT_HOT_LOADER__.register(typography__default, 'default', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/typography/typography.js');
+    __REACT_HOT_LOADER__.register(typography__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/typography/typography.js');
 }();
 
 ;
@@ -5255,7 +5272,7 @@ var components_typography__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_typography__default, 'default', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/typography/index.js');
+  __REACT_HOT_LOADER__.register(components_typography__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/typography/index.js');
 }();
 
 ;
@@ -5615,9 +5632,9 @@ var alerts__temp = function () {
         return;
     }
 
-    __REACT_HOT_LOADER__.register(alerts_Alerts, 'Alerts', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/alerts/alerts.js');
+    __REACT_HOT_LOADER__.register(alerts_Alerts, 'Alerts', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/alerts/alerts.js');
 
-    __REACT_HOT_LOADER__.register(alerts__default, 'default', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/alerts/alerts.js');
+    __REACT_HOT_LOADER__.register(alerts__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/alerts/alerts.js');
 }();
 
 ;
@@ -5632,7 +5649,7 @@ var components_alerts__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_alerts__default, 'default', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/alerts/index.js');
+  __REACT_HOT_LOADER__.register(components_alerts__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/alerts/index.js');
 }();
 
 ;
@@ -5971,9 +5988,9 @@ var badges__temp = function () {
         return;
     }
 
-    __REACT_HOT_LOADER__.register(badges_Badges, 'Badges', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/badges/badges.js');
+    __REACT_HOT_LOADER__.register(badges_Badges, 'Badges', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/badges/badges.js');
 
-    __REACT_HOT_LOADER__.register(badges__default, 'default', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/badges/badges.js');
+    __REACT_HOT_LOADER__.register(badges__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/badges/badges.js');
 }();
 
 ;
@@ -5988,7 +6005,7 @@ var components_badges__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_badges__default, 'default', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/badges/index.js');
+  __REACT_HOT_LOADER__.register(components_badges__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/badges/index.js');
 }();
 
 ;
@@ -6460,9 +6477,9 @@ var content_loaders__temp = function () {
         return;
     }
 
-    __REACT_HOT_LOADER__.register(content_loaders_ContentLoaders, 'ContentLoaders', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/content-loaders/content-loaders.js');
+    __REACT_HOT_LOADER__.register(content_loaders_ContentLoaders, 'ContentLoaders', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/content-loaders/content-loaders.js');
 
-    __REACT_HOT_LOADER__.register(content_loaders__default, 'default', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/content-loaders/content-loaders.js');
+    __REACT_HOT_LOADER__.register(content_loaders__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/content-loaders/content-loaders.js');
 }();
 
 ;
@@ -6477,7 +6494,7 @@ var components_content_loaders__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_content_loaders__default, 'default', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/content-loaders/index.js');
+  __REACT_HOT_LOADER__.register(components_content_loaders__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/content-loaders/index.js');
 }();
 
 ;
@@ -7188,9 +7205,9 @@ var dropdown_button__temp = function () {
         return;
     }
 
-    __REACT_HOT_LOADER__.register(dropdown_button_DropdownButton, 'DropdownButton', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/dropdown-button/dropdown-button.js');
+    __REACT_HOT_LOADER__.register(dropdown_button_DropdownButton, 'DropdownButton', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/dropdown-button/dropdown-button.js');
 
-    __REACT_HOT_LOADER__.register(dropdown_button__default, 'default', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/dropdown-button/dropdown-button.js');
+    __REACT_HOT_LOADER__.register(dropdown_button__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/dropdown-button/dropdown-button.js');
 }();
 
 ;
@@ -7205,7 +7222,7 @@ var components_dropdown_button__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_dropdown_button__default, 'default', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/dropdown-button/index.js');
+  __REACT_HOT_LOADER__.register(components_dropdown_button__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/dropdown-button/index.js');
 }();
 
 ;
@@ -8433,9 +8450,9 @@ var tables__temp = function () {
         return;
     }
 
-    __REACT_HOT_LOADER__.register(tables_Tables, 'Tables', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/tables/tables.js');
+    __REACT_HOT_LOADER__.register(tables_Tables, 'Tables', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/tables/tables.js');
 
-    __REACT_HOT_LOADER__.register(tables__default, 'default', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/tables/tables.js');
+    __REACT_HOT_LOADER__.register(tables__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/tables/tables.js');
 }();
 
 ;
@@ -8450,7 +8467,7 @@ var components_tables__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_tables__default, 'default', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/tables/index.js');
+  __REACT_HOT_LOADER__.register(components_tables__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/tables/index.js');
 }();
 
 ;
@@ -9936,99 +9953,144 @@ var forms_Forms = function (_Component) {
                     ),
                     react_default.a.createElement(
                         'div',
-                        { className: 'sm12 md4 form-layout' },
+                        { className: 'sm12 md4 form-layout input-form select-form' },
                         react_default.a.createElement(
                             'div',
                             { className: 'form-group column' },
-                            react_default.a.createElement('input', { className: 'form-control input-text', type: 'text', placeholder: 'Name' })
-                        ),
-                        react_default.a.createElement(
-                            'div',
-                            { className: 'form-group column' },
-                            react_default.a.createElement('input', { className: 'form-control input-text', type: 'text', placeholder: 'mm/dd/yyyy' })
-                        ),
-                        react_default.a.createElement(
-                            'div',
-                            { className: 'form-group md6 sm4 column row padding-right-zero' },
-                            react_default.a.createElement('input', { className: 'form-control input-text', type: 'text', placeholder: 'Zip Code' })
-                        ),
-                        react_default.a.createElement(
-                            'div',
-                            { className: 'select md6 form-layout column' },
                             react_default.a.createElement(
-                                'select',
-                                { className: 'form-control custom-select' },
+                                'div',
+                                { className: 'form-float-label' },
+                                react_default.a.createElement('input', { className: 'form-control input-text', type: 'text', id: 'name', placeholder: 'Name' }),
                                 react_default.a.createElement(
-                                    'option',
-                                    { value: '' },
-                                    'State'
-                                ),
-                                react_default.a.createElement(
-                                    'option',
-                                    { value: '1' },
-                                    '01'
-                                ),
-                                react_default.a.createElement(
-                                    'option',
-                                    { value: '2' },
-                                    '02'
-                                ),
-                                react_default.a.createElement(
-                                    'option',
-                                    { value: '3' },
-                                    '03'
-                                ),
-                                react_default.a.createElement(
-                                    'option',
-                                    { value: '4' },
-                                    '04'
-                                ),
-                                react_default.a.createElement(
-                                    'option',
-                                    { value: '5' },
-                                    '05'
-                                ),
-                                react_default.a.createElement(
-                                    'option',
-                                    { value: '6' },
-                                    '06'
-                                ),
-                                react_default.a.createElement(
-                                    'option',
-                                    { value: '7' },
-                                    '07'
-                                ),
-                                react_default.a.createElement(
-                                    'option',
-                                    { value: '8' },
-                                    '08'
-                                ),
-                                react_default.a.createElement(
-                                    'option',
-                                    { value: '9' },
-                                    '09'
-                                ),
-                                react_default.a.createElement(
-                                    'option',
-                                    { value: '10' },
-                                    '10'
-                                ),
-                                react_default.a.createElement(
-                                    'option',
-                                    { value: '11' },
-                                    '11'
-                                ),
-                                react_default.a.createElement(
-                                    'option',
-                                    { value: '12' },
-                                    '12'
+                                    'label',
+                                    { htmlFor: 'name' },
+                                    'Name'
                                 )
                             )
                         ),
                         react_default.a.createElement(
                             'div',
                             { className: 'form-group column' },
-                            react_default.a.createElement('input', { className: 'form-control input-text', id: 'name', type: 'text', placeholder: 'Phone Number' })
+                            react_default.a.createElement(
+                                'div',
+                                { className: 'form-float-label' },
+                                react_default.a.createElement('input', { className: 'form-control input-text', id: 'date', type: 'text', placeholder: 'mm/dd/yyyy' }),
+                                react_default.a.createElement(
+                                    'label',
+                                    { htmlFor: 'date' },
+                                    'mm/dd/yyyy'
+                                )
+                            )
+                        ),
+                        react_default.a.createElement(
+                            'div',
+                            { className: 'form-group md6 sm4 column row padding-right-zero' },
+                            react_default.a.createElement(
+                                'div',
+                                { className: 'form-float-label' },
+                                react_default.a.createElement('input', { className: 'form-control input-text', id: 'zip', type: 'text', placeholder: 'Zip Code' }),
+                                react_default.a.createElement(
+                                    'label',
+                                    { htmlFor: 'zip' },
+                                    'Zip Code'
+                                )
+                            )
+                        ),
+                        react_default.a.createElement(
+                            'div',
+                            { className: 'select md6 form-layout column' },
+                            react_default.a.createElement(
+                                'div',
+                                { className: 'form-float-label form-select2' },
+                                react_default.a.createElement(
+                                    'select',
+                                    { className: 'form-control custom-select' },
+                                    react_default.a.createElement(
+                                        'option',
+                                        { value: ' ' },
+                                        'Month'
+                                    ),
+                                    react_default.a.createElement(
+                                        'option',
+                                        { value: '1' },
+                                        '01'
+                                    ),
+                                    react_default.a.createElement(
+                                        'option',
+                                        { value: '2' },
+                                        '02'
+                                    ),
+                                    react_default.a.createElement(
+                                        'option',
+                                        { value: '3' },
+                                        '03'
+                                    ),
+                                    react_default.a.createElement(
+                                        'option',
+                                        { value: '4' },
+                                        '04'
+                                    ),
+                                    react_default.a.createElement(
+                                        'option',
+                                        { value: '5' },
+                                        '05'
+                                    ),
+                                    react_default.a.createElement(
+                                        'option',
+                                        { value: '6' },
+                                        '06'
+                                    ),
+                                    react_default.a.createElement(
+                                        'option',
+                                        { value: '7' },
+                                        '07'
+                                    ),
+                                    react_default.a.createElement(
+                                        'option',
+                                        { value: '8' },
+                                        '08'
+                                    ),
+                                    react_default.a.createElement(
+                                        'option',
+                                        { value: '9' },
+                                        '09'
+                                    ),
+                                    react_default.a.createElement(
+                                        'option',
+                                        { value: '10' },
+                                        '10'
+                                    ),
+                                    react_default.a.createElement(
+                                        'option',
+                                        { value: '11' },
+                                        '11'
+                                    ),
+                                    react_default.a.createElement(
+                                        'option',
+                                        { value: '12' },
+                                        '12'
+                                    )
+                                ),
+                                react_default.a.createElement(
+                                    'span',
+                                    { className: 'select-label hide' },
+                                    'Month'
+                                )
+                            )
+                        ),
+                        react_default.a.createElement(
+                            'div',
+                            { className: 'form-group column' },
+                            react_default.a.createElement(
+                                'div',
+                                { className: 'form-float-label' },
+                                react_default.a.createElement('input', { className: 'form-control input-text', id: 'phone-number', type: 'text', placeholder: 'Phone Number' }),
+                                react_default.a.createElement(
+                                    'label',
+                                    { htmlFor: 'phone-number' },
+                                    'Phone Number'
+                                )
+                            )
                         ),
                         react_default.a.createElement(
                             'div',
@@ -10137,9 +10199,9 @@ var forms__temp = function () {
         return;
     }
 
-    __REACT_HOT_LOADER__.register(forms_Forms, 'Forms', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/forms/forms.js');
+    __REACT_HOT_LOADER__.register(forms_Forms, 'Forms', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/forms/forms.js');
 
-    __REACT_HOT_LOADER__.register(forms__default, 'default', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/forms/forms.js');
+    __REACT_HOT_LOADER__.register(forms__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/forms/forms.js');
 }();
 
 ;
@@ -10154,7 +10216,7 @@ var components_forms__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_forms__default, 'default', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/forms/index.js');
+  __REACT_HOT_LOADER__.register(components_forms__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/forms/index.js');
 }();
 
 ;
@@ -10370,7 +10432,7 @@ var star_ratings_ContentLoaders = function (_Component) {
                                         'li',
                                         { className: 'star-ratings' },
                                         react_default.a.createElement(
-                                            'a',
+                                            'span',
                                             { href: 'javascript:void();', className: 'rating-count' },
                                             '47'
                                         )
@@ -10415,7 +10477,7 @@ var star_ratings_ContentLoaders = function (_Component) {
                                         'li',
                                         { className: 'star-ratings' },
                                         react_default.a.createElement(
-                                            'a',
+                                            'span',
                                             { href: 'javascript:void();', className: 'rating-count' },
                                             '47'
                                         )
@@ -10484,9 +10546,9 @@ var star_ratings__temp = function () {
         return;
     }
 
-    __REACT_HOT_LOADER__.register(star_ratings_ContentLoaders, 'ContentLoaders', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/star-ratings/star-ratings.js');
+    __REACT_HOT_LOADER__.register(star_ratings_ContentLoaders, 'ContentLoaders', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/star-ratings/star-ratings.js');
 
-    __REACT_HOT_LOADER__.register(star_ratings__default, 'default', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/star-ratings/star-ratings.js');
+    __REACT_HOT_LOADER__.register(star_ratings__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/star-ratings/star-ratings.js');
 }();
 
 ;
@@ -10501,7 +10563,7 @@ var components_star_ratings__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_star_ratings__default, 'default', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/star-ratings/index.js');
+  __REACT_HOT_LOADER__.register(components_star_ratings__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/star-ratings/index.js');
 }();
 
 ;
@@ -10663,9 +10725,9 @@ var scrollbar__temp = function () {
         return;
     }
 
-    __REACT_HOT_LOADER__.register(scrollbar_Scrollbar, 'Scrollbar', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/scrollbar/scrollbar.js');
+    __REACT_HOT_LOADER__.register(scrollbar_Scrollbar, 'Scrollbar', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/scrollbar/scrollbar.js');
 
-    __REACT_HOT_LOADER__.register(scrollbar__default, 'default', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/scrollbar/scrollbar.js');
+    __REACT_HOT_LOADER__.register(scrollbar__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/scrollbar/scrollbar.js');
 }();
 
 ;
@@ -10680,7 +10742,7 @@ var components_scrollbar__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_scrollbar__default, 'default', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/scrollbar/index.js');
+  __REACT_HOT_LOADER__.register(components_scrollbar__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/scrollbar/index.js');
 }();
 
 ;
@@ -10836,9 +10898,9 @@ var wells__temp = function () {
         return;
     }
 
-    __REACT_HOT_LOADER__.register(wells_Wells, 'Wells', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/wells/wells.js');
+    __REACT_HOT_LOADER__.register(wells_Wells, 'Wells', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/wells/wells.js');
 
-    __REACT_HOT_LOADER__.register(wells__default, 'default', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/wells/wells.js');
+    __REACT_HOT_LOADER__.register(wells__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/wells/wells.js');
 }();
 
 ;
@@ -10853,7 +10915,7 @@ var components_wells__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_wells__default, 'default', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/wells/index.js');
+  __REACT_HOT_LOADER__.register(components_wells__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/wells/index.js');
 }();
 
 ;
@@ -11033,9 +11095,9 @@ var progressbar__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(progressbar_ProgressBar, "ProgressBar", "/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/progressbar/progressbar.js");
+  __REACT_HOT_LOADER__.register(progressbar_ProgressBar, "ProgressBar", "/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/progressbar/progressbar.js");
 
-  __REACT_HOT_LOADER__.register(progressbar__default, "default", "/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/progressbar/progressbar.js");
+  __REACT_HOT_LOADER__.register(progressbar__default, "default", "/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/progressbar/progressbar.js");
 }();
 
 ;
@@ -11050,7 +11112,7 @@ var components_progressbar__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_progressbar__default, 'default', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/progressbar/index.js');
+  __REACT_HOT_LOADER__.register(components_progressbar__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/progressbar/index.js');
 }();
 
 ;
@@ -13862,9 +13924,9 @@ var pricing__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(pricing_Scrollbar, "Scrollbar", "/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/pricing/pricing.js");
+  __REACT_HOT_LOADER__.register(pricing_Scrollbar, "Scrollbar", "/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/pricing/pricing.js");
 
-  __REACT_HOT_LOADER__.register(pricing__default, "default", "/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/pricing/pricing.js");
+  __REACT_HOT_LOADER__.register(pricing__default, "default", "/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/pricing/pricing.js");
 }();
 
 ;
@@ -13879,7 +13941,7 @@ var components_pricing__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_pricing__default, 'default', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/pricing/index.js');
+  __REACT_HOT_LOADER__.register(components_pricing__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/pricing/index.js');
 }();
 
 ;
@@ -14165,9 +14227,9 @@ var visual_navigation__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(visual_navigation_VisualNavigation, "VisualNavigation", "/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/visual-navigation/visual-navigation.js");
+  __REACT_HOT_LOADER__.register(visual_navigation_VisualNavigation, "VisualNavigation", "/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/visual-navigation/visual-navigation.js");
 
-  __REACT_HOT_LOADER__.register(visual_navigation__default, "default", "/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/visual-navigation/visual-navigation.js");
+  __REACT_HOT_LOADER__.register(visual_navigation__default, "default", "/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/visual-navigation/visual-navigation.js");
 }();
 
 ;
@@ -14182,7 +14244,7 @@ var components_visual_navigation__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_visual_navigation__default, 'default', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/visual-navigation/index.js');
+  __REACT_HOT_LOADER__.register(components_visual_navigation__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/visual-navigation/index.js');
 }();
 
 ;
@@ -14572,9 +14634,9 @@ var modal__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(modal_Modal, 'Modal', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/modal/modal.js');
+  __REACT_HOT_LOADER__.register(modal_Modal, 'Modal', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/modal/modal.js');
 
-  __REACT_HOT_LOADER__.register(modal__default, 'default', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/modal/modal.js');
+  __REACT_HOT_LOADER__.register(modal__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/modal/modal.js');
 }();
 
 ;
@@ -14589,7 +14651,7 @@ var components_modal__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_modal__default, 'default', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/modal/index.js');
+  __REACT_HOT_LOADER__.register(components_modal__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/modal/index.js');
 }();
 
 ;
@@ -15075,9 +15137,9 @@ var countdown_timers__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(countdown_timers_CountdownTimers, 'CountdownTimers', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/countdown-timers/countdown-timers.js');
+  __REACT_HOT_LOADER__.register(countdown_timers_CountdownTimers, 'CountdownTimers', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/countdown-timers/countdown-timers.js');
 
-  __REACT_HOT_LOADER__.register(countdown_timers__default, 'default', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/countdown-timers/countdown-timers.js');
+  __REACT_HOT_LOADER__.register(countdown_timers__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/countdown-timers/countdown-timers.js');
 }();
 
 ;
@@ -15092,7 +15154,7 @@ var components_countdown_timers__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_countdown_timers__default, 'default', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/countdown-timers/index.js');
+  __REACT_HOT_LOADER__.register(components_countdown_timers__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/countdown-timers/index.js');
 }();
 
 ;
@@ -15491,9 +15553,9 @@ var tooltips__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(tooltips_Tooltips, 'Tooltips', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/tooltips/tooltips.js');
+  __REACT_HOT_LOADER__.register(tooltips_Tooltips, 'Tooltips', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/tooltips/tooltips.js');
 
-  __REACT_HOT_LOADER__.register(tooltips__default, 'default', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/tooltips/tooltips.js');
+  __REACT_HOT_LOADER__.register(tooltips__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/tooltips/tooltips.js');
 }();
 
 ;
@@ -15508,7 +15570,7 @@ var components_tooltips__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_tooltips__default, 'default', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/tooltips/index.js');
+  __REACT_HOT_LOADER__.register(components_tooltips__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/tooltips/index.js');
 }();
 
 ;
@@ -15616,9 +15678,9 @@ var tabs__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(tabs_Tabs, "Tabs", "/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/tabs/tabs.js");
+  __REACT_HOT_LOADER__.register(tabs_Tabs, "Tabs", "/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/tabs/tabs.js");
 
-  __REACT_HOT_LOADER__.register(tabs__default, "default", "/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/tabs/tabs.js");
+  __REACT_HOT_LOADER__.register(tabs__default, "default", "/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/tabs/tabs.js");
 }();
 
 ;
@@ -15633,7 +15695,7 @@ var components_tabs__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_tabs__default, 'default', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/tabs/index.js');
+  __REACT_HOT_LOADER__.register(components_tabs__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/tabs/index.js');
 }();
 
 ;
@@ -15650,6 +15712,7 @@ function pagination__inherits(subClass, superClass) { if (typeof superClass !== 
 
 var BackToTopImage = __webpack_require__("om3C");
 var pagination_chevronleftImage = __webpack_require__("WBOg");
+var pagination_chevronrightImage = __webpack_require__("aNhq");
 
 var pagination_Pagination = function (_Component) {
   pagination__inherits(Pagination, _Component);
@@ -15691,7 +15754,11 @@ var pagination_Pagination = function (_Component) {
               react_default.a.createElement(
                 'ul',
                 null,
-                react_default.a.createElement('li', { 'class': 'pagination-prev hidden', 'aria-label': 'Prev' }),
+                react_default.a.createElement(
+                  'li',
+                  { 'class': 'pagination hidden', 'aria-label': 'Prev' },
+                  react_default.a.createElement('span', { className: 'icon color-shadow-svg', dangerouslySetInnerHTML: { __html: pagination_chevronleftImage } })
+                ),
                 react_default.a.createElement(
                   'li',
                   { className: 'pagination-lbl pagination-active' },
@@ -15722,7 +15789,11 @@ var pagination_Pagination = function (_Component) {
                   { 'class': 'pagination-lbl' },
                   '99'
                 ),
-                react_default.a.createElement('li', { 'class': 'pagination-next', 'aria-label': 'Next' })
+                react_default.a.createElement(
+                  'li',
+                  { 'class': 'pagination', 'aria-label': 'Next' },
+                  react_default.a.createElement('span', { className: 'icon color-shadow-svg', dangerouslySetInnerHTML: { __html: pagination_chevronrightImage } })
+                )
               )
             ),
             react_default.a.createElement(
@@ -15736,7 +15807,11 @@ var pagination_Pagination = function (_Component) {
               react_default.a.createElement(
                 'ul',
                 null,
-                react_default.a.createElement('li', { 'class': 'pagination-prev hidden', 'aria-label': 'Prev' }),
+                react_default.a.createElement(
+                  'li',
+                  { 'class': 'pagination hidden', 'aria-label': 'Prev' },
+                  react_default.a.createElement('span', { className: 'icon color-shadow-svg', dangerouslySetInnerHTML: { __html: pagination_chevronleftImage } })
+                ),
                 react_default.a.createElement(
                   'li',
                   { className: 'pagination-lbl pagination-active' },
@@ -15767,7 +15842,11 @@ var pagination_Pagination = function (_Component) {
                   { 'class': 'pagination-lbl' },
                   '99'
                 ),
-                react_default.a.createElement('li', { 'class': 'pagination-next', 'aria-label': 'Next' })
+                react_default.a.createElement(
+                  'li',
+                  { 'class': 'pagination', 'aria-label': 'Next' },
+                  react_default.a.createElement('span', { className: 'icon color-shadow-svg', dangerouslySetInnerHTML: { __html: pagination_chevronrightImage } })
+                )
               )
             ),
             react_default.a.createElement(
@@ -15781,7 +15860,11 @@ var pagination_Pagination = function (_Component) {
               react_default.a.createElement(
                 'ul',
                 null,
-                react_default.a.createElement('li', { 'class': 'pagination-prev', 'aria-label': 'Prev' }),
+                react_default.a.createElement(
+                  'li',
+                  { 'class': 'pagination', 'aria-label': 'Prev' },
+                  react_default.a.createElement('span', { className: 'icon color-shadow-svg', dangerouslySetInnerHTML: { __html: pagination_chevronleftImage } })
+                ),
                 react_default.a.createElement(
                   'li',
                   { className: 'pagination-lbl' },
@@ -15812,7 +15895,11 @@ var pagination_Pagination = function (_Component) {
                   { 'class': 'pagination-lbl' },
                   '99'
                 ),
-                react_default.a.createElement('li', { 'class': 'pagination-next', 'aria-label': 'Next' })
+                react_default.a.createElement(
+                  'li',
+                  { 'class': 'pagination', 'aria-label': 'Next' },
+                  react_default.a.createElement('span', { className: 'icon color-shadow-svg', dangerouslySetInnerHTML: { __html: pagination_chevronrightImage } })
+                )
               )
             ),
             react_default.a.createElement(
@@ -15826,7 +15913,11 @@ var pagination_Pagination = function (_Component) {
               react_default.a.createElement(
                 'ul',
                 null,
-                react_default.a.createElement('li', { 'class': 'pagination-prev', 'aria-label': 'Prev' }),
+                react_default.a.createElement(
+                  'li',
+                  { 'class': 'pagination', 'aria-label': 'Prev' },
+                  react_default.a.createElement('span', { className: 'icon color-shadow-svg', dangerouslySetInnerHTML: { __html: pagination_chevronleftImage } })
+                ),
                 react_default.a.createElement(
                   'li',
                   { className: 'pagination-lbl' },
@@ -15857,7 +15948,11 @@ var pagination_Pagination = function (_Component) {
                   { 'class': 'pagination-lbl' },
                   '99'
                 ),
-                react_default.a.createElement('li', { 'class': 'pagination-next', 'aria-label': 'Next' })
+                react_default.a.createElement(
+                  'li',
+                  { 'class': 'pagination', 'aria-label': 'Next' },
+                  react_default.a.createElement('span', { className: 'icon color-shadow-svg', dangerouslySetInnerHTML: { __html: pagination_chevronrightImage } })
+                )
               )
             )
           ),
@@ -15951,9 +16046,9 @@ var pagination__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(pagination_Pagination, 'Pagination', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/pagination/pagination.js');
+  __REACT_HOT_LOADER__.register(pagination_Pagination, 'Pagination', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/pagination/pagination.js');
 
-  __REACT_HOT_LOADER__.register(pagination__default, 'default', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/pagination/pagination.js');
+  __REACT_HOT_LOADER__.register(pagination__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/pagination/pagination.js');
 }();
 
 ;
@@ -15968,7 +16063,7 @@ var components_pagination__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_pagination__default, 'default', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/pagination/index.js');
+  __REACT_HOT_LOADER__.register(components_pagination__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/pagination/index.js');
 }();
 
 ;
@@ -16492,9 +16587,9 @@ var swatches__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(swatches_Swatches, 'Swatches', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/swatches/swatches.js');
+  __REACT_HOT_LOADER__.register(swatches_Swatches, 'Swatches', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/swatches/swatches.js');
 
-  __REACT_HOT_LOADER__.register(swatches__default, 'default', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/swatches/swatches.js');
+  __REACT_HOT_LOADER__.register(swatches__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/swatches/swatches.js');
 }();
 
 ;
@@ -16509,7 +16604,7 @@ var components_swatches__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_swatches__default, 'default', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/swatches/index.js');
+  __REACT_HOT_LOADER__.register(components_swatches__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/swatches/index.js');
 }();
 
 ;
@@ -16989,9 +17084,9 @@ var selectors__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(selectors_Selectors, 'Selectors', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/selectors/selectors.js');
+  __REACT_HOT_LOADER__.register(selectors_Selectors, 'Selectors', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/selectors/selectors.js');
 
-  __REACT_HOT_LOADER__.register(selectors__default, 'default', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/selectors/selectors.js');
+  __REACT_HOT_LOADER__.register(selectors__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/selectors/selectors.js');
 }();
 
 ;
@@ -17006,7 +17101,7 @@ var components_selectors__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_selectors__default, 'default', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/selectors/index.js');
+  __REACT_HOT_LOADER__.register(components_selectors__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/selectors/index.js');
 }();
 
 ;
@@ -17487,21 +17582,21 @@ var carousel__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(carousel_CarouselLeftButton, "CarouselLeftButton", "/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/carousel/carousel.js");
+  __REACT_HOT_LOADER__.register(carousel_CarouselLeftButton, "CarouselLeftButton", "/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/carousel/carousel.js");
 
-  __REACT_HOT_LOADER__.register(carousel_CarouselRightButton, "CarouselRightButton", "/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/carousel/carousel.js");
+  __REACT_HOT_LOADER__.register(carousel_CarouselRightButton, "CarouselRightButton", "/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/carousel/carousel.js");
 
-  __REACT_HOT_LOADER__.register(carousel_CarouselUpButton, "CarouselUpButton", "/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/carousel/carousel.js");
+  __REACT_HOT_LOADER__.register(carousel_CarouselUpButton, "CarouselUpButton", "/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/carousel/carousel.js");
 
-  __REACT_HOT_LOADER__.register(carousel_CarouselDownButton, "CarouselDownButton", "/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/carousel/carousel.js");
+  __REACT_HOT_LOADER__.register(carousel_CarouselDownButton, "CarouselDownButton", "/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/carousel/carousel.js");
 
-  __REACT_HOT_LOADER__.register(carousel_CarouselImage, "CarouselImage", "/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/carousel/carousel.js");
+  __REACT_HOT_LOADER__.register(carousel_CarouselImage, "CarouselImage", "/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/carousel/carousel.js");
 
-  __REACT_HOT_LOADER__.register(carousel_CarouselNavImage, "CarouselNavImage", "/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/carousel/carousel.js");
+  __REACT_HOT_LOADER__.register(carousel_CarouselNavImage, "CarouselNavImage", "/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/carousel/carousel.js");
 
-  __REACT_HOT_LOADER__.register(carousel_Carousel, "Carousel", "/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/carousel/carousel.js");
+  __REACT_HOT_LOADER__.register(carousel_Carousel, "Carousel", "/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/carousel/carousel.js");
 
-  __REACT_HOT_LOADER__.register(carousel__default, "default", "/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/carousel/carousel.js");
+  __REACT_HOT_LOADER__.register(carousel__default, "default", "/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/carousel/carousel.js");
 }();
 
 ;
@@ -17516,7 +17611,7 @@ var components_carousel__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_carousel__default, 'default', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/carousel/index.js');
+  __REACT_HOT_LOADER__.register(components_carousel__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/carousel/index.js');
 }();
 
 ;
@@ -18280,9 +18375,9 @@ var coupons__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(coupons_Coupons, 'Coupons', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/coupons/coupons.js');
+  __REACT_HOT_LOADER__.register(coupons_Coupons, 'Coupons', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/coupons/coupons.js');
 
-  __REACT_HOT_LOADER__.register(coupons__default, 'default', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/coupons/coupons.js');
+  __REACT_HOT_LOADER__.register(coupons__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/coupons/coupons.js');
 }();
 
 ;
@@ -18297,7 +18392,7 @@ var components_coupons__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_coupons__default, 'default', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/coupons/index.js');
+  __REACT_HOT_LOADER__.register(components_coupons__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/coupons/index.js');
 }();
 
 ;
@@ -18643,9 +18738,9 @@ var lists__temp = function () {
         return;
     }
 
-    __REACT_HOT_LOADER__.register(lists_Lists, 'Lists', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/lists/lists.js');
+    __REACT_HOT_LOADER__.register(lists_Lists, 'Lists', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/lists/lists.js');
 
-    __REACT_HOT_LOADER__.register(lists__default, 'default', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/lists/lists.js');
+    __REACT_HOT_LOADER__.register(lists__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/lists/lists.js');
 }();
 
 ;
@@ -18660,7 +18755,7 @@ var components_lists__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_lists__default, 'default', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/lists/index.js');
+  __REACT_HOT_LOADER__.register(components_lists__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/lists/index.js');
 }();
 
 ;
@@ -18684,6 +18779,7 @@ var header_cartFullImage = __webpack_require__("VlqD");
 var header_accountImage = __webpack_require__("8ysx");
 var header_arrowleftImage = __webpack_require__("FAZD");
 var header_targetImage = __webpack_require__("ZO6q");
+var jcprewardImage = __webpack_require__("AzU2");
 
 var header_Header = function (_Component) {
   header__inherits(Header, _Component);
@@ -19710,13 +19806,11 @@ var header_Header = function (_Component) {
               react_default.a.createElement(
                 'li',
                 { className: 'main-menu-primary-item main-menu-primary-rewards hide-for-small-only' },
-                ' ',
                 react_default.a.createElement(
                   'a',
                   { href: 'javascript:void(0);' },
-                  react_default.a.createElement('img', { src: '/images/global/jcpenney-rewards.png', alt: 'JCPenney Rewards' })
-                ),
-                ' '
+                  react_default.a.createElement('span', { className: 'icon color-white-svg', dangerouslySetInnerHTML: { __html: jcprewardImage } })
+                )
               ),
               react_default.a.createElement(
                 'li',
@@ -20418,9 +20512,9 @@ var header__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(header_Header, 'Header', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/header/header.js');
+  __REACT_HOT_LOADER__.register(header_Header, 'Header', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/header/header.js');
 
-  __REACT_HOT_LOADER__.register(header__default, 'default', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/header/header.js');
+  __REACT_HOT_LOADER__.register(header__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/header/header.js');
 }();
 
 ;
@@ -20435,7 +20529,7 @@ var components_header__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_header__default, 'default', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/header/index.js');
+  __REACT_HOT_LOADER__.register(components_header__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/header/index.js');
 }();
 
 ;
@@ -21335,9 +21429,9 @@ var footer__temp = function () {
         return;
     }
 
-    __REACT_HOT_LOADER__.register(footer_Footer, 'Footer', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/footer/footer.js');
+    __REACT_HOT_LOADER__.register(footer_Footer, 'Footer', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/footer/footer.js');
 
-    __REACT_HOT_LOADER__.register(footer__default, 'default', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/footer/footer.js');
+    __REACT_HOT_LOADER__.register(footer__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/footer/footer.js');
 }();
 
 ;
@@ -21352,7 +21446,7 @@ var components_footer__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_footer__default, 'default', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/footer/index.js');
+  __REACT_HOT_LOADER__.register(components_footer__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/footer/index.js');
 }();
 
 ;
@@ -21493,9 +21587,9 @@ var footer_minimized__temp = function () {
         return;
     }
 
-    __REACT_HOT_LOADER__.register(footer_minimized_FooterMinimized, 'FooterMinimized', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/footer-minimized/footer-minimized.js');
+    __REACT_HOT_LOADER__.register(footer_minimized_FooterMinimized, 'FooterMinimized', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/footer-minimized/footer-minimized.js');
 
-    __REACT_HOT_LOADER__.register(footer_minimized__default, 'default', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/footer-minimized/footer-minimized.js');
+    __REACT_HOT_LOADER__.register(footer_minimized__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/footer-minimized/footer-minimized.js');
 }();
 
 ;
@@ -21510,7 +21604,7 @@ var components_footer_minimized__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_footer_minimized__default, 'default', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/footer-minimized/index.js');
+  __REACT_HOT_LOADER__.register(components_footer_minimized__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/footer-minimized/index.js');
 }();
 
 ;
@@ -21711,9 +21805,9 @@ var slide_out_panels__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(slide_out_panels_SlideOutPanels, 'SlideOutPanels', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/slide-out-panels/slide-out-panels.js');
+  __REACT_HOT_LOADER__.register(slide_out_panels_SlideOutPanels, 'SlideOutPanels', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/slide-out-panels/slide-out-panels.js');
 
-  __REACT_HOT_LOADER__.register(slide_out_panels__default, 'default', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/slide-out-panels/slide-out-panels.js');
+  __REACT_HOT_LOADER__.register(slide_out_panels__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/slide-out-panels/slide-out-panels.js');
 }();
 
 ;
@@ -21728,7 +21822,7 @@ var components_slide_out_panels__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_slide_out_panels__default, 'default', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/slide-out-panels/index.js');
+  __REACT_HOT_LOADER__.register(components_slide_out_panels__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/slide-out-panels/index.js');
 }();
 
 ;
@@ -23854,9 +23948,9 @@ var filter_sort__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(filter_sort_FilterSort, 'FilterSort', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/filter-sort/filter-sort.js');
+  __REACT_HOT_LOADER__.register(filter_sort_FilterSort, 'FilterSort', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/filter-sort/filter-sort.js');
 
-  __REACT_HOT_LOADER__.register(filter_sort__default, 'default', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/filter-sort/filter-sort.js');
+  __REACT_HOT_LOADER__.register(filter_sort__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/filter-sort/filter-sort.js');
 }();
 
 ;
@@ -23871,7 +23965,7 @@ var components_filter_sort__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_filter_sort__default, 'default', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/filter-sort/index.js');
+  __REACT_HOT_LOADER__.register(components_filter_sort__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/filter-sort/index.js');
 }();
 
 ;
@@ -23983,10 +24077,10 @@ var expand_collapse_ExpandCollapse = function (_Component) {
                   null,
                   react_default.a.createElement(
                     'dt',
-                    { 'class': 'js-accordionTrigger' },
+                    { 'class': 'js-accordionTrigger', 'aria-expanded': 'false', 'aria-controls': 'accordion1' },
                     react_default.a.createElement(
                       'a',
-                      { href: '#accordion1', 'aria-expanded': 'false', 'aria-controls': 'accordion1', 'class': 'accordion-title accordionTitle title title-M' },
+                      { href: '#accordion1', 'class': 'accordion-title accordionTitle title title-M' },
                       'Product Specifications'
                     )
                   ),
@@ -24063,10 +24157,10 @@ var expand_collapse_ExpandCollapse = function (_Component) {
                   ),
                   react_default.a.createElement(
                     'dt',
-                    { 'class': 'js-accordionTrigger' },
+                    { 'class': 'js-accordionTrigger', 'aria-expanded': 'false', 'aria-controls': 'accordion1' },
                     react_default.a.createElement(
                       'a',
-                      { href: '#accordion1', 'aria-expanded': 'false', 'aria-controls': 'accordion1', 'class': 'accordion-title accordionTitle title title-M' },
+                      { href: '#accordion1', 'class': 'accordion-title accordionTitle title title-M' },
                       'Helpful Guides'
                     )
                   ),
@@ -24143,10 +24237,10 @@ var expand_collapse_ExpandCollapse = function (_Component) {
                   ),
                   react_default.a.createElement(
                     'dt',
-                    { 'class': 'js-accordionTrigger' },
+                    { href: '#accordion1', 'aria-expanded': 'false', 'class': 'js-accordionTrigger', 'aria-controls': 'accordion1' },
                     react_default.a.createElement(
                       'a',
-                      { href: '#accordion1', 'aria-expanded': 'false', 'aria-controls': 'accordion1', 'class': 'accordion-title accordionTitle title title-M' },
+                      { 'class': 'accordion-title accordionTitle title title-M' },
                       'Reviews',
                       react_default.a.createElement(
                         'div',
@@ -24229,10 +24323,10 @@ var expand_collapse_ExpandCollapse = function (_Component) {
                   ),
                   react_default.a.createElement(
                     'dt',
-                    { 'class': 'js-accordionTrigger' },
+                    { href: '#accordion1', 'aria-expanded': 'false', 'class': 'js-accordionTrigger', 'aria-controls': 'accordion1' },
                     react_default.a.createElement(
                       'a',
-                      { href: '#accordion1', 'aria-expanded': 'false', 'aria-controls': 'accordion1', 'class': 'accordion-title accordionTitle title title-M' },
+                      { 'class': 'accordion-title accordionTitle title title-M' },
                       'Questions & Answers'
                     )
                   ),
@@ -24309,10 +24403,10 @@ var expand_collapse_ExpandCollapse = function (_Component) {
                   ),
                   react_default.a.createElement(
                     'dt',
-                    { 'class': 'js-accordionTrigger' },
+                    { href: '#accordion1', 'aria-expanded': 'false', 'class': 'js-accordionTrigger', 'aria-controls': 'accordion1' },
                     react_default.a.createElement(
                       'a',
-                      { href: '#accordion1', 'aria-expanded': 'false', 'aria-controls': 'accordion1', 'class': 'accordion-title accordionTitle title title-M' },
+                      { 'class': 'accordion-title accordionTitle title title-M' },
                       'Shipping & Returns'
                     )
                   ),
@@ -24410,9 +24504,9 @@ var expand_collapse__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(expand_collapse_ExpandCollapse, 'ExpandCollapse', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/expand-collapse/expand-collapse.js');
+  __REACT_HOT_LOADER__.register(expand_collapse_ExpandCollapse, 'ExpandCollapse', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/expand-collapse/expand-collapse.js');
 
-  __REACT_HOT_LOADER__.register(expand_collapse__default, 'default', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/expand-collapse/expand-collapse.js');
+  __REACT_HOT_LOADER__.register(expand_collapse__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/expand-collapse/expand-collapse.js');
 }();
 
 ;
@@ -24427,7 +24521,7 @@ var components_expand_collapse__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_expand_collapse__default, 'default', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/expand-collapse/index.js');
+  __REACT_HOT_LOADER__.register(components_expand_collapse__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/expand-collapse/index.js');
 }();
 
 ;
@@ -26115,9 +26209,9 @@ var product_cards__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(product_cards_ProductCards, 'ProductCards', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/product-cards/product-cards.js');
+  __REACT_HOT_LOADER__.register(product_cards_ProductCards, 'ProductCards', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/product-cards/product-cards.js');
 
-  __REACT_HOT_LOADER__.register(product_cards__default, 'default', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/product-cards/product-cards.js');
+  __REACT_HOT_LOADER__.register(product_cards__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/product-cards/product-cards.js');
 }();
 
 ;
@@ -26132,7 +26226,7 @@ var components_product_cards__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_product_cards__default, 'default', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/product-cards/index.js');
+  __REACT_HOT_LOADER__.register(components_product_cards__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/product-cards/index.js');
 }();
 
 ;
@@ -26277,9 +26371,9 @@ var like_dislike__temp = function () {
         return;
     }
 
-    __REACT_HOT_LOADER__.register(like_dislike_LikeDislike, 'LikeDislike', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/like-dislike/like-dislike.js');
+    __REACT_HOT_LOADER__.register(like_dislike_LikeDislike, 'LikeDislike', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/like-dislike/like-dislike.js');
 
-    __REACT_HOT_LOADER__.register(like_dislike__default, 'default', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/like-dislike/like-dislike.js');
+    __REACT_HOT_LOADER__.register(like_dislike__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/like-dislike/like-dislike.js');
 }();
 
 ;
@@ -26294,7 +26388,7 @@ var components_like_dislike__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_like_dislike__default, 'default', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/like-dislike/index.js');
+  __REACT_HOT_LOADER__.register(components_like_dislike__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/like-dislike/index.js');
 }();
 
 ;
@@ -26964,21 +27058,21 @@ var recommendation_zone__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(add, 'add', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/recommendation-zone/recommendation-zone.js');
+  __REACT_HOT_LOADER__.register(add, 'add', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/recommendation-zone/recommendation-zone.js');
 
-  __REACT_HOT_LOADER__.register(subtract, 'subtract', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/recommendation-zone/recommendation-zone.js');
+  __REACT_HOT_LOADER__.register(subtract, 'subtract', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/recommendation-zone/recommendation-zone.js');
 
-  __REACT_HOT_LOADER__.register(dotsToDisplay, 'dotsToDisplay', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/recommendation-zone/recommendation-zone.js');
+  __REACT_HOT_LOADER__.register(dotsToDisplay, 'dotsToDisplay', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/recommendation-zone/recommendation-zone.js');
 
-  __REACT_HOT_LOADER__.register(isSameStateFirstTime, 'isSameStateFirstTime', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/recommendation-zone/recommendation-zone.js');
+  __REACT_HOT_LOADER__.register(isSameStateFirstTime, 'isSameStateFirstTime', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/recommendation-zone/recommendation-zone.js');
 
-  __REACT_HOT_LOADER__.register(isMobile, 'isMobile', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/recommendation-zone/recommendation-zone.js');
+  __REACT_HOT_LOADER__.register(isMobile, 'isMobile', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/recommendation-zone/recommendation-zone.js');
 
-  __REACT_HOT_LOADER__.register(calculateScrollPixel, 'calculateScrollPixel', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/recommendation-zone/recommendation-zone.js');
+  __REACT_HOT_LOADER__.register(calculateScrollPixel, 'calculateScrollPixel', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/recommendation-zone/recommendation-zone.js');
 
-  __REACT_HOT_LOADER__.register(recommendation_zone_RecommendationZone, 'RecommendationZone', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/recommendation-zone/recommendation-zone.js');
+  __REACT_HOT_LOADER__.register(recommendation_zone_RecommendationZone, 'RecommendationZone', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/recommendation-zone/recommendation-zone.js');
 
-  __REACT_HOT_LOADER__.register(recommendation_zone__default, 'default', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/recommendation-zone/recommendation-zone.js');
+  __REACT_HOT_LOADER__.register(recommendation_zone__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/recommendation-zone/recommendation-zone.js');
 }();
 
 ;
@@ -26993,7 +27087,7 @@ var components_recommendation_zone__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_recommendation_zone__default, 'default', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/recommendation-zone/index.js');
+  __REACT_HOT_LOADER__.register(components_recommendation_zone__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/recommendation-zone/index.js');
 }();
 
 ;
@@ -27633,9 +27727,9 @@ var pdp__temp = function () {
         return;
     }
 
-    __REACT_HOT_LOADER__.register(pdp_Pdp, 'Pdp', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/pdp/pdp.js');
+    __REACT_HOT_LOADER__.register(pdp_Pdp, 'Pdp', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/pdp/pdp.js');
 
-    __REACT_HOT_LOADER__.register(pdp__default, 'default', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/pdp/pdp.js');
+    __REACT_HOT_LOADER__.register(pdp__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/pdp/pdp.js');
 }();
 
 ;
@@ -27650,7 +27744,7 @@ var components_pdp__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_pdp__default, 'default', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/pdp/index.js');
+  __REACT_HOT_LOADER__.register(components_pdp__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/pdp/index.js');
 }();
 
 ;
@@ -27805,11 +27899,11 @@ var SubNav__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(varToURL, 'varToURL', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/containers/SubNav.js');
+  __REACT_HOT_LOADER__.register(varToURL, 'varToURL', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/containers/SubNav.js');
 
-  __REACT_HOT_LOADER__.register(SubNav_SubNav, 'SubNav', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/containers/SubNav.js');
+  __REACT_HOT_LOADER__.register(SubNav_SubNav, 'SubNav', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/containers/SubNav.js');
 
-  __REACT_HOT_LOADER__.register(SubNav__default, 'default', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/containers/SubNav.js');
+  __REACT_HOT_LOADER__.register(SubNav__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/containers/SubNav.js');
 }();
 
 ;
@@ -27953,9 +28047,9 @@ var DesignSystemPage__temp = function () {
         return;
     }
 
-    __REACT_HOT_LOADER__.register(DesignSystemPage_DesignSystemPage, 'DesignSystemPage', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/containers/DesignSystemPage.js');
+    __REACT_HOT_LOADER__.register(DesignSystemPage_DesignSystemPage, 'DesignSystemPage', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/containers/DesignSystemPage.js');
 
-    __REACT_HOT_LOADER__.register(DesignSystemPage__default, 'default', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/containers/DesignSystemPage.js');
+    __REACT_HOT_LOADER__.register(DesignSystemPage__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/containers/DesignSystemPage.js');
 }();
 
 ;
@@ -31974,9 +32068,9 @@ var work_in_progress__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(work_in_progress_WorkInProgress, 'WorkInProgress', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/work-in-progress/work-in-progress.js');
+  __REACT_HOT_LOADER__.register(work_in_progress_WorkInProgress, 'WorkInProgress', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/work-in-progress/work-in-progress.js');
 
-  __REACT_HOT_LOADER__.register(work_in_progress__default, 'default', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/work-in-progress/work-in-progress.js');
+  __REACT_HOT_LOADER__.register(work_in_progress__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/work-in-progress/work-in-progress.js');
 }();
 
 ;
@@ -31991,7 +32085,7 @@ var components_work_in_progress__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(components_work_in_progress__default, 'default', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/components/work-in-progress/index.js');
+  __REACT_HOT_LOADER__.register(components_work_in_progress__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/work-in-progress/index.js');
 }();
 
 ;
@@ -32403,15 +32497,15 @@ var Root__temp = function () {
         return;
     }
 
-    __REACT_HOT_LOADER__.register(Root_Home, 'Home', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/containers/Root.js');
+    __REACT_HOT_LOADER__.register(Root_Home, 'Home', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/containers/Root.js');
 
-    __REACT_HOT_LOADER__.register(Root_renderNavLinkItems, 'renderNavLinkItems', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/containers/Root.js');
+    __REACT_HOT_LOADER__.register(Root_renderNavLinkItems, 'renderNavLinkItems', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/containers/Root.js');
 
-    __REACT_HOT_LOADER__.register(Root_RenderNavLink, 'RenderNavLink', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/containers/Root.js');
+    __REACT_HOT_LOADER__.register(Root_RenderNavLink, 'RenderNavLink', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/containers/Root.js');
 
-    __REACT_HOT_LOADER__.register(Root_App, 'App', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/containers/Root.js');
+    __REACT_HOT_LOADER__.register(Root_App, 'App', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/containers/Root.js');
 
-    __REACT_HOT_LOADER__.register(Root__default, 'default', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/containers/Root.js');
+    __REACT_HOT_LOADER__.register(Root__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/containers/Root.js');
 }();
 
 ;
@@ -32447,7 +32541,7 @@ var js__temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(js_render, 'render', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/index.jsx');
+  __REACT_HOT_LOADER__.register(js_render, 'render', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/index.jsx');
 }();
 
 ;
@@ -32683,9 +32777,9 @@ var _temp = function () {
         return;
     }
 
-    __REACT_HOT_LOADER__.register(Utils, 'Utils', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/helpers/Utils.js');
+    __REACT_HOT_LOADER__.register(Utils, 'Utils', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/helpers/Utils.js');
 
-    __REACT_HOT_LOADER__.register(_default, 'default', '/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/helpers/Utils.js');
+    __REACT_HOT_LOADER__.register(_default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/helpers/Utils.js');
 }();
 
 ;
@@ -33003,9 +33097,9 @@ var _temp = function () {
         return;
     }
 
-    __REACT_HOT_LOADER__.register(CreateInput, "CreateInput", "/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/containers/CreateInput.js");
+    __REACT_HOT_LOADER__.register(CreateInput, "CreateInput", "/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/containers/CreateInput.js");
 
-    __REACT_HOT_LOADER__.register(_default, "default", "/Users/guest/Desktop/Lincoln Design System/lincolnjcp.github.io/src/js/containers/CreateInput.js");
+    __REACT_HOT_LOADER__.register(_default, "default", "/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/containers/CreateInput.js");
 }();
 
 ;

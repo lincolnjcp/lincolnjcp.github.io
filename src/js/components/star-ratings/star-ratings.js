@@ -127,7 +127,7 @@ class ContentLoaders extends Component {
                                         <span className="icon color-concrete-svg" dangerouslySetInnerHTML={{ __html: starImage }} />
                                     </li>
                                     <li className="star-ratings">
-                                        <a href="javascript:void();" className="rating-count">47</a>
+                                        <span href="javascript:void();" className="rating-count">47</span>
                                     </li>
                                 </ul><br /><br />
                                 <p className="XS">Example of Rec Zone Product </p>
@@ -148,7 +148,7 @@ class ContentLoaders extends Component {
                                         <span className="icon color-concrete-svg" dangerouslySetInnerHTML={{ __html: starImage }} />
                                     </li>
                                     <li className="star-ratings">
-                                        <a href="javascript:void();" className="rating-count">47</a>
+                                        <span href="javascript:void();" className="rating-count">47</span>
                                     </li>
                                 </ul>
                             </div>
