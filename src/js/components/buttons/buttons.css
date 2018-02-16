@@ -302,20 +302,12 @@ a.txt-btn,
       border-radius: 50%;
       display: inline-block;
       & .main-menu-primary-cart-icon-full-items {
-          position: absolute;
-          top: -3px;
-          right: -10px;
-          display: block;
-          color: var(--color-white);
-          padding-left: 3px;
-          letter-spacing: -.25px;
-          font-size: 14px;
-          font-weight: 700;
-          background: var(--color-design-system-nav);
-          border-radius: 50%;
-          width: 24px;
-          height: 24px;
-          padding: 5px;
+        position: absolute;
+        top: 8px;
+        right: 8px;
+        color: var(--color-white);
+        font-size: 14px;
+        font-weight: 700;
      }
   }
 }

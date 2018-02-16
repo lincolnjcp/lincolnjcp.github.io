@@ -19,28 +19,28 @@ class Forms extends Component {
             var matches = v.match(/\d{4,16}/g);
             var match = matches && matches[0] || ''
             var parts = []
-            for (i=0, len=match.length; i<len; i+=4) {
-            parts.push(match.substring(i, i+4))
+            for (i = 0, len = match.length; i < len; i += 4) {
+                parts.push(match.substring(i, i + 4))
             }
             if (parts.length) {
-            return parts.join(' ')
+                return parts.join(' ')
             } else {
-            return value
+                return value
             }
         }
-        
-        onload = function() {
-            document.getElementById('creditcard').oninput = function() {
-            this.value = cc_format(this.value)
+
+        onload = function () {
+            document.getElementById('creditcard').oninput = function () {
+                this.value = cc_format(this.value)
             }
         }
 
         $(function () {
-            $(".form-select1 select").on('change', function() {
+            $(".form-select1 select").on('change', function () {
                 if ($(this).val() != " ") {
                     $(".form-select1 .select-label").removeClass("hide");
                     $(".form-select1 select").addClass("select-selected");
-                    
+
                 } else {
                     $(".form-select1 .select-label").addClass("hide");
                     $(".form-select1 select").removeClass("select-selected");
@@ -49,11 +49,11 @@ class Forms extends Component {
         });
 
         $(function () {
-            $(".form-select2 select").on('change', function() {
+            $(".form-select2 select").on('change', function () {
                 if ($(this).val() != " ") {
                     $(".form-select2 .select-label").removeClass("hide");
                     $(".form-select2 select").addClass("select-selected");
-                    
+
                 } else {
                     $(".form-select2 .select-label").addClass("hide");
                     $(".form-select2 select").removeClass("select-selected");
@@ -62,11 +62,11 @@ class Forms extends Component {
         });
 
         $(function () {
-            $(".form-select3 select").on('change', function() {
+            $(".form-select3 select").on('change', function () {
                 if ($(this).val() != " ") {
                     $(".form-select3 .select-label").removeClass("hide");
                     $(".form-select3 select").addClass("select-selected");
-                    
+
                 } else {
                     $(".form-select3 .select-label").addClass("hide");
                     $(".form-select3 select").removeClass("select-selected");
@@ -90,9 +90,9 @@ class Forms extends Component {
             });
         });
 
-        $(".zipcode_text").on('focus blur', function(){
+        $(".zipcode_text").on('focus blur', function () {
             $(this).parent('div').parent('div').toggleClass('is_focused');
-       })
+        })
 
     }
 
@@ -626,35 +626,50 @@ class Forms extends Component {
                         <h3 className="title title-L mrg-L">Sample Layout</h3>
                         <p className="max-width-text">Vestibulum id ligula porta felis euismod semper. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.  <br /><br /> </p>
                     </div>
-                    <div className="sm12 md4 form-layout">
+                    <div className="sm12 md4 form-layout input-form select-form">
                         <div className="form-group column">
-                            <input className="form-control input-text" type="text" placeholder="Name" />
+                            <div className="form-float-label">
+                                <input className="form-control input-text" type="text" id="name" placeholder="Name" />
+                                <label htmlFor="name">Name</label>
+                            </div>
                         </div>
                         <div className="form-group column">
-                            <input className="form-control input-text" type="text" placeholder="mm/dd/yyyy" />
+                            <div className="form-float-label">
+                                <input className="form-control input-text" id="date" type="text" placeholder="mm/dd/yyyy" />
+                                <label htmlFor="date">mm/dd/yyyy</label>
+                            </div>
                         </div>
                         <div className="form-group md6 sm4 column row padding-right-zero">
-                            <input className="form-control input-text" type="text" placeholder="Zip Code" />
+                            <div className="form-float-label">
+                                <input className="form-control input-text" id="zip" type="text" placeholder="Zip Code" />
+                                <label htmlFor="zip">Zip Code</label>
+                            </div>
                         </div>
                         <div className="select md6 form-layout column">
-                            <select className="form-control custom-select">
-                                <option value=''>State</option>
-                                <option value='1'>01</option>
-                                <option value='2'>02</option>
-                                <option value='3'>03</option>
-                                <option value='4'>04</option>
-                                <option value='5'>05</option>
-                                <option value='6'>06</option>
-                                <option value='7'>07</option>
-                                <option value='8'>08</option>
-                                <option value='9'>09</option>
-                                <option value='10'>10</option>
-                                <option value='11'>11</option>
-                                <option value='12'>12</option>
-                            </select>
+                            <div className="form-float-label form-select2">
+                                <select className="form-control custom-select">
+                                    <option value=' '>Month</option>
+                                    <option value='1'>01</option>
+                                    <option value='2'>02</option>
+                                    <option value='3'>03</option>
+                                    <option value='4'>04</option>
+                                    <option value='5'>05</option>
+                                    <option value='6'>06</option>
+                                    <option value='7'>07</option>
+                                    <option value='8'>08</option>
+                                    <option value='9'>09</option>
+                                    <option value='10'>10</option>
+                                    <option value='11'>11</option>
+                                    <option value='12'>12</option>
+                                </select>
+                                <span className="select-label hide">Month</span>
+                            </div>
                         </div>
                         <div className="form-group column">
-                            <input className="form-control input-text" id="name" type="text" placeholder="Phone Number" />
+                            <div className="form-float-label">
+                                <input className="form-control input-text" id="phone-number" type="text" placeholder="Phone Number" />
+                                <label htmlFor="phone-number">Phone Number</label>
+                            </div>
                         </div>
                         <div className="form-group column">
                             <label className="checkbox mrg-M">

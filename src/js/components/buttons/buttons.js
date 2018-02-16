@@ -5,6 +5,7 @@ import CodeGenerator from '../../containers/CodeGenerator.js';
 
 const heartfillImage = require('!!raw-loader?es5=1!../../../images/global/icons/action/heart-fill.svg');
 const cartImage = require('!!raw-loader?es5=1!../../../images/global/icons/utility/cart/cart.svg');
+const cartFullImage = require('!!raw-loader?es5=1!../../../images/global/icons/utility/cart/cart-full.svg');
 const lockImage = require('!!raw-loader?es5=1!../../../images/global/icons/utility/lock.svg');
 const thumbsupfillImage = require('!!raw-loader?es5=1!../../../images/global/icons/action/thumbsup-fill.svg');
 const thumbsUpImage = require('!!raw-loader?es5=1!../../../images/global/icons/action/thumbsup-line.svg');
@@ -325,7 +326,7 @@ class Buttons extends Component {
                     <div className="cart-icon lg4">
                     <ul>
                         <li className="main-menu-primary-item main-menu-primary-cart"> <a href="javascript:void(0);" className="main-menu-primary-cart-icon-full"> <span className="main-menu-primary-cart-icon-full-items ">28</span>
-                        <div className="main-menu-primary-cart-icon-full-icon icon color-white-svg" dangerouslySetInnerHTML={{__html: cartImage}} />
+                        <div className="main-menu-primary-cart-icon-full-icon icon color-white-svg" dangerouslySetInnerHTML={{ __html: cartFullImage }} />
                         </a> </li>
                     </ul>
                     </div>
