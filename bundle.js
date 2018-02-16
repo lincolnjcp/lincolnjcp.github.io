@@ -18779,7 +18779,7 @@ var header_cartFullImage = __webpack_require__("VlqD");
 var header_accountImage = __webpack_require__("8ysx");
 var header_arrowleftImage = __webpack_require__("FAZD");
 var header_targetImage = __webpack_require__("ZO6q");
-var jcprewardImage = __webpack_require__("AzU2");
+var header_jcpenneyRewardsImage = __webpack_require__("AzU2");
 
 var header_Header = function (_Component) {
   header__inherits(Header, _Component);
@@ -19809,7 +19809,7 @@ var header_Header = function (_Component) {
                 react_default.a.createElement(
                   'a',
                   { href: 'javascript:void(0);' },
-                  react_default.a.createElement('span', { className: 'icon color-white-svg', dangerouslySetInnerHTML: { __html: jcprewardImage } })
+                  react_default.a.createElement('span', { className: 'icon color-white-svg', dangerouslySetInnerHTML: { __html: header_jcpenneyRewardsImage } })
                 )
               ),
               react_default.a.createElement(
@@ -24000,8 +24000,8 @@ var expand_collapse_ExpandCollapse = function (_Component) {
             setAria,
             setAccordionAria,
             switchAccordion,
-            touchSupported = 'ontouchstart' in window,
-            pointerSupported = 'pointerdown' in window;
+            touchSupported = 'click' in window,
+            pointerSupported = 'click' in window;
 
         var skipClickDelay = function skipClickDelay(e) {
           e.preventDefault();

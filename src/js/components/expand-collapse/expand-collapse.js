@@ -10,8 +10,8 @@ class ExpandCollapse extends Component {
         setAria,
         setAccordionAria,
         switchAccordion,
-        touchSupported = ('ontouchstart' in window),
-        pointerSupported = ('pointerdown' in window);
+        touchSupported = ('click' in window),
+        pointerSupported = ('click' in window);
 
       var skipClickDelay = function (e) {
         e.preventDefault();

@@ -9,7 +9,7 @@ const cartFullImage = require('!!raw-loader?es5=1!../../../images/global/icons/u
 const accountImage = require('!!raw-loader?es5=1!../../../images/global/icons/service/account.svg');
 const arrowleftImage = require('!!raw-loader?es5=1!../../../images/global/icons/nav/arrow-left.svg');
 const targetImage = require('!!raw-loader?es5=1!../../../images/global/icons/action/target.svg');
-const jcprewardImage = require('!!raw-loader?es5=1!../../../images/global/icons/logos/JCPrewards.svg');
+const jcpenneyRewardsImage = require('!!raw-loader?es5=1!../../../images/global/icons/logos/JCPrewards.svg');
 class Header extends Component {
   changeMyStoreContent(type) {
     return (
@@ -517,7 +517,7 @@ class Header extends Component {
               <li className="main-menu-primary-item main-menu-primary-rewards hide-for-small-only"> 
                 <a href="javascript:void(0);">
                   {/* <img src="/images/global/jcpenney-rewards.png" alt="JCPenney Rewards" /> */}
-                  <span className="icon color-white-svg" dangerouslySetInnerHTML={{ __html: jcprewardImage }} />
+                  <span className="icon color-white-svg" dangerouslySetInnerHTML={{ __html: jcpenneyRewardsImage }} />
                 </a> 
               </li>
               <li className="main-menu-primary-item main-menu-primary-account">
