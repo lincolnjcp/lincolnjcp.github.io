@@ -94,8 +94,8 @@ class Alerts extends Component {
         <div className="sm12 columns">
             <h3 className="title title-L mrg-L">When to Use</h3>
             <p class=" mrg-L max-width-text">Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor don ullamco nulla non metus auctor fringilla. </p>
-            <div class="msg msg-success mrg-M">Success! Item added to cart.</div>
-            <div class="msg msg-error mrg-XL">Please select a size.</div>
+            <div class="msg msg-success mrg-M">Success! Item added to cart.<span className="msg-close"></span></div>
+            <div class="msg msg-error mrg-XL">Please select a size.<span className="msg-close"></span></div>
 
             <h4 className="title title-M mrg-L">Best Practices</h4>
             <ul className="list max-width-text color-slate">
@@ -112,7 +112,7 @@ class Alerts extends Component {
             <p className="max-width-text mrg-XL">Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras justo odio, dapibus ac facilisis in, egestas eget quam.</p>
             <div className="row">
                 <div className="sm12 md5 lg4 columns alert-preview-col">
-                    <div class="msg msg-success mrg-M">Success alert. <a href="javascript:void();">Text Link</a></div>
+                    <div class="msg msg-success mrg-M">Success alert. <a href="javascript:void();">Text Link</a><span className="msg-close"></span></div>
                     <div class="msg msg-success mrg-M">Example to display a longer alert message with a full paragraph of content.</div>
                 </div>
                 <div className="sm12 md7 lg8 columns">

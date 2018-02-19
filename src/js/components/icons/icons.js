@@ -144,234 +144,231 @@ const jcpenneyRewardsImage = require('!!raw-loader?es5=1!../../../images/global/
 
 const ColorPicker = () =>
     <div class="design-system-color-picker mrg-M">
-      <span class="color-picker-icon selected"><span class="color-nightsky-bg color-picker-swatch"></span></span>
+        <span class="color-picker-icon selected"><span class="color-nightsky-bg color-picker-swatch"></span></span>
 
-      <span class="select select-M select-full">
-      <select name="color_picker">
-        <option value="color-passion">Passion</option>
-        <option value="color-lipstick">Lipstick</option>
-        <option value="color-penneyred">Penney Red</option>
-        <option value="color-blush">Blush</option>
-        <option value="color-nightsky" selected>Night Sky</option>
-        <option value="color-shadow">Shadow</option>
-        <option value="color-slate">Slate</option>
-        <option value="color-concrete">Concrete</option>
-        <option value="color-lightgrey">Light Gray</option>
-        <option value="color-white">White</option>
-      </select>
-      </span>
+        <span class="select select-M select-full">
+            <select name="color_picker">
+                <option value="color-passion">Passion</option>
+                <option value="color-lipstick">Lipstick</option>
+                <option value="color-penneyred">Penney Red</option>
+                <option value="color-blush">Blush</option>
+                <option value="color-nightsky" selected>Night Sky</option>
+                <option value="color-shadow">Shadow</option>
+                <option value="color-slate">Slate</option>
+                <option value="color-concrete">Concrete</option>
+                <option value="color-lightgrey">Light Gray</option>
+                <option value="color-white">White</option>
+            </select>
+        </span>
     </div>;
-
 
 class Icons extends Component {
 
-iconCol(iconName, iconDetails, iconComponent ){
-  if(iconName !=="") {
-    return(
-      <div className="design-system-icon-col column column-block">
-        <span className="design-system-icon" title={iconDetails}><div className="icon" title={iconDetails} dangerouslySetInnerHTML={{__html: iconComponent}} /></span>
-        <div className="design-system-icon-label hide-for-small-only">
-          <p className="design-system-icon-name">{iconName}</p>
-          <p className="design-system-icon-details">{iconDetails}</p>
-        </div>
-      </div>
-    )
-  } else {
-    return ( <div className="sm4 md4 lg3 columns design-system-icon-col"></div> )
-  }
-}
-
-componentDidMount() {
-
-  $(".design-system-color-picker select").change(function(event) {
-    var parent = $(this).closest(".design-system-toggle-section");
-    var children = parent.find(".icon");
-    var attr = parent.attr('data-color-class');
-    var icon = parent.find('.color-picker-swatch');
-    var curColorSVG = $(this).val()+"-svg";
-    var curColorBG = $(this).val()+"-bg";
-    if (typeof attr == typeof undefined) {
-      attr = "color-nightsky-bg";
+    iconCol(iconName, iconDetails, iconComponent) {
+        if (iconName !== "") {
+            return (
+                <div class="design-system-icon-col column column-block">
+                    <span class="design-system-icon" title={iconDetails}><div class="icon" title={iconDetails} dangerouslySetInnerHTML={{ __html: iconComponent }} /></span>
+                    <div class="design-system-icon-label hide-for-small-only">
+                        <p class="design-system-icon-name">{iconName}</p>
+                        <p class="design-system-icon-details">{iconDetails}</p>
+                    </div>
+                </div>
+            )
+        } else {
+            return (<div class="sm4 md4 lg3 columns design-system-icon-col"></div>)
+        }
     }
-    if (curColorSVG == "color-white-svg") {
-      children.css("background-color", "#000");
-    } else {
-      children.css("background-color", "");
+
+    componentDidMount() {
+
+        $(".design-system-color-picker select").change(function (event) {
+            var parent = $(this).closest(".design-system-toggle-section");
+            var children = parent.find(".icon");
+            var attr = parent.attr('data-color-class');
+            var icon = parent.find('.color-picker-swatch');
+            var curColorSVG = $(this).val() + "-svg";
+            var curColorBG = $(this).val() + "-bg";
+            if (typeof attr == typeof undefined) {
+                attr = "color-nightsky-bg";
+            }
+            if (curColorSVG == "color-white-svg") {
+                children.css("background-color", "#000");
+            } else {
+                children.css("background-color", "");
+            }
+            children.removeClass(attr);
+            var attrBg = attr.replace('-svg', '-bg');
+            icon.removeClass(attrBg);
+            parent.attr('data-color-class', curColorSVG);
+            children.addClass(curColorSVG);
+            icon.addClass(curColorBG);
+        });
+
+        $(".design-system-color-picker select").trigger('change');
+
     }
-    children.removeClass(attr);
-    var attrBg = attr.replace('-svg', '-bg');
-    icon.removeClass(attrBg);
-    parent.attr('data-color-class', curColorSVG);
-    children.addClass(curColorSVG);
-    icon.addClass(curColorBG);
-  });
 
-  $(".design-system-color-picker select").trigger('change');
+    render() {
+        return (
+            <div>
+                <div class="row">
+                    <div class="sm12 columns">
+                        <h1 class="title title-XL mrg-L">Icons</h1>
+                        <h2 class="std-txt std-txt-XL mrg-L max-width-text">Icons are simple and informative. Each icon builds on the visual language of the design system, and represents the simplest version of the idea.</h2>
+                        <hr />
+                    </div>
+                </div>
+                <div class="row" id="when-to-use">
+                    <div class="sm12 columns">
+                        <h3 class="title title-L mrg-L">When to Use</h3>
+                        <p>Icons are powerful visual helpers, and should be used with care. Overuse quickly results in UIs that are visually overwhelming or distracting.</p>
+                        <p>Icons are commonly used:</p>
+                        <ul class="list max-width-text color-slate">
+                            <li>In primary navigation</li>
+                            <li>In page headers and section titles</li>
+                            <li>In banners to bring attention to a specific theme (an announcement, an error, etc.)</li>
+                            <li>Inline with text to add clarity</li>
+                            <li>To direct a user’s attention to something they can take action on, or which results in an action</li>
+                        </ul>
+                        <hr />
+                    </div>
+                </div>
+                <div class="row" id="alert">
+                    <div class="sm12 columns">
+                        <h3 class="title title-L mrg-L">Alert</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <div class="row  small-up-4 medium-up-3 large-up-4 design-system-icon-set">
+                            {this.iconCol("error", "error message", errorImage)} {this.iconCol("error-2", "unavailable", error2Image)} {this.iconCol("information", "tooltip & notice message", informationImage)} {this.iconCol("success", "success message", successImage)} {this.iconCol("success-check", "success check", successcheckImage)} {this.iconCol("warning", "warning message", warningImage)}
+                        </div>
+                        <hr />
+                    </div>
+                </div>
+                <div class="row" id="payment">
+                    <div class="sm12 columns">
+                        <h3 class="title title-L mrg-L">Payment</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <div class="row  small-up-4 medium-up-3 large-up-4 design-system-icon-set">
 
-}
+                            {this.iconCol("card-jcp", "JCP credit card accepted", cardjcpImage)} {this.iconCol("card-jcp-gold", "JCP mastercard gold", cardjcpgoldImage)} {this.iconCol("card-jcp-red", "JCP mastercard", cardjcpredImage)} {this.iconCol("card-jcp-platinum", "JCP mastercard platinum", cardjcpplatinumImage)} {this.iconCol("card-mastercard", "Mastercard", cardmastercardImage)} {this.iconCol("card-mastercard-gold", "Gold Mastercard", cardmastercardgoldImage)} {this.iconCol("card-paypal", "PayPal", cardpaypalImage)} {this.iconCol("card-visa", "Visa", cardvisaImage)} {this.iconCol("card-amex", "American Express", cardamexImage)} {this.iconCol("card-discover", "Discover", carddiscoverImage)} {this.iconCol("card-gift", "Gift Card Payment", cardgiftImage)} {this.iconCol("card-jcvv", "card verification code", cardjcvvImage)} {this.iconCol("card-neutral", "card neutral", cardneutralImage)}
+                            {this.iconCol("apple-pay", "Apple Pay", applePayImage)}
 
-
-
-  render() {
-    return (
-      <div>
-    <div className="row">
-        <div className="sm12 columns">
-            <h1 className="title title-XL mrg-L">Icons</h1>
-            <h2 className="std-txt std-txt-XL mrg-L max-width-text">Icons are simple and informative. Each icon builds on the visual language of the design system, and represents the simplest version of the idea.</h2>
-            <hr />
-        </div>
-    </div>
-    <div className="row" id="when-to-use">
-        <div className="sm12 columns">
-            <h3 className="title title-L mrg-L">When to Use</h3>
-            <p>Icons are powerful visual helpers, and should be used with care. Overuse quickly results in UIs that are visually overwhelming or distracting.</p>
-            <p>Icons are commonly used:</p>
-            <ul className="list max-width-text color-slate">
-                <li>In primary navigation</li>
-                <li>In page headers and section titles</li>
-                <li>In banners to bring attention to a specific theme (an announcement, an error, etc.)</li>
-                <li>Inline with text to add clarity</li>
-                <li>To direct a user’s attention to something they can take action on, or which results in an action</li>
-            </ul>
-            <hr />
-        </div>
-    </div>
-    <div className="row" id="alert">
-        <div className="sm12 columns">
-            <h3 className="title title-L mrg-L">Alert</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            <div className="row  small-up-4 medium-up-3 large-up-4 design-system-icon-set">
-                {this.iconCol("error", "error message", errorImage)} {this.iconCol("error-2", "unavailable", error2Image)} {this.iconCol("information", "tooltip & notice message", informationImage)} {this.iconCol("success", "success message", successImage)} {this.iconCol("success-check", "success check", successcheckImage)} {this.iconCol("warning", "warning message", warningImage)}
-            </div>
-            <hr />
-        </div>
-    </div>
-    <div className="row" id="payment">
-        <div className="sm12 columns">
-            <h3 className="title title-L mrg-L">Payment</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            <div className="row  small-up-4 medium-up-3 large-up-4 design-system-icon-set">
-
-                {this.iconCol("card-jcp", "JCP credit card accepted", cardjcpImage)} {this.iconCol("card-jcp-gold", "JCP mastercard gold", cardjcpgoldImage)} {this.iconCol("card-jcp-red", "JCP mastercard", cardjcpredImage)} {this.iconCol("card-jcp-platinum", "JCP mastercard platinum", cardjcpplatinumImage)} {this.iconCol("card-mastercard", "Mastercard", cardmastercardImage)} {this.iconCol("card-mastercard-gold", "Gold Mastercard", cardmastercardgoldImage)} {this.iconCol("card-paypal", "PayPal", cardpaypalImage)} {this.iconCol("card-visa", "Visa", cardvisaImage)} {this.iconCol("card-amex", "American Express", cardamexImage)} {this.iconCol("card-discover", "Discover", carddiscoverImage)} {this.iconCol("card-gift", "Gift Card Payment", cardgiftImage)} {this.iconCol("card-jcvv", "card verification code", cardjcvvImage)} {this.iconCol("card-neutral", "card neutral", cardneutralImage)}
-                {this.iconCol("apple-pay", "Apple Pay", applePayImage)}
-
-            </div>
-            <hr />
-        </div>
-    </div>
-    <div className="design-system-toggle-section">
-        <div className="row" id="action">
-            <div className="sm12 md6 lg8 columns">
-                <h3 className="title title-L mrg-L">Action</h3>
-            </div>
-            <div className="sm12 md6 lg4 columns">
-                <ColorPicker />
-            </div>
-        </div>
-        <div className="row">
-            <div className="sm12 columns">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                <div className="row  small-up-4 medium-up-3 large-up-4 design-system-icon-set">
-                    {this.iconCol("thumbsdown-fill", "dislike (active)", thumbsdownfillImage)} {this.iconCol("thumbsdown-line", "dislike (inactive)", thumbsdownlineImage)} {this.iconCol("thumbsup-fill", "like (active)", thumbsupfillImage)} {this.iconCol("thumbsup-line", "like (inactive)", thumbsuplineImage)} {this.iconCol("zoom-in-fill", "zoom in (pressed)", zoominfillImage)} {this.iconCol("zoom-in-line", "zoom in ", zoominlineImage)} {this.iconCol("zoom-out-fill", "zoom out (pressed)", zoomoutfillImage)} {this.iconCol("zoom-out-line", "???", zoomoutlineImage)} {this.iconCol("chat-fill", "chat (pressed)", chatfillImage)} {this.iconCol("chat-line", "chat is available", chatlineImage)} {this.iconCol("conversation-fill", "???", conversationfillImage)} {this.iconCol("conversation-line", "???", conversationlineImage)} {this.iconCol("heart-fill", "save (active)", heartfillImage)} {this.iconCol("heart-line", "save (inactive)", heartlineImage)} {this.iconCol("eye", "unhide form field", eyeImage)} {this.iconCol("eye-crossed-out", "hide form field", eyecrossedoutImage)} {this.iconCol("grid-fill", "grid view (active)", gridfillImage)} {this.iconCol("grid-line", "grid view (inactive)", gridlineImage)} {this.iconCol("list-fill", "list view (active)", listfillImage)} {this.iconCol("list-line", "list view (inactive)", listlineImage)} {this.iconCol("search", "indicate search capability", searchImage)} {this.iconCol("settings", "edit settings/preferences", settingsImage)} {this.iconCol("print", "print page", printImage)} {this.iconCol("trash-can", "delete", trashcanImage)} {this.iconCol("mail", "email page or deal", mailImage)} {this.iconCol("target", "find geo location", targetImage)} {this.iconCol("upload", "upload file", uploadImage)}
+                        </div>
+                        <hr />
+                    </div>
+                </div>
+                <div class="design-system-toggle-section">
+                    <div class="row" id="action">
+                        <div class="sm12 md6 lg8 columns">
+                            <h3 class="title title-L mrg-L">Action</h3>
+                        </div>
+                        <div class="sm12 md6 lg4 columns">
+                            <ColorPicker />
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="sm12 columns">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <div class="row  small-up-4 medium-up-3 large-up-4 design-system-icon-set">
+                                {this.iconCol("thumbsdown-fill", "dislike (active)", thumbsdownfillImage)} {this.iconCol("thumbsdown-line", "dislike (inactive)", thumbsdownlineImage)} {this.iconCol("thumbsup-fill", "like (active)", thumbsupfillImage)} {this.iconCol("thumbsup-line", "like (inactive)", thumbsuplineImage)} {this.iconCol("zoom-in-fill", "zoom in (pressed)", zoominfillImage)} {this.iconCol("zoom-in-line", "zoom in ", zoominlineImage)} {this.iconCol("zoom-out-fill", "zoom out (pressed)", zoomoutfillImage)} {this.iconCol("zoom-out-line", "???", zoomoutlineImage)} {this.iconCol("chat-fill", "chat (pressed)", chatfillImage)} {this.iconCol("chat-line", "chat is available", chatlineImage)} {this.iconCol("conversation-fill", "???", conversationfillImage)} {this.iconCol("conversation-line", "???", conversationlineImage)} {this.iconCol("heart-fill", "save (active)", heartfillImage)} {this.iconCol("heart-line", "save (inactive)", heartlineImage)} {this.iconCol("eye", "unhide form field", eyeImage)} {this.iconCol("eye-crossed-out", "hide form field", eyecrossedoutImage)} {this.iconCol("grid-fill", "grid view (active)", gridfillImage)} {this.iconCol("grid-line", "grid view (inactive)", gridlineImage)} {this.iconCol("list-fill", "list view (active)", listfillImage)} {this.iconCol("list-line", "list view (inactive)", listlineImage)} {this.iconCol("search", "indicate search capability", searchImage)} {this.iconCol("settings", "edit settings/preferences", settingsImage)} {this.iconCol("print", "print page", printImage)} {this.iconCol("trash-can", "delete", trashcanImage)} {this.iconCol("mail", "email page or deal", mailImage)} {this.iconCol("target", "find geo location", targetImage)} {this.iconCol("upload", "upload file", uploadImage)}
+                            </div>
+                            <hr />
+                        </div>
+                    </div>
+                </div>
+                <div class="design-system-toggle-section">
+                    <div class="row" id="navigation">
+                        <div class="sm12 md6 lg8 columns">
+                            <h3 class="title title-L mrg-L">Navigation</h3>
+                        </div>
+                        <div class="sm12 md6 lg4 columns">
+                            <ColorPicker />
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="sm12 columns">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <div class="row  small-up-4 medium-up-3 large-up-4 design-system-icon-set">
+                                {this.iconCol("chevron-down", "advance carousels and navigation", chevrondownImage)} {this.iconCol("chevron-left", "advance carousels and navigation", chevronleftImage)} {this.iconCol("chevron-right", "advance carousels and navigation", chevronrightImage)} {this.iconCol("chevron-up", "advance carousels and navigation", chevronupImage)} {this.iconCol("chevron-down-circle", "advance carousels and navigation", chevrondowncircleImage)} {this.iconCol("chevron-left-circle", "advance carousels and navigation", chevronleftcircleImage)} {this.iconCol("chevron-right-circle", "advance carousels and navigation", chevronrightcircleImage)} {this.iconCol("chevron-up-circle", "advance carousels and navigation", chevronupcircleImage)} {this.iconCol("arrow-down", "???", arrowdownImage)} {this.iconCol("arrow-left", "back on slideout panel", arrowleftImage)} {this.iconCol("arrow-right", "advance on slideout panel", arrowrightImage)} {this.iconCol("arrow-up", "???", arrowupImage)} {this.iconCol("triangle-down", "drop down", triangledownImage)} {this.iconCol("triangle-left", "???", triangleleftImage)} {this.iconCol("triangle-right", "inline expand", trianglerightImage)} {this.iconCol("triangle-up", "drop down (active)", triangleupImage)} {this.iconCol("menu", "global menu", menuImage)} {this.iconCol("close", "close messages; clear text input", closeImage)} {this.iconCol("plus", "expand accordion", plusImage)} {this.iconCol("back-to-top", "scroll page back to the top", backtotopImage)}
+                            </div>
+                            <hr />
+                        </div>
+                    </div>
+                </div>
+                <div class="design-system-toggle-section">
+                    <div class="row" id="utility">
+                        <div class="sm12 md6 lg8 columns">
+                            <h3 class="title title-L mrg-L">Utility</h3>
+                        </div>
+                        <div class="sm12 md6 lg4 columns">
+                            <ColorPicker />
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="sm12 columns">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <div class="row  small-up-4 medium-up-3 large-up-4 design-system-icon-set">
+                                {this.iconCol("cart", "navigate to shopping cart", cartImage)} {this.iconCol("full cart", "shopping cart with items", cartFullImage)} {this.iconCol("express-checkout", "express checkout", expresscheckoutImage)} {this.iconCol("haul-away", "haul away appliaces", haulawayImage)} {this.iconCol("track-order", "CAM track orders", trackorderImage)} {this.iconCol("truck", "truck deilvery", truckImage)} {this.iconCol("local-ad", "local store print ads", localadImage)} {this.iconCol("same-day-pickup", "store pick up", samedaypickupImage)} {this.iconCol("store", "store location", storeImage)} {this.iconCol("location-pin", "indicate location/store", locationpinImage)} {this.iconCol("return", "return prodcuts", returnImage)} {this.iconCol("recycle", "recycling", recycleImage)} {this.iconCol("lock", "security in checkout/payment", lockImage)} {this.iconCol("account", "customer account/profile", accountImage)} {this.iconCol("cash", "rewards cash", cashImage)} {this.iconCol("coupon-fill", "coupons", couponfillImage)} {this.iconCol("gift-registry", "gift registry", giftregistryImage)} {this.iconCol("wallet", "payment method", walletImage)} {this.iconCol("piggy-bank", "savings", piggybankImage)} {this.iconCol("ribbon", "???", ribbonImage)} {this.iconCol("clip", "clip coupon", clipImage)} {this.iconCol("camera", "active camera device", cameraImage)} {this.iconCol("play", "play media", playImage)} {this.iconCol("video", "multi-media video", videoImage)} {this.iconCol("ruler", "size guides", rulerImage)} {this.iconCol("appointment", "???", appointmentImage)} {this.iconCol("schedule-appt", "schedule appointment with JCP store services", scheduleapptImage)} {this.iconCol("wedding-date", "???", weddingdateImage)} {this.iconCol("parts-services", "additional appliance services", partsservicesImage)} {this.iconCol("device-mobile", "mobile device", devicemobileImage)} {this.iconCol("device-phone", "contact via phone; phone input", devicephoneImage)} {this.iconCol("collection", "product collection", collectionImage)} {this.iconCol("collection-multi", "multiple product collections", collectionmultiImage)} {this.iconCol("barcode", "scan barcode", barcodeImage)} {this.iconCol("barcode-qr", "???", barcodeqrImage)} {this.iconCol("shield", "protection plans", shieldImage)} {this.iconCol("star", "ratings", starImage)} {this.iconCol("star-half", "ratings", starhalfImage)} {this.iconCol("online-only", "???", onlineonlyImage)}
+                                {this.iconCol("id", "???", idImage)} {this.iconCol("id-fill", "???", idfillImage)}
+                                {this.iconCol("Penney", "Penney Icon", penneyImage)}
+                                {this.iconCol("Rewards", "Rewards Icon", rewardsImage)}
+                            </div>
+                            <hr />
+                        </div>
+                    </div>
+                </div>
+                <div class="design-system-toggle-section">
+                    <div class="row" id="social">
+                        <div class="sm12 md6 lg8 columns">
+                            <h3 class="title title-L mrg-L">Social</h3>
+                        </div>
+                        <div class="sm12 md6 lg4 columns">
+                            <ColorPicker />
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="sm12 columns">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <div class="row  small-up-4 medium-up-3 large-up-4 design-system-icon-set">
+                                {this.iconCol("blog-fill", "Link to JCP blog", blogfillImage)} {this.iconCol("blog-line", "Link to JCP blog", bloglineImage)} {this.iconCol("facebook-fill", "Share to Facebook", facebookfillImage)}
+                                {this.iconCol("facebook-min", "Share to Facebook", facebookMinImage)}
+                                {this.iconCol("facebook-line", "Share to Facebook", facebooklineImage)} {this.iconCol("google-plus-fill", "Share to Google+", googleplusfillImage)} {this.iconCol("google-plus-line", "Share to Google+", googlepluslineImage)} {this.iconCol("instagram-fill", "Share to Instagram", instagramfillImage)} {this.iconCol("instagram-line", "Share to Instagram", instagramlineImage)} {this.iconCol("pinterest-fill", "Pin to Pintrest board", pinterestfillImage)} {this.iconCol("pinterest-line", "Pin to Pintrest board", pinterestlineImage)} {this.iconCol("twitter-fill", "Share to Twitter", twitterfillImage)} {this.iconCol("twitter-line", "Share to Twitter", twitterlineImage)} {this.iconCol("twitter-min", "Share to Twitter", twitterMinImage)} {this.iconCol("youtube-fill", "Link to JCP YouTube channel", youtubefillImage)} {this.iconCol("youtube-line", "Link to JCP YouTube channel", youtubelineImage)}
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <hr />
-            </div>
-        </div>
-    </div>
-    <div className="design-system-toggle-section">
-        <div className="row" id="navigation">
-            <div className="sm12 md6 lg8 columns">
-                <h3 className="title title-L mrg-L">Navigation</h3>
-            </div>
-            <div className="sm12 md6 lg4 columns">
-                <ColorPicker />
-            </div>
-        </div>
-        <div className="row">
-            <div className="sm12 columns">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                <div className="row  small-up-4 medium-up-3 large-up-4 design-system-icon-set">
-                    {this.iconCol("chevron-down", "advance carousels and navigation", chevrondownImage)} {this.iconCol("chevron-left", "advance carousels and navigation", chevronleftImage)} {this.iconCol("chevron-right", "advance carousels and navigation", chevronrightImage)} {this.iconCol("chevron-up", "advance carousels and navigation", chevronupImage)} {this.iconCol("chevron-down-circle", "advance carousels and navigation", chevrondowncircleImage)} {this.iconCol("chevron-left-circle", "advance carousels and navigation", chevronleftcircleImage)} {this.iconCol("chevron-right-circle", "advance carousels and navigation", chevronrightcircleImage)} {this.iconCol("chevron-up-circle", "advance carousels and navigation", chevronupcircleImage)} {this.iconCol("arrow-down", "???", arrowdownImage)} {this.iconCol("arrow-left", "back on slideout panel", arrowleftImage)} {this.iconCol("arrow-right", "advance on slideout panel", arrowrightImage)} {this.iconCol("arrow-up", "???", arrowupImage)} {this.iconCol("triangle-down", "drop down", triangledownImage)} {this.iconCol("triangle-left", "???", triangleleftImage)} {this.iconCol("triangle-right", "inline expand", trianglerightImage)} {this.iconCol("triangle-up", "drop down (active)", triangleupImage)} {this.iconCol("menu", "global menu", menuImage)} {this.iconCol("close", "close messages; clear text input", closeImage)} {this.iconCol("plus", "expand accordion", plusImage)} {this.iconCol("back-to-top", "scroll page back to the top", backtotopImage)}
+                <div class="design-system-toggle-section">
+                    <div class="row" id="logos">
+                        <div class="sm12 md6 lg8 columns">
+                            <h3 class="title title-L mrg-L">Logos</h3>
+                        </div>
+                        <div class="sm12 md6 lg4 columns">
+                            <ColorPicker />
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="sm12 columns">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <div class="row  small-up-4 medium-up-3 large-up-4 design-system-icon-set">
+                                {this.iconCol("jcp-logo", "The JCPenney Logo", jcpenneyImage)}
+                                {this.iconCol("jcp-rewards-logo", "JCPRewards Logo", jcpenneyRewardsImage)}
+                            </div>
+                            <hr />
+                        </div>
+                    </div>
                 </div>
-                <hr />
-            </div>
-        </div>
-    </div>
-    <div className="design-system-toggle-section">
-        <div className="row" id="utility">
-            <div className="sm12 md6 lg8 columns">
-                <h3 className="title title-L mrg-L">Utility</h3>
-            </div>
-            <div className="sm12 md6 lg4 columns">
-                <ColorPicker />
-            </div>
-        </div>
-        <div className="row">
-            <div className="sm12 columns">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                <div className="row  small-up-4 medium-up-3 large-up-4 design-system-icon-set">
-                    {this.iconCol("cart", "navigate to shopping cart", cartImage)} {this.iconCol("full cart", "shopping cart with items", cartFullImage)} {this.iconCol("express-checkout", "express checkout", expresscheckoutImage)} {this.iconCol("haul-away", "haul away appliaces", haulawayImage)} {this.iconCol("track-order", "CAM track orders", trackorderImage)} {this.iconCol("truck", "truck deilvery", truckImage)} {this.iconCol("local-ad", "local store print ads", localadImage)} {this.iconCol("same-day-pickup", "store pick up", samedaypickupImage)} {this.iconCol("store", "store location", storeImage)} {this.iconCol("location-pin", "indicate location/store", locationpinImage)} {this.iconCol("return", "return prodcuts", returnImage)} {this.iconCol("recycle", "recycling", recycleImage)} {this.iconCol("lock", "security in checkout/payment", lockImage)} {this.iconCol("account", "customer account/profile", accountImage)} {this.iconCol("cash", "rewards cash", cashImage)} {this.iconCol("coupon-fill", "coupons", couponfillImage)} {this.iconCol("gift-registry", "gift registry", giftregistryImage)} {this.iconCol("wallet", "payment method", walletImage)} {this.iconCol("piggy-bank", "savings", piggybankImage)} {this.iconCol("ribbon", "???", ribbonImage)} {this.iconCol("clip", "clip coupon", clipImage)} {this.iconCol("camera", "active camera device", cameraImage)} {this.iconCol("play", "play media", playImage)} {this.iconCol("video", "multi-media video", videoImage)} {this.iconCol("ruler", "size guides", rulerImage)} {this.iconCol("appointment", "???", appointmentImage)} {this.iconCol("schedule-appt", "schedule appointment with JCP store services", scheduleapptImage)} {this.iconCol("wedding-date", "???", weddingdateImage)} {this.iconCol("parts-services", "additional appliance services", partsservicesImage)} {this.iconCol("device-mobile", "mobile device", devicemobileImage)} {this.iconCol("device-phone", "contact via phone; phone input", devicephoneImage)} {this.iconCol("collection", "product collection", collectionImage)} {this.iconCol("collection-multi", "multiple product collections", collectionmultiImage)} {this.iconCol("barcode", "scan barcode", barcodeImage)} {this.iconCol("barcode-qr", "???", barcodeqrImage)} {this.iconCol("shield", "protection plans", shieldImage)} {this.iconCol("star", "ratings", starImage)} {this.iconCol("star-half", "ratings", starhalfImage)} {this.iconCol("online-only", "???", onlineonlyImage)}
-                    {this.iconCol("id", "???", idImage)} {this.iconCol("id-fill", "???", idfillImage)}
-                    {this.iconCol("Penney", "Penney Icon", penneyImage)}
-                    {this.iconCol("Rewards", "Rewards Icon", rewardsImage)}
-                </div>
-                <hr />
-            </div>
-        </div>
-    </div>
-    <div className="design-system-toggle-section">
-        <div className="row" id="social">
-            <div className="sm12 md6 lg8 columns">
-                <h3 className="title title-L mrg-L">Social</h3>
-            </div>
-            <div className="sm12 md6 lg4 columns">
-                <ColorPicker />
-            </div>
-        </div>
-        <div className="row">
-            <div className="sm12 columns">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                <div className="row  small-up-4 medium-up-3 large-up-4 design-system-icon-set">
-                    {this.iconCol("blog-fill", "Link to JCP blog", blogfillImage)} {this.iconCol("blog-line", "Link to JCP blog", bloglineImage)} {this.iconCol("facebook-fill", "Share to Facebook", facebookfillImage)}
-                    {this.iconCol("facebook-min", "Share to Facebook", facebookMinImage)}
-                    {this.iconCol("facebook-line", "Share to Facebook", facebooklineImage)} {this.iconCol("google-plus-fill", "Share to Google+", googleplusfillImage)} {this.iconCol("google-plus-line", "Share to Google+", googlepluslineImage)} {this.iconCol("instagram-fill", "Share to Instagram", instagramfillImage)} {this.iconCol("instagram-line", "Share to Instagram", instagramlineImage)} {this.iconCol("pinterest-fill", "Pin to Pintrest board", pinterestfillImage)} {this.iconCol("pinterest-line", "Pin to Pintrest board", pinterestlineImage)} {this.iconCol("twitter-fill", "Share to Twitter", twitterfillImage)} {this.iconCol("twitter-line", "Share to Twitter", twitterlineImage)} {this.iconCol("twitter-min", "Share to Twitter", twitterMinImage)} {this.iconCol("youtube-fill", "Link to JCP YouTube channel", youtubefillImage)} {this.iconCol("youtube-line", "Link to JCP YouTube channel", youtubelineImage)}
+                <div class="row">
+                    <div class="sm12 columns">
+                        <hr />
+                        <p class="S">Created by: <strong>Tony Stark</strong> and <strong>Bruce Banner</strong>
+                            <br /> Latest update: 04/05/2017</p>
+                    </div>
                 </div>
             </div>
-        </div>
-    </div>
-    <hr />
-    <div className="design-system-toggle-section">
-        <div className="row" id="logos">
-            <div className="sm12 md6 lg8 columns">
-                <h3 className="title title-L mrg-L">Logos</h3>
-            </div>
-            <div className="sm12 md6 lg4 columns">
-                <ColorPicker />
-            </div>
-        </div>
-        <div className="row">
-            <div className="sm12 columns">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                <div className="row  small-up-4 medium-up-3 large-up-4 design-system-icon-set">
-                    {this.iconCol("jcp-logo", "The JCPenney Logo", jcpenneyImage)}
-                    {this.iconCol("jcp-rewards-logo", "JCPRewards Logo", jcpenneyRewardsImage)}
-                </div>
-                <hr />
-            </div>
-        </div>
-    </div>
-    <div className="row">
-        <div className="sm12 columns">
-            <hr />
-            <p className="S">Created by: <strong>Tony Stark</strong> and <strong>Bruce Banner</strong>
-                <br /> Latest update: 04/05/2017</p>
-        </div>
-    </div>
-</div>
 
-    );
-  }
+        );
+    }
 }
 
 export default Icons;

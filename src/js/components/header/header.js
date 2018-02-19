@@ -9,7 +9,7 @@ const cartFullImage = require('!!raw-loader?es5=1!../../../images/global/icons/u
 const accountImage = require('!!raw-loader?es5=1!../../../images/global/icons/service/account.svg');
 const arrowleftImage = require('!!raw-loader?es5=1!../../../images/global/icons/nav/arrow-left.svg');
 const targetImage = require('!!raw-loader?es5=1!../../../images/global/icons/action/target.svg');
-const jcpenneyRewardsImage = require('!!raw-loader?es5=1!../../../images/global/icons/logos/JCPrewards.svg');
+const jcpenneyRewardsImage = require('!!raw-loader?es5=1!../../../images/global/icons/logos/JCPRewards.svg');
 class Header extends Component {
   changeMyStoreContent(type) {
     return (
