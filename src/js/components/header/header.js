@@ -47,48 +47,45 @@ class Header extends Component {
           </div>
         </div>
         <div className="side-panel-row-wrap no-border no-bottom-padding">
-
           <div className="side-panel-row">
             <div className="side-panel-col side-panel-col-select">
-
-
-            <div className="dropdown-menu-block column mrg-M">
-            <div className="pos-rel fl-left">
-                <a className="dropdown-button title-S">Product Type <span className="arrow"></span></a>
-                <div className="dropdown-menu">
+              <div className="dropdown-menu-block column mrg-M">
+                <div className="pos-rel fl-left">
+                  <a className="dropdown-button title-S">Product Type <span className="arrow"></span></a>
+                  <div className="dropdown-menu">
                     <div className="tooltip tooltip-top-left tooltip-Large">
-                        <span>
-                            <ul className="list list-underline list-checkboxes">
-                                <li><label className="checkbox">
-                                    <input type="checkbox" /> <span>$200 - $300</span>
-                                </label> <span className="list-qty">(14)</span></li>
-                                <li><label className="checkbox">
-                                    <input type="checkbox" /> <span>$200 - $300</span>
-                                </label> <span className="list-qty">(14)</span></li>
-                                <li><label className="checkbox">
-                                    <input type="checkbox" /> <span>$200 - $300</span>
-                                </label> <span className="list-qty">(14)</span></li>
-                                <li><label className="checkbox">
-                                    <input type="checkbox" /> <span>$200 - $300</span>
-                                </label> <span className="list-qty">(14)</span></li>
-                                <li><label className="checkbox">
-                                    <input type="checkbox" /> <span>$200 - $300</span>
-                                </label> <span className="list-qty">(14)</span></li>
-                                <li><label className="checkbox">
-                                    <input type="checkbox" /> <span>$200 - $300</span>
-                                </label> <span className="list-qty">(14)</span></li>
-                                <li><label className="checkbox">
-                                    <input type="checkbox" /> <span>$200 - $300</span>
-                                </label> <span className="list-qty">(14)</span></li>
-                                <li><label className="checkbox">
-                                    <input type="checkbox" /> <span>$200 - $300</span>
-                                </label> <span className="list-qty">(14)</span></li>
-                            </ul>
-                        </span>
+                      <span>
+                        <ul className="list list-underline list-checkboxes">
+                          <li><label className="checkbox">
+                            <input type="checkbox" /> <span>$200 - $300</span>
+                          </label> <span className="list-qty">(14)</span></li>
+                          <li><label className="checkbox">
+                            <input type="checkbox" /> <span>$200 - $300</span>
+                          </label> <span className="list-qty">(14)</span></li>
+                          <li><label className="checkbox">
+                            <input type="checkbox" /> <span>$200 - $300</span>
+                          </label> <span className="list-qty">(14)</span></li>
+                          <li><label className="checkbox">
+                            <input type="checkbox" /> <span>$200 - $300</span>
+                          </label> <span className="list-qty">(14)</span></li>
+                          <li><label className="checkbox">
+                            <input type="checkbox" /> <span>$200 - $300</span>
+                          </label> <span className="list-qty">(14)</span></li>
+                          <li><label className="checkbox">
+                            <input type="checkbox" /> <span>$200 - $300</span>
+                          </label> <span className="list-qty">(14)</span></li>
+                          <li><label className="checkbox">
+                            <input type="checkbox" /> <span>$200 - $300</span>
+                          </label> <span className="list-qty">(14)</span></li>
+                          <li><label className="checkbox">
+                            <input type="checkbox" /> <span>$200 - $300</span>
+                          </label> <span className="list-qty">(14)</span></li>
+                        </ul>
+                      </span>
                     </div>
+                  </div>
                 </div>
-            </div>
-        </div>
+              </div>
 
 
             </div>
@@ -100,10 +97,7 @@ class Header extends Component {
           <div className="expand-collapse-section change-my-store-map-view" id={'changeMyStoreMap' + type}>
             <img src="/images/design-system/fpo/find-a-store/map.jpg" alt="" />
           </div>
-
         </div>
-
-
 
         <div className="change-my-store-listing">
           <div className="side-panel-row-wrap">
@@ -190,9 +184,6 @@ class Header extends Component {
             </div>
           </div>
         </div>
-
-
-
       </div>
     )
   }
@@ -277,7 +268,7 @@ class Header extends Component {
           if ($(".main-menu-bar-secondary").length > 0) {
             top = $(".main-menu-bar-secondary").height() + $(".main-menu-bar-secondary").offset().top;
           }
-          $("#mainMenusecondaryLightBox").css({ "top": top, "height": $(document).height() })
+          // $("#mainMenusecondaryLightBox").css({ "top": top, "height": $(document).height() })
           $("#mainMenusecondaryLightBox").fadeOut(0).fadeIn(200);
         }
         $(".main-menu-secondary-li").addClass("main-menu-secondary-hover");
@@ -433,7 +424,7 @@ class Header extends Component {
 
     $('#menuPrimarySearch').unbind('focus').on('focus', function (event) {
       if ($('#mainMenuSidePanelButton').filter(":visible").length < 1) { //Not the mobile nav
-        $('.main-menu-bar-primary').css('height', $('.main-menu-bar-primary').height());
+        // $('.main-menu-bar-primary').css('height', $('.main-menu-bar-primary').height());
         $('.main-menu-primary-search-form').css('width', $('.main-menu-primary-search').width());
         $('.main-menu').addClass('main-menu-search-open');
         $('.main-menu-primary-search-form').stop(true, false).animate({ width: $('.main-menu-primary-search').width() }, 400, function () {
@@ -482,13 +473,13 @@ class Header extends Component {
             <h2 className="std-txt std-txt-XL mrg-L max-width-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h2>
           </div> */}
           <div className="row">
-          <div className="sm12 columns">
-            <p className="S"><br />
-              <a href="javascript:void(0);" id="HideDesignSystem">Hide Design System Wrapper</a></p>
+            <div className="sm12 columns">
+              <p className="S"><br />
+                <a href="javascript:void(0);" id="HideDesignSystem">Hide Design System Wrapper</a></p>
               <br />
               <br />
+            </div>
           </div>
-        </div>
         </div>
         <header className="main-menu">
           <div className="main-menu-promotional-banner">
@@ -505,20 +496,21 @@ class Header extends Component {
                   <div className="main-menu-primary-logo-svg" dangerouslySetInnerHTML={{ __html: logoImage }} />
                 </a> </li>
               <li className="main-menu-primary-item main-menu-primary-search">
-                <div className="main-menu-primary-search-form">
+                <div className="main-menu-primary-search-form search-block">
                   <form action="http://www.jcpenney.com/s/search">
-                    <input type="text" placeholder="Search Products" size="20" aria-required="false" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="off" id="menuPrimarySearch" />
-                    <button type="submit">
+                    <input type="text" placeholder="Search Products" size="20" required aria-required="false" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="off" id="menuPrimarySearch" className="input-text" />
+                    <button class="search-close-icon" type="reset"></button>
+                    <button type="submit" className="btn-search">
                       <div className="main-menu-primary-search-icon color-lipstick-svg icon" dangerouslySetInnerHTML={{ __html: searchImage }} />
                     </button>
                   </form>
                 </div>
               </li>
-              <li className="main-menu-primary-item main-menu-primary-rewards hide-for-small-only"> 
+              <li className="main-menu-primary-item main-menu-primary-rewards hide-for-small-only">
                 <a href="javascript:void(0);">
                   {/* <img src="/images/global/jcpenney-rewards.png" alt="JCPenney Rewards" /> */}
                   <span className="icon color-white-svg" dangerouslySetInnerHTML={{ __html: jcpenneyRewardsImage }} />
-                </a> 
+                </a>
               </li>
               <li className="main-menu-primary-item main-menu-primary-account">
                 <div className="dropdown-menu-block">

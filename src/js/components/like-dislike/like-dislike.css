@@ -10,17 +10,13 @@
 
     & .tooltip {
         position: absolute;
-        top: 51px;
-        right: -3.5px;
+        top: 40px;
+        right: -7px;
         text-align: center;
         display: none;
         max-width: 138px;
         line-height: 12px;
         padding: 12px;
-        @media (--viewport-sm-only) {
-            top: 45px;
-            right: -7.5px;
-        }
         & span {
             white-space: nowrap;
             display: inline;
@@ -99,35 +95,4 @@
     100% {
         transform: scale(1);
     }
-}
-
-@media (--viewport-md-only) {
-    .like-icon {
-        height: 32px;
-        width: 32px;
-        border-radius: 20px;
-        top: 0;
-        right:6px;
-
-        & .tooltip {
-            top: 52px;
-            right: -3.5px;
-        }
-
-        & .heart {
-            height: 32px;
-            width: 32px;
-            top: 5px;
-            left: 4px;
-            border-radius: 20px;
-
-            & svg {
-                width: 32px;
-                height: 32px;
-            }
-        }
-    }
-
-
-
 }

@@ -13,7 +13,6 @@ class Forms extends Component {
 
     componentDidMount() {
 
-
         function cc_format(value) {
             var v = value.replace(/\s+/g, '').replace(/[^0-9]/gi, '')
             var matches = v.match(/\d{4,16}/g);
@@ -28,7 +27,19 @@ class Forms extends Component {
                 return value
             }
         }
+        Array.from(document.getElementsByClassName('show-pwd')).map(function (el) {
+            el.onclick = onShowPwd;
+        });
 
+        function onShowPwd(evt) {
+
+            var textid = evt.target.getAttribute('data-textid');
+            var passwordElement = document.getElementById(textid);
+            var currentType = passwordElement.getAttribute('type');
+            var newType = currentType == "password" ? 'text' : 'password';
+            passwordElement.setAttribute('type', newType);
+            evt.target.innerHTML = (newType == 'password') ? 'show' : 'hide';
+        }
         onload = function () {
             document.getElementById('creditcard').oninput = function () {
                 this.value = cc_format(this.value)
@@ -36,43 +47,21 @@ class Forms extends Component {
         }
 
         $(function () {
-            $(".form-select1 select").on('change', function () {
-                if ($(this).val() != " ") {
-                    $(".form-select1 .select-label").removeClass("hide");
-                    $(".form-select1 select").addClass("select-selected");
-
+            function selector(event) {
+                var $this = $(this);
+                if ($this.val() != " ") {
+                    $('.' + $this.attr('data-label')).removeClass("hide");
+                    $this.addClass("select-selected");
                 } else {
-                    $(".form-select1 .select-label").addClass("hide");
-                    $(".form-select1 select").removeClass("select-selected");
+                    $('.' + $this.attr('data-label')).addClass("hide");
+                    $this.removeClass("select-selected");
                 }
-            });
+            }
+            $(".form-select select").on('change', selector);
+
         });
 
-        $(function () {
-            $(".form-select2 select").on('change', function () {
-                if ($(this).val() != " ") {
-                    $(".form-select2 .select-label").removeClass("hide");
-                    $(".form-select2 select").addClass("select-selected");
 
-                } else {
-                    $(".form-select2 .select-label").addClass("hide");
-                    $(".form-select2 select").removeClass("select-selected");
-                }
-            });
-        });
-
-        $(function () {
-            $(".form-select3 select").on('change', function () {
-                if ($(this).val() != " ") {
-                    $(".form-select3 .select-label").removeClass("hide");
-                    $(".form-select3 select").addClass("select-selected");
-
-                } else {
-                    $(".form-select3 .select-label").addClass("hide");
-                    $(".form-select3 select").removeClass("select-selected");
-                }
-            });
-        });
 
         $(function () {
             $("#phone-number").keypress(function (e) {
@@ -146,8 +135,8 @@ class Forms extends Component {
                                 <div class="row">
                                     <div class="sm12 md4 columns">
                                         <div class="select">
-                                            <div class="form-float-label form-select1">
-                                                <select class="form-control custom-select">
+                                            <div class="form-float-label form-select" >
+                                                <select class="form-control custom-select" data-label="select-label1">
                                                     <option value=' '>Month</option>
                                                     <option value='1'>01 - Janaury</option>
                                                     <option value='2'>02 - February</option>
@@ -162,7 +151,7 @@ class Forms extends Component {
                                                     <option value='11'>11 - November</option>
                                                     <option value='12'>12 - December</option>
                                                 </select>
-                                                <span class="select-label hide">Month</span>
+                                                <span class="select-label hide select-label1">Month</span>
                                             </div>
                                         </div>
                                     </div>
@@ -296,7 +285,7 @@ class Forms extends Component {
                                                 <input class="form-control input-text" id="password" maxLength="16" type="password" placeholder="••••••••••" />
                                                 <label htmlFor="password">Password</label>
                                             </div>
-                                            <a href="javascript:void(0);" class="show-pwd">show</a>
+                                            <a href="javascript:void(0);" data-textid="password" class="show-pwd">show</a>
                                         </div>
                                     </div>
                                     <div class="sm12 md8 columns">
@@ -311,8 +300,8 @@ class Forms extends Component {
                                         <div class="row">
                                             <div class="sm6 columns">
                                                 <div class="select">
-                                                    <div class="form-float-label form-select2">
-                                                        <select class="form-control custom-select">
+                                                    <div class="form-float-label form-select">
+                                                        <select class="form-control custom-select" data-label="select-label2">
                                                             <option value=' '>Month</option>
                                                             <option value='1'>01</option>
                                                             <option value='2'>02</option>
@@ -327,14 +316,14 @@ class Forms extends Component {
                                                             <option value='11'>11</option>
                                                             <option value='12'>12</option>
                                                         </select>
-                                                        <span class="select-label hide">Month</span>
+                                                        <span class="select-label2 hide">Month</span>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="sm6 columns">
                                                 <div class="select">
-                                                    <div class="form-float-label form-select3">
-                                                        <select class="form-control custom-select">
+                                                    <div class="form-float-label form-select">
+                                                        <select class="form-control custom-select" data-label="select-label3">
                                                             <option value=' '>Year</option>
                                                             <option value='1'>2001</option>
                                                             <option value='2'>2002</option>
@@ -349,7 +338,7 @@ class Forms extends Component {
                                                             <option value='11'>2011</option>
                                                             <option value='12'>2012</option>
                                                         </select>
-                                                        <span class="select-label hide">Year</span>
+                                                        <span class="select-label3 hide">Year</span>
                                                     </div>
                                                 </div>
                                             </div>
@@ -432,8 +421,8 @@ class Forms extends Component {
                                     <div class="sm12 md4 columns">
                                         <div class="position-rel">
                                             <div class="form-float-label">
-                                                <input type="text" id="date" name="date" placeholder="mm/dd/yyyy" required class="input-text input-birthday placeholder-text" />
-                                                <label htmlFor="date">Birthday (Optional)</label>
+                                                <input type="text" id="birthday" name="date" placeholder="mm/dd/yyyy" required class="input-text input-birthday placeholder-text" />
+                                                <label htmlFor="birthday">Birthday (Optional)</label>
                                             </div>
                                             <span class="icon tooltip-icon" dangerouslySetInnerHTML={{ __html: tooltipIcon }} />
                                         </div>
@@ -555,8 +544,8 @@ class Forms extends Component {
                             </div>
                         </div>
                         <div class="select md6 sm6 form-layout column">
-                            <div class="form-float-label form-select2">
-                                <select class="form-control custom-select">
+                            <div class="form-float-label form-select">
+                                <select class="form-control custom-select" data-label="select-label4">
                                     <option value=' '>Month</option>
                                     <option value='1'>01</option>
                                     <option value='2'>02</option>
@@ -571,7 +560,7 @@ class Forms extends Component {
                                     <option value='11'>11</option>
                                     <option value='12'>12</option>
                                 </select>
-                                <span class="select-label hide">Month</span>
+                                <span class="select-label4 hide">Month</span>
                             </div>
                         </div>
                         <div class="form-group column">

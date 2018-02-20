@@ -43,6 +43,7 @@
     border-radius: var(--border-radius-M);
     font-size: 14px;
     color: var(--color-slate);
+    caret-color: var(--color-slate);
     -webkit-appearance: none;
     &:focus {
       border: 1px solid var(--color-shadow);

@@ -8244,7 +8244,19 @@ var forms_Forms = function (_Component) {
                     return value;
                 }
             }
+            Array.from(document.getElementsByClassName('show-pwd')).map(function (el) {
+                el.onclick = onShowPwd;
+            });
 
+            function onShowPwd(evt) {
+
+                var textid = evt.target.getAttribute('data-textid');
+                var passwordElement = document.getElementById(textid);
+                var currentType = passwordElement.getAttribute('type');
+                var newType = currentType == "password" ? 'text' : 'password';
+                passwordElement.setAttribute('type', newType);
+                evt.target.innerHTML = newType == 'password' ? 'show' : 'hide';
+            }
             onload = function onload() {
                 document.getElementById('creditcard').oninput = function () {
                     this.value = cc_format(this.value);
@@ -8252,39 +8264,17 @@ var forms_Forms = function (_Component) {
             };
 
             jquery_default()(function () {
-                jquery_default()(".form-select1 select").on('change', function () {
-                    if (jquery_default()(this).val() != " ") {
-                        jquery_default()(".form-select1 .select-label").removeClass("hide");
-                        jquery_default()(".form-select1 select").addClass("select-selected");
+                function selector(event) {
+                    var $this = jquery_default()(this);
+                    if ($this.val() != " ") {
+                        jquery_default()('.' + $this.attr('data-label')).removeClass("hide");
+                        $this.addClass("select-selected");
                     } else {
-                        jquery_default()(".form-select1 .select-label").addClass("hide");
-                        jquery_default()(".form-select1 select").removeClass("select-selected");
+                        jquery_default()('.' + $this.attr('data-label')).addClass("hide");
+                        $this.removeClass("select-selected");
                     }
-                });
-            });
-
-            jquery_default()(function () {
-                jquery_default()(".form-select2 select").on('change', function () {
-                    if (jquery_default()(this).val() != " ") {
-                        jquery_default()(".form-select2 .select-label").removeClass("hide");
-                        jquery_default()(".form-select2 select").addClass("select-selected");
-                    } else {
-                        jquery_default()(".form-select2 .select-label").addClass("hide");
-                        jquery_default()(".form-select2 select").removeClass("select-selected");
-                    }
-                });
-            });
-
-            jquery_default()(function () {
-                jquery_default()(".form-select3 select").on('change', function () {
-                    if (jquery_default()(this).val() != " ") {
-                        jquery_default()(".form-select3 .select-label").removeClass("hide");
-                        jquery_default()(".form-select3 select").addClass("select-selected");
-                    } else {
-                        jquery_default()(".form-select3 .select-label").addClass("hide");
-                        jquery_default()(".form-select3 select").removeClass("select-selected");
-                    }
-                });
+                }
+                jquery_default()(".form-select select").on('change', selector);
             });
 
             jquery_default()(function () {
@@ -8464,10 +8454,10 @@ var forms_Forms = function (_Component) {
                                             { 'class': 'select' },
                                             react_default.a.createElement(
                                                 'div',
-                                                { 'class': 'form-float-label form-select1' },
+                                                { 'class': 'form-float-label form-select' },
                                                 react_default.a.createElement(
                                                     'select',
-                                                    { 'class': 'form-control custom-select' },
+                                                    { 'class': 'form-control custom-select', 'data-label': 'select-label1' },
                                                     react_default.a.createElement(
                                                         'option',
                                                         { value: ' ' },
@@ -8536,7 +8526,7 @@ var forms_Forms = function (_Component) {
                                                 ),
                                                 react_default.a.createElement(
                                                     'span',
-                                                    { 'class': 'select-label hide' },
+                                                    { 'class': 'select-label hide select-label1' },
                                                     'Month'
                                                 )
                                             )
@@ -8926,7 +8916,7 @@ var forms_Forms = function (_Component) {
                                             ),
                                             react_default.a.createElement(
                                                 'a',
-                                                { href: 'javascript:void(0);', 'class': 'show-pwd' },
+                                                { href: 'javascript:void(0);', 'data-textid': 'password', 'class': 'show-pwd' },
                                                 'show'
                                             )
                                         )
@@ -8970,10 +8960,10 @@ var forms_Forms = function (_Component) {
                                                     { 'class': 'select' },
                                                     react_default.a.createElement(
                                                         'div',
-                                                        { 'class': 'form-float-label form-select2' },
+                                                        { 'class': 'form-float-label form-select' },
                                                         react_default.a.createElement(
                                                             'select',
-                                                            { 'class': 'form-control custom-select' },
+                                                            { 'class': 'form-control custom-select', 'data-label': 'select-label2' },
                                                             react_default.a.createElement(
                                                                 'option',
                                                                 { value: ' ' },
@@ -9042,7 +9032,7 @@ var forms_Forms = function (_Component) {
                                                         ),
                                                         react_default.a.createElement(
                                                             'span',
-                                                            { 'class': 'select-label hide' },
+                                                            { 'class': 'select-label2 hide' },
                                                             'Month'
                                                         )
                                                     )
@@ -9056,10 +9046,10 @@ var forms_Forms = function (_Component) {
                                                     { 'class': 'select' },
                                                     react_default.a.createElement(
                                                         'div',
-                                                        { 'class': 'form-float-label form-select3' },
+                                                        { 'class': 'form-float-label form-select' },
                                                         react_default.a.createElement(
                                                             'select',
-                                                            { 'class': 'form-control custom-select' },
+                                                            { 'class': 'form-control custom-select', 'data-label': 'select-label3' },
                                                             react_default.a.createElement(
                                                                 'option',
                                                                 { value: ' ' },
@@ -9128,7 +9118,7 @@ var forms_Forms = function (_Component) {
                                                         ),
                                                         react_default.a.createElement(
                                                             'span',
-                                                            { 'class': 'select-label hide' },
+                                                            { 'class': 'select-label3 hide' },
                                                             'Year'
                                                         )
                                                     )
@@ -9337,10 +9327,10 @@ var forms_Forms = function (_Component) {
                                             react_default.a.createElement(
                                                 'div',
                                                 { 'class': 'form-float-label' },
-                                                react_default.a.createElement('input', { type: 'text', id: 'date', name: 'date', placeholder: 'mm/dd/yyyy', required: true, 'class': 'input-text input-birthday placeholder-text' }),
+                                                react_default.a.createElement('input', { type: 'text', id: 'birthday', name: 'date', placeholder: 'mm/dd/yyyy', required: true, 'class': 'input-text input-birthday placeholder-text' }),
                                                 react_default.a.createElement(
                                                     'label',
-                                                    { htmlFor: 'date' },
+                                                    { htmlFor: 'birthday' },
                                                     'Birthday (Optional)'
                                                 )
                                             ),
@@ -9655,10 +9645,10 @@ var forms_Forms = function (_Component) {
                             { 'class': 'select md6 sm6 form-layout column' },
                             react_default.a.createElement(
                                 'div',
-                                { 'class': 'form-float-label form-select2' },
+                                { 'class': 'form-float-label form-select' },
                                 react_default.a.createElement(
                                     'select',
-                                    { 'class': 'form-control custom-select' },
+                                    { 'class': 'form-control custom-select', 'data-label': 'select-label4' },
                                     react_default.a.createElement(
                                         'option',
                                         { value: ' ' },
@@ -9727,7 +9717,7 @@ var forms_Forms = function (_Component) {
                                 ),
                                 react_default.a.createElement(
                                     'span',
-                                    { 'class': 'select-label hide' },
+                                    { 'class': 'select-label4 hide' },
                                     'Month'
                                 )
                             )
@@ -19166,7 +19156,7 @@ var header_Header = function (_Component) {
             if (jquery_default()(".main-menu-bar-secondary").length > 0) {
               top = jquery_default()(".main-menu-bar-secondary").height() + jquery_default()(".main-menu-bar-secondary").offset().top;
             }
-            jquery_default()("#mainMenusecondaryLightBox").css({ "top": top, "height": jquery_default()(document).height() });
+            // $("#mainMenusecondaryLightBox").css({ "top": top, "height": $(document).height() })
             jquery_default()("#mainMenusecondaryLightBox").fadeOut(0).fadeIn(200);
           }
           jquery_default()(".main-menu-secondary-li").addClass("main-menu-secondary-hover");
@@ -19316,7 +19306,7 @@ var header_Header = function (_Component) {
       jquery_default()('#menuPrimarySearch').unbind('focus').on('focus', function (event) {
         if (jquery_default()('#mainMenuSidePanelButton').filter(":visible").length < 1) {
           //Not the mobile nav
-          jquery_default()('.main-menu-bar-primary').css('height', jquery_default()('.main-menu-bar-primary').height());
+          // $('.main-menu-bar-primary').css('height', $('.main-menu-bar-primary').height());
           jquery_default()('.main-menu-primary-search-form').css('width', jquery_default()('.main-menu-primary-search').width());
           jquery_default()('.main-menu').addClass('main-menu-search-open');
           jquery_default()('.main-menu-primary-search-form').stop(true, false).animate({ width: jquery_default()('.main-menu-primary-search').width() }, 400, function () {
@@ -19444,14 +19434,15 @@ var header_Header = function (_Component) {
                 { className: 'main-menu-primary-item main-menu-primary-search' },
                 react_default.a.createElement(
                   'div',
-                  { className: 'main-menu-primary-search-form' },
+                  { className: 'main-menu-primary-search-form search-block' },
                   react_default.a.createElement(
                     'form',
                     { action: 'http://www.jcpenney.com/s/search' },
-                    react_default.a.createElement('input', { type: 'text', placeholder: 'Search Products', size: '20', 'aria-required': 'false', autocomplete: 'off', autocorrect: 'off', autocapitalize: 'off', spellcheck: 'off', id: 'menuPrimarySearch' }),
+                    react_default.a.createElement('input', { type: 'text', placeholder: 'Search Products', size: '20', required: true, 'aria-required': 'false', autocomplete: 'off', autocorrect: 'off', autocapitalize: 'off', spellcheck: 'off', id: 'menuPrimarySearch', className: 'input-text' }),
+                    react_default.a.createElement('button', { 'class': 'search-close-icon', type: 'reset' }),
                     react_default.a.createElement(
                       'button',
-                      { type: 'submit' },
+                      { type: 'submit', className: 'btn-search' },
                       react_default.a.createElement('div', { className: 'main-menu-primary-search-icon color-lipstick-svg icon', dangerouslySetInnerHTML: { __html: header_searchImage } })
                     )
                   )
@@ -25937,42 +25928,42 @@ var like_dislike_LikeDislike = function (_Component) {
                 null,
                 react_default.a.createElement(
                     'div',
-                    { className: 'row' },
+                    { 'class': 'row' },
                     react_default.a.createElement(
                         'div',
-                        { className: 'sm12 columns' },
+                        { 'class': 'sm12 columns' },
                         react_default.a.createElement(
                             'h1',
-                            { className: 'title title-XL mrg-L' },
+                            { 'class': 'title title-XL mrg-L' },
                             'Like / Dislike Messages'
                         ),
                         react_default.a.createElement(
                             'h2',
-                            { className: 'std-txt std-txt-XL mrg-L max-width-text' },
+                            { 'class': 'std-txt std-txt-XL mrg-L max-width-text' },
                             'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
                         )
                     )
                 ),
                 react_default.a.createElement(
                     'div',
-                    { className: 'row' },
+                    { 'class': 'row' },
                     react_default.a.createElement(
                         'div',
-                        { className: 'sm12 columns' },
+                        { 'class': 'sm12 columns' },
                         react_default.a.createElement(
                             'div',
-                            { className: 'product-card' },
+                            { 'class': 'product-card' },
                             react_default.a.createElement('img', { src: '/images/design-system/fpo/product-cards/product-like-dislike.jpg', alt: 'product-image' }),
                             react_default.a.createElement(
                                 'div',
-                                { className: 'like-icon' },
-                                react_default.a.createElement('span', { className: 'icon heart', dangerouslySetInnerHTML: { __html: like_dislike_heartfillImage } }),
+                                { 'class': 'like-icon' },
+                                react_default.a.createElement('span', { 'class': 'icon heart', dangerouslySetInnerHTML: { __html: like_dislike_heartfillImage } }),
                                 react_default.a.createElement(
                                     'div',
-                                    { className: 'tooltip tooltip-single tooltip-top-right' },
+                                    { 'class': 'tooltip tooltip-single tooltip-top-right' },
                                     react_default.a.createElement(
                                         'span',
-                                        { className: 'tooltip-content' },
+                                        { 'class': 'tooltip-content' },
                                         'Favorite'
                                     )
                                 )
@@ -25982,14 +25973,14 @@ var like_dislike_LikeDislike = function (_Component) {
                 ),
                 react_default.a.createElement(
                     'div',
-                    { className: 'row' },
+                    { 'class': 'row' },
                     react_default.a.createElement(
                         'div',
-                        { className: 'sm12 columns' },
+                        { 'class': 'sm12 columns' },
                         react_default.a.createElement('hr', null),
                         react_default.a.createElement(
                             'p',
-                            { className: 'S' },
+                            { 'class': 'S' },
                             'Created by: ',
                             react_default.a.createElement(
                                 'strong',
