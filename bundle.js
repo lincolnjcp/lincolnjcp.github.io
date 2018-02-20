@@ -8315,18 +8315,18 @@ var forms_Forms = function (_Component) {
                 null,
                 react_default.a.createElement(
                     'div',
-                    { className: 'row' },
+                    { 'class': 'row' },
                     react_default.a.createElement(
                         'div',
-                        { className: 'sm12 columns' },
+                        { 'class': 'sm12 columns' },
                         react_default.a.createElement(
                             'h1',
-                            { className: 'title title-XL mrg-L' },
+                            { 'class': 'title title-XL mrg-L' },
                             'Forms'
                         ),
                         react_default.a.createElement(
                             'h2',
-                            { className: 'std-txt std-txt-XL mrg-L max-width-text' },
+                            { 'class': 'std-txt std-txt-XL mrg-L max-width-text' },
                             'Vestibulum id ligula porta felis euismod semper. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.'
                         ),
                         react_default.a.createElement('hr', null)
@@ -8334,90 +8334,18 @@ var forms_Forms = function (_Component) {
                 ),
                 react_default.a.createElement(
                     'div',
-                    { className: 'row', id: 'code-generator' },
+                    { 'class': 'row', id: 'when-to-use' },
                     react_default.a.createElement(
                         'div',
-                        { className: 'sm12 columns' },
+                        { 'class': 'sm12 columns' },
                         react_default.a.createElement(
                             'h3',
-                            { className: 'title title-L mrg-L' },
-                            'Code Generator'
-                        ),
-                        react_default.a.createElement(CodeGenerator["a" /* default */], {
-                            formFields: [{
-                                fieldType: 'text',
-                                displayLabel: 'Text Label',
-                                name: 'code_button_text',
-                                value: 'My Button'
-                            }, {
-                                fieldType: 'select',
-                                displayLabel: 'Style',
-                                name: 'code_button_style',
-                                value: [{
-                                    text: 'Primary',
-                                    value: 'btn-primary'
-                                }, {
-                                    text: 'Secondary',
-                                    value: 'btn-secondary'
-                                }],
-                                defaultSelect: 'btn-primary'
-                            }, {
-                                fieldType: 'select',
-                                displayLabel: 'Size',
-                                name: 'code_button_size',
-                                value: [{
-                                    text: 'Medium',
-                                    value: 'btn-M'
-                                }, {
-                                    text: 'Large',
-                                    value: 'btn-L'
-                                }],
-                                defaultSelect: 'btn-L'
-                            }, {
-                                fieldType: 'checkbox',
-                                displayLabel: 'Full Width',
-                                name: 'code_button_width',
-                                value: 'btn-full',
-                                defaultSelect: ''
-                            }, {
-                                fieldType: 'checkbox',
-                                displayLabel: 'Disabled',
-                                name: 'code_button_disabled',
-                                value: 'btn-disabled',
-                                defaultSelect: ''
-                            }, {
-                                fieldType: 'checkbox',
-                                displayLabel: 'Display Content Loader',
-                                name: 'code_button_loader',
-                                value: 'none',
-                                defaultSelect: 'true'
-                            }],
-
-                            htmlPattern: [{
-                                default: [{
-                                    html: '<[[format_tag_start]]a[[format_tag_end]] [[format_attribute_start]]\n                                                            href="[[format_attribute_end]][[format_tag_value_start]]javascript:void();[[format_tag_value_end]][[format_attribute_start]]"\n                                                            class="[[format_attribute_end]][[format_tag_value_start]]btn [[code_button_size]] [[code_button_style]] [[code_button_width]] [[code_button_disabled]][[format_tag_value_end]][[format_attribute_start]]"[[format_attribute_end]]>\n                                                            [[format_tab_start]]\n                                                                [[code_button_text]]\n                                                            [[format_tab_end]]\n                                                        <[[format_tag_start]]/a[[format_tag_end]]>'
-                                }, {
-                                    javascript: ''
-                                }]
-                            }]
-
-                        })
-                    )
-                ),
-                react_default.a.createElement(
-                    'div',
-                    { className: 'row', id: 'when-to-use' },
-                    react_default.a.createElement(
-                        'div',
-                        { className: 'sm12 columns' },
-                        react_default.a.createElement(
-                            'h3',
-                            { className: 'title title-L mrg-L' },
+                            { 'class': 'title title-L mrg-L' },
                             'When to Use'
                         ),
                         react_default.a.createElement(
                             'p',
-                            { className: 'max-width-text' },
+                            { 'class': 'max-width-text' },
                             'Vestibulum id ligula porta felis euismod semper. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. ',
                             react_default.a.createElement('br', null),
                             react_default.a.createElement('br', null),
@@ -8426,15 +8354,15 @@ var forms_Forms = function (_Component) {
                     ),
                     react_default.a.createElement(
                         'div',
-                        { className: 'sm12 columns' },
+                        { 'class': 'sm12 columns' },
                         react_default.a.createElement(
                             'h5',
-                            { className: 'title title-M' },
+                            { 'class': 'title title-M' },
                             'Best Practices'
                         ),
                         react_default.a.createElement(
                             'ul',
-                            { className: 'list max-width-text color-slate' },
+                            { 'class': 'list max-width-text color-slate' },
                             react_default.a.createElement(
                                 'li',
                                 null,
@@ -8458,18 +8386,18 @@ var forms_Forms = function (_Component) {
                 ),
                 react_default.a.createElement(
                     'div',
-                    { className: 'row', id: 'appearance' },
+                    { 'class': 'row', id: 'appearance' },
                     react_default.a.createElement(
                         'div',
-                        { className: 'sm12 columns' },
+                        { 'class': 'sm12 columns' },
                         react_default.a.createElement(
                             'h3',
-                            { className: 'title title-L mrg-L' },
+                            { 'class': 'title title-L mrg-L' },
                             'Appearance'
                         ),
                         react_default.a.createElement(
                             'p',
-                            { className: 'max-width-text' },
+                            { 'class': 'max-width-text' },
                             'Vestibulum id ligula porta felis euismod semper. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. ',
                             react_default.a.createElement('br', null),
                             react_default.a.createElement('br', null),
@@ -8478,23 +8406,23 @@ var forms_Forms = function (_Component) {
                         ),
                         react_default.a.createElement(
                             'div',
-                            { className: 'row' },
+                            { 'class': 'row' },
                             react_default.a.createElement(
                                 'div',
-                                { className: 'sm12 columns input-form' },
+                                { 'class': 'sm12 columns input-form' },
                                 react_default.a.createElement(
                                     'div',
-                                    { className: 'row' },
+                                    { 'class': 'row' },
                                     react_default.a.createElement(
                                         'div',
-                                        { className: 'sm12 md4 columns' },
+                                        { 'class': 'sm12 md4 columns' },
                                         react_default.a.createElement(
                                             'div',
-                                            { className: 'input-group' },
+                                            { 'class': 'input-group' },
                                             react_default.a.createElement(
                                                 'div',
-                                                { className: 'form-float-label' },
-                                                react_default.a.createElement('input', { className: 'form-control email-text input-text', id: 'email', type: 'text', placeholder: 'Email ' }),
+                                                { 'class': 'form-float-label' },
+                                                react_default.a.createElement('input', { 'class': 'form-control email-text input-text', id: 'email', type: 'text', placeholder: 'Email ' }),
                                                 react_default.a.createElement(
                                                     'label',
                                                     { htmlFor: 'email' },
@@ -8505,15 +8433,15 @@ var forms_Forms = function (_Component) {
                                     ),
                                     react_default.a.createElement(
                                         'div',
-                                        { className: 'sm12 md8 columns' },
+                                        { 'class': 'sm12 md8 columns' },
                                         react_default.a.createElement(
                                             'h4',
-                                            { className: 'title title-M mrg-L' },
+                                            { 'class': 'title title-M mrg-L' },
                                             'Text Field'
                                         ),
                                         react_default.a.createElement(
                                             'p',
-                                            { className: 'max-width-text' },
+                                            { 'class': 'max-width-text' },
                                             'Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus.',
                                             react_default.a.createElement('br', null),
                                             react_default.a.createElement('br', null),
@@ -8524,22 +8452,22 @@ var forms_Forms = function (_Component) {
                             ),
                             react_default.a.createElement(
                                 'div',
-                                { className: 'sm12 columns select-form' },
+                                { 'class': 'sm12 columns select-form' },
                                 react_default.a.createElement(
                                     'div',
-                                    { className: 'row' },
+                                    { 'class': 'row' },
                                     react_default.a.createElement(
                                         'div',
-                                        { className: 'sm12 md4 columns' },
+                                        { 'class': 'sm12 md4 columns' },
                                         react_default.a.createElement(
                                             'div',
-                                            { className: 'select' },
+                                            { 'class': 'select' },
                                             react_default.a.createElement(
                                                 'div',
-                                                { className: 'form-float-label form-select1' },
+                                                { 'class': 'form-float-label form-select1' },
                                                 react_default.a.createElement(
                                                     'select',
-                                                    { className: 'form-control custom-select' },
+                                                    { 'class': 'form-control custom-select' },
                                                     react_default.a.createElement(
                                                         'option',
                                                         { value: ' ' },
@@ -8608,7 +8536,7 @@ var forms_Forms = function (_Component) {
                                                 ),
                                                 react_default.a.createElement(
                                                     'span',
-                                                    { className: 'select-label hide' },
+                                                    { 'class': 'select-label hide' },
                                                     'Month'
                                                 )
                                             )
@@ -8616,15 +8544,15 @@ var forms_Forms = function (_Component) {
                                     ),
                                     react_default.a.createElement(
                                         'div',
-                                        { className: 'sm12 md8 columns' },
+                                        { 'class': 'sm12 md8 columns' },
                                         react_default.a.createElement(
                                             'h4',
-                                            { className: 'title title-M mrg-L' },
+                                            { 'class': 'title title-M mrg-L' },
                                             'Select Input'
                                         ),
                                         react_default.a.createElement(
                                             'p',
-                                            { className: 'max-width-text' },
+                                            { 'class': 'max-width-text' },
                                             'Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus.',
                                             react_default.a.createElement('br', null),
                                             react_default.a.createElement('br', null),
@@ -8635,20 +8563,20 @@ var forms_Forms = function (_Component) {
                             ),
                             react_default.a.createElement(
                                 'div',
-                                { className: 'sm12 columns text-area-form input-form' },
+                                { 'class': 'sm12 columns text-area-form input-form' },
                                 react_default.a.createElement(
                                     'div',
-                                    { className: 'row' },
+                                    { 'class': 'row' },
                                     react_default.a.createElement(
                                         'div',
-                                        { className: 'sm12 md4 columns' },
+                                        { 'class': 'sm12 md4 columns' },
                                         react_default.a.createElement(
                                             'div',
-                                            { className: 'input-group' },
+                                            { 'class': 'input-group' },
                                             react_default.a.createElement(
                                                 'div',
-                                                { className: 'form-float-label' },
-                                                react_default.a.createElement('textarea', { className: 'form-control input-text text-area', name: 'instructions', placeholder: 'Delivery Instructions' }),
+                                                { 'class': 'form-float-label' },
+                                                react_default.a.createElement('textarea', { 'class': 'form-control input-text text-area', name: 'instructions', placeholder: 'Delivery Instructions' }),
                                                 react_default.a.createElement(
                                                     'label',
                                                     { htmlFor: 'instructions' },
@@ -8659,15 +8587,15 @@ var forms_Forms = function (_Component) {
                                     ),
                                     react_default.a.createElement(
                                         'div',
-                                        { className: 'sm12 md8 columns' },
+                                        { 'class': 'sm12 md8 columns' },
                                         react_default.a.createElement(
                                             'h4',
-                                            { className: 'title title-M mrg-L' },
+                                            { 'class': 'title title-M mrg-L' },
                                             'Textarea'
                                         ),
                                         react_default.a.createElement(
                                             'p',
-                                            { className: 'max-width-text' },
+                                            { 'class': 'max-width-text' },
                                             'Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus.',
                                             react_default.a.createElement('br', null),
                                             react_default.a.createElement('br', null),
@@ -8678,29 +8606,29 @@ var forms_Forms = function (_Component) {
                             ),
                             react_default.a.createElement(
                                 'div',
-                                { className: 'sm12 columns radio-button-form' },
+                                { 'class': 'sm12 columns radio-button-form' },
                                 react_default.a.createElement(
                                     'div',
-                                    { className: 'row' },
+                                    { 'class': 'row' },
                                     react_default.a.createElement(
                                         'div',
-                                        { className: 'sm12 md4 columns' },
+                                        { 'class': 'sm12 md4 columns' },
                                         react_default.a.createElement(
                                             'div',
-                                            { className: 'input-group' },
+                                            { 'class': 'input-group' },
                                             react_default.a.createElement(
                                                 'div',
-                                                { className: 'mrg-XL' },
+                                                { 'class': 'mrg-XL' },
                                                 react_default.a.createElement('input', { type: 'radio', id: 'two', name: 'name', value: '', defaultChecked: 'false' }),
                                                 react_default.a.createElement(
                                                     'label',
                                                     { htmlFor: 'two' },
                                                     react_default.a.createElement(
                                                         'p',
-                                                        { className: 'std-txt std-txt-M' },
+                                                        { 'class': 'std-txt std-txt-M' },
                                                         react_default.a.createElement(
                                                             'span',
-                                                            { className: 'color-penneyred' },
+                                                            { 'class': 'color-penneyred' },
                                                             'FREE'
                                                         ),
                                                         ' Store Pickup Today at ',
@@ -8715,31 +8643,31 @@ var forms_Forms = function (_Component) {
                                             ),
                                             react_default.a.createElement(
                                                 'div',
-                                                { className: 'mrg-XL' },
+                                                { 'class': 'mrg-XL' },
                                                 react_default.a.createElement('input', { type: 'radio', disabled: true, id: 'three', name: 'name', value: '' }),
                                                 react_default.a.createElement(
                                                     'label',
                                                     { htmlFor: 'three' },
                                                     react_default.a.createElement(
                                                         'span',
-                                                        { className: 'std-txt' },
+                                                        { 'class': 'std-txt' },
                                                         'Arrives May 5th - May 23rd'
                                                     )
                                                 )
                                             ),
                                             react_default.a.createElement(
                                                 'div',
-                                                { className: 'mrg-XL' },
+                                                { 'class': 'mrg-XL' },
                                                 react_default.a.createElement('input', { type: 'radio', id: 'two', name: 'name', value: '', defaultChecked: 'false' }),
                                                 react_default.a.createElement(
                                                     'label',
                                                     { htmlFor: 'two' },
                                                     react_default.a.createElement(
                                                         'p',
-                                                        { className: 'std-txt std-txt-M' },
+                                                        { 'class': 'std-txt std-txt-M' },
                                                         react_default.a.createElement(
                                                             'span',
-                                                            { className: 'color-penneyred' },
+                                                            { 'class': 'color-penneyred' },
                                                             'FREE'
                                                         ),
                                                         ' Store Pickup Today at ',
@@ -8754,17 +8682,17 @@ var forms_Forms = function (_Component) {
                                             ),
                                             react_default.a.createElement(
                                                 'div',
-                                                { className: 'mrg-XL' },
+                                                { 'class': 'mrg-XL' },
                                                 react_default.a.createElement('input', { type: 'radio', disabled: true, id: 'three', name: 'name', value: '' }),
                                                 react_default.a.createElement(
                                                     'label',
                                                     { htmlFor: 'three' },
                                                     react_default.a.createElement(
                                                         'p',
-                                                        { className: 'std-txt std-txt-M' },
+                                                        { 'class': 'std-txt std-txt-M' },
                                                         react_default.a.createElement(
                                                             'span',
-                                                            { className: 'color-penneyred' },
+                                                            { 'class': 'color-penneyred' },
                                                             'FREE'
                                                         ),
                                                         ' Store Pickup Today at ',
@@ -8781,15 +8709,15 @@ var forms_Forms = function (_Component) {
                                     ),
                                     react_default.a.createElement(
                                         'div',
-                                        { className: 'sm12 md8 columns' },
+                                        { 'class': 'sm12 md8 columns' },
                                         react_default.a.createElement(
                                             'h4',
-                                            { className: 'title title-M mrg-L' },
+                                            { 'class': 'title title-M mrg-L' },
                                             'Radio Button'
                                         ),
                                         react_default.a.createElement(
                                             'p',
-                                            { className: 'max-width-text' },
+                                            { 'class': 'max-width-text' },
                                             'Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus.',
                                             react_default.a.createElement('br', null),
                                             react_default.a.createElement('br', null),
@@ -8800,19 +8728,19 @@ var forms_Forms = function (_Component) {
                             ),
                             react_default.a.createElement(
                                 'div',
-                                { className: 'sm12 columns checkbox-form' },
+                                { 'class': 'sm12 columns checkbox-form' },
                                 react_default.a.createElement(
                                     'div',
-                                    { className: 'row' },
+                                    { 'class': 'row' },
                                     react_default.a.createElement(
                                         'div',
-                                        { className: 'sm12 md4 columns' },
+                                        { 'class': 'sm12 md4 columns' },
                                         react_default.a.createElement(
                                             'div',
-                                            { className: 'input-group' },
+                                            { 'class': 'input-group' },
                                             react_default.a.createElement(
                                                 'label',
-                                                { className: 'checkbox mrg-M' },
+                                                { 'class': 'checkbox mrg-M' },
                                                 react_default.a.createElement('input', { type: 'checkbox', disabled: 'true' }),
                                                 ' ',
                                                 react_default.a.createElement(
@@ -8823,7 +8751,7 @@ var forms_Forms = function (_Component) {
                                             ),
                                             react_default.a.createElement(
                                                 'label',
-                                                { className: 'checkbox mrg-M' },
+                                                { 'class': 'checkbox mrg-M' },
                                                 react_default.a.createElement('input', { type: 'checkbox' }),
                                                 ' ',
                                                 react_default.a.createElement(
@@ -8834,7 +8762,7 @@ var forms_Forms = function (_Component) {
                                             ),
                                             react_default.a.createElement(
                                                 'label',
-                                                { className: 'checkbox mrg-M' },
+                                                { 'class': 'checkbox mrg-M' },
                                                 react_default.a.createElement('input', { type: 'checkbox', defaultChecked: 'true' }),
                                                 ' ',
                                                 react_default.a.createElement(
@@ -8845,7 +8773,7 @@ var forms_Forms = function (_Component) {
                                             ),
                                             react_default.a.createElement(
                                                 'label',
-                                                { className: 'checkbox checkbox-M mrg-M' },
+                                                { 'class': 'checkbox checkbox-M mrg-M' },
                                                 react_default.a.createElement('input', { type: 'checkbox' }),
                                                 ' ',
                                                 react_default.a.createElement(
@@ -8856,7 +8784,7 @@ var forms_Forms = function (_Component) {
                                             ),
                                             react_default.a.createElement(
                                                 'label',
-                                                { className: 'checkbox checkbox-S mrg-M' },
+                                                { 'class': 'checkbox checkbox-S mrg-M' },
                                                 react_default.a.createElement('input', { type: 'checkbox' }),
                                                 ' ',
                                                 react_default.a.createElement(
@@ -8870,15 +8798,15 @@ var forms_Forms = function (_Component) {
                                     ),
                                     react_default.a.createElement(
                                         'div',
-                                        { className: 'sm12 md8 columns' },
+                                        { 'class': 'sm12 md8 columns' },
                                         react_default.a.createElement(
                                             'h4',
-                                            { className: 'title title-M mrg-L' },
+                                            { 'class': 'title title-M mrg-L' },
                                             'Checkbox'
                                         ),
                                         react_default.a.createElement(
                                             'p',
-                                            { className: 'max-width-text' },
+                                            { 'class': 'max-width-text' },
                                             'Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus.',
                                             react_default.a.createElement('br', null),
                                             react_default.a.createElement('br', null),
@@ -8889,20 +8817,20 @@ var forms_Forms = function (_Component) {
                             ),
                             react_default.a.createElement(
                                 'div',
-                                { className: 'sm12 columns input-form' },
+                                { 'class': 'sm12 columns input-form' },
                                 react_default.a.createElement(
                                     'div',
-                                    { className: 'row' },
+                                    { 'class': 'row' },
                                     react_default.a.createElement(
                                         'div',
-                                        { className: 'sm12 md4 columns' },
+                                        { 'class': 'sm12 md4 columns' },
                                         react_default.a.createElement(
                                             'div',
-                                            { className: 'input-group' },
+                                            { 'class': 'input-group' },
                                             react_default.a.createElement(
                                                 'div',
-                                                { className: 'form-float-label' },
-                                                react_default.a.createElement('input', { className: 'form-control input-text', id: 'phone-number', maxLength: '14', type: 'text', placeholder: '( ___ ) ___-____' }),
+                                                { 'class': 'form-float-label' },
+                                                react_default.a.createElement('input', { 'class': 'form-control input-text', id: 'phone-number', maxLength: '14', type: 'text', placeholder: '( ___ ) ___-____' }),
                                                 react_default.a.createElement(
                                                     'label',
                                                     { htmlFor: 'Phone' },
@@ -8913,15 +8841,15 @@ var forms_Forms = function (_Component) {
                                     ),
                                     react_default.a.createElement(
                                         'div',
-                                        { className: 'sm12 md8 columns' },
+                                        { 'class': 'sm12 md8 columns' },
                                         react_default.a.createElement(
                                             'h4',
-                                            { className: 'title title-M mrg-L' },
+                                            { 'class': 'title title-M mrg-L' },
                                             'Phone Number'
                                         ),
                                         react_default.a.createElement(
                                             'p',
-                                            { className: 'max-width-text' },
+                                            { 'class': 'max-width-text' },
                                             'Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus.',
                                             react_default.a.createElement('br', null),
                                             react_default.a.createElement('br', null),
@@ -8932,40 +8860,40 @@ var forms_Forms = function (_Component) {
                             ),
                             react_default.a.createElement(
                                 'div',
-                                { className: 'sm12 columns input-form' },
+                                { 'class': 'sm12 columns input-form' },
                                 react_default.a.createElement(
                                     'div',
-                                    { className: 'row' },
+                                    { 'class': 'row' },
                                     react_default.a.createElement(
                                         'div',
-                                        { className: 'sm12 md4 columns' },
+                                        { 'class': 'sm12 md4 columns' },
                                         react_default.a.createElement(
                                             'div',
-                                            { className: 'input-group credit-card-form' },
+                                            { 'class': 'input-group credit-card-form' },
                                             react_default.a.createElement(
                                                 'div',
-                                                { className: 'form-float-label' },
-                                                react_default.a.createElement('input', { id: 'creditcard', type: 'tel', maxLength: '16', name: 'ccnumber', placeholder: ' ', className: 'form-control creditcard-text input-text masked' }),
+                                                { 'class': 'form-float-label' },
+                                                react_default.a.createElement('input', { id: 'creditcard', type: 'tel', maxLength: '16', name: 'ccnumber', placeholder: ' ', 'class': 'form-control creditcard-text input-text masked' }),
                                                 react_default.a.createElement(
                                                     'label',
-                                                    { className: 'creditcard', htmlFor: 'creditcard' },
+                                                    { 'class': 'creditcard', htmlFor: 'creditcard' },
                                                     'Card Number'
                                                 ),
-                                                react_default.a.createElement('span', { className: 'icon credit-card-icon', dangerouslySetInnerHTML: { __html: forms_cardneutralImage } })
+                                                react_default.a.createElement('span', { 'class': 'icon credit-card-icon', dangerouslySetInnerHTML: { __html: forms_cardneutralImage } })
                                             )
                                         )
                                     ),
                                     react_default.a.createElement(
                                         'div',
-                                        { className: 'sm12 md8 columns' },
+                                        { 'class': 'sm12 md8 columns' },
                                         react_default.a.createElement(
                                             'h4',
-                                            { className: 'title title-M mrg-L' },
+                                            { 'class': 'title title-M mrg-L' },
                                             'Credit Card'
                                         ),
                                         react_default.a.createElement(
                                             'p',
-                                            { className: 'max-width-text' },
+                                            { 'class': 'max-width-text' },
                                             'Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus.',
                                             react_default.a.createElement('br', null),
                                             react_default.a.createElement('br', null),
@@ -8976,20 +8904,20 @@ var forms_Forms = function (_Component) {
                             ),
                             react_default.a.createElement(
                                 'div',
-                                { className: 'sm12 columns input-form password-form' },
+                                { 'class': 'sm12 columns input-form password-form' },
                                 react_default.a.createElement(
                                     'div',
-                                    { className: 'row' },
+                                    { 'class': 'row' },
                                     react_default.a.createElement(
                                         'div',
-                                        { className: 'sm12 md4 columns' },
+                                        { 'class': 'sm12 md4 columns' },
                                         react_default.a.createElement(
                                             'div',
-                                            { className: 'position-rel' },
+                                            { 'class': 'position-rel' },
                                             react_default.a.createElement(
                                                 'div',
-                                                { className: 'form-float-label' },
-                                                react_default.a.createElement('input', { className: 'form-control input-text', id: 'password', maxLength: '16', type: 'password', placeholder: '\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022' }),
+                                                { 'class': 'form-float-label' },
+                                                react_default.a.createElement('input', { 'class': 'form-control input-text', id: 'password', maxLength: '16', type: 'password', placeholder: '\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022' }),
                                                 react_default.a.createElement(
                                                     'label',
                                                     { htmlFor: 'password' },
@@ -8998,22 +8926,22 @@ var forms_Forms = function (_Component) {
                                             ),
                                             react_default.a.createElement(
                                                 'a',
-                                                { href: 'javascript:void(0);', className: 'show-pwd' },
+                                                { href: 'javascript:void(0);', 'class': 'show-pwd' },
                                                 'show'
                                             )
                                         )
                                     ),
                                     react_default.a.createElement(
                                         'div',
-                                        { className: 'sm12 md8 columns' },
+                                        { 'class': 'sm12 md8 columns' },
                                         react_default.a.createElement(
                                             'h4',
-                                            { className: 'title title-M mrg-L' },
+                                            { 'class': 'title title-M mrg-L' },
                                             'Password'
                                         ),
                                         react_default.a.createElement(
                                             'p',
-                                            { className: 'max-width-text' },
+                                            { 'class': 'max-width-text' },
                                             'Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus.',
                                             react_default.a.createElement('br', null),
                                             react_default.a.createElement('br', null),
@@ -9024,28 +8952,28 @@ var forms_Forms = function (_Component) {
                             ),
                             react_default.a.createElement(
                                 'div',
-                                { className: 'sm12 columns select-form' },
+                                { 'class': 'sm12 columns select-form' },
                                 react_default.a.createElement(
                                     'div',
-                                    { className: 'row' },
+                                    { 'class': 'row' },
                                     react_default.a.createElement(
                                         'div',
-                                        { className: 'sm12 md4 columns' },
+                                        { 'class': 'sm12 md4 columns' },
                                         react_default.a.createElement(
                                             'div',
-                                            { className: 'row' },
+                                            { 'class': 'row' },
                                             react_default.a.createElement(
                                                 'div',
-                                                { className: 'sm6 columns' },
+                                                { 'class': 'sm6 columns' },
                                                 react_default.a.createElement(
                                                     'div',
-                                                    { className: 'select' },
+                                                    { 'class': 'select' },
                                                     react_default.a.createElement(
                                                         'div',
-                                                        { className: 'form-float-label form-select2' },
+                                                        { 'class': 'form-float-label form-select2' },
                                                         react_default.a.createElement(
                                                             'select',
-                                                            { className: 'form-control custom-select' },
+                                                            { 'class': 'form-control custom-select' },
                                                             react_default.a.createElement(
                                                                 'option',
                                                                 { value: ' ' },
@@ -9114,7 +9042,7 @@ var forms_Forms = function (_Component) {
                                                         ),
                                                         react_default.a.createElement(
                                                             'span',
-                                                            { className: 'select-label hide' },
+                                                            { 'class': 'select-label hide' },
                                                             'Month'
                                                         )
                                                     )
@@ -9122,16 +9050,16 @@ var forms_Forms = function (_Component) {
                                             ),
                                             react_default.a.createElement(
                                                 'div',
-                                                { className: 'sm6 columns' },
+                                                { 'class': 'sm6 columns' },
                                                 react_default.a.createElement(
                                                     'div',
-                                                    { className: 'select' },
+                                                    { 'class': 'select' },
                                                     react_default.a.createElement(
                                                         'div',
-                                                        { className: 'form-float-label form-select3' },
+                                                        { 'class': 'form-float-label form-select3' },
                                                         react_default.a.createElement(
                                                             'select',
-                                                            { className: 'form-control custom-select' },
+                                                            { 'class': 'form-control custom-select' },
                                                             react_default.a.createElement(
                                                                 'option',
                                                                 { value: ' ' },
@@ -9200,7 +9128,7 @@ var forms_Forms = function (_Component) {
                                                         ),
                                                         react_default.a.createElement(
                                                             'span',
-                                                            { className: 'select-label hide' },
+                                                            { 'class': 'select-label hide' },
                                                             'Year'
                                                         )
                                                     )
@@ -9210,15 +9138,15 @@ var forms_Forms = function (_Component) {
                                     ),
                                     react_default.a.createElement(
                                         'div',
-                                        { className: 'sm12 md8 columns' },
+                                        { 'class': 'sm12 md8 columns' },
                                         react_default.a.createElement(
                                             'h4',
-                                            { className: 'title title-M mrg-L' },
+                                            { 'class': 'title title-M mrg-L' },
                                             'Condensed Fields'
                                         ),
                                         react_default.a.createElement(
                                             'p',
-                                            { className: 'max-width-text' },
+                                            { 'class': 'max-width-text' },
                                             'Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus.',
                                             react_default.a.createElement('br', null),
                                             react_default.a.createElement('br', null),
@@ -9229,40 +9157,40 @@ var forms_Forms = function (_Component) {
                             ),
                             react_default.a.createElement(
                                 'div',
-                                { className: 'sm12 columns input-form' },
+                                { 'class': 'sm12 columns input-form' },
                                 react_default.a.createElement(
                                     'div',
-                                    { className: 'row' },
+                                    { 'class': 'row' },
                                     react_default.a.createElement(
                                         'div',
-                                        { className: 'sm12 md4 columns' },
+                                        { 'class': 'sm12 md4 columns' },
                                         react_default.a.createElement(
                                             'div',
-                                            { className: 'position-rel search-block' },
+                                            { 'class': 'position-rel search-block' },
                                             react_default.a.createElement(
                                                 'div',
-                                                { className: 'form-float-label' },
+                                                { 'class': 'form-float-label' },
                                                 react_default.a.createElement(
                                                     'form',
                                                     null,
-                                                    react_default.a.createElement('input', { type: 'text', id: 'search', name: 'focus', placeholder: 'Search Products', required: true, className: 'input-text placeholder-text' }),
+                                                    react_default.a.createElement('input', { type: 'text', id: 'search', name: 'focus', placeholder: 'Search Products', required: true, 'class': 'input-text placeholder-text' }),
                                                     react_default.a.createElement('button', { 'class': 'search-close-icon', type: 'reset' })
                                                 )
                                             ),
-                                            react_default.a.createElement('span', { className: 'icon search-icon color-lipstick-svg', dangerouslySetInnerHTML: { __html: searchIcon } })
+                                            react_default.a.createElement('span', { 'class': 'icon search-icon color-lipstick-svg', dangerouslySetInnerHTML: { __html: searchIcon } })
                                         )
                                     ),
                                     react_default.a.createElement(
                                         'div',
-                                        { className: 'sm12 md8 columns' },
+                                        { 'class': 'sm12 md8 columns' },
                                         react_default.a.createElement(
                                             'h4',
-                                            { className: 'title title-M mrg-L' },
+                                            { 'class': 'title title-M mrg-L' },
                                             'Search Box'
                                         ),
                                         react_default.a.createElement(
                                             'p',
-                                            { className: 'max-width-text' },
+                                            { 'class': 'max-width-text' },
                                             'Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus.',
                                             react_default.a.createElement('br', null),
                                             react_default.a.createElement('br', null),
@@ -9273,30 +9201,30 @@ var forms_Forms = function (_Component) {
                             ),
                             react_default.a.createElement(
                                 'div',
-                                { className: 'sm12 columns input-form' },
+                                { 'class': 'sm12 columns input-form' },
                                 react_default.a.createElement(
                                     'div',
-                                    { className: 'row' },
+                                    { 'class': 'row' },
                                     react_default.a.createElement(
                                         'div',
-                                        { className: 'sm12 md4 columns' },
+                                        { 'class': 'sm12 md4 columns' },
                                         react_default.a.createElement(
                                             'div',
-                                            { className: 'input-form-store-locator' },
+                                            { 'class': 'input-form-store-locator' },
                                             react_default.a.createElement(
                                                 'div',
-                                                { className: 'input-form-store-locator-field-1' },
-                                                react_default.a.createElement('input', { className: 'form-control input-text zipcode_text placeholder-text', id: 'search', type: 'text', placeholder: 'Zip Code' })
+                                                { 'class': 'input-form-store-locator-field-1' },
+                                                react_default.a.createElement('input', { 'class': 'form-control input-text zipcode_text placeholder-text', id: 'search', type: 'text', placeholder: 'Zip Code' })
                                             ),
                                             react_default.a.createElement(
                                                 'div',
-                                                { className: 'input-form-store-locator-field-2' },
+                                                { 'class': 'input-form-store-locator-field-2' },
                                                 react_default.a.createElement(
                                                     'div',
-                                                    { className: 'select' },
+                                                    { 'class': 'select' },
                                                     react_default.a.createElement(
                                                         'select',
-                                                        { className: 'form-control custom-select' },
+                                                        { 'class': 'form-control custom-select' },
                                                         react_default.a.createElement(
                                                             'option',
                                                             { value: '5' },
@@ -9322,22 +9250,22 @@ var forms_Forms = function (_Component) {
                                             ),
                                             react_default.a.createElement(
                                                 'button',
-                                                { type: 'submit', className: 'search-icon' },
-                                                react_default.a.createElement('span', { className: 'icon color-lipstick-svg', dangerouslySetInnerHTML: { __html: searchIcon } })
+                                                { type: 'submit', 'class': 'search-icon' },
+                                                react_default.a.createElement('span', { 'class': 'icon color-lipstick-svg', dangerouslySetInnerHTML: { __html: searchIcon } })
                                             )
                                         )
                                     ),
                                     react_default.a.createElement(
                                         'div',
-                                        { className: 'sm12 md8 columns' },
+                                        { 'class': 'sm12 md8 columns' },
                                         react_default.a.createElement(
                                             'h4',
-                                            { className: 'title title-M mrg-L' },
+                                            { 'class': 'title title-M mrg-L' },
                                             'Store Locator'
                                         ),
                                         react_default.a.createElement(
                                             'p',
-                                            { className: 'max-width-text' },
+                                            { 'class': 'max-width-text' },
                                             'Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus.',
                                             react_default.a.createElement('br', null),
                                             react_default.a.createElement('br', null),
@@ -9348,20 +9276,20 @@ var forms_Forms = function (_Component) {
                             ),
                             react_default.a.createElement(
                                 'div',
-                                { className: 'sm12 columns input-form' },
+                                { 'class': 'sm12 columns input-form' },
                                 react_default.a.createElement(
                                     'div',
-                                    { className: 'row' },
+                                    { 'class': 'row' },
                                     react_default.a.createElement(
                                         'div',
-                                        { className: 'sm12 md4 columns' },
+                                        { 'class': 'sm12 md4 columns' },
                                         react_default.a.createElement(
                                             'div',
-                                            { className: 'position-rel' },
+                                            { 'class': 'position-rel' },
                                             react_default.a.createElement(
                                                 'div',
-                                                { className: 'form-float-label' },
-                                                react_default.a.createElement('input', { type: 'tel', id: 'zipcode', name: 'zipcode', placeholder: 'Enter Code', required: true, className: 'input-text placeholder-text' }),
+                                                { 'class': 'form-float-label' },
+                                                react_default.a.createElement('input', { type: 'tel', id: 'zipcode', name: 'zipcode', placeholder: 'Enter Code', required: true, 'class': 'input-text placeholder-text' }),
                                                 react_default.a.createElement(
                                                     'label',
                                                     { htmlFor: 'zipcode' },
@@ -9369,7 +9297,7 @@ var forms_Forms = function (_Component) {
                                                 ),
                                                 react_default.a.createElement(
                                                     'a',
-                                                    { href: 'javascript:void();', role: 'button', className: 'btn btn-S btn-primary apply-btn' },
+                                                    { href: 'javascript:void();', role: 'button', 'class': 'btn btn-S btn-primary apply-btn' },
                                                     'Apply'
                                                 )
                                             )
@@ -9377,15 +9305,15 @@ var forms_Forms = function (_Component) {
                                     ),
                                     react_default.a.createElement(
                                         'div',
-                                        { className: 'sm12 md8 columns' },
+                                        { 'class': 'sm12 md8 columns' },
                                         react_default.a.createElement(
                                             'h4',
-                                            { className: 'title title-M mrg-L' },
+                                            { 'class': 'title title-M mrg-L' },
                                             'Inline Action'
                                         ),
                                         react_default.a.createElement(
                                             'p',
-                                            { className: 'max-width-text' },
+                                            { 'class': 'max-width-text' },
                                             'Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus.',
                                             react_default.a.createElement('br', null),
                                             react_default.a.createElement('br', null),
@@ -9396,40 +9324,40 @@ var forms_Forms = function (_Component) {
                             ),
                             react_default.a.createElement(
                                 'div',
-                                { className: 'sm12 columns input-form' },
+                                { 'class': 'sm12 columns input-form' },
                                 react_default.a.createElement(
                                     'div',
-                                    { className: 'row' },
+                                    { 'class': 'row' },
                                     react_default.a.createElement(
                                         'div',
-                                        { className: 'sm12 md4 columns' },
+                                        { 'class': 'sm12 md4 columns' },
                                         react_default.a.createElement(
                                             'div',
-                                            { className: 'position-rel' },
+                                            { 'class': 'position-rel' },
                                             react_default.a.createElement(
                                                 'div',
-                                                { className: 'form-float-label' },
-                                                react_default.a.createElement('input', { type: 'text', id: 'date', name: 'date', placeholder: 'mm/dd/yyyy', required: true, className: 'input-text input-birthday placeholder-text' }),
+                                                { 'class': 'form-float-label' },
+                                                react_default.a.createElement('input', { type: 'text', id: 'date', name: 'date', placeholder: 'mm/dd/yyyy', required: true, 'class': 'input-text input-birthday placeholder-text' }),
                                                 react_default.a.createElement(
                                                     'label',
                                                     { htmlFor: 'date' },
                                                     'Birthday (Optional)'
                                                 )
                                             ),
-                                            react_default.a.createElement('span', { className: 'icon tooltip-icon', dangerouslySetInnerHTML: { __html: tooltipIcon } })
+                                            react_default.a.createElement('span', { 'class': 'icon tooltip-icon', dangerouslySetInnerHTML: { __html: tooltipIcon } })
                                         )
                                     ),
                                     react_default.a.createElement(
                                         'div',
-                                        { className: 'sm12 md8 columns' },
+                                        { 'class': 'sm12 md8 columns' },
                                         react_default.a.createElement(
                                             'h4',
-                                            { className: 'title title-M mrg-L' },
+                                            { 'class': 'title title-M mrg-L' },
                                             'Optional Fields with Tooltip'
                                         ),
                                         react_default.a.createElement(
                                             'p',
-                                            { className: 'max-width-text' },
+                                            { 'class': 'max-width-text' },
                                             'Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus.',
                                             react_default.a.createElement('br', null),
                                             react_default.a.createElement('br', null),
@@ -9440,23 +9368,23 @@ var forms_Forms = function (_Component) {
                             ),
                             react_default.a.createElement(
                                 'div',
-                                { className: 'sm12 columns input-form' },
+                                { 'class': 'sm12 columns input-form' },
                                 react_default.a.createElement(
                                     'div',
-                                    { className: 'row' },
+                                    { 'class': 'row' },
                                     react_default.a.createElement(
                                         'div',
-                                        { className: 'sm12 md4 columns' },
+                                        { 'class': 'sm12 md4 columns' },
                                         react_default.a.createElement(
                                             'div',
-                                            { className: 'input-group' },
+                                            { 'class': 'input-group' },
                                             react_default.a.createElement(
                                                 'div',
-                                                { className: 'form-float-label' },
-                                                react_default.a.createElement('input', { className: 'form-control email-text input-text disabled', id: 'disemail', type: 'text', value: ' ', disabled: true }),
+                                                { 'class': 'form-float-label' },
+                                                react_default.a.createElement('input', { 'class': 'form-control email-text input-text disabled', id: 'disemail', type: 'text', value: ' ', disabled: true }),
                                                 react_default.a.createElement(
                                                     'label',
-                                                    { htmlFor: 'disemail', className: 'disabled-label' },
+                                                    { htmlFor: 'disemail', 'class': 'disabled-label' },
                                                     'Email'
                                                 )
                                             )
@@ -9464,15 +9392,15 @@ var forms_Forms = function (_Component) {
                                     ),
                                     react_default.a.createElement(
                                         'div',
-                                        { className: 'sm12 md8 columns' },
+                                        { 'class': 'sm12 md8 columns' },
                                         react_default.a.createElement(
                                             'h4',
-                                            { className: 'title title-M mrg-L' },
+                                            { 'class': 'title title-M mrg-L' },
                                             'Disabled'
                                         ),
                                         react_default.a.createElement(
                                             'p',
-                                            { className: 'max-width-text' },
+                                            { 'class': 'max-width-text' },
                                             'Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus.',
                                             react_default.a.createElement('br', null),
                                             react_default.a.createElement('br', null),
@@ -9484,20 +9412,20 @@ var forms_Forms = function (_Component) {
                             ),
                             react_default.a.createElement(
                                 'div',
-                                { className: 'sm12 columns input-form' },
+                                { 'class': 'sm12 columns input-form' },
                                 react_default.a.createElement(
                                     'div',
-                                    { className: 'row' },
+                                    { 'class': 'row' },
                                     react_default.a.createElement(
                                         'div',
-                                        { className: 'sm12 md4 columns' },
+                                        { 'class': 'sm12 md4 columns' },
                                         react_default.a.createElement(
                                             'div',
-                                            { className: 'position-rel' },
+                                            { 'class': 'position-rel' },
                                             react_default.a.createElement(
                                                 'div',
-                                                { className: 'form-float-label' },
-                                                react_default.a.createElement('input', { className: 'form-control input-text', id: 'date-picker', maxLength: '5', type: 'text', placeholder: '11/07/2017' }),
+                                                { 'class': 'form-float-label' },
+                                                react_default.a.createElement('input', { 'class': 'form-control input-text', id: 'date-picker', maxLength: '5', type: 'text', placeholder: '11/07/2017' }),
                                                 react_default.a.createElement(
                                                     'label',
                                                     { htmlFor: 'date-picker' },
@@ -9508,15 +9436,15 @@ var forms_Forms = function (_Component) {
                                     ),
                                     react_default.a.createElement(
                                         'div',
-                                        { className: 'sm12 md8 columns' },
+                                        { 'class': 'sm12 md8 columns' },
                                         react_default.a.createElement(
                                             'h4',
-                                            { className: 'title title-M mrg-L' },
+                                            { 'class': 'title title-M mrg-L' },
                                             'Date Picker'
                                         ),
                                         react_default.a.createElement(
                                             'p',
-                                            { className: 'max-width-text' },
+                                            { 'class': 'max-width-text' },
                                             'Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus.',
                                             react_default.a.createElement('br', null),
                                             react_default.a.createElement('br', null),
@@ -9530,27 +9458,27 @@ var forms_Forms = function (_Component) {
                 ),
                 react_default.a.createElement(
                     'div',
-                    { className: 'row' },
+                    { 'class': 'row' },
                     react_default.a.createElement(
                         'div',
-                        { className: 'sm12 columns' },
+                        { 'class': 'sm12 columns' },
                         react_default.a.createElement('hr', null)
                     )
                 ),
                 react_default.a.createElement(
                     'div',
-                    { className: 'row', id: 'form-validation' },
+                    { 'class': 'row', id: 'form-validation' },
                     react_default.a.createElement(
                         'div',
-                        { className: 'sm12 columns' },
+                        { 'class': 'sm12 columns' },
                         react_default.a.createElement(
                             'h3',
-                            { className: 'title title-L mrg-L' },
+                            { 'class': 'title title-L mrg-L' },
                             'Form Validation'
                         ),
                         react_default.a.createElement(
                             'p',
-                            { className: 'max-width-text' },
+                            { 'class': 'max-width-text' },
                             'Vestibulum id ligula porta felis euismod semper. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.  ',
                             react_default.a.createElement('br', null),
                             react_default.a.createElement('br', null),
@@ -9559,23 +9487,23 @@ var forms_Forms = function (_Component) {
                     ),
                     react_default.a.createElement(
                         'div',
-                        { className: 'sm12 columns input-form error' },
+                        { 'class': 'sm12 columns input-form error' },
                         react_default.a.createElement(
                             'div',
-                            { className: 'row' },
+                            { 'class': 'row' },
                             react_default.a.createElement(
                                 'div',
-                                { className: 'sm12 columns' },
+                                { 'class': 'sm12 columns' },
                                 react_default.a.createElement(
                                     'div',
-                                    { className: 'row' },
+                                    { 'class': 'row' },
                                     react_default.a.createElement(
                                         'div',
-                                        { className: 'position-rel sm12 md4 columns' },
+                                        { 'class': 'position-rel sm12 md4 columns' },
                                         react_default.a.createElement(
                                             'div',
-                                            { className: 'form-float-label' },
-                                            react_default.a.createElement('input', { className: 'form-control email-text input-text', id: 'email1', type: 'text', placeholder: 'Email' }),
+                                            { 'class': 'form-float-label' },
+                                            react_default.a.createElement('input', { 'class': 'form-control email-text input-text', id: 'email1', type: 'text', placeholder: 'Email' }),
                                             react_default.a.createElement(
                                                 'label',
                                                 { htmlFor: 'email1' },
@@ -9586,10 +9514,10 @@ var forms_Forms = function (_Component) {
                                     ),
                                     react_default.a.createElement(
                                         'div',
-                                        { className: 'sm12 columns' },
+                                        { 'class': 'sm12 columns' },
                                         react_default.a.createElement(
                                             'span',
-                                            { className: 'error-message' },
+                                            { 'class': 'error-message' },
                                             'Please enter a valid email address'
                                         ),
                                         react_default.a.createElement('br', null),
@@ -9597,7 +9525,7 @@ var forms_Forms = function (_Component) {
                                         react_default.a.createElement('br', null),
                                         react_default.a.createElement(
                                             'p',
-                                            { className: 'max-width-text' },
+                                            { 'class': 'max-width-text' },
                                             'Vestibulum id ligula porta felis euismod semper. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.  ',
                                             react_default.a.createElement('br', null),
                                             react_default.a.createElement('br', null),
@@ -9605,20 +9533,20 @@ var forms_Forms = function (_Component) {
                                         ),
                                         react_default.a.createElement(
                                             'div',
-                                            { className: 'sm12 md5 columns row' },
+                                            { 'class': 'sm12 md5 columns row' },
                                             react_default.a.createElement(
                                                 'div',
-                                                { className: 'form-float-label' },
+                                                { 'class': 'form-float-label' },
                                                 react_default.a.createElement(
                                                     'div',
-                                                    { className: 'msg msg-error mrg-L' },
+                                                    { 'class': 'msg msg-error mrg-L' },
                                                     'Email or password is incorrect'
                                                 )
                                             ),
                                             react_default.a.createElement(
                                                 'div',
-                                                { className: 'form-float-label mrg-L' },
-                                                react_default.a.createElement('input', { className: 'form-control email-text input-text', id: 'email', type: 'text', placeholder: 'Email ' }),
+                                                { 'class': 'form-float-label mrg-L' },
+                                                react_default.a.createElement('input', { 'class': 'form-control email-text input-text', id: 'email', type: 'text', placeholder: 'Email ' }),
                                                 react_default.a.createElement(
                                                     'label',
                                                     { htmlFor: 'email' },
@@ -9628,8 +9556,8 @@ var forms_Forms = function (_Component) {
                                             ),
                                             react_default.a.createElement(
                                                 'div',
-                                                { className: 'form-float-label password-form' },
-                                                react_default.a.createElement('input', { className: 'form-control input-text', id: 'password', maxLength: '16', type: 'password', placeholder: 'Password' }),
+                                                { 'class': 'form-float-label password-form' },
+                                                react_default.a.createElement('input', { 'class': 'form-control input-text', id: 'password', maxLength: '16', type: 'password', placeholder: 'Password' }),
                                                 react_default.a.createElement(
                                                     'label',
                                                     { htmlFor: 'password' },
@@ -9637,7 +9565,7 @@ var forms_Forms = function (_Component) {
                                                 ),
                                                 react_default.a.createElement(
                                                     'a',
-                                                    { href: 'javascript:void(0);', className: 'show-pwd' },
+                                                    { href: 'javascript:void(0);', 'class': 'show-pwd' },
                                                     'show'
                                                 )
                                             )
@@ -9650,27 +9578,27 @@ var forms_Forms = function (_Component) {
                 ),
                 react_default.a.createElement(
                     'div',
-                    { className: 'row' },
+                    { 'class': 'row' },
                     react_default.a.createElement(
                         'div',
-                        { className: 'sm12 columns' },
+                        { 'class': 'sm12 columns' },
                         react_default.a.createElement('hr', null)
                     )
                 ),
                 react_default.a.createElement(
                     'div',
-                    { className: 'row sample-layout', id: 'sample-layout' },
+                    { 'class': 'row sample-layout', id: 'sample-layout' },
                     react_default.a.createElement(
                         'div',
-                        { className: 'sm12 columns' },
+                        { 'class': 'sm12 columns' },
                         react_default.a.createElement(
                             'h3',
-                            { className: 'title title-L mrg-L' },
+                            { 'class': 'title title-L mrg-L' },
                             'Sample Layout'
                         ),
                         react_default.a.createElement(
                             'p',
-                            { className: 'max-width-text' },
+                            { 'class': 'max-width-text' },
                             'Vestibulum id ligula porta felis euismod semper. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.  ',
                             react_default.a.createElement('br', null),
                             react_default.a.createElement('br', null),
@@ -9679,14 +9607,14 @@ var forms_Forms = function (_Component) {
                     ),
                     react_default.a.createElement(
                         'div',
-                        { className: 'sm12 md4 form-layout input-form select-form' },
+                        { 'class': 'sm12 md4 form-layout input-form select-form' },
                         react_default.a.createElement(
                             'div',
-                            { className: 'form-group column' },
+                            { 'class': 'form-group column' },
                             react_default.a.createElement(
                                 'div',
-                                { className: 'form-float-label' },
-                                react_default.a.createElement('input', { className: 'form-control input-text', type: 'text', id: 'name', placeholder: 'Name' }),
+                                { 'class': 'form-float-label' },
+                                react_default.a.createElement('input', { 'class': 'form-control input-text', type: 'text', id: 'name', placeholder: 'Name' }),
                                 react_default.a.createElement(
                                     'label',
                                     { htmlFor: 'name' },
@@ -9696,11 +9624,11 @@ var forms_Forms = function (_Component) {
                         ),
                         react_default.a.createElement(
                             'div',
-                            { className: 'form-group column' },
+                            { 'class': 'form-group column' },
                             react_default.a.createElement(
                                 'div',
-                                { className: 'form-float-label' },
-                                react_default.a.createElement('input', { className: 'form-control input-text', id: 'date', type: 'text', placeholder: 'mm/dd/yyyy' }),
+                                { 'class': 'form-float-label' },
+                                react_default.a.createElement('input', { 'class': 'form-control input-text', id: 'date', type: 'text', placeholder: 'mm/dd/yyyy' }),
                                 react_default.a.createElement(
                                     'label',
                                     { htmlFor: 'date' },
@@ -9710,11 +9638,11 @@ var forms_Forms = function (_Component) {
                         ),
                         react_default.a.createElement(
                             'div',
-                            { className: 'form-group md6 sm4 column row padding-right-zero' },
+                            { 'class': 'form-group md6 sm6 column row padding-right-zero' },
                             react_default.a.createElement(
                                 'div',
-                                { className: 'form-float-label' },
-                                react_default.a.createElement('input', { className: 'form-control input-text', id: 'zip', type: 'text', placeholder: 'Zip Code' }),
+                                { 'class': 'form-float-label' },
+                                react_default.a.createElement('input', { 'class': 'form-control input-text', id: 'zip', type: 'text', placeholder: 'Zip Code' }),
                                 react_default.a.createElement(
                                     'label',
                                     { htmlFor: 'zip' },
@@ -9724,13 +9652,13 @@ var forms_Forms = function (_Component) {
                         ),
                         react_default.a.createElement(
                             'div',
-                            { className: 'select md6 form-layout column' },
+                            { 'class': 'select md6 sm6 form-layout column' },
                             react_default.a.createElement(
                                 'div',
-                                { className: 'form-float-label form-select2' },
+                                { 'class': 'form-float-label form-select2' },
                                 react_default.a.createElement(
                                     'select',
-                                    { className: 'form-control custom-select' },
+                                    { 'class': 'form-control custom-select' },
                                     react_default.a.createElement(
                                         'option',
                                         { value: ' ' },
@@ -9799,31 +9727,31 @@ var forms_Forms = function (_Component) {
                                 ),
                                 react_default.a.createElement(
                                     'span',
-                                    { className: 'select-label hide' },
+                                    { 'class': 'select-label hide' },
                                     'Month'
                                 )
                             )
                         ),
                         react_default.a.createElement(
                             'div',
-                            { className: 'form-group column' },
+                            { 'class': 'form-group column' },
                             react_default.a.createElement(
                                 'div',
-                                { className: 'form-float-label' },
-                                react_default.a.createElement('input', { className: 'form-control input-text', id: 'phone-number', type: 'text', placeholder: 'Phone Number' }),
+                                { 'class': 'form-float-label' },
+                                react_default.a.createElement('input', { 'class': 'form-control input-text', id: 'phonenumber', type: 'text', maxLength: '14', placeholder: 'Phone Number' }),
                                 react_default.a.createElement(
                                     'label',
-                                    { htmlFor: 'phone-number' },
+                                    { htmlFor: 'phonenumber' },
                                     'Phone Number'
                                 )
                             )
                         ),
                         react_default.a.createElement(
                             'div',
-                            { className: 'form-group column' },
+                            { 'class': 'form-group column' },
                             react_default.a.createElement(
                                 'label',
-                                { className: 'checkbox mrg-M' },
+                                { 'class': 'checkbox mrg-M' },
                                 react_default.a.createElement('input', { type: 'checkbox' }),
                                 ' ',
                                 react_default.a.createElement(
@@ -9838,18 +9766,18 @@ var forms_Forms = function (_Component) {
                 react_default.a.createElement('hr', null),
                 react_default.a.createElement(
                     'div',
-                    { className: 'row', id: 'related-content' },
+                    { 'class': 'row', id: 'related-content' },
                     react_default.a.createElement(
                         'div',
-                        { className: 'sm12 columns' },
+                        { 'class': 'sm12 columns' },
                         react_default.a.createElement(
                             'h3',
-                            { className: 'title title-L mrg-L' },
+                            { 'class': 'title title-L mrg-L' },
                             'Related Content'
                         ),
                         react_default.a.createElement(
                             'ul',
-                            { className: 'list max-width-text color-slate' },
+                            { 'class': 'list max-width-text color-slate' },
                             react_default.a.createElement(
                                 'li',
                                 null,
@@ -9882,14 +9810,14 @@ var forms_Forms = function (_Component) {
                 ),
                 react_default.a.createElement(
                     'div',
-                    { className: 'row' },
+                    { 'class': 'row' },
                     react_default.a.createElement(
                         'div',
-                        { className: 'sm12 columns' },
+                        { 'class': 'sm12 columns' },
                         react_default.a.createElement('hr', null),
                         react_default.a.createElement(
                             'p',
-                            { className: 'S' },
+                            { 'class': 'S' },
                             'Created by: ',
                             react_default.a.createElement(
                                 'strong',

@@ -43,15 +43,13 @@
     border-radius: var(--border-radius-M);
     font-size: 14px;
     color: var(--color-slate);
+    -webkit-appearance: none;
     &:focus {
       border: 1px solid var(--color-shadow);
       outline: 0;
     }
   }
 
-  & .input-text::-webkit-input-placeholder { /* WebKit browsers */
-    
-  }
   & #signup::placeholder { /* WebKit browsers */
     color: var(--color-nightsky) !important;
   }
