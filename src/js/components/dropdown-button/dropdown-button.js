@@ -5,15 +5,40 @@ class DropdownButton extends Component {
 
     componentDidMount() {
 
-        $('.dropdown-button').on('click', function () {
+        // $('.dropdown-button').on('click', function () {
 
-            var parent_box = $(this).closest('.dropdown-menu-block');
-            parent_box.find('.dropdown-menu').slideToggle(200, "swing");
-            parent_box.siblings().find('.dropdown-menu').hide();
+        //     var parent_box = $(this).closest('.dropdown-menu-block');
+        //     parent_box.find('.dropdown-menu').slideToggle(200, "swing");
+        //     parent_box.siblings().find('.dropdown-menu').hide();
 
-            $(this).toggleClass("arrow-down");
-            return false;
-        });
+        //     $(this).toggleClass("arrow-down");
+        //     return false;
+        // });
+
+        (function ($) {
+            $.fn.dropdown = function () {
+                var dropdown = this;
+                dropdown.find('.dropdown-button').click(function () {
+                    var p = $(this).parent();
+                    $('.dropdown').not(p).removeClass('active');
+                    $(this).parent('.dropdown').toggleClass('active');
+                });
+                dropdown.find('.menu').find('.item').click(function () {
+                    var html = $(this).text();
+                    $(this).parent('.dropdown').find('button').text('haha');
+                });
+
+                $(window).click(function () {
+                    $('.dropdown').removeClass('active');
+                });
+
+                $('.dropdown').click(function (event) {
+                    event.stopPropagation();
+                });
+            }
+        })(jQuery);
+
+        $('.dropdown').dropdown();
     }
 
     render() {

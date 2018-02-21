@@ -55,19 +55,6 @@
     }
   }
 
-  & .print-barcode {
-    color: var(--color-blackfriday-secondary-2) !important;
-
-    & svg{
-      width: 36px;
-      height:36px;
-    }
-    & .icon {
-      width: 36px;
-      display: inline-block;
-    }
-  }
-
   & .coupon-see-details {
     & a, & button {
       margin-right: 16px;

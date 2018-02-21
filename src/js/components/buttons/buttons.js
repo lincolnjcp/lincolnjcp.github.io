@@ -10,6 +10,7 @@ const lockImage = require('!!raw-loader?es5=1!../../../images/global/icons/utili
 const clearImage = require('!!raw-loader?es5=1!../../../images/global/icons/nav/clear.svg');
 const starImage = require('!!raw-loader?es5=1!../../../images/global/icons/utility/star.svg');
 const starhalfImage = require('!!raw-loader?es5=1!../../../images/global/icons/utility/star-half.svg');
+const barcodeImage = require('!!raw-loader?es5=1!../../../images/global/icons/utility/barcode.svg');
 
 
 class Buttons extends Component {
@@ -140,7 +141,10 @@ class Buttons extends Component {
                         <div class="row">
                             <div class="sm12 md5 lg4 columns">
                                 <div class="button-preview algn-mid mrg-XL">
-                                    <a href="javascript:void();" role="button" class="btn btn-primary btn-L mrg-M btn-icon "><span class="icon color-white-svg lock-icon" dangerouslySetInnerHTML={{ __html: lockImage }} /> Checkout</a>
+                                    <a href="javascript:void();" role="button" class="btn btn-primary btn-L mrg-M btn-icon "><span class="icon color-white-svg" dangerouslySetInnerHTML={{ __html: lockImage }} /> Checkout</a>
+                                </div>
+                                <div class="button-preview algn-mid mrg-XL">
+                                    <a href="javascript:void();" role="button" class="btn btn-secondary btn-L mrg-M btn-icon "><span class="icon color-nightsky-svg lock-icon" dangerouslySetInnerHTML={{ __html: barcodeImage }} /> Print Barcode</a>
                                 </div>
 
                             </div>

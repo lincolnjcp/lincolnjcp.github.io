@@ -99,10 +99,11 @@ class Coupons extends Component {
                 <span className="std-txt std-txt-S color-shadow">Expires: 11/05/2017</span>
                 <div><span classname="std-txt std-txt-S color-shadow">Code: </span><span className="std-txt std-txt-S color-shadow">SHOPNOW4</span></div>
               </div>
-              <a href="javascript:void();" role="button" className="btn btn-S btn-secondary apply-btn btn-full mrg-S print-barcode">
+              {/* <a href="javascript:void();" role="button" className="btn btn-S btn-secondary apply-btn btn-full mrg-S btn-icon color-nightsky">
                 <span className="icon mrg-rght-XS" dangerouslySetInnerHTML={{ __html: barcodeImage }}/>
                   Print Barcode
-                </a>
+                </a> */}
+                <a href="javascript:void();" role="button" class="btn btn-secondary btn-S btn-full mrg-S btn-icon "><span class="icon color-nightsky-svg" dangerouslySetInnerHTML={{ __html: barcodeImage }} /> Print Barcode</a>
               <a href="javascript:void();" role="button" className="btn btn-S btn-primary apply-btn btn-full mrg-S">Apply</a>
 
              

@@ -93,6 +93,7 @@ button{
   &.btn-disabled,
   &.btn-disabled:hover {
     @apply --disabled;
+    border-radius: 2px;
   }
 
   /*  Button Sizes */
@@ -131,10 +132,15 @@ button{
   }
 
   &.btn-icon{
-    /*
-	padding-top: 0px;
-    padding-bottom: 0px;
-	*/
+    color: var(--color-nightsky);
+    & svg{
+      width: 36px;
+      height:36px;
+    }
+    & .icon {
+      width: 36px;
+      display: inline-block;
+    }
   }
 
   &.btn-icon-slide{

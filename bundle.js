@@ -1015,6 +1015,7 @@ var lockImage = __webpack_require__("vfeN");
 var clearImage = __webpack_require__("jtVu");
 var starImage = __webpack_require__("CKfJ");
 var starhalfImage = __webpack_require__("KM/1");
+var barcodeImage = __webpack_require__("oxHa");
 
 var buttons_Buttons = function (_Component) {
     _inherits(Buttons, _Component);
@@ -1291,8 +1292,18 @@ var buttons_Buttons = function (_Component) {
                                     react_default.a.createElement(
                                         'a',
                                         { href: 'javascript:void();', role: 'button', 'class': 'btn btn-primary btn-L mrg-M btn-icon ' },
-                                        react_default.a.createElement('span', { 'class': 'icon color-white-svg lock-icon', dangerouslySetInnerHTML: { __html: lockImage } }),
+                                        react_default.a.createElement('span', { 'class': 'icon color-white-svg', dangerouslySetInnerHTML: { __html: lockImage } }),
                                         ' Checkout'
+                                    )
+                                ),
+                                react_default.a.createElement(
+                                    'div',
+                                    { 'class': 'button-preview algn-mid mrg-XL' },
+                                    react_default.a.createElement(
+                                        'a',
+                                        { href: 'javascript:void();', role: 'button', 'class': 'btn btn-secondary btn-L mrg-M btn-icon ' },
+                                        react_default.a.createElement('span', { 'class': 'icon color-nightsky-svg lock-icon', dangerouslySetInnerHTML: { __html: barcodeImage } }),
+                                        ' Print Barcode'
                                     )
                                 )
                             ),
@@ -2845,7 +2856,7 @@ var devicemobileImage = __webpack_require__("jUm2");
 var devicephoneImage = __webpack_require__("oW2K");
 var collectionImage = __webpack_require__("Hq6d");
 var collectionmultiImage = __webpack_require__("ZRUk");
-var barcodeImage = __webpack_require__("oxHa");
+var icons_barcodeImage = __webpack_require__("oxHa");
 var barcodeqrImage = __webpack_require__("Gcex");
 var shieldImage = __webpack_require__("kNu/");
 var icons_starImage = __webpack_require__("CKfJ");
@@ -3449,7 +3460,7 @@ var icons_Icons = function (_Component) {
                                 ' ',
                                 this.iconCol("collection-multi", "multiple product collections", collectionmultiImage),
                                 ' ',
-                                this.iconCol("barcode", "scan barcode", barcodeImage),
+                                this.iconCol("barcode", "scan barcode", icons_barcodeImage),
                                 ' ',
                                 this.iconCol("barcode-qr", "???", barcodeqrImage),
                                 ' ',
@@ -6249,15 +6260,40 @@ var dropdown_button_DropdownButton = function (_Component) {
         key: 'componentDidMount',
         value: function componentDidMount() {
 
-            jquery_default()('.dropdown-button').on('click', function () {
+            // $('.dropdown-button').on('click', function () {
 
-                var parent_box = jquery_default()(this).closest('.dropdown-menu-block');
-                parent_box.find('.dropdown-menu').slideToggle(200, "swing");
-                parent_box.siblings().find('.dropdown-menu').hide();
+            //     var parent_box = $(this).closest('.dropdown-menu-block');
+            //     parent_box.find('.dropdown-menu').slideToggle(200, "swing");
+            //     parent_box.siblings().find('.dropdown-menu').hide();
 
-                jquery_default()(this).toggleClass("arrow-down");
-                return false;
-            });
+            //     $(this).toggleClass("arrow-down");
+            //     return false;
+            // });
+
+            (function ($) {
+                $.fn.dropdown = function () {
+                    var dropdown = this;
+                    dropdown.find('.dropdown-button').click(function () {
+                        var p = $(this).parent();
+                        $('.dropdown').not(p).removeClass('active');
+                        $(this).parent('.dropdown').toggleClass('active');
+                    });
+                    dropdown.find('.menu').find('.item').click(function () {
+                        var html = $(this).text();
+                        $(this).parent('.dropdown').find('button').text('haha');
+                    });
+
+                    $(window).click(function () {
+                        $('.dropdown').removeClass('active');
+                    });
+
+                    $('.dropdown').click(function (event) {
+                        event.stopPropagation();
+                    });
+                };
+            })(jQuery);
+
+            jquery_default()('.dropdown').dropdown();
         }
     }, {
         key: 'render',
@@ -17603,9 +17639,9 @@ var coupons_Coupons = function (_Component) {
               ),
               react_default.a.createElement(
                 'a',
-                { href: 'javascript:void();', role: 'button', className: 'btn btn-S btn-secondary apply-btn btn-full mrg-S print-barcode' },
-                react_default.a.createElement('span', { className: 'icon mrg-rght-XS', dangerouslySetInnerHTML: { __html: coupons_barcodeImage } }),
-                'Print Barcode'
+                { href: 'javascript:void();', role: 'button', 'class': 'btn btn-secondary btn-S btn-full mrg-S btn-icon ' },
+                react_default.a.createElement('span', { 'class': 'icon color-nightsky-svg', dangerouslySetInnerHTML: { __html: coupons_barcodeImage } }),
+                ' Print Barcode'
               ),
               react_default.a.createElement(
                 'a',
@@ -18447,13 +18483,12 @@ var header_Header = function (_Component) {
           react_default.a.createElement(
             'strong',
             null,
-            '75024'
+            '75024 '
           ),
-          ' ',
           react_default.a.createElement(
             'a',
             { href: 'javascript:void(0);', className: 'expand-collapse-btn', 'data-target': '#changeMyStoreZip' + type, 'data-hide-on-open-target': '#changeMyStoreZipLink' + type, 'data-duration': '0' },
-            'Change'
+            ' Change'
           )
         ),
         react_default.a.createElement(
@@ -18471,6 +18506,11 @@ var header_Header = function (_Component) {
                 null,
                 'Use my Location'
               )
+            ),
+            react_default.a.createElement(
+              'a',
+              { href: 'javascript:void();', className: 'cancel-btn' },
+              'cancel'
             )
           ),
           react_default.a.createElement(
@@ -18480,11 +18520,6 @@ var header_Header = function (_Component) {
               'span',
               { className: 'title title-S title-text-or' },
               'or'
-            ),
-            react_default.a.createElement(
-              'a',
-              { href: 'javascript:void();' },
-              'cancel'
             )
           ),
           react_default.a.createElement(
@@ -18875,7 +18910,7 @@ var header_Header = function (_Component) {
                 { className: 'std-txt std-txt-S' },
                 react_default.a.createElement(
                   'a',
-                  { href: 'javascript:void(0);', className: 'expand-collapse-btn', 'data-hide-text': 'Hide Hours & Services', 'data-target': '#storeLising2' + type },
+                  { href: 'javascript:void(0);', className: 'expand-collapse-btn', 'data-hide-text': 'Hide Hours & Services', 'data-target': '#storeLising1' + type },
                   'View Hours & Services'
                 )
               )
@@ -18934,7 +18969,7 @@ var header_Header = function (_Component) {
                     { href: 'javascript:void(0);', className: 'color-nightsky' },
                     'Get Directions'
                   ),
-                  ' | 972-578-8666'
+                  ' | 972-578-8667'
                 ),
                 react_default.a.createElement(
                   'div',
@@ -19070,6 +19105,12 @@ var header_Header = function (_Component) {
     key: 'componentDidMount',
     value: function componentDidMount() {
 
+      jquery_default()('.cancel-btn').unbind('click').on('click', function () {
+        console.log('cancel click');
+        jquery_default()('#changeMyStoreZipLinkDesktop').css('display', 'block');
+        jquery_default()('#changeMyStoreZipDesktop').css('display', 'none');
+      });
+
       !function (factory) {
         "use strict";
         "function" == typeof define && __webpack_require__("nErl") ? define(["$"], factory) : jquery_default.a && !jquery_default.a.fn.hoverIntent && factory(jquery_default.a);
@@ -19112,6 +19153,19 @@ var header_Header = function (_Component) {
         parent_box.siblings().find('.dropdown-menu').hide();
         parent_box.find('.dropdown-menu').slideToggle(200, 'swing');
         jquery_default()(this).toggleClass("arrow-down");
+        if (jquery_default()(".dropdown-button").hasClass("arrow-down")) {
+          jquery_default()("body").append('<div id="menu-overlay"></div>');
+        } else {
+          jquery_default()('body #menu-overlay').remove();
+        }
+        jquery_default()('#menu-overlay').on('click', function (e) {
+          console.log('overlay click');
+          jquery_default()("#menu-overlay").hide();
+          jquery_default()(".dropdown-menu").hide();
+          if (jquery_default()(".dropdown-button").hasClass("arrow-down")) {
+            jquery_default()('.dropdown-button').removeClass('arrow-down');
+          }
+        });
       });
 
       jquery_default()('.side-panel-btn').unbind('click').on('click', function (event) {

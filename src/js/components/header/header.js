@@ -14,15 +14,17 @@ class Header extends Component {
   changeMyStoreContent(type) {
     return (
       <div>
-        <p id={'changeMyStoreZipLink' + type}>Stores within 15 mi. of <strong>75024</strong> <a href="javascript:void(0);" className="expand-collapse-btn" data-target={'#changeMyStoreZip' + type} data-hide-on-open-target={'#changeMyStoreZipLink' + type} data-duration="0">Change</a></p>
+        <p id={'changeMyStoreZipLink' + type}>Stores within 15 mi. of <strong>75024 </strong> 
+          <a href="javascript:void(0);" className="expand-collapse-btn" data-target={'#changeMyStoreZip' + type} data-hide-on-open-target={'#changeMyStoreZipLink' + type} data-duration="0"> Change</a>
+          </p>
 
         <div className="expand-collapse-section" id={'changeMyStoreZip' + type}>
           <div className="button-preview algn-mid my-location">
             <a href="javascript:void();" className="btn btn-secondary btn-M mrg-M"><span className="icon" dangerouslySetInnerHTML={{ __html: targetImage }} /><span>Use my Location</span></a>
+            <a href="javascript:void();" className="cancel-btn">cancel</a>
           </div>
           <div className="">
             <span className="title title-S title-text-or">or</span>
-            <a href="javascript:void();">cancel</a>
           </div>
           <div className="input-form">
             <div className="input-form-store-locator">
@@ -137,7 +139,7 @@ class Header extends Component {
                   Salon - <a href="javascript:void(0);" className="color-nightsky">Schedule Appointment</a>
                 </div>
               </div>
-              <p className="std-txt std-txt-S"><a href="javascript:void(0);" className="expand-collapse-btn" data-hide-text="Hide Hours &amp; Services" data-target={'#storeLising2' + type}>View Hours &amp; Services</a></p>
+              <p className="std-txt std-txt-S"><a href="javascript:void(0);" className="expand-collapse-btn" data-hide-text="Hide Hours &amp; Services" data-target={'#storeLising1' + type}>View Hours &amp; Services</a></p>
             </div>
           </div>
         </div>
@@ -159,7 +161,7 @@ class Header extends Component {
             <div className="side-panel-col-full">
               <div className="expand-collapse-section change-my-store-details" id={'storeLising2' + type} >
                 <div className="std-txt std-txt-S mrg-M color-nightsky">
-                  <a href="javascript:void(0);" className="color-nightsky">Get Directions</a> | 972-578-8666
+                  <a href="javascript:void(0);" className="color-nightsky">Get Directions</a> | 972-578-8667
                   </div>
                 <div className="std-txt std-txt-S mrg-M color-slate">
                   Mon-Thu : 10am-10pm<br />
@@ -180,7 +182,7 @@ class Header extends Component {
                   Salon - <a href="javascript:void(0);" className="color-nightsky">Schedule Appointment</a>
                 </div>
               </div>
-              <p className="std-txt std-txt-S"><a href="javascript:void(0);" className="expand-collapse-btn" data-hide-text="Hide Hours &amp; Services" data-target={'#storeLising2' + type}>View Hours &amp; Services</a></p>
+              <p className="std-txt std-txt-S"><a href="javascript:void(0);" className="expand-collapse-btn" data-hide-text="Hide Hours & Services" data-target={'#storeLising2' + type}>View Hours & Services</a></p>
             </div>
           </div>
         </div>
@@ -216,6 +218,12 @@ class Header extends Component {
 
   componentDidMount() {
 
+    $('.cancel-btn').unbind('click').on('click', function () {
+      console.log('cancel click');
+      $('#changeMyStoreZipLinkDesktop').css('display','block');
+      $('#changeMyStoreZipDesktop').css('display','none');
+    });
+  
     !function (factory) { "use strict"; "function" == typeof define && define.amd ? define(["$"], factory) : $ && !$.fn.hoverIntent && factory($) }(function ($) { "use strict"; var cX, cY, _cfg = { interval: 100, sensitivity: 6, timeout: 0 }, INSTANCE_COUNT = 0, track = function (ev) { cX = ev.pageX, cY = ev.pageY }, compare = function (ev, $el, s, cfg) { if (Math.sqrt((s.pX - cX) * (s.pX - cX) + (s.pY - cY) * (s.pY - cY)) < cfg.sensitivity) return $el.off(s.event, track), delete s.timeoutId, s.isActive = !0, ev.pageX = cX, ev.pageY = cY, delete s.pX, delete s.pY, cfg.over.apply($el[0], [ev]); s.pX = cX, s.pY = cY, s.timeoutId = setTimeout(function () { compare(ev, $el, s, cfg) }, cfg.interval) }, delay = function (ev, $el, s, out) { return delete $el.data("hoverIntent")[s.id], out.apply($el[0], [ev]) }; $.fn.hoverIntent = function (handlerIn, handlerOut, selector) { var instanceId = INSTANCE_COUNT++, cfg = $.extend({}, _cfg); $.isPlainObject(handlerIn) ? (cfg = $.extend(cfg, handlerIn), $.isFunction(cfg.out) || (cfg.out = cfg.over)) : cfg = $.isFunction(handlerOut) ? $.extend(cfg, { over: handlerIn, out: handlerOut, selector: selector }) : $.extend(cfg, { over: handlerIn, out: handlerIn, selector: handlerOut }); var handleHover = function (e) { var ev = $.extend({}, e), $el = $(this), hoverIntentData = $el.data("hoverIntent"); hoverIntentData || $el.data("hoverIntent", hoverIntentData = {}); var state = hoverIntentData[instanceId]; state || (hoverIntentData[instanceId] = state = { id: instanceId }), state.timeoutId && (state.timeoutId = clearTimeout(state.timeoutId)); var mousemove = state.event = "mousemove.hoverIntent.hoverIntent" + instanceId; if ("mouseenter" === e.type) { if (state.isActive) return; state.pX = ev.pageX, state.pY = ev.pageY, $el.off(mousemove, track).on(mousemove, track), state.timeoutId = setTimeout(function () { compare(ev, $el, state, cfg) }, cfg.interval) } else { if (!state.isActive) return; $el.off(mousemove, track), state.timeoutId = setTimeout(function () { delay(ev, $el, state, cfg.out) }, cfg.timeout) } }; return this.on({ "mouseenter.hoverIntent": handleHover, "mouseleave.hoverIntent": handleHover }, cfg.selector) } });
 
     $('.dropdown-button').unbind('click').on('click', function () {
@@ -223,6 +231,19 @@ class Header extends Component {
       parent_box.siblings().find('.dropdown-menu').hide();
       parent_box.find('.dropdown-menu').slideToggle(200, 'swing');
       $(this).toggleClass("arrow-down");
+      if ($(".dropdown-button").hasClass("arrow-down")) {
+        $("body").append('<div id="menu-overlay"></div>');
+      } else {
+        $('body #menu-overlay').remove();
+      }
+      $('#menu-overlay').on('click', function (e) {
+        console.log('overlay click')
+        $("#menu-overlay").hide();
+        $(".dropdown-menu").hide();
+        if($(".dropdown-button").hasClass("arrow-down")){
+          $('.dropdown-button').removeClass('arrow-down')
+       }
+      });
     });
 
     $('.side-panel-btn').unbind('click').on('click', function (event) {

@@ -18,7 +18,8 @@
       font-size: 16px;
       opacity: 1;
       top: 1em;
-      color: #6b7883;
+      color: var(--color-placeholder-grey);
+      caret-color: var(--color-placeholder-grey);
       &.disabled-label {
         top: -16px;
         font-size: 12px;
