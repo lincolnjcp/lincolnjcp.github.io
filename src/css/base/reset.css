@@ -58,9 +58,9 @@ html {
 }
 
 /*  Global focus styling */
-*:focus{
+/**:active{
   outline: 2px dashed var(--color-neutral-type);
-}
+}*/
 
 /* ---------------------------------------------------------------------
 HTML5 Element Reset
