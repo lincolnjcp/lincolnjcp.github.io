@@ -7,222 +7,10 @@ const heartlineImage = require('!!raw-loader?es5=1!../../../images/global/icons/
 const starImage = require('!!raw-loader?es5=1!../../../images/global/icons/utility/star.svg');
 const starhalfImage = require('!!raw-loader?es5=1!../../../images/global/icons/utility/star-half.svg');
 const clearImage = require('!!raw-loader?es5=1!../../../images/global/icons/nav/clear.svg');
+const heartfillImage = require('!!raw-loader?es5=1!../../../images/global/icons/action/heart-fill.svg');
 
 class FilterSort extends Component {
-  productCardRecommendations(productInfo) {
-    return (
-      <div class="product-card product-card-recommendation">
-
-        {(() => {
-          if (productInfo.thumb) {
-            return (
-              <div class="product-card-thumbnail mrg-S">
-                <a href="javascript:void(0)">
-                  <img src={productInfo.thumb} alt="" />
-                </a>
-              </div>
-            )
-          }
-        })()}
-
-        {(() => {
-          if (productInfo.promo) {
-            return (
-              <div class="price price-promo-S mrg-XS color-penneyred">
-                {productInfo.promo}
-              </div>
-            )
-          }
-        })()}
-
-        <div class="product-card-price">
-          {(() => {
-            if (productInfo.priceHighlight === true) {
-              return (
-                <div class="product-card-price-value">
-                  <div class="flag flag-urgency std-txt std-txt-XS mrg-rght-XS">
-                    <div class="price price-XS color-white">{productInfo.price}</div>
-                  </div>
-                </div>
-              )
-            } else {
-              return (
-                <div class="product-card-price-value price price-XS mrg-rght-XS">
-                  {productInfo.price}
-                </div>
-              )
-            }
-          })()}
-
-
-          {(() => {
-            if (productInfo.priceRestriction) {
-              return (
-                <div class="product-card-note price price-note color-penneyred">
-                  {productInfo.priceRestriction}
-                </div>
-              )
-            }
-          })()}
-
-        </div>
-
-        {(() => {
-          if (productInfo.priceRegular) {
-            return (
-              <div class="product-card-note price price-note color-slate std-txt">
-                {productInfo.priceRegular}
-              </div>
-            )
-          }
-        })()}
-
-
-
-        <a href="javascript:void(0)" class="product-card-name std-txt std-txt-S color-nightsky">
-          {productInfo.name}
-        </a>
-
-        <div class="ratings-and-reviews">
-          <div class="ratings-and-reviews-stars mrg-rght-XS">
-            <img src="/images/design-system/fpo/reviews/reviews-stars-3-5.jpg" alt="" />
-          </div>
-          <div class="ratings-and-reviews-count color-slate std-txt std-txt-XXS">
-            99,999
-        </div>
-
-        </div>
-
-      </div>
-    )
-  }
-
-
-
-  productCardGalleryPanesLarge(productInfo) {
-    return (
-      <div class="product-card product-card-pane-L">
-        {(() => {
-          if (productInfo.thumb) {
-            return (
-              <div class="product-card-thumbnail">
-                <a href="javascript:void(0)">
-                  <img src={productInfo.thumb} alt="" />
-                </a>
-                {(() => {
-                  if (productInfo.flag) {
-                    return (
-                      <div class="flag flag-info std-txt std-txt-XS">
-                        {productInfo.flag}
-                      </div>
-                    )
-                  }
-                })()}
-                <div class="icon favorite-icon like-dislike" dangerouslySetInnerHTML={{ __html: heartlineImage }}></div>
-              </div>
-            )
-          }
-        })()}
-
-        <div class="color-swatches-block">
-          <div>
-            <div class="color-swatches-medium">
-              <ul class="list-product-colors-container">
-                <li>
-                  <a href="javascript:void(0)" class="list-color-swatch list-color-swatch-active"></a>
-                </li>
-                <li>
-                  <a href="javascript:void(0)" class="list-color-swatch"></a>
-                </li>
-                <li>
-                  <a href="javascript:void(0)" class="list-color-swatch"></a>
-                </li>
-                <li>
-                  <a href="javascript:void(0)" class="list-color-swatch"></a>
-                </li>
-                <li class="swatches-list-link">
-                  <a href="javascript:void(0)" class="std-txt std-txt-S color-nightsky">
-                    +23
-                </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-
-        {(() => {
-          if (productInfo.promo) {
-            return (
-              <div class="price price-promo mrg-XS color-penneyred">
-                {productInfo.promo}
-              </div>
-            )
-          }
-        })()}
-
-        <div class="product-card-price">
-          {(() => {
-            if (productInfo.priceHighlight === true) {
-              return (
-                <div class="product-card-price-value">
-                  <div class="flag flag-urgency std-txt std-txt-XS mrg-rght-XS">
-                    <div class="price price-S color-white">{productInfo.price}</div>
-                  </div>
-                </div>
-              )
-            } else {
-              return (
-                <div class="product-card-price-value price price-S mrg-rght-XS">
-                  {productInfo.price}
-                </div>
-              )
-            }
-          })()}
-
-
-          {(() => {
-            if (productInfo.priceRestriction) {
-              return (
-                <div class="product-card-note price price-note color-penneyred">
-                  {productInfo.priceRestriction}
-                </div>
-              )
-            }
-          })()}
-
-        </div>
-
-        {(() => {
-          if (productInfo.priceRegular) {
-            return (
-              <div class="product-card-note price price-note color-slate std-txt">
-                {productInfo.priceRegular}
-              </div>
-            )
-          }
-        })()}
-
-
-
-        <a href="javascript:void(0)" class="product-card-name std-txt std-txt-S color-nightsky">
-          {productInfo.name}
-        </a>
-
-        <div class="ratings-and-reviews">
-          <div class="ratings-and-reviews-stars mrg-rght-XS">
-            <img src="/images/design-system/fpo/reviews/reviews-stars-3-5.jpg" alt="" />
-          </div>
-          <div class="ratings-and-reviews-count color-slate std-txt std-txt-XXS">
-            99,999
-        </div>
-
-        </div>
-
-      </div>
-    )
-  }
-
-
+  
   componentDidMount() {
 
     (function () {
@@ -920,92 +708,482 @@ class FilterSort extends Component {
 
             <div class="row">
               <div class="columns">
-                <div class="product-card-wrapper mrg-M mrg-top-M">
-                  {this.productCardGalleryPanesLarge({
-                    name: "Lorem Ipsumd Dolor Sit Amet Consec Ter Adpisicing Alit…",
-                    thumb: '/images/design-system/fpo/product-cards/product-card-large-pane-1.jpg',
-                    flag: 'Low Stock',
-                    promo: 'GREEN MONDAL DEAL!',
-                    price: '$29.99',
-                    priceHighlight: false,
-                    priceRestriction: 'sale',
-                    priceRegular: 'was $39.99   20% off'
-                  })}
-
-                  {this.productCardGalleryPanesLarge({
-                    name: "Lorem Ipsumd Dolor Sit Amet Consec Ter Adpisicing Alit…",
-                    thumb: '/images/design-system/fpo/product-cards/product-card-large-pane-2.jpg',
-                    flag: 'Low Stock',
-                    promo: 'GREEN MONDAL DEAL!',
-                    price: '$59.99',
-                    priceHighlight: true,
-                    priceRestriction: 'after coupon',
-                    priceRegular: 'reg. $60.99'
-                  })}
-                  {this.productCardGalleryPanesLarge({
-                    name: "Lorem Ipsumd Dolor Sit Amet Consec Ter Adpisicing Alit…",
-                    thumb: '/images/design-system/fpo/product-cards/product-card-large-pane-1.jpg',
-                    flag: 'Low Stock',
-                    promo: 'GREEN MONDAL DEAL!',
-                    price: '$29.99',
-                    priceHighlight: false,
-                    priceRestriction: 'sale',
-                    priceRegular: 'was $39.99   20% off'
-                  })}
-
-                  {this.productCardGalleryPanesLarge({
-                    name: "Lorem Ipsumd Dolor Sit Amet Consec Ter Adpisicing Alit…",
-                    thumb: '/images/design-system/fpo/product-cards/product-card-large-pane-2.jpg',
-                    flag: 'Low Stock',
-                    promo: 'GREEN MONDAL DEAL!',
-                    price: '$59.99',
-                    priceHighlight: true,
-                    priceRestriction: 'after coupon',
-                    priceRegular: 'reg. $60.99'
-                  })}
-                  {this.productCardGalleryPanesLarge({
-                    name: "Lorem Ipsumd Dolor Sit Amet Consec Ter Adpisicing Alit…",
-                    thumb: '/images/design-system/fpo/product-cards/product-card-large-pane-1.jpg',
-                    flag: 'Low Stock',
-                    promo: 'GREEN MONDAL DEAL!',
-                    price: '$29.99',
-                    priceHighlight: false,
-                    priceRestriction: 'sale',
-                    priceRegular: 'was $39.99   20% off'
-                  })}
-
-                  {this.productCardGalleryPanesLarge({
-                    name: "Lorem Ipsumd Dolor Sit Amet Consec Ter Adpisicing Alit…",
-                    thumb: '/images/design-system/fpo/product-cards/product-card-large-pane-2.jpg',
-                    flag: 'Low Stock',
-                    promo: 'GREEN MONDAL DEAL!',
-                    price: '$59.99',
-                    priceHighlight: true,
-                    priceRestriction: 'after coupon',
-                    priceRegular: 'reg. $60.99'
-                  })}
-                  {this.productCardGalleryPanesLarge({
-                    name: "Lorem Ipsumd Dolor Sit Amet Consec Ter Adpisicing Alit…",
-                    thumb: '/images/design-system/fpo/product-cards/product-card-large-pane-1.jpg',
-                    flag: 'Low Stock',
-                    promo: 'GREEN MONDAL DEAL!',
-                    price: '$29.99',
-                    priceHighlight: false,
-                    priceRestriction: 'sale',
-                    priceRegular: 'was $39.99   20% off'
-                  })}
-
-                  {this.productCardGalleryPanesLarge({
-                    name: "Lorem Ipsumd Dolor Sit Amet Consec Ter Adpisicing Alit…",
-                    thumb: '/images/design-system/fpo/product-cards/product-card-large-pane-2.jpg',
-                    flag: 'Low Stock',
-                    promo: 'GREEN MONDAL DEAL!',
-                    price: '$59.99',
-                    priceHighlight: true,
-                    priceRestriction: 'after coupon',
-                    priceRegular: 'reg. $60.99'
-                  })}
-                </div>
+              <div class="product-card-wrapper mrg-M">
+                    <div class="product-card product-card-pane-grid">
+                        <div class="product-card-inner">
+                          <div class="product-card-image">
+                              <div class="product-card-thumbnail">
+                                <a href="javascript:void(0)"><img src="/images/design-system/fpo/product-cards/product-card-grid-pane-1.jpg" alt="Samsung ENERGY STAR"/></a>
+                                <div class="flag flag-info std-txt std-txt-XS">Low Stock</div>
+                                <div className="like-icon">
+                                    <span className="icon heart" dangerouslySetInnerHTML={{ __html: heartfillImage }} />
+                                    <div className="tooltip tooltip-single tooltip-top-right">
+                                      <span className="tooltip-content">Favorite</span>
+                                    </div>
+                                </div>
+                                <a class="alt-link std-txt std-txt-XS" href="javascript:void(0);"><span class="hide-for-small-only">SHOP THE</span> COLLECTION</a>
+                              </div>
+                          </div>
+                          <div className="color-swatches-block hide-for-small-only">
+                              <div>
+                                <div className="color-swatches-medium">
+                                    <ul className="list-product-colors-container">
+                                      <li>
+                                          <a href="javascript:void(0)" className="list-color-swatch list-color-swatch-active"></a>
+                                      </li>
+                                      <li>
+                                          <a href="javascript:void(0)" className="list-color-swatch"></a>
+                                      </li>
+                                      <li>
+                                          <a href="javascript:void(0)" className="list-color-swatch"></a>
+                                      </li>
+                                      <li>
+                                          <a href="javascript:void(0)" className="list-color-swatch"></a>
+                                      </li>
+                                      <li className="swatches-list-link">
+                                          <a href="javascript:void(0)" className="std-txt std-txt-S color-nightsky">
+                                          +23
+                                          </a>                  
+                                      </li>
+                                    </ul>
+                                </div>
+                              </div>
+                          </div>
+                          <div class="product-card-details">
+                              <div class="price price-promo mrg-XS color-penneyred">GREEN MONDAL DEAL!</div>
+                              <div class="product-card-price">
+                                <div class="product-card-price-value price price-S mrg-rght-XS">$29.99</div>
+                                <div class="product-card-note price price-note color-penneyred">sale</div>
+                              </div>
+                              <div class="product-card-note price price-note color-slate std-txt">was $39.99   20% off</div>
+                              <div class="product-card-name-wrap">
+                                <div class="product-card-name std-txt std-txt-S std-txt-XS-at-S color-nightsky">Lorem Ipsumd Dolor Sit Amet Consec Ter Adpisicing Alit…</div>
+                              </div>
+                              <div class="ratings-and-reviews">
+                                <div class="ratings-and-reviews-stars mrg-rght-XS"><img src="/images/design-system/fpo/reviews/reviews-stars-3-5.jpg" alt="Star Ratings"/></div>
+                                <div class="ratings-and-reviews-count color-slate std-txt std-txt-XXS">99,999</div>
+                              </div>
+                          </div>
+                          <div class="product-card-compare">
+                              <div class="product-card-compare-inner input-group"><label class="checkbox"><input type="checkbox" value="on"/> <span class="std-txt std-txt-S color-nightsky">Compare</span></label></div>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="product-card product-card-pane-grid">
+                        <div class="product-card-inner">
+                          <div class="product-card-image">
+                              <div class="product-card-thumbnail">
+                                <a href="javascript:void(0)"><img src="/images/design-system/fpo/product-cards/product-card-grid-pane-1.jpg" alt="Samsung ENERGY STAR"/></a>
+                                <div class="flag flag-info std-txt std-txt-XS">Low Stock</div>
+                                <div className="like-icon">
+                                    <span className="icon heart" dangerouslySetInnerHTML={{ __html: heartfillImage }} />
+                                    <div className="tooltip tooltip-single tooltip-top-right">
+                                      <span className="tooltip-content">Favorite</span>
+                                    </div>
+                                </div>
+                                <a class="alt-link std-txt std-txt-XS" href="javascript:void(0);"><span class="hide-for-small-only">SHOP THE</span> COLLECTION</a>
+                              </div>
+                          </div>
+                          <div className="color-swatches-block hide-for-small-only">
+                              <div>
+                                <div className="color-swatches-medium">
+                                    <ul className="list-product-colors-container">
+                                      <li>
+                                          <a href="javascript:void(0)" className="list-color-swatch list-color-swatch-active"></a>
+                                      </li>
+                                      <li>
+                                          <a href="javascript:void(0)" className="list-color-swatch"></a>
+                                      </li>
+                                      <li>
+                                          <a href="javascript:void(0)" className="list-color-swatch"></a>
+                                      </li>
+                                      <li>
+                                          <a href="javascript:void(0)" className="list-color-swatch"></a>
+                                      </li>
+                                      <li className="swatches-list-link">
+                                          <a href="javascript:void(0)" className="std-txt std-txt-S color-nightsky">
+                                          +23
+                                          </a>                  
+                                      </li>
+                                    </ul>
+                                </div>
+                              </div>
+                          </div>
+                          <div class="product-card-details">
+                              <div class="price price-promo mrg-XS color-penneyred">GREEN MONDAL DEAL!</div>
+                              <div class="product-card-price">
+                                <div class="product-card-price-value price price-S mrg-rght-XS">$29.99</div>
+                                <div class="product-card-note price price-note color-penneyred">sale</div>
+                              </div>
+                              <div class="product-card-note price price-note color-slate std-txt">was $39.99   20% off</div>
+                              <div class="product-card-name-wrap">
+                                <div class="product-card-name std-txt std-txt-S std-txt-XS-at-S color-nightsky">Lorem Ipsumd Dolor Sit Amet Consec Ter Adpisicing Alit…</div>
+                              </div>
+                              <div class="ratings-and-reviews">
+                                <div class="ratings-and-reviews-stars mrg-rght-XS"><img src="/images/design-system/fpo/reviews/reviews-stars-3-5.jpg" alt="Star Ratings"/></div>
+                                <div class="ratings-and-reviews-count color-slate std-txt std-txt-XXS">99,999</div>
+                              </div>
+                          </div>
+                          <div class="product-card-compare">
+                              <div class="product-card-compare-inner input-group"><label class="checkbox"><input type="checkbox" value="on"/> <span class="std-txt std-txt-S color-nightsky">Compare</span></label></div>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="product-card product-card-pane-grid">
+                        <div class="product-card-inner">
+                          <div class="product-card-image">
+                              <div class="product-card-thumbnail">
+                                <a href="javascript:void(0)"><img src="/images/design-system/fpo/product-cards/product-card-grid-pane-1.jpg" alt="Samsung ENERGY STAR"/></a>
+                                <div class="flag flag-info std-txt std-txt-XS">Low Stock</div>
+                                <div className="like-icon">
+                                    <span className="icon heart" dangerouslySetInnerHTML={{ __html: heartfillImage }} />
+                                    <div className="tooltip tooltip-single tooltip-top-right">
+                                      <span className="tooltip-content">Favorite</span>
+                                    </div>
+                                </div>
+                                <a class="alt-link std-txt std-txt-XS" href="javascript:void(0);"><span class="hide-for-small-only">SHOP THE</span> COLLECTION</a>
+                              </div>
+                          </div>
+                          <div className="color-swatches-block hide-for-small-only">
+                              <div>
+                                <div className="color-swatches-medium">
+                                    <ul className="list-product-colors-container">
+                                      <li>
+                                          <a href="javascript:void(0)" className="list-color-swatch list-color-swatch-active"></a>
+                                      </li>
+                                      <li>
+                                          <a href="javascript:void(0)" className="list-color-swatch"></a>
+                                      </li>
+                                      <li>
+                                          <a href="javascript:void(0)" className="list-color-swatch"></a>
+                                      </li>
+                                      <li>
+                                          <a href="javascript:void(0)" className="list-color-swatch"></a>
+                                      </li>
+                                      <li className="swatches-list-link">
+                                          <a href="javascript:void(0)" className="std-txt std-txt-S color-nightsky">
+                                          +23
+                                          </a>                  
+                                      </li>
+                                    </ul>
+                                </div>
+                              </div>
+                          </div>
+                          <div class="product-card-details">
+                              <div class="price price-promo mrg-XS color-penneyred">GREEN MONDAL DEAL!</div>
+                              <div class="product-card-price">
+                                <div class="product-card-price-value price price-S mrg-rght-XS">$29.99</div>
+                                <div class="product-card-note price price-note color-penneyred">sale</div>
+                              </div>
+                              <div class="product-card-note price price-note color-slate std-txt">was $39.99   20% off</div>
+                              <div class="product-card-name-wrap">
+                                <div class="product-card-name std-txt std-txt-S std-txt-XS-at-S color-nightsky">Lorem Ipsumd Dolor Sit Amet Consec Ter Adpisicing Alit…</div>
+                              </div>
+                              <div class="ratings-and-reviews">
+                                <div class="ratings-and-reviews-stars mrg-rght-XS"><img src="/images/design-system/fpo/reviews/reviews-stars-3-5.jpg" alt="Star Ratings"/></div>
+                                <div class="ratings-and-reviews-count color-slate std-txt std-txt-XXS">99,999</div>
+                              </div>
+                          </div>
+                          <div class="product-card-compare">
+                              <div class="product-card-compare-inner input-group"><label class="checkbox"><input type="checkbox" value="on"/> <span class="std-txt std-txt-S color-nightsky">Compare</span></label></div>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="product-card product-card-pane-grid">
+                        <div class="product-card-inner">
+                          <div class="product-card-image">
+                              <div class="product-card-thumbnail">
+                                <a href="javascript:void(0)"><img src="/images/design-system/fpo/product-cards/product-card-grid-pane-1.jpg" alt="Samsung ENERGY STAR"/></a>
+                                <div class="flag flag-info std-txt std-txt-XS">Low Stock</div>
+                                <div className="like-icon">
+                                    <span className="icon heart" dangerouslySetInnerHTML={{ __html: heartfillImage }} />
+                                    <div className="tooltip tooltip-single tooltip-top-right">
+                                      <span className="tooltip-content">Favorite</span>
+                                    </div>
+                                </div>
+                                <a class="alt-link std-txt std-txt-XS" href="javascript:void(0);"><span class="hide-for-small-only">SHOP THE</span> COLLECTION</a>
+                              </div>
+                          </div>
+                          <div className="color-swatches-block hide-for-small-only">
+                              <div>
+                                <div className="color-swatches-medium">
+                                    <ul className="list-product-colors-container">
+                                      <li>
+                                          <a href="javascript:void(0)" className="list-color-swatch list-color-swatch-active"></a>
+                                      </li>
+                                      <li>
+                                          <a href="javascript:void(0)" className="list-color-swatch"></a>
+                                      </li>
+                                      <li>
+                                          <a href="javascript:void(0)" className="list-color-swatch"></a>
+                                      </li>
+                                      <li>
+                                          <a href="javascript:void(0)" className="list-color-swatch"></a>
+                                      </li>
+                                      <li className="swatches-list-link">
+                                          <a href="javascript:void(0)" className="std-txt std-txt-S color-nightsky">
+                                          +23
+                                          </a>                  
+                                      </li>
+                                    </ul>
+                                </div>
+                              </div>
+                          </div>
+                          <div class="product-card-details">
+                              <div class="price price-promo mrg-XS color-penneyred">GREEN MONDAL DEAL!</div>
+                              <div class="product-card-price">
+                                <div class="product-card-price-value price price-S mrg-rght-XS">$29.99</div>
+                                <div class="product-card-note price price-note color-penneyred">sale</div>
+                              </div>
+                              <div class="product-card-note price price-note color-slate std-txt">was $39.99   20% off</div>
+                              <div class="product-card-name-wrap">
+                                <div class="product-card-name std-txt std-txt-S std-txt-XS-at-S color-nightsky">Lorem Ipsumd Dolor Sit Amet Consec Ter Adpisicing Alit…</div>
+                              </div>
+                              <div class="ratings-and-reviews">
+                                <div class="ratings-and-reviews-stars mrg-rght-XS"><img src="/images/design-system/fpo/reviews/reviews-stars-3-5.jpg" alt="Star Ratings"/></div>
+                                <div class="ratings-and-reviews-count color-slate std-txt std-txt-XXS">99,999</div>
+                              </div>
+                          </div>
+                          
+                        </div>
+                    </div>
+                    <div class="product-card product-card-pane-grid">
+                        <div class="product-card-inner">
+                          <div class="product-card-image">
+                              <div class="product-card-thumbnail">
+                                <a href="javascript:void(0)"><img src="/images/design-system/fpo/product-cards/product-card-grid-pane-1.jpg" alt="Samsung ENERGY STAR"/></a>
+                                <div class="flag flag-info std-txt std-txt-XS">Low Stock</div>
+                                <div className="like-icon">
+                                    <span className="icon heart" dangerouslySetInnerHTML={{ __html: heartfillImage }} />
+                                    <div className="tooltip tooltip-single tooltip-top-right">
+                                      <span className="tooltip-content">Favorite</span>
+                                    </div>
+                                </div>
+                                <a class="alt-link std-txt std-txt-XS" href="javascript:void(0);"><span class="hide-for-small-only">SHOP THE</span> COLLECTION</a>
+                              </div>
+                          </div>
+                          <div className="color-swatches-block hide-for-small-only">
+                              <div>
+                                <div className="color-swatches-medium">
+                                    <ul className="list-product-colors-container">
+                                      <li>
+                                          <a href="javascript:void(0)" className="list-color-swatch list-color-swatch-active"></a>
+                                      </li>
+                                      <li>
+                                          <a href="javascript:void(0)" className="list-color-swatch"></a>
+                                      </li>
+                                      <li>
+                                          <a href="javascript:void(0)" className="list-color-swatch"></a>
+                                      </li>
+                                      <li>
+                                          <a href="javascript:void(0)" className="list-color-swatch"></a>
+                                      </li>
+                                      <li className="swatches-list-link">
+                                          <a href="javascript:void(0)" className="std-txt std-txt-S color-nightsky">
+                                          +23
+                                          </a>                  
+                                      </li>
+                                    </ul>
+                                </div>
+                              </div>
+                          </div>
+                          <div class="product-card-details">
+                              <div class="price price-promo mrg-XS color-penneyred">GREEN MONDAL DEAL!</div>
+                              <div class="product-card-price">
+                                <div class="product-card-price-value price price-S mrg-rght-XS">$29.99</div>
+                                <div class="product-card-note price price-note color-penneyred">sale</div>
+                              </div>
+                              <div class="product-card-note price price-note color-slate std-txt">was $39.99   20% off</div>
+                              <div class="product-card-name-wrap">
+                                <div class="product-card-name std-txt std-txt-S std-txt-XS-at-S color-nightsky">Lorem Ipsumd Dolor Sit Amet Consec Ter Adpisicing Alit…</div>
+                              </div>
+                              <div class="ratings-and-reviews">
+                                <div class="ratings-and-reviews-stars mrg-rght-XS"><img src="/images/design-system/fpo/reviews/reviews-stars-3-5.jpg" alt="Star Ratings"/></div>
+                                <div class="ratings-and-reviews-count color-slate std-txt std-txt-XXS">99,999</div>
+                              </div>
+                          </div>
+                          
+                        </div>
+                    </div>
+                    <div class="product-card product-card-pane-grid">
+                        <div class="product-card-inner">
+                          <div class="product-card-image">
+                              <div class="product-card-thumbnail">
+                                <a href="javascript:void(0)"><img src="/images/design-system/fpo/product-cards/product-card-grid-pane-1.jpg" alt="Samsung ENERGY STAR"/></a>
+                                <div class="flag flag-info std-txt std-txt-XS">Low Stock</div>
+                                <div className="like-icon">
+                                    <span className="icon heart" dangerouslySetInnerHTML={{ __html: heartfillImage }} />
+                                    <div className="tooltip tooltip-single tooltip-top-right">
+                                      <span className="tooltip-content">Favorite</span>
+                                    </div>
+                                </div>
+                                <a class="alt-link std-txt std-txt-XS" href="javascript:void(0);"><span class="hide-for-small-only">SHOP THE</span> COLLECTION</a>
+                              </div>
+                          </div>
+                          <div className="color-swatches-block hide-for-small-only">
+                              <div>
+                                <div className="color-swatches-medium">
+                                    <ul className="list-product-colors-container">
+                                      <li>
+                                          <a href="javascript:void(0)" className="list-color-swatch list-color-swatch-active"></a>
+                                      </li>
+                                      <li>
+                                          <a href="javascript:void(0)" className="list-color-swatch"></a>
+                                      </li>
+                                      <li>
+                                          <a href="javascript:void(0)" className="list-color-swatch"></a>
+                                      </li>
+                                      <li>
+                                          <a href="javascript:void(0)" className="list-color-swatch"></a>
+                                      </li>
+                                      <li className="swatches-list-link">
+                                          <a href="javascript:void(0)" className="std-txt std-txt-S color-nightsky">
+                                          +23
+                                          </a>                  
+                                      </li>
+                                    </ul>
+                                </div>
+                              </div>
+                          </div>
+                          <div class="product-card-details">
+                              <div class="price price-promo mrg-XS color-penneyred">GREEN MONDAL DEAL!</div>
+                              <div class="product-card-price">
+                                <div class="product-card-price-value price price-S mrg-rght-XS">$29.99</div>
+                                <div class="product-card-note price price-note color-penneyred">sale</div>
+                              </div>
+                              <div class="product-card-note price price-note color-slate std-txt">was $39.99   20% off</div>
+                              <div class="product-card-name-wrap">
+                                <div class="product-card-name std-txt std-txt-S std-txt-XS-at-S color-nightsky">Lorem Ipsumd Dolor Sit Amet Consec Ter Adpisicing Alit…</div>
+                              </div>
+                              <div class="ratings-and-reviews">
+                                <div class="ratings-and-reviews-stars mrg-rght-XS"><img src="/images/design-system/fpo/reviews/reviews-stars-3-5.jpg" alt="Star Ratings"/></div>
+                                <div class="ratings-and-reviews-count color-slate std-txt std-txt-XXS">99,999</div>
+                              </div>
+                          </div>
+                          
+                        </div>
+                    </div>
+                    <div class="product-card product-card-pane-grid">
+                        <div class="product-card-inner">
+                          <div class="product-card-image">
+                              <div class="product-card-thumbnail">
+                                <a href="javascript:void(0)"><img src="/images/design-system/fpo/product-cards/product-card-grid-pane-1.jpg" alt="Samsung ENERGY STAR"/></a>
+                                <div class="flag flag-info std-txt std-txt-XS">Low Stock</div>
+                                <div className="like-icon">
+                                    <span className="icon heart" dangerouslySetInnerHTML={{ __html: heartfillImage }} />
+                                    <div className="tooltip tooltip-single tooltip-top-right">
+                                      <span className="tooltip-content">Favorite</span>
+                                    </div>
+                                </div>
+                                <a class="alt-link std-txt std-txt-XS" href="javascript:void(0);"><span class="hide-for-small-only">SHOP THE</span> COLLECTION</a>
+                              </div>
+                          </div>
+                          <div className="color-swatches-block hide-for-small-only">
+                              <div>
+                                <div className="color-swatches-medium">
+                                    <ul className="list-product-colors-container">
+                                      <li>
+                                          <a href="javascript:void(0)" className="list-color-swatch list-color-swatch-active"></a>
+                                      </li>
+                                      <li>
+                                          <a href="javascript:void(0)" className="list-color-swatch"></a>
+                                      </li>
+                                      <li>
+                                          <a href="javascript:void(0)" className="list-color-swatch"></a>
+                                      </li>
+                                      <li>
+                                          <a href="javascript:void(0)" className="list-color-swatch"></a>
+                                      </li>
+                                      <li className="swatches-list-link">
+                                          <a href="javascript:void(0)" className="std-txt std-txt-S color-nightsky">
+                                          +23
+                                          </a>                  
+                                      </li>
+                                    </ul>
+                                </div>
+                              </div>
+                          </div>
+                          <div class="product-card-details">
+                              <div class="price price-promo mrg-XS color-penneyred">GREEN MONDAL DEAL!</div>
+                              <div class="product-card-price">
+                                <div class="product-card-price-value price price-S mrg-rght-XS">$29.99</div>
+                                <div class="product-card-note price price-note color-penneyred">sale</div>
+                              </div>
+                              <div class="product-card-note price price-note color-slate std-txt">was $39.99   20% off</div>
+                              <div class="product-card-name-wrap">
+                                <div class="product-card-name std-txt std-txt-S std-txt-XS-at-S color-nightsky">Lorem Ipsumd Dolor Sit Amet Consec Ter Adpisicing Alit…</div>
+                              </div>
+                              <div class="ratings-and-reviews">
+                                <div class="ratings-and-reviews-stars mrg-rght-XS"><img src="/images/design-system/fpo/reviews/reviews-stars-3-5.jpg" alt="Star Ratings"/></div>
+                                <div class="ratings-and-reviews-count color-slate std-txt std-txt-XXS">99,999</div>
+                              </div>
+                          </div>
+                          <div class="product-card-compare">
+                              <div class="product-card-compare-inner input-group"><label class="checkbox"><input type="checkbox" value="on"/> <span class="std-txt std-txt-S color-nightsky">Compare</span></label></div>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="product-card product-card-pane-grid">
+                        <div class="product-card-inner">
+                          <div class="product-card-image">
+                              <div class="product-card-thumbnail">
+                                <a href="javascript:void(0)"><img src="/images/design-system/fpo/product-cards/product-card-grid-pane-1.jpg" alt="Samsung ENERGY STAR"/></a>
+                                <div class="flag flag-info std-txt std-txt-XS">Low Stock</div>
+                                <div className="like-icon">
+                                    <span className="icon heart" dangerouslySetInnerHTML={{ __html: heartfillImage }} />
+                                    <div className="tooltip tooltip-single tooltip-top-right">
+                                      <span className="tooltip-content">Favorite</span>
+                                    </div>
+                                </div>
+                                <a class="alt-link std-txt std-txt-XS" href="javascript:void(0);"><span class="hide-for-small-only">SHOP THE</span> COLLECTION</a>
+                              </div>
+                          </div>
+                          <div className="color-swatches-block hide-for-small-only">
+                              <div>
+                                <div className="color-swatches-medium">
+                                    <ul className="list-product-colors-container">
+                                      <li>
+                                          <a href="javascript:void(0)" className="list-color-swatch list-color-swatch-active"></a>
+                                      </li>
+                                      <li>
+                                          <a href="javascript:void(0)" className="list-color-swatch"></a>
+                                      </li>
+                                      <li>
+                                          <a href="javascript:void(0)" className="list-color-swatch"></a>
+                                      </li>
+                                      <li>
+                                          <a href="javascript:void(0)" className="list-color-swatch"></a>
+                                      </li>
+                                      <li className="swatches-list-link">
+                                          <a href="javascript:void(0)" className="std-txt std-txt-S color-nightsky">
+                                          +23
+                                          </a>                  
+                                      </li>
+                                    </ul>
+                                </div>
+                              </div>
+                          </div>
+                          <div class="product-card-details">
+                              <div class="price price-promo mrg-XS color-penneyred">GREEN MONDAL DEAL!</div>
+                              <div class="product-card-price">
+                                <div class="product-card-price-value price price-S mrg-rght-XS">$29.99</div>
+                                <div class="product-card-note price price-note color-penneyred">sale</div>
+                              </div>
+                              <div class="product-card-note price price-note color-slate std-txt">was $39.99   20% off</div>
+                              <div class="product-card-name-wrap">
+                                <div class="product-card-name std-txt std-txt-S std-txt-XS-at-S color-nightsky">Lorem Ipsumd Dolor Sit Amet Consec Ter Adpisicing Alit…</div>
+                              </div>
+                              <div class="ratings-and-reviews">
+                                <div class="ratings-and-reviews-stars mrg-rght-XS"><img src="/images/design-system/fpo/reviews/reviews-stars-3-5.jpg" alt="Star Ratings"/></div>
+                                <div class="ratings-and-reviews-count color-slate std-txt std-txt-XXS">99,999</div>
+                              </div>
+                          </div>
+                          <div class="product-card-compare">
+                              <div class="product-card-compare-inner input-group"><label class="checkbox"><input type="checkbox" value="on"/> <span class="std-txt std-txt-S color-nightsky">Compare</span></label></div>
+                          </div>
+                        </div>
+                    </div>
+                  </div>
               </div>
             </div>
 

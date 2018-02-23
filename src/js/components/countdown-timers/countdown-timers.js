@@ -110,18 +110,15 @@ componentDidMount() {
   render() {
     return (
 <div>
-    <div className="row">
-        <div className="sm12 columns">
-            <h1 className="title title-XL mrg-L">Countdown Timers</h1>
+    <div class="row">
+        <div class="sm12 columns">
+            <h1 class="title title-XL mrg-L">Countdown Timers</h1>
             <hr />
         </div>
     </div>
-    
-    
-   
-
-    <div className="row" id="countdown-timers">
-      <div className="sm12 columns">
+  
+    <div class="row" id="countdown-timers">
+      <div class="sm12 columns">
           <div class="timer" id="timer1">
             <div class="timer-inner ">
               <div class="timer-headline">
@@ -203,8 +200,8 @@ componentDidMount() {
       </div>
     </div>
 
-    <div className="row" id="countdown-timers">
-      <div className="sm12 columns">
+    <div class="row" id="countdown-timers">
+      <div class="sm12 columns">
         <p><strong>Scroll down to view the sticky version of the countdown timer.</strong></p>
 
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac nibh et nulla lacinia viverra et fermentum nisl. Cras ipsum magna, porta at auctor quis, hendrerit sit amet dui. Donec purus lectus, placerat in velit sit amet, posuere varius lectus. Nulla ullamcorper urna id tempor condimentum. Phasellus porttitor nunc nec lectus venenatis, sit amet sollicitudin sem fermentum. Integer tortor lorem, pharetra maximus imperdiet et, tincidunt non quam. Etiam mollis posuere turpis ut viverra. Etiam magna ipsum, cursus quis lectus vitae, dapibus convallis elit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
@@ -221,10 +218,10 @@ componentDidMount() {
 
 
     
-    <div className="row">
-        <div className="sm12 columns">
+    <div class="row">
+        <div class="sm12 columns">
             <hr />
-            <p className="S">Created by: <strong>Tony Stark</strong> and <strong>Bruce Banner</strong>
+            <p class="S">Created by: <strong>Tony Stark</strong> and <strong>Bruce Banner</strong>
                 <br /> Latest update: 04/05/2017</p>
         </div>
     </div>

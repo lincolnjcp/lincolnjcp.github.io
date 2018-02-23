@@ -8,13 +8,13 @@ class FooterMinimized extends Component {
     render() {
         return (
             <div>
-                <div className="row">
-                   <footer className="mini-footer text-center">
-                       <div className="footer-need-help">
-                            <span className="icon device-phone" dangerouslySetInnerHTML={{ __html: devicephoneImage }} />
-                            <span className="need-help">Need Help? Give us a call 1 (800) 322-1189</span>
+                <div class="row">
+                   <footer class="mini-footer text-center">
+                       <div class="footer-need-help">
+                            <span class="icon device-phone" dangerouslySetInnerHTML={{ __html: devicephoneImage }} />
+                            <span class="need-help">Need Help? Give us a call 1 (800) 322-1189</span>
                        </div>
-                       <div className="mini-legal-links text-center mrg-M mrg-top-M">
+                       <div class="mini-legal-links text-center mrg-M mrg-top-M">
                             <ul>
                                 <li><a href="javascript:void(0);">Legal</a></li>
                                 <li><a href="javascript:void(0);">Recalls</a></li>
@@ -24,7 +24,7 @@ class FooterMinimized extends Component {
                                 <li><a href="javascript:void(0);">CA Supply Chain Act</a></li>
                             </ul>
                        </div>
-                       <div className="mini-footer-copy text-center mrg-M">
+                       <div class="mini-footer-copy text-center mrg-M">
                            <span>©JCP Media, Inc. 2017. All Rights Reserved</span>
                        </div>
                    </footer>

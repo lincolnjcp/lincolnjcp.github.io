@@ -50,7 +50,7 @@ class Tooltips extends Component {
         // *Creates scroller element and appends to '.scrollable' div
         // create scroller element
         scroller = document.createElement("div");
-        scroller.className = 'scroller';
+        scroller.class = 'scroller';
 
         // determine how big scroller should be based on content
         scrollerHeight = calculateScrollerHeight();
@@ -63,7 +63,7 @@ class Tooltips extends Component {
           scrollContainer.appendChild(scroller);
 
           // show scroll path divot
-          scrollContainer.className += ' showScroll';
+          scrollContainer.class += ' showScroll';
 
           // attach related draggable listeners
           scroller.addEventListener('mousedown', startDrag);
@@ -85,84 +85,84 @@ class Tooltips extends Component {
   render() {
     return (
       <div>
-        <div className="mrg-L row">
-          <div className="tooltip tooltip-single tooltip-left-side">
+        <div class="mrg-L row">
+          <div class="tooltip tooltip-single tooltip-left-side">
             <span>Tooltip left side</span>
           </div>
           <br></br>
           <br></br><br></br><br></br>
 
-          <div className="tooltip tooltip-single tooltip-top-left">
+          <div class="tooltip tooltip-single tooltip-top-left">
             <span>Tooltip Top left side</span>
           </div>
           <br></br>
           <br></br><br></br><br></br>
 
-          <div className="tooltip tooltip-single tooltip-bottom-left">
+          <div class="tooltip tooltip-single tooltip-bottom-left">
             <span>Tooltip Bottom left side</span>
           </div>
           <br></br>
           <br></br><br></br><br></br>
 
-          <div className="tooltip tooltip-single tooltip-right-side">
+          <div class="tooltip tooltip-single tooltip-right-side">
             <span>Tooltip right side</span>
           </div>
           <br></br>
           <br></br><br></br><br></br>
 
 
-          <div className="tooltip tooltip-single tooltip-top-right ">
+          <div class="tooltip tooltip-single tooltip-top-right ">
             <span>Tooltip Top right side</span>
           </div>
 
           <br></br><br></br><br></br><br></br>
 
-          <div className="tooltip tooltip-single tooltip-bottom-right ">
+          <div class="tooltip tooltip-single tooltip-bottom-right ">
             <span>Tooltip Bottom right side</span>
           </div>
           <br></br><br></br><br></br><br></br>
 
-          <div className="tooltip tooltip-single tooltip-top-center">
+          <div class="tooltip tooltip-single tooltip-top-center">
             <span>Tooltip Top center side</span>
           </div>
           <br></br><br></br><br></br><br></br>
 
-          <div className="tooltip tooltip-single tooltip-bottom-center">
+          <div class="tooltip tooltip-single tooltip-bottom-center">
             <span>Tooltip Bottom center side</span>
           </div>
           <br></br><br></br><br></br><br></br>
-          <div className="tooltip tooltip-single tooltip-dark">
+          <div class="tooltip tooltip-single tooltip-dark">
             <span>Tooltip Single line dark</span>
           </div>
           <br></br><br></br><br></br><br></br>
 
-          <div className="tooltip tooltip-multi-line tooltip-top-center scroll-container">
-            <div className="scroll-block custom-scroll scrollable">
-              <div className="scroll-content-wrapper">
-                <div className="scroll-content">
+          <div class="tooltip tooltip-multi-line tooltip-top-center scroll-container">
+            <div class="scroll-block custom-scroll scrollable">
+              <div class="scroll-content-wrapper">
+                <div class="scroll-content">
                   a For new residential mattresses purchased in conjunction with a BedGard Encasement. the warranty if the mattress is stained. A full encasement reduces conditions which attract dust mites, allergens and bed bugs. HOW DOES IT WORK? Customers purchase and use the BedGard Protector along with their new residential mattress. If their mattress becomes stained during normal residential use while using the protector, the affected portion or the complete mattress will be repaired or replaced!HOW LONG IS COVERAGE? The BedGard Product Limited Warranty is effective for ten (10) years from the date the customer takes delivery of the Mattress Protector and the Mattress. WHAT PROBLEMS ARE COVERED? Construction and staining of the BedGard Mattress Protector/Pad. All accidental stains attributed to a single occurrence (excluding accumulation defined as a gradual buildup of dirt, dust, body oils and perspiration). HOW LONG DOES THE CUSTOMER HAVE TO REPORT A PROBLEM? Problems must be reported within ten (10) days of occurrence of the stain or damage. BEDGARD ENCASEMENT: 10 Year Plan with Encasement: For new residential mattresses purchased in conjunction with a BedGard Encasement. Coverage includes: All accidental stains (excluding accumulations). Construction of Mattress Protector. WHY BEDGARD ENCASEMENT? The manufacturer of the mattress will void the warranty if the mattress is stained. A full encasement reduces conditions which attract dust mites, allergens and bed bugs. HOW DOES IT WORK? Customers purchase and use the BedGard Protector along with their new residential mattress. If their mattress becomes stained during normal residential use while using the protector, the affected portion or the complete mattress will be repaired or replaced!HOW LONG IS COVERAGE? The BedGard Product Limited Warranty is effective for ten (10) years from the date the customer takes delivery of the Mattress Protector and the Mattress. WHAT PROBLEMS ARE COVERED? Construction and staining of the BedGard Mattress Protector/Pad. All accidental stains attributed to a single occurrence (excluding accumulation defined as a gradual buildup of dirt.
                 </div>
               </div>
             </div>
-            <div className="scroll-block-fade"></div>
+            <div class="scroll-block-fade"></div>
           </div>
           <br></br><br></br><br></br><br></br>
           
-          {/* <div className="tooltip tooltip-multi-line tooltip-bottom-center scroll-container">
-            <div className="scroll-block custom-scroll scrollable">
-              <div className="scroll-content-wrapper">
-                <div className="scroll-content">
+          {/* <div class="tooltip tooltip-multi-line tooltip-bottom-center scroll-container">
+            <div class="scroll-block custom-scroll scrollable">
+              <div class="scroll-content-wrapper">
+                <div class="scroll-content">
                   For new residential mattresses purchased in conjunction with a BedGard Encasement. the warranty if the mattress is stained. A full encasement reduces conditions which attract dust mites, allergens and bed bugs. HOW DOES IT WORK? Customers purchase and use the BedGard Protector along with their new residential mattress. If their mattress becomes stained during normal residential use while using the protector, the affected portion or the complete mattress will be repaired or replaced!HOW LONG IS COVERAGE? The BedGard Product Limited Warranty is effective for ten (10) years from the date the customer takes delivery of the Mattress Protector and the Mattress. WHAT PROBLEMS ARE COVERED? Construction and staining of the BedGard Mattress Protector/Pad. All accidental stains attributed to a single occurrence (excluding accumulation defined as a gradual buildup of dirt, dust, body oils and perspiration). HOW LONG DOES THE CUSTOMER HAVE TO REPORT A PROBLEM? Problems must be reported within ten (10) days of occurrence of the stain or damage. BEDGARD ENCASEMENT: 10 Year Plan with Encasement: For new residential mattresses purchased in conjunction with a BedGard Encasement. Coverage includes: All accidental stains (excluding accumulations). Construction of Mattress Protector. WHY BEDGARD ENCASEMENT? The manufacturer of the mattress will void the warranty if the mattress is stained. A full encasement reduces conditions which attract dust mites, allergens and bed bugs. HOW DOES IT WORK? Customers purchase and use the BedGard Protector along with their new residential mattress. If their mattress becomes stained during normal residential use while using the protector, the affected portion or the complete mattress will be repaired or replaced!HOW LONG IS COVERAGE? The BedGard Product Limited Warranty is effective for ten (10) years from the date the customer takes delivery of the Mattress Protector and the Mattress. WHAT PROBLEMS ARE COVERED? Construction and staining of the BedGard Mattress Protector/Pad. All accidental stains attributed to a single occurrence (excluding accumulation defined as a gradual buildup of dirt.
                 </div>
               </div>
             </div>
-            <div className="scroll-block-fade"></div>
+            <div class="scroll-block-fade"></div>
           </div>
           <br></br><br></br><br></br><br></br>
-          <div className="tooltip tooltip-top-right tooltip-multi-line scroll-container">
-            <div className="scroll-block custom-scroll scrollable">
-              <div className="scroll-content-wrapper">
-                <div className="scroll-content">
+          <div class="tooltip tooltip-top-right tooltip-multi-line scroll-container">
+            <div class="scroll-block custom-scroll scrollable">
+              <div class="scroll-content-wrapper">
+                <div class="scroll-content">
                   For new residential mattresses purchased in conjunction with a BedGard Encasement. the warranty if the mattress is stained. A full encasement reduces conditions which attract dust mites, allergens and bed bugs. HOW DOES IT WORK? Customers purchase and use the BedGard Protector along with their new residential mattress. If their mattress becomes stained during normal residential use while using the protector, the affected portion or the complete mattress will be repaired or replaced!HOW LONG IS COVERAGE? The BedGard Product Limited Warranty is effective for ten (10) years from the date the customer takes delivery of the Mattress Protector and the Mattress. WHAT PROBLEMS ARE COVERED? Construction and staining of the BedGard Mattress Protector/Pad. All accidental stains attributed to a single occurrence (excluding accumulation defined as a gradual buildup of dirt, dust, body oils and perspiration). HOW LONG DOES THE CUSTOMER HAVE TO REPORT A PROBLEM? Problems must be reported within ten (10) days of occurrence of the stain or damage. BEDGARD ENCASEMENT: 10 Year Plan with Encasement: For new residential mattresses purchased in conjunction with a BedGard Encasement. Coverage includes: All accidental stains (excluding accumulations). Construction of Mattress Protector. WHY BEDGARD ENCASEMENT? The manufacturer of the mattress will void the warranty if the mattress is stained. A full encasement reduces conditions which attract dust mites, allergens and bed bugs. HOW DOES IT WORK? Customers purchase and use the BedGard Protector along with their new residential mattress. If their mattress becomes stained during normal residential use while using the protector, the affected portion or the complete mattress will be repaired or replaced!HOW LONG IS COVERAGE? The BedGard Product Limited Warranty is effective for ten (10) years from the date the customer takes delivery of the Mattress Protector and the Mattress. WHAT PROBLEMS ARE COVERED? Construction and staining of the BedGard Mattress Protector/Pad. All accidental stains attributed to a single occurrence (excluding accumulation defined as a gradual buildup of dirt.
                 </div>
               </div>
@@ -171,7 +171,7 @@ class Tooltips extends Component {
           <br></br><br></br><br></br> */}
 
 
-          <div className="tooltip tooltip-top-right tooltip-long tooltip-list">
+          <div class="tooltip tooltip-top-right tooltip-long tooltip-list">
             <ul>
               <li><a href="javascript:void(0)">My Account</a></li>
               <li><a href="javascript:void(0)">My Rewards</a></li>
@@ -183,16 +183,16 @@ class Tooltips extends Component {
               <li><a href="javascript:void(0)">My JCPenney.com</a></li>
               <li><a href="javascript:void(0)">Gift Registry</a></li>
               <li><a href="javascript:void(0)">JCPenney Credit Card</a></li>
-              <li className="tooltip-divider"><a href="javascript:void(0)">Sign Out</a></li>
+              <li class="tooltip-divider"><a href="javascript:void(0)">Sign Out</a></li>
             </ul>
           </div>
           <br></br><br></br><br></br>
-          <div className="tooltip tooltip-right-side tooltip-multi-line">
-            <div className="tooltip-close">
+          <div class="tooltip tooltip-right-side tooltip-multi-line">
+            <div class="tooltip-close">
 
             </div>
             <span>
-              <h1 className="title title-M mrg-S">This is a Tooltip H1 Title</h1>
+              <h1 class="title title-M mrg-S">This is a Tooltip H1 Title</h1>
               <input type="radio" id="tooltip-radio" name="tootlip-radio" />
               <label for="tooltip-radio">Vanilla label</label>
             </span>

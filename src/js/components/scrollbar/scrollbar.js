@@ -49,7 +49,7 @@ class Scrollbar extends Component {
                 // *Creates scroller element and appends to '.scrollable' div
                 // create scroller element
                 scroller = document.createElement("div");
-                scroller.className = 'scroller';
+                scroller.class = 'scroller';
 
                 // determine how big scroller should be based on content
                 scrollerHeight = calculateScrollerHeight();
@@ -62,7 +62,7 @@ class Scrollbar extends Component {
                     scrollContainer.appendChild(scroller);
 
                     // show scroll path divot
-                    scrollContainer.className += ' showScroll';
+                    scrollContainer.class += ' showScroll';
 
                     // attach related draggable listeners
                     scroller.addEventListener('mousedown', startDrag);
@@ -74,7 +74,6 @@ class Scrollbar extends Component {
 
             createScroller();
 
-
             // *** Listeners ***
             scrollContentWrapper.addEventListener('scroll', moveScroller);
         }());
@@ -84,19 +83,19 @@ class Scrollbar extends Component {
     render() {
         return (
             <div>
-                <div className="row">
-                    <div className="padding-25">
-                        <div className="modal scroll-container">
-                            <button className="modal-close" title="close"></button>
-                            <div className="scroll-block custom-scroll scrollable">
-                                <div className="scroll-content-wrapper">
-                                    <div className="scroll-content">
-                                        <h2 className="title title-L test mrg-XS">10 Year Mattress Encasement Plan Twin</h2>
-                                        <h4 className="title-M title mrg-M">Sealy Essentials™ Holly Hills Firm - Mattress + Box Spring</h4>
+                <div class="row">
+                    <div class="padding-25">
+                        <div class="modal scroll-container">
+                            <button class="modal-close" title="close"></button>
+                            <div class="scroll-block custom-scroll scrollable">
+                                <div class="scroll-content-wrapper">
+                                    <div class="scroll-content">
+                                        <h2 class="title title-L test mrg-XS">10 Year Mattress Encasement Plan Twin</h2>
+                                        <h4 class="title-M title mrg-M">Sealy Essentials™ Holly Hills Firm - Mattress + Box Spring</h4>
                                         BEDGARD ENCASEMENT: 10 Year Plan with Encasement: For new residential mattresses purchased in conjunction with a BedGard Encasement. Coverage includes: All accidental stains (excluding accumulations). Construction of Mattress Protector. WHY BEDGARD ENCASEMENT? The manufacturer of the mattress will void the warranty if the mattress is stained. A full encasement reduces conditions which attract dust mites, allergens and bed bugs. HOW DOES IT WORK? Customers purchase and use the BedGard Protector along with their new residential mattress. If their mattress becomes stained during normal residential use while using the protector, the affected portion or the complete mattress will be repaired or replaced!HOW LONG IS COVERAGE? The BedGard Product Limited Warranty is effective for ten (10) years from the date the customer takes delivery of the Mattress Protector and the Mattress. WHAT PROBLEMS ARE COVERED? Construction and staining of the BedGard Mattress Protector/Pad. All accidental stains attributed to a single occurrence (excluding accumulation defined as a gradual buildup of dirt, dust, body oils and perspiration). HOW LONG DOES THE CUSTOMER HAVE TO REPORT A PROBLEM? Problems must be reported within ten (10) days of occurrence of the stain or damage. BEDGARD ENCASEMENT: 10 Year Plan with Encasement: For new residential mattresses purchased in conjunction with a BedGard Encasement. Coverage includes: All accidental stains (excluding accumulations). Construction of Mattress Protector. WHY BEDGARD ENCASEMENT? The manufacturer of the mattress will void the warranty if the mattress is stained. A full encasement reduces conditions which attract dust mites, allergens and bed bugs. HOW DOES IT WORK? Customers purchase and use the BedGard Protector along with their new residential mattress. If their mattress becomes stained during normal residential use while using the protector, the affected portion or the complete mattress will be repaired or replaced!HOW LONG IS COVERAGE? The BedGard Product Limited Warranty is effective for ten (10) years from the date the customer takes delivery of the Mattress Protector and the Mattress. WHAT PROBLEMS ARE COVERED? Construction and staining of the BedGard Mattress Protector/Pad. All accidental stains attributed to a single occurrence (excluding accumulation defined as a gradual buildup of dirt, dust, body oils and perspiration). HOW LONG DOES THE CUSTOMER HAVE TO REPORT A PROBLEM? Problems must be reported within ten (10) days of occurrence of the stain or damage.</div>
                                     </div>
                                  </div>
-                            <div className="scroll-block-fade"></div>
+                            <div class="scroll-block-fade"></div>
                         </div>
                     </div>
                 </div>

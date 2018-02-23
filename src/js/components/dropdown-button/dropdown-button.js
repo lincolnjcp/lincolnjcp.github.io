@@ -5,67 +5,67 @@ class DropdownButton extends Component {
 
     componentDidMount() {
 
-        // $('.dropdown-button').on('click', function () {
+        $('.dropdown-button').on('click', function () {
 
-        //     var parent_box = $(this).closest('.dropdown-menu-block');
-        //     parent_box.find('.dropdown-menu').slideToggle(200, "swing");
-        //     parent_box.siblings().find('.dropdown-menu').hide();
+            var parent_box = $(this).closest('.dropdown-menu-block');
+            parent_box.find('.dropdown-menu').slideToggle(200, "swing");
+            parent_box.siblings().find('.dropdown-menu').hide();
 
-        //     $(this).toggleClass("arrow-down");
-        //     return false;
-        // });
+            $(this).toggleClass("arrow-down");
+            return false;
+        });
 
-        (function ($) {
-            $.fn.dropdown = function () {
-                var dropdown = this;
-                dropdown.find('.dropdown-button').click(function () {
-                    var p = $(this).parent();
-                    $('.dropdown').not(p).removeClass('active');
-                    $(this).parent('.dropdown').toggleClass('active');
-                });
-                dropdown.find('.menu').find('.item').click(function () {
-                    var html = $(this).text();
-                    $(this).parent('.dropdown').find('button').text('haha');
-                });
+        // (function ($) {
+        //     $.fn.dropdown = function () {
+        //         var dropdown = this;
+        //         dropdown.find('.dropdown-button').click(function () {
+        //             var p = $(this).parent();
+        //             $('.dropdown').not(p).removeClass('active');
+        //             $(this).parent('.dropdown').toggleClass('active');
+        //         });
+        //         dropdown.find('.menu').find('.item').click(function () {
+        //             var html = $(this).text();
+        //             $(this).parent('.dropdown').find('button').text('haha');
+        //         });
 
-                $(window).click(function () {
-                    $('.dropdown').removeClass('active');
-                });
+        //         $(window).click(function () {
+        //             $('.dropdown').removeClass('active');
+        //         });
 
-                $('.dropdown').click(function (event) {
-                    event.stopPropagation();
-                });
-            }
-        })(jQuery);
+        //         $('.dropdown').click(function (event) {
+        //             event.stopPropagation();
+        //         });
+        //     }
+        // })(jQuery);
 
-        $('.dropdown').dropdown();
+        // $('.dropdown').dropdown();
     }
 
     render() {
         return (
             <div id="dropdown-button">
-                <h1 className="title title-XL mrg-L">Dropdown Button</h1>
+                <h1 class="title title-XL mrg-L">Dropdown Button</h1>
 
-                <div className="row md12 sm12 lg12">
-                    <div className="dropdown-menu-block column md4 sm6 lg3 mrg-M">
-                        <div className="pos-rel fl-left">
-                            <a className="dropdown-button title-S">Product Type <span className="arrow"></span></a>
-                            <div className="dropdown-menu">
-                                <div className="tooltip tooltip-top-left tooltip-Large">
+                <div class="row md12 sm12 lg12">
+                    <div class="dropdown-menu-block column md4 sm6 lg3 mrg-M">
+                        <div class="pos-rel fl-left">
+                            <a class="dropdown-button title-S">Product Type <span class="arrow"></span></a>
+                            <div class="dropdown-menu">
+                                <div class="tooltip tooltip-top-left tooltip-Large">
                                     <span>
-                                        <ul className="list list-underline list-checkboxes">
-                                            <li><label className="checkbox">
+                                        <ul class="list list-underline list-checkboxes">
+                                            <li><label class="checkbox">
                                                 <input type="checkbox" /> <span>$200 - $300</span>
-                                            </label> <span className="list-qty">(14)</span></li>
-                                            <li><label className="checkbox">
+                                            </label> <span class="list-qty">(14)</span></li>
+                                            <li><label class="checkbox">
                                                 <input type="checkbox" /> <span>$200 - $300</span>
-                                            </label> <span className="list-qty">(14)</span></li>
-                                            <li><label className="checkbox">
+                                            </label> <span class="list-qty">(14)</span></li>
+                                            <li><label class="checkbox">
                                                 <input type="checkbox" /> <span>$200 - $300</span>
-                                            </label> <span className="list-qty">(14)</span></li>
-                                            <li><label className="checkbox">
+                                            </label> <span class="list-qty">(14)</span></li>
+                                            <li><label class="checkbox">
                                                 <input type="checkbox" /> <span>$200 - $300</span>
-                                            </label> <span className="list-qty">(14)</span></li>
+                                            </label> <span class="list-qty">(14)</span></li>
                                         </ul>
                                     </span>
                                 </div>
@@ -73,109 +73,109 @@ class DropdownButton extends Component {
                         </div>
                     </div>
 
-                    <div className="dropdown-menu-block column md4 sm6 lg3 mrg-M">
-                        <div className="pos-rel fl-left">
-                            <a className="dropdown-button title-S">Product Type <span className="arrow"></span></a>
-                            <div className="dropdown-menu">
-                                <div className="tooltip tooltip-top-left tooltip-Large">
+                    <div class="dropdown-menu-block column md4 sm6 lg3 mrg-M">
+                        <div class="pos-rel fl-left">
+                            <a class="dropdown-button title-S">Product Type <span class="arrow"></span></a>
+                            <div class="dropdown-menu">
+                                <div class="tooltip tooltip-top-left tooltip-Large">
                                     <span>
                                         <ul>
-                                            <li className="dropdown-list">
-                                                <label className="checkbox mrg-M" >
+                                            <li class="dropdown-list">
+                                                <label class="checkbox mrg-M" >
                                                     <input type="checkbox" defaultChecked="" />
-                                                    <span className="left">label</span>
-                                                    <span className="right-label">(1,008)</span>
+                                                    <span class="left">label</span>
+                                                    <span class="right-label">(1,008)</span>
                                                 </label>
                                             </li>
-                                            <li className="dropdown-list">
-                                                <label className="checkbox mrg-M">
+                                            <li class="dropdown-list">
+                                                <label class="checkbox mrg-M">
                                                     <input type="checkbox" defaultChecked="" />
-                                                    <span className="left">label</span>
-                                                    <span className="right-label">(1,008)</span>
+                                                    <span class="left">label</span>
+                                                    <span class="right-label">(1,008)</span>
                                                 </label>
                                             </li>
-                                            <li className="dropdown-list">
-                                                <label className="checkbox mrg-M">
+                                            <li class="dropdown-list">
+                                                <label class="checkbox mrg-M">
                                                     <input type="checkbox" defaultChecked="" />
-                                                    <span className="left">label</span>
-                                                    <span className="right-label">(1,008)</span>
+                                                    <span class="left">label</span>
+                                                    <span class="right-label">(1,008)</span>
                                                 </label>
                                             </li>
-                                            <li className="dropdown-list">
-                                                <label className="checkbox mrg-M">
+                                            <li class="dropdown-list">
+                                                <label class="checkbox mrg-M">
                                                     <input type="checkbox" defaultChecked="" />
-                                                    <span className="left">label</span>
-                                                    <span className="right-label">(1,008)</span>
+                                                    <span class="left">label</span>
+                                                    <span class="right-label">(1,008)</span>
                                                 </label>
                                             </li>
-                                            <li className="dropdown-list">
-                                                <label className="checkbox mrg-M">
+                                            <li class="dropdown-list">
+                                                <label class="checkbox mrg-M">
                                                     <input type="checkbox" defaultChecked="" />
-                                                    <span className="left">label</span>
-                                                    <span className="right-label">(1,008)</span>
+                                                    <span class="left">label</span>
+                                                    <span class="right-label">(1,008)</span>
                                                 </label>
                                             </li>
-                                            <li className="dropdown-list">
-                                                <label className="checkbox mrg-M">
+                                            <li class="dropdown-list">
+                                                <label class="checkbox mrg-M">
                                                     <input type="checkbox" defaultChecked="" />
-                                                    <span className="left">label</span>
-                                                    <span className="right-label">(1,008)</span>
+                                                    <span class="left">label</span>
+                                                    <span class="right-label">(1,008)</span>
                                                 </label>
                                             </li>
-                                            <li className="dropdown-list">
-                                                <label className="checkbox mrg-M">
+                                            <li class="dropdown-list">
+                                                <label class="checkbox mrg-M">
                                                     <input type="checkbox" defaultChecked="" />
-                                                    <span className="left">label</span>
-                                                    <span className="right-label">(1,008)</span>
+                                                    <span class="left">label</span>
+                                                    <span class="right-label">(1,008)</span>
                                                 </label>
                                             </li>
-                                            <li className="dropdown-list">
-                                                <label className="checkbox mrg-M">
+                                            <li class="dropdown-list">
+                                                <label class="checkbox mrg-M">
                                                     <input type="checkbox" defaultChecked="" />
-                                                    <span className="left">label</span>
-                                                    <span className="right-label">(1,008)</span>
+                                                    <span class="left">label</span>
+                                                    <span class="right-label">(1,008)</span>
                                                 </label>
                                             </li>
-                                            <li className="dropdown-list">
-                                                <label className="checkbox mrg-M">
+                                            <li class="dropdown-list">
+                                                <label class="checkbox mrg-M">
                                                     <input type="checkbox" defaultChecked="" />
-                                                    <span className="left">label</span>
-                                                    <span className="right-label">(1,008)</span>
+                                                    <span class="left">label</span>
+                                                    <span class="right-label">(1,008)</span>
                                                 </label>
                                             </li>
-                                            <li className="dropdown-list">
-                                                <label className="checkbox mrg-M">
+                                            <li class="dropdown-list">
+                                                <label class="checkbox mrg-M">
                                                     <input type="checkbox" defaultChecked="" />
-                                                    <span className="left">label</span>
-                                                    <span className="right-label">(1,008)</span>
+                                                    <span class="left">label</span>
+                                                    <span class="right-label">(1,008)</span>
                                                 </label>
                                             </li>
-                                            <li className="dropdown-list">
-                                                <label className="checkbox mrg-M">
+                                            <li class="dropdown-list">
+                                                <label class="checkbox mrg-M">
                                                     <input type="checkbox" defaultChecked="" />
-                                                    <span className="left">label</span>
-                                                    <span className="right-label">(1,008)</span>
+                                                    <span class="left">label</span>
+                                                    <span class="right-label">(1,008)</span>
                                                 </label>
                                             </li>
-                                            <li className="dropdown-list">
-                                                <label className="checkbox mrg-M">
+                                            <li class="dropdown-list">
+                                                <label class="checkbox mrg-M">
                                                     <input type="checkbox" defaultChecked="" />
-                                                    <span className="left">label</span>
-                                                    <span className="right-label">(1,008)</span>
+                                                    <span class="left">label</span>
+                                                    <span class="right-label">(1,008)</span>
                                                 </label>
                                             </li>
-                                            <li className="dropdown-list">
-                                                <label className="checkbox mrg-M">
+                                            <li class="dropdown-list">
+                                                <label class="checkbox mrg-M">
                                                     <input type="checkbox" defaultChecked="" />
-                                                    <span className="left">label</span>
-                                                    <span className="right-label">(1,008)</span>
+                                                    <span class="left">label</span>
+                                                    <span class="right-label">(1,008)</span>
                                                 </label>
                                             </li>
-                                            <li className="dropdown-list">
-                                                <label className="checkbox mrg-M">
+                                            <li class="dropdown-list">
+                                                <label class="checkbox mrg-M">
                                                     <input type="checkbox" defaultChecked="" />
-                                                    <span className="left">label</span>
-                                                    <span className="right-label">(1,008)</span>
+                                                    <span class="left">label</span>
+                                                    <span class="right-label">(1,008)</span>
                                                 </label>
                                             </li>
                                         </ul>
@@ -186,24 +186,24 @@ class DropdownButton extends Component {
                     </div>
 
 
-                    <div className="dropdown-menu-block column md4 sm6 lg3 mrg-M">
-                        <div className="pos-rel fl-left">
-                            <a className="dropdown-button title-S">Sort by: <span class="sortby">Featured</span><span className="arrow"></span></a>
-                            <div className="dropdown-menu">
-                                <div className="tooltip tooltip-top-left">
+                    <div class="dropdown-menu-block column md4 sm6 lg3 mrg-M">
+                        <div class="pos-rel fl-left">
+                            <a class="dropdown-button title-S">Sort by: <span class="sortby">Featured</span><span class="arrow"></span></a>
+                            <div class="dropdown-menu">
+                                <div class="tooltip tooltip-top-left">
                                     <span>
-                                        <ul className="dropdown-sort">
-                                            <li className="dropdown-list">
-                                                <a href="javascript:void(0)" className="sort-list">Featured</a>
+                                        <ul class="dropdown-sort">
+                                            <li class="dropdown-list">
+                                                <a href="javascript:void(0)" class="sort-list">Featured</a>
                                             </li>
-                                            <li className="dropdown-list">
-                                                <a href="javascript:void(0)" className="sort-list">Best Sellers</a>
+                                            <li class="dropdown-list">
+                                                <a href="javascript:void(0)" class="sort-list">Best Sellers</a>
                                             </li>
-                                            <li className="dropdown-list">
-                                                <a href="javascript:void(0)" className="sort-list">New Arrivals</a>
+                                            <li class="dropdown-list">
+                                                <a href="javascript:void(0)" class="sort-list">New Arrivals</a>
                                             </li>
-                                            <li className="dropdown-list">
-                                                <a href="javascript:void(0)" className="sort-list">Price High to Low</a>
+                                            <li class="dropdown-list">
+                                                <a href="javascript:void(0)" class="sort-list">Price High to Low</a>
                                             </li>
                                         </ul>
                                     </span>
@@ -214,40 +214,40 @@ class DropdownButton extends Component {
                 </div>
 
                 <br /><br /><br /><br /><br /><br />
-                <div className="row md12 sm12 lg12 mrg-XL prevent-event">
-                    <div className="dropdown-menu-block sm12 md4 lg3 column">
-                        <a className="dropdown-button title-S">Product Type <span className="arrow"></span></a>
-                        <span className="std-txt-label">Default</span>
+                <div class="row md12 sm12 lg12 mrg-XL prevent-event">
+                    <div class="dropdown-menu-block sm12 md4 lg3 column">
+                        <a class="dropdown-button title-S">Product Type <span class="arrow"></span></a>
+                        <span class="std-txt-label">Default</span>
                     </div>
-                    <div className="dropdown-menu-block sm12 md4 lg3 column">
-                        <a className="dropdown-button title-S hover">Product Type <span className="arrow"></span></a>
-                        <span className="std-txt-label">Hover</span>
+                    <div class="dropdown-menu-block sm12 md4 lg3 column">
+                        <a class="dropdown-button title-S hover">Product Type <span class="arrow"></span></a>
+                        <span class="std-txt-label">Hover</span>
                     </div>
-                    <div className="dropdown-menu-block sm12 md4 lg3 column">
-                        <a className="dropdown-button title-S hover arrow-down">Product Type <span className="arrow"></span></a>
-                        <span className="std-txt-label">Active</span>
+                    <div class="dropdown-menu-block sm12 md4 lg3 column">
+                        <a class="dropdown-button title-S hover arrow-down">Product Type <span class="arrow"></span></a>
+                        <span class="std-txt-label">Active</span>
                     </div>
-                    <div className="dropdown-menu-block sm12 md4 lg3 column">
-                        <a className="dropdown-button title-S disabled">Product Type <span className="arrow"></span></a>
-                        <span className="std-txt-label">Disabled</span>
+                    <div class="dropdown-menu-block sm12 md4 lg3 column">
+                        <a class="dropdown-button title-S disabled">Product Type <span class="arrow"></span></a>
+                        <span class="std-txt-label">Disabled</span>
                     </div>
                 </div>
-                <div className="row md12 sm12 lg12 mrg-XL prevent-event">
-                    <div className="dropdown-menu-block sm12 md4 lg3 column">
-                        <a className="dropdown-button title-S">Sort by: <span className="sortby">Featured</span> <span className="arrow"></span></a>
-                        <span className="std-txt-label">Default with selected value</span>
+                <div class="row md12 sm12 lg12 mrg-XL prevent-event">
+                    <div class="dropdown-menu-block sm12 md4 lg3 column">
+                        <a class="dropdown-button title-S">Sort by: <span class="sortby">Featured</span> <span class="arrow"></span></a>
+                        <span class="std-txt-label">Default with selected value</span>
                     </div>
-                    <div className="dropdown-menu-block sm12 md4 lg3 column">
-                        <a className="dropdown-button title-S hover">Sort by: <span className="sortby">Featured</span> <span className="arrow"></span></a>
-                        <span className="std-txt-label">Hover with selected value</span>
+                    <div class="dropdown-menu-block sm12 md4 lg3 column">
+                        <a class="dropdown-button title-S hover">Sort by: <span class="sortby">Featured</span> <span class="arrow"></span></a>
+                        <span class="std-txt-label">Hover with selected value</span>
                     </div>
-                    <div className="dropdown-menu-block sm12 md4 lg3 column">
-                        <a className="dropdown-button title-S hover arrow-down">Sort by: <span className="sortby">Featured</span> <span className="arrow"></span></a>
-                        <span className="std-txt-label">Active with selected value</span>
+                    <div class="dropdown-menu-block sm12 md4 lg3 column">
+                        <a class="dropdown-button title-S hover arrow-down">Sort by: <span class="sortby">Featured</span> <span class="arrow"></span></a>
+                        <span class="std-txt-label">Active with selected value</span>
                     </div>
-                    <div className="dropdown-menu-block sm12 md4 lg3 column">
-                        <a className="dropdown-button title-S">Sort by: <span className="sortby">Ratings High to Low</span> <span className="arrow"></span></a>
-                        <span className="std-txt-label">display text overflows in area</span>
+                    <div class="dropdown-menu-block sm12 md4 lg3 column">
+                        <a class="dropdown-button title-S">Sort by: <span class="sortby">Ratings High to Low</span> <span class="arrow"></span></a>
+                        <span class="std-txt-label">display text overflows in area</span>
                     </div>
                 </div>
             </div>

@@ -50,7 +50,6 @@ class LikeDislike extends Component {
                     </div>
                 </div>
 
-
                 <div class="row">
                     <div class="sm12 columns">
                         <hr />

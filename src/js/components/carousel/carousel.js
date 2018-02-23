@@ -123,7 +123,7 @@ class Carousel extends Component {
       focusOnSelect: true,
       arrows: false,
       variableWidth: true,
-      beforeChange: function(currentSlide, nextSlide) {
+      beforeChange: function (currentSlide, nextSlide) {
         that.refs.mainSlider.setState({ currentSlide: nextSlide });
 
         if (
@@ -139,7 +139,7 @@ class Carousel extends Component {
         ).querySelectorAll('[data-index="' + currentSlide + '"]');
         slickCurrentPrevious[0].classList.remove("slick-current");
       },
-      afterChange: function(index) {
+      afterChange: function (index) {
         var slickCurrentNext = ReactDOM.findDOMNode(
           that.refs.mainSlider,
         ).querySelectorAll('[data-index="' + index + '"]');
@@ -203,7 +203,7 @@ class Carousel extends Component {
       focusOnSelect: true,
       arrows: true,
       variableWidth: true,
-      beforeChange: function(currentSlide, nextSlide) {
+      beforeChange: function (currentSlide, nextSlide) {
         that.refs.secondarySlider.setState({ currentSlide: nextSlide });
 
         if (
@@ -219,7 +219,7 @@ class Carousel extends Component {
         ).querySelectorAll('[data-index="' + currentSlide + '"]');
         slickCurrentPrevious[0].classList.remove("slick-current");
       },
-      afterChange: function(index) {
+      afterChange: function (index) {
         var slickCurrentNext = ReactDOM.findDOMNode(
           that.refs.secondarySlider,
         ).querySelectorAll('[data-index="' + index + '"]');
@@ -285,9 +285,9 @@ class Carousel extends Component {
 
         <div className="row" id="carousel">
           <div className="md12 lg12 sm12 column">
-            {/* <h2 className="title title-L mrg-M">
+            <h2 className="title title-L mrg-M">
               PDP Carousels & Video Player
-            </h2> */}
+            </h2>
 
             <div className="carousel-container carousel-container-vertical mrg-L hide-for-medium-only hide-for-small-only">
               <div className="carousel-main-img">
@@ -330,8 +330,8 @@ class Carousel extends Component {
               </div>
             </div>
 
-            {/*  hiding secondary carousel */}
-            <div className="carousel-container carousel-container-horizontal mrg-L hide-for-medium-only hide-for-small-only hide">
+
+            <div className="carousel-container carousel-container-horizontal mrg-L hide-for-medium-only hide-for-small-only">
               <div className="carousel-main-img">
                 <Slider ref="secondarySlider" {...pdpSecondaryCarouselSettings}>
                   <div>
@@ -397,44 +397,6 @@ class Carousel extends Component {
             </div>
           </div>
         </div>
-
-        {/* <div className="row" id="content-guidelines">
-          <div className="sm12 columns">
-            <hr />
-            <h3 className="title title-L mrg-L">Content Guidelines</h3>
-            <p className="mrg-L">
-              Cras mattis consectetur purus sit amet fermentum. Fusce dapibus,
-              tellus ac cursus commodo, tortor mauris condimentum nibh, ut
-              fermentum massa justo sit amet risus. Cras justo odio, dapibus ac
-              facilisis in, egestas eget quam.
-            </p>
-
-            <h4 className="title title-M mrg-L">
-              How to write effective alerts:
-            </h4>
-            <ul className="list max-width-text color-slate">
-              <li>Aenean lacinia bibendum nulla sed consectetur</li>
-              <li>
-                Integer posuere erat a ante venenatis dapibus posuere velit
-                aliquet
-              </li>
-              <li>
-                Etiam porta sem malesuada magna mollis euismod. Lorem ipsum
-                dolor sit amet, consec
-              </li>
-            </ul>
-          </div>
-        </div> */}
-        {/* <div className="row">
-          <div className="sm12 columns">
-            <hr />
-            <p className="S">
-              Created by: <strong>Tony Stark</strong> and{" "}
-              <strong>Bruce Banner</strong>
-              <br /> Latest update: 04/05/2017
-            </p>
-          </div>
-        </div> */}
       </div>
     );
   }

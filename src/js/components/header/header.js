@@ -15,26 +15,26 @@ class Header extends Component {
     return (
       <div>
         <p id={'changeMyStoreZipLink' + type}>Stores within 15 mi. of <strong>75024 </strong> 
-          <a href="javascript:void(0);" className="expand-collapse-btn" data-target={'#changeMyStoreZip' + type} data-hide-on-open-target={'#changeMyStoreZipLink' + type} data-duration="0"> Change</a>
+          <a href="javascript:void(0);" class="expand-collapse-btn change-btn" data-target={'#changeMyStoreZip' + type} data-hide-on-open-target={'#changeMyStoreZipLink' + type} data-duration="0"> Change</a>
           </p>
 
-        <div className="expand-collapse-section" id={'changeMyStoreZip' + type}>
-          <div className="button-preview algn-mid my-location">
-            <a href="javascript:void();" className="btn btn-secondary btn-M mrg-M"><span className="icon" dangerouslySetInnerHTML={{ __html: targetImage }} /><span>Use my Location</span></a>
-            <a href="javascript:void();" className="cancel-btn">cancel</a>
+        <div class="expand-collapse-section" id={'changeMyStoreZip' + type}>
+          <div class="button-preview algn-mid my-location">
+            <a href="javascript:void();" class="btn btn-secondary btn-M mrg-M"><span class="icon" dangerouslySetInnerHTML={{ __html: targetImage }} /><span>Use my Location</span></a>
+            <a href="javascript:void();" class="cancel-btn">cancel</a>
           </div>
-          <div className="">
-            <span className="title title-S title-text-or">or</span>
+          <div class="">
+            <span class="title title-S title-text-or">or</span>
           </div>
-          <div className="input-form">
-            <div className="input-form-store-locator">
-              <div className="input-form-store-locator-field-1">
-                <input className="form-control input-text" id={'changeMyStoreSearch' + type} type="text" placeholder="Zip Code" defaultValue="75024" />
+          <div class="input-form">
+            <div class="input-form-store-locator">
+              <div class="input-form-store-locator-field-1">
+                <input class="form-control input-text" id={'changeMyStoreSearch' + type} type="text" placeholder="Zip Code" defaultValue="75024" />
               </div>
 
-              <div className="input-form-store-locator-field-2">
-                <div className="select">
-                  <select className="form-control custom-select">
+              <div class="input-form-store-locator-field-2">
+                <div class="select">
+                  <select class="form-control custom-select">
                     <option value='5'>5 miles</option>
                     <option value='10'>10 miles</option>
                     <option value='20'>20 miles</option>
@@ -42,46 +42,46 @@ class Header extends Component {
                   </select>
                 </div>
               </div>
-              <button type="submit" className="search-icon">
-                <span className="icon color-lipstick-svg" dangerouslySetInnerHTML={{ __html: searchImage }} />
+              <button type="submit" class="search-icon">
+                <span class="icon color-lipstick-svg" dangerouslySetInnerHTML={{ __html: searchImage }} />
               </button>
             </div>
           </div>
         </div>
-        <div className="side-panel-row-wrap no-border no-bottom-padding">
-          <div className="side-panel-row">
-            <div className="side-panel-col side-panel-col-select">
-              <div className="dropdown-menu-block column mrg-M">
-                <div className="pos-rel fl-left">
-                  <a className="dropdown-button title-S">Product Type <span className="arrow"></span></a>
-                  <div className="dropdown-menu">
-                    <div className="tooltip tooltip-top-left tooltip-Large">
+        <div class="side-panel-row-wrap no-border no-bottom-padding">
+          <div class="side-panel-row">
+            <div class="side-panel-col side-panel-col-select">
+              <div class="dropdown-menu-block column mrg-M">
+                <div class="pos-rel fl-left">
+                  <a class="dropdown-button title-S">Product Type <span class="arrow"></span></a>
+                  <div class="dropdown-menu">
+                    <div class="tooltip tooltip-top-left tooltip-Large">
                       <span>
-                        <ul className="list list-underline list-checkboxes">
-                          <li><label className="checkbox">
+                        <ul class="list list-underline list-checkboxes">
+                          <li><label class="checkbox">
                             <input type="checkbox" /> <span>$200 - $300</span>
-                          </label> <span className="list-qty">(14)</span></li>
-                          <li><label className="checkbox">
+                          </label> <span class="list-qty">(14)</span></li>
+                          <li><label class="checkbox">
                             <input type="checkbox" /> <span>$200 - $300</span>
-                          </label> <span className="list-qty">(14)</span></li>
-                          <li><label className="checkbox">
+                          </label> <span class="list-qty">(14)</span></li>
+                          <li><label class="checkbox">
                             <input type="checkbox" /> <span>$200 - $300</span>
-                          </label> <span className="list-qty">(14)</span></li>
-                          <li><label className="checkbox">
+                          </label> <span class="list-qty">(14)</span></li>
+                          <li><label class="checkbox">
                             <input type="checkbox" /> <span>$200 - $300</span>
-                          </label> <span className="list-qty">(14)</span></li>
-                          <li><label className="checkbox">
+                          </label> <span class="list-qty">(14)</span></li>
+                          <li><label class="checkbox">
                             <input type="checkbox" /> <span>$200 - $300</span>
-                          </label> <span className="list-qty">(14)</span></li>
-                          <li><label className="checkbox">
+                          </label> <span class="list-qty">(14)</span></li>
+                          <li><label class="checkbox">
                             <input type="checkbox" /> <span>$200 - $300</span>
-                          </label> <span className="list-qty">(14)</span></li>
-                          <li><label className="checkbox">
+                          </label> <span class="list-qty">(14)</span></li>
+                          <li><label class="checkbox">
                             <input type="checkbox" /> <span>$200 - $300</span>
-                          </label> <span className="list-qty">(14)</span></li>
-                          <li><label className="checkbox">
+                          </label> <span class="list-qty">(14)</span></li>
+                          <li><label class="checkbox">
                             <input type="checkbox" /> <span>$200 - $300</span>
-                          </label> <span className="list-qty">(14)</span></li>
+                          </label> <span class="list-qty">(14)</span></li>
                         </ul>
                       </span>
                     </div>
@@ -92,41 +92,41 @@ class Header extends Component {
 
             </div>
 
-            <div className="side-panel-col side-panel-col-map-view algn-rght">
-              <a href="javascript:void(0);" className="expand-collapse-btn" data-hide-text="List View" data-target={'#changeMyStoreMap' + type}>Map View</a>
+            <div class="side-panel-col side-panel-col-map-view algn-rght">
+              <a href="javascript:void(0);" class="expand-collapse-btn" data-hide-text="List View" data-target={'#changeMyStoreMap' + type}>Map View</a>
             </div>
           </div>
-          <div className="expand-collapse-section change-my-store-map-view" id={'changeMyStoreMap' + type}>
+          <div class="expand-collapse-section change-my-store-map-view" id={'changeMyStoreMap' + type}>
             <img src="/images/design-system/fpo/find-a-store/map.jpg" alt="" />
           </div>
         </div>
 
-        <div className="change-my-store-listing">
-          <div className="side-panel-row-wrap">
-            <div className="side-panel-row">
-              <div className="side-panel-col side-panel-col-details">
-                <h4 className="mrg-S">Stonebriar Mall <span class="change-my-store-mileage color-slate">(3.5mi)</span></h4>
-                <p className="std-txt std-txt-S mrg-XS color-nightsky">2480 Preston Rd</p>
+        <div class="change-my-store-listing">
+          <div class="side-panel-row-wrap">
+            <div class="side-panel-row">
+              <div class="side-panel-col side-panel-col-details">
+                <h4 class="mrg-S">Stonebriar Mall <span class="change-my-store-mileage color-slate">(3.5mi)</span></h4>
+                <p class="std-txt std-txt-S mrg-XS color-nightsky">2480 Preston Rd</p>
               </div>
-              <div className="side-panel-col-button">
+              <div class="side-panel-col-button">
                 <a href="javascript:void(0);" class="btn btn-M btn-full btn-primary btn-disabled">
                   My Store
                 </a>
               </div>
             </div>
 
-            <div className="side-panel-col-full">
-              <div className="expand-collapse-section change-my-store-details" id={'storeLising1' + type}>
-                <div className="std-txt std-txt-S mrg-M color-nightsky">
-                  <a href="javascript:void(0);" className="color-nightsky">Get Directions</a> | 972-578-8666
+            <div class="side-panel-col-full">
+              <div class="expand-collapse-section change-my-store-details" id={'storeLising1' + type}>
+                <div class="std-txt std-txt-S mrg-M color-nightsky">
+                  <a href="javascript:void(0);" class="color-nightsky">Get Directions</a> | 972-578-8666
                   </div>
-                <div className="std-txt std-txt-S mrg-M color-slate">
+                <div class="std-txt std-txt-S mrg-M color-slate">
                   Mon-Thu : 10am-10pm<br />
                   Fri : 9am-11pm<br />
                   Sat : 8am-11pm<br />
                   Sun : 9am-10pm<br />
                   <br />
-                  <strong className="color-nightsky">Store Services:</strong><br />
+                  <strong class="color-nightsky">Store Services:</strong><br />
                   Jewelry<br />
                   Big and Tall<br />
                   Wedding Registry<br />
@@ -134,42 +134,42 @@ class Header extends Component {
                   Major Appliances<br />
                   Optical<br />
                   Portrait Studio<br />
-                  Custom Decorating - <a href="javascript:void(0);" className="color-nightsky">Schedule Appointment</a><br />
-                  Sephora - <a href="javascript:void(0);" className="color-nightsky">Schedule Appointment</a><br />
-                  Salon - <a href="javascript:void(0);" className="color-nightsky">Schedule Appointment</a>
+                  Custom Decorating - <a href="javascript:void(0);" class="color-nightsky">Schedule Appointment</a><br />
+                  Sephora - <a href="javascript:void(0);" class="color-nightsky">Schedule Appointment</a><br />
+                  Salon - <a href="javascript:void(0);" class="color-nightsky">Schedule Appointment</a>
                 </div>
               </div>
-              <p className="std-txt std-txt-S"><a href="javascript:void(0);" className="expand-collapse-btn" data-hide-text="Hide Hours &amp; Services" data-target={'#storeLising1' + type}>View Hours &amp; Services</a></p>
+              <p class="std-txt std-txt-S"><a href="javascript:void(0);" class="expand-collapse-btn" data-hide-text="Hide Hours &amp; Services" data-target={'#storeLising1' + type}>View Hours &amp; Services</a></p>
             </div>
           </div>
         </div>
 
-        <div className="change-my-store-listing">
-          <div className="side-panel-row-wrap no-border">
-            <div className="side-panel-row">
-              <div className="side-panel-col side-panel-col-details">
-                <h4 className="mrg-S">Collin Creek Mall <span class="change-my-store-mileage color-slate">(5.2mi)</span></h4>
-                <p className="std-txt std-txt-S mrg-XS color-nightsky">2480 Preston Rd</p>
+        <div class="change-my-store-listing">
+          <div class="side-panel-row-wrap no-border">
+            <div class="side-panel-row">
+              <div class="side-panel-col side-panel-col-details">
+                <h4 class="mrg-S">Collin Creek Mall <span class="change-my-store-mileage color-slate">(5.2mi)</span></h4>
+                <p class="std-txt std-txt-S mrg-XS color-nightsky">2480 Preston Rd</p>
               </div>
-              <div className="side-panel-col-button">
+              <div class="side-panel-col-button">
                 <a href="javascript:void(0);" class="btn btn-M btn-full btn-primary">
                   Set Store
                 </a>
               </div>
             </div>
 
-            <div className="side-panel-col-full">
-              <div className="expand-collapse-section change-my-store-details" id={'storeLising2' + type} >
-                <div className="std-txt std-txt-S mrg-M color-nightsky">
-                  <a href="javascript:void(0);" className="color-nightsky">Get Directions</a> | 972-578-8667
+            <div class="side-panel-col-full">
+              <div class="expand-collapse-section change-my-store-details" id={'storeLising2' + type} >
+                <div class="std-txt std-txt-S mrg-M color-nightsky">
+                  <a href="javascript:void(0);" class="color-nightsky">Get Directions</a> | 972-578-8667
                   </div>
-                <div className="std-txt std-txt-S mrg-M color-slate">
+                <div class="std-txt std-txt-S mrg-M color-slate">
                   Mon-Thu : 10am-10pm<br />
                   Fri : 9am-11pm<br />
                   Sat : 8am-11pm<br />
                   Sun : 9am-10pm<br />
                   <br />
-                  <strong className="color-nightsky">Store Services:</strong><br />
+                  <strong class="color-nightsky">Store Services:</strong><br />
                   Jewelry<br />
                   Big and Tall<br />
                   Wedding Registry<br />
@@ -177,12 +177,12 @@ class Header extends Component {
                   Major Appliances<br />
                   Optical<br />
                   Portrait Studio<br />
-                  Custom Decorating - <a href="javascript:void(0);" className="color-nightsky">Schedule Appointment</a><br />
-                  Sephora - <a href="javascript:void(0);" className="color-nightsky">Schedule Appointment</a><br />
-                  Salon - <a href="javascript:void(0);" className="color-nightsky">Schedule Appointment</a>
+                  Custom Decorating - <a href="javascript:void(0);" class="color-nightsky">Schedule Appointment</a><br />
+                  Sephora - <a href="javascript:void(0);" class="color-nightsky">Schedule Appointment</a><br />
+                  Salon - <a href="javascript:void(0);" class="color-nightsky">Schedule Appointment</a>
                 </div>
               </div>
-              <p className="std-txt std-txt-S"><a href="javascript:void(0);" className="expand-collapse-btn" data-hide-text="Hide Hours & Services" data-target={'#storeLising2' + type}>View Hours & Services</a></p>
+              <p class="std-txt std-txt-S"><a href="javascript:void(0);" class="expand-collapse-btn" data-hide-text="Hide Hours & Services" data-target={'#storeLising2' + type}>View Hours & Services</a></p>
             </div>
           </div>
         </div>
@@ -191,18 +191,18 @@ class Header extends Component {
   }
   navSet(linkSet) {
     return (
-      <li className="main-menu-tier1-li">
-        <a href="javascript:void(0)" className="main-menu-tier1-link"><span className="main-menu-tier1-link-thumb"><img src={linkSet.thumb} alt="" /></span>{linkSet.name}</a>
-        <ul className="main-menu-tier2-ul">
-          <li className="main-menu-secondary-hidden-lg-up"><span className="main-menu-tier1-link"><span className="main-menu-tier1-link-thumb"><img src={linkSet.thumb} alt="" /></span>{linkSet.name}</span></li>
+      <li class="main-menu-tier1-li">
+        <a href="javascript:void(0)" class="main-menu-tier1-link"><span class="main-menu-tier1-link-thumb"><img src={linkSet.thumb} alt="" /></span>{linkSet.name}</a>
+        <ul class="main-menu-tier2-ul">
+          <li class="main-menu-secondary-hidden-lg-up"><span class="main-menu-tier1-link"><span class="main-menu-tier1-link-thumb"><img src={linkSet.thumb} alt="" /></span>{linkSet.name}</span></li>
           {linkSet.subLinks.map((link, index) => {
             return (
-              <li key={index} className="main-menu-tier2-li"><a href="javascript:void(0)" className="main-menu-tier2-link">
+              <li key={index} class="main-menu-tier2-li"><a href="javascript:void(0)" class="main-menu-tier2-link">
                 {link.name}</a>
-                <ul className="main-menu-tier3-ul">
+                <ul class="main-menu-tier3-ul">
 
                   {link.sublinks2.map(function (name, index) {
-                    return <li key={index} className="main-menu-tier3-li"><a href="javascript:void(0)" className="main-menu-tier3-link">{name}</a></li>;
+                    return <li key={index} class="main-menu-tier3-li"><a href="javascript:void(0)" class="main-menu-tier3-link">{name}</a></li>;
                   })}
                 </ul>
               </li>
@@ -218,10 +218,11 @@ class Header extends Component {
 
   componentDidMount() {
 
-    $('.cancel-btn').unbind('click').on('click', function () {
-      console.log('cancel click');
+    $('.cancel-btn').on('click', function () {
       $('#changeMyStoreZipLinkDesktop').css('display','block');
       $('#changeMyStoreZipDesktop').css('display','none');
+      $('#changeMyStoreZipLinkMobile').css('display','block');
+      $('#changeMyStoreZipMobile').css('display','none');
     });
   
     !function (factory) { "use strict"; "function" == typeof define && define.amd ? define(["$"], factory) : $ && !$.fn.hoverIntent && factory($) }(function ($) { "use strict"; var cX, cY, _cfg = { interval: 100, sensitivity: 6, timeout: 0 }, INSTANCE_COUNT = 0, track = function (ev) { cX = ev.pageX, cY = ev.pageY }, compare = function (ev, $el, s, cfg) { if (Math.sqrt((s.pX - cX) * (s.pX - cX) + (s.pY - cY) * (s.pY - cY)) < cfg.sensitivity) return $el.off(s.event, track), delete s.timeoutId, s.isActive = !0, ev.pageX = cX, ev.pageY = cY, delete s.pX, delete s.pY, cfg.over.apply($el[0], [ev]); s.pX = cX, s.pY = cY, s.timeoutId = setTimeout(function () { compare(ev, $el, s, cfg) }, cfg.interval) }, delay = function (ev, $el, s, out) { return delete $el.data("hoverIntent")[s.id], out.apply($el[0], [ev]) }; $.fn.hoverIntent = function (handlerIn, handlerOut, selector) { var instanceId = INSTANCE_COUNT++, cfg = $.extend({}, _cfg); $.isPlainObject(handlerIn) ? (cfg = $.extend(cfg, handlerIn), $.isFunction(cfg.out) || (cfg.out = cfg.over)) : cfg = $.isFunction(handlerOut) ? $.extend(cfg, { over: handlerIn, out: handlerOut, selector: selector }) : $.extend(cfg, { over: handlerIn, out: handlerIn, selector: handlerOut }); var handleHover = function (e) { var ev = $.extend({}, e), $el = $(this), hoverIntentData = $el.data("hoverIntent"); hoverIntentData || $el.data("hoverIntent", hoverIntentData = {}); var state = hoverIntentData[instanceId]; state || (hoverIntentData[instanceId] = state = { id: instanceId }), state.timeoutId && (state.timeoutId = clearTimeout(state.timeoutId)); var mousemove = state.event = "mousemove.hoverIntent.hoverIntent" + instanceId; if ("mouseenter" === e.type) { if (state.isActive) return; state.pX = ev.pageX, state.pY = ev.pageY, $el.off(mousemove, track).on(mousemove, track), state.timeoutId = setTimeout(function () { compare(ev, $el, state, cfg) }, cfg.interval) } else { if (!state.isActive) return; $el.off(mousemove, track), state.timeoutId = setTimeout(function () { delay(ev, $el, state, cfg.out) }, cfg.timeout) } }; return this.on({ "mouseenter.hoverIntent": handleHover, "mouseleave.hoverIntent": handleHover }, cfg.selector) } });
@@ -231,20 +232,20 @@ class Header extends Component {
       parent_box.siblings().find('.dropdown-menu').hide();
       parent_box.find('.dropdown-menu').slideToggle(200, 'swing');
       $(this).toggleClass("arrow-down");
+      
       if ($(".dropdown-button").hasClass("arrow-down")) {
-        $("body").append('<div id="menu-overlay"></div>');
-      } else {
-        $('body #menu-overlay').remove();
+        $("body").append('<div id="menu-overlay" class="menu-overlay"></div>');
+      }else{
+        $("#menu-overlay").remove();
       }
+      
       $('#menu-overlay').on('click', function (e) {
-        console.log('overlay click')
-        $("#menu-overlay").hide();
+        $("#menu-overlay").remove();
         $(".dropdown-menu").hide();
-        if($(".dropdown-button").hasClass("arrow-down")){
-          $('.dropdown-button').removeClass('arrow-down')
-       }
+        $(".dropdown-button").removeClass("arrow-down");
       });
     });
+   
 
     $('.side-panel-btn').unbind('click').on('click', function (event) {
       event.preventDefault();
@@ -282,7 +283,9 @@ class Header extends Component {
     });
 
     $(".main-menu-secondary-li-shop-departments").hoverIntent({
+      
       over: function () {
+        $('.dropdown-menu').css('display', 'none');
         if ($("#mainMenusecondaryLightBox").length == 0) {
           $("body").append('<div id="mainMenusecondaryLightBox"></div>');
           var top = 0;
@@ -488,60 +491,60 @@ class Header extends Component {
   render() {
     return (
       <div>
-        <div className="row design-system-enable-hide">
-          {/* <div className="sm12 columns">
-            <h1 className="title title-XL mrg-L">Header</h1>
-            <h2 className="std-txt std-txt-XL mrg-L max-width-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h2>
+        <div class="row design-system-enable-hide">
+          {/* <div class="sm12 columns">
+            <h1 class="title title-XL mrg-L">Header</h1>
+            <h2 class="std-txt std-txt-XL mrg-L max-width-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h2>
           </div> */}
-          <div className="row">
-            <div className="sm12 columns">
-              <p className="S"><br />
+          <div class="row">
+            <div class="sm12 columns">
+              <p class="S"><br />
                 <a href="javascript:void(0);" id="HideDesignSystem">Hide Design System Wrapper</a></p>
               <br />
               <br />
             </div>
           </div>
         </div>
-        <header className="main-menu">
-          <div className="main-menu-promotional-banner">
-            <div className="main-menu-promotional-banner-content">
-              <p className="S XS-at-S mrg-zero main-menu-promotional-banner-text">Get it today with FREE same day pickup</p>
-              <p className="S XS-at-S mrg-zero"> <a className="main-menu-promotional-banner-link" href="javascript:void(0);">See Details</a> </p>
+        <header class="main-menu">
+          <div class="main-menu-promotional-banner">
+            <div class="main-menu-promotional-banner-content">
+              <p class="S XS-at-S mrg-zero main-menu-promotional-banner-text">Get it today with FREE same day pickup</p>
+              <p class="S XS-at-S mrg-zero"> <a class="main-menu-promotional-banner-link" href="javascript:void(0);">See Details</a> </p>
             </div>
           </div>
-          <div className="main-menu-bar-primary color-penneyred-bg">
-            <ul className="main-menu-primary">
-              <li className="main-menu-primary-item main-menu-primary-logo"> <span className="hide-for-large-up"> <a title="JCPenney Main Menu" aria-label="JCPenney Main Menu" href="javascript:void(0);" className="side-panel-btn" data-target="#mainMenusecondary" id="mainMenuSidePanelButton">
-                <div className="main-menu-primary-menu-svg icon" dangerouslySetInnerHTML={{ __html: menuImage }} />
+          <div class="main-menu-bar-primary color-penneyred-bg">
+            <ul class="main-menu-primary">
+              <li class="main-menu-primary-item main-menu-primary-logo"> <span class="hide-for-large-up"> <a title="JCPenney Main Menu" aria-label="JCPenney Main Menu" href="javascript:void(0);" class="side-panel-btn" data-target="#mainMenusecondary" id="mainMenuSidePanelButton">
+                <div class="main-menu-primary-menu-svg icon" dangerouslySetInnerHTML={{ __html: menuImage }} />
               </a> </span> <a title="JCPenney Home" aria-label="JCPenney Home Page" href="javascript:void(0);">
-                  <div className="main-menu-primary-logo-svg" dangerouslySetInnerHTML={{ __html: logoImage }} />
+                  <div class="main-menu-primary-logo-svg" dangerouslySetInnerHTML={{ __html: logoImage }} />
                 </a> </li>
-              <li className="main-menu-primary-item main-menu-primary-search">
-                <div className="main-menu-primary-search-form search-block">
+              <li class="main-menu-primary-item main-menu-primary-search">
+                <div class="main-menu-primary-search-form search-block">
                   <form action="http://www.jcpenney.com/s/search">
-                    <input type="text" placeholder="Search Products" size="20" required aria-required="false" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="off" id="menuPrimarySearch" className="input-text" />
+                    <input type="text" placeholder="Search Products" size="20" required aria-required="false" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="off" id="menuPrimarySearch" class="input-text" />
                     <button class="search-close-icon" type="reset"></button>
-                    <button type="submit" className="btn-search">
-                      <div className="main-menu-primary-search-icon color-lipstick-svg icon" dangerouslySetInnerHTML={{ __html: searchImage }} />
+                    <button type="submit" class="btn-search">
+                      <div class="main-menu-primary-search-icon color-lipstick-svg icon" dangerouslySetInnerHTML={{ __html: searchImage }} />
                     </button>
                   </form>
                 </div>
               </li>
-              <li className="main-menu-primary-item main-menu-primary-rewards hide-for-small-only">
+              <li class="main-menu-primary-item main-menu-primary-rewards hide-for-small-only">
                 <a href="javascript:void(0);">
                   {/* <img src="/images/global/jcpenney-rewards.png" alt="JCPenney Rewards" /> */}
-                  <span className="icon color-white-svg" dangerouslySetInnerHTML={{ __html: jcpenneyRewardsImage }} />
+                  <span class="icon color-white-svg" dangerouslySetInnerHTML={{ __html: jcpenneyRewardsImage }} />
                 </a>
               </li>
-              <li className="main-menu-primary-item main-menu-primary-account">
-                <div className="dropdown-menu-block">
-                  <button className="dropdown-button" type="button" tabindex="-1">
-                    <div className="main-menu-primary-account-icon icon color-white-svg" dangerouslySetInnerHTML={{ __html: accountImage }} />
-                    <div className="main-menu-primary-account-title">My Account</div>
-                    <div className="main-menu-primary-account-link">Sign In <span className="arrow"></span></div>
+              <li class="main-menu-primary-item main-menu-primary-account">
+                <div class="dropdown-menu-block">
+                  <button class="dropdown-button" type="button" tabindex="-1">
+                    <div class="main-menu-primary-account-icon icon color-white-svg" dangerouslySetInnerHTML={{ __html: accountImage }} />
+                    <div class="main-menu-primary-account-title">My Account</div>
+                    <div class="main-menu-primary-account-link">Sign In <span class="arrow"></span></div>
                   </button>
-                  <div className="dropdown-menu dropdown-account">
-                    <div className="tooltip tooltip-top-right tooltip-long tooltip-list">
+                  <div class="dropdown-menu dropdown-account">
+                    <div class="tooltip tooltip-top-right tooltip-long tooltip-list">
                       <ul>
                         <li><a href="javascript:void(0)">My Account</a></li>
                         <li><a href="javascript:void(0)">Find a Store</a></li>
@@ -553,45 +556,45 @@ class Header extends Component {
                         <li><a href="javascript:void(0)">My Jcpenney.com</a></li>
                         <li><a href="javascript:void(0)">Gift Registry</a></li>
                         <li><a href="javascript:void(0)">JCPenney Credit Card</a></li>
-                        <li className="tooltip-divider"> <a href="javascript:void(0)">Sign Out</a> </li>
-                        <li className="main-menu-primary-sign-rewards"> <a href="javascript:void(0);"> <span className="main-menu-primary-sign-rewards-amount">$20</span> <span className="main-menu-primary-sign-rewards-label">Redeem Your Rewards</span> </a> </li>
+                        <li class="tooltip-divider"> <a href="javascript:void(0)">Sign Out</a> </li>
+                        <li class="main-menu-primary-sign-rewards"> <a href="javascript:void(0);"> <span class="main-menu-primary-sign-rewards-amount">$20</span> <span class="main-menu-primary-sign-rewards-label">Redeem Your Rewards</span> </a> </li>
                       </ul>
                     </div>
                   </div>
                 </div>
               </li>
-              <li className="main-menu-primary-item main-menu-primary-cart"> <a href="javascript:void(0);" className="main-menu-primary-cart-icon-full"> <span className="main-menu-primary-cart-icon-full-items">28</span>
-                <div className="main-menu-primary-cart-icon-full-icon icon color-white-svg" dangerouslySetInnerHTML={{ __html: cartFullImage }} />
+              <li class="main-menu-primary-item main-menu-primary-cart"> <a href="javascript:void(0);" class="main-menu-primary-cart-icon-full"> <span class="main-menu-primary-cart-icon-full-items">28</span>
+                <div class="main-menu-primary-cart-icon-full-icon icon color-white-svg" dangerouslySetInnerHTML={{ __html: cartFullImage }} />
               </a> </li>
             </ul>
           </div>
-          <div className="main-menu-bar-secondary">
-            <div className="side-panel side-panel-disable-desktop slide-panel-from-left main-menu-bar-secondary-panel" id="mainMenusecondary">
-              <div className="side-panel-container">
-                <header className="side-panel-header">
-                  <h3 className="title title-L color-white side-panel-headline">Menu</h3>
-                  <a href="javascript:void(0);" className="title title-L color-white tier2-close">
-                    <div className="tier2-close-icon icon color-white-svg" dangerouslySetInnerHTML={{ __html: arrowleftImage }} />
-                    Departments </a> <a href="javascript:void(0);" className="side-panel-close main-menu-reset">
-                    <div className="change-my-store-icon-close icon color-white-svg" dangerouslySetInnerHTML={{ __html: closeImage }} />
+          <div class="main-menu-bar-secondary">
+            <div class="side-panel side-panel-disable-desktop slide-panel-from-left main-menu-bar-secondary-panel" id="mainMenusecondary">
+              <div class="side-panel-container">
+                <header class="side-panel-header">
+                  <h3 class="title title-L color-white side-panel-headline">Menu</h3>
+                  <a href="javascript:void(0);" class="title title-L color-white tier2-close">
+                    <div class="tier2-close-icon icon color-white-svg" dangerouslySetInnerHTML={{ __html: arrowleftImage }} />
+                    Departments </a> <a href="javascript:void(0);" class="side-panel-close main-menu-reset">
+                    <div class="change-my-store-icon-close icon color-white-svg" dangerouslySetInnerHTML={{ __html: closeImage }} />
                   </a> </header>
-                <div className="side-panel-container-inner-container">
-                  <div className="side-panel-content">
-                    <div className="main-menu-bar-secondary-container">
-                      <div className="main-menu-secondary-left">
-                        <ul className="main-menu-secondary">
-                          <li className="main-menu-secondary-li main-menu-secondary-li-shop-departments">
-                            <button className="main-menu-secondary-shop-departments hide-for-medium-down">
-                              <div className="main-menu-secondary-shop-departments-menu-svg icon color-nightsky-svg" dangerouslySetInnerHTML={{ __html: menuImage }} />
-                              <span className="main-menu-secondary-shop-departments-menu-label">Shop Departments</span> </button>
-                            <div className="main-menu-tier1">
-                              <ul className="main-menu-md-down">
-                                <li> <a href="javascript:void(0);" className="main-menu-tier1-button-md-down main-menu-md-primary"><strong>Sign in or Create an Account</strong></a> </li>
-                                <li className="main-menu-md-panel-li"> <a href="javascript:void(0);" className="main-menu-tier1-button-md-down main-menu-md-primary main-menu-md-primary-arrow main-menu-md-panel-btn"><strong>My Store:</strong> Colin Creek Mall</a>
-                                  <div className="main-menu-md-panel"> {this.changeMyStoreContent('Mobile')} </div>
+                <div class="side-panel-container-inner-container">
+                  <div class="side-panel-content">
+                    <div class="main-menu-bar-secondary-container">
+                      <div class="main-menu-secondary-left">
+                        <ul class="main-menu-secondary">
+                          <li class="main-menu-secondary-li main-menu-secondary-li-shop-departments">
+                            <button class="main-menu-secondary-shop-departments hide-for-medium-down">
+                              <div class="main-menu-secondary-shop-departments-menu-svg icon color-nightsky-svg" dangerouslySetInnerHTML={{ __html: menuImage }} />
+                              <span class="main-menu-secondary-shop-departments-menu-label">Shop Departments</span> </button>
+                            <div class="main-menu-tier1">
+                              <ul class="main-menu-md-down">
+                                <li> <a href="javascript:void(0);" class="main-menu-tier1-button-md-down main-menu-md-primary"><strong>Sign in or Create an Account</strong></a> </li>
+                                <li class="main-menu-md-panel-li"> <a href="javascript:void(0);" class="main-menu-tier1-button-md-down main-menu-md-primary main-menu-md-primary-arrow main-menu-md-panel-btn"><strong>My Store:</strong> Colin Creek Mall</a>
+                                  <div class="main-menu-md-panel"> {this.changeMyStoreContent('Mobile')} </div>
                                 </li>
                               </ul>
-                              <ul className="main-menu-tier1-ul">
+                              <ul class="main-menu-tier1-ul">
                                 {this.navSet({
                                   name: "For The Home",
                                   thumb: '/images/design-system/fpo/navigation/nav-mobile-for-the-home.jpg',
@@ -847,32 +850,32 @@ class Header extends Component {
                               </ul>
                             </div>
                           </li>
-                          <li className="main-menu-secondary-li main-menu-secondary-li-primary main-menu-secondary-hidden-md-down"> <a href="javascript:void(0)">Same Day Pickup</a> </li>
-                          <li className="main-menu-secondary-li main-menu-secondary-li-primary main-menu-secondary-hidden-md-down"> <a href="javascript:void(0)">Gifts</a> </li>
-                          <li className="main-menu-secondary-li main-menu-secondary-li-primary main-menu-secondary-hidden-md-down"> <a href="javascript:void(0)">Toys</a> </li>
-                          <li className="main-menu-secondary-li main-menu-secondary-li-primary main-menu-secondary-hidden-lg-up"> <a href="javascript:void(0)" className="main-menu-md-primary">Track Order</a> </li>
-                          <li className="main-menu-secondary-li main-menu-secondary-li-primary main-menu-secondary-hidden-lg-up"> <a href="javascript:void(0)" className="main-menu-md-primary">JCPenney Credit Card</a> </li>
-                          <li className="main-menu-secondary-li main-menu-secondary-li-primary main-menu-secondary-hidden-lg-up"> <a href="javascript:void(0)" className="main-menu-md-primary">Rewards</a> </li>
-                          <li className="main-menu-secondary-li main-menu-secondary-li-primary"> <a href="javascript:void(0)" className="main-menu-md-primary">My List</a> </li>
-                          <li className="main-menu-secondary-li main-menu-secondary-li-primary main-menu-secondary-hidden-lg-up"> <a href="javascript:void(0)" className="main-menu-md-primary">Gift Registry</a> </li>
-                          <li className="main-menu-secondary-li main-menu-secondary-li-primary main-menu-secondary-hidden-lg-up"> <a href="javascript:void(0)" className="main-menu-md-primary">My jcpenney.com</a> </li>
-                          <li className="main-menu-secondary-li main-menu-secondary-li-primary main-menu-secondary-hidden-lg-up"> <a href="javascript:void(0)" className="main-menu-md-primary">Clearance</a> </li>
-                          <li className="main-menu-secondary-li main-menu-secondary-li-primary main-menu-secondary-li-highlight"> <a href="javascript:void(0)" className="main-menu-md-primary">Coupons</a> </li>
-                          <li className="main-menu-secondary-li main-menu-secondary-li-primary main-menu-secondary-hidden-lg-up"> <a href="javascript:void(0)" className="main-menu-md-primary">Sign Out</a> </li>
+                          <li class="main-menu-secondary-li main-menu-secondary-li-primary main-menu-secondary-hidden-md-down"> <a href="javascript:void(0)">Same Day Pickup</a> </li>
+                          <li class="main-menu-secondary-li main-menu-secondary-li-primary main-menu-secondary-hidden-md-down"> <a href="javascript:void(0)">Gifts</a> </li>
+                          <li class="main-menu-secondary-li main-menu-secondary-li-primary main-menu-secondary-hidden-md-down"> <a href="javascript:void(0)">Toys</a> </li>
+                          <li class="main-menu-secondary-li main-menu-secondary-li-primary main-menu-secondary-hidden-lg-up"> <a href="javascript:void(0)" class="main-menu-md-primary">Track Order</a> </li>
+                          <li class="main-menu-secondary-li main-menu-secondary-li-primary main-menu-secondary-hidden-lg-up"> <a href="javascript:void(0)" class="main-menu-md-primary">JCPenney Credit Card</a> </li>
+                          <li class="main-menu-secondary-li main-menu-secondary-li-primary main-menu-secondary-hidden-lg-up"> <a href="javascript:void(0)" class="main-menu-md-primary">Rewards</a> </li>
+                          <li class="main-menu-secondary-li main-menu-secondary-li-primary"> <a href="javascript:void(0)" class="main-menu-md-primary">My List</a> </li>
+                          <li class="main-menu-secondary-li main-menu-secondary-li-primary main-menu-secondary-hidden-lg-up"> <a href="javascript:void(0)" class="main-menu-md-primary">Gift Registry</a> </li>
+                          <li class="main-menu-secondary-li main-menu-secondary-li-primary main-menu-secondary-hidden-lg-up"> <a href="javascript:void(0)" class="main-menu-md-primary">My jcpenney.com</a> </li>
+                          <li class="main-menu-secondary-li main-menu-secondary-li-primary main-menu-secondary-hidden-lg-up"> <a href="javascript:void(0)" class="main-menu-md-primary">Clearance</a> </li>
+                          <li class="main-menu-secondary-li main-menu-secondary-li-primary main-menu-secondary-li-highlight"> <a href="javascript:void(0)" class="main-menu-md-primary">Coupons</a> </li>
+                          <li class="main-menu-secondary-li main-menu-secondary-li-primary main-menu-secondary-hidden-lg-up"> <a href="javascript:void(0)" class="main-menu-md-primary">Sign Out</a> </li>
                         </ul>
                       </div>
-                      <div className="main-menu-secondary-right main-menu-secondary-hidden-md-down">
-                        <div className="dropdown-menu-block main-menu-secondary-my-store">
-                          <button className="dropdown-button main-menu-tier1-button-md-down" type="button" tabindex="-1"> <strong>My Store:</strong> Collin Creek Mall <span className="arrow"></span> </button>
-                          <div className="dropdown-menu dropdown-my-store">
-                            <ul className="tooltip tooltip-top-right tooltip-long tooltip-list">
+                      <div class="main-menu-secondary-right main-menu-secondary-hidden-md-down">
+                        <div class="dropdown-menu-block main-menu-secondary-my-store">
+                          <button class="dropdown-button main-menu-tier1-button-md-down" type="button" tabindex="-1"> <strong>My Store:</strong> Collin Creek Mall <span class="arrow"></span> </button>
+                          <div class="dropdown-menu dropdown-my-store">
+                            <ul class="tooltip tooltip-top-right tooltip-long tooltip-list">
                               <li>
-                                <div className="main-menu-secondary-my-store-listing">
-                                  <h4 className="title title-M mrg-S">Collin Creek Mall</h4>
-                                  <p className="std-txt std-txt-M mrg-M">821 N Central Expwy<br />
+                                <div class="main-menu-secondary-my-store-listing">
+                                  <h4 class="title title-M mrg-S">Collin Creek Mall</h4>
+                                  <p class="std-txt std-txt-M mrg-M">821 N Central Expwy<br />
                                     Plano, TX 75075</p>
-                                  <p className="mrg-M"><a href="javascript:void(0);">Get Directions</a></p>
-                                  <p className="std-txt std-txt-M mrg-M">Mon-Thu : 10am-10pm<br />
+                                  <p class="mrg-M"><a href="javascript:void(0);">Get Directions</a></p>
+                                  <p class="std-txt std-txt-M mrg-M">Mon-Thu : 10am-10pm<br />
                                     Fri : 9am-11pm<br />
                                     Sat : 8am-11pm<br />
                                     Sun : 9am-10pm</p>
@@ -889,21 +892,21 @@ class Header extends Component {
               </div>
             </div>
           </div>
-          <div className="side-panel slide-panel-from-right change-my-store-panel" id="changeMyStore">
-            <div className="side-panel-container">
-              <header className="side-panel-header">
-                <h3 className="title title-L color-white">Change My Store</h3>
-                <a href="javascript:void(0);" className="side-panel-close">
-                  <div className="change-my-store-icon-close icon color-white-svg" dangerouslySetInnerHTML={{ __html: closeImage }} />
+          <div class="side-panel slide-panel-from-right change-my-store-panel" id="changeMyStore">
+            <div class="side-panel-container">
+              <header class="side-panel-header">
+                <h3 class="title title-L color-white">Change My Store</h3>
+                <a href="javascript:void(0);" class="side-panel-close">
+                  <div class="change-my-store-icon-close icon color-white-svg" dangerouslySetInnerHTML={{ __html: closeImage }} />
                 </a> </header>
-              <div className="side-panel-content"> {this.changeMyStoreContent('Desktop')} </div>
+              <div class="side-panel-content"> {this.changeMyStoreContent('Desktop')} </div>
             </div>
           </div>
         </header>
-        {/* <div className="row design-system-enable-hide">
-          <div className="sm12 columns">
+        {/* <div class="row design-system-enable-hide">
+          <div class="sm12 columns">
             <hr />
-            <p className="S">Created by: <strong>Tony Stark</strong> and <strong>Bruce Banner</strong> <br />
+            <p class="S">Created by: <strong>Tony Stark</strong> and <strong>Bruce Banner</strong> <br />
               Latest update: 04/05/2017</p>
           </div>
         </div> */}

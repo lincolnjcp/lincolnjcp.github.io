@@ -201,6 +201,8 @@
 		& svg {
 			width: auto;
 			height: 30px;
+			top: 6px;
+    		position: relative;
 		}
 	}
 
@@ -304,6 +306,7 @@
 			color: var(--color-nightsky);
 			position: relative;
 			height: 40px;
+			background: none;
 
 			& .main-menu-secondary-shop-departments-menu-svg {
 				position: absolute;
@@ -335,6 +338,7 @@
 				font-weight: 500;
 				max-width: initial;
 				float: right;
+				background: none;
 				&:hover {
 					border: none;
 				}
@@ -582,7 +586,7 @@
 
 		& .tier2-close-icon {
 			position: absolute;
-			top: 3px;
+			top: 1px;
 			left: 0;
 			width: 24px;
 			height: 24px;
@@ -623,7 +627,7 @@
 @media (--viewport-lg) {
 	#mainMenusecondaryLightBox {
 		position: absolute;
-	    top:0;
+	    top:138px;
 	    left:0;
 	    width:100%;
 	    height: 100%;
@@ -877,6 +881,11 @@
 				}
 			}
 		}
+
+		& .cancel-btn {
+			position: relative;
+    		top: 12px;
+		}
 		
 	}
 		.title-text-or{
@@ -949,7 +958,7 @@
 				font-size: 14px;
 			}
 
-			& button {
+			& .btn-search {
 				width: 32px;
 				height: 32px;
 
@@ -971,6 +980,9 @@
 			& svg {
 				width: 32px;
 				height: 32px;
+				& use {
+					fill: var(--color-white);
+				}
 			}
 		}
 
