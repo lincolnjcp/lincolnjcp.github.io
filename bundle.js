@@ -13806,7 +13806,82 @@ var modal_Modal = function (_Component) {
 
   modal__createClass(Modal, [{
     key: 'componentDidMount',
-    value: function componentDidMount() {}
+    value: function componentDidMount() {
+
+      (function () {
+
+        var scrollContainer = document.querySelector('.scrollable'),
+            scrollContentWrapper = document.querySelector('.scrollable .scroll-content-wrapper'),
+            scrollContent = document.querySelector('.scrollable .scroll-content'),
+            contentPosition = 0,
+            scrollerBeingDragged = false,
+            scroller,
+            topPosition,
+            scrollerHeight;
+
+        function calculateScrollerHeight() {
+          // *Calculation of how tall scroller should be
+          var visibleRatio = scrollContainer.offsetHeight / scrollContentWrapper.scrollHeight;
+          return visibleRatio * scrollContainer.offsetHeight;
+        }
+
+        function moveScroller(evt) {
+          // Move Scroll bar to top offset
+          var scrollPercentage = evt.target.scrollTop / scrollContentWrapper.scrollHeight;
+          topPosition = scrollPercentage * (scrollContainer.offsetHeight - 5); // 5px arbitrary offset so scroll bar doesn't move too far beyond content wrapper bounding box
+          scroller.style.top = topPosition + 'px';
+        }
+
+        function startDrag(evt) {
+          normalizedPosition = evt.pageY;
+          contentPosition = scrollContentWrapper.scrollTop;
+          scrollerBeingDragged = true;
+        }
+
+        function stopDrag(evt) {
+          scrollerBeingDragged = false;
+        }
+
+        function scrollBarScroll(evt) {
+          if (scrollerBeingDragged === true) {
+            var mouseDifferential = evt.pageY - normalizedPosition;
+            var scrollEquivalent = mouseDifferential * (scrollContentWrapper.scrollHeight / scrollContainer.offsetHeight);
+            scrollContentWrapper.scrollTop = contentPosition + scrollEquivalent;
+          }
+        }
+
+        function createScroller() {
+          // *Creates scroller element and appends to '.scrollable' div
+          // create scroller element
+          scroller = document.createElement("div");
+          scroller.className = 'scroller';
+
+          // determine how big scroller should be based on content
+          scrollerHeight = calculateScrollerHeight();
+
+          if (scrollerHeight / scrollContainer.offsetHeight < 1) {
+            // *If there is a need to have scroll bar based on content size
+            scroller.style.height = scrollerHeight + 'px';
+
+            // append scroller to scrollContainer div
+            scrollContainer.appendChild(scroller);
+
+            // show scroll path divot
+            scrollContainer.className += ' showScroll';
+
+            // attach related draggable listeners
+            scroller.addEventListener('mousedown', startDrag);
+            window.addEventListener('mouseup', stopDrag);
+            window.addEventListener('mousemove', scrollBarScroll);
+          }
+        }
+
+        createScroller();
+
+        // *** Listeners ***
+        scrollContentWrapper.addEventListener('scroll', moveScroller);
+      })();
+    }
   }, {
     key: 'render',
     value: function render() {
@@ -19263,7 +19338,7 @@ var header_Header = function (_Component) {
                     react_default.a.createElement('button', { 'class': 'search-close-icon', type: 'reset' }),
                     react_default.a.createElement(
                       'button',
-                      { type: 'submit', 'class': 'btn-search' },
+                      { type: 'button', 'class': 'btn-search' },
                       react_default.a.createElement('div', { 'class': 'main-menu-primary-search-icon color-lipstick-svg icon', dangerouslySetInnerHTML: { __html: header_searchImage } })
                     )
                   )
@@ -21172,7 +21247,7 @@ var slide_out_panels_SlideOutPanels = function (_Component) {
               { className: 'side-panel-header' },
               react_default.a.createElement(
                 'h3',
-                { className: 'title title-L' },
+                { className: 'title title-L color-white' },
                 'Panel'
               ),
               react_default.a.createElement(
@@ -21204,7 +21279,7 @@ var slide_out_panels_SlideOutPanels = function (_Component) {
               { className: 'side-panel-header' },
               react_default.a.createElement(
                 'h3',
-                { className: 'title title-L ' },
+                { className: 'title title-L color-white' },
                 'Panel'
               ),
               react_default.a.createElement(
@@ -22747,7 +22822,7 @@ var filter_sort_FilterSort = function (_Component) {
                   { 'class': 'dropdown-menu' },
                   react_default.a.createElement(
                     'div',
-                    { 'class': 'tooltip tooltip-top-right' },
+                    { 'class': 'tooltip tooltip-top-right filter-tooltip' },
                     react_default.a.createElement(
                       'span',
                       null,
@@ -28766,6 +28841,148 @@ var recommendation_zone_RecommendationZone = function (_Component) {
   }
 
   recommendation_zone__createClass(RecommendationZone, [{
+    key: 'productCardRecommendations',
+    value: function productCardRecommendations(productInfo) {
+      var _this2 = this;
+
+      return react_default.a.createElement(
+        'li',
+        { className: 'product-card' },
+        react_default.a.createElement(
+          'a',
+          { href: 'javascript:void(0)', className: 'product-rec-zone', ref: function ref(productPane) {
+              _this2.productPane = productPane;
+            } },
+          react_default.a.createElement(
+            'div',
+            { className: 'product-card-recommendation' },
+            function () {
+              if (productInfo.thumb) {
+                return react_default.a.createElement(
+                  'div',
+                  { className: 'product-card-thumbnail mrg-S' },
+                  react_default.a.createElement(
+                    'a',
+                    { href: 'javascript:void(0)' },
+                    react_default.a.createElement('img', { src: productInfo.thumb, alt: 'product-image' })
+                  )
+                );
+              }
+            }(),
+            function () {
+              if (productInfo.promo) {
+                return react_default.a.createElement(
+                  'div',
+                  { className: 'price price-promo-S mrg-XS color-penneyred' },
+                  productInfo.promo
+                );
+              }
+            }(),
+            react_default.a.createElement(
+              'div',
+              { className: 'product-card-price' },
+              function () {
+                if (productInfo.priceHighlight === true) {
+                  return react_default.a.createElement(
+                    'div',
+                    { className: 'product-card-price-value' },
+                    react_default.a.createElement(
+                      'div',
+                      { 'class': 'std-txt std-txt-XS mrg-rght-XS' },
+                      react_default.a.createElement(
+                        'div',
+                        { className: 'price price-XS' },
+                        productInfo.price
+                      )
+                    )
+                  );
+                } else {
+                  return react_default.a.createElement(
+                    'div',
+                    { className: 'product-card-price-value price price-XS mrg-rght-XS' },
+                    productInfo.price
+                  );
+                }
+              }(),
+              function () {
+                if (productInfo.priceRestriction) {
+                  return react_default.a.createElement(
+                    'div',
+                    { className: 'product-card-note price price-note color-penneyred' },
+                    productInfo.priceRestriction
+                  );
+                }
+              }()
+            ),
+            function () {
+              if (productInfo.priceRegular) {
+                return react_default.a.createElement(
+                  'div',
+                  { className: 'product-card-note price color-slate std-txt std-txt-XS' },
+                  productInfo.priceRegular
+                );
+              }
+            }(),
+            react_default.a.createElement(
+              'div',
+              { className: 'product-card-name std-txt std-txt-S color-nightsky' },
+              productInfo.name
+            ),
+            react_default.a.createElement(
+              'div',
+              { className: 'ratings-and-reviews' },
+              react_default.a.createElement(
+                'div',
+                { className: 'ratings-and-reviews-stars mrg-rght-XS' },
+                react_default.a.createElement(
+                  'div',
+                  { className: 'star-preview-col fl-right' },
+                  react_default.a.createElement(
+                    'ul',
+                    { className: 'star-ratings-S' },
+                    react_default.a.createElement(
+                      'li',
+                      { className: 'star-ratings start-ratings-full' },
+                      react_default.a.createElement('span', { className: 'icon ', dangerouslySetInnerHTML: { __html: recommendation_zone_starImage } })
+                    ),
+                    react_default.a.createElement(
+                      'li',
+                      { className: 'star-ratings start-ratings-full' },
+                      react_default.a.createElement('span', { className: 'icon ', dangerouslySetInnerHTML: { __html: recommendation_zone_starImage } })
+                    ),
+                    react_default.a.createElement(
+                      'li',
+                      { className: 'star-ratings start-ratings-full' },
+                      react_default.a.createElement('span', { className: 'icon ', dangerouslySetInnerHTML: { __html: recommendation_zone_starImage } })
+                    ),
+                    react_default.a.createElement(
+                      'li',
+                      { className: 'star-ratings start-ratings-half' },
+                      react_default.a.createElement('span', { className: 'icon', dangerouslySetInnerHTML: { __html: recommendation_zone_starhalfImage } })
+                    ),
+                    react_default.a.createElement(
+                      'li',
+                      { className: 'star-ratings star-rating-empty color-concrete-svg' },
+                      react_default.a.createElement('span', { className: 'icon', dangerouslySetInnerHTML: { __html: recommendation_zone_starImage } })
+                    ),
+                    react_default.a.createElement(
+                      'li',
+                      { className: 'star-ratings' },
+                      react_default.a.createElement(
+                        'a',
+                        { href: 'javascript:void();', className: 'rating-count rating-count-underline' },
+                        '99,999'
+                      )
+                    )
+                  )
+                )
+              )
+            )
+          )
+        )
+      );
+    }
+  }, {
     key: 'componentWillMount',
     value: function componentWillMount() {
 
@@ -28792,7 +29009,7 @@ var recommendation_zone_RecommendationZone = function (_Component) {
   }, {
     key: 'getDots',
     value: function getDots() {
-      var _this2 = this;
+      var _this3 = this;
 
       if (!this.wrapper) return;
       var productCartridgeList = 16;
@@ -28815,13 +29032,13 @@ var recommendation_zone_RecommendationZone = function (_Component) {
         for (var i = 1; i <= numberOfDots; i += 1) {
 
           var checkStatus = false;
-          if (_this2.state.currentDotIndex === i) {
+          if (_this3.state.currentDotIndex === i) {
             checkStatus = true;
           }
           listDots.push(react_default.a.createElement(
             'span',
             null,
-            react_default.a.createElement('input', { type: 'radio', 'class': 'bullet', id: "id" + i, name: 'name', value: '', checked: checkStatus }),
+            react_default.a.createElement('input', { type: 'radio', className: 'bullet', id: "id" + i, name: 'name', value: '', checked: checkStatus }),
             react_default.a.createElement('label', { htmlFor: "id" + i })
           ));
         }
@@ -28891,22 +29108,22 @@ var recommendation_zone_RecommendationZone = function (_Component) {
   }, {
     key: 'getDotsWithDeley',
     value: function getDotsWithDeley() {
-      var _this3 = this;
+      var _this4 = this;
 
       var node = void 0;
       this.delayedExec(100, function () {
-        node = _this3.getDots();
+        node = _this4.getDots();
         return node;
       });
     }
   }, {
     key: 'listenScrollEvent',
     value: function listenScrollEvent() {
-      var _this4 = this;
+      var _this5 = this;
 
       /* istanbul ignore next */
       this.delayedExec(100, function () {
-        _this4.updateDotsPosition();
+        _this5.updateDotsPosition();
       });
     }
   }, {
@@ -28955,27 +29172,27 @@ var recommendation_zone_RecommendationZone = function (_Component) {
   }, {
     key: 'render',
     value: function render() {
-      var _this5 = this;
+      var _this6 = this;
 
       var _state = this.state,
           listStyle = _state.listStyle,
           disableLeftArrow = _state.disableLeftArrow,
           disableRightArrow = _state.disableRightArrow;
 
-      var mobLeftFade = react_default.a.createElement('div', { 'class': 'rec-fade-left show-for-small-only show-for-medium-only' });
-      var mobRightFade = react_default.a.createElement('div', { 'class': 'rec-fade-right show-for-small-only show-for-medium-only' });
+      var mobLeftFade = react_default.a.createElement('div', { className: 'rec-fade-left show-for-small-only show-for-medium-only' });
+      var mobRightFade = react_default.a.createElement('div', { className: 'rec-fade-right show-for-small-only show-for-medium-only' });
       return react_default.a.createElement(
         'div',
         null,
         react_default.a.createElement(
           'div',
-          { 'class': 'row' },
+          { className: 'row' },
           react_default.a.createElement(
             'div',
-            { 'class': 'row' },
+            { className: 'row' },
             react_default.a.createElement(
               'div',
-              { 'class': 'sm12 columns' },
+              { className: 'sm12 columns' },
               react_default.a.createElement(
                 'h2',
                 null,
@@ -28988,1590 +29205,186 @@ var recommendation_zone_RecommendationZone = function (_Component) {
               react_default.a.createElement('hr', null),
               react_default.a.createElement(
                 'div',
-                { 'class': 'product-card-wrapper product-card-wrapper-recommendations', ref: function ref(wrapper) {
-                    _this5.wrapper = wrapper;
+                { className: 'product-card-wrapper product-card-wrapper-recommendations', ref: function ref(wrapper) {
+                    _this6.wrapper = wrapper;
                   }, style: listStyle },
                 react_default.a.createElement(
                   'div',
-                  { 'class': 'chevron-wrapper' },
+                  { className: 'chevron-wrapper' },
                   react_default.a.createElement('a', { style: { visibility: disableLeftArrow ? 'hidden' : 'visible' },
                     href: 'javascript:void(0);',
                     onClick: function onClick() {
-                      return _this5.scrollCartridge(false);
+                      return _this6.scrollCartridge(false);
                     },
-                    'class': 'rec-zone-chevron-left icon chevron-icon hide-for-small-only hide-for-medium-only',
+                    className: 'rec-zone-chevron-left icon chevron-icon hide-for-small-only hide-for-medium-only',
                     dangerouslySetInnerHTML: { __html: recommendation_zone_ChevronLeftImage } }),
                   react_default.a.createElement('a', { style: { visibility: disableRightArrow ? 'hidden' : 'visible' },
                     href: 'javascript:void(0);',
                     onClick: function onClick() {
-                      return _this5.scrollCartridge(true);
+                      return _this6.scrollCartridge(true);
                     },
-                    'class': 'rec-zone-chevron-right icon chevron-icon hide-for-small-only hide-for-medium-only',
+                    className: 'rec-zone-chevron-right icon chevron-icon hide-for-small-only hide-for-medium-only',
                     dangerouslySetInnerHTML: { __html: recommendation_zone_ChevronRightImage } }),
                   this.state.currentDotIndex == 1 ? '' : mobLeftFade,
                   this.state.currentDotIndex == this.state.dotNodes.length ? '' : mobRightFade
                 ),
                 react_default.a.createElement(
                   'div',
-                  { 'class': 'product-card-block', id: 'product-card-section', onScroll: isMobile ? function () {
-                      return _this5.listenScrollEvent();
+                  { className: 'product-card-block', id: 'product-card-section', onScroll: isMobile ? function () {
+                      return _this6.listenScrollEvent();
                     } : '' },
                   react_default.a.createElement(
                     'ul',
-                    { style: listStyle, 'class': 'listStyleClass' },
-                    react_default.a.createElement(
-                      'li',
-                      { 'class': 'product-card' },
-                      react_default.a.createElement(
-                        'a',
-                        { href: 'javascript:void(0)', 'class': 'product-rec-zone' },
-                        react_default.a.createElement(
-                          'div',
-                          { 'class': 'product-card-recommendation' },
-                          react_default.a.createElement(
-                            'div',
-                            { 'class': 'product-card-thumbnail mrg-S' },
-                            react_default.a.createElement(
-                              'a',
-                              { href: 'javascript:void(0)' },
-                              react_default.a.createElement('img', { src: '/images/design-system/fpo/product-cards/product-card-recommendations-1.jpg', alt: 'product-image' })
-                            )
-                          ),
-                          react_default.a.createElement(
-                            'div',
-                            { 'class': 'price price-promo-S mrg-XS color-penneyred' },
-                            'SAMSUNG BUY 4 SAVE 10%'
-                          ),
-                          react_default.a.createElement(
-                            'div',
-                            { 'class': 'product-card-price' },
-                            react_default.a.createElement(
-                              'div',
-                              { 'class': 'product-card-price-value' },
-                              react_default.a.createElement(
-                                'div',
-                                { 'class': 'std-txt std-txt-XS mrg-rght-XS' },
-                                react_default.a.createElement(
-                                  'div',
-                                  { 'class': 'price price-XS' },
-                                  '$2,499 - $3,999'
-                                )
-                              )
-                            )
-                          ),
-                          react_default.a.createElement(
-                            'div',
-                            { 'class': 'product-card-note price color-slate std-txt std-txt-XS' },
-                            'reg. $2,999 - $5,999'
-                          ),
-                          react_default.a.createElement(
-                            'div',
-                            { 'class': 'product-card-name std-txt std-txt-S color-nightsky' },
-                            'Lorem Ipsum Dolor Sec Mud Deler LoreM Dol\u2026'
-                          ),
-                          react_default.a.createElement(
-                            'div',
-                            { 'class': 'ratings-and-reviews' },
-                            react_default.a.createElement(
-                              'div',
-                              { 'class': 'ratings-and-reviews-stars mrg-rght-XS' },
-                              react_default.a.createElement(
-                                'div',
-                                { 'class': 'star-preview-col fl-right' },
-                                react_default.a.createElement(
-                                  'ul',
-                                  { 'class': 'star-ratings-S' },
-                                  react_default.a.createElement(
-                                    'li',
-                                    { 'class': 'star-ratings start-ratings-full' },
-                                    react_default.a.createElement('span', { 'class': 'icon ', dangerouslySetInnerHTML: { __html: recommendation_zone_starImage } })
-                                  ),
-                                  react_default.a.createElement(
-                                    'li',
-                                    { 'class': 'star-ratings start-ratings-full' },
-                                    react_default.a.createElement('span', { 'class': 'icon ', dangerouslySetInnerHTML: { __html: recommendation_zone_starImage } })
-                                  ),
-                                  react_default.a.createElement(
-                                    'li',
-                                    { 'class': 'star-ratings start-ratings-full' },
-                                    react_default.a.createElement('span', { 'class': 'icon ', dangerouslySetInnerHTML: { __html: recommendation_zone_starImage } })
-                                  ),
-                                  react_default.a.createElement(
-                                    'li',
-                                    { 'class': 'star-ratings start-ratings-half' },
-                                    react_default.a.createElement('span', { 'class': 'icon', dangerouslySetInnerHTML: { __html: recommendation_zone_starhalfImage } })
-                                  ),
-                                  react_default.a.createElement(
-                                    'li',
-                                    { 'class': 'star-ratings star-rating-empty color-concrete-svg' },
-                                    react_default.a.createElement('span', { 'class': 'icon', dangerouslySetInnerHTML: { __html: recommendation_zone_starImage } })
-                                  ),
-                                  react_default.a.createElement(
-                                    'li',
-                                    { 'class': 'star-ratings' },
-                                    react_default.a.createElement(
-                                      'a',
-                                      { href: 'javascript:void();', 'class': 'rating-count rating-count-underline' },
-                                      '99,999'
-                                    )
-                                  )
-                                )
-                              )
-                            )
-                          )
-                        )
-                      )
-                    ),
-                    react_default.a.createElement(
-                      'li',
-                      { 'class': 'product-card' },
-                      react_default.a.createElement(
-                        'a',
-                        { href: 'javascript:void(0)', 'class': 'product-rec-zone' },
-                        react_default.a.createElement(
-                          'div',
-                          { 'class': 'product-card-recommendation' },
-                          react_default.a.createElement(
-                            'div',
-                            { 'class': 'product-card-thumbnail mrg-S' },
-                            react_default.a.createElement(
-                              'a',
-                              { href: 'javascript:void(0)' },
-                              react_default.a.createElement('img', { src: '/images/design-system/fpo/product-cards/product-card-recommendations-2.jpg', alt: 'product-image' })
-                            )
-                          ),
-                          react_default.a.createElement(
-                            'div',
-                            { 'class': 'product-card-price' },
-                            react_default.a.createElement(
-                              'div',
-                              { 'class': 'product-card-price-value' },
-                              react_default.a.createElement(
-                                'div',
-                                { 'class': 'std-txt std-txt-XS mrg-rght-XS' },
-                                react_default.a.createElement(
-                                  'div',
-                                  { 'class': 'price price-XS' },
-                                  '$59.99'
-                                )
-                              )
-                            ),
-                            react_default.a.createElement(
-                              'div',
-                              { 'class': 'product-card-note price price-note color-penneyred' },
-                              'after coupon'
-                            )
-                          ),
-                          react_default.a.createElement(
-                            'div',
-                            { 'class': 'product-card-note price color-slate std-txt std-txt-XS' },
-                            'reg. $99.99'
-                          ),
-                          react_default.a.createElement(
-                            'div',
-                            { 'class': 'product-card-name std-txt std-txt-S color-nightsky' },
-                            'Lorem Ipsum Dolor Sec Mud Deler LoreM Dol\u2026'
-                          ),
-                          react_default.a.createElement(
-                            'div',
-                            { 'class': 'ratings-and-reviews' },
-                            react_default.a.createElement(
-                              'div',
-                              { 'class': 'ratings-and-reviews-stars mrg-rght-XS' },
-                              react_default.a.createElement(
-                                'div',
-                                { 'class': 'star-preview-col fl-right' },
-                                react_default.a.createElement(
-                                  'ul',
-                                  { 'class': 'star-ratings-S' },
-                                  react_default.a.createElement(
-                                    'li',
-                                    { 'class': 'star-ratings start-ratings-full' },
-                                    react_default.a.createElement('span', { 'class': 'icon ', dangerouslySetInnerHTML: { __html: recommendation_zone_starImage } })
-                                  ),
-                                  react_default.a.createElement(
-                                    'li',
-                                    { 'class': 'star-ratings start-ratings-full' },
-                                    react_default.a.createElement('span', { 'class': 'icon ', dangerouslySetInnerHTML: { __html: recommendation_zone_starImage } })
-                                  ),
-                                  react_default.a.createElement(
-                                    'li',
-                                    { 'class': 'star-ratings start-ratings-full' },
-                                    react_default.a.createElement('span', { 'class': 'icon ', dangerouslySetInnerHTML: { __html: recommendation_zone_starImage } })
-                                  ),
-                                  react_default.a.createElement(
-                                    'li',
-                                    { 'class': 'star-ratings start-ratings-half' },
-                                    react_default.a.createElement('span', { 'class': 'icon', dangerouslySetInnerHTML: { __html: recommendation_zone_starhalfImage } })
-                                  ),
-                                  react_default.a.createElement(
-                                    'li',
-                                    { 'class': 'star-ratings star-rating-empty color-concrete-svg' },
-                                    react_default.a.createElement('span', { 'class': 'icon', dangerouslySetInnerHTML: { __html: recommendation_zone_starImage } })
-                                  ),
-                                  react_default.a.createElement(
-                                    'li',
-                                    { 'class': 'star-ratings' },
-                                    react_default.a.createElement(
-                                      'a',
-                                      { href: 'javascript:void();', 'class': 'rating-count rating-count-underline' },
-                                      '99,999'
-                                    )
-                                  )
-                                )
-                              )
-                            )
-                          )
-                        )
-                      )
-                    ),
-                    react_default.a.createElement(
-                      'li',
-                      { 'class': 'product-card' },
-                      react_default.a.createElement(
-                        'a',
-                        { href: 'javascript:void(0)', 'class': 'product-rec-zone' },
-                        react_default.a.createElement(
-                          'div',
-                          { 'class': 'product-card-recommendation' },
-                          react_default.a.createElement(
-                            'div',
-                            { 'class': 'product-card-thumbnail mrg-S' },
-                            react_default.a.createElement(
-                              'a',
-                              { href: 'javascript:void(0)' },
-                              react_default.a.createElement('img', { src: '/images/design-system/fpo/product-cards/product-card-recommendations-3.jpg', alt: 'product-image' })
-                            )
-                          ),
-                          react_default.a.createElement(
-                            'div',
-                            { 'class': 'product-card-price' },
-                            react_default.a.createElement(
-                              'div',
-                              { 'class': 'product-card-price-value' },
-                              react_default.a.createElement(
-                                'div',
-                                { 'class': 'std-txt std-txt-XS mrg-rght-XS' },
-                                react_default.a.createElement(
-                                  'div',
-                                  { 'class': 'price price-XS' },
-                                  '$299.99'
-                                )
-                              )
-                            ),
-                            react_default.a.createElement(
-                              'div',
-                              { 'class': 'product-card-note price price-note color-penneyred' },
-                              'after coupon'
-                            )
-                          ),
-                          react_default.a.createElement(
-                            'div',
-                            { 'class': 'product-card-note price color-slate std-txt std-txt-XS' },
-                            'reg. $99.99'
-                          ),
-                          react_default.a.createElement(
-                            'div',
-                            { 'class': 'product-card-name std-txt std-txt-S color-nightsky' },
-                            'Lorem Ipsum Dolor Sec Mud Deler LoreM Dol\u2026'
-                          ),
-                          react_default.a.createElement(
-                            'div',
-                            { 'class': 'ratings-and-reviews' },
-                            react_default.a.createElement(
-                              'div',
-                              { 'class': 'ratings-and-reviews-stars mrg-rght-XS' },
-                              react_default.a.createElement(
-                                'div',
-                                { 'class': 'star-preview-col fl-right' },
-                                react_default.a.createElement(
-                                  'ul',
-                                  { 'class': 'star-ratings-S' },
-                                  react_default.a.createElement(
-                                    'li',
-                                    { 'class': 'star-ratings start-ratings-full' },
-                                    react_default.a.createElement('span', { 'class': 'icon ', dangerouslySetInnerHTML: { __html: recommendation_zone_starImage } })
-                                  ),
-                                  react_default.a.createElement(
-                                    'li',
-                                    { 'class': 'star-ratings start-ratings-full' },
-                                    react_default.a.createElement('span', { 'class': 'icon ', dangerouslySetInnerHTML: { __html: recommendation_zone_starImage } })
-                                  ),
-                                  react_default.a.createElement(
-                                    'li',
-                                    { 'class': 'star-ratings start-ratings-full' },
-                                    react_default.a.createElement('span', { 'class': 'icon ', dangerouslySetInnerHTML: { __html: recommendation_zone_starImage } })
-                                  ),
-                                  react_default.a.createElement(
-                                    'li',
-                                    { 'class': 'star-ratings start-ratings-half' },
-                                    react_default.a.createElement('span', { 'class': 'icon', dangerouslySetInnerHTML: { __html: recommendation_zone_starhalfImage } })
-                                  ),
-                                  react_default.a.createElement(
-                                    'li',
-                                    { 'class': 'star-ratings star-rating-empty color-concrete-svg' },
-                                    react_default.a.createElement('span', { 'class': 'icon', dangerouslySetInnerHTML: { __html: recommendation_zone_starImage } })
-                                  ),
-                                  react_default.a.createElement(
-                                    'li',
-                                    { 'class': 'star-ratings' },
-                                    react_default.a.createElement(
-                                      'a',
-                                      { href: 'javascript:void();', 'class': 'rating-count rating-count-underline' },
-                                      '99,999'
-                                    )
-                                  )
-                                )
-                              )
-                            )
-                          )
-                        )
-                      )
-                    ),
-                    react_default.a.createElement(
-                      'li',
-                      { 'class': 'product-card' },
-                      react_default.a.createElement(
-                        'a',
-                        { href: 'javascript:void(0)', 'class': 'product-rec-zone' },
-                        react_default.a.createElement(
-                          'div',
-                          { 'class': 'product-card-recommendation' },
-                          react_default.a.createElement(
-                            'div',
-                            { 'class': 'product-card-thumbnail mrg-S' },
-                            react_default.a.createElement(
-                              'a',
-                              { href: 'javascript:void(0)' },
-                              react_default.a.createElement('img', { src: '/images/design-system/fpo/product-cards/product-card-recommendations-4.jpg', alt: 'product-image' })
-                            )
-                          ),
-                          react_default.a.createElement(
-                            'div',
-                            { 'class': 'product-card-price' },
-                            react_default.a.createElement(
-                              'div',
-                              { 'class': 'product-card-price-value price price-XS mrg-rght-XS' },
-                              '$599.99'
-                            )
-                          ),
-                          react_default.a.createElement(
-                            'div',
-                            { 'class': 'product-card-name std-txt std-txt-S color-nightsky' },
-                            'Lorem Ipsum Dolor Sec Mud Deler LoreM Dol\u2026'
-                          ),
-                          react_default.a.createElement(
-                            'div',
-                            { 'class': 'ratings-and-reviews' },
-                            react_default.a.createElement(
-                              'div',
-                              { 'class': 'ratings-and-reviews-stars mrg-rght-XS' },
-                              react_default.a.createElement(
-                                'div',
-                                { 'class': 'star-preview-col fl-right' },
-                                react_default.a.createElement(
-                                  'ul',
-                                  { 'class': 'star-ratings-S' },
-                                  react_default.a.createElement(
-                                    'li',
-                                    { 'class': 'star-ratings start-ratings-full' },
-                                    react_default.a.createElement('span', { 'class': 'icon ', dangerouslySetInnerHTML: { __html: recommendation_zone_starImage } })
-                                  ),
-                                  react_default.a.createElement(
-                                    'li',
-                                    { 'class': 'star-ratings start-ratings-full' },
-                                    react_default.a.createElement('span', { 'class': 'icon ', dangerouslySetInnerHTML: { __html: recommendation_zone_starImage } })
-                                  ),
-                                  react_default.a.createElement(
-                                    'li',
-                                    { 'class': 'star-ratings start-ratings-full' },
-                                    react_default.a.createElement('span', { 'class': 'icon ', dangerouslySetInnerHTML: { __html: recommendation_zone_starImage } })
-                                  ),
-                                  react_default.a.createElement(
-                                    'li',
-                                    { 'class': 'star-ratings start-ratings-half' },
-                                    react_default.a.createElement('span', { 'class': 'icon', dangerouslySetInnerHTML: { __html: recommendation_zone_starhalfImage } })
-                                  ),
-                                  react_default.a.createElement(
-                                    'li',
-                                    { 'class': 'star-ratings star-rating-empty color-concrete-svg' },
-                                    react_default.a.createElement('span', { 'class': 'icon', dangerouslySetInnerHTML: { __html: recommendation_zone_starImage } })
-                                  ),
-                                  react_default.a.createElement(
-                                    'li',
-                                    { 'class': 'star-ratings' },
-                                    react_default.a.createElement(
-                                      'a',
-                                      { href: 'javascript:void();', 'class': 'rating-count rating-count-underline' },
-                                      '99,999'
-                                    )
-                                  )
-                                )
-                              )
-                            )
-                          )
-                        )
-                      )
-                    ),
-                    react_default.a.createElement(
-                      'li',
-                      { 'class': 'product-card' },
-                      react_default.a.createElement(
-                        'a',
-                        { href: 'javascript:void(0)', 'class': 'product-rec-zone' },
-                        react_default.a.createElement(
-                          'div',
-                          { 'class': 'product-card-recommendation' },
-                          react_default.a.createElement(
-                            'div',
-                            { 'class': 'product-card-thumbnail mrg-S' },
-                            react_default.a.createElement(
-                              'a',
-                              { href: 'javascript:void(0)' },
-                              react_default.a.createElement('img', { src: '/images/design-system/fpo/product-cards/product-card-recommendations-5.jpg', alt: 'product-image' })
-                            )
-                          ),
-                          react_default.a.createElement(
-                            'div',
-                            { 'class': 'product-card-price' },
-                            react_default.a.createElement(
-                              'div',
-                              { 'class': 'product-card-price-value price price-XS mrg-rght-XS' },
-                              '$29.99'
-                            ),
-                            react_default.a.createElement(
-                              'div',
-                              { 'class': 'product-card-note price price-note color-penneyred' },
-                              'sale'
-                            )
-                          ),
-                          react_default.a.createElement(
-                            'div',
-                            { 'class': 'product-card-note price color-slate std-txt std-txt-XS' },
-                            'was $60'
-                          ),
-                          react_default.a.createElement(
-                            'div',
-                            { 'class': 'product-card-name std-txt std-txt-S color-nightsky' },
-                            'Lorem Ipsum Dolor Sec Mud Deler LoreM Dol\u2026'
-                          ),
-                          react_default.a.createElement(
-                            'div',
-                            { 'class': 'ratings-and-reviews' },
-                            react_default.a.createElement(
-                              'div',
-                              { 'class': 'ratings-and-reviews-stars mrg-rght-XS' },
-                              react_default.a.createElement(
-                                'div',
-                                { 'class': 'star-preview-col fl-right' },
-                                react_default.a.createElement(
-                                  'ul',
-                                  { 'class': 'star-ratings-S' },
-                                  react_default.a.createElement(
-                                    'li',
-                                    { 'class': 'star-ratings start-ratings-full' },
-                                    react_default.a.createElement('span', { 'class': 'icon ', dangerouslySetInnerHTML: { __html: recommendation_zone_starImage } })
-                                  ),
-                                  react_default.a.createElement(
-                                    'li',
-                                    { 'class': 'star-ratings start-ratings-full' },
-                                    react_default.a.createElement('span', { 'class': 'icon ', dangerouslySetInnerHTML: { __html: recommendation_zone_starImage } })
-                                  ),
-                                  react_default.a.createElement(
-                                    'li',
-                                    { 'class': 'star-ratings start-ratings-full' },
-                                    react_default.a.createElement('span', { 'class': 'icon ', dangerouslySetInnerHTML: { __html: recommendation_zone_starImage } })
-                                  ),
-                                  react_default.a.createElement(
-                                    'li',
-                                    { 'class': 'star-ratings start-ratings-half' },
-                                    react_default.a.createElement('span', { 'class': 'icon', dangerouslySetInnerHTML: { __html: recommendation_zone_starhalfImage } })
-                                  ),
-                                  react_default.a.createElement(
-                                    'li',
-                                    { 'class': 'star-ratings star-rating-empty color-concrete-svg' },
-                                    react_default.a.createElement('span', { 'class': 'icon', dangerouslySetInnerHTML: { __html: recommendation_zone_starImage } })
-                                  ),
-                                  react_default.a.createElement(
-                                    'li',
-                                    { 'class': 'star-ratings' },
-                                    react_default.a.createElement(
-                                      'a',
-                                      { href: 'javascript:void();', 'class': 'rating-count rating-count-underline' },
-                                      '99,999'
-                                    )
-                                  )
-                                )
-                              )
-                            )
-                          )
-                        )
-                      )
-                    ),
-                    react_default.a.createElement(
-                      'li',
-                      { 'class': 'product-card' },
-                      react_default.a.createElement(
-                        'a',
-                        { href: 'javascript:void(0)', 'class': 'product-rec-zone' },
-                        react_default.a.createElement(
-                          'div',
-                          { 'class': 'product-card-recommendation' },
-                          react_default.a.createElement(
-                            'div',
-                            { 'class': 'product-card-thumbnail mrg-S' },
-                            react_default.a.createElement(
-                              'a',
-                              { href: 'javascript:void(0)' },
-                              react_default.a.createElement('img', { src: '/images/design-system/fpo/product-cards/product-card-recommendations-6.jpg', alt: 'product-image' })
-                            )
-                          ),
-                          react_default.a.createElement(
-                            'div',
-                            { 'class': 'product-card-price' },
-                            react_default.a.createElement(
-                              'div',
-                              { 'class': 'product-card-price-value price price-XS mrg-rght-XS' },
-                              '$99.99'
-                            ),
-                            react_default.a.createElement(
-                              'div',
-                              { 'class': 'product-card-note price price-note color-penneyred' },
-                              'clearance'
-                            )
-                          ),
-                          react_default.a.createElement(
-                            'div',
-                            { 'class': 'product-card-note price color-slate std-txt std-txt-XS' },
-                            'was $299.99'
-                          ),
-                          react_default.a.createElement(
-                            'div',
-                            { 'class': 'product-card-name std-txt std-txt-S color-nightsky' },
-                            'Lorem Ipsum Dolor Sec Mud Deler LoreM Dol\u2026'
-                          ),
-                          react_default.a.createElement(
-                            'div',
-                            { 'class': 'ratings-and-reviews' },
-                            react_default.a.createElement(
-                              'div',
-                              { 'class': 'ratings-and-reviews-stars mrg-rght-XS' },
-                              react_default.a.createElement(
-                                'div',
-                                { 'class': 'star-preview-col fl-right' },
-                                react_default.a.createElement(
-                                  'ul',
-                                  { 'class': 'star-ratings-S' },
-                                  react_default.a.createElement(
-                                    'li',
-                                    { 'class': 'star-ratings start-ratings-full' },
-                                    react_default.a.createElement('span', { 'class': 'icon ', dangerouslySetInnerHTML: { __html: recommendation_zone_starImage } })
-                                  ),
-                                  react_default.a.createElement(
-                                    'li',
-                                    { 'class': 'star-ratings start-ratings-full' },
-                                    react_default.a.createElement('span', { 'class': 'icon ', dangerouslySetInnerHTML: { __html: recommendation_zone_starImage } })
-                                  ),
-                                  react_default.a.createElement(
-                                    'li',
-                                    { 'class': 'star-ratings start-ratings-full' },
-                                    react_default.a.createElement('span', { 'class': 'icon ', dangerouslySetInnerHTML: { __html: recommendation_zone_starImage } })
-                                  ),
-                                  react_default.a.createElement(
-                                    'li',
-                                    { 'class': 'star-ratings start-ratings-half' },
-                                    react_default.a.createElement('span', { 'class': 'icon', dangerouslySetInnerHTML: { __html: recommendation_zone_starhalfImage } })
-                                  ),
-                                  react_default.a.createElement(
-                                    'li',
-                                    { 'class': 'star-ratings star-rating-empty color-concrete-svg' },
-                                    react_default.a.createElement('span', { 'class': 'icon', dangerouslySetInnerHTML: { __html: recommendation_zone_starImage } })
-                                  ),
-                                  react_default.a.createElement(
-                                    'li',
-                                    { 'class': 'star-ratings' },
-                                    react_default.a.createElement(
-                                      'a',
-                                      { href: 'javascript:void();', 'class': 'rating-count rating-count-underline' },
-                                      '99,999'
-                                    )
-                                  )
-                                )
-                              )
-                            )
-                          )
-                        )
-                      )
-                    ),
-                    react_default.a.createElement(
-                      'li',
-                      { 'class': 'product-card' },
-                      react_default.a.createElement(
-                        'a',
-                        { href: 'javascript:void(0)', 'class': 'product-rec-zone' },
-                        react_default.a.createElement(
-                          'div',
-                          { 'class': 'product-card-recommendation' },
-                          react_default.a.createElement(
-                            'div',
-                            { 'class': 'product-card-thumbnail mrg-S' },
-                            react_default.a.createElement(
-                              'a',
-                              { href: 'javascript:void(0)' },
-                              react_default.a.createElement('img', { src: '/images/design-system/fpo/product-cards/product-card-recommendations-7.jpg', alt: 'product-image' })
-                            )
-                          ),
-                          react_default.a.createElement(
-                            'div',
-                            { 'class': 'product-card-price' },
-                            react_default.a.createElement(
-                              'div',
-                              { 'class': 'product-card-price-value price price-XS mrg-rght-XS' },
-                              '$299.99 - $399.99'
-                            ),
-                            react_default.a.createElement(
-                              'div',
-                              { 'class': 'product-card-note price price-note color-penneyred' },
-                              'clearance'
-                            )
-                          ),
-                          react_default.a.createElement(
-                            'div',
-                            { 'class': 'product-card-note price color-slate std-txt std-txt-XS' },
-                            'was $499.99 - $699.99'
-                          ),
-                          react_default.a.createElement(
-                            'div',
-                            { 'class': 'product-card-name std-txt std-txt-S color-nightsky' },
-                            'Lorem Ipsum Dolor Sec Mud Deler LoreM Dol\u2026'
-                          ),
-                          react_default.a.createElement(
-                            'div',
-                            { 'class': 'ratings-and-reviews' },
-                            react_default.a.createElement(
-                              'div',
-                              { 'class': 'ratings-and-reviews-stars mrg-rght-XS' },
-                              react_default.a.createElement(
-                                'div',
-                                { 'class': 'star-preview-col fl-right' },
-                                react_default.a.createElement(
-                                  'ul',
-                                  { 'class': 'star-ratings-S' },
-                                  react_default.a.createElement(
-                                    'li',
-                                    { 'class': 'star-ratings start-ratings-full' },
-                                    react_default.a.createElement('span', { 'class': 'icon ', dangerouslySetInnerHTML: { __html: recommendation_zone_starImage } })
-                                  ),
-                                  react_default.a.createElement(
-                                    'li',
-                                    { 'class': 'star-ratings start-ratings-full' },
-                                    react_default.a.createElement('span', { 'class': 'icon ', dangerouslySetInnerHTML: { __html: recommendation_zone_starImage } })
-                                  ),
-                                  react_default.a.createElement(
-                                    'li',
-                                    { 'class': 'star-ratings start-ratings-full' },
-                                    react_default.a.createElement('span', { 'class': 'icon ', dangerouslySetInnerHTML: { __html: recommendation_zone_starImage } })
-                                  ),
-                                  react_default.a.createElement(
-                                    'li',
-                                    { 'class': 'star-ratings start-ratings-half' },
-                                    react_default.a.createElement('span', { 'class': 'icon', dangerouslySetInnerHTML: { __html: recommendation_zone_starhalfImage } })
-                                  ),
-                                  react_default.a.createElement(
-                                    'li',
-                                    { 'class': 'star-ratings star-rating-empty color-concrete-svg' },
-                                    react_default.a.createElement('span', { 'class': 'icon', dangerouslySetInnerHTML: { __html: recommendation_zone_starImage } })
-                                  ),
-                                  react_default.a.createElement(
-                                    'li',
-                                    { 'class': 'star-ratings' },
-                                    react_default.a.createElement(
-                                      'a',
-                                      { href: 'javascript:void();', 'class': 'rating-count rating-count-underline' },
-                                      '99,999'
-                                    )
-                                  )
-                                )
-                              )
-                            )
-                          )
-                        )
-                      )
-                    ),
-                    react_default.a.createElement(
-                      'li',
-                      { 'class': 'product-card' },
-                      react_default.a.createElement(
-                        'a',
-                        { href: 'javascript:void(0)', 'class': 'product-rec-zone' },
-                        react_default.a.createElement(
-                          'div',
-                          { 'class': 'product-card-recommendation' },
-                          react_default.a.createElement(
-                            'div',
-                            { 'class': 'product-card-thumbnail mrg-S' },
-                            react_default.a.createElement(
-                              'a',
-                              { href: 'javascript:void(0)' },
-                              react_default.a.createElement('img', { src: '/images/design-system/fpo/product-cards/product-card-recommendations-8.jpg', alt: 'product-image' })
-                            )
-                          ),
-                          react_default.a.createElement(
-                            'div',
-                            { 'class': 'product-card-price' },
-                            react_default.a.createElement(
-                              'div',
-                              { 'class': 'product-card-price-value price price-XS mrg-rght-XS' },
-                              '$2,999 - $3,999'
-                            ),
-                            react_default.a.createElement(
-                              'div',
-                              { 'class': 'product-card-note price price-note color-penneyred' },
-                              'package deal'
-                            )
-                          ),
-                          react_default.a.createElement(
-                            'div',
-                            { 'class': 'product-card-note price color-slate std-txt std-txt-XS' },
-                            'was $4,999 - $6,999'
-                          ),
-                          react_default.a.createElement(
-                            'div',
-                            { 'class': 'product-card-name std-txt std-txt-S color-nightsky' },
-                            'Lorem Ipsum Dolor Sec Mud Deler LoreM Dol\u2026'
-                          ),
-                          react_default.a.createElement(
-                            'div',
-                            { 'class': 'ratings-and-reviews' },
-                            react_default.a.createElement(
-                              'div',
-                              { 'class': 'ratings-and-reviews-stars mrg-rght-XS' },
-                              react_default.a.createElement(
-                                'div',
-                                { 'class': 'star-preview-col fl-right' },
-                                react_default.a.createElement(
-                                  'ul',
-                                  { 'class': 'star-ratings-S' },
-                                  react_default.a.createElement(
-                                    'li',
-                                    { 'class': 'star-ratings start-ratings-full' },
-                                    react_default.a.createElement('span', { 'class': 'icon ', dangerouslySetInnerHTML: { __html: recommendation_zone_starImage } })
-                                  ),
-                                  react_default.a.createElement(
-                                    'li',
-                                    { 'class': 'star-ratings start-ratings-full' },
-                                    react_default.a.createElement('span', { 'class': 'icon ', dangerouslySetInnerHTML: { __html: recommendation_zone_starImage } })
-                                  ),
-                                  react_default.a.createElement(
-                                    'li',
-                                    { 'class': 'star-ratings start-ratings-full' },
-                                    react_default.a.createElement('span', { 'class': 'icon ', dangerouslySetInnerHTML: { __html: recommendation_zone_starImage } })
-                                  ),
-                                  react_default.a.createElement(
-                                    'li',
-                                    { 'class': 'star-ratings start-ratings-half' },
-                                    react_default.a.createElement('span', { 'class': 'icon', dangerouslySetInnerHTML: { __html: recommendation_zone_starhalfImage } })
-                                  ),
-                                  react_default.a.createElement(
-                                    'li',
-                                    { 'class': 'star-ratings star-rating-empty color-concrete-svg' },
-                                    react_default.a.createElement('span', { 'class': 'icon', dangerouslySetInnerHTML: { __html: recommendation_zone_starImage } })
-                                  ),
-                                  react_default.a.createElement(
-                                    'li',
-                                    { 'class': 'star-ratings' },
-                                    react_default.a.createElement(
-                                      'a',
-                                      { href: 'javascript:void();', 'class': 'rating-count rating-count-underline' },
-                                      '99,999'
-                                    )
-                                  )
-                                )
-                              )
-                            )
-                          )
-                        )
-                      )
-                    ),
-                    react_default.a.createElement(
-                      'li',
-                      { 'class': 'product-card' },
-                      react_default.a.createElement(
-                        'a',
-                        { href: 'javascript:void(0)', 'class': 'product-rec-zone' },
-                        react_default.a.createElement(
-                          'div',
-                          { 'class': 'product-card-recommendation' },
-                          react_default.a.createElement(
-                            'div',
-                            { 'class': 'product-card-thumbnail mrg-S' },
-                            react_default.a.createElement(
-                              'a',
-                              { href: 'javascript:void(0)' },
-                              react_default.a.createElement('img', { src: '/images/design-system/fpo/product-cards/product-card-recommendations-1.jpg', alt: 'product-image' })
-                            )
-                          ),
-                          react_default.a.createElement(
-                            'div',
-                            { 'class': 'price price-promo-S mrg-XS color-penneyred' },
-                            'SAMSUNG BUY 4 SAVE 10%'
-                          ),
-                          react_default.a.createElement(
-                            'div',
-                            { 'class': 'product-card-price' },
-                            react_default.a.createElement(
-                              'div',
-                              { 'class': 'product-card-price-value' },
-                              react_default.a.createElement(
-                                'div',
-                                { 'class': 'std-txt std-txt-XS mrg-rght-XS' },
-                                react_default.a.createElement(
-                                  'div',
-                                  { 'class': 'price price-XS' },
-                                  '$2,499 - $3,999'
-                                )
-                              )
-                            )
-                          ),
-                          react_default.a.createElement(
-                            'div',
-                            { 'class': 'product-card-note price color-slate std-txt std-txt-XS' },
-                            'reg. $2,999 - $5,999'
-                          ),
-                          react_default.a.createElement(
-                            'div',
-                            { 'class': 'product-card-name std-txt std-txt-S color-nightsky' },
-                            'Lorem Ipsum Dolor Sec Mud Deler LoreM Dol\u2026'
-                          ),
-                          react_default.a.createElement(
-                            'div',
-                            { 'class': 'ratings-and-reviews' },
-                            react_default.a.createElement(
-                              'div',
-                              { 'class': 'ratings-and-reviews-stars mrg-rght-XS' },
-                              react_default.a.createElement(
-                                'div',
-                                { 'class': 'star-preview-col fl-right' },
-                                react_default.a.createElement(
-                                  'ul',
-                                  { 'class': 'star-ratings-S' },
-                                  react_default.a.createElement(
-                                    'li',
-                                    { 'class': 'star-ratings start-ratings-full' },
-                                    react_default.a.createElement('span', { 'class': 'icon ', dangerouslySetInnerHTML: { __html: recommendation_zone_starImage } })
-                                  ),
-                                  react_default.a.createElement(
-                                    'li',
-                                    { 'class': 'star-ratings start-ratings-full' },
-                                    react_default.a.createElement('span', { 'class': 'icon ', dangerouslySetInnerHTML: { __html: recommendation_zone_starImage } })
-                                  ),
-                                  react_default.a.createElement(
-                                    'li',
-                                    { 'class': 'star-ratings start-ratings-full' },
-                                    react_default.a.createElement('span', { 'class': 'icon ', dangerouslySetInnerHTML: { __html: recommendation_zone_starImage } })
-                                  ),
-                                  react_default.a.createElement(
-                                    'li',
-                                    { 'class': 'star-ratings start-ratings-half' },
-                                    react_default.a.createElement('span', { 'class': 'icon', dangerouslySetInnerHTML: { __html: recommendation_zone_starhalfImage } })
-                                  ),
-                                  react_default.a.createElement(
-                                    'li',
-                                    { 'class': 'star-ratings star-rating-empty color-concrete-svg' },
-                                    react_default.a.createElement('span', { 'class': 'icon', dangerouslySetInnerHTML: { __html: recommendation_zone_starImage } })
-                                  ),
-                                  react_default.a.createElement(
-                                    'li',
-                                    { 'class': 'star-ratings' },
-                                    react_default.a.createElement(
-                                      'a',
-                                      { href: 'javascript:void();', 'class': 'rating-count rating-count-underline' },
-                                      '99,999'
-                                    )
-                                  )
-                                )
-                              )
-                            )
-                          )
-                        )
-                      )
-                    ),
-                    react_default.a.createElement(
-                      'li',
-                      { 'class': 'product-card' },
-                      react_default.a.createElement(
-                        'a',
-                        { href: 'javascript:void(0)', 'class': 'product-rec-zone' },
-                        react_default.a.createElement(
-                          'div',
-                          { 'class': 'product-card-recommendation' },
-                          react_default.a.createElement(
-                            'div',
-                            { 'class': 'product-card-thumbnail mrg-S' },
-                            react_default.a.createElement(
-                              'a',
-                              { href: 'javascript:void(0)' },
-                              react_default.a.createElement('img', { src: '/images/design-system/fpo/product-cards/product-card-recommendations-2.jpg', alt: 'product-image' })
-                            )
-                          ),
-                          react_default.a.createElement(
-                            'div',
-                            { 'class': 'product-card-price' },
-                            react_default.a.createElement(
-                              'div',
-                              { 'class': 'product-card-price-value' },
-                              react_default.a.createElement(
-                                'div',
-                                { 'class': 'std-txt std-txt-XS mrg-rght-XS' },
-                                react_default.a.createElement(
-                                  'div',
-                                  { 'class': 'price price-XS' },
-                                  '$59.99'
-                                )
-                              )
-                            ),
-                            react_default.a.createElement(
-                              'div',
-                              { 'class': 'product-card-note price price-note color-penneyred' },
-                              'after coupon'
-                            )
-                          ),
-                          react_default.a.createElement(
-                            'div',
-                            { 'class': 'product-card-note price color-slate std-txt std-txt-XS' },
-                            'reg. $99.99'
-                          ),
-                          react_default.a.createElement(
-                            'div',
-                            { 'class': 'product-card-name std-txt std-txt-S color-nightsky' },
-                            'Lorem Ipsum Dolor Sec Mud Deler LoreM Dol\u2026'
-                          ),
-                          react_default.a.createElement(
-                            'div',
-                            { 'class': 'ratings-and-reviews' },
-                            react_default.a.createElement(
-                              'div',
-                              { 'class': 'ratings-and-reviews-stars mrg-rght-XS' },
-                              react_default.a.createElement(
-                                'div',
-                                { 'class': 'star-preview-col fl-right' },
-                                react_default.a.createElement(
-                                  'ul',
-                                  { 'class': 'star-ratings-S' },
-                                  react_default.a.createElement(
-                                    'li',
-                                    { 'class': 'star-ratings start-ratings-full' },
-                                    react_default.a.createElement('span', { 'class': 'icon ', dangerouslySetInnerHTML: { __html: recommendation_zone_starImage } })
-                                  ),
-                                  react_default.a.createElement(
-                                    'li',
-                                    { 'class': 'star-ratings start-ratings-full' },
-                                    react_default.a.createElement('span', { 'class': 'icon ', dangerouslySetInnerHTML: { __html: recommendation_zone_starImage } })
-                                  ),
-                                  react_default.a.createElement(
-                                    'li',
-                                    { 'class': 'star-ratings start-ratings-full' },
-                                    react_default.a.createElement('span', { 'class': 'icon ', dangerouslySetInnerHTML: { __html: recommendation_zone_starImage } })
-                                  ),
-                                  react_default.a.createElement(
-                                    'li',
-                                    { 'class': 'star-ratings start-ratings-half' },
-                                    react_default.a.createElement('span', { 'class': 'icon', dangerouslySetInnerHTML: { __html: recommendation_zone_starhalfImage } })
-                                  ),
-                                  react_default.a.createElement(
-                                    'li',
-                                    { 'class': 'star-ratings star-rating-empty color-concrete-svg' },
-                                    react_default.a.createElement('span', { 'class': 'icon', dangerouslySetInnerHTML: { __html: recommendation_zone_starImage } })
-                                  ),
-                                  react_default.a.createElement(
-                                    'li',
-                                    { 'class': 'star-ratings' },
-                                    react_default.a.createElement(
-                                      'a',
-                                      { href: 'javascript:void();', 'class': 'rating-count rating-count-underline' },
-                                      '99,999'
-                                    )
-                                  )
-                                )
-                              )
-                            )
-                          )
-                        )
-                      )
-                    ),
-                    react_default.a.createElement(
-                      'li',
-                      { 'class': 'product-card' },
-                      react_default.a.createElement(
-                        'a',
-                        { href: 'javascript:void(0)', 'class': 'product-rec-zone' },
-                        react_default.a.createElement(
-                          'div',
-                          { 'class': 'product-card-recommendation' },
-                          react_default.a.createElement(
-                            'div',
-                            { 'class': 'product-card-thumbnail mrg-S' },
-                            react_default.a.createElement(
-                              'a',
-                              { href: 'javascript:void(0)' },
-                              react_default.a.createElement('img', { src: '/images/design-system/fpo/product-cards/product-card-recommendations-3.jpg', alt: 'product-image' })
-                            )
-                          ),
-                          react_default.a.createElement(
-                            'div',
-                            { 'class': 'product-card-price' },
-                            react_default.a.createElement(
-                              'div',
-                              { 'class': 'product-card-price-value' },
-                              react_default.a.createElement(
-                                'div',
-                                { 'class': 'std-txt std-txt-XS mrg-rght-XS' },
-                                react_default.a.createElement(
-                                  'div',
-                                  { 'class': 'price price-XS' },
-                                  '$299.99'
-                                )
-                              )
-                            ),
-                            react_default.a.createElement(
-                              'div',
-                              { 'class': 'product-card-note price price-note color-penneyred' },
-                              'after coupon'
-                            )
-                          ),
-                          react_default.a.createElement(
-                            'div',
-                            { 'class': 'product-card-note price color-slate std-txt std-txt-XS' },
-                            'reg. $99.99'
-                          ),
-                          react_default.a.createElement(
-                            'div',
-                            { 'class': 'product-card-name std-txt std-txt-S color-nightsky' },
-                            'Lorem Ipsum Dolor Sec Mud Deler LoreM Dol\u2026'
-                          ),
-                          react_default.a.createElement(
-                            'div',
-                            { 'class': 'ratings-and-reviews' },
-                            react_default.a.createElement(
-                              'div',
-                              { 'class': 'ratings-and-reviews-stars mrg-rght-XS' },
-                              react_default.a.createElement(
-                                'div',
-                                { 'class': 'star-preview-col fl-right' },
-                                react_default.a.createElement(
-                                  'ul',
-                                  { 'class': 'star-ratings-S' },
-                                  react_default.a.createElement(
-                                    'li',
-                                    { 'class': 'star-ratings start-ratings-full' },
-                                    react_default.a.createElement('span', { 'class': 'icon ', dangerouslySetInnerHTML: { __html: recommendation_zone_starImage } })
-                                  ),
-                                  react_default.a.createElement(
-                                    'li',
-                                    { 'class': 'star-ratings start-ratings-full' },
-                                    react_default.a.createElement('span', { 'class': 'icon ', dangerouslySetInnerHTML: { __html: recommendation_zone_starImage } })
-                                  ),
-                                  react_default.a.createElement(
-                                    'li',
-                                    { 'class': 'star-ratings start-ratings-full' },
-                                    react_default.a.createElement('span', { 'class': 'icon ', dangerouslySetInnerHTML: { __html: recommendation_zone_starImage } })
-                                  ),
-                                  react_default.a.createElement(
-                                    'li',
-                                    { 'class': 'star-ratings start-ratings-half' },
-                                    react_default.a.createElement('span', { 'class': 'icon', dangerouslySetInnerHTML: { __html: recommendation_zone_starhalfImage } })
-                                  ),
-                                  react_default.a.createElement(
-                                    'li',
-                                    { 'class': 'star-ratings star-rating-empty color-concrete-svg' },
-                                    react_default.a.createElement('span', { 'class': 'icon', dangerouslySetInnerHTML: { __html: recommendation_zone_starImage } })
-                                  ),
-                                  react_default.a.createElement(
-                                    'li',
-                                    { 'class': 'star-ratings' },
-                                    react_default.a.createElement(
-                                      'a',
-                                      { href: 'javascript:void();', 'class': 'rating-count rating-count-underline' },
-                                      '99,999'
-                                    )
-                                  )
-                                )
-                              )
-                            )
-                          )
-                        )
-                      )
-                    ),
-                    react_default.a.createElement(
-                      'li',
-                      { 'class': 'product-card' },
-                      react_default.a.createElement(
-                        'a',
-                        { href: 'javascript:void(0)', 'class': 'product-rec-zone' },
-                        react_default.a.createElement(
-                          'div',
-                          { 'class': 'product-card-recommendation' },
-                          react_default.a.createElement(
-                            'div',
-                            { 'class': 'product-card-thumbnail mrg-S' },
-                            react_default.a.createElement(
-                              'a',
-                              { href: 'javascript:void(0)' },
-                              react_default.a.createElement('img', { src: '/images/design-system/fpo/product-cards/product-card-recommendations-4.jpg', alt: 'product-image' })
-                            )
-                          ),
-                          react_default.a.createElement(
-                            'div',
-                            { 'class': 'product-card-price' },
-                            react_default.a.createElement(
-                              'div',
-                              { 'class': 'product-card-price-value price price-XS mrg-rght-XS' },
-                              '$599.99'
-                            )
-                          ),
-                          react_default.a.createElement(
-                            'div',
-                            { 'class': 'product-card-name std-txt std-txt-S color-nightsky' },
-                            'Lorem Ipsum Dolor Sec Mud Deler LoreM Dol\u2026'
-                          ),
-                          react_default.a.createElement(
-                            'div',
-                            { 'class': 'ratings-and-reviews' },
-                            react_default.a.createElement(
-                              'div',
-                              { 'class': 'ratings-and-reviews-stars mrg-rght-XS' },
-                              react_default.a.createElement(
-                                'div',
-                                { 'class': 'star-preview-col fl-right' },
-                                react_default.a.createElement(
-                                  'ul',
-                                  { 'class': 'star-ratings-S' },
-                                  react_default.a.createElement(
-                                    'li',
-                                    { 'class': 'star-ratings start-ratings-full' },
-                                    react_default.a.createElement('span', { 'class': 'icon ', dangerouslySetInnerHTML: { __html: recommendation_zone_starImage } })
-                                  ),
-                                  react_default.a.createElement(
-                                    'li',
-                                    { 'class': 'star-ratings start-ratings-full' },
-                                    react_default.a.createElement('span', { 'class': 'icon ', dangerouslySetInnerHTML: { __html: recommendation_zone_starImage } })
-                                  ),
-                                  react_default.a.createElement(
-                                    'li',
-                                    { 'class': 'star-ratings start-ratings-full' },
-                                    react_default.a.createElement('span', { 'class': 'icon ', dangerouslySetInnerHTML: { __html: recommendation_zone_starImage } })
-                                  ),
-                                  react_default.a.createElement(
-                                    'li',
-                                    { 'class': 'star-ratings start-ratings-half' },
-                                    react_default.a.createElement('span', { 'class': 'icon', dangerouslySetInnerHTML: { __html: recommendation_zone_starhalfImage } })
-                                  ),
-                                  react_default.a.createElement(
-                                    'li',
-                                    { 'class': 'star-ratings star-rating-empty color-concrete-svg' },
-                                    react_default.a.createElement('span', { 'class': 'icon', dangerouslySetInnerHTML: { __html: recommendation_zone_starImage } })
-                                  ),
-                                  react_default.a.createElement(
-                                    'li',
-                                    { 'class': 'star-ratings' },
-                                    react_default.a.createElement(
-                                      'a',
-                                      { href: 'javascript:void();', 'class': 'rating-count rating-count-underline' },
-                                      '99,999'
-                                    )
-                                  )
-                                )
-                              )
-                            )
-                          )
-                        )
-                      )
-                    ),
-                    react_default.a.createElement(
-                      'li',
-                      { 'class': 'product-card' },
-                      react_default.a.createElement(
-                        'a',
-                        { href: 'javascript:void(0)', 'class': 'product-rec-zone' },
-                        react_default.a.createElement(
-                          'div',
-                          { 'class': 'product-card-recommendation' },
-                          react_default.a.createElement(
-                            'div',
-                            { 'class': 'product-card-thumbnail mrg-S' },
-                            react_default.a.createElement(
-                              'a',
-                              { href: 'javascript:void(0)' },
-                              react_default.a.createElement('img', { src: '/images/design-system/fpo/product-cards/product-card-recommendations-5.jpg', alt: 'product-image' })
-                            )
-                          ),
-                          react_default.a.createElement(
-                            'div',
-                            { 'class': 'product-card-price' },
-                            react_default.a.createElement(
-                              'div',
-                              { 'class': 'product-card-price-value price price-XS mrg-rght-XS' },
-                              '$29.99'
-                            ),
-                            react_default.a.createElement(
-                              'div',
-                              { 'class': 'product-card-note price price-note color-penneyred' },
-                              'sale'
-                            )
-                          ),
-                          react_default.a.createElement(
-                            'div',
-                            { 'class': 'product-card-note price color-slate std-txt std-txt-XS' },
-                            'was $60'
-                          ),
-                          react_default.a.createElement(
-                            'div',
-                            { 'class': 'product-card-name std-txt std-txt-S color-nightsky' },
-                            'Lorem Ipsum Dolor Sec Mud Deler LoreM Dol\u2026'
-                          ),
-                          react_default.a.createElement(
-                            'div',
-                            { 'class': 'ratings-and-reviews' },
-                            react_default.a.createElement(
-                              'div',
-                              { 'class': 'ratings-and-reviews-stars mrg-rght-XS' },
-                              react_default.a.createElement(
-                                'div',
-                                { 'class': 'star-preview-col fl-right' },
-                                react_default.a.createElement(
-                                  'ul',
-                                  { 'class': 'star-ratings-S' },
-                                  react_default.a.createElement(
-                                    'li',
-                                    { 'class': 'star-ratings start-ratings-full' },
-                                    react_default.a.createElement('span', { 'class': 'icon ', dangerouslySetInnerHTML: { __html: recommendation_zone_starImage } })
-                                  ),
-                                  react_default.a.createElement(
-                                    'li',
-                                    { 'class': 'star-ratings start-ratings-full' },
-                                    react_default.a.createElement('span', { 'class': 'icon ', dangerouslySetInnerHTML: { __html: recommendation_zone_starImage } })
-                                  ),
-                                  react_default.a.createElement(
-                                    'li',
-                                    { 'class': 'star-ratings start-ratings-full' },
-                                    react_default.a.createElement('span', { 'class': 'icon ', dangerouslySetInnerHTML: { __html: recommendation_zone_starImage } })
-                                  ),
-                                  react_default.a.createElement(
-                                    'li',
-                                    { 'class': 'star-ratings start-ratings-half' },
-                                    react_default.a.createElement('span', { 'class': 'icon', dangerouslySetInnerHTML: { __html: recommendation_zone_starhalfImage } })
-                                  ),
-                                  react_default.a.createElement(
-                                    'li',
-                                    { 'class': 'star-ratings star-rating-empty color-concrete-svg' },
-                                    react_default.a.createElement('span', { 'class': 'icon', dangerouslySetInnerHTML: { __html: recommendation_zone_starImage } })
-                                  ),
-                                  react_default.a.createElement(
-                                    'li',
-                                    { 'class': 'star-ratings' },
-                                    react_default.a.createElement(
-                                      'a',
-                                      { href: 'javascript:void();', 'class': 'rating-count rating-count-underline' },
-                                      '99,999'
-                                    )
-                                  )
-                                )
-                              )
-                            )
-                          )
-                        )
-                      )
-                    ),
-                    react_default.a.createElement(
-                      'li',
-                      { 'class': 'product-card' },
-                      react_default.a.createElement(
-                        'a',
-                        { href: 'javascript:void(0)', 'class': 'product-rec-zone' },
-                        react_default.a.createElement(
-                          'div',
-                          { 'class': 'product-card-recommendation' },
-                          react_default.a.createElement(
-                            'div',
-                            { 'class': 'product-card-thumbnail mrg-S' },
-                            react_default.a.createElement(
-                              'a',
-                              { href: 'javascript:void(0)' },
-                              react_default.a.createElement('img', { src: '/images/design-system/fpo/product-cards/product-card-recommendations-6.jpg', alt: 'product-image' })
-                            )
-                          ),
-                          react_default.a.createElement(
-                            'div',
-                            { 'class': 'product-card-price' },
-                            react_default.a.createElement(
-                              'div',
-                              { 'class': 'product-card-price-value price price-XS mrg-rght-XS' },
-                              '$99.99'
-                            ),
-                            react_default.a.createElement(
-                              'div',
-                              { 'class': 'product-card-note price price-note color-penneyred' },
-                              'clearance'
-                            )
-                          ),
-                          react_default.a.createElement(
-                            'div',
-                            { 'class': 'product-card-note price color-slate std-txt std-txt-XS' },
-                            'was $299.99'
-                          ),
-                          react_default.a.createElement(
-                            'div',
-                            { 'class': 'product-card-name std-txt std-txt-S color-nightsky' },
-                            'Lorem Ipsum Dolor Sec Mud Deler LoreM Dol\u2026'
-                          ),
-                          react_default.a.createElement(
-                            'div',
-                            { 'class': 'ratings-and-reviews' },
-                            react_default.a.createElement(
-                              'div',
-                              { 'class': 'ratings-and-reviews-stars mrg-rght-XS' },
-                              react_default.a.createElement(
-                                'div',
-                                { 'class': 'star-preview-col fl-right' },
-                                react_default.a.createElement(
-                                  'ul',
-                                  { 'class': 'star-ratings-S' },
-                                  react_default.a.createElement(
-                                    'li',
-                                    { 'class': 'star-ratings start-ratings-full' },
-                                    react_default.a.createElement('span', { 'class': 'icon ', dangerouslySetInnerHTML: { __html: recommendation_zone_starImage } })
-                                  ),
-                                  react_default.a.createElement(
-                                    'li',
-                                    { 'class': 'star-ratings start-ratings-full' },
-                                    react_default.a.createElement('span', { 'class': 'icon ', dangerouslySetInnerHTML: { __html: recommendation_zone_starImage } })
-                                  ),
-                                  react_default.a.createElement(
-                                    'li',
-                                    { 'class': 'star-ratings start-ratings-full' },
-                                    react_default.a.createElement('span', { 'class': 'icon ', dangerouslySetInnerHTML: { __html: recommendation_zone_starImage } })
-                                  ),
-                                  react_default.a.createElement(
-                                    'li',
-                                    { 'class': 'star-ratings start-ratings-half' },
-                                    react_default.a.createElement('span', { 'class': 'icon', dangerouslySetInnerHTML: { __html: recommendation_zone_starhalfImage } })
-                                  ),
-                                  react_default.a.createElement(
-                                    'li',
-                                    { 'class': 'star-ratings star-rating-empty color-concrete-svg' },
-                                    react_default.a.createElement('span', { 'class': 'icon', dangerouslySetInnerHTML: { __html: recommendation_zone_starImage } })
-                                  ),
-                                  react_default.a.createElement(
-                                    'li',
-                                    { 'class': 'star-ratings' },
-                                    react_default.a.createElement(
-                                      'a',
-                                      { href: 'javascript:void();', 'class': 'rating-count rating-count-underline' },
-                                      '99,999'
-                                    )
-                                  )
-                                )
-                              )
-                            )
-                          )
-                        )
-                      )
-                    ),
-                    react_default.a.createElement(
-                      'li',
-                      { 'class': 'product-card' },
-                      react_default.a.createElement(
-                        'a',
-                        { href: 'javascript:void(0)', 'class': 'product-rec-zone' },
-                        react_default.a.createElement(
-                          'div',
-                          { 'class': 'product-card-recommendation' },
-                          react_default.a.createElement(
-                            'div',
-                            { 'class': 'product-card-thumbnail mrg-S' },
-                            react_default.a.createElement(
-                              'a',
-                              { href: 'javascript:void(0)' },
-                              react_default.a.createElement('img', { src: '/images/design-system/fpo/product-cards/product-card-recommendations-7.jpg', alt: 'product-image' })
-                            )
-                          ),
-                          react_default.a.createElement(
-                            'div',
-                            { 'class': 'product-card-price' },
-                            react_default.a.createElement(
-                              'div',
-                              { 'class': 'product-card-price-value price price-XS mrg-rght-XS' },
-                              '$299.99 - $399.99'
-                            ),
-                            react_default.a.createElement(
-                              'div',
-                              { 'class': 'product-card-note price price-note color-penneyred' },
-                              'clearance'
-                            )
-                          ),
-                          react_default.a.createElement(
-                            'div',
-                            { 'class': 'product-card-note price color-slate std-txt std-txt-XS' },
-                            'was $499.99 - $699.99'
-                          ),
-                          react_default.a.createElement(
-                            'div',
-                            { 'class': 'product-card-name std-txt std-txt-S color-nightsky' },
-                            'Lorem Ipsum Dolor Sec Mud Deler LoreM Dol\u2026'
-                          ),
-                          react_default.a.createElement(
-                            'div',
-                            { 'class': 'ratings-and-reviews' },
-                            react_default.a.createElement(
-                              'div',
-                              { 'class': 'ratings-and-reviews-stars mrg-rght-XS' },
-                              react_default.a.createElement(
-                                'div',
-                                { 'class': 'star-preview-col fl-right' },
-                                react_default.a.createElement(
-                                  'ul',
-                                  { 'class': 'star-ratings-S' },
-                                  react_default.a.createElement(
-                                    'li',
-                                    { 'class': 'star-ratings start-ratings-full' },
-                                    react_default.a.createElement('span', { 'class': 'icon ', dangerouslySetInnerHTML: { __html: recommendation_zone_starImage } })
-                                  ),
-                                  react_default.a.createElement(
-                                    'li',
-                                    { 'class': 'star-ratings start-ratings-full' },
-                                    react_default.a.createElement('span', { 'class': 'icon ', dangerouslySetInnerHTML: { __html: recommendation_zone_starImage } })
-                                  ),
-                                  react_default.a.createElement(
-                                    'li',
-                                    { 'class': 'star-ratings start-ratings-full' },
-                                    react_default.a.createElement('span', { 'class': 'icon ', dangerouslySetInnerHTML: { __html: recommendation_zone_starImage } })
-                                  ),
-                                  react_default.a.createElement(
-                                    'li',
-                                    { 'class': 'star-ratings start-ratings-half' },
-                                    react_default.a.createElement('span', { 'class': 'icon', dangerouslySetInnerHTML: { __html: recommendation_zone_starhalfImage } })
-                                  ),
-                                  react_default.a.createElement(
-                                    'li',
-                                    { 'class': 'star-ratings star-rating-empty color-concrete-svg' },
-                                    react_default.a.createElement('span', { 'class': 'icon', dangerouslySetInnerHTML: { __html: recommendation_zone_starImage } })
-                                  ),
-                                  react_default.a.createElement(
-                                    'li',
-                                    { 'class': 'star-ratings' },
-                                    react_default.a.createElement(
-                                      'a',
-                                      { href: 'javascript:void();', 'class': 'rating-count rating-count-underline' },
-                                      '99,999'
-                                    )
-                                  )
-                                )
-                              )
-                            )
-                          )
-                        )
-                      )
-                    ),
-                    react_default.a.createElement(
-                      'li',
-                      { 'class': 'product-card' },
-                      react_default.a.createElement(
-                        'a',
-                        { href: 'javascript:void(0)', 'class': 'product-rec-zone' },
-                        react_default.a.createElement(
-                          'div',
-                          { 'class': 'product-card-recommendation' },
-                          react_default.a.createElement(
-                            'div',
-                            { 'class': 'product-card-thumbnail mrg-S' },
-                            react_default.a.createElement(
-                              'a',
-                              { href: 'javascript:void(0)' },
-                              react_default.a.createElement('img', { src: '/images/design-system/fpo/product-cards/product-card-recommendations-8.jpg', alt: 'product-image' })
-                            )
-                          ),
-                          react_default.a.createElement(
-                            'div',
-                            { 'class': 'product-card-price' },
-                            react_default.a.createElement(
-                              'div',
-                              { 'class': 'product-card-price-value price price-XS mrg-rght-XS' },
-                              '$2,999 - $3,999'
-                            ),
-                            react_default.a.createElement(
-                              'div',
-                              { 'class': 'product-card-note price price-note color-penneyred' },
-                              'package deal'
-                            )
-                          ),
-                          react_default.a.createElement(
-                            'div',
-                            { 'class': 'product-card-note price color-slate std-txt std-txt-XS' },
-                            'was $4,999 - $6,999'
-                          ),
-                          react_default.a.createElement(
-                            'div',
-                            { 'class': 'product-card-name std-txt std-txt-S color-nightsky' },
-                            'Lorem Ipsum Dolor Sec Mud Deler LoreM Dol\u2026'
-                          ),
-                          react_default.a.createElement(
-                            'div',
-                            { 'class': 'ratings-and-reviews' },
-                            react_default.a.createElement(
-                              'div',
-                              { 'class': 'ratings-and-reviews-stars mrg-rght-XS' },
-                              react_default.a.createElement(
-                                'div',
-                                { 'class': 'star-preview-col fl-right' },
-                                react_default.a.createElement(
-                                  'ul',
-                                  { 'class': 'star-ratings-S' },
-                                  react_default.a.createElement(
-                                    'li',
-                                    { 'class': 'star-ratings start-ratings-full' },
-                                    react_default.a.createElement('span', { 'class': 'icon ', dangerouslySetInnerHTML: { __html: recommendation_zone_starImage } })
-                                  ),
-                                  react_default.a.createElement(
-                                    'li',
-                                    { 'class': 'star-ratings start-ratings-full' },
-                                    react_default.a.createElement('span', { 'class': 'icon ', dangerouslySetInnerHTML: { __html: recommendation_zone_starImage } })
-                                  ),
-                                  react_default.a.createElement(
-                                    'li',
-                                    { 'class': 'star-ratings start-ratings-full' },
-                                    react_default.a.createElement('span', { 'class': 'icon ', dangerouslySetInnerHTML: { __html: recommendation_zone_starImage } })
-                                  ),
-                                  react_default.a.createElement(
-                                    'li',
-                                    { 'class': 'star-ratings start-ratings-half' },
-                                    react_default.a.createElement('span', { 'class': 'icon', dangerouslySetInnerHTML: { __html: recommendation_zone_starhalfImage } })
-                                  ),
-                                  react_default.a.createElement(
-                                    'li',
-                                    { 'class': 'star-ratings star-rating-empty color-concrete-svg' },
-                                    react_default.a.createElement('span', { 'class': 'icon', dangerouslySetInnerHTML: { __html: recommendation_zone_starImage } })
-                                  ),
-                                  react_default.a.createElement(
-                                    'li',
-                                    { 'class': 'star-ratings' },
-                                    react_default.a.createElement(
-                                      'a',
-                                      { href: 'javascript:void();', 'class': 'rating-count rating-count-underline' },
-                                      '99,999'
-                                    )
-                                  )
-                                )
-                              )
-                            )
-                          )
-                        )
-                      )
-                    )
+                    { style: listStyle, className: 'listStyleClass' },
+                    this.productCardRecommendations({
+                      name: "Lorem Ipsum Dolor Sec Mud Deler LoreM Dol…",
+                      thumb: '/images/design-system/fpo/product-cards/product-card-recommendations-1.jpg',
+                      promo: 'SAMSUNG BUY 4 SAVE 10%',
+                      price: '$2,499 - $3,999',
+                      priceHighlight: true,
+                      priceRestriction: '',
+                      priceRegular: 'reg. $2,999 - $5,999'
+                    }),
+                    this.productCardRecommendations({
+                      name: "Lorem Ipsum Dolor Sec Mud Deler LoreM Dol…",
+                      thumb: '/images/design-system/fpo/product-cards/product-card-recommendations-2.jpg',
+                      promo: '',
+                      price: '$59.99',
+                      priceHighlight: true,
+                      priceRestriction: 'after coupon',
+                      priceRegular: 'reg. $99.99'
+                    }),
+                    this.productCardRecommendations({
+                      name: "Lorem Ipsum Dolor Sec Mud Deler LoreM Dol…",
+                      thumb: '/images/design-system/fpo/product-cards/product-card-recommendations-3.jpg',
+                      promo: '',
+                      price: '$299.99',
+                      priceHighlight: true,
+                      priceRestriction: 'after coupon',
+                      priceRegular: 'reg. $99.99'
+                    }),
+                    this.productCardRecommendations({
+                      name: "Lorem Ipsum Dolor Sec Mud Deler LoreM Dol…",
+                      thumb: '/images/design-system/fpo/product-cards/product-card-recommendations-4.jpg',
+                      promo: '',
+                      price: '$599.99',
+                      priceHighlight: false,
+                      priceRestriction: '',
+                      priceRegular: ''
+                    }),
+                    this.productCardRecommendations({
+                      name: "Lorem Ipsum Dolor Sec Mud Deler LoreM Dol…",
+                      thumb: '/images/design-system/fpo/product-cards/product-card-recommendations-5.jpg',
+                      promo: '',
+                      price: '$29.99',
+                      priceHighlight: false,
+                      priceRestriction: 'sale',
+                      priceRegular: 'was $60'
+                    }),
+                    this.productCardRecommendations({
+                      name: "Lorem Ipsum Dolor Sec Mud Deler LoreM Dol…",
+                      thumb: '/images/design-system/fpo/product-cards/product-card-recommendations-6.jpg',
+                      promo: '',
+                      price: '$99.99',
+                      priceHighlight: false,
+                      priceRestriction: 'clearance',
+                      priceRegular: 'was $299.99'
+                    }),
+                    this.productCardRecommendations({
+                      name: "Lorem Ipsum Dolor Sec Mud Deler LoreM Dol…",
+                      thumb: '/images/design-system/fpo/product-cards/product-card-recommendations-7.jpg',
+                      promo: '',
+                      price: '$299.99 - $399.99',
+                      priceHighlight: false,
+                      priceRestriction: 'clearance',
+                      priceRegular: 'was $499.99 - $699.99'
+                    }),
+                    this.productCardRecommendations({
+                      name: "Lorem Ipsum Dolor Sec Mud Deler LoreM Dol…",
+                      thumb: '/images/design-system/fpo/product-cards/product-card-recommendations-8.jpg',
+                      promo: '',
+                      price: '$2,999 - $3,999',
+                      priceHighlight: false,
+                      priceRestriction: 'package deal',
+                      priceRegular: 'was $4,999 - $6,999'
+                    }),
+                    this.productCardRecommendations({
+                      name: "Lorem Ipsum Dolor Sec Mud Deler LoreM Dol…",
+                      thumb: '/images/design-system/fpo/product-cards/product-card-recommendations-1.jpg',
+                      promo: 'SAMSUNG BUY 4 SAVE 10%',
+                      price: '$2,499 - $3,999',
+                      priceHighlight: true,
+                      priceRestriction: '',
+                      priceRegular: 'reg. $2,999 - $5,999'
+                    }),
+                    this.productCardRecommendations({
+                      name: "Lorem Ipsum Dolor Sec Mud Deler LoreM Dol…",
+                      thumb: '/images/design-system/fpo/product-cards/product-card-recommendations-2.jpg',
+                      promo: '',
+                      price: '$59.99',
+                      priceHighlight: true,
+                      priceRestriction: 'after coupon',
+                      priceRegular: 'reg. $99.99'
+                    }),
+                    this.productCardRecommendations({
+                      name: "Lorem Ipsum Dolor Sec Mud Deler LoreM Dol…",
+                      thumb: '/images/design-system/fpo/product-cards/product-card-recommendations-3.jpg',
+                      promo: '',
+                      price: '$299.99',
+                      priceHighlight: true,
+                      priceRestriction: 'after coupon',
+                      priceRegular: 'reg. $99.99'
+                    }),
+                    this.productCardRecommendations({
+                      name: "Lorem Ipsum Dolor Sec Mud Deler LoreM Dol…",
+                      thumb: '/images/design-system/fpo/product-cards/product-card-recommendations-4.jpg',
+                      promo: '',
+                      price: '$599.99',
+                      priceHighlight: false,
+                      priceRestriction: '',
+                      priceRegular: ''
+                    }),
+                    this.productCardRecommendations({
+                      name: "Lorem Ipsum Dolor Sec Mud Deler LoreM Dol…",
+                      thumb: '/images/design-system/fpo/product-cards/product-card-recommendations-5.jpg',
+                      promo: '',
+                      price: '$29.99',
+                      priceHighlight: false,
+                      priceRestriction: 'sale',
+                      priceRegular: 'was $60'
+                    }),
+                    this.productCardRecommendations({
+                      name: "Lorem Ipsum Dolor Sec Mud Deler LoreM Dol…",
+                      thumb: '/images/design-system/fpo/product-cards/product-card-recommendations-6.jpg',
+                      promo: '',
+                      price: '$99.99',
+                      priceHighlight: false,
+                      priceRestriction: 'clearance',
+                      priceRegular: 'was $299.99'
+                    }),
+                    this.productCardRecommendations({
+                      name: "Lorem Ipsum Dolor Sec Mud Deler LoreM Dol…",
+                      thumb: '/images/design-system/fpo/product-cards/product-card-recommendations-7.jpg',
+                      promo: '',
+                      price: '$299.99 - $399.99',
+                      priceHighlight: false,
+                      priceRestriction: 'clearance',
+                      priceRegular: 'was $499.99 - $699.99'
+                    }),
+                    this.productCardRecommendations({
+                      name: "Lorem Ipsum Dolor Sec Mud Deler LoreM Dol…",
+                      thumb: '/images/design-system/fpo/product-cards/product-card-recommendations-8.jpg',
+                      promo: '',
+                      price: '$2,999 - $3,999',
+                      priceHighlight: false,
+                      priceRestriction: 'package deal',
+                      priceRegular: 'was $4,999 - $6,999'
+                    })
                   )
                 ),
                 react_default.a.createElement(
                   'div',
-                  { 'class': 'rec-zone-carousel show-for-small-only show-for-medium-only' },
+                  { className: 'rec-zone-carousel show-for-small-only show-for-medium-only' },
                   react_default.a.createElement(
                     'div',
                     null,

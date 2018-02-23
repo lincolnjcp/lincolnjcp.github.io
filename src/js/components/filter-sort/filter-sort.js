@@ -610,7 +610,7 @@ class FilterSort extends Component {
               <div class="fl-right dropdown-menu-block">
                 <a class="dropdown-button title-S">Sort by: <span class="sortby">Best Match</span><span class="arrow"></span></a>
                 <div class="dropdown-menu">
-                  <div class="tooltip tooltip-top-right">
+                  <div class="tooltip tooltip-top-right filter-tooltip">
                     <span>
                       <ul class="dropdown-sort">
                         <li class="dropdown-list">

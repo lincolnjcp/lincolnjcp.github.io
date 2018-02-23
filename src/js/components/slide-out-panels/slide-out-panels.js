@@ -42,7 +42,7 @@ class SlideOutPanels extends Component {
   <div className="side-panel slide-panel-from-right" id="rightPanel">
     <div className="side-panel-container">
       <header className="side-panel-header">
-        <h3 className="title title-L">Panel</h3>
+        <h3 className="title title-L color-white">Panel</h3>
         <a href="javascript:void(0);" className="side-panel-close">
         <div className="change-my-store-icon-close icon color-white-svg" dangerouslySetInnerHTML={{__html: closeImage}} />
         </a> </header>
@@ -55,7 +55,7 @@ class SlideOutPanels extends Component {
   <div className="side-panel slide-panel-from-left" id="leftPanel">
     <div className="side-panel-container">
       <header className="side-panel-header">
-        <h3 className="title title-L ">Panel</h3>
+        <h3 className="title title-L color-white">Panel</h3>
         <a href="javascript:void(0);" className="side-panel-close">
         <div className="change-my-store-icon-close icon color-white-svg" dangerouslySetInnerHTML={{__html: closeImage}} />
         </a> </header>

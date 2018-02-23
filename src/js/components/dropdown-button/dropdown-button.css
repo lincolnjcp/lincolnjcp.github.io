@@ -89,11 +89,19 @@
         width: 100%;
       }
       &.filter-tooltip{
-        left: 32px;
-        top: -5px;
+        left: -11px;
+        top: 35px;
         padding: 8px 0;
+        @media (--viewport-md-only) {
+          top: 0;
+          left: -25px;
+        }
+        @media (--viewport-sm-only) {
+          top: 0;
+          left: -40px;
+        }
       }
-      }
+    }
 
     & .dropdown-search-type {
       position: relative;

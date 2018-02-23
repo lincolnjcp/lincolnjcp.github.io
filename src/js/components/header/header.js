@@ -463,6 +463,7 @@ class Header extends Component {
       $('.main-menu-bar-primary').removeAttr('style');
       $('.main-menu').removeClass('main-menu-search-open');
     });
+    
 
     //Preview top nav without design system wrapper
     $("#HideDesignSystem").unbind('click').on('click', function (event) {
@@ -524,7 +525,7 @@ class Header extends Component {
                   <form action="http://www.jcpenney.com/s/search">
                     <input type="text" placeholder="Search Products" size="20" required aria-required="false" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="off" id="menuPrimarySearch" class="input-text" />
                     <button class="search-close-icon" type="reset"></button>
-                    <button type="submit" class="btn-search">
+                    <button type="button" class="btn-search">
                       <div class="main-menu-primary-search-icon color-lipstick-svg icon" dangerouslySetInnerHTML={{ __html: searchImage }} />
                     </button>
                   </form>
