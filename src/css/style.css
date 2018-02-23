@@ -33,7 +33,7 @@ Base Styles
 @import "../js/components/tabs/tabs";
 @import "../js/components/pagination/pagination";
 @import "../js/components/swatches/swatches";
-@import "../js/components/modal/modal";
+@import "../js/components/modals/modals";
 @import "../js/components/selectors/selectors";
 @import "../js/components/lists/lists";
 @import "../js/components/like-dislike/like-dislike";

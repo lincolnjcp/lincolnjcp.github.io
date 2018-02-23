@@ -169,6 +169,7 @@ class App extends React.Component {
                             <Route exact path="/components/scrollbar" render={() => <DesignSystemPage componentName="Scrollbar" />} />
                             <Route exact path="/components/wells" render={() => <DesignSystemPage componentName="Wells" />} />
                             <Route exact path="/components/progressbar" render={() => <DesignSystemPage componentName="ProgressBar" />} />
+                            <Route exact path="/components/modals" render={() => <DesignSystemPage componentName="Modals" />} />
                             <Route exact path="/components/visual-navigation" render={() => <DesignSystemPage componentName="VisualNavigation" />} />
                             <Route exact path="/components/modal" render={() => <DesignSystemPage componentName="Modal" />} />
                             <Route exact path="/components/countdown-timers" render={() => <DesignSystemPage componentName="CountdownTimers" />} />

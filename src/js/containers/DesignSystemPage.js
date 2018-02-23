@@ -16,6 +16,7 @@ import StarRatings from '../components/star-ratings';
 import Scrollbar from '../components/scrollbar';
 import Wells from '../components/wells';
 import ProgressBar from '../components/progressbar';
+import Modals from '../components/modals';
 import Pricing from '../components/pricing';
 import VisualNavigation from '../components/visual-navigation';
 import Modal from '../components/modal';
@@ -83,6 +84,7 @@ class DesignSystemPage extends Component {
    RecommendationZone: {componentElement: RecommendationZone, componentDisplayName: "Recommendation Zone", componentSubNav: ['RecommendationZone']},
    Pricing: {componentElement: Pricing, componentDisplayName: "Pricing", componentSubNav: ['Pricing']},
    ProgressBar: {componentElement: ProgressBar, componentDisplayName: "ProgressBar", componentSubNav: ['ProgressBar']},
+   Modals: {componentElement: Modals, componentDisplayName: "Modals", componentSubNav: ['Modals']},
    Pdp: {componentElement: Pdp, componentDisplayName: "Pdp", componentSubNav: ['Pdp']}
   }
 

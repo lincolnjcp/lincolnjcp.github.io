@@ -133,6 +133,11 @@ const rootNav = [
                 content: 'Progress Bar',
             },
             {
+                to: '/components/modals',
+                activeClassName: 'active',
+                content: 'Modal',
+            },
+            {
                 to: '/components/selectors',
                 activeClassName: 'active',
                 content: 'Selectors',
@@ -251,11 +256,6 @@ const rootNav = [
                 to: '/page-modules/like-dislike',
                 activeClassName: 'active',
                 content: 'Like/Dislike Messages',
-            },
-            {
-                to: '/page-modules/modal',
-                activeClassName: 'active',
-                content: 'Modals',
             },
             {
                 to: '/page-modules/slide-out-panels',

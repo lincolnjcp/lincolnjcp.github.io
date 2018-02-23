@@ -1,0 +1,142 @@
+/*******************************************
+/* Modal
+*******************************************/
+
+.modal{
+    border-radius: var(--border-radius-M);
+    background-color: #fff;
+    text-align: center;
+    border: 1px solid var(--color-concrete);
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 48px;
+    position: relative;
+    @include elevation-2;
+  
+    @media (--viewport-sm) {
+      width: 360px;
+      margin: 0 8px;
+      padding: 36px 16px 16px;
+    }
+    
+    @media (--viewport-md) {
+      padding: 36px 24px 24px;
+    }
+  
+    & .modal-close{
+      position: absolute;
+      top: 8px;
+      display: block;
+      right: 8px;
+      cursor: pointer;
+      background: url("var(--path-images)global/icons/nav/close.svg") no-repeat;
+      width: 24px;
+      height: 24px;
+      background-size: contain;
+    }
+  
+    & .icon {
+      & svg {
+        width: 50px;
+        height: 50px;
+      }
+    }
+    &.modal-S{
+      width: 360px;
+      padding: 32px 16px;
+    }
+    &.modal-M{
+      max-width: 540px;
+      @media (--viewport-lg) {
+        max-width: 540px;
+      }
+      padding: 36px 14px 0;
+    }
+    &.modal-L{
+      @media (--viewport-lg) {
+        width: 600px;
+      }
+      padding: 40px 24px 24px;
+    }
+   
+    &.modal{
+      &.form-modal{
+        & .information-sendcopy{
+          color:var(--color-slate1);
+        }
+        & .input-text{
+          padding: 15px 30px 13px 20px;
+          height: 48px;
+          width: 100%;
+          margin-bottom: 6px;
+        }
+        & .text-area{
+          height: 80px;
+          padding: 15px 30px 13px 20px;
+          width: 100%;
+        }
+        & .form-save{
+          padding: 13px;
+          color: white;
+          font-size: 18px;
+          float: right;
+        }
+        & .checkbox input+span{
+          padding-left: 26px;
+        }
+        & ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+          color: var(--color-slate);
+          font-style: normal;
+          font-size: 16px;
+          font-family: var(--font-body);
+        }
+        & ::-moz-placeholder { /* Firefox 19+ */
+          color: var(--color-slate);
+          font-style: normal;
+          font-size: 16px;
+          font-family: var(--font-body);
+        }
+        & :-ms-input-placeholder { /* IE 10+ */
+          color: var(--color-slate);
+          font-style: normal;
+          font-size: 16px;
+          font-family: var(--font-body);
+        }
+        & :-moz-placeholder { /* Firefox 18- */
+          color: var(--color-slate);
+          font-style: normal;
+          font-family: var(--font-body);
+          font-size: 16px;
+        }
+      }
+    }
+    &.scroll-container{
+          max-width: 540px;
+          padding: 36px 14px 0;
+        & .modal-close{
+          width: 16px;
+          height: 16px;
+          right: -6px;
+          top: 10px;
+        }
+    }
+  }
+  
+  .modal-overlay {
+    background-color: rgba(0,0,0,0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+  
+    /* use this breakpoint only in lincoln*/
+    @media (--viewport-lg) {
+      left: 250px;
+    }
+    @media (--viewport-xl) {
+      left: 250px;
+    }
+  }
