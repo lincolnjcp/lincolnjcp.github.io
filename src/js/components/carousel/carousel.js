@@ -306,27 +306,30 @@ class Carousel extends Component {
 
               {/* Main carousel */}
               <div className="carousel-nav">
-                <Slider ref="navSlider" {...pdpPrimaryCarouselNavSettings}>
-                  {PrimaryImgUrls.map((url, index) => {
-                    return (
-                      <div
-                        onClick={() => {
-                          this.setState({
-                            currentSlideIndex: index,
-                            selectedImage: url,
-                          });
-                        }}
-                      >
-                        <CarouselNavImage
-                          imgSrc={url}
-                          navClass="carousel-dot-image"
-                          index={index}
-                          selectedIndex={this.state.currentSlideIndex}
-                        />
-                      </div>
-                    );
-                  })}
-                </Slider>
+              {
+                PrimaryImgUrls.length && (<Slider ref="navSlider" {...pdpPrimaryCarouselNavSettings}>
+                {PrimaryImgUrls.map((url, index) => {
+                  return (
+                    <div
+                      onClick={() => {
+                        this.setState({
+                          currentSlideIndex: index,
+                          selectedImage: url,
+                        });
+                      }}
+                    >
+                      <CarouselNavImage
+                        imgSrc={url}
+                        navClass="carousel-dot-image"
+                        index={index}
+                        selectedIndex={this.state.currentSlideIndex}
+                      />
+                    </div>
+                  );
+                })}
+              </Slider>)
+              }
+                
               </div>
             </div>
 

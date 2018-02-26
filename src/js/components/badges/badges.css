@@ -5,7 +5,6 @@
 
 .flag {
     text-align: center;
-    line-height: 14px;
     padding: 4px 8px;
     display: inline-block;
     font-family: var(--font-headline);
@@ -14,6 +13,7 @@
     line-height: 12px; 
     /* @include elevation; */
     min-width: 60px;
+    font-weight: 500;
     &.flag-urgency {
         background-color: rgba(204, 0, 0, 0.85);
         color: var(--color-white);

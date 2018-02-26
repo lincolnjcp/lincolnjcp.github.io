@@ -74,9 +74,6 @@
   font-weight: 600;
   margin-left: 4px;
 }
-.flag {
-  opacity: .85;
-}
 @media (--viewport-md) {
   .coupon-block {
     position: relative;

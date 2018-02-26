@@ -64,7 +64,7 @@
 /*  Greys */
 
 .color-nightsky{
-  color: var(--color-nightsky);
+  color: var(--color-nightsky) !important;
 }
 
   .color-nightsky-bg{

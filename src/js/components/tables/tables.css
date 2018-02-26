@@ -172,11 +172,11 @@ table {
       position:relative;
 
 & .current-product{
-    margin: 0 -12px;
     text-align: center;
     background: var(--color-lightgrey);
     position: absolute;
     top: 0;
+    left: 0;
     width: 100%;
     padding: 5px;
     color: var(--color-slate1);

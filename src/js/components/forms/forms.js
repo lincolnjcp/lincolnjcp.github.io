@@ -13,26 +13,12 @@ class Forms extends Component {
 
     componentDidMount() {
 
-        function cc_format(value) {
-            var v = value.replace(/\s+/g, '').replace(/[^0-9]/gi, '')
-            var matches = v.match(/\d{4,16}/g);
-            var match = matches && matches[0] || ''
-            var parts = []
-            for (i = 0, len = match.length; i < len; i += 4) {
-                parts.push(match.substring(i, i + 4))
-            }
-            if (parts.length) {
-                return parts.join(' ')
-            } else {
-                return value
-            }
-        }
+        
         Array.from(document.getElementsByClassName('show-pwd')).map(function (el) {
             el.onclick = onShowPwd;
         });
 
         function onShowPwd(evt) {
-
             var textid = evt.target.getAttribute('data-textid');
             var passwordElement = document.getElementById(textid);
             var currentType = passwordElement.getAttribute('type');
@@ -40,11 +26,25 @@ class Forms extends Component {
             passwordElement.setAttribute('type', newType);
             evt.target.innerHTML = (newType == 'password') ? 'show' : 'hide';
         }
-        onload = function () {
-            document.getElementById('creditcard').oninput = function () {
-                this.value = cc_format(this.value)
-            }
-        }
+
+        $(function () {
+            $('#creditcard').on('keypress change', function () {
+                $(this).val(function (index, value) {
+                    return value.replace(/[^0-9]/g, "").replace(/\W/gi, '').replace(/(.{4})/g, '$1 ');
+                });
+            });
+
+            $("#creditcard").focus(function() {
+                $('.credit-card-icon').show('fast');       
+            });
+              
+            
+            $('#creditcard').blur(function(){
+              if( !$(this).val() ) {
+                    $('.credit-card-icon').hide('fast');
+              }
+            });
+        });
 
         $(function () {
             function selector(event) {
@@ -64,7 +64,7 @@ class Forms extends Component {
 
 
         $(function () {
-            $("#phone-number").keypress(function (e) {
+            $(".phone-number").keypress(function (e) {
                 if (e.which != 8 && e.which != 0 && (e.which < 48 || e.which > 57)) {
                     return false;
                 }
@@ -76,6 +76,20 @@ class Forms extends Component {
                     $(this).val(curval + "-");
                 }
                 $(this).attr('maxlength', '12');
+            });
+
+            $(".birthday").keypress(function (e) {
+                if (e.which != 8 && e.which != 0 && (e.which < 48 || e.which > 57)) {
+                    return false;
+                }
+                var curchr = this.value.length;
+                var curval = $(this).val();
+                if (curchr == 2) {
+                    $(this).val(curval + "/");
+                } else if (curchr == 5) {
+                    $(this).val(curval + "/");
+                }
+                $(this).attr('maxlength', '10');
             });
         });
 
@@ -249,7 +263,7 @@ class Forms extends Component {
                                     <div class="sm12 md4 columns">
                                         <div class="input-group">
                                             <div class="form-float-label">
-                                                <input class="form-control input-text" id="phone-number" maxLength="14" type="text" placeholder="( ___ ) ___-____" />
+                                                <input class="form-control input-text phone-number" id="phone-number" maxLength="14" type="text" placeholder="( ___ ) ___-____" />
                                                 <label htmlFor="Phone">Phone Number</label>
                                             </div>
                                         </div>
@@ -265,7 +279,7 @@ class Forms extends Component {
                                     <div class="sm12 md4 columns">
                                         <div class="input-group credit-card-form">
                                             <div class="form-float-label">
-                                                <input id="creditcard" type="tel" maxLength="16" name="ccnumber" placeholder=" " class="form-control creditcard-text input-text masked" />
+                                                <input id="creditcard" type="text" maxLength="25" name="ccnumber" placeholder=" " class="form-control creditcard-text input-text masked"/>
                                                 <label class="creditcard" htmlFor="creditcard">Card Number</label>
                                                 <span class="icon credit-card-icon" dangerouslySetInnerHTML={{ __html: cardneutralImage }} />
                                             </div>
@@ -285,7 +299,7 @@ class Forms extends Component {
                                                 <input class="form-control input-text" id="password" maxLength="16" type="password" placeholder="••••••••••" />
                                                 <label htmlFor="password">Password</label>
                                             </div>
-                                            <a href="javascript:void(0);" data-textid="password" class="show-pwd">show</a>
+                                            <a href="javascript:void(0);" data-textid="password" class="show-pwd title-S">show</a>
                                         </div>
                                     </div>
                                     <div class="sm12 md8 columns">
@@ -419,9 +433,9 @@ class Forms extends Component {
                             <div class="sm12 columns input-form">
                                 <div class="row">
                                     <div class="sm12 md4 columns">
-                                        <div class="position-rel">
+                                        <div class="input-group position-rel">
                                             <div class="form-float-label">
-                                                <input type="text" id="birthday" name="date" placeholder="mm/dd/yyyy" required class="input-text input-birthday placeholder-text" />
+                                                <input type="text" id="birthday" name="date" placeholder="mm/dd/yyyy" class="form-control input-text input-birthday" />
                                                 <label htmlFor="birthday">Birthday (Optional)</label>
                                             </div>
                                             <span class="icon tooltip-icon" dangerouslySetInnerHTML={{ __html: tooltipIcon }} />
@@ -438,7 +452,7 @@ class Forms extends Component {
                                     <div class="sm12 md4 columns">
                                         <div class="input-group">
                                             <div class="form-float-label">
-                                                <input class="form-control email-text input-text disabled" id="disemail" type="text" value=" " disabled />
+                                                <input class="form-control email-text input-text disabled" id="disemail" type="text" value="jesse@email.com" placeholder="jesse@email.com" disabled />
                                                 <label htmlFor="disemail" class="disabled-label">Email</label>
                                             </div>
                                         </div>
@@ -490,7 +504,7 @@ class Forms extends Component {
                                         </div>
                                     </div>
                                     <div class="sm12 columns">
-                                        <span class="error-message">Please enter a valid email address</span>
+                                        <span class="error-message title-S">Please enter a valid email address</span>
                                         <br /><br /><br />
                                         <p class="max-width-text">Vestibulum id ligula porta felis euismod semper. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.  <br /><br /> </p>
                                         <div class="sm12 md5 columns row">
@@ -503,9 +517,9 @@ class Forms extends Component {
                                                 <br />
                                             </div>
                                             <div class="form-float-label password-form">
-                                                <input class="form-control input-text" id="password" maxLength="16" type="password" placeholder="Password" />
+                                                <input class="form-control input-text" id="password2" maxLength="16" type="password" placeholder="Password" />
                                                 <label htmlFor="password">Password</label>
-                                                <a href="javascript:void(0);" class="show-pwd">show</a>
+                                                <a href="javascript:void(0);" data-textid="password2" class="show-pwd title-S">show</a>
                                             </div>
                                         </div>
                                     </div>
@@ -532,9 +546,12 @@ class Forms extends Component {
                             </div>
                         </div>
                         <div class="form-group column">
-                            <div class="form-float-label">
-                                <input class="form-control input-text" id="date" type="text" placeholder="mm/dd/yyyy" />
-                                <label htmlFor="date">mm/dd/yyyy</label>
+                            <div class="position-rel">
+                                <div class="form-float-label">
+                                    <input type="text" id="birthday" name="date" placeholder="mm/dd/yyyy" class="form-control input-text input-birthday birthday" />
+                                    <label htmlFor="birthday">Birthday (Optional)</label>
+                                </div>
+                                <span class="icon tooltip-icon" dangerouslySetInnerHTML={{ __html: tooltipIcon }} />
                             </div>
                         </div>
                         <div class="form-group md6 sm6 column row padding-right-zero">
@@ -565,12 +582,12 @@ class Forms extends Component {
                         </div>
                         <div class="form-group column">
                             <div class="form-float-label">
-                                <input class="form-control input-text" id="phonenumber" type="text" maxLength="14" placeholder="Phone Number" />
+                                <input class="form-control input-text phone-number" id="phonenumber" type="text" maxLength="14" placeholder="Phone Number" />
                                 <label htmlFor="phonenumber">Phone Number</label>
                             </div>
                         </div>
                         <div class="form-group column">
-                            <label class="checkbox mrg-M">
+                            <label class="checkbox checkbox-M mrg-M">
                                 <input type="checkbox" /> <span>Set as default address</span>
                             </label>
                         </div>

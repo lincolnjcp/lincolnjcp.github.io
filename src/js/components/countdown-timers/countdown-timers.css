@@ -13,14 +13,14 @@
 .timer {
     font-family: var(--font-headline);
     background-color: #000;
-    color: var(--color-penneyred);
+    color: #ff0404;
     width: 100%;
     margin-bottom: 15px;
 }
 .timer-inner {
     display: flex;
     justify-content: center;
-    max-width: 580px;
+    max-width: 608px;
     margin:0 auto;
 }
 
@@ -204,11 +204,24 @@
 
   .timer-next-number {
     transform: rotateX(90deg) translateZ(var(--cube-z-perspective-next-s));
+    @media (--viewport-sm-only) {
+        & span {
+            left: 0 !important;
+            top: 1.5px !important;
+        }
+    }
   }
 
   .timer-prev-number, .timer-next-number {
     font-size: 20px;
     line-height: 27px;
+    @media (--viewport-sm-only) {
+        & span {
+            position: relative;
+            top: 1px;
+            left: 0.5px;
+        }
+    }
   }
 }
 

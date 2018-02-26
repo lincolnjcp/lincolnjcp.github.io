@@ -114,20 +114,18 @@
     margin-bottom: 30px;
 }
 
-.slick-dots
-{
+.slick-dots {
     position: absolute;
     bottom: -15px;
-
     display: block;
-
     width: 100%;
     padding: 0;
     margin: 0;
-
     list-style: none;
-
-    text-align: center;
+	text-align: center;
+	@media (--viewport-sm-only) {
+		bottom: -24px;
+	}
 }
 .slick-dots li
 {
@@ -160,10 +158,25 @@
     color: transparent;
     border: 0;
     outline: none;
-    padding: 0;
-
-
+	padding: 0;
+	
 }
+.slick-dots li:last-child button {
+	width: 0;
+	height: 0;
+	border-top: 6px solid transparent;
+	border-left: 7px solid var(--color-concrete);
+	border-bottom: 6px solid transparent;
+	background: none;
+}
+
+.slick-dots li:last-child.slick-active button{
+	border-top: 6px solid transparent;
+	border-left: 7px solid var(--color-nightsky);
+	border-bottom: 6px solid transparent;
+	background: none;
+}
+
 .slick-dots li.slick-active button {
     	background-color: var(--color-nightsky);
  }
@@ -184,7 +197,7 @@
 	position: relative;
 	& .flag {
 		position: absolute;
-		top: 13px;
+		top: 8px;
 		left: -7px;
 	}
 }
@@ -193,13 +206,38 @@
 	visibility: hidden;
 	pointer-events: none;
 }
-
+.slick-arrow.slick-next {
+	@media (--viewport-sm-only) {
+		display: none !important;
+	}
+}
 .carousel-main-img {
 	
 	width: 100%;
 	max-width: 500px;
 }
-
+@media (--viewport-md-only) {
+	.carousel-container-horizontal {
+		max-width: 100%;
+		& .carousel-main-img {
+			max-width: 100%;	
+			& .slick-slide {
+				max-width: 100%;
+			}
+		}
+	}
+}
+@media (--viewport-sm-only) {
+	.carousel-container-horizontal {
+		max-width: 100%;
+		& .carousel-main-img {
+			max-width: 100%;	
+			& .slick-slide {
+				max-width: 100%;
+			}
+		}
+	}
+}
 .carousel-container-horizontal {
 	max-width: 320px;
 
@@ -243,8 +281,8 @@
 				top:0px;
 				left:-1px;
 				& svg {
-					width:22px;
-					height:22px;
+					width:16px;
+					height:16px;
 				}
 			}
 
@@ -291,8 +329,11 @@
 
 		& .slick-list {
 			width: 80px;
-			height: 85px;
-			overflow: hidden;
+			overflow: auto;
+			& .slide-inner {
+				height: 80px;
+				width: 80px;
+			}
 		}
 
 		& .slick-arrow {
@@ -310,16 +351,16 @@
 				width:24px;
 				height:24px;
 				position: absolute;
-				top:1px;
+				top:4px;
 				left:-1px;
 				& svg {
-					width:22px;
-					height:22px;
+					width:16px;
+					height:16px;
 				}
 			}
 
 			&.slick-prev .icon {
-				top:-1px;
+				top: 2px;
 			}
 		}
 

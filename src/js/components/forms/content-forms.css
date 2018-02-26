@@ -4,9 +4,9 @@
 .input-form {
   position: relative;
   & input::-webkit-input-placeholder {
-      font-size: 16px;
+      font-size: 14px;
       font-style: normal;
-      color: var(--color-nightsky);
+      color:red;
   }
 }
 
@@ -15,9 +15,9 @@
     display: inline-block;
     width: 100%;
     & .form-control:placeholder-shown:not(:focus) + * {
-      font-size: 16px;
+      font-size: 14px;
       opacity: 1;
-      top: 1em;
+      top: 1.2em;
       color: var(--color-placeholder-grey);
       caret-color: var(--color-placeholder-grey);
       &.disabled-label {
@@ -43,36 +43,13 @@
     display: inline-block;
     border-radius: var(--border-radius-M);
     font-size: 14px;
-    color: var(--color-slate);
-    caret-color: var(--color-slate);
+    color: var(--color-nightsky);
+    caret-color: var(--color-nightsky);
     -webkit-appearance: none;
     &:focus {
       border: 1px solid var(--color-shadow);
       outline: 0;
     }
-  }
-
-  & #signup::placeholder { /* WebKit browsers */
-    color: var(--color-nightsky) !important;
-  }
-  & #signup:focus::placeholder { /* WebKit browsers */
-    color: var(--color-nightsky) !important;
-  }
-  & .placeholder-text::-webkit-input-placeholder { /* WebKit browsers */
-    color: var(--color-shadow);
-  }
- 
-  & .input-text:-ms-input-placeholder { /* Internet Explorer 10+ */
-    color: transparent;
-  }
-  & .input-text:focus::-webkit-input-placeholder { /* WebKit browsers */
-    color: var(--color-slate);
-  }
-  & .input-text:focus::-moz-placeholder { /* Mozilla Firefox 19+ */
-    color: var(--color-slate);
-  }
-  & .input-text:focus:-ms-input-placeholder { /* Internet Explorer 10+ */
-    color: var(--color-slate);
   }
   
   & .search-icon, & .tooltip-icon {
@@ -126,10 +103,6 @@
   }
 }
 
-input[type="text"]::-webkit-input-placeholder {
-  color: var(--color-slate) !important;
-}
-
 .input-form.error {
   & div.form-float-label {
     & input {
@@ -178,11 +151,6 @@ input[type="text"]::-webkit-input-placeholder {
     height: 48px;
     line-height: 48px;
     border-radius: var(--border-radius-M);
-  }
-  & input::-webkit-input-placeholder {
-    font-size: 16px;
-    font-style: normal;
-    color: var(--color-slate);
   }
 }
 
@@ -280,22 +248,6 @@ input[type="text"]::-webkit-input-placeholder {
     right: -.2em;
     z-index: -1;
   }
-  & .form-control {
-    &::-webkit-input-placeholder {
-      opacity: 1;
-      -webkit-transition: all .2s;
-      transition: all 0.2s;
-    }
-    &:placeholder-shown:not(:focus) {
-      &::-webkit-input-placeholder {
-        opacity: 0;
-      }
-      & + * {
-        opacity: .5;
-        top: 0.3em;
-      }
-    }
-  }
 }
 
 .input-form-store-locator {
@@ -339,11 +291,6 @@ input[type="text"]::-webkit-input-placeholder {
     &:focus {
       border: 1px solid var(--color-nightsky);
     }
-    &::placeholder {
-      color: var(--color-nightsky);
-      font-style: normal;
-      opacity: 1;
-    }
   }
 
   & .search-icon {
@@ -382,15 +329,6 @@ input[type="text"]::-webkit-input-placeholder {
   }
 }
 
-.input-birthday:focus::-webkit-input-placeholder {
-  color: transparent;
-}
-
-.input-birthday:focus::-webkit-input-placeholder {
-  transition: opacity 0.5s 0.5s ease; 
-  opacity: 0;
-}
-
 .search-block {
   & .search-close-icon {
     display: block;
@@ -411,9 +349,6 @@ input[type="text"]::-webkit-input-placeholder {
 }
 .credit-card-icon {
   display: none;
-}
-.creditcard-text:focus + label + .credit-card-icon { 
-  display: block; 
 }
 
 .is_focused {
@@ -438,4 +373,8 @@ input[type="text"]::-webkit-input-placeholder {
 }
 select::-ms-expand {
   display: none;
+}
+
+input[type="search"]#search::-webkit-input-placeholder {
+  color: orange;
 }

@@ -186,24 +186,52 @@ class Tables extends Component {
                         <div class="rowChild">
                             <div class="colHeader std-txt std-txt-S">Price</div>
                             <div class="colChild priceCol">
-                                <p class="title title-XS color-penneyred mrg-XS">CYBER WEEK</p>
-                                <div class="price price-S mrg-rght-XS mrg-XS mrg-top-M">$1099 <span class="price price-note-M mrg-lft-XS color-penneyred"> sale </span></div>
-                                <div><span class="price price-note color-slate std-txt">was $2,999  |</span><span class="price price-note mrg-lft-XS color-slate std-txt">33% off</span></div>
+                                <div class="price-card">
+                                    <div class="price price-promo mrg-XS color-penneyred">GREEN MONDAL DEAL!</div>
+                                    <div class="price price-S mrg-rght-XS mrg-XS">$29.99
+                                        <span class="price price-note color-penneyred"> sale</span>
+                                    </div>
+                                    <div class="price price-note color-slate std-txt">
+                                        <span class="mrg-rght-S">was $39.99</span>
+                                        <span> 20% off</span>
+                                    </div>
+                                </div>
                             </div>
                             <div class="colChild priceCol">
-                                <p class="title title-XS color-penneyred mrg-XS">CYBER WEEK</p>
-                                <div class="price price-S mrg-rght-XS mrg-XS mrg-top-M">$1099 <span class="price price-note-M mrg-lft-XS color-penneyred"> sale </span></div>
-                                <div><span class="price price-note color-slate std-txt">was $2,999  |</span><span class="price price-note mrg-lft-XS color-slate std-txt">33% off</span></div>
+                                <div class="price-card">
+                                    <div class="price price-promo mrg-XS color-penneyred">GREEN MONDAL DEAL!</div>
+                                    <div class="price price-S mrg-rght-XS mrg-XS">$29.99
+                                        <span class="price price-note color-penneyred"> sale</span>
+                                    </div>
+                                    <div class="price price-note color-slate std-txt">
+                                        <span class="mrg-rght-S">was $39.99</span>
+                                        <span> 20% off</span>
+                                    </div>
+                                </div>
                             </div>
                             <div class="colChild priceCol">
-                                <p class="title title-XS color-penneyred mrg-XS">CYBER WEEK</p>
-                                <div class="price price-S mrg-rght-XS mrg-XS mrg-top-M">$1099 <span class="price price-note-M mrg-lft-XS color-penneyred"> sale </span></div>
-                                <div><span class="price price-note color-slate std-txt">was $2,999  |</span><span class="price price-note mrg-lft-XS color-slate std-txt">33% off</span></div>
+                                <div class="price-card">
+                                    <div class="price price-promo mrg-XS color-penneyred">GREEN MONDAL DEAL!</div>
+                                    <div class="price price-S mrg-rght-XS mrg-XS">$29.99
+                                        <span class="price price-note color-penneyred"> sale</span>
+                                    </div>
+                                    <div class="price price-note color-slate std-txt">
+                                        <span class="mrg-rght-S">was $39.99</span>
+                                        <span> 20% off</span>
+                                    </div>
+                                </div>
                             </div>
                             <div class="colChild priceCol">
-                                <p class="title title-XS color-penneyred mrg-XS">CYBER WEEK</p>
-                                <div class="price price-S mrg-rght-XS mrg-XS mrg-top-M">$1099 <span class="price price-note-M mrg-lft-XS color-penneyred"> sale </span></div>
-                                <div><span class="price price-note color-slate std-txt">was $2,999  |</span><span class="price price-note mrg-lft-XS color-slate std-txt">33% off</span></div>
+                                <div class="price-card">
+                                    <div class="price price-promo mrg-XS color-penneyred">GREEN MONDAL DEAL!</div>
+                                    <div class="price price-S mrg-rght-XS mrg-XS">$29.99
+                                        <span class="price price-note color-penneyred"> sale</span>
+                                    </div>
+                                    <div class="price price-note color-slate std-txt">
+                                        <span class="mrg-rght-S">was $39.99</span>
+                                        <span> 20% off</span>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <div class="rowChild">
@@ -233,7 +261,7 @@ class Tables extends Component {
                                         <span class="icon" dangerouslySetInnerHTML={{ __html: starImage }} />
                                     </li>
                                     <li class="star-ratings">
-                                        <a href="javascript:void();" class="rating-count">(99,999)</a>
+                                        <a href="javascript:void();" class="rating-count">99,999</a>
                                     </li>
                                 </ul>
                             </div>
@@ -255,7 +283,7 @@ class Tables extends Component {
                                         <span class="icon" dangerouslySetInnerHTML={{ __html: starImage }} />
                                     </li>
                                     <li class="star-ratings">
-                                        <a href="javascript:void();" class="rating-count">(99,999)</a>
+                                        <a href="javascript:void();" class="rating-count">99,999</a>
                                     </li>
                                 </ul>
                             </div>
@@ -277,7 +305,7 @@ class Tables extends Component {
                                         <span class="icon" dangerouslySetInnerHTML={{ __html: starImage }} />
                                     </li>
                                     <li class="star-ratings">
-                                        <a href="javascript:void();" class="rating-count">(99,999)</a>
+                                        <a href="javascript:void();" class="rating-count">99,999</a>
                                     </li>
                                 </ul>
                             </div>
@@ -299,7 +327,7 @@ class Tables extends Component {
                                         <span class="icon" dangerouslySetInnerHTML={{ __html: starImage }} />
                                     </li>
                                     <li class="star-ratings">
-                                        <a href="javascript:void();" class="rating-count">(99,999)</a>
+                                        <a href="javascript:void();" class="rating-count">99,999</a>
                                     </li>
                                 </ul>
                             </div>

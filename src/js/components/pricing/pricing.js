@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class Scrollbar extends Component {
+class Pricing extends Component {
 
   componentDidMount() {
   }
@@ -27,7 +27,10 @@ class Scrollbar extends Component {
                           <div class="price price-S mrg-rght-XS mrg-XS">$29.99
                               <span class="price price-note color-penneyred"> sale</span>
                           </div>
-                          <div class="price price-note color-slate std-txt">was $39.99   20% off</div>
+                          <div class="price price-note color-slate std-txt">
+                            <span class="mrg-rght-S">was $39.99</span>
+                            <span> 20% off</span>
+                          </div>
                         </div>
                       </li>
 
@@ -37,7 +40,10 @@ class Scrollbar extends Component {
                           <div class="price price-S mrg-rght-XS mrg-XS">$29.99
                               <span class="price price-note color-penneyred"> sale</span>
                           </div>
-                          <div class="price price-note color-slate std-txt">was $39.99   20% off</div>
+                          <div class="price price-note color-slate std-txt">
+                            <span class="mrg-rght-S">was $39.99</span>
+                            <span> 20% off</span>
+                          </div>
                         </div>
                       </li>
 
@@ -60,8 +66,8 @@ class Scrollbar extends Component {
                           <div class="price price-S mrg-rght-XS mrg-XS">$29.99
                               <span class="price price-note color-penneyred"> sale</span>
                           </div>
-                          <div class="price price-note color-slate std-txt">was $39.99   20% off</div>
-                          <a href="javascript:void(0)" class="title title-XS">rebates available</a>
+                          <div class="price price-note color-slate std-txt">                             <span class="mrg-rght-S">was $39.99</span>                             <span> 20% off</span>                           </div>
+                          <a href="javascript:void(0)" class="price-note price">rebates available</a>
                         </div>
                       </li>
 
@@ -80,7 +86,7 @@ class Scrollbar extends Component {
                           <div class="price price-S mrg-rght-XS mrg-XS">$29.99
                               <span class="price price-note color-penneyred"> sale</span>
                           </div>
-                          <div class="price price-note color-slate std-txt">was $39.99   20% off</div>
+                          <div class="price price-note color-slate std-txt">                             <span class="mrg-rght-S">was $39.99</span>                             <span> 20% off</span>                           </div>
                         </div>
                       </li>
 
@@ -90,7 +96,7 @@ class Scrollbar extends Component {
                           <div class="price price-S mrg-rght-XS mrg-XS">$29.99
                               <span class="price price-note color-penneyred"> sale</span>
                           </div>
-                          <div class="price price-note color-slate std-txt">was $39.99   20% off</div>
+                          <div class="price price-note color-slate std-txt">                             <span class="mrg-rght-S">was $39.99</span>                             <span> 20% off</span>                           </div>
                         </div>
                       </li>
 
@@ -113,8 +119,8 @@ class Scrollbar extends Component {
                           <div class="price price-S mrg-rght-XS mrg-XS">$29.99
                               <span class="price price-note color-penneyred"> sale</span>
                           </div>
-                          <div class="price price-note color-slate std-txt">was $39.99   20% off</div>
-                          <a href="javascript:void(0)" class="title title-XS">rebates available</a>
+                          <div class="price price-note color-slate std-txt">                             <span class="mrg-rght-S">was $39.99</span>                             <span> 20% off</span>                           </div>
+                          <a href="javascript:void(0)" class="price-note price">rebates available</a>
                         </div>
                       </li>
 
@@ -133,7 +139,7 @@ class Scrollbar extends Component {
                           <div class="price price-S mrg-rght-XS mrg-XS">$29.99
                           <span class="price price-note color-penneyred"> sale</span>
                           </div>
-                          <div class="price price-note color-slate std-txt">was $39.99   20% off</div>
+                          <div class="price price-note color-slate std-txt">                             <span class="mrg-rght-S">was $39.99</span>                             <span> 20% off</span>                           </div>
                         </div>
                       </li>
 
@@ -143,7 +149,7 @@ class Scrollbar extends Component {
                           <div class="price price-S mrg-rght-XS mrg-XS">$29.99
                           <span class="price price-note color-penneyred"> sale</span>
                           </div>
-                          <div class="price price-note color-slate std-txt">was $39.99   20% off</div>
+                          <div class="price price-note color-slate std-txt">                             <span class="mrg-rght-S">was $39.99</span>                             <span> 20% off</span>                           </div>
                         </div>
                       </li>
 
@@ -166,8 +172,8 @@ class Scrollbar extends Component {
                           <div class="price price-S mrg-rght-XS mrg-XS">$29.99
                           <span class="price price-note color-penneyred"> sale</span>
                           </div>
-                          <div class="price price-note color-slate std-txt">was $39.99   20% off</div>
-                          <a href="javascript:void(0)" class="title title-XS">rebates available</a>
+                          <div class="price price-note color-slate std-txt">                             <span class="mrg-rght-S">was $39.99</span>                             <span> 20% off</span>                           </div>
+                          <a href="javascript:void(0)" class="price-note price">rebates available</a>
                         </div>
                       </li>
 
@@ -186,7 +192,7 @@ class Scrollbar extends Component {
                           <div class="price price-S mrg-rght-XS mrg-XS">$29.99
                           <span class="price price-note color-penneyred"> sale</span>
                           </div>
-                          <div class="price price-note color-slate std-txt">was $39.99   20% off</div>
+                          <div class="price price-note color-slate std-txt">                             <span class="mrg-rght-S">was $39.99</span>                             <span> 20% off</span>                           </div>
                         </div>
                       </li>
 
@@ -196,7 +202,7 @@ class Scrollbar extends Component {
                           <div class="price price-S mrg-rght-XS mrg-XS">$29.99
                           <span class="price price-note color-penneyred"> sale</span>
                           </div>
-                          <div class="price price-note color-slate std-txt">was $39.99   20% off</div>
+                          <div class="price price-note color-slate std-txt">                             <span class="mrg-rght-S">was $39.99</span>                             <span> 20% off</span>                           </div>
                         </div>
                       </li>
 
@@ -212,8 +218,8 @@ class Scrollbar extends Component {
                           <div class="price price-S mrg-rght-XS mrg-XS">$29.99
                           <span class="price std-txt std-txt-S color-penneyred"> package deal</span>
                           </div>
-                          <div class="price price-note color-slate std-txt">was $39.99   20% off</div>
-                          <a href="javascript:void(0)" class="title title-XS">rebates available</a>
+                          <div class="price price-note color-slate std-txt">                             <span class="mrg-rght-S">was $39.99</span>                             <span> 20% off</span>                           </div>
+                          <a href="javascript:void(0)" class="price-note price">rebates available</a>
                         </div>
                       </li>
 
@@ -229,8 +235,8 @@ class Scrollbar extends Component {
                           <div class="price price-S mrg-rght-XS mrg-XS">$29.99
                           <span class="price price-note color-penneyred"> sale</span>
                           </div>
-                          <div class="price price-note color-slate std-txt">was $39.99   20% off</div>
-                          <a href="javascript:void(0)" class="title title-XS">rebates available</a>
+                          <div class="price price-note color-slate std-txt">                             <span class="mrg-rght-S">was $39.99</span>                             <span> 20% off</span>                           </div>
+                          <a href="javascript:void(0)" class="price-note price">rebates available</a>
                         </div>
                       </li>
 
@@ -258,7 +264,7 @@ class Scrollbar extends Component {
                           <div class="price price-XS mrg-rght-XS">$29.99
                               <span class="price price-note color-penneyred"> sale</span>
                           </div>
-                          <div class="price price-note color-slate std-txt">was $39.99   20% off</div>
+                          <div class="price price-note color-slate std-txt">                             <span class="mrg-rght-S">was $39.99</span>                             <span> 20% off</span>                           </div>
                         </div>
                       </li>
 
@@ -268,7 +274,7 @@ class Scrollbar extends Component {
                           <div class="price price-XS mrg-rght-XS">$29.99
                               <span class="price price-note color-penneyred"> sale</span>
                           </div>
-                          <div class="price price-note color-slate std-txt">was $39.99   20% off</div>
+                          <div class="price price-note color-slate std-txt">                             <span class="mrg-rght-S">was $39.99</span>                             <span> 20% off</span>                           </div>
                         </div>
                       </li>
 
@@ -291,8 +297,8 @@ class Scrollbar extends Component {
                           <div class="price price-XS mrg-rght-XS">$29.99
                               <span class="price price-note color-penneyred"> sale</span>
                           </div>
-                          <div class="price price-note color-slate std-txt">was $39.99   20% off</div>
-                          <a href="javascript:void(0)" class="title title-XS">rebates available</a>
+                          <div class="price price-note color-slate std-txt">                             <span class="mrg-rght-S">was $39.99</span>                             <span> 20% off</span>                           </div>
+                          <a href="javascript:void(0)" class="price-note price">rebates available</a>
                         </div>
                       </li>
 
@@ -311,7 +317,7 @@ class Scrollbar extends Component {
                           <div class="price price-XS mrg-rght-XS">$29.99
                               <span class="price price-note color-penneyred"> sale</span>
                           </div>
-                          <div class="price price-note color-slate std-txt">was $39.99   20% off</div>
+                          <div class="price price-note color-slate std-txt">                             <span class="mrg-rght-S">was $39.99</span>                             <span> 20% off</span>                           </div>
                         </div>
                       </li>
 
@@ -321,7 +327,7 @@ class Scrollbar extends Component {
                           <div class="price price-XS mrg-rght-XS">$29.99
                               <span class="price price-note color-penneyred"> sale</span>
                           </div>
-                          <div class="price price-note color-slate std-txt">was $39.99   20% off</div>
+                          <div class="price price-note color-slate std-txt">                             <span class="mrg-rght-S">was $39.99</span>                             <span> 20% off</span>                           </div>
                         </div>
                       </li>
 
@@ -344,8 +350,8 @@ class Scrollbar extends Component {
                           <div class="price price-XS mrg-rght-XS">$29.99
                               <span class="price price-note color-penneyred"> sale</span>
                           </div>
-                          <div class="price price-note color-slate std-txt">was $39.99   20% off</div>
-                          <a href="javascript:void(0)" class="title title-XS">rebates available</a>
+                          <div class="price price-note color-slate std-txt">                             <span class="mrg-rght-S">was $39.99</span>                             <span> 20% off</span>                           </div>
+                          <a href="javascript:void(0)" class="price-note price">rebates available</a>
                         </div>
                       </li>
 
@@ -364,7 +370,7 @@ class Scrollbar extends Component {
                           <div class="price price-XS mrg-rght-XS">$29.99
                           <span class="price price-note color-penneyred"> sale</span>
                           </div>
-                          <div class="price price-note color-slate std-txt">was $39.99   20% off</div>
+                          <div class="price price-note color-slate std-txt">                             <span class="mrg-rght-S">was $39.99</span>                             <span> 20% off</span>                           </div>
                         </div>
                       </li>
 
@@ -374,7 +380,7 @@ class Scrollbar extends Component {
                           <div class="price price-XS mrg-rght-XS">$29.99
                           <span class="price price-note color-penneyred"> sale</span>
                           </div>
-                          <div class="price price-note color-slate std-txt">was $39.99   20% off</div>
+                          <div class="price price-note color-slate std-txt">                             <span class="mrg-rght-S">was $39.99</span>                             <span> 20% off</span>                           </div>
                         </div>
                       </li>
 
@@ -397,8 +403,8 @@ class Scrollbar extends Component {
                           <div class="price price-XS mrg-rght-XS">$29.99
                           <span class="price price-note color-penneyred"> sale</span>
                           </div>
-                          <div class="price price-note color-slate std-txt">was $39.99   20% off</div>
-                          <a href="javascript:void(0)" class="title title-XS">rebates available</a>
+                          <div class="price price-note color-slate std-txt">                             <span class="mrg-rght-S">was $39.99</span>                             <span> 20% off</span>                           </div>
+                          <a href="javascript:void(0)" class="price-note price">rebates available</a>
                         </div>
                       </li>
 
@@ -417,7 +423,7 @@ class Scrollbar extends Component {
                           <div class="price price-XS mrg-rght-XS">$29.99
                           <span class="price price-note color-penneyred"> sale</span>
                           </div>
-                          <div class="price price-note color-slate std-txt">was $39.99   20% off</div>
+                          <div class="price price-note color-slate std-txt">                             <span class="mrg-rght-S">was $39.99</span>                             <span> 20% off</span>                           </div>
                         </div>
                       </li>
 
@@ -427,7 +433,7 @@ class Scrollbar extends Component {
                           <div class="price price-XS mrg-rght-XS">$29.99
                           <span class="price price-note color-penneyred"> sale</span>
                           </div>
-                          <div class="price price-note color-slate std-txt">was $39.99   20% off</div>
+                          <div class="price price-note color-slate std-txt">                             <span class="mrg-rght-S">was $39.99</span>                             <span> 20% off</span>                           </div>
                         </div>
                       </li>
 
@@ -456,8 +462,8 @@ class Scrollbar extends Component {
                           <div class="price price-XS mrg-rght-XS">$29.99
                           <span class="price price-note color-penneyred"> sale</span>
                           </div>
-                          <div class="price price-note color-slate std-txt">was $39.99   20% off</div>
-                          <a href="javascript:void(0)" class="title title-XS">rebates available</a>
+                          <div class="price price-note color-slate std-txt">                             <span class="mrg-rght-S">was $39.99</span>                             <span> 20% off</span>                           </div>
+                          <a href="javascript:void(0)" class="price-note price">rebates available</a>
                         </div>
                       </li>
 
@@ -519,7 +525,7 @@ class Scrollbar extends Component {
                               <span class="price price-note color-penneyred"> sale</span>
                           </div>
                           <div class="price price-note-XS color-slate std-txt">was $39.99   20% off</div>
-                          <a href="javascript:void(0)" class="title title-XS">rebates available</a>
+                          <a href="javascript:void(0)" class="price-note price">rebates available</a>
                         </div>
                       </li>
 
@@ -572,7 +578,7 @@ class Scrollbar extends Component {
                               <span class="price price-note color-penneyred"> sale</span>
                           </div>
                           <div class="price price-note-XS color-slate std-txt">was $39.99   20% off</div>
-                          <a href="javascript:void(0)" class="title title-XS">rebates available</a>
+                          <a href="javascript:void(0)" class="price-note price">rebates available</a>
                         </div>
                       </li>
 
@@ -625,7 +631,7 @@ class Scrollbar extends Component {
                           <span class="price price-note color-penneyred"> sale</span>
                           </div>
                           <div class="price price-note-XS color-slate std-txt">was $39.99   20% off</div>
-                          <a href="javascript:void(0)" class="title title-XS">rebates available</a>
+                          <a href="javascript:void(0)" class="price-note price">rebates available</a>
                         </div>
                       </li>
 
@@ -662,7 +668,7 @@ class Scrollbar extends Component {
 
                       <li>
                         <div class="price-card">
-                          <div class="flag flag-urgency std-txt price-promo-S mrg-rght-XS">
+                          <div class="flag flag-price std-txt price-promo-S mrg-rght-XS">
                           </div>
                           <div class="price price-promo-S mrg-XS color-penneyred">BUY 1 GET 1 for Free</div>
                           <div class="price price-XXS mrg-rght-XS">$29.99</div>
@@ -681,8 +687,8 @@ class Scrollbar extends Component {
                           <div class="price price-XXS mrg-rght-XS">$29.99
                           <span class="price price-note-XS color-penneyred"> sale</span>
                           </div>
-                          <div class="price price-note color-slate std-txt">was $39.99   20% off</div>
-                          <a href="javascript:void(0)" class="title title-XS">rebates available</a>
+                          <div class="price price-note color-slate std-txt">                             <span class="mrg-rght-S">was $39.99</span>                             <span> 20% off</span>                           </div>
+                          <a href="javascript:void(0)" class="price-note price">rebates available</a>
                         </div>
                       </li>
 
@@ -707,7 +713,7 @@ class Scrollbar extends Component {
                               <span class="price price-note-M mrg-lft-XS"> sale </span>
                               <span class="price price-note-M mrg-lft-S color-slate std-txt">was $89.99</span><span class="price price-note-M mrg-lft-M color-slate std-txt">20% off</span>
                             </div>
-                          <div class="price price-M mrg-rght-XS flag flag-urgency mrg-XS">$40.99</div>
+                          <div class="price price-M mrg-rght-XS flag flag-price mrg-XS">$40.99</div>
                           <span class="price price-note-M color-penneyred">Extra 20% off</span>
                           <div class="price">
                             <span class="price price-note-M color-penneyred">with coupon code: FUNDEAL </span>
@@ -723,7 +729,7 @@ class Scrollbar extends Component {
                               <span class="price price-note-M mrg-lft-XS"> sale </span>
                               <span class="price price-note-M mrg-lft-S color-slate std-txt">was $9,999</span><span class="price price-note-M mrg-lft-M color-slate std-txt">40% off</span>
                             </div>
-                          <div class="price price-M mrg-rght-XS flag flag-urgency mrg-XS">$4,999</div>
+                          <div class="price price-M mrg-rght-XS flag flag-price mrg-XS">$4,999</div>
                           <span class="price price-note-M color-penneyred">Extra 20% off</span>
                           <div class="price">
                             <span class="price price-note-M color-penneyred">with coupon code: FUNDEAL </span>
@@ -739,7 +745,7 @@ class Scrollbar extends Component {
                               <span class="price price-note-M">reg. </span>
                               $399.99
                             </div>
-                          <div class="price price-M mrg-rght-XS flag flag-urgency mrg-XS">$299.99</div>
+                          <div class="price price-M mrg-rght-XS flag flag-price mrg-XS">$299.99</div>
                           <span class="price price-note-M color-penneyred">Extra 20% off</span>
                           <div class="price">
                             <span class="price price-note-M color-penneyred">with coupon code: FUNDEAL </span>
@@ -769,7 +775,7 @@ class Scrollbar extends Component {
                             <span class="price price-note-M mrg-lft-XS"> sale </span>
                             <span class="price price-note-M mrg-lft-S color-slate std-txt">was $89.99</span><span class="price price-note-M mrg-lft-M color-slate std-txt">20% off</span>
                           </div>
-                        <div class="price price-S mrg-rght-XS flag flag-urgency mrg-XS">$40.99</div>
+                        <div class="price price-S mrg-rght-XS flag flag-price mrg-XS">$40.99</div>
                         <span class="price price-note-M color-penneyred">Extra 20% off</span>
                         <div class="price">
                           <span class="price price-note-M color-penneyred">with coupon code: FUNDEAL </span>
@@ -935,7 +941,7 @@ class Scrollbar extends Component {
                     <ul class="gallery-pricing-row">
                       <li>
                         <div class="price-card">
-                          <div class="price price-M mrg-rght-XS">$299.99 - $599.99
+                          <div class="price price-S mrg-rght-XS">$299.99 - $599.99
                                 <span class="price price-note-M mrg-lft-XS color-penneyred"> clearance </span>
                             <div><span class="price price-note-M color-slate std-txt">was $9,999</span><span class="price price-note-M mrg-lft-M color-slate std-txt">40% off</span></div>
                           </div>
@@ -943,7 +949,7 @@ class Scrollbar extends Component {
                       </li>
                       <li>
                         <div class="price-card">
-                          <div class="price price-M mrg-rght-XS">$3,999 - $9,999
+                          <div class="price price-S mrg-rght-XS">$3,999 - $9,999
                                 <span class="price price-note-M mrg-lft-XS color-penneyred"> clearance </span>
                             <div><span class="price price-note-M color-slate std-txt">was $9,999</span><span class="price price-note-M mrg-lft-M color-slate std-txt">40% off</span></div>
                           </div>
@@ -953,7 +959,7 @@ class Scrollbar extends Component {
                       <li>
                         <div class="price-card">
                           <div class="price price-promo mrg-S color-penneyred">RANGE MARKETING LABEL</div>
-                          <div class="price price-M mrg-rght-XS">$299.99 - $599.99
+                          <div class="price price-S mrg-rght-XS">$299.99 - $599.99
                                <span class="price price-note-M mrg-lft-XS color-penneyred"> sale </span>
                             <div>
                               <span class="price price-note-M color-slate std-txt">was $499.99 - $699.99</span><span class="price price-note-M mrg-lft-M color-slate std-txt">30% - 40% off</span>
@@ -964,7 +970,7 @@ class Scrollbar extends Component {
                       <li>
                         <div class="price-card">
                           <div class="price price-promo mrg-S color-penneyred">RANGE MARKETING LABEL</div>
-                          <div class="price price-M mrg-rght-XS">$3,999 - $9,999
+                          <div class="price price-S mrg-rght-XS">$3,999 - $9,999
                             <span class="price price-note-M mrg-lft-XS color-penneyred"> sale </span>
                             <div>
                               <span class="price price-note-M color-slate std-txt">was $9,999 - $9,999</span><span class="price price-note-M mrg-lft-M color-slate std-txt">30% - 40% off</span>
@@ -975,7 +981,7 @@ class Scrollbar extends Component {
                       <li>
                         <div class="price-card">
                           <div class="price price-promo mrg-S color-penneyred">RANGE MARKETING LABEL</div>
-                          <div class="price price-M mrg-rght-XS">$3,999 - $9,999
+                          <div class="price price-S mrg-rght-XS">$3,999 - $9,999
                             <span class="price price-note-M mrg-lft-XS color-penneyred"> package deal </span>
                             <div>
                               <span class="price price-note-M color-slate std-txt">was $9,999 - $9,999</span><span class="price price-note-M mrg-lft-M color-slate std-txt">30% - 40% off</span>
@@ -999,4 +1005,4 @@ class Scrollbar extends Component {
   }
 }
 
-export default Scrollbar;
+export default Pricing;

@@ -144,7 +144,7 @@ class Buttons extends Component {
                                     <a href="javascript:void();" role="button" class="btn btn-primary btn-L mrg-M btn-icon "><span class="icon color-white-svg" dangerouslySetInnerHTML={{ __html: lockImage }} /> Checkout</a>
                                 </div>
                                 <div class="button-preview algn-mid mrg-XL">
-                                    <a href="javascript:void();" role="button" class="btn btn-secondary btn-L mrg-M btn-icon "><span class="icon color-nightsky-svg lock-icon" dangerouslySetInnerHTML={{ __html: barcodeImage }} /> Print Barcode</a>
+                                    <a href="javascript:void();" role="button" class="btn btn-secondary btn-L mrg-M btn-icon"><span class="icon color-nightsky-svg lock-icon" dangerouslySetInnerHTML={{ __html: barcodeImage }} /> Print Barcode</a>
                                 </div>
 
                             </div>
@@ -157,7 +157,7 @@ class Buttons extends Component {
                             <div class="sm12 md5 lg4 columns mrg-XXL">
 
                                 <div class="button-preview algn-mid">
-                                    <a href="javascript:void();" role="button" class="btn btn-secondary btn-L mrg-M btn-icon btn-icon-slide"><span class="icon color-penneyred-svg" dangerouslySetInnerHTML={{ __html: cartImage }} /> <span class="btn-label">Add to Cart</span></a>
+                                    <a href="javascript:void();" role="button" class="btn btn-secondary btn-L mrg-M btn-icon btn-icon-slide"><span class="icon color-nightsky-svg" dangerouslySetInnerHTML={{ __html: cartImage }} /> <span class="btn-label">Add to Cart</span></a>
                                 </div>
 
                                 <div class="button-preview algn-mid">
@@ -227,9 +227,9 @@ class Buttons extends Component {
                         <div class="bg-color-penneyred"></div>
 
                         <ul class="main-menu-secondary button-main-menu">
-                            <li class="main-menu-secondary-li main-menu-secondary-li-primary title title-S">Gifts</li>
-                            <li class="main-menu-secondary-li main-menu-secondary-li-primary title title-S">My List</li>
-                            <li class="main-menu-secondary-li main-menu-secondary-li-primary title title-S">Coupons</li>
+                            <li class="main-menu-secondary-li main-menu-secondary-li-primary title title-S"><a href="javascript:void(0);">Gifts</a></li>
+                            <li class="main-menu-secondary-li main-menu-secondary-li-primary title title-S"><a href="javascript:void(0);">My List</a></li>
+                            <li class="main-menu-secondary-li main-menu-secondary-li-primary title title-S"><a href="javascript:void(0);">Coupons</a></li>
                         </ul>
                     </div>
 
@@ -237,9 +237,9 @@ class Buttons extends Component {
                 <br /><br /><br />
                 <div class="cart-icon lg4">
                     <ul>
-                        <li class="main-menu-primary-item main-menu-primary-cart"> <a href="javascript:void(0);" class="main-menu-primary-cart-icon-full"> <span class="main-menu-primary-cart-icon-full-items ">28</span>
-                            <div class="main-menu-primary-cart-icon-full-icon icon color-white-svg" dangerouslySetInnerHTML={{ __html: cartFullImage }} />
-                        </a> </li>
+                    <li class="main-menu-primary-item main-menu-primary-cart"> <a href="javascript:void(0);" class="main-menu-primary-cart-icon-full"> <span class="main-menu-primary-cart-icon-full-items">28</span>
+                        <div class="main-menu-primary-cart-icon-full-icon icon color-white-svg" dangerouslySetInnerHTML={{ __html: cartFullImage }} />
+                    </a> </li>
                     </ul>
                 </div>
                 <br /><br /><br />

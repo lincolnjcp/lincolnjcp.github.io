@@ -981,7 +981,6 @@ Base Styles
             margin: 0;
 
             placeholder {
-                color: var(--color-white);
                 opacity: 1;
                 font-style: italic;
             }

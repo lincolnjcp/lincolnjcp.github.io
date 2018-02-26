@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import CodeGenerator from '../../containers/CodeGenerator.js';
 
+const closeImage = require('!!raw-loader?es5=1!../../../images/global/icons/nav/close.svg');
+
 class Alerts extends Component {
 
     render() {
@@ -17,8 +19,8 @@ class Alerts extends Component {
                     <div class="sm12 columns">
                         <h3 class="title title-L mrg-L">When to Use</h3>
                         <p class=" mrg-L max-width-text">Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor don ullamco nulla non metus auctor fringilla. </p>
-                        <div class="msg msg-success mrg-M">Success! Item added to cart.<span class="msg-close"></span></div>
-                        <div class="msg msg-error mrg-XL">Please select a size.<span class="msg-close"></span></div>
+                        <div class="msg msg-success mrg-M">Success! Item added to cart.<span class="icon msg-close color-success-type" dangerouslySetInnerHTML={{ __html: closeImage }} /></div>
+                        <div class="msg msg-error mrg-XL">Please select a size.<span class="icon msg-close color-error-type" dangerouslySetInnerHTML={{ __html: closeImage }} /></div>
 
                         <h4 class="title title-M mrg-L">Best Practices</h4>
                         <ul class="list max-width-text color-slate">
@@ -35,7 +37,9 @@ class Alerts extends Component {
                         <p class="max-width-text mrg-XL">Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras justo odio, dapibus ac facilisis in, egestas eget quam.</p>
                         <div class="row">
                             <div class="sm12 md5 lg4 columns alert-preview-col">
-                                <div class="msg msg-success mrg-M">Success alert. <a href="javascript:void();">Text Link</a><span class="msg-close"></span></div>
+                                <div class="msg msg-success mrg-M">Success alert. <a href="javascript:void();">Text Link</a>
+                                    <span class="icon msg-close color-success-type" dangerouslySetInnerHTML={{ __html: closeImage }} />
+                                </div>
                                 <div class="msg msg-success mrg-M">Example to display a longer alert message with a full paragraph of content.</div>
                             </div>
                             <div class="sm12 md7 lg8 columns">

@@ -15,6 +15,7 @@ button{
   border-radius: var(--border-radius-M);
   text-decoration: none;
   font-family: var(--font-headline);
+  font-weight: 500;
   display: inline-block;
   border: none;
   padding: 0 16px;
@@ -52,7 +53,7 @@ button{
     min-width: 128px;
 
     background-color: var(--color-white);
-    color: #990000;
+    color: var(--color-nightsky);
     border: 1px solid var(--color-concrete);
     @apply --elevation;
     @apply --btn-transition;
@@ -93,7 +94,7 @@ button{
   &.btn-disabled,
   &.btn-disabled:hover {
     @apply --disabled;
-    border-radius: 2px;
+    border-radius: var(--border-radius-M)
   }
 
   /*  Button Sizes */
@@ -132,7 +133,6 @@ button{
   }
 
   &.btn-icon{
-    color: var(--color-nightsky);
     & svg{
       width: 36px;
       height:36px;
@@ -285,6 +285,7 @@ a.txt-btn,
   background: var(--color-penneyred);
   height: 48px;
 }
+
 .main-menu-bar-secondary-container{
   & .button-main-menu{
     padding: 15px;
@@ -293,28 +294,49 @@ a.txt-btn,
     -webkit-box-shadow: 0 2px 4px 0 rgba(0,0,0,.25);
     -o-box-shadow: 0 2px 4px 0 rgba(0,0,0,.25);
     box-shadow: 0 2px 4px 0 rgba(0,0,0,.25);
-    & .main-menu-secondary-li-primary{
-      padding-left:13px;
-      padding-right:13px;
-    }
+    & .main-menu-secondary-li-primary {
+			padding-left: 12px;
+      padding-right: 12px;
+      @media (--viewport-sm-only) {
+        text-align: left;
+      }
+      & a {
+        text-decoration: none;
+      }
+		}
   }
 }
 .cart-icon {
   padding: 20px;
   text-align: center;
-  background: var(--color-penneyred);
-    & .main-menu-primary-cart-icon-full{
-      position: relative;
-      border-radius: 50%;
+  background: var(--color-penneyred);   
+}
+.main-menu-primary-cart {
+  & .main-menu-primary-cart-icon-full {
       display: inline-block;
-      & .main-menu-primary-cart-icon-full-items {
+			width: 40px;
+			height: 40px;
+			position: relative;
+    & .main-menu-primary-cart-icon-full-icon {
+      width: 32px;
+      height: 32px;
+      & svg {
+        width: 36px;
+        height: 36px;	
+      }
+    }
+    & .main-menu-primary-cart-icon-full-items {
         position: absolute;
-        top: 8px;
-        right: 8px;
-        color: var(--color-white);
-        font-size: 14px;
-        font-weight: 700;
-     }
+        top: 7px;
+        left: 4px;
+				text-align: center;
+				color: var(--color-white);
+				display: block;
+				letter-spacing: -.25px;
+				font-size: 14px;
+				font-weight: bold;
+				width: 100%;
+    }
   }
 }
 

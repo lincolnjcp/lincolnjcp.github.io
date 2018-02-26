@@ -85,7 +85,7 @@
   & .icon{
       width: 16px;
       height:16px;
-      top: 1px;
+      top: 5px;
       position: relative;
       & svg{
         width: 16px;
