@@ -604,25 +604,25 @@ class ExpandCollapse extends Component {
                     <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" class="accordion-title accordionTitle title title-M">Reviews
                     <div class="star-preview-col review-star">
                        <ul class="star-ratings-S">
-                                    <li class="star-ratings start-ratings-full">
-                                        <span class="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
-                                    </li>
-                                    <li class="star-ratings start-ratings-full">
-                                        <span class="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
-                                    </li>
-                                    <li class="star-ratings start-ratings-full">
-                                        <span class="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
-                                    </li>
-                                    <li class="star-ratings start-ratings-half">
-                                        <span class="icon" dangerouslySetInnerHTML={{ __html: starhalfImage }} />
-                                    </li>
-                                    <li class="star-ratings star-rating-empty">
-                                        <span class="icon color-concrete-svg" dangerouslySetInnerHTML={{ __html: starImage }} />
-                                    </li>
-                                    <li class="star-ratings">
-                                        <a href="javascript:void();" class="rating-count rating-count-underline std-txt std-txt-S">(99,999)</a>
-                                    </li>
-                                </ul>
+                            <li class="star-ratings start-ratings-full">
+                                <span class="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
+                            </li>
+                            <li class="star-ratings start-ratings-full">
+                                <span class="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
+                            </li>
+                            <li class="star-ratings start-ratings-full">
+                                <span class="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
+                            </li>
+                            <li class="star-ratings start-ratings-half">
+                                <span class="icon" dangerouslySetInnerHTML={{ __html: starhalfImage }} />
+                            </li>
+                            <li class="star-ratings star-rating-empty">
+                                <span class="icon color-concrete-svg" dangerouslySetInnerHTML={{ __html: starImage }} />
+                            </li>
+                            <li class="star-ratings">
+                                <a href="javascript:void();" class="rating-count rating-count-underline std-txt std-txt-S">(99,999)</a>
+                            </li>
+                        </ul>
                       </div>
                     </a>
                   </dt>

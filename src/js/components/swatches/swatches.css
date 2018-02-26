@@ -144,17 +144,28 @@
  
   }
 
-  & .color-swatches-small li {
-    margin-left: 2px;
-    margin-right: 2px;
-    & .list-color-swatch, &.swatches-list-icon {
-      width: 16px;
-      height: 16px;
-    }
-    &.swatches-list-icon{
-      & svg{
-        width: 16px;
-      height: 16px;
+  & .color-swatches-small {
+    & .list-product-colors-container {
+      & li {
+        margin-left: 2px;
+        margin-right: 2px;
+        padding-top: 0;
+        & .list-color-swatch, &.swatches-list-icon {
+          width: 16px;
+          height: 16px;
+        }
+        &.swatches-list-icon{
+          & svg{
+            width: 16px;
+          height: 16px;
+          }
+        }
+      }
+      & .swatches-list-link {
+        & a {
+          font-size: 10px;
+          text-decoration: none;
+        }
       }
     }
   }

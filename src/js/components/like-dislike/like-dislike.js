@@ -11,16 +11,25 @@ class LikeDislike extends Component {
             var tooltip = parent.find('.tooltip-content');
             parent.closest('.like-icon').toggleClass("is-active");
             if (parent.hasClass("is-active")) {
+                $('.like-icon .tooltip').css('display', 'inline-block');
                 tooltip.html('Added<br /><a href="javascript:void(0);">View My Favorites</a>');
             }
         });
+        $(".like-icon").mouseenter(function () {
+            $('.like-icon .tooltip').css('display', 'inline-block');
+        });
 
         $(".like-icon").mouseleave(function () {
+
             var parent = $(this).closest('.like-icon');
             var tooltip = parent.find('.tooltip-content');
             if (parent.hasClass("is-active")) {
-                tooltip.html('Remove Favorite');
+                setTimeout(function () {
+                    $('.like-icon .tooltip').css('display', 'none');
+                    tooltip.html('Remove Favorite');
+                }, 2000);
             } else {
+                $('.like-icon .tooltip').css('display', 'none');
                 tooltip.html('Favorite');
             }
         });

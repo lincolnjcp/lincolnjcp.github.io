@@ -14,6 +14,9 @@
         &.rating-count-s{
           text-decoration: none;
         }
+        @media (--viewport-sm-only) {
+          font-size: 10px;
+        }
     }
     
   }

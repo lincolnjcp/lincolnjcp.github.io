@@ -998,6 +998,123 @@ class Pricing extends Component {
 
               </div>
             </div>
+
+            <div class="row">
+            <div class="sm12 columns">
+              <h2><strong>Pricing Cart</strong></h2>
+              <hr />
+              <div class="product-card-wrapper mrg-M">
+                  <div class="pricing-cart algn-rght algn-lft-S">
+                    <div class="product-card-details">
+                        <div class="product-card-price-value price price-XS"><span classname="pricing-cart-price-only">$89.99</span></div>
+                    </div>
+                  </div>
+                  <div class="pricing-cart algn-rght algn-lft-S">
+                    <div class="product-card-details">
+                        <div class="product-card-note price price-note color-nightsky std-txt">was <span class="line-through">$89.99</span></div>
+                        <div class="product-card-note price price-note color-nightsky std-txt">sale <span class="color-shadow">$58.99</span></div>
+                        <div class="product-card-price-value price price-XS">$58.99</div>
+                    </div>
+                  </div>
+                  <div class="pricing-cart algn-rght algn-lft-S">
+                    <div class="product-card-details">
+                        <div class="price price-promo mrg-XS color-penneyred">Marketing Label</div>
+                        <div class="product-card-note price price-note color-nightsky std-txt">was <span class="line-through color-shadow">$20.00</span></div>
+                        <div class="product-card-note price price-note color-nightsky std-txt">FUNDEAL <span class="color-penneyred">-$2.00</span></div>
+                        <div class="product-card-note price price-note color-nightsky std-txt">rewards <span class="color-penneyred">-$10.00</span></div>
+                        <div class="product-card-price-value price price-XS">$8.00</div>
+                    </div>
+                  </div>
+                  <div class="pricing-cart algn-rght algn-lft-S">
+                    <div class="product-card-details">
+                        <div class="price price-promo mrg-XS color-penneyred">Marketing Label</div>
+                        <div class="product-card-note price price-note color-nightsky std-txt">was <span class="line-through color-shadow">$30.00</span></div>
+                        <div class="product-card-note price price-note color-nightsky std-txt">sale <span class="line-through color-shadow">$28.00</span></div>
+                        <div class="product-card-note price price-note color-nightsky std-txt">FUNDEAL <span class="color-penneyred">-$10.00</span></div>
+                        <div class="product-card-note price price-note color-nightsky std-txt">rewards <span class="color-penneyred">-$10.00</span></div>
+                        <div class="product-card-price-value price price-XS">$8.00</div>
+                    </div>
+                  </div>
+                  <div class="pricing-cart algn-rght algn-lft-S">
+                    <div class="product-card-details">
+                        <div class="price price-promo mrg-XS color-penneyred">Marketing Label</div>
+                        <div class="product-card-note price price-note color-nightsky std-txt">was <span class="line-through color-shadow">$20.00</span></div>
+                        <div class="product-card-note price price-note color-nightsky std-txt">FUNDEAL <span class="color-penneyred">-$2.00</span></div>
+                        <div class="product-card-note price price-note color-nightsky std-txt">rewards <span class="color-penneyred">-$10.00</span></div>
+                        <div class="product-card-price-value price price-XS">$8.00</div>
+                    </div>
+                  </div>
+                  <div class="pricing-cart algn-rght algn-lft-S">
+                    <div class="product-card-details">
+                        <div class="price price-promo mrg-XS color-penneyred">Marketing Label<br/>Package Deal</div>
+                        <div class="product-card-note price price-note color-nightsky std-txt">was <span class="line-through color-shadow">$89.99</span></div>
+                        <div class="product-card-note price price-note color-nightsky std-txt">sale <span class="line-through color-shadow">$58.99</span></div>
+                        <div class="product-card-note price price-note color-nightsky std-txt">FUNDEAL <span class="color-penneyred">-$18.00</span></div>
+                        <div class="product-card-note price price-note color-nightsky std-txt">rewards <span class="color-penneyred">-$10.00</span></div>
+                        <div class="product-card-note price price-note color-nightsky std-txt">assoc. disc. <span class="color-penneyred">-$10.00</span></div>
+                        <div class="product-card-price-value price price-XS">$20.99</div>
+                    </div>
+                  </div>
+                  <div class="pricing-cart algn-rght algn-lft-S">
+                    <div class="product-card-details">
+                        <div class="price price-promo mrg-XS color-penneyred">BUY 1 GET 1 50% OFF</div>
+                        <div class="product-card-price-value price price-XS">$60.00</div>
+                    </div>
+                  </div>
+                  <div class="pricing-cart algn-rght algn-lft-S">
+                    <div class="product-card-details">
+                        <div class="price price-promo mrg-XS color-penneyred">BUY 1 GET 1 50% OFF</div>
+                        <div class="product-card-note price price-note color-nightsky std-txt">was <span class="line-through color-shadow">$80.00</span></div>
+                        <div class="product-card-note price price-note color-nightsky std-txt">buy 1 get 1 50% <span class="line-through color-shadow">$20.00</span></div>
+                        <div class="product-card-price-value price price-XS">$60.00</div>
+                    </div>
+                  </div>
+                  <div class="pricing-cart algn-rght algn-lft-S">
+                    <div class="product-card-details">
+                        <div class="price price-promo mrg-XS color-penneyred">BUY 1 GET 1 50% OFF</div>
+                        <div class="product-card-note price price-note color-nightsky std-txt">was <span class="line-through color-shadow">$20.99</span></div>
+                        <div class="product-card-note price price-note color-nightsky std-txt">buy 1 get 1 50% <span class="line-through color-shadow">FREE</span></div>
+                        <div class="product-card-price-value price price-XS">$10.99</div>
+                    </div>
+                  </div>
+                  <div class="pricing-cart algn-rght algn-lft-S">
+                    <div class="product-card-details">
+                        <div class="price price-promo mrg-XS color-penneyred">SAMSUNG BUY 4 SAVE 10%</div>
+                        <div class="product-card-note price price-note color-nightsky std-txt">was <span class="line-through color-shadow">$1,899.00</span></div>
+                        <div class="product-card-note price price-note color-nightsky std-txt">samsung buy 4 save 10% <span class="line-through color-shadow">$1,509.39</span></div>
+                        <div class="product-card-price-value price price-XS">$1,499.40</div>
+                    </div>
+                  </div>
+                  <div class="pricing-cart algn-rght algn-lft-S">
+                    <div class="product-card-details">
+                        <div class="std-txt std-txt-XS mrg-XS color-slate">Recycle fee may apply <a href="javascript:void(0);">see details</a></div>
+                        <div class="product-card-note price price-note color-nightsky std-txt">was <span class="line-through color-shadow">$850.99</span></div>
+                        <div class="product-card-note price price-note color-nightsky std-txt">sale <span class="line-through color-shadow">$328.24</span></div>
+                        <div class="product-card-price-value price price-XS">$328.24</div>
+                    </div>
+                  </div>
+                  <div class="pricing-cart algn-rght algn-lft-S">
+                    <div class="product-card-details">
+                        <div class="std-txt std-txt-XS mrg-XS color-slate">Disposal fee may apply <a href="javascript:void(0);">see details</a></div>
+                        <div class="price price-promo mrg-XS color-penneyred">Marketing Label</div>
+                        <div class="product-card-note price price-note color-nightsky std-txt">was <span class="line-through color-shadow">$1,899.00</span></div>
+                        <div class="product-card-note price price-note color-nightsky std-txt">sale <span class="line-through color-shadow">$1,509.39</span></div>
+                        <div class="product-card-price-value price price-XS">$1,499.40</div>
+                    </div>
+                  </div>
+                  <div class="pricing-cart algn-rght algn-lft-S">
+                    <div class="product-card-details">
+                        <div class="std-txt std-txt-XS mrg-XS color-slate">Disposal fee may apply <a href="javascript:void(0);">see details</a></div>
+                        <div class="price price-promo mrg-XS color-penneyred">Marketing Label</div>
+                        <div class="product-card-note price price-note color-nightsky std-txt">was <span class="line-through color-shadow">$1,899.00</span></div>
+                        <div class="product-card-note price price-note color-nightsky std-txt">sale <span class="line-through color-shadow">$1,509.39</span></div>
+                        <div class="product-card-note price price-note color-nightsky std-txt">FUNDEAL <span class="color-penneyred">-$100.00</span></div>
+                        <div class="product-card-price-value price price-XS">$1,409.39</div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+        </div>
           </div>
         </div>
       </div>
