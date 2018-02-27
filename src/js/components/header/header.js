@@ -48,7 +48,7 @@ class Header extends Component {
             </div>
           </div>
         </div>
-        <div class="side-panel-row-wrap no-border no-bottom-padding">
+        <div class="side-panel-row-wrap no-border padding-bot-zero">
           <div class="side-panel-row">
             <div class="side-panel-col side-panel-col-select">
               <div class="dropdown-menu-block column mrg-M">
@@ -105,7 +105,7 @@ class Header extends Component {
           <div class="side-panel-row-wrap">
             <div class="side-panel-row">
               <div class="side-panel-col side-panel-col-details">
-                <h4 class="mrg-S">Stonebriar Mall <span class="change-my-store-mileage color-slate">(3.5mi)</span></h4>
+                <h4 class="mrg-S">Stonebriar Mall <span class=" color-slate">(3.5mi)</span></h4>
                 <p class="std-txt std-txt-S mrg-XS color-nightsky">2480 Preston Rd</p>
               </div>
               <div class="side-panel-col-button">
@@ -148,7 +148,7 @@ class Header extends Component {
           <div class="side-panel-row-wrap no-border">
             <div class="side-panel-row">
               <div class="side-panel-col side-panel-col-details">
-                <h4 class="mrg-S">Collin Creek Mall <span class="change-my-store-mileage color-slate">(5.2mi)</span></h4>
+                <h4 class="mrg-S">Collin Creek Mall <span class=" color-slate">(5.2mi)</span></h4>
                 <p class="std-txt std-txt-S mrg-XS color-nightsky">2480 Preston Rd</p>
               </div>
               <div class="side-panel-col-button">
@@ -445,23 +445,18 @@ class Header extends Component {
       }
     });
 
-
-    $('#menuPrimarySearch').unbind('focus').on('focus', function (event) {
-      if ($('#mainMenuSidePanelButton').filter(":visible").length < 1) { //Not the mobile nav
-        // $('.main-menu-bar-primary').css('height', $('.main-menu-bar-primary').height());
-        $('.main-menu-primary-search-form').css('width', $('.main-menu-primary-search').width());
-        $('.main-menu').addClass('main-menu-search-open');
-        $('.main-menu-primary-search-form').stop(true, false).animate({ width: $('.main-menu-primary-search').width() }, 400, function () {
-          $('.main-menu-primary-search-form').removeAttr('style');
-        });
-
-      }
-    });
-
-    $('#menuPrimarySearch').unbind('blur').on('blur', function (event) {
-      $('.main-menu-primary-search-form').stop(true, false).removeAttr('style');
-      $('.main-menu-bar-primary').removeAttr('style');
+    $('#menuPrimarySearch').focus(function() {
+    
+      $( ".main-menu-primary-rewards, .main-menu-primary-account" ).hide(400);
+      $(this).attr('data-default', $(this).width());
+      $(this).animate({ width: 1132 }, 400);
+    
+    }).blur(function() {
+    
       $('.main-menu').removeClass('main-menu-search-open');
+      $( ".main-menu-primary-rewards, .main-menu-primary-account" ).show(400);
+      $(this).animate({ width: 798 }, 400);
+    
     });
     
 
@@ -583,7 +578,7 @@ class Header extends Component {
                   <div class="side-panel-content">
                     <div class="main-menu-bar-secondary-container">
                       <div class="main-menu-secondary-left">
-                        <ul class="main-menu-secondary">
+                        <ul class="main-menu-secondary title title-s">
                           <li class="main-menu-secondary-li main-menu-secondary-li-shop-departments">
                             <button class="main-menu-secondary-shop-departments hide-for-medium-down">
                               <div class="main-menu-secondary-shop-departments-menu-svg icon color-nightsky-svg" dangerouslySetInnerHTML={{ __html: menuImage }} />

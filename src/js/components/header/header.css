@@ -82,6 +82,8 @@
 		}
 		& .search-close-icon {
 			top: 13px;
+			padding: 0;
+			margin-right: 20px;
 		}
 	}
 
@@ -115,6 +117,7 @@
 			& .tooltip {
 				padding-bottom: 0;
 				width: 250px;
+				padding: 16px 0;
 			}
 			& ul {
 				& .main-menu-primary-sign-rewards {
@@ -198,7 +201,7 @@
 		width: 140px;
 		padding-left: 5px;
 		& svg {
-			width: auto;
+			width: 94px;
 			height: 30px;
 			top: 6px;
     		position: relative;
@@ -224,31 +227,9 @@
 
 @media (--viewport-lg) {
 
-	.main-menu-primary {
-
-
-		& .main-menu-primary-search {
-			transition: width 200ms ease-in-out;
-		}
-
-	}
-
-
-	.main-menu-search-open {
-		
-		& .main-menu-primary {
+	 .main-menu-primary {
 			min-height: 62px;
-		}
-		& .main-menu-primary-rewards,
-		& .main-menu-primary-account {
-			display: none;
-		}
-		& .main-menu-primary-search {
-			& input[type=text] {
-				
-			}
-		}
-	}
+		} 
 	.main-menu-bar-secondary-container {
 		display: flex;
 		flex: 0 0 100%;

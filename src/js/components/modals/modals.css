@@ -7,7 +7,7 @@
     background-color: #fff;
     text-align: center;
     border: 1px solid var(--color-concrete);
-    max-width: 600px;
+    max-width: 720px;
     margin: 0 auto;
     padding: 48px;
     position: relative;
@@ -25,14 +25,14 @@
   
     & .modal-close{
       position: absolute;
-      top: 8px;
       display: block;
-      right: 8px;
       cursor: pointer;
       background: url("var(--path-images)global/icons/nav/close.svg") no-repeat;
-      width: 24px;
-      height: 24px;
       background-size: contain;
+      width: 16px;
+      height: 16px;
+      right: -6px;
+      top: 10px;
     }
   
     & .icon {
@@ -43,6 +43,9 @@
     }
     &.modal-S{
       width: 360px;
+      @media (--viewport-sm-only) {
+        width: 96%;
+      }
       padding: 32px 16px;
     }
     &.modal-M{
@@ -50,11 +53,18 @@
       @media (--viewport-lg) {
         max-width: 540px;
       }
-      padding: 36px 14px 0;
+      @media (--viewport-sm-only) {
+        width: 96%;
+      }
+      padding: 36px 14px 24px;
     }
     &.modal-L{
       @media (--viewport-lg) {
-        width: 600px;
+        width: 720px;
+        min-width: 600px;
+      }
+      @media (--viewport-sm-only) {
+        width: 96%;
       }
       padding: 40px 24px 24px;
     }
@@ -86,16 +96,6 @@
         }
         
       }
-    }
-    &.scroll-container{
-          max-width: 540px;
-          padding: 36px 14px 0;
-        & .modal-close{
-          width: 16px;
-          height: 16px;
-          right: -6px;
-          top: 10px;
-        }
     }
   }
   

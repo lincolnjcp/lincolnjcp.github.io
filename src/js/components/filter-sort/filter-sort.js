@@ -632,38 +632,39 @@ class FilterSort extends Component {
               </div>
             </div>
             <div class="row lg12 xl12 md12 sm12 nopad-sm color-lightgrey-bg filter-store-pick">
-              <div class="store-pickup column fl-left sm10 md10 lg8 xl9">
-                <label class="checkbox pos-rel">
-                  <input type="checkbox" /> <span><p class="title title-M"><span class="color-penneyred">FREE</span> Same Day Pickup at <a href="#"> Stonebriar Mall</a></p></span><span class="arrow"></span>
+              <div class="store-pickup pos-rel column fl-left sm10 md10 lg8 xl9">
+                <label class="checkbox">
+                  <input type="checkbox" /> <span><p class="std-txt color-nightsky"><span class="color-penneyred">FREE</span> Same Day Pickup at <a href="#"> Stonebriar Mall</a></p></span>
                 </label>
+                <span class="arrow"></span>
               </div>
 
-              <div class="dropdown-menu-block column md2 sm2 lg4 xl3 fl-right mrg-M nopad">
-                <div class="listIcon fl-right"></div>
-                <div class="hide-for-medium-only hide-for-small-only filter-dropdown-block">
-                  <a class="dropdown-button title-S">Sort by: <span class="sortby">Featured</span><span class="arrow"></span></a>
-                  <div class="dropdown-menu">
-                    <div class="tooltip tooltip-top-right filter-tooltip">
-                      <span>
-                        <ul class="dropdown-sort">
-                          <li class="dropdown-list">
-                            <a href="javascript:void(0)" class="sort-list">Featured</a>
-                          </li>
-                          <li class="dropdown-list">
-                            <a href="javascript:void(0)" class="sort-list">Best Sellers</a>
-                          </li>
-                          <li class="dropdown-list">
-                            <a href="javascript:void(0)" class="sort-list">New Arrivals</a>
-                          </li>
-                          <li class="dropdown-list">
-                            <a href="javascript:void(0)" class="sort-list">Price High to Low</a>
-                          </li>
-                        </ul>
-                      </span>
+              <div class="listIcon fl-right mrg-top-S"></div>
+              <div class="dropdown-menu-block column mrg-top-S mrg-rght-S hide-for-medium-only hide-for-small-only fl-right">
+                <div class="pos-rel fl-left">
+                    <a class="dropdown-button title-S">Sort by: <span class="sortby">Featured</span><span class="arrow"></span></a>
+                    <div class="dropdown-menu">
+                        <div class="tooltip tooltip-top-right">
+                            <span>
+                                <ul class="dropdown-sort">
+                                    <li class="dropdown-list">
+                                        <a href="javascript:void(0)" class="sort-list">Featured</a>
+                                    </li>
+                                    <li class="dropdown-list">
+                                        <a href="javascript:void(0)" class="sort-list">Best Sellers</a>
+                                    </li>
+                                    <li class="dropdown-list">
+                                        <a href="javascript:void(0)" class="sort-list">New Arrivals</a>
+                                    </li>
+                                    <li class="dropdown-list">
+                                        <a href="javascript:void(0)" class="sort-list">Price High to Low</a>
+                                    </li>
+                                </ul>
+                            </span>
+                        </div>
                     </div>
-                  </div>
                 </div>
-              </div>
+            </div>
             </div>
             <div class="lg12 xl12 md12 sm12 filter-tags hide-for-medium-only hide-for-small-only nopad">
               <div class="tags std-txt std-txt-S mrg-top-M">

@@ -86,6 +86,9 @@
       &.list-color-swatch-active{
         border: 2px solid var(--color-nightsky);
         box-shadow: inset 0px 0px 0px 5px var(--color-white);
+        @media (--viewport-sm-only) {
+          box-shadow: inset 0px 0px 0px 2px var(--color-white);
+        }
 
         &.list-color-swatch-oos:hover{
           border-color: var(--color-nightsky);

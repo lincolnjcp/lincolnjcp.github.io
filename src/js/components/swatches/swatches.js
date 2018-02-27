@@ -211,18 +211,13 @@ class Swatches extends Component {
                     <li>
                       <a href="javascript:void(0)" class="list-color-swatch"></a>
                     </li>
-                    <li class="swatches-list-icon">
-                      <a href="javascript:void(0)" class="list-color-swatch plus-expand">
-                        <span dangerouslySetInnerHTML={{ __html: plusImage }} />
-                      </a>
-                    </li>
                   </ul>
                   <span class="std-txt-label">Medium - Gallery (>5)</span>
                 </div>
                 <div class="color-swatches-small">
                   <ul class="list-product-colors-container">
                     <li>
-                      <a href="javascript:void(0)" class="list-color-swatch"></a>
+                      <a href="javascript:void(0)" class="list-color-swatch list-color-swatch-active"></a>
                     </li>
                     <li>
                       <a href="javascript:void(0)" class="list-color-swatch"></a>

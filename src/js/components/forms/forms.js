@@ -368,12 +368,10 @@ class Forms extends Component {
                                 <div class="row">
                                     <div class="sm12 md4 columns">
                                         <div class="position-rel search-block">
-                                            <div class="form-float-label">
-                                                <form>
-                                                    <input type="text" id="search" name="focus" placeholder="Search Products" required class="input-text placeholder-text" />
-                                                    <button class="search-close-icon" type="reset"></button>
-                                                </form>
-                                            </div>
+                                            <form>
+                                                <input type="text" id="search" name="focus" placeholder="Search Products" required class="input-text placeholder-text" />
+                                                <button class="search-close-icon" type="reset"></button>
+                                            </form>
                                             <span class="icon search-icon color-lipstick-svg" dangerouslySetInnerHTML={{ __html: searchIcon }} />
                                         </div>
                                     </div>
@@ -417,11 +415,8 @@ class Forms extends Component {
                                 <div class="row">
                                     <div class="sm12 md4 columns">
                                         <div class="position-rel">
-                                            <div class="form-float-label">
-                                                <input type="tel" id="zipcode" name="zipcode" placeholder="Enter Code" required class="input-text placeholder-text" />
-                                                <label htmlFor="zipcode">Enter Code</label>
-                                                <a href="javascript:void();" role="button" class="btn btn-S btn-primary apply-btn">Apply</a>
-                                            </div>
+                                            <input type="tel" id="zipcode" name="zipcode" placeholder="Enter Code" required class="input-text placeholder-text" />
+                                            <a href="javascript:void();" role="button" class="btn btn-S btn-primary apply-btn">Apply</a>
                                         </div>
                                     </div>
                                     <div class="sm12 md8 columns">

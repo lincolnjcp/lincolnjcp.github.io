@@ -19,7 +19,6 @@ import ProgressBar from '../components/progressbar';
 import Modals from '../components/modals';
 import Pricing from '../components/pricing';
 import VisualNavigation from '../components/visual-navigation';
-import Modal from '../components/modal';
 import CountdownTimers from '../components/countdown-timers';
 import Tooltips from '../components/tooltips';
 import Tabs from '../components/tabs';
@@ -64,7 +63,6 @@ class DesignSystemPage extends Component {
    Wells: {componentElement: Wells, componentDisplayName: "Wells", componentSubNav: ['Wells']},
    CountdownTimers: {componentElement: CountdownTimers, componentDisplayName: "Countdown Timers", componentSubNav: ['Countdown Timers']},
    VisualNavigation: {componentElement: VisualNavigation, componentDisplayName: "Visual Navigation", componentSubNav: ['Visual Navigation']},
-   Modal: {componentElement: Modal, componentDisplayName: "Modal", componentSubNav: ['Modal']},
    Lists: {componentElement: Lists, componentDisplayName: "Lists", componentSubNav: ['Lists']},
    Tooltips: {componentElement: Tooltips, componentDisplayName: "Tooltips", componentSubNav: ['Tooltips']},
    Tabs: {componentElement: Tabs, componentDisplayName: "Tabs", componentSubNav: ['Tabs']},

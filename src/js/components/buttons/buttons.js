@@ -226,10 +226,10 @@ class Buttons extends Component {
                     <div class="main-menu-secondary-left">
                         <div class="bg-color-penneyred"></div>
 
-                        <ul class="main-menu-secondary button-main-menu">
-                            <li class="main-menu-secondary-li main-menu-secondary-li-primary title title-S"><a href="javascript:void(0);">Gifts</a></li>
-                            <li class="main-menu-secondary-li main-menu-secondary-li-primary title title-S"><a href="javascript:void(0);">My List</a></li>
-                            <li class="main-menu-secondary-li main-menu-secondary-li-primary title title-S"><a href="javascript:void(0);">Coupons</a></li>
+                        <ul class="main-menu-secondary button-main-menu title title-S">
+                            <li class="main-menu-secondary-li main-menu-secondary-li-primary"><a href="javascript:void(0);">Gifts</a></li>
+                            <li class="main-menu-secondary-li main-menu-secondary-li-primary"><a href="javascript:void(0);">My List</a></li>
+                            <li class="main-menu-secondary-li main-menu-secondary-li-primary"><a href="javascript:void(0);">Coupons</a></li>
                         </ul>
                     </div>
 

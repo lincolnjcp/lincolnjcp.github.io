@@ -1527,10 +1527,10 @@ var buttons_Buttons = function (_Component) {
                         react_default.a.createElement('div', { 'class': 'bg-color-penneyred' }),
                         react_default.a.createElement(
                             'ul',
-                            { 'class': 'main-menu-secondary button-main-menu' },
+                            { 'class': 'main-menu-secondary button-main-menu title title-S' },
                             react_default.a.createElement(
                                 'li',
-                                { 'class': 'main-menu-secondary-li main-menu-secondary-li-primary title title-S' },
+                                { 'class': 'main-menu-secondary-li main-menu-secondary-li-primary' },
                                 react_default.a.createElement(
                                     'a',
                                     { href: 'javascript:void(0);' },
@@ -1539,7 +1539,7 @@ var buttons_Buttons = function (_Component) {
                             ),
                             react_default.a.createElement(
                                 'li',
-                                { 'class': 'main-menu-secondary-li main-menu-secondary-li-primary title title-S' },
+                                { 'class': 'main-menu-secondary-li main-menu-secondary-li-primary' },
                                 react_default.a.createElement(
                                     'a',
                                     { href: 'javascript:void(0);' },
@@ -1548,7 +1548,7 @@ var buttons_Buttons = function (_Component) {
                             ),
                             react_default.a.createElement(
                                 'li',
-                                { 'class': 'main-menu-secondary-li main-menu-secondary-li-primary title title-S' },
+                                { 'class': 'main-menu-secondary-li main-menu-secondary-li-primary' },
                                 react_default.a.createElement(
                                     'a',
                                     { href: 'javascript:void(0);' },
@@ -5035,6 +5035,7 @@ function alerts__inherits(subClass, superClass) { if (typeof superClass !== "fun
 
 
 var alerts_closeImage = __webpack_require__("oWX6");
+var closeImage2 = __webpack_require__("oWX6");
 
 var alerts_Alerts = function (_Component) {
     alerts__inherits(Alerts, _Component);
@@ -5095,7 +5096,7 @@ var alerts_Alerts = function (_Component) {
                             'div',
                             { 'class': 'msg msg-error mrg-XL' },
                             'Please select a size.',
-                            react_default.a.createElement('span', { 'class': 'icon msg-close color-error-type', dangerouslySetInnerHTML: { __html: alerts_closeImage } })
+                            react_default.a.createElement('span', { 'class': 'icon msg-close color-error-type', dangerouslySetInnerHTML: { __html: closeImage2 } })
                         ),
                         react_default.a.createElement(
                             'h4',
@@ -8954,14 +8955,10 @@ var forms_Forms = function (_Component) {
                                             'div',
                                             { 'class': 'position-rel search-block' },
                                             react_default.a.createElement(
-                                                'div',
-                                                { 'class': 'form-float-label' },
-                                                react_default.a.createElement(
-                                                    'form',
-                                                    null,
-                                                    react_default.a.createElement('input', { type: 'text', id: 'search', name: 'focus', placeholder: 'Search Products', required: true, 'class': 'input-text placeholder-text' }),
-                                                    react_default.a.createElement('button', { 'class': 'search-close-icon', type: 'reset' })
-                                                )
+                                                'form',
+                                                null,
+                                                react_default.a.createElement('input', { type: 'text', id: 'search', name: 'focus', placeholder: 'Search Products', required: true, 'class': 'input-text placeholder-text' }),
+                                                react_default.a.createElement('button', { 'class': 'search-close-icon', type: 'reset' })
                                             ),
                                             react_default.a.createElement('span', { 'class': 'icon search-icon color-lipstick-svg', dangerouslySetInnerHTML: { __html: searchIcon } })
                                         )
@@ -9072,20 +9069,11 @@ var forms_Forms = function (_Component) {
                                         react_default.a.createElement(
                                             'div',
                                             { 'class': 'position-rel' },
+                                            react_default.a.createElement('input', { type: 'tel', id: 'zipcode', name: 'zipcode', placeholder: 'Enter Code', required: true, 'class': 'input-text placeholder-text' }),
                                             react_default.a.createElement(
-                                                'div',
-                                                { 'class': 'form-float-label' },
-                                                react_default.a.createElement('input', { type: 'tel', id: 'zipcode', name: 'zipcode', placeholder: 'Enter Code', required: true, 'class': 'input-text placeholder-text' }),
-                                                react_default.a.createElement(
-                                                    'label',
-                                                    { htmlFor: 'zipcode' },
-                                                    'Enter Code'
-                                                ),
-                                                react_default.a.createElement(
-                                                    'a',
-                                                    { href: 'javascript:void();', role: 'button', 'class': 'btn btn-S btn-primary apply-btn' },
-                                                    'Apply'
-                                                )
+                                                'a',
+                                                { href: 'javascript:void();', role: 'button', 'class': 'btn btn-S btn-primary apply-btn' },
+                                                'Apply'
                                             )
                                         )
                                     ),
@@ -9983,139 +9971,138 @@ function scrollbar__inherits(subClass, superClass) { if (typeof superClass !== "
 
 
 var scrollbar_Scrollbar = function (_Component) {
-    scrollbar__inherits(Scrollbar, _Component);
+  scrollbar__inherits(Scrollbar, _Component);
 
-    function Scrollbar() {
-        scrollbar__classCallCheck(this, Scrollbar);
+  function Scrollbar() {
+    scrollbar__classCallCheck(this, Scrollbar);
 
-        return scrollbar__possibleConstructorReturn(this, (Scrollbar.__proto__ || Object.getPrototypeOf(Scrollbar)).apply(this, arguments));
+    return scrollbar__possibleConstructorReturn(this, (Scrollbar.__proto__ || Object.getPrototypeOf(Scrollbar)).apply(this, arguments));
+  }
+
+  scrollbar__createClass(Scrollbar, [{
+    key: 'componentDidMount',
+    value: function componentDidMount() {
+      (function () {
+
+        var scrollContainer = document.querySelector('.scrollable'),
+            scrollContentWrapper = document.querySelector('.scrollable .scroll-content-wrapper'),
+            scrollContent = document.querySelector('.scrollable .scroll-content'),
+            contentPosition = 0,
+            scrollerBeingDragged = false,
+            scroller,
+            topPosition,
+            scrollerHeight;
+
+        function calculateScrollerHeight() {
+          // *Calculation of how tall scroller should be
+          var visibleRatio = scrollContainer.offsetHeight / scrollContentWrapper.scrollHeight;
+          return visibleRatio * scrollContainer.offsetHeight;
+        }
+
+        function moveScroller(evt) {
+          // Move Scroll bar to top offset
+          var scrollPercentage = evt.target.scrollTop / scrollContentWrapper.scrollHeight;
+          topPosition = scrollPercentage * (scrollContainer.offsetHeight - 5); // 5px arbitrary offset so scroll bar doesn't move too far beyond content wrapper bounding box
+          scroller.style.top = topPosition + 'px';
+        }
+
+        function startDrag(evt) {
+          normalizedPosition = evt.pageY;
+          contentPosition = scrollContentWrapper.scrollTop;
+          scrollerBeingDragged = true;
+        }
+
+        function stopDrag(evt) {
+          scrollerBeingDragged = false;
+        }
+
+        function scrollBarScroll(evt) {
+          if (scrollerBeingDragged === true) {
+            var mouseDifferential = evt.pageY - normalizedPosition;
+            var scrollEquivalent = mouseDifferential * (scrollContentWrapper.scrollHeight / scrollContainer.offsetHeight);
+            scrollContentWrapper.scrollTop = contentPosition + scrollEquivalent;
+          }
+        }
+
+        function createScroller() {
+          // *Creates scroller element and appends to '.scrollable' div
+          // create scroller element
+          scroller = document.createElement("div");
+          scroller.className = 'scroller';
+
+          // determine how big scroller should be based on content
+          scrollerHeight = calculateScrollerHeight();
+
+          if (scrollerHeight / scrollContainer.offsetHeight < 1) {
+            // *If there is a need to have scroll bar based on content size
+            scroller.style.height = scrollerHeight + 'px';
+
+            // append scroller to scrollContainer div
+            scrollContainer.appendChild(scroller);
+
+            // show scroll path divot
+            scrollContainer.className += ' showScroll';
+
+            // attach related draggable listeners
+            scroller.addEventListener('mousedown', startDrag);
+            window.addEventListener('mouseup', stopDrag);
+            window.addEventListener('mousemove', scrollBarScroll);
+          }
+        }
+
+        createScroller();
+        // *** Listeners ***
+        scrollContentWrapper.addEventListener('scroll', moveScroller);
+      })();
     }
-
-    scrollbar__createClass(Scrollbar, [{
-        key: 'componentDidMount',
-        value: function componentDidMount() {
-            (function () {
-
-                var scrollContainer = document.querySelector('.scrollable'),
-                    scrollContentWrapper = document.querySelector('.scrollable .scroll-content-wrapper'),
-                    scrollContent = document.querySelector('.scrollable .scroll-content'),
-                    contentPosition = 0,
-                    scrollerBeingDragged = false,
-                    scroller,
-                    topPosition,
-                    scrollerHeight;
-
-                function calculateScrollerHeight() {
-                    // *Calculation of how tall scroller should be
-                    var visibleRatio = scrollContainer.offsetHeight / scrollContentWrapper.scrollHeight;
-                    return visibleRatio * scrollContainer.offsetHeight;
-                }
-
-                function moveScroller(evt) {
-                    // Move Scroll bar to top offset
-                    var scrollPercentage = evt.target.scrollTop / scrollContentWrapper.scrollHeight;
-                    topPosition = scrollPercentage * (scrollContainer.offsetHeight - 5); // 5px arbitrary offset so scroll bar doesn't move too far beyond content wrapper bounding box
-                    scroller.style.top = topPosition + 'px';
-                }
-
-                function startDrag(evt) {
-                    normalizedPosition = evt.pageY;
-                    contentPosition = scrollContentWrapper.scrollTop;
-                    scrollerBeingDragged = true;
-                }
-
-                function stopDrag(evt) {
-                    scrollerBeingDragged = false;
-                }
-
-                function scrollBarScroll(evt) {
-                    if (scrollerBeingDragged === true) {
-                        var mouseDifferential = evt.pageY - normalizedPosition;
-                        var scrollEquivalent = mouseDifferential * (scrollContentWrapper.scrollHeight / scrollContainer.offsetHeight);
-                        scrollContentWrapper.scrollTop = contentPosition + scrollEquivalent;
-                    }
-                }
-
-                function createScroller() {
-                    // *Creates scroller element and appends to '.scrollable' div
-                    // create scroller element
-                    scroller = document.createElement("div");
-                    scroller.class = 'scroller';
-
-                    // determine how big scroller should be based on content
-                    scrollerHeight = calculateScrollerHeight();
-
-                    if (scrollerHeight / scrollContainer.offsetHeight < 1) {
-                        // *If there is a need to have scroll bar based on content size
-                        scroller.style.height = scrollerHeight + 'px';
-
-                        // append scroller to scrollContainer div
-                        scrollContainer.appendChild(scroller);
-
-                        // show scroll path divot
-                        scrollContainer.class += ' showScroll';
-
-                        // attach related draggable listeners
-                        scroller.addEventListener('mousedown', startDrag);
-                        window.addEventListener('mouseup', stopDrag);
-                        window.addEventListener('mousemove', scrollBarScroll);
-                    }
-                }
-
-                createScroller();
-
-                // *** Listeners ***
-                scrollContentWrapper.addEventListener('scroll', moveScroller);
-            })();
-        }
-    }, {
-        key: 'render',
-        value: function render() {
-            return react_default.a.createElement(
+  }, {
+    key: 'render',
+    value: function render() {
+      return react_default.a.createElement(
+        'div',
+        null,
+        react_default.a.createElement(
+          'div',
+          { 'class': 'row' },
+          react_default.a.createElement(
+            'div',
+            { 'class': 'padding-25' },
+            react_default.a.createElement(
+              'div',
+              { className: 'modal elevation-2 scroll-container modal-L' },
+              react_default.a.createElement('button', { className: 'modal-close', title: 'close' }),
+              react_default.a.createElement(
                 'div',
-                null,
+                { className: 'scroll-block custom-scroll scrollable' },
                 react_default.a.createElement(
+                  'div',
+                  { className: 'scroll-content-wrapper' },
+                  react_default.a.createElement(
                     'div',
-                    { 'class': 'row' },
+                    { className: 'scroll-content' },
                     react_default.a.createElement(
-                        'div',
-                        { 'class': 'padding-25' },
-                        react_default.a.createElement(
-                            'div',
-                            { 'class': 'modal scroll-container' },
-                            react_default.a.createElement('button', { 'class': 'modal-close', title: 'close' }),
-                            react_default.a.createElement(
-                                'div',
-                                { 'class': 'scroll-block custom-scroll scrollable' },
-                                react_default.a.createElement(
-                                    'div',
-                                    { 'class': 'scroll-content-wrapper' },
-                                    react_default.a.createElement(
-                                        'div',
-                                        { 'class': 'scroll-content' },
-                                        react_default.a.createElement(
-                                            'h2',
-                                            { 'class': 'title title-L test mrg-XS' },
-                                            '10 Year Mattress Encasement Plan Twin'
-                                        ),
-                                        react_default.a.createElement(
-                                            'h4',
-                                            { 'class': 'title-M title mrg-M' },
-                                            'Sealy Essentials\u2122 Holly Hills Firm - Mattress + Box Spring'
-                                        ),
-                                        'BEDGARD ENCASEMENT: 10 Year Plan with Encasement: For new residential mattresses purchased in conjunction with a BedGard Encasement. Coverage includes: All accidental stains (excluding accumulations). Construction of Mattress Protector. WHY BEDGARD ENCASEMENT? The manufacturer of the mattress will void the warranty if the mattress is stained. A full encasement reduces conditions which attract dust mites, allergens and bed bugs. HOW DOES IT WORK? Customers purchase and use the BedGard Protector along with their new residential mattress. If their mattress becomes stained during normal residential use while using the protector, the affected portion or the complete mattress will be repaired or replaced!HOW LONG IS COVERAGE? The BedGard Product Limited Warranty is effective for ten (10) years from the date the customer takes delivery of the Mattress Protector and the Mattress. WHAT PROBLEMS ARE COVERED? Construction and staining of the BedGard Mattress Protector/Pad. All accidental stains attributed to a single occurrence (excluding accumulation defined as a gradual buildup of dirt, dust, body oils and perspiration). HOW LONG DOES THE CUSTOMER HAVE TO REPORT A PROBLEM? Problems must be reported within ten (10) days of occurrence of the stain or damage. BEDGARD ENCASEMENT: 10 Year Plan with Encasement: For new residential mattresses purchased in conjunction with a BedGard Encasement. Coverage includes: All accidental stains (excluding accumulations). Construction of Mattress Protector. WHY BEDGARD ENCASEMENT? The manufacturer of the mattress will void the warranty if the mattress is stained. A full encasement reduces conditions which attract dust mites, allergens and bed bugs. HOW DOES IT WORK? Customers purchase and use the BedGard Protector along with their new residential mattress. If their mattress becomes stained during normal residential use while using the protector, the affected portion or the complete mattress will be repaired or replaced!HOW LONG IS COVERAGE? The BedGard Product Limited Warranty is effective for ten (10) years from the date the customer takes delivery of the Mattress Protector and the Mattress. WHAT PROBLEMS ARE COVERED? Construction and staining of the BedGard Mattress Protector/Pad. All accidental stains attributed to a single occurrence (excluding accumulation defined as a gradual buildup of dirt, dust, body oils and perspiration). HOW LONG DOES THE CUSTOMER HAVE TO REPORT A PROBLEM? Problems must be reported within ten (10) days of occurrence of the stain or damage.'
-                                    )
-                                )
-                            ),
-                            react_default.a.createElement('div', { 'class': 'scroll-block-fade' })
-                        )
-                    )
+                      'h2',
+                      { className: 'title title-L test mrg-XS' },
+                      '10 Year Mattress Encasement Plan Twin'
+                    ),
+                    react_default.a.createElement(
+                      'h4',
+                      { className: 'title-M title mrg-M' },
+                      'Sealy Essentials\u2122 Holly Hills Firm - Mattress + Box Spring'
+                    ),
+                    'BEDGARD ENCASEMENT: 10 Year Plan with Encasement: For new residential mattresses purchased in conjunction with a BedGard Encasement. Coverage includes: All accidental stains (excluding accumulations). Construction of Mattress Protector. WHY BEDGARD ENCASEMENT? The manufacturer of the mattress will void the warranty if the mattress is stained. A full encasement reduces conditions which attract dust mites, allergens and bed bugs. HOW DOES IT WORK? Customers purchase and use the BedGard Protector along with their new residential mattress. If their mattress becomes stained during normal residential use while using the protector, the affected portion or the complete mattress will be repaired or replaced!HOW LONG IS COVERAGE? The BedGard Product Limited Warranty is effective for ten (10) years from the date the customer takes delivery of the Mattress Protector and the Mattress. WHAT PROBLEMS ARE COVERED? Construction and staining of the BedGard Mattress Protector/Pad. All accidental stains attributed to a single occurrence (excluding accumulation defined as a gradual buildup of dirt, dust, body oils and perspiration). HOW LONG DOES THE CUSTOMER HAVE TO REPORT A PROBLEM? Problems must be reported within ten (10) days of occurrence of the stain or damage. BEDGARD ENCASEMENT: 10 Year Plan with Encasement: For new residential mattresses purchased in conjunction with a BedGard Encasement. Coverage includes: All accidental stains (excluding accumulations). Construction of Mattress Protector. WHY BEDGARD ENCASEMENT? The manufacturer of the mattress will void the warranty if the mattress is stained. A full encasement reduces conditions which attract dust mites, allergens and bed bugs. HOW DOES IT WORK? Customers purchase and use the BedGard Protector along with their new residential mattress. If their mattress becomes stained during normal residential use while using the protector, the affected portion or the complete mattress will be repaired or replaced!HOW LONG IS COVERAGE? The BedGard Product Limited Warranty is effective for ten (10) years from the date the customer takes delivery of the Mattress Protector and the Mattress. WHAT PROBLEMS ARE COVERED? Construction and staining of the BedGard Mattress Protector/Pad. All accidental stains attributed to a single occurrence (excluding accumulation defined as a gradual buildup of dirt, dust, body oils and perspiration). HOW LONG DOES THE CUSTOMER HAVE TO REPORT A PROBLEM? Problems must be reported within ten (10) days of occurrence of the stain or damage.'
+                  )
                 )
-            );
-        }
-    }]);
+              ),
+              react_default.a.createElement('div', { className: 'scroll-block-fade' })
+            )
+          )
+        )
+      );
+    }
+  }]);
 
-    return Scrollbar;
+  return Scrollbar;
 }(react["Component"]);
 
 var scrollbar__default = scrollbar_Scrollbar;
@@ -10125,13 +10112,13 @@ var scrollbar__default = scrollbar_Scrollbar;
 ;
 
 var scrollbar__temp = function () {
-    if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-        return;
-    }
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
 
-    __REACT_HOT_LOADER__.register(scrollbar_Scrollbar, 'Scrollbar', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/scrollbar/scrollbar.js');
+  __REACT_HOT_LOADER__.register(scrollbar_Scrollbar, 'Scrollbar', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/scrollbar/scrollbar.js');
 
-    __REACT_HOT_LOADER__.register(scrollbar__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/scrollbar/scrollbar.js');
+  __REACT_HOT_LOADER__.register(scrollbar__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/scrollbar/scrollbar.js');
 }();
 
 ;
@@ -10792,7 +10779,6 @@ var modals_Modals = function (_Component) {
         }
 
         createScroller();
-
         // *** Listeners ***
         scrollContentWrapper.addEventListener('scroll', moveScroller);
       })();
@@ -10809,7 +10795,7 @@ var modals_Modals = function (_Component) {
           react_default.a.createElement('div', { className: 'modal-overlay' }),
           react_default.a.createElement(
             'div',
-            { className: 'modal modal-S' },
+            { className: 'modal elevation-2 modal-S' },
             react_default.a.createElement('button', { className: 'modal-close', title: 'close' }),
             react_default.a.createElement(
               'h2',
@@ -10836,7 +10822,7 @@ var modals_Modals = function (_Component) {
           react_default.a.createElement('br', null),
           react_default.a.createElement(
             'div',
-            { className: 'modal modal-L text-left' },
+            { className: 'modal elevation-2 modal-L text-left' },
             react_default.a.createElement('button', { className: 'modal-close', title: 'close' }),
             react_default.a.createElement(
               'h2',
@@ -10882,7 +10868,7 @@ var modals_Modals = function (_Component) {
           react_default.a.createElement('br', null),
           react_default.a.createElement(
             'div',
-            { className: 'modal modal-S' },
+            { className: 'modal elevation-2 modal-S' },
             react_default.a.createElement('button', { className: 'modal-close', title: 'close' }),
             react_default.a.createElement('span', { className: 'icon', dangerouslySetInnerHTML: { __html: modals_errorImage } }),
             react_default.a.createElement(
@@ -10910,7 +10896,7 @@ var modals_Modals = function (_Component) {
           react_default.a.createElement('br', null),
           react_default.a.createElement(
             'div',
-            { className: 'modal modal-S' },
+            { className: 'modal elevation-2 modal-S' },
             react_default.a.createElement('button', { className: 'modal-close', title: 'close' }),
             react_default.a.createElement(
               'p',
@@ -10936,7 +10922,7 @@ var modals_Modals = function (_Component) {
           react_default.a.createElement('br', null),
           react_default.a.createElement(
             'div',
-            { className: 'modal modal-S' },
+            { className: 'modal elevation-2 modal-S' },
             react_default.a.createElement('button', { className: 'modal-close', title: 'close' }),
             react_default.a.createElement('span', { className: 'icon', dangerouslySetInnerHTML: { __html: modals_successImage } }),
             react_default.a.createElement(
@@ -10959,7 +10945,7 @@ var modals_Modals = function (_Component) {
           react_default.a.createElement('br', null),
           react_default.a.createElement(
             'div',
-            { className: 'modal scroll-container modal-L' },
+            { className: 'modal elevation-2 scroll-container modal-L' },
             react_default.a.createElement('button', { className: 'modal-close', title: 'close' }),
             react_default.a.createElement(
               'div',
@@ -10990,7 +10976,38 @@ var modals_Modals = function (_Component) {
           react_default.a.createElement('br', null),
           react_default.a.createElement(
             'div',
-            { className: 'modal scroll-container modal-L' },
+            { className: 'modal elevation-2 scroll-container modal-M' },
+            react_default.a.createElement('button', { className: 'modal-close', title: 'close' }),
+            react_default.a.createElement(
+              'div',
+              { className: 'scroll-block custom-scroll scrollable' },
+              react_default.a.createElement(
+                'div',
+                { className: 'scroll-content-wrapper' },
+                react_default.a.createElement(
+                  'div',
+                  { className: 'scroll-content' },
+                  react_default.a.createElement(
+                    'h2',
+                    { className: 'title title-L test mrg-XS' },
+                    '10 Year Mattress Encasement Plan Twin'
+                  ),
+                  react_default.a.createElement(
+                    'h4',
+                    { className: 'title-M title mrg-M' },
+                    'Sealy Essentials\u2122 Holly Hills Firm - Mattress + Box Spring'
+                  ),
+                  'BEDGARD ENCASEMENT: 10 Year Plan with Encasement: For new residential mattresses purchased in conjunction with a BedGard Encasement. Coverage includes: All accidental stains (excluding accumulations). Construction of Mattress Protector. WHY BEDGARD ENCASEMENT? The manufacturer of the mattress will void the warranty if the mattress is stained. A full encasement reduces conditions which attract dust mites, allergens and bed bugs. HOW DOES IT WORK? Customers purchase and use the BedGard Protector along with their new residential mattress. If their mattress becomes stained during normal residential use while using the protector, the affected portion or the complete mattress will be repaired or replaced!HOW LONG IS COVERAGE? The BedGard Product Limited Warranty is effective for ten (10) years from the date the customer takes delivery of the Mattress Protector and the Mattress. WHAT PROBLEMS ARE COVERED? Construction and staining of the BedGard Mattress Protector/Pad. All accidental stains attributed to a single occurrence (excluding accumulation defined as a gradual buildup of dirt, dust, body oils and perspiration). HOW LONG DOES THE CUSTOMER HAVE TO REPORT A PROBLEM? Problems must be reported within ten (10) days of occurrence of the stain or damage. BEDGARD ENCASEMENT: 10 Year Plan with Encasement: For new residential mattresses purchased in conjunction with a BedGard Encasement. Coverage includes: All accidental stains (excluding accumulations). Construction of Mattress Protector. WHY BEDGARD ENCASEMENT? The manufacturer of the mattress will void the warranty if the mattress is stained. A full encasement reduces conditions which attract dust mites, allergens and bed bugs. HOW DOES IT WORK? Customers purchase and use the BedGard Protector along with their new residential mattress. If their mattress becomes stained during normal residential use while using the protector, the affected portion or the complete mattress will be repaired or replaced!HOW LONG IS COVERAGE? The BedGard Product Limited Warranty is effective for ten (10) years from the date the customer takes delivery of the Mattress Protector and the Mattress. WHAT PROBLEMS ARE COVERED? Construction and staining of the BedGard Mattress Protector/Pad. All accidental stains attributed to a single occurrence (excluding accumulation defined as a gradual buildup of dirt, dust, body oils and perspiration). HOW LONG DOES THE CUSTOMER HAVE TO REPORT A PROBLEM? Problems must be reported within ten (10) days of occurrence of the stain or damage.'
+                )
+              )
+            ),
+            react_default.a.createElement('div', { className: 'scroll-block-fade' })
+          ),
+          react_default.a.createElement('br', null),
+          react_default.a.createElement('br', null),
+          react_default.a.createElement(
+            'div',
+            { className: 'modal elevation-2 scroll-container modal-L' },
             react_default.a.createElement('button', { className: 'modal-close', title: 'close' }),
             react_default.a.createElement(
               'div',
@@ -11008,11 +11025,11 @@ var modals_Modals = function (_Component) {
           react_default.a.createElement('br', null),
           react_default.a.createElement(
             'div',
-            { className: 'modal form-modal modal-L' },
+            { className: 'modal elevation-2 form-modal elevation-2 modal-M input-form' },
             react_default.a.createElement('button', { className: 'modal-close', title: 'close' }),
             react_default.a.createElement(
               'h2',
-              { className: 'title title-L' },
+              { className: 'title title-L algn-lft algn-lft mrg-XS' },
               'Send by Email'
             ),
             react_default.a.createElement(
@@ -11020,14 +11037,23 @@ var modals_Modals = function (_Component) {
               { className: 'mrg-XL std-txt std-txt-M fl-left' },
               react_default.a.createElement(
                 'h4',
-                { 'class': 'title-M title mrg-XS' },
+                { 'class': 'title-M title mrg-XS color-slate' },
                 ' Send a copy of your list to up to 10 email addresses '
               )
             ),
             react_default.a.createElement(
               'div',
-              { className: 'form-group column' },
-              react_default.a.createElement('input', { className: 'form-control input-text ', type: 'text', placeholder: 'To' })
+              { 'class': 'input-group' },
+              react_default.a.createElement(
+                'div',
+                { 'class': 'form-float-label' },
+                react_default.a.createElement('input', { 'class': 'form-control email-text input-text', id: 'email', type: 'text', placeholder: 'To ' }),
+                react_default.a.createElement(
+                  'label',
+                  { htmlFor: 'email' },
+                  'To'
+                )
+              )
             ),
             react_default.a.createElement(
               'h4',
@@ -11036,19 +11062,31 @@ var modals_Modals = function (_Component) {
             ),
             react_default.a.createElement(
               'div',
-              { className: 'form-group column' },
-              react_default.a.createElement('textarea', { 'class': 'form-control text-area', name: 'instructions', placeholder: 'Your Message' }),
+              { 'class': 'input-group' },
+              react_default.a.createElement(
+                'div',
+                { 'class': 'form-float-label' },
+                react_default.a.createElement('textarea', { 'class': 'form-control input-text text-area', name: 'instructions', placeholder: 'Your Message' }),
+                react_default.a.createElement(
+                  'label',
+                  { htmlFor: 'instructions' },
+                  'Your Message'
+                )
+              )
+            ),
+            react_default.a.createElement(
+              'div',
+              { 'class': 'input-group' },
               react_default.a.createElement(
                 'label',
-                { 'class': 'checkbox mrg-M fl-left' },
-                react_default.a.createElement('input', { type: 'checkbox', value: 'on' }),
+                { 'class': 'checkbox mrg-M mrg-top-S algn-lft' },
+                react_default.a.createElement('input', { type: 'checkbox' }),
                 ' ',
                 react_default.a.createElement(
                   'span',
                   null,
                   'Send me a copy'
-                ),
-                ' '
+                )
               )
             ),
             react_default.a.createElement(
@@ -15118,413 +15156,6 @@ var components_visual_navigation__temp = function () {
 }();
 
 ;
-// CONCATENATED MODULE: ./src/js/components/modal/modal.js
-var modal__createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-function modal__classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function modal__possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function modal__inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-
-
-var modal_errorImage = __webpack_require__("ejGt");
-var modal_successImage = __webpack_require__("GuGm");
-
-var modal_Modal = function (_Component) {
-  modal__inherits(Modal, _Component);
-
-  function Modal() {
-    modal__classCallCheck(this, Modal);
-
-    return modal__possibleConstructorReturn(this, (Modal.__proto__ || Object.getPrototypeOf(Modal)).apply(this, arguments));
-  }
-
-  modal__createClass(Modal, [{
-    key: 'componentDidMount',
-    value: function componentDidMount() {
-
-      (function () {
-
-        var scrollContainer = document.querySelector('.scrollable'),
-            scrollContentWrapper = document.querySelector('.scrollable .scroll-content-wrapper'),
-            scrollContent = document.querySelector('.scrollable .scroll-content'),
-            contentPosition = 0,
-            scrollerBeingDragged = false,
-            scroller,
-            topPosition,
-            scrollerHeight;
-
-        function calculateScrollerHeight() {
-          // *Calculation of how tall scroller should be
-          var visibleRatio = scrollContainer.offsetHeight / scrollContentWrapper.scrollHeight;
-          return visibleRatio * scrollContainer.offsetHeight;
-        }
-
-        function moveScroller(evt) {
-          // Move Scroll bar to top offset
-          var scrollPercentage = evt.target.scrollTop / scrollContentWrapper.scrollHeight;
-          topPosition = scrollPercentage * (scrollContainer.offsetHeight - 5); // 5px arbitrary offset so scroll bar doesn't move too far beyond content wrapper bounding box
-          scroller.style.top = topPosition + 'px';
-        }
-
-        function startDrag(evt) {
-          normalizedPosition = evt.pageY;
-          contentPosition = scrollContentWrapper.scrollTop;
-          scrollerBeingDragged = true;
-        }
-
-        function stopDrag(evt) {
-          scrollerBeingDragged = false;
-        }
-
-        function scrollBarScroll(evt) {
-          if (scrollerBeingDragged === true) {
-            var mouseDifferential = evt.pageY - normalizedPosition;
-            var scrollEquivalent = mouseDifferential * (scrollContentWrapper.scrollHeight / scrollContainer.offsetHeight);
-            scrollContentWrapper.scrollTop = contentPosition + scrollEquivalent;
-          }
-        }
-
-        function createScroller() {
-          // *Creates scroller element and appends to '.scrollable' div
-          // create scroller element
-          scroller = document.createElement("div");
-          scroller.className = 'scroller';
-
-          // determine how big scroller should be based on content
-          scrollerHeight = calculateScrollerHeight();
-
-          if (scrollerHeight / scrollContainer.offsetHeight < 1) {
-            // *If there is a need to have scroll bar based on content size
-            scroller.style.height = scrollerHeight + 'px';
-
-            // append scroller to scrollContainer div
-            scrollContainer.appendChild(scroller);
-
-            // show scroll path divot
-            scrollContainer.className += ' showScroll';
-
-            // attach related draggable listeners
-            scroller.addEventListener('mousedown', startDrag);
-            window.addEventListener('mouseup', stopDrag);
-            window.addEventListener('mousemove', scrollBarScroll);
-          }
-        }
-
-        createScroller();
-
-        // *** Listeners ***
-        scrollContentWrapper.addEventListener('scroll', moveScroller);
-      })();
-    }
-  }, {
-    key: 'render',
-    value: function render() {
-      return react_default.a.createElement(
-        'div',
-        null,
-        react_default.a.createElement(
-          'div',
-          { className: 'row' },
-          react_default.a.createElement('div', { className: 'modal-overlay' }),
-          react_default.a.createElement(
-            'div',
-            { className: 'modal modal-S' },
-            react_default.a.createElement('button', { className: 'modal-close', title: 'close' }),
-            react_default.a.createElement(
-              'h2',
-              { className: 'title title-L mrg-M' },
-              'Delete Address'
-            ),
-            react_default.a.createElement(
-              'p',
-              { className: 'mrg-XL std-txt std-txt-M' },
-              'Are you sure you want to delete this address from your account?'
-            ),
-            react_default.a.createElement(
-              'a',
-              { href: 'javascript:void();', role: 'button', className: 'btn btn-secondary btn-M title title-M mrg-rght-S btn-grey-txt' },
-              'No'
-            ),
-            react_default.a.createElement(
-              'a',
-              { href: 'javascript:void();', role: 'button', className: 'btn btn-primary btn-M title title-M' },
-              'Yes'
-            )
-          ),
-          react_default.a.createElement('br', null),
-          react_default.a.createElement('br', null),
-          react_default.a.createElement(
-            'div',
-            { className: 'modal modal-L text-left' },
-            react_default.a.createElement('button', { className: 'modal-close', title: 'close' }),
-            react_default.a.createElement(
-              'h2',
-              { className: 'title title-L mrg-M' },
-              'Truckable Item Delivery'
-            ),
-            react_default.a.createElement(
-              'p',
-              { className: 'std-txt std-txt-M mrg-L' },
-              'Some heavy or bulky items cannot be delivered via UPS, USPS or FedEx. These items must be delivered via truck.'
-            ),
-            react_default.a.createElement(
-              'ul',
-              { className: 'mrg-XL std-txt std-txt-M list' },
-              react_default.a.createElement(
-                'li',
-                null,
-                'Additional delivery charges may apply and will be reflected at checkout.'
-              ),
-              react_default.a.createElement(
-                'li',
-                null,
-                'You will be contacted in 7 to 14 days from the time the item is shipped to schedule a delivery appointment.'
-              ),
-              react_default.a.createElement(
-                'li',
-                null,
-                'After delivery, you may be contacted about your satisfaction.'
-              ),
-              react_default.a.createElement(
-                'li',
-                null,
-                'All contacts may be automated calls to the number you provided for delivery.'
-              ),
-              react_default.a.createElement(
-                'li',
-                null,
-                'You must be present to accept delivery.'
-              )
-            )
-          ),
-          react_default.a.createElement('br', null),
-          react_default.a.createElement('br', null),
-          react_default.a.createElement(
-            'div',
-            { className: 'modal modal-S' },
-            react_default.a.createElement('button', { className: 'modal-close', title: 'close' }),
-            react_default.a.createElement('span', { className: 'icon', dangerouslySetInnerHTML: { __html: modal_errorImage } }),
-            react_default.a.createElement(
-              'h2',
-              { className: 'title title-L mrg-M' },
-              'Account Locked'
-            ),
-            react_default.a.createElement(
-              'div',
-              { className: 'std-txt std-txt-M mrg-M' },
-              'Check the email ',
-              react_default.a.createElement(
-                'em',
-                { 'class': 'email-text' },
-                'username@emaildomain.com'
-              ),
-              'for instructions on how to unlock it.'
-            ),
-            react_default.a.createElement(
-              'a',
-              { href: 'javascript:void();', role: 'button', className: 'btn btn-secondary btn-M title title-M btn-grey-txt' },
-              'Ok'
-            )
-          ),
-          react_default.a.createElement('br', null),
-          react_default.a.createElement(
-            'div',
-            { className: 'modal modal-S' },
-            react_default.a.createElement('button', { className: 'modal-close', title: 'close' }),
-            react_default.a.createElement(
-              'p',
-              { className: 'mrg-S' },
-              'Online & In Store'
-            ),
-            react_default.a.createElement(
-              'h2',
-              { className: 'promo-lbl promo-lbl-XL mrg-S' },
-              'Extra 15% OFF'
-            ),
-            react_default.a.createElement(
-              'p',
-              { className: 'mrg-XL' },
-              'Show coupon to sales associate'
-            ),
-            react_default.a.createElement(
-              'a',
-              { href: 'javascript:void();', role: 'button', className: 'btn btn-secondary btn-M title title-M btn-grey-txt' },
-              'Print Coupon'
-            )
-          ),
-          react_default.a.createElement('br', null),
-          react_default.a.createElement(
-            'div',
-            { className: 'modal modal-S' },
-            react_default.a.createElement('button', { className: 'modal-close', title: 'close' }),
-            react_default.a.createElement('span', { className: 'icon', dangerouslySetInnerHTML: { __html: modal_successImage } }),
-            react_default.a.createElement(
-              'h2',
-              { className: 'modal-sub-title title title-L' },
-              'Coupon Applied'
-            ),
-            react_default.a.createElement(
-              'p',
-              { className: 'mrg-XL std-txt std-txt-M' },
-              'You saved $78.99'
-            ),
-            react_default.a.createElement(
-              'a',
-              { href: 'javascript:void();', role: 'button', className: 'btn btn-secondary btn-M title title-M btn-grey-txt' },
-              'Ok'
-            )
-          ),
-          react_default.a.createElement('br', null),
-          react_default.a.createElement('br', null),
-          react_default.a.createElement(
-            'div',
-            { className: 'modal scroll-container modal-L' },
-            react_default.a.createElement('button', { className: 'modal-close', title: 'close' }),
-            react_default.a.createElement(
-              'div',
-              { className: 'scroll-block custom-scroll scrollable' },
-              react_default.a.createElement(
-                'div',
-                { className: 'scroll-content-wrapper' },
-                react_default.a.createElement(
-                  'div',
-                  { className: 'scroll-content' },
-                  react_default.a.createElement(
-                    'h2',
-                    { className: 'title title-L test mrg-XS' },
-                    '10 Year Mattress Encasement Plan Twin'
-                  ),
-                  react_default.a.createElement(
-                    'h4',
-                    { className: 'title-M title mrg-M' },
-                    'Sealy Essentials\u2122 Holly Hills Firm - Mattress + Box Spring'
-                  ),
-                  'BEDGARD ENCASEMENT: 10 Year Plan with Encasement: For new residential mattresses purchased in conjunction with a BedGard Encasement. Coverage includes: All accidental stains (excluding accumulations). Construction of Mattress Protector. WHY BEDGARD ENCASEMENT? The manufacturer of the mattress will void the warranty if the mattress is stained. A full encasement reduces conditions which attract dust mites, allergens and bed bugs. HOW DOES IT WORK? Customers purchase and use the BedGard Protector along with their new residential mattress. If their mattress becomes stained during normal residential use while using the protector, the affected portion or the complete mattress will be repaired or replaced!HOW LONG IS COVERAGE? The BedGard Product Limited Warranty is effective for ten (10) years from the date the customer takes delivery of the Mattress Protector and the Mattress. WHAT PROBLEMS ARE COVERED? Construction and staining of the BedGard Mattress Protector/Pad. All accidental stains attributed to a single occurrence (excluding accumulation defined as a gradual buildup of dirt, dust, body oils and perspiration). HOW LONG DOES THE CUSTOMER HAVE TO REPORT A PROBLEM? Problems must be reported within ten (10) days of occurrence of the stain or damage. BEDGARD ENCASEMENT: 10 Year Plan with Encasement: For new residential mattresses purchased in conjunction with a BedGard Encasement. Coverage includes: All accidental stains (excluding accumulations). Construction of Mattress Protector. WHY BEDGARD ENCASEMENT? The manufacturer of the mattress will void the warranty if the mattress is stained. A full encasement reduces conditions which attract dust mites, allergens and bed bugs. HOW DOES IT WORK? Customers purchase and use the BedGard Protector along with their new residential mattress. If their mattress becomes stained during normal residential use while using the protector, the affected portion or the complete mattress will be repaired or replaced!HOW LONG IS COVERAGE? The BedGard Product Limited Warranty is effective for ten (10) years from the date the customer takes delivery of the Mattress Protector and the Mattress. WHAT PROBLEMS ARE COVERED? Construction and staining of the BedGard Mattress Protector/Pad. All accidental stains attributed to a single occurrence (excluding accumulation defined as a gradual buildup of dirt, dust, body oils and perspiration). HOW LONG DOES THE CUSTOMER HAVE TO REPORT A PROBLEM? Problems must be reported within ten (10) days of occurrence of the stain or damage.'
-                )
-              )
-            ),
-            react_default.a.createElement('div', { className: 'scroll-block-fade' })
-          ),
-          react_default.a.createElement('br', null),
-          react_default.a.createElement('br', null),
-          react_default.a.createElement(
-            'div',
-            { className: 'modal scroll-container modal-L' },
-            react_default.a.createElement('button', { className: 'modal-close', title: 'close' }),
-            react_default.a.createElement(
-              'div',
-              { className: 'scroll-block custom-scroll' },
-              react_default.a.createElement(
-                'h2',
-                { className: 'title title-L test mrg-XS' },
-                '10 Year Mattress Encasement Plan Twin'
-              ),
-              react_default.a.createElement('img', { src: 'https://www.jcpenney.com/dotcom/images/Levis_MENS_BT_DIV2_SIZECHART_OCT2016%20(002).jpg', alt: 'Marketing Content' })
-            ),
-            react_default.a.createElement('div', { className: 'scroll-block-fade' })
-          ),
-          react_default.a.createElement('br', null),
-          react_default.a.createElement('br', null),
-          react_default.a.createElement(
-            'div',
-            { className: 'modal form-modal modal-L' },
-            react_default.a.createElement('button', { className: 'modal-close', title: 'close' }),
-            react_default.a.createElement(
-              'h2',
-              { className: 'title title-L' },
-              'Send by Email'
-            ),
-            react_default.a.createElement(
-              'p',
-              { className: 'mrg-XL std-txt std-txt-M fl-left' },
-              react_default.a.createElement(
-                'h4',
-                { 'class': 'title-M title mrg-XS' },
-                ' Send a copy of your list to up to 10 email addresses '
-              )
-            ),
-            react_default.a.createElement(
-              'div',
-              { className: 'form-group column' },
-              react_default.a.createElement('input', { className: 'form-control input-text ', type: 'text', placeholder: 'To' })
-            ),
-            react_default.a.createElement(
-              'h4',
-              { 'class': 'title-XS std-txt mrg-L fl-left' },
-              'Separate emails by comma. This information will not be used for marketing purposes.'
-            ),
-            react_default.a.createElement(
-              'div',
-              { className: 'form-group column' },
-              react_default.a.createElement('textarea', { 'class': 'form-control text-area', name: 'instructions', placeholder: 'Your Message' }),
-              react_default.a.createElement(
-                'label',
-                { 'class': 'checkbox mrg-M fl-left' },
-                react_default.a.createElement('input', { type: 'checkbox', value: 'on' }),
-                ' ',
-                react_default.a.createElement(
-                  'span',
-                  null,
-                  'Send me a copy'
-                ),
-                ' '
-              )
-            ),
-            react_default.a.createElement(
-              'div',
-              { className: 'md12 sm12 lg12 xl12 nopad' },
-              react_default.a.createElement(
-                'a',
-                { href: 'javascript:void();', role: 'button', className: 'btn btn-primary btn-M title title-M fl-right' },
-                'Save'
-              )
-            )
-          ),
-          react_default.a.createElement('br', null),
-          react_default.a.createElement('br', null)
-        )
-      );
-    }
-  }]);
-
-  return Modal;
-}(react["Component"]);
-
-var modal__default = modal_Modal;
-
-
-/* harmony default export */ var modal = (modal__default);
-;
-
-var modal__temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(modal_Modal, 'Modal', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/modal/modal.js');
-
-  __REACT_HOT_LOADER__.register(modal__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/modal/modal.js');
-}();
-
-;
-// CONCATENATED MODULE: ./src/js/components/modal/index.js
-
-var components_modal__default = modal;
-/* harmony default export */ var components_modal = (components_modal__default);
-;
-
-var components_modal__temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(components_modal__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/modal/index.js');
-}();
-
-;
 // CONCATENATED MODULE: ./src/js/components/countdown-timers/countdown-timers.js
 var countdown_timers__createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
@@ -16051,7 +15682,6 @@ var tooltips_Tooltips = function (_Component) {
   tooltips__createClass(Tooltips, [{
     key: 'componentDidMount',
     value: function componentDidMount() {
-
       (function () {
 
         var scrollContainer = document.querySelector('.scrollable'),
@@ -16098,7 +15728,7 @@ var tooltips_Tooltips = function (_Component) {
           // *Creates scroller element and appends to '.scrollable' div
           // create scroller element
           scroller = document.createElement("div");
-          scroller.class = 'scroller';
+          scroller.className = 'scroller';
 
           // determine how big scroller should be based on content
           scrollerHeight = calculateScrollerHeight();
@@ -16111,7 +15741,7 @@ var tooltips_Tooltips = function (_Component) {
             scrollContainer.appendChild(scroller);
 
             // show scroll path divot
-            scrollContainer.class += ' showScroll';
+            scrollContainer.className += ' showScroll';
 
             // attach related draggable listeners
             scroller.addEventListener('mousedown', startDrag);
@@ -16121,7 +15751,6 @@ var tooltips_Tooltips = function (_Component) {
         }
 
         createScroller();
-
         // *** Listeners ***
         scrollContentWrapper.addEventListener('scroll', moveScroller);
       })();
@@ -17384,15 +17013,6 @@ var swatches_Swatches = function (_Component) {
                       'li',
                       null,
                       react_default.a.createElement('a', { href: 'javascript:void(0)', 'class': 'list-color-swatch' })
-                    ),
-                    react_default.a.createElement(
-                      'li',
-                      { 'class': 'swatches-list-icon' },
-                      react_default.a.createElement(
-                        'a',
-                        { href: 'javascript:void(0)', 'class': 'list-color-swatch plus-expand' },
-                        react_default.a.createElement('span', { dangerouslySetInnerHTML: { __html: swatches_plusImage } })
-                      )
                     )
                   ),
                   react_default.a.createElement(
@@ -17410,7 +17030,7 @@ var swatches_Swatches = function (_Component) {
                     react_default.a.createElement(
                       'li',
                       null,
-                      react_default.a.createElement('a', { href: 'javascript:void(0)', 'class': 'list-color-swatch' })
+                      react_default.a.createElement('a', { href: 'javascript:void(0)', 'class': 'list-color-swatch list-color-swatch-active' })
                     ),
                     react_default.a.createElement(
                       'li',
@@ -18530,7 +18150,7 @@ var coupons_Coupons = function (_Component) {
                 { 'class': 'coupon-primary-offer mrg-M' },
                 react_default.a.createElement(
                   'h2',
-                  { 'class': 'price price-M' },
+                  { 'class': 'promo-lbl promo-lbl-L' },
                   'Extra 30% OFF $100+'
                 ),
                 react_default.a.createElement(
@@ -18549,7 +18169,7 @@ var coupons_Coupons = function (_Component) {
                 ),
                 react_default.a.createElement(
                   'h4',
-                  { 'class': 'price price-M' },
+                  { 'class': 'promo-lbl promo-lbl-L' },
                   'Extra 25% OFF Under $100'
                 ),
                 react_default.a.createElement(
@@ -18583,7 +18203,7 @@ var coupons_Coupons = function (_Component) {
               ),
               react_default.a.createElement(
                 'a',
-                { href: 'javascript:void();', role: 'button', 'class': 'btn btn-S btn-primary apply-btn btn-full mrg-S' },
+                { href: 'javascript:void();', role: 'button', 'class': 'btn btn-S btn-primary btn-full mrg-S' },
                 'Apply'
               ),
               react_default.a.createElement(
@@ -18591,12 +18211,12 @@ var coupons_Coupons = function (_Component) {
                 { 'class': 'coupon-see-details' },
                 react_default.a.createElement(
                   'a',
-                  { href: 'javascript:void();', 'class': 'title-XS' },
+                  { href: 'javascript:void();', 'class': 'std-txt std-txt-XS color-nightsky' },
                   'shop home'
                 ),
                 react_default.a.createElement(
                   'a',
-                  { href: 'javascript:void();', 'class': 'title-XS' },
+                  { href: 'javascript:void();', 'class': 'std-txt std-txt-XS color-nightsky' },
                   'see details'
                 )
               )
@@ -18623,7 +18243,7 @@ var coupons_Coupons = function (_Component) {
                 { 'class': 'coupon-primary-offer mrg-M' },
                 react_default.a.createElement(
                   'h2',
-                  { 'class': 'price price-M' },
+                  { 'class': 'promo-lbl promo-lbl-L' },
                   'Extra 30% OFF $100+'
                 ),
                 react_default.a.createElement(
@@ -18642,7 +18262,7 @@ var coupons_Coupons = function (_Component) {
                 ),
                 react_default.a.createElement(
                   'h4',
-                  { 'class': 'price price-M' },
+                  { 'class': 'promo-lbl promo-lbl-L' },
                   'Extra 25% OFF Under $100'
                 ),
                 react_default.a.createElement(
@@ -18676,7 +18296,7 @@ var coupons_Coupons = function (_Component) {
               ),
               react_default.a.createElement(
                 'a',
-                { href: 'javascript:void();', role: 'button', 'class': 'btn btn-S btn-primary apply-btn btn-full mrg-S' },
+                { href: 'javascript:void();', role: 'button', 'class': 'btn btn-S btn-primary btn-full mrg-S' },
                 'Apply'
               ),
               react_default.a.createElement(
@@ -18684,12 +18304,12 @@ var coupons_Coupons = function (_Component) {
                 { 'class': 'coupon-see-details' },
                 react_default.a.createElement(
                   'a',
-                  { href: 'javascript:void(0)', 'class': 'title-XS' },
+                  { href: 'javascript:void(0)', 'class': 'std-txt std-txt-XS color-nightsky' },
                   'shop home'
                 ),
                 react_default.a.createElement(
                   'a',
-                  { href: 'javascript:void(0)', 'class': 'title-XS' },
+                  { href: 'javascript:void(0)', 'class': 'std-txt std-txt-XS color-nightsky' },
                   'see details'
                 )
               )
@@ -18711,7 +18331,7 @@ var coupons_Coupons = function (_Component) {
                 { 'class': 'coupon-primary-offer mrg-M' },
                 react_default.a.createElement(
                   'h2',
-                  { 'class': 'price price-M' },
+                  { 'class': 'promo-lbl promo-lbl-L' },
                   'Extra 30% OFF $100+'
                 ),
                 react_default.a.createElement(
@@ -18725,7 +18345,7 @@ var coupons_Coupons = function (_Component) {
                 { 'class': 'coupon-bottom' },
                 react_default.a.createElement(
                   'a',
-                  { href: 'javascript:void();', role: 'button', 'class': 'btn btn-S btn-primary apply-btn btn-full mrg-S' },
+                  { href: 'javascript:void();', role: 'button', 'class': 'btn btn-S btn-primary btn-full mrg-S' },
                   'Apply'
                 ),
                 react_default.a.createElement(
@@ -18733,12 +18353,12 @@ var coupons_Coupons = function (_Component) {
                   { 'class': 'coupon-see-details' },
                   react_default.a.createElement(
                     'a',
-                    { href: 'javascript:void(0)', 'class': 'title-XS' },
+                    { href: 'javascript:void(0)', 'class': 'std-txt std-txt-XS color-nightsky' },
                     'shop home'
                   ),
                   react_default.a.createElement(
                     'a',
-                    { href: 'javascript:void(0)', 'class': 'title-XS' },
+                    { href: 'javascript:void(0)', 'class': 'std-txt std-txt-XS color-nightsky' },
                     'see details'
                   )
                 )
@@ -18766,7 +18386,7 @@ var coupons_Coupons = function (_Component) {
                 { 'class': 'coupon-primary-offer mrg-M' },
                 react_default.a.createElement(
                   'h2',
-                  { 'class': 'price price-M' },
+                  { 'class': 'promo-lbl promo-lbl-L' },
                   'Extra 30% OFF $100+'
                 ),
                 react_default.a.createElement(
@@ -18785,7 +18405,7 @@ var coupons_Coupons = function (_Component) {
                 ),
                 react_default.a.createElement(
                   'h4',
-                  { 'class': 'price price-M' },
+                  { 'class': 'promo-lbl promo-lbl-L' },
                   'Extra 25% OFF Under $100'
                 ),
                 react_default.a.createElement(
@@ -18825,7 +18445,7 @@ var coupons_Coupons = function (_Component) {
               ),
               react_default.a.createElement(
                 'a',
-                { href: 'javascript:void();', role: 'button', 'class': 'btn btn-S btn-primary apply-btn btn-full mrg-S' },
+                { href: 'javascript:void();', role: 'button', 'class': 'btn btn-S btn-primary btn-full mrg-S' },
                 'Apply'
               ),
               react_default.a.createElement(
@@ -18833,12 +18453,12 @@ var coupons_Coupons = function (_Component) {
                 { 'class': 'coupon-see-details' },
                 react_default.a.createElement(
                   'a',
-                  { href: 'javascript:void(0)', 'class': 'title-XS' },
+                  { href: 'javascript:void(0)', 'class': 'std-txt std-txt-XS color-nightsky' },
                   'shop home'
                 ),
                 react_default.a.createElement(
                   'a',
-                  { href: 'javascript:void(0)', 'class': 'title-XS' },
+                  { href: 'javascript:void(0)', 'class': 'std-txt std-txt-XS color-nightsky' },
                   'see details'
                 )
               )
@@ -18865,7 +18485,7 @@ var coupons_Coupons = function (_Component) {
                 { 'class': 'coupon-primary-offer mrg-M' },
                 react_default.a.createElement(
                   'h2',
-                  { 'class': 'price price-M' },
+                  { 'class': 'promo-lbl promo-lbl-L' },
                   'Extra 30% OFF $100+'
                 ),
                 react_default.a.createElement(
@@ -18884,7 +18504,7 @@ var coupons_Coupons = function (_Component) {
                 ),
                 react_default.a.createElement(
                   'h4',
-                  { 'class': 'price price-M' },
+                  { 'class': 'promo-lbl promo-lbl-L' },
                   'Extra 25% OFF Under $100'
                 ),
                 react_default.a.createElement(
@@ -18918,7 +18538,7 @@ var coupons_Coupons = function (_Component) {
               ),
               react_default.a.createElement(
                 'a',
-                { href: 'javascript:void();', role: 'button', 'class': 'btn btn-S btn-primary apply-btn btn-full mrg-S' },
+                { href: 'javascript:void();', role: 'button', 'class': 'btn btn-S btn-primary btn-full mrg-S' },
                 'Apply'
               ),
               react_default.a.createElement(
@@ -18926,12 +18546,12 @@ var coupons_Coupons = function (_Component) {
                 { 'class': 'coupon-see-details' },
                 react_default.a.createElement(
                   'a',
-                  { href: 'javascript:void(0)', 'class': 'title-XS' },
+                  { href: 'javascript:void(0)', 'class': 'std-txt std-txt-XS color-nightsky' },
                   'shop home'
                 ),
                 react_default.a.createElement(
                   'a',
-                  { href: 'javascript:void(0)', 'class': 'title-XS' },
+                  { href: 'javascript:void(0)', 'class': 'std-txt std-txt-XS color-nightsky' },
                   'see details'
                 )
               )
@@ -18958,7 +18578,7 @@ var coupons_Coupons = function (_Component) {
                 { 'class': 'coupon-primary-offer mrg-M' },
                 react_default.a.createElement(
                   'h2',
-                  { 'class': 'price price-M' },
+                  { 'class': 'promo-lbl promo-lbl-L' },
                   'Extra 30% OFF $100+'
                 ),
                 react_default.a.createElement(
@@ -18977,7 +18597,7 @@ var coupons_Coupons = function (_Component) {
                 ),
                 react_default.a.createElement(
                   'h4',
-                  { 'class': 'price price-M' },
+                  { 'class': 'promo-lbl promo-lbl-L' },
                   'Extra 25% OFF Under $100'
                 ),
                 react_default.a.createElement(
@@ -19011,7 +18631,7 @@ var coupons_Coupons = function (_Component) {
               ),
               react_default.a.createElement(
                 'a',
-                { href: 'javascript:void();', role: 'button', 'class': 'btn btn-S btn-primary apply-btn btn-full mrg-S' },
+                { href: 'javascript:void();', role: 'button', 'class': 'btn btn-S btn-primary btn-full mrg-S' },
                 'Apply'
               ),
               react_default.a.createElement(
@@ -19019,12 +18639,12 @@ var coupons_Coupons = function (_Component) {
                 { 'class': 'coupon-see-details' },
                 react_default.a.createElement(
                   'a',
-                  { href: 'javascript:void(0)', 'class': 'title-XS' },
+                  { href: 'javascript:void(0)', 'class': 'std-txt std-txt-XS color-nightsky' },
                   'shop home'
                 ),
                 react_default.a.createElement(
                   'a',
-                  { href: 'javascript:void(0)', 'class': 'title-XS' },
+                  { href: 'javascript:void(0)', 'class': 'std-txt std-txt-XS color-nightsky' },
                   'see details'
                 )
               )
@@ -19051,7 +18671,7 @@ var coupons_Coupons = function (_Component) {
                 { 'class': 'coupon-primary-offer mrg-M' },
                 react_default.a.createElement(
                   'h2',
-                  { 'class': 'price price-M' },
+                  { 'class': 'promo-lbl promo-lbl-L' },
                   'Extra 30% OFF $100+'
                 ),
                 react_default.a.createElement(
@@ -19070,7 +18690,7 @@ var coupons_Coupons = function (_Component) {
                 ),
                 react_default.a.createElement(
                   'h4',
-                  { 'class': 'price price-M' },
+                  { 'class': 'promo-lbl promo-lbl-L' },
                   'Extra 25% OFF Under $100'
                 ),
                 react_default.a.createElement(
@@ -19104,7 +18724,7 @@ var coupons_Coupons = function (_Component) {
               ),
               react_default.a.createElement(
                 'a',
-                { href: 'javascript:void();', role: 'button', 'class': 'btn btn-S btn-primary apply-btn btn-full mrg-S' },
+                { href: 'javascript:void();', role: 'button', 'class': 'btn btn-S btn-primary btn-full mrg-S' },
                 'Apply'
               ),
               react_default.a.createElement(
@@ -19112,12 +18732,12 @@ var coupons_Coupons = function (_Component) {
                 { 'class': 'coupon-see-details' },
                 react_default.a.createElement(
                   'a',
-                  { href: 'javascript:void(0)', 'class': 'title-XS' },
+                  { href: 'javascript:void(0)', 'class': 'std-txt std-txt-XS color-nightsky' },
                   'shop home'
                 ),
                 react_default.a.createElement(
                   'a',
-                  { href: 'javascript:void(0)', 'class': 'title-XS' },
+                  { href: 'javascript:void(0)', 'class': 'std-txt std-txt-XS color-nightsky' },
                   'see details'
                 )
               )
@@ -19144,7 +18764,7 @@ var coupons_Coupons = function (_Component) {
                 { 'class': 'coupon-primary-offer mrg-M' },
                 react_default.a.createElement(
                   'h2',
-                  { 'class': 'price price-M' },
+                  { 'class': 'promo-lbl promo-lbl-L' },
                   'Extra 30% OFF $100+'
                 ),
                 react_default.a.createElement(
@@ -19163,7 +18783,7 @@ var coupons_Coupons = function (_Component) {
                 ),
                 react_default.a.createElement(
                   'h4',
-                  { 'class': 'price price-M' },
+                  { 'class': 'promo-lbl promo-lbl-L' },
                   'Extra 25% OFF Under $100'
                 ),
                 react_default.a.createElement(
@@ -19197,7 +18817,7 @@ var coupons_Coupons = function (_Component) {
               ),
               react_default.a.createElement(
                 'a',
-                { href: 'javascript:void();', role: 'button', 'class': 'btn btn-S btn-primary apply-btn btn-full mrg-S' },
+                { href: 'javascript:void();', role: 'button', 'class': 'btn btn-S btn-primary btn-full mrg-S' },
                 'Apply'
               ),
               react_default.a.createElement(
@@ -19205,12 +18825,12 @@ var coupons_Coupons = function (_Component) {
                 { 'class': 'coupon-see-details' },
                 react_default.a.createElement(
                   'a',
-                  { href: 'javascript:void(0)', 'class': 'title-XS' },
+                  { href: 'javascript:void(0)', 'class': 'std-txt std-txt-XS color-nightsky' },
                   'shop home'
                 ),
                 react_default.a.createElement(
                   'a',
-                  { href: 'javascript:void(0)', 'class': 'title-XS' },
+                  { href: 'javascript:void(0)', 'class': 'std-txt std-txt-XS color-nightsky' },
                   'see details'
                 )
               )
@@ -19737,7 +19357,7 @@ var header_Header = function (_Component) {
         ),
         react_default.a.createElement(
           'div',
-          { 'class': 'side-panel-row-wrap no-border no-bottom-padding' },
+          { 'class': 'side-panel-row-wrap no-border padding-bot-zero' },
           react_default.a.createElement(
             'div',
             { 'class': 'side-panel-row' },
@@ -19977,7 +19597,7 @@ var header_Header = function (_Component) {
                   'Stonebriar Mall ',
                   react_default.a.createElement(
                     'span',
-                    { 'class': 'change-my-store-mileage color-slate' },
+                    { 'class': ' color-slate' },
                     '(3.5mi)'
                   )
                 ),
@@ -20097,7 +19717,7 @@ var header_Header = function (_Component) {
                   'Collin Creek Mall ',
                   react_default.a.createElement(
                     'span',
-                    { 'class': 'change-my-store-mileage color-slate' },
+                    { 'class': ' color-slate' },
                     '(5.2mi)'
                   )
                 ),
@@ -20521,22 +20141,16 @@ var header_Header = function (_Component) {
         }
       });
 
-      jquery_default()('#menuPrimarySearch').unbind('focus').on('focus', function (event) {
-        if (jquery_default()('#mainMenuSidePanelButton').filter(":visible").length < 1) {
-          //Not the mobile nav
-          // $('.main-menu-bar-primary').css('height', $('.main-menu-bar-primary').height());
-          jquery_default()('.main-menu-primary-search-form').css('width', jquery_default()('.main-menu-primary-search').width());
-          jquery_default()('.main-menu').addClass('main-menu-search-open');
-          jquery_default()('.main-menu-primary-search-form').stop(true, false).animate({ width: jquery_default()('.main-menu-primary-search').width() }, 400, function () {
-            jquery_default()('.main-menu-primary-search-form').removeAttr('style');
-          });
-        }
-      });
+      jquery_default()('#menuPrimarySearch').focus(function () {
 
-      jquery_default()('#menuPrimarySearch').unbind('blur').on('blur', function (event) {
-        jquery_default()('.main-menu-primary-search-form').stop(true, false).removeAttr('style');
-        jquery_default()('.main-menu-bar-primary').removeAttr('style');
+        jquery_default()(".main-menu-primary-rewards, .main-menu-primary-account").hide(400);
+        jquery_default()(this).attr('data-default', jquery_default()(this).width());
+        jquery_default()(this).animate({ width: 1132 }, 400);
+      }).blur(function () {
+
         jquery_default()('.main-menu').removeClass('main-menu-search-open');
+        jquery_default()(".main-menu-primary-rewards, .main-menu-primary-account").show(400);
+        jquery_default()(this).animate({ width: 798 }, 400);
       });
 
       //Preview top nav without design system wrapper
@@ -20899,7 +20513,7 @@ var header_Header = function (_Component) {
                         { 'class': 'main-menu-secondary-left' },
                         react_default.a.createElement(
                           'ul',
-                          { 'class': 'main-menu-secondary' },
+                          { 'class': 'main-menu-secondary title title-s' },
                           react_default.a.createElement(
                             'li',
                             { 'class': 'main-menu-secondary-li main-menu-secondary-li-shop-departments' },
@@ -22348,7 +21962,7 @@ var footer_minimized_FooterMinimized = function (_Component) {
                     { 'class': 'row' },
                     react_default.a.createElement(
                         'footer',
-                        { 'class': 'mini-footer text-center' },
+                        { 'class': 'footer-mini text-center' },
                         react_default.a.createElement(
                             'div',
                             { 'class': 'footer-need-help' },
@@ -22361,7 +21975,7 @@ var footer_minimized_FooterMinimized = function (_Component) {
                         ),
                         react_default.a.createElement(
                             'div',
-                            { 'class': 'mini-legal-links text-center mrg-M mrg-top-M' },
+                            { 'class': 'footer-mini-links text-center mrg-M mrg-top-M' },
                             react_default.a.createElement(
                                 'ul',
                                 null,
@@ -22423,7 +22037,7 @@ var footer_minimized_FooterMinimized = function (_Component) {
                         ),
                         react_default.a.createElement(
                             'div',
-                            { 'class': 'mini-footer-copy text-center mrg-M' },
+                            { 'class': 'std-txt std-txt-XXS' },
                             react_default.a.createElement(
                                 'span',
                                 null,
@@ -24198,10 +23812,10 @@ var filter_sort_FilterSort = function (_Component) {
               { 'class': 'row lg12 xl12 md12 sm12 nopad-sm color-lightgrey-bg filter-store-pick' },
               react_default.a.createElement(
                 'div',
-                { 'class': 'store-pickup column fl-left sm10 md10 lg8 xl9' },
+                { 'class': 'store-pickup pos-rel column fl-left sm10 md10 lg8 xl9' },
                 react_default.a.createElement(
                   'label',
-                  { 'class': 'checkbox pos-rel' },
+                  { 'class': 'checkbox' },
                   react_default.a.createElement('input', { type: 'checkbox' }),
                   ' ',
                   react_default.a.createElement(
@@ -24209,7 +23823,7 @@ var filter_sort_FilterSort = function (_Component) {
                     null,
                     react_default.a.createElement(
                       'p',
-                      { 'class': 'title title-M' },
+                      { 'class': 'std-txt color-nightsky' },
                       react_default.a.createElement(
                         'span',
                         { 'class': 'color-penneyred' },
@@ -24222,17 +23836,17 @@ var filter_sort_FilterSort = function (_Component) {
                         ' Stonebriar Mall'
                       )
                     )
-                  ),
-                  react_default.a.createElement('span', { 'class': 'arrow' })
-                )
+                  )
+                ),
+                react_default.a.createElement('span', { 'class': 'arrow' })
               ),
+              react_default.a.createElement('div', { 'class': 'listIcon fl-right mrg-top-S' }),
               react_default.a.createElement(
                 'div',
-                { 'class': 'dropdown-menu-block column md2 sm2 lg4 xl3 fl-right mrg-M nopad' },
-                react_default.a.createElement('div', { 'class': 'listIcon fl-right' }),
+                { 'class': 'dropdown-menu-block column mrg-top-S mrg-rght-S hide-for-medium-only hide-for-small-only fl-right' },
                 react_default.a.createElement(
                   'div',
-                  { 'class': 'hide-for-medium-only hide-for-small-only filter-dropdown-block' },
+                  { 'class': 'pos-rel fl-left' },
                   react_default.a.createElement(
                     'a',
                     { 'class': 'dropdown-button title-S' },
@@ -24249,7 +23863,7 @@ var filter_sort_FilterSort = function (_Component) {
                     { 'class': 'dropdown-menu' },
                     react_default.a.createElement(
                       'div',
-                      { 'class': 'tooltip tooltip-top-right filter-tooltip' },
+                      { 'class': 'tooltip tooltip-top-right' },
                       react_default.a.createElement(
                         'span',
                         null,
@@ -30289,7 +29903,7 @@ var recommendation_zone_RecommendationZone = function (_Component) {
             }(),
             react_default.a.createElement(
               'div',
-              { className: 'product-card-price' },
+              null,
               function () {
                 if (productInfo.priceHighlight === true) {
                   return react_default.a.createElement(
@@ -30620,20 +30234,24 @@ var recommendation_zone_RecommendationZone = function (_Component) {
                 react_default.a.createElement(
                   'div',
                   { className: 'chevron-wrapper' },
-                  react_default.a.createElement('a', { style: { visibility: disableLeftArrow ? 'hidden' : 'visible' },
-                    href: 'javascript:void(0);',
-                    onClick: function onClick() {
-                      return _this6.scrollCartridge(false);
-                    },
-                    className: 'rec-zone-chevron-left icon chevron-icon hide-for-small-only hide-for-medium-only',
-                    dangerouslySetInnerHTML: { __html: recommendation_zone_ChevronLeftImage } }),
-                  react_default.a.createElement('a', { style: { visibility: disableRightArrow ? 'hidden' : 'visible' },
-                    href: 'javascript:void(0);',
-                    onClick: function onClick() {
-                      return _this6.scrollCartridge(true);
-                    },
-                    className: 'rec-zone-chevron-right icon chevron-icon hide-for-small-only hide-for-medium-only',
-                    dangerouslySetInnerHTML: { __html: recommendation_zone_ChevronRightImage } }),
+                  react_default.a.createElement(
+                    'a',
+                    { style: { visibility: disableLeftArrow ? 'hidden' : 'visible' },
+                      href: 'javascript:void(0);',
+                      className: 'rec-zone-chevron-left hide-for-small-only hide-for-medium-only rec-fade-left' },
+                    react_default.a.createElement('span', { onClick: function onClick() {
+                        return _this6.scrollCartridge(false);
+                      }, className: 'icon chevron-icon', dangerouslySetInnerHTML: { __html: recommendation_zone_ChevronLeftImage } })
+                  ),
+                  react_default.a.createElement(
+                    'a',
+                    { style: { visibility: disableRightArrow ? 'hidden' : 'visible' },
+                      href: 'javascript:void(0);',
+                      className: 'rec-zone-chevron-right hide-for-small-only hide-for-medium-only rec-fade-right' },
+                    react_default.a.createElement('span', { onClick: function onClick() {
+                        return _this6.scrollCartridge(true);
+                      }, className: 'icon chevron-icon', dangerouslySetInnerHTML: { __html: recommendation_zone_ChevronRightImage } })
+                  ),
                   this.state.currentDotIndex == 1 ? '' : mobLeftFade,
                   this.state.currentDotIndex == this.state.dotNodes.length ? '' : mobRightFade
                 ),
@@ -30649,7 +30267,7 @@ var recommendation_zone_RecommendationZone = function (_Component) {
                       name: "Lorem Ipsum Dolor Sec Mud Deler LoreM Dol…",
                       thumb: '/images/design-system/fpo/product-cards/product-card-recommendations-1.jpg',
                       promo: 'SAMSUNG BUY 4 SAVE 10%',
-                      price: '$2,499 - $3,999',
+                      price: '$2,499',
                       priceHighlight: true,
                       priceRestriction: '',
                       priceRegular: 'reg. $2,999 - $5,999'
@@ -30703,7 +30321,7 @@ var recommendation_zone_RecommendationZone = function (_Component) {
                       name: "Lorem Ipsum Dolor Sec Mud Deler LoreM Dol…",
                       thumb: '/images/design-system/fpo/product-cards/product-card-recommendations-7.jpg',
                       promo: '',
-                      price: '$299.99 - $399.99',
+                      price: '$299.99',
                       priceHighlight: false,
                       priceRestriction: 'clearance',
                       priceRegular: 'was $499.99 - $699.99'
@@ -30712,7 +30330,7 @@ var recommendation_zone_RecommendationZone = function (_Component) {
                       name: "Lorem Ipsum Dolor Sec Mud Deler LoreM Dol…",
                       thumb: '/images/design-system/fpo/product-cards/product-card-recommendations-8.jpg',
                       promo: '',
-                      price: '$2,999 - $3,999',
+                      price: '$2,999',
                       priceHighlight: false,
                       priceRestriction: 'package deal',
                       priceRegular: 'was $4,999 - $6,999'
@@ -30721,7 +30339,7 @@ var recommendation_zone_RecommendationZone = function (_Component) {
                       name: "Lorem Ipsum Dolor Sec Mud Deler LoreM Dol…",
                       thumb: '/images/design-system/fpo/product-cards/product-card-recommendations-1.jpg',
                       promo: 'SAMSUNG BUY 4 SAVE 10%',
-                      price: '$2,499 - $3,999',
+                      price: '$2,499',
                       priceHighlight: true,
                       priceRestriction: '',
                       priceRegular: 'reg. $2,999 - $5,999'
@@ -30775,7 +30393,7 @@ var recommendation_zone_RecommendationZone = function (_Component) {
                       name: "Lorem Ipsum Dolor Sec Mud Deler LoreM Dol…",
                       thumb: '/images/design-system/fpo/product-cards/product-card-recommendations-7.jpg',
                       promo: '',
-                      price: '$299.99 - $399.99',
+                      price: '$299.99',
                       priceHighlight: false,
                       priceRestriction: 'clearance',
                       priceRegular: 'was $499.99 - $699.99'
@@ -30784,7 +30402,7 @@ var recommendation_zone_RecommendationZone = function (_Component) {
                       name: "Lorem Ipsum Dolor Sec Mud Deler LoreM Dol…",
                       thumb: '/images/design-system/fpo/product-cards/product-card-recommendations-8.jpg',
                       promo: '',
-                      price: '$2,999 - $3,999',
+                      price: '$2,999',
                       priceHighlight: false,
                       priceRestriction: 'package deal',
                       priceRegular: 'was $4,999 - $6,999'
@@ -31164,7 +30782,7 @@ var pdp_Pdp = function (_Component) {
                             ),
                             react_default.a.createElement(
                                 'a',
-                                { href: 'javascript:void(0);' },
+                                { href: 'javascript:void(0);', className: 'mrg-rght-S' },
                                 'calculate your size '
                             ),
                             react_default.a.createElement(
@@ -31726,7 +31344,6 @@ function DesignSystemPage__inherits(subClass, superClass) { if (typeof superClas
 
 
 
-
 var DesignSystemPage_DesignSystemPage = function (_Component) {
     DesignSystemPage__inherits(DesignSystemPage, _Component);
 
@@ -31757,7 +31374,6 @@ var DesignSystemPage_DesignSystemPage = function (_Component) {
                 Wells: { componentElement: components_wells, componentDisplayName: "Wells", componentSubNav: ['Wells'] },
                 CountdownTimers: { componentElement: components_countdown_timers, componentDisplayName: "Countdown Timers", componentSubNav: ['Countdown Timers'] },
                 VisualNavigation: { componentElement: components_visual_navigation, componentDisplayName: "Visual Navigation", componentSubNav: ['Visual Navigation'] },
-                Modal: { componentElement: components_modal, componentDisplayName: "Modal", componentSubNav: ['Modal'] },
                 Lists: { componentElement: components_lists, componentDisplayName: "Lists", componentSubNav: ['Lists'] },
                 Tooltips: { componentElement: components_tooltips, componentDisplayName: "Tooltips", componentSubNav: ['Tooltips'] },
                 Tabs: { componentElement: components_tabs, componentDisplayName: "Tabs", componentSubNav: ['Tabs'] },
@@ -36183,9 +35799,6 @@ var Root_App = function (_React$Component) {
                                 } }),
                             react_default.a.createElement(es["d" /* Route */], { exact: true, path: '/components/visual-navigation', render: function render() {
                                     return react_default.a.createElement(containers_DesignSystemPage, { componentName: 'VisualNavigation' });
-                                } }),
-                            react_default.a.createElement(es["d" /* Route */], { exact: true, path: '/components/modal', render: function render() {
-                                    return react_default.a.createElement(containers_DesignSystemPage, { componentName: 'Modal' });
                                 } }),
                             react_default.a.createElement(es["d" /* Route */], { exact: true, path: '/components/countdown-timers', render: function render() {
                                     return react_default.a.createElement(containers_DesignSystemPage, { componentName: 'CountdownTimers' });

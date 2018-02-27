@@ -111,7 +111,7 @@ class RecommendationZone
               }
             })()}
 
-            <div className="product-card-price">
+            <div>
               {(() => {
                 if (productInfo.priceHighlight === true) {
                   return (
@@ -370,14 +370,14 @@ class RecommendationZone
                 <div className="chevron-wrapper">
                   <a style={{ visibility: disableLeftArrow ? 'hidden' : 'visible' }}
                     href="javascript:void(0);"
-                    onClick={() => this.scrollCartridge(false)}
-                    className="rec-zone-chevron-left icon chevron-icon hide-for-small-only hide-for-medium-only"
-                    dangerouslySetInnerHTML={{ __html: ChevronLeftImage }}></a>
+                    className="rec-zone-chevron-left hide-for-small-only hide-for-medium-only rec-fade-left">
+                    <span onClick={() => this.scrollCartridge(false)} className="icon chevron-icon" dangerouslySetInnerHTML={{ __html: ChevronLeftImage }}/>
+                  </a>
                   <a style={{ visibility: disableRightArrow ? 'hidden' : 'visible' }}
                     href="javascript:void(0);"
-                    onClick={() => this.scrollCartridge(true)}
-                    className="rec-zone-chevron-right icon chevron-icon hide-for-small-only hide-for-medium-only"
-                    dangerouslySetInnerHTML={{ __html: ChevronRightImage }}></a>
+                    className="rec-zone-chevron-right hide-for-small-only hide-for-medium-only rec-fade-right">
+                    <span onClick={() => this.scrollCartridge(true)} className="icon chevron-icon" dangerouslySetInnerHTML={{ __html: ChevronRightImage }}/>
+                  </a>
                   
                   {this.state.currentDotIndex == 1 ? '' : mobLeftFade}
                   {this.state.currentDotIndex == this.state.dotNodes.length? '' : mobRightFade}
@@ -389,7 +389,7 @@ class RecommendationZone
                       name: "Lorem Ipsum Dolor Sec Mud Deler LoreM Dol…",
                       thumb: '/images/design-system/fpo/product-cards/product-card-recommendations-1.jpg',
                       promo: 'SAMSUNG BUY 4 SAVE 10%',
-                      price: '$2,499 - $3,999',
+                      price: '$2,499',
                       priceHighlight: true,
                       priceRestriction: '',
                       priceRegular: 'reg. $2,999 - $5,999'
@@ -449,7 +449,7 @@ class RecommendationZone
                       name: "Lorem Ipsum Dolor Sec Mud Deler LoreM Dol…",
                       thumb: '/images/design-system/fpo/product-cards/product-card-recommendations-7.jpg',
                       promo: '',
-                      price: '$299.99 - $399.99',
+                      price: '$299.99',
                       priceHighlight: false,
                       priceRestriction: 'clearance',
                       priceRegular: 'was $499.99 - $699.99'
@@ -459,7 +459,7 @@ class RecommendationZone
                       name: "Lorem Ipsum Dolor Sec Mud Deler LoreM Dol…",
                       thumb: '/images/design-system/fpo/product-cards/product-card-recommendations-8.jpg',
                       promo: '',
-                      price: '$2,999 - $3,999',
+                      price: '$2,999',
                       priceHighlight: false,
                       priceRestriction: 'package deal',
                       priceRegular: 'was $4,999 - $6,999'
@@ -468,7 +468,7 @@ class RecommendationZone
                       name: "Lorem Ipsum Dolor Sec Mud Deler LoreM Dol…",
                       thumb: '/images/design-system/fpo/product-cards/product-card-recommendations-1.jpg',
                       promo: 'SAMSUNG BUY 4 SAVE 10%',
-                      price: '$2,499 - $3,999',
+                      price: '$2,499',
                       priceHighlight: true,
                       priceRestriction: '',
                       priceRegular: 'reg. $2,999 - $5,999'
@@ -528,7 +528,7 @@ class RecommendationZone
                       name: "Lorem Ipsum Dolor Sec Mud Deler LoreM Dol…",
                       thumb: '/images/design-system/fpo/product-cards/product-card-recommendations-7.jpg',
                       promo: '',
-                      price: '$299.99 - $399.99',
+                      price: '$299.99',
                       priceHighlight: false,
                       priceRestriction: 'clearance',
                       priceRegular: 'was $499.99 - $699.99'
@@ -538,7 +538,7 @@ class RecommendationZone
                       name: "Lorem Ipsum Dolor Sec Mud Deler LoreM Dol…",
                       thumb: '/images/design-system/fpo/product-cards/product-card-recommendations-8.jpg',
                       promo: '',
-                      price: '$2,999 - $3,999',
+                      price: '$2,999',
                       priceHighlight: false,
                       priceRestriction: 'package deal',
                       priceRegular: 'was $4,999 - $6,999'

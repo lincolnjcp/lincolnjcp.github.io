@@ -10,9 +10,7 @@
 	& .product-card-thumbnail {
 		padding-right: 16px;
 	}
-	& .product-card-price {
-		font-size: 0 /* Eliminate extra space between price and note */
-	}
+	
 	& .product-card-price-value {
 		display: inline-block;
 	}

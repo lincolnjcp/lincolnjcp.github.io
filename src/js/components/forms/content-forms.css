@@ -3,11 +3,6 @@
 ***************************************************/
 .input-form {
   position: relative;
-  & input::-webkit-input-placeholder {
-      font-size: 14px;
-      font-style: normal;
-      color:red;
-  }
 }
 
 .input-form{

@@ -179,7 +179,7 @@ select{
 
 /*  Forms */
 input[type="text"],
-textarea{
+textarea, input[type="tel"]{
   margin-bottom: 24px;
   max-width: 100%;
   line-height: 24px;
@@ -188,6 +188,11 @@ textarea{
   font-size: 16px;
   border-radius: var(--border-radius-S);
   box-shadow: none;
+  &::placeholder {
+    color: var(--color-slate);
+    opacity: 1;
+    font-style: normal;
+  }
 }
 
 input[type="text"]{
@@ -305,18 +310,18 @@ fieldset {
   font-style: italic;
   font-size: 14px;
 }
-.input-form .input-text::placeholder {
+.input-form .form-float-label .input-text::placeholder {
   color:transparent!important;
 }
-.input-form .input-text.placeholder-text::placeholder {
+.input-form .form-float-label .input-text.placeholder-text::placeholder {
   color: var(--color-concrete) !important;
 }
-.input-form :-ms-input-placeholder.input-text , .input-group :-ms-input-placeholder.input-text{
+.input-form .form-float-label :-ms-input-placeholder.input-text , .input-group .form-float-label :-ms-input-placeholder.input-text{
   color: var(--color-concrete) !important;
   font-family: Open Sans,sans-serif;
 font-style: normal;
 }
-.input-form :-ms-input-placeholder.input-text:focus{
+.input-form .form-float-label :-ms-input-placeholder.input-text:focus{
   color: transparent !important;
 }
 

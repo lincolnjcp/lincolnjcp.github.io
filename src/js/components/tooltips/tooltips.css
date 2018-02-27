@@ -208,4 +208,11 @@
       }
     }
   }
-  
+.dropdown-menu-block {
+    & .dropdown-menu {
+      & .tooltip.tooltip-top-right {
+        left: -36px;
+        top: -2px;
+    }
+  }
+}

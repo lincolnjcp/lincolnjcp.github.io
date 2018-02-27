@@ -2,7 +2,7 @@
 /* Footer Minimized
 ***************************************************/
 
-.mini-footer {
+.footer-mini {
     & .footer-need-help {
         border-top: 1px solid var(--color-concrete);
         border-bottom: 1px solid var(--color-concrete);
@@ -21,7 +21,7 @@
             font-size: 12px;
         }
     }
-    & .mini-legal-links {
+    & .footer-mini-links {
         & ul {
             & li{
                 display: inline-block;
@@ -39,8 +39,5 @@
                 }
             }
         }
-    }
-    & .mini-footer-copy {
-        font-size: 10px;
     }
 }

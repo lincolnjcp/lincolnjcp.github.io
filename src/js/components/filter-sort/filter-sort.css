@@ -62,24 +62,13 @@
 }
 
 .product-gallery-block {
-    & .filter-store-pick{
-        & .dropdown-menu-block{
-            padding-top: 7px !important;
-            & .filter-dropdown-block {
-                & .dropdown-button {
-                    float: right;
-                    margin-right: 12px;
-                }
-            }
-        }
-    }
     & .product-card-wrapper{
         & .product-card-thumbnail a:focus{
             outline: 0;
         }
     }
     & .store-pickup {
-        padding: 16px 0 4px 1px;
+        padding: 12px 0 4px 1px;
         & .arrow {
             content: "";
             position: absolute;
@@ -101,10 +90,10 @@
           }
           @media (--viewport-sm-only) {
             padding: 10px 0 0;
-            & .title-M {
+            & .std-txt {
                 font-size: 14px;
                 position: relative;
-                top: -1px;
+                top: -6px;
                 & .color-penneyred {
                     font-weight: bold;
                 }
@@ -115,12 +104,28 @@
                     text-overflow: ellipsis;
                     position: relative;
                     display: inline-block;
-                    top: 5px;
+                    top: 8px;
                 }
             }
-            & .arrow{
-                top: 4px;
+        }
+        & .filter-sort {
+            padding-top: 8px;
+    
+        }
+        & label.checkbox {
+            display: inline;
+            & p {
+                padding-top: 2px;
             }
+        }
+        & .checkbox input+span:before {
+            top: 6px;
+        }
+        & .checkbox input+span:after {
+            top: 8px;
+        }
+        & .arrow{
+            top: 18px;
         }
     }
     & .listIcon {
@@ -137,19 +142,6 @@
         }
     }
 
-    & .dropdown-menu-block {
-        @media (--viewport-sm-only) {
-            min-height: 38px;
-            float: left;
-            margin-bottom: 16px;
-            & .dropdown-button {
-                min-width: 152px;
-                & .sortby {
-                    max-width: 50px;
-                }
-            }
-        }
-    }
 }
 
 
@@ -166,10 +158,6 @@
         }
         & .filter-store-pick{
             padding: 0 10px 0 10px!important;
-            & .dropdown-menu-block{
-            padding-top:5px !important;
-            width: 32%;
-            }
         }
         & .store-pickup{
             width: 68%;
@@ -182,16 +170,25 @@
         & .product-card-pane-L {
             width: 45%;
         }
+        & .dropdown-menu-block{
+            min-height: 40px;
+            float: left;
+            padding-right: 12px;
+            margin-bottom: 16px;
+            & .dropdown-button {
+                min-width: 142px;
+            }
+        }
         & .filter-store-pick{
             padding:0 4px 0 8px!important;
             & .dropdown-menu-block{
-            padding-top:3px !important;
-            }
+                padding-top:3px;
+            } 
             & .checkbox input+span:before{
-                top: 4px;
+                top: 8px;
             }
             & .checkbox input+span:after{
-                top: 6px;
+                top: 9px;
             }
         }
     }

@@ -2,8 +2,7 @@
 /* Scrollbar
 ***************************************************/
 .scroll-container {
-    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.5);
-    padding: 32px 24px 24px;
+    padding: 36px 24px 0 0;
     & .title {
         text-align: left;
      }
@@ -72,7 +71,6 @@
 
 .scroll-container { 
   &.modal{
-    max-width: 540px;
     padding: 36px 24px 0 0px;
     & .modal-close{
       width: 16px;
@@ -104,7 +102,7 @@
         padding-right: 20px;
         overflow-y: scroll;
         position: absolute;
-        right: -4%;
+        right: -2%;
     & .scroll-content{
         -webkit-touch-callout: none;
         -webkit-user-select: none;

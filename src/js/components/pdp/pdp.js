@@ -172,7 +172,7 @@ class Pdp extends Component {
                         </div>
                         <div className="fit-predictor mrg-L">
                             <span className="title tile-M">Fit Predictor </span>
-                            <a href="javascript:void(0);">calculate your size </a>
+                            <a href="javascript:void(0);" className="mrg-rght-S">calculate your size </a>
                             {/* <span className="icon " dangerouslySetInnerHTML={{ __html: rulerImage }} /> */}
                             <a href="javascript:void(0);"> size chart</a>
                         </div>
