@@ -132,7 +132,7 @@
 			}
 		}
 		& .rec-zone-chevron-left{
-			width: 280px;
+			width: 180px;
 			cursor: default;
 			& svg {
 				left: 8px;
@@ -140,7 +140,7 @@
 			}
 		}
 		& .rec-zone-chevron-right{
-			width: 280px;
+			width: 180px;
 			cursor: default;
 			& svg {
 				right: 8px;

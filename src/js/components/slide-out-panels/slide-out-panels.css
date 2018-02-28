@@ -6,12 +6,8 @@
 	padding-left: 16px;
 	padding-right: 16px;
 
-	&.no-border {
+	& .no-border {
 		  border-bottom: none;
-	}
-
-	&.padding-bot-zero {
-		  padding-bottom: 0;
 	}
 
 	& .side-panel-row {
@@ -167,7 +163,8 @@
 		padding-bottom: 10px;
 	}
 	.side-panel-close {
-	  top: 5px;
+		top: 10px;
+		right: 8px;
 	  height: 24px;
 	  width: 24px;
 	  

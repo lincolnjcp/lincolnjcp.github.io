@@ -22,6 +22,7 @@
     &.flag-price {
         background-color: rgba(204, 0, 0, 1);
         color: var(--color-white);
+        font-weight: var(--font-weight-bold);
     }
 
     &.flag-new {

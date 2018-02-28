@@ -198,7 +198,7 @@
 
 	& .main-menu-primary-rewards {
 		flex: none;
-		width: 140px;
+		width: 96px;
 		padding-left: 5px;
 		& svg {
 			width: 94px;
@@ -228,7 +228,7 @@
 @media (--viewport-lg) {
 
 	 .main-menu-primary {
-			min-height: 62px;
+			height: 62px;
 		} 
 	.main-menu-bar-secondary-container {
 		display: flex;
@@ -414,6 +414,10 @@
 			& .main-menu-tier3-link {
 				padding-top: 14px;
 				padding-bottom: 14px;
+				@media (--viewport-md-down) {
+					padding-top: 17px;
+					padding-bottom: 17	px;
+				}
 				&:after {
 					display: none;
 				}

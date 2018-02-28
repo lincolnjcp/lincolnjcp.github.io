@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import CodeGenerator from '../../containers/CodeGenerator.js';
 
 const closeImage = require('!!raw-loader?es5=1!../../../images/global/icons/nav/close.svg');
-const closeImage2 = require('!!raw-loader?es5=1!../../../images/global/icons/nav/close.svg');
 
 class Alerts extends Component {
 
@@ -21,7 +20,7 @@ class Alerts extends Component {
                         <h3 class="title title-L mrg-L">When to Use</h3>
                         <p class=" mrg-L max-width-text">Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor don ullamco nulla non metus auctor fringilla. </p>
                         <div class="msg msg-success mrg-M">Success! Item added to cart.<span class="icon msg-close color-success-type" dangerouslySetInnerHTML={{ __html: closeImage }} /></div>
-                        <div class="msg msg-error mrg-XL">Please select a size.<span class="icon msg-close color-error-type" dangerouslySetInnerHTML={{ __html: closeImage2 }} /></div>
+                        <div class="msg msg-error mrg-XL">Please select a size.<span class="icon msg-close color-error-type" dangerouslySetInnerHTML={{ __html: closeImage }} /></div>
 
                         <h4 class="title title-M mrg-L">Best Practices</h4>
                         <ul class="list max-width-text color-slate">

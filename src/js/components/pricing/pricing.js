@@ -66,8 +66,10 @@ class Pricing extends Component {
                           <div class="price price-S mrg-rght-XS mrg-XS">$29.99
                               <span class="price price-note color-penneyred"> sale</span>
                           </div>
-                          <div class="price price-note color-slate std-txt">                             <span class="mrg-rght-S">was $39.99</span>                             <span> 20% off</span>                           </div>
-                          <a href="javascript:void(0)" class="price-note price">rebates available</a>
+                          <div class="price price-note color-slate std-txt">
+                            <span class="mrg-rght-S">was $39.99</span><span> 20% off</span>
+                          </div>
+                          <a href="javascript:void(0)" class="std-txt color-nightsky price-note price">rebates available</a>
                         </div>
                       </li>
 
@@ -120,7 +122,7 @@ class Pricing extends Component {
                               <span class="price price-note color-penneyred"> sale</span>
                           </div>
                           <div class="price price-note color-slate std-txt">                             <span class="mrg-rght-S">was $39.99</span>                             <span> 20% off</span>                           </div>
-                          <a href="javascript:void(0)" class="price-note price">rebates available</a>
+                          <a href="javascript:void(0)" class="std-txt color-nightsky price-note price">rebates available</a>
                         </div>
                       </li>
 
@@ -173,7 +175,7 @@ class Pricing extends Component {
                           <span class="price price-note color-penneyred"> sale</span>
                           </div>
                           <div class="price price-note color-slate std-txt">                             <span class="mrg-rght-S">was $39.99</span>                             <span> 20% off</span>                           </div>
-                          <a href="javascript:void(0)" class="price-note price">rebates available</a>
+                          <a href="javascript:void(0)" class="std-txt color-nightsky price-note price">rebates available</a>
                         </div>
                       </li>
 
@@ -219,7 +221,7 @@ class Pricing extends Component {
                           <span class="price std-txt std-txt-S color-penneyred"> package deal</span>
                           </div>
                           <div class="price price-note color-slate std-txt">                             <span class="mrg-rght-S">was $39.99</span>                             <span> 20% off</span>                           </div>
-                          <a href="javascript:void(0)" class="price-note price">rebates available</a>
+                          <a href="javascript:void(0)" class="std-txt color-nightsky price-note price">rebates available</a>
                         </div>
                       </li>
 
@@ -236,7 +238,7 @@ class Pricing extends Component {
                           <span class="price price-note color-penneyred"> sale</span>
                           </div>
                           <div class="price price-note color-slate std-txt">                             <span class="mrg-rght-S">was $39.99</span>                             <span> 20% off</span>                           </div>
-                          <a href="javascript:void(0)" class="price-note price">rebates available</a>
+                          <a href="javascript:void(0)" class="std-txt color-nightsky price-note price">rebates available</a>
                         </div>
                       </li>
 
@@ -298,7 +300,7 @@ class Pricing extends Component {
                               <span class="price price-note color-penneyred"> sale</span>
                           </div>
                           <div class="price price-note color-slate std-txt">                             <span class="mrg-rght-S">was $39.99</span>                             <span> 20% off</span>                           </div>
-                          <a href="javascript:void(0)" class="price-note price">rebates available</a>
+                          <a href="javascript:void(0)" class="std-txt color-nightsky price-note price">rebates available</a>
                         </div>
                       </li>
 
@@ -351,7 +353,7 @@ class Pricing extends Component {
                               <span class="price price-note color-penneyred"> sale</span>
                           </div>
                           <div class="price price-note color-slate std-txt">                             <span class="mrg-rght-S">was $39.99</span>                             <span> 20% off</span>                           </div>
-                          <a href="javascript:void(0)" class="price-note price">rebates available</a>
+                          <a href="javascript:void(0)" class="std-txt color-nightsky price-note price">rebates available</a>
                         </div>
                       </li>
 
@@ -404,7 +406,7 @@ class Pricing extends Component {
                           <span class="price price-note color-penneyred"> sale</span>
                           </div>
                           <div class="price price-note color-slate std-txt">                             <span class="mrg-rght-S">was $39.99</span>                             <span> 20% off</span>                           </div>
-                          <a href="javascript:void(0)" class="price-note price">rebates available</a>
+                          <a href="javascript:void(0)" class="std-txt color-nightsky price-note price">rebates available</a>
                         </div>
                       </li>
 
@@ -463,7 +465,7 @@ class Pricing extends Component {
                           <span class="price price-note color-penneyred"> sale</span>
                           </div>
                           <div class="price price-note color-slate std-txt">                             <span class="mrg-rght-S">was $39.99</span>                             <span> 20% off</span>                           </div>
-                          <a href="javascript:void(0)" class="price-note price">rebates available</a>
+                          <a href="javascript:void(0)" class="std-txt color-nightsky price-note price">rebates available</a>
                         </div>
                       </li>
 
@@ -525,7 +527,7 @@ class Pricing extends Component {
                               <span class="price price-note color-penneyred"> sale</span>
                           </div>
                           <div class="price price-note-XS color-slate std-txt">was $39.99   20% off</div>
-                          <a href="javascript:void(0)" class="price-note price">rebates available</a>
+                          <a href="javascript:void(0)" class="std-txt color-nightsky price-note price">rebates available</a>
                         </div>
                       </li>
 
@@ -578,7 +580,7 @@ class Pricing extends Component {
                               <span class="price price-note color-penneyred"> sale</span>
                           </div>
                           <div class="price price-note-XS color-slate std-txt">was $39.99   20% off</div>
-                          <a href="javascript:void(0)" class="price-note price">rebates available</a>
+                          <a href="javascript:void(0)" class="std-txt color-nightsky price-note price">rebates available</a>
                         </div>
                       </li>
 
@@ -631,7 +633,7 @@ class Pricing extends Component {
                           <span class="price price-note color-penneyred"> sale</span>
                           </div>
                           <div class="price price-note-XS color-slate std-txt">was $39.99   20% off</div>
-                          <a href="javascript:void(0)" class="price-note price">rebates available</a>
+                          <a href="javascript:void(0)" class="std-txt color-nightsky price-note price">rebates available</a>
                         </div>
                       </li>
 
@@ -688,7 +690,7 @@ class Pricing extends Component {
                           <span class="price price-note-XS color-penneyred"> sale</span>
                           </div>
                           <div class="price price-note color-slate std-txt">                             <span class="mrg-rght-S">was $39.99</span>                             <span> 20% off</span>                           </div>
-                          <a href="javascript:void(0)" class="price-note price">rebates available</a>
+                          <a href="javascript:void(0)" class="std-txt color-nightsky price-note price">rebates available</a>
                         </div>
                       </li>
 

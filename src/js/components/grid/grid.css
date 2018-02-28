@@ -168,6 +168,19 @@
   margin: 0 !important;
 }
 
+.padding-bot-zero {
+  padding-bottom: 0 !important;;
+}
+.padding-top-zero {
+  padding-top: 0 !important;;
+}
+.padding-left-zero {
+  padding-left: 0 !important;;
+}
+.padding-rght-zero {
+  padding-right: 0 !important;;
+}
+
 .nopad-sm {
   @media (--viewport-sm-only) {
     padding: 0 !important;

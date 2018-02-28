@@ -11,8 +11,7 @@
     margin: 0 auto;
     padding: 48px;
     position: relative;
-    @include elevation-2;
-  
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.5);
     @media (--viewport-sm) {
       width: 360px;
       margin: 0 8px;
@@ -27,12 +26,12 @@
       position: absolute;
       display: block;
       cursor: pointer;
-      background: url("var(--path-images)global/icons/nav/close.svg") no-repeat;
-      background-size: contain;
-      width: 16px;
-      height: 16px;
-      right: -6px;
-      top: 10px;
+      background: url("var(--path-images)global/icons/nav/close.svg") no-repeat 6px 3px;
+      background-size: 16px;
+      width: 24px;
+      height: 24px;
+      right: 2px;
+      top: 8px;
     }
   
     & .icon {
@@ -55,6 +54,7 @@
       }
       @media (--viewport-sm-only) {
         width: 96%;
+        padding: 36px 16px 24px;
       }
       padding: 36px 14px 24px;
     }
@@ -65,6 +65,7 @@
       }
       @media (--viewport-sm-only) {
         width: 96%;
+        padding: 40px 16px 24px;
       }
       padding: 40px 24px 24px;
     }

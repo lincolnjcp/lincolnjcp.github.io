@@ -19,10 +19,10 @@
         }
     }
     & .scroll-block-fade {
-        position: relative;
+        position: absolute;
         bottom: 24px;
         height: 40px;
-        width: auto;
+        width: 92%;
         background: linear-gradient(rgba(255,255,255,0), rgba(255,255,255,1));
     }
     & .custom-scroll {
@@ -86,11 +86,14 @@
         overflow: hidden;
         height: 434px;
         width: 101%;
+        @media (--viewport-sm-only) {
+          width: 105%;
+        }
     }
     & .scrollable.showScroll::after {
         position: absolute;
         content: '';
-        top: 5%;
+        top: 0;
         right: 7px;
         height: 100%;
         width: 1px;

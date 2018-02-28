@@ -388,7 +388,7 @@ class Forms extends Component {
                                     <div class="sm12 md4 columns">
                                         <div class="input-form-store-locator">
                                             <div class="input-form-store-locator-field-1">
-                                                <input class="form-control input-text zipcode_text placeholder-text" id="search" type="text" placeholder="Zip Code" />
+                                                <input class="form-control input-text zipcode_text placeholder-text" id="search" type="number" placeholder="Zip Code" />
                                             </div>
                                             <div class="input-form-store-locator-field-2">
                                                 <div class="select">
@@ -430,8 +430,8 @@ class Forms extends Component {
                                     <div class="sm12 md4 columns">
                                         <div class="input-group position-rel">
                                             <div class="form-float-label">
-                                                <input type="text" id="birthday" name="date" placeholder="mm/dd/yyyy" class="form-control input-text input-birthday" />
-                                                <label htmlFor="birthday">Birthday (Optional)</label>
+                                                <input type="text" id="birthday1" name="date" placeholder="mm/dd/yyyy" class="form-control input-text input-birthday birthday" />
+                                                <label htmlFor="birthday1">Birthday (Optional)</label>
                                             </div>
                                             <span class="icon tooltip-icon" dangerouslySetInnerHTML={{ __html: tooltipIcon }} />
                                         </div>

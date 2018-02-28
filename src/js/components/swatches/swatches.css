@@ -86,9 +86,6 @@
       &.list-color-swatch-active{
         border: 2px solid var(--color-nightsky);
         box-shadow: inset 0px 0px 0px 5px var(--color-white);
-        @media (--viewport-sm-only) {
-          box-shadow: inset 0px 0px 0px 2px var(--color-white);
-        }
 
         &.list-color-swatch-oos:hover{
           border-color: var(--color-nightsky);
@@ -168,9 +165,16 @@
         & a {
           font-size: 10px;
           text-decoration: none;
+          position: relative;
+          top: -2px;
         }
       }
+      & .list-color-swatch.list-color-swatch-active {
+        border: 2px solid var(--color-nightsky);
+        box-shadow: inset 0px 0px 0px 2px var(--color-white);
+      }
     }
+    
   }
 
   & .show-all-cta {

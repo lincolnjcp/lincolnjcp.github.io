@@ -109,6 +109,7 @@ class Carousel extends Component {
     window.secondaryNavSlider = ReactDOM.findDOMNode(
       this.refs.secondaryNavSlider,
     ).querySelectorAll('[data-index="0"]');
+
   }
 
   render() {
@@ -296,7 +297,6 @@ class Carousel extends Component {
                   <div>
                     <CarouselImage
                       imgSrc={this.state.selectedImage}
-                      navClass="carousel-dot-video"
                     />
                   </div>
                 </Slider>
@@ -320,7 +320,7 @@ class Carousel extends Component {
                     >
                       <CarouselNavImage
                         imgSrc={url}
-                        navClass="carousel-dot-image"
+                        navClass="carousel-dot-image carousel-dot-video"
                         index={index}
                         selectedIndex={this.state.currentSlideIndex}
                       />
@@ -334,7 +334,7 @@ class Carousel extends Component {
             </div>
 
 
-            <div className="carousel-container carousel-container-horizontal mrg-L hide-for-medium-only hide-for-small-only">
+            <div className="carousel-container carousel-secondary carousel-container-horizontal mrg-L hide-for-medium-only hide-for-small-only">
               <div className="carousel-main-img">
                 <Slider ref="secondarySlider" {...pdpSecondaryCarouselSettings}>
                   <div>

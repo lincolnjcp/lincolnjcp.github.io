@@ -26,25 +26,6 @@
             left: 2px;
             bottom: -16px;
         }
-        & .input-form {
-            & .form-float-label {
-                & .form-control:placeholder-shown:not(:focus)+* {
-                    font-size: 14px;
-                    top: 1.2em;
-                    
-                }
-            }
-            & .input-text {
-                color: var(--color-slate);
-                font-size: 14px;
-            }
-        }
-        & .placeholder-text::-webkit-input-placeholder { 
-            color: var(--color-shadow);
-            font-family: Open Sans,sans-serif;
-            letter-spacing: 0;
-            font-size: 14px;
-        }
     }
 
     & .contact-list {

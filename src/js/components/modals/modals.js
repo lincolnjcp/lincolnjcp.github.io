@@ -192,7 +192,7 @@ class Modals extends Component {
             <button className="modal-close" title="close"></button>
             <h2 className="title title-L algn-lft algn-lft mrg-XS">Send by Email</h2>
             <p className="mrg-XL std-txt std-txt-M fl-left">
-              <h4 class="title-M title mrg-XS color-slate"> Send a copy of your list to up to 10 email addresses </h4>
+              <h4 class="title-M title mrg-XS color-slate algn-lft"> Send a copy of your list to up to 10 email addresses </h4>
             </p>
             <div class="input-group">
                 <div class="form-float-label">
@@ -200,7 +200,7 @@ class Modals extends Component {
                     <label htmlFor="email">To</label>
                 </div>
             </div>
-            <h4 class="title-XS std-txt mrg-L fl-left">Separate emails by comma. This information will not be used for marketing purposes.</h4>
+            <h4 class="title-XS std-txt mrg-L fl-left algn-lft">Separate emails by comma. This information will not be used for marketing purposes.</h4>
             <div class="input-group">
                 <div class="form-float-label">
                     <textarea class="form-control input-text text-area" name="instructions" placeholder="Your Message"></textarea>

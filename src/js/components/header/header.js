@@ -53,36 +53,110 @@ class Header extends Component {
             <div class="side-panel-col side-panel-col-select">
               <div class="dropdown-menu-block column mrg-M">
                 <div class="pos-rel fl-left">
-                  <a class="dropdown-button title-S">Product Type <span class="arrow"></span></a>
+                  <a class="dropdown-button title-S">Filter by Services <span class="arrow"></span></a>
                   <div class="dropdown-menu">
                     <div class="tooltip tooltip-top-left tooltip-Large">
                       <span>
-                        <ul class="list list-underline list-checkboxes">
-                          <li><label class="checkbox">
-                            <input type="checkbox" /> <span>$200 - $300</span>
-                          </label> <span class="list-qty">(14)</span></li>
-                          <li><label class="checkbox">
-                            <input type="checkbox" /> <span>$200 - $300</span>
-                          </label> <span class="list-qty">(14)</span></li>
-                          <li><label class="checkbox">
-                            <input type="checkbox" /> <span>$200 - $300</span>
-                          </label> <span class="list-qty">(14)</span></li>
-                          <li><label class="checkbox">
-                            <input type="checkbox" /> <span>$200 - $300</span>
-                          </label> <span class="list-qty">(14)</span></li>
-                          <li><label class="checkbox">
-                            <input type="checkbox" /> <span>$200 - $300</span>
-                          </label> <span class="list-qty">(14)</span></li>
-                          <li><label class="checkbox">
-                            <input type="checkbox" /> <span>$200 - $300</span>
-                          </label> <span class="list-qty">(14)</span></li>
-                          <li><label class="checkbox">
-                            <input type="checkbox" /> <span>$200 - $300</span>
-                          </label> <span class="list-qty">(14)</span></li>
-                          <li><label class="checkbox">
-                            <input type="checkbox" /> <span>$200 - $300</span>
-                          </label> <span class="list-qty">(14)</span></li>
-                        </ul>
+                      <ul>
+                        <li class="dropdown-list">
+                            <label class="checkbox mrg-M" >
+                                <input type="checkbox" defaultChecked="" />
+                                <span class="left">label</span>
+                                <span class="right-label">(1,008)</span>
+                            </label>
+                        </li>
+                        <li class="dropdown-list">
+                            <label class="checkbox mrg-M">
+                                <input type="checkbox" defaultChecked="" />
+                                <span class="left">label</span>
+                                <span class="right-label">(1,008)</span>
+                            </label>
+                        </li>
+                        <li class="dropdown-list">
+                            <label class="checkbox mrg-M">
+                                <input type="checkbox" defaultChecked="" />
+                                <span class="left">label</span>
+                                <span class="right-label">(1,008)</span>
+                            </label>
+                        </li>
+                        <li class="dropdown-list">
+                            <label class="checkbox mrg-M">
+                                <input type="checkbox" defaultChecked="" />
+                                <span class="left">label</span>
+                                <span class="right-label">(1,008)</span>
+                            </label>
+                        </li>
+                        <li class="dropdown-list">
+                            <label class="checkbox mrg-M">
+                                <input type="checkbox" defaultChecked="" />
+                                <span class="left">label</span>
+                                <span class="right-label">(1,008)</span>
+                            </label>
+                        </li>
+                        <li class="dropdown-list">
+                            <label class="checkbox mrg-M">
+                                <input type="checkbox" defaultChecked="" />
+                                <span class="left">label</span>
+                                <span class="right-label">(1,008)</span>
+                            </label>
+                        </li>
+                        <li class="dropdown-list">
+                            <label class="checkbox mrg-M">
+                                <input type="checkbox" defaultChecked="" />
+                                <span class="left">label</span>
+                                <span class="right-label">(1,008)</span>
+                            </label>
+                        </li>
+                        <li class="dropdown-list">
+                            <label class="checkbox mrg-M">
+                                <input type="checkbox" defaultChecked="" />
+                                <span class="left">label</span>
+                                <span class="right-label">(1,008)</span>
+                            </label>
+                        </li>
+                        <li class="dropdown-list">
+                            <label class="checkbox mrg-M">
+                                <input type="checkbox" defaultChecked="" />
+                                <span class="left">label</span>
+                                <span class="right-label">(1,008)</span>
+                            </label>
+                        </li>
+                        <li class="dropdown-list">
+                            <label class="checkbox mrg-M">
+                                <input type="checkbox" defaultChecked="" />
+                                <span class="left">label</span>
+                                <span class="right-label">(1,008)</span>
+                            </label>
+                        </li>
+                        <li class="dropdown-list">
+                            <label class="checkbox mrg-M">
+                                <input type="checkbox" defaultChecked="" />
+                                <span class="left">label</span>
+                                <span class="right-label">(1,008)</span>
+                            </label>
+                        </li>
+                        <li class="dropdown-list">
+                            <label class="checkbox mrg-M">
+                                <input type="checkbox" defaultChecked="" />
+                                <span class="left">label</span>
+                                <span class="right-label">(1,008)</span>
+                            </label>
+                        </li>
+                        <li class="dropdown-list">
+                            <label class="checkbox mrg-M">
+                                <input type="checkbox" defaultChecked="" />
+                                <span class="left">label</span>
+                                <span class="right-label">(1,008)</span>
+                            </label>
+                        </li>
+                        <li class="dropdown-list">
+                            <label class="checkbox mrg-M">
+                                <input type="checkbox" defaultChecked="" />
+                                <span class="left">label</span>
+                                <span class="right-label">(1,008)</span>
+                            </label>
+                        </li>
+                    </ul>
                       </span>
                     </div>
                   </div>
@@ -455,7 +529,7 @@ class Header extends Component {
     
       $('.main-menu').removeClass('main-menu-search-open');
       $( ".main-menu-primary-rewards, .main-menu-primary-account" ).show(400);
-      $(this).animate({ width: 798 }, 400);
+      $(this).animate({ width: 842 }, 400);
     
     });
     

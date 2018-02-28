@@ -562,7 +562,7 @@ class FilterSort extends Component {
               <div class="fl-left dropdown-menu-block">
                 <a class="dropdown-button title-S mrg-rght-M">Item Type <span class="arrow"></span></a>
                 <div class="dropdown-menu">
-                  <div class="tooltip tooltip-top-center">
+                  <div class="tooltip tooltip-top-center padding-left-zero padding-rght-zero">
                     <span>
                       <ul class="dropdown-sort">
                         <li class="dropdown-list">

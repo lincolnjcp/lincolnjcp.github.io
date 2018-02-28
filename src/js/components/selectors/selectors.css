@@ -4,7 +4,7 @@
 
 .selectors {
     & .sku-block {
-      width: 96px;
+      min-width: 96px;
       height: 40px;
       display: inline-block;
       line-height: 40px;
@@ -35,8 +35,9 @@
       background-color: #ffffff;
       border: solid 1px #d8d8d8;
       color: #626e78;
+      transition: border-color .25s ease-in-out;
       &:hover {
-        border: solid 1px #626e78;
+        border-color: var(--color-slate);
         color: var(--color-slate);
       }
     }
@@ -53,6 +54,7 @@
       color: var(--color-nightsky);
       font-weight: bold;
       position: relative;
+      line-height: 36px;
     }
     & .error {
       border: 1px solid var(--color-penneyred);
@@ -60,7 +62,9 @@
     & .sku-block-oos {
       border: 1px solid var(--color-concrete);
       position: relative;
-      opacity: 0.3;
+      & img {
+        opacity: 0.3;
+      }
       &::before {
         width: 98px;
         height: 1px;
