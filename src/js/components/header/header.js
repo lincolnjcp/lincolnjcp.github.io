@@ -20,7 +20,7 @@ class Header extends Component {
 
         <div class="expand-collapse-section" id={'changeMyStoreZip' + type}>
           <div class="button-preview algn-mid my-location">
-            <a href="javascript:void();" class="btn btn-secondary btn-M mrg-M"><span class="icon" dangerouslySetInnerHTML={{ __html: targetImage }} /><span>Use my Location</span></a>
+            <a href="javascript:void();" class="btn btn-secondary btn-M mrg-M mrg-rght-M"><span class="icon" dangerouslySetInnerHTML={{ __html: targetImage }} /><span>Use my Location</span></a>
             <a href="javascript:void();" class="cancel-btn">cancel</a>
           </div>
           <div class="">
@@ -50,8 +50,8 @@ class Header extends Component {
         </div>
         <div class="side-panel-row-wrap no-border padding-bot-zero">
           <div class="side-panel-row">
-            <div class="side-panel-col side-panel-col-select">
-              <div class="dropdown-menu-block column mrg-M">
+            <div class="side-panel-col side-panel-col-select mrg-M">
+              <div class="dropdown-menu-block column">
                 <div class="pos-rel fl-left">
                   <a class="dropdown-button title-S">Filter by Services <span class="arrow"></span></a>
                   <div class="dropdown-menu">
@@ -518,20 +518,29 @@ class Header extends Component {
         }
       }
     });
-
-    $('#menuPrimarySearch').focus(function() {
     
-      $( ".main-menu-primary-rewards, .main-menu-primary-account" ).hide(400);
+    $('#menuPrimarySearch').focus(function() {
+      // var isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ? true : false;
+      // if(!isMobile) {
+      //   $( ".main-menu-primary-rewards, .main-menu-primary-account" ).show();
+      // }
+    
+      $( ".main-menu-primary-rewards, .main-menu-primary-account" ).fadeOut(400);
       $(this).attr('data-default', $(this).width());
-      $(this).animate({ width: 1132 }, 400);
+      $(this).animate({ width:'100%'}, 400);
     
     }).blur(function() {
-    
-      $('.main-menu').removeClass('main-menu-search-open');
-      $( ".main-menu-primary-rewards, .main-menu-primary-account" ).show(400);
-      $(this).animate({ width: 842 }, 400);
+      if($("#menuPrimarySearch").val()==""){
+        $('.main-menu').removeClass('main-menu-search-open');
+        $( ".main-menu-primary-rewards, .main-menu-primary-account" ).fadeIn(400);
+        $(this).animate({ width:'100%'}, 400);
+      }
     
     });
+
+    $(".search-close-icon").click(function(){
+      $("#menuPrimarySearch").val('').focus();
+  });
     
 
     //Preview top nav without design system wrapper

@@ -117,7 +117,7 @@ class FilterSort extends Component {
           <h1 class="title title-XXL mrg-XL sm12">Filter & Sort</h1><br /><br />
 
           <div class="filter-left-block fl-left show-for-large-only show-for-xlarge-only">
-            <h2 class="title title-XL title title-XL mrg-XXL">Filter By</h2>
+            <h2 class="title title-XL title title-XL mrg-XXL hide-for-small-only hide-for-medium-only">Filter By</h2>
             <div class="column">
               <div class="input-group">
 
@@ -323,7 +323,7 @@ class FilterSort extends Component {
           <div class="side-panel slide-panel-from-left" id="leftPanel">
             <div class="side-panel-container">
               <header class="side-panel-header">
-                <h3 class="title title-L color-white">Panel</h3>
+                <h3 class="title title-L color-white">Filter By</h3>
                 <a href="javascript:void(0);" class="side-panel-close">
                   <div class="change-my-store-icon-close icon color-white-svg" dangerouslySetInnerHTML={{ __html: closeImage }} />
                 </a> </header>
@@ -556,7 +556,7 @@ class FilterSort extends Component {
 
             <div class="pos-rel fl-left hide-for-large-only hide-for-xlarge-only md12 mrg-S">
               <div class="fl-left dropdown-menu-block">
-                <a class="dropdown-button title-S no-dropdown mrg-rght-M side-panel-btn" data-target="#leftPanel">Filter by <span class="sortby std-txt std-txt-S">(2)</span></a>
+                <a class="dropdown-button title-S no-dropdown mrg-rght-M side-panel-btn" data-target="#leftPanel">Filter By <span class="sortby std-txt std-txt-S">(2)</span></a>
               </div>
 
               <div class="fl-left dropdown-menu-block">
@@ -1194,7 +1194,7 @@ class FilterSort extends Component {
         <div class="side-panel slide-panel-from-left" id="leftPanel">
           <div class="side-panel-container">
             <header class="side-panel-header">
-              <h3 class="title title-L color-white">Panel</h3>
+              <h3 class="title title-L color-white">Filter by</h3>
               <a href="javascript:void(0);" class="side-panel-close">
                 <div class="change-my-store-icon-close icon color-white-svg" dangerouslySetInnerHTML={{ __html: closeImage }} />
               </a> </header>

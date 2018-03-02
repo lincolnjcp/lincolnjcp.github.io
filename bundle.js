@@ -11230,7 +11230,7 @@ var pricing_Pricing = function (_Component) {
                           ),
                           react_default.a.createElement(
                             "div",
-                            { "class": "price price-note color-slate std-txt" },
+                            { "class": "price price-note color-slate std-txt mrg-top-XS" },
                             react_default.a.createElement(
                               "span",
                               { "class": "mrg-rght-S" },
@@ -11267,7 +11267,7 @@ var pricing_Pricing = function (_Component) {
                           ),
                           react_default.a.createElement(
                             "div",
-                            { "class": "price price-note color-slate std-txt" },
+                            { "class": "price price-note color-slate std-txt mrg-top-XS" },
                             react_default.a.createElement(
                               "span",
                               { "class": "mrg-rght-S" },
@@ -11335,7 +11335,7 @@ var pricing_Pricing = function (_Component) {
                           ),
                           react_default.a.createElement(
                             "div",
-                            { "class": "price price-note color-slate std-txt" },
+                            { "class": "price price-note color-slate std-txt mrg-top-XS" },
                             react_default.a.createElement(
                               "span",
                               { "class": "mrg-rght-S" },
@@ -11393,7 +11393,7 @@ var pricing_Pricing = function (_Component) {
                           ),
                           react_default.a.createElement(
                             "div",
-                            { "class": "price price-note color-slate std-txt" },
+                            { "class": "price price-note color-slate std-txt mrg-top-XS" },
                             "                             ",
                             react_default.a.createElement(
                               "span",
@@ -11433,179 +11433,7 @@ var pricing_Pricing = function (_Component) {
                           ),
                           react_default.a.createElement(
                             "div",
-                            { "class": "price price-note color-slate std-txt" },
-                            "                             ",
-                            react_default.a.createElement(
-                              "span",
-                              { "class": "mrg-rght-S" },
-                              "was $39.99"
-                            ),
-                            "                             ",
-                            react_default.a.createElement(
-                              "span",
-                              null,
-                              " 20% off"
-                            ),
-                            "                           "
-                          )
-                        )
-                      ),
-                      react_default.a.createElement(
-                        "li",
-                        null,
-                        react_default.a.createElement(
-                          "div",
-                          { "class": "price-card" },
-                          react_default.a.createElement(
-                            "div",
-                            { "class": "price price-promo mrg-XS color-penneyred" },
-                            "BUY 1 GET 1 for Free"
-                          ),
-                          react_default.a.createElement(
-                            "div",
-                            { "class": "price price-S mrg-rght-XS mrg-XS" },
-                            "$29.99"
-                          )
-                        )
-                      ),
-                      react_default.a.createElement(
-                        "li",
-                        null,
-                        react_default.a.createElement(
-                          "div",
-                          { "class": "price-card" },
-                          react_default.a.createElement(
-                            "div",
-                            { "class": "price price-S mrg-rght-XS mrg-XS" },
-                            "View Price in Cart"
-                          )
-                        )
-                      ),
-                      react_default.a.createElement(
-                        "li",
-                        null,
-                        react_default.a.createElement(
-                          "div",
-                          { "class": "price-card" },
-                          react_default.a.createElement(
-                            "div",
-                            { "class": "price price-promo mrg-XS color-penneyred" },
-                            "MARKETING LABEL"
-                          ),
-                          react_default.a.createElement(
-                            "div",
-                            { "class": "price price-S mrg-rght-XS mrg-XS" },
-                            "$29.99",
-                            react_default.a.createElement(
-                              "span",
-                              { "class": "price price-note color-penneyred" },
-                              " sale"
-                            )
-                          ),
-                          react_default.a.createElement(
-                            "div",
-                            { "class": "price price-note color-slate std-txt" },
-                            "                             ",
-                            react_default.a.createElement(
-                              "span",
-                              { "class": "mrg-rght-S" },
-                              "was $39.99"
-                            ),
-                            "                             ",
-                            react_default.a.createElement(
-                              "span",
-                              null,
-                              " 20% off"
-                            ),
-                            "                           "
-                          ),
-                          react_default.a.createElement(
-                            "a",
-                            { href: "javascript:void(0)", "class": "std-txt color-nightsky price-note price" },
-                            "rebates available"
-                          )
-                        )
-                      )
-                    )
-                  ),
-                  react_default.a.createElement(
-                    "li",
-                    null,
-                    react_default.a.createElement(
-                      "ul",
-                      { "class": "gallery-pricing-row" },
-                      react_default.a.createElement(
-                        "li",
-                        null,
-                        react_default.a.createElement(
-                          "div",
-                          { "class": "price-card" },
-                          react_default.a.createElement(
-                            "div",
-                            { "class": "price price-S mrg-rght-XS mrg-XS" },
-                            "$49.99 - $99.99"
-                          )
-                        )
-                      ),
-                      react_default.a.createElement(
-                        "li",
-                        null,
-                        react_default.a.createElement(
-                          "div",
-                          { "class": "price-card" },
-                          react_default.a.createElement(
-                            "div",
-                            { "class": "price price-S mrg-rght-XS mrg-XS" },
-                            "$29.99",
-                            react_default.a.createElement(
-                              "span",
-                              { "class": "price price-note color-penneyred" },
-                              " sale"
-                            )
-                          ),
-                          react_default.a.createElement(
-                            "div",
-                            { "class": "price price-note color-slate std-txt" },
-                            "                             ",
-                            react_default.a.createElement(
-                              "span",
-                              { "class": "mrg-rght-S" },
-                              "was $39.99"
-                            ),
-                            "                             ",
-                            react_default.a.createElement(
-                              "span",
-                              null,
-                              " 20% off"
-                            ),
-                            "                           "
-                          )
-                        )
-                      ),
-                      react_default.a.createElement(
-                        "li",
-                        null,
-                        react_default.a.createElement(
-                          "div",
-                          { "class": "price-card" },
-                          react_default.a.createElement(
-                            "div",
-                            { "class": "price price-promo mrg-XS color-penneyred" },
-                            "GREEN MONDAL DEAL!"
-                          ),
-                          react_default.a.createElement(
-                            "div",
-                            { "class": "price price-S mrg-rght-XS mrg-XS" },
-                            "$29.99",
-                            react_default.a.createElement(
-                              "span",
-                              { "class": "price price-note color-penneyred" },
-                              " sale"
-                            )
-                          ),
-                          react_default.a.createElement(
-                            "div",
-                            { "class": "price price-note color-slate std-txt" },
+                            { "class": "price price-note color-slate std-txt mrg-top-XS" },
                             "                             ",
                             react_default.a.createElement(
                               "span",
@@ -11676,7 +11504,7 @@ var pricing_Pricing = function (_Component) {
                           ),
                           react_default.a.createElement(
                             "div",
-                            { "class": "price price-note color-slate std-txt" },
+                            { "class": "price price-note color-slate std-txt mrg-top-XS" },
                             "                             ",
                             react_default.a.createElement(
                               "span",
@@ -11737,7 +11565,7 @@ var pricing_Pricing = function (_Component) {
                           ),
                           react_default.a.createElement(
                             "div",
-                            { "class": "price price-note color-slate std-txt" },
+                            { "class": "price price-note color-slate std-txt mrg-top-XS" },
                             "                             ",
                             react_default.a.createElement(
                               "span",
@@ -11777,7 +11605,179 @@ var pricing_Pricing = function (_Component) {
                           ),
                           react_default.a.createElement(
                             "div",
-                            { "class": "price price-note color-slate std-txt" },
+                            { "class": "price price-note color-slate std-txt mrg-top-XS" },
+                            "                             ",
+                            react_default.a.createElement(
+                              "span",
+                              { "class": "mrg-rght-S" },
+                              "was $39.99"
+                            ),
+                            "                             ",
+                            react_default.a.createElement(
+                              "span",
+                              null,
+                              " 20% off"
+                            ),
+                            "                           "
+                          )
+                        )
+                      ),
+                      react_default.a.createElement(
+                        "li",
+                        null,
+                        react_default.a.createElement(
+                          "div",
+                          { "class": "price-card" },
+                          react_default.a.createElement(
+                            "div",
+                            { "class": "price price-promo mrg-XS color-penneyred" },
+                            "BUY 1 GET 1 for Free"
+                          ),
+                          react_default.a.createElement(
+                            "div",
+                            { "class": "price price-S mrg-rght-XS mrg-XS" },
+                            "$29.99"
+                          )
+                        )
+                      ),
+                      react_default.a.createElement(
+                        "li",
+                        null,
+                        react_default.a.createElement(
+                          "div",
+                          { "class": "price-card" },
+                          react_default.a.createElement(
+                            "div",
+                            { "class": "price price-S mrg-rght-XS mrg-XS" },
+                            "View Price in Cart"
+                          )
+                        )
+                      ),
+                      react_default.a.createElement(
+                        "li",
+                        null,
+                        react_default.a.createElement(
+                          "div",
+                          { "class": "price-card" },
+                          react_default.a.createElement(
+                            "div",
+                            { "class": "price price-promo mrg-XS color-penneyred" },
+                            "MARKETING LABEL"
+                          ),
+                          react_default.a.createElement(
+                            "div",
+                            { "class": "price price-S mrg-rght-XS mrg-XS" },
+                            "$29.99",
+                            react_default.a.createElement(
+                              "span",
+                              { "class": "price price-note color-penneyred" },
+                              " sale"
+                            )
+                          ),
+                          react_default.a.createElement(
+                            "div",
+                            { "class": "price price-note color-slate std-txt mrg-top-XS" },
+                            "                             ",
+                            react_default.a.createElement(
+                              "span",
+                              { "class": "mrg-rght-S" },
+                              "was $39.99"
+                            ),
+                            "                             ",
+                            react_default.a.createElement(
+                              "span",
+                              null,
+                              " 20% off"
+                            ),
+                            "                           "
+                          ),
+                          react_default.a.createElement(
+                            "a",
+                            { href: "javascript:void(0)", "class": "std-txt color-nightsky price-note price" },
+                            "rebates available"
+                          )
+                        )
+                      )
+                    )
+                  ),
+                  react_default.a.createElement(
+                    "li",
+                    null,
+                    react_default.a.createElement(
+                      "ul",
+                      { "class": "gallery-pricing-row" },
+                      react_default.a.createElement(
+                        "li",
+                        null,
+                        react_default.a.createElement(
+                          "div",
+                          { "class": "price-card" },
+                          react_default.a.createElement(
+                            "div",
+                            { "class": "price price-S mrg-rght-XS mrg-XS" },
+                            "$49.99 - $99.99"
+                          )
+                        )
+                      ),
+                      react_default.a.createElement(
+                        "li",
+                        null,
+                        react_default.a.createElement(
+                          "div",
+                          { "class": "price-card" },
+                          react_default.a.createElement(
+                            "div",
+                            { "class": "price price-S mrg-rght-XS mrg-XS" },
+                            "$29.99",
+                            react_default.a.createElement(
+                              "span",
+                              { "class": "price price-note color-penneyred" },
+                              " sale"
+                            )
+                          ),
+                          react_default.a.createElement(
+                            "div",
+                            { "class": "price price-note color-slate std-txt mrg-top-XS" },
+                            "                             ",
+                            react_default.a.createElement(
+                              "span",
+                              { "class": "mrg-rght-S" },
+                              "was $39.99"
+                            ),
+                            "                             ",
+                            react_default.a.createElement(
+                              "span",
+                              null,
+                              " 20% off"
+                            ),
+                            "                           "
+                          )
+                        )
+                      ),
+                      react_default.a.createElement(
+                        "li",
+                        null,
+                        react_default.a.createElement(
+                          "div",
+                          { "class": "price-card" },
+                          react_default.a.createElement(
+                            "div",
+                            { "class": "price price-promo mrg-XS color-penneyred" },
+                            "GREEN MONDAL DEAL!"
+                          ),
+                          react_default.a.createElement(
+                            "div",
+                            { "class": "price price-S mrg-rght-XS mrg-XS" },
+                            "$29.99",
+                            react_default.a.createElement(
+                              "span",
+                              { "class": "price price-note color-penneyred" },
+                              " sale"
+                            )
+                          ),
+                          react_default.a.createElement(
+                            "div",
+                            { "class": "price price-note color-slate std-txt mrg-top-XS" },
                             "                             ",
                             react_default.a.createElement(
                               "span",
@@ -11829,7 +11829,7 @@ var pricing_Pricing = function (_Component) {
                           ),
                           react_default.a.createElement(
                             "div",
-                            { "class": "price price-note color-slate std-txt" },
+                            { "class": "price price-note color-slate std-txt mrg-top-XS" },
                             "                             ",
                             react_default.a.createElement(
                               "span",
@@ -11887,7 +11887,7 @@ var pricing_Pricing = function (_Component) {
                           ),
                           react_default.a.createElement(
                             "div",
-                            { "class": "price price-note color-slate std-txt" },
+                            { "class": "price price-note color-slate std-txt mrg-top-XS" },
                             "                             ",
                             react_default.a.createElement(
                               "span",
@@ -11969,7 +11969,7 @@ var pricing_Pricing = function (_Component) {
                           ),
                           react_default.a.createElement(
                             "div",
-                            { "class": "price price-note color-slate std-txt" },
+                            { "class": "price price-note color-slate std-txt mrg-top-XS" },
                             "                             ",
                             react_default.a.createElement(
                               "span",
@@ -12009,7 +12009,7 @@ var pricing_Pricing = function (_Component) {
                           ),
                           react_default.a.createElement(
                             "div",
-                            { "class": "price price-note color-slate std-txt" },
+                            { "class": "price price-note color-slate std-txt mrg-top-XS" },
                             "                             ",
                             react_default.a.createElement(
                               "span",
@@ -12080,7 +12080,7 @@ var pricing_Pricing = function (_Component) {
                           ),
                           react_default.a.createElement(
                             "div",
-                            { "class": "price price-note color-slate std-txt" },
+                            { "class": "price price-note color-slate std-txt mrg-top-XS" },
                             "                             ",
                             react_default.a.createElement(
                               "span",
@@ -12141,7 +12141,7 @@ var pricing_Pricing = function (_Component) {
                           ),
                           react_default.a.createElement(
                             "div",
-                            { "class": "price price-note color-slate std-txt" },
+                            { "class": "price price-note color-slate std-txt mrg-top-XS" },
                             "                             ",
                             react_default.a.createElement(
                               "span",
@@ -12181,7 +12181,7 @@ var pricing_Pricing = function (_Component) {
                           ),
                           react_default.a.createElement(
                             "div",
-                            { "class": "price price-note color-slate std-txt" },
+                            { "class": "price price-note color-slate std-txt mrg-top-XS" },
                             "                             ",
                             react_default.a.createElement(
                               "span",
@@ -12252,7 +12252,7 @@ var pricing_Pricing = function (_Component) {
                           ),
                           react_default.a.createElement(
                             "div",
-                            { "class": "price price-note color-slate std-txt" },
+                            { "class": "price price-note color-slate std-txt mrg-top-XS" },
                             "                             ",
                             react_default.a.createElement(
                               "span",
@@ -12313,7 +12313,7 @@ var pricing_Pricing = function (_Component) {
                           ),
                           react_default.a.createElement(
                             "div",
-                            { "class": "price price-note color-slate std-txt" },
+                            { "class": "price price-note color-slate std-txt mrg-top-XS" },
                             "                             ",
                             react_default.a.createElement(
                               "span",
@@ -12353,7 +12353,7 @@ var pricing_Pricing = function (_Component) {
                           ),
                           react_default.a.createElement(
                             "div",
-                            { "class": "price price-note color-slate std-txt" },
+                            { "class": "price price-note color-slate std-txt mrg-top-XS" },
                             "                             ",
                             react_default.a.createElement(
                               "span",
@@ -12424,7 +12424,7 @@ var pricing_Pricing = function (_Component) {
                           ),
                           react_default.a.createElement(
                             "div",
-                            { "class": "price price-note color-slate std-txt" },
+                            { "class": "price price-note color-slate std-txt mrg-top-XS" },
                             "                             ",
                             react_default.a.createElement(
                               "span",
@@ -12485,7 +12485,7 @@ var pricing_Pricing = function (_Component) {
                           ),
                           react_default.a.createElement(
                             "div",
-                            { "class": "price price-note color-slate std-txt" },
+                            { "class": "price price-note color-slate std-txt mrg-top-XS" },
                             "                             ",
                             react_default.a.createElement(
                               "span",
@@ -12525,7 +12525,7 @@ var pricing_Pricing = function (_Component) {
                           ),
                           react_default.a.createElement(
                             "div",
-                            { "class": "price price-note color-slate std-txt" },
+                            { "class": "price price-note color-slate std-txt mrg-top-XS" },
                             "                             ",
                             react_default.a.createElement(
                               "span",
@@ -12609,7 +12609,7 @@ var pricing_Pricing = function (_Component) {
                           ),
                           react_default.a.createElement(
                             "div",
-                            { "class": "price price-note color-slate std-txt" },
+                            { "class": "price price-note color-slate std-txt mrg-top-XS" },
                             "                             ",
                             react_default.a.createElement(
                               "span",
@@ -13191,7 +13191,7 @@ var pricing_Pricing = function (_Component) {
                           ),
                           react_default.a.createElement(
                             "div",
-                            { "class": "price price-note color-slate std-txt" },
+                            { "class": "price price-note color-slate std-txt mrg-top-XS" },
                             "                             ",
                             react_default.a.createElement(
                               "span",
@@ -19276,7 +19276,7 @@ var header_Header = function (_Component) {
             { 'class': 'button-preview algn-mid my-location' },
             react_default.a.createElement(
               'a',
-              { href: 'javascript:void();', 'class': 'btn btn-secondary btn-M mrg-M' },
+              { href: 'javascript:void();', 'class': 'btn btn-secondary btn-M mrg-M mrg-rght-M' },
               react_default.a.createElement('span', { 'class': 'icon', dangerouslySetInnerHTML: { __html: header_targetImage } }),
               react_default.a.createElement(
                 'span',
@@ -19358,10 +19358,10 @@ var header_Header = function (_Component) {
             { 'class': 'side-panel-row' },
             react_default.a.createElement(
               'div',
-              { 'class': 'side-panel-col side-panel-col-select' },
+              { 'class': 'side-panel-col side-panel-col-select mrg-M' },
               react_default.a.createElement(
                 'div',
-                { 'class': 'dropdown-menu-block column mrg-M' },
+                { 'class': 'dropdown-menu-block column' },
                 react_default.a.createElement(
                   'div',
                   { 'class': 'pos-rel fl-left' },
@@ -20235,15 +20235,24 @@ var header_Header = function (_Component) {
       });
 
       jquery_default()('#menuPrimarySearch').focus(function () {
+        // var isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ? true : false;
+        // if(!isMobile) {
+        //   $( ".main-menu-primary-rewards, .main-menu-primary-account" ).show();
+        // }
 
-        jquery_default()(".main-menu-primary-rewards, .main-menu-primary-account").hide(400);
+        jquery_default()(".main-menu-primary-rewards, .main-menu-primary-account").fadeOut(400);
         jquery_default()(this).attr('data-default', jquery_default()(this).width());
-        jquery_default()(this).animate({ width: 1132 }, 400);
+        jquery_default()(this).animate({ width: '100%' }, 400);
       }).blur(function () {
+        if (jquery_default()("#menuPrimarySearch").val() == "") {
+          jquery_default()('.main-menu').removeClass('main-menu-search-open');
+          jquery_default()(".main-menu-primary-rewards, .main-menu-primary-account").fadeIn(400);
+          jquery_default()(this).animate({ width: '100%' }, 400);
+        }
+      });
 
-        jquery_default()('.main-menu').removeClass('main-menu-search-open');
-        jquery_default()(".main-menu-primary-rewards, .main-menu-primary-account").show(400);
-        jquery_default()(this).animate({ width: 842 }, 400);
+      jquery_default()(".search-close-icon").click(function () {
+        jquery_default()("#menuPrimarySearch").val('').focus();
       });
 
       //Preview top nav without design system wrapper
@@ -22542,7 +22551,7 @@ var filter_sort_FilterSort = function (_Component) {
             { 'class': 'filter-left-block fl-left show-for-large-only show-for-xlarge-only' },
             react_default.a.createElement(
               'h2',
-              { 'class': 'title title-XL title title-XL mrg-XXL' },
+              { 'class': 'title title-XL title title-XL mrg-XXL hide-for-small-only hide-for-medium-only' },
               'Filter By'
             ),
             react_default.a.createElement(
@@ -23088,7 +23097,7 @@ var filter_sort_FilterSort = function (_Component) {
                 react_default.a.createElement(
                   'h3',
                   { 'class': 'title title-L color-white' },
-                  'Panel'
+                  'Filter By'
                 ),
                 react_default.a.createElement(
                   'a',
@@ -23700,7 +23709,7 @@ var filter_sort_FilterSort = function (_Component) {
                 react_default.a.createElement(
                   'a',
                   { 'class': 'dropdown-button title-S no-dropdown mrg-rght-M side-panel-btn', 'data-target': '#leftPanel' },
-                  'Filter by ',
+                  'Filter By ',
                   react_default.a.createElement(
                     'span',
                     { 'class': 'sortby std-txt std-txt-S' },
@@ -25393,7 +25402,7 @@ var filter_sort_FilterSort = function (_Component) {
               react_default.a.createElement(
                 'h3',
                 { 'class': 'title title-L color-white' },
-                'Panel'
+                'Filter by'
               ),
               react_default.a.createElement(
                 'a',
@@ -26188,8 +26197,8 @@ var product_cards_ProductCards = function (_Component) {
                                                     )
                                                 ),
                                                 react_default.a.createElement(
-                                                    'a',
-                                                    { 'class': 'alt-link std-txt std-txt-XS', href: 'javascript:void(0);' },
+                                                    'div',
+                                                    { 'class': 'shop-collection title title-XS' },
                                                     react_default.a.createElement(
                                                         'span',
                                                         { 'class': 'hide-for-small-only' },
@@ -26390,8 +26399,8 @@ var product_cards_ProductCards = function (_Component) {
                                                     )
                                                 ),
                                                 react_default.a.createElement(
-                                                    'a',
-                                                    { 'class': 'alt-link std-txt std-txt-XS', href: 'javascript:void(0);' },
+                                                    'div',
+                                                    { 'class': 'shop-collection title title-XS' },
                                                     react_default.a.createElement(
                                                         'span',
                                                         { 'class': 'hide-for-small-only' },
@@ -26592,8 +26601,8 @@ var product_cards_ProductCards = function (_Component) {
                                                     )
                                                 ),
                                                 react_default.a.createElement(
-                                                    'a',
-                                                    { 'class': 'alt-link std-txt std-txt-XS', href: 'javascript:void(0);' },
+                                                    'div',
+                                                    { 'class': 'shop-collection title title-XS' },
                                                     react_default.a.createElement(
                                                         'span',
                                                         { 'class': 'hide-for-small-only' },
@@ -26775,8 +26784,8 @@ var product_cards_ProductCards = function (_Component) {
                                                     )
                                                 ),
                                                 react_default.a.createElement(
-                                                    'a',
-                                                    { 'class': 'alt-link std-txt std-txt-XS', href: 'javascript:void(0);' },
+                                                    'div',
+                                                    { 'class': 'shop-collection title title-XS' },
                                                     react_default.a.createElement(
                                                         'span',
                                                         { 'class': 'hide-for-small-only' },
@@ -26958,8 +26967,8 @@ var product_cards_ProductCards = function (_Component) {
                                                     )
                                                 ),
                                                 react_default.a.createElement(
-                                                    'a',
-                                                    { 'class': 'alt-link std-txt std-txt-XS', href: 'javascript:void(0);' },
+                                                    'div',
+                                                    { 'class': 'shop-collection title title-XS' },
                                                     react_default.a.createElement(
                                                         'span',
                                                         { 'class': 'hide-for-small-only' },
@@ -27141,8 +27150,8 @@ var product_cards_ProductCards = function (_Component) {
                                                     )
                                                 ),
                                                 react_default.a.createElement(
-                                                    'a',
-                                                    { 'class': 'alt-link std-txt std-txt-XS', href: 'javascript:void(0);' },
+                                                    'div',
+                                                    { 'class': 'shop-collection title title-XS' },
                                                     react_default.a.createElement(
                                                         'span',
                                                         { 'class': 'hide-for-small-only' },
@@ -27324,8 +27333,8 @@ var product_cards_ProductCards = function (_Component) {
                                                     )
                                                 ),
                                                 react_default.a.createElement(
-                                                    'a',
-                                                    { 'class': 'alt-link std-txt std-txt-XS', href: 'javascript:void(0);' },
+                                                    'div',
+                                                    { 'class': 'shop-collection title title-XS' },
                                                     react_default.a.createElement(
                                                         'span',
                                                         { 'class': 'hide-for-small-only' },
@@ -27526,8 +27535,8 @@ var product_cards_ProductCards = function (_Component) {
                                                     )
                                                 ),
                                                 react_default.a.createElement(
-                                                    'a',
-                                                    { 'class': 'alt-link std-txt std-txt-XS', href: 'javascript:void(0);' },
+                                                    'div',
+                                                    { 'class': 'shop-collection title title-XS' },
                                                     react_default.a.createElement(
                                                         'span',
                                                         { 'class': 'hide-for-small-only' },
@@ -27751,8 +27760,8 @@ var product_cards_ProductCards = function (_Component) {
                                                 )
                                             ),
                                             react_default.a.createElement(
-                                                'a',
-                                                { 'class': 'alt-link std-txt std-txt-XS', href: 'javascript:void(0);' },
+                                                'div',
+                                                { 'class': 'shop-collection title title-XS' },
                                                 react_default.a.createElement(
                                                     'span',
                                                     { 'class': 'hide-for-small-only' },
@@ -27962,8 +27971,8 @@ var product_cards_ProductCards = function (_Component) {
                                                 )
                                             ),
                                             react_default.a.createElement(
-                                                'a',
-                                                { 'class': 'alt-link std-txt std-txt-XS', href: 'javascript:void(0);' },
+                                                'div',
+                                                { 'class': 'shop-collection title title-XS' },
                                                 react_default.a.createElement(
                                                     'span',
                                                     { 'class': 'hide-for-small-only' },
@@ -28855,7 +28864,7 @@ var product_cards_ProductCards = function (_Component) {
                                     react_default.a.createElement(
                                         'a',
                                         { href: 'javascript:void(0)' },
-                                        react_default.a.createElement('img', { src: '/images/design-system/fpo/product-cards/product-card-large-pane-1.jpg', alt: 'Samsung ENERGY STAR' })
+                                        react_default.a.createElement('img', { src: '/images/design-system/fpo/product-cards/product-card-recommendations-3.jpg', alt: 'Samsung ENERGY STAR' })
                                     ),
                                     react_default.a.createElement(
                                         'div',
@@ -28966,7 +28975,7 @@ var product_cards_ProductCards = function (_Component) {
                                     react_default.a.createElement(
                                         'a',
                                         { href: 'javascript:void(0)' },
-                                        react_default.a.createElement('img', { src: '/images/design-system/fpo/product-cards/product-card-large-pane-2.jpg', alt: 'Samsung ENERGY STAR' })
+                                        react_default.a.createElement('img', { src: '/images/design-system/fpo/product-cards/product-card-recommendations-3.jpg', alt: 'Samsung ENERGY STAR' })
                                     ),
                                     react_default.a.createElement(
                                         'div',
@@ -28991,27 +29000,28 @@ var product_cards_ProductCards = function (_Component) {
                                         { 'class': 'product-card-price' },
                                         react_default.a.createElement(
                                             'div',
-                                            { 'class': 'product-card-price-value' },
-                                            react_default.a.createElement(
-                                                'div',
-                                                { 'class': 'flag flag-price std-txt std-txt-XS mrg-rght-XS' },
-                                                react_default.a.createElement(
-                                                    'div',
-                                                    { 'class': 'price price-XS color-white' },
-                                                    '$59.99'
-                                                )
-                                            )
+                                            { 'class': 'product-card-price-value price price-XS mrg-rght-XS' },
+                                            '$29.99'
                                         ),
                                         react_default.a.createElement(
                                             'div',
                                             { 'class': 'product-card-note price price-note color-penneyred' },
-                                            'after coupon'
+                                            'sale'
                                         )
                                     ),
                                     react_default.a.createElement(
                                         'div',
-                                        { 'class': 'product-card-note price price-note color-slate std-txt' },
-                                        'reg. $60.99'
+                                        { 'class': 'price price-note color-slate std-txt' },
+                                        react_default.a.createElement(
+                                            'span',
+                                            { 'class': 'mrg-rght-S' },
+                                            'was $39.99'
+                                        ),
+                                        react_default.a.createElement(
+                                            'span',
+                                            null,
+                                            ' 20% off'
+                                        )
                                     ),
                                     react_default.a.createElement(
                                         'div',

@@ -720,11 +720,25 @@ input[type=number]::-webkit-outer-spin-button {
 
   & input[type="number"],
   & select,
-  & .select {
+  & .select, & input[type="text"] {
     border: none;
     border-radius: 0;
     font-size: 14px;
     margin: 0;
+  }
+
+  @media (--viewport-sm-only) {
+    & input[type="text"] {
+      margin-left: 16px;
+      height: 38px;
+      border-right: 1px solid var(--color-concrete);
+      width: 86%;
+      padding-left: 5px;
+      &:focus {
+        border: none;
+        border-right: 1px solid var(--color-concrete);
+      }
+    }
   }
 
   & select {
@@ -803,10 +817,12 @@ input[type=number]::-webkit-outer-spin-button {
   & input[type="text"] {
     border-radius: 24px;
     padding-right: 20px;
+    -webkit-appearance: none;
   }
-  /* & .input-text:not(:valid) ~ .search-close-icon {
+    & .input-text:not(:valid) ~ .search-close-icon {
     display: none;
-  } */
+  }
+
 }
 .credit-card-icon {
   display: none;
