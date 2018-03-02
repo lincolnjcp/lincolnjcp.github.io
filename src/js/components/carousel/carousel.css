@@ -205,7 +205,7 @@
 .slick-arrow.slick-disabled {
 	visibility: hidden;
 	pointer-events: none;
-	display: none !important;
+	/* display: none !important; */
 }
 .slick-arrow.slick-next {
 	@media (--viewport-sm-only) {
@@ -332,6 +332,12 @@
 		& .slick-current {
 			border: 2px solid var(--color-nightsky);
 			padding: 2px;
+			& .carousel-dot-video {
+				&:after {
+					top: 24px;
+					left: 24px;
+				}
+			}
 		}
 
 		& .slick-list {
@@ -411,9 +417,9 @@
 			& .slick-list {
 				display: none;
 			}
-			& .slick-arrow {
+			/* & .slick-arrow {
 				display: none !important;
-			}
+			} */
 			& .slick-slide {
 			position: relative;
 
@@ -539,6 +545,7 @@
     visibility: hidden;
   }
 }
+/* 
 button.slick-arrow.slick-prev {
 	display: none !important;
-}
+} */

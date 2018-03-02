@@ -54,7 +54,7 @@
       }
       @media (--viewport-sm-only) {
         width: 96%;
-        padding: 36px 16px 24px;
+        padding: 36px 16px 16px;
       }
       padding: 36px 14px 24px;
     }
@@ -65,7 +65,7 @@
       }
       @media (--viewport-sm-only) {
         width: 96%;
-        padding: 40px 16px 24px;
+        padding: 40px 16px 16px;
       }
       padding: 40px 24px 24px;
     }
