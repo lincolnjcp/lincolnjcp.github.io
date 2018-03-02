@@ -20240,14 +20240,14 @@ var header_Header = function (_Component) {
         //   $( ".main-menu-primary-rewards, .main-menu-primary-account" ).show();
         // }
 
-        jquery_default()(".main-menu-primary-rewards, .main-menu-primary-account").fadeOut(400);
+        jquery_default()(".main-menu-primary-rewards, .main-menu-primary-account").hide(400);
         jquery_default()(this).attr('data-default', jquery_default()(this).width());
-        jquery_default()(this).animate({ width: '100%' }, 400);
+        // $(this).animate({ width:'100'}, 400);
       }).blur(function () {
         if (jquery_default()("#menuPrimarySearch").val() == "") {
           jquery_default()('.main-menu').removeClass('main-menu-search-open');
-          jquery_default()(".main-menu-primary-rewards, .main-menu-primary-account").fadeIn(400);
-          jquery_default()(this).animate({ width: '100%' }, 400);
+          jquery_default()(".main-menu-primary-rewards, .main-menu-primary-account").show(400);
+          // $(this).animate({ width:'100'}, 400);
         }
       });
 

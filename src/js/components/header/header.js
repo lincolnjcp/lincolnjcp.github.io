@@ -525,15 +525,15 @@ class Header extends Component {
       //   $( ".main-menu-primary-rewards, .main-menu-primary-account" ).show();
       // }
     
-      $( ".main-menu-primary-rewards, .main-menu-primary-account" ).fadeOut(400);
+      $( ".main-menu-primary-rewards, .main-menu-primary-account" ).hide(400);
       $(this).attr('data-default', $(this).width());
-      $(this).animate({ width:'100%'}, 400);
+      // $(this).animate({ width:'100'}, 400);
     
     }).blur(function() {
       if($("#menuPrimarySearch").val()==""){
         $('.main-menu').removeClass('main-menu-search-open');
-        $( ".main-menu-primary-rewards, .main-menu-primary-account" ).fadeIn(400);
-        $(this).animate({ width:'100%'}, 400);
+        $( ".main-menu-primary-rewards, .main-menu-primary-account" ).show(400);
+        // $(this).animate({ width:'100'}, 400);
       }
     
     });
