@@ -68,7 +68,6 @@
 
     &.is-active {
         transition: background 0.25s ease-in-out;
-        background: var(--color-white);
         & .heart {
             & use {
                 stroke: none !important;

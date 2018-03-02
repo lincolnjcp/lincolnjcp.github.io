@@ -87,7 +87,7 @@
         height: 434px;
         width: 101%;
         @media (--viewport-sm-only) {
-          width: 105%;
+          width: 103%;
         }
     }
     & .scrollable.showScroll::after {
