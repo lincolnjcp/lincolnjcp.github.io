@@ -25,9 +25,6 @@
     border-color: var(--color-success-border);
     background-color: var(--color-success-fill);
     color: var(--color-success-type);
-    & path, & use, & polygon, & circle {
-      fill: var(--color-success-type) !important;
-    }
   }
 
   &.msg-warning{
@@ -40,9 +37,6 @@
     border-color: var(--color-error-border);
     background-color: var(--color-error-fill);
     color: var(--color-error-type);
-    & path, & use, & polygon, & circle {
-      fill: var(--color-error-type) !important;
-    }
   }
 
   &.msg-inline{

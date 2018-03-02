@@ -5089,13 +5089,13 @@ var alerts_Alerts = function (_Component) {
                             'div',
                             { 'class': 'msg msg-success mrg-M' },
                             'Success! Item added to cart.',
-                            react_default.a.createElement('span', { 'class': 'icon msg-close color-success-type', dangerouslySetInnerHTML: { __html: alerts_closeImage } })
+                            react_default.a.createElement('span', { 'class': 'icon msg-close color-success-type-svg ', dangerouslySetInnerHTML: { __html: alerts_closeImage } })
                         ),
                         react_default.a.createElement(
                             'div',
                             { 'class': 'msg msg-error mrg-XL' },
                             'Please select a size.',
-                            react_default.a.createElement('span', { 'class': 'icon msg-close color-error-type', dangerouslySetInnerHTML: { __html: alerts_closeImage } })
+                            react_default.a.createElement('span', { 'class': 'icon msg-close color-error-type-svg', dangerouslySetInnerHTML: { __html: alerts_closeImage } })
                         ),
                         react_default.a.createElement(
                             'h4',

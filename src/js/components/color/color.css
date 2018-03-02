@@ -171,6 +171,11 @@
     background-color: var(--color-error-fill);
   }
 
+  .color-error-type-svg{
+    & path, & use, & polygon, & circle {
+      fill: var(--color-error-type) !important;
+    }
+  }
 
 
 /*  Warning */
@@ -224,6 +229,11 @@
     background-color: var(--color-success-fill);
   }
 
+  .color-success-type-svg{
+  & path, & use, & polygon, & circle {
+    fill: var(--color-success-type) !important;
+  }
+}
 
 /*  Neutral */
 .color-neutral-type{
