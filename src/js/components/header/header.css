@@ -340,7 +340,7 @@
     & .main-menu-tier2-link,
     & .main-menu-tier3-link {
     	display: block;
-    	/* padding: 16px 24px 16px 16px; */
+    	padding: 16px 24px 16px 16px;
     	position: relative;
     	font-size: 14px;
     	text-decoration: none;
@@ -600,7 +600,8 @@
 	    width:100%;
 	    height: 100%;
 		background:rgba(0,0,0,.5);
-	    z-index: 1999;
+		z-index: 1999;
+		transition: background .5s ease-in-out;
 	}
 	.main-menu-bar-secondary-container .main-menu-secondary-li.main-menu-secondary-hidden-lg-up,
 	.main-menu-secondary-hidden-lg-up,
@@ -639,7 +640,9 @@
 
 	    & .main-menu-tier1-ul {
 	    	transform: translateY(-700px);
-	    	transition: transform 100ms ease-out;
+			/* transition: transform 100ms ease-out; */
+			-webkit-transition: all .5s ease;
+			transition: all .5s ease;
 	    	& a {
 	    		transition: background-color .25s;
 	    	}

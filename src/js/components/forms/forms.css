@@ -726,6 +726,13 @@ input[type=number]::-webkit-outer-spin-button {
     font-size: 14px;
     margin: 0;
   }
+  & input[type="text"] {
+    height: 36px;
+    background: transparent;
+    &:focus {
+      border: none;
+    }
+  }
 
   @media (--viewport-sm-only) {
     & input[type="text"] {

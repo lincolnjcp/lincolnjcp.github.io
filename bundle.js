@@ -20096,7 +20096,10 @@ var header_Header = function (_Component) {
         interval: 100,
         out: function out() {
           jquery_default()(".main-menu-secondary-li").removeClass("main-menu-secondary-hover");
-          jquery_default()("#mainMenusecondaryLightBox").remove();
+          jquery_default()("#mainMenusecondaryLightBox").fadeOut(300);
+          setTimeout(function () {
+            jquery_default()("#mainMenusecondaryLightBox").remove();
+          }, 500);
           jquery_default()('.main-menu-tier1').removeClass('active-tier2').removeClass('active-tier3');
         }
       });
@@ -20618,7 +20621,7 @@ var header_Header = function (_Component) {
                           { 'class': 'main-menu-secondary title title-s' },
                           react_default.a.createElement(
                             'li',
-                            { 'class': 'main-menu-secondary-li main-menu-secondary-li-shop-departments' },
+                            { 'class': 'main-menu-secondary-li main-menu-secondary-li-shop-departments main-menu-secondary-open' },
                             react_default.a.createElement(
                               'button',
                               { 'class': 'main-menu-secondary-shop-departments hide-for-medium-down' },
@@ -20769,54 +20772,6 @@ var header_Header = function (_Component) {
                                   subLinks: [{
                                     name: 'Women\'s Shoes',
                                     sublinks2: ['Women\'s Boots']
-                                  }]
-                                }),
-                                this.navSet({
-                                  name: "Handbags",
-                                  thumb: '/images/design-system/fpo/navigation/nav-mobile-handbags.jpg',
-                                  subLinks: [{
-                                    name: 'Handbags & Wallets',
-                                    sublinks2: ['Backpacks & Messenger Bags']
-                                  }]
-                                }),
-                                this.navSet({
-                                  name: "Jewelry",
-                                  thumb: '/images/design-system/fpo/navigation/nav-mobile-jewelry.jpg',
-                                  subLinks: [{
-                                    name: 'Fine Jewelry',
-                                    sublinks2: ['View All Brands']
-                                  }]
-                                }),
-                                this.navSet({
-                                  name: "Salon",
-                                  thumb: '/images/design-system/fpo/navigation/nav-mobile-salon.jpg',
-                                  subLinks: [{
-                                    name: 'Appointments & Salons',
-                                    sublinks2: ['Schedule a Salon Appointment']
-                                  }]
-                                }),
-                                this.navSet({
-                                  name: "Sephora",
-                                  thumb: '/images/design-system/fpo/navigation/nav-mobile-sephora.jpg',
-                                  subLinks: [{
-                                    name: 'Beauty Spotlight',
-                                    sublinks2: ['Just Arrived']
-                                  }]
-                                }),
-                                this.navSet({
-                                  name: "Gifts",
-                                  thumb: '/images/design-system/fpo/navigation/nav-mobile-gifts.jpg',
-                                  subLinks: [{
-                                    name: 'Shop By Price',
-                                    sublinks2: ['Gifts Under $15']
-                                  }]
-                                }),
-                                this.navSet({
-                                  name: "Clearance",
-                                  thumb: '/images/design-system/fpo/navigation/nav-mobile-clearance.jpg',
-                                  subLinks: [{
-                                    name: 'Shop Clothing',
-                                    sublinks2: ['Women']
                                   }]
                                 })
                               )

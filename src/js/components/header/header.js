@@ -375,7 +375,10 @@ class Header extends Component {
       interval: 100,
       out: function () {
         $(".main-menu-secondary-li").removeClass("main-menu-secondary-hover");
-        $("#mainMenusecondaryLightBox").remove();
+        $("#mainMenusecondaryLightBox").fadeOut(300);
+        setTimeout(function(){ 
+          $("#mainMenusecondaryLightBox").remove();
+         }, 500);
         $('.main-menu-tier1').removeClass('active-tier2').removeClass('active-tier3')
       }
     });
@@ -520,20 +523,19 @@ class Header extends Component {
     });
     
     $('#menuPrimarySearch').focus(function() {
-      // var isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ? true : false;
-      // if(!isMobile) {
-      //   $( ".main-menu-primary-rewards, .main-menu-primary-account" ).show();
-      // }
-    
-      $( ".main-menu-primary-rewards, .main-menu-primary-account" ).hide(400);
-      $(this).attr('data-default', $(this).width());
-      // $(this).animate({ width:'100'}, 400);
+      
+      if($(window).width() >= 1024)
+      {
+        $( ".main-menu-primary-rewards, .main-menu-primary-account" ).hide(400);
+        $(this).attr('data-default', $(this).width());
+      } else {
+        $( ".main-menu-primary-rewards, .main-menu-primary-account" ).show();
+      }
     
     }).blur(function() {
       if($("#menuPrimarySearch").val()==""){
         $('.main-menu').removeClass('main-menu-search-open');
         $( ".main-menu-primary-rewards, .main-menu-primary-account" ).show(400);
-        // $(this).animate({ width:'100'}, 400);
       }
     
     });
@@ -662,7 +664,7 @@ class Header extends Component {
                     <div class="main-menu-bar-secondary-container">
                       <div class="main-menu-secondary-left">
                         <ul class="main-menu-secondary title title-s">
-                          <li class="main-menu-secondary-li main-menu-secondary-li-shop-departments">
+                          <li class="main-menu-secondary-li main-menu-secondary-li-shop-departments main-menu-secondary-open">
                             <button class="main-menu-secondary-shop-departments hide-for-medium-down">
                               <div class="main-menu-secondary-shop-departments-menu-svg icon color-nightsky-svg" dangerouslySetInnerHTML={{ __html: menuImage }} />
                               <span class="main-menu-secondary-shop-departments-menu-label">Shop Departments</span> </button>
@@ -837,90 +839,6 @@ class Header extends Component {
                                       name: 'Women\'s Shoes',
                                       sublinks2: [
                                         'Women\'s Boots'
-                                      ]
-                                    }
-                                  ]
-                                }
-                                )}
-
-                                {this.navSet({
-                                  name: "Handbags",
-                                  thumb: '/images/design-system/fpo/navigation/nav-mobile-handbags.jpg',
-                                  subLinks: [
-                                    {
-                                      name: 'Handbags & Wallets',
-                                      sublinks2: [
-                                        'Backpacks & Messenger Bags'
-                                      ]
-                                    }
-                                  ]
-                                }
-                                )}
-
-                                {this.navSet({
-                                  name: "Jewelry",
-                                  thumb: '/images/design-system/fpo/navigation/nav-mobile-jewelry.jpg',
-                                  subLinks: [
-                                    {
-                                      name: 'Fine Jewelry',
-                                      sublinks2: [
-                                        'View All Brands'
-                                      ]
-                                    }
-                                  ]
-                                }
-                                )}
-
-                                {this.navSet({
-                                  name: "Salon",
-                                  thumb: '/images/design-system/fpo/navigation/nav-mobile-salon.jpg',
-                                  subLinks: [
-                                    {
-                                      name: 'Appointments & Salons',
-                                      sublinks2: [
-                                        'Schedule a Salon Appointment'
-                                      ]
-                                    }
-                                  ]
-                                }
-                                )}
-
-                                {this.navSet({
-                                  name: "Sephora",
-                                  thumb: '/images/design-system/fpo/navigation/nav-mobile-sephora.jpg',
-                                  subLinks: [
-                                    {
-                                      name: 'Beauty Spotlight',
-                                      sublinks2: [
-                                        'Just Arrived'
-                                      ]
-                                    }
-                                  ]
-                                }
-                                )}
-
-                                {this.navSet({
-                                  name: "Gifts",
-                                  thumb: '/images/design-system/fpo/navigation/nav-mobile-gifts.jpg',
-                                  subLinks: [
-                                    {
-                                      name: 'Shop By Price',
-                                      sublinks2: [
-                                        'Gifts Under $15'
-                                      ]
-                                    }
-                                  ]
-                                }
-                                )}
-
-                                {this.navSet({
-                                  name: "Clearance",
-                                  thumb: '/images/design-system/fpo/navigation/nav-mobile-clearance.jpg',
-                                  subLinks: [
-                                    {
-                                      name: 'Shop Clothing',
-                                      sublinks2: [
-                                        'Women'
                                       ]
                                     }
                                   ]
