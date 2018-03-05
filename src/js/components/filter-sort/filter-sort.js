@@ -97,13 +97,56 @@ class FilterSort extends Component {
       event.preventDefault();
     });
 
-    $('.dropdown-button').on('click', function () {
+    
+    
+    function DropDown(el) {
+      this.dd = el;
+      this.opts = this.dd.find('ul.dropdown > li');
+      this.val = [];
+      this.index = [];
+      this.initEvents();
+    }
+    DropDown.prototype = {
+      initEvents : function() {
+        var obj = this;
 
-      var parent_box = $(this).closest('.dropdown-menu-block');
-      parent_box.siblings().find('.dropdown-menu').hide();
-      parent_box.find('.dropdown-menu').slideToggle(200, 'swing');
+        obj.dd.on('click', function(event){
 
-      $(this).toggleClass("arrow-down");
+          $(this).toggleClass('active');
+          event.stopPropagation();
+        });
+
+        obj.opts.children('label').on('click',function(event){
+          var opt = $(this).parent(),
+            chbox = opt.children('input'),
+            val = chbox.val(),
+            idx = opt.index();
+
+          ($.inArray(val, obj.val) !== -1) ? obj.val.splice( $.inArray(val, obj.val), 1 ) : obj.val.push( val );
+          ($.inArray(idx, obj.index) !== -1) ? obj.index.splice( $.inArray(idx, obj.index), 1 ) : obj.index.push( idx );
+        });
+      },
+      getValue : function() {
+        return this.val;
+      },
+      getIndex : function() {
+        return this.index;
+      }
+    }
+
+    $(function() {
+
+      var dd = new DropDown( $('.menu-dropdown') );
+
+      $(document).click(function() {
+        // all dropdowns
+        $('.menu-dropdown').removeClass('active');
+      });
+
+    });
+
+    $('.menu-dropdown').on('click', function () {
+      
 
     });
 
@@ -329,7 +372,6 @@ class FilterSort extends Component {
                 </a> </header>
               <div class="side-panel-content">
                 <div class="filter-left-block">
-                  <h2 class="title title-XL title title-XL mrg-XXL">Filter By</h2>
                   <div class="column">
                     <div class="input-group">
 
@@ -560,33 +602,118 @@ class FilterSort extends Component {
               </div>
 
               <div class="fl-left dropdown-menu-block">
-                <a class="dropdown-button title-S mrg-rght-M">Item Type <span class="arrow"></span></a>
-                <div class="dropdown-menu">
-                  <div class="tooltip tooltip-top-center padding-left-zero padding-rght-zero">
+                <div class="dropdown-button title-S mrg-rght-M menu-dropdown" id="dropdown">Item Type
+              
+                  <div class="dropdown tooltip tooltip-top-right padding-left-zero padding-rght-zero">
                     <span>
-                      <ul class="dropdown-sort">
-                        <li class="dropdown-list">
-                          <a href="javascript:void(0)" class="sort-list">Featured</a>
-                        </li>
-                        <li class="dropdown-list">
-                          <a href="javascript:void(0)" class="sort-list">Best Sellers</a>
-                        </li>
-                        <li class="dropdown-list">
-                          <a href="javascript:void(0)" class="sort-list">New Arrivals</a>
-                        </li>
-                        <li class="dropdown-list">
-                          <a href="javascript:void(0)" class="sort-list">Price High to Low</a>
-                        </li>
-                      </ul>
+                    <ul>
+                                            <li class="dropdown-list">
+                                                <label class="checkbox" >
+                                                    <input type="checkbox" defaultChecked="" />
+                                                    <span class="left">label</span>
+                                                    <span class="right-label">(1,008)</span>
+                                                </label>
+                                            </li>
+                                            <li class="dropdown-list">
+                                                <label class="checkbox">
+                                                    <input type="checkbox" defaultChecked="" />
+                                                    <span class="left">label</span>
+                                                    <span class="right-label">(1,008)</span>
+                                                </label>
+                                            </li>
+                                            <li class="dropdown-list">
+                                                <label class="checkbox">
+                                                    <input type="checkbox" defaultChecked="" />
+                                                    <span class="left">label</span>
+                                                    <span class="right-label">(1,008)</span>
+                                                </label>
+                                            </li>
+                                            <li class="dropdown-list">
+                                                <label class="checkbox">
+                                                    <input type="checkbox" defaultChecked="" />
+                                                    <span class="left">label</span>
+                                                    <span class="right-label">(1,008)</span>
+                                                </label>
+                                            </li>
+                                            <li class="dropdown-list">
+                                                <label class="checkbox">
+                                                    <input type="checkbox" defaultChecked="" />
+                                                    <span class="left">label</span>
+                                                    <span class="right-label">(1,008)</span>
+                                                </label>
+                                            </li>
+                                            <li class="dropdown-list">
+                                                <label class="checkbox">
+                                                    <input type="checkbox" defaultChecked="" />
+                                                    <span class="left">label</span>
+                                                    <span class="right-label">(1,008)</span>
+                                                </label>
+                                            </li>
+                                            <li class="dropdown-list">
+                                                <label class="checkbox">
+                                                    <input type="checkbox" defaultChecked="" />
+                                                    <span class="left">label</span>
+                                                    <span class="right-label">(1,008)</span>
+                                                </label>
+                                            </li>
+                                            <li class="dropdown-list">
+                                                <label class="checkbox">
+                                                    <input type="checkbox" defaultChecked="" />
+                                                    <span class="left">label</span>
+                                                    <span class="right-label">(1,008)</span>
+                                                </label>
+                                            </li>
+                                            <li class="dropdown-list">
+                                                <label class="checkbox">
+                                                    <input type="checkbox" defaultChecked="" />
+                                                    <span class="left">label</span>
+                                                    <span class="right-label">(1,008)</span>
+                                                </label>
+                                            </li>
+                                            <li class="dropdown-list">
+                                                <label class="checkbox">
+                                                    <input type="checkbox" defaultChecked="" />
+                                                    <span class="left">label</span>
+                                                    <span class="right-label">(1,008)</span>
+                                                </label>
+                                            </li>
+                                            <li class="dropdown-list">
+                                                <label class="checkbox">
+                                                    <input type="checkbox" defaultChecked="" />
+                                                    <span class="left">label</span>
+                                                    <span class="right-label">(1,008)</span>
+                                                </label>
+                                            </li>
+                                            <li class="dropdown-list">
+                                                <label class="checkbox">
+                                                    <input type="checkbox" defaultChecked="" />
+                                                    <span class="left">label</span>
+                                                    <span class="right-label">(1,008)</span>
+                                                </label>
+                                            </li>
+                                            <li class="dropdown-list">
+                                                <label class="checkbox">
+                                                    <input type="checkbox" defaultChecked="" />
+                                                    <span class="left">label</span>
+                                                    <span class="right-label">(1,008)</span>
+                                                </label>
+                                            </li>
+                                            <li class="dropdown-list">
+                                                <label class="checkbox">
+                                                    <input type="checkbox" defaultChecked="" />
+                                                    <span class="left">label</span>
+                                                    <span class="right-label">(1,008)</span>
+                                                </label>
+                                            </li>
+                                        </ul>
                     </span>
                   </div>
-                </div>
+              </div>
               </div>
 
               <div class="fl-left dropdown-menu-block">
-                <a class="dropdown-button title-S mrg-rght-M">Features <span class="arrow"></span></a>
-                <div class="dropdown-menu">
-                  <div class="tooltip tooltip-top-center">
+                <div class="dropdown-button title-S mrg-rght-M menu-dropdown" id="dropdown">Features
+                  <div class="dropdown tooltip tooltip-top-left padding-left-zero padding-rght-zero">
                     <span>
                       <ul class="dropdown-sort">
                         <li class="dropdown-list">
@@ -608,9 +735,9 @@ class FilterSort extends Component {
               </div>
 
               <div class="fl-right dropdown-menu-block">
-                <a class="dropdown-button title-S">Sort by: <span class="sortby">Best Match</span><span class="arrow"></span></a>
-                <div class="dropdown-menu">
-                  <div class="tooltip tooltip-top-right filter-tooltip">
+
+              <div class="dropdown-button title-S mrg-rght-M menu-dropdown" id="dropdown">Sort by:<span class="sortby"> Best Match</span>
+                  <div class="dropdown tooltip tooltip-top-right padding-left-zero padding-rght-zero">
                     <span>
                       <ul class="dropdown-sort">
                         <li class="dropdown-list">
@@ -629,6 +756,7 @@ class FilterSort extends Component {
                     </span>
                   </div>
                 </div>
+                
               </div>
             </div>
             <div class="row lg12 xl12 md12 sm12 nopad-sm color-lightgrey-bg filter-store-pick">
@@ -642,26 +770,25 @@ class FilterSort extends Component {
               <div class="listIcon fl-right mrg-top-S"></div>
               <div class="dropdown-menu-block column mrg-top-S mrg-rght-S hide-for-medium-only hide-for-small-only fl-right">
                 <div class="pos-rel fl-left">
-                    <a class="dropdown-button title-S">Sort by: <span class="sortby">Featured</span><span class="arrow"></span></a>
-                    <div class="dropdown-menu">
-                        <div class="tooltip tooltip-top-right">
-                            <span>
-                                <ul class="dropdown-sort">
-                                    <li class="dropdown-list">
-                                        <a href="javascript:void(0)" class="sort-list">Featured</a>
-                                    </li>
-                                    <li class="dropdown-list">
-                                        <a href="javascript:void(0)" class="sort-list">Best Sellers</a>
-                                    </li>
-                                    <li class="dropdown-list">
-                                        <a href="javascript:void(0)" class="sort-list">New Arrivals</a>
-                                    </li>
-                                    <li class="dropdown-list">
-                                        <a href="javascript:void(0)" class="sort-list">Price High to Low</a>
-                                    </li>
-                                </ul>
-                            </span>
-                        </div>
+                    <div class="dropdown-button title-S mrg-rght-M menu-dropdown" id="dropdown">Sort by: <span class="sortby">Featured</span>
+                      <div class="dropdown tooltip tooltip-top-right padding-left-zero padding-rght-zero">
+                        <span>
+                          <ul class="dropdown-sort">
+                              <li class="dropdown-list">
+                                  <a href="javascript:void(0)" class="sort-list">Featured</a>
+                              </li>
+                              <li class="dropdown-list">
+                                  <a href="javascript:void(0)" class="sort-list">Best Sellers</a>
+                              </li>
+                              <li class="dropdown-list">
+                                  <a href="javascript:void(0)" class="sort-list">New Arrivals</a>
+                              </li>
+                              <li class="dropdown-list">
+                                  <a href="javascript:void(0)" class="sort-list">Price High to Low</a>
+                              </li>
+                          </ul>
+                        </span>
+                      </div>
                     </div>
                 </div>
             </div>

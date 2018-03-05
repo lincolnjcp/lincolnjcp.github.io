@@ -37,15 +37,14 @@
       }
     }
     & .sortby {
-      display: inline-block;
-      font-weight: normal;
+      font-weight: 400;
       max-width: 99px;
       white-space: nowrap;
       overflow: hidden;
       text-overflow: ellipsis;
-      position: relative;
-      top: 3px;
-      line-height: 16px;
+      position: absolute;
+      top: 9px;
+      padding-left: 2px;
       @media (--viewport-sm-only) {
         max-width: 35px;
       }
@@ -134,13 +133,12 @@
         background: var(--color-lightgrey);
       }
     }
-
-    & .dropdown-list {
-      & .right-label {
-        float: right;
-        padding-right: 16px;
-        overflow: hidden;
-      }
+  }
+  & .dropdown-list {
+    & .right-label {
+      float: right;
+      padding-right: 16px;
+      overflow: hidden;
     }
   }
 }
