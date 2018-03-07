@@ -10,6 +10,9 @@
         & em {
             display: block;
         }
+        & .input-text {
+            margin-bottom: 0;
+        }
         & .apply-btn {
             position: absolute;
             right: 0;

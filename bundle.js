@@ -8616,7 +8616,7 @@ var forms_Forms = function (_Component) {
                                             react_default.a.createElement(
                                                 'div',
                                                 { 'class': 'form-float-label' },
-                                                react_default.a.createElement('input', { 'class': 'form-control input-text phone-number', id: 'phone-number', maxLength: '14', type: 'text', placeholder: '( ___ ) ___-____' }),
+                                                react_default.a.createElement('input', { 'class': 'form-control input-text phone-number', id: 'phone-number', maxLength: '14', type: 'tel', placeholder: '( ___ ) ___-____' }),
                                                 react_default.a.createElement(
                                                     'label',
                                                     { htmlFor: 'Phone' },
@@ -9110,7 +9110,7 @@ var forms_Forms = function (_Component) {
                                             react_default.a.createElement(
                                                 'div',
                                                 { 'class': 'form-float-label' },
-                                                react_default.a.createElement('input', { type: 'text', id: 'birthday1', name: 'date', placeholder: 'mm/dd/yyyy', 'class': 'form-control input-text input-birthday birthday' }),
+                                                react_default.a.createElement('input', { type: 'tel', id: 'birthday1', name: 'date', placeholder: 'mm/dd/yyyy', 'class': 'form-control input-text input-birthday birthday' }),
                                                 react_default.a.createElement(
                                                     'label',
                                                     { htmlFor: 'birthday1' },
@@ -9404,7 +9404,7 @@ var forms_Forms = function (_Component) {
                                 react_default.a.createElement(
                                     'div',
                                     { 'class': 'form-float-label' },
-                                    react_default.a.createElement('input', { type: 'text', id: 'birthday', name: 'date', placeholder: 'mm/dd/yyyy', 'class': 'form-control input-text input-birthday birthday' }),
+                                    react_default.a.createElement('input', { type: 'tel', id: 'birthday', name: 'date', placeholder: 'mm/dd/yyyy', 'class': 'form-control input-text input-birthday birthday' }),
                                     react_default.a.createElement(
                                         'label',
                                         { htmlFor: 'birthday' },
@@ -21183,20 +21183,16 @@ var footer_Footer = function (_Component) {
                             react_default.a.createElement(
                                 'div',
                                 { 'class': 'position-rel input-form' },
+                                react_default.a.createElement('input', { type: 'tel', id: 'signup', name: 'signup', placeholder: 'Phone Number or Email...', 'class': 'input-text placeholder-text' }),
                                 react_default.a.createElement(
-                                    'div',
-                                    null,
-                                    react_default.a.createElement('input', { type: 'tel', id: 'signup', name: 'signup', placeholder: 'Phone Number or Email...', 'class': 'input-text placeholder-text' }),
-                                    react_default.a.createElement(
-                                        'a',
-                                        { href: 'javascript:void();', role: 'button', 'class': 'btn btn-S btn-primary apply-btn' },
-                                        'Sign Up'
-                                    ),
-                                    react_default.a.createElement(
-                                        'a',
-                                        { href: 'javascript:void();', 'class': 'footer-terms' },
-                                        '*Terms & Conditions'
-                                    )
+                                    'a',
+                                    { href: 'javascript:void();', role: 'button', 'class': 'btn btn-S btn-primary apply-btn' },
+                                    'Sign Up'
+                                ),
+                                react_default.a.createElement(
+                                    'a',
+                                    { href: 'javascript:void();', 'class': 'footer-terms' },
+                                    '*Terms & Conditions'
                                 )
                             )
                         ),
@@ -22193,18 +22189,18 @@ var slide_out_panels_SlideOutPanels = function (_Component) {
         null,
         react_default.a.createElement(
           'div',
-          { className: 'row' },
+          { 'class': 'row' },
           react_default.a.createElement(
             'div',
-            { className: 'sm12 columns' },
+            { 'class': 'sm12 columns' },
             react_default.a.createElement(
               'h1',
-              { className: 'title title-XL mrg-L' },
+              { 'class': 'title title-XL mrg-L' },
               'Slide Out Panels'
             ),
             react_default.a.createElement(
               'h2',
-              { className: 'std-txt std-txt-XL mrg-L max-width-text' },
+              { 'class': 'std-txt std-txt-XL mrg-L max-width-text' },
               'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
             ),
             react_default.a.createElement(
@@ -22229,28 +22225,28 @@ var slide_out_panels_SlideOutPanels = function (_Component) {
         ),
         react_default.a.createElement(
           'div',
-          { className: 'side-panel slide-panel-from-right', id: 'rightPanel' },
+          { 'class': 'side-panel slide-panel-from-right', id: 'rightPanel' },
           react_default.a.createElement(
             'div',
-            { className: 'side-panel-container' },
+            { 'class': 'side-panel-container' },
             react_default.a.createElement(
               'header',
-              { className: 'side-panel-header' },
+              { 'class': 'side-panel-header' },
               react_default.a.createElement(
                 'h3',
-                { className: 'title title-L color-white' },
+                { 'class': 'title title-L color-white' },
                 'Panel'
               ),
               react_default.a.createElement(
                 'a',
-                { href: 'javascript:void(0);', className: 'side-panel-close' },
-                react_default.a.createElement('div', { className: 'change-my-store-icon-close icon color-white-svg', dangerouslySetInnerHTML: { __html: slide_out_panels_closeImage } })
+                { href: 'javascript:void(0);', 'class': 'side-panel-close' },
+                react_default.a.createElement('div', { 'class': 'change-my-store-icon-close icon color-white-svg', dangerouslySetInnerHTML: { __html: slide_out_panels_closeImage } })
               ),
               ' '
             ),
             react_default.a.createElement(
               'div',
-              { className: 'side-panel-content' },
+              { 'class': 'side-panel-content' },
               react_default.a.createElement(
                 'p',
                 null,
@@ -22261,28 +22257,28 @@ var slide_out_panels_SlideOutPanels = function (_Component) {
         ),
         react_default.a.createElement(
           'div',
-          { className: 'side-panel slide-panel-from-left', id: 'leftPanel' },
+          { 'class': 'side-panel slide-panel-from-left', id: 'leftPanel' },
           react_default.a.createElement(
             'div',
-            { className: 'side-panel-container' },
+            { 'class': 'side-panel-container' },
             react_default.a.createElement(
               'header',
-              { className: 'side-panel-header' },
+              { 'class': 'side-panel-header' },
               react_default.a.createElement(
                 'h3',
-                { className: 'title title-L color-white' },
+                { 'class': 'title title-L color-white' },
                 'Panel'
               ),
               react_default.a.createElement(
                 'a',
-                { href: 'javascript:void(0);', className: 'side-panel-close' },
-                react_default.a.createElement('div', { className: 'change-my-store-icon-close icon color-white-svg', dangerouslySetInnerHTML: { __html: slide_out_panels_closeImage } })
+                { href: 'javascript:void(0);', 'class': 'side-panel-close' },
+                react_default.a.createElement('div', { 'class': 'change-my-store-icon-close icon color-white-svg', dangerouslySetInnerHTML: { __html: slide_out_panels_closeImage } })
               ),
               ' '
             ),
             react_default.a.createElement(
               'div',
-              { className: 'side-panel-content' },
+              { 'class': 'side-panel-content' },
               react_default.a.createElement(
                 'p',
                 null,
@@ -22293,14 +22289,14 @@ var slide_out_panels_SlideOutPanels = function (_Component) {
         ),
         react_default.a.createElement(
           'div',
-          { className: 'row' },
+          { 'class': 'row' },
           react_default.a.createElement(
             'div',
-            { className: 'sm12 columns' },
+            { 'class': 'sm12 columns' },
             react_default.a.createElement('hr', null),
             react_default.a.createElement(
               'p',
-              { className: 'S' },
+              { 'class': 'S' },
               'Created by: ',
               react_default.a.createElement(
                 'strong',
@@ -22621,7 +22617,7 @@ var filter_sort_FilterSort = function (_Component) {
                         react_default.a.createElement(
                           'div',
                           { 'class': 'search-type' },
-                          react_default.a.createElement('input', { type: 'text', placeholder: 'Search Item Type' })
+                          react_default.a.createElement('input', { type: 'text', id: 'search', name: 'focus', placeholder: 'Search Item Type', required: '', 'class': 'input-text placeholder-text' })
                         ),
                         react_default.a.createElement(
                           'li',
@@ -22738,7 +22734,7 @@ var filter_sort_FilterSort = function (_Component) {
                         react_default.a.createElement(
                           'div',
                           { 'class': 'search-type' },
-                          react_default.a.createElement('input', { type: 'text', placeholder: 'Search Item Type' })
+                          react_default.a.createElement('input', { type: 'text', id: 'search', name: 'focus', placeholder: 'Search Item Type', required: '', 'class': 'input-text placeholder-text' })
                         ),
                         react_default.a.createElement(
                           'li',
@@ -22855,7 +22851,7 @@ var filter_sort_FilterSort = function (_Component) {
                         react_default.a.createElement(
                           'div',
                           { 'class': 'search-type' },
-                          react_default.a.createElement('input', { type: 'text', placeholder: 'Search Item Type' })
+                          react_default.a.createElement('input', { type: 'text', id: 'search', name: 'focus', placeholder: 'Search Item Type', required: '', 'class': 'input-text placeholder-text' })
                         ),
                         react_default.a.createElement(
                           'li',
@@ -22972,7 +22968,7 @@ var filter_sort_FilterSort = function (_Component) {
                         react_default.a.createElement(
                           'div',
                           { 'class': 'search-type' },
-                          react_default.a.createElement('input', { type: 'text', placeholder: 'Search Item Type' })
+                          react_default.a.createElement('input', { type: 'text', id: 'search', name: 'focus', placeholder: 'Search Item Type', required: '', 'class': 'input-text placeholder-text' })
                         ),
                         react_default.a.createElement(
                           'li',
@@ -23203,7 +23199,7 @@ var filter_sort_FilterSort = function (_Component) {
                               react_default.a.createElement(
                                 'div',
                                 { 'class': 'search-type' },
-                                react_default.a.createElement('input', { type: 'text', placeholder: 'Search Item Type' })
+                                react_default.a.createElement('input', { type: 'text', id: 'search', name: 'focus', placeholder: 'Search Item Type', required: '', 'class': 'input-text placeholder-text' })
                               ),
                               react_default.a.createElement(
                                 'li',
@@ -23320,7 +23316,7 @@ var filter_sort_FilterSort = function (_Component) {
                               react_default.a.createElement(
                                 'div',
                                 { 'class': 'search-type' },
-                                react_default.a.createElement('input', { type: 'text', placeholder: 'Search Item Type' })
+                                react_default.a.createElement('input', { type: 'text', id: 'search', name: 'focus', placeholder: 'Search Item Type', required: '', 'class': 'input-text placeholder-text' })
                               ),
                               react_default.a.createElement(
                                 'li',
@@ -23437,7 +23433,7 @@ var filter_sort_FilterSort = function (_Component) {
                               react_default.a.createElement(
                                 'div',
                                 { 'class': 'search-type' },
-                                react_default.a.createElement('input', { type: 'text', placeholder: 'Search Item Type' })
+                                react_default.a.createElement('input', { type: 'text', id: 'search', name: 'focus', placeholder: 'Search Item Type', required: '', 'class': 'input-text placeholder-text' })
                               ),
                               react_default.a.createElement(
                                 'li',
@@ -23554,7 +23550,7 @@ var filter_sort_FilterSort = function (_Component) {
                               react_default.a.createElement(
                                 'div',
                                 { 'class': 'search-type' },
-                                react_default.a.createElement('input', { type: 'text', placeholder: 'Search Item Type' })
+                                react_default.a.createElement('input', { type: 'text', id: 'search', name: 'focus', placeholder: 'Search Item Type', required: '', 'class': 'input-text placeholder-text' })
                               ),
                               react_default.a.createElement(
                                 'li',
@@ -23658,7 +23654,7 @@ var filter_sort_FilterSort = function (_Component) {
                     ),
                     react_default.a.createElement(
                       'div',
-                      { 'class': 'filter-button-block' },
+                      { 'class': 'filter-button-block show-for-medium-only' },
                       react_default.a.createElement(
                         'div',
                         { 'class': 'md6 sm6 button-left-block' },
@@ -23675,6 +23671,28 @@ var filter_sort_FilterSort = function (_Component) {
                           'a',
                           { href: 'javascript:void();', 'class': 'btn btn-secondary btn-M' },
                           'Clear All'
+                        )
+                      )
+                    ),
+                    react_default.a.createElement(
+                      'div',
+                      { 'class': 'filter-button-block show-for-small-only' },
+                      react_default.a.createElement(
+                        'div',
+                        { 'class': 'md6 sm6 button-left-block' },
+                        react_default.a.createElement(
+                          'a',
+                          { href: 'javascript:void();', 'class': 'btn btn-secondary btn-M' },
+                          'Clear All'
+                        )
+                      ),
+                      react_default.a.createElement(
+                        'div',
+                        { 'class': 'md6 sm6 button-right-block' },
+                        react_default.a.createElement(
+                          'a',
+                          { href: 'javascript:void();', 'class': 'btn btn-primary btn-M' },
+                          'Apply'
                         )
                       )
                     )
@@ -23694,7 +23712,7 @@ var filter_sort_FilterSort = function (_Component) {
                 { 'class': 'fl-left dropdown-menu-block' },
                 react_default.a.createElement(
                   'a',
-                  { 'class': 'dropdown-button title-S no-dropdown mrg-rght-M side-panel-btn', 'data-target': '#leftPanel' },
+                  { 'class': 'dropdown-button title-S no-dropdown side-panel-btn', 'data-target': '#leftPanel' },
                   'Filter By ',
                   react_default.a.createElement(
                     'span',
@@ -23719,6 +23737,15 @@ var filter_sort_FilterSort = function (_Component) {
                       react_default.a.createElement(
                         'ul',
                         null,
+                        react_default.a.createElement(
+                          'li',
+                          { 'class': 'dropdown-list' },
+                          react_default.a.createElement(
+                            'div',
+                            { 'class': 'search-type' },
+                            react_default.a.createElement('input', { type: 'text', placeholder: 'Search Item Type' })
+                          )
+                        ),
                         react_default.a.createElement(
                           'li',
                           { 'class': 'dropdown-list' },
@@ -24052,7 +24079,7 @@ var filter_sort_FilterSort = function (_Component) {
                 { 'class': 'fl-right dropdown-menu-block' },
                 react_default.a.createElement(
                   'div',
-                  { 'class': 'dropdown-button title-S mrg-rght-M menu-dropdown', id: 'dropdown' },
+                  { 'class': 'dropdown-button title-S mrg-rght-M menu-dropdown dropdown-M', id: 'dropdown' },
                   'Sort by:',
                   react_default.a.createElement(
                     'span',
@@ -24355,8 +24382,8 @@ var filter_sort_FilterSort = function (_Component) {
                             )
                           ),
                           react_default.a.createElement(
-                            'a',
-                            { 'class': 'alt-link std-txt std-txt-XS', href: 'javascript:void(0);' },
+                            'div',
+                            { 'class': 'shop-collection title title-XS' },
                             react_default.a.createElement(
                               'span',
                               { 'class': 'hide-for-small-only' },
@@ -24520,8 +24547,8 @@ var filter_sort_FilterSort = function (_Component) {
                             )
                           ),
                           react_default.a.createElement(
-                            'a',
-                            { 'class': 'alt-link std-txt std-txt-XS', href: 'javascript:void(0);' },
+                            'div',
+                            { 'class': 'shop-collection title title-XS' },
                             react_default.a.createElement(
                               'span',
                               { 'class': 'hide-for-small-only' },
@@ -24685,8 +24712,8 @@ var filter_sort_FilterSort = function (_Component) {
                             )
                           ),
                           react_default.a.createElement(
-                            'a',
-                            { 'class': 'alt-link std-txt std-txt-XS', href: 'javascript:void(0);' },
+                            'div',
+                            { 'class': 'shop-collection title title-XS' },
                             react_default.a.createElement(
                               'span',
                               { 'class': 'hide-for-small-only' },
@@ -24850,8 +24877,8 @@ var filter_sort_FilterSort = function (_Component) {
                             )
                           ),
                           react_default.a.createElement(
-                            'a',
-                            { 'class': 'alt-link std-txt std-txt-XS', href: 'javascript:void(0);' },
+                            'div',
+                            { 'class': 'shop-collection title title-XS' },
                             react_default.a.createElement(
                               'span',
                               { 'class': 'hide-for-small-only' },
@@ -24996,8 +25023,8 @@ var filter_sort_FilterSort = function (_Component) {
                             )
                           ),
                           react_default.a.createElement(
-                            'a',
-                            { 'class': 'alt-link std-txt std-txt-XS', href: 'javascript:void(0);' },
+                            'div',
+                            { 'class': 'shop-collection title title-XS' },
                             react_default.a.createElement(
                               'span',
                               { 'class': 'hide-for-small-only' },
@@ -25142,8 +25169,8 @@ var filter_sort_FilterSort = function (_Component) {
                             )
                           ),
                           react_default.a.createElement(
-                            'a',
-                            { 'class': 'alt-link std-txt std-txt-XS', href: 'javascript:void(0);' },
+                            'div',
+                            { 'class': 'shop-collection title title-XS' },
                             react_default.a.createElement(
                               'span',
                               { 'class': 'hide-for-small-only' },
@@ -25288,8 +25315,8 @@ var filter_sort_FilterSort = function (_Component) {
                             )
                           ),
                           react_default.a.createElement(
-                            'a',
-                            { 'class': 'alt-link std-txt std-txt-XS', href: 'javascript:void(0);' },
+                            'div',
+                            { 'class': 'shop-collection title title-XS' },
                             react_default.a.createElement(
                               'span',
                               { 'class': 'hide-for-small-only' },
@@ -25453,8 +25480,8 @@ var filter_sort_FilterSort = function (_Component) {
                             )
                           ),
                           react_default.a.createElement(
-                            'a',
-                            { 'class': 'alt-link std-txt std-txt-XS', href: 'javascript:void(0);' },
+                            'div',
+                            { 'class': 'shop-collection title title-XS' },
                             react_default.a.createElement(
                               'span',
                               { 'class': 'hide-for-small-only' },
@@ -26367,30 +26394,30 @@ var product_cards_ProductCards = function (_Component) {
                                             { 'class': 'product-card-image' },
                                             react_default.a.createElement(
                                                 'div',
+                                                { 'class': 'flag flag-info std-txt std-txt-XS' },
+                                                'Low Stock'
+                                            ),
+                                            react_default.a.createElement(
+                                                'div',
+                                                { className: 'like-icon' },
+                                                react_default.a.createElement('span', { className: 'icon heart', dangerouslySetInnerHTML: { __html: product_cards_heartfillImage } }),
+                                                react_default.a.createElement(
+                                                    'div',
+                                                    { className: 'tooltip tooltip-single tooltip-top-right' },
+                                                    react_default.a.createElement(
+                                                        'span',
+                                                        { className: 'tooltip-content' },
+                                                        'Favorite'
+                                                    )
+                                                )
+                                            ),
+                                            react_default.a.createElement(
+                                                'div',
                                                 { 'class': 'product-card-thumbnail' },
                                                 react_default.a.createElement(
                                                     'a',
                                                     { href: 'javascript:void(0)' },
                                                     react_default.a.createElement('img', { src: '/images/design-system/fpo/product-cards/product-card-grid-pane-1.jpg', alt: 'Samsung ENERGY STAR' })
-                                                ),
-                                                react_default.a.createElement(
-                                                    'div',
-                                                    { 'class': 'flag flag-info std-txt std-txt-XS' },
-                                                    'Low Stock'
-                                                ),
-                                                react_default.a.createElement(
-                                                    'div',
-                                                    { className: 'like-icon' },
-                                                    react_default.a.createElement('span', { className: 'icon heart', dangerouslySetInnerHTML: { __html: product_cards_heartfillImage } }),
-                                                    react_default.a.createElement(
-                                                        'div',
-                                                        { className: 'tooltip tooltip-single tooltip-top-right' },
-                                                        react_default.a.createElement(
-                                                            'span',
-                                                            { className: 'tooltip-content' },
-                                                            'Favorite'
-                                                        )
-                                                    )
                                                 ),
                                                 react_default.a.createElement(
                                                     'div',
@@ -26569,30 +26596,30 @@ var product_cards_ProductCards = function (_Component) {
                                             { 'class': 'product-card-image' },
                                             react_default.a.createElement(
                                                 'div',
+                                                { 'class': 'flag flag-info std-txt std-txt-XS' },
+                                                'Low Stock'
+                                            ),
+                                            react_default.a.createElement(
+                                                'div',
+                                                { className: 'like-icon' },
+                                                react_default.a.createElement('span', { className: 'icon heart', dangerouslySetInnerHTML: { __html: product_cards_heartfillImage } }),
+                                                react_default.a.createElement(
+                                                    'div',
+                                                    { className: 'tooltip tooltip-single tooltip-top-right' },
+                                                    react_default.a.createElement(
+                                                        'span',
+                                                        { className: 'tooltip-content' },
+                                                        'Favorite'
+                                                    )
+                                                )
+                                            ),
+                                            react_default.a.createElement(
+                                                'div',
                                                 { 'class': 'product-card-thumbnail' },
                                                 react_default.a.createElement(
                                                     'a',
                                                     { href: 'javascript:void(0)' },
                                                     react_default.a.createElement('img', { src: '/images/design-system/fpo/product-cards/product-card-grid-pane-1.jpg', alt: 'Samsung ENERGY STAR' })
-                                                ),
-                                                react_default.a.createElement(
-                                                    'div',
-                                                    { 'class': 'flag flag-info std-txt std-txt-XS' },
-                                                    'Low Stock'
-                                                ),
-                                                react_default.a.createElement(
-                                                    'div',
-                                                    { className: 'like-icon' },
-                                                    react_default.a.createElement('span', { className: 'icon heart', dangerouslySetInnerHTML: { __html: product_cards_heartfillImage } }),
-                                                    react_default.a.createElement(
-                                                        'div',
-                                                        { className: 'tooltip tooltip-single tooltip-top-right' },
-                                                        react_default.a.createElement(
-                                                            'span',
-                                                            { className: 'tooltip-content' },
-                                                            'Favorite'
-                                                        )
-                                                    )
                                                 ),
                                                 react_default.a.createElement(
                                                     'div',
@@ -26771,30 +26798,30 @@ var product_cards_ProductCards = function (_Component) {
                                             { 'class': 'product-card-image' },
                                             react_default.a.createElement(
                                                 'div',
+                                                { 'class': 'flag flag-info std-txt std-txt-XS' },
+                                                'Low Stock'
+                                            ),
+                                            react_default.a.createElement(
+                                                'div',
+                                                { className: 'like-icon' },
+                                                react_default.a.createElement('span', { className: 'icon heart', dangerouslySetInnerHTML: { __html: product_cards_heartfillImage } }),
+                                                react_default.a.createElement(
+                                                    'div',
+                                                    { className: 'tooltip tooltip-single tooltip-top-right' },
+                                                    react_default.a.createElement(
+                                                        'span',
+                                                        { className: 'tooltip-content' },
+                                                        'Favorite'
+                                                    )
+                                                )
+                                            ),
+                                            react_default.a.createElement(
+                                                'div',
                                                 { 'class': 'product-card-thumbnail' },
                                                 react_default.a.createElement(
                                                     'a',
                                                     { href: 'javascript:void(0)' },
                                                     react_default.a.createElement('img', { src: '/images/design-system/fpo/product-cards/product-card-grid-pane-1.jpg', alt: 'Samsung ENERGY STAR' })
-                                                ),
-                                                react_default.a.createElement(
-                                                    'div',
-                                                    { 'class': 'flag flag-info std-txt std-txt-XS' },
-                                                    'Low Stock'
-                                                ),
-                                                react_default.a.createElement(
-                                                    'div',
-                                                    { className: 'like-icon' },
-                                                    react_default.a.createElement('span', { className: 'icon heart', dangerouslySetInnerHTML: { __html: product_cards_heartfillImage } }),
-                                                    react_default.a.createElement(
-                                                        'div',
-                                                        { className: 'tooltip tooltip-single tooltip-top-right' },
-                                                        react_default.a.createElement(
-                                                            'span',
-                                                            { className: 'tooltip-content' },
-                                                            'Favorite'
-                                                        )
-                                                    )
                                                 ),
                                                 react_default.a.createElement(
                                                     'div',
@@ -26954,30 +26981,30 @@ var product_cards_ProductCards = function (_Component) {
                                             { 'class': 'product-card-image' },
                                             react_default.a.createElement(
                                                 'div',
+                                                { 'class': 'flag flag-info std-txt std-txt-XS' },
+                                                'Low Stock'
+                                            ),
+                                            react_default.a.createElement(
+                                                'div',
+                                                { className: 'like-icon' },
+                                                react_default.a.createElement('span', { className: 'icon heart', dangerouslySetInnerHTML: { __html: product_cards_heartfillImage } }),
+                                                react_default.a.createElement(
+                                                    'div',
+                                                    { className: 'tooltip tooltip-single tooltip-top-right' },
+                                                    react_default.a.createElement(
+                                                        'span',
+                                                        { className: 'tooltip-content' },
+                                                        'Favorite'
+                                                    )
+                                                )
+                                            ),
+                                            react_default.a.createElement(
+                                                'div',
                                                 { 'class': 'product-card-thumbnail' },
                                                 react_default.a.createElement(
                                                     'a',
                                                     { href: 'javascript:void(0)' },
                                                     react_default.a.createElement('img', { src: '/images/design-system/fpo/product-cards/product-card-grid-pane-1.jpg', alt: 'Samsung ENERGY STAR' })
-                                                ),
-                                                react_default.a.createElement(
-                                                    'div',
-                                                    { 'class': 'flag flag-info std-txt std-txt-XS' },
-                                                    'Low Stock'
-                                                ),
-                                                react_default.a.createElement(
-                                                    'div',
-                                                    { className: 'like-icon' },
-                                                    react_default.a.createElement('span', { className: 'icon heart', dangerouslySetInnerHTML: { __html: product_cards_heartfillImage } }),
-                                                    react_default.a.createElement(
-                                                        'div',
-                                                        { className: 'tooltip tooltip-single tooltip-top-right' },
-                                                        react_default.a.createElement(
-                                                            'span',
-                                                            { className: 'tooltip-content' },
-                                                            'Favorite'
-                                                        )
-                                                    )
                                                 ),
                                                 react_default.a.createElement(
                                                     'div',
@@ -27137,30 +27164,30 @@ var product_cards_ProductCards = function (_Component) {
                                             { 'class': 'product-card-image' },
                                             react_default.a.createElement(
                                                 'div',
+                                                { 'class': 'flag flag-info std-txt std-txt-XS' },
+                                                'Low Stock'
+                                            ),
+                                            react_default.a.createElement(
+                                                'div',
+                                                { className: 'like-icon' },
+                                                react_default.a.createElement('span', { className: 'icon heart', dangerouslySetInnerHTML: { __html: product_cards_heartfillImage } }),
+                                                react_default.a.createElement(
+                                                    'div',
+                                                    { className: 'tooltip tooltip-single tooltip-top-right' },
+                                                    react_default.a.createElement(
+                                                        'span',
+                                                        { className: 'tooltip-content' },
+                                                        'Favorite'
+                                                    )
+                                                )
+                                            ),
+                                            react_default.a.createElement(
+                                                'div',
                                                 { 'class': 'product-card-thumbnail' },
                                                 react_default.a.createElement(
                                                     'a',
                                                     { href: 'javascript:void(0)' },
                                                     react_default.a.createElement('img', { src: '/images/design-system/fpo/product-cards/product-card-grid-pane-1.jpg', alt: 'Samsung ENERGY STAR' })
-                                                ),
-                                                react_default.a.createElement(
-                                                    'div',
-                                                    { 'class': 'flag flag-info std-txt std-txt-XS' },
-                                                    'Low Stock'
-                                                ),
-                                                react_default.a.createElement(
-                                                    'div',
-                                                    { className: 'like-icon' },
-                                                    react_default.a.createElement('span', { className: 'icon heart', dangerouslySetInnerHTML: { __html: product_cards_heartfillImage } }),
-                                                    react_default.a.createElement(
-                                                        'div',
-                                                        { className: 'tooltip tooltip-single tooltip-top-right' },
-                                                        react_default.a.createElement(
-                                                            'span',
-                                                            { className: 'tooltip-content' },
-                                                            'Favorite'
-                                                        )
-                                                    )
                                                 ),
                                                 react_default.a.createElement(
                                                     'div',
@@ -27320,30 +27347,30 @@ var product_cards_ProductCards = function (_Component) {
                                             { 'class': 'product-card-image' },
                                             react_default.a.createElement(
                                                 'div',
+                                                { 'class': 'flag flag-info std-txt std-txt-XS' },
+                                                'Low Stock'
+                                            ),
+                                            react_default.a.createElement(
+                                                'div',
+                                                { className: 'like-icon' },
+                                                react_default.a.createElement('span', { className: 'icon heart', dangerouslySetInnerHTML: { __html: product_cards_heartfillImage } }),
+                                                react_default.a.createElement(
+                                                    'div',
+                                                    { className: 'tooltip tooltip-single tooltip-top-right' },
+                                                    react_default.a.createElement(
+                                                        'span',
+                                                        { className: 'tooltip-content' },
+                                                        'Favorite'
+                                                    )
+                                                )
+                                            ),
+                                            react_default.a.createElement(
+                                                'div',
                                                 { 'class': 'product-card-thumbnail' },
                                                 react_default.a.createElement(
                                                     'a',
                                                     { href: 'javascript:void(0)' },
                                                     react_default.a.createElement('img', { src: '/images/design-system/fpo/product-cards/product-card-grid-pane-1.jpg', alt: 'Samsung ENERGY STAR' })
-                                                ),
-                                                react_default.a.createElement(
-                                                    'div',
-                                                    { 'class': 'flag flag-info std-txt std-txt-XS' },
-                                                    'Low Stock'
-                                                ),
-                                                react_default.a.createElement(
-                                                    'div',
-                                                    { className: 'like-icon' },
-                                                    react_default.a.createElement('span', { className: 'icon heart', dangerouslySetInnerHTML: { __html: product_cards_heartfillImage } }),
-                                                    react_default.a.createElement(
-                                                        'div',
-                                                        { className: 'tooltip tooltip-single tooltip-top-right' },
-                                                        react_default.a.createElement(
-                                                            'span',
-                                                            { className: 'tooltip-content' },
-                                                            'Favorite'
-                                                        )
-                                                    )
                                                 ),
                                                 react_default.a.createElement(
                                                     'div',
@@ -27503,30 +27530,30 @@ var product_cards_ProductCards = function (_Component) {
                                             { 'class': 'product-card-image' },
                                             react_default.a.createElement(
                                                 'div',
+                                                { 'class': 'flag flag-info std-txt std-txt-XS' },
+                                                'Low Stock'
+                                            ),
+                                            react_default.a.createElement(
+                                                'div',
+                                                { className: 'like-icon' },
+                                                react_default.a.createElement('span', { className: 'icon heart', dangerouslySetInnerHTML: { __html: product_cards_heartfillImage } }),
+                                                react_default.a.createElement(
+                                                    'div',
+                                                    { className: 'tooltip tooltip-single tooltip-top-right' },
+                                                    react_default.a.createElement(
+                                                        'span',
+                                                        { className: 'tooltip-content' },
+                                                        'Favorite'
+                                                    )
+                                                )
+                                            ),
+                                            react_default.a.createElement(
+                                                'div',
                                                 { 'class': 'product-card-thumbnail' },
                                                 react_default.a.createElement(
                                                     'a',
                                                     { href: 'javascript:void(0)' },
                                                     react_default.a.createElement('img', { src: '/images/design-system/fpo/product-cards/product-card-grid-pane-1.jpg', alt: 'Samsung ENERGY STAR' })
-                                                ),
-                                                react_default.a.createElement(
-                                                    'div',
-                                                    { 'class': 'flag flag-info std-txt std-txt-XS' },
-                                                    'Low Stock'
-                                                ),
-                                                react_default.a.createElement(
-                                                    'div',
-                                                    { className: 'like-icon' },
-                                                    react_default.a.createElement('span', { className: 'icon heart', dangerouslySetInnerHTML: { __html: product_cards_heartfillImage } }),
-                                                    react_default.a.createElement(
-                                                        'div',
-                                                        { className: 'tooltip tooltip-single tooltip-top-right' },
-                                                        react_default.a.createElement(
-                                                            'span',
-                                                            { className: 'tooltip-content' },
-                                                            'Favorite'
-                                                        )
-                                                    )
                                                 ),
                                                 react_default.a.createElement(
                                                     'div',
@@ -27705,30 +27732,30 @@ var product_cards_ProductCards = function (_Component) {
                                             { 'class': 'product-card-image' },
                                             react_default.a.createElement(
                                                 'div',
+                                                { 'class': 'flag flag-info std-txt std-txt-XS' },
+                                                'Low Stock'
+                                            ),
+                                            react_default.a.createElement(
+                                                'div',
+                                                { className: 'like-icon' },
+                                                react_default.a.createElement('span', { className: 'icon heart', dangerouslySetInnerHTML: { __html: product_cards_heartfillImage } }),
+                                                react_default.a.createElement(
+                                                    'div',
+                                                    { className: 'tooltip tooltip-single tooltip-top-right' },
+                                                    react_default.a.createElement(
+                                                        'span',
+                                                        { className: 'tooltip-content' },
+                                                        'Favorite'
+                                                    )
+                                                )
+                                            ),
+                                            react_default.a.createElement(
+                                                'div',
                                                 { 'class': 'product-card-thumbnail' },
                                                 react_default.a.createElement(
                                                     'a',
                                                     { href: 'javascript:void(0)' },
                                                     react_default.a.createElement('img', { src: '/images/design-system/fpo/product-cards/product-card-grid-pane-1.jpg', alt: 'Samsung ENERGY STAR' })
-                                                ),
-                                                react_default.a.createElement(
-                                                    'div',
-                                                    { 'class': 'flag flag-info std-txt std-txt-XS' },
-                                                    'Low Stock'
-                                                ),
-                                                react_default.a.createElement(
-                                                    'div',
-                                                    { className: 'like-icon' },
-                                                    react_default.a.createElement('span', { className: 'icon heart', dangerouslySetInnerHTML: { __html: product_cards_heartfillImage } }),
-                                                    react_default.a.createElement(
-                                                        'div',
-                                                        { className: 'tooltip tooltip-single tooltip-top-right' },
-                                                        react_default.a.createElement(
-                                                            'span',
-                                                            { className: 'tooltip-content' },
-                                                            'Favorite'
-                                                        )
-                                                    )
                                                 ),
                                                 react_default.a.createElement(
                                                     'div',
@@ -27930,30 +27957,30 @@ var product_cards_ProductCards = function (_Component) {
                                         { 'class': 'product-card-image' },
                                         react_default.a.createElement(
                                             'div',
+                                            { 'class': 'flag flag-info std-txt std-txt-XS' },
+                                            'NEW'
+                                        ),
+                                        react_default.a.createElement(
+                                            'div',
+                                            { className: 'like-icon' },
+                                            react_default.a.createElement('span', { className: 'icon heart', dangerouslySetInnerHTML: { __html: product_cards_heartfillImage } }),
+                                            react_default.a.createElement(
+                                                'div',
+                                                { className: 'tooltip tooltip-single tooltip-top-right' },
+                                                react_default.a.createElement(
+                                                    'span',
+                                                    { className: 'tooltip-content' },
+                                                    'Favorite'
+                                                )
+                                            )
+                                        ),
+                                        react_default.a.createElement(
+                                            'div',
                                             { 'class': 'product-card-thumbnail' },
                                             react_default.a.createElement(
                                                 'a',
                                                 { href: 'javascript:void(0)' },
                                                 react_default.a.createElement('img', { src: '/images/design-system/fpo/product-cards/product-card-grid-pane-1.jpg', alt: 'Samsung ENERGY STAR' })
-                                            ),
-                                            react_default.a.createElement(
-                                                'div',
-                                                { 'class': 'flag flag-info std-txt std-txt-XS' },
-                                                'NEW'
-                                            ),
-                                            react_default.a.createElement(
-                                                'div',
-                                                { className: 'like-icon' },
-                                                react_default.a.createElement('span', { className: 'icon heart', dangerouslySetInnerHTML: { __html: product_cards_heartfillImage } }),
-                                                react_default.a.createElement(
-                                                    'div',
-                                                    { className: 'tooltip tooltip-single tooltip-top-right' },
-                                                    react_default.a.createElement(
-                                                        'span',
-                                                        { className: 'tooltip-content' },
-                                                        'Favorite'
-                                                    )
-                                                )
                                             ),
                                             react_default.a.createElement(
                                                 'div',
@@ -28141,30 +28168,30 @@ var product_cards_ProductCards = function (_Component) {
                                         { 'class': 'product-card-image' },
                                         react_default.a.createElement(
                                             'div',
+                                            { 'class': 'flag flag-info std-txt std-txt-XS' },
+                                            'NEW'
+                                        ),
+                                        react_default.a.createElement(
+                                            'div',
+                                            { className: 'like-icon' },
+                                            react_default.a.createElement('span', { className: 'icon heart', dangerouslySetInnerHTML: { __html: product_cards_heartfillImage } }),
+                                            react_default.a.createElement(
+                                                'div',
+                                                { className: 'tooltip tooltip-single tooltip-top-right' },
+                                                react_default.a.createElement(
+                                                    'span',
+                                                    { className: 'tooltip-content' },
+                                                    'Favorite'
+                                                )
+                                            )
+                                        ),
+                                        react_default.a.createElement(
+                                            'div',
                                             { 'class': 'product-card-thumbnail' },
                                             react_default.a.createElement(
                                                 'a',
                                                 { href: 'javascript:void(0)' },
                                                 react_default.a.createElement('img', { src: '/images/design-system/fpo/product-cards/product-card-grid-pane-1.jpg', alt: 'Samsung ENERGY STAR' })
-                                            ),
-                                            react_default.a.createElement(
-                                                'div',
-                                                { 'class': 'flag flag-info std-txt std-txt-XS' },
-                                                'NEW'
-                                            ),
-                                            react_default.a.createElement(
-                                                'div',
-                                                { className: 'like-icon' },
-                                                react_default.a.createElement('span', { className: 'icon heart', dangerouslySetInnerHTML: { __html: product_cards_heartfillImage } }),
-                                                react_default.a.createElement(
-                                                    'div',
-                                                    { className: 'tooltip tooltip-single tooltip-top-right' },
-                                                    react_default.a.createElement(
-                                                        'span',
-                                                        { className: 'tooltip-content' },
-                                                        'Favorite'
-                                                    )
-                                                )
                                             ),
                                             react_default.a.createElement(
                                                 'div',
@@ -28368,12 +28395,7 @@ var product_cards_ProductCards = function (_Component) {
                                 { 'class': 'product-card product-card-pane-L' },
                                 react_default.a.createElement(
                                     'div',
-                                    { 'class': 'product-card-thumbnail' },
-                                    react_default.a.createElement(
-                                        'a',
-                                        { href: 'javascript:void(0)' },
-                                        react_default.a.createElement('img', { src: '/images/design-system/fpo/product-cards/product-card-large-pane-1.jpg', alt: 'Samsung ENERGY STAR' })
-                                    ),
+                                    { 'class': 'product-card-inner' },
                                     react_default.a.createElement(
                                         'div',
                                         { 'class': 'flag flag-info std-txt std-txt-XS' },
@@ -28390,6 +28412,19 @@ var product_cards_ProductCards = function (_Component) {
                                                 'span',
                                                 { className: 'tooltip-content' },
                                                 'Favorite'
+                                            )
+                                        )
+                                    ),
+                                    react_default.a.createElement(
+                                        'div',
+                                        { 'class': 'product-card-image' },
+                                        react_default.a.createElement(
+                                            'div',
+                                            { 'class': 'product-card-thumbnail' },
+                                            react_default.a.createElement(
+                                                'a',
+                                                { href: 'javascript:void(0)' },
+                                                react_default.a.createElement('img', { src: '/images/design-system/fpo/product-cards/product-card-large-pane-1.jpg', alt: 'Samsung ENERGY STAR' })
                                             )
                                         )
                                     )
@@ -28525,12 +28560,7 @@ var product_cards_ProductCards = function (_Component) {
                                 { 'class': 'product-card product-card-pane-L' },
                                 react_default.a.createElement(
                                     'div',
-                                    { 'class': 'product-card-thumbnail' },
-                                    react_default.a.createElement(
-                                        'a',
-                                        { href: 'javascript:void(0)' },
-                                        react_default.a.createElement('img', { src: '/images/design-system/fpo/product-cards/product-card-large-pane-1.jpg', alt: 'Samsung ENERGY STAR' })
-                                    ),
+                                    { 'class': 'product-card-inner' },
                                     react_default.a.createElement(
                                         'div',
                                         { 'class': 'flag flag-info std-txt std-txt-XS' },
@@ -28547,6 +28577,19 @@ var product_cards_ProductCards = function (_Component) {
                                                 'span',
                                                 { className: 'tooltip-content' },
                                                 'Favorite'
+                                            )
+                                        )
+                                    ),
+                                    react_default.a.createElement(
+                                        'div',
+                                        { 'class': 'product-card-image' },
+                                        react_default.a.createElement(
+                                            'div',
+                                            { 'class': 'product-card-thumbnail' },
+                                            react_default.a.createElement(
+                                                'a',
+                                                { href: 'javascript:void(0)' },
+                                                react_default.a.createElement('img', { src: '/images/design-system/fpo/product-cards/product-card-large-pane-1.jpg', alt: 'Samsung ENERGY STAR' })
                                             )
                                         )
                                     )
@@ -28712,16 +28755,11 @@ var product_cards_ProductCards = function (_Component) {
                                 { 'class': 'product-card product-card-pane-S' },
                                 react_default.a.createElement(
                                     'div',
-                                    { 'class': 'product-card-thumbnail' },
-                                    react_default.a.createElement(
-                                        'a',
-                                        { href: 'javascript:void(0)' },
-                                        react_default.a.createElement('img', { src: '/images/design-system/fpo/product-cards/product-card-large-pane-1.jpg', alt: 'Samsung ENERGY STAR' })
-                                    ),
+                                    { 'class': 'product-card-inner' },
                                     react_default.a.createElement(
                                         'div',
-                                        { 'class': 'flag flag-info std-txt std-txt-XXS' },
-                                        'Low Stock'
+                                        { 'class': 'flag flag-info std-txt std-txt-XS' },
+                                        'NEW'
                                     ),
                                     react_default.a.createElement(
                                         'div',
@@ -28734,6 +28772,19 @@ var product_cards_ProductCards = function (_Component) {
                                                 'span',
                                                 { className: 'tooltip-content' },
                                                 'Favorite'
+                                            )
+                                        )
+                                    ),
+                                    react_default.a.createElement(
+                                        'div',
+                                        { 'class': 'product-card-image' },
+                                        react_default.a.createElement(
+                                            'div',
+                                            { 'class': 'product-card-thumbnail' },
+                                            react_default.a.createElement(
+                                                'a',
+                                                { href: 'javascript:void(0)' },
+                                                react_default.a.createElement('img', { src: '/images/design-system/fpo/product-cards/product-card-large-pane-1.jpg', alt: 'Samsung ENERGY STAR' })
                                             )
                                         )
                                     )
@@ -28869,17 +28920,7 @@ var product_cards_ProductCards = function (_Component) {
                                 { 'class': 'product-card product-card-pane-S' },
                                 react_default.a.createElement(
                                     'div',
-                                    { 'class': 'product-card-thumbnail' },
-                                    react_default.a.createElement(
-                                        'a',
-                                        { href: 'javascript:void(0)' },
-                                        react_default.a.createElement('img', { src: '/images/design-system/fpo/product-cards/product-card-large-pane-1.jpg', alt: 'Samsung ENERGY STAR' })
-                                    ),
-                                    react_default.a.createElement(
-                                        'div',
-                                        { 'class': 'flag flag-info std-txt std-txt-XXS' },
-                                        'Low Stock'
-                                    ),
+                                    { 'class': 'product-card-inner' },
                                     react_default.a.createElement(
                                         'div',
                                         { className: 'like-icon' },
@@ -28891,6 +28932,19 @@ var product_cards_ProductCards = function (_Component) {
                                                 'span',
                                                 { className: 'tooltip-content' },
                                                 'Favorite'
+                                            )
+                                        )
+                                    ),
+                                    react_default.a.createElement(
+                                        'div',
+                                        { 'class': 'product-card-image' },
+                                        react_default.a.createElement(
+                                            'div',
+                                            { 'class': 'product-card-thumbnail' },
+                                            react_default.a.createElement(
+                                                'a',
+                                                { href: 'javascript:void(0)' },
+                                                react_default.a.createElement('img', { src: '/images/design-system/fpo/product-cards/product-card-large-pane-1.jpg', alt: 'Samsung ENERGY STAR' })
                                             )
                                         )
                                     )
@@ -28950,21 +29004,13 @@ var product_cards_ProductCards = function (_Component) {
                                     { 'class': 'product-card-price' },
                                     react_default.a.createElement(
                                         'div',
-                                        { 'class': 'product-card-price-value' },
-                                        react_default.a.createElement(
-                                            'div',
-                                            { 'class': 'flag flag-price std-txt std-txt-XS mrg-rght-XS' },
-                                            react_default.a.createElement(
-                                                'div',
-                                                { 'class': 'price price-XS color-white' },
-                                                '$59.99'
-                                            )
-                                        )
+                                        { 'class': 'product-card-price-value price price-XS mrg-rght-XS' },
+                                        '$29.99'
                                     ),
                                     react_default.a.createElement(
                                         'div',
                                         { 'class': 'product-card-note price price-note color-penneyred' },
-                                        'after coupon'
+                                        'sale'
                                     )
                                 ),
                                 react_default.a.createElement(

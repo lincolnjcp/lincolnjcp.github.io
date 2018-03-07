@@ -48,7 +48,7 @@
 	& .product-card-thumbnail {
 		& .flag {
 			position: absolute;
-			top: 12px;
+			top: 8px;
 			left: -16px;
 		}
 		& .like-dislike{
@@ -71,8 +71,16 @@
 	margin: 0 8px 8px;
 	padding: 8px 8px 16px;
 	border: 1px solid var(--color-lightgrey);
-	position: relative;
 	border-radius: 4px;
+	& .product-card-inner {
+		position: relative;
+		& .flag {
+			position: absolute;
+			z-index: 1;
+			left: -16px;
+			top: 8px;
+		}
+	}
 }
 
 
@@ -93,10 +101,11 @@
 		top: 4px;
 		right: 4px;
 	}
-	& .product-card-thumbnail {
-		& .flag {
-			left: -8px;
-		}
+	& .flag {
+		left: -16px;
+		top: 12px;
+		position: absolute;
+		z-index: 1;
 	}
 }
 
@@ -119,7 +128,7 @@
 		padding-left: 0;
 		padding-right: 16px;
 		& .flag {
-			top: 12px;
+			top: 8px;
 			left: -10px;
 		}
 		& .like-icon {
@@ -182,9 +191,8 @@
 	}
 	& .product-card-image {
 		position: relative;
-		flex: 0 0 112px; 
-		padding-left: 8px;
-		padding-right: 8px;
+		flex: 0 0 112px;
+		padding-right: 16px;
 		@media (--viewport-sm-only) {
 			flex: 0 0 128px; 
 			padding-right: 16px;
@@ -194,8 +202,10 @@
 			display: inline-block;
 		}
 		& .flag {
-			top: 10px;
-			left: -24px;
+			top: 8px;
+			left: -16px;
+			position: absolute;
+			z-index: 1;
 		}
 		& .shop-collection {
 		    position: absolute;
@@ -290,8 +300,10 @@
 			}
 		}
 		& .flag {
-			top: 12px;
+			top: 8px;
 			left: -16px;
+			position: absolute;
+			z-index: 1;
 		}
 		& .shop-collection {
 		    position: absolute;

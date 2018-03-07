@@ -263,7 +263,7 @@ class Forms extends Component {
                                     <div class="sm12 md4 columns">
                                         <div class="input-group">
                                             <div class="form-float-label">
-                                                <input class="form-control input-text phone-number" id="phone-number" maxLength="14" type="text" placeholder="( ___ ) ___-____" />
+                                                <input class="form-control input-text phone-number" id="phone-number" maxLength="14" type="tel" placeholder="( ___ ) ___-____" />
                                                 <label htmlFor="Phone">Phone Number</label>
                                             </div>
                                         </div>
@@ -430,7 +430,7 @@ class Forms extends Component {
                                     <div class="sm12 md4 columns">
                                         <div class="input-group position-rel">
                                             <div class="form-float-label">
-                                                <input type="text" id="birthday1" name="date" placeholder="mm/dd/yyyy" class="form-control input-text input-birthday birthday" />
+                                                <input type="tel" id="birthday1" name="date" placeholder="mm/dd/yyyy" class="form-control input-text input-birthday birthday" />
                                                 <label htmlFor="birthday1">Birthday (Optional)</label>
                                             </div>
                                             <span class="icon tooltip-icon" dangerouslySetInnerHTML={{ __html: tooltipIcon }} />
@@ -543,7 +543,7 @@ class Forms extends Component {
                         <div class="form-group column">
                             <div class="position-rel">
                                 <div class="form-float-label">
-                                    <input type="text" id="birthday" name="date" placeholder="mm/dd/yyyy" class="form-control input-text input-birthday birthday" />
+                                    <input type="tel" id="birthday" name="date" placeholder="mm/dd/yyyy" class="form-control input-text input-birthday birthday" />
                                     <label htmlFor="birthday">Birthday (Optional)</label>
                                 </div>
                                 <span class="icon tooltip-icon" dangerouslySetInnerHTML={{ __html: tooltipIcon }} />

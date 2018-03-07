@@ -5,8 +5,9 @@
     border-radius: 16px;
     cursor: pointer;
     position: absolute;
-    top: 10px;
-    right:10px;
+    top: 8px;
+    right: 8px;
+    z-index: 1;
 
     & .tooltip {
         position: absolute;
