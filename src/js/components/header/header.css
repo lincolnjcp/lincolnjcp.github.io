@@ -581,9 +581,9 @@
 		width: 320px;
 		z-index: 1;
 
-		& .side-panel-header {
+		/* & .side-panel-header {
 			position: absolute;
-		}
+		} */
 	}
 	.side-panel-container.tier2-open {
 		& .side-panel-container-inner-container {
