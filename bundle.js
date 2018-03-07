@@ -20044,7 +20044,7 @@ var header_Header = function (_Component) {
       });
 
       jquery_default()('.side-panel-btn').unbind('click').on('click', function (event) {
-        event.preventDefault();
+        // event.preventDefault();
         var parent = jquery_default()(jquery_default()(this).attr('data-target'));
         parent.addClass('is-visible');
         if (jquery_default()(this).attr('id') == "mainMenuSidePanelButton") {
@@ -20074,7 +20074,7 @@ var header_Header = function (_Component) {
             jquery_default()('.side-panel-container').removeClass('tier2-open');
           }, 400);
         }
-        event.preventDefault();
+        // event.preventDefault();
       });
 
       jquery_default()(".main-menu-secondary-li-shop-departments").hoverIntent({
@@ -22167,7 +22167,7 @@ var slide_out_panels_SlideOutPanels = function (_Component) {
     value: function componentDidMount() {
 
       jquery_default()('.side-panel-btn').unbind('click').on('click', function (event) {
-        event.preventDefault();
+        // event.preventDefault();
         var parent = jquery_default()(jquery_default()(this).attr('data-target'));
         parent.addClass('is-visible');
       });
@@ -22178,7 +22178,7 @@ var slide_out_panels_SlideOutPanels = function (_Component) {
         } else if (jquery_default()(event.target).is('.side-panel-close') || jquery_default()(event.target).closest('a').hasClass('side-panel-close')) {
           jquery_default()(event.target).closest('.side-panel').removeClass('is-visible');
         }
-        event.preventDefault();
+        // event.preventDefault();
       });
     }
   }, {
@@ -22220,7 +22220,8 @@ var slide_out_panels_SlideOutPanels = function (_Component) {
                 { href: 'javascript:void(0);', 'class': 'side-panel-btn', 'data-target': '#rightPanel' },
                 'Slide In From Right'
               )
-            )
+            ),
+            react_default.a.createElement('input', { type: 'checkbox' })
           )
         ),
         react_default.a.createElement(
@@ -22247,6 +22248,8 @@ var slide_out_panels_SlideOutPanels = function (_Component) {
             react_default.a.createElement(
               'div',
               { 'class': 'side-panel-content' },
+              react_default.a.createElement('input', { type: 'checkbox' }),
+              react_default.a.createElement('input', { type: 'radio' }),
               react_default.a.createElement(
                 'p',
                 null,

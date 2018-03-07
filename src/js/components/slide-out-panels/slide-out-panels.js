@@ -12,7 +12,7 @@ class SlideOutPanels extends Component {
 
 
         $('.side-panel-btn').unbind('click').on('click', function(event){
-          event.preventDefault();
+          // event.preventDefault();
           var parent = $($(this).attr('data-target'));
           parent.addClass('is-visible');
         });
@@ -23,7 +23,7 @@ class SlideOutPanels extends Component {
           } else if ($(event.target).is('.side-panel-close') || $(event.target).closest('a').hasClass('side-panel-close') ) {
              $(event.target).closest('.side-panel').removeClass('is-visible');
           }
-          event.preventDefault();
+          // event.preventDefault();
         });
   }
 
@@ -37,6 +37,7 @@ class SlideOutPanels extends Component {
       <h2 class="std-txt std-txt-XL mrg-L max-width-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h2>
       <p><a href="javascript:void(0);" class="side-panel-btn" data-target="#leftPanel">Slide In From Left</a></p>
       <p><a href="javascript:void(0);" class="side-panel-btn" data-target="#rightPanel">Slide In From Right</a></p>
+      <input type="checkbox"/>
     </div>
   </div>
   <div class="side-panel slide-panel-from-right" id="rightPanel">
@@ -46,7 +47,9 @@ class SlideOutPanels extends Component {
         <a href="javascript:void(0);" class="side-panel-close">
         <div class="change-my-store-icon-close icon color-white-svg" dangerouslySetInnerHTML={{__html: closeImage}} />
         </a> </header>
-      <div class="side-panel-content">
+      <div class="side-panel-content"> 
+      <input type="checkbox"/>
+      <input type="radio"/>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec fringilla dolor eget scelerisque lobortis. Nulla metus nisi, commodo et suscipit ac, venenatis ut magna. Nunc in venenatis mi, vitae placerat odio. Aenean est tellus, mollis sed tempus vel, egestas non urna. Suspendisse fringilla neque tincidunt, molestie diam non, facilisis ante. Quisque mattis commodo arcu vehicula lobortis. Cras lorem mauris, molestie ac gravida in, condimentum at enim. Aenean elementum, mauris ac convallis tempus, erat eros aliquam quam, ac sodales ligula mauris nec neque. Aliquam ut turpis lectus. Cras eget felis odio.</p>
       </div>
     </div>

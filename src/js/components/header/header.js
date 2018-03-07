@@ -322,7 +322,7 @@ class Header extends Component {
    
 
     $('.side-panel-btn').unbind('click').on('click', function (event) {
-      event.preventDefault();
+      // event.preventDefault();
       var parent = $($(this).attr('data-target'));
       parent.addClass('is-visible');
       if ($(this).attr('id') == "mainMenuSidePanelButton") {
@@ -353,7 +353,7 @@ class Header extends Component {
         }, 400);
 
       }
-      event.preventDefault();
+      // event.preventDefault();
     });
 
     $(".main-menu-secondary-li-shop-departments").hoverIntent({
