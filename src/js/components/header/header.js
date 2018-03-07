@@ -652,6 +652,7 @@ class Header extends Component {
           <div class="main-menu-bar-secondary">
             <div class="side-panel side-panel-disable-desktop slide-panel-from-left main-menu-bar-secondary-panel" id="mainMenusecondary">
               <div class="side-panel-container">
+                <div class="side-panel-container-inner-container">
                 <header class="side-panel-header">
                   <h3 class="title title-L color-white side-panel-headline">Menu</h3>
                   <a href="javascript:void(0);" class="title title-L color-white tier2-close">
@@ -659,7 +660,6 @@ class Header extends Component {
                     Departments </a> <a href="javascript:void(0);" class="side-panel-close main-menu-reset">
                     <div class="change-my-store-icon-close icon color-white-svg" dangerouslySetInnerHTML={{ __html: closeImage }} />
                   </a> </header>
-                <div class="side-panel-container-inner-container">
                   <div class="side-panel-content">
                     <div class="main-menu-bar-secondary-container">
                       <div class="main-menu-secondary-left">

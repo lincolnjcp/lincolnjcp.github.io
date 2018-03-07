@@ -478,6 +478,7 @@
 			width: 640px;
 			padding-top: 64px;
 			padding-bottom: 55px;
+			z-index: -1;
 		}
 	}
 	.main-menu-tier1-link,
@@ -890,6 +891,7 @@
 
 		& .side-panel-content {
 			padding-top: 44px;
+			z-index: -1;
 		}
 	}
 	.main-menu-md-panel {

@@ -20581,30 +20581,30 @@ var header_Header = function (_Component) {
                 'div',
                 { 'class': 'side-panel-container' },
                 react_default.a.createElement(
-                  'header',
-                  { 'class': 'side-panel-header' },
-                  react_default.a.createElement(
-                    'h3',
-                    { 'class': 'title title-L color-white side-panel-headline' },
-                    'Menu'
-                  ),
-                  react_default.a.createElement(
-                    'a',
-                    { href: 'javascript:void(0);', 'class': 'title title-L color-white tier2-close' },
-                    react_default.a.createElement('div', { 'class': 'tier2-close-icon icon color-white-svg', dangerouslySetInnerHTML: { __html: header_arrowleftImage } }),
-                    'Departments '
-                  ),
-                  ' ',
-                  react_default.a.createElement(
-                    'a',
-                    { href: 'javascript:void(0);', 'class': 'side-panel-close main-menu-reset' },
-                    react_default.a.createElement('div', { 'class': 'change-my-store-icon-close icon color-white-svg', dangerouslySetInnerHTML: { __html: header_closeImage } })
-                  ),
-                  ' '
-                ),
-                react_default.a.createElement(
                   'div',
                   { 'class': 'side-panel-container-inner-container' },
+                  react_default.a.createElement(
+                    'header',
+                    { 'class': 'side-panel-header' },
+                    react_default.a.createElement(
+                      'h3',
+                      { 'class': 'title title-L color-white side-panel-headline' },
+                      'Menu'
+                    ),
+                    react_default.a.createElement(
+                      'a',
+                      { href: 'javascript:void(0);', 'class': 'title title-L color-white tier2-close' },
+                      react_default.a.createElement('div', { 'class': 'tier2-close-icon icon color-white-svg', dangerouslySetInnerHTML: { __html: header_arrowleftImage } }),
+                      'Departments '
+                    ),
+                    ' ',
+                    react_default.a.createElement(
+                      'a',
+                      { href: 'javascript:void(0);', 'class': 'side-panel-close main-menu-reset' },
+                      react_default.a.createElement('div', { 'class': 'change-my-store-icon-close icon color-white-svg', dangerouslySetInnerHTML: { __html: header_closeImage } })
+                    ),
+                    ' '
+                  ),
                   react_default.a.createElement(
                     'div',
                     { 'class': 'side-panel-content' },
