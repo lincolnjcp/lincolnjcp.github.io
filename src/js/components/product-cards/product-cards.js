@@ -729,7 +729,7 @@ class ProductCards extends Component {
                                 </div>
                               </div>
                           <div class="product-card-thumbnail">
-                              <a href="javascript:void(0)"><img src="/images/design-system/fpo/product-cards/product-card-grid-pane-1.jpg" alt="Samsung ENERGY STAR"/></a>
+                              <a href="javascript:void(0)"><img src="https://s7d4.scene7.com/is/image/JCPenney/DP0602201717294441M.tif?wid=350&hei=350&op_usm=.4,.8,0,0&resmode=sharp2" alt="Samsung ENERGY STAR"/></a>
                               <div class="shop-collection title title-XS"><span class="hide-for-small-only">SHOP THE</span> COLLECTION</div>
                           </div>
                           <div class="color-swatches-block hide-for-small-only">
@@ -803,7 +803,7 @@ class ProductCards extends Component {
                                 </div>
                               </div>
                           <div class="product-card-thumbnail">
-                              <a href="javascript:void(0)"><img src="/images/design-system/fpo/product-cards/product-card-grid-pane-1.jpg" alt="Samsung ENERGY STAR"/></a>
+                              <a href="javascript:void(0)"><img src="https://s7d9.scene7.com/is/image/JCPenney/DP0209201717113978M?wid=450&amp;hei=450&amp;op_sharpen=1" alt="Samsung ENERGY STAR"/></a>
                               <div class="shop-collection title title-XS"><span class="hide-for-small-only">SHOP THE</span> COLLECTION</div>
                           </div>
                           <div class="color-swatches-block hide-for-small-only">
@@ -885,7 +885,7 @@ class ProductCards extends Component {
                         </div>
                         <div class="product-card-image">
                             <div class="product-card-thumbnail">
-                                <a href="javascript:void(0)"><img src="/images/design-system/fpo/product-cards/product-card-large-pane-1.jpg" alt="Samsung ENERGY STAR"/></a>
+                                <a href="javascript:void(0)"><img src="https://s7d4.scene7.com/is/image/JCPenney/DP0117201317033970M.tif?wid=350&hei=350&op_usm=.4,.8,0,0&resmode=sharp2" alt="Samsung ENERGY STAR"/></a>
                             </div>
                         </div>
                     </div>
@@ -945,7 +945,7 @@ class ProductCards extends Component {
                         </div>
                         <div class="product-card-image">
                             <div class="product-card-thumbnail">
-                                <a href="javascript:void(0)"><img src="/images/design-system/fpo/product-cards/product-card-large-pane-1.jpg" alt="Samsung ENERGY STAR"/></a>
+                                <a href="javascript:void(0)"><img src="https://s7d4.scene7.com/is/image/JCPenney/DP0425201617044942M.tif?wid=350&hei=350&op_usm=.4,.8,0,0&resmode=sharp2" alt="Samsung ENERGY STAR"/></a>
                             </div>
                         </div>
                     </div>
@@ -1017,7 +1017,7 @@ class ProductCards extends Component {
                         </div>
                         <div class="product-card-image">
                             <div class="product-card-thumbnail">
-                                <a href="javascript:void(0)"><img src="/images/design-system/fpo/product-cards/product-card-large-pane-1.jpg" alt="Samsung ENERGY STAR"/></a>
+                                <a href="javascript:void(0)"><img src="https://s7d4.scene7.com/is/image/JCPenney/DP0209201717114233M.tif?wid=350&hei=350&op_usm=.4,.8,0,0&resmode=sharp2" alt="Samsung ENERGY STAR"/></a>
                             </div>
                         </div>
                     </div>
@@ -1076,7 +1076,7 @@ class ProductCards extends Component {
                         </div>
                         <div class="product-card-image">
                             <div class="product-card-thumbnail">
-                                <a href="javascript:void(0)"><img src="/images/design-system/fpo/product-cards/product-card-large-pane-1.jpg" alt="Samsung ENERGY STAR"/></a>
+                                <a href="javascript:void(0)"><img src="https://s7d9.scene7.com/is/image/JCPenney/DP0602201717294641M?wid=450&amp;hei=450&amp;op_sharpen=1" alt="Samsung ENERGY STAR"/></a>
                             </div>
                         </div>
                     </div>
@@ -1135,7 +1135,7 @@ class ProductCards extends Component {
               <div class="mrg-M">
                   <div class="product-card product-card-list-view">
                     <div class="product-card-thumbnail">
-                        <a href="javascript:void(0)"><img src="/images/design-system/fpo/product-cards/product-card-recommendations-3.jpg" alt="Samsung ENERGY STAR"/></a>
+                        <a href="javascript:void(0)"><img src="https://s7d4.scene7.com/is/image/JCPenney/DP0209201717114233M.tif?wid=350&hei=350&op_usm=.4,.8,0,0&resmode=sharp2" alt="Samsung ENERGY STAR"/></a>
                         <div class="flag flag-info flag-S std-txt std-txt-XXS">JCP Only</div>
                         <div className="like-icon">
                           <span className="icon heart" dangerouslySetInnerHTML={{ __html: heartfillImage }} />

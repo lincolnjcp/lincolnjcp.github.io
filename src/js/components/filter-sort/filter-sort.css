@@ -202,8 +202,10 @@
             float: left;
             padding-right: 12px;
             margin-bottom: 16px;
+            width: 50%;
             & .dropdown-button {
-                min-width: 164px;
+                width: 100%;
+                min-width: 80%;
                 & .dropdown {
                     & .dropdown-list {
                         & .search-type {
@@ -216,7 +218,7 @@
                 }
             }
             & .sortby {
-                max-width: 70px;
+                max-width: 40%;
             }
         }
         & .dropdown-menu-block:nth-child(even) {

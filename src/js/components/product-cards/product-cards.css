@@ -97,15 +97,18 @@
 	&:last-of-type {
 		border-right: none;
 	}
-	& .like-icon {
-		top: 4px;
-		right: 4px;
-	}
-	& .flag {
-		left: -16px;
-		top: 12px;
-		position: absolute;
-		z-index: 1;
+	& .product-card-inner {
+		position: relative;
+		& .like-icon {
+			top: 8px;
+			right: 8px;
+		}
+		& .flag {
+			left: -8px;
+			top: 8px;
+			position: absolute;
+			z-index: 1;
+		}
 	}
 }
 
@@ -207,6 +210,9 @@
 			position: absolute;
 			z-index: 1;
 		}
+		& .like-icon {
+			right: 24px;
+		}
 		& .shop-collection {
 		    position: absolute;
 		    bottom: 0;
@@ -292,6 +298,9 @@
 	}
 	& .product-card-image {
 		position: relative;
+		@media (--viewport-sm-only) {
+			margin-bottom: 8px;
+		}
 		& .product-card-thumbnail {
 			position: relative;
 			display: inline-block;

@@ -96,7 +96,7 @@
 	& .main-menu-primary-logo {
 		flex: none;
 		width: 160px;
-		padding-left: 20px;
+		padding-left: 6px;
 		& .main-menu-primary-logo-svg {
 			& path {
 				fill: var(--color-white) !important;
