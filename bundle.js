@@ -27983,7 +27983,7 @@ var product_cards_ProductCards = function (_Component) {
                                             react_default.a.createElement(
                                                 'a',
                                                 { href: 'javascript:void(0)' },
-                                                react_default.a.createElement('img', { src: '/images/design-system/fpo/product-cards/product-card-grid-pane-1.jpg', alt: 'Samsung ENERGY STAR' })
+                                                react_default.a.createElement('img', { src: 'https://s7d4.scene7.com/is/image/JCPenney/DP0602201717294441M.tif?wid=350&hei=350&op_usm=.4,.8,0,0&resmode=sharp2', alt: 'Samsung ENERGY STAR' })
                                             ),
                                             react_default.a.createElement(
                                                 'div',
@@ -28194,7 +28194,7 @@ var product_cards_ProductCards = function (_Component) {
                                             react_default.a.createElement(
                                                 'a',
                                                 { href: 'javascript:void(0)' },
-                                                react_default.a.createElement('img', { src: '/images/design-system/fpo/product-cards/product-card-grid-pane-1.jpg', alt: 'Samsung ENERGY STAR' })
+                                                react_default.a.createElement('img', { src: 'https://s7d9.scene7.com/is/image/JCPenney/DP0209201717113978M?wid=450&hei=450&op_sharpen=1', alt: 'Samsung ENERGY STAR' })
                                             ),
                                             react_default.a.createElement(
                                                 'div',
@@ -28427,7 +28427,7 @@ var product_cards_ProductCards = function (_Component) {
                                             react_default.a.createElement(
                                                 'a',
                                                 { href: 'javascript:void(0)' },
-                                                react_default.a.createElement('img', { src: '/images/design-system/fpo/product-cards/product-card-large-pane-1.jpg', alt: 'Samsung ENERGY STAR' })
+                                                react_default.a.createElement('img', { src: 'https://s7d4.scene7.com/is/image/JCPenney/DP0117201317033970M.tif?wid=350&hei=350&op_usm=.4,.8,0,0&resmode=sharp2', alt: 'Samsung ENERGY STAR' })
                                             )
                                         )
                                     )
@@ -28592,7 +28592,7 @@ var product_cards_ProductCards = function (_Component) {
                                             react_default.a.createElement(
                                                 'a',
                                                 { href: 'javascript:void(0)' },
-                                                react_default.a.createElement('img', { src: '/images/design-system/fpo/product-cards/product-card-large-pane-1.jpg', alt: 'Samsung ENERGY STAR' })
+                                                react_default.a.createElement('img', { src: 'https://s7d4.scene7.com/is/image/JCPenney/DP0425201617044942M.tif?wid=350&hei=350&op_usm=.4,.8,0,0&resmode=sharp2', alt: 'Samsung ENERGY STAR' })
                                             )
                                         )
                                     )
@@ -28787,7 +28787,7 @@ var product_cards_ProductCards = function (_Component) {
                                             react_default.a.createElement(
                                                 'a',
                                                 { href: 'javascript:void(0)' },
-                                                react_default.a.createElement('img', { src: '/images/design-system/fpo/product-cards/product-card-large-pane-1.jpg', alt: 'Samsung ENERGY STAR' })
+                                                react_default.a.createElement('img', { src: 'https://s7d4.scene7.com/is/image/JCPenney/DP0209201717114233M.tif?wid=350&hei=350&op_usm=.4,.8,0,0&resmode=sharp2', alt: 'Samsung ENERGY STAR' })
                                             )
                                         )
                                     )
@@ -28947,7 +28947,7 @@ var product_cards_ProductCards = function (_Component) {
                                             react_default.a.createElement(
                                                 'a',
                                                 { href: 'javascript:void(0)' },
-                                                react_default.a.createElement('img', { src: '/images/design-system/fpo/product-cards/product-card-large-pane-1.jpg', alt: 'Samsung ENERGY STAR' })
+                                                react_default.a.createElement('img', { src: 'https://s7d9.scene7.com/is/image/JCPenney/DP0602201717294641M?wid=450&hei=450&op_sharpen=1', alt: 'Samsung ENERGY STAR' })
                                             )
                                         )
                                     )
@@ -29109,7 +29109,7 @@ var product_cards_ProductCards = function (_Component) {
                                     react_default.a.createElement(
                                         'a',
                                         { href: 'javascript:void(0)' },
-                                        react_default.a.createElement('img', { src: '/images/design-system/fpo/product-cards/product-card-recommendations-3.jpg', alt: 'Samsung ENERGY STAR' })
+                                        react_default.a.createElement('img', { src: 'https://s7d4.scene7.com/is/image/JCPenney/DP0209201717114233M.tif?wid=350&hei=350&op_usm=.4,.8,0,0&resmode=sharp2', alt: 'Samsung ENERGY STAR' })
                                     ),
                                     react_default.a.createElement(
                                         'div',
