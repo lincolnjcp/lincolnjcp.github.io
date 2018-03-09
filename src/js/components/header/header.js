@@ -366,7 +366,6 @@ class Header extends Component {
           if ($(".main-menu-bar-secondary").length > 0) {
             top = $(".main-menu-bar-secondary").height() + $(".main-menu-bar-secondary").offset().top;
           }
-          // $("#mainMenusecondaryLightBox").css({ "top": top, "height": $(document).height() })
           $("#mainMenusecondaryLightBox").fadeOut(0).fadeIn(200);
         }
         $(".main-menu-secondary-li").addClass("main-menu-secondary-hover");
@@ -457,6 +456,14 @@ class Header extends Component {
       } else {
         target.addClass('tier3-click');
       }
+    });
+
+
+    $(document).ready(function() {
+      $('.main-menu-secondary-shop-departments').click(function() {
+          $(".main-menu-secondary-li").toggleClass("main-menu-secondary-hover"); 
+          $("#mainMenusecondaryLightBox").toggle();
+      });
     });
 
     $(".tier2-close").unbind('click').on('click', function (event) {
