@@ -362,6 +362,217 @@
 .carousel-full-width-nav .icon, .carousel-full-width-nav .icon svg { width: 20px; height: 20px; }
 .carousel-full-width-nav .icon { margin-top: 6px; }
 
+
+/***** MF STYLES  ******/
+/* MF - Video Dual Pane */
+.hero-heading{
+	font-size: 55px;
+	font-weight: bold;
+	margin-bottom: 10px;
+	margin-top: 0;
+}
+.hero-sub-heading{
+	font-size: 24px;
+	font-weight: lighter;
+	margin-bottom: 25px;
+}
+.video-dual-pane{
+	display: flex;
+	padding: 45px 0;
+}
+.video-dual-pane-section {
+	background:#f0f0f0;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.video-headline {
+	padding-top: 80px;
+	padding-left: 60px;
+	padding-right: 60px;
+}
+@media (max-width: 1439px) {
+.hero-heading{
+	font-size: 40px;
+	}
+	.video-headline {
+		padding: 0px 16px;
+	}
+}
+@media (max-width: 767px) {
+	.video-dual-pane{
+		flex-direction: column;
+	}
+	.video-dual-pane-copy{
+		margin-bottom: 20px;
+	}
+	.hero-heading{
+		font-size: 34px;
+		text-align: left;
+	}
+	.hero-sub-heading{
+		font-size: 22px;
+		font-weight: normal;
+		text-align: left;
+		margin-bottom: 10px;
+	}
+	.video-headline {
+		padding: 0px 16px;
+	}
+	.video-dual-pane {
+		padding: 20px 0;
+	}
+}
+/* MF - Video Dual Pane */
+
+
+/* SHop the Video Section */
+.shop-the-video{
+	padding: 45px 0;
+	display: flex;
+}
+.video-section-left{
+
+	padding: 50px 0 0;
+	background: #b4b4b4;
+}
+.vertical-product{
+	padding: 20px 16px;
+	background: #e4e4e4;
+}
+.vertical-products{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 5px;
+}
+.product-card-small{
+	max-width: 200px;
+	margin: 0 auto;
+	text-align: center;
+}
+.product-card-small img{
+	margin: 0 auto;
+	max-width: 100px;
+}
+.inline{
+	display: inline-block;
+}
+@media (max-width: 1023px){
+	.vertical-products{
+		flex-direction: row;
+	}
+	.shop-the-video .inline{
+		display: block;
+	}
+	.shop-the-video span{
+		display: none;
+	}
+}
+@media (max-width: 767px) {
+	.shop-the-video{
+		flex-direction: column;
+	}
+	.video-section-left{
+		max-width: 100%;
+	}
+	.vertical-products{
+		flex-direction: row;
+		margin-top: 35px;
+		border: none;
+	}
+}
+/* SHop the Video Section */
+
+
+/* Shop-the-look-dual-pane  "Lookbook" */
+.shop-the-look-dual-pane{
+	display: flex;
+}
+.shop-the-look-dual-pane h2{
+	font-size: 45px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 25px;
+}
+.product-details-card{
+	width: 100%;
+	max-width: 550px;
+	margin: 0 auto;
+	padding-top: 30%;
+	text-align: center;
+}
+.product-details-card .btn{
+	margin: 25px auto;
+}
+@media (max-width: 1023px){
+	.product-details-card{
+		padding-top: 20%;
+	}
+}
+@media (max-width: 767px) {
+	.shop-the-look-dual-pane{
+		flex-direction: column;
+	}
+	.product-details-card{
+		padding-top: 5%;
+	}
+}
+/* Shop-the-look-dual-pane  "Lookbook" */
+
+
+/*  Dual Pane Product Hero Slider  */
+.dual-pane-product-hero-slider{
+	display: flex;
+	padding: 45px 0;
+}
+.promo-description{
+	max-width: 400px;
+	margin: 0 auto;
+}
+.dual-pane-product-hero-slider h2{
+	font-size: 45px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 25px;
+}
+.dual-pane-product-hero-slider .right-pane{
+	max-width: 50%;
+}
+.dual-pane-product-hero-slider  .item{
+	position: relative;
+	text-align: center;
+}
+.dual-pane-product-hero-slider  .price{
+	font-size: 40px;
+}
+.dual-pane-product-hero-slider .left-pane{
+	padding-top: 10%;
+}
+.carousel-with-promo-content{
+	position: absolute;
+    bottom: 10%;
+    background: rgba(255,255,255,.6);
+    padding: 25px;
+    width: 100%;
+}
+@media (max-width: 1023px){
+	
+}
+@media (max-width: 767px) {
+	.dual-pane-product-hero-slider{
+		flex-direction: column;
+	}
+	.dual-pane-product-hero-slider .right-pane{
+		max-width: 100%;
+	}
+}
+
+/*  Dual Pane Product Hero Slider  */
+
+/***** MF STYLES  ******/
+
 @media (max-width: 767px) {
 	.carousel-with-bg {
 		margin-right: 30px;

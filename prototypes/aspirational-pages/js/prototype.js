@@ -93,6 +93,57 @@ $( document ).ready(function() {
 		}
 	  });
 
+	  var owl = $('.dual-pane-product-hero-slider .owl-carousel');
+	  owl.owlCarousel({
+		
+		loop: true,
+		margin: 25,
+		autoplay: false,
+		nav: true,
+		navText: ['<div class="icon color-nightsky-svg"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32">  <defs>    <polygon id="chevron-left-a" points="2.538 .34 14.204 12 2.538 23.66 -.204 20.92 8.701 12 -.204 3.08"></polygon>  </defs>  <g fill="none" fill-rule="evenodd" transform="matrix(-1 0 0 1 23 4)">    <use fill="#384048" xlink:href="#chevron-left-a"></use>  </g></svg></div>','<div class="icon color-nightsky-svg"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32">  <defs>    <polygon id="chevron-right-a" points="2.537 .34 14.202 12 2.537 23.66 -.204 20.92 8.7 12 -.204 3.08"></polygon>  </defs>  <g fill="none" fill-rule="evenodd" transform="translate(9 4)">    <use fill="#384048" xlink:href="#chevron-right-a"></use>  </g></svg></div>'],
+		dots: true,
+		responsive : {
+		    0 : {
+		        items: 1,
+		        slideBy: 1
+		    },
+		    599 : {
+		        items: 1,
+		        slideBy: 1
+		    },
+		    768 : {
+		        items: 1,
+		        slideBy: 1
+		    }
+		}
+	  });
+
+	  var owlDualVideoPane = $('.owlDualVideoPane .owl-carousel');
+	  owlDualVideoPane.owlCarousel({
+		
+		loop: true,
+		margin: 25,
+		autoplay: false,
+		nav: true,
+		navText: ['<div class="icon color-nightsky-svg"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32">  <defs>    <polygon id="chevron-left-a" points="2.538 .34 14.204 12 2.538 23.66 -.204 20.92 8.701 12 -.204 3.08"></polygon>  </defs>  <g fill="none" fill-rule="evenodd" transform="matrix(-1 0 0 1 23 4)">    <use fill="#384048" xlink:href="#chevron-left-a"></use>  </g></svg></div>','<div class="icon color-nightsky-svg"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32">  <defs>    <polygon id="chevron-right-a" points="2.537 .34 14.202 12 2.537 23.66 -.204 20.92 8.7 12 -.204 3.08"></polygon>  </defs>  <g fill="none" fill-rule="evenodd" transform="translate(9 4)">    <use fill="#384048" xlink:href="#chevron-right-a"></use>  </g></svg></div>'],
+		dots: false,
+		
+		responsive : {
+		    0 : {
+		        items: 2,
+		        slideBy: 2
+		    },
+		    599 : {
+		        items: 3,
+		        slideBy: 3
+		    },
+		    768 : {
+		        items: 6,
+		        slideBy: 5
+		    }
+		}
+	  });
+
 	  $('.nav-prev').on('click', function () {
 		  $(this).closest('.carousel-full-width').find('.owl-prev').trigger('click');
 		});
