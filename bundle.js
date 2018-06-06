@@ -222,23 +222,7 @@ var CodeGenerator = function (_Component) {
     return CodeGenerator;
 }(__WEBPACK_IMPORTED_MODULE_0_react__["Component"]);
 
-var _default = CodeGenerator;
-
-
-/* unused harmony default export */ var _unused_webpack_default_export = (_default);
-;
-
-var _temp = function () {
-    if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-        return;
-    }
-
-    __REACT_HOT_LOADER__.register(CodeGenerator, 'CodeGenerator', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/containers/CodeGenerator.js');
-
-    __REACT_HOT_LOADER__.register(_default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/containers/CodeGenerator.js');
-}();
-
-;
+/* unused harmony default export */ var _unused_webpack_default_export = (CodeGenerator);
 
 /***/ }),
 
@@ -976,17 +960,6 @@ var rootNav = [{
 }];
 
 
-;
-
-var _temp = function () {
-    if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-        return;
-    }
-
-    __REACT_HOT_LOADER__.register(rootNav, 'rootNav', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/containers/config/rootConfig.js');
-}();
-
-;
 // EXTERNAL MODULE: ./node_modules/jquery/dist/jquery.js
 var jquery = __webpack_require__("7t+N");
 var jquery_default = /*#__PURE__*/__webpack_require__.n(jquery);
@@ -1901,38 +1874,10 @@ var buttons_Buttons = function (_Component) {
     return Buttons;
 }(react["Component"]);
 
-var _default = buttons_Buttons;
-
-
-/* harmony default export */ var buttons = (_default);
-;
-
-var buttons__temp = function () {
-    if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-        return;
-    }
-
-    __REACT_HOT_LOADER__.register(buttons_Buttons, 'Buttons', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/buttons/buttons.js');
-
-    __REACT_HOT_LOADER__.register(_default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/buttons/buttons.js');
-}();
-
-;
+/* harmony default export */ var buttons = (buttons_Buttons);
 // CONCATENATED MODULE: ./src/js/components/buttons/index.js
 
-var buttons__default = buttons;
-/* harmony default export */ var components_buttons = (buttons__default);
-;
-
-var components_buttons__temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(buttons__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/buttons/index.js');
-}();
-
-;
+/* harmony default export */ var components_buttons = (buttons);
 // CONCATENATED MODULE: ./src/js/components/color/color.js
 var color__createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
@@ -2713,38 +2658,10 @@ var color_Color = function (_Component) {
     return Color;
 }(react["Component"]);
 
-var color__default = color_Color;
-
-
-/* harmony default export */ var color = (color__default);
-;
-
-var color__temp = function () {
-    if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-        return;
-    }
-
-    __REACT_HOT_LOADER__.register(color_Color, 'Color', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/color/color.js');
-
-    __REACT_HOT_LOADER__.register(color__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/color/color.js');
-}();
-
-;
+/* harmony default export */ var color = (color_Color);
 // CONCATENATED MODULE: ./src/js/components/color/index.js
 
-var components_color__default = color;
-/* harmony default export */ var components_color = (components_color__default);
-;
-
-var components_color__temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(components_color__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/color/index.js');
-}();
-
-;
+/* harmony default export */ var components_color = (color);
 // CONCATENATED MODULE: ./src/js/components/icons/icons.js
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
 
@@ -3638,40 +3555,10 @@ var icons_Icons = function (_Component) {
     return Icons;
 }(react["Component"]);
 
-var icons__default = icons_Icons;
-
-
-/* harmony default export */ var icons = (icons__default);
-;
-
-var icons__temp = function () {
-    if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-        return;
-    }
-
-    __REACT_HOT_LOADER__.register(icons_ColorPicker, 'ColorPicker', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/icons/icons.js');
-
-    __REACT_HOT_LOADER__.register(icons_Icons, 'Icons', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/icons/icons.js');
-
-    __REACT_HOT_LOADER__.register(icons__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/icons/icons.js');
-}();
-
-;
+/* harmony default export */ var icons = (icons_Icons);
 // CONCATENATED MODULE: ./src/js/components/icons/index.js
 
-var components_icons__default = icons;
-/* harmony default export */ var components_icons = (components_icons__default);
-;
-
-var components_icons__temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(components_icons__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/icons/index.js');
-}();
-
-;
+/* harmony default export */ var components_icons = (icons);
 // CONCATENATED MODULE: ./src/js/components/grid/grid.js
 var grid__createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
@@ -3703,55 +3590,66 @@ var grid_Grid = function (_Component) {
         null,
         react_default.a.createElement(
           "div",
-          { "class": "row" },
-          react_default.a.createElement(
-            "div",
-            { "class": "sm12 columns" },
-            react_default.a.createElement(
-              "h1",
-              { "class": "title title-XL mrg-L" },
-              "Grid, Spacing & Layout"
-            ),
-            react_default.a.createElement(
-              "h2",
-              { "class": "std-txt std-txt-XL mrg-L max-width-text" },
-              "To promote a sense of visual harmony across a wide range of applications, the design system provides the following recommendations on how to combine components into complex patterns and screen layouts.",
-              react_default.a.createElement("br", null),
-              react_default.a.createElement("br", null),
-              "There are two kinds of grids that occur within JCPenney eCommerce Platforms, horizontal and vertical. The following breakpoints have been designed to guide the layout and the scaling of elements across screen resolutions. ",
-              react_default.a.createElement("br", null),
-              react_default.a.createElement("br", null),
-              "The screen sizes were determined by a combination of common screen resolutions, previous JCP design work, along with input from various Screen Inventory documentation conducted by JCPenney. Dimensions for an X-Large Screen was accounted for; however, small to large will be the teams primary focus."
-            ),
-            react_default.a.createElement("hr", null)
-          )
-        ),
-        react_default.a.createElement(
-          "div",
           { "class": "row", id: "horizontal-grid" },
           react_default.a.createElement(
             "div",
             { "class": "sm12 columns" },
             react_default.a.createElement(
               "div",
-              { "class": "show-for-small-only" },
+              { "class": "show-for-xxs-only" },
               react_default.a.createElement(
                 "h4",
                 { "class": "promo-lbl promo-lbl-L mrg-S" },
-                "S 360"
+                "XXS 320"
               ),
               react_default.a.createElement(
                 "p",
                 { "class": "mrg-XL algn-lft title title-L color-nightsky" },
-                "width: 320px",
-                react_default.a.createElement("br", null),
-                "margin: 0 20px",
+                "margin: 0 12px",
                 react_default.a.createElement("br", null),
                 "columns: 6",
                 react_default.a.createElement("br", null),
                 "column gutter: 16px",
                 react_default.a.createElement("br", null),
-                "column width: 40px",
+                "vertical spacing: 4px"
+              )
+            ),
+            react_default.a.createElement(
+              "div",
+              { "class": "show-for-xs-only" },
+              react_default.a.createElement(
+                "h4",
+                { "class": "promo-lbl promo-lbl-L mrg-S" },
+                "XS 360"
+              ),
+              react_default.a.createElement(
+                "p",
+                { "class": "mrg-XL algn-lft title title-L color-nightsky" },
+                "width: 360px",
+                react_default.a.createElement("br", null),
+                "margin: 0 16px",
+                react_default.a.createElement("br", null),
+                "column gutter: 16px",
+                react_default.a.createElement("br", null),
+                "vertical spacing: 4px"
+              )
+            ),
+            react_default.a.createElement(
+              "div",
+              { "class": "show-for-small-only" },
+              react_default.a.createElement(
+                "h4",
+                { "class": "promo-lbl promo-lbl-L mrg-S" },
+                "S 600"
+              ),
+              react_default.a.createElement(
+                "p",
+                { "class": "mrg-XL algn-lft title title-L color-nightsky" },
+                "margin: 0 20px",
+                react_default.a.createElement("br", null),
+                "columns: 12",
+                react_default.a.createElement("br", null),
+                "column gutter: 16px",
                 react_default.a.createElement("br", null),
                 "vertical spacing: 4px"
               )
@@ -3767,15 +3665,11 @@ var grid_Grid = function (_Component) {
               react_default.a.createElement(
                 "p",
                 { "class": "mrg-XL algn-lft title title-L color-nightsky" },
-                "width: 704px",
-                react_default.a.createElement("br", null),
-                "margin: 0 32px",
+                "margin: 0 20px",
                 react_default.a.createElement("br", null),
                 "columns: 12",
                 react_default.a.createElement("br", null),
                 "column gutter: 16px",
-                react_default.a.createElement("br", null),
-                "column width: 44px",
                 react_default.a.createElement("br", null),
                 "vertical spacing: 4px"
               )
@@ -3791,15 +3685,11 @@ var grid_Grid = function (_Component) {
               react_default.a.createElement(
                 "p",
                 { "class": "mrg-XL algn-lft title title-L color-nightsky" },
-                "width: 968px",
-                react_default.a.createElement("br", null),
-                "margin: 0 28px",
+                "margin: 0 20px",
                 react_default.a.createElement("br", null),
                 "columns: 12",
                 react_default.a.createElement("br", null),
                 "column gutter: 16px",
-                react_default.a.createElement("br", null),
-                "column width: 66px",
                 react_default.a.createElement("br", null),
                 "vertical spacing: 4px"
               )
@@ -3810,20 +3700,36 @@ var grid_Grid = function (_Component) {
               react_default.a.createElement(
                 "h4",
                 { "class": "promo-lbl promo-lbl-L mrg-S" },
-                "XL 1440 "
+                "XL 1280 "
               ),
               react_default.a.createElement(
                 "p",
                 { "class": "mrg-XL algn-lft title title-L color-nightsky" },
-                "width: 1376px",
-                react_default.a.createElement("br", null),
                 "margin: 0 32px",
                 react_default.a.createElement("br", null),
                 "columns: 12",
                 react_default.a.createElement("br", null),
                 "column gutter: 16px",
                 react_default.a.createElement("br", null),
-                "column width: 100px",
+                "vertical spacing: 4px"
+              )
+            ),
+            react_default.a.createElement(
+              "div",
+              { "class": "show-for-xxlarge-only" },
+              react_default.a.createElement(
+                "h4",
+                { "class": "promo-lbl promo-lbl-L mrg-S" },
+                "XXL 1366 "
+              ),
+              react_default.a.createElement(
+                "p",
+                { "class": "mrg-XL algn-lft title title-L color-nightsky" },
+                "margin: 0 32px",
+                react_default.a.createElement("br", null),
+                "columns: 12",
+                react_default.a.createElement("br", null),
+                "column gutter: 16px",
                 react_default.a.createElement("br", null),
                 "vertical spacing: 4px"
               )
@@ -3833,7 +3739,7 @@ var grid_Grid = function (_Component) {
               { "class": "row" },
               react_default.a.createElement(
                 "div",
-                { "class": "sm12 columns" },
+                { "class": "xxs12 xs12 sm12 md12 lg12 xl12 xxl12 columns" },
                 react_default.a.createElement("div", { "class": "grid-preview color-penneyred-bg" })
               )
             ),
@@ -3852,110 +3758,31 @@ var grid_Grid = function (_Component) {
             ),
             react_default.a.createElement(
               "div",
-              { "class": "row show-for-small-only" },
+              { "class": "row hide-for-xs-only show-for-large-only show-for-xlarge-only show-for-xxlarge-only" },
               react_default.a.createElement(
                 "div",
-                { "class": "sm4 columns" },
+                { "class": "xxs3 xs3 sm3 md3 lg3 xl3 xxl3 columns" },
                 react_default.a.createElement("div", { "class": "grid-preview color-penneyred-bg" })
               ),
               react_default.a.createElement(
                 "div",
-                { "class": "sm4 columns" },
+                { "class": "xxs3 xs3 sm3 md3 lg3 xl3 xxl3 columns" },
                 react_default.a.createElement("div", { "class": "grid-preview color-penneyred-bg" })
               ),
               react_default.a.createElement(
                 "div",
-                { "class": "sm4 columns" },
+                { "class": "xxs3 xs3 sm3 md3 lg3 xl3 xxl3 columns" },
+                react_default.a.createElement("div", { "class": "grid-preview color-penneyred-bg" })
+              ),
+              react_default.a.createElement(
+                "div",
+                { "class": "xxs3 xs3 sm3 md3 lg3 xl3 xxl3 columns" },
                 react_default.a.createElement("div", { "class": "grid-preview color-penneyred-bg" })
               )
             ),
             react_default.a.createElement(
               "div",
-              { "class": "row show-for-small-only" },
-              react_default.a.createElement(
-                "div",
-                { "class": "sm12 columns" },
-                react_default.a.createElement(
-                  "p",
-                  { "class": "mrg-M algn-lft std-txt std-txt-S color-penneyred" },
-                  "3 columns"
-                )
-              )
-            ),
-            react_default.a.createElement(
-              "div",
-              { "class": "row show-for-small-only" },
-              react_default.a.createElement(
-                "div",
-                { "class": "sm2 columns" },
-                react_default.a.createElement("div", { "class": "grid-preview color-penneyred-bg" })
-              ),
-              react_default.a.createElement(
-                "div",
-                { "class": "sm2 columns" },
-                react_default.a.createElement("div", { "class": "grid-preview color-penneyred-bg" })
-              ),
-              react_default.a.createElement(
-                "div",
-                { "class": "sm2 columns" },
-                react_default.a.createElement("div", { "class": "grid-preview color-penneyred-bg" })
-              ),
-              react_default.a.createElement(
-                "div",
-                { "class": "sm2 columns" },
-                react_default.a.createElement("div", { "class": "grid-preview color-penneyred-bg" })
-              ),
-              react_default.a.createElement(
-                "div",
-                { "class": "sm2 columns" },
-                react_default.a.createElement("div", { "class": "grid-preview color-penneyred-bg" })
-              ),
-              react_default.a.createElement(
-                "div",
-                { "class": "sm2 columns" },
-                react_default.a.createElement("div", { "class": "grid-preview color-penneyred-bg" })
-              )
-            ),
-            react_default.a.createElement(
-              "div",
-              { "class": "row show-for-small-only" },
-              react_default.a.createElement(
-                "div",
-                { "class": "sm12 columns" },
-                react_default.a.createElement(
-                  "p",
-                  { "class": "mrg-M algn-lft std-txt std-txt-S color-penneyred" },
-                  "6 columns"
-                )
-              )
-            ),
-            react_default.a.createElement(
-              "div",
-              { "class": "row hide-for-small-only" },
-              react_default.a.createElement(
-                "div",
-                { "class": "sm3 columns" },
-                react_default.a.createElement("div", { "class": "grid-preview color-penneyred-bg" })
-              ),
-              react_default.a.createElement(
-                "div",
-                { "class": "sm3 columns" },
-                react_default.a.createElement("div", { "class": "grid-preview color-penneyred-bg" })
-              ),
-              react_default.a.createElement(
-                "div",
-                { "class": "sm3 columns" },
-                react_default.a.createElement("div", { "class": "grid-preview color-penneyred-bg" })
-              ),
-              react_default.a.createElement(
-                "div",
-                { "class": "sm3 columns" },
-                react_default.a.createElement("div", { "class": "grid-preview color-penneyred-bg" })
-              )
-            ),
-            react_default.a.createElement(
-              "div",
-              { "class": "row hide-for-small-only" },
+              { "class": "row hide-for-xs-only show-for-large-only show-for-xlarge-only show-for-xxlarge-only" },
               react_default.a.createElement(
                 "div",
                 { "class": "sm12 columns" },
@@ -3968,71 +3795,177 @@ var grid_Grid = function (_Component) {
             ),
             react_default.a.createElement(
               "div",
-              { "class": "row hide-for-small-only" },
+              { "class": "row show-for-small-only show-for-xs-only" },
               react_default.a.createElement(
                 "div",
-                { "class": "sm1 columns" },
+                { "class": "xxs4 xs4 sm4 md4 lg4 xl4 xxl4 columns" },
                 react_default.a.createElement("div", { "class": "grid-preview color-penneyred-bg" })
               ),
               react_default.a.createElement(
                 "div",
-                { "class": "sm1 columns" },
+                { "class": "xxs4 xs4 sm4 md4 lg4 xl4 xxl4 columns" },
                 react_default.a.createElement("div", { "class": "grid-preview color-penneyred-bg" })
               ),
               react_default.a.createElement(
                 "div",
-                { "class": "sm1 columns" },
-                react_default.a.createElement("div", { "class": "grid-preview color-penneyred-bg" })
-              ),
-              react_default.a.createElement(
-                "div",
-                { "class": "sm1 columns" },
-                react_default.a.createElement("div", { "class": "grid-preview color-penneyred-bg" })
-              ),
-              react_default.a.createElement(
-                "div",
-                { "class": "sm1 columns" },
-                react_default.a.createElement("div", { "class": "grid-preview color-penneyred-bg" })
-              ),
-              react_default.a.createElement(
-                "div",
-                { "class": "sm1 columns" },
-                react_default.a.createElement("div", { "class": "grid-preview color-penneyred-bg" })
-              ),
-              react_default.a.createElement(
-                "div",
-                { "class": "sm1 columns" },
-                react_default.a.createElement("div", { "class": "grid-preview color-penneyred-bg" })
-              ),
-              react_default.a.createElement(
-                "div",
-                { "class": "sm1 columns" },
-                react_default.a.createElement("div", { "class": "grid-preview color-penneyred-bg" })
-              ),
-              react_default.a.createElement(
-                "div",
-                { "class": "sm1 columns" },
-                react_default.a.createElement("div", { "class": "grid-preview color-penneyred-bg" })
-              ),
-              react_default.a.createElement(
-                "div",
-                { "class": "sm1 columns" },
-                react_default.a.createElement("div", { "class": "grid-preview color-penneyred-bg" })
-              ),
-              react_default.a.createElement(
-                "div",
-                { "class": "sm1 columns" },
-                react_default.a.createElement("div", { "class": "grid-preview color-penneyred-bg" })
-              ),
-              react_default.a.createElement(
-                "div",
-                { "class": "sm1 columns" },
+                { "class": "xxs4 xs4 sm4 md4 lg4 xl4 xxl4 columns" },
                 react_default.a.createElement("div", { "class": "grid-preview color-penneyred-bg" })
               )
             ),
             react_default.a.createElement(
               "div",
-              { "class": "row hide-for-small-only" },
+              { "class": "row show-for-small-only show-for-xs-only" },
+              react_default.a.createElement(
+                "div",
+                { "class": "sm12 columns" },
+                react_default.a.createElement(
+                  "p",
+                  { "class": "mrg-M algn-lft std-txt std-txt-S color-penneyred" },
+                  "3 columns"
+                )
+              )
+            ),
+            react_default.a.createElement(
+              "div",
+              { "class": "row show-for-xs-only show-for-xxs-only" },
+              react_default.a.createElement(
+                "div",
+                { "class": "xxs6 xs6 sm6 md6 lg6 xl6 xxl6 columns" },
+                react_default.a.createElement("div", { "class": "grid-preview color-penneyred-bg" })
+              ),
+              react_default.a.createElement(
+                "div",
+                { "class": "xxs6 xs6 sm6 md6 lg6 xl6 xxl6 columns" },
+                react_default.a.createElement("div", { "class": "grid-preview color-penneyred-bg" })
+              )
+            ),
+            react_default.a.createElement(
+              "div",
+              { "class": "row show-for-xs-only show-for-xxs-only" },
+              react_default.a.createElement(
+                "div",
+                { "class": "sm12 columns" },
+                react_default.a.createElement(
+                  "p",
+                  { "class": "mrg-M algn-lft std-txt std-txt-S color-penneyred" },
+                  "2 columns"
+                )
+              )
+            ),
+            react_default.a.createElement(
+              "div",
+              { "class": "row hide-for-small-only hide-for-large-only hide-for-xlarge-only hide-for-xxlarge-only" },
+              react_default.a.createElement(
+                "div",
+                { "class": "xxs2 xs2 sm2 md2 lg2 xl2 xxl2 columns" },
+                react_default.a.createElement("div", { "class": "grid-preview color-penneyred-bg" })
+              ),
+              react_default.a.createElement(
+                "div",
+                { "class": "xxs2 xs2 sm2 md2 lg2 xl2 xxl2 columns" },
+                react_default.a.createElement("div", { "class": "grid-preview color-penneyred-bg" })
+              ),
+              react_default.a.createElement(
+                "div",
+                { "class": "xxs2 xs2 sm2 md2 lg2 xl2 xxl2 columns" },
+                react_default.a.createElement("div", { "class": "grid-preview color-penneyred-bg" })
+              ),
+              react_default.a.createElement(
+                "div",
+                { "class": "xxs2 xs2 sm2 md2 lg2 xl2 xxl2 columns" },
+                react_default.a.createElement("div", { "class": "grid-preview color-penneyred-bg" })
+              ),
+              react_default.a.createElement(
+                "div",
+                { "class": "xxs2 xs2 sm2 md2 lg2 xl2 xxl2 columns" },
+                react_default.a.createElement("div", { "class": "grid-preview color-penneyred-bg" })
+              ),
+              react_default.a.createElement(
+                "div",
+                { "class": "xxs2 xs2 sm2 md2 lg2 xl2 xxl2 columns" },
+                react_default.a.createElement("div", { "class": "grid-preview color-penneyred-bg" })
+              )
+            ),
+            react_default.a.createElement(
+              "div",
+              { "class": "row hide-for-small-only hide-for-large-only hide-for-xlarge-only hide-for-xxlarge-only" },
+              react_default.a.createElement(
+                "div",
+                { "class": "xxs12 xs12 sm12 md12 lg12 xl12 xxl12 columns" },
+                react_default.a.createElement(
+                  "p",
+                  { "class": "mrg-M algn-lft std-txt std-txt-S color-penneyred" },
+                  "6 columns"
+                )
+              )
+            ),
+            react_default.a.createElement(
+              "div",
+              { "class": "row hide-for-xs-only hide-for-xxs-only" },
+              react_default.a.createElement(
+                "div",
+                { "class": "sm1 lg1 xl1 xxl1 columns" },
+                react_default.a.createElement("div", { "class": "grid-preview color-penneyred-bg" })
+              ),
+              react_default.a.createElement(
+                "div",
+                { "class": "sm1 lg1 xl1 xxl1 columns" },
+                react_default.a.createElement("div", { "class": "grid-preview color-penneyred-bg" })
+              ),
+              react_default.a.createElement(
+                "div",
+                { "class": "sm1 lg1 xl1 xxl1 columns" },
+                react_default.a.createElement("div", { "class": "grid-preview color-penneyred-bg" })
+              ),
+              react_default.a.createElement(
+                "div",
+                { "class": "sm1 lg1 xl1 xxl1 columns" },
+                react_default.a.createElement("div", { "class": "grid-preview color-penneyred-bg" })
+              ),
+              react_default.a.createElement(
+                "div",
+                { "class": "sm1 lg1 xl1 xxl1 columns" },
+                react_default.a.createElement("div", { "class": "grid-preview color-penneyred-bg" })
+              ),
+              react_default.a.createElement(
+                "div",
+                { "class": "sm1 lg1 xl1 xxl1 columns" },
+                react_default.a.createElement("div", { "class": "grid-preview color-penneyred-bg" })
+              ),
+              react_default.a.createElement(
+                "div",
+                { "class": "sm1 lg1 xl1 xxl1 columns" },
+                react_default.a.createElement("div", { "class": "grid-preview color-penneyred-bg" })
+              ),
+              react_default.a.createElement(
+                "div",
+                { "class": "sm1 lg1 xl1 xxl1 columns" },
+                react_default.a.createElement("div", { "class": "grid-preview color-penneyred-bg" })
+              ),
+              react_default.a.createElement(
+                "div",
+                { "class": "sm1 lg1 xl1 xxl1 columns" },
+                react_default.a.createElement("div", { "class": "grid-preview color-penneyred-bg" })
+              ),
+              react_default.a.createElement(
+                "div",
+                { "class": "sm1 lg1 xl1 xxl1 columns" },
+                react_default.a.createElement("div", { "class": "grid-preview color-penneyred-bg" })
+              ),
+              react_default.a.createElement(
+                "div",
+                { "class": "sm1 lg1 xl1 xxl1 columns" },
+                react_default.a.createElement("div", { "class": "grid-preview color-penneyred-bg" })
+              ),
+              react_default.a.createElement(
+                "div",
+                { "class": "sm1 lg1 xl1 xxl1 columns" },
+                react_default.a.createElement("div", { "class": "grid-preview color-penneyred-bg" })
+              )
+            ),
+            react_default.a.createElement(
+              "div",
+              { "class": "row hide-for-xs-only hide-for-xxs-only" },
               react_default.a.createElement(
                 "div",
                 { "class": "sm12 columns" },
@@ -4042,360 +3975,6 @@ var grid_Grid = function (_Component) {
                   "12 columns"
                 )
               )
-            ),
-            react_default.a.createElement("hr", null),
-            react_default.a.createElement(
-              "h3",
-              { "class": "title title-L mrg-L" },
-              "Horizontal Grid"
-            ),
-            react_default.a.createElement(
-              "p",
-              { "class": "mrg-L" },
-              "The horizontal grid is key to understanding horizontal positioning of elements on a screen The horizontal grid contains the columns, gutters and margins of a page. Each column has a gutter on either side of the column. The margin is the padding on the outside of columns and gutters, and provides space outside of the content area"
-            ),
-            react_default.a.createElement(
-              "h5",
-              { "class": "title title-M mrg-S" },
-              "Horizontal Grid Layout"
-            ),
-            react_default.a.createElement(
-              "table",
-              { border: "0", width: "100%", "class": "table-full table-borders mrg-XL algn-mid std-txt std-txt-S" },
-              react_default.a.createElement(
-                "thead",
-                null,
-                react_default.a.createElement(
-                  "tr",
-                  null,
-                  react_default.a.createElement(
-                    "th",
-                    null,
-                    "Name"
-                  ),
-                  react_default.a.createElement(
-                    "th",
-                    null,
-                    "Screen Size"
-                  ),
-                  react_default.a.createElement(
-                    "th",
-                    null,
-                    "Number of Columns"
-                  ),
-                  react_default.a.createElement(
-                    "th",
-                    null,
-                    "Columns Gutter"
-                  ),
-                  react_default.a.createElement(
-                    "th",
-                    null,
-                    "Margins"
-                  )
-                )
-              ),
-              react_default.a.createElement(
-                "tbody",
-                null,
-                react_default.a.createElement(
-                  "tr",
-                  null,
-                  react_default.a.createElement(
-                    "td",
-                    null,
-                    "Small"
-                  ),
-                  react_default.a.createElement(
-                    "td",
-                    null,
-                    "0-599"
-                  ),
-                  react_default.a.createElement(
-                    "td",
-                    { rowspan: "4" },
-                    "12"
-                  ),
-                  react_default.a.createElement(
-                    "td",
-                    null,
-                    "16px"
-                  ),
-                  react_default.a.createElement(
-                    "td",
-                    null,
-                    "8px"
-                  )
-                ),
-                react_default.a.createElement(
-                  "tr",
-                  null,
-                  react_default.a.createElement(
-                    "td",
-                    null,
-                    "Medium"
-                  ),
-                  react_default.a.createElement(
-                    "td",
-                    null,
-                    "600-1023"
-                  ),
-                  react_default.a.createElement(
-                    "td",
-                    null,
-                    "16px"
-                  ),
-                  react_default.a.createElement(
-                    "td",
-                    null,
-                    "16px"
-                  )
-                ),
-                react_default.a.createElement(
-                  "tr",
-                  null,
-                  react_default.a.createElement(
-                    "td",
-                    null,
-                    "Large"
-                  ),
-                  react_default.a.createElement(
-                    "td",
-                    null,
-                    "1024-1439"
-                  ),
-                  react_default.a.createElement(
-                    "td",
-                    null,
-                    "24px"
-                  ),
-                  react_default.a.createElement(
-                    "td",
-                    null,
-                    "16px"
-                  )
-                ),
-                react_default.a.createElement(
-                  "tr",
-                  null,
-                  react_default.a.createElement(
-                    "td",
-                    null,
-                    "X-Large"
-                  ),
-                  react_default.a.createElement(
-                    "td",
-                    null,
-                    "1440+"
-                  ),
-                  react_default.a.createElement(
-                    "td",
-                    null,
-                    "24px"
-                  ),
-                  react_default.a.createElement(
-                    "td",
-                    null,
-                    "24px"
-                  )
-                )
-              )
-            ),
-            react_default.a.createElement(
-              "h5",
-              { "class": "title title-M mrg-S" },
-              "How The Grid Layout Works in Sketch"
-            ),
-            react_default.a.createElement(
-              "p",
-              null,
-              "For the sake of documentation and design purposes, the horizontal grid layout, as stated by the table above will be how the grid is constructed"
-            ),
-            react_default.a.createElement(
-              "div",
-              { "class": "mrg-M" },
-              react_default.a.createElement("img", { src: "/images/design-system/grids/grid-horizontal-grid-2.jpg", alt: "" })
-            ),
-            react_default.a.createElement(
-              "h5",
-              { "class": "title title-M mrg-S" },
-              "****How a Grid works in Code"
-            ),
-            react_default.a.createElement(
-              "p",
-              { "class": "mrg-M" },
-              "Within frameworks columns typically have gutters on either side of the column. This will not change the way pages are designed just good to understand how Sketch simplifies the grid."
-            ),
-            react_default.a.createElement(
-              "div",
-              { "class": "design-system-grid-preview" },
-              react_default.a.createElement(
-                "div",
-                { "class": "row" },
-                react_default.a.createElement(
-                  "div",
-                  { "class": "sm1 columns first" },
-                  react_default.a.createElement("div", { "class": "design-system-preview-inner" })
-                ),
-                react_default.a.createElement(
-                  "div",
-                  { "class": "sm1 columns" },
-                  react_default.a.createElement("div", { "class": "design-system-preview-inner" })
-                ),
-                react_default.a.createElement(
-                  "div",
-                  { "class": "sm1 columns" },
-                  react_default.a.createElement("div", { "class": "design-system-preview-inner" })
-                ),
-                react_default.a.createElement(
-                  "div",
-                  { "class": "sm1 columns" },
-                  react_default.a.createElement("div", { "class": "design-system-preview-inner" })
-                ),
-                react_default.a.createElement(
-                  "div",
-                  { "class": "sm1 columns" },
-                  react_default.a.createElement("div", { "class": "design-system-preview-inner" })
-                ),
-                react_default.a.createElement(
-                  "div",
-                  { "class": "sm1 columns" },
-                  react_default.a.createElement("div", { "class": "design-system-preview-inner" })
-                ),
-                react_default.a.createElement(
-                  "div",
-                  { "class": "sm1 columns" },
-                  react_default.a.createElement("div", { "class": "design-system-preview-inner" })
-                ),
-                react_default.a.createElement(
-                  "div",
-                  { "class": "sm1 columns" },
-                  react_default.a.createElement("div", { "class": "design-system-preview-inner" })
-                ),
-                react_default.a.createElement(
-                  "div",
-                  { "class": "sm1 columns" },
-                  react_default.a.createElement("div", { "class": "design-system-preview-inner" })
-                ),
-                react_default.a.createElement(
-                  "div",
-                  { "class": "sm1 columns" },
-                  react_default.a.createElement("div", { "class": "design-system-preview-inner" })
-                ),
-                react_default.a.createElement(
-                  "div",
-                  { "class": "sm1 columns" },
-                  react_default.a.createElement("div", { "class": "design-system-preview-inner" })
-                ),
-                react_default.a.createElement(
-                  "div",
-                  { "class": "sm1 columns last" },
-                  react_default.a.createElement("div", { "class": "design-system-preview-inner" })
-                )
-              )
-            ),
-            react_default.a.createElement(
-              "div",
-              { "class": "design-system-grid-preview-labels mrg-L" },
-              react_default.a.createElement(
-                "div",
-                { "class": "design-system-grid-preview-label-gutter" },
-                "Gutter"
-              ),
-              react_default.a.createElement(
-                "div",
-                { "class": "design-system-grid-preview-label-column" },
-                "Column"
-              )
-            ),
-            react_default.a.createElement(
-              "h5",
-              { "class": "title title-M mrg-S" },
-              "Column Composition"
-            ),
-            react_default.a.createElement(
-              "p",
-              { "class": "mrg-M" },
-              "Columns Flex with the device width, gutters remain fixed unless transitioning between breakpoints, for example from small to medium."
-            ),
-            react_default.a.createElement(
-              "div",
-              { "class": "mrg-M" },
-              react_default.a.createElement("img", { src: "/images/design-system/grids/grid-horizontal-grid-4.jpg", alt: "" })
-            ),
-            react_default.a.createElement("hr", null)
-          )
-        ),
-        react_default.a.createElement(
-          "div",
-          { "class": "row", id: "vertical-grid" },
-          react_default.a.createElement(
-            "div",
-            { "class": "sm12 columns" },
-            react_default.a.createElement(
-              "h3",
-              { "class": "title title-L mrg-L" },
-              "Vertical Grid"
-            ),
-            react_default.a.createElement(
-              "p",
-              { "class": "mrg-M" },
-              "Our vertical baseline grid is the key to achieving vertical rhythm. Vertical rhythm is the balanced spacing of elements as the user moves down the page. It is created by three factors: font size, line height and margin or padding. The diagram below shows how vertical spacing in 10-pixel increments helps create hierarchy and harmony between text and containers. The 10px increment was determined by the base unit"
-            ),
-            react_default.a.createElement(
-              "div",
-              { "class": "mrg-M" },
-              react_default.a.createElement("img", { src: "/images/design-system/grids/grid-vertical-grid.jpg", alt: "" })
-            ),
-            react_default.a.createElement("hr", null)
-          )
-        ),
-        react_default.a.createElement(
-          "div",
-          { "class": "row", id: "documentation" },
-          react_default.a.createElement(
-            "div",
-            { "class": "sm12 columns" },
-            react_default.a.createElement(
-              "h3",
-              { "class": "title title-L mrg-L" },
-              "Documentation & Articles"
-            ),
-            react_default.a.createElement(
-              "p",
-              { "class": "mrg-M" },
-              "General Breakdown of Spacing in Interactive Design",
-              react_default.a.createElement("br", null),
-              react_default.a.createElement(
-                "a",
-                { href: "https://medium.com/eightshapes-llc/space-in-design-systems-188bcbae0d62#.u17jakpj2", target: "_blank" },
-                "https://medium.com/eightshapes-llc/space-in-design-systems-188bcbae0d62#.u17jakpj2"
-              ),
-              react_default.a.createElement("br", null),
-              react_default.a.createElement("br", null)
-            ),
-            react_default.a.createElement(
-              "p",
-              { "class": "mrg-M" },
-              "Material Designs Approach and Documentation of Units of Measurement",
-              react_default.a.createElement("br", null),
-              react_default.a.createElement(
-                "a",
-                { href: "https://material.google.com/layout/units-measurements.html#units-measurements-designing-layouts-for-dp", target: "_blank" },
-                "https://material.google.com/layout/units-measurements.html#units-measurements-designing-layouts-for-dp"
-              ),
-              react_default.a.createElement("br", null),
-              react_default.a.createElement("br", null)
-            ),
-            react_default.a.createElement(
-              "p",
-              { "class": "mrg-M" },
-              "Most Common Device Sizes"
-            ),
-            react_default.a.createElement(
-              "div",
-              { "class": "mrg-M" },
-              react_default.a.createElement("img", { src: "/images/design-system/grids/grid-documentation.jpg", alt: "" })
             )
           )
         ),
@@ -4433,38 +4012,10 @@ var grid_Grid = function (_Component) {
   return Grid;
 }(react["Component"]);
 
-var grid__default = grid_Grid;
-
-
-/* harmony default export */ var grid = (grid__default);
-;
-
-var grid__temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(grid_Grid, "Grid", "/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/grid/grid.js");
-
-  __REACT_HOT_LOADER__.register(grid__default, "default", "/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/grid/grid.js");
-}();
-
-;
+/* harmony default export */ var grid = (grid_Grid);
 // CONCATENATED MODULE: ./src/js/components/grid/index.js
 
-var components_grid__default = grid;
-/* harmony default export */ var components_grid = (components_grid__default);
-;
-
-var components_grid__temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(components_grid__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/grid/index.js');
-}();
-
-;
+/* harmony default export */ var components_grid = (grid);
 // CONCATENATED MODULE: ./src/js/components/typography/typography.js
 var typography__createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
@@ -4990,38 +4541,10 @@ var typography_Typography = function (_Component) {
     return Typography;
 }(react["Component"]);
 
-var typography__default = typography_Typography;
-
-
-/* harmony default export */ var typography = (typography__default);
-;
-
-var typography__temp = function () {
-    if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-        return;
-    }
-
-    __REACT_HOT_LOADER__.register(typography_Typography, 'Typography', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/typography/typography.js');
-
-    __REACT_HOT_LOADER__.register(typography__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/typography/typography.js');
-}();
-
-;
+/* harmony default export */ var typography = (typography_Typography);
 // CONCATENATED MODULE: ./src/js/components/typography/index.js
 
-var components_typography__default = typography;
-/* harmony default export */ var components_typography = (components_typography__default);
-;
-
-var components_typography__temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(components_typography__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/typography/index.js');
-}();
-
-;
+/* harmony default export */ var components_typography = (typography);
 // CONCATENATED MODULE: ./src/js/components/alerts/alerts.js
 var alerts__createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
@@ -5316,38 +4839,10 @@ var alerts_Alerts = function (_Component) {
     return Alerts;
 }(react["Component"]);
 
-var alerts__default = alerts_Alerts;
-
-
-/* harmony default export */ var alerts = (alerts__default);
-;
-
-var alerts__temp = function () {
-    if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-        return;
-    }
-
-    __REACT_HOT_LOADER__.register(alerts_Alerts, 'Alerts', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/alerts/alerts.js');
-
-    __REACT_HOT_LOADER__.register(alerts__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/alerts/alerts.js');
-}();
-
-;
+/* harmony default export */ var alerts = (alerts_Alerts);
 // CONCATENATED MODULE: ./src/js/components/alerts/index.js
 
-var components_alerts__default = alerts;
-/* harmony default export */ var components_alerts = (components_alerts__default);
-;
-
-var components_alerts__temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(components_alerts__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/alerts/index.js');
-}();
-
-;
+/* harmony default export */ var components_alerts = (alerts);
 // CONCATENATED MODULE: ./src/js/components/badges/badges.js
 var badges__createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
@@ -5623,38 +5118,10 @@ var badges_Badges = function (_Component) {
     return Badges;
 }(react["Component"]);
 
-var badges__default = badges_Badges;
-
-
-/* harmony default export */ var badges = (badges__default);
-;
-
-var badges__temp = function () {
-    if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-        return;
-    }
-
-    __REACT_HOT_LOADER__.register(badges_Badges, 'Badges', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/badges/badges.js');
-
-    __REACT_HOT_LOADER__.register(badges__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/badges/badges.js');
-}();
-
-;
+/* harmony default export */ var badges = (badges_Badges);
 // CONCATENATED MODULE: ./src/js/components/badges/index.js
 
-var components_badges__default = badges;
-/* harmony default export */ var components_badges = (components_badges__default);
-;
-
-var components_badges__temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(components_badges__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/badges/index.js');
-}();
-
-;
+/* harmony default export */ var components_badges = (badges);
 // CONCATENATED MODULE: ./src/js/components/content-loaders/content-loaders.js
 var content_loaders__createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
@@ -6037,38 +5504,10 @@ var content_loaders_ContentLoaders = function (_Component) {
     return ContentLoaders;
 }(react["Component"]);
 
-var content_loaders__default = content_loaders_ContentLoaders;
-
-
-/* harmony default export */ var content_loaders = (content_loaders__default);
-;
-
-var content_loaders__temp = function () {
-    if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-        return;
-    }
-
-    __REACT_HOT_LOADER__.register(content_loaders_ContentLoaders, 'ContentLoaders', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/content-loaders/content-loaders.js');
-
-    __REACT_HOT_LOADER__.register(content_loaders__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/content-loaders/content-loaders.js');
-}();
-
-;
+/* harmony default export */ var content_loaders = (content_loaders_ContentLoaders);
 // CONCATENATED MODULE: ./src/js/components/content-loaders/index.js
 
-var components_content_loaders__default = content_loaders;
-/* harmony default export */ var components_content_loaders = (components_content_loaders__default);
-;
-
-var components_content_loaders__temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(components_content_loaders__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/content-loaders/index.js');
-}();
-
-;
+/* harmony default export */ var components_content_loaders = (content_loaders);
 // CONCATENATED MODULE: ./src/js/components/dropdown-button/dropdown-button.js
 var dropdown_button__createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
@@ -6790,38 +6229,10 @@ var dropdown_button_DropdownButton = function (_Component) {
     return DropdownButton;
 }(react["Component"]);
 
-var dropdown_button__default = dropdown_button_DropdownButton;
-
-
-/* harmony default export */ var dropdown_button = (dropdown_button__default);
-;
-
-var dropdown_button__temp = function () {
-    if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-        return;
-    }
-
-    __REACT_HOT_LOADER__.register(dropdown_button_DropdownButton, 'DropdownButton', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/dropdown-button/dropdown-button.js');
-
-    __REACT_HOT_LOADER__.register(dropdown_button__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/dropdown-button/dropdown-button.js');
-}();
-
-;
+/* harmony default export */ var dropdown_button = (dropdown_button_DropdownButton);
 // CONCATENATED MODULE: ./src/js/components/dropdown-button/index.js
 
-var components_dropdown_button__default = dropdown_button;
-/* harmony default export */ var components_dropdown_button = (components_dropdown_button__default);
-;
-
-var components_dropdown_button__temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(components_dropdown_button__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/dropdown-button/index.js');
-}();
-
-;
+/* harmony default export */ var components_dropdown_button = (dropdown_button);
 // CONCATENATED MODULE: ./src/js/components/tables/tables.js
 var tables__createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
@@ -7949,38 +7360,10 @@ var tables_Tables = function (_Component) {
     return Tables;
 }(react["Component"]);
 
-var tables__default = tables_Tables;
-
-
-/* harmony default export */ var tables = (tables__default);
-;
-
-var tables__temp = function () {
-    if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-        return;
-    }
-
-    __REACT_HOT_LOADER__.register(tables_Tables, 'Tables', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/tables/tables.js');
-
-    __REACT_HOT_LOADER__.register(tables__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/tables/tables.js');
-}();
-
-;
+/* harmony default export */ var tables = (tables_Tables);
 // CONCATENATED MODULE: ./src/js/components/tables/index.js
 
-var components_tables__default = tables;
-/* harmony default export */ var components_tables = (components_tables__default);
-;
-
-var components_tables__temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(components_tables__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/tables/index.js');
-}();
-
-;
+/* harmony default export */ var components_tables = (tables);
 // CONCATENATED MODULE: ./src/js/components/forms/forms.js
 var forms__createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
@@ -9620,38 +9003,10 @@ var forms_Forms = function (_Component) {
     return Forms;
 }(react["Component"]);
 
-var forms__default = forms_Forms;
-
-
-/* harmony default export */ var forms_forms = (forms__default);
-;
-
-var forms__temp = function () {
-    if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-        return;
-    }
-
-    __REACT_HOT_LOADER__.register(forms_Forms, 'Forms', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/forms/forms.js');
-
-    __REACT_HOT_LOADER__.register(forms__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/forms/forms.js');
-}();
-
-;
+/* harmony default export */ var forms_forms = (forms_Forms);
 // CONCATENATED MODULE: ./src/js/components/forms/index.js
 
-var components_forms__default = forms_forms;
-/* harmony default export */ var components_forms = (components_forms__default);
-;
-
-var components_forms__temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(components_forms__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/forms/index.js');
-}();
-
-;
+/* harmony default export */ var components_forms = (forms_forms);
 // CONCATENATED MODULE: ./src/js/components/star-ratings/star-ratings.js
 var star_ratings__createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
@@ -9926,38 +9281,10 @@ var star_ratings_ContentLoaders = function (_Component) {
     return ContentLoaders;
 }(react["Component"]);
 
-var star_ratings__default = star_ratings_ContentLoaders;
-
-
-/* harmony default export */ var star_ratings = (star_ratings__default);
-;
-
-var star_ratings__temp = function () {
-    if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-        return;
-    }
-
-    __REACT_HOT_LOADER__.register(star_ratings_ContentLoaders, 'ContentLoaders', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/star-ratings/star-ratings.js');
-
-    __REACT_HOT_LOADER__.register(star_ratings__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/star-ratings/star-ratings.js');
-}();
-
-;
+/* harmony default export */ var star_ratings = (star_ratings_ContentLoaders);
 // CONCATENATED MODULE: ./src/js/components/star-ratings/index.js
 
-var components_star_ratings__default = star_ratings;
-/* harmony default export */ var components_star_ratings = (components_star_ratings__default);
-;
-
-var components_star_ratings__temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(components_star_ratings__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/star-ratings/index.js');
-}();
-
-;
+/* harmony default export */ var components_star_ratings = (star_ratings);
 // CONCATENATED MODULE: ./src/js/components/scrollbar/scrollbar.js
 var scrollbar__createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
@@ -10104,38 +9431,10 @@ var scrollbar_Scrollbar = function (_Component) {
   return Scrollbar;
 }(react["Component"]);
 
-var scrollbar__default = scrollbar_Scrollbar;
-
-
-/* harmony default export */ var scrollbar = (scrollbar__default);
-;
-
-var scrollbar__temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(scrollbar_Scrollbar, 'Scrollbar', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/scrollbar/scrollbar.js');
-
-  __REACT_HOT_LOADER__.register(scrollbar__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/scrollbar/scrollbar.js');
-}();
-
-;
+/* harmony default export */ var scrollbar = (scrollbar_Scrollbar);
 // CONCATENATED MODULE: ./src/js/components/scrollbar/index.js
 
-var components_scrollbar__default = scrollbar;
-/* harmony default export */ var components_scrollbar = (components_scrollbar__default);
-;
-
-var components_scrollbar__temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(components_scrollbar__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/scrollbar/index.js');
-}();
-
-;
+/* harmony default export */ var components_scrollbar = (scrollbar);
 // CONCATENATED MODULE: ./src/js/components/wells/wells.js
 var wells__createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
@@ -10453,38 +9752,10 @@ var wells_Wells = function (_Component) {
     return Wells;
 }(react["Component"]);
 
-var wells__default = wells_Wells;
-
-
-/* harmony default export */ var wells = (wells__default);
-;
-
-var wells__temp = function () {
-    if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-        return;
-    }
-
-    __REACT_HOT_LOADER__.register(wells_Wells, 'Wells', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/wells/wells.js');
-
-    __REACT_HOT_LOADER__.register(wells__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/wells/wells.js');
-}();
-
-;
+/* harmony default export */ var wells = (wells_Wells);
 // CONCATENATED MODULE: ./src/js/components/wells/index.js
 
-var components_wells__default = wells;
-/* harmony default export */ var components_wells = (components_wells__default);
-;
-
-var components_wells__temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(components_wells__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/wells/index.js');
-}();
-
-;
+/* harmony default export */ var components_wells = (wells);
 // CONCATENATED MODULE: ./src/js/components/progressbar/progressbar.js
 var progressbar__createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
@@ -10650,38 +9921,10 @@ var progressbar_ProgressBar = function (_Component) {
   return ProgressBar;
 }(react["Component"]);
 
-var progressbar__default = progressbar_ProgressBar;
-
-
-/* harmony default export */ var progressbar = (progressbar__default);
-;
-
-var progressbar__temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(progressbar_ProgressBar, "ProgressBar", "/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/progressbar/progressbar.js");
-
-  __REACT_HOT_LOADER__.register(progressbar__default, "default", "/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/progressbar/progressbar.js");
-}();
-
-;
+/* harmony default export */ var progressbar = (progressbar_ProgressBar);
 // CONCATENATED MODULE: ./src/js/components/progressbar/index.js
 
-var components_progressbar__default = progressbar;
-/* harmony default export */ var components_progressbar = (components_progressbar__default);
-;
-
-var components_progressbar__temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(components_progressbar__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/progressbar/index.js');
-}();
-
-;
+/* harmony default export */ var components_progressbar = (progressbar);
 // CONCATENATED MODULE: ./src/js/components/modals/modals.js
 var modals__createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
@@ -11108,38 +10351,10 @@ var modals_Modals = function (_Component) {
   return Modals;
 }(react["Component"]);
 
-var modals__default = modals_Modals;
-
-
-/* harmony default export */ var modals = (modals__default);
-;
-
-var modals__temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(modals_Modals, 'Modals', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/modals/modals.js');
-
-  __REACT_HOT_LOADER__.register(modals__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/modals/modals.js');
-}();
-
-;
+/* harmony default export */ var modals = (modals_Modals);
 // CONCATENATED MODULE: ./src/js/components/modals/index.js
 
-var components_modals__default = modals;
-/* harmony default export */ var components_modals = (components_modals__default);
-;
-
-var components_modals__temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(components_modals__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/modals/index.js');
-}();
-
-;
+/* harmony default export */ var components_modals = (modals);
 // CONCATENATED MODULE: ./src/js/components/pricing/pricing.js
 var pricing__createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
@@ -14817,38 +14032,10 @@ var pricing_Pricing = function (_Component) {
   return Pricing;
 }(react["Component"]);
 
-var pricing__default = pricing_Pricing;
-
-
-/* harmony default export */ var pricing = (pricing__default);
-;
-
-var pricing__temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(pricing_Pricing, "Pricing", "/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/pricing/pricing.js");
-
-  __REACT_HOT_LOADER__.register(pricing__default, "default", "/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/pricing/pricing.js");
-}();
-
-;
+/* harmony default export */ var pricing = (pricing_Pricing);
 // CONCATENATED MODULE: ./src/js/components/pricing/index.js
 
-var components_pricing__default = pricing;
-/* harmony default export */ var components_pricing = (components_pricing__default);
-;
-
-var components_pricing__temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(components_pricing__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/pricing/index.js');
-}();
-
-;
+/* harmony default export */ var components_pricing = (pricing);
 // CONCATENATED MODULE: ./src/js/components/visual-navigation/visual-navigation.js
 var visual_navigation__createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
@@ -15120,38 +14307,10 @@ var visual_navigation_VisualNavigation = function (_Component) {
   return VisualNavigation;
 }(react["Component"]);
 
-var visual_navigation__default = visual_navigation_VisualNavigation;
-
-
-/* harmony default export */ var visual_navigation = (visual_navigation__default);
-;
-
-var visual_navigation__temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(visual_navigation_VisualNavigation, "VisualNavigation", "/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/visual-navigation/visual-navigation.js");
-
-  __REACT_HOT_LOADER__.register(visual_navigation__default, "default", "/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/visual-navigation/visual-navigation.js");
-}();
-
-;
+/* harmony default export */ var visual_navigation = (visual_navigation_VisualNavigation);
 // CONCATENATED MODULE: ./src/js/components/visual-navigation/index.js
 
-var components_visual_navigation__default = visual_navigation;
-/* harmony default export */ var components_visual_navigation = (components_visual_navigation__default);
-;
-
-var components_visual_navigation__temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(components_visual_navigation__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/visual-navigation/index.js');
-}();
-
-;
+/* harmony default export */ var components_visual_navigation = (visual_navigation);
 // CONCATENATED MODULE: ./src/js/components/countdown-timers/countdown-timers.js
 var countdown_timers__createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
@@ -15623,38 +14782,10 @@ var countdown_timers_CountdownTimers = function (_Component) {
   return CountdownTimers;
 }(react["Component"]);
 
-var countdown_timers__default = countdown_timers_CountdownTimers;
-
-
-/* harmony default export */ var countdown_timers = (countdown_timers__default);
-;
-
-var countdown_timers__temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(countdown_timers_CountdownTimers, 'CountdownTimers', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/countdown-timers/countdown-timers.js');
-
-  __REACT_HOT_LOADER__.register(countdown_timers__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/countdown-timers/countdown-timers.js');
-}();
-
-;
+/* harmony default export */ var countdown_timers = (countdown_timers_CountdownTimers);
 // CONCATENATED MODULE: ./src/js/components/countdown-timers/index.js
 
-var components_countdown_timers__default = countdown_timers;
-/* harmony default export */ var components_countdown_timers = (components_countdown_timers__default);
-;
-
-var components_countdown_timers__temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(components_countdown_timers__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/countdown-timers/index.js');
-}();
-
-;
+/* harmony default export */ var components_countdown_timers = (countdown_timers);
 // CONCATENATED MODULE: ./src/js/components/tooltips/tooltips.js
 var tooltips__createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
@@ -16037,38 +15168,10 @@ var tooltips_Tooltips = function (_Component) {
   return Tooltips;
 }(react["Component"]);
 
-var tooltips__default = tooltips_Tooltips;
-
-
-/* harmony default export */ var tooltips = (tooltips__default);
-;
-
-var tooltips__temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(tooltips_Tooltips, 'Tooltips', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/tooltips/tooltips.js');
-
-  __REACT_HOT_LOADER__.register(tooltips__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/tooltips/tooltips.js');
-}();
-
-;
+/* harmony default export */ var tooltips = (tooltips_Tooltips);
 // CONCATENATED MODULE: ./src/js/components/tooltips/index.js
 
-var components_tooltips__default = tooltips;
-/* harmony default export */ var components_tooltips = (components_tooltips__default);
-;
-
-var components_tooltips__temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(components_tooltips__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/tooltips/index.js');
-}();
-
-;
+/* harmony default export */ var components_tooltips = (tooltips);
 // CONCATENATED MODULE: ./src/js/components/tabs/tabs.js
 var tabs__createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
@@ -16162,38 +15265,10 @@ var tabs_Tabs = function (_Component) {
   return Tabs;
 }(react["Component"]);
 
-var tabs__default = tabs_Tabs;
-
-
-/* harmony default export */ var tabs = (tabs__default);
-;
-
-var tabs__temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(tabs_Tabs, "Tabs", "/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/tabs/tabs.js");
-
-  __REACT_HOT_LOADER__.register(tabs__default, "default", "/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/tabs/tabs.js");
-}();
-
-;
+/* harmony default export */ var tabs = (tabs_Tabs);
 // CONCATENATED MODULE: ./src/js/components/tabs/index.js
 
-var components_tabs__default = tabs;
-/* harmony default export */ var components_tabs = (components_tabs__default);
-;
-
-var components_tabs__temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(components_tabs__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/tabs/index.js');
-}();
-
-;
+/* harmony default export */ var components_tabs = (tabs);
 // CONCATENATED MODULE: ./src/js/components/pagination/pagination.js
 var pagination__createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
@@ -16530,38 +15605,10 @@ var pagination_Pagination = function (_Component) {
   return Pagination;
 }(react["Component"]);
 
-var pagination__default = pagination_Pagination;
-
-
-/* harmony default export */ var pagination = (pagination__default);
-;
-
-var pagination__temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(pagination_Pagination, 'Pagination', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/pagination/pagination.js');
-
-  __REACT_HOT_LOADER__.register(pagination__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/pagination/pagination.js');
-}();
-
-;
+/* harmony default export */ var pagination = (pagination_Pagination);
 // CONCATENATED MODULE: ./src/js/components/pagination/index.js
 
-var components_pagination__default = pagination;
-/* harmony default export */ var components_pagination = (components_pagination__default);
-;
-
-var components_pagination__temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(components_pagination__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/pagination/index.js');
-}();
-
-;
+/* harmony default export */ var components_pagination = (pagination);
 // CONCATENATED MODULE: ./src/js/components/swatches/swatches.js
 var swatches__createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
@@ -17062,38 +16109,10 @@ var swatches_Swatches = function (_Component) {
   return Swatches;
 }(react["Component"]);
 
-var swatches__default = swatches_Swatches;
-
-
-/* harmony default export */ var swatches = (swatches__default);
-;
-
-var swatches__temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(swatches_Swatches, 'Swatches', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/swatches/swatches.js');
-
-  __REACT_HOT_LOADER__.register(swatches__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/swatches/swatches.js');
-}();
-
-;
+/* harmony default export */ var swatches = (swatches_Swatches);
 // CONCATENATED MODULE: ./src/js/components/swatches/index.js
 
-var components_swatches__default = swatches;
-/* harmony default export */ var components_swatches = (components_swatches__default);
-;
-
-var components_swatches__temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(components_swatches__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/swatches/index.js');
-}();
-
-;
+/* harmony default export */ var components_swatches = (swatches);
 // CONCATENATED MODULE: ./src/js/components/selectors/selectors.js
 var selectors__createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
@@ -17544,38 +16563,10 @@ var selectors_Selectors = function (_Component) {
   return Selectors;
 }(react["Component"]);
 
-var selectors__default = selectors_Selectors;
-
-
-/* harmony default export */ var selectors = (selectors__default);
-;
-
-var selectors__temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(selectors_Selectors, 'Selectors', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/selectors/selectors.js');
-
-  __REACT_HOT_LOADER__.register(selectors__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/selectors/selectors.js');
-}();
-
-;
+/* harmony default export */ var selectors = (selectors_Selectors);
 // CONCATENATED MODULE: ./src/js/components/selectors/index.js
 
-var components_selectors__default = selectors;
-/* harmony default export */ var components_selectors = (components_selectors__default);
-;
-
-var components_selectors__temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(components_selectors__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/selectors/index.js');
-}();
-
-;
+/* harmony default export */ var components_selectors = (selectors);
 // EXTERNAL MODULE: ./node_modules/react-slick/lib/index.js
 var lib = __webpack_require__("qmfj");
 var lib_default = /*#__PURE__*/__webpack_require__.n(lib);
@@ -18046,50 +17037,10 @@ var carousel_Carousel = function (_Component) {
   return Carousel;
 }(react["Component"]);
 
-var carousel__default = carousel_Carousel;
-
-
-/* harmony default export */ var carousel = (carousel__default);
-;
-
-var carousel__temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(carousel_CarouselLeftButton, "CarouselLeftButton", "/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/carousel/carousel.js");
-
-  __REACT_HOT_LOADER__.register(carousel_CarouselRightButton, "CarouselRightButton", "/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/carousel/carousel.js");
-
-  __REACT_HOT_LOADER__.register(carousel_CarouselUpButton, "CarouselUpButton", "/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/carousel/carousel.js");
-
-  __REACT_HOT_LOADER__.register(carousel_CarouselDownButton, "CarouselDownButton", "/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/carousel/carousel.js");
-
-  __REACT_HOT_LOADER__.register(carousel_CarouselImage, "CarouselImage", "/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/carousel/carousel.js");
-
-  __REACT_HOT_LOADER__.register(carousel_CarouselNavImage, "CarouselNavImage", "/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/carousel/carousel.js");
-
-  __REACT_HOT_LOADER__.register(carousel_Carousel, "Carousel", "/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/carousel/carousel.js");
-
-  __REACT_HOT_LOADER__.register(carousel__default, "default", "/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/carousel/carousel.js");
-}();
-
-;
+/* harmony default export */ var carousel = (carousel_Carousel);
 // CONCATENATED MODULE: ./src/js/components/carousel/index.js
 
-var components_carousel__default = carousel;
-/* harmony default export */ var components_carousel = (components_carousel__default);
-;
-
-var components_carousel__temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(components_carousel__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/carousel/index.js');
-}();
-
-;
+/* harmony default export */ var components_carousel = (carousel);
 // CONCATENATED MODULE: ./src/js/components/coupons/coupons.js
 var coupons__createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
@@ -18839,38 +17790,10 @@ var coupons_Coupons = function (_Component) {
   return Coupons;
 }(react["Component"]);
 
-var coupons__default = coupons_Coupons;
-
-
-/* harmony default export */ var coupons = (coupons__default);
-;
-
-var coupons__temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(coupons_Coupons, 'Coupons', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/coupons/coupons.js');
-
-  __REACT_HOT_LOADER__.register(coupons__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/coupons/coupons.js');
-}();
-
-;
+/* harmony default export */ var coupons = (coupons_Coupons);
 // CONCATENATED MODULE: ./src/js/components/coupons/index.js
 
-var components_coupons__default = coupons;
-/* harmony default export */ var components_coupons = (components_coupons__default);
-;
-
-var components_coupons__temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(components_coupons__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/coupons/index.js');
-}();
-
-;
+/* harmony default export */ var components_coupons = (coupons);
 // CONCATENATED MODULE: ./src/js/components/lists/lists.js
 var lists__createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
@@ -19184,38 +18107,10 @@ var lists_Lists = function (_Component) {
     return Lists;
 }(react["Component"]);
 
-var lists__default = lists_Lists;
-
-
-/* harmony default export */ var lists = (lists__default);
-;
-
-var lists__temp = function () {
-    if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-        return;
-    }
-
-    __REACT_HOT_LOADER__.register(lists_Lists, 'Lists', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/lists/lists.js');
-
-    __REACT_HOT_LOADER__.register(lists__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/lists/lists.js');
-}();
-
-;
+/* harmony default export */ var lists = (lists_Lists);
 // CONCATENATED MODULE: ./src/js/components/lists/index.js
 
-var components_lists__default = lists;
-/* harmony default export */ var components_lists = (components_lists__default);
-;
-
-var components_lists__temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(components_lists__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/lists/index.js');
-}();
-
-;
+/* harmony default export */ var components_lists = (lists);
 // CONCATENATED MODULE: ./src/js/components/header/header.js
 var header__createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
@@ -20178,20 +19073,6 @@ var header_Header = function (_Component) {
         }
       });
 
-      // $('.main-menu-secondary-shop-departments').unbind('click').on('click', function (event) {
-
-      //   console.log('click');
-
-      //   if ($('main-menu-secondary-li').hasClass('main-menu-secondary-hover')) {
-
-      //     console.log('has class');
-      //       $('main-menu-secondary-li').RemoveClass('main-menu-secondary-hover');
-
-      //   }
-
-      // });
-
-
       jquery_default()(document).ready(function () {
         jquery_default()('.main-menu-secondary-shop-departments').click(function () {
           jquery_default()(".main-menu-secondary-li").toggleClass("main-menu-secondary-hover");
@@ -21053,38 +19934,10 @@ var header_Header = function (_Component) {
   return Header;
 }(react["Component"]);
 
-var header__default = header_Header;
-
-
-/* harmony default export */ var header = (header__default);
-;
-
-var header__temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(header_Header, 'Header', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/header/header.js');
-
-  __REACT_HOT_LOADER__.register(header__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/header/header.js');
-}();
-
-;
+/* harmony default export */ var header = (header_Header);
 // CONCATENATED MODULE: ./src/js/components/header/index.js
 
-var components_header__default = header;
-/* harmony default export */ var components_header = (components_header__default);
-;
-
-var components_header__temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(components_header__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/header/index.js');
-}();
-
-;
+/* harmony default export */ var components_header = (header);
 // CONCATENATED MODULE: ./src/js/components/footer/footer.js
 var footer__createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
@@ -21966,38 +20819,10 @@ var footer_Footer = function (_Component) {
     return Footer;
 }(react["Component"]);
 
-var footer__default = footer_Footer;
-
-
-/* harmony default export */ var footer = (footer__default);
-;
-
-var footer__temp = function () {
-    if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-        return;
-    }
-
-    __REACT_HOT_LOADER__.register(footer_Footer, 'Footer', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/footer/footer.js');
-
-    __REACT_HOT_LOADER__.register(footer__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/footer/footer.js');
-}();
-
-;
+/* harmony default export */ var footer = (footer_Footer);
 // CONCATENATED MODULE: ./src/js/components/footer/index.js
 
-var components_footer__default = footer;
-/* harmony default export */ var components_footer = (components_footer__default);
-;
-
-var components_footer__temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(components_footer__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/footer/index.js');
-}();
-
-;
+/* harmony default export */ var components_footer = (footer);
 // CONCATENATED MODULE: ./src/js/components/footer-minimized/footer-minimized.js
 var footer_minimized__createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
@@ -22124,38 +20949,10 @@ var footer_minimized_FooterMinimized = function (_Component) {
     return FooterMinimized;
 }(react["Component"]);
 
-var footer_minimized__default = footer_minimized_FooterMinimized;
-
-
-/* harmony default export */ var footer_minimized = (footer_minimized__default);
-;
-
-var footer_minimized__temp = function () {
-    if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-        return;
-    }
-
-    __REACT_HOT_LOADER__.register(footer_minimized_FooterMinimized, 'FooterMinimized', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/footer-minimized/footer-minimized.js');
-
-    __REACT_HOT_LOADER__.register(footer_minimized__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/footer-minimized/footer-minimized.js');
-}();
-
-;
+/* harmony default export */ var footer_minimized = (footer_minimized_FooterMinimized);
 // CONCATENATED MODULE: ./src/js/components/footer-minimized/index.js
 
-var components_footer_minimized__default = footer_minimized;
-/* harmony default export */ var components_footer_minimized = (components_footer_minimized__default);
-;
-
-var components_footer_minimized__temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(components_footer_minimized__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/footer-minimized/index.js');
-}();
-
-;
+/* harmony default export */ var components_footer_minimized = (footer_minimized);
 // CONCATENATED MODULE: ./src/js/components/slide-out-panels/slide-out-panels.js
 var slide_out_panels__createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
@@ -22345,38 +21142,10 @@ var slide_out_panels_SlideOutPanels = function (_Component) {
   return SlideOutPanels;
 }(react["Component"]);
 
-var slide_out_panels__default = slide_out_panels_SlideOutPanels;
-
-
-/* harmony default export */ var slide_out_panels = (slide_out_panels__default);
-;
-
-var slide_out_panels__temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(slide_out_panels_SlideOutPanels, 'SlideOutPanels', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/slide-out-panels/slide-out-panels.js');
-
-  __REACT_HOT_LOADER__.register(slide_out_panels__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/slide-out-panels/slide-out-panels.js');
-}();
-
-;
+/* harmony default export */ var slide_out_panels = (slide_out_panels_SlideOutPanels);
 // CONCATENATED MODULE: ./src/js/components/slide-out-panels/index.js
 
-var components_slide_out_panels__default = slide_out_panels;
-/* harmony default export */ var components_slide_out_panels = (components_slide_out_panels__default);
-;
-
-var components_slide_out_panels__temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(components_slide_out_panels__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/slide-out-panels/index.js');
-}();
-
-;
+/* harmony default export */ var components_slide_out_panels = (slide_out_panels);
 // CONCATENATED MODULE: ./src/js/components/filter-sort/filter-sort.js
 var filter_sort__createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
@@ -25703,38 +24472,10 @@ var filter_sort_FilterSort = function (_Component) {
   return FilterSort;
 }(react["Component"]);
 
-var filter_sort__default = filter_sort_FilterSort;
-
-
-/* harmony default export */ var filter_sort = (filter_sort__default);
-;
-
-var filter_sort__temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(filter_sort_FilterSort, 'FilterSort', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/filter-sort/filter-sort.js');
-
-  __REACT_HOT_LOADER__.register(filter_sort__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/filter-sort/filter-sort.js');
-}();
-
-;
+/* harmony default export */ var filter_sort = (filter_sort_FilterSort);
 // CONCATENATED MODULE: ./src/js/components/filter-sort/index.js
 
-var components_filter_sort__default = filter_sort;
-/* harmony default export */ var components_filter_sort = (components_filter_sort__default);
-;
-
-var components_filter_sort__temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(components_filter_sort__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/filter-sort/index.js');
-}();
-
-;
+/* harmony default export */ var components_filter_sort = (filter_sort);
 // CONCATENATED MODULE: ./src/js/components/expand-collapse/expand-collapse.js
 var expand_collapse__createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
@@ -26259,38 +25000,10 @@ var expand_collapse_ExpandCollapse = function (_Component) {
   return ExpandCollapse;
 }(react["Component"]);
 
-var expand_collapse__default = expand_collapse_ExpandCollapse;
-
-
-/* harmony default export */ var expand_collapse = (expand_collapse__default);
-;
-
-var expand_collapse__temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(expand_collapse_ExpandCollapse, 'ExpandCollapse', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/expand-collapse/expand-collapse.js');
-
-  __REACT_HOT_LOADER__.register(expand_collapse__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/expand-collapse/expand-collapse.js');
-}();
-
-;
+/* harmony default export */ var expand_collapse = (expand_collapse_ExpandCollapse);
 // CONCATENATED MODULE: ./src/js/components/expand-collapse/index.js
 
-var components_expand_collapse__default = expand_collapse;
-/* harmony default export */ var components_expand_collapse = (components_expand_collapse__default);
-;
-
-var components_expand_collapse__temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(components_expand_collapse__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/expand-collapse/index.js');
-}();
-
-;
+/* harmony default export */ var components_expand_collapse = (expand_collapse);
 // CONCATENATED MODULE: ./src/js/components/product-cards/product-cards.js
 var product_cards__createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
@@ -30042,38 +28755,10 @@ var product_cards_ProductCards = function (_Component) {
     return ProductCards;
 }(react["Component"]);
 
-var product_cards__default = product_cards_ProductCards;
-
-
-/* harmony default export */ var product_cards = (product_cards__default);
-;
-
-var product_cards__temp = function () {
-    if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-        return;
-    }
-
-    __REACT_HOT_LOADER__.register(product_cards_ProductCards, 'ProductCards', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/product-cards/product-cards.js');
-
-    __REACT_HOT_LOADER__.register(product_cards__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/product-cards/product-cards.js');
-}();
-
-;
+/* harmony default export */ var product_cards = (product_cards_ProductCards);
 // CONCATENATED MODULE: ./src/js/components/product-cards/index.js
 
-var components_product_cards__default = product_cards;
-/* harmony default export */ var components_product_cards = (components_product_cards__default);
-;
-
-var components_product_cards__temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(components_product_cards__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/product-cards/index.js');
-}();
-
-;
+/* harmony default export */ var components_product_cards = (product_cards);
 // CONCATENATED MODULE: ./src/js/components/like-dislike/like-dislike.js
 var like_dislike__createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
@@ -30213,38 +28898,10 @@ var like_dislike_LikeDislike = function (_Component) {
     return LikeDislike;
 }(react["Component"]);
 
-var like_dislike__default = like_dislike_LikeDislike;
-
-
-/* harmony default export */ var like_dislike = (like_dislike__default);
-;
-
-var like_dislike__temp = function () {
-    if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-        return;
-    }
-
-    __REACT_HOT_LOADER__.register(like_dislike_LikeDislike, 'LikeDislike', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/like-dislike/like-dislike.js');
-
-    __REACT_HOT_LOADER__.register(like_dislike__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/like-dislike/like-dislike.js');
-}();
-
-;
+/* harmony default export */ var like_dislike = (like_dislike_LikeDislike);
 // CONCATENATED MODULE: ./src/js/components/like-dislike/index.js
 
-var components_like_dislike__default = like_dislike;
-/* harmony default export */ var components_like_dislike = (components_like_dislike__default);
-;
-
-var components_like_dislike__temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(components_like_dislike__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/like-dislike/index.js');
-}();
-
-;
+/* harmony default export */ var components_like_dislike = (like_dislike);
 // CONCATENATED MODULE: ./src/js/components/recommendation-zone/recommendation-zone.js
 var recommendation_zone__createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
@@ -30904,50 +29561,10 @@ var recommendation_zone_RecommendationZone = function (_Component) {
   return RecommendationZone;
 }(react["Component"]);
 
-var recommendation_zone__default = recommendation_zone_RecommendationZone;
-
-
-/* harmony default export */ var recommendation_zone = (recommendation_zone__default);
-;
-
-var recommendation_zone__temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(add, 'add', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/recommendation-zone/recommendation-zone.js');
-
-  __REACT_HOT_LOADER__.register(subtract, 'subtract', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/recommendation-zone/recommendation-zone.js');
-
-  __REACT_HOT_LOADER__.register(dotsToDisplay, 'dotsToDisplay', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/recommendation-zone/recommendation-zone.js');
-
-  __REACT_HOT_LOADER__.register(isSameStateFirstTime, 'isSameStateFirstTime', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/recommendation-zone/recommendation-zone.js');
-
-  __REACT_HOT_LOADER__.register(isMobile, 'isMobile', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/recommendation-zone/recommendation-zone.js');
-
-  __REACT_HOT_LOADER__.register(calculateScrollPixel, 'calculateScrollPixel', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/recommendation-zone/recommendation-zone.js');
-
-  __REACT_HOT_LOADER__.register(recommendation_zone_RecommendationZone, 'RecommendationZone', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/recommendation-zone/recommendation-zone.js');
-
-  __REACT_HOT_LOADER__.register(recommendation_zone__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/recommendation-zone/recommendation-zone.js');
-}();
-
-;
+/* harmony default export */ var recommendation_zone = (recommendation_zone_RecommendationZone);
 // CONCATENATED MODULE: ./src/js/components/recommendation-zone/index.js
 
-var components_recommendation_zone__default = recommendation_zone;
-/* harmony default export */ var components_recommendation_zone = (components_recommendation_zone__default);
-;
-
-var components_recommendation_zone__temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(components_recommendation_zone__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/recommendation-zone/index.js');
-}();
-
-;
+/* harmony default export */ var components_recommendation_zone = (recommendation_zone);
 // CONCATENATED MODULE: ./src/js/components/pdp/pdp.js
 var pdp__createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
@@ -31573,38 +30190,10 @@ var pdp_Pdp = function (_Component) {
     return Pdp;
 }(react["Component"]);
 
-var pdp__default = pdp_Pdp;
-
-
-/* harmony default export */ var pdp = (pdp__default);
-;
-
-var pdp__temp = function () {
-    if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-        return;
-    }
-
-    __REACT_HOT_LOADER__.register(pdp_Pdp, 'Pdp', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/pdp/pdp.js');
-
-    __REACT_HOT_LOADER__.register(pdp__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/pdp/pdp.js');
-}();
-
-;
+/* harmony default export */ var pdp = (pdp_Pdp);
 // CONCATENATED MODULE: ./src/js/components/pdp/index.js
 
-var components_pdp__default = pdp;
-/* harmony default export */ var components_pdp = (components_pdp__default);
-;
-
-var components_pdp__temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(components_pdp__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/pdp/index.js');
-}();
-
-;
+/* harmony default export */ var components_pdp = (pdp);
 // CONCATENATED MODULE: ./src/js/containers/SubNav.js
 var SubNav__createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
@@ -31747,23 +30336,7 @@ var SubNav_SubNav = function (_Component) {
 }(react["Component"]);
 
 ;
-var SubNav__default = SubNav_SubNav;
-/* harmony default export */ var containers_SubNav = (SubNav__default);
-;
-
-var SubNav__temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(varToURL, 'varToURL', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/containers/SubNav.js');
-
-  __REACT_HOT_LOADER__.register(SubNav_SubNav, 'SubNav', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/containers/SubNav.js');
-
-  __REACT_HOT_LOADER__.register(SubNav__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/containers/SubNav.js');
-}();
-
-;
+/* harmony default export */ var containers_SubNav = (SubNav_SubNav);
 // CONCATENATED MODULE: ./src/js/containers/DesignSystemPage.js
 var DesignSystemPage__createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
@@ -31895,21 +30468,7 @@ var DesignSystemPage_DesignSystemPage = function (_Component) {
 
 ;
 
-var DesignSystemPage__default = DesignSystemPage_DesignSystemPage;
-/* harmony default export */ var containers_DesignSystemPage = (DesignSystemPage__default);
-;
-
-var DesignSystemPage__temp = function () {
-    if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-        return;
-    }
-
-    __REACT_HOT_LOADER__.register(DesignSystemPage_DesignSystemPage, 'DesignSystemPage', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/containers/DesignSystemPage.js');
-
-    __REACT_HOT_LOADER__.register(DesignSystemPage__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/containers/DesignSystemPage.js');
-}();
-
-;
+/* harmony default export */ var containers_DesignSystemPage = (DesignSystemPage_DesignSystemPage);
 // CONCATENATED MODULE: ./src/js/components/work-in-progress/work-in-progress.js
 var work_in_progress__createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
@@ -35914,38 +34473,10 @@ var work_in_progress_WorkInProgress = function (_Component) {
   return WorkInProgress;
 }(react["Component"]);
 
-var work_in_progress__default = work_in_progress_WorkInProgress;
-
-
-/* harmony default export */ var work_in_progress = (work_in_progress__default);
-;
-
-var work_in_progress__temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(work_in_progress_WorkInProgress, 'WorkInProgress', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/work-in-progress/work-in-progress.js');
-
-  __REACT_HOT_LOADER__.register(work_in_progress__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/work-in-progress/work-in-progress.js');
-}();
-
-;
+/* harmony default export */ var work_in_progress = (work_in_progress_WorkInProgress);
 // CONCATENATED MODULE: ./src/js/components/work-in-progress/index.js
 
-var components_work_in_progress__default = work_in_progress;
-/* harmony default export */ var components_work_in_progress = (components_work_in_progress__default);
-;
-
-var components_work_in_progress__temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(components_work_in_progress__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/work-in-progress/index.js');
-}();
-
-;
+/* harmony default export */ var components_work_in_progress = (work_in_progress);
 // CONCATENATED MODULE: ./src/js/containers/Root.js
 var Root__createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
@@ -36343,29 +34874,7 @@ var Root_App = function (_React$Component) {
     return App;
 }(react_default.a.Component);
 
-var Root__default = Root_App;
-
-
-/* harmony default export */ var containers_Root = (Root__default);
-;
-
-var Root__temp = function () {
-    if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-        return;
-    }
-
-    __REACT_HOT_LOADER__.register(Root_Home, 'Home', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/containers/Root.js');
-
-    __REACT_HOT_LOADER__.register(Root_renderNavLinkItems, 'renderNavLinkItems', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/containers/Root.js');
-
-    __REACT_HOT_LOADER__.register(Root_RenderNavLink, 'RenderNavLink', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/containers/Root.js');
-
-    __REACT_HOT_LOADER__.register(Root_App, 'App', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/containers/Root.js');
-
-    __REACT_HOT_LOADER__.register(Root__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/containers/Root.js');
-}();
-
-;
+/* harmony default export */ var containers_Root = (Root_App);
 // CONCATENATED MODULE: ./src/js/index.jsx
 
 
@@ -36391,17 +34900,6 @@ if (false) {
     js_render(Root);
   });
 }
-;
-
-var js__temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(js_render, 'render', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/index.jsx');
-}();
-
-;
 
 /***/ }),
 
@@ -36625,21 +35123,7 @@ var Utils = function () {
     return Utils;
 }();
 
-var _default = Utils;
-/* harmony default export */ __webpack_exports__["a"] = (_default);
-;
-
-var _temp = function () {
-    if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-        return;
-    }
-
-    __REACT_HOT_LOADER__.register(Utils, 'Utils', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/helpers/Utils.js');
-
-    __REACT_HOT_LOADER__.register(_default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/helpers/Utils.js');
-}();
-
-;
+/* harmony default export */ __webpack_exports__["a"] = (Utils);
 
 /***/ }),
 
@@ -36943,23 +35427,7 @@ var CreateInput = function (_Component) {
     return CreateInput;
 }(__WEBPACK_IMPORTED_MODULE_0_react__["Component"]);
 
-var _default = CreateInput;
-
-
-/* harmony default export */ __webpack_exports__["a"] = (_default);
-;
-
-var _temp = function () {
-    if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-        return;
-    }
-
-    __REACT_HOT_LOADER__.register(CreateInput, "CreateInput", "/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/containers/CreateInput.js");
-
-    __REACT_HOT_LOADER__.register(_default, "default", "/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/containers/CreateInput.js");
-}();
-
-;
+/* harmony default export */ __webpack_exports__["a"] = (CreateInput);
 
 /***/ }),
 

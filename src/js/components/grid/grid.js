@@ -8,65 +8,74 @@ class Grid extends Component {
   render() {
     return (
       <div>
-        <div class="row">
-          <div class="sm12 columns">
-            <h1 class="title title-XL mrg-L">Grid, Spacing &amp; Layout</h1>
-            <h2 class="std-txt std-txt-XL mrg-L max-width-text">To promote a sense of visual harmony across a wide range of applications, the design system provides the following recommendations on how to combine components into complex patterns and screen layouts.<br /><br />
-              There are two kinds of grids that occur within JCPenney eCommerce Platforms, horizontal and vertical. The following breakpoints have been designed to guide the layout and the scaling of elements across screen resolutions. <br /><br />
-              The screen sizes were determined by a combination of common screen resolutions, previous JCP design work, along with input from various Screen Inventory documentation conducted by JCPenney. Dimensions for an X-Large Screen was accounted for; however, small to large will be the teams primary focus.</h2>
-            <hr />
-          </div>
-        </div>
-
         <div class="row" id="horizontal-grid">
           <div class="sm12 columns">
 
-            <div class="show-for-small-only">
-              <h4 class="promo-lbl promo-lbl-L mrg-S">S 360</h4>
+            <div class="show-for-xxs-only">
+              <h4 class="promo-lbl promo-lbl-L mrg-S">XXS 320</h4>
               <p class="mrg-XL algn-lft title title-L color-nightsky">
-                width: 320px<br />
-                margin: 0 20px<br />
+                margin: 0 12px<br />
                 columns: 6<br />
                 column gutter: 16px<br />
-                column width: 40px<br />
+                vertical spacing: 4px</p>
+            </div>
+
+            <div class="show-for-xs-only">
+              <h4 class="promo-lbl promo-lbl-L mrg-S">XS 360</h4>
+              <p class="mrg-XL algn-lft title title-L color-nightsky">
+                width: 360px<br />
+                margin: 0 16px<br />
+                column gutter: 16px<br />
+                vertical spacing: 4px</p>
+            </div>
+
+            <div class="show-for-small-only">
+              <h4 class="promo-lbl promo-lbl-L mrg-S">S 600</h4>
+              <p class="mrg-XL algn-lft title title-L color-nightsky">
+                margin: 0 20px<br />
+                columns: 12<br />
+                column gutter: 16px<br />
                 vertical spacing: 4px</p>
             </div>
 
             <div class="show-for-medium-only">
               <h4 class="promo-lbl promo-lbl-L mrg-S">M 768</h4>
               <p class="mrg-XL algn-lft title title-L color-nightsky">
-                width: 704px<br />
-                margin: 0 32px<br />
+                margin: 0 20px<br />
                 columns: 12<br />
                 column gutter: 16px<br />
-                column width: 44px<br />
                 vertical spacing: 4px</p>
             </div>
 
             <div class="show-for-large-only">
               <h4 class="promo-lbl promo-lbl-L mrg-S">L 1024</h4>
               <p class="mrg-XL algn-lft title title-L color-nightsky">
-                width: 968px<br />
-                margin: 0 28px<br />
+                margin: 0 20px<br />
                 columns: 12<br />
                 column gutter: 16px<br />
-                column width: 66px<br />
                 vertical spacing: 4px</p>
             </div>
 
             <div class="show-for-xlarge-only">
-              <h4 class="promo-lbl promo-lbl-L mrg-S">XL 1440 </h4>
+              <h4 class="promo-lbl promo-lbl-L mrg-S">XL 1280 </h4>
               <p class="mrg-XL algn-lft title title-L color-nightsky">
-                width: 1376px<br />
                 margin: 0 32px<br />
                 columns: 12<br />
                 column gutter: 16px<br />
-                column width: 100px<br />
+                vertical spacing: 4px</p>
+            </div>
+
+            <div class="show-for-xxlarge-only">
+              <h4 class="promo-lbl promo-lbl-L mrg-S">XXL 1366 </h4>
+              <p class="mrg-XL algn-lft title title-L color-nightsky">
+                margin: 0 32px<br />
+                columns: 12<br />
+                column gutter: 16px<br />
                 vertical spacing: 4px</p>
             </div>
 
             <div class="row">
-              <div class="sm12 columns">
+              <div class="xxs12 xs12 sm12 md12 lg12 xl12 xxl12 columns">
                 <div class="grid-preview color-penneyred-bg"></div>
               </div>
             </div>
@@ -77,121 +86,135 @@ class Grid extends Component {
               </div>
             </div>
 
-            <div class="row show-for-small-only">
-              <div class="sm4 columns">
+            <div class="row hide-for-xs-only show-for-large-only show-for-xlarge-only show-for-xxlarge-only">
+              <div class="xxs3 xs3 sm3 md3 lg3 xl3 xxl3 columns">
                 <div class="grid-preview color-penneyred-bg"></div>
               </div>
-              <div class="sm4 columns">
+              <div class="xxs3 xs3 sm3 md3 lg3 xl3 xxl3 columns">
                 <div class="grid-preview color-penneyred-bg"></div>
               </div>
-              <div class="sm4 columns">
+              <div class="xxs3 xs3 sm3 md3 lg3 xl3 xxl3 columns">
                 <div class="grid-preview color-penneyred-bg"></div>
               </div>
-            </div>
-
-            <div class="row show-for-small-only">
-              <div class="sm12 columns">
-                <p class="mrg-M algn-lft std-txt std-txt-S color-penneyred">3 columns</p>
-              </div>
-            </div>
-
-            <div class="row show-for-small-only">
-              <div class="sm2 columns">
-                <div class="grid-preview color-penneyred-bg"></div>
-              </div>
-              <div class="sm2 columns">
-                <div class="grid-preview color-penneyred-bg"></div>
-              </div>
-              <div class="sm2 columns">
-                <div class="grid-preview color-penneyred-bg"></div>
-              </div>
-              <div class="sm2 columns">
-                <div class="grid-preview color-penneyred-bg"></div>
-              </div>
-              <div class="sm2 columns">
-                <div class="grid-preview color-penneyred-bg"></div>
-              </div>
-              <div class="sm2 columns">
+              <div class="xxs3 xs3 sm3 md3 lg3 xl3 xxl3 columns">
                 <div class="grid-preview color-penneyred-bg"></div>
               </div>
             </div>
 
-            <div class="row show-for-small-only">
-              <div class="sm12 columns">
-                <p class="mrg-M algn-lft std-txt std-txt-S color-penneyred">6 columns</p>
-              </div>
-            </div>
-
-            <div class="row hide-for-small-only">
-              <div class="sm3 columns">
-                <div class="grid-preview color-penneyred-bg"></div>
-              </div>
-              <div class="sm3 columns">
-                <div class="grid-preview color-penneyred-bg"></div>
-              </div>
-              <div class="sm3 columns">
-                <div class="grid-preview color-penneyred-bg"></div>
-              </div>
-              <div class="sm3 columns">
-                <div class="grid-preview color-penneyred-bg"></div>
-              </div>
-            </div>
-
-            <div class="row hide-for-small-only">
+            <div class="row hide-for-xs-only show-for-large-only show-for-xlarge-only show-for-xxlarge-only">
               <div class="sm12 columns">
                 <p class="mrg-M algn-lft std-txt std-txt-S color-penneyred">4 columns</p>
               </div>
             </div>
 
-            <div class="row hide-for-small-only">
-              <div class="sm1 columns">
+            <div class="row show-for-small-only show-for-xs-only">
+              <div class="xxs4 xs4 sm4 md4 lg4 xl4 xxl4 columns">
                 <div class="grid-preview color-penneyred-bg"></div>
               </div>
-              <div class="sm1 columns">
+              <div class="xxs4 xs4 sm4 md4 lg4 xl4 xxl4 columns">
                 <div class="grid-preview color-penneyred-bg"></div>
               </div>
-              <div class="sm1 columns">
-                <div class="grid-preview color-penneyred-bg"></div>
-              </div>
-              <div class="sm1 columns">
-                <div class="grid-preview color-penneyred-bg"></div>
-              </div>
-              <div class="sm1 columns">
-                <div class="grid-preview color-penneyred-bg"></div>
-              </div>
-              <div class="sm1 columns">
-                <div class="grid-preview color-penneyred-bg"></div>
-              </div>
-              <div class="sm1 columns">
-                <div class="grid-preview color-penneyred-bg"></div>
-              </div>
-              <div class="sm1 columns">
-                <div class="grid-preview color-penneyred-bg"></div>
-              </div>
-              <div class="sm1 columns">
-                <div class="grid-preview color-penneyred-bg"></div>
-              </div>
-              <div class="sm1 columns">
-                <div class="grid-preview color-penneyred-bg"></div>
-              </div>
-              <div class="sm1 columns">
-                <div class="grid-preview color-penneyred-bg"></div>
-              </div>
-              <div class="sm1 columns">
+              <div class="xxs4 xs4 sm4 md4 lg4 xl4 xxl4 columns">
                 <div class="grid-preview color-penneyred-bg"></div>
               </div>
             </div>
 
-            <div class="row hide-for-small-only">
+            <div class="row show-for-small-only show-for-xs-only">
+              <div class="sm12 columns">
+                <p class="mrg-M algn-lft std-txt std-txt-S color-penneyred">3 columns</p>
+              </div>
+            </div>
+
+            <div class="row show-for-xs-only show-for-xxs-only">
+              <div class="xxs6 xs6 sm6 md6 lg6 xl6 xxl6 columns">
+                <div class="grid-preview color-penneyred-bg"></div>
+              </div>
+              <div class="xxs6 xs6 sm6 md6 lg6 xl6 xxl6 columns">
+                <div class="grid-preview color-penneyred-bg"></div>
+              </div>
+            </div>
+
+            <div class="row show-for-xs-only show-for-xxs-only">
+              <div class="sm12 columns">
+                <p class="mrg-M algn-lft std-txt std-txt-S color-penneyred">2 columns</p>
+              </div>
+            </div>
+
+            <div class="row hide-for-small-only hide-for-large-only hide-for-xlarge-only hide-for-xxlarge-only">
+              <div class="xxs2 xs2 sm2 md2 lg2 xl2 xxl2 columns">
+                <div class="grid-preview color-penneyred-bg"></div>
+              </div>
+              <div class="xxs2 xs2 sm2 md2 lg2 xl2 xxl2 columns">
+                <div class="grid-preview color-penneyred-bg"></div>
+              </div>
+              <div class="xxs2 xs2 sm2 md2 lg2 xl2 xxl2 columns">
+                <div class="grid-preview color-penneyred-bg"></div>
+              </div>
+              <div class="xxs2 xs2 sm2 md2 lg2 xl2 xxl2 columns">
+                <div class="grid-preview color-penneyred-bg"></div>
+              </div>
+              <div class="xxs2 xs2 sm2 md2 lg2 xl2 xxl2 columns">
+                <div class="grid-preview color-penneyred-bg"></div>
+              </div>
+              <div class="xxs2 xs2 sm2 md2 lg2 xl2 xxl2 columns">
+                <div class="grid-preview color-penneyred-bg"></div>
+              </div>
+            </div>
+
+            <div class="row hide-for-small-only hide-for-large-only hide-for-xlarge-only hide-for-xxlarge-only">
+              <div class="xxs12 xs12 sm12 md12 lg12 xl12 xxl12 columns">
+                <p class="mrg-M algn-lft std-txt std-txt-S color-penneyred">6 columns</p>
+              </div>
+            </div>
+
+
+            <div class="row hide-for-xs-only hide-for-xxs-only">
+              <div class="sm1 lg1 xl1 xxl1 columns">
+                <div class="grid-preview color-penneyred-bg"></div>
+              </div>
+              <div class="sm1 lg1 xl1 xxl1 columns">
+                <div class="grid-preview color-penneyred-bg"></div>
+              </div>
+              <div class="sm1 lg1 xl1 xxl1 columns">
+                <div class="grid-preview color-penneyred-bg"></div>
+              </div>
+              <div class="sm1 lg1 xl1 xxl1 columns">
+                <div class="grid-preview color-penneyred-bg"></div>
+              </div>
+              <div class="sm1 lg1 xl1 xxl1 columns">
+                <div class="grid-preview color-penneyred-bg"></div>
+              </div>
+              <div class="sm1 lg1 xl1 xxl1 columns">
+                <div class="grid-preview color-penneyred-bg"></div>
+              </div>
+              <div class="sm1 lg1 xl1 xxl1 columns">
+                <div class="grid-preview color-penneyred-bg"></div>
+              </div>
+              <div class="sm1 lg1 xl1 xxl1 columns">
+                <div class="grid-preview color-penneyred-bg"></div>
+              </div>
+              <div class="sm1 lg1 xl1 xxl1 columns">
+                <div class="grid-preview color-penneyred-bg"></div>
+              </div>
+              <div class="sm1 lg1 xl1 xxl1 columns">
+                <div class="grid-preview color-penneyred-bg"></div>
+              </div>
+              <div class="sm1 lg1 xl1 xxl1 columns">
+                <div class="grid-preview color-penneyred-bg"></div>
+              </div>
+              <div class="sm1 lg1 xl1 xxl1 columns">
+                <div class="grid-preview color-penneyred-bg"></div>
+              </div>
+            </div>
+
+            <div class="row hide-for-xs-only hide-for-xxs-only">
               <div class="sm12 columns">
                 <p class="mrg-M algn-lft std-txt std-txt-S color-penneyred">12 columns</p>
               </div>
             </div>
 
-            <hr />
 
-
-            <h3 class="title title-L mrg-L">Horizontal Grid</h3>
+            {/* <h3 class="title title-L mrg-L">Horizontal Grid</h3>
             <p class="mrg-L">The horizontal grid is key to understanding horizontal positioning of elements on a screen The horizontal grid contains the columns, gutters and margins of a page. Each column has a gutter on either side of the column. The margin is the padding on the outside of columns and gutters, and provides space outside of the content area</p>
             <h5 class="title title-M mrg-S">Horizontal Grid Layout</h5>
             <table border="0" width="100%" class="table-full table-borders mrg-XL algn-mid std-txt std-txt-S">
@@ -312,20 +335,20 @@ class Grid extends Component {
             <h5 class="title title-M mrg-S">Column Composition</h5>
             <p class="mrg-M">Columns Flex with the device width, gutters remain fixed unless transitioning between breakpoints, for example from small to medium.</p>
             <div class="mrg-M"><img src="/images/design-system/grids/grid-horizontal-grid-4.jpg" alt="" /></div>
-            <hr />
+            <hr /> */}
           </div>
         </div>
 
-        <div class="row" id="vertical-grid">
+        {/* <div class="row" id="vertical-grid">
           <div class="sm12 columns">
             <h3 class="title title-L mrg-L">Vertical Grid</h3>
             <p class="mrg-M">Our vertical baseline grid is the key to achieving vertical rhythm. Vertical rhythm is the balanced spacing of elements as the user moves down the page. It is created by three factors: font size, line height and margin or padding. The diagram below shows how vertical spacing in 10-pixel increments helps create hierarchy and harmony between text and containers. The 10px increment was determined by the base unit</p>
             <div class="mrg-M"><img src="/images/design-system/grids/grid-vertical-grid.jpg" alt="" /></div>
             <hr />
           </div>
-        </div>
+        </div> */}
 
-        <div class="row" id="documentation">
+        {/* <div class="row" id="documentation">
           <div class="sm12 columns">
             <h3 class="title title-L mrg-L">Documentation &amp; Articles</h3>
             <p class="mrg-M">General Breakdown of Spacing in Interactive Design<br />
@@ -337,7 +360,7 @@ class Grid extends Component {
             <p class="mrg-M">Most Common Device Sizes</p>
             <div class="mrg-M"><img src="/images/design-system/grids/grid-documentation.jpg" alt="" /></div>
           </div>
-        </div>
+        </div> */}
 
 
         <div class="row">
