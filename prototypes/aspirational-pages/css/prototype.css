@@ -5,6 +5,44 @@
 
 .toggle-images { position: fixed; top:0; right:0; background: #000; color: #FFF; font-weight: bold; padding: 6px 10px; display: block; text-decoration: none; font-size: 10px; border: 1px solid #FFF; z-index: 99999999 }
 
+#aspirationalMenu {
+
+    position: fixed;
+    bottom: 0;
+    right: 10px;
+    z-index: 10000;
+    background-color: rgba(28,32,36,.9);
+    color: #FFF;
+
+}
+#aspirationalMenu.active { background: rgba(28,32,36); }
+
+#aspirationalItems a { position: relative; display: block; padding-left: 30px; padding-bottom: 10px; margin-bottom: 10px; border-bottom: 1px solid #5b6265; padding-top: 2px; }
+.aspirational-section-hidden { opacity: 0; pointer-events: none; height: 0; overflow: hidden; }
+.prototype-menu{ display: none; position: relative;    padding: 0 20px 20px;
+    width: 300px;
+    height: 200px;
+    overflow: auto; margin-right: 10px; margin-bottom: 10px; }
+
+#aspirationalItems a, #aspirationalItems a:focus, #aspirationalItems a:active { outline: none; text-decoration: none; }
+#aspirationalItems a::after { content: ""; position: absolute; top: 0; left: 0; width: 20px; height: 20px; border-radius: 10px; background-color:#FFF; border:1px solid #FFF; }
+#aspirationalItems a::before { content: ""; position: absolute; top: -1px; left: 1px; width: 24px; height: 19px;border-radius: 8px; background:url('../images/section-check-icon.png') no-repeat 0 0; background-size: 100% auto;  z-index: 1; }
+#aspirationalItems a.inactive::after { background:none; border: 1px solid #5b6265; }
+#aspirationalItems a.inactive::before { display: none; }
+#aspirationalItems a  img { display: inline-block; margin-bottom: 5px; }
+#aspirationalItems a.inactive img { opacity: .2; }
+#aspirationalMenu.active .prototype-menu { display: block;  }
+.open-aspirational-menu-default { position: relative; padding-left: 25px; padding-right: 10px; }
+.prototype-icon-expand { position: absolute; top: 8px; left: 8px; }
+.open-aspirational-menu-default, .open-aspirational-menu-default:focus, .open-aspirational-menu-default:active { border: none; outline: none; text-decoration: none; display: block; padding: 10px 10px 10px 30px; box-sizing: border-box; }
+.open-aspirational-menu-default svg, .prototype-icon-expand { width: 20px; height: 20px; }
+.prototype-menu hr {
+
+    margin: 10px 0;
+    opacity: .4;
+
+}
+#aspirationalMenu.active .open-aspirational-menu-default svg { transform: rotate(45deg);  }
 .hotspot-section { position: relative; margin-top: 20px; margin-bottom: 20px; }
 .hotspot-link { position: absolute; text-decoration: none; }
 .hotspot-link svg { width: 30px; height: 30px; border-radius: 15px; box-shadow: 0 0 3px #999; }
@@ -49,7 +87,9 @@
 .offset-image-promo { font-size: 18px; display: block;  }
 .offset-image-item { font-size: 50px; display: block; text-decoration: underline;  }
 .offset-image-details-inner {  position: relative;  top: 50%; transform: translateY(-50%); display: block;  }
-
+@media (max-width: 1023px) {
+ .hide-for-medium-down { display: none !important; }
+}
 @media (max-width: 767px) {
 .offset-image-details { padding-left: 0 }
 .offset-image { padding-right: 0; }
@@ -362,14 +402,16 @@
 .carousel-full-width-nav .icon, .carousel-full-width-nav .icon svg { width: 20px; height: 20px; }
 .carousel-full-width-nav .icon { margin-top: 6px; }
 
+.footer-block { margin-top: 20px; }
 
 /***** MF STYLES  ******/
 /* MF - Video Dual Pane */
 .hero-heading{
-	font-size: 55px;
 	font-weight: bold;
-	margin-bottom: 10px;
+	margin-bottom: 2px;
 	margin-top: 0;
+	font-size: 40px;
+	line-height: 50px;
 }
 .hero-sub-heading{
 	font-size: 24px;
@@ -381,21 +423,25 @@
 	padding: 45px 0;
 }
 .video-dual-pane-section {
-	background:#f0f0f0;
+	/*background:url('../images/2-column-with-video-istock-684317544.jpg'); background-size: cover;*/
 	padding-top: 30px;
 	padding-bottom: 30px;
+	background:#f0f0f0;
+} 
+.hide-preview-images .video-dual-pane-section {
+background:#f0f0f0;
 }
 .video-headline {
-	padding-top: 80px;
-	padding-left: 60px;
-	padding-right: 60px;
+	margin:80px 60px;
+	background:rgba(255,255,255,.8);
+	padding: 40px;
+	border: 8px solid #1D4D5C;
+
 }
 @media (max-width: 1439px) {
-.hero-heading{
-	font-size: 40px;
-	}
+
 	.video-headline {
-		padding: 0px 16px;
+		margin: 0px 16px;
 	}
 }
 @media (max-width: 767px) {
@@ -406,7 +452,6 @@
 		margin-bottom: 20px;
 	}
 	.hero-heading{
-		font-size: 34px;
 		text-align: left;
 	}
 	.hero-sub-heading{
@@ -416,7 +461,7 @@
 		margin-bottom: 10px;
 	}
 	.video-headline {
-		padding: 0px 16px;
+		margin: 0px 16px;
 	}
 	.video-dual-pane {
 		padding: 20px 0;
