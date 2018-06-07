@@ -93,6 +93,11 @@ $( document ).ready(function() {
 	
 	$('.js-toggle-images').on('click', function () {
 	  $('body').toggleClass('hide-preview-images');
+	  if($('body').hasClass('hide-preview-images')) {
+	  	$(this).removeClass('active').addClass('inactive');
+	  } else {
+	  	$(this).addClass('active').removeClass('inactive');
+	  }
 	});
 	if(getUrlParameter('previewimages') == 'true') {
 		$('body').removeClass('hide-preview-images');
