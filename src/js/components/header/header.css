@@ -225,7 +225,7 @@
 		flex: none;
 		width: 60px;
 		padding-left: 23px;
-    padding-right: 0;
+    	padding-right: 0;
 		& .main-menu-primary-cart-icon-full {
 			& .main-menu-primary-cart-icon-full-items {
 				left: 1px;
@@ -360,11 +360,9 @@
     		position: absolute;
     		top: 14px;
     		right: 8px;
-    		background: url(var(--path-images)global/icons/nav/chevron-right.svg) no-repeat right center;
-			background-size: 100% auto;
-			opacity: .2;
-			width: 18px;
-			height: 18px;
+    		background: url(var(--path-images)global/icons/nav/chevron-right-new.svg) no-repeat right center;
+			width: 16px;
+			height: 16px;
     	}
     }
 }
@@ -388,23 +386,6 @@
 		width: 320px;
 		font-family: var(--font-headline);
 		border-bottom: 1px solid var(--color-concrete);
-
-		
-
-		&.main-menu-md-primary-arrow {
-			&:after{
-				content: "";
-				position: absolute;
-				top: 16px;
-				right: 10px;
-				background: url(var(--path-images)global/icons/nav/chevron-right.svg) no-repeat right center;
-				background-size: 100% auto;
-				opacity: .2;
-				width: 26px;
-				height: 26px;
-			}
-		}
-
 	}
 
 
@@ -499,11 +480,11 @@
 			font-size: 16px;
 			font-family: var(--font-headline);
 			&:after{
-	    		top: 13px;
-				right: 10px;
-				opacity: .2;
-				width: 26px;
-				height: 26px;
+	    		top: 20px;
+				right: 16px;
+				width: 12px;
+				height: 12px;
+				opacity: .8;
 	    	}
 			& .main-menu-tier1-link-thumb {
 				position: absolute;
@@ -556,6 +537,26 @@
 	}
 	.main-menu-md-down {
 		margin-bottom: 8px;
+		border-bottom: 1px solid var(--color-concrete);
+		border-top: 1px solid var(--color-concrete);
+		padding: 14px 0 8px;
+
+		& .main-menu-md-primary {
+			border: none;
+			padding: 8px 20px;
+			top: -16px;
+				
+			&:after {
+				top: 28px;
+			}
+
+			& span {
+				display: inline-block;
+				position: relative;
+				top: 10px;
+				padding-right: 12px;
+			}
+		}
 	}
 	.tier2-close {
 		display: none;
@@ -766,6 +767,14 @@
 		& .side-panel-container,
 		& .side-panel-header {
 			max-width: 320px;
+			background: var(--color-white);
+			box-shadow: none;
+			& .change-my-store-icon-close {
+				& svg {
+					width: 16px;
+					height: 16px;
+				}
+			}
 		}
 	}
 
@@ -796,9 +805,8 @@
 				position: absolute;
 				top: 8px;
 				right: 10px;
-				background: url(var(--path-images)global/icons/nav/chevron-right.svg) no-repeat right center;
-				background-size: 100% auto;
-				opacity: .5;
+				background: url(var(--path-images)global/icons/nav/chevron-right-new.svg) no-repeat right center;
+				opacity: 1;
 				width: 30px;
 				height: 30px;
 			}
@@ -839,12 +847,22 @@
 		}
 
 		& .main-menu-primary-cart {
-			padding-right: 10px;
-			width: 50px;
+			padding-right: 0;
 			padding-left: 0;
+			text-align: right;
+			width: 36px;
+
 			@media (--viewport-sm-only) {
 				position: relative;
 				left: 15px;
+			}
+			
+			& .main-menu-primary-cart-icon-full {
+				width: 36px;
+				height: 36px;
+				& .main-menu-primary-cart-icon-full-items {
+					left: 7px;
+				}
 			}
 		}
 
@@ -891,12 +909,10 @@
 		}
 }
 
-@media (--viewport-sm-only) {
+@media (--viewport-xs-only) {
 	.main-menu-bar-secondary .side-panel-container {
-
-
 		& .side-panel-content {
-			padding-top: 44px;
+			padding-top: 47px;
 			z-index: -1;
 		}
 	}
@@ -914,7 +930,7 @@
 		padding: 4px 5px 6px 5px;
 	}
 	.main-menu-primary {
-		padding: 8px 22px 47px;
+		padding: 8px 16px 55px;
 		
 		& .main-menu-primary-logo {
 			flex-basis: 156px;
@@ -925,9 +941,9 @@
 		}
 
 		& .main-menu-primary-search {
-			padding: 0 20px;
+			padding: 0 16px;
 			& input[type="text"] {
-				height: 32px;
+				height: 36px;
 				padding: 6px 13px;
 				font-size: 14px;
 			}
@@ -945,12 +961,12 @@
 		}
 
 		& .main-menu-primary-logo {
-			padding-left: 44px;
+			padding-left: 40px;
 		}
 		& .side-panel-btn {
 			width: 32px;
 			height: 32px;
-			left: 0;
+			left: -2px;
 			& svg {
 				width: 32px;
 				height: 32px;
@@ -961,8 +977,8 @@
 		}
 
 		& .main-menu-primary-account {
-			padding: 0 5px;
-			max-width: 46px;
+			padding: 0 8px;
+			max-width: 36px;
 			min-width: initial;
 
 			& button {

@@ -6,7 +6,10 @@ const searchImage = require('!!raw-loader?es5=1!../../../images/global/icons/act
 const menuImage = require('!!raw-loader?es5=1!../../../images/global/icons/nav/menu.svg');
 const closeImage = require('!!raw-loader?es5=1!../../../images/global/icons/nav/close.svg');
 const cartFullImage = require('!!raw-loader?es5=1!../../../images/global/icons/utility/cart/cart-full.svg');
+const trackOrderImage = require('!!raw-loader?es5=1!../../../images/global/icons/utility/ship/track-order.svg');
+const storeNewImage = require('!!raw-loader?es5=1!../../../images/global/icons/utility/store/store-new.svg');
 const accountImage = require('!!raw-loader?es5=1!../../../images/global/icons/service/account.svg');
+const accountNewImage = require('!!raw-loader?es5=1!../../../images/global/icons/service/account-new.svg');
 const arrowleftImage = require('!!raw-loader?es5=1!../../../images/global/icons/nav/arrow-left.svg');
 const targetImage = require('!!raw-loader?es5=1!../../../images/global/icons/action/target.svg');
 const jcpenneyRewardsImage = require('!!raw-loader?es5=1!../../../images/global/icons/logos/JCPRewards.svg');
@@ -14,9 +17,9 @@ class Header extends Component {
   changeMyStoreContent(type) {
     return (
       <div>
-        <p id={'changeMyStoreZipLink' + type}>Stores within 15 mi. of <strong>75024 </strong> 
+        <p id={'changeMyStoreZipLink' + type}>Stores within 15 mi. of <strong>75024 </strong>
           <a href="javascript:void(0);" class="expand-collapse-btn change-btn" data-target={'#changeMyStoreZip' + type} data-hide-on-open-target={'#changeMyStoreZipLink' + type} data-duration="0"> Change</a>
-          </p>
+        </p>
 
         <div class="expand-collapse-section" id={'changeMyStoreZip' + type}>
           <div class="button-preview algn-mid my-location">
@@ -57,106 +60,106 @@ class Header extends Component {
                   <div class="dropdown-menu">
                     <div class="tooltip tooltip-top-left tooltip-Large">
                       <span>
-                      <ul>
-                        <li class="dropdown-list">
+                        <ul>
+                          <li class="dropdown-list">
                             <label class="checkbox mrg-M" >
-                                <input type="checkbox" defaultChecked="" />
-                                <span class="left">label</span>
-                                <span class="right-label">(1,008)</span>
+                              <input type="checkbox" defaultChecked="" />
+                              <span class="left">label</span>
+                              <span class="right-label">(1,008)</span>
                             </label>
-                        </li>
-                        <li class="dropdown-list">
+                          </li>
+                          <li class="dropdown-list">
                             <label class="checkbox mrg-M">
-                                <input type="checkbox" defaultChecked="" />
-                                <span class="left">label</span>
-                                <span class="right-label">(1,008)</span>
+                              <input type="checkbox" defaultChecked="" />
+                              <span class="left">label</span>
+                              <span class="right-label">(1,008)</span>
                             </label>
-                        </li>
-                        <li class="dropdown-list">
+                          </li>
+                          <li class="dropdown-list">
                             <label class="checkbox mrg-M">
-                                <input type="checkbox" defaultChecked="" />
-                                <span class="left">label</span>
-                                <span class="right-label">(1,008)</span>
+                              <input type="checkbox" defaultChecked="" />
+                              <span class="left">label</span>
+                              <span class="right-label">(1,008)</span>
                             </label>
-                        </li>
-                        <li class="dropdown-list">
+                          </li>
+                          <li class="dropdown-list">
                             <label class="checkbox mrg-M">
-                                <input type="checkbox" defaultChecked="" />
-                                <span class="left">label</span>
-                                <span class="right-label">(1,008)</span>
+                              <input type="checkbox" defaultChecked="" />
+                              <span class="left">label</span>
+                              <span class="right-label">(1,008)</span>
                             </label>
-                        </li>
-                        <li class="dropdown-list">
+                          </li>
+                          <li class="dropdown-list">
                             <label class="checkbox mrg-M">
-                                <input type="checkbox" defaultChecked="" />
-                                <span class="left">label</span>
-                                <span class="right-label">(1,008)</span>
+                              <input type="checkbox" defaultChecked="" />
+                              <span class="left">label</span>
+                              <span class="right-label">(1,008)</span>
                             </label>
-                        </li>
-                        <li class="dropdown-list">
+                          </li>
+                          <li class="dropdown-list">
                             <label class="checkbox mrg-M">
-                                <input type="checkbox" defaultChecked="" />
-                                <span class="left">label</span>
-                                <span class="right-label">(1,008)</span>
+                              <input type="checkbox" defaultChecked="" />
+                              <span class="left">label</span>
+                              <span class="right-label">(1,008)</span>
                             </label>
-                        </li>
-                        <li class="dropdown-list">
+                          </li>
+                          <li class="dropdown-list">
                             <label class="checkbox mrg-M">
-                                <input type="checkbox" defaultChecked="" />
-                                <span class="left">label</span>
-                                <span class="right-label">(1,008)</span>
+                              <input type="checkbox" defaultChecked="" />
+                              <span class="left">label</span>
+                              <span class="right-label">(1,008)</span>
                             </label>
-                        </li>
-                        <li class="dropdown-list">
+                          </li>
+                          <li class="dropdown-list">
                             <label class="checkbox mrg-M">
-                                <input type="checkbox" defaultChecked="" />
-                                <span class="left">label</span>
-                                <span class="right-label">(1,008)</span>
+                              <input type="checkbox" defaultChecked="" />
+                              <span class="left">label</span>
+                              <span class="right-label">(1,008)</span>
                             </label>
-                        </li>
-                        <li class="dropdown-list">
+                          </li>
+                          <li class="dropdown-list">
                             <label class="checkbox mrg-M">
-                                <input type="checkbox" defaultChecked="" />
-                                <span class="left">label</span>
-                                <span class="right-label">(1,008)</span>
+                              <input type="checkbox" defaultChecked="" />
+                              <span class="left">label</span>
+                              <span class="right-label">(1,008)</span>
                             </label>
-                        </li>
-                        <li class="dropdown-list">
+                          </li>
+                          <li class="dropdown-list">
                             <label class="checkbox mrg-M">
-                                <input type="checkbox" defaultChecked="" />
-                                <span class="left">label</span>
-                                <span class="right-label">(1,008)</span>
+                              <input type="checkbox" defaultChecked="" />
+                              <span class="left">label</span>
+                              <span class="right-label">(1,008)</span>
                             </label>
-                        </li>
-                        <li class="dropdown-list">
+                          </li>
+                          <li class="dropdown-list">
                             <label class="checkbox mrg-M">
-                                <input type="checkbox" defaultChecked="" />
-                                <span class="left">label</span>
-                                <span class="right-label">(1,008)</span>
+                              <input type="checkbox" defaultChecked="" />
+                              <span class="left">label</span>
+                              <span class="right-label">(1,008)</span>
                             </label>
-                        </li>
-                        <li class="dropdown-list">
+                          </li>
+                          <li class="dropdown-list">
                             <label class="checkbox mrg-M">
-                                <input type="checkbox" defaultChecked="" />
-                                <span class="left">label</span>
-                                <span class="right-label">(1,008)</span>
+                              <input type="checkbox" defaultChecked="" />
+                              <span class="left">label</span>
+                              <span class="right-label">(1,008)</span>
                             </label>
-                        </li>
-                        <li class="dropdown-list">
+                          </li>
+                          <li class="dropdown-list">
                             <label class="checkbox mrg-M">
-                                <input type="checkbox" defaultChecked="" />
-                                <span class="left">label</span>
-                                <span class="right-label">(1,008)</span>
+                              <input type="checkbox" defaultChecked="" />
+                              <span class="left">label</span>
+                              <span class="right-label">(1,008)</span>
                             </label>
-                        </li>
-                        <li class="dropdown-list">
+                          </li>
+                          <li class="dropdown-list">
                             <label class="checkbox mrg-M">
-                                <input type="checkbox" defaultChecked="" />
-                                <span class="left">label</span>
-                                <span class="right-label">(1,008)</span>
+                              <input type="checkbox" defaultChecked="" />
+                              <span class="left">label</span>
+                              <span class="right-label">(1,008)</span>
                             </label>
-                        </li>
-                    </ul>
+                          </li>
+                        </ul>
                       </span>
                     </div>
                   </div>
@@ -268,7 +271,7 @@ class Header extends Component {
       <li class="main-menu-tier1-li">
         <a href="javascript:void(0)" class="main-menu-tier1-link"><span class="main-menu-tier1-link-thumb"><img src={linkSet.thumb} alt="" /></span>{linkSet.name}</a>
         <ul class="main-menu-tier2-ul">
-          <li class="main-menu-secondary-hidden-lg-up"><span class="main-menu-tier1-link"><span class="main-menu-tier1-link-thumb"><img src={linkSet.thumb} alt="" /></span>{linkSet.name}</span></li>
+          <li class="main-menu-secondary-hidden-lg-up color-lightgrey-bg"><span class="main-menu-tier1-link"><span class="main-menu-tier1-link-thumb"><img src={linkSet.thumb} alt="" /></span>{linkSet.name}</span></li>
           {linkSet.subLinks.map((link, index) => {
             return (
               <li key={index} class="main-menu-tier2-li"><a href="javascript:void(0)" class="main-menu-tier2-link">
@@ -293,12 +296,12 @@ class Header extends Component {
   componentDidMount() {
 
     $('.cancel-btn').on('click', function () {
-      $('#changeMyStoreZipLinkDesktop').css('display','block');
-      $('#changeMyStoreZipDesktop').css('display','none');
-      $('#changeMyStoreZipLinkMobile').css('display','block');
-      $('#changeMyStoreZipMobile').css('display','none');
+      $('#changeMyStoreZipLinkDesktop').css('display', 'block');
+      $('#changeMyStoreZipDesktop').css('display', 'none');
+      $('#changeMyStoreZipLinkMobile').css('display', 'block');
+      $('#changeMyStoreZipMobile').css('display', 'none');
     });
-  
+
     !function (factory) { "use strict"; "function" == typeof define && define.amd ? define(["$"], factory) : $ && !$.fn.hoverIntent && factory($) }(function ($) { "use strict"; var cX, cY, _cfg = { interval: 100, sensitivity: 6, timeout: 0 }, INSTANCE_COUNT = 0, track = function (ev) { cX = ev.pageX, cY = ev.pageY }, compare = function (ev, $el, s, cfg) { if (Math.sqrt((s.pX - cX) * (s.pX - cX) + (s.pY - cY) * (s.pY - cY)) < cfg.sensitivity) return $el.off(s.event, track), delete s.timeoutId, s.isActive = !0, ev.pageX = cX, ev.pageY = cY, delete s.pX, delete s.pY, cfg.over.apply($el[0], [ev]); s.pX = cX, s.pY = cY, s.timeoutId = setTimeout(function () { compare(ev, $el, s, cfg) }, cfg.interval) }, delay = function (ev, $el, s, out) { return delete $el.data("hoverIntent")[s.id], out.apply($el[0], [ev]) }; $.fn.hoverIntent = function (handlerIn, handlerOut, selector) { var instanceId = INSTANCE_COUNT++, cfg = $.extend({}, _cfg); $.isPlainObject(handlerIn) ? (cfg = $.extend(cfg, handlerIn), $.isFunction(cfg.out) || (cfg.out = cfg.over)) : cfg = $.isFunction(handlerOut) ? $.extend(cfg, { over: handlerIn, out: handlerOut, selector: selector }) : $.extend(cfg, { over: handlerIn, out: handlerIn, selector: handlerOut }); var handleHover = function (e) { var ev = $.extend({}, e), $el = $(this), hoverIntentData = $el.data("hoverIntent"); hoverIntentData || $el.data("hoverIntent", hoverIntentData = {}); var state = hoverIntentData[instanceId]; state || (hoverIntentData[instanceId] = state = { id: instanceId }), state.timeoutId && (state.timeoutId = clearTimeout(state.timeoutId)); var mousemove = state.event = "mousemove.hoverIntent.hoverIntent" + instanceId; if ("mouseenter" === e.type) { if (state.isActive) return; state.pX = ev.pageX, state.pY = ev.pageY, $el.off(mousemove, track).on(mousemove, track), state.timeoutId = setTimeout(function () { compare(ev, $el, state, cfg) }, cfg.interval) } else { if (!state.isActive) return; $el.off(mousemove, track), state.timeoutId = setTimeout(function () { delay(ev, $el, state, cfg.out) }, cfg.timeout) } }; return this.on({ "mouseenter.hoverIntent": handleHover, "mouseleave.hoverIntent": handleHover }, cfg.selector) } });
 
     $('.dropdown-button').unbind('click').on('click', function () {
@@ -306,20 +309,20 @@ class Header extends Component {
       parent_box.siblings().find('.dropdown-menu').hide();
       parent_box.find('.dropdown-menu').slideToggle(200, 'swing');
       $(this).toggleClass("arrow-down");
-      
+
       if ($(".dropdown-button").hasClass("arrow-down")) {
         $("body").append('<div id="menu-overlay" class="menu-overlay"></div>');
-      }else{
+      } else {
         $("#menu-overlay").remove();
       }
-      
+
       $('#menu-overlay').on('click', function (e) {
         $("#menu-overlay").remove();
         $(".dropdown-menu").hide();
         $(".dropdown-button").removeClass("arrow-down");
       });
     });
-   
+
 
     $('.side-panel-btn').unbind('click').on('click', function (event) {
       // event.preventDefault();
@@ -357,7 +360,7 @@ class Header extends Component {
     });
 
     $(".main-menu-secondary-li-shop-departments").hoverIntent({
-      
+
       over: function () {
         $('.dropdown-menu').css('display', 'none');
         if ($("#mainMenusecondaryLightBox").length == 0) {
@@ -375,9 +378,9 @@ class Header extends Component {
       out: function () {
         $(".main-menu-secondary-li").removeClass("main-menu-secondary-hover");
         $("#mainMenusecondaryLightBox").fadeOut(300);
-        setTimeout(function(){ 
+        setTimeout(function () {
           $("#mainMenusecondaryLightBox").remove();
-         }, 500);
+        }, 500);
         $('.main-menu-tier1').removeClass('active-tier2').removeClass('active-tier3')
       }
     });
@@ -459,10 +462,10 @@ class Header extends Component {
     });
 
 
-    $(document).ready(function() {
-      $('.main-menu-secondary-shop-departments').click(function() {
-          $(".main-menu-secondary-li").toggleClass("main-menu-secondary-hover"); 
-          $("#mainMenusecondaryLightBox").toggle();
+    $(document).ready(function () {
+      $('.main-menu-secondary-shop-departments').click(function () {
+        $(".main-menu-secondary-li").toggleClass("main-menu-secondary-hover");
+        $("#mainMenusecondaryLightBox").toggle();
       });
     });
 
@@ -528,29 +531,28 @@ class Header extends Component {
         }
       }
     });
-    
-    $('#menuPrimarySearch').focus(function() {
-      
-      if($(window).width() >= 1024)
-      {
-        $( ".main-menu-primary-rewards, .main-menu-primary-account" ).hide(400);
+
+    $('#menuPrimarySearch').focus(function () {
+
+      if ($(window).width() >= 1024) {
+        $(".main-menu-primary-rewards, .main-menu-primary-account").hide(400);
         $(this).attr('data-default', $(this).width());
       } else {
-        $( ".main-menu-primary-rewards, .main-menu-primary-account" ).show();
+        $(".main-menu-primary-rewards, .main-menu-primary-account").show();
       }
-    
-    }).blur(function() {
-      if($("#menuPrimarySearch").val()==""){
+
+    }).blur(function () {
+      if ($("#menuPrimarySearch").val() == "") {
         $('.main-menu').removeClass('main-menu-search-open');
-        $( ".main-menu-primary-rewards, .main-menu-primary-account" ).show(400);
+        $(".main-menu-primary-rewards, .main-menu-primary-account").show(400);
       }
-    
+
     });
 
-    $(".search-close-icon").click(function(){
+    $(".search-close-icon").click(function () {
       $("#menuPrimarySearch").val('').focus();
-  });
-    
+    });
+
 
     //Preview top nav without design system wrapper
     $("#HideDesignSystem").unbind('click').on('click', function (event) {
@@ -618,7 +620,7 @@ class Header extends Component {
                   </form>
                 </div>
               </li>
-              <li class="main-menu-primary-item main-menu-primary-rewards hide-for-small-only">
+              <li class="main-menu-primary-item main-menu-primary-rewards show-for-xxlarge-only show-for-xlarge-only hide-for-xs-only hide-for-xxs-only">
                 <a href="javascript:void(0);">
                   {/* <img src="/images/global/jcpenney-rewards.png" alt="JCPenney Rewards" /> */}
                   <span class="icon color-white-svg" dangerouslySetInnerHTML={{ __html: jcpenneyRewardsImage }} />
@@ -627,9 +629,9 @@ class Header extends Component {
               <li class="main-menu-primary-item main-menu-primary-account">
                 <div class="dropdown-menu-block">
                   <button class="dropdown-button" type="button" tabindex="-1">
-                    <div class="main-menu-primary-account-icon icon color-white-svg" dangerouslySetInnerHTML={{ __html: accountImage }} />
-                    <div class="main-menu-primary-account-title">My Account</div>
-                    <div class="main-menu-primary-account-link">Sign In <span class="arrow"></span></div>
+                    <div class="main-menu-primary-account-icon icon color-white-svg" dangerouslySetInnerHTML={{ __html: accountNewImage }} />
+                    {/* <div class="main-menu-primary-account-title">My Account</div>
+                    <div class="main-menu-primary-account-link">Sign In <span class="arrow"></span></div> */}
                   </button>
                   <div class="dropdown-menu dropdown-account">
                     <div class="tooltip tooltip-top-right tooltip-long tooltip-list">
@@ -660,13 +662,13 @@ class Header extends Component {
             <div class="side-panel side-panel-disable-desktop slide-panel-from-left main-menu-bar-secondary-panel" id="mainMenusecondary">
               <div class="side-panel-container">
                 <div class="side-panel-container-inner-container">
-                <header class="side-panel-header">
-                  <h3 class="title title-L color-white side-panel-headline">Menu</h3>
-                  <a href="javascript:void(0);" class="title title-L color-white tier2-close">
-                    <div class="tier2-close-icon icon color-white-svg" dangerouslySetInnerHTML={{ __html: arrowleftImage }} />
-                    Departments </a> <a href="javascript:void(0);" class="side-panel-close main-menu-reset">
-                    <div class="change-my-store-icon-close icon color-white-svg" dangerouslySetInnerHTML={{ __html: closeImage }} />
-                  </a> </header>
+                  <header class="side-panel-header">
+                    <h3 class="promo-lbl promo-lbl-M side-panel-headline">Hi, Guest</h3>
+                    <a href="javascript:void(0);" class="title title-L tier2-close">
+                      <div class="tier2-close-icon icon" dangerouslySetInnerHTML={{ __html: arrowleftImage }} />
+                      Departments </a> <a href="javascript:void(0);" class="side-panel-close main-menu-reset">
+                      <div class="change-my-store-icon-close icon" dangerouslySetInnerHTML={{ __html: closeImage }} />
+                    </a> </header>
                   <div class="side-panel-content">
                     <div class="main-menu-bar-secondary-container">
                       <div class="main-menu-secondary-left">
@@ -677,8 +679,9 @@ class Header extends Component {
                               <span class="main-menu-secondary-shop-departments-menu-label">Shop Departments</span> </button>
                             <div class="main-menu-tier1">
                               <ul class="main-menu-md-down">
-                                <li> <a href="javascript:void(0);" class="main-menu-tier1-button-md-down main-menu-md-primary"><strong>Sign in or Create an Account</strong></a> </li>
-                                <li class="main-menu-md-panel-li"> <a href="javascript:void(0);" class="main-menu-tier1-button-md-down main-menu-md-primary main-menu-md-primary-arrow main-menu-md-panel-btn"><strong>My Store:</strong> Colin Creek Mall</a>
+                                <li> <a href="javascript:void(0);" class="main-menu-tier1-button-md-down main-menu-md-primary"><span dangerouslySetInnerHTML={{ __html: accountNewImage }}/>Sign In or Create Account</a> </li>
+                                <li> <a href="javascript:void(0);" class="main-menu-tier1-button-md-down main-menu-md-primary"><span dangerouslySetInnerHTML={{ __html: trackOrderImage }}/>Track My Order</a> </li>
+                                <li class="main-menu-md-panel-li"> <a href="javascript:void(0);" class="main-menu-tier1-button-md-down main-menu-md-primary main-menu-md-primary-arrow main-menu-md-panel-btn main-menu-tier1-link"><strong><span dangerouslySetInnerHTML={{ __html: storeNewImage }}/>My Store:</strong> Colin Creek Mall</a>
                                   <div class="main-menu-md-panel"> {this.changeMyStoreContent('Mobile')} </div>
                                 </li>
                               </ul>

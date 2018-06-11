@@ -397,6 +397,13 @@ module.exports = "  \n<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"ht
 
 /***/ }),
 
+/***/ "87qO":
+/***/ (function(module, exports) {
+
+module.exports = "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"32\" height=\"32\" viewBox=\"0 0 32 32\">\n    <defs>\n        <path id=\"a\" d=\"M12 24C5.373 24 0 18.627 0 12S5.373 0 12 0s12 5.373 12 12-5.373 12-12 12zm-6.94-4.007c.049-.529.403-.993.966-1.265l3.211-1.558c.743-.36 1.217-1.071 1.217-1.858v-.983l-.31-.176C8.79 13.383 7.89 11.709 7.89 9.82c0-2.654 1.755-4.765 3.86-4.765 2.104 0 3.86 2.111 3.86 4.765 0 1.829-.844 3.46-2.134 4.261l-.29.18v1.081c0 .817.503 1.541 1.288 1.89l3.439 1.53c.571.254.939.717 1.016 1.24A10.544 10.544 0 0 1 12 22.585c-2.655 0-5.081-.977-6.94-2.592zm-.968-.956A10.545 10.545 0 0 1 1.415 12C1.415 6.154 6.155 1.415 12 1.415c5.846 0 10.585 4.74 10.585 10.585 0 2.704-1.014 5.171-2.682 7.042-.295-.603-.816-1.103-1.491-1.403l-3.44-1.529c-.354-.157-.558-.452-.558-.768v-.412c1.494-1.08 2.424-3.003 2.424-5.11 0-3.287-2.25-5.993-5.088-5.993S6.66 6.533 6.66 9.82c0 2.176.992 4.152 2.565 5.208v.284c0 .302-.193.592-.525.753L5.49 17.622a2.982 2.982 0 0 0-1.398 1.415z\"/>\n    </defs>\n    <g fill=\"none\" fill-rule=\"evenodd\" transform=\"translate(4 4)\">\n        <mask id=\"b\" fill=\"#fff\">\n            <use xlink:href=\"#a\"/>\n        </mask>\n        <use fill=\"#111\" xlink:href=\"#a\"/>\n        <g fill=\"#111\" mask=\"url(#b)\">\n            <path d=\"M-4-4h32v32H-4z\"/>\n        </g>\n    </g>\n</svg>\n"
+
+/***/ }),
+
 /***/ "8PdL":
 /***/ (function(module, exports) {
 
@@ -555,6 +562,13 @@ module.exports = "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http:/
 /***/ (function(module, exports) {
 
 module.exports = "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"32\" height=\"32\" viewBox=\"0 0 32 32\" aria-labaria-lelledby=\"title-032\">\n  <defs>\n    <path id=\"collection-a\" d=\"M23.9971,2.1435541 C23.9838,1.87424893 23.9244,1.61737166 23.8268,1.38093363 C23.8129,1.3471421 23.7982,1.31376141 23.7827,1.28079155 C23.5662,0.819932554 23.2017,0.445555232 22.753,0.223188455 C22.7209,0.207268432 22.6884,0.192170087 22.6555,0.177893421 C22.4253,0.0776486297 22.1751,0.0166389921 21.913,0.002978585 C21.8756,0.00102709828 21.8379,0 21.8,0 L2.2,0 C2.1621,0 2.1244,0.00102709828 2.087,0.002978585 C0.9636,0.0616258966 0.06,0.989711899 0.0029,2.1435541 C0.001,2.18196758 0,2.22068918 0,2.25961621 L0,15.7403838 C0,15.7793108 0.001,15.8180324 0.0029,15.8564459 C0.06,17.0102881 0.9636,17.9383741 2.087,17.9970214 C2.1244,17.9989729 2.1621,18 2.2,18 L21.8,18 C21.8379,18 21.8756,17.9989729 21.913,17.9970214 C23.0364,17.9383741 23.94,17.0102881 23.9971,15.8564459 C23.999,15.8180324 24,15.7793108 24,15.7403838 L24,2.25961621 C24,2.22068918 23.999,2.18196758 23.9971,2.1435541 L23.9971,2.1435541 Z M3.2399,14.3862574 L3.2399,3.62216478 C3.2399,3.27890854 3.5108,3.00066761 3.845,3.00066761 L9.4175,3.00066761 C9.7517,3.00066761 10.0226,3.27890854 10.0226,3.62216478 L10.0226,14.3862574 C10.0226,14.7295137 9.7517,15.0077546 9.4175,15.0077546 L3.845,15.0077546 C3.5108,15.0077546 3.2399,14.7295137 3.2399,14.3862574 L3.2399,14.3862574 Z M11.0398,14.3862574 L11.0398,9.68214732 C11.0398,9.33889108 11.3107,9.06065015 11.6449,9.06065015 L14.7874,9.06065015 C15.1216,9.06065015 15.3925,9.33889108 15.3925,9.68214732 L15.3925,14.3862574 C15.3925,14.7295137 15.1216,15.0077546 14.7874,15.0077546 L11.6449,15.0077546 C11.3107,15.0077546 11.0398,14.7295137 11.0398,14.3862574 L11.0398,14.3862574 Z M16.4074,14.3862574 L16.4074,9.68214732 C16.4074,9.33889108 16.6783,9.06065015 17.0125,9.06065015 L20.155,9.06065015 C20.4892,9.06065015 20.7601,9.33889108 20.7601,9.68214732 L20.7601,14.3862574 C20.7601,14.7295137 20.4892,15.0077546 20.155,15.0077546 L17.0125,15.0077546 C16.6783,15.0077546 16.4074,14.7295137 16.4074,14.3862574 L16.4074,14.3862574 Z M20.7601,7.40209186 C20.7601,7.74524539 20.4892,8.02358902 20.155,8.02358902 L11.6449,8.02358902 C11.3107,8.02358902 11.0398,7.74524539 11.0398,7.40209186 L11.0398,3.62216478 C11.0398,3.27890854 11.3107,3.00066761 11.6449,3.00066761 L20.155,3.00066761 C20.4892,3.00066761 20.7601,3.27890854 20.7601,3.62216478 L20.7601,7.40209186 L20.7601,7.40209186 Z\"/>\n  </defs>\n  <title id=\"title-032\" lang=\"en\">product collection</title>\n  <g fill=\"none\" fill-rule=\"evenodd\" transform=\"translate(4 7)\">\n    <use fill=\"#384048\" xlink:href=\"#collection-a\"/>\n  </g>\n</svg>\n"
+
+/***/ }),
+
+/***/ "IeBy":
+/***/ (function(module, exports) {
+
+module.exports = "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"32\" height=\"32\" viewBox=\"0 0 32 32\">\n    <defs>\n        <path id=\"a\" d=\"M24 7.697a3.36 3.36 0 0 1-.386 1.593c-.257.488-.597.891-1.02 1.21v9.105h.703a.68.68 0 0 1 .496.206c.138.136.207.3.207.492a.669.669 0 0 1-.207.492.68.68 0 0 1-.496.205H.717a.696.696 0 0 1-.51-.205.669.669 0 0 1-.207-.492c0-.192.069-.356.207-.492a.696.696 0 0 1 .51-.206h.703V10.5A3.53 3.53 0 0 1 .386 9.29 3.36 3.36 0 0 1 0 7.697V6.303c0-.055.007-.11.02-.164a.547.547 0 0 1 .063-.15L2.909.382a.629.629 0 0 1 .255-.28A.703.703 0 0 1 3.529 0h16.942c.138 0 .262.034.372.103.11.068.198.161.262.28l2.826 5.605c.018.046.035.096.048.15.014.055.021.11.021.165v1.394zm-9.167 2.106c.579 0 1.075-.205 1.489-.616.413-.41.62-.906.62-1.49V7H12.71v.697c0 .584.207 1.08.62 1.49.414.41.915.616 1.503.616zM1.42 7.697c0 .584.207 1.08.62 1.49.414.41.91.616 1.489.616.588 0 1.089-.205 1.503-.616.413-.41.62-.906.62-1.49V7H1.42v.697zm9.884-6.302H8.326l-1.061 4.21h4.039v-4.21zm4.384 0H12.71v4.21h4.039l-1.061-4.21zM7.058 7v.697c0 .584.207 1.08.62 1.49.414.41.915.616 1.503.616.588 0 1.089-.205 1.503-.616.413-.41.62-.906.62-1.49V7H7.058zm11.304 0v.697c0 .584.207 1.08.62 1.49.414.41.91.616 1.489.616.588 0 1.089-.205 1.503-.616.413-.41.62-.906.62-1.49V7h-4.232zm3.79-1.395l-2.108-4.21h-2.895l1.047 4.21h3.957zM3.97 1.395l-2.123 4.21h3.957l1.061-4.21H3.97zm-1.144 9.734v8.476h11.29V11.13a3.35 3.35 0 0 1-1.179-.472 3.606 3.606 0 0 1-.93-.854 3.61 3.61 0 0 1-1.22 1.011 3.434 3.434 0 0 1-1.606.383 3.434 3.434 0 0 1-1.606-.383 3.61 3.61 0 0 1-1.22-1.011 3.61 3.61 0 0 1-1.22 1.011 3.434 3.434 0 0 1-1.606.383c-.12 0-.237-.004-.352-.013a2.44 2.44 0 0 1-.351-.055zm18.348 8.476V11.13a2.09 2.09 0 0 1-.345.055 4.71 4.71 0 0 1-.358.013 3.434 3.434 0 0 1-1.606-.383 3.61 3.61 0 0 1-1.22-1.011 3.406 3.406 0 0 1-2.11 1.326v8.476h5.639zm-2.106-4.328c0 .35-.126.65-.378.9-.253.251-.564.376-.934.376-.353 0-.656-.125-.909-.375a1.224 1.224 0 0 1-.378-.901c0-.35.126-.651.378-.902.253-.25.556-.375.909-.375.37 0 .681.125.934.375.252.25.378.551.378.902zm-13.66.345a.777.777 0 0 1-.268-.047.553.553 0 0 1-.228-.158.669.669 0 0 1-.207-.492c0-.191.07-.355.207-.492l1.406-1.395a.68.68 0 0 1 .496-.205.68.68 0 0 1 .497.205c.138.137.207.301.207.493a.669.669 0 0 1-.207.492l-1.406 1.394a.553.553 0 0 1-.228.158.777.777 0 0 1-.269.047zm2.353 2.803a.777.777 0 0 1-.269-.048.553.553 0 0 1-.227-.157.669.669 0 0 1-.207-.492c0-.192.069-.356.207-.492l4.232-4.198a.688.688 0 0 1 .503-.205c.198 0 .365.069.503.205.138.137.207.301.207.493a.669.669 0 0 1-.207.492L8.257 18.22a.553.553 0 0 1-.227.157.777.777 0 0 1-.269.048z\"/>\n    </defs>\n    <g fill=\"none\" fill-rule=\"evenodd\" transform=\"translate(4 5)\">\n        <mask id=\"b\" fill=\"#fff\">\n            <use xlink:href=\"#a\"/>\n        </mask>\n        <use fill=\"#111\" xlink:href=\"#a\"/>\n        <g fill=\"#384048\" mask=\"url(#b)\">\n            <path d=\"M-4-5h32v32H-4z\"/>\n        </g>\n    </g>\n</svg>\n"
 
 /***/ }),
 
@@ -18128,7 +18142,10 @@ var header_searchImage = __webpack_require__("7r5T");
 var header_menuImage = __webpack_require__("738v");
 var header_closeImage = __webpack_require__("oWX6");
 var header_cartFullImage = __webpack_require__("VlqD");
+var trackOrderImage = __webpack_require__("BxHr");
+var storeNewImage = __webpack_require__("IeBy");
 var header_accountImage = __webpack_require__("8ysx");
+var accountNewImage = __webpack_require__("87qO");
 var header_arrowleftImage = __webpack_require__("FAZD");
 var header_targetImage = __webpack_require__("ZO6q");
 var header_jcpenneyRewardsImage = __webpack_require__("QXyO");
@@ -18830,7 +18847,7 @@ var header_Header = function (_Component) {
           { 'class': 'main-menu-tier2-ul' },
           react_default.a.createElement(
             'li',
-            { 'class': 'main-menu-secondary-hidden-lg-up' },
+            { 'class': 'main-menu-secondary-hidden-lg-up color-lightgrey-bg' },
             react_default.a.createElement(
               'span',
               { 'class': 'main-menu-tier1-link' },
@@ -19286,7 +19303,7 @@ var header_Header = function (_Component) {
               ),
               react_default.a.createElement(
                 'li',
-                { 'class': 'main-menu-primary-item main-menu-primary-rewards hide-for-small-only' },
+                { 'class': 'main-menu-primary-item main-menu-primary-rewards show-for-xxlarge-only show-for-xlarge-only hide-for-xs-only hide-for-xxs-only' },
                 react_default.a.createElement(
                   'a',
                   { href: 'javascript:void(0);' },
@@ -19302,18 +19319,7 @@ var header_Header = function (_Component) {
                   react_default.a.createElement(
                     'button',
                     { 'class': 'dropdown-button', type: 'button', tabindex: '-1' },
-                    react_default.a.createElement('div', { 'class': 'main-menu-primary-account-icon icon color-white-svg', dangerouslySetInnerHTML: { __html: header_accountImage } }),
-                    react_default.a.createElement(
-                      'div',
-                      { 'class': 'main-menu-primary-account-title' },
-                      'My Account'
-                    ),
-                    react_default.a.createElement(
-                      'div',
-                      { 'class': 'main-menu-primary-account-link' },
-                      'Sign In ',
-                      react_default.a.createElement('span', { 'class': 'arrow' })
-                    )
+                    react_default.a.createElement('div', { 'class': 'main-menu-primary-account-icon icon color-white-svg', dangerouslySetInnerHTML: { __html: accountNewImage } })
                   ),
                   react_default.a.createElement(
                     'div',
@@ -19489,20 +19495,20 @@ var header_Header = function (_Component) {
                     { 'class': 'side-panel-header' },
                     react_default.a.createElement(
                       'h3',
-                      { 'class': 'title title-L color-white side-panel-headline' },
-                      'Menu'
+                      { 'class': 'promo-lbl promo-lbl-M side-panel-headline' },
+                      'Hi, Guest'
                     ),
                     react_default.a.createElement(
                       'a',
-                      { href: 'javascript:void(0);', 'class': 'title title-L color-white tier2-close' },
-                      react_default.a.createElement('div', { 'class': 'tier2-close-icon icon color-white-svg', dangerouslySetInnerHTML: { __html: header_arrowleftImage } }),
+                      { href: 'javascript:void(0);', 'class': 'title title-L tier2-close' },
+                      react_default.a.createElement('div', { 'class': 'tier2-close-icon icon', dangerouslySetInnerHTML: { __html: header_arrowleftImage } }),
                       'Departments '
                     ),
                     ' ',
                     react_default.a.createElement(
                       'a',
                       { href: 'javascript:void(0);', 'class': 'side-panel-close main-menu-reset' },
-                      react_default.a.createElement('div', { 'class': 'change-my-store-icon-close icon color-white-svg', dangerouslySetInnerHTML: { __html: header_closeImage } })
+                      react_default.a.createElement('div', { 'class': 'change-my-store-icon-close icon', dangerouslySetInnerHTML: { __html: header_closeImage } })
                     ),
                     ' '
                   ),
@@ -19545,11 +19551,20 @@ var header_Header = function (_Component) {
                                   react_default.a.createElement(
                                     'a',
                                     { href: 'javascript:void(0);', 'class': 'main-menu-tier1-button-md-down main-menu-md-primary' },
-                                    react_default.a.createElement(
-                                      'strong',
-                                      null,
-                                      'Sign in or Create an Account'
-                                    )
+                                    react_default.a.createElement('span', { dangerouslySetInnerHTML: { __html: accountNewImage } }),
+                                    'Sign In or Create Account'
+                                  ),
+                                  ' '
+                                ),
+                                react_default.a.createElement(
+                                  'li',
+                                  null,
+                                  ' ',
+                                  react_default.a.createElement(
+                                    'a',
+                                    { href: 'javascript:void(0);', 'class': 'main-menu-tier1-button-md-down main-menu-md-primary' },
+                                    react_default.a.createElement('span', { dangerouslySetInnerHTML: { __html: trackOrderImage } }),
+                                    'Track My Order'
                                   ),
                                   ' '
                                 ),
@@ -19559,10 +19574,11 @@ var header_Header = function (_Component) {
                                   ' ',
                                   react_default.a.createElement(
                                     'a',
-                                    { href: 'javascript:void(0);', 'class': 'main-menu-tier1-button-md-down main-menu-md-primary main-menu-md-primary-arrow main-menu-md-panel-btn' },
+                                    { href: 'javascript:void(0);', 'class': 'main-menu-tier1-button-md-down main-menu-md-primary main-menu-md-primary-arrow main-menu-md-panel-btn main-menu-tier1-link' },
                                     react_default.a.createElement(
                                       'strong',
                                       null,
+                                      react_default.a.createElement('span', { dangerouslySetInnerHTML: { __html: storeNewImage } }),
                                       'My Store:'
                                     ),
                                     ' Colin Creek Mall'
