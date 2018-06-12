@@ -620,7 +620,7 @@ class Header extends Component {
                   </form>
                 </div>
               </li>
-              <li class="main-menu-primary-item main-menu-primary-rewards show-for-xxlarge-only show-for-xlarge-only hide-for-xs-only hide-for-xxs-only">
+              <li class="main-menu-primary-item main-menu-primary-rewards hide-for-medium-down hide-for-sm-only hide-for-xs-only hide-for-xxs-only">
                 <a href="javascript:void(0);">
                   {/* <img src="/images/global/jcpenney-rewards.png" alt="JCPenney Rewards" /> */}
                   <span class="icon color-white-svg" dangerouslySetInnerHTML={{ __html: jcpenneyRewardsImage }} />
@@ -630,8 +630,8 @@ class Header extends Component {
                 <div class="dropdown-menu-block">
                   <button class="dropdown-button" type="button" tabindex="-1">
                     <div class="main-menu-primary-account-icon icon color-white-svg" dangerouslySetInnerHTML={{ __html: accountNewImage }} />
-                    {/* <div class="main-menu-primary-account-title">My Account</div>
-                    <div class="main-menu-primary-account-link">Sign In <span class="arrow"></span></div> */}
+                    <div class="main-menu-primary-account-title show-for-xlarge-only show-for-xxlarge-only">My Account</div>
+                    <div class="main-menu-primary-account-link hide-for-medium-only hide-for-small-only show-for-xlarge-only show-for-xxlarge-only">Sign In <span class="arrow"></span></div>
                   </button>
                   <div class="dropdown-menu dropdown-account">
                     <div class="tooltip tooltip-top-right tooltip-long tooltip-list">
@@ -652,6 +652,9 @@ class Header extends Component {
                     </div>
                   </div>
                 </div>
+              </li>
+              <li class="main-menu-primary-item track-order show-for-xlarge-only show-for-xxlarge-only">
+                <div class="main-menu-primary-account-title"><span class="color-white title-S">Track My</span><span class="title-M color-white">Orders</span></div>
               </li>
               <li class="main-menu-primary-item main-menu-primary-cart"> <a href="javascript:void(0);" class="main-menu-primary-cart-icon-full"> <span class="main-menu-primary-cart-icon-full-items">28</span>
                 <div class="main-menu-primary-cart-icon-full-icon icon color-white-svg" dangerouslySetInnerHTML={{ __html: cartFullImage }} />

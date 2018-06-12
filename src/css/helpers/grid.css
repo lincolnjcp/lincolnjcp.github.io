@@ -694,17 +694,17 @@ img {
 }
 .hide-for-xxlarge-only {
     @media (--viewport-xxl-only) {
-        display: none;
+        display: none !important;;
     }
 }
 .hide-for-xlarge-only {
     @media (--viewport-xl-only) {
-        display: none;
+        display: none !important;;
     }
 }
 .hide-for-large-only {
     @media (--viewport-lg-only) {
-        display: none;
+        display: none !important;;
     }
 }
 .hide-for-medium-only {
@@ -731,13 +731,13 @@ img {
 
 .hide-for-medium-down {
     @media (--viewport-md-down) {
-        display: none;
+        display: none !important;;
     }
 }
 
 .hide-for-large-up {
     @media (--viewport-lg) {
-        display: none;
+        display: none !important;;
     }
 }
 .show-for-xxlarge-only,

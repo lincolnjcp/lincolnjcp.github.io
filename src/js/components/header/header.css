@@ -49,6 +49,10 @@
 			border: 1px solid var(--color-concrete);
 			padding: 10px 20px;
 			margin: 0;
+			height: 40px;
+			@media (--viewport-md-down) {
+				height: 36px;
+			}
 
 			&::placeholder {
 			  color: var(--color-penneyred);
@@ -103,12 +107,17 @@
 			}
 		}
 		& .main-menu-primary-logo-svg {
-			max-width: 160px;
-			height: 30px;
+			max-width: 120px;
+			height: 32px;
 			@media (--viewport-md-only) {
 				& svg {
-					width: 160px;
+					width: 120px;
+					height: 32px;
 				}
+			}
+			@media (--viewport-md-up) {
+				left: 16px;
+				position: relative;
 			}
 		}
 	}
@@ -124,6 +133,10 @@
 			z-index: 2001;
 			width: 250px;
 			right: 30px;
+			@media (--viewport-md-down) {
+				right: -5px;
+				top: 28px;
+			}
 
 			& .tooltip {
 				padding-bottom: 0;
@@ -208,6 +221,16 @@
 			}
 		}
 
+	}
+
+	& .track-order {
+		width: 80px;
+		flex: none;
+
+		& span {
+			display: block;
+			text-align: center;
+		}
 	}
 
 	& .main-menu-primary-rewards {
@@ -537,9 +560,12 @@
 	}
 	.main-menu-md-down {
 		margin-bottom: 8px;
-		border-bottom: 1px solid var(--color-concrete);
 		border-top: 1px solid var(--color-concrete);
 		padding: 14px 0 8px;
+
+		& .main-menu-md-panel-li {
+			border-bottom: 1px solid var(--color-concrete);
+		}
 
 		& .main-menu-md-primary {
 			border: none;
@@ -820,17 +846,15 @@
 	}
 	.main-menu-primary {
 		position: relative;
-		padding: 10px 25px;
-		padding-bottom: 60px;
-
+		padding: 10px 20px;
 
 		& .side-panel-btn {
 			position: absolute;
 			top: -5px;
-			left: 8px;
+			left: -4px;
 			& svg {
-				width: 40px;
-				height: 40px;
+				width: 36px;
+				height: 36px;
 				& use {
 					fill: var(--color-white);
 				}
@@ -838,12 +862,9 @@
 		}
 
 		& .main-menu-primary-logo {
-			max-width: initial;
-			flex: 2;
-			flex-basis: 160px;
-			padding-left: 63px;
+			padding-left: 40px;
 			position: relative;
-
+			width: 158px;
 		}
 
 		& .main-menu-primary-cart {
@@ -854,7 +875,7 @@
 
 			@media (--viewport-sm-only) {
 				position: relative;
-				left: 15px;
+				left: 4	px;
 			}
 			
 			& .main-menu-primary-cart-icon-full {
@@ -866,14 +887,14 @@
 			}
 		}
 
-		& .main-menu-primary-search {
+		/* & .main-menu-primary-search {
 			display: block;
 			position: absolute;
 			bottom: 12px;
 			left: 0px;
 			width: 100%;
 			padding: 0 32px;
-		}
+		} */
 
 	}
 	.my-location{
@@ -900,13 +921,32 @@
 		}
 		
 	}
-		.title-text-or{
-			width: 80%;
-			font-weight: bold;
-			display: inline-block;
-			text-align: center;
-			margin-bottom: 15px;
+	.title-text-or{
+		width: 80%;
+		font-weight: bold;
+		display: inline-block;
+		text-align: center;
+		margin-bottom: 15px;
+	}
+}
+
+@media (--viewport-md-down) {
+	.main-menu-primary {
+		& .main-menu-primary-account {
+			width: 36px;;
+			padding: 0;
+
+			& button {
+				padding: 0;
+				top: -30px;
+
+				& svg {
+					width: 36px;
+					height: 36px;
+				}
+			}
 		}
+	}
 }
 
 @media (--viewport-xs-only) {
@@ -941,7 +981,13 @@
 		}
 
 		& .main-menu-primary-search {
+			display: block;
+			position: absolute;
+			bottom: 12px;
+			left: 0px;
+			width: 100%;
 			padding: 0 16px;
+
 			& input[type="text"] {
 				height: 36px;
 				padding: 6px 13px;
@@ -962,6 +1008,7 @@
 
 		& .main-menu-primary-logo {
 			padding-left: 40px;
+			flex-basis: 268px;
 		}
 		& .side-panel-btn {
 			width: 32px;
@@ -982,9 +1029,11 @@
 			min-width: initial;
 
 			& button {
-				width: 32px;
-				height: 32px;
+				width: 36px;
+				height: 36px;
 				padding: 0;
+				top: 0;
+				min-width: 36px;
 				& .main-menu-primary-account-icon {
 					top: -3px;
 					width: 36px;

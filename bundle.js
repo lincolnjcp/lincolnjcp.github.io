@@ -19303,7 +19303,7 @@ var header_Header = function (_Component) {
               ),
               react_default.a.createElement(
                 'li',
-                { 'class': 'main-menu-primary-item main-menu-primary-rewards show-for-xxlarge-only show-for-xlarge-only hide-for-xs-only hide-for-xxs-only' },
+                { 'class': 'main-menu-primary-item main-menu-primary-rewards hide-for-medium-down hide-for-sm-only hide-for-xs-only hide-for-xxs-only' },
                 react_default.a.createElement(
                   'a',
                   { href: 'javascript:void(0);' },
@@ -19319,7 +19319,18 @@ var header_Header = function (_Component) {
                   react_default.a.createElement(
                     'button',
                     { 'class': 'dropdown-button', type: 'button', tabindex: '-1' },
-                    react_default.a.createElement('div', { 'class': 'main-menu-primary-account-icon icon color-white-svg', dangerouslySetInnerHTML: { __html: accountNewImage } })
+                    react_default.a.createElement('div', { 'class': 'main-menu-primary-account-icon icon color-white-svg', dangerouslySetInnerHTML: { __html: accountNewImage } }),
+                    react_default.a.createElement(
+                      'div',
+                      { 'class': 'main-menu-primary-account-title show-for-xlarge-only show-for-xxlarge-only' },
+                      'My Account'
+                    ),
+                    react_default.a.createElement(
+                      'div',
+                      { 'class': 'main-menu-primary-account-link hide-for-medium-only hide-for-small-only show-for-xlarge-only show-for-xxlarge-only' },
+                      'Sign In ',
+                      react_default.a.createElement('span', { 'class': 'arrow' })
+                    )
                   ),
                   react_default.a.createElement(
                     'div',
@@ -19456,6 +19467,24 @@ var header_Header = function (_Component) {
                         )
                       )
                     )
+                  )
+                )
+              ),
+              react_default.a.createElement(
+                'li',
+                { 'class': 'main-menu-primary-item track-order show-for-xlarge-only show-for-xxlarge-only' },
+                react_default.a.createElement(
+                  'div',
+                  { 'class': 'main-menu-primary-account-title' },
+                  react_default.a.createElement(
+                    'span',
+                    { 'class': 'color-white title-S' },
+                    'Track My'
+                  ),
+                  react_default.a.createElement(
+                    'span',
+                    { 'class': 'title-M color-white' },
+                    'Orders'
                   )
                 )
               ),
