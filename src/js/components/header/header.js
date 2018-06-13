@@ -538,16 +538,16 @@ class Header extends Component {
     $('#menuPrimarySearch').focus(function () {
 
       if ($(window).width() >= 1024) {
-        $(".main-menu-primary-rewards, .main-menu-primary-account").hide(400);
+        $(".main-menu-primary-rewards, .main-menu-primary-account, .track-order").hide(400);
         $(this).attr('data-default', $(this).width());
       } else {
-        $(".main-menu-primary-rewards, .main-menu-primary-account").show();
+        $(".main-menu-primary-rewards, .main-menu-primary-account, .track-order").show();
       }
 
     }).blur(function () {
       if ($("#menuPrimarySearch").val() == "") {
         $('.main-menu').removeClass('main-menu-search-open');
-        $(".main-menu-primary-rewards, .main-menu-primary-account").show(400);
+        $(".main-menu-primary-rewards, .main-menu-primary-account, .track-order").show(400);
       }
 
     });
