@@ -431,7 +431,7 @@
         }
         & .main-menu-tier2-link {
             font-size: 16px;
-            padding-left: 40px;
+            padding-left: 32px;
             font-family: var(--font-headline);
             &:after {
                 right: auto;
@@ -439,7 +439,8 @@
                 background: url(var(--path-images)global/icons/nav/plus.svg) no-repeat right center;
                 background-size: 100% auto;
                 transition: transform 200ms;
-                opacity: 1;
+				opacity: 1;
+				top: 16px;
             }
         }
         & .main-menu-tier3-ul {
