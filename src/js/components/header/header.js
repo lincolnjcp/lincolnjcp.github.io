@@ -271,7 +271,7 @@ class Header extends Component {
       <li class="main-menu-tier1-li">
         <a href="javascript:void(0)" class="main-menu-tier1-link"><span class="main-menu-tier1-link-thumb"><img src={linkSet.thumb} alt="" /></span>{linkSet.name}</a>
         <ul class="main-menu-tier2-ul">
-          <li class="main-menu-secondary-hidden-lg-up color-lightgrey-bg"><span class="main-menu-tier1-link"><span class="main-menu-tier1-link-thumb"><img src={linkSet.thumb} alt="" /></span>{linkSet.name}</span></li>
+          <li class="main-menu-secondary-hidden-lg-up color-lightgrey-bg department-first-child"><span class="main-menu-tier1-link"><span class="main-menu-tier1-link-thumb"><img src={linkSet.thumb} alt="" /></span>{linkSet.name}</span></li>
           {linkSet.subLinks.map((link, index) => {
             return (
               <li key={index} class="main-menu-tier2-li"><a href="javascript:void(0)" class="main-menu-tier2-link">
@@ -311,18 +311,21 @@ class Header extends Component {
       $(this).toggleClass("arrow-down");
 
       if ($(".dropdown-button").hasClass("arrow-down")) {
-        $("body").append('<div id="menu-overlay" class="menu-overlay"></div>');
+        if($('#menu-overlay').length==0)
+          $("body").append('<div id="menu-overlay" class="menu-overlay"></div>');
+          else
+          $('#menu-overlay').trigger('click');
       } else {
         $("#menu-overlay").remove();
       }
-
-      $('#menu-overlay').on('click', function (e) {
-        $("#menu-overlay").remove();
-        $(".dropdown-menu").hide();
-        $(".dropdown-button").removeClass("arrow-down");
-      });
     });
 
+    // $('#menu-overlay').on('click', function (e) {
+    $('body').on('click', '#menu-overlay', function () {
+      $("#menu-overlay").remove();
+      $(".dropdown-menu").hide();
+      $(".dropdown-button").removeClass("arrow-down");
+    });
 
     $('.side-panel-btn').unbind('click').on('click', function (event) {
       // event.preventDefault();
@@ -599,7 +602,7 @@ class Header extends Component {
           <div class="main-menu-promotional-banner">
             <div class="main-menu-promotional-banner-content">
               <p class="S S-at-S mrg-zero main-menu-promotional-banner-text">Promotional font size is 14px…</p>
-              <p class="S S-at-S mrg-zero"> <a class="main-menu-promotional-banner-link" href="javascript:void(0);">See Details</a> </p>
+              <p class="S S-at-S mrg-zero main-menu-promotional-banner-link"> <a href="javascript:void(0);">See Details</a> </p>
             </div>
           </div>
           <div class="main-menu-bar-primary color-penneyred-bg">
@@ -669,27 +672,27 @@ class Header extends Component {
                     <h3 class="promo-lbl promo-lbl-M side-panel-headline">Hi, Guest</h3>
                     <a href="javascript:void(0);" class="title title-L tier2-close">
                       <div class="tier2-close-icon icon" dangerouslySetInnerHTML={{ __html: arrowleftImage }} />
-                      Departments </a> <a href="javascript:void(0);" class="side-panel-close main-menu-reset">
+                      Back </a> <a href="javascript:void(0);" class="side-panel-close main-menu-reset">
                       <div class="change-my-store-icon-close icon" dangerouslySetInnerHTML={{ __html: closeImage }} />
                     </a> </header>
                   <div class="side-panel-content">
                     <div class="main-menu-bar-secondary-container">
                       <div class="main-menu-secondary-left">
-                        <ul class="main-menu-secondary title title-s">
+                        <ul class="main-menu-secondary title title-S">
                           <li class="main-menu-secondary-li main-menu-secondary-li-shop-departments main-menu-secondary-open">
                             <button class="main-menu-secondary-shop-departments hide-for-medium-down">
                               <div class="main-menu-secondary-shop-departments-menu-svg icon color-nightsky-svg" dangerouslySetInnerHTML={{ __html: menuImage }} />
                               <span class="main-menu-secondary-shop-departments-menu-label">Shop Departments</span> </button>
                             <div class="main-menu-tier1">
                               <ul class="main-menu-md-down">
-                                <li> <a href="javascript:void(0);" class="main-menu-tier1-button-md-down main-menu-md-primary"><span dangerouslySetInnerHTML={{ __html: accountNewImage }}/>Sign In or Create Account</a> </li>
-                                <li> <a href="javascript:void(0);" class="main-menu-tier1-button-md-down main-menu-md-primary"><span dangerouslySetInnerHTML={{ __html: trackOrderImage }}/>Track My Order</a> </li>
-                                <li class="main-menu-md-panel-li"> <a href="javascript:void(0);" class="main-menu-tier1-button-md-down main-menu-md-primary main-menu-md-primary-arrow main-menu-md-panel-btn main-menu-tier1-link"><strong><span dangerouslySetInnerHTML={{ __html: storeNewImage }}/>My Store:</strong> Colin Creek Mall</a>
+                                <li> <a href="javascript:void(0);" class="main-menu-tier1-button-md-down main-menu-md-primary"><span dangerouslySetInnerHTML={{ __html: accountNewImage }} />Sign In or Create Account</a> </li>
+                                <li> <a href="javascript:void(0);" class="main-menu-tier1-button-md-down main-menu-md-primary"><span dangerouslySetInnerHTML={{ __html: trackOrderImage }} />Track My Order</a> </li>
+                                <li class="main-menu-md-panel-li"> <a href="javascript:void(0);" class="main-menu-tier1-button-md-down main-menu-md-primary main-menu-md-primary-arrow main-menu-md-panel-btn main-menu-tier1-link"><strong><span dangerouslySetInnerHTML={{ __html: storeNewImage }} />My Store:</strong> Colin Creek Mall</a>
                                   <div class="main-menu-md-panel"> {this.changeMyStoreContent('Mobile')} </div>
                                 </li>
                               </ul>
                               <ul class="main-menu-tier1-ul">
-                                <span>Departments</span>
+                                <span class="department-label title title-S"><strong>Departments</strong></span>
                                 {this.navSet({
                                   name: "For The Home",
                                   thumb: '/images/design-system/fpo/navigation/nav-mobile-for-the-home.jpg',

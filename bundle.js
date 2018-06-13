@@ -18847,7 +18847,7 @@ var header_Header = function (_Component) {
           { 'class': 'main-menu-tier2-ul' },
           react_default.a.createElement(
             'li',
-            { 'class': 'main-menu-secondary-hidden-lg-up color-lightgrey-bg' },
+            { 'class': 'main-menu-secondary-hidden-lg-up color-lightgrey-bg department-first-child' },
             react_default.a.createElement(
               'span',
               { 'class': 'main-menu-tier1-link' },
@@ -18943,16 +18943,17 @@ var header_Header = function (_Component) {
         jquery_default()(this).toggleClass("arrow-down");
 
         if (jquery_default()(".dropdown-button").hasClass("arrow-down")) {
-          jquery_default()("body").append('<div id="menu-overlay" class="menu-overlay"></div>');
+          if (jquery_default()('#menu-overlay').length == 0) jquery_default()("body").append('<div id="menu-overlay" class="menu-overlay"></div>');else jquery_default()('#menu-overlay').trigger('click');
         } else {
           jquery_default()("#menu-overlay").remove();
         }
+      });
 
-        jquery_default()('#menu-overlay').on('click', function (e) {
-          jquery_default()("#menu-overlay").remove();
-          jquery_default()(".dropdown-menu").hide();
-          jquery_default()(".dropdown-button").removeClass("arrow-down");
-        });
+      // $('#menu-overlay').on('click', function (e) {
+      jquery_default()('body').on('click', '#menu-overlay', function () {
+        jquery_default()("#menu-overlay").remove();
+        jquery_default()(".dropdown-menu").hide();
+        jquery_default()(".dropdown-button").removeClass("arrow-down");
       });
 
       jquery_default()('.side-panel-btn').unbind('click').on('click', function (event) {
@@ -19242,11 +19243,11 @@ var header_Header = function (_Component) {
               ),
               react_default.a.createElement(
                 'p',
-                { 'class': 'S S-at-S mrg-zero' },
+                { 'class': 'S S-at-S mrg-zero main-menu-promotional-banner-link' },
                 ' ',
                 react_default.a.createElement(
                   'a',
-                  { 'class': 'main-menu-promotional-banner-link', href: 'javascript:void(0);' },
+                  { href: 'javascript:void(0);' },
                   'See Details'
                 ),
                 ' '
@@ -19322,12 +19323,12 @@ var header_Header = function (_Component) {
                     react_default.a.createElement('div', { 'class': 'main-menu-primary-account-icon icon color-white-svg', dangerouslySetInnerHTML: { __html: accountNewImage } }),
                     react_default.a.createElement(
                       'div',
-                      { 'class': 'main-menu-primary-account-title show-for-xlarge-only show-for-xxlarge-only' },
+                      { 'class': 'main-menu-primary-account-title show-for-large-only show-for-xlarge-only show-for-xxlarge-only hide-for-medium-down title-XS' },
                       'My Account'
                     ),
                     react_default.a.createElement(
                       'div',
-                      { 'class': 'main-menu-primary-account-link hide-for-medium-only hide-for-small-only show-for-xlarge-only show-for-xxlarge-only' },
+                      { 'class': 'main-menu-primary-account-link show-for-large-only show-for-xlarge-only show-for-xxlarge-only hide-for-medium-down title-M' },
                       'Sign In ',
                       react_default.a.createElement('span', { 'class': 'arrow' })
                     )
@@ -19531,7 +19532,7 @@ var header_Header = function (_Component) {
                       'a',
                       { href: 'javascript:void(0);', 'class': 'title title-L tier2-close' },
                       react_default.a.createElement('div', { 'class': 'tier2-close-icon icon', dangerouslySetInnerHTML: { __html: header_arrowleftImage } }),
-                      'Departments '
+                      'Back '
                     ),
                     ' ',
                     react_default.a.createElement(
@@ -19552,7 +19553,7 @@ var header_Header = function (_Component) {
                         { 'class': 'main-menu-secondary-left' },
                         react_default.a.createElement(
                           'ul',
-                          { 'class': 'main-menu-secondary title title-s' },
+                          { 'class': 'main-menu-secondary title title-S' },
                           react_default.a.createElement(
                             'li',
                             { 'class': 'main-menu-secondary-li main-menu-secondary-li-shop-departments main-menu-secondary-open' },
@@ -19624,6 +19625,15 @@ var header_Header = function (_Component) {
                               react_default.a.createElement(
                                 'ul',
                                 { 'class': 'main-menu-tier1-ul' },
+                                react_default.a.createElement(
+                                  'span',
+                                  { 'class': 'department-label title title-S' },
+                                  react_default.a.createElement(
+                                    'strong',
+                                    null,
+                                    'Departments'
+                                  )
+                                ),
                                 this.navSet({
                                   name: "For The Home",
                                   thumb: '/images/design-system/fpo/navigation/nav-mobile-for-the-home.jpg',
