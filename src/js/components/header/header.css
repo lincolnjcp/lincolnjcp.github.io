@@ -277,6 +277,7 @@
 	padding-top: 16px;
 	& .side-panel-close {
 		top: 20px;
+		right: 2px;
 	}
 }
 
