@@ -598,8 +598,8 @@ class Header extends Component {
         <header class="main-menu">
           <div class="main-menu-promotional-banner">
             <div class="main-menu-promotional-banner-content">
-              <p class="S XS-at-S mrg-zero main-menu-promotional-banner-text">Get it today with FREE same day pickup</p>
-              <p class="S XS-at-S mrg-zero"> <a class="main-menu-promotional-banner-link" href="javascript:void(0);">See Details</a> </p>
+              <p class="S S-at-S mrg-zero main-menu-promotional-banner-text">Promotional font size is 14px…</p>
+              <p class="S S-at-S mrg-zero"> <a class="main-menu-promotional-banner-link" href="javascript:void(0);">See Details</a> </p>
             </div>
           </div>
           <div class="main-menu-bar-primary color-penneyred-bg">
@@ -654,7 +654,7 @@ class Header extends Component {
                 </div>
               </li>
               <li class="main-menu-primary-item track-order show-for-xlarge-only show-for-xxlarge-only">
-                <div class="main-menu-primary-account-title"><span class="color-white title-S">Track My</span><span class="title-M color-white">Orders</span></div>
+                <div class="main-menu-primary-account-title"><span class="color-white title-XS">Track My</span><span class="title-M color-white">Orders</span></div>
               </li>
               <li class="main-menu-primary-item main-menu-primary-cart"> <a href="javascript:void(0);" class="main-menu-primary-cart-icon-full"> <span class="main-menu-primary-cart-icon-full-items">28</span>
                 <div class="main-menu-primary-cart-icon-full-icon icon color-white-svg" dangerouslySetInnerHTML={{ __html: cartFullImage }} />

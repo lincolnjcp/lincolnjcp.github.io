@@ -19237,12 +19237,12 @@ var header_Header = function (_Component) {
               { 'class': 'main-menu-promotional-banner-content' },
               react_default.a.createElement(
                 'p',
-                { 'class': 'S XS-at-S mrg-zero main-menu-promotional-banner-text' },
-                'Get it today with FREE same day pickup'
+                { 'class': 'S S-at-S mrg-zero main-menu-promotional-banner-text' },
+                'Promotional font size is 14px\u2026'
               ),
               react_default.a.createElement(
                 'p',
-                { 'class': 'S XS-at-S mrg-zero' },
+                { 'class': 'S S-at-S mrg-zero' },
                 ' ',
                 react_default.a.createElement(
                   'a',
@@ -19478,7 +19478,7 @@ var header_Header = function (_Component) {
                   { 'class': 'main-menu-primary-account-title' },
                   react_default.a.createElement(
                     'span',
-                    { 'class': 'color-white title-S' },
+                    { 'class': 'color-white title-XS' },
                     'Track My'
                   ),
                   react_default.a.createElement(
