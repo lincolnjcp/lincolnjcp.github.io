@@ -630,8 +630,8 @@ class Header extends Component {
                 <div class="dropdown-menu-block">
                   <button class="dropdown-button" type="button" tabindex="-1">
                     <div class="main-menu-primary-account-icon icon color-white-svg" dangerouslySetInnerHTML={{ __html: accountNewImage }} />
-                    <div class="main-menu-primary-account-title show-for-xlarge-only show-for-xxlarge-only">My Account</div>
-                    <div class="main-menu-primary-account-link hide-for-medium-only hide-for-small-only show-for-xlarge-only show-for-xxlarge-only">Sign In <span class="arrow"></span></div>
+                    <div class="main-menu-primary-account-title show-for-large-only show-for-xlarge-only show-for-xxlarge-only hide-for-medium-down title-XS">My Account</div>
+                    <div class="main-menu-primary-account-link show-for-large-only show-for-xlarge-only show-for-xxlarge-only hide-for-medium-down title-M">Sign In <span class="arrow"></span></div>
                   </button>
                   <div class="dropdown-menu dropdown-account">
                     <div class="tooltip tooltip-top-right tooltip-long tooltip-list">
@@ -689,6 +689,7 @@ class Header extends Component {
                                 </li>
                               </ul>
                               <ul class="main-menu-tier1-ul">
+                                <span>Departments</span>
                                 {this.navSet({
                                   name: "For The Home",
                                   thumb: '/images/design-system/fpo/navigation/nav-mobile-for-the-home.jpg',

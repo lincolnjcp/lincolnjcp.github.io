@@ -113,7 +113,7 @@
         }
     }
     & .main-menu-primary-account {
-        padding: 0 30px;
+		padding: 0 24px 0 42px;
         flex: none;
         width: 194px;
         position: relative;
@@ -441,7 +441,7 @@
         & .side-panel-content {
             overflow-x: hidden;
             width: 640px;
-            padding-top: 64px;
+            padding-top: 55px;
             padding-bottom: 55px;
             z-index: -1;
         }
@@ -468,7 +468,11 @@
             & .main-menu-tier1-link-thumb {
                 position: absolute;
                 top: 4px;
-                left: 16px;
+				left: 16px;
+				& img {
+					width: 40px;
+					height: 40px;
+				}
             }
         }
         & span.main-menu-tier1-link {
@@ -723,7 +727,12 @@
     }
     .main-menu-md-down {
         display: none;
-    }
+	}
+	.main-menu-primary {
+		& .main-menu-primary-cart {
+			padding-left: 0;
+		}
+	}
 }
 
 @media (--viewport-md-down) {
@@ -804,8 +813,8 @@
             width: 36px;
             @media (--viewport-sm-only) {
                 position: relative;
-                left: 4 px;
-            }
+                left: 4px;
+			}
             & .main-menu-primary-cart-icon-full {
                 width: 36px;
                 height: 36px;
@@ -857,7 +866,6 @@
     .main-menu-primary {
         & .main-menu-primary-account {
             width: 36px;
-            ;
             padding: 0;
             & button {
                 padding: 0;
@@ -893,7 +901,8 @@
         padding: 12px 12px 50px;
         & .main-menu-primary-logo {
             flex-basis: 156px;
-            padding-left: 46px;
+			padding-left: 46px;
+			flex: auto;
             & .main-menu-primary-logo-svg {
                 max-width: 120px;
             }
@@ -939,11 +948,11 @@
                 }
             }
         }
-        & .main-menu-primary-cart-icon-full {
+        /* & .main-menu-primary-cart-icon-full {
             @media (--viewport-xs-down) {
                 right: -6px;
             }
-        }
+        } */
         & .main-menu-primary-account {
             padding: 0 8px;
             max-width: 36px;
@@ -973,7 +982,11 @@
             & .dropdown-account .tooltip {
                 right: 0;
                 top: -4px;
-                left: 28px;
+				left: 28px;
+				@media (--viewport-small-down) {
+					top: 6px;
+					left: 4px;
+				}
             }
         }
     }

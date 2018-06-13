@@ -735,6 +735,12 @@ img {
     }
 }
 
+.hide-for-large-down {
+    @media (--viewport-lg-down) {
+        display: none !important;;
+    }
+}
+
 .hide-for-large-up {
     @media (--viewport-lg) {
         display: none !important;;
