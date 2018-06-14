@@ -7,7 +7,7 @@ const menuImage = require('!!raw-loader?es5=1!../../../images/global/icons/nav/m
 const closeImage = require('!!raw-loader?es5=1!../../../images/global/icons/nav/close.svg');
 const cartFullImage = require('!!raw-loader?es5=1!../../../images/global/icons/utility/cart/cart-full.svg');
 const trackOrderImage = require('!!raw-loader?es5=1!../../../images/global/icons/utility/ship/track-order.svg');
-const storeNewImage = require('!!raw-loader?es5=1!../../../images/global/icons/utility/store/store-new.svg');
+const storeNewImage = require('!!raw-loader?es5=1!../../../images/global/icons/utility/store/store.svg');
 const accountImage = require('!!raw-loader?es5=1!../../../images/global/icons/service/account.svg');
 const accountNewImage = require('!!raw-loader?es5=1!../../../images/global/icons/service/account-new.svg');
 const arrowleftImage = require('!!raw-loader?es5=1!../../../images/global/icons/nav/arrow-left.svg');
@@ -687,7 +687,7 @@ class Header extends Component {
                               <ul class="main-menu-md-down">
                                 <li> <a href="javascript:void(0);" class="main-menu-tier1-button-md-down main-menu-md-primary"><span dangerouslySetInnerHTML={{ __html: accountNewImage }} />Sign In or Create Account</a> </li>
                                 <li> <a href="javascript:void(0);" class="main-menu-tier1-button-md-down main-menu-md-primary"><span dangerouslySetInnerHTML={{ __html: trackOrderImage }} />Track My Order</a> </li>
-                                <li class="main-menu-md-panel-li"> <a href="javascript:void(0);" class="main-menu-tier1-button-md-down main-menu-md-primary main-menu-md-primary-arrow main-menu-md-panel-btn main-menu-tier1-link"><strong><span dangerouslySetInnerHTML={{ __html: storeNewImage }} />My Store:</strong> Colin Creek Mall</a>
+                                <li class="main-menu-md-panel-li main-menu-tier1-border"> <a href="javascript:void(0);" class="main-menu-tier1-button-md-down main-menu-md-primary"><span dangerouslySetInnerHTML={{ __html: storeNewImage }}/> Find a Store</a>
                                   <div class="main-menu-md-panel"> {this.changeMyStoreContent('Mobile')} </div>
                                 </li>
                               </ul>
@@ -875,13 +875,19 @@ class Header extends Component {
                           <li class="main-menu-secondary-li main-menu-secondary-li-primary main-menu-secondary-hidden-lg-up"> <a href="javascript:void(0)" class="main-menu-md-primary">My jcpenney.com</a> </li>
                           <li class="main-menu-secondary-li main-menu-secondary-li-primary main-menu-secondary-hidden-lg-up"> <a href="javascript:void(0)" class="main-menu-md-primary">Clearance</a> </li>
                           <li class="main-menu-secondary-li main-menu-secondary-li-primary main-menu-secondary-li-highlight"> <a href="javascript:void(0)" class="main-menu-md-primary">Coupons</a> </li>
-                          <li class="main-menu-secondary-li main-menu-secondary-li-primary main-menu-secondary-hidden-lg-up"> <a href="javascript:void(0)" class="main-menu-md-primary">Sign Out</a> </li>
+                          <li class="main-menu-secondary-li main-menu-secondary-li-primary main-menu-secondary-hidden-lg-up border-top-menu"> <a href="javascript:void(0)" class="main-menu-md-primary">Need Help?</a> </li>
+                          <li class="main-menu-secondary-li main-menu-secondary-li-primary main-menu-secondary-hidden-lg-up"> <a href="javascript:void(0)" class="main-menu-md-primary">Accessible View</a> </li>
+                          <li class="main-menu-secondary-li main-menu-secondary-li-primary main-menu-secondary-hidden-lg-up border-top-menu"> <a href="javascript:void(0)" class="main-menu-md-primary">Sign Out</a> </li>
                         </ul>
                       </div>
                       <div class="main-menu-secondary-right main-menu-secondary-hidden-md-down">
                         <div class="dropdown-menu-block main-menu-secondary-my-store">
-                          <button class="dropdown-button main-menu-tier1-button-md-down" type="button" tabindex="-1"> <strong>My Store:</strong> Collin Creek Mall <span class="arrow"></span> </button>
-                          <div class="dropdown-menu dropdown-my-store">
+                          {/* <button class="dropdown-button main-menu-tier1-button-md-down" type="button" tabindex="-1"> <strong>My Store:</strong> Collin Creek Mall <span class="arrow"></span> </button> */}
+                          <button class="dropdown-button main-menu-tier1-button-md-down" type="button" tabindex="-1"> 
+                            <span dangerouslySetInnerHTML={{ __html: storeNewImage }}/>
+                            <span class="find-store-button">Find a Store</span>
+                          </button>
+                          {/* <div class="dropdown-menu dropdown-my-store">
                             <ul class="tooltip tooltip-top-right tooltip-long tooltip-list">
                               <li>
                                 <div class="main-menu-secondary-my-store-listing">
@@ -897,7 +903,7 @@ class Header extends Component {
                                 </div>
                               </li>
                             </ul>
-                          </div>
+                          </div> */}
                         </div>
                       </div>
                     </div>

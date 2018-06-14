@@ -565,13 +565,6 @@ module.exports = "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http:/
 
 /***/ }),
 
-/***/ "IeBy":
-/***/ (function(module, exports) {
-
-module.exports = "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"32\" height=\"32\" viewBox=\"0 0 32 32\">\n    <defs>\n        <path id=\"a\" d=\"M24 7.697a3.36 3.36 0 0 1-.386 1.593c-.257.488-.597.891-1.02 1.21v9.105h.703a.68.68 0 0 1 .496.206c.138.136.207.3.207.492a.669.669 0 0 1-.207.492.68.68 0 0 1-.496.205H.717a.696.696 0 0 1-.51-.205.669.669 0 0 1-.207-.492c0-.192.069-.356.207-.492a.696.696 0 0 1 .51-.206h.703V10.5A3.53 3.53 0 0 1 .386 9.29 3.36 3.36 0 0 1 0 7.697V6.303c0-.055.007-.11.02-.164a.547.547 0 0 1 .063-.15L2.909.382a.629.629 0 0 1 .255-.28A.703.703 0 0 1 3.529 0h16.942c.138 0 .262.034.372.103.11.068.198.161.262.28l2.826 5.605c.018.046.035.096.048.15.014.055.021.11.021.165v1.394zm-9.167 2.106c.579 0 1.075-.205 1.489-.616.413-.41.62-.906.62-1.49V7H12.71v.697c0 .584.207 1.08.62 1.49.414.41.915.616 1.503.616zM1.42 7.697c0 .584.207 1.08.62 1.49.414.41.91.616 1.489.616.588 0 1.089-.205 1.503-.616.413-.41.62-.906.62-1.49V7H1.42v.697zm9.884-6.302H8.326l-1.061 4.21h4.039v-4.21zm4.384 0H12.71v4.21h4.039l-1.061-4.21zM7.058 7v.697c0 .584.207 1.08.62 1.49.414.41.915.616 1.503.616.588 0 1.089-.205 1.503-.616.413-.41.62-.906.62-1.49V7H7.058zm11.304 0v.697c0 .584.207 1.08.62 1.49.414.41.91.616 1.489.616.588 0 1.089-.205 1.503-.616.413-.41.62-.906.62-1.49V7h-4.232zm3.79-1.395l-2.108-4.21h-2.895l1.047 4.21h3.957zM3.97 1.395l-2.123 4.21h3.957l1.061-4.21H3.97zm-1.144 9.734v8.476h11.29V11.13a3.35 3.35 0 0 1-1.179-.472 3.606 3.606 0 0 1-.93-.854 3.61 3.61 0 0 1-1.22 1.011 3.434 3.434 0 0 1-1.606.383 3.434 3.434 0 0 1-1.606-.383 3.61 3.61 0 0 1-1.22-1.011 3.61 3.61 0 0 1-1.22 1.011 3.434 3.434 0 0 1-1.606.383c-.12 0-.237-.004-.352-.013a2.44 2.44 0 0 1-.351-.055zm18.348 8.476V11.13a2.09 2.09 0 0 1-.345.055 4.71 4.71 0 0 1-.358.013 3.434 3.434 0 0 1-1.606-.383 3.61 3.61 0 0 1-1.22-1.011 3.406 3.406 0 0 1-2.11 1.326v8.476h5.639zm-2.106-4.328c0 .35-.126.65-.378.9-.253.251-.564.376-.934.376-.353 0-.656-.125-.909-.375a1.224 1.224 0 0 1-.378-.901c0-.35.126-.651.378-.902.253-.25.556-.375.909-.375.37 0 .681.125.934.375.252.25.378.551.378.902zm-13.66.345a.777.777 0 0 1-.268-.047.553.553 0 0 1-.228-.158.669.669 0 0 1-.207-.492c0-.191.07-.355.207-.492l1.406-1.395a.68.68 0 0 1 .496-.205.68.68 0 0 1 .497.205c.138.137.207.301.207.493a.669.669 0 0 1-.207.492l-1.406 1.394a.553.553 0 0 1-.228.158.777.777 0 0 1-.269.047zm2.353 2.803a.777.777 0 0 1-.269-.048.553.553 0 0 1-.227-.157.669.669 0 0 1-.207-.492c0-.192.069-.356.207-.492l4.232-4.198a.688.688 0 0 1 .503-.205c.198 0 .365.069.503.205.138.137.207.301.207.493a.669.669 0 0 1-.207.492L8.257 18.22a.553.553 0 0 1-.227.157.777.777 0 0 1-.269.048z\"/>\n    </defs>\n    <g fill=\"none\" fill-rule=\"evenodd\" transform=\"translate(4 5)\">\n        <mask id=\"b\" fill=\"#fff\">\n            <use xlink:href=\"#a\"/>\n        </mask>\n        <use fill=\"#111\" xlink:href=\"#a\"/>\n        <g fill=\"#384048\" mask=\"url(#b)\">\n            <path d=\"M-4-5h32v32H-4z\"/>\n        </g>\n    </g>\n</svg>\n"
-
-/***/ }),
-
 /***/ "JAfA":
 /***/ (function(module, exports) {
 
@@ -18143,7 +18136,7 @@ var header_menuImage = __webpack_require__("738v");
 var header_closeImage = __webpack_require__("oWX6");
 var header_cartFullImage = __webpack_require__("VlqD");
 var trackOrderImage = __webpack_require__("BxHr");
-var storeNewImage = __webpack_require__("IeBy");
+var storeNewImage = __webpack_require__("qodu");
 var header_accountImage = __webpack_require__("8ysx");
 var accountNewImage = __webpack_require__("87qO");
 var header_arrowleftImage = __webpack_require__("FAZD");
@@ -19600,18 +19593,13 @@ var header_Header = function (_Component) {
                                 ),
                                 react_default.a.createElement(
                                   'li',
-                                  { 'class': 'main-menu-md-panel-li' },
+                                  { 'class': 'main-menu-md-panel-li main-menu-tier1-border' },
                                   ' ',
                                   react_default.a.createElement(
                                     'a',
-                                    { href: 'javascript:void(0);', 'class': 'main-menu-tier1-button-md-down main-menu-md-primary main-menu-md-primary-arrow main-menu-md-panel-btn main-menu-tier1-link' },
-                                    react_default.a.createElement(
-                                      'strong',
-                                      null,
-                                      react_default.a.createElement('span', { dangerouslySetInnerHTML: { __html: storeNewImage } }),
-                                      'My Store:'
-                                    ),
-                                    ' Colin Creek Mall'
+                                    { href: 'javascript:void(0);', 'class': 'main-menu-tier1-button-md-down main-menu-md-primary' },
+                                    react_default.a.createElement('span', { dangerouslySetInnerHTML: { __html: storeNewImage } }),
+                                    ' Find a Store'
                                   ),
                                   react_default.a.createElement(
                                     'div',
@@ -19854,7 +19842,29 @@ var header_Header = function (_Component) {
                           ),
                           react_default.a.createElement(
                             'li',
+                            { 'class': 'main-menu-secondary-li main-menu-secondary-li-primary main-menu-secondary-hidden-lg-up border-top-menu' },
+                            ' ',
+                            react_default.a.createElement(
+                              'a',
+                              { href: 'javascript:void(0)', 'class': 'main-menu-md-primary' },
+                              'Need Help?'
+                            ),
+                            ' '
+                          ),
+                          react_default.a.createElement(
+                            'li',
                             { 'class': 'main-menu-secondary-li main-menu-secondary-li-primary main-menu-secondary-hidden-lg-up' },
+                            ' ',
+                            react_default.a.createElement(
+                              'a',
+                              { href: 'javascript:void(0)', 'class': 'main-menu-md-primary' },
+                              'Accessible View'
+                            ),
+                            ' '
+                          ),
+                          react_default.a.createElement(
+                            'li',
+                            { 'class': 'main-menu-secondary-li main-menu-secondary-li-primary main-menu-secondary-hidden-lg-up border-top-menu' },
                             ' ',
                             react_default.a.createElement(
                               'a',
@@ -19874,73 +19884,11 @@ var header_Header = function (_Component) {
                           react_default.a.createElement(
                             'button',
                             { 'class': 'dropdown-button main-menu-tier1-button-md-down', type: 'button', tabindex: '-1' },
-                            ' ',
+                            react_default.a.createElement('span', { dangerouslySetInnerHTML: { __html: storeNewImage } }),
                             react_default.a.createElement(
-                              'strong',
-                              null,
-                              'My Store:'
-                            ),
-                            ' Collin Creek Mall ',
-                            react_default.a.createElement('span', { 'class': 'arrow' }),
-                            ' '
-                          ),
-                          react_default.a.createElement(
-                            'div',
-                            { 'class': 'dropdown-menu dropdown-my-store' },
-                            react_default.a.createElement(
-                              'ul',
-                              { 'class': 'tooltip tooltip-top-right tooltip-long tooltip-list' },
-                              react_default.a.createElement(
-                                'li',
-                                null,
-                                react_default.a.createElement(
-                                  'div',
-                                  { 'class': 'main-menu-secondary-my-store-listing' },
-                                  react_default.a.createElement(
-                                    'h4',
-                                    { 'class': 'title title-M mrg-S' },
-                                    'Collin Creek Mall'
-                                  ),
-                                  react_default.a.createElement(
-                                    'p',
-                                    { 'class': 'std-txt std-txt-M mrg-M' },
-                                    '821 N Central Expwy',
-                                    react_default.a.createElement('br', null),
-                                    'Plano, TX 75075'
-                                  ),
-                                  react_default.a.createElement(
-                                    'p',
-                                    { 'class': 'mrg-M' },
-                                    react_default.a.createElement(
-                                      'a',
-                                      { href: 'javascript:void(0);' },
-                                      'Get Directions'
-                                    )
-                                  ),
-                                  react_default.a.createElement(
-                                    'p',
-                                    { 'class': 'std-txt std-txt-M mrg-M' },
-                                    'Mon-Thu : 10am-10pm',
-                                    react_default.a.createElement('br', null),
-                                    'Fri : 9am-11pm',
-                                    react_default.a.createElement('br', null),
-                                    'Sat : 8am-11pm',
-                                    react_default.a.createElement('br', null),
-                                    'Sun : 9am-10pm'
-                                  ),
-                                  react_default.a.createElement(
-                                    'div',
-                                    null,
-                                    ' ',
-                                    react_default.a.createElement(
-                                      'a',
-                                      { href: 'javascript:void(0);', 'class': 'btn btn-M btn-secondary btn-full side-panel-btn', 'data-target': '#changeMyStore' },
-                                      ' Change My Store '
-                                    ),
-                                    ' '
-                                  )
-                                )
-                              )
+                              'span',
+                              { 'class': 'find-store-button' },
+                              'Find a Store'
                             )
                           )
                         )

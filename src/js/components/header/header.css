@@ -259,7 +259,8 @@
 
 .department-label {
 	padding-left: 16px;
-	padding-bottom: 10px;
+    padding-bottom: 10px;
+    display: inline-block;
 }
 
 .main-menu-primary-search-form {
@@ -274,9 +275,9 @@
 }
 
 .side-panel-header {
-	padding-top: 16px;
+	padding: 12px 16px;
 	& .side-panel-close {
-		top: 20px;
+		top: 16px;
 		right: 2px;
 	}
 }
@@ -351,7 +352,7 @@
                 font-weight: 500;
                 max-width: initial;
                 float: right;
-                background: none;
+				background: none;
                 &:hover {
                     border: none;
                 }
@@ -408,6 +409,22 @@
 		padding: 5px 0;
 	}
 }
+.main-menu-bar-secondary-container {
+	& .main-menu-secondary-my-store {
+		& button {
+			padding: 0 40px 0 0;
+		}
+	}
+}
+
+.main-menu-secondary {
+	& .border-top-menu {
+		border-top: 1px solid var(--color-concrete);
+	}
+	& .border-bot-menu {
+		border-bottom: 1px solid var(--color-concrete);
+	}
+}
 
 @media (--viewport-md-down) {
     .main-menu-secondary-li-shop-departments {
@@ -417,11 +434,10 @@
         display: block;
         padding: 20px 16px;
         position: relative;
-        font-size: 16px;
+        font-size: 14px;
         text-decoration: none;
         width: 320px;
         font-family: var(--font-headline);
-        border-bottom: 1px solid var(--color-concrete);
     }
     .main-menu-tier1 {
         & .main-menu-tier2-li {
@@ -506,11 +522,9 @@
     }
     .main-menu-tier1 {
         & .main-menu-tier1-link {
-            padding-left: 66px;
-            padding-top: 18px;
-            padding-bottom: 18px;
+			padding: 18px 0 18px 60px;
             position: relative;
-            font-size: 16px;
+            font-size: 14px;
             font-family: var(--font-headline);
             &:after {
                 top: 20px;
@@ -569,16 +583,13 @@
         }
     }
     .main-menu-md-down {
-        margin-bottom: 0;
-        border-top: 1px solid var(--color-concrete);
-        padding: 14px 0 0;
-        & .main-menu-md-panel-li {
-			& .main-menu-tier1-link {
-				border-bottom: 1px solid var(--color-concrete);
-				padding-bottom: 20px;
-			}
-        }
-        & .main-menu-md-primary {
+        margin-bottom: 16px;
+        padding: 8px 0 0;
+		& .main-menu-tier1-border {
+			border-bottom: 1px solid var(--color-concrete);
+			padding-bottom: 20px;
+		}
+        & li {
             border: none;
             padding: 8px 20px;
             top: -16px;
@@ -588,7 +599,7 @@
             & span {
                 display: inline-block;
                 position: relative;
-                top: 10px;
+                top: -1px;
                 padding-right: 12px;
             }
         }
@@ -805,10 +816,13 @@
                     height: 16px;
                 }
             }
-        }
+		}
+		& .side-panel-header {
+			border-bottom: 1px solid var(--color-concrete);
+		}
     }
     .main-menu-tier1 {
-        margin-bottom: 20px;
+        margin-bottom: 12px;
     }
     .main-menu-secondary-my-store {
         padding-bottom: 25px;
@@ -840,8 +854,9 @@
                 border: none;
                 border-top: 1px solid var(--color-concrete);
                 border-bottom: 1px solid var(--color-concrete);
-            }
-        }
+			}
+		}
+
     }
     .main-menu-primary {
         position: relative;
@@ -1071,6 +1086,21 @@
         text-align: center;
         margin-bottom: 15px;
     }
+}
+
+.main-menu-tier1-button-md-down {
+	padding: 0;
+	& .find-store-button {
+		position: relative;
+		top: 0;
+	}
+
+	& svg {
+		width: 24px;
+		height: 24px;
+		position: relative;
+		top: 6px;
+	}
 }
 
 .change-my-store-map-view {
