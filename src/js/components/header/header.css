@@ -31,7 +31,7 @@
 	}
 
 	.department-label {
-		display: none;
+		display: none !important;
 	}
 }
 
