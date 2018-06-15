@@ -56,17 +56,22 @@
     & .main-menu-primary-search {
         flex: 2.5;
         position: relative;
-        padding: 0 15px;
-        -webkit-transition: all .5s;
+		padding: 0 15px;
+		/* -webkit-transition: -webkit-flex 250ms linear; */
+        /* -webkit-transition: all .5s;
         -moz-transition: all .5s;
-        transition: all .5s;
+		transition: all .5s; */
+		/* transition:flex-grow .5s; */
         & input[type=text] {
             width: 100%;
             border-radius: 24px;
             border: 1px solid var(--color-concrete);
             padding: 10px 20px;
             margin: 0;
-            height: 40px;
+			height: 40px;
+			-webkit-transition: -webkit-flex 250ms linear;
+			/* transition:flex-grow .5s; */
+			/* transition: all .5s;  */
             @media (--viewport-md-down) {
                 height: 36px;
             }
@@ -74,7 +79,10 @@
                 color: var(--color-penneyred);
                 opacity: 1;
                 font-style: normal;
-            }
+			}
+			&:focus {
+				flex-grow: 0.00001;
+			}
         }
         & .btn-search {
             position: absolute;
@@ -397,6 +405,19 @@
     }
 }
 
+.main-menu-tier1.active-tier2 {
+	& .main-menu-md-down {
+		& li {
+			border: none;
+		}
+	}
+}
+.main-menu-tier1 {
+	& .main-menu-tier3-link {
+		padding: 16px 24px 16px 34px;
+	}
+}
+
 .main-menu-secondary-li-highlight {
     & a {
         color: var(--color-penneyred);
@@ -511,7 +532,7 @@
         & .side-panel-content {
             overflow-x: hidden;
             width: 640px;
-            padding-top: 55px;
+            padding-top: 45px;
             padding-bottom: 55px;
             z-index: -1;
         }
@@ -551,7 +572,7 @@
         & .main-menu-tier2-ul {
             position: absolute;
             top: 0;
-            padding-top: 55px;
+            padding-top: 45px;
             left: 320px;
             width: 320px;
             display: none;
@@ -963,7 +984,7 @@
     }
     .main-menu-tier1 {
         & .main-menu-tier2-ul {
-            padding-top: 55px;
+            padding-top: 45px;
         }
     }
     .main-menu-promotional-banner {
@@ -1085,7 +1106,10 @@
         display: inline-block;
         text-align: center;
         margin-bottom: 15px;
-    }
+	}
+	.main-menu-tier1-link {
+		width: 278px;
+	}
 }
 
 .main-menu-tier1-button-md-down {

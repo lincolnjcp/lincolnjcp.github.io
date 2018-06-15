@@ -19152,7 +19152,7 @@ var header_Header = function (_Component) {
       jquery_default()('#menuPrimarySearch').focus(function () {
 
         if (jquery_default()(window).width() >= 1024) {
-          jquery_default()(".main-menu-primary-rewards, .main-menu-primary-account, .track-order").hide(400);
+          jquery_default()(".main-menu-primary-rewards, .main-menu-primary-account, .track-order").hide();
           jquery_default()(this).attr('data-default', jquery_default()(this).width());
         } else {
           jquery_default()(".main-menu-primary-rewards, .main-menu-primary-account, .track-order").show();
@@ -19160,7 +19160,7 @@ var header_Header = function (_Component) {
       }).blur(function () {
         if (jquery_default()("#menuPrimarySearch").val() == "") {
           jquery_default()('.main-menu').removeClass('main-menu-search-open');
-          jquery_default()(".main-menu-primary-rewards, .main-menu-primary-account, .track-order").show(400);
+          jquery_default()(".main-menu-primary-rewards, .main-menu-primary-account, .track-order").show();
         }
       });
 
