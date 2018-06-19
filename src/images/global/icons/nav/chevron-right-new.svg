@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="14px" height="24px" viewBox="0 0 14 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
-    <title>chevron-right-new</title>
+    <title>chevron-right (2)</title>
     <desc>Created with Sketch.</desc>
     <defs>
-        <polygon id="path-1" points="1.907 0.34 0.428 1.817 10.61 12 0.443 22.182 1.907 23.66 13.572 12"></polygon>
+        <polygon id="path-1" points="1.521 0 0 1.52 11 12 0.015 22.48 1.521 24 14 12"></polygon>
     </defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="chevron-right-new">
-            <g id="Clipped">
+        <g id="chevron-right-(2)" transform="translate(-5.000000, 0.000000)">
+            <g id="a-link" transform="translate(12.000000, 12.000000) rotate(-90.000000) translate(-12.000000, -12.000000) translate(5.000000, 0.000000)" fill="#D8D8D8" fill-rule="nonzero" opacity="0">
+                <polygon id="a" points="1.521 0 0 1.52 11 12 0.015 22.48 1.521 24 14 12"></polygon>
+            </g>
+            <g id="Clipped" transform="translate(5.000000, 0.000000)">
                 <mask id="mask-2" fill="white">
                     <use xlink:href="#path-1"></use>
                 </mask>

@@ -100,7 +100,10 @@
                 top: 4px;
                 left: 5px;
                 width: 25px;
-                height: 25px;
+				height: 25px;
+				@media (--viewport-md-down) {
+					top: 3px;
+				}
             }
             &:hover {
                 border: none;
@@ -204,11 +207,6 @@
                 top: 6px;
                 left: 0;
             }
-            & .main-menu-primary-account-title {
-                font-size: 14px;
-                line-height: 16px;
-                font-weight: 500;
-            }
             & .main-menu-primary-account-link {
                 font-size: 16px;
                 line-height: 20px;
@@ -235,7 +233,8 @@
     }
     & .track-order {
         width: 80px;
-        flex: none;
+		flex: none;
+		padding-right: 28px;
         & span {
             display: block;
             text-align: center;
@@ -244,7 +243,7 @@
     & .main-menu-primary-rewards {
         flex: none;
         width: 96px;
-        padding-left: 5px;
+        padding-left: 12px;
         & svg {
             width: 94px;
             height: 30px;
@@ -287,6 +286,9 @@
 	& .side-panel-close {
 		top: 16px;
 		right: 2px;
+		@media (--viewport-sm-only){
+			right: 4px;
+		}
 	}
 }
 
@@ -433,7 +435,7 @@
 .main-menu-bar-secondary-container {
 	& .main-menu-secondary-my-store {
 		& button {
-			padding: 0 40px 0 0;
+			padding: 0 34px 0 0;
 		}
 	}
 }
@@ -539,7 +541,7 @@
     }
     .main-menu-tier1-link,
     .main-menu-secondary-right {
-        width: 320px;
+        width: 316px;
     }
     .main-menu-tier1 {
         & .main-menu-tier1-link {
@@ -726,7 +728,7 @@
                 background-color: var(--color-lightgrey);
                 font-weight: bold;
                 &:after {
-                    opacity: 1;
+                    opacity: .8;
                 }
             }
             & .main-menu-tier2-ul,
@@ -788,9 +790,6 @@
                     & .main-menu-tier1-link {
                         background-color: var(--color-lightgrey);
                         font-weight: bold;
-                        &:after {
-                            opacity: 1;
-                        }
                     }
                     & .main-menu-tier2-ul {
                         display: block;
@@ -803,9 +802,6 @@
                     & .main-menu-tier2-link {
                         background-color: var(--color-lightgrey);
                         font-weight: bold;
-                        &:after {
-                            opacity: 1;
-                        }
                     }
 				}
             }
@@ -820,6 +816,10 @@
 	.main-menu-primary {
 		& .main-menu-primary-cart {
 			padding-left: 0;
+
+			& .main-menu-primary-cart-icon-full {
+				top: 3px;
+			}
 		}
 	}
 }
@@ -867,9 +867,9 @@
                 top: 8px;
                 right: 10px;
                 background: url(var(--path-images)global/icons/nav/chevron-right-new.svg) no-repeat right center;
-                opacity: 1;
-                width: 30px;
-                height: 30px;
+                opacity: .8;
+                width: 24px;
+                height: 24px;
             }
             &:hover {
                 border: none;
@@ -1016,7 +1016,7 @@
                 width: 32px;
                 height: 32px;
                 & svg {
-                    top: 2px;
+                    top: 4px;
                     width: 20px;
                     height: 20px;
                 }
@@ -1107,6 +1107,8 @@
         text-align: center;
         margin-bottom: 15px;
 	}
+}
+@media (--viewport-xs-down){
 	.main-menu-tier1-link {
 		width: 278px;
 	}

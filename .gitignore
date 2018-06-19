@@ -21,3 +21,6 @@ yarn-debug.log*
 yarn-error.log*
 src/js/components/icons/icons.js
 src/js/components/icons/icons.js
+.history/src/js/components/header/header*.css
+.history/src/js/components/header/header*.JS
+.history/*

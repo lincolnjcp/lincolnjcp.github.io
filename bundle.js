@@ -19232,16 +19232,21 @@ var header_Header = function (_Component) {
               react_default.a.createElement(
                 'p',
                 { 'class': 'S S-at-S mrg-zero main-menu-promotional-banner-text' },
-                'Promotional font size is 14px\u2026'
-              ),
-              react_default.a.createElement(
-                'p',
-                { 'class': 'S S-at-S mrg-zero main-menu-promotional-banner-link' },
-                ' ',
+                'Promotional font size is 14px\u2026 ',
                 react_default.a.createElement(
                   'a',
                   { href: 'javascript:void(0);' },
                   'See Details'
+                )
+              ),
+              react_default.a.createElement(
+                'p',
+                { 'class': 'S S-at-S mrg-zero main-menu-promotional-banner-link hide-for-large-down' },
+                ' ',
+                react_default.a.createElement(
+                  'a',
+                  { href: 'javascript:void(0);' },
+                  'Accessible View'
                 ),
                 ' '
               )
@@ -19466,20 +19471,16 @@ var header_Header = function (_Component) {
               ),
               react_default.a.createElement(
                 'li',
-                { 'class': 'main-menu-primary-item track-order show-for-xlarge-only show-for-xxlarge-only' },
+                { 'class': 'main-menu-primary-item track-order hide-for-medium-down hide-for-sm-only hide-for-xs-only hide-for-xxs-only' },
                 react_default.a.createElement(
-                  'div',
-                  { 'class': 'main-menu-primary-account-title' },
-                  react_default.a.createElement(
-                    'span',
-                    { 'class': 'color-white title-XS' },
-                    'Track My'
-                  ),
-                  react_default.a.createElement(
-                    'span',
-                    { 'class': 'title-M color-white' },
-                    'Orders'
-                  )
+                  'span',
+                  { 'class': 'color-white title-XS' },
+                  'Track My'
+                ),
+                react_default.a.createElement(
+                  'span',
+                  { 'class': 'title-M color-white' },
+                  'Orders'
                 )
               ),
               react_default.a.createElement(
@@ -19519,7 +19520,7 @@ var header_Header = function (_Component) {
                     react_default.a.createElement(
                       'h3',
                       { 'class': 'promo-lbl promo-lbl-M side-panel-headline' },
-                      'Hi, Guest'
+                      'Hi, Jesse'
                     ),
                     react_default.a.createElement(
                       'a',
@@ -19575,7 +19576,7 @@ var header_Header = function (_Component) {
                                     'a',
                                     { href: 'javascript:void(0);', 'class': 'main-menu-tier1-button-md-down main-menu-md-primary' },
                                     react_default.a.createElement('span', { dangerouslySetInnerHTML: { __html: accountNewImage } }),
-                                    'Sign In or Create Account'
+                                    'My Account'
                                   ),
                                   ' '
                                 ),
@@ -19759,17 +19760,6 @@ var header_Header = function (_Component) {
                             react_default.a.createElement(
                               'a',
                               { href: 'javascript:void(0)', 'class': 'main-menu-md-primary' },
-                              'Track Order'
-                            ),
-                            ' '
-                          ),
-                          react_default.a.createElement(
-                            'li',
-                            { 'class': 'main-menu-secondary-li main-menu-secondary-li-primary main-menu-secondary-hidden-lg-up' },
-                            ' ',
-                            react_default.a.createElement(
-                              'a',
-                              { href: 'javascript:void(0)', 'class': 'main-menu-md-primary' },
                               'JCPenney Credit Card'
                             ),
                             ' '
@@ -19787,45 +19777,23 @@ var header_Header = function (_Component) {
                           ),
                           react_default.a.createElement(
                             'li',
+                            { 'class': 'main-menu-secondary-li main-menu-secondary-li-primary main-menu-secondary-hidden-lg-up' },
+                            ' ',
+                            react_default.a.createElement(
+                              'a',
+                              { href: 'javascript:void(0)', 'class': 'main-menu-md-primary' },
+                              'Store Ads'
+                            ),
+                            ' '
+                          ),
+                          react_default.a.createElement(
+                            'li',
                             { 'class': 'main-menu-secondary-li main-menu-secondary-li-primary' },
                             ' ',
                             react_default.a.createElement(
                               'a',
                               { href: 'javascript:void(0)', 'class': 'main-menu-md-primary' },
                               'My List'
-                            ),
-                            ' '
-                          ),
-                          react_default.a.createElement(
-                            'li',
-                            { 'class': 'main-menu-secondary-li main-menu-secondary-li-primary main-menu-secondary-hidden-lg-up' },
-                            ' ',
-                            react_default.a.createElement(
-                              'a',
-                              { href: 'javascript:void(0)', 'class': 'main-menu-md-primary' },
-                              'Gift Registry'
-                            ),
-                            ' '
-                          ),
-                          react_default.a.createElement(
-                            'li',
-                            { 'class': 'main-menu-secondary-li main-menu-secondary-li-primary main-menu-secondary-hidden-lg-up' },
-                            ' ',
-                            react_default.a.createElement(
-                              'a',
-                              { href: 'javascript:void(0)', 'class': 'main-menu-md-primary' },
-                              'My jcpenney.com'
-                            ),
-                            ' '
-                          ),
-                          react_default.a.createElement(
-                            'li',
-                            { 'class': 'main-menu-secondary-li main-menu-secondary-li-primary main-menu-secondary-hidden-lg-up' },
-                            ' ',
-                            react_default.a.createElement(
-                              'a',
-                              { href: 'javascript:void(0)', 'class': 'main-menu-md-primary' },
-                              'Clearance'
                             ),
                             ' '
                           ),

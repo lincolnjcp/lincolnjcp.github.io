@@ -601,8 +601,8 @@ class Header extends Component {
         <header class="main-menu">
           <div class="main-menu-promotional-banner">
             <div class="main-menu-promotional-banner-content">
-              <p class="S S-at-S mrg-zero main-menu-promotional-banner-text">Promotional font size is 14px…</p>
-              <p class="S S-at-S mrg-zero main-menu-promotional-banner-link"> <a href="javascript:void(0);">See Details</a> </p>
+              <p class="S S-at-S mrg-zero main-menu-promotional-banner-text">Promotional font size is 14px… <a href="javascript:void(0);">See Details</a></p>
+              <p class="S S-at-S mrg-zero main-menu-promotional-banner-link hide-for-large-down"> <a href="javascript:void(0);">Accessible View</a> </p>
             </div>
           </div>
           <div class="main-menu-bar-primary color-penneyred-bg">
@@ -625,7 +625,6 @@ class Header extends Component {
               </li>
               <li class="main-menu-primary-item main-menu-primary-rewards hide-for-medium-down hide-for-sm-only hide-for-xs-only hide-for-xxs-only">
                 <a href="javascript:void(0);">
-                  {/* <img src="/images/global/jcpenney-rewards.png" alt="JCPenney Rewards" /> */}
                   <span class="icon color-white-svg" dangerouslySetInnerHTML={{ __html: jcpenneyRewardsImage }} />
                 </a>
               </li>
@@ -656,8 +655,9 @@ class Header extends Component {
                   </div>
                 </div>
               </li>
-              <li class="main-menu-primary-item track-order show-for-xlarge-only show-for-xxlarge-only">
-                <div class="main-menu-primary-account-title"><span class="color-white title-XS">Track My</span><span class="title-M color-white">Orders</span></div>
+              <li class="main-menu-primary-item track-order hide-for-medium-down hide-for-sm-only hide-for-xs-only hide-for-xxs-only">
+                <span class="color-white title-XS">Track My</span>
+                <span class="title-M color-white">Orders</span>
               </li>
               <li class="main-menu-primary-item main-menu-primary-cart"> <a href="javascript:void(0);" class="main-menu-primary-cart-icon-full"> <span class="main-menu-primary-cart-icon-full-items">28</span>
                 <div class="main-menu-primary-cart-icon-full-icon icon color-white-svg" dangerouslySetInnerHTML={{ __html: cartFullImage }} />
@@ -669,7 +669,7 @@ class Header extends Component {
               <div class="side-panel-container">
                 <div class="side-panel-container-inner-container">
                   <header class="side-panel-header">
-                    <h3 class="promo-lbl promo-lbl-M side-panel-headline">Hi, Guest</h3>
+                    <h3 class="promo-lbl promo-lbl-M side-panel-headline">Hi, Jesse</h3>
                     <a href="javascript:void(0);" class="title title-L tier2-close">
                       <div class="tier2-close-icon icon" dangerouslySetInnerHTML={{ __html: arrowleftImage }} />
                       Back </a> <a href="javascript:void(0);" class="side-panel-close main-menu-reset">
@@ -685,7 +685,7 @@ class Header extends Component {
                               <span class="main-menu-secondary-shop-departments-menu-label">Shop Departments</span> </button>
                             <div class="main-menu-tier1">
                               <ul class="main-menu-md-down">
-                                <li> <a href="javascript:void(0);" class="main-menu-tier1-button-md-down main-menu-md-primary"><span dangerouslySetInnerHTML={{ __html: accountNewImage }} />Sign In or Create Account</a> </li>
+                                <li> <a href="javascript:void(0);" class="main-menu-tier1-button-md-down main-menu-md-primary"><span dangerouslySetInnerHTML={{ __html: accountNewImage }} />My Account</a> </li>
                                 <li> <a href="javascript:void(0);" class="main-menu-tier1-button-md-down main-menu-md-primary"><span dangerouslySetInnerHTML={{ __html: trackOrderImage }} />Track My Order</a> </li>
                                 <li class="main-menu-md-panel-li main-menu-tier1-border"> <a href="javascript:void(0);" class="main-menu-tier1-button-md-down main-menu-md-primary"><span dangerouslySetInnerHTML={{ __html: storeNewImage }}/> Find a Store</a>
                                   <div class="main-menu-md-panel"> {this.changeMyStoreContent('Mobile')} </div>
@@ -867,13 +867,13 @@ class Header extends Component {
                           <li class="main-menu-secondary-li main-menu-secondary-li-primary main-menu-secondary-hidden-md-down"> <a href="javascript:void(0)">Same Day Pickup</a> </li>
                           <li class="main-menu-secondary-li main-menu-secondary-li-primary main-menu-secondary-hidden-md-down"> <a href="javascript:void(0)">Gifts</a> </li>
                           <li class="main-menu-secondary-li main-menu-secondary-li-primary main-menu-secondary-hidden-md-down"> <a href="javascript:void(0)">Toys</a> </li>
-                          <li class="main-menu-secondary-li main-menu-secondary-li-primary main-menu-secondary-hidden-lg-up"> <a href="javascript:void(0)" class="main-menu-md-primary">Track Order</a> </li>
+                          {/* <li class="main-menu-secondary-li main-menu-secondary-li-primary main-menu-secondary-hidden-lg-up"> <a href="javascript:void(0)" class="main-menu-md-primary">Track Order</a> </li> */}
                           <li class="main-menu-secondary-li main-menu-secondary-li-primary main-menu-secondary-hidden-lg-up"> <a href="javascript:void(0)" class="main-menu-md-primary">JCPenney Credit Card</a> </li>
                           <li class="main-menu-secondary-li main-menu-secondary-li-primary main-menu-secondary-hidden-lg-up"> <a href="javascript:void(0)" class="main-menu-md-primary">Rewards</a> </li>
+                          <li class="main-menu-secondary-li main-menu-secondary-li-primary main-menu-secondary-hidden-lg-up"> <a href="javascript:void(0)" class="main-menu-md-primary">Store Ads</a> </li>
                           <li class="main-menu-secondary-li main-menu-secondary-li-primary"> <a href="javascript:void(0)" class="main-menu-md-primary">My List</a> </li>
-                          <li class="main-menu-secondary-li main-menu-secondary-li-primary main-menu-secondary-hidden-lg-up"> <a href="javascript:void(0)" class="main-menu-md-primary">Gift Registry</a> </li>
-                          <li class="main-menu-secondary-li main-menu-secondary-li-primary main-menu-secondary-hidden-lg-up"> <a href="javascript:void(0)" class="main-menu-md-primary">My jcpenney.com</a> </li>
-                          <li class="main-menu-secondary-li main-menu-secondary-li-primary main-menu-secondary-hidden-lg-up"> <a href="javascript:void(0)" class="main-menu-md-primary">Clearance</a> </li>
+                          {/* <li class="main-menu-secondary-li main-menu-secondary-li-primary main-menu-secondary-hidden-lg-up"> <a href="javascript:void(0)" class="main-menu-md-primary">Gift Registry</a> </li>
+                          <li class="main-menu-secondary-li main-menu-secondary-li-primary main-menu-secondary-hidden-lg-up"> <a href="javascript:void(0)" class="main-menu-md-primary">My jcpenney.com</a> </li> */}
                           <li class="main-menu-secondary-li main-menu-secondary-li-primary main-menu-secondary-li-highlight"> <a href="javascript:void(0)" class="main-menu-md-primary">Coupons</a> </li>
                           <li class="main-menu-secondary-li main-menu-secondary-li-primary main-menu-secondary-hidden-lg-up border-top-menu"> <a href="javascript:void(0)" class="main-menu-md-primary">Need Help?</a> </li>
                           <li class="main-menu-secondary-li main-menu-secondary-li-primary main-menu-secondary-hidden-lg-up"> <a href="javascript:void(0)" class="main-menu-md-primary">Accessible View</a> </li>
