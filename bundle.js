@@ -18158,6 +18158,7 @@ var header_cardjcpImage = __webpack_require__("jrV8");
 var logoutImage = __webpack_require__("hozW");
 var header_cardjcpredImage = __webpack_require__("plD6");
 var header_cardjcpgoldImage = __webpack_require__("6RTn");
+var header_cardjcpplatinumImage = __webpack_require__("phwv");
 
 var header_Header = function (_Component) {
   header__inherits(Header, _Component);
@@ -18194,7 +18195,7 @@ var header_Header = function (_Component) {
           { 'class': 'expand-collapse-section', id: 'changeMyStoreZip' + type },
           react_default.a.createElement(
             'div',
-            { 'class': 'button-preview algn-mid my-location' },
+            { 'class': 'button-preview text-center my-location' },
             react_default.a.createElement(
               'a',
               { href: 'javascript:void();', 'class': 'btn btn-secondary btn-M mrg-M mrg-rght-M' },
@@ -18908,7 +18909,42 @@ var header_Header = function (_Component) {
         jquery_default()('#changeMyStoreZipMobile').css('display', 'none');
       });
 
-      // !function (factory) { "use strict"; "function" == typeof define && define.amd ? define(["$"], factory) : $ && !$.fn.hoverIntent && factory($) }(function ($) { "use strict"; var cX, cY, _cfg = { interval: 100, sensitivity: 6, timeout: 0 }, INSTANCE_COUNT = 0, track = function (ev) { cX = ev.pageX, cY = ev.pageY }, compare = function (ev, $el, s, cfg) { if (Math.sqrt((s.pX - cX) * (s.pX - cX) + (s.pY - cY) * (s.pY - cY)) < cfg.sensitivity) return $el.off(s.event, track), delete s.timeoutId, s.isActive = !0, ev.pageX = cX, ev.pageY = cY, delete s.pX, delete s.pY, cfg.over.apply($el[0], [ev]); s.pX = cX, s.pY = cY, s.timeoutId = setTimeout(function () { compare(ev, $el, s, cfg) }, cfg.interval) }, delay = function (ev, $el, s, out) { return delete $el.data("hoverIntent")[s.id], out.apply($el[0], [ev]) }; $.fn.hoverIntent = function (handlerIn, handlerOut, selector) { var instanceId = INSTANCE_COUNT++, cfg = $.extend({}, _cfg); $.isPlainObject(handlerIn) ? (cfg = $.extend(cfg, handlerIn), $.isFunction(cfg.out) || (cfg.out = cfg.over)) : cfg = $.isFunction(handlerOut) ? $.extend(cfg, { over: handlerIn, out: handlerOut, selector: selector }) : $.extend(cfg, { over: handlerIn, out: handlerIn, selector: handlerOut }); var handleHover = function (e) { var ev = $.extend({}, e), $el = $(this), hoverIntentData = $el.data("hoverIntent"); hoverIntentData || $el.data("hoverIntent", hoverIntentData = {}); var state = hoverIntentData[instanceId]; state || (hoverIntentData[instanceId] = state = { id: instanceId }), state.timeoutId && (state.timeoutId = clearTimeout(state.timeoutId)); var mousemove = state.event = "mousemove.hoverIntent.hoverIntent" + instanceId; if ("mouseenter" === e.type) { if (state.isActive) return; state.pX = ev.pageX, state.pY = ev.pageY, $el.off(mousemove, track).on(mousemove, track), state.timeoutId = setTimeout(function () { compare(ev, $el, state, cfg) }, cfg.interval) } else { if (!state.isActive) return; $el.off(mousemove, track), state.timeoutId = setTimeout(function () { delay(ev, $el, state, cfg.out) }, cfg.timeout) } }; return this.on({ "mouseenter.hoverIntent": handleHover, "mouseleave.hoverIntent": handleHover }, cfg.selector) } });
+      !function (factory) {
+        "use strict";
+        "function" == typeof define && __webpack_require__("nErl") ? define(["$"], factory) : jquery_default.a && !jquery_default.a.fn.hoverIntent && factory(jquery_default.a);
+      }(function ($) {
+        "use strict";
+        var cX,
+            cY,
+            _cfg = { interval: 100, sensitivity: 6, timeout: 0 },
+            INSTANCE_COUNT = 0,
+            track = function track(ev) {
+          cX = ev.pageX, cY = ev.pageY;
+        },
+            compare = function compare(ev, $el, s, cfg) {
+          if (Math.sqrt((s.pX - cX) * (s.pX - cX) + (s.pY - cY) * (s.pY - cY)) < cfg.sensitivity) return $el.off(s.event, track), delete s.timeoutId, s.isActive = !0, ev.pageX = cX, ev.pageY = cY, delete s.pX, delete s.pY, cfg.over.apply($el[0], [ev]);s.pX = cX, s.pY = cY, s.timeoutId = setTimeout(function () {
+            compare(ev, $el, s, cfg);
+          }, cfg.interval);
+        },
+            delay = function delay(ev, $el, s, out) {
+          return delete $el.data("hoverIntent")[s.id], out.apply($el[0], [ev]);
+        };$.fn.hoverIntent = function (handlerIn, handlerOut, selector) {
+          var instanceId = INSTANCE_COUNT++,
+              cfg = $.extend({}, _cfg);$.isPlainObject(handlerIn) ? (cfg = $.extend(cfg, handlerIn), $.isFunction(cfg.out) || (cfg.out = cfg.over)) : cfg = $.isFunction(handlerOut) ? $.extend(cfg, { over: handlerIn, out: handlerOut, selector: selector }) : $.extend(cfg, { over: handlerIn, out: handlerIn, selector: handlerOut });var handleHover = function handleHover(e) {
+            var ev = $.extend({}, e),
+                $el = $(this),
+                hoverIntentData = $el.data("hoverIntent");hoverIntentData || $el.data("hoverIntent", hoverIntentData = {});var state = hoverIntentData[instanceId];state || (hoverIntentData[instanceId] = state = { id: instanceId }), state.timeoutId && (state.timeoutId = clearTimeout(state.timeoutId));var mousemove = state.event = "mousemove.hoverIntent.hoverIntent" + instanceId;if ("mouseenter" === e.type) {
+              if (state.isActive) return;state.pX = ev.pageX, state.pY = ev.pageY, $el.off(mousemove, track).on(mousemove, track), state.timeoutId = setTimeout(function () {
+                compare(ev, $el, state, cfg);
+              }, cfg.interval);
+            } else {
+              if (!state.isActive) return;$el.off(mousemove, track), state.timeoutId = setTimeout(function () {
+                delay(ev, $el, state, cfg.out);
+              }, cfg.timeout);
+            }
+          };return this.on({ "mouseenter.hoverIntent": handleHover, "mouseleave.hoverIntent": handleHover }, cfg.selector);
+        };
+      });
 
       jquery_default()('.dropdown-button').unbind('click').on('click', function () {
         var parent_box = jquery_default()(this).closest('.dropdown-menu-block');
@@ -19315,7 +19351,7 @@ var header_Header = function (_Component) {
                   { 'class': 'dropdown-menu-block' },
                   react_default.a.createElement(
                     'button',
-                    { 'class': 'dropdown-button', type: 'button', tabindex: '-1' },
+                    { type: 'button', tabindex: '-1' },
                     react_default.a.createElement('div', { 'class': 'main-menu-primary-account-icon icon color-white-svg', dangerouslySetInnerHTML: { __html: accountNewImage } }),
                     react_default.a.createElement(
                       'div',
@@ -19703,24 +19739,6 @@ var header_Header = function (_Component) {
                             ' '
                           )
                         )
-                      ),
-                      react_default.a.createElement(
-                        'div',
-                        { 'class': 'main-menu-secondary-right main-menu-secondary-hidden-md-down' },
-                        react_default.a.createElement(
-                          'div',
-                          { 'class': 'dropdown-menu-block main-menu-secondary-my-store' },
-                          react_default.a.createElement(
-                            'button',
-                            { 'class': 'dropdown-button main-menu-tier1-button-md-down', type: 'button', tabindex: '-1' },
-                            react_default.a.createElement('span', { dangerouslySetInnerHTML: { __html: storeNewImage } }),
-                            react_default.a.createElement(
-                              'span',
-                              { 'class': 'find-store-button' },
-                              'Find a Store'
-                            )
-                          )
-                        )
                       )
                     )
                   )
@@ -19754,7 +19772,7 @@ var header_Header = function (_Component) {
               { 'class': 'side-panel-content my-account-container' },
               react_default.a.createElement(
                 'div',
-                { 'class': 'my-account-top algn-mid' },
+                { 'class': 'my-account-top text-center' },
                 react_default.a.createElement('span', { 'class': 'account-logo', dangerouslySetInnerHTML: { __html: accountNewImage } }),
                 react_default.a.createElement(
                   'h1',
@@ -19870,7 +19888,7 @@ var header_Header = function (_Component) {
                 { 'class': 'card-member-status' },
                 react_default.a.createElement(
                   'div',
-                  { 'class': 'member-section algn-mid' },
+                  { 'class': 'member-section text-center' },
                   react_default.a.createElement(
                     'h2',
                     { 'class': 'title title-L' },
@@ -19941,13 +19959,13 @@ var header_Header = function (_Component) {
             ),
             react_default.a.createElement(
               'div',
-              { 'class': 'side-panel-content my-account-container input-form error' },
+              { 'class': 'side-panel-content my-account-container input-form' },
               react_default.a.createElement(
                 'div',
                 { 'class': 'sm12 md12 columns row' },
                 react_default.a.createElement(
                   'div',
-                  { 'class': 'form-float-label' },
+                  { 'class': 'form-float-label error-message error-message-hide' },
                   react_default.a.createElement(
                     'div',
                     { 'class': 'msg msg-error mrg-L' },
@@ -19956,14 +19974,13 @@ var header_Header = function (_Component) {
                 ),
                 react_default.a.createElement(
                   'div',
-                  { 'class': 'form-float-label mrg-L' },
+                  { 'class': 'form-float-label' },
                   react_default.a.createElement('input', { 'class': 'form-control email-text input-text', id: 'email', type: 'text', placeholder: 'Email ' }),
                   react_default.a.createElement(
                     'label',
                     { htmlFor: 'email' },
                     'Email'
-                  ),
-                  react_default.a.createElement('br', null)
+                  )
                 ),
                 react_default.a.createElement(
                   'div',
@@ -19979,7 +19996,230 @@ var header_Header = function (_Component) {
                     { href: 'javascript:void(0);', 'data-textid': 'password2', 'class': 'show-pwd title-S' },
                     'show'
                   )
+                ),
+                react_default.a.createElement(
+                  'label',
+                  { 'class': 'checkbox fl-left' },
+                  react_default.a.createElement('input', { type: 'checkbox', defaultChecked: 'true' }),
+                  ' ',
+                  react_default.a.createElement(
+                    'span',
+                    null,
+                    'Remember Me'
+                  )
+                ),
+                react_default.a.createElement(
+                  'div',
+                  { 'class': 'fl-right std-txt std-txt-M mrg-L' },
+                  react_default.a.createElement(
+                    'a',
+                    { href: 'javascript:void(0);' },
+                    'Forgot Password?'
+                  )
+                ),
+                react_default.a.createElement(
+                  'div',
+                  { 'class': 'text-center' },
+                  react_default.a.createElement(
+                    'a',
+                    { href: 'javascript:void();', role: 'button', 'class': 'btn btn-primary btn-M mrg-M col12' },
+                    'Sign In'
+                  )
+                ),
+                react_default.a.createElement(
+                  'p',
+                  { 'class': 'or-split text-center' },
+                  react_default.a.createElement(
+                    'span',
+                    null,
+                    'or'
+                  )
+                ),
+                react_default.a.createElement(
+                  'div',
+                  { 'class': 'text-center' },
+                  react_default.a.createElement(
+                    'a',
+                    { href: 'javascript:void();', role: 'button', 'class': 'btn btn-secondary btn-M mrg-M col12' },
+                    'Create Account'
+                  )
                 )
+              ),
+              react_default.a.createElement(
+                'div',
+                { 'class': 'my-account-bottom' },
+                react_default.a.createElement(
+                  'div',
+                  { 'class': 'menu-item' },
+                  react_default.a.createElement(
+                    'div',
+                    { 'class': 'my-account-list' },
+                    react_default.a.createElement(
+                      'ul',
+                      null,
+                      react_default.a.createElement(
+                        'li',
+                        { 'class': 'account-list-label color-concrete-svg' },
+                        react_default.a.createElement('span', { 'class': 'account-icon', dangerouslySetInnerHTML: { __html: trackOrderImage } }),
+                        react_default.a.createElement(
+                          'a',
+                          { href: 'javascript:void(0)' },
+                          'My Orders'
+                        )
+                      ),
+                      react_default.a.createElement(
+                        'li',
+                        { 'class': 'account-list-label color-concrete-svg' },
+                        react_default.a.createElement('span', { 'class': 'account-icon', dangerouslySetInnerHTML: { __html: header_heartfillImage } }),
+                        react_default.a.createElement(
+                          'a',
+                          { href: 'javascript:void(0)' },
+                          'My Lists'
+                        )
+                      ),
+                      react_default.a.createElement(
+                        'li',
+                        { 'class': 'account-list-label color-concrete-svg' },
+                        react_default.a.createElement('span', { 'class': 'account-icon', dangerouslySetInnerHTML: { __html: rewardsFillImage } }),
+                        react_default.a.createElement(
+                          'a',
+                          { href: 'javascript:void(0)' },
+                          'My Rewards'
+                        )
+                      ),
+                      react_default.a.createElement(
+                        'li',
+                        { 'class': 'account-list-label color-concrete-svg' },
+                        react_default.a.createElement('span', { 'class': 'account-icon', dangerouslySetInnerHTML: { __html: header_cardjcpImage } }),
+                        react_default.a.createElement(
+                          'a',
+                          { href: 'javascript:void(0)' },
+                          'JCP Credit Card'
+                        )
+                      )
+                    )
+                  )
+                ),
+                react_default.a.createElement(
+                  'div',
+                  { 'class': 'card-item text-center col12' },
+                  react_default.a.createElement(
+                    'div',
+                    { 'class': 'card-jcp dis-inline-block' },
+                    react_default.a.createElement('span', { 'class': 'dis-block', dangerouslySetInnerHTML: { __html: header_cardjcpplatinumImage } })
+                  ),
+                  react_default.a.createElement(
+                    'div',
+                    { 'class': 'card-jcp-red card-jcp dis-inline-block' },
+                    react_default.a.createElement('span', { 'class': 'dis-block', dangerouslySetInnerHTML: { __html: header_cardjcpredImage } })
+                  ),
+                  react_default.a.createElement(
+                    'div',
+                    { 'class': 'card-jcp dis-inline-block' },
+                    react_default.a.createElement('span', { 'class': 'dis-block', dangerouslySetInnerHTML: { __html: header_cardjcpplatinumImage } })
+                  ),
+                  react_default.a.createElement(
+                    'div',
+                    { 'class': 'member-section text-center' },
+                    react_default.a.createElement(
+                      'h2',
+                      { 'class': 'title title-L' },
+                      'Earn Rewards 2x Faster'
+                    ),
+                    react_default.a.createElement(
+                      'span',
+                      { 'class': 'dis-block mrg-L' },
+                      'with your JCPenney Credit Card'
+                    )
+                  ),
+                  react_default.a.createElement(
+                    'div',
+                    { 'class': 'text-center' },
+                    react_default.a.createElement(
+                      'a',
+                      { href: 'javascript:void();', role: 'button', 'class': 'btn btn-secondary btn-M mrg-M' },
+                      'Apply Now'
+                    )
+                  ),
+                  react_default.a.createElement(
+                    'div',
+                    { 'class': 'text-center' },
+                    react_default.a.createElement(
+                      'span',
+                      { 'class': 'dis-block mrg-S' },
+                      'Already a cardmember? '
+                    ),
+                    react_default.a.createElement(
+                      'a',
+                      { 'class': 'mrg-M dis-block', href: 'javascript:void();' },
+                      'View Balance & Pay Bill'
+                    )
+                  )
+                )
+              )
+            )
+          )
+        ),
+        react_default.a.createElement(
+          'div',
+          { 'class': 'side-panel slide-panel-from-right', id: 'forgotPassword' },
+          react_default.a.createElement(
+            'div',
+            { 'class': 'side-panel-container my-account-sidepanel' },
+            react_default.a.createElement(
+              'header',
+              { 'class': 'side-panel-header' },
+              react_default.a.createElement(
+                'h3',
+                { 'class': 'title title-L' },
+                'Back to Sign In'
+              ),
+              react_default.a.createElement(
+                'a',
+                { href: 'javascript:void(0);', 'class': 'side-panel-close' },
+                react_default.a.createElement('div', { 'class': 'change-my-store-icon-close icon', dangerouslySetInnerHTML: { __html: header_closeImage } })
+              )
+            ),
+            react_default.a.createElement(
+              'div',
+              { 'class': 'side-panel-content my-account-container input-form' },
+              react_default.a.createElement(
+                'div',
+                { 'class': 'sm12 md12 columns row' },
+                react_default.a.createElement(
+                  'h1',
+                  null,
+                  'Forgot Your Password?'
+                ),
+                react_default.a.createElement(
+                  'p',
+                  null,
+                  'Enter the email address for your jcp.com account and we\'ll send you instructions to change your password.'
+                )
+              ),
+              react_default.a.createElement(
+                'div',
+                { 'class': 'form-float-label' },
+                react_default.a.createElement('input', { 'class': 'form-control email-text input-text', id: 'email', type: 'text', placeholder: 'Email ' }),
+                react_default.a.createElement(
+                  'label',
+                  { htmlFor: 'email' },
+                  'Email'
+                )
+              ),
+              react_default.a.createElement(
+                'div',
+                { 'class': 'text-center' },
+                react_default.a.createElement(
+                  'a',
+                  { href: 'javascript:void();', role: 'button', 'class': 'btn btn-primary btn-M mrg-M col12' },
+                  'Sign In'
+                )
+              ),
+              react_default.a.createElement(
+                'p',
+                null,
+                'Having trouble accessing your account? If you\u2019re unable to change your password, please call our Customer Care team at 1-800-322-1189'
               )
             )
           )
