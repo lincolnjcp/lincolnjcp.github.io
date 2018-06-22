@@ -19223,6 +19223,36 @@ var header_Header = function (_Component) {
         }
         // event.preventDefault();
       });
+
+      // show password
+      Array.from(document.getElementsByClassName('show-pwd')).map(function (el) {
+        el.onclick = onShowPwd;
+      });
+
+      function onShowPwd(evt) {
+        var textid = evt.target.getAttribute('data-textid');
+        var passwordElement = document.getElementById(textid);
+        var currentType = passwordElement.getAttribute('type');
+        var newType = currentType == "password" ? 'text' : 'password';
+        passwordElement.setAttribute('type', newType);
+        evt.target.innerHTML = newType == 'password' ? 'show' : 'hide';
+      }
+
+      jquery_default()(function () {
+        jquery_default()(".phone-number").keypress(function (e) {
+          if (e.which != 8 && e.which != 0 && (e.which < 48 || e.which > 57)) {
+            return false;
+          }
+          var curchr = this.value.length;
+          var curval = jquery_default()(this).val();
+          if (curchr == 3) {
+            jquery_default()(this).val(curval + "-");
+          } else if (curchr == 7) {
+            jquery_default()(this).val(curval + "-");
+          }
+          jquery_default()(this).attr('maxlength', '12');
+        });
+      });
     }
   }, {
     key: 'render',
@@ -19357,6 +19387,16 @@ var header_Header = function (_Component) {
                       'div',
                       { 'class': 'main-menu-primary-account-title show-for-large-only show-for-xlarge-only show-for-xxlarge-only hide-for-medium-down title-XS side-panel-btn', 'data-target': '#myAccount' },
                       'My Account'
+                    ),
+                    react_default.a.createElement(
+                      'div',
+                      { 'class': 'main-menu-primary-account-title show-for-large-only show-for-xlarge-only show-for-xxlarge-only hide-for-medium-down title-XS side-panel-btn', 'data-target': '#createAccount' },
+                      'Create Account'
+                    ),
+                    react_default.a.createElement(
+                      'div',
+                      { 'class': 'main-menu-primary-account-title show-for-large-only show-for-xlarge-only show-for-xxlarge-only hide-for-medium-down title-XS side-panel-btn', 'data-target': '#forgotPassword' },
+                      'Forgot Password'
                     ),
                     react_default.a.createElement(
                       'div',
@@ -19739,6 +19779,24 @@ var header_Header = function (_Component) {
                             ' '
                           )
                         )
+                      ),
+                      react_default.a.createElement(
+                        'div',
+                        { 'class': 'main-menu-secondary-right main-menu-secondary-hidden-md-down' },
+                        react_default.a.createElement(
+                          'div',
+                          { 'class': 'dropdown-menu-block main-menu-secondary-my-store' },
+                          react_default.a.createElement(
+                            'button',
+                            { 'class': 'dropdown-button main-menu-tier1-button-md-down', type: 'button', tabindex: '-1' },
+                            react_default.a.createElement('span', { dangerouslySetInnerHTML: { __html: storeNewImage } }),
+                            react_default.a.createElement(
+                              'span',
+                              { 'class': 'find-store-button' },
+                              'Find a Store'
+                            )
+                          )
+                        )
                       )
                     )
                   )
@@ -19985,7 +20043,7 @@ var header_Header = function (_Component) {
                 react_default.a.createElement(
                   'div',
                   { 'class': 'form-float-label password-form' },
-                  react_default.a.createElement('input', { 'class': 'form-control input-text', id: 'password2', maxLength: '16', type: 'password', placeholder: 'Password' }),
+                  react_default.a.createElement('input', { 'class': 'form-control input-text', id: 'password1', maxLength: '16', type: 'password', placeholder: 'Password' }),
                   react_default.a.createElement(
                     'label',
                     { htmlFor: 'password' },
@@ -19993,7 +20051,7 @@ var header_Header = function (_Component) {
                   ),
                   react_default.a.createElement(
                     'a',
-                    { href: 'javascript:void(0);', 'data-textid': 'password2', 'class': 'show-pwd title-S' },
+                    { href: 'javascript:void(0);', 'data-textid': 'password1', 'class': 'show-pwd title-S' },
                     'show'
                   )
                 ),
@@ -20187,39 +20245,162 @@ var header_Header = function (_Component) {
                 'div',
                 { 'class': 'sm12 md12 columns row' },
                 react_default.a.createElement(
-                  'h1',
-                  null,
-                  'Forgot Your Password?'
+                  'div',
+                  { 'class': 'sm12 md12 columns row text-center' },
+                  react_default.a.createElement(
+                    'h1',
+                    { 'class': 'mrg-S title title-XL' },
+                    'Forgot Your Password?'
+                  ),
+                  react_default.a.createElement(
+                    'div',
+                    { 'class': 'mrg-M std-txt std-txt-M color-nightsky' },
+                    'Enter the email address for your jcp.com account and we\'ll send you instructions to change your password.'
+                  )
                 ),
                 react_default.a.createElement(
-                  'p',
-                  null,
-                  'Enter the email address for your jcp.com account and we\'ll send you instructions to change your password.'
+                  'div',
+                  { 'class': 'form-float-label' },
+                  react_default.a.createElement('input', { 'class': 'form-control email-text input-text', id: 'email', type: 'text', placeholder: 'Email ' }),
+                  react_default.a.createElement(
+                    'label',
+                    { htmlFor: 'email' },
+                    'Email'
+                  )
+                ),
+                react_default.a.createElement(
+                  'div',
+                  { 'class': 'text-center' },
+                  react_default.a.createElement(
+                    'a',
+                    { href: 'javascript:void();', role: 'button', 'class': 'btn btn-primary btn-M mrg-M col12 color-white' },
+                    'Send Email'
+                  )
+                ),
+                react_default.a.createElement(
+                  'div',
+                  { 'class': 'mrg-M std-txt std-txt-M color-nightsky text-center' },
+                  'Having trouble accessing your account? If you\u2019re unable to change your password, please call our Customer Care team at 1-800-322-1189'
                 )
+              )
+            )
+          )
+        ),
+        react_default.a.createElement(
+          'div',
+          { 'class': 'side-panel slide-panel-from-right', id: 'createAccount' },
+          react_default.a.createElement(
+            'div',
+            { 'class': 'side-panel-container my-account-sidepanel' },
+            react_default.a.createElement(
+              'header',
+              { 'class': 'side-panel-header' },
+              react_default.a.createElement(
+                'h3',
+                { 'class': 'title title-L' },
+                'Back to Sign In'
               ),
+              react_default.a.createElement(
+                'a',
+                { href: 'javascript:void(0);', 'class': 'side-panel-close' },
+                react_default.a.createElement('div', { 'class': 'change-my-store-icon-close icon', dangerouslySetInnerHTML: { __html: header_closeImage } })
+              )
+            ),
+            react_default.a.createElement(
+              'div',
+              { 'class': 'side-panel-content my-account-container input-form' },
               react_default.a.createElement(
                 'div',
-                { 'class': 'form-float-label' },
-                react_default.a.createElement('input', { 'class': 'form-control email-text input-text', id: 'email', type: 'text', placeholder: 'Email ' }),
+                { 'class': 'sm12 md12 columns row' },
                 react_default.a.createElement(
-                  'label',
-                  { htmlFor: 'email' },
-                  'Email'
-                )
-              ),
-              react_default.a.createElement(
-                'div',
-                { 'class': 'text-center' },
+                  'div',
+                  { 'class': 'sm12 md12 columns row text-center' },
+                  react_default.a.createElement(
+                    'h1',
+                    { 'class': 'mrg-S title title-XL' },
+                    'Create Account'
+                  ),
+                  react_default.a.createElement(
+                    'div',
+                    { 'class': 'mrg-M std-txt std-txt-M color-nightsky' },
+                    'Save more and earn rewards'
+                  )
+                ),
                 react_default.a.createElement(
-                  'a',
-                  { href: 'javascript:void();', role: 'button', 'class': 'btn btn-primary btn-M mrg-M col12' },
-                  'Sign In'
+                  'div',
+                  { 'class': 'form-float-label' },
+                  react_default.a.createElement('input', { 'class': 'form-control input-text', type: 'text', id: 'fname', placeholder: 'First Name' }),
+                  react_default.a.createElement(
+                    'label',
+                    { htmlFor: 'fname' },
+                    'First Name'
+                  )
+                ),
+                react_default.a.createElement(
+                  'div',
+                  { 'class': 'form-float-label' },
+                  react_default.a.createElement('input', { 'class': 'form-control input-text', type: 'text', id: 'lname', placeholder: 'Last Name' }),
+                  react_default.a.createElement(
+                    'label',
+                    { htmlFor: 'lname' },
+                    'Last Name'
+                  )
+                ),
+                react_default.a.createElement(
+                  'div',
+                  { 'class': 'form-float-label' },
+                  react_default.a.createElement('input', { 'class': 'form-control input-text phone-number', id: 'phonenumber', type: 'text', maxLength: '14', placeholder: 'Phone Number' }),
+                  react_default.a.createElement(
+                    'label',
+                    { htmlFor: 'phonenumber' },
+                    'Phone Number'
+                  )
+                ),
+                react_default.a.createElement(
+                  'div',
+                  { 'class': 'form-float-label' },
+                  react_default.a.createElement('input', { 'class': 'form-control email-text input-text', id: 'email', type: 'text', placeholder: 'Email ' }),
+                  react_default.a.createElement(
+                    'label',
+                    { htmlFor: 'email' },
+                    'Email'
+                  )
+                ),
+                react_default.a.createElement(
+                  'div',
+                  { 'class': 'form-float-label password-form' },
+                  react_default.a.createElement('input', { 'class': 'form-control input-text', id: 'password2', maxLength: '16', type: 'password', placeholder: 'Password' }),
+                  react_default.a.createElement(
+                    'label',
+                    { htmlFor: 'password' },
+                    'Password'
+                  ),
+                  react_default.a.createElement(
+                    'a',
+                    { href: 'javascript:void(0);', 'data-textid': 'password2', 'class': 'show-pwd title-S' },
+                    'show'
+                  )
+                ),
+                react_default.a.createElement(
+                  'div',
+                  { 'class': 'text-center' },
+                  react_default.a.createElement(
+                    'a',
+                    { href: 'javascript:void();', role: 'button', 'class': 'btn btn-primary btn-M mrg-M col12 color-white' },
+                    'Create Account'
+                  )
+                ),
+                react_default.a.createElement(
+                  'div',
+                  { 'class': 'mrg-M std-txt std-txt-XS color-nightsky text-center md12 sm12 mrg-top-S' },
+                  'By creating an account, I agree to the Rewards ',
+                  react_default.a.createElement(
+                    'a',
+                    { href: 'javascript:void(0);' },
+                    'Terms & Conditions'
+                  ),
+                  ' and to receive email offers at the email address I provided.'
                 )
-              ),
-              react_default.a.createElement(
-                'p',
-                null,
-                'Having trouble accessing your account? If you\u2019re unable to change your password, please call our Customer Care team at 1-800-322-1189'
               )
             )
           )

@@ -606,6 +606,37 @@ class Header extends Component {
       // event.preventDefault();
     });
 
+
+    // show password
+    Array.from(document.getElementsByClassName('show-pwd')).map(function (el) {
+      el.onclick = onShowPwd;
+    });
+
+    function onShowPwd(evt) {
+      var textid = evt.target.getAttribute('data-textid');
+      var passwordElement = document.getElementById(textid);
+      var currentType = passwordElement.getAttribute('type');
+      var newType = currentType == "password" ? 'text' : 'password';
+      passwordElement.setAttribute('type', newType);
+      evt.target.innerHTML = (newType == 'password') ? 'show' : 'hide';
+    }
+
+    $(function () {
+      $(".phone-number").keypress(function (e) {
+        if (e.which != 8 && e.which != 0 && (e.which < 48 || e.which > 57)) {
+          return false;
+        }
+        var curchr = this.value.length;
+        var curval = $(this).val();
+        if (curchr == 3) {
+          $(this).val(curval + "-");
+        } else if (curchr == 7) {
+          $(this).val(curval + "-");
+        }
+        $(this).attr('maxlength', '12');
+      });
+    });
+
   }
 
   render() {
@@ -660,6 +691,8 @@ class Header extends Component {
                   <button type="button" tabindex="-1">
                     <div class="main-menu-primary-account-icon icon color-white-svg" dangerouslySetInnerHTML={{ __html: accountNewImage }} />
                     <div class="main-menu-primary-account-title show-for-large-only show-for-xlarge-only show-for-xxlarge-only hide-for-medium-down title-XS side-panel-btn" data-target="#myAccount">My Account</div>
+                    <div class="main-menu-primary-account-title show-for-large-only show-for-xlarge-only show-for-xxlarge-only hide-for-medium-down title-XS side-panel-btn" data-target="#createAccount">Create Account</div>
+                    <div class="main-menu-primary-account-title show-for-large-only show-for-xlarge-only show-for-xxlarge-only hide-for-medium-down title-XS side-panel-btn" data-target="#forgotPassword">Forgot Password</div>
                     <div class="main-menu-primary-account-link show-for-large-only show-for-xlarge-only show-for-xxlarge-only hide-for-medium-down title-M side-panel-btn" data-target="#signIn">Sign In
                         {/* <span class="arrow"></span> */}
                     </div>
@@ -909,14 +942,14 @@ class Header extends Component {
                           <li class="main-menu-secondary-li main-menu-secondary-li-primary main-menu-secondary-hidden-lg-up border-top-menu"> <a href="javascript:void(0)" class="main-menu-md-primary">Sign Out</a> </li>
                         </ul>
                       </div>
-                      {/* <div class="main-menu-secondary-right main-menu-secondary-hidden-md-down">
+                      <div class="main-menu-secondary-right main-menu-secondary-hidden-md-down">
                         <div class="dropdown-menu-block main-menu-secondary-my-store">
-                          <button class="dropdown-button main-menu-tier1-button-md-down" type="button" tabindex="-1"> <strong>My Store:</strong> Collin Creek Mall <span class="arrow"></span> </button>
+                          {/* <button class="dropdown-button main-menu-tier1-button-md-down" type="button" tabindex="-1"> <strong>My Store:</strong> Collin Creek Mall <span class="arrow"></span> </button> */}
                           <button class="dropdown-button main-menu-tier1-button-md-down" type="button" tabindex="-1">
                             <span dangerouslySetInnerHTML={{ __html: storeNewImage }} />
                             <span class="find-store-button">Find a Store</span>
                           </button>
-                          <div class="dropdown-menu dropdown-my-store">
+                          {/* <div class="dropdown-menu dropdown-my-store">
                             <ul class="tooltip tooltip-top-right tooltip-long tooltip-list">
                               <li>
                                 <div class="main-menu-secondary-my-store-listing">
@@ -932,9 +965,9 @@ class Header extends Component {
                                 </div>
                               </li>
                             </ul>
-                          </div>
+                          </div> */}
                         </div>
-                      </div> */}
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -1006,74 +1039,74 @@ class Header extends Component {
         {/* sidepanel my account ends*/}
 
 
-              {/* sidepanel Signin starts*/}  
-            <div class="side-panel slide-panel-from-right" id="signIn">
-              <div class="side-panel-container my-account-sidepanel">
-                <header class="side-panel-header">
-                <h3 class="title title-L">Sign In</h3>
-                  <a href="javascript:void(0);" class="side-panel-close">
-                  <div class="change-my-store-icon-close icon" dangerouslySetInnerHTML={{ __html: closeImage }} />
-                  </a>
-              </header>
-                <div class="side-panel-content my-account-container input-form">
-                  <div class="sm12 md12 columns row">
-                    <div class="form-float-label error-message error-message-hide">
-                      <div class="msg msg-error mrg-L">The email address or password you entered was not found. Please try again.</div>
-                  </div>
-                    <div class="form-float-label">
-                    <input class="form-control email-text input-text" id="email" type="text" placeholder="Email " />
-                    <label htmlFor="email">Email</label>
-                  </div>
-                    <div class="form-float-label password-form">
-                    <input class="form-control input-text" id="password2" maxLength="16" type="password" placeholder="Password" />
-                    <label htmlFor="password">Password</label>
-                    <a href="javascript:void(0);" data-textid="password2" class="show-pwd title-S">show</a>
-                  </div>
-                    <label class="checkbox fl-left">
-                    <input type="checkbox" defaultChecked="true" /> <span>Remember Me</span>
-                  </label>
-                    <div class="fl-right std-txt std-txt-M mrg-L">
-                    <a href="javascript:void(0);">Forgot Password?</a>
-                  </div>
-                    <div class="text-center">
-                    <a href="javascript:void();" role="button" class="btn btn-primary btn-M mrg-M col12">Sign In</a>
-                  </div>
-                    <p class ="or-split text-center">
-                      <span>or</span>
-                  </p>
-                    <div class="text-center">
-                    <a href="javascript:void();" role="button" class="btn btn-secondary btn-M mrg-M col12">Create Account</a>
-                    </div>
+        {/* sidepanel Signin starts*/}
+        <div class="side-panel slide-panel-from-right" id="signIn">
+          <div class="side-panel-container my-account-sidepanel">
+            <header class="side-panel-header">
+              <h3 class="title title-L">Sign In</h3>
+              <a href="javascript:void(0);" class="side-panel-close">
+                <div class="change-my-store-icon-close icon" dangerouslySetInnerHTML={{ __html: closeImage }} />
+              </a>
+            </header>
+            <div class="side-panel-content my-account-container input-form">
+              <div class="sm12 md12 columns row">
+                <div class="form-float-label error-message error-message-hide">
+                  <div class="msg msg-error mrg-L">The email address or password you entered was not found. Please try again.</div>
                 </div>
-                  <div class="my-account-bottom">
-                    <div class="menu-item">
-                      <div class="my-account-list">
-                        <ul>
+                <div class="form-float-label">
+                  <input class="form-control email-text input-text" id="email" type="text" placeholder="Email " />
+                  <label htmlFor="email">Email</label>
+                </div>
+                <div class="form-float-label password-form">
+                  <input class="form-control input-text" id="password1" maxLength="16" type="password" placeholder="Password" />
+                  <label htmlFor="password">Password</label>
+                  <a href="javascript:void(0);" data-textid="password1" class="show-pwd title-S">show</a>
+                </div>
+                <label class="checkbox fl-left">
+                  <input type="checkbox" defaultChecked="true" /> <span>Remember Me</span>
+                </label>
+                <div class="fl-right std-txt std-txt-M mrg-L">
+                  <a href="javascript:void(0);">Forgot Password?</a>
+                </div>
+                <div class="text-center">
+                  <a href="javascript:void();" role="button" class="btn btn-primary btn-M mrg-M col12">Sign In</a>
+                </div>
+                <p class="or-split text-center">
+                  <span>or</span>
+                </p>
+                <div class="text-center">
+                  <a href="javascript:void();" role="button" class="btn btn-secondary btn-M mrg-M col12">Create Account</a>
+                </div>
+              </div>
+              <div class="my-account-bottom">
+                <div class="menu-item">
+                  <div class="my-account-list">
+                    <ul>
                       <li class="account-list-label color-concrete-svg"><span class="account-icon" dangerouslySetInnerHTML={{ __html: trackOrderImage }} /><a href="javascript:void(0)">My Orders</a></li>
                       <li class="account-list-label color-concrete-svg"><span class="account-icon" dangerouslySetInnerHTML={{ __html: heartfillImage }} /><a href="javascript:void(0)">My Lists</a></li>
                       <li class="account-list-label color-concrete-svg"><span class="account-icon" dangerouslySetInnerHTML={{ __html: rewardsFillImage }} /><a href="javascript:void(0)">My Rewards</a></li>
-                          <li class="account-list-label color-concrete-svg"><span class="account-icon" dangerouslySetInnerHTML={{ __html: cardjcpImage }} /><a href="javascript:void(0)">JCP Credit Card</a></li>
-                        </ul>
+                      <li class="account-list-label color-concrete-svg"><span class="account-icon" dangerouslySetInnerHTML={{ __html: cardjcpImage }} /><a href="javascript:void(0)">JCP Credit Card</a></li>
+                    </ul>
                   </div>
                 </div>
-                  <div class="card-item text-center col12">
-                    <div class="card-jcp dis-inline-block">
-                        <span class="dis-block" dangerouslySetInnerHTML={{ __html: cardjcpplatinumImage }} />
-                  </div>
-                    <div class="card-jcp-red card-jcp dis-inline-block">
-                    <span class="dis-block" dangerouslySetInnerHTML={{ __html: cardjcpredImage }} />
-                  </div>
-                    <div class="card-jcp dis-inline-block">
+                <div class="card-item text-center col12">
+                  <div class="card-jcp dis-inline-block">
                     <span class="dis-block" dangerouslySetInnerHTML={{ __html: cardjcpplatinumImage }} />
                   </div>
-                    <div class="member-section text-center">
+                  <div class="card-jcp-red card-jcp dis-inline-block">
+                    <span class="dis-block" dangerouslySetInnerHTML={{ __html: cardjcpredImage }} />
+                  </div>
+                  <div class="card-jcp dis-inline-block">
+                    <span class="dis-block" dangerouslySetInnerHTML={{ __html: cardjcpplatinumImage }} />
+                  </div>
+                  <div class="member-section text-center">
                     <h2 class="title title-L">Earn Rewards 2x Faster</h2>
                     <span class="dis-block mrg-L">with your JCPenney Credit Card</span>
                   </div>
-                    <div class="text-center">
+                  <div class="text-center">
                     <a href="javascript:void();" role="button" class="btn btn-secondary btn-M mrg-M">Apply Now</a>
                   </div>
-                    <div class="text-center">
+                  <div class="text-center">
                     <span class="dis-block mrg-S">Already a cardmember? </span>
                     <a class="mrg-M dis-block" href="javascript:void();">View Balance & Pay Bill</a>
                   </div>
@@ -1082,7 +1115,7 @@ class Header extends Component {
             </div>
           </div>
         </div>
-            {/* sidepanel Signin ends*/}
+        {/* sidepanel Signin ends*/}
 
 
 
@@ -1097,25 +1130,76 @@ class Header extends Component {
             </header>
             <div class="side-panel-content my-account-container input-form">
               <div class="sm12 md12 columns row">
-                <h1>Forgot Your Password?</h1>
-                <p>Enter the email address for your jcp.com account and we'll send you instructions to change your password.</p>
+                <div class="sm12 md12 columns row text-center">
+                  <h1 class="mrg-S title title-XL">Forgot Your Password?</h1>
+                  <div class="mrg-M std-txt std-txt-M color-nightsky">Enter the email address for your jcp.com account and we'll send you instructions to change your password.</div>
+                </div>
+                <div class="form-float-label">
+                  <input class="form-control email-text input-text" id="email" type="text" placeholder="Email " />
+                  <label htmlFor="email">Email</label>
+                </div>
+                <div class="text-center">
+                  <a href="javascript:void();" role="button" class="btn btn-primary btn-M mrg-M col12 color-white">Send Email</a>
+                </div>
+                <div class="mrg-M std-txt std-txt-M color-nightsky text-center">Having trouble accessing your account?
+If you’re unable to change your password, please call our Customer Care team at 1-800-322-1189</div>
               </div>
-              <div class="form-float-label">
-                <input class="form-control email-text input-text" id="email" type="text" placeholder="Email " />
-                <label htmlFor="email">Email</label>
-              </div>
-              <div class="text-center">
-                <a href="javascript:void();" role="button" class="btn btn-primary btn-M mrg-M col12">Sign In</a>
-              </div>
-              <p>Having trouble accessing your account?
-If you’re unable to change your password, please call our Customer Care team at 1-800-322-1189</p>
             </div>
           </div>
         </div>
         {/* sidepanel forgot password ends*/}
 
-        
+
+        {/* sidepanel create account starts*/}
+        <div class="side-panel slide-panel-from-right" id="createAccount">
+          <div class="side-panel-container my-account-sidepanel">
+            <header class="side-panel-header">
+              <h3 class="title title-L">Back to Sign In</h3>
+              <a href="javascript:void(0);" class="side-panel-close">
+                <div class="change-my-store-icon-close icon" dangerouslySetInnerHTML={{ __html: closeImage }} />
+              </a>
+            </header>
+            <div class="side-panel-content my-account-container input-form">
+              <div class="sm12 md12 columns row">
+                <div class="sm12 md12 columns row text-center">
+                  <h1 class="mrg-S title title-XL">Create Account</h1>
+                  <div class="mrg-M std-txt std-txt-M color-nightsky">Save more and earn rewards</div>
+                </div>
+                <div class="form-float-label">
+                  <input class="form-control input-text" type="text" id="fname" placeholder="First Name" />
+                  <label htmlFor="fname">First Name</label>
+                </div>
+                <div class="form-float-label">
+                  <input class="form-control input-text" type="text" id="lname" placeholder="Last Name" />
+                  <label htmlFor="lname">Last Name</label>
+                </div>
+                <div class="form-float-label">
+                  <input class="form-control input-text phone-number" id="phonenumber" type="text" maxLength="14" placeholder="Phone Number" />
+                  <label htmlFor="phonenumber">Phone Number</label>
+                </div>
+                <div class="form-float-label">
+                  <input class="form-control email-text input-text" id="email" type="text" placeholder="Email " />
+                  <label htmlFor="email">Email</label>
+                </div>
+                <div class="form-float-label password-form">
+                  <input class="form-control input-text" id="password2" maxLength="16" type="password" placeholder="Password" />
+                  <label htmlFor="password">Password</label>
+                  <a href="javascript:void(0);" data-textid="password2" class="show-pwd title-S">show</a>
+                </div>
+                <div class="text-center">
+                  <a href="javascript:void();" role="button" class="btn btn-primary btn-M mrg-M col12 color-white">Create Account</a>
+                </div>
+                <div class="mrg-M std-txt std-txt-XS color-nightsky text-center md12 sm12 mrg-top-S">
+                  By creating an account, I agree to the Rewards <a href="javascript:void(0);">Terms & Conditions</a> and to receive email offers at the email address I provided.
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+        {/* sidepanel create account ends*/}
+
+
+      </div>
     );
   }
 }
