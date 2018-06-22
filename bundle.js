@@ -397,6 +397,13 @@ module.exports = "  \n<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"ht
 
 /***/ }),
 
+/***/ "8/sS":
+/***/ (function(module, exports) {
+
+module.exports = "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"32\" height=\"32\" viewBox=\"0 0 32 32\">\n    <defs>\n        <path id=\"a\" d=\"M6.216 3.117h-.872V5.41h.872V3.117zm8.238 0h-.872V5.41h.872V3.117zM20 12.859a6.06 6.06 0 0 0-1.897-.302c-3.259 0-5.898 2.56-5.898 5.721 0 1.422.534 2.722 1.417 3.722H0V2h5.344V0h.872v2h7.366V0h.872v2H20v10.859zm-1.897.544c2.776 0 5.025 2.181 5.025 4.875s-2.249 4.876-5.025 4.876c-2.777 0-5.026-2.182-5.026-4.876 0-2.694 2.25-4.875 5.026-4.875zm2.317 5.365V17.9h-2.042l-2.249-2.583-.665.557 2.501 2.894h2.455zM7.34 7.28v.846h.987V7.28h-.986zm2.066 0v.846h.987V7.28h-.987zm2.065 0v.846h.987V7.28h-.987zm2.111 0v.846h.987V7.28h-.987zm1.997 0v.846h.986V7.28h-.986zM3.233 9.484v.846h.987v-.846h-.987zm2.065 0v.846h.987v-.846h-.987zm2.043 0v.846h.986v-.846h-.986zm2.065 0v.846h.987v-.846h-.987zm2.065 0v.846h.987v-.846h-.987zm2.111 0v.846h.987v-.846h-.987zm1.997 0v.846h.986v-.846h-.986zM3.233 11.711v.846h.987v-.846h-.987zm2.065 0v.846h.987v-.846h-.987zm2.043 0v.846h.986v-.846h-.986zm2.065 0v.846h.987v-.846h-.987zm-6.173 2.204v.846h.987v-.846h-.987zm2.065 0v.846h.987v-.846h-.987zm2.043 0v.846h.986v-.846h-.986zm-4.108 2.204v.846h.987v-.846h-.987zm2.065 0v.846h.987v-.846h-.987zm2.043 0v.846h.986v-.846h-.986zm2.065-2.204v.846h.987v-.846h-.987zm2.088 0v.846h.987v-.846h-.987zm-.023-2.204v.846h.987v-.846h-.987zm2.111 0v.846h.987v-.846h-.987zM9.36 16.119v.846h.987v-.846H9.36z\"/>\n    </defs>\n    <g fill=\"none\" fill-rule=\"evenodd\" transform=\"translate(4 4)\">\n        <mask id=\"b\" fill=\"#fff\">\n            <use xlink:href=\"#a\"/>\n        </mask>\n        <use fill=\"#FFF\" xlink:href=\"#a\"/>\n        <g fill=\"#384048\" mask=\"url(#b)\">\n            <path d=\"M-4-4h32v32H-4z\"/>\n        </g>\n    </g>\n</svg>\n"
+
+/***/ }),
+
 /***/ "87qO":
 /***/ (function(module, exports) {
 
@@ -18142,6 +18149,15 @@ var accountNewImage = __webpack_require__("87qO");
 var header_arrowleftImage = __webpack_require__("FAZD");
 var header_targetImage = __webpack_require__("ZO6q");
 var header_jcpenneyRewardsImage = __webpack_require__("QXyO");
+var header_idfillImage = __webpack_require__("s1aE");
+var header_walletImage = __webpack_require__("GqVQ");
+var header_heartfillImage = __webpack_require__("/KOU");
+var rewardsFillImage = __webpack_require__("rD0y");
+var appointmentFillImage = __webpack_require__("8/sS");
+var header_cardjcpImage = __webpack_require__("jrV8");
+var logoutImage = __webpack_require__("hozW");
+var header_cardjcpredImage = __webpack_require__("plD6");
+var header_cardjcpgoldImage = __webpack_require__("6RTn");
 
 var header_Header = function (_Component) {
   header__inherits(Header, _Component);
@@ -18892,42 +18908,7 @@ var header_Header = function (_Component) {
         jquery_default()('#changeMyStoreZipMobile').css('display', 'none');
       });
 
-      !function (factory) {
-        "use strict";
-        "function" == typeof define && __webpack_require__("nErl") ? define(["$"], factory) : jquery_default.a && !jquery_default.a.fn.hoverIntent && factory(jquery_default.a);
-      }(function ($) {
-        "use strict";
-        var cX,
-            cY,
-            _cfg = { interval: 100, sensitivity: 6, timeout: 0 },
-            INSTANCE_COUNT = 0,
-            track = function track(ev) {
-          cX = ev.pageX, cY = ev.pageY;
-        },
-            compare = function compare(ev, $el, s, cfg) {
-          if (Math.sqrt((s.pX - cX) * (s.pX - cX) + (s.pY - cY) * (s.pY - cY)) < cfg.sensitivity) return $el.off(s.event, track), delete s.timeoutId, s.isActive = !0, ev.pageX = cX, ev.pageY = cY, delete s.pX, delete s.pY, cfg.over.apply($el[0], [ev]);s.pX = cX, s.pY = cY, s.timeoutId = setTimeout(function () {
-            compare(ev, $el, s, cfg);
-          }, cfg.interval);
-        },
-            delay = function delay(ev, $el, s, out) {
-          return delete $el.data("hoverIntent")[s.id], out.apply($el[0], [ev]);
-        };$.fn.hoverIntent = function (handlerIn, handlerOut, selector) {
-          var instanceId = INSTANCE_COUNT++,
-              cfg = $.extend({}, _cfg);$.isPlainObject(handlerIn) ? (cfg = $.extend(cfg, handlerIn), $.isFunction(cfg.out) || (cfg.out = cfg.over)) : cfg = $.isFunction(handlerOut) ? $.extend(cfg, { over: handlerIn, out: handlerOut, selector: selector }) : $.extend(cfg, { over: handlerIn, out: handlerIn, selector: handlerOut });var handleHover = function handleHover(e) {
-            var ev = $.extend({}, e),
-                $el = $(this),
-                hoverIntentData = $el.data("hoverIntent");hoverIntentData || $el.data("hoverIntent", hoverIntentData = {});var state = hoverIntentData[instanceId];state || (hoverIntentData[instanceId] = state = { id: instanceId }), state.timeoutId && (state.timeoutId = clearTimeout(state.timeoutId));var mousemove = state.event = "mousemove.hoverIntent.hoverIntent" + instanceId;if ("mouseenter" === e.type) {
-              if (state.isActive) return;state.pX = ev.pageX, state.pY = ev.pageY, $el.off(mousemove, track).on(mousemove, track), state.timeoutId = setTimeout(function () {
-                compare(ev, $el, state, cfg);
-              }, cfg.interval);
-            } else {
-              if (!state.isActive) return;$el.off(mousemove, track), state.timeoutId = setTimeout(function () {
-                delay(ev, $el, state, cfg.out);
-              }, cfg.timeout);
-            }
-          };return this.on({ "mouseenter.hoverIntent": handleHover, "mouseleave.hoverIntent": handleHover }, cfg.selector);
-        };
-      });
+      // !function (factory) { "use strict"; "function" == typeof define && define.amd ? define(["$"], factory) : $ && !$.fn.hoverIntent && factory($) }(function ($) { "use strict"; var cX, cY, _cfg = { interval: 100, sensitivity: 6, timeout: 0 }, INSTANCE_COUNT = 0, track = function (ev) { cX = ev.pageX, cY = ev.pageY }, compare = function (ev, $el, s, cfg) { if (Math.sqrt((s.pX - cX) * (s.pX - cX) + (s.pY - cY) * (s.pY - cY)) < cfg.sensitivity) return $el.off(s.event, track), delete s.timeoutId, s.isActive = !0, ev.pageX = cX, ev.pageY = cY, delete s.pX, delete s.pY, cfg.over.apply($el[0], [ev]); s.pX = cX, s.pY = cY, s.timeoutId = setTimeout(function () { compare(ev, $el, s, cfg) }, cfg.interval) }, delay = function (ev, $el, s, out) { return delete $el.data("hoverIntent")[s.id], out.apply($el[0], [ev]) }; $.fn.hoverIntent = function (handlerIn, handlerOut, selector) { var instanceId = INSTANCE_COUNT++, cfg = $.extend({}, _cfg); $.isPlainObject(handlerIn) ? (cfg = $.extend(cfg, handlerIn), $.isFunction(cfg.out) || (cfg.out = cfg.over)) : cfg = $.isFunction(handlerOut) ? $.extend(cfg, { over: handlerIn, out: handlerOut, selector: selector }) : $.extend(cfg, { over: handlerIn, out: handlerIn, selector: handlerOut }); var handleHover = function (e) { var ev = $.extend({}, e), $el = $(this), hoverIntentData = $el.data("hoverIntent"); hoverIntentData || $el.data("hoverIntent", hoverIntentData = {}); var state = hoverIntentData[instanceId]; state || (hoverIntentData[instanceId] = state = { id: instanceId }), state.timeoutId && (state.timeoutId = clearTimeout(state.timeoutId)); var mousemove = state.event = "mousemove.hoverIntent.hoverIntent" + instanceId; if ("mouseenter" === e.type) { if (state.isActive) return; state.pX = ev.pageX, state.pY = ev.pageY, $el.off(mousemove, track).on(mousemove, track), state.timeoutId = setTimeout(function () { compare(ev, $el, state, cfg) }, cfg.interval) } else { if (!state.isActive) return; $el.off(mousemove, track), state.timeoutId = setTimeout(function () { delay(ev, $el, state, cfg.out) }, cfg.timeout) } }; return this.on({ "mouseenter.hoverIntent": handleHover, "mouseleave.hoverIntent": handleHover }, cfg.selector) } });
 
       jquery_default()('.dropdown-button').unbind('click').on('click', function () {
         var parent_box = jquery_default()(this).closest('.dropdown-menu-block');
@@ -19189,6 +19170,23 @@ var header_Header = function (_Component) {
           jquery_default()(".design-system-wrap").removeAttr('style');
         }
       });
+
+      //slideout panel
+
+      jquery_default()('.side-panel-btn').unbind('click').on('click', function (event) {
+        // event.preventDefault();
+        var parent = jquery_default()(jquery_default()(this).attr('data-target'));
+        parent.addClass('is-visible');
+      });
+
+      jquery_default()('.side-panel').unbind('click').on('click', function (event) {
+        if (jquery_default()(event.target).is('.side-panel')) {
+          jquery_default()(this).removeClass('is-visible');
+        } else if (jquery_default()(event.target).is('.side-panel-close') || jquery_default()(event.target).closest('a').hasClass('side-panel-close')) {
+          jquery_default()(event.target).closest('.side-panel').removeClass('is-visible');
+        }
+        // event.preventDefault();
+      });
     }
   }, {
     key: 'render',
@@ -19321,150 +19319,13 @@ var header_Header = function (_Component) {
                     react_default.a.createElement('div', { 'class': 'main-menu-primary-account-icon icon color-white-svg', dangerouslySetInnerHTML: { __html: accountNewImage } }),
                     react_default.a.createElement(
                       'div',
-                      { 'class': 'main-menu-primary-account-title show-for-large-only show-for-xlarge-only show-for-xxlarge-only hide-for-medium-down title-XS' },
+                      { 'class': 'main-menu-primary-account-title show-for-large-only show-for-xlarge-only show-for-xxlarge-only hide-for-medium-down title-XS side-panel-btn', 'data-target': '#myAccount' },
                       'My Account'
                     ),
                     react_default.a.createElement(
                       'div',
-                      { 'class': 'main-menu-primary-account-link show-for-large-only show-for-xlarge-only show-for-xxlarge-only hide-for-medium-down title-M' },
-                      'Sign In ',
-                      react_default.a.createElement('span', { 'class': 'arrow' })
-                    )
-                  ),
-                  react_default.a.createElement(
-                    'div',
-                    { 'class': 'dropdown-menu dropdown-account' },
-                    react_default.a.createElement(
-                      'div',
-                      { 'class': 'tooltip tooltip-top-right tooltip-long tooltip-list' },
-                      react_default.a.createElement(
-                        'ul',
-                        null,
-                        react_default.a.createElement(
-                          'li',
-                          null,
-                          react_default.a.createElement(
-                            'a',
-                            { href: 'javascript:void(0)' },
-                            'My Account'
-                          )
-                        ),
-                        react_default.a.createElement(
-                          'li',
-                          null,
-                          react_default.a.createElement(
-                            'a',
-                            { href: 'javascript:void(0)' },
-                            'Find a Store'
-                          )
-                        ),
-                        react_default.a.createElement(
-                          'li',
-                          null,
-                          react_default.a.createElement(
-                            'a',
-                            { href: 'javascript:void(0)' },
-                            'My Orders'
-                          )
-                        ),
-                        react_default.a.createElement(
-                          'li',
-                          null,
-                          react_default.a.createElement(
-                            'a',
-                            { href: 'javascript:void(0)' },
-                            'My Rewards (0)'
-                          )
-                        ),
-                        react_default.a.createElement(
-                          'li',
-                          null,
-                          react_default.a.createElement(
-                            'a',
-                            { href: 'javascript:void(0)' },
-                            'My List'
-                          )
-                        ),
-                        react_default.a.createElement(
-                          'li',
-                          null,
-                          react_default.a.createElement(
-                            'a',
-                            { href: 'javascript:void(0)' },
-                            'Profile Settings'
-                          )
-                        ),
-                        react_default.a.createElement(
-                          'li',
-                          null,
-                          react_default.a.createElement(
-                            'a',
-                            { href: 'javascript:void(0)' },
-                            'Notifications'
-                          )
-                        ),
-                        react_default.a.createElement(
-                          'li',
-                          null,
-                          react_default.a.createElement(
-                            'a',
-                            { href: 'javascript:void(0)' },
-                            'My Jcpenney.com'
-                          )
-                        ),
-                        react_default.a.createElement(
-                          'li',
-                          null,
-                          react_default.a.createElement(
-                            'a',
-                            { href: 'javascript:void(0)' },
-                            'Gift Registry'
-                          )
-                        ),
-                        react_default.a.createElement(
-                          'li',
-                          null,
-                          react_default.a.createElement(
-                            'a',
-                            { href: 'javascript:void(0)' },
-                            'JCPenney Credit Card'
-                          )
-                        ),
-                        react_default.a.createElement(
-                          'li',
-                          { 'class': 'tooltip-divider' },
-                          ' ',
-                          react_default.a.createElement(
-                            'a',
-                            { href: 'javascript:void(0)' },
-                            'Sign Out'
-                          ),
-                          ' '
-                        ),
-                        react_default.a.createElement(
-                          'li',
-                          { 'class': 'main-menu-primary-sign-rewards' },
-                          ' ',
-                          react_default.a.createElement(
-                            'a',
-                            { href: 'javascript:void(0);' },
-                            ' ',
-                            react_default.a.createElement(
-                              'span',
-                              { 'class': 'main-menu-primary-sign-rewards-amount' },
-                              '$20'
-                            ),
-                            ' ',
-                            react_default.a.createElement(
-                              'span',
-                              { 'class': 'main-menu-primary-sign-rewards-label' },
-                              'Redeem Your Rewards'
-                            ),
-                            ' '
-                          ),
-                          ' '
-                        )
-                      )
+                      { 'class': 'main-menu-primary-account-link show-for-large-only show-for-xlarge-only show-for-xxlarge-only hide-for-medium-down title-M side-panel-btn', 'data-target': '#signIn' },
+                      'Sign In'
                     )
                   )
                 )
@@ -19866,34 +19727,259 @@ var header_Header = function (_Component) {
                 )
               )
             )
-          ),
+          )
+        ),
+        react_default.a.createElement(
+          'div',
+          { 'class': 'side-panel slide-panel-from-right', id: 'myAccount' },
           react_default.a.createElement(
             'div',
-            { 'class': 'side-panel slide-panel-from-right change-my-store-panel', id: 'changeMyStore' },
+            { 'class': 'side-panel-container my-account-sidepanel' },
+            react_default.a.createElement(
+              'header',
+              { 'class': 'side-panel-header' },
+              react_default.a.createElement(
+                'h3',
+                { 'class': 'title title-L' },
+                'My Account Menu'
+              ),
+              react_default.a.createElement(
+                'a',
+                { href: 'javascript:void(0);', 'class': 'side-panel-close' },
+                react_default.a.createElement('div', { 'class': 'change-my-store-icon-close icon', dangerouslySetInnerHTML: { __html: header_closeImage } })
+              )
+            ),
             react_default.a.createElement(
               'div',
-              { 'class': 'side-panel-container' },
+              { 'class': 'side-panel-content my-account-container' },
               react_default.a.createElement(
-                'header',
-                { 'class': 'side-panel-header' },
+                'div',
+                { 'class': 'my-account-top algn-mid' },
+                react_default.a.createElement('span', { 'class': 'account-logo', dangerouslySetInnerHTML: { __html: accountNewImage } }),
                 react_default.a.createElement(
-                  'h3',
-                  { 'class': 'title title-L color-white' },
-                  'Change My Store'
+                  'h1',
+                  { 'class': 'title title-XXL' },
+                  'Hi, Ellen!'
                 ),
                 react_default.a.createElement(
-                  'a',
-                  { href: 'javascript:void(0);', 'class': 'side-panel-close' },
-                  react_default.a.createElement('div', { 'class': 'change-my-store-icon-close icon color-white-svg', dangerouslySetInnerHTML: { __html: header_closeImage } })
-                ),
-                ' '
+                  'p',
+                  { 'class': 'my-account-welcome' },
+                  'Welcome JCP Cardmember '
+                )
               ),
               react_default.a.createElement(
                 'div',
-                { 'class': 'side-panel-content' },
-                ' ',
-                this.changeMyStoreContent('Desktop'),
-                ' '
+                { 'class': 'my-account-list' },
+                react_default.a.createElement(
+                  'ul',
+                  null,
+                  react_default.a.createElement(
+                    'li',
+                    { 'class': 'account-list-label color-concrete-svg' },
+                    react_default.a.createElement('span', { 'class': 'account-icon', dangerouslySetInnerHTML: { __html: header_accountImage } }),
+                    react_default.a.createElement(
+                      'a',
+                      { href: 'javascript:void(0)' },
+                      'My Account'
+                    )
+                  ),
+                  react_default.a.createElement(
+                    'li',
+                    { 'class': 'account-list-label color-concrete-svg' },
+                    react_default.a.createElement('span', { 'class': 'account-icon', dangerouslySetInnerHTML: { __html: trackOrderImage } }),
+                    react_default.a.createElement(
+                      'a',
+                      { href: 'javascript:void(0)' },
+                      'My Orders'
+                    )
+                  ),
+                  react_default.a.createElement(
+                    'li',
+                    { 'class': 'account-list-label color-concrete-svg' },
+                    react_default.a.createElement('span', { 'class': 'account-icon', dangerouslySetInnerHTML: { __html: header_idfillImage } }),
+                    react_default.a.createElement(
+                      'a',
+                      { href: 'javascript:void(0)' },
+                      'My Info'
+                    )
+                  ),
+                  react_default.a.createElement(
+                    'li',
+                    { 'class': 'account-list-label color-concrete-svg' },
+                    react_default.a.createElement('span', { 'class': 'account-icon', dangerouslySetInnerHTML: { __html: header_walletImage } }),
+                    react_default.a.createElement(
+                      'a',
+                      { href: 'javascript:void(0)' },
+                      'My Wallet'
+                    )
+                  ),
+                  react_default.a.createElement(
+                    'li',
+                    { 'class': 'account-list-label color-concrete-svg' },
+                    react_default.a.createElement('span', { 'class': 'account-icon', dangerouslySetInnerHTML: { __html: header_heartfillImage } }),
+                    react_default.a.createElement(
+                      'a',
+                      { href: 'javascript:void(0)' },
+                      'My Lists'
+                    )
+                  ),
+                  react_default.a.createElement(
+                    'li',
+                    { 'class': 'account-list-label color-concrete-svg' },
+                    react_default.a.createElement('span', { 'class': 'account-icon', dangerouslySetInnerHTML: { __html: rewardsFillImage } }),
+                    react_default.a.createElement(
+                      'a',
+                      { href: 'javascript:void(0)' },
+                      'My Rewards'
+                    )
+                  ),
+                  react_default.a.createElement(
+                    'li',
+                    { 'class': 'account-list-label color-concrete-svg' },
+                    react_default.a.createElement('span', { 'class': 'account-icon', dangerouslySetInnerHTML: { __html: appointmentFillImage } }),
+                    react_default.a.createElement(
+                      'a',
+                      { href: 'javascript:void(0)' },
+                      'My Appointments'
+                    )
+                  ),
+                  react_default.a.createElement(
+                    'li',
+                    { 'class': 'account-list-label color-concrete-svg' },
+                    react_default.a.createElement('span', { 'class': 'account-icon', dangerouslySetInnerHTML: { __html: header_cardjcpImage } }),
+                    react_default.a.createElement(
+                      'a',
+                      { href: 'javascript:void(0)' },
+                      'JCP Credit Card'
+                    )
+                  ),
+                  react_default.a.createElement(
+                    'li',
+                    { 'class': 'account-list-label color-concrete-svg' },
+                    react_default.a.createElement('span', { 'class': 'account-icon', dangerouslySetInnerHTML: { __html: accountNewImage } }),
+                    react_default.a.createElement(
+                      'a',
+                      { href: 'javascript:void(0)' },
+                      'Sign Out'
+                    )
+                  )
+                )
+              ),
+              react_default.a.createElement(
+                'div',
+                { 'class': 'card-member-status' },
+                react_default.a.createElement(
+                  'div',
+                  { 'class': 'member-section algn-mid' },
+                  react_default.a.createElement(
+                    'h2',
+                    { 'class': 'title title-L' },
+                    'Go for the Gold!  '
+                  ),
+                  react_default.a.createElement(
+                    'p',
+                    null,
+                    'Spend just $200 more to earn Gold cardmember status and reap the rewards! ',
+                    react_default.a.createElement(
+                      'a',
+                      { href: 'javascript:void(0);' },
+                      'Learn More '
+                    )
+                  )
+                ),
+                react_default.a.createElement(
+                  'div',
+                  { 'class': 'card-section' },
+                  react_default.a.createElement(
+                    'div',
+                    { 'class': 'card-jcp-red' },
+                    react_default.a.createElement('span', { dangerouslySetInnerHTML: { __html: header_cardjcpredImage } })
+                  ),
+                  react_default.a.createElement(
+                    'div',
+                    { 'class': 'progress-bar progress-bar-rewards position-rel' },
+                    react_default.a.createElement(
+                      'span',
+                      { 'class': 'progress-bar-max-points' },
+                      '200'
+                    ),
+                    react_default.a.createElement(
+                      'div',
+                      { 'class': 'progress-bar-percent' },
+                      '150'
+                    )
+                  ),
+                  react_default.a.createElement(
+                    'div',
+                    { 'class': 'card-jcp-gold' },
+                    react_default.a.createElement('span', { dangerouslySetInnerHTML: { __html: header_cardjcpgoldImage } })
+                  )
+                )
+              )
+            )
+          )
+        ),
+        react_default.a.createElement(
+          'div',
+          { 'class': 'side-panel slide-panel-from-right', id: 'signIn' },
+          react_default.a.createElement(
+            'div',
+            { 'class': 'side-panel-container my-account-sidepanel' },
+            react_default.a.createElement(
+              'header',
+              { 'class': 'side-panel-header' },
+              react_default.a.createElement(
+                'h3',
+                { 'class': 'title title-L' },
+                'Sign In'
+              ),
+              react_default.a.createElement(
+                'a',
+                { href: 'javascript:void(0);', 'class': 'side-panel-close' },
+                react_default.a.createElement('div', { 'class': 'change-my-store-icon-close icon', dangerouslySetInnerHTML: { __html: header_closeImage } })
+              )
+            ),
+            react_default.a.createElement(
+              'div',
+              { 'class': 'side-panel-content my-account-container input-form error' },
+              react_default.a.createElement(
+                'div',
+                { 'class': 'sm12 md12 columns row' },
+                react_default.a.createElement(
+                  'div',
+                  { 'class': 'form-float-label' },
+                  react_default.a.createElement(
+                    'div',
+                    { 'class': 'msg msg-error mrg-L' },
+                    'The email address or password you entered was not found. Please try again.'
+                  )
+                ),
+                react_default.a.createElement(
+                  'div',
+                  { 'class': 'form-float-label mrg-L' },
+                  react_default.a.createElement('input', { 'class': 'form-control email-text input-text', id: 'email', type: 'text', placeholder: 'Email ' }),
+                  react_default.a.createElement(
+                    'label',
+                    { htmlFor: 'email' },
+                    'Email'
+                  ),
+                  react_default.a.createElement('br', null)
+                ),
+                react_default.a.createElement(
+                  'div',
+                  { 'class': 'form-float-label password-form' },
+                  react_default.a.createElement('input', { 'class': 'form-control input-text', id: 'password2', maxLength: '16', type: 'password', placeholder: 'Password' }),
+                  react_default.a.createElement(
+                    'label',
+                    { htmlFor: 'password' },
+                    'Password'
+                  ),
+                  react_default.a.createElement(
+                    'a',
+                    { href: 'javascript:void(0);', 'data-textid': 'password2', 'class': 'show-pwd title-S' },
+                    'show'
+                  )
+                )
               )
             )
           )
@@ -21008,8 +21094,7 @@ var slide_out_panels_SlideOutPanels = function (_Component) {
                 { href: 'javascript:void(0);', 'class': 'side-panel-btn', 'data-target': '#rightPanel' },
                 'Slide In From Right'
               )
-            ),
-            react_default.a.createElement('input', { type: 'checkbox' })
+            )
           )
         ),
         react_default.a.createElement(
@@ -21036,8 +21121,6 @@ var slide_out_panels_SlideOutPanels = function (_Component) {
             react_default.a.createElement(
               'div',
               { 'class': 'side-panel-content' },
-              react_default.a.createElement('input', { type: 'checkbox' }),
-              react_default.a.createElement('input', { type: 'radio' }),
               react_default.a.createElement(
                 'p',
                 null,
@@ -35437,6 +35520,13 @@ module.exports = "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http:/
 
 /***/ }),
 
+/***/ "hozW":
+/***/ (function(module, exports) {
+
+module.exports = "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"32\" height=\"32\" viewBox=\"0 0 32 32\">\n    <defs>\n        <path id=\"a\" d=\"M6 10.42V7.56h12.52l-5.19-5.084a1.01 1.01 0 0 1 0-1.45L14.07.3c.41-.4 1.072-.4 1.481 0l8.142 7.977c.41.4.41 1.05 0 1.45l-.74.726c-.05.049-.103.091-.16.128L15.527 17.7c-.409.4-1.071.4-1.48 0l-.74-.726a1.01 1.01 0 0 1 0-1.45l5.21-5.104H6zm3.143 7.018c0 .156-.056.289-.167.398a.556.556 0 0 1-.405.164h-4c-1.27 0-2.349-.437-3.238-1.312C.444 15.813 0 14.75 0 13.5v-9c0-1.25.444-2.312 1.333-3.187C2.223.438 3.302 0 4.571 0h4c.16 0 .294.055.405.164.111.11.167.242.167.399v1.875c0 .156-.056.289-.167.398A.556.556 0 0 1 8.571 3h-4c-.412 0-.77.148-1.071.445A1.43 1.43 0 0 0 3.048 4.5v9c0 .406.15.758.452 1.055.302.297.659.445 1.071.445h4c.16 0 .294.055.405.164.111.11.167.242.167.399v1.875z\"/>\n    </defs>\n    <g fill=\"none\" fill-rule=\"evenodd\" transform=\"translate(4 7)\">\n        <mask id=\"b\" fill=\"#fff\">\n            <use xlink:href=\"#a\"/>\n        </mask>\n        <use fill=\"#384048\" xlink:href=\"#a\"/>\n        <g fill=\"#384048\" mask=\"url(#b)\">\n            <path d=\"M-4-7h32v32H-4z\"/>\n        </g>\n    </g>\n</svg>\n"
+
+/***/ }),
+
 /***/ "j1tK":
 /***/ (function(module, exports) {
 
@@ -35574,6 +35664,13 @@ module.exports = "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http:/
 /***/ (function(module, exports) {
 
 module.exports = "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"32\" height=\"32\" viewBox=\"0 0 32 32\" aria-labaria-lelledby=\"title-029\">\n  <defs>\n    <path id=\"parts-services-a\" d=\"M2.14763492,21.8119068 C1.62005942,21.2854287 1.62005942,20.4315272 2.1475165,19.9049309 C2.67497357,19.378571 3.530463,19.378571 4.05792008,19.9051673 C4.585614,20.4317636 4.58549558,21.2854287 4.0580385,21.812025 C3.53058143,22.3385031 2.67532884,22.3385031 2.14763492,21.8119068 L2.14763492,21.8119068 Z M16.9601312,11.1685156 L5.00862179,23.0978419 C3.86287701,24.2415783 2.00517177,24.2415783 0.859308578,23.0978419 C-0.286436193,21.9541055 -0.286436193,20.0999666 0.859308578,18.9563484 L12.8106996,7.02702206 C12.3512174,5.16460885 12.8502529,3.11472501 14.3081614,1.65952261 C15.9053355,0.0653129791 18.2170754,-0.380077537 20.2140464,0.322405434 L16.7602328,3.76992661 C16.2835793,4.2455772 16.2835793,5.01709097 16.7602328,5.49285977 L17.5080755,6.23931442 C17.550471,6.27702131 17.5940508,6.31295515 17.6347884,6.35361713 C17.675526,6.39427911 17.7116451,6.43789617 17.7495405,6.48033121 L18.4971463,7.22654944 C18.9739183,7.70220004 19.7466299,7.70220004 20.2232834,7.22654944 L23.6770969,3.77914647 C24.3807678,5.77229267 23.9344306,8.07985999 22.3373749,9.67395142 C20.8795849,11.1291538 18.8260077,11.6271449 16.9601312,11.1685156 Z M15.5881981,13.7350666 L16.6228619,12.702205 L22.9330438,19.0006747 C24.078907,20.1442928 24.0787885,21.99855 22.9330438,23.1422864 C21.7871806,24.2859045 19.9294753,24.2859045 18.7837306,23.1422864 L12.4735486,16.8438167 L13.5083308,15.8109552 L13.5084493,15.8109552 L19.9960292,22.2864936 C20.1540058,22.4441769 20.4100368,22.4441769 20.5680134,22.2864936 C20.7258716,22.1289284 20.72599,21.8732544 20.5680134,21.7154528 L14.0804335,15.2400326 L15.0162139,14.3059891 L21.5037938,20.7815275 C21.661652,20.9390927 21.9179198,20.9390927 22.0758964,20.7815275 C22.233873,20.6237259 22.2337546,20.3682883 22.075778,20.2107232 L15.5881981,13.7350666 Z M9.94568633,8.51236633 L8.38546025,10.0695783 L4.55103442,6.09877054 L2.63909133,5.58730431 L0.0680045411,1.61578734 L1.47593835,0.210348585 L5.45495895,2.77689961 L5.96725785,4.68529395 L9.94568633,8.51236633 Z\"/>\n  </defs>\n  <title id=\"title-029\" lang=\"en\">additional appliances services</title>\n  <g fill=\"none\" fill-rule=\"evenodd\" transform=\"translate(4 4)\">\n    <use fill=\"#384048\" xlink:href=\"#parts-services-a\"/>\n  </g>\n</svg>\n"
+
+/***/ }),
+
+/***/ "rD0y":
+/***/ (function(module, exports) {
+
+module.exports = "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"32\" height=\"32\" viewBox=\"0 0 32 32\">\n    <defs>\n        <path id=\"a\" d=\"M12 0c6.627 0 12 5.373 12 12s-5.373 12-12 12S0 18.627 0 12 5.373 0 12 0zm.828 11.436V7.473c.709.121 1.374.407 2.055.901.112.08.224.112.368.112.335 0 .644-.297.644-.631 0-.239-.181-.387-.309-.482-.826-.592-1.684-.944-2.758-1.057v-.633a.683.683 0 0 0-1.366 0v.624c-1.83.206-3.11 1.415-3.11 3.005v.032c0 1.669.984 2.503 3.11 3.06v4.1c-.921-.17-1.697-.574-2.472-1.229a.561.561 0 0 0-.383-.143.609.609 0 0 0-.607.62c0 .207.096.382.24.477.978.775 2.027 1.254 3.222 1.424v.664a.683.683 0 0 0 1.366 0v-.604c2.033-.126 3.461-1.333 3.461-3.137v-.032c0-1.66-1.095-2.563-3.46-3.108zM9.613 9.233V9.2c0-.873.705-1.59 1.849-1.758v3.65c-1.468-.457-1.849-1.006-1.849-1.86zm5.399 5.47c0 1.02-.857 1.778-2.184 1.88v-3.856c1.742.46 2.184 1.027 2.184 1.944v.032z\"/>\n    </defs>\n    <g fill=\"none\" fill-rule=\"evenodd\" transform=\"translate(4 4)\">\n        <mask id=\"b\" fill=\"#fff\">\n            <use xlink:href=\"#a\"/>\n        </mask>\n        <use fill=\"#384048\" xlink:href=\"#a\"/>\n        <g fill=\"#384048\" mask=\"url(#b)\">\n            <path d=\"M-4-4h32v32H-4z\"/>\n        </g>\n    </g>\n</svg>\n"
 
 /***/ }),
 

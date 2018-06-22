@@ -37,7 +37,7 @@ class SlideOutPanels extends Component {
       <h2 class="std-txt std-txt-XL mrg-L max-width-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h2>
       <p><a href="javascript:void(0);" class="side-panel-btn" data-target="#leftPanel">Slide In From Left</a></p>
       <p><a href="javascript:void(0);" class="side-panel-btn" data-target="#rightPanel">Slide In From Right</a></p>
-      <input type="checkbox"/>
+      {/* <input type="checkbox"/> */}
     </div>
   </div>
   <div class="side-panel slide-panel-from-right" id="rightPanel">
@@ -48,8 +48,8 @@ class SlideOutPanels extends Component {
         <div class="change-my-store-icon-close icon color-white-svg" dangerouslySetInnerHTML={{__html: closeImage}} />
         </a> </header>
       <div class="side-panel-content"> 
-      <input type="checkbox"/>
-      <input type="radio"/>
+      {/* <input type="checkbox"/> */}
+      {/* <input type="radio"/> */}
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec fringilla dolor eget scelerisque lobortis. Nulla metus nisi, commodo et suscipit ac, venenatis ut magna. Nunc in venenatis mi, vitae placerat odio. Aenean est tellus, mollis sed tempus vel, egestas non urna. Suspendisse fringilla neque tincidunt, molestie diam non, facilisis ante. Quisque mattis commodo arcu vehicula lobortis. Cras lorem mauris, molestie ac gravida in, condimentum at enim. Aenean elementum, mauris ac convallis tempus, erat eros aliquam quam, ac sodales ligula mauris nec neque. Aliquam ut turpis lectus. Cras eget felis odio.</p>
       </div>
     </div>
