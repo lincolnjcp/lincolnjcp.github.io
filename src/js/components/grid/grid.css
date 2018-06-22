@@ -219,6 +219,18 @@
   display: none;
 }
 
+.dis-inline {
+  display: inline;
+}
+
+.dis-block {
+  display: block;
+}
+
+.dis-inline-block {
+  display: inline-block;
+}
+
 .padding-right-zero {
   padding-right: 0 !important;
 }
