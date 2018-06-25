@@ -660,6 +660,12 @@ class Header extends Component {
           <div class="main-menu-promotional-banner">
             <div class="main-menu-promotional-banner-content">
               <p class="S S-at-S mrg-zero main-menu-promotional-banner-text">Promotional font size is 14px… <a href="javascript:void(0);">See Details</a></p>
+              <div class="main-menu-primary-account-link show-for-large-only show-for-xlarge-only show-for-xxlarge-only hide-for-medium-down title-XS side-panel-btn fl-right color-white mrg-rght-S" data-target="#camMenu"> Cam Menu </div>
+              <div class="main-menu-primary-account-title show-for-large-only show-for-xlarge-only show-for-xxlarge-only hide-for-medium-down title-XS side-panel-btn fl-right color-white mrg-rght-S" data-target="#myAccount"> My Account </div>
+              <div class="main-menu-primary-account-title show-for-large-only show-for-xlarge-only show-for-xxlarge-only hide-for-medium-down title-XS side-panel-btn fl-right color-white mrg-rght-S" data-target="#createAccount"> Create Account </div>
+              <div class="main-menu-primary-account-title show-for-large-only show-for-xlarge-only show-for-xxlarge-only hide-for-medium-down title-XS side-panel-btn fl-right color-white mrg-rght-S" data-target="#forgotPassword"> Forgot Password </div>
+              <div class="main-menu-primary-account-link show-for-large-only show-for-xlarge-only show-for-xxlarge-only hide-for-medium-down title-XS side-panel-btn fl-right color-white mrg-rght-S" data-target="#signIn"> Sign In </div>
+
               <p class="S S-at-S mrg-zero main-menu-promotional-banner-link hide-for-large-down"> <a href="javascript:void(0);">Accessible View</a> </p>
             </div>
           </div>
@@ -691,11 +697,9 @@ class Header extends Component {
                   <button type="button" tabindex="-1">
                     <div class="main-menu-primary-account-icon icon color-white-svg" dangerouslySetInnerHTML={{ __html: accountNewImage }} />
                     <div class="main-menu-primary-account-title show-for-large-only show-for-xlarge-only show-for-xxlarge-only hide-for-medium-down title-XS side-panel-btn" data-target="#myAccount">My Account</div>
-                    <div class="main-menu-primary-account-title show-for-large-only show-for-xlarge-only show-for-xxlarge-only hide-for-medium-down title-XS side-panel-btn" data-target="#createAccount">Create Account</div>
-                    <div class="main-menu-primary-account-title show-for-large-only show-for-xlarge-only show-for-xxlarge-only hide-for-medium-down title-XS side-panel-btn" data-target="#forgotPassword">Forgot Password</div>
-                    <div class="main-menu-primary-account-link show-for-large-only show-for-xlarge-only show-for-xxlarge-only hide-for-medium-down title-M side-panel-btn" data-target="#signIn">Sign In
-                        {/* <span class="arrow"></span> */}
-                    </div>
+                    {/* <div class="main-menu-primary-account-title show-for-large-only show-for-xlarge-only show-for-xxlarge-only hide-for-medium-down title-XS side-panel-btn" data-target="#createAccount">Create Account</div>
+                    <div class="main-menu-primary-account-title show-for-large-only show-for-xlarge-only show-for-xxlarge-only hide-for-medium-down title-XS side-panel-btn" data-target="#forgotPassword">Forgot Password</div> */}
+                    <div class="main-menu-primary-account-link show-for-large-only show-for-xlarge-only show-for-xxlarge-only hide-for-medium-down title-M side-panel-btn" data-target="#signIn">Sign In</div>
                   </button>
                   {/* <div class="dropdown-menu dropdown-account">
                     <div class="tooltip tooltip-top-right tooltip-long tooltip-list">
@@ -1020,15 +1024,14 @@ class Header extends Component {
                   <p>Spend just $200 more to earn Gold cardmember status and reap the rewards! <a href="javascript:void(0);">Learn More </a></p>
                 </div>
                 <div class="card-section">
-                  <div class="card-jcp-red">
+                  <div class="card-jcp-progress">
                     <span dangerouslySetInnerHTML={{ __html: cardjcpredImage }} />
                   </div>
                   <div class="progress-bar progress-bar-rewards position-rel">
-                    {/* <div class="tooltip tooltip-bottom-center tooltip-single">$10</div> */}
                     <span class="progress-bar-max-points">200</span>
                     <div class="progress-bar-percent">150</div>
                   </div>
-                  <div class="card-jcp-gold">
+                  <div class="card-jcp-progress-right">
                     <span dangerouslySetInnerHTML={{ __html: cardjcpgoldImage }} />
                   </div>
                 </div>
@@ -1050,7 +1053,7 @@ class Header extends Component {
             </header>
             <div class="side-panel-content my-account-container input-form">
               <div class="sm12 md12 columns row">
-                <div class="form-float-label error-message error-message-hide">
+                <div class="form-float-label error-message">
                   <div class="msg msg-error mrg-L">The email address or password you entered was not found. Please try again.</div>
                 </div>
                 <div class="form-float-label">
@@ -1078,7 +1081,7 @@ class Header extends Component {
                   <a href="javascript:void();" role="button" class="btn btn-secondary btn-M mrg-M col12">Create Account</a>
                 </div>
               </div>
-              <div class="my-account-bottom">
+              <div class="my-account-bottom mrg-top-XL">
                 <div class="menu-item">
                   <div class="my-account-list">
                     <ul>
@@ -1091,13 +1094,13 @@ class Header extends Component {
                 </div>
                 <div class="card-item text-center col12">
                   <div class="card-jcp dis-inline-block">
-                    <span class="dis-block" dangerouslySetInnerHTML={{ __html: cardjcpplatinumImage }} />
+                    <span class="dis-block" dangerouslySetInnerHTML={{ __html: cardjcpredImage }} />
                   </div>
                   <div class="card-jcp-red card-jcp dis-inline-block">
                     <span class="dis-block" dangerouslySetInnerHTML={{ __html: cardjcpredImage }} />
                   </div>
                   <div class="card-jcp dis-inline-block">
-                    <span class="dis-block" dangerouslySetInnerHTML={{ __html: cardjcpplatinumImage }} />
+                    <span class="dis-block" dangerouslySetInnerHTML={{ __html: cardjcpredImage }} />
                   </div>
                   <div class="member-section text-center">
                     <h2 class="title title-L">Earn Rewards 2x Faster</h2>
@@ -1119,10 +1122,118 @@ class Header extends Component {
 
 
 
+
+
+
+        {/* sidepanel cam menu starts*/}
+        <div class="side-panel slide-panel-from-right" id="camMenu">
+          <div class="side-panel-container my-account-sidepanel">
+            <header class="side-panel-header">
+              <h3 class="title title-L">Cam Menu</h3>
+              <a href="javascript:void(0);" class="side-panel-close">
+                <div class="change-my-store-icon-close icon" dangerouslySetInnerHTML={{ __html: closeImage }} />
+              </a>
+            </header>
+            <div class="side-panel-content my-account-container cam-card-container">
+              <h3>No / Unlinked JCP CC:</h3>
+              <div class="card-item text-center col12 mrg-L mrg-top-L">
+                <div class="card-jcp dis-inline-block">
+                  <span class="dis-block" dangerouslySetInnerHTML={{ __html: cardjcpredImage }} />
+                </div>
+                <div class="card-jcp-red card-jcp dis-inline-block mrg-top-S">
+                  <span class="dis-block" dangerouslySetInnerHTML={{ __html: cardjcpredImage }} />
+                </div>
+                <div class="card-jcp dis-inline-block">
+                  <span class="dis-block" dangerouslySetInnerHTML={{ __html: cardjcpredImage }} />
+                </div>
+                <div class="member-section text-center">
+                  <h2 class="title title-L">Earn Rewards 2x Faster</h2>
+                  <span class="dis-block mrg-L">with your JCPenney Credit Card</span>
+                </div>
+                <div class="text-center">
+                  <a href="javascript:void();" role="button" class="btn btn-secondary btn-M mrg-M">Apply Now</a>
+                </div>
+                <div class="text-center">
+                  <span class="dis-block mrg-S">Already a cardmember? </span>
+                  <a class="mrg-M dis-block" href="javascript:void();">View Balance & Pay Bill</a>
+                </div>
+              </div>
+              <h3>Linked Red JCP CC:</h3>
+              <div class="card-member-status mrg-top-L mrg-L">
+                <div class="member-section text-center">
+                  <h2 class="title title-L">Go for the Gold!  </h2>
+                  <p>Spend just $200 more to earn Gold cardmember status and reap the rewards! <a href="javascript:void(0);">Learn More </a></p>
+                </div>
+                <div class="card-section">
+                  <div class="card-jcp-progress">
+                    <span dangerouslySetInnerHTML={{ __html: cardjcpredImage }} />
+                  </div>
+                  <div class="progress-bar progress-bar-rewards position-rel">
+                    {/* <div class="tooltip tooltip-bottom-center tooltip-single">$10</div> */}
+                    <span class="progress-bar-max-points">200</span>
+                    <div class="progress-bar-percent">150</div>
+                  </div>
+                  <div class="card-jcp-progress-right">
+                    <span dangerouslySetInnerHTML={{ __html: cardjcpredImage }} />
+                  </div>
+                </div>
+              </div>
+
+              <h3>Linked Gold JCP CC:</h3>
+              <div class="card-member-status mrg-L">
+                <div class="member-section text-center">
+                  <h2 class="title title-L">Platinum: It’s Better Than Gold </h2>
+                  <p>Spend just $300 more to earn Gold cardmember status and reap the rewards! <a href="javascript:void(0);">Learn More </a></p>
+                </div>
+                <div class="card-section">
+                  <div class="card-jcp-progress">
+                    <span dangerouslySetInnerHTML={{ __html: cardjcpredImage }} />
+                  </div>
+                  <div class="progress-bar progress-bar-rewards position-rel">
+                    {/* <div class="tooltip tooltip-bottom-center tooltip-single">$10</div> */}
+                    <span class="progress-bar-max-points">200</span>
+                    <div class="progress-bar-percent">150</div>
+                  </div>
+                  <div class="card-jcp-progress-right">
+                    <span dangerouslySetInnerHTML={{ __html: cardjcpredImage }} />
+                  </div>
+                </div>
+              </div>
+
+              <h3>Linked Platinum JCP CC:</h3>
+              <div class="card-member-status">
+                <div class="card-section card-collage">
+                  <div class="card-jcp">
+                    <span dangerouslySetInnerHTML={{ __html: cardjcpredImage }} />
+                  </div>
+                  <div class="card-jcp card-middle">
+                    <span dangerouslySetInnerHTML={{ __html: cardjcpredImage }} />
+                  </div>
+                  <div class="card-jcp">
+                    <span dangerouslySetInnerHTML={{ __html: cardjcpredImage }} />
+                  </div>
+                </div>
+                <div class="member-section text-center">
+                  <h2 class="title title-L">Platinum Cardmember</h2>
+                  <p>Spend just $328 more to earn Gold cardmember status and reap the rewards! <a href="javascript:void(0);">Learn More </a></p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        {/* sidepanel cam menu ends*/}
+
+
+
+
+
+
         {/* sidepanel forgot password starts*/}
         <div class="side-panel slide-panel-from-right" id="forgotPassword">
           <div class="side-panel-container my-account-sidepanel">
             <header class="side-panel-header">
+              <span class="back-icon" dangerouslySetInnerHTML={{ __html: arrowleftImage }} />
               <h3 class="title title-L">Back to Sign In</h3>
               <a href="javascript:void(0);" class="side-panel-close">
                 <div class="change-my-store-icon-close icon" dangerouslySetInnerHTML={{ __html: closeImage }} />
@@ -1130,7 +1241,8 @@ class Header extends Component {
             </header>
             <div class="side-panel-content my-account-container input-form">
               <div class="sm12 md12 columns row">
-                <div class="sm12 md12 columns row text-center">
+                <div class="msg msg-success mrg-M">Email has been sent! Please check your inbox.<span class="icon msg-close color-success-type-svg " dangerouslySetInnerHTML={{ __html: closeImage }} /></div>
+                <div class="sm12 md12 columns text-center">
                   <h1 class="mrg-S title title-XL">Forgot Your Password?</h1>
                   <div class="mrg-M std-txt std-txt-M color-nightsky">Enter the email address for your jcp.com account and we'll send you instructions to change your password.</div>
                 </div>
@@ -1154,6 +1266,7 @@ If you’re unable to change your password, please call our Customer Care team a
         <div class="side-panel slide-panel-from-right" id="createAccount">
           <div class="side-panel-container my-account-sidepanel">
             <header class="side-panel-header">
+              <span class="back-icon" dangerouslySetInnerHTML={{ __html: arrowleftImage }} />
               <h3 class="title title-L">Back to Sign In</h3>
               <a href="javascript:void(0);" class="side-panel-close">
                 <div class="change-my-store-icon-close icon" dangerouslySetInnerHTML={{ __html: closeImage }} />

@@ -13,7 +13,7 @@
     }
 }
 
-@media (--viewport-large-up) {
+@media (--viewport-xl-up) {
     .main-menu-promotional-banner-content {
         max-width: 1400px;
         margin: 0 auto;
@@ -48,7 +48,7 @@
     margin: 0 auto;
     & .main-menu-primary-item {
         flex: 1;
-		align-self: center;
+        align-self: center;
     }
     & .main-menu-primary-search {
         flex: 2.5;
@@ -287,6 +287,15 @@
             right: 4px;
         }
     }
+    & .back-icon {
+        float: left;
+        padding-top: 2px;
+        padding-right: 2px;
+        & svg {
+            width: 20px;
+            height: 20px;
+        }
+    }
 }
 
 @media (--viewport-lg) {
@@ -389,7 +398,7 @@
         position: relative;
         font-size: 14px;
         text-decoration: none;
-        @media (--viewport-large-up) {
+        @media (--viewport-xl-up) {
             padding: 16px 24px 16px 16px;
         }
         &:after {
@@ -1191,7 +1200,7 @@
         }
     }
     & .my-account-container {
-		padding: 72px 0 0;
+        padding: 72px 0 0;
         & .my-account-top {
             padding-bottom: 32px;
             & .account-logo {
@@ -1241,7 +1250,7 @@
                 }
             }
             & .card-section {
-                & .card-jcp-red {
+                & .card-jcp-progress {
                     width: 20%;
                     float: left;
                     top: -30px;
@@ -1257,7 +1266,7 @@
                     width: 60%;
                     float: left;
                 }
-                & .card-jcp-gold {
+                & .card-jcp-progress-right {
                     width: 20%;
                     float: right;
                     position: relative;
@@ -1267,6 +1276,38 @@
                         height: 78px;
                         position: relative;
                         right: 0;
+                    }
+                }
+            }
+            & .card-collage {
+                text-align: center;
+                position: relative;
+                width: 100%;
+                min-height: 120px;
+                & .card-jcp {
+                    position: absolute;
+                    left: 30%;
+                    & svg {
+                        width: 108px;
+                        height: 78px;
+                    }
+                    &:first-child {
+                        left: 26%;
+                        top: 12%;
+                    }
+                    &:last-child{
+                        right: 9%;
+                        top: 14%;
+                        z-index: 1;
+                    }
+                    &:nth-child(2){
+                        z-index: 99;
+                    }
+                }
+                & .card-middle {
+                    & svg {
+                        width: 158px;
+                        height: 108px;
                     }
                 }
             }
@@ -1284,46 +1325,51 @@
                 position: absolute;
                 top: 12px;
                 right: 0;
-			}
-			& span {
-				display: inline-block;
-				background: var(--color-white);
-				height: 30px;
-				width: 30px;
-				position: relative;
-				top: -1px;
-				z-index: 1;
-				font-weight: bold;
-				color: var(--color-nightsky);
-			}
-		}
-		& .error-message-hide {
-			display: none;
-		}
-	}
-	
-	& .my-account-bottom {
-		margin-top: 64px;
-		
-		& .card-item {
-			background: var(--color-lightgrey);
-			float: left;
-			& .card-jcp {
-				width: 15%;
-				& svg {
-					width: 108px;
-					height: 78px;
-				}
-			}
-			& .card-jcp-red {
-				position: relative;
-				top: -2px;
-			}
-			& .member-section {
-				& h2 {
-					font-weight: bold;
-				}
-			}
-		}
-	}
+            }
+            & span {
+                display: inline-block;
+                background: var(--color-white);
+                height: 30px;
+                width: 30px;
+                position: relative;
+                top: -1px;
+                z-index: 1;
+                font-weight: bold;
+                color: var(--color-nightsky);
+            }
+        }
+        & .error-message-hide {
+            display: none;
+        }
+    }
+    & .my-account-bottom {
+        margin-top: 64px;
+    }
+    & .card-item {
+        background: var(--color-lightgrey);
+        float: left;
+        & .card-jcp {
+            width: 15%;
+            & svg {
+                width: 108px;
+                height: 78px;
+            }
+        }
+        & .card-jcp-red {
+            position: relative;
+        }
+        & .member-section {
+            & h2 {
+                font-weight: bold;
+            }
+        }
+    }
+    & .cam-card-container {
+        & h3 {
+            color: var(--color-passion);
+            padding-left: 16px;
+            font-weight: bold;
+            font-size: 20px;
+        }
+    }
 }

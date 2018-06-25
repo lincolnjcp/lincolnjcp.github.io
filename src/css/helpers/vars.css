@@ -2,33 +2,31 @@
 /* Breakpoints
 ******************/
 
-@custom-media --viewport-large-up (width > 1280px);
+@custom-media --viewport-lg-down (width < 1366px);
+@custom-media --viewport-xl-up (width > 1280px);
 @custom-media --viewport-md-down (width < 1024px);
 @custom-media --viewport-md-up (width >= 1024px);
 @custom-media --viewport-small-down (width < 600px);
 @custom-media --viewport-xs-down (width < 360px);
 
 
-@custom-media --viewport-xxs-only (width < 320px) and (width < 360px);
-@custom-media --viewport-xs-only (width >= 360px) and (width <600px);
+@custom-media --viewport-xxs-only (width >= 320px) and (width < 360px);
+@custom-media --viewport-xs-only (width >= 360px) and (width < 600px);
 @custom-media --viewport-sm-only (width >= 600px) and (width < 768px);
 @custom-media --viewport-md-only (width >= 768px) and (width < 1024px);
 @custom-media --viewport-lg-only (width >= 1024px) and (width < 1280px);
 @custom-media --viewport-xl-only (width >= 1280px) and (width < 1366px);;
 @custom-media --viewport-xxl-only (width >= 1366px);
 
-@custom-media --viewport-xxs (width < 320px);
-@custom-media --viewport-xs (width < 360px);
-@custom-media --viewport-sm (width < 600px);
+@custom-media --viewport-xxs (width >= 320px);
+@custom-media --viewport-xs (width >= 360px);
+@custom-media --viewport-sm (width >= 600px);
 @custom-media --viewport-md (width >= 768px );
 @custom-media --viewport-lg (width >= 1024px);
 @custom-media --viewport-xl (width >= 1280px);
 @custom-media --viewport-xxl (width >= 1366px);
 
-
-@custom-media --viewport-lg-down (width < 1366px);
-
-    :root {
+:root {
     /******************
     /* Vars
     /* File Paths
@@ -66,7 +64,7 @@
     --color-concrete: #D8D8D8;
     --color-lightgrey: #F1F1F1;
     --color-white: #FFFFFF;
-    
+
     /* Success */
     --color-success-type: #2A7952;
     --color-success-border: #C9E7D9;
@@ -170,8 +168,8 @@
 
     /* Coupon
     --color-coupon-grey:#53606b; */
- 
+
     /* Placeholder  */
    --color-placeholder-grey:#6b7883;
-    
+
 }

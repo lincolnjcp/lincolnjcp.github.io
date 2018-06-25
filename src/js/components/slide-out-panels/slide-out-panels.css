@@ -99,7 +99,7 @@
 	transition: transform var(--transition-time-M) ease-in-out;
 	@media (--viewport-sm-only) {
 		min-width: 320px;
-		width: 90%;
+		width: 320px;
 	}
 }
 .slide-panel-from-right .side-panel-container {
