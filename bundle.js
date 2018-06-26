@@ -21297,7 +21297,7 @@ var header_Header = function (_Component) {
               react_default.a.createElement('span', { 'class': 'back-icon', dangerouslySetInnerHTML: { __html: header_arrowleftImage } }),
               react_default.a.createElement(
                 'h3',
-                { 'class': 'title title-L', id: 'siginHome' },
+                { 'class': 'title title-L back-to-sign', id: 'siginHome' },
                 'Back to Sign In'
               ),
               react_default.a.createElement(
@@ -21314,16 +21314,10 @@ var header_Header = function (_Component) {
                 { 'class': 'sm12 md12 columns row' },
                 react_default.a.createElement(
                   'div',
-                  { 'class': 'msg msg-success mrg-M' },
-                  'Email has been sent! Please check your inbox.',
-                  react_default.a.createElement('span', { 'class': 'icon msg-close color-success-type-svg ', dangerouslySetInnerHTML: { __html: header_closeImage } })
-                ),
-                react_default.a.createElement(
-                  'div',
                   { 'class': 'sm12 md12 columns text-center' },
                   react_default.a.createElement(
                     'h1',
-                    { 'class': 'mrg-S title title-XL' },
+                    { 'class': 'mrg-M title title-XL' },
                     'Forgot Your Password?'
                   ),
                   react_default.a.createElement(
@@ -21372,7 +21366,7 @@ var header_Header = function (_Component) {
               react_default.a.createElement('span', { 'class': 'back-icon', dangerouslySetInnerHTML: { __html: header_arrowleftImage } }),
               react_default.a.createElement(
                 'h3',
-                { 'class': 'title title-L', id: 'siginHome' },
+                { 'class': 'title title-L back-to-sign', id: 'siginHome' },
                 'Back to Sign In'
               ),
               react_default.a.createElement(

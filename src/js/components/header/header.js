@@ -1267,16 +1267,16 @@ class Header extends Component {
           <div class="side-panel-container my-account-sidepanel">
             <header class="side-panel-header">
               <span class="back-icon" dangerouslySetInnerHTML={{ __html: arrowleftImage }} />
-              <h3 class="title title-L" id="siginHome">Back to Sign In</h3>
+              <h3 class="title title-L back-to-sign" id="siginHome">Back to Sign In</h3>
               <a href="javascript:void(0);" class="side-panel-close">
                 <div class="change-my-store-icon-close icon" dangerouslySetInnerHTML={{ __html: closeImage }} />
               </a>
             </header>
             <div class="side-panel-content my-account-container input-form">
               <div class="sm12 md12 columns row">
-                <div class="msg msg-success mrg-M">Email has been sent! Please check your inbox.<span class="icon msg-close color-success-type-svg " dangerouslySetInnerHTML={{ __html: closeImage }} /></div>
+                {/* <div class="msg msg-success mrg-M">Email has been sent! Please check your inbox.<span class="icon msg-close color-success-type-svg " dangerouslySetInnerHTML={{ __html: closeImage }} /></div> */}
                 <div class="sm12 md12 columns text-center">
-                  <h1 class="mrg-S title title-XL">Forgot Your Password?</h1>
+                  <h1 class="mrg-M title title-XL">Forgot Your Password?</h1>
                   <div class="mrg-M std-txt std-txt-M color-nightsky">Enter the email address for your jcp.com account and we'll send you instructions to change your password.</div>
                 </div>
                 <div class="form-float-label">
@@ -1301,7 +1301,7 @@ If you’re unable to change your password, please call our Customer Care team a
           <div class="side-panel-container my-account-sidepanel">
             <header class="side-panel-header">
               <span class="back-icon" dangerouslySetInnerHTML={{ __html: arrowleftImage }} />
-              <h3 class="title title-L" id="siginHome">Back to Sign In</h3>
+              <h3 class="title title-L back-to-sign" id="siginHome">Back to Sign In</h3>
               <a href="javascript:void(0);" class="side-panel-close">
                 <div class="change-my-store-icon-close icon" dangerouslySetInnerHTML={{ __html: closeImage }} />
               </a>

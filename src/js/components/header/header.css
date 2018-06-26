@@ -296,6 +296,9 @@
             height: 20px;
         }
     }
+    & .back-to-sign {
+        cursor: pointer;
+    }
 }
 
 @media (--viewport-lg) {
