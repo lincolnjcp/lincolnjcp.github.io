@@ -350,6 +350,13 @@ module.exports = "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http:/
 
 /***/ }),
 
+/***/ "3laZ":
+/***/ (function(module, exports) {
+
+module.exports = "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"32\" height=\"32\" viewBox=\"0 0 32 32\">\n    <defs>\n        <path id=\"a\" d=\"M27.996 11.531c0 .287-.097.53-.291.73a.95.95 0 0 1-.709.302.95.95 0 0 1-.708-.301l-1.5-1.547-10.123 10.484a.95.95 0 0 1-.708.301.95.95 0 0 1-.708-.3l-.959-.99a1.01 1.01 0 0 1-.291-.73c0-.286.097-.53.291-.73L22.455 8.309l-1.5-1.547a1.01 1.01 0 0 1-.29-.73c0-.287.096-.53.29-.731.195-.2.431-.301.709-.301h5.332c.278 0 .514.1.709.3.194.201.291.445.291.731v5.5zm-7.04 5.114c.194-.23.43-.337.708-.323.278.015.514.115.708.301.195.186.292.437.292.752v7.563c0 .572-.195 1.06-.583 1.46a1.9 1.9 0 0 1-1.417.602H6a1.9 1.9 0 0 1-1.417-.602A2.021 2.021 0 0 1 4 24.938V9.813c0-.573.194-1.06.583-1.461A1.9 1.9 0 0 1 6 7.75H18.33c.278 0 .514.1.708.3.195.201.292.445.292.731 0 .287-.097.53-.292.73l-.666.688a.95.95 0 0 1-.708.301H6.666v13.75h13.331v-6.188c0-.286.098-.53.292-.73l.667-.687z\"/>\n    </defs>\n    <g fill=\"none\" fill-rule=\"evenodd\">\n        <mask id=\"b\" fill=\"#fff\">\n            <use xlink:href=\"#a\"/>\n        </mask>\n        <use fill=\"#111\" xlink:href=\"#a\"/>\n        <g fill=\"#384048\" mask=\"url(#b)\">\n            <path d=\"M0 0h32v32H0z\"/>\n        </g>\n    </g>\n</svg>\n"
+
+/***/ }),
+
 /***/ "3p/b":
 /***/ (function(module, exports) {
 
@@ -18953,6 +18960,7 @@ var rewardsFillImage = __webpack_require__("rD0y");
 var appointmentFillImage = __webpack_require__("8/sS");
 var header_cardjcpImage = __webpack_require__("jrV8");
 var logoutImage = __webpack_require__("hozW");
+var externallinkImage = __webpack_require__("3laZ");
 var header_cardjcpredImage = __webpack_require__("plD6");
 var header_cardjcpgoldImage = __webpack_require__("6RTn");
 var header_cardjcpplatinumImage = __webpack_require__("phwv");
@@ -19696,6 +19704,14 @@ var header_Header = function (_Component) {
       );
     }
   }, {
+    key: 'sidePaneler',
+    value: function sidePaneler(indexObj) {
+
+      jquery_default()('.slide-panel-from-right').each(function (indx, obj) {
+        indexObj == indx ? jquery_default()(obj).addClass('is-visible') : jquery_default()(obj).removeClass('is-visible');
+      });
+    }
+  }, {
     key: 'componentDidMount',
     value: function componentDidMount() {
 
@@ -20034,7 +20050,7 @@ var header_Header = function (_Component) {
         passwordElement.setAttribute('type', newType);
         evt.target.innerHTML = newType == 'password' ? 'show' : 'hide';
       }
-
+      var self = this;
       jquery_default()(function () {
         jquery_default()(".phone-number").keypress(function (e) {
           if (e.which != 8 && e.which != 0 && (e.which < 48 || e.which > 57)) {
@@ -20048,6 +20064,29 @@ var header_Header = function (_Component) {
             jquery_default()(this).val(curval + "-");
           }
           jquery_default()(this).attr('maxlength', '12');
+        });
+
+        jquery_default()('#siginForgotPswd,#siginCreateAct,#createmyAccount,#siginmyAccount,#siginHome,#signOut').click(function (e) {
+          switch (jquery_default()(e.target).attr('id')) {
+            case "siginCreateAct":
+              self.sidePaneler(4);
+              break;
+            case "siginForgotPswd":
+              self.sidePaneler(3);
+              break;
+            case "createmyAccount":
+              self.sidePaneler(0);
+              break;
+            case "siginmyAccount":
+              self.sidePaneler(0);
+              break;
+            case "siginHome":
+              self.sidePaneler(1);
+              break;
+            case "signOut":
+              self.sidePaneler(5);
+              break;
+          }
         });
       });
     }
@@ -20099,31 +20138,6 @@ var header_Header = function (_Component) {
                   { href: 'javascript:void(0);' },
                   'See Details'
                 )
-              ),
-              react_default.a.createElement(
-                'div',
-                { 'class': 'main-menu-primary-account-link show-for-large-only show-for-xlarge-only show-for-xxlarge-only hide-for-medium-down title-XS side-panel-btn fl-right color-white mrg-rght-S', 'data-target': '#camMenu' },
-                ' Cam Menu '
-              ),
-              react_default.a.createElement(
-                'div',
-                { 'class': 'main-menu-primary-account-title show-for-large-only show-for-xlarge-only show-for-xxlarge-only hide-for-medium-down title-XS side-panel-btn fl-right color-white mrg-rght-S', 'data-target': '#myAccount' },
-                ' My Account '
-              ),
-              react_default.a.createElement(
-                'div',
-                { 'class': 'main-menu-primary-account-title show-for-large-only show-for-xlarge-only show-for-xxlarge-only hide-for-medium-down title-XS side-panel-btn fl-right color-white mrg-rght-S', 'data-target': '#createAccount' },
-                ' Create Account '
-              ),
-              react_default.a.createElement(
-                'div',
-                { 'class': 'main-menu-primary-account-title show-for-large-only show-for-xlarge-only show-for-xxlarge-only hide-for-medium-down title-XS side-panel-btn fl-right color-white mrg-rght-S', 'data-target': '#forgotPassword' },
-                ' Forgot Password '
-              ),
-              react_default.a.createElement(
-                'div',
-                { 'class': 'main-menu-primary-account-link show-for-large-only show-for-xlarge-only show-for-xxlarge-only hide-for-medium-down title-XS side-panel-btn fl-right color-white mrg-rght-S', 'data-target': '#signIn' },
-                ' Sign In '
               ),
               react_default.a.createElement(
                 'p',
@@ -20203,16 +20217,16 @@ var header_Header = function (_Component) {
                   { 'class': 'dropdown-menu-block' },
                   react_default.a.createElement(
                     'button',
-                    { type: 'button', tabindex: '-1' },
+                    { type: 'button', tabindex: '-1', 'data-target': '#signIn', 'class': 'side-panel-btn' },
                     react_default.a.createElement('div', { 'class': 'main-menu-primary-account-icon icon color-white-svg', dangerouslySetInnerHTML: { __html: accountNewImage } }),
                     react_default.a.createElement(
                       'div',
-                      { 'class': 'main-menu-primary-account-title show-for-large-only show-for-xlarge-only show-for-xxlarge-only hide-for-medium-down title-XS side-panel-btn', 'data-target': '#myAccount' },
+                      { 'class': 'main-menu-primary-account-title show-for-large-only show-for-xlarge-only show-for-xxlarge-only hide-for-medium-down title-XS side-panel-btn' },
                       'My Account'
                     ),
                     react_default.a.createElement(
                       'div',
-                      { 'class': 'main-menu-primary-account-link show-for-large-only show-for-xlarge-only show-for-xxlarge-only hide-for-medium-down title-M side-panel-btn', 'data-target': '#signIn' },
+                      { 'class': 'main-menu-primary-account-link show-for-large-only show-for-xlarge-only show-for-xxlarge-only hide-for-medium-down title-M side-panel-btn' },
                       'Sign In'
                     )
                   )
@@ -20657,7 +20671,7 @@ var header_Header = function (_Component) {
               ),
               react_default.a.createElement(
                 'div',
-                { 'class': 'my-account-list' },
+                { 'class': 'my-account-list mrg-L' },
                 react_default.a.createElement(
                   'ul',
                   null,
@@ -20747,7 +20761,7 @@ var header_Header = function (_Component) {
                     react_default.a.createElement('span', { 'class': 'account-icon', dangerouslySetInnerHTML: { __html: accountNewImage } }),
                     react_default.a.createElement(
                       'a',
-                      { href: 'javascript:void(0)' },
+                      { href: 'javascript:void(0)', id: 'signOut' },
                       'Sign Out'
                     )
                   )
@@ -20835,15 +20849,6 @@ var header_Header = function (_Component) {
                 { 'class': 'sm12 md12 columns row' },
                 react_default.a.createElement(
                   'div',
-                  { 'class': 'form-float-label error-message' },
-                  react_default.a.createElement(
-                    'div',
-                    { 'class': 'msg msg-error mrg-L' },
-                    'The email address or password you entered was not found. Please try again.'
-                  )
-                ),
-                react_default.a.createElement(
-                  'div',
                   { 'class': 'form-float-label' },
                   react_default.a.createElement('input', { 'class': 'form-control email-text input-text', id: 'email', type: 'text', placeholder: 'Email ' }),
                   react_default.a.createElement(
@@ -20883,7 +20888,7 @@ var header_Header = function (_Component) {
                   { 'class': 'fl-right std-txt std-txt-M mrg-L' },
                   react_default.a.createElement(
                     'a',
-                    { href: 'javascript:void(0);' },
+                    { href: 'javascript:void(0);', id: 'siginForgotPswd' },
                     'Forgot Password?'
                   )
                 ),
@@ -20892,7 +20897,7 @@ var header_Header = function (_Component) {
                   { 'class': 'text-center' },
                   react_default.a.createElement(
                     'a',
-                    { href: 'javascript:void();', role: 'button', 'class': 'btn btn-primary btn-M mrg-M col12' },
+                    { href: 'javascript:void();', role: 'button', 'class': 'btn btn-primary btn-M mrg-M col12', id: 'siginmyAccount' },
                     'Sign In'
                   )
                 ),
@@ -20910,7 +20915,7 @@ var header_Header = function (_Component) {
                   { 'class': 'text-center' },
                   react_default.a.createElement(
                     'a',
-                    { href: 'javascript:void();', role: 'button', 'class': 'btn btn-secondary btn-M mrg-M col12' },
+                    { href: 'javascript:void();', id: 'siginCreateAct', role: 'button', 'class': 'btn btn-secondary btn-M mrg-M col12' },
                     'Create Account'
                   )
                 )
@@ -20923,7 +20928,7 @@ var header_Header = function (_Component) {
                   { 'class': 'menu-item' },
                   react_default.a.createElement(
                     'div',
-                    { 'class': 'my-account-list' },
+                    { 'class': 'my-account-list mrg-L' },
                     react_default.a.createElement(
                       'ul',
                       null,
@@ -20975,18 +20980,22 @@ var header_Header = function (_Component) {
                   { 'class': 'card-item text-center col12' },
                   react_default.a.createElement(
                     'div',
-                    { 'class': 'card-jcp dis-inline-block' },
-                    react_default.a.createElement('span', { 'class': 'dis-block', dangerouslySetInnerHTML: { __html: header_cardjcpredImage } })
-                  ),
-                  react_default.a.createElement(
-                    'div',
-                    { 'class': 'card-jcp-red card-jcp dis-inline-block' },
-                    react_default.a.createElement('span', { 'class': 'dis-block', dangerouslySetInnerHTML: { __html: header_cardjcpredImage } })
-                  ),
-                  react_default.a.createElement(
-                    'div',
-                    { 'class': 'card-jcp dis-inline-block' },
-                    react_default.a.createElement('span', { 'class': 'dis-block', dangerouslySetInnerHTML: { __html: header_cardjcpredImage } })
+                    { 'class': 'card-container' },
+                    react_default.a.createElement(
+                      'div',
+                      { 'class': 'card-jcp dis-inline-block' },
+                      react_default.a.createElement('span', { 'class': 'dis-block', dangerouslySetInnerHTML: { __html: header_cardjcpredImage } })
+                    ),
+                    react_default.a.createElement(
+                      'div',
+                      { 'class': 'card-jcp-red card-jcp dis-inline-block' },
+                      react_default.a.createElement('span', { 'class': 'dis-block', dangerouslySetInnerHTML: { __html: header_cardjcpredImage } })
+                    ),
+                    react_default.a.createElement(
+                      'div',
+                      { 'class': 'card-jcp dis-inline-block' },
+                      react_default.a.createElement('span', { 'class': 'dis-block', dangerouslySetInnerHTML: { __html: header_cardjcpredImage } })
+                    )
                   ),
                   react_default.a.createElement(
                     'div',
@@ -20998,7 +21007,7 @@ var header_Header = function (_Component) {
                     ),
                     react_default.a.createElement(
                       'span',
-                      { 'class': 'dis-block mrg-L' },
+                      { 'class': 'dis-block mrg-M' },
                       'with your JCPenney Credit Card'
                     )
                   ),
@@ -21007,7 +21016,7 @@ var header_Header = function (_Component) {
                     { 'class': 'text-center' },
                     react_default.a.createElement(
                       'a',
-                      { href: 'javascript:void();', role: 'button', 'class': 'btn btn-secondary btn-M mrg-M' },
+                      { href: 'javascript:void();', role: 'button', 'class': 'btn btn-secondary btn-M mrg-M col6' },
                       'Apply Now'
                     )
                   ),
@@ -21086,7 +21095,7 @@ var header_Header = function (_Component) {
                   ),
                   react_default.a.createElement(
                     'span',
-                    { 'class': 'dis-block mrg-L' },
+                    { 'class': 'dis-block mrg-M' },
                     'with your JCPenney Credit Card'
                   )
                 ),
@@ -21288,7 +21297,7 @@ var header_Header = function (_Component) {
               react_default.a.createElement('span', { 'class': 'back-icon', dangerouslySetInnerHTML: { __html: header_arrowleftImage } }),
               react_default.a.createElement(
                 'h3',
-                { 'class': 'title title-L' },
+                { 'class': 'title title-L', id: 'siginHome' },
                 'Back to Sign In'
               ),
               react_default.a.createElement(
@@ -21326,7 +21335,7 @@ var header_Header = function (_Component) {
                 react_default.a.createElement(
                   'div',
                   { 'class': 'form-float-label' },
-                  react_default.a.createElement('input', { 'class': 'form-control email-text input-text', id: 'email', type: 'text', placeholder: 'Email ' }),
+                  react_default.a.createElement('input', { 'class': 'form-control email-text input-text', id: 'email', type: 'text', placeholder: 'Email' }),
                   react_default.a.createElement(
                     'label',
                     { htmlFor: 'email' },
@@ -21363,7 +21372,7 @@ var header_Header = function (_Component) {
               react_default.a.createElement('span', { 'class': 'back-icon', dangerouslySetInnerHTML: { __html: header_arrowleftImage } }),
               react_default.a.createElement(
                 'h3',
-                { 'class': 'title title-L' },
+                { 'class': 'title title-L', id: 'siginHome' },
                 'Back to Sign In'
               ),
               react_default.a.createElement(
@@ -21452,7 +21461,7 @@ var header_Header = function (_Component) {
                   { 'class': 'text-center' },
                   react_default.a.createElement(
                     'a',
-                    { href: 'javascript:void();', role: 'button', 'class': 'btn btn-primary btn-M mrg-M col12 color-white' },
+                    { href: 'javascript:void();', role: 'button', 'class': 'btn btn-primary btn-M mrg-M col12 color-white', id: 'createmyAccount' },
                     'Create Account'
                   )
                 ),
@@ -21466,6 +21475,122 @@ var header_Header = function (_Component) {
                     'Terms & Conditions'
                   ),
                   ' and to receive email offers at the email address I provided.'
+                )
+              )
+            )
+          )
+        ),
+        react_default.a.createElement(
+          'div',
+          { 'class': 'side-panel slide-panel-from-right', id: 'signOut' },
+          react_default.a.createElement(
+            'div',
+            { 'class': 'side-panel-container my-account-sidepanel' },
+            react_default.a.createElement(
+              'header',
+              { 'class': 'side-panel-header' },
+              react_default.a.createElement(
+                'h3',
+                { 'class': 'title title-L' },
+                'Sign In'
+              ),
+              react_default.a.createElement(
+                'a',
+                { href: 'javascript:void(0);', 'class': 'side-panel-close' },
+                react_default.a.createElement('div', { 'class': 'change-my-store-icon-close icon', dangerouslySetInnerHTML: { __html: header_closeImage } })
+              )
+            ),
+            react_default.a.createElement(
+              'div',
+              { 'class': 'side-panel-content my-account-container input-form' },
+              react_default.a.createElement(
+                'div',
+                { 'class': 'sm12 md12 columns row' },
+                react_default.a.createElement(
+                  'div',
+                  { 'class': 'my-account-top text-center' },
+                  react_default.a.createElement(
+                    'h1',
+                    { 'class': 'title title-XL' },
+                    'You\u2019re Signed Out'
+                  ),
+                  react_default.a.createElement(
+                    'p',
+                    { 'class': 'my-account-welcome' },
+                    'In order to access your account information, you will need to sign in again.'
+                  )
+                ),
+                react_default.a.createElement(
+                  'div',
+                  { 'class': 'form-float-label' },
+                  react_default.a.createElement('input', { 'class': 'form-control email-text input-text', id: 'email', type: 'text', placeholder: 'Email ' }),
+                  react_default.a.createElement(
+                    'label',
+                    { htmlFor: 'email' },
+                    'Email'
+                  )
+                ),
+                react_default.a.createElement(
+                  'div',
+                  { 'class': 'form-float-label password-form' },
+                  react_default.a.createElement('input', { 'class': 'form-control input-text', id: 'password1', maxLength: '16', type: 'password', placeholder: 'Password' }),
+                  react_default.a.createElement(
+                    'label',
+                    { htmlFor: 'password' },
+                    'Password'
+                  ),
+                  react_default.a.createElement(
+                    'a',
+                    { href: 'javascript:void(0);', 'data-textid': 'password1', 'class': 'show-pwd title-S' },
+                    'show'
+                  )
+                ),
+                react_default.a.createElement(
+                  'label',
+                  { 'class': 'checkbox fl-left' },
+                  react_default.a.createElement('input', { type: 'checkbox', defaultChecked: 'true' }),
+                  ' ',
+                  react_default.a.createElement(
+                    'span',
+                    null,
+                    'Remember Me'
+                  )
+                ),
+                react_default.a.createElement(
+                  'div',
+                  { 'class': 'fl-right std-txt std-txt-M mrg-L' },
+                  react_default.a.createElement(
+                    'a',
+                    { href: 'javascript:void(0);', id: 'siginForgotPswd' },
+                    'Forgot Password?'
+                  )
+                ),
+                react_default.a.createElement(
+                  'div',
+                  { 'class': 'text-center' },
+                  react_default.a.createElement(
+                    'a',
+                    { href: 'javascript:void();', role: 'button', 'class': 'btn btn-primary btn-M mrg-M col12', id: 'siginmyAccount' },
+                    'Sign In'
+                  )
+                ),
+                react_default.a.createElement(
+                  'p',
+                  { 'class': 'or-split text-center' },
+                  react_default.a.createElement(
+                    'span',
+                    null,
+                    'or'
+                  )
+                ),
+                react_default.a.createElement(
+                  'div',
+                  { 'class': 'text-center' },
+                  react_default.a.createElement(
+                    'a',
+                    { href: 'javascript:void();', id: 'siginCreateAct', role: 'button', 'class': 'btn btn-secondary btn-M mrg-M col12' },
+                    'Create Account'
+                  )
                 )
               )
             )

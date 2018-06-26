@@ -20,6 +20,7 @@ const rewardsFillImage = require('!!raw-loader?es5=1!../../../images/global/icon
 const appointmentFillImage = require('!!raw-loader?es5=1!../../../images/global/icons/utility/calendar/schedule-appt-fill.svg');
 const cardjcpImage = require('!!raw-loader?es5=1!../../../images/global/icons/payment/card-jcp.svg');
 const logoutImage = require('!!raw-loader?es5=1!../../../images/global/icons/service/logout.svg');
+const externallinkImage = require('!!raw-loader?es5=1!../../../images/global/icons/service/external-link.svg');
 const cardjcpredImage = require('!!raw-loader?es5=1!../../../images/global/icons/payment/card-jcp-red.svg');
 const cardjcpgoldImage = require('!!raw-loader?es5=1!../../../images/global/icons/payment/card-jcp-gold.svg');
 const cardjcpplatinumImage = require('!!raw-loader?es5=1!../../../images/global/icons/payment/card-jcp-platinum.svg');
@@ -303,6 +304,13 @@ class Header extends Component {
 
   }
 
+  sidePaneler(indexObj) {
+
+    $('.slide-panel-from-right').each((indx, obj) => {
+      (indexObj == indx) ? $(obj).addClass('is-visible') : $(obj).removeClass('is-visible');
+    });
+
+  }
   componentDidMount() {
 
     $('.cancel-btn').on('click', function () {
@@ -620,7 +628,7 @@ class Header extends Component {
       passwordElement.setAttribute('type', newType);
       evt.target.innerHTML = (newType == 'password') ? 'show' : 'hide';
     }
-
+    const self = this;
     $(function () {
       $(".phone-number").keypress(function (e) {
         if (e.which != 8 && e.which != 0 && (e.which < 48 || e.which > 57)) {
@@ -635,7 +643,32 @@ class Header extends Component {
         }
         $(this).attr('maxlength', '12');
       });
+
+      $('#siginForgotPswd,#siginCreateAct,#createmyAccount,#siginmyAccount,#siginHome,#signOut').click((e) => {
+        switch ($(e.target).attr('id')) {
+          case "siginCreateAct":
+            self.sidePaneler(4);
+            break;
+          case "siginForgotPswd":
+            self.sidePaneler(3);
+            break;
+          case "createmyAccount":
+            self.sidePaneler(0);
+            break;
+          case "siginmyAccount":
+            self.sidePaneler(0);
+            break;
+          case "siginHome":
+            self.sidePaneler(1);
+            break;
+          case "signOut":
+            self.sidePaneler(5);
+            break;
+        }
+      });
     });
+
+
 
   }
 
@@ -660,11 +693,11 @@ class Header extends Component {
           <div class="main-menu-promotional-banner">
             <div class="main-menu-promotional-banner-content">
               <p class="S S-at-S mrg-zero main-menu-promotional-banner-text">Promotional font size is 14px… <a href="javascript:void(0);">See Details</a></p>
-              <div class="main-menu-primary-account-link show-for-large-only show-for-xlarge-only show-for-xxlarge-only hide-for-medium-down title-XS side-panel-btn fl-right color-white mrg-rght-S" data-target="#camMenu"> Cam Menu </div>
+              {/* <div class="main-menu-primary-account-link show-for-large-only show-for-xlarge-only show-for-xxlarge-only hide-for-medium-down title-XS side-panel-btn fl-right color-white mrg-rght-S" data-target="#camMenu"> Cam Menu </div>
               <div class="main-menu-primary-account-title show-for-large-only show-for-xlarge-only show-for-xxlarge-only hide-for-medium-down title-XS side-panel-btn fl-right color-white mrg-rght-S" data-target="#myAccount"> My Account </div>
               <div class="main-menu-primary-account-title show-for-large-only show-for-xlarge-only show-for-xxlarge-only hide-for-medium-down title-XS side-panel-btn fl-right color-white mrg-rght-S" data-target="#createAccount"> Create Account </div>
               <div class="main-menu-primary-account-title show-for-large-only show-for-xlarge-only show-for-xxlarge-only hide-for-medium-down title-XS side-panel-btn fl-right color-white mrg-rght-S" data-target="#forgotPassword"> Forgot Password </div>
-              <div class="main-menu-primary-account-link show-for-large-only show-for-xlarge-only show-for-xxlarge-only hide-for-medium-down title-XS side-panel-btn fl-right color-white mrg-rght-S" data-target="#signIn"> Sign In </div>
+              <div class="main-menu-primary-account-link show-for-large-only show-for-xlarge-only show-for-xxlarge-only hide-for-medium-down title-XS side-panel-btn fl-right color-white mrg-rght-S" data-target="#signIn"> Sign In </div> */}
 
               <p class="S S-at-S mrg-zero main-menu-promotional-banner-link hide-for-large-down"> <a href="javascript:void(0);">Accessible View</a> </p>
             </div>
@@ -694,12 +727,10 @@ class Header extends Component {
               </li>
               <li class="main-menu-primary-item main-menu-primary-account">
                 <div class="dropdown-menu-block">
-                  <button type="button" tabindex="-1">
+                  <button type="button" tabindex="-1" data-target="#signIn" class="side-panel-btn">
                     <div class="main-menu-primary-account-icon icon color-white-svg" dangerouslySetInnerHTML={{ __html: accountNewImage }} />
-                    <div class="main-menu-primary-account-title show-for-large-only show-for-xlarge-only show-for-xxlarge-only hide-for-medium-down title-XS side-panel-btn" data-target="#myAccount">My Account</div>
-                    {/* <div class="main-menu-primary-account-title show-for-large-only show-for-xlarge-only show-for-xxlarge-only hide-for-medium-down title-XS side-panel-btn" data-target="#createAccount">Create Account</div>
-                    <div class="main-menu-primary-account-title show-for-large-only show-for-xlarge-only show-for-xxlarge-only hide-for-medium-down title-XS side-panel-btn" data-target="#forgotPassword">Forgot Password</div> */}
-                    <div class="main-menu-primary-account-link show-for-large-only show-for-xlarge-only show-for-xxlarge-only hide-for-medium-down title-M side-panel-btn" data-target="#signIn">Sign In</div>
+                    <div class="main-menu-primary-account-title show-for-large-only show-for-xlarge-only show-for-xxlarge-only hide-for-medium-down title-XS side-panel-btn">My Account</div>
+                    <div class="main-menu-primary-account-link show-for-large-only show-for-xlarge-only show-for-xxlarge-only hide-for-medium-down title-M side-panel-btn">Sign In</div>
                   </button>
                   {/* <div class="dropdown-menu dropdown-account">
                     <div class="tooltip tooltip-top-right tooltip-long tooltip-list">
@@ -1005,7 +1036,7 @@ class Header extends Component {
                 <h1 class="title title-XXL">Hi, Ellen!</h1>
                 <p class="my-account-welcome">Welcome JCP Cardmember </p>
               </div>
-              <div class="my-account-list">
+              <div class="my-account-list mrg-L">
                 <ul>
                   <li class="account-list-label color-concrete-svg"><span class="account-icon" dangerouslySetInnerHTML={{ __html: accountImage }} /><a href="javascript:void(0)">My Account</a></li>
                   <li class="account-list-label color-concrete-svg"><span class="account-icon" dangerouslySetInnerHTML={{ __html: trackOrderImage }} /><a href="javascript:void(0)">My Orders</a></li>
@@ -1015,7 +1046,7 @@ class Header extends Component {
                   <li class="account-list-label color-concrete-svg"><span class="account-icon" dangerouslySetInnerHTML={{ __html: rewardsFillImage }} /><a href="javascript:void(0)">My Rewards</a></li>
                   <li class="account-list-label color-concrete-svg"><span class="account-icon" dangerouslySetInnerHTML={{ __html: appointmentFillImage }} /><a href="javascript:void(0)">My Appointments</a></li>
                   <li class="account-list-label color-concrete-svg"><span class="account-icon" dangerouslySetInnerHTML={{ __html: cardjcpImage }} /><a href="javascript:void(0)">JCP Credit Card</a></li>
-                  <li class="account-list-label color-concrete-svg"><span class="account-icon" dangerouslySetInnerHTML={{ __html: accountNewImage }} /><a href="javascript:void(0)">Sign Out</a></li>
+                  <li class="account-list-label color-concrete-svg"><span class="account-icon" dangerouslySetInnerHTML={{ __html: accountNewImage }} /><a href="javascript:void(0)" id="signOut">Sign Out</a></li>
                 </ul>
               </div>
               <div class="card-member-status">
@@ -1053,9 +1084,9 @@ class Header extends Component {
             </header>
             <div class="side-panel-content my-account-container input-form">
               <div class="sm12 md12 columns row">
-                <div class="form-float-label error-message">
+                {/* <div class="form-float-label error-message">
                   <div class="msg msg-error mrg-L">The email address or password you entered was not found. Please try again.</div>
-                </div>
+                </div> */}
                 <div class="form-float-label">
                   <input class="form-control email-text input-text" id="email" type="text" placeholder="Email " />
                   <label htmlFor="email">Email</label>
@@ -1069,21 +1100,21 @@ class Header extends Component {
                   <input type="checkbox" defaultChecked="true" /> <span>Remember Me</span>
                 </label>
                 <div class="fl-right std-txt std-txt-M mrg-L">
-                  <a href="javascript:void(0);">Forgot Password?</a>
+                  <a href="javascript:void(0);" id="siginForgotPswd" >Forgot Password?</a>
                 </div>
                 <div class="text-center">
-                  <a href="javascript:void();" role="button" class="btn btn-primary btn-M mrg-M col12">Sign In</a>
+                  <a href="javascript:void();" role="button" class="btn btn-primary btn-M mrg-M col12" id="siginmyAccount">Sign In</a>
                 </div>
                 <p class="or-split text-center">
                   <span>or</span>
                 </p>
                 <div class="text-center">
-                  <a href="javascript:void();" role="button" class="btn btn-secondary btn-M mrg-M col12">Create Account</a>
+                  <a href="javascript:void();" id="siginCreateAct" role="button" class="btn btn-secondary btn-M mrg-M col12" >Create Account</a>
                 </div>
               </div>
               <div class="my-account-bottom mrg-top-XL">
                 <div class="menu-item">
-                  <div class="my-account-list">
+                  <div class="my-account-list mrg-L">
                     <ul>
                       <li class="account-list-label color-concrete-svg"><span class="account-icon" dangerouslySetInnerHTML={{ __html: trackOrderImage }} /><a href="javascript:void(0)">My Orders</a></li>
                       <li class="account-list-label color-concrete-svg"><span class="account-icon" dangerouslySetInnerHTML={{ __html: heartfillImage }} /><a href="javascript:void(0)">My Lists</a></li>
@@ -1093,21 +1124,23 @@ class Header extends Component {
                   </div>
                 </div>
                 <div class="card-item text-center col12">
-                  <div class="card-jcp dis-inline-block">
-                    <span class="dis-block" dangerouslySetInnerHTML={{ __html: cardjcpredImage }} />
-                  </div>
-                  <div class="card-jcp-red card-jcp dis-inline-block">
-                    <span class="dis-block" dangerouslySetInnerHTML={{ __html: cardjcpredImage }} />
-                  </div>
-                  <div class="card-jcp dis-inline-block">
-                    <span class="dis-block" dangerouslySetInnerHTML={{ __html: cardjcpredImage }} />
+                  <div class="card-container">
+                    <div class="card-jcp dis-inline-block">
+                      <span class="dis-block" dangerouslySetInnerHTML={{ __html: cardjcpredImage }} />
+                    </div>
+                    <div class="card-jcp-red card-jcp dis-inline-block">
+                      <span class="dis-block" dangerouslySetInnerHTML={{ __html: cardjcpredImage }} />
+                    </div>
+                    <div class="card-jcp dis-inline-block">
+                      <span class="dis-block" dangerouslySetInnerHTML={{ __html: cardjcpredImage }} />
+                    </div>
                   </div>
                   <div class="member-section text-center">
                     <h2 class="title title-L">Earn Rewards 2x Faster</h2>
-                    <span class="dis-block mrg-L">with your JCPenney Credit Card</span>
+                    <span class="dis-block mrg-M">with your JCPenney Credit Card</span>
                   </div>
                   <div class="text-center">
-                    <a href="javascript:void();" role="button" class="btn btn-secondary btn-M mrg-M">Apply Now</a>
+                    <a href="javascript:void();" role="button" class="btn btn-secondary btn-M mrg-M col6">Apply Now</a>
                   </div>
                   <div class="text-center">
                     <span class="dis-block mrg-S">Already a cardmember? </span>
@@ -1148,7 +1181,7 @@ class Header extends Component {
                 </div>
                 <div class="member-section text-center">
                   <h2 class="title title-L">Earn Rewards 2x Faster</h2>
-                  <span class="dis-block mrg-L">with your JCPenney Credit Card</span>
+                  <span class="dis-block mrg-M">with your JCPenney Credit Card</span>
                 </div>
                 <div class="text-center">
                   <a href="javascript:void();" role="button" class="btn btn-secondary btn-M mrg-M">Apply Now</a>
@@ -1234,7 +1267,7 @@ class Header extends Component {
           <div class="side-panel-container my-account-sidepanel">
             <header class="side-panel-header">
               <span class="back-icon" dangerouslySetInnerHTML={{ __html: arrowleftImage }} />
-              <h3 class="title title-L">Back to Sign In</h3>
+              <h3 class="title title-L" id="siginHome">Back to Sign In</h3>
               <a href="javascript:void(0);" class="side-panel-close">
                 <div class="change-my-store-icon-close icon" dangerouslySetInnerHTML={{ __html: closeImage }} />
               </a>
@@ -1247,11 +1280,12 @@ class Header extends Component {
                   <div class="mrg-M std-txt std-txt-M color-nightsky">Enter the email address for your jcp.com account and we'll send you instructions to change your password.</div>
                 </div>
                 <div class="form-float-label">
-                  <input class="form-control email-text input-text" id="email" type="text" placeholder="Email " />
+                  <input class="form-control email-text input-text" id="email" type="text" placeholder="Email" />
                   <label htmlFor="email">Email</label>
                 </div>
                 <div class="text-center">
                   <a href="javascript:void();" role="button" class="btn btn-primary btn-M mrg-M col12 color-white">Send Email</a>
+                  {/* <a href="javascript:void();" role="button" class="btn btn-disabled btn-M mrg-M col12 color-white">Send Email</a> */}
                 </div>
                 <div class="mrg-M std-txt std-txt-M color-nightsky text-center">Having trouble accessing your account?
 If you’re unable to change your password, please call our Customer Care team at 1-800-322-1189</div>
@@ -1267,7 +1301,7 @@ If you’re unable to change your password, please call our Customer Care team a
           <div class="side-panel-container my-account-sidepanel">
             <header class="side-panel-header">
               <span class="back-icon" dangerouslySetInnerHTML={{ __html: arrowleftImage }} />
-              <h3 class="title title-L">Back to Sign In</h3>
+              <h3 class="title title-L" id="siginHome">Back to Sign In</h3>
               <a href="javascript:void(0);" class="side-panel-close">
                 <div class="change-my-store-icon-close icon" dangerouslySetInnerHTML={{ __html: closeImage }} />
               </a>
@@ -1299,8 +1333,8 @@ If you’re unable to change your password, please call our Customer Care team a
                   <label htmlFor="password">Password</label>
                   <a href="javascript:void(0);" data-textid="password2" class="show-pwd title-S">show</a>
                 </div>
-                <div class="text-center">
-                  <a href="javascript:void();" role="button" class="btn btn-primary btn-M mrg-M col12 color-white">Create Account</a>
+                <div class="text-center" >
+                  <a href="javascript:void();" role="button" class="btn btn-primary btn-M mrg-M col12 color-white" id="createmyAccount">Create Account</a>
                 </div>
                 <div class="mrg-M std-txt std-txt-XS color-nightsky text-center md12 sm12 mrg-top-S">
                   By creating an account, I agree to the Rewards <a href="javascript:void(0);">Terms & Conditions</a> and to receive email offers at the email address I provided.
@@ -1310,6 +1344,52 @@ If you’re unable to change your password, please call our Customer Care team a
           </div>
         </div>
         {/* sidepanel create account ends*/}
+
+
+        {/* sidepanel Signout starts*/}
+        <div class="side-panel slide-panel-from-right" id="signOut">
+          <div class="side-panel-container my-account-sidepanel">
+            <header class="side-panel-header">
+              <h3 class="title title-L">Sign In</h3>
+              <a href="javascript:void(0);" class="side-panel-close">
+                <div class="change-my-store-icon-close icon" dangerouslySetInnerHTML={{ __html: closeImage }} />
+              </a>
+            </header>
+            <div class="side-panel-content my-account-container input-form">
+              <div class="sm12 md12 columns row">
+                <div class="my-account-top text-center">
+                  <h1 class="title title-XL">You’re Signed Out</h1>
+                  <p class="my-account-welcome">In order to access your account information, you will need to sign in again.</p>
+                </div>
+                <div class="form-float-label">
+                  <input class="form-control email-text input-text" id="email" type="text" placeholder="Email " />
+                  <label htmlFor="email">Email</label>
+                </div>
+                <div class="form-float-label password-form">
+                  <input class="form-control input-text" id="password1" maxLength="16" type="password" placeholder="Password" />
+                  <label htmlFor="password">Password</label>
+                  <a href="javascript:void(0);" data-textid="password1" class="show-pwd title-S">show</a>
+                </div>
+                <label class="checkbox fl-left">
+                  <input type="checkbox" defaultChecked="true" /> <span>Remember Me</span>
+                </label>
+                <div class="fl-right std-txt std-txt-M mrg-L">
+                  <a href="javascript:void(0);" id="siginForgotPswd" >Forgot Password?</a>
+                </div>
+                <div class="text-center">
+                  <a href="javascript:void();" role="button" class="btn btn-primary btn-M mrg-M col12" id="siginmyAccount">Sign In</a>
+                </div>
+                <p class="or-split text-center">
+                  <span>or</span>
+                </p>
+                <div class="text-center">
+                  <a href="javascript:void();" id="siginCreateAct" role="button" class="btn btn-secondary btn-M mrg-M col12" >Create Account</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* sidepanel Signout ends*/}
 
 
       </div>

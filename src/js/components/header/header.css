@@ -969,6 +969,9 @@
             & button {
                 padding: 0;
                 top: -30px;
+                & .main-menu-primary-account-icon {
+                    top: 5px;
+                }
                 & svg {
                     width: 36px;
                     height: 36px;
@@ -1237,8 +1240,7 @@
         & .card-member-status {
             background: var(--color-lightgrey);
             float: left;
-            padding: 24px 16px;
-            margin-top: 24px;
+            padding: 24px 16px 0;
             & .member-section {
                 & h2 {
                     font-weight: bold;
@@ -1350,9 +1352,22 @@
         float: left;
         & .card-jcp {
             width: 15%;
+            @media (--viewport-md-down) {
+                width: 17%;
+            }
+            @media (--viewport-small-down) {
+                width: 19%;
+            }
+            @media (--viewport-xs-down) {
+                width: 22%;
+            }
             & svg {
                 width: 108px;
                 height: 78px;
+            }
+            &:first-child{
+                position: relative;
+                left: -1px;
             }
         }
         & .card-jcp-red {
@@ -1362,6 +1377,10 @@
             & h2 {
                 font-weight: bold;
             }
+        }
+        & .card-container {
+            position: relative;
+            left: -7%;
         }
     }
     & .cam-card-container {
