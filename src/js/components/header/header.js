@@ -7,7 +7,7 @@ const menuImage = require('!!raw-loader?es5=1!../../../images/global/icons/nav/m
 const closeImage = require('!!raw-loader?es5=1!../../../images/global/icons/nav/close.svg');
 const cartFullImage = require('!!raw-loader?es5=1!../../../images/global/icons/utility/cart/cart-full.svg');
 const trackOrderImage = require('!!raw-loader?es5=1!../../../images/global/icons/utility/ship/track-order.svg');
-const storeNewImage = require('!!raw-loader?es5=1!../../../images/global/icons/utility/store/store.svg');
+const storeNewImage = require('!!raw-loader?es5=1!../../../images/global/icons/utility/store/store-new.svg');
 const accountImage = require('!!raw-loader?es5=1!../../../images/global/icons/service/account.svg');
 const accountNewImage = require('!!raw-loader?es5=1!../../../images/global/icons/service/account-new.svg');
 const arrowleftImage = require('!!raw-loader?es5=1!../../../images/global/icons/nav/arrow-left.svg');

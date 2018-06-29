@@ -10,75 +10,76 @@ const googlepluslineImage = require('!!raw-loader?es5=1!../../../images/global/i
 const youtubelineImage = require('!!raw-loader?es5=1!../../../images/global/icons/social/youtube-line.svg');
 const bloglineImage = require('!!raw-loader?es5=1!../../../images/global/icons/social/blog-line.svg');
 const cardJCPRed = require('!!raw-loader?es5=1!../../../images/global/icons/payment/card-jcp-red.svg');
+const customerserviceImage = require('!!raw-loader?es5=1!../../../images/global/icons/service/customer-service.svg');
 class Footer extends Component {
 
     componentDidMount() {
 
-        (function () {
-            var d = document,
-                accordionToggles = d.querySelectorAll('.js-accordionTrigger'),
-                setAria,
-                setAccordionAria,
-                switchAccordion,
-                touchSupported = ('click' in window),
-                pointerSupported = ('click' in window);
+        // (function () {
+        //     var d = document,
+        //         accordionToggles = d.querySelectorAll('.js-accordionTrigger'),
+        //         setAria,
+        //         setAccordionAria,
+        //         switchAccordion,
+        //         touchSupported = ('click' in window),
+        //         pointerSupported = ('click' in window);
 
-            var skipClickDelay = function (e) {
-                e.preventDefault();
-                e.target.click();
-            }
+        //     var skipClickDelay = function (e) {
+        //         e.preventDefault();
+        //         e.target.click();
+        //     }
 
-            var setAriaAttr = function (el, ariaType, newProperty) {
-                el.setAttribute(ariaType, newProperty);
-            };
-            setAccordionAria = function (el1, el2, expanded) {
-                switch (expanded) {
-                    case "true":
-                        setAriaAttr(el1, 'aria-expanded', 'true');
-                        setAriaAttr(el2, 'aria-hidden', 'false');
-                        break;
-                    case "false":
-                        setAriaAttr(el1, 'aria-expanded', 'false');
-                        setAriaAttr(el2, 'aria-hidden', 'true');
-                        break;
-                    default:
-                        break;
-                }
-            };
-            //function
-            switchAccordion = function (e) {
-                console.log("triggered");
-                e.preventDefault();
-                var thisAnswer = e.target.parentNode.nextElementSibling;
-                var thisQuestion = e.target;
-                if (thisAnswer.classList.contains('is-collapsed')) {
-                    setAccordionAria(thisQuestion, thisAnswer, 'true');
-                } else {
-                    setAccordionAria(thisQuestion, thisAnswer, 'false');
-                }
-                thisQuestion.classList.toggle('is-collapsed');
-                thisQuestion.classList.toggle('is-expanded');
-                thisAnswer.classList.toggle('is-collapsed');
-                thisAnswer.classList.toggle('is-expanded');
+        //     var setAriaAttr = function (el, ariaType, newProperty) {
+        //         el.setAttribute(ariaType, newProperty);
+        //     };
+        //     setAccordionAria = function (el1, el2, expanded) {
+        //         switch (expanded) {
+        //             case "true":
+        //                 setAriaAttr(el1, 'aria-expanded', 'true');
+        //                 setAriaAttr(el2, 'aria-hidden', 'false');
+        //                 break;
+        //             case "false":
+        //                 setAriaAttr(el1, 'aria-expanded', 'false');
+        //                 setAriaAttr(el2, 'aria-hidden', 'true');
+        //                 break;
+        //             default:
+        //                 break;
+        //         }
+        //     };
+        //     //function
+        //     switchAccordion = function (e) {
+        //         console.log("triggered");
+        //         e.preventDefault();
+        //         var thisAnswer = e.target.parentNode.nextElementSibling;
+        //         var thisQuestion = e.target;
+        //         if (thisAnswer.classList.contains('is-collapsed')) {
+        //             setAccordionAria(thisQuestion, thisAnswer, 'true');
+        //         } else {
+        //             setAccordionAria(thisQuestion, thisAnswer, 'false');
+        //         }
+        //         thisQuestion.classList.toggle('is-collapsed');
+        //         thisQuestion.classList.toggle('is-expanded');
+        //         thisAnswer.classList.toggle('is-collapsed');
+        //         thisAnswer.classList.toggle('is-expanded');
 
-                thisAnswer.classList.toggle('animateIn');
-            };
-            for (var i = 0, len = accordionToggles.length; i < len; i++) {
-                if (touchSupported) {
-                    accordionToggles[i].addEventListener('touchstart', skipClickDelay, false);
-                }
-                if (pointerSupported) {
-                    accordionToggles[i].addEventListener('pointerdown', skipClickDelay, false);
-                }
-                accordionToggles[i].addEventListener('click', switchAccordion, false);
-            }
-        })();
+        //         thisAnswer.classList.toggle('animateIn');
+        //     };
+        //     for (var i = 0, len = accordionToggles.length; i < len; i++) {
+        //         if (touchSupported) {
+        //             accordionToggles[i].addEventListener('touchstart', skipClickDelay, false);
+        //         }
+        //         if (pointerSupported) {
+        //             accordionToggles[i].addEventListener('pointerdown', skipClickDelay, false);
+        //         }
+        //         accordionToggles[i].addEventListener('click', switchAccordion, false);
+        //     }
+        // })();
 
     }
     render() {
         return (
             <div>
-                <div class="">
+                {/* <div class="">
                     <footer class="footer-block">
                         <div class="signup-block md10 lg8 xl8 sm12">
                             <em class="mrg-S title-S">Signup for text* or email alerts and offers</em>
@@ -272,7 +273,245 @@ class Footer extends Component {
                         </div>
                         <div class="footer-copy"> ©JCP Media, Inc. 2017. All Rights Reserved</div>
                     </footer>
-                </div>
+                </div> */}
+
+                <footer class="footer-wrap" data-automation-id="jcp-footer" id="footer">
+                    <div class="subscription-wrapper">
+                        <ul data-automation-id="footer-block-subscribe" class="container-width">
+                            <li class="subscription-row">
+                                <div data-automation-id="promo-title" class="subs-title std-txt title-S color-nightsky mrg-XS">Signup for text* or email alerts, offers and promotions</div>
+                                <form>
+                                    <div class="marketing-section" data-automation-id="">
+                                        <div class="input-wrapper input-form">
+                                            <div class="input-icon">
+                                                <input type="tel" id="signup" name="signup" placeholder="Phone Number or Email..." class="input-text placeholder-text" />
+                                                <a href="javascript:void();" role="button" class="btn btn-S btn-primary apply-btn">Sign Up</a>
+                                            </div>
+                                            <a class="cross-bar" href="javascript:void(0)"></a>
+                                        </div>
+                                    </div>
+                                </form>
+                            </li>
+                            <li class="subscription-terms">
+                                <a data-automation-id="privacy-policy" class="std-txt title-XS color-nightsky" href="javascript:void(0)">Terms &amp; Conditions</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="help-section mrg-top-L">
+                        <div class="help-wrapper">
+                            <div data-automation-id="need-help-container" class="help-section-list md7 lg7">
+                                <ul class="help-list">
+                                    <li>
+                                        <div class="help-list-block">
+                                            <a href="tel:1-800-322-1189" class="help-link">
+                                                <span class="icon color-white-svg" dangerouslySetInnerHTML={{ __html: devicephoneImage }} />
+                                                <span class="help-description">
+                                                    <span>Give us a call </span>
+                                                    <span>1-800-322-1189</span>
+                                                </span>
+                                            </a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="help-list-block">
+                                            <a href="tel:1-800-322-1189" class="help-link">
+                                                <span class="icon color-white-svg" dangerouslySetInnerHTML={{ __html: twitterfillImage }} />
+                                                <span class="help-description">
+                                                    <span>Need help? </span>
+                                                    <span>Customer Service</span>
+                                                </span>
+                                            </a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="help-list-block">
+                                            <a href="tel:1-800-322-1189" class="help-link">
+                                                <span class="icon color-white-svg" dangerouslySetInnerHTML={{ __html: customerserviceImage }} />
+                                                <span class="help-description">
+                                                    <span>Ask us on Twitter </span>
+                                                    <span>@askJCP</span>
+                                                </span>
+                                            </a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="social-wrap md5 lg5 color-white">
+                                <h5 class="std-txt title-XS color-white dis-inline-block">Connect with us</h5>
+                                <div class="social-container color-white-svg dis-inline-block text-right">
+                                    <ul>
+                                        <li>
+                                            <a href="javascript:void();"><span class="icon" dangerouslySetInnerHTML={{ __html: facebooklineImage }} /></a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void();"><span class="icon" dangerouslySetInnerHTML={{ __html: twitterlineImage }} /></a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void();"><span class="icon" dangerouslySetInnerHTML={{ __html: pinterestlineImage }} /></a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void();"><span class="icon" dangerouslySetInnerHTML={{ __html: googlepluslineImage }} /></a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void();"><span class="icon" dangerouslySetInnerHTML={{ __html: youtubelineImage }} /></a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void();"><span class="icon" dangerouslySetInnerHTML={{ __html: bloglineImage }} /></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <article class="footer-links-block mrg-top-L">
+                        <section class="footer-main-links">
+                            <div class="footer-links">
+                                <h5 class="std-txt title-S color-nightsky txt-bold">JCPenney Rewards & Credit Card</h5>
+                                <div class="link-list">
+                                    <ul>
+                                        <li>
+                                            <a href="javascript:void(0)">Enroll in Rewards</a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0)">Sign In to Rewards</a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0)">Sign In to Rewards</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="footer-links">
+                                <h5 class="std-txt title-S color-nightsky txt-bold">Customer Service</h5>
+                                <div class="link-list">
+                                    <ul>
+                                        <li>
+                                            <a href="javascript:void(0)">Returns</a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0)">Shipping Information</a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0)">Rebates</a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0)">Same Day Pickup</a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0)">My JCP.com Account</a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0)">Track My Order</a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0)">Servicio Al Cliente</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="footer-links">
+                                <h5 class="std-txt title-S color-nightsky txt-bold">Store Services</h5>
+                                <div class="link-list">
+                                    <ul>
+                                        <li>
+                                            <a href="javascript:void(0)">JCP Salon</a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0)">Sephora</a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0)">JCP Portraits</a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0)">JCP Optical</a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0)">Gift Registry</a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0)">JCP Custom Window</a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0)">View All Store Services</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="footer-links">
+                                <h5 class="std-txt title-S color-nightsky txt-bold">More Ways to Shop</h5>
+                                <div class="link-list">
+                                    <ul>
+                                        <li>
+                                            <a href="javascript:void(0)">See our ads</a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0)">Coupons</a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0)">Recommendations</a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0)">Gift Cards</a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0)">International Shopping</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="footer-links">
+                                <h5 class="std-txt title-S color-nightsky txt-bold">Corporate Overview</h5>
+                                <div class="link-list">
+                                    <ul>
+                                        <li>
+                                            <a href="javascript:void(0)">Careers</a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0)">Company Info</a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0)">Community</a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0)">Media</a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0)">Investors</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </section>
+                    </article>
+                    <div class="footer-bottom-wrap">
+                        <div class="credit-wrap">
+                            <div class="jcp-red-card">
+                                <span class="icon dis-inline" dangerouslySetInnerHTML={{ __html: cardJCPRed }} />
+                            </div>
+                            <ul class="dis-inline-block">
+                                <h5 class="std-txt title-S color-nightsky txt-bold dis-inline">JCPenney Credit Card</h5>
+                                <li>Pay Bill</li>
+                                <li>Check Balance</li>
+                                <li>Apply Now</li>
+                            </ul>
+                        </div>
+                        <div class="privacy-wrap">
+                            <ul>
+                                <li>Legal</li>
+                                <li>Recalls</li>
+                                <li>AdChoices</li>
+                                <li>CA Privacy Rts</li>
+                                <li>Privacy Policy</li>
+                                <li>CA Supply Chain Act</li>
+                            </ul>
+                        </div>
+                        <div class="copy-wrap mrg-top-L text-center std-txt title-XS md12 color-nightsky">©JCP Media, Inc. 2018. All Rights Reserved</div>
+                    </div>
+                </footer>
             </div>
         );
     }
