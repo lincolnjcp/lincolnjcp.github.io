@@ -1181,12 +1181,12 @@ Base Styles
   CONTENT - COLOR PALETTE
 \*------------------------------------*/
 
-@media (--viewport-md) {
+/* @media (--viewport-md-up) {
     .design-system-inner-content {
         padding-left: 16px;
         padding-right: 16px;
     }
-}
+} */
 
 .design-system-css-class {
     color: var(--color-penneyred);

@@ -196,7 +196,7 @@
     width: 384px;
   }
 }
-@media (--viewport-small-down) {
+@media (--viewport-sm-down) {
   .side-panel-container {
     width: 384px;
   }
