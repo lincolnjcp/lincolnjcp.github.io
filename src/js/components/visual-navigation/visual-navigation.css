@@ -9,9 +9,6 @@
       overflow-x: auto;
       white-space: nowrap;
       padding-top: 2px;
-      & li {
-          margin-left: 26px;
-      }
     }
   }
   & li {
@@ -51,6 +48,9 @@
       }
     @media (--viewport-sm-down) {
       margin-left: 16px;
+    }
+    @media (--viewport-md-only) {
+      margin-left: 18px;
     }
   }
   .nav-title {
