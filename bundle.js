@@ -14612,8 +14612,8 @@ var visual_navigation_VisualNavigation = function (_Component) {
             { "class": "viz-nav mrg-XXL" },
             react_default.a.createElement(
               "h1",
-              { "class": "title-L mrg-XL nav-title" },
-              "Category Level"
+              { "class": "title-L mrg-XL title" },
+              "Category Level - Circle"
             ),
             react_default.a.createElement(
               "ul",
@@ -14716,11 +14716,242 @@ var visual_navigation_VisualNavigation = function (_Component) {
             react_default.a.createElement(
               "h1",
               { "class": "title-L mrg-XL mrg-lft-XL" },
-              "Subcategory Level"
+              "Subcategory Level - Circle"
+            ),
+            react_default.a.createElement(
+              "ul",
+              { "class": "sub-category" },
+              react_default.a.createElement(
+                "li",
+                { "class": "mrg-XL mrg-lft-XL" },
+                react_default.a.createElement(
+                  "a",
+                  { href: "#" },
+                  react_default.a.createElement(
+                    "div",
+                    { "class": "viz-nav-img mrg-S" },
+                    react_default.a.createElement("img", { src: "https://m.jcpenney.com/tablet/images/mens%20sports%20fan%20shop%20tablet%20category%20icon.jpg", alt: "product-image" })
+                  ),
+                  react_default.a.createElement(
+                    "h2",
+                    { "class": "title title-M mrg-XS algn-mid" },
+                    "Liz Claiborne"
+                  ),
+                  react_default.a.createElement(
+                    "p",
+                    { "class": "std-txt std-txt-M algn-mid" },
+                    "(627)"
+                  )
+                )
+              ),
+              react_default.a.createElement(
+                "li",
+                { "class": "mrg-XL mrg-lft-XL" },
+                react_default.a.createElement(
+                  "a",
+                  { href: "#" },
+                  react_default.a.createElement(
+                    "div",
+                    { "class": "viz-nav-img mrg-S" },
+                    react_default.a.createElement("img", { src: "https://m.jcpenney.com/tablet/images/mens%20athletic%20uniforms%20tablet%20category%20icon.jpg", alt: "product-image" })
+                  ),
+                  react_default.a.createElement(
+                    "h2",
+                    { "class": "title title-M mrg-XS algn-mid" },
+                    "Liz Claiborne"
+                  ),
+                  react_default.a.createElement(
+                    "p",
+                    { "class": "std-txt std-txt-M algn-mid" },
+                    "(627)"
+                  )
+                )
+              ),
+              react_default.a.createElement(
+                "li",
+                { "class": "mrg-XL mrg-lft-XL" },
+                react_default.a.createElement(
+                  "a",
+                  { href: "#" },
+                  react_default.a.createElement(
+                    "div",
+                    { "class": "viz-nav-img mrg-S" },
+                    react_default.a.createElement("img", { src: "https://m.jcpenney.com/tablet/images/mens%20coats%20jackets%20icon.jpg", alt: "product-image" })
+                  ),
+                  react_default.a.createElement(
+                    "h2",
+                    { "class": "title title-M mrg-XS algn-mid" },
+                    "Liz Claiborne"
+                  ),
+                  react_default.a.createElement(
+                    "p",
+                    { "class": "std-txt std-txt-M algn-mid" },
+                    "(627)"
+                  )
+                )
+              ),
+              react_default.a.createElement(
+                "li",
+                { "class": "mrg-XL mrg-lft-XL" },
+                react_default.a.createElement(
+                  "a",
+                  { href: "#" },
+                  react_default.a.createElement(
+                    "div",
+                    { "class": "viz-nav-img mrg-S" },
+                    react_default.a.createElement("img", { src: "https://m.jcpenney.com/tablet/images/mens%20sweaters%20icon.jpg", alt: "product-image" })
+                  ),
+                  react_default.a.createElement(
+                    "h2",
+                    { "class": "title title-M mrg-XS algn-mid" },
+                    "Liz Claiborne"
+                  ),
+                  react_default.a.createElement(
+                    "p",
+                    { "class": "std-txt std-txt-M algn-mid" },
+                    "(627)"
+                  )
+                )
+              ),
+              react_default.a.createElement(
+                "li",
+                { "class": "mrg-XL mrg-lft-XL" },
+                react_default.a.createElement(
+                  "a",
+                  { href: "#" },
+                  react_default.a.createElement(
+                    "div",
+                    { "class": "viz-nav-img mrg-S" },
+                    react_default.a.createElement("img", { src: "https://m.jcpenney.com/tablet/images/mens%20hoodies2%20tablet%20category%20icon.jpg", alt: "product-image" })
+                  ),
+                  react_default.a.createElement(
+                    "h2",
+                    { "class": "title title-M mrg-XS algn-mid" },
+                    "Liz Claiborne"
+                  ),
+                  react_default.a.createElement(
+                    "p",
+                    { "class": "std-txt std-txt-M algn-mid" },
+                    "(627)"
+                  )
+                )
+              )
+            )
+          ),
+          react_default.a.createElement(
+            "div",
+            { "class": "viz-nav viz-nav-squre mrg-XXL" },
+            react_default.a.createElement(
+              "h1",
+              { "class": "title-L mrg-XL title" },
+              "Category Level - Square"
             ),
             react_default.a.createElement(
               "ul",
               null,
+              react_default.a.createElement(
+                "li",
+                { "class": "mrg-XL mrg-lft-XL" },
+                react_default.a.createElement(
+                  "a",
+                  { href: "#" },
+                  react_default.a.createElement(
+                    "div",
+                    { "class": "viz-nav-img mrg-S" },
+                    react_default.a.createElement("img", { src: "https://m.jcpenney.com/tablet/images/wmns-coats.jpg", alt: "product-image" })
+                  ),
+                  react_default.a.createElement(
+                    "h2",
+                    { "class": "title title-M mrg-XS algn-mid" },
+                    "Tops"
+                  )
+                )
+              ),
+              react_default.a.createElement(
+                "li",
+                { "class": "mrg-XL mrg-lft-XL" },
+                react_default.a.createElement(
+                  "a",
+                  { href: "#" },
+                  react_default.a.createElement(
+                    "div",
+                    { "class": "viz-nav-img mrg-S" },
+                    react_default.a.createElement("img", { src: "https://m.jcpenney.com/tablet/images/wmns_tops.jpg", alt: "product-image" })
+                  ),
+                  react_default.a.createElement(
+                    "h2",
+                    { "class": "title title-M mrg-XS algn-mid" },
+                    "Jeans"
+                  )
+                )
+              ),
+              react_default.a.createElement(
+                "li",
+                { "class": "mrg-XL mrg-lft-XL" },
+                react_default.a.createElement(
+                  "a",
+                  { href: "#" },
+                  react_default.a.createElement(
+                    "div",
+                    { "class": "viz-nav-img mrg-S" },
+                    react_default.a.createElement("img", { src: "https://m.jcpenney.com/tablet/images/wmns_jeans.jpg", alt: "product-image" })
+                  ),
+                  react_default.a.createElement(
+                    "h2",
+                    { "class": "title title-M mrg-XS algn-mid" },
+                    "Pants"
+                  )
+                )
+              ),
+              react_default.a.createElement(
+                "li",
+                { "class": "mrg-XL mrg-lft-XL" },
+                react_default.a.createElement(
+                  "a",
+                  { href: "#" },
+                  react_default.a.createElement(
+                    "div",
+                    { "class": "viz-nav-img mrg-S" },
+                    react_default.a.createElement("img", { src: "https://m.jcpenney.com/tablet/images/wmns_blazer.jpg", alt: "product-image" })
+                  ),
+                  react_default.a.createElement(
+                    "h2",
+                    { "class": "title title-M mrg-XS algn-mid" },
+                    "Dresses"
+                  )
+                )
+              ),
+              react_default.a.createElement(
+                "li",
+                { "class": "mrg-XL mrg-lft-XL" },
+                react_default.a.createElement(
+                  "a",
+                  { href: "#" },
+                  react_default.a.createElement(
+                    "div",
+                    { "class": "viz-nav-img mrg-S" },
+                    react_default.a.createElement("img", { src: "https://m.jcpenney.com/tablet/images/womens%20scrubs%20icon.jpg", alt: "product-image" })
+                  ),
+                  react_default.a.createElement(
+                    "h2",
+                    { "class": "title title-M mrg-XS algn-mid" },
+                    "Cropped Pants"
+                  )
+                )
+              )
+            )
+          ),
+          react_default.a.createElement(
+            "div",
+            { "class": "viz-nav viz-nav-squre mrg-XXL" },
+            react_default.a.createElement(
+              "h1",
+              { "class": "title-L mrg-XL mrg-lft-XL" },
+              "Subcategory Level - Square"
+            ),
+            react_default.a.createElement(
+              "ul",
+              { "class": "sub-category" },
               react_default.a.createElement(
                 "li",
                 { "class": "mrg-XL mrg-lft-XL" },
