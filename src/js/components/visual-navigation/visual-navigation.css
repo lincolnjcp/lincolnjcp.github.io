@@ -24,7 +24,7 @@
           width: 160px;
           height: 160px;
           border-radius: 100%;
-          @media (--viewport-sm-down) {
+          @media (--viewport-md-down) {
               width: 98px;
               height: 95px;
           }
@@ -40,7 +40,7 @@
             transform: scale(1.1);
         }
         & h2 {
-            @media (--viewport-sm-only) {
+            @media (--viewport-md-down) {
                 font-size: 14px;
                 width: 98px;
             }
@@ -65,7 +65,7 @@
           width: 156px;
           height: 156px;
           border-radius: 1px;
-          @media(--viewport-sm-down) {
+          @media(--viewport-md-down) {
               width: 96px;
               height: 96px;
           }
