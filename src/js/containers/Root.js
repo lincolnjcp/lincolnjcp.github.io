@@ -191,6 +191,8 @@ class App extends React.Component {
                             <Route exact path="/page-modules/like-dislike" render={() => <DesignSystemPage componentName="LikeDislike" />} />
                             <Route exact path="/page-modules/recommendation-zone" render={() => <DesignSystemPage componentName="RecommendationZone" />} />
                             <Route exact path="/page-layouts/pdp" render={() => <DesignSystemPage componentName="Pdp" />} />
+                            <Route exact path="/home-page-redesign/styleawithbutton" render={() => <DesignSystemPage componentName="styleAWithButton" />} />
+                            {/* <Route exact path="/home-page-redesign/styleawithoutbutton" render={() => <DesignSystemPage componentName="styleAWithoutButton" />} /> */}
                         </div>
                     </div>
 

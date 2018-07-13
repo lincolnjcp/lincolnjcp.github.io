@@ -340,6 +340,32 @@ const rootNav = [
         ]
     },
     {
+        parentName: 'Home Page Redesign',
+        childItems: [
+            {
+                to: '/home-page-redesign/styleawithbutton',
+                activeClassName: 'active',
+                content: 'Style "A" With Button & Carousal',
+            },
+            {
+                to: '/',
+                // to: '/home-page-redesign/styleawithoutbutton',
+                activeClassName: 'inactive',
+                content: 'Style "A" Without Button & Carousal',
+            },
+            {
+                to: '/',
+                activeClassName: 'inactive',
+                content: 'Style "A" With Button & No Carousal',
+            },
+            {
+                to: '/',
+                activeClassName: 'inactive',
+                content: 'Style "A" Without Button & No Carousal',
+            },
+        ]
+    },
+    {
         parentName: 'drawLine'
     },
     {

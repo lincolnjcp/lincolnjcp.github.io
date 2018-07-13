@@ -1,0 +1,5 @@
+.without-button {
+    & .promo-button-container {
+        display: none;
+    }
+}

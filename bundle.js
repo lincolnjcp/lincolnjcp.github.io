@@ -970,6 +970,26 @@ var rootNav = [{
         content: 'Sign In'
     }]
 }, {
+    parentName: 'Home Page Redesign',
+    childItems: [{
+        to: '/home-page-redesign/styleawithbutton',
+        activeClassName: 'active',
+        content: 'Style "A" With Button & Carousal'
+    }, {
+        to: '/',
+        // to: '/home-page-redesign/styleawithoutbutton',
+        activeClassName: 'inactive',
+        content: 'Style "A" Without Button & Carousal'
+    }, {
+        to: '/',
+        activeClassName: 'inactive',
+        content: 'Style "A" With Button & No Carousal'
+    }, {
+        to: '/',
+        activeClassName: 'inactive',
+        content: 'Style "A" Without Button & No Carousal'
+    }]
+}, {
     parentName: 'drawLine'
 }, {
     parentName: 'Accessibility',
@@ -10405,6 +10425,1161 @@ var components_progressbar__temp = function () {
   }
 
   __REACT_HOT_LOADER__.register(components_progressbar__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/progressbar/index.js');
+}();
+
+;
+// CONCATENATED MODULE: ./src/js/components/styleawithbutton/styleawithbutton.js
+var styleawithbutton__createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+function styleawithbutton__classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function styleawithbutton__possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function styleawithbutton__inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+
+
+
+var styleawithbutton_styleAWithButton = function (_Component) {
+	styleawithbutton__inherits(styleAWithButton, _Component);
+
+	function styleAWithButton() {
+		styleawithbutton__classCallCheck(this, styleAWithButton);
+
+		return styleawithbutton__possibleConstructorReturn(this, (styleAWithButton.__proto__ || Object.getPrototypeOf(styleAWithButton)).apply(this, arguments));
+	}
+
+	styleawithbutton__createClass(styleAWithButton, [{
+		key: 'componentDidMount',
+		value: function componentDidMount() {
+
+			//Preview top nav without design system wrapper
+			jquery_default()("#HideDesignSystem").unbind('click').on('click', function (event) {
+				jquery_default()(this).toggleClass('active');
+				if (jquery_default()(this).hasClass('active')) {
+					jquery_default()(this).text('Show Design System Wrapper');
+					jquery_default()(".design-system-nav-col").css('display', 'none');
+					jquery_default()(".design-system-content").css('padding', 0);
+					jquery_default()(".design-system-inner-content").css('padding', 0);
+					jquery_default()(".design-system-enable-hide").css('display', 'none');
+					jquery_default()(".design-system-nav-mobile").css('display', 'none');
+					jquery_default()(".design-system-wrap").css('margin', 0);
+				} else {
+					jquery_default()(this).text('Hide Design System Wrapper');
+					jquery_default()(".design-system-nav-col").removeAttr('style');
+					jquery_default()(".design-system-content").removeAttr('style');
+					jquery_default()(".design-system-inner-content").removeAttr('style');
+					jquery_default()(".design-system-enable-hide").removeAttr('style');
+					jquery_default()(".design-system-nav-mobile").removeAttr('style');
+					jquery_default()(".design-system-wrap").removeAttr('style');
+				}
+			});
+		}
+	}, {
+		key: 'render',
+		value: function render() {
+			return react_default.a.createElement(
+				'div',
+				null,
+				react_default.a.createElement(
+					'p',
+					{ 'class': 'S' },
+					react_default.a.createElement('br', null),
+					react_default.a.createElement(
+						'a',
+						{ href: 'javascript:void(0);', id: 'HideDesignSystem' },
+						'Hide Design System Wrapper'
+					),
+					react_default.a.createElement('br', null),
+					react_default.a.createElement('br', null),
+					react_default.a.createElement('br', null),
+					react_default.a.createElement('br', null),
+					react_default.a.createElement('br', null)
+				),
+				react_default.a.createElement(
+					'div',
+					{ 'class': 'gallery js-flickity with-button' },
+					react_default.a.createElement(
+						'div',
+						{ 'class': 'gallery-cell' },
+						react_default.a.createElement(
+							'div',
+							{ 'class': 'dynamic-banner color-white text-center' },
+							react_default.a.createElement(
+								'h1',
+								{ 'class': 'color-white' },
+								'40% Off Orders $40+'
+							),
+							react_default.a.createElement(
+								'div',
+								{ 'class': 'proo-description' },
+								react_default.a.createElement(
+									'span',
+									null,
+									'with code'
+								),
+								react_default.a.createElement(
+									'span',
+									{ 'class': 'promo-code' },
+									'SAVE27 '
+								),
+								react_default.a.createElement(
+									'span',
+									{ 'class': 'promo-end' },
+									'Online & Instore. Ends 07/24. '
+								),
+								react_default.a.createElement(
+									'span',
+									{ 'class': 'promo-cta' },
+									react_default.a.createElement(
+										'a',
+										{ href: 'javascript:void(0)' },
+										'see details'
+									)
+								)
+							),
+							react_default.a.createElement(
+								'div',
+								{ 'class': 'promo-button-container' },
+								react_default.a.createElement(
+									'a',
+									{ 'class': 'button-promo', href: 'javascript:void(0)' },
+									'Women'
+								),
+								react_default.a.createElement(
+									'a',
+									{ 'class': 'button-promo', href: 'javascript:void(0)' },
+									'Kids'
+								),
+								react_default.a.createElement(
+									'a',
+									{ 'class': 'button-promo', href: 'javascript:void(0)' },
+									'Men'
+								),
+								react_default.a.createElement(
+									'a',
+									{ 'class': 'button-promo', href: 'javascript:void(0)' },
+									'Accessories'
+								),
+								react_default.a.createElement(
+									'a',
+									{ 'class': 'button-promo', href: 'javascript:void(0)' },
+									'Shoes'
+								),
+								react_default.a.createElement(
+									'a',
+									{ 'class': 'button-promo', href: 'javascript:void(0)' },
+									'Baby'
+								),
+								react_default.a.createElement(
+									'a',
+									{ 'class': 'button-promo', href: 'javascript:void(0)' },
+									'Home'
+								),
+								react_default.a.createElement(
+									'a',
+									{ 'class': 'button-promo', href: 'javascript:void(0)' },
+									'Shop All'
+								)
+							)
+						)
+					),
+					react_default.a.createElement(
+						'div',
+						{ 'class': 'gallery-cell' },
+						react_default.a.createElement(
+							'div',
+							{ 'class': 'dynamic-banner color-white text-center' },
+							react_default.a.createElement(
+								'h1',
+								{ 'class': 'color-white' },
+								'50% Off Orders $40+'
+							),
+							react_default.a.createElement(
+								'div',
+								{ 'class': 'proo-description' },
+								react_default.a.createElement(
+									'span',
+									null,
+									'with code'
+								),
+								react_default.a.createElement(
+									'span',
+									{ 'class': 'promo-code' },
+									'SAVE27 '
+								),
+								react_default.a.createElement(
+									'span',
+									{ 'class': 'promo-end' },
+									'Online & Instore. Ends 07/24. '
+								),
+								react_default.a.createElement(
+									'span',
+									{ 'class': 'promo-cta' },
+									react_default.a.createElement(
+										'a',
+										{ href: 'javascript:void(0)' },
+										'see details'
+									)
+								)
+							),
+							react_default.a.createElement(
+								'div',
+								{ 'class': 'promo-button-container' },
+								react_default.a.createElement(
+									'a',
+									{ 'class': 'button-promo', href: 'javascript:void(0)' },
+									'Women'
+								),
+								react_default.a.createElement(
+									'a',
+									{ 'class': 'button-promo', href: 'javascript:void(0)' },
+									'Kids'
+								),
+								react_default.a.createElement(
+									'a',
+									{ 'class': 'button-promo', href: 'javascript:void(0)' },
+									'Men'
+								),
+								react_default.a.createElement(
+									'a',
+									{ 'class': 'button-promo', href: 'javascript:void(0)' },
+									'Accessories'
+								),
+								react_default.a.createElement(
+									'a',
+									{ 'class': 'button-promo', href: 'javascript:void(0)' },
+									'Shoes'
+								),
+								react_default.a.createElement(
+									'a',
+									{ 'class': 'button-promo', href: 'javascript:void(0)' },
+									'Baby'
+								),
+								react_default.a.createElement(
+									'a',
+									{ 'class': 'button-promo', href: 'javascript:void(0)' },
+									'Home'
+								),
+								react_default.a.createElement(
+									'a',
+									{ 'class': 'button-promo', href: 'javascript:void(0)' },
+									'Shop All'
+								)
+							)
+						)
+					),
+					react_default.a.createElement(
+						'div',
+						{ 'class': 'gallery-cell' },
+						react_default.a.createElement(
+							'div',
+							{ 'class': 'dynamic-banner color-white text-center' },
+							react_default.a.createElement(
+								'h1',
+								{ 'class': 'color-white' },
+								'60% Off Orders $40+'
+							),
+							react_default.a.createElement(
+								'div',
+								{ 'class': 'proo-description' },
+								react_default.a.createElement(
+									'span',
+									null,
+									'with code'
+								),
+								react_default.a.createElement(
+									'span',
+									{ 'class': 'promo-code' },
+									'SAVE27 '
+								),
+								react_default.a.createElement(
+									'span',
+									{ 'class': 'promo-end' },
+									'Online & Instore. Ends 07/24. '
+								),
+								react_default.a.createElement(
+									'span',
+									{ 'class': 'promo-cta' },
+									react_default.a.createElement(
+										'a',
+										{ href: 'javascript:void(0)' },
+										'see details'
+									)
+								)
+							),
+							react_default.a.createElement(
+								'div',
+								{ 'class': 'promo-button-container' },
+								react_default.a.createElement(
+									'a',
+									{ 'class': 'button-promo', href: 'javascript:void(0)' },
+									'Women'
+								),
+								react_default.a.createElement(
+									'a',
+									{ 'class': 'button-promo', href: 'javascript:void(0)' },
+									'Kids'
+								),
+								react_default.a.createElement(
+									'a',
+									{ 'class': 'button-promo', href: 'javascript:void(0)' },
+									'Men'
+								),
+								react_default.a.createElement(
+									'a',
+									{ 'class': 'button-promo', href: 'javascript:void(0)' },
+									'Accessories'
+								),
+								react_default.a.createElement(
+									'a',
+									{ 'class': 'button-promo', href: 'javascript:void(0)' },
+									'Shoes'
+								),
+								react_default.a.createElement(
+									'a',
+									{ 'class': 'button-promo', href: 'javascript:void(0)' },
+									'Baby'
+								),
+								react_default.a.createElement(
+									'a',
+									{ 'class': 'button-promo', href: 'javascript:void(0)' },
+									'Home'
+								),
+								react_default.a.createElement(
+									'a',
+									{ 'class': 'button-promo', href: 'javascript:void(0)' },
+									'Shop All'
+								)
+							)
+						)
+					)
+				),
+				react_default.a.createElement('br', null),
+				react_default.a.createElement('br', null),
+				react_default.a.createElement('br', null),
+				react_default.a.createElement('br', null),
+				react_default.a.createElement('br', null),
+				react_default.a.createElement('br', null),
+				react_default.a.createElement(
+					'div',
+					{ 'class': 'gallery js-flickity without-button' },
+					react_default.a.createElement(
+						'div',
+						{ 'class': 'gallery-cell' },
+						react_default.a.createElement(
+							'div',
+							{ 'class': 'dynamic-banner color-white text-center' },
+							react_default.a.createElement(
+								'h1',
+								{ 'class': 'color-white' },
+								'40% Off Orders $40+'
+							),
+							react_default.a.createElement(
+								'div',
+								{ 'class': 'proo-description' },
+								react_default.a.createElement(
+									'span',
+									null,
+									'with code'
+								),
+								react_default.a.createElement(
+									'span',
+									{ 'class': 'promo-code' },
+									'SAVE27 '
+								),
+								react_default.a.createElement(
+									'span',
+									{ 'class': 'promo-end' },
+									'Online & Instore. Ends 07/24. '
+								),
+								react_default.a.createElement(
+									'span',
+									{ 'class': 'promo-cta' },
+									react_default.a.createElement(
+										'a',
+										{ href: 'javascript:void(0)' },
+										'see details'
+									)
+								)
+							),
+							react_default.a.createElement(
+								'div',
+								{ 'class': 'promo-button-container' },
+								react_default.a.createElement(
+									'a',
+									{ 'class': 'button-promo', href: 'javascript:void(0)' },
+									'Women'
+								),
+								react_default.a.createElement(
+									'a',
+									{ 'class': 'button-promo', href: 'javascript:void(0)' },
+									'Kids'
+								),
+								react_default.a.createElement(
+									'a',
+									{ 'class': 'button-promo', href: 'javascript:void(0)' },
+									'Men'
+								),
+								react_default.a.createElement(
+									'a',
+									{ 'class': 'button-promo', href: 'javascript:void(0)' },
+									'Accessories'
+								),
+								react_default.a.createElement(
+									'a',
+									{ 'class': 'button-promo', href: 'javascript:void(0)' },
+									'Shoes'
+								),
+								react_default.a.createElement(
+									'a',
+									{ 'class': 'button-promo', href: 'javascript:void(0)' },
+									'Baby'
+								),
+								react_default.a.createElement(
+									'a',
+									{ 'class': 'button-promo', href: 'javascript:void(0)' },
+									'Home'
+								),
+								react_default.a.createElement(
+									'a',
+									{ 'class': 'button-promo', href: 'javascript:void(0)' },
+									'Shop All'
+								)
+							)
+						)
+					),
+					react_default.a.createElement(
+						'div',
+						{ 'class': 'gallery-cell' },
+						react_default.a.createElement(
+							'div',
+							{ 'class': 'dynamic-banner color-white text-center' },
+							react_default.a.createElement(
+								'h1',
+								{ 'class': 'color-white' },
+								'50% Off Orders $40+'
+							),
+							react_default.a.createElement(
+								'div',
+								{ 'class': 'proo-description' },
+								react_default.a.createElement(
+									'span',
+									null,
+									'with code'
+								),
+								react_default.a.createElement(
+									'span',
+									{ 'class': 'promo-code' },
+									'SAVE27 '
+								),
+								react_default.a.createElement(
+									'span',
+									{ 'class': 'promo-end' },
+									'Online & Instore. Ends 07/24. '
+								),
+								react_default.a.createElement(
+									'span',
+									{ 'class': 'promo-cta' },
+									react_default.a.createElement(
+										'a',
+										{ href: 'javascript:void(0)' },
+										'see details'
+									)
+								)
+							),
+							react_default.a.createElement(
+								'div',
+								{ 'class': 'promo-button-container' },
+								react_default.a.createElement(
+									'a',
+									{ 'class': 'button-promo', href: 'javascript:void(0)' },
+									'Women'
+								),
+								react_default.a.createElement(
+									'a',
+									{ 'class': 'button-promo', href: 'javascript:void(0)' },
+									'Kids'
+								),
+								react_default.a.createElement(
+									'a',
+									{ 'class': 'button-promo', href: 'javascript:void(0)' },
+									'Men'
+								),
+								react_default.a.createElement(
+									'a',
+									{ 'class': 'button-promo', href: 'javascript:void(0)' },
+									'Accessories'
+								),
+								react_default.a.createElement(
+									'a',
+									{ 'class': 'button-promo', href: 'javascript:void(0)' },
+									'Shoes'
+								),
+								react_default.a.createElement(
+									'a',
+									{ 'class': 'button-promo', href: 'javascript:void(0)' },
+									'Baby'
+								),
+								react_default.a.createElement(
+									'a',
+									{ 'class': 'button-promo', href: 'javascript:void(0)' },
+									'Home'
+								),
+								react_default.a.createElement(
+									'a',
+									{ 'class': 'button-promo', href: 'javascript:void(0)' },
+									'Shop All'
+								)
+							)
+						)
+					),
+					react_default.a.createElement(
+						'div',
+						{ 'class': 'gallery-cell' },
+						react_default.a.createElement(
+							'div',
+							{ 'class': 'dynamic-banner color-white text-center' },
+							react_default.a.createElement(
+								'h1',
+								{ 'class': 'color-white' },
+								'60% Off Orders $40+'
+							),
+							react_default.a.createElement(
+								'div',
+								{ 'class': 'proo-description' },
+								react_default.a.createElement(
+									'span',
+									null,
+									'with code'
+								),
+								react_default.a.createElement(
+									'span',
+									{ 'class': 'promo-code' },
+									'SAVE27 '
+								),
+								react_default.a.createElement(
+									'span',
+									{ 'class': 'promo-end' },
+									'Online & Instore. Ends 07/24. '
+								),
+								react_default.a.createElement(
+									'span',
+									{ 'class': 'promo-cta' },
+									react_default.a.createElement(
+										'a',
+										{ href: 'javascript:void(0)' },
+										'see details'
+									)
+								)
+							),
+							react_default.a.createElement(
+								'div',
+								{ 'class': 'promo-button-container' },
+								react_default.a.createElement(
+									'a',
+									{ 'class': 'button-promo', href: 'javascript:void(0)' },
+									'Women'
+								),
+								react_default.a.createElement(
+									'a',
+									{ 'class': 'button-promo', href: 'javascript:void(0)' },
+									'Kids'
+								),
+								react_default.a.createElement(
+									'a',
+									{ 'class': 'button-promo', href: 'javascript:void(0)' },
+									'Men'
+								),
+								react_default.a.createElement(
+									'a',
+									{ 'class': 'button-promo', href: 'javascript:void(0)' },
+									'Accessories'
+								),
+								react_default.a.createElement(
+									'a',
+									{ 'class': 'button-promo', href: 'javascript:void(0)' },
+									'Shoes'
+								),
+								react_default.a.createElement(
+									'a',
+									{ 'class': 'button-promo', href: 'javascript:void(0)' },
+									'Baby'
+								),
+								react_default.a.createElement(
+									'a',
+									{ 'class': 'button-promo', href: 'javascript:void(0)' },
+									'Home'
+								),
+								react_default.a.createElement(
+									'a',
+									{ 'class': 'button-promo', href: 'javascript:void(0)' },
+									'Shop All'
+								)
+							)
+						)
+					)
+				),
+				react_default.a.createElement('br', null),
+				react_default.a.createElement('br', null),
+				react_default.a.createElement('br', null),
+				react_default.a.createElement('br', null),
+				react_default.a.createElement('br', null),
+				react_default.a.createElement('br', null),
+				react_default.a.createElement(
+					'div',
+					{ 'class': 'gallery js-flickity with-button-nocarousal' },
+					react_default.a.createElement(
+						'div',
+						{ 'class': 'gallery-cell' },
+						react_default.a.createElement(
+							'div',
+							{ 'class': 'dynamic-banner color-white text-center' },
+							react_default.a.createElement(
+								'h1',
+								{ 'class': 'color-white' },
+								'40% Off Orders $40+'
+							),
+							react_default.a.createElement(
+								'div',
+								{ 'class': 'proo-description' },
+								react_default.a.createElement(
+									'span',
+									null,
+									'with code'
+								),
+								react_default.a.createElement(
+									'span',
+									{ 'class': 'promo-code' },
+									'SAVE27 '
+								),
+								react_default.a.createElement(
+									'span',
+									{ 'class': 'promo-end' },
+									'Online & Instore. Ends 07/24. '
+								),
+								react_default.a.createElement(
+									'span',
+									{ 'class': 'promo-cta' },
+									react_default.a.createElement(
+										'a',
+										{ href: 'javascript:void(0)' },
+										'see details'
+									)
+								)
+							),
+							react_default.a.createElement(
+								'div',
+								{ 'class': 'promo-button-container' },
+								react_default.a.createElement(
+									'a',
+									{ 'class': 'button-promo', href: 'javascript:void(0)' },
+									'Women'
+								),
+								react_default.a.createElement(
+									'a',
+									{ 'class': 'button-promo', href: 'javascript:void(0)' },
+									'Kids'
+								),
+								react_default.a.createElement(
+									'a',
+									{ 'class': 'button-promo', href: 'javascript:void(0)' },
+									'Men'
+								),
+								react_default.a.createElement(
+									'a',
+									{ 'class': 'button-promo', href: 'javascript:void(0)' },
+									'Accessories'
+								),
+								react_default.a.createElement(
+									'a',
+									{ 'class': 'button-promo', href: 'javascript:void(0)' },
+									'Shoes'
+								),
+								react_default.a.createElement(
+									'a',
+									{ 'class': 'button-promo', href: 'javascript:void(0)' },
+									'Baby'
+								),
+								react_default.a.createElement(
+									'a',
+									{ 'class': 'button-promo', href: 'javascript:void(0)' },
+									'Home'
+								),
+								react_default.a.createElement(
+									'a',
+									{ 'class': 'button-promo', href: 'javascript:void(0)' },
+									'Shop All'
+								)
+							)
+						)
+					)
+				),
+				react_default.a.createElement('br', null),
+				react_default.a.createElement('br', null),
+				react_default.a.createElement('br', null),
+				react_default.a.createElement('br', null),
+				react_default.a.createElement('br', null),
+				react_default.a.createElement('br', null),
+				react_default.a.createElement(
+					'div',
+					{ 'class': 'gallery js-flickity without-button-nocarousal' },
+					react_default.a.createElement(
+						'div',
+						{ 'class': 'gallery-cell' },
+						react_default.a.createElement(
+							'div',
+							{ 'class': 'dynamic-banner color-white text-center' },
+							react_default.a.createElement(
+								'h1',
+								{ 'class': 'color-white' },
+								'40% Off Orders $40+'
+							),
+							react_default.a.createElement(
+								'div',
+								{ 'class': 'proo-description' },
+								react_default.a.createElement(
+									'span',
+									null,
+									'with code'
+								),
+								react_default.a.createElement(
+									'span',
+									{ 'class': 'promo-code' },
+									'SAVE27 '
+								),
+								react_default.a.createElement(
+									'span',
+									{ 'class': 'promo-end' },
+									'Online & Instore. Ends 07/24. '
+								),
+								react_default.a.createElement(
+									'span',
+									{ 'class': 'promo-cta' },
+									react_default.a.createElement(
+										'a',
+										{ href: 'javascript:void(0)' },
+										'see details'
+									)
+								)
+							)
+						)
+					)
+				),
+				react_default.a.createElement('br', null),
+				react_default.a.createElement('br', null),
+				react_default.a.createElement('br', null),
+				react_default.a.createElement('br', null),
+				react_default.a.createElement('br', null),
+				react_default.a.createElement('br', null),
+				react_default.a.createElement('br', null),
+				react_default.a.createElement('br', null),
+				react_default.a.createElement('br', null),
+				react_default.a.createElement('br', null),
+				react_default.a.createElement('br', null),
+				react_default.a.createElement('br', null)
+			);
+		}
+	}]);
+
+	return styleAWithButton;
+}(react["Component"]);
+
+var styleawithbutton__default = styleawithbutton_styleAWithButton;
+
+
+/* harmony default export */ var styleawithbutton = (styleawithbutton__default);
+;
+
+var styleawithbutton__temp = function () {
+	if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+		return;
+	}
+
+	__REACT_HOT_LOADER__.register(styleawithbutton_styleAWithButton, 'styleAWithButton', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/styleawithbutton/styleawithbutton.js');
+
+	__REACT_HOT_LOADER__.register(styleawithbutton__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/styleawithbutton/styleawithbutton.js');
+}();
+
+;
+// CONCATENATED MODULE: ./src/js/components/styleawithbutton/index.js
+
+var components_styleawithbutton__default = styleawithbutton;
+/* harmony default export */ var components_styleawithbutton = (components_styleawithbutton__default);
+;
+
+var components_styleawithbutton__temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(components_styleawithbutton__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/styleawithbutton/index.js');
+}();
+
+;
+// CONCATENATED MODULE: ./src/js/components/styleawithoutbutton/styleawithoutbutton.js
+var styleawithoutbutton__createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+function styleawithoutbutton__classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function styleawithoutbutton__possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function styleawithoutbutton__inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+
+
+
+var styleawithoutbutton_styleAWithoutButton = function (_Component) {
+	styleawithoutbutton__inherits(styleAWithoutButton, _Component);
+
+	function styleAWithoutButton() {
+		styleawithoutbutton__classCallCheck(this, styleAWithoutButton);
+
+		return styleawithoutbutton__possibleConstructorReturn(this, (styleAWithoutButton.__proto__ || Object.getPrototypeOf(styleAWithoutButton)).apply(this, arguments));
+	}
+
+	styleawithoutbutton__createClass(styleAWithoutButton, [{
+		key: 'componentDidMount',
+		value: function componentDidMount() {
+
+			//Preview top nav without design system wrapper
+			jquery_default()("#HideDesignSystem").unbind('click').on('click', function (event) {
+				jquery_default()(this).toggleClass('active');
+				if (jquery_default()(this).hasClass('active')) {
+					jquery_default()(this).text('Show Design System Wrapper');
+					jquery_default()(".design-system-nav-col").css('display', 'none');
+					jquery_default()(".design-system-content").css('padding', 0);
+					jquery_default()(".design-system-inner-content").css('padding', 0);
+					jquery_default()(".design-system-enable-hide").css('display', 'none');
+					jquery_default()(".design-system-nav-mobile").css('display', 'none');
+					jquery_default()(".design-system-wrap").css('margin', 0);
+				} else {
+					jquery_default()(this).text('Hide Design System Wrapper');
+					jquery_default()(".design-system-nav-col").removeAttr('style');
+					jquery_default()(".design-system-content").removeAttr('style');
+					jquery_default()(".design-system-inner-content").removeAttr('style');
+					jquery_default()(".design-system-enable-hide").removeAttr('style');
+					jquery_default()(".design-system-nav-mobile").removeAttr('style');
+					jquery_default()(".design-system-wrap").removeAttr('style');
+				}
+			});
+		}
+	}, {
+		key: 'render',
+		value: function render() {
+			return react_default.a.createElement(
+				'div',
+				null,
+				react_default.a.createElement(
+					'p',
+					{ 'class': 'S' },
+					react_default.a.createElement('br', null),
+					react_default.a.createElement(
+						'a',
+						{ href: 'javascript:void(0);', id: 'HideDesignSystem' },
+						'Hide Design System Wrapper'
+					),
+					react_default.a.createElement('br', null),
+					react_default.a.createElement('br', null),
+					react_default.a.createElement('br', null),
+					react_default.a.createElement('br', null),
+					react_default.a.createElement('br', null)
+				),
+				react_default.a.createElement(
+					'div',
+					{ 'class': 'gallery js-flickity without-button' },
+					react_default.a.createElement(
+						'div',
+						{ 'class': 'gallery-cell' },
+						react_default.a.createElement(
+							'div',
+							{ 'class': 'dynamic-banner color-white text-center' },
+							react_default.a.createElement(
+								'h1',
+								{ 'class': 'promo-lbl promo-lbl-XL color-white' },
+								'40% Off Orders $40+'
+							),
+							react_default.a.createElement(
+								'div',
+								{ 'class': 'proo-description' },
+								react_default.a.createElement(
+									'span',
+									null,
+									'with code'
+								),
+								react_default.a.createElement(
+									'span',
+									{ 'class': 'promo-code' },
+									'SAVE27 '
+								),
+								react_default.a.createElement(
+									'span',
+									{ 'class': 'promo-end' },
+									'Online & Instore. Ends 07/24. '
+								),
+								react_default.a.createElement(
+									'span',
+									{ 'class': 'promo-cta' },
+									react_default.a.createElement(
+										'a',
+										{ href: 'javascript:void(0)' },
+										'see details'
+									)
+								)
+							),
+							react_default.a.createElement(
+								'div',
+								{ 'class': 'promo-button-container' },
+								react_default.a.createElement(
+									'a',
+									{ 'class': 'button-promo', href: 'javascript:void(0)' },
+									'Women'
+								),
+								react_default.a.createElement(
+									'a',
+									{ 'class': 'button-promo', href: 'javascript:void(0)' },
+									'Kids'
+								),
+								react_default.a.createElement(
+									'a',
+									{ 'class': 'button-promo', href: 'javascript:void(0)' },
+									'Men'
+								),
+								react_default.a.createElement(
+									'a',
+									{ 'class': 'button-promo', href: 'javascript:void(0)' },
+									'Accessories'
+								),
+								react_default.a.createElement(
+									'a',
+									{ 'class': 'button-promo', href: 'javascript:void(0)' },
+									'Shoes'
+								),
+								react_default.a.createElement(
+									'a',
+									{ 'class': 'button-promo', href: 'javascript:void(0)' },
+									'Baby'
+								),
+								react_default.a.createElement(
+									'a',
+									{ 'class': 'button-promo', href: 'javascript:void(0)' },
+									'Home'
+								),
+								react_default.a.createElement(
+									'a',
+									{ 'class': 'button-promo', href: 'javascript:void(0)' },
+									'Shop All'
+								)
+							)
+						)
+					),
+					react_default.a.createElement(
+						'div',
+						{ 'class': 'gallery-cell' },
+						react_default.a.createElement(
+							'div',
+							{ 'class': 'dynamic-banner color-white text-center' },
+							react_default.a.createElement(
+								'h1',
+								{ 'class': 'promo-lbl promo-lbl-XL color-white' },
+								'50% Off Orders $40+'
+							),
+							react_default.a.createElement(
+								'div',
+								{ 'class': 'proo-description' },
+								react_default.a.createElement(
+									'span',
+									null,
+									'with code'
+								),
+								react_default.a.createElement(
+									'span',
+									{ 'class': 'promo-code' },
+									'SAVE27 '
+								),
+								react_default.a.createElement(
+									'span',
+									{ 'class': 'promo-end' },
+									'Online & Instore. Ends 07/24. '
+								),
+								react_default.a.createElement(
+									'span',
+									{ 'class': 'promo-cta' },
+									react_default.a.createElement(
+										'a',
+										{ href: 'javascript:void(0)' },
+										'see details'
+									)
+								)
+							),
+							react_default.a.createElement(
+								'div',
+								{ 'class': 'promo-button-container' },
+								react_default.a.createElement(
+									'a',
+									{ 'class': 'button-promo', href: 'javascript:void(0)' },
+									'Women'
+								),
+								react_default.a.createElement(
+									'a',
+									{ 'class': 'button-promo', href: 'javascript:void(0)' },
+									'Kids'
+								),
+								react_default.a.createElement(
+									'a',
+									{ 'class': 'button-promo', href: 'javascript:void(0)' },
+									'Men'
+								),
+								react_default.a.createElement(
+									'a',
+									{ 'class': 'button-promo', href: 'javascript:void(0)' },
+									'Accessories'
+								),
+								react_default.a.createElement(
+									'a',
+									{ 'class': 'button-promo', href: 'javascript:void(0)' },
+									'Shoes'
+								),
+								react_default.a.createElement(
+									'a',
+									{ 'class': 'button-promo', href: 'javascript:void(0)' },
+									'Baby'
+								),
+								react_default.a.createElement(
+									'a',
+									{ 'class': 'button-promo', href: 'javascript:void(0)' },
+									'Home'
+								),
+								react_default.a.createElement(
+									'a',
+									{ 'class': 'button-promo', href: 'javascript:void(0)' },
+									'Shop All'
+								)
+							)
+						)
+					),
+					react_default.a.createElement(
+						'div',
+						{ 'class': 'gallery-cell' },
+						react_default.a.createElement(
+							'div',
+							{ 'class': 'dynamic-banner color-white text-center' },
+							react_default.a.createElement(
+								'h1',
+								{ 'class': 'promo-lbl promo-lbl-XL color-white' },
+								'60% Off Orders $40+'
+							),
+							react_default.a.createElement(
+								'div',
+								{ 'class': 'proo-description' },
+								react_default.a.createElement(
+									'span',
+									null,
+									'with code'
+								),
+								react_default.a.createElement(
+									'span',
+									{ 'class': 'promo-code' },
+									'SAVE27 '
+								),
+								react_default.a.createElement(
+									'span',
+									{ 'class': 'promo-end' },
+									'Online & Instore. Ends 07/24. '
+								),
+								react_default.a.createElement(
+									'span',
+									{ 'class': 'promo-cta' },
+									react_default.a.createElement(
+										'a',
+										{ href: 'javascript:void(0)' },
+										'see details'
+									)
+								)
+							),
+							react_default.a.createElement(
+								'div',
+								{ 'class': 'promo-button-container' },
+								react_default.a.createElement(
+									'a',
+									{ 'class': 'button-promo', href: 'javascript:void(0)' },
+									'Women'
+								),
+								react_default.a.createElement(
+									'a',
+									{ 'class': 'button-promo', href: 'javascript:void(0)' },
+									'Kids'
+								),
+								react_default.a.createElement(
+									'a',
+									{ 'class': 'button-promo', href: 'javascript:void(0)' },
+									'Men'
+								),
+								react_default.a.createElement(
+									'a',
+									{ 'class': 'button-promo', href: 'javascript:void(0)' },
+									'Accessories'
+								),
+								react_default.a.createElement(
+									'a',
+									{ 'class': 'button-promo', href: 'javascript:void(0)' },
+									'Shoes'
+								),
+								react_default.a.createElement(
+									'a',
+									{ 'class': 'button-promo', href: 'javascript:void(0)' },
+									'Baby'
+								),
+								react_default.a.createElement(
+									'a',
+									{ 'class': 'button-promo', href: 'javascript:void(0)' },
+									'Home'
+								),
+								react_default.a.createElement(
+									'a',
+									{ 'class': 'button-promo', href: 'javascript:void(0)' },
+									'Shop All'
+								)
+							)
+						)
+					)
+				)
+			);
+		}
+	}]);
+
+	return styleAWithoutButton;
+}(react["Component"]);
+
+var styleawithoutbutton__default = styleawithoutbutton_styleAWithoutButton;
+
+
+/* harmony default export */ var styleawithoutbutton = (styleawithoutbutton__default);
+;
+
+var styleawithoutbutton__temp = function () {
+	if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+		return;
+	}
+
+	__REACT_HOT_LOADER__.register(styleawithoutbutton_styleAWithoutButton, 'styleAWithoutButton', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/styleawithoutbutton/styleawithoutbutton.js');
+
+	__REACT_HOT_LOADER__.register(styleawithoutbutton__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/styleawithoutbutton/styleawithoutbutton.js');
+}();
+
+;
+// CONCATENATED MODULE: ./src/js/components/styleawithoutbutton/index.js
+
+var components_styleawithoutbutton__default = styleawithoutbutton;
+/* harmony default export */ var components_styleawithoutbutton = (components_styleawithoutbutton__default);
+;
+
+var components_styleawithoutbutton__temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(components_styleawithoutbutton__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/styleawithoutbutton/index.js');
 }();
 
 ;
@@ -32712,6 +33887,8 @@ function DesignSystemPage__inherits(subClass, superClass) { if (typeof superClas
 
 
 
+
+
 var DesignSystemPage_DesignSystemPage = function (_Component) {
     DesignSystemPage__inherits(DesignSystemPage, _Component);
 
@@ -32761,6 +33938,8 @@ var DesignSystemPage_DesignSystemPage = function (_Component) {
                 RecommendationZone: { componentElement: components_recommendation_zone, componentDisplayName: "Recommendation Zone", componentSubNav: ['RecommendationZone'] },
                 Pricing: { componentElement: components_pricing, componentDisplayName: "Pricing", componentSubNav: ['Pricing'] },
                 ProgressBar: { componentElement: components_progressbar, componentDisplayName: "ProgressBar", componentSubNav: ['ProgressBar'] },
+                styleAWithButton: { componentElement: components_styleawithbutton, componentDisplayName: "styleAWithButton", componentSubNav: ['styleAWithButton'] },
+                styleAWithoutButton: { componentElement: components_styleawithoutbutton, componentDisplayName: "styleAWithoutButton", componentSubNav: ['styleAWithoutButton'] },
                 Modals: { componentElement: components_modals, componentDisplayName: "Modals", componentSubNav: ['Modals'] },
                 Pdp: { componentElement: components_pdp, componentDisplayName: "Pdp", componentSubNav: ['Pdp'] }
             };
@@ -37227,6 +38406,9 @@ var Root_App = function (_React$Component) {
                                 } }),
                             react_default.a.createElement(es["d" /* Route */], { exact: true, path: '/page-layouts/pdp', render: function render() {
                                     return react_default.a.createElement(containers_DesignSystemPage, { componentName: 'Pdp' });
+                                } }),
+                            react_default.a.createElement(es["d" /* Route */], { exact: true, path: '/home-page-redesign/styleawithbutton', render: function render() {
+                                    return react_default.a.createElement(containers_DesignSystemPage, { componentName: 'styleAWithButton' });
                                 } })
                         )
                     )

@@ -1015,6 +1015,8 @@ Base Styles
             &.icn-expand {
                 font-size: 18px;
                 line-height: 22px;
+                display: block;
+                width: 95%;
 
                 &:before {
                     content: " ";

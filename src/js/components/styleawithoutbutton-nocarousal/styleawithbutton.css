@@ -1,0 +1,93 @@
+/*********************************
+/* Style with button
+*********************************/
+
+.dynamic-banner {
+    background: var(--color-marketing-blue-4);
+    padding: 16px 0;
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+
+    & .proo-description {
+        padding: 4px 0;
+        & span {
+            display: inline-block;
+            padding-left: 4px;
+        }
+        & .promo-code {
+            font-weight: bold;
+        }
+        & .promo-end {
+            font-size: 12px;
+        }
+        & .promo-cta {
+            & a {
+                color: var(--color-white);
+                padding-left: 2px;
+                font-size: 12px;
+            }
+        }
+    }
+
+    & .promo-button-container {
+        padding-bottom: 4px;
+        & .button-promo {
+            width: 140px;
+            height: 36px;
+            border-radius: 2px;
+            box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+            background-color: var(--color-white);
+            border: solid 1px var(--color-concrete);
+            display: inline-block;
+            line-height: 33px;
+            text-decoration: none;
+            margin: 8px 4px;
+            font-size: 14px;
+            font-weight: bold;
+        }
+    }
+}
+
+
+
+.gallery {
+
+    & .flickity-button {
+        display: none;
+    }
+
+    & .flickity-page-dots {
+        bottom: 5px;
+        & .dot.is-selected {
+            background: var(--color-white);
+        }
+        & .dot {
+            background: transparent;
+            border: 1px solid var(--color-white);
+            opacity: 1;
+            width: 8px;
+            height: 8px;
+            margin: 0 6px;
+        }
+    }
+  }
+  
+  .gallery-cell {
+    width: 100%;
+    /* height: 200px;
+    margin-right: 10px;
+    background: #8C8;
+    counter-increment: gallery-cell; */
+  }
+  
+  /* cell number */
+  /* .gallery-cell:before {
+    display: block;
+    text-align: center;
+    content: counter(gallery-cell);
+    line-height: 200px;
+    font-size: 80px;
+    color: white;
+  } */
+  
