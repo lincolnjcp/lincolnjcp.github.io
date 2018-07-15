@@ -980,12 +980,12 @@ var rootNav = [{
         activeClassName: 'active',
         content: 'Style "A" Without Button & Carousal'
     }, {
-        to: '/',
-        activeClassName: 'inactive',
+        to: '/home-page-redesign/styleawithbuttonnocarousal',
+        activeClassName: 'active',
         content: 'Style "A" With Button & No Carousal'
     }, {
-        to: '/',
-        activeClassName: 'inactive',
+        to: '/home-page-redesign/styleawithoutbuttonnocarousal',
+        activeClassName: 'active',
         content: 'Style "A" Without Button & No Carousal'
     }]
 }, {
@@ -11556,6 +11556,338 @@ var components_styleawithoutbutton__temp = function () {
   }
 
   __REACT_HOT_LOADER__.register(components_styleawithoutbutton__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/styleawithoutbutton/index.js');
+}();
+
+;
+// CONCATENATED MODULE: ./src/js/components/styleawithbuttonnocarousal/styleawithbuttonnocarousal.js
+var styleawithbuttonnocarousal__createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+function styleawithbuttonnocarousal__classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function styleawithbuttonnocarousal__possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function styleawithbuttonnocarousal__inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+
+
+
+var styleawithbuttonnocarousal_styleAWithButtonNocarousal = function (_Component) {
+	styleawithbuttonnocarousal__inherits(styleAWithButtonNocarousal, _Component);
+
+	function styleAWithButtonNocarousal() {
+		styleawithbuttonnocarousal__classCallCheck(this, styleAWithButtonNocarousal);
+
+		return styleawithbuttonnocarousal__possibleConstructorReturn(this, (styleAWithButtonNocarousal.__proto__ || Object.getPrototypeOf(styleAWithButtonNocarousal)).apply(this, arguments));
+	}
+
+	styleawithbuttonnocarousal__createClass(styleAWithButtonNocarousal, [{
+		key: 'componentDidMount',
+		value: function componentDidMount() {
+
+			//Preview top nav without design system wrapper
+			jquery_default()("#HideDesignSystem").unbind('click').on('click', function (event) {
+				jquery_default()(this).toggleClass('active');
+				if (jquery_default()(this).hasClass('active')) {
+					jquery_default()(this).text('Show Design System Wrapper');
+					jquery_default()(".design-system-nav-col").css('display', 'none');
+					jquery_default()(".design-system-content").css('padding', 0);
+					jquery_default()(".design-system-inner-content").css('padding', 0);
+					jquery_default()(".design-system-enable-hide").css('display', 'none');
+					jquery_default()(".design-system-nav-mobile").css('display', 'none');
+					jquery_default()(".design-system-wrap").css('margin', 0);
+				} else {
+					jquery_default()(this).text('Hide Design System Wrapper');
+					jquery_default()(".design-system-nav-col").removeAttr('style');
+					jquery_default()(".design-system-content").removeAttr('style');
+					jquery_default()(".design-system-inner-content").removeAttr('style');
+					jquery_default()(".design-system-enable-hide").removeAttr('style');
+					jquery_default()(".design-system-nav-mobile").removeAttr('style');
+					jquery_default()(".design-system-wrap").removeAttr('style');
+				}
+			});
+		}
+	}, {
+		key: 'render',
+		value: function render() {
+			return react_default.a.createElement(
+				'div',
+				null,
+				react_default.a.createElement(
+					'p',
+					{ 'class': 'S' },
+					react_default.a.createElement('br', null),
+					react_default.a.createElement(
+						'a',
+						{ href: 'javascript:void(0);', id: 'HideDesignSystem' },
+						'Hide Design System Wrapper'
+					),
+					react_default.a.createElement('br', null),
+					react_default.a.createElement('br', null),
+					react_default.a.createElement('br', null),
+					react_default.a.createElement('br', null),
+					react_default.a.createElement('br', null)
+				),
+				react_default.a.createElement(
+					'div',
+					{ 'class': 'dynamic-banner color-white text-center' },
+					react_default.a.createElement(
+						'h1',
+						{ 'class': 'promo-lbl promo-lbl-XL color-white' },
+						'40% Off Orders $40+'
+					),
+					react_default.a.createElement(
+						'div',
+						{ 'class': 'proo-description' },
+						react_default.a.createElement(
+							'span',
+							null,
+							'with code'
+						),
+						react_default.a.createElement(
+							'span',
+							{ 'class': 'promo-code' },
+							'SAVE27 '
+						),
+						react_default.a.createElement(
+							'span',
+							{ 'class': 'promo-end' },
+							'Online & Instore. Ends 07/24. '
+						),
+						react_default.a.createElement(
+							'span',
+							{ 'class': 'promo-cta' },
+							react_default.a.createElement(
+								'a',
+								{ href: 'javascript:void(0)' },
+								'see details'
+							)
+						)
+					),
+					react_default.a.createElement(
+						'div',
+						{ 'class': 'promo-button-container' },
+						react_default.a.createElement(
+							'a',
+							{ 'class': 'button-promo', href: 'javascript:void(0)' },
+							'Women'
+						),
+						react_default.a.createElement(
+							'a',
+							{ 'class': 'button-promo', href: 'javascript:void(0)' },
+							'Kids'
+						),
+						react_default.a.createElement(
+							'a',
+							{ 'class': 'button-promo', href: 'javascript:void(0)' },
+							'Men'
+						),
+						react_default.a.createElement(
+							'a',
+							{ 'class': 'button-promo', href: 'javascript:void(0)' },
+							'Accessories'
+						),
+						react_default.a.createElement(
+							'a',
+							{ 'class': 'button-promo', href: 'javascript:void(0)' },
+							'Shoes'
+						),
+						react_default.a.createElement(
+							'a',
+							{ 'class': 'button-promo', href: 'javascript:void(0)' },
+							'Baby'
+						),
+						react_default.a.createElement(
+							'a',
+							{ 'class': 'button-promo', href: 'javascript:void(0)' },
+							'Home'
+						),
+						react_default.a.createElement(
+							'a',
+							{ 'class': 'button-promo', href: 'javascript:void(0)' },
+							'Shop All'
+						)
+					)
+				)
+			);
+		}
+	}]);
+
+	return styleAWithButtonNocarousal;
+}(react["Component"]);
+
+var styleawithbuttonnocarousal__default = styleawithbuttonnocarousal_styleAWithButtonNocarousal;
+
+
+/* harmony default export */ var styleawithbuttonnocarousal = (styleawithbuttonnocarousal__default);
+;
+
+var styleawithbuttonnocarousal__temp = function () {
+	if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+		return;
+	}
+
+	__REACT_HOT_LOADER__.register(styleawithbuttonnocarousal_styleAWithButtonNocarousal, 'styleAWithButtonNocarousal', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/styleawithbuttonnocarousal/styleawithbuttonnocarousal.js');
+
+	__REACT_HOT_LOADER__.register(styleawithbuttonnocarousal__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/styleawithbuttonnocarousal/styleawithbuttonnocarousal.js');
+}();
+
+;
+// CONCATENATED MODULE: ./src/js/components/styleawithbuttonnocarousal/index.js
+
+var components_styleawithbuttonnocarousal__default = styleawithbuttonnocarousal;
+/* harmony default export */ var components_styleawithbuttonnocarousal = (components_styleawithbuttonnocarousal__default);
+;
+
+var components_styleawithbuttonnocarousal__temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(components_styleawithbuttonnocarousal__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/styleawithbuttonnocarousal/index.js');
+}();
+
+;
+// CONCATENATED MODULE: ./src/js/components/styleawithoutbuttonnocarousal/styleawithoutbuttonnocarousal.js
+var styleawithoutbuttonnocarousal__createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+function styleawithoutbuttonnocarousal__classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function styleawithoutbuttonnocarousal__possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function styleawithoutbuttonnocarousal__inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+
+
+
+var styleawithoutbuttonnocarousal_styleAWithButtonNocarousal = function (_Component) {
+	styleawithoutbuttonnocarousal__inherits(styleAWithButtonNocarousal, _Component);
+
+	function styleAWithButtonNocarousal() {
+		styleawithoutbuttonnocarousal__classCallCheck(this, styleAWithButtonNocarousal);
+
+		return styleawithoutbuttonnocarousal__possibleConstructorReturn(this, (styleAWithButtonNocarousal.__proto__ || Object.getPrototypeOf(styleAWithButtonNocarousal)).apply(this, arguments));
+	}
+
+	styleawithoutbuttonnocarousal__createClass(styleAWithButtonNocarousal, [{
+		key: 'componentDidMount',
+		value: function componentDidMount() {
+
+			//Preview top nav without design system wrapper
+			jquery_default()("#HideDesignSystem").unbind('click').on('click', function (event) {
+				jquery_default()(this).toggleClass('active');
+				if (jquery_default()(this).hasClass('active')) {
+					jquery_default()(this).text('Show Design System Wrapper');
+					jquery_default()(".design-system-nav-col").css('display', 'none');
+					jquery_default()(".design-system-content").css('padding', 0);
+					jquery_default()(".design-system-inner-content").css('padding', 0);
+					jquery_default()(".design-system-enable-hide").css('display', 'none');
+					jquery_default()(".design-system-nav-mobile").css('display', 'none');
+					jquery_default()(".design-system-wrap").css('margin', 0);
+				} else {
+					jquery_default()(this).text('Hide Design System Wrapper');
+					jquery_default()(".design-system-nav-col").removeAttr('style');
+					jquery_default()(".design-system-content").removeAttr('style');
+					jquery_default()(".design-system-inner-content").removeAttr('style');
+					jquery_default()(".design-system-enable-hide").removeAttr('style');
+					jquery_default()(".design-system-nav-mobile").removeAttr('style');
+					jquery_default()(".design-system-wrap").removeAttr('style');
+				}
+			});
+		}
+	}, {
+		key: 'render',
+		value: function render() {
+			return react_default.a.createElement(
+				'div',
+				null,
+				react_default.a.createElement(
+					'p',
+					{ 'class': 'S' },
+					react_default.a.createElement('br', null),
+					react_default.a.createElement(
+						'a',
+						{ href: 'javascript:void(0);', id: 'HideDesignSystem' },
+						'Hide Design System Wrapper'
+					),
+					react_default.a.createElement('br', null),
+					react_default.a.createElement('br', null),
+					react_default.a.createElement('br', null),
+					react_default.a.createElement('br', null),
+					react_default.a.createElement('br', null)
+				),
+				react_default.a.createElement(
+					'div',
+					{ 'class': 'dynamic-banner color-white text-center' },
+					react_default.a.createElement(
+						'h1',
+						{ 'class': 'promo-lbl promo-lbl-XL color-white' },
+						'40% Off Orders $40+'
+					),
+					react_default.a.createElement(
+						'div',
+						{ 'class': 'proo-description' },
+						react_default.a.createElement(
+							'span',
+							null,
+							'with code'
+						),
+						react_default.a.createElement(
+							'span',
+							{ 'class': 'promo-code' },
+							'SAVE27 '
+						),
+						react_default.a.createElement(
+							'span',
+							{ 'class': 'promo-end' },
+							'Online & Instore. Ends 07/24. '
+						),
+						react_default.a.createElement(
+							'span',
+							{ 'class': 'promo-cta' },
+							react_default.a.createElement(
+								'a',
+								{ href: 'javascript:void(0)' },
+								'see details'
+							)
+						)
+					)
+				)
+			);
+		}
+	}]);
+
+	return styleAWithButtonNocarousal;
+}(react["Component"]);
+
+var styleawithoutbuttonnocarousal__default = styleawithoutbuttonnocarousal_styleAWithButtonNocarousal;
+
+
+/* harmony default export */ var styleawithoutbuttonnocarousal = (styleawithoutbuttonnocarousal__default);
+;
+
+var styleawithoutbuttonnocarousal__temp = function () {
+	if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+		return;
+	}
+
+	__REACT_HOT_LOADER__.register(styleawithoutbuttonnocarousal_styleAWithButtonNocarousal, 'styleAWithButtonNocarousal', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/styleawithoutbuttonnocarousal/styleawithoutbuttonnocarousal.js');
+
+	__REACT_HOT_LOADER__.register(styleawithoutbuttonnocarousal__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/styleawithoutbuttonnocarousal/styleawithoutbuttonnocarousal.js');
+}();
+
+;
+// CONCATENATED MODULE: ./src/js/components/styleawithoutbuttonnocarousal/index.js
+
+var components_styleawithoutbuttonnocarousal__default = styleawithoutbuttonnocarousal;
+/* harmony default export */ var components_styleawithoutbuttonnocarousal = (components_styleawithoutbuttonnocarousal__default);
+;
+
+var components_styleawithoutbuttonnocarousal__temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(components_styleawithoutbuttonnocarousal__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/styleawithoutbuttonnocarousal/index.js');
 }();
 
 ;
@@ -33865,6 +34197,8 @@ function DesignSystemPage__inherits(subClass, superClass) { if (typeof superClas
 
 
 
+
+
 var DesignSystemPage_DesignSystemPage = function (_Component) {
     DesignSystemPage__inherits(DesignSystemPage, _Component);
 
@@ -33916,6 +34250,8 @@ var DesignSystemPage_DesignSystemPage = function (_Component) {
                 ProgressBar: { componentElement: components_progressbar, componentDisplayName: "ProgressBar", componentSubNav: ['ProgressBar'] },
                 styleAWithButton: { componentElement: components_styleawithbutton, componentDisplayName: "styleAWithButton", componentSubNav: ['styleAWithButton'] },
                 styleAWithoutButton: { componentElement: components_styleawithoutbutton, componentDisplayName: "styleAWithoutButton", componentSubNav: ['styleAWithoutButton'] },
+                styleAWithButtonNocarousal: { componentElement: components_styleawithbuttonnocarousal, componentDisplayName: "styleAWithButtonNocarousal", componentSubNav: ['styleAWithButtonNocarousal'] },
+                styleAWithoutButtonNocarousal: { componentElement: components_styleawithoutbuttonnocarousal, componentDisplayName: "styleAWithoutButtonNocarousal", componentSubNav: ['styleAWithoutButtonNocarousal'] },
                 Modals: { componentElement: components_modals, componentDisplayName: "Modals", componentSubNav: ['Modals'] },
                 Pdp: { componentElement: components_pdp, componentDisplayName: "Pdp", componentSubNav: ['Pdp'] }
             };
@@ -38388,6 +38724,12 @@ var Root_App = function (_React$Component) {
                                 } }),
                             react_default.a.createElement(es["d" /* Route */], { exact: true, path: '/home-page-redesign/styleawithoutbutton', render: function render() {
                                     return react_default.a.createElement(containers_DesignSystemPage, { componentName: 'styleAWithoutButton' });
+                                } }),
+                            react_default.a.createElement(es["d" /* Route */], { exact: true, path: '/home-page-redesign/styleawithbuttonnocarousal', render: function render() {
+                                    return react_default.a.createElement(containers_DesignSystemPage, { componentName: 'styleAWithButtonNocarousal' });
+                                } }),
+                            react_default.a.createElement(es["d" /* Route */], { exact: true, path: '/home-page-redesign/styleawithoutbuttonnocarousal', render: function render() {
+                                    return react_default.a.createElement(containers_DesignSystemPage, { componentName: 'styleAWithoutButtonNocarousal' });
                                 } })
                         )
                     )

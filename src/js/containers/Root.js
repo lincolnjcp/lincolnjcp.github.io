@@ -193,6 +193,8 @@ class App extends React.Component {
                             <Route exact path="/page-layouts/pdp" render={() => <DesignSystemPage componentName="Pdp" />} />
                             <Route exact path="/home-page-redesign/styleawithbutton" render={() => <DesignSystemPage componentName="styleAWithButton" />} />
                             <Route exact path="/home-page-redesign/styleawithoutbutton" render={() => <DesignSystemPage componentName="styleAWithoutButton" />} />
+                            <Route exact path="/home-page-redesign/styleawithbuttonnocarousal" render={() => <DesignSystemPage componentName="styleAWithButtonNocarousal" />} />
+                            <Route exact path="/home-page-redesign/styleawithoutbuttonnocarousal" render={() => <DesignSystemPage componentName="styleAWithoutButtonNocarousal" />} />
                         </div>
                     </div>
 

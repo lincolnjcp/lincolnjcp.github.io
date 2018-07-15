@@ -353,13 +353,13 @@ const rootNav = [
                 content: 'Style "A" Without Button & Carousal',
             },
             {
-                to: '/',
-                activeClassName: 'inactive',
+                to: '/home-page-redesign/styleawithbuttonnocarousal',
+                activeClassName: 'active',
                 content: 'Style "A" With Button & No Carousal',
             },
             {
-                to: '/',
-                activeClassName: 'inactive',
+                to: '/home-page-redesign/styleawithoutbuttonnocarousal',
+                activeClassName: 'active',
                 content: 'Style "A" Without Button & No Carousal',
             },
         ]

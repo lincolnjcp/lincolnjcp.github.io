@@ -1,0 +1,2 @@
+import styleAWithoutButtonNocarousal from './styleawithoutbuttonnocarousal';
+export default styleAWithoutButtonNocarousal;
