@@ -10723,42 +10723,42 @@ var styleawithbutton_styleAWithButton = function (_Component) {
 												{ 'class': 'promo-button-container' },
 												react_default.a.createElement(
 													'a',
-													{ 'class': 'button-promo', href: 'javascript:void(0)' },
+													{ 'class': 'button-promo btn btn-secondary btn-M', href: 'javascript:void(0)' },
 													'Women'
 												),
 												react_default.a.createElement(
 													'a',
-													{ 'class': 'button-promo', href: 'javascript:void(0)' },
+													{ 'class': 'button-promo btn btn-secondary btn-M', href: 'javascript:void(0)' },
 													'Kids'
 												),
 												react_default.a.createElement(
 													'a',
-													{ 'class': 'button-promo', href: 'javascript:void(0)' },
+													{ 'class': 'button-promo btn btn-secondary btn-M', href: 'javascript:void(0)' },
 													'Men'
 												),
 												react_default.a.createElement(
 													'a',
-													{ 'class': 'button-promo', href: 'javascript:void(0)' },
+													{ 'class': 'button-promo btn btn-secondary btn-M', href: 'javascript:void(0)' },
 													'Accessories'
 												),
 												react_default.a.createElement(
 													'a',
-													{ 'class': 'button-promo', href: 'javascript:void(0)' },
+													{ 'class': 'button-promo btn btn-secondary btn-M', href: 'javascript:void(0)' },
 													'Shoes'
 												),
 												react_default.a.createElement(
 													'a',
-													{ 'class': 'button-promo', href: 'javascript:void(0)' },
+													{ 'class': 'button-promo btn btn-secondary btn-M', href: 'javascript:void(0)' },
 													'Baby'
 												),
 												react_default.a.createElement(
 													'a',
-													{ 'class': 'button-promo', href: 'javascript:void(0)' },
+													{ 'class': 'button-promo btn btn-secondary btn-M', href: 'javascript:void(0)' },
 													'Home'
 												),
 												react_default.a.createElement(
 													'a',
-													{ 'class': 'button-promo', href: 'javascript:void(0)' },
+													{ 'class': 'button-promo btn btn-secondary btn-M', href: 'javascript:void(0)' },
 													'Shop All'
 												)
 											)
@@ -10812,42 +10812,42 @@ var styleawithbutton_styleAWithButton = function (_Component) {
 												{ 'class': 'promo-button-container' },
 												react_default.a.createElement(
 													'a',
-													{ 'class': 'button-promo', href: 'javascript:void(0)' },
+													{ 'class': 'button-promo btn btn-secondary btn-M', href: 'javascript:void(0)' },
 													'Women'
 												),
 												react_default.a.createElement(
 													'a',
-													{ 'class': 'button-promo', href: 'javascript:void(0)' },
+													{ 'class': 'button-promo btn btn-secondary btn-M', href: 'javascript:void(0)' },
 													'Kids'
 												),
 												react_default.a.createElement(
 													'a',
-													{ 'class': 'button-promo', href: 'javascript:void(0)' },
+													{ 'class': 'button-promo btn btn-secondary btn-M', href: 'javascript:void(0)' },
 													'Men'
 												),
 												react_default.a.createElement(
 													'a',
-													{ 'class': 'button-promo', href: 'javascript:void(0)' },
+													{ 'class': 'button-promo btn btn-secondary btn-M', href: 'javascript:void(0)' },
 													'Accessories'
 												),
 												react_default.a.createElement(
 													'a',
-													{ 'class': 'button-promo', href: 'javascript:void(0)' },
+													{ 'class': 'button-promo btn btn-secondary btn-M', href: 'javascript:void(0)' },
 													'Shoes'
 												),
 												react_default.a.createElement(
 													'a',
-													{ 'class': 'button-promo', href: 'javascript:void(0)' },
+													{ 'class': 'button-promo btn btn-secondary btn-M', href: 'javascript:void(0)' },
 													'Baby'
 												),
 												react_default.a.createElement(
 													'a',
-													{ 'class': 'button-promo', href: 'javascript:void(0)' },
+													{ 'class': 'button-promo btn btn-secondary btn-M', href: 'javascript:void(0)' },
 													'Home'
 												),
 												react_default.a.createElement(
 													'a',
-													{ 'class': 'button-promo', href: 'javascript:void(0)' },
+													{ 'class': 'button-promo btn btn-secondary btn-M', href: 'javascript:void(0)' },
 													'Shop All'
 												)
 											)
@@ -10901,42 +10901,42 @@ var styleawithbutton_styleAWithButton = function (_Component) {
 												{ 'class': 'promo-button-container' },
 												react_default.a.createElement(
 													'a',
-													{ 'class': 'button-promo', href: 'javascript:void(0)' },
+													{ 'class': 'button-promo btn btn-secondary btn-M', href: 'javascript:void(0)' },
 													'Women'
 												),
 												react_default.a.createElement(
 													'a',
-													{ 'class': 'button-promo', href: 'javascript:void(0)' },
+													{ 'class': 'button-promo btn btn-secondary btn-M', href: 'javascript:void(0)' },
 													'Kids'
 												),
 												react_default.a.createElement(
 													'a',
-													{ 'class': 'button-promo', href: 'javascript:void(0)' },
+													{ 'class': 'button-promo btn btn-secondary btn-M', href: 'javascript:void(0)' },
 													'Men'
 												),
 												react_default.a.createElement(
 													'a',
-													{ 'class': 'button-promo', href: 'javascript:void(0)' },
+													{ 'class': 'button-promo btn btn-secondary btn-M', href: 'javascript:void(0)' },
 													'Accessories'
 												),
 												react_default.a.createElement(
 													'a',
-													{ 'class': 'button-promo', href: 'javascript:void(0)' },
+													{ 'class': 'button-promo btn btn-secondary btn-M', href: 'javascript:void(0)' },
 													'Shoes'
 												),
 												react_default.a.createElement(
 													'a',
-													{ 'class': 'button-promo', href: 'javascript:void(0)' },
+													{ 'class': 'button-promo btn btn-secondary btn-M', href: 'javascript:void(0)' },
 													'Baby'
 												),
 												react_default.a.createElement(
 													'a',
-													{ 'class': 'button-promo', href: 'javascript:void(0)' },
+													{ 'class': 'button-promo btn btn-secondary btn-M', href: 'javascript:void(0)' },
 													'Home'
 												),
 												react_default.a.createElement(
 													'a',
-													{ 'class': 'button-promo', href: 'javascript:void(0)' },
+													{ 'class': 'button-promo btn btn-secondary btn-M', href: 'javascript:void(0)' },
 													'Shop All'
 												)
 											)
@@ -10990,42 +10990,42 @@ var styleawithbutton_styleAWithButton = function (_Component) {
 												{ 'class': 'promo-button-container' },
 												react_default.a.createElement(
 													'a',
-													{ 'class': 'button-promo', href: 'javascript:void(0)' },
+													{ 'class': 'button-promo btn btn-secondary btn-M', href: 'javascript:void(0)' },
 													'Women'
 												),
 												react_default.a.createElement(
 													'a',
-													{ 'class': 'button-promo', href: 'javascript:void(0)' },
+													{ 'class': 'button-promo btn btn-secondary btn-M', href: 'javascript:void(0)' },
 													'Kids'
 												),
 												react_default.a.createElement(
 													'a',
-													{ 'class': 'button-promo', href: 'javascript:void(0)' },
+													{ 'class': 'button-promo btn btn-secondary btn-M', href: 'javascript:void(0)' },
 													'Men'
 												),
 												react_default.a.createElement(
 													'a',
-													{ 'class': 'button-promo', href: 'javascript:void(0)' },
+													{ 'class': 'button-promo btn btn-secondary btn-M', href: 'javascript:void(0)' },
 													'Accessories'
 												),
 												react_default.a.createElement(
 													'a',
-													{ 'class': 'button-promo', href: 'javascript:void(0)' },
+													{ 'class': 'button-promo btn btn-secondary btn-M', href: 'javascript:void(0)' },
 													'Shoes'
 												),
 												react_default.a.createElement(
 													'a',
-													{ 'class': 'button-promo', href: 'javascript:void(0)' },
+													{ 'class': 'button-promo btn btn-secondary btn-M', href: 'javascript:void(0)' },
 													'Baby'
 												),
 												react_default.a.createElement(
 													'a',
-													{ 'class': 'button-promo', href: 'javascript:void(0)' },
+													{ 'class': 'button-promo btn btn-secondary btn-M', href: 'javascript:void(0)' },
 													'Home'
 												),
 												react_default.a.createElement(
 													'a',
-													{ 'class': 'button-promo', href: 'javascript:void(0)' },
+													{ 'class': 'button-promo btn btn-secondary btn-M', href: 'javascript:void(0)' },
 													'Shop All'
 												)
 											)
@@ -11668,42 +11668,42 @@ var styleawithbuttonnocarousal_styleAWithButtonNocarousal = function (_Component
 						{ 'class': 'promo-button-container' },
 						react_default.a.createElement(
 							'a',
-							{ 'class': 'button-promo', href: 'javascript:void(0)' },
+							{ 'class': 'button-promo btn btn-secondary btn-M', href: 'javascript:void(0)' },
 							'Women'
 						),
 						react_default.a.createElement(
 							'a',
-							{ 'class': 'button-promo', href: 'javascript:void(0)' },
+							{ 'class': 'button-promo btn btn-secondary btn-M', href: 'javascript:void(0)' },
 							'Kids'
 						),
 						react_default.a.createElement(
 							'a',
-							{ 'class': 'button-promo', href: 'javascript:void(0)' },
+							{ 'class': 'button-promo btn btn-secondary btn-M', href: 'javascript:void(0)' },
 							'Men'
 						),
 						react_default.a.createElement(
 							'a',
-							{ 'class': 'button-promo', href: 'javascript:void(0)' },
+							{ 'class': 'button-promo btn btn-secondary btn-M', href: 'javascript:void(0)' },
 							'Accessories'
 						),
 						react_default.a.createElement(
 							'a',
-							{ 'class': 'button-promo', href: 'javascript:void(0)' },
+							{ 'class': 'button-promo btn btn-secondary btn-M', href: 'javascript:void(0)' },
 							'Shoes'
 						),
 						react_default.a.createElement(
 							'a',
-							{ 'class': 'button-promo', href: 'javascript:void(0)' },
+							{ 'class': 'button-promo btn btn-secondary btn-M', href: 'javascript:void(0)' },
 							'Baby'
 						),
 						react_default.a.createElement(
 							'a',
-							{ 'class': 'button-promo', href: 'javascript:void(0)' },
+							{ 'class': 'button-promo btn btn-secondary btn-M', href: 'javascript:void(0)' },
 							'Home'
 						),
 						react_default.a.createElement(
 							'a',
-							{ 'class': 'button-promo', href: 'javascript:void(0)' },
+							{ 'class': 'button-promo btn btn-secondary btn-M', href: 'javascript:void(0)' },
 							'Shop All'
 						)
 					)

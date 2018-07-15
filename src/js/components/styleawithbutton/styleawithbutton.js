@@ -223,14 +223,14 @@ class styleAWithButton extends Component {
 						<span class="promo-cta"><a href="javascript:void(0)">see details</a></span>
 					</div>
 					<div class="promo-button-container">
-						<a class="button-promo" href="javascript:void(0)">Women</a>
-						<a class="button-promo" href="javascript:void(0)">Kids</a>
-						<a class="button-promo" href="javascript:void(0)">Men</a>
-						<a class="button-promo" href="javascript:void(0)">Accessories</a>
-						<a class="button-promo" href="javascript:void(0)">Shoes</a>
-						<a class="button-promo" href="javascript:void(0)">Baby</a>
-						<a class="button-promo" href="javascript:void(0)">Home</a>
-						<a class="button-promo" href="javascript:void(0)">Shop All</a>
+						<a class="button-promo btn btn-secondary btn-M" href="javascript:void(0)">Women</a>
+						<a class="button-promo btn btn-secondary btn-M" href="javascript:void(0)">Kids</a>
+						<a class="button-promo btn btn-secondary btn-M" href="javascript:void(0)">Men</a>
+						<a class="button-promo btn btn-secondary btn-M" href="javascript:void(0)">Accessories</a>
+						<a class="button-promo btn btn-secondary btn-M" href="javascript:void(0)">Shoes</a>
+						<a class="button-promo btn btn-secondary btn-M" href="javascript:void(0)">Baby</a>
+						<a class="button-promo btn btn-secondary btn-M" href="javascript:void(0)">Home</a>
+						<a class="button-promo btn btn-secondary btn-M" href="javascript:void(0)">Shop All</a>
 					</div>
 				</div> */}
 
@@ -251,14 +251,14 @@ class styleAWithButton extends Component {
 												<span class="promo-cta"><a href="javascript:void(0)">see details</a></span>
 											</div>
 											<div class="promo-button-container">
-												<a class="button-promo" href="javascript:void(0)">Women</a>
-												<a class="button-promo" href="javascript:void(0)">Kids</a>
-												<a class="button-promo" href="javascript:void(0)">Men</a>
-												<a class="button-promo" href="javascript:void(0)">Accessories</a>
-												<a class="button-promo" href="javascript:void(0)">Shoes</a>
-												<a class="button-promo" href="javascript:void(0)">Baby</a>
-												<a class="button-promo" href="javascript:void(0)">Home</a>
-												<a class="button-promo" href="javascript:void(0)">Shop All</a>
+												<a class="button-promo btn btn-secondary btn-M" href="javascript:void(0)">Women</a>
+												<a class="button-promo btn btn-secondary btn-M" href="javascript:void(0)">Kids</a>
+												<a class="button-promo btn btn-secondary btn-M" href="javascript:void(0)">Men</a>
+												<a class="button-promo btn btn-secondary btn-M" href="javascript:void(0)">Accessories</a>
+												<a class="button-promo btn btn-secondary btn-M" href="javascript:void(0)">Shoes</a>
+												<a class="button-promo btn btn-secondary btn-M" href="javascript:void(0)">Baby</a>
+												<a class="button-promo btn btn-secondary btn-M" href="javascript:void(0)">Home</a>
+												<a class="button-promo btn btn-secondary btn-M" href="javascript:void(0)">Shop All</a>
 											</div>
 										</div>
 									</div>
@@ -274,14 +274,14 @@ class styleAWithButton extends Component {
 												<span class="promo-cta"><a href="javascript:void(0)">see details</a></span>
 											</div>
 											<div class="promo-button-container">
-												<a class="button-promo" href="javascript:void(0)">Women</a>
-												<a class="button-promo" href="javascript:void(0)">Kids</a>
-												<a class="button-promo" href="javascript:void(0)">Men</a>
-												<a class="button-promo" href="javascript:void(0)">Accessories</a>
-												<a class="button-promo" href="javascript:void(0)">Shoes</a>
-												<a class="button-promo" href="javascript:void(0)">Baby</a>
-												<a class="button-promo" href="javascript:void(0)">Home</a>
-												<a class="button-promo" href="javascript:void(0)">Shop All</a>
+												<a class="button-promo btn btn-secondary btn-M" href="javascript:void(0)">Women</a>
+												<a class="button-promo btn btn-secondary btn-M" href="javascript:void(0)">Kids</a>
+												<a class="button-promo btn btn-secondary btn-M" href="javascript:void(0)">Men</a>
+												<a class="button-promo btn btn-secondary btn-M" href="javascript:void(0)">Accessories</a>
+												<a class="button-promo btn btn-secondary btn-M" href="javascript:void(0)">Shoes</a>
+												<a class="button-promo btn btn-secondary btn-M" href="javascript:void(0)">Baby</a>
+												<a class="button-promo btn btn-secondary btn-M" href="javascript:void(0)">Home</a>
+												<a class="button-promo btn btn-secondary btn-M" href="javascript:void(0)">Shop All</a>
 											</div>
 										</div>
 									</div>
@@ -297,14 +297,14 @@ class styleAWithButton extends Component {
 												<span class="promo-cta"><a href="javascript:void(0)">see details</a></span>
 											</div>
 											<div class="promo-button-container">
-												<a class="button-promo" href="javascript:void(0)">Women</a>
-												<a class="button-promo" href="javascript:void(0)">Kids</a>
-												<a class="button-promo" href="javascript:void(0)">Men</a>
-												<a class="button-promo" href="javascript:void(0)">Accessories</a>
-												<a class="button-promo" href="javascript:void(0)">Shoes</a>
-												<a class="button-promo" href="javascript:void(0)">Baby</a>
-												<a class="button-promo" href="javascript:void(0)">Home</a>
-												<a class="button-promo" href="javascript:void(0)">Shop All</a>
+												<a class="button-promo btn btn-secondary btn-M" href="javascript:void(0)">Women</a>
+												<a class="button-promo btn btn-secondary btn-M" href="javascript:void(0)">Kids</a>
+												<a class="button-promo btn btn-secondary btn-M" href="javascript:void(0)">Men</a>
+												<a class="button-promo btn btn-secondary btn-M" href="javascript:void(0)">Accessories</a>
+												<a class="button-promo btn btn-secondary btn-M" href="javascript:void(0)">Shoes</a>
+												<a class="button-promo btn btn-secondary btn-M" href="javascript:void(0)">Baby</a>
+												<a class="button-promo btn btn-secondary btn-M" href="javascript:void(0)">Home</a>
+												<a class="button-promo btn btn-secondary btn-M" href="javascript:void(0)">Shop All</a>
 											</div>
 										</div>
 									</div>
@@ -320,14 +320,14 @@ class styleAWithButton extends Component {
 												<span class="promo-cta"><a href="javascript:void(0)">see details</a></span>
 											</div>
 											<div class="promo-button-container">
-												<a class="button-promo" href="javascript:void(0)">Women</a>
-												<a class="button-promo" href="javascript:void(0)">Kids</a>
-												<a class="button-promo" href="javascript:void(0)">Men</a>
-												<a class="button-promo" href="javascript:void(0)">Accessories</a>
-												<a class="button-promo" href="javascript:void(0)">Shoes</a>
-												<a class="button-promo" href="javascript:void(0)">Baby</a>
-												<a class="button-promo" href="javascript:void(0)">Home</a>
-												<a class="button-promo" href="javascript:void(0)">Shop All</a>
+												<a class="button-promo btn btn-secondary btn-M" href="javascript:void(0)">Women</a>
+												<a class="button-promo btn btn-secondary btn-M" href="javascript:void(0)">Kids</a>
+												<a class="button-promo btn btn-secondary btn-M" href="javascript:void(0)">Men</a>
+												<a class="button-promo btn btn-secondary btn-M" href="javascript:void(0)">Accessories</a>
+												<a class="button-promo btn btn-secondary btn-M" href="javascript:void(0)">Shoes</a>
+												<a class="button-promo btn btn-secondary btn-M" href="javascript:void(0)">Baby</a>
+												<a class="button-promo btn btn-secondary btn-M" href="javascript:void(0)">Home</a>
+												<a class="button-promo btn btn-secondary btn-M" href="javascript:void(0)">Shop All</a>
 											</div>
 										</div>
 									</div>
