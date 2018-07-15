@@ -976,9 +976,8 @@ var rootNav = [{
         activeClassName: 'active',
         content: 'Style "A" With Button & Carousal'
     }, {
-        to: '/',
-        // to: '/home-page-redesign/styleawithoutbutton',
-        activeClassName: 'inactive',
+        to: '/home-page-redesign/styleawithoutbutton',
+        activeClassName: 'active',
         content: 'Style "A" Without Button & Carousal'
     }, {
         to: '/',
@@ -10474,6 +10473,175 @@ var styleawithbutton_styleAWithButton = function (_Component) {
 					jquery_default()(".design-system-wrap").removeAttr('style');
 				}
 			});
+
+			(function ($) {
+				$.extend($.fn, {
+					skySlider: function skySlider(options) {
+						if (!this.length) {
+							if (options && options.debug && window.console) {
+								console.warn("Nothing selected, return nothing.");
+							}
+							return;
+						}
+						var plgSlider = $.data(this[0], "skySlider");
+						if (plgSlider) {
+							return plgSlider;
+						}
+						options = options || {};
+
+						plgSlider = new slider(options, this[0]);
+						$.data(this[0], "skySlider", plgSlider);
+
+						return plgSlider;
+					}
+				});
+				var slider = function slider(options, container) {
+					this.namespace = "plgSlider-" + +new Date();
+					this.settings = $.extend(true, {}, slider.defaults, options);
+					this.container = container;
+					this.init();
+				};
+				/**************************************************************************/
+				$.extend(slider, {
+					defaults: {
+						interval: 3000,
+						carousel: false,
+						duration: 500,
+						items: 1,
+						loop: false,
+						autoplay: false,
+						callback: function callback() {}
+					},
+					prototype: {
+						init: function init() {
+							this.container = $(this.container);
+							this.viewPort = this.container.find('.slider_list');
+							this.slides = this.container.find('.slider_item');
+							this.slideItemCount = this.slides.length;
+							this.slideItemWidth = 100 / this.settings.items;
+							this.slideSetsCount = Math.ceil(this.slideItemCount / this.settings.items);
+							this.currentSlideSets = 0;
+							this.isAnimated = false;
+
+							this.controls = {
+								bullets: this.createBullets(this.container),
+								prev: this.container.find('.slider_arrow__left'),
+								next: this.container.find('.slider_arrow__right')
+							};
+
+							this.callback = $.Callbacks();
+							this.callback.add(this.settings.callback);
+
+							this.slides.width(this.slideItemWidth + '%');
+							this.addHandlers();
+							this.autoplay();
+						},
+						createBullets: function createBullets(container) {
+							var $bulletContainer = $('<div/>', {
+								class: 'slider_control-nav'
+							});
+							for (var i = 0; i < this.slideSetsCount; i++) {
+								$bulletContainer.append($('<div/>', {
+									class: 'slider_control-nav-item'
+								}));
+							}
+							this.container.append($bulletContainer);
+							var $bullets = $bulletContainer.children();
+							$bullets.eq(this.currentSlideSets).addClass('is-active');
+							return $bullets;
+						},
+						addHandlers: function addHandlers() {
+							var that = this;
+							this.controls.next.on('click', function () {
+								that.currentSlideSets++;
+								that.setSlide();
+							});
+							this.controls.prev.on('click', function () {
+								that.currentSlideSets--;
+								that.setSlide();
+							});
+							this.controls.bullets.on('click', function () {
+								that.currentSlideSets = $(this).index();
+								that.setSlide();
+							});
+						},
+						setSlide: function setSlide() {
+							if (this.isAnimated) {
+								return false;
+							}
+							this.isAnimated = true;
+							/* change rules on first/last item */
+							if (this.settings.loop && this.currentSlideSets < 0 || !this.settings.loop && this.currentSlideSets > this.slideSetsCount - 1) {
+								this.currentSlideSets = this.slideSetsCount - 1;
+							}
+							if (!this.settings.loop && this.currentSlideSets < 0 || this.settings.loop && this.currentSlideSets > this.slideSetsCount - 1) {
+								this.currentSlideSets = 0;
+							}
+							/* detect type */
+							if (this.settings.carousel) {
+								/* carousel */
+								var translateStepValue = this.currentSlideSets * 100;
+								this.viewPort.css({
+									'transform': 'translateX(-' + translateStepValue + '%)'
+								});
+							} else {
+								/* slider */
+								var that = this;
+								that.slides.hide();
+								for (var i = 0; i < that.settings.items; i++) {
+									that.slides.eq(that.currentSlideSets * that.settings.items + i).fadeIn();
+								};
+							}
+							this.controls.bullets.removeClass('is-active').eq(this.currentSlideSets).addClass('is-active');
+							/*run callback*/
+							this.callback.fire(this.currentSlideSets);
+
+							setTimeout($.proxy(function () {
+								this.isAnimated = false;
+							}, this), this.settings.duration);
+						},
+						autoplay: function autoplay() {
+							var that = this;
+							if (that.settings.autoplay) {
+								var sliderInterval = setInterval(function () {
+									that.currentSlideSets++;
+									that.setSlide();
+									if (!that.settings.loop && that.currentSlideSets >= that.slideSetsCount - 1) {
+										clearInterval(sliderInterval);
+									}
+								}, that.settings.interval);
+							}
+						},
+						getSlideSetsCount: function getSlideSetsCount() {
+							return this.slideSetsCount;
+						}
+					}
+				});
+			})(jquery_default.a);
+
+			jquery_default()(document).ready(function () {
+				var $slider = jquery_default()('#slider').skySlider();
+				var $carousel = jquery_default()('#carousel').skySlider({
+					interval: 3000,
+					// items: 2,
+					carousel: true,
+					loop: false,
+					autoplay: false,
+					callback: function callback(number) {
+						//console.log('Current slideSet - ' + number);
+					}
+				});
+
+				// console.log('Total number of slides - ' + $slider.getSlideSetsCount());
+			});
+
+			jquery_default()('#slider').skySlider();
+
+			jquery_default()('#slider').skySlider({
+				carousel: true,
+				interval: 3000,
+				duration: 500
+			});
 		}
 	}, {
 		key: 'render',
@@ -10498,686 +10666,382 @@ var styleawithbutton_styleAWithButton = function (_Component) {
 				),
 				react_default.a.createElement(
 					'div',
-					{ 'class': 'gallery js-flickity with-button' },
+					{ 'class': 'container_row' },
 					react_default.a.createElement(
 						'div',
-						{ 'class': 'gallery-cell' },
+						{ 'class': 'slider slider_second', id: 'carousel' },
 						react_default.a.createElement(
 							'div',
-							{ 'class': 'dynamic-banner color-white text-center' },
-							react_default.a.createElement(
-								'h1',
-								{ 'class': 'color-white' },
-								'40% Off Orders $40+'
-							),
+							{ 'class': 'slider_viewport' },
 							react_default.a.createElement(
 								'div',
-								{ 'class': 'proo-description' },
+								{ 'class': 'slider_list' },
 								react_default.a.createElement(
-									'span',
-									null,
-									'with code'
-								),
-								react_default.a.createElement(
-									'span',
-									{ 'class': 'promo-code' },
-									'SAVE27 '
-								),
-								react_default.a.createElement(
-									'span',
-									{ 'class': 'promo-end' },
-									'Online & Instore. Ends 07/24. '
-								),
-								react_default.a.createElement(
-									'span',
-									{ 'class': 'promo-cta' },
+									'div',
+									{ 'class': 'slider_item' },
 									react_default.a.createElement(
-										'a',
-										{ href: 'javascript:void(0)' },
-										'see details'
+										'div',
+										{ 'class': 'slider_item-inner' },
+										react_default.a.createElement(
+											'div',
+											{ 'class': 'dynamic-banner color-white text-center' },
+											react_default.a.createElement(
+												'h1',
+												{ 'class': 'color-white' },
+												'40% Off Orders $40+'
+											),
+											react_default.a.createElement(
+												'div',
+												{ 'class': 'proo-description' },
+												react_default.a.createElement(
+													'span',
+													null,
+													'with code'
+												),
+												react_default.a.createElement(
+													'span',
+													{ 'class': 'promo-code' },
+													'SAVE27 '
+												),
+												react_default.a.createElement(
+													'span',
+													{ 'class': 'promo-end' },
+													'Online & Instore. Ends 07/24. '
+												),
+												react_default.a.createElement(
+													'span',
+													{ 'class': 'promo-cta' },
+													react_default.a.createElement(
+														'a',
+														{ href: 'javascript:void(0)' },
+														'see details'
+													)
+												)
+											),
+											react_default.a.createElement(
+												'div',
+												{ 'class': 'promo-button-container' },
+												react_default.a.createElement(
+													'a',
+													{ 'class': 'button-promo', href: 'javascript:void(0)' },
+													'Women'
+												),
+												react_default.a.createElement(
+													'a',
+													{ 'class': 'button-promo', href: 'javascript:void(0)' },
+													'Kids'
+												),
+												react_default.a.createElement(
+													'a',
+													{ 'class': 'button-promo', href: 'javascript:void(0)' },
+													'Men'
+												),
+												react_default.a.createElement(
+													'a',
+													{ 'class': 'button-promo', href: 'javascript:void(0)' },
+													'Accessories'
+												),
+												react_default.a.createElement(
+													'a',
+													{ 'class': 'button-promo', href: 'javascript:void(0)' },
+													'Shoes'
+												),
+												react_default.a.createElement(
+													'a',
+													{ 'class': 'button-promo', href: 'javascript:void(0)' },
+													'Baby'
+												),
+												react_default.a.createElement(
+													'a',
+													{ 'class': 'button-promo', href: 'javascript:void(0)' },
+													'Home'
+												),
+												react_default.a.createElement(
+													'a',
+													{ 'class': 'button-promo', href: 'javascript:void(0)' },
+													'Shop All'
+												)
+											)
+										)
+									)
+								),
+								react_default.a.createElement(
+									'div',
+									{ 'class': 'slider_item' },
+									react_default.a.createElement(
+										'div',
+										{ 'class': 'slider_item-inner' },
+										react_default.a.createElement(
+											'div',
+											{ 'class': 'dynamic-banner color-white text-center' },
+											react_default.a.createElement(
+												'h1',
+												{ 'class': 'color-white' },
+												'50% Off Orders $40+'
+											),
+											react_default.a.createElement(
+												'div',
+												{ 'class': 'proo-description' },
+												react_default.a.createElement(
+													'span',
+													null,
+													'with code'
+												),
+												react_default.a.createElement(
+													'span',
+													{ 'class': 'promo-code' },
+													'SAVE27 '
+												),
+												react_default.a.createElement(
+													'span',
+													{ 'class': 'promo-end' },
+													'Online & Instore. Ends 07/24. '
+												),
+												react_default.a.createElement(
+													'span',
+													{ 'class': 'promo-cta' },
+													react_default.a.createElement(
+														'a',
+														{ href: 'javascript:void(0)' },
+														'see details'
+													)
+												)
+											),
+											react_default.a.createElement(
+												'div',
+												{ 'class': 'promo-button-container' },
+												react_default.a.createElement(
+													'a',
+													{ 'class': 'button-promo', href: 'javascript:void(0)' },
+													'Women'
+												),
+												react_default.a.createElement(
+													'a',
+													{ 'class': 'button-promo', href: 'javascript:void(0)' },
+													'Kids'
+												),
+												react_default.a.createElement(
+													'a',
+													{ 'class': 'button-promo', href: 'javascript:void(0)' },
+													'Men'
+												),
+												react_default.a.createElement(
+													'a',
+													{ 'class': 'button-promo', href: 'javascript:void(0)' },
+													'Accessories'
+												),
+												react_default.a.createElement(
+													'a',
+													{ 'class': 'button-promo', href: 'javascript:void(0)' },
+													'Shoes'
+												),
+												react_default.a.createElement(
+													'a',
+													{ 'class': 'button-promo', href: 'javascript:void(0)' },
+													'Baby'
+												),
+												react_default.a.createElement(
+													'a',
+													{ 'class': 'button-promo', href: 'javascript:void(0)' },
+													'Home'
+												),
+												react_default.a.createElement(
+													'a',
+													{ 'class': 'button-promo', href: 'javascript:void(0)' },
+													'Shop All'
+												)
+											)
+										)
+									)
+								),
+								react_default.a.createElement(
+									'div',
+									{ 'class': 'slider_item' },
+									react_default.a.createElement(
+										'div',
+										{ 'class': 'slider_item-inner' },
+										react_default.a.createElement(
+											'div',
+											{ 'class': 'dynamic-banner color-white text-center' },
+											react_default.a.createElement(
+												'h1',
+												{ 'class': 'color-white' },
+												'60% Off Orders $40+'
+											),
+											react_default.a.createElement(
+												'div',
+												{ 'class': 'proo-description' },
+												react_default.a.createElement(
+													'span',
+													null,
+													'with code'
+												),
+												react_default.a.createElement(
+													'span',
+													{ 'class': 'promo-code' },
+													'SAVE27 '
+												),
+												react_default.a.createElement(
+													'span',
+													{ 'class': 'promo-end' },
+													'Online & Instore. Ends 07/24. '
+												),
+												react_default.a.createElement(
+													'span',
+													{ 'class': 'promo-cta' },
+													react_default.a.createElement(
+														'a',
+														{ href: 'javascript:void(0)' },
+														'see details'
+													)
+												)
+											),
+											react_default.a.createElement(
+												'div',
+												{ 'class': 'promo-button-container' },
+												react_default.a.createElement(
+													'a',
+													{ 'class': 'button-promo', href: 'javascript:void(0)' },
+													'Women'
+												),
+												react_default.a.createElement(
+													'a',
+													{ 'class': 'button-promo', href: 'javascript:void(0)' },
+													'Kids'
+												),
+												react_default.a.createElement(
+													'a',
+													{ 'class': 'button-promo', href: 'javascript:void(0)' },
+													'Men'
+												),
+												react_default.a.createElement(
+													'a',
+													{ 'class': 'button-promo', href: 'javascript:void(0)' },
+													'Accessories'
+												),
+												react_default.a.createElement(
+													'a',
+													{ 'class': 'button-promo', href: 'javascript:void(0)' },
+													'Shoes'
+												),
+												react_default.a.createElement(
+													'a',
+													{ 'class': 'button-promo', href: 'javascript:void(0)' },
+													'Baby'
+												),
+												react_default.a.createElement(
+													'a',
+													{ 'class': 'button-promo', href: 'javascript:void(0)' },
+													'Home'
+												),
+												react_default.a.createElement(
+													'a',
+													{ 'class': 'button-promo', href: 'javascript:void(0)' },
+													'Shop All'
+												)
+											)
+										)
+									)
+								),
+								react_default.a.createElement(
+									'div',
+									{ 'class': 'slider_item' },
+									react_default.a.createElement(
+										'div',
+										{ 'class': 'slider_item-inner' },
+										react_default.a.createElement(
+											'div',
+											{ 'class': 'dynamic-banner color-white text-center' },
+											react_default.a.createElement(
+												'h1',
+												{ 'class': 'color-white' },
+												'70% Off Orders $40+'
+											),
+											react_default.a.createElement(
+												'div',
+												{ 'class': 'proo-description' },
+												react_default.a.createElement(
+													'span',
+													null,
+													'with code'
+												),
+												react_default.a.createElement(
+													'span',
+													{ 'class': 'promo-code' },
+													'SAVE27 '
+												),
+												react_default.a.createElement(
+													'span',
+													{ 'class': 'promo-end' },
+													'Online & Instore. Ends 07/24. '
+												),
+												react_default.a.createElement(
+													'span',
+													{ 'class': 'promo-cta' },
+													react_default.a.createElement(
+														'a',
+														{ href: 'javascript:void(0)' },
+														'see details'
+													)
+												)
+											),
+											react_default.a.createElement(
+												'div',
+												{ 'class': 'promo-button-container' },
+												react_default.a.createElement(
+													'a',
+													{ 'class': 'button-promo', href: 'javascript:void(0)' },
+													'Women'
+												),
+												react_default.a.createElement(
+													'a',
+													{ 'class': 'button-promo', href: 'javascript:void(0)' },
+													'Kids'
+												),
+												react_default.a.createElement(
+													'a',
+													{ 'class': 'button-promo', href: 'javascript:void(0)' },
+													'Men'
+												),
+												react_default.a.createElement(
+													'a',
+													{ 'class': 'button-promo', href: 'javascript:void(0)' },
+													'Accessories'
+												),
+												react_default.a.createElement(
+													'a',
+													{ 'class': 'button-promo', href: 'javascript:void(0)' },
+													'Shoes'
+												),
+												react_default.a.createElement(
+													'a',
+													{ 'class': 'button-promo', href: 'javascript:void(0)' },
+													'Baby'
+												),
+												react_default.a.createElement(
+													'a',
+													{ 'class': 'button-promo', href: 'javascript:void(0)' },
+													'Home'
+												),
+												react_default.a.createElement(
+													'a',
+													{ 'class': 'button-promo', href: 'javascript:void(0)' },
+													'Shop All'
+												)
+											)
+										)
 									)
 								)
-							),
-							react_default.a.createElement(
-								'div',
-								{ 'class': 'promo-button-container' },
-								react_default.a.createElement(
-									'a',
-									{ 'class': 'button-promo', href: 'javascript:void(0)' },
-									'Women'
-								),
-								react_default.a.createElement(
-									'a',
-									{ 'class': 'button-promo', href: 'javascript:void(0)' },
-									'Kids'
-								),
-								react_default.a.createElement(
-									'a',
-									{ 'class': 'button-promo', href: 'javascript:void(0)' },
-									'Men'
-								),
-								react_default.a.createElement(
-									'a',
-									{ 'class': 'button-promo', href: 'javascript:void(0)' },
-									'Accessories'
-								),
-								react_default.a.createElement(
-									'a',
-									{ 'class': 'button-promo', href: 'javascript:void(0)' },
-									'Shoes'
-								),
-								react_default.a.createElement(
-									'a',
-									{ 'class': 'button-promo', href: 'javascript:void(0)' },
-									'Baby'
-								),
-								react_default.a.createElement(
-									'a',
-									{ 'class': 'button-promo', href: 'javascript:void(0)' },
-									'Home'
-								),
-								react_default.a.createElement(
-									'a',
-									{ 'class': 'button-promo', href: 'javascript:void(0)' },
-									'Shop All'
-								)
 							)
-						)
-					),
-					react_default.a.createElement(
-						'div',
-						{ 'class': 'gallery-cell' },
+						),
 						react_default.a.createElement(
 							'div',
-							{ 'class': 'dynamic-banner color-white text-center' },
-							react_default.a.createElement(
-								'h1',
-								{ 'class': 'color-white' },
-								'50% Off Orders $40+'
-							),
-							react_default.a.createElement(
-								'div',
-								{ 'class': 'proo-description' },
-								react_default.a.createElement(
-									'span',
-									null,
-									'with code'
-								),
-								react_default.a.createElement(
-									'span',
-									{ 'class': 'promo-code' },
-									'SAVE27 '
-								),
-								react_default.a.createElement(
-									'span',
-									{ 'class': 'promo-end' },
-									'Online & Instore. Ends 07/24. '
-								),
-								react_default.a.createElement(
-									'span',
-									{ 'class': 'promo-cta' },
-									react_default.a.createElement(
-										'a',
-										{ href: 'javascript:void(0)' },
-										'see details'
-									)
-								)
-							),
-							react_default.a.createElement(
-								'div',
-								{ 'class': 'promo-button-container' },
-								react_default.a.createElement(
-									'a',
-									{ 'class': 'button-promo', href: 'javascript:void(0)' },
-									'Women'
-								),
-								react_default.a.createElement(
-									'a',
-									{ 'class': 'button-promo', href: 'javascript:void(0)' },
-									'Kids'
-								),
-								react_default.a.createElement(
-									'a',
-									{ 'class': 'button-promo', href: 'javascript:void(0)' },
-									'Men'
-								),
-								react_default.a.createElement(
-									'a',
-									{ 'class': 'button-promo', href: 'javascript:void(0)' },
-									'Accessories'
-								),
-								react_default.a.createElement(
-									'a',
-									{ 'class': 'button-promo', href: 'javascript:void(0)' },
-									'Shoes'
-								),
-								react_default.a.createElement(
-									'a',
-									{ 'class': 'button-promo', href: 'javascript:void(0)' },
-									'Baby'
-								),
-								react_default.a.createElement(
-									'a',
-									{ 'class': 'button-promo', href: 'javascript:void(0)' },
-									'Home'
-								),
-								react_default.a.createElement(
-									'a',
-									{ 'class': 'button-promo', href: 'javascript:void(0)' },
-									'Shop All'
-								)
-							)
-						)
-					),
-					react_default.a.createElement(
-						'div',
-						{ 'class': 'gallery-cell' },
-						react_default.a.createElement(
-							'div',
-							{ 'class': 'dynamic-banner color-white text-center' },
-							react_default.a.createElement(
-								'h1',
-								{ 'class': 'color-white' },
-								'60% Off Orders $40+'
-							),
-							react_default.a.createElement(
-								'div',
-								{ 'class': 'proo-description' },
-								react_default.a.createElement(
-									'span',
-									null,
-									'with code'
-								),
-								react_default.a.createElement(
-									'span',
-									{ 'class': 'promo-code' },
-									'SAVE27 '
-								),
-								react_default.a.createElement(
-									'span',
-									{ 'class': 'promo-end' },
-									'Online & Instore. Ends 07/24. '
-								),
-								react_default.a.createElement(
-									'span',
-									{ 'class': 'promo-cta' },
-									react_default.a.createElement(
-										'a',
-										{ href: 'javascript:void(0)' },
-										'see details'
-									)
-								)
-							),
-							react_default.a.createElement(
-								'div',
-								{ 'class': 'promo-button-container' },
-								react_default.a.createElement(
-									'a',
-									{ 'class': 'button-promo', href: 'javascript:void(0)' },
-									'Women'
-								),
-								react_default.a.createElement(
-									'a',
-									{ 'class': 'button-promo', href: 'javascript:void(0)' },
-									'Kids'
-								),
-								react_default.a.createElement(
-									'a',
-									{ 'class': 'button-promo', href: 'javascript:void(0)' },
-									'Men'
-								),
-								react_default.a.createElement(
-									'a',
-									{ 'class': 'button-promo', href: 'javascript:void(0)' },
-									'Accessories'
-								),
-								react_default.a.createElement(
-									'a',
-									{ 'class': 'button-promo', href: 'javascript:void(0)' },
-									'Shoes'
-								),
-								react_default.a.createElement(
-									'a',
-									{ 'class': 'button-promo', href: 'javascript:void(0)' },
-									'Baby'
-								),
-								react_default.a.createElement(
-									'a',
-									{ 'class': 'button-promo', href: 'javascript:void(0)' },
-									'Home'
-								),
-								react_default.a.createElement(
-									'a',
-									{ 'class': 'button-promo', href: 'javascript:void(0)' },
-									'Shop All'
-								)
-							)
-						)
-					)
-				),
-				react_default.a.createElement('br', null),
-				react_default.a.createElement('br', null),
-				react_default.a.createElement('br', null),
-				react_default.a.createElement('br', null),
-				react_default.a.createElement('br', null),
-				react_default.a.createElement('br', null),
-				react_default.a.createElement(
-					'div',
-					{ 'class': 'gallery js-flickity without-button' },
-					react_default.a.createElement(
-						'div',
-						{ 'class': 'gallery-cell' },
-						react_default.a.createElement(
-							'div',
-							{ 'class': 'dynamic-banner color-white text-center' },
-							react_default.a.createElement(
-								'h1',
-								{ 'class': 'color-white' },
-								'40% Off Orders $40+'
-							),
-							react_default.a.createElement(
-								'div',
-								{ 'class': 'proo-description' },
-								react_default.a.createElement(
-									'span',
-									null,
-									'with code'
-								),
-								react_default.a.createElement(
-									'span',
-									{ 'class': 'promo-code' },
-									'SAVE27 '
-								),
-								react_default.a.createElement(
-									'span',
-									{ 'class': 'promo-end' },
-									'Online & Instore. Ends 07/24. '
-								),
-								react_default.a.createElement(
-									'span',
-									{ 'class': 'promo-cta' },
-									react_default.a.createElement(
-										'a',
-										{ href: 'javascript:void(0)' },
-										'see details'
-									)
-								)
-							),
-							react_default.a.createElement(
-								'div',
-								{ 'class': 'promo-button-container' },
-								react_default.a.createElement(
-									'a',
-									{ 'class': 'button-promo', href: 'javascript:void(0)' },
-									'Women'
-								),
-								react_default.a.createElement(
-									'a',
-									{ 'class': 'button-promo', href: 'javascript:void(0)' },
-									'Kids'
-								),
-								react_default.a.createElement(
-									'a',
-									{ 'class': 'button-promo', href: 'javascript:void(0)' },
-									'Men'
-								),
-								react_default.a.createElement(
-									'a',
-									{ 'class': 'button-promo', href: 'javascript:void(0)' },
-									'Accessories'
-								),
-								react_default.a.createElement(
-									'a',
-									{ 'class': 'button-promo', href: 'javascript:void(0)' },
-									'Shoes'
-								),
-								react_default.a.createElement(
-									'a',
-									{ 'class': 'button-promo', href: 'javascript:void(0)' },
-									'Baby'
-								),
-								react_default.a.createElement(
-									'a',
-									{ 'class': 'button-promo', href: 'javascript:void(0)' },
-									'Home'
-								),
-								react_default.a.createElement(
-									'a',
-									{ 'class': 'button-promo', href: 'javascript:void(0)' },
-									'Shop All'
-								)
-							)
-						)
-					),
-					react_default.a.createElement(
-						'div',
-						{ 'class': 'gallery-cell' },
-						react_default.a.createElement(
-							'div',
-							{ 'class': 'dynamic-banner color-white text-center' },
-							react_default.a.createElement(
-								'h1',
-								{ 'class': 'color-white' },
-								'50% Off Orders $40+'
-							),
-							react_default.a.createElement(
-								'div',
-								{ 'class': 'proo-description' },
-								react_default.a.createElement(
-									'span',
-									null,
-									'with code'
-								),
-								react_default.a.createElement(
-									'span',
-									{ 'class': 'promo-code' },
-									'SAVE27 '
-								),
-								react_default.a.createElement(
-									'span',
-									{ 'class': 'promo-end' },
-									'Online & Instore. Ends 07/24. '
-								),
-								react_default.a.createElement(
-									'span',
-									{ 'class': 'promo-cta' },
-									react_default.a.createElement(
-										'a',
-										{ href: 'javascript:void(0)' },
-										'see details'
-									)
-								)
-							),
-							react_default.a.createElement(
-								'div',
-								{ 'class': 'promo-button-container' },
-								react_default.a.createElement(
-									'a',
-									{ 'class': 'button-promo', href: 'javascript:void(0)' },
-									'Women'
-								),
-								react_default.a.createElement(
-									'a',
-									{ 'class': 'button-promo', href: 'javascript:void(0)' },
-									'Kids'
-								),
-								react_default.a.createElement(
-									'a',
-									{ 'class': 'button-promo', href: 'javascript:void(0)' },
-									'Men'
-								),
-								react_default.a.createElement(
-									'a',
-									{ 'class': 'button-promo', href: 'javascript:void(0)' },
-									'Accessories'
-								),
-								react_default.a.createElement(
-									'a',
-									{ 'class': 'button-promo', href: 'javascript:void(0)' },
-									'Shoes'
-								),
-								react_default.a.createElement(
-									'a',
-									{ 'class': 'button-promo', href: 'javascript:void(0)' },
-									'Baby'
-								),
-								react_default.a.createElement(
-									'a',
-									{ 'class': 'button-promo', href: 'javascript:void(0)' },
-									'Home'
-								),
-								react_default.a.createElement(
-									'a',
-									{ 'class': 'button-promo', href: 'javascript:void(0)' },
-									'Shop All'
-								)
-							)
-						)
-					),
-					react_default.a.createElement(
-						'div',
-						{ 'class': 'gallery-cell' },
-						react_default.a.createElement(
-							'div',
-							{ 'class': 'dynamic-banner color-white text-center' },
-							react_default.a.createElement(
-								'h1',
-								{ 'class': 'color-white' },
-								'60% Off Orders $40+'
-							),
-							react_default.a.createElement(
-								'div',
-								{ 'class': 'proo-description' },
-								react_default.a.createElement(
-									'span',
-									null,
-									'with code'
-								),
-								react_default.a.createElement(
-									'span',
-									{ 'class': 'promo-code' },
-									'SAVE27 '
-								),
-								react_default.a.createElement(
-									'span',
-									{ 'class': 'promo-end' },
-									'Online & Instore. Ends 07/24. '
-								),
-								react_default.a.createElement(
-									'span',
-									{ 'class': 'promo-cta' },
-									react_default.a.createElement(
-										'a',
-										{ href: 'javascript:void(0)' },
-										'see details'
-									)
-								)
-							),
-							react_default.a.createElement(
-								'div',
-								{ 'class': 'promo-button-container' },
-								react_default.a.createElement(
-									'a',
-									{ 'class': 'button-promo', href: 'javascript:void(0)' },
-									'Women'
-								),
-								react_default.a.createElement(
-									'a',
-									{ 'class': 'button-promo', href: 'javascript:void(0)' },
-									'Kids'
-								),
-								react_default.a.createElement(
-									'a',
-									{ 'class': 'button-promo', href: 'javascript:void(0)' },
-									'Men'
-								),
-								react_default.a.createElement(
-									'a',
-									{ 'class': 'button-promo', href: 'javascript:void(0)' },
-									'Accessories'
-								),
-								react_default.a.createElement(
-									'a',
-									{ 'class': 'button-promo', href: 'javascript:void(0)' },
-									'Shoes'
-								),
-								react_default.a.createElement(
-									'a',
-									{ 'class': 'button-promo', href: 'javascript:void(0)' },
-									'Baby'
-								),
-								react_default.a.createElement(
-									'a',
-									{ 'class': 'button-promo', href: 'javascript:void(0)' },
-									'Home'
-								),
-								react_default.a.createElement(
-									'a',
-									{ 'class': 'button-promo', href: 'javascript:void(0)' },
-									'Shop All'
-								)
-							)
+							{ 'class': 'slider_nav' },
+							react_default.a.createElement('div', { 'class': 'slider_arrow slider_arrow__left' }),
+							react_default.a.createElement('div', { 'class': 'slider_arrow slider_arrow__right' })
 						)
 					)
-				),
-				react_default.a.createElement('br', null),
-				react_default.a.createElement('br', null),
-				react_default.a.createElement('br', null),
-				react_default.a.createElement('br', null),
-				react_default.a.createElement('br', null),
-				react_default.a.createElement('br', null),
-				react_default.a.createElement(
-					'div',
-					{ 'class': 'gallery js-flickity with-button-nocarousal' },
-					react_default.a.createElement(
-						'div',
-						{ 'class': 'gallery-cell' },
-						react_default.a.createElement(
-							'div',
-							{ 'class': 'dynamic-banner color-white text-center' },
-							react_default.a.createElement(
-								'h1',
-								{ 'class': 'color-white' },
-								'40% Off Orders $40+'
-							),
-							react_default.a.createElement(
-								'div',
-								{ 'class': 'proo-description' },
-								react_default.a.createElement(
-									'span',
-									null,
-									'with code'
-								),
-								react_default.a.createElement(
-									'span',
-									{ 'class': 'promo-code' },
-									'SAVE27 '
-								),
-								react_default.a.createElement(
-									'span',
-									{ 'class': 'promo-end' },
-									'Online & Instore. Ends 07/24. '
-								),
-								react_default.a.createElement(
-									'span',
-									{ 'class': 'promo-cta' },
-									react_default.a.createElement(
-										'a',
-										{ href: 'javascript:void(0)' },
-										'see details'
-									)
-								)
-							),
-							react_default.a.createElement(
-								'div',
-								{ 'class': 'promo-button-container' },
-								react_default.a.createElement(
-									'a',
-									{ 'class': 'button-promo', href: 'javascript:void(0)' },
-									'Women'
-								),
-								react_default.a.createElement(
-									'a',
-									{ 'class': 'button-promo', href: 'javascript:void(0)' },
-									'Kids'
-								),
-								react_default.a.createElement(
-									'a',
-									{ 'class': 'button-promo', href: 'javascript:void(0)' },
-									'Men'
-								),
-								react_default.a.createElement(
-									'a',
-									{ 'class': 'button-promo', href: 'javascript:void(0)' },
-									'Accessories'
-								),
-								react_default.a.createElement(
-									'a',
-									{ 'class': 'button-promo', href: 'javascript:void(0)' },
-									'Shoes'
-								),
-								react_default.a.createElement(
-									'a',
-									{ 'class': 'button-promo', href: 'javascript:void(0)' },
-									'Baby'
-								),
-								react_default.a.createElement(
-									'a',
-									{ 'class': 'button-promo', href: 'javascript:void(0)' },
-									'Home'
-								),
-								react_default.a.createElement(
-									'a',
-									{ 'class': 'button-promo', href: 'javascript:void(0)' },
-									'Shop All'
-								)
-							)
-						)
-					)
-				),
-				react_default.a.createElement('br', null),
-				react_default.a.createElement('br', null),
-				react_default.a.createElement('br', null),
-				react_default.a.createElement('br', null),
-				react_default.a.createElement('br', null),
-				react_default.a.createElement('br', null),
-				react_default.a.createElement(
-					'div',
-					{ 'class': 'gallery js-flickity without-button-nocarousal' },
-					react_default.a.createElement(
-						'div',
-						{ 'class': 'gallery-cell' },
-						react_default.a.createElement(
-							'div',
-							{ 'class': 'dynamic-banner color-white text-center' },
-							react_default.a.createElement(
-								'h1',
-								{ 'class': 'color-white' },
-								'40% Off Orders $40+'
-							),
-							react_default.a.createElement(
-								'div',
-								{ 'class': 'proo-description' },
-								react_default.a.createElement(
-									'span',
-									null,
-									'with code'
-								),
-								react_default.a.createElement(
-									'span',
-									{ 'class': 'promo-code' },
-									'SAVE27 '
-								),
-								react_default.a.createElement(
-									'span',
-									{ 'class': 'promo-end' },
-									'Online & Instore. Ends 07/24. '
-								),
-								react_default.a.createElement(
-									'span',
-									{ 'class': 'promo-cta' },
-									react_default.a.createElement(
-										'a',
-										{ href: 'javascript:void(0)' },
-										'see details'
-									)
-								)
-							)
-						)
-					)
-				),
-				react_default.a.createElement('br', null),
-				react_default.a.createElement('br', null),
-				react_default.a.createElement('br', null),
-				react_default.a.createElement('br', null),
-				react_default.a.createElement('br', null),
-				react_default.a.createElement('br', null),
-				react_default.a.createElement('br', null),
-				react_default.a.createElement('br', null),
-				react_default.a.createElement('br', null),
-				react_default.a.createElement('br', null),
-				react_default.a.createElement('br', null),
-				react_default.a.createElement('br', null)
+				)
 			);
 		}
 	}]);
@@ -11263,6 +11127,175 @@ var styleawithoutbutton_styleAWithoutButton = function (_Component) {
 					jquery_default()(".design-system-wrap").removeAttr('style');
 				}
 			});
+
+			(function ($) {
+				$.extend($.fn, {
+					skySlider: function skySlider(options) {
+						if (!this.length) {
+							if (options && options.debug && window.console) {
+								console.warn("Nothing selected, return nothing.");
+							}
+							return;
+						}
+						var plgSlider = $.data(this[0], "skySlider");
+						if (plgSlider) {
+							return plgSlider;
+						}
+						options = options || {};
+
+						plgSlider = new slider(options, this[0]);
+						$.data(this[0], "skySlider", plgSlider);
+
+						return plgSlider;
+					}
+				});
+				var slider = function slider(options, container) {
+					this.namespace = "plgSlider-" + +new Date();
+					this.settings = $.extend(true, {}, slider.defaults, options);
+					this.container = container;
+					this.init();
+				};
+				/**************************************************************************/
+				$.extend(slider, {
+					defaults: {
+						interval: 3000,
+						carousel: false,
+						duration: 500,
+						items: 1,
+						loop: false,
+						autoplay: false,
+						callback: function callback() {}
+					},
+					prototype: {
+						init: function init() {
+							this.container = $(this.container);
+							this.viewPort = this.container.find('.slider_list');
+							this.slides = this.container.find('.slider_item');
+							this.slideItemCount = this.slides.length;
+							this.slideItemWidth = 100 / this.settings.items;
+							this.slideSetsCount = Math.ceil(this.slideItemCount / this.settings.items);
+							this.currentSlideSets = 0;
+							this.isAnimated = false;
+
+							this.controls = {
+								bullets: this.createBullets(this.container),
+								prev: this.container.find('.slider_arrow__left'),
+								next: this.container.find('.slider_arrow__right')
+							};
+
+							this.callback = $.Callbacks();
+							this.callback.add(this.settings.callback);
+
+							this.slides.width(this.slideItemWidth + '%');
+							this.addHandlers();
+							this.autoplay();
+						},
+						createBullets: function createBullets(container) {
+							var $bulletContainer = $('<div/>', {
+								class: 'slider_control-nav'
+							});
+							for (var i = 0; i < this.slideSetsCount; i++) {
+								$bulletContainer.append($('<div/>', {
+									class: 'slider_control-nav-item'
+								}));
+							}
+							this.container.append($bulletContainer);
+							var $bullets = $bulletContainer.children();
+							$bullets.eq(this.currentSlideSets).addClass('is-active');
+							return $bullets;
+						},
+						addHandlers: function addHandlers() {
+							var that = this;
+							this.controls.next.on('click', function () {
+								that.currentSlideSets++;
+								that.setSlide();
+							});
+							this.controls.prev.on('click', function () {
+								that.currentSlideSets--;
+								that.setSlide();
+							});
+							this.controls.bullets.on('click', function () {
+								that.currentSlideSets = $(this).index();
+								that.setSlide();
+							});
+						},
+						setSlide: function setSlide() {
+							if (this.isAnimated) {
+								return false;
+							}
+							this.isAnimated = true;
+							/* change rules on first/last item */
+							if (this.settings.loop && this.currentSlideSets < 0 || !this.settings.loop && this.currentSlideSets > this.slideSetsCount - 1) {
+								this.currentSlideSets = this.slideSetsCount - 1;
+							}
+							if (!this.settings.loop && this.currentSlideSets < 0 || this.settings.loop && this.currentSlideSets > this.slideSetsCount - 1) {
+								this.currentSlideSets = 0;
+							}
+							/* detect type */
+							if (this.settings.carousel) {
+								/* carousel */
+								var translateStepValue = this.currentSlideSets * 100;
+								this.viewPort.css({
+									'transform': 'translateX(-' + translateStepValue + '%)'
+								});
+							} else {
+								/* slider */
+								var that = this;
+								that.slides.hide();
+								for (var i = 0; i < that.settings.items; i++) {
+									that.slides.eq(that.currentSlideSets * that.settings.items + i).fadeIn();
+								};
+							}
+							this.controls.bullets.removeClass('is-active').eq(this.currentSlideSets).addClass('is-active');
+							/*run callback*/
+							this.callback.fire(this.currentSlideSets);
+
+							setTimeout($.proxy(function () {
+								this.isAnimated = false;
+							}, this), this.settings.duration);
+						},
+						autoplay: function autoplay() {
+							var that = this;
+							if (that.settings.autoplay) {
+								var sliderInterval = setInterval(function () {
+									that.currentSlideSets++;
+									that.setSlide();
+									if (!that.settings.loop && that.currentSlideSets >= that.slideSetsCount - 1) {
+										clearInterval(sliderInterval);
+									}
+								}, that.settings.interval);
+							}
+						},
+						getSlideSetsCount: function getSlideSetsCount() {
+							return this.slideSetsCount;
+						}
+					}
+				});
+			})(jquery_default.a);
+
+			jquery_default()(document).ready(function () {
+				var $slider = jquery_default()('#slider').skySlider();
+				var $carousel = jquery_default()('#carousel').skySlider({
+					interval: 3000,
+					// items: 2,
+					carousel: true,
+					loop: false,
+					autoplay: false,
+					callback: function callback(number) {
+						//console.log('Current slideSet - ' + number);
+					}
+				});
+
+				// console.log('Total number of slides - ' + $slider.getSlideSetsCount());
+			});
+
+			jquery_default()('#slider').skySlider();
+
+			jquery_default()('#slider').skySlider({
+				carousel: true,
+				interval: 3000,
+				duration: 500
+			});
 		}
 	}, {
 		key: 'render',
@@ -11287,260 +11320,203 @@ var styleawithoutbutton_styleAWithoutButton = function (_Component) {
 				),
 				react_default.a.createElement(
 					'div',
-					{ 'class': 'gallery js-flickity without-button' },
+					{ 'class': 'container_row' },
 					react_default.a.createElement(
 						'div',
-						{ 'class': 'gallery-cell' },
+						{ 'class': 'slider slider_second', id: 'carousel' },
 						react_default.a.createElement(
 							'div',
-							{ 'class': 'dynamic-banner color-white text-center' },
-							react_default.a.createElement(
-								'h1',
-								{ 'class': 'promo-lbl promo-lbl-XL color-white' },
-								'40% Off Orders $40+'
-							),
+							{ 'class': 'slider_viewport' },
 							react_default.a.createElement(
 								'div',
-								{ 'class': 'proo-description' },
+								{ 'class': 'slider_list' },
 								react_default.a.createElement(
-									'span',
-									null,
-									'with code'
-								),
-								react_default.a.createElement(
-									'span',
-									{ 'class': 'promo-code' },
-									'SAVE27 '
-								),
-								react_default.a.createElement(
-									'span',
-									{ 'class': 'promo-end' },
-									'Online & Instore. Ends 07/24. '
-								),
-								react_default.a.createElement(
-									'span',
-									{ 'class': 'promo-cta' },
+									'div',
+									{ 'class': 'slider_item' },
 									react_default.a.createElement(
-										'a',
-										{ href: 'javascript:void(0)' },
-										'see details'
+										'div',
+										{ 'class': 'slider_item-inner' },
+										react_default.a.createElement(
+											'div',
+											{ 'class': 'dynamic-banner color-white text-center' },
+											react_default.a.createElement(
+												'h1',
+												{ 'class': 'color-white' },
+												'40% Off Orders $40+'
+											),
+											react_default.a.createElement(
+												'div',
+												{ 'class': 'proo-description' },
+												react_default.a.createElement(
+													'span',
+													null,
+													'with code'
+												),
+												react_default.a.createElement(
+													'span',
+													{ 'class': 'promo-code' },
+													'SAVE27 '
+												),
+												react_default.a.createElement(
+													'span',
+													{ 'class': 'promo-end' },
+													'Online & Instore. Ends 07/24. '
+												),
+												react_default.a.createElement(
+													'span',
+													{ 'class': 'promo-cta' },
+													react_default.a.createElement(
+														'a',
+														{ href: 'javascript:void(0)' },
+														'see details'
+													)
+												)
+											)
+										)
+									)
+								),
+								react_default.a.createElement(
+									'div',
+									{ 'class': 'slider_item' },
+									react_default.a.createElement(
+										'div',
+										{ 'class': 'slider_item-inner' },
+										react_default.a.createElement(
+											'div',
+											{ 'class': 'dynamic-banner color-white text-center' },
+											react_default.a.createElement(
+												'h1',
+												{ 'class': 'color-white' },
+												'50% Off Orders $40+'
+											),
+											react_default.a.createElement(
+												'div',
+												{ 'class': 'proo-description' },
+												react_default.a.createElement(
+													'span',
+													null,
+													'with code'
+												),
+												react_default.a.createElement(
+													'span',
+													{ 'class': 'promo-code' },
+													'SAVE27 '
+												),
+												react_default.a.createElement(
+													'span',
+													{ 'class': 'promo-end' },
+													'Online & Instore. Ends 07/24. '
+												),
+												react_default.a.createElement(
+													'span',
+													{ 'class': 'promo-cta' },
+													react_default.a.createElement(
+														'a',
+														{ href: 'javascript:void(0)' },
+														'see details'
+													)
+												)
+											)
+										)
+									)
+								),
+								react_default.a.createElement(
+									'div',
+									{ 'class': 'slider_item' },
+									react_default.a.createElement(
+										'div',
+										{ 'class': 'slider_item-inner' },
+										react_default.a.createElement(
+											'div',
+											{ 'class': 'dynamic-banner color-white text-center' },
+											react_default.a.createElement(
+												'h1',
+												{ 'class': 'color-white' },
+												'60% Off Orders $40+'
+											),
+											react_default.a.createElement(
+												'div',
+												{ 'class': 'proo-description' },
+												react_default.a.createElement(
+													'span',
+													null,
+													'with code'
+												),
+												react_default.a.createElement(
+													'span',
+													{ 'class': 'promo-code' },
+													'SAVE27 '
+												),
+												react_default.a.createElement(
+													'span',
+													{ 'class': 'promo-end' },
+													'Online & Instore. Ends 07/24. '
+												),
+												react_default.a.createElement(
+													'span',
+													{ 'class': 'promo-cta' },
+													react_default.a.createElement(
+														'a',
+														{ href: 'javascript:void(0)' },
+														'see details'
+													)
+												)
+											)
+										)
+									)
+								),
+								react_default.a.createElement(
+									'div',
+									{ 'class': 'slider_item' },
+									react_default.a.createElement(
+										'div',
+										{ 'class': 'slider_item-inner' },
+										react_default.a.createElement(
+											'div',
+											{ 'class': 'dynamic-banner color-white text-center' },
+											react_default.a.createElement(
+												'h1',
+												{ 'class': 'color-white' },
+												'70% Off Orders $40+'
+											),
+											react_default.a.createElement(
+												'div',
+												{ 'class': 'proo-description' },
+												react_default.a.createElement(
+													'span',
+													null,
+													'with code'
+												),
+												react_default.a.createElement(
+													'span',
+													{ 'class': 'promo-code' },
+													'SAVE27 '
+												),
+												react_default.a.createElement(
+													'span',
+													{ 'class': 'promo-end' },
+													'Online & Instore. Ends 07/24. '
+												),
+												react_default.a.createElement(
+													'span',
+													{ 'class': 'promo-cta' },
+													react_default.a.createElement(
+														'a',
+														{ href: 'javascript:void(0)' },
+														'see details'
+													)
+												)
+											)
+										)
 									)
 								)
-							),
-							react_default.a.createElement(
-								'div',
-								{ 'class': 'promo-button-container' },
-								react_default.a.createElement(
-									'a',
-									{ 'class': 'button-promo', href: 'javascript:void(0)' },
-									'Women'
-								),
-								react_default.a.createElement(
-									'a',
-									{ 'class': 'button-promo', href: 'javascript:void(0)' },
-									'Kids'
-								),
-								react_default.a.createElement(
-									'a',
-									{ 'class': 'button-promo', href: 'javascript:void(0)' },
-									'Men'
-								),
-								react_default.a.createElement(
-									'a',
-									{ 'class': 'button-promo', href: 'javascript:void(0)' },
-									'Accessories'
-								),
-								react_default.a.createElement(
-									'a',
-									{ 'class': 'button-promo', href: 'javascript:void(0)' },
-									'Shoes'
-								),
-								react_default.a.createElement(
-									'a',
-									{ 'class': 'button-promo', href: 'javascript:void(0)' },
-									'Baby'
-								),
-								react_default.a.createElement(
-									'a',
-									{ 'class': 'button-promo', href: 'javascript:void(0)' },
-									'Home'
-								),
-								react_default.a.createElement(
-									'a',
-									{ 'class': 'button-promo', href: 'javascript:void(0)' },
-									'Shop All'
-								)
 							)
-						)
-					),
-					react_default.a.createElement(
-						'div',
-						{ 'class': 'gallery-cell' },
+						),
 						react_default.a.createElement(
 							'div',
-							{ 'class': 'dynamic-banner color-white text-center' },
-							react_default.a.createElement(
-								'h1',
-								{ 'class': 'promo-lbl promo-lbl-XL color-white' },
-								'50% Off Orders $40+'
-							),
-							react_default.a.createElement(
-								'div',
-								{ 'class': 'proo-description' },
-								react_default.a.createElement(
-									'span',
-									null,
-									'with code'
-								),
-								react_default.a.createElement(
-									'span',
-									{ 'class': 'promo-code' },
-									'SAVE27 '
-								),
-								react_default.a.createElement(
-									'span',
-									{ 'class': 'promo-end' },
-									'Online & Instore. Ends 07/24. '
-								),
-								react_default.a.createElement(
-									'span',
-									{ 'class': 'promo-cta' },
-									react_default.a.createElement(
-										'a',
-										{ href: 'javascript:void(0)' },
-										'see details'
-									)
-								)
-							),
-							react_default.a.createElement(
-								'div',
-								{ 'class': 'promo-button-container' },
-								react_default.a.createElement(
-									'a',
-									{ 'class': 'button-promo', href: 'javascript:void(0)' },
-									'Women'
-								),
-								react_default.a.createElement(
-									'a',
-									{ 'class': 'button-promo', href: 'javascript:void(0)' },
-									'Kids'
-								),
-								react_default.a.createElement(
-									'a',
-									{ 'class': 'button-promo', href: 'javascript:void(0)' },
-									'Men'
-								),
-								react_default.a.createElement(
-									'a',
-									{ 'class': 'button-promo', href: 'javascript:void(0)' },
-									'Accessories'
-								),
-								react_default.a.createElement(
-									'a',
-									{ 'class': 'button-promo', href: 'javascript:void(0)' },
-									'Shoes'
-								),
-								react_default.a.createElement(
-									'a',
-									{ 'class': 'button-promo', href: 'javascript:void(0)' },
-									'Baby'
-								),
-								react_default.a.createElement(
-									'a',
-									{ 'class': 'button-promo', href: 'javascript:void(0)' },
-									'Home'
-								),
-								react_default.a.createElement(
-									'a',
-									{ 'class': 'button-promo', href: 'javascript:void(0)' },
-									'Shop All'
-								)
-							)
-						)
-					),
-					react_default.a.createElement(
-						'div',
-						{ 'class': 'gallery-cell' },
-						react_default.a.createElement(
-							'div',
-							{ 'class': 'dynamic-banner color-white text-center' },
-							react_default.a.createElement(
-								'h1',
-								{ 'class': 'promo-lbl promo-lbl-XL color-white' },
-								'60% Off Orders $40+'
-							),
-							react_default.a.createElement(
-								'div',
-								{ 'class': 'proo-description' },
-								react_default.a.createElement(
-									'span',
-									null,
-									'with code'
-								),
-								react_default.a.createElement(
-									'span',
-									{ 'class': 'promo-code' },
-									'SAVE27 '
-								),
-								react_default.a.createElement(
-									'span',
-									{ 'class': 'promo-end' },
-									'Online & Instore. Ends 07/24. '
-								),
-								react_default.a.createElement(
-									'span',
-									{ 'class': 'promo-cta' },
-									react_default.a.createElement(
-										'a',
-										{ href: 'javascript:void(0)' },
-										'see details'
-									)
-								)
-							),
-							react_default.a.createElement(
-								'div',
-								{ 'class': 'promo-button-container' },
-								react_default.a.createElement(
-									'a',
-									{ 'class': 'button-promo', href: 'javascript:void(0)' },
-									'Women'
-								),
-								react_default.a.createElement(
-									'a',
-									{ 'class': 'button-promo', href: 'javascript:void(0)' },
-									'Kids'
-								),
-								react_default.a.createElement(
-									'a',
-									{ 'class': 'button-promo', href: 'javascript:void(0)' },
-									'Men'
-								),
-								react_default.a.createElement(
-									'a',
-									{ 'class': 'button-promo', href: 'javascript:void(0)' },
-									'Accessories'
-								),
-								react_default.a.createElement(
-									'a',
-									{ 'class': 'button-promo', href: 'javascript:void(0)' },
-									'Shoes'
-								),
-								react_default.a.createElement(
-									'a',
-									{ 'class': 'button-promo', href: 'javascript:void(0)' },
-									'Baby'
-								),
-								react_default.a.createElement(
-									'a',
-									{ 'class': 'button-promo', href: 'javascript:void(0)' },
-									'Home'
-								),
-								react_default.a.createElement(
-									'a',
-									{ 'class': 'button-promo', href: 'javascript:void(0)' },
-									'Shop All'
-								)
-							)
+							{ 'class': 'slider_nav' },
+							react_default.a.createElement('div', { 'class': 'slider_arrow slider_arrow__left' }),
+							react_default.a.createElement('div', { 'class': 'slider_arrow slider_arrow__right' })
 						)
 					)
 				)
@@ -38409,6 +38385,9 @@ var Root_App = function (_React$Component) {
                                 } }),
                             react_default.a.createElement(es["d" /* Route */], { exact: true, path: '/home-page-redesign/styleawithbutton', render: function render() {
                                     return react_default.a.createElement(containers_DesignSystemPage, { componentName: 'styleAWithButton' });
+                                } }),
+                            react_default.a.createElement(es["d" /* Route */], { exact: true, path: '/home-page-redesign/styleawithoutbutton', render: function render() {
+                                    return react_default.a.createElement(containers_DesignSystemPage, { componentName: 'styleAWithoutButton' });
                                 } })
                         )
                     )

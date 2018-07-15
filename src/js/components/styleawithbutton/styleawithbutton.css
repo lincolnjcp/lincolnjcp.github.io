@@ -59,194 +59,155 @@
 
 
 
-.gallery {
 
-    & .flickity-button {
-        display: none;
-    }
 
-    & .flickity-page-dots {
-        bottom: 5px;
-        & .dot.is-selected {
-            background: var(--color-white);
-        }
-        & .dot {
-            background: transparent;
-            border: 1px solid var(--color-white);
-            opacity: 1;
-            width: 8px;
-            height: 8px;
-            margin: 0 6px;
-        }
-    }
-  }
 
-.with-button-nocarousal {
-    & .flickity-page-dots {
-        display: none;
-    }
-}
-
-.without-button-nocarousal {
-    & .flickity-page-dots {
-        display: none;
-    }
-}
-  
-  .gallery-cell {
-    width: 100%;
-    /* height: 200px;
-    margin-right: 10px;
-    background: #8C8;
-    counter-increment: gallery-cell; */
-  }
-  
-  /* cell number */
-  /* .gallery-cell:before {
-    display: block;
-    text-align: center;
-    content: counter(gallery-cell);
-    line-height: 200px;
-    font-size: 80px;
-    color: white;
-  } */
-  
-
-  /*! Flickity v2.1.2
-https://flickity.metafizzy.co
----------------------------------------------- */
-
-.flickity-enabled {
+/* Slider */
+.slider {
+    user-select: none;
+    display: inline-block;
     position: relative;
-  }
-  
-  .flickity-enabled:focus { outline: none; }
-  
-  .flickity-viewport {
+}
+
+.slider_first {
+    width: 460px;
+}
+
+.slider_second {
+    width: 100%;
+}
+
+.slider_viewport {
+    position: relative;
     overflow: hidden;
+    width: 100%;
+}
+
+.slider_list {
+    transition: all 0.5s cubic-bezier(0.77, 0, 0.175, 1);
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.slider_item {
+    flex-shrink: 0;
     position: relative;
-    height: 100%;
-  }
-  
-  .flickity-slider {
-    position: absolute;
+}
+
+.slider_item img {
+    display: block;
     width: 100%;
-    height: 100%;
-  }
-  
-  /* draggable */
-  
-  .flickity-enabled.is-draggable {
-    -webkit-tap-highlight-color: transparent;
-            tap-highlight-color: transparent;
-    -webkit-user-select: none;
-       -moz-user-select: none;
-        -ms-user-select: none;
-            user-select: none;
-  }
-  
-  .flickity-enabled.is-draggable .flickity-viewport {
-    cursor: move;
-    cursor: -webkit-grab;
-    cursor: grab;
-  }
-  
-  .flickity-enabled.is-draggable .flickity-viewport.is-pointer-down {
-    cursor: -webkit-grabbing;
-    cursor: grabbing;
-  }
-  
-  /* ---- flickity-button ---- */
-  
-  .flickity-button {
+    height: auto;
+}
+.slider_item-content{
     position: absolute;
-    background: hsla(0, 0%, 100%, 0.75);
-    border: none;
-    color: #333;
-  }
-  
-  .flickity-button:hover {
-    background: white;
-    cursor: pointer;
-  }
-  
-  .flickity-button:focus {
-    outline: none;
-    box-shadow: 0 0 0 5px #19F;
-  }
-  
-  .flickity-button:active {
-    opacity: 0.6;
-  }
-  
-  .flickity-button:disabled {
-    opacity: 0.3;
-    cursor: auto;
-    /* prevent disabled button from capturing pointer up event. #716 */
-    pointer-events: none;
-  }
-  
-  .flickity-button-icon {
-    fill: #333;
-  }
-  
-  /* ---- previous/next buttons ---- */
-  
-  .flickity-prev-next-button {
-    top: 50%;
-    width: 44px;
-    height: 44px;
-    border-radius: 50%;
-    /* vertically center */
-    transform: translateY(-50%);
-  }
-  
-  .flickity-prev-next-button.previous { left: 10px; }
-  .flickity-prev-next-button.next { right: 10px; }
-  /* right to left */
-  .flickity-rtl .flickity-prev-next-button.previous {
-    left: auto;
-    right: 10px;
-  }
-  .flickity-rtl .flickity-prev-next-button.next {
-    right: auto;
-    left: 10px;
-  }
-  
-  .flickity-prev-next-button .flickity-button-icon {
-    position: absolute;
-    left: 20%;
-    top: 20%;
-    width: 60%;
-    height: 60%;
-  }
-  
-  /* ---- page dots ---- */
-  
-  .flickity-page-dots {
-    position: absolute;
+    left: 0;
+    bottom: 0;
     width: 100%;
-    bottom: -25px;
-    padding: 0;
-    margin: 0;
-    list-style: none;
+    font-size: 40px;
+    font-weight: 700;
+    text-shadow: 2px 2px 1px #333;
+    padding: 20px;
     text-align: center;
-    line-height: 1;
-  }
-  
-  .flickity-rtl .flickity-page-dots { direction: rtl; }
-  
-  .flickity-page-dots .dot {
+    background: rgba(0,0,0,0.5);
+}
+.slider_nav.is-disabled {
+    display: none;
+}
+
+.slider_control-nav {
+    position: absolute;
+    z-index: 999;
+    left: 0;
+    right: 0;
+    bottom: 3px;
+    text-align: center;
+}
+
+.slider_control-nav-item {
+    transition: all 0.5s linear;
     display: inline-block;
     width: 10px;
     height: 10px;
-    margin: 0 8px;
-    background: #333;
     border-radius: 50%;
-    opacity: 0.25;
+    margin: 0 5px;
     cursor: pointer;
-  }
-  
-  .flickity-page-dots .dot.is-selected {
-    opacity: 1;
-  }
+    background: #fff;
+}
+
+.slider_control-nav-item:hover {
+    opacity: 0.3;
+}
+
+.slider_control-nav-item.is-active {
+    opacity: 0.3;
+    cursor: default;
+}
+
+.slider_arrow {
+    position: absolute;
+    top: 50%;
+    margin-top: -25px;
+    width: 26px;
+    height: 49px;
+    z-index: 999;
+    cursor: pointer;
+}
+
+.slider_arrow.is-disabled {
+    cursor: default;
+    opacity: 0.5;
+}
+
+.slider_arrow:hover {
+    opacity: 0.5;
+}
+
+.slider_arrow__right {
+    right: 20px;
+    /* background: url(../images/arrow_right.png) no-repeat 0 0; */
+}
+
+.slider_arrow__left {
+    left: 20px;
+    /* background: url(../images/arrow_left.png) no-repeat 0 0; */
+}
+
+.slider__carousel {
+    overflow: hidden;
+}
+
+.slider__carousel::before, .slider__carousel::after {
+    content: "";
+    width: 150px;
+    position: absolute;
+    top: -5px;
+    bottom: -5px;
+    z-index: 200;
+}
+
+.slider__carousel::before {
+    left: -5px;
+    background: -webkit-linear-gradient(left, #fff 10%, transparent);
+    background: linear-gradient(to right, #fff 10%, transparent);
+}
+
+.slider__carousel::after {
+    right: -5px;
+    background: -webkit-linear-gradient(right, #fff 10%, transparent);
+    background: linear-gradient(to left, #fff 10%, transparent);
+}
+
+.slider__carousel .slider_viewport {
+    overflow: visible;
+    width: 250px;
+    margin: 0 auto;
+}
+
+.slider__carousel .slider_arrow__left {
+    left: 70px;
+}
+
+.slider__carousel .slider_arrow__right {
+    right: 70px;
+}
