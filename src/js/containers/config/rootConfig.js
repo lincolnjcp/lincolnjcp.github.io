@@ -345,12 +345,12 @@ const rootNav = [
             {
                 to: '/home-page-redesign/styleawithbutton',
                 activeClassName: 'active',
-                content: 'Style "A" With Button & Carousal',
+                content: 'Style "A" With Button & With Carousal',
             },
             {
                 to: '/home-page-redesign/styleawithoutbutton',
                 activeClassName: 'active',
-                content: 'Style "A" Without Button & Carousal',
+                content: 'Style "A" Without Button & With Carousal',
             },
             {
                 to: '/home-page-redesign/styleawithbuttonnocarousal',
