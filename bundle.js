@@ -987,6 +987,10 @@ var rootNav = [{
         to: '/home-page-redesign/styleawithoutbuttonnocarousal',
         activeClassName: 'active',
         content: 'Style "A" Without Button & No Carousal'
+    }, {
+        to: '/home-page-redesign/stylebleft',
+        activeClassName: 'active',
+        content: 'Style "B" Left Aligned'
     }]
 }, {
     parentName: 'drawLine'
@@ -12716,6 +12720,208 @@ var components_styleawithoutbuttonnocarousal__temp = function () {
   }
 
   __REACT_HOT_LOADER__.register(components_styleawithoutbuttonnocarousal__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/styleawithoutbuttonnocarousal/index.js');
+}();
+
+;
+// CONCATENATED MODULE: ./src/js/components/stylebleft/stylebleft.js
+var stylebleft__createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+function stylebleft__classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function stylebleft__possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function stylebleft__inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+
+
+
+var stylebleft_styleBLeft = function (_Component) {
+  stylebleft__inherits(styleBLeft, _Component);
+
+  function styleBLeft() {
+    stylebleft__classCallCheck(this, styleBLeft);
+
+    return stylebleft__possibleConstructorReturn(this, (styleBLeft.__proto__ || Object.getPrototypeOf(styleBLeft)).apply(this, arguments));
+  }
+
+  stylebleft__createClass(styleBLeft, [{
+    key: 'componentDidMount',
+    value: function componentDidMount() {
+
+      //Preview top nav without design system wrapper
+      jquery_default()("#HideDesignSystem").unbind('click').on('click', function (event) {
+        jquery_default()(this).toggleClass('active');
+        if (jquery_default()(this).hasClass('active')) {
+          jquery_default()(this).text('Show Design System Wrapper');
+          jquery_default()(".design-system-nav-col").css('display', 'none');
+          jquery_default()(".design-system-content").css('padding', 0);
+          jquery_default()(".design-system-inner-content").css('padding', 0);
+          jquery_default()(".design-system-enable-hide").css('display', 'none');
+          jquery_default()(".design-system-nav-mobile").css('display', 'none');
+          jquery_default()(".design-system-wrap").css('margin', 0);
+        } else {
+          jquery_default()(this).text('Hide Design System Wrapper');
+          jquery_default()(".design-system-nav-col").removeAttr('style');
+          jquery_default()(".design-system-content").removeAttr('style');
+          jquery_default()(".design-system-inner-content").removeAttr('style');
+          jquery_default()(".design-system-enable-hide").removeAttr('style');
+          jquery_default()(".design-system-nav-mobile").removeAttr('style');
+          jquery_default()(".design-system-wrap").removeAttr('style');
+        }
+      });
+
+      jquery_default()(document).ready(function () {
+        jquery_default()('.elevation').click(function () {
+          event.stopPropagation();
+          jquery_default()('.dropdown-list').toggle('50');
+        });
+        jquery_default()(document).click(function () {
+          jquery_default()('.dropdown-list').hide('50');
+        });
+      });
+    }
+  }, {
+    key: 'render',
+    value: function render() {
+      return react_default.a.createElement(
+        'div',
+        null,
+        react_default.a.createElement(
+          'p',
+          { 'class': 'S' },
+          react_default.a.createElement('br', null),
+          react_default.a.createElement(
+            'a',
+            { href: 'javascript:void(0);', id: 'HideDesignSystem' },
+            'Hide Design System Wrapper'
+          )
+        ),
+        react_default.a.createElement(
+          'div',
+          { 'class': 'styleb-left' },
+          react_default.a.createElement(
+            'div',
+            { 'class': 'banner-container' },
+            react_default.a.createElement(
+              'div',
+              { 'class': 'banner-content-wrapper' },
+              react_default.a.createElement(
+                'h1',
+                { 'class': 'banner-title title' },
+                'All For Dad'
+              ),
+              react_default.a.createElement(
+                'p',
+                { 'class': 'banner-content color-nightsky' },
+                'Integer posuere erat a ante venenatis dapibus posuere'
+              ),
+              react_default.a.createElement(
+                'div',
+                { 'class': 'std-txt std-txt-XS mrg-M' },
+                'reg $20-$70 ',
+                react_default.a.createElement(
+                  'a',
+                  { href: 'javascript:void(0);' },
+                  'see details'
+                )
+              ),
+              react_default.a.createElement(
+                'div',
+                { 'class': 'dropdown-container' },
+                react_default.a.createElement(
+                  'a',
+                  { onclick: 'dropdownFunction()', href: 'javascript:void(0)', 'class': 'elevation title title-S mrg-top-S' },
+                  'Shop All'
+                ),
+                react_default.a.createElement(
+                  'div',
+                  { id: 'myDropdown', 'class': 'dropdown-list hide' },
+                  react_default.a.createElement(
+                    'a',
+                    { href: 'javascript:void(0)' },
+                    'PRIMARY CTA'
+                  ),
+                  react_default.a.createElement(
+                    'a',
+                    { href: 'javascript:void(0)' },
+                    'CTA 2'
+                  ),
+                  react_default.a.createElement(
+                    'a',
+                    { href: 'javascript:void(0)' },
+                    'CTA 3'
+                  ),
+                  react_default.a.createElement(
+                    'a',
+                    { href: 'javascript:void(0)' },
+                    'CTA 4'
+                  ),
+                  react_default.a.createElement(
+                    'a',
+                    { href: 'javascript:void(0)' },
+                    'CTA 5'
+                  ),
+                  react_default.a.createElement(
+                    'a',
+                    { href: 'javascript:void(0)' },
+                    'CTA 6'
+                  ),
+                  react_default.a.createElement(
+                    'a',
+                    { href: 'javascript:void(0)' },
+                    'CTA 7'
+                  ),
+                  react_default.a.createElement(
+                    'a',
+                    { href: 'javascript:void(0)' },
+                    'CTA 8'
+                  ),
+                  react_default.a.createElement(
+                    'a',
+                    { href: 'javascript:void(0)' },
+                    'CTA 9'
+                  )
+                )
+              )
+            )
+          )
+        )
+      );
+    }
+  }]);
+
+  return styleBLeft;
+}(react["Component"]);
+
+var stylebleft__default = stylebleft_styleBLeft;
+
+
+/* harmony default export */ var stylebleft = (stylebleft__default);
+;
+
+var stylebleft__temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(stylebleft_styleBLeft, 'styleBLeft', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/stylebleft/stylebleft.js');
+
+  __REACT_HOT_LOADER__.register(stylebleft__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/stylebleft/stylebleft.js');
+}();
+
+;
+// CONCATENATED MODULE: ./src/js/components/stylebleft/index.js
+
+var components_stylebleft__default = stylebleft;
+/* harmony default export */ var components_stylebleft = (components_stylebleft__default);
+;
+
+var components_stylebleft__temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(components_stylebleft__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/stylebleft/index.js');
 }();
 
 ;
@@ -35027,6 +35233,7 @@ function DesignSystemPage__inherits(subClass, superClass) { if (typeof superClas
 
 
 
+
 var DesignSystemPage_DesignSystemPage = function (_Component) {
     DesignSystemPage__inherits(DesignSystemPage, _Component);
 
@@ -35080,6 +35287,7 @@ var DesignSystemPage_DesignSystemPage = function (_Component) {
                 styleAWithoutButton: { componentElement: components_styleawithoutbutton, componentDisplayName: "styleAWithoutButton", componentSubNav: ['styleAWithoutButton'] },
                 styleAWithButtonNocarousal: { componentElement: components_styleawithbuttonnocarousal, componentDisplayName: "styleAWithButtonNocarousal", componentSubNav: ['styleAWithButtonNocarousal'] },
                 styleAWithoutButtonNocarousal: { componentElement: components_styleawithoutbuttonnocarousal, componentDisplayName: "styleAWithoutButtonNocarousal", componentSubNav: ['styleAWithoutButtonNocarousal'] },
+                styleBLeft: { componentElement: components_stylebleft, componentDisplayName: "styleBLeft", componentSubNav: ['styleBLeft'] },
                 Modals: { componentElement: components_modals, componentDisplayName: "Modals", componentSubNav: ['Modals'] },
                 Pdp: { componentElement: components_pdp, componentDisplayName: "Pdp", componentSubNav: ['Pdp'] }
             };
@@ -39558,6 +39766,9 @@ var Root_App = function (_React$Component) {
                                 } }),
                             react_default.a.createElement(es["d" /* Route */], { exact: true, path: '/home-page-redesign/styleawithoutbuttonnocarousal', render: function render() {
                                     return react_default.a.createElement(containers_DesignSystemPage, { componentName: 'styleAWithoutButtonNocarousal' });
+                                } }),
+                            react_default.a.createElement(es["d" /* Route */], { exact: true, path: '/home-page-redesign/stylebleft', render: function render() {
+                                    return react_default.a.createElement(containers_DesignSystemPage, { componentName: 'styleBLeft' });
                                 } })
                         )
                     )

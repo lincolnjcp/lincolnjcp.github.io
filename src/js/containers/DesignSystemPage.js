@@ -20,6 +20,7 @@ import styleAWithButton from '../components/styleawithbutton';
 import styleAWithoutButton from '../components/styleawithoutbutton';
 import styleAWithButtonNocarousal from '../components/styleawithbuttonnocarousal';
 import styleAWithoutButtonNocarousal from '../components/styleawithoutbuttonnocarousal';
+import styleBLeft from '../components/stylebleft';
 import Modals from '../components/modals';
 import Pricing from '../components/pricing';
 import VisualNavigation from '../components/visual-navigation';
@@ -90,6 +91,7 @@ class DesignSystemPage extends Component {
    styleAWithoutButton: {componentElement: styleAWithoutButton, componentDisplayName: "styleAWithoutButton", componentSubNav: ['styleAWithoutButton']},
    styleAWithButtonNocarousal: {componentElement: styleAWithButtonNocarousal, componentDisplayName: "styleAWithButtonNocarousal", componentSubNav: ['styleAWithButtonNocarousal']},
    styleAWithoutButtonNocarousal: {componentElement: styleAWithoutButtonNocarousal, componentDisplayName: "styleAWithoutButtonNocarousal", componentSubNav: ['styleAWithoutButtonNocarousal']},
+   styleBLeft: {componentElement: styleBLeft, componentDisplayName: "styleBLeft", componentSubNav: ['styleBLeft']},
    Modals: {componentElement: Modals, componentDisplayName: "Modals", componentSubNav: ['Modals']},
    Pdp: {componentElement: Pdp, componentDisplayName: "Pdp", componentSubNav: ['Pdp']}
   }

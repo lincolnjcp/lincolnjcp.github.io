@@ -362,6 +362,11 @@ const rootNav = [
                 activeClassName: 'active',
                 content: 'Style "A" Without Button & No Carousal',
             },
+            {
+                to: '/home-page-redesign/stylebleft',
+                activeClassName: 'active',
+                content: 'Style "B" Left Aligned',
+            },
         ]
     },
     {
