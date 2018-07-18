@@ -196,6 +196,9 @@ class App extends React.Component {
                             <Route exact path="/home-page-redesign/styleawithbuttonnocarousal" render={() => <DesignSystemPage componentName="styleAWithButtonNocarousal" />} />
                             <Route exact path="/home-page-redesign/styleawithoutbuttonnocarousal" render={() => <DesignSystemPage componentName="styleAWithoutButtonNocarousal" />} />
                             <Route exact path="/home-page-redesign/stylebleft" render={() => <DesignSystemPage componentName="styleBLeft" />} />
+                            <Route exact path="/home-page-redesign/stylebright" render={() => <DesignSystemPage componentName="styleBRight" />} />
+                            <Route exact path="/home-page-redesign/stylebcentre" render={() => <DesignSystemPage componentName="styleBCentre" />} />
+                            <Route exact path="/home-page-redesign/stylebleftcta" render={() => <DesignSystemPage componentName="styleBLeftCTA" />} />
                         </div>
                     </div>
 

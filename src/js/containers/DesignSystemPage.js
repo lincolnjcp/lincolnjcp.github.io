@@ -21,6 +21,9 @@ import styleAWithoutButton from '../components/styleawithoutbutton';
 import styleAWithButtonNocarousal from '../components/styleawithbuttonnocarousal';
 import styleAWithoutButtonNocarousal from '../components/styleawithoutbuttonnocarousal';
 import styleBLeft from '../components/stylebleft';
+import styleBRight from '../components/stylebright';
+import styleBCentre from '../components/stylebcentre';
+import styleBLeftCTA from '../components/stylebleftcta';
 import Modals from '../components/modals';
 import Pricing from '../components/pricing';
 import VisualNavigation from '../components/visual-navigation';
@@ -92,6 +95,9 @@ class DesignSystemPage extends Component {
    styleAWithButtonNocarousal: {componentElement: styleAWithButtonNocarousal, componentDisplayName: "styleAWithButtonNocarousal", componentSubNav: ['styleAWithButtonNocarousal']},
    styleAWithoutButtonNocarousal: {componentElement: styleAWithoutButtonNocarousal, componentDisplayName: "styleAWithoutButtonNocarousal", componentSubNav: ['styleAWithoutButtonNocarousal']},
    styleBLeft: {componentElement: styleBLeft, componentDisplayName: "styleBLeft", componentSubNav: ['styleBLeft']},
+   styleBRight: {componentElement: styleBRight, componentDisplayName: "styleBRight", componentSubNav: ['styleBRight']},
+   styleBCentre: {componentElement: styleBCentre, componentDisplayName: "styleBCentre", componentSubNav: ['styleBCentre']},
+   styleBLeftCTA: {componentElement: styleBLeftCTA, componentDisplayName: "styleBLeftCTA", componentSubNav: ['styleBLeftCTA']},
    Modals: {componentElement: Modals, componentDisplayName: "Modals", componentSubNav: ['Modals']},
    Pdp: {componentElement: Pdp, componentDisplayName: "Pdp", componentSubNav: ['Pdp']}
   }

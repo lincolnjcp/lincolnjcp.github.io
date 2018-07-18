@@ -990,7 +990,19 @@ var rootNav = [{
     }, {
         to: '/home-page-redesign/stylebleft',
         activeClassName: 'active',
-        content: 'Style "B" Left Aligned'
+        content: 'Style "B" CTA With Dropdown'
+    }, {
+        to: '/home-page-redesign/stylebleftcta',
+        activeClassName: 'active',
+        content: 'Style "B" CTA Without Dropdown'
+    }, {
+        to: '/home-page-redesign/stylebright',
+        activeClassName: 'active',
+        content: 'Style "B" Right Aligned'
+    }, {
+        to: '/home-page-redesign/stylebcentre',
+        activeClassName: 'active',
+        content: 'Style "B" Centre Aligned'
     }]
 }, {
     parentName: 'drawLine'
@@ -12922,6 +12934,465 @@ var components_stylebleft__temp = function () {
   }
 
   __REACT_HOT_LOADER__.register(components_stylebleft__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/stylebleft/index.js');
+}();
+
+;
+// CONCATENATED MODULE: ./src/js/components/stylebright/stylebright.js
+var stylebright__createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+function stylebright__classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function stylebright__possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function stylebright__inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+
+
+
+var stylebright_styleBRight = function (_Component) {
+  stylebright__inherits(styleBRight, _Component);
+
+  function styleBRight() {
+    stylebright__classCallCheck(this, styleBRight);
+
+    return stylebright__possibleConstructorReturn(this, (styleBRight.__proto__ || Object.getPrototypeOf(styleBRight)).apply(this, arguments));
+  }
+
+  stylebright__createClass(styleBRight, [{
+    key: 'componentDidMount',
+    value: function componentDidMount() {
+
+      //Preview top nav without design system wrapper
+      jquery_default()("#HideDesignSystem").unbind('click').on('click', function (event) {
+        jquery_default()(this).toggleClass('active');
+        if (jquery_default()(this).hasClass('active')) {
+          jquery_default()(this).text('Show Design System Wrapper');
+          jquery_default()(".design-system-nav-col").css('display', 'none');
+          jquery_default()(".design-system-content").css('padding', 0);
+          jquery_default()(".design-system-inner-content").css('padding', 0);
+          jquery_default()(".design-system-enable-hide").css('display', 'none');
+          jquery_default()(".design-system-nav-mobile").css('display', 'none');
+          jquery_default()(".design-system-wrap").css('margin', 0);
+        } else {
+          jquery_default()(this).text('Hide Design System Wrapper');
+          jquery_default()(".design-system-nav-col").removeAttr('style');
+          jquery_default()(".design-system-content").removeAttr('style');
+          jquery_default()(".design-system-inner-content").removeAttr('style');
+          jquery_default()(".design-system-enable-hide").removeAttr('style');
+          jquery_default()(".design-system-nav-mobile").removeAttr('style');
+          jquery_default()(".design-system-wrap").removeAttr('style');
+        }
+      });
+
+      // $(document).ready(function () {
+      //   $('.elevation').click(function () {
+      //     event.stopPropagation();
+      //     $('.dropdown-list').toggle('50');
+      //   });
+      //   $(document).click( function(){
+      //     $('.dropdown-list').hide('50');
+      // });
+      // });
+    }
+  }, {
+    key: 'render',
+    value: function render() {
+      return react_default.a.createElement(
+        'div',
+        null,
+        react_default.a.createElement(
+          'p',
+          { 'class': 'S' },
+          react_default.a.createElement('br', null),
+          react_default.a.createElement(
+            'a',
+            { href: 'javascript:void(0);', id: 'HideDesignSystem' },
+            'Hide Design System Wrapper'
+          )
+        ),
+        react_default.a.createElement(
+          'div',
+          { 'class': 'styleb-left' },
+          react_default.a.createElement(
+            'div',
+            { 'class': 'banner-container' },
+            react_default.a.createElement(
+              'div',
+              { 'class': 'banner-content-wrapper banner-content-right' },
+              react_default.a.createElement(
+                'h1',
+                { 'class': 'banner-title title' },
+                'All For Dad'
+              ),
+              react_default.a.createElement(
+                'p',
+                { 'class': 'banner-content color-nightsky' },
+                'Integer posuere erat a ante venenatis dapibus posuere'
+              ),
+              react_default.a.createElement(
+                'div',
+                { 'class': 'std-txt std-txt-XS mrg-M' },
+                'reg $20-$70 ',
+                react_default.a.createElement(
+                  'a',
+                  { href: 'javascript:void(0);' },
+                  'see details'
+                )
+              ),
+              react_default.a.createElement(
+                'div',
+                { 'class': 'dropdown-container' },
+                react_default.a.createElement(
+                  'a',
+                  { href: 'javascript:void(0)', 'class': 'elevation title title-S mrg-top-S' },
+                  'PRIMARY CTA'
+                )
+              )
+            )
+          )
+        )
+      );
+    }
+  }]);
+
+  return styleBRight;
+}(react["Component"]);
+
+var stylebright__default = stylebright_styleBRight;
+
+
+/* harmony default export */ var stylebright = (stylebright__default);
+;
+
+var stylebright__temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(stylebright_styleBRight, 'styleBRight', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/stylebright/stylebright.js');
+
+  __REACT_HOT_LOADER__.register(stylebright__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/stylebright/stylebright.js');
+}();
+
+;
+// CONCATENATED MODULE: ./src/js/components/stylebright/index.js
+
+var components_stylebright__default = stylebright;
+/* harmony default export */ var components_stylebright = (components_stylebright__default);
+;
+
+var components_stylebright__temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(components_stylebright__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/stylebright/index.js');
+}();
+
+;
+// CONCATENATED MODULE: ./src/js/components/stylebcentre/stylebcentre.js
+var stylebcentre__createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+function stylebcentre__classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function stylebcentre__possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function stylebcentre__inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+
+
+
+var stylebcentre_styleBCentre = function (_Component) {
+  stylebcentre__inherits(styleBCentre, _Component);
+
+  function styleBCentre() {
+    stylebcentre__classCallCheck(this, styleBCentre);
+
+    return stylebcentre__possibleConstructorReturn(this, (styleBCentre.__proto__ || Object.getPrototypeOf(styleBCentre)).apply(this, arguments));
+  }
+
+  stylebcentre__createClass(styleBCentre, [{
+    key: 'componentDidMount',
+    value: function componentDidMount() {
+
+      //Preview top nav without design system wrapper
+      jquery_default()("#HideDesignSystem").unbind('click').on('click', function (event) {
+        jquery_default()(this).toggleClass('active');
+        if (jquery_default()(this).hasClass('active')) {
+          jquery_default()(this).text('Show Design System Wrapper');
+          jquery_default()(".design-system-nav-col").css('display', 'none');
+          jquery_default()(".design-system-content").css('padding', 0);
+          jquery_default()(".design-system-inner-content").css('padding', 0);
+          jquery_default()(".design-system-enable-hide").css('display', 'none');
+          jquery_default()(".design-system-nav-mobile").css('display', 'none');
+          jquery_default()(".design-system-wrap").css('margin', 0);
+        } else {
+          jquery_default()(this).text('Hide Design System Wrapper');
+          jquery_default()(".design-system-nav-col").removeAttr('style');
+          jquery_default()(".design-system-content").removeAttr('style');
+          jquery_default()(".design-system-inner-content").removeAttr('style');
+          jquery_default()(".design-system-enable-hide").removeAttr('style');
+          jquery_default()(".design-system-nav-mobile").removeAttr('style');
+          jquery_default()(".design-system-wrap").removeAttr('style');
+        }
+      });
+
+      // $(document).ready(function () {
+      //   $('.elevation').click(function () {
+      //     event.stopPropagation();
+      //     $('.dropdown-list').toggle('50');
+      //   });
+      //   $(document).click( function(){
+      //     $('.dropdown-list').hide('50');
+      // });
+      // });
+    }
+  }, {
+    key: 'render',
+    value: function render() {
+      return react_default.a.createElement(
+        'div',
+        null,
+        react_default.a.createElement(
+          'p',
+          { 'class': 'S' },
+          react_default.a.createElement('br', null),
+          react_default.a.createElement(
+            'a',
+            { href: 'javascript:void(0);', id: 'HideDesignSystem' },
+            'Hide Design System Wrapper'
+          )
+        ),
+        react_default.a.createElement(
+          'div',
+          { 'class': 'styleb-left' },
+          react_default.a.createElement(
+            'div',
+            { 'class': 'banner-container' },
+            react_default.a.createElement(
+              'div',
+              { 'class': 'banner-content-wrapper banner-content-centre' },
+              react_default.a.createElement(
+                'h1',
+                { 'class': 'banner-title title' },
+                'All For Dad'
+              ),
+              react_default.a.createElement(
+                'p',
+                { 'class': 'banner-content color-nightsky' },
+                'Integer posuere erat a ante venenatis dapibus posuere'
+              ),
+              react_default.a.createElement(
+                'div',
+                { 'class': 'std-txt std-txt-XS mrg-M' },
+                'reg $20-$70 ',
+                react_default.a.createElement(
+                  'a',
+                  { href: 'javascript:void(0);' },
+                  'see details'
+                )
+              ),
+              react_default.a.createElement(
+                'div',
+                { 'class': 'dropdown-container' },
+                react_default.a.createElement(
+                  'a',
+                  { href: 'javascript:void(0)', 'class': 'elevation title title-S mrg-top-S' },
+                  'PRIMARY CTA'
+                )
+              )
+            )
+          )
+        )
+      );
+    }
+  }]);
+
+  return styleBCentre;
+}(react["Component"]);
+
+var stylebcentre__default = stylebcentre_styleBCentre;
+
+
+/* harmony default export */ var stylebcentre = (stylebcentre__default);
+;
+
+var stylebcentre__temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(stylebcentre_styleBCentre, 'styleBCentre', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/stylebcentre/stylebcentre.js');
+
+  __REACT_HOT_LOADER__.register(stylebcentre__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/stylebcentre/stylebcentre.js');
+}();
+
+;
+// CONCATENATED MODULE: ./src/js/components/stylebcentre/index.js
+
+var components_stylebcentre__default = stylebcentre;
+/* harmony default export */ var components_stylebcentre = (components_stylebcentre__default);
+;
+
+var components_stylebcentre__temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(components_stylebcentre__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/stylebcentre/index.js');
+}();
+
+;
+// CONCATENATED MODULE: ./src/js/components/stylebleftcta/stylebleftcta.js
+var stylebleftcta__createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+function stylebleftcta__classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function stylebleftcta__possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function stylebleftcta__inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+
+
+
+var stylebleftcta_styleBLeftCTA = function (_Component) {
+  stylebleftcta__inherits(styleBLeftCTA, _Component);
+
+  function styleBLeftCTA() {
+    stylebleftcta__classCallCheck(this, styleBLeftCTA);
+
+    return stylebleftcta__possibleConstructorReturn(this, (styleBLeftCTA.__proto__ || Object.getPrototypeOf(styleBLeftCTA)).apply(this, arguments));
+  }
+
+  stylebleftcta__createClass(styleBLeftCTA, [{
+    key: 'componentDidMount',
+    value: function componentDidMount() {
+
+      //Preview top nav without design system wrapper
+      jquery_default()("#HideDesignSystem").unbind('click').on('click', function (event) {
+        jquery_default()(this).toggleClass('active');
+        if (jquery_default()(this).hasClass('active')) {
+          jquery_default()(this).text('Show Design System Wrapper');
+          jquery_default()(".design-system-nav-col").css('display', 'none');
+          jquery_default()(".design-system-content").css('padding', 0);
+          jquery_default()(".design-system-inner-content").css('padding', 0);
+          jquery_default()(".design-system-enable-hide").css('display', 'none');
+          jquery_default()(".design-system-nav-mobile").css('display', 'none');
+          jquery_default()(".design-system-wrap").css('margin', 0);
+        } else {
+          jquery_default()(this).text('Hide Design System Wrapper');
+          jquery_default()(".design-system-nav-col").removeAttr('style');
+          jquery_default()(".design-system-content").removeAttr('style');
+          jquery_default()(".design-system-inner-content").removeAttr('style');
+          jquery_default()(".design-system-enable-hide").removeAttr('style');
+          jquery_default()(".design-system-nav-mobile").removeAttr('style');
+          jquery_default()(".design-system-wrap").removeAttr('style');
+        }
+      });
+
+      // $(document).ready(function () {
+      //   $('.elevation').click(function () {
+      //     event.stopPropagation();
+      //     $('.dropdown-list').toggle('50');
+      //   });
+      //   $(document).click( function(){
+      //     $('.dropdown-list').hide('50');
+      // });
+      // });
+    }
+  }, {
+    key: 'render',
+    value: function render() {
+      return react_default.a.createElement(
+        'div',
+        null,
+        react_default.a.createElement(
+          'p',
+          { 'class': 'S' },
+          react_default.a.createElement('br', null),
+          react_default.a.createElement(
+            'a',
+            { href: 'javascript:void(0);', id: 'HideDesignSystem' },
+            'Hide Design System Wrapper'
+          )
+        ),
+        react_default.a.createElement(
+          'div',
+          { 'class': 'styleb-left' },
+          react_default.a.createElement(
+            'div',
+            { 'class': 'banner-container' },
+            react_default.a.createElement(
+              'div',
+              { 'class': 'banner-content-wrapper' },
+              react_default.a.createElement(
+                'h1',
+                { 'class': 'banner-title title' },
+                'All For Dad'
+              ),
+              react_default.a.createElement(
+                'p',
+                { 'class': 'banner-content color-nightsky' },
+                'Integer posuere erat a ante venenatis dapibus posuere'
+              ),
+              react_default.a.createElement(
+                'div',
+                { 'class': 'std-txt std-txt-XS mrg-M' },
+                'reg $20-$70 ',
+                react_default.a.createElement(
+                  'a',
+                  { href: 'javascript:void(0);' },
+                  'see details'
+                )
+              ),
+              react_default.a.createElement(
+                'div',
+                { 'class': 'dropdown-container' },
+                react_default.a.createElement(
+                  'a',
+                  { href: 'javascript:void(0)', 'class': 'elevation title title-S mrg-top-S' },
+                  'PRIMARY CTA'
+                )
+              )
+            )
+          )
+        )
+      );
+    }
+  }]);
+
+  return styleBLeftCTA;
+}(react["Component"]);
+
+var stylebleftcta__default = stylebleftcta_styleBLeftCTA;
+
+
+/* harmony default export */ var stylebleftcta = (stylebleftcta__default);
+;
+
+var stylebleftcta__temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(stylebleftcta_styleBLeftCTA, 'styleBLeftCTA', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/stylebleftcta/stylebleftcta.js');
+
+  __REACT_HOT_LOADER__.register(stylebleftcta__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/stylebleftcta/stylebleftcta.js');
+}();
+
+;
+// CONCATENATED MODULE: ./src/js/components/stylebleftcta/index.js
+
+var components_stylebleftcta__default = stylebleftcta;
+/* harmony default export */ var components_stylebleftcta = (components_stylebleftcta__default);
+;
+
+var components_stylebleftcta__temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(components_stylebleftcta__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/stylebleftcta/index.js');
 }();
 
 ;
@@ -35234,6 +35705,9 @@ function DesignSystemPage__inherits(subClass, superClass) { if (typeof superClas
 
 
 
+
+
+
 var DesignSystemPage_DesignSystemPage = function (_Component) {
     DesignSystemPage__inherits(DesignSystemPage, _Component);
 
@@ -35288,6 +35762,9 @@ var DesignSystemPage_DesignSystemPage = function (_Component) {
                 styleAWithButtonNocarousal: { componentElement: components_styleawithbuttonnocarousal, componentDisplayName: "styleAWithButtonNocarousal", componentSubNav: ['styleAWithButtonNocarousal'] },
                 styleAWithoutButtonNocarousal: { componentElement: components_styleawithoutbuttonnocarousal, componentDisplayName: "styleAWithoutButtonNocarousal", componentSubNav: ['styleAWithoutButtonNocarousal'] },
                 styleBLeft: { componentElement: components_stylebleft, componentDisplayName: "styleBLeft", componentSubNav: ['styleBLeft'] },
+                styleBRight: { componentElement: components_stylebright, componentDisplayName: "styleBRight", componentSubNav: ['styleBRight'] },
+                styleBCentre: { componentElement: components_stylebcentre, componentDisplayName: "styleBCentre", componentSubNav: ['styleBCentre'] },
+                styleBLeftCTA: { componentElement: components_stylebleftcta, componentDisplayName: "styleBLeftCTA", componentSubNav: ['styleBLeftCTA'] },
                 Modals: { componentElement: components_modals, componentDisplayName: "Modals", componentSubNav: ['Modals'] },
                 Pdp: { componentElement: components_pdp, componentDisplayName: "Pdp", componentSubNav: ['Pdp'] }
             };
@@ -39769,6 +40246,15 @@ var Root_App = function (_React$Component) {
                                 } }),
                             react_default.a.createElement(es["d" /* Route */], { exact: true, path: '/home-page-redesign/stylebleft', render: function render() {
                                     return react_default.a.createElement(containers_DesignSystemPage, { componentName: 'styleBLeft' });
+                                } }),
+                            react_default.a.createElement(es["d" /* Route */], { exact: true, path: '/home-page-redesign/stylebright', render: function render() {
+                                    return react_default.a.createElement(containers_DesignSystemPage, { componentName: 'styleBRight' });
+                                } }),
+                            react_default.a.createElement(es["d" /* Route */], { exact: true, path: '/home-page-redesign/stylebcentre', render: function render() {
+                                    return react_default.a.createElement(containers_DesignSystemPage, { componentName: 'styleBCentre' });
+                                } }),
+                            react_default.a.createElement(es["d" /* Route */], { exact: true, path: '/home-page-redesign/stylebleftcta', render: function render() {
+                                    return react_default.a.createElement(containers_DesignSystemPage, { componentName: 'styleBLeftCTA' });
                                 } })
                         )
                     )

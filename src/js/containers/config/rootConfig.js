@@ -365,7 +365,22 @@ const rootNav = [
             {
                 to: '/home-page-redesign/stylebleft',
                 activeClassName: 'active',
-                content: 'Style "B" Left Aligned',
+                content: 'Style "B" CTA With Dropdown',
+            },
+            {
+                to: '/home-page-redesign/stylebleftcta',
+                activeClassName: 'active',
+                content: 'Style "B" CTA Without Dropdown',
+            },
+            {
+                to: '/home-page-redesign/stylebright',
+                activeClassName: 'active',
+                content: 'Style "B" Right Aligned',
+            },
+            {
+                to: '/home-page-redesign/stylebcentre',
+                activeClassName: 'active',
+                content: 'Style "B" Centre Aligned',
             },
         ]
     },
