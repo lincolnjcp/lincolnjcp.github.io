@@ -21,8 +21,8 @@
         }
     }
 
-    & .proo-description {
-        padding: 8px 0;
+    & .promo-description {
+        padding: 8px 0 0;
         @media (--viewport-sm-down) {
             padding: 8px 16px;
         }
@@ -47,11 +47,33 @@
 
     & .promo-button-container {
         padding-bottom: 4px;
+        padding-top: 8px;
         & .button-promo {
             width: 140px;
             height: 36px;
             line-height: 36px;
             margin: 4px;
+        }
+    }
+}
+.no-carousal {
+    & h1 {
+        font-size: 32px;
+        line-height: 36px;
+        @media (--viewport-md-down) {
+            font-size: 20px;
+            line-height: 24px;
+        }
+    }
+    & .promo-button-container{
+        padding-bottom: 0;
+    }
+}
+
+.with-button.no-carousal {
+    & .promo-button-container {
+        & .button-promo {
+            margin-bottom: 0;
         }
     }
 }

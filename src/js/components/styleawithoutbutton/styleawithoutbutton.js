@@ -651,7 +651,7 @@ class styleAWithoutButton extends Component {
 
 				{/* <div class="dynamic-banner color-white text-center">
 					<h1 class="color-white">40% Off Orders $40+</h1>
-					<div class="proo-description">
+					<div class="promo-description mrg-S">
 						<span>with code</span>
 						<span class="promo-code">SAVE27 </span>
 						<span class="promo-end">Online & Instore. Ends 07/24. </span>
@@ -674,7 +674,7 @@ class styleAWithoutButton extends Component {
 					<div id="slides">
 						<div class="dynamic-banner color-white text-center">
 							<h1 class="color-white">40% Off Orders $40+</h1>
-							<div class="proo-description">
+							<div class="promo-description mrg-S">
 								<span>with code</span>
 								<span class="promo-code">SAVE27 </span>
 								<span class="promo-end">Online & Instore. Ends 07/24. </span>
@@ -683,7 +683,7 @@ class styleAWithoutButton extends Component {
 						</div>
 						<div class="dynamic-banner color-white text-center">
 							<h1 class="color-white">50% Off Orders $40+</h1>
-							<div class="proo-description">
+							<div class="promo-description mrg-S">
 								<span>with code</span>
 								<span class="promo-code">SAVE27 </span>
 								<span class="promo-end">Online & Instore. Ends 07/24. </span>
@@ -692,7 +692,7 @@ class styleAWithoutButton extends Component {
 						</div>
 						<div class="dynamic-banner color-white text-center">
 							<h1 class="color-white">60% Off Orders $40+</h1>
-							<div class="proo-description">
+							<div class="promo-description mrg-S">
 								<span>with code</span>
 								<span class="promo-code">SAVE27 </span>
 								<span class="promo-end">Online & Instore. Ends 07/24. </span>
@@ -701,7 +701,7 @@ class styleAWithoutButton extends Component {
 						</div>
 						<div class="dynamic-banner color-white text-center">
 							<h1 class="color-white">70% Off Orders $40+</h1>
-							<div class="proo-description">
+							<div class="promo-description mrg-S">
 								<span>with code</span>
 								<span class="promo-code">SAVE27 </span>
 								<span class="promo-end">Online & Instore. Ends 07/24. </span>

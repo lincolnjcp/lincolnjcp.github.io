@@ -40,9 +40,9 @@ class styleAWithButtonNocarousal extends Component {
 				</p>
 
 
-				<div class="dynamic-banner color-white text-center">
-					<h1 class="promo-lbl promo-lbl-XL color-white">40% Off Orders $40+</h1>
-					<div class="proo-description">
+				<div class="dynamic-banner no-carousal color-white text-center">
+					<h1 class="color-white">40% Off Orders $40+</h1>
+					<div class="promo-description">
 						<span>with code</span>
 						<span class="promo-code">SAVE27 </span>
 						<span class="promo-end">Online & Instore. Ends 07/24. </span>

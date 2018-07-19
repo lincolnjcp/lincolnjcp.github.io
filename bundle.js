@@ -11156,7 +11156,7 @@ var styleawithbutton_styleAWithButton = function (_Component) {
 							),
 							react_default.a.createElement(
 								'div',
-								{ 'class': 'proo-description' },
+								{ 'class': 'promo-description' },
 								react_default.a.createElement(
 									'span',
 									null,
@@ -11237,7 +11237,7 @@ var styleawithbutton_styleAWithButton = function (_Component) {
 							),
 							react_default.a.createElement(
 								'div',
-								{ 'class': 'proo-description' },
+								{ 'class': 'promo-description' },
 								react_default.a.createElement(
 									'span',
 									null,
@@ -11318,7 +11318,7 @@ var styleawithbutton_styleAWithButton = function (_Component) {
 							),
 							react_default.a.createElement(
 								'div',
-								{ 'class': 'proo-description' },
+								{ 'class': 'promo-description' },
 								react_default.a.createElement(
 									'span',
 									null,
@@ -11399,7 +11399,7 @@ var styleawithbutton_styleAWithButton = function (_Component) {
 							),
 							react_default.a.createElement(
 								'div',
-								{ 'class': 'proo-description' },
+								{ 'class': 'promo-description' },
 								react_default.a.createElement(
 									'span',
 									null,
@@ -12224,7 +12224,7 @@ var styleawithoutbutton_styleAWithoutButton = function (_Component) {
 							),
 							react_default.a.createElement(
 								'div',
-								{ 'class': 'proo-description' },
+								{ 'class': 'promo-description mrg-S' },
 								react_default.a.createElement(
 									'span',
 									null,
@@ -12261,7 +12261,7 @@ var styleawithoutbutton_styleAWithoutButton = function (_Component) {
 							),
 							react_default.a.createElement(
 								'div',
-								{ 'class': 'proo-description' },
+								{ 'class': 'promo-description mrg-S' },
 								react_default.a.createElement(
 									'span',
 									null,
@@ -12298,7 +12298,7 @@ var styleawithoutbutton_styleAWithoutButton = function (_Component) {
 							),
 							react_default.a.createElement(
 								'div',
-								{ 'class': 'proo-description' },
+								{ 'class': 'promo-description mrg-S' },
 								react_default.a.createElement(
 									'span',
 									null,
@@ -12335,7 +12335,7 @@ var styleawithoutbutton_styleAWithoutButton = function (_Component) {
 							),
 							react_default.a.createElement(
 								'div',
-								{ 'class': 'proo-description' },
+								{ 'class': 'promo-description mrg-S' },
 								react_default.a.createElement(
 									'span',
 									null,
@@ -12473,15 +12473,15 @@ var styleawithbuttonnocarousal_styleAWithButtonNocarousal = function (_Component
 				),
 				react_default.a.createElement(
 					'div',
-					{ 'class': 'dynamic-banner color-white text-center' },
+					{ 'class': 'dynamic-banner color-white text-center no-carousal with-button' },
 					react_default.a.createElement(
 						'h1',
-						{ 'class': 'promo-lbl promo-lbl-XL color-white' },
+						{ 'class': 'promo-lbl color-white' },
 						'40% Off Orders $40+'
 					),
 					react_default.a.createElement(
 						'div',
-						{ 'class': 'proo-description' },
+						{ 'class': 'promo-description' },
 						react_default.a.createElement(
 							'span',
 							null,
@@ -12661,15 +12661,15 @@ var styleawithoutbuttonnocarousal_styleAWithButtonNocarousal = function (_Compon
 				),
 				react_default.a.createElement(
 					'div',
-					{ 'class': 'dynamic-banner color-white text-center' },
+					{ 'class': 'dynamic-banner no-carousal color-white text-center' },
 					react_default.a.createElement(
 						'h1',
-						{ 'class': 'promo-lbl promo-lbl-XL color-white' },
+						{ 'class': 'color-white' },
 						'40% Off Orders $40+'
 					),
 					react_default.a.createElement(
 						'div',
-						{ 'class': 'proo-description' },
+						{ 'class': 'promo-description' },
 						react_default.a.createElement(
 							'span',
 							null,
@@ -12746,6 +12746,7 @@ function stylebleft__inherits(subClass, superClass) { if (typeof superClass !== 
 
 
 
+var stylebleft_plusImage = __webpack_require__("Vx6E");
 
 var stylebleft_styleBLeft = function (_Component) {
   stylebleft__inherits(styleBLeft, _Component);
@@ -12786,9 +12787,15 @@ var stylebleft_styleBLeft = function (_Component) {
         jquery_default()('.elevation').click(function () {
           event.stopPropagation();
           jquery_default()('.dropdown-list').toggle('50');
+          jquery_default()('.plus-icon').toggle();
+          jquery_default()('.minus-icon').toggle();
         });
         jquery_default()(document).click(function () {
           jquery_default()('.dropdown-list').hide('50');
+          if (jquery_default()('.minus-icon').is(':visible')) {
+            jquery_default()('.plus-icon').toggle();
+            jquery_default()('.minus-icon').toggle();
+          }
         });
       });
     }
@@ -12843,7 +12850,9 @@ var stylebleft_styleBLeft = function (_Component) {
                 react_default.a.createElement(
                   'a',
                   { onclick: 'dropdownFunction()', href: 'javascript:void(0)', 'class': 'elevation title title-S mrg-top-S' },
-                  'Shop All'
+                  'Shop All',
+                  react_default.a.createElement('span', { 'class': 'icon plus-icon', dangerouslySetInnerHTML: { __html: stylebleft_plusImage } }),
+                  react_default.a.createElement('span', { 'class': 'minus-icon hide' })
                 ),
                 react_default.a.createElement(
                   'div',

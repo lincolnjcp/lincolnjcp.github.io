@@ -17,25 +17,27 @@
         }
         & .banner-content-wrapper {
             width: 448px;
-            height: 256px;
+            /* height: 256px; */
             background-color: rgba(255, 255, 255, 0.8);
             border: solid 10px #5580ae;
             position: relative;
             top: 74px;
             left: 24px;
-            padding: 36px 32px;
+            padding: 36px 32px 26px;
             @media (--viewport-md-down) {
                 margin: 0 auto;
                 text-align: center;
-                top: 332px;
+                top: 326px;
                 padding-top: 16px;
+                border: 6px solid #5580ae;
+                padding: 26px 32px;
             }
             @media (--viewport-sm-down) {
-                width: 100%;
+                width: 96%;
                 left: 0;
                 padding: 12px 0 0;
                 border: 0;
-                top: 280px;
+                top: 278px;
                 border-top: 4px solid #5580ae;
             }
             & h1.banner-title {
@@ -62,7 +64,9 @@
             & .dropdown-container {
                 position: relative;
                 width: 200px;
-                margin: 0 auto;
+                @media (--viewport-md-down) {
+                    margin: 0 auto;
+                }
                 @media (--viewport-sm-down) {
                     width: 100%;
                 }
@@ -76,15 +80,37 @@
                     line-height: 36px;
                     text-decoration: none;
                     background: var(--color-white);
-                    @media (--viewport-md-down) {
+                    transition: all .25s linear;
+                    @media(--viewport-md-down) {
                         margin: 0 auto;
                     }
                     @media (--viewport-sm-down) {
                         box-shadow: none;
-                        border-top: 1px solid #d8d8d8;
-                        border-bottom: 1px solid #d8d8d8;
+                        border-top: 1px solid var(--color-concrete);
+                        border-bottom: 1px solid var(--color-concrete);
                         border-radius: 0;
                         width: 100%;
+                    }
+                    &:hover {
+                        background: var(--color-lightgrey);
+                        border-radius: 40px;
+                    }
+                    & .icon {
+                        position: absolute;
+                        right: 0;
+                        top: 3px;
+                        & svg {
+                            width: 16px;
+                            height: 16px;
+                        }
+                    }
+                    & .minus-icon {
+                        position: absolute;
+                        width: 16px;
+                        border-top: 2px solid #111;
+                        height: 2px;
+                        right: 13px;
+                        top: 17px;
                     }
                 }
                 & .dropdown-list {
@@ -97,7 +123,7 @@
                     width: 200px;
                     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.25);
                     background: #fafafa;
-                    border: solid 1px #d8d8d8;
+                    border: solid 1px var(--color-concrete);
                     border-bottom-left-radius: 8px;
                     border-bottom-right-radius: 8px;
                     @media (--viewport-md-down) {
@@ -110,7 +136,7 @@
                         box-shadow: none;
                         border: none;
                         & a {
-                            border-top: 1px solid #d8d8d8;
+                            border-top: 1px solid var(--color-concrete);
                         }
                     }
                     & a {
@@ -120,6 +146,10 @@
                         font-family: var(--font-headline);
                         font-size: 14px;
                         text-align: center;
+                        transition: all .25s linear;
+                        &:hover {
+                            background: var(--color-lightgrey);
+                        }
                     }
                 }
             }
