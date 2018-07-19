@@ -94,6 +94,9 @@
                     &:hover {
                         background: var(--color-lightgrey);
                         border-radius: 40px;
+                        @media (--viewport-sm-down) {
+                            border-radius: 0;
+                        }
                     }
                     & .icon {
                         position: absolute;
