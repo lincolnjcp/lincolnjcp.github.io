@@ -202,6 +202,7 @@ class App extends React.Component {
                             <Route exact path="/home-page-redesign/stylecsinglecta" render={() => <DesignSystemPage componentName="styleCSingleCTA" />} />
                             <Route exact path="/home-page-redesign/stylecmultiplecta" render={() => <DesignSystemPage componentName="styleCMultipleCTA" />} />
                             <Route exact path="/home-page-redesign/styledmultiplecta" render={() => <DesignSystemPage componentName="styleDMultipleCTA" />} />
+                            <Route exact path="/home-page-redesign/styledsinglecta" render={() => <DesignSystemPage componentName="styleDSingleCTA" />} />
                         </div>
                     </div>
 

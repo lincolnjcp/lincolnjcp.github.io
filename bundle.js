@@ -1011,13 +1011,11 @@ var rootNav = [{
         to: '/home-page-redesign/stylecmultiplecta',
         activeClassName: 'active',
         content: 'Style "C" Multiple CTA'
-    },
-    // {
-    //     to: '/home-page-redesign/styledsinglecta',
-    //     activeClassName: 'active',
-    //     content: 'Style "D" Single CTA',
-    // },
-    {
+    }, {
+        to: '/home-page-redesign/styledsinglecta',
+        activeClassName: 'active',
+        content: 'Style "D" Single CTA'
+    }, {
         to: '/home-page-redesign/styledmultiplecta',
         activeClassName: 'active',
         content: 'Style "D" Multiple CTA'
@@ -13824,7 +13822,11 @@ var styledmultiplecta_styleDMultipleCTA = function (_Component) {
             react_default.a.createElement(
               'a',
               { 'class': 'banner-image', href: '#' },
-              react_default.a.createElement('img', { src: '../../images/design-system/styled-01.png' })
+              react_default.a.createElement(
+                'div',
+                { 'class': 'img-mask' },
+                react_default.a.createElement('img', { src: '../../images/design-system/styled-01.png' })
+              )
             ),
             react_default.a.createElement(
               'div',
@@ -13919,6 +13921,154 @@ var components_styledmultiplecta__temp = function () {
   }
 
   __REACT_HOT_LOADER__.register(components_styledmultiplecta__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/styledmultiplecta/index.js');
+}();
+
+;
+// CONCATENATED MODULE: ./src/js/components/styledsinglecta/styledsinglecta.js
+var styledsinglecta__createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+function styledsinglecta__classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function styledsinglecta__possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function styledsinglecta__inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+
+
+// const plusImage = require('!!raw-loader?es5=1!../../../images/global/icons/nav/plus.svg');
+
+var styledsinglecta_styleDSingleCTA = function (_Component) {
+  styledsinglecta__inherits(styleDSingleCTA, _Component);
+
+  function styleDSingleCTA() {
+    styledsinglecta__classCallCheck(this, styleDSingleCTA);
+
+    return styledsinglecta__possibleConstructorReturn(this, (styleDSingleCTA.__proto__ || Object.getPrototypeOf(styleDSingleCTA)).apply(this, arguments));
+  }
+
+  styledsinglecta__createClass(styleDSingleCTA, [{
+    key: 'componentDidMount',
+    value: function componentDidMount() {
+
+      //Preview top nav without design system wrapper
+      jquery_default()("#HideDesignSystem").unbind('click').on('click', function (event) {
+        jquery_default()(this).toggleClass('active');
+        if (jquery_default()(this).hasClass('active')) {
+          jquery_default()(this).text('Show Design System Wrapper');
+          jquery_default()(".design-system-nav-col").css('display', 'none');
+          jquery_default()(".design-system-content").css('padding', 0);
+          jquery_default()(".design-system-inner-content").css('padding', 0);
+          jquery_default()(".design-system-enable-hide").css('display', 'none');
+          jquery_default()(".design-system-nav-mobile").css('display', 'none');
+          jquery_default()(".design-system-wrap").css('margin', 0);
+        } else {
+          jquery_default()(this).text('Hide Design System Wrapper');
+          jquery_default()(".design-system-nav-col").removeAttr('style');
+          jquery_default()(".design-system-content").removeAttr('style');
+          jquery_default()(".design-system-inner-content").removeAttr('style');
+          jquery_default()(".design-system-enable-hide").removeAttr('style');
+          jquery_default()(".design-system-nav-mobile").removeAttr('style');
+          jquery_default()(".design-system-wrap").removeAttr('style');
+        }
+      });
+    }
+  }, {
+    key: 'render',
+    value: function render() {
+      return react_default.a.createElement(
+        'div',
+        null,
+        react_default.a.createElement(
+          'p',
+          { 'class': 'S' },
+          react_default.a.createElement('br', null),
+          react_default.a.createElement(
+            'a',
+            { href: 'javascript:void(0);', id: 'HideDesignSystem' },
+            'Hide Design System Wrapper'
+          )
+        ),
+        react_default.a.createElement(
+          'div',
+          { 'class': 'styled single-cta' },
+          react_default.a.createElement(
+            'div',
+            { 'class': 'banner-container' },
+            react_default.a.createElement(
+              'a',
+              { 'class': 'banner-image', href: '#' },
+              react_default.a.createElement(
+                'div',
+                { 'class': 'img-mask' },
+                react_default.a.createElement('img', { src: '../../images/design-system/styled-01.png' })
+              )
+            ),
+            react_default.a.createElement(
+              'div',
+              { 'class': 'promo-content' },
+              react_default.a.createElement(
+                'h3',
+                { 'class': 'promo-title offer-1-heading' },
+                '$40 Off $40+'
+              ),
+              react_default.a.createElement(
+                'p',
+                { 'class': 'promo-details' },
+                'select styles ',
+                react_default.a.createElement(
+                  'a',
+                  { href: '#' },
+                  'see details'
+                )
+              ),
+              react_default.a.createElement(
+                'div',
+                { 'class': 'promo-links' },
+                react_default.a.createElement(
+                  'a',
+                  { href: 'javascript:void();', role: 'button', 'class': 'btn btn-secondary btn-S' },
+                  'Shop All'
+                )
+              )
+            )
+          )
+        )
+      );
+    }
+  }]);
+
+  return styleDSingleCTA;
+}(react["Component"]);
+
+var styledsinglecta__default = styledsinglecta_styleDSingleCTA;
+
+
+/* harmony default export */ var styledsinglecta = (styledsinglecta__default);
+;
+
+var styledsinglecta__temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(styledsinglecta_styleDSingleCTA, 'styleDSingleCTA', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/styledsinglecta/styledsinglecta.js');
+
+  __REACT_HOT_LOADER__.register(styledsinglecta__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/styledsinglecta/styledsinglecta.js');
+}();
+
+;
+// CONCATENATED MODULE: ./src/js/components/styledsinglecta/index.js
+
+var components_styledsinglecta__default = styledsinglecta;
+/* harmony default export */ var components_styledsinglecta = (components_styledsinglecta__default);
+;
+
+var components_styledsinglecta__temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(components_styledsinglecta__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/styledsinglecta/index.js');
 }();
 
 ;
@@ -36237,6 +36387,7 @@ function DesignSystemPage__inherits(subClass, superClass) { if (typeof superClas
 
 
 
+
 var DesignSystemPage_DesignSystemPage = function (_Component) {
     DesignSystemPage__inherits(DesignSystemPage, _Component);
 
@@ -36297,6 +36448,7 @@ var DesignSystemPage_DesignSystemPage = function (_Component) {
                 styleCSingleCTA: { componentElement: components_stylecsinglecta, componentDisplayName: "styleCSingleCTA", componentSubNav: ['styleCSingleCTA'] },
                 styleCMultipleCTA: { componentElement: components_stylecmultiplecta, componentDisplayName: "styleCMultipleCTA", componentSubNav: ['styleCMultipleCTA'] },
                 styleDMultipleCTA: { componentElement: components_styledmultiplecta, componentDisplayName: "styleDMultipleCTA", componentSubNav: ['styleDMultipleCTA'] },
+                styleDSingleCTA: { componentElement: components_styledsinglecta, componentDisplayName: "styleDSingleCTA", componentSubNav: ['styleDSingleCTA'] },
 
                 Modals: { componentElement: components_modals, componentDisplayName: "Modals", componentSubNav: ['Modals'] },
                 Pdp: { componentElement: components_pdp, componentDisplayName: "Pdp", componentSubNav: ['Pdp'] }
@@ -40797,6 +40949,9 @@ var Root_App = function (_React$Component) {
                                 } }),
                             react_default.a.createElement(es["d" /* Route */], { exact: true, path: '/home-page-redesign/styledmultiplecta', render: function render() {
                                     return react_default.a.createElement(containers_DesignSystemPage, { componentName: 'styleDMultipleCTA' });
+                                } }),
+                            react_default.a.createElement(es["d" /* Route */], { exact: true, path: '/home-page-redesign/styledsinglecta', render: function render() {
+                                    return react_default.a.createElement(containers_DesignSystemPage, { componentName: 'styleDSingleCTA' });
                                 } })
                         )
                     )

@@ -6,12 +6,23 @@
     & .banner-container {
         margin: 0 32px;
         max-width: 368px;
-
+        @media (--viewport-sm-down) {
+            margin: 0 16px;
+        }
         & .banner-image {
             width: 100%;
             height: 368px;
             display: block;
             position: relative;
+            @media (--viewport-sm-down) {
+                height: auto;
+            }
+            & img {
+                transition:all .25s;
+            }
+            & .img-mask{
+                overflow:hidden;
+            }
         }
         & .banner-image:after {
             content: "";
@@ -23,10 +34,21 @@
             bottom: -4px;
             background-color: #41C2CC;
             transition: all .25s;
+            @media (--viewport-sm-down) {
+                width: 96%;
+                left: 0;
+                position: static;
+                margin: 0 auto;
+                bottom: 6px;
+                height: 4px;
+            }
         }
         & .promo-content {
             padding: 16px 0;
             text-align: center;
+            @media (--viewport-sm-down) {
+                text-align: left;
+            }
             & .promo-title {
                 font: 32px var(--font-headline);
                 font-weight: bold;
@@ -48,15 +70,35 @@
                 & .btn {
                     margin: 8px;
                     width: 152px;
+                    &:nth-child(odd) {
+                        @media (--viewport-sm-down) {
+                            margin-left: 0;
+                        }
+                    }
                 }
             }
         }
+        &:hover .banner-image img {
+            transform: scale(1.2);
+        }
+        &:hover .banner-image:after {
+            transform: scale(1.2);
+            width: 307px;
+            left: 31px;
+        }
     }
-    .banner-container:hover .banner-image img{
-        transform:scale(1.2);
-      }
-      
-      .container:hover .banner-image:after{
-        transform:scale(1.2);
-      }
+}
+.single-cta {
+    & .banner-container {
+        & .promo-content {
+            & .promo-links {
+                & .btn {
+                    width: 100%;
+                }
+            }
+            & .promo-details {
+                padding-top: 12px;
+            }
+        }
+    }
 }

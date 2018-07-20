@@ -392,11 +392,11 @@ const rootNav = [
                 activeClassName: 'active',
                 content: 'Style "C" Multiple CTA',
             },
-            // {
-            //     to: '/home-page-redesign/styledsinglecta',
-            //     activeClassName: 'active',
-            //     content: 'Style "D" Single CTA',
-            // },
+            {
+                to: '/home-page-redesign/styledsinglecta',
+                activeClassName: 'active',
+                content: 'Style "D" Single CTA',
+            },
             {
                 to: '/home-page-redesign/styledmultiplecta',
                 activeClassName: 'active',

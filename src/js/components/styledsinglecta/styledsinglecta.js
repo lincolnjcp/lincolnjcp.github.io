@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import $ from 'jquery';
 // const plusImage = require('!!raw-loader?es5=1!../../../images/global/icons/nav/plus.svg');
 
-class styleDMultipleCTA extends Component {
+class styleDSingleCTA extends Component {
 
   componentDidMount() {
 
@@ -42,7 +42,7 @@ class styleDMultipleCTA extends Component {
         </p>
 
 
-        <div class="styled">
+        <div class="styled single-cta">
           <div class="banner-container">
             <a class="banner-image" href="#">
               <div class="img-mask">
@@ -51,12 +51,8 @@ class styleDMultipleCTA extends Component {
             </a>
             <div class="promo-content">
               <h3 class="promo-title offer-1-heading">$40 Off $40+</h3>
-              <p class="promo-sub-title">ARIZONA TEES, TANKS & SHORTS <br />with code: <span class="promo-code">7GOSHOP</span></p>
               <p class="promo-details">select styles <a href="#">see details</a></p>
               <div class="promo-links">
-                <a href="javascript:void();" role="button" class="btn btn-secondary btn-S">Juniors</a>
-                <a href="javascript:void();" role="button" class="btn btn-secondary btn-S">Guys</a>
-                <a href="javascript:void();" role="button" class="btn btn-secondary btn-S">Kids</a>
                 <a href="javascript:void();" role="button" class="btn btn-secondary btn-S">Shop All</a>
               </div>
             </div>
@@ -67,4 +63,4 @@ class styleDMultipleCTA extends Component {
   }
 }
 
-export default styleDMultipleCTA;
+export default styleDSingleCTA;
