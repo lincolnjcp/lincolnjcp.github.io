@@ -24,6 +24,9 @@ import styleBLeft from '../components/stylebleft';
 import styleBRight from '../components/stylebright';
 import styleBCentre from '../components/stylebcentre';
 import styleBLeftCTA from '../components/stylebleftcta';
+import styleCSingleCTA from '../components/stylecsinglecta';
+import styleCMultipleCTA from '../components/stylecmultiplecta';
+import styleDMultipleCTA from '../components/styledmultiplecta';
 import Modals from '../components/modals';
 import Pricing from '../components/pricing';
 import VisualNavigation from '../components/visual-navigation';
@@ -98,6 +101,10 @@ class DesignSystemPage extends Component {
    styleBRight: {componentElement: styleBRight, componentDisplayName: "styleBRight", componentSubNav: ['styleBRight']},
    styleBCentre: {componentElement: styleBCentre, componentDisplayName: "styleBCentre", componentSubNav: ['styleBCentre']},
    styleBLeftCTA: {componentElement: styleBLeftCTA, componentDisplayName: "styleBLeftCTA", componentSubNav: ['styleBLeftCTA']},
+   styleCSingleCTA: {componentElement: styleCSingleCTA, componentDisplayName: "styleCSingleCTA", componentSubNav: ['styleCSingleCTA']},
+   styleCMultipleCTA: {componentElement: styleCMultipleCTA, componentDisplayName: "styleCMultipleCTA", componentSubNav: ['styleCMultipleCTA']},
+   styleDMultipleCTA: {componentElement: styleDMultipleCTA, componentDisplayName: "styleDMultipleCTA", componentSubNav: ['styleDMultipleCTA']},
+   
    Modals: {componentElement: Modals, componentDisplayName: "Modals", componentSubNav: ['Modals']},
    Pdp: {componentElement: Pdp, componentDisplayName: "Pdp", componentSubNav: ['Pdp']}
   }

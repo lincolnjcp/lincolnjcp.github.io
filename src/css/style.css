@@ -66,5 +66,7 @@ Page Layouts
 /* Home Page */
 
 @import "../js/components/styleawithbutton/styleawithbutton";
-@import "../js/components/stylebleft/stylebleft";
 @import "../js/components/styleawithoutbutton/styleawithoutbutton";
+@import "../js/components/stylebleft/stylebleft";
+@import "../js/components/stylecmultiplecta/stylecmultiplecta";
+@import "../js/components/styledmultiplecta/styledmultiplecta";

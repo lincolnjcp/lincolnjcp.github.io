@@ -1003,6 +1003,24 @@ var rootNav = [{
         to: '/home-page-redesign/stylebcentre',
         activeClassName: 'active',
         content: 'Style "B" Centre Aligned'
+    }, {
+        to: '/home-page-redesign/stylecsinglecta',
+        activeClassName: 'active',
+        content: 'Style "C" Single CTA'
+    }, {
+        to: '/home-page-redesign/stylecmultiplecta',
+        activeClassName: 'active',
+        content: 'Style "C" Multiple CTA'
+    },
+    // {
+    //     to: '/home-page-redesign/styledsinglecta',
+    //     activeClassName: 'active',
+    //     content: 'Style "D" Single CTA',
+    // },
+    {
+        to: '/home-page-redesign/styledmultiplecta',
+        activeClassName: 'active',
+        content: 'Style "D" Multiple CTA'
     }]
 }, {
     parentName: 'drawLine'
@@ -13402,6 +13420,505 @@ var components_stylebleftcta__temp = function () {
   }
 
   __REACT_HOT_LOADER__.register(components_stylebleftcta__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/stylebleftcta/index.js');
+}();
+
+;
+// CONCATENATED MODULE: ./src/js/components/stylecsinglecta/stylecsinglecta.js
+var stylecsinglecta__createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+function stylecsinglecta__classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function stylecsinglecta__possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function stylecsinglecta__inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+
+
+// const plusImage = require('!!raw-loader?es5=1!../../../images/global/icons/nav/plus.svg');
+
+var stylecsinglecta_styleCSingleCTA = function (_Component) {
+  stylecsinglecta__inherits(styleCSingleCTA, _Component);
+
+  function styleCSingleCTA() {
+    stylecsinglecta__classCallCheck(this, styleCSingleCTA);
+
+    return stylecsinglecta__possibleConstructorReturn(this, (styleCSingleCTA.__proto__ || Object.getPrototypeOf(styleCSingleCTA)).apply(this, arguments));
+  }
+
+  stylecsinglecta__createClass(styleCSingleCTA, [{
+    key: 'componentDidMount',
+    value: function componentDidMount() {
+
+      //Preview top nav without design system wrapper
+      jquery_default()("#HideDesignSystem").unbind('click').on('click', function (event) {
+        jquery_default()(this).toggleClass('active');
+        if (jquery_default()(this).hasClass('active')) {
+          jquery_default()(this).text('Show Design System Wrapper');
+          jquery_default()(".design-system-nav-col").css('display', 'none');
+          jquery_default()(".design-system-content").css('padding', 0);
+          jquery_default()(".design-system-inner-content").css('padding', 0);
+          jquery_default()(".design-system-enable-hide").css('display', 'none');
+          jquery_default()(".design-system-nav-mobile").css('display', 'none');
+          jquery_default()(".design-system-wrap").css('margin', 0);
+        } else {
+          jquery_default()(this).text('Hide Design System Wrapper');
+          jquery_default()(".design-system-nav-col").removeAttr('style');
+          jquery_default()(".design-system-content").removeAttr('style');
+          jquery_default()(".design-system-inner-content").removeAttr('style');
+          jquery_default()(".design-system-enable-hide").removeAttr('style');
+          jquery_default()(".design-system-nav-mobile").removeAttr('style');
+          jquery_default()(".design-system-wrap").removeAttr('style');
+        }
+      });
+    }
+  }, {
+    key: 'render',
+    value: function render() {
+      return react_default.a.createElement(
+        'div',
+        null,
+        react_default.a.createElement(
+          'p',
+          { 'class': 'S' },
+          react_default.a.createElement('br', null),
+          react_default.a.createElement(
+            'a',
+            { href: 'javascript:void(0);', id: 'HideDesignSystem' },
+            'Hide Design System Wrapper'
+          )
+        ),
+        react_default.a.createElement(
+          'div',
+          { 'class': 'stylec stylec-single' },
+          react_default.a.createElement(
+            'div',
+            { 'class': 'banner-container' },
+            react_default.a.createElement(
+              'a',
+              { 'class': 'banner-image', href: '#' },
+              react_default.a.createElement('img', { src: '../../images/design-system/workitout-01.png' })
+            ),
+            react_default.a.createElement(
+              'div',
+              { 'class': 'promo-content' },
+              react_default.a.createElement(
+                'h3',
+                { 'class': 'promo-title offer-1-heading' },
+                'Work it out'
+              ),
+              react_default.a.createElement(
+                'p',
+                { 'class': 'promo-details' },
+                'reg $20 - $70 ',
+                react_default.a.createElement(
+                  'a',
+                  { href: '#' },
+                  'see details'
+                )
+              ),
+              react_default.a.createElement(
+                'ul',
+                { 'class': 'promo-links' },
+                react_default.a.createElement(
+                  'li',
+                  null,
+                  react_default.a.createElement(
+                    'a',
+                    { href: '#' },
+                    'Shop All'
+                  )
+                )
+              )
+            )
+          )
+        )
+      );
+    }
+  }]);
+
+  return styleCSingleCTA;
+}(react["Component"]);
+
+var stylecsinglecta__default = stylecsinglecta_styleCSingleCTA;
+
+
+/* harmony default export */ var stylecsinglecta = (stylecsinglecta__default);
+;
+
+var stylecsinglecta__temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(stylecsinglecta_styleCSingleCTA, 'styleCSingleCTA', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/stylecsinglecta/stylecsinglecta.js');
+
+  __REACT_HOT_LOADER__.register(stylecsinglecta__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/stylecsinglecta/stylecsinglecta.js');
+}();
+
+;
+// CONCATENATED MODULE: ./src/js/components/stylecsinglecta/index.js
+
+var components_stylecsinglecta__default = stylecsinglecta;
+/* harmony default export */ var components_stylecsinglecta = (components_stylecsinglecta__default);
+;
+
+var components_stylecsinglecta__temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(components_stylecsinglecta__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/stylecsinglecta/index.js');
+}();
+
+;
+// CONCATENATED MODULE: ./src/js/components/stylecmultiplecta/stylecmultiplecta.js
+var stylecmultiplecta__createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+function stylecmultiplecta__classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function stylecmultiplecta__possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function stylecmultiplecta__inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+
+
+// const plusImage = require('!!raw-loader?es5=1!../../../images/global/icons/nav/plus.svg');
+
+var stylecmultiplecta_styleCMultipleCTA = function (_Component) {
+  stylecmultiplecta__inherits(styleCMultipleCTA, _Component);
+
+  function styleCMultipleCTA() {
+    stylecmultiplecta__classCallCheck(this, styleCMultipleCTA);
+
+    return stylecmultiplecta__possibleConstructorReturn(this, (styleCMultipleCTA.__proto__ || Object.getPrototypeOf(styleCMultipleCTA)).apply(this, arguments));
+  }
+
+  stylecmultiplecta__createClass(styleCMultipleCTA, [{
+    key: 'componentDidMount',
+    value: function componentDidMount() {
+
+      //Preview top nav without design system wrapper
+      jquery_default()("#HideDesignSystem").unbind('click').on('click', function (event) {
+        jquery_default()(this).toggleClass('active');
+        if (jquery_default()(this).hasClass('active')) {
+          jquery_default()(this).text('Show Design System Wrapper');
+          jquery_default()(".design-system-nav-col").css('display', 'none');
+          jquery_default()(".design-system-content").css('padding', 0);
+          jquery_default()(".design-system-inner-content").css('padding', 0);
+          jquery_default()(".design-system-enable-hide").css('display', 'none');
+          jquery_default()(".design-system-nav-mobile").css('display', 'none');
+          jquery_default()(".design-system-wrap").css('margin', 0);
+        } else {
+          jquery_default()(this).text('Hide Design System Wrapper');
+          jquery_default()(".design-system-nav-col").removeAttr('style');
+          jquery_default()(".design-system-content").removeAttr('style');
+          jquery_default()(".design-system-inner-content").removeAttr('style');
+          jquery_default()(".design-system-enable-hide").removeAttr('style');
+          jquery_default()(".design-system-nav-mobile").removeAttr('style');
+          jquery_default()(".design-system-wrap").removeAttr('style');
+        }
+      });
+    }
+  }, {
+    key: 'render',
+    value: function render() {
+      return react_default.a.createElement(
+        'div',
+        null,
+        react_default.a.createElement(
+          'p',
+          { 'class': 'S' },
+          react_default.a.createElement('br', null),
+          react_default.a.createElement(
+            'a',
+            { href: 'javascript:void(0);', id: 'HideDesignSystem' },
+            'Hide Design System Wrapper'
+          )
+        ),
+        react_default.a.createElement(
+          'div',
+          { 'class': 'stylec' },
+          react_default.a.createElement(
+            'div',
+            { 'class': 'banner-container' },
+            react_default.a.createElement(
+              'a',
+              { 'class': 'banner-image', href: '#' },
+              react_default.a.createElement('img', { src: '../../images/design-system/workitout-01.png' })
+            ),
+            react_default.a.createElement(
+              'div',
+              { 'class': 'promo-content' },
+              react_default.a.createElement(
+                'h3',
+                { 'class': 'promo-title offer-1-heading' },
+                'Work it out'
+              ),
+              react_default.a.createElement(
+                'p',
+                { 'class': 'promo-sub-title' },
+                '50% OFF WOMEN\u2019S ATHLETIC APPAREL'
+              ),
+              react_default.a.createElement(
+                'p',
+                { 'class': 'promo-details' },
+                'reg $20 - $70 ',
+                react_default.a.createElement(
+                  'a',
+                  { href: '#' },
+                  'see details'
+                )
+              ),
+              react_default.a.createElement(
+                'ul',
+                { 'class': 'promo-links' },
+                react_default.a.createElement(
+                  'li',
+                  null,
+                  react_default.a.createElement(
+                    'a',
+                    { href: '#' },
+                    'Shirts'
+                  )
+                ),
+                react_default.a.createElement(
+                  'li',
+                  null,
+                  react_default.a.createElement(
+                    'a',
+                    { href: '#' },
+                    'Sports Bras'
+                  )
+                ),
+                react_default.a.createElement(
+                  'li',
+                  null,
+                  react_default.a.createElement(
+                    'a',
+                    { href: '#' },
+                    'Shorts'
+                  )
+                ),
+                react_default.a.createElement(
+                  'li',
+                  null,
+                  react_default.a.createElement(
+                    'a',
+                    { href: '#' },
+                    'Shop All'
+                  )
+                )
+              )
+            )
+          )
+        )
+      );
+    }
+  }]);
+
+  return styleCMultipleCTA;
+}(react["Component"]);
+
+var stylecmultiplecta__default = stylecmultiplecta_styleCMultipleCTA;
+
+
+/* harmony default export */ var stylecmultiplecta = (stylecmultiplecta__default);
+;
+
+var stylecmultiplecta__temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(stylecmultiplecta_styleCMultipleCTA, 'styleCMultipleCTA', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/stylecmultiplecta/stylecmultiplecta.js');
+
+  __REACT_HOT_LOADER__.register(stylecmultiplecta__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/stylecmultiplecta/stylecmultiplecta.js');
+}();
+
+;
+// CONCATENATED MODULE: ./src/js/components/stylecmultiplecta/index.js
+
+var components_stylecmultiplecta__default = stylecmultiplecta;
+/* harmony default export */ var components_stylecmultiplecta = (components_stylecmultiplecta__default);
+;
+
+var components_stylecmultiplecta__temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(components_stylecmultiplecta__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/stylecmultiplecta/index.js');
+}();
+
+;
+// CONCATENATED MODULE: ./src/js/components/styledmultiplecta/styledmultiplecta.js
+var styledmultiplecta__createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+function styledmultiplecta__classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function styledmultiplecta__possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function styledmultiplecta__inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+
+
+// const plusImage = require('!!raw-loader?es5=1!../../../images/global/icons/nav/plus.svg');
+
+var styledmultiplecta_styleDMultipleCTA = function (_Component) {
+  styledmultiplecta__inherits(styleDMultipleCTA, _Component);
+
+  function styleDMultipleCTA() {
+    styledmultiplecta__classCallCheck(this, styleDMultipleCTA);
+
+    return styledmultiplecta__possibleConstructorReturn(this, (styleDMultipleCTA.__proto__ || Object.getPrototypeOf(styleDMultipleCTA)).apply(this, arguments));
+  }
+
+  styledmultiplecta__createClass(styleDMultipleCTA, [{
+    key: 'componentDidMount',
+    value: function componentDidMount() {
+
+      //Preview top nav without design system wrapper
+      jquery_default()("#HideDesignSystem").unbind('click').on('click', function (event) {
+        jquery_default()(this).toggleClass('active');
+        if (jquery_default()(this).hasClass('active')) {
+          jquery_default()(this).text('Show Design System Wrapper');
+          jquery_default()(".design-system-nav-col").css('display', 'none');
+          jquery_default()(".design-system-content").css('padding', 0);
+          jquery_default()(".design-system-inner-content").css('padding', 0);
+          jquery_default()(".design-system-enable-hide").css('display', 'none');
+          jquery_default()(".design-system-nav-mobile").css('display', 'none');
+          jquery_default()(".design-system-wrap").css('margin', 0);
+        } else {
+          jquery_default()(this).text('Hide Design System Wrapper');
+          jquery_default()(".design-system-nav-col").removeAttr('style');
+          jquery_default()(".design-system-content").removeAttr('style');
+          jquery_default()(".design-system-inner-content").removeAttr('style');
+          jquery_default()(".design-system-enable-hide").removeAttr('style');
+          jquery_default()(".design-system-nav-mobile").removeAttr('style');
+          jquery_default()(".design-system-wrap").removeAttr('style');
+        }
+      });
+    }
+  }, {
+    key: 'render',
+    value: function render() {
+      return react_default.a.createElement(
+        'div',
+        null,
+        react_default.a.createElement(
+          'p',
+          { 'class': 'S' },
+          react_default.a.createElement('br', null),
+          react_default.a.createElement(
+            'a',
+            { href: 'javascript:void(0);', id: 'HideDesignSystem' },
+            'Hide Design System Wrapper'
+          )
+        ),
+        react_default.a.createElement(
+          'div',
+          { 'class': 'styled' },
+          react_default.a.createElement(
+            'div',
+            { 'class': 'banner-container' },
+            react_default.a.createElement(
+              'a',
+              { 'class': 'banner-image', href: '#' },
+              react_default.a.createElement('img', { src: '../../images/design-system/styled-01.png' })
+            ),
+            react_default.a.createElement(
+              'div',
+              { 'class': 'promo-content' },
+              react_default.a.createElement(
+                'h3',
+                { 'class': 'promo-title offer-1-heading' },
+                '$40 Off $40+'
+              ),
+              react_default.a.createElement(
+                'p',
+                { 'class': 'promo-sub-title' },
+                'ARIZONA TEES, TANKS & SHORTS ',
+                react_default.a.createElement('br', null),
+                'with code: ',
+                react_default.a.createElement(
+                  'span',
+                  { 'class': 'promo-code' },
+                  '7GOSHOP'
+                )
+              ),
+              react_default.a.createElement(
+                'p',
+                { 'class': 'promo-details' },
+                'select styles ',
+                react_default.a.createElement(
+                  'a',
+                  { href: '#' },
+                  'see details'
+                )
+              ),
+              react_default.a.createElement(
+                'div',
+                { 'class': 'promo-links' },
+                react_default.a.createElement(
+                  'a',
+                  { href: 'javascript:void();', role: 'button', 'class': 'btn btn-secondary btn-S' },
+                  'Juniors'
+                ),
+                react_default.a.createElement(
+                  'a',
+                  { href: 'javascript:void();', role: 'button', 'class': 'btn btn-secondary btn-S' },
+                  'Guys'
+                ),
+                react_default.a.createElement(
+                  'a',
+                  { href: 'javascript:void();', role: 'button', 'class': 'btn btn-secondary btn-S' },
+                  'Kids'
+                ),
+                react_default.a.createElement(
+                  'a',
+                  { href: 'javascript:void();', role: 'button', 'class': 'btn btn-secondary btn-S' },
+                  'Shop All'
+                )
+              )
+            )
+          )
+        )
+      );
+    }
+  }]);
+
+  return styleDMultipleCTA;
+}(react["Component"]);
+
+var styledmultiplecta__default = styledmultiplecta_styleDMultipleCTA;
+
+
+/* harmony default export */ var styledmultiplecta = (styledmultiplecta__default);
+;
+
+var styledmultiplecta__temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(styledmultiplecta_styleDMultipleCTA, 'styleDMultipleCTA', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/styledmultiplecta/styledmultiplecta.js');
+
+  __REACT_HOT_LOADER__.register(styledmultiplecta__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/styledmultiplecta/styledmultiplecta.js');
+}();
+
+;
+// CONCATENATED MODULE: ./src/js/components/styledmultiplecta/index.js
+
+var components_styledmultiplecta__default = styledmultiplecta;
+/* harmony default export */ var components_styledmultiplecta = (components_styledmultiplecta__default);
+;
+
+var components_styledmultiplecta__temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(components_styledmultiplecta__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/styledmultiplecta/index.js');
 }();
 
 ;
@@ -35717,6 +36234,9 @@ function DesignSystemPage__inherits(subClass, superClass) { if (typeof superClas
 
 
 
+
+
+
 var DesignSystemPage_DesignSystemPage = function (_Component) {
     DesignSystemPage__inherits(DesignSystemPage, _Component);
 
@@ -35774,6 +36294,10 @@ var DesignSystemPage_DesignSystemPage = function (_Component) {
                 styleBRight: { componentElement: components_stylebright, componentDisplayName: "styleBRight", componentSubNav: ['styleBRight'] },
                 styleBCentre: { componentElement: components_stylebcentre, componentDisplayName: "styleBCentre", componentSubNav: ['styleBCentre'] },
                 styleBLeftCTA: { componentElement: components_stylebleftcta, componentDisplayName: "styleBLeftCTA", componentSubNav: ['styleBLeftCTA'] },
+                styleCSingleCTA: { componentElement: components_stylecsinglecta, componentDisplayName: "styleCSingleCTA", componentSubNav: ['styleCSingleCTA'] },
+                styleCMultipleCTA: { componentElement: components_stylecmultiplecta, componentDisplayName: "styleCMultipleCTA", componentSubNav: ['styleCMultipleCTA'] },
+                styleDMultipleCTA: { componentElement: components_styledmultiplecta, componentDisplayName: "styleDMultipleCTA", componentSubNav: ['styleDMultipleCTA'] },
+
                 Modals: { componentElement: components_modals, componentDisplayName: "Modals", componentSubNav: ['Modals'] },
                 Pdp: { componentElement: components_pdp, componentDisplayName: "Pdp", componentSubNav: ['Pdp'] }
             };
@@ -40264,6 +40788,15 @@ var Root_App = function (_React$Component) {
                                 } }),
                             react_default.a.createElement(es["d" /* Route */], { exact: true, path: '/home-page-redesign/stylebleftcta', render: function render() {
                                     return react_default.a.createElement(containers_DesignSystemPage, { componentName: 'styleBLeftCTA' });
+                                } }),
+                            react_default.a.createElement(es["d" /* Route */], { exact: true, path: '/home-page-redesign/stylecsinglecta', render: function render() {
+                                    return react_default.a.createElement(containers_DesignSystemPage, { componentName: 'styleCSingleCTA' });
+                                } }),
+                            react_default.a.createElement(es["d" /* Route */], { exact: true, path: '/home-page-redesign/stylecmultiplecta', render: function render() {
+                                    return react_default.a.createElement(containers_DesignSystemPage, { componentName: 'styleCMultipleCTA' });
+                                } }),
+                            react_default.a.createElement(es["d" /* Route */], { exact: true, path: '/home-page-redesign/styledmultiplecta', render: function render() {
+                                    return react_default.a.createElement(containers_DesignSystemPage, { componentName: 'styleDMultipleCTA' });
                                 } })
                         )
                     )

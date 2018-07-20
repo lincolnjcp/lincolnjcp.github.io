@@ -1,0 +1,62 @@
+/*********************************
+/* styleDSingleCTA 
+*********************************/
+
+.styled {
+    & .banner-container {
+        margin: 0 32px;
+        max-width: 368px;
+
+        & .banner-image {
+            width: 100%;
+            height: 368px;
+            display: block;
+            position: relative;
+        }
+        & .banner-image:after {
+            content: "";
+            display: block;
+            position: absolute;
+            height: 8px;
+            width: 336px;
+            left: 16px;
+            bottom: -4px;
+            background-color: #41C2CC;
+            transition: all .25s;
+        }
+        & .promo-content {
+            padding: 16px 0;
+            text-align: center;
+            & .promo-title {
+                font: 32px var(--font-headline);
+                font-weight: bold;
+            }
+            & .promo-sub-title {
+                font-size: 16px;
+                color: #636f79;
+                line-height: 18px;
+                & .promo-code {
+                    font-weight: bold;
+                    color: var(--color-nightsky)
+                }
+            }
+            & .promo-details {
+                font-size: 12px;
+                line-height: 16px;
+            }
+            & .promo-links {
+                & .btn {
+                    margin: 8px;
+                    width: 152px;
+                }
+            }
+        }
+    }
+    .banner-container:hover .banner-image img{
+        transform:scale(1.2);
+      }
+      
+      .container:hover .banner-image:after{
+        transform:scale(1.2);
+      }
+}

@@ -382,6 +382,27 @@ const rootNav = [
                 activeClassName: 'active',
                 content: 'Style "B" Centre Aligned',
             },
+            {
+                to: '/home-page-redesign/stylecsinglecta',
+                activeClassName: 'active',
+                content: 'Style "C" Single CTA',
+            },
+            {
+                to: '/home-page-redesign/stylecmultiplecta',
+                activeClassName: 'active',
+                content: 'Style "C" Multiple CTA',
+            },
+            // {
+            //     to: '/home-page-redesign/styledsinglecta',
+            //     activeClassName: 'active',
+            //     content: 'Style "D" Single CTA',
+            // },
+            {
+                to: '/home-page-redesign/styledmultiplecta',
+                activeClassName: 'active',
+                content: 'Style "D" Multiple CTA',
+            },
+            
         ]
     },
     {
