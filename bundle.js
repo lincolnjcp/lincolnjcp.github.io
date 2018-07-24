@@ -1019,6 +1019,14 @@ var rootNav = [{
         to: '/home-page-redesign/styledmultiplecta',
         activeClassName: 'active',
         content: 'Style "D" Multiple CTA'
+    }, {
+        to: '/home-page-redesign/styleesinglecta',
+        activeClassName: 'active',
+        content: 'Style "E" Single CTA'
+    }, {
+        to: '/home-page-redesign/styleemultiplecta',
+        activeClassName: 'active',
+        content: 'Style "E" Multiple CTA'
     }]
 }, {
     parentName: 'drawLine'
@@ -14069,6 +14077,301 @@ var components_styledsinglecta__temp = function () {
   }
 
   __REACT_HOT_LOADER__.register(components_styledsinglecta__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/styledsinglecta/index.js');
+}();
+
+;
+// CONCATENATED MODULE: ./src/js/components/styleemultiplecta/styleemultiplecta.js
+var styleemultiplecta__createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+function styleemultiplecta__classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function styleemultiplecta__possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function styleemultiplecta__inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+
+
+// const plusImage = require('!!raw-loader?es5=1!../../../images/global/icons/nav/plus.svg');
+
+var styleemultiplecta_styleEMultipleCTA = function (_Component) {
+  styleemultiplecta__inherits(styleEMultipleCTA, _Component);
+
+  function styleEMultipleCTA() {
+    styleemultiplecta__classCallCheck(this, styleEMultipleCTA);
+
+    return styleemultiplecta__possibleConstructorReturn(this, (styleEMultipleCTA.__proto__ || Object.getPrototypeOf(styleEMultipleCTA)).apply(this, arguments));
+  }
+
+  styleemultiplecta__createClass(styleEMultipleCTA, [{
+    key: 'componentDidMount',
+    value: function componentDidMount() {
+
+      //Preview top nav without design system wrapper
+      jquery_default()("#HideDesignSystem").unbind('click').on('click', function (event) {
+        jquery_default()(this).toggleClass('active');
+        if (jquery_default()(this).hasClass('active')) {
+          jquery_default()(this).text('Show Design System Wrapper');
+          jquery_default()(".design-system-nav-col").css('display', 'none');
+          jquery_default()(".design-system-content").css('padding', 0);
+          jquery_default()(".design-system-inner-content").css('padding', 0);
+          jquery_default()(".design-system-enable-hide").css('display', 'none');
+          jquery_default()(".design-system-nav-mobile").css('display', 'none');
+          jquery_default()(".design-system-wrap").css('margin', 0);
+        } else {
+          jquery_default()(this).text('Hide Design System Wrapper');
+          jquery_default()(".design-system-nav-col").removeAttr('style');
+          jquery_default()(".design-system-content").removeAttr('style');
+          jquery_default()(".design-system-inner-content").removeAttr('style');
+          jquery_default()(".design-system-enable-hide").removeAttr('style');
+          jquery_default()(".design-system-nav-mobile").removeAttr('style');
+          jquery_default()(".design-system-wrap").removeAttr('style');
+        }
+      });
+    }
+  }, {
+    key: 'render',
+    value: function render() {
+      return react_default.a.createElement(
+        'div',
+        null,
+        react_default.a.createElement(
+          'p',
+          { 'class': 'S' },
+          react_default.a.createElement('br', null),
+          react_default.a.createElement(
+            'a',
+            { href: 'javascript:void(0);', id: 'HideDesignSystem' },
+            'Hide Design System Wrapper'
+          )
+        ),
+        react_default.a.createElement(
+          'div',
+          { 'class': 'stylee' },
+          react_default.a.createElement(
+            'div',
+            { 'class': 'banner-container' },
+            react_default.a.createElement(
+              'a',
+              { 'class': 'banner-image', href: '#' },
+              react_default.a.createElement('img', { src: '../../images/design-system/style-e-01.png' })
+            ),
+            react_default.a.createElement(
+              'div',
+              { 'class': 'promo-content' },
+              react_default.a.createElement(
+                'h3',
+                { 'class': 'promo-title offer-1-heading' },
+                'Discover Okie Dokie'
+              ),
+              react_default.a.createElement(
+                'div',
+                { 'class': 'promo-sub-title' },
+                'Maecenas sed diam eget risus varius blandit sit amet non magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur blandit tempus porttitor. Cras justo odio, dapibus ac facilisis in, egestas eget quam.'
+              ),
+              react_default.a.createElement(
+                'ul',
+                { 'class': 'promo-links' },
+                react_default.a.createElement(
+                  'li',
+                  null,
+                  react_default.a.createElement(
+                    'a',
+                    { href: '#', 'class': 'btn btn-secondary btn-S' },
+                    'Learn More'
+                  )
+                ),
+                react_default.a.createElement(
+                  'li',
+                  null,
+                  react_default.a.createElement(
+                    'a',
+                    { href: '#', 'class': 'btn btn-secondary btn-S' },
+                    'Shop Now'
+                  )
+                )
+              )
+            )
+          )
+        )
+      );
+    }
+  }]);
+
+  return styleEMultipleCTA;
+}(react["Component"]);
+
+var styleemultiplecta__default = styleemultiplecta_styleEMultipleCTA;
+
+
+/* harmony default export */ var styleemultiplecta = (styleemultiplecta__default);
+;
+
+var styleemultiplecta__temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(styleemultiplecta_styleEMultipleCTA, 'styleEMultipleCTA', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/styleemultiplecta/styleemultiplecta.js');
+
+  __REACT_HOT_LOADER__.register(styleemultiplecta__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/styleemultiplecta/styleemultiplecta.js');
+}();
+
+;
+// CONCATENATED MODULE: ./src/js/components/styleemultiplecta/index.js
+
+var components_styleemultiplecta__default = styleemultiplecta;
+/* harmony default export */ var components_styleemultiplecta = (components_styleemultiplecta__default);
+;
+
+var components_styleemultiplecta__temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(components_styleemultiplecta__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/styleemultiplecta/index.js');
+}();
+
+;
+// CONCATENATED MODULE: ./src/js/components/styleesinglecta/styleesinglecta.js
+var styleesinglecta__createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+function styleesinglecta__classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function styleesinglecta__possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function styleesinglecta__inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+
+
+// const plusImage = require('!!raw-loader?es5=1!../../../images/global/icons/nav/plus.svg');
+
+var styleesinglecta_styleESingleCTA = function (_Component) {
+  styleesinglecta__inherits(styleESingleCTA, _Component);
+
+  function styleESingleCTA() {
+    styleesinglecta__classCallCheck(this, styleESingleCTA);
+
+    return styleesinglecta__possibleConstructorReturn(this, (styleESingleCTA.__proto__ || Object.getPrototypeOf(styleESingleCTA)).apply(this, arguments));
+  }
+
+  styleesinglecta__createClass(styleESingleCTA, [{
+    key: 'componentDidMount',
+    value: function componentDidMount() {
+
+      //Preview top nav without design system wrapper
+      jquery_default()("#HideDesignSystem").unbind('click').on('click', function (event) {
+        jquery_default()(this).toggleClass('active');
+        if (jquery_default()(this).hasClass('active')) {
+          jquery_default()(this).text('Show Design System Wrapper');
+          jquery_default()(".design-system-nav-col").css('display', 'none');
+          jquery_default()(".design-system-content").css('padding', 0);
+          jquery_default()(".design-system-inner-content").css('padding', 0);
+          jquery_default()(".design-system-enable-hide").css('display', 'none');
+          jquery_default()(".design-system-nav-mobile").css('display', 'none');
+          jquery_default()(".design-system-wrap").css('margin', 0);
+        } else {
+          jquery_default()(this).text('Hide Design System Wrapper');
+          jquery_default()(".design-system-nav-col").removeAttr('style');
+          jquery_default()(".design-system-content").removeAttr('style');
+          jquery_default()(".design-system-inner-content").removeAttr('style');
+          jquery_default()(".design-system-enable-hide").removeAttr('style');
+          jquery_default()(".design-system-nav-mobile").removeAttr('style');
+          jquery_default()(".design-system-wrap").removeAttr('style');
+        }
+      });
+    }
+  }, {
+    key: 'render',
+    value: function render() {
+      return react_default.a.createElement(
+        'div',
+        null,
+        react_default.a.createElement(
+          'p',
+          { 'class': 'S' },
+          react_default.a.createElement('br', null),
+          react_default.a.createElement(
+            'a',
+            { href: 'javascript:void(0);', id: 'HideDesignSystem' },
+            'Hide Design System Wrapper'
+          )
+        ),
+        react_default.a.createElement(
+          'div',
+          { 'class': 'stylee stylee-single' },
+          react_default.a.createElement(
+            'div',
+            { 'class': 'banner-container' },
+            react_default.a.createElement(
+              'a',
+              { 'class': 'banner-image', href: '#' },
+              react_default.a.createElement('img', { src: '../../images/design-system/style-e-01.png' })
+            ),
+            react_default.a.createElement(
+              'div',
+              { 'class': 'promo-content' },
+              react_default.a.createElement(
+                'h3',
+                { 'class': 'promo-title offer-1-heading' },
+                'Discover Okie Dokie'
+              ),
+              react_default.a.createElement(
+                'div',
+                { 'class': 'promo-sub-title' },
+                'Maecenas sed diam eget risus varius blandit sit amet non magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur blandit tempus porttitor. Cras justo odio, dapibus ac facilisis in, egestas eget quam.'
+              ),
+              react_default.a.createElement(
+                'ul',
+                { 'class': 'promo-links' },
+                react_default.a.createElement(
+                  'li',
+                  null,
+                  react_default.a.createElement(
+                    'a',
+                    { href: '#', 'class': 'btn btn-secondary btn-S' },
+                    'Learn More'
+                  )
+                )
+              )
+            )
+          )
+        )
+      );
+    }
+  }]);
+
+  return styleESingleCTA;
+}(react["Component"]);
+
+var styleesinglecta__default = styleesinglecta_styleESingleCTA;
+
+
+/* harmony default export */ var styleesinglecta = (styleesinglecta__default);
+;
+
+var styleesinglecta__temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(styleesinglecta_styleESingleCTA, 'styleESingleCTA', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/styleesinglecta/styleesinglecta.js');
+
+  __REACT_HOT_LOADER__.register(styleesinglecta__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/styleesinglecta/styleesinglecta.js');
+}();
+
+;
+// CONCATENATED MODULE: ./src/js/components/styleesinglecta/index.js
+
+var components_styleesinglecta__default = styleesinglecta;
+/* harmony default export */ var components_styleesinglecta = (components_styleesinglecta__default);
+;
+
+var components_styleesinglecta__temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(components_styleesinglecta__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/styleesinglecta/index.js');
 }();
 
 ;
@@ -36388,6 +36691,8 @@ function DesignSystemPage__inherits(subClass, superClass) { if (typeof superClas
 
 
 
+
+
 var DesignSystemPage_DesignSystemPage = function (_Component) {
     DesignSystemPage__inherits(DesignSystemPage, _Component);
 
@@ -36449,6 +36754,8 @@ var DesignSystemPage_DesignSystemPage = function (_Component) {
                 styleCMultipleCTA: { componentElement: components_stylecmultiplecta, componentDisplayName: "styleCMultipleCTA", componentSubNav: ['styleCMultipleCTA'] },
                 styleDMultipleCTA: { componentElement: components_styledmultiplecta, componentDisplayName: "styleDMultipleCTA", componentSubNav: ['styleDMultipleCTA'] },
                 styleDSingleCTA: { componentElement: components_styledsinglecta, componentDisplayName: "styleDSingleCTA", componentSubNav: ['styleDSingleCTA'] },
+                styleEMultipleCTA: { componentElement: components_styleemultiplecta, componentDisplayName: "styleEMultipleCTA", componentSubNav: ['styleEMultipleCTA'] },
+                styleESingleCTA: { componentElement: components_styleesinglecta, componentDisplayName: "styleESingleCTA", componentSubNav: ['styleESingleCTA'] },
 
                 Modals: { componentElement: components_modals, componentDisplayName: "Modals", componentSubNav: ['Modals'] },
                 Pdp: { componentElement: components_pdp, componentDisplayName: "Pdp", componentSubNav: ['Pdp'] }
@@ -40952,6 +41259,12 @@ var Root_App = function (_React$Component) {
                                 } }),
                             react_default.a.createElement(es["d" /* Route */], { exact: true, path: '/home-page-redesign/styledsinglecta', render: function render() {
                                     return react_default.a.createElement(containers_DesignSystemPage, { componentName: 'styleDSingleCTA' });
+                                } }),
+                            react_default.a.createElement(es["d" /* Route */], { exact: true, path: '/home-page-redesign/styleemultiplecta', render: function render() {
+                                    return react_default.a.createElement(containers_DesignSystemPage, { componentName: 'styleEMultipleCTA' });
+                                } }),
+                            react_default.a.createElement(es["d" /* Route */], { exact: true, path: '/home-page-redesign/styleesinglecta', render: function render() {
+                                    return react_default.a.createElement(containers_DesignSystemPage, { componentName: 'styleESingleCTA' });
                                 } })
                         )
                     )

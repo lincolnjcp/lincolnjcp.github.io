@@ -1,0 +1,126 @@
+/*********************************
+/* styleCSingleCTA 
+*********************************/
+
+.stylee {
+    margin: 0 16px;
+    & .banner-container {
+        display: inline-block;
+        @media (--viewport-sm-down) {
+            margin: 0 auto;
+        }
+        & .banner-image {
+            float: left;
+            width: 65%;
+            height: auto;
+            overflow: hidden;
+            & img {
+                width: 100%;
+                transition: all .25s;
+            }
+            @media (--viewport-md-down) {
+                width: 100%;
+            }
+        }
+        & .promo-content {
+            float: left;
+            padding: 66px 0 0 24px;
+            width: 35%;
+            @media (--viewport-md-down) {
+                width: 100%;
+                padding: 16px 0 0 0;
+            }
+            @media (--viewport-sm-down) {
+                text-align: center;
+            }
+            & .promo-title {
+                font: 32px var(--font-headline);
+                font-weight: bold;
+                position: relative;
+                margin: 0;
+                display: inline-block;
+                transition: all .25s;
+                &::after {
+                    content: "";
+                    display: block;
+                    position: absolute;
+                    width: 100%;
+                    height: 6px;
+                    bottom: -6px;
+                    transition: all .25s;
+                    z-index: -1;
+                }
+                @media (--viewport-sm-down) {
+                    font-size: 20px;
+                    &::after {
+                        height: 4px;
+                    }
+                }
+            }
+            & .promo-title.offer-1-heading:after {
+                background-color: #e97439;
+            }
+            & .promo-sub-title {
+                font-size: 16px;
+                color: #636f79;
+                padding-top: 16px;
+                line-height: 1.25;
+            }
+            & .promo-links {
+                padding-top: 24px;
+                & li {
+                    display: inline-block;
+                    font-size: 16px;
+                    padding: 0 16px 0 0;
+                    @media (--viewport-sm-down) {
+                        &:last-child {
+                            padding-right: 0;
+                        }
+                    }
+                    & .btn {
+                        width: 200px;
+                        @media (--viewport-sm-down) {
+                            width: 140px;
+                        }
+                        @media (--viewport-lg-down) {
+                            width: 140px;
+                        }
+                    }
+                }
+            }
+        }
+        &:hover .promo-title::after {
+            height: 48px;
+            width: 108%;
+            transform: translate(-4%, -2px);
+            @media (--viewport-sm-down) {
+                height: 30px;
+            }
+        }
+        &:hover .promo-title {
+            color: var(--color-white);
+        }
+        &:hover .banner-image {
+            & img {
+                transform: scale(1.1);
+            }
+        }
+    }
+}
+
+.stylee-single {
+    & .banner-container {
+        & .promo-content {
+            & .promo-links {
+                & li {
+                    @media (--viewport-sm-down) {
+                        width: 100% !important;
+                        & a {
+                            width: 100% !important;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
