@@ -30,7 +30,7 @@
             @media (--viewport-sm-down) {
                 text-align: right;
                 float: right;
-                padding-top: 12px;
+                padding: 12px 16px 0 0;
             }
             & .promo-title {
                 font: 32px var(--font-headline);

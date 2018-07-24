@@ -15,6 +15,7 @@
             height: 368px;
             display: block;
             position: relative;
+            overflow: hidden;
             @media (--viewport-sm-down) {
                 height: auto;
             }
@@ -104,7 +105,7 @@
             width: 307px;
             left: 31px;
             @media (--viewport-sm-down) {
-                width: 347px;
+                width: 100%;
                 left: 1px;
                 top: -1px;
             }
