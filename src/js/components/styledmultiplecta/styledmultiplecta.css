@@ -8,6 +8,7 @@
         max-width: 368px;
         @media (--viewport-sm-down) {
             margin: 0 16px;
+            max-width: 100%;
         }
         & .banner-image {
             width: 100%;
@@ -19,6 +20,9 @@
             }
             & img {
                 transition:all .25s;
+                @media (--viewport-sm-down) {
+                    width: 100%;
+                }
             }
             & .img-mask{
                 overflow:hidden;
@@ -37,9 +41,9 @@
             @media (--viewport-sm-down) {
                 width: 96%;
                 left: 0;
-                position: static;
+                position: relative;
                 margin: 0 auto;
-                bottom: 6px;
+                bottom: 4px;
                 height: 4px;
             }
         }
@@ -52,11 +56,18 @@
             & .promo-title {
                 font: 32px var(--font-headline);
                 font-weight: bold;
+                @media (--viewport-sm-down) {
+                    font: 20px var(--font-headline);
+                    font-weight: bold;
+                }
             }
             & .promo-sub-title {
                 font-size: 16px;
                 color: #636f79;
                 line-height: 18px;
+                @media (--viewport-sm-down) {
+                    font-size: 14px;
+                }
                 & .promo-code {
                     font-weight: bold;
                     color: var(--color-nightsky)
@@ -67,13 +78,20 @@
                 line-height: 16px;
             }
             & .promo-links {
+                @media (--viewport-sm-down) {
+                    text-align: center;
+                }
                 & .btn {
                     margin: 8px;
                     width: 152px;
-                    &:nth-child(odd) {
-                        @media (--viewport-sm-down) {
-                            margin-left: 0;
+                    @media (--viewport-sm-down) {
+                        &:nth-child(odd) {
+                                margin-left: 0;
                         }
+                        &:nth-child(even) {
+                            margin-right: 0;
+                        }
+                        width: 47%;
                     }
                 }
             }
@@ -85,6 +103,11 @@
             transform: scale(1.2);
             width: 307px;
             left: 31px;
+            @media (--viewport-sm-down) {
+                width: 347px;
+                left: 1px;
+                top: -1px;
+            }
         }
     }
 }

@@ -59,17 +59,6 @@ class styleBCentre extends Component {
               <div class="std-txt std-txt-XS mrg-M">reg $20-$70 <a href="javascript:void(0);">see details</a></div>
               <div class="dropdown-container">
                 <a href="javascript:void(0)" class="elevation title title-S mrg-top-S">PRIMARY CTA</a>
-                {/* <div id="myDropdown" class="dropdown-list hide">
-                  <a href="javascript:void(0)">PRIMARY CTA</a>
-                  <a href="javascript:void(0)">CTA 2</a>
-                  <a href="javascript:void(0)">CTA 3</a>
-                  <a href="javascript:void(0)">CTA 4</a>
-                  <a href="javascript:void(0)">CTA 5</a>
-                  <a href="javascript:void(0)">CTA 6</a>
-                  <a href="javascript:void(0)">CTA 7</a>
-                  <a href="javascript:void(0)">CTA 8</a>
-                  <a href="javascript:void(0)">CTA 9</a>
-                </div> */}
               </div>
             </div>
           </div>

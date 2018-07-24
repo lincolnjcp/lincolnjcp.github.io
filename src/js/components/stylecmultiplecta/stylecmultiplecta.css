@@ -5,6 +5,7 @@
 .stylec {
     margin: 0 16px 0 32px;
     & .banner-container {
+        display: inline-block;
         @media (--viewport-sm-down) {
             margin: 0 auto;
         }

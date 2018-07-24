@@ -12865,7 +12865,7 @@ var stylebleft_styleBLeft = function (_Component) {
                 { 'class': 'dropdown-container' },
                 react_default.a.createElement(
                   'a',
-                  { onclick: 'dropdownFunction()', href: 'javascript:void(0)', 'class': 'elevation title title-S mrg-top-S' },
+                  { onclick: 'dropdownFunction()', href: 'javascript:void(0)', 'class': 'elevation no-hover title title-S mrg-top-S' },
                   'Shop All',
                   react_default.a.createElement('span', { 'class': 'icon plus-icon', dangerouslySetInnerHTML: { __html: stylebleft_plusImage } }),
                   react_default.a.createElement('span', { 'class': 'minus-icon hide' })

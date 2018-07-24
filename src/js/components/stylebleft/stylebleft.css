@@ -116,6 +116,11 @@
                         top: 17px;
                     }
                 }
+                & .no-hover {
+                    &:hover {
+                        border-radius: 8px;
+                    }
+                }
                 & .dropdown-list {
                     display: none;
                     position: absolute;
@@ -170,6 +175,9 @@
                 text-align: center;
                 margin: 0 auto;
                 border-color: #ff4038;
+                & .dropdown-container {
+                    margin: 0 auto;
+                }
             }
         }
     }
