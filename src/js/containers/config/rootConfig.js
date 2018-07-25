@@ -343,6 +343,11 @@ const rootNav = [
         parentName: 'Home Page Redesign',
         childItems: [
             {
+                to: '/home-page-redesign/homepage-layout',
+                activeClassName: 'active',
+                content: 'Homepage Layout',
+            },
+            {
                 to: '/home-page-redesign/styleawithbutton',
                 activeClassName: 'active',
                 content: 'Style "A" With Button & With Carousal',

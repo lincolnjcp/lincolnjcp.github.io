@@ -37,9 +37,9 @@ class styleCMultipleCTA extends Component {
   render() {
     return (
       <div>
-        <p class="S"><br />
+        {/* <p class="S"><br />
           <a href="javascript:void(0);" id="HideDesignSystem">Hide Design System Wrapper</a>
-        </p>
+        </p> */}
 
 
         <div class="stylec">

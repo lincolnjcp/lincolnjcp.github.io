@@ -30,6 +30,7 @@ import styleDMultipleCTA from '../components/styledmultiplecta';
 import styleDSingleCTA from '../components/styledsinglecta';
 import styleEMultipleCTA from '../components/styleemultiplecta';
 import styleESingleCTA from '../components/styleesinglecta';
+import HomepageLayout from '../components/homepage-layout';
 import Modals from '../components/modals';
 import Pricing from '../components/pricing';
 import VisualNavigation from '../components/visual-navigation';
@@ -110,6 +111,7 @@ class DesignSystemPage extends Component {
    styleDSingleCTA: {componentElement: styleDSingleCTA, componentDisplayName: "styleDSingleCTA", componentSubNav: ['styleDSingleCTA']},
    styleEMultipleCTA: {componentElement: styleEMultipleCTA, componentDisplayName: "styleEMultipleCTA", componentSubNav: ['styleEMultipleCTA']},
    styleESingleCTA: {componentElement: styleESingleCTA, componentDisplayName: "styleESingleCTA", componentSubNav: ['styleESingleCTA']},
+   HomepageLayout: {componentElement: HomepageLayout, componentDisplayName: "HomepageLayout", componentSubNav: ['HomepageLayout']},
    
    Modals: {componentElement: Modals, componentDisplayName: "Modals", componentSubNav: ['Modals']},
    Pdp: {componentElement: Pdp, componentDisplayName: "Pdp", componentSubNav: ['Pdp']}

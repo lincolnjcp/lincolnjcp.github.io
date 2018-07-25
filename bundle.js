@@ -972,6 +972,10 @@ var rootNav = [{
 }, {
     parentName: 'Home Page Redesign',
     childItems: [{
+        to: '/home-page-redesign/homepage-layout',
+        activeClassName: 'active',
+        content: 'Homepage Layout'
+    }, {
         to: '/home-page-redesign/styleawithbutton',
         activeClassName: 'active',
         content: 'Style "A" With Button & With Carousal'
@@ -12218,21 +12222,6 @@ var styleawithoutbutton_styleAWithoutButton = function (_Component) {
 				'div',
 				null,
 				react_default.a.createElement(
-					'p',
-					{ 'class': 'S' },
-					react_default.a.createElement('br', null),
-					react_default.a.createElement(
-						'a',
-						{ href: 'javascript:void(0);', id: 'HideDesignSystem' },
-						'Hide Design System Wrapper'
-					),
-					react_default.a.createElement('br', null),
-					react_default.a.createElement('br', null),
-					react_default.a.createElement('br', null),
-					react_default.a.createElement('br', null),
-					react_default.a.createElement('br', null)
-				),
-				react_default.a.createElement(
 					'div',
 					{ 'class': 'container without-button' },
 					react_default.a.createElement(
@@ -12829,16 +12818,6 @@ var stylebleft_styleBLeft = function (_Component) {
       return react_default.a.createElement(
         'div',
         null,
-        react_default.a.createElement(
-          'p',
-          { 'class': 'S' },
-          react_default.a.createElement('br', null),
-          react_default.a.createElement(
-            'a',
-            { href: 'javascript:void(0);', id: 'HideDesignSystem' },
-            'Hide Design System Wrapper'
-          )
-        ),
         react_default.a.createElement(
           'div',
           { 'class': 'styleb-left' },
@@ -13632,16 +13611,6 @@ var stylecmultiplecta_styleCMultipleCTA = function (_Component) {
         'div',
         null,
         react_default.a.createElement(
-          'p',
-          { 'class': 'S' },
-          react_default.a.createElement('br', null),
-          react_default.a.createElement(
-            'a',
-            { href: 'javascript:void(0);', id: 'HideDesignSystem' },
-            'Hide Design System Wrapper'
-          )
-        ),
-        react_default.a.createElement(
           'div',
           { 'class': 'stylec' },
           react_default.a.createElement(
@@ -13812,16 +13781,6 @@ var styledmultiplecta_styleDMultipleCTA = function (_Component) {
         'div',
         null,
         react_default.a.createElement(
-          'p',
-          { 'class': 'S' },
-          react_default.a.createElement('br', null),
-          react_default.a.createElement(
-            'a',
-            { href: 'javascript:void(0);', id: 'HideDesignSystem' },
-            'Hide Design System Wrapper'
-          )
-        ),
-        react_default.a.createElement(
           'div',
           { 'class': 'styled' },
           react_default.a.createElement(
@@ -13987,16 +13946,6 @@ var styledsinglecta_styleDSingleCTA = function (_Component) {
         'div',
         null,
         react_default.a.createElement(
-          'p',
-          { 'class': 'S' },
-          react_default.a.createElement('br', null),
-          react_default.a.createElement(
-            'a',
-            { href: 'javascript:void(0);', id: 'HideDesignSystem' },
-            'Hide Design System Wrapper'
-          )
-        ),
-        react_default.a.createElement(
           'div',
           { 'class': 'styled single-cta' },
           react_default.a.createElement(
@@ -14134,16 +14083,6 @@ var styleemultiplecta_styleEMultipleCTA = function (_Component) {
       return react_default.a.createElement(
         'div',
         null,
-        react_default.a.createElement(
-          'p',
-          { 'class': 'S' },
-          react_default.a.createElement('br', null),
-          react_default.a.createElement(
-            'a',
-            { href: 'javascript:void(0);', id: 'HideDesignSystem' },
-            'Hide Design System Wrapper'
-          )
-        ),
         react_default.a.createElement(
           'div',
           { 'class': 'stylee' },
@@ -14372,6 +14311,3807 @@ var components_styleesinglecta__temp = function () {
   }
 
   __REACT_HOT_LOADER__.register(components_styleesinglecta__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/styleesinglecta/index.js');
+}();
+
+;
+// CONCATENATED MODULE: ./src/js/components/header/header.js
+var header__createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+function header__classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function header__possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function header__inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+
+
+
+var logoImage = __webpack_require__("Qmz5");
+var header_searchImage = __webpack_require__("7r5T");
+var header_menuImage = __webpack_require__("738v");
+var header_closeImage = __webpack_require__("oWX6");
+var header_cartFullImage = __webpack_require__("VlqD");
+var trackOrderImage = __webpack_require__("BxHr");
+var header_storeNewImage = __webpack_require__("IeBy");
+var header_accountImage = __webpack_require__("8ysx");
+var accountNewImage = __webpack_require__("87qO");
+var header_arrowleftImage = __webpack_require__("FAZD");
+var header_targetImage = __webpack_require__("ZO6q");
+var header_jcpenneyRewardsImage = __webpack_require__("QXyO");
+var header_idfillImage = __webpack_require__("s1aE");
+var header_walletImage = __webpack_require__("GqVQ");
+var header_heartfillImage = __webpack_require__("/KOU");
+var rewardsFillImage = __webpack_require__("rD0y");
+var appointmentFillImage = __webpack_require__("8/sS");
+var header_cardjcpImage = __webpack_require__("jrV8");
+var logoutImage = __webpack_require__("hozW");
+var externallinkImage = __webpack_require__("3laZ");
+var header_cardjcpredImage = __webpack_require__("plD6");
+var header_cardjcpgoldImage = __webpack_require__("6RTn");
+var header_cardjcpplatinumImage = __webpack_require__("phwv");
+
+var header_Header = function (_Component) {
+  header__inherits(Header, _Component);
+
+  function Header() {
+    header__classCallCheck(this, Header);
+
+    return header__possibleConstructorReturn(this, (Header.__proto__ || Object.getPrototypeOf(Header)).apply(this, arguments));
+  }
+
+  header__createClass(Header, [{
+    key: 'changeMyStoreContent',
+    value: function changeMyStoreContent(type) {
+      return react_default.a.createElement(
+        'div',
+        null,
+        react_default.a.createElement(
+          'p',
+          { id: 'changeMyStoreZipLink' + type },
+          'Stores within 15 mi. of ',
+          react_default.a.createElement(
+            'strong',
+            null,
+            '75024 '
+          ),
+          react_default.a.createElement(
+            'a',
+            { href: 'javascript:void(0);', 'class': 'expand-collapse-btn change-btn', 'data-target': '#changeMyStoreZip' + type, 'data-hide-on-open-target': '#changeMyStoreZipLink' + type, 'data-duration': '0' },
+            ' Change'
+          )
+        ),
+        react_default.a.createElement(
+          'div',
+          { 'class': 'expand-collapse-section', id: 'changeMyStoreZip' + type },
+          react_default.a.createElement(
+            'div',
+            { 'class': 'button-preview text-center my-location' },
+            react_default.a.createElement(
+              'a',
+              { href: 'javascript:void();', 'class': 'btn btn-secondary btn-M mrg-M mrg-rght-M' },
+              react_default.a.createElement('span', { 'class': 'icon', dangerouslySetInnerHTML: { __html: header_targetImage } }),
+              react_default.a.createElement(
+                'span',
+                null,
+                'Use my Location'
+              )
+            ),
+            react_default.a.createElement(
+              'a',
+              { href: 'javascript:void();', 'class': 'cancel-btn' },
+              'cancel'
+            )
+          ),
+          react_default.a.createElement(
+            'div',
+            { 'class': '' },
+            react_default.a.createElement(
+              'span',
+              { 'class': 'title title-S title-text-or' },
+              'or'
+            )
+          ),
+          react_default.a.createElement(
+            'div',
+            { 'class': 'input-form' },
+            react_default.a.createElement(
+              'div',
+              { 'class': 'input-form-store-locator' },
+              react_default.a.createElement(
+                'div',
+                { 'class': 'input-form-store-locator-field-1' },
+                react_default.a.createElement('input', { 'class': 'form-control input-text', id: 'changeMyStoreSearch' + type, type: 'text', placeholder: 'Zip Code', defaultValue: '75024' })
+              ),
+              react_default.a.createElement(
+                'div',
+                { 'class': 'input-form-store-locator-field-2' },
+                react_default.a.createElement(
+                  'div',
+                  { 'class': 'select' },
+                  react_default.a.createElement(
+                    'select',
+                    { 'class': 'form-control custom-select' },
+                    react_default.a.createElement(
+                      'option',
+                      { value: '5' },
+                      '5 miles'
+                    ),
+                    react_default.a.createElement(
+                      'option',
+                      { value: '10' },
+                      '10 miles'
+                    ),
+                    react_default.a.createElement(
+                      'option',
+                      { value: '20' },
+                      '20 miles'
+                    ),
+                    react_default.a.createElement(
+                      'option',
+                      { value: '50' },
+                      '50 miles'
+                    )
+                  )
+                )
+              ),
+              react_default.a.createElement(
+                'button',
+                { type: 'submit', 'class': 'search-icon' },
+                react_default.a.createElement('span', { 'class': 'icon color-lipstick-svg', dangerouslySetInnerHTML: { __html: header_searchImage } })
+              )
+            )
+          )
+        ),
+        react_default.a.createElement(
+          'div',
+          { 'class': 'side-panel-row-wrap no-border padding-bot-zero' },
+          react_default.a.createElement(
+            'div',
+            { 'class': 'side-panel-row' },
+            react_default.a.createElement(
+              'div',
+              { 'class': 'side-panel-col side-panel-col-select mrg-M' },
+              react_default.a.createElement(
+                'div',
+                { 'class': 'dropdown-menu-block column' },
+                react_default.a.createElement(
+                  'div',
+                  { 'class': 'pos-rel fl-left' },
+                  react_default.a.createElement(
+                    'a',
+                    { 'class': 'dropdown-button title-S' },
+                    'Filter by Services ',
+                    react_default.a.createElement('span', { 'class': 'arrow' })
+                  ),
+                  react_default.a.createElement(
+                    'div',
+                    { 'class': 'dropdown-menu' },
+                    react_default.a.createElement(
+                      'div',
+                      { 'class': 'tooltip tooltip-top-left tooltip-Large' },
+                      react_default.a.createElement(
+                        'span',
+                        null,
+                        react_default.a.createElement(
+                          'ul',
+                          null,
+                          react_default.a.createElement(
+                            'li',
+                            { 'class': 'dropdown-list' },
+                            react_default.a.createElement(
+                              'label',
+                              { 'class': 'checkbox mrg-M' },
+                              react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
+                              react_default.a.createElement(
+                                'span',
+                                { 'class': 'left' },
+                                'label'
+                              ),
+                              react_default.a.createElement(
+                                'span',
+                                { 'class': 'right-label' },
+                                '(1,008)'
+                              )
+                            )
+                          ),
+                          react_default.a.createElement(
+                            'li',
+                            { 'class': 'dropdown-list' },
+                            react_default.a.createElement(
+                              'label',
+                              { 'class': 'checkbox mrg-M' },
+                              react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
+                              react_default.a.createElement(
+                                'span',
+                                { 'class': 'left' },
+                                'label'
+                              ),
+                              react_default.a.createElement(
+                                'span',
+                                { 'class': 'right-label' },
+                                '(1,008)'
+                              )
+                            )
+                          ),
+                          react_default.a.createElement(
+                            'li',
+                            { 'class': 'dropdown-list' },
+                            react_default.a.createElement(
+                              'label',
+                              { 'class': 'checkbox mrg-M' },
+                              react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
+                              react_default.a.createElement(
+                                'span',
+                                { 'class': 'left' },
+                                'label'
+                              ),
+                              react_default.a.createElement(
+                                'span',
+                                { 'class': 'right-label' },
+                                '(1,008)'
+                              )
+                            )
+                          ),
+                          react_default.a.createElement(
+                            'li',
+                            { 'class': 'dropdown-list' },
+                            react_default.a.createElement(
+                              'label',
+                              { 'class': 'checkbox mrg-M' },
+                              react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
+                              react_default.a.createElement(
+                                'span',
+                                { 'class': 'left' },
+                                'label'
+                              ),
+                              react_default.a.createElement(
+                                'span',
+                                { 'class': 'right-label' },
+                                '(1,008)'
+                              )
+                            )
+                          ),
+                          react_default.a.createElement(
+                            'li',
+                            { 'class': 'dropdown-list' },
+                            react_default.a.createElement(
+                              'label',
+                              { 'class': 'checkbox mrg-M' },
+                              react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
+                              react_default.a.createElement(
+                                'span',
+                                { 'class': 'left' },
+                                'label'
+                              ),
+                              react_default.a.createElement(
+                                'span',
+                                { 'class': 'right-label' },
+                                '(1,008)'
+                              )
+                            )
+                          ),
+                          react_default.a.createElement(
+                            'li',
+                            { 'class': 'dropdown-list' },
+                            react_default.a.createElement(
+                              'label',
+                              { 'class': 'checkbox mrg-M' },
+                              react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
+                              react_default.a.createElement(
+                                'span',
+                                { 'class': 'left' },
+                                'label'
+                              ),
+                              react_default.a.createElement(
+                                'span',
+                                { 'class': 'right-label' },
+                                '(1,008)'
+                              )
+                            )
+                          ),
+                          react_default.a.createElement(
+                            'li',
+                            { 'class': 'dropdown-list' },
+                            react_default.a.createElement(
+                              'label',
+                              { 'class': 'checkbox mrg-M' },
+                              react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
+                              react_default.a.createElement(
+                                'span',
+                                { 'class': 'left' },
+                                'label'
+                              ),
+                              react_default.a.createElement(
+                                'span',
+                                { 'class': 'right-label' },
+                                '(1,008)'
+                              )
+                            )
+                          ),
+                          react_default.a.createElement(
+                            'li',
+                            { 'class': 'dropdown-list' },
+                            react_default.a.createElement(
+                              'label',
+                              { 'class': 'checkbox mrg-M' },
+                              react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
+                              react_default.a.createElement(
+                                'span',
+                                { 'class': 'left' },
+                                'label'
+                              ),
+                              react_default.a.createElement(
+                                'span',
+                                { 'class': 'right-label' },
+                                '(1,008)'
+                              )
+                            )
+                          ),
+                          react_default.a.createElement(
+                            'li',
+                            { 'class': 'dropdown-list' },
+                            react_default.a.createElement(
+                              'label',
+                              { 'class': 'checkbox mrg-M' },
+                              react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
+                              react_default.a.createElement(
+                                'span',
+                                { 'class': 'left' },
+                                'label'
+                              ),
+                              react_default.a.createElement(
+                                'span',
+                                { 'class': 'right-label' },
+                                '(1,008)'
+                              )
+                            )
+                          ),
+                          react_default.a.createElement(
+                            'li',
+                            { 'class': 'dropdown-list' },
+                            react_default.a.createElement(
+                              'label',
+                              { 'class': 'checkbox mrg-M' },
+                              react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
+                              react_default.a.createElement(
+                                'span',
+                                { 'class': 'left' },
+                                'label'
+                              ),
+                              react_default.a.createElement(
+                                'span',
+                                { 'class': 'right-label' },
+                                '(1,008)'
+                              )
+                            )
+                          ),
+                          react_default.a.createElement(
+                            'li',
+                            { 'class': 'dropdown-list' },
+                            react_default.a.createElement(
+                              'label',
+                              { 'class': 'checkbox mrg-M' },
+                              react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
+                              react_default.a.createElement(
+                                'span',
+                                { 'class': 'left' },
+                                'label'
+                              ),
+                              react_default.a.createElement(
+                                'span',
+                                { 'class': 'right-label' },
+                                '(1,008)'
+                              )
+                            )
+                          ),
+                          react_default.a.createElement(
+                            'li',
+                            { 'class': 'dropdown-list' },
+                            react_default.a.createElement(
+                              'label',
+                              { 'class': 'checkbox mrg-M' },
+                              react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
+                              react_default.a.createElement(
+                                'span',
+                                { 'class': 'left' },
+                                'label'
+                              ),
+                              react_default.a.createElement(
+                                'span',
+                                { 'class': 'right-label' },
+                                '(1,008)'
+                              )
+                            )
+                          ),
+                          react_default.a.createElement(
+                            'li',
+                            { 'class': 'dropdown-list' },
+                            react_default.a.createElement(
+                              'label',
+                              { 'class': 'checkbox mrg-M' },
+                              react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
+                              react_default.a.createElement(
+                                'span',
+                                { 'class': 'left' },
+                                'label'
+                              ),
+                              react_default.a.createElement(
+                                'span',
+                                { 'class': 'right-label' },
+                                '(1,008)'
+                              )
+                            )
+                          ),
+                          react_default.a.createElement(
+                            'li',
+                            { 'class': 'dropdown-list' },
+                            react_default.a.createElement(
+                              'label',
+                              { 'class': 'checkbox mrg-M' },
+                              react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
+                              react_default.a.createElement(
+                                'span',
+                                { 'class': 'left' },
+                                'label'
+                              ),
+                              react_default.a.createElement(
+                                'span',
+                                { 'class': 'right-label' },
+                                '(1,008)'
+                              )
+                            )
+                          )
+                        )
+                      )
+                    )
+                  )
+                )
+              )
+            ),
+            react_default.a.createElement(
+              'div',
+              { 'class': 'side-panel-col side-panel-col-map-view algn-rght' },
+              react_default.a.createElement(
+                'a',
+                { href: 'javascript:void(0);', 'class': 'expand-collapse-btn', 'data-hide-text': 'List View', 'data-target': '#changeMyStoreMap' + type },
+                'Map View'
+              )
+            )
+          ),
+          react_default.a.createElement(
+            'div',
+            { 'class': 'expand-collapse-section change-my-store-map-view', id: 'changeMyStoreMap' + type },
+            react_default.a.createElement('img', { src: '/images/design-system/fpo/find-a-store/map.jpg', alt: '' })
+          )
+        ),
+        react_default.a.createElement(
+          'div',
+          { 'class': 'change-my-store-listing' },
+          react_default.a.createElement(
+            'div',
+            { 'class': 'side-panel-row-wrap' },
+            react_default.a.createElement(
+              'div',
+              { 'class': 'side-panel-row' },
+              react_default.a.createElement(
+                'div',
+                { 'class': 'side-panel-col side-panel-col-details' },
+                react_default.a.createElement(
+                  'h4',
+                  { 'class': 'mrg-S' },
+                  'Stonebriar Mall ',
+                  react_default.a.createElement(
+                    'span',
+                    { 'class': ' color-slate' },
+                    '(3.5mi)'
+                  )
+                ),
+                react_default.a.createElement(
+                  'p',
+                  { 'class': 'std-txt std-txt-S mrg-XS color-nightsky' },
+                  '2480 Preston Rd'
+                )
+              ),
+              react_default.a.createElement(
+                'div',
+                { 'class': 'side-panel-col-button' },
+                react_default.a.createElement(
+                  'a',
+                  { href: 'javascript:void(0);', 'class': 'btn btn-M btn-full btn-primary btn-disabled' },
+                  'My Store'
+                )
+              )
+            ),
+            react_default.a.createElement(
+              'div',
+              { 'class': 'side-panel-col-full' },
+              react_default.a.createElement(
+                'div',
+                { 'class': 'expand-collapse-section change-my-store-details', id: 'storeLising1' + type },
+                react_default.a.createElement(
+                  'div',
+                  { 'class': 'std-txt std-txt-S mrg-M color-nightsky' },
+                  react_default.a.createElement(
+                    'a',
+                    { href: 'javascript:void(0);', 'class': 'color-nightsky' },
+                    'Get Directions'
+                  ),
+                  ' | 972-578-8666'
+                ),
+                react_default.a.createElement(
+                  'div',
+                  { 'class': 'std-txt std-txt-S mrg-M color-slate' },
+                  'Mon-Thu : 10am-10pm',
+                  react_default.a.createElement('br', null),
+                  'Fri : 9am-11pm',
+                  react_default.a.createElement('br', null),
+                  'Sat : 8am-11pm',
+                  react_default.a.createElement('br', null),
+                  'Sun : 9am-10pm',
+                  react_default.a.createElement('br', null),
+                  react_default.a.createElement('br', null),
+                  react_default.a.createElement(
+                    'strong',
+                    { 'class': 'color-nightsky' },
+                    'Store Services:'
+                  ),
+                  react_default.a.createElement('br', null),
+                  'Jewelry',
+                  react_default.a.createElement('br', null),
+                  'Big and Tall',
+                  react_default.a.createElement('br', null),
+                  'Wedding Registry',
+                  react_default.a.createElement('br', null),
+                  'TV and Home Theater',
+                  react_default.a.createElement('br', null),
+                  'Major Appliances',
+                  react_default.a.createElement('br', null),
+                  'Optical',
+                  react_default.a.createElement('br', null),
+                  'Portrait Studio',
+                  react_default.a.createElement('br', null),
+                  'Custom Decorating - ',
+                  react_default.a.createElement(
+                    'a',
+                    { href: 'javascript:void(0);', 'class': 'color-nightsky' },
+                    'Schedule Appointment'
+                  ),
+                  react_default.a.createElement('br', null),
+                  'Sephora - ',
+                  react_default.a.createElement(
+                    'a',
+                    { href: 'javascript:void(0);', 'class': 'color-nightsky' },
+                    'Schedule Appointment'
+                  ),
+                  react_default.a.createElement('br', null),
+                  'Salon - ',
+                  react_default.a.createElement(
+                    'a',
+                    { href: 'javascript:void(0);', 'class': 'color-nightsky' },
+                    'Schedule Appointment'
+                  )
+                )
+              ),
+              react_default.a.createElement(
+                'p',
+                { 'class': 'std-txt std-txt-S' },
+                react_default.a.createElement(
+                  'a',
+                  { href: 'javascript:void(0);', 'class': 'expand-collapse-btn', 'data-hide-text': 'Hide Hours & Services', 'data-target': '#storeLising1' + type },
+                  'View Hours & Services'
+                )
+              )
+            )
+          )
+        ),
+        react_default.a.createElement(
+          'div',
+          { 'class': 'change-my-store-listing' },
+          react_default.a.createElement(
+            'div',
+            { 'class': 'side-panel-row-wrap no-border' },
+            react_default.a.createElement(
+              'div',
+              { 'class': 'side-panel-row' },
+              react_default.a.createElement(
+                'div',
+                { 'class': 'side-panel-col side-panel-col-details' },
+                react_default.a.createElement(
+                  'h4',
+                  { 'class': 'mrg-S' },
+                  'Collin Creek Mall ',
+                  react_default.a.createElement(
+                    'span',
+                    { 'class': ' color-slate' },
+                    '(5.2mi)'
+                  )
+                ),
+                react_default.a.createElement(
+                  'p',
+                  { 'class': 'std-txt std-txt-S mrg-XS color-nightsky' },
+                  '2480 Preston Rd'
+                )
+              ),
+              react_default.a.createElement(
+                'div',
+                { 'class': 'side-panel-col-button' },
+                react_default.a.createElement(
+                  'a',
+                  { href: 'javascript:void(0);', 'class': 'btn btn-M btn-full btn-primary' },
+                  'Set Store'
+                )
+              )
+            ),
+            react_default.a.createElement(
+              'div',
+              { 'class': 'side-panel-col-full' },
+              react_default.a.createElement(
+                'div',
+                { 'class': 'expand-collapse-section change-my-store-details', id: 'storeLising2' + type },
+                react_default.a.createElement(
+                  'div',
+                  { 'class': 'std-txt std-txt-S mrg-M color-nightsky' },
+                  react_default.a.createElement(
+                    'a',
+                    { href: 'javascript:void(0);', 'class': 'color-nightsky' },
+                    'Get Directions'
+                  ),
+                  ' | 972-578-8667'
+                ),
+                react_default.a.createElement(
+                  'div',
+                  { 'class': 'std-txt std-txt-S mrg-M color-slate' },
+                  'Mon-Thu : 10am-10pm',
+                  react_default.a.createElement('br', null),
+                  'Fri : 9am-11pm',
+                  react_default.a.createElement('br', null),
+                  'Sat : 8am-11pm',
+                  react_default.a.createElement('br', null),
+                  'Sun : 9am-10pm',
+                  react_default.a.createElement('br', null),
+                  react_default.a.createElement('br', null),
+                  react_default.a.createElement(
+                    'strong',
+                    { 'class': 'color-nightsky' },
+                    'Store Services:'
+                  ),
+                  react_default.a.createElement('br', null),
+                  'Jewelry',
+                  react_default.a.createElement('br', null),
+                  'Big and Tall',
+                  react_default.a.createElement('br', null),
+                  'Wedding Registry',
+                  react_default.a.createElement('br', null),
+                  'TV and Home Theater',
+                  react_default.a.createElement('br', null),
+                  'Major Appliances',
+                  react_default.a.createElement('br', null),
+                  'Optical',
+                  react_default.a.createElement('br', null),
+                  'Portrait Studio',
+                  react_default.a.createElement('br', null),
+                  'Custom Decorating - ',
+                  react_default.a.createElement(
+                    'a',
+                    { href: 'javascript:void(0);', 'class': 'color-nightsky' },
+                    'Schedule Appointment'
+                  ),
+                  react_default.a.createElement('br', null),
+                  'Sephora - ',
+                  react_default.a.createElement(
+                    'a',
+                    { href: 'javascript:void(0);', 'class': 'color-nightsky' },
+                    'Schedule Appointment'
+                  ),
+                  react_default.a.createElement('br', null),
+                  'Salon - ',
+                  react_default.a.createElement(
+                    'a',
+                    { href: 'javascript:void(0);', 'class': 'color-nightsky' },
+                    'Schedule Appointment'
+                  )
+                )
+              ),
+              react_default.a.createElement(
+                'p',
+                { 'class': 'std-txt std-txt-S' },
+                react_default.a.createElement(
+                  'a',
+                  { href: 'javascript:void(0);', 'class': 'expand-collapse-btn', 'data-hide-text': 'Hide Hours & Services', 'data-target': '#storeLising2' + type },
+                  'View Hours & Services'
+                )
+              )
+            )
+          )
+        )
+      );
+    }
+  }, {
+    key: 'navSet',
+    value: function navSet(linkSet) {
+      return react_default.a.createElement(
+        'li',
+        { 'class': 'main-menu-tier1-li' },
+        react_default.a.createElement(
+          'a',
+          { href: 'javascript:void(0)', 'class': 'main-menu-tier1-link' },
+          react_default.a.createElement(
+            'span',
+            { 'class': 'main-menu-tier1-link-thumb' },
+            react_default.a.createElement('img', { src: linkSet.thumb, alt: '' })
+          ),
+          linkSet.name
+        ),
+        react_default.a.createElement(
+          'ul',
+          { 'class': 'main-menu-tier2-ul' },
+          react_default.a.createElement(
+            'li',
+            { 'class': 'main-menu-secondary-hidden-lg-up color-lightgrey-bg department-first-child' },
+            react_default.a.createElement(
+              'span',
+              { 'class': 'main-menu-tier1-link' },
+              react_default.a.createElement(
+                'span',
+                { 'class': 'main-menu-tier1-link-thumb' },
+                react_default.a.createElement('img', { src: linkSet.thumb, alt: '' })
+              ),
+              linkSet.name
+            )
+          ),
+          linkSet.subLinks.map(function (link, index) {
+            return react_default.a.createElement(
+              'li',
+              { key: index, 'class': 'main-menu-tier2-li' },
+              react_default.a.createElement(
+                'a',
+                { href: 'javascript:void(0)', 'class': 'main-menu-tier2-link' },
+                link.name
+              ),
+              react_default.a.createElement(
+                'ul',
+                { 'class': 'main-menu-tier3-ul' },
+                link.sublinks2.map(function (name, index) {
+                  return react_default.a.createElement(
+                    'li',
+                    { key: index, 'class': 'main-menu-tier3-li' },
+                    react_default.a.createElement(
+                      'a',
+                      { href: 'javascript:void(0)', 'class': 'main-menu-tier3-link' },
+                      name
+                    )
+                  );
+                })
+              )
+            );
+          })
+        )
+      );
+    }
+  }, {
+    key: 'sidePaneler',
+    value: function sidePaneler(indexObj) {
+
+      jquery_default()('.slide-panel-from-right').each(function (indx, obj) {
+        indexObj == indx ? jquery_default()(obj).addClass('is-visible') : jquery_default()(obj).removeClass('is-visible');
+      });
+    }
+  }, {
+    key: 'componentDidMount',
+    value: function componentDidMount() {
+
+      jquery_default()('.cancel-btn').on('click', function () {
+        jquery_default()('#changeMyStoreZipLinkDesktop').css('display', 'block');
+        jquery_default()('#changeMyStoreZipDesktop').css('display', 'none');
+        jquery_default()('#changeMyStoreZipLinkMobile').css('display', 'block');
+        jquery_default()('#changeMyStoreZipMobile').css('display', 'none');
+      });
+
+      !function (factory) {
+        "use strict";
+        "function" == typeof define && __webpack_require__("nErl") ? define(["$"], factory) : jquery_default.a && !jquery_default.a.fn.hoverIntent && factory(jquery_default.a);
+      }(function ($) {
+        "use strict";
+        var cX,
+            cY,
+            _cfg = { interval: 100, sensitivity: 6, timeout: 0 },
+            INSTANCE_COUNT = 0,
+            track = function track(ev) {
+          cX = ev.pageX, cY = ev.pageY;
+        },
+            compare = function compare(ev, $el, s, cfg) {
+          if (Math.sqrt((s.pX - cX) * (s.pX - cX) + (s.pY - cY) * (s.pY - cY)) < cfg.sensitivity) return $el.off(s.event, track), delete s.timeoutId, s.isActive = !0, ev.pageX = cX, ev.pageY = cY, delete s.pX, delete s.pY, cfg.over.apply($el[0], [ev]);s.pX = cX, s.pY = cY, s.timeoutId = setTimeout(function () {
+            compare(ev, $el, s, cfg);
+          }, cfg.interval);
+        },
+            delay = function delay(ev, $el, s, out) {
+          return delete $el.data("hoverIntent")[s.id], out.apply($el[0], [ev]);
+        };$.fn.hoverIntent = function (handlerIn, handlerOut, selector) {
+          var instanceId = INSTANCE_COUNT++,
+              cfg = $.extend({}, _cfg);$.isPlainObject(handlerIn) ? (cfg = $.extend(cfg, handlerIn), $.isFunction(cfg.out) || (cfg.out = cfg.over)) : cfg = $.isFunction(handlerOut) ? $.extend(cfg, { over: handlerIn, out: handlerOut, selector: selector }) : $.extend(cfg, { over: handlerIn, out: handlerIn, selector: handlerOut });var handleHover = function handleHover(e) {
+            var ev = $.extend({}, e),
+                $el = $(this),
+                hoverIntentData = $el.data("hoverIntent");hoverIntentData || $el.data("hoverIntent", hoverIntentData = {});var state = hoverIntentData[instanceId];state || (hoverIntentData[instanceId] = state = { id: instanceId }), state.timeoutId && (state.timeoutId = clearTimeout(state.timeoutId));var mousemove = state.event = "mousemove.hoverIntent.hoverIntent" + instanceId;if ("mouseenter" === e.type) {
+              if (state.isActive) return;state.pX = ev.pageX, state.pY = ev.pageY, $el.off(mousemove, track).on(mousemove, track), state.timeoutId = setTimeout(function () {
+                compare(ev, $el, state, cfg);
+              }, cfg.interval);
+            } else {
+              if (!state.isActive) return;$el.off(mousemove, track), state.timeoutId = setTimeout(function () {
+                delay(ev, $el, state, cfg.out);
+              }, cfg.timeout);
+            }
+          };return this.on({ "mouseenter.hoverIntent": handleHover, "mouseleave.hoverIntent": handleHover }, cfg.selector);
+        };
+      });
+
+      jquery_default()('.dropdown-button').unbind('click').on('click', function () {
+        var parent_box = jquery_default()(this).closest('.dropdown-menu-block');
+        parent_box.siblings().find('.dropdown-menu').hide();
+        parent_box.find('.dropdown-menu').slideToggle(200, 'swing');
+        jquery_default()(this).toggleClass("arrow-down");
+
+        if (jquery_default()(".dropdown-button").hasClass("arrow-down")) {
+          if (jquery_default()('#menu-overlay').length == 0) jquery_default()("body").append('<div id="menu-overlay" class="menu-overlay"></div>');else jquery_default()('#menu-overlay').trigger('click');
+        } else {
+          jquery_default()("#menu-overlay").remove();
+        }
+      });
+
+      // $('#menu-overlay').on('click', function (e) {
+      jquery_default()('body').on('click', '#menu-overlay', function () {
+        jquery_default()("#menu-overlay").remove();
+        jquery_default()(".dropdown-menu").hide();
+        jquery_default()(".dropdown-button").removeClass("arrow-down");
+      });
+
+      jquery_default()('.side-panel-btn').unbind('click').on('click', function (event) {
+        // event.preventDefault();
+        var parent = jquery_default()(jquery_default()(this).attr('data-target'));
+        parent.addClass('is-visible');
+        if (jquery_default()(this).attr('id') == "mainMenuSidePanelButton") {
+          parent.addClass('is-enabled');
+        }
+      });
+
+      jquery_default()(window).resize(function () {
+        if (jquery_default()('#mainMenuSidePanelButton').filter(":visible").length < 1) {
+          jquery_default()('.side-panel-disable-desktop').removeClass('is-enabled');
+        }
+      });
+
+      jquery_default()('.side-panel').unbind('click').on('click', function (event) {
+        var closed = false;
+        if (jquery_default()(event.target).is('.side-panel')) {
+          jquery_default()(this).removeClass('is-visible');
+          closed = true;
+        } else if (jquery_default()(event.target).is('.side-panel-close') || jquery_default()(event.target).closest('a').hasClass('side-panel-close')) {
+          jquery_default()(event.target).closest('.side-panel').removeClass('is-visible');
+          closed = true;
+        }
+        if (closed === true && jquery_default()(this).find('.main-menu-reset').length > 0) {
+          setTimeout(function () {
+            jquery_default()('.main-menu-tier2-ul.tier2-click').removeClass('tier2-click');
+            jquery_default()('.main-menu-md-panel.tier2-click').removeClass('tier2-click');
+            jquery_default()('.side-panel-container').removeClass('tier2-open');
+          }, 400);
+        }
+        // event.preventDefault();
+      });
+
+      jquery_default()(".main-menu-secondary-li-shop-departments").hoverIntent({
+
+        over: function over() {
+          jquery_default()('.dropdown-menu').css('display', 'none');
+          if (jquery_default()("#mainMenusecondaryLightBox").length == 0) {
+            jquery_default()("body").append('<div id="mainMenusecondaryLightBox"></div>');
+            var top = 0;
+            if (jquery_default()(".main-menu-bar-secondary").length > 0) {
+              top = jquery_default()(".main-menu-bar-secondary").height() + jquery_default()(".main-menu-bar-secondary").offset().top;
+            }
+            jquery_default()("#mainMenusecondaryLightBox").fadeOut(0).fadeIn(200);
+          }
+          jquery_default()(".main-menu-secondary-li").addClass("main-menu-secondary-hover");
+        },
+        timeout: 400,
+        interval: 100,
+        out: function out() {
+          jquery_default()(".main-menu-secondary-li").removeClass("main-menu-secondary-hover");
+          jquery_default()("#mainMenusecondaryLightBox").fadeOut(300);
+          setTimeout(function () {
+            jquery_default()("#mainMenusecondaryLightBox").remove();
+          }, 500);
+          jquery_default()('.main-menu-tier1').removeClass('active-tier2').removeClass('active-tier3');
+        }
+      });
+
+      jquery_default()(".main-menu-tier1-li").hoverIntent({
+        over: function over() {
+          jquery_default()(".main-menu-tier1-li").removeClass('active');
+          jquery_default()(this).addClass("active");
+          jquery_default()(".main-menu-tier2-li.active").removeClass('active');
+          jquery_default()(".main-menu-tier2-li.to-activate").removeClass('to-activate');
+          jquery_default()(this).closest('.main-menu-tier1').addClass('active-tier2').removeClass('active-tier3');
+        },
+        timeout: 200,
+        interval: 100,
+        out: function out() {
+          jquery_default()(this).removeClass("active");
+        }
+      });
+
+      jquery_default()(".main-menu-tier2-li").hoverIntent({
+        over: function over() {
+          jquery_default()('.to-activate').removeClass('to-activate');
+          if (jquery_default()(this).closest('.main-menu-tier1').hasClass('active-tier3')) {
+            jquery_default()(".main-menu-tier2-li.active").removeClass('active');
+            jquery_default()(this).addClass("active");
+          } else {
+            jquery_default()(this).addClass("to-activate");
+            jquery_default()(".main-menu-tier2-li.active").removeClass('active');
+            setTimeout(function () {
+              if (jquery_default()('.to-activate').length > 0) {
+                jquery_default()(".main-menu-tier2-li.active").removeClass('active');
+                jquery_default()('.to-activate').removeClass('to-activate').addClass('active');
+              }
+            }, 500);
+          }
+
+          jquery_default()(this).closest('.main-menu-tier1').addClass('active-tier3');
+        },
+        timeout: 200,
+        interval: 100,
+        out: function out() {
+          if (jquery_default()(".main-menu-tier2-li.active").length < 1) {
+            jquery_default()(this).closest('.main-menu-tier1').removeClass('active-tier3');
+          }
+        }
+      });
+
+      jquery_default()(".main-menu-tier3-li").hoverIntent({
+        over: function over() {
+          jquery_default()(this).addClass("active");
+        },
+        timeout: 200,
+        interval: 100,
+        out: function out() {
+          jquery_default()(this).removeClass("active");
+        }
+      });
+
+      /* Navigation Mobile/Tablet */
+
+      jquery_default()(".main-menu-tier1-link").unbind('click').on('click', function (event) {
+        event.preventDefault();
+        jquery_default()('.main-menu-tier2-ul.tier2-click').removeClass('tier2-click');
+        jquery_default()('.main-menu-md-panel').removeClass('tier2-click');
+        jquery_default()(this).closest('.main-menu-tier1-li').find('.main-menu-tier2-ul').addClass('tier2-click');
+        jquery_default()('.side-panel-content').animate({ scrollTop: 0 }, { duration: 200 });
+        jquery_default()('.side-panel-container').addClass('tier2-open');
+      });
+
+      jquery_default()(".main-menu-tier2-link").unbind('click').on('click', function (event) {
+        event.preventDefault();
+        var target = jquery_default()(this).closest('.main-menu-tier2-li');
+        if (target.hasClass('tier3-click')) {
+          target.removeClass('tier3-click');
+        } else {
+          target.addClass('tier3-click');
+        }
+      });
+
+      jquery_default()(document).ready(function () {
+        jquery_default()('.main-menu-secondary-shop-departments').click(function () {
+          jquery_default()(".main-menu-secondary-li").toggleClass("main-menu-secondary-hover");
+          jquery_default()("#mainMenusecondaryLightBox").toggle();
+        });
+      });
+
+      jquery_default()(".tier2-close").unbind('click').on('click', function (event) {
+        event.preventDefault();
+
+        jquery_default()(this).closest('.main-menu-tier1-li').find('.main-menu-tier2-ul').addClass('tier2-click-remove');
+        jquery_default()(this).closest('.main-menu-md-panel').addClass('tier2-click-remove');
+        setTimeout(function () {
+          jquery_default()('.tier2-click-remove').removeClass('tier2-click-remove').removeClass('tier2-click');
+        }, 400);
+
+        jquery_default()('.side-panel-container').removeClass('tier2-open');
+      });
+
+      jquery_default()(".main-menu-md-panel-btn").unbind('click').on('click', function (event) {
+        event.preventDefault();
+        jquery_default()('.main-menu-tier2-ul.tier2-click').removeClass('tier2-click');
+        jquery_default()(this).closest('.main-menu-md-panel-li').find('.main-menu-md-panel').addClass('tier2-click');
+        jquery_default()('.side-panel-content').animate({ scrollTop: 0 }, { duration: 1 });
+        jquery_default()('.side-panel-container').addClass('tier2-open');
+      });
+
+      jquery_default()(".main-menu-reset").on('click', function (event) {
+        event.preventDefault();
+        jquery_default()('.side-panel-container').trigger('click');
+      });
+
+      jquery_default()('.expand-collapse-btn').unbind('click').on('click', function (event) {
+        var target = jquery_default()(jquery_default()(this).attr('data-target'));
+
+        var duration = 400;
+        if (jquery_default()(this).attr('data-duration')) {
+          duration = jquery_default()(this).attr('data-duration');
+        }
+
+        if (target.hasClass('is-visible')) {
+          if (jquery_default()(this).attr('data-show-text')) {
+            jquery_default()(this).text(jquery_default()(this).attr('data-show-text'));
+          }
+          if (duration > 0) {
+            target.removeClass('is-visible').slideUp(duration);
+          } else {
+            target.removeClass('is-visible').css('display', 'none');
+          }
+        } else {
+          if (jquery_default()(this).attr('data-hide-text')) {
+            jquery_default()(this).attr('data-show-text', jquery_default()(this).text());
+            jquery_default()(this).text(jquery_default()(this).attr('data-hide-text'));
+          }
+          if (duration > 0) {
+            target.addClass('is-visible').slideDown(duration);
+          } else {
+            target.addClass('is-visible').css('display', 'block');
+          }
+          if (jquery_default()(this).attr('data-hide-on-open-target')) {
+            jquery_default()(jquery_default()(this).attr('data-hide-on-open-target')).css('display', 'none');
+          }
+        }
+      });
+
+      jquery_default()('#menuPrimarySearch').focus(function () {
+
+        if (jquery_default()(window).width() >= 1024) {
+          jquery_default()(".main-menu-primary-rewards, .main-menu-primary-account, .track-order").hide(400);
+          jquery_default()(this).attr('data-default', jquery_default()(this).width());
+        } else {
+          jquery_default()(".main-menu-primary-rewards, .main-menu-primary-account, .track-order").show();
+        }
+      }).blur(function () {
+        if (jquery_default()("#menuPrimarySearch").val() == "") {
+          jquery_default()('.main-menu').removeClass('main-menu-search-open');
+          jquery_default()(".main-menu-primary-rewards, .main-menu-primary-account, .track-order").show(400);
+        }
+      });
+
+      jquery_default()(".search-close-icon").click(function () {
+        jquery_default()("#menuPrimarySearch").val('').focus();
+      });
+
+      //Preview top nav without design system wrapper
+      jquery_default()("#HideDesignSystem").unbind('click').on('click', function (event) {
+        jquery_default()(this).toggleClass('active');
+        if (jquery_default()(this).hasClass('active')) {
+          jquery_default()(this).text('Show Design System Wrapper');
+          jquery_default()(".design-system-nav-col").css('display', 'none');
+          jquery_default()(".design-system-content").css('padding', 0);
+          jquery_default()(".design-system-inner-content").css('padding', 0);
+          jquery_default()(".design-system-enable-hide").css('display', 'none');
+          jquery_default()(".design-system-nav-mobile").css('display', 'none');
+          jquery_default()(".design-system-wrap").css('margin', 0);
+        } else {
+          jquery_default()(this).text('Hide Design System Wrapper');
+          jquery_default()(".design-system-nav-col").removeAttr('style');
+          jquery_default()(".design-system-content").removeAttr('style');
+          jquery_default()(".design-system-inner-content").removeAttr('style');
+          jquery_default()(".design-system-enable-hide").removeAttr('style');
+          jquery_default()(".design-system-nav-mobile").removeAttr('style');
+          jquery_default()(".design-system-wrap").removeAttr('style');
+        }
+      });
+
+      //slideout panel
+
+      jquery_default()('.side-panel-btn').unbind('click').on('click', function (event) {
+        // event.preventDefault();
+        var parent = jquery_default()(jquery_default()(this).attr('data-target'));
+        parent.addClass('is-visible');
+      });
+
+      jquery_default()('.side-panel').unbind('click').on('click', function (event) {
+        if (jquery_default()(event.target).is('.side-panel')) {
+          jquery_default()(this).removeClass('is-visible');
+        } else if (jquery_default()(event.target).is('.side-panel-close') || jquery_default()(event.target).closest('a').hasClass('side-panel-close')) {
+          jquery_default()(event.target).closest('.side-panel').removeClass('is-visible');
+        }
+        // event.preventDefault();
+      });
+
+      // show password
+      Array.from(document.getElementsByClassName('show-pwd')).map(function (el) {
+        el.onclick = onShowPwd;
+      });
+
+      function onShowPwd(evt) {
+        var textid = evt.target.getAttribute('data-textid');
+        var passwordElement = document.getElementById(textid);
+        var currentType = passwordElement.getAttribute('type');
+        var newType = currentType == "password" ? 'text' : 'password';
+        passwordElement.setAttribute('type', newType);
+        evt.target.innerHTML = newType == 'password' ? 'show' : 'hide';
+      }
+      var self = this;
+      jquery_default()(function () {
+        jquery_default()(".phone-number").keypress(function (e) {
+          if (e.which != 8 && e.which != 0 && (e.which < 48 || e.which > 57)) {
+            return false;
+          }
+          var curchr = this.value.length;
+          var curval = jquery_default()(this).val();
+          if (curchr == 3) {
+            jquery_default()(this).val(curval + "-");
+          } else if (curchr == 7) {
+            jquery_default()(this).val(curval + "-");
+          }
+          jquery_default()(this).attr('maxlength', '12');
+        });
+
+        jquery_default()('#siginForgotPswd,#siginCreateAct,#createmyAccount,#siginmyAccount,#siginHome,#signOut').click(function (e) {
+          switch (jquery_default()(e.target).attr('id')) {
+            case "siginCreateAct":
+              self.sidePaneler(4);
+              break;
+            case "siginForgotPswd":
+              self.sidePaneler(3);
+              break;
+            case "createmyAccount":
+              self.sidePaneler(0);
+              break;
+            case "siginmyAccount":
+              self.sidePaneler(0);
+              break;
+            case "siginHome":
+              self.sidePaneler(1);
+              break;
+            case "signOut":
+              self.sidePaneler(5);
+              break;
+          }
+        });
+      });
+    }
+  }, {
+    key: 'render',
+    value: function render() {
+      return react_default.a.createElement(
+        'div',
+        null,
+        react_default.a.createElement(
+          'div',
+          { 'class': 'row design-system-enable-hide' },
+          react_default.a.createElement(
+            'div',
+            { 'class': 'row' },
+            react_default.a.createElement(
+              'div',
+              { 'class': 'sm12 columns' },
+              react_default.a.createElement(
+                'p',
+                { 'class': 'S' },
+                react_default.a.createElement('br', null),
+                react_default.a.createElement(
+                  'a',
+                  { href: 'javascript:void(0);', id: 'HideDesignSystem' },
+                  'Hide Design System Wrapper'
+                )
+              ),
+              react_default.a.createElement('br', null),
+              react_default.a.createElement('br', null)
+            )
+          )
+        ),
+        react_default.a.createElement(
+          'header',
+          { 'class': 'main-menu' },
+          react_default.a.createElement(
+            'div',
+            { 'class': 'main-menu-promotional-banner' },
+            react_default.a.createElement(
+              'div',
+              { 'class': 'main-menu-promotional-banner-content' },
+              react_default.a.createElement(
+                'p',
+                { 'class': 'S S-at-S mrg-zero main-menu-promotional-banner-text' },
+                'Promotional font size is 14px\u2026 ',
+                react_default.a.createElement(
+                  'a',
+                  { href: 'javascript:void(0);' },
+                  'See Details'
+                )
+              ),
+              react_default.a.createElement(
+                'p',
+                { 'class': 'S S-at-S mrg-zero main-menu-promotional-banner-link hide-for-large-down' },
+                ' ',
+                react_default.a.createElement(
+                  'a',
+                  { href: 'javascript:void(0);' },
+                  'Accessible View'
+                ),
+                ' '
+              )
+            )
+          ),
+          react_default.a.createElement(
+            'div',
+            { 'class': 'main-menu-bar-primary color-penneyred-bg' },
+            react_default.a.createElement(
+              'ul',
+              { 'class': 'main-menu-primary' },
+              react_default.a.createElement(
+                'li',
+                { 'class': 'main-menu-primary-item main-menu-primary-logo' },
+                ' ',
+                react_default.a.createElement(
+                  'span',
+                  { 'class': 'hide-for-large-up' },
+                  ' ',
+                  react_default.a.createElement(
+                    'a',
+                    { title: 'JCPenney Main Menu', 'aria-label': 'JCPenney Main Menu', href: 'javascript:void(0);', 'class': 'side-panel-btn', 'data-target': '#mainMenusecondary', id: 'mainMenuSidePanelButton' },
+                    react_default.a.createElement('div', { 'class': 'main-menu-primary-menu-svg icon', dangerouslySetInnerHTML: { __html: header_menuImage } })
+                  ),
+                  ' '
+                ),
+                ' ',
+                react_default.a.createElement(
+                  'a',
+                  { title: 'JCPenney Home', 'aria-label': 'JCPenney Home Page', href: 'javascript:void(0);' },
+                  react_default.a.createElement('div', { 'class': 'main-menu-primary-logo-svg', dangerouslySetInnerHTML: { __html: logoImage } })
+                ),
+                ' '
+              ),
+              react_default.a.createElement(
+                'li',
+                { 'class': 'main-menu-primary-item main-menu-primary-search' },
+                react_default.a.createElement(
+                  'div',
+                  { 'class': 'main-menu-primary-search-form search-block' },
+                  react_default.a.createElement(
+                    'form',
+                    { action: 'http://www.jcpenney.com/s/search' },
+                    react_default.a.createElement('input', { type: 'text', placeholder: 'Search Products', size: '20', required: true, 'aria-required': 'false', autocomplete: 'off', autocorrect: 'off', autocapitalize: 'off', spellcheck: 'off', id: 'menuPrimarySearch', 'class': 'input-text' }),
+                    react_default.a.createElement('button', { 'class': 'search-close-icon', type: 'reset' }),
+                    react_default.a.createElement(
+                      'button',
+                      { type: 'button', 'class': 'btn-search' },
+                      react_default.a.createElement('div', { 'class': 'main-menu-primary-search-icon color-lipstick-svg icon', dangerouslySetInnerHTML: { __html: header_searchImage } })
+                    )
+                  )
+                )
+              ),
+              react_default.a.createElement(
+                'li',
+                { 'class': 'main-menu-primary-item main-menu-primary-rewards hide-for-medium-down hide-for-sm-only hide-for-xs-only hide-for-xxs-only' },
+                react_default.a.createElement(
+                  'a',
+                  { href: 'javascript:void(0);' },
+                  react_default.a.createElement('span', { 'class': 'icon color-white-svg', dangerouslySetInnerHTML: { __html: header_jcpenneyRewardsImage } })
+                )
+              ),
+              react_default.a.createElement(
+                'li',
+                { 'class': 'main-menu-primary-item main-menu-primary-account' },
+                react_default.a.createElement(
+                  'div',
+                  { 'class': 'dropdown-menu-block' },
+                  react_default.a.createElement(
+                    'button',
+                    { type: 'button', tabindex: '-1', 'data-target': '#signIn', 'class': 'side-panel-btn' },
+                    react_default.a.createElement('div', { 'class': 'main-menu-primary-account-icon icon color-white-svg', dangerouslySetInnerHTML: { __html: accountNewImage } }),
+                    react_default.a.createElement(
+                      'div',
+                      { 'class': 'main-menu-primary-account-title show-for-large-only show-for-xlarge-only show-for-xxlarge-only hide-for-medium-down title-XS side-panel-btn' },
+                      'My Account'
+                    ),
+                    react_default.a.createElement(
+                      'div',
+                      { 'class': 'main-menu-primary-account-link show-for-large-only show-for-xlarge-only show-for-xxlarge-only hide-for-medium-down title-M side-panel-btn' },
+                      'Sign In'
+                    )
+                  )
+                )
+              ),
+              react_default.a.createElement(
+                'li',
+                { 'class': 'main-menu-primary-item track-order hide-for-medium-down hide-for-sm-only hide-for-xs-only hide-for-xxs-only' },
+                react_default.a.createElement(
+                  'span',
+                  { 'class': 'color-white title-XS' },
+                  'Track My'
+                ),
+                react_default.a.createElement(
+                  'span',
+                  { 'class': 'title-M color-white' },
+                  'Orders'
+                )
+              ),
+              react_default.a.createElement(
+                'li',
+                { 'class': 'main-menu-primary-item main-menu-primary-cart' },
+                ' ',
+                react_default.a.createElement(
+                  'a',
+                  { href: 'javascript:void(0);', 'class': 'main-menu-primary-cart-icon-full' },
+                  ' ',
+                  react_default.a.createElement(
+                    'span',
+                    { 'class': 'main-menu-primary-cart-icon-full-items' },
+                    '28'
+                  ),
+                  react_default.a.createElement('div', { 'class': 'main-menu-primary-cart-icon-full-icon icon color-white-svg', dangerouslySetInnerHTML: { __html: header_cartFullImage } })
+                ),
+                ' '
+              )
+            )
+          ),
+          react_default.a.createElement(
+            'div',
+            { 'class': 'main-menu-bar-secondary' },
+            react_default.a.createElement(
+              'div',
+              { 'class': 'side-panel side-panel-disable-desktop slide-panel-from-left main-menu-bar-secondary-panel', id: 'mainMenusecondary' },
+              react_default.a.createElement(
+                'div',
+                { 'class': 'side-panel-container' },
+                react_default.a.createElement(
+                  'div',
+                  { 'class': 'side-panel-container-inner-container' },
+                  react_default.a.createElement(
+                    'header',
+                    { 'class': 'side-panel-header' },
+                    react_default.a.createElement(
+                      'h3',
+                      { 'class': 'promo-lbl promo-lbl-M side-panel-headline' },
+                      'Hi, Jesse'
+                    ),
+                    react_default.a.createElement(
+                      'a',
+                      { href: 'javascript:void(0);', 'class': 'title title-L tier2-close' },
+                      react_default.a.createElement('div', { 'class': 'tier2-close-icon icon', dangerouslySetInnerHTML: { __html: header_arrowleftImage } }),
+                      'Back '
+                    ),
+                    ' ',
+                    react_default.a.createElement(
+                      'a',
+                      { href: 'javascript:void(0);', 'class': 'side-panel-close main-menu-reset' },
+                      react_default.a.createElement('div', { 'class': 'change-my-store-icon-close icon', dangerouslySetInnerHTML: { __html: header_closeImage } })
+                    ),
+                    ' '
+                  ),
+                  react_default.a.createElement(
+                    'div',
+                    { 'class': 'side-panel-content' },
+                    react_default.a.createElement(
+                      'div',
+                      { 'class': 'main-menu-bar-secondary-container' },
+                      react_default.a.createElement(
+                        'div',
+                        { 'class': 'main-menu-secondary-left' },
+                        react_default.a.createElement(
+                          'ul',
+                          { 'class': 'main-menu-secondary title title-S' },
+                          react_default.a.createElement(
+                            'li',
+                            { 'class': 'main-menu-secondary-li main-menu-secondary-li-shop-departments main-menu-secondary-open' },
+                            react_default.a.createElement(
+                              'button',
+                              { 'class': 'main-menu-secondary-shop-departments hide-for-medium-down' },
+                              react_default.a.createElement('div', { 'class': 'main-menu-secondary-shop-departments-menu-svg icon color-nightsky-svg', dangerouslySetInnerHTML: { __html: header_menuImage } }),
+                              react_default.a.createElement(
+                                'span',
+                                { 'class': 'main-menu-secondary-shop-departments-menu-label' },
+                                'Shop Departments'
+                              ),
+                              ' '
+                            ),
+                            react_default.a.createElement(
+                              'div',
+                              { 'class': 'main-menu-tier1' },
+                              react_default.a.createElement(
+                                'ul',
+                                { 'class': 'main-menu-md-down' },
+                                react_default.a.createElement(
+                                  'li',
+                                  null,
+                                  ' ',
+                                  react_default.a.createElement(
+                                    'a',
+                                    { href: 'javascript:void(0);', 'class': 'main-menu-tier1-button-md-down main-menu-md-primary' },
+                                    react_default.a.createElement('span', { dangerouslySetInnerHTML: { __html: accountNewImage } }),
+                                    'My Account'
+                                  ),
+                                  ' '
+                                ),
+                                react_default.a.createElement(
+                                  'li',
+                                  null,
+                                  ' ',
+                                  react_default.a.createElement(
+                                    'a',
+                                    { href: 'javascript:void(0);', 'class': 'main-menu-tier1-button-md-down main-menu-md-primary' },
+                                    react_default.a.createElement('span', { dangerouslySetInnerHTML: { __html: trackOrderImage } }),
+                                    'Track My Order'
+                                  ),
+                                  ' '
+                                ),
+                                react_default.a.createElement(
+                                  'li',
+                                  { 'class': 'main-menu-md-panel-li main-menu-tier1-border' },
+                                  ' ',
+                                  react_default.a.createElement(
+                                    'a',
+                                    { href: 'javascript:void(0);', 'class': 'main-menu-tier1-button-md-down main-menu-md-primary' },
+                                    react_default.a.createElement('span', { dangerouslySetInnerHTML: { __html: header_storeNewImage } }),
+                                    ' Find a Store'
+                                  ),
+                                  react_default.a.createElement(
+                                    'div',
+                                    { 'class': 'main-menu-md-panel' },
+                                    ' ',
+                                    this.changeMyStoreContent('Mobile'),
+                                    ' '
+                                  )
+                                )
+                              ),
+                              react_default.a.createElement(
+                                'ul',
+                                { 'class': 'main-menu-tier1-ul' },
+                                react_default.a.createElement(
+                                  'span',
+                                  { 'class': 'department-label title title-S' },
+                                  react_default.a.createElement(
+                                    'strong',
+                                    null,
+                                    'Departments'
+                                  )
+                                ),
+                                this.navSet({
+                                  name: "For The Home",
+                                  thumb: '/images/design-system/fpo/navigation/nav-mobile-for-the-home.jpg',
+                                  subLinks: [{
+                                    name: 'Furniture',
+                                    sublinks2: ['View All Furniture', 'Sofas', 'Chairs & Recliners']
+                                  }, {
+                                    name: 'Matresses',
+                                    sublinks2: ['View All Matresses', 'Matresses']
+                                  }]
+                                }),
+                                this.navSet({
+                                  name: "Bed & Bath",
+                                  thumb: '/images/design-system/fpo/navigation/nav-mobile-bed-and-bath.jpg',
+                                  subLinks: [{
+                                    name: 'Bedding',
+                                    sublinks2: ['Comforters & Bedding Sets']
+                                  }, {
+                                    name: 'Bedding Basics',
+                                    sublinks2: ['Matresses Pads & Toppers']
+                                  }]
+                                }),
+                                this.navSet({
+                                  name: "Window",
+                                  thumb: '/images/design-system/fpo/navigation/nav-mobile-window.jpg',
+                                  subLinks: [{
+                                    name: 'Window Treatments',
+                                    sublinks2: ['Curtains & Drapes']
+                                  }]
+                                }),
+                                this.navSet({
+                                  name: "Appliances",
+                                  thumb: '/images/design-system/fpo/navigation/nav-mobile-appliances.jpg',
+                                  subLinks: [{
+                                    name: 'Kitchen Appliances',
+                                    sublinks2: ['Refrigerators']
+                                  }]
+                                }),
+                                this.navSet({
+                                  name: "Women",
+                                  thumb: '/images/design-system/fpo/navigation/nav-mobile-women.jpg',
+                                  subLinks: [{
+                                    name: 'Holiday',
+                                    sublinks2: ['$25 Diamonds']
+                                  }]
+                                }),
+                                this.navSet({
+                                  name: "Lingerie",
+                                  thumb: '/images/design-system/fpo/navigation/nav-mobile-lingerie.jpg',
+                                  subLinks: [{
+                                    name: 'Bras',
+                                    sublinks2: ['Full Figure Bras']
+                                  }]
+                                }),
+                                this.navSet({
+                                  name: "Men",
+                                  thumb: '/images/design-system/fpo/navigation/nav-mobile-men.jpg',
+                                  subLinks: [{
+                                    name: 'Shop Clothing',
+                                    sublinks2: ['Shirts']
+                                  }]
+                                }),
+                                this.navSet({
+                                  name: "Juniors",
+                                  thumb: '/images/design-system/fpo/navigation/nav-mobile-juniors.jpg',
+                                  subLinks: [{
+                                    name: 'Holiday',
+                                    sublinks2: ['Nike']
+                                  }]
+                                }),
+                                this.navSet({
+                                  name: "Kids",
+                                  thumb: '/images/design-system/fpo/navigation/nav-mobile-kids.jpg',
+                                  subLinks: [{
+                                    name: 'Boys',
+                                    sublinks2: ['Shop All Boys']
+                                  }]
+                                }),
+                                this.navSet({
+                                  name: "Baby",
+                                  thumb: '/images/design-system/fpo/navigation/nav-mobile-baby.jpg',
+                                  subLinks: [{
+                                    name: 'Shop by Size',
+                                    sublinks2: ['Baby Boy Clothes 0-24 Months']
+                                  }]
+                                }),
+                                this.navSet({
+                                  name: "Shoes",
+                                  thumb: '/images/design-system/fpo/navigation/nav-mobile-shoes.jpg',
+                                  subLinks: [{
+                                    name: 'Women\'s Shoes',
+                                    sublinks2: ['Women\'s Boots']
+                                  }]
+                                })
+                              )
+                            )
+                          ),
+                          react_default.a.createElement(
+                            'li',
+                            { 'class': 'main-menu-secondary-li main-menu-secondary-li-primary main-menu-secondary-hidden-md-down' },
+                            ' ',
+                            react_default.a.createElement(
+                              'a',
+                              { href: 'javascript:void(0)' },
+                              'Same Day Pickup'
+                            ),
+                            ' '
+                          ),
+                          react_default.a.createElement(
+                            'li',
+                            { 'class': 'main-menu-secondary-li main-menu-secondary-li-primary main-menu-secondary-hidden-md-down' },
+                            ' ',
+                            react_default.a.createElement(
+                              'a',
+                              { href: 'javascript:void(0)' },
+                              'Gifts'
+                            ),
+                            ' '
+                          ),
+                          react_default.a.createElement(
+                            'li',
+                            { 'class': 'main-menu-secondary-li main-menu-secondary-li-primary main-menu-secondary-hidden-md-down' },
+                            ' ',
+                            react_default.a.createElement(
+                              'a',
+                              { href: 'javascript:void(0)' },
+                              'Toys'
+                            ),
+                            ' '
+                          ),
+                          react_default.a.createElement(
+                            'li',
+                            { 'class': 'main-menu-secondary-li main-menu-secondary-li-primary main-menu-secondary-hidden-lg-up' },
+                            ' ',
+                            react_default.a.createElement(
+                              'a',
+                              { href: 'javascript:void(0)', 'class': 'main-menu-md-primary' },
+                              'JCPenney Credit Card'
+                            ),
+                            ' '
+                          ),
+                          react_default.a.createElement(
+                            'li',
+                            { 'class': 'main-menu-secondary-li main-menu-secondary-li-primary main-menu-secondary-hidden-lg-up' },
+                            ' ',
+                            react_default.a.createElement(
+                              'a',
+                              { href: 'javascript:void(0)', 'class': 'main-menu-md-primary' },
+                              'Rewards'
+                            ),
+                            ' '
+                          ),
+                          react_default.a.createElement(
+                            'li',
+                            { 'class': 'main-menu-secondary-li main-menu-secondary-li-primary main-menu-secondary-hidden-lg-up' },
+                            ' ',
+                            react_default.a.createElement(
+                              'a',
+                              { href: 'javascript:void(0)', 'class': 'main-menu-md-primary' },
+                              'Store Ads'
+                            ),
+                            ' '
+                          ),
+                          react_default.a.createElement(
+                            'li',
+                            { 'class': 'main-menu-secondary-li main-menu-secondary-li-primary' },
+                            ' ',
+                            react_default.a.createElement(
+                              'a',
+                              { href: 'javascript:void(0)', 'class': 'main-menu-md-primary' },
+                              'My List'
+                            ),
+                            ' '
+                          ),
+                          react_default.a.createElement(
+                            'li',
+                            { 'class': 'main-menu-secondary-li main-menu-secondary-li-primary main-menu-secondary-li-highlight' },
+                            ' ',
+                            react_default.a.createElement(
+                              'a',
+                              { href: 'javascript:void(0)', 'class': 'main-menu-md-primary' },
+                              'Coupons'
+                            ),
+                            ' '
+                          ),
+                          react_default.a.createElement(
+                            'li',
+                            { 'class': 'main-menu-secondary-li main-menu-secondary-li-primary main-menu-secondary-hidden-lg-up border-top-menu' },
+                            ' ',
+                            react_default.a.createElement(
+                              'a',
+                              { href: 'javascript:void(0)', 'class': 'main-menu-md-primary' },
+                              'Need Help?'
+                            ),
+                            ' '
+                          ),
+                          react_default.a.createElement(
+                            'li',
+                            { 'class': 'main-menu-secondary-li main-menu-secondary-li-primary main-menu-secondary-hidden-lg-up' },
+                            ' ',
+                            react_default.a.createElement(
+                              'a',
+                              { href: 'javascript:void(0)', 'class': 'main-menu-md-primary' },
+                              'Accessible View'
+                            ),
+                            ' '
+                          ),
+                          react_default.a.createElement(
+                            'li',
+                            { 'class': 'main-menu-secondary-li main-menu-secondary-li-primary main-menu-secondary-hidden-lg-up border-top-menu' },
+                            ' ',
+                            react_default.a.createElement(
+                              'a',
+                              { href: 'javascript:void(0)', 'class': 'main-menu-md-primary' },
+                              'Sign Out'
+                            ),
+                            ' '
+                          )
+                        )
+                      ),
+                      react_default.a.createElement(
+                        'div',
+                        { 'class': 'main-menu-secondary-right main-menu-secondary-hidden-md-down' },
+                        react_default.a.createElement(
+                          'div',
+                          { 'class': 'dropdown-menu-block main-menu-secondary-my-store' },
+                          react_default.a.createElement(
+                            'button',
+                            { 'class': 'dropdown-button main-menu-tier1-button-md-down', type: 'button', tabindex: '-1' },
+                            react_default.a.createElement('span', { dangerouslySetInnerHTML: { __html: header_storeNewImage } }),
+                            react_default.a.createElement(
+                              'span',
+                              { 'class': 'find-store-button' },
+                              'Find a Store'
+                            )
+                          )
+                        )
+                      )
+                    )
+                  )
+                )
+              )
+            )
+          )
+        ),
+        react_default.a.createElement(
+          'div',
+          { 'class': 'side-panel slide-panel-from-right', id: 'myAccount' },
+          react_default.a.createElement(
+            'div',
+            { 'class': 'side-panel-container my-account-sidepanel' },
+            react_default.a.createElement(
+              'header',
+              { 'class': 'side-panel-header' },
+              react_default.a.createElement(
+                'h3',
+                { 'class': 'title title-L' },
+                'My Account Menu'
+              ),
+              react_default.a.createElement(
+                'a',
+                { href: 'javascript:void(0);', 'class': 'side-panel-close' },
+                react_default.a.createElement('div', { 'class': 'change-my-store-icon-close icon', dangerouslySetInnerHTML: { __html: header_closeImage } })
+              )
+            ),
+            react_default.a.createElement(
+              'div',
+              { 'class': 'side-panel-content my-account-container' },
+              react_default.a.createElement(
+                'div',
+                { 'class': 'my-account-top text-center' },
+                react_default.a.createElement('span', { 'class': 'account-logo', dangerouslySetInnerHTML: { __html: accountNewImage } }),
+                react_default.a.createElement(
+                  'h1',
+                  { 'class': 'title title-XXL' },
+                  'Hi, Ellen!'
+                ),
+                react_default.a.createElement(
+                  'p',
+                  { 'class': 'my-account-welcome' },
+                  'Welcome JCP Cardmember '
+                )
+              ),
+              react_default.a.createElement(
+                'div',
+                { 'class': 'my-account-list mrg-L' },
+                react_default.a.createElement(
+                  'ul',
+                  null,
+                  react_default.a.createElement(
+                    'li',
+                    { 'class': 'account-list-label color-concrete-svg' },
+                    react_default.a.createElement('span', { 'class': 'account-icon', dangerouslySetInnerHTML: { __html: header_accountImage } }),
+                    react_default.a.createElement(
+                      'a',
+                      { href: 'javascript:void(0)' },
+                      'My Account'
+                    )
+                  ),
+                  react_default.a.createElement(
+                    'li',
+                    { 'class': 'account-list-label color-concrete-svg' },
+                    react_default.a.createElement('span', { 'class': 'account-icon', dangerouslySetInnerHTML: { __html: trackOrderImage } }),
+                    react_default.a.createElement(
+                      'a',
+                      { href: 'javascript:void(0)' },
+                      'My Orders'
+                    )
+                  ),
+                  react_default.a.createElement(
+                    'li',
+                    { 'class': 'account-list-label color-concrete-svg' },
+                    react_default.a.createElement('span', { 'class': 'account-icon', dangerouslySetInnerHTML: { __html: header_idfillImage } }),
+                    react_default.a.createElement(
+                      'a',
+                      { href: 'javascript:void(0)' },
+                      'My Info'
+                    )
+                  ),
+                  react_default.a.createElement(
+                    'li',
+                    { 'class': 'account-list-label color-concrete-svg' },
+                    react_default.a.createElement('span', { 'class': 'account-icon', dangerouslySetInnerHTML: { __html: header_walletImage } }),
+                    react_default.a.createElement(
+                      'a',
+                      { href: 'javascript:void(0)' },
+                      'My Wallet'
+                    )
+                  ),
+                  react_default.a.createElement(
+                    'li',
+                    { 'class': 'account-list-label color-concrete-svg' },
+                    react_default.a.createElement('span', { 'class': 'account-icon', dangerouslySetInnerHTML: { __html: header_heartfillImage } }),
+                    react_default.a.createElement(
+                      'a',
+                      { href: 'javascript:void(0)' },
+                      'My Lists'
+                    )
+                  ),
+                  react_default.a.createElement(
+                    'li',
+                    { 'class': 'account-list-label color-concrete-svg' },
+                    react_default.a.createElement('span', { 'class': 'account-icon', dangerouslySetInnerHTML: { __html: rewardsFillImage } }),
+                    react_default.a.createElement(
+                      'a',
+                      { href: 'javascript:void(0)' },
+                      'My Rewards'
+                    )
+                  ),
+                  react_default.a.createElement(
+                    'li',
+                    { 'class': 'account-list-label color-concrete-svg' },
+                    react_default.a.createElement('span', { 'class': 'account-icon', dangerouslySetInnerHTML: { __html: appointmentFillImage } }),
+                    react_default.a.createElement(
+                      'a',
+                      { href: 'javascript:void(0)' },
+                      'My Appointments'
+                    )
+                  ),
+                  react_default.a.createElement(
+                    'li',
+                    { 'class': 'account-list-label color-concrete-svg' },
+                    react_default.a.createElement('span', { 'class': 'account-icon', dangerouslySetInnerHTML: { __html: header_cardjcpImage } }),
+                    react_default.a.createElement(
+                      'a',
+                      { href: 'javascript:void(0)' },
+                      'JCP Credit Card'
+                    )
+                  ),
+                  react_default.a.createElement(
+                    'li',
+                    { 'class': 'account-list-label color-concrete-svg' },
+                    react_default.a.createElement('span', { 'class': 'account-icon', dangerouslySetInnerHTML: { __html: accountNewImage } }),
+                    react_default.a.createElement(
+                      'a',
+                      { href: 'javascript:void(0)', id: 'signOut' },
+                      'Sign Out'
+                    )
+                  )
+                )
+              ),
+              react_default.a.createElement(
+                'div',
+                { 'class': 'card-member-status' },
+                react_default.a.createElement(
+                  'div',
+                  { 'class': 'member-section text-center' },
+                  react_default.a.createElement(
+                    'h2',
+                    { 'class': 'title title-L' },
+                    'Go for the Gold!  '
+                  ),
+                  react_default.a.createElement(
+                    'p',
+                    null,
+                    'Spend just $200 more to earn Gold cardmember status and reap the rewards! ',
+                    react_default.a.createElement(
+                      'a',
+                      { href: 'javascript:void(0);' },
+                      'Learn More '
+                    )
+                  )
+                ),
+                react_default.a.createElement(
+                  'div',
+                  { 'class': 'card-section' },
+                  react_default.a.createElement(
+                    'div',
+                    { 'class': 'card-jcp-progress' },
+                    react_default.a.createElement('span', { dangerouslySetInnerHTML: { __html: header_cardjcpredImage } })
+                  ),
+                  react_default.a.createElement(
+                    'div',
+                    { 'class': 'progress-bar progress-bar-rewards position-rel' },
+                    react_default.a.createElement(
+                      'span',
+                      { 'class': 'progress-bar-max-points' },
+                      '200'
+                    ),
+                    react_default.a.createElement(
+                      'div',
+                      { 'class': 'progress-bar-percent' },
+                      '150'
+                    )
+                  ),
+                  react_default.a.createElement(
+                    'div',
+                    { 'class': 'card-jcp-progress-right' },
+                    react_default.a.createElement('span', { dangerouslySetInnerHTML: { __html: header_cardjcpgoldImage } })
+                  )
+                )
+              )
+            )
+          )
+        ),
+        react_default.a.createElement(
+          'div',
+          { 'class': 'side-panel slide-panel-from-right', id: 'signIn' },
+          react_default.a.createElement(
+            'div',
+            { 'class': 'side-panel-container my-account-sidepanel' },
+            react_default.a.createElement(
+              'header',
+              { 'class': 'side-panel-header' },
+              react_default.a.createElement(
+                'h3',
+                { 'class': 'title title-L' },
+                'Sign In'
+              ),
+              react_default.a.createElement(
+                'a',
+                { href: 'javascript:void(0);', 'class': 'side-panel-close' },
+                react_default.a.createElement('div', { 'class': 'change-my-store-icon-close icon', dangerouslySetInnerHTML: { __html: header_closeImage } })
+              )
+            ),
+            react_default.a.createElement(
+              'div',
+              { 'class': 'side-panel-content my-account-container input-form' },
+              react_default.a.createElement(
+                'div',
+                { 'class': 'sm12 md12 columns row' },
+                react_default.a.createElement(
+                  'div',
+                  { 'class': 'form-float-label' },
+                  react_default.a.createElement('input', { 'class': 'form-control email-text input-text', id: 'email', type: 'text', placeholder: 'Email ' }),
+                  react_default.a.createElement(
+                    'label',
+                    { htmlFor: 'email' },
+                    'Email'
+                  )
+                ),
+                react_default.a.createElement(
+                  'div',
+                  { 'class': 'form-float-label password-form' },
+                  react_default.a.createElement('input', { 'class': 'form-control input-text', id: 'password1', maxLength: '16', type: 'password', placeholder: 'Password' }),
+                  react_default.a.createElement(
+                    'label',
+                    { htmlFor: 'password' },
+                    'Password'
+                  ),
+                  react_default.a.createElement(
+                    'a',
+                    { href: 'javascript:void(0);', 'data-textid': 'password1', 'class': 'show-pwd title-S' },
+                    'show'
+                  )
+                ),
+                react_default.a.createElement(
+                  'label',
+                  { 'class': 'checkbox fl-left' },
+                  react_default.a.createElement('input', { type: 'checkbox', defaultChecked: 'true' }),
+                  ' ',
+                  react_default.a.createElement(
+                    'span',
+                    null,
+                    'Remember Me'
+                  )
+                ),
+                react_default.a.createElement(
+                  'div',
+                  { 'class': 'fl-right std-txt std-txt-M mrg-L' },
+                  react_default.a.createElement(
+                    'a',
+                    { href: 'javascript:void(0);', id: 'siginForgotPswd' },
+                    'Forgot Password?'
+                  )
+                ),
+                react_default.a.createElement(
+                  'div',
+                  { 'class': 'text-center' },
+                  react_default.a.createElement(
+                    'a',
+                    { href: 'javascript:void();', role: 'button', 'class': 'btn btn-primary btn-M mrg-M col12', id: 'siginmyAccount' },
+                    'Sign In'
+                  )
+                ),
+                react_default.a.createElement(
+                  'p',
+                  { 'class': 'or-split text-center' },
+                  react_default.a.createElement(
+                    'span',
+                    null,
+                    'or'
+                  )
+                ),
+                react_default.a.createElement(
+                  'div',
+                  { 'class': 'text-center' },
+                  react_default.a.createElement(
+                    'a',
+                    { href: 'javascript:void();', id: 'siginCreateAct', role: 'button', 'class': 'btn btn-secondary btn-M mrg-M col12' },
+                    'Create Account'
+                  )
+                )
+              ),
+              react_default.a.createElement(
+                'div',
+                { 'class': 'my-account-bottom mrg-top-XL' },
+                react_default.a.createElement(
+                  'div',
+                  { 'class': 'menu-item' },
+                  react_default.a.createElement(
+                    'div',
+                    { 'class': 'my-account-list mrg-L' },
+                    react_default.a.createElement(
+                      'ul',
+                      null,
+                      react_default.a.createElement(
+                        'li',
+                        { 'class': 'account-list-label color-concrete-svg' },
+                        react_default.a.createElement('span', { 'class': 'account-icon', dangerouslySetInnerHTML: { __html: trackOrderImage } }),
+                        react_default.a.createElement(
+                          'a',
+                          { href: 'javascript:void(0)' },
+                          'My Orders'
+                        )
+                      ),
+                      react_default.a.createElement(
+                        'li',
+                        { 'class': 'account-list-label color-concrete-svg' },
+                        react_default.a.createElement('span', { 'class': 'account-icon', dangerouslySetInnerHTML: { __html: header_heartfillImage } }),
+                        react_default.a.createElement(
+                          'a',
+                          { href: 'javascript:void(0)' },
+                          'My Lists'
+                        )
+                      ),
+                      react_default.a.createElement(
+                        'li',
+                        { 'class': 'account-list-label color-concrete-svg' },
+                        react_default.a.createElement('span', { 'class': 'account-icon', dangerouslySetInnerHTML: { __html: rewardsFillImage } }),
+                        react_default.a.createElement(
+                          'a',
+                          { href: 'javascript:void(0)' },
+                          'My Rewards'
+                        )
+                      ),
+                      react_default.a.createElement(
+                        'li',
+                        { 'class': 'account-list-label color-concrete-svg' },
+                        react_default.a.createElement('span', { 'class': 'account-icon', dangerouslySetInnerHTML: { __html: header_cardjcpImage } }),
+                        react_default.a.createElement(
+                          'a',
+                          { href: 'javascript:void(0)' },
+                          'JCP Credit Card'
+                        )
+                      )
+                    )
+                  )
+                ),
+                react_default.a.createElement(
+                  'div',
+                  { 'class': 'card-item text-center col12' },
+                  react_default.a.createElement(
+                    'div',
+                    { 'class': 'card-container' },
+                    react_default.a.createElement(
+                      'div',
+                      { 'class': 'card-jcp dis-inline-block' },
+                      react_default.a.createElement('span', { 'class': 'dis-block', dangerouslySetInnerHTML: { __html: header_cardjcpredImage } })
+                    ),
+                    react_default.a.createElement(
+                      'div',
+                      { 'class': 'card-jcp-red card-jcp dis-inline-block' },
+                      react_default.a.createElement('span', { 'class': 'dis-block', dangerouslySetInnerHTML: { __html: header_cardjcpredImage } })
+                    ),
+                    react_default.a.createElement(
+                      'div',
+                      { 'class': 'card-jcp dis-inline-block' },
+                      react_default.a.createElement('span', { 'class': 'dis-block', dangerouslySetInnerHTML: { __html: header_cardjcpredImage } })
+                    )
+                  ),
+                  react_default.a.createElement(
+                    'div',
+                    { 'class': 'member-section text-center' },
+                    react_default.a.createElement(
+                      'h2',
+                      { 'class': 'title title-L' },
+                      'Earn Rewards 2x Faster'
+                    ),
+                    react_default.a.createElement(
+                      'span',
+                      { 'class': 'dis-block mrg-M' },
+                      'with your JCPenney Credit Card'
+                    )
+                  ),
+                  react_default.a.createElement(
+                    'div',
+                    { 'class': 'text-center' },
+                    react_default.a.createElement(
+                      'a',
+                      { href: 'javascript:void();', role: 'button', 'class': 'btn btn-secondary btn-M mrg-M col6' },
+                      'Apply Now'
+                    )
+                  ),
+                  react_default.a.createElement(
+                    'div',
+                    { 'class': 'text-center' },
+                    react_default.a.createElement(
+                      'span',
+                      { 'class': 'dis-block mrg-S' },
+                      'Already a cardmember? '
+                    ),
+                    react_default.a.createElement(
+                      'a',
+                      { 'class': 'mrg-M dis-block', href: 'javascript:void();' },
+                      'View Balance & Pay Bill'
+                    )
+                  )
+                )
+              )
+            )
+          )
+        ),
+        react_default.a.createElement(
+          'div',
+          { 'class': 'side-panel slide-panel-from-right', id: 'camMenu' },
+          react_default.a.createElement(
+            'div',
+            { 'class': 'side-panel-container my-account-sidepanel' },
+            react_default.a.createElement(
+              'header',
+              { 'class': 'side-panel-header' },
+              react_default.a.createElement(
+                'h3',
+                { 'class': 'title title-L' },
+                'Cam Menu'
+              ),
+              react_default.a.createElement(
+                'a',
+                { href: 'javascript:void(0);', 'class': 'side-panel-close' },
+                react_default.a.createElement('div', { 'class': 'change-my-store-icon-close icon', dangerouslySetInnerHTML: { __html: header_closeImage } })
+              )
+            ),
+            react_default.a.createElement(
+              'div',
+              { 'class': 'side-panel-content my-account-container cam-card-container' },
+              react_default.a.createElement(
+                'h3',
+                null,
+                'No / Unlinked JCP CC:'
+              ),
+              react_default.a.createElement(
+                'div',
+                { 'class': 'card-item text-center col12 mrg-L mrg-top-L' },
+                react_default.a.createElement(
+                  'div',
+                  { 'class': 'card-jcp dis-inline-block' },
+                  react_default.a.createElement('span', { 'class': 'dis-block', dangerouslySetInnerHTML: { __html: header_cardjcpredImage } })
+                ),
+                react_default.a.createElement(
+                  'div',
+                  { 'class': 'card-jcp-red card-jcp dis-inline-block mrg-top-S' },
+                  react_default.a.createElement('span', { 'class': 'dis-block', dangerouslySetInnerHTML: { __html: header_cardjcpredImage } })
+                ),
+                react_default.a.createElement(
+                  'div',
+                  { 'class': 'card-jcp dis-inline-block' },
+                  react_default.a.createElement('span', { 'class': 'dis-block', dangerouslySetInnerHTML: { __html: header_cardjcpredImage } })
+                ),
+                react_default.a.createElement(
+                  'div',
+                  { 'class': 'member-section text-center' },
+                  react_default.a.createElement(
+                    'h2',
+                    { 'class': 'title title-L' },
+                    'Earn Rewards 2x Faster'
+                  ),
+                  react_default.a.createElement(
+                    'span',
+                    { 'class': 'dis-block mrg-M' },
+                    'with your JCPenney Credit Card'
+                  )
+                ),
+                react_default.a.createElement(
+                  'div',
+                  { 'class': 'text-center' },
+                  react_default.a.createElement(
+                    'a',
+                    { href: 'javascript:void();', role: 'button', 'class': 'btn btn-secondary btn-M mrg-M' },
+                    'Apply Now'
+                  )
+                ),
+                react_default.a.createElement(
+                  'div',
+                  { 'class': 'text-center' },
+                  react_default.a.createElement(
+                    'span',
+                    { 'class': 'dis-block mrg-S' },
+                    'Already a cardmember? '
+                  ),
+                  react_default.a.createElement(
+                    'a',
+                    { 'class': 'mrg-M dis-block', href: 'javascript:void();' },
+                    'View Balance & Pay Bill'
+                  )
+                )
+              ),
+              react_default.a.createElement(
+                'h3',
+                null,
+                'Linked Red JCP CC:'
+              ),
+              react_default.a.createElement(
+                'div',
+                { 'class': 'card-member-status mrg-top-L mrg-L' },
+                react_default.a.createElement(
+                  'div',
+                  { 'class': 'member-section text-center' },
+                  react_default.a.createElement(
+                    'h2',
+                    { 'class': 'title title-L' },
+                    'Go for the Gold!  '
+                  ),
+                  react_default.a.createElement(
+                    'p',
+                    null,
+                    'Spend just $200 more to earn Gold cardmember status and reap the rewards! ',
+                    react_default.a.createElement(
+                      'a',
+                      { href: 'javascript:void(0);' },
+                      'Learn More '
+                    )
+                  )
+                ),
+                react_default.a.createElement(
+                  'div',
+                  { 'class': 'card-section' },
+                  react_default.a.createElement(
+                    'div',
+                    { 'class': 'card-jcp-progress' },
+                    react_default.a.createElement('span', { dangerouslySetInnerHTML: { __html: header_cardjcpredImage } })
+                  ),
+                  react_default.a.createElement(
+                    'div',
+                    { 'class': 'progress-bar progress-bar-rewards position-rel' },
+                    react_default.a.createElement(
+                      'span',
+                      { 'class': 'progress-bar-max-points' },
+                      '200'
+                    ),
+                    react_default.a.createElement(
+                      'div',
+                      { 'class': 'progress-bar-percent' },
+                      '150'
+                    )
+                  ),
+                  react_default.a.createElement(
+                    'div',
+                    { 'class': 'card-jcp-progress-right' },
+                    react_default.a.createElement('span', { dangerouslySetInnerHTML: { __html: header_cardjcpredImage } })
+                  )
+                )
+              ),
+              react_default.a.createElement(
+                'h3',
+                null,
+                'Linked Gold JCP CC:'
+              ),
+              react_default.a.createElement(
+                'div',
+                { 'class': 'card-member-status mrg-L' },
+                react_default.a.createElement(
+                  'div',
+                  { 'class': 'member-section text-center' },
+                  react_default.a.createElement(
+                    'h2',
+                    { 'class': 'title title-L' },
+                    'Platinum: It\u2019s Better Than Gold '
+                  ),
+                  react_default.a.createElement(
+                    'p',
+                    null,
+                    'Spend just $300 more to earn Gold cardmember status and reap the rewards! ',
+                    react_default.a.createElement(
+                      'a',
+                      { href: 'javascript:void(0);' },
+                      'Learn More '
+                    )
+                  )
+                ),
+                react_default.a.createElement(
+                  'div',
+                  { 'class': 'card-section' },
+                  react_default.a.createElement(
+                    'div',
+                    { 'class': 'card-jcp-progress' },
+                    react_default.a.createElement('span', { dangerouslySetInnerHTML: { __html: header_cardjcpredImage } })
+                  ),
+                  react_default.a.createElement(
+                    'div',
+                    { 'class': 'progress-bar progress-bar-rewards position-rel' },
+                    react_default.a.createElement(
+                      'span',
+                      { 'class': 'progress-bar-max-points' },
+                      '200'
+                    ),
+                    react_default.a.createElement(
+                      'div',
+                      { 'class': 'progress-bar-percent' },
+                      '150'
+                    )
+                  ),
+                  react_default.a.createElement(
+                    'div',
+                    { 'class': 'card-jcp-progress-right' },
+                    react_default.a.createElement('span', { dangerouslySetInnerHTML: { __html: header_cardjcpredImage } })
+                  )
+                )
+              ),
+              react_default.a.createElement(
+                'h3',
+                null,
+                'Linked Platinum JCP CC:'
+              ),
+              react_default.a.createElement(
+                'div',
+                { 'class': 'card-member-status' },
+                react_default.a.createElement(
+                  'div',
+                  { 'class': 'card-section card-collage' },
+                  react_default.a.createElement(
+                    'div',
+                    { 'class': 'card-jcp' },
+                    react_default.a.createElement('span', { dangerouslySetInnerHTML: { __html: header_cardjcpredImage } })
+                  ),
+                  react_default.a.createElement(
+                    'div',
+                    { 'class': 'card-jcp card-middle' },
+                    react_default.a.createElement('span', { dangerouslySetInnerHTML: { __html: header_cardjcpredImage } })
+                  ),
+                  react_default.a.createElement(
+                    'div',
+                    { 'class': 'card-jcp' },
+                    react_default.a.createElement('span', { dangerouslySetInnerHTML: { __html: header_cardjcpredImage } })
+                  )
+                ),
+                react_default.a.createElement(
+                  'div',
+                  { 'class': 'member-section text-center' },
+                  react_default.a.createElement(
+                    'h2',
+                    { 'class': 'title title-L' },
+                    'Platinum Cardmember'
+                  ),
+                  react_default.a.createElement(
+                    'p',
+                    null,
+                    'Spend just $328 more to earn Gold cardmember status and reap the rewards! ',
+                    react_default.a.createElement(
+                      'a',
+                      { href: 'javascript:void(0);' },
+                      'Learn More '
+                    )
+                  )
+                )
+              )
+            )
+          )
+        ),
+        react_default.a.createElement(
+          'div',
+          { 'class': 'side-panel slide-panel-from-right', id: 'forgotPassword' },
+          react_default.a.createElement(
+            'div',
+            { 'class': 'side-panel-container my-account-sidepanel' },
+            react_default.a.createElement(
+              'header',
+              { 'class': 'side-panel-header' },
+              react_default.a.createElement('span', { 'class': 'back-icon', dangerouslySetInnerHTML: { __html: header_arrowleftImage } }),
+              react_default.a.createElement(
+                'h3',
+                { 'class': 'title title-L back-to-sign', id: 'siginHome' },
+                'Back to Sign In'
+              ),
+              react_default.a.createElement(
+                'a',
+                { href: 'javascript:void(0);', 'class': 'side-panel-close' },
+                react_default.a.createElement('div', { 'class': 'change-my-store-icon-close icon', dangerouslySetInnerHTML: { __html: header_closeImage } })
+              )
+            ),
+            react_default.a.createElement(
+              'div',
+              { 'class': 'side-panel-content my-account-container input-form' },
+              react_default.a.createElement(
+                'div',
+                { 'class': 'sm12 md12 columns row' },
+                react_default.a.createElement(
+                  'div',
+                  { 'class': 'sm12 md12 columns text-center' },
+                  react_default.a.createElement(
+                    'h1',
+                    { 'class': 'mrg-M title title-XL' },
+                    'Forgot Your Password?'
+                  ),
+                  react_default.a.createElement(
+                    'div',
+                    { 'class': 'mrg-M std-txt std-txt-M color-nightsky' },
+                    'Enter the email address for your jcp.com account and we\'ll send you instructions to change your password.'
+                  )
+                ),
+                react_default.a.createElement(
+                  'div',
+                  { 'class': 'form-float-label' },
+                  react_default.a.createElement('input', { 'class': 'form-control email-text input-text', id: 'email', type: 'text', placeholder: 'Email' }),
+                  react_default.a.createElement(
+                    'label',
+                    { htmlFor: 'email' },
+                    'Email'
+                  )
+                ),
+                react_default.a.createElement(
+                  'div',
+                  { 'class': 'text-center' },
+                  react_default.a.createElement(
+                    'a',
+                    { href: 'javascript:void();', role: 'button', 'class': 'btn btn-primary btn-M mrg-M col12 color-white' },
+                    'Send Email'
+                  )
+                ),
+                react_default.a.createElement(
+                  'div',
+                  { 'class': 'mrg-M std-txt std-txt-M color-nightsky text-center' },
+                  'Having trouble accessing your account? If you\u2019re unable to change your password, please call our Customer Care team at 1-800-322-1189'
+                )
+              )
+            )
+          )
+        ),
+        react_default.a.createElement(
+          'div',
+          { 'class': 'side-panel slide-panel-from-right', id: 'createAccount' },
+          react_default.a.createElement(
+            'div',
+            { 'class': 'side-panel-container my-account-sidepanel' },
+            react_default.a.createElement(
+              'header',
+              { 'class': 'side-panel-header' },
+              react_default.a.createElement('span', { 'class': 'back-icon', dangerouslySetInnerHTML: { __html: header_arrowleftImage } }),
+              react_default.a.createElement(
+                'h3',
+                { 'class': 'title title-L back-to-sign', id: 'siginHome' },
+                'Back to Sign In'
+              ),
+              react_default.a.createElement(
+                'a',
+                { href: 'javascript:void(0);', 'class': 'side-panel-close' },
+                react_default.a.createElement('div', { 'class': 'change-my-store-icon-close icon', dangerouslySetInnerHTML: { __html: header_closeImage } })
+              )
+            ),
+            react_default.a.createElement(
+              'div',
+              { 'class': 'side-panel-content my-account-container input-form' },
+              react_default.a.createElement(
+                'div',
+                { 'class': 'sm12 md12 columns row' },
+                react_default.a.createElement(
+                  'div',
+                  { 'class': 'sm12 md12 columns row text-center' },
+                  react_default.a.createElement(
+                    'h1',
+                    { 'class': 'mrg-S title title-XL' },
+                    'Create Account'
+                  ),
+                  react_default.a.createElement(
+                    'div',
+                    { 'class': 'mrg-M std-txt std-txt-M color-nightsky' },
+                    'Save more and earn rewards'
+                  )
+                ),
+                react_default.a.createElement(
+                  'div',
+                  { 'class': 'form-float-label' },
+                  react_default.a.createElement('input', { 'class': 'form-control input-text', type: 'text', id: 'fname', placeholder: 'First Name' }),
+                  react_default.a.createElement(
+                    'label',
+                    { htmlFor: 'fname' },
+                    'First Name'
+                  )
+                ),
+                react_default.a.createElement(
+                  'div',
+                  { 'class': 'form-float-label' },
+                  react_default.a.createElement('input', { 'class': 'form-control input-text', type: 'text', id: 'lname', placeholder: 'Last Name' }),
+                  react_default.a.createElement(
+                    'label',
+                    { htmlFor: 'lname' },
+                    'Last Name'
+                  )
+                ),
+                react_default.a.createElement(
+                  'div',
+                  { 'class': 'form-float-label' },
+                  react_default.a.createElement('input', { 'class': 'form-control input-text phone-number', id: 'phonenumber', type: 'text', maxLength: '14', placeholder: 'Phone Number' }),
+                  react_default.a.createElement(
+                    'label',
+                    { htmlFor: 'phonenumber' },
+                    'Phone Number'
+                  )
+                ),
+                react_default.a.createElement(
+                  'div',
+                  { 'class': 'form-float-label' },
+                  react_default.a.createElement('input', { 'class': 'form-control email-text input-text', id: 'email', type: 'text', placeholder: 'Email ' }),
+                  react_default.a.createElement(
+                    'label',
+                    { htmlFor: 'email' },
+                    'Email'
+                  )
+                ),
+                react_default.a.createElement(
+                  'div',
+                  { 'class': 'form-float-label password-form' },
+                  react_default.a.createElement('input', { 'class': 'form-control input-text', id: 'password2', maxLength: '16', type: 'password', placeholder: 'Password' }),
+                  react_default.a.createElement(
+                    'label',
+                    { htmlFor: 'password' },
+                    'Password'
+                  ),
+                  react_default.a.createElement(
+                    'a',
+                    { href: 'javascript:void(0);', 'data-textid': 'password2', 'class': 'show-pwd title-S' },
+                    'show'
+                  )
+                ),
+                react_default.a.createElement(
+                  'div',
+                  { 'class': 'text-center' },
+                  react_default.a.createElement(
+                    'a',
+                    { href: 'javascript:void();', role: 'button', 'class': 'btn btn-primary btn-M mrg-M col12 color-white', id: 'createmyAccount' },
+                    'Create Account'
+                  )
+                ),
+                react_default.a.createElement(
+                  'div',
+                  { 'class': 'mrg-M std-txt std-txt-XS color-nightsky text-center md12 sm12 mrg-top-S' },
+                  'By creating an account, I agree to the Rewards ',
+                  react_default.a.createElement(
+                    'a',
+                    { href: 'javascript:void(0);' },
+                    'Terms & Conditions'
+                  ),
+                  ' and to receive email offers at the email address I provided.'
+                )
+              )
+            )
+          )
+        ),
+        react_default.a.createElement(
+          'div',
+          { 'class': 'side-panel slide-panel-from-right', id: 'signOut' },
+          react_default.a.createElement(
+            'div',
+            { 'class': 'side-panel-container my-account-sidepanel' },
+            react_default.a.createElement(
+              'header',
+              { 'class': 'side-panel-header' },
+              react_default.a.createElement(
+                'h3',
+                { 'class': 'title title-L' },
+                'Sign In'
+              ),
+              react_default.a.createElement(
+                'a',
+                { href: 'javascript:void(0);', 'class': 'side-panel-close' },
+                react_default.a.createElement('div', { 'class': 'change-my-store-icon-close icon', dangerouslySetInnerHTML: { __html: header_closeImage } })
+              )
+            ),
+            react_default.a.createElement(
+              'div',
+              { 'class': 'side-panel-content my-account-container input-form' },
+              react_default.a.createElement(
+                'div',
+                { 'class': 'sm12 md12 columns row' },
+                react_default.a.createElement(
+                  'div',
+                  { 'class': 'my-account-top text-center' },
+                  react_default.a.createElement(
+                    'h1',
+                    { 'class': 'title title-XL' },
+                    'You\u2019re Signed Out'
+                  ),
+                  react_default.a.createElement(
+                    'p',
+                    { 'class': 'my-account-welcome' },
+                    'In order to access your account information, you will need to sign in again.'
+                  )
+                ),
+                react_default.a.createElement(
+                  'div',
+                  { 'class': 'form-float-label' },
+                  react_default.a.createElement('input', { 'class': 'form-control email-text input-text', id: 'email', type: 'text', placeholder: 'Email ' }),
+                  react_default.a.createElement(
+                    'label',
+                    { htmlFor: 'email' },
+                    'Email'
+                  )
+                ),
+                react_default.a.createElement(
+                  'div',
+                  { 'class': 'form-float-label password-form' },
+                  react_default.a.createElement('input', { 'class': 'form-control input-text', id: 'password1', maxLength: '16', type: 'password', placeholder: 'Password' }),
+                  react_default.a.createElement(
+                    'label',
+                    { htmlFor: 'password' },
+                    'Password'
+                  ),
+                  react_default.a.createElement(
+                    'a',
+                    { href: 'javascript:void(0);', 'data-textid': 'password1', 'class': 'show-pwd title-S' },
+                    'show'
+                  )
+                ),
+                react_default.a.createElement(
+                  'label',
+                  { 'class': 'checkbox fl-left' },
+                  react_default.a.createElement('input', { type: 'checkbox', defaultChecked: 'true' }),
+                  ' ',
+                  react_default.a.createElement(
+                    'span',
+                    null,
+                    'Remember Me'
+                  )
+                ),
+                react_default.a.createElement(
+                  'div',
+                  { 'class': 'fl-right std-txt std-txt-M mrg-L' },
+                  react_default.a.createElement(
+                    'a',
+                    { href: 'javascript:void(0);', id: 'siginForgotPswd' },
+                    'Forgot Password?'
+                  )
+                ),
+                react_default.a.createElement(
+                  'div',
+                  { 'class': 'text-center' },
+                  react_default.a.createElement(
+                    'a',
+                    { href: 'javascript:void();', role: 'button', 'class': 'btn btn-primary btn-M mrg-M col12', id: 'siginmyAccount' },
+                    'Sign In'
+                  )
+                ),
+                react_default.a.createElement(
+                  'p',
+                  { 'class': 'or-split text-center' },
+                  react_default.a.createElement(
+                    'span',
+                    null,
+                    'or'
+                  )
+                ),
+                react_default.a.createElement(
+                  'div',
+                  { 'class': 'text-center' },
+                  react_default.a.createElement(
+                    'a',
+                    { href: 'javascript:void();', id: 'siginCreateAct', role: 'button', 'class': 'btn btn-secondary btn-M mrg-M col12' },
+                    'Create Account'
+                  )
+                )
+              )
+            )
+          )
+        )
+      );
+    }
+  }]);
+
+  return Header;
+}(react["Component"]);
+
+var header__default = header_Header;
+
+
+/* harmony default export */ var header = (header__default);
+;
+
+var header__temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(header_Header, 'Header', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/header/header.js');
+
+  __REACT_HOT_LOADER__.register(header__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/header/header.js');
+}();
+
+;
+// CONCATENATED MODULE: ./src/js/components/footer/footer.js
+var footer__createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+function footer__classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function footer__possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function footer__inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+
+
+
+var footer_devicephoneImage = __webpack_require__("oW2K");
+var footer_twitterfillImage = __webpack_require__("Oiyx");
+var footer_chatfillImage = __webpack_require__("Kr1e");
+var footer_facebooklineImage = __webpack_require__("2Oo2");
+var footer_twitterlineImage = __webpack_require__("whDz");
+var footer_pinterestlineImage = __webpack_require__("6spg");
+var footer_googlepluslineImage = __webpack_require__("wdiq");
+var footer_youtubelineImage = __webpack_require__("+Yl1");
+var footer_bloglineImage = __webpack_require__("qZ91");
+var cardJCPRed = __webpack_require__("plD6");
+var footer_customerserviceImage = __webpack_require__("b32E");
+
+var footer_Footer = function (_Component) {
+    footer__inherits(Footer, _Component);
+
+    function Footer() {
+        footer__classCallCheck(this, Footer);
+
+        return footer__possibleConstructorReturn(this, (Footer.__proto__ || Object.getPrototypeOf(Footer)).apply(this, arguments));
+    }
+
+    footer__createClass(Footer, [{
+        key: 'componentDidMount',
+        value: function componentDidMount() {
+
+            (function () {
+                var d = document,
+                    accordionToggles = d.querySelectorAll('.js-accordionTrigger'),
+                    setAria,
+                    setAccordionAria,
+                    switchAccordion,
+                    touchSupported = 'click' in window,
+                    pointerSupported = 'click' in window;
+
+                var skipClickDelay = function skipClickDelay(e) {
+                    e.preventDefault();
+                    e.target.click();
+                };
+
+                var setAriaAttr = function setAriaAttr(el, ariaType, newProperty) {
+                    el.setAttribute(ariaType, newProperty);
+                };
+                setAccordionAria = function setAccordionAria(el1, el2, expanded) {
+                    switch (expanded) {
+                        case "true":
+                            setAriaAttr(el1, 'aria-expanded', 'true');
+                            setAriaAttr(el2, 'aria-hidden', 'false');
+                            break;
+                        case "false":
+                            setAriaAttr(el1, 'aria-expanded', 'false');
+                            setAriaAttr(el2, 'aria-hidden', 'true');
+                            break;
+                        default:
+                            break;
+                    }
+                };
+                //function
+                switchAccordion = function switchAccordion(e) {
+                    console.log("triggered");
+                    e.preventDefault();
+                    var thisAnswer = e.target.parentNode.nextElementSibling;
+                    var thisQuestion = e.target;
+                    if (thisAnswer.classList.contains('is-collapsed')) {
+                        setAccordionAria(thisQuestion, thisAnswer, 'true');
+                    } else {
+                        setAccordionAria(thisQuestion, thisAnswer, 'false');
+                    }
+                    thisQuestion.classList.toggle('is-collapsed');
+                    thisQuestion.classList.toggle('is-expanded');
+                    thisAnswer.classList.toggle('is-collapsed');
+                    thisAnswer.classList.toggle('is-expanded');
+
+                    thisAnswer.classList.toggle('animateIn');
+                };
+                for (var i = 0, len = accordionToggles.length; i < len; i++) {
+                    if (touchSupported) {
+                        accordionToggles[i].addEventListener('touchstart', skipClickDelay, false);
+                    }
+                    if (pointerSupported) {
+                        accordionToggles[i].addEventListener('pointerdown', skipClickDelay, false);
+                    }
+                    accordionToggles[i].addEventListener('click', switchAccordion, false);
+                }
+            })();
+
+            //Preview top nav without design system wrapper
+            jquery_default()("#HideDesignSystem").unbind('click').on('click', function (event) {
+                jquery_default()(this).toggleClass('active');
+                if (jquery_default()(this).hasClass('active')) {
+                    jquery_default()(this).text('Show Design System Wrapper');
+                    jquery_default()(".design-system-nav-col").css('display', 'none');
+                    jquery_default()(".design-system-content").css('padding', 0);
+                    jquery_default()(".design-system-inner-content").css('padding', 0);
+                    jquery_default()(".design-system-enable-hide").css('display', 'none');
+                    jquery_default()(".design-system-nav-mobile").css('display', 'none');
+                    jquery_default()(".design-system-wrap").css('margin', 0);
+                } else {
+                    jquery_default()(this).text('Hide Design System Wrapper');
+                    jquery_default()(".design-system-nav-col").removeAttr('style');
+                    jquery_default()(".design-system-content").removeAttr('style');
+                    jquery_default()(".design-system-inner-content").removeAttr('style');
+                    jquery_default()(".design-system-enable-hide").removeAttr('style');
+                    jquery_default()(".design-system-nav-mobile").removeAttr('style');
+                    jquery_default()(".design-system-wrap").removeAttr('style');
+                }
+            });
+        }
+    }, {
+        key: 'render',
+        value: function render() {
+            return react_default.a.createElement(
+                'div',
+                null,
+                react_default.a.createElement(
+                    'footer',
+                    { 'class': 'footer-wrap', 'data-automation-id': 'jcp-footer', id: 'footer' },
+                    react_default.a.createElement(
+                        'div',
+                        { 'class': 'subscription-wrapper' },
+                        react_default.a.createElement(
+                            'ul',
+                            { 'data-automation-id': 'footer-block-subscribe', 'class': 'container-width col12' },
+                            react_default.a.createElement(
+                                'li',
+                                { 'class': 'subscription-row' },
+                                react_default.a.createElement(
+                                    'div',
+                                    { 'data-automation-id': 'promo-title', 'class': 'subs-title std-txt title-S color-nightsky mrg-XS' },
+                                    'Signup for text* or email alerts, offers and promotions'
+                                ),
+                                react_default.a.createElement(
+                                    'form',
+                                    null,
+                                    react_default.a.createElement(
+                                        'div',
+                                        { 'class': 'marketing-section', 'data-automation-id': '' },
+                                        react_default.a.createElement(
+                                            'div',
+                                            { 'class': 'input-wrapper input-form' },
+                                            react_default.a.createElement(
+                                                'div',
+                                                { 'class': 'input-icon' },
+                                                react_default.a.createElement('input', { type: 'tel', id: 'signup', name: 'signup', placeholder: 'Phone Number or Email...', 'class': 'input-text placeholder-text' }),
+                                                react_default.a.createElement(
+                                                    'a',
+                                                    { href: 'javascript:void();', role: 'button', 'class': 'btn btn-S btn-primary apply-btn' },
+                                                    'Sign Up'
+                                                )
+                                            ),
+                                            react_default.a.createElement('a', { 'class': 'cross-bar', href: 'javascript:void(0)' })
+                                        )
+                                    )
+                                )
+                            ),
+                            react_default.a.createElement(
+                                'li',
+                                { 'class': 'subscription-terms' },
+                                react_default.a.createElement(
+                                    'a',
+                                    { 'data-automation-id': 'privacy-policy', 'class': 'std-txt title-XS color-nightsky', href: 'javascript:void(0)' },
+                                    'Terms & Conditions'
+                                )
+                            )
+                        )
+                    ),
+                    react_default.a.createElement(
+                        'div',
+                        { 'class': 'help-section mrg-top-L' },
+                        react_default.a.createElement(
+                            'div',
+                            { 'class': 'help-wrapper' },
+                            react_default.a.createElement(
+                                'div',
+                                { 'data-automation-id': 'need-help-container', 'class': 'help-section-list md8 lg7 sm12' },
+                                react_default.a.createElement(
+                                    'ul',
+                                    { 'class': 'help-list' },
+                                    react_default.a.createElement(
+                                        'li',
+                                        { 'class': 'xs4 xxs4' },
+                                        react_default.a.createElement(
+                                            'div',
+                                            { 'class': 'help-list-block' },
+                                            react_default.a.createElement(
+                                                'a',
+                                                { href: 'tel:1-800-322-1189', 'class': 'help-link' },
+                                                react_default.a.createElement('span', { 'class': 'icon color-white-svg', dangerouslySetInnerHTML: { __html: footer_devicephoneImage } }),
+                                                react_default.a.createElement(
+                                                    'span',
+                                                    { 'class': 'help-description' },
+                                                    react_default.a.createElement(
+                                                        'span',
+                                                        null,
+                                                        'Give us a call '
+                                                    ),
+                                                    react_default.a.createElement(
+                                                        'span',
+                                                        null,
+                                                        '1-800-322-1189'
+                                                    )
+                                                )
+                                            )
+                                        )
+                                    ),
+                                    react_default.a.createElement(
+                                        'li',
+                                        { 'class': 'xs4 xxs4' },
+                                        react_default.a.createElement(
+                                            'div',
+                                            { 'class': 'help-list-block' },
+                                            react_default.a.createElement(
+                                                'a',
+                                                { href: 'tel:1-800-322-1189', 'class': 'help-link' },
+                                                react_default.a.createElement('span', { 'class': 'icon color-white-svg', dangerouslySetInnerHTML: { __html: footer_twitterfillImage } }),
+                                                react_default.a.createElement(
+                                                    'span',
+                                                    { 'class': 'help-description' },
+                                                    react_default.a.createElement(
+                                                        'span',
+                                                        null,
+                                                        'Need help? '
+                                                    ),
+                                                    react_default.a.createElement(
+                                                        'span',
+                                                        null,
+                                                        'Customer Service'
+                                                    )
+                                                )
+                                            )
+                                        )
+                                    ),
+                                    react_default.a.createElement(
+                                        'li',
+                                        { 'class': 'xs4 xxs4' },
+                                        react_default.a.createElement(
+                                            'div',
+                                            { 'class': 'help-list-block' },
+                                            react_default.a.createElement(
+                                                'a',
+                                                { href: 'tel:1-800-322-1189', 'class': 'help-link' },
+                                                react_default.a.createElement('span', { 'class': 'icon color-white-svg', dangerouslySetInnerHTML: { __html: footer_customerserviceImage } }),
+                                                react_default.a.createElement(
+                                                    'span',
+                                                    { 'class': 'help-description' },
+                                                    react_default.a.createElement(
+                                                        'span',
+                                                        null,
+                                                        'Ask us on Twitter '
+                                                    ),
+                                                    react_default.a.createElement(
+                                                        'span',
+                                                        null,
+                                                        '@askJCP'
+                                                    )
+                                                )
+                                            )
+                                        )
+                                    )
+                                )
+                            ),
+                            react_default.a.createElement(
+                                'div',
+                                { 'class': 'social-wrap md4 lg5 color-white sm12' },
+                                react_default.a.createElement(
+                                    'h5',
+                                    { 'class': 'std-txt title-XS color-white dis-inline-block hide-for-medium-down' },
+                                    'Connect with us'
+                                ),
+                                react_default.a.createElement(
+                                    'div',
+                                    { 'class': 'social-container color-white-svg dis-inline-block text-right' },
+                                    react_default.a.createElement(
+                                        'ul',
+                                        null,
+                                        react_default.a.createElement(
+                                            'li',
+                                            null,
+                                            react_default.a.createElement(
+                                                'a',
+                                                { href: 'javascript:void();' },
+                                                react_default.a.createElement('span', { 'class': 'icon', dangerouslySetInnerHTML: { __html: footer_facebooklineImage } })
+                                            )
+                                        ),
+                                        react_default.a.createElement(
+                                            'li',
+                                            null,
+                                            react_default.a.createElement(
+                                                'a',
+                                                { href: 'javascript:void();' },
+                                                react_default.a.createElement('span', { 'class': 'icon', dangerouslySetInnerHTML: { __html: footer_twitterlineImage } })
+                                            )
+                                        ),
+                                        react_default.a.createElement(
+                                            'li',
+                                            null,
+                                            react_default.a.createElement(
+                                                'a',
+                                                { href: 'javascript:void();' },
+                                                react_default.a.createElement('span', { 'class': 'icon', dangerouslySetInnerHTML: { __html: footer_pinterestlineImage } })
+                                            )
+                                        ),
+                                        react_default.a.createElement(
+                                            'li',
+                                            null,
+                                            react_default.a.createElement(
+                                                'a',
+                                                { href: 'javascript:void();' },
+                                                react_default.a.createElement('span', { 'class': 'icon', dangerouslySetInnerHTML: { __html: footer_googlepluslineImage } })
+                                            )
+                                        ),
+                                        react_default.a.createElement(
+                                            'li',
+                                            null,
+                                            react_default.a.createElement(
+                                                'a',
+                                                { href: 'javascript:void();' },
+                                                react_default.a.createElement('span', { 'class': 'icon', dangerouslySetInnerHTML: { __html: footer_youtubelineImage } })
+                                            )
+                                        ),
+                                        react_default.a.createElement(
+                                            'li',
+                                            null,
+                                            react_default.a.createElement(
+                                                'a',
+                                                { href: 'javascript:void();' },
+                                                react_default.a.createElement('span', { 'class': 'icon', dangerouslySetInnerHTML: { __html: footer_bloglineImage } })
+                                            )
+                                        )
+                                    )
+                                )
+                            )
+                        )
+                    ),
+                    react_default.a.createElement(
+                        'article',
+                        { 'class': 'footer-links-block mrg-top-L hide-for-medium-down' },
+                        react_default.a.createElement(
+                            'section',
+                            { 'class': 'footer-main-links col12' },
+                            react_default.a.createElement(
+                                'div',
+                                { 'class': 'footer-links' },
+                                react_default.a.createElement(
+                                    'h5',
+                                    { 'class': 'std-txt title-S color-nightsky txt-bold' },
+                                    'JCPenney Rewards & Credit Card'
+                                ),
+                                react_default.a.createElement(
+                                    'div',
+                                    { 'class': 'link-list' },
+                                    react_default.a.createElement(
+                                        'ul',
+                                        null,
+                                        react_default.a.createElement(
+                                            'li',
+                                            null,
+                                            react_default.a.createElement(
+                                                'a',
+                                                { href: 'javascript:void(0)' },
+                                                'Enroll in Rewards'
+                                            )
+                                        ),
+                                        react_default.a.createElement(
+                                            'li',
+                                            null,
+                                            react_default.a.createElement(
+                                                'a',
+                                                { href: 'javascript:void(0)' },
+                                                'Sign In to Rewards'
+                                            )
+                                        ),
+                                        react_default.a.createElement(
+                                            'li',
+                                            null,
+                                            react_default.a.createElement(
+                                                'a',
+                                                { href: 'javascript:void(0)' },
+                                                'Sign In to Rewards'
+                                            )
+                                        )
+                                    )
+                                )
+                            ),
+                            react_default.a.createElement(
+                                'div',
+                                { 'class': 'footer-links' },
+                                react_default.a.createElement(
+                                    'h5',
+                                    { 'class': 'std-txt title-S color-nightsky txt-bold' },
+                                    'Customer Service'
+                                ),
+                                react_default.a.createElement(
+                                    'div',
+                                    { 'class': 'link-list' },
+                                    react_default.a.createElement(
+                                        'ul',
+                                        null,
+                                        react_default.a.createElement(
+                                            'li',
+                                            null,
+                                            react_default.a.createElement(
+                                                'a',
+                                                { href: 'javascript:void(0)' },
+                                                'Returns'
+                                            )
+                                        ),
+                                        react_default.a.createElement(
+                                            'li',
+                                            null,
+                                            react_default.a.createElement(
+                                                'a',
+                                                { href: 'javascript:void(0)' },
+                                                'Shipping Information'
+                                            )
+                                        ),
+                                        react_default.a.createElement(
+                                            'li',
+                                            null,
+                                            react_default.a.createElement(
+                                                'a',
+                                                { href: 'javascript:void(0)' },
+                                                'Rebates'
+                                            )
+                                        ),
+                                        react_default.a.createElement(
+                                            'li',
+                                            null,
+                                            react_default.a.createElement(
+                                                'a',
+                                                { href: 'javascript:void(0)' },
+                                                'Same Day Pickup'
+                                            )
+                                        ),
+                                        react_default.a.createElement(
+                                            'li',
+                                            null,
+                                            react_default.a.createElement(
+                                                'a',
+                                                { href: 'javascript:void(0)' },
+                                                'My JCP.com Account'
+                                            )
+                                        ),
+                                        react_default.a.createElement(
+                                            'li',
+                                            null,
+                                            react_default.a.createElement(
+                                                'a',
+                                                { href: 'javascript:void(0)' },
+                                                'Track My Order'
+                                            )
+                                        ),
+                                        react_default.a.createElement(
+                                            'li',
+                                            null,
+                                            react_default.a.createElement(
+                                                'a',
+                                                { href: 'javascript:void(0)' },
+                                                'Servicio Al Cliente'
+                                            )
+                                        )
+                                    )
+                                )
+                            ),
+                            react_default.a.createElement(
+                                'div',
+                                { 'class': 'footer-links' },
+                                react_default.a.createElement(
+                                    'h5',
+                                    { 'class': 'std-txt title-S color-nightsky txt-bold' },
+                                    'Store Services'
+                                ),
+                                react_default.a.createElement(
+                                    'div',
+                                    { 'class': 'link-list' },
+                                    react_default.a.createElement(
+                                        'ul',
+                                        null,
+                                        react_default.a.createElement(
+                                            'li',
+                                            null,
+                                            react_default.a.createElement(
+                                                'a',
+                                                { href: 'javascript:void(0)' },
+                                                'JCP Salon'
+                                            )
+                                        ),
+                                        react_default.a.createElement(
+                                            'li',
+                                            null,
+                                            react_default.a.createElement(
+                                                'a',
+                                                { href: 'javascript:void(0)' },
+                                                'Sephora'
+                                            )
+                                        ),
+                                        react_default.a.createElement(
+                                            'li',
+                                            null,
+                                            react_default.a.createElement(
+                                                'a',
+                                                { href: 'javascript:void(0)' },
+                                                'JCP Portraits'
+                                            )
+                                        ),
+                                        react_default.a.createElement(
+                                            'li',
+                                            null,
+                                            react_default.a.createElement(
+                                                'a',
+                                                { href: 'javascript:void(0)' },
+                                                'JCP Optical'
+                                            )
+                                        ),
+                                        react_default.a.createElement(
+                                            'li',
+                                            null,
+                                            react_default.a.createElement(
+                                                'a',
+                                                { href: 'javascript:void(0)' },
+                                                'Gift Registry'
+                                            )
+                                        ),
+                                        react_default.a.createElement(
+                                            'li',
+                                            null,
+                                            react_default.a.createElement(
+                                                'a',
+                                                { href: 'javascript:void(0)' },
+                                                'JCP Custom Window'
+                                            )
+                                        ),
+                                        react_default.a.createElement(
+                                            'li',
+                                            null,
+                                            react_default.a.createElement(
+                                                'a',
+                                                { href: 'javascript:void(0)' },
+                                                'View All Store Services'
+                                            )
+                                        )
+                                    )
+                                )
+                            ),
+                            react_default.a.createElement(
+                                'div',
+                                { 'class': 'footer-links' },
+                                react_default.a.createElement(
+                                    'h5',
+                                    { 'class': 'std-txt title-S color-nightsky txt-bold' },
+                                    'More Ways to Shop'
+                                ),
+                                react_default.a.createElement(
+                                    'div',
+                                    { 'class': 'link-list' },
+                                    react_default.a.createElement(
+                                        'ul',
+                                        null,
+                                        react_default.a.createElement(
+                                            'li',
+                                            null,
+                                            react_default.a.createElement(
+                                                'a',
+                                                { href: 'javascript:void(0)' },
+                                                'See our ads'
+                                            )
+                                        ),
+                                        react_default.a.createElement(
+                                            'li',
+                                            null,
+                                            react_default.a.createElement(
+                                                'a',
+                                                { href: 'javascript:void(0)' },
+                                                'Coupons'
+                                            )
+                                        ),
+                                        react_default.a.createElement(
+                                            'li',
+                                            null,
+                                            react_default.a.createElement(
+                                                'a',
+                                                { href: 'javascript:void(0)' },
+                                                'Recommendations'
+                                            )
+                                        ),
+                                        react_default.a.createElement(
+                                            'li',
+                                            null,
+                                            react_default.a.createElement(
+                                                'a',
+                                                { href: 'javascript:void(0)' },
+                                                'Gift Cards'
+                                            )
+                                        ),
+                                        react_default.a.createElement(
+                                            'li',
+                                            null,
+                                            react_default.a.createElement(
+                                                'a',
+                                                { href: 'javascript:void(0)' },
+                                                'International Shopping'
+                                            )
+                                        )
+                                    )
+                                )
+                            ),
+                            react_default.a.createElement(
+                                'div',
+                                { 'class': 'footer-links' },
+                                react_default.a.createElement(
+                                    'h5',
+                                    { 'class': 'std-txt title-S color-nightsky txt-bold' },
+                                    'Corporate Overview'
+                                ),
+                                react_default.a.createElement(
+                                    'div',
+                                    { 'class': 'link-list' },
+                                    react_default.a.createElement(
+                                        'ul',
+                                        null,
+                                        react_default.a.createElement(
+                                            'li',
+                                            null,
+                                            react_default.a.createElement(
+                                                'a',
+                                                { href: 'javascript:void(0)' },
+                                                'Careers'
+                                            )
+                                        ),
+                                        react_default.a.createElement(
+                                            'li',
+                                            null,
+                                            react_default.a.createElement(
+                                                'a',
+                                                { href: 'javascript:void(0)' },
+                                                'Company Info'
+                                            )
+                                        ),
+                                        react_default.a.createElement(
+                                            'li',
+                                            null,
+                                            react_default.a.createElement(
+                                                'a',
+                                                { href: 'javascript:void(0)' },
+                                                'Community'
+                                            )
+                                        ),
+                                        react_default.a.createElement(
+                                            'li',
+                                            null,
+                                            react_default.a.createElement(
+                                                'a',
+                                                { href: 'javascript:void(0)' },
+                                                'Media'
+                                            )
+                                        ),
+                                        react_default.a.createElement(
+                                            'li',
+                                            null,
+                                            react_default.a.createElement(
+                                                'a',
+                                                { href: 'javascript:void(0)' },
+                                                'Investors'
+                                            )
+                                        )
+                                    )
+                                )
+                            )
+                        )
+                    ),
+                    react_default.a.createElement(
+                        'div',
+                        { 'class': 'accordion-block footer-accordion hide-for-large-up' },
+                        react_default.a.createElement(
+                            'div',
+                            { 'class': 'accordion nopad' },
+                            react_default.a.createElement(
+                                'dl',
+                                null,
+                                react_default.a.createElement(
+                                    'dt',
+                                    null,
+                                    react_default.a.createElement(
+                                        'a',
+                                        { href: '#accordion1', 'aria-expanded': 'false', 'aria-controls': 'accordion1', 'class': 'accordion-title accordionTitle js-accordionTrigger' },
+                                        'JCPenney Rewards & Credit Card'
+                                    )
+                                ),
+                                react_default.a.createElement(
+                                    'dd',
+                                    { 'class': 'accordion-content accordionItem is-collapsed', id: 'accordion1', 'aria-hidden': 'true' },
+                                    react_default.a.createElement(
+                                        'a',
+                                        { href: 'javascript:void();' },
+                                        'Enroll in Rewards'
+                                    ),
+                                    react_default.a.createElement(
+                                        'a',
+                                        { href: 'javascript:void();' },
+                                        'Sign In to Rewards'
+                                    ),
+                                    react_default.a.createElement(
+                                        'a',
+                                        { href: 'javascript:void();' },
+                                        'JCPenney Credit Card'
+                                    )
+                                ),
+                                react_default.a.createElement(
+                                    'dt',
+                                    null,
+                                    react_default.a.createElement(
+                                        'a',
+                                        { href: '#accordion2', 'aria-expanded': 'false', 'aria-controls': 'accordion2', 'class': 'accordion-title accordionTitle js-accordionTrigger' },
+                                        'Customer Service'
+                                    )
+                                ),
+                                react_default.a.createElement(
+                                    'dd',
+                                    { 'class': 'accordion-content accordionItem is-collapsed', id: 'accordion1', 'aria-hidden': 'true' },
+                                    react_default.a.createElement(
+                                        'a',
+                                        { href: 'javascript:void();' },
+                                        'Returns'
+                                    ),
+                                    react_default.a.createElement(
+                                        'a',
+                                        { href: 'javascript:void();' },
+                                        'Shipping information'
+                                    ),
+                                    react_default.a.createElement(
+                                        'a',
+                                        { href: 'javascript:void();' },
+                                        'Rebates'
+                                    ),
+                                    react_default.a.createElement(
+                                        'a',
+                                        { href: 'javascript:void();' },
+                                        'Same Day Pickup'
+                                    ),
+                                    react_default.a.createElement(
+                                        'a',
+                                        { href: 'javascript:void();' },
+                                        'My JCP.com Account'
+                                    ),
+                                    react_default.a.createElement(
+                                        'a',
+                                        { href: 'javascript:void();' },
+                                        'Track My Order'
+                                    ),
+                                    react_default.a.createElement(
+                                        'a',
+                                        { href: 'javascript:void();' },
+                                        'Servicio Al Cliente'
+                                    )
+                                ),
+                                react_default.a.createElement(
+                                    'dt',
+                                    null,
+                                    react_default.a.createElement(
+                                        'a',
+                                        { href: '#accordion3', 'aria-expanded': 'false', 'aria-controls': 'accordion3', 'class': 'accordion-title accordionTitle js-accordionTrigger' },
+                                        'Store Services'
+                                    )
+                                ),
+                                react_default.a.createElement(
+                                    'dd',
+                                    { 'class': 'accordion-content accordionItem is-collapsed', id: 'accordion1', 'aria-hidden': 'true' },
+                                    react_default.a.createElement(
+                                        'a',
+                                        { href: 'javascript:void();' },
+                                        'JCP Salon'
+                                    ),
+                                    react_default.a.createElement(
+                                        'a',
+                                        { href: 'javascript:void();' },
+                                        'Sephora'
+                                    ),
+                                    react_default.a.createElement(
+                                        'a',
+                                        { href: 'javascript:void();' },
+                                        'JCP Optical'
+                                    ),
+                                    react_default.a.createElement(
+                                        'a',
+                                        { href: 'javascript:void();' },
+                                        'Gift Registry'
+                                    ),
+                                    react_default.a.createElement(
+                                        'a',
+                                        { href: 'javascript:void();' },
+                                        'JCP Custom Window'
+                                    ),
+                                    react_default.a.createElement(
+                                        'a',
+                                        { href: 'javascript:void();' },
+                                        'View All Store Services'
+                                    )
+                                ),
+                                react_default.a.createElement(
+                                    'dt',
+                                    null,
+                                    react_default.a.createElement(
+                                        'a',
+                                        { href: '#accordion3', 'aria-expanded': 'false', 'aria-controls': 'accordion3', 'class': 'accordion-title accordionTitle js-accordionTrigger' },
+                                        'More Ways to Shop'
+                                    )
+                                ),
+                                react_default.a.createElement(
+                                    'dd',
+                                    { 'class': 'accordion-content accordionItem is-collapsed', id: 'accordion1', 'aria-hidden': 'true' },
+                                    react_default.a.createElement(
+                                        'a',
+                                        { href: 'javascript:void();' },
+                                        'See our ads'
+                                    ),
+                                    react_default.a.createElement(
+                                        'a',
+                                        { href: 'javascript:void();' },
+                                        'Coupons'
+                                    ),
+                                    react_default.a.createElement(
+                                        'a',
+                                        { href: 'javascript:void();' },
+                                        'Recommendations'
+                                    ),
+                                    react_default.a.createElement(
+                                        'a',
+                                        { href: 'javascript:void();' },
+                                        'Gift Cards'
+                                    ),
+                                    react_default.a.createElement(
+                                        'a',
+                                        { href: 'javascript:void();' },
+                                        'International Shopping'
+                                    )
+                                ),
+                                react_default.a.createElement(
+                                    'dt',
+                                    null,
+                                    react_default.a.createElement(
+                                        'a',
+                                        { href: '#accordion3', 'aria-expanded': 'false', 'aria-controls': 'accordion3', 'class': 'accordion-title accordionTitle js-accordionTrigger' },
+                                        'Corporate Overview'
+                                    )
+                                ),
+                                react_default.a.createElement(
+                                    'dd',
+                                    { 'class': 'accordion-content accordionItem is-collapsed', id: 'accordion1', 'aria-hidden': 'true' },
+                                    react_default.a.createElement(
+                                        'a',
+                                        { href: 'javascript:void();' },
+                                        'Careers'
+                                    ),
+                                    react_default.a.createElement(
+                                        'a',
+                                        { href: 'javascript:void();' },
+                                        'Company Info'
+                                    ),
+                                    react_default.a.createElement(
+                                        'a',
+                                        { href: 'javascript:void();' },
+                                        'Community'
+                                    ),
+                                    react_default.a.createElement(
+                                        'a',
+                                        { href: 'javascript:void();' },
+                                        'Media'
+                                    ),
+                                    react_default.a.createElement(
+                                        'a',
+                                        { href: 'javascript:void();' },
+                                        'Investors'
+                                    )
+                                )
+                            )
+                        )
+                    ),
+                    react_default.a.createElement(
+                        'div',
+                        { 'class': 'footer-bottom-wrap col12' },
+                        react_default.a.createElement(
+                            'div',
+                            { 'class': 'credit-wrap' },
+                            react_default.a.createElement(
+                                'div',
+                                { 'class': 'jcp-red-card' },
+                                react_default.a.createElement('span', { 'class': 'icon dis-inline', dangerouslySetInnerHTML: { __html: cardJCPRed } })
+                            ),
+                            react_default.a.createElement(
+                                'ul',
+                                { 'class': 'dis-inline-block' },
+                                react_default.a.createElement(
+                                    'h5',
+                                    { 'class': 'std-txt title-S color-nightsky txt-bold' },
+                                    'JCPenney Credit Card'
+                                ),
+                                react_default.a.createElement(
+                                    'li',
+                                    null,
+                                    'Pay Bill'
+                                ),
+                                react_default.a.createElement(
+                                    'li',
+                                    null,
+                                    'Check Balance'
+                                ),
+                                react_default.a.createElement(
+                                    'li',
+                                    null,
+                                    'Apply Now'
+                                )
+                            )
+                        ),
+                        react_default.a.createElement(
+                            'div',
+                            { 'class': 'privacy-wrap' },
+                            react_default.a.createElement(
+                                'ul',
+                                null,
+                                react_default.a.createElement(
+                                    'li',
+                                    null,
+                                    'Legal'
+                                ),
+                                react_default.a.createElement(
+                                    'li',
+                                    null,
+                                    'Recalls'
+                                ),
+                                react_default.a.createElement(
+                                    'li',
+                                    null,
+                                    'AdChoices'
+                                ),
+                                react_default.a.createElement(
+                                    'li',
+                                    null,
+                                    'CA Privacy Rts'
+                                ),
+                                react_default.a.createElement(
+                                    'li',
+                                    null,
+                                    'Privacy Policy'
+                                ),
+                                react_default.a.createElement(
+                                    'li',
+                                    null,
+                                    'CA Supply Chain Act'
+                                )
+                            )
+                        ),
+                        react_default.a.createElement(
+                            'div',
+                            { 'class': 'copy-wrap text-center std-txt title-XS md12 color-nightsky' },
+                            '\xA9JCP Media, Inc. 2018. All Rights Reserved'
+                        )
+                    )
+                )
+            );
+        }
+    }]);
+
+    return Footer;
+}(react["Component"]);
+
+var footer__default = footer_Footer;
+
+
+/* harmony default export */ var footer = (footer__default);
+;
+
+var footer__temp = function () {
+    if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+        return;
+    }
+
+    __REACT_HOT_LOADER__.register(footer_Footer, 'Footer', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/footer/footer.js');
+
+    __REACT_HOT_LOADER__.register(footer__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/footer/footer.js');
+}();
+
+;
+// CONCATENATED MODULE: ./src/js/components/homepage-layout/homepage-layout.js
+var homepage_layout__createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+function homepage_layout__classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function homepage_layout__possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function homepage_layout__inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+
+
+
+
+
+
+
+// import RecommendationZone from '../recommendation-zone/recommendation-zone';
+
+
+
+var homepage_layout_HomepageLayout = function (_Component) {
+    homepage_layout__inherits(HomepageLayout, _Component);
+
+    function HomepageLayout() {
+        homepage_layout__classCallCheck(this, HomepageLayout);
+
+        return homepage_layout__possibleConstructorReturn(this, (HomepageLayout.__proto__ || Object.getPrototypeOf(HomepageLayout)).apply(this, arguments));
+    }
+
+    homepage_layout__createClass(HomepageLayout, [{
+        key: 'componentDidMount',
+        value: function componentDidMount() {}
+    }, {
+        key: 'render',
+        value: function render() {
+            return react_default.a.createElement(
+                'div',
+                null,
+                react_default.a.createElement(header, null),
+                react_default.a.createElement(
+                    'div',
+                    { 'class': 'home-container' },
+                    react_default.a.createElement(
+                        'div',
+                        { 'class': 'lg12 xl12 xxl12' },
+                        react_default.a.createElement(styleawithoutbutton, null)
+                    ),
+                    react_default.a.createElement(
+                        'div',
+                        { 'class': 'lg12 xl12 xxl12' },
+                        react_default.a.createElement(stylebleft, null)
+                    ),
+                    react_default.a.createElement(
+                        'div',
+                        { 'class': 'lg6 xl6 xxl6' },
+                        react_default.a.createElement(stylecmultiplecta, null)
+                    ),
+                    react_default.a.createElement(
+                        'div',
+                        { 'class': 'lg6 xl6 xxl6' },
+                        react_default.a.createElement(stylecmultiplecta, null)
+                    ),
+                    react_default.a.createElement(
+                        'div',
+                        { 'class': 'lg4 xl4 xxl4' },
+                        react_default.a.createElement(styledmultiplecta, null)
+                    ),
+                    react_default.a.createElement(
+                        'div',
+                        { 'class': 'lg4 xl4 xxl4' },
+                        react_default.a.createElement(styledsinglecta, null)
+                    ),
+                    react_default.a.createElement(
+                        'div',
+                        { 'class': 'lg4 xl4 xxl4' },
+                        react_default.a.createElement(styledmultiplecta, null)
+                    ),
+                    react_default.a.createElement(
+                        'div',
+                        { 'class': 'lg12 xl12 xxl12' },
+                        react_default.a.createElement(styleemultiplecta, null)
+                    )
+                ),
+                react_default.a.createElement(footer, null)
+            );
+        }
+    }]);
+
+    return HomepageLayout;
+}(react["Component"]);
+
+var homepage_layout__default = homepage_layout_HomepageLayout;
+
+
+/* harmony default export */ var homepage_layout = (homepage_layout__default);
+;
+
+var homepage_layout__temp = function () {
+    if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+        return;
+    }
+
+    __REACT_HOT_LOADER__.register(homepage_layout_HomepageLayout, 'HomepageLayout', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/homepage-layout/homepage-layout.js');
+
+    __REACT_HOT_LOADER__.register(homepage_layout__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/homepage-layout/homepage-layout.js');
+}();
+
+;
+// CONCATENATED MODULE: ./src/js/components/homepage-layout/index.js
+
+var components_homepage_layout__default = homepage_layout;
+/* harmony default export */ var components_homepage_layout = (components_homepage_layout__default);
+;
+
+var components_homepage_layout__temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(components_homepage_layout__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/homepage-layout/index.js');
 }();
 
 ;
@@ -23140,2691 +26880,6 @@ var components_lists__temp = function () {
 }();
 
 ;
-// CONCATENATED MODULE: ./src/js/components/header/header.js
-var header__createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-function header__classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function header__possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function header__inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-
-
-
-var logoImage = __webpack_require__("Qmz5");
-var header_searchImage = __webpack_require__("7r5T");
-var header_menuImage = __webpack_require__("738v");
-var header_closeImage = __webpack_require__("oWX6");
-var header_cartFullImage = __webpack_require__("VlqD");
-var trackOrderImage = __webpack_require__("BxHr");
-var header_storeNewImage = __webpack_require__("IeBy");
-var header_accountImage = __webpack_require__("8ysx");
-var accountNewImage = __webpack_require__("87qO");
-var header_arrowleftImage = __webpack_require__("FAZD");
-var header_targetImage = __webpack_require__("ZO6q");
-var header_jcpenneyRewardsImage = __webpack_require__("QXyO");
-var header_idfillImage = __webpack_require__("s1aE");
-var header_walletImage = __webpack_require__("GqVQ");
-var header_heartfillImage = __webpack_require__("/KOU");
-var rewardsFillImage = __webpack_require__("rD0y");
-var appointmentFillImage = __webpack_require__("8/sS");
-var header_cardjcpImage = __webpack_require__("jrV8");
-var logoutImage = __webpack_require__("hozW");
-var externallinkImage = __webpack_require__("3laZ");
-var header_cardjcpredImage = __webpack_require__("plD6");
-var header_cardjcpgoldImage = __webpack_require__("6RTn");
-var header_cardjcpplatinumImage = __webpack_require__("phwv");
-
-var header_Header = function (_Component) {
-  header__inherits(Header, _Component);
-
-  function Header() {
-    header__classCallCheck(this, Header);
-
-    return header__possibleConstructorReturn(this, (Header.__proto__ || Object.getPrototypeOf(Header)).apply(this, arguments));
-  }
-
-  header__createClass(Header, [{
-    key: 'changeMyStoreContent',
-    value: function changeMyStoreContent(type) {
-      return react_default.a.createElement(
-        'div',
-        null,
-        react_default.a.createElement(
-          'p',
-          { id: 'changeMyStoreZipLink' + type },
-          'Stores within 15 mi. of ',
-          react_default.a.createElement(
-            'strong',
-            null,
-            '75024 '
-          ),
-          react_default.a.createElement(
-            'a',
-            { href: 'javascript:void(0);', 'class': 'expand-collapse-btn change-btn', 'data-target': '#changeMyStoreZip' + type, 'data-hide-on-open-target': '#changeMyStoreZipLink' + type, 'data-duration': '0' },
-            ' Change'
-          )
-        ),
-        react_default.a.createElement(
-          'div',
-          { 'class': 'expand-collapse-section', id: 'changeMyStoreZip' + type },
-          react_default.a.createElement(
-            'div',
-            { 'class': 'button-preview text-center my-location' },
-            react_default.a.createElement(
-              'a',
-              { href: 'javascript:void();', 'class': 'btn btn-secondary btn-M mrg-M mrg-rght-M' },
-              react_default.a.createElement('span', { 'class': 'icon', dangerouslySetInnerHTML: { __html: header_targetImage } }),
-              react_default.a.createElement(
-                'span',
-                null,
-                'Use my Location'
-              )
-            ),
-            react_default.a.createElement(
-              'a',
-              { href: 'javascript:void();', 'class': 'cancel-btn' },
-              'cancel'
-            )
-          ),
-          react_default.a.createElement(
-            'div',
-            { 'class': '' },
-            react_default.a.createElement(
-              'span',
-              { 'class': 'title title-S title-text-or' },
-              'or'
-            )
-          ),
-          react_default.a.createElement(
-            'div',
-            { 'class': 'input-form' },
-            react_default.a.createElement(
-              'div',
-              { 'class': 'input-form-store-locator' },
-              react_default.a.createElement(
-                'div',
-                { 'class': 'input-form-store-locator-field-1' },
-                react_default.a.createElement('input', { 'class': 'form-control input-text', id: 'changeMyStoreSearch' + type, type: 'text', placeholder: 'Zip Code', defaultValue: '75024' })
-              ),
-              react_default.a.createElement(
-                'div',
-                { 'class': 'input-form-store-locator-field-2' },
-                react_default.a.createElement(
-                  'div',
-                  { 'class': 'select' },
-                  react_default.a.createElement(
-                    'select',
-                    { 'class': 'form-control custom-select' },
-                    react_default.a.createElement(
-                      'option',
-                      { value: '5' },
-                      '5 miles'
-                    ),
-                    react_default.a.createElement(
-                      'option',
-                      { value: '10' },
-                      '10 miles'
-                    ),
-                    react_default.a.createElement(
-                      'option',
-                      { value: '20' },
-                      '20 miles'
-                    ),
-                    react_default.a.createElement(
-                      'option',
-                      { value: '50' },
-                      '50 miles'
-                    )
-                  )
-                )
-              ),
-              react_default.a.createElement(
-                'button',
-                { type: 'submit', 'class': 'search-icon' },
-                react_default.a.createElement('span', { 'class': 'icon color-lipstick-svg', dangerouslySetInnerHTML: { __html: header_searchImage } })
-              )
-            )
-          )
-        ),
-        react_default.a.createElement(
-          'div',
-          { 'class': 'side-panel-row-wrap no-border padding-bot-zero' },
-          react_default.a.createElement(
-            'div',
-            { 'class': 'side-panel-row' },
-            react_default.a.createElement(
-              'div',
-              { 'class': 'side-panel-col side-panel-col-select mrg-M' },
-              react_default.a.createElement(
-                'div',
-                { 'class': 'dropdown-menu-block column' },
-                react_default.a.createElement(
-                  'div',
-                  { 'class': 'pos-rel fl-left' },
-                  react_default.a.createElement(
-                    'a',
-                    { 'class': 'dropdown-button title-S' },
-                    'Filter by Services ',
-                    react_default.a.createElement('span', { 'class': 'arrow' })
-                  ),
-                  react_default.a.createElement(
-                    'div',
-                    { 'class': 'dropdown-menu' },
-                    react_default.a.createElement(
-                      'div',
-                      { 'class': 'tooltip tooltip-top-left tooltip-Large' },
-                      react_default.a.createElement(
-                        'span',
-                        null,
-                        react_default.a.createElement(
-                          'ul',
-                          null,
-                          react_default.a.createElement(
-                            'li',
-                            { 'class': 'dropdown-list' },
-                            react_default.a.createElement(
-                              'label',
-                              { 'class': 'checkbox mrg-M' },
-                              react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
-                              react_default.a.createElement(
-                                'span',
-                                { 'class': 'left' },
-                                'label'
-                              ),
-                              react_default.a.createElement(
-                                'span',
-                                { 'class': 'right-label' },
-                                '(1,008)'
-                              )
-                            )
-                          ),
-                          react_default.a.createElement(
-                            'li',
-                            { 'class': 'dropdown-list' },
-                            react_default.a.createElement(
-                              'label',
-                              { 'class': 'checkbox mrg-M' },
-                              react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
-                              react_default.a.createElement(
-                                'span',
-                                { 'class': 'left' },
-                                'label'
-                              ),
-                              react_default.a.createElement(
-                                'span',
-                                { 'class': 'right-label' },
-                                '(1,008)'
-                              )
-                            )
-                          ),
-                          react_default.a.createElement(
-                            'li',
-                            { 'class': 'dropdown-list' },
-                            react_default.a.createElement(
-                              'label',
-                              { 'class': 'checkbox mrg-M' },
-                              react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
-                              react_default.a.createElement(
-                                'span',
-                                { 'class': 'left' },
-                                'label'
-                              ),
-                              react_default.a.createElement(
-                                'span',
-                                { 'class': 'right-label' },
-                                '(1,008)'
-                              )
-                            )
-                          ),
-                          react_default.a.createElement(
-                            'li',
-                            { 'class': 'dropdown-list' },
-                            react_default.a.createElement(
-                              'label',
-                              { 'class': 'checkbox mrg-M' },
-                              react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
-                              react_default.a.createElement(
-                                'span',
-                                { 'class': 'left' },
-                                'label'
-                              ),
-                              react_default.a.createElement(
-                                'span',
-                                { 'class': 'right-label' },
-                                '(1,008)'
-                              )
-                            )
-                          ),
-                          react_default.a.createElement(
-                            'li',
-                            { 'class': 'dropdown-list' },
-                            react_default.a.createElement(
-                              'label',
-                              { 'class': 'checkbox mrg-M' },
-                              react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
-                              react_default.a.createElement(
-                                'span',
-                                { 'class': 'left' },
-                                'label'
-                              ),
-                              react_default.a.createElement(
-                                'span',
-                                { 'class': 'right-label' },
-                                '(1,008)'
-                              )
-                            )
-                          ),
-                          react_default.a.createElement(
-                            'li',
-                            { 'class': 'dropdown-list' },
-                            react_default.a.createElement(
-                              'label',
-                              { 'class': 'checkbox mrg-M' },
-                              react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
-                              react_default.a.createElement(
-                                'span',
-                                { 'class': 'left' },
-                                'label'
-                              ),
-                              react_default.a.createElement(
-                                'span',
-                                { 'class': 'right-label' },
-                                '(1,008)'
-                              )
-                            )
-                          ),
-                          react_default.a.createElement(
-                            'li',
-                            { 'class': 'dropdown-list' },
-                            react_default.a.createElement(
-                              'label',
-                              { 'class': 'checkbox mrg-M' },
-                              react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
-                              react_default.a.createElement(
-                                'span',
-                                { 'class': 'left' },
-                                'label'
-                              ),
-                              react_default.a.createElement(
-                                'span',
-                                { 'class': 'right-label' },
-                                '(1,008)'
-                              )
-                            )
-                          ),
-                          react_default.a.createElement(
-                            'li',
-                            { 'class': 'dropdown-list' },
-                            react_default.a.createElement(
-                              'label',
-                              { 'class': 'checkbox mrg-M' },
-                              react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
-                              react_default.a.createElement(
-                                'span',
-                                { 'class': 'left' },
-                                'label'
-                              ),
-                              react_default.a.createElement(
-                                'span',
-                                { 'class': 'right-label' },
-                                '(1,008)'
-                              )
-                            )
-                          ),
-                          react_default.a.createElement(
-                            'li',
-                            { 'class': 'dropdown-list' },
-                            react_default.a.createElement(
-                              'label',
-                              { 'class': 'checkbox mrg-M' },
-                              react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
-                              react_default.a.createElement(
-                                'span',
-                                { 'class': 'left' },
-                                'label'
-                              ),
-                              react_default.a.createElement(
-                                'span',
-                                { 'class': 'right-label' },
-                                '(1,008)'
-                              )
-                            )
-                          ),
-                          react_default.a.createElement(
-                            'li',
-                            { 'class': 'dropdown-list' },
-                            react_default.a.createElement(
-                              'label',
-                              { 'class': 'checkbox mrg-M' },
-                              react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
-                              react_default.a.createElement(
-                                'span',
-                                { 'class': 'left' },
-                                'label'
-                              ),
-                              react_default.a.createElement(
-                                'span',
-                                { 'class': 'right-label' },
-                                '(1,008)'
-                              )
-                            )
-                          ),
-                          react_default.a.createElement(
-                            'li',
-                            { 'class': 'dropdown-list' },
-                            react_default.a.createElement(
-                              'label',
-                              { 'class': 'checkbox mrg-M' },
-                              react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
-                              react_default.a.createElement(
-                                'span',
-                                { 'class': 'left' },
-                                'label'
-                              ),
-                              react_default.a.createElement(
-                                'span',
-                                { 'class': 'right-label' },
-                                '(1,008)'
-                              )
-                            )
-                          ),
-                          react_default.a.createElement(
-                            'li',
-                            { 'class': 'dropdown-list' },
-                            react_default.a.createElement(
-                              'label',
-                              { 'class': 'checkbox mrg-M' },
-                              react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
-                              react_default.a.createElement(
-                                'span',
-                                { 'class': 'left' },
-                                'label'
-                              ),
-                              react_default.a.createElement(
-                                'span',
-                                { 'class': 'right-label' },
-                                '(1,008)'
-                              )
-                            )
-                          ),
-                          react_default.a.createElement(
-                            'li',
-                            { 'class': 'dropdown-list' },
-                            react_default.a.createElement(
-                              'label',
-                              { 'class': 'checkbox mrg-M' },
-                              react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
-                              react_default.a.createElement(
-                                'span',
-                                { 'class': 'left' },
-                                'label'
-                              ),
-                              react_default.a.createElement(
-                                'span',
-                                { 'class': 'right-label' },
-                                '(1,008)'
-                              )
-                            )
-                          ),
-                          react_default.a.createElement(
-                            'li',
-                            { 'class': 'dropdown-list' },
-                            react_default.a.createElement(
-                              'label',
-                              { 'class': 'checkbox mrg-M' },
-                              react_default.a.createElement('input', { type: 'checkbox', defaultChecked: '' }),
-                              react_default.a.createElement(
-                                'span',
-                                { 'class': 'left' },
-                                'label'
-                              ),
-                              react_default.a.createElement(
-                                'span',
-                                { 'class': 'right-label' },
-                                '(1,008)'
-                              )
-                            )
-                          )
-                        )
-                      )
-                    )
-                  )
-                )
-              )
-            ),
-            react_default.a.createElement(
-              'div',
-              { 'class': 'side-panel-col side-panel-col-map-view algn-rght' },
-              react_default.a.createElement(
-                'a',
-                { href: 'javascript:void(0);', 'class': 'expand-collapse-btn', 'data-hide-text': 'List View', 'data-target': '#changeMyStoreMap' + type },
-                'Map View'
-              )
-            )
-          ),
-          react_default.a.createElement(
-            'div',
-            { 'class': 'expand-collapse-section change-my-store-map-view', id: 'changeMyStoreMap' + type },
-            react_default.a.createElement('img', { src: '/images/design-system/fpo/find-a-store/map.jpg', alt: '' })
-          )
-        ),
-        react_default.a.createElement(
-          'div',
-          { 'class': 'change-my-store-listing' },
-          react_default.a.createElement(
-            'div',
-            { 'class': 'side-panel-row-wrap' },
-            react_default.a.createElement(
-              'div',
-              { 'class': 'side-panel-row' },
-              react_default.a.createElement(
-                'div',
-                { 'class': 'side-panel-col side-panel-col-details' },
-                react_default.a.createElement(
-                  'h4',
-                  { 'class': 'mrg-S' },
-                  'Stonebriar Mall ',
-                  react_default.a.createElement(
-                    'span',
-                    { 'class': ' color-slate' },
-                    '(3.5mi)'
-                  )
-                ),
-                react_default.a.createElement(
-                  'p',
-                  { 'class': 'std-txt std-txt-S mrg-XS color-nightsky' },
-                  '2480 Preston Rd'
-                )
-              ),
-              react_default.a.createElement(
-                'div',
-                { 'class': 'side-panel-col-button' },
-                react_default.a.createElement(
-                  'a',
-                  { href: 'javascript:void(0);', 'class': 'btn btn-M btn-full btn-primary btn-disabled' },
-                  'My Store'
-                )
-              )
-            ),
-            react_default.a.createElement(
-              'div',
-              { 'class': 'side-panel-col-full' },
-              react_default.a.createElement(
-                'div',
-                { 'class': 'expand-collapse-section change-my-store-details', id: 'storeLising1' + type },
-                react_default.a.createElement(
-                  'div',
-                  { 'class': 'std-txt std-txt-S mrg-M color-nightsky' },
-                  react_default.a.createElement(
-                    'a',
-                    { href: 'javascript:void(0);', 'class': 'color-nightsky' },
-                    'Get Directions'
-                  ),
-                  ' | 972-578-8666'
-                ),
-                react_default.a.createElement(
-                  'div',
-                  { 'class': 'std-txt std-txt-S mrg-M color-slate' },
-                  'Mon-Thu : 10am-10pm',
-                  react_default.a.createElement('br', null),
-                  'Fri : 9am-11pm',
-                  react_default.a.createElement('br', null),
-                  'Sat : 8am-11pm',
-                  react_default.a.createElement('br', null),
-                  'Sun : 9am-10pm',
-                  react_default.a.createElement('br', null),
-                  react_default.a.createElement('br', null),
-                  react_default.a.createElement(
-                    'strong',
-                    { 'class': 'color-nightsky' },
-                    'Store Services:'
-                  ),
-                  react_default.a.createElement('br', null),
-                  'Jewelry',
-                  react_default.a.createElement('br', null),
-                  'Big and Tall',
-                  react_default.a.createElement('br', null),
-                  'Wedding Registry',
-                  react_default.a.createElement('br', null),
-                  'TV and Home Theater',
-                  react_default.a.createElement('br', null),
-                  'Major Appliances',
-                  react_default.a.createElement('br', null),
-                  'Optical',
-                  react_default.a.createElement('br', null),
-                  'Portrait Studio',
-                  react_default.a.createElement('br', null),
-                  'Custom Decorating - ',
-                  react_default.a.createElement(
-                    'a',
-                    { href: 'javascript:void(0);', 'class': 'color-nightsky' },
-                    'Schedule Appointment'
-                  ),
-                  react_default.a.createElement('br', null),
-                  'Sephora - ',
-                  react_default.a.createElement(
-                    'a',
-                    { href: 'javascript:void(0);', 'class': 'color-nightsky' },
-                    'Schedule Appointment'
-                  ),
-                  react_default.a.createElement('br', null),
-                  'Salon - ',
-                  react_default.a.createElement(
-                    'a',
-                    { href: 'javascript:void(0);', 'class': 'color-nightsky' },
-                    'Schedule Appointment'
-                  )
-                )
-              ),
-              react_default.a.createElement(
-                'p',
-                { 'class': 'std-txt std-txt-S' },
-                react_default.a.createElement(
-                  'a',
-                  { href: 'javascript:void(0);', 'class': 'expand-collapse-btn', 'data-hide-text': 'Hide Hours & Services', 'data-target': '#storeLising1' + type },
-                  'View Hours & Services'
-                )
-              )
-            )
-          )
-        ),
-        react_default.a.createElement(
-          'div',
-          { 'class': 'change-my-store-listing' },
-          react_default.a.createElement(
-            'div',
-            { 'class': 'side-panel-row-wrap no-border' },
-            react_default.a.createElement(
-              'div',
-              { 'class': 'side-panel-row' },
-              react_default.a.createElement(
-                'div',
-                { 'class': 'side-panel-col side-panel-col-details' },
-                react_default.a.createElement(
-                  'h4',
-                  { 'class': 'mrg-S' },
-                  'Collin Creek Mall ',
-                  react_default.a.createElement(
-                    'span',
-                    { 'class': ' color-slate' },
-                    '(5.2mi)'
-                  )
-                ),
-                react_default.a.createElement(
-                  'p',
-                  { 'class': 'std-txt std-txt-S mrg-XS color-nightsky' },
-                  '2480 Preston Rd'
-                )
-              ),
-              react_default.a.createElement(
-                'div',
-                { 'class': 'side-panel-col-button' },
-                react_default.a.createElement(
-                  'a',
-                  { href: 'javascript:void(0);', 'class': 'btn btn-M btn-full btn-primary' },
-                  'Set Store'
-                )
-              )
-            ),
-            react_default.a.createElement(
-              'div',
-              { 'class': 'side-panel-col-full' },
-              react_default.a.createElement(
-                'div',
-                { 'class': 'expand-collapse-section change-my-store-details', id: 'storeLising2' + type },
-                react_default.a.createElement(
-                  'div',
-                  { 'class': 'std-txt std-txt-S mrg-M color-nightsky' },
-                  react_default.a.createElement(
-                    'a',
-                    { href: 'javascript:void(0);', 'class': 'color-nightsky' },
-                    'Get Directions'
-                  ),
-                  ' | 972-578-8667'
-                ),
-                react_default.a.createElement(
-                  'div',
-                  { 'class': 'std-txt std-txt-S mrg-M color-slate' },
-                  'Mon-Thu : 10am-10pm',
-                  react_default.a.createElement('br', null),
-                  'Fri : 9am-11pm',
-                  react_default.a.createElement('br', null),
-                  'Sat : 8am-11pm',
-                  react_default.a.createElement('br', null),
-                  'Sun : 9am-10pm',
-                  react_default.a.createElement('br', null),
-                  react_default.a.createElement('br', null),
-                  react_default.a.createElement(
-                    'strong',
-                    { 'class': 'color-nightsky' },
-                    'Store Services:'
-                  ),
-                  react_default.a.createElement('br', null),
-                  'Jewelry',
-                  react_default.a.createElement('br', null),
-                  'Big and Tall',
-                  react_default.a.createElement('br', null),
-                  'Wedding Registry',
-                  react_default.a.createElement('br', null),
-                  'TV and Home Theater',
-                  react_default.a.createElement('br', null),
-                  'Major Appliances',
-                  react_default.a.createElement('br', null),
-                  'Optical',
-                  react_default.a.createElement('br', null),
-                  'Portrait Studio',
-                  react_default.a.createElement('br', null),
-                  'Custom Decorating - ',
-                  react_default.a.createElement(
-                    'a',
-                    { href: 'javascript:void(0);', 'class': 'color-nightsky' },
-                    'Schedule Appointment'
-                  ),
-                  react_default.a.createElement('br', null),
-                  'Sephora - ',
-                  react_default.a.createElement(
-                    'a',
-                    { href: 'javascript:void(0);', 'class': 'color-nightsky' },
-                    'Schedule Appointment'
-                  ),
-                  react_default.a.createElement('br', null),
-                  'Salon - ',
-                  react_default.a.createElement(
-                    'a',
-                    { href: 'javascript:void(0);', 'class': 'color-nightsky' },
-                    'Schedule Appointment'
-                  )
-                )
-              ),
-              react_default.a.createElement(
-                'p',
-                { 'class': 'std-txt std-txt-S' },
-                react_default.a.createElement(
-                  'a',
-                  { href: 'javascript:void(0);', 'class': 'expand-collapse-btn', 'data-hide-text': 'Hide Hours & Services', 'data-target': '#storeLising2' + type },
-                  'View Hours & Services'
-                )
-              )
-            )
-          )
-        )
-      );
-    }
-  }, {
-    key: 'navSet',
-    value: function navSet(linkSet) {
-      return react_default.a.createElement(
-        'li',
-        { 'class': 'main-menu-tier1-li' },
-        react_default.a.createElement(
-          'a',
-          { href: 'javascript:void(0)', 'class': 'main-menu-tier1-link' },
-          react_default.a.createElement(
-            'span',
-            { 'class': 'main-menu-tier1-link-thumb' },
-            react_default.a.createElement('img', { src: linkSet.thumb, alt: '' })
-          ),
-          linkSet.name
-        ),
-        react_default.a.createElement(
-          'ul',
-          { 'class': 'main-menu-tier2-ul' },
-          react_default.a.createElement(
-            'li',
-            { 'class': 'main-menu-secondary-hidden-lg-up color-lightgrey-bg department-first-child' },
-            react_default.a.createElement(
-              'span',
-              { 'class': 'main-menu-tier1-link' },
-              react_default.a.createElement(
-                'span',
-                { 'class': 'main-menu-tier1-link-thumb' },
-                react_default.a.createElement('img', { src: linkSet.thumb, alt: '' })
-              ),
-              linkSet.name
-            )
-          ),
-          linkSet.subLinks.map(function (link, index) {
-            return react_default.a.createElement(
-              'li',
-              { key: index, 'class': 'main-menu-tier2-li' },
-              react_default.a.createElement(
-                'a',
-                { href: 'javascript:void(0)', 'class': 'main-menu-tier2-link' },
-                link.name
-              ),
-              react_default.a.createElement(
-                'ul',
-                { 'class': 'main-menu-tier3-ul' },
-                link.sublinks2.map(function (name, index) {
-                  return react_default.a.createElement(
-                    'li',
-                    { key: index, 'class': 'main-menu-tier3-li' },
-                    react_default.a.createElement(
-                      'a',
-                      { href: 'javascript:void(0)', 'class': 'main-menu-tier3-link' },
-                      name
-                    )
-                  );
-                })
-              )
-            );
-          })
-        )
-      );
-    }
-  }, {
-    key: 'sidePaneler',
-    value: function sidePaneler(indexObj) {
-
-      jquery_default()('.slide-panel-from-right').each(function (indx, obj) {
-        indexObj == indx ? jquery_default()(obj).addClass('is-visible') : jquery_default()(obj).removeClass('is-visible');
-      });
-    }
-  }, {
-    key: 'componentDidMount',
-    value: function componentDidMount() {
-
-      jquery_default()('.cancel-btn').on('click', function () {
-        jquery_default()('#changeMyStoreZipLinkDesktop').css('display', 'block');
-        jquery_default()('#changeMyStoreZipDesktop').css('display', 'none');
-        jquery_default()('#changeMyStoreZipLinkMobile').css('display', 'block');
-        jquery_default()('#changeMyStoreZipMobile').css('display', 'none');
-      });
-
-      !function (factory) {
-        "use strict";
-        "function" == typeof define && __webpack_require__("nErl") ? define(["$"], factory) : jquery_default.a && !jquery_default.a.fn.hoverIntent && factory(jquery_default.a);
-      }(function ($) {
-        "use strict";
-        var cX,
-            cY,
-            _cfg = { interval: 100, sensitivity: 6, timeout: 0 },
-            INSTANCE_COUNT = 0,
-            track = function track(ev) {
-          cX = ev.pageX, cY = ev.pageY;
-        },
-            compare = function compare(ev, $el, s, cfg) {
-          if (Math.sqrt((s.pX - cX) * (s.pX - cX) + (s.pY - cY) * (s.pY - cY)) < cfg.sensitivity) return $el.off(s.event, track), delete s.timeoutId, s.isActive = !0, ev.pageX = cX, ev.pageY = cY, delete s.pX, delete s.pY, cfg.over.apply($el[0], [ev]);s.pX = cX, s.pY = cY, s.timeoutId = setTimeout(function () {
-            compare(ev, $el, s, cfg);
-          }, cfg.interval);
-        },
-            delay = function delay(ev, $el, s, out) {
-          return delete $el.data("hoverIntent")[s.id], out.apply($el[0], [ev]);
-        };$.fn.hoverIntent = function (handlerIn, handlerOut, selector) {
-          var instanceId = INSTANCE_COUNT++,
-              cfg = $.extend({}, _cfg);$.isPlainObject(handlerIn) ? (cfg = $.extend(cfg, handlerIn), $.isFunction(cfg.out) || (cfg.out = cfg.over)) : cfg = $.isFunction(handlerOut) ? $.extend(cfg, { over: handlerIn, out: handlerOut, selector: selector }) : $.extend(cfg, { over: handlerIn, out: handlerIn, selector: handlerOut });var handleHover = function handleHover(e) {
-            var ev = $.extend({}, e),
-                $el = $(this),
-                hoverIntentData = $el.data("hoverIntent");hoverIntentData || $el.data("hoverIntent", hoverIntentData = {});var state = hoverIntentData[instanceId];state || (hoverIntentData[instanceId] = state = { id: instanceId }), state.timeoutId && (state.timeoutId = clearTimeout(state.timeoutId));var mousemove = state.event = "mousemove.hoverIntent.hoverIntent" + instanceId;if ("mouseenter" === e.type) {
-              if (state.isActive) return;state.pX = ev.pageX, state.pY = ev.pageY, $el.off(mousemove, track).on(mousemove, track), state.timeoutId = setTimeout(function () {
-                compare(ev, $el, state, cfg);
-              }, cfg.interval);
-            } else {
-              if (!state.isActive) return;$el.off(mousemove, track), state.timeoutId = setTimeout(function () {
-                delay(ev, $el, state, cfg.out);
-              }, cfg.timeout);
-            }
-          };return this.on({ "mouseenter.hoverIntent": handleHover, "mouseleave.hoverIntent": handleHover }, cfg.selector);
-        };
-      });
-
-      jquery_default()('.dropdown-button').unbind('click').on('click', function () {
-        var parent_box = jquery_default()(this).closest('.dropdown-menu-block');
-        parent_box.siblings().find('.dropdown-menu').hide();
-        parent_box.find('.dropdown-menu').slideToggle(200, 'swing');
-        jquery_default()(this).toggleClass("arrow-down");
-
-        if (jquery_default()(".dropdown-button").hasClass("arrow-down")) {
-          if (jquery_default()('#menu-overlay').length == 0) jquery_default()("body").append('<div id="menu-overlay" class="menu-overlay"></div>');else jquery_default()('#menu-overlay').trigger('click');
-        } else {
-          jquery_default()("#menu-overlay").remove();
-        }
-      });
-
-      // $('#menu-overlay').on('click', function (e) {
-      jquery_default()('body').on('click', '#menu-overlay', function () {
-        jquery_default()("#menu-overlay").remove();
-        jquery_default()(".dropdown-menu").hide();
-        jquery_default()(".dropdown-button").removeClass("arrow-down");
-      });
-
-      jquery_default()('.side-panel-btn').unbind('click').on('click', function (event) {
-        // event.preventDefault();
-        var parent = jquery_default()(jquery_default()(this).attr('data-target'));
-        parent.addClass('is-visible');
-        if (jquery_default()(this).attr('id') == "mainMenuSidePanelButton") {
-          parent.addClass('is-enabled');
-        }
-      });
-
-      jquery_default()(window).resize(function () {
-        if (jquery_default()('#mainMenuSidePanelButton').filter(":visible").length < 1) {
-          jquery_default()('.side-panel-disable-desktop').removeClass('is-enabled');
-        }
-      });
-
-      jquery_default()('.side-panel').unbind('click').on('click', function (event) {
-        var closed = false;
-        if (jquery_default()(event.target).is('.side-panel')) {
-          jquery_default()(this).removeClass('is-visible');
-          closed = true;
-        } else if (jquery_default()(event.target).is('.side-panel-close') || jquery_default()(event.target).closest('a').hasClass('side-panel-close')) {
-          jquery_default()(event.target).closest('.side-panel').removeClass('is-visible');
-          closed = true;
-        }
-        if (closed === true && jquery_default()(this).find('.main-menu-reset').length > 0) {
-          setTimeout(function () {
-            jquery_default()('.main-menu-tier2-ul.tier2-click').removeClass('tier2-click');
-            jquery_default()('.main-menu-md-panel.tier2-click').removeClass('tier2-click');
-            jquery_default()('.side-panel-container').removeClass('tier2-open');
-          }, 400);
-        }
-        // event.preventDefault();
-      });
-
-      jquery_default()(".main-menu-secondary-li-shop-departments").hoverIntent({
-
-        over: function over() {
-          jquery_default()('.dropdown-menu').css('display', 'none');
-          if (jquery_default()("#mainMenusecondaryLightBox").length == 0) {
-            jquery_default()("body").append('<div id="mainMenusecondaryLightBox"></div>');
-            var top = 0;
-            if (jquery_default()(".main-menu-bar-secondary").length > 0) {
-              top = jquery_default()(".main-menu-bar-secondary").height() + jquery_default()(".main-menu-bar-secondary").offset().top;
-            }
-            jquery_default()("#mainMenusecondaryLightBox").fadeOut(0).fadeIn(200);
-          }
-          jquery_default()(".main-menu-secondary-li").addClass("main-menu-secondary-hover");
-        },
-        timeout: 400,
-        interval: 100,
-        out: function out() {
-          jquery_default()(".main-menu-secondary-li").removeClass("main-menu-secondary-hover");
-          jquery_default()("#mainMenusecondaryLightBox").fadeOut(300);
-          setTimeout(function () {
-            jquery_default()("#mainMenusecondaryLightBox").remove();
-          }, 500);
-          jquery_default()('.main-menu-tier1').removeClass('active-tier2').removeClass('active-tier3');
-        }
-      });
-
-      jquery_default()(".main-menu-tier1-li").hoverIntent({
-        over: function over() {
-          jquery_default()(".main-menu-tier1-li").removeClass('active');
-          jquery_default()(this).addClass("active");
-          jquery_default()(".main-menu-tier2-li.active").removeClass('active');
-          jquery_default()(".main-menu-tier2-li.to-activate").removeClass('to-activate');
-          jquery_default()(this).closest('.main-menu-tier1').addClass('active-tier2').removeClass('active-tier3');
-        },
-        timeout: 200,
-        interval: 100,
-        out: function out() {
-          jquery_default()(this).removeClass("active");
-        }
-      });
-
-      jquery_default()(".main-menu-tier2-li").hoverIntent({
-        over: function over() {
-          jquery_default()('.to-activate').removeClass('to-activate');
-          if (jquery_default()(this).closest('.main-menu-tier1').hasClass('active-tier3')) {
-            jquery_default()(".main-menu-tier2-li.active").removeClass('active');
-            jquery_default()(this).addClass("active");
-          } else {
-            jquery_default()(this).addClass("to-activate");
-            jquery_default()(".main-menu-tier2-li.active").removeClass('active');
-            setTimeout(function () {
-              if (jquery_default()('.to-activate').length > 0) {
-                jquery_default()(".main-menu-tier2-li.active").removeClass('active');
-                jquery_default()('.to-activate').removeClass('to-activate').addClass('active');
-              }
-            }, 500);
-          }
-
-          jquery_default()(this).closest('.main-menu-tier1').addClass('active-tier3');
-        },
-        timeout: 200,
-        interval: 100,
-        out: function out() {
-          if (jquery_default()(".main-menu-tier2-li.active").length < 1) {
-            jquery_default()(this).closest('.main-menu-tier1').removeClass('active-tier3');
-          }
-        }
-      });
-
-      jquery_default()(".main-menu-tier3-li").hoverIntent({
-        over: function over() {
-          jquery_default()(this).addClass("active");
-        },
-        timeout: 200,
-        interval: 100,
-        out: function out() {
-          jquery_default()(this).removeClass("active");
-        }
-      });
-
-      /* Navigation Mobile/Tablet */
-
-      jquery_default()(".main-menu-tier1-link").unbind('click').on('click', function (event) {
-        event.preventDefault();
-        jquery_default()('.main-menu-tier2-ul.tier2-click').removeClass('tier2-click');
-        jquery_default()('.main-menu-md-panel').removeClass('tier2-click');
-        jquery_default()(this).closest('.main-menu-tier1-li').find('.main-menu-tier2-ul').addClass('tier2-click');
-        jquery_default()('.side-panel-content').animate({ scrollTop: 0 }, { duration: 200 });
-        jquery_default()('.side-panel-container').addClass('tier2-open');
-      });
-
-      jquery_default()(".main-menu-tier2-link").unbind('click').on('click', function (event) {
-        event.preventDefault();
-        var target = jquery_default()(this).closest('.main-menu-tier2-li');
-        if (target.hasClass('tier3-click')) {
-          target.removeClass('tier3-click');
-        } else {
-          target.addClass('tier3-click');
-        }
-      });
-
-      jquery_default()(document).ready(function () {
-        jquery_default()('.main-menu-secondary-shop-departments').click(function () {
-          jquery_default()(".main-menu-secondary-li").toggleClass("main-menu-secondary-hover");
-          jquery_default()("#mainMenusecondaryLightBox").toggle();
-        });
-      });
-
-      jquery_default()(".tier2-close").unbind('click').on('click', function (event) {
-        event.preventDefault();
-
-        jquery_default()(this).closest('.main-menu-tier1-li').find('.main-menu-tier2-ul').addClass('tier2-click-remove');
-        jquery_default()(this).closest('.main-menu-md-panel').addClass('tier2-click-remove');
-        setTimeout(function () {
-          jquery_default()('.tier2-click-remove').removeClass('tier2-click-remove').removeClass('tier2-click');
-        }, 400);
-
-        jquery_default()('.side-panel-container').removeClass('tier2-open');
-      });
-
-      jquery_default()(".main-menu-md-panel-btn").unbind('click').on('click', function (event) {
-        event.preventDefault();
-        jquery_default()('.main-menu-tier2-ul.tier2-click').removeClass('tier2-click');
-        jquery_default()(this).closest('.main-menu-md-panel-li').find('.main-menu-md-panel').addClass('tier2-click');
-        jquery_default()('.side-panel-content').animate({ scrollTop: 0 }, { duration: 1 });
-        jquery_default()('.side-panel-container').addClass('tier2-open');
-      });
-
-      jquery_default()(".main-menu-reset").on('click', function (event) {
-        event.preventDefault();
-        jquery_default()('.side-panel-container').trigger('click');
-      });
-
-      jquery_default()('.expand-collapse-btn').unbind('click').on('click', function (event) {
-        var target = jquery_default()(jquery_default()(this).attr('data-target'));
-
-        var duration = 400;
-        if (jquery_default()(this).attr('data-duration')) {
-          duration = jquery_default()(this).attr('data-duration');
-        }
-
-        if (target.hasClass('is-visible')) {
-          if (jquery_default()(this).attr('data-show-text')) {
-            jquery_default()(this).text(jquery_default()(this).attr('data-show-text'));
-          }
-          if (duration > 0) {
-            target.removeClass('is-visible').slideUp(duration);
-          } else {
-            target.removeClass('is-visible').css('display', 'none');
-          }
-        } else {
-          if (jquery_default()(this).attr('data-hide-text')) {
-            jquery_default()(this).attr('data-show-text', jquery_default()(this).text());
-            jquery_default()(this).text(jquery_default()(this).attr('data-hide-text'));
-          }
-          if (duration > 0) {
-            target.addClass('is-visible').slideDown(duration);
-          } else {
-            target.addClass('is-visible').css('display', 'block');
-          }
-          if (jquery_default()(this).attr('data-hide-on-open-target')) {
-            jquery_default()(jquery_default()(this).attr('data-hide-on-open-target')).css('display', 'none');
-          }
-        }
-      });
-
-      jquery_default()('#menuPrimarySearch').focus(function () {
-
-        if (jquery_default()(window).width() >= 1024) {
-          jquery_default()(".main-menu-primary-rewards, .main-menu-primary-account, .track-order").hide(400);
-          jquery_default()(this).attr('data-default', jquery_default()(this).width());
-        } else {
-          jquery_default()(".main-menu-primary-rewards, .main-menu-primary-account, .track-order").show();
-        }
-      }).blur(function () {
-        if (jquery_default()("#menuPrimarySearch").val() == "") {
-          jquery_default()('.main-menu').removeClass('main-menu-search-open');
-          jquery_default()(".main-menu-primary-rewards, .main-menu-primary-account, .track-order").show(400);
-        }
-      });
-
-      jquery_default()(".search-close-icon").click(function () {
-        jquery_default()("#menuPrimarySearch").val('').focus();
-      });
-
-      //Preview top nav without design system wrapper
-      jquery_default()("#HideDesignSystem").unbind('click').on('click', function (event) {
-        jquery_default()(this).toggleClass('active');
-        if (jquery_default()(this).hasClass('active')) {
-          jquery_default()(this).text('Show Design System Wrapper');
-          jquery_default()(".design-system-nav-col").css('display', 'none');
-          jquery_default()(".design-system-content").css('padding', 0);
-          jquery_default()(".design-system-inner-content").css('padding', 0);
-          jquery_default()(".design-system-enable-hide").css('display', 'none');
-          jquery_default()(".design-system-nav-mobile").css('display', 'none');
-          jquery_default()(".design-system-wrap").css('margin', 0);
-        } else {
-          jquery_default()(this).text('Hide Design System Wrapper');
-          jquery_default()(".design-system-nav-col").removeAttr('style');
-          jquery_default()(".design-system-content").removeAttr('style');
-          jquery_default()(".design-system-inner-content").removeAttr('style');
-          jquery_default()(".design-system-enable-hide").removeAttr('style');
-          jquery_default()(".design-system-nav-mobile").removeAttr('style');
-          jquery_default()(".design-system-wrap").removeAttr('style');
-        }
-      });
-
-      //slideout panel
-
-      jquery_default()('.side-panel-btn').unbind('click').on('click', function (event) {
-        // event.preventDefault();
-        var parent = jquery_default()(jquery_default()(this).attr('data-target'));
-        parent.addClass('is-visible');
-      });
-
-      jquery_default()('.side-panel').unbind('click').on('click', function (event) {
-        if (jquery_default()(event.target).is('.side-panel')) {
-          jquery_default()(this).removeClass('is-visible');
-        } else if (jquery_default()(event.target).is('.side-panel-close') || jquery_default()(event.target).closest('a').hasClass('side-panel-close')) {
-          jquery_default()(event.target).closest('.side-panel').removeClass('is-visible');
-        }
-        // event.preventDefault();
-      });
-
-      // show password
-      Array.from(document.getElementsByClassName('show-pwd')).map(function (el) {
-        el.onclick = onShowPwd;
-      });
-
-      function onShowPwd(evt) {
-        var textid = evt.target.getAttribute('data-textid');
-        var passwordElement = document.getElementById(textid);
-        var currentType = passwordElement.getAttribute('type');
-        var newType = currentType == "password" ? 'text' : 'password';
-        passwordElement.setAttribute('type', newType);
-        evt.target.innerHTML = newType == 'password' ? 'show' : 'hide';
-      }
-      var self = this;
-      jquery_default()(function () {
-        jquery_default()(".phone-number").keypress(function (e) {
-          if (e.which != 8 && e.which != 0 && (e.which < 48 || e.which > 57)) {
-            return false;
-          }
-          var curchr = this.value.length;
-          var curval = jquery_default()(this).val();
-          if (curchr == 3) {
-            jquery_default()(this).val(curval + "-");
-          } else if (curchr == 7) {
-            jquery_default()(this).val(curval + "-");
-          }
-          jquery_default()(this).attr('maxlength', '12');
-        });
-
-        jquery_default()('#siginForgotPswd,#siginCreateAct,#createmyAccount,#siginmyAccount,#siginHome,#signOut').click(function (e) {
-          switch (jquery_default()(e.target).attr('id')) {
-            case "siginCreateAct":
-              self.sidePaneler(4);
-              break;
-            case "siginForgotPswd":
-              self.sidePaneler(3);
-              break;
-            case "createmyAccount":
-              self.sidePaneler(0);
-              break;
-            case "siginmyAccount":
-              self.sidePaneler(0);
-              break;
-            case "siginHome":
-              self.sidePaneler(1);
-              break;
-            case "signOut":
-              self.sidePaneler(5);
-              break;
-          }
-        });
-      });
-    }
-  }, {
-    key: 'render',
-    value: function render() {
-      return react_default.a.createElement(
-        'div',
-        null,
-        react_default.a.createElement(
-          'div',
-          { 'class': 'row design-system-enable-hide' },
-          react_default.a.createElement(
-            'div',
-            { 'class': 'row' },
-            react_default.a.createElement(
-              'div',
-              { 'class': 'sm12 columns' },
-              react_default.a.createElement(
-                'p',
-                { 'class': 'S' },
-                react_default.a.createElement('br', null),
-                react_default.a.createElement(
-                  'a',
-                  { href: 'javascript:void(0);', id: 'HideDesignSystem' },
-                  'Hide Design System Wrapper'
-                )
-              ),
-              react_default.a.createElement('br', null),
-              react_default.a.createElement('br', null)
-            )
-          )
-        ),
-        react_default.a.createElement(
-          'header',
-          { 'class': 'main-menu' },
-          react_default.a.createElement(
-            'div',
-            { 'class': 'main-menu-promotional-banner' },
-            react_default.a.createElement(
-              'div',
-              { 'class': 'main-menu-promotional-banner-content' },
-              react_default.a.createElement(
-                'p',
-                { 'class': 'S S-at-S mrg-zero main-menu-promotional-banner-text' },
-                'Promotional font size is 14px\u2026 ',
-                react_default.a.createElement(
-                  'a',
-                  { href: 'javascript:void(0);' },
-                  'See Details'
-                )
-              ),
-              react_default.a.createElement(
-                'p',
-                { 'class': 'S S-at-S mrg-zero main-menu-promotional-banner-link hide-for-large-down' },
-                ' ',
-                react_default.a.createElement(
-                  'a',
-                  { href: 'javascript:void(0);' },
-                  'Accessible View'
-                ),
-                ' '
-              )
-            )
-          ),
-          react_default.a.createElement(
-            'div',
-            { 'class': 'main-menu-bar-primary color-penneyred-bg' },
-            react_default.a.createElement(
-              'ul',
-              { 'class': 'main-menu-primary' },
-              react_default.a.createElement(
-                'li',
-                { 'class': 'main-menu-primary-item main-menu-primary-logo' },
-                ' ',
-                react_default.a.createElement(
-                  'span',
-                  { 'class': 'hide-for-large-up' },
-                  ' ',
-                  react_default.a.createElement(
-                    'a',
-                    { title: 'JCPenney Main Menu', 'aria-label': 'JCPenney Main Menu', href: 'javascript:void(0);', 'class': 'side-panel-btn', 'data-target': '#mainMenusecondary', id: 'mainMenuSidePanelButton' },
-                    react_default.a.createElement('div', { 'class': 'main-menu-primary-menu-svg icon', dangerouslySetInnerHTML: { __html: header_menuImage } })
-                  ),
-                  ' '
-                ),
-                ' ',
-                react_default.a.createElement(
-                  'a',
-                  { title: 'JCPenney Home', 'aria-label': 'JCPenney Home Page', href: 'javascript:void(0);' },
-                  react_default.a.createElement('div', { 'class': 'main-menu-primary-logo-svg', dangerouslySetInnerHTML: { __html: logoImage } })
-                ),
-                ' '
-              ),
-              react_default.a.createElement(
-                'li',
-                { 'class': 'main-menu-primary-item main-menu-primary-search' },
-                react_default.a.createElement(
-                  'div',
-                  { 'class': 'main-menu-primary-search-form search-block' },
-                  react_default.a.createElement(
-                    'form',
-                    { action: 'http://www.jcpenney.com/s/search' },
-                    react_default.a.createElement('input', { type: 'text', placeholder: 'Search Products', size: '20', required: true, 'aria-required': 'false', autocomplete: 'off', autocorrect: 'off', autocapitalize: 'off', spellcheck: 'off', id: 'menuPrimarySearch', 'class': 'input-text' }),
-                    react_default.a.createElement('button', { 'class': 'search-close-icon', type: 'reset' }),
-                    react_default.a.createElement(
-                      'button',
-                      { type: 'button', 'class': 'btn-search' },
-                      react_default.a.createElement('div', { 'class': 'main-menu-primary-search-icon color-lipstick-svg icon', dangerouslySetInnerHTML: { __html: header_searchImage } })
-                    )
-                  )
-                )
-              ),
-              react_default.a.createElement(
-                'li',
-                { 'class': 'main-menu-primary-item main-menu-primary-rewards hide-for-medium-down hide-for-sm-only hide-for-xs-only hide-for-xxs-only' },
-                react_default.a.createElement(
-                  'a',
-                  { href: 'javascript:void(0);' },
-                  react_default.a.createElement('span', { 'class': 'icon color-white-svg', dangerouslySetInnerHTML: { __html: header_jcpenneyRewardsImage } })
-                )
-              ),
-              react_default.a.createElement(
-                'li',
-                { 'class': 'main-menu-primary-item main-menu-primary-account' },
-                react_default.a.createElement(
-                  'div',
-                  { 'class': 'dropdown-menu-block' },
-                  react_default.a.createElement(
-                    'button',
-                    { type: 'button', tabindex: '-1', 'data-target': '#signIn', 'class': 'side-panel-btn' },
-                    react_default.a.createElement('div', { 'class': 'main-menu-primary-account-icon icon color-white-svg', dangerouslySetInnerHTML: { __html: accountNewImage } }),
-                    react_default.a.createElement(
-                      'div',
-                      { 'class': 'main-menu-primary-account-title show-for-large-only show-for-xlarge-only show-for-xxlarge-only hide-for-medium-down title-XS side-panel-btn' },
-                      'My Account'
-                    ),
-                    react_default.a.createElement(
-                      'div',
-                      { 'class': 'main-menu-primary-account-link show-for-large-only show-for-xlarge-only show-for-xxlarge-only hide-for-medium-down title-M side-panel-btn' },
-                      'Sign In'
-                    )
-                  )
-                )
-              ),
-              react_default.a.createElement(
-                'li',
-                { 'class': 'main-menu-primary-item track-order hide-for-medium-down hide-for-sm-only hide-for-xs-only hide-for-xxs-only' },
-                react_default.a.createElement(
-                  'span',
-                  { 'class': 'color-white title-XS' },
-                  'Track My'
-                ),
-                react_default.a.createElement(
-                  'span',
-                  { 'class': 'title-M color-white' },
-                  'Orders'
-                )
-              ),
-              react_default.a.createElement(
-                'li',
-                { 'class': 'main-menu-primary-item main-menu-primary-cart' },
-                ' ',
-                react_default.a.createElement(
-                  'a',
-                  { href: 'javascript:void(0);', 'class': 'main-menu-primary-cart-icon-full' },
-                  ' ',
-                  react_default.a.createElement(
-                    'span',
-                    { 'class': 'main-menu-primary-cart-icon-full-items' },
-                    '28'
-                  ),
-                  react_default.a.createElement('div', { 'class': 'main-menu-primary-cart-icon-full-icon icon color-white-svg', dangerouslySetInnerHTML: { __html: header_cartFullImage } })
-                ),
-                ' '
-              )
-            )
-          ),
-          react_default.a.createElement(
-            'div',
-            { 'class': 'main-menu-bar-secondary' },
-            react_default.a.createElement(
-              'div',
-              { 'class': 'side-panel side-panel-disable-desktop slide-panel-from-left main-menu-bar-secondary-panel', id: 'mainMenusecondary' },
-              react_default.a.createElement(
-                'div',
-                { 'class': 'side-panel-container' },
-                react_default.a.createElement(
-                  'div',
-                  { 'class': 'side-panel-container-inner-container' },
-                  react_default.a.createElement(
-                    'header',
-                    { 'class': 'side-panel-header' },
-                    react_default.a.createElement(
-                      'h3',
-                      { 'class': 'promo-lbl promo-lbl-M side-panel-headline' },
-                      'Hi, Jesse'
-                    ),
-                    react_default.a.createElement(
-                      'a',
-                      { href: 'javascript:void(0);', 'class': 'title title-L tier2-close' },
-                      react_default.a.createElement('div', { 'class': 'tier2-close-icon icon', dangerouslySetInnerHTML: { __html: header_arrowleftImage } }),
-                      'Back '
-                    ),
-                    ' ',
-                    react_default.a.createElement(
-                      'a',
-                      { href: 'javascript:void(0);', 'class': 'side-panel-close main-menu-reset' },
-                      react_default.a.createElement('div', { 'class': 'change-my-store-icon-close icon', dangerouslySetInnerHTML: { __html: header_closeImage } })
-                    ),
-                    ' '
-                  ),
-                  react_default.a.createElement(
-                    'div',
-                    { 'class': 'side-panel-content' },
-                    react_default.a.createElement(
-                      'div',
-                      { 'class': 'main-menu-bar-secondary-container' },
-                      react_default.a.createElement(
-                        'div',
-                        { 'class': 'main-menu-secondary-left' },
-                        react_default.a.createElement(
-                          'ul',
-                          { 'class': 'main-menu-secondary title title-S' },
-                          react_default.a.createElement(
-                            'li',
-                            { 'class': 'main-menu-secondary-li main-menu-secondary-li-shop-departments main-menu-secondary-open' },
-                            react_default.a.createElement(
-                              'button',
-                              { 'class': 'main-menu-secondary-shop-departments hide-for-medium-down' },
-                              react_default.a.createElement('div', { 'class': 'main-menu-secondary-shop-departments-menu-svg icon color-nightsky-svg', dangerouslySetInnerHTML: { __html: header_menuImage } }),
-                              react_default.a.createElement(
-                                'span',
-                                { 'class': 'main-menu-secondary-shop-departments-menu-label' },
-                                'Shop Departments'
-                              ),
-                              ' '
-                            ),
-                            react_default.a.createElement(
-                              'div',
-                              { 'class': 'main-menu-tier1' },
-                              react_default.a.createElement(
-                                'ul',
-                                { 'class': 'main-menu-md-down' },
-                                react_default.a.createElement(
-                                  'li',
-                                  null,
-                                  ' ',
-                                  react_default.a.createElement(
-                                    'a',
-                                    { href: 'javascript:void(0);', 'class': 'main-menu-tier1-button-md-down main-menu-md-primary' },
-                                    react_default.a.createElement('span', { dangerouslySetInnerHTML: { __html: accountNewImage } }),
-                                    'My Account'
-                                  ),
-                                  ' '
-                                ),
-                                react_default.a.createElement(
-                                  'li',
-                                  null,
-                                  ' ',
-                                  react_default.a.createElement(
-                                    'a',
-                                    { href: 'javascript:void(0);', 'class': 'main-menu-tier1-button-md-down main-menu-md-primary' },
-                                    react_default.a.createElement('span', { dangerouslySetInnerHTML: { __html: trackOrderImage } }),
-                                    'Track My Order'
-                                  ),
-                                  ' '
-                                ),
-                                react_default.a.createElement(
-                                  'li',
-                                  { 'class': 'main-menu-md-panel-li main-menu-tier1-border' },
-                                  ' ',
-                                  react_default.a.createElement(
-                                    'a',
-                                    { href: 'javascript:void(0);', 'class': 'main-menu-tier1-button-md-down main-menu-md-primary' },
-                                    react_default.a.createElement('span', { dangerouslySetInnerHTML: { __html: header_storeNewImage } }),
-                                    ' Find a Store'
-                                  ),
-                                  react_default.a.createElement(
-                                    'div',
-                                    { 'class': 'main-menu-md-panel' },
-                                    ' ',
-                                    this.changeMyStoreContent('Mobile'),
-                                    ' '
-                                  )
-                                )
-                              ),
-                              react_default.a.createElement(
-                                'ul',
-                                { 'class': 'main-menu-tier1-ul' },
-                                react_default.a.createElement(
-                                  'span',
-                                  { 'class': 'department-label title title-S' },
-                                  react_default.a.createElement(
-                                    'strong',
-                                    null,
-                                    'Departments'
-                                  )
-                                ),
-                                this.navSet({
-                                  name: "For The Home",
-                                  thumb: '/images/design-system/fpo/navigation/nav-mobile-for-the-home.jpg',
-                                  subLinks: [{
-                                    name: 'Furniture',
-                                    sublinks2: ['View All Furniture', 'Sofas', 'Chairs & Recliners']
-                                  }, {
-                                    name: 'Matresses',
-                                    sublinks2: ['View All Matresses', 'Matresses']
-                                  }]
-                                }),
-                                this.navSet({
-                                  name: "Bed & Bath",
-                                  thumb: '/images/design-system/fpo/navigation/nav-mobile-bed-and-bath.jpg',
-                                  subLinks: [{
-                                    name: 'Bedding',
-                                    sublinks2: ['Comforters & Bedding Sets']
-                                  }, {
-                                    name: 'Bedding Basics',
-                                    sublinks2: ['Matresses Pads & Toppers']
-                                  }]
-                                }),
-                                this.navSet({
-                                  name: "Window",
-                                  thumb: '/images/design-system/fpo/navigation/nav-mobile-window.jpg',
-                                  subLinks: [{
-                                    name: 'Window Treatments',
-                                    sublinks2: ['Curtains & Drapes']
-                                  }]
-                                }),
-                                this.navSet({
-                                  name: "Appliances",
-                                  thumb: '/images/design-system/fpo/navigation/nav-mobile-appliances.jpg',
-                                  subLinks: [{
-                                    name: 'Kitchen Appliances',
-                                    sublinks2: ['Refrigerators']
-                                  }]
-                                }),
-                                this.navSet({
-                                  name: "Women",
-                                  thumb: '/images/design-system/fpo/navigation/nav-mobile-women.jpg',
-                                  subLinks: [{
-                                    name: 'Holiday',
-                                    sublinks2: ['$25 Diamonds']
-                                  }]
-                                }),
-                                this.navSet({
-                                  name: "Lingerie",
-                                  thumb: '/images/design-system/fpo/navigation/nav-mobile-lingerie.jpg',
-                                  subLinks: [{
-                                    name: 'Bras',
-                                    sublinks2: ['Full Figure Bras']
-                                  }]
-                                }),
-                                this.navSet({
-                                  name: "Men",
-                                  thumb: '/images/design-system/fpo/navigation/nav-mobile-men.jpg',
-                                  subLinks: [{
-                                    name: 'Shop Clothing',
-                                    sublinks2: ['Shirts']
-                                  }]
-                                }),
-                                this.navSet({
-                                  name: "Juniors",
-                                  thumb: '/images/design-system/fpo/navigation/nav-mobile-juniors.jpg',
-                                  subLinks: [{
-                                    name: 'Holiday',
-                                    sublinks2: ['Nike']
-                                  }]
-                                }),
-                                this.navSet({
-                                  name: "Kids",
-                                  thumb: '/images/design-system/fpo/navigation/nav-mobile-kids.jpg',
-                                  subLinks: [{
-                                    name: 'Boys',
-                                    sublinks2: ['Shop All Boys']
-                                  }]
-                                }),
-                                this.navSet({
-                                  name: "Baby",
-                                  thumb: '/images/design-system/fpo/navigation/nav-mobile-baby.jpg',
-                                  subLinks: [{
-                                    name: 'Shop by Size',
-                                    sublinks2: ['Baby Boy Clothes 0-24 Months']
-                                  }]
-                                }),
-                                this.navSet({
-                                  name: "Shoes",
-                                  thumb: '/images/design-system/fpo/navigation/nav-mobile-shoes.jpg',
-                                  subLinks: [{
-                                    name: 'Women\'s Shoes',
-                                    sublinks2: ['Women\'s Boots']
-                                  }]
-                                })
-                              )
-                            )
-                          ),
-                          react_default.a.createElement(
-                            'li',
-                            { 'class': 'main-menu-secondary-li main-menu-secondary-li-primary main-menu-secondary-hidden-md-down' },
-                            ' ',
-                            react_default.a.createElement(
-                              'a',
-                              { href: 'javascript:void(0)' },
-                              'Same Day Pickup'
-                            ),
-                            ' '
-                          ),
-                          react_default.a.createElement(
-                            'li',
-                            { 'class': 'main-menu-secondary-li main-menu-secondary-li-primary main-menu-secondary-hidden-md-down' },
-                            ' ',
-                            react_default.a.createElement(
-                              'a',
-                              { href: 'javascript:void(0)' },
-                              'Gifts'
-                            ),
-                            ' '
-                          ),
-                          react_default.a.createElement(
-                            'li',
-                            { 'class': 'main-menu-secondary-li main-menu-secondary-li-primary main-menu-secondary-hidden-md-down' },
-                            ' ',
-                            react_default.a.createElement(
-                              'a',
-                              { href: 'javascript:void(0)' },
-                              'Toys'
-                            ),
-                            ' '
-                          ),
-                          react_default.a.createElement(
-                            'li',
-                            { 'class': 'main-menu-secondary-li main-menu-secondary-li-primary main-menu-secondary-hidden-lg-up' },
-                            ' ',
-                            react_default.a.createElement(
-                              'a',
-                              { href: 'javascript:void(0)', 'class': 'main-menu-md-primary' },
-                              'JCPenney Credit Card'
-                            ),
-                            ' '
-                          ),
-                          react_default.a.createElement(
-                            'li',
-                            { 'class': 'main-menu-secondary-li main-menu-secondary-li-primary main-menu-secondary-hidden-lg-up' },
-                            ' ',
-                            react_default.a.createElement(
-                              'a',
-                              { href: 'javascript:void(0)', 'class': 'main-menu-md-primary' },
-                              'Rewards'
-                            ),
-                            ' '
-                          ),
-                          react_default.a.createElement(
-                            'li',
-                            { 'class': 'main-menu-secondary-li main-menu-secondary-li-primary main-menu-secondary-hidden-lg-up' },
-                            ' ',
-                            react_default.a.createElement(
-                              'a',
-                              { href: 'javascript:void(0)', 'class': 'main-menu-md-primary' },
-                              'Store Ads'
-                            ),
-                            ' '
-                          ),
-                          react_default.a.createElement(
-                            'li',
-                            { 'class': 'main-menu-secondary-li main-menu-secondary-li-primary' },
-                            ' ',
-                            react_default.a.createElement(
-                              'a',
-                              { href: 'javascript:void(0)', 'class': 'main-menu-md-primary' },
-                              'My List'
-                            ),
-                            ' '
-                          ),
-                          react_default.a.createElement(
-                            'li',
-                            { 'class': 'main-menu-secondary-li main-menu-secondary-li-primary main-menu-secondary-li-highlight' },
-                            ' ',
-                            react_default.a.createElement(
-                              'a',
-                              { href: 'javascript:void(0)', 'class': 'main-menu-md-primary' },
-                              'Coupons'
-                            ),
-                            ' '
-                          ),
-                          react_default.a.createElement(
-                            'li',
-                            { 'class': 'main-menu-secondary-li main-menu-secondary-li-primary main-menu-secondary-hidden-lg-up border-top-menu' },
-                            ' ',
-                            react_default.a.createElement(
-                              'a',
-                              { href: 'javascript:void(0)', 'class': 'main-menu-md-primary' },
-                              'Need Help?'
-                            ),
-                            ' '
-                          ),
-                          react_default.a.createElement(
-                            'li',
-                            { 'class': 'main-menu-secondary-li main-menu-secondary-li-primary main-menu-secondary-hidden-lg-up' },
-                            ' ',
-                            react_default.a.createElement(
-                              'a',
-                              { href: 'javascript:void(0)', 'class': 'main-menu-md-primary' },
-                              'Accessible View'
-                            ),
-                            ' '
-                          ),
-                          react_default.a.createElement(
-                            'li',
-                            { 'class': 'main-menu-secondary-li main-menu-secondary-li-primary main-menu-secondary-hidden-lg-up border-top-menu' },
-                            ' ',
-                            react_default.a.createElement(
-                              'a',
-                              { href: 'javascript:void(0)', 'class': 'main-menu-md-primary' },
-                              'Sign Out'
-                            ),
-                            ' '
-                          )
-                        )
-                      ),
-                      react_default.a.createElement(
-                        'div',
-                        { 'class': 'main-menu-secondary-right main-menu-secondary-hidden-md-down' },
-                        react_default.a.createElement(
-                          'div',
-                          { 'class': 'dropdown-menu-block main-menu-secondary-my-store' },
-                          react_default.a.createElement(
-                            'button',
-                            { 'class': 'dropdown-button main-menu-tier1-button-md-down', type: 'button', tabindex: '-1' },
-                            react_default.a.createElement('span', { dangerouslySetInnerHTML: { __html: header_storeNewImage } }),
-                            react_default.a.createElement(
-                              'span',
-                              { 'class': 'find-store-button' },
-                              'Find a Store'
-                            )
-                          )
-                        )
-                      )
-                    )
-                  )
-                )
-              )
-            )
-          )
-        ),
-        react_default.a.createElement(
-          'div',
-          { 'class': 'side-panel slide-panel-from-right', id: 'myAccount' },
-          react_default.a.createElement(
-            'div',
-            { 'class': 'side-panel-container my-account-sidepanel' },
-            react_default.a.createElement(
-              'header',
-              { 'class': 'side-panel-header' },
-              react_default.a.createElement(
-                'h3',
-                { 'class': 'title title-L' },
-                'My Account Menu'
-              ),
-              react_default.a.createElement(
-                'a',
-                { href: 'javascript:void(0);', 'class': 'side-panel-close' },
-                react_default.a.createElement('div', { 'class': 'change-my-store-icon-close icon', dangerouslySetInnerHTML: { __html: header_closeImage } })
-              )
-            ),
-            react_default.a.createElement(
-              'div',
-              { 'class': 'side-panel-content my-account-container' },
-              react_default.a.createElement(
-                'div',
-                { 'class': 'my-account-top text-center' },
-                react_default.a.createElement('span', { 'class': 'account-logo', dangerouslySetInnerHTML: { __html: accountNewImage } }),
-                react_default.a.createElement(
-                  'h1',
-                  { 'class': 'title title-XXL' },
-                  'Hi, Ellen!'
-                ),
-                react_default.a.createElement(
-                  'p',
-                  { 'class': 'my-account-welcome' },
-                  'Welcome JCP Cardmember '
-                )
-              ),
-              react_default.a.createElement(
-                'div',
-                { 'class': 'my-account-list mrg-L' },
-                react_default.a.createElement(
-                  'ul',
-                  null,
-                  react_default.a.createElement(
-                    'li',
-                    { 'class': 'account-list-label color-concrete-svg' },
-                    react_default.a.createElement('span', { 'class': 'account-icon', dangerouslySetInnerHTML: { __html: header_accountImage } }),
-                    react_default.a.createElement(
-                      'a',
-                      { href: 'javascript:void(0)' },
-                      'My Account'
-                    )
-                  ),
-                  react_default.a.createElement(
-                    'li',
-                    { 'class': 'account-list-label color-concrete-svg' },
-                    react_default.a.createElement('span', { 'class': 'account-icon', dangerouslySetInnerHTML: { __html: trackOrderImage } }),
-                    react_default.a.createElement(
-                      'a',
-                      { href: 'javascript:void(0)' },
-                      'My Orders'
-                    )
-                  ),
-                  react_default.a.createElement(
-                    'li',
-                    { 'class': 'account-list-label color-concrete-svg' },
-                    react_default.a.createElement('span', { 'class': 'account-icon', dangerouslySetInnerHTML: { __html: header_idfillImage } }),
-                    react_default.a.createElement(
-                      'a',
-                      { href: 'javascript:void(0)' },
-                      'My Info'
-                    )
-                  ),
-                  react_default.a.createElement(
-                    'li',
-                    { 'class': 'account-list-label color-concrete-svg' },
-                    react_default.a.createElement('span', { 'class': 'account-icon', dangerouslySetInnerHTML: { __html: header_walletImage } }),
-                    react_default.a.createElement(
-                      'a',
-                      { href: 'javascript:void(0)' },
-                      'My Wallet'
-                    )
-                  ),
-                  react_default.a.createElement(
-                    'li',
-                    { 'class': 'account-list-label color-concrete-svg' },
-                    react_default.a.createElement('span', { 'class': 'account-icon', dangerouslySetInnerHTML: { __html: header_heartfillImage } }),
-                    react_default.a.createElement(
-                      'a',
-                      { href: 'javascript:void(0)' },
-                      'My Lists'
-                    )
-                  ),
-                  react_default.a.createElement(
-                    'li',
-                    { 'class': 'account-list-label color-concrete-svg' },
-                    react_default.a.createElement('span', { 'class': 'account-icon', dangerouslySetInnerHTML: { __html: rewardsFillImage } }),
-                    react_default.a.createElement(
-                      'a',
-                      { href: 'javascript:void(0)' },
-                      'My Rewards'
-                    )
-                  ),
-                  react_default.a.createElement(
-                    'li',
-                    { 'class': 'account-list-label color-concrete-svg' },
-                    react_default.a.createElement('span', { 'class': 'account-icon', dangerouslySetInnerHTML: { __html: appointmentFillImage } }),
-                    react_default.a.createElement(
-                      'a',
-                      { href: 'javascript:void(0)' },
-                      'My Appointments'
-                    )
-                  ),
-                  react_default.a.createElement(
-                    'li',
-                    { 'class': 'account-list-label color-concrete-svg' },
-                    react_default.a.createElement('span', { 'class': 'account-icon', dangerouslySetInnerHTML: { __html: header_cardjcpImage } }),
-                    react_default.a.createElement(
-                      'a',
-                      { href: 'javascript:void(0)' },
-                      'JCP Credit Card'
-                    )
-                  ),
-                  react_default.a.createElement(
-                    'li',
-                    { 'class': 'account-list-label color-concrete-svg' },
-                    react_default.a.createElement('span', { 'class': 'account-icon', dangerouslySetInnerHTML: { __html: accountNewImage } }),
-                    react_default.a.createElement(
-                      'a',
-                      { href: 'javascript:void(0)', id: 'signOut' },
-                      'Sign Out'
-                    )
-                  )
-                )
-              ),
-              react_default.a.createElement(
-                'div',
-                { 'class': 'card-member-status' },
-                react_default.a.createElement(
-                  'div',
-                  { 'class': 'member-section text-center' },
-                  react_default.a.createElement(
-                    'h2',
-                    { 'class': 'title title-L' },
-                    'Go for the Gold!  '
-                  ),
-                  react_default.a.createElement(
-                    'p',
-                    null,
-                    'Spend just $200 more to earn Gold cardmember status and reap the rewards! ',
-                    react_default.a.createElement(
-                      'a',
-                      { href: 'javascript:void(0);' },
-                      'Learn More '
-                    )
-                  )
-                ),
-                react_default.a.createElement(
-                  'div',
-                  { 'class': 'card-section' },
-                  react_default.a.createElement(
-                    'div',
-                    { 'class': 'card-jcp-progress' },
-                    react_default.a.createElement('span', { dangerouslySetInnerHTML: { __html: header_cardjcpredImage } })
-                  ),
-                  react_default.a.createElement(
-                    'div',
-                    { 'class': 'progress-bar progress-bar-rewards position-rel' },
-                    react_default.a.createElement(
-                      'span',
-                      { 'class': 'progress-bar-max-points' },
-                      '200'
-                    ),
-                    react_default.a.createElement(
-                      'div',
-                      { 'class': 'progress-bar-percent' },
-                      '150'
-                    )
-                  ),
-                  react_default.a.createElement(
-                    'div',
-                    { 'class': 'card-jcp-progress-right' },
-                    react_default.a.createElement('span', { dangerouslySetInnerHTML: { __html: header_cardjcpgoldImage } })
-                  )
-                )
-              )
-            )
-          )
-        ),
-        react_default.a.createElement(
-          'div',
-          { 'class': 'side-panel slide-panel-from-right', id: 'signIn' },
-          react_default.a.createElement(
-            'div',
-            { 'class': 'side-panel-container my-account-sidepanel' },
-            react_default.a.createElement(
-              'header',
-              { 'class': 'side-panel-header' },
-              react_default.a.createElement(
-                'h3',
-                { 'class': 'title title-L' },
-                'Sign In'
-              ),
-              react_default.a.createElement(
-                'a',
-                { href: 'javascript:void(0);', 'class': 'side-panel-close' },
-                react_default.a.createElement('div', { 'class': 'change-my-store-icon-close icon', dangerouslySetInnerHTML: { __html: header_closeImage } })
-              )
-            ),
-            react_default.a.createElement(
-              'div',
-              { 'class': 'side-panel-content my-account-container input-form' },
-              react_default.a.createElement(
-                'div',
-                { 'class': 'sm12 md12 columns row' },
-                react_default.a.createElement(
-                  'div',
-                  { 'class': 'form-float-label' },
-                  react_default.a.createElement('input', { 'class': 'form-control email-text input-text', id: 'email', type: 'text', placeholder: 'Email ' }),
-                  react_default.a.createElement(
-                    'label',
-                    { htmlFor: 'email' },
-                    'Email'
-                  )
-                ),
-                react_default.a.createElement(
-                  'div',
-                  { 'class': 'form-float-label password-form' },
-                  react_default.a.createElement('input', { 'class': 'form-control input-text', id: 'password1', maxLength: '16', type: 'password', placeholder: 'Password' }),
-                  react_default.a.createElement(
-                    'label',
-                    { htmlFor: 'password' },
-                    'Password'
-                  ),
-                  react_default.a.createElement(
-                    'a',
-                    { href: 'javascript:void(0);', 'data-textid': 'password1', 'class': 'show-pwd title-S' },
-                    'show'
-                  )
-                ),
-                react_default.a.createElement(
-                  'label',
-                  { 'class': 'checkbox fl-left' },
-                  react_default.a.createElement('input', { type: 'checkbox', defaultChecked: 'true' }),
-                  ' ',
-                  react_default.a.createElement(
-                    'span',
-                    null,
-                    'Remember Me'
-                  )
-                ),
-                react_default.a.createElement(
-                  'div',
-                  { 'class': 'fl-right std-txt std-txt-M mrg-L' },
-                  react_default.a.createElement(
-                    'a',
-                    { href: 'javascript:void(0);', id: 'siginForgotPswd' },
-                    'Forgot Password?'
-                  )
-                ),
-                react_default.a.createElement(
-                  'div',
-                  { 'class': 'text-center' },
-                  react_default.a.createElement(
-                    'a',
-                    { href: 'javascript:void();', role: 'button', 'class': 'btn btn-primary btn-M mrg-M col12', id: 'siginmyAccount' },
-                    'Sign In'
-                  )
-                ),
-                react_default.a.createElement(
-                  'p',
-                  { 'class': 'or-split text-center' },
-                  react_default.a.createElement(
-                    'span',
-                    null,
-                    'or'
-                  )
-                ),
-                react_default.a.createElement(
-                  'div',
-                  { 'class': 'text-center' },
-                  react_default.a.createElement(
-                    'a',
-                    { href: 'javascript:void();', id: 'siginCreateAct', role: 'button', 'class': 'btn btn-secondary btn-M mrg-M col12' },
-                    'Create Account'
-                  )
-                )
-              ),
-              react_default.a.createElement(
-                'div',
-                { 'class': 'my-account-bottom mrg-top-XL' },
-                react_default.a.createElement(
-                  'div',
-                  { 'class': 'menu-item' },
-                  react_default.a.createElement(
-                    'div',
-                    { 'class': 'my-account-list mrg-L' },
-                    react_default.a.createElement(
-                      'ul',
-                      null,
-                      react_default.a.createElement(
-                        'li',
-                        { 'class': 'account-list-label color-concrete-svg' },
-                        react_default.a.createElement('span', { 'class': 'account-icon', dangerouslySetInnerHTML: { __html: trackOrderImage } }),
-                        react_default.a.createElement(
-                          'a',
-                          { href: 'javascript:void(0)' },
-                          'My Orders'
-                        )
-                      ),
-                      react_default.a.createElement(
-                        'li',
-                        { 'class': 'account-list-label color-concrete-svg' },
-                        react_default.a.createElement('span', { 'class': 'account-icon', dangerouslySetInnerHTML: { __html: header_heartfillImage } }),
-                        react_default.a.createElement(
-                          'a',
-                          { href: 'javascript:void(0)' },
-                          'My Lists'
-                        )
-                      ),
-                      react_default.a.createElement(
-                        'li',
-                        { 'class': 'account-list-label color-concrete-svg' },
-                        react_default.a.createElement('span', { 'class': 'account-icon', dangerouslySetInnerHTML: { __html: rewardsFillImage } }),
-                        react_default.a.createElement(
-                          'a',
-                          { href: 'javascript:void(0)' },
-                          'My Rewards'
-                        )
-                      ),
-                      react_default.a.createElement(
-                        'li',
-                        { 'class': 'account-list-label color-concrete-svg' },
-                        react_default.a.createElement('span', { 'class': 'account-icon', dangerouslySetInnerHTML: { __html: header_cardjcpImage } }),
-                        react_default.a.createElement(
-                          'a',
-                          { href: 'javascript:void(0)' },
-                          'JCP Credit Card'
-                        )
-                      )
-                    )
-                  )
-                ),
-                react_default.a.createElement(
-                  'div',
-                  { 'class': 'card-item text-center col12' },
-                  react_default.a.createElement(
-                    'div',
-                    { 'class': 'card-container' },
-                    react_default.a.createElement(
-                      'div',
-                      { 'class': 'card-jcp dis-inline-block' },
-                      react_default.a.createElement('span', { 'class': 'dis-block', dangerouslySetInnerHTML: { __html: header_cardjcpredImage } })
-                    ),
-                    react_default.a.createElement(
-                      'div',
-                      { 'class': 'card-jcp-red card-jcp dis-inline-block' },
-                      react_default.a.createElement('span', { 'class': 'dis-block', dangerouslySetInnerHTML: { __html: header_cardjcpredImage } })
-                    ),
-                    react_default.a.createElement(
-                      'div',
-                      { 'class': 'card-jcp dis-inline-block' },
-                      react_default.a.createElement('span', { 'class': 'dis-block', dangerouslySetInnerHTML: { __html: header_cardjcpredImage } })
-                    )
-                  ),
-                  react_default.a.createElement(
-                    'div',
-                    { 'class': 'member-section text-center' },
-                    react_default.a.createElement(
-                      'h2',
-                      { 'class': 'title title-L' },
-                      'Earn Rewards 2x Faster'
-                    ),
-                    react_default.a.createElement(
-                      'span',
-                      { 'class': 'dis-block mrg-M' },
-                      'with your JCPenney Credit Card'
-                    )
-                  ),
-                  react_default.a.createElement(
-                    'div',
-                    { 'class': 'text-center' },
-                    react_default.a.createElement(
-                      'a',
-                      { href: 'javascript:void();', role: 'button', 'class': 'btn btn-secondary btn-M mrg-M col6' },
-                      'Apply Now'
-                    )
-                  ),
-                  react_default.a.createElement(
-                    'div',
-                    { 'class': 'text-center' },
-                    react_default.a.createElement(
-                      'span',
-                      { 'class': 'dis-block mrg-S' },
-                      'Already a cardmember? '
-                    ),
-                    react_default.a.createElement(
-                      'a',
-                      { 'class': 'mrg-M dis-block', href: 'javascript:void();' },
-                      'View Balance & Pay Bill'
-                    )
-                  )
-                )
-              )
-            )
-          )
-        ),
-        react_default.a.createElement(
-          'div',
-          { 'class': 'side-panel slide-panel-from-right', id: 'camMenu' },
-          react_default.a.createElement(
-            'div',
-            { 'class': 'side-panel-container my-account-sidepanel' },
-            react_default.a.createElement(
-              'header',
-              { 'class': 'side-panel-header' },
-              react_default.a.createElement(
-                'h3',
-                { 'class': 'title title-L' },
-                'Cam Menu'
-              ),
-              react_default.a.createElement(
-                'a',
-                { href: 'javascript:void(0);', 'class': 'side-panel-close' },
-                react_default.a.createElement('div', { 'class': 'change-my-store-icon-close icon', dangerouslySetInnerHTML: { __html: header_closeImage } })
-              )
-            ),
-            react_default.a.createElement(
-              'div',
-              { 'class': 'side-panel-content my-account-container cam-card-container' },
-              react_default.a.createElement(
-                'h3',
-                null,
-                'No / Unlinked JCP CC:'
-              ),
-              react_default.a.createElement(
-                'div',
-                { 'class': 'card-item text-center col12 mrg-L mrg-top-L' },
-                react_default.a.createElement(
-                  'div',
-                  { 'class': 'card-jcp dis-inline-block' },
-                  react_default.a.createElement('span', { 'class': 'dis-block', dangerouslySetInnerHTML: { __html: header_cardjcpredImage } })
-                ),
-                react_default.a.createElement(
-                  'div',
-                  { 'class': 'card-jcp-red card-jcp dis-inline-block mrg-top-S' },
-                  react_default.a.createElement('span', { 'class': 'dis-block', dangerouslySetInnerHTML: { __html: header_cardjcpredImage } })
-                ),
-                react_default.a.createElement(
-                  'div',
-                  { 'class': 'card-jcp dis-inline-block' },
-                  react_default.a.createElement('span', { 'class': 'dis-block', dangerouslySetInnerHTML: { __html: header_cardjcpredImage } })
-                ),
-                react_default.a.createElement(
-                  'div',
-                  { 'class': 'member-section text-center' },
-                  react_default.a.createElement(
-                    'h2',
-                    { 'class': 'title title-L' },
-                    'Earn Rewards 2x Faster'
-                  ),
-                  react_default.a.createElement(
-                    'span',
-                    { 'class': 'dis-block mrg-M' },
-                    'with your JCPenney Credit Card'
-                  )
-                ),
-                react_default.a.createElement(
-                  'div',
-                  { 'class': 'text-center' },
-                  react_default.a.createElement(
-                    'a',
-                    { href: 'javascript:void();', role: 'button', 'class': 'btn btn-secondary btn-M mrg-M' },
-                    'Apply Now'
-                  )
-                ),
-                react_default.a.createElement(
-                  'div',
-                  { 'class': 'text-center' },
-                  react_default.a.createElement(
-                    'span',
-                    { 'class': 'dis-block mrg-S' },
-                    'Already a cardmember? '
-                  ),
-                  react_default.a.createElement(
-                    'a',
-                    { 'class': 'mrg-M dis-block', href: 'javascript:void();' },
-                    'View Balance & Pay Bill'
-                  )
-                )
-              ),
-              react_default.a.createElement(
-                'h3',
-                null,
-                'Linked Red JCP CC:'
-              ),
-              react_default.a.createElement(
-                'div',
-                { 'class': 'card-member-status mrg-top-L mrg-L' },
-                react_default.a.createElement(
-                  'div',
-                  { 'class': 'member-section text-center' },
-                  react_default.a.createElement(
-                    'h2',
-                    { 'class': 'title title-L' },
-                    'Go for the Gold!  '
-                  ),
-                  react_default.a.createElement(
-                    'p',
-                    null,
-                    'Spend just $200 more to earn Gold cardmember status and reap the rewards! ',
-                    react_default.a.createElement(
-                      'a',
-                      { href: 'javascript:void(0);' },
-                      'Learn More '
-                    )
-                  )
-                ),
-                react_default.a.createElement(
-                  'div',
-                  { 'class': 'card-section' },
-                  react_default.a.createElement(
-                    'div',
-                    { 'class': 'card-jcp-progress' },
-                    react_default.a.createElement('span', { dangerouslySetInnerHTML: { __html: header_cardjcpredImage } })
-                  ),
-                  react_default.a.createElement(
-                    'div',
-                    { 'class': 'progress-bar progress-bar-rewards position-rel' },
-                    react_default.a.createElement(
-                      'span',
-                      { 'class': 'progress-bar-max-points' },
-                      '200'
-                    ),
-                    react_default.a.createElement(
-                      'div',
-                      { 'class': 'progress-bar-percent' },
-                      '150'
-                    )
-                  ),
-                  react_default.a.createElement(
-                    'div',
-                    { 'class': 'card-jcp-progress-right' },
-                    react_default.a.createElement('span', { dangerouslySetInnerHTML: { __html: header_cardjcpredImage } })
-                  )
-                )
-              ),
-              react_default.a.createElement(
-                'h3',
-                null,
-                'Linked Gold JCP CC:'
-              ),
-              react_default.a.createElement(
-                'div',
-                { 'class': 'card-member-status mrg-L' },
-                react_default.a.createElement(
-                  'div',
-                  { 'class': 'member-section text-center' },
-                  react_default.a.createElement(
-                    'h2',
-                    { 'class': 'title title-L' },
-                    'Platinum: It\u2019s Better Than Gold '
-                  ),
-                  react_default.a.createElement(
-                    'p',
-                    null,
-                    'Spend just $300 more to earn Gold cardmember status and reap the rewards! ',
-                    react_default.a.createElement(
-                      'a',
-                      { href: 'javascript:void(0);' },
-                      'Learn More '
-                    )
-                  )
-                ),
-                react_default.a.createElement(
-                  'div',
-                  { 'class': 'card-section' },
-                  react_default.a.createElement(
-                    'div',
-                    { 'class': 'card-jcp-progress' },
-                    react_default.a.createElement('span', { dangerouslySetInnerHTML: { __html: header_cardjcpredImage } })
-                  ),
-                  react_default.a.createElement(
-                    'div',
-                    { 'class': 'progress-bar progress-bar-rewards position-rel' },
-                    react_default.a.createElement(
-                      'span',
-                      { 'class': 'progress-bar-max-points' },
-                      '200'
-                    ),
-                    react_default.a.createElement(
-                      'div',
-                      { 'class': 'progress-bar-percent' },
-                      '150'
-                    )
-                  ),
-                  react_default.a.createElement(
-                    'div',
-                    { 'class': 'card-jcp-progress-right' },
-                    react_default.a.createElement('span', { dangerouslySetInnerHTML: { __html: header_cardjcpredImage } })
-                  )
-                )
-              ),
-              react_default.a.createElement(
-                'h3',
-                null,
-                'Linked Platinum JCP CC:'
-              ),
-              react_default.a.createElement(
-                'div',
-                { 'class': 'card-member-status' },
-                react_default.a.createElement(
-                  'div',
-                  { 'class': 'card-section card-collage' },
-                  react_default.a.createElement(
-                    'div',
-                    { 'class': 'card-jcp' },
-                    react_default.a.createElement('span', { dangerouslySetInnerHTML: { __html: header_cardjcpredImage } })
-                  ),
-                  react_default.a.createElement(
-                    'div',
-                    { 'class': 'card-jcp card-middle' },
-                    react_default.a.createElement('span', { dangerouslySetInnerHTML: { __html: header_cardjcpredImage } })
-                  ),
-                  react_default.a.createElement(
-                    'div',
-                    { 'class': 'card-jcp' },
-                    react_default.a.createElement('span', { dangerouslySetInnerHTML: { __html: header_cardjcpredImage } })
-                  )
-                ),
-                react_default.a.createElement(
-                  'div',
-                  { 'class': 'member-section text-center' },
-                  react_default.a.createElement(
-                    'h2',
-                    { 'class': 'title title-L' },
-                    'Platinum Cardmember'
-                  ),
-                  react_default.a.createElement(
-                    'p',
-                    null,
-                    'Spend just $328 more to earn Gold cardmember status and reap the rewards! ',
-                    react_default.a.createElement(
-                      'a',
-                      { href: 'javascript:void(0);' },
-                      'Learn More '
-                    )
-                  )
-                )
-              )
-            )
-          )
-        ),
-        react_default.a.createElement(
-          'div',
-          { 'class': 'side-panel slide-panel-from-right', id: 'forgotPassword' },
-          react_default.a.createElement(
-            'div',
-            { 'class': 'side-panel-container my-account-sidepanel' },
-            react_default.a.createElement(
-              'header',
-              { 'class': 'side-panel-header' },
-              react_default.a.createElement('span', { 'class': 'back-icon', dangerouslySetInnerHTML: { __html: header_arrowleftImage } }),
-              react_default.a.createElement(
-                'h3',
-                { 'class': 'title title-L back-to-sign', id: 'siginHome' },
-                'Back to Sign In'
-              ),
-              react_default.a.createElement(
-                'a',
-                { href: 'javascript:void(0);', 'class': 'side-panel-close' },
-                react_default.a.createElement('div', { 'class': 'change-my-store-icon-close icon', dangerouslySetInnerHTML: { __html: header_closeImage } })
-              )
-            ),
-            react_default.a.createElement(
-              'div',
-              { 'class': 'side-panel-content my-account-container input-form' },
-              react_default.a.createElement(
-                'div',
-                { 'class': 'sm12 md12 columns row' },
-                react_default.a.createElement(
-                  'div',
-                  { 'class': 'sm12 md12 columns text-center' },
-                  react_default.a.createElement(
-                    'h1',
-                    { 'class': 'mrg-M title title-XL' },
-                    'Forgot Your Password?'
-                  ),
-                  react_default.a.createElement(
-                    'div',
-                    { 'class': 'mrg-M std-txt std-txt-M color-nightsky' },
-                    'Enter the email address for your jcp.com account and we\'ll send you instructions to change your password.'
-                  )
-                ),
-                react_default.a.createElement(
-                  'div',
-                  { 'class': 'form-float-label' },
-                  react_default.a.createElement('input', { 'class': 'form-control email-text input-text', id: 'email', type: 'text', placeholder: 'Email' }),
-                  react_default.a.createElement(
-                    'label',
-                    { htmlFor: 'email' },
-                    'Email'
-                  )
-                ),
-                react_default.a.createElement(
-                  'div',
-                  { 'class': 'text-center' },
-                  react_default.a.createElement(
-                    'a',
-                    { href: 'javascript:void();', role: 'button', 'class': 'btn btn-primary btn-M mrg-M col12 color-white' },
-                    'Send Email'
-                  )
-                ),
-                react_default.a.createElement(
-                  'div',
-                  { 'class': 'mrg-M std-txt std-txt-M color-nightsky text-center' },
-                  'Having trouble accessing your account? If you\u2019re unable to change your password, please call our Customer Care team at 1-800-322-1189'
-                )
-              )
-            )
-          )
-        ),
-        react_default.a.createElement(
-          'div',
-          { 'class': 'side-panel slide-panel-from-right', id: 'createAccount' },
-          react_default.a.createElement(
-            'div',
-            { 'class': 'side-panel-container my-account-sidepanel' },
-            react_default.a.createElement(
-              'header',
-              { 'class': 'side-panel-header' },
-              react_default.a.createElement('span', { 'class': 'back-icon', dangerouslySetInnerHTML: { __html: header_arrowleftImage } }),
-              react_default.a.createElement(
-                'h3',
-                { 'class': 'title title-L back-to-sign', id: 'siginHome' },
-                'Back to Sign In'
-              ),
-              react_default.a.createElement(
-                'a',
-                { href: 'javascript:void(0);', 'class': 'side-panel-close' },
-                react_default.a.createElement('div', { 'class': 'change-my-store-icon-close icon', dangerouslySetInnerHTML: { __html: header_closeImage } })
-              )
-            ),
-            react_default.a.createElement(
-              'div',
-              { 'class': 'side-panel-content my-account-container input-form' },
-              react_default.a.createElement(
-                'div',
-                { 'class': 'sm12 md12 columns row' },
-                react_default.a.createElement(
-                  'div',
-                  { 'class': 'sm12 md12 columns row text-center' },
-                  react_default.a.createElement(
-                    'h1',
-                    { 'class': 'mrg-S title title-XL' },
-                    'Create Account'
-                  ),
-                  react_default.a.createElement(
-                    'div',
-                    { 'class': 'mrg-M std-txt std-txt-M color-nightsky' },
-                    'Save more and earn rewards'
-                  )
-                ),
-                react_default.a.createElement(
-                  'div',
-                  { 'class': 'form-float-label' },
-                  react_default.a.createElement('input', { 'class': 'form-control input-text', type: 'text', id: 'fname', placeholder: 'First Name' }),
-                  react_default.a.createElement(
-                    'label',
-                    { htmlFor: 'fname' },
-                    'First Name'
-                  )
-                ),
-                react_default.a.createElement(
-                  'div',
-                  { 'class': 'form-float-label' },
-                  react_default.a.createElement('input', { 'class': 'form-control input-text', type: 'text', id: 'lname', placeholder: 'Last Name' }),
-                  react_default.a.createElement(
-                    'label',
-                    { htmlFor: 'lname' },
-                    'Last Name'
-                  )
-                ),
-                react_default.a.createElement(
-                  'div',
-                  { 'class': 'form-float-label' },
-                  react_default.a.createElement('input', { 'class': 'form-control input-text phone-number', id: 'phonenumber', type: 'text', maxLength: '14', placeholder: 'Phone Number' }),
-                  react_default.a.createElement(
-                    'label',
-                    { htmlFor: 'phonenumber' },
-                    'Phone Number'
-                  )
-                ),
-                react_default.a.createElement(
-                  'div',
-                  { 'class': 'form-float-label' },
-                  react_default.a.createElement('input', { 'class': 'form-control email-text input-text', id: 'email', type: 'text', placeholder: 'Email ' }),
-                  react_default.a.createElement(
-                    'label',
-                    { htmlFor: 'email' },
-                    'Email'
-                  )
-                ),
-                react_default.a.createElement(
-                  'div',
-                  { 'class': 'form-float-label password-form' },
-                  react_default.a.createElement('input', { 'class': 'form-control input-text', id: 'password2', maxLength: '16', type: 'password', placeholder: 'Password' }),
-                  react_default.a.createElement(
-                    'label',
-                    { htmlFor: 'password' },
-                    'Password'
-                  ),
-                  react_default.a.createElement(
-                    'a',
-                    { href: 'javascript:void(0);', 'data-textid': 'password2', 'class': 'show-pwd title-S' },
-                    'show'
-                  )
-                ),
-                react_default.a.createElement(
-                  'div',
-                  { 'class': 'text-center' },
-                  react_default.a.createElement(
-                    'a',
-                    { href: 'javascript:void();', role: 'button', 'class': 'btn btn-primary btn-M mrg-M col12 color-white', id: 'createmyAccount' },
-                    'Create Account'
-                  )
-                ),
-                react_default.a.createElement(
-                  'div',
-                  { 'class': 'mrg-M std-txt std-txt-XS color-nightsky text-center md12 sm12 mrg-top-S' },
-                  'By creating an account, I agree to the Rewards ',
-                  react_default.a.createElement(
-                    'a',
-                    { href: 'javascript:void(0);' },
-                    'Terms & Conditions'
-                  ),
-                  ' and to receive email offers at the email address I provided.'
-                )
-              )
-            )
-          )
-        ),
-        react_default.a.createElement(
-          'div',
-          { 'class': 'side-panel slide-panel-from-right', id: 'signOut' },
-          react_default.a.createElement(
-            'div',
-            { 'class': 'side-panel-container my-account-sidepanel' },
-            react_default.a.createElement(
-              'header',
-              { 'class': 'side-panel-header' },
-              react_default.a.createElement(
-                'h3',
-                { 'class': 'title title-L' },
-                'Sign In'
-              ),
-              react_default.a.createElement(
-                'a',
-                { href: 'javascript:void(0);', 'class': 'side-panel-close' },
-                react_default.a.createElement('div', { 'class': 'change-my-store-icon-close icon', dangerouslySetInnerHTML: { __html: header_closeImage } })
-              )
-            ),
-            react_default.a.createElement(
-              'div',
-              { 'class': 'side-panel-content my-account-container input-form' },
-              react_default.a.createElement(
-                'div',
-                { 'class': 'sm12 md12 columns row' },
-                react_default.a.createElement(
-                  'div',
-                  { 'class': 'my-account-top text-center' },
-                  react_default.a.createElement(
-                    'h1',
-                    { 'class': 'title title-XL' },
-                    'You\u2019re Signed Out'
-                  ),
-                  react_default.a.createElement(
-                    'p',
-                    { 'class': 'my-account-welcome' },
-                    'In order to access your account information, you will need to sign in again.'
-                  )
-                ),
-                react_default.a.createElement(
-                  'div',
-                  { 'class': 'form-float-label' },
-                  react_default.a.createElement('input', { 'class': 'form-control email-text input-text', id: 'email', type: 'text', placeholder: 'Email ' }),
-                  react_default.a.createElement(
-                    'label',
-                    { htmlFor: 'email' },
-                    'Email'
-                  )
-                ),
-                react_default.a.createElement(
-                  'div',
-                  { 'class': 'form-float-label password-form' },
-                  react_default.a.createElement('input', { 'class': 'form-control input-text', id: 'password1', maxLength: '16', type: 'password', placeholder: 'Password' }),
-                  react_default.a.createElement(
-                    'label',
-                    { htmlFor: 'password' },
-                    'Password'
-                  ),
-                  react_default.a.createElement(
-                    'a',
-                    { href: 'javascript:void(0);', 'data-textid': 'password1', 'class': 'show-pwd title-S' },
-                    'show'
-                  )
-                ),
-                react_default.a.createElement(
-                  'label',
-                  { 'class': 'checkbox fl-left' },
-                  react_default.a.createElement('input', { type: 'checkbox', defaultChecked: 'true' }),
-                  ' ',
-                  react_default.a.createElement(
-                    'span',
-                    null,
-                    'Remember Me'
-                  )
-                ),
-                react_default.a.createElement(
-                  'div',
-                  { 'class': 'fl-right std-txt std-txt-M mrg-L' },
-                  react_default.a.createElement(
-                    'a',
-                    { href: 'javascript:void(0);', id: 'siginForgotPswd' },
-                    'Forgot Password?'
-                  )
-                ),
-                react_default.a.createElement(
-                  'div',
-                  { 'class': 'text-center' },
-                  react_default.a.createElement(
-                    'a',
-                    { href: 'javascript:void();', role: 'button', 'class': 'btn btn-primary btn-M mrg-M col12', id: 'siginmyAccount' },
-                    'Sign In'
-                  )
-                ),
-                react_default.a.createElement(
-                  'p',
-                  { 'class': 'or-split text-center' },
-                  react_default.a.createElement(
-                    'span',
-                    null,
-                    'or'
-                  )
-                ),
-                react_default.a.createElement(
-                  'div',
-                  { 'class': 'text-center' },
-                  react_default.a.createElement(
-                    'a',
-                    { href: 'javascript:void();', id: 'siginCreateAct', role: 'button', 'class': 'btn btn-secondary btn-M mrg-M col12' },
-                    'Create Account'
-                  )
-                )
-              )
-            )
-          )
-        )
-      );
-    }
-  }]);
-
-  return Header;
-}(react["Component"]);
-
-var header__default = header_Header;
-
-
-/* harmony default export */ var header = (header__default);
-;
-
-var header__temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(header_Header, 'Header', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/header/header.js');
-
-  __REACT_HOT_LOADER__.register(header__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/header/header.js');
-}();
-
-;
 // CONCATENATED MODULE: ./src/js/components/header/index.js
 
 var components_header__default = header;
@@ -25837,1014 +26892,6 @@ var components_header__temp = function () {
   }
 
   __REACT_HOT_LOADER__.register(components_header__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/header/index.js');
-}();
-
-;
-// CONCATENATED MODULE: ./src/js/components/footer/footer.js
-var footer__createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-function footer__classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function footer__possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function footer__inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-
-
-
-var footer_devicephoneImage = __webpack_require__("oW2K");
-var footer_twitterfillImage = __webpack_require__("Oiyx");
-var footer_chatfillImage = __webpack_require__("Kr1e");
-var footer_facebooklineImage = __webpack_require__("2Oo2");
-var footer_twitterlineImage = __webpack_require__("whDz");
-var footer_pinterestlineImage = __webpack_require__("6spg");
-var footer_googlepluslineImage = __webpack_require__("wdiq");
-var footer_youtubelineImage = __webpack_require__("+Yl1");
-var footer_bloglineImage = __webpack_require__("qZ91");
-var cardJCPRed = __webpack_require__("plD6");
-var footer_customerserviceImage = __webpack_require__("b32E");
-
-var footer_Footer = function (_Component) {
-    footer__inherits(Footer, _Component);
-
-    function Footer() {
-        footer__classCallCheck(this, Footer);
-
-        return footer__possibleConstructorReturn(this, (Footer.__proto__ || Object.getPrototypeOf(Footer)).apply(this, arguments));
-    }
-
-    footer__createClass(Footer, [{
-        key: 'componentDidMount',
-        value: function componentDidMount() {
-
-            (function () {
-                var d = document,
-                    accordionToggles = d.querySelectorAll('.js-accordionTrigger'),
-                    setAria,
-                    setAccordionAria,
-                    switchAccordion,
-                    touchSupported = 'click' in window,
-                    pointerSupported = 'click' in window;
-
-                var skipClickDelay = function skipClickDelay(e) {
-                    e.preventDefault();
-                    e.target.click();
-                };
-
-                var setAriaAttr = function setAriaAttr(el, ariaType, newProperty) {
-                    el.setAttribute(ariaType, newProperty);
-                };
-                setAccordionAria = function setAccordionAria(el1, el2, expanded) {
-                    switch (expanded) {
-                        case "true":
-                            setAriaAttr(el1, 'aria-expanded', 'true');
-                            setAriaAttr(el2, 'aria-hidden', 'false');
-                            break;
-                        case "false":
-                            setAriaAttr(el1, 'aria-expanded', 'false');
-                            setAriaAttr(el2, 'aria-hidden', 'true');
-                            break;
-                        default:
-                            break;
-                    }
-                };
-                //function
-                switchAccordion = function switchAccordion(e) {
-                    console.log("triggered");
-                    e.preventDefault();
-                    var thisAnswer = e.target.parentNode.nextElementSibling;
-                    var thisQuestion = e.target;
-                    if (thisAnswer.classList.contains('is-collapsed')) {
-                        setAccordionAria(thisQuestion, thisAnswer, 'true');
-                    } else {
-                        setAccordionAria(thisQuestion, thisAnswer, 'false');
-                    }
-                    thisQuestion.classList.toggle('is-collapsed');
-                    thisQuestion.classList.toggle('is-expanded');
-                    thisAnswer.classList.toggle('is-collapsed');
-                    thisAnswer.classList.toggle('is-expanded');
-
-                    thisAnswer.classList.toggle('animateIn');
-                };
-                for (var i = 0, len = accordionToggles.length; i < len; i++) {
-                    if (touchSupported) {
-                        accordionToggles[i].addEventListener('touchstart', skipClickDelay, false);
-                    }
-                    if (pointerSupported) {
-                        accordionToggles[i].addEventListener('pointerdown', skipClickDelay, false);
-                    }
-                    accordionToggles[i].addEventListener('click', switchAccordion, false);
-                }
-            })();
-
-            //Preview top nav without design system wrapper
-            jquery_default()("#HideDesignSystem").unbind('click').on('click', function (event) {
-                jquery_default()(this).toggleClass('active');
-                if (jquery_default()(this).hasClass('active')) {
-                    jquery_default()(this).text('Show Design System Wrapper');
-                    jquery_default()(".design-system-nav-col").css('display', 'none');
-                    jquery_default()(".design-system-content").css('padding', 0);
-                    jquery_default()(".design-system-inner-content").css('padding', 0);
-                    jquery_default()(".design-system-enable-hide").css('display', 'none');
-                    jquery_default()(".design-system-nav-mobile").css('display', 'none');
-                    jquery_default()(".design-system-wrap").css('margin', 0);
-                } else {
-                    jquery_default()(this).text('Hide Design System Wrapper');
-                    jquery_default()(".design-system-nav-col").removeAttr('style');
-                    jquery_default()(".design-system-content").removeAttr('style');
-                    jquery_default()(".design-system-inner-content").removeAttr('style');
-                    jquery_default()(".design-system-enable-hide").removeAttr('style');
-                    jquery_default()(".design-system-nav-mobile").removeAttr('style');
-                    jquery_default()(".design-system-wrap").removeAttr('style');
-                }
-            });
-        }
-    }, {
-        key: 'render',
-        value: function render() {
-            return react_default.a.createElement(
-                'div',
-                null,
-                react_default.a.createElement(
-                    'p',
-                    { 'class': 'S' },
-                    react_default.a.createElement('br', null),
-                    react_default.a.createElement(
-                        'a',
-                        { href: 'javascript:void(0);', id: 'HideDesignSystem' },
-                        'Hide Design System Wrapper'
-                    ),
-                    react_default.a.createElement('br', null),
-                    react_default.a.createElement('br', null),
-                    react_default.a.createElement('br', null),
-                    react_default.a.createElement('br', null),
-                    react_default.a.createElement('br', null)
-                ),
-                react_default.a.createElement(
-                    'footer',
-                    { 'class': 'footer-wrap', 'data-automation-id': 'jcp-footer', id: 'footer' },
-                    react_default.a.createElement(
-                        'div',
-                        { 'class': 'subscription-wrapper' },
-                        react_default.a.createElement(
-                            'ul',
-                            { 'data-automation-id': 'footer-block-subscribe', 'class': 'container-width col12' },
-                            react_default.a.createElement(
-                                'li',
-                                { 'class': 'subscription-row' },
-                                react_default.a.createElement(
-                                    'div',
-                                    { 'data-automation-id': 'promo-title', 'class': 'subs-title std-txt title-S color-nightsky mrg-XS' },
-                                    'Signup for text* or email alerts, offers and promotions'
-                                ),
-                                react_default.a.createElement(
-                                    'form',
-                                    null,
-                                    react_default.a.createElement(
-                                        'div',
-                                        { 'class': 'marketing-section', 'data-automation-id': '' },
-                                        react_default.a.createElement(
-                                            'div',
-                                            { 'class': 'input-wrapper input-form' },
-                                            react_default.a.createElement(
-                                                'div',
-                                                { 'class': 'input-icon' },
-                                                react_default.a.createElement('input', { type: 'tel', id: 'signup', name: 'signup', placeholder: 'Phone Number or Email...', 'class': 'input-text placeholder-text' }),
-                                                react_default.a.createElement(
-                                                    'a',
-                                                    { href: 'javascript:void();', role: 'button', 'class': 'btn btn-S btn-primary apply-btn' },
-                                                    'Sign Up'
-                                                )
-                                            ),
-                                            react_default.a.createElement('a', { 'class': 'cross-bar', href: 'javascript:void(0)' })
-                                        )
-                                    )
-                                )
-                            ),
-                            react_default.a.createElement(
-                                'li',
-                                { 'class': 'subscription-terms' },
-                                react_default.a.createElement(
-                                    'a',
-                                    { 'data-automation-id': 'privacy-policy', 'class': 'std-txt title-XS color-nightsky', href: 'javascript:void(0)' },
-                                    'Terms & Conditions'
-                                )
-                            )
-                        )
-                    ),
-                    react_default.a.createElement(
-                        'div',
-                        { 'class': 'help-section mrg-top-L' },
-                        react_default.a.createElement(
-                            'div',
-                            { 'class': 'help-wrapper' },
-                            react_default.a.createElement(
-                                'div',
-                                { 'data-automation-id': 'need-help-container', 'class': 'help-section-list md8 lg7 sm12' },
-                                react_default.a.createElement(
-                                    'ul',
-                                    { 'class': 'help-list' },
-                                    react_default.a.createElement(
-                                        'li',
-                                        { 'class': 'xs4 xxs4' },
-                                        react_default.a.createElement(
-                                            'div',
-                                            { 'class': 'help-list-block' },
-                                            react_default.a.createElement(
-                                                'a',
-                                                { href: 'tel:1-800-322-1189', 'class': 'help-link' },
-                                                react_default.a.createElement('span', { 'class': 'icon color-white-svg', dangerouslySetInnerHTML: { __html: footer_devicephoneImage } }),
-                                                react_default.a.createElement(
-                                                    'span',
-                                                    { 'class': 'help-description' },
-                                                    react_default.a.createElement(
-                                                        'span',
-                                                        null,
-                                                        'Give us a call '
-                                                    ),
-                                                    react_default.a.createElement(
-                                                        'span',
-                                                        null,
-                                                        '1-800-322-1189'
-                                                    )
-                                                )
-                                            )
-                                        )
-                                    ),
-                                    react_default.a.createElement(
-                                        'li',
-                                        { 'class': 'xs4 xxs4' },
-                                        react_default.a.createElement(
-                                            'div',
-                                            { 'class': 'help-list-block' },
-                                            react_default.a.createElement(
-                                                'a',
-                                                { href: 'tel:1-800-322-1189', 'class': 'help-link' },
-                                                react_default.a.createElement('span', { 'class': 'icon color-white-svg', dangerouslySetInnerHTML: { __html: footer_twitterfillImage } }),
-                                                react_default.a.createElement(
-                                                    'span',
-                                                    { 'class': 'help-description' },
-                                                    react_default.a.createElement(
-                                                        'span',
-                                                        null,
-                                                        'Need help? '
-                                                    ),
-                                                    react_default.a.createElement(
-                                                        'span',
-                                                        null,
-                                                        'Customer Service'
-                                                    )
-                                                )
-                                            )
-                                        )
-                                    ),
-                                    react_default.a.createElement(
-                                        'li',
-                                        { 'class': 'xs4 xxs4' },
-                                        react_default.a.createElement(
-                                            'div',
-                                            { 'class': 'help-list-block' },
-                                            react_default.a.createElement(
-                                                'a',
-                                                { href: 'tel:1-800-322-1189', 'class': 'help-link' },
-                                                react_default.a.createElement('span', { 'class': 'icon color-white-svg', dangerouslySetInnerHTML: { __html: footer_customerserviceImage } }),
-                                                react_default.a.createElement(
-                                                    'span',
-                                                    { 'class': 'help-description' },
-                                                    react_default.a.createElement(
-                                                        'span',
-                                                        null,
-                                                        'Ask us on Twitter '
-                                                    ),
-                                                    react_default.a.createElement(
-                                                        'span',
-                                                        null,
-                                                        '@askJCP'
-                                                    )
-                                                )
-                                            )
-                                        )
-                                    )
-                                )
-                            ),
-                            react_default.a.createElement(
-                                'div',
-                                { 'class': 'social-wrap md4 lg5 color-white sm12' },
-                                react_default.a.createElement(
-                                    'h5',
-                                    { 'class': 'std-txt title-XS color-white dis-inline-block hide-for-medium-down' },
-                                    'Connect with us'
-                                ),
-                                react_default.a.createElement(
-                                    'div',
-                                    { 'class': 'social-container color-white-svg dis-inline-block text-right' },
-                                    react_default.a.createElement(
-                                        'ul',
-                                        null,
-                                        react_default.a.createElement(
-                                            'li',
-                                            null,
-                                            react_default.a.createElement(
-                                                'a',
-                                                { href: 'javascript:void();' },
-                                                react_default.a.createElement('span', { 'class': 'icon', dangerouslySetInnerHTML: { __html: footer_facebooklineImage } })
-                                            )
-                                        ),
-                                        react_default.a.createElement(
-                                            'li',
-                                            null,
-                                            react_default.a.createElement(
-                                                'a',
-                                                { href: 'javascript:void();' },
-                                                react_default.a.createElement('span', { 'class': 'icon', dangerouslySetInnerHTML: { __html: footer_twitterlineImage } })
-                                            )
-                                        ),
-                                        react_default.a.createElement(
-                                            'li',
-                                            null,
-                                            react_default.a.createElement(
-                                                'a',
-                                                { href: 'javascript:void();' },
-                                                react_default.a.createElement('span', { 'class': 'icon', dangerouslySetInnerHTML: { __html: footer_pinterestlineImage } })
-                                            )
-                                        ),
-                                        react_default.a.createElement(
-                                            'li',
-                                            null,
-                                            react_default.a.createElement(
-                                                'a',
-                                                { href: 'javascript:void();' },
-                                                react_default.a.createElement('span', { 'class': 'icon', dangerouslySetInnerHTML: { __html: footer_googlepluslineImage } })
-                                            )
-                                        ),
-                                        react_default.a.createElement(
-                                            'li',
-                                            null,
-                                            react_default.a.createElement(
-                                                'a',
-                                                { href: 'javascript:void();' },
-                                                react_default.a.createElement('span', { 'class': 'icon', dangerouslySetInnerHTML: { __html: footer_youtubelineImage } })
-                                            )
-                                        ),
-                                        react_default.a.createElement(
-                                            'li',
-                                            null,
-                                            react_default.a.createElement(
-                                                'a',
-                                                { href: 'javascript:void();' },
-                                                react_default.a.createElement('span', { 'class': 'icon', dangerouslySetInnerHTML: { __html: footer_bloglineImage } })
-                                            )
-                                        )
-                                    )
-                                )
-                            )
-                        )
-                    ),
-                    react_default.a.createElement(
-                        'article',
-                        { 'class': 'footer-links-block mrg-top-L hide-for-medium-down' },
-                        react_default.a.createElement(
-                            'section',
-                            { 'class': 'footer-main-links col12' },
-                            react_default.a.createElement(
-                                'div',
-                                { 'class': 'footer-links' },
-                                react_default.a.createElement(
-                                    'h5',
-                                    { 'class': 'std-txt title-S color-nightsky txt-bold' },
-                                    'JCPenney Rewards & Credit Card'
-                                ),
-                                react_default.a.createElement(
-                                    'div',
-                                    { 'class': 'link-list' },
-                                    react_default.a.createElement(
-                                        'ul',
-                                        null,
-                                        react_default.a.createElement(
-                                            'li',
-                                            null,
-                                            react_default.a.createElement(
-                                                'a',
-                                                { href: 'javascript:void(0)' },
-                                                'Enroll in Rewards'
-                                            )
-                                        ),
-                                        react_default.a.createElement(
-                                            'li',
-                                            null,
-                                            react_default.a.createElement(
-                                                'a',
-                                                { href: 'javascript:void(0)' },
-                                                'Sign In to Rewards'
-                                            )
-                                        ),
-                                        react_default.a.createElement(
-                                            'li',
-                                            null,
-                                            react_default.a.createElement(
-                                                'a',
-                                                { href: 'javascript:void(0)' },
-                                                'Sign In to Rewards'
-                                            )
-                                        )
-                                    )
-                                )
-                            ),
-                            react_default.a.createElement(
-                                'div',
-                                { 'class': 'footer-links' },
-                                react_default.a.createElement(
-                                    'h5',
-                                    { 'class': 'std-txt title-S color-nightsky txt-bold' },
-                                    'Customer Service'
-                                ),
-                                react_default.a.createElement(
-                                    'div',
-                                    { 'class': 'link-list' },
-                                    react_default.a.createElement(
-                                        'ul',
-                                        null,
-                                        react_default.a.createElement(
-                                            'li',
-                                            null,
-                                            react_default.a.createElement(
-                                                'a',
-                                                { href: 'javascript:void(0)' },
-                                                'Returns'
-                                            )
-                                        ),
-                                        react_default.a.createElement(
-                                            'li',
-                                            null,
-                                            react_default.a.createElement(
-                                                'a',
-                                                { href: 'javascript:void(0)' },
-                                                'Shipping Information'
-                                            )
-                                        ),
-                                        react_default.a.createElement(
-                                            'li',
-                                            null,
-                                            react_default.a.createElement(
-                                                'a',
-                                                { href: 'javascript:void(0)' },
-                                                'Rebates'
-                                            )
-                                        ),
-                                        react_default.a.createElement(
-                                            'li',
-                                            null,
-                                            react_default.a.createElement(
-                                                'a',
-                                                { href: 'javascript:void(0)' },
-                                                'Same Day Pickup'
-                                            )
-                                        ),
-                                        react_default.a.createElement(
-                                            'li',
-                                            null,
-                                            react_default.a.createElement(
-                                                'a',
-                                                { href: 'javascript:void(0)' },
-                                                'My JCP.com Account'
-                                            )
-                                        ),
-                                        react_default.a.createElement(
-                                            'li',
-                                            null,
-                                            react_default.a.createElement(
-                                                'a',
-                                                { href: 'javascript:void(0)' },
-                                                'Track My Order'
-                                            )
-                                        ),
-                                        react_default.a.createElement(
-                                            'li',
-                                            null,
-                                            react_default.a.createElement(
-                                                'a',
-                                                { href: 'javascript:void(0)' },
-                                                'Servicio Al Cliente'
-                                            )
-                                        )
-                                    )
-                                )
-                            ),
-                            react_default.a.createElement(
-                                'div',
-                                { 'class': 'footer-links' },
-                                react_default.a.createElement(
-                                    'h5',
-                                    { 'class': 'std-txt title-S color-nightsky txt-bold' },
-                                    'Store Services'
-                                ),
-                                react_default.a.createElement(
-                                    'div',
-                                    { 'class': 'link-list' },
-                                    react_default.a.createElement(
-                                        'ul',
-                                        null,
-                                        react_default.a.createElement(
-                                            'li',
-                                            null,
-                                            react_default.a.createElement(
-                                                'a',
-                                                { href: 'javascript:void(0)' },
-                                                'JCP Salon'
-                                            )
-                                        ),
-                                        react_default.a.createElement(
-                                            'li',
-                                            null,
-                                            react_default.a.createElement(
-                                                'a',
-                                                { href: 'javascript:void(0)' },
-                                                'Sephora'
-                                            )
-                                        ),
-                                        react_default.a.createElement(
-                                            'li',
-                                            null,
-                                            react_default.a.createElement(
-                                                'a',
-                                                { href: 'javascript:void(0)' },
-                                                'JCP Portraits'
-                                            )
-                                        ),
-                                        react_default.a.createElement(
-                                            'li',
-                                            null,
-                                            react_default.a.createElement(
-                                                'a',
-                                                { href: 'javascript:void(0)' },
-                                                'JCP Optical'
-                                            )
-                                        ),
-                                        react_default.a.createElement(
-                                            'li',
-                                            null,
-                                            react_default.a.createElement(
-                                                'a',
-                                                { href: 'javascript:void(0)' },
-                                                'Gift Registry'
-                                            )
-                                        ),
-                                        react_default.a.createElement(
-                                            'li',
-                                            null,
-                                            react_default.a.createElement(
-                                                'a',
-                                                { href: 'javascript:void(0)' },
-                                                'JCP Custom Window'
-                                            )
-                                        ),
-                                        react_default.a.createElement(
-                                            'li',
-                                            null,
-                                            react_default.a.createElement(
-                                                'a',
-                                                { href: 'javascript:void(0)' },
-                                                'View All Store Services'
-                                            )
-                                        )
-                                    )
-                                )
-                            ),
-                            react_default.a.createElement(
-                                'div',
-                                { 'class': 'footer-links' },
-                                react_default.a.createElement(
-                                    'h5',
-                                    { 'class': 'std-txt title-S color-nightsky txt-bold' },
-                                    'More Ways to Shop'
-                                ),
-                                react_default.a.createElement(
-                                    'div',
-                                    { 'class': 'link-list' },
-                                    react_default.a.createElement(
-                                        'ul',
-                                        null,
-                                        react_default.a.createElement(
-                                            'li',
-                                            null,
-                                            react_default.a.createElement(
-                                                'a',
-                                                { href: 'javascript:void(0)' },
-                                                'See our ads'
-                                            )
-                                        ),
-                                        react_default.a.createElement(
-                                            'li',
-                                            null,
-                                            react_default.a.createElement(
-                                                'a',
-                                                { href: 'javascript:void(0)' },
-                                                'Coupons'
-                                            )
-                                        ),
-                                        react_default.a.createElement(
-                                            'li',
-                                            null,
-                                            react_default.a.createElement(
-                                                'a',
-                                                { href: 'javascript:void(0)' },
-                                                'Recommendations'
-                                            )
-                                        ),
-                                        react_default.a.createElement(
-                                            'li',
-                                            null,
-                                            react_default.a.createElement(
-                                                'a',
-                                                { href: 'javascript:void(0)' },
-                                                'Gift Cards'
-                                            )
-                                        ),
-                                        react_default.a.createElement(
-                                            'li',
-                                            null,
-                                            react_default.a.createElement(
-                                                'a',
-                                                { href: 'javascript:void(0)' },
-                                                'International Shopping'
-                                            )
-                                        )
-                                    )
-                                )
-                            ),
-                            react_default.a.createElement(
-                                'div',
-                                { 'class': 'footer-links' },
-                                react_default.a.createElement(
-                                    'h5',
-                                    { 'class': 'std-txt title-S color-nightsky txt-bold' },
-                                    'Corporate Overview'
-                                ),
-                                react_default.a.createElement(
-                                    'div',
-                                    { 'class': 'link-list' },
-                                    react_default.a.createElement(
-                                        'ul',
-                                        null,
-                                        react_default.a.createElement(
-                                            'li',
-                                            null,
-                                            react_default.a.createElement(
-                                                'a',
-                                                { href: 'javascript:void(0)' },
-                                                'Careers'
-                                            )
-                                        ),
-                                        react_default.a.createElement(
-                                            'li',
-                                            null,
-                                            react_default.a.createElement(
-                                                'a',
-                                                { href: 'javascript:void(0)' },
-                                                'Company Info'
-                                            )
-                                        ),
-                                        react_default.a.createElement(
-                                            'li',
-                                            null,
-                                            react_default.a.createElement(
-                                                'a',
-                                                { href: 'javascript:void(0)' },
-                                                'Community'
-                                            )
-                                        ),
-                                        react_default.a.createElement(
-                                            'li',
-                                            null,
-                                            react_default.a.createElement(
-                                                'a',
-                                                { href: 'javascript:void(0)' },
-                                                'Media'
-                                            )
-                                        ),
-                                        react_default.a.createElement(
-                                            'li',
-                                            null,
-                                            react_default.a.createElement(
-                                                'a',
-                                                { href: 'javascript:void(0)' },
-                                                'Investors'
-                                            )
-                                        )
-                                    )
-                                )
-                            )
-                        )
-                    ),
-                    react_default.a.createElement(
-                        'div',
-                        { 'class': 'accordion-block footer-accordion hide-for-large-up' },
-                        react_default.a.createElement(
-                            'div',
-                            { 'class': 'accordion nopad' },
-                            react_default.a.createElement(
-                                'dl',
-                                null,
-                                react_default.a.createElement(
-                                    'dt',
-                                    null,
-                                    react_default.a.createElement(
-                                        'a',
-                                        { href: '#accordion1', 'aria-expanded': 'false', 'aria-controls': 'accordion1', 'class': 'accordion-title accordionTitle js-accordionTrigger' },
-                                        'JCPenney Rewards & Credit Card'
-                                    )
-                                ),
-                                react_default.a.createElement(
-                                    'dd',
-                                    { 'class': 'accordion-content accordionItem is-collapsed', id: 'accordion1', 'aria-hidden': 'true' },
-                                    react_default.a.createElement(
-                                        'a',
-                                        { href: 'javascript:void();' },
-                                        'Enroll in Rewards'
-                                    ),
-                                    react_default.a.createElement(
-                                        'a',
-                                        { href: 'javascript:void();' },
-                                        'Sign In to Rewards'
-                                    ),
-                                    react_default.a.createElement(
-                                        'a',
-                                        { href: 'javascript:void();' },
-                                        'JCPenney Credit Card'
-                                    )
-                                ),
-                                react_default.a.createElement(
-                                    'dt',
-                                    null,
-                                    react_default.a.createElement(
-                                        'a',
-                                        { href: '#accordion2', 'aria-expanded': 'false', 'aria-controls': 'accordion2', 'class': 'accordion-title accordionTitle js-accordionTrigger' },
-                                        'Customer Service'
-                                    )
-                                ),
-                                react_default.a.createElement(
-                                    'dd',
-                                    { 'class': 'accordion-content accordionItem is-collapsed', id: 'accordion1', 'aria-hidden': 'true' },
-                                    react_default.a.createElement(
-                                        'a',
-                                        { href: 'javascript:void();' },
-                                        'Returns'
-                                    ),
-                                    react_default.a.createElement(
-                                        'a',
-                                        { href: 'javascript:void();' },
-                                        'Shipping information'
-                                    ),
-                                    react_default.a.createElement(
-                                        'a',
-                                        { href: 'javascript:void();' },
-                                        'Rebates'
-                                    ),
-                                    react_default.a.createElement(
-                                        'a',
-                                        { href: 'javascript:void();' },
-                                        'Same Day Pickup'
-                                    ),
-                                    react_default.a.createElement(
-                                        'a',
-                                        { href: 'javascript:void();' },
-                                        'My JCP.com Account'
-                                    ),
-                                    react_default.a.createElement(
-                                        'a',
-                                        { href: 'javascript:void();' },
-                                        'Track My Order'
-                                    ),
-                                    react_default.a.createElement(
-                                        'a',
-                                        { href: 'javascript:void();' },
-                                        'Servicio Al Cliente'
-                                    )
-                                ),
-                                react_default.a.createElement(
-                                    'dt',
-                                    null,
-                                    react_default.a.createElement(
-                                        'a',
-                                        { href: '#accordion3', 'aria-expanded': 'false', 'aria-controls': 'accordion3', 'class': 'accordion-title accordionTitle js-accordionTrigger' },
-                                        'Store Services'
-                                    )
-                                ),
-                                react_default.a.createElement(
-                                    'dd',
-                                    { 'class': 'accordion-content accordionItem is-collapsed', id: 'accordion1', 'aria-hidden': 'true' },
-                                    react_default.a.createElement(
-                                        'a',
-                                        { href: 'javascript:void();' },
-                                        'JCP Salon'
-                                    ),
-                                    react_default.a.createElement(
-                                        'a',
-                                        { href: 'javascript:void();' },
-                                        'Sephora'
-                                    ),
-                                    react_default.a.createElement(
-                                        'a',
-                                        { href: 'javascript:void();' },
-                                        'JCP Optical'
-                                    ),
-                                    react_default.a.createElement(
-                                        'a',
-                                        { href: 'javascript:void();' },
-                                        'Gift Registry'
-                                    ),
-                                    react_default.a.createElement(
-                                        'a',
-                                        { href: 'javascript:void();' },
-                                        'JCP Custom Window'
-                                    ),
-                                    react_default.a.createElement(
-                                        'a',
-                                        { href: 'javascript:void();' },
-                                        'View All Store Services'
-                                    )
-                                ),
-                                react_default.a.createElement(
-                                    'dt',
-                                    null,
-                                    react_default.a.createElement(
-                                        'a',
-                                        { href: '#accordion3', 'aria-expanded': 'false', 'aria-controls': 'accordion3', 'class': 'accordion-title accordionTitle js-accordionTrigger' },
-                                        'More Ways to Shop'
-                                    )
-                                ),
-                                react_default.a.createElement(
-                                    'dd',
-                                    { 'class': 'accordion-content accordionItem is-collapsed', id: 'accordion1', 'aria-hidden': 'true' },
-                                    react_default.a.createElement(
-                                        'a',
-                                        { href: 'javascript:void();' },
-                                        'See our ads'
-                                    ),
-                                    react_default.a.createElement(
-                                        'a',
-                                        { href: 'javascript:void();' },
-                                        'Coupons'
-                                    ),
-                                    react_default.a.createElement(
-                                        'a',
-                                        { href: 'javascript:void();' },
-                                        'Recommendations'
-                                    ),
-                                    react_default.a.createElement(
-                                        'a',
-                                        { href: 'javascript:void();' },
-                                        'Gift Cards'
-                                    ),
-                                    react_default.a.createElement(
-                                        'a',
-                                        { href: 'javascript:void();' },
-                                        'International Shopping'
-                                    )
-                                ),
-                                react_default.a.createElement(
-                                    'dt',
-                                    null,
-                                    react_default.a.createElement(
-                                        'a',
-                                        { href: '#accordion3', 'aria-expanded': 'false', 'aria-controls': 'accordion3', 'class': 'accordion-title accordionTitle js-accordionTrigger' },
-                                        'Corporate Overview'
-                                    )
-                                ),
-                                react_default.a.createElement(
-                                    'dd',
-                                    { 'class': 'accordion-content accordionItem is-collapsed', id: 'accordion1', 'aria-hidden': 'true' },
-                                    react_default.a.createElement(
-                                        'a',
-                                        { href: 'javascript:void();' },
-                                        'Careers'
-                                    ),
-                                    react_default.a.createElement(
-                                        'a',
-                                        { href: 'javascript:void();' },
-                                        'Company Info'
-                                    ),
-                                    react_default.a.createElement(
-                                        'a',
-                                        { href: 'javascript:void();' },
-                                        'Community'
-                                    ),
-                                    react_default.a.createElement(
-                                        'a',
-                                        { href: 'javascript:void();' },
-                                        'Media'
-                                    ),
-                                    react_default.a.createElement(
-                                        'a',
-                                        { href: 'javascript:void();' },
-                                        'Investors'
-                                    )
-                                )
-                            )
-                        )
-                    ),
-                    react_default.a.createElement(
-                        'div',
-                        { 'class': 'footer-bottom-wrap col12' },
-                        react_default.a.createElement(
-                            'div',
-                            { 'class': 'credit-wrap' },
-                            react_default.a.createElement(
-                                'div',
-                                { 'class': 'jcp-red-card' },
-                                react_default.a.createElement('span', { 'class': 'icon dis-inline', dangerouslySetInnerHTML: { __html: cardJCPRed } })
-                            ),
-                            react_default.a.createElement(
-                                'ul',
-                                { 'class': 'dis-inline-block' },
-                                react_default.a.createElement(
-                                    'h5',
-                                    { 'class': 'std-txt title-S color-nightsky txt-bold' },
-                                    'JCPenney Credit Card'
-                                ),
-                                react_default.a.createElement(
-                                    'li',
-                                    null,
-                                    'Pay Bill'
-                                ),
-                                react_default.a.createElement(
-                                    'li',
-                                    null,
-                                    'Check Balance'
-                                ),
-                                react_default.a.createElement(
-                                    'li',
-                                    null,
-                                    'Apply Now'
-                                )
-                            )
-                        ),
-                        react_default.a.createElement(
-                            'div',
-                            { 'class': 'privacy-wrap' },
-                            react_default.a.createElement(
-                                'ul',
-                                null,
-                                react_default.a.createElement(
-                                    'li',
-                                    null,
-                                    'Legal'
-                                ),
-                                react_default.a.createElement(
-                                    'li',
-                                    null,
-                                    'Recalls'
-                                ),
-                                react_default.a.createElement(
-                                    'li',
-                                    null,
-                                    'AdChoices'
-                                ),
-                                react_default.a.createElement(
-                                    'li',
-                                    null,
-                                    'CA Privacy Rts'
-                                ),
-                                react_default.a.createElement(
-                                    'li',
-                                    null,
-                                    'Privacy Policy'
-                                ),
-                                react_default.a.createElement(
-                                    'li',
-                                    null,
-                                    'CA Supply Chain Act'
-                                )
-                            )
-                        ),
-                        react_default.a.createElement(
-                            'div',
-                            { 'class': 'copy-wrap text-center std-txt title-XS md12 color-nightsky' },
-                            '\xA9JCP Media, Inc. 2018. All Rights Reserved'
-                        )
-                    )
-                )
-            );
-        }
-    }]);
-
-    return Footer;
-}(react["Component"]);
-
-var footer__default = footer_Footer;
-
-
-/* harmony default export */ var footer = (footer__default);
-;
-
-var footer__temp = function () {
-    if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-        return;
-    }
-
-    __REACT_HOT_LOADER__.register(footer_Footer, 'Footer', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/footer/footer.js');
-
-    __REACT_HOT_LOADER__.register(footer__default, 'default', '/Users/balamahesh_ba/Documents/JCP/lincolnjcp.github.io/src/js/components/footer/footer.js');
 }();
 
 ;
@@ -36693,6 +36740,7 @@ function DesignSystemPage__inherits(subClass, superClass) { if (typeof superClas
 
 
 
+
 var DesignSystemPage_DesignSystemPage = function (_Component) {
     DesignSystemPage__inherits(DesignSystemPage, _Component);
 
@@ -36756,6 +36804,7 @@ var DesignSystemPage_DesignSystemPage = function (_Component) {
                 styleDSingleCTA: { componentElement: components_styledsinglecta, componentDisplayName: "styleDSingleCTA", componentSubNav: ['styleDSingleCTA'] },
                 styleEMultipleCTA: { componentElement: components_styleemultiplecta, componentDisplayName: "styleEMultipleCTA", componentSubNav: ['styleEMultipleCTA'] },
                 styleESingleCTA: { componentElement: components_styleesinglecta, componentDisplayName: "styleESingleCTA", componentSubNav: ['styleESingleCTA'] },
+                HomepageLayout: { componentElement: components_homepage_layout, componentDisplayName: "HomepageLayout", componentSubNav: ['HomepageLayout'] },
 
                 Modals: { componentElement: components_modals, componentDisplayName: "Modals", componentSubNav: ['Modals'] },
                 Pdp: { componentElement: components_pdp, componentDisplayName: "Pdp", componentSubNav: ['Pdp'] }
@@ -41265,6 +41314,9 @@ var Root_App = function (_React$Component) {
                                 } }),
                             react_default.a.createElement(es["d" /* Route */], { exact: true, path: '/home-page-redesign/styleesinglecta', render: function render() {
                                     return react_default.a.createElement(containers_DesignSystemPage, { componentName: 'styleESingleCTA' });
+                                } }),
+                            react_default.a.createElement(es["d" /* Route */], { exact: true, path: '/home-page-redesign/homepage-layout', render: function render() {
+                                    return react_default.a.createElement(containers_DesignSystemPage, { componentName: 'HomepageLayout' });
                                 } })
                         )
                     )

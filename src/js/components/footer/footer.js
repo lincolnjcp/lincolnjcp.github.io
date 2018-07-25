@@ -102,9 +102,9 @@ class Footer extends Component {
     render() {
         return (
             <div>
-                <p class="S"><br />
+                {/* <p class="S"><br />
                     <a href="javascript:void(0);" id="HideDesignSystem">Hide Design System Wrapper</a><br /><br /><br /><br /><br />
-                </p>
+                </p> */}
 
                 <footer class="footer-wrap" data-automation-id="jcp-footer" id="footer">
                     <div class="subscription-wrapper">
