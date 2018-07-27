@@ -9,11 +9,16 @@
         width: 100%;
         max-width: 1800px;
         margin: 0 auto;
+        background-repeat: no-repeat;
         @media (--viewport-md-down) {
             background-position: 70% 0;
         }
+        @media (--viewport-md-down) {
+            height: 555px;
+        }
         @media (--viewport-sm-down) {
-            height: 280px;
+            height: 410px;
+            background-size: auto 280px;
         }
         & .banner-content-wrapper {
             width: 448px;
@@ -118,7 +123,7 @@
                 }
                 & .no-hover {
                     &:hover {
-                        border-radius: 8px;
+                        border-radius: 0;
                     }
                 }
                 & .dropdown-list {

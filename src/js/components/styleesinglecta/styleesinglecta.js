@@ -41,7 +41,7 @@ class styleESingleCTA extends Component {
 
         <div class="stylee stylee-single">
           <div class="banner-container">
-            <a class="banner-image" href="#">
+            <a class="banner-image" href="javascript:void(0)">
               <img src="../../images/design-system/style-e-01.png"/>
             </a>
             <div class="promo-content">

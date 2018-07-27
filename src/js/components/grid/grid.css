@@ -89,6 +89,13 @@
 .mrg-top-L{
   margin-top: 24px;
 }
+.mrg-top-XL{
+  margin-top: 32px;
+}
+
+.mrg-top-XXL{
+  margin-top: 72px;
+}
 
 .width-full {
 	width: 100%;

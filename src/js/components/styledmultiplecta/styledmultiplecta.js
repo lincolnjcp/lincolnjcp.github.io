@@ -44,7 +44,7 @@ class styleDMultipleCTA extends Component {
 
         <div class="styled">
           <div class="banner-container">
-            <a class="banner-image" href="#">
+            <a class="banner-image" href="javascript:void(0)">
               <div class="img-mask">
                 <img src="../../images/design-system/styled-01.png" />
               </div>

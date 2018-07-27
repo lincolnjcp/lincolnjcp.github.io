@@ -41,7 +41,7 @@ class styleEMultipleCTA extends Component {
 
         <div class="stylee">
           <div class="banner-container">
-            <a class="banner-image" href="#">
+            <a class="banner-image" href="javascript:void(0)">
               <img src="../../images/design-system/style-e-01.png"/>
             </a>
             <div class="promo-content">

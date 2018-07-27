@@ -44,7 +44,7 @@ class styleCMultipleCTA extends Component {
 
         <div class="stylec">
           <div class="banner-container">
-            <a class="banner-image" href="#">
+            <a class="banner-image" href="javascript:void(0)">
               <img src="../../images/design-system/workitout-01.png"/>
             </a>
             <div class="promo-content">

@@ -26,23 +26,23 @@ class HomepageLayout extends Component {
                     <div class="lg12 xl12 xxl12">
                         <StyleBLeft />
                     </div>
-                    <div class="lg6 xl6 xxl6">
+                    <div class="lg6 xl6 xxl6 mrg-top-XXL">
                         <StyleCMultiplecta />
                     </div>
-                    <div class="lg6 xl6 xxl6">
+                    <div class="lg6 xl6 xxl6 mrg-top-XXL">
                         <StyleCMultiplecta />
                     </div>
-                    <div class="lg4 xl4 xxl4">
+                    <div class="lg4 xl4 xxl4 mrg-top-XXL">
                         <StyleDMultipleCTA />
                     </div>
-                    <div class="lg4 xl4 xxl4">
+                    <div class="lg4 xl4 xxl4 mrg-top-XXL">
                         <StyleDSingleCTA />
                     </div>
-                    <div class="lg4 xl4 xxl4">
+                    <div class="lg4 xl4 xxl4 mrg-top-XXL">
                         <StyleDMultipleCTA />
                     </div>
                     {/* <RecommendationZone /> */}
-                    <div class="lg12 xl12 xxl12">
+                    <div class="lg12 xl12 xxl12 mrg-top-XXL mrg-M">
                         <StyleEMultipleCTA />
                     </div>
                 </div>

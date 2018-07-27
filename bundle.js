@@ -13480,7 +13480,7 @@ var stylecsinglecta_styleCSingleCTA = function (_Component) {
             { 'class': 'banner-container' },
             react_default.a.createElement(
               'a',
-              { 'class': 'banner-image', href: '#' },
+              { 'class': 'banner-image', href: 'javascript:void(0)' },
               react_default.a.createElement('img', { src: '../../images/design-system/workitout-01.png' })
             ),
             react_default.a.createElement(
@@ -13618,7 +13618,7 @@ var stylecmultiplecta_styleCMultipleCTA = function (_Component) {
             { 'class': 'banner-container' },
             react_default.a.createElement(
               'a',
-              { 'class': 'banner-image', href: '#' },
+              { 'class': 'banner-image', href: 'javascript:void(0)' },
               react_default.a.createElement('img', { src: '../../images/design-system/workitout-01.png' })
             ),
             react_default.a.createElement(
@@ -13788,7 +13788,7 @@ var styledmultiplecta_styleDMultipleCTA = function (_Component) {
             { 'class': 'banner-container' },
             react_default.a.createElement(
               'a',
-              { 'class': 'banner-image', href: '#' },
+              { 'class': 'banner-image', href: 'javascript:void(0)' },
               react_default.a.createElement(
                 'div',
                 { 'class': 'img-mask' },
@@ -13953,7 +13953,7 @@ var styledsinglecta_styleDSingleCTA = function (_Component) {
             { 'class': 'banner-container' },
             react_default.a.createElement(
               'a',
-              { 'class': 'banner-image', href: '#' },
+              { 'class': 'banner-image', href: 'javascript:void(0)' },
               react_default.a.createElement(
                 'div',
                 { 'class': 'img-mask' },
@@ -14091,7 +14091,7 @@ var styleemultiplecta_styleEMultipleCTA = function (_Component) {
             { 'class': 'banner-container' },
             react_default.a.createElement(
               'a',
-              { 'class': 'banner-image', href: '#' },
+              { 'class': 'banner-image', href: 'javascript:void(0)' },
               react_default.a.createElement('img', { src: '../../images/design-system/style-e-01.png' })
             ),
             react_default.a.createElement(
@@ -14243,7 +14243,7 @@ var styleesinglecta_styleESingleCTA = function (_Component) {
             { 'class': 'banner-container' },
             react_default.a.createElement(
               'a',
-              { 'class': 'banner-image', href: '#' },
+              { 'class': 'banner-image', href: 'javascript:void(0)' },
               react_default.a.createElement('img', { src: '../../images/design-system/style-e-01.png' })
             ),
             react_default.a.createElement(
@@ -18046,32 +18046,32 @@ var homepage_layout_HomepageLayout = function (_Component) {
                     ),
                     react_default.a.createElement(
                         'div',
-                        { 'class': 'lg6 xl6 xxl6' },
+                        { 'class': 'lg6 xl6 xxl6 mrg-top-XXL' },
                         react_default.a.createElement(stylecmultiplecta, null)
                     ),
                     react_default.a.createElement(
                         'div',
-                        { 'class': 'lg6 xl6 xxl6' },
+                        { 'class': 'lg6 xl6 xxl6 mrg-top-XXL' },
                         react_default.a.createElement(stylecmultiplecta, null)
                     ),
                     react_default.a.createElement(
                         'div',
-                        { 'class': 'lg4 xl4 xxl4' },
+                        { 'class': 'lg4 xl4 xxl4 mrg-top-XXL' },
                         react_default.a.createElement(styledmultiplecta, null)
                     ),
                     react_default.a.createElement(
                         'div',
-                        { 'class': 'lg4 xl4 xxl4' },
+                        { 'class': 'lg4 xl4 xxl4 mrg-top-XXL' },
                         react_default.a.createElement(styledsinglecta, null)
                     ),
                     react_default.a.createElement(
                         'div',
-                        { 'class': 'lg4 xl4 xxl4' },
+                        { 'class': 'lg4 xl4 xxl4 mrg-top-XXL' },
                         react_default.a.createElement(styledmultiplecta, null)
                     ),
                     react_default.a.createElement(
                         'div',
-                        { 'class': 'lg12 xl12 xxl12' },
+                        { 'class': 'lg12 xl12 xxl12 mrg-top-XXL mrg-M' },
                         react_default.a.createElement(styleemultiplecta, null)
                     )
                 ),

@@ -20,7 +20,7 @@
                 height: auto;
             }
             & img {
-                transition:all .25s;
+                @apply --image-zoom-animation;
                 @media (--viewport-sm-down) {
                     width: 100%;
                 }
@@ -38,7 +38,7 @@
             left: 16px;
             bottom: -4px;
             background-color: #41C2CC;
-            transition: all .25s;
+            @apply --image-zoom-animation;
             @media (--viewport-sm-down) {
                 width: 96%;
                 left: 0;
@@ -98,13 +98,13 @@
             }
         }
         &:hover .banner-image img {
-            transform: scale(1.2);
+            transform: scale(1.05);
         }
         &:hover .banner-image:after {
-            transform: scale(1.2);
+            transform: scale(1.05);
             width: 307px;
             left: 31px;
-            @media (--viewport-sm-down) {
+            @media(--viewport-sm-down){
                 width: 100%;
                 left: 1px;
                 top: -1px;

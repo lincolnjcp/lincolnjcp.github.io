@@ -58,7 +58,6 @@
 	
 	--btn-transition: {
 	  transition: background-color .25s ease-in-out, border-radius .25s ease-in-out;
-	  -webkit-transition: background-color .25s ease-in-out, border-radius .25s ease-in-out;
 	}
 	
 	--btn-radius-hover: {
@@ -112,5 +111,9 @@
 	
 	.elevation-2 {
 	  @apply --elevation-2;
+	}
+
+	--image-zoom-animation: {
+		transition: all .4s;
 	}
 }
