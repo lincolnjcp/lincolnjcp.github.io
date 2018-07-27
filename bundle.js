@@ -18036,42 +18036,42 @@ var homepage_layout_HomepageLayout = function (_Component) {
                     { 'class': 'home-container' },
                     react_default.a.createElement(
                         'div',
-                        { 'class': 'lg12 xl12 xxl12' },
+                        { 'class': 'lg12 xl12 stylea-banner' },
                         react_default.a.createElement(styleawithoutbutton, null)
                     ),
                     react_default.a.createElement(
                         'div',
-                        { 'class': 'lg12 xl12 xxl12' },
+                        { 'class': 'lg12 xl12 styleb-banner' },
                         react_default.a.createElement(stylebleft, null)
                     ),
                     react_default.a.createElement(
                         'div',
-                        { 'class': 'lg6 xl6 xxl6 mrg-top-XXL' },
+                        { 'class': 'lg6 xl6 xxl6 stylec-banner' },
                         react_default.a.createElement(stylecmultiplecta, null)
                     ),
                     react_default.a.createElement(
                         'div',
-                        { 'class': 'lg6 xl6 xxl6 mrg-top-XXL' },
+                        { 'class': 'lg6 xl6 xxl6 stylec-banner' },
                         react_default.a.createElement(stylecmultiplecta, null)
                     ),
                     react_default.a.createElement(
                         'div',
-                        { 'class': 'lg4 xl4 xxl4 mrg-top-XXL' },
+                        { 'class': 'lg4 xl4 xxl4 styled-banner' },
                         react_default.a.createElement(styledmultiplecta, null)
                     ),
                     react_default.a.createElement(
                         'div',
-                        { 'class': 'lg4 xl4 xxl4 mrg-top-XXL' },
+                        { 'class': 'lg4 xl4 xxl4 styled-banner' },
                         react_default.a.createElement(styledsinglecta, null)
                     ),
                     react_default.a.createElement(
                         'div',
-                        { 'class': 'lg4 xl4 xxl4 mrg-top-XXL' },
+                        { 'class': 'lg4 xl4 xxl4 styled-banner' },
                         react_default.a.createElement(styledmultiplecta, null)
                     ),
                     react_default.a.createElement(
                         'div',
-                        { 'class': 'lg12 xl12 xxl12 mrg-top-XXL mrg-M' },
+                        { 'class': 'lg12 xl12 xxl12 stylee-banner' },
                         react_default.a.createElement(styleemultiplecta, null)
                     )
                 ),

@@ -6,3 +6,33 @@
     max-width: 1400px;
     margin: 0 auto;
 }
+.stylea-banner {
+    margin-bottom: 8px;
+}
+.styleb-banner {
+    margin-bottom: 72px;
+    @media (--viewport-md-down) {
+        margin-bottom: 56px;
+    }
+    @media (--viewport-sm-down) {
+        margin-bottom: 40px;
+    }
+}
+.stylec-banner {
+    margin-bottom: 72px;
+    @media (--viewport-md-down) {
+        margin-bottom: 36px;
+    }
+}
+.styled-banner {
+    margin-bottom: 36px;
+    @media (--viewport-sm-down) {
+        margin-bottom: 24px;
+    }
+}
+.stylee-banner {
+    margin-bottom: 56px;   
+    @media (--viewport-sm-down) {
+        margin-bottom: 36px;   
+    }
+}

@@ -20,29 +20,29 @@ class HomepageLayout extends Component {
             <div>
                 <Header />
                 <div class="home-container">
-                    <div class="lg12 xl12 xxl12">
+                    <div class="lg12 xl12 stylea-banner">
                         <StyleAWithoutButton />
                     </div>
-                    <div class="lg12 xl12 xxl12">
+                    <div class="lg12 xl12 styleb-banner">
                         <StyleBLeft />
                     </div>
-                    <div class="lg6 xl6 xxl6 mrg-top-XXL">
+                    <div class="lg6 xl6 xxl6 stylec-banner">
                         <StyleCMultiplecta />
                     </div>
-                    <div class="lg6 xl6 xxl6 mrg-top-XXL">
+                    <div class="lg6 xl6 xxl6 stylec-banner">
                         <StyleCMultiplecta />
                     </div>
-                    <div class="lg4 xl4 xxl4 mrg-top-XXL">
+                    <div class="lg4 xl4 xxl4 styled-banner">
                         <StyleDMultipleCTA />
                     </div>
-                    <div class="lg4 xl4 xxl4 mrg-top-XXL">
+                    <div class="lg4 xl4 xxl4 styled-banner">
                         <StyleDSingleCTA />
                     </div>
-                    <div class="lg4 xl4 xxl4 mrg-top-XXL">
+                    <div class="lg4 xl4 xxl4 styled-banner">
                         <StyleDMultipleCTA />
                     </div>
                     {/* <RecommendationZone /> */}
-                    <div class="lg12 xl12 xxl12 mrg-top-XXL mrg-M">
+                    <div class="lg12 xl12 xxl12 stylee-banner">
                         <StyleEMultipleCTA />
                     </div>
                 </div>
