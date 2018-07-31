@@ -791,3 +791,327 @@ img {
         display: block;
     }
 }
+
+
+*, *::before, *::after { box-sizing: border-box; }
+.no-side-padding { padding-left: 0; padding-right: 0; }
+
+/*************************************
+/* Spacing - Margins
+/* Used to control margins within html
+*************************************/
+
+.mrg-zero{
+  margin: 0px;
+}
+
+.mrg-XS{
+  margin: 0 0 4px 0;
+}
+
+.mrg-S{
+  margin: 0 0 8px 0;
+}
+
+.mrg-M{
+  margin: 0 0 16px 0;
+}
+
+.mrg-L{
+  margin: 0 0 24px 0;
+}
+
+.mrg-XL{
+  margin: 0 0 32px 0;
+}
+
+.mrg-XXL{
+  margin: 0 0 40px 0;
+}
+
+.mrg-lft-S{
+  margin-left: 8px;
+}
+
+.mrg-lft-M{
+  margin-left: 16px;
+}
+
+.mrg-lft-L{
+  margin-left: 24px;
+}
+
+.mrg-lft-XL{
+  margin-left: 32px;
+}
+
+.mrg-rght-S{
+  margin-right: 8px;
+}
+
+.mrg-rght-XS{
+  margin-right: 4px;
+}
+
+.mrg-rght-M{
+  margin-right: 16px;
+}
+
+.mrg-rght-L{
+  margin-right: 24px;
+}
+
+.mrg-rght-XL{
+  margin-right: 32px;
+}
+
+.mrg-top-XS{
+  margin-top: 4px;
+}
+
+.mrg-top-S{
+  margin-top: 8px;
+}
+
+.mrg-top-M{
+  margin-top: 16px;
+}
+
+.mrg-top-L{
+  margin-top: 24px;
+}
+.mrg-top-XL{
+  margin-top: 32px;
+}
+
+.mrg-top-XXL{
+  margin-top: 72px;
+}
+
+.width-full {
+	width: 100%;
+}
+
+.width-half {
+	width: 50%;
+}
+
+.width-quarter {
+	width: 25%;
+}
+
+.width-one-third {
+	width: 33.33333333%;
+}
+
+.width-two-third {
+	width: 66.66666667%;
+}
+
+.width-300 {
+  width: 300px;
+}
+
+/*  Maximum readable line length */
+.max-width-text {
+    max-width: 600px;
+}
+
+.max-width-350 {
+  max-width: 350px;
+}
+
+.max-width-400 {
+  max-width: 400px;
+}
+
+.padding-25 {
+  padding: 25px;
+}
+
+.padding-50 {
+  padding: 50px;
+}
+
+.padding-rght-S {
+  padding-right: 8px;
+}
+.padding-lft-S {
+  padding-left: 8px;
+}
+
+.icon-M {
+  & svg {
+    width: 16px;
+    height: 16px;
+  }
+}
+
+.icon-L {
+  & svg {
+    width: 24px;
+    height: 24px;
+  }
+}
+
+.icon-XL {
+  & svg {
+    width: 32px;
+    height: 32px;
+  }
+}
+
+.nopad {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.padding-bot-zero {
+  padding-bottom: 0 !important;;
+}
+.padding-top-zero {
+  padding-top: 0 !important;;
+}
+.padding-left-zero {
+  padding-left: 0 !important;;
+}
+.padding-rght-zero {
+  padding-right: 0 !important;;
+}
+
+.nopad-sm {
+  @media (--viewport-sm-only) {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+}
+.nopad-md {
+  @media (--viewport-md-only) {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+}
+.text-center {
+  text-align: center;
+}
+.text-left{
+  text-align: left !important;
+}
+.text-right {
+  text-align: right;
+} 
+.hidden {
+  visibility: hidden !important;
+}
+
+.fl-left {
+  float: left;
+}
+
+.fl-right {
+  float: right;
+}
+
+.pos-rel {
+  position: relative;
+}
+
+.hide {
+  display: none;
+}
+
+.dis-inline {
+  display: inline;
+}
+
+.dis-block {
+  display: block;
+}
+
+.dis-inline-block {
+  display: inline-block;
+}
+
+.padding-right-zero {
+  padding-right: 0 !important;
+}
+
+
+
+
+
+
+/*************************************
+/* Special - Margins
+*************************************/
+
+@media (--viewport-md-up) {
+    .mrgn-XL {
+        margin-top: var(--mrgn-XL);
+    }
+    .mrgn-L {
+        margin-top: var(--mrgn-L);
+    }
+    .mrgn-M {
+        margin-top: var(--mrgn-M);
+    }
+    .mrgn-S {
+        margin-top: var(--mrgn-S);
+    }
+    .mrgn-XS {
+        margin-top: var(--mrgn-XS);
+    }
+}
+
+@media (--viewport-md-down) {
+    .mrgn-XL-at-M {
+        margin-top: var(--mrgn-XL);
+    }
+    .mrgn-L-at-M {
+        margin-top: var(--mrgn-L);
+    }
+    .mrgn-M-at-M {
+        margin-top: var(--mrgn-M);
+    }
+    .mrgn-S-at-M {
+        margin-top: var(--mrgn-S);
+    }
+    .mrgn-XS-at-M {
+        margin-top: var(--mrgn-XS);
+    }
+} 
+
+@media (--viewport-sm-down) {
+    .mrgn-XL-at-S {
+        margin-top: var(--mrgn-XL);
+    }
+    .mrgn-L-at-S {
+        margin-top: var(--mrgn-L);
+    }
+    .mrgn-M-at-S {
+        margin-top: var(--mrgn-M);
+    }
+    .mrgn-S-at-S {
+        margin-top: var(--mrgn-S);
+    }
+    .mrgn-XS-at-S {
+        margin-top: var(--mrgn-XS);
+    }
+} 
+@media (--viewport-xs-down) {
+    .mrgn-XL-at-XS {
+        margin-top: var(--mrgn-XL);
+    }
+    .mrgn-L-at-XS {
+        margin-top: var(--mrgn-L);
+    }
+    .mrgn-M-at-XS {
+        margin-top: var(--mrgn-M);
+    }
+    .mrgn-S-at-XS {
+        margin-top: var(--mrgn-S);
+    }
+    .mrgn-XS-at-XS {
+        margin-top: var(--mrgn-XS);
+    }
+}

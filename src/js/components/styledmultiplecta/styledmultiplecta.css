@@ -102,8 +102,8 @@
         }
         &:hover .banner-image:after {
             transform: scale(1.05);
-            width: 307px;
-            left: 31px;
+            width: 377px;
+            left: 10px;
             @media(--viewport-sm-down){
                 width: 100%;
                 left: 1px;

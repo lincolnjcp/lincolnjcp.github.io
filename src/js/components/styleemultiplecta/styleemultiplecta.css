@@ -4,6 +4,9 @@
 
 .stylee {
     margin: 0 16px;
+    @media (--viewport-md-down) {
+        margin: 0 12px;
+    }
     & .banner-container {
         display: inline-block;
         @media (--viewport-sm-down) {

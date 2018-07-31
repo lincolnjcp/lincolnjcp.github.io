@@ -13454,6 +13454,7 @@ var stylecsinglecta_styleCSingleCTA = function (_Component) {
           jquery_default()(".design-system-nav-mobile").removeAttr('style');
           jquery_default()(".design-system-wrap").removeAttr('style');
         }
+        console.log('%c Oh my heavens! ', 'background: #222; color: #bada55');
       });
     }
   }, {
@@ -18046,36 +18047,48 @@ var homepage_layout_HomepageLayout = function (_Component) {
                     ),
                     react_default.a.createElement(
                         'div',
-                        { 'class': 'lg6 xl6 xxl6 stylec-banner' },
-                        react_default.a.createElement(stylecmultiplecta, null)
+                        { 'class': 'stylec-banner mrgn-L mrgn-M-at-M mrgn-S-at-XS' },
+                        react_default.a.createElement(
+                            'div',
+                            { 'class': 'sm12 lg6 xl6 xxl6 mrg-XL-m' },
+                            react_default.a.createElement(stylecmultiplecta, null)
+                        ),
+                        react_default.a.createElement(
+                            'div',
+                            { 'class': 'sm12 lg6 xl6 xxl6' },
+                            react_default.a.createElement(stylecmultiplecta, null)
+                        )
                     ),
                     react_default.a.createElement(
                         'div',
-                        { 'class': 'lg6 xl6 xxl6 stylec-banner' },
-                        react_default.a.createElement(stylecmultiplecta, null)
+                        { 'class': 'styled-banner mrgn-L mrgn-M-at-M mrgn-S-at-XS' },
+                        react_default.a.createElement(
+                            'div',
+                            { 'class': 'sm12 lg4 xl4 xxl4' },
+                            react_default.a.createElement(styledmultiplecta, null)
+                        ),
+                        react_default.a.createElement(
+                            'div',
+                            { 'class': 'sm12 lg4 xl4 xxl4' },
+                            react_default.a.createElement(styledsinglecta, null)
+                        ),
+                        react_default.a.createElement(
+                            'div',
+                            { 'class': 'sm12 lg4 xl4 xxl4' },
+                            react_default.a.createElement(styledmultiplecta, null)
+                        )
                     ),
                     react_default.a.createElement(
                         'div',
-                        { 'class': 'lg4 xl4 xxl4 styled-banner' },
-                        react_default.a.createElement(styledmultiplecta, null)
-                    ),
-                    react_default.a.createElement(
-                        'div',
-                        { 'class': 'lg4 xl4 xxl4 styled-banner' },
-                        react_default.a.createElement(styledsinglecta, null)
-                    ),
-                    react_default.a.createElement(
-                        'div',
-                        { 'class': 'lg4 xl4 xxl4 styled-banner' },
-                        react_default.a.createElement(styledmultiplecta, null)
-                    ),
-                    react_default.a.createElement(
-                        'div',
-                        { 'class': 'lg12 xl12 xxl12 stylee-banner' },
+                        { 'class': 'lg12 xl12 xxl12 stylee-banner mrgn-M mrgn-XS-at-M mrgn-S-at-XS' },
                         react_default.a.createElement(styleemultiplecta, null)
                     )
                 ),
-                react_default.a.createElement(footer, null)
+                react_default.a.createElement(
+                    'div',
+                    { 'class': 'lg12 xl12 xxl12 mrgn-S mrgn-M-at-M mrgn-S-at-XS' },
+                    react_default.a.createElement(footer, null)
+                )
             );
         }
     }]);

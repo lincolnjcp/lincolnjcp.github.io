@@ -121,8 +121,8 @@
     text-align: center;
     width: 100%;
     z-index: 10;
-    @media (--viewport-md-up) {
-        /* bottom: 52px; */
+    @media (--viewport-sm-down) {
+        bottom: 10px;
     }
 }
 .slidesjs-pagination li {

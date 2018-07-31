@@ -270,7 +270,7 @@
             @media (--viewport-md-up) {
                 width: 602px;
             }
-            @media (--viewport-medium-only) {
+            @media (--viewport-md-down) {
                 width: 480px;
             }
         }
@@ -519,5 +519,9 @@
             }
             
         }
+    }
+
+    & .footer-accordion {
+        font-family: var(--font-headline);
     }
 }

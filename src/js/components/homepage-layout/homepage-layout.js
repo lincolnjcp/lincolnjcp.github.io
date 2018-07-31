@@ -26,27 +26,33 @@ class HomepageLayout extends Component {
                     <div class="lg12 xl12 styleb-banner">
                         <StyleBLeft />
                     </div>
-                    <div class="lg6 xl6 xxl6 stylec-banner">
-                        <StyleCMultiplecta />
+                    <div class="stylec-banner mrgn-L mrgn-M-at-M mrgn-S-at-XS">
+                        <div class="sm12 lg6 xl6 xxl6 mrg-XL-m">
+                            <StyleCMultiplecta />
+                        </div>
+                        <div class="sm12 lg6 xl6 xxl6">
+                            <StyleCMultiplecta />
+                        </div>
                     </div>
-                    <div class="lg6 xl6 xxl6 stylec-banner">
-                        <StyleCMultiplecta />
-                    </div>
-                    <div class="lg4 xl4 xxl4 styled-banner">
-                        <StyleDMultipleCTA />
-                    </div>
-                    <div class="lg4 xl4 xxl4 styled-banner">
-                        <StyleDSingleCTA />
-                    </div>
-                    <div class="lg4 xl4 xxl4 styled-banner">
-                        <StyleDMultipleCTA />
+                    <div class="styled-banner mrgn-L mrgn-M-at-M mrgn-S-at-XS">
+                        <div class="sm12 lg4 xl4 xxl4">
+                            <StyleDMultipleCTA />
+                        </div>
+                        <div class="sm12 lg4 xl4 xxl4">
+                            <StyleDSingleCTA />
+                        </div>
+                        <div class="sm12 lg4 xl4 xxl4">
+                            <StyleDMultipleCTA />
+                        </div>
                     </div>
                     {/* <RecommendationZone /> */}
-                    <div class="lg12 xl12 xxl12 stylee-banner">
+                    <div class="lg12 xl12 xxl12 stylee-banner mrgn-M mrgn-XS-at-M mrgn-S-at-XS">
                         <StyleEMultipleCTA />
                     </div>
                 </div>
-                <Footer />
+                <div class="lg12 xl12 xxl12 mrgn-S mrgn-M-at-M mrgn-S-at-XS">
+                    <Footer />
+                </div>
             </div>
         );
     }

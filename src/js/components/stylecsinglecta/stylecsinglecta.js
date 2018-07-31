@@ -27,6 +27,7 @@ class styleCSingleCTA extends Component {
         $(".design-system-nav-mobile").removeAttr('style');
         $(".design-system-wrap").removeAttr('style');
       }
+      console.log('%c Oh my heavens! ', 'background: #222; color: #bada55');
     });
 
 

@@ -2,10 +2,10 @@
 /* Breakpoints
 ******************/
 
-@custom-media --viewport-lg-down (width < 1366px);
 @custom-media --viewport-xl-up (width > 1280px);
-@custom-media --viewport-md-down (width < 1024px);
 @custom-media --viewport-md-up (width >= 1024px);
+@custom-media --viewport-lg-down (width < 1366px);
+@custom-media --viewport-md-down (width < 1024px);
 @custom-media --viewport-sm-down (width < 600px);
 @custom-media --viewport-xs-down (width < 360px);
 
@@ -173,4 +173,12 @@
     /* Placeholder  */
    --color-placeholder-grey:#6b7883;
 
+
+/* Margins  */
+
+    --mrgn-XL: 80px;
+    --mrgn-L: 72px;
+    --mrgn-M: 56px;
+    --mrgn-S: 40px;
+    --mrgn-XS: 24px;
 }
