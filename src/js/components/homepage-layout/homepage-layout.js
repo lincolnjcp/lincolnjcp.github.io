@@ -19,18 +19,18 @@ class HomepageLayout extends Component {
         return (
             <div>
                 <Header />
+                <div class="stylea-banner">
+                    <StyleAWithoutButton />
+                </div>
                 <div class="home-container">
-                    <div class="lg12 xl12 stylea-banner">
-                        <StyleAWithoutButton />
-                    </div>
                     <div class="lg12 xl12 styleb-banner">
                         <StyleBLeft />
                     </div>
                     <div class="stylec-banner mrgn-L mrgn-M-at-M mrgn-S-at-XS">
-                        <div class="sm12 lg6 xl6 xxl6 mrg-XL-m">
+                        <div class="sm12 lg6 xl6 xxl6 mrg-XL-m stylec-left-aligned">
                             <StyleCMultiplecta />
                         </div>
-                        <div class="sm12 lg6 xl6 xxl6">
+                        <div class="sm12 lg6 xl6 xxl6 stylec-right-aligned">
                             <StyleCMultiplecta />
                         </div>
                     </div>

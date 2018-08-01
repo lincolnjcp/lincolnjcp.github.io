@@ -12843,7 +12843,7 @@ var stylebleft_styleBLeft = function (_Component) {
                 'reg $20-$70 ',
                 react_default.a.createElement(
                   'a',
-                  { href: 'javascript:void(0);' },
+                  { href: 'javascript:void(0);', 'class': 'see-details' },
                   'see details'
                 )
               ),
@@ -18034,12 +18034,12 @@ var homepage_layout_HomepageLayout = function (_Component) {
                 react_default.a.createElement(header, null),
                 react_default.a.createElement(
                     'div',
+                    { 'class': 'stylea-banner' },
+                    react_default.a.createElement(styleawithoutbutton, null)
+                ),
+                react_default.a.createElement(
+                    'div',
                     { 'class': 'home-container' },
-                    react_default.a.createElement(
-                        'div',
-                        { 'class': 'lg12 xl12 stylea-banner' },
-                        react_default.a.createElement(styleawithoutbutton, null)
-                    ),
                     react_default.a.createElement(
                         'div',
                         { 'class': 'lg12 xl12 styleb-banner' },
@@ -18050,12 +18050,12 @@ var homepage_layout_HomepageLayout = function (_Component) {
                         { 'class': 'stylec-banner mrgn-L mrgn-M-at-M mrgn-S-at-XS' },
                         react_default.a.createElement(
                             'div',
-                            { 'class': 'sm12 lg6 xl6 xxl6 mrg-XL-m' },
+                            { 'class': 'sm12 lg6 xl6 xxl6 mrg-XL-m stylec-left-aligned' },
                             react_default.a.createElement(stylecmultiplecta, null)
                         ),
                         react_default.a.createElement(
                             'div',
-                            { 'class': 'sm12 lg6 xl6 xxl6' },
+                            { 'class': 'sm12 lg6 xl6 xxl6 stylec-right-aligned' },
                             react_default.a.createElement(stylecmultiplecta, null)
                         )
                     ),

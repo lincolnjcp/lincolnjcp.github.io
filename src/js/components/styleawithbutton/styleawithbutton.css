@@ -6,7 +6,7 @@
     background: var(--color-marketing-blue-4);
     padding: 16px 0;
     width: 100%;
-    max-width: 1440px;
+    /* max-width: 1440px; */
     margin: 0 auto;
     @media (--viewport-md-only) {
         padding: 16px 26px;
@@ -24,7 +24,7 @@
     & .promo-description {
         padding: 8px 0 0;
         @media (--viewport-sm-down) {
-            padding: 8px 16px;
+            padding: 8px 24px;
         }
         & span {
             display: inline-block;
@@ -39,7 +39,7 @@
         & .promo-cta {
             & a {
                 color: var(--color-white);
-                padding-left: 2px;
+                padding-left: 6px;
                 font-size: 12px;
             }
         }

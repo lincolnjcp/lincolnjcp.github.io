@@ -61,7 +61,7 @@ class styleBLeft extends Component {
             <div class="banner-content-wrapper">
               <h1 class="banner-title title">All For Dad</h1>
               <p class="banner-content color-nightsky">Integer posuere erat a ante venenatis dapibus posuere</p>
-              <div class="std-txt std-txt-XS mrg-M">reg $20-$70 <a href="javascript:void(0);">see details</a></div>
+              <div class="std-txt std-txt-XS mrg-M">reg $20-$70 <a href="javascript:void(0);" class="see-details">see details</a></div>
               <div class="dropdown-container">
                 <a onclick="dropdownFunction()" href="javascript:void(0)" class="elevation no-hover title title-S mrg-top-S">Shop All<span class="icon plus-icon" dangerouslySetInnerHTML={{ __html: plusImage }} /><span class="minus-icon hide"></span></a>
                 <div id="myDropdown" class="dropdown-list hide">

@@ -24,7 +24,7 @@
             width: 448px;
             /* height: 256px; */
             background-color: rgba(255, 255, 255, 0.8);
-            border: solid 10px #5580ae;
+            border: solid 6px #5580ae;
             position: relative;
             top: 74px;
             left: 24px;
@@ -43,7 +43,7 @@
                 padding: 12px 0 0;
                 border: 0;
                 top: 278px;
-                border-top: 4px solid #5580ae;
+                border-top: 6px solid #5580ae;
             }
             & h1.banner-title {
                 font-size: 48px;
@@ -165,6 +165,9 @@
                         }
                     }
                 }
+            }
+            & .see-details {
+                padding-left: 8px;
             }
         }
         @media (--viewport-md-up) {

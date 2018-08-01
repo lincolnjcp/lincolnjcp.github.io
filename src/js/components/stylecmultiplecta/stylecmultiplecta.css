@@ -52,7 +52,7 @@
                 @media (--viewport-sm-down) {
                     font-size: 20px;
                     &::after {
-                        height: 4px;
+                        height: 6px;
                     }
                 }
             }
@@ -70,6 +70,9 @@
             & .promo-details {
                 font-size: 12px;
                 line-height: 16px;
+                & a {
+                    margin-left: 8px;
+                }
             }
             & .promo-links {
                 padding-top: 16px;
@@ -115,6 +118,35 @@
                 margin-bottom: 20px;
                 @media (--viewport-sm-down) {
                     margin-bottom: 12px;
+                }
+            }
+        }
+    }
+}
+
+.stylec-left-aligned {
+    & .banner-container {
+        & .banner-image {
+            float: left;
+        }
+        & .promo-content {
+            text-align: left;
+            float: left;
+        }
+    }
+}
+.stylec-right-aligned {
+    & .banner-container {
+        float: right;
+        & .banner-image {
+            float: right;
+        }
+        & .promo-content {
+            text-align: right;
+            padding-right: 24px;
+            & .promo-links {
+                & li:last-child {
+                    padding-right: 0;
                 }
             }
         }

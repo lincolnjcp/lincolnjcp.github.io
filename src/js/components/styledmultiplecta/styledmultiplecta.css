@@ -33,7 +33,7 @@
             content: "";
             display: block;
             position: absolute;
-            height: 8px;
+            height: 10px;
             width: 336px;
             left: 16px;
             bottom: -4px;
@@ -77,6 +77,9 @@
             & .promo-details {
                 font-size: 12px;
                 line-height: 16px;
+                & a {
+                    margin-left: 8px;
+                }
             }
             & .promo-links {
                 @media (--viewport-sm-down) {

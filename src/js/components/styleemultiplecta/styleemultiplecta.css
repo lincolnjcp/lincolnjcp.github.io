@@ -55,9 +55,6 @@
                 }
                 @media (--viewport-sm-down) {
                     font-size: 20px;
-                    &::after {
-                        height: 4px;
-                    }
                 }
             }
             & .promo-title.offer-1-heading:after {
