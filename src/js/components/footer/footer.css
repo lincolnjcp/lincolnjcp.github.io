@@ -273,6 +273,9 @@
             @media (--viewport-md-down) {
                 width: 480px;
             }
+            @media (--viewport-sm-down) {
+                width: 100%;
+            }
         }
 
         & .subscription-row {
