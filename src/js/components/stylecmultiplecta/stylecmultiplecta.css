@@ -124,29 +124,31 @@
     }
 }
 
-.stylec-left-aligned {
-    & .banner-container {
-        & .banner-image {
-            float: left;
-        }
-        & .promo-content {
-            text-align: left;
-            float: left;
+@media (--viewport-md-down) {
+    .stylec-left-aligned {
+        & .banner-container {
+            & .banner-image {
+                float: left;
+            }
+            & .promo-content {
+                text-align: left;
+                float: left;
+            }
         }
     }
-}
-.stylec-right-aligned {
-    & .banner-container {
-        float: right;
-        & .banner-image {
+    .stylec-right-aligned {
+        & .banner-container {
             float: right;
-        }
-        & .promo-content {
-            text-align: right;
-            padding-right: 24px;
-            & .promo-links {
-                & li:last-child {
-                    padding-right: 0;
+            & .banner-image {
+                float: right;
+            }
+            & .promo-content {
+                text-align: right;
+                padding-right: 24px;
+                & .promo-links {
+                    & li:last-child {
+                        padding-right: 0;
+                    }
                 }
             }
         }
