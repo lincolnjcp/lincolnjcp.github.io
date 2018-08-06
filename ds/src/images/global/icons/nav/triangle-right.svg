@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32" aria-labelledby="title-50">
+  <defs>
+    <polygon id="triangle-right-a" points="12 0 24 16 0 16"/>
+  </defs>
+   <title id="title-49" lang="en">inline-expand</title>
+  <g fill="none" fill-rule="evenodd" transform="rotate(90 10 14)">
+    <use fill="#384048" xlink:href="#triangle-right-a"/>
+  </g>
+</svg>

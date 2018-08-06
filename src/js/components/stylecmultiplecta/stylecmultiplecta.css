@@ -11,8 +11,8 @@
         }
         & .banner-image {
             float: left;
-            width: 280px;
-            height: 280px;
+            width: 50%;
+            /* height: 280px; */
             overflow: hidden;
             & img {
                 width: 100%;
@@ -27,6 +27,7 @@
         & .promo-content {
             float: left;
             padding: 38px 0 0 24px;
+            width: 50%;
             @media (--viewport-sm-down) {
                 text-align: right;
                 float: right;

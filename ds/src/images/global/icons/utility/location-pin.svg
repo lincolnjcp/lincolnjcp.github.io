@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32" aria-labaria-lelledby="title-010">
+  <defs>
+    <path id="location-pin-a" d="M8,0 C12.4181943,0 16,3.81120604 16,9.33211574 C16,14.8530254 8.00018286,24 8.00018286,24 C8.00018286,24 0,14.8613318 0,9.35713482 C0,3.85293787 3.58171429,0 8,0 Z M8,13.3964148 C10.4174629,13.3964148 12.3842743,11.2435732 12.3842743,8.59745556 C12.3842743,5.9513379 10.4174629,3.79849635 8,3.79849635 C5.58253714,3.79849635 3.61572571,5.9513379 3.61572571,8.59745556 C3.61572571,11.2435732 5.58253714,13.3964148 8,13.3964148 Z"/>
+  </defs>
+  <title id="title-010" lang="en">indicate location store</title>
+  <g fill="none" fill-rule="evenodd" transform="translate(8 4)">
+    <use fill="#384048" xlink:href="#location-pin-a"/>
+  </g>
+</svg>

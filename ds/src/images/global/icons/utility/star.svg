@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32" aria-labaria-lelledby="title-037">
+  <defs>
+    <polygon id="star-a" points="12 19 4.947 22.708 6.294 14.854 .587 9.292 8.473 8.146 12 1 15.527 8.146 23.413 9.292 17.706 14.854 19.053 22.708"/>
+  </defs>
+  <title id="title-037" lang="en">ratings</title>
+  <g fill="none" fill-rule="evenodd" transform="translate(4 4)">
+    <use fill="#C02020" xlink:href="#star-a"/>
+  </g>
+</svg>
