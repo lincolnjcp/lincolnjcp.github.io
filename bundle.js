@@ -32,7 +32,6 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 
 
 
-
 var CodeGenerator = function (_Component) {
     _inherits(CodeGenerator, _Component);
 

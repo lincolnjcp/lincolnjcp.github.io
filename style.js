@@ -16,4 +16,4 @@ module.exports = __webpack_require__("pTlp");
 /***/ })
 
 },[1]);
-//# sourceMappingURL=style.js.map
+//# sourceMappingURL=style.js.map 
