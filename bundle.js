@@ -12830,12 +12830,12 @@ var stylebleft_styleBLeft = function (_Component) {
               react_default.a.createElement(
                 'h1',
                 { 'class': 'banner-title title' },
-                'All For Dad'
+                'Up To 50% OFF'
               ),
               react_default.a.createElement(
                 'p',
                 { 'class': 'banner-content color-nightsky' },
-                'Integer posuere erat a ante venenatis dapibus posuere'
+                'School\u2019s back, smart styles ahead. Plus save more with coupon!'
               ),
               react_default.a.createElement(
                 'div',
@@ -13464,16 +13464,6 @@ var stylecsinglecta_styleCSingleCTA = function (_Component) {
         'div',
         null,
         react_default.a.createElement(
-          'p',
-          { 'class': 'S' },
-          react_default.a.createElement('br', null),
-          react_default.a.createElement(
-            'a',
-            { href: 'javascript:void(0);', id: 'HideDesignSystem' },
-            'Hide Design System Wrapper'
-          )
-        ),
-        react_default.a.createElement(
           'div',
           { 'class': 'stylec stylec-single' },
           react_default.a.createElement(
@@ -13482,7 +13472,7 @@ var stylecsinglecta_styleCSingleCTA = function (_Component) {
             react_default.a.createElement(
               'a',
               { 'class': 'banner-image', href: 'javascript:void(0)' },
-              react_default.a.createElement('img', { src: '../../images/design-system/workitout-01.png' })
+              react_default.a.createElement('img', { src: '../../images/design-system/image-story-1.png' })
             ),
             react_default.a.createElement(
               'div',
@@ -13490,7 +13480,12 @@ var stylecsinglecta_styleCSingleCTA = function (_Component) {
               react_default.a.createElement(
                 'h3',
                 { 'class': 'promo-title offer-1-heading' },
-                'Work it out'
+                '25% OFF'
+              ),
+              react_default.a.createElement(
+                'p',
+                { 'class': 'promo-sub-title' },
+                'Nike for the family'
               ),
               react_default.a.createElement(
                 'p',
@@ -13620,7 +13615,7 @@ var stylecmultiplecta_styleCMultipleCTA = function (_Component) {
             react_default.a.createElement(
               'a',
               { 'class': 'banner-image', href: 'javascript:void(0)' },
-              react_default.a.createElement('img', { src: '../../images/design-system/workitout-01.png' })
+              react_default.a.createElement('img', { src: '../../images/design-system/image-story-2.png' })
             ),
             react_default.a.createElement(
               'div',
@@ -13628,12 +13623,12 @@ var stylecmultiplecta_styleCMultipleCTA = function (_Component) {
               react_default.a.createElement(
                 'h3',
                 { 'class': 'promo-title offer-1-heading' },
-                'Work it out'
+                'Up To 60% OFF'
               ),
               react_default.a.createElement(
                 'p',
                 { 'class': 'promo-sub-title' },
-                '50% OFF WOMEN\u2019S ATHLETIC APPAREL'
+                'XERSION ACTIVEWEAR FOR THE FAMILY'
               ),
               react_default.a.createElement(
                 'p',
@@ -13654,7 +13649,7 @@ var stylecmultiplecta_styleCMultipleCTA = function (_Component) {
                   react_default.a.createElement(
                     'a',
                     { href: '#' },
-                    'Shirts'
+                    'Women'
                   )
                 ),
                 react_default.a.createElement(
@@ -13663,16 +13658,7 @@ var stylecmultiplecta_styleCMultipleCTA = function (_Component) {
                   react_default.a.createElement(
                     'a',
                     { href: '#' },
-                    'Sports Bras'
-                  )
-                ),
-                react_default.a.createElement(
-                  'li',
-                  null,
-                  react_default.a.createElement(
-                    'a',
-                    { href: '#' },
-                    'Shorts'
+                    'Men'
                   )
                 ),
                 react_default.a.createElement(
@@ -13793,7 +13779,7 @@ var styledmultiplecta_styleDMultipleCTA = function (_Component) {
               react_default.a.createElement(
                 'div',
                 { 'class': 'img-mask' },
-                react_default.a.createElement('img', { src: '../../images/design-system/styled-01.png' })
+                react_default.a.createElement('img', { src: '../../images/design-system/image-story-4.png' })
               )
             ),
             react_default.a.createElement(
@@ -13802,12 +13788,12 @@ var styledmultiplecta_styleDMultipleCTA = function (_Component) {
               react_default.a.createElement(
                 'h3',
                 { 'class': 'promo-title offer-1-heading' },
-                '$40 Off $40+'
+                'Back To School'
               ),
               react_default.a.createElement(
                 'p',
                 { 'class': 'promo-sub-title' },
-                'ARIZONA TEES, TANKS & SHORTS ',
+                'EVERYTHING YOU NEED TO ACE THE YEAR ',
                 react_default.a.createElement('br', null),
                 'with code: ',
                 react_default.a.createElement(
@@ -13958,7 +13944,7 @@ var styledsinglecta_styleDSingleCTA = function (_Component) {
               react_default.a.createElement(
                 'div',
                 { 'class': 'img-mask' },
-                react_default.a.createElement('img', { src: '../../images/design-system/styled-01.png' })
+                react_default.a.createElement('img', { src: '../../images/design-system/image-story-3.png' })
               )
             ),
             react_default.a.createElement(
@@ -13967,7 +13953,12 @@ var styledsinglecta_styleDSingleCTA = function (_Component) {
               react_default.a.createElement(
                 'h3',
                 { 'class': 'promo-title offer-1-heading' },
-                '$40 Off $40+'
+                '40-50% OFF'
+              ),
+              react_default.a.createElement(
+                'p',
+                { 'class': 'promo-sub-title' },
+                'KIDS IZOD UNIFORMS'
               ),
               react_default.a.createElement(
                 'p',
@@ -14093,7 +14084,7 @@ var styleemultiplecta_styleEMultipleCTA = function (_Component) {
             react_default.a.createElement(
               'a',
               { 'class': 'banner-image', href: 'javascript:void(0)' },
-              react_default.a.createElement('img', { src: '../../images/design-system/style-e-01.png' })
+              react_default.a.createElement('img', { src: '../../images/design-system/image-brandstory.png' })
             ),
             react_default.a.createElement(
               'div',
@@ -14245,7 +14236,7 @@ var styleesinglecta_styleESingleCTA = function (_Component) {
             react_default.a.createElement(
               'a',
               { 'class': 'banner-image', href: 'javascript:void(0)' },
-              react_default.a.createElement('img', { src: '../../images/design-system/style-e-01.png' })
+              react_default.a.createElement('img', { src: '../../images/design-system/image-brandstory.png' })
             ),
             react_default.a.createElement(
               'div',
@@ -18009,6 +18000,7 @@ function homepage_layout__inherits(subClass, superClass) { if (typeof superClass
 
 
 
+
 // import RecommendationZone from '../recommendation-zone/recommendation-zone';
 
 
@@ -18051,7 +18043,7 @@ var homepage_layout_HomepageLayout = function (_Component) {
                         react_default.a.createElement(
                             'div',
                             { 'class': 'sm12 lg6 xl6 xxl6 mrg-XL-m stylec-left-aligned' },
-                            react_default.a.createElement(stylecmultiplecta, null)
+                            react_default.a.createElement(stylecsinglecta, null)
                         ),
                         react_default.a.createElement(
                             'div',

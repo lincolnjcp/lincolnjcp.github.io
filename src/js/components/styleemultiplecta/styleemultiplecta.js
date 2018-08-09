@@ -42,7 +42,7 @@ class styleEMultipleCTA extends Component {
         <div class="stylee">
           <div class="banner-container">
             <a class="banner-image" href="javascript:void(0)">
-              <img src="../../images/design-system/style-e-01.png"/>
+              <img src="../../images/design-system/image-brandstory.png"/>
             </a>
             <div class="promo-content">
               <h3 class="promo-title offer-1-heading">Discover Okie Dokie</h3>

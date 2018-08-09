@@ -38,18 +38,19 @@ class styleCSingleCTA extends Component {
   render() {
     return (
       <div>
-        <p class="S"><br />
+        {/* <p class="S"><br />
           <a href="javascript:void(0);" id="HideDesignSystem">Hide Design System Wrapper</a>
-        </p>
+        </p> */}
 
 
         <div class="stylec stylec-single">
           <div class="banner-container">
             <a class="banner-image" href="javascript:void(0)">
-              <img src="../../images/design-system/workitout-01.png"/>
+              <img src="../../images/design-system/image-story-1.png"/>
             </a>
             <div class="promo-content">
-              <h3 class="promo-title offer-1-heading">Work it out</h3>
+              <h3 class="promo-title offer-1-heading">25% OFF</h3>
+              <p class="promo-sub-title">Nike for the family</p>
               <p class="promo-details">reg $20 - $70 <a href="#">see details</a></p>
               <ul class="promo-links">
                 <li><a href="#">Shop All</a></li>

@@ -45,16 +45,15 @@ class styleCMultipleCTA extends Component {
         <div class="stylec">
           <div class="banner-container">
             <a class="banner-image" href="javascript:void(0)">
-              <img src="../../images/design-system/workitout-01.png"/>
+              <img src="../../images/design-system/image-story-2.png"/>
             </a>
             <div class="promo-content">
-              <h3 class="promo-title offer-1-heading">Work it out</h3>
-              <p class="promo-sub-title">50% OFF WOMEN’S ATHLETIC APPAREL</p>
+              <h3 class="promo-title offer-1-heading">Up To 60% OFF</h3>
+              <p class="promo-sub-title">XERSION ACTIVEWEAR FOR THE FAMILY</p>
               <p class="promo-details">reg $20 - $70 <a href="#">see details</a></p>
               <ul class="promo-links">
-                <li><a href="#">Shirts</a></li>
-                <li><a href="#">Sports Bras</a></li>
-                <li><a href="#">Shorts</a></li>
+                <li><a href="#">Women</a></li>
+                <li><a href="#">Men</a></li>
                 <li><a href="#">Shop All</a></li>
               </ul>
             </div>

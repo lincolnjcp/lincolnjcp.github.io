@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Header from '../header/header';
 import StyleAWithoutButton from '../styleawithoutbutton/styleawithoutbutton';
 import StyleBLeft from '../stylebleft/stylebleft';
+import StyleCSingleCTA from '../stylecsinglecta/stylecsinglecta';
 import StyleCMultiplecta from '../stylecmultiplecta/stylecmultiplecta';
 import StyleDMultipleCTA from '../styledmultiplecta/styledmultiplecta';
 import StyleDSingleCTA from '../styledsinglecta/styledsinglecta';
@@ -28,7 +29,7 @@ class HomepageLayout extends Component {
                     </div>
                     <div class="stylec-banner mrgn-L mrgn-M-at-M mrgn-S-at-XS">
                         <div class="sm12 lg6 xl6 xxl6 mrg-XL-m stylec-left-aligned">
-                            <StyleCMultiplecta />
+                            <StyleCSingleCTA />
                         </div>
                         <div class="sm12 lg6 xl6 xxl6 stylec-right-aligned">
                             <StyleCMultiplecta />

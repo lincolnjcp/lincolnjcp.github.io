@@ -4,7 +4,7 @@
 
 .styleb-left {
     & .banner-container {
-        background-image: url(var(--path-images)design-system/banner-01.png);
+        background-image: url(var(--path-images)design-system/image-hero.png);
         height: 404px;
         width: 100%;
         max-width: 1800px;
@@ -28,7 +28,7 @@
             position: relative;
             top: 74px;
             left: 24px;
-            padding: 36px 32px 26px;
+            padding: 34px 28px 24px;
             @media (--viewport-md-down) {
                 margin: 0 auto;
                 text-align: center;

@@ -46,11 +46,12 @@ class styleDSingleCTA extends Component {
           <div class="banner-container">
             <a class="banner-image" href="javascript:void(0)">
               <div class="img-mask">
-                <img src="../../images/design-system/styled-01.png" />
+                <img src="../../images/design-system/image-story-3.png" />
               </div>
             </a>
             <div class="promo-content">
-              <h3 class="promo-title offer-1-heading">$40 Off $40+</h3>
+              <h3 class="promo-title offer-1-heading">40-50% OFF</h3>
+              <p class="promo-sub-title">KIDS IZOD UNIFORMS</p>
               <p class="promo-details">select styles <a href="#">see details</a></p>
               <div class="promo-links">
                 <a href="javascript:void();" role="button" class="btn btn-secondary btn-S">Shop All</a>

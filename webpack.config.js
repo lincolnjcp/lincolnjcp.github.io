@@ -92,6 +92,17 @@ module.exports = {
       to: 'images'
 }, ])
     ],
+    // devServer: {
+    //     // devtool: 'eval',
+    //     host:'10.248.67.13',
+    //      port: 8080,
+    //      open: true,
+    //      inline: true,
+    //      historyApiFallback: true,
+    //     /* proxy: {
+    //        "/": "http://localhost:8080"
+    //      }*/
+    //    },
     module: {
         rules: [
             {
