@@ -1,19 +1,2 @@
-webpackJsonp([2],{
-
-/***/ 2:
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__("5Og7");
-
-
-/***/ }),
-
-/***/ "5Og7":
-/***/ (function(module, exports) {
-
-// removed by extract-text-webpack-plugin
-
-/***/ })
-
-},[2]);
+webpackJsonp([2],{2:function(n,o,c){n.exports=c("5Og7")},"5Og7":function(n,o){}},[2]);
 //# sourceMappingURL=design-system.js.map

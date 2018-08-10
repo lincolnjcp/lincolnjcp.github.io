@@ -37,7 +37,7 @@
             width: 336px;
             left: 16px;
             bottom: -4px;
-            background-color: #41C2CC;
+            background-color: #103f68;
             @apply --image-zoom-animation;
             @media (--viewport-sm-down) {
                 width: 96%;
@@ -126,6 +126,9 @@
             & .promo-details {
                 padding-top: 12px;
             }
+        }
+        & .banner-image::after {
+            background-color: #fdb265;
         }
     }
 }

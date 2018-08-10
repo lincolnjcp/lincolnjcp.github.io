@@ -31,7 +31,7 @@
   },
   "scripts": {
     "dev": "webpack-dev-server  --content-base / --hot --history-api-fallback --open",
-    "build": "webpack"
+    "build": "webpack -p"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.6",

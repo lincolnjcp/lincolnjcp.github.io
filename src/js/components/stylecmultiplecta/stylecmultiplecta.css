@@ -58,7 +58,7 @@
                 }
             }
             & .promo-title.offer-1-heading:after {
-                background-color: #FA6766;
+                background-color: #f2545d;
             }
             & .promo-sub-title {
                 font-size: 20px;
@@ -120,7 +120,11 @@
                 @media (--viewport-sm-down) {
                     margin-bottom: 12px;
                 }
+                &.offer-1-heading:after {
+                    background-color: #fac877;
+                }
             }
+            
         }
     }
 }
