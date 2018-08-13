@@ -680,7 +680,7 @@ class Header extends Component {
             <h1 class="title title-XL mrg-L">Header</h1>
             <h2 class="std-txt std-txt-XL mrg-L max-width-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h2>
           </div> */}
-          <div class="row">
+          <div>
             <div class="sm12 columns">
               <p class="S"><br />
                 <a href="javascript:void(0);" id="HideDesignSystem">Hide Design System Wrapper</a></p>

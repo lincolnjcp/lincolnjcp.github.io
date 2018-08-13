@@ -5,7 +5,7 @@
 .stylee {
     margin: 0 16px;
     @media (--viewport-md-down) {
-        margin: 0 12px;
+        margin: 0;
     }
     & .banner-container {
         display: inline-block;
@@ -55,6 +55,10 @@
                 }
                 @media (--viewport-sm-down) {
                     font-size: 20px;
+                    padding: 0 24px;
+                    &::after {
+                        left: 0;
+                    }
                 }
             }
             & .promo-title.offer-1-heading:after {

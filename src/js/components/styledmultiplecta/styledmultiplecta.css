@@ -90,7 +90,7 @@
                     width: 152px;
                     @media (--viewport-sm-down) {
                         &:nth-child(odd) {
-                                margin-left: 0;
+                            margin: 0;
                         }
                         &:nth-child(even) {
                             margin-right: 0;
@@ -121,6 +121,9 @@
             & .promo-links {
                 & .btn {
                     width: 100%;
+                    @media(--viewport-sm-down){
+                        width: 97%;
+                    }
                 }
             }
             & .promo-details {

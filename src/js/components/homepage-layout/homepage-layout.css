@@ -15,11 +15,19 @@
             margin-bottom: 32px;
         }
     }
+    @media (--viewport-md-down) {
+        & .stylec-left-aligned, & .stylec-right-aligned {
+            padding: 0;
+        }
+    }
 }
 .styled-banner {
     & .styled {
         & .banner-container {
             margin: 0 auto;
         }
+    }
+    & .sm12 {
+        padding: 0;
     }
 }
