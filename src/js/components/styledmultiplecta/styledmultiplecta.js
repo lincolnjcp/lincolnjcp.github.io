@@ -50,14 +50,14 @@ class styleDMultipleCTA extends Component {
               </div>
             </a>
             <div class="promo-content">
-              <h3 class="promo-title offer-1-heading">Back To School</h3>
-              <p class="promo-sub-title">EVERYTHING YOU NEED TO ACE THE YEAR <br />with code: <span class="promo-code">7GOSHOP</span></p>
-              <p class="promo-details">select styles <a href="#">see details</a></p>
-              <div class="promo-links">
-                <a href="javascript:void();" role="button" class="btn btn-secondary btn-S">Juniors</a>
-                <a href="javascript:void();" role="button" class="btn btn-secondary btn-S">Guys</a>
-                <a href="javascript:void();" role="button" class="btn btn-secondary btn-S">Kids</a>
-                <a href="javascript:void();" role="button" class="btn btn-secondary btn-S">Shop All</a>
+              <h3 class="promo-title price promo-title-XL price--txt-S">Back To School</h3>
+              <h4 class="promo-sub-title std-txt std-txt-M std-txt-S-at-S">EVERYTHING YOU NEED TO ACE THE YEAR <br />with code: <span class="promo-code">7GOSHOP</span></h4>
+              <p class="promo-details std-txt std-txt-XS mrg-top-M mrgn-ST-at-S">select styles <a href="#" class="mrg-lft-S">see details</a></p>
+              <div class="promo-links mrg-top-M">
+                <a href="javascript:void();" role="button" class="btn btn-secondary btn-S txt-bold">Juniors</a>
+                <a href="javascript:void();" role="button" class="btn btn-secondary btn-S txt-bold">Guys</a>
+                <a href="javascript:void();" role="button" class="btn btn-secondary btn-S txt-bold">Kids</a>
+                <a href="javascript:void();" role="button" class="btn btn-secondary btn-S txt-bold">Shop All</a>
               </div>
             </div>
           </div>

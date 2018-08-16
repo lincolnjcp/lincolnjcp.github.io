@@ -119,6 +119,12 @@ p {
         line-height: 20px;
     }
 
+    &.promo-title-XL {
+        font-size: 32px;
+        line-height: 40px;
+        letter-spacing: -.5px;
+    }
+
     &.price-promo {
         font-size: 12px;
         letter-spacing: .25px;
@@ -262,6 +268,24 @@ p {
             font-size: 12px;
             letter-spacing: -0.28px;
             line-height: 16px;
+        }
+    }
+}
+
+@media (--viewport-sm-down){
+    .std-txt {
+        &.std-txt-S-at-S {
+            font-size: 14px;
+            letter-spacing: -0.28px;
+            line-height: 24px;
+        }
+    }
+    .price {
+        &.price--txt-S {
+            font-size: 20px;
+            letter-spacing: .25px;
+            line-height: 30px;
+            letter-spacing: -.25px;
         }
     }
 }

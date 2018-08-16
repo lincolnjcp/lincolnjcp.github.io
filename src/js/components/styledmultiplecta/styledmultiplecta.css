@@ -54,31 +54,10 @@
             @media (--viewport-sm-down) {
                 text-align: left;
             }
-            & .promo-title {
-                font: 32px var(--font-headline);
-                font-weight: bold;
-                @media (--viewport-sm-down) {
-                    font: 20px var(--font-headline);
-                    font-weight: bold;
-                }
-            }
             & .promo-sub-title {
-                font-size: 16px;
-                color: #636f79;
-                line-height: 18px;
-                @media (--viewport-sm-down) {
-                    font-size: 14px;
-                }
                 & .promo-code {
                     font-weight: bold;
                     color: var(--color-nightsky)
-                }
-            }
-            & .promo-details {
-                font-size: 12px;
-                line-height: 16px;
-                & a {
-                    margin-left: 8px;
                 }
             }
             & .promo-links {
@@ -88,6 +67,7 @@
                 & .btn {
                     margin: 8px;
                     width: 152px;
+                    font-weight: 700;
                     @media (--viewport-sm-down) {
                         &:nth-child(odd) {
                             margin: 0;
@@ -125,9 +105,6 @@
                         width: 97%;
                     }
                 }
-            }
-            & .promo-details {
-                padding-top: 12px;
             }
         }
         & .banner-image::after {

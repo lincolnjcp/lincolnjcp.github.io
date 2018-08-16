@@ -32,10 +32,9 @@
                 text-align: right;
                 float: right;
                 padding: 12px 0 0 0;
+                width: 52%;
             }
             & .promo-title {
-                font: 32px var(--font-headline);
-                font-weight: bold;
                 position: relative;
                 margin: 0;
                 display: inline-block;
@@ -51,46 +50,24 @@
                     z-index: -1;
                 }
                 @media (--viewport-sm-down) {
-                    font-size: 20px;
                     &::after {
                         height: 6px;
                     }
                 }
             }
-            & .promo-title.offer-1-heading:after {
+            & .promo-title:after {
                 background-color: #f2545d;
             }
-            & .promo-sub-title {
-                font-size: 20px;
-                color: #636f79;
-                padding-top: 14px;
-                @media (--viewport-sm-down) {
-                    font-size: 14px;
-                }
-            }
-            & .promo-details {
-                font-size: 12px;
-                line-height: 16px;
-                & a {
-                    margin-left: 8px;
-                }
-            }
             & .promo-links {
-                padding-top: 16px;
                 & li {
                     display: inline-block;
-                    font-size: 16px;
                     padding: 0 16px 0 0;
                     @media (--viewport-sm-down) {
-                        font-size: 12px;
                         &:last-child {
                             padding-right: 0;
                         }
                     }
                 }
-            }
-            & p {
-                margin: 0;
             }
         }
         &:hover .promo-title::after {
@@ -101,7 +78,7 @@
                 height: 30px;
             }
         }
-        &:hover .promo-title {
+        &:hover {
             color: var(--color-white);
         }
         &:hover .banner-image {
@@ -116,11 +93,7 @@
     & .banner-container {
         & .promo-content {
             & .promo-title {
-                margin-bottom: 20px;
-                @media (--viewport-sm-down) {
-                    margin-bottom: 12px;
-                }
-                &.offer-1-heading:after {
+                &:after {
                     background-color: #fac877;
                 }
             }

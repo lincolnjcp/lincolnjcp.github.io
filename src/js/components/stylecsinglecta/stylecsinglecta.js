@@ -49,10 +49,10 @@ class styleCSingleCTA extends Component {
               <img src="../../images/design-system/image-story-1.png"/>
             </a>
             <div class="promo-content">
-              <h3 class="promo-title offer-1-heading">25% OFF</h3>
-              <p class="promo-sub-title">Nike for the family</p>
-              <p class="promo-details">reg $20 - $70 <a href="#">see details</a></p>
-              <ul class="promo-links">
+              <h3 class="promo-title price promo-title-XL price--txt-S">25% OFF</h3> 
+              <h4 class="std-txt std-txt-XL std-txt-S-at-S mrgn-XS mrgn-XS-at-M mrgn-ST-at-S mrgn-XS-at-XS">Nike for the family</h4>
+              <p class="std-txt std-txt-XS nopad">reg $20 - $70 <a href="#" class="mrg-lft-S">see details</a></p>
+              <ul class="promo-links mrg-top-M std-txt std-txt-M std-txt-XS-at-S">
                 <li><a href="#">Shop All</a></li>
               </ul>
             </div>
