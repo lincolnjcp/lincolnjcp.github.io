@@ -45,9 +45,9 @@ class styleESingleCTA extends Component {
               <img src="../../images/design-system/image-brandstory.png"/>
             </a>
             <div class="promo-content">
-              <h3 class="promo-title offer-1-heading">Discover Okie Dokie</h3>
-              <div class="promo-sub-title">Maecenas sed diam eget risus varius blandit sit amet non magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur blandit tempus porttitor. Cras justo odio, dapibus ac facilisis in, egestas eget quam.</div>
-              <ul class="promo-links">
+              <h3 class="promo-title promo-lbl promo-lbl-XL-S">Discover Okie Dokie</h3>
+              <div class="std-txt std-txt-M mrg-top-M">Maecenas sed diam eget risus varius blandit sit amet non magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur blandit tempus porttitor. Cras justo odio, dapibus ac facilisis in, egestas eget quam.</div>
+              <ul class="promo-links mrg-top-L">
                 <li><a href="#" class="btn btn-secondary btn-S">Learn More</a></li>
               </ul>
             </div>

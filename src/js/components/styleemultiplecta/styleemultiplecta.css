@@ -1,5 +1,5 @@
 /*********************************
-/* styleCSingleCTA 
+/* styleEMultipleCTA 
 *********************************/
 
 .stylee {
@@ -37,8 +37,6 @@
                 text-align: center;
             }
             & .promo-title {
-                font: 32px var(--font-headline);
-                font-weight: bold;
                 position: relative;
                 margin: 0;
                 display: inline-block;
@@ -61,17 +59,10 @@
                     }
                 }
             }
-            & .promo-title.offer-1-heading:after {
+            & .promo-title:after {
                 background-color: #e97439;
             }
-            & .promo-sub-title {
-                font-size: 16px;
-                color: #636f79;
-                padding-top: 16px;
-                line-height: 1.25;
-            }
             & .promo-links {
-                padding-top: 24px;
                 & li {
                     display: inline-block;
                     font-size: 16px;
