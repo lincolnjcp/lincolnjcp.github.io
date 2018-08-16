@@ -48,7 +48,7 @@ class styleAWithButtonNocarousal extends Component {
 						<span class="promo-end">Online & Instore. Ends 07/24. </span>
 						<span class="promo-cta"><a href="javascript:void(0)">see details</a></span>
 					</div>
-					<div class="promo-button-container">
+					<div class="promo-button-container mrg-top-S">
 						<a class="button-promo btn btn-secondary btn-M" href="javascript:void(0)">Women</a>
 						<a class="button-promo btn btn-secondary btn-M" href="javascript:void(0)">Kids</a>
 						<a class="button-promo btn btn-secondary btn-M" href="javascript:void(0)">Men</a>

@@ -14,8 +14,6 @@
 
     & h1 {
         font-size: 32px;
-        font-weight: bold;
-        font-family: var(--font-headline);
         @media (--viewport-md-down) {
             font-size: 20px;
         }
@@ -46,8 +44,8 @@
     }
 
     & .promo-button-container {
-        padding-bottom: 4px;
-        padding-top: 8px;
+        /* padding-bottom: 4px;
+        padding-top: 8px; */
         & .button-promo {
             width: 140px;
             height: 36px;
@@ -64,9 +62,6 @@
             font-size: 20px;
             line-height: 24px;
         }
-    }
-    & .promo-button-container{
-        padding-bottom: 0;
     }
 }
 

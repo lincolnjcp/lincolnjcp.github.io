@@ -648,39 +648,17 @@ class styleAWithButton extends Component {
 				</p>
 
 
-
-				{/* <div class="dynamic-banner color-white text-center">
-					<h1 class="color-white">40% Off Orders $40+</h1>
-					<div class="promo-description">
-						<span>with code</span>
-						<span class="promo-code">SAVE27 </span>
-						<span class="promo-end">Online & Instore. Ends 07/24. </span>
-						<span class="promo-cta"><a href="javascript:void(0)">see details</a></span>
-					</div>
-					<div class="promo-button-container">
-						<a class="button-promo btn btn-secondary btn-M" href="javascript:void(0)">Women</a>
-						<a class="button-promo btn btn-secondary btn-M" href="javascript:void(0)">Kids</a>
-						<a class="button-promo btn btn-secondary btn-M" href="javascript:void(0)">Men</a>
-						<a class="button-promo btn btn-secondary btn-M" href="javascript:void(0)">Accessories</a>
-						<a class="button-promo btn btn-secondary btn-M" href="javascript:void(0)">Shoes</a>
-						<a class="button-promo btn btn-secondary btn-M" href="javascript:void(0)">Baby</a>
-						<a class="button-promo btn btn-secondary btn-M" href="javascript:void(0)">Home</a>
-						<a class="button-promo btn btn-secondary btn-M" href="javascript:void(0)">Shop All</a>
-					</div>
-				</div> */}
-
-
 				<div class="container">
 					<div id="slides">
 						<div class="dynamic-banner color-white text-center">
-							<h1 class="color-white">40% Off Orders $40+</h1>
+							<h1 class="promo-lbl color-white">40% Off Orders $40+</h1>
 							<div class="promo-description">
 								<span>with code</span>
 								<span class="promo-code">SAVE27 </span>
 								<span class="promo-end">Online & Instore. Ends 07/24. </span>
 								<span class="promo-cta"><a href="javascript:void(0)">see details</a></span>
 							</div>
-							<div class="promo-button-container">
+							<div class="promo-button-container mrg-XS mrg-top-S">
 								<a class="button-promo btn btn-secondary btn-M" href="javascript:void(0)">Women</a>
 								<a class="button-promo btn btn-secondary btn-M" href="javascript:void(0)">Kids</a>
 								<a class="button-promo btn btn-secondary btn-M" href="javascript:void(0)">Men</a>
@@ -692,14 +670,14 @@ class styleAWithButton extends Component {
 							</div>
 						</div>
 						<div class="dynamic-banner color-white text-center">
-							<h1 class="color-white">50% Off Orders $40+</h1>
+							<h1 class="promo-lbl color-white">50% Off Orders $40+</h1>
 							<div class="promo-description">
 								<span>with code</span>
 								<span class="promo-code">SAVE27 </span>
 								<span class="promo-end">Online & Instore. Ends 07/24. </span>
 								<span class="promo-cta"><a href="javascript:void(0)">see details</a></span>
 							</div>
-							<div class="promo-button-container">
+							<div class="promo-button-container mrg-XS mrg-top-S">
 								<a class="button-promo btn btn-secondary btn-M" href="javascript:void(0)">Women</a>
 								<a class="button-promo btn btn-secondary btn-M" href="javascript:void(0)">Kids</a>
 								<a class="button-promo btn btn-secondary btn-M" href="javascript:void(0)">Men</a>
@@ -711,14 +689,14 @@ class styleAWithButton extends Component {
 							</div>
 						</div>
 						<div class="dynamic-banner color-white text-center">
-							<h1 class="color-white">60% Off Orders $40+</h1>
+							<h1 class="promo-lbl color-white">60% Off Orders $40+</h1>
 							<div class="promo-description">
 								<span>with code</span>
 								<span class="promo-code">SAVE27 </span>
 								<span class="promo-end">Online & Instore. Ends 07/24. </span>
 								<span class="promo-cta"><a href="javascript:void(0)">see details</a></span>
 							</div>
-							<div class="promo-button-container">
+							<div class="promo-button-container mrg-XS mrg-top-S">
 								<a class="button-promo btn btn-secondary btn-M" href="javascript:void(0)">Women</a>
 								<a class="button-promo btn btn-secondary btn-M" href="javascript:void(0)">Kids</a>
 								<a class="button-promo btn btn-secondary btn-M" href="javascript:void(0)">Men</a>
@@ -730,14 +708,14 @@ class styleAWithButton extends Component {
 							</div>
 						</div>
 						<div class="dynamic-banner color-white text-center">
-							<h1 class="color-white">70% Off Orders $40+</h1>
+							<h1 class="promo-lbl color-white">70% Off Orders $40+</h1>
 							<div class="promo-description">
 								<span>with code</span>
 								<span class="promo-code">SAVE27 </span>
 								<span class="promo-end">Online & Instore. Ends 07/24. </span>
 								<span class="promo-cta"><a href="javascript:void(0)">see details</a></span>
 							</div>
-							<div class="promo-button-container">
+							<div class="promo-button-container mrg-XS mrg-top-S">
 								<a class="button-promo btn btn-secondary btn-M" href="javascript:void(0)">Women</a>
 								<a class="button-promo btn btn-secondary btn-M" href="javascript:void(0)">Kids</a>
 								<a class="button-promo btn btn-secondary btn-M" href="javascript:void(0)">Men</a>

@@ -41,7 +41,7 @@ class styleAWithButtonNocarousal extends Component {
 
 
 				<div class="dynamic-banner no-carousal color-white text-center">
-					<h1 class="color-white">40% Off Orders $40+</h1>
+					<h1 class="promo=lblcolor-white">40% Off Orders $40+</h1>
 					<div class="promo-description">
 						<span>with code</span>
 						<span class="promo-code">SAVE27 </span>

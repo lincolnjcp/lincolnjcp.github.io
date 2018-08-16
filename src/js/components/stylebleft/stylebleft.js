@@ -59,7 +59,7 @@ class styleBLeft extends Component {
         <div class="styleb-left">
           <div class="banner-container">
             <div class="banner-content-wrapper">
-              <h1 class="banner-title title">Up To 50% OFF</h1>
+              <h1 class="banner-title promo-lbl">Up To 50% OFF</h1>
               <p class="banner-content color-nightsky">School’s back, smart styles ahead. Plus save more with coupon!</p>
               <div class="std-txt std-txt-XS mrg-M">reg $20-$70 <a href="javascript:void(0);" class="see-details">see details</a></div>
               <div class="dropdown-container">

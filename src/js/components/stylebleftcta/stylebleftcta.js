@@ -54,22 +54,11 @@ class styleBLeftCTA extends Component {
         <div class="styleb-left">
           <div class="banner-container">
             <div class="banner-content-wrapper">
-              <h1 class="banner-title title">All For Dad</h1>
+              <h1 class="banner-title promo-lbl">All For Dad</h1>
               <p class="banner-content color-nightsky">Integer posuere erat a ante venenatis dapibus posuere</p>
               <div class="std-txt std-txt-XS mrg-M">reg $20-$70 <a href="javascript:void(0);">see details</a></div>
               <div class="dropdown-container">
                 <a href="javascript:void(0)" class="elevation title title-S mrg-top-S">PRIMARY CTA</a>
-                {/* <div id="myDropdown" class="dropdown-list hide">
-                  <a href="javascript:void(0)">PRIMARY CTA</a>
-                  <a href="javascript:void(0)">CTA 2</a>
-                  <a href="javascript:void(0)">CTA 3</a>
-                  <a href="javascript:void(0)">CTA 4</a>
-                  <a href="javascript:void(0)">CTA 5</a>
-                  <a href="javascript:void(0)">CTA 6</a>
-                  <a href="javascript:void(0)">CTA 7</a>
-                  <a href="javascript:void(0)">CTA 8</a>
-                  <a href="javascript:void(0)">CTA 9</a>
-                </div> */}
               </div>
             </div>
           </div>
