@@ -119,12 +119,6 @@ p {
         line-height: 20px;
     }
 
-    &.promo-title-XL {
-        font-size: 32px;
-        line-height: 40px;
-        letter-spacing: -.5px;
-    }
-
     &.price-promo {
         font-size: 12px;
         letter-spacing: .25px;
@@ -280,14 +274,6 @@ p {
             line-height: 24px;
         }
     }
-    .price {
-        &.price--txt-S {
-            font-size: 20px;
-            letter-spacing: .25px;
-            line-height: 30px;
-            letter-spacing: -.25px;
-        }
-    }
 }
 
 /*  Promo Labels */
@@ -324,6 +310,12 @@ p {
         font-size: 20px;
         letter-spacing: -0.2px;
         line-height: 22px;
+    }
+
+    &.promo-lbl-XL-S {
+        font-size: 32px;
+        line-height: 40px;
+        letter-spacing: -.5px;
     }
 
     &.promo-lbl-S {
@@ -370,6 +362,17 @@ p {
             text-shadow: 3px 3px rgba(0,0,0,0.5);
         }
 		*/
+    }
+}
+
+@media (--viewport-sm-down){
+    .promo-lbl {
+        &.promo-lbl-XL-S {
+            font-size: 20px;
+            letter-spacing: .25px;
+            line-height: 30px;
+            letter-spacing: -.25px;
+        }
     }
 }
 

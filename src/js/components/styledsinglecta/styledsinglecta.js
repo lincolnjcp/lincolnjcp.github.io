@@ -50,7 +50,7 @@ class styleDSingleCTA extends Component {
               </div>
             </a>
             <div class="promo-content">
-              <h3 class="promo-title price promo-title-XL price--txt-S">40-50% OFF</h3>
+              <h3 class="promo-title promo-lbl promo-lbl-XL-S">40-50% OFF</h3>
               <h4 class="promo-sub-title std-txt std-txt-M std-txt-S-at-S">KIDS IZOD UNIFORMS</h4>
               <p class="promo-details std-txt std-txt-XS mrg-top-M mrgn-ST-at-S">select styles <a href="#" class="mrg-lft-S">see details</a></p>
               <div class="promo-links mrg-top-M">

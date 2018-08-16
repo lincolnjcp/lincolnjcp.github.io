@@ -50,7 +50,7 @@ class styleDMultipleCTA extends Component {
               </div>
             </a>
             <div class="promo-content">
-              <h3 class="promo-title price promo-title-XL price--txt-S">Back To School</h3>
+              <h3 class="promo-title promo-lbl promo-lbl-XL-S">Back To School</h3>
               <h4 class="promo-sub-title std-txt std-txt-M std-txt-S-at-S">EVERYTHING YOU NEED TO ACE THE YEAR <br />with code: <span class="promo-code">7GOSHOP</span></h4>
               <p class="promo-details std-txt std-txt-XS mrg-top-M mrgn-ST-at-S">select styles <a href="#" class="mrg-lft-S">see details</a></p>
               <div class="promo-links mrg-top-M">
