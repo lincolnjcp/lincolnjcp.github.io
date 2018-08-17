@@ -43,21 +43,18 @@ class styleBCentre extends Component {
 
   render() {
     return (
-      <div>
+      <div class="styleb-left">
         <p class="S"><br />
 					<a href="javascript:void(0);" id="HideDesignSystem">Hide Design System Wrapper</a>
 				</p>
 
-
-
-
-        <div class="styleb-left">
+        <div>
           <div class="banner-container">
-            <div class="banner-content-wrapper banner-content-centre">
+            <div class="banner-content-wrapper banner-content-centre text-center">
               <h1 class="banner-title title">All For Dad</h1>
               <p class="banner-content color-nightsky">Integer posuere erat a ante venenatis dapibus posuere</p>
-              <div class="std-txt std-txt-XS mrg-M">reg $20-$70 <a href="javascript:void(0);">see details</a></div>
-              <div class="dropdown-container">
+              <p class="std-txt std-txt-XS nopad">reg $20 - $70 <a href="#" class="mrg-lft-S">see details</a></p>
+              <div class="dropdown-container pad-top-S">
                 <a href="javascript:void(0)" class="elevation title title-S mrg-top-S">PRIMARY CTA</a>
               </div>
             </div>

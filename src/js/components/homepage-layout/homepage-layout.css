@@ -19,6 +19,27 @@
         & .stylec-left-aligned, & .stylec-right-aligned {
             padding: 0;
         }
+        & .stylec-right-aligned {
+            & .promo-content {
+                text-align: right;
+                padding-bottom: 16px !important;
+            }
+        }
+    }
+
+    @media (--viewport-sm-down), (--viewport-sm-only) { 
+        & .stylec-left-aligned {
+            & .promo-content {
+                text-align: left;
+                padding-bottom: 16px !important;
+            }
+        }
+
+        & .stylec-right-aligned {
+            & .promo-content {
+                text-align: right;
+            }
+        }
     }
 }
 .styled-banner {
@@ -26,6 +47,12 @@
         & .banner-container {
             margin: 0 auto;
         }
+    }
+    @media (--viewport-sm-down), (--viewport-sm-only) { 
+            & .promo-content {
+                text-align: left;
+                padding-bottom: 16px !important;
+            }
     }
     & .sm12 {
         padding: 0;

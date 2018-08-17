@@ -43,27 +43,22 @@ class styleBRight extends Component {
 
   render() {
     return (
-      <div>
+      <div class="styleb-left">
         <p class="S"><br />
 					<a href="javascript:void(0);" id="HideDesignSystem">Hide Design System Wrapper</a>
 				</p>
 
-
-
-
-        <div class="styleb-left">
           <div class="banner-container">
             <div class="banner-content-wrapper banner-content-right">
               <h1 class="banner-title promo-lbl">All For Dad</h1>
               <p class="banner-content color-nightsky">Integer posuere erat a ante venenatis dapibus posuere</p>
               <div class="std-txt std-txt-XS mrg-M">reg $20-$70 <a href="javascript:void(0);">see details</a></div>
               <div class="dropdown-container">
-                <a href="javascript:void(0)" class="elevation title title-S mrg-top-S">PRIMARY CTA</a>
+                <a href="javascript:void(0)" class="elevation title title-S mrg-top-S text-center">PRIMARY CTA</a>
               </div>
             </div>
           </div>
         </div>
-      </div>
     );
   }
 }

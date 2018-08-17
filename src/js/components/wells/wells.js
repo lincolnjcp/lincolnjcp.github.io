@@ -71,7 +71,7 @@ class Wells extends Component {
                         </div>
                         <div class="mrg-XL">
                             <div class="border-dashed"></div>
-                            <span class="fl-left title-XS protection-plan-bg-fill padding-rght-S">1 Year Limited</span>
+                            <span class="fl-left title-XS protection-plan-bg-fill pad-rght-S">1 Year Limited</span>
                             <span class="fl-right title-XS protection-plan-bg-fill padding-lft-S"><em>Included</em></span>
                         </div>
                         <div class="title-S mrg-S mrg-top-M">
@@ -80,12 +80,12 @@ class Wells extends Component {
                         </div>
                         <div class="mrg-L">
                             <div class="border-dashed"></div>
-                            <span class="fl-left title-XS protection-plan-bg-fill padding-rght-S">Appliance Installation</span>
+                            <span class="fl-left title-XS protection-plan-bg-fill pad-rght-S">Appliance Installation</span>
                             <span class="fl-right title-XS protection-plan-bg-fill padding-lft-S"><a href="javascript:void(0);">Show Details</a></span>
                         </div>
                         <div class="mrg-XL">
                             <div class="border-dashed"></div>
-                            <span class="fl-left title-XS protection-plan-bg-fill padding-rght-S">Reinforced Hose</span>
+                            <span class="fl-left title-XS protection-plan-bg-fill pad-rght-S">Reinforced Hose</span>
                             <span class="fl-right title-XS protection-plan-bg-fill padding-lft-S"><em>$9.99</em></span>
                         </div>
                         <div class="mrg-L protection-plan-price">

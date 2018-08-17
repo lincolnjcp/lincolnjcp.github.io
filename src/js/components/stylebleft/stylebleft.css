@@ -22,7 +22,6 @@
         }
         & .banner-content-wrapper {
             width: 448px;
-            /* height: 256px; */
             background-color: rgba(255, 255, 255, 0.8);
             border: solid 6px #103f68;
             position: relative;
@@ -55,6 +54,7 @@
                 }
             }
             & .banner-content {
+                font-weight: 400;
                 font-size: 24px;
                 @media (--viewport-md-down) {
                     font-size: 20px;
@@ -62,6 +62,14 @@
                 @media (--viewport-sm-down) {
                     font-size: 14px;
                     line-height: normal;
+                }
+            }
+            & .banner-title {
+                @media (--viewport-md-down) {
+                    font-size: 32px;
+                }
+                @media (--viewport-sm-down) {
+                    font-size: 20px;
                 }
             }
             & .dropdown-container {
@@ -79,7 +87,6 @@
                     border-radius: 8px;
                     box-shadow: 0 2px 4px 0 rgba(17, 17, 17, 0.25);
                     display: block;
-                    text-align: center;
                     line-height: 36px;
                     text-decoration: none;
                     background: var(--color-white);
@@ -104,7 +111,7 @@
                     & .icon {
                         position: absolute;
                         right: 0;
-                        top: 3px;
+                        top: 18px;
                         & svg {
                             width: 16px;
                             height: 16px;
@@ -155,7 +162,6 @@
                         text-decoration: none;
                         display: block;
                         font-family: var(--font-headline);
-                        font-size: 14px;
                         text-align: center;
                         transition: all .25s linear;
                         &:hover {
@@ -178,13 +184,20 @@
                 }
             }
             & .banner-content-centre {
-                text-align: center;
                 margin: 0 auto;
                 border-color: #ff4038;
                 & .dropdown-container {
                     margin: 0 auto;
                 }
             }
+        }
+    }
+}
+
+.styleb-content {
+    & .banner-container {
+        & .banner-content-wrapper {
+            padding: 34px 14px 24px 28px;
         }
     }
 }

@@ -36,20 +36,17 @@ class styleCMultipleCTA extends Component {
 
   render() {
     return (
-      <div>
-        {/* <p class="S"><br />
-          <a href="javascript:void(0);" id="HideDesignSystem">Hide Design System Wrapper</a>
-        </p> */}
-
-
-        <div class="stylec">
-          <div class="banner-container">
-            <a class="banner-image" href="javascript:void(0)">
-              <img src="../../images/design-system/image-story-2.png"/>
-            </a>
-            <div class="promo-content">
-              <h3 class="promo-title promo-lbl promo-lbl-XL-S">Up To 60% OFF</h3>
-              <h4 class="std-txt std-txt-XL std-txt-S-at-S mrgn-XS mrgn-XS-at-M mrgn-ST-at-S mrgn-XS-at-XS">XERSION ACTIVEWEAR FOR THE FAMILY</h4>
+      <div class="stylec">
+        <div class="banner-container">
+          <div class="sm12 lg12 md12 xl12 xxl12 nopad">
+            <div class="sm12 lg6 md6 xl6 xxl6 nopad">
+              <a class="banner-image fl-left" href="javascript:void(0)">
+                <img src="../../images/design-system/image-story-2.png" alt="productImg" />
+              </a>
+            </div>
+            <div class="promo-content sm12 lg6 md6 xl6 xxl6 nopad-sm mrg-top-XL pad-lft-L">
+              <h3 class="promo-title promo-lbl promo-lbl-XL-S pad-top-S">Up To 60% OFF</h3>
+              <h4 class="std-txt std-txt-XL std-txt-S-at-S mrgn-XS mrgn-XXS-at-M mrgn-ST-at-S mrgn-XS-at-XS">XERSION ACTIVEWEAR FOR THE FAMILY</h4>
               <p class="std-txt std-txt-XS nopad">reg $20 - $70 <a href="#" class="mrg-lft-S">see details</a></p>
               <ul class="promo-links mrg-top-M std-txt std-txt-M std-txt-XS-at-S">
                 <li><a href="#">Women</a></li>

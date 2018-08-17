@@ -646,39 +646,39 @@ class styleAWithoutButton extends Component {
 				<div class="container without-button">
 					<div id="slides">
 						<div class="dynamic-banner color-white text-center">
-							<h1 class="promo-lbl color-white">40% Off Orders $40+</h1>
-							<div class="promo-description mrg-S">
+							<h1 class="color-white promo-lbl">40% Off Orders $40+</h1>
+							<div class="promo-description">
 								<span>with code</span>
-								<span class="promo-code">SAVE27 </span>
-								<span class="promo-end">Online & Instore. Ends 07/24. </span>
-								<span class="promo-cta"><a href="javascript:void(0)">see details</a></span>
+								<span class="txt-bold"> SAVE27 </span>
+								<span class="promo-lbl promo-lbl-S-to-S color-white txt-regular">Online & Instore. Ends 07/24. </span>
+								<span class="std-txt std-txt-XS"><a href="javascript:void(0)" class="color-white txt-regular"> see details</a></span>
 							</div>
 						</div>
 						<div class="dynamic-banner color-white text-center">
 							<h1 class="promo-lbl color-white">50% Off Orders $40+</h1>
 							<div class="promo-description mrg-S">
-								<span>with code</span>
-								<span class="promo-code">SAVE27 </span>
-								<span class="promo-end">Online & Instore. Ends 07/24. </span>
-								<span class="promo-cta"><a href="javascript:void(0)">see details</a></span>
+							<span>with code</span>
+							<span class="txt-bold"> SAVE27 </span>
+							<span class="promo-lbl promo-lbl-S-to-S color-white txt-regular">Online & Instore. Ends 07/24. </span>
+							<span class="std-txt std-txt-XS"><a href="javascript:void(0)" class="color-white txt-regular"> see details</a></span>
 							</div>
 						</div>
 						<div class="dynamic-banner color-white text-center">
 							<h1 class="promo-lbl color-white">60% Off Orders $40+</h1>
 							<div class="promo-description mrg-S">
-								<span>with code</span>
-								<span class="promo-code">SAVE27 </span>
-								<span class="promo-end">Online & Instore. Ends 07/24. </span>
-								<span class="promo-cta"><a href="javascript:void(0)">see details</a></span>
+							<span>with code</span>
+							<span class="txt-bold"> SAVE27 </span>
+							<span class="promo-lbl promo-lbl-S-to-S color-white txt-regular">Online & Instore. Ends 07/24. </span>
+							<span class="std-txt std-txt-XS"><a href="javascript:void(0)" class="color-white txt-regular"> see details</a></span>
 							</div>
 						</div>
 						<div class="dynamic-banner color-white text-center">
 							<h1 class="promo-lbl color-white">70% Off Orders $40+</h1>
 							<div class="promo-description mrg-S">
-								<span>with code</span>
-								<span class="promo-code">SAVE27 </span>
-								<span class="promo-end">Online & Instore. Ends 07/24. </span>
-								<span class="promo-cta"><a href="javascript:void(0)">see details</a></span>
+							<span>with code</span>
+							<span class="txt-bold"> SAVE27 </span>
+							<span class="promo-lbl promo-lbl-S-to-S color-white txt-regular">Online & Instore. Ends 07/24. </span>
+							<span class="std-txt std-txt-XS"><a href="javascript:void(0)" class="color-white txt-regular"> see details</a></span>
 							</div>
 						</div>
 					</div>

@@ -36,28 +36,23 @@ class styleDMultipleCTA extends Component {
 
   render() {
     return (
-      <div>
-        {/* <p class="S"><br />
-          <a href="javascript:void(0);" id="HideDesignSystem">Hide Design System Wrapper</a>
-        </p> */}
-
-
-        <div class="styled">
-          <div class="banner-container">
-            <a class="banner-image" href="javascript:void(0)">
-              <div class="img-mask">
-                <img src="../../images/design-system/image-story-4.png" />
-              </div>
-            </a>
-            <div class="promo-content">
-              <h3 class="promo-title promo-lbl promo-lbl-XL-S">Back To School</h3>
-              <h4 class="promo-sub-title std-txt std-txt-M std-txt-S-at-S">EVERYTHING YOU NEED TO ACE THE YEAR <br />with code: <span class="promo-code">7GOSHOP</span></h4>
-              <p class="promo-details std-txt std-txt-XS mrg-top-M mrgn-ST-at-S">select styles <a href="#" class="mrg-lft-S">see details</a></p>
+      <div class="styled">
+        <div class="banner-container">
+          <div class="sm12 lg12 md12 xl12 xxl12 nopad">
+            <div class="sm12 lg12 md12 xl12 xxl12 nopad">
+              <a class="banner-image fl-left" href="javascript:void(0)">
+                <img src="../../images/design-system/image-story-4.png" alt="productImg" />
+              </a>
+            </div>
+            <div class="promo-content sm12 lg12 md12 xl12 xxl12 nopad-sm nopad-md">
+              <h3 class="promo-lbl promo-lbl-XL-S mrg-top-M">Back To School</h3>
+              <h4 class="std-txt std-txt-M std-txt-S-at-S">EVERYTHING YOU NEED TO ACE THE YEAR <br />with code: <span class="promo-code txt-bold">7GOSHOP</span></h4>
+              <p class="std-txt std-txt-XS mrg-top-M mrgn-ST-at-S">select styles <a href="#" class="mrg-lft-S">see details</a></p>
               <div class="promo-links mrg-top-M">
-                <a href="javascript:void();" role="button" class="btn btn-secondary btn-S txt-bold">Juniors</a>
-                <a href="javascript:void();" role="button" class="btn btn-secondary btn-S txt-bold">Guys</a>
-                <a href="javascript:void();" role="button" class="btn btn-secondary btn-S txt-bold">Kids</a>
-                <a href="javascript:void();" role="button" class="btn btn-secondary btn-S txt-bold">Shop All</a>
+                <a href="javascript:void();" role="button" class="btn btn-secondary btn-S mrg-M-at-M">Juniors</a>
+                <a href="javascript:void();" role="button" class="btn btn-secondary btn-S mrg-M-at-M">Guys</a>
+                <a href="javascript:void();" role="button" class="btn btn-secondary btn-S mrg-M-at-M">Kids</a>
+                <a href="javascript:void();" role="button" class="btn btn-secondary btn-S mrg-M-at-M">Shop All</a>
               </div>
             </div>
           </div>
