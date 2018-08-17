@@ -650,8 +650,8 @@ class styleAWithButton extends Component {
 
 				<div class="container">
 					<div id="slides">
-						<div class="dynamic-banner color-white text-center">
-							<h1 class="color-white promo-lbl">40% Off Orders $40+</h1>
+					<div class="dynamic-banner color-white text-center">
+							<h1 class="color-white promo-lbl">50% Off Orders $40+</h1>
 							<div class="promo-description">
 								<span>with code</span>
 								<span class="txt-bold">SAVE27 </span>

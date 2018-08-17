@@ -39,10 +39,10 @@ class HomepageLayout extends Component {
                         <div class="sm12 lg4 xl4 xxl4">
                             <StyleDMultipleCTA />
                         </div>
-                        <div class="sm12 lg4 xl4 xxl4">
+                        <div class="sm12 lg4 xl4 xxl4 mrgn-XXS-at-M">
                             <StyleDSingleCTA />
                         </div>
-                        <div class="sm12 lg4 xl4 xxl4">
+                        <div class="sm12 lg4 xl4 xxl4 mrgn-XXS-at-M">
                             <StyleDMultipleCTA />
                         </div>
                     </div>

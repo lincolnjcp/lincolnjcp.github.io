@@ -20,9 +20,14 @@
             padding: 0;
         }
         & .stylec-right-aligned {
-            & .promo-content {
-                text-align: right;
-                padding-bottom: 16px !important;
+            & .banner-container {
+                & .cta-multi {
+                    float: right;
+                }
+                & .promo-content {
+                    text-align: right;
+                    padding-bottom: 16px !important;
+                }
             }
         }
     }
@@ -54,7 +59,5 @@
                 padding-bottom: 16px !important;
             }
     }
-    & .sm12 {
-        padding: 0;
-    }
+
 }

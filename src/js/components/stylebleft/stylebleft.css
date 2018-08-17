@@ -193,11 +193,12 @@
         }
     }
 }
-
-.styleb-content {
-    & .banner-container {
-        & .banner-content-wrapper {
-            padding: 34px 14px 24px 28px;
+@media (--viewport-md-up) {
+    .styleb-content {
+        & .banner-container {
+            & .banner-content-wrapper {
+                padding: 34px 14px 24px 28px;
+            }
         }
     }
 }
