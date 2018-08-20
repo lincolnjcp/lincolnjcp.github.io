@@ -38,13 +38,13 @@ class styleDMultipleCTA extends Component {
     return (
       <div class="styled">
         <div class="banner-container">
-          <div class="sm12 lg12 md12 xl12 xxl12 nopad">
-            <div class="sm12 lg12 md12 xl12 xxl12 nopad">
+          <div class="sm12 lg12 md12 xl12 xxl12 nopad-sm">
+            <div class="sm12 lg12 md12 xl12 xxl12 nopad-sm">
               <a class="banner-image fl-left" href="javascript:void(0)">
                 <img src="../../images/design-system/image-story-4.png" alt="productImg" />
               </a>
             </div>
-            <div class="promo-description sm12 lg12 md12 xl12 xxl12 nopad-sm nopad-md">
+            <div class="promo-description sm12 lg12 md12 xl12 xxl12 nopad">
               <h1 class="promo-title promo-lbl mrg-top-M">Back To School</h1>
               <h4 class="promo-content std-txt">EVERYTHING YOU NEED TO ACE THE YEAR <br />with code: <span class="promo-code txt-bold">7GOSHOP</span></h4>
               <p class="std-txt std-txt-XS mrg-top-M mrg-XXXS-at-S">select styles <a href="#" class="mrg-lft-S">see details</a></p>

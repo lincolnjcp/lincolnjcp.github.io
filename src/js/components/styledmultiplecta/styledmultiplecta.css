@@ -71,7 +71,7 @@
                 }
 
                 & .btn {
-                    width: 152px;
+                    width: 47%;
                     font-weight: 700;
                     margin: 8px 0 8px 8px;
 
@@ -84,6 +84,7 @@
                             margin-right: 0;
                         }
                         width: 47%;
+                        margin-bottom: 16px !important;
                     }
                 }
             }
@@ -114,8 +115,10 @@
             & .promo-links {
                 & .btn {
                     width: 100%;
+                    margin: 0;
                     @media(--viewport-sm-down){
                         width: 97%;
+                        margin-bottom: 32px !important;
                     }
                 }
         }

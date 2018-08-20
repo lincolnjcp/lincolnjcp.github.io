@@ -36,13 +36,13 @@ class HomepageLayout extends Component {
                         </div>
                     </div>
                     <div class="styled-banner mrg-L mrg-M-at-M mrg-S-at-XS">
-                        <div class="sm12 lg4 xl4 xxl4">
+                        <div class="sm12 lg4 xl4 xxl4 nopad-sm">
                             <StyleDMultipleCTA />
                         </div>
-                        <div class="sm12 lg4 xl4 xxl4 mrg-XXS-at-M nopad">
+                        <div class="sm12 lg4 xl4 xxl4 mrg-XXS-at-M nopad-sm">
                             <StyleDSingleCTA />
                         </div>
-                        <div class="sm12 lg4 xl4 xxl4 mrg-XXS-at-M nopad">
+                        <div class="sm12 lg4 xl4 xxl4 mrg-XXS-at-M nopad-sm">
                             <StyleDMultipleCTA />
                         </div>
                     </div>
