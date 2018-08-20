@@ -157,18 +157,18 @@ class FilterSort extends Component {
 
       <div>
         <div class="columns">
-          <h1 class="title title-XXL mrg-XL sm12">Filter & Sort</h1><br /><br />
+          <h1 class="title title-XXL mrg-btm-XL sm12">Filter & Sort</h1><br /><br />
 
           <div class="filter-left-block fl-left show-for-large-only show-for-xlarge-only">
-            <h2 class="title title-XL title title-XL mrg-XXL hide-for-small-only hide-for-medium-only">Filter By</h2>
+            <h2 class="title title-XL title title-XL mrg-btm-XXL hide-for-small-only hide-for-medium-only">Filter By</h2>
             <div class="column">
               <div class="input-group">
 
-                <label class="checkbox mrg-M">
+                <label class="checkbox mrg-btm-M">
                   <input type="checkbox" /> <span>Online Only</span> <span class="fl-right std-txt std-txt-M">(55)</span>
                 </label>
 
-                <label class="checkbox mrg-M">
+                <label class="checkbox mrg-btm-M">
                   <input type="checkbox" defaultChecked="true" /> <span><p class="title title-M filter-ellipsis"><span class="color-penneyred">FREE</span> Same Day Pickup</p></span><span class="fl-right std-txt std-txt-M">(55)</span>
                 </label>
               </div>
@@ -184,80 +184,35 @@ class FilterSort extends Component {
                         <input type="text" id="search" name="focus" placeholder="Search Item Type" required="" class="input-text placeholder-text"/>
                         </div>
                         <li class="dropdown-list">
-                          <label class="checkbox mrg-M" >
+                          <label class="checkbox mrg-btm-M" >
                             <input type="checkbox" defaultChecked="" />
                             <span class="left">label</span>
                             <span class="fl-right std-txt">(1,008)</span>
                           </label>
                         </li>
                         <li class="dropdown-list">
-                          <label class="checkbox mrg-M">
+                          <label class="checkbox mrg-btm-M">
                             <input type="checkbox" defaultChecked="" />
                             <span class="left">label</span>
                             <span class="fl-right std-txt">(1,008)</span>
                           </label>
                         </li>
                         <li class="dropdown-list">
-                          <label class="checkbox mrg-M">
+                          <label class="checkbox mrg-btm-M">
                             <input type="checkbox" defaultChecked="" />
                             <span class="left">label</span>
                             <span class="fl-right std-txt">(1,008)</span>
                           </label>
                         </li>
                         <li class="dropdown-list">
-                          <label class="checkbox mrg-M">
+                          <label class="checkbox mrg-btm-M">
                             <input type="checkbox" defaultChecked="" />
                             <span class="left">label</span>
                             <span class="fl-right std-txt">(1,008)</span>
                           </label>
                         </li>
                         <li class="dropdown-list">
-                          <label class="checkbox mrg-M">
-                            <input type="checkbox" defaultChecked="" />
-                            <span class="left">label</span>
-                            <span class="fl-right std-txt">(1,008)</span>
-                          </label>
-                        </li>
-                      </ul>
-                    </dd>
-                    <dt aria-expanded="false" aria-controls="accordion1" >
-                      <a href="#accordion1" class="accordion-title accordionTitle js-accordionTrigger">Accordion Title</a>
-                    </dt>
-                    <dd class="accordion-content accordionItem is-collapsed" id="accordion1" aria-hidden="true">
-                      <ul class="mrg-lft-M">
-                        <div class="search-type">
-                        <input type="text" id="search" name="focus" placeholder="Search Item Type" required="" class="input-text placeholder-text"/>
-                        </div>
-                        <li class="dropdown-list">
-                          <label class="checkbox mrg-M" >
-                            <input type="checkbox" defaultChecked="" />
-                            <span class="left">label</span>
-                            <span class="fl-right std-txt">(1,008)</span>
-                          </label>
-                        </li>
-                        <li class="dropdown-list">
-                          <label class="checkbox mrg-M">
-                            <input type="checkbox" defaultChecked="" />
-                            <span class="left">label</span>
-                            <span class="fl-right std-txt">(1,008)</span>
-                          </label>
-                        </li>
-                        <li class="dropdown-list">
-                          <label class="checkbox mrg-M">
-                            <input type="checkbox" defaultChecked="" />
-                            <span class="left">label</span>
-                            <span class="fl-right std-txt">(1,008)</span>
-                          </label>
-                        </li>
-                        <li class="dropdown-list">
-                          <label class="checkbox mrg-M">
-                            <input type="checkbox" defaultChecked="" />
-                            <span class="left">label</span>
-                            <span class="fl-right std-txt">(1,008)</span>
-                          </label>
-                        </li>
-                        <li class="dropdown-list">
-                          <label class="checkbox mrg-M">
+                          <label class="checkbox mrg-btm-M">
                             <input type="checkbox" defaultChecked="" />
                             <span class="left">label</span>
                             <span class="fl-right std-txt">(1,008)</span>
@@ -274,35 +229,80 @@ class FilterSort extends Component {
                         <input type="text" id="search" name="focus" placeholder="Search Item Type" required="" class="input-text placeholder-text"/>
                         </div>
                         <li class="dropdown-list">
-                          <label class="checkbox mrg-M" >
+                          <label class="checkbox mrg-btm-M" >
                             <input type="checkbox" defaultChecked="" />
                             <span class="left">label</span>
                             <span class="fl-right std-txt">(1,008)</span>
                           </label>
                         </li>
                         <li class="dropdown-list">
-                          <label class="checkbox mrg-M">
+                          <label class="checkbox mrg-btm-M">
                             <input type="checkbox" defaultChecked="" />
                             <span class="left">label</span>
                             <span class="fl-right std-txt">(1,008)</span>
                           </label>
                         </li>
                         <li class="dropdown-list">
-                          <label class="checkbox mrg-M">
+                          <label class="checkbox mrg-btm-M">
                             <input type="checkbox" defaultChecked="" />
                             <span class="left">label</span>
                             <span class="fl-right std-txt">(1,008)</span>
                           </label>
                         </li>
                         <li class="dropdown-list">
-                          <label class="checkbox mrg-M">
+                          <label class="checkbox mrg-btm-M">
                             <input type="checkbox" defaultChecked="" />
                             <span class="left">label</span>
                             <span class="fl-right std-txt">(1,008)</span>
                           </label>
                         </li>
                         <li class="dropdown-list">
-                          <label class="checkbox mrg-M">
+                          <label class="checkbox mrg-btm-M">
+                            <input type="checkbox" defaultChecked="" />
+                            <span class="left">label</span>
+                            <span class="fl-right std-txt">(1,008)</span>
+                          </label>
+                        </li>
+                      </ul>
+                    </dd>
+                    <dt aria-expanded="false" aria-controls="accordion1" >
+                      <a href="#accordion1" class="accordion-title accordionTitle js-accordionTrigger">Accordion Title</a>
+                    </dt>
+                    <dd class="accordion-content accordionItem is-collapsed" id="accordion1" aria-hidden="true">
+                      <ul class="mrg-lft-M">
+                        <div class="search-type">
+                        <input type="text" id="search" name="focus" placeholder="Search Item Type" required="" class="input-text placeholder-text"/>
+                        </div>
+                        <li class="dropdown-list">
+                          <label class="checkbox mrg-btm-M" >
+                            <input type="checkbox" defaultChecked="" />
+                            <span class="left">label</span>
+                            <span class="fl-right std-txt">(1,008)</span>
+                          </label>
+                        </li>
+                        <li class="dropdown-list">
+                          <label class="checkbox mrg-btm-M">
+                            <input type="checkbox" defaultChecked="" />
+                            <span class="left">label</span>
+                            <span class="fl-right std-txt">(1,008)</span>
+                          </label>
+                        </li>
+                        <li class="dropdown-list">
+                          <label class="checkbox mrg-btm-M">
+                            <input type="checkbox" defaultChecked="" />
+                            <span class="left">label</span>
+                            <span class="fl-right std-txt">(1,008)</span>
+                          </label>
+                        </li>
+                        <li class="dropdown-list">
+                          <label class="checkbox mrg-btm-M">
+                            <input type="checkbox" defaultChecked="" />
+                            <span class="left">label</span>
+                            <span class="fl-right std-txt">(1,008)</span>
+                          </label>
+                        </li>
+                        <li class="dropdown-list">
+                          <label class="checkbox mrg-btm-M">
                             <input type="checkbox" defaultChecked="" />
                             <span class="left">label</span>
                             <span class="fl-right std-txt">(1,008)</span>
@@ -319,35 +319,35 @@ class FilterSort extends Component {
                         <input type="text" id="search" name="focus" placeholder="Search Item Type" required="" class="input-text placeholder-text"/>
                         </div>
                         <li class="dropdown-list">
-                          <label class="checkbox mrg-M" >
+                          <label class="checkbox mrg-btm-M" >
                             <input type="checkbox" defaultChecked="" />
                             <span class="left">label</span>
                             <span class="fl-right std-txt">(1,008)</span>
                           </label>
                         </li>
                         <li class="dropdown-list">
-                          <label class="checkbox mrg-M">
+                          <label class="checkbox mrg-btm-M">
                             <input type="checkbox" defaultChecked="" />
                             <span class="left">label</span>
                             <span class="fl-right std-txt">(1,008)</span>
                           </label>
                         </li>
                         <li class="dropdown-list">
-                          <label class="checkbox mrg-M">
+                          <label class="checkbox mrg-btm-M">
                             <input type="checkbox" defaultChecked="" />
                             <span class="left">label</span>
                             <span class="fl-right std-txt">(1,008)</span>
                           </label>
                         </li>
                         <li class="dropdown-list">
-                          <label class="checkbox mrg-M">
+                          <label class="checkbox mrg-btm-M">
                             <input type="checkbox" defaultChecked="" />
                             <span class="left">label</span>
                             <span class="fl-right std-txt">(1,008)</span>
                           </label>
                         </li>
                         <li class="dropdown-list">
-                          <label class="checkbox mrg-M">
+                          <label class="checkbox mrg-btm-M">
                             <input type="checkbox" defaultChecked="" />
                             <span class="left">label</span>
                             <span class="fl-right std-txt">(1,008)</span>
@@ -375,11 +375,11 @@ class FilterSort extends Component {
                   <div class="column">
                     <div class="input-group">
 
-                      <label class="checkbox mrg-M">
+                      <label class="checkbox mrg-btm-M">
                         <input type="checkbox" /> <span>Online Only</span> <span class="fl-right std-txt std-txt-M">(55)</span>
                       </label>
 
-                      <label class="checkbox mrg-M">
+                      <label class="checkbox mrg-btm-M">
                         <input type="checkbox" defaultChecked="true" /> <span><p class="title title-M"><span class="color-penneyred">FREE</span> Same Day Pickup</p></span><span class="fl-right std-txt std-txt-M">(55)</span>
                       </label>
                     </div>
@@ -391,7 +391,7 @@ class FilterSort extends Component {
                           </dt>
                           <dd class="accordion-content accordionItem is-collapsed" id="accordion1" aria-hidden="true">
                             <ul class="mrg-lft-M">
-                            <div class="lg12 xl12 md12 sm12 mrg-L filter-tags nopad-sm nopad-md">
+                            <div class="lg12 xl12 md12 sm12 mrg-btm-L filter-tags nopad-sm nopad-md">
                               <div class="tags std-txt std-txt-S">
                               <span class="tag-title">Filter</span><a href="javascript:void(0)" class="icon nopad-sm nopad-md" dangerouslySetInnerHTML={{ __html: clearImage }} />
                               </div>
@@ -403,80 +403,35 @@ class FilterSort extends Component {
                               <input type="text" id="search" name="focus" placeholder="Search Item Type" required="" class="input-text placeholder-text"/>
                               </div>
                               <li class="dropdown-list">
-                                <label class="checkbox mrg-M" >
+                                <label class="checkbox mrg-btm-M" >
                                   <input type="checkbox" defaultChecked="true" />
                                   <span class="left">label</span>
                                   <span class="fl-right std-txt">(1,008)</span>
                                 </label>
                               </li>
                               <li class="dropdown-list">
-                                <label class="checkbox mrg-M">
+                                <label class="checkbox mrg-btm-M">
                                   <input type="checkbox" defaultChecked="true" />
                                   <span class="left">label</span>
                                   <span class="fl-right std-txt">(1,008)</span>
                                 </label>
                               </li>
                               <li class="dropdown-list">
-                                <label class="checkbox mrg-M">
+                                <label class="checkbox mrg-btm-M">
                                   <input type="checkbox" defaultChecked="" />
                                   <span class="left">label</span>
                                   <span class="fl-right std-txt">(1,008)</span>
                                 </label>
                               </li>
                               <li class="dropdown-list">
-                                <label class="checkbox mrg-M">
+                                <label class="checkbox mrg-btm-M">
                                   <input type="checkbox" defaultChecked="" />
                                   <span class="left">label</span>
                                   <span class="fl-right std-txt">(1,008)</span>
                                 </label>
                               </li>
                               <li class="dropdown-list">
-                                <label class="checkbox mrg-M">
-                                  <input type="checkbox" defaultChecked="" />
-                                  <span class="left">label</span>
-                                  <span class="fl-right std-txt">(1,008)</span>
-                                </label>
-                              </li>
-                            </ul>
-                          </dd>
-                          <dt aria-expanded="false" aria-controls="accordion1">
-                            <a href="#accordion1" class="accordion-title accordionTitle js-accordionTrigger">Accordion Title</a>
-                          </dt>
-                          <dd class="accordion-content accordionItem is-collapsed" id="accordion1" aria-hidden="true">
-                            <ul class="mrg-lft-M">
-                              <div class="search-type">
-                              <input type="text" id="search" name="focus" placeholder="Search Item Type" required="" class="input-text placeholder-text"/>
-                              </div>
-                              <li class="dropdown-list">
-                                <label class="checkbox mrg-M" >
-                                  <input type="checkbox" defaultChecked="" />
-                                  <span class="left">label</span>
-                                  <span class="fl-right std-txt">(1,008)</span>
-                                </label>
-                              </li>
-                              <li class="dropdown-list">
-                                <label class="checkbox mrg-M">
-                                  <input type="checkbox" defaultChecked="" />
-                                  <span class="left">label</span>
-                                  <span class="fl-right std-txt">(1,008)</span>
-                                </label>
-                              </li>
-                              <li class="dropdown-list">
-                                <label class="checkbox mrg-M">
-                                  <input type="checkbox" defaultChecked="" />
-                                  <span class="left">label</span>
-                                  <span class="fl-right std-txt">(1,008)</span>
-                                </label>
-                              </li>
-                              <li class="dropdown-list">
-                                <label class="checkbox mrg-M">
-                                  <input type="checkbox" defaultChecked="" />
-                                  <span class="left">label</span>
-                                  <span class="fl-right std-txt">(1,008)</span>
-                                </label>
-                              </li>
-                              <li class="dropdown-list">
-                                <label class="checkbox mrg-M">
+                                <label class="checkbox mrg-btm-M">
                                   <input type="checkbox" defaultChecked="" />
                                   <span class="left">label</span>
                                   <span class="fl-right std-txt">(1,008)</span>
@@ -493,35 +448,35 @@ class FilterSort extends Component {
                               <input type="text" id="search" name="focus" placeholder="Search Item Type" required="" class="input-text placeholder-text"/>
                               </div>
                               <li class="dropdown-list">
-                                <label class="checkbox mrg-M" >
+                                <label class="checkbox mrg-btm-M" >
                                   <input type="checkbox" defaultChecked="" />
                                   <span class="left">label</span>
                                   <span class="fl-right std-txt">(1,008)</span>
                                 </label>
                               </li>
                               <li class="dropdown-list">
-                                <label class="checkbox mrg-M">
+                                <label class="checkbox mrg-btm-M">
                                   <input type="checkbox" defaultChecked="" />
                                   <span class="left">label</span>
                                   <span class="fl-right std-txt">(1,008)</span>
                                 </label>
                               </li>
                               <li class="dropdown-list">
-                                <label class="checkbox mrg-M">
+                                <label class="checkbox mrg-btm-M">
                                   <input type="checkbox" defaultChecked="" />
                                   <span class="left">label</span>
                                   <span class="fl-right std-txt">(1,008)</span>
                                 </label>
                               </li>
                               <li class="dropdown-list">
-                                <label class="checkbox mrg-M">
+                                <label class="checkbox mrg-btm-M">
                                   <input type="checkbox" defaultChecked="" />
                                   <span class="left">label</span>
                                   <span class="fl-right std-txt">(1,008)</span>
                                 </label>
                               </li>
                               <li class="dropdown-list">
-                                <label class="checkbox mrg-M">
+                                <label class="checkbox mrg-btm-M">
                                   <input type="checkbox" defaultChecked="" />
                                   <span class="left">label</span>
                                   <span class="fl-right std-txt">(1,008)</span>
@@ -538,35 +493,80 @@ class FilterSort extends Component {
                               <input type="text" id="search" name="focus" placeholder="Search Item Type" required="" class="input-text placeholder-text"/>
                               </div>
                               <li class="dropdown-list">
-                                <label class="checkbox mrg-M" >
+                                <label class="checkbox mrg-btm-M" >
                                   <input type="checkbox" defaultChecked="" />
                                   <span class="left">label</span>
                                   <span class="fl-right std-txt">(1,008)</span>
                                 </label>
                               </li>
                               <li class="dropdown-list">
-                                <label class="checkbox mrg-M">
+                                <label class="checkbox mrg-btm-M">
                                   <input type="checkbox" defaultChecked="" />
                                   <span class="left">label</span>
                                   <span class="fl-right std-txt">(1,008)</span>
                                 </label>
                               </li>
                               <li class="dropdown-list">
-                                <label class="checkbox mrg-M">
+                                <label class="checkbox mrg-btm-M">
                                   <input type="checkbox" defaultChecked="" />
                                   <span class="left">label</span>
                                   <span class="fl-right std-txt">(1,008)</span>
                                 </label>
                               </li>
                               <li class="dropdown-list">
-                                <label class="checkbox mrg-M">
+                                <label class="checkbox mrg-btm-M">
                                   <input type="checkbox" defaultChecked="" />
                                   <span class="left">label</span>
                                   <span class="fl-right std-txt">(1,008)</span>
                                 </label>
                               </li>
                               <li class="dropdown-list">
-                                <label class="checkbox mrg-M">
+                                <label class="checkbox mrg-btm-M">
+                                  <input type="checkbox" defaultChecked="" />
+                                  <span class="left">label</span>
+                                  <span class="fl-right std-txt">(1,008)</span>
+                                </label>
+                              </li>
+                            </ul>
+                          </dd>
+                          <dt aria-expanded="false" aria-controls="accordion1">
+                            <a href="#accordion1" class="accordion-title accordionTitle js-accordionTrigger">Accordion Title</a>
+                          </dt>
+                          <dd class="accordion-content accordionItem is-collapsed" id="accordion1" aria-hidden="true">
+                            <ul class="mrg-lft-M">
+                              <div class="search-type">
+                              <input type="text" id="search" name="focus" placeholder="Search Item Type" required="" class="input-text placeholder-text"/>
+                              </div>
+                              <li class="dropdown-list">
+                                <label class="checkbox mrg-btm-M" >
+                                  <input type="checkbox" defaultChecked="" />
+                                  <span class="left">label</span>
+                                  <span class="fl-right std-txt">(1,008)</span>
+                                </label>
+                              </li>
+                              <li class="dropdown-list">
+                                <label class="checkbox mrg-btm-M">
+                                  <input type="checkbox" defaultChecked="" />
+                                  <span class="left">label</span>
+                                  <span class="fl-right std-txt">(1,008)</span>
+                                </label>
+                              </li>
+                              <li class="dropdown-list">
+                                <label class="checkbox mrg-btm-M">
+                                  <input type="checkbox" defaultChecked="" />
+                                  <span class="left">label</span>
+                                  <span class="fl-right std-txt">(1,008)</span>
+                                </label>
+                              </li>
+                              <li class="dropdown-list">
+                                <label class="checkbox mrg-btm-M">
+                                  <input type="checkbox" defaultChecked="" />
+                                  <span class="left">label</span>
+                                  <span class="fl-right std-txt">(1,008)</span>
+                                </label>
+                              </li>
+                              <li class="dropdown-list">
+                                <label class="checkbox mrg-btm-M">
                                   <input type="checkbox" defaultChecked="" />
                                   <span class="left">label</span>
                                   <span class="fl-right std-txt">(1,008)</span>
@@ -606,7 +606,7 @@ class FilterSort extends Component {
 
           <div class="product-gallery-block fl-left md12 sm12 lg9">
 
-            <div class="pos-rel fl-left hide-for-large-only hide-for-xlarge-only md12 mrg-S">
+            <div class="pos-rel fl-left hide-for-large-only hide-for-xlarge-only md12 mrg-btm-S">
               <div class="fl-left dropdown-menu-block">
                 <a class="dropdown-button title-S no-dropdown side-panel-btn" data-target="#leftPanel">Filter By <span class="sortby std-txt std-txt-S">(2)</span></a>
               </div>
@@ -851,7 +851,7 @@ class FilterSort extends Component {
 
             <div class="row">
               <div class="columns">
-              <div class="product-card-wrapper mrg-M">
+              <div class="product-card-wrapper mrg-btm-M">
                     <div class="product-card product-card-pane-grid">
                         <div class="product-card-inner">
                           <div class="product-card-image">
@@ -893,7 +893,7 @@ class FilterSort extends Component {
                               </div>
                           </div>
                           <div class="product-card-details">
-                              <div class="price price-promo mrg-XS color-penneyred">GREEN MONDAL DEAL!</div>
+                              <div class="price price-promo mrg-btm-XS color-penneyred">GREEN MONDAL DEAL!</div>
                               <div class="product-card-price">
                                 <div class="product-card-price-value price price-S mrg-rght-XS">$29.99</div>
                                 <div class="product-card-note price price-note color-penneyred">sale</div>
@@ -953,7 +953,7 @@ class FilterSort extends Component {
                               </div>
                           </div>
                           <div class="product-card-details">
-                              <div class="price price-promo mrg-XS color-penneyred">GREEN MONDAL DEAL!</div>
+                              <div class="price price-promo mrg-btm-XS color-penneyred">GREEN MONDAL DEAL!</div>
                               <div class="product-card-price">
                                 <div class="product-card-price-value price price-S mrg-rght-XS">$29.99</div>
                                 <div class="product-card-note price price-note color-penneyred">sale</div>
@@ -1013,7 +1013,7 @@ class FilterSort extends Component {
                               </div>
                           </div>
                           <div class="product-card-details">
-                              <div class="price price-promo mrg-XS color-penneyred">GREEN MONDAL DEAL!</div>
+                              <div class="price price-promo mrg-btm-XS color-penneyred">GREEN MONDAL DEAL!</div>
                               <div class="product-card-price">
                                 <div class="product-card-price-value price price-S mrg-rght-XS">$29.99</div>
                                 <div class="product-card-note price price-note color-penneyred">sale</div>
@@ -1073,7 +1073,7 @@ class FilterSort extends Component {
                               </div>
                           </div>
                           <div class="product-card-details">
-                              <div class="price price-promo mrg-XS color-penneyred">GREEN MONDAL DEAL!</div>
+                              <div class="price price-promo mrg-btm-XS color-penneyred">GREEN MONDAL DEAL!</div>
                               <div class="product-card-price">
                                 <div class="product-card-price-value price price-S mrg-rght-XS">$29.99</div>
                                 <div class="product-card-note price price-note color-penneyred">sale</div>
@@ -1131,7 +1131,7 @@ class FilterSort extends Component {
                               </div>
                           </div>
                           <div class="product-card-details">
-                              <div class="price price-promo mrg-XS color-penneyred">GREEN MONDAL DEAL!</div>
+                              <div class="price price-promo mrg-btm-XS color-penneyred">GREEN MONDAL DEAL!</div>
                               <div class="product-card-price">
                                 <div class="product-card-price-value price price-S mrg-rght-XS">$29.99</div>
                                 <div class="product-card-note price price-note color-penneyred">sale</div>
@@ -1189,7 +1189,7 @@ class FilterSort extends Component {
                               </div>
                           </div>
                           <div class="product-card-details">
-                              <div class="price price-promo mrg-XS color-penneyred">GREEN MONDAL DEAL!</div>
+                              <div class="price price-promo mrg-btm-XS color-penneyred">GREEN MONDAL DEAL!</div>
                               <div class="product-card-price">
                                 <div class="product-card-price-value price price-S mrg-rght-XS">$29.99</div>
                                 <div class="product-card-note price price-note color-penneyred">sale</div>
@@ -1247,7 +1247,7 @@ class FilterSort extends Component {
                               </div>
                           </div>
                           <div class="product-card-details">
-                              <div class="price price-promo mrg-XS color-penneyred">GREEN MONDAL DEAL!</div>
+                              <div class="price price-promo mrg-btm-XS color-penneyred">GREEN MONDAL DEAL!</div>
                               <div class="product-card-price">
                                 <div class="product-card-price-value price price-S mrg-rght-XS">$29.99</div>
                                 <div class="product-card-note price price-note color-penneyred">sale</div>
@@ -1307,7 +1307,7 @@ class FilterSort extends Component {
                               </div>
                           </div>
                           <div class="product-card-details">
-                              <div class="price price-promo mrg-XS color-penneyred">GREEN MONDAL DEAL!</div>
+                              <div class="price price-promo mrg-btm-XS color-penneyred">GREEN MONDAL DEAL!</div>
                               <div class="product-card-price">
                                 <div class="product-card-price-value price price-S mrg-rght-XS">$29.99</div>
                                 <div class="product-card-note price price-note color-penneyred">sale</div>

@@ -5,9 +5,9 @@ class CreateInput extends Component {
     // Rendering input text controls
     renderInputTextControl() {
         return (
-            <div className="row mrg-M">
+            <div className="row mrg-btm-M">
                 <div className="sm12 columns">
-                    <label htmlFor={this.props.name} className="std-txt std-txt-S mrg-S">{this.props.displayLabel}</label>
+                    <label htmlFor={this.props.name} className="std-txt std-txt-S mrg-btm-S">{this.props.displayLabel}</label>
                     <input type="text" className="form-full" name={this.props.name} defaultValue={this.props.value} />
                 </div>
             </div>
@@ -17,7 +17,7 @@ class CreateInput extends Component {
     //Rendering selection option
     renderSelectControl() {
         return (
-                <div className="row mrg-L">
+                <div className="row mrg-btm-L">
                   <div className="sm12 columns select-form">
                       <div className="sm12 columns select">
                           <div className="form-float-label">
@@ -39,9 +39,9 @@ class CreateInput extends Component {
 
     //Rendering color selection option
     renderSelectColorControl() {
-        return (<div className="row mrg-L">
+        return (<div className="row mrg-btm-L">
                   <div className="sm12 columns">
-            <label htmlFor={this.props.name} className="std-txt std-txt-S mrg-S">{this.props.displayLabel}</label>
+            <label htmlFor={this.props.name} className="std-txt std-txt-S mrg-btm-S">{this.props.displayLabel}</label>
             <div class="design-system-color-picker">
                 <span class="color-picker-icon selected"><span class="color-nightsky-bg color-picker-swatch"></span></span>
                 <span className="select select-M select-full">
@@ -62,7 +62,7 @@ class CreateInput extends Component {
     //Rendering option group control
     renderOptionGroupControl() {
         return (
-            <div className="row mrg-L">
+            <div className="row mrg-btm-L">
               <div className="sm12 columns select-form">
                   <div className="sm12 columns select">
                       <div className="form-float-label">
@@ -92,9 +92,9 @@ class CreateInput extends Component {
     //Rendering checkbox control
     renderCheckboxControl() {
         return (
-            <div className="row mrg-L">
+            <div className="row mrg-btm-L">
               <div className="sm12 columns select-form">
-                <label className="checkbox mrg-S">
+                <label className="checkbox mrg-btm-S">
                     <input type="checkbox" name={this.props.name} value={this.props.value} defaultChecked={this.props.defaultSelect} /> <span className="std-txt std-txt-S">{this.props.displayLabel}</span>
                 </label>
               </div>
@@ -104,7 +104,7 @@ class CreateInput extends Component {
 
     renderSelectPatternControl() {
         return (
-                <div className="row mrg-L">
+                <div className="row mrg-btm-L">
                   <div className="sm12 columns select-form">
                       <div className="sm12 columns select">
                           <div className="form-float-label">

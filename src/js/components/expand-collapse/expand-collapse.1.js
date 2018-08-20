@@ -69,7 +69,7 @@ class ExpandCollapse extends Component {
     return (
       <div>
         <div className="row">
-          <h1 className="title title-XL mrg-XXL">Expand / Collapse</h1>
+          <h1 className="title title-XL mrg-btm-XXL">Expand / Collapse</h1>
           <div className="xl4 lg4 md6 sm12">
             <h2 className="title title-L">Accordions: Basic</h2>
             <div className="accordion-block filter-accordion">
@@ -81,35 +81,35 @@ class ExpandCollapse extends Component {
                   <dd className="accordion-content accordionItem is-collapsed" id="accordion1" aria-hidden="true">
                     <ul className="mrg-lft-M">
                       <li className="dropdown-list">
-                        <label className="checkbox mrg-M" >
+                        <label className="checkbox mrg-btm-M" >
                           <input type="checkbox" defaultChecked="" />
                           <span className="left">label</span>
                           <span className="fl-right">(1,008)</span>
                         </label>
                       </li>
                       <li className="dropdown-list">
-                        <label className="checkbox mrg-M">
+                        <label className="checkbox mrg-btm-M">
                           <input type="checkbox" defaultChecked="" />
                           <span className="left">label</span>
                           <span className="fl-right">(1,008)</span>
                         </label>
                       </li>
                       <li className="dropdown-list">
-                        <label className="checkbox mrg-M">
+                        <label className="checkbox mrg-btm-M">
                           <input type="checkbox" defaultChecked="" />
                           <span className="left">label</span>
                           <span className="fl-right">(1,008)</span>
                         </label>
                       </li>
                       <li className="dropdown-list">
-                        <label className="checkbox mrg-M">
+                        <label className="checkbox mrg-btm-M">
                           <input type="checkbox" defaultChecked="" />
                           <span className="left">label</span>
                           <span className="fl-right">(1,008)</span>
                         </label>
                       </li>
                       <li className="dropdown-list">
-                        <label className="checkbox mrg-M">
+                        <label className="checkbox mrg-btm-M">
                           <input type="checkbox" defaultChecked="" />
                           <span className="left">label</span>
                           <span className="fl-right">(1,008)</span>
@@ -126,35 +126,35 @@ class ExpandCollapse extends Component {
                         <input type="text" placeholder="Search Item Type" />
                       </div>
                       <li className="dropdown-list">
-                        <label className="checkbox mrg-M" >
+                        <label className="checkbox mrg-btm-M" >
                           <input type="checkbox" defaultChecked="" />
                           <span className="left">label</span>
                           <span className="fl-right">(1,008)</span>
                         </label>
                       </li>
                       <li className="dropdown-list">
-                        <label className="checkbox mrg-M">
+                        <label className="checkbox mrg-btm-M">
                           <input type="checkbox" defaultChecked="" />
                           <span className="left">label</span>
                           <span className="fl-right">(1,008)</span>
                         </label>
                       </li>
                       <li className="dropdown-list">
-                        <label className="checkbox mrg-M">
+                        <label className="checkbox mrg-btm-M">
                           <input type="checkbox" defaultChecked="" />
                           <span className="left">label</span>
                           <span className="fl-right">(1,008)</span>
                         </label>
                       </li>
                       <li className="dropdown-list">
-                        <label className="checkbox mrg-M">
+                        <label className="checkbox mrg-btm-M">
                           <input type="checkbox" defaultChecked="" />
                           <span className="left">label</span>
                           <span className="fl-right">(1,008)</span>
                         </label>
                       </li>
                       <li className="dropdown-list">
-                        <label className="checkbox mrg-M">
+                        <label className="checkbox mrg-btm-M">
                           <input type="checkbox" defaultChecked="" />
                           <span className="left">label</span>
                           <span className="fl-right">(1,008)</span>
@@ -171,35 +171,35 @@ class ExpandCollapse extends Component {
                         <input type="text" placeholder="Search Item Type" />
                       </div>
                       <li className="dropdown-list">
-                        <label className="checkbox mrg-M" >
+                        <label className="checkbox mrg-btm-M" >
                           <input type="checkbox" defaultChecked="" />
                           <span className="left">label</span>
                           <span className="fl-right">(1,008)</span>
                         </label>
                       </li>
                       <li className="dropdown-list">
-                        <label className="checkbox mrg-M">
+                        <label className="checkbox mrg-btm-M">
                           <input type="checkbox" defaultChecked="" />
                           <span className="left">label</span>
                           <span className="fl-right">(1,008)</span>
                         </label>
                       </li>
                       <li className="dropdown-list">
-                        <label className="checkbox mrg-M">
+                        <label className="checkbox mrg-btm-M">
                           <input type="checkbox" defaultChecked="" />
                           <span className="left">label</span>
                           <span className="fl-right">(1,008)</span>
                         </label>
                       </li>
                       <li className="dropdown-list">
-                        <label className="checkbox mrg-M">
+                        <label className="checkbox mrg-btm-M">
                           <input type="checkbox" defaultChecked="" />
                           <span className="left">label</span>
                           <span className="fl-right">(1,008)</span>
                         </label>
                       </li>
                       <li className="dropdown-list">
-                        <label className="checkbox mrg-M">
+                        <label className="checkbox mrg-btm-M">
                           <input type="checkbox" defaultChecked="" />
                           <span className="left">label</span>
                           <span className="fl-right">(1,008)</span>
@@ -216,35 +216,35 @@ class ExpandCollapse extends Component {
                         <input type="text" placeholder="Search Item Type" />
                       </div>
                       <li className="dropdown-list">
-                        <label className="checkbox mrg-M" >
+                        <label className="checkbox mrg-btm-M" >
                           <input type="checkbox" defaultChecked="" />
                           <span className="left">label</span>
                           <span className="fl-right">(1,008)</span>
                         </label>
                       </li>
                       <li className="dropdown-list">
-                        <label className="checkbox mrg-M">
+                        <label className="checkbox mrg-btm-M">
                           <input type="checkbox" defaultChecked="" />
                           <span className="left">label</span>
                           <span className="fl-right">(1,008)</span>
                         </label>
                       </li>
                       <li className="dropdown-list">
-                        <label className="checkbox mrg-M">
+                        <label className="checkbox mrg-btm-M">
                           <input type="checkbox" defaultChecked="" />
                           <span className="left">label</span>
                           <span className="fl-right">(1,008)</span>
                         </label>
                       </li>
                       <li className="dropdown-list">
-                        <label className="checkbox mrg-M">
+                        <label className="checkbox mrg-btm-M">
                           <input type="checkbox" defaultChecked="" />
                           <span className="left">label</span>
                           <span className="fl-right">(1,008)</span>
                         </label>
                       </li>
                       <li className="dropdown-list">
-                        <label className="checkbox mrg-M">
+                        <label className="checkbox mrg-btm-M">
                           <input type="checkbox" defaultChecked="" />
                           <span className="left">label</span>
                           <span className="fl-right">(1,008)</span>
@@ -270,35 +270,35 @@ class ExpandCollapse extends Component {
                   <dd className="accordion-content accordionItem is-collapsed" id="accordion1" aria-hidden="true">
                     <ul className="mrg-lft-M">
                       <li className="dropdown-list">
-                        <label className="checkbox mrg-M" >
+                        <label className="checkbox mrg-btm-M" >
                           <input type="checkbox" defaultChecked="" />
                           <span className="left">label</span>
                           <span className="fl-right">(1,008)</span>
                         </label>
                       </li>
                       <li className="dropdown-list">
-                        <label className="checkbox mrg-M">
+                        <label className="checkbox mrg-btm-M">
                           <input type="checkbox" defaultChecked="" />
                           <span className="left">label</span>
                           <span className="fl-right">(1,008)</span>
                         </label>
                       </li>
                       <li className="dropdown-list">
-                        <label className="checkbox mrg-M">
+                        <label className="checkbox mrg-btm-M">
                           <input type="checkbox" defaultChecked="" />
                           <span className="left">label</span>
                           <span className="fl-right">(1,008)</span>
                         </label>
                       </li>
                       <li className="dropdown-list">
-                        <label className="checkbox mrg-M">
+                        <label className="checkbox mrg-btm-M">
                           <input type="checkbox" defaultChecked="" />
                           <span className="left">label</span>
                           <span className="fl-right">(1,008)</span>
                         </label>
                       </li>
                       <li className="dropdown-list">
-                        <label className="checkbox mrg-M">
+                        <label className="checkbox mrg-btm-M">
                           <input type="checkbox" defaultChecked="" />
                           <span className="left">label</span>
                           <span className="fl-right">(1,008)</span>
@@ -315,35 +315,35 @@ class ExpandCollapse extends Component {
                         <input type="text" placeholder="Search Item Type" />
                       </div>
                       <li className="dropdown-list">
-                        <label className="checkbox mrg-M" >
+                        <label className="checkbox mrg-btm-M" >
                           <input type="checkbox" defaultChecked="" />
                           <span className="left">label</span>
                           <span className="fl-right">(1,008)</span>
                         </label>
                       </li>
                       <li className="dropdown-list">
-                        <label className="checkbox mrg-M">
+                        <label className="checkbox mrg-btm-M">
                           <input type="checkbox" defaultChecked="" />
                           <span className="left">label</span>
                           <span className="fl-right">(1,008)</span>
                         </label>
                       </li>
                       <li className="dropdown-list">
-                        <label className="checkbox mrg-M">
+                        <label className="checkbox mrg-btm-M">
                           <input type="checkbox" defaultChecked="" />
                           <span className="left">label</span>
                           <span className="fl-right">(1,008)</span>
                         </label>
                       </li>
                       <li className="dropdown-list">
-                        <label className="checkbox mrg-M">
+                        <label className="checkbox mrg-btm-M">
                           <input type="checkbox" defaultChecked="" />
                           <span className="left">label</span>
                           <span className="fl-right">(1,008)</span>
                         </label>
                       </li>
                       <li className="dropdown-list">
-                        <label className="checkbox mrg-M">
+                        <label className="checkbox mrg-btm-M">
                           <input type="checkbox" defaultChecked="" />
                           <span className="left">label</span>
                           <span className="fl-right">(1,008)</span>
@@ -360,35 +360,35 @@ class ExpandCollapse extends Component {
                         <input type="text" placeholder="Search Item Type" />
                       </div>
                       <li className="dropdown-list">
-                        <label className="checkbox mrg-M" >
+                        <label className="checkbox mrg-btm-M" >
                           <input type="checkbox" defaultChecked="" />
                           <span className="left">label</span>
                           <span className="fl-right">(1,008)</span>
                         </label>
                       </li>
                       <li className="dropdown-list">
-                        <label className="checkbox mrg-M">
+                        <label className="checkbox mrg-btm-M">
                           <input type="checkbox" defaultChecked="" />
                           <span className="left">label</span>
                           <span className="fl-right">(1,008)</span>
                         </label>
                       </li>
                       <li className="dropdown-list">
-                        <label className="checkbox mrg-M">
+                        <label className="checkbox mrg-btm-M">
                           <input type="checkbox" defaultChecked="" />
                           <span className="left">label</span>
                           <span className="fl-right">(1,008)</span>
                         </label>
                       </li>
                       <li className="dropdown-list">
-                        <label className="checkbox mrg-M">
+                        <label className="checkbox mrg-btm-M">
                           <input type="checkbox" defaultChecked="" />
                           <span className="left">label</span>
                           <span className="fl-right">(1,008)</span>
                         </label>
                       </li>
                       <li className="dropdown-list">
-                        <label className="checkbox mrg-M">
+                        <label className="checkbox mrg-btm-M">
                           <input type="checkbox" defaultChecked="" />
                           <span className="left">label</span>
                           <span className="fl-right">(1,008)</span>
@@ -405,35 +405,35 @@ class ExpandCollapse extends Component {
                         <input type="text" placeholder="Search Item Type" />
                       </div>
                       <li className="dropdown-list">
-                        <label className="checkbox mrg-M" >
+                        <label className="checkbox mrg-btm-M" >
                           <input type="checkbox" defaultChecked="" />
                           <span className="left">label</span>
                           <span className="fl-right">(1,008)</span>
                         </label>
                       </li>
                       <li className="dropdown-list">
-                        <label className="checkbox mrg-M">
+                        <label className="checkbox mrg-btm-M">
                           <input type="checkbox" defaultChecked="" />
                           <span className="left">label</span>
                           <span className="fl-right">(1,008)</span>
                         </label>
                       </li>
                       <li className="dropdown-list">
-                        <label className="checkbox mrg-M">
+                        <label className="checkbox mrg-btm-M">
                           <input type="checkbox" defaultChecked="" />
                           <span className="left">label</span>
                           <span className="fl-right">(1,008)</span>
                         </label>
                       </li>
                       <li className="dropdown-list">
-                        <label className="checkbox mrg-M">
+                        <label className="checkbox mrg-btm-M">
                           <input type="checkbox" defaultChecked="" />
                           <span className="left">label</span>
                           <span className="fl-right">(1,008)</span>
                         </label>
                       </li>
                       <li className="dropdown-list">
-                        <label className="checkbox mrg-M">
+                        <label className="checkbox mrg-btm-M">
                           <input type="checkbox" defaultChecked="" />
                           <span className="left">label</span>
                           <span className="fl-right">(1,008)</span>

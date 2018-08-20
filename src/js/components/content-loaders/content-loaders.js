@@ -56,14 +56,14 @@ class ContentLoaders extends Component {
             <div>
                 <div class="row">
                     <div class="sm12 columns">
-                        <h1 class="title title-XL mrg-L">Content Loaders</h1>
-                        <h2 class="std-txt std-txt-XL mrg-L max-width-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h2>
+                        <h1 class="title title-XL mrg-btm-L">Content Loaders</h1>
+                        <h2 class="std-txt std-txt-XL mrg-btm-L max-width-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h2>
                     </div>
                 </div>
                 <div class="row" id="types">
                     <div class="sm12 columns">
-                        <h3 class="title title-L mrg-M">Types</h3>
-                        <p class="mrg-L max-width-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <h3 class="title title-L mrg-btm-M">Types</h3>
+                        <p class="mrg-btm-L max-width-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                         <div class="sm12 md12 columns">
                             <div class="sm12 md4 columns">
                                 <div class="loader-container">
@@ -77,7 +77,7 @@ class ContentLoaders extends Component {
                                 </div>
                             </div>
                             <div class="sm12 md8 columns">
-                                <h4 class="title title-M mrg-L">Page</h4>
+                                <h4 class="title title-M mrg-btm-L">Page</h4>
                                 <p class="max-width-text">Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec ullamcorper nulla non metus auctor fringilla. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. <br /><br /><br /><br /></p>
                             </div>
                         </div>
@@ -95,7 +95,7 @@ class ContentLoaders extends Component {
                                 </div>
                             </div>
                             <div class="sm12 md8 columns">
-                                <h4 class="title title-M mrg-L">Progress</h4>
+                                <h4 class="title title-M mrg-btm-L">Progress</h4>
                                 <p class="max-width-text">Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec ullamcorper nulla non metus auctor fringilla. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. <br /><br /><br /><br /></p>
                             </div>
                         </div>
@@ -108,7 +108,7 @@ class ContentLoaders extends Component {
                                 </div>
                             </div>
                             <div class="sm12 md8 columns">
-                                <h4 class="title title-M mrg-L">Section</h4>
+                                <h4 class="title title-M mrg-btm-L">Section</h4>
                                 <p class="max-width-text">Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec ullamcorper nulla non metus auctor fringilla. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. <br /><br /></p>
                             </div>
                         </div>
@@ -117,7 +117,7 @@ class ContentLoaders extends Component {
                 <hr />
                 <div class="row" id="lazy-load">
                     <div class="sm12 columns">
-                        <h3 class="title title-L mrg-L">Lazy Load</h3>
+                        <h3 class="title title-L mrg-btm-L">Lazy Load</h3>
                         <p class="max-width-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                         <div class="lazy-load-container lazy-load-container-preview columns">
                             <div class="lazy-load sm6 md4 lg3 xl3 column lazy-load-1">

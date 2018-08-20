@@ -69,7 +69,7 @@ class ExpandCollapse extends Component {
     return (
       <div>
         <div class="row">
-          {/* <h1 class="title title-XL mrg-XXL">Expand / Collapse</h1>
+          {/* <h1 class="title title-XL mrg-btm-XXL">Expand / Collapse</h1>
           <div class="xl4 lg4 md6 sm12">
             <h2 class="title title-L">Accordions: Basic</h2>
             <div class="accordion-block filter-accordion">

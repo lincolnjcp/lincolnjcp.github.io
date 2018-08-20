@@ -33,8 +33,8 @@ class SlideOutPanels extends Component {
 <div>
   <div class="row">
     <div class="sm12 columns">
-      <h1 class="title title-XL mrg-L">Slide Out Panels</h1>
-      <h2 class="std-txt std-txt-XL mrg-L max-width-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h2>
+      <h1 class="title title-XL mrg-btm-L">Slide Out Panels</h1>
+      <h2 class="std-txt std-txt-XL mrg-btm-L max-width-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h2>
       <p><a href="javascript:void(0);" class="side-panel-btn" data-target="#leftPanel">Slide In From Left</a></p>
       <p><a href="javascript:void(0);" class="side-panel-btn" data-target="#rightPanel">Slide In From Right</a></p>
       {/* <input type="checkbox"/> */}

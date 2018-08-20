@@ -647,7 +647,7 @@ class styleAWithoutButton extends Component {
 					<div id="slides">
 						<div class="dynamic-banner color-white text-center">
 							<h1 class="color-white promo-lbl promo-title">40% Off Orders $40+</h1>
-							<div class="promo-description mrg-S">
+							<div class="promo-description mrg-btm-S">
 								<span>with code</span>
 								<span class="txt-bold"> SAVE27 </span>
 								<span class="promo-lbl promo-lbl-S-to-S color-white txt-regular">Online & Instore. Ends 07/24. </span>
@@ -656,7 +656,7 @@ class styleAWithoutButton extends Component {
 						</div>
 						<div class="dynamic-banner color-white text-center">
 							<h1 class="color-white promo-lbl promo-title">50% Off Orders $40+</h1>
-							<div class="promo-description mrg-S">
+							<div class="promo-description mrg-btm-S">
 							<span>with code</span>
 							<span class="txt-bold"> SAVE27 </span>
 							<span class="promo-lbl promo-lbl-S-to-S color-white txt-regular">Online & Instore. Ends 07/24. </span>
@@ -665,7 +665,7 @@ class styleAWithoutButton extends Component {
 						</div>
 						<div class="dynamic-banner color-white text-center">
 							<h1 class="color-white promo-lbl promo-title">60% Off Orders $40+</h1>
-							<div class="promo-description mrg-S">
+							<div class="promo-description mrg-btm-S">
 							<span>with code</span>
 							<span class="txt-bold"> SAVE27 </span>
 							<span class="promo-lbl promo-lbl-S-to-S color-white txt-regular">Online & Instore. Ends 07/24. </span>
@@ -674,7 +674,7 @@ class styleAWithoutButton extends Component {
 						</div>
 						<div class="dynamic-banner color-white text-center">
 							<h1 class="color-white promo-lbl promo-title">70% Off Orders $40+</h1>
-							<div class="promo-description mrg-S">
+							<div class="promo-description mrg-btm-S">
 							<span>with code</span>
 							<span class="txt-bold"> SAVE27 </span>
 							<span class="promo-lbl promo-lbl-S-to-S color-white txt-regular">Online & Instore. Ends 07/24. </span>

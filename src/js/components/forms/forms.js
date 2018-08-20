@@ -104,14 +104,14 @@ class Forms extends Component {
             <div>
                 <div class="row">
                     <div class="sm12 columns">
-                        <h1 class="title title-XL mrg-L">Forms</h1>
-                        <h2 class="std-txt std-txt-XL mrg-L max-width-text">Vestibulum id ligula porta felis euismod semper. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</h2>
+                        <h1 class="title title-XL mrg-btm-L">Forms</h1>
+                        <h2 class="std-txt std-txt-XL mrg-btm-L max-width-text">Vestibulum id ligula porta felis euismod semper. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</h2>
                         <hr />
                     </div>
                 </div>
                 <div class="row" id="when-to-use">
                     <div class="sm12 columns">
-                        <h3 class="title title-L mrg-L">When to Use</h3>
+                        <h3 class="title title-L mrg-btm-L">When to Use</h3>
                         <p class="max-width-text">Vestibulum id ligula porta felis euismod semper. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. <br /><br /> </p>
                     </div>
                     <div class="sm12 columns">
@@ -126,7 +126,7 @@ class Forms extends Component {
                 </div>
                 <div class="row" id="appearance">
                     <div class="sm12 columns">
-                        <h3 class="title title-L mrg-L">Appearance</h3>
+                        <h3 class="title title-L mrg-btm-L">Appearance</h3>
                         <p class="max-width-text">Vestibulum id ligula porta felis euismod semper. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. <br /><br /><br /> </p>
                         <div class="row">
                             <div class="sm12 columns input-form">
@@ -140,7 +140,7 @@ class Forms extends Component {
                                         </div>
                                     </div>
                                     <div class="sm12 md8 columns">
-                                        <h4 class="title title-M mrg-L">Text Field</h4>
+                                        <h4 class="title title-M mrg-btm-L">Text Field</h4>
                                         <p class="max-width-text">Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus.<br /><br /><br /></p>
                                     </div>
                                 </div>
@@ -170,7 +170,7 @@ class Forms extends Component {
                                         </div>
                                     </div>
                                     <div class="sm12 md8 columns">
-                                        <h4 class="title title-M mrg-L">Select Input</h4>
+                                        <h4 class="title title-M mrg-btm-L">Select Input</h4>
                                         <p class="max-width-text">Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus.<br /><br /><br /></p>
                                     </div>
                                 </div>
@@ -186,7 +186,7 @@ class Forms extends Component {
                                         </div>
                                     </div>
                                     <div class="sm12 md8 columns">
-                                        <h4 class="title title-M mrg-L">Textarea</h4>
+                                        <h4 class="title title-M mrg-btm-L">Textarea</h4>
                                         <p class="max-width-text">Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus.<br /><br /><br /></p>
                                     </div>
                                 </div>
@@ -195,24 +195,24 @@ class Forms extends Component {
                                 <div class="row">
                                     <div class="sm12 md4 columns">
                                         <div class="input-group">
-                                            <div class="mrg-XL">
+                                            <div class="mrg-btm-XL">
                                                 <input type="radio" id="two" name="name" value="" defaultChecked="false" />
                                                 <label htmlFor="two">
                                                     <p class="std-txt std-txt-M"><span class="color-penneyred">FREE</span> Store Pickup Today at <br /><a href="#">Stonebriar Mall</a></p>
                                                 </label>
                                             </div>
-                                            <div class="mrg-XL">
+                                            <div class="mrg-btm-XL">
                                                 <input type="radio" disabled id="three" name="name" value="" />
                                                 <label htmlFor="three">
                                                     <span class="std-txt">Arrives May 5th - May 23rd</span></label>
                                             </div>
-                                            <div class="mrg-XL">
+                                            <div class="mrg-btm-XL">
                                                 <input type="radio" id="two" name="name" value="" defaultChecked="false" />
                                                 <label htmlFor="two">
                                                     <p class="std-txt std-txt-M"><span class="color-penneyred">FREE</span> Store Pickup Today at <br /><a href="#">Stonebriar Mall</a></p>
                                                 </label>
                                             </div>
-                                            <div class="mrg-XL">
+                                            <div class="mrg-btm-XL">
                                                 <input type="radio" disabled id="three" name="name" value="" />
                                                 <label htmlFor="three">
                                                     <p class="std-txt std-txt-M"><span class="color-penneyred">FREE</span> Store Pickup Today at <br /><a href="#">Stonebriar Mall</a></p>
@@ -221,7 +221,7 @@ class Forms extends Component {
                                         </div>
                                     </div>
                                     <div class="sm12 md8 columns">
-                                        <h4 class="title title-M mrg-L">Radio Button</h4>
+                                        <h4 class="title title-M mrg-btm-L">Radio Button</h4>
                                         <p class="max-width-text">Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus.<br /><br /><br /></p>
                                     </div>
                                 </div>
@@ -230,22 +230,22 @@ class Forms extends Component {
                                 <div class="row">
                                     <div class="sm12 md4 columns">
                                         <div class="input-group">
-                                            <label class="checkbox mrg-M">
+                                            <label class="checkbox mrg-btm-M">
                                                 <input type="checkbox" disabled="true" /> <span>Disabled Checkbox</span>
                                             </label>
 
-                                            <label class="checkbox mrg-M">
+                                            <label class="checkbox mrg-btm-M">
                                                 <input type="checkbox" /> <span>Checkbox</span>
                                             </label>
 
-                                            <label class="checkbox mrg-M">
+                                            <label class="checkbox mrg-btm-M">
                                                 <input type="checkbox" defaultChecked="true" /> <span>Checkbox</span>
                                             </label>
 
-                                            <label class="checkbox checkbox-M mrg-M">
+                                            <label class="checkbox checkbox-M mrg-btm-M">
                                                 <input type="checkbox" /> <span>Checkbox Medium</span>
                                             </label>
-                                            <label class="checkbox checkbox-S mrg-M">
+                                            <label class="checkbox checkbox-S mrg-btm-M">
                                                 <input type="checkbox" /> <span>Checkbox Small</span>
                                             </label>
                                             <br />
@@ -253,7 +253,7 @@ class Forms extends Component {
                                         </div>
                                     </div>
                                     <div class="sm12 md8 columns">
-                                        <h4 class="title title-M mrg-L">Checkbox</h4>
+                                        <h4 class="title title-M mrg-btm-L">Checkbox</h4>
                                         <p class="max-width-text">Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus.<br /><br /><br /></p>
                                     </div>
                                 </div>
@@ -269,7 +269,7 @@ class Forms extends Component {
                                         </div>
                                     </div>
                                     <div class="sm12 md8 columns">
-                                        <h4 class="title title-M mrg-L">Phone Number</h4>
+                                        <h4 class="title title-M mrg-btm-L">Phone Number</h4>
                                         <p class="max-width-text">Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus.<br /><br /><br /></p>
                                     </div>
                                 </div>
@@ -286,7 +286,7 @@ class Forms extends Component {
                                         </div>
                                     </div>
                                     <div class="sm12 md8 columns">
-                                        <h4 class="title title-M mrg-L">Credit Card</h4>
+                                        <h4 class="title title-M mrg-btm-L">Credit Card</h4>
                                         <p class="max-width-text">Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus.<br /><br /><br /></p>
                                     </div>
                                 </div>
@@ -303,7 +303,7 @@ class Forms extends Component {
                                         </div>
                                     </div>
                                     <div class="sm12 md8 columns">
-                                        <h4 class="title title-M mrg-L">Password</h4>
+                                        <h4 class="title title-M mrg-btm-L">Password</h4>
                                         <p class="max-width-text">Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus.<br /><br /><br /></p>
                                     </div>
                                 </div>
@@ -359,7 +359,7 @@ class Forms extends Component {
                                         </div>
                                     </div>
                                     <div class="sm12 md8 columns">
-                                        <h4 class="title title-M mrg-L">Condensed Fields</h4>
+                                        <h4 class="title title-M mrg-btm-L">Condensed Fields</h4>
                                         <p class="max-width-text">Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus.<br /><br /><br /></p>
                                     </div>
                                 </div>
@@ -376,7 +376,7 @@ class Forms extends Component {
                                         </div>
                                     </div>
                                     <div class="sm12 md8 columns">
-                                        <h4 class="title title-M mrg-L">Search Box</h4>
+                                        <h4 class="title title-M mrg-btm-L">Search Box</h4>
                                         <p class="max-width-text">Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus.<br /><br /><br /></p>
                                     </div>
                                 </div>
@@ -406,7 +406,7 @@ class Forms extends Component {
                                         </div>
                                     </div>
                                     <div class="sm12 md8 columns">
-                                        <h4 class="title title-M mrg-L">Store Locator</h4>
+                                        <h4 class="title title-M mrg-btm-L">Store Locator</h4>
                                         <p class="max-width-text">Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus.<br /><br /><br /></p>
                                     </div>
                                 </div>
@@ -420,7 +420,7 @@ class Forms extends Component {
                                         </div>
                                     </div>
                                     <div class="sm12 md8 columns">
-                                        <h4 class="title title-M mrg-L">Inline Action</h4>
+                                        <h4 class="title title-M mrg-btm-L">Inline Action</h4>
                                         <p class="max-width-text">Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus.<br /><br /><br /></p>
                                     </div>
                                 </div>
@@ -437,7 +437,7 @@ class Forms extends Component {
                                         </div>
                                     </div>
                                     <div class="sm12 md8 columns">
-                                        <h4 class="title title-M mrg-L">Optional Fields with Tooltip</h4>
+                                        <h4 class="title title-M mrg-btm-L">Optional Fields with Tooltip</h4>
                                         <p class="max-width-text">Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus.<br /><br /><br /></p>
                                     </div>
                                 </div>
@@ -453,7 +453,7 @@ class Forms extends Component {
                                         </div>
                                     </div>
                                     <div class="sm12 md8 columns">
-                                        <h4 class="title title-M mrg-L">Disabled</h4>
+                                        <h4 class="title title-M mrg-btm-L">Disabled</h4>
                                         <p class="max-width-text">Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus.<br /><br /><br /><br /></p>
                                     </div>
                                 </div>
@@ -469,7 +469,7 @@ class Forms extends Component {
                                         </div>
                                     </div>
                                     <div class="sm12 md8 columns">
-                                        <h4 class="title title-M mrg-L">Date Picker</h4>
+                                        <h4 class="title title-M mrg-btm-L">Date Picker</h4>
                                         <p class="max-width-text">Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus.<br /><br /><br /></p>
                                     </div>
                                 </div>
@@ -484,7 +484,7 @@ class Forms extends Component {
                 </div>
                 <div class="row" id="form-validation">
                     <div class="sm12 columns">
-                        <h3 class="title title-L mrg-L">Form Validation</h3>
+                        <h3 class="title title-L mrg-btm-L">Form Validation</h3>
                         <p class="max-width-text">Vestibulum id ligula porta felis euismod semper. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.  <br /><br /> </p>
                     </div>
                     <div class="sm12 columns input-form error">
@@ -504,9 +504,9 @@ class Forms extends Component {
                                         <p class="max-width-text">Vestibulum id ligula porta felis euismod semper. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.  <br /><br /> </p>
                                         <div class="sm12 md5 columns row">
                                             <div class="form-float-label">
-                                                <div class="msg msg-error mrg-L">Email or password is incorrect</div>
+                                                <div class="msg msg-error mrg-btm-L">Email or password is incorrect</div>
                                             </div>
-                                            <div class="form-float-label mrg-L">
+                                            <div class="form-float-label mrg-btm-L">
                                                 <input class="form-control email-text input-text" id="email" type="text" placeholder="Email " />
                                                 <label htmlFor="email">Email</label>
                                                 <br />
@@ -530,7 +530,7 @@ class Forms extends Component {
                 </div>
                 <div class="row sample-layout" id="sample-layout">
                     <div class="sm12 columns">
-                        <h3 class="title title-L mrg-L">Sample Layout</h3>
+                        <h3 class="title title-L mrg-btm-L">Sample Layout</h3>
                         <p class="max-width-text">Vestibulum id ligula porta felis euismod semper. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.  <br /><br /> </p>
                     </div>
                     <div class="sm12 md4 form-layout input-form select-form">
@@ -582,7 +582,7 @@ class Forms extends Component {
                             </div>
                         </div>
                         <div class="form-group column">
-                            <label class="checkbox checkbox-M mrg-M">
+                            <label class="checkbox checkbox-M mrg-btm-M">
                                 <input type="checkbox" /> <span>Set as default address</span>
                             </label>
                         </div>
@@ -591,7 +591,7 @@ class Forms extends Component {
                 <hr />
                 <div class="row" id="related-content">
                     <div class="sm12 columns">
-                        <h3 class="title title-L mrg-L">Related Content</h3>
+                        <h3 class="title title-L mrg-btm-L">Related Content</h3>
                         <ul class="list max-width-text color-slate">
                             <li><a href="javascript:void();">Alerts & Messaging</a></li>
                             <li><a href="javascript:void();">Filter & Sorting</a></li>

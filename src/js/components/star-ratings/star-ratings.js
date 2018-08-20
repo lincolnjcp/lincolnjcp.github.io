@@ -15,22 +15,22 @@ class ContentLoaders extends Component {
             <div>
                 <div class="row">
                     <div class="sm12 columns">
-                        <h1 class="title title-XL mrg-L">Star Ratings</h1>
-                        <h2 class="std-txt std-txt-XL mrg-L max-width-text">Vestibulum id ligula porta felis euismod semper. Lorem ipsum dolor sit amet, consectetur adipiscing elit. </h2>
+                        <h1 class="title title-XL mrg-btm-L">Star Ratings</h1>
+                        <h2 class="std-txt std-txt-XL mrg-btm-L max-width-text">Vestibulum id ligula porta felis euismod semper. Lorem ipsum dolor sit amet, consectetur adipiscing elit. </h2>
                     </div>
                 </div>
                
                 <div class="row" id="when-to-use">
                     <div class="sm12 columns">
-                        <h3 class="title title-L mrg-L">When to Use</h3>
-                        <p class=" mrg-L max-width-text">Vestibulum id ligula porta felis euismod semper. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. </p>
+                        <h3 class="title title-L mrg-btm-L">When to Use</h3>
+                        <p class=" mrg-btm-L max-width-text">Vestibulum id ligula porta felis euismod semper. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. </p>
                     </div>
                 </div>
                 <div class="row" id="appearance">
                     <div class="sm12 columns">
                         <hr />
-                        <h3 class="title title-L mrg-L">Appearance</h3>
-                        <p class="max-width-text mrg-XL">Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras justo odio, dapibus ac facilisis in, egestas eget quam.</p>
+                        <h3 class="title title-L mrg-btm-L">Appearance</h3>
+                        <p class="max-width-text mrg-btm-XL">Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras justo odio, dapibus ac facilisis in, egestas eget quam.</p>
                         <div class="row">
                             <div class="sm12 md5 lg4 columns star-preview-col">
                                 <ul class="star-ratings-XL">
@@ -46,8 +46,8 @@ class ContentLoaders extends Component {
                                 </ul>
                             </div>
                             <div class="sm12 md7 lg8 columns">
-                                <h5 class="title title-M mrg-S">States</h5>
-                                <p class="max-width-text mrg-M">Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec ullamcorper nulla non metus auctor fringilla. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. </p>
+                                <h5 class="title title-M mrg-btm-S">States</h5>
+                                <p class="max-width-text mrg-btm-M">Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec ullamcorper nulla non metus auctor fringilla. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. </p>
                             </div>
                         </div>
                         <div class="row">
@@ -96,8 +96,8 @@ class ContentLoaders extends Component {
                                 </ul>
                             </div>
                             <div class="sm12 md7 lg8 columns">
-                                <h5 class="title title-M mrg-S">Sizing</h5>
-                                <p class="max-width-text mrg-XL">Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec ullamcorper nulla non metus auctor fringilla. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. </p>
+                                <h5 class="title title-M mrg-btm-S">Sizing</h5>
+                                <p class="max-width-text mrg-btm-XL">Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec ullamcorper nulla non metus auctor fringilla. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. </p>
                             </div>
                         </div>
 

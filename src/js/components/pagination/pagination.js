@@ -13,8 +13,8 @@ class Pagination extends Component {
       <div>
         <div class="row">
           <div class="paginiation-block mrg-lft-M">
-            <h1 class="title title-XL mrg-L">Pagination</h1>
-            <div class="pagination mrg-XXL">
+            <h1 class="title title-XL mrg-btm-L">Pagination</h1>
+            <div class="pagination mrg-btm-XXL">
               <p class="std-txt-label">Selected</p>
               <ul>
                 <li class="pagination hidden" aria-label="Prev">
@@ -31,7 +31,7 @@ class Pagination extends Component {
                 </li>
               </ul>
             </div>
-            <div class="pagination mrg-XXL">
+            <div class="pagination mrg-btm-XXL">
               <p class="std-txt-label">On Hover</p>
               <ul>
                 <li class="pagination hidden" aria-label="Prev">
@@ -48,7 +48,7 @@ class Pagination extends Component {
                 </li>
               </ul>
             </div>
-            <div class="pagination mrg-XXL">
+            <div class="pagination mrg-btm-XXL">
               <p class="std-txt-label">Other pages selected</p>
               <ul>
                 <li class="pagination" aria-label="Prev">
@@ -65,7 +65,7 @@ class Pagination extends Component {
                 </li>
               </ul>
             </div>
-            <div class="pagination mrg-XXL">
+            <div class="pagination mrg-btm-XXL">
               <p class="std-txt-label">s</p>
               <ul>
                 <li class="pagination" aria-label="Prev">
@@ -84,7 +84,7 @@ class Pagination extends Component {
             </div>
           </div>
           <div class="breadcrumbs-block">
-              <h1 class="title title-XL mrg-L">Breadcrumbs</h1>
+              <h1 class="title title-XL mrg-btm-L">Breadcrumbs</h1>
               <ul class="breadcrumbs">
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Clothing</a></li>
@@ -96,7 +96,7 @@ class Pagination extends Component {
             <li><a href="javascript:void(0);"><span class="icon color-shadow-svg" dangerouslySetInnerHTML={{__html: chevronleftImage}} /> Back to Products </a> </li>
           </div><br/><br/><br/>
           <div class="back-to-top-block">
-              <h1 class="title title-XL mrg-L">Back to Top</h1>
+              <h1 class="title title-XL mrg-btm-L">Back to Top</h1>
               <div class="back-to-top">
                 <span class="icon color-shadow-svg" dangerouslySetInnerHTML={{__html: BackToTopImage}} />
               </div>

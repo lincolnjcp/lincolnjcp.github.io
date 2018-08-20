@@ -27,7 +27,6 @@
                 }
                 & .promo-content {
                     text-align: right;
-                    padding-bottom: 16px !important;
                 }
             }
         }
@@ -37,7 +36,6 @@
         & .stylec-left-aligned {
             & .promo-content {
                 text-align: left;
-                padding-bottom: 16px !important;
             }
         }
 
@@ -53,19 +51,22 @@
         & .banner-container {
             margin: 0 auto;
         }
-    }
+    
     @media (--viewport-sm-down), (--viewport-sm-only) { 
             & .promo-content {
                 text-align: left;
                 padding-bottom: 16px !important;
             }
+            & .promo-title, & p {
+                text-align: left;
+            }
+        }
     }
-
 }
 
 .promo-title {
     font-size: 32px;
-    @media (--viewport-md-down), (--viewport-sm-down) {
+    @media (--viewport-sm-only), (--viewport-sm-down) {
         font-size: 20px;
     }
 }

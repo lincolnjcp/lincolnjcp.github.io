@@ -92,7 +92,7 @@ class RecommendationZone
             {(() => {
               if (productInfo.thumb) {
                 return (
-                  <div className="product-card-thumbnail mrg-S">
+                  <div className="product-card-thumbnail mrg-btm-S">
                     <a href="javascript:void(0)">
                       <img src={productInfo.thumb} alt="product-image" />
                     </a>
@@ -104,7 +104,7 @@ class RecommendationZone
             {(() => {
               if (productInfo.promo) {
                 return (
-                  <div className="price price-promo-S mrg-XS color-penneyred">
+                  <div className="price price-promo-S mrg-btm-XS color-penneyred">
                     {productInfo.promo}
                   </div>
                 )
@@ -360,7 +360,7 @@ class RecommendationZone
       <div>
         <div className="row">
           {/* <div className="sm12 columns">
-            <h1 className="title title-XL mrg-L">Recommendation Zone</h1>
+            <h1 className="title title-XL mrg-btm-L">Recommendation Zone</h1>
           </div> */}
           <div className="row">
             <div className="sm12 columns">

@@ -89,7 +89,7 @@ class SubNav extends Component {
     return(
 <div className="design-system-inner-nav">
     <div className="design-system-inner-nav-fixed">
-    <p className="txt-caps txt-bold color-nightsky mrg-L">{this.props.name}</p>
+    <p className="txt-caps txt-bold color-nightsky mrg-btm-L">{this.props.name}</p>
     
     <ul>
       { this.props.data.map(info =>

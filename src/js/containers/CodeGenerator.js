@@ -134,7 +134,7 @@ class CodeGenerator extends Component {
     render() {
         return (
             <div>
-                <div className="code-generator mrg-XL">
+                <div className="code-generator mrg-btm-XL">
                     <div className="code-generator-right">
                         {this.createInputComponent()}
                     </div>

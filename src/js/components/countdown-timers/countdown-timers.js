@@ -112,7 +112,7 @@ componentDidMount() {
 <div>
     <div class="row">
         <div class="sm12 columns">
-            <h1 class="title title-XL mrg-L">Countdown Timers</h1>
+            <h1 class="title title-XL mrg-btm-L">Countdown Timers</h1>
             <hr />
         </div>
     </div>

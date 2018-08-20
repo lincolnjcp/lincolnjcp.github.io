@@ -658,7 +658,7 @@ class styleAWithButton extends Component {
 								<span class="promo-lbl promo-lbl-S-to-S color-white txt-regular">Online & Instore. Ends 07/24. </span>
 								<span class="std-txt std-txt-XS"><a href="javascript:void(0)" class="color-white txt-regular"> see details</a></span>
 							</div>
-							<div class="promo-button-container mrg-XS mrg-top-S">
+							<div class="promo-button-container mrg-btm-XS mrg-top-S">
 								<a class="button-promo btn btn-secondary btn-M" href="javascript:void(0)">Women</a>
 								<a class="button-promo btn btn-secondary btn-M" href="javascript:void(0)">Kids</a>
 								<a class="button-promo btn btn-secondary btn-M" href="javascript:void(0)">Men</a>
@@ -677,7 +677,7 @@ class styleAWithButton extends Component {
 								<span class="promo-lbl promo-lbl-S-to-S color-white txt-regular">Online & Instore. Ends 07/24. </span>
 								<span class="std-txt std-txt-XS"><a href="javascript:void(0)" class="color-white txt-regular"> see details</a></span>
 							</div>
-							<div class="promo-button-container mrg-XS mrg-top-S">
+							<div class="promo-button-container mrg-btm-XS mrg-top-S">
 								<a class="button-promo btn btn-secondary btn-M" href="javascript:void(0)">Women</a>
 								<a class="button-promo btn btn-secondary btn-M" href="javascript:void(0)">Kids</a>
 								<a class="button-promo btn btn-secondary btn-M" href="javascript:void(0)">Men</a>
@@ -696,7 +696,7 @@ class styleAWithButton extends Component {
 								<span class="promo-lbl promo-lbl-S-to-S color-white txt-regular">Online & Instore. Ends 07/24. </span>
 								<span class="std-txt std-txt-XS"><a href="javascript:void(0)" class="color-white txt-regular"> see details</a></span>
 							</div>
-							<div class="promo-button-container mrg-XS mrg-top-S">
+							<div class="promo-button-container  mrg-top-S">
 								<a class="button-promo btn btn-secondary btn-M" href="javascript:void(0)">Women</a>
 								<a class="button-promo btn btn-secondary btn-M" href="javascript:void(0)">Kids</a>
 								<a class="button-promo btn btn-secondary btn-M" href="javascript:void(0)">Men</a>
@@ -715,7 +715,7 @@ class styleAWithButton extends Component {
 								<span class="promo-lbl promo-lbl-S-to-S color-white txt-regular">Online & Instore. Ends 07/24. </span>
 								<span class="std-txt std-txt-XS"><a href="javascript:void(0)" class="color-white txt-regular"> see details</a></span>
 							</div>
-							<div class="promo-button-container mrg-XS mrg-top-S">
+							<div class="promo-button-container mrg-btm-XS mrg-top-S">
 								<a class="button-promo btn btn-secondary btn-M" href="javascript:void(0)">Women</a>
 								<a class="button-promo btn btn-secondary btn-M" href="javascript:void(0)">Kids</a>
 								<a class="button-promo btn btn-secondary btn-M" href="javascript:void(0)">Men</a>

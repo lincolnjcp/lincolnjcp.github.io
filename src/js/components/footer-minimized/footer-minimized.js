@@ -14,7 +14,7 @@ class FooterMinimized extends Component {
                             <span class="icon device-phone" dangerouslySetInnerHTML={{ __html: devicephoneImage }} />
                             <span class="need-help">Need Help? Give us a call 1 (800) 322-1189</span>
                        </div>
-                       <div class="footer-mini-links text-center mrg-M mrg-top-M">
+                       <div class="footer-mini-links text-center mrg-btm-M mrg-top-M">
                             <ul>
                                 <li><a href="javascript:void(0);">Legal</a></li>
                                 <li><a href="javascript:void(0);">Recalls</a></li>

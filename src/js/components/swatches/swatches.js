@@ -15,7 +15,7 @@ class Swatches extends Component {
       <div>
         <div class="row">
           <div class="color-swatches-block mrg-L fl-left">
-            <h2 class="title title-L mrg-M">Product Swatches</h2>
+            <h2 class="title title-L mrg-btm-M">Product Swatches</h2>
             <div class="md8 lg8">
               <ul class="list-product-colors-container swatches-grid">
                 <li>
@@ -46,7 +46,7 @@ class Swatches extends Component {
             </div><br /><br /><br /><br />
             <div class="md6 lg4 sm12 column">
               <div class="md12 lg12 sm12">
-                <h2 class="title title-L mrg-M">Expand/Collapse</h2>
+                <h2 class="title title-L mrg-btm-M">Expand/Collapse</h2>
                 <span class="std-txt-label">Large/XL Breakpoint</span>
                 <div>
                   <p>
@@ -195,9 +195,9 @@ class Swatches extends Component {
             </div>
 
             <div class="md6 lg4 sm12 column">
-              <h2 class="title title-L mrg-M">Sizing</h2>
+              <h2 class="title title-L mrg-btm-M">Sizing</h2>
               <div class="md12 lg12 sm12">
-                <div class="color-swatches-medium mrg-L">
+                <div class="color-swatches-medium mrg-btm-L">
                   <ul class="list-product-colors-container">
                     <li>
                       <a href="javascript:void(0)" class="list-color-swatch"></a>

@@ -19,8 +19,8 @@ class Wells extends Component {
         return (
             <div>
                 <div class="row">
-                    <div class="mrg-XXL sm12 md12 well mrg-rght-XS">
-                        <h3 class="title title-M mrg-M mrg-lft-S">General Information</h3>
+                    <div class="mrg-btm-XXL sm12 md12 well mrg-rght-XS">
+                        <h3 class="title title-M mrg-btm-M mrg-lft-S">General Information</h3>
                         <ul class="list list-icons mrg-lft-S">
                             <li class="title-txt title-S">
                                 <span class="icon color-shadow-svg icon-L" dangerouslySetInnerHTML={{ __html: trashcanImage }} /> 
@@ -44,8 +44,8 @@ class Wells extends Component {
                             </li>
                         </ul>
                     </div>
-                    <div class="mrg-XXL sm12 md12 xl6 lg6 well mrg-rght-XS">
-                        <h3 class="title title-M mrg-M mrg-lft-S">Shipping & Returns</h3>
+                    <div class="mrg-btm-XXL sm12 md12 xl6 lg6 well mrg-rght-XS">
+                        <h3 class="title title-M mrg-btm-M mrg-lft-S">Shipping & Returns</h3>
                         <ul class="list list-icons mrg-lft-S">
                             <li class="title-txt title-S">
                                 <span class="icon color-shadow-svg icon-L" dangerouslySetInnerHTML={{ __html: returnImage }} /> 
@@ -64,31 +64,31 @@ class Wells extends Component {
                             </li>
                         </ul>
                     </div>
-                    <div class="mrg-XXL sm12 md12 xl6 lg6 well-fill mrg-rght-XS">
-                        <div class="title-S mrg-S">
+                    <div class="mrg-btm-XXL sm12 md12 xl6 lg6 well-fill mrg-rght-XS">
+                        <div class="title-S mrg-btm-S">
                             <em>Protection Plan </em>
                             <a href="javascript:void(0);">Edit</a>
                         </div>
-                        <div class="mrg-XL">
+                        <div class="mrg-btm-XL">
                             <div class="border-dashed"></div>
                             <span class="fl-left title-XS protection-plan-bg-fill pad-rght-S">1 Year Limited</span>
                             <span class="fl-right title-XS protection-plan-bg-fill padding-lft-S"><em>Included</em></span>
                         </div>
-                        <div class="title-S mrg-S mrg-top-M">
+                        <div class="title-S mrg-btm-S mrg-top-M">
                             <em>Parts & Services </em>
                             <a href="javascript:void(0);">Edit</a>
                         </div>
-                        <div class="mrg-L">
+                        <div class="mrg-btm-L">
                             <div class="border-dashed"></div>
                             <span class="fl-left title-XS protection-plan-bg-fill pad-rght-S">Appliance Installation</span>
                             <span class="fl-right title-XS protection-plan-bg-fill padding-lft-S"><a href="javascript:void(0);">Show Details</a></span>
                         </div>
-                        <div class="mrg-XL">
+                        <div class="mrg-btm-XL">
                             <div class="border-dashed"></div>
                             <span class="fl-left title-XS protection-plan-bg-fill pad-rght-S">Reinforced Hose</span>
                             <span class="fl-right title-XS protection-plan-bg-fill padding-lft-S"><em>$9.99</em></span>
                         </div>
-                        <div class="mrg-L protection-plan-price">
+                        <div class="mrg-btm-L protection-plan-price">
                             <span class="fl-left price price-S">Item Total</span>
                             <span class="fl-right price price-S">$999.99</span>
                         </div>

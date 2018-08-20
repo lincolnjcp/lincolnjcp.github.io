@@ -176,11 +176,11 @@
 
 /* Margins  */
 
-    --mrgn-XL: 80px;
-    --mrgn-L: 72px;
-    --mrgn-M: 56px;
-    --mrgn-S: 40px;
-    --mrgn-XS: 24px;
-    --mrgn-XXS: 12px;
-    --mrg-top-S: 8px;
+    --mrg-XL: 80px;
+    --mrg-L: 72px;
+    --mrg-M: 56px;
+    --mrg-S: 40px;
+    --mrg-XS: 24px;
+    --mrg-XXS: 12px;
+    --mrg-XXXS: 8px;
 }

@@ -27,7 +27,7 @@ class HomepageLayout extends Component {
                     <div class="lg12 xl12 styleb-banner">
                         <StyleBLeft />
                     </div>
-                    <div class="stylec-banner mrgn-L mrgn-M-at-M mrgn-S-at-XS">
+                    <div class="stylec-banner mrg-L mrg-S-at-XS mrg-M-at-M">
                         <div class="sm12 lg6 xl6 xxl6 mrg-XL-m stylec-left-aligned">
                             <StyleCSingleCTA />
                         </div>
@@ -35,23 +35,23 @@ class HomepageLayout extends Component {
                             <StyleCMultiplecta />
                         </div>
                     </div>
-                    <div class="styled-banner mrgn-L mrgn-M-at-M mrgn-S-at-XS">
+                    <div class="styled-banner mrg-L mrg-M-at-M mrg-S-at-XS">
                         <div class="sm12 lg4 xl4 xxl4">
                             <StyleDMultipleCTA />
                         </div>
-                        <div class="sm12 lg4 xl4 xxl4 mrgn-XXS-at-M">
+                        <div class="sm12 lg4 xl4 xxl4 mrg-XXS-at-M nopad">
                             <StyleDSingleCTA />
                         </div>
-                        <div class="sm12 lg4 xl4 xxl4 mrgn-XXS-at-M">
+                        <div class="sm12 lg4 xl4 xxl4 mrg-XXS-at-M nopad">
                             <StyleDMultipleCTA />
                         </div>
                     </div>
                     {/* <RecommendationZone /> */}
-                    <div class="lg12 xl12 xxl12 stylee-banner mrgn-M mrgn-XS-at-M mrgn-S-at-XS">
+                    <div class="lg12 xl12 xxl12 stylee-banner mrg-M mrg-XS-at-M mrg-S-at-XS">
                         <StyleEMultipleCTA />
                     </div>
                 </div>
-                <div class="lg12 xl12 xxl12 mrgn-S mrgn-M-at-M mrgn-S-at-XS">
+                <div class="lg12 xl12 xxl12 mrg-S mrg-M-at-M mrg-S-at-XS">
                     <Footer />
                 </div>
             </div>

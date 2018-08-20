@@ -10,6 +10,12 @@
             margin: 0 16px;
             max-width: 100%;
         }
+
+        & .promo-description {
+            @media (--viewport-sm-down),(--viewport-sm-only) {
+                text-align: left;
+            }
+        }
         & .banner-image {
             height: 368px;
             position: relative;
@@ -50,7 +56,7 @@
             line-height: 20px;
 
             @media (--viewport-sm-down), (--viewport-sm-only)  {
-                    text-align: center;
+                    text-align: left;
                     font-size: 14px;
                 }
             }
@@ -67,10 +73,11 @@
                 & .btn {
                     width: 152px;
                     font-weight: 700;
+                    margin: 8px 0 8px 8px;
 
                     @media (--viewport-sm-down) {
                         &:nth-child(odd) {
-                            margin: 0;
+                            margin: 0 7px 8px;
                         }
 
                         &:nth-child(even) {

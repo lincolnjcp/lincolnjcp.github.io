@@ -41,8 +41,8 @@ class LikeDislike extends Component {
             <div>
                 <div class="row">
                     <div class="sm12 columns">
-                        <h1 class="title title-XL mrg-L">Like / Dislike Messages</h1>
-                        <h2 class="std-txt std-txt-XL mrg-L max-width-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h2>
+                        <h1 class="title title-XL mrg-btm-L">Like / Dislike Messages</h1>
+                        <h2 class="std-txt std-txt-XL mrg-btm-L max-width-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h2>
                     </div>
                 </div>
 

@@ -82,7 +82,7 @@ class Tooltips extends Component {
   render() {
     return (
       <div>
-        <div class="mrg-L row">
+        <div class="mrg-btm-L row">
           <div class="tooltip tooltip-single tooltip-left-side">
             <span>Tooltip left side</span>
           </div>
@@ -189,7 +189,7 @@ class Tooltips extends Component {
 
             </div>
             <span>
-              <h1 class="title title-M mrg-S">This is a Tooltip H1 Title</h1>
+              <h1 class="title title-M mrg-btm-S">This is a Tooltip H1 Title</h1>
               <input type="radio" id="tooltip-radio" name="tootlip-radio" />
               <label for="tooltip-radio">Vanilla label</label>
             </span>

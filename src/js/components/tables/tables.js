@@ -13,19 +13,19 @@ class Tables extends Component {
 
                 <div class="row">
                     <div class="sm12 columns">
-                        <h1 class="title title-XL mrg-L">Tables</h1>
-                        <h2 class="std-txt std-txt-XL mrg-L max-width-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h2>
+                        <h1 class="title title-XL mrg-btm-L">Tables</h1>
+                        <h2 class="std-txt std-txt-XL mrg-btm-L max-width-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h2>
                     </div>
                 </div>
 
                 <div class="row" id="standard">
                     <div class="sm12 columns">
                         <hr />
-                        <h3 class="title title-L mrg-L">Standard</h3>
-                        <p class="mrg-XL max-width-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <h3 class="title title-L mrg-btm-L">Standard</h3>
+                        <p class="mrg-btm-XL max-width-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 
-                        <h4 class="title title-M mrg-L">Tab Title</h4>
-                        <table class="table-striped-columns width-full std-txt std-txt-S mrg-L algn-lft" width="100%" border="0">
+                        <h4 class="title title-M mrg-btm-L">Tab Title</h4>
+                        <table class="table-striped-columns width-full std-txt std-txt-S mrg-btm-L algn-lft" width="100%" border="0">
                             <tbody>
                                 <tr>
                                     <th class="title-S width-quarter">Feature</th>
@@ -46,15 +46,15 @@ class Tables extends Component {
                 <div class="row" id="feature">
                     <div class="sm12 columns">
                         <hr />
-                        <h3 class="title title-L mrg-L">Feature</h3>
-                        <p class="mrg-XL max-width-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <h3 class="title title-L mrg-btm-L">Feature</h3>
+                        <p class="mrg-btm-XL max-width-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 
                         <div class="row">
                             <div class="sm12 md4 lg2 columns">
-                                <h4 class="title title-XXL mrg-L">Tab Title</h4>
+                                <h4 class="title title-XXL mrg-btm-L">Tab Title</h4>
                             </div>
                             <div class="sm12 md8 lg10 columns">
-                                <table class="std-txt std-txt-S width-full mrg-L algn-lft" width="100%" border="0">
+                                <table class="std-txt std-txt-S width-full mrg-btm-L algn-lft" width="100%" border="0">
                                     <tbody>
                                         <tr>
                                             <th class="title-S width-one-third">Feature</th>
@@ -79,12 +79,12 @@ class Tables extends Component {
 
                         <div class="row">
                             <div class="sm12 columns">
-                                <h4 class="title title-M mrg-L">Headers &amp; Optional Stripes</h4>
+                                <h4 class="title title-M mrg-btm-L">Headers &amp; Optional Stripes</h4>
                             </div>
                         </div>
                         <div class="row">
                             <div class="sm12 md6 lg4 columns">
-                                <table class="table-striped-columns width-full std-txt std-txt-S mrg-L algn-lft" width="208" border="0">
+                                <table class="table-striped-columns width-full std-txt std-txt-S mrg-btm-L algn-lft" width="208" border="0">
                                     <thead>
                                         <tr>
                                             <th colspan="2">Details</th>
@@ -116,9 +116,9 @@ class Tables extends Component {
                 <div class="row " id="activity">
                     <div class="sm12 columns">
                         <hr />
-                        <h3 class="title title-L mrg-L">Activity History</h3>
+                        <h3 class="title title-L mrg-btm-L">Activity History</h3>
 
-                        <table class="table-striped-columns activity-table-striped-columns width-full std-txt std-txt-S mrg-L algn-lft" width="100%" border="0">
+                        <table class="table-striped-columns activity-table-striped-columns width-full std-txt std-txt-S mrg-btm-L algn-lft" width="100%" border="0">
                             <tbody>
                                 <tr>
                                     <th class="title-S width-quarter bg-color-white">Date <span class="activity-icon color-slate-svg" dangerouslySetInnerHTML={{ __html: arrowdownImage }} /></th>
@@ -146,12 +146,12 @@ class Tables extends Component {
                 </div>
                 <div class="row">
                     <div class="sm12 columns">
-                        <h4 class="title title-M mrg-L">Activity History</h4>
+                        <h4 class="title title-M mrg-btm-L">Activity History</h4>
                     </div>
                 </div>
                 <div class="row">
                     <div class="sm12 md6 lg4 columns">
-                        <table class="table-striped-columns activity-table-striped-columns width-full std-txt std-txt-S mrg-L algn-lft" width="208" border="0">
+                        <table class="table-striped-columns activity-table-striped-columns width-full std-txt std-txt-S mrg-btm-L algn-lft" width="208" border="0">
 
                             <tbody>
                                 <tr>
@@ -159,12 +159,12 @@ class Tables extends Component {
                                     <th class="title-S width-quarter table-points">Points</th>
                                 </tr>
                                 <tr>
-                                    <td><span>12/30/2017</span><span>Stonebriar Mall</span><span>JCPenney Credit Card</span><span class="mrg-XS">Eligible Amount: $80.75</span>
+                                    <td><span>12/30/2017</span><span>Stonebriar Mall</span><span>JCPenney Credit Card</span><span class="mrg-btm-XS">Eligible Amount: $80.75</span>
                                         <span class="activity-icon color-slate-svg" dangerouslySetInnerHTML={{ __html: storeImage }} /><span class="table-icon-content">In Store Purchase</span></td>
                                     <td class="table-points">+80 points</td>
                                 </tr>
                                 <tr>
-                                    <td><span>12/30/2017</span><span>jcp.com</span><span>Master Card</span><span class="mrg-XS">Eligible Amount: $46.99</span>
+                                    <td><span>12/30/2017</span><span>jcp.com</span><span>Master Card</span><span class="mrg-btm-XS">Eligible Amount: $46.99</span>
                                         <span class="activity-icon color-slate-svg" dangerouslySetInnerHTML={{ __html: cartImage }} /><span class="table-icon-content">Online Purchase</span></td>
                                     <td class="table-points">+23 points</td>
                                 </tr>
@@ -187,8 +187,8 @@ class Tables extends Component {
                             <div class="colHeader std-txt std-txt-S">Price</div>
                             <div class="colChild priceCol">
                                 <div class="price-card">
-                                    <div class="price price-promo mrg-XS color-penneyred">GREEN MONDAL DEAL!</div>
-                                    <div class="price price-S mrg-rght-XS mrg-XS">$29.99
+                                    <div class="price price-promo mrg-btm-XS color-penneyred">GREEN MONDAL DEAL!</div>
+                                    <div class="price price-S mrg-rght-XS mrg-btm-XS">$29.99
                                         <span class="price price-note color-penneyred"> sale</span>
                                     </div>
                                     <div class="price price-note color-slate std-txt">
@@ -199,8 +199,8 @@ class Tables extends Component {
                             </div>
                             <div class="colChild priceCol">
                                 <div class="price-card">
-                                    <div class="price price-promo mrg-XS color-penneyred">GREEN MONDAL DEAL!</div>
-                                    <div class="price price-S mrg-rght-XS mrg-XS">$29.99
+                                    <div class="price price-promo mrg-btm-XS color-penneyred">GREEN MONDAL DEAL!</div>
+                                    <div class="price price-S mrg-rght-XS mrg-btm-XS">$29.99
                                         <span class="price price-note color-penneyred"> sale</span>
                                     </div>
                                     <div class="price price-note color-slate std-txt">
@@ -211,8 +211,8 @@ class Tables extends Component {
                             </div>
                             <div class="colChild priceCol">
                                 <div class="price-card">
-                                    <div class="price price-promo mrg-XS color-penneyred">GREEN MONDAL DEAL!</div>
-                                    <div class="price price-S mrg-rght-XS mrg-XS">$29.99
+                                    <div class="price price-promo mrg-btm-XS color-penneyred">GREEN MONDAL DEAL!</div>
+                                    <div class="price price-S mrg-rght-XS mrg-btm-XS">$29.99
                                         <span class="price price-note color-penneyred"> sale</span>
                                     </div>
                                     <div class="price price-note color-slate std-txt">
@@ -223,8 +223,8 @@ class Tables extends Component {
                             </div>
                             <div class="colChild priceCol">
                                 <div class="price-card">
-                                    <div class="price price-promo mrg-XS color-penneyred">GREEN MONDAL DEAL!</div>
-                                    <div class="price price-S mrg-rght-XS mrg-XS">$29.99
+                                    <div class="price price-promo mrg-btm-XS color-penneyred">GREEN MONDAL DEAL!</div>
+                                    <div class="price price-S mrg-rght-XS mrg-btm-XS">$29.99
                                         <span class="price price-note color-penneyred"> sale</span>
                                     </div>
                                     <div class="price price-note color-slate std-txt">

@@ -286,11 +286,11 @@ class Carousel extends Component {
 
         <div className="row" id="carousel">
           <div className="md12 lg12 sm12 column">
-            <h2 className="title title-L mrg-M">
+            <h2 className="title title-L mrg-btm-M">
               PDP Carousels & Video Player
             </h2>
 
-            <div className="carousel-container carousel-container-vertical mrg-L hide-for-medium-only hide-for-small-only">
+            <div className="carousel-container carousel-container-vertical mrg-btm-L hide-for-medium-only hide-for-small-only">
               <div className="carousel-main-img">
                 <Slider ref="mainSlider" {...pdpPrimaryCarouselSettings}>
                   {/* first carousel main image */}
@@ -334,7 +334,7 @@ class Carousel extends Component {
             </div>
 
 
-            <div className="carousel-container carousel-secondary carousel-container-horizontal mrg-L hide-for-medium-only hide-for-small-only">
+            <div className="carousel-container carousel-secondary carousel-container-horizontal mrg-btm-L hide-for-medium-only hide-for-small-only">
               <div className="carousel-main-img">
                 <Slider ref="secondarySlider" {...pdpSecondaryCarouselSettings}>
                   <div>
@@ -375,7 +375,7 @@ class Carousel extends Component {
               </div>
             </div>
 
-            <div className="carousel-container carousel-container-horizontal mrg-L show-for-medium-only show-for-small-only">
+            <div className="carousel-container carousel-container-horizontal mrg-btm-L show-for-medium-only show-for-small-only">
               <Slider ref="navSlider" {...pdpPrimaryMobileCarouselNavSettings}>
                 {PrimaryImgUrls.map((url, index) => {
                   return (

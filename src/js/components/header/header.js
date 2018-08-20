@@ -34,7 +34,7 @@ class Header extends Component {
 
         <div class="expand-collapse-section" id={'changeMyStoreZip' + type}>
           <div class="button-preview text-center my-location">
-            <a href="javascript:void();" class="btn btn-secondary btn-M mrg-M mrg-rght-M"><span class="icon" dangerouslySetInnerHTML={{ __html: targetImage }} /><span>Use my Location</span></a>
+            <a href="javascript:void();" class="btn btn-secondary btn-M mrg-btm-M mrg-rght-M"><span class="icon" dangerouslySetInnerHTML={{ __html: targetImage }} /><span>Use my Location</span></a>
             <a href="javascript:void();" class="cancel-btn">cancel</a>
           </div>
           <div class="">
@@ -64,7 +64,7 @@ class Header extends Component {
         </div>
         <div class="side-panel-row-wrap no-border padding-bot-zero">
           <div class="side-panel-row">
-            <div class="side-panel-col side-panel-col-select mrg-M">
+            <div class="side-panel-col side-panel-col-select mrg-btm-M">
               <div class="dropdown-menu-block column">
                 <div class="pos-rel fl-left">
                   <a class="dropdown-button title-S">Filter by Services <span class="arrow"></span></a>
@@ -73,98 +73,98 @@ class Header extends Component {
                       <span>
                         <ul>
                           <li class="dropdown-list">
-                            <label class="checkbox mrg-M" >
+                            <label class="checkbox mrg-btm-M" >
                               <input type="checkbox" defaultChecked="" />
                               <span class="left">label</span>
                               <span class="right-label">(1,008)</span>
                             </label>
                           </li>
                           <li class="dropdown-list">
-                            <label class="checkbox mrg-M">
+                            <label class="checkbox mrg-btm-M">
                               <input type="checkbox" defaultChecked="" />
                               <span class="left">label</span>
                               <span class="right-label">(1,008)</span>
                             </label>
                           </li>
                           <li class="dropdown-list">
-                            <label class="checkbox mrg-M">
+                            <label class="checkbox mrg-btm-M">
                               <input type="checkbox" defaultChecked="" />
                               <span class="left">label</span>
                               <span class="right-label">(1,008)</span>
                             </label>
                           </li>
                           <li class="dropdown-list">
-                            <label class="checkbox mrg-M">
+                            <label class="checkbox mrg-btm-M">
                               <input type="checkbox" defaultChecked="" />
                               <span class="left">label</span>
                               <span class="right-label">(1,008)</span>
                             </label>
                           </li>
                           <li class="dropdown-list">
-                            <label class="checkbox mrg-M">
+                            <label class="checkbox mrg-btm-M">
                               <input type="checkbox" defaultChecked="" />
                               <span class="left">label</span>
                               <span class="right-label">(1,008)</span>
                             </label>
                           </li>
                           <li class="dropdown-list">
-                            <label class="checkbox mrg-M">
+                            <label class="checkbox mrg-btm-M">
                               <input type="checkbox" defaultChecked="" />
                               <span class="left">label</span>
                               <span class="right-label">(1,008)</span>
                             </label>
                           </li>
                           <li class="dropdown-list">
-                            <label class="checkbox mrg-M">
+                            <label class="checkbox mrg-btm-M">
                               <input type="checkbox" defaultChecked="" />
                               <span class="left">label</span>
                               <span class="right-label">(1,008)</span>
                             </label>
                           </li>
                           <li class="dropdown-list">
-                            <label class="checkbox mrg-M">
+                            <label class="checkbox mrg-btm-M">
                               <input type="checkbox" defaultChecked="" />
                               <span class="left">label</span>
                               <span class="right-label">(1,008)</span>
                             </label>
                           </li>
                           <li class="dropdown-list">
-                            <label class="checkbox mrg-M">
+                            <label class="checkbox mrg-btm-M">
                               <input type="checkbox" defaultChecked="" />
                               <span class="left">label</span>
                               <span class="right-label">(1,008)</span>
                             </label>
                           </li>
                           <li class="dropdown-list">
-                            <label class="checkbox mrg-M">
+                            <label class="checkbox mrg-btm-M">
                               <input type="checkbox" defaultChecked="" />
                               <span class="left">label</span>
                               <span class="right-label">(1,008)</span>
                             </label>
                           </li>
                           <li class="dropdown-list">
-                            <label class="checkbox mrg-M">
+                            <label class="checkbox mrg-btm-M">
                               <input type="checkbox" defaultChecked="" />
                               <span class="left">label</span>
                               <span class="right-label">(1,008)</span>
                             </label>
                           </li>
                           <li class="dropdown-list">
-                            <label class="checkbox mrg-M">
+                            <label class="checkbox mrg-btm-M">
                               <input type="checkbox" defaultChecked="" />
                               <span class="left">label</span>
                               <span class="right-label">(1,008)</span>
                             </label>
                           </li>
                           <li class="dropdown-list">
-                            <label class="checkbox mrg-M">
+                            <label class="checkbox mrg-btm-M">
                               <input type="checkbox" defaultChecked="" />
                               <span class="left">label</span>
                               <span class="right-label">(1,008)</span>
                             </label>
                           </li>
                           <li class="dropdown-list">
-                            <label class="checkbox mrg-M">
+                            <label class="checkbox mrg-btm-M">
                               <input type="checkbox" defaultChecked="" />
                               <span class="left">label</span>
                               <span class="right-label">(1,008)</span>
@@ -193,8 +193,8 @@ class Header extends Component {
           <div class="side-panel-row-wrap">
             <div class="side-panel-row">
               <div class="side-panel-col side-panel-col-details">
-                <h4 class="mrg-S">Stonebriar Mall <span class=" color-slate">(3.5mi)</span></h4>
-                <p class="std-txt std-txt-S mrg-XS color-nightsky">2480 Preston Rd</p>
+                <h4 class="mrg-btm-S">Stonebriar Mall <span class=" color-slate">(3.5mi)</span></h4>
+                <p class="std-txt std-txt-S mrg-btm-XS color-nightsky">2480 Preston Rd</p>
               </div>
               <div class="side-panel-col-button">
                 <a href="javascript:void(0);" class="btn btn-M btn-full btn-primary btn-disabled">
@@ -205,10 +205,10 @@ class Header extends Component {
 
             <div class="side-panel-col-full">
               <div class="expand-collapse-section change-my-store-details" id={'storeLising1' + type}>
-                <div class="std-txt std-txt-S mrg-M color-nightsky">
+                <div class="std-txt std-txt-S mrg-btm-M color-nightsky">
                   <a href="javascript:void(0);" class="color-nightsky">Get Directions</a> | 972-578-8666
                   </div>
-                <div class="std-txt std-txt-S mrg-M color-slate">
+                <div class="std-txt std-txt-S mrg-btm-M color-slate">
                   Mon-Thu : 10am-10pm<br />
                   Fri : 9am-11pm<br />
                   Sat : 8am-11pm<br />
@@ -236,8 +236,8 @@ class Header extends Component {
           <div class="side-panel-row-wrap no-border">
             <div class="side-panel-row">
               <div class="side-panel-col side-panel-col-details">
-                <h4 class="mrg-S">Collin Creek Mall <span class=" color-slate">(5.2mi)</span></h4>
-                <p class="std-txt std-txt-S mrg-XS color-nightsky">2480 Preston Rd</p>
+                <h4 class="mrg-btm-S">Collin Creek Mall <span class=" color-slate">(5.2mi)</span></h4>
+                <p class="std-txt std-txt-S mrg-btm-XS color-nightsky">2480 Preston Rd</p>
               </div>
               <div class="side-panel-col-button">
                 <a href="javascript:void(0);" class="btn btn-M btn-full btn-primary">
@@ -248,10 +248,10 @@ class Header extends Component {
 
             <div class="side-panel-col-full">
               <div class="expand-collapse-section change-my-store-details" id={'storeLising2' + type} >
-                <div class="std-txt std-txt-S mrg-M color-nightsky">
+                <div class="std-txt std-txt-S mrg-btm-M color-nightsky">
                   <a href="javascript:void(0);" class="color-nightsky">Get Directions</a> | 972-578-8667
                   </div>
-                <div class="std-txt std-txt-S mrg-M color-slate">
+                <div class="std-txt std-txt-S mrg-btm-M color-slate">
                   Mon-Thu : 10am-10pm<br />
                   Fri : 9am-11pm<br />
                   Sat : 8am-11pm<br />
@@ -677,8 +677,8 @@ class Header extends Component {
       <div>
         <div class="row design-system-enable-hide">
           {/* <div class="sm12 columns">
-            <h1 class="title title-XL mrg-L">Header</h1>
-            <h2 class="std-txt std-txt-XL mrg-L max-width-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h2>
+            <h1 class="title title-XL mrg-btm-L">Header</h1>
+            <h2 class="std-txt std-txt-XL mrg-btm-L max-width-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h2>
           </div> */}
           <div>
             <div class="sm12 columns">
@@ -988,11 +988,11 @@ class Header extends Component {
                             <ul class="tooltip tooltip-top-right tooltip-long tooltip-list">
                               <li>
                                 <div class="main-menu-secondary-my-store-listing">
-                                  <h4 class="title title-M mrg-S">Collin Creek Mall</h4>
-                                  <p class="std-txt std-txt-M mrg-M">821 N Central Expwy<br />
+                                  <h4 class="title title-M mrg-btm-S">Collin Creek Mall</h4>
+                                  <p class="std-txt std-txt-M mrg-btm-M">821 N Central Expwy<br />
                                     Plano, TX 75075</p>
-                                  <p class="mrg-M"><a href="javascript:void(0);">Get Directions</a></p>
-                                  <p class="std-txt std-txt-M mrg-M">Mon-Thu : 10am-10pm<br />
+                                  <p class="mrg-btm-M"><a href="javascript:void(0);">Get Directions</a></p>
+                                  <p class="std-txt std-txt-M mrg-btm-M">Mon-Thu : 10am-10pm<br />
                                     Fri : 9am-11pm<br />
                                     Sat : 8am-11pm<br />
                                     Sun : 9am-10pm</p>
@@ -1036,7 +1036,7 @@ class Header extends Component {
                 <h1 class="title title-XXL">Hi, Ellen!</h1>
                 <p class="my-account-welcome">Welcome JCP Cardmember </p>
               </div>
-              <div class="my-account-list mrg-L">
+              <div class="my-account-list mrg-btm-L">
                 <ul>
                   <li class="account-list-label color-concrete-svg"><span class="account-icon" dangerouslySetInnerHTML={{ __html: accountImage }} /><a href="javascript:void(0)">My Account</a></li>
                   <li class="account-list-label color-concrete-svg"><span class="account-icon" dangerouslySetInnerHTML={{ __html: trackOrderImage }} /><a href="javascript:void(0)">My Orders</a></li>
@@ -1085,7 +1085,7 @@ class Header extends Component {
             <div class="side-panel-content my-account-container input-form">
               <div class="sm12 md12 columns row">
                 {/* <div class="form-float-label error-message">
-                  <div class="msg msg-error mrg-L">The email address or password you entered was not found. Please try again.</div>
+                  <div class="msg msg-error mrg-btm-L">The email address or password you entered was not found. Please try again.</div>
                 </div> */}
                 <div class="form-float-label">
                   <input class="form-control email-text input-text" id="email" type="text" placeholder="Email " />
@@ -1099,22 +1099,22 @@ class Header extends Component {
                 <label class="checkbox fl-left">
                   <input type="checkbox" defaultChecked="true" /> <span>Remember Me</span>
                 </label>
-                <div class="fl-right std-txt std-txt-M mrg-L">
+                <div class="fl-right std-txt std-txt-M mrg-btm-L">
                   <a href="javascript:void(0);" id="siginForgotPswd" >Forgot Password?</a>
                 </div>
                 <div class="text-center">
-                  <a href="javascript:void();" role="button" class="btn btn-primary btn-M mrg-M col12" id="siginmyAccount">Sign In</a>
+                  <a href="javascript:void();" role="button" class="btn btn-primary btn-M mrg-btm-M col12" id="siginmyAccount">Sign In</a>
                 </div>
                 <p class="or-split text-center">
                   <span>or</span>
                 </p>
                 <div class="text-center">
-                  <a href="javascript:void();" id="siginCreateAct" role="button" class="btn btn-secondary btn-M mrg-M col12" >Create Account</a>
+                  <a href="javascript:void();" id="siginCreateAct" role="button" class="btn btn-secondary btn-M mrg-btm-M col12" >Create Account</a>
                 </div>
               </div>
               <div class="my-account-bottom mrg-top-XL">
                 <div class="menu-item">
-                  <div class="my-account-list mrg-L">
+                  <div class="my-account-list mrg-btm-L">
                     <ul>
                       <li class="account-list-label color-concrete-svg"><span class="account-icon" dangerouslySetInnerHTML={{ __html: trackOrderImage }} /><a href="javascript:void(0)">My Orders</a></li>
                       <li class="account-list-label color-concrete-svg"><span class="account-icon" dangerouslySetInnerHTML={{ __html: heartfillImage }} /><a href="javascript:void(0)">My Lists</a></li>
@@ -1137,14 +1137,14 @@ class Header extends Component {
                   </div>
                   <div class="member-section text-center">
                     <h2 class="title title-L">Earn Rewards 2x Faster</h2>
-                    <span class="dis-block mrg-M">with your JCPenney Credit Card</span>
+                    <span class="dis-block mrg-btm-M">with your JCPenney Credit Card</span>
                   </div>
                   <div class="text-center">
-                    <a href="javascript:void();" role="button" class="btn btn-secondary btn-M mrg-M col6">Apply Now</a>
+                    <a href="javascript:void();" role="button" class="btn btn-secondary btn-M mrg-btm-M col6">Apply Now</a>
                   </div>
                   <div class="text-center">
-                    <span class="dis-block mrg-S">Already a cardmember? </span>
-                    <a class="mrg-M dis-block" href="javascript:void();">View Balance & Pay Bill</a>
+                    <span class="dis-block mrg-btm-S">Already a cardmember? </span>
+                    <a class="mrg-btm-M dis-block" href="javascript:void();">View Balance & Pay Bill</a>
                   </div>
                 </div>
               </div>
@@ -1169,7 +1169,7 @@ class Header extends Component {
             </header>
             <div class="side-panel-content my-account-container cam-card-container">
               <h3>No / Unlinked JCP CC:</h3>
-              <div class="card-item text-center col12 mrg-L mrg-top-L">
+              <div class="card-item text-center col12 mrg-btm-L mrg-top-L">
                 <div class="card-jcp dis-inline-block">
                   <span class="dis-block" dangerouslySetInnerHTML={{ __html: cardjcpredImage }} />
                 </div>
@@ -1181,18 +1181,18 @@ class Header extends Component {
                 </div>
                 <div class="member-section text-center">
                   <h2 class="title title-L">Earn Rewards 2x Faster</h2>
-                  <span class="dis-block mrg-M">with your JCPenney Credit Card</span>
+                  <span class="dis-block mrg-btm-M">with your JCPenney Credit Card</span>
                 </div>
                 <div class="text-center">
-                  <a href="javascript:void();" role="button" class="btn btn-secondary btn-M mrg-M">Apply Now</a>
+                  <a href="javascript:void();" role="button" class="btn btn-secondary btn-M mrg-btm-M">Apply Now</a>
                 </div>
                 <div class="text-center">
-                  <span class="dis-block mrg-S">Already a cardmember? </span>
-                  <a class="mrg-M dis-block" href="javascript:void();">View Balance & Pay Bill</a>
+                  <span class="dis-block mrg-btm-S">Already a cardmember? </span>
+                  <a class="mrg-btm-M dis-block" href="javascript:void();">View Balance & Pay Bill</a>
                 </div>
               </div>
               <h3>Linked Red JCP CC:</h3>
-              <div class="card-member-status mrg-top-L mrg-L">
+              <div class="card-member-status mrg-top-L mrg-btm-L">
                 <div class="member-section text-center">
                   <h2 class="title title-L">Go for the Gold!  </h2>
                   <p>Spend just $200 more to earn Gold cardmember status and reap the rewards! <a href="javascript:void(0);">Learn More </a></p>
@@ -1213,7 +1213,7 @@ class Header extends Component {
               </div>
 
               <h3>Linked Gold JCP CC:</h3>
-              <div class="card-member-status mrg-L">
+              <div class="card-member-status mrg-btm-L">
                 <div class="member-section text-center">
                   <h2 class="title title-L">Platinum: It’s Better Than Gold </h2>
                   <p>Spend just $300 more to earn Gold cardmember status and reap the rewards! <a href="javascript:void(0);">Learn More </a></p>
@@ -1274,20 +1274,20 @@ class Header extends Component {
             </header>
             <div class="side-panel-content my-account-container input-form">
               <div class="sm12 md12 columns row">
-                {/* <div class="msg msg-success mrg-M">Email has been sent! Please check your inbox.<span class="icon msg-close color-success-type-svg " dangerouslySetInnerHTML={{ __html: closeImage }} /></div> */}
+                {/* <div class="msg msg-success mrg-btm-M">Email has been sent! Please check your inbox.<span class="icon msg-close color-success-type-svg " dangerouslySetInnerHTML={{ __html: closeImage }} /></div> */}
                 <div class="sm12 md12 columns text-center">
-                  <h1 class="mrg-M title title-XL">Forgot Your Password?</h1>
-                  <div class="mrg-M std-txt std-txt-M color-nightsky">Enter the email address for your jcp.com account and we'll send you instructions to change your password.</div>
+                  <h1 class="mrg-btm-M title title-XL">Forgot Your Password?</h1>
+                  <div class="mrg-btm-M std-txt std-txt-M color-nightsky">Enter the email address for your jcp.com account and we'll send you instructions to change your password.</div>
                 </div>
                 <div class="form-float-label">
                   <input class="form-control email-text input-text" id="email" type="text" placeholder="Email" />
                   <label htmlFor="email">Email</label>
                 </div>
                 <div class="text-center">
-                  <a href="javascript:void();" role="button" class="btn btn-primary btn-M mrg-M col12 color-white">Send Email</a>
-                  {/* <a href="javascript:void();" role="button" class="btn btn-disabled btn-M mrg-M col12 color-white">Send Email</a> */}
+                  <a href="javascript:void();" role="button" class="btn btn-primary btn-M mrg-btm-M col12 color-white">Send Email</a>
+                  {/* <a href="javascript:void();" role="button" class="btn btn-disabled btn-M mrg-btm-M col12 color-white">Send Email</a> */}
                 </div>
-                <div class="mrg-M std-txt std-txt-M color-nightsky text-center">Having trouble accessing your account?
+                <div class="mrg-btm-M std-txt std-txt-M color-nightsky text-center">Having trouble accessing your account?
 If you’re unable to change your password, please call our Customer Care team at 1-800-322-1189</div>
               </div>
             </div>
@@ -1309,8 +1309,8 @@ If you’re unable to change your password, please call our Customer Care team a
             <div class="side-panel-content my-account-container input-form">
               <div class="sm12 md12 columns row">
                 <div class="sm12 md12 columns row text-center">
-                  <h1 class="mrg-S title title-XL">Create Account</h1>
-                  <div class="mrg-M std-txt std-txt-M color-nightsky">Save more and earn rewards</div>
+                  <h1 class="mrg-btm-S title title-XL">Create Account</h1>
+                  <div class="mrg-btm-M std-txt std-txt-M color-nightsky">Save more and earn rewards</div>
                 </div>
                 <div class="form-float-label">
                   <input class="form-control input-text" type="text" id="fname" placeholder="First Name" />
@@ -1334,9 +1334,9 @@ If you’re unable to change your password, please call our Customer Care team a
                   <a href="javascript:void(0);" data-textid="password2" class="show-pwd title-S">show</a>
                 </div>
                 <div class="text-center" >
-                  <a href="javascript:void();" role="button" class="btn btn-primary btn-M mrg-M col12 color-white" id="createmyAccount">Create Account</a>
+                  <a href="javascript:void();" role="button" class="btn btn-primary btn-M mrg-btm-M col12 color-white" id="createmyAccount">Create Account</a>
                 </div>
-                <div class="mrg-M std-txt std-txt-XS color-nightsky text-center md12 sm12 mrg-top-S">
+                <div class="mrg-btm-M std-txt std-txt-XS color-nightsky text-center md12 sm12 mrg-top-S">
                   By creating an account, I agree to the Rewards <a href="javascript:void(0);">Terms & Conditions</a> and to receive email offers at the email address I provided.
                 </div>
               </div>
@@ -1373,17 +1373,17 @@ If you’re unable to change your password, please call our Customer Care team a
                 <label class="checkbox fl-left">
                   <input type="checkbox" defaultChecked="true" /> <span>Remember Me</span>
                 </label>
-                <div class="fl-right std-txt std-txt-M mrg-L">
+                <div class="fl-right std-txt std-txt-M mrg-btm-L">
                   <a href="javascript:void(0);" id="siginForgotPswd" >Forgot Password?</a>
                 </div>
                 <div class="text-center">
-                  <a href="javascript:void();" role="button" class="btn btn-primary btn-M mrg-M col12" id="siginmyAccount">Sign In</a>
+                  <a href="javascript:void();" role="button" class="btn btn-primary btn-M mrg-btm-M col12" id="siginmyAccount">Sign In</a>
                 </div>
                 <p class="or-split text-center">
                   <span>or</span>
                 </p>
                 <div class="text-center">
-                  <a href="javascript:void();" id="siginCreateAct" role="button" class="btn btn-secondary btn-M mrg-M col12" >Create Account</a>
+                  <a href="javascript:void();" id="siginCreateAct" role="button" class="btn btn-secondary btn-M mrg-btm-M col12" >Create Account</a>
                 </div>
               </div>
             </div>

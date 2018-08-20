@@ -9,7 +9,7 @@ class Tabs extends Component {
     return (
       <div>
         <div class="row">
-          <div class="tab-container mrg-XL">
+          <div class="tab-container mrg-btm-XL">
             <ul class="tab-header">
               <li class="title tab-lbl btn-active">
                 <span>Tab 1</span>

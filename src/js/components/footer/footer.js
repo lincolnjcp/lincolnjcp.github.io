@@ -110,7 +110,7 @@ class Footer extends Component {
                     <div class="subscription-wrapper">
                         <ul data-automation-id="footer-block-subscribe" class="container-width col12">
                             <li class="subscription-row">
-                                <div data-automation-id="promo-title" class="subs-title std-txt title-S color-nightsky mrg-XS">Signup for text* or email alerts, offers and promotions</div>
+                                <div data-automation-id="promo-title" class="subs-title std-txt title-S color-nightsky mrg-btm-XS">Signup for text* or email alerts, offers and promotions</div>
                                 <form>
                                     <div class="marketing-section" data-automation-id="">
                                         <div class="input-wrapper input-form">

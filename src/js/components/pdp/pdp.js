@@ -111,7 +111,7 @@ class Pdp extends Component {
             <div>
                 <div className="row">
                     <Header />
-                    <div className="product-title-block mrg-L mrg-top-L">
+                    <div className="product-title-block mrg-btm-L mrg-top-L">
                         <div className="breadcrumbs-block">
                             <ul className="breadcrumbs">
                                 <li><a href="#">JCPenney</a></li>
@@ -119,7 +119,7 @@ class Pdp extends Component {
                                 <li>Tops</li>
                             </ul>
                         </div>
-                        <h1 className="title title-L mrg-top-S mrg-S">St. John's Bay Long Sleeve V Neck Pullover Sweater</h1>
+                        <h1 className="title title-L mrg-top-S mrg-btm-S">St. John's Bay Long Sleeve V Neck Pullover Sweater</h1>
                         <div className="lg12 sm12 md12 xl12 nopad">
                             <div className="star-preview-col fl-left sm12 md6 lg6 xl6 nopad">
                                 <ul className="star-ratings-S">
@@ -155,14 +155,14 @@ class Pdp extends Component {
                         <Carousel />
                     </div>
                     <div className="md6 sm12 lg6 xl6">
-                        <div className="pdp-pricing mrg-M">
+                        <div className="pdp-pricing mrg-btm-M">
                             <div className="price-card">
-                                <div className="price price-promo mrg-XS color-penneyred">LARGE MARKETING LABEL</div>
-                                <div className="price price-M mrg-rght-XS mrg-top-S mrg-M">$59.99
+                                <div className="price price-promo mrg-btm-XS color-penneyred">LARGE MARKETING LABEL</div>
+                                <div className="price price-M mrg-rght-XS mrg-top-S mrg-btm-M">$59.99
                                 <span className="price price-note-M mrg-lft-XS"> sale </span>
                                     <span className="price price-note-M mrg-lft-S color-slate std-txt">was $89.99</span><span className="price price-note-M mrg-lft-M color-slate std-txt">20% off</span>
                                 </div>
-                                <div className="price price-M mrg-rght-XS flag flag-price mrg-XS">$40.99</div>
+                                <div className="price price-M mrg-rght-XS flag flag-price mrg-btm-XS">$40.99</div>
                                 <span className="price price-note-M color-penneyred">Extra 20% off</span>
                                 <div className="price">
                                     <span className="price price-note-M color-penneyred">with coupon code: FUNDEAL </span>
@@ -170,7 +170,7 @@ class Pdp extends Component {
                                 </div>
                             </div>
                         </div>
-                        <div className="fit-predictor mrg-L">
+                        <div className="fit-predictor mrg-btm-L">
                             <span className="title tile-M">Fit Predictor </span>
                             <a href="javascript:void(0);" className="mrg-rght-S">calculate your size </a>
                             {/* <span className="icon " dangerouslySetInnerHTML={{ __html: rulerImage }} /> */}
@@ -206,11 +206,11 @@ class Pdp extends Component {
                                 </div>
                             </div>
                         </div>
-                        <div className="overall-fit mrg-M">
+                        <div className="overall-fit mrg-btm-M">
                             <img src="/images/global/bazaar-voice-fit@3x.png" alt="" />
                         </div>
 
-                        <div className="color-swatches-block mrg-L">
+                        <div className="color-swatches-block mrg-btm-L">
                             <p>
                                 <span><strong>Color:</strong> Blue</span>
                             </p>
@@ -262,7 +262,7 @@ class Pdp extends Component {
                                 </div>
                             </div>
                         </div>
-                        <span className="std-txt std-txt-XS mrg-M fl-left">Order before 3 pm to get same day pickup.</span>
+                        <span className="std-txt std-txt-XS mrg-btm-M fl-left">Order before 3 pm to get same day pickup.</span>
                         <div className="sm12 md12 lg12 xl12 nopad">
                             <div className="sm12 md3 lg3 xl3 nopad">
                                 <div className="select-form">
@@ -280,13 +280,13 @@ class Pdp extends Component {
                                 </div>
                             </div>
                             <div className="sm12 md9 lg9 xl9">
-                                <a href="javascript:void();" role="button" className="btn btn-primary btn-L mrg-L sm12 md12 lg12 xl12">Add to Cart</a>
+                                <a href="javascript:void();" role="button" className="btn btn-primary btn-L mrg-btm-L sm12 md12 lg12 xl12">Add to Cart</a>
                             </div>
                             <div className="sm12 md6 lg6 xl6 nopad">
-                                <a href="javascript:void();" role="button" className="btn btn-secondary btn-L mrg-L sm12 md12 lg12 xl12 color-nightsky">Add to List</a>
+                                <a href="javascript:void();" role="button" className="btn btn-secondary btn-L mrg-btm-L sm12 md12 lg12 xl12 color-nightsky">Add to List</a>
                             </div>
                             <div className="sm12 md6 lg6 xl6">
-                                <a href="javascript:void();" role="button" className="btn btn-secondary btn-L mrg-L sm12 md12 lg12 xl12 color-nightsky">Add to Registry</a>
+                                <a href="javascript:void();" role="button" className="btn btn-secondary btn-L mrg-btm-L sm12 md12 lg12 xl12 color-nightsky">Add to Registry</a>
                             </div>
                         </div>
                     </div>

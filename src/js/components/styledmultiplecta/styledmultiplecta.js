@@ -44,15 +44,15 @@ class styleDMultipleCTA extends Component {
                 <img src="../../images/design-system/image-story-4.png" alt="productImg" />
               </a>
             </div>
-            <div class="sm12 lg12 md12 xl12 xxl12 nopad-sm nopad-md">
+            <div class="promo-description sm12 lg12 md12 xl12 xxl12 nopad-sm nopad-md">
               <h1 class="promo-title promo-lbl mrg-top-M">Back To School</h1>
               <h4 class="promo-content std-txt">EVERYTHING YOU NEED TO ACE THE YEAR <br />with code: <span class="promo-code txt-bold">7GOSHOP</span></h4>
-              <p class="std-txt std-txt-XS mrg-top-M mrgn-ST-at-S">select styles <a href="#" class="mrg-lft-S">see details</a></p>
+              <p class="std-txt std-txt-XS mrg-top-M mrg-XXXS-at-S">select styles <a href="#" class="mrg-lft-S">see details</a></p>
               <div class="promo-links mrg-top-M">
-                <a href="javascript:void();" role="button" class="btn btn-secondary btn-S mrg-M-at-M">Juniors</a>
-                <a href="javascript:void();" role="button" class="btn btn-secondary btn-S mrg-M-at-M">Guys</a>
-                <a href="javascript:void();" role="button" class="btn btn-secondary btn-S mrg-M-at-M">Kids</a>
-                <a href="javascript:void();" role="button" class="btn btn-secondary btn-S mrg-M-at-M">Shop All</a>
+                <a href="javascript:void();" role="button" class="btn btn-secondary btn-S">Guys</a>
+                <a href="javascript:void();" role="button" class="btn btn-secondary btn-S">Juniors</a>
+                <a href="javascript:void();" role="button" class="btn btn-secondary btn-S">Kids</a>
+                <a href="javascript:void();" role="button" class="btn btn-secondary btn-S">Shop All</a>
               </div>
             </div>
           </div>
