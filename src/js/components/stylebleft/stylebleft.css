@@ -44,11 +44,13 @@
                 top: 278px;
                 border-top: 6px solid #5580ae;
             }
-            & h1.banner-title {
+            & .promo-title-XL {
                 font-size: 48px;
+
                 @media (--viewport-md-down) {
                     font-size: 32px;
                 }
+                
                 @media (--viewport-sm-down) {
                     font-size: 20px;
                 }
@@ -111,10 +113,13 @@
                     & .icon {
                         position: absolute;
                         right: 0;
-                        top: 18px;
+                        top: 20px;
                         & svg {
                             width: 16px;
                             height: 16px;
+                        }
+                        @media (--viewport-md-down), (--viewport-sm-down) {
+                            top: 12px;
                         }
                     }
                     & .minus-icon {
@@ -123,7 +128,13 @@
                         border-top: 2px solid #111;
                         height: 2px;
                         right: 13px;
-                        top: 17px;
+                        top: 32px;
+                        @media (--viewport-md-down), (--viewport-sm-down) {
+                            top: 26px;
+                        }
+                        @media (--viewport-xl) {
+                            top: 32px; 
+                        }
                     }
                 }
                 & .no-hover {
@@ -136,7 +147,7 @@
                     position: absolute;
                     overflow: auto;
                     z-index: 1;
-                    top: 33px;
+                    top: 44px;
                     min-width: 200px;
                     width: 200px;
                     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.25);

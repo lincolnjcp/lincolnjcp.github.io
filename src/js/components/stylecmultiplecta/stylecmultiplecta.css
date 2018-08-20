@@ -9,6 +9,9 @@
         @media (--viewport-sm-down), (--viewport-sm) {
             margin: 0 auto;
         }
+        @media (--viewport-sm-down), (--viewport-sm-only) {
+            text-align: right;
+        }
         & .banner-image {
             overflow: hidden;
 
@@ -22,6 +25,7 @@
                 height: 244px;
             }
         }
+
             & .promo-title {
                 position: relative;
                 margin: 0;
@@ -80,8 +84,13 @@
 
     & .promo-content {
         text-align: left;
+        font-size: 20px;
+        line-height: 30px;
         @media (--viewport-sm-down), (--viewport-sm-only)  {
                 text-align: right;
+                font-size: 14px;
+                letter-spacing: -0.28px;
+                line-height: 24px;
             }
         }
     }

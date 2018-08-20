@@ -11,14 +11,6 @@
         padding: 18px 26px;
     }
 
-    & h1 {
-        font-size: 32px;        
-        @media (--viewport-md-down) {
-            font-size: 20px;
-            line-height: 20px;
-        }
-    }
-
     & .promo-description {
         padding: 4px 0 0;
         @media (--viewport-sm-down) {

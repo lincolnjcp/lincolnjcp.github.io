@@ -98,6 +98,14 @@
             text-align: center;
         }
         
+        & .promo-description {
+            font-size: 16px;
+            line-height: 20px;
+
+            @media (--viewport-sm-down), (--viewport-sm-only) {
+                font-size: 14px;
+            }
+        }
     }
 }
 

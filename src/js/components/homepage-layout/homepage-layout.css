@@ -21,6 +21,7 @@
         }
         & .stylec-right-aligned {
             & .banner-container {
+                text-align: right;
                 & .cta-multi {
                     float: right;
                 }
@@ -60,4 +61,11 @@
             }
     }
 
+}
+
+.promo-title {
+    font-size: 32px;
+    @media (--viewport-md-down), (--viewport-sm-down) {
+        font-size: 20px;
+    }
 }

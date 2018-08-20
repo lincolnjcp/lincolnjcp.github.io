@@ -44,9 +44,9 @@ class styleCMultipleCTA extends Component {
                 <img src="../../images/design-system/image-story-2.png" alt="productImg" />
               </a>
             </div>
-            <div class="promo-content sm12 lg6 md6 xl6 xxl6 nopad-sm mrg-top-XL pad-lft-L">
-              <h3 class="promo-title promo-lbl promo-lbl-XL-S pad-top-S">Up To 60% OFF</h3>
-              <h4 class="std-txt std-txt-XL std-txt-S-at-S mrgn-XS mrgn-XXS-at-M mrgn-ST-at-S mrgn-XS-at-XS">XERSION ACTIVEWEAR FOR THE FAMILY</h4>
+            <div class="sm12 lg6 md6 xl6 xxl6 nopad-sm mrg-top-XL pad-lft-L">
+              <h1 class="promo-title promo-lbl pad-top-S">Up To 60% OFF</h1>
+              <h4 class="promo-content std-txt mrgn-XS mrgn-XXS-at-M mrgn-ST-at-S mrgn-XS-at-XS">XERSION ACTIVEWEAR FOR THE FAMILY</h4>
               <p class="std-txt std-txt-XS nopad">reg $20 - $70 <a href="#" class="mrg-lft-S">see details</a></p>
               <ul class="promo-links mrg-top-M std-txt std-txt-M std-txt-XS-at-S">
                 <li><a href="#">Women</a></li>

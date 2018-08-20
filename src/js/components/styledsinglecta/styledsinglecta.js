@@ -47,9 +47,9 @@ class styleDSingleCTA extends Component {
                 <img src="../../images/design-system/image-story-3.png" alt="productImg" />
               </a>
             </div>
-            <div class="promo-content sm12 lg12 md12 xl12 xxl12 nopad">
-              <h3 class="promo-lbl promo-lbl-XL-S mrg-top-M">40-50% OFF</h3>
-              <h4 class="std-txt std-txt-M std-txt-S-at-S">KIDS IZOD UNIFORMS</h4>
+            <div class="sm12 lg12 md12 xl12 xxl12 nopad">
+              <h1 class="promo-title promo-lbl mrg-top-M">40-50% OFF</h1>
+              <h4 class="promo-description std-txt mrg-top-M">KIDS IZOD UNIFORMS</h4>
               <p class="std-txt std-txt-XS mrg-top-M mrgn-ST-at-S">select styles <a href="#" class="mrg-lft-S">see details</a></p>
               <div class="promo-links mrg-top-M">
                 <a href="javascript:void();" role="button" class="btn btn-secondary btn-S mrg-M-at-M">Shop All</a>

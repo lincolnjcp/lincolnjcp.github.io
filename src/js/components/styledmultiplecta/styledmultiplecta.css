@@ -5,6 +5,7 @@
 .styled {
     & .banner-container {
         max-width: 368px;
+        text-align: center;
         @media (--viewport-sm-down) {
             margin: 0 16px;
             max-width: 100%;
@@ -42,6 +43,18 @@
                 height: 4px;
             }
         }
+
+        & .promo-content {
+            text-align: center;
+            font-size: 16px;
+            line-height: 20px;
+
+            @media (--viewport-sm-down), (--viewport-sm-only)  {
+                    text-align: center;
+                    font-size: 14px;
+                }
+            }
+
             & .promo-code {
                 color: var(--color-nightsky)
             }

@@ -59,8 +59,8 @@ class styleBLeft extends Component {
         <div class="styleb-left styleb-content">
           <div class="banner-container">
             <div class="banner-content-wrapper">
-              <h1 class="banner-title promo-lbl">Up To 50% OFF</h1>
-              <p class="banner-content color-nightsky">School’s back, smart styles ahead. Plus save more with coupon!</p>
+              <h1 class="promo-title-XL promo-lbl">Up To 50% OFF</h1>
+              <p class="banner-content std-txt color-nightsky txt-regular">School’s back, smart styles ahead. Plus save more with coupon!</p>
               <div class="std-txt std-txt-XS nopad">reg $20-$70 <a href="javascript:void(0);" class="mrg-lft-S">see details</a></div>
               <div class="dropdown-container pad-top-S">
                 <a onclick="dropdownFunction()" href="javascript:void(0)" class="elevation no-hover title title-S mrg-top-S text-center">Shop All<span class="icon plus-icon" dangerouslySetInnerHTML={{ __html: plusImage }} /><span class="minus-icon hide"></span></a>

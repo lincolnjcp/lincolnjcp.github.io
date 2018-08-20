@@ -51,8 +51,8 @@ class styleBCentre extends Component {
         <div>
           <div class="banner-container">
             <div class="banner-content-wrapper banner-content-centre text-center">
-              <h1 class="banner-title title">All For Dad</h1>
-              <p class="banner-content color-nightsky">Integer posuere erat a ante venenatis dapibus posuere</p>
+              <h1 class="promo-lbl promo-title-XL">All For Dad</h1>
+              <p class="banner-content std-txt color-nightsky txt-regular">Integer posuere erat a ante venenatis dapibus posuere</p>
               <p class="std-txt std-txt-XS nopad">reg $20 - $70 <a href="#" class="mrg-lft-S">see details</a></p>
               <div class="dropdown-container pad-top-S">
                 <a href="javascript:void(0)" class="elevation title title-S mrg-top-S">PRIMARY CTA</a>
