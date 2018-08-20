@@ -55,7 +55,6 @@
     @media (--viewport-sm-down), (--viewport-sm-only) { 
             & .promo-content {
                 text-align: left;
-                padding-bottom: 16px !important;
             }
             & .promo-title, & p {
                 text-align: left;
