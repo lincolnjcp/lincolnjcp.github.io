@@ -27,6 +27,7 @@ import styleBLeftCTA from '../components/stylebleftcta';
 import styleCSingleCTA from '../components/stylecsinglecta';
 import styleCMultipleCTA from '../components/stylecmultiplecta';
 import styleDMultipleCTA from '../components/styledmultiplecta';
+import styleDOddMultipleCTA from '../components/styledoddmultiplecta';
 import styleDSingleCTA from '../components/styledsinglecta';
 import styleEMultipleCTA from '../components/styleemultiplecta';
 import styleESingleCTA from '../components/styleesinglecta';
@@ -108,6 +109,7 @@ class DesignSystemPage extends Component {
    styleCSingleCTA: {componentElement: styleCSingleCTA, componentDisplayName: "styleCSingleCTA", componentSubNav: ['styleCSingleCTA']},
    styleCMultipleCTA: {componentElement: styleCMultipleCTA, componentDisplayName: "styleCMultipleCTA", componentSubNav: ['styleCMultipleCTA']},
    styleDMultipleCTA: {componentElement: styleDMultipleCTA, componentDisplayName: "styleDMultipleCTA", componentSubNav: ['styleDMultipleCTA']},
+   styleDOddMultipleCTA: {componentElement: styleDOddMultipleCTA, componentDisplayName: "styleDOddMultipleCTA", componentSubNav: ['styleDOddMultipleCTA']},   
    styleDSingleCTA: {componentElement: styleDSingleCTA, componentDisplayName: "styleDSingleCTA", componentSubNav: ['styleDSingleCTA']},
    styleEMultipleCTA: {componentElement: styleEMultipleCTA, componentDisplayName: "styleEMultipleCTA", componentSubNav: ['styleEMultipleCTA']},
    styleESingleCTA: {componentElement: styleESingleCTA, componentDisplayName: "styleESingleCTA", componentSubNav: ['styleESingleCTA']},

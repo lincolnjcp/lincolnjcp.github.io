@@ -408,6 +408,11 @@ const rootNav = [
                 content: 'Style "D" Multiple CTA',
             },
             {
+                to: '/home-page-redesign/styledoddmultiplecta',
+                activeClassName: 'active',
+                content: 'Style "D" Odd Multiple CTA',
+            },
+            {
                 to: '/home-page-redesign/styleesinglecta',
                 activeClassName: 'active',
                 content: 'Style "E" Single CTA',

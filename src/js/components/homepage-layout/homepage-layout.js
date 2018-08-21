@@ -5,6 +5,7 @@ import StyleBLeft from '../stylebleft/stylebleft';
 import StyleCSingleCTA from '../stylecsinglecta/stylecsinglecta';
 import StyleCMultiplecta from '../stylecmultiplecta/stylecmultiplecta';
 import StyleDMultipleCTA from '../styledmultiplecta/styledmultiplecta';
+import  StyleDOddMultipleCTA from'../styledoddmultiplecta/styledoddmultiplecta';
 import StyleDSingleCTA from '../styledsinglecta/styledsinglecta';
 // import RecommendationZone from '../recommendation-zone/recommendation-zone';
 import StyleEMultipleCTA from '../styleemultiplecta/styleemultiplecta'
