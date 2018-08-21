@@ -5,10 +5,15 @@
     width: 100%;
     max-width: 1400px;
     margin: 0 auto;
+
+    & .stylee-banner {
+        padding: 0;
+    }
 }
 .stylea-banner {
     margin-bottom: 8px;
 }
+
 .stylec-banner {
     @media (--viewport-md-down) {
         & .stylec-left-aligned {
