@@ -117,6 +117,9 @@
                 @media(--viewport-sm-down){
                     margin-bottom: 30px;
                 }
+                @media(--viewport-md-down){
+                    margin-bottom: 5px;
+                }
                 & .btn {
                     width: 100%;
                     margin: 0;
