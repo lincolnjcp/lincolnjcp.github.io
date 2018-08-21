@@ -17,7 +17,7 @@
             }
         }
         & .banner-image {
-            height: 368px;
+            height: auto;
             position: relative;
             overflow: hidden;
             @media (--viewport-sm-down) {

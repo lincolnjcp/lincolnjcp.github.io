@@ -50,11 +50,11 @@ class styleCSingleCTA extends Component {
                 </a>
               </div>
               <div class="sm12 lg6 md6 xl6 xxl6 nopad-sm mrg-top-XL pad-lft-L">
-                <h1 class="promo-title promo-lbl pad-top-S">25% OFF</h1>
-                <h4 class="promo-content std-txt mrg-XS mrg-XXS-at-M mrg-ST-at-S mrg-XS-at-XS">Nike for the family</h4>
+                <h1 class="promo-title promo-lbl mrg-top-S mrg-XXS-at-S">25% OFF</h1>
+                <h4 class="promo-content std-txt mrg-XS mrg-XS-at-M mrg-XS-at-XS mrg-XS-at-S">Nike for the family</h4>
                 <p class="std-txt std-txt-XS nopad">reg $20 - $70 <a href="#" class="mrg-lft-S">see details</a></p>
                 <ul class="promo-links mrg-top-M std-txt std-txt-M std-txt-XS-at-S">
-                  <li><a href="#">Shop All</a></li> 
+                  <li><a href="javascript:void(0)">Shop All</a></li> 
                 </ul>
               </div>
             </div>

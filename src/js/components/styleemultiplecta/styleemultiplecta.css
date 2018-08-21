@@ -34,14 +34,14 @@
                     position: absolute;
                     width: 100%;
                     height: 6px;
-                    bottom: -14px;
+                    bottom: -11px;
                     @apply --image-zoom-animation;
                     z-index: -1;
                 }
                 @media (--viewport-sm-down) {
                     &::after {
                         left: 0;
-                        bottom: -6px;
+                        bottom: -10px;
                     }
                 }
             }
@@ -70,11 +70,11 @@
                 }
             }
         &:hover .promo-title::after {
-            height: 48px;
+            height: 50px;
             width: 108%;
             transform: translate(-4%, -2px);
             @media (--viewport-sm-down) {
-                height: 30px;
+                height: 34px;
             }
         }
         &:hover .promo-title {

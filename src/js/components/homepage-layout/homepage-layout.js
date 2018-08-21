@@ -24,10 +24,10 @@ class HomepageLayout extends Component {
                     <StyleAWithoutButton />
                 </div>
                 <div class="home-container">
-                    <div class="lg12 xl12 styleb-banner">
+                    <div class="lg12 xl12 styleb-banner nopad mrg-XXS-at-S">
                         <StyleBLeft />
                     </div>
-                    <div class="stylec-banner mrg-L mrg-S-at-XS mrg-M-at-M">
+                    <div class="stylec-banner mrg-M mrg-S-at-XS mrg-M-at-M">
                         <div class="sm12 lg6 xl6 xxl6 mrg-XL-m stylec-left-aligned">
                             <StyleCSingleCTA />
                         </div>
@@ -35,14 +35,14 @@ class HomepageLayout extends Component {
                             <StyleCMultiplecta />
                         </div>
                     </div>
-                    <div class="styled-banner mrg-L mrg-M-at-M mrg-S-at-XS">
+                    <div class="styled-banner mrg-M mrg-M-at-M mrg-S-at-XS">
                         <div class="sm12 lg4 xl4 xxl4 nopad-sm">
                             <StyleDMultipleCTA />
                         </div>
                         <div class="sm12 lg4 xl4 xxl4 mrg-XXS-at-M nopad-sm">
                             <StyleDSingleCTA />
                         </div>
-                        <div class="sm12 lg4 xl4 xxl4 mrg-XXS-at-M nopad-sm">
+                        <div class="sm12 lg4 xl4 xxl4 mrg-XS-at-M nopad-sm">
                             <StyleDMultipleCTA />
                         </div>
                     </div>
