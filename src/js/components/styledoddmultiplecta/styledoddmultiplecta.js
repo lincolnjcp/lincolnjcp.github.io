@@ -45,8 +45,8 @@ class styleOddDMultipleCTA extends Component {
               </a>
             </div>
             <div class="promo-description sm12 lg12 md12 xl12 xxl12 nopad">
-              <h1 class="promo-title promo-lbl mrg-top-M">Back To School</h1>
-              <h4 class="promo-content std-txt">EVERYTHING YOU NEED TO ACE THE YEAR <br />with code: <span class="promo-code txt-bold">7GOSHOP</span></h4>
+              <h1 class="promo-title promo-lbl mrg-top-M">Up To 50% OFF</h1>
+              <h4 class="promo-content std-txt">DORM ESSENTIALS</h4>
               <p class="std-txt std-txt-XS mrg-top-S mrg-XXXS-at-S">select styles <a href="#" class="mrg-lft-S">see details</a></p>
               <div class="promo-links mrg-top-M">
                 <a href="javascript:void();" role="button" class="btn btn-secondary btn-S">Guys</a>

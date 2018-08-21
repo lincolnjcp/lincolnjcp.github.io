@@ -1,5 +1,9 @@
 .styledOdd {
-
+   & .banner-container{
+        & .banner-image:after {
+            background-color: #3fc4d1;
+        }
+    }
     & .promo-links {
         display: flex;
         flex-wrap: wrap;
