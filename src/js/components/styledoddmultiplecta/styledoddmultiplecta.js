@@ -36,12 +36,12 @@ class styleOddDMultipleCTA extends Component {
 
   render() {
     return (
-      <div class="styledOdd">
+      <div class="styled styledOdd">
         <div class="banner-container">
           <div class="sm12 lg12 md12 xl12 xxl12 nopad-sm">
             <div class="sm12 lg12 md12 xl12 xxl12 nopad-sm">
               <a class="banner-image fl-left" href="javascript:void(0)">
-                <img src="../../images/design-system/image-story-4.png" alt="productImg" />
+                <img src="../../images/design-system/image-story-5.png" alt="productImg" />
               </a>
             </div>
             <div class="promo-description sm12 lg12 md12 xl12 xxl12 nopad">
