@@ -9,6 +9,13 @@
 .stylea-banner {
     margin-bottom: 8px;
 }
+.styleb-banner {
+    & .styleb-left {
+        @media (--viewport-sm-down), (--viewport-sm-only) { 
+            margin-top: 15px;
+        }
+    }
+}
 .stylec-banner {
     @media (--viewport-md-down) {
         & .stylec-left-aligned {
