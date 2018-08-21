@@ -41,14 +41,14 @@ class styleESingleCTA extends Component {
         <div class="stylee stylee-single">
           <div class="banner-container">
             <div class="sm12 lg12 md12 xl12 xxl12 nopad">
-              <div class="sm12 lg8 md12 xl8 xxl8 nopad">
+              <div class="sm12 lg7 md12 xl7 xxl7 nopad">
                 <a class="banner-image fl-left" href="javascript:void(0)">
                   <img src="../../images/design-system/image-brandstory.png" alt="productImg" />
                 </a>
               </div>
-              <div class="promo-content sm12 lg4 md12 xl4 xxl4 nopad-sm padding-lft-S">
-                <h3 class="promo-title promo-lbl promo-lbl-XL-S pad-top-S">Discover Okie Dokie</h3>
-                <h4 class="std-txt std-txt-M mrg-top-M">Maecenas sed diam eget risus varius blandit sit amet non magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur blandit tempus porttitor. Cras justo odio, dapibus ac facilisis in, egestas eget quam.</h4>
+              <div class="promo-content sm12 lg5 md12 xl5 xxl5 nopad-sm padding-lft-S">
+                <h3 class="promo-title promo-lbl promo-lbl-XL-S pad-top-S mrg-XXS-at-S">Discover Okie Dokie</h3>
+                <h4 class="std-txt std-txt-M mrg-top-XL mrg-XS-at-S mrg-btm-L">Maecenas sed diam eget risus varius blandit sit amet non magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur blandit tempus porttitor. Cras justo odio, dapibus ac facilisis in, egestas eget quam.</h4>
                 <ul class="promo-links mrg-top-M std-txt std-txt-M std-txt-XS-at-S">
                   <li><a href="#" class="btn btn-secondary btn-S">Learn More</a></li>
                 </ul>

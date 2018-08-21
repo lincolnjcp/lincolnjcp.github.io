@@ -34,7 +34,7 @@
                     position: absolute;
                     width: 100%;
                     height: 6px;
-                    bottom: -10px;
+                    bottom: -14px;
                     @apply --image-zoom-animation;
                     z-index: -1;
                 }
