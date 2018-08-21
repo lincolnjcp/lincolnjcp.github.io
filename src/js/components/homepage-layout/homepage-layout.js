@@ -44,7 +44,7 @@ class HomepageLayout extends Component {
                             <StyleDSingleCTA />
                         </div>
                         <div class="sm12 lg4 xl4 xxl4 mrg-XS-at-M nopad-sm">
-                            <StyleDMultipleCTA />
+                            <StyleDOddMultipleCTA />
                         </div>
                     </div>
                     {/* <RecommendationZone /> */}
