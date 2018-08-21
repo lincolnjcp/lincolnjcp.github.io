@@ -51,8 +51,8 @@ class styleEMultipleCTA extends Component {
                 <h1 class="promo-title promo-lbl pad-top-S mrg-XXS-at-S">Discover Okie Dokie</h1>
                 <h4 class="promo-description std-txt mrg-top-XL mrg-XS-at-S mrg-btm-L">Maecenas sed diam eget risus varius blandit sit amet non magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur blandit tempus porttitor. Cras justo odio, dapibus ac facilisis in, egestas eget quam.</h4>
                 <ul class="promo-links mrg-top-M std-txt std-txt-M std-txt-XS-at-S">
-                  <li><a href="#" class="btn btn-secondary btn-S">Learn More</a></li>
-                  <li><a href="#" class="btn btn-secondary btn-S">Shop Now</a></li>
+                  <li><a href="javascript:void(0)" class="btn btn-secondary btn-S">Learn More</a></li>
+                  <li><a href="javascript:void(0)" class="btn btn-secondary btn-S">Shop Now</a></li>
                 </ul>
               </div>
             </div>

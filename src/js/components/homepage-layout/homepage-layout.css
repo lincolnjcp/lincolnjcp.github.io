@@ -11,7 +11,7 @@
 }
 .stylec-banner {
     @media (--viewport-md-down) {
-        & .mrg-XL-m {
+        & .stylec-left-aligned {
             margin-bottom: 32px;
         }
     }
