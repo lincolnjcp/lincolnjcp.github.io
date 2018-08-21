@@ -84,7 +84,7 @@
                             margin-right: 4px;
                         }
                         width: 45%;
-                        margin-bottom: 16px !important;
+                        margin-bottom: 16px; 
                     }
                 }
             }
@@ -112,15 +112,22 @@
 
 .single-cta {
     & .banner-container {
+        & .promo-description {
             & .promo-links {
+                @media(--viewport-sm-down){
+                    margin-bottom: 30px;
+                }
+                @media(--viewport-md-down){
+                    margin-bottom: 5px;
+                }
                 & .btn {
                     width: 100%;
                     margin: 0;
                     @media(--viewport-sm-down){
                         width: 97%;
-                        margin-bottom: 32px !important;
                     }
                 }
+            }
         }
         & .banner-image::after {
             background-color: #fdb265;

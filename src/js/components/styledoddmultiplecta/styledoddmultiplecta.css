@@ -3,12 +3,17 @@
         & .banner-image:after {
             background-color: #3fc4d1;
         }
-    }
     & .promo-links {
         display: flex;
         flex-wrap: wrap;
         & .btn {
             flex: 1 1 auto;
+            &:nth-child(odd) {
+                @media(--viewport-sm-down){
+                    margin-top: 9px;
+                }
+            }
         }
     }
+}
 }

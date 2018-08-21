@@ -13,7 +13,17 @@
 .stylea-banner {
     margin-bottom: 8px;
 }
+<<<<<<< HEAD
 
+=======
+.styleb-banner {
+    & .styleb-left {
+        @media (--viewport-sm-down), (--viewport-sm-only) { 
+            margin-top: 15px;
+        }
+    }
+}
+>>>>>>> a00dbb99bbc93f7e99a7d8ec9f635a4da2beb916
 .stylec-banner {
     @media (--viewport-md-down) {
         & .stylec-left-aligned {
