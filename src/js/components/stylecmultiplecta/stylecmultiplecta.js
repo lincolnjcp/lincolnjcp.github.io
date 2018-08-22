@@ -41,7 +41,7 @@ class styleCMultipleCTA extends Component {
           <div class="sm12 lg12 md12 xl12 xxl12 nopad">
             <div class="sm12 lg6 md6 xl6 xxl6 nopad cta-multi">
               <a class="banner-image fl-left" href="javascript:void(0)">
-                <img src="../../images/design-system/image-story-2.png" alt="productImg" />
+                <img src="/images/design-system/image-story-2.png" alt="productImg" />
               </a>
             </div>
             <div class="sm12 lg6 md6 xl6 xxl6 nopad-sm mrg-top-XL pad-lft-L">

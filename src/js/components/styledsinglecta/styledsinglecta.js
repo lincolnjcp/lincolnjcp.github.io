@@ -44,7 +44,7 @@ class styleDSingleCTA extends Component {
           <div class="sm12 lg12 md12 xl12 xxl12 nopad">
             <div class="sm12 lg12 md12 xl12 xxl12 nopad">
               <a class="banner-image fl-left" href="javascript:void(0)">
-                <img src="../../images/design-system/image-story-3.png" alt="productImg" />
+                <img src="/images/design-system/image-story-3.png" alt="productImg" />
               </a>
             </div>
             <div class="promo-description sm12 lg12 md12 xl12 xxl12 nopad">

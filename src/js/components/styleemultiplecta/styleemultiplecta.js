@@ -44,7 +44,7 @@ class styleEMultipleCTA extends Component {
             <div class="sm12 lg12 md12 xl12 xxl12 nopad">
               <div class="sm12 lg7 md12 xl7 xxl7 nopad">
                 <a class="banner-image fl-left" href="javascript:void(0)">
-                  <img src="../../images/design-system/image-brandstory.png" alt="productImg" />
+                  <img src="/images/design-system/image-brandstory.png" alt="productImg" />
                 </a>
               </div>
               <div class="promo-content sm12 lg5 md12 xl5 xxl5 nopad-sm padding-lft-S">
