@@ -4,7 +4,6 @@
 .pricing-wrapper {
     max-width: 720px;
     margin: 0 auto;
-    border: 1px solid #999;
     padding: 15px 40px 9px;
 
     @media (--viewport-md-down)  {
