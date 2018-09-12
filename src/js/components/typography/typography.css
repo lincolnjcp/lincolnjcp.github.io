@@ -113,6 +113,12 @@ p {
         line-height: 20px;
     }
 
+    &.price-XXL {
+        font-size: 14px;
+        letter-spacing: .25px;
+        line-height: 20px;
+    }
+
     &.price-XXS {
         font-size: 12px;
         letter-spacing: .25px;
