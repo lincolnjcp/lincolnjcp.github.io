@@ -33,8 +33,8 @@
         color: #fff;
         font-weight: bold;
     }
-
-    & .pricing-block {
+}
+    .pricing-block {
         & .gallery-pricing {
             & .gallery-pricing-column {
                 & > li {
@@ -43,81 +43,17 @@
                     @media (--viewport-sm-only) {
                         width: 100%;
                     }
+
+                    & h3 {
+                        margin-bottom: 8px;
+                    }
+
                     & .gallery-pricing-row {
                         & li {
                             padding-bottom: 15px;  
                         }
                     }
                 }
-                & h3 {
-                    margin-bottom: 8px;
-                }
-
-                & .price-card {
-                    height: 72px;
-                    padding: 8px;
-                
-                    & .flag {
-                        padding: 4px;
-                    }
-
-                    & .sup-text-S {
-                        vertical-align: top;
-                        font: bold 12px/16px var(--font-headline);
-                        letter-spacing: 0.3px;
-                        margin: 0 1px;   
-                    }
-
-                    & .from-label-S {
-                        display: block;
-                        line-height: 16px;
-                        font-weight: 500;
-                    }
-
-                    & .sup-text {
-                        vertical-align: top;
-                        font: bold 14px/16px var(--font-headline);
-                        letter-spacing: 0.3px;
-                        margin: 0 1px;
-                        
-                        @media (--viewport-md-down)  {
-                            font: bold 12px/16px var(--font-headline);
-                        }
-                    }
-                    @media (--viewport-md-down)  {
-                        & .price-M {
-                            font: bold 20px/20px var(--font-headline);
-                        }
-
-                        & .price-note-M {
-                            font: normal 12px/16px var(--font-body);
-                        }
-
-                        & .price-note {
-                            font: 500 12px/13px var(--font-headline);
-                        }
-
-                        & .price-XS {
-                            font: bold 12px/16px var(--font-headline);
-                        }
-
-                        & .price-XXL {
-                            font: bold 12px/16px var(--font-body);
-                        }
-
-                        & .flag-price {
-                            padding: 4px 0;
-                            vertical-align: top;
-                        }
-                        
-                        & .from-label {
-                            display: block;
-                            line-height: 0.5rem;
-                            padding-top: 10px;
-                        }
-                    }
-                }
-
                 &.gallery-pdp-pricing-column{
                     & > li {
                     width: 50%;
@@ -132,7 +68,73 @@
             }
         }
     }
+   
+  
+.price-card {
+    height: 72px;
+    padding: 8px;
 }
+.flag {
+    padding: 4px;
+}
+
+.sup-text-S {
+    vertical-align: top;
+    font: bold 12px/16px var(--font-headline);
+    letter-spacing: 0.3px;
+    margin: 0 1px;   
+}
+
+.from-label-S {
+    display: block;
+    line-height: 16px;
+    font-weight: 500;
+}
+
+.sup-text {
+    vertical-align: top;
+    font: bold 14px/16px var(--font-headline);
+    letter-spacing: 0.3px;
+    margin: 0 1px;
+
+    @media (--viewport-md-down)  {
+        font: bold 12px/16px var(--font-headline);
+    }
+}
+
+@media (--viewport-md-down)  {
+    .price-M {
+        font: bold 20px/20px var(--font-headline);
+    }
+
+    .price-note-M {
+        font: normal 12px/16px var(--font-body);
+    }
+
+    .price-note {
+        font: 500 12px/13px var(--font-headline);
+    }
+
+    .price-XS {
+        font: bold 12px/16px var(--font-headline);
+    }
+
+    .price-XXL {
+        font: bold 12px/16px var(--font-body);
+    }
+
+    .flag-price {
+        padding: 4px 0;
+        vertical-align: top;
+    }
+    
+    .from-label {
+        display: block;
+        line-height: 0.5rem;
+        padding-top: 10px;
+    }
+}
+
 .price-badge {
     position: relative;
     padding: 2px 2px 6px 8px;
