@@ -4,7 +4,6 @@
 .pricing-wrapper {
     max-width: 720px;
     margin: 0 auto;
-    border: 1px solid #999;
     padding: 15px 40px 9px;
 
     @media (--viewport-md-down)  {
@@ -69,7 +68,7 @@
                         margin: 0 1px;   
                     }
 
-                    & .from-style-S {
+                    & .from-label-S {
                         display: block;
                         line-height: 16px;
                         font-weight: 500;
@@ -111,7 +110,7 @@
                             vertical-align: top;
                         }
                         
-                        & .from-style {
+                        & .from-label {
                             display: block;
                             line-height: 0.5rem;
                             padding-top: 10px;
@@ -168,12 +167,12 @@
     font-size: 12px;
 }
 
-.right-content {
+.after-coupon {
     width: 55px;
     margin-right: 2px;
     display: inline-block;
 }
-.from-style {
+.from-label {
     font-weight: 500;
     position: relative;
     top: -6px;
