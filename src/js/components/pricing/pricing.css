@@ -109,31 +109,31 @@
 
 @media (--viewport-md-down)  {
     .price { 
-        & .price-M {
+        &.price-M  {
             font: bold 20px/20px var(--font-headline);
         }
 
-        & .price-note-M {
+        &.price-note-M {
             font: normal 12px/16px var(--font-body);
         }
 
-        & .price-note {
+        &.price-note {
             font: 500 12px/13px var(--font-headline);
         }
 
-        & .price-XS {
+        &.price-XS {
             font: bold 12px/16px var(--font-headline);
         }
 
-        & .promo-lbl-XS {
+        &.promo-lbl-XS {
             font: bold 12px/16px var(--font-headline);
         }
 
-        & .price-XXL {
+        &.price-XXL {
             font: bold 12px/16px var(--font-body);
         }
 
-        & .price-note {
+        &.price-note {
             font: normal 12px/16px var(--font-body);
         }
     }
