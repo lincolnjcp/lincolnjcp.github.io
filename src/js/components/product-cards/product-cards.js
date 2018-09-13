@@ -120,7 +120,7 @@ class ProductCards extends Component {
                               </div>
                           </div>
                           <div class="product-card-details">
-                              <div class="price price-promo mrg-btm-XS color-penneyred">GREEN MONDAL DEAL!</div>
+                              <div class="promo-lbl promo-lbl-XS mrg-btm-XS color-penneyred">GREEN MONDAL DEAL!</div>
                                 <div class="price price-M">
                                 <span class="mrg-rght-XS">
                                 <sup class="sup-text-S">$</sup>33<sup class="sup-text-S">99</sup>
@@ -199,7 +199,7 @@ class ProductCards extends Component {
                               </div>
                           </div>
                           <div class="product-card-details">
-                              <div class="price price-promo mrg-btm-XS color-penneyred">GREEN MONDAL DEAL!</div>
+                              <div class="promo-lbl promo-lbl-XS mrg-btm-XS color-penneyred">GREEN MONDAL DEAL!</div>
                                <div class="price price-M"><sup class="sup-text">$</sup>74<sup class="sup-text">99</sup></div>
                                 <div class="promo-lbl promo-lbl-XS mrg-btm-XS color-penneyred">Buy 1 Get 1 Free</div>
                               <div class="product-card-name-wrap">
@@ -274,7 +274,7 @@ class ProductCards extends Component {
                               </div>
                           </div>
                           <div class="product-card-details">
-                              <div class="price price-promo mrg-btm-XS color-penneyred">GREEN MONDAL DEAL!</div>
+                              <div class="promo-lbl promo-lbl-XS mrg-btm-XS color-penneyred">GREEN MONDAL DEAL!</div>
                               <div class="price price-M flag flag-price"><sup class="sup-text">$</sup>29<sup class="sup-text">99</sup></div>
                               <span class="price price-note color-penneyred after-coupon">after coupon</span>
                               <div class="price price-note-M std-txt mrg-top-XS">
@@ -349,7 +349,7 @@ class ProductCards extends Component {
                               </div>
                           </div>
                           <div class="product-card-details">
-                              <div class="price price-promo mrg-btm-XS color-penneyred">GREEN MONDAL DEAL!</div>
+                              <div class="promo-lbl promo-lbl-XS mrg-btm-XS color-penneyred">GREEN MONDAL DEAL!</div>
                               <div class="price price-M"><span class="title title-XS from-label">from</span><sup class="sup-text">$</sup>33<sup class="sup-text">99</sup></div>
                               <div class="product-card-name-wrap">
                                 <a href="javascript:void(0);" class="product-card-name std-txt std-txt-S std-txt-XS-at-S color-nightsky">Lorem Ipsumd Dolor Sit Amet Consec Ter Adpisicing Alit…</a>
@@ -421,7 +421,7 @@ class ProductCards extends Component {
                               </div>
                           </div>
                           <div class="product-card-details">
-                              <div class="price price-promo mrg-btm-XS color-penneyred">GREEN MONDAL DEAL!</div>
+                              <div class="promo-lbl promo-lbl-XS mrg-btm-XS color-penneyred">GREEN MONDAL DEAL!</div>
                               <div class="price price-M">
                               <span class="mrg-rght-XS">
                               <span class="title title-XS from-label">from</span><sup class="sup-text">$</sup>33<sup class="sup-text">99</sup>
@@ -501,7 +501,7 @@ class ProductCards extends Component {
                               </div>
                           </div>
                           <div class="product-card-details">
-                              <div class="price price-promo mrg-btm-XS color-penneyred">GREEN MONDAL DEAL!</div>
+                              <div class="promo-lbl promo-lbl-XS mrg-btm-XS color-penneyred">GREEN MONDAL DEAL!</div>
                               <span class="title title-XS from-label">from</span>
                               <div class="price price-M flag flag-price"><sup class="sup-text">$</sup>29<sup class="sup-text">99</sup></div>
                               <span class="price price-note color-penneyred after-coupon">after coupon</span>
@@ -578,7 +578,7 @@ class ProductCards extends Component {
                               </div>
                           </div>
                           <div class="product-card-details">
-                              <div class="price price-promo mrg-btm-XS color-penneyred">GREEN MONDAL DEAL!</div>
+                              <div class="promo-lbl promo-lbl-XS mrg-btm-XS color-penneyred">GREEN MONDAL DEAL!</div>
                               <div class="price price-M mrg-btm-XS">
                                 <span class="mrg-rght-XS">
                                 <span class="title title-XS from-label">from</span><sup class="sup-text">$</sup>33<sup class="sup-text">99</sup>
@@ -657,7 +657,7 @@ class ProductCards extends Component {
                               </div>
                           </div>
                           <div class="product-card-details">
-                              <div class="price price-promo mrg-btm-XS color-penneyred">GREEN MONDAL DEAL!</div>
+                              <div class="promo-lbl promo-lbl-XS mrg-btm-XS color-penneyred">GREEN MONDAL DEAL!</div>
                               <div class="price price-M color-penneyred"><span class="title title-XS from-label">packages from</span><sup class="sup-text">$</sup>9,999<sup class="sup-text">99</sup>
                               </div>
                               <div class="price price-note-M std-txt">
@@ -733,7 +733,7 @@ class ProductCards extends Component {
                           
                         </div>
                         <div class="product-card-details">
-                          <div class="price price-promo mrg-btm-XS color-penneyred">GREEN MONDAL DEAL!</div>
+                          <div class="promo-lbl promo-lbl-XS mrg-btm-XS color-penneyred">GREEN MONDAL DEAL!</div>
                           <span class="title title-XS from-label">from</span>
                             <div class="price price-M flag flag-price"><sup class="sup-text">$</sup>29<sup class="sup-text">99</sup></div>
                             <span class="price price-note color-penneyred after-coupon">after coupon</span>
@@ -806,7 +806,7 @@ class ProductCards extends Component {
                           
                         </div>
                         <div class="product-card-details">
-                          <div class="price price-promo mrg-btm-XS color-penneyred">GREEN MONDAL DEAL!</div>
+                          <div class="promo-lbl promo-lbl-XS mrg-btm-XS color-penneyred">GREEN MONDAL DEAL!</div>
                           <div class="price price-M flag flag-price"><sup class="sup-text">$</sup>29<sup class="sup-text">99</sup></div>
                             <span class="price price-note color-penneyred after-coupon">after coupon</span>
                             <div class="price price-note-M std-txt mrg-top-XS">
@@ -884,7 +884,7 @@ class ProductCards extends Component {
                           </div>
                         </div>
                     </div>
-                    <div class="price price-promo mrg-btm-XS color-penneyred">GREEN MONDAL DEAL!</div>
+                    <div class="promo-lbl promo-lbl-XS mrg-btm-XS color-penneyred">GREEN MONDAL DEAL!</div>
                     <div class="price price-M">
                           <span class="mrg-rght-XS">
                           <sup class="sup-text-S">$</sup>33<sup class="sup-text-S">99</sup>
@@ -947,7 +947,7 @@ class ProductCards extends Component {
                           </div>
                         </div>
                     </div>
-                    <div class="price price-promo mrg-btm-XS color-penneyred">GREEN MONDAL DEAL!</div>
+                    <div class="promo-lbl promo-lbl-XS mrg-btm-XS color-penneyred">GREEN MONDAL DEAL!</div>
                     <div class="price price-M color-penneyred">
                           <span class="mrg-rght-XS">
                           <sup class="sup-text-S">$</sup>33<sup class="sup-text-S">99</sup>
@@ -1018,7 +1018,7 @@ class ProductCards extends Component {
                           </div>
                         </div>
                     </div>
-                    <div class="price price-promo-S mrg-btm-XS color-penneyred">GREEN MONDAL DEAL!</div>
+                    <div class="promo-lbl promo-lbl-XXS mrg-btm-XS color-penneyred">GREEN MONDAL DEAL!</div>
                     <span class="title title-XS from-label-S">from</span>
                             <div class="price price-S flag flag-price"><sup class="sup-text-S">$</sup>29<sup class="sup-text-S">99</sup></div>
                             <span class="price price-note color-penneyred after-coupon">after coupon</span>
@@ -1076,7 +1076,7 @@ class ProductCards extends Component {
                           </div>
                         </div>
                     </div>
-                    <div class="price price-promo-S mrg-btm-XS color-penneyred">GREEN MONDAL DEAL!</div>
+                    <div class="promo-lbl promo-lbl-XXS mrg-btm-XS color-penneyred">GREEN MONDAL DEAL!</div>
                     <div class="price price-S color-penneyred"><span class="title title-XS from-label-S">packages from</span><sup class="sup-text-S">$</sup>9,999<sup class="sup-text-S">99</sup>
                             </div>
                             <div class="price price-note std-txt mrg-top-XS">
