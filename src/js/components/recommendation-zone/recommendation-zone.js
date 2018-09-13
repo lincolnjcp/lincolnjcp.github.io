@@ -372,7 +372,6 @@ class RecommendationZone
           {/* <div className="sm12 columns">
             <h1 className="title title-XL mrg-btm-L">Recommendation Zone</h1>
           </div> */}
-          <div className="row">
             <div className="sm12 columns">
               <h2><strong>Rec Row</strong></h2>
               <hr />
@@ -562,7 +561,6 @@ class RecommendationZone
 
             </div>
           </div>
-        </div>
 
         {/* <div className="row">
           <div className="sm12 columns">

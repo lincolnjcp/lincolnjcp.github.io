@@ -1199,10 +1199,8 @@ class ProductCards extends Component {
               </div>
             </div>
         </div>
-       <div class="row">
-       <div class="sm12 columns">
+       <div>
             <RecommendationZone />
-            </div>
         </div>
         
         <div class="row">
