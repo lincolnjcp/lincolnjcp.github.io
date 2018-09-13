@@ -73,7 +73,6 @@ class ProductCards extends Component {
   render() {
     return (
       <div>
-        <div class="row">
             <div class="row">
               <div class="sm12 columns">
                   <h2><strong>Product Panes Grid</strong></h2>
@@ -696,7 +695,6 @@ class ProductCards extends Component {
                     </div>
                   </div>
               </div>
-            </div>
         </div>
         <div class="row">
             <div class="sm12 columns">
