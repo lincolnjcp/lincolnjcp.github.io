@@ -103,24 +103,30 @@
 }
 
 @media (--viewport-md-down)  {
-    .price-M {
-        font: bold 20px/20px var(--font-headline);
-    }
+    .price { 
+        & .price-M {
+            font: bold 20px/20px var(--font-headline);
+        }
 
-    .price-note-M {
-        font: normal 12px/16px var(--font-body);
-    }
+        & .price-note-M {
+            font: normal 12px/16px var(--font-body);
+        }
 
-    .price-note {
-        font: 500 12px/13px var(--font-headline);
-    }
+        & .price-note {
+            font: 500 12px/13px var(--font-headline);
+        }
 
-    .price-XS {
-        font: bold 12px/16px var(--font-headline);
-    }
+        & .price-XS {
+            font: bold 12px/16px var(--font-headline);
+        }
 
-    .price-XXL {
-        font: bold 12px/16px var(--font-body);
+        & .price-XXL {
+            font: bold 12px/16px var(--font-body);
+        }
+
+        & .price-note {
+            font: normal 12px/16px var(--font-body);
+        }
     }
 
     .flag-price {
@@ -134,6 +140,15 @@
         padding-top: 10px;
     }
 }
+
+@media (--viewport-md-only) {
+    .price { 
+        &.price-note {
+            font: normal 12px/16px var(--font-body);
+        } 
+    }
+}
+
 
 .price-badge {
     position: relative;
@@ -173,6 +188,7 @@
     width: 55px;
     margin-right: 2px;
     display: inline-block;
+    vertical-align: top;
 }
 .from-label {
     font-weight: 500;
@@ -183,7 +199,7 @@
 
 .clearance {
     position: relative;
-    top: -6px;
+    vertical-align: top;
     padding-left: 4px;
 }
 

@@ -117,13 +117,25 @@ class RecommendationZone
                   return (
                     <div className="product-card-price-value">
                       <div class="std-txt std-txt-XS mrg-rght-XS">
-                        <div className="price price-XS">{productInfo.price}</div>
+                        {productInfo.price}
                       </div>
                     </div>
-                  )
+
+
+
+  // <div class="price-card">
+  //   <div class="price price-M mrg-rght-XS color-penneyred"><sup class="sup-text">$</sup>33<sup class="sup-text">99</sup>
+  //     <span class="price price-note color-penneyred clearance">clearance</span>
+  //   </div>
+  //   <div class="price price-note-M color-slate std-txt mrg-top-XS">
+  //     <span class="mrg-rght-S">was $74   </span>
+  //     <span> 41% off</span>
+  //   </div>
+  // </div>
+            )
                 } else {
                   return (
-                    <div className="product-card-price-value price price-XS mrg-rght-XS">
+                    <div className="product-card-price-value price price-XS">
                       {productInfo.price}
                     </div>
                   )
@@ -134,9 +146,9 @@ class RecommendationZone
               {(() => {
                 if (productInfo.priceRestriction) {
                   return (
-                    <div className="product-card-note price price-note color-penneyred">
+                    <span>
                       {productInfo.priceRestriction}
-                    </div>
+                    </span>
                   )
                 }
               })()}
@@ -146,7 +158,7 @@ class RecommendationZone
             {(() => {
               if (productInfo.priceRegular) {
                 return (
-                  <div className="product-card-note price color-slate std-txt std-txt-XS">
+                  <div className="price price-note-M color-slate std-txt mrg-top-XS">
                     {productInfo.priceRegular}
                   </div>
                 )
@@ -389,7 +401,7 @@ class RecommendationZone
                       name: "Lorem Ipsum Dolor Sec Mud Deler LoreM Dol…",
                       thumb: '/images/design-system/fpo/product-cards/product-card-recommendations-1.jpg',
                       promo: 'SAMSUNG BUY 4 SAVE 10%',
-                      price: '$2,499',
+                      price:  <div class="price price-M mrg-rght-XS"><sup class="sup-text">$</sup>74<sup class="sup-text">99</sup></div>,
                       priceHighlight: true,
                       priceRestriction: '',
                       priceRegular: 'reg. $2,999 - $5,999'
@@ -399,9 +411,9 @@ class RecommendationZone
                       name: "Lorem Ipsum Dolor Sec Mud Deler LoreM Dol…",
                       thumb: '/images/design-system/fpo/product-cards/product-card-recommendations-2.jpg',
                       promo: '',
-                      price: '$59.99',
+                      price: <div class="price price-M mrg-rght-XS"><sup class="sup-text">$</sup>59<sup class="sup-text">99</sup></div>,
                       priceHighlight: true,
-                      priceRestriction: 'after coupon',
+                      priceRestriction: <span class="price price-note color-penneyred after-coupon">after coupon</span>,
                       priceRegular: 'reg. $99.99'
                     })}
 
@@ -409,9 +421,9 @@ class RecommendationZone
                       name: "Lorem Ipsum Dolor Sec Mud Deler LoreM Dol…",
                       thumb: '/images/design-system/fpo/product-cards/product-card-recommendations-3.jpg',
                       promo: '',
-                      price: '$299.99',
+                      price: <div class="price price-M mrg-rght-XS"><sup class="sup-text">$</sup>299<sup class="sup-text">99</sup></div>,
                       priceHighlight: true,
-                      priceRestriction: 'after coupon',
+                      priceRestriction:  <span class="price price-note color-penneyred after-coupon">after coupon</span>,
                       priceRegular: 'reg. $99.99'
                     })}
 
@@ -419,7 +431,7 @@ class RecommendationZone
                       name: "Lorem Ipsum Dolor Sec Mud Deler LoreM Dol…",
                       thumb: '/images/design-system/fpo/product-cards/product-card-recommendations-4.jpg',
                       promo: '',
-                      price: '$599.99',
+                      price: <div class="price price-M mrg-rght-XS"><sup class="sup-text">$</sup>599<sup class="sup-text">99</sup></div>,
                       priceHighlight: false,
                       priceRestriction: '',
                       priceRegular: ''
@@ -429,9 +441,9 @@ class RecommendationZone
                       name: "Lorem Ipsum Dolor Sec Mud Deler LoreM Dol…",
                       thumb: '/images/design-system/fpo/product-cards/product-card-recommendations-5.jpg',
                       promo: '',
-                      price: '$29.99',
+                      price: <div class="price price-M mrg-rght-XS"><sup class="sup-text">$</sup>29<sup class="sup-text">99</sup></div>,
                       priceHighlight: false,
-                      priceRestriction: 'sale',
+                      priceRestriction:  <span class="price price-note color-penneyred clearance">sale</span>,
                       priceRegular: 'was $60'
                     })}
 
@@ -439,9 +451,9 @@ class RecommendationZone
                       name: "Lorem Ipsum Dolor Sec Mud Deler LoreM Dol…",
                       thumb: '/images/design-system/fpo/product-cards/product-card-recommendations-6.jpg',
                       promo: '',
-                      price: '$99.99',
+                      price: <div class="price price-M mrg-rght-XS"><sup class="sup-text">$</sup>99<sup class="sup-text">99</sup></div>,
                       priceHighlight: false,
-                      priceRestriction: 'clearance',
+                      priceRestriction:  <span class="price price-note color-penneyred clearance">clearance</span>,
                       priceRegular: 'was $299.99'
                     })}
 
@@ -449,9 +461,9 @@ class RecommendationZone
                       name: "Lorem Ipsum Dolor Sec Mud Deler LoreM Dol…",
                       thumb: '/images/design-system/fpo/product-cards/product-card-recommendations-7.jpg',
                       promo: '',
-                      price: '$299.99',
+                      price: <div class="price price-M mrg-rght-XS"><sup class="sup-text">$</sup>299<sup class="sup-text">99</sup></div>,
                       priceHighlight: false,
-                      priceRestriction: 'clearance',
+                      priceRestriction: <span class="price price-note color-penneyred clearance">clearance</span>,
                       priceRegular: 'was $499.99 - $699.99'
                     })}
 
@@ -459,16 +471,16 @@ class RecommendationZone
                       name: "Lorem Ipsum Dolor Sec Mud Deler LoreM Dol…",
                       thumb: '/images/design-system/fpo/product-cards/product-card-recommendations-8.jpg',
                       promo: '',
-                      price: '$2,999',
+                      price: <div class="price price-M mrg-rght-XS"><sup class="sup-text">$</sup>2,999</div>,
                       priceHighlight: false,
-                      priceRestriction: 'package deal',
+                      priceRestriction: '',
                       priceRegular: 'was $4,999 - $6,999'
                     })}
                     {this.productCardRecommendations({
                       name: "Lorem Ipsum Dolor Sec Mud Deler LoreM Dol…",
                       thumb: '/images/design-system/fpo/product-cards/product-card-recommendations-1.jpg',
                       promo: 'SAMSUNG BUY 4 SAVE 10%',
-                      price: '$2,499',
+                      price: <div class="price price-M mrg-rght-XS"><sup class="sup-text">$</sup>2,999</div>,
                       priceHighlight: true,
                       priceRestriction: '',
                       priceRegular: 'reg. $2,999 - $5,999'
@@ -478,9 +490,9 @@ class RecommendationZone
                       name: "Lorem Ipsum Dolor Sec Mud Deler LoreM Dol…",
                       thumb: '/images/design-system/fpo/product-cards/product-card-recommendations-2.jpg',
                       promo: '',
-                      price: '$59.99',
+                      price: <div class="price price-M mrg-rght-XS flag flag-price"><sup class="sup-text">$</sup>59<sup class="sup-text">99</sup></div>,
                       priceHighlight: true,
-                      priceRestriction: 'after coupon',
+                      priceRestriction: <span class="price price-note color-penneyred after-coupon">after coupon</span>,
                       priceRegular: 'reg. $99.99'
                     })}
 
@@ -488,9 +500,9 @@ class RecommendationZone
                       name: "Lorem Ipsum Dolor Sec Mud Deler LoreM Dol…",
                       thumb: '/images/design-system/fpo/product-cards/product-card-recommendations-3.jpg',
                       promo: '',
-                      price: '$299.99',
+                      price: <div class="price price-M mrg-rght-XS"><sup class="sup-text">$</sup>299<sup class="sup-text">99</sup></div>,
                       priceHighlight: true,
-                      priceRestriction: 'after coupon',
+                      priceRestriction: <span class="price price-note color-penneyred after-coupon">after coupon</span>,
                       priceRegular: 'reg. $99.99'
                     })}
 
@@ -498,7 +510,7 @@ class RecommendationZone
                       name: "Lorem Ipsum Dolor Sec Mud Deler LoreM Dol…",
                       thumb: '/images/design-system/fpo/product-cards/product-card-recommendations-4.jpg',
                       promo: '',
-                      price: '$599.99',
+                      price: <div class="price price-S mrg-rght-XS"><sup class="sup-text">$</sup>599<sup class="sup-text">99</sup></div>,
                       priceHighlight: false,
                       priceRestriction: '',
                       priceRegular: ''
@@ -508,9 +520,9 @@ class RecommendationZone
                       name: "Lorem Ipsum Dolor Sec Mud Deler LoreM Dol…",
                       thumb: '/images/design-system/fpo/product-cards/product-card-recommendations-5.jpg',
                       promo: '',
-                      price: '$29.99',
+                      price: <div class="price price-M mrg-rght-XS"><sup class="sup-text">$</sup>29<sup class="sup-text">99</sup></div>,
                       priceHighlight: false,
-                      priceRestriction: 'sale',
+                      priceRestriction: <span class="price price-note color-penneyred clearance">sale</span>,
                       priceRegular: 'was $60'
                     })}
 
@@ -518,9 +530,9 @@ class RecommendationZone
                       name: "Lorem Ipsum Dolor Sec Mud Deler LoreM Dol…",
                       thumb: '/images/design-system/fpo/product-cards/product-card-recommendations-6.jpg',
                       promo: '',
-                      price: '$99.99',
+                      price: <div class="price price-S mrg-rght-XS"><sup class="sup-text">$</sup>99<sup class="sup-text">99</sup></div>,
                       priceHighlight: false,
-                      priceRestriction: 'clearance',
+                      priceRestriction: <span class="price price-note color-penneyred clearance">clearance</span>,
                       priceRegular: 'was $299.99'
                     })}
 
@@ -528,9 +540,9 @@ class RecommendationZone
                       name: "Lorem Ipsum Dolor Sec Mud Deler LoreM Dol…",
                       thumb: '/images/design-system/fpo/product-cards/product-card-recommendations-7.jpg',
                       promo: '',
-                      price: '$299.99',
+                      price: <div class="price price-M mrg-rght-XS"><sup class="sup-text">$</sup>299<sup class="sup-text">99</sup></div>,
                       priceHighlight: false,
-                      priceRestriction: 'clearance',
+                      priceRestriction: <span class="price price-note color-penneyred clearance">clearance</span>,
                       priceRegular: 'was $499.99 - $699.99'
                     })}
 
@@ -538,9 +550,9 @@ class RecommendationZone
                       name: "Lorem Ipsum Dolor Sec Mud Deler LoreM Dol…",
                       thumb: '/images/design-system/fpo/product-cards/product-card-recommendations-8.jpg',
                       promo: '',
-                      price: '$2,999',
+                      price:  <div class="price price-M mrg-rght-XS color-penneyred"><span class="price price-XXS from-label">packages from</span><sup class="sup-text">$</sup>9,999<sup class="sup-text">99</sup></div>,
                       priceHighlight: false,
-                      priceRestriction: 'package deal',
+                      priceRestriction: '',
                       priceRegular: 'was $4,999 - $6,999'
                     })}
                   </ul>

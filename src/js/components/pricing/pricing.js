@@ -107,7 +107,7 @@ class Pricing extends Component {
                         <div class="price-box">
                           <div class="price-card">
                             <div class="price price-S mrg-rght-XS mrg-btm-XS"><span class="price price-XXS from-label-S">from</span><sup class="sup-text-S">$</sup>33<sup class="sup-text-S">99</sup>
-                              <span class="price price-note after-coupon">each</span></div>
+                              <span class="price price-note clearance">each</span></div>
                           </div>
                         </div>
                       </li>
@@ -237,7 +237,7 @@ class Pricing extends Component {
                         <div class="price-box">
                           <div class="price-card">
                             <div class="price price-M mrg-rght-XS mrg-btm-XS"><span class="price price-XXS from-label">from</span><sup class="sup-text">$</sup>33<sup class="sup-text">99</sup>
-                              <span class="price price-note after-coupon">each</span></div>
+                              <span class="price price-note clearance">each</span></div>
                           </div>
                         </div>
                       </li>
