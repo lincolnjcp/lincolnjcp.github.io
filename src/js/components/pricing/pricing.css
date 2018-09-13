@@ -74,8 +74,13 @@
     min-height: 60px;
     height: 100%;
 }
+
 .flag {
     padding: 4px;
+}
+
+.flag-price {
+    margin-right: 4px;
 }
 
 .sup-text-S {
@@ -117,6 +122,10 @@
         }
 
         & .price-XS {
+            font: bold 12px/16px var(--font-headline);
+        }
+
+        & .promo-lbl-XS {
             font: bold 12px/16px var(--font-headline);
         }
 
@@ -201,13 +210,11 @@
 .clearance {
     position: relative;
     vertical-align: top;
-    padding-left: 4px;
 }
 
 .clearance-S {
     position: relative;
     top: -4px;
-    padding-left: 4px;
 }
 
 .gallery-pricing-row {

@@ -344,14 +344,10 @@ p {
         }
     }
 
-    &.promo-lbl-S-to-S {
+    &.promo-lbl-XXS {
         font-size: 12px;
         letter-spacing: -0.2px;
         line-height: 18px;
-    }
-
-    &.promo-lbl-light {
-        color: #fff;
     }
 
     &.promo-display {

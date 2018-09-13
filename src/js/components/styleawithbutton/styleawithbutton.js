@@ -655,7 +655,7 @@ class styleAWithButton extends Component {
 							<div class="promo-description">
 								<span>with code</span>
 								<span class="txt-bold">SAVE27 </span>
-								<span class="promo-lbl promo-lbl-S-to-S color-white txt-regular">Online & Instore. Ends 07/24. </span>
+								<span class="promo-lbl promo-lbl-XXS color-white txt-regular">Online & Instore. Ends 07/24. </span>
 								<span class="std-txt std-txt-XS"><a href="javascript:void(0)" class="color-white txt-regular"> see details</a></span>
 							</div>
 							<div class="promo-button-container mrg-btm-XS mrg-top-S">
@@ -674,7 +674,7 @@ class styleAWithButton extends Component {
 							<div class="promo-description">
 								<span>with code</span>
 								<span class="txt-bold">SAVE27 </span>
-								<span class="promo-lbl promo-lbl-S-to-S color-white txt-regular">Online & Instore. Ends 07/24. </span>
+								<span class="promo-lbl promo-lbl-XXS color-white txt-regular">Online & Instore. Ends 07/24. </span>
 								<span class="std-txt std-txt-XS"><a href="javascript:void(0)" class="color-white txt-regular"> see details</a></span>
 							</div>
 							<div class="promo-button-container mrg-btm-XS mrg-top-S">
@@ -693,7 +693,7 @@ class styleAWithButton extends Component {
 							<div class="promo-description">
 								<span>with code</span>
 								<span class="txt-bold">SAVE27 </span>
-								<span class="promo-lbl promo-lbl-S-to-S color-white txt-regular">Online & Instore. Ends 07/24. </span>
+								<span class="promo-lbl promo-lbl-XXS color-white txt-regular">Online & Instore. Ends 07/24. </span>
 								<span class="std-txt std-txt-XS"><a href="javascript:void(0)" class="color-white txt-regular"> see details</a></span>
 							</div>
 							<div class="promo-button-container  mrg-top-S">
@@ -712,7 +712,7 @@ class styleAWithButton extends Component {
 							<div class="promo-description">
 								<span>with code</span>
 								<span class="txt-bold">SAVE27 </span>
-								<span class="promo-lbl promo-lbl-S-to-S color-white txt-regular">Online & Instore. Ends 07/24. </span>
+								<span class="promo-lbl promo-lbl-XXS color-white txt-regular">Online & Instore. Ends 07/24. </span>
 								<span class="std-txt std-txt-XS"><a href="javascript:void(0)" class="color-white txt-regular"> see details</a></span>
 							</div>
 							<div class="promo-button-container mrg-btm-XS mrg-top-S">
