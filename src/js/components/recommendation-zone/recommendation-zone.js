@@ -104,7 +104,7 @@ class RecommendationZone
             {(() => {
               if (productInfo.promo) {
                 return (
-                  <div className="price price-promo-S mrg-btm-XS color-penneyred">
+                  <div className="promo-lbl promo-lbl-XS mrg-btm-XS color-penneyred">
                     {productInfo.promo}
                   </div>
                 )
