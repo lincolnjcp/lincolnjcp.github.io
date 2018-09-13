@@ -71,8 +71,8 @@
    
   
 .price-card {
-    height: 72px;
-    padding: 8px;
+    min-height: 60px;
+    height: 100%;
 }
 .flag {
     padding: 4px;
@@ -191,6 +191,7 @@
     vertical-align: top;
 }
 .from-label {
+    display: inline-block;
     font-weight: 500;
     position: relative;
     top: -6px;
