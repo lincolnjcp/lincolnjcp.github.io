@@ -70,7 +70,7 @@ class Pricing extends Component {
                             <div class="price price-S mrg-rght-XS color-penneyred"><span class="price price-XXS from-label-S">from</span><sup class="sup-text-S">$</sup>33<sup class="sup-text-S">99</sup>
                               <span class="price price-note color-penneyred clearance-S"> clearance</span>
                             </div>
-                            <div class="price price-note color-slate std-txt">
+                            <div class="price price-note color-slate std-txt mrg-top-XS">
                               <span class="mrg-rght-S">was $74.99 - $99.99</span>
                             </div>
                           </div>
@@ -82,7 +82,7 @@ class Pricing extends Component {
                             <span class="price price-XXS from-label-S">from</span>
                             <div class="price price-S mrg-rght-XS flag flag-price"><sup class="sup-text-S">$</sup>29<sup class="sup-text-S">99</sup></div>
                             <span class="price price-note color-penneyred after-coupon">after coupon</span>
-                            <div class="price price-note color-slate std-txt">
+                            <div class="price price-note color-slate std-txt mrg-top-XS">
                               <span class="mrg-rght-S">was $74.99 - $99.99</span>
                             </div>
                           </div>
@@ -101,7 +101,7 @@ class Pricing extends Component {
                           <div class="price-card">
                             <div class="price price-S mrg-rght-XS color-penneyred"><span class="price price-XXS from-label-S">packages from</span><sup class="sup-text-S">$</sup>9,999<sup class="sup-text-S">99</sup>
                             </div>
-                            <div class="price price-note color-slate std-txt">
+                            <div class="price price-note color-slate std-txt mrg-top-XS">
                               <span class="mrg-rght-S">was $9,999 - $9,999</span>
                             </div>
                           </div>
