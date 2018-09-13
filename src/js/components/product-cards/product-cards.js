@@ -121,13 +121,13 @@ class ProductCards extends Component {
                           </div>
                           <div class="product-card-details">
                               <div class="price price-promo mrg-btm-XS color-penneyred">GREEN MONDAL DEAL!</div>
-                              <div class="product-card-price">
-                                <div class="product-card-price-value price price-S mrg-rght-XS">$29.99</div>
-                                <div class="product-card-note price price-note color-penneyred">sale</div>
-                              </div>
-                              <div class="price price-note color-slate std-txt">
-                                <span class="mrg-rght-S">was $39.99</span><span> 20% off</span>
-                            </div>
+                                <div class="price price-S mrg-rght-XS"><sup class="sup-text-S">$</sup>33<sup class="sup-text-S">99</sup>
+                                <span class="price price-note color-penneyred clearance-S">clearance</span>
+                                </div>
+                                <div class="price price-note color-slate std-txt mrg-top-XS">
+                                <span class="mrg-rght-S">was $74</span>
+                                <span> 41% off</span>
+                                </div>
                               <div class="product-card-name-wrap">
                                 <a href="javascript:void(0);" class="product-card-name std-txt std-txt-S std-txt-XS-at-S color-nightsky">Lorem Ipsumd Dolor Sit Amet Consec Ter Adpisicing Alit…</a>
                               </div>
@@ -201,13 +201,13 @@ class ProductCards extends Component {
                           </div>
                           <div class="product-card-details">
                               <div class="price price-promo mrg-btm-XS color-penneyred">GREEN MONDAL DEAL!</div>
-                              <div class="product-card-price">
-                                <div class="product-card-price-value price price-S mrg-rght-XS">$29.99</div>
-                                <div class="product-card-note price price-note color-penneyred">sale</div>
-                              </div>
-                              <div class="price price-note color-slate std-txt">
-                                <span class="mrg-rght-S">was $39.99</span><span> 20% off</span>
-                            </div>
+                                <div class="price price-S mrg-rght-XS"><sup class="sup-text-S">$</sup>33<sup class="sup-text-S">99</sup>
+                                <span class="price price-note color-penneyred clearance-S">sale</span>
+                                </div>
+                                <div class="price price-note color-slate std-txt mrg-top-XS">
+                                <span class="mrg-rght-S">was $74</span>
+                                <span> 41% off</span>
+                                </div>
                               <div class="product-card-name-wrap">
                               <a href="javascript:void(0);" class="product-card-name std-txt std-txt-S std-txt-XS-at-S color-nightsky">Lorem Ipsumd Dolor Sit Amet Consec Ter Adpisicing Alit…</a>
                               </div>
@@ -281,13 +281,20 @@ class ProductCards extends Component {
                           </div>
                           <div class="product-card-details">
                               <div class="price price-promo mrg-btm-XS color-penneyred">GREEN MONDAL DEAL!</div>
-                              <div class="product-card-price">
+                              {/* <div class="product-card-price">
                                 <div class="product-card-price-value price price-S mrg-rght-XS">$29.99</div>
                                 <div class="product-card-note price price-note color-penneyred">sale</div>
                               </div>
                               <div class="price price-note color-slate std-txt">
                                 <span class="mrg-rght-S">was $39.99</span><span> 20% off</span>
-                            </div>
+                            </div> */}
+                                <div class="price price-S mrg-rght-XS"><sup class="sup-text-S">$</sup>33<sup class="sup-text-S">99</sup>
+                                <span class="price price-note color-penneyred clearance-S">sale</span>
+                                </div>
+                                <div class="price price-note color-slate std-txt mrg-top-XS">
+                                <span class="mrg-rght-S">was $74</span>
+                                <span> 41% off</span>
+                                </div>
                               <div class="product-card-name-wrap">
                                 <a href="javascript:void(0);" class="product-card-name std-txt std-txt-S std-txt-XS-at-S color-nightsky">Lorem Ipsumd Dolor Sit Amet Consec Ter Adpisicing Alit…</a>
                               </div>
@@ -358,12 +365,95 @@ class ProductCards extends Component {
                           </div>
                           <div class="product-card-details">
                               <div class="price price-promo mrg-btm-XS color-penneyred">GREEN MONDAL DEAL!</div>
-                              <div class="product-card-price">
+                              {/* <div class="product-card-price">
                                 <div class="product-card-price-value price price-S mrg-rght-XS">$29.99</div>
                                 <div class="product-card-note price price-note color-penneyred">sale</div>
                               </div>
                               <div class="price price-note color-slate std-txt">
                                 <span class="mrg-rght-S">was $39.99</span><span> 20% off</span>
+                            </div> */}
+                                <div class="price price-S mrg-rght-XS"><sup class="sup-text-S">$</sup>33<sup class="sup-text-S">99</sup>
+                                <span class="price price-note color-penneyred clearance-S">sale</span>
+                                </div>
+                                <div class="price price-note color-slate std-txt mrg-top-XS">
+                                <span class="mrg-rght-S">was $74</span>
+                                <span> 41% off</span>
+                                </div>
+                              <div class="product-card-name-wrap">
+                                <a href="javascript:void(0);" class="product-card-name std-txt std-txt-S std-txt-XS-at-S color-nightsky">Lorem Ipsumd Dolor Sit Amet Consec Ter Adpisicing Alit…</a>
+                              </div>
+                              <div class="star-preview-col review-star mrg-top-XS">
+                                <ul class="star-ratings-S">
+                                    <li class="star-ratings start-ratings-full">
+                                        <span class="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
+                                    </li>
+                                    <li class="star-ratings start-ratings-full">
+                                        <span class="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
+                                    </li>
+                                    <li class="star-ratings start-ratings-full">
+                                        <span class="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
+                                    </li>
+                                    <li class="star-ratings start-ratings-half">
+                                        <span class="icon" dangerouslySetInnerHTML={{ __html: starhalfImage }} />
+                                    </li>
+                                    <li class="star-ratings star-rating-empty">
+                                        <span class="icon color-concrete-svg" dangerouslySetInnerHTML={{ __html: starImage }} />
+                                    </li>
+                                    <li class="star-ratings">
+                                        <a href="javascript:void();" class="rating-count std-txt std-txt-S">99</a>
+                                    </li>
+                                </ul>
+                            </div>
+                          </div>
+                          
+                        </div>
+                    </div>
+                    <div class="product-card product-card-pane-grid">
+                        <div class="product-card-inner">
+                          <div class="product-card-image">
+                          <div class="flag flag-info std-txt std-txt-XS">Low Stock</div>
+                                <div className="like-icon">
+                                    <span className="icon heart" dangerouslySetInnerHTML={{ __html: heartfillImage }} />
+                                    <div className="tooltip tooltip-single tooltip-top-right">
+                                      <span className="tooltip-content">Favorite</span>
+                                    </div>
+                                </div>
+                              <div class="product-card-thumbnail">
+                                <a href="javascript:void(0)"><img src="/images/design-system/fpo/product-cards/product-card-grid-pane-1.jpg" alt="Samsung ENERGY STAR"/></a>
+                                <div class="shop-collection title title-XS"><span class="hide-for-small-only">SHOP THE</span> COLLECTION</div>
+                              </div>
+                          </div>
+                          <div className="color-swatches-block hide-for-small-only">
+                              <div>
+                                <div className="color-swatches-medium">
+                                    <ul className="list-product-colors-container">
+                                      <li>
+                                          <a href="javascript:void(0)" className="list-color-swatch list-color-swatch-active"></a>
+                                      </li>
+                                      <li>
+                                          <a href="javascript:void(0)" className="list-color-swatch"></a>
+                                      </li>
+                                      <li>
+                                          <a href="javascript:void(0)" className="list-color-swatch"></a>
+                                      </li>
+                                      <li>
+                                          <a href="javascript:void(0)" className="list-color-swatch"></a>
+                                      </li>
+                                      <li className="swatches-list-link">
+                                          <a href="javascript:void(0)" className="std-txt std-txt-S color-nightsky">
+                                          +23
+                                          </a>                  
+                                      </li>
+                                    </ul>
+                                </div>
+                              </div>
+                          </div>
+                          <div class="product-card-details">
+                              <div class="price price-promo mrg-btm-XS color-penneyred">GREEN MONDAL DEAL!</div>
+                            <div class="price price-M mrg-rght-XS flag flag-price"><sup class="sup-text">$</sup>29<sup class="sup-text">99</sup></div>
+                            <span class="price price-note color-penneyred after-coupon">after coupon</span>
+                            <div class="price price-note-M color-slate std-txt mrg-top-XS">
+                            <span class="mrg-rght-S">was $74</span><span> 41% off</span>
                             </div>
                               <div class="product-card-name-wrap">
                                 <a href="javascript:void(0);" class="product-card-name std-txt std-txt-S std-txt-XS-at-S color-nightsky">Lorem Ipsumd Dolor Sit Amet Consec Ter Adpisicing Alit…</a>
@@ -436,12 +526,11 @@ class ProductCards extends Component {
                           </div>
                           <div class="product-card-details">
                               <div class="price price-promo mrg-btm-XS color-penneyred">GREEN MONDAL DEAL!</div>
-                              <div class="product-card-price">
-                                <div class="product-card-price-value price price-S mrg-rght-XS">$29.99</div>
-                                <div class="product-card-note price price-note color-penneyred">sale</div>
-                              </div>
-                              <div class="price price-note color-slate std-txt">
-                                <span class="mrg-rght-S">was $39.99</span><span> 20% off</span>
+                            <div class="price price-M mrg-rght-XS"><span class="price price-XXS from-label">from</span><sup class="sup-text">$</sup>33<sup class="sup-text">99</sup>
+                            <span class="price price-note color-penneyred clearance"> clearance</span>
+                            </div>
+                            <div class="price price-note-M color-slate std-txt">
+                            <span class="mrg-rght-S">was $74.99 - $99.99</span>
                             </div>
                               <div class="product-card-name-wrap">
                                 <a href="javascript:void(0);" class="product-card-name std-txt std-txt-S std-txt-XS-at-S color-nightsky">Lorem Ipsumd Dolor Sit Amet Consec Ter Adpisicing Alit…</a>
@@ -514,90 +603,11 @@ class ProductCards extends Component {
                           </div>
                           <div class="product-card-details">
                               <div class="price price-promo mrg-btm-XS color-penneyred">GREEN MONDAL DEAL!</div>
-                              <div class="product-card-price">
-                                <div class="product-card-price-value price price-S mrg-rght-XS">$29.99</div>
-                                <div class="product-card-note price price-note color-penneyred">sale</div>
-                              </div>
-                              <div class="price price-note color-slate std-txt">
-                                <span class="mrg-rght-S">was $39.99</span><span> 20% off</span>
-                            </div>
-                              <div class="product-card-name-wrap">
-                                <a href="javascript:void(0);" class="product-card-name std-txt std-txt-S std-txt-XS-at-S color-nightsky">Lorem Ipsumd Dolor Sit Amet Consec Ter Adpisicing Alit…</a>
-                              </div>
-                              <div class="star-preview-col review-star mrg-top-XS">
-                                <ul class="star-ratings-S">
-                                    <li class="star-ratings start-ratings-full">
-                                        <span class="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
-                                    </li>
-                                    <li class="star-ratings start-ratings-full">
-                                        <span class="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
-                                    </li>
-                                    <li class="star-ratings start-ratings-full">
-                                        <span class="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
-                                    </li>
-                                    <li class="star-ratings start-ratings-half">
-                                        <span class="icon" dangerouslySetInnerHTML={{ __html: starhalfImage }} />
-                                    </li>
-                                    <li class="star-ratings star-rating-empty">
-                                        <span class="icon color-concrete-svg" dangerouslySetInnerHTML={{ __html: starImage }} />
-                                    </li>
-                                    <li class="star-ratings">
-                                        <a href="javascript:void();" class="rating-count std-txt std-txt-S">99</a>
-                                    </li>
-                                </ul>
-                            </div>
-                          </div>
-                          
-                        </div>
-                    </div>
-                    <div class="product-card product-card-pane-grid">
-                        <div class="product-card-inner">
-                          <div class="product-card-image">
-                          <div class="flag flag-info std-txt std-txt-XS">Low Stock</div>
-                                <div className="like-icon">
-                                    <span className="icon heart" dangerouslySetInnerHTML={{ __html: heartfillImage }} />
-                                    <div className="tooltip tooltip-single tooltip-top-right">
-                                      <span className="tooltip-content">Favorite</span>
-                                    </div>
-                                </div>
-                              <div class="product-card-thumbnail">
-                                <a href="javascript:void(0)"><img src="/images/design-system/fpo/product-cards/product-card-grid-pane-1.jpg" alt="Samsung ENERGY STAR"/></a>
-                                <div class="shop-collection title title-XS"><span class="hide-for-small-only">SHOP THE</span> COLLECTION</div>
-                              </div>
-                          </div>
-                          <div className="color-swatches-block hide-for-small-only">
-                              <div>
-                                <div className="color-swatches-medium">
-                                    <ul className="list-product-colors-container">
-                                      <li>
-                                          <a href="javascript:void(0)" className="list-color-swatch list-color-swatch-active"></a>
-                                      </li>
-                                      <li>
-                                          <a href="javascript:void(0)" className="list-color-swatch"></a>
-                                      </li>
-                                      <li>
-                                          <a href="javascript:void(0)" className="list-color-swatch"></a>
-                                      </li>
-                                      <li>
-                                          <a href="javascript:void(0)" className="list-color-swatch"></a>
-                                      </li>
-                                      <li className="swatches-list-link">
-                                          <a href="javascript:void(0)" className="std-txt std-txt-S color-nightsky">
-                                          +23
-                                          </a>                  
-                                      </li>
-                                    </ul>
-                                </div>
-                              </div>
-                          </div>
-                          <div class="product-card-details">
-                              <div class="price price-promo mrg-btm-XS color-penneyred">GREEN MONDAL DEAL!</div>
-                              <div class="product-card-price">
-                                <div class="product-card-price-value price price-S mrg-rght-XS">$29.99</div>
-                                <div class="product-card-note price price-note color-penneyred">sale</div>
-                              </div>
-                              <div class="price price-note color-slate std-txt">
-                                <span class="mrg-rght-S">was $39.99</span><span> 20% off</span>
+                            <span class="price price-XXS from-label">from</span>
+                            <div class="price price-M mrg-rght-XS flag flag-price"><sup class="sup-text">$</sup>29<sup class="sup-text">99</sup></div>
+                            <span class="price price-note color-penneyred after-coupon">after coupon</span>
+                            <div class="price price-note-M color-slate std-txt mrg-top-XS">
+                            <span class="mrg-rght-S">was $74.99 - $99.99</span>
                             </div>
                               <div class="product-card-name-wrap">
                                 <a href="javascript:void(0);" class="product-card-name std-txt std-txt-S std-txt-XS-at-S color-nightsky">Lorem Ipsumd Dolor Sit Amet Consec Ter Adpisicing Alit…</a>
@@ -672,12 +682,11 @@ class ProductCards extends Component {
                           </div>
                           <div class="product-card-details">
                               <div class="price price-promo mrg-btm-XS color-penneyred">GREEN MONDAL DEAL!</div>
-                              <div class="product-card-price">
-                                <div class="product-card-price-value price price-S mrg-rght-XS">$29.99</div>
-                                <div class="product-card-note price price-note color-penneyred">sale</div>
-                              </div>
-                              <div class="price price-note color-slate std-txt">
-                                <span class="mrg-rght-S">was $39.99</span><span> 20% off</span>
+                             <div class="price price-M mrg-rght-XS color-penneyred">
+                                <span class="price price-XXS from-label">packages from</span><sup class="sup-text">$</sup>9,999<sup class="sup-text">99</sup>
+                            </div>
+                            <div class="price price-note-M color-slate std-txt">
+                              <span class="mrg-rght-S">was $9,999 - $9,999</span>
                             </div>
                               <div class="product-card-name-wrap">
                                 <a href="javascript:void(0);" class="product-card-name std-txt std-txt-S std-txt-XS-at-S color-nightsky">Lorem Ipsumd Dolor Sit Amet Consec Ter Adpisicing Alit…</a>
@@ -750,12 +759,11 @@ class ProductCards extends Component {
                         </div>
                         <div class="product-card-details">
                           <div class="price price-promo mrg-btm-XS color-penneyred">GREEN MONDAL DEAL!</div>
-                          <div class="product-card-price">
-                              <div class="product-card-price-value price price-S mrg-rght-XS">$29.99</div>
-                              <div class="product-card-note price price-note color-penneyred">sale</div>
-                          </div>
-                          <div class="price price-note color-slate std-txt">
-                                <span class="mrg-rght-S">was $39.99</span><span> 20% off</span>
+                          <span class="price price-XXS from-label">from</span>
+                            <div class="price price-M mrg-rght-XS flag flag-price"><sup class="sup-text">$</sup>29<sup class="sup-text">99</sup></div>
+                            <span class="price price-note color-penneyred after-coupon">after coupon</span>
+                            <div class="price price-note-M color-slate std-txt mrg-top-XS">
+                            <span class="mrg-rght-S">was $74.99 - $99.99</span>
                             </div>
                           <div class="product-card-name-wrap">
                             <a href="javascript:void(0);" class="product-card-name std-txt std-txt-S std-txt-XS-at-S color-nightsky">Lorem Ipsumd Dolor Sit Amet Consec Ter Adpisicing Alit…</a>
@@ -824,12 +832,10 @@ class ProductCards extends Component {
                         </div>
                         <div class="product-card-details">
                           <div class="price price-promo mrg-btm-XS color-penneyred">GREEN MONDAL DEAL!</div>
-                          <div class="product-card-price">
-                              <div class="product-card-price-value price price-S mrg-rght-XS">$29.99</div>
-                              <div class="product-card-note price price-note color-penneyred">sale</div>
-                          </div>
-                          <div class="price price-note color-slate std-txt">
-                                <span class="mrg-rght-S">was $39.99</span><span> 20% off</span>
+                          <div class="price price-M mrg-rght-XS color-penneyred"><span class="price price-XXS from-label">packages from</span><sup class="sup-text">$</sup>9,999<sup class="sup-text">99</sup>
+                            </div>
+                            <div class="price price-note-M color-slate std-txt">
+                              <span class="mrg-rght-S">was $9,999 - $9,999</span>
                             </div>
                           <div class="product-card-name-wrap">
                             <a href="javascript:void(0);" class="product-card-name std-txt std-txt-S std-txt-XS-at-S color-nightsky">Lorem Ipsumd Dolor Sit Amet Consec Ter Adpisicing Alit…</a>
@@ -904,13 +910,12 @@ class ProductCards extends Component {
                         </div>
                     </div>
                     <div class="price price-promo mrg-btm-XS color-penneyred">GREEN MONDAL DEAL!</div>
-                    <div class="product-card-price">
-                        <div class="product-card-price-value price price-S mrg-rght-XS">$29.99</div>
-                        <div class="product-card-note price price-note color-penneyred">sale</div>
+                    <div class="price price-M mrg-rght-XS"><span class="price price-XXS from-label">from</span><sup class="sup-text">$</sup>33<sup class="sup-text">99</sup>
+                        <span class="price price-note color-penneyred clearance"> clearance</span>
                     </div>
-                    <div class="price price-note color-slate std-txt">
-                                <span class="mrg-rght-S">was $39.99</span><span> 20% off</span>
-                            </div>
+                    <div class="price price-note-M color-slate std-txt">
+                        <span class="mrg-rght-S">was $74.99 - $99.99</span>
+                    </div>
                     <div class="product-card-name std-txt std-txt-S color-nightsky">Lorem Ipsumd Dolor Sit Amet Consec Ter Adpisicing Alit…</div>
                     <div class="star-preview-col review-star mrg-top-XS">
                                 <ul class="star-ratings-S">
@@ -964,13 +969,11 @@ class ProductCards extends Component {
                         </div>
                     </div>
                     <div class="price price-promo mrg-btm-XS color-penneyred">GREEN MONDAL DEAL!</div>
-                    <div class="product-card-price">
-                        <div class="product-card-price-value">
-                          <div class="flag flag-price std-txt std-txt-XS mrg-rght-XS">
-                              <div class="price price-S color-white">$59.99</div>
-                          </div>
-                        </div>
-                        <div class="product-card-note price price-note color-penneyred">after coupon</div>
+                    <span class="price price-XXS from-label">from</span>
+                    <div class="price price-M mrg-rght-XS flag flag-price"><sup class="sup-text">$</sup>29<sup class="sup-text">99</sup></div>
+                    <span class="price price-note color-penneyred after-coupon">after coupon</span>
+                    <div class="price price-note-M color-slate std-txt mrg-top-XS">
+                      <span class="mrg-rght-S">was $74.99 - $99.99</span>
                     </div>
                     <div class="price price-note color-slate std-txt">
                         <span class="mrg-rght-S">was $39.99</span><span> 20% off</span>
@@ -1036,12 +1039,12 @@ class ProductCards extends Component {
                         </div>
                     </div>
                     <div class="price price-promo-S mrg-btm-XS color-penneyred">GREEN MONDAL DEAL!</div>
-                    <div class="product-card-price">
-                        <div class="product-card-price-value price price-XS mrg-rght-XS">$29.99</div>
-                        <div class="product-card-note price price-note color-penneyred">sale</div>
+                    <div class="price price-S mrg-rght-XS"><sup class="sup-text-S">$</sup>33<sup class="sup-text-S">99</sup>
+                        <span class="price price-note color-penneyred clearance-S">clearance</span>
                     </div>
-                    <div class="price price-note color-slate std-txt">
-                        <span class="mrg-rght-S">was $39.99</span><span> 20% off</span>
+                    <div class="price price-note color-slate std-txt mrg-top-XS">
+                        <span class="mrg-rght-S">was $74</span>
+                        <span> 41% off</span>
                     </div>
                     <div class="product-card-name std-txt std-txt-XS color-nightsky">Lorem Ipsumd Dolor Adpisicing Alit…</div>
                     <div class="star-preview-col review-star mrg-top-XS">
@@ -1095,12 +1098,11 @@ class ProductCards extends Component {
                         </div>
                     </div>
                     <div class="price price-promo-S mrg-btm-XS color-penneyred">GREEN MONDAL DEAL!</div>
-                    <div class="product-card-price">
-                        <div class="product-card-price-value price price-XS mrg-rght-XS">$29.99</div>
-                        <div class="product-card-note price price-note color-penneyred">sale</div>
-                    </div>
+                    <span class="price price-XXS from-label-S">from</span>
+                    <div class="price price-S mrg-rght-XS flag flag-price"><sup class="sup-text-S">$</sup>29<sup class="sup-text-S">99</sup></div>
+                        <span class="price price-note color-penneyred after-coupon">after coupon</span>
                     <div class="price price-note color-slate std-txt">
-                        <span class="mrg-rght-S">was $39.99</span><span> 20% off</span>
+                        <span class="mrg-rght-S">was $74.99 - $99.99</span>
                     </div>
                     <div class="product-card-name std-txt std-txt-XS color-nightsky">Lorem Ipsumd Dolor Adpisicing Alit…</div>
                     <div class="star-preview-col review-star mrg-top-XS">
@@ -1146,12 +1148,10 @@ class ProductCards extends Component {
                         </div>
                     </div>
                     <div class="product-card-details">
-                        <div class="product-card-price">
-                          <div class="product-card-price-value price price-XS mrg-rght-XS">$29.99</div>
-                          <div class="product-card-note price price-note color-penneyred">sale</div>
+                        <div class="price price-S mrg-rght-XS color-penneyred"><span class="price price-XXS from-label-S">packages from</span><sup class="sup-text-S">$</sup>9,999<sup class="sup-text-S">99</sup>
                         </div>
                         <div class="price price-note color-slate std-txt">
-                            <span class="mrg-rght-S">was $39.99</span><span> 20% off</span>
+                            <span class="mrg-rght-S">was $9,999 - $9,999</span>
                         </div>
                         <div class="product-card-name std-txt std-txt-XS color-nightsky">Lorem Ipsumd Dolor Sit Amet Consec Ter Adpisicing Alit…</div>
                         <div class="star-preview-col review-star mrg-top-XS">
@@ -1189,12 +1189,10 @@ class ProductCards extends Component {
                         </div>
                     </div>
                     <div class="product-card-details">
-                        <div class="product-card-price">
-                          <div class="product-card-price-value price price-XS mrg-rght-XS">$29.99</div>
-                          <div class="product-card-note price price-note color-penneyred">sale</div>
-                        </div>
-                        <div class="price price-note color-slate std-txt">
-                            <span class="mrg-rght-S">was $39.99</span><span> 20% off</span>
+                        <div class="price price-S mrg-rght-XS flag flag-price"><sup class="sup-text-S">$</sup>29<sup class="sup-text-S">99</sup></div>
+                        <span class="price price-note color-penneyred after-coupon">after coupon</span>
+                        <div class="price price-note color-slate std-txt mrg-top-XS">
+                            <span class="mrg-rght-S">was $74</span><span> 41% off</span>
                         </div>
                         <div class="product-card-name std-txt std-txt-XS color-nightsky">Lorem Ipsumd Dolor Sit Amet Consec Ter Adpisicing Alit…</div>
                         <div class="star-preview-col review-star mrg-top-XS">
