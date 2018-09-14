@@ -61,7 +61,7 @@ const calculateScrollPixel = ({
 
 
 class RecommendationZone
- extends Component {
+  extends Component {
   constructor() {
     super();
     this.state = {
@@ -80,179 +80,12 @@ class RecommendationZone
     };
   }
 
-
-
-
-  productCardRecommendations(productInfo) {
-    return (
-      <li className="product-card">
-        <a href="javascript:void(0)" className="product-rec-zone" ref={(productPane) => { this.productPane = productPane }}>
-          <div className="product-card-recommendation">
-
-            {(() => {
-              if (productInfo.thumb) {
-                return (
-                  <div className="product-card-thumbnail mrg-btm-S">
-                    <a href="javascript:void(0)">
-                      <img src={productInfo.thumb} alt="product-image" />
-                    </a>
-                  </div>
-                )
-              }
-            })()}
-
-            {(() => {
-              if (productInfo.promo) {
-                return (
-                  <div className="promo-lbl promo-lbl-XS mrg-btm-XS color-penneyred">
-                    {productInfo.promo}
-                  </div>
-                )
-              }
-            })()}
-
-            <div>
-              {(() => {
-                if (productInfo.priceHighlight === true) {
-                  return (
-                    <div className="product-card-price-value">
-                        {productInfo.price}
-                    </div>
-
-
-
-  // <div class="price-card">
-  //   <div class="price price-M mrg-rght-XS color-penneyred"><sup class="sup-text">$</sup>33<sup class="sup-text">99</sup>
-  //     <span class="price price-note color-penneyred clearance">clearance</span>
-  //   </div>
-  //   <div class="price price-note-M color-slate std-txt mrg-top-XS">
-  //     <span class="mrg-rght-S">was $74   </span>
-  //     <span> 41% off</span>
-  //   </div>
-  // </div>
-            )
-                } else {
-                  return (
-                    <div className="product-card-price-value price price-XS">
-                      {productInfo.price}
-                    </div>
-                  )
-                }
-              })()}
-
-
-              {(() => {
-                if (productInfo.priceRestriction) {
-                  return (
-                    <span>
-                      {productInfo.priceRestriction}
-                    </span>
-                  )
-                }
-              })()}
-
-            </div>
-
-            {(() => {
-              if (productInfo.priceRegular) {
-                return (
-                  <div className="price price-note-M std-txt mrg-top-XS">
-                    {productInfo.priceRegular}
-                  </div>
-                )
-              }
-            })()}
-            <div className="product-card-name std-txt std-txt-S color-nightsky">
-              {productInfo.name}
-            </div>
-
-            <div className="ratings-and-reviews">
-              <div className="ratings-and-reviews-stars mrg-rght-XS">
-                <div className="star-preview-col fl-right">
-                  <ul className="star-ratings-S">
-                    <li className="star-ratings start-ratings-full">
-                      <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
-                    </li>
-                    <li className="star-ratings start-ratings-full">
-                      <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
-                    </li>
-                    <li className="star-ratings start-ratings-full">
-                      <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
-                    </li>
-                    <li className="star-ratings start-ratings-half">
-                      <span className="icon" dangerouslySetInnerHTML={{ __html: starhalfImage }} />
-                    </li>
-                    <li className="star-ratings star-rating-empty color-concrete-svg">
-                      <span className="icon" dangerouslySetInnerHTML={{ __html: starImage }} />
-                    </li>
-                    <li className="star-ratings">
-                                        <a href="javascript:void();" className="rating-count rating-count-underline">99,999</a>
-                   </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-
-          </div>
-        </a>
-      </li>
-    )
-  }
-
   componentWillMount() {
 
     isMobile = window.innerWidth < 1024;
   }
   componentDidMount() {
     this.listenScrollEvent = this.listenScrollEvent.bind(this);
-  }
-  shouldComponentUpdate(nextProps, nextState) {
-    if (isMobile) {
-      if (this.state.currentDotIndex === nextState.currentDotIndex && isSameStateFirstTime) {
-        isSameStateFirstTime = false;
-        return true;
-      }
-      else if (this.state.currentDotIndex !== nextState.currentDotIndex) {
-        isSameStateFirstTime = true;
-        return true;
-      }
-    } else return true;
-  }
-
-  getDots() {
-    if (!this.wrapper) return;
-    const productCartridgeList = 16;
-    const pane = this.productPane;
-    // const pane = 176;
-    const wrapperWidth = this.wrapper.getBoundingClientRect().width;
-    const productPaneWidth = pane.getBoundingClientRect().width;
-    const { scrollPixels, scrolledPanes } = this.scrollStatus;
-
-    const totalProductPanes = productCartridgeList;
-    const result = (wrapperWidth / productPaneWidth);
-    const productPanesDisplayed = Math.floor(result);
-    const numberOfDots = Math.ceil(totalProductPanes / productPanesDisplayed);
-    
-    const generateDots = () => {
-      const listDots = [];
-      for (let i = 1; i <= numberOfDots; i += 1) {
-        
-        let checkStatus = false;
-        if (this.state.currentDotIndex === i) {
-          checkStatus = true;
-        }
-        listDots.push(<span>
-          <input type="radio" className="bullet" id={"id" + i} name="name" value="" checked={checkStatus} />
-          <label htmlFor={"id" + i}></label>
-        </span>);
-      }
-      dotsToDisplay = listDots.length > 1 ? listDots : [];
-      return dotsToDisplay;
-    };
-    let node = generateDots();
-    this.setState({
-      dotNodes: node,
-    })
   }
 
   scrollCartridge(scrollToRight) {
@@ -306,13 +139,6 @@ class RecommendationZone
     this.timer = setTimeout(fn, after);
   };
 
-  getDotsWithDeley() {
-    let node;
-    this.delayedExec(100, () => {
-      node = this.getDots();
-      return node;
-    })
-  }
   listenScrollEvent() {
     /* istanbul ignore next */
     this.delayedExec(100, () => {
@@ -364,211 +190,886 @@ class RecommendationZone
     const { listStyle,
       disableLeftArrow,
       disableRightArrow } = this.state;
-      const mobLeftFade = <div className="rec-fade-left show-for-small-only show-for-medium-only"></div>;
-      const mobRightFade = <div className="rec-fade-right show-for-small-only show-for-medium-only"></div>;
+    const mobLeftFade = <div className="rec-fade-left show-for-small-only show-for-medium-only"></div>;
+    const mobRightFade = <div className="rec-fade-right show-for-small-only show-for-medium-only"></div>;
     return (
       <div>
         <div className="row">
           {/* <div className="sm12 columns">
             <h1 className="title title-XL mrg-btm-L">Recommendation Zone</h1>
           </div> */}
-            <div className="sm12 columns">
-              <h2><strong>Rec Row</strong></h2>
-              <hr />
-              <div className="product-card-wrapper product-card-wrapper-recommendations" ref={(wrapper) => { this.wrapper = wrapper }} style={listStyle}>
-                <div className="chevron-wrapper">
-                  <a style={{ visibility: disableLeftArrow ? 'hidden' : 'visible' }}
-                    href="javascript:void(0);"
-                    className="rec-zone-chevron-left hide-for-small-only hide-for-medium-only rec-fade-left">
-                    <span onClick={() => this.scrollCartridge(false)} className="icon chevron-icon" dangerouslySetInnerHTML={{ __html: ChevronLeftImage }}/>
-                  </a>
-                  <a style={{ visibility: disableRightArrow ? 'hidden' : 'visible' }}
-                    href="javascript:void(0);"
-                    className="rec-zone-chevron-right hide-for-small-only hide-for-medium-only rec-fade-right">
-                    <span onClick={() => this.scrollCartridge(true)} className="icon chevron-icon" dangerouslySetInnerHTML={{ __html: ChevronRightImage }}/>
-                  </a>
-                  
-                  {this.state.currentDotIndex == 1 ? '' : mobLeftFade}
-                  {this.state.currentDotIndex == this.state.dotNodes.length? '' : mobRightFade}
-                  
-                </div>
-                <div className="product-card-block" id="product-card-section" onScroll={isMobile ? () => this.listenScrollEvent() : ''}>
-                  <ul style={listStyle} className="listStyleClass">
-                    {this.productCardRecommendations({
-                      name: "Lorem Ipsum Dolor Sec Mud Deler LoreM Dol…",
-                      thumb: '/images/design-system/fpo/product-cards/product-card-recommendations-1.jpg',
-                      promo: 'SAMSUNG BUY 4 SAVE 10%',
-                      price:   <div class="price price-M"><sup class="sup-text">$</sup>74<sup class="sup-text">99</sup></div>,
-                      priceHighlight: true,
-                      priceRestriction: '',
-                      priceRegular: 'reg. $2,999 - $5,999'
-                    })}
-
-                    {this.productCardRecommendations({
-                      name: "Lorem Ipsum Dolor Sec Mud Deler LoreM Dol…",
-                      thumb: '/images/design-system/fpo/product-cards/product-card-recommendations-2.jpg',
-                      promo: '',
-                      price: <div class="price price-M flag flag-price"><span class="mrg-rght-XS"><sup class="sup-text">$</sup>59<sup class="sup-text">99</sup></span></div>,
-                      priceHighlight: true,
-                      priceRestriction: <span class="price price-note color-penneyred after-coupon">after coupon</span>,
-                      priceRegular: 'reg. $99.99'
-                    })}
-
-                    {this.productCardRecommendations({
-                      name: "Lorem Ipsum Dolor Sec Mud Deler LoreM Dol…",
-                      thumb: '/images/design-system/fpo/product-cards/product-card-recommendations-3.jpg',
-                      promo: '',
-                      price: <div class="price price-M"><span class="mrg-rght-XS"><sup class="sup-text">$</sup>299<sup class="sup-text">99</sup></span></div>,
-                      priceHighlight: true,
-                      priceRestriction:  <span class="price price-note color-penneyred after-coupon">after coupon</span>,
-                      priceRegular: 'reg. $99.99'
-                    })}
-
-                    {this.productCardRecommendations({
-                      name: "Lorem Ipsum Dolor Sec Mud Deler LoreM Dol…",
-                      thumb: '/images/design-system/fpo/product-cards/product-card-recommendations-4.jpg',
-                      promo: '',
-                      price: <div class="price price-M"><sup class="sup-text">$</sup>599<sup class="sup-text">99</sup></div>,
-                      priceHighlight: false,
-                      priceRestriction: '',
-                      priceRegular: ''
-                    })}
-
-                    {this.productCardRecommendations({
-                      name: "Lorem Ipsum Dolor Sec Mud Deler LoreM Dol…",
-                      thumb: '/images/design-system/fpo/product-cards/product-card-recommendations-5.jpg',
-                      promo: '',
-                      price: <div class="price price-M"><span class="mrg-rght-XS"><sup class="sup-text">$</sup>29<sup class="sup-text">99</sup></span></div>,
-                      priceHighlight: false,
-                      priceRestriction:  <span class="price price-note color-penneyred clearance">sale</span>,
-                      priceRegular: 'was $60'
-                    })}
-
-                    {this.productCardRecommendations({
-                      name: "Lorem Ipsum Dolor Sec Mud Deler LoreM Dol…",
-                      thumb: '/images/design-system/fpo/product-cards/product-card-recommendations-6.jpg',
-                      promo: '',
-                      price: <div class="price price-M"><span class="mrg-rght-XS"><sup class="sup-text">$</sup>99<sup class="sup-text">99</sup></span></div>,
-                      priceHighlight: false,
-                      priceRestriction:  <span class="price price-note color-penneyred clearance">clearance</span>,
-                      priceRegular: 'was $299.99'
-                    })}
-
-                    {this.productCardRecommendations({
-                      name: "Lorem Ipsum Dolor Sec Mud Deler LoreM Dol…",
-                      thumb: '/images/design-system/fpo/product-cards/product-card-recommendations-7.jpg',
-                      promo: '',
-                      price: <div class="price price-M"><span class="mrg-rght-XS"><sup class="sup-text">$</sup>299<sup class="sup-text">99</sup></span></div>,
-                      priceHighlight: false,
-                      priceRestriction: <span class="price price-note color-penneyred clearance">clearance</span>,
-                      priceRegular: 'was $499.99 - $699.99'
-                    })}
-
-                    {this.productCardRecommendations({
-                      name: "Lorem Ipsum Dolor Sec Mud Deler LoreM Dol…",
-                      thumb: '/images/design-system/fpo/product-cards/product-card-recommendations-8.jpg',
-                      promo: '',
-                      price: <div class="price price-M"><sup class="sup-text">$</sup>2,999</div>,
-                      priceHighlight: false,
-                      priceRestriction: '',
-                      priceRegular: 'was $4,999 - $6,999'
-                    })}
-                    {this.productCardRecommendations({
-                      name: "Lorem Ipsum Dolor Sec Mud Deler LoreM Dol…",
-                      thumb: '/images/design-system/fpo/product-cards/product-card-recommendations-1.jpg',
-                      promo: 'SAMSUNG BUY 4 SAVE 10%',
-                      price: <div class="price price-M"><sup class="sup-text">$</sup>2,999</div>,
-                      priceHighlight: true,
-                      priceRestriction: '',
-                      priceRegular: 'reg. $2,999 - $5,999'
-                    })}
-
-                    {this.productCardRecommendations({
-                      name: "Lorem Ipsum Dolor Sec Mud Deler LoreM Dol…",
-                      thumb: '/images/design-system/fpo/product-cards/product-card-recommendations-2.jpg',
-                      promo: '',
-                      price: <div class="price price-M flag flag-price"><span class="mrg-rght-XS"><sup class="sup-text">$</sup>59<sup class="sup-text">99</sup></span></div>,
-                      priceHighlight: true,
-                      priceRestriction: <span class="price price-note color-penneyred after-coupon">after coupon</span>,
-                      priceRegular: 'reg. $99.99'
-                    })}
-
-                    {this.productCardRecommendations({
-                      name: "Lorem Ipsum Dolor Sec Mud Deler LoreM Dol…",
-                      thumb: '/images/design-system/fpo/product-cards/product-card-recommendations-3.jpg',
-                      promo: '',
-                      price: <div class="price price-M"><span class="mrg-rght-XS"><sup class="sup-text">$</sup>299<sup class="sup-text">99</sup></span></div>,
-                      priceHighlight: true,
-                      priceRestriction: <span class="price price-note color-penneyred after-coupon">after coupon</span>,
-                      priceRegular: 'reg. $99.99'
-                    })}
-
-                    {this.productCardRecommendations({
-                      name: "Lorem Ipsum Dolor Sec Mud Deler LoreM Dol…",
-                      thumb: '/images/design-system/fpo/product-cards/product-card-recommendations-4.jpg',
-                      promo: '',
-                      price: <div class="price price-S"><sup class="sup-text">$</sup>599<sup class="sup-text">99</sup></div>,
-                      priceHighlight: false,
-                      priceRestriction: '',
-                      priceRegular: ''
-                    })}
-
-                    {this.productCardRecommendations({
-                      name: "Lorem Ipsum Dolor Sec Mud Deler LoreM Dol…",
-                      thumb: '/images/design-system/fpo/product-cards/product-card-recommendations-5.jpg',
-                      promo: '',
-                      price: <div class="price price-M"><span class="mrg-rght-XS"><sup class="sup-text">$</sup>29<sup class="sup-text">99</sup></span></div>,
-                      priceHighlight: false,
-                      priceRestriction: <span class="price price-note color-penneyred clearance">sale</span>,
-                      priceRegular: 'was $60'
-                    })}
-
-                    {this.productCardRecommendations({
-                      name: "Lorem Ipsum Dolor Sec Mud Deler LoreM Dol…",
-                      thumb: '/images/design-system/fpo/product-cards/product-card-recommendations-6.jpg',
-                      promo: '',
-                      price: <div class="price price-S"><span class="mrg-rght-XS"><sup class="sup-text">$</sup>99<sup class="sup-text">99</sup></span></div>,
-                      priceHighlight: false,
-                      priceRestriction: <span class="price price-note color-penneyred clearance">clearance</span>,
-                      priceRegular: 'was $299.99'
-                    })}
-
-                    {this.productCardRecommendations({
-                      name: "Lorem Ipsum Dolor Sec Mud Deler LoreM Dol…",
-                      thumb: '/images/design-system/fpo/product-cards/product-card-recommendations-7.jpg',
-                      promo: '',
-                      price: <div class="price price-M"><span class="mrg-rght-XS"><sup class="sup-text">$</sup>299<sup class="sup-text">99</sup></span></div>,
-                      priceHighlight: false,
-                      priceRestriction: <span class="price price-note color-penneyred clearance">clearance</span>,
-                      priceRegular: 'was $499.99 - $699.99'
-                    })}
-
-                    {this.productCardRecommendations({
-                      name: "Lorem Ipsum Dolor Sec Mud Deler LoreM Dol…",
-                      thumb: '/images/design-system/fpo/product-cards/product-card-recommendations-8.jpg',
-                      promo: '',
-                      price:  <div class="price price-M color-penneyred"><span class="price price-XXS from-label">packages from</span><sup class="sup-text">$</sup>9,999<sup class="sup-text">99</sup></div>,
-                      priceHighlight: false,
-                      priceRestriction: '',
-                      priceRegular: 'was $4,999 - $6,999'
-                    })}
-                  </ul>
-                </div>
-                <div className="rec-zone-carousel show-for-small-only show-for-medium-only">
-                  <div>{isMobile ? this.getDotsWithDeley() : ''} {isMobile ? this.state.dotNodes : ''}</div>
-                </div>
-              </div>
-
-            </div>
-          </div>
-
-        {/* <div className="row">
           <div className="sm12 columns">
+            <h2><strong>Rec Row</strong></h2>
             <hr />
-            <p className="S">Created by: <strong>Tony Stark</strong> and <strong>Bruce Banner</strong>
-              <br /> Latest update: 04/05/2017</p>
+            <div className="product-card-wrapper product-card-wrapper-recommendations" ref={(wrapper) => { this.wrapper = wrapper }} style={listStyle}>
+              <div className="chevron-wrapper">
+                <a style={{ visibility: disableLeftArrow ? 'hidden' : 'visible' }}
+                  href="javascript:void(0);"
+                  className="rec-zone-chevron-left hide-for-small-only hide-for-medium-only rec-fade-left">
+                  <span onClick={() => this.scrollCartridge(false)} className="icon chevron-icon" dangerouslySetInnerHTML={{ __html: ChevronLeftImage }} />
+                </a>
+                <a style={{ visibility: disableRightArrow ? 'hidden' : 'visible' }}
+                  href="javascript:void(0);"
+                  className="rec-zone-chevron-right hide-for-small-only hide-for-medium-only rec-fade-right">
+                  <span onClick={() => this.scrollCartridge(true)} className="icon chevron-icon" dangerouslySetInnerHTML={{ __html: ChevronRightImage }} />
+                </a>
+
+                {this.state.currentDotIndex == 1 ? '' : mobLeftFade}
+                {this.state.currentDotIndex == this.state.dotNodes.length ? '' : mobRightFade}
+
+              </div>
+              <div className="product-card-block" id="product-card-section" onScroll={isMobile ? () => this.listenScrollEvent() : ''}>
+                <ul style={listStyle} className="listStyleClass">
+                  <li className="product-card">
+                    <a href="javascript:void(0)" className="product-rec-zone" ref={(productPane) => { this.productPane = productPane }}>
+                      <div className="product-card-recommendation">
+
+                        <div className="product-card-thumbnail mrg-btm-S">
+                          <a href="javascript:void(0)">
+                            <img src='/images/design-system/fpo/product-cards/product-card-recommendations-1.jpg' alt="product-image" />
+                          </a>
+                        </div>
+
+                        <div className="promo-lbl promo-lbl-XS mrg-btm-XS color-penneyred">
+                          SAMSUNG BUY 4 SAVE 10%
+                      </div>
+                        <div>
+                          <span>
+                          </span>
+                        </div>
+                        <div className="price price-note-M std-txt mrg-top-XS">
+                          <div class="price price-M"><sup class="sup-text">$</sup>74<sup class="sup-text">99</sup></div>
+                        </div>
+                        <div className="price price-note-M std-txt mrg-top-XS">
+                          reg. $2,999 - $5,999
+                  </div>
+                        <div className="product-card-name std-txt std-txt-S color-nightsky">
+                          Lorem Ipsum Dolor Sec Mud Deler LoreM Dol…
+            </div>
+
+                        <div className="ratings-and-reviews">
+                          <div className="ratings-and-reviews-stars mrg-rght-XS">
+                            <div className="star-preview-col fl-right">
+                              <ul className="star-ratings-S">
+                                <li className="star-ratings start-ratings-full">
+                                  <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
+                                </li>
+                                <li className="star-ratings start-ratings-full">
+                                  <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
+                                </li>
+                                <li className="star-ratings start-ratings-full">
+                                  <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
+                                </li>
+                                <li className="star-ratings start-ratings-half">
+                                  <span className="icon" dangerouslySetInnerHTML={{ __html: starhalfImage }} />
+                                </li>
+                                <li className="star-ratings star-rating-empty color-concrete-svg">
+                                  <span className="icon" dangerouslySetInnerHTML={{ __html: starImage }} />
+                                </li>
+                                <li className="star-ratings">
+                                  <a href="javascript:void();" className="rating-count rating-count-underline">99,999</a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+          {/* <!-- 2rd col--> */}
+                  <li className="product-card">
+                    <a href="javascript:void(0)" className="product-rec-zone" ref={(productPane) => { this.productPane = productPane }}>
+                      <div className="product-card-recommendation">
+
+                        <div className="product-card-thumbnail mrg-btm-S">
+                          <a href="javascript:void(0)">
+                            <img src='/images/design-system/fpo/product-cards/product-card-recommendations-2.jpg' alt="product-image" />
+                          </a>
+                        </div>
+                        <div>
+                        </div>
+                        <div class="price price-M flag flag-price">
+                        <span class="mrg-rght-XS"><sup class="sup-text">$</sup>59<sup class="sup-text">99</sup></span></div>
+                        <span class="price price-note color-penneyred after-coupon">after coupon</span>
+                        <div className="price price-note-M std-txt mrg-top-XS">
+                            reg. $99.99
+                  </div>
+                        <div className="product-card-name std-txt std-txt-S color-nightsky">
+                        Lorem Ipsum Dolor Sec Mud Deler LoreM Dol…
+            </div>
+
+                        <div className="ratings-and-reviews">
+                          <div className="ratings-and-reviews-stars mrg-rght-XS">
+                            <div className="star-preview-col fl-right">
+                              <ul className="star-ratings-S">
+                                <li className="star-ratings start-ratings-full">
+                                  <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
+                                </li>
+                                <li className="star-ratings start-ratings-full">
+                                  <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
+                                </li>
+                                <li className="star-ratings start-ratings-full">
+                                  <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
+                                </li>
+                                <li className="star-ratings start-ratings-half">
+                                  <span className="icon" dangerouslySetInnerHTML={{ __html: starhalfImage }} />
+                                </li>
+                                <li className="star-ratings star-rating-empty color-concrete-svg">
+                                  <span className="icon" dangerouslySetInnerHTML={{ __html: starImage }} />
+                                </li>
+                                <li className="star-ratings">
+                                  <a href="javascript:void();" className="rating-count rating-count-underline">99,999</a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+
+{/* <!-- 3rd col--> */}
+                  <li className="product-card">
+                    <a href="javascript:void(0)" className="product-rec-zone" ref={(productPane) => { this.productPane = productPane }}>
+                      <div className="product-card-recommendation">
+
+                        <div className="product-card-thumbnail mrg-btm-S">
+                          <a href="javascript:void(0)">
+                            <img src='/images/design-system/fpo/product-cards/product-card-recommendations-3.jpg' alt="product-image" />
+                          </a>
+                        </div>
+                        <div>
+                        </div>
+                        <div className="product-card-price-value">
+                        <div class="price price-M">
+                        <span className="mrg-rght-XS"><sup className="sup-text">$</sup>299<sup className="sup-text">99</sup></span></div>
+                    </div>
+                        <span className="price price-note color-penneyred after-coupon">after coupon</span>
+                        <div className="price price-note-M std-txt mrg-top-XS">
+                          reg. $99.99
+                  </div>
+                        <div className="product-card-name std-txt std-txt-S color-nightsky">
+                        Lorem Ipsum Dolor Sec Mud Deler LoreM Dol…
+            </div>
+
+                        <div className="ratings-and-reviews">
+                          <div className="ratings-and-reviews-stars mrg-rght-XS">
+                            <div className="star-preview-col fl-right">
+                              <ul className="star-ratings-S">
+                                <li className="star-ratings start-ratings-full">
+                                  <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
+                                </li>
+                                <li className="star-ratings start-ratings-full">
+                                  <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
+                                </li>
+                                <li className="star-ratings start-ratings-full">
+                                  <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
+                                </li>
+                                <li className="star-ratings start-ratings-half">
+                                  <span className="icon" dangerouslySetInnerHTML={{ __html: starhalfImage }} />
+                                </li>
+                                <li className="star-ratings star-rating-empty color-concrete-svg">
+                                  <span className="icon" dangerouslySetInnerHTML={{ __html: starImage }} />
+                                </li>
+                                <li className="star-ratings">
+                                  <a href="javascript:void();" className="rating-count rating-count-underline">99,999</a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+
+{/* <!-- 4rd col--> */}
+                  <li className="product-card">
+                    <a href="javascript:void(0)" className="product-rec-zone" ref={(productPane) => { this.productPane = productPane }}>
+                      <div className="product-card-recommendation">
+
+                        <div className="product-card-thumbnail mrg-btm-S">
+                          <a href="javascript:void(0)">
+                            <img src='/images/design-system/fpo/product-cards/product-card-recommendations-4.jpg' alt="product-image" />
+                          </a>
+                        </div>
+                        <div>
+                        </div>
+                        <div className="product-card-price-value">
+                        <div class="price price-M"><sup class="sup-text">$</sup>599<sup class="sup-text">99</sup></div>
+                    </div>
+                        <div className="product-card-name std-txt std-txt-S color-nightsky">
+                        Lorem Ipsum Dolor Sec Mud Deler LoreM Dol…
+            </div>
+
+                        <div className="ratings-and-reviews">
+                          <div className="ratings-and-reviews-stars mrg-rght-XS">
+                            <div className="star-preview-col fl-right">
+                              <ul className="star-ratings-S">
+                                <li className="star-ratings start-ratings-full">
+                                  <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
+                                </li>
+                                <li className="star-ratings start-ratings-full">
+                                  <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
+                                </li>
+                                <li className="star-ratings start-ratings-full">
+                                  <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
+                                </li>
+                                <li className="star-ratings start-ratings-half">
+                                  <span className="icon" dangerouslySetInnerHTML={{ __html: starhalfImage }} />
+                                </li>
+                                <li className="star-ratings star-rating-empty color-concrete-svg">
+                                  <span className="icon" dangerouslySetInnerHTML={{ __html: starImage }} />
+                                </li>
+                                <li className="star-ratings">
+                                  <a href="javascript:void();" className="rating-count rating-count-underline">99,999</a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+
+  {/* <!-- 5rd col--> */}
+  <li className="product-card">
+                    <a href="javascript:void(0)" className="product-rec-zone" ref={(productPane) => { this.productPane = productPane }}>
+                      <div className="product-card-recommendation">
+
+                        <div className="product-card-thumbnail mrg-btm-S">
+                          <a href="javascript:void(0)">
+                            <img src='/images/design-system/fpo/product-cards/product-card-recommendations-5.jpg' alt="product-image" />
+                          </a>
+                        </div>
+                        <div>
+                        </div>
+                        <div className="product-card-price-value">
+                        <div class="price price-M"><span class="mrg-rght-XS"><sup class="sup-text">$</sup>29<sup class="sup-text">99</sup></span></div>
+                    </div>
+                      <span class="price price-note color-penneyred clearance">sale</span>
+                        <div className="price price-note-M std-txt mrg-top-XS">
+                        was $60
+                  </div>
+                        <div className="product-card-name std-txt std-txt-S color-nightsky">
+                        Lorem Ipsum Dolor Sec Mud Deler LoreM Dol…
+            </div>
+
+                        <div className="ratings-and-reviews">
+                          <div className="ratings-and-reviews-stars mrg-rght-XS">
+                            <div className="star-preview-col fl-right">
+                              <ul className="star-ratings-S">
+                                <li className="star-ratings start-ratings-full">
+                                  <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
+                                </li>
+                                <li className="star-ratings start-ratings-full">
+                                  <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
+                                </li>
+                                <li className="star-ratings start-ratings-full">
+                                  <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
+                                </li>
+                                <li className="star-ratings start-ratings-half">
+                                  <span className="icon" dangerouslySetInnerHTML={{ __html: starhalfImage }} />
+                                </li>
+                                <li className="star-ratings star-rating-empty color-concrete-svg">
+                                  <span className="icon" dangerouslySetInnerHTML={{ __html: starImage }} />
+                                </li>
+                                <li className="star-ratings">
+                                  <a href="javascript:void();" className="rating-count rating-count-underline">99,999</a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+
+
+  {/* <!-- 6rd col--> */}
+  <li className="product-card">
+                    <a href="javascript:void(0)" className="product-rec-zone" ref={(productPane) => { this.productPane = productPane }}>
+                      <div className="product-card-recommendation">
+
+                        <div className="product-card-thumbnail mrg-btm-S">
+                          <a href="javascript:void(0)">
+                            <img src='/images/design-system/fpo/product-cards/product-card-recommendations-6.jpg' alt="product-image" />
+                          </a>
+                        </div>
+                        <div>
+                        </div>
+                        <div className="product-card-price-value">
+                        <div class="price price-M"><span class="mrg-rght-XS"><sup class="sup-text">$</sup>99<sup class="sup-text">99</sup></span></div>
+                    </div>
+                    <span class="price price-note color-penneyred clearance">clearance</span>
+                        <div className="price price-note-M std-txt mrg-top-XS">
+                        was $299.99
+                  </div>
+                        <div className="product-card-name std-txt std-txt-S color-nightsky">
+                        Lorem Ipsum Dolor Sec Mud Deler LoreM Dol…
+            </div>
+
+                        <div className="ratings-and-reviews">
+                          <div className="ratings-and-reviews-stars mrg-rght-XS">
+                            <div className="star-preview-col fl-right">
+                              <ul className="star-ratings-S">
+                                <li className="star-ratings start-ratings-full">
+                                  <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
+                                </li>
+                                <li className="star-ratings start-ratings-full">
+                                  <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
+                                </li>
+                                <li className="star-ratings start-ratings-full">
+                                  <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
+                                </li>
+                                <li className="star-ratings start-ratings-half">
+                                  <span className="icon" dangerouslySetInnerHTML={{ __html: starhalfImage }} />
+                                </li>
+                                <li className="star-ratings star-rating-empty color-concrete-svg">
+                                  <span className="icon" dangerouslySetInnerHTML={{ __html: starImage }} />
+                                </li>
+                                <li className="star-ratings">
+                                  <a href="javascript:void();" className="rating-count rating-count-underline">99,999</a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+
+  {/* <!-- 7rd col--> */}
+  <li className="product-card">
+                    <a href="javascript:void(0)" className="product-rec-zone" ref={(productPane) => { this.productPane = productPane }}>
+                      <div className="product-card-recommendation">
+
+                        <div className="product-card-thumbnail mrg-btm-S">
+                          <a href="javascript:void(0)">
+                            <img src='/images/design-system/fpo/product-cards/product-card-recommendations-7.jpg' alt="product-image" />
+                          </a>
+                        </div>
+                        <div>
+                        </div>
+                        <div className="product-card-price-value">
+                        <div class="price price-M"><span class="mrg-rght-XS"><sup class="sup-text">$</sup>299<sup class="sup-text">99</sup></span></div>
+                    </div>
+                    <span class="price price-note color-penneyred clearance">clearance</span>
+                        <div className="price price-note-M std-txt mrg-top-XS">
+                        was $499.99 - $699.99
+                  </div>
+                        <div className="product-card-name std-txt std-txt-S color-nightsky">
+                        Lorem Ipsum Dolor Sec Mud Deler LoreM Dol…
+            </div>
+
+                        <div className="ratings-and-reviews">
+                          <div className="ratings-and-reviews-stars mrg-rght-XS">
+                            <div className="star-preview-col fl-right">
+                              <ul className="star-ratings-S">
+                                <li className="star-ratings start-ratings-full">
+                                  <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
+                                </li>
+                                <li className="star-ratings start-ratings-full">
+                                  <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
+                                </li>
+                                <li className="star-ratings start-ratings-full">
+                                  <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
+                                </li>
+                                <li className="star-ratings start-ratings-half">
+                                  <span className="icon" dangerouslySetInnerHTML={{ __html: starhalfImage }} />
+                                </li>
+                                <li className="star-ratings star-rating-empty color-concrete-svg">
+                                  <span className="icon" dangerouslySetInnerHTML={{ __html: starImage }} />
+                                </li>
+                                <li className="star-ratings">
+                                  <a href="javascript:void();" className="rating-count rating-count-underline">99,999</a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+
+  {/* <!-- 8rd col--> */}
+  <li className="product-card">
+                    <a href="javascript:void(0)" className="product-rec-zone" ref={(productPane) => { this.productPane = productPane }}>
+                      <div className="product-card-recommendation">
+
+                        <div className="product-card-thumbnail mrg-btm-S">
+                          <a href="javascript:void(0)">
+                            <img src='/images/design-system/fpo/product-cards/product-card-recommendations-8.jpg' alt="product-image" />
+                          </a>
+                        </div>
+                        <div>
+                        </div>
+                        <div className="product-card-price-value">
+                        <div class="price price-M"><sup class="sup-text">$</sup>2,999</div>
+                    </div>
+                        <div className="price price-note-M std-txt mrg-top-XS">
+                        was $4,999 - $6,999
+                  </div>
+                        <div className="product-card-name std-txt std-txt-S color-nightsky">
+                        Lorem Ipsum Dolor Sec Mud Deler LoreM Dol…
+            </div>
+
+                        <div className="ratings-and-reviews">
+                          <div className="ratings-and-reviews-stars mrg-rght-XS">
+                            <div className="star-preview-col fl-right">
+                              <ul className="star-ratings-S">
+                                <li className="star-ratings start-ratings-full">
+                                  <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
+                                </li>
+                                <li className="star-ratings start-ratings-full">
+                                  <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
+                                </li>
+                                <li className="star-ratings start-ratings-full">
+                                  <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
+                                </li>
+                                <li className="star-ratings start-ratings-half">
+                                  <span className="icon" dangerouslySetInnerHTML={{ __html: starhalfImage }} />
+                                </li>
+                                <li className="star-ratings star-rating-empty color-concrete-svg">
+                                  <span className="icon" dangerouslySetInnerHTML={{ __html: starImage }} />
+                                </li>
+                                <li className="star-ratings">
+                                  <a href="javascript:void();" className="rating-count rating-count-underline">99,999</a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+
+  {/* <!-- 9rd col--> */}
+  <li className="product-card">
+                    <a href="javascript:void(0)" className="product-rec-zone" ref={(productPane) => { this.productPane = productPane }}>
+                      <div className="product-card-recommendation">
+
+                        <div className="product-card-thumbnail mrg-btm-S">
+                          <a href="javascript:void(0)">
+                            <img src='/images/design-system/fpo/product-cards/product-card-recommendations-1.jpg' alt="product-image" />
+                          </a>
+                        </div>
+                        <div className="promo-lbl promo-lbl-XS mrg-btm-XS color-penneyred">
+                        SAMSUNG BUY 4 SAVE 10%
+                    </div>
+                        <div className="product-card-price-value">
+                        <div class="price price-M"><sup class="sup-text">$</sup>2,999</div>
+                    </div>
+                        <div className="price price-note-M std-txt mrg-top-XS">
+                        reg. $2,999 - $5,999
+                  </div>
+                        <div className="product-card-name std-txt std-txt-S color-nightsky">
+                        Lorem Ipsum Dolor Sec Mud Deler LoreM Dol…
+            </div>
+
+                        <div className="ratings-and-reviews">
+                          <div className="ratings-and-reviews-stars mrg-rght-XS">
+                            <div className="star-preview-col fl-right">
+                              <ul className="star-ratings-S">
+                                <li className="star-ratings start-ratings-full">
+                                  <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
+                                </li>
+                                <li className="star-ratings start-ratings-full">
+                                  <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
+                                </li>
+                                <li className="star-ratings start-ratings-full">
+                                  <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
+                                </li>
+                                <li className="star-ratings start-ratings-half">
+                                  <span className="icon" dangerouslySetInnerHTML={{ __html: starhalfImage }} />
+                                </li>
+                                <li className="star-ratings star-rating-empty color-concrete-svg">
+                                  <span className="icon" dangerouslySetInnerHTML={{ __html: starImage }} />
+                                </li>
+                                <li className="star-ratings">
+                                  <a href="javascript:void();" className="rating-count rating-count-underline">99,999</a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+
+  {/* <!-- 10rd col--> */}
+                  <li className="product-card">
+                    <a href="javascript:void(0)" className="product-rec-zone" ref={(productPane) => { this.productPane = productPane }}>
+                      <div className="product-card-recommendation">
+
+                        <div className="product-card-thumbnail mrg-btm-S">
+                          <a href="javascript:void(0)">
+                            <img src='/images/design-system/fpo/product-cards/product-card-recommendations-2.jpg' alt="product-image" />
+                          </a>
+                        </div>
+                        <div>
+                        </div>
+                        <div class="price price-M flag flag-price">
+                        <span class="mrg-rght-XS"><sup class="sup-text">$</sup>59<sup class="sup-text">99</sup></span></div>
+                        <span class="price price-note color-penneyred after-coupon">after coupon</span>
+                        <div className="price price-note-M std-txt mrg-top-XS">
+                            reg. $99.99
+                  </div>
+                        <div className="product-card-name std-txt std-txt-S color-nightsky">
+                        Lorem Ipsum Dolor Sec Mud Deler LoreM Dol…
+            </div>
+
+                        <div className="ratings-and-reviews">
+                          <div className="ratings-and-reviews-stars mrg-rght-XS">
+                            <div className="star-preview-col fl-right">
+                              <ul className="star-ratings-S">
+                                <li className="star-ratings start-ratings-full">
+                                  <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
+                                </li>
+                                <li className="star-ratings start-ratings-full">
+                                  <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
+                                </li>
+                                <li className="star-ratings start-ratings-full">
+                                  <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
+                                </li>
+                                <li className="star-ratings start-ratings-half">
+                                  <span className="icon" dangerouslySetInnerHTML={{ __html: starhalfImage }} />
+                                </li>
+                                <li className="star-ratings star-rating-empty color-concrete-svg">
+                                  <span className="icon" dangerouslySetInnerHTML={{ __html: starImage }} />
+                                </li>
+                                <li className="star-ratings">
+                                  <a href="javascript:void();" className="rating-count rating-count-underline">99,999</a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+
+{/* <!-- 11rd col--> */}
+                  <li className="product-card">
+                    <a href="javascript:void(0)" className="product-rec-zone" ref={(productPane) => { this.productPane = productPane }}>
+                      <div className="product-card-recommendation">
+
+                        <div className="product-card-thumbnail mrg-btm-S">
+                          <a href="javascript:void(0)">
+                            <img src='/images/design-system/fpo/product-cards/product-card-recommendations-3.jpg' alt="product-image" />
+                          </a>
+                        </div>
+                        <div>
+                        </div>
+                        <div className="product-card-price-value">
+                        <div class="price price-M">
+                        <span className="mrg-rght-XS"><sup className="sup-text">$</sup>299<sup className="sup-text">99</sup></span></div>
+                    </div>
+                        <span className="price price-note color-penneyred after-coupon">after coupon</span>
+                        <div className="price price-note-M std-txt mrg-top-XS">
+                          reg. $99.99
+                  </div>
+                        <div className="product-card-name std-txt std-txt-S color-nightsky">
+                        Lorem Ipsum Dolor Sec Mud Deler LoreM Dol…
+            </div>
+
+                        <div className="ratings-and-reviews">
+                          <div className="ratings-and-reviews-stars mrg-rght-XS">
+                            <div className="star-preview-col fl-right">
+                              <ul className="star-ratings-S">
+                                <li className="star-ratings start-ratings-full">
+                                  <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
+                                </li>
+                                <li className="star-ratings start-ratings-full">
+                                  <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
+                                </li>
+                                <li className="star-ratings start-ratings-full">
+                                  <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
+                                </li>
+                                <li className="star-ratings start-ratings-half">
+                                  <span className="icon" dangerouslySetInnerHTML={{ __html: starhalfImage }} />
+                                </li>
+                                <li className="star-ratings star-rating-empty color-concrete-svg">
+                                  <span className="icon" dangerouslySetInnerHTML={{ __html: starImage }} />
+                                </li>
+                                <li className="star-ratings">
+                                  <a href="javascript:void();" className="rating-count rating-count-underline">99,999</a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+
+
+{/* <!-- 12rd col--> */}
+                  <li className="product-card">
+                    <a href="javascript:void(0)" className="product-rec-zone" ref={(productPane) => { this.productPane = productPane }}>
+                      <div className="product-card-recommendation">
+
+                        <div className="product-card-thumbnail mrg-btm-S">
+                          <a href="javascript:void(0)">
+                            <img src='/images/design-system/fpo/product-cards/product-card-recommendations-4.jpg' alt="product-image" />
+                          </a>
+                        </div>
+                        <div>
+                        </div>
+                        <div className="product-card-price-value">
+                        <div class="price price-S"><sup class="sup-text">$</sup>599<sup class="sup-text">99</sup></div>
+                    </div>
+                        <div className="product-card-name std-txt std-txt-S color-nightsky">
+                        Lorem Ipsum Dolor Sec Mud Deler LoreM Dol…
+            </div>
+
+                        <div className="ratings-and-reviews">
+                          <div className="ratings-and-reviews-stars mrg-rght-XS">
+                            <div className="star-preview-col fl-right">
+                              <ul className="star-ratings-S">
+                                <li className="star-ratings start-ratings-full">
+                                  <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
+                                </li>
+                                <li className="star-ratings start-ratings-full">
+                                  <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
+                                </li>
+                                <li className="star-ratings start-ratings-full">
+                                  <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
+                                </li>
+                                <li className="star-ratings start-ratings-half">
+                                  <span className="icon" dangerouslySetInnerHTML={{ __html: starhalfImage }} />
+                                </li>
+                                <li className="star-ratings star-rating-empty color-concrete-svg">
+                                  <span className="icon" dangerouslySetInnerHTML={{ __html: starImage }} />
+                                </li>
+                                <li className="star-ratings">
+                                  <a href="javascript:void();" className="rating-count rating-count-underline">99,999</a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+
+               
+  {/* <!-- 13rd col--> */}
+  <li className="product-card">
+                    <a href="javascript:void(0)" className="product-rec-zone" ref={(productPane) => { this.productPane = productPane }}>
+                      <div className="product-card-recommendation">
+
+                        <div className="product-card-thumbnail mrg-btm-S">
+                          <a href="javascript:void(0)">
+                            <img src='/images/design-system/fpo/product-cards/product-card-recommendations-5.jpg' alt="product-image" />
+                          </a>
+                        </div>
+                        <div>
+                        </div>
+                        <div className="product-card-price-value">
+                        <div class="price price-M"><span class="mrg-rght-XS"><sup class="sup-text">$</sup>29<sup class="sup-text">99</sup></span></div>
+                    </div>
+                      <span class="price price-note color-penneyred clearance">sale</span>
+                        <div className="price price-note-M std-txt mrg-top-XS">
+                        was $60
+                  </div>
+                        <div className="product-card-name std-txt std-txt-S color-nightsky">
+                        Lorem Ipsum Dolor Sec Mud Deler LoreM Dol…
+            </div>
+
+                        <div className="ratings-and-reviews">
+                          <div className="ratings-and-reviews-stars mrg-rght-XS">
+                            <div className="star-preview-col fl-right">
+                              <ul className="star-ratings-S">
+                                <li className="star-ratings start-ratings-full">
+                                  <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
+                                </li>
+                                <li className="star-ratings start-ratings-full">
+                                  <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
+                                </li>
+                                <li className="star-ratings start-ratings-full">
+                                  <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
+                                </li>
+                                <li className="star-ratings start-ratings-half">
+                                  <span className="icon" dangerouslySetInnerHTML={{ __html: starhalfImage }} />
+                                </li>
+                                <li className="star-ratings star-rating-empty color-concrete-svg">
+                                  <span className="icon" dangerouslySetInnerHTML={{ __html: starImage }} />
+                                </li>
+                                <li className="star-ratings">
+                                  <a href="javascript:void();" className="rating-count rating-count-underline">99,999</a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+
+
+  {/* <!-- 14rd col--> */}
+  <li className="product-card">
+                    <a href="javascript:void(0)" className="product-rec-zone" ref={(productPane) => { this.productPane = productPane }}>
+                      <div className="product-card-recommendation">
+
+                        <div className="product-card-thumbnail mrg-btm-S">
+                          <a href="javascript:void(0)">
+                            <img src='/images/design-system/fpo/product-cards/product-card-recommendations-6.jpg' alt="product-image" />
+                          </a>
+                        </div>
+                        <div>
+                        </div>
+                        <div className="product-card-price-value">
+                        <div class="price price-M"><span class="mrg-rght-XS"><sup class="sup-text">$</sup>99<sup class="sup-text">99</sup></span></div>
+                    </div>
+                    <span class="price price-note color-penneyred clearance">clearance</span>
+                        <div className="price price-note-M std-txt mrg-top-XS">
+                        was $299.99
+                  </div>
+                        <div className="product-card-name std-txt std-txt-S color-nightsky">
+                        Lorem Ipsum Dolor Sec Mud Deler LoreM Dol…
+            </div>
+
+                        <div className="ratings-and-reviews">
+                          <div className="ratings-and-reviews-stars mrg-rght-XS">
+                            <div className="star-preview-col fl-right">
+                              <ul className="star-ratings-S">
+                                <li className="star-ratings start-ratings-full">
+                                  <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
+                                </li>
+                                <li className="star-ratings start-ratings-full">
+                                  <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
+                                </li>
+                                <li className="star-ratings start-ratings-full">
+                                  <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
+                                </li>
+                                <li className="star-ratings start-ratings-half">
+                                  <span className="icon" dangerouslySetInnerHTML={{ __html: starhalfImage }} />
+                                </li>
+                                <li className="star-ratings star-rating-empty color-concrete-svg">
+                                  <span className="icon" dangerouslySetInnerHTML={{ __html: starImage }} />
+                                </li>
+                                <li className="star-ratings">
+                                  <a href="javascript:void();" className="rating-count rating-count-underline">99,999</a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+
+  {/* <!-- 15rd col--> */}
+  <li className="product-card">
+                    <a href="javascript:void(0)" className="product-rec-zone" ref={(productPane) => { this.productPane = productPane }}>
+                      <div className="product-card-recommendation">
+
+                        <div className="product-card-thumbnail mrg-btm-S">
+                          <a href="javascript:void(0)">
+                            <img src='/images/design-system/fpo/product-cards/product-card-recommendations-7.jpg' alt="product-image" />
+                          </a>
+                        </div>
+                        <div>
+                        </div>
+                        <div className="product-card-price-value">
+                        <div class="price price-M"><span class="mrg-rght-XS"><sup class="sup-text">$</sup>299<sup class="sup-text">99</sup></span></div>
+                    </div>
+                    <span class="price price-note color-penneyred clearance">clearance</span>
+                        <div className="price price-note-M std-txt mrg-top-XS">
+                        was $499.99 - $699.99
+                  </div>
+                        <div className="product-card-name std-txt std-txt-S color-nightsky">
+                        Lorem Ipsum Dolor Sec Mud Deler LoreM Dol…
+            </div>
+
+                        <div className="ratings-and-reviews">
+                          <div className="ratings-and-reviews-stars mrg-rght-XS">
+                            <div className="star-preview-col fl-right">
+                              <ul className="star-ratings-S">
+                                <li className="star-ratings start-ratings-full">
+                                  <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
+                                </li>
+                                <li className="star-ratings start-ratings-full">
+                                  <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
+                                </li>
+                                <li className="star-ratings start-ratings-full">
+                                  <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
+                                </li>
+                                <li className="star-ratings start-ratings-half">
+                                  <span className="icon" dangerouslySetInnerHTML={{ __html: starhalfImage }} />
+                                </li>
+                                <li className="star-ratings star-rating-empty color-concrete-svg">
+                                  <span className="icon" dangerouslySetInnerHTML={{ __html: starImage }} />
+                                </li>
+                                <li className="star-ratings">
+                                  <a href="javascript:void();" className="rating-count rating-count-underline">99,999</a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+            
+  {/* <!-- 16rd col--> */}
+  <li className="product-card">
+                    <a href="javascript:void(0)" className="product-rec-zone" ref={(productPane) => { this.productPane = productPane }}>
+                      <div className="product-card-recommendation">
+
+                        <div className="product-card-thumbnail mrg-btm-S">
+                          <a href="javascript:void(0)">
+                            <img src='/images/design-system/fpo/product-cards/product-card-recommendations-8.jpg' alt="product-image" />
+                          </a>
+                        </div>
+                        <div>
+                        </div>
+                        <div className="product-card-price-value">
+                        <div class="price price-M color-penneyred"><span class="price price-XXS from-label">packages from</span><sup class="sup-text">$</sup>9,999<sup class="sup-text">99</sup></div>
+                    </div>
+                        <div className="price price-note-M std-txt mrg-top-XS">
+                        was $4,999 - $6,999
+                  </div>
+                        <div className="product-card-name std-txt std-txt-S color-nightsky">
+                        Lorem Ipsum Dolor Sec Mud Deler LoreM Dol…
+            </div>
+
+                        <div className="ratings-and-reviews">
+                          <div className="ratings-and-reviews-stars mrg-rght-XS">
+                            <div className="star-preview-col fl-right">
+                              <ul className="star-ratings-S">
+                                <li className="star-ratings start-ratings-full">
+                                  <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
+                                </li>
+                                <li className="star-ratings start-ratings-full">
+                                  <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
+                                </li>
+                                <li className="star-ratings start-ratings-full">
+                                  <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
+                                </li>
+                                <li className="star-ratings start-ratings-half">
+                                  <span className="icon" dangerouslySetInnerHTML={{ __html: starhalfImage }} />
+                                </li>
+                                <li className="star-ratings star-rating-empty color-concrete-svg">
+                                  <span className="icon" dangerouslySetInnerHTML={{ __html: starImage }} />
+                                </li>
+                                <li className="star-ratings">
+                                  <a href="javascript:void();" className="rating-count rating-count-underline">99,999</a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
           </div>
-        </div> */}
+        </div>
       </div>
 
     );
@@ -576,4 +1077,4 @@ class RecommendationZone
 }
 
 export default RecommendationZone
-;
+  ;
