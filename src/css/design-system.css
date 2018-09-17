@@ -1109,6 +1109,7 @@ Base Styles
 
         & .design-system-nav-col {
             width: 250px;
+            min-width: 250px;
             background: var(--color-design-system-nav);
         }
 

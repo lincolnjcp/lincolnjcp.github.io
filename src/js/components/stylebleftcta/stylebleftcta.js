@@ -44,9 +44,9 @@ class styleBLeftCTA extends Component {
   render() {
     return (
       <div class="styleb-left">
-        <p class="S"><br />
+        {/* <p class="S"><br />
           <a href="javascript:void(0);" id="HideDesignSystem">Hide Design System Wrapper</a>
-        </p>
+        </p> */}
           <div class="banner-container">
             <div class="banner-content-wrapper">
               <h1 class="promo-title-XL promo-lbl">All For Dad</h1>

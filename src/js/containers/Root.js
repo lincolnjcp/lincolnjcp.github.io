@@ -3,9 +3,9 @@ import ReactDOM from 'react-dom';
 import { HashRouter as Router, Route, Link } from 'react-router-dom';
 import { NavLink } from 'react-router-dom';
 import { rootNav } from './config/rootConfig';
-
 import DesignSystemPage from '../containers/DesignSystemPage';
 import WorkInProgress from '../components/work-in-progress';
+import Hidedesigndsystemwrapper from '../components/hidedesigndsystemwrapper';
 
 import $ from 'jquery'
 
@@ -111,6 +111,40 @@ class App extends React.Component {
                 }
             });
         });
+
+        $("#HideDesignSystem").unbind('click').on('click', function (event) {
+            $(this).toggleClass('active');
+            if ($(this).hasClass('active')) {
+                $(this).text('Show Design System Wrapper');
+                $(".design-system-nav-col").css('display', 'none');
+                $(".design-system-content").css('padding', 0);
+                $(".design-system-inner-content").css('padding', 0);
+                $(".design-system-enable-hide").css('display', 'none');
+                $(".design-system-nav-mobile").css('display', 'none');
+                $(".design-system-wrap").css('margin', 0);
+                if(window.location.hash == "#/home-page-redesign/homepage-layout"){
+                    $('.hide-wrapper').addClass('wrapper-system-enable-hide');
+                }
+                else {
+                    $('.hide-wrapper').removeClass('wrapper-system-enable-hide');
+                }
+            } else {
+                $(this).text('Hide Design System Wrapper');
+                $(".design-system-nav-col").removeAttr('style');
+                $(".design-system-content").removeAttr('style');
+                $(".design-system-inner-content").removeAttr('style');
+                $(".design-system-enable-hide").removeAttr('style');
+                $(".design-system-nav-mobile").removeAttr('style');
+                $(".design-system-wrap").removeAttr('style');
+               if(window.location.hash == "#/home-page-redesign/homepage-layout" || window.location.hash == "#/" ){
+                    $('.hide-wrapper').addClass("wrapper-system-enable-hide");
+                }
+                else {
+                    $('.hide-wrapper').removeClass("wrapper-system-enable-hide");
+                }
+            }
+        });
+        
     }
 
     render() {
@@ -150,7 +184,7 @@ class App extends React.Component {
                                 </div>
                                 <RenderNavLink />
                             </div>
-
+                            <Hidedesigndsystemwrapper/>
                             <Route exact path="/" component={Home} />
                             <Route exact path="/visual-design/buttons" render={() => <DesignSystemPage componentName="Buttons" />} />
                             <Route exact path="/visual-design/color" render={() => <DesignSystemPage componentName="Color" />} />

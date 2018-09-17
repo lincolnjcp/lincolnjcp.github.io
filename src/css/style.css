@@ -42,6 +42,7 @@ Base Styles
 @import "../js/components/expand-collapse/expand-collapse";
 @import "../js/components/recommendation-zone/recommendation-zone";
 @import "../js/components/pricing/pricing";
+@import "../js/components/hidedesigndsystemwrapper/hidedesigndsystemwrapper";
 
 /* @import "base/additional-buttons"; */
 /* @import "../js/components/work-in-progress/work-in-progress"; */

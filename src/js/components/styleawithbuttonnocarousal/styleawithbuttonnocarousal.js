@@ -35,9 +35,9 @@ class styleAWithButtonNocarousal extends Component {
 		return (
 			<div>
 
-				<p class="S"><br />
+				{/* <p class="S"><br />
 					<a href="javascript:void(0);" id="HideDesignSystem">Hide Design System Wrapper</a><br /><br /><br /><br /><br />
-				</p>
+				</p> */}
 
 				<div class="dynamic-banner color-white text-center no-carousal with-button">
 					<h1 class="color-white promo-lbl promo-title">40% Off Orders $40+</h1>
