@@ -60,45 +60,33 @@
 }
 
 .black-friday-product1 {
-    background-image: url("/images/design-system/bf-promo-01.png");
-    background-position: right bottom;
-    background-repeat: no-repeat;
-    background-size: 100%;
+    background: url("/images/design-system/bf-promo-01.png") no-repeat right bottom;
+    background-size: contain;
 }
 
 .black-friday-product2 {
-    background-image: url("/images/design-system/bf-promo-02.png");
-    background-position: right bottom;
-    background-repeat: no-repeat;
-    background-size: 100%;
+    background: url("/images/design-system/bf-promo-02.png") no-repeat right bottom;
+    background-size: contain;
 }
 
 .black-friday-product3 {
-    background-image: url("/images/design-system/bf-promo-03.png");
-    background-position: right bottom;
-    background-repeat: no-repeat;
-    background-size: 100%;
+    background: url("/images/design-system/bf-promo-03.png") no-repeat right bottom;
+    background-size: contain;
 }
 
 .black-friday-product4 {
-    background-image: url("/images/design-system/bf-promo-04.png");
-    background-position: right bottom;
-    background-repeat: no-repeat;
-    background-size: 100%;
+    background: url("/images/design-system/bf-promo-04.png") no-repeat right bottom;
+    background-size: contain;
 }
 
 .black-friday-product5 {
-    background-image: url("/images/design-system/bf-promo-05.png");
-    background-position: right bottom;
-    background-repeat: no-repeat;
-    background-size: 100%;
+    background: url("/images/design-system/bf-promo-05.png") no-repeat right bottom;
+    background-size: contain;
 }
 
 .black-friday-product6 {
-    background-image: url("/images/design-system/bf-promo-06.png");
-    background-position: right bottom;
-    background-repeat: no-repeat;
-    background-size: 100%;
+    background: url("/images/design-system/bf-promo-06.png") no-repeat right bottom;
+    background-size: contain;
 }
 
 @media (--viewport-sm-down), (--viewport-sm-only)  { 
@@ -131,7 +119,7 @@
     } 
 
     .black-friday-card-inner {
-        width: 152px;
+        width: 100%;
         height: 152px;
     }
 }

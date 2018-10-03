@@ -17,7 +17,7 @@ class BFTestOne extends Component {
                 <div className="row">
                     <div className="lg12 sm12 md12 xl12">
                         <div className="product-card-wrapper black-friday-wrapper">
-                        <a href="/#/page-modules/product-cards" className="black-friday-container">
+                        <a href="/#/page-modules/product-cards" className="black-friday-container sm6 nopad">
                             <div className="product-card product-card-pane-grid black-friday-pane-grid">
                                 <div className="black-friday-card-inner black-friday-product1">
                                         <div className="product-card-details">
@@ -30,7 +30,7 @@ class BFTestOne extends Component {
                                 </div>
                             </div>
                             </a>
-                            <a href="/#/page-modules/product-cards" className="black-friday-container">
+                            <a href="/#/page-modules/product-cards" className="black-friday-container sm6 nopad">
                             <div className="product-card product-card-pane-grid black-friday-pane-grid">
                                 <div className="black-friday-card-inner black-friday-product2">
                                         <div className="product-card-details">
@@ -43,7 +43,7 @@ class BFTestOne extends Component {
                                 </div>
                             </div>
                             </a>
-                            <a href="/#/page-modules/product-cards" className="black-friday-container">
+                            <a href="/#/page-modules/product-cards" className="black-friday-container sm6 nopad">
                             <div className="product-card product-card-pane-grid black-friday-pane-grid">
                                 <div className="black-friday-card-inner black-friday-product3">
                                         <div className="product-card-details">
@@ -57,7 +57,7 @@ class BFTestOne extends Component {
                                 </div>
                             </div>
                             </a>
-                            <a href="/#/page-modules/product-cards" className="black-friday-container">
+                            <a href="/#/page-modules/product-cards" className="black-friday-container sm6 nopad">
                             <div className="product-card product-card-pane-grid black-friday-pane-grid">
                                 <div className="black-friday-card-inner black-friday-product4">
                                         <div className="product-card-details">
@@ -71,7 +71,7 @@ class BFTestOne extends Component {
                                 </div>
                                 </div>
                                 </a>
-                                <a href="/#/page-modules/product-cards" className="black-friday-container">
+                                <a href="/#/page-modules/product-cards" className="black-friday-container sm6 nopad">
                                 <div className="product-card product-card-pane-grid black-friday-pane-grid">
                                 <div className="black-friday-card-inner black-friday-product5">
                                         <div className="product-card-details">
@@ -85,7 +85,7 @@ class BFTestOne extends Component {
                                 </div>
                                 </div>
                                 </a>
-                                <a href="/#/page-modules/product-cards" className="black-friday-container">
+                                <a href="/#/page-modules/product-cards" className="black-friday-container sm6 nopad">
                                 <div className="product-card product-card-pane-grid black-friday-pane-grid">
                                 <div className="black-friday-card-inner black-friday-product6">
                                         <div className="product-card-details">
