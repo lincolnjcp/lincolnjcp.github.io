@@ -2,3 +2,142 @@
 /* Black Friday Test 1
 *********************************/
 
+.black-friday-container {
+    text-decoration: none;
+} 
+
+.black-friday-title {
+    font-weight: var(--font-weight-bold);
+    color: var(--color-design-system-nav);
+    margin: 21px 0 15px;
+}
+
+.black-friday-std-txt {
+    font-family: var(--font-headline);
+    font-weight: var(--font-weight-bold);
+    margin: 21px 0 15px;
+    color: #006c7c;
+    & a {
+        color: #006c7c;
+        text-decoration: none;
+        &:hover {
+            color: #006c7c;
+            text-decoration: none;
+        }
+    }
+}
+
+.black-friday-card-name {
+    color: #4a4a4a;
+    font-size: 14px;
+    line-height: 18px;
+    font-family: var(--font-body);
+    margin-top: 0;
+    text-decoration: none;
+    width: 50%;
+    display: inline-block;
+}
+
+.black-friday-card-inner {
+    border-radius: 0;
+    border: 1px solid #cccccc;
+    padding: 11px 0 0 9px;
+}
+
+.black-friday-price {
+    color: #4a4a4a;
+    font-size: 12px;
+    display: block;
+    line-height: 16px;
+}
+
+.black-friday-price-L {
+    font-size: 24px;
+    line-height: 16px;
+    font-family: var(--font-headline);
+    font-weight: var(--font-weight-bold);
+    letter-spacing: -.33px;
+}
+
+.black-friday-product1 {
+    background-image: url("/images/design-system/bf-promo-01.png");
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.black-friday-product2 {
+    background-image: url("/images/design-system/bf-promo-02.png");
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.black-friday-product3 {
+    background-image: url("/images/design-system/bf-promo-03.png");
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.black-friday-product4 {
+    background-image: url("/images/design-system/bf-promo-04.png");
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.black-friday-product5 {
+    background-image: url("/images/design-system/bf-promo-05.png");
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.black-friday-product6 {
+    background-image: url("/images/design-system/bf-promo-06.png");
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+@media (--viewport-sm-down), (--viewport-sm-only)  { 
+    .black-friday-title {
+        width: 70%;
+        margin: 21px 0 10px;
+    }
+
+    .black-friday-std-txt {
+        margin: 57px 0 10px;
+    }
+
+    .black-friday-wrapper {
+        padding: 0 16px 20px;
+    }
+
+    .black-friday-pane-grid {
+        padding: 0;
+    }
+
+    .black-friday-card-name {
+        font-size: 10px;
+        line-height: 10px;
+    }
+
+    .black-friday-price {
+        font-size: 8px;
+        line-height: 8px;
+        margin-bottom: 5px;
+    } 
+
+    .black-friday-card-inner {
+        width: 152px;
+        height: 152px;
+    }
+}
+@media (--viewport-xs-down) {
+    .black-friday-title {
+        width: 75%;
+    }
+}
+
