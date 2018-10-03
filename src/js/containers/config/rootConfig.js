@@ -203,7 +203,7 @@ const rootNav = [
                 content: 'Black Friday',
             },
             {
-                to: '/page-modules/bftest1/',
+                to: '/page-modules/bftestone/',
                 activeClassName: 'active',
                 content: 'Black Friday Test1',
             },

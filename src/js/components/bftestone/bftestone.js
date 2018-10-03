@@ -1,6 +1,7 @@
+
 import React, { Component } from 'react';
 
-class BFTest1 extends Component {
+class BFTestOne extends Component {
 
   componentDidMount() {
   }
@@ -14,4 +15,4 @@ class BFTest1 extends Component {
   }
 }
 
-export default BFTest1;
+export default BFTestOne;

@@ -185,7 +185,7 @@ class App extends React.Component {
                             <Route exact path="/page-modules/footer" render={() => <DesignSystemPage componentName="Footer" />} />
                             <Route exact path="/page-modules/footer-minimized" render={() => <DesignSystemPage componentName="FooterMinimized" />} />
                             <Route exact path="/page-modules/bf" render={() => <DesignSystemPage componentName="BF" />} />
-                            <Route exact path="/page-modules/bftest1" render={() => <DesignSystemPage componentName="BFTest1" />} />
+                            <Route exact path="/page-modules/bftestone" render={() => <DesignSystemPage componentName="BFTestOne" />} />
                             <Route exact path="/page-modules/coupons" render={() => <DesignSystemPage componentName="Coupons" />} />
                             <Route exact path="/page-modules/slide-out-panels" render={() => <DesignSystemPage componentName="SlideOutPanels" />} />
                             <Route exact path="/page-modules/product-cards" render={() => <DesignSystemPage componentName="ProductCards" />} />
