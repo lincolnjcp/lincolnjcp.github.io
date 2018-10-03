@@ -14,7 +14,7 @@ class BF extends Component {
           </div>
           <div class="bf-google-results">
             <div class="bf-google-results-title">
-              <a href="/#/page-modules/bftest1/">Bed & Bath: Comforters, Sheets & Bathroom Accessories - JCPenney</a>
+              <a href="/#/page-modules/bftestone/">Bed & Bath: Comforters, Sheets & Bathroom Accessories - JCPenney</a>
             </div>
             <div class="bf-google-url">
               https://m.jcpenney.com › bed-and-bath
