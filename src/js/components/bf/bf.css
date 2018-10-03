@@ -1,0 +1,40 @@
+/*********************************
+/* Black Friday
+*********************************/
+
+.bf-google-wrapper {
+    max-width: 816px;
+    & .bf-google-header {
+        width: auto;
+        margin: 0 8px;
+    }
+    & .bf-google-results {
+        background-color: #fff;
+        margin: 12px;
+        padding: 16px;
+        box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+        border-radius: 8px;
+        & .bf-google-results-title {
+            & a {
+              font-size: 16px;
+              line-height: 20px;
+              color: #1967D2;
+              font-weight: 400;
+              text-decoration: none;
+              font-family: Roboto,HelveticaNeue,Arial,sans-serif !important;
+            }
+        }
+        & .bf-google-url {
+            color: #006621;
+            font-size: 14px;
+            line-height: 20px;
+            border-bottom: 1px solid #DFE1E5;
+            margin-bottom: 12px;
+            padding-bottom: 12px;
+        }
+        & .bf-google-desc {
+            font-size: 14px;
+            line-height: 20px;
+        }
+    }
+}

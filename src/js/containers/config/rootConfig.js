@@ -198,6 +198,16 @@ const rootNav = [
         parentName: 'Page Modules',
         childItems: [
             {
+                to: '/page-modules/bf/',
+                activeClassName: 'active',
+                content: 'Black Friday',
+            },
+            {
+                to: '/page-modules/bftest1/',
+                activeClassName: 'active',
+                content: 'Black Friday Test1',
+            },
+            {
                 to: '/',
                 activeClassName: 'inactive',
                 content: 'Coupon List',
