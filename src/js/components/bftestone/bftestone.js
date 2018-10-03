@@ -9,7 +9,7 @@ class BFTestOne extends Component {
   render() {
     return (
       <div className="row">
-                <Header />
+                {/* <Header /> */}
                 <div className="lg12 sm12 md12 xl12">
                     <h1 className="title title-XL fl-left black-friday-title">BLACK FRIDAY DEALS FOR HOME</h1>
                     <p className="std-txt std-txt-S fl-right black-friday-std-txt"><a href="javascript:void(0);">Shop All</a></p>
@@ -17,7 +17,7 @@ class BFTestOne extends Component {
                 <div className="row">
                     <div className="lg12 sm12 md12 xl12">
                         <div className="product-card-wrapper black-friday-wrapper">
-                        <a href="javascript:void(0);" className="black-friday-container">
+                        <a href="/#/page-modules/product-cards" className="black-friday-container">
                             <div className="product-card product-card-pane-grid black-friday-pane-grid">
                                 <div className="black-friday-card-inner black-friday-product1">
                                         <div className="product-card-details">
@@ -30,7 +30,7 @@ class BFTestOne extends Component {
                                 </div>
                             </div>
                             </a>
-                            <a href="javascript:void(0);" className="black-friday-container">
+                            <a href="/#/page-modules/product-cards" className="black-friday-container">
                             <div className="product-card product-card-pane-grid black-friday-pane-grid">
                                 <div className="black-friday-card-inner black-friday-product2">
                                         <div className="product-card-details">
@@ -43,7 +43,7 @@ class BFTestOne extends Component {
                                 </div>
                             </div>
                             </a>
-                            <a href="javascript:void(0);" className="black-friday-container">
+                            <a href="/#/page-modules/product-cards" className="black-friday-container">
                             <div className="product-card product-card-pane-grid black-friday-pane-grid">
                                 <div className="black-friday-card-inner black-friday-product3">
                                         <div className="product-card-details">
@@ -57,7 +57,7 @@ class BFTestOne extends Component {
                                 </div>
                             </div>
                             </a>
-                            <a href="javascript:void(0);" className="black-friday-container">
+                            <a href="/#/page-modules/product-cards" className="black-friday-container">
                             <div className="product-card product-card-pane-grid black-friday-pane-grid">
                                 <div className="black-friday-card-inner black-friday-product4">
                                         <div className="product-card-details">
@@ -71,7 +71,7 @@ class BFTestOne extends Component {
                                 </div>
                                 </div>
                                 </a>
-                                <a href="javascript:void(0);" className="black-friday-container">
+                                <a href="/#/page-modules/product-cards" className="black-friday-container">
                                 <div className="product-card product-card-pane-grid black-friday-pane-grid">
                                 <div className="black-friday-card-inner black-friday-product5">
                                         <div className="product-card-details">
@@ -85,7 +85,7 @@ class BFTestOne extends Component {
                                 </div>
                                 </div>
                                 </a>
-                                <a href="javascript:void(0);" className="black-friday-container">
+                                <a href="/#/page-modules/product-cards" className="black-friday-container">
                                 <div className="product-card product-card-pane-grid black-friday-pane-grid">
                                 <div className="black-friday-card-inner black-friday-product6">
                                         <div className="product-card-details">
@@ -102,7 +102,7 @@ class BFTestOne extends Component {
                             </div>
                         </div>
                 </div>
-                <Footer />
+                {/* <Footer /> */}
             </div>
     );
   }
