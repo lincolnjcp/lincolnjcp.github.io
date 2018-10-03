@@ -37,6 +37,7 @@ const renderNavLinkItems = (parentItem) =>
 
 const RenderNavLink = () =>
     <ul className="design-system-menu">
+        <li><NavLink to="/page-modules/bf/" activeClassName="active">Black Friday</NavLink></li>
         {
             rootNav.map(parentItem => parentItem.parentName === 'drawLine' ? <li><hr /></li> : renderNavLinkItems(parentItem))
         }
