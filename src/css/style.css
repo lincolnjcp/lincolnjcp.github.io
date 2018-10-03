@@ -27,6 +27,7 @@ Base Styles
 @import "../js/components/scrollbar/scrollbar";
 @import "../js/components/progressbar/progressbar";
 @import "../js/components/bf/bf";
+@import "../js/components/bftestone/bftestone";
 @import "../js/components/countdown-timers/countdown-timers";
 @import "../js/components/visual-navigation/visual-navigation";
 @import "../js/components/tooltips/tooltips";

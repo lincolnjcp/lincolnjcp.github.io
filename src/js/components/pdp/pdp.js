@@ -109,9 +109,9 @@ class Pdp extends Component {
     render() {
         return (
             <div>
-                <div className="row">
+                <div className="row columns">
                     <Header />
-                    <div className="product-title-block mrg-btm-L mrg-top-L">
+                    <div className="product-title-block mrg-btm-L mrg-top-L col-mar">
                         <div className="breadcrumbs-block">
                             <ul className="breadcrumbs">
                                 <li><a href="#">JCPenney</a></li>
@@ -151,10 +151,10 @@ class Pdp extends Component {
                             </div>
                         </div>
                     </div>
-                    <div className="md6 sm12 lg6 xl6 nopad">
+                    <div className="md6 sm12 lg6 xl6 nopad" col-mar>
                         <Carousel />
                     </div>
-                    <div className="md6 sm12 lg6 xl6">
+                    <div className="md6 sm12 lg6 xl6 col-mar">
                         <div className="pdp-pricing mrg-btm-M">
                             <div className="price-card">
                                 <div className="price price-promo mrg-btm-XS color-penneyred">LARGE MARKETING LABEL</div>
