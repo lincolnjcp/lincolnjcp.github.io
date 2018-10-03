@@ -26,7 +26,7 @@ class BF extends Component {
 
           <div class="bf-google-results">
             <div class="bf-google-results-title">
-              <a href="#">Bed & Bath For The Home - JCPenney</a>
+              <a href="/#/page-modules/bftesttwo/">Bed & Bath For The Home - JCPenney</a>
             </div>
             <div class="bf-google-url">
               https://www.jcpenney.com › bed...
@@ -50,7 +50,7 @@ class BF extends Component {
 
           <div class="bf-google-results">
             <div class="bf-google-results-title">
-              <a href="#">CLEARANCE Bedding Sets for Bed & Bath - JCPenney</a>
+              <a href="/#/page-modules/bftestfour/">CLEARANCE Bedding Sets for Bed & Bath - JCPenney</a>
             </div>
             <div class="bf-google-url">
               https://m.jcpenney.com › clearance-beddi...

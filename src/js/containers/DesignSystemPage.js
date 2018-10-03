@@ -18,6 +18,8 @@ import Wells from '../components/wells';
 import ProgressBar from '../components/progressbar';
 import BF from '../components/bf';
 import BFTestOne from '../components/bftestone';
+import BFTestTwo from '../components/bftesttwo';
+import BFTestFour from '../components/bftestfour';
 import styleAWithButton from '../components/styleawithbutton';
 import styleAWithoutButton from '../components/styleawithoutbutton';
 import styleAWithButtonNocarousal from '../components/styleawithbuttonnocarousal';
@@ -102,6 +104,8 @@ class DesignSystemPage extends Component {
    ProgressBar: {componentElement: ProgressBar, componentDisplayName: "ProgressBar", componentSubNav: ['ProgressBar']},
    BF: {componentElement: BF, componentDisplayName: "BF", componentSubNav: ['BF']},
    BFTestOne: {componentElement: BFTestOne, componentDisplayName: "BFTestOne", componentSubNav: ['BFTestOne']},
+   BFTestTwo: {componentElement: BFTestTwo, componentDisplayName: "BFTestTwo", componentSubNav: ['BFTestTwo']},
+   BFTestFour: {componentElement: BFTestFour, componentDisplayName: "BFTestFour", componentSubNav: ['BFTestFour']},
    styleAWithButton: {componentElement: styleAWithButton, componentDisplayName: "styleAWithButton", componentSubNav: ['styleAWithButton']},
    styleAWithoutButton: {componentElement: styleAWithoutButton, componentDisplayName: "styleAWithoutButton", componentSubNav: ['styleAWithoutButton']},
    styleAWithButtonNocarousal: {componentElement: styleAWithButtonNocarousal, componentDisplayName: "styleAWithButtonNocarousal", componentSubNav: ['styleAWithButtonNocarousal']},
