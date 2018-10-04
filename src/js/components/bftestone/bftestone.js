@@ -377,11 +377,10 @@ class BFTestOne extends Component {
               </li>
             </ul>
           </div>
-          </div>
-          <Footer />
-          </div>
-       
-     
+        </div>
+        <Footer />
+      </div>
+         
     );
   }
 }
