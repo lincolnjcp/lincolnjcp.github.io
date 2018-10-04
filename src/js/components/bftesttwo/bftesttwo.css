@@ -14,6 +14,7 @@
     & li {
         display: inline-block;
         text-align: center;
+
       & .viz-nav-img {
           border-radius: 100%;
           overflow: hidden;
@@ -34,6 +35,10 @@
               transform: scale(1.05);
           }
           & h2 {
+            height: 40px;
+            display: table-cell;
+            vertical-align: middle;
+
               @media (--viewport-md-down) {
                   font-size: 14px;
               }
@@ -47,6 +52,7 @@
         font-weight: bold;
     }
   }
+
   .dept-nav {
     & li {
       & .viz-nav-img {

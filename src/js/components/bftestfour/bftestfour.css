@@ -245,7 +245,7 @@
  .black-banner-image {
 		overflow: hidden;
 		width: 500px;
-		margin-top: 20px;
+		margin: 20px 0;
 
 		@media (--viewport-md-down)  {
 			height: auto;
@@ -337,7 +337,11 @@
 				&:hover .viz-nav-img {
 						transform: scale(1.05);
 				}
+				
 				& h2 {
+					display: table-cell;
+					vertical-align: middle;
+					
 						@media (--viewport-md-down) {
 								font-size: 14px;
 						}
