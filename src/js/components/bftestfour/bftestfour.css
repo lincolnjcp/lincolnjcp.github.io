@@ -203,6 +203,12 @@
   }
 }
 
+& .hide {
+  @media (--viewport-md-down)  {
+		display: block;
+	}
+}
+
 & .star-preview-col {
   & .star-ratings-S {
     & .star-ratings {
@@ -242,14 +248,27 @@
   }
 }
 
+.department-block {
+	margin-top: 20px;
+}
+
  .black-banner-image {
 		overflow: hidden;
-		width: 500px;
+		width: 600px;
 		margin: 20px 0;
+
+		& img{
+			max-width: 55%;
+			@media (--viewport-md-down)  {
+				width: 100%;
+				max-width: 100%;
+			}
+		}
 
 		@media (--viewport-md-down)  {
 			height: auto;
-			width:100%;
+			width: 100%;
+			max-width: 100%;
 		}
 }
 
