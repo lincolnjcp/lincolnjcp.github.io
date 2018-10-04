@@ -105,10 +105,10 @@ class BFTestOne extends Component {
         </div>
 
         <div class="department-container dept-nav mrg-btm-XXL">
-          <div class="sm12 lg12 md12 xl12 xxl12 nopad text-center">
+          {/* <div class="sm12 lg12 md12 xl12 xxl12 nopad text-center">
             <a class="black-banner-image" href="javascript:void(0)">
               <img src="/images/design-system/blackfridaydeal.jpg" alt="blackFridayImg" /></a>
-          </div>
+          </div> */}
           <ul class="department-block">
             <li class="lg3 md3 xl3 xxl3 sm6 mrg-btm-XL">
               <a href="/#/page-modules/product-cards">
