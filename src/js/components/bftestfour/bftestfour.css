@@ -188,7 +188,7 @@
   }
   & .slidesjs-pagination { 
     position: relative;
-    bottom: 2px;
+    bottom: 6px;
     text-align: center;
     width: 100%;
     z-index: 10;

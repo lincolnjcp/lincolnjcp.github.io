@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
 import Slider from "react-slick";
+import Header from '../header/header';
+import Footer from '../footer/footer';
+
 import CodeGenerator from '../../containers/CodeGenerator.js';
 
 const ChevronLeftImage = require('!!raw-loader?es5=1!../../../images/global/icons/nav/chevron-left.svg');
@@ -198,7 +201,9 @@ class BfTestFour extends Component {
 
         return (
             <div>
-                <div class="row black-columns">
+                   <Header />
+                   <div >
+                <div class="row black-columns mrg-top-L">
                     <div class="sm12 columns">
                         <h2 class="title title-M mrg-btm-M fl-left">Black Friday Deals for Home</h2>
                         <p class="std-txt std-txt-S fl-right"><a href="">view all</a></p>
@@ -734,10 +739,10 @@ class BfTestFour extends Component {
                     </div>
                 </div>
 
-                <br /><br />
+           
                 {/* <!-- Popular Black Friday Deals div -->  */}
 
-                <div class="row black-columns">
+                <div class="row black-columns mrg-top-L">
                     <div class="sm12 columns">
                         <h2 class="title title-M mrg-btm-M fl-left">Popular Black Friday Deals</h2>
                         <p class="std-txt std-txt-S fl-right"><a href="">view all</a></p>
@@ -1544,6 +1549,8 @@ class BfTestFour extends Component {
                 </li>
               </ul>
                 </div>
+                </div>
+                <Footer />
             </div>
 
         );

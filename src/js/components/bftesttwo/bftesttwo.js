@@ -1,6 +1,9 @@
 
 import React, { Component } from 'react';
 
+import Header from '../header/header';
+import Footer from '../footer/footer';
+
 class BFTestTwo extends Component {
 
   componentDidMount() {
@@ -9,7 +12,9 @@ class BFTestTwo extends Component {
   render() {
     return (
       <div>
-        <div class="department-container dept-nav mrg-btm-XXL">
+        <Header />
+        <div>
+        <div class="department-container dept-nav mrg-btm-XXL mrg-top-M">
         <div class="sm12 lg12 md12 xl12 xxl12 nopad text-center">
                     <a class="black-banner-image" href="javascript:void(0)">
                         <img src="/images/design-system/blackfridaydeal.jpg" alt="blackFridayImg" /></a>
@@ -281,6 +286,8 @@ class BFTestTwo extends Component {
               </li>
             </ul>
           </div>
+          </div>
+          <Footer />
       </div>
     );
   }
