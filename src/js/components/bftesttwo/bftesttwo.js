@@ -1,6 +1,9 @@
 
 import React, { Component } from 'react';
 
+import Header from '../header/header';
+import Footer from '../footer/footer';
+
 class BFTestTwo extends Component {
 
   componentDidMount() {
@@ -9,6 +12,8 @@ class BFTestTwo extends Component {
   render() {
     return (
       <div>
+        <Header />
+        <div>
         <div class="department-container dept-nav mrg-btm-XXL">
             <ul>
               <li class="sm6 mrg-btm-XL">
@@ -277,6 +282,8 @@ class BFTestTwo extends Component {
               </li>
             </ul>
           </div>
+          </div>
+          <Footer />
       </div>
     );
   }

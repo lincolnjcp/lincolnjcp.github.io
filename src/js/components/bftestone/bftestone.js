@@ -3,8 +3,6 @@ import React, { Component } from 'react';
 
 import Header from '../header/header';
 import Footer from '../footer/footer';
-import ExpandCollapse from '../expand-collapse/expand-collapse'
-import RecommendationZone from '../recommendation-zone/recommendation-zone';
 
 class BFTestOne extends Component {
 
