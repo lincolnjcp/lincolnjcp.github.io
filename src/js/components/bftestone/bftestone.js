@@ -17,7 +17,6 @@ class BFTestOne extends Component {
               <h1 className="title title-XL fl-left black-friday-title">BLACK FRIDAY DEALS FOR HOME</h1>
               <p className="std-txt std-txt-S fl-right black-friday-std-txt"><a href="javascript:void(0);">Shop All</a></p>
             </div>
-            <div className="row">
               <div className="lg12 sm12 md12 xl12">
                 <div className="product-card-wrapper black-friday-wrapper">
                   <a href="/#/page-modules/product-cards" className="black-friday-container sm6 nopad">
@@ -104,16 +103,11 @@ class BFTestOne extends Component {
                   </a>
                 </div>
               </div>
-            </div>
+            
             {/* <Footer /> */}
           </div>
-
           <div>
         <div class="department-container dept-nav mrg-btm-XXL mrg-top-M">
-        <div class="sm12 lg12 md12 xl12 xxl12 nopad text-center">
-                    <a class="black-banner-image" href="javascript:void(0)">
-                        <img src="/images/design-system/blackfridaydeal.jpg" alt="blackFridayImg" /></a>
-                </div>
             <ul class="department-block">
               <li class="lg3 md3 xl3 xxl3 sm6 nopad ">
                 <a href="/#/page-modules/product-cards">
