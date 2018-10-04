@@ -181,7 +181,6 @@
               transform: scale(1.05);
           }
           & h2 {
-            height: 40px;
             display: table-cell;
             vertical-align: middle;
 

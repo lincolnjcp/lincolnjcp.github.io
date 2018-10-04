@@ -36,12 +36,17 @@
               transform: scale(1.05);
           }
           & h2 {
-            height: 40px;
             display: table-cell;
             vertical-align: middle;
 
+            @media (--viewport-xxl) {
+              height: auto;
+              min-height: 34px;
+            }
               @media (--viewport-md-down) {
                   font-size: 14px;
+                  height: auto;
+                  min-height: 31px;
               }
           }
         }
