@@ -3,6 +3,7 @@
 *********************************/
 
 .department-container {
+
     & .sub-category {
       @media (--viewport-md-down) {
         display: block;

@@ -13,8 +13,8 @@ class BFTestTwo extends Component {
     return (
       <div>
         <Header />
-        <div>
-        <div class="department-container dept-nav mrg-btm-XXL mrg-top-M">
+        <div class="black-headbanner">
+        <div class="department-container dept-nav mrg-btm-M">
         <div class="sm12 lg12 md12 xl12 xxl12 nopad text-center">
                     <a class="black-banner-image" href="javascript:void(0)">
                         <img src="/images/design-system/blackfridaydeal.jpg" alt="blackFridayImg" /></a>

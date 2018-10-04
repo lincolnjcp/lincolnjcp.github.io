@@ -200,6 +200,10 @@
 
   }
 
+  .black-headbanner {
+      margin-top:12px;
+  }
+
   .dept-nav {
     & li {
       & .viz-nav-img {
