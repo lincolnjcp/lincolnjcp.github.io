@@ -3,6 +3,8 @@ import Slider from "react-slick";
 import Header from '../header/header';
 import Footer from '../footer/footer';
 
+import $ from 'jquery';
+
 import CodeGenerator from '../../containers/CodeGenerator.js';
 
 const ChevronLeftImage = require('!!raw-loader?es5=1!../../../images/global/icons/nav/chevron-left.svg');
@@ -90,6 +92,12 @@ class BfTestFour extends Component {
 
     componentDidMount() {
         this.listenScrollEvent = this.listenScrollEvent.bind(this);
+        $( document ).ready(function() {
+            $(".design-system-content").css('padding',0);
+            $(".design-system-enable-hide").css('display', 'none');
+            $('.design-system-nav-mobile-header').hide();
+            $(".design-system-wrap").css('margin',0);
+        });
     }
 
     scrollCartridge(scrollToRight) {
