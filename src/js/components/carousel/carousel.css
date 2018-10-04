@@ -37,6 +37,14 @@
     background: transparent;
 }*/
 
+.nopad-XXL{
+	@media (--viewport-lg){
+		padding: 0 !important;
+		margin: 0 !important;
+	  }
+}
+
+
 .slick-prev:hover,
 .slick-prev:focus,
 .slick-next:hover,
@@ -241,6 +249,11 @@
 }
 .carousel-container-horizontal {
 	max-width: 320px;
+	margin: 0 0 24px; 
+
+	@media (--viewport-md-down) {
+		margin: 0 auto 25px ;
+	}
 
 	& .carousel-main-img {
 		max-width: 320px;	

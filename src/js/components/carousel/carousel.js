@@ -285,12 +285,12 @@ class Carousel extends Component {
       <div>
 
         <div className="row" id="carousel">
-          <div className="md12 lg12 sm12 column">
+          <div className="md12 lg12 sm12 column nopad-XXL mrg-btm-M">
             <h2 className="title title-L mrg-btm-M">
               PDP Carousels & Video Player
             </h2>
 
-            <div className="carousel-container carousel-container-vertical mrg-btm-L hide-for-medium-only hide-for-small-only">
+            <div className="carousel-container carousel-container-vertical hide-for-medium-only hide-for-small-only hide-for-medium-down">
               <div className="carousel-main-img">
                 <Slider ref="mainSlider" {...pdpPrimaryCarouselSettings}>
                   {/* first carousel main image */}
@@ -304,7 +304,7 @@ class Carousel extends Component {
                 <div class="flag flag-info std-txt std-txt-XS">Low Stock</div>
               </div>
 
-              {/* Main carousel */}
+           
               <div className="carousel-nav">
               {
                 PrimaryImgUrls.length && (<Slider ref="navSlider" {...pdpPrimaryCarouselNavSettings}>
@@ -334,7 +334,7 @@ class Carousel extends Component {
             </div>
 
 
-            <div className="carousel-container carousel-secondary carousel-container-horizontal mrg-btm-L hide-for-medium-only hide-for-small-only">
+            <div className="carousel-container carousel-secondary carousel-container-horizontal hide-for-medium-only hide-for-small-only">
               <div className="carousel-main-img">
                 <Slider ref="secondarySlider" {...pdpSecondaryCarouselSettings}>
                   <div>

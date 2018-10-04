@@ -109,7 +109,7 @@ class Pdp extends Component {
     render() {
         return (
             <div>
-                <div className="row columns">
+                <div className="columns">
                     <Header />
                     <div className="product-title-block mrg-btm-L mrg-top-L col-mar">
                         <div className="breadcrumbs-block">
@@ -143,7 +143,7 @@ class Pdp extends Component {
                                     </li>
                                 </ul>
                             </div>
-                            <div className="md6 sm12 lg6 xl6 nopad social-share">
+                            <div className="md12 sm12 lg12 xl12 nopad social-share">
                                 <span className="icon " dangerouslySetInnerHTML={{ __html: mailImage }} />
                                 <span className="icon " dangerouslySetInnerHTML={{ __html: facebookfillImage }} />
                                 <span className="icon " dangerouslySetInnerHTML={{ __html: twitterfillImage }} />
@@ -151,10 +151,10 @@ class Pdp extends Component {
                             </div>
                         </div>
                     </div>
-                    <div className="md6 sm12 lg6 xl6 nopad" col-mar>
+                    <div className="md12 sm12 lg12 xl12 nopad" col-mar>
                         <Carousel />
                     </div>
-                    <div className="md6 sm12 lg6 xl6 col-mar">
+                    <div className="md6 sm12 lg6 xl6">
                         <div className="pdp-pricing mrg-btm-M">
                             <div className="price-card">
                                 <div className="price price-promo mrg-btm-XS color-penneyred">LARGE MARKETING LABEL</div>
@@ -191,7 +191,7 @@ class Pdp extends Component {
                                     </div>
                                 </div>
                             </div>
-                            <div className="select-form sm12 md6 lg6 xl6">
+                            <div className="select-form sm12 md6 lg6 xl6 nopad">
                                 <div className="select">
                                     <div className="form-float-label form-select2">
                                         <select className="form-control custom-select">
@@ -285,7 +285,7 @@ class Pdp extends Component {
                             <div className="sm12 md6 lg6 xl6 nopad">
                                 <a href="javascript:void();" role="button" className="btn btn-secondary btn-L mrg-btm-L sm12 md12 lg12 xl12 color-nightsky">Add to List</a>
                             </div>
-                            <div className="sm12 md6 lg6 xl6">
+                            <div className="sm12 md6 lg6 xl6 nopad">
                                 <a href="javascript:void();" role="button" className="btn btn-secondary btn-L mrg-btm-L sm12 md12 lg12 xl12 color-nightsky">Add to Registry</a>
                             </div>
                         </div>
