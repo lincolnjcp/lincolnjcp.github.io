@@ -16,7 +16,7 @@ class ProductCards extends Component {
             var tooltip = parent.find('.tooltip-content');
             parent.closest('.like-icon').toggleClass("is-active");
             if (parent.hasClass("is-active")) {
-                tooltip.html('Added<br /><a href="javascript:void(0);">View My Favorites</a>');
+                tooltip.html('Added<br /><a href="/#/page-layouts/pdp">View My Favorites</a>');
             }
         });
 
@@ -90,7 +90,7 @@ class ProductCards extends Component {
                                                 </div>
                                             </div>
                                             <div class="product-card-thumbnail">
-                                                <a href="javascript:void(0)"><img src="/images/design-system/fpo/product-cards/product-card-grid-pane-1.jpg" alt="Samsung ENERGY STAR" /></a>
+                                                <a href="/#/page-layouts/pdp"><img src="/images/design-system/fpo/product-cards/product-card-grid-pane-1.jpg" alt="Samsung ENERGY STAR" /></a>
                                                 <div class="shop-collection title title-XS"><span class="hide-for-small-only">SHOP THE</span> COLLECTION</div>
                                             </div>
                                         </div>
@@ -99,19 +99,19 @@ class ProductCards extends Component {
                                                 <div className="color-swatches-medium">
                                                     <ul className="list-product-colors-container">
                                                         <li>
-                                                            <a href="javascript:void(0)" className="list-color-swatch list-color-swatch-active"></a>
+                                                            <a href="/#/page-layouts/pdp" className="list-color-swatch list-color-swatch-active"></a>
                                                         </li>
                                                         <li>
-                                                            <a href="javascript:void(0)" className="list-color-swatch"></a>
+                                                            <a href="/#/page-layouts/pdp" className="list-color-swatch"></a>
                                                         </li>
                                                         <li>
-                                                            <a href="javascript:void(0)" className="list-color-swatch"></a>
+                                                            <a href="/#/page-layouts/pdp" className="list-color-swatch"></a>
                                                         </li>
                                                         <li>
-                                                            <a href="javascript:void(0)" className="list-color-swatch"></a>
+                                                            <a href="/#/page-layouts/pdp" className="list-color-swatch"></a>
                                                         </li>
                                                         <li className="swatches-list-link">
-                                                            <a href="javascript:void(0)" className="std-txt std-txt-S color-nightsky">
+                                                            <a href="/#/page-layouts/pdp" className="std-txt std-txt-S color-nightsky">
                                                                 +23
                                           </a>
                                                         </li>
@@ -128,7 +128,7 @@ class ProductCards extends Component {
                                                 <span class="price price-note color-penneyred clearance-S">clearance</span>
                                             </div>
                                             <div class="product-card-name-wrap">
-                                                <a href="javascript:void(0);" class="product-card-name std-txt std-txt-S std-txt-XS-at-S color-nightsky">Lorem Ipsumd Dolor Sit Amet Consec Ter Adpisicing Alit…</a>
+                                                <a href="/#/page-layouts/pdp" class="product-card-name std-txt std-txt-S std-txt-XS-at-S color-nightsky">Lorem Ipsumd Dolor Sit Amet Consec Ter Adpisicing Alit…</a>
                                             </div>
                                             <div class="star-preview-col review-star mrg-top-XS">
                                                 <ul class="star-ratings-S">
@@ -148,7 +148,7 @@ class ProductCards extends Component {
                                                         <span class="icon color-concrete-svg" dangerouslySetInnerHTML={{ __html: starImage }} />
                                                     </li>
                                                     <li class="star-ratings">
-                                                        <a href="javascript:void();" class="rating-count std-txt std-txt-S">99</a>
+                                                        <a href="/#/page-layouts/pdp" class="rating-count std-txt std-txt-S">99</a>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -171,7 +171,7 @@ class ProductCards extends Component {
                                                 </div>
                                             </div>
                                             <div class="product-card-thumbnail">
-                                                <a href="javascript:void(0)"><img src="/images/design-system/fpo/product-cards/product-card-grid-pane-1.jpg" alt="Samsung ENERGY STAR" /></a>
+                                                <a href="/#/page-layouts/pdp"><img src="/images/design-system/fpo/product-cards/product-card-grid-pane-1.jpg" alt="Samsung ENERGY STAR" /></a>
                                                 <div class="shop-collection title title-XS"><span class="hide-for-small-only">SHOP THE</span> COLLECTION</div>
                                             </div>
                                         </div>
@@ -180,19 +180,19 @@ class ProductCards extends Component {
                                                 <div className="color-swatches-medium">
                                                     <ul className="list-product-colors-container">
                                                         <li>
-                                                            <a href="javascript:void(0)" className="list-color-swatch list-color-swatch-active"></a>
+                                                            <a href="/#/page-layouts/pdp" className="list-color-swatch list-color-swatch-active"></a>
                                                         </li>
                                                         <li>
-                                                            <a href="javascript:void(0)" className="list-color-swatch"></a>
+                                                            <a href="/#/page-layouts/pdp" className="list-color-swatch"></a>
                                                         </li>
                                                         <li>
-                                                            <a href="javascript:void(0)" className="list-color-swatch"></a>
+                                                            <a href="/#/page-layouts/pdp" className="list-color-swatch"></a>
                                                         </li>
                                                         <li>
-                                                            <a href="javascript:void(0)" className="list-color-swatch"></a>
+                                                            <a href="/#/page-layouts/pdp" className="list-color-swatch"></a>
                                                         </li>
                                                         <li className="swatches-list-link">
-                                                            <a href="javascript:void(0)" className="std-txt std-txt-S color-nightsky">
+                                                            <a href="/#/page-layouts/pdp" className="std-txt std-txt-S color-nightsky">
                                                                 +23
                                           </a>
                                                         </li>
@@ -205,7 +205,7 @@ class ProductCards extends Component {
                                             <div class="price price-M"><sup class="sup-text">$</sup>74<sup class="sup-text">99</sup></div>
                                             <div class="promo-lbl promo-lbl-XS mrg-btm-XS color-penneyred">Buy 1 Get 1 Free</div>
                                             <div class="product-card-name-wrap">
-                                                <a href="javascript:void(0);" class="product-card-name std-txt std-txt-S std-txt-XS-at-S color-nightsky">Lorem Ipsumd Dolor Sit Amet Consec Ter Adpisicing Alit…</a>
+                                                <a href="/#/page-layouts/pdp" class="product-card-name std-txt std-txt-S std-txt-XS-at-S color-nightsky">Lorem Ipsumd Dolor Sit Amet Consec Ter Adpisicing Alit…</a>
                                             </div>
                                             <div class="star-preview-col review-star mrg-top-XS">
                                                 <ul class="star-ratings-S">
@@ -225,7 +225,7 @@ class ProductCards extends Component {
                                                         <span class="icon color-concrete-svg" dangerouslySetInnerHTML={{ __html: starImage }} />
                                                     </li>
                                                     <li class="star-ratings">
-                                                        <a href="javascript:void();" class="rating-count std-txt std-txt-S">99</a>
+                                                        <a href="/#/page-layouts/pdp" class="rating-count std-txt std-txt-S">99</a>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -248,7 +248,7 @@ class ProductCards extends Component {
                                                 </div>
                                             </div>
                                             <div class="product-card-thumbnail">
-                                                <a href="javascript:void(0)"><img src="/images/design-system/fpo/product-cards/product-card-grid-pane-1.jpg" alt="Samsung ENERGY STAR" /></a>
+                                                <a href="/#/page-layouts/pdp"><img src="/images/design-system/fpo/product-cards/product-card-grid-pane-1.jpg" alt="Samsung ENERGY STAR" /></a>
                                                 <div class="shop-collection title title-XS"><span class="hide-for-small-only">SHOP THE</span> COLLECTION</div>
                                             </div>
                                         </div>
@@ -257,19 +257,19 @@ class ProductCards extends Component {
                                                 <div className="color-swatches-medium">
                                                     <ul className="list-product-colors-container">
                                                         <li>
-                                                            <a href="javascript:void(0)" className="list-color-swatch list-color-swatch-active"></a>
+                                                            <a href="/#/page-layouts/pdp" className="list-color-swatch list-color-swatch-active"></a>
                                                         </li>
                                                         <li>
-                                                            <a href="javascript:void(0)" className="list-color-swatch"></a>
+                                                            <a href="/#/page-layouts/pdp" className="list-color-swatch"></a>
                                                         </li>
                                                         <li>
-                                                            <a href="javascript:void(0)" className="list-color-swatch"></a>
+                                                            <a href="/#/page-layouts/pdp" className="list-color-swatch"></a>
                                                         </li>
                                                         <li>
-                                                            <a href="javascript:void(0)" className="list-color-swatch"></a>
+                                                            <a href="/#/page-layouts/pdp" className="list-color-swatch"></a>
                                                         </li>
                                                         <li className="swatches-list-link">
-                                                            <a href="javascript:void(0)" className="std-txt std-txt-S color-nightsky">
+                                                            <a href="/#/page-layouts/pdp" className="std-txt std-txt-S color-nightsky">
                                                                 +23
                                           </a>
                                                         </li>
@@ -285,7 +285,7 @@ class ProductCards extends Component {
                                                 <span class="mrg-rght-S">was $74</span><span> 41% off</span>
                                             </div>
                                             <div class="product-card-name-wrap">
-                                                <a href="javascript:void(0);" class="product-card-name std-txt std-txt-S std-txt-XS-at-S color-nightsky">Lorem Ipsumd Dolor Sit Amet Consec Ter Adpisicing Alit…</a>
+                                                <a href="/#/page-layouts/pdp" class="product-card-name std-txt std-txt-S std-txt-XS-at-S color-nightsky">Lorem Ipsumd Dolor Sit Amet Consec Ter Adpisicing Alit…</a>
                                             </div>
                                             <div class="star-preview-col review-star mrg-top-XS">
                                                 <ul class="star-ratings-S">
@@ -305,7 +305,7 @@ class ProductCards extends Component {
                                                         <span class="icon color-concrete-svg" dangerouslySetInnerHTML={{ __html: starImage }} />
                                                     </li>
                                                     <li class="star-ratings">
-                                                        <a href="javascript:void();" class="rating-count std-txt std-txt-S">99</a>
+                                                        <a href="/#/page-layouts/pdp" class="rating-count std-txt std-txt-S">99</a>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -325,7 +325,7 @@ class ProductCards extends Component {
                                                 </div>
                                             </div>
                                             <div class="product-card-thumbnail">
-                                                <a href="javascript:void(0)"><img src="/images/design-system/fpo/product-cards/product-card-grid-pane-1.jpg" alt="Samsung ENERGY STAR" /></a>
+                                                <a href="/#/page-layouts/pdp"><img src="/images/design-system/fpo/product-cards/product-card-grid-pane-1.jpg" alt="Samsung ENERGY STAR" /></a>
                                                 <div class="shop-collection title title-XS"><span class="hide-for-small-only">SHOP THE</span> COLLECTION</div>
                                             </div>
                                         </div>
@@ -334,19 +334,19 @@ class ProductCards extends Component {
                                                 <div className="color-swatches-medium">
                                                     <ul className="list-product-colors-container">
                                                         <li>
-                                                            <a href="javascript:void(0)" className="list-color-swatch list-color-swatch-active"></a>
+                                                            <a href="/#/page-layouts/pdp" className="list-color-swatch list-color-swatch-active"></a>
                                                         </li>
                                                         <li>
-                                                            <a href="javascript:void(0)" className="list-color-swatch"></a>
+                                                            <a href="/#/page-layouts/pdp" className="list-color-swatch"></a>
                                                         </li>
                                                         <li>
-                                                            <a href="javascript:void(0)" className="list-color-swatch"></a>
+                                                            <a href="/#/page-layouts/pdp" className="list-color-swatch"></a>
                                                         </li>
                                                         <li>
-                                                            <a href="javascript:void(0)" className="list-color-swatch"></a>
+                                                            <a href="/#/page-layouts/pdp" className="list-color-swatch"></a>
                                                         </li>
                                                         <li className="swatches-list-link">
-                                                            <a href="javascript:void(0)" className="std-txt std-txt-S color-nightsky">
+                                                            <a href="/#/page-layouts/pdp" className="std-txt std-txt-S color-nightsky">
                                                                 +23
                                           </a>
                                                         </li>
@@ -358,7 +358,7 @@ class ProductCards extends Component {
                                             <div class="promo-lbl promo-lbl-XS mrg-btm-XS color-penneyred">GREEN MONDAL DEAL!</div>
                                             <div class="price price-M"><span class="title title-XS from-label">from</span><sup class="sup-text">$</sup>33<sup class="sup-text">99</sup></div>
                                             <div class="product-card-name-wrap">
-                                                <a href="javascript:void(0);" class="product-card-name std-txt std-txt-S std-txt-XS-at-S color-nightsky">Lorem Ipsumd Dolor Sit Amet Consec Ter Adpisicing Alit…</a>
+                                                <a href="/#/page-layouts/pdp" class="product-card-name std-txt std-txt-S std-txt-XS-at-S color-nightsky">Lorem Ipsumd Dolor Sit Amet Consec Ter Adpisicing Alit…</a>
                                             </div>
                                             <div class="star-preview-col review-star mrg-top-XS">
                                                 <ul class="star-ratings-S">
@@ -378,7 +378,7 @@ class ProductCards extends Component {
                                                         <span class="icon color-concrete-svg" dangerouslySetInnerHTML={{ __html: starImage }} />
                                                     </li>
                                                     <li class="star-ratings">
-                                                        <a href="javascript:void();" class="rating-count std-txt std-txt-S">99</a>
+                                                        <a href="/#/page-layouts/pdp" class="rating-count std-txt std-txt-S">99</a>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -399,7 +399,7 @@ class ProductCards extends Component {
                                                 </div>
                                             </div>
                                             <div class="product-card-thumbnail">
-                                                <a href="javascript:void(0)"><img src="/images/design-system/fpo/product-cards/product-card-grid-pane-1.jpg" alt="Samsung ENERGY STAR" /></a>
+                                                <a href="/#/page-layouts/pdp"><img src="/images/design-system/fpo/product-cards/product-card-grid-pane-1.jpg" alt="Samsung ENERGY STAR" /></a>
                                                 <div class="shop-collection title title-XS"><span class="hide-for-small-only">SHOP THE</span> COLLECTION</div>
                                             </div>
                                         </div>
@@ -408,19 +408,19 @@ class ProductCards extends Component {
                                                 <div className="color-swatches-medium">
                                                     <ul className="list-product-colors-container">
                                                         <li>
-                                                            <a href="javascript:void(0)" className="list-color-swatch list-color-swatch-active"></a>
+                                                            <a href="/#/page-layouts/pdp" className="list-color-swatch list-color-swatch-active"></a>
                                                         </li>
                                                         <li>
-                                                            <a href="javascript:void(0)" className="list-color-swatch"></a>
+                                                            <a href="/#/page-layouts/pdp" className="list-color-swatch"></a>
                                                         </li>
                                                         <li>
-                                                            <a href="javascript:void(0)" className="list-color-swatch"></a>
+                                                            <a href="/#/page-layouts/pdp" className="list-color-swatch"></a>
                                                         </li>
                                                         <li>
-                                                            <a href="javascript:void(0)" className="list-color-swatch"></a>
+                                                            <a href="/#/page-layouts/pdp" className="list-color-swatch"></a>
                                                         </li>
                                                         <li className="swatches-list-link">
-                                                            <a href="javascript:void(0)" className="std-txt std-txt-S color-nightsky">
+                                                            <a href="/#/page-layouts/pdp" className="std-txt std-txt-S color-nightsky">
                                                                 +23
                                           </a>
                                                         </li>
@@ -440,7 +440,7 @@ class ProductCards extends Component {
                                                 <span class="mrg-rght-S">was $74.99 - $99.99</span>
                                             </div>
                                             <div class="product-card-name-wrap">
-                                                <a href="javascript:void(0);" class="product-card-name std-txt std-txt-S std-txt-XS-at-S color-nightsky">Lorem Ipsumd Dolor Sit Amet Consec Ter Adpisicing Alit…</a>
+                                                <a href="/#/page-layouts/pdp" class="product-card-name std-txt std-txt-S std-txt-XS-at-S color-nightsky">Lorem Ipsumd Dolor Sit Amet Consec Ter Adpisicing Alit…</a>
                                             </div>
                                             <div class="star-preview-col review-star mrg-top-XS">
                                                 <ul class="star-ratings-S">
@@ -460,7 +460,7 @@ class ProductCards extends Component {
                                                         <span class="icon color-concrete-svg" dangerouslySetInnerHTML={{ __html: starImage }} />
                                                     </li>
                                                     <li class="star-ratings">
-                                                        <a href="javascript:void();" class="rating-count std-txt std-txt-S">99</a>
+                                                        <a href="/#/page-layouts/pdp" class="rating-count std-txt std-txt-S">99</a>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -481,7 +481,7 @@ class ProductCards extends Component {
                                                 </div>
                                             </div>
                                             <div class="product-card-thumbnail">
-                                                <a href="javascript:void(0)"><img src="/images/design-system/fpo/product-cards/product-card-grid-pane-1.jpg" alt="Samsung ENERGY STAR" /></a>
+                                                <a href="/#/page-layouts/pdp"><img src="/images/design-system/fpo/product-cards/product-card-grid-pane-1.jpg" alt="Samsung ENERGY STAR" /></a>
                                                 <div class="shop-collection title title-XS"><span class="hide-for-small-only">SHOP THE</span> COLLECTION</div>
                                             </div>
                                         </div>
@@ -490,19 +490,19 @@ class ProductCards extends Component {
                                                 <div className="color-swatches-medium">
                                                     <ul className="list-product-colors-container">
                                                         <li>
-                                                            <a href="javascript:void(0)" className="list-color-swatch list-color-swatch-active"></a>
+                                                            <a href="/#/page-layouts/pdp" className="list-color-swatch list-color-swatch-active"></a>
                                                         </li>
                                                         <li>
-                                                            <a href="javascript:void(0)" className="list-color-swatch"></a>
+                                                            <a href="/#/page-layouts/pdp" className="list-color-swatch"></a>
                                                         </li>
                                                         <li>
-                                                            <a href="javascript:void(0)" className="list-color-swatch"></a>
+                                                            <a href="/#/page-layouts/pdp" className="list-color-swatch"></a>
                                                         </li>
                                                         <li>
-                                                            <a href="javascript:void(0)" className="list-color-swatch"></a>
+                                                            <a href="/#/page-layouts/pdp" className="list-color-swatch"></a>
                                                         </li>
                                                         <li className="swatches-list-link">
-                                                            <a href="javascript:void(0)" className="std-txt std-txt-S color-nightsky">
+                                                            <a href="/#/page-layouts/pdp" className="std-txt std-txt-S color-nightsky">
                                                                 +23
                                           </a>
                                                         </li>
@@ -519,7 +519,7 @@ class ProductCards extends Component {
                                                 <span class="mrg-rght-S">was $74.99 - $99.99</span>
                                             </div>
                                             <div class="product-card-name-wrap">
-                                                <a href="javascript:void(0);" class="product-card-name std-txt std-txt-S std-txt-XS-at-S color-nightsky">Lorem Ipsumd Dolor Sit Amet Consec Ter Adpisicing Alit…</a>
+                                                <a href="/#/page-layouts/pdp" class="product-card-name std-txt std-txt-S std-txt-XS-at-S color-nightsky">Lorem Ipsumd Dolor Sit Amet Consec Ter Adpisicing Alit…</a>
                                             </div>
                                             <div class="star-preview-col review-star mrg-top-XS">
                                                 <ul class="star-ratings-S">
@@ -539,7 +539,7 @@ class ProductCards extends Component {
                                                         <span class="icon color-concrete-svg" dangerouslySetInnerHTML={{ __html: starImage }} />
                                                     </li>
                                                     <li class="star-ratings">
-                                                        <a href="javascript:void();" class="rating-count std-txt std-txt-S">99</a>
+                                                        <a href="/#/page-layouts/pdp" class="rating-count std-txt std-txt-S">99</a>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -560,7 +560,7 @@ class ProductCards extends Component {
                                                 </div>
                                             </div>
                                             <div class="product-card-thumbnail">
-                                                <a href="javascript:void(0)"><img src="/images/design-system/fpo/product-cards/product-card-grid-pane-1.jpg" alt="Samsung ENERGY STAR" /></a>
+                                                <a href="/#/page-layouts/pdp"><img src="/images/design-system/fpo/product-cards/product-card-grid-pane-1.jpg" alt="Samsung ENERGY STAR" /></a>
                                                 <div class="shop-collection title title-XS"><span class="hide-for-small-only">SHOP THE</span> COLLECTION</div>
                                             </div>
                                         </div>
@@ -569,19 +569,19 @@ class ProductCards extends Component {
                                                 <div className="color-swatches-medium">
                                                     <ul className="list-product-colors-container">
                                                         <li>
-                                                            <a href="javascript:void(0)" className="list-color-swatch list-color-swatch-active"></a>
+                                                            <a href="/#/page-layouts/pdp" className="list-color-swatch list-color-swatch-active"></a>
                                                         </li>
                                                         <li>
-                                                            <a href="javascript:void(0)" className="list-color-swatch"></a>
+                                                            <a href="/#/page-layouts/pdp" className="list-color-swatch"></a>
                                                         </li>
                                                         <li>
-                                                            <a href="javascript:void(0)" className="list-color-swatch"></a>
+                                                            <a href="/#/page-layouts/pdp" className="list-color-swatch"></a>
                                                         </li>
                                                         <li>
-                                                            <a href="javascript:void(0)" className="list-color-swatch"></a>
+                                                            <a href="/#/page-layouts/pdp" className="list-color-swatch"></a>
                                                         </li>
                                                         <li className="swatches-list-link">
-                                                            <a href="javascript:void(0)" className="std-txt std-txt-S color-nightsky">
+                                                            <a href="/#/page-layouts/pdp" className="std-txt std-txt-S color-nightsky">
                                                                 +23
                                           </a>
                                                         </li>
@@ -598,7 +598,7 @@ class ProductCards extends Component {
                                                 <span class="price price-note clearance">each</span>
                                             </div>
                                             <div class="product-card-name-wrap">
-                                                <a href="javascript:void(0);" class="product-card-name std-txt std-txt-S std-txt-XS-at-S color-nightsky">Lorem Ipsumd Dolor Sit Amet Consec Ter Adpisicing Alit…</a>
+                                                <a href="/#/page-layouts/pdp" class="product-card-name std-txt std-txt-S std-txt-XS-at-S color-nightsky">Lorem Ipsumd Dolor Sit Amet Consec Ter Adpisicing Alit…</a>
                                             </div>
                                             <div class="star-preview-col review-star mrg-top-XS">
                                                 <ul class="star-ratings-S">
@@ -618,7 +618,7 @@ class ProductCards extends Component {
                                                         <span class="icon color-concrete-svg" dangerouslySetInnerHTML={{ __html: starImage }} />
                                                     </li>
                                                     <li class="star-ratings">
-                                                        <a href="javascript:void();" class="rating-count std-txt std-txt-S">99</a>
+                                                        <a href="/#/page-layouts/pdp" class="rating-count std-txt std-txt-S">99</a>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -641,7 +641,7 @@ class ProductCards extends Component {
                                                 </div>
                                             </div>
                                             <div class="product-card-thumbnail">
-                                                <a href="javascript:void(0)"><img src="/images/design-system/fpo/product-cards/product-card-grid-pane-1.jpg" alt="Samsung ENERGY STAR" /></a>
+                                                <a href="/#/page-layouts/pdp"><img src="/images/design-system/fpo/product-cards/product-card-grid-pane-1.jpg" alt="Samsung ENERGY STAR" /></a>
                                                 <div class="shop-collection title title-XS"><span class="hide-for-small-only">SHOP THE</span> COLLECTION</div>
                                             </div>
                                         </div>
@@ -650,19 +650,19 @@ class ProductCards extends Component {
                                                 <div className="color-swatches-medium">
                                                     <ul className="list-product-colors-container">
                                                         <li>
-                                                            <a href="javascript:void(0)" className="list-color-swatch list-color-swatch-active"></a>
+                                                            <a href="/#/page-layouts/pdp" className="list-color-swatch list-color-swatch-active"></a>
                                                         </li>
                                                         <li>
-                                                            <a href="javascript:void(0)" className="list-color-swatch"></a>
+                                                            <a href="/#/page-layouts/pdp" className="list-color-swatch"></a>
                                                         </li>
                                                         <li>
-                                                            <a href="javascript:void(0)" className="list-color-swatch"></a>
+                                                            <a href="/#/page-layouts/pdp" className="list-color-swatch"></a>
                                                         </li>
                                                         <li>
-                                                            <a href="javascript:void(0)" className="list-color-swatch"></a>
+                                                            <a href="/#/page-layouts/pdp" className="list-color-swatch"></a>
                                                         </li>
                                                         <li className="swatches-list-link">
-                                                            <a href="javascript:void(0)" className="std-txt std-txt-S color-nightsky">
+                                                            <a href="/#/page-layouts/pdp" className="std-txt std-txt-S color-nightsky">
                                                                 +23
                                           </a>
                                                         </li>
@@ -678,7 +678,7 @@ class ProductCards extends Component {
                                                 <span class="mrg-rght-S">was $9,999 - $9,999</span>
                                             </div>
                                             <div class="product-card-name-wrap">
-                                                <a href="javascript:void(0);" class="product-card-name std-txt std-txt-S std-txt-XS-at-S color-nightsky">Lorem Ipsumd Dolor Sit Amet Consec Ter Adpisicing Alit…</a>
+                                                <a href="/#/page-layouts/pdp" class="product-card-name std-txt std-txt-S std-txt-XS-at-S color-nightsky">Lorem Ipsumd Dolor Sit Amet Consec Ter Adpisicing Alit…</a>
                                             </div>
                                             <div class="star-preview-col review-star mrg-top-XS">
                                                 <ul class="star-ratings-S">
@@ -698,7 +698,7 @@ class ProductCards extends Component {
                                                         <span class="icon color-concrete-svg" dangerouslySetInnerHTML={{ __html: starImage }} />
                                                     </li>
                                                     <li class="star-ratings">
-                                                        <a href="javascript:void();" class="rating-count std-txt std-txt-S">99</a>
+                                                        <a href="/#/page-layouts/pdp" class="rating-count std-txt std-txt-S">99</a>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -729,18 +729,18 @@ class ProductCards extends Component {
                                                 </div>
                                             </div>
                                             <div class="product-card-thumbnail">
-                                                <a href="javascript:void(0)"><img src="https://s7d4.scene7.com/is/image/JCPenney/DP0602201717294441M.tif?wid=350&hei=350&op_usm=.4,.8,0,0&resmode=sharp2" alt="Samsung ENERGY STAR" /></a>
+                                                <a href="/#/page-layouts/pdp"><img src="https://s7d4.scene7.com/is/image/JCPenney/DP0602201717294441M.tif?wid=350&hei=350&op_usm=.4,.8,0,0&resmode=sharp2" alt="Samsung ENERGY STAR" /></a>
                                                 <div class="shop-collection title title-XS"><span class="hide-for-small-only">SHOP THE</span> COLLECTION</div>
                                             </div>
                                             <div class="color-swatches-block hide-for-small-only">
                                                 <div>
                                                     <div class="color-swatches-medium">
                                                         <ul class="list-product-colors-container">
-                                                            <li><a href="javascript:void(0)" class="list-color-swatch list-color-swatch-active"></a></li>
-                                                            <li><a href="javascript:void(0)" class="list-color-swatch"></a></li>
-                                                            <li><a href="javascript:void(0)" class="list-color-swatch"></a></li>
-                                                            <li><a href="javascript:void(0)" class="list-color-swatch"></a></li>
-                                                            <li class="swatches-list-link"><a href="javascript:void(0)" class="std-txt std-txt-S color-nightsky">+23</a></li>
+                                                            <li><a href="/#/page-layouts/pdp" class="list-color-swatch list-color-swatch-active"></a></li>
+                                                            <li><a href="/#/page-layouts/pdp" class="list-color-swatch"></a></li>
+                                                            <li><a href="/#/page-layouts/pdp" class="list-color-swatch"></a></li>
+                                                            <li><a href="/#/page-layouts/pdp" class="list-color-swatch"></a></li>
+                                                            <li class="swatches-list-link"><a href="/#/page-layouts/pdp" class="std-txt std-txt-S color-nightsky">+23</a></li>
                                                         </ul>
                                                     </div>
                                                 </div>
@@ -756,7 +756,7 @@ class ProductCards extends Component {
                                                 <span class="mrg-rght-S">was $74.99 - $99.99</span>
                                             </div>
                                             <div class="product-card-name-wrap">
-                                                <a href="javascript:void(0);" class="product-card-name std-txt std-txt-S std-txt-XS-at-S color-nightsky">Lorem Ipsumd Dolor Sit Amet Consec Ter Adpisicing Alit…</a>
+                                                <a href="/#/page-layouts/pdp" class="product-card-name std-txt std-txt-S std-txt-XS-at-S color-nightsky">Lorem Ipsumd Dolor Sit Amet Consec Ter Adpisicing Alit…</a>
                                             </div>
                                             <div class="star-preview-col review-star mrg-top-XS">
                                                 <ul class="star-ratings-S">
@@ -776,7 +776,7 @@ class ProductCards extends Component {
                                                         <span class="icon color-concrete-svg" dangerouslySetInnerHTML={{ __html: starImage }} />
                                                     </li>
                                                     <li class="star-ratings">
-                                                        <a href="javascript:void();" class="rating-count std-txt std-txt-S">99</a>
+                                                        <a href="/#/page-layouts/pdp" class="rating-count std-txt std-txt-S">99</a>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -804,18 +804,18 @@ class ProductCards extends Component {
                                                 </div>
                                             </div>
                                             <div class="product-card-thumbnail">
-                                                <a href="javascript:void(0)"><img src="https://s7d9.scene7.com/is/image/JCPenney/DP0209201717113978M?wid=450&amp;hei=450&amp;op_sharpen=1" alt="Samsung ENERGY STAR" /></a>
+                                                <a href="/#/page-layouts/pdp"><img src="https://s7d9.scene7.com/is/image/JCPenney/DP0209201717113978M?wid=450&amp;hei=450&amp;op_sharpen=1" alt="Samsung ENERGY STAR" /></a>
                                                 <div class="shop-collection title title-XS"><span class="hide-for-small-only">SHOP THE</span> COLLECTION</div>
                                             </div>
                                             <div class="color-swatches-block hide-for-small-only">
                                                 <div>
                                                     <div class="color-swatches-medium">
                                                         <ul class="list-product-colors-container">
-                                                            <li><a href="javascript:void(0)" class="list-color-swatch list-color-swatch-active"></a></li>
-                                                            <li><a href="javascript:void(0)" class="list-color-swatch"></a></li>
-                                                            <li><a href="javascript:void(0)" class="list-color-swatch"></a></li>
-                                                            <li><a href="javascript:void(0)" class="list-color-swatch"></a></li>
-                                                            <li class="swatches-list-link"><a href="javascript:void(0)" class="std-txt std-txt-S color-nightsky">+23</a></li>
+                                                            <li><a href="/#/page-layouts/pdp" class="list-color-swatch list-color-swatch-active"></a></li>
+                                                            <li><a href="/#/page-layouts/pdp" class="list-color-swatch"></a></li>
+                                                            <li><a href="/#/page-layouts/pdp" class="list-color-swatch"></a></li>
+                                                            <li><a href="/#/page-layouts/pdp" class="list-color-swatch"></a></li>
+                                                            <li class="swatches-list-link"><a href="/#/page-layouts/pdp" class="std-txt std-txt-S color-nightsky">+23</a></li>
                                                         </ul>
                                                     </div>
                                                 </div>
@@ -830,7 +830,7 @@ class ProductCards extends Component {
                                                 <span class="mrg-rght-S">was $74</span><span> 41% off</span>
                                             </div>
                                             <div class="product-card-name-wrap">
-                                                <a href="javascript:void(0);" class="product-card-name std-txt std-txt-S std-txt-XS-at-S color-nightsky">Lorem Ipsumd Dolor Sit Amet Consec Ter Adpisicing Alit…</a>
+                                                <a href="/#/page-layouts/pdp" class="product-card-name std-txt std-txt-S std-txt-XS-at-S color-nightsky">Lorem Ipsumd Dolor Sit Amet Consec Ter Adpisicing Alit…</a>
                                             </div>
                                             <div class="star-preview-col review-star mrg-top-XS">
                                                 <ul class="star-ratings-S">
@@ -850,7 +850,7 @@ class ProductCards extends Component {
                                                         <span class="icon color-concrete-svg" dangerouslySetInnerHTML={{ __html: starImage }} />
                                                     </li>
                                                     <li class="star-ratings">
-                                                        <a href="javascript:void();" class="rating-count std-txt std-txt-S">99</a>
+                                                        <a href="/#/page-layouts/pdp" class="rating-count std-txt std-txt-S">99</a>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -886,7 +886,7 @@ class ProductCards extends Component {
                                         </div>
                                         <div class="product-card-image">
                                             <div class="product-card-thumbnail">
-                                                <a href="javascript:void(0)"><img src="https://s7d4.scene7.com/is/image/JCPenney/DP0117201317033970M.tif?wid=350&hei=350&op_usm=.4,.8,0,0&resmode=sharp2" alt="Samsung ENERGY STAR" /></a>
+                                                <a href="/#/page-layouts/pdp"><img src="https://s7d4.scene7.com/is/image/JCPenney/DP0117201317033970M.tif?wid=350&hei=350&op_usm=.4,.8,0,0&resmode=sharp2" alt="Samsung ENERGY STAR" /></a>
                                             </div>
                                         </div>
                                     </div>
@@ -894,11 +894,11 @@ class ProductCards extends Component {
                                         <div>
                                             <div class="color-swatches-medium">
                                                 <ul class="list-product-colors-container">
-                                                    <li><a href="javascript:void(0)" class="list-color-swatch list-color-swatch-active"></a></li>
-                                                    <li><a href="javascript:void(0)" class="list-color-swatch"></a></li>
-                                                    <li><a href="javascript:void(0)" class="list-color-swatch"></a></li>
-                                                    <li><a href="javascript:void(0)" class="list-color-swatch"></a></li>
-                                                    <li class="swatches-list-link"><a href="javascript:void(0)" class="std-txt std-txt-S color-nightsky">+23</a></li>
+                                                    <li><a href="/#/page-layouts/pdp" class="list-color-swatch list-color-swatch-active"></a></li>
+                                                    <li><a href="/#/page-layouts/pdp" class="list-color-swatch"></a></li>
+                                                    <li><a href="/#/page-layouts/pdp" class="list-color-swatch"></a></li>
+                                                    <li><a href="/#/page-layouts/pdp" class="list-color-swatch"></a></li>
+                                                    <li class="swatches-list-link"><a href="/#/page-layouts/pdp" class="std-txt std-txt-S color-nightsky">+23</a></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -933,7 +933,7 @@ class ProductCards extends Component {
                                                 <span class="icon color-concrete-svg" dangerouslySetInnerHTML={{ __html: starImage }} />
                                             </li>
                                             <li class="star-ratings">
-                                                <a href="javascript:void();" class="rating-count std-txt std-txt-S">99</a>
+                                                <a href="/#/page-layouts/pdp" class="rating-count std-txt std-txt-S">99</a>
                                             </li>
                                         </ul>
                                     </div>
@@ -951,7 +951,7 @@ class ProductCards extends Component {
                                         </div>
                                         <div class="product-card-image">
                                             <div class="product-card-thumbnail">
-                                                <a href="javascript:void(0)"><img src="https://s7d4.scene7.com/is/image/JCPenney/DP0425201617044942M.tif?wid=350&hei=350&op_usm=.4,.8,0,0&resmode=sharp2" alt="Samsung ENERGY STAR" /></a>
+                                                <a href="/#/page-layouts/pdp"><img src="https://s7d4.scene7.com/is/image/JCPenney/DP0425201617044942M.tif?wid=350&hei=350&op_usm=.4,.8,0,0&resmode=sharp2" alt="Samsung ENERGY STAR" /></a>
                                             </div>
                                         </div>
                                     </div>
@@ -959,11 +959,11 @@ class ProductCards extends Component {
                                         <div>
                                             <div class="color-swatches-medium">
                                                 <ul class="list-product-colors-container">
-                                                    <li><a href="javascript:void(0)" class="list-color-swatch list-color-swatch-active"></a></li>
-                                                    <li><a href="javascript:void(0)" class="list-color-swatch"></a></li>
-                                                    <li><a href="javascript:void(0)" class="list-color-swatch"></a></li>
-                                                    <li><a href="javascript:void(0)" class="list-color-swatch"></a></li>
-                                                    <li class="swatches-list-link"><a href="javascript:void(0)" class="std-txt std-txt-S color-nightsky">+23</a></li>
+                                                    <li><a href="/#/page-layouts/pdp" class="list-color-swatch list-color-swatch-active"></a></li>
+                                                    <li><a href="/#/page-layouts/pdp" class="list-color-swatch"></a></li>
+                                                    <li><a href="/#/page-layouts/pdp" class="list-color-swatch"></a></li>
+                                                    <li><a href="/#/page-layouts/pdp" class="list-color-swatch"></a></li>
+                                                    <li class="swatches-list-link"><a href="/#/page-layouts/pdp" class="std-txt std-txt-S color-nightsky">+23</a></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -998,7 +998,7 @@ class ProductCards extends Component {
                                                 <span class="icon color-concrete-svg" dangerouslySetInnerHTML={{ __html: starImage }} />
                                             </li>
                                             <li class="star-ratings">
-                                                <a href="javascript:void();" class="rating-count std-txt std-txt-S">99</a>
+                                                <a href="/#/page-layouts/pdp" class="rating-count std-txt std-txt-S">99</a>
                                             </li>
                                         </ul>
                                     </div>
@@ -1024,7 +1024,7 @@ class ProductCards extends Component {
                                         </div>
                                         <div class="product-card-image">
                                             <div class="product-card-thumbnail">
-                                                <a href="javascript:void(0)"><img src="https://s7d4.scene7.com/is/image/JCPenney/DP0209201717114233M.tif?wid=350&hei=350&op_usm=.4,.8,0,0&resmode=sharp2" alt="Samsung ENERGY STAR" /></a>
+                                                <a href="/#/page-layouts/pdp"><img src="https://s7d4.scene7.com/is/image/JCPenney/DP0209201717114233M.tif?wid=350&hei=350&op_usm=.4,.8,0,0&resmode=sharp2" alt="Samsung ENERGY STAR" /></a>
                                             </div>
                                         </div>
                                     </div>
@@ -1032,11 +1032,11 @@ class ProductCards extends Component {
                                         <div>
                                             <div class="color-swatches-small">
                                                 <ul class="list-product-colors-container">
-                                                    <li><a href="javascript:void(0)" class="list-color-swatch list-color-swatch-active"></a></li>
-                                                    <li><a href="javascript:void(0)" class="list-color-swatch"></a></li>
-                                                    <li><a href="javascript:void(0)" class="list-color-swatch"></a></li>
-                                                    <li><a href="javascript:void(0)" class="list-color-swatch"></a></li>
-                                                    <li class="swatches-list-link"><a href="javascript:void(0)" class="std-txt std-txt-S color-nightsky">+23</a></li>
+                                                    <li><a href="/#/page-layouts/pdp" class="list-color-swatch list-color-swatch-active"></a></li>
+                                                    <li><a href="/#/page-layouts/pdp" class="list-color-swatch"></a></li>
+                                                    <li><a href="/#/page-layouts/pdp" class="list-color-swatch"></a></li>
+                                                    <li><a href="/#/page-layouts/pdp" class="list-color-swatch"></a></li>
+                                                    <li class="swatches-list-link"><a href="/#/page-layouts/pdp" class="std-txt std-txt-S color-nightsky">+23</a></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -1067,7 +1067,7 @@ class ProductCards extends Component {
                                                 <span class="icon color-concrete-svg" dangerouslySetInnerHTML={{ __html: starImage }} />
                                             </li>
                                             <li class="star-ratings">
-                                                <a href="javascript:void();" class="rating-count std-txt std-txt-S">99</a>
+                                                <a href="/#/page-layouts/pdp" class="rating-count std-txt std-txt-S">99</a>
                                             </li>
                                         </ul>
                                     </div>
@@ -1084,7 +1084,7 @@ class ProductCards extends Component {
                                         </div>
                                         <div class="product-card-image">
                                             <div class="product-card-thumbnail">
-                                                <a href="javascript:void(0)"><img src="https://s7d9.scene7.com/is/image/JCPenney/DP0602201717294641M?wid=450&amp;hei=450&amp;op_sharpen=1" alt="Samsung ENERGY STAR" /></a>
+                                                <a href="/#/page-layouts/pdp"><img src="https://s7d9.scene7.com/is/image/JCPenney/DP0602201717294641M?wid=450&amp;hei=450&amp;op_sharpen=1" alt="Samsung ENERGY STAR" /></a>
                                             </div>
                                         </div>
                                     </div>
@@ -1092,11 +1092,11 @@ class ProductCards extends Component {
                                         <div>
                                             <div class="color-swatches-small">
                                                 <ul class="list-product-colors-container">
-                                                    <li><a href="javascript:void(0)" class="list-color-swatch list-color-swatch-active"></a></li>
-                                                    <li><a href="javascript:void(0)" class="list-color-swatch"></a></li>
-                                                    <li><a href="javascript:void(0)" class="list-color-swatch"></a></li>
-                                                    <li><a href="javascript:void(0)" class="list-color-swatch"></a></li>
-                                                    <li class="swatches-list-link"><a href="javascript:void(0)" class="std-txt std-txt-S color-nightsky">+23</a></li>
+                                                    <li><a href="/#/page-layouts/pdp" class="list-color-swatch list-color-swatch-active"></a></li>
+                                                    <li><a href="/#/page-layouts/pdp" class="list-color-swatch"></a></li>
+                                                    <li><a href="/#/page-layouts/pdp" class="list-color-swatch"></a></li>
+                                                    <li><a href="/#/page-layouts/pdp" class="list-color-swatch"></a></li>
+                                                    <li class="swatches-list-link"><a href="/#/page-layouts/pdp" class="std-txt std-txt-S color-nightsky">+23</a></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -1126,7 +1126,7 @@ class ProductCards extends Component {
                                                 <span class="icon color-concrete-svg" dangerouslySetInnerHTML={{ __html: starImage }} />
                                             </li>
                                             <li class="star-ratings">
-                                                <a href="javascript:void();" class="rating-count std-txt std-txt-S">99</a>
+                                                <a href="/#/page-layouts/pdp" class="rating-count std-txt std-txt-S">99</a>
                                             </li>
                                         </ul>
                                     </div>
@@ -1143,7 +1143,7 @@ class ProductCards extends Component {
                             <a href="/#/page-layouts/pdp">
                                 <div class="product-card product-card-list-view">
                                     <div class="product-card-thumbnail">
-                                        <a href="javascript:void(0)"><img src="https://s7d4.scene7.com/is/image/JCPenney/DP0209201717114233M.tif?wid=350&hei=350&op_usm=.4,.8,0,0&resmode=sharp2" alt="Samsung ENERGY STAR" /></a>
+                                        <a href="/#/page-layouts/pdp"><img src="https://s7d4.scene7.com/is/image/JCPenney/DP0209201717114233M.tif?wid=350&hei=350&op_usm=.4,.8,0,0&resmode=sharp2" alt="Samsung ENERGY STAR" /></a>
                                         <div class="flag flag-info flag-S std-txt std-txt-XXS">JCP Only</div>
                                         <div className="like-icon">
                                             <span className="icon heart" dangerouslySetInnerHTML={{ __html: heartfillImage }} />
@@ -1177,7 +1177,7 @@ class ProductCards extends Component {
                                                     <span class="icon color-concrete-svg" dangerouslySetInnerHTML={{ __html: starImage }} />
                                                 </li>
                                                 <li class="star-ratings">
-                                                    <a href="javascript:void();" class="rating-count std-txt std-txt-S">99</a>
+                                                    <a href="/#/page-layouts/pdp" class="rating-count std-txt std-txt-S">99</a>
                                                 </li>
                                             </ul>
                                         </div>
@@ -1187,7 +1187,7 @@ class ProductCards extends Component {
                             <a href="/#/page-layouts/pdp">
                                 <div class="product-card product-card-list-view">
                                     <div class="product-card-thumbnail">
-                                        <a href="javascript:void(0)"><img src="/images/design-system/fpo/product-cards/product-card-recommendations-3.jpg" alt="Samsung ENERGY STAR" /></a>
+                                        <a href="/#/page-layouts/pdp"><img src="/images/design-system/fpo/product-cards/product-card-recommendations-3.jpg" alt="Samsung ENERGY STAR" /></a>
                                         <div className="like-icon">
                                             <span className="icon heart" dangerouslySetInnerHTML={{ __html: heartfillImage }} />
                                             <div className="tooltip tooltip-single tooltip-top-right">
@@ -1221,7 +1221,7 @@ class ProductCards extends Component {
                                                     <span class="icon color-concrete-svg" dangerouslySetInnerHTML={{ __html: starImage }} />
                                                 </li>
                                                 <li class="star-ratings">
-                                                    <a href="javascript:void();" class="rating-count std-txt std-txt-S">99</a>
+                                                    <a href="/#/page-layouts/pdp" class="rating-count std-txt std-txt-S">99</a>
                                                 </li>
                                             </ul>
                                         </div>
