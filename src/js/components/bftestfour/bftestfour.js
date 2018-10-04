@@ -213,12 +213,12 @@ class BfTestFour extends Component {
                         <div className="product-card-wrapper product-card-wrapper-blackfriday" ref={(wrapper) => { this.wrapper = wrapper }} style={listStyle}>
                             <div className="chevron-wrapper">
                                 <a style={{ visibility: disableLeftArrow ? 'hidden' : 'visible' }}
-                                    href="javascript:void(0);"
+                                    href="/#/page-layouts/pdp"
                                     className="rec-zone-chevron-left hide-for-small-only hide-for-medium-only">
                                     {/* <span onClick={() => this.scrollCartridge(false)} className="icon chevron-icon" dangerouslySetInnerHTML={{ __html: ChevronLeftImage }} /> */}
                                 </a>
                                 <a style={{ visibility: disableRightArrow ? 'hidden' : 'visible' }}
-                                    href="javascript:void(0);"
+                                    href="/#/page-layouts/pdp"
                                     className="rec-zone-chevron-right hide-for-small-only hide-for-medium-only">
                                     {/* <span onClick={() => this.scrollCartridge(true)} className="icon chevron-icon" dangerouslySetInnerHTML={{ __html: ChevronRightImage }} /> */}
                                 </a>
@@ -230,7 +230,7 @@ class BfTestFour extends Component {
                             <div className="product-card-block" id="product-card-section" onScroll={isMobile ? () => this.listenScrollEvent() : ''}>
                                 <ul style={listStyle} className="listStyleClass">
                                     <li className="product-card">
-                                        <a href="javascript:void(0)" className="product-rec-zone" ref={(productPane) => { this.productPane = productPane }}>
+                                        <a href="/#/page-layouts/pdp" className="product-rec-zone" ref={(productPane) => { this.productPane = productPane }}>
                                             <div className="product-card-black">
 
                                                 <div className="product-card-thumbnail mrg-btm-S">
@@ -285,7 +285,7 @@ class BfTestFour extends Component {
 
                                     {/* <!-- 2rd col--> */}
                                     <li className="product-card">
-                                        <a href="javascript:void(0)" className="product-rec-zone" ref={(productPane) => { this.productPane = productPane }}>
+                                        <a href="/#/page-layouts/pdp" className="product-rec-zone" ref={(productPane) => { this.productPane = productPane }}>
                                             <div className="product-card-black">
 
                                                 <div className="product-card-thumbnail mrg-btm-S">
@@ -340,7 +340,7 @@ class BfTestFour extends Component {
 
                                     {/* <!-- 3rd col--> */}
                                     <li className="product-card">
-                                        <a href="javascript:void(0)" className="product-rec-zone" ref={(productPane) => { this.productPane = productPane }}>
+                                        <a href="/#/page-layouts/pdp" className="product-rec-zone" ref={(productPane) => { this.productPane = productPane }}>
                                             <div className="product-card-black">
 
                                                 <div className="product-card-thumbnail mrg-btm-S">
@@ -395,7 +395,7 @@ class BfTestFour extends Component {
 
                                     {/* <!-- 4rd col--> */}
                                     <li className="product-card">
-                                        <a href="javascript:void(0)" className="product-rec-zone" ref={(productPane) => { this.productPane = productPane }}>
+                                        <a href="/#/page-layouts/pdp" className="product-rec-zone" ref={(productPane) => { this.productPane = productPane }}>
                                             <div className="product-card-black">
 
                                                 <div className="product-card-thumbnail mrg-btm-S">
@@ -451,7 +451,7 @@ class BfTestFour extends Component {
 
                                     {/* <!-- 5rd col--> */}
                                     <li className="product-card">
-                                        <a href="javascript:void(0)" className="product-rec-zone" ref={(productPane) => { this.productPane = productPane }}>
+                                        <a href="/#/page-layouts/pdp" className="product-rec-zone" ref={(productPane) => { this.productPane = productPane }}>
                                             <div className="product-card-black">
 
                                                 <div className="product-card-thumbnail mrg-btm-S">
@@ -506,7 +506,7 @@ class BfTestFour extends Component {
 
                                     {/* <!-- 6rd col--> */}
                                     <li className="product-card">
-                                        <a href="javascript:void(0)" className="product-rec-zone" ref={(productPane) => { this.productPane = productPane }}>
+                                        <a href="/#/page-layouts/pdp" className="product-rec-zone" ref={(productPane) => { this.productPane = productPane }}>
                                             <div className="product-card-black">
 
                                                 <div className="product-card-thumbnail mrg-btm-S">
@@ -562,7 +562,7 @@ class BfTestFour extends Component {
 
                                     {/* <!-- 7rd col--> */}
                                     <li className="product-card">
-                                        <a href="javascript:void(0)" className="product-rec-zone" ref={(productPane) => { this.productPane = productPane }}>
+                                        <a href="/#/page-layouts/pdp" className="product-rec-zone" ref={(productPane) => { this.productPane = productPane }}>
                                             <div className="product-card-black">
 
                                                 <div className="product-card-thumbnail mrg-btm-S">
@@ -617,7 +617,7 @@ class BfTestFour extends Component {
 
                                     {/* <!-- 8rd col--> */}
                                     <li className="product-card">
-                                        <a href="javascript:void(0)" className="product-rec-zone" ref={(productPane) => { this.productPane = productPane }}>
+                                        <a href="/#/page-layouts/pdp" className="product-rec-zone" ref={(productPane) => { this.productPane = productPane }}>
                                             <div className="product-card-black">
 
                                                 <div className="product-card-thumbnail mrg-btm-S">
@@ -672,7 +672,7 @@ class BfTestFour extends Component {
 
                                     {/* <!-- 9rd col--> */}
                                     <li className="product-card">
-                                        <a href="javascript:void(0)" className="product-rec-zone" ref={(productPane) => { this.productPane = productPane }}>
+                                        <a href="/#/page-layouts/pdp" className="product-rec-zone" ref={(productPane) => { this.productPane = productPane }}>
                                             <div className="product-card-black">
 
                                                 <div className="product-card-thumbnail mrg-btm-S">
@@ -752,12 +752,12 @@ class BfTestFour extends Component {
                         <div className="product-card-wrapper product-card-wrapper-blackfriday" ref={(wrapper) => { this.wrapper = wrapper }} style={listStyle}>
                             <div className="chevron-wrapper">
                                 <a style={{ visibility: disableLeftArrow ? 'hidden' : 'visible' }}
-                                    href="javascript:void(0);"
+                                    href="/#/page-layouts/pdp"
                                     className="rec-zone-chevron-left hide-for-small-only hide-for-medium-only">
                                     {/* <span onClick={() => this.scrollCartridge(false)} className="icon chevron-icon" dangerouslySetInnerHTML={{ __html: ChevronLeftImage }} /> */}
                                 </a>
                                 <a style={{ visibility: disableRightArrow ? 'hidden' : 'visible' }}
-                                    href="javascript:void(0);"
+                                    href="/#/page-layouts/pdp"
                                     className="rec-zone-chevron-right hide-for-small-only hide-for-medium-only">
                                     {/* <span onClick={() => this.scrollCartridge(true)} className="icon chevron-icon" dangerouslySetInnerHTML={{ __html: ChevronRightImage }} /> */}
                                 </a>
@@ -769,7 +769,7 @@ class BfTestFour extends Component {
                             <div className="product-card-block" id="product-card-section" onScroll={isMobile ? () => this.listenScrollEvent() : ''}>
                                 <ul style={listStyle} className="listStyleClass">
                                     <li className="product-card">
-                                        <a href="javascript:void(0)" className="product-rec-zone" ref={(productPane) => { this.productPane = productPane }}>
+                                        <a href="/#/page-layouts/pdp" className="product-rec-zone" ref={(productPane) => { this.productPane = productPane }}>
                                             <div className="product-card-black">
 
                                                 <div className="product-card-thumbnail mrg-btm-S">
@@ -934,7 +934,7 @@ class BfTestFour extends Component {
 
                                     {/* <!-- 4rd col--> */}
                                     <li className="product-card">
-                                        <a href="javascript:void(0)" className="product-rec-zone" ref={(productPane) => { this.productPane = productPane }}>
+                                        <a href="/#/page-layouts/pdp" className="product-rec-zone" ref={(productPane) => { this.productPane = productPane }}>
                                             <div className="product-card-black">
 
                                                 <div className="product-card-thumbnail mrg-btm-S">
@@ -990,7 +990,7 @@ class BfTestFour extends Component {
 
                                     {/* <!-- 5rd col--> */}
                                     <li className="product-card">
-                                        <a href="javascript:void(0)" className="product-rec-zone" ref={(productPane) => { this.productPane = productPane }}>
+                                        <a href="/#/page-layouts/pdp" className="product-rec-zone" ref={(productPane) => { this.productPane = productPane }}>
                                             <div className="product-card-black">
 
                                                 <div className="product-card-thumbnail mrg-btm-S">
@@ -1045,7 +1045,7 @@ class BfTestFour extends Component {
 
                                     {/* <!-- 6rd col--> */}
                                     <li className="product-card">
-                                        <a href="javascript:void(0)" className="product-rec-zone" ref={(productPane) => { this.productPane = productPane }}>
+                                        <a href="/#/page-layouts/pdp" className="product-rec-zone" ref={(productPane) => { this.productPane = productPane }}>
                                             <div className="product-card-black">
 
                                                 <div className="product-card-thumbnail mrg-btm-S">
@@ -1101,7 +1101,7 @@ class BfTestFour extends Component {
 
                                     {/* <!-- 7rd col--> */}
                                     <li className="product-card">
-                                        <a href="javascript:void(0)" className="product-rec-zone" ref={(productPane) => { this.productPane = productPane }}>
+                                        <a href="/#/page-layouts/pdp" className="product-rec-zone" ref={(productPane) => { this.productPane = productPane }}>
                                             <div className="product-card-black">
 
                                                 <div className="product-card-thumbnail mrg-btm-S">
@@ -1156,7 +1156,7 @@ class BfTestFour extends Component {
 
                                     {/* <!-- 8rd col--> */}
                                     <li className="product-card">
-                                        <a href="javascript:void(0)" className="product-rec-zone" ref={(productPane) => { this.productPane = productPane }}>
+                                        <a href="/#/page-layouts/pdp" className="product-rec-zone" ref={(productPane) => { this.productPane = productPane }}>
                                             <div className="product-card-black">
 
                                                 <div className="product-card-thumbnail mrg-btm-S">
@@ -1211,7 +1211,7 @@ class BfTestFour extends Component {
 
                                     {/* <!-- 9rd col--> */}
                                     <li className="product-card">
-                                        <a href="javascript:void(0)" className="product-rec-zone" ref={(productPane) => { this.productPane = productPane }}>
+                                        <a href="/#/page-layouts/pdp" className="product-rec-zone" ref={(productPane) => { this.productPane = productPane }}>
                                             <div className="product-card-black">
 
                                                 <div className="product-card-thumbnail mrg-btm-S">
