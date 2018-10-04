@@ -16,7 +16,7 @@ class BFTestThree extends Component {
         <div class="black-headbanner">
         <div className="row">
         <div class="sm12 lg12 md12 xl12 xxl12 nopad text-center">
-            <a class="black-banner-image" href="javascript:void(0)">
+            <a class="black-banner-image" href="#/page-modules/product-cards">
               <img src="/images/design-system/blackfridaydeal.jpg" alt="blackFridayImg" /></a>
           </div>
           {/* <Header /> */}
