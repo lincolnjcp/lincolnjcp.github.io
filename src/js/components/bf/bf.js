@@ -38,7 +38,7 @@ class BF extends Component {
 
           <div class="bf-google-results">
             <div class="bf-google-results-title">
-              <a href="#">Bed & Bath Clearance: Comforter Sets & Discount Bedding - JCPenney</a>
+              <a href="/#/page-modules/bftestthree/">Bed & Bath Clearance: Comforter Sets & Discount Bedding - JCPenney</a>
             </div>
             <div class="bf-google-url">
               https://m.jcpenney.com › clearance-bed-a...

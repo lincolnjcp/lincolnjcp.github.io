@@ -19,6 +19,7 @@ import ProgressBar from '../components/progressbar';
 import BF from '../components/bf';
 import BFTestOne from '../components/bftestone';
 import BFTestTwo from '../components/bftesttwo';
+import BFTestThree from '../components/bftestthree';
 import BFTestFour from '../components/bftestfour';
 import styleAWithButton from '../components/styleawithbutton';
 import styleAWithoutButton from '../components/styleawithoutbutton';
@@ -105,6 +106,7 @@ class DesignSystemPage extends Component {
    BF: {componentElement: BF, componentDisplayName: "BF", componentSubNav: ['BF']},
    BFTestOne: {componentElement: BFTestOne, componentDisplayName: "BFTestOne", componentSubNav: ['BFTestOne']},
    BFTestTwo: {componentElement: BFTestTwo, componentDisplayName: "BFTestTwo", componentSubNav: ['BFTestTwo']},
+   BFTestThree: {componentElement: BFTestThree, componentDisplayName: "BFTestThree", componentSubNav: ['BFTestThree']},
    BFTestFour: {componentElement: BFTestFour, componentDisplayName: "BFTestFour", componentSubNav: ['BFTestFour']},
    styleAWithButton: {componentElement: styleAWithButton, componentDisplayName: "styleAWithButton", componentSubNav: ['styleAWithButton']},
    styleAWithoutButton: {componentElement: styleAWithoutButton, componentDisplayName: "styleAWithoutButton", componentSubNav: ['styleAWithoutButton']},
