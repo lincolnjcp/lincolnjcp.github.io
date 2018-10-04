@@ -191,7 +191,7 @@ class Pdp extends Component {
                                     </div>
                                 </div>
                             </div>
-                            <div className="select-form sm12 md6 lg6 xl6 nopad">
+                            <div className="select-form sm12 md6 lg6 xl6 nopad-md">
                                 <div className="select">
                                     <div className="form-float-label form-select2">
                                         <select className="form-control custom-select">
@@ -285,7 +285,7 @@ class Pdp extends Component {
                             <div className="sm12 md6 lg6 xl6 nopad">
                                 <a href="javascript:void();" role="button" className="btn btn-secondary btn-L mrg-btm-L sm12 md12 lg12 xl12 color-nightsky">Add to List</a>
                             </div>
-                            <div className="sm12 md6 lg6 xl6 nopad">
+                            <div className="sm12 md6 lg6 xl6 nopad-md">
                                 <a href="javascript:void();" role="button" className="btn btn-secondary btn-L mrg-btm-L sm12 md12 lg12 xl12 color-nightsky">Add to Registry</a>
                             </div>
                         </div>

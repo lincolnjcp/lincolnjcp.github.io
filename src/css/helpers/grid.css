@@ -1008,7 +1008,7 @@ img {
   }
 }
 .nopad-md {
-  @media (--viewport-md-only) {
+  @media (--viewport-md-only), (--viewport-md-down){
     padding: 0 !important;
     margin: 0 !important;
   }
