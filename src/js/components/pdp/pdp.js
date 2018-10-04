@@ -80,6 +80,15 @@ class Pdp extends Component {
             }
         })();
 
+        $(document).ready(function(){
+            $(this).scrollTop(0);
+            $(".design-system-content").css('padding', 0);
+            $(".design-system-enable-hide").css('display', 'none');
+            $('.design-system-nav-mobile-header').hide();
+            $(".design-system-wrap").css('margin', 0);
+            $(".main-menu").css('margin-bottom', '16px');
+        });
+
         $(function () {
             $(".form-select1 select").on('change', function () {
                 if ($(this).val() != " ") {

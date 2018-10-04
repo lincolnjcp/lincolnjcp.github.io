@@ -225,7 +225,7 @@ class RecommendationZone
                       <div className="product-card-recommendation">
 
                         <div className="product-card-thumbnail mrg-btm-S">
-                          <a href="javascript:void(0)">
+                          <a href="/#/page-layouts/pdp">
                             <img src='/images/design-system/fpo/product-cards/product-card-recommendations-1.jpg' alt="product-image" />
                           </a>
                         </div>
@@ -267,7 +267,7 @@ class RecommendationZone
                                   <span className="icon" dangerouslySetInnerHTML={{ __html: starImage }} />
                                 </li>
                                 <li className="star-ratings">
-                                  <a href="javascript:void();" className="rating-count rating-count-underline">99,999</a>
+                                  <a href="/#/page-layouts/pdp" className="rating-count rating-count-underline">99,999</a>
                                 </li>
                               </ul>
                             </div>
@@ -282,7 +282,7 @@ class RecommendationZone
                       <div className="product-card-recommendation">
 
                         <div className="product-card-thumbnail mrg-btm-S">
-                          <a href="javascript:void(0)">
+                          <a href="/#/page-layouts/pdp">
                             <img src='/images/design-system/fpo/product-cards/product-card-recommendations-2.jpg' alt="product-image" />
                           </a>
                         </div>
@@ -318,7 +318,7 @@ class RecommendationZone
                                   <span className="icon" dangerouslySetInnerHTML={{ __html: starImage }} />
                                 </li>
                                 <li className="star-ratings">
-                                  <a href="javascript:void();" className="rating-count rating-count-underline">99,999</a>
+                                  <a href="/#/page-layouts/pdp" className="rating-count rating-count-underline">99,999</a>
                                 </li>
                               </ul>
                             </div>
@@ -334,7 +334,7 @@ class RecommendationZone
                       <div className="product-card-recommendation">
 
                         <div className="product-card-thumbnail mrg-btm-S">
-                          <a href="javascript:void(0)">
+                          <a href="/#/page-layouts/pdp">
                             <img src='/images/design-system/fpo/product-cards/product-card-recommendations-3.jpg' alt="product-image" />
                           </a>
                         </div>
@@ -372,7 +372,7 @@ class RecommendationZone
                                   <span className="icon" dangerouslySetInnerHTML={{ __html: starImage }} />
                                 </li>
                                 <li className="star-ratings">
-                                  <a href="javascript:void();" className="rating-count rating-count-underline">99,999</a>
+                                  <a href="/#/page-layouts/pdp" className="rating-count rating-count-underline">99,999</a>
                                 </li>
                               </ul>
                             </div>
@@ -388,7 +388,7 @@ class RecommendationZone
                       <div className="product-card-recommendation">
 
                         <div className="product-card-thumbnail mrg-btm-S">
-                          <a href="javascript:void(0)">
+                          <a href="/#/page-layouts/pdp">
                             <img src='/images/design-system/fpo/product-cards/product-card-recommendations-4.jpg' alt="product-image" />
                           </a>
                         </div>
@@ -421,7 +421,7 @@ class RecommendationZone
                                   <span className="icon" dangerouslySetInnerHTML={{ __html: starImage }} />
                                 </li>
                                 <li className="star-ratings">
-                                  <a href="javascript:void();" className="rating-count rating-count-underline">99,999</a>
+                                  <a href="/#/page-layouts/pdp" className="rating-count rating-count-underline">99,999</a>
                                 </li>
                               </ul>
                             </div>
@@ -437,7 +437,7 @@ class RecommendationZone
                       <div className="product-card-recommendation">
 
                         <div className="product-card-thumbnail mrg-btm-S">
-                          <a href="javascript:void(0)">
+                          <a href="/#/page-layouts/pdp">
                             <img src='/images/design-system/fpo/product-cards/product-card-recommendations-5.jpg' alt="product-image" />
                           </a>
                         </div>
@@ -474,7 +474,7 @@ class RecommendationZone
                                   <span className="icon" dangerouslySetInnerHTML={{ __html: starImage }} />
                                 </li>
                                 <li className="star-ratings">
-                                  <a href="javascript:void();" className="rating-count rating-count-underline">99,999</a>
+                                  <a href="/#/page-layouts/pdp" className="rating-count rating-count-underline">99,999</a>
                                 </li>
                               </ul>
                             </div>
@@ -491,7 +491,7 @@ class RecommendationZone
                       <div className="product-card-recommendation">
 
                         <div className="product-card-thumbnail mrg-btm-S">
-                          <a href="javascript:void(0)">
+                          <a href="/#/page-layouts/pdp">
                             <img src='/images/design-system/fpo/product-cards/product-card-recommendations-6.jpg' alt="product-image" />
                           </a>
                         </div>
@@ -528,7 +528,7 @@ class RecommendationZone
                                   <span className="icon" dangerouslySetInnerHTML={{ __html: starImage }} />
                                 </li>
                                 <li className="star-ratings">
-                                  <a href="javascript:void();" className="rating-count rating-count-underline">99,999</a>
+                                  <a href="/#/page-layouts/pdp" className="rating-count rating-count-underline">99,999</a>
                                 </li>
                               </ul>
                             </div>
@@ -544,7 +544,7 @@ class RecommendationZone
                       <div className="product-card-recommendation">
 
                         <div className="product-card-thumbnail mrg-btm-S">
-                          <a href="javascript:void(0)">
+                          <a href="/#/page-layouts/pdp">
                             <img src='/images/design-system/fpo/product-cards/product-card-recommendations-7.jpg' alt="product-image" />
                           </a>
                         </div>
@@ -581,7 +581,7 @@ class RecommendationZone
                                   <span className="icon" dangerouslySetInnerHTML={{ __html: starImage }} />
                                 </li>
                                 <li className="star-ratings">
-                                  <a href="javascript:void();" className="rating-count rating-count-underline">99,999</a>
+                                  <a href="/#/page-layouts/pdp" className="rating-count rating-count-underline">99,999</a>
                                 </li>
                               </ul>
                             </div>
@@ -597,7 +597,7 @@ class RecommendationZone
                       <div className="product-card-recommendation">
 
                         <div className="product-card-thumbnail mrg-btm-S">
-                          <a href="javascript:void(0)">
+                          <a href="/#/page-layouts/pdp">
                             <img src='/images/design-system/fpo/product-cards/product-card-recommendations-8.jpg' alt="product-image" />
                           </a>
                         </div>
@@ -633,7 +633,7 @@ class RecommendationZone
                                   <span className="icon" dangerouslySetInnerHTML={{ __html: starImage }} />
                                 </li>
                                 <li className="star-ratings">
-                                  <a href="javascript:void();" className="rating-count rating-count-underline">99,999</a>
+                                  <a href="/#/page-layouts/pdp" className="rating-count rating-count-underline">99,999</a>
                                 </li>
                               </ul>
                             </div>
@@ -649,7 +649,7 @@ class RecommendationZone
                       <div className="product-card-recommendation">
 
                         <div className="product-card-thumbnail mrg-btm-S">
-                          <a href="javascript:void(0)">
+                          <a href="/#/page-layouts/pdp">
                             <img src='/images/design-system/fpo/product-cards/product-card-recommendations-1.jpg' alt="product-image" />
                           </a>
                         </div>
@@ -686,7 +686,7 @@ class RecommendationZone
                                   <span className="icon" dangerouslySetInnerHTML={{ __html: starImage }} />
                                 </li>
                                 <li className="star-ratings">
-                                  <a href="javascript:void();" className="rating-count rating-count-underline">99,999</a>
+                                  <a href="/#/page-layouts/pdp" className="rating-count rating-count-underline">99,999</a>
                                 </li>
                               </ul>
                             </div>
@@ -702,7 +702,7 @@ class RecommendationZone
                       <div className="product-card-recommendation">
 
                         <div className="product-card-thumbnail mrg-btm-S">
-                          <a href="javascript:void(0)">
+                          <a href="/#/page-layouts/pdp">
                             <img src='/images/design-system/fpo/product-cards/product-card-recommendations-2.jpg' alt="product-image" />
                           </a>
                         </div>
@@ -738,7 +738,7 @@ class RecommendationZone
                                   <span className="icon" dangerouslySetInnerHTML={{ __html: starImage }} />
                                 </li>
                                 <li className="star-ratings">
-                                  <a href="javascript:void();" className="rating-count rating-count-underline">99,999</a>
+                                  <a href="/#/page-layouts/pdp" className="rating-count rating-count-underline">99,999</a>
                                 </li>
                               </ul>
                             </div>
@@ -754,7 +754,7 @@ class RecommendationZone
                       <div className="product-card-recommendation">
 
                         <div className="product-card-thumbnail mrg-btm-S">
-                          <a href="javascript:void(0)">
+                          <a href="/#/page-layouts/pdp">
                             <img src='/images/design-system/fpo/product-cards/product-card-recommendations-3.jpg' alt="product-image" />
                           </a>
                         </div>
@@ -792,7 +792,7 @@ class RecommendationZone
                                   <span className="icon" dangerouslySetInnerHTML={{ __html: starImage }} />
                                 </li>
                                 <li className="star-ratings">
-                                  <a href="javascript:void();" className="rating-count rating-count-underline">99,999</a>
+                                  <a href="/#/page-layouts/pdp" className="rating-count rating-count-underline">99,999</a>
                                 </li>
                               </ul>
                             </div>
@@ -809,7 +809,7 @@ class RecommendationZone
                       <div className="product-card-recommendation">
 
                         <div className="product-card-thumbnail mrg-btm-S">
-                          <a href="javascript:void(0)">
+                          <a href="/#/page-layouts/pdp">
                             <img src='/images/design-system/fpo/product-cards/product-card-recommendations-4.jpg' alt="product-image" />
                           </a>
                         </div>
@@ -842,7 +842,7 @@ class RecommendationZone
                                   <span className="icon" dangerouslySetInnerHTML={{ __html: starImage }} />
                                 </li>
                                 <li className="star-ratings">
-                                  <a href="javascript:void();" className="rating-count rating-count-underline">99,999</a>
+                                  <a href="/#/page-layouts/pdp" className="rating-count rating-count-underline">99,999</a>
                                 </li>
                               </ul>
                             </div>
@@ -859,7 +859,7 @@ class RecommendationZone
                       <div className="product-card-recommendation">
 
                         <div className="product-card-thumbnail mrg-btm-S">
-                          <a href="javascript:void(0)">
+                          <a href="/#/page-layouts/pdp">
                             <img src='/images/design-system/fpo/product-cards/product-card-recommendations-5.jpg' alt="product-image" />
                           </a>
                         </div>
@@ -896,7 +896,7 @@ class RecommendationZone
                                   <span className="icon" dangerouslySetInnerHTML={{ __html: starImage }} />
                                 </li>
                                 <li className="star-ratings">
-                                  <a href="javascript:void();" className="rating-count rating-count-underline">99,999</a>
+                                  <a href="/#/page-layouts/pdp" className="rating-count rating-count-underline">99,999</a>
                                 </li>
                               </ul>
                             </div>
@@ -913,7 +913,7 @@ class RecommendationZone
                       <div className="product-card-recommendation">
 
                         <div className="product-card-thumbnail mrg-btm-S">
-                          <a href="javascript:void(0)">
+                          <a href="/#/page-layouts/pdp">
                             <img src='/images/design-system/fpo/product-cards/product-card-recommendations-6.jpg' alt="product-image" />
                           </a>
                         </div>
@@ -950,7 +950,7 @@ class RecommendationZone
                                   <span className="icon" dangerouslySetInnerHTML={{ __html: starImage }} />
                                 </li>
                                 <li className="star-ratings">
-                                  <a href="javascript:void();" className="rating-count rating-count-underline">99,999</a>
+                                  <a href="/#/page-layouts/pdp" className="rating-count rating-count-underline">99,999</a>
                                 </li>
                               </ul>
                             </div>
@@ -966,7 +966,7 @@ class RecommendationZone
                       <div className="product-card-recommendation">
 
                         <div className="product-card-thumbnail mrg-btm-S">
-                          <a href="javascript:void(0)">
+                          <a href="/#/page-layouts/pdp">
                             <img src='/images/design-system/fpo/product-cards/product-card-recommendations-7.jpg' alt="product-image" />
                           </a>
                         </div>
@@ -1003,7 +1003,7 @@ class RecommendationZone
                                   <span className="icon" dangerouslySetInnerHTML={{ __html: starImage }} />
                                 </li>
                                 <li className="star-ratings">
-                                  <a href="javascript:void();" className="rating-count rating-count-underline">99,999</a>
+                                  <a href="/#/page-layouts/pdp" className="rating-count rating-count-underline">99,999</a>
                                 </li>
                               </ul>
                             </div>
@@ -1019,7 +1019,7 @@ class RecommendationZone
                       <div className="product-card-recommendation">
 
                         <div className="product-card-thumbnail mrg-btm-S">
-                          <a href="javascript:void(0)">
+                          <a href="/#/page-layouts/pdp">
                             <img src='/images/design-system/fpo/product-cards/product-card-recommendations-8.jpg' alt="product-image" />
                           </a>
                         </div>
@@ -1055,7 +1055,7 @@ class RecommendationZone
                                   <span className="icon" dangerouslySetInnerHTML={{ __html: starImage }} />
                                 </li>
                                 <li className="star-ratings">
-                                  <a href="javascript:void();" className="rating-count rating-count-underline">99,999</a>
+                                  <a href="/#/page-layouts/pdp" className="rating-count rating-count-underline">99,999</a>
                                 </li>
                               </ul>
                             </div>

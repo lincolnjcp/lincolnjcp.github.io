@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import Header from '../header/header';
+import Footer from '../footer/footer';
 import RecommendationZone from '../recommendation-zone/recommendation-zone';
 import $ from 'jquery';
 
@@ -29,6 +31,16 @@ class ProductCards extends Component {
                 tooltip.html('Favorite');
             }
         });
+
+        $(document).ready(function () {
+            $(this).scrollTop(0);
+            $(".design-system-content").css('padding', 0);
+            $(".design-system-enable-hide").css('display', 'none');
+            $('.design-system-nav-mobile-header').hide();
+            $(".design-system-wrap").css('margin', 0);
+            $(".main-menu").css('margin-bottom', '16px');
+        });
+
 
         $(window).on("resize", function () {
             var gridYPos = 0;
@@ -73,6 +85,8 @@ class ProductCards extends Component {
     render() {
         return (
             <div>
+                <Header />
+                <div>
                 <div class="row">
                     <div class="sm12 columns">
                         <h2><strong>Product Panes Grid</strong></h2>
@@ -1243,6 +1257,8 @@ class ProductCards extends Component {
               </p>
                     </div>
                 </div>
+                </div>
+                <Footer />
             </div>
         );
     }
