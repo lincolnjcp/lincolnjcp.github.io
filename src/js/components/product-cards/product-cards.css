@@ -28,6 +28,9 @@
 .product-card {
 	position: relative;
 	display: inline-block;
+	& a {
+		text-decoration: none;
+	}
 	& .product-card-price {
 		font-size: 0 /* Eliminate extra space between price and note */
 	}

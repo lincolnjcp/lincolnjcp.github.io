@@ -221,7 +221,7 @@ class RecommendationZone
               <div className="product-card-block" id="product-card-section" onScroll={isMobile ? () => this.listenScrollEvent() : ''}>
                 <ul style={listStyle} className="listStyleClass">
                   <li className="product-card">
-                    <a href="javascript:void(0)" className="product-rec-zone" ref={(productPane) => { this.productPane = productPane }}>
+                    <a href="/#/page-layouts/pdp" className="product-rec-zone" ref={(productPane) => { this.productPane = productPane }}>
                       <div className="product-card-recommendation">
 
                         <div className="product-card-thumbnail mrg-btm-S">
@@ -278,7 +278,7 @@ class RecommendationZone
                   </li>
           {/* <!-- 2rd col--> */}
                   <li className="product-card">
-                    <a href="javascript:void(0)" className="product-rec-zone" ref={(productPane) => { this.productPane = productPane }}>
+                    <a href="/#/page-layouts/pdp" className="product-rec-zone" ref={(productPane) => { this.productPane = productPane }}>
                       <div className="product-card-recommendation">
 
                         <div className="product-card-thumbnail mrg-btm-S">
@@ -330,7 +330,7 @@ class RecommendationZone
 
 {/* <!-- 3rd col--> */}
                   <li className="product-card">
-                    <a href="javascript:void(0)" className="product-rec-zone" ref={(productPane) => { this.productPane = productPane }}>
+                    <a href="/#/page-layouts/pdp" className="product-rec-zone" ref={(productPane) => { this.productPane = productPane }}>
                       <div className="product-card-recommendation">
 
                         <div className="product-card-thumbnail mrg-btm-S">
@@ -384,7 +384,7 @@ class RecommendationZone
 
 {/* <!-- 4rd col--> */}
                   <li className="product-card">
-                    <a href="javascript:void(0)" className="product-rec-zone" ref={(productPane) => { this.productPane = productPane }}>
+                    <a href="/#/page-layouts/pdp" className="product-rec-zone" ref={(productPane) => { this.productPane = productPane }}>
                       <div className="product-card-recommendation">
 
                         <div className="product-card-thumbnail mrg-btm-S">
@@ -433,7 +433,7 @@ class RecommendationZone
 
   {/* <!-- 5rd col--> */}
   <li className="product-card">
-                    <a href="javascript:void(0)" className="product-rec-zone" ref={(productPane) => { this.productPane = productPane }}>
+                    <a href="/#/page-layouts/pdp" className="product-rec-zone" ref={(productPane) => { this.productPane = productPane }}>
                       <div className="product-card-recommendation">
 
                         <div className="product-card-thumbnail mrg-btm-S">
@@ -487,7 +487,7 @@ class RecommendationZone
 
   {/* <!-- 6rd col--> */}
   <li className="product-card">
-                    <a href="javascript:void(0)" className="product-rec-zone" ref={(productPane) => { this.productPane = productPane }}>
+                    <a href="/#/page-layouts/pdp" className="product-rec-zone" ref={(productPane) => { this.productPane = productPane }}>
                       <div className="product-card-recommendation">
 
                         <div className="product-card-thumbnail mrg-btm-S">
@@ -540,7 +540,7 @@ class RecommendationZone
 
   {/* <!-- 7rd col--> */}
   <li className="product-card">
-                    <a href="javascript:void(0)" className="product-rec-zone" ref={(productPane) => { this.productPane = productPane }}>
+                    <a href="/#/page-layouts/pdp" className="product-rec-zone" ref={(productPane) => { this.productPane = productPane }}>
                       <div className="product-card-recommendation">
 
                         <div className="product-card-thumbnail mrg-btm-S">
@@ -593,7 +593,7 @@ class RecommendationZone
 
   {/* <!-- 8rd col--> */}
   <li className="product-card">
-                    <a href="javascript:void(0)" className="product-rec-zone" ref={(productPane) => { this.productPane = productPane }}>
+                    <a href="/#/page-layouts/pdp" className="product-rec-zone" ref={(productPane) => { this.productPane = productPane }}>
                       <div className="product-card-recommendation">
 
                         <div className="product-card-thumbnail mrg-btm-S">
@@ -645,7 +645,7 @@ class RecommendationZone
 
   {/* <!-- 9rd col--> */}
   <li className="product-card">
-                    <a href="javascript:void(0)" className="product-rec-zone" ref={(productPane) => { this.productPane = productPane }}>
+                    <a href="/#/page-layouts/pdp" className="product-rec-zone" ref={(productPane) => { this.productPane = productPane }}>
                       <div className="product-card-recommendation">
 
                         <div className="product-card-thumbnail mrg-btm-S">
@@ -698,7 +698,7 @@ class RecommendationZone
 
   {/* <!-- 10rd col--> */}
                   <li className="product-card">
-                    <a href="javascript:void(0)" className="product-rec-zone" ref={(productPane) => { this.productPane = productPane }}>
+                    <a href="/#/page-layouts/pdp" className="product-rec-zone" ref={(productPane) => { this.productPane = productPane }}>
                       <div className="product-card-recommendation">
 
                         <div className="product-card-thumbnail mrg-btm-S">
@@ -750,7 +750,7 @@ class RecommendationZone
 
 {/* <!-- 11rd col--> */}
                   <li className="product-card">
-                    <a href="javascript:void(0)" className="product-rec-zone" ref={(productPane) => { this.productPane = productPane }}>
+                    <a href="/#/page-layouts/pdp" className="product-rec-zone" ref={(productPane) => { this.productPane = productPane }}>
                       <div className="product-card-recommendation">
 
                         <div className="product-card-thumbnail mrg-btm-S">
@@ -805,7 +805,7 @@ class RecommendationZone
 
 {/* <!-- 12rd col--> */}
                   <li className="product-card">
-                    <a href="javascript:void(0)" className="product-rec-zone" ref={(productPane) => { this.productPane = productPane }}>
+                    <a href="/#/page-layouts/pdp" className="product-rec-zone" ref={(productPane) => { this.productPane = productPane }}>
                       <div className="product-card-recommendation">
 
                         <div className="product-card-thumbnail mrg-btm-S">
@@ -855,7 +855,7 @@ class RecommendationZone
                
   {/* <!-- 13rd col--> */}
   <li className="product-card">
-                    <a href="javascript:void(0)" className="product-rec-zone" ref={(productPane) => { this.productPane = productPane }}>
+                    <a href="/#/page-layouts/pdp" className="product-rec-zone" ref={(productPane) => { this.productPane = productPane }}>
                       <div className="product-card-recommendation">
 
                         <div className="product-card-thumbnail mrg-btm-S">
@@ -909,7 +909,7 @@ class RecommendationZone
 
   {/* <!-- 14rd col--> */}
   <li className="product-card">
-                    <a href="javascript:void(0)" className="product-rec-zone" ref={(productPane) => { this.productPane = productPane }}>
+                    <a href="/#/page-layouts/pdp" className="product-rec-zone" ref={(productPane) => { this.productPane = productPane }}>
                       <div className="product-card-recommendation">
 
                         <div className="product-card-thumbnail mrg-btm-S">
@@ -962,7 +962,7 @@ class RecommendationZone
 
   {/* <!-- 15rd col--> */}
   <li className="product-card">
-                    <a href="javascript:void(0)" className="product-rec-zone" ref={(productPane) => { this.productPane = productPane }}>
+                    <a href="/#/page-layouts/pdp" className="product-rec-zone" ref={(productPane) => { this.productPane = productPane }}>
                       <div className="product-card-recommendation">
 
                         <div className="product-card-thumbnail mrg-btm-S">
@@ -1015,7 +1015,7 @@ class RecommendationZone
             
   {/* <!-- 16rd col--> */}
   <li className="product-card">
-                    <a href="javascript:void(0)" className="product-rec-zone" ref={(productPane) => { this.productPane = productPane }}>
+                    <a href="/#/page-layouts/pdp" className="product-rec-zone" ref={(productPane) => { this.productPane = productPane }}>
                       <div className="product-card-recommendation">
 
                         <div className="product-card-thumbnail mrg-btm-S">
