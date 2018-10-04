@@ -4,10 +4,18 @@ import React, { Component } from 'react';
 import Header from '../header/header';
 import Footer from '../footer/footer';
 
+import $ from 'jquery';
+
 class BFTestTwo extends Component {
 
   componentDidMount() {
-  }
+    $( document ).ready(function() {
+      $(".design-system-content").css('padding',0);
+      $(".design-system-enable-hide").css('display', 'none');
+      $('.design-system-nav-mobile-header').hide();
+      $(".design-system-wrap").css('margin',0);
+  });
+}
 
   render() {
     return (
