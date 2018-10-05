@@ -306,10 +306,12 @@ class ProductCards extends Component {
                                         </div>
                                         <div class="product-card-details">
                                             <div class="promo-lbl promo-lbl-XS mrg-btm-XS color-penneyred">GREEN MONDAL DEAL!</div>
-                                            <div class="price price-M flag flag-price"><sup class="sup-text">$</sup>29<sup class="sup-text">99</sup></div>
-                                            <span class="price price-note color-penneyred after-coupon">after coupon</span>
-                                            <div class="price price-note-M std-txt mrg-top-XS">
-                                                <span class="mrg-rght-S">was $74</span><span> 41% off</span>
+                                            <div class="price price-M">
+                                                <div class="price price-M flag flag-price"><sup class="sup-text">$</sup>14<sup class="sup-text">99</sup></div>
+                                                <span class="price price-note color-penneyred after-coupon-wrap">after coupon</span>
+                                                <div class="price price-note-M std-txt mrg-top-XS">
+                                                    <span class="mrg-rght-S">was $6- $48</span>
+                                                </div>
                                             </div>
                                             <div class="product-card-name-wrap">
                                                 <a href="/#/page-layouts/pdp" class="product-card-name std-txt std-txt-S std-txt-XS-at-S color-nightsky">Lorem Ipsumd Dolor Sit Amet Consec Ter Adpisicing Alit…</a>
@@ -383,7 +385,13 @@ class ProductCards extends Component {
                                         </div>
                                         <div class="product-card-details">
                                             <div class="promo-lbl promo-lbl-XS mrg-btm-XS color-penneyred">GREEN MONDAL DEAL!</div>
-                                            <div class="price price-M"><span class="title title-XS from-label">from</span><sup class="sup-text">$</sup>33<sup class="sup-text">99</sup></div>
+                                            <div class="price price-M">
+                                                <div class="price price-M flag flag-price"><sup class="sup-text">$</sup>14<sup class="sup-text">99</sup></div>
+                                                <span class="price price-note color-penneyred after-coupon-wrap">after coupon</span>
+                                                <div class="price price-note-M std-txt mrg-top-XS">
+                                                    <span class="mrg-rght-S">was $6- $48</span>
+                                                </div>
+                                            </div>
                                             <div class="product-card-name-wrap">
                                                 <a href="/#/page-layouts/pdp" class="product-card-name std-txt std-txt-S std-txt-XS-at-S color-nightsky">Lorem Ipsumd Dolor Sit Amet Consec Ter Adpisicing Alit…</a>
                                             </div>
@@ -458,13 +466,7 @@ class ProductCards extends Component {
                                         <div class="product-card-details">
                                             <div class="promo-lbl promo-lbl-XS mrg-btm-XS color-penneyred">GREEN MONDAL DEAL!</div>
                                             <div class="price price-M">
-                                                <span class="mrg-rght-XS">
-                                                    <span class="title title-XS from-label">from</span><sup class="sup-text">$</sup>33<sup class="sup-text">99</sup>
-                                                </span>
-                                                <span class="price price-note color-penneyred clearance">clearance</span>
-                                            </div>
-                                            <div class="price price-note-M std-txt">
-                                                <span class="mrg-rght-S">was $74.99 - $99.99</span>
+                                                <sup class="sup-text">$</sup>16 - <sup class="sup-text">$</sup>550
                                             </div>
                                             <div class="product-card-name-wrap">
                                                 <a href="/#/page-layouts/pdp" class="product-card-name std-txt std-txt-S std-txt-XS-at-S color-nightsky">Lorem Ipsumd Dolor Sit Amet Consec Ter Adpisicing Alit…</a>
@@ -539,8 +541,8 @@ class ProductCards extends Component {
                                         </div>
                                         <div class="product-card-details">
                                             <div class="promo-lbl promo-lbl-XS mrg-btm-XS color-penneyred">GREEN MONDAL DEAL!</div>
-                                            <span class="title title-XS from-label">from</span>
-                                            <div class="price price-M flag flag-price"><sup class="sup-text">$</sup>29<sup class="sup-text">99</sup></div>
+                                            <span class="title title-XS from-label color-penneyred">from</span>
+                                            <div class="price price-M flag flag-price"><sup class="sup-text">$</sup>2<sup class="sup-text">99</sup></div>
                                             <span class="price price-note color-penneyred after-coupon">after coupon</span>
                                             <div class="price price-note-M std-txt mrg-top-XS">
                                                 <span class="mrg-rght-S">was $74.99 - $99.99</span>
@@ -620,10 +622,7 @@ class ProductCards extends Component {
                                         <div class="product-card-details">
                                             <div class="promo-lbl promo-lbl-XS mrg-btm-XS color-penneyred">GREEN MONDAL DEAL!</div>
                                             <div class="price price-M mrg-btm-XS">
-                                                <span class="mrg-rght-XS">
-                                                    <span class="title title-XS from-label">from</span><sup class="sup-text">$</sup>33<sup class="sup-text">99</sup>
-                                                </span>
-                                                <span class="price price-note clearance">each</span>
+                                                <sup class="sup-text">$</sup>16 - <sup class="sup-text">$</sup>240
                                             </div>
                                             <div class="product-card-name-wrap">
                                                 <a href="/#/page-layouts/pdp" class="product-card-name std-txt std-txt-S std-txt-XS-at-S color-nightsky">Lorem Ipsumd Dolor Sit Amet Consec Ter Adpisicing Alit…</a>
@@ -700,11 +699,16 @@ class ProductCards extends Component {
                                         </div>
                                         <div class="product-card-details">
                                             <div class="promo-lbl promo-lbl-XS mrg-btm-XS color-penneyred">GREEN MONDAL DEAL!</div>
-                                            <div class="price price-M color-penneyred"><span class="title title-XS from-label">packages from</span><sup class="sup-text">$</sup>9,999<sup class="sup-text">99</sup>
+                                            <div class="price price-M">
+                                                <span class="mrg-rght-XS">
+                                                <sup class="sup-text-S">$</sup>11<sup class="sup-text-S">99</sup>
+                                                <span data-automation-id="at-price-label" className="sale">sale</span>
+                                                </span>
                                             </div>
                                             <div class="price price-note-M std-txt">
-                                                <span class="mrg-rght-S">was $9,999 - $9,999</span>
+                                                <span class="mrg-rght-S">was $14.99 | 20% off</span>
                                             </div>
+                                           
                                             <div class="product-card-name-wrap">
                                                 <a href="/#/page-layouts/pdp" class="product-card-name std-txt std-txt-S std-txt-XS-at-S color-nightsky">Lorem Ipsumd Dolor Sit Amet Consec Ter Adpisicing Alit…</a>
                                             </div>

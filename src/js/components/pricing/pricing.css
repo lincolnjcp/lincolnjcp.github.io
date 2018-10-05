@@ -198,7 +198,19 @@
     margin-right: 2px;
     display: inline-block;
     vertical-align: top;
+
+    @media (--viewport-md-down) {
+         width: auto;
+    }
 }
+
+.after-coupon-wrap {
+    width: 55px;
+    margin-right: 2px;
+    display: inline-block;
+    vertical-align: top;
+}
+
 .from-label {
     display: inline-block;
     font-weight: 500;
@@ -207,8 +219,8 @@
     margin-right: 6px;
 
     @media (--viewport-md-down) {
-        /* top: 3px;
-        margin-right: 3px; */
+        top: 1px;
+        margin-right: 3px;
     }
 }
 
