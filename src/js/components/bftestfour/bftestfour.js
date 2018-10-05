@@ -796,7 +796,7 @@ class BfTestFour extends Component {
                                                 <div className="price price-note std-txt mrg-top-XS">
                                                     <div class="price price-XS color-penneyred black-productcard">
                                                         <span class="mrg-rght-XS">
-                                                            <sup class="sup-text-XS">$</sup>9<sup class="sup-text-XS">99</sup>
+                                                            <sup class="sup-text-XS">$</sup>29<sup class="sup-text-XS">99</sup>
                                                         </span>
                                                         <span class="price price-note color-penneyred after-coupon std-text">BLACK FRIDAY DEAL</span>
                                                     </div>
@@ -851,7 +851,7 @@ class BfTestFour extends Component {
                                                 <div className="price price-note std-txt mrg-top-XS">
                                                     <div class="price price-XS color-penneyred black-productcard">
                                                         <span class="mrg-rght-XS">
-                                                            <sup class="sup-text-XS">$</sup>29<sup class="sup-text-XS">99</sup>
+                                                            <sup class="sup-text-XS">$</sup>9<sup class="sup-text-XS">99</sup>
                                                         </span>
                                                         <span class="price price-note color-penneyred clearance std-text">sale</span>
                                                         <span class="price price-note color-penneyred after-coupon std-text">BLACK FRIDAY DEAL</span>
