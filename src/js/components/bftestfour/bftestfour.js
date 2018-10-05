@@ -92,12 +92,12 @@ class BfTestFour extends Component {
 
     componentDidMount() {
         this.listenScrollEvent = this.listenScrollEvent.bind(this);
-        $( document ).ready(function() {
+        $(document).ready(function () {
             $(this).scrollTop(0);
-            $(".design-system-content").css('padding',0);
+            $(".design-system-content").css('padding', 0);
             $(".design-system-enable-hide").css('display', 'none');
             $('.design-system-nav-mobile-header').hide();
-            $(".design-system-wrap").css('margin',0);
+            $(".design-system-wrap").css('margin', 0);
         });
     }
 
@@ -210,1375 +210,1378 @@ class BfTestFour extends Component {
 
         return (
             <div>
-                   <Header />
-                   <div >
-                <div class="row black-columns mrg-top-L">
-                    <div class="sm12 columns">
-                        <h2 class="title title-M mrg-btm-M fl-left">Black Friday Deals for Home</h2>
-                        <p class="std-txt std-txt-S fl-right"><a href="">view all</a></p>
-                    </div>
-
-                    <div className="sm12 columns nopad">
-                        <div className="product-card-wrapper product-card-wrapper-blackfriday" ref={(wrapper) => { this.wrapper = wrapper }} style={listStyle}>
-                            <div className="chevron-wrapper">
-                                <a style={{ visibility: disableLeftArrow ? 'hidden' : 'visible' }}
-                                    href="/#/page-layouts/pdp"
-                                    className="rec-zone-chevron-left hide-for-small-only hide-for-medium-only">
-                                    {/* <span onClick={() => this.scrollCartridge(false)} className="icon chevron-icon" dangerouslySetInnerHTML={{ __html: ChevronLeftImage }} /> */}
-                                </a>
-                                <a style={{ visibility: disableRightArrow ? 'hidden' : 'visible' }}
-                                    href="/#/page-layouts/pdp"
-                                    className="rec-zone-chevron-right hide-for-small-only hide-for-medium-only">
-                                    {/* <span onClick={() => this.scrollCartridge(true)} className="icon chevron-icon" dangerouslySetInnerHTML={{ __html: ChevronRightImage }} /> */}
-                                </a>
-
-                                {this.state.currentDotIndex == 1 ? '' : mobLeftFade}
-                                {this.state.currentDotIndex == this.state.dotNodes.length ? '' : mobRightFade}
-
-                            </div>
-                            <div className="product-card-block" id="product-card-section" onScroll={isMobile ? () => this.listenScrollEvent() : ''}>
-                                <ul style={listStyle} className="listStyleClass">
-                                    <li className="product-card">
-                                        <a href="/#/page-layouts/pdp" className="product-rec-zone" ref={(productPane) => { this.productPane = productPane }}>
-                                            <div className="product-card-black">
-
-                                                <div className="product-card-thumbnail mrg-btm-S">
-                                                    <a href="/#/page-layouts/pdp">
-                                                        <img src='/images/design-system/fpo/product-cards/product-card-recommendations-1.jpg' alt="product-image" />
-                                                    </a>
-                                                </div>
-                                                <div>
-                                                    <span>
-                                                    </span>
-                                                </div>
-
-                                                <div className="price price-note std-txt mrg-top-XS">
-                                                    <div class="price price-XS color-penneyred black-productcard">
-                                                        <span class="mrg-rght-XS">
-                                                            <sup class="sup-text-XS">$</sup>29<sup class="sup-text-XS">99</sup>
-                                                        </span>
-                                                        <span class="price price-note color-penneyred after-coupon std-text">BLACK FRIDAY DEAL</span>
-                                                    </div>
-                                                </div>
-                                                <div className="std-txt std-txt-XS color-slate">
-                                                    Nicole Miller Double Strap P…
-                         </div>
-
-                                                <div className="ratings-and-reviews">
-                                                    <div className="ratings-and-reviews-stars mrg-rght-XS">
-                                                        <div className="star-preview-col fl-right">
-                                                            <ul className="star-ratings-S">
-                                                                <li className="star-ratings start-ratings-full">
-                                                                    <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
-                                                                </li>
-                                                                <li className="star-ratings start-ratings-full">
-                                                                    <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
-                                                                </li>
-                                                                <li className="star-ratings start-ratings-full">
-                                                                    <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
-                                                                </li>
-                                                                <li className="star-ratings start-ratings-half">
-                                                                    <span className="icon" dangerouslySetInnerHTML={{ __html: starhalfImage }} />
-                                                                </li>
-                                                                <li className="star-ratings star-rating-empty color-concrete-svg">
-                                                                    <span className="icon" dangerouslySetInnerHTML={{ __html: starImage }} />
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <a href="javascript:void();" role="button" class="btn btn-secondary btn-S mrg-btm-M mrg-top-XS quick-btn">Quick View</a>
-                                            </div>
-                                        </a>
-                                    </li>
-
-                                    {/* <!-- 2rd col--> */}
-                                    <li className="product-card">
-                                        <a href="/#/page-layouts/pdp" className="product-rec-zone" ref={(productPane) => { this.productPane = productPane }}>
-                                            <div className="product-card-black">
-
-                                                <div className="product-card-thumbnail mrg-btm-S">
-                                                    <a href="/#/page-layouts/pdp">
-                                                        <img src='/images/design-system/fpo/product-cards/product-card-recommendations-2.jpg' alt="product-image" />
-                                                    </a>
-                                                </div>
-                                                <div>
-                                                    <span>
-                                                    </span>
-                                                </div>
-
-                                                <div className="price price-note std-txt mrg-top-XS">
-                                                    <div class="price price-XS color-penneyred black-productcard">
-                                                        <span class="mrg-rght-XS">
-                                                            <sup class="sup-text-XS">$</sup>9<sup class="sup-text-XS">99</sup>
-                                                        </span>
-                                                        <span class="price price-note color-penneyred after-coupon std-text">BLACK FRIDAY DEAL</span>
-                                                    </div>
-                                                </div>
-                                                <div className="std-txt std-txt-XS color-slate">
-                                                    Nicole Miller Double Strap P…
-                         </div>
-
-                                                <div className="ratings-and-reviews">
-                                                    <div className="ratings-and-reviews-stars mrg-rght-XS">
-                                                        <div className="star-preview-col fl-right">
-                                                            <ul className="star-ratings-S">
-                                                                <li className="star-ratings start-ratings-full">
-                                                                    <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
-                                                                </li>
-                                                                <li className="star-ratings start-ratings-full">
-                                                                    <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
-                                                                </li>
-                                                                <li className="star-ratings start-ratings-full">
-                                                                    <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
-                                                                </li>
-                                                                <li className="star-ratings start-ratings-half">
-                                                                    <span className="icon" dangerouslySetInnerHTML={{ __html: starhalfImage }} />
-                                                                </li>
-                                                                <li className="star-ratings star-rating-empty color-concrete-svg">
-                                                                    <span className="icon" dangerouslySetInnerHTML={{ __html: starImage }} />
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <a href="javascript:void();" role="button" class="btn btn-secondary btn-S mrg-btm-M mrg-top-XS quick-btn">Quick View</a>
-                                            </div>
-                                        </a>
-                                    </li>
-
-                                    {/* <!-- 3rd col--> */}
-                                    <li className="product-card">
-                                        <a href="/#/page-layouts/pdp" className="product-rec-zone" ref={(productPane) => { this.productPane = productPane }}>
-                                            <div className="product-card-black">
-
-                                                <div className="product-card-thumbnail mrg-btm-S">
-                                                    <a href="/#/page-layouts/pdp">
-                                                        <img src='/images/design-system/fpo/product-cards/product-card-recommendations-3.jpg' alt="product-image" />
-                                                    </a>
-                                                </div>
-                                                <div>
-                                                    <span>
-                                                    </span>
-                                                </div>
-
-                                                <div className="price price-note std-txt mrg-top-XS">
-                                                    <div class="price price-XS color-penneyred black-productcard">
-                                                        <span class="mrg-rght-XS">
-                                                            <sup class="sup-text-XS">$</sup>9<sup class="sup-text-XS">99</sup>
-                                                        </span>
-                                                        <span class="price price-note color-penneyred clearance std-text">sale</span>
-                                                        <span class="price price-note color-penneyred after-coupon std-text"> BLACK FRIDAY DEAL</span>
-                                                       
-                                                    </div>
-                                                </div>
-                                                <div className="std-txt std-txt-XS color-slate">
-                                                    Nicole Miller Double Strap P…
-                         </div>
-
-                                                <div className="ratings-and-reviews">
-                                                    <div className="ratings-and-reviews-stars mrg-rght-XS">
-                                                        <div className="star-preview-col fl-right">
-                                                            <ul className="star-ratings-S">
-                                                                <li className="star-ratings start-ratings-full">
-                                                                    <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
-                                                                </li>
-                                                                <li className="star-ratings start-ratings-full">
-                                                                    <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
-                                                                </li>
-                                                                <li className="star-ratings start-ratings-full">
-                                                                    <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
-                                                                </li>
-                                                                <li className="star-ratings start-ratings-half">
-                                                                    <span className="icon" dangerouslySetInnerHTML={{ __html: starhalfImage }} />
-                                                                </li>
-                                                                <li className="star-ratings star-rating-empty color-concrete-svg">
-                                                                    <span className="icon" dangerouslySetInnerHTML={{ __html: starImage }} />
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <a href="javascript:void();" role="button" class="btn btn-secondary btn-S mrg-btm-M mrg-top-XS quick-btn">Quick View</a>
-                                            </div>
-                                        </a>
-                                    </li>
-
-                                    {/* <!-- 4rd col--> */}
-                                    <li className="product-card">
-                                        <a href="/#/page-layouts/pdp" className="product-rec-zone" ref={(productPane) => { this.productPane = productPane }}>
-                                            <div className="product-card-black">
-
-                                                <div className="product-card-thumbnail mrg-btm-S">
-                                                    <a href="/#/page-layouts/pdp">
-                                                        <img src='/images/design-system/fpo/product-cards/product-card-recommendations-4.jpg' alt="product-image" />
-                                                    </a>
-                                                </div>
-                                                <div>
-                                                    <span>
-                                                    </span>
-                                                </div>
-
-                                                <div className="price price-note std-txt mrg-top-XS">
-                                                    <div class="price price-XS color-penneyred black-productcard">
-                                                        <span class="mrg-rght-XS">
-                                                            <sup class="sup-text-XS">$</sup>29<sup class="sup-text-XS">99</sup>
-                                                        </span>
-                                                        <span class="price price-note color-penneyred after-coupon std-text">BLACK FRIDAY DEAL</span>
-                                                    </div>
-                                                </div>
-                                                <div className="std-txt std-txt-XS color-slate">
-                                                    Nicole Miller Double Strap P…
-                         </div>
-
-                                                <div className="ratings-and-reviews">
-                                                    <div className="ratings-and-reviews-stars mrg-rght-XS">
-                                                        <div className="star-preview-col fl-right">
-                                                            <ul className="star-ratings-S">
-                                                                <li className="star-ratings start-ratings-full">
-                                                                    <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
-                                                                </li>
-                                                                <li className="star-ratings start-ratings-full">
-                                                                    <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
-                                                                </li>
-                                                                <li className="star-ratings start-ratings-full">
-                                                                    <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
-                                                                </li>
-                                                                <li className="star-ratings start-ratings-half">
-                                                                    <span className="icon" dangerouslySetInnerHTML={{ __html: starhalfImage }} />
-                                                                </li>
-                                                                <li className="star-ratings star-rating-empty color-concrete-svg">
-                                                                    <span className="icon" dangerouslySetInnerHTML={{ __html: starImage }} />
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <a href="javascript:void();" role="button" class="btn btn-secondary btn-S mrg-btm-M mrg-top-XS quick-btn">Quick View</a>
-                                            </div>
-                                        </a>
-                                    </li>
-
-
-                                    {/* <!-- 5rd col--> */}
-                                    <li className="product-card">
-                                        <a href="/#/page-layouts/pdp" className="product-rec-zone" ref={(productPane) => { this.productPane = productPane }}>
-                                            <div className="product-card-black">
-
-                                                <div className="product-card-thumbnail mrg-btm-S">
-                                                    <a href="/#/page-layouts/pdp">
-                                                        <img src='/images/design-system/fpo/product-cards/product-card-recommendations-5.jpg' alt="product-image" />
-                                                    </a>
-                                                </div>
-                                                <div>
-                                                    <span>
-                                                    </span>
-                                                </div>
-
-                                                <div className="price price-note std-txt mrg-top-XS">
-                                                    <div class="price price-XS color-penneyred black-productcard">
-                                                        <span class="mrg-rght-XS">
-                                                            <sup class="sup-text-XS">$</sup>9<sup class="sup-text-XS">99</sup>
-                                                        </span>
-                                                        <span class="price price-note color-penneyred after-coupon std-text">BLACK FRIDAY DEAL</span>
-                                                    </div>
-                                                </div>
-                                                <div className="std-txt std-txt-XS color-slate">
-                                                    Nicole Miller Double Strap P…
-                         </div>
-
-                                                <div className="ratings-and-reviews">
-                                                    <div className="ratings-and-reviews-stars mrg-rght-XS">
-                                                        <div className="star-preview-col fl-right">
-                                                            <ul className="star-ratings-S">
-                                                                <li className="star-ratings start-ratings-full">
-                                                                    <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
-                                                                </li>
-                                                                <li className="star-ratings start-ratings-full">
-                                                                    <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
-                                                                </li>
-                                                                <li className="star-ratings start-ratings-full">
-                                                                    <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
-                                                                </li>
-                                                                <li className="star-ratings start-ratings-half">
-                                                                    <span className="icon" dangerouslySetInnerHTML={{ __html: starhalfImage }} />
-                                                                </li>
-                                                                <li className="star-ratings star-rating-empty color-concrete-svg">
-                                                                    <span className="icon" dangerouslySetInnerHTML={{ __html: starImage }} />
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <a href="javascript:void();" role="button" class="btn btn-secondary btn-S mrg-btm-M mrg-top-XS quick-btn">Quick View</a>
-                                            </div>
-                                        </a>
-                                    </li>
-
-                                    {/* <!-- 6rd col--> */}
-                                    <li className="product-card">
-                                        <a href="/#/page-layouts/pdp" className="product-rec-zone" ref={(productPane) => { this.productPane = productPane }}>
-                                            <div className="product-card-black">
-
-                                                <div className="product-card-thumbnail mrg-btm-S">
-                                                    <a href="/#/page-layouts/pdp">
-                                                        <img src='/images/design-system/fpo/product-cards/product-card-recommendations-6.jpg' alt="product-image" />
-                                                    </a>
-                                                </div>
-                                                <div>
-                                                    <span>
-                                                    </span>
-                                                </div>
-
-                                                <div className="price price-note std-txt mrg-top-XS">
-                                                    <div class="price price-XS color-penneyred black-productcard">
-                                                        <span class="mrg-rght-XS">
-                                                            <sup class="sup-text-XS">$</sup>9<sup class="sup-text-XS">99</sup>
-                                                        </span>
-                                                        <span class="price price-note color-penneyred after-coupon std-text">BLACK FRIDAY DEAL</span>
-                                                    </div>
-                                                </div>
-                                                <div className="std-txt std-txt-XS color-slate">
-                                                    Nicole Miller Double Strap P…
-                         </div>
-
-                                                <div className="ratings-and-reviews">
-                                                    <div className="ratings-and-reviews-stars mrg-rght-XS">
-                                                        <div className="star-preview-col fl-right">
-                                                            <ul className="star-ratings-S">
-                                                                <li className="star-ratings start-ratings-full">
-                                                                    <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
-                                                                </li>
-                                                                <li className="star-ratings start-ratings-full">
-                                                                    <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
-                                                                </li>
-                                                                <li className="star-ratings start-ratings-full">
-                                                                    <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
-                                                                </li>
-                                                                <li className="star-ratings start-ratings-half">
-                                                                    <span className="icon" dangerouslySetInnerHTML={{ __html: starhalfImage }} />
-                                                                </li>
-                                                                <li className="star-ratings star-rating-empty color-concrete-svg">
-                                                                    <span className="icon" dangerouslySetInnerHTML={{ __html: starImage }} />
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <a href="javascript:void();" role="button" class="btn btn-secondary btn-S mrg-btm-M mrg-top-XS quick-btn">Quick View</a>
-                                            </div>
-                                        </a>
-                                    </li>
-
-
-                                    {/* <!-- 7rd col--> */}
-                                    <li className="product-card">
-                                        <a href="/#/page-layouts/pdp" className="product-rec-zone" ref={(productPane) => { this.productPane = productPane }}>
-                                            <div className="product-card-black">
-
-                                                <div className="product-card-thumbnail mrg-btm-S">
-                                                    <a href="/#/page-layouts/pdp">
-                                                        <img src='/images/design-system/fpo/product-cards/product-card-recommendations-7.jpg' alt="product-image" />
-                                                    </a>
-                                                </div>
-                                                <div>
-                                                    <span>
-                                                    </span>
-                                                </div>
-
-                                                <div className="price price-note std-txt mrg-top-XS">
-                                                    <div class="price price-XS color-penneyred black-productcard">
-                                                        <span class="mrg-rght-XS">
-                                                            <sup class="sup-text-XS">$</sup>29<sup class="sup-text-XS">99</sup>
-                                                        </span>
-                                                        <span class="price price-note color-penneyred after-coupon std-text">BLACK FRIDAY DEAL</span>
-                                                    </div>
-                                                </div>
-                                                <div className="std-txt std-txt-XS color-slate">
-                                                    Nicole Miller Double Strap P…
-                         </div>
-
-                                                <div className="ratings-and-reviews">
-                                                    <div className="ratings-and-reviews-stars mrg-rght-XS">
-                                                        <div className="star-preview-col fl-right">
-                                                            <ul className="star-ratings-S">
-                                                                <li className="star-ratings start-ratings-full">
-                                                                    <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
-                                                                </li>
-                                                                <li className="star-ratings start-ratings-full">
-                                                                    <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
-                                                                </li>
-                                                                <li className="star-ratings start-ratings-full">
-                                                                    <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
-                                                                </li>
-                                                                <li className="star-ratings start-ratings-half">
-                                                                    <span className="icon" dangerouslySetInnerHTML={{ __html: starhalfImage }} />
-                                                                </li>
-                                                                <li className="star-ratings star-rating-empty color-concrete-svg">
-                                                                    <span className="icon" dangerouslySetInnerHTML={{ __html: starImage }} />
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <a href="javascript:void();" role="button" class="btn btn-secondary btn-S mrg-btm-M mrg-top-XS quick-btn">Quick View</a>
-                                            </div>
-                                        </a>
-                                    </li>
-
-                                    {/* <!-- 8rd col--> */}
-                                    <li className="product-card">
-                                        <a href="/#/page-layouts/pdp" className="product-rec-zone" ref={(productPane) => { this.productPane = productPane }}>
-                                            <div className="product-card-black">
-
-                                                <div className="product-card-thumbnail mrg-btm-S">
-                                                    <a href="/#/page-layouts/pdp">
-                                                        <img src='/images/design-system/fpo/product-cards/product-card-recommendations-8.jpg' alt="product-image" />
-                                                    </a>
-                                                </div>
-                                                <div>
-                                                    <span>
-                                                    </span>
-                                                </div>
-
-                                                <div className="price price-note std-txt mrg-top-XS">
-                                                    <div class="price price-XS color-penneyred black-productcard">
-                                                        <span class="mrg-rght-XS">
-                                                            <sup class="sup-text-XS">$</sup>9<sup class="sup-text-XS">99</sup>
-                                                        </span>
-                                                        <span class="price price-note color-penneyred after-coupon std-text">clearance</span>
-                                                    </div>
-                                                </div>
-                                                <div className="std-txt std-txt-XS color-slate">
-                                                    Nicole Miller Double Strap P…
-                         </div>
-
-                                                <div className="ratings-and-reviews">
-                                                    <div className="ratings-and-reviews-stars mrg-rght-XS">
-                                                        <div className="star-preview-col fl-right">
-                                                            <ul className="star-ratings-S">
-                                                                <li className="star-ratings start-ratings-full">
-                                                                    <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
-                                                                </li>
-                                                                <li className="star-ratings start-ratings-full">
-                                                                    <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
-                                                                </li>
-                                                                <li className="star-ratings start-ratings-full">
-                                                                    <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
-                                                                </li>
-                                                                <li className="star-ratings start-ratings-half">
-                                                                    <span className="icon" dangerouslySetInnerHTML={{ __html: starhalfImage }} />
-                                                                </li>
-                                                                <li className="star-ratings star-rating-empty color-concrete-svg">
-                                                                    <span className="icon" dangerouslySetInnerHTML={{ __html: starImage }} />
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <a href="javascript:void();" role="button" class="btn btn-secondary btn-S mrg-btm-M mrg-top-XS quick-btn">Quick View</a>
-                                            </div>
-                                        </a>
-                                    </li>
-
-                                    {/* <!-- 9rd col--> */}
-                                    <li className="product-card">
-                                        <a href="/#/page-layouts/pdp" className="product-rec-zone" ref={(productPane) => { this.productPane = productPane }}>
-                                            <div className="product-card-black">
-
-                                                <div className="product-card-thumbnail mrg-btm-S">
-                                                    <a href="/#/page-layouts/pdp">
-                                                        <img src='/images/design-system/fpo/product-cards/product-card-recommendations-5.jpg' alt="product-image" />
-                                                    </a>
-                                                </div>
-                                                <div>
-                                                    <span>
-                                                    </span>
-                                                </div>
-
-                                                <div className="price price-note std-txt mrg-top-XS">
-                                                    <div class="price price-XS color-penneyred black-productcard">
-                                                        <span class="mrg-rght-XS">
-                                                            <sup class="sup-text-XS">$</sup>9<sup class="sup-text-XS">99</sup>
-                                                        </span>
-                                                        <span class="price price-note color-penneyred after-coupon std-text">clearance</span>
-                                                    </div>
-                                                </div>
-                                                <div className="std-txt std-txt-XS color-slate">
-                                                    Nicole Miller Double Strap P…
-                         </div>
-
-                                                <div className="ratings-and-reviews">
-                                                    <div className="ratings-and-reviews-stars mrg-rght-XS">
-                                                        <div className="star-preview-col fl-right">
-                                                            <ul className="star-ratings-S">
-                                                                <li className="star-ratings start-ratings-full">
-                                                                    <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
-                                                                </li>
-                                                                <li className="star-ratings start-ratings-full">
-                                                                    <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
-                                                                </li>
-                                                                <li className="star-ratings start-ratings-full">
-                                                                    <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
-                                                                </li>
-                                                                <li className="star-ratings start-ratings-half">
-                                                                    <span className="icon" dangerouslySetInnerHTML={{ __html: starhalfImage }} />
-                                                                </li>
-                                                                <li className="star-ratings star-rating-empty color-concrete-svg">
-                                                                    <span className="icon" dangerouslySetInnerHTML={{ __html: starImage }} />
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <a href="javascript:void();" role="button" class="btn btn-secondary btn-S mrg-btm-M mrg-top-XS quick-btn">Quick View</a>
-                                            </div>
-                                        </a>
-                                    </li>
-                                </ul>
-
-
-                            </div>
-                            <ul class="slidesjs-pagination hide">
-                                <li class="slidesjs-pagination-item"><a data-slidesjs-item="0" class="active"></a></li>
-                                <li class="slidesjs-pagination-item"><a data-slidesjs-item="1" class=""></a></li>
-                                <li class="slidesjs-pagination-item"><a data-slidesjs-item="2" class=""></a></li>
-                                <li class="slidesjs-pagination-item"><a data-slidesjs-item="3" class=""></a></li>
-                            </ul>
+                <Header />
+                <div >
+                    <div class="row black-columns mrg-top-L">
+                        <div class="sm12 columns">
+                            <h2 class="title title-M mrg-btm-M fl-left">Black Friday Deals for Home</h2>
+                            <p class="std-txt std-txt-S fl-right"><a href="">view all</a></p>
                         </div>
 
-                    </div>
-                </div>
+                        <div className="sm12 columns nopad">
+                            <div className="product-card-wrapper product-card-wrapper-blackfriday" ref={(wrapper) => { this.wrapper = wrapper }} style={listStyle}>
+                                <div className="chevron-wrapper">
+                                    <a style={{ visibility: disableLeftArrow ? 'hidden' : 'visible' }}
+                                        href="/#/page-layouts/pdp"
+                                        className="rec-zone-chevron-left hide-for-small-only hide-for-medium-only">
+                                        {/* <span onClick={() => this.scrollCartridge(false)} className="icon chevron-icon" dangerouslySetInnerHTML={{ __html: ChevronLeftImage }} /> */}
+                                    </a>
+                                    <a style={{ visibility: disableRightArrow ? 'hidden' : 'visible' }}
+                                        href="/#/page-layouts/pdp"
+                                        className="rec-zone-chevron-right hide-for-small-only hide-for-medium-only">
+                                        {/* <span onClick={() => this.scrollCartridge(true)} className="icon chevron-icon" dangerouslySetInnerHTML={{ __html: ChevronRightImage }} /> */}
+                                    </a>
 
-           
-                {/* <!-- Popular Black Friday Deals div -->  */}
+                                    {this.state.currentDotIndex == 1 ? '' : mobLeftFade}
+                                    {this.state.currentDotIndex == this.state.dotNodes.length ? '' : mobRightFade}
 
-                <div class="row black-columns mrg-top-L">
-                    <div class="sm12 columns">
-                        <h2 class="title title-M mrg-btm-M fl-left">Popular Black Friday Deals</h2>
-                        <p class="std-txt std-txt-S fl-right"><a href="">view all</a></p>
-                    </div>
+                                </div>
+                                <div className="product-card-block" id="product-card-section" onScroll={isMobile ? () => this.listenScrollEvent() : ''}>
+                                    <ul style={listStyle} className="listStyleClass">
+                                        <li className="product-card">
+                                            <a href="/#/page-layouts/pdp" className="product-rec-zone" ref={(productPane) => { this.productPane = productPane }}>
+                                                <div className="product-card-black">
 
-                    <div className="sm12 columns nopad">
-                        <div className="product-card-wrapper product-card-wrapper-blackfriday" ref={(wrapper) => { this.wrapper = wrapper }} style={listStyle}>
-                            <div className="chevron-wrapper">
-                                <a style={{ visibility: disableLeftArrow ? 'hidden' : 'visible' }}
-                                    href="/#/page-layouts/pdp"
-                                    className="rec-zone-chevron-left hide-for-small-only hide-for-medium-only">
-                                    {/* <span onClick={() => this.scrollCartridge(false)} className="icon chevron-icon" dangerouslySetInnerHTML={{ __html: ChevronLeftImage }} /> */}
-                                </a>
-                                <a style={{ visibility: disableRightArrow ? 'hidden' : 'visible' }}
-                                    href="/#/page-layouts/pdp"
-                                    className="rec-zone-chevron-right hide-for-small-only hide-for-medium-only">
-                                    {/* <span onClick={() => this.scrollCartridge(true)} className="icon chevron-icon" dangerouslySetInnerHTML={{ __html: ChevronRightImage }} /> */}
-                                </a>
-
-                                {this.state.currentDotIndex == 1 ? '' : mobLeftFade}
-                                {this.state.currentDotIndex == this.state.dotNodes.length ? '' : mobRightFade}
-
-                            </div>
-                            <div className="product-card-block" id="product-card-section" onScroll={isMobile ? () => this.listenScrollEvent() : ''}>
-                                <ul style={listStyle} className="listStyleClass">
-                                    <li className="product-card">
-                                        <a href="/#/page-layouts/pdp" className="product-rec-zone" ref={(productPane) => { this.productPane = productPane }}>
-                                            <div className="product-card-black">
-
-                                                <div className="product-card-thumbnail mrg-btm-S">
-                                                    <a href="/#/page-layouts/pdp">
-                                                        <img src='/images/design-system/fpo/product-cards/product-card-recommendations-1.jpg' alt="product-image" />
-                                                    </a>
-                                                </div>
-                                                <div>
-                                                    <span>
-                                                    </span>
-                                                </div>
-
-                                                <div className="price price-note std-txt mrg-top-XS">
-                                                    <div class="price price-XS color-penneyred black-productcard">
-                                                        <span class="mrg-rght-XS">
-                                                            <sup class="sup-text-XS">$</sup>29<sup class="sup-text-XS">99</sup>
-                                                        </span>
-                                                        <span class="price price-note color-penneyred after-coupon std-text">BLACK FRIDAY DEAL</span>
+                                                    <div className="product-card-thumbnail mrg-btm-S">
+                                                        <a href="/#/page-layouts/pdp">
+                                                            <img src='/images/design-system/fpo/product-cards/product-card-recommendations-1.jpg' alt="product-image" />
+                                                        </a>
                                                     </div>
-                                                </div>
-                                                <div className="std-txt std-txt-XS color-slate">
-                                                    Nicole Miller Double Strap P…
-                         </div>
+                                                    <div>
+                                                        <span>
+                                                        </span>
+                                                    </div>
 
-                                                <div className="ratings-and-reviews">
-                                                    <div className="ratings-and-reviews-stars mrg-rght-XS">
-                                                        <div className="star-preview-col fl-right">
-                                                            <ul className="star-ratings-S">
-                                                                <li className="star-ratings start-ratings-full">
-                                                                    <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
-                                                                </li>
-                                                                <li className="star-ratings start-ratings-full">
-                                                                    <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
-                                                                </li>
-                                                                <li className="star-ratings start-ratings-full">
-                                                                    <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
-                                                                </li>
-                                                                <li className="star-ratings start-ratings-half">
-                                                                    <span className="icon" dangerouslySetInnerHTML={{ __html: starhalfImage }} />
-                                                                </li>
-                                                                <li className="star-ratings star-rating-empty color-concrete-svg">
-                                                                    <span className="icon" dangerouslySetInnerHTML={{ __html: starImage }} />
-                                                                </li>
-                                                            </ul>
+                                                    <div className="price price-note std-txt mrg-top-XS">
+                                                        <div class="price price-XS color-penneyred black-productcard">
+                                                            <span class="mrg-rght-XS">
+                                                                <sup class="sup-text-XS">$</sup>29<sup class="sup-text-XS">99</sup>
+                                                            </span>
+                                                            <span class="price price-note color-penneyred after-coupon std-text">BLACK FRIDAY DEAL</span>
                                                         </div>
                                                     </div>
-                                                </div>
-                                                <a href="javascript:void();" role="button" class="btn btn-secondary btn-S mrg-btm-M mrg-top-XS quick-btn">Quick View</a>
-                                            </div>
-                                        </a>
-                                    </li>
-
-                                    {/* <!-- 2rd col--> */}
-                                    <li className="product-card">
-                                        <a href="/#/page-layouts/pdp" className="product-rec-zone" ref={(productPane) => { this.productPane = productPane }}>
-                                            <div className="product-card-black">
-
-                                                <div className="product-card-thumbnail mrg-btm-S">
-                                                    <a href="/#/page-layouts/pdp">
-                                                        <img src='/images/design-system/fpo/product-cards/product-card-recommendations-2.jpg' alt="product-image" />
-                                                    </a>
-                                                </div>
-                                                <div>
-                                                    <span>
-                                                    </span>
-                                                </div>
-
-                                                <div className="price price-note std-txt mrg-top-XS">
-                                                    <div class="price price-XS color-penneyred black-productcard">
-                                                        <span class="mrg-rght-XS">
-                                                            <sup class="sup-text-XS">$</sup>9<sup class="sup-text-XS">99</sup>
-                                                        </span>
-                                                        <span class="price price-note color-penneyred clearance std-text">sale</span>
-                                                        <span class="price price-note color-penneyred after-coupon std-text">BLACK FRIDAY DEAL</span>
-                                                    </div>
-                                                </div>
-                                                <div className="std-txt std-txt-XS color-slate">
-                                                    Nicole Miller Double Strap P…
+                                                    <div className="std-txt std-txt-XS color-slate">
+                                                        Nicole Miller Double Strap P…
                          </div>
 
-                                                <div className="ratings-and-reviews">
-                                                    <div className="ratings-and-reviews-stars mrg-rght-XS">
-                                                        <div className="star-preview-col fl-right">
-                                                            <ul className="star-ratings-S">
-                                                                <li className="star-ratings start-ratings-full">
-                                                                    <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
-                                                                </li>
-                                                                <li className="star-ratings start-ratings-full">
-                                                                    <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
-                                                                </li>
-                                                                <li className="star-ratings start-ratings-full">
-                                                                    <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
-                                                                </li>
-                                                                <li className="star-ratings start-ratings-half">
-                                                                    <span className="icon" dangerouslySetInnerHTML={{ __html: starhalfImage }} />
-                                                                </li>
-                                                                <li className="star-ratings star-rating-empty color-concrete-svg">
-                                                                    <span className="icon" dangerouslySetInnerHTML={{ __html: starImage }} />
-                                                                </li>
-                                                            </ul>
+                                                    <div className="ratings-and-reviews">
+                                                        <div className="ratings-and-reviews-stars mrg-rght-XS">
+                                                            <div className="star-preview-col fl-right">
+                                                                <ul className="star-ratings-S">
+                                                                    <li className="star-ratings start-ratings-full">
+                                                                        <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
+                                                                    </li>
+                                                                    <li className="star-ratings start-ratings-full">
+                                                                        <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
+                                                                    </li>
+                                                                    <li className="star-ratings start-ratings-full">
+                                                                        <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
+                                                                    </li>
+                                                                    <li className="star-ratings start-ratings-half">
+                                                                        <span className="icon" dangerouslySetInnerHTML={{ __html: starhalfImage }} />
+                                                                    </li>
+                                                                    <li className="star-ratings star-rating-empty color-concrete-svg">
+                                                                        <span className="icon" dangerouslySetInnerHTML={{ __html: starImage }} />
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
                                                         </div>
                                                     </div>
+                                                    <a href="javascript:void();" role="button" class="btn btn-secondary btn-S mrg-btm-M mrg-top-XS quick-btn">Quick View</a>
                                                 </div>
-                                                <a href="javascript:void();" role="button" class="btn btn-secondary btn-S mrg-btm-M mrg-top-XS quick-btn">Quick View</a>
-                                            </div>
-                                        </a>
-                                    </li>
+                                            </a>
+                                        </li>
 
-                                    {/* <!-- 3rd col--> */}
-                                    <li className="product-card">
-                                        <a href="/#/page-layouts/pdp" className="product-rec-zone" ref={(productPane) => { this.productPane = productPane }}>
-                                            <div className="product-card-black">
+                                        {/* <!-- 2rd col--> */}
+                                        <li className="product-card">
+                                            <a href="/#/page-layouts/pdp" className="product-rec-zone" ref={(productPane) => { this.productPane = productPane }}>
+                                                <div className="product-card-black">
 
-                                                <div className="product-card-thumbnail mrg-btm-S">
-                                                    <a href="/#/page-layouts/pdp">
-                                                        <img src='/images/design-system/fpo/product-cards/product-card-recommendations-3.jpg' alt="product-image" />
-                                                    </a>
-                                                </div>
-                                                <div>
-                                                    <span>
-                                                    </span>
-                                                </div>
-
-                                                <div className="price price-note std-txt mrg-top-XS">
-                                                    <div class="price price-XS color-penneyred black-productcard">
-                                                        <span class="mrg-rght-XS">
-                                                            <sup class="sup-text-XS">$</sup>9<sup class="sup-text-XS">99</sup>
-                                                        </span>
-                                                        <span class="price price-note color-penneyred after-coupon std-text">BLACK FRIDAY DEAL</span>
+                                                    <div className="product-card-thumbnail mrg-btm-S">
+                                                        <a href="/#/page-layouts/pdp">
+                                                            <img src='/images/design-system/fpo/product-cards/product-card-recommendations-2.jpg' alt="product-image" />
+                                                        </a>
                                                     </div>
-                                                </div>
-                                                <div className="std-txt std-txt-XS color-slate">
-                                                    Nicole Miller Double Strap P…
+                                                    <div>
+                                                        <span>
+                                                        </span>
+                                                    </div>
+
+                                                    <div className="price price-note std-txt mrg-top-XS">
+                                                        <div class="price price-XS color-penneyred black-productcard">
+                                                            <span class="mrg-rght-XS">
+                                                                <sup class="sup-text-XS">$</sup>9<sup class="sup-text-XS">99</sup>
+                                                            </span>
+                                                            <span class="price price-note color-penneyred after-coupon std-text">BLACK FRIDAY DEAL</span>
+                                                        </div>
+                                                    </div>
+                                                    <div className="std-txt std-txt-XS color-slate">
+                                                        Nicole Miller Double Strap P…
                          </div>
 
-                                                <div className="ratings-and-reviews">
-                                                    <div className="ratings-and-reviews-stars mrg-rght-XS">
-                                                        <div className="star-preview-col fl-right">
-                                                            <ul className="star-ratings-S">
-                                                                <li className="star-ratings start-ratings-full">
-                                                                    <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
-                                                                </li>
-                                                                <li className="star-ratings start-ratings-full">
-                                                                    <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
-                                                                </li>
-                                                                <li className="star-ratings start-ratings-full">
-                                                                    <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
-                                                                </li>
-                                                                <li className="star-ratings start-ratings-half">
-                                                                    <span className="icon" dangerouslySetInnerHTML={{ __html: starhalfImage }} />
-                                                                </li>
-                                                                <li className="star-ratings star-rating-empty color-concrete-svg">
-                                                                    <span className="icon" dangerouslySetInnerHTML={{ __html: starImage }} />
-                                                                </li>
-                                                            </ul>
+                                                    <div className="ratings-and-reviews">
+                                                        <div className="ratings-and-reviews-stars mrg-rght-XS">
+                                                            <div className="star-preview-col fl-right">
+                                                                <ul className="star-ratings-S">
+                                                                    <li className="star-ratings start-ratings-full">
+                                                                        <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
+                                                                    </li>
+                                                                    <li className="star-ratings start-ratings-full">
+                                                                        <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
+                                                                    </li>
+                                                                    <li className="star-ratings start-ratings-full">
+                                                                        <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
+                                                                    </li>
+                                                                    <li className="star-ratings start-ratings-half">
+                                                                        <span className="icon" dangerouslySetInnerHTML={{ __html: starhalfImage }} />
+                                                                    </li>
+                                                                    <li className="star-ratings star-rating-empty color-concrete-svg">
+                                                                        <span className="icon" dangerouslySetInnerHTML={{ __html: starImage }} />
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
                                                         </div>
                                                     </div>
+                                                    <a href="javascript:void();" role="button" class="btn btn-secondary btn-S mrg-btm-M mrg-top-XS quick-btn">Quick View</a>
                                                 </div>
-                                                <a href="javascript:void();" role="button" class="btn btn-secondary btn-S mrg-btm-M mrg-top-XS quick-btn">Quick View</a>
-                                            </div>
-                                        </a>
-                                    </li>
+                                            </a>
+                                        </li>
 
-                                    {/* <!-- 4rd col--> */}
-                                    <li className="product-card">
-                                        <a href="/#/page-layouts/pdp" className="product-rec-zone" ref={(productPane) => { this.productPane = productPane }}>
-                                            <div className="product-card-black">
+                                        {/* <!-- 3rd col--> */}
+                                        <li className="product-card">
+                                            <a href="/#/page-layouts/pdp" className="product-rec-zone" ref={(productPane) => { this.productPane = productPane }}>
+                                                <div className="product-card-black">
 
-                                                <div className="product-card-thumbnail mrg-btm-S">
-                                                    <a href="/#/page-layouts/pdp">
-                                                        <img src='/images/design-system/fpo/product-cards/product-card-recommendations-4.jpg' alt="product-image" />
-                                                    </a>
-                                                </div>
-                                                <div>
-                                                    <span>
-                                                    </span>
-                                                </div>
-
-                                                <div className="price price-note std-txt mrg-top-XS">
-                                                    <div class="price price-XS color-penneyred black-productcard">
-                                                        <span class="mrg-rght-XS">
-                                                            <sup class="sup-text-XS">$</sup>29<sup class="sup-text-XS">99</sup>
-                                                        </span>
-                                                        <span class="price price-note color-penneyred after-coupon std-text">BLACK FRIDAY DEAL</span>
+                                                    <div className="product-card-thumbnail mrg-btm-S">
+                                                        <a href="/#/page-layouts/pdp">
+                                                            <img src='/images/design-system/fpo/product-cards/product-card-recommendations-3.jpg' alt="product-image" />
+                                                        </a>
                                                     </div>
-                                                </div>
-                                                <div className="std-txt std-txt-XS color-slate">
-                                                    Nicole Miller Double Strap P…
+                                                    <div>
+                                                        <span>
+                                                        </span>
+                                                    </div>
+
+                                                    <div className="price price-note std-txt mrg-top-XS">
+                                                        <div class="price price-XS color-penneyred black-productcard">
+                                                            <span class="mrg-rght-XS">
+                                                                <sup class="sup-text-XS">$</sup>9<sup class="sup-text-XS">99</sup>
+                                                            </span>
+                                                            <span class="price price-note color-penneyred clearance std-text">sale</span>
+                                                            <span class="price price-note color-penneyred after-coupon std-text"> BLACK FRIDAY DEAL</span>
+
+                                                        </div>
+                                                    </div>
+                                                    <div className="std-txt std-txt-XS color-slate">
+                                                        Nicole Miller Double Strap P…
                          </div>
 
-                                                <div className="ratings-and-reviews">
-                                                    <div className="ratings-and-reviews-stars mrg-rght-XS">
-                                                        <div className="star-preview-col fl-right">
-                                                            <ul className="star-ratings-S">
-                                                                <li className="star-ratings start-ratings-full">
-                                                                    <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
-                                                                </li>
-                                                                <li className="star-ratings start-ratings-full">
-                                                                    <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
-                                                                </li>
-                                                                <li className="star-ratings start-ratings-full">
-                                                                    <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
-                                                                </li>
-                                                                <li className="star-ratings start-ratings-half">
-                                                                    <span className="icon" dangerouslySetInnerHTML={{ __html: starhalfImage }} />
-                                                                </li>
-                                                                <li className="star-ratings star-rating-empty color-concrete-svg">
-                                                                    <span className="icon" dangerouslySetInnerHTML={{ __html: starImage }} />
-                                                                </li>
-                                                            </ul>
+                                                    <div className="ratings-and-reviews">
+                                                        <div className="ratings-and-reviews-stars mrg-rght-XS">
+                                                            <div className="star-preview-col fl-right">
+                                                                <ul className="star-ratings-S">
+                                                                    <li className="star-ratings start-ratings-full">
+                                                                        <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
+                                                                    </li>
+                                                                    <li className="star-ratings start-ratings-full">
+                                                                        <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
+                                                                    </li>
+                                                                    <li className="star-ratings start-ratings-full">
+                                                                        <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
+                                                                    </li>
+                                                                    <li className="star-ratings start-ratings-half">
+                                                                        <span className="icon" dangerouslySetInnerHTML={{ __html: starhalfImage }} />
+                                                                    </li>
+                                                                    <li className="star-ratings star-rating-empty color-concrete-svg">
+                                                                        <span className="icon" dangerouslySetInnerHTML={{ __html: starImage }} />
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
                                                         </div>
                                                     </div>
+                                                    <a href="javascript:void();" role="button" class="btn btn-secondary btn-S mrg-btm-M mrg-top-XS quick-btn">Quick View</a>
                                                 </div>
-                                                <a href="javascript:void();" role="button" class="btn btn-secondary btn-S mrg-btm-M mrg-top-XS quick-btn">Quick View</a>
-                                            </div>
-                                        </a>
-                                    </li>
+                                            </a>
+                                        </li>
 
+                                        {/* <!-- 4rd col--> */}
+                                        <li className="product-card">
+                                            <a href="/#/page-layouts/pdp" className="product-rec-zone" ref={(productPane) => { this.productPane = productPane }}>
+                                                <div className="product-card-black">
 
-                                    {/* <!-- 5rd col--> */}
-                                    <li className="product-card">
-                                        <a href="/#/page-layouts/pdp" className="product-rec-zone" ref={(productPane) => { this.productPane = productPane }}>
-                                            <div className="product-card-black">
-
-                                                <div className="product-card-thumbnail mrg-btm-S">
-                                                    <a href="/#/page-layouts/pdp">
-                                                        <img src='/images/design-system/fpo/product-cards/product-card-recommendations-5.jpg' alt="product-image" />
-                                                    </a>
-                                                </div>
-                                                <div>
-                                                    <span>
-                                                    </span>
-                                                </div>
-
-                                                <div className="price price-note std-txt mrg-top-XS">
-                                                    <div class="price price-XS color-penneyred black-productcard">
-                                                        <span class="mrg-rght-XS">
-                                                            <sup class="sup-text-XS">$</sup>9<sup class="sup-text-XS">99</sup>
-                                                        </span>
-                                                        <span class="price price-note color-penneyred after-coupon std-text">BLACK FRIDAY DEAL</span>
+                                                    <div className="product-card-thumbnail mrg-btm-S">
+                                                        <a href="/#/page-layouts/pdp">
+                                                            <img src='/images/design-system/fpo/product-cards/product-card-recommendations-4.jpg' alt="product-image" />
+                                                        </a>
                                                     </div>
-                                                </div>
-                                                <div className="std-txt std-txt-XS color-slate">
-                                                    Nicole Miller Double Strap P…
+                                                    <div>
+                                                        <span>
+                                                        </span>
+                                                    </div>
+
+                                                    <div className="price price-note std-txt mrg-top-XS">
+                                                        <div class="price price-XS color-penneyred black-productcard">
+                                                            <span class="mrg-rght-XS">
+                                                                <sup class="sup-text-XS">$</sup>29<sup class="sup-text-XS">99</sup>
+                                                            </span>
+                                                            <span class="price price-note color-penneyred after-coupon std-text">BLACK FRIDAY DEAL</span>
+                                                        </div>
+                                                    </div>
+                                                    <div className="std-txt std-txt-XS color-slate">
+                                                        Nicole Miller Double Strap P…
                          </div>
 
-                                                <div className="ratings-and-reviews">
-                                                    <div className="ratings-and-reviews-stars mrg-rght-XS">
-                                                        <div className="star-preview-col fl-right">
-                                                            <ul className="star-ratings-S">
-                                                                <li className="star-ratings start-ratings-full">
-                                                                    <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
-                                                                </li>
-                                                                <li className="star-ratings start-ratings-full">
-                                                                    <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
-                                                                </li>
-                                                                <li className="star-ratings start-ratings-full">
-                                                                    <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
-                                                                </li>
-                                                                <li className="star-ratings start-ratings-half">
-                                                                    <span className="icon" dangerouslySetInnerHTML={{ __html: starhalfImage }} />
-                                                                </li>
-                                                                <li className="star-ratings star-rating-empty color-concrete-svg">
-                                                                    <span className="icon" dangerouslySetInnerHTML={{ __html: starImage }} />
-                                                                </li>
-                                                            </ul>
+                                                    <div className="ratings-and-reviews">
+                                                        <div className="ratings-and-reviews-stars mrg-rght-XS">
+                                                            <div className="star-preview-col fl-right">
+                                                                <ul className="star-ratings-S">
+                                                                    <li className="star-ratings start-ratings-full">
+                                                                        <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
+                                                                    </li>
+                                                                    <li className="star-ratings start-ratings-full">
+                                                                        <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
+                                                                    </li>
+                                                                    <li className="star-ratings start-ratings-full">
+                                                                        <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
+                                                                    </li>
+                                                                    <li className="star-ratings start-ratings-half">
+                                                                        <span className="icon" dangerouslySetInnerHTML={{ __html: starhalfImage }} />
+                                                                    </li>
+                                                                    <li className="star-ratings star-rating-empty color-concrete-svg">
+                                                                        <span className="icon" dangerouslySetInnerHTML={{ __html: starImage }} />
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
                                                         </div>
                                                     </div>
+                                                    <a href="javascript:void();" role="button" class="btn btn-secondary btn-S mrg-btm-M mrg-top-XS quick-btn">Quick View</a>
                                                 </div>
-                                                <a href="javascript:void();" role="button" class="btn btn-secondary btn-S mrg-btm-M mrg-top-XS quick-btn">Quick View</a>
-                                            </div>
-                                        </a>
-                                    </li>
+                                            </a>
+                                        </li>
 
-                                    {/* <!-- 6rd col--> */}
-                                    <li className="product-card">
-                                        <a href="/#/page-layouts/pdp" className="product-rec-zone" ref={(productPane) => { this.productPane = productPane }}>
-                                            <div className="product-card-black">
 
-                                                <div className="product-card-thumbnail mrg-btm-S">
-                                                    <a href="/#/page-layouts/pdp">
-                                                        <img src='/images/design-system/fpo/product-cards/product-card-recommendations-6.jpg' alt="product-image" />
-                                                    </a>
-                                                </div>
-                                                <div>
-                                                    <span>
-                                                    </span>
-                                                </div>
+                                        {/* <!-- 5rd col--> */}
+                                        <li className="product-card">
+                                            <a href="/#/page-layouts/pdp" className="product-rec-zone" ref={(productPane) => { this.productPane = productPane }}>
+                                                <div className="product-card-black">
 
-                                                <div className="price price-note std-txt mrg-top-XS">
-                                                    <div class="price price-XS color-penneyred black-productcard">
-                                                        <span class="mrg-rght-XS">
-                                                            <sup class="sup-text-XS">$</sup>9<sup class="sup-text-XS">99</sup>
-                                                        </span>
-                                                        <span class="price price-note color-penneyred after-coupon std-text">BLACK FRIDAY DEAL</span>
+                                                    <div className="product-card-thumbnail mrg-btm-S">
+                                                        <a href="/#/page-layouts/pdp">
+                                                            <img src='/images/design-system/fpo/product-cards/product-card-recommendations-5.jpg' alt="product-image" />
+                                                        </a>
                                                     </div>
-                                                </div>
-                                                <div className="std-txt std-txt-XS color-slate">
-                                                    Nicole Miller Double Strap P…
+                                                    <div>
+                                                        <span>
+                                                        </span>
+                                                    </div>
+
+                                                    <div className="price price-note std-txt mrg-top-XS">
+                                                        <div class="price price-XS color-penneyred black-productcard">
+                                                            <span class="mrg-rght-XS">
+                                                                <sup class="sup-text-XS">$</sup>9<sup class="sup-text-XS">99</sup>
+                                                            </span>
+                                                            <span class="price price-note color-penneyred after-coupon std-text">BLACK FRIDAY DEAL</span>
+                                                        </div>
+                                                    </div>
+                                                    <div className="std-txt std-txt-XS color-slate">
+                                                        Nicole Miller Double Strap P…
                          </div>
 
-                                                <div className="ratings-and-reviews">
-                                                    <div className="ratings-and-reviews-stars mrg-rght-XS">
-                                                        <div className="star-preview-col fl-right">
-                                                            <ul className="star-ratings-S">
-                                                                <li className="star-ratings start-ratings-full">
-                                                                    <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
-                                                                </li>
-                                                                <li className="star-ratings start-ratings-full">
-                                                                    <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
-                                                                </li>
-                                                                <li className="star-ratings start-ratings-full">
-                                                                    <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
-                                                                </li>
-                                                                <li className="star-ratings start-ratings-half">
-                                                                    <span className="icon" dangerouslySetInnerHTML={{ __html: starhalfImage }} />
-                                                                </li>
-                                                                <li className="star-ratings star-rating-empty color-concrete-svg">
-                                                                    <span className="icon" dangerouslySetInnerHTML={{ __html: starImage }} />
-                                                                </li>
-                                                            </ul>
+                                                    <div className="ratings-and-reviews">
+                                                        <div className="ratings-and-reviews-stars mrg-rght-XS">
+                                                            <div className="star-preview-col fl-right">
+                                                                <ul className="star-ratings-S">
+                                                                    <li className="star-ratings start-ratings-full">
+                                                                        <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
+                                                                    </li>
+                                                                    <li className="star-ratings start-ratings-full">
+                                                                        <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
+                                                                    </li>
+                                                                    <li className="star-ratings start-ratings-full">
+                                                                        <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
+                                                                    </li>
+                                                                    <li className="star-ratings start-ratings-half">
+                                                                        <span className="icon" dangerouslySetInnerHTML={{ __html: starhalfImage }} />
+                                                                    </li>
+                                                                    <li className="star-ratings star-rating-empty color-concrete-svg">
+                                                                        <span className="icon" dangerouslySetInnerHTML={{ __html: starImage }} />
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
                                                         </div>
                                                     </div>
+                                                    <a href="javascript:void();" role="button" class="btn btn-secondary btn-S mrg-btm-M mrg-top-XS quick-btn">Quick View</a>
                                                 </div>
-                                                <a href="javascript:void();" role="button" class="btn btn-secondary btn-S mrg-btm-M mrg-top-XS quick-btn">Quick View</a>
-                                            </div>
-                                        </a>
-                                    </li>
+                                            </a>
+                                        </li>
 
+                                        {/* <!-- 6rd col--> */}
+                                        <li className="product-card">
+                                            <a href="/#/page-layouts/pdp" className="product-rec-zone" ref={(productPane) => { this.productPane = productPane }}>
+                                                <div className="product-card-black">
 
-                                    {/* <!-- 7rd col--> */}
-                                    <li className="product-card">
-                                        <a href="/#/page-layouts/pdp" className="product-rec-zone" ref={(productPane) => { this.productPane = productPane }}>
-                                            <div className="product-card-black">
-
-                                                <div className="product-card-thumbnail mrg-btm-S">
-                                                    <a href="/#/page-layouts/pdp">
-                                                        <img src='/images/design-system/fpo/product-cards/product-card-recommendations-7.jpg' alt="product-image" />
-                                                    </a>
-                                                </div>
-                                                <div>
-                                                    <span>
-                                                    </span>
-                                                </div>
-
-                                                <div className="price price-note std-txt mrg-top-XS">
-                                                    <div class="price price-XS color-penneyred black-productcard">
-                                                        <span class="mrg-rght-XS">
-                                                            <sup class="sup-text-XS">$</sup>29<sup class="sup-text-XS">99</sup>
-                                                        </span>
-                                                        <span class="price price-note color-penneyred after-coupon std-text">BLACK FRIDAY DEAL</span>
+                                                    <div className="product-card-thumbnail mrg-btm-S">
+                                                        <a href="/#/page-layouts/pdp">
+                                                            <img src='/images/design-system/fpo/product-cards/product-card-recommendations-6.jpg' alt="product-image" />
+                                                        </a>
                                                     </div>
-                                                </div>
-                                                <div className="std-txt std-txt-XS color-slate">
-                                                    Nicole Miller Double Strap P…
+                                                    <div>
+                                                        <span>
+                                                        </span>
+                                                    </div>
+
+                                                    <div className="price price-note std-txt mrg-top-XS">
+                                                        <div class="price price-XS color-penneyred black-productcard">
+                                                            <span class="mrg-rght-XS">
+                                                                <sup class="sup-text-XS">$</sup>9<sup class="sup-text-XS">99</sup>
+                                                            </span>
+                                                            <span class="price price-note color-penneyred after-coupon std-text">BLACK FRIDAY DEAL</span>
+                                                        </div>
+                                                    </div>
+                                                    <div className="std-txt std-txt-XS color-slate">
+                                                        Nicole Miller Double Strap P…
                          </div>
 
-                                                <div className="ratings-and-reviews">
-                                                    <div className="ratings-and-reviews-stars mrg-rght-XS">
-                                                        <div className="star-preview-col fl-right">
-                                                            <ul className="star-ratings-S">
-                                                                <li className="star-ratings start-ratings-full">
-                                                                    <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
-                                                                </li>
-                                                                <li className="star-ratings start-ratings-full">
-                                                                    <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
-                                                                </li>
-                                                                <li className="star-ratings start-ratings-full">
-                                                                    <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
-                                                                </li>
-                                                                <li className="star-ratings start-ratings-half">
-                                                                    <span className="icon" dangerouslySetInnerHTML={{ __html: starhalfImage }} />
-                                                                </li>
-                                                                <li className="star-ratings star-rating-empty color-concrete-svg">
-                                                                    <span className="icon" dangerouslySetInnerHTML={{ __html: starImage }} />
-                                                                </li>
-                                                            </ul>
+                                                    <div className="ratings-and-reviews">
+                                                        <div className="ratings-and-reviews-stars mrg-rght-XS">
+                                                            <div className="star-preview-col fl-right">
+                                                                <ul className="star-ratings-S">
+                                                                    <li className="star-ratings start-ratings-full">
+                                                                        <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
+                                                                    </li>
+                                                                    <li className="star-ratings start-ratings-full">
+                                                                        <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
+                                                                    </li>
+                                                                    <li className="star-ratings start-ratings-full">
+                                                                        <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
+                                                                    </li>
+                                                                    <li className="star-ratings start-ratings-half">
+                                                                        <span className="icon" dangerouslySetInnerHTML={{ __html: starhalfImage }} />
+                                                                    </li>
+                                                                    <li className="star-ratings star-rating-empty color-concrete-svg">
+                                                                        <span className="icon" dangerouslySetInnerHTML={{ __html: starImage }} />
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
                                                         </div>
                                                     </div>
+                                                    <a href="javascript:void();" role="button" class="btn btn-secondary btn-S mrg-btm-M mrg-top-XS quick-btn">Quick View</a>
                                                 </div>
-                                                <a href="javascript:void();" role="button" class="btn btn-secondary btn-S mrg-btm-M mrg-top-XS quick-btn">Quick View</a>
-                                            </div>
-                                        </a>
-                                    </li>
+                                            </a>
+                                        </li>
 
-                                    {/* <!-- 8rd col--> */}
-                                    <li className="product-card">
-                                        <a href="/#/page-layouts/pdp" className="product-rec-zone" ref={(productPane) => { this.productPane = productPane }}>
-                                            <div className="product-card-black">
 
-                                                <div className="product-card-thumbnail mrg-btm-S">
-                                                    <a href="/#/page-layouts/pdp">
-                                                        <img src='/images/design-system/fpo/product-cards/product-card-recommendations-8.jpg' alt="product-image" />
-                                                    </a>
-                                                </div>
-                                                <div>
-                                                    <span>
-                                                    </span>
-                                                </div>
+                                        {/* <!-- 7rd col--> */}
+                                        <li className="product-card">
+                                            <a href="/#/page-layouts/pdp" className="product-rec-zone" ref={(productPane) => { this.productPane = productPane }}>
+                                                <div className="product-card-black">
 
-                                                <div className="price price-note std-txt mrg-top-XS">
-                                                    <div class="price price-XS color-penneyred black-productcard">
-                                                        <span class="mrg-rght-XS">
-                                                            <sup class="sup-text-XS">$</sup>9<sup class="sup-text-XS">99</sup>
-                                                        </span>
-                                                        <span class="price price-note color-penneyred after-coupon std-text">BLACK FRIDAY DEAL</span>
+                                                    <div className="product-card-thumbnail mrg-btm-S">
+                                                        <a href="/#/page-layouts/pdp">
+                                                            <img src='/images/design-system/fpo/product-cards/product-card-recommendations-7.jpg' alt="product-image" />
+                                                        </a>
                                                     </div>
-                                                </div>
-                                                <div className="std-txt std-txt-XS color-slate">
-                                                    Nicole Miller Double Strap P…
+                                                    <div>
+                                                        <span>
+                                                        </span>
+                                                    </div>
+
+                                                    <div className="price price-note std-txt mrg-top-XS">
+                                                        <div class="price price-XS color-penneyred black-productcard">
+                                                            <span class="mrg-rght-XS">
+                                                                <sup class="sup-text-XS">$</sup>29<sup class="sup-text-XS">99</sup>
+                                                            </span>
+                                                            <span class="price price-note color-penneyred after-coupon std-text">BLACK FRIDAY DEAL</span>
+                                                        </div>
+                                                    </div>
+                                                    <div className="std-txt std-txt-XS color-slate">
+                                                        Nicole Miller Double Strap P…
                          </div>
 
-                                                <div className="ratings-and-reviews">
-                                                    <div className="ratings-and-reviews-stars mrg-rght-XS">
-                                                        <div className="star-preview-col fl-right">
-                                                            <ul className="star-ratings-S">
-                                                                <li className="star-ratings start-ratings-full">
-                                                                    <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
-                                                                </li>
-                                                                <li className="star-ratings start-ratings-full">
-                                                                    <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
-                                                                </li>
-                                                                <li className="star-ratings start-ratings-full">
-                                                                    <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
-                                                                </li>
-                                                                <li className="star-ratings start-ratings-half">
-                                                                    <span className="icon" dangerouslySetInnerHTML={{ __html: starhalfImage }} />
-                                                                </li>
-                                                                <li className="star-ratings star-rating-empty color-concrete-svg">
-                                                                    <span className="icon" dangerouslySetInnerHTML={{ __html: starImage }} />
-                                                                </li>
-                                                            </ul>
+                                                    <div className="ratings-and-reviews">
+                                                        <div className="ratings-and-reviews-stars mrg-rght-XS">
+                                                            <div className="star-preview-col fl-right">
+                                                                <ul className="star-ratings-S">
+                                                                    <li className="star-ratings start-ratings-full">
+                                                                        <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
+                                                                    </li>
+                                                                    <li className="star-ratings start-ratings-full">
+                                                                        <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
+                                                                    </li>
+                                                                    <li className="star-ratings start-ratings-full">
+                                                                        <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
+                                                                    </li>
+                                                                    <li className="star-ratings start-ratings-half">
+                                                                        <span className="icon" dangerouslySetInnerHTML={{ __html: starhalfImage }} />
+                                                                    </li>
+                                                                    <li className="star-ratings star-rating-empty color-concrete-svg">
+                                                                        <span className="icon" dangerouslySetInnerHTML={{ __html: starImage }} />
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
                                                         </div>
                                                     </div>
+                                                    <a href="javascript:void();" role="button" class="btn btn-secondary btn-S mrg-btm-M mrg-top-XS quick-btn">Quick View</a>
                                                 </div>
-                                                <a href="javascript:void();" role="button" class="btn btn-secondary btn-S mrg-btm-M mrg-top-XS quick-btn">Quick View</a>
-                                            </div>
-                                        </a>
-                                    </li>
+                                            </a>
+                                        </li>
 
-                                    {/* <!-- 9rd col--> */}
-                                    <li className="product-card">
-                                        <a href="/#/page-layouts/pdp" className="product-rec-zone" ref={(productPane) => { this.productPane = productPane }}>
-                                            <div className="product-card-black">
+                                        {/* <!-- 8rd col--> */}
+                                        <li className="product-card">
+                                            <a href="/#/page-layouts/pdp" className="product-rec-zone" ref={(productPane) => { this.productPane = productPane }}>
+                                                <div className="product-card-black">
 
-                                                <div className="product-card-thumbnail mrg-btm-S">
-                                                    <a href="/#/page-layouts/pdp">
-                                                        <img src='/images/design-system/fpo/product-cards/product-card-recommendations-5.jpg' alt="product-image" />
-                                                    </a>
-                                                </div>
-                                                <div>
-                                                    <span>
-                                                    </span>
-                                                </div>
-
-                                                <div className="price price-note std-txt mrg-top-XS">
-                                                    <div class="price price-XS color-penneyred black-productcard">
-                                                        <span class="mrg-rght-XS">
-                                                            <sup class="sup-text-XS">$</sup>9<sup class="sup-text-XS">99</sup>
-                                                        </span>
-                                                        <span class="price price-note color-penneyred after-coupon std-text">BLACK FRIDAY DEAL</span>
+                                                    <div className="product-card-thumbnail mrg-btm-S">
+                                                        <a href="/#/page-layouts/pdp">
+                                                            <img src='/images/design-system/fpo/product-cards/product-card-recommendations-8.jpg' alt="product-image" />
+                                                        </a>
                                                     </div>
-                                                </div>
-                                                <div className="std-txt std-txt-XS color-slate">
-                                                    Nicole Miller Double Strap P…
+                                                    <div>
+                                                        <span>
+                                                        </span>
+                                                    </div>
+
+                                                    <div className="price price-note std-txt mrg-top-XS">
+                                                        <div class="price price-XS color-penneyred black-productcard">
+                                                            <span class="mrg-rght-XS">
+                                                                <sup class="sup-text-XS">$</sup>9<sup class="sup-text-XS">99</sup>
+                                                            </span>
+                                                            <span class="price price-note color-penneyred after-coupon std-text">clearance</span>
+                                                        </div>
+                                                    </div>
+                                                    <div className="std-txt std-txt-XS color-slate">
+                                                        Nicole Miller Double Strap P…
                          </div>
 
-                                                <div className="ratings-and-reviews">
-                                                    <div className="ratings-and-reviews-stars mrg-rght-XS">
-                                                        <div className="star-preview-col fl-right">
-                                                            <ul className="star-ratings-S">
-                                                                <li className="star-ratings start-ratings-full">
-                                                                    <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
-                                                                </li>
-                                                                <li className="star-ratings start-ratings-full">
-                                                                    <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
-                                                                </li>
-                                                                <li className="star-ratings start-ratings-full">
-                                                                    <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
-                                                                </li>
-                                                                <li className="star-ratings start-ratings-half">
-                                                                    <span className="icon" dangerouslySetInnerHTML={{ __html: starhalfImage }} />
-                                                                </li>
-                                                                <li className="star-ratings star-rating-empty color-concrete-svg">
-                                                                    <span className="icon" dangerouslySetInnerHTML={{ __html: starImage }} />
-                                                                </li>
-                                                            </ul>
+                                                    <div className="ratings-and-reviews">
+                                                        <div className="ratings-and-reviews-stars mrg-rght-XS">
+                                                            <div className="star-preview-col fl-right">
+                                                                <ul className="star-ratings-S">
+                                                                    <li className="star-ratings start-ratings-full">
+                                                                        <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
+                                                                    </li>
+                                                                    <li className="star-ratings start-ratings-full">
+                                                                        <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
+                                                                    </li>
+                                                                    <li className="star-ratings start-ratings-full">
+                                                                        <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
+                                                                    </li>
+                                                                    <li className="star-ratings start-ratings-half">
+                                                                        <span className="icon" dangerouslySetInnerHTML={{ __html: starhalfImage }} />
+                                                                    </li>
+                                                                    <li className="star-ratings star-rating-empty color-concrete-svg">
+                                                                        <span className="icon" dangerouslySetInnerHTML={{ __html: starImage }} />
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
                                                         </div>
                                                     </div>
+                                                    <a href="javascript:void();" role="button" class="btn btn-secondary btn-S mrg-btm-M mrg-top-XS quick-btn">Quick View</a>
                                                 </div>
-                                                <a href="javascript:void();" role="button" class="btn btn-secondary btn-S mrg-btm-M mrg-top-XS quick-btn">Quick View</a>
-                                            </div>
-                                        </a>
-                                    </li>
+                                            </a>
+                                        </li>
+
+                                        {/* <!-- 9rd col--> */}
+                                        <li className="product-card">
+                                            <a href="/#/page-layouts/pdp" className="product-rec-zone" ref={(productPane) => { this.productPane = productPane }}>
+                                                <div className="product-card-black">
+
+                                                    <div className="product-card-thumbnail mrg-btm-S">
+                                                        <a href="/#/page-layouts/pdp">
+                                                            <img src='/images/design-system/fpo/product-cards/product-card-recommendations-5.jpg' alt="product-image" />
+                                                        </a>
+                                                    </div>
+                                                    <div>
+                                                        <span>
+                                                        </span>
+                                                    </div>
+
+                                                    <div className="price price-note std-txt mrg-top-XS">
+                                                        <div class="price price-XS color-penneyred black-productcard">
+                                                            <span class="mrg-rght-XS">
+                                                                <sup class="sup-text-XS">$</sup>9<sup class="sup-text-XS">99</sup>
+                                                            </span>
+                                                            <span class="price price-note color-penneyred after-coupon std-text">clearance</span>
+                                                        </div>
+                                                    </div>
+                                                    <div className="std-txt std-txt-XS color-slate">
+                                                        Nicole Miller Double Strap P…
+                         </div>
+
+                                                    <div className="ratings-and-reviews">
+                                                        <div className="ratings-and-reviews-stars mrg-rght-XS">
+                                                            <div className="star-preview-col fl-right">
+                                                                <ul className="star-ratings-S">
+                                                                    <li className="star-ratings start-ratings-full">
+                                                                        <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
+                                                                    </li>
+                                                                    <li className="star-ratings start-ratings-full">
+                                                                        <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
+                                                                    </li>
+                                                                    <li className="star-ratings start-ratings-full">
+                                                                        <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
+                                                                    </li>
+                                                                    <li className="star-ratings start-ratings-half">
+                                                                        <span className="icon" dangerouslySetInnerHTML={{ __html: starhalfImage }} />
+                                                                    </li>
+                                                                    <li className="star-ratings star-rating-empty color-concrete-svg">
+                                                                        <span className="icon" dangerouslySetInnerHTML={{ __html: starImage }} />
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <a href="javascript:void();" role="button" class="btn btn-secondary btn-S mrg-btm-M mrg-top-XS quick-btn">Quick View</a>
+                                                </div>
+                                            </a>
+                                        </li>
+                                    </ul>
+
+
+                                </div>
+                                <ul class="slidesjs-pagination hide">
+                                    <li class="slidesjs-pagination-item"><a data-slidesjs-item="0" class="active"></a></li>
+                                    <li class="slidesjs-pagination-item"><a data-slidesjs-item="1" class=""></a></li>
+                                    <li class="slidesjs-pagination-item"><a data-slidesjs-item="2" class=""></a></li>
+                                    <li class="slidesjs-pagination-item"><a data-slidesjs-item="3" class=""></a></li>
                                 </ul>
                             </div>
-                            <ul class="slidesjs-pagination hide">
-                                <li class="slidesjs-pagination-item"><a data-slidesjs-item="0" class="active"></a></li>
-                                <li class="slidesjs-pagination-item"><a data-slidesjs-item="1" class=""></a></li>
-                                <li class="slidesjs-pagination-item"><a data-slidesjs-item="2" class=""></a></li>
-                                <li class="slidesjs-pagination-item"><a data-slidesjs-item="3" class=""></a></li>
-                            </ul>
+
+                        </div>
+                    </div>
+
+
+                    {/* <!-- Popular Black Friday Deals div -->  */}
+
+                    <div class="row black-columns mrg-top-L">
+                        <div class="sm12 columns">
+                            <h2 class="title title-M mrg-btm-M fl-left">Popular Black Friday Deals</h2>
+                            <p class="std-txt std-txt-S fl-right"><a href="">view all</a></p>
                         </div>
 
+                        <div className="sm12 columns nopad">
+                            <div className="product-card-wrapper product-card-wrapper-blackfriday" ref={(wrapper) => { this.wrapper = wrapper }} style={listStyle}>
+                                <div className="chevron-wrapper">
+                                    <a style={{ visibility: disableLeftArrow ? 'hidden' : 'visible' }}
+                                        href="/#/page-layouts/pdp"
+                                        className="rec-zone-chevron-left hide-for-small-only hide-for-medium-only">
+                                        {/* <span onClick={() => this.scrollCartridge(false)} className="icon chevron-icon" dangerouslySetInnerHTML={{ __html: ChevronLeftImage }} /> */}
+                                    </a>
+                                    <a style={{ visibility: disableRightArrow ? 'hidden' : 'visible' }}
+                                        href="/#/page-layouts/pdp"
+                                        className="rec-zone-chevron-right hide-for-small-only hide-for-medium-only">
+                                        {/* <span onClick={() => this.scrollCartridge(true)} className="icon chevron-icon" dangerouslySetInnerHTML={{ __html: ChevronRightImage }} /> */}
+                                    </a>
+
+                                    {this.state.currentDotIndex == 1 ? '' : mobLeftFade}
+                                    {this.state.currentDotIndex == this.state.dotNodes.length ? '' : mobRightFade}
+
+                                </div>
+                                <div className="product-card-block" id="product-card-section" onScroll={isMobile ? () => this.listenScrollEvent() : ''}>
+                                    <ul style={listStyle} className="listStyleClass">
+                                        <li className="product-card">
+                                            <a href="/#/page-layouts/pdp" className="product-rec-zone" ref={(productPane) => { this.productPane = productPane }}>
+                                                <div className="product-card-black">
+
+                                                    <div className="product-card-thumbnail mrg-btm-S">
+                                                        <a href="/#/page-layouts/pdp">
+                                                            <img src='/images/design-system/fpo/product-cards/product-card-recommendations-1.jpg' alt="product-image" />
+                                                        </a>
+                                                    </div>
+                                                    <div>
+                                                        <span>
+                                                        </span>
+                                                    </div>
+
+                                                    <div className="price price-note std-txt mrg-top-XS">
+                                                        <div class="price price-XS color-penneyred black-productcard">
+                                                            <span class="mrg-rght-XS">
+                                                                <sup class="sup-text-XS">$</sup>29<sup class="sup-text-XS">99</sup>
+                                                            </span>
+                                                            <span class="price price-note color-penneyred after-coupon std-text">BLACK FRIDAY DEAL</span>
+                                                        </div>
+                                                    </div>
+                                                    <div className="std-txt std-txt-XS color-slate">
+                                                        Nicole Miller Double Strap P…
+                         </div>
+
+                                                    <div className="ratings-and-reviews">
+                                                        <div className="ratings-and-reviews-stars mrg-rght-XS">
+                                                            <div className="star-preview-col fl-right">
+                                                                <ul className="star-ratings-S">
+                                                                    <li className="star-ratings start-ratings-full">
+                                                                        <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
+                                                                    </li>
+                                                                    <li className="star-ratings start-ratings-full">
+                                                                        <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
+                                                                    </li>
+                                                                    <li className="star-ratings start-ratings-full">
+                                                                        <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
+                                                                    </li>
+                                                                    <li className="star-ratings start-ratings-half">
+                                                                        <span className="icon" dangerouslySetInnerHTML={{ __html: starhalfImage }} />
+                                                                    </li>
+                                                                    <li className="star-ratings star-rating-empty color-concrete-svg">
+                                                                        <span className="icon" dangerouslySetInnerHTML={{ __html: starImage }} />
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <a href="javascript:void();" role="button" class="btn btn-secondary btn-S mrg-btm-M mrg-top-XS quick-btn">Quick View</a>
+                                                </div>
+                                            </a>
+                                        </li>
+
+                                        {/* <!-- 2rd col--> */}
+                                        <li className="product-card">
+                                            <a href="/#/page-layouts/pdp" className="product-rec-zone" ref={(productPane) => { this.productPane = productPane }}>
+                                                <div className="product-card-black">
+
+                                                    <div className="product-card-thumbnail mrg-btm-S">
+                                                        <a href="/#/page-layouts/pdp">
+                                                            <img src='/images/design-system/fpo/product-cards/product-card-recommendations-2.jpg' alt="product-image" />
+                                                        </a>
+                                                    </div>
+                                                    <div>
+                                                        <span>
+                                                        </span>
+                                                    </div>
+
+                                                    <div className="price price-note std-txt mrg-top-XS">
+                                                        <div class="price price-XS color-penneyred black-productcard">
+                                                            <span class="mrg-rght-XS">
+                                                                <sup class="sup-text-XS">$</sup>9<sup class="sup-text-XS">99</sup>
+                                                            </span>
+                                                            <span class="price price-note color-penneyred clearance std-text">sale</span>
+                                                            <span class="price price-note color-penneyred after-coupon std-text">BLACK FRIDAY DEAL</span>
+                                                        </div>
+                                                    </div>
+                                                    <div className="std-txt std-txt-XS color-slate">
+                                                        Nicole Miller Double Strap P…
+                         </div>
+
+                                                    <div className="ratings-and-reviews">
+                                                        <div className="ratings-and-reviews-stars mrg-rght-XS">
+                                                            <div className="star-preview-col fl-right">
+                                                                <ul className="star-ratings-S">
+                                                                    <li className="star-ratings start-ratings-full">
+                                                                        <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
+                                                                    </li>
+                                                                    <li className="star-ratings start-ratings-full">
+                                                                        <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
+                                                                    </li>
+                                                                    <li className="star-ratings start-ratings-full">
+                                                                        <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
+                                                                    </li>
+                                                                    <li className="star-ratings start-ratings-half">
+                                                                        <span className="icon" dangerouslySetInnerHTML={{ __html: starhalfImage }} />
+                                                                    </li>
+                                                                    <li className="star-ratings star-rating-empty color-concrete-svg">
+                                                                        <span className="icon" dangerouslySetInnerHTML={{ __html: starImage }} />
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <a href="javascript:void();" role="button" class="btn btn-secondary btn-S mrg-btm-M mrg-top-XS quick-btn">Quick View</a>
+                                                </div>
+                                            </a>
+                                        </li>
+
+                                        {/* <!-- 3rd col--> */}
+                                        <li className="product-card">
+                                            <a href="/#/page-layouts/pdp" className="product-rec-zone" ref={(productPane) => { this.productPane = productPane }}>
+                                                <div className="product-card-black">
+
+                                                    <div className="product-card-thumbnail mrg-btm-S">
+                                                        <a href="/#/page-layouts/pdp">
+                                                            <img src='/images/design-system/fpo/product-cards/product-card-recommendations-3.jpg' alt="product-image" />
+                                                        </a>
+                                                    </div>
+                                                    <div>
+                                                        <span>
+                                                        </span>
+                                                    </div>
+
+                                                    <div className="price price-note std-txt mrg-top-XS">
+                                                        <div class="price price-XS color-penneyred black-productcard">
+                                                            <span class="mrg-rght-XS">
+                                                                <sup class="sup-text-XS">$</sup>9<sup class="sup-text-XS">99</sup>
+                                                            </span>
+                                                            <span class="price price-note color-penneyred after-coupon std-text">BLACK FRIDAY DEAL</span>
+                                                        </div>
+                                                    </div>
+                                                    <div className="std-txt std-txt-XS color-slate">
+                                                        Nicole Miller Double Strap P…
+                         </div>
+
+                                                    <div className="ratings-and-reviews">
+                                                        <div className="ratings-and-reviews-stars mrg-rght-XS">
+                                                            <div className="star-preview-col fl-right">
+                                                                <ul className="star-ratings-S">
+                                                                    <li className="star-ratings start-ratings-full">
+                                                                        <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
+                                                                    </li>
+                                                                    <li className="star-ratings start-ratings-full">
+                                                                        <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
+                                                                    </li>
+                                                                    <li className="star-ratings start-ratings-full">
+                                                                        <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
+                                                                    </li>
+                                                                    <li className="star-ratings start-ratings-half">
+                                                                        <span className="icon" dangerouslySetInnerHTML={{ __html: starhalfImage }} />
+                                                                    </li>
+                                                                    <li className="star-ratings star-rating-empty color-concrete-svg">
+                                                                        <span className="icon" dangerouslySetInnerHTML={{ __html: starImage }} />
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <a href="javascript:void();" role="button" class="btn btn-secondary btn-S mrg-btm-M mrg-top-XS quick-btn">Quick View</a>
+                                                </div>
+                                            </a>
+                                        </li>
+
+                                        {/* <!-- 4rd col--> */}
+                                        <li className="product-card">
+                                            <a href="/#/page-layouts/pdp" className="product-rec-zone" ref={(productPane) => { this.productPane = productPane }}>
+                                                <div className="product-card-black">
+
+                                                    <div className="product-card-thumbnail mrg-btm-S">
+                                                        <a href="/#/page-layouts/pdp">
+                                                            <img src='/images/design-system/fpo/product-cards/product-card-recommendations-4.jpg' alt="product-image" />
+                                                        </a>
+                                                    </div>
+                                                    <div>
+                                                        <span>
+                                                        </span>
+                                                    </div>
+
+                                                    <div className="price price-note std-txt mrg-top-XS">
+                                                        <div class="price price-XS color-penneyred black-productcard">
+                                                            <span class="mrg-rght-XS">
+                                                                <sup class="sup-text-XS">$</sup>29<sup class="sup-text-XS">99</sup>
+                                                            </span>
+                                                            <span class="price price-note color-penneyred after-coupon std-text">BLACK FRIDAY DEAL</span>
+                                                        </div>
+                                                    </div>
+                                                    <div className="std-txt std-txt-XS color-slate">
+                                                        Nicole Miller Double Strap P…
+                         </div>
+
+                                                    <div className="ratings-and-reviews">
+                                                        <div className="ratings-and-reviews-stars mrg-rght-XS">
+                                                            <div className="star-preview-col fl-right">
+                                                                <ul className="star-ratings-S">
+                                                                    <li className="star-ratings start-ratings-full">
+                                                                        <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
+                                                                    </li>
+                                                                    <li className="star-ratings start-ratings-full">
+                                                                        <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
+                                                                    </li>
+                                                                    <li className="star-ratings start-ratings-full">
+                                                                        <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
+                                                                    </li>
+                                                                    <li className="star-ratings start-ratings-half">
+                                                                        <span className="icon" dangerouslySetInnerHTML={{ __html: starhalfImage }} />
+                                                                    </li>
+                                                                    <li className="star-ratings star-rating-empty color-concrete-svg">
+                                                                        <span className="icon" dangerouslySetInnerHTML={{ __html: starImage }} />
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <a href="javascript:void();" role="button" class="btn btn-secondary btn-S mrg-btm-M mrg-top-XS quick-btn">Quick View</a>
+                                                </div>
+                                            </a>
+                                        </li>
+
+
+                                        {/* <!-- 5rd col--> */}
+                                        <li className="product-card">
+                                            <a href="/#/page-layouts/pdp" className="product-rec-zone" ref={(productPane) => { this.productPane = productPane }}>
+                                                <div className="product-card-black">
+
+                                                    <div className="product-card-thumbnail mrg-btm-S">
+                                                        <a href="/#/page-layouts/pdp">
+                                                            <img src='/images/design-system/fpo/product-cards/product-card-recommendations-5.jpg' alt="product-image" />
+                                                        </a>
+                                                    </div>
+                                                    <div>
+                                                        <span>
+                                                        </span>
+                                                    </div>
+
+                                                    <div className="price price-note std-txt mrg-top-XS">
+                                                        <div class="price price-XS color-penneyred black-productcard">
+                                                            <span class="mrg-rght-XS">
+                                                                <sup class="sup-text-XS">$</sup>9<sup class="sup-text-XS">99</sup>
+                                                            </span>
+                                                            <span class="price price-note color-penneyred after-coupon std-text">BLACK FRIDAY DEAL</span>
+                                                        </div>
+                                                    </div>
+                                                    <div className="std-txt std-txt-XS color-slate">
+                                                        Nicole Miller Double Strap P…
+                         </div>
+
+                                                    <div className="ratings-and-reviews">
+                                                        <div className="ratings-and-reviews-stars mrg-rght-XS">
+                                                            <div className="star-preview-col fl-right">
+                                                                <ul className="star-ratings-S">
+                                                                    <li className="star-ratings start-ratings-full">
+                                                                        <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
+                                                                    </li>
+                                                                    <li className="star-ratings start-ratings-full">
+                                                                        <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
+                                                                    </li>
+                                                                    <li className="star-ratings start-ratings-full">
+                                                                        <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
+                                                                    </li>
+                                                                    <li className="star-ratings start-ratings-half">
+                                                                        <span className="icon" dangerouslySetInnerHTML={{ __html: starhalfImage }} />
+                                                                    </li>
+                                                                    <li className="star-ratings star-rating-empty color-concrete-svg">
+                                                                        <span className="icon" dangerouslySetInnerHTML={{ __html: starImage }} />
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <a href="javascript:void();" role="button" class="btn btn-secondary btn-S mrg-btm-M mrg-top-XS quick-btn">Quick View</a>
+                                                </div>
+                                            </a>
+                                        </li>
+
+                                        {/* <!-- 6rd col--> */}
+                                        <li className="product-card">
+                                            <a href="/#/page-layouts/pdp" className="product-rec-zone" ref={(productPane) => { this.productPane = productPane }}>
+                                                <div className="product-card-black">
+
+                                                    <div className="product-card-thumbnail mrg-btm-S">
+                                                        <a href="/#/page-layouts/pdp">
+                                                            <img src='/images/design-system/fpo/product-cards/product-card-recommendations-6.jpg' alt="product-image" />
+                                                        </a>
+                                                    </div>
+                                                    <div>
+                                                        <span>
+                                                        </span>
+                                                    </div>
+
+                                                    <div className="price price-note std-txt mrg-top-XS">
+                                                        <div class="price price-XS color-penneyred black-productcard">
+                                                            <span class="mrg-rght-XS">
+                                                                <sup class="sup-text-XS">$</sup>9<sup class="sup-text-XS">99</sup>
+                                                            </span>
+                                                            <span class="price price-note color-penneyred after-coupon std-text">BLACK FRIDAY DEAL</span>
+                                                        </div>
+                                                    </div>
+                                                    <div className="std-txt std-txt-XS color-slate">
+                                                        Nicole Miller Double Strap P…
+                         </div>
+
+                                                    <div className="ratings-and-reviews">
+                                                        <div className="ratings-and-reviews-stars mrg-rght-XS">
+                                                            <div className="star-preview-col fl-right">
+                                                                <ul className="star-ratings-S">
+                                                                    <li className="star-ratings start-ratings-full">
+                                                                        <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
+                                                                    </li>
+                                                                    <li className="star-ratings start-ratings-full">
+                                                                        <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
+                                                                    </li>
+                                                                    <li className="star-ratings start-ratings-full">
+                                                                        <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
+                                                                    </li>
+                                                                    <li className="star-ratings start-ratings-half">
+                                                                        <span className="icon" dangerouslySetInnerHTML={{ __html: starhalfImage }} />
+                                                                    </li>
+                                                                    <li className="star-ratings star-rating-empty color-concrete-svg">
+                                                                        <span className="icon" dangerouslySetInnerHTML={{ __html: starImage }} />
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <a href="javascript:void();" role="button" class="btn btn-secondary btn-S mrg-btm-M mrg-top-XS quick-btn">Quick View</a>
+                                                </div>
+                                            </a>
+                                        </li>
+
+
+                                        {/* <!-- 7rd col--> */}
+                                        <li className="product-card">
+                                            <a href="/#/page-layouts/pdp" className="product-rec-zone" ref={(productPane) => { this.productPane = productPane }}>
+                                                <div className="product-card-black">
+
+                                                    <div className="product-card-thumbnail mrg-btm-S">
+                                                        <a href="/#/page-layouts/pdp">
+                                                            <img src='/images/design-system/fpo/product-cards/product-card-recommendations-7.jpg' alt="product-image" />
+                                                        </a>
+                                                    </div>
+                                                    <div>
+                                                        <span>
+                                                        </span>
+                                                    </div>
+
+                                                    <div className="price price-note std-txt mrg-top-XS">
+                                                        <div class="price price-XS color-penneyred black-productcard">
+                                                            <span class="mrg-rght-XS">
+                                                                <sup class="sup-text-XS">$</sup>29<sup class="sup-text-XS">99</sup>
+                                                            </span>
+                                                            <span class="price price-note color-penneyred after-coupon std-text">BLACK FRIDAY DEAL</span>
+                                                        </div>
+                                                    </div>
+                                                    <div className="std-txt std-txt-XS color-slate">
+                                                        Nicole Miller Double Strap P…
+                         </div>
+
+                                                    <div className="ratings-and-reviews">
+                                                        <div className="ratings-and-reviews-stars mrg-rght-XS">
+                                                            <div className="star-preview-col fl-right">
+                                                                <ul className="star-ratings-S">
+                                                                    <li className="star-ratings start-ratings-full">
+                                                                        <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
+                                                                    </li>
+                                                                    <li className="star-ratings start-ratings-full">
+                                                                        <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
+                                                                    </li>
+                                                                    <li className="star-ratings start-ratings-full">
+                                                                        <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
+                                                                    </li>
+                                                                    <li className="star-ratings start-ratings-half">
+                                                                        <span className="icon" dangerouslySetInnerHTML={{ __html: starhalfImage }} />
+                                                                    </li>
+                                                                    <li className="star-ratings star-rating-empty color-concrete-svg">
+                                                                        <span className="icon" dangerouslySetInnerHTML={{ __html: starImage }} />
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <a href="javascript:void();" role="button" class="btn btn-secondary btn-S mrg-btm-M mrg-top-XS quick-btn">Quick View</a>
+                                                </div>
+                                            </a>
+                                        </li>
+
+                                        {/* <!-- 8rd col--> */}
+                                        <li className="product-card">
+                                            <a href="/#/page-layouts/pdp" className="product-rec-zone" ref={(productPane) => { this.productPane = productPane }}>
+                                                <div className="product-card-black">
+
+                                                    <div className="product-card-thumbnail mrg-btm-S">
+                                                        <a href="/#/page-layouts/pdp">
+                                                            <img src='/images/design-system/fpo/product-cards/product-card-recommendations-8.jpg' alt="product-image" />
+                                                        </a>
+                                                    </div>
+                                                    <div>
+                                                        <span>
+                                                        </span>
+                                                    </div>
+
+                                                    <div className="price price-note std-txt mrg-top-XS">
+                                                        <div class="price price-XS color-penneyred black-productcard">
+                                                            <span class="mrg-rght-XS">
+                                                                <sup class="sup-text-XS">$</sup>9<sup class="sup-text-XS">99</sup>
+                                                            </span>
+                                                            <span class="price price-note color-penneyred after-coupon std-text">BLACK FRIDAY DEAL</span>
+                                                        </div>
+                                                    </div>
+                                                    <div className="std-txt std-txt-XS color-slate">
+                                                        Nicole Miller Double Strap P…
+                         </div>
+
+                                                    <div className="ratings-and-reviews">
+                                                        <div className="ratings-and-reviews-stars mrg-rght-XS">
+                                                            <div className="star-preview-col fl-right">
+                                                                <ul className="star-ratings-S">
+                                                                    <li className="star-ratings start-ratings-full">
+                                                                        <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
+                                                                    </li>
+                                                                    <li className="star-ratings start-ratings-full">
+                                                                        <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
+                                                                    </li>
+                                                                    <li className="star-ratings start-ratings-full">
+                                                                        <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
+                                                                    </li>
+                                                                    <li className="star-ratings start-ratings-half">
+                                                                        <span className="icon" dangerouslySetInnerHTML={{ __html: starhalfImage }} />
+                                                                    </li>
+                                                                    <li className="star-ratings star-rating-empty color-concrete-svg">
+                                                                        <span className="icon" dangerouslySetInnerHTML={{ __html: starImage }} />
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <a href="javascript:void();" role="button" class="btn btn-secondary btn-S mrg-btm-M mrg-top-XS quick-btn">Quick View</a>
+                                                </div>
+                                            </a>
+                                        </li>
+
+                                        {/* <!-- 9rd col--> */}
+                                        <li className="product-card">
+                                            <a href="/#/page-layouts/pdp" className="product-rec-zone" ref={(productPane) => { this.productPane = productPane }}>
+                                                <div className="product-card-black">
+
+                                                    <div className="product-card-thumbnail mrg-btm-S">
+                                                        <a href="/#/page-layouts/pdp">
+                                                            <img src='/images/design-system/fpo/product-cards/product-card-recommendations-5.jpg' alt="product-image" />
+                                                        </a>
+                                                    </div>
+                                                    <div>
+                                                        <span>
+                                                        </span>
+                                                    </div>
+
+                                                    <div className="price price-note std-txt mrg-top-XS">
+                                                        <div class="price price-XS color-penneyred black-productcard">
+                                                            <span class="mrg-rght-XS">
+                                                                <sup class="sup-text-XS">$</sup>9<sup class="sup-text-XS">99</sup>
+                                                            </span>
+                                                            <span class="price price-note color-penneyred after-coupon std-text">BLACK FRIDAY DEAL</span>
+                                                        </div>
+                                                    </div>
+                                                    <div className="std-txt std-txt-XS color-slate">
+                                                        Nicole Miller Double Strap P…
+                         </div>
+
+                                                    <div className="ratings-and-reviews">
+                                                        <div className="ratings-and-reviews-stars mrg-rght-XS">
+                                                            <div className="star-preview-col fl-right">
+                                                                <ul className="star-ratings-S">
+                                                                    <li className="star-ratings start-ratings-full">
+                                                                        <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
+                                                                    </li>
+                                                                    <li className="star-ratings start-ratings-full">
+                                                                        <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
+                                                                    </li>
+                                                                    <li className="star-ratings start-ratings-full">
+                                                                        <span className="icon " dangerouslySetInnerHTML={{ __html: starImage }} />
+                                                                    </li>
+                                                                    <li className="star-ratings start-ratings-half">
+                                                                        <span className="icon" dangerouslySetInnerHTML={{ __html: starhalfImage }} />
+                                                                    </li>
+                                                                    <li className="star-ratings star-rating-empty color-concrete-svg">
+                                                                        <span className="icon" dangerouslySetInnerHTML={{ __html: starImage }} />
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <a href="javascript:void();" role="button" class="btn btn-secondary btn-S mrg-btm-M mrg-top-XS quick-btn">Quick View</a>
+                                                </div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <ul class="slidesjs-pagination hide">
+                                    <li class="slidesjs-pagination-item"><a data-slidesjs-item="0" class="active"></a></li>
+                                    <li class="slidesjs-pagination-item"><a data-slidesjs-item="1" class=""></a></li>
+                                    <li class="slidesjs-pagination-item"><a data-slidesjs-item="2" class=""></a></li>
+                                    <li class="slidesjs-pagination-item"><a data-slidesjs-item="3" class=""></a></li>
+                                </ul>
+                            </div>
+
+                        </div>
                     </div>
-                </div>
-                <br/>
-                <div class="sm12 lg12 md12 xl12 xxl12 nopad text-center">
-                    <a class="black-banner-image" href="/#/page-modules/product-cards">
-                        <img src="/images/design-system/blackfridaydeal.png" alt="blackFridayImg" /></a>
-                </div>
-<br/><br/>
-<div>
-        <div class="department-container dept-nav mrg-btm-XXL mrg-top-M">
-            <ul class="department-block">
-            <li class="lg3 md3 xl3 xxl3 sm6 nopad nopadd ">
-                <a href="/#/page-modules/product-cards">
-                  <div class="viz-nav-img ">
-                    <img src="/images/design-system/dept-001.png" alt="product-image" />
-                  </div>
-                  <h2 class="title title-M mrg-btm-XS algn-mid">Bed & Bath</h2>
-                </a>
-              </li>
-              <li class="lg3 md3 xl3 xxl3 sm6 nopad nopadd ">
-                <a href="/#/page-modules/product-cards">
-                  <div class="viz-nav-img ">
-                    <img src="/images/design-system/dept-002.png" alt="product-image" />
-                  </div>
-                  <h2 class="title title-M mrg-btm-XS algn-mid">Window</h2>
-                </a>
-              </li>
-              <li class="lg3 md3 xl3 xxl3 sm6 nopad ">
-                <a href="/#/page-modules/product-cards">
-                  <div class="viz-nav-img ">
-                    <img src="/images/design-system/dept-01.png" alt="product-image" />
-                  </div>
-                  <h2 class="title title-M mrg-btm-XS algn-mid">Furniture</h2>
-                </a>
-              </li>
-              <li class="lg3 md3 xl3 xxl3 sm6 nopad ">
-                <a href="/#/page-modules/product-cards">
-                  <div class="viz-nav-img ">
-                    <img src="/images/design-system/dept-02.png" alt="product-image" />
-                  </div>
-                  <h2 class="title title-M mrg-btm-XS algn-mid">Mattresses</h2>
-                </a>
-              </li>
-              <li class="lg3 md3 xl3 xxl3 sm6 nopad ">
-                <a href="/#/page-modules/product-cards">
-                  <div class="viz-nav-img ">
-                    <img src="/images/design-system/dept-03.png" alt="product-image" />
-                  </div>
-                  <h2 class="title title-M mrg-btm-XS algn-mid">Appliances</h2>
-                </a>
-              </li>
-              <li class="lg3 md3 xl3 xxl3 sm6 nopad ">
-                <a href="/#/page-modules/product-cards">
-                  <div class="viz-nav-img ">
-                    <img src="/images/design-system/dept-04.png" alt="product-image" />
-                  </div>
-                  <h2 class="title title-M mrg-btm-XS algn-mid">Kitchen & Dining</h2>
-                </a>
-              </li>
-              <li class="lg3 md3 xl3 xxl3 sm6 nopad ">
-                <a href="/#/page-modules/product-cards">
-                  <div class="viz-nav-img ">
-                    <img src="/images/design-system/dept-05.png" alt="product-image" />
-                  </div>
-                  <h2 class="title title-M mrg-btm-XS algn-mid">Rugs</h2>
-                </a>
-              </li>
-              <li class="lg3 md3 xl3 xxl3 sm6 nopad ">
-                <a href="/#/page-modules/product-cards">
-                  <div class="viz-nav-img ">
-                    <img src="/images/design-system/dept-06.png" alt="product-image" />
-                  </div>
-                  <h2 class="title title-M mrg-btm-XS algn-mid">Home Decor</h2>
-                </a>
-              </li>
-              <li class="lg3 md3 xl3 xxl3 sm6 nopad ">
-                <a href="/#/page-modules/product-cards">
-                  <div class="viz-nav-img ">
-                    <img src="/images/design-system/dept-07.png" alt="product-image" />
-                  </div>
-                  <h2 class="title title-M mrg-btm-XS algn-mid">Electronics & Smart Home</h2>
-                </a>
-              </li>
-              <li class="lg3 md3 xl3 xxl3 sm6 nopad ">
-                <a href="/#/page-modules/product-cards">
-                  <div class="viz-nav-img ">
-                    <img src="/images/design-system/dept-08.png" alt="product-image" />
-                  </div>
-                  <h2 class="title title-M mrg-btm-XS algn-mid">Luggage & Travel Accessories</h2>
-                </a>
-              </li>
-              <li class="lg3 md3 xl3 xxl3 sm6 nopad ">
-                <a href="/#/page-modules/product-cards">
-                  <div class="viz-nav-img ">
-                    <img src="/images/design-system/dept-09.png" alt="product-image" />
-                  </div>
-                  <h2 class="title title-M mrg-btm-XS algn-mid">Patio & Outdoor Living</h2>
-                </a>
-              </li>
-              <li class="lg3 md3 xl3 xxl3 sm6 nopad ">
-                <a href="/#/page-modules/product-cards">
-                  <div class="viz-nav-img ">
-                    <img src="/images/design-system/dept-10.png" alt="product-image" />
-                  </div>
-                  <h2 class="title title-M mrg-btm-XS algn-mid">Campus Style</h2>
-                </a>
-              </li>
-              <li class="lg3 md3 xl3 xxl3 sm6 nopad ">
-                <a href="/#/page-modules/product-cards">
-                  <div class="viz-nav-img ">
-                    <img src="/images/design-system/dept-11.png" alt="product-image" />
-                  </div>
-                  <h2 class="title title-M mrg-btm-XS algn-mid">Arts & Crafts</h2>
-                </a>
-              </li>
-              <li class="lg3 md3 xl3 xxl3 sm6 nopad ">
-                <a href="/#/page-modules/product-cards">
-                  <div class="viz-nav-img ">
-                    <img src="/images/design-system/dept-12.png" alt="product-image" />
-                  </div>
-                  <h2 class="title title-M mrg-btm-XS algn-mid">As Seen On TV</h2>
-                </a>
-              </li>
-              <li class="lg3 md3 xl3 xxl3 sm6 nopad ">
-                <a href="/#/page-modules/product-cards">
-                  <div class="viz-nav-img ">
-                    <img src="/images/design-system/dept-13.png" alt="product-image" />
-                  </div>
-                  <h2 class="title title-M mrg-btm-XS algn-mid">Auto Accessories</h2>
-                </a>
-              </li>
-              <li class="lg3 md3 xl3 xxl3 sm6 nopad ">
-                <a href="/#/page-modules/product-cards">
-                  <div class="viz-nav-img ">
-                    <img src="/images/design-system/dept-14.png" alt="product-image" />
-                  </div>
-                  <h2 class="title title-M mrg-btm-XS algn-mid">Backpacks</h2>
-                </a>
-              </li>
-              <li class="lg3 md3 xl3 xxl3 sm6 nopad ">
-                <a href="/#/page-modules/product-cards">
-                  <div class="viz-nav-img ">
-                    <img src="/images/design-system/dept-15.png" alt="product-image" />
-                  </div>
-                  <h2 class="title title-M mrg-btm-XS algn-mid">Bikes</h2>
-                </a>
-              </li>
-              <li class="lg3 md3 xl3 xxl3 sm6 nopad ">
-                <a href="/#/page-modules/product-cards">
-                  <div class="viz-nav-img ">
-                    <img src="/images/design-system/dept-16.png" alt="product-image" />
-                  </div>
-                  <h2 class="title title-M mrg-btm-XS algn-mid">Books & Games</h2>
-                </a>
-              </li>
-              <li class="lg3 md3 xl3 xxl3 sm6 nopad ">
-                <a href="/#/page-modules/product-cards">
-                  <div class="viz-nav-img ">
-                    <img src="/images/design-system/dept-17.png" alt="product-image" />
-                  </div>
-                  <h2 class="title title-M mrg-btm-XS algn-mid">Camping & Outdoor</h2>
-                </a>
-              </li>
-              <li class="lg3 md3 xl3 xxl3 sm6 nopad ">
-                <a href="/#/page-modules/product-cards">
-                  <div class="viz-nav-img ">
-                    <img src="/images/design-system/dept-18.png" alt="product-image" />
-                  </div>
-                  <h2 class="title title-M mrg-btm-XS algn-mid">Fitness & Healthy Living</h2>
-                </a>
-              </li>
-              <li class="lg3 md3 xl3 xxl3 sm6 nopad ">
-                <a href="/#/page-modules/product-cards">
-                  <div class="viz-nav-img ">
-                    <img src="/images/design-system/dept-19.png" alt="product-image" />
-                  </div>
-                  <h2 class="title title-M mrg-btm-XS algn-mid">Heating & Cooling</h2>
-                </a>
-              </li>
-              <li class="lg3 md3 xl3 xxl3 sm6 nopad ">
-                <a href="/#/page-modules/product-cards">
-                  <div class="viz-nav-img ">
-                    <img src="/images/design-system/dept-20.png" alt="product-image" />
-                  </div>
-                  <h2 class="title title-M mrg-btm-XS algn-mid">Holiday Decor</h2>
-                </a>
-              </li>
-              <li class="lg3 md3 xl3 xxl3 sm6 nopad ">
-                <a href="/#/page-modules/product-cards">
-                  <div class="viz-nav-img ">
-                    <img src="/images/design-system/dept-21.png" alt="product-image" />
-                  </div>
-                  <h2 class="title title-M mrg-btm-XS algn-mid">Home Improvement</h2>
-                </a>
-              </li>
-              <li class="lg3 md3 xl3 xxl3 sm6 nopad ">
-                <a href="/#/page-modules/product-cards">
-                  <div class="viz-nav-img ">
-                    <img src="/images/design-system/dept-22.png" alt="product-image" />
-                  </div>
-                  <h2 class="title title-M mrg-btm-XS algn-mid">Home Services</h2>
-                </a>
-              </li>
-              <li class="lg3 md3 xl3 xxl3 sm6 nopad ">
-                <a href="/#/page-modules/product-cards">
-                  <div class="viz-nav-img ">
-                    <img src="/images/design-system/dept-23.png" alt="product-image" />
-                  </div>
-                  <h2 class="title title-M mrg-btm-XS algn-mid">Irons & Laundry Care</h2>
-                </a>
-              </li>
-              <li class="lg3 md3 xl3 xxl3 sm6 nopad ">
-                <a href="/#/page-modules/product-cards">
-                  <div class="viz-nav-img ">
-                    <img src="/images/design-system/dept-24.png" alt="product-image" />
-                  </div>
-                  <h2 class="title title-M mrg-btm-XS algn-mid">Mobility & Daily Living Aids</h2>
-                </a>
-              </li>
-              <li class="lg3 md3 xl3 xxl3 sm6 nopad ">
-                <a href="/#/page-modules/product-cards">
-                  <div class="viz-nav-img ">
-                    <img src="/images/design-system/dept-25.png" alt="product-image" />
-                  </div>
-                  <h2 class="title title-M mrg-btm-XS algn-mid">Party Supplies</h2>
-                </a>
-              </li>
-              <li class="lg3 md3 xl3 xxl3 sm6 nopad ">
-                <a href="/#/page-modules/product-cards">
-                  <div class="viz-nav-img ">
-                    <img src="/images/design-system/dept-26.png" alt="product-image" />
-                  </div>
-                  <h2 class="title title-M mrg-btm-XS algn-mid">Pet Care</h2>
-                </a>
-              </li>
-              <li class="lg3 md3 xl3 xxl3 sm6 nopad ">
-                <a href="/#/page-modules/product-cards">
-                  <div class="viz-nav-img ">
-                    <img src="/images/design-system/dept-27.png" alt="product-image" />
-                  </div>
-                  <h2 class="title title-M mrg-btm-XS algn-mid">Sporting Goods & Recreation</h2>
-                </a>
-              </li>
-              <li class="lg3 md3 xl3 xxl3 sm6 nopad ">
-                <a href="/#/page-modules/product-cards">
-                  <div class="viz-nav-img ">
-                    <img src="/images/design-system/dept-28.png" alt="product-image" />
-                  </div>
-                  <h2 class="title title-M mrg-btm-XS algn-mid">Sports Fan Shop</h2>
-                </a>
-              </li>
-              <li class="lg3 md3 xl3 xxl3 sm6 nopad ">
-                <a href="/#/page-modules/product-cards">
-                  <div class="viz-nav-img ">
-                    <img src="/images/design-system/dept-29.png" alt="product-image" />
-                  </div>
-                  <h2 class="title title-M mrg-btm-XS algn-mid">Storage & Organization</h2>
-                </a>
-              </li>
-              <li class="lg3 md3 xl3 xxl3 sm6 nopad ">
-                <a href="/#/page-modules/product-cards">
-                  <div class="viz-nav-img ">
-                    <img src="/images/design-system/dept-30.png" alt="product-image" />
-                  </div>
-                  <h2 class="title title-M mrg-btm-XS algn-mid">Vacuums & Floor Care</h2>
-                </a>
-              </li>
-              <li class="lg3 md3 xl3 xxl3 sm6 nopad ">
-                <a href="/#/page-modules/product-cards">
-                  <div class="viz-nav-img ">
-                    <img src="/images/design-system/dept-31.png" alt="product-image" />
-                  </div>
-                  <h2 class="title title-M mrg-btm-XS algn-mid">Sale</h2>
-                </a>
-              </li>
-              <li class="lg3 md3 xl3 xxl3 sm6 nopad ">
-                <a href="/#/page-modules/product-cards">
-                  <div class="viz-nav-img ">
-                    <img src="/images/design-system/dept-32.png" alt="product-image" />
-                  </div>
-                  <h2 class="title title-M mrg-btm-XS algn-mid">Clearance</h2>
-                </a>
-              </li>
-              <li class="lg3 md3 xl3 xxl3 sm6 nopad ">
-                <a href="/#/page-modules/product-cards">
-                  <div class="viz-nav-img ">
-                    <img src="/images/design-system/dept-33.png" alt="product-image" />
-                  </div>
-                  <h2 class="title title-M mrg-btm-XS algn-mid">Rebate Center</h2>
-                </a>
-              </li>
-            </ul>
-          </div>
-          </div>
+                    <br />
+                    <div class="sm12 lg12 md12 xl12 xxl12 nopad text-center">
+                        <a class="black-banner-image" href="/#/page-modules/product-cards">
+                            <img src="/images/design-system/blackfridaydeal.png" alt="blackFridayImg" /></a>
+                    </div>
+                    <br /><br />
+                    <div className="lg12 sm12 md12 xl12">
+                        <h1 className="title title-XL fl-left black-friday-dep-title">shop bed and bath</h1>
+                    </div>
+                    <div>
+                        <div class="department-container dept-nav mrg-btm-XXL mrg-top-M">
+                            <ul class="department-block">
+                                <li class="lg3 md3 xl3 xxl3 sm6 nopad nopadd ">
+                                    <a href="/#/page-modules/product-cards">
+                                        <div class="viz-nav-img ">
+                                            <img src="/images/design-system/dept-001.png" alt="product-image" />
+                                        </div>
+                                        <h2 class="title title-M mrg-btm-XS algn-mid">Bed & Bath</h2>
+                                    </a>
+                                </li>
+                                <li class="lg3 md3 xl3 xxl3 sm6 nopad nopadd ">
+                                    <a href="/#/page-modules/product-cards">
+                                        <div class="viz-nav-img ">
+                                            <img src="/images/design-system/dept-002.png" alt="product-image" />
+                                        </div>
+                                        <h2 class="title title-M mrg-btm-XS algn-mid">Window</h2>
+                                    </a>
+                                </li>
+                                <li class="lg3 md3 xl3 xxl3 sm6 nopad ">
+                                    <a href="/#/page-modules/product-cards">
+                                        <div class="viz-nav-img ">
+                                            <img src="/images/design-system/dept-01.png" alt="product-image" />
+                                        </div>
+                                        <h2 class="title title-M mrg-btm-XS algn-mid">Furniture</h2>
+                                    </a>
+                                </li>
+                                <li class="lg3 md3 xl3 xxl3 sm6 nopad ">
+                                    <a href="/#/page-modules/product-cards">
+                                        <div class="viz-nav-img ">
+                                            <img src="/images/design-system/dept-02.png" alt="product-image" />
+                                        </div>
+                                        <h2 class="title title-M mrg-btm-XS algn-mid">Mattresses</h2>
+                                    </a>
+                                </li>
+                                <li class="lg3 md3 xl3 xxl3 sm6 nopad ">
+                                    <a href="/#/page-modules/product-cards">
+                                        <div class="viz-nav-img ">
+                                            <img src="/images/design-system/dept-03.png" alt="product-image" />
+                                        </div>
+                                        <h2 class="title title-M mrg-btm-XS algn-mid">Appliances</h2>
+                                    </a>
+                                </li>
+                                <li class="lg3 md3 xl3 xxl3 sm6 nopad ">
+                                    <a href="/#/page-modules/product-cards">
+                                        <div class="viz-nav-img ">
+                                            <img src="/images/design-system/dept-04.png" alt="product-image" />
+                                        </div>
+                                        <h2 class="title title-M mrg-btm-XS algn-mid">Kitchen & Dining</h2>
+                                    </a>
+                                </li>
+                                <li class="lg3 md3 xl3 xxl3 sm6 nopad ">
+                                    <a href="/#/page-modules/product-cards">
+                                        <div class="viz-nav-img ">
+                                            <img src="/images/design-system/dept-05.png" alt="product-image" />
+                                        </div>
+                                        <h2 class="title title-M mrg-btm-XS algn-mid">Rugs</h2>
+                                    </a>
+                                </li>
+                                <li class="lg3 md3 xl3 xxl3 sm6 nopad ">
+                                    <a href="/#/page-modules/product-cards">
+                                        <div class="viz-nav-img ">
+                                            <img src="/images/design-system/dept-06.png" alt="product-image" />
+                                        </div>
+                                        <h2 class="title title-M mrg-btm-XS algn-mid">Home Decor</h2>
+                                    </a>
+                                </li>
+                                <li class="lg3 md3 xl3 xxl3 sm6 nopad ">
+                                    <a href="/#/page-modules/product-cards">
+                                        <div class="viz-nav-img ">
+                                            <img src="/images/design-system/dept-07.png" alt="product-image" />
+                                        </div>
+                                        <h2 class="title title-M mrg-btm-XS algn-mid">Electronics & Smart Home</h2>
+                                    </a>
+                                </li>
+                                <li class="lg3 md3 xl3 xxl3 sm6 nopad ">
+                                    <a href="/#/page-modules/product-cards">
+                                        <div class="viz-nav-img ">
+                                            <img src="/images/design-system/dept-08.png" alt="product-image" />
+                                        </div>
+                                        <h2 class="title title-M mrg-btm-XS algn-mid">Luggage & Travel Accessories</h2>
+                                    </a>
+                                </li>
+                                <li class="lg3 md3 xl3 xxl3 sm6 nopad ">
+                                    <a href="/#/page-modules/product-cards">
+                                        <div class="viz-nav-img ">
+                                            <img src="/images/design-system/dept-09.png" alt="product-image" />
+                                        </div>
+                                        <h2 class="title title-M mrg-btm-XS algn-mid">Patio & Outdoor Living</h2>
+                                    </a>
+                                </li>
+                                <li class="lg3 md3 xl3 xxl3 sm6 nopad ">
+                                    <a href="/#/page-modules/product-cards">
+                                        <div class="viz-nav-img ">
+                                            <img src="/images/design-system/dept-10.png" alt="product-image" />
+                                        </div>
+                                        <h2 class="title title-M mrg-btm-XS algn-mid">Campus Style</h2>
+                                    </a>
+                                </li>
+                                <li class="lg3 md3 xl3 xxl3 sm6 nopad ">
+                                    <a href="/#/page-modules/product-cards">
+                                        <div class="viz-nav-img ">
+                                            <img src="/images/design-system/dept-11.png" alt="product-image" />
+                                        </div>
+                                        <h2 class="title title-M mrg-btm-XS algn-mid">Arts & Crafts</h2>
+                                    </a>
+                                </li>
+                                <li class="lg3 md3 xl3 xxl3 sm6 nopad ">
+                                    <a href="/#/page-modules/product-cards">
+                                        <div class="viz-nav-img ">
+                                            <img src="/images/design-system/dept-12.png" alt="product-image" />
+                                        </div>
+                                        <h2 class="title title-M mrg-btm-XS algn-mid">As Seen On TV</h2>
+                                    </a>
+                                </li>
+                                <li class="lg3 md3 xl3 xxl3 sm6 nopad ">
+                                    <a href="/#/page-modules/product-cards">
+                                        <div class="viz-nav-img ">
+                                            <img src="/images/design-system/dept-13.png" alt="product-image" />
+                                        </div>
+                                        <h2 class="title title-M mrg-btm-XS algn-mid">Auto Accessories</h2>
+                                    </a>
+                                </li>
+                                <li class="lg3 md3 xl3 xxl3 sm6 nopad ">
+                                    <a href="/#/page-modules/product-cards">
+                                        <div class="viz-nav-img ">
+                                            <img src="/images/design-system/dept-14.png" alt="product-image" />
+                                        </div>
+                                        <h2 class="title title-M mrg-btm-XS algn-mid">Backpacks</h2>
+                                    </a>
+                                </li>
+                                <li class="lg3 md3 xl3 xxl3 sm6 nopad ">
+                                    <a href="/#/page-modules/product-cards">
+                                        <div class="viz-nav-img ">
+                                            <img src="/images/design-system/dept-15.png" alt="product-image" />
+                                        </div>
+                                        <h2 class="title title-M mrg-btm-XS algn-mid">Bikes</h2>
+                                    </a>
+                                </li>
+                                <li class="lg3 md3 xl3 xxl3 sm6 nopad ">
+                                    <a href="/#/page-modules/product-cards">
+                                        <div class="viz-nav-img ">
+                                            <img src="/images/design-system/dept-16.png" alt="product-image" />
+                                        </div>
+                                        <h2 class="title title-M mrg-btm-XS algn-mid">Books & Games</h2>
+                                    </a>
+                                </li>
+                                <li class="lg3 md3 xl3 xxl3 sm6 nopad ">
+                                    <a href="/#/page-modules/product-cards">
+                                        <div class="viz-nav-img ">
+                                            <img src="/images/design-system/dept-17.png" alt="product-image" />
+                                        </div>
+                                        <h2 class="title title-M mrg-btm-XS algn-mid">Camping & Outdoor</h2>
+                                    </a>
+                                </li>
+                                <li class="lg3 md3 xl3 xxl3 sm6 nopad ">
+                                    <a href="/#/page-modules/product-cards">
+                                        <div class="viz-nav-img ">
+                                            <img src="/images/design-system/dept-18.png" alt="product-image" />
+                                        </div>
+                                        <h2 class="title title-M mrg-btm-XS algn-mid">Fitness & Healthy Living</h2>
+                                    </a>
+                                </li>
+                                <li class="lg3 md3 xl3 xxl3 sm6 nopad ">
+                                    <a href="/#/page-modules/product-cards">
+                                        <div class="viz-nav-img ">
+                                            <img src="/images/design-system/dept-19.png" alt="product-image" />
+                                        </div>
+                                        <h2 class="title title-M mrg-btm-XS algn-mid">Heating & Cooling</h2>
+                                    </a>
+                                </li>
+                                <li class="lg3 md3 xl3 xxl3 sm6 nopad ">
+                                    <a href="/#/page-modules/product-cards">
+                                        <div class="viz-nav-img ">
+                                            <img src="/images/design-system/dept-20.png" alt="product-image" />
+                                        </div>
+                                        <h2 class="title title-M mrg-btm-XS algn-mid">Holiday Decor</h2>
+                                    </a>
+                                </li>
+                                <li class="lg3 md3 xl3 xxl3 sm6 nopad ">
+                                    <a href="/#/page-modules/product-cards">
+                                        <div class="viz-nav-img ">
+                                            <img src="/images/design-system/dept-21.png" alt="product-image" />
+                                        </div>
+                                        <h2 class="title title-M mrg-btm-XS algn-mid">Home Improvement</h2>
+                                    </a>
+                                </li>
+                                <li class="lg3 md3 xl3 xxl3 sm6 nopad ">
+                                    <a href="/#/page-modules/product-cards">
+                                        <div class="viz-nav-img ">
+                                            <img src="/images/design-system/dept-22.png" alt="product-image" />
+                                        </div>
+                                        <h2 class="title title-M mrg-btm-XS algn-mid">Home Services</h2>
+                                    </a>
+                                </li>
+                                <li class="lg3 md3 xl3 xxl3 sm6 nopad ">
+                                    <a href="/#/page-modules/product-cards">
+                                        <div class="viz-nav-img ">
+                                            <img src="/images/design-system/dept-23.png" alt="product-image" />
+                                        </div>
+                                        <h2 class="title title-M mrg-btm-XS algn-mid">Irons & Laundry Care</h2>
+                                    </a>
+                                </li>
+                                <li class="lg3 md3 xl3 xxl3 sm6 nopad ">
+                                    <a href="/#/page-modules/product-cards">
+                                        <div class="viz-nav-img ">
+                                            <img src="/images/design-system/dept-24.png" alt="product-image" />
+                                        </div>
+                                        <h2 class="title title-M mrg-btm-XS algn-mid">Mobility & Daily Living Aids</h2>
+                                    </a>
+                                </li>
+                                <li class="lg3 md3 xl3 xxl3 sm6 nopad ">
+                                    <a href="/#/page-modules/product-cards">
+                                        <div class="viz-nav-img ">
+                                            <img src="/images/design-system/dept-25.png" alt="product-image" />
+                                        </div>
+                                        <h2 class="title title-M mrg-btm-XS algn-mid">Party Supplies</h2>
+                                    </a>
+                                </li>
+                                <li class="lg3 md3 xl3 xxl3 sm6 nopad ">
+                                    <a href="/#/page-modules/product-cards">
+                                        <div class="viz-nav-img ">
+                                            <img src="/images/design-system/dept-26.png" alt="product-image" />
+                                        </div>
+                                        <h2 class="title title-M mrg-btm-XS algn-mid">Pet Care</h2>
+                                    </a>
+                                </li>
+                                <li class="lg3 md3 xl3 xxl3 sm6 nopad ">
+                                    <a href="/#/page-modules/product-cards">
+                                        <div class="viz-nav-img ">
+                                            <img src="/images/design-system/dept-27.png" alt="product-image" />
+                                        </div>
+                                        <h2 class="title title-M mrg-btm-XS algn-mid">Sporting Goods & Recreation</h2>
+                                    </a>
+                                </li>
+                                <li class="lg3 md3 xl3 xxl3 sm6 nopad ">
+                                    <a href="/#/page-modules/product-cards">
+                                        <div class="viz-nav-img ">
+                                            <img src="/images/design-system/dept-28.png" alt="product-image" />
+                                        </div>
+                                        <h2 class="title title-M mrg-btm-XS algn-mid">Sports Fan Shop</h2>
+                                    </a>
+                                </li>
+                                <li class="lg3 md3 xl3 xxl3 sm6 nopad ">
+                                    <a href="/#/page-modules/product-cards">
+                                        <div class="viz-nav-img ">
+                                            <img src="/images/design-system/dept-29.png" alt="product-image" />
+                                        </div>
+                                        <h2 class="title title-M mrg-btm-XS algn-mid">Storage & Organization</h2>
+                                    </a>
+                                </li>
+                                <li class="lg3 md3 xl3 xxl3 sm6 nopad ">
+                                    <a href="/#/page-modules/product-cards">
+                                        <div class="viz-nav-img ">
+                                            <img src="/images/design-system/dept-30.png" alt="product-image" />
+                                        </div>
+                                        <h2 class="title title-M mrg-btm-XS algn-mid">Vacuums & Floor Care</h2>
+                                    </a>
+                                </li>
+                                <li class="lg3 md3 xl3 xxl3 sm6 nopad ">
+                                    <a href="/#/page-modules/product-cards">
+                                        <div class="viz-nav-img ">
+                                            <img src="/images/design-system/dept-31.png" alt="product-image" />
+                                        </div>
+                                        <h2 class="title title-M mrg-btm-XS algn-mid">Sale</h2>
+                                    </a>
+                                </li>
+                                <li class="lg3 md3 xl3 xxl3 sm6 nopad ">
+                                    <a href="/#/page-modules/product-cards">
+                                        <div class="viz-nav-img ">
+                                            <img src="/images/design-system/dept-32.png" alt="product-image" />
+                                        </div>
+                                        <h2 class="title title-M mrg-btm-XS algn-mid">Clearance</h2>
+                                    </a>
+                                </li>
+                                <li class="lg3 md3 xl3 xxl3 sm6 nopad ">
+                                    <a href="/#/page-modules/product-cards">
+                                        <div class="viz-nav-img ">
+                                            <img src="/images/design-system/dept-33.png" alt="product-image" />
+                                        </div>
+                                        <h2 class="title title-M mrg-btm-XS algn-mid">Rebate Center</h2>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
                 <Footer />
             </div>

@@ -25,8 +25,8 @@ class BFTestOne extends Component {
         <div>
           <div className="row">
             <div className="lg12 sm12 md12 xl12">
-              <h1 className="title title-XL fl-left black-friday-title">BLACK FRIDAY DEALS FOR HOME</h1>
-              <p className="std-txt std-txt-S fl-right black-friday-std-txt"><a href="/#/page-modules/product-cards">Shop All</a></p>
+              <h1 className="title title-XL fl-left black-friday-title">BLACK FRIDAY DEALS FOR BED AND BATH</h1>
+              <p className="std-txt std-txt-S fl-right black-friday-std-txt black-friday-shop-txt"><a href="/#/page-modules/product-cards">Shop All</a></p>
             </div>
             <div className="lg12 sm12 md12 xl12">
               <div className="product-card-wrapper black-friday-wrapper">
@@ -119,6 +119,9 @@ class BFTestOne extends Component {
             {/* <Footer /> */}
           </div>
           <div>
+          <div className="lg12 sm12 md12 xl12">
+          <h1 className="title title-XL fl-left black-friday-dep-title">shop bed and bath</h1>
+          </div>
         <div class="department-container dept-nav mrg-btm-XXL mrg-top-M">
             <ul class="department-block">
             <li class="lg3 md3 xl3 xxl3 sm6 nopad nopadd ">

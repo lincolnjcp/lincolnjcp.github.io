@@ -6,11 +6,16 @@
     text-decoration: none;
 } 
 
-.black-friday-title {
-    font-weight: var(--font-weight-regular);
+.black-friday-title, .black-friday-dep-title {
+    font-weight: var(--font-weight-bold);
     color: var(--color-design-system-nav);
     margin: 21px 0 15px;
     font-size: 24px;
+    text-transform: uppercase;
+}
+
+.black-friday-dep-title {
+    margin: 0;
 }
 
 .black-friday-std-txt {
@@ -114,12 +119,19 @@
 
 @media (--viewport-sm-down), (--viewport-sm-only)  {
     .black-friday-title {
-        width: 250px;
+        width: 270px;
         margin: 18px 0 7px;
+    }
+
+    .black-friday-dep-title {
+        width: 100%;
     }
 
     .black-friday-std-txt {
         margin: 54px 0 7px;
+        /* &.black-friday-shop-txt {
+            margin: 54px 0 7px;
+        } */
     }
 
     .black-friday-wrapper {
@@ -154,6 +166,18 @@
     .black-friday-title {
         width: 75%;
     }
+
+    .black-friday-dep-title {
+        width: 100%;
+    }
+
+    .black-friday-std-txt {
+        margin: 82px 0 7px;
+        /* &.black-friday-shop-txt {
+            margin: 82px 0 7px;
+        } */
+    }
+    
 }
 
 /*********************************

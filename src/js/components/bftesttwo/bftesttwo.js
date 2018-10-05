@@ -9,27 +9,30 @@ import $ from 'jquery';
 class BFTestTwo extends Component {
 
   componentDidMount() {
-    $( document ).ready(function() {
+    $(document).ready(function () {
       $(this).scrollTop(0);
-      $(".design-system-content").css('padding',0);
+      $(".design-system-content").css('padding', 0);
       $(".design-system-enable-hide").css('display', 'none');
       $('.design-system-nav-mobile-header').hide();
-      $(".design-system-wrap").css('margin',0);
-  });
-}
+      $(".design-system-wrap").css('margin', 0);
+    });
+  }
 
   render() {
     return (
       <div>
         <Header />
         <div class="black-headbanner">
-        <div class="department-container dept-nav mrg-btm-M">
-        <div class="sm12 lg12 md12 xl12 xxl12 nopad text-center">
-                    <a class="black-banner-image" href="/#/page-modules/product-cards">
-                        <img src="/images/design-system/blackfridaydeal.png" alt="blackFridayImg" /></a>
-                </div>
+          <div class="department-container dept-nav mrg-btm-M">
+            <div class="sm12 lg12 md12 xl12 xxl12 nopad text-center">
+              <a class="black-banner-image" href="/#/page-modules/product-cards">
+                <img src="/images/design-system/blackfridaydeal.png" alt="blackFridayImg" /></a>
+            </div>
+            <div className="lg12 sm12 md12 xl12 mrg-top-M">
+              <h1 className="title title-XL fl-left black-friday-dep-title">shop bed and bath</h1>
+            </div>
             <ul class="department-block">
-            <li class="lg3 md3 xl3 xxl3 sm6 nopad nopadd ">
+              <li class="lg3 md3 xl3 xxl3 sm6 nopad nopadd ">
                 <a href="/#/page-modules/product-cards">
                   <div class="viz-nav-img ">
                     <img src="/images/design-system/dept-001.png" alt="product-image" />
@@ -311,8 +314,8 @@ class BFTestTwo extends Component {
               </li>
             </ul>
           </div>
-          </div>
-          <Footer />
+        </div>
+        <Footer />
       </div>
     );
   }
