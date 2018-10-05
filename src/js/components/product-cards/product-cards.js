@@ -104,7 +104,7 @@ class ProductCards extends Component {
                                                 </div>
                                             </div>
                                             <div class="product-card-thumbnail">
-                                                <a href="/#/page-layouts/pdp"><img src="/images/design-system/fpo/product-cards/product-card-grid-pane-1.jpg" alt="Samsung ENERGY STAR" /></a>
+                                                <a href="/#/page-layouts/pdp"><img src="http://s7d4.scene7.com/is/image/JCPenney/DP0513201417083570M.tif?wid=350&hei=350&op_usm=.4,.8,0,0&resmode=sharp2" alt="Samsung ENERGY STAR" /></a>
                                                 <div class="shop-collection title title-XS"><span class="hide-for-small-only">SHOP THE</span> COLLECTION</div>
                                             </div>
                                         </div>
@@ -136,11 +136,16 @@ class ProductCards extends Component {
                                         <div class="product-card-details">
                                             <div class="promo-lbl promo-lbl-XS mrg-btm-XS color-penneyred">GREEN MONDAL DEAL!</div>
                                             <div class="price price-M">
-                                                <span class="mrg-rght-XS">
-                                                    <sup class="sup-text-S">$</sup>33<sup class="sup-text-S">99</sup>
-                                                </span>
-                                                <span class="price price-note color-penneyred clearance-S">clearance</span>
+                                                <span class="title title-XS from-label color-penneyred">from</span>
+                                                <div class="price price-M flag flag-price"><sup class="sup-text">$</sup>2<sup class="sup-text">24</sup></div>
+                                                <span class="price price-note color-penneyred after-coupon">after coupon</span>
+                                                <div class="price price-note-M std-txt mrg-top-XS">
+                                                    <span class="mrg-rght-S">was $6- $48</span>
+                                                </div>
                                             </div>
+
+                                       
+
                                             <div class="product-card-name-wrap">
                                                 <a href="/#/page-layouts/pdp" class="product-card-name std-txt std-txt-S std-txt-XS-at-S color-nightsky">Lorem Ipsumd Dolor Sit Amet Consec Ter Adpisicing Alit…</a>
                                             </div>
@@ -185,7 +190,8 @@ class ProductCards extends Component {
                                                 </div>
                                             </div>
                                             <div class="product-card-thumbnail">
-                                                <a href="/#/page-layouts/pdp"><img src="/images/design-system/fpo/product-cards/product-card-grid-pane-1.jpg" alt="Samsung ENERGY STAR" /></a>
+                                                <a href="/#/page-layouts/pdp"><img src="http://s7d4.scene7.com/is/image/JCPenney/DP1106201708094517C.tif
+?wid=350&hei=350&op_usm=.4,.8,0,0&resmode=sharp2" alt="Samsung ENERGY STAR" /></a>
                                                 <div class="shop-collection title title-XS"><span class="hide-for-small-only">SHOP THE</span> COLLECTION</div>
                                             </div>
                                         </div>
@@ -216,7 +222,14 @@ class ProductCards extends Component {
                                         </div>
                                         <div class="product-card-details">
                                             <div class="promo-lbl promo-lbl-XS mrg-btm-XS color-penneyred">GREEN MONDAL DEAL!</div>
-                                            <div class="price price-M"><sup class="sup-text">$</sup>74<sup class="sup-text">99</sup></div>
+                                            <div class="price price-M">
+                                                <span class="title title-XS from-label color-penneyred">from</span>
+                                                <div class="price price-M flag flag-price"><sup class="sup-text">$</sup>2<sup class="sup-text">24</sup></div>
+                                                <span class="price price-note color-penneyred after-coupon">after coupon</span>
+                                                <div class="price price-note-M std-txt mrg-top-XS">
+                                                    <span class="mrg-rght-S">was $6 - $10</span>
+                                                </div>
+                                            </div>
                                             <div class="promo-lbl promo-lbl-XS mrg-btm-XS color-penneyred">Buy 1 Get 1 Free</div>
                                             <div class="product-card-name-wrap">
                                                 <a href="/#/page-layouts/pdp" class="product-card-name std-txt std-txt-S std-txt-XS-at-S color-nightsky">Lorem Ipsumd Dolor Sit Amet Consec Ter Adpisicing Alit…</a>
@@ -262,7 +275,7 @@ class ProductCards extends Component {
                                                 </div>
                                             </div>
                                             <div class="product-card-thumbnail">
-                                                <a href="/#/page-layouts/pdp"><img src="/images/design-system/fpo/product-cards/product-card-grid-pane-1.jpg" alt="Samsung ENERGY STAR" /></a>
+                                                <a href="/#/page-layouts/pdp"><img src="http://s7d4.scene7.com/is/image/JCPenney/DP1217201520314502C.tif?wid=350&hei=350&op_usm=.4,.8,0,0&resmode=sharp2" alt="Samsung ENERGY STAR" /></a>
                                                 <div class="shop-collection title title-XS"><span class="hide-for-small-only">SHOP THE</span> COLLECTION</div>
                                             </div>
                                         </div>
@@ -339,7 +352,7 @@ class ProductCards extends Component {
                                                 </div>
                                             </div>
                                             <div class="product-card-thumbnail">
-                                                <a href="/#/page-layouts/pdp"><img src="/images/design-system/fpo/product-cards/product-card-grid-pane-1.jpg" alt="Samsung ENERGY STAR" /></a>
+                                                <a href="/#/page-layouts/pdp"><img src="http://s7d4.scene7.com/is/image/JCPenney/DP0624201617292505M.tif?wid=350&hei=350&op_usm=.4,.8,0,0&resmode=sharp2" alt="Samsung ENERGY STAR" /></a>
                                                 <div class="shop-collection title title-XS"><span class="hide-for-small-only">SHOP THE</span> COLLECTION</div>
                                             </div>
                                         </div>
@@ -413,7 +426,7 @@ class ProductCards extends Component {
                                                 </div>
                                             </div>
                                             <div class="product-card-thumbnail">
-                                                <a href="/#/page-layouts/pdp"><img src="/images/design-system/fpo/product-cards/product-card-grid-pane-1.jpg" alt="Samsung ENERGY STAR" /></a>
+                                                <a href="/#/page-layouts/pdp"><img src="http://s7d4.scene7.com/is/image/JCPenney/DP0526201717230454M.tif?wid=350&hei=350&op_usm=.4,.8,0,0&resmode=sharp2" alt="Samsung ENERGY STAR" /></a>
                                                 <div class="shop-collection title title-XS"><span class="hide-for-small-only">SHOP THE</span> COLLECTION</div>
                                             </div>
                                         </div>
@@ -495,7 +508,7 @@ class ProductCards extends Component {
                                                 </div>
                                             </div>
                                             <div class="product-card-thumbnail">
-                                                <a href="/#/page-layouts/pdp"><img src="/images/design-system/fpo/product-cards/product-card-grid-pane-1.jpg" alt="Samsung ENERGY STAR" /></a>
+                                                <a href="/#/page-layouts/pdp"><img src="http://s7d4.scene7.com/is/image/JCPenney/DP0220201717172632M.tif?wid=350&hei=350&op_usm=.4,.8,0,0&resmode=sharp2" alt="Samsung ENERGY STAR" /></a>
                                                 <div class="shop-collection title title-XS"><span class="hide-for-small-only">SHOP THE</span> COLLECTION</div>
                                             </div>
                                         </div>
@@ -574,7 +587,8 @@ class ProductCards extends Component {
                                                 </div>
                                             </div>
                                             <div class="product-card-thumbnail">
-                                                <a href="/#/page-layouts/pdp"><img src="/images/design-system/fpo/product-cards/product-card-grid-pane-1.jpg" alt="Samsung ENERGY STAR" /></a>
+                                                <a href="/#/page-layouts/pdp"><img src="http://s7d4.scene7.com/is/image/JCPenney/DP0609201520364949C.tif
+?wid=350&hei=350&op_usm=.4,.8,0,0&resmode=sharp2" alt="Samsung ENERGY STAR" /></a>
                                                 <div class="shop-collection title title-XS"><span class="hide-for-small-only">SHOP THE</span> COLLECTION</div>
                                             </div>
                                         </div>
@@ -655,7 +669,7 @@ class ProductCards extends Component {
                                                 </div>
                                             </div>
                                             <div class="product-card-thumbnail">
-                                                <a href="/#/page-layouts/pdp"><img src="/images/design-system/fpo/product-cards/product-card-grid-pane-1.jpg" alt="Samsung ENERGY STAR" /></a>
+                                                <a href="/#/page-layouts/pdp"><img src="http://s7d4.scene7.com/is/image/JCPenney/DP1217201520314502C.tif?wid=350&hei=350&op_usm=.4,.8,0,0&resmode=sharp2" alt="Samsung ENERGY STAR" /></a>
                                                 <div class="shop-collection title title-XS"><span class="hide-for-small-only">SHOP THE</span> COLLECTION</div>
                                             </div>
                                         </div>

@@ -226,6 +226,10 @@
   margin-top: 1px;
 }
 
+& .after-coupon {
+		width: 122px;
+}
+
   @media (--viewport-md-down)  {
     & .price { 
       &.price-XS {
