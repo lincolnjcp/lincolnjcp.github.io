@@ -9,12 +9,13 @@ import $ from 'jquery';
 class BFTestOne extends Component {
 
   componentDidMount() {
-    $(document).ready(function () {
-      $(".design-system-content").css('padding', 0);
-      $(".design-system-enable-hide").css('display', 'none');
-      $('.design-system-nav-mobile-header').hide();
-      $(".design-system-wrap").css('margin', 0);
-    });
+        $( document ).ready(function() {
+          $(this).scrollTop(0);
+          $(".design-system-content").css('padding',0);
+          $(".design-system-enable-hide").css('display', 'none');
+          $('.design-system-nav-mobile-header').hide();
+          $(".design-system-wrap").css('margin',0);
+      });
   }
 
   render() {

@@ -90,9 +90,9 @@ class Carousel extends Component {
       currentSlideIndex: 0,
       secondarySlideIndex: 0,
       selectedImage:
-        "https://s7d9.scene7.com/is/image/JCPenney/DP0726201617201191M?hei=500&amp;wid=500&op_usm=.4,.8,0,0&resmode=sharp2",
+        "https://s7d9.scene7.com/is/image/JCPenney/DP0526201717230454M?resmode=sharp2&op_sharpen=1&wid=550&hei=550",
       secondarySelectedImage:
-        "https://s7d9.scene7.com/is/image/JCPenney/DP0726201617201191M?hei=500&amp;wid=500&op_usm=.4,.8,0,0&resmode=sharp2",
+        "https://s7d9.scene7.com/is/image/JCPenney/DP0526201717230454M?resmode=sharp2&op_sharpen=1&wid=550&hei=550",
     };
   }
 
@@ -255,26 +255,26 @@ class Carousel extends Component {
     };
 
     const PrimaryImgUrls = [
-      "https://s7d9.scene7.com/is/image/JCPenney/DP0726201617201191M?hei=500&amp;wid=500&op_usm=.4,.8,0,0&resmode=sharp2",
+      "https://s7d9.scene7.com/is/image/JCPenney/DP0526201717230454M?resmode=sharp2&op_sharpen=1&wid=550&hei=550",
       "https://s7d9.scene7.com/is/image/JCPenney/DP0913201618055525M?hei=500&amp;wid=500&op_usm=.4,.8,0,0&resmode=sharp2",
       "https://s7d9.scene7.com/is/image/JCPenney/DP0615201717271938M?hei=500&amp;wid=500&op_usm=.4,.8,0,0&resmode=sharp2",
       "https://s7d9.scene7.com/is/image/JCPenney/DP0607201617024741M?hei=500&amp;wid=500&op_usm=.4,.8,0,0&resmode=sharp2",
       "https://s7d9.scene7.com/is/image/JCPenney/DP0913201618055525M?hei=500&amp;wid=500&op_usm=.4,.8,0,0&resmode=sharp2",
-      "https://s7d9.scene7.com/is/image/JCPenney/DP0726201617201191M?hei=500&amp;wid=500&op_usm=.4,.8,0,0&resmode=sharp2",
+      "https://s7d9.scene7.com/is/image/JCPenney/DP0526201717230454M?resmode=sharp2&op_sharpen=1&wid=550&hei=550",
       "https://s7d9.scene7.com/is/image/JCPenney/DP0913201618055525M?hei=500&amp;wid=500&op_usm=.4,.8,0,0&resmode=sharp2",
       "https://s7d9.scene7.com/is/image/JCPenney/DP0615201717271938M?hei=500&amp;wid=500&op_usm=.4,.8,0,0&resmode=sharp2",
       "https://s7d9.scene7.com/is/image/JCPenney/DP0607201617024741M?hei=500&amp;wid=500&op_usm=.4,.8,0,0&resmode=sharp2",
       "https://s7d9.scene7.com/is/image/JCPenney/DP0913201618055525M?hei=500&amp;wid=500&op_usm=.4,.8,0,0&resmode=sharp2",
-      "https://s7d9.scene7.com/is/image/JCPenney/DP0726201617201191M?hei=500&amp;wid=500&op_usm=.4,.8,0,0&resmode=sharp2",
+      "https://s7d9.scene7.com/is/image/JCPenney/DP0526201717230454M?resmode=sharp2&op_sharpen=1&wid=550&hei=550",
     ];
 
     const secondarySlideImageUrls = [
-      "https://s7d9.scene7.com/is/image/JCPenney/DP0726201617201191M?hei=500&amp;wid=500&op_usm=.4,.8,0,0&resmode=sharp2",
+      "https://s7d9.scene7.com/is/image/JCPenney/DP0526201717230454M?resmode=sharp2&op_sharpen=1&wid=550&hei=550",
       "https://s7d9.scene7.com/is/image/JCPenney/DP0913201618055525M?hei=500&amp;wid=500&op_usm=.4,.8,0,0&resmode=sharp2",
       "https://s7d9.scene7.com/is/image/JCPenney/DP0607201617024741M?hei=500&amp;wid=500&op_usm=.4,.8,0,0&resmode=sharp2",
       "https://s7d9.scene7.com/is/image/JCPenney/DP0615201717271938M?hei=500&amp;wid=500&op_usm=.4,.8,0,0&resmode=sharp2",
       "https://s7d9.scene7.com/is/image/JCPenney/DP0913201618055525M?hei=500&amp;wid=500&op_usm=.4,.8,0,0&resmode=sharp2",
-      "https://s7d9.scene7.com/is/image/JCPenney/DP0726201617201191M?hei=500&amp;wid=500&op_usm=.4,.8,0,0&resmode=sharp2",
+      "https://s7d9.scene7.com/is/image/JCPenney/DP0526201717230454M?resmode=sharp2&op_sharpen=1&wid=550&hei=550",
       "https://s7d9.scene7.com/is/image/JCPenney/DP0913201618055525M?hei=500&amp;wid=500&op_usm=.4,.8,0,0&resmode=sharp2",
       "https://s7d9.scene7.com/is/image/JCPenney/DP0607201617024741M?hei=500&amp;wid=500&op_usm=.4,.8,0,0&resmode=sharp2",
       "https://s7d9.scene7.com/is/image/JCPenney/DP0615201717271938M?hei=500&amp;wid=500&op_usm=.4,.8,0,0&resmode=sharp2",

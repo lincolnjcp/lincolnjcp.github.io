@@ -10,6 +10,7 @@ class BFTestTwo extends Component {
 
   componentDidMount() {
     $( document ).ready(function() {
+      $(this).scrollTop(0);
       $(".design-system-content").css('padding',0);
       $(".design-system-enable-hide").css('display', 'none');
       $('.design-system-nav-mobile-header').hide();
@@ -25,9 +26,25 @@ class BFTestTwo extends Component {
         <div class="department-container dept-nav mrg-btm-M">
         <div class="sm12 lg12 md12 xl12 xxl12 nopad text-center">
                     <a class="black-banner-image" href="/#/page-modules/product-cards">
-                        <img src="/images/design-system/blackfridaydeal.jpg" alt="blackFridayImg" /></a>
+                        <img src="/images/design-system/blackfridaydeal.png" alt="blackFridayImg" /></a>
                 </div>
             <ul class="department-block">
+            <li class="lg3 md3 xl3 xxl3 sm6 nopad nopadd ">
+                <a href="/#/page-modules/product-cards">
+                  <div class="viz-nav-img ">
+                    <img src="/images/design-system/dept-001.png" alt="product-image" />
+                  </div>
+                  <h2 class="title title-M mrg-btm-XS algn-mid">Bed & Bath</h2>
+                </a>
+              </li>
+              <li class="lg3 md3 xl3 xxl3 sm6 nopad nopadd ">
+                <a href="/#/page-modules/product-cards">
+                  <div class="viz-nav-img ">
+                    <img src="/images/design-system/dept-002.png" alt="product-image" />
+                  </div>
+                  <h2 class="title title-M mrg-btm-XS algn-mid">Window</h2>
+                </a>
+              </li>
               <li class="lg3 md3 xl3 xxl3 sm6 nopad nopadd ">
                 <a href="/#/page-modules/product-cards">
                   <div class="viz-nav-img ">

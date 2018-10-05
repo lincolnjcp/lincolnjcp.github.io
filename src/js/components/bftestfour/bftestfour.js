@@ -93,6 +93,7 @@ class BfTestFour extends Component {
     componentDidMount() {
         this.listenScrollEvent = this.listenScrollEvent.bind(this);
         $( document ).ready(function() {
+            $(this).scrollTop(0);
             $(".design-system-content").css('padding',0);
             $(".design-system-enable-hide").css('display', 'none');
             $('.design-system-nav-mobile-header').hide();
@@ -1286,7 +1287,7 @@ class BfTestFour extends Component {
                 <br/>
                 <div class="sm12 lg12 md12 xl12 xxl12 nopad text-center">
                     <a class="black-banner-image" href="/#/page-modules/product-cards">
-                        <img src="/images/design-system/blackfridaydeal.jpg" alt="blackFridayImg" /></a>
+                        <img src="/images/design-system/blackfridaydeal.png" alt="blackFridayImg" /></a>
                 </div>
 <br/><br/>
 <div>

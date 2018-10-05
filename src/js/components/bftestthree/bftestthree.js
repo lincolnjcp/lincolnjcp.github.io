@@ -8,8 +8,9 @@ import $ from 'jquery';
 class BFTestThree extends Component {
 
   componentDidMount() {
-    $(document).ready(function () {
-      $(".design-system-content").css('padding', 0);
+    $( document ).ready(function() {
+      $(this).scrollTop(0);
+      $(".design-system-content").css('padding',0);
       $(".design-system-enable-hide").css('display', 'none');
       $('.design-system-nav-mobile-header').hide();
       $(".design-system-wrap").css('margin', 0);
@@ -21,27 +22,26 @@ class BFTestThree extends Component {
       <div>
         <Header />
         <div class="black-headbanner">
-          <div className="row">
-            <div class="sm12 lg12 md12 xl12 xxl12 nopad text-center">
-              <a class="black-banner-image" href="/#/page-modules/product-cards">
-                <img src="/images/design-system/blackfridaydeal.jpg" alt="blackFridayImg" /></a>
-            </div>
-            {/* <Header /> */}
-            <div className="lg12 sm12 md12 xl12">
-              <h1 className="title title-XL fl-left black-friday-title">BLACK FRIDAY DEALS FOR HOME</h1>
-              <p className="std-txt std-txt-S fl-right black-friday-std-txt"><a href="javascript:void(0);">Shop All</a></p>
-            </div>
-            <div className="lg12 sm12 md12 xl12">
-              <div className="product-card-wrapper black-friday-wrapper">
-                <a href="/#/page-modules/product-cards" className="black-friday-container sm6 nopad">
-                  <div className="product-card product-card-pane-grid black-friday-pane-grid">
-                    <div className="black-friday-card-inner black-friday-product1">
-                      <div className="product-card-details">
-                        <div className="price price-M black-friday-price-L color-penneyred">14<sup class="sup-text black-friday-sup-text">99</sup></div>
-                        <div class="product-card-name-wrap">
-                          <div className="black-friday-card-name">Quinto or Soleil 16-pc Dinnerware set; service for 4 ›
-                                    <span className="black-friday-price">reg. $50</span></div>
-                        </div>
+        <div className="row">
+        <div class="sm12 lg12 md12 xl12 xxl12 nopad text-center">
+            <a class="black-banner-image" href="/#/page-modules/product-cards">
+              <img src="/images/design-system/blackfridaydeal.png" alt="blackFridayImg" /></a>
+          </div>
+          {/* <Header /> */}
+          <div className="lg12 sm12 md12 xl12">
+            <h1 className="title title-XL fl-left black-friday-title">BLACK FRIDAY DEALS FOR HOME</h1>
+            <p className="std-txt std-txt-S fl-right black-friday-std-txt"><a href="javascript:void(0);">Shop All</a></p>
+          </div>
+          <div className="lg12 sm12 md12 xl12">
+            <div className="product-card-wrapper black-friday-wrapper">
+              <a href="/#/page-modules/product-cards" className="black-friday-container sm6 nopad">
+                <div className="product-card product-card-pane-grid black-friday-pane-grid">
+                  <div className="black-friday-card-inner black-friday-product1">
+                    <div className="product-card-details">
+                      <div className="price price-M black-friday-price-L color-penneyred">14<sup class="sup-text">99</sup></div>
+                      <div class="product-card-name-wrap">
+                        <div className="black-friday-card-name">Quinto or Soleil 16-pc Dinnerware set; service for 4 ›
+                                        <span className="black-friday-price">reg. $50</span></div>
                       </div>
                     </div>
                   </div>

@@ -226,7 +226,7 @@ class RecommendationZone
 
                         <div className="product-card-thumbnail mrg-btm-S">
                           <a href="/#/page-layouts/pdp">
-                            <img src='/images/design-system/fpo/product-cards/product-card-recommendations-1.jpg' alt="product-image" />
+                            <img src='https://s7d9.scene7.com/is/image/JCPenney/DP0227201718435716M?wid=170&hei=170&op_sharpen=1' alt="product-image" />
                           </a>
                         </div>
 
@@ -283,7 +283,7 @@ class RecommendationZone
 
                         <div className="product-card-thumbnail mrg-btm-S">
                           <a href="/#/page-layouts/pdp">
-                            <img src='/images/design-system/fpo/product-cards/product-card-recommendations-2.jpg' alt="product-image" />
+                            <img src='http://s7d9.scene7.com/is/image/JCPenney/DP1102201617105373M?wid=170&hei=170&op_sharpen=1' alt="product-image" />
                           </a>
                         </div>
                         <div>
@@ -335,7 +335,7 @@ class RecommendationZone
 
                         <div className="product-card-thumbnail mrg-btm-S">
                           <a href="/#/page-layouts/pdp">
-                            <img src='/images/design-system/fpo/product-cards/product-card-recommendations-3.jpg' alt="product-image" />
+                            <img src='http://s7d9.scene7.com/is/image/JCPenney/DP1121201317092529M?wid=170&hei=170&op_sharpen=1' alt="product-image" />
                           </a>
                         </div>
                         <div>
@@ -389,7 +389,7 @@ class RecommendationZone
 
                         <div className="product-card-thumbnail mrg-btm-S">
                           <a href="/#/page-layouts/pdp">
-                            <img src='/images/design-system/fpo/product-cards/product-card-recommendations-4.jpg' alt="product-image" />
+                            <img src='http://s7d9.scene7.com/is/image/JCPenney/DP1223201617152655M?wid=170&hei=170&op_sharpen=1' alt="product-image" />
                           </a>
                         </div>
                         <div>
@@ -438,7 +438,7 @@ class RecommendationZone
 
                         <div className="product-card-thumbnail mrg-btm-S">
                           <a href="/#/page-layouts/pdp">
-                            <img src='/images/design-system/fpo/product-cards/product-card-recommendations-5.jpg' alt="product-image" />
+                            <img src='http://s7d9.scene7.com/is/image/JCPenney/DP0313201717240091M?wid=170&hei=170&op_sharpen=1' alt="product-image" />
                           </a>
                         </div>
                         <div>
@@ -492,7 +492,7 @@ class RecommendationZone
 
                         <div className="product-card-thumbnail mrg-btm-S">
                           <a href="/#/page-layouts/pdp">
-                            <img src='/images/design-system/fpo/product-cards/product-card-recommendations-6.jpg' alt="product-image" />
+                            <img src='http://s7d9.scene7.com/is/image/JCPenney/DP0630201717325921M?wid=170&hei=170&op_sharpen=1' alt="product-image" />
                           </a>
                         </div>
                         <div>
@@ -545,7 +545,7 @@ class RecommendationZone
 
                         <div className="product-card-thumbnail mrg-btm-S">
                           <a href="/#/page-layouts/pdp">
-                            <img src='/images/design-system/fpo/product-cards/product-card-recommendations-7.jpg' alt="product-image" />
+                            <img src='http://s7d9.scene7.com/is/image/JCPenney/DP0513201417083570M?wid=170&amp;hei=170&amp;op_sharpen=1' alt="product-image" />
                           </a>
                         </div>
                         <div>
@@ -598,7 +598,7 @@ class RecommendationZone
 
                         <div className="product-card-thumbnail mrg-btm-S">
                           <a href="/#/page-layouts/pdp">
-                            <img src='/images/design-system/fpo/product-cards/product-card-recommendations-8.jpg' alt="product-image" />
+                            <img src='http://s7d9.scene7.com/is/image/JCPenney/DP0801201717275926M?wid=170&amp;hei=170&amp;op_sharpen=1' alt="product-image" />
                           </a>
                         </div>
                         <div>
@@ -650,7 +650,7 @@ class RecommendationZone
 
                         <div className="product-card-thumbnail mrg-btm-S">
                           <a href="/#/page-layouts/pdp">
-                            <img src='/images/design-system/fpo/product-cards/product-card-recommendations-1.jpg' alt="product-image" />
+                            <img src='http://s7d9.scene7.com/is/image/JCPenney/DP0313201717240091M?wid=170&hei=170&op_sharpen=1' alt="product-image" />
                           </a>
                         </div>
                         <div className="promo-lbl promo-lbl-XS mrg-btm-XS color-penneyred">
@@ -703,7 +703,7 @@ class RecommendationZone
 
                         <div className="product-card-thumbnail mrg-btm-S">
                           <a href="/#/page-layouts/pdp">
-                            <img src='/images/design-system/fpo/product-cards/product-card-recommendations-2.jpg' alt="product-image" />
+                            <img src='http://s7d9.scene7.com/is/image/JCPenney/DP0630201717325921M?wid=170&hei=170&op_sharpen=1' alt="product-image" />
                           </a>
                         </div>
                         <div>
@@ -755,7 +755,7 @@ class RecommendationZone
 
                         <div className="product-card-thumbnail mrg-btm-S">
                           <a href="/#/page-layouts/pdp">
-                            <img src='/images/design-system/fpo/product-cards/product-card-recommendations-3.jpg' alt="product-image" />
+                            <img src='http://s7d9.scene7.com/is/image/JCPenney/DP0513201417083570M?wid=170&amp;hei=170&amp;op_sharpen=1' alt="product-image" />
                           </a>
                         </div>
                         <div>
@@ -810,7 +810,7 @@ class RecommendationZone
 
                         <div className="product-card-thumbnail mrg-btm-S">
                           <a href="/#/page-layouts/pdp">
-                            <img src='/images/design-system/fpo/product-cards/product-card-recommendations-4.jpg' alt="product-image" />
+                            <img src='http://s7d9.scene7.com/is/image/JCPenney/DP0801201717275926M?wid=170&amp;hei=170&amp;op_sharpen=1' alt="product-image" />
                           </a>
                         </div>
                         <div>
@@ -860,7 +860,7 @@ class RecommendationZone
 
                         <div className="product-card-thumbnail mrg-btm-S">
                           <a href="/#/page-layouts/pdp">
-                            <img src='/images/design-system/fpo/product-cards/product-card-recommendations-5.jpg' alt="product-image" />
+                            <img src='http://s7d9.scene7.com/is/image/JCPenney/DP0201201718522256M?wid=170&amp;hei=170&amp;op_sharpen=1' alt="product-image" />
                           </a>
                         </div>
                         <div>
@@ -914,7 +914,7 @@ class RecommendationZone
 
                         <div className="product-card-thumbnail mrg-btm-S">
                           <a href="/#/page-layouts/pdp">
-                            <img src='/images/design-system/fpo/product-cards/product-card-recommendations-6.jpg' alt="product-image" />
+                            <img src='http://s7d9.scene7.com/is/image/JCPenney/DP1217201520314502C?wid=170&amp;hei=170&amp;op_sharpen=1' alt="product-image" />
                           </a>
                         </div>
                         <div>
@@ -967,7 +967,7 @@ class RecommendationZone
 
                         <div className="product-card-thumbnail mrg-btm-S">
                           <a href="/#/page-layouts/pdp">
-                            <img src='/images/design-system/fpo/product-cards/product-card-recommendations-7.jpg' alt="product-image" />
+                            <img src='http://s7d9.scene7.com/is/image/JCPenney/DP0624201617292505M?wid=170&amp;hei=170&amp;op_sharpen=1' alt="product-image" />
                           </a>
                         </div>
                         <div>
@@ -1020,7 +1020,7 @@ class RecommendationZone
 
                         <div className="product-card-thumbnail mrg-btm-S">
                           <a href="/#/page-layouts/pdp">
-                            <img src='/images/design-system/fpo/product-cards/product-card-recommendations-8.jpg' alt="product-image" />
+                            <img src='http://s7d9.scene7.com/is/image/JCPenney/DP0831201820340525C?wid=170&amp;hei=170&amp;op_sharpen=1' alt="product-image" />
                           </a>
                         </div>
                         <div>
