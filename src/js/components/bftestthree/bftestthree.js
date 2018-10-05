@@ -30,7 +30,7 @@ class BFTestThree extends Component {
           {/* <Header /> */}
           <div className="lg12 sm12 md12 xl12">
             <h1 className="title title-XL fl-left black-friday-title">BLACK FRIDAY DEALS FOR HOME</h1>
-            <p className="std-txt std-txt-S fl-right black-friday-std-txt"><a href="javascript:void(0);">Shop All</a></p>
+            <p className="std-txt std-txt-S fl-right black-friday-std-txt"><a href="/#/page-modules/product-cards">Shop All</a></p>
           </div>
           <div className="lg12 sm12 md12 xl12">
           <div className="product-card-wrapper black-friday-wrapper">
