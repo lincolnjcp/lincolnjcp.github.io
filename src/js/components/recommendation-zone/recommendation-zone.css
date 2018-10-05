@@ -138,6 +138,9 @@
 				left: 8px;
 				cursor: pointer
 			}
+			@media (--viewport-sm-down), (--viewport-sm-only) {
+				width: 100px;
+			}
 		}
 		& .rec-zone-chevron-right{
 			width: 180px;
@@ -145,6 +148,10 @@
 			& svg {
 				right: 8px;
 				cursor: pointer;
+			}
+
+			@media (--viewport-sm-down), (--viewport-sm-only) {
+				width: 100px;
 			}
 		}
 	}
