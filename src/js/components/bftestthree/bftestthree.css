@@ -1,5 +1,5 @@
 /*********************************
-/* Black Friday Test 1 and 3
+/* Black Friday Test 1
 *********************************/
 
 .black-friday-container {
@@ -7,16 +7,19 @@
 } 
 
 .black-friday-title {
-    font-weight: var(--font-weight-bold);
+    font-weight: var(--font-weight-regular);
     color: var(--color-design-system-nav);
     margin: 21px 0 15px;
+    font-size: 24px;
 }
 
 .black-friday-std-txt {
     font-family: var(--font-headline);
-    font-weight: var(--font-weight-bold);
+    font-weight: var(--font-weight-regular);
     margin: 21px 0 15px;
     color: #006c7c;
+    font-size: 14px;
+
     & a {
         color: #006c7c;
         text-decoration: none;
@@ -32,10 +35,14 @@
     font-size: 14px;
     line-height: 18px;
     font-family: var(--font-body);
-    margin-top: 0;
+    margin-top: 2px;
     text-decoration: none;
-    width: 50%;
+    width: 62%;
     display: inline-block;
+
+    &.black-friday-card-name-pillow {
+        width: 40%;
+    }
 }
 
 .black-friday-card-inner {
@@ -52,11 +59,17 @@
 }
 
 .black-friday-price-L {
-    font-size: 24px;
-    line-height: 16px;
+    font-size: 24px !important;
+    line-height: 16px !important;
     font-family: var(--font-headline);
-    font-weight: var(--font-weight-bold);
+    font-weight: var(--font-weight-regular) !important;
     letter-spacing: -.33px;
+}
+
+.black-friday-sup-text {
+    font-weight: var(--font-weight-regular) !important;
+    position: relative;
+    top: -5px;
 }
 
 .black-friday-product1 {
@@ -106,7 +119,7 @@
     }
 
     .black-friday-std-txt {
-        margin: 57px 0 7px;
+        margin: 54px 0 7px;
     }
 
     .black-friday-wrapper {
@@ -129,7 +142,7 @@
     .black-friday-price {
         font-size: 8px;
         line-height: 8px;
-        margin-bottom: 5px;
+        margin-top: 2px;
     } 
 
     .black-friday-card-inner {
