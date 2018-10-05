@@ -9,6 +9,7 @@ class BFTestThree extends Component {
 
   componentDidMount() {
     $( document ).ready(function() {
+      $(this).scrollTop(0);
       $(".design-system-content").css('padding',0);
       $(".design-system-enable-hide").css('display', 'none');
       $('.design-system-nav-mobile-header').hide();

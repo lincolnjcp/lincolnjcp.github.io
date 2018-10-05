@@ -93,6 +93,7 @@ class BfTestFour extends Component {
     componentDidMount() {
         this.listenScrollEvent = this.listenScrollEvent.bind(this);
         $( document ).ready(function() {
+            $(this).scrollTop(0);
             $(".design-system-content").css('padding',0);
             $(".design-system-enable-hide").css('display', 'none');
             $('.design-system-nav-mobile-header').hide();
