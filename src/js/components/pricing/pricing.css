@@ -205,6 +205,11 @@
     position: relative;
     top: -6px;
     margin-right: 6px;
+
+    @media (--viewport-md-down) {
+        /* top: 3px;
+        margin-right: 3px; */
+    }
 }
 
 .clearance {
@@ -238,7 +243,7 @@
     font-size: 12px;
     line-height: 1.33;
     color: var( --color-price-grey);
-    
+
       & .saleprice{
           padding-right: 2px;
       }

@@ -120,6 +120,22 @@ class BFTestOne extends Component {
           <div>
         <div class="department-container dept-nav mrg-btm-XXL mrg-top-M">
             <ul class="department-block">
+            <li class="lg3 md3 xl3 xxl3 sm6 nopad nopadd ">
+                <a href="/#/page-modules/product-cards">
+                  <div class="viz-nav-img ">
+                    <img src="/images/design-system/dept-001.png" alt="product-image" />
+                  </div>
+                  <h2 class="title title-M mrg-btm-XS algn-mid">Bed & Bath</h2>
+                </a>
+              </li>
+              <li class="lg3 md3 xl3 xxl3 sm6 nopad nopadd ">
+                <a href="/#/page-modules/product-cards">
+                  <div class="viz-nav-img ">
+                    <img src="/images/design-system/dept-002.png" alt="product-image" />
+                  </div>
+                  <h2 class="title title-M mrg-btm-XS algn-mid">Window</h2>
+                </a>
+              </li>
               <li class="lg3 md3 xl3 xxl3 sm6 nopad ">
                 <a href="/#/page-modules/product-cards">
                   <div class="viz-nav-img ">
@@ -379,7 +395,7 @@ class BFTestOne extends Component {
               <li class="lg3 md3 xl3 xxl3 sm6 nopad ">
                 <a href="/#/page-modules/product-cards">
                   <div class="viz-nav-img ">
-                    <img src="/images/design-system/dept-30.png" alt="product-image" />
+                    <img src="/images/design-system/dept-33.png" alt="product-image" />
                   </div>
                   <h2 class="title title-M mrg-btm-XS algn-mid">Rebate Center</h2>
                 </a>

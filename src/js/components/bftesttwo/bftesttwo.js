@@ -304,7 +304,7 @@ class BFTestTwo extends Component {
               <li class="lg3 md3 xl3 xxl3 sm6 nopad nopadd ">
                 <a href="/#/page-modules/product-cards">
                   <div class="viz-nav-img ">
-                    <img src="/images/design-system/dept-30.png" alt="product-image" />
+                    <img src="/images/design-system/dept-33.png" alt="product-image" />
                   </div>
                   <h2 class="title title-M mrg-btm-XS algn-mid">Rebate Center</h2>
                 </a>
