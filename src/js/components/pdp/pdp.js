@@ -128,7 +128,7 @@ class Pdp extends Component {
                                 <li>Tops</li>
                             </ul>
                         </div>
-                        <h1 className="title title-L mrg-top-S mrg-btm-S">St. John's Bay Long Sleeve V Neck Pullover Sweater</h1>
+                        <h1 className="title title-L mrg-top-S mrg-btm-S">Home Expressions™ Bath Towel Collection</h1>
                         <div className="lg12 sm12 md12 xl12 nopad">
                             <div className="star-preview-col fl-left sm12 md6 lg6 xl6 nopad">
                                 <ul className="star-ratings-S">
@@ -164,8 +164,41 @@ class Pdp extends Component {
                         <Carousel />
                     </div>
                     <div className="md6 sm12 lg6 xl6">
-                        <div className="pdp-pricing mrg-btm-M">
-                            <div className="price-card">
+                        <div className="pdp-pricing">
+                        <div className="price-card">
+                        <p className="sale-price-summary" data-automation-id="sale-price-info">
+                           <span data-automation-id="at-price-value" className="price price-XLL">$2.99 - $19.99</span>
+                            <span data-automation-id="at-price-label" className="sale">sale</span>
+                        </p>
+                        <p className="salesummary">
+                            <span data-automation-id="price-original-type" className="saleprice">was</span>
+                            <span data-automation-id="price-original-price" className="pricing-txt"> $6 - $48</span>
+                        </p>
+                        <div data-automation-id="bundle-product-details" class="product-card-name std-txt std-txt-S color-shadow"><p>Update the look and feel of your bathroom with this bath collection featuring super-soft and durable towels and stain-resistant rugs.</p>
+                            <ul>
+                                <li>soft, ring-spun Indian cotton towels have a durable dobby border</li>
+                                <li>microfiber rugs have skid-resistant latex backing</li>
+                                <li>6-piece towel set including 2 washcloths, 2 hand towels and 2 bath towels</li>
+                                <li>2-piece rug set</li>
+                            </ul>
+
+                            <p>Cotton towels; polyester rugs with latex backing. Washable. Imported.</p>
+
+                            <ul>
+                                <li>Bath towel: 27x52"</li>
+                                <li>Hand towel: 16x26"&nbsp;</li>
+                                <li>Washcloth: 12x12"</li>
+                                <li>Oblong rugs: 17x24" and 20x34"</li>
+                            </ul>
+
+                            <p>You can purchase these towels individually, but your best value is to buy the six-piece set together. The set will give your bathroom a coordinated look and feel while saving you money.</p>
+
+                            <p>Care tip: Avoid contact with skincare products to help minimize towel spotting or bleaching.</p></div>
+                            <div className="sm12 md9 lg9 xl9 mrg-top-M">
+                                <a href="javascript:void();" role="button" className="btn btn-primary btn-M mrg-btm-L sm12 md12 lg12 xl12 txt-bold">Shop the Collection</a>
+                            </div>
+                            </div>
+                            {/* <div className="price-card hide">
                                 <div className="price price-promo mrg-btm-XS color-penneyred">LARGE MARKETING LABEL</div>
                                 <div className="price price-M mrg-rght-XS mrg-top-S mrg-btm-M">$59.99
                                 <span className="price price-note-M mrg-lft-XS"> sale </span>
@@ -177,7 +210,7 @@ class Pdp extends Component {
                                     <span className="price price-note-M color-penneyred">with coupon code: FUNDEAL </span>
                                     <span className="std-txt std-txt-XS"><a href="javascript:void(0);">details</a></span>
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                         <div className="fit-predictor mrg-btm-L">
                             <span className="title tile-M">Fit Predictor </span>

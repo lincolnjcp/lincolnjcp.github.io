@@ -167,8 +167,8 @@
     --font-weight-bold: 700;
     --font-weight-regular: 400;
 
-    /* Coupon
-    --color-coupon-grey:#53606b; */
+    /* Coupon */
+    --color-price-grey:#53606b; 
 
     /* Placeholder  */
    --color-placeholder-grey:#6b7883;

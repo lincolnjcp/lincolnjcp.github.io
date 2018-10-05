@@ -1287,7 +1287,7 @@ class BfTestFour extends Component {
                 <br/>
                 <div class="sm12 lg12 md12 xl12 xxl12 nopad text-center">
                     <a class="black-banner-image" href="/#/page-modules/product-cards">
-                        <img src="/images/design-system/blackfridaydeal.jpg" alt="blackFridayImg" /></a>
+                        <img src="/images/design-system/blackfridaydeal.png" alt="blackFridayImg" /></a>
                 </div>
 <br/><br/>
 <div>

@@ -25,7 +25,7 @@ class BFTestThree extends Component {
         <div className="row">
         <div class="sm12 lg12 md12 xl12 xxl12 nopad text-center">
             <a class="black-banner-image" href="/#/page-modules/product-cards">
-              <img src="/images/design-system/blackfridaydeal.jpg" alt="blackFridayImg" /></a>
+              <img src="/images/design-system/blackfridaydeal.png" alt="blackFridayImg" /></a>
           </div>
           {/* <Header /> */}
           <div className="lg12 sm12 md12 xl12">
