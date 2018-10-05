@@ -89,7 +89,7 @@ class ProductCards extends Component {
                 <div>
                 <div class="row">
                     <div class="sm12 columns">
-                        <h2><strong>Product Panes Grid</strong></h2>
+                        <h2>9 Results for <strong> "home expression bath towels"</strong></h2>
                         <hr />
                         <div class="product-card-wrapper mrg-btm-M">
                             <div class="product-card product-card-pane-grid">
@@ -134,7 +134,7 @@ class ProductCards extends Component {
                                             </div>
                                         </div>
                                         <div class="product-card-details">
-                                            <div class="promo-lbl promo-lbl-XS mrg-btm-XS color-penneyred">GREEN MONDAL DEAL!</div>
+                                            <div class="promo-lbl promo-lbl-XS mrg-btm-XS color-penneyred">BLACK FRIDAY DEAL!</div>
                                             <div class="price price-M">
                                                 <span class="title title-XS from-label color-penneyred">from</span>
                                                 <div class="price price-M flag flag-price"><sup class="sup-text">$</sup>2<sup class="sup-text">24</sup></div>
@@ -147,7 +147,7 @@ class ProductCards extends Component {
                                        
 
                                             <div class="product-card-name-wrap">
-                                                <a href="/#/page-layouts/pdp" class="product-card-name std-txt std-txt-S std-txt-XS-at-S color-nightsky">Lorem Ipsumd Dolor Sit Amet Consec Ter Adpisicing Alit…</a>
+                                                <a href="/#/page-layouts/pdp" class="product-card-name std-txt std-txt-S std-txt-XS-at-S color-nightsky">Home Expressions™ Solid Bath Towels</a>
                                             </div>
                                             <div class="star-preview-col review-star mrg-top-XS">
                                                 <ul class="star-ratings-S">
@@ -221,7 +221,7 @@ class ProductCards extends Component {
                                             </div>
                                         </div>
                                         <div class="product-card-details">
-                                            <div class="promo-lbl promo-lbl-XS mrg-btm-XS color-penneyred">GREEN MONDAL DEAL!</div>
+                                            <div class="promo-lbl promo-lbl-XS mrg-btm-XS color-penneyred">BLACK FRIDAY DEAL!</div>
                                             <div class="price price-M">
                                                 <span class="title title-XS from-label color-penneyred">from</span>
                                                 <div class="price price-M flag flag-price"><sup class="sup-text">$</sup>2<sup class="sup-text">24</sup></div>
@@ -232,7 +232,7 @@ class ProductCards extends Component {
                                             </div>
                                            
                                             <div class="product-card-name-wrap">
-                                                <a href="/#/page-layouts/pdp" class="product-card-name std-txt std-txt-S std-txt-XS-at-S color-nightsky">Lorem Ipsumd Dolor Sit Amet Consec Ter Adpisicing Alit…</a>
+                                                <a href="/#/page-layouts/pdp" class="product-card-name std-txt std-txt-S std-txt-XS-at-S color-nightsky">Home Expressions™ Ombre Stripe Bath Towels</a>
                                             </div>
                                             <div class="star-preview-col review-star mrg-top-XS">
                                                 <ul class="star-ratings-S">
@@ -305,7 +305,7 @@ class ProductCards extends Component {
                                             </div>
                                         </div>
                                         <div class="product-card-details">
-                                            <div class="promo-lbl promo-lbl-XS mrg-btm-XS color-penneyred">GREEN MONDAL DEAL!</div>
+                                            <div class="promo-lbl promo-lbl-XS mrg-btm-XS color-penneyred">BLACK FRIDAY DEAL!</div>
                                             <div class="price price-M">
                                                 <div class="price price-M flag flag-price"><sup class="sup-text">$</sup>14<sup class="sup-text">99</sup></div>
                                                 <span class="price price-note color-penneyred after-coupon-wrap">after coupon</span>
@@ -314,7 +314,7 @@ class ProductCards extends Component {
                                                 </div>
                                             </div>
                                             <div class="product-card-name-wrap">
-                                                <a href="/#/page-layouts/pdp" class="product-card-name std-txt std-txt-S std-txt-XS-at-S color-nightsky">Lorem Ipsumd Dolor Sit Amet Consec Ter Adpisicing Alit…</a>
+                                                <a href="/#/page-layouts/pdp" class="product-card-name std-txt std-txt-S std-txt-XS-at-S color-nightsky">Home Expressions™ 6-pc. Solid Bath Towel Set</a>
                                             </div>
                                             <div class="star-preview-col review-star mrg-top-XS">
                                                 <ul class="star-ratings-S">
@@ -384,7 +384,7 @@ class ProductCards extends Component {
                                             </div>
                                         </div>
                                         <div class="product-card-details">
-                                            <div class="promo-lbl promo-lbl-XS mrg-btm-XS color-penneyred">GREEN MONDAL DEAL!</div>
+                                            <div class="promo-lbl promo-lbl-XS mrg-btm-XS color-penneyred">BLACK FRIDAY DEAL!</div>
                                             <div class="price price-M">
                                                 <div class="price price-M flag flag-price"><sup class="sup-text">$</sup>14<sup class="sup-text">99</sup></div>
                                                 <span class="price price-note color-penneyred after-coupon-wrap">after coupon</span>
@@ -393,7 +393,7 @@ class ProductCards extends Component {
                                                 </div>
                                             </div>
                                             <div class="product-card-name-wrap">
-                                                <a href="/#/page-layouts/pdp" class="product-card-name std-txt std-txt-S std-txt-XS-at-S color-nightsky">Lorem Ipsumd Dolor Sit Amet Consec Ter Adpisicing Alit…</a>
+                                                <a href="/#/page-layouts/pdp" class="product-card-name std-txt std-txt-S std-txt-XS-at-S color-nightsky">Home Expressions™ 6-pc. Bath Towel Set</a>
                                             </div>
                                             <div class="star-preview-col review-star mrg-top-XS">
                                                 <ul class="star-ratings-S">
@@ -464,12 +464,12 @@ class ProductCards extends Component {
                                             </div>
                                         </div>
                                         <div class="product-card-details">
-                                            <div class="promo-lbl promo-lbl-XS mrg-btm-XS color-penneyred">GREEN MONDAL DEAL!</div>
+                                            <div class="promo-lbl promo-lbl-XS mrg-btm-XS color-penneyred">BLACK FRIDAY DEAL!</div>
                                             <div class="price price-M">
                                                 <sup class="sup-text">$</sup>16 - <sup class="sup-text">$</sup>550
                                             </div>
                                             <div class="product-card-name-wrap">
-                                                <a href="/#/page-layouts/pdp" class="product-card-name std-txt std-txt-S std-txt-XS-at-S color-nightsky">Lorem Ipsumd Dolor Sit Amet Consec Ter Adpisicing Alit…</a>
+                                                <a href="/#/page-layouts/pdp" class="product-card-name std-txt std-txt-S std-txt-XS-at-S color-nightsky">Home Expressions™ Bath Towel Collection</a>
                                             </div>
                                             <div class="star-preview-col review-star mrg-top-XS">
                                                 <ul class="star-ratings-S">
@@ -540,7 +540,7 @@ class ProductCards extends Component {
                                             </div>
                                         </div>
                                         <div class="product-card-details">
-                                            <div class="promo-lbl promo-lbl-XS mrg-btm-XS color-penneyred">GREEN MONDAL DEAL!</div>
+                                            <div class="promo-lbl promo-lbl-XS mrg-btm-XS color-penneyred">BLACK FRIDAY DEAL!</div>
                                             <span class="title title-XS from-label color-penneyred">from</span>
                                             <div class="price price-M flag flag-price"><sup class="sup-text">$</sup>2<sup class="sup-text">99</sup></div>
                                             <span class="price price-note color-penneyred after-coupon">after coupon</span>
@@ -548,7 +548,7 @@ class ProductCards extends Component {
                                                 <span class="mrg-rght-S">was $74.99 - $99.99</span>
                                             </div>
                                             <div class="product-card-name-wrap">
-                                                <a href="/#/page-layouts/pdp" class="product-card-name std-txt std-txt-S std-txt-XS-at-S color-nightsky">Lorem Ipsumd Dolor Sit Amet Consec Ter Adpisicing Alit…</a>
+                                                <a href="/#/page-layouts/pdp" class="product-card-name std-txt std-txt-S std-txt-XS-at-S color-nightsky">Home Expressions™ Solid or Print Bath Wraps</a>
                                             </div>
                                             <div class="star-preview-col review-star mrg-top-XS">
                                                 <ul class="star-ratings-S">
@@ -620,12 +620,12 @@ class ProductCards extends Component {
                                             </div>
                                         </div>
                                         <div class="product-card-details">
-                                            <div class="promo-lbl promo-lbl-XS mrg-btm-XS color-penneyred">GREEN MONDAL DEAL!</div>
+                                            <div class="promo-lbl promo-lbl-XS mrg-btm-XS color-penneyred">BLACK FRIDAY DEAL!</div>
                                             <div class="price price-M mrg-btm-XS">
                                                 <sup class="sup-text">$</sup>16 - <sup class="sup-text">$</sup>240
                                             </div>
                                             <div class="product-card-name-wrap">
-                                                <a href="/#/page-layouts/pdp" class="product-card-name std-txt std-txt-S std-txt-XS-at-S color-nightsky">Lorem Ipsumd Dolor Sit Amet Consec Ter Adpisicing Alit…</a>
+                                                <a href="/#/page-layouts/pdp" class="product-card-name std-txt std-txt-S std-txt-XS-at-S color-nightsky">Home Expressions™ Solid or Print Bath Wraps</a>
                                             </div>
                                             <div class="star-preview-col review-star mrg-top-XS">
                                                 <ul class="star-ratings-S">
@@ -698,7 +698,7 @@ class ProductCards extends Component {
                                             </div>
                                         </div>
                                         <div class="product-card-details">
-                                            <div class="promo-lbl promo-lbl-XS mrg-btm-XS color-penneyred">GREEN MONDAL DEAL!</div>
+                                            <div class="promo-lbl promo-lbl-XS mrg-btm-XS color-penneyred">BLACK FRIDAY DEAL!</div>
                                             <div class="price price-M">
                                                 <span class="mrg-rght-XS">
                                                 <sup class="sup-text-S">$</sup>11<sup class="sup-text-S">99</sup>
@@ -710,7 +710,7 @@ class ProductCards extends Component {
                                             </div>
                                            
                                             <div class="product-card-name-wrap">
-                                                <a href="/#/page-layouts/pdp" class="product-card-name std-txt std-txt-S std-txt-XS-at-S color-nightsky">Lorem Ipsumd Dolor Sit Amet Consec Ter Adpisicing Alit…</a>
+                                                <a href="/#/page-layouts/pdp" class="product-card-name std-txt std-txt-S std-txt-XS-at-S color-nightsky">Home Expressions™ Solid Bath Towels</a>
                                             </div>
                                             <div class="star-preview-col review-star mrg-top-XS">
                                                 <ul class="star-ratings-S">
@@ -780,7 +780,7 @@ class ProductCards extends Component {
 
                                         </div>
                                         <div class="product-card-details">
-                                            <div class="promo-lbl promo-lbl-XS mrg-btm-XS color-penneyred">GREEN MONDAL DEAL!</div>
+                                            <div class="promo-lbl promo-lbl-XS mrg-btm-XS color-penneyred">BLACK FRIDAY DEAL!</div>
                                             <span class="title title-XS from-label">from</span>
                                             <div class="price price-M flag flag-price"><sup class="sup-text">$</sup>29<sup class="sup-text">99</sup></div>
                                             <span class="price price-note color-penneyred after-coupon">after coupon</span>
@@ -788,7 +788,7 @@ class ProductCards extends Component {
                                                 <span class="mrg-rght-S">was $74.99 - $99.99</span>
                                             </div>
                                             <div class="product-card-name-wrap">
-                                                <a href="/#/page-layouts/pdp" class="product-card-name std-txt std-txt-S std-txt-XS-at-S color-nightsky">Lorem Ipsumd Dolor Sit Amet Consec Ter Adpisicing Alit…</a>
+                                                <a href="/#/page-layouts/pdp" class="product-card-name std-txt std-txt-S std-txt-XS-at-S color-nightsky">Home Expressions™ Solid Bath Towels</a>
                                             </div>
                                             <div class="star-preview-col review-star mrg-top-XS">
                                                 <ul class="star-ratings-S">
@@ -855,14 +855,14 @@ class ProductCards extends Component {
 
                                         </div>
                                         <div class="product-card-details">
-                                            <div class="promo-lbl promo-lbl-XS mrg-btm-XS color-penneyred">GREEN MONDAL DEAL!</div>
+                                            <div class="promo-lbl promo-lbl-XS mrg-btm-XS color-penneyred">BLACK FRIDAY DEAL!</div>
                                             <div class="price price-M flag flag-price"><sup class="sup-text">$</sup>29<sup class="sup-text">99</sup></div>
                                             <span class="price price-note color-penneyred after-coupon">after coupon</span>
                                             <div class="price price-note-M std-txt">
                                                 <span class="mrg-rght-S">was $74</span><span> 41% off</span>
                                             </div>
                                             <div class="product-card-name-wrap">
-                                                <a href="/#/page-layouts/pdp" class="product-card-name std-txt std-txt-S std-txt-XS-at-S color-nightsky">Lorem Ipsumd Dolor Sit Amet Consec Ter Adpisicing Alit…</a>
+                                                <a href="/#/page-layouts/pdp" class="product-card-name std-txt std-txt-S std-txt-XS-at-S color-nightsky">Home Expressions™ Solid Bath Towels</a>
                                             </div>
                                             <div class="star-preview-col review-star mrg-top-XS">
                                                 <ul class="star-ratings-S">
@@ -935,7 +935,7 @@ class ProductCards extends Component {
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="promo-lbl promo-lbl-XS mrg-btm-XS color-penneyred">GREEN MONDAL DEAL!</div>
+                                    <div class="promo-lbl promo-lbl-XS mrg-btm-XS color-penneyred">BLACK FRIDAY DEAL!</div>
                                     <div class="price price-M">
                                         <span class="mrg-rght-XS">
                                             <sup class="sup-text-S">$</sup>33<sup class="sup-text-S">99</sup>
@@ -946,7 +946,7 @@ class ProductCards extends Component {
                                         <span class="mrg-rght-S">was $74   </span>
                                         <span> 41% off</span>
                                     </div>
-                                    <div class="product-card-name std-txt std-txt-S color-nightsky">Lorem Ipsumd Dolor Sit Amet Consec Ter Adpisicing Alit…</div>
+                                    <div class="product-card-name std-txt std-txt-S color-nightsky">Home Expressions™ Solid Bath Towels</div>
                                     <div class="star-preview-col review-star mrg-top-XS">
                                         <ul class="star-ratings-S">
                                             <li class="star-ratings start-ratings-full">
@@ -1000,7 +1000,7 @@ class ProductCards extends Component {
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="promo-lbl promo-lbl-XS mrg-btm-XS color-penneyred">GREEN MONDAL DEAL!</div>
+                                    <div class="promo-lbl promo-lbl-XS mrg-btm-XS color-penneyred">BLACK FRIDAY DEAL!</div>
                                     <div class="price price-M color-penneyred">
                                         <span class="mrg-rght-XS">
                                             <sup class="sup-text-S">$</sup>33<sup class="sup-text-S">99</sup>
@@ -1011,7 +1011,7 @@ class ProductCards extends Component {
                                         <span class="mrg-rght-S">was $74   </span>
                                         <span> 41% off</span>
                                     </div>
-                                    <div class="product-card-name std-txt std-txt-S color-nightsky">Lorem Ipsumd Dolor Sit Amet Consec Ter Adpisicing Alit…</div>
+                                    <div class="product-card-name std-txt std-txt-S color-nightsky">Home Expressions™ Solid Bath Towels</div>
                                     <div class="star-preview-col review-star mrg-top-XS">
                                         <ul class="star-ratings-S">
                                             <li class="star-ratings start-ratings-full">
@@ -1073,14 +1073,14 @@ class ProductCards extends Component {
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="promo-lbl promo-lbl-XXS mrg-btm-XS color-penneyred">GREEN MONDAL DEAL!</div>
+                                    <div class="promo-lbl promo-lbl-XXS mrg-btm-XS color-penneyred">BLACK FRIDAY DEAL!</div>
                                     <span class="title title-XS from-label-S">from</span>
                                     <div class="price price-S flag flag-price"><sup class="sup-text-S">$</sup>29<sup class="sup-text-S">99</sup></div>
                                     <span class="price price-note color-penneyred after-coupon">after coupon</span>
                                     <div class="price price-note std-txt mrg-top-XS">
                                         <span class="mrg-rght-S">was $74.99 - $99.99</span>
                                     </div>
-                                    <div class="product-card-name std-txt std-txt-XS color-nightsky">Lorem Ipsumd Dolor Adpisicing Alit…</div>
+                                    <div class="product-card-name std-txt std-txt-XS color-nightsky">JCPenney Home™ Solid Bath Towels</div>
                                     <div class="star-preview-col review-star mrg-top-XS">
                                         <ul class="star-ratings-S">
                                             <li class="star-ratings start-ratings-full">
@@ -1133,13 +1133,13 @@ class ProductCards extends Component {
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="promo-lbl promo-lbl-XXS mrg-btm-XS color-penneyred">GREEN MONDAL DEAL!</div>
+                                    <div class="promo-lbl promo-lbl-XXS mrg-btm-XS color-penneyred">BLACK FRIDAY DEAL!</div>
                                     <div class="price price-S color-penneyred"><span class="title title-XS from-label-S">packages from</span><sup class="sup-text-S">$</sup>9,999<sup class="sup-text-S">99</sup>
                                     </div>
                                     <div class="price price-note std-txt mrg-top-XS">
                                         <span class="mrg-rght-S">was $9,999 - $9,999</span>
                                     </div>
-                                    <div class="product-card-name std-txt std-txt-XS color-nightsky">Lorem Ipsumd Dolor Adpisicing Alit…</div>
+                                    <div class="product-card-name std-txt std-txt-XS color-nightsky">JCPenney Home™ Solid Bath Towels</div>
                                     <div class="star-preview-col review-star mrg-top-XS">
                                         <ul class="star-ratings-S">
                                             <li class="star-ratings start-ratings-full">
@@ -1190,7 +1190,7 @@ class ProductCards extends Component {
                                         <div class="price price-note std-txt mrg-top-XS">
                                             <span class="mrg-rght-S">was $9,999 - $9,999</span>
                                         </div>
-                                        <div class="product-card-name std-txt std-txt-XS color-nightsky">Lorem Ipsumd Dolor Sit Amet Consec Ter Adpisicing Alit…</div>
+                                        <div class="product-card-name std-txt std-txt-XS color-nightsky">Home Expressions™ Solid Bath Towels</div>
                                         <div class="star-preview-col review-star mrg-top-XS">
                                             <ul class="star-ratings-S">
                                                 <li class="star-ratings start-ratings-full">
@@ -1234,7 +1234,7 @@ class ProductCards extends Component {
                                         <div class="price price-note std-txt mrg-top-XS">
                                             <span class="mrg-rght-S">was $74.99 - $99.99</span>
                                         </div>
-                                        <div class="product-card-name std-txt std-txt-XS color-nightsky">Lorem Ipsumd Dolor Sit Amet Consec Ter Adpisicing Alit…</div>
+                                        <div class="product-card-name std-txt std-txt-XS color-nightsky">Home Expressions™ Solid Bath Towels</div>
                                         <div class="star-preview-col review-star mrg-top-XS">
                                             <ul class="star-ratings-S">
                                                 <li class="star-ratings start-ratings-full">

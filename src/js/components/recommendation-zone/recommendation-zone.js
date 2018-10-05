@@ -244,7 +244,7 @@ class RecommendationZone
                           reg. $2,999 - $5,999
                   </div>
                         <div className="product-card-name std-txt std-txt-S color-nightsky">
-                          Lorem Ipsum Dolor Sec Mud Deler LoreM Dol…
+                          JCPenney Home™ Solid Bath Towels
             </div>
 
                         <div className="ratings-and-reviews">
@@ -295,7 +295,7 @@ class RecommendationZone
                             reg. $99.99
                   </div>
                         <div className="product-card-name std-txt std-txt-S color-nightsky">
-                        Lorem Ipsum Dolor Sec Mud Deler LoreM Dol…
+                        JCPenney Home™ Solid Bath Towels
             </div>
 
                         <div className="ratings-and-reviews">
@@ -349,7 +349,7 @@ class RecommendationZone
                           reg. $99.99
                   </div>
                         <div className="product-card-name std-txt std-txt-S color-nightsky">
-                        Lorem Ipsum Dolor Sec Mud Deler LoreM Dol…
+                        JCPenney Home™ Solid Bath Towels
             </div>
 
                         <div className="ratings-and-reviews">
@@ -398,7 +398,7 @@ class RecommendationZone
                         <div class="price price-M"><sup class="sup-text">$</sup>599<sup class="sup-text">99</sup></div>
                     </div>
                         <div className="product-card-name std-txt std-txt-S color-nightsky">
-                        Lorem Ipsum Dolor Sec Mud Deler LoreM Dol…
+                        JCPenney Home™ Solid Bath Towels
             </div>
 
                         <div className="ratings-and-reviews">
@@ -451,7 +451,7 @@ class RecommendationZone
                         was $60
                   </div>
                         <div className="product-card-name std-txt std-txt-S color-nightsky">
-                        Lorem Ipsum Dolor Sec Mud Deler LoreM Dol…
+                        JCPenney Home™ Solid Bath Towels
             </div>
 
                         <div className="ratings-and-reviews">
@@ -505,7 +505,7 @@ class RecommendationZone
                         was $299.99
                   </div>
                         <div className="product-card-name std-txt std-txt-S color-nightsky">
-                        Lorem Ipsum Dolor Sec Mud Deler LoreM Dol…
+                        JCPenney Home™ Solid Bath Towels
             </div>
 
                         <div className="ratings-and-reviews">
@@ -558,7 +558,7 @@ class RecommendationZone
                         was $499.99 - $699.99
                   </div>
                         <div className="product-card-name std-txt std-txt-S color-nightsky">
-                        Lorem Ipsum Dolor Sec Mud Deler LoreM Dol…
+                        JCPenney Home™ Solid Bath Towels
             </div>
 
                         <div className="ratings-and-reviews">
@@ -610,7 +610,7 @@ class RecommendationZone
                         was $4,999 - $6,999
                   </div>
                         <div className="product-card-name std-txt std-txt-S color-nightsky">
-                        Lorem Ipsum Dolor Sec Mud Deler LoreM Dol…
+                        JCPenney Home™ Solid Bath Towels
             </div>
 
                         <div className="ratings-and-reviews">
@@ -663,7 +663,7 @@ class RecommendationZone
                         reg. $2,999 - $5,999
                   </div>
                         <div className="product-card-name std-txt std-txt-S color-nightsky">
-                        Lorem Ipsum Dolor Sec Mud Deler LoreM Dol…
+                        JCPenney Home™ Solid Bath Towels
             </div>
 
                         <div className="ratings-and-reviews">
@@ -715,7 +715,7 @@ class RecommendationZone
                             reg. $99.99
                   </div>
                         <div className="product-card-name std-txt std-txt-S color-nightsky">
-                        Lorem Ipsum Dolor Sec Mud Deler LoreM Dol…
+                        JCPenney Home™ Solid Bath Towels
             </div>
 
                         <div className="ratings-and-reviews">
@@ -769,7 +769,7 @@ class RecommendationZone
                           reg. $99.99
                   </div>
                         <div className="product-card-name std-txt std-txt-S color-nightsky">
-                        Lorem Ipsum Dolor Sec Mud Deler LoreM Dol…
+                        JCPenney Home™ Solid Bath Towels
             </div>
 
                         <div className="ratings-and-reviews">
@@ -819,7 +819,7 @@ class RecommendationZone
                         <div class="price price-S"><sup class="sup-text">$</sup>599<sup class="sup-text">99</sup></div>
                     </div>
                         <div className="product-card-name std-txt std-txt-S color-nightsky">
-                        Lorem Ipsum Dolor Sec Mud Deler LoreM Dol…
+                        JCPenney Home™ Solid Bath Towels
             </div>
 
                         <div className="ratings-and-reviews">
@@ -873,7 +873,7 @@ class RecommendationZone
                         was $60
                   </div>
                         <div className="product-card-name std-txt std-txt-S color-nightsky">
-                        Lorem Ipsum Dolor Sec Mud Deler LoreM Dol…
+                        JCPenney Home™ Solid Bath Towels
             </div>
 
                         <div className="ratings-and-reviews">
@@ -927,7 +927,7 @@ class RecommendationZone
                         was $299.99
                   </div>
                         <div className="product-card-name std-txt std-txt-S color-nightsky">
-                        Lorem Ipsum Dolor Sec Mud Deler LoreM Dol…
+                        JCPenney Home™ Solid Bath Towels
             </div>
 
                         <div className="ratings-and-reviews">
@@ -980,7 +980,7 @@ class RecommendationZone
                         was $499.99 - $699.99
                   </div>
                         <div className="product-card-name std-txt std-txt-S color-nightsky">
-                        Lorem Ipsum Dolor Sec Mud Deler LoreM Dol…
+                        JCPenney Home™ Solid Bath Towels
             </div>
 
                         <div className="ratings-and-reviews">
@@ -1032,7 +1032,7 @@ class RecommendationZone
                         was $4,999 - $6,999
                   </div>
                         <div className="product-card-name std-txt std-txt-S color-nightsky">
-                        Lorem Ipsum Dolor Sec Mud Deler LoreM Dol…
+                        JCPenney Home™ Solid Bath Towels
             </div>
 
                         <div className="ratings-and-reviews">

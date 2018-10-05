@@ -46,9 +46,9 @@
               min-height: 34px;
             }
               @media (--viewport-md-down) {
-                  font-size: 14px;
-                  height: auto;
-                  min-height: 31px;
+                  font-size: 16px;
+                  padding: 6px 1px 12px;
+                  font-family: var(--font-body);
               }
           }
         }

@@ -692,7 +692,7 @@ class Header extends Component {
         <header class="main-menu">
           <div class="main-menu-promotional-banner">
             <div class="main-menu-promotional-banner-content">
-              <p class="S S-at-S mrg-zero main-menu-promotional-banner-text">Promotional font size is 14px… <a href="javascript:void(0);">See Details</a></p>
+              <p class="S S-at-S mrg-zero main-menu-promotional-banner-text">Black Friday Deals... <a href="javascript:void(0);">See Details</a></p>
               {/* <div class="main-menu-primary-account-link show-for-large-only show-for-xlarge-only show-for-xxlarge-only hide-for-medium-down title-XS side-panel-btn fl-right color-white mrg-rght-S" data-target="#camMenu"> Cam Menu </div>
               <div class="main-menu-primary-account-title show-for-large-only show-for-xlarge-only show-for-xxlarge-only hide-for-medium-down title-XS side-panel-btn fl-right color-white mrg-rght-S" data-target="#myAccount"> My Account </div>
               <div class="main-menu-primary-account-title show-for-large-only show-for-xlarge-only show-for-xxlarge-only hide-for-medium-down title-XS side-panel-btn fl-right color-white mrg-rght-S" data-target="#createAccount"> Create Account </div>
