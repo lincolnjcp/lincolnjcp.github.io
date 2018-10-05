@@ -29,7 +29,7 @@ class BFTestThree extends Component {
             </div>
             {/* <Header /> */}
             <div className="lg12 sm12 md12 xl12">
-              <h1 className="title title-XL fl-left black-friday-title">BLACK FRIDAY DEALS FOR BED AND BATH</h1>
+              <h1 className="title title-XL fl-left black-friday-title">Black Friday Deals for Bed and Bath</h1>
               <p className="std-txt std-txt-S fl-right black-friday-std-txt black-friday-shop-txt"><a href="/#/page-modules/product-cards">Shop All</a></p>
             </div>
             <div className="lg12 sm12 md12 xl12">
@@ -123,7 +123,7 @@ class BFTestThree extends Component {
           </div>
           <div>
             <div className="lg12 sm12 md12 xl12">
-              <h1 className="title title-XL fl-left black-friday-dep-title">shop bed and bath</h1>
+              <h1 className="title title-XL fl-left black-friday-dep-title">Shop Bed and Bath</h1>
             </div>
             <div class="department-container dept-nav mrg-btm-XXL mrg-top-M">
               <ul class="department-block">

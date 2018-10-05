@@ -29,7 +29,7 @@ class BFTestTwo extends Component {
                 <img src="/images/design-system/blackfridaydeal.png" alt="blackFridayImg" /></a>
             </div>
             <div className="lg12 sm12 md12 xl12 mrg-top-M">
-              <h1 className="title title-XL fl-left black-friday-dep-title">shop bed and bath</h1>
+              <h1 className="title title-XL fl-left black-friday-dep-title">Shop Bed and Bath</h1>
             </div>
             <ul class="department-block">
               <li class="lg3 md3 xl3 xxl3 sm6 nopad ">

@@ -1294,7 +1294,7 @@ class BfTestFour extends Component {
                     </div>
                     <br /><br />
                     <div className="lg12 sm12 md12 xl12">
-                        <h1 className="title title-XL fl-left black-friday-dep-title">shop bed and bath</h1>
+                        <h1 className="title title-XL fl-left black-friday-dep-title">Shop Bed and Bath</h1>
                     </div>
                     <div>
                         <div class="department-container dept-nav mrg-btm-XXL mrg-top-M">
