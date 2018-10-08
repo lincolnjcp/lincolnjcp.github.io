@@ -51,7 +51,6 @@
 
 .black-friday-card-inner {
     border-radius: 0;
-    /* border: 1px solid #cccccc; */
     padding: 7px 0 0 8px;
 }
 
@@ -128,9 +127,6 @@
 
     .black-friday-std-txt {
         margin: 54px 0 7px;
-        /* &.black-friday-shop-txt {
-            margin: 54px 0 7px;
-        } */
     }
 
     .black-friday-wrapper {
@@ -161,6 +157,7 @@
         height: 152px;
     }
 }
+
 @media (--viewport-xs-down) {
     .black-friday-title {
         width: 75%;
@@ -171,75 +168,6 @@
     }
 
     .black-friday-std-txt {
-        margin: 82px 0 7px;
-        /* &.black-friday-shop-txt {
-            margin: 82px 0 7px;
-        } */
+        margin: 54px 0 7px;
     }
-    
 }
-
-/*********************************
-/* Black Friday Test 2
-*********************************/
-
-.department-container {
-    & .sub-category {
-      @media (--viewport-md-down) {
-        display: block;
-        overflow-x: auto;
-        white-space: nowrap;
-        padding-top: 2px;
-      }
-    }
-    & li {
-        display: inline-block;
-        text-align: center;
-
-      & .viz-nav-img {
-          border-radius: 100%;
-          overflow: hidden;
-          transition: all var(--transition-time-S) ease-in-out;
-  
-        & img {
-            height: 150px;
-            border-radius: 100%;
-            @media (--viewport-md-down) {
-                height: 150px;
-            }
-        }
-      }
-  
-      & a {
-          text-decoration: none;
-          display: grid; 
-          &:hover .viz-nav-img {
-              transform: scale(1.05);
-          }
-          & h2 {
-            display: table-cell;
-            vertical-align: middle;
-          }
-        }
-      @media (--viewport-sm-down) {
-        margin-left: 0px;
-      }
-    }
-
-    & .black-banner-image {
-      margin: 0 0 20px;
-    }
-
-  }
-
-  .dept-nav {
-    & li {
-      & .viz-nav-img {
-          border-radius: 1px;
-        & img {
-            height: 150px;
-            border-radius: 1px;
-        }
-      }
-    }
-  }
